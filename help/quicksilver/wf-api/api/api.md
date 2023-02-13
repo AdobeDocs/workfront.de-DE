@@ -1,0 +1,43 @@
+---
+filename: _API
+content-type: api;reference
+navigation-topic: api-navigation-topic
+title: API
+description: Workfront API-Artikel
+author: John
+exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
+source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 1%
+
+---
+
+# API
+
+Dieser Abschnitt enthält die folgenden Artikel:
+
+* [Hochladen von Dateien über die API](../../wf-api/api/uploading-files-api.md)
+* [Beenden der Unterstützung für JSONP](../../wf-api/api/ending-support-jsonp.md)
+* [Filtern von Ereignis-Abonnementnachrichten](../../wf-api/api/filter-event-sub-messages.md)
+* [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
+* [Ereignisabonnementzertifikate](../../wf-api/api/event-sub-certs.md)
+* [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md)
+
+* [Core-API-Änderungen: Statussuchantworten](../../wf-api/api/api-changes-search.md)
+* [Aktualisieren von Integrationen, die die standardmäßige API-Versionierung verwenden](../../wf-api/api/update-default-api-versioning.md)
+* [Veraltete API-interne](../../wf-api/api/deprecation-api-internal.md)
+* [Escapezeichen in API-Antworten](../../wf-api/api/escaped-characters-api.md)
+* [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md)
+* [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md)
+* [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md)
+* [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Neue Funktionen in API Version 14](../../wf-api/api/new-api-version-14.md)
+* [Neue Funktionen in API Version 13](../../wf-api/api/new-api-version-13.md)
+* [Neue Funktionen in API Version 12](../../wf-api/api/new-api-version-12.md)
+* [Neue Funktionen in API Version 11](../../wf-api/api/new-api-version-11.md)
+* [Neue Funktionen in API Version 10](../../wf-api/api/new-api-version-10.md)
+* [Neue Funktionen in API Version 9](../../wf-api/api/new-api-version-9.md)
+* [Aktualisierungen für API Version 8](../../wf-api/api/new-api-version-8-updates.md)
+* [Neue Funktionen in API Version 7](../../wf-api/api/new-api-version-7.md)
+* [Neue Funktionen in API Version 6](../../wf-api/api/new-api-version-6.md)

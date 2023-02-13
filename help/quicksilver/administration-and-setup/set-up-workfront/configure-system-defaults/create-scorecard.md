@@ -1,0 +1,99 @@
+---
+user-type: administrator
+product-area: system-administration
+navigation-topic: configure-system-defaults
+title: Scorecard erstellen
+description: Eine Scorecard misst, wie gut ein Projekt mit den zuvor festgelegten Kriterien eines Portfolios übereinstimmt. Eine Scorecard spiegelt oft die Aufgaben, Werte und strategischen Ziele einer Organisation wider. Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl von Projekten sinnvoll und wertvoll sind. Ein [!DNL Adobe Workfront] -Administrator erstellt die Scorecards auf der Grundlage der Empfehlungen von Portfoliomanagern.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
+source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 0%
+
+---
+
+# Scorecard erstellen
+
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+Eine Scorecard misst, wie gut ein Projekt mit den zuvor festgelegten Kriterien eines Portfolios übereinstimmt. Eine Scorecard spiegelt oft die Mission, Werte und strategischen Ziele einer Organisation wider.
+
+Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts sinnvoll und wertvoll sind. Ein [!DNL Adobe Workfront] -Administrator erstellt die Scorecards auf der Grundlage der Empfehlungen von Portfoliomanagern.
+
+Die für eine Scorecard gewählten Fragen und Antworten müssen quantifizierbar sein, um einen Ausrichtungswert für den Vergleich verschiedener Projekte zu bieten.
+
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td> <p>[!UICONTROL Business] oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td>[!UICONTROL Plan]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Scorecard erstellen
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+
+1. Klicken **[!UICONTROL Scorecards]** Klicken Sie auf **[!UICONTROL Neue Scorecard]** , um eine neue Scorecard zu erstellen und den Scorecard Builder zu starten.
+
+1. Geben Sie eine **[!UICONTROL Scorecard-Name]** und **[!UICONTROL Beschreibung]**.
+
+   Der Name wird angezeigt, wenn Sie die Scorecard mit dem Projekt verknüpfen. Die Beschreibung wird neben dem Scorecard-Namen in der Scorecard-Liste angezeigt.
+
+1. Klicken Sie auf **[!UICONTROL Frage hinzufügen]** Dropdown-Menü zum Öffnen der [!UICONTROL Scorecard-Frage] und geben Sie dann die folgenden Informationen für Ihre Frage an:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Frage]</td> 
+      <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Points]</td> 
+      <td>Geben Sie die für diese Frage möglichen Maximalpunkte ein.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Negative Punkte]</td> 
+      <td>Wählen Sie diese Option, um anzugeben, dass [!DNL Workfront] sollten von den insgesamt möglichen Punkten abgezogen werden. Negative Werte können nicht zu den höchstmöglichen Punkten einer Scorecard hinzugefügt werden.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Anzeigetyp]</td> 
+      <td>Auswählen <strong>[!UICONTROL Wert(0-100)]</strong> , wenn Sie ein numerisches Feld in der Scorecard anzeigen möchten, in dem Benutzer einen beliebigen Wert zwischen 0 und 100 angeben können.<p>Oder wählen Sie <strong>[!UICONTROL Dropdown]</strong> oder <strong>[!UICONTROL Optionsfelder]</strong> , um eine Antwort zu erstellen, die Benutzer mithilfe dieses Steuerelements angeben können. Klicken <strong>[!UICONTROL Antwort hinzufügen]</strong>und geben Sie dann <strong>[!UICONTROL Wert]</strong> in Prozentpunkten für diese Antwort, falls sie erfüllt ist. Wenn Sie 100 % auswählen, wird die Anzahl der für diese Frage zugewiesenen Punkte vollständig erreicht. Wenn Sie angeben möchten, dass diese Antwort nur einen Teil der Gesamtanzahl der für diese Frage zugewiesenen Punkte enthält, wählen Sie einen niedrigeren Prozentwert aus. Wenn Ihre Frage beispielsweise bei 10 Punkten bewertet wird und Sie möchten, dass diese Antwort 5 dieser Punkte enthält, wählen Sie 50 % für Ihren Wert.</p>
+      <p>Auswählen <strong>[!UICONTROL Standard]</strong> , um anzugeben, dass diese Antwort die Standardantwort ist.</strong></p>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicken **[!UICONTROL Frage hinzufügen]** , um Ihrer Scorecard weitere Fragen und Antworten hinzuzufügen, indem Sie dieselben Schritte befolgen.
+
+   >[!NOTE]
+   >
+   >Sie können die Fragen in Ihrer Scorecard neu anordnen, indem Sie die Fragen in die richtige Reihenfolge ziehen und dort ablegen.
+
+1. Klicken **[!UICONTROL Speichern]** wenn Sie mit der Eingabe Ihrer Daten fertig sind.
+
+## Anwenden einer Scorecard auf ein Projekt
+
+Ein Benutzer mit [!UICONTROL verwalten] Berechtigungen für ein Projekt können eine Scorecard auf ein Projekt anwenden, nachdem die Scorecard von der [!DNL Workfront] Administrator.
+
+Im Rahmen der Erstellung eines Geschäftsszenarios für das Projekt wird einem Projekt eine Scorecard hinzugefügt. Weitere Informationen zum Hinzufügen einer Scorecard zu einem Projekt finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+
+Weitere Informationen zum Erstellen von Scorecards finden Sie unter [Scorecard erstellen](#create-a-scorecard).
+
+Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

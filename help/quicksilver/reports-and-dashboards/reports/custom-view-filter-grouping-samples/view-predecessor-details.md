@@ -1,0 +1,65 @@
+---
+content-type: reference
+product-area: reporting;projects
+navigation-topic: custom-view-filter-and-grouping-samples
+title: "Ansicht: vorherige Details"
+description: Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben, die eine Sammlungsansicht verwenden. In einer Sammlungsansicht können Sie Informationen zu Objekten anzeigen, die sich in einer Eins-zu-viele-Beziehung befinden. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Aufgaben sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und die Status der Vorgänger angezeigt.
+author: Lisa and Nolan
+feature: Reports and Dashboards
+exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 0%
+
+---
+
+# Ansicht: Details zu Vorgängern
+
+Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben, die eine Sammlungsansicht verwenden. In einer Sammlungsansicht können Sie Informationen zu Objekten anzeigen, die sich in einer Eins-zu-viele-Beziehung befinden. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Aufgaben sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und die Status der Vorgänger angezeigt.
+
+Informationen zum Referenzieren von Sammlungen in Berichten finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+
+![predecessor_details_task_view.png](assets/predecessor-details-task-view-350x34.png)
+
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
+## Anzeigen von Vorgängerdetails
+
+1. Gehen Sie zu einer Liste von Aufgaben.
+1. Aus dem **Ansicht** Dropdown-Menü auswählen **Neue Ansicht**.
+
+1. Im **Spaltenvorschau** -Bereich, alle Spalten außer einer entfernen.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In den Textmodus wechseln**.
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+   <pre>column.0.displayName=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valueField=name<br>column.0.valueFormat=HTML<br>column.1.displayName=predecessors Numbers &amp; Names<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(predecessors).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueExpression=CONCAT({predecessor}.{taskNumber},' - ',{predecessor}.{name})<br>column.1.valueFormat=HTML<br>column.2.displayName=predecessors Projektnamen<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(predecessors).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueExpression={predecessor}.{Projekt}.{name}<br>column.2.valueFormat=HTML<br>column.3.displayName=predecessorsAbschlussdatumswerte<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(predecessors).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueExpression={predecessor}.{scheduledCompletionDate}<br>column.3.valueFormat=HTML<br>column.4.displayName=predecessors status<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(predecessors).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueExpression={predecessor}.{status}<br>column.4.valueFormat=HTML</pre>
+
+1. Klicken **Ansicht speichern**.

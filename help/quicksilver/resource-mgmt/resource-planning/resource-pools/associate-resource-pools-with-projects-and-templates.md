@@ -1,0 +1,118 @@
+---
+product-area: resource-management
+navigation-topic: resource-pools
+title: Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen
+description: Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der Verwaltung von Ressourcen in Adobe Workfront helfen.
+author: Alina
+feature: Resource Management
+exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
+source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 0%
+
+---
+
+# Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen
+
+
+<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+-->
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).</p>
+<p>***I decided to keep these steps here, though, because it's hard to parse through those much lunger articles for just updating this one field.)</p>
+</div>
+-->
+
+Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der Verwaltung von Ressourcen in Adobe Workfront helfen.
+
+Nachdem Sie Ressourcen-Pools erstellt haben, können Sie diese mit Projekten oder Vorlagen verknüpfen, damit Sie Ihre Ressourcen später für die Projekte einsetzen können.
+
+Es wird empfohlen, die Ressourcen-Pools im Voraus zu erstellen, sie mit Projekten zu verknüpfen und die Ressourcen vor dem Projektstart zu finanzieren.
+
+Informationen zu Ressourcen-Pools finden Sie unter [Ressourcen-Pools - Übersicht](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+
+Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> <p>Pro und höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten, einschließlich Zugriff auf Ressourcen-Pools verwalten</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Verwalten von Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
+## Ressourcen-Pools mit einem Projekt oder einer Vorlage verknüpfen
+
+Sie können Ressourcen-Pools mit einer Vorlage auf dieselbe Weise verknüpfen wie Ressourcen-Pools mit einem Projekt. In diesem Artikel wird beschrieben, wie Sie Ressourcenpools mit Projekten verknüpfen können.
+
+1. Wechseln Sie zu einem Projekt und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/more-icon.png)neben dem Projektnamen klicken Sie dann auf **Bearbeiten**.
+
+1. Klicken **Projekteinstellungen**.
+
+1. Geben Sie den Namen eines Ressourcen-Pools im **Ressourcen-Pools** und wählen Sie es aus der Liste aus, wenn es angezeigt wird.\
+   Sie können mehrere Ressourcen-Pools mit einem Projekt oder einer Vorlage verknüpfen.
+
+   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+
+1. Klicken Sie auf **Speichern**.
+
+Weitere Informationen zum Bearbeiten und Verknüpfen eines Projekts mit Ressourcen-Pools finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+Weitere Informationen zum Bearbeiten einer Vorlage und zum Verknüpfen mit Ressourcen-Pools finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+## Ressourcenpools mit mehreren Projekten oder Vorlagen stapelweise verknüpfen
+
+Sie können mehrere Projekte oder Vorlagen stapelweise bearbeiten und dieselben Ressourcen-Pools mit allen gleichzeitig verknüpfen.
+
+Sie können Ressourcen-Pools mit Vorlagen auf die gleiche Weise wie Ressourcen-Pools mit Projekten verknüpfen.
+
+So verknüpfen Sie Ressourcenpools stapelweise mit mehreren Projekten:
+
+1. Gehen Sie zu einer Projektliste.
+1. Wählen Sie mehrere Projekte aus und klicken Sie dann auf das **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
+
+1. Klicken **Einstellungen**.
+1. Geben Sie den Namen eines Ressourcen-Pools im **Ressourcen-Pools** und wählen Sie es aus der Liste aus, wenn es angezeigt wird.\
+   Sie können den Projekten oder Vorlagen mehrere Ressourcen-Pools zuweisen.
+
+   >[!NOTE]
+   >
+   >Wenn Sie Projekte oder Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcen-Pools angezeigt, die für alle ausgewählten Projekte oder Vorlagen gelten. Wenn die ausgewählten Projekte keine gemeinsamen Ressourcen-Pools aufweisen, ist dieses Feld leer. Die Ressourcen-Pools, die Sie hier angeben, überschreiben die einzelnen Ressourcen-Pools der Projekte oder Vorlagen.
+
+<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
+
+![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+
+1. Klicken **Änderungen speichern**.\
+   Wenn Ihre Ressourcen-Pools mit Ihren Projekten oder Vorlagen verknüpft sind, können Sie im Ressourcenplaner Benutzerzuweisungen für Ihre Projekte einplanen.\
+   Weitere Informationen zum Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
+Weitere Informationen zum Massenbearbeitung von Projekten finden Sie im Abschnitt &quot;Mehrere Projekte bearbeiten&quot;unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+Weitere Informationen zum Massenbearbeitung von Vorlagen finden Sie im Abschnitt &quot;Vorlagen stapelweise bearbeiten&quot;unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).

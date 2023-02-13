@@ -1,0 +1,99 @@
+---
+content-type: overview
+title: Übersicht über Breadcrumbs
+description: Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an.
+feature: Get Started with Workfront
+exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
+source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 1%
+
+---
+
+# Übersicht über Breadcrumbs
+
+Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, die Sie sich derzeit befinden, wird sowohl im Seitenkopf als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies der[!UICONTROL Freigeben mit Brand Team]&quot;.
+
+![Reduzierte Breadcrumb-Leiste](assets/NWE-collapsed-breadcrumb.png)
+
+Wenn sich im Breadcrumb-Pfad zu viele Objekte befinden oder die Bildschirmbreite die Anzeige der vollständigen Navigationshierarchie verhindert, reduziert der Pfad einige Breadcrumbs und gruppiert diese Objekte am Anfang des Breadcrumb-Pfads. Sowohl das Projekt als auch die aktuelle Objektseite sind immer im Breadcrumb-Pfad sichtbar.
+
+Beispielsweise bedeutet &quot;3 weitere&quot;im Bild oben, dass 3 Objekte nicht angezeigt werden. Diese Elemente können sich über der Projektebene oder zwischen dem Projekt und der aktuellen Seite befinden.
+
+Klicken Sie auf &quot;[!UICONTROL more]&quot; ermöglicht Ihnen, die vollständige Hierarchie zu erweitern. Sie können auf &quot;[!UICONTROL Weniger]&quot;, um den Breadcrumb-Pfad erneut zu reduzieren.
+
+![Erweitertes Breadcrumb](assets/NWE-expanded-breadcrumb.png)
+
+Sie können auch die folgenden Schlüssel verwenden, um in den Breadcrumbs zu navigieren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Tab.</strong> </td> 
+   <td> <p>Navigieren zu jedem Element in den Breadcrumbs</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Eingabe</strong> </td> 
+   <td> <p>Erweitern Sie einen reduzierten Breadcrumb-Pfad, reduzieren Sie einen erweiterten Breadcrumb-Pfad und öffnen Sie eine neue Seite, wenn Sie sich auf einem Objektlink befinden.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+++ + Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+
++++
+
+<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+
+## Multi-object breadcrumbs
+
+>[!NOTE]
+>
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta].
+
+Some objects can belong to multiple parent objects. For example, a project can belong to multiple campaigns. In this case, all the campaigns that the project belongs to display in the breadcrumb.
+
+The multi-object listing in the breadcrumb (for example, the campaigns) displays the number of parent objects which expands into a list to display all the campaigns that the project is associated with. For more information, see [Add objects to a campaign](../../manage-work/campaigns/add-objects-to-a-campaign.md).
+
+
+![Project with multiple campaigns in the breadcrumb](assets/project-with-multiple-campaigns-in-breadcrumb.png)
+
+-->
+
+## Zugreifen auf ein übergeordnetes Objekt über die Breadcrumbs
+
+Informationen zu übergeordneten Objekten in [!DNL Workfront], siehe [Objekte in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
+1. (Bedingt) Wenn das Objekt, zu dem Sie in einem reduzierten Breadcrumb-Pfad navigieren möchten, nicht angezeigt wird, klicken Sie auf **[!UICONTROL more]** und suchen Sie dann das Objekt.
+
+   >[!NOTE]
+   >
+   >Wenn Sie keine Berechtigung für ein Objekt haben, ist es in den Breadcrumbs nicht sichtbar.
+
+1. Klicken Sie auf ein Objekt im Breadcrumb-Pfad, um auf dieses Objekt zuzugreifen.
+
+   Die Objektseite wird geöffnet.

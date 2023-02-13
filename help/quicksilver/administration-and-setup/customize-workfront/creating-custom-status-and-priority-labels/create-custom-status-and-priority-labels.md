@@ -1,0 +1,37 @@
+---
+title: Status und Prioritätsbezeichnungen
+user-type: administrator
+content-type: reference
+product-area: system-administration
+navigation-topic: customize-workfront
+description: Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Projekte, Aufgaben und Probleme erstellen. Diese können für Benutzer im gesamten Workfront-System oder für bestimmte Gruppen oder Untergruppen verwendet werden. Der Status eines Arbeitselements stellt den aktuellen Entwicklungsstatus dar.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
+
+---
+
+# Benutzerdefinierte Status und Prioritätsbezeichnungen erstellen
+
+Dieser Abschnitt enthält die folgenden Artikel:
+
+* [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
+* [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+* [Zugriff auf die Liste der Systemaufgabenstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [Zugriff auf die Liste der Systemfehlerstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
+* [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+* [Neuanordnen der Status auf Systemebene und Gruppe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
+* [Status auf Systemebene gesperrt und entsperrt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
+* [Verwenden benutzerdefinierter Status als Standardstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
+* [Benutzerdefinierten Status löschen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
+* [Auflisten von Objekten mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
+* [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+* [Erstellen oder Anpassen von Problemschwerpunkten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+
+Informationen zu den Status auf Gruppenebene finden Sie unter [Verwalten von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

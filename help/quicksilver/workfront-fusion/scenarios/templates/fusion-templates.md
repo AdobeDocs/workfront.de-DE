@@ -1,0 +1,34 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: scenarios
+title: Szenario-Vorlagen
+description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+author: Becky
+feature: Workfront Fusion
+exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
+source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
+
+---
+
+# Szenario-Vorlagen
+
+>[!INFO]
+>
+>[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
+
+[!DNL Workfront Fusion]Mit der Vorlagenfunktion können Sie vorhandene Vorlagen erstellen und als Ausgangspunkt für Ihre [!DNL Workfront Fusion] Szenarien.
+
+Dieser Abschnitt enthält die folgenden Artikel:
+
+* [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Veröffentlichen und freigeben [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [Erstellen von Szenarien mit [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [Anzeigen, Bearbeiten und Löschen [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion] Vorlagenverwaltung](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
+* [[!DNL Adobe Workfront Fusion] FAQs zu Vorlagen](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [Aktuell verfügbar [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

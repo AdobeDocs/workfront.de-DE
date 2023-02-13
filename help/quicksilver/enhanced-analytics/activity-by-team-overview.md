@@ -1,0 +1,138 @@
+---
+title: Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics
+content-type: overview
+product-area: enhanced-analytics
+navigation-topic: enhanced-analytics-navigation-topic
+description: Die Visualisierung "Aktivität nach Team"zeigt Aktivitäten an, die während eines bestimmten Zeitraums für ein Heimteam stattfinden, sodass Sie verstehen können, wie verschiedene Teams zu Hause ihre Zeit in Adobe Workfront verbracht haben. Je nachdem, wie Ihr Heimteam in Workfront eingerichtet ist, können Sie mit dieser Visualisierung verschiedene Einblicke erhalten und verschiedene Fragen beantworten.
+author: Nolan
+feature: Reports and Dashboards
+exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
+source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 0%
+
+---
+
+# Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics
+
+Die Visualisierung &quot;Aktivität nach Team&quot;zeigt Aktivitäten an, die während eines bestimmten Zeitraums für ein Heimteam stattfinden, sodass Sie verstehen können, wie verschiedene Teams zu Hause ihre Zeit in Adobe Workfront verbracht haben. Je nachdem, wie Ihr Heimteam in Workfront eingerichtet ist, können Sie mit dieser Visualisierung verschiedene Einblicke erhalten und verschiedene Fragen beantworten.
+
+>[!NOTE]
+>
+>Die Visualisierung der Projektaktivität ähnelt dieser Visualisierung, zeigt jedoch Aktivitäten basierend auf Personen an, die Projekten zugewiesen sind, anstatt auf Personen, die einem Startseiten-Team zugewiesen sind.\
+>Informationen zur Visualisierung der Projektaktivität finden Sie unter [Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse](../enhanced-analytics/project-activity-overview.md).
+
+![](assets/activity-by-team-350x113.png)
+
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a>*</td> 
+   <td> <p>Unternehmen oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
+   <td> <p>Überprüfen oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
+## Voraussetzungen
+
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Erläuterung der Visualisierung &quot;Aktivität nach Team&quot;
+
+Die verschiedenen Aktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereignisse über den gefilterten Zeitraum zusammenzufassen:
+
+* **Benutzer angemeldet**: Die lilafarbenen Kästchen zeigen, dass sich die Leute im Heimteam an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
+
+   ![](assets/project-activity-users-logged-in.png)
+
+* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen, dass Personen im Startseiten-Team an diesem Tag den Status einer Aufgabe geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
+
+   ![](assets/project-activity-task-status-changes.png)
+
+* **Abgeschlossene Aufgaben**: Blaue Kisten zeigen, dass die Leute im Zuhause-Team an diesem Tag eine Aufgabe abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
+
+   ![](assets/project-activity-tasks-completed.png)
+
+Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Aktion an einem bestimmten Tag abgeschlossen wurde. Sie können ein Team auswählen, um eine Aufschlüsselung dieser Aktivitäten nach den einzelnen Personen im Startseiten-Team anzuzeigen.
+
+Anhand dieser Informationen können Sie Folgendes feststellen:
+
+* Welche Aktivitäten werden in einem Home-Team durchgeführt und wie hoch ist der Anteil?
+* Welche Heimteams überarbeitet werden oder das System verwenden mehr.
+* Wenn die Verteilung der Arbeit für das Heimteam geeignet ist.
+
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Ansicht der Aktivität nach Teamvisualisierung
+
+1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+1. Wählen Sie im linken Bereich die Option **Personen**.
+
+   ![](assets/people-area-cropped-qs-350x276.png)
+
+1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die Teams aus, für die Sie Daten anzeigen möchten.
+
+   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
+
+1. (Optional) Wenn Sie einen Datumsbereich vergrößern möchten, wählen Sie einen Punkt auf der Visualisierung für den Anfang Ihres Datumsbereichs aus und ziehen Sie ihn an das Ende Ihres Datumsbereichs.
+
+   Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und es wird ein Zeitrahmen-Filter erstellt.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. Auf Teamnamen klicken
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   or role
+   </MadCap:conditionalText>
+   -->
+
+   um weitere Details zu den vom Startseiten-Team abgeschlossenen Aktivitäten anzuzeigen.
+
+   Die Liste wird erweitert und zeigt die Aktivitäten jeder dem Startseiten-Team zugewiesenen Person an.
+
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Role not available</span>
+   -->
+
+1. Bewegen Sie den Mauszeiger über ein farbiges Feld, um das Datum anzuzeigen, an dem die Benutzer eine Aktion abgeschlossen haben, sowie die Anzahl der Fertigstellungen der Aktion an diesem Tag.
+
+   Dunklere Farben zeigen eine höhere Aktivität an.
+
+   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das Symbol Exportieren . ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+
+   * **Diagramm (PNG)**
+   * **Datentabelle (XSLX)**
+

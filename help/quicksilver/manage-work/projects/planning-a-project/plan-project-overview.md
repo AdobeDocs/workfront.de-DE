@@ -1,0 +1,39 @@
+---
+content-type: overview;reference
+product-area: projects
+navigation-topic: create-and-manage-projects
+title: Projekt planen
+description: Die folgenden Artikel enthalten Informationen zu Projekten, zum Projektteam und zur Projektplanung.
+author: Alina
+feature: Work Management
+exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
+source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
+
+---
+
+# Projekt planen
+
+Informationen zu Projektinformationen, zum Projektteam und zur Projektplanung finden Sie in den folgenden Artikeln:
+
+* [Projektübersicht planen](../../../manage-work/projects/planning-a-project/plan-project.md)
+* [Bestimmen der Arbeitsaufschlüsselungsstruktur in einem Projekt](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+* [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md)
+* [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md)
+* [Budget- und Planen von Projektressourcen](../../../manage-work/projects/planning-a-project/budget-and-schedule-project-resources.md)
+* [Anzeigen von geplanten Projektstunden im Bereich &quot;Rollenzuweisung&quot;](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md)
+* [Übersicht über Projekteigentümer und Projektsponsoren](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md)
+* [Projekteigentümer und -sponsoren aktualisieren](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)
+* [Ressourcen-Manager für ein Projekt oder eine Vorlage bestimmen](../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md)
+* [Übersicht über das tatsächliche Abschlussdatum des Projekts](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)
+* [Übersicht über das geplante Projektstartdatum](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)
+* [Übersicht über das tatsächliche Projektstartdatum](../../../manage-work/projects/planning-a-project/project-actual-start-date.md)
+* [Übersicht über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
+* [Übersicht über den Projektaktualisierungstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)
+* [Projektprioritäten verstehen und aktualisieren](../../../manage-work/projects/planning-a-project/project-priority.md)
+* [Übersicht über den Projektstatus](../../../manage-work/projects/planning-a-project/project-progress-status.md)
+* [Festlegen des geplanten Abschlussdatums des Projekts](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Übersicht über das vorgeschlagene Projektstartdatum](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)
+* [Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)

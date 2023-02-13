@@ -1,0 +1,25 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: workfront-fusion-2-0
+title: Grundlagen zu Adobe Workfront Fusion
+description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+author: Becky
+feature: Workfront Fusion
+exl-id: 8c933a29-0fdd-4c00-92d9-931e70e2e093
+source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
+
+---
+
+# Grundlagen zu Adobe Workfront Fusion
+
+Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+Dieser Abschnitt enthält die folgenden Artikel:
+
+* [Profileinstellungen ändern in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [Benutzerdaten löschen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [[!DNL Adobe Workfront Fusion] FAQs](../../workfront-fusion/workfront-fusion-basics/faq.md)

@@ -1,0 +1,96 @@
+---
+content-type: overview;how-to-procedural
+product-area: projects
+navigation-topic: financials
+title: Berechnung des Zeitplan-Leistungsindex (SPI)
+description: Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplanten und dem tatsächlichen Zeitplan.
+author: Alina
+feature: Work Management
+exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
+source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 1%
+
+---
+
+# Berechnung des Zeitplan-Leistungsindex (SPI)
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
+-->
+
+Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplanten und dem tatsächlichen Zeitplan. Adobe Workfront berechnet SPI auf Projekt- und Aufgabenebene. Projektmanager überprüfen diese Metrik, um festzustellen, ob Aufgaben oder Projekte derzeit vor oder hinter dem Zeitplan nachverfolgt werden.
+
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Überprüfen oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte und Finanzdaten anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
+## Übersicht über den Zeitplan-Leistungsindex (SPI)
+
+* [Was der SPI-Wert anzeigt](#what-the-spi-value-shows)
+* [Berechnung von SPI durch Workfront](#how-workfront-calculates-spi)
+
+### Was der SPI-Wert anzeigt {#what-the-spi-value-shows}
+
+Projektmanager wissen, dass ein SPI-Wert von 1 bedeutet, dass das Projekt planmäßig oder planmäßig durchgeführt wird.  Werte größer als 1 weisen darauf hin, dass ein Projekt vor dem Zeitplan liegt und Werte kleiner als 1 bedeuten, dass ein Projekt hinter dem Zeitplan liegt.  Je weiter von 1, desto größer ist die Abweichung vom Plan.
+
+| **SPI-Wert** | **Angabe von &quot;On Schedule&quot;** |
+|---|---|
+| 1 | Im Plan oder planmäßig |
+| > 1 (größer als 1) | Vorfeld des Zeitplans |
+| &lt; 1 (weniger als 1) | Hinter dem Zeitplan |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Berechnung von SPI durch Workfront  {#how-workfront-calculates-spi}
+
+Workfront berechnet SPI anhand der folgenden Formel:
+
+```
+SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
+```
+
+*&#42;Wenn die geplanten Stunden bis Datum = 0, SPI = 1 sind*.
+
+Geplante Stunden Planen bis Datum werden zu dem Zeitpunkt berechnet, zu dem Sie die Berechnungen durchführen. Sie zeigt die Anzahl der geplanten Stunden bis zum aktuellen Datum an. Sie kann automatisch neu berechnet werden, wenn Sie Ihre Finanzdaten zur Genauigkeit ändern. In Workfront gibt es kein Feld, das diesen Wert angibt.
+
+Wenn Sie beispielsweise ein Projekt mit einer Aufgabe haben und die Aufgabe 10 geplante Stunden und eine 10-tägige Dauer umfasst, beträgt der Zeitplan für geplante Stunden bis zum Datum des 5. Tages 5. 
+
+## SPI in einem Projekt oder einer Aufgabe suchen
+
+1. Wechseln Sie zum Projekt oder zur Aufgabe, in dem/der SPI angezeigt werden soll.
+1. Je nachdem, ob Sie SPI für ein Projekt oder eine Aufgabe anzeigen möchten, führen Sie einen der folgenden Schritte aus:
+
+   1. Klicken **Projektdetails** im linken Bereich angezeigt. Zeigen Sie dann die **Finanzen** Bereich.
+
+   1. Klicken **Aufgabendetails** im linken Bereich angezeigt. Zeigen Sie dann die **Finanzen** Bereich.
+
+      ![](assets/spi-on-project-nwe.png)
+
+1. Suchen Sie die **CPI/SPI/CSI** -Feld.
