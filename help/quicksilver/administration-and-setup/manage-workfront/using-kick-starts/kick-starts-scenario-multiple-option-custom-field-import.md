@@ -8,7 +8,7 @@ description: Mit der Kick-Start-Funktion können Sie benutzerdefinierte Felder m
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Beispiele für benutzerdefinierte Felder mit mehreren Optionen:
 * Mehrfachauswahl-Dropdown
 * Dropdown
 * Kontrollkästchen
-* Optionsschaltflächen.
+* Optionsschaltflächen
 
 Diese Felder können manchmal viele (manchmal Hunderte) Optionen haben. Durch den Import mit der Kick-Start-Funktion sparen Sie als Workfront-Administrator viel Zeit und vermeiden Fehler.
 
-Führen Sie die in den folgenden Abschnitten beschriebenen Schritte aus, um benutzerdefinierte Felder mit mehreren Optionen mithilfe eines Schnellstarts zu importieren:
+>[!IMPORTANT]
+>
+>Führen Sie die in den folgenden Abschnitten beschriebenen Schritte aus, um benutzerdefinierte Felder mit mehreren Optionen mithilfe eines Schnellstarts zu importieren:
+>
+>1. Exportieren vorhandener benutzerdefinierter Daten aus Workfront (optionaler Schritt)
+>1. Exportieren der Kick-Start-Vorlage für benutzerdefinierte Daten
+>1. Füllen der Excel Kick-Start-Tabelle
+>1. Hochladen der Excel-Tabelle in Workfront
 
-1. Exportieren vorhandener benutzerdefinierter Daten aus Workfront (optionaler Schritt)
-1. Exportieren der Kick-Start-Vorlage für benutzerdefinierte Daten
-1. Füllen der Excel Kick-Start-Tabelle
-1. Hochladen der Excel-Tabelle in Workfront
+
 
 ## Exportieren vorhandener benutzerdefinierter Daten aus Workfront (optionaler Schritt)
 
@@ -115,15 +119,20 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
 1. Öffnen Sie die Excel-Tabelle, die Sie im vorherigen Abschnitt heruntergeladen haben, und beachten Sie eine Reihe von Arbeitsblättern. Jedes Blatt stellt ein Objekt in der Anwendung dar.
 
-   Beispiel: **Parameter** (bezieht sich auf &quot;Benutzerdefiniertes Feld&quot;), **Parameteroption**(bezieht sich auf die Option Benutzerdefiniertes Feld ), **Kategorie** (bezieht sich auf &quot;Benutzerdefiniertes Formular&quot;).
+   >[!INFO]
+   >
+   >Beispiel: **Parameter** (bezieht sich auf &quot;Benutzerdefiniertes Feld&quot;), **Parameteroption**(bezieht sich auf die Option &quot;Benutzerdefiniertes Feld&quot;), **Kategorie** (bezieht sich auf &quot;Benutzerdefiniertes Formular&quot;).
+   >
+   >Sie müssen die Namen der Objekte und deren Attribute in dem von der Workfront-Datenbank unterstützten Format schreiben.
+   >
+   >Weitere Informationen zur Bedeutung dieser Objekte finden Sie unter [Glossar zu Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   Sie müssen die Namen der Objekte und deren Attribute in dem von der Workfront-Datenbank unterstützten Format schreiben.
 
-   Weitere Informationen zur Bedeutung dieser Objekte finden Sie unter [Glossar zu Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Stellen Sie sicher, dass die folgenden Informationen korrekt formatiert sind:
@@ -164,7 +173,9 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
    * **`setName`** = geben Sie den Namen der benutzerdefinierten Felder ein, wie er in Workfront angezeigt werden soll.
 
-      Beispielsweise können wir zwei benutzerdefinierte Felder importieren, die _Marke_, ein Kontrollkästchen und _Medien_, ein Optionsfeld.
+      >[!INFO]
+      >
+      >Beispielsweise können wir zwei benutzerdefinierte Felder importieren, die _Marke_, ein Kontrollkästchen und _Medien_, ein Optionsfeld.
 
    * Die **`setName`** und **`setValue`** -Spalten enthalten in der Regel dieselben Informationen und sollten die Namen widerspiegeln, die in der Workfront-Benutzeroberfläche für Ihr neues Feld gewünscht werden.
    Der Wert eines Felds ist der Name, der beispielsweise in Berichten angezeigt wird, während der Name in den benutzerdefinierten Formularen angezeigt wird, die an Objekte angehängt sind.
