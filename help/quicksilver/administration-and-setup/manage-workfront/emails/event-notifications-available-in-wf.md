@@ -429,10 +429,10 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesene Arbeit](
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentanforderung hinzugefügt an Anfrage zugewiesen zu</p> </td> 
-   <td> <p>Dokumente zu meiner Anfrage werden hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.&lt;!— ENTWICKELT IN FLARE: Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter 
+   <td> <p>Dokumente zu meiner Anfrage werden hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.<!-- ENTWICKELT IN FLARE: Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Überblick über die Registerkarte "Warteschlangendetails"in einem Projekt</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
