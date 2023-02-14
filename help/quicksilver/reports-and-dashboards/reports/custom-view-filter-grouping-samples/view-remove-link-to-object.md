@@ -85,19 +85,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >   
    >   
    >   * Löschen Sie alle Zeilen, die mit > beginnen.
-
-      >   
-      >     ```>   
-      >     link.
-      >     ```   >   
-      >   
-      >     
-      from the original text of the column. For example, eliminate all the following lines:
-      >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-      >   
-      >   
-      >
-
-
+   >   
+   >     ```>   
+   >     link.
+   >     ```   >   
+   >   
+   >     from the original text of the column. For example, eliminate all the following lines:
+   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   >   
+   >   
+   >
 
 1. Klicken **Speichern**, dann **Ansicht speichern**.
