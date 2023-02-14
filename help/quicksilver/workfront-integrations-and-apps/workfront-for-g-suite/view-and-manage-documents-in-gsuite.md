@@ -7,14 +7,18 @@ description: Sie können Dokumente anzeigen und verwalten, die mit einem [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Anzeigen und Verwalten von Dokumenten aus [!DNL G Suite]
+
+>[!NOTE]
+>
+>Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
 
 Sie können Dokumente anzeigen und verwalten, die mit einem [!DNL Adobe Workfront] Objekt ohne Hinterlassen [!DNL G Suite].
 

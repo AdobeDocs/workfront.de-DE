@@ -7,14 +7,18 @@ description: Ohne G Suite verlassen zu müssen, können Sie ein neues Update ode
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
 
 # Aktualisieren von [!DNL Adobe Workfront] Objekt von [!DNL G Suite]
+
+>[!NOTE]
+>
+>Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
 
 Ohne Abfahren [!DNL G Suite], können Sie ein neues Update oder eine Antwort auf ein vorhandenes Update auf einer [!DNL Adobe Workfront] -Objekt.
 

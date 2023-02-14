@@ -7,14 +7,18 @@ description: Sie können die Details eines Arbeitselements anzeigen und verwalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Anzeigen und Verwalten [!DNL Adobe Workfront] Objektdetails aus [!DNL G Suite]
+
+>[!NOTE]
+>
+>Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
 
 Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne [!DNL G Suite]. Sie können beispielsweise die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen kennzeichnen, alles innerhalb von [!DNL Adobe Workfront for G Suite].
 

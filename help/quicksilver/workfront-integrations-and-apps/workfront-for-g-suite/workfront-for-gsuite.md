@@ -8,14 +8,18 @@ description: Adobe Workfront for G Suite verbindet Sie mit Ihrer wichtigsten Arb
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
 
 [!DNL Adobe Workfront for G Suite] verbindet Sie mit Ihrer wichtigsten Arbeit und ermöglicht Ihnen die Zusammenarbeit mit anderen, während Sie in [!DNL Gmail], [!DNL Google Calendar]und [!DNL Google Drive]. Ohne diese Anwendungen verlassen zu müssen, können Sie per E-Mail gesendete Anfragen oder Aktualisierungen erfassen und sie zu [!DNL Workfront]. Sie können überprüfen, was in [!DNL Workfront], einschließlich Fälligkeitsdaten, Priorität, Dokumente, Aktualisierungen und zusätzlichen Kontext, ohne Ihren Posteingang verlassen zu müssen. Sie können Genehmigungsentscheidungen treffen, Kommentare beantworten oder neue Arbeitsanfragen annehmen. Und Sie können Ihre E-Mails entweder in persönliche Projektaufgaben konvertieren oder anderen Aufgaben und Prioritäten zuweisen.
 

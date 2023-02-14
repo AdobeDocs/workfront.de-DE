@@ -7,14 +7,18 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # Aktualisieren von [!DNL Adobe Workfront] Element aus [!DNL G Suite] Verwenden von E-Mail-Inhalten
+
+>[!NOTE]
+>
+>Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
 
 Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem mit Informationen aus einem Nicht-Netzwerk aktualisieren[!DNL Adobe Workfront] E-Mail.
 
