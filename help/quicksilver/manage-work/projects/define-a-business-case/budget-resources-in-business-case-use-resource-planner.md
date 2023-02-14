@@ -5,7 +5,7 @@ description: Im Rahmen der Ressourcenplanung können Sie den Ressourcen-Planer a
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -13,6 +13,10 @@ ht-degree: 0%
 ---
 
 # Budgetressourcen im Business Case mithilfe des Resource Planers
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Im Rahmen der Ressourcenplanung können Sie den Ressourcen-Planer auf Projektebene verwenden, um beim Erstellen des Geschäftsfalls die für das Abschließen der Arbeit in einem Projekt erforderlichen Arbeitsplatzrollen zu planen.
 
@@ -169,3 +173,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Geschäftsfall für
    Kosten werden im Geschäftsfall in der Währung des Projekts angezeigt.
 
    Die im Geschäftsszenario angegebenen Budgetierungsinformationen werden auch im Ressourcen-Planer angezeigt.
+
+   <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->
