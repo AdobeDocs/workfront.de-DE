@@ -92,14 +92,14 @@ A [!DNL Microsoft Word] Vorlage ist eine normale [!DNL Microsoft Word] Dokument 
 Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem [!UICONTROL Schlüssel] Wert des Felds, der in zwei geschweifte Klammern gesetzt wird; Beispiel:
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 .
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie eine [!DNL Microsoft Word Template] -Modul, um die folgende Vorlage zu erstellen:
 
-<pre>&gt; Hi {{name}}!</pre>
+<pre>> Hi &#123;&#123;name&#125;&#125;!</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -110,7 +110,7 @@ Dazu richten Sie das -Modul wie folgt ein:
 Sie können ein Bedingungs-Tag verwenden, um Text einzuschließen, der nur gerendert werden soll, wenn bestimmte Bedingungen erfüllt sind. Um den Text einzuschließen, platzieren Sie ihn zwischen öffnenden und schließenden Bedingungs-Tags wie &quot;hasPhone&quot;, wenn die Bedingung lautet, ob die Daten eine Telefonnummer enthalten oder nicht. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt, dem Namen eines schließenden Tags ein Schrägstrich vorangestellt, wie im folgenden Beispiel gezeigt.
 
 **Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
-<pre>&gt; {{#hasPhone}}Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-Mail: {{email}} {{/hasEmail}}</pre>Dazu richten Sie das -Modul wie folgt ein:
+<pre>> &#123;&#123;#hasPhone&#125;&#125;Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;E-Mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Dazu richten Sie das -Modul wie folgt ein:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt; {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
