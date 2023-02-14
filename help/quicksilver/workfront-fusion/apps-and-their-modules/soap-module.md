@@ -69,29 +69,22 @@ Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterst�
 >Folgendes würde nicht richtig erkannt durch [!UICONTROL Workfront Fusion]:
 >
 >
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
->   
-  <complexContent>
+>   <complexContent>
 >
->      
-     <restriction base="soapenc:Array">
+>      <restriction base="soapenc:Array">
 >
->         
-        <attribute ref="soapenc:arrayType"
+>         <attribute ref="soapenc:arrayType"
 >
->            
-           wsdl:arrayType="xsd:integer[]"/>
+>            wsdl:arrayType="xsd:integer[]"/>
 >
->      
-     </restriction>
+>      </restriction>
 >
->   
-  </complexContent>
+>   </complexContent>
 >
->
-</complexType>
+></complexType>
 >```
 
 Er enthält die `soapenc:Array`, `soapenc:arrayType` und `wsdl:arrayType` -Verweise, die noch nicht unterstützt werden in [!UICONTROL Workfront Fusion].
