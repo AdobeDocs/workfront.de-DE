@@ -220,10 +220,10 @@ Siehe auch [Benachrichtigungen: Ich habe](../../../workfront-basics/using-notifi
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentanforderung hinzugefügt an Primärer Kontakt für die Anfrage</p> </td> 
-   <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist. &lt;!— ENTWICKELT IN FLARE: Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter 
+   <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist. <!-- ENTWICKELT IN FLARE: Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Überblick über die Registerkarte "Warteschlangendetails"in einem Projekt</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
