@@ -134,16 +134,19 @@ Sie können Ihre Ressourcen für einen Zeitraum von 15 Jahren einplanen. Wenn Si
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Wenn Sie ein Projekt kopieren und die budgetierten Stunden in das neue Projekt kopieren, werden die mit dem Szenario-Planer geplanten Stunden nicht in das neue Projekt kopiert. Nur Stunden, die im Ressourcenplaner veranschlagt sind, werden kopiert. Weitere Informationen finden Sie unter [Projekt kopieren](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Wenn Sie mit dem Szenario-Planer Haushaltsmittel für das Projekt einsetzen, werden die budgetierten Arbeitskosten in den folgenden Bereichen von Workfront angezeigt:
-   * Ressourcen-Budgeting-Bereich des Geschäftsfalles
-   * Der Scenario-Planer auf Systemebene als die People-Kosten der mit dem Projekt verknüpften Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
+   >
+   >Wenn Sie mit dem Szenario-Planer Haushaltsmittel für das Projekt einsetzen, werden die budgetierten Arbeitskosten in den folgenden Bereichen von Workfront angezeigt:
+   >
+   >* Ressourcen-Budgeting-Bereich des Geschäftsfalles
+   >* Der Scenario-Planer auf Systemebene als die People-Kosten der mit dem Projekt verknüpften Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Optional) Klicken Sie auf **Im Szenario-Planer anzeigen** den Plan, der die mit dem Projekt verbundene Initiative enthält, zu öffnen. Dadurch wird der Szenario-Planer in einer neuen Browser-Registerkarte geöffnet.
 1. (Optional) Aktualisieren Sie die Informationen zur Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   Sie müssen die Initiative nach jeder Änderung veröffentlichen, damit der Bereich Ressourcenbudgetierung im Projekt aktualisiert werden kann.
+   >
+   >Sie müssen die Initiative nach jeder Änderung veröffentlichen, damit der Bereich Ressourcenbudgetierung im Projekt aktualisiert werden kann.
