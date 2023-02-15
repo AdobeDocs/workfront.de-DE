@@ -6,9 +6,9 @@ description: Sie können Pläne im Rahmen des Workfront-Szenario-Planers erstell
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2402'
 ht-degree: 1%
 
 ---
@@ -127,12 +127,14 @@ So erstellen oder bearbeiten Sie einen Plan:
       <td role="rowheader"><span>FTE ([!UICONTROL Vollzeitäquivalent]) oder [!UICONTROL Stunden]</span> </td> 
       <td> <p><span>Wählen Sie eine der folgenden Optionen aus, um anzugeben, wie Sie die Informationen zur Rolle des Auftrags für diesen Plan schätzen möchten:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. Dies ist die Standardeinstellung </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>Für alle Berechnungen im [!DNL Scenario Planner], [!DNL Workfront] verwendet den folgenden Wert: 1 VZÄ = 8 Stunden. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Wichtig: <span>Die Option, die Sie hier auswählen, bestimmt, wie Informationen zur Rolle des Auftrags für den Plan, die Szenarien des Plans und Initiativen angezeigt werden.</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. Dies ist die Standardeinstellung </span> </p> 
+      <p><b>WICHTIG</b></p>  
+      <p>Für alle Berechnungen im [!DNL Scenario Planner], [!DNL Workfront] verwendet den folgenden Wert: 1 VZÄ = 8 Stunden. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>WICHTIG</b></p>
+
+   Die hier ausgewählte Option bestimmt, wie Informationen zur Rolle des Auftrags für den Plan, die Szenarien des Plans und Initiativen angezeigt werden.</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Startdatum]</td> 
       <td> <p>Wählen Sie den Monat und das Jahr aus, in dem der Plan beginnen soll. Sie können nur Monate in diesem Feld auswählen. [!DNL Workfront] geht davon aus, dass das Startdatum des Plans der erste Tag des ausgewählten Monats ist und das Enddatum der letzte Tag des Monatsendes in seiner Dauer ist. </p> </td> 
@@ -148,6 +150,8 @@ So erstellen oder bearbeiten Sie einen Plan:
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Bedingt) Klicken Sie auf **[!UICONTROL Nächste]**.
 

@@ -6,9 +6,9 @@ description: Sie können Ressourcen im Adobe Workfront Resource Planer mithilfe 
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Weitere Informationen zum Verständnis des Ressourcenbudgeting-Bereichs des Geschäftsfalls finden Sie im Abschnitt &quot;Ressourcenbudgeting&quot;im Artikel [Überblick über die Bereiche des Geschäftsfalles](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Optional) Wählen Sie die Ansicht &quot;User&quot;aus, um festzustellen, ob die Benutzer für jeden Benutzer über die verfügbare und die geplante Stunde hinausreichen oder nicht genügend ausgelastet sind. Budgetierte Stunden sind in der Benutzeransicht nicht sichtbar.
+
+   Informationen dazu, wie Workfront die Verfügbarkeit eines Benutzers berechnet, finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Budgetressourcen in der Rollenansicht {#budget-resources-in-the-role-view}
 

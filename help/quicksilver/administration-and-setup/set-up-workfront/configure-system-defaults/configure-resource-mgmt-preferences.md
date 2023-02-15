@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 <!-drafted for Work Time field  
 
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time in non-project-related work like meetings or trainings.</span>
+* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
 
 -->
 
@@ -104,7 +104,7 @@ Informationen zur Planung und Planung von Ressourcen finden Sie unter [!DNL Work
 
 >[!NOTE]
 >
->Da es sich um eine globale Einstellung handelt, wirkt sich diese Auswahl auf alle Berechnungen für das gesamte System, für alle Benutzer, für alle Ressourcen-Management-Tools und für alle Ressourcen-Pools aus.
+>Da es sich um eine globale Einstellung handelt, wirkt sich diese Auswahl auf alle Berechnungen für das gesamte System aus, für alle Benutzer, in allen Tools zur Ressourcenverwaltung.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 1. Klicken **[!UICONTROL Ressourcenverwaltung]**.
@@ -114,7 +114,7 @@ Informationen zur Planung und Planung von Ressourcen finden Sie unter [!DNL Work
 
       Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      Weitere Informationen zum Wert des Benutzers [!UICONTROL FTE], siehe  [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      Weitere Informationen zum Auffinden des Werts des [!UICONTROL FTE], siehe  [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Workfront berechnet die Verfügbaren Stunden eines Benutzers anhand der folgenden Formel, wenn der Workfront-Administrator die Option [!UICONTROL Standardzeitplan]:
 
@@ -179,16 +179,22 @@ Informationen zur Planung und Planung von Ressourcen finden Sie unter [!DNL Work
 
       >[!NOTE]
       >
-      >Wenn der Benutzer keinem Zeitplan zugeordnet ist, werden die für den Benutzer verfügbaren Stunden anhand der Variablen [!UICONTROL Standardzeitplan].
+      >Wenn der Benutzer keinem Zeitplan zugeordnet ist, werden die verfügbaren Stunden für den Benutzer nur anhand der Variablen [!UICONTROL Standardzeitplan].
 
       <!--drafted for Work Time field:
       In the Production environment: 
       -->
 
+      Die verfügbaren Stunden für den Benutzer werden anhand der folgenden Formel berechnet:
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```
+
       Die verfügbaren [!UICONTROL FTE] für den Benutzer anhand der folgenden Formel berechnet:
 
       ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
@@ -229,8 +235,7 @@ Informationen zur Planung und Planung von Ressourcen finden Sie unter [!DNL Work
       >```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      (************ checking this second other with Dev/ Artur - not sure where Exceptions fit in **********)
-
+      
       </div>
       -->
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

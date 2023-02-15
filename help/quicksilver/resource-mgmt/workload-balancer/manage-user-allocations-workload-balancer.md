@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
 
 1. (Optional) Klicken Sie auf die **Einstellungen** icon ![](assets/gear-icon-settings.png) und wählen Sie eine der folgenden Optionen aus:
 
-   1. **Für Anfragen aufgewendete Stunden einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
+   1. **Stunden aus Problemen einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
    1. **Abgeschlossene Arbeiten anzeigen** . Auf diese Weise werden Elemente angezeigt, die abgeschlossen und während der Zeitleiste geplant wurden, für die Sie Zuordnungen verwalten.
    1. **Restzeit anzeigen** -Option. Die Gesamtanzahl der Stunden für jeden Benutzer (in der Benutzerzeile) ändert sich. Wenn diese Einstellung aktiviert ist, zeigt der Lastenausgleich die Stunden an, die jeder Benutzer für die Arbeit zur Verfügung hat, anstatt die Anzahl der Stunden, für die er zugewiesen ist.
 
@@ -207,7 +207,12 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
       >Wenn Sie Zuordnungen ändern, wenn diese Einstellung aktiviert ist, wird die Gesamtanzahl der Benutzer verringert.
 
    1. **Projekt** im **Farbschema auswählen** Abschnitt. Dadurch werden jedes Projekt und seine jeweiligen Arbeitselemente in einzigartigen Farben angezeigt und es wird leichter zu verstehen, welche Elemente zu welchem Projekt gehören.
-   1. **Prozentsatz** im **Anzeigen der Benutzerzuordnung in** Abschnitt. Dadurch werden Zuordnungen als Prozentwert angezeigt. Die Kapazität des Benutzers entsprechend seiner Planung wird als 100 % betrachtet. Wenn beispielsweise ein Benutzer mit einem Zeitplan von 8 Stunden pro Tag verknüpft ist, entspricht 8 Stunden einer Kapazität von 100 %. Wenn Sie den Benutzer 4 Stunden am Tag für die Arbeit freigeben möchten, aktualisieren Sie seine Zuordnung auf 50 %.
+   1. **Prozentsatz** im **Anzeigen der Benutzerzuordnung in** Abschnitt. Dadurch werden Zuordnungen als Prozentwert angezeigt. Die Kapazität des Benutzers gemäß der Planung wird als 100 % betrachtet. Wenn beispielsweise ein Benutzer mit einem Zeitplan von 8 Stunden pro Tag verknüpft ist, entspricht 8 Stunden einer Kapazität von 100 %. Wenn Sie den Benutzer 4 Stunden am Tag für die Arbeit freigeben möchten, aktualisieren Sie seine Zuordnung auf 50 %.
+
+      >[!NOTE]
+      >
+      >Der Workfront-Administrator entscheidet, welcher Zeitplan in Ihrem gesamten System zur Berechnung der Benutzerkapazität im Bereich &quot;Ressourcenverwaltung&quot;der Einrichtung verwendet werden soll. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-menu.png) für ein Arbeitselement klicken Sie dann auf **Zuordnungen bearbeiten**.
 

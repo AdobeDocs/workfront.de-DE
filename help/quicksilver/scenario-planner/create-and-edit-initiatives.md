@@ -6,9 +6,9 @@ description: Bei Verwendung des Adobe Workfront-Szenario-Planers können Sie Ini
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ So erstellen Sie von Grund auf neue Initiativen:
      </tr> 
      <tr> 
       <td role="rowheader">Abschnitt "Erforderliche Auftragsrollen" </td> 
-      <td> <p>Klicken Sie auf <strong>[!UICONTROL Beginn der Eingabe der Auftragsrolle]</strong> und wählen Sie eine Rolle aus der Liste aus oder geben Sie den Namen eines<span>n aktiv</span> Arbeitsplatzrolle. </p> <p><span>Je nachdem, ob der Plan für die Verwendung von FTE oder Stunden eingerichtet ist,</span> die Anzahl der für diese Initiative benötigten Arbeitsplatzrollen in der FTE hinzufügen <span><span>oder Stunden</span></span><span> für jeden Monat in der Initiative</span>. <span>Die ersten drei Monate der Initiative werden standardmäßig angezeigt.</span></p> <p><span>Durch die Aktualisierung der Informationen zur Rolle "job"für die Initiative werden auch die erforderlichen Informationen zur Rolle "job"für den Plan aktualisiert.</span> </p> <p>Informationen über die Einrichtung des Plans zur Verwendung von FTE oder Stunden finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen im [!DNL Scenario Planner]</a>. </p> <p>Tipp:  
-        <ul> 
-         <li> <p><span>Verwenden Sie den Tab [!UICONTROL]-Schlüssel, um zum nächsten Monat zu wechseln.</span> </p> </li> 
-         <li> <p> Alle <span>active</span> Die Vorgangsrollen im System werden angezeigt, wenn Sie auf dieses Feld klicken. </p> </li> 
-         <li> <p>Zuerst werden die Stellenrollen angezeigt, die den Stellenrollen des Plans bereits hinzugefügt wurden. Weitere Informationen zum Hinzufügen der verfügbaren Jobrollen zu einem Plan finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen im Szenario-Planer</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] ist der Ansicht, dass ein Vollzeitäquivalent von 160 Stunden pro Monat ist. </p> </li> 
-        </ul> </p> <p>Sie können eine Zahl unter 1 FTE oder eine Dezimalzahl für FTE eingeben. <span>oder</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">Stunden</span>. Beispielsweise würde eine 0,5-Beraterrolle bedeuten, dass ein Berater die Hälfte seiner FTE (in der Regel 4 Stunden, wobei 8 Stunden 1 FTE betragen) für die Arbeit an dieser Initiative einsetzt. </p> <p>Für alle Berechnungen im Szenario-Planer verwendet Workfront den folgenden Wert: 1 VZÄ = 8 Stunden. </p> </td> 
+      <td> <p>Klicken Sie auf <strong>[!UICONTROL Beginn der Eingabe der Auftragsrolle]</strong> und wählen Sie eine Rolle aus der Liste aus oder geben Sie den Namen eines<span>n aktiv</span> Arbeitsplatzrolle. </p> <p><span>Je nachdem, ob der Plan für die Verwendung von FTE oder Stunden eingerichtet ist,</span> die Anzahl der für diese Initiative benötigten Arbeitsplatzrollen in der FTE hinzufügen <span><span>oder Stunden</span></span><span> für jeden Monat in der Initiative</span>. <span>Die ersten drei Monate der Initiative werden standardmäßig angezeigt.</span></p> <p><span>Durch die Aktualisierung der Informationen zur Rolle "job"für die Initiative werden auch die erforderlichen Informationen zur Rolle "job"für den Plan aktualisiert.</span> </p> <p>Informationen über die Einrichtung des Plans zur Verwendung von FTE oder Stunden finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen im [!DNL Scenario Planner]</a>. </p>
+      <p><b>WICHTIG</b></p>  
+      <p>Für alle Berechnungen im [!DNL Scenario Planner], [!DNL Workfront] verwendet den folgenden Wert: 1 VZÄ = 8 Stunden. </p>
+
+   <p><b>TIPP</b></p>
+
+   <ul> 
+       <li> <p><span>Verwenden Sie den Tab [!UICONTROL]-Schlüssel, um zum nächsten Monat zu wechseln.</span> </p> </li> 
+      <li> <p> Alle <span>active</span> Die Vorgangsrollen im System werden angezeigt, wenn Sie auf dieses Feld klicken. </p> </li> 
+       <li> <p>Zuerst werden die Stellenrollen angezeigt, die den Stellenrollen des Plans bereits hinzugefügt wurden. Weitere Informationen zum Hinzufügen der verfügbaren Jobrollen zu einem Plan finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen im Szenario-Planer</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] ist der Ansicht, dass ein Vollzeitäquivalent von 160 Stunden pro Monat ist. </p> <p>Für alle Berechnungen im Szenario-Planer verwendet Workfront den folgenden Wert: 1 VZÄ = 8 Stunden. </p></li> 
+      </ul> </p> <p>Sie können eine Zahl unter 1 FTE oder eine Dezimalzahl für FTE eingeben. <span>oder</span> <span>Stunden</span>. Beispielsweise würde eine 0,5-Beraterrolle bedeuten, dass ein Berater die Hälfte seiner FTE (in der Regel 4 Stunden, wobei 8 Stunden 1 FTE betragen) für die Arbeit an dieser Initiative einsetzt. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Kostensegment</td> 

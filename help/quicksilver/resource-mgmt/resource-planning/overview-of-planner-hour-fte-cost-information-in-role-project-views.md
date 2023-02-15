@@ -7,9 +7,9 @@ description: Übersicht über Stunden, FTE und Kosteninformationen in den Projek
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ Die folgenden Tabellen zeigen die Zuordnungs- und Verfügbarkeitsinformationen, 
      <li>für andere Projekte veranschlagte Stunden. </li> 
     </ul> <p>Die verfügbaren Stunden, FTEs oder Kosten für eine Benutzeränderung gemäß den folgenden Kriterien: </p> 
     <ul> 
-     <li>die Berechnung des Zeitplans und der FTE anhand der Voreinstellungen für die Ressourcenverwaltung auf Systemebene.<br>Weitere Informationen zur Berechnung der Verfügbarkeit von Anwendern und zur Rolle im Arbeitsbereich finden Sie im Artikel <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>.</li> 
+     <li>die Berechnung des Zeitplans und der FTE anhand der Voreinstellungen für die Ressourcenverwaltung auf Systemebene.<br><p>Weitere Informationen zur Berechnung der Verfügbarkeit von Anwendern und zur Rolle im Arbeitsbereich finden Sie im Artikel <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>.</p>
+     Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung in Workfront finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a></li> 
     </ul> 
     <ul> 
      <li>die <strong>Priorität der Projektplanung</strong>, wenn der Benutzer für die Arbeit eingeplant ist.<br>Weitere Informationen dazu, wie sich die Priorität der Projektplanung auf die verfügbaren Stunden eines Benutzers auswirkt, finden Sie unter <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Navigationsübersicht über den Ressourcenplaner </a>. </li> 
@@ -135,6 +136,8 @@ Die folgenden Tabellen zeigen die Zuordnungs- und Verfügbarkeitsinformationen, 
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### Die Spalte PLN (Geplant) {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Beachten Sie beim Arbeiten mit Budgetzeit Folgendes:
       <li> <p>Differenz zwischen der verfügbaren Zeit oder den Kosten und der für die Rolle zugewiesenen budgetierten Zeit oder Kosten:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Die Differenz zwischen der Verfügbaren Zeit oder den Kosten und der für die Rolle geplanten Zeit- oder Kostenstelle, wenn die Einstellung PLN (Use Scheduled) in NET-Berechnungen aktiviert ist:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPP</b> <span>
 
-Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte Elemente anzeigen anpassen.</span> </p> <p><span>Weitere Informationen finden Sie unter</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner</a> </p> </li>
+Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte Elemente anzeigen anpassen.</span> </p> <p><span>Weitere Informationen finden Sie unter </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte
       <li> <p>Die Differenz zwischen der Verfügbaren Zeit oder den Kosten und der für den Benutzer vorgesehenen budgetierten Zeit oder Kosten:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Die Differenz zwischen der Verfügbaren Zeit oder den Kosten und der für den Benutzer geplanten Zeit- oder Kostenstelle, wenn die Einstellung PLN (Use Scheduled) in NET-Berechnungen aktiviert ist:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPP</b> <span>
 
-Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte Elemente anzeigen anpassen.</span> </p> <p><span>Weitere Informationen finden Sie unter</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner</a> </p> </li>
+Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte Elemente anzeigen anpassen.</span> </p> <p><span>Weitere Informationen finden Sie unter </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
