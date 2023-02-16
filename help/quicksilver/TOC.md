@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [Angeschlossene Karten auf Pinnwänden verwenden](agile/get-started-with-boards/connected-cards.md)
       * [Karten verwalten](agile/get-started-with-boards/move-board-items.md)
       * [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Karte aus einer Pinnwand löschen oder archivieren](agile/get-started-with-boards/delete-board-items.md)
       * [Filtern und Suchen in einer Pinnwand](agile/get-started-with-boards/filter-search-in-board.md)
       * [Tags hinzufügen](agile/get-started-with-boards/add-tags.md)
@@ -1262,7 +1263,7 @@ ht-degree: 1%
          * [Probleme in einer Liste bearbeiten](manage-work/issues/manage-issues/edit-issues-in-a-list.md)
          * [Probleme kopieren](manage-work/issues/manage-issues/copy-issues.md)
          * [Probleme verschieben](manage-work/issues/manage-issues/move-issues.md)
-         * [Anfragen löschen](manage-work/issues/manage-issues/delete-issues.md)
+         * [Probleme löschen](manage-work/issues/manage-issues/delete-issues.md)
          * [Übersicht über Problemzuweisungen ändern](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Automatische Aktualisierung des Problemstatus von &quot;Warten auf Feedback&quot;auf &quot;In Bearbeitung&quot;](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
@@ -2345,8 +2346,8 @@ ht-degree: 1%
       * [E-Mail-Warneinstellungen für einen Testversand in Workfront Testversand ändern](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Verwalten von Benutzern und Kontakten in Workfront Proof {#managing-users-in-wf-proof}
       * [Verwalten von Benutzern und Kontakten in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Benutzer {#users}
-         * [Benutzer](workfront-proof/wp-mnguserscontacts/users/users.md)
+      * Benutzende {#users}
+         * [Benutzende](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Erstellen von Benutzern mit Workfront Testversand](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Konfigurieren von Benutzerinformationen mit Workfront Testversand](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Erstellen und Verwalten benutzerdefinierter Profile mithilfe des Workfront-Testversands](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)

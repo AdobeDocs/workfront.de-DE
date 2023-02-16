@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
+source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
    <td>Importieren von Unteraufgaben als Checklisten-Elemente auf Karten</td>
    <td>Geplant</td>
   </tr>
+  <tr>
+   <td>Anzeige von Feldern auf einer Karte anpassen</td>
+   <td>Teilweise freigegeben</td>
+  </tr>  
   <tr>
    <td>Standardstatus für in Spalten verschobene Karten definieren</td>
    <td>Teilweise freigegeben</td>
