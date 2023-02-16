@@ -6,16 +6,16 @@ description: Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu e
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 5%
 
 ---
 
 # Projekt kopieren
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
 >* Notizen
 >* Stunden
 >* Projektübergreifende Vorkenntnisse
->* Veranschlagte Stunden <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">Veranschlagte Stunden</span>
 >
 >Die folgenden Elemente werden immer aus einem vorhandenen Projekt in ein neues kopiert:
 >
@@ -137,11 +137,6 @@ So kopieren Sie ein Projekt:
 
 1. (Optional) Heben Sie die Auswahl der Elemente auf, die Sie nicht in das neue Projekt kopieren möchten. In der folgenden Tabelle wird beschrieben, was passiert, wenn Sie die Elemente deaktivieren:
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ So kopieren Sie ein Projekt:
      </tr> 
      <tr> 
       <td role="rowheader">Alle Vorgänger</td> 
-      <td> <p>Entfernt alle Vorgängerbeziehungen zwischen den Aufgaben im Projekt. </p> <p>Tipp: Projektübergreifende Vorgänger werden nie in das neue Projekt übertragen, unabhängig davon, ob dies ausgewählt ist oder nicht. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Entfernt alle Vorgängerbeziehungen zwischen den Aufgaben im Projekt. </p> <p><b>TIPP</b>
+
+   Projektübergreifende Vorgänger werden nie in das neue Projekt übertragen, unabhängig davon, ob dies ausgewählt ist oder nicht. </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">Veranschlagte Stunden</span></td> 
+      <td> <p><span class="preview">Entfernt die im Bereich Ressourcenplanung des Geschäftsszenarios des Projekts vorgesehenen Stunden aus dem kopierten Projekt. <span class="preview"></p>
+
+<b>NOTIZ</b>
+
+<span class="preview">Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Geschäftsfall mit dem Szenario-Planer</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">Finanzinformationen</td> 
       <td> <p>Entfernt die Informationen in den folgenden Bereichen: </p> 
        <ul> 

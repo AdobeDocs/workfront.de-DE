@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 1%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 1%
          * [Katalog mit Blueprints durchsuchen und Installation von Blueprints anfordern](administration-and-setup/blueprints/browse-catalog.md)
          * [Kopieren einer Projektvorlage](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [Eine Vorlage an ein Projekt anhängen](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [Kopieren und Verschieben von Vorlagenaufgaben](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Bearbeiten von Projektvorlagen](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Vorlagenaufgabe bearbeiten](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Vorlage aus Projekt erstellen](manage-work/projects/create-and-manage-templates/create-template-from-project.md)

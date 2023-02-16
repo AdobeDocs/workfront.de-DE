@@ -6,18 +6,16 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront Workload Bal
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Als Ressourcen-Manager können Sie den Adobe Workfront Workload Balancer verwenden, um Arbeitselemente anzuzeigen, die noch nicht Benutzern zugewiesen wurden, und ihnen diese Elemente zuzuweisen.
 
@@ -52,8 +50,7 @@ Workfront verwendet die folgenden Informationen, um die Kapazität des Benutzers
 
    Weitere Informationen finden Sie unter [Persönliche Abwesenheit in Adobe Workfront konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">Die Arbeitszeit des Benutzers. Dies gibt den Prozentsatz der FTE-Zeit an, über die der Benutzer für die Ausführung der eigentlichen projektbezogenen Arbeit zur Verfügung steht, ohne dass dabei der Verwaltungsaufwand eingeschlossen ist. Setzen Sie den Wert für die Arbeitszeit auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeiten in seiner gesamten Vollzeitäquivalenz verfügbar ist.</span>
 
 ## Zuweisen von Arbeiten im Arbeitslastausgleich
 
