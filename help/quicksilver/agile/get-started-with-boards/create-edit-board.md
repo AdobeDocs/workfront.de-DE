@@ -6,16 +6,20 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 5%
 
 ---
 
 # Pinnwand erstellen oder bearbeiten
 
+{{highlighted-preview}}
+
 Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten.
+
+<span class="preview">Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## Zugriffsanforderungen
 
@@ -41,7 +45,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken **[!UICONTROL Neu erstellen]**.
+1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Neu erstellen]** im [!UICONTROL Pinnwände] Bereich. <span class="preview">Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+
+   >[!NOTE]
+   >
+   > Sammlungen sind nur über die frühe Funktion verfügbar. [!DNL Workfront] [!UICONTROL Pinnwände].
+
+1. <span class="preview">Wählen Sie eine Vorlage für die Pinnwand aus.</span>
+
+   <div class="preview">
+
+   | Vorlage | Beschreibung |
+   |---------|----------|
+   | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. |
+   | Kanban-Board | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Ansauspalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr** Menü] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Rückblickende Pinnwand | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Was ist gut gelaufen? Was könnte verbessert werden? Wer soll gefeiert werden? Wie können wir unsere Verfahren beschleunigen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
+
+   >[!NOTE]
+   >
+   > Pinnwandvorlagen sind nur über das Feature Opt-in für [!DNL Workfront] [!UICONTROL Pinnwände].
+
+   </div>
+
 1. Geben Sie einen Namen für die Pinnwand im **[!UICONTROL Board]** und drücken Sie die Eingabetaste.
 1. Konfigurieren Sie die Pinnwand nach Bedarf.
 

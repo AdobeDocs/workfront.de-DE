@@ -6,16 +6,22 @@ title: Pinnwand löschen oder archivieren
 description: Sie können eine Pinnwand in Workfront löschen oder archivieren. Durch das Löschen einer Pinnwand wird sie dauerhaft aus Workfront entfernt, während eine Pinnwand archiviert wird, bleiben alle Karten erhalten und können zu einem späteren Zeitpunkt wiederhergestellt werden.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
 
 # Pinnwand löschen oder archivieren
 
-Sie können eine Pinnwand löschen oder archivieren in [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen.
+{{highlighted-preview}}
+
+Sie können eine Pinnwand löschen oder archivieren in [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen. <span class="preview">Diese Optionen gelten sowohl für eigenständige Pinnwände als auch für Pinnwände, die Teil von Sammlungen sind.</span>
+
+>[!NOTE]
+>
+>Sammlungen sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
 
 ## Zugriffsanforderungen
 

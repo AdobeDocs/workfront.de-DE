@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Erstellen von Pinnwänden-Sammlungen</td>
-   <td>Geplant</td>
+   <td>Teilweise freigegeben</td>
   </tr>
   <tr>
    <td>Iterationen erstellen</td>
@@ -162,7 +162,7 @@ Frühzeitige Funktionen für Pinnwände stehen allen Organisationen zur Verfügu
 Nur [!DNL Workfront] -Administratoren können sich für frühzeitige Funktionen für Pinnwände entscheiden. Wenn eine [!DNL Workfront] -Administrator aktiviert frühe Funktionen, sind alle Benutzer der Organisation angemeldet.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken **[!UICONTROL Vorabregistrierung von Funktionen]** oben im Dashboard-Bildschirm.
+1. Klicken ![Vorabregistrierung von Funktionen](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Vorabregistrierung von Funktionen]) am oberen Rand des Dashboard-Bildschirms.
 1. Klicken **[!UICONTROL Aktivieren]**.
 1. Beginnen Sie mit der Verwendung der frühen Funktionen der Foren.
 
@@ -192,5 +192,5 @@ Die Variable [!DNL Workfront] -Administrator kann die Option &quot;Pinnwände&qu
 Nur [!DNL Workfront] -Administratoren können sich vom Empfang frühzeitiger Funktionen abmelden. Wenn eine [!DNL Workfront] Administrator deaktiviert die frühen Funktionen, werden alle Benutzer in der Organisation abgemeldet.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken **[!UICONTROL Vorabauswahl für Funktionen aktiviert]** oben im Dashboard-Bildschirm.
+1. Klicken ![Vorabauswahl für Funktionen aktiviert](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Vorabauswahl für Funktionen aktiviert]) am oberen Rand des Dashboard-Bildschirms.
 1. Klicken **[!UICONTROL Deaktivieren]**.

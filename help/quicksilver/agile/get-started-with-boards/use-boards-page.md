@@ -6,18 +6,32 @@ description: Die [!UICONTROL Pinnwände] Dashboard zeigt die Liste der Pinnwänd
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # Verwenden des Dashboards-Dashboards
 
-Das Dashboard der Pinnwände zeigt die Liste der Pinnwände an, auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und der Pinnwände, denen Sie hinzugefügt wurden.
+{{highlighted-preview}}
 
-Im Dashboard der Pinnwände können Sie eine Pinnwand archivieren, die Liste der Pinnwände filtern, die Liste nach Pinnwandnamen oder Änderungsdatum sortieren und nach einer bestimmten Pinnwand suchen. Sie können auch eine einzelne Pinnwand archivieren oder löschen. Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+Das Dashboard der Pinnwände zeigt die Liste der Pinnwände an <span class="preview">und Sammlungen</span> , auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und Pinnwände, denen Sie hinzugefügt wurden. <span class="preview">Zuerst werden einzelne Pinnwände angezeigt, auf die Sie Zugriff haben und die nicht Teil einer Sammlung sind.</span>
+
+>[!NOTE]
+>
+>Sammlungen sind nur über die frühe Funktion verfügbar. [!DNL Workfront] [!UICONTROL Pinnwände].
+
+Im Dashboard können Sie Folgendes für Pinnwände und <span class="preview">Sammlungen</span>:
+
+* Pinnwand archivieren (Sammlungen können nicht archiviert werden)
+* Pinnwandliste filtern
+* Sortieren Sie die Pinnwandliste nach Pinnwandnamen oder Änderungsdatum.
+* Suchen nach einer Pinnwand oder Sammlung
+* Pinnwand oder Sammlung löschen
+
+Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Informationen zum Erstellen einer neuen Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## Zugriffsanforderungen
 
@@ -45,23 +59,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können das Dashboard der Pinnwände filtern, um aktive Pinnwände, archivierte Pinnwände oder alle Pinnwände anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf das Filtersymbol ![Filter](assets/filter-icon-spectrum-25x25.png) und wählen Sie **[!UICONTROL Alle]**, **[!UICONTROL Aktive Pinnwände]** oder **[!UICONTROL Archivierte Pinnwände]**.
+1. Klicken [!UICONTROL **Filter**] und wählen Sie **[!UICONTROL Alle]**, **[!UICONTROL Aktive Pinnwände]** oder **[!UICONTROL Archivierte Pinnwände]**.
 
    Wenn ein anderer als der standardmäßige Filter auf das Dashboard angewendet wird, wird auf dem Filtersymbol ein Indikator angezeigt ![[!UICONTROL Filter angewendet auf] Dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Pinnwände
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Um die Pinnwandliste zu sortieren, klicken Sie auf das Sortiersymbol ![Symbol &quot;Sortieren&quot;](assets/sort-boards-icon.png). Die standardmäßige Sortieroption für die Seite ist nach **[!UICONTROL Datum geändert]**. Sie können die Seite auch nach Pinnwand sortieren **[!UICONTROL Name]**.
+1. Um die Liste der Pinnwände zu sortieren, klicken Sie auf [!UICONTROL **Sortieren**]. Die standardmäßige Sortieroption für die Seite ist nach **[!UICONTROL Datum geändert]**. Sie können die Seite auch nach Pinnwand sortieren **[!UICONTROL Name]**.
 
    Auswählen **[!UICONTROL Rückwärtsreihenfolge]** , um die Pinnwände in umgekehrter Reihenfolge der geänderten Daten oder des Namens zu sortieren. Wenn der Pfeil auf dem Sortiersymbol nach oben zeigt, wird die umgekehrte Reihenfolge angewendet. Wenn der Pfeil nach unten zeigt, wird die Standardreihenfolge angewendet.
 
    Wenn eine andere Sortierung als die Standardsortierung auf das Dashboard angewendet wird, wird auf dem Sortiersymbol ein Indikator angezeigt ![Angewandte Sortierung](assets/sort-applied-boards.png).
 
-## Suchen nach einer Pinnwand
+## Suchen nach einer Pinnwand <span class="preview">oder eine Sammlung</span>
+
+<span class="preview">Sie können im Bereich &quot;Pinnwände&quot;nach einer bestimmten Pinnwand suchen oder im Bereich &quot;Sammlungen&quot;nach einer bestimmten Sammlung suchen.</span>
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
+1. Klicken [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
 
    Alle Pinnwände, die den Suchbegriff im Titel enthalten, werden angezeigt.
 
@@ -86,14 +102,38 @@ Durch die Archivierung wird eine Pinnwand an das Archiv gesendet und Sie können
 
 1. Um eine archivierte Pinnwand wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Pinnwand und wählen Sie **[!UICONTROL Wiederherstellen]**.
 
-## Pinnwand löschen
+## Pinnwand löschen <span class="preview">oder eine Sammlung</span>
 
 Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus [!DNL Workfront] und nicht wiederhergestellt werden können. Alle Karten auf der Pinnwand werden ebenfalls zusammen mit der Pinnwand gelöscht.
 
+<span class="preview">Durch Löschen einer Sammlung werden alle Pinnwände in der Sammlung gelöscht.</span>
+
 >[!NOTE]
 >
->Sie können nur von Ihnen erstellte Pinnwände und nicht Pinnwände löschen, die Ihnen hinzugefügt wurden.
+>Sie können nur von Ihnen erstellte Pinnwände und Sammlungen löschen, nicht aber Pinnwände und Sammlungen, denen Sie hinzugefügt wurden.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Pinnwand und wählen Sie **[!UICONTROL Löschen]**.
-1. Klicken **[!UICONTROL Pinnwand löschen]** in der Bestätigungsnachricht angezeigt.
+1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) in der Pinnwand oder Sammlung und wählen Sie **[!UICONTROL Löschen]**.
+
+   <span class="preview">In einer Sammlung befindet sich das Menü rechts neben dem [!UICONTROL **Sammlung anzeigen**] Schaltfläche.</span>
+
+1. Klicken **[!UICONTROL Pinnwand löschen]** oder [!UICONTROL **Sammlung löschen**] in der Bestätigungsnachricht angezeigt.
+
+<div class="preview">
+
+## Verschieben einer Pinnwand in eine Sammlung
+
+Sie können eine eigenständige Pinnwand in eine Sammlung verschieben oder eine Pinnwand von einer Sammlung in eine andere Sammlung verschieben.
+
+>[!NOTE]
+>
+>Sie können nur von Ihnen erstellte Pinnwände verschieben, nicht Pinnwände, zu denen Sie hinzugefügt wurden.
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Pinnwand und wählen Sie [!UICONTROL **Zu Sammlung wechseln**].
+1. Wählen Sie die Sammlung aus, der die Pinnwand hinzugefügt werden soll, und klicken Sie auf [!UICONTROL **Verschieben**].
+
+   Die Pinnwand wird in die Sammlung verschoben und nicht mehr im [!UICONTROL Pinnwände] Bereich.
+Wenn Sie noch keine Sammlung erstellt haben, werden Sie aufgefordert, eine zu erstellen, in die die Pinnwand verschoben werden soll.
+
+</div>

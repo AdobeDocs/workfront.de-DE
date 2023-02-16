@@ -7,14 +7,16 @@ description: Adobe Workfront-Pinnwände sind flexible Tools, die die Teamzusamme
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Pinnwände] Übersicht
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten.
 
@@ -26,6 +28,7 @@ Mit Pinnwänden haben Sie folgende Möglichkeiten:
 * Spalten für Status oder Kategorie konfigurieren
 * Anpassen von Workflows mit Karten mit offenem Ende (entweder Ad-hoc-Karten oder Karten mit Verbindung zu [!DNL Workfront] Aufgaben und Probleme)
 * Organisation und Verwaltung der Arbeit für ein Team an einem Ort
+* <span class="preview">Gruppieren von Pinnwänden in einer Sammlung</span>
 * Verwenden von agilen Planungswerkzeugen
 
 Informationen zur Verwendung der grundlegenden Pinnwandfunktionen finden Sie unter [Erste Schritte mit Pinnwänden in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Informationen zu agilen Planungstools in Foren finden Sie unter [Übersicht über Agile Planungswerkzeuge](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
