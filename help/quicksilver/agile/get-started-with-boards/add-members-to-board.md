@@ -6,9 +6,9 @@ description: Personen müssen als Mitglieder zur Pinnwand hinzugefügt werden, b
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Mitglied hinzufügen]** icon ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Im **[!UICONTROL Mitglieder hinzufügen]** einen Namen eingeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-   Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst zum Forum hinzugefügt. Einzelne Teammitglieder können dann einer Karte zugewiesen werden.
+   Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst zum Forum hinzugefügt. Das gesamte Team und die einzelnen Teammitglieder können dann einer Karte zugewiesen werden.
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ title: Kartenfalloff konfigurieren
 description: Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan archiviert oder von der Pinnwand heruntergefallen werden.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Kartenfalloff-Einstellungen](assets/card-falloff-switch.png)
 
-1. Wählen Sie aus, wann Karten auf der Pinnwand archiviert werden sollen. Sie können bis zu 4 Wochen oder bis zu 30 Tage wählen.
+1. Wählen Sie aus, wann Karten auf der Pinnwand archiviert werden sollen. Sie können bis zu 8 Wochen oder bis zu 60 Tage wählen.
 
    Das Datum wird ab dem Zeitpunkt der letzten Änderung der Karte bestimmt.
 
