@@ -6,14 +6,16 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
 # Pinnwandspalten verwalten
+
+{{highlighted-preview}}
 
 Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie können zusätzliche Spalten hinzufügen, die Reihenfolge der Spalten ändern, Spalten umbenennen und nicht benötigte Spalten löschen.
 
@@ -119,12 +121,18 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
       Die Statusübersetzungsoptionen für verbundene Karten werden ebenfalls angezeigt. (Die Statusübersetzung gilt nicht für Ad-hoc-Karten.) Diese Optionen bestimmen den Status, der auf die Aufgabe oder das Problem in [!DNL Workfront] wenn eine verbundene Karte in diese Spalte verschoben wird.
 
    1. Um die Auswahl für die standardmäßige Statusübersetzung zu ändern, klicken Sie auf das **[!UICONTROL Bearbeiten]** icon ![Symbol Bearbeiten](assets/edit-icon-spectrum.png).
-   1. Wählen Sie einen Status für Aufgaben und einen Status für Probleme aus. Nur der Standardwert [!DNL Workfront] -Status verfügbar sind, nicht benutzerdefinierte Status.
+   1. <span class="preview">In der Vorschau-Umgebung: Wählen Sie eine [!UICONTROL **Benutzerdefiniert**] Status und [!UICONTROL **System**] Status, der auf die Karte angewendet wird, sowohl für Aufgaben als auch für Probleme.</span>
 
-   >[!NOTE]
-   >
-   >Wenn Sie benutzerdefinierte Status in [!DNL Workfront]Wenn Sie eine verbundene Karte zum ersten Mal in diese Spalte verschieben, werden Sie aufgefordert, einen Status auszuwählen. Wenn beispielsweise das verbundene Projekt mehrere Statustypen aufweist, die alle [!UICONTROL Abgeschlossen], müssen Sie festlegen, welcher Status in verwendet werden soll [!DNL Workfront]. Sie können Ihre Auswahl als Standard festlegen, sodass Sie nicht jedes Mal, wenn Sie eine Karte in die Spalte verschieben, die Auswahl treffen müssen.
-   >Weitere Informationen zu Status finden Sie unter [Statusübersicht](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">Wenn eine Karte in diese Spalte verschoben wird, [!DNL Workfront] versucht zunächst, den benutzerdefinierten Status anzuwenden (z. B. &quot;Gelöst&quot;). Wenn der benutzerdefinierte Status für diese Karte nicht verfügbar ist, wendet Workfront stattdessen den Systemstatus an (z. B. Geschlossen).</span>
+
+      <span class="preview">Wenn der Status der verbundenen Aufgabe oder des Problems in den in der Spaltenrichtlinie festgelegten benutzerdefinierten Status oder Systemstatus geändert wird, wird die Karte automatisch in die Spalte verschoben.</span>
+
+   1. In der Produktionsumgebung: Wählen Sie einen Status für Aufgaben und einen Status für Probleme aus. Nur der Standardwert [!DNL Workfront] -Status verfügbar sind, nicht benutzerdefinierte Status.
+
+      >[!NOTE]
+      >
+      >Wenn Sie benutzerdefinierte Status in [!DNL Workfront]Wenn Sie eine verbundene Karte zum ersten Mal in diese Spalte verschieben, werden Sie aufgefordert, einen Status auszuwählen. Wenn beispielsweise das verbundene Projekt mehrere Statustypen aufweist, die alle [!UICONTROL Abgeschlossen], müssen Sie festlegen, welcher Status in verwendet werden soll [!DNL Workfront]. Sie können Ihre Auswahl als Standard festlegen, sodass Sie nicht jedes Mal, wenn Sie eine Karte in die Spalte verschieben, die Auswahl treffen müssen.
+      >Weitere Informationen zu Status finden Sie unter [Statusübersicht](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Optional) Legen Sie einen Wert für die Kartenverantwortlichen fest:
 
