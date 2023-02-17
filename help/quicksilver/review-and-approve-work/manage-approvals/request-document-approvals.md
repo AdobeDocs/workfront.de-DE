@@ -6,9 +6,9 @@ description: Sie können die Genehmigung von Managern oder anderen Benutzern fü
 author: Courtney
 feature: Work Management
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Objekt verwalten, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

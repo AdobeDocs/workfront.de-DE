@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Erforderlich) Geben oder fügen Sie die URL des Widgets ein, in dem es im Internet gespeichert ist.</p> 
+       <p><strong>Wichtig</strong>: Die URL für muss eine öffentliche URL sein. </p>
       <p>Wenn Sie ein Video-Widget hinzufügen, können Sie dies derzeit tun, indem Sie Folgendes in das URL-Feld hinzufügen:</p> 
       <ul> 
       <li> <p>YouTube- oder Vimeo-Link</p> </li> 
       <li> <p>Videolink "Google Drive"</p> </li> 
       <li> <p>Link zum Video mit MP4- und MOV-Erweiterung</p> </li> 
-      <li> <p>Link zu Video, das bereits in den Bereich "Dokumente"in Ihrer Workfront-Instanz hochgeladen wurde. Anweisungen finden Sie unter <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Hinzufügen eines Video-Widgets zu einem benutzerdefinierten Formular aus dem Bereich "Dokumente"</a> in diesem Artikel.</p> </li> 
+      <li> <p>Link zu Video, das bereits in den Bereich "Dokumente"in Ihrer Workfront-Instanz hochgeladen wurde. Anweisungen finden Sie unter <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Hinzufügen eines Video-Widgets zu einem benutzerdefinierten Formular aus dem Bereich "Dokumente"</a> in diesem Artikel.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 
