@@ -4,10 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion f
 ## Symbol Dokumentversion in Dokumentdetails aktualisiert
 
 Das Erscheinungsbild des Symbols Dokumentversion wurde aktualisiert. Auf dem Symbol wird jetzt eine rote Punktnotiz angezeigt, wenn Sie eine frühere Version verwenden, sowie ein Mauszeiger mit der Meldung &quot;Frühere Version&quot;.
+
+## Neues Erlebnis beim Kopieren einer oder mehrerer Vorlagenaufgaben
+
+>[!NOTE]
+>
+>Vorschau-Version: 16. Februar 2023; Geplante Produktionsversion: 2. März 2023
+
+Damit Sie Adobe Workfront überall in der Anwendung konsistent nutzen können, haben wir die Benutzeroberfläche beim Kopieren oder Verschieben einer Vorlagenaufgabe neu gestaltet. Dies ist derzeit beim Kopieren einer Vorlagenaufgabe auf Aufgabenebene oder beim Kopieren einer Aufgabe oder mehrerer Aufgaben in einer Liste verfügbar.
+
+Zu den Verbesserungen gehören:
+
+* Alle Informationen, die Sie vor dem Kopieren oder Verschieben der Vorlagenaufgabe aktualisieren müssen, werden auf einer fortlaufenden Seite angezeigt.
+* Workfront prüft unmittelbar nach der Auswahl der Vorlage, ob Sie Zugriff auf die Zielvorlage haben. Vor dieser Verbesserung wurde eine Warnmeldung angezeigt, die Sie darauf hinweist, dass Sie nicht den richtigen Zugriff haben, nachdem Sie die Kopie oder den Umzug bestätigt haben. Dies führte zu zusätzlichen Schritten und dazu, dass die Aktion nicht zulässig war.
+* Möglichkeit, den Zugriff für eine Vorlage anzufordern, in die Sie die Vorlagenaufgabe kopieren oder verschieben möchten, ohne das Feld &quot;Vorlage kopieren&quot;oder &quot;Vorlage verschieben&quot;zu verlassen.
+
+Weitere Informationen finden Sie unter [Kopieren und Verschieben von Vorlagenaufgaben](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

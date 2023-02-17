@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
 
 * [Administratorverbesserungen](#administrator-enhancements)
 * [Agile Verbesserungen](#agile-enhancements)
+* [Verbesserungen beim Projektmanagement](#project-management-enhancements)
+* [Verbesserungen bei der Ressourcenverwaltung](#resource-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -81,6 +83,57 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anzeige von Feldern auf einer Karte anpassen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 23. Februar 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Standardstatus für Karten definieren, die in eine Pinnwandspalte verschoben werden</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt einen Standardstatus festlegen, der auf Karten angewendet wird, die in eine bestimmte Spalte verschoben werden, indem Sie in den Spaltenrichtlinien einen benutzerdefinierten Status und einen Systemstatus auswählen. Wenn Sie eine Karte in die Spalte verschieben, versucht Workfront zunächst, den benutzerdefinierten Status anzuwenden (z. B. "Auf Feedback warten"). Wenn der benutzerdefinierte Status für diese Karte nicht verfügbar ist, wendet Workfront stattdessen den Systemstatus an (z. B. "Bei Halten"). Wenn der Status der verbundenen Aufgabe oder des Problems in den in der Spaltenrichtlinie festgelegten benutzerdefinierten Status oder Systemstatus geändert wird, wird die Karte automatisch in die Spalte verschoben.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 23. Februar 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Sammlungen sind jetzt in Adobe Workfront-Pinnwänden verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt Sammlungen im Dashboard der Pinnwände erstellen. Eine Sammlung ist eine Gruppe von Foren zur Zusammenarbeit an der Arbeit. Nachdem Sie die Sammlung benannt haben, können Sie der Sammlung Pinnwände mit einer Reihe von Vorlagen hinzufügen, die vordefinierte Einstellungen wie Spaltennamen enthalten.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 23. Februar 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Das Schätzfeld für verbundene Karten wird dem Feld "Meldungspunkte"auf Workfront-Objekten zugeordnet</a></p>
@@ -99,7 +152,6 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Vorschaufunktion in Annahmespalte</a></p>
@@ -113,6 +165,77 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                             <li>
                                  <p>Produktionsversion für frühe Anmeldung: 2. Februar 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Verbesserungen beim Projektmanagement
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopieren von geplanten Stunden beim Kopieren eines Projekts</a><span style="color: #ff0000;"> Neu in der Vorschau!</span>
+                        <p>Jetzt haben Sie die Möglichkeit, die im Ressourcenbudgeting-Bereich des Business Case oder im Resource Planer geplanten Stunden zu kopieren, wenn Sie ein Projekt kopieren. Vor dieser Verbesserung wurden die für das Projekt vorgesehenen Stunden nicht in das kopierte Projekt übertragen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsversion: 2. März 2023 (Off-Cycle)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Verbesserungen bei der Ressourcenverwaltung
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität</a><span style="color: #ff0000;"> Neu in der Vorschau!</span>
+                        <p>Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer tatsächlich projektbezogener Arbeit widmen, führen wir das Arbeitszeitkonzept für Adobe Workfront ein.</p>
+                        <p>Sie können den Wert des Felds Arbeitszeit für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsversion: 2. März 2023 (Off-Cycle)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportieren von Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront für XD</span></a><span style="color: #ff0000;"> Neu in der Produktion!</span>
-                        <p>Im Plug-in Adobe Workfront for XD können Sie jetzt festlegen, Ihre Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien zu exportieren.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportieren von Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront für XD</span></a>
+                        </span></a><p>Im Plug-in Adobe Workfront for XD können Sie jetzt festlegen, Ihre Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien zu exportieren.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
