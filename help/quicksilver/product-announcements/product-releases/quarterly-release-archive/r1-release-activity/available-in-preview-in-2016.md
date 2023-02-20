@@ -6,9 +6,9 @@ description: Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung berei
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Di
 
 ## Verbesserungen bei der Ressourcenplanung
 
-Jetzt können Sie alle Aufgaben für Projekte sehen, für die Sie der Ressourcen-Manager sind, damit Sie bei Planungsentscheidungen besser informiert sind. 
+>[!NOTE]
+>
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Allgemeine Informationen zu den Tools, die für die Planung von Ressourcen verfügbar sind, finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Jetzt können Sie alle Aufgaben für Projekte sehen, für die Sie der Ressourcen-Manager sind, damit Sie bei Planungsentscheidungen besser informiert sind.
 
-Um die Informationen anzupassen, die in der Planung angezeigt werden, erstellen Sie einen Filter, wie unter [Filtern von Informationen im Bereich &quot;Planung&quot;](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Allgemeine Informationen zu den Tools, die für die Planung von Ressourcen verfügbar sind, finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
-Neben der Anzeige von Aufgaben für die Projekte, für die Sie verantwortlich sind, können Sie die Zeitleiste für die Planung verwenden, um Änderungen an den Ressourcenzuweisungen vorzunehmen. Informationen zum Verwalten von Benutzerzuweisungen in der Zeitleiste der Planung finden Sie unter [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Um die Informationen anzupassen, die in der Timeline der Planung angezeigt werden, erstellen Sie einen Filter, wie unter &quot;Informationen im Planungsbereich filtern&quot;beschrieben.
+
+Neben der Anzeige von Aufgaben für die Projekte, für die Sie verantwortlich sind, können Sie die Zeitleiste für die Planung verwenden, um Änderungen an den Ressourcenzuweisungen vorzunehmen. Informationen zum Verwalten von Benutzerzuweisungen in der Zeitleiste der Planung finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
 ## Verwalten von Benutzerzuordnungen in der Zeitleiste für die Planung
 
 Beim Planen von Ressourcen mit den neuen Tools für die Ressourcenplanung können Sie jetzt bestimmen, wie die geplanten Stunden für eine Aufgabe oder ein Problem Benutzern zugewiesen werden. Sie können Stunden in der Aufgabendauer und unter zugewiesenen Benutzern auf Tage aufteilen.
 
-Weitere Informationen finden Sie unter [Verwalten von Benutzerzuweisungen in den Planungsbereichen](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Weitere Informationen finden Sie unter &quot;Verwalten von Benutzerzuweisungen in den Planungsbereichen&quot;.
 
 ## Benutzerzuordnungen sind standardmäßig deaktiviert
 
@@ -39,7 +43,7 @@ Die Schattierung der Benutzerzuordnung in der Zeitleiste der Planung bei der Res
 
 Zuvor wurde die Zuordnungsschattierung standardmäßig angezeigt und konnte nicht deaktiviert werden.
 
-Weitere Informationen zum Aktivieren von Benutzerzuordnungsoptionen finden Sie unter [Verwalten von Benutzerzuweisungen in den Planungsbereichen](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Verwalten von Benutzerzuweisungen in den Planungsbereichen](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Weitere Informationen zum Aktivieren von Benutzerzuordnungsoptionen finden Sie unter &quot;Verwalten von Benutzerzuweisungen in den Planungsbereichen&quot;.
 
 ## Die Layoutvorlage bestimmt, ob der neue oder alte Kalender im Arbeitsbereich angezeigt wird.
 

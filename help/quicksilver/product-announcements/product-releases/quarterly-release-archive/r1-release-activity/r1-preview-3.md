@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vo
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Weitere Informationen finden Sie unter  [Verknüpfen von Dokumenten mit externe
 
 ## Aktualisiertes Team zur Kalenderarbeit
 
+>[!NOTE]
+>
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 Der für Teams verfügbare Arbeitskalender enthält jetzt zusätzliche Funktionen und ein aktualisiertes Erscheinungsbild. Das Team, das mit dem Kalender arbeitet, funktioniert jetzt ähnlich wie das Tool zur Ressourcenplanung für Projekte.
 
 Das aktualisierte Team, das am Kalender arbeitet, enthält die folgenden Verbesserungen:
@@ -52,22 +56,26 @@ Unterschiede zum Ressourcen-Planungstool bei der Planung von Ressourcen für Pro
 * Probleme werden standardmäßig im Team angezeigt, das am Kalender arbeitet.\
    Beim Planen von Ressourcen für Projekte werden Probleme nicht standardmäßig angezeigt.
 
-Weitere Informationen zur Verwendung des aktualisierten Teams, das am Kalender arbeitet, finden Sie unter [Ressourcenplanung](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Weitere Informationen zur Verwendung des aktualisierten Teams, das am Kalender arbeitet, finden Sie unter &quot;Ressourcenplanung&quot;.
 
 ## Verbesserungen bei der Ressourcenplanung
 
 Die Planung umfasst die folgenden Erweiterungen:
 
-* [Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitleiste der Planung angezeigt werden.](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitleiste der Planung angezeigt werden.&quot;
+* &quot;Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline.&quot;
 
 ### Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitleiste der Planung angezeigt werden. {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Der Filter kann jetzt verwendet werden, um zu steuern, welche Benutzer in der Planung angezeigt werden und welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt werden. Wenn Benutzer im Filter ausgewählt sind, werden nur die ausgewählten Benutzer angezeigt, unabhängig davon, ob sie über eine Rollenzuweisung verfügen, die der Rollenzuweisung für Aufgaben im Bereich Nicht zugewiesen entspricht. Alle Aufgaben, die diesem Benutzer derzeit zugewiesen sind, werden ebenfalls angezeigt.
 
 Vor dieser Änderung kontrollierte der Filter nur, welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt wurden. Benutzer wurden nur dann in der Planung angezeigt, wenn der Benutzer der Rollenzuweisung einer Aufgabe im Bereich &quot;Nicht zugewiesen&quot;entsprach.
 
-Weitere Informationen zur Verwendung des Filters, um zu steuern, was auf der Zeitleistensegment der Planung angezeigt wird, finden Sie unter  [Filtern von Informationen im Bereich &quot;Planung&quot;](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)und  [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Weitere Informationen zur Verwendung des Filters zur Steuerung der Anzeige in der Zeitleiste der Planung finden Sie unter &quot;Informationen im Planungsbereich filtern&quot;und &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
 ### Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Benutzer verbleiben auf der Planung, nachdem ihnen eine Aufgabe oder ein Problem
 
 Vor dieser Änderung verschwanden die Benutzer unmittelbar nach der Zuweisung einer Aufgabe oder eines Problems aus der Planung, wenn keine weiteren Aufgaben oder Probleme im Bereich Nicht zugewiesen mit übereinstimmender Rollenzuweisung vorhanden waren.
 
-Weitere Informationen finden Sie unter  [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Weitere Informationen finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
 ## Anpassen der Workfront-Terminologie durch Ändern von Objektnamen
 
@@ -86,7 +94,7 @@ Mithilfe einer Layout-Vorlage können Sie jetzt die Namen der folgenden Arbeitso
 * Programm
 * Projekt
 * Aufgabe
-* Anfrage
+* Problem
 
 Wenn Sie beispielsweise in Ihrer Organisation mit Kampagnen anstelle von Projekten arbeiten, können Sie den Namen des Objekts &quot;Projekt&quot;durch &quot;Kampagne&quot;ersetzen.
 

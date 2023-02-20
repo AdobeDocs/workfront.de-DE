@@ -7,7 +7,7 @@ description: Das geplante Abschlussdatum eines Projekts ist das Datum, bis zu de
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ So planen Sie ein Projekt ab dem Abschlussdatum:
 
 1. Auswählen **Projektdetails** Klicken Sie im linken Bereich auf das **Projekt bearbeiten** rechts oben.
 
-1. Im **Zeitplan ab** Feld, wählen Sie **Abschlussdatum**.
+1. Im **Planmodus** Feld, wählen Sie **Abschlussdatum**.
 
 1. Geben Sie die **Geplantes Abschlussdatum** des Projekts.
 1. Klicken **Änderungen speichern**.
@@ -119,7 +119,7 @@ So planen Sie ein Projekt vom Startdatum aus:
 
 1. Auswählen **Projektdetails** Klicken Sie im linken Bereich auf das **Projekt bearbeiten** rechts oben.
 
-1. Im **Zeitplan ab** Feld, wählen Sie **Startdatum**.
+1. Im **Planmodus** Feld, wählen Sie **Startdatum**.
 
 1. Geben Sie die **Geplantes Startdatum** des Projekts.
 1. Klicken **Änderungen speichern**.

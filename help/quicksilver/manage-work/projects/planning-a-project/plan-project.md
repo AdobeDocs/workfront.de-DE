@@ -6,9 +6,9 @@ description: Projektübersicht planen
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
    Weitere Informationen zu geplanten Stunden finden Sie im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Weisen Sie jede Aufgabe einem Benutzer oder Team zu, der für die Fertigstellung verantwortlich ist. 
+* Weisen Sie jede Aufgabe einem Benutzer oder Team zu, der für die Fertigstellung verantwortlich ist.
 * Überprüfen Sie die Verfügbarkeit der Benutzer, die Sie den Aufgaben zuweisen. Stellen Sie sicher, dass sie frei arbeiten können und nicht übergeordnet sind, damit sie ihre zugewiesenen Aufgaben ausführen können. Wenn Benutzer übergeordnet sind oder in ihren Zeitplänen Zeit frei sind, sollten Sie einen der folgenden Punkte beachten:
 
    * Reduzieren Sie die geplanten Stunden für jede Aufgabe.
    * Fügen Sie einer Aufgabe weitere Benutzer hinzu, um sicherzustellen, dass sie während der ihr zugewiesenen Zeit abgeschlossen werden kann.
    * Weisen Sie die Aufgaben erneut Benutzern zu, die ohne weitere Einschränkungen verfügbar sind.\
       Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Weitere Informationen zum Planen Ihrer Ressourcen für die Arbeit an einem Projekt finden Sie im Artikel [Ressourcenplanung](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Weitere Informationen zum Planen Ihrer Ressourcen für die Arbeit an einem Projekt finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

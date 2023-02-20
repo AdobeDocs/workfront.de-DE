@@ -7,9 +7,9 @@ description: Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpfte
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Wenn beispielsweise eine Aufgabe auf 16 Uhr eingestellt ist und der Zeitplan am 
 >
 >Die geplante Stunde pro Tag oder die tägliche Zuweisung ist die Zuweisung der geplanten Stunden für jeden Tag während der Dauer der Aufgabe. Wenn die Aufgabe eine Zuweisung hat, stellt diese Zahl die geplanten Stunden pro Tag pro Zuweisung dar. Wenn die Aufgabe mehrere Zuweisungen aufweist, unterscheiden sich die geplanten Stunden pro Tag pro Zuweisung von den geplanten Stunden pro Tag für die Aufgabe. Es gibt keine visuelle Darstellung in Workfront für die geplanten Stunden pro Tag pro Zuweisung für Aufgaben mit mehreren Zuweisungen.
 
- 
-
 ## Werte für geplante Stunden suchen und verstehen
 
 Die Werte für geplante Stunden finden Sie in verschiedenen Bereichen von Workfront. 
@@ -89,7 +87,6 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 * [Der Abschnitt &quot;Details&quot;eines Projekts, einer Aufgabe oder eines Problems](#the-details-section-of-a-project-task-or-issue)
 * [Das Feld &quot;Aufgabe bearbeiten&quot;oder &quot;Problem bearbeiten&quot;](#the-edit-task-or-edit-issue-box)
 * [Berichte](#reports)
-* [Die Planungsbereiche](#the-scheduling-areas)
 * [Der Lastenausgleich](#the-workload-balancer)
 * [Der Ressourcen-Planer](#the-resource-planner)
 * [Der Nutzungsbericht](#the-utilization-report)
@@ -131,20 +128,22 @@ Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten 
 >
 >Wenn Sie einen Bericht zum Projekt (Finanzdaten) erstellen und nach Datum gruppieren, zeigen die geplanten Stunden je nach Zeitablauf der Aufgaben für das Projekt möglicherweise einen Teil der geplanten Stunden des Projekts an. Standardmäßig verteilt Workfront die geplanten Stunden der Aufgaben gleichmäßig auf jeden Tag der Aufgabendauer. Die geplanten Stunden für einen bestimmten Zeitraum stimmen mit der gleichen Verteilung überein, die Workfront für diesen Zeitraum im Bericht Projekt (Finanzdaten) festgelegt hat.
 
-### Die Planungsbereiche  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-Die geplanten Stunden für Aufgaben und Probleme werden im Feld Planungsbereiche der geplanten Stunden angezeigt.
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-Sie können die tägliche Zuweisung geplanter Stunden für jeden Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem in den Planungsbereichen anzeigen.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-Der Betrag der täglichen Stunde stellt einen der folgenden dar: 
+The daily hour amount represents one of the following:
 
-* Standardbetrag, der von Workfront für jeden Tag der Dauer der Aufgaben oder Probleme gleichmäßig verteilt wird
-* die von Ressourcenmanagern verwaltete angepasste tägliche Zuordnung.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Informationen zum Anpassen der täglichen Zuweisungen in den Planungswerkzeugen finden Sie unter [Verwalten von Benutzerzuweisungen in den Planungsbereichen](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### Der Lastenausgleich {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Die folgenden geplanten Stunden für Aufgaben, Probleme und Projekte werden rech
 * Für Projekte wird eine Gesamtanzahl von geplanten Stunden aus den Aufgaben und Problemen angezeigt, die auf dem Bildschirm angezeigt werden.
 
    >[!TIP]
-   Der Lastenausgleich zeigt nicht alle geplanten Stunden eines Projekts im Bereich Projektdetails an.
+   >
+   >Der Lastenausgleich zeigt nicht alle geplanten Stunden eines Projekts im Bereich Projektdetails an.
 
 Sie können die tägliche Zuweisung von geplanten Stunden für jeden Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem im Arbeitslastausgleich anzeigen.
 
@@ -176,7 +176,8 @@ Der Ressourcenplaner zeigt geplante Stunden für Projekte, Aufgaben, Probleme an
 Sie können die wöchentlichen Zuordnungen von geplanten Stunden für die mit Arbeitselementen verknüpften Benutzer und Stellenrollen in der Spalte PLN des Resource Planers anzeigen.
 
 >[!TIP]
-Tägliche Zuordnungsanpassungen im Arbeitslasten-Balancer beeinflussen die wöchentlichen Zuordnungen für Aufgaben und Probleme im Ressourcenplaner.
+>
+>Tägliche Zuordnungsanpassungen im Arbeitslasten-Balancer beeinflussen die wöchentlichen Zuordnungen für Aufgaben und Probleme im Ressourcenplaner.
 
 Die Anzahl der geplanten Stunden für jedes Objekt hängt davon ab, welche Ansicht Sie auf den Ressourcenplaner anwenden. Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ Der wöchentliche Betrag für Projekte, Benutzer und Rollen wird durch die wöch
 Das Projekt &quot;Geplante Stunden&quot;ist mit den Zuweisungen für jede Aufgabe und jedes Problem verknüpft.
 
 >[!IMPORTANT]
-Beachten Sie, dass die im Bericht &quot;Dienstprogramme&quot;geplanten Stunden mit den Zuweisungen und nicht mit den Aufgaben und Problemen selbst verknüpft sind. Die im Bericht &quot;Nutzung&quot;geplanten Stunden stimmen nicht immer mit den geplanten Stunden zu den Aufgaben und Problemen des Projekts überein. Die geplanten Stunden stimmen jedoch mit den Stunden überein, die mit den Zuweisungen zu Aufgaben und Problemen verknüpft sind.
+>
+>Beachten Sie, dass die im Bericht &quot;Dienstprogramme&quot;geplanten Stunden mit den Zuweisungen und nicht mit den Aufgaben und Problemen selbst verknüpft sind. Die im Bericht &quot;Nutzung&quot;geplanten Stunden stimmen nicht immer mit den geplanten Stunden zu den Aufgaben und Problemen des Projekts überein. Die geplanten Stunden stimmen jedoch mit den Stunden überein, die mit den Zuweisungen zu Aufgaben und Problemen verknüpft sind.
 
 Sie können die folgenden Arten von geplanten Stunden im Nutzungsbericht anzeigen:
 

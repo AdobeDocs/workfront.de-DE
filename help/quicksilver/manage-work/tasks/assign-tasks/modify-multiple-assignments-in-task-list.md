@@ -6,9 +6,9 @@ description: Bei der Verwaltung von Aufgabenzuweisungen können Sie sie gleichze
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Bei der Verwaltung von Aufgabenzuweisungen können Sie sie gleichzeitig für meh
 
 Dieser Artikel bezieht sich auf das Ändern mehrerer Benutzerzuweisungen für mehrere Aufgaben in einer Aufgabenliste. Lesen Sie auch die folgenden Artikel zum Ändern von Zuweisungen für mehrere Aufgaben in anderen Bereichen:
 
-* Informationen zum Ändern von Zuweisungen für mehrere Aufgaben im Bereich &quot;Planung&quot;finden Sie unter [Mehrere Benutzerzuweisungen zu Aufgaben in den Planungsbereichen ändern](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Informationen zum Zuweisen von Aufgaben mithilfe des Lastenausgleichs finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Informationen zum Zuweisen einer Aufgabe zu einer Ressource in einer Liste finden Sie unter [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

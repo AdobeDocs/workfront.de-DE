@@ -6,7 +6,7 @@ description: Sie können Ressourcen für ein einzelnes Projekt planen, um anzuge
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ So greifen Sie in einem Projekt auf das Planungs-Tool zu:
 1. Gehen Sie zu dem Projekt, für das Sie Ressourcen planen möchten.
 1. Klicken Sie auf **Planung** oder Arbeitslastausgleich im linken Bereich. Der Abschnitt Planung oder Lastenausgleich befindet sich möglicherweise unter **Mehr anzeigen**.
 
-   Informationen zum Planen von Ressourcen mithilfe des Planungs-Tools in einem Projekt finden Sie unter [Ändern von Benutzerzuweisungen und Zuordnungen](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) im Artikel [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Informationen zur Planung von Ressourcen mithilfe des Planungs-Tools in einem Projekt finden Sie im Abschnitt &quot;Ändern von Benutzerzuweisungen und Zuordnungen&quot;im Artikel &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
 1. (Bedingt und empfohlen) Wenn Sie auf Planung klicken, klicken Sie auf **Wechseln zum Lastenausgleich** , um Ressourcen mit dem Lastenausgleich zu planen.
 

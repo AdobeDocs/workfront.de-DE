@@ -6,10 +6,10 @@ description: Budget- und Planen von Projektressourcen
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,4 @@ Stellen Sie sicher, dass Sie die folgenden Schritte ausführen, während Sie die
    * [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Erste Schritte mit dem Szenario-Planer](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Planen Sie Ihre Ressourcen oder weisen Sie sie Aufgaben und Problemen zu. Wenn Sie Ihre Ressourcen Aufgaben und Problemen zuweisen, können Sie tatsächlich Benutzer, Teams oder Rollen bestimmten Arbeitselementen zuweisen, sodass sie für die Fertigstellung dieser Elemente verantwortlich sind. .
-
-   Weitere Informationen finden Sie in den Artikeln:
-
-   * [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [Ressourcenplanung](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* Planen Sie Ihre Ressourcen oder weisen Sie sie Aufgaben und Problemen zu. Wenn Sie Ihre Ressourcen Aufgaben und Problemen zuweisen, können Sie tatsächlich Benutzer, Teams oder Rollen bestimmten Arbeitselementen zuweisen, sodass sie für die Fertigstellung dieser Elemente verantwortlich sind. Weitere Informationen finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

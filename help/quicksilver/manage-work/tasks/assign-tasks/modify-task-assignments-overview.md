@@ -7,7 +7,7 @@ description: Sie können Aufgaben Benutzern, Teams oder Auftragsrollen zuweisen 
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Dieser Artikel enthält allgemeine Informationen über die Auswirkungen der Änd
 
 * Informationen zum Zuweisen von Aufgaben finden Sie unter [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) und [Mehrere Benutzerzuweisungen in einer Aufgabenliste ändern](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Informationen zum Ändern von Zuweisungen für mehrere Aufgaben im Bereich &quot;Planung&quot;finden Sie unter [Mehrere Benutzerzuweisungen zu Aufgaben in den Planungsbereichen ändern](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Informationen zum Ändern von Zuweisungen für mehrere Aufgaben im Bereich &quot;Planung&quot;finden Sie unter &quot;Ändern von Zuweisungen mehrerer Benutzer zu Aufgaben in den Planungsbereichen&quot;.
 * Informationen zum Zuweisen von Aufgaben mithilfe des Lastenausgleichs finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Problemen. Weitere Informationen zum Zuweisen von Problemen sowie weitere Überlegungen finden Sie unter [Übersicht über Problemzuweisungen ändern](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

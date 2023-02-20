@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ Die Verwendung von Workfront-Zielen wird anhand des Feedbacks, das wir von Ihnen
 
 * Die Erfahrung beim Drucken einer Liste von Zielen mit einem intuitiveren Drucklink im Abschnitt &quot;Zielliste&quot;wurde aktualisiert.
 
-   Weitere Informationen zu Druckzielen finden Sie unter [Drucken der Zielliste in Adobe Workfront-Zielen](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   Weitere Informationen zu Druckzielen finden Sie unter &quot;Drucken der Zielliste in Adobe Workfront-Zielen&quot;.
+
+   >[!NOTE]
+   >
+   >  Die Funktion zum Drucken von Zielen wurde eingestellt und aus Workfront entfernt.
+
 
 * Es wurden zusätzliche Informationen zu Ergebnissen und Aktivitäten im Bereich &quot;Zieldetails&quot;hinzugefügt, sodass Sie den Unterschied zwischen ihnen verstehen können.
 

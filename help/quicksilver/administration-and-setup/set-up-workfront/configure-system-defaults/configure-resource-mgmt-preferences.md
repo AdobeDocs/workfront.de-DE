@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Bei der Berechnung der Nutzerkapazität berücksichtigt Workfront die folgenden 
 * [!UICONTROL Zeitplan] [!UICONTROL Ausnahmen] (abhängig von [!UICONTROL Zeitplan] verwendet wird, kann es sich um die Ausnahmen des Benutzerzeitplans oder um die mit dem [!DNL Workfront] [!UICONTROL Standardzeitplan])
 * Zeitlimit des Benutzers
 * Der Wert des Vollzeitäquivalents ([!UICONTROL FTE]) des Benutzers oder des [!DNL Workfront] System. Die [!UICONTROL FTE] entspricht 1, wenn der Benutzer Vollzeit arbeitet, wie im Zeitplan definiert.
-* <span class="preview">Der Wert von [!UICONTROL Arbeitszeit] für den Benutzer, der sich auf die Zeit bezieht, die der Benutzer für projektbezogene Arbeit verbringt. Dies umfasst keine Zeit mit Mehraufwand, wie z. B. Sitzungen und Schulungen. Die [!UICONTROL Arbeitszeit] gleich 1, wenn der Benutzer für die gesamte Arbeitszeit verfügbar ist, wie durch die [!UICONTROL FTE] oder dem Zeitplan, was bedeutet, dass sie keine Zeit für nicht projektbezogene Arbeiten wie Meetings oder Trainings verbringen.</span>
+<div class="preview">
+* Der Wert von [!UICONTROL Arbeitszeit] für den Benutzer, der sich auf die Zeit bezieht, die der Benutzer für projektbezogene Arbeit verbringt. Dies umfasst keine Zeit mit Mehraufwand, wie z. B. Sitzungen und Schulungen. Die [!UICONTROL Arbeitszeit] entspricht 1, wenn der Benutzer während der gesamten Arbeitszeit zur Verfügung steht, wie in der [!UICONTROL FTE] oder dem Zeitplan angegeben, was bedeutet, dass er keine Zeit für nicht projektbezogene Arbeiten wie Meetings oder Trainings verbringt.
+</div>
 
 Informationen zur Planung und Planung von Ressourcen finden Sie unter [!DNL Workfront], siehe [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

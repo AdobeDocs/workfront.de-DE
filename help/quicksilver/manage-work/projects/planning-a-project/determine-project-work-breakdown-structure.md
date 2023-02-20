@@ -6,9 +6,9 @@ description: Die Definition einer Arbeitsaufschlüsselungsstruktur (Work Breakdo
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Beachten Sie Folgendes:
 
 Nachdem Sie die Dauer und die Begrenzungen jeder Aufgabe definiert haben, können Sie bestimmen, wer über die Zeit und die Fertigkeiten verfügt, um die Arbeit zu erledigen. Sie können den folgenden Entitäten in Workfront Aufgaben zuweisen:
 
-* Benutzer\
+* Benutzende\
    Aufgaben können nur Benutzern mit der Zugriffsebene Planer oder Worker zugewiesen werden. Sie können zwar Anforderungen und Validierern Aufgaben zuweisen, diese jedoch nicht abschließen. Aus diesem Grund wird empfohlen, ihnen keine Aufgaben zuzuweisen.
 
    Informationen zu den Zugriffsebenen und dazu, wie sie definieren, was Benutzer mit Workfront-Objekten tun können, finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -108,7 +108,7 @@ Zu Beginn eines Geschäftsjahres oder -quartals möchten Sie Ihre Ressourcen mö
 Informationen zur Planung der Nutzung Ihrer Ressourcen auf höherer Ebene finden Sie im Artikel [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Wenn Sie Ihre Ressourcen im Zusammenhang mit dem Erstellen der Arbeitsaufschlüsselungsstruktur eines Projekts verwalten und sicherstellen, dass jede Aufgabe der richtigen Ressource zugewiesen ist, können Sie Ihre Ressourcen für die zu erledigende Arbeit planen.\
-Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [Ressourcenplanung](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) Abschnitt.
+Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [Der Lastenausgleich](../../../resource-mgmt/workload-balancer/workload-balancer.md) Abschnitt.
 
 ## Geschätzte Projektfinanzen
 

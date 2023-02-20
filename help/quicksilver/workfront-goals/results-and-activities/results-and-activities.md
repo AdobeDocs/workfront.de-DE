@@ -7,9 +7,9 @@ description: Ergebnisse und Aktivitäten sind Fortschrittsanzeigen für ein Ziel
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 >
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Um Fortschritte bei den Workfront-Zielen zu erfassen, müssen Sie Fortschrittsanzeigen Zielen zuordnen. Zusätzlich zu den Ergebnissen und Aktivitäten können Sie auch Projekte oder untergeordnete Ziele mit einem Ziel verknüpfen, um Fortschritte aufzuzeichnen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

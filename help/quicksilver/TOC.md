@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [Exportieren von Informationen aus dem Ressourcenplaner](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Bericht zu Ressourcenplanern - Budgetierte Stunden](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Anzeigebeschränkungen für den Ressourcenplaner](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Ressourcenplanung {#resource-scheduling}
-      * [Ressourcenplanung](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [Erste Schritte mit der Ressourcenplanung](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [Übersicht über die Planungsbereiche](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [Einstellungen in den Planungsbereichen konfigurieren](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [Zulassen von Benutzerzuweisungen unabhängig von Rolle und Gruppenmitgliedschaft in den Planungsbereichen](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [Automatisch nicht zugewiesene Aufgaben und Probleme in den Planungsbereichen zuweisen](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Konfigurieren der Berechnung der Ressourcenstunde und der FTE-Verfügbarkeit durch Workfront für den Planungsbereich](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [Filtern von Informationen im Bereich &quot;Planung&quot;](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [Verwalten von Benutzerzuweisungen in den Planungsbereichen](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [Mehrere Benutzerzuweisungen zu Aufgaben in den Planungsbereichen ändern](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * Ressourcenauslastung {#resource-utilization}
       * [Ressourcenauslastung](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informationen zur Ressourcenauslastung anzeigen](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [Informationen in Adobe Workfront-Zielen filtern](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Zielstatusübersicht in Adobe Workfront-Zielen](workfront-goals/goal-management/goal-status-overview.md)
       * [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](workfront-goals/goal-management/manage-goal-comments.md)
-      * [Drucken der Zielliste in Adobe Workfront-Zielen](workfront-goals/goal-management/print-the-goal-list.md)
       * [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Überprüfen von Problemzielen in Adobe Workfront-Zielen](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Zielausrichtung bei Adobe Workfront-Zielen {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Ziele in der Zielliste von Adobe Workfront verwalten](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Überprüfen Sie Diagramme, um die Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen.](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Ziele im Abschnitt &quot;Adobe Workfront Goals Pulse&quot;überprüfen](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Ergebnisse und Aktivitäten in Adobe Workfront-Zielen {#results-activities-adobe-workfront-goals}
       * [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen](workfront-goals/results-and-activities/results-and-activities.md)
       * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Entfernen von Fortschrittsindikatoren aus Zielen in Adobe Workfront-Zielen](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Einstellungen für Adobe Workfront-Ziele {#adobe-workfront-goal-settings}
       * [Einstellungen für Adobe Workfront-Ziele](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Terminologie für Adobe Workfront-Ziele anpassen](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

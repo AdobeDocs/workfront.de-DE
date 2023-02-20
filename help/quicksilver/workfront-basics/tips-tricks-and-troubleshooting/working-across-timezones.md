@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Folgendes zu berechnen - BEARBEITEN SIE ME.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ Sie können Benutzern auf verschiedene Weise dabei helfen, einfacher über mehre
 
    Anweisungen zum Zuweisen eines Zeitplans zu einem Projekt oder Benutzer finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung der [!UICONTROL Geplante Stunden] im [!UICONTROL Planung] und in [!DNL Workload Balancer], siehe Folgendes:
-
-   * [Verwalten Sie die Benutzerzuordnungen im [!UICONTROL Planung] Gebiete](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [Verwalten Sie die Benutzerzuordnungen im [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung der [!UICONTROL Geplante Stunden] im [!DNL Workload Balancer], siehe [Verwalten Sie die Benutzerzuordnungen im [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berechnete Zeitfelder in einem benutzerdefinierten Formular verwenden {#use-calculated-time-fields-in-a-custom-form}

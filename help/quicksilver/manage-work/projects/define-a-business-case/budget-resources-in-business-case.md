@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Gesc
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Geschäftsszenari
 
 >[!NOTE]
 >
->Die Budgetierung von Ressourcen entspricht nicht der Planung von Ressourcen für ein Projekt. Wenn Sie Ressourcen mit Budget versehen, schätzen Sie die Rollen, die zum Abschluss der Arbeit an einem Projekt erforderlich sein könnten. Informationen zum Planen oder Zuweisen von Benutzern zur Arbeit an einem Projekt finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Informationen zur Ressourcenplanung in Adobe Workfront finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Die Budgetierung von Ressourcen entspricht nicht der Planung von Ressourcen für ein Projekt. Wenn Sie Ressourcen mit Budget versehen, schätzen Sie die Rollen, die zum Abschluss der Arbeit an einem Projekt erforderlich sein könnten. Informationen zum Planen oder Zuweisen von Benutzern zur Arbeit an einem Projekt finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Sie müssen dem Projekt Vorgangsrollen zuweisen, bevor Sie die Ressourcen dafür einsetzen können. Im Folgenden finden Sie Möglichkeiten, einem Projekt Vorgangsrollen zuzuweisen:
 
