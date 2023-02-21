@@ -7,7 +7,7 @@ description: Sie können die Details eines Arbeitselements anzeigen und verwalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Bevor Sie Details zu Arbeitselementen anzeigen und verwalten können, finden Sie
 
    Wenn Sie eine Aufgabe oder ein Problem auswählen, wird die **[!UICONTROL Details]** -Registerkarte geöffnet ist. Das Gebiet über dem **[!UICONTROL Details]** auf der Registerkarte werden der Name des übergeordneten Objekts, der Name der Aufgabe oder des Problems sowie die [!UICONTROL Fälligkeitsdatum] (wenn es eine Aufgabe ist) oder [!UICONTROL Prioritätsdatum] (wenn es ein Problem ist).
 
-   ![](assets/details-tab.png)
 
    Sie können auf dieser Registerkarte verschiedene Aufgaben ausführen, ohne zu gehen [!DNL G Suite], einschließlich der folgenden:
 
