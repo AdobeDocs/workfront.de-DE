@@ -7,9 +7,9 @@ description: Mit dem Adobe Workfront Fusion DevTool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
+source-git-commit: 3d5b9e178cc3222523b558e3c6717ce54f322ff9
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 So verwenden Sie die [!DNL Workfront Fusion] DevTool, müssen Sie es zuerst installieren.
 
-1. Klicken [dieser Link](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) , um die Erweiterung herunterzuladen.
+1. Klicken [dieser Link](assets/workfront-fusion-devtool-2023-feb.zip) , um die Erweiterung herunterzuladen.
 1. Extrahieren Sie die Dateien nach dem Herunterladen in einen Ordner Ihrer Wahl.
 1. Öffnen Sie eine Registerkarte in [!DNL Chrome]
 1. Geben Sie in der Suchleiste der Registerkarte `chrome://extensions`.
