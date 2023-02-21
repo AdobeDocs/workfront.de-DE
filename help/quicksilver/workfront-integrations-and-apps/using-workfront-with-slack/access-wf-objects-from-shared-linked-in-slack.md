@@ -6,9 +6,9 @@ description: Wenn Links zu [!DNL Adobe Workfront] -Objekte werden in einem Slack
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ Bevor Sie auf Ihre Favoriten und aktuellen Artikel zugreifen können, wählen Si
    >[!NOTE]
    >
    >Der Benutzer, der den Link freigegeben hat, muss mindestens über [!UICONTROL Ansicht] Berechtigungen für das Projekt, damit Sie zusätzliche Informationen dazu sehen können.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Optional) Klicken Sie auf den Namen des Projekts, um es in [!DNL Workfront] in einer neuen Browser-Registerkarte.
 1. Überprüfen Sie die folgenden zusätzlichen Informationen zum Projekt:

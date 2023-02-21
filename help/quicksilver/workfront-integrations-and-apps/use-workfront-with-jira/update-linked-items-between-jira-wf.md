@@ -6,9 +6,9 @@ description: Link [!DNL Jira] Probleme [!DNL Adobe Workfront] Aufgaben oder Prob
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Die folgende Liste zeigt, welche [!DNL Workfront] synchronisierte Felder mit [!D
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Forms- und benutzerdefinierte Felder</td> 
-   <td> <p> Anzeige im [!DNL Workfront] rechter Bereich des [!DNL Jira] Problem. <br>Nur die benutzerdefinierten Felder mit einem tatsächlichen Wert werden im Bereich angezeigt.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Hinweis: Die Abschnitte Benutzerdefiniertes Formular werden mit der Zugriffsebene der [!DNL Workfront] Administrator. </p> </td> 
+   <td> <p> Anzeige im [!DNL Workfront] rechter Bereich des [!DNL Jira] Problem. <br>Nur die benutzerdefinierten Felder mit einem tatsächlichen Wert werden im Bereich angezeigt.<br></p> <p>Hinweis: Die Abschnitte Benutzerdefiniertes Formular werden mit der Zugriffsebene der [!DNL Workfront] Administrator. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Problem oder Aufgabenpriorität]</td> 
@@ -201,8 +201,7 @@ So protokollieren Sie die Zeit für ein Element in [!DNL Jira] und lassen Sie si
 
 1. Anmelden [!DNL Jira].
 1. Navigieren Sie zu [!DNL Jira] -Problem, das mit dem [!DNL Workfront] Element.
-1. Erweitern Sie die **[!UICONTROL Mehr]** Menü und klicken Sie auf **[!UICONTROL Protokollarbeit]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Erweitern Sie die **[!UICONTROL Mehr]** Menü und klicken Sie auf **[!UICONTROL Protokollarbeit]**.
 
 1. Im **[!UICONTROL Besuchszeit]** geben Sie die Zeit an, die mit der Bearbeitung dieses Problems verbracht wurde. Sie müssen die Zeit mithilfe der folgenden Zeiträume angeben:
 
@@ -225,8 +224,6 @@ Sie können die Zeit nur auf die verknüpfte [!DNL Workfront] -Element [!DNL Jir
 
 1. Klicken Sie auf **[!UICONTROL Protokollzeit]** Symbol.
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Geben Sie den Betrag von **[!UICONTROL Stunden]** und **[!UICONTROL Minuten]** Sie möchten sich für das Problem anmelden.
 
 1. Klicken **[!UICONTROL Protokollzeit]**.
@@ -246,7 +243,7 @@ So kommentieren Sie [!DNL Jira] zu [!DNL Workfront] item:
 
    Die Einzelheiten der [!DNL Workfront] -Element im [!DNL Workfront] rechter Bereich des Problems.
 
-1. Klicken Sie auf **[!UICONTROL Kommentare]** im [!DNL Workfront] oder in der **[!UICONTROL Kommentare]** Registerkarte. ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Klicken Sie auf **[!UICONTROL Kommentare]** im [!DNL Workfront] oder auf **[!UICONTROL Kommentare]** Registerkarte.
 
 1. Beginnen Sie mit der Eingabe eines Kommentars und klicken Sie dann auf **[!UICONTROL Senden]**.
 

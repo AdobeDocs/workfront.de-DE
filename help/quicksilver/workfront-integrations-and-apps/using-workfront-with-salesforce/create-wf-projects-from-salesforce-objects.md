@@ -6,9 +6,9 @@ description: Nach der Installation [!DNL Adobe Workfront] Für Salesforce könne
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1506'
 ht-degree: 3%
 
 ---
@@ -198,8 +198,6 @@ So zeigen Sie Projekte an, die aus einem [!UICONTROL Chancen] oder Konto :
 1. Wählen Sie die **[!UICONTROL Projekte]** Registerkarte.
 
    Alle von definierten Triggern erstellten Projekte werden auf dieser Registerkarte aufgelistet. Jeder Benutzer in [!DNL Salesforce] , die auch [!DNL Workfront] und wer möglicherweise berechtigt ist, diese Projekte in [!DNL Workfront] kann sie auch in [!DNL Salesforce] für [!UICONTROL Chancen] oder das Konto, von dem sie generiert wurden.
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    Sie können die folgenden Informationen zu den von der Integration erstellten Projekten anzeigen:
 

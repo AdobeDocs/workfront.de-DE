@@ -7,7 +7,7 @@ description: Sie können eine externe E-Mail konvertieren, die nicht von [!DNL A
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ Bevor Sie ein Problem erstellen können, [!DNL G Suite], müssen Sie
    Am unteren Rand des **[!UICONTROL Details]** Registerkarte können Sie auch auf **[!UICONTROL Anzeigen in Workfront]** , um zur neuen Ausgabe in Workfront zu gelangen.
 
    Wenn Sie den Browser aktualisieren, wird eine Meldung mit einem Link am unteren Rand des [!UICONTROL Workfront für G Suite] bestätigt, dass Sie die E-Mail in ein Problem konvertiert haben:
-
-   ![](assets/email-was-converted.png)
 
    Sie können auf den Link klicken, um zur Detailansicht im [!DNL Workfront for G Suite] für das Problem, das Sie erstellt haben.
 

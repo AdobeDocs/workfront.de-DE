@@ -6,9 +6,9 @@ description: Sie können E-Mails in [!DNL Adobe Workfront] Aufgaben oder Problem
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 
    Möglicherweise müssen Sie rechts oben in Ihrer E-Mail auf den Pfeil nach unten klicken, um auf die Variable [!DNL Workfront] Symbol.
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol, um die Liste der verfügbaren [!DNL Workfront] Optionen.
+1. Klicken Sie auf **[!UICONTROL Menü]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) , um die Liste der verfügbaren [!DNL Workfront] Optionen.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. Klicken **[!UICONTROL Zu Arbeit hinzufügen]**.
-
-   ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Wählen Sie die **[!UICONTROL Zum Projekt hinzufügen]** -Feld.
 1. Beginnen Sie mit der Eingabe des Namens eines Projekts im **[!UICONTROL Projekt]** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -95,4 +93,3 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 
    Oben im [!DNL Workfront] -Add-In-Bedienfeld anzeigen, sehen Sie die Bestätigung mit einem Link, zu dem die E-Mail hinzugefügt wurde. [!DNL Workfront] als Aufgabe oder Problem. Der Link enthält das Datum, an dem er konvertiert wurde.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

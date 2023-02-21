@@ -6,9 +6,9 @@ description: Empfangen [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ Bevor Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack], müssen Sie
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. Alle Benachrichtigungen sind standardmäßig aktiviert.\
    Deaktivieren Sie eine der folgenden Benachrichtigungen:
 
@@ -107,25 +105,15 @@ So verwalten Sie [!DNL Workfront] Benachrichtigungen für [!DNL Slack]:
 
    * Klicken **[!UICONTROL Arbeiten daran]** , um zu akzeptieren, an einer Aufgabe zu arbeiten.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Antwort in[!DNL Workfront]]** Um auf einen Kommentar zu antworten, geben Sie Ihre Antwort ein und klicken Sie auf **[!UICONTROL Antwort]**.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Antwort in[!DNL Workfront]]** Um auf einen Kommentar zu antworten, geben Sie Ihre Antwort ein und klicken Sie auf **[!UICONTROL Antwort]**.\
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um Aufgaben, Probleme oder Projekte zu genehmigen oder abzulehnen, die noch nicht genehmigt wurden.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um Aufgaben, Probleme oder Projekte zu genehmigen oder abzulehnen, die noch nicht genehmigt wurden.\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
       Nur der genehmigte Slack [Dateitypen](https://api.slack.com/types/file) kann in der Vorschau angezeigt werden.
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Förderung]** oder **[!UICONTROL Ignorieren]** , um die Anforderung eines weiteren Zugriffs von einem anderen Benutzer zu erteilen oder zu ignorieren.\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       Sie erhalten eine Bestätigung, dass Ihre Aktion in [!DNL Workfront]für jede Entscheidung, die Sie in Ihren Benachrichtigungen treffen.

@@ -7,7 +7,7 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ Bevor Sie eine [!DNL Workfront] Element mit E-Mail-Inhalt aus [!DNL G Suite], m�
 1. under **[!UICONTROL Typ]** klicken Sie auf den Dropdown-Pfeil und dann auf den Objekttyp, dem Sie die Aktualisierung hinzufügen möchten.
 1. Klicken Sie auf **[!UICONTROL Suchen Sie nach]** Geben Sie den Namen des Objekts ein, für das Sie die Aktualisierung hinzufügen möchten, und wählen Sie dann das Element aus, wenn es in der folgenden Liste angezeigt wird.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Diese Option variiert je nach Auswahl in Schritt 3. Es könnte **[!UICONTROL Suchen nach einem Projekt]**, **[!UICONTROL Nach Aufgaben suchen]** oder **[!UICONTROL Suchen nach einem Problem]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Bevor Sie eine [!DNL Workfront] Element mit E-Mail-Inhalt aus [!DNL G Suite], m�
 1. Klicken **[!UICONTROL Aktualisieren]**.
 
    Wenn Sie den Browser aktualisieren, wird eine Meldung mit einem Link am unteren Rand des [!DNL Workfront for G Suite] bestätigt, dass Sie die E-Mail in eine Aktualisierung konvertiert haben:
-
-   ![](assets/email-was-converted-as-update.png)
 
    Sie können auf den Link klicken, um zum [!UICONTROL Updates] Registerkarte in [!DNL Workfront] für das Objekt, das Sie in Schritt 4 angegeben haben.
 

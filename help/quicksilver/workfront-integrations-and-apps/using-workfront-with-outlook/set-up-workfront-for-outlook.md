@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion bietet eine Integration mit Outlook. In dies
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Weitere Informationen zur Einrichtung der [!DNL Workfront] Add-in für [!DNL Out
 
 1. Suchen Sie nach **[!DNL Workfront]** im **[!UICONTROL Suchen-Add-Ins]** Feld und drücken Sie dann **[!UICONTROL Eingabe]**.
 
-   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. Wenn es in der Liste angezeigt wird, klicken Sie auf **Hinzufügen**.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] oder [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -132,8 +130,6 @@ Weitere Informationen zur Einrichtung der [!DNL Workfront] Add-in für [!DNL Out
 1. Klicken **[!UICONTROL Startseite]** > **[!UICONTROL Store]** auf dem Band.
 
 1. Suchen Sie nach **[!DNL Workfront]** im **[!UICONTROL Suche]** Feld und drücken Sie dann **[!UICONTROL Eingabe]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. Klicken Sie auf den Umschalter, um die **[!UICONTROL [!DNL Workfront]Add-in]**.
 

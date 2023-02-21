@@ -7,7 +7,7 @@ description: Sie können auf Ihre [!DNL Adobe Workfront] Startinhalte, einschlie
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ Bevor Sie auf [!UICONTROL Startseite] Inhalt aus [!DNL G Suite], müssen Sie
 1. Wenn die Variable [!UICONTROL Workfront für G Suite] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts auf der Seite.
 1. Wenn oben ein Linkspfeil angezeigt wird [!DNL Workfront] für [!DNL G Suite]Klicken Sie auf den Pfeil , um zum [!UICONTROL Startseite] Bereich.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. Im **[!UICONTROL Sortieren nach]** Bereich, klicken Sie auf den Erweiterungspfeil ![](assets/dropdown-arrow.png)und klicken Sie dann auf eine Option, um festzulegen, wie Sie Ihre Arbeitselemente gruppieren möchten, damit Sie die gewünschte finden können.
-
-   ![](assets/sort-by-area.png)
 
    Wenn Sie nach **[!UICONTROL Commit date]** oder **[!UICONTROL Geplanter Abschluss]** -Datum, befinden sich die ältesten Arbeitselemente oben.
 

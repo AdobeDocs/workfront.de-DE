@@ -7,7 +7,7 @@ description: In diesem Artikel wird beschrieben, wie Sie sich bei der [!DNL Adob
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -69,8 +69,6 @@ Vor der Anmeldung oder Abmeldung von [!DNL Workfront for G Suite], müssen Sie
 
 1. Wenn die Variable [!UICONTROL Workfront für G Suite] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts auf der Seite.
 1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** -Symbol oben im [!DNL Workfront for G Suite] Bereich.
-
-   ![](assets/more-actions-icon.png)
 
 1. Klicken **[!UICONTROL Abmelden]** im angezeigten Menü.
 

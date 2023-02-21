@@ -6,9 +6,9 @@ description: 'Nach der Installation und Konfiguration [!DNL Adobe Workfront] Sla
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Bevor Sie Aufgaben und Probleme aus erstellen können, [!DNL Slack], müssen Sie
    >
    >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
    >  
-   >Der Aufgabenname muss so eingegeben werden, wie er im [!DNL Workfront] -Schnittstelle ohne Klammern oder Anführungszeichen.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >Der Aufgabenname muss so eingegeben werden, wie er im [!DNL Workfront] -Schnittstelle ohne Klammern oder Anführungszeichen.
 
 1. (Optional) Beginnen Sie mit der Eingabe des Namens eines Projekts, mit dem Sie die neue Aufgabe verknüpfen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.\
    Sie erhalten eine Bestätigung, die angibt, dass die Aufgabe zum ausgewählten Projekt hinzugefügt wurde.
@@ -81,8 +80,7 @@ Bevor Sie Aufgaben und Probleme aus erstellen können, [!DNL Slack], müssen Sie
    >[!NOTE]
    >
    >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Sie können Ihren Befehl mit &quot;/wf&quot;anstelle von &quot;/workfront&quot;starten. \
-   >Der Problemname muss so eingegeben werden, wie er im [!DNL Workfront] -Schnittstelle ohne Klammern oder Anführungszeichen.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >Der Problemname muss so eingegeben werden, wie er im [!DNL Workfront] -Schnittstelle ohne Klammern oder Anführungszeichen.
 
 1. (Optional) Beginnen Sie mit der Eingabe des Namens eines Projekts, mit dem Sie das neue Problem verknüpfen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.\
    Sie erhalten eine Bestätigung, dass das Problem zum ausgewählten Projekt hinzugefügt wurde.

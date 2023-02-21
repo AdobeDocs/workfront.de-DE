@@ -6,9 +6,9 @@ description: Wenn Sie eine [!DNL Adobe Workfront] E-Mail-Benachrichtigung in Ihr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,13 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 1. Klicken Sie auf **[!DNL Workfront]** in der oberen rechten Ecke der E-Mail-Nachricht ein, um das Workfront-Add-In anzuzeigen.\
    Möglicherweise müssen Sie rechts oben in Ihrer E-Mail auf den Pfeil nach unten klicken, um auf die Variable [!DNL Workfront] Symbol.
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol, um die Liste der verfügbaren [!DNL Workfront] Optionen.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klicken Sie auf **[!UICONTROL Menü]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) , um die Liste der verfügbaren [!DNL Workfront] options.\
+
 
 1. Klicken **[!UICONTROL Antworten auf Kommentar]**.
 1. Geben Sie Ihren Kommentar in das bereitgestellte Feld ein.
 1. (Optional) Klicken Sie auf **[!UICONTROL Andere einschließen]**, geben Sie den Namen der Benutzer ein, die Sie in die Aktualisierung aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
    Wiederholen Sie diesen Vorgang, um weitere Benutzer einzuschließen, und klicken Sie dann auf **[!UICONTROL Fertig]**.\
    Standardmäßig erhält der Benutzer, auf den Sie antworten, eine Benachrichtigung, unabhängig davon, ob Sie sie einschließen.\
-   ![o365_addin_include.others.png](assets/o365-addin-includeothers.png)
 
 1. Klicken **[!UICONTROL Kommentar]**.

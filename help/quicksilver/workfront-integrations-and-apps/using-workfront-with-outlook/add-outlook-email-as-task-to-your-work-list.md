@@ -6,9 +6,9 @@ description: Sie können [!DNL Outlook] E-Mails an [!DNL Adobe Workfront] Aufgab
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 1. Klicken Sie auf **[!DNL Workfront]** rechts oben in der E-Mail-Nachricht ein Symbol zum Anzeigen der [!DNL Workfront] -Add-in.\
    Möglicherweise müssen Sie rechts oben in Ihrer E-Mail auf den Pfeil nach unten klicken, um auf die Variable [!DNL Workfront] Symbol.
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol, um die Liste der verfügbaren [!DNL Workfront] Optionen.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klicken Sie auf **[!UICONTROL Menü]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) Symbol, um die Liste der verfügbaren [!DNL Workfront] options.\
+
 
 1. Klicken **[!UICONTROL Zu Arbeit hinzufügen]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Deaktivieren Sie die **[!UICONTROL Zum Projekt hinzufügen]** -Feld.
 1. (Optional) Sie können die folgenden Informationen aus der E-Mail aktualisieren, bevor sie als Aufgabe gespeichert wird:
@@ -68,4 +67,3 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 
 1. (Optional) Navigieren Sie zurück zu [!DNL Outlook]und wählen Sie die ursprüngliche E-Mail aus.\
    Oben im [!DNL Workfront] -Add-In-Bedienfeld sehen Sie die Bestätigung mit einem Link, dass die E-Mail als Aufgabe zu Workfront hinzugefügt wurde. Der Link enthält das Datum, an dem er konvertiert wurde.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

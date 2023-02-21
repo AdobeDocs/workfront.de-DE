@@ -6,9 +6,9 @@ description: Nach der Installation und Konfiguration [!DNL Adobe Workfront] zum 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ Bevor Sie auf Ihre Favoriten und aktuellen Artikel zugreifen können, wählen Si
 
    Eine Liste Ihrer Favoriten wird angezeigt.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (Optional) Klicken Sie auf **[!UICONTROL Mehr anzeigen]** , um weitere Favoriten aufzulisten.
 1. Klicken Sie auf den Namen eines Favoriten, um ihn in [!DNL Workfront] in einer neuen Browser-Registerkarte.
 
@@ -73,7 +71,6 @@ Bevor Sie auf Ihre Favoriten und aktuellen Artikel zugreifen können, wählen Si
    >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
 
    Eine Liste der zuletzt aufgerufenen Artikel wird in der Reihenfolge angezeigt, in der sie zuletzt aufgerufen wurden, wobei sich oben die neuesten Elemente befinden. Die Elemente werden drei auf einmal aufgelistet und nach Objekttyp gruppiert.\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Mehr anzeigen]** , um weitere aktuelle Elemente aufzulisten.
 1. (Optional) Klicken Sie auf den Namen eines Elements, auf das Sie kürzlich zugegriffen haben, um es in [!DNL Workfront] in einer neuen Browser-Registerkarte.

@@ -6,9 +6,9 @@ description: Sie können [!DNL Adobe Workfront for Jira] zur Integration Ihrer [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ So konfigurieren Sie Trigger für das automatische Erstellen von Elementen in [!
 
    Die **[!UICONTROL Trigger]** ist standardmäßig ausgewählt.
 
-   ![Trigger_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. Klicken **[!UICONTROL Trigger hinzufügen]** , um einen neuen Trigger hinzuzufügen.
 1. Im **[!UICONTROL Workfront-Team/Benutzer/Rolle]** -Feld den Namen eines [!DNL Workfront] Team-, Benutzer- oder Auftragsrolle aus und klicken Sie dann auf , um sie auszuwählen, wenn sie in der Liste angezeigt wird.
 
@@ -180,8 +178,6 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
 1. Klicken **[!UICONTROL Konfigurieren]**.
 1. Anmelden bei [!DNL Workfront] als Workfront-Administrator.
 1. Klicken Sie auf **[!UICONTROL Einrichtung]** Registerkarte.
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. Im **[!UICONTROL Synchronisieren von Jira mit Workfront]** auswählen Sie die Felder, die Sie aktualisieren möchten in [!DNL Jira] wenn sie in Workfront aktualisiert werden.
 
@@ -305,7 +301,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
            <li>Wenn Sie <strong>[!UICONTROL Immer]</strong> Sie aktivieren die Integration, um jedes Mal einen neuen Workfront-Benutzer zu erstellen, wenn Sie [!DNL Jira] Benutzer ohne [!DNL Workfront] -Konto führt die folgenden Aktionen für einen verknüpften [!DNL Jira] Problem:
             <ul>
              <li>Wird einem [!DNL Jira] Problem</li>
-             <li><p>Protokolliert die Zeit auf einen [!DNL Jira] Problem</p><p>Dieser neue Benutzer hat keine [!DNL Workfront] Lizenz. Die Standardeinstellung ist "Immer". Der Benutzer hat auf diese Weise in [!DNL Workfront] hat "[!UICONTROL Jira]" zu ihrem Namen hinzugefügt.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>Protokolliert die Zeit auf einen [!DNL Jira] Problem</p><p>Dieser neue Benutzer hat keine [!DNL Workfront] Lizenz. Die Standardeinstellung ist "Immer". Der Benutzer hat auf diese Weise in [!DNL Workfront] hat "[!UICONTROL Jira]" zu ihrem Namen hinzugefügt.</p></li>
             </ul></li>
            <li>Wenn Sie <strong>[!UICONTROL Nie]</strong>, geschieht Folgendes:
             <ul>

@@ -6,9 +6,9 @@ description: Nachdem Ihr Teaminhaber Adobe Workfront für Microsoft Teams instal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ Ihre [!DNL Microsoft Teams] Teameigentümer muss installieren [!DNL Workfront] f
 
 ## Einsenden [!DNL Workfront] Anforderungen von [!DNL Microsoft Teams]
 
-1. Klicken Sie auf **[!UICONTROL Weitere Apps]** in der linken Navigationsleiste in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicken Sie auf **[!UICONTROL Weitere Apps]** (drei Punkte) auf der linken Navigationsleiste in [!DNL Microsoft Teams].
 
 1. Klicken **[!DNL Workfront]** in der Liste, die angezeigt wird.
 1. Klicken Sie auf **[!UICONTROL Anforderungen]** Registerkarte.
@@ -89,14 +87,10 @@ Ihre [!DNL Microsoft Teams] Teameigentümer muss installieren [!DNL Workfront] f
 
 ## Ansicht [!DNL Workfront] -Anfragen, die Sie in [!DNL Microsoft Teams]
 
-1. Klicken Sie auf **[!UICONTROL Weitere Apps]** in der linken Navigationsleiste in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicken Sie auf **[!UICONTROL Weitere Apps]** (drei Punkte) auf der linken Navigationsleiste in [!DNL Microsoft Teams].
 
 1. Klicken **[!DNL Workfront]** in der Liste, die angezeigt wird.
 1. Klicken Sie auf **[!UICONTROL Anforderungen]** Registerkarte.
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    Die von Ihnen eingereichten Anfragen werden in der [!UICONTROL Meine eingereichten Anfragen] der [!UICONTROL Anforderungen] Registerkarte. Sie können die auf diesem Tab angezeigten Informationen zu den von Ihnen gesendeten Anfragen nicht konfigurieren.
 

@@ -6,9 +6,9 @@ description: So installieren Sie die App, bevor sie im [!DNL Salesforce] AppExch
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ So installieren Sie die App, bevor sie verfügbar ist:
 
 1. Überprüfen Sie die **[!UICONTROL Ja, Zugriff auf diese Drittanbieter-Websites gewähren]** ankreuzen.
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    Ein Ladebildschirm wird angezeigt und die Installation kann einige Zeit in Anspruch nehmen.
 
 1. Klicken **[!UICONTROL Fertig]** wenn die Installation abgeschlossen ist.
@@ -123,11 +121,9 @@ So installieren Sie die App, bevor sie verfügbar ist:
 
    Die [!DNL Workfront] App ist unter aufgeführt **[!UICONTROL Installierte Pakete]**.
 
-   ![salesforce_classic_Installed_packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Navigieren Sie zu **[!UICONTROL Setup > Sicherheitskontrollen > Remote Site Settings]**.
 1. (Bedingt) Wenn Sie Ihre [!DNL Workfront] Die in der **[!UICONTROL Alle Remote-Sites]** Liste, klicken Sie auf **[!UICONTROL Neue Remote-Site]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Geben Sie die **[!UICONTROL Remote Site Name]**.\
    Beispiel, *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ So installieren Sie die App, bevor sie verfügbar ist:
 
    Die [!DNL Workfront] App ist unter aufgeführt **[!UICONTROL Installierte Pakete]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Navigieren Sie zu **[!UICONTROL Einrichtung].**
 1. Im **[!UICONTROL EINSTELLUNGEN]** Abschnitt erweitern &#x200B;**[!UICONTROL Sicherheit].**
 
 1. Klicken **[!UICONTROL Remote Site Settings]**.
 1. (Bedingt) Wenn Sie Ihre [!DNL Workfront] Die in der **[!UICONTROL Alle Remote-Sites]** Liste, klicken Sie auf **[!UICONTROL Neue Remote-Site]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Geben Sie die **[!UICONTROL Remote Site Name]**.
 

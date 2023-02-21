@@ -6,9 +6,9 @@ description: Sie können eine [!DNL Adobe Workfront] Anforderung von einer E-Mai
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ So erstellen Sie eine [!DNL Workfront] Anfrage von [!DNL Outlook]:
 1. Klicken Sie auf **[!DNL Workfront]** in der oberen rechten Ecke der E-Mail-Nachricht ein, um das Workfront-Add-In anzuzeigen.\
    Möglicherweise müssen Sie rechts oben in Ihrer E-Mail auf den Pfeil nach unten klicken, um auf die Variable [!DNL Workfront] Symbol.
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol, um die Liste der verfügbaren [!DNL Workfront] Optionen.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Klicken Sie auf **[!UICONTROL Menü]** icon ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) , um die Liste der verfügbaren [!DNL Workfront] Optionen.
 
 1. Klicken **[!UICONTROL Anfrage absenden]**.
 1. Im **[!UICONTROL Anfragetyp auswählen]** -Feld wählen Sie die Anforderungswarteschlange aus, an die Sie die Anforderung senden möchten.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Geben Sie die folgenden Informationen an:\
    Je nachdem, wie die Anforderungswarteschlange eingerichtet wurde, können die verfügbaren Felder variieren. Eine vollständige Liste der möglichen Felder und eine Beschreibung finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md) Artikel.
@@ -79,4 +75,3 @@ So erstellen Sie eine [!DNL Workfront] Anfrage von [!DNL Outlook]:
 
 1. (Optional) Navigieren Sie zurück zu [!DNL Outlook]und wählen Sie die ursprüngliche E-Mail aus.\
    Oben im [!DNL Workfront] -Add-In-Bedienfeld anzeigen, sehen Sie die Bestätigung mit einem Link, dass die E-Mail als Anforderung zu Workfront hinzugefügt wurde. Der Link enthält das Datum, an dem er konvertiert wurde.\
-   ![outlook_sent_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

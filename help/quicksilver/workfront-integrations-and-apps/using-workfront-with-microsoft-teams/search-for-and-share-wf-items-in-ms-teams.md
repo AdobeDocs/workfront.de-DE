@@ -6,16 +6,16 @@ description: Sie können nach [!DNL Workfront] -Elemente [!DNL Adobe WorkfrontWo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
 # Suchen und Freigeben [!DNL Adobe Workfront] Elemente in [!DNL Microsoft Teams]
 
-Sie können nach [!DNL Workfront] -Elemente [!DNL Adobe WorkfrontWorkfront] channel in [!DNL Microsoft Teams] und teilen Sie diese Elemente für Mitglieder Ihrer Teams.
+Sie können nach [!DNL Workfront] -Elemente [!DNL Adobe Workfront] channel in [!DNL Microsoft Teams] und teilen Sie diese Elemente für Mitglieder Ihrer Teams.
 
 * [Voraussetzungen für die Freigabe [!DNL Workfront] Elemente in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Suchen und Freigeben [!DNL Workfront] Elemente in [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ So suchen Sie nach einer [!DNL Workfront] Element aus [!DNL Microsoft Teams] und
    Dadurch wird die Nachricht einschließlich der [!DNL Workfront] -Element zu Ihrem Kanal hinzufügen.\
    Alle Mitglieder des Kanals können diese Nachricht sehen, einschließlich der Informationen im [!DNL Workfront] Karte.
 
-1. Klicken **[!UICONTROL Anzeigen in Workfront]** , um das Element in Workfront anzuzeigen.\
-   Nur Benutzer mit [!DNL Workfront] -Lizenz kann ein Element in Workfront anzeigen.
+1. Klicken **[!UICONTROL Anzeigen in Workfront]** zum Anzeigen des Elements in [!DNL Workfront].\
+   Nur Benutzer mit [!DNL Workfront] -Lizenz kann ein Element in [!DNL Workfront].

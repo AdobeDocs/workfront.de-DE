@@ -7,7 +7,7 @@ description: Sie können eine externe E-Mail konvertieren, die nicht von Adobe g
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL G Suite], müssen Sie
 1. Wenn die Variable [!UICONTROL Workfront für G Suite] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts auf der Seite.
 1. Öffnen Sie die E-Mail-Nachricht in [!DNL G Suite]klicken Sie auf eine Option in [!DNL Workfront for G Suite] zum Konvertieren der E-Mail in eine neue [!DNL Workfront] Aufgabe.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Wählen Sie eine **[!UICONTROL Neu erstellen]** -Option, um anzugeben, ob die Aufgabe Teil eines Projekts oder einer persönlichen Aufgabe sein wird, die von einem Projekt unabhängig ist.
 1. Wenn Sie die Aufgabe an ein übergeordnetes Projekt anhängen möchten, klicken Sie auf **[!UICONTROL Projektname]**, geben Sie den Namen des Projekts ein, in dem Sie die Aufgabe durchführen möchten, und klicken Sie dann auf den Projektnamen, wenn er in der folgenden Liste angezeigt wird.
 1. Nehmen Sie eine der folgenden Änderungen vor:
@@ -107,8 +105,6 @@ Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL G Suite], müssen Sie
    Am unteren Rand des **[!UICONTROL Details]** Registerkarte können Sie auch auf **[!UICONTROL Anzeigen in[!DNL Workfront]]** , um zur neuen Aufgabe in Workfront zu wechseln.
 
    Wenn Sie den Browser aktualisieren, wird eine Meldung mit einem Link am unteren Rand des [!DNL Workfront for G Suite] bestätigt, dass Sie die E-Mail in eine Aufgabe konvertiert haben:
-
-   ![](assets/email-was-converted.png)
 
    Sie können auf den Link klicken, um zur Detailansicht im [!DNL Workfront for G Suite] für die Aufgabe, die Sie erstellt haben.
 

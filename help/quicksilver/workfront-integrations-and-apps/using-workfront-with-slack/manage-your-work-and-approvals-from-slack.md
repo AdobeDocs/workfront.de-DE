@@ -6,9 +6,9 @@ description: Sie können direkt von Slack aus auf Ihre Arbeitsliste für Ihre St
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -62,8 +62,7 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
 
 
-   Die Schaltflächen, über die Sie auf Listen Ihrer Aufgaben, Probleme und Genehmigungen zugreifen können, werden angezeigt. Wenn Sie auf eine der Schaltflächen klicken, werden die ersten 20 Elemente jeder Liste in [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   Die Schaltflächen, über die Sie auf Listen Ihrer Aufgaben, Probleme und Genehmigungen zugreifen können, werden angezeigt. Wenn Sie auf eine der Schaltflächen klicken, werden die ersten 20 Elemente jeder Liste in [!DNL Slack].
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Aufgaben]** , um alle Ihre Aufgaben anzuzeigen.
 
@@ -95,8 +94,7 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
 
 
-   Die ersten 20 Aufgaben Ihrer Liste werden angezeigt.\
-   ![](assets/slack-two-tasks-350x286.png)
+   Die ersten 20 Aufgaben Ihrer Liste werden angezeigt.
 
 1. Klicken **[!UICONTROL +`<remaining number>` more]** um zusätzliche Aufgaben anzuzeigen.
 1. Überprüfen Sie die folgenden Informationen zu Ihren Arbeitselementen:
@@ -141,8 +139,7 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
 
 
-   Die ersten 20 Probleme in Ihrer Liste werden angezeigt.\
-   ![](assets/slack-two-issues-350x323.png)
+   Die ersten 20 Probleme in Ihrer Liste werden angezeigt.
 
 1. Klicken **[!UICONTROL + verbleiben `<number>` more]** , um weitere Elemente anzuzeigen.
 1. Überprüfen Sie die folgenden Informationen zu Ihren Arbeitselementen:
@@ -179,12 +176,6 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    Die ersten 20 Elemente auf Ihrer **[!UICONTROL Genehmigungen]** Listenanzeige. Zusätzliche Informationen zu den Elementen werden ebenfalls angezeigt, z. B. der Name des Benutzers, der sie angefordert hat, oder der Name des Projekts, zu dem das Element gehört.
 
 1. Klicken **[!UICONTROL + verbleiben `<number>` more]** , um weitere Elemente anzuzeigen.
-
-   ![slack_access_approval_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Sie sollten Genehmigungen für die folgenden Objekte verwalten:
 

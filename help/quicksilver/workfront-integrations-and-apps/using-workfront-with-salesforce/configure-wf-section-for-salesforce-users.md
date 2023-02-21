@@ -6,9 +6,9 @@ description: Nach der Installation [!DNL Adobe Workfront] für Salesforce als [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel besc
 
    Klicken **[!UICONTROL Neu]** um ein neues Layout hinzuzufügen.
 
-1. (Optional) Ziehen Sie die **[!UICONTROL Abschnitt]** -Komponente in das Layout ein und legen Sie sie an der gewünschten Position ab.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
+1. (Optional) Ziehen Sie die **[!UICONTROL Abschnitt]** in das Layout ein und legen Sie es an der gewünschten Position ab.\
 
 1. (Optional) Geben Sie einen Namen für den neuen Abschnitt an.
 
@@ -82,15 +81,13 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel besc
 1. Klicken **[!UICONTROL OK]**.
 1. Im **[!UICONTROL Layout]** Bereich, klicken Sie **[!UICONTROL Visualforce-Seiten].**
 
-1. Ziehen Sie die **[!UICONTROL WorfrontOpportunities]** -Komponente in den neuen Abschnitt im **[!UICONTROL Chancen]** Layout.
+1. Ziehen Sie die **[!UICONTROL WorkfrontOpportunities]** -Komponente in den neuen Abschnitt im **[!UICONTROL Chancen]** Layout.
 
    Oder
 
    Ziehen Sie die **[!UICONTROL WorkfrontAccounts]** -Komponente in den neuen Abschnitt im  **[!UICONTROL Konto]** Layout.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
 1. Klicken Sie auf **[!UICONTROL Eigenschaften]** rechts oben in der neu hinzugefügten Komponente.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
 
 1. Um eine optimale Anzeige zu erzielen, geben Sie die folgenden Eigenschaften für die [!DNL Workfront Visualforce] Seite:
 
@@ -104,8 +101,6 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel besc
    Alle Benutzer, denen dieses Layout zugewiesen wurde, können jetzt die [!DNL Workfront] Abschnitt [!UICONTROL Chancen] oder [!UICONTROL Konten] Objekte.
 
    Benutzer sehen eine [!DNL Workfront] Anmeldebildschirm auf [!DNL Workfront] Abschnitt. Wenn sie keine [!DNL Workfront] -Konto verwenden, können sie den Abschnitt reduzieren, ihn jedoch nicht aus ihrem Layout entfernen.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Konfigurieren Sie die [!DNL Workfront] im Abschnitt [!DNL Salesforce Lightning Experience] Framework
 
@@ -142,14 +137,11 @@ Sie können die [!DNL Workfront] -Abschnitt in das Layout eines [!DNL Salesforce
 1. Gehen Sie zu einer **[!UICONTROL Chancen]** oder **[!UICONTROL Konto]**.
 
 1. Klicken Sie auf **[!UICONTROL Einrichtung]** und klicken Sie auf **[!UICONTROL Seite bearbeiten]**.\
-   ![salesforce_lightning_chance_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Erweitern Sie die **[!UICONTROL Benutzerverwaltet]** Abschnitt.
 1. Ziehen Sie die **[!DNL Workfront]** -Komponente in [!UICONTROL Chancen] oder Kontoseite.
 
    Es wird empfohlen, die gesamte Seitenbreite für die [!DNL Workfront] anstatt einer der Spalten des Layouts.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -159,4 +151,3 @@ Sie können die [!DNL Workfront] -Abschnitt in das Layout eines [!DNL Salesforce
    >
    >Benutzer sehen eine [!DNL Workfront] Anmeldebildschirm auf [!DNL Workfront] Abschnitt. Wenn sie keine [!DNL Workfront] -Konto verwenden, können sie den Abschnitt reduzieren, ihn jedoch nicht aus ihrem Layout entfernen. Benutzer können sich mit der von Ihnen aktivierten Authentifizierungsmethode anmelden: Verbesserte Authentifizierung oder Ihre SAML-URL (Security Assertion Markup Language).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

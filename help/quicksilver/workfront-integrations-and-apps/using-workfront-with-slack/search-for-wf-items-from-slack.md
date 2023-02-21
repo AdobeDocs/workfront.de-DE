@@ -6,9 +6,9 @@ description: Sie können nach [!DNL Adobe Workfront] Elemente aus [!DNL Slack], 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
@@ -60,14 +60,13 @@ Bevor Sie nach [!DNL Workfront] Elemente aus [!DNL Slack], müssen Sie
 
    >[!NOTE]
    >
-   >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Beim Keyword wird nicht zwischen Groß- und Kleinschreibung unterschieden und es muss ohne Klammern oder Anführungszeichen eingegeben werden.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Beim Keyword wird nicht zwischen Groß- und Kleinschreibung unterschieden und es muss ohne Klammern oder Anführungszeichen eingegeben werden.
 
 1. Wählen Sie in dem angezeigten Feld einen Objekttyp aus den folgenden Elementen aus:
 
    * Projekt
    * Aufgabe
-   * Anfrage
+   * Problem
    * Bericht
    * Personen
    * Vorlage

@@ -6,9 +6,9 @@ description: Die [!DNL Adobe Workfront for Microsoft Teams] Mit dem Programm kö
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ Als Teambesitzer in [!DNL Microsoft Teams], können Sie die [!DNL Workfront for 
 1. Wählen Sie das Team aus, für das Sie die [!DNL Workfront for Microsoft Teams] App.
 1. Klicken **[!UICONTROL Store]** in der Seitennavigationsleiste.
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. Im **[!UICONTROL Alle durchsuchen]** Feld, Typ *[!DNL Workfront]*.
 
 1. Klicken Sie auf **[!DNL Workfront]** und befolgen Sie die Anweisungen im Assistenten.
@@ -69,9 +67,7 @@ Als Teambesitzer in [!DNL Microsoft Teams], können Sie die [!DNL Workfront for 
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. Auswählen **[!UICONTROL Allgemein]** , um die App in diesem Kanal für das ausgewählte Team zu verwenden, und klicken Sie dann auf **[!UICONTROL Einrichten]**.
-
-   ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. Wählen Sie für den Kanal **[!UICONTROL Allgemein]** , um die App in diesem Kanal für das ausgewählte Team zu verwenden, und klicken Sie dann auf **[!UICONTROL Einrichten]** für die gewünschten Funktionen.
 
 1. Nach Abschluss der Installation wird eine Benachrichtigung angezeigt, dass die Installation erfolgreich war. [!UICONTROL Allgemein] Kanal des ausgewählten Teams. Alle Mitglieder des Teams können diese Benachrichtigung sehen.
 1. (Optional) Pin [!DNL Workfront] App für einfacheren Zugriff:
@@ -79,8 +75,6 @@ Als Teambesitzer in [!DNL Microsoft Teams], können Sie die [!DNL Workfront for 
    1. Klicken Sie auf **[!UICONTROL Mehr]** Symbol unter dem Meldungsfeld im [!UICONTROL Allgemein] -Kanal.
 
    1. Bewegen Sie den Mauszeiger über die [!DNL Workfront] in der Liste und klicken Sie dann auf das **[!UICONTROL Mehr]** rechts davon.
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. Klicken **[!UICONTROL Pin]**.
 
@@ -104,18 +98,14 @@ Installieren [!DNL Workfront for Microsoft Teams] aus einer privaten Datei:
 1. Anmelden bei [!DNL Microsoft Teams] as a [!DNL Microsoft] Teameigentümer.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Symbol für das Team, für das Sie installieren möchten [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. Klicken **[!UICONTROL Team verwalten]**.
 1. Wählen Sie die **[!UICONTROL Apps]** Registerkarte und klicken Sie dann auf **[!UICONTROL Hochladen einer benutzerdefinierten App]** in der rechten unteren Ecke des Bildschirms.
 
 1. Suchen Sie nach der privaten Datei, die Sie auf Ihrem Computer gespeichert haben, und führen Sie dann die Installationsschritte aus, um [!DNL Workfront for Microsoft Teams].
 1. Nach Abschluss der Installation wird im Kanal Allgemein des ausgewählten Teams eine Benachrichtigung angezeigt, dass die Installation erfolgreich war. Alle Mitglieder des Teams können diese Benachrichtigung sehen.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Mehr]** Symbol unter **[!UICONTROL Geben Sie hier Ihre Fragen ein]** -Feld.
+1. (Optional) Klicken Sie auf die **[!UICONTROL Mehr]** (drei Punkte) unter dem Symbol **[!UICONTROL Geben Sie hier Ihre Fragen ein]** -Feld.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den [!DNL Workfront] in der Liste und klicken Sie dann auf das **[!UICONTROL Mehr]** rechts davon.
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Pin]**.
 
@@ -138,15 +128,11 @@ So melden Sie sich bei an [!DNL Workfront] von [!DNL Microsoft Teams]:
 
    Die [!DNL Workfront] Bot-Chat-Kanal zu Ihrem [!DNL Microsoft Teams] Chat-Kanäle.
 
-   ![teams_workfront_bot_channel_selected.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. Navigieren Sie zu [!DNL Workfront] Bot-Chat-Kanal in [!DNL Microsoft Teams] und Typ *[!UICONTROL Anmelden]* im **[!UICONTROL Geben Sie hier Ihre Fragen ein]** -Feld.
 
    Oder
 
    Klicken **[!UICONTROL Anmelden]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    Eine neue Browser-Registerkarte wird geöffnet.
 

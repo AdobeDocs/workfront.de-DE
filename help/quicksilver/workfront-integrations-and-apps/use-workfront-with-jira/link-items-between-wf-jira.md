@@ -6,9 +6,9 @@ description: Sie können [!DNL Jira] Probleme [!DNL Adobe Workfront] Aufgaben od
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ So verknüpfen Sie automatisch [!DNL Workfront] Aufgabe an eine [!DNL Jira] Prob
 
    Im **[!UICONTROL Updates]** -Bereich der neuen Aufgabe gibt es einen Kommentar, der angibt, dass auch ein neues Problem in erstellt wurde. [!DNL Jira].
 
-   ![WF_validation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Optional) Klicken Sie auf den Link zum Jira-Problem, um es in Jira zu öffnen.
 
    Oder
@@ -142,15 +140,14 @@ Manuelle Verknüpfung [!DNL Jira] Probleme [!DNL Workfront] items:
 
    Oder
 
-   Aus dem [!UICONTROL Details] area ![](assets/details-icon-in-left-panel.png), kopieren Sie die **[!UICONTROL Referenz Nr.]** des Elements in Workfront.
+   Aus dem [!UICONTROL Details] Bereich, kopieren Sie die **[!UICONTROL Referenz Nr.]** des Elements in Workfront.
 
    >[!NOTE]
    >
    >Sie müssen über eine [!DNL Workfront] -Lizenz für die Anmeldung bei [!DNL Workfront]. Andernfalls wird ein [!DNL Workfront] -Benutzer muss Ihnen diese Informationen zur Verfügung stellen.
 
 1. In [!DNL Jira], navigieren Sie zu einem Problem, das Sie manuell mit dem [!DNL Workfront] Element.
-1. Im [!DNL Workfront] den rechten Bereich, fügen Sie die **URL** oder **[!UICONTROL Referenz Nr.]** des [!DNL Workfront] -Element, mit dem Sie ihn verknüpfen möchten.\
-   ![manuell_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. Im [!DNL Workfront] den rechten Bereich, fügen Sie die **URL** oder **[!UICONTROL Referenz Nr.]** des [!DNL Workfront] -Element, mit dem Sie ihn verknüpfen möchten.
 
 1. Klicken **[!UICONTROL Link]**.
 
@@ -168,8 +165,6 @@ Manuelle Verknüpfung [!DNL Jira] Probleme [!DNL Workfront] items:
 
 Weitere Informationen zum Aktivieren zusätzlicher Felder für die Anzeige im rechten Bereich finden Sie unter [Konfigurieren der Feldsynchronisierung zwischen [!DNL Jira] und [!DNL Workfront] Elemente](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) Abschnitt in [Konfigurieren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Ein Kommentar von [!DNL Workfront] -Administrator, der mit der Integration verknüpft ist, wird im **[!DNL Workfront]** des [!DNL Jira] Problem zur Bestätigung, dass ein neuer [!DNL Jira] -Element erstellt wurde. Der Kommentar enthält einen Link zum [!DNL Jira] Problem.
 
-![Jira_validation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Verknüpfung zwischen Elementen aufheben [!DNL Jira] und [!DNL Workfront]
 
 Verknüpfte Elemente zwischen [!DNL Jira] und [!DNL Workfront] kann die Verknüpfung von [!DNL Jira].\
@@ -185,6 +180,6 @@ Nur ein [!DNL Workfront] -Administrator kann die Verknüpfung von automatisch ve
 Aufheben der Verknüpfung [!DNL Jira] ein Problem aus [!DNL Workfront] item:
 
 1. In [!DNL Jira], navigieren Sie zu einem Problem, das mit einem [!DNL Workfront] Aufgabe oder Problem.
-1. Navigieren Sie zu [!DNL Workfront] und klicken Sie auf das **[!UICONTROL Verknüpfung aufheben]** und klicken Sie auf **[!UICONTROL Verknüpfung aufheben]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Navigieren Sie zu [!DNL Workfront] und klicken Sie auf das **[!UICONTROL Verknüpfung aufheben]** und klicken Sie auf **[!UICONTROL Verknüpfung aufheben]**.
+
    Die zuvor verknüpfte [!DNL Jira] und [!DNL Workfront] -Elemente sind jetzt nicht mehr verknüpft. Alle Felder, Kommentare oder Dokumente, die später einzeln aktualisiert werden, werden nicht über ihre Vorgängerelemente in der anderen Anwendung aktualisiert.

@@ -6,9 +6,9 @@ description: Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Ele
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront] Benachrichtigungen von [!DNL Mic
 
 So verwalten Sie die [!DNL Workfront] Benachrichtigungen, die Sie empfangen können [!DNL Microsoft Teams]:
 
-1. Klicken Sie auf **[!UICONTROL Mehr hinzugefügt]** Apps-Symbol auf der linken Navigationsleiste in [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicken Sie auf **[!UICONTROL Mehr hinzugefügt]** Symbol für (drei Punkte) Apps auf der linken Navigationsleiste in [!DNL Microsoft Teams].
 
 1. Klicken [!DNL Workfront] in der Liste, die angezeigt wird.
 1. Wählen Sie die **[!UICONTROL Einstellungen]** Registerkarte.
