@@ -6,14 +6,16 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
+
+{{highlighted-preview}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
    Der Projektname wird im Bereich Verbindung in den Kartendetails angezeigt.
 
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
+
+<div class="preview">
+
+## Login-Stunden auf einer verbundenen Karte
+
+>[!NOTE]
+>
+>Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+
+Sie müssen über die richtigen Berechtigungen verfügen, um Stunden für die verbundene Aufgabe oder das Problem zu protokollieren.
+
+Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im [!UICONTROL Konfigurieren] Gebiet unter [!UICONTROL Karten]. Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Geben Sie die Anzahl der Stunden für die Aufgabe oder das Problem ein.
+1. Wählen Sie eine [!UICONTROL Stündentyp] aus dem Dropdown-Menü, wenn es sich von der Standardeinstellung unterscheidet.
+1. Klicken [!UICONTROL **Protokollzeit**].
+
+   ![Login-Stunden auf der Karte](assets/log-hours-on-card.png)
+
+   Die auf der Karte protokollierte Zeit wird auch bei der verbundenen Aufgabe oder dem Problem gespeichert.
+
+Die Protokollierungszeit auf der Karte entspricht der Protokollierungszeit für eine Aufgabe oder ein Problem. Weitere Informationen finden Sie unter &quot;Zeitpunkt der Anmeldung für ein Projekt, eine Aufgabe oder ein Problem&quot;im Artikel [Protokollzeit](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

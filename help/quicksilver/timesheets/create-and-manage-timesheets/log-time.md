@@ -6,14 +6,16 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
 
 # Protokollzeit
+
+{{highlighted-preview}}
 
 Sie können die Arbeitszeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Arbeitsstunden anzugeben, die Sie damit verbringen. Sie können auch Zeit protokollieren, die nicht mit der Arbeit in Zusammenhang steht, wie Urlaub, Krankheitszeit oder Zeit, die Sie in Meetings verbringen. Die Login-Zeit wird in Ihrem Timesheet angezeigt.
 
@@ -96,6 +98,7 @@ Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 * [Startseite](#home)
 * [Projekt, Aufgabe oder Problem](#project-task-or-issue)
 * [Zusammenfassungsbereich](#summary-panel)
+* <span class="preview">[Pinnwände](#boards)</span>
 * [Mobile App](#mobile-app)
 
 ### Arbeitszeittabelle {#timesheet}
@@ -394,7 +397,20 @@ Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfr
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### Pinnwände {#boards}
+
+>[!NOTE]
+>
+>Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+
+Sie können die Zeit auf verbundenen Karten auf einer Workfront-Pinnwand protokollieren. Dies entspricht dem Protokollierungszeitpunkt für eine Aufgabe oder ein Problem und die auf der Karte protokollierten Stunden werden für die verbundene Aufgabe oder das Problem gespeichert.
+Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### Mobile App {#mobile-app}
 
 Sie können die Zeit über die mobile Workfront-App protokollieren.
+Weitere Informationen finden Sie unter [Adobe Workfront für Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) oder [Adobe Workfront für iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
