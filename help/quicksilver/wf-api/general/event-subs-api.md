@@ -6,7 +6,7 @@ description: Ereignisabonnement-API
 author: John
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c52f1839d3d00c71c6d567084dafd586d161d8fb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Dokument
 * Ausgabe
 * Stunde
-* Anfrage
+* Problem
 * Notiz
 * Portfolio
 * Programm
@@ -83,7 +83,7 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 **Anforderungs-URL:**
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **Anforderungsheader:**
@@ -130,7 +130,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## Erstellen der Abonnement-Ressource
@@ -180,7 +180,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
-        <td scope="col">Anfrage</td> 
+        <td scope="col">Problem</td> 
         <td scope="col"><p>OPTASK</p></td> 
        </tr> 
        <tr> 
