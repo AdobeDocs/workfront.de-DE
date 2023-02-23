@@ -6,7 +6,7 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -15,11 +15,9 @@ ht-degree: 5%
 
 # Pinnwand erstellen oder bearbeiten
 
-{{highlighted-preview}}
-
 Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten.
 
-<span class="preview">Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Zugriffsanforderungen
 
@@ -45,15 +43,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Neu erstellen]** im [!UICONTROL Pinnwände] Bereich. <span class="preview">Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Neu erstellen]** im [!UICONTROL Pinnwände] Bereich. Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Sammlungen sind nur über die frühe Funktion verfügbar. [!DNL Workfront] [!UICONTROL Pinnwände].
 
-1. <span class="preview">Wählen Sie eine Vorlage für die Pinnwand aus.</span>
-
-   <div class="preview">
+1. Wählen Sie eine Vorlage für die Pinnwand aus.
 
    | Vorlage | Beschreibung |
    |---------|----------|
@@ -64,8 +60,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!NOTE]
    >
    > Pinnwandvorlagen sind nur über das Feature Opt-in für [!DNL Workfront] [!UICONTROL Pinnwände].
-
-   </div>
 
 1. Geben Sie einen Namen für die Pinnwand im **[!UICONTROL Board]** und drücken Sie die Eingabetaste.
 1. Konfigurieren Sie die Pinnwand nach Bedarf.

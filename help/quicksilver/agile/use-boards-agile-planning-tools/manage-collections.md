@@ -6,7 +6,7 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist eine konfigurierbare Gruppe von Foren für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Verwalten von Sammlungen
-
-{{highlighted-preview-article-level}}
 
 Eine Sammlung ist eine konfigurierbare Gruppe von Foren für die Zusammenarbeit an der Arbeit. Sammlungen können verschiedene Arten von Pinnwänden enthalten, die aus Vorlagen erstellt werden.
 

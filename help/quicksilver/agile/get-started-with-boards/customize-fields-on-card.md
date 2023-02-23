@@ -5,9 +5,9 @@ title: Anpassen der angezeigten Felder auf einer Karte
 description: Sie können anpassen, welche Felder auf einer Karte angezeigt werden, indem Sie ein Feld deaktivieren, damit es nicht in der vollständigen Karten- oder gekürzten Ansicht angezeigt wird, oder ein Feld in der gekürzten Kartenansicht ausblenden.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Anpassen der angezeigten Felder auf einer Karte
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Diese Funktion ist nur über die frühe Funktion verfügbar, für die [!DNL Workfront] [!UICONTROL Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Standardmäßig werden alle verfügbaren Felder auf einer Karte angezeigt, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Sie können anpassen, welche Felder angezeigt werden durch:
 
@@ -62,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern [!UICONTROL **Karten**].
 
-   Alle Felder sind standardmäßig aktiviert.
+   Die meisten Felder sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld, um es in beiden Kartenansichten zu deaktivieren.
 1. Klicken Sie auf das Symbol Ausblenden . ![Symbol &quot;Ausblenden&quot;](assets/eye-hide-icon.png) neben einem Feld, um es in der gekürzten Ansicht auszublenden.

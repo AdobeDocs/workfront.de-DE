@@ -6,7 +6,7 @@ description: Die [!UICONTROL Pinnwände] Dashboard zeigt die Liste der Pinnwänd
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Verwenden des Dashboards-Dashboards
 
-{{highlighted-preview}}
-
-Das Dashboard der Pinnwände zeigt die Liste der Pinnwände an <span class="preview">und Sammlungen</span> , auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und Pinnwände, denen Sie hinzugefügt wurden. <span class="preview">Zuerst werden einzelne Pinnwände angezeigt, auf die Sie Zugriff haben und die nicht Teil einer Sammlung sind.</span>
+Das Dashboard der Pinnwände zeigt die Liste der Pinnwände und Sammlungen an, auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und der Pinnwände, denen Sie hinzugefügt wurden. Zuerst werden einzelne Pinnwände angezeigt, auf die Sie Zugriff haben und die nicht Teil einer Sammlung sind.
 
 >[!NOTE]
 >
 >Sammlungen sind nur über die frühe Funktion verfügbar. [!DNL Workfront] [!UICONTROL Pinnwände].
 
-Im Dashboard können Sie Folgendes für Pinnwände und <span class="preview">Sammlungen</span>:
+Im Dashboard haben Sie folgende Möglichkeiten für Pinnwände und Sammlungen:
 
 * Pinnwand archivieren (Sammlungen können nicht archiviert werden)
 * Pinnwandliste filtern
@@ -31,7 +29,7 @@ Im Dashboard können Sie Folgendes für Pinnwände und <span class="preview">Sam
 * Suchen nach einer Pinnwand oder Sammlung
 * Pinnwand oder Sammlung löschen
 
-Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Informationen zum Erstellen einer neuen Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md). Informationen zum Erstellen einer neuen Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Zugriffsanforderungen
 
@@ -72,9 +70,9 @@ Sie können das Dashboard der Pinnwände filtern, um aktive Pinnwände, archivie
 
    Wenn eine andere Sortierung als die Standardsortierung auf das Dashboard angewendet wird, wird auf dem Sortiersymbol ein Indikator angezeigt ![Angewandte Sortierung](assets/sort-applied-boards.png).
 
-## Suchen nach einer Pinnwand <span class="preview">oder eine Sammlung</span>
+## Suchen nach einer Pinnwand oder Sammlung
 
-<span class="preview">Sie können im Bereich &quot;Pinnwände&quot;nach einer bestimmten Pinnwand suchen oder im Bereich &quot;Sammlungen&quot;nach einer bestimmten Sammlung suchen.</span>
+Sie können im Bereich &quot;Pinnwände&quot;nach einer bestimmten Pinnwand suchen oder im Bereich &quot;Sammlungen&quot;nach einer bestimmten Sammlung suchen.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
 1. Klicken [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
@@ -102,11 +100,11 @@ Durch die Archivierung wird eine Pinnwand an das Archiv gesendet und Sie können
 
 1. Um eine archivierte Pinnwand wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Pinnwand und wählen Sie **[!UICONTROL Wiederherstellen]**.
 
-## Pinnwand löschen <span class="preview">oder eine Sammlung</span>
+## Löschen einer Pinnwand oder Sammlung
 
 Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus [!DNL Workfront] und nicht wiederhergestellt werden können. Alle Karten auf der Pinnwand werden ebenfalls zusammen mit der Pinnwand gelöscht.
 
-<span class="preview">Durch Löschen einer Sammlung werden alle Pinnwände in der Sammlung gelöscht.</span>
+Durch Löschen einer Sammlung werden alle Pinnwände in der Sammlung gelöscht.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus [!DNL Workfront] und nic
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) in der Pinnwand oder Sammlung und wählen Sie **[!UICONTROL Löschen]**.
 
-   <span class="preview">In einer Sammlung befindet sich das Menü rechts neben dem [!UICONTROL **Sammlung anzeigen**] Schaltfläche.</span>
+   In einer Sammlung befindet sich das Menü rechts neben dem [!UICONTROL **Sammlung anzeigen**] Schaltfläche.
 
 1. Klicken **[!UICONTROL Pinnwand löschen]** oder [!UICONTROL **Sammlung löschen**] in der Bestätigungsnachricht angezeigt.
-
-<div class="preview">
 
 ## Verschieben einer Pinnwand in eine Sammlung
 
@@ -135,5 +131,3 @@ Sie können eine eigenständige Pinnwand in eine Sammlung verschieben oder eine 
 
    Die Pinnwand wird in die Sammlung verschoben und nicht mehr im [!UICONTROL Pinnwände] Bereich.
 Wenn Sie noch keine Sammlung erstellt haben, werden Sie aufgefordert, eine zu erstellen, in die die Pinnwand verschoben werden soll.
-
-</div>
