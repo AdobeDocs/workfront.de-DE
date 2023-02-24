@@ -6,24 +6,22 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist eine konfigurierbare Gruppe von Foren für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # Verwalten von Sammlungen
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Sammlungen sind nur über die frühe Funktion verfügbar. [!UICONTROL [!DNL Workfront] Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Eine Sammlung ist eine konfigurierbare Gruppe von Foren für die Zusammenarbeit an der Arbeit. Sammlungen können verschiedene Arten von Pinnwänden enthalten, die aus Vorlagen erstellt werden.
 
 Sammlungen werden im Dashboard zusammen mit den einzelnen Pinnwänden angezeigt, auf die Sie Zugriff haben und die nicht Teil einer Sammlung sind. Weitere Informationen zum Dashboard für Pinnwände finden Sie unter [Verwenden des Dashboards-Dashboards](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Sie können auf einen beliebigen Pinnwandnamen im Dashboard klicken, um ihn zu öffnen.
-
->[!NOTE]
->
->Sammlungen sind nur über die frühe Funktion verfügbar. [!UICONTROL [!DNL Workfront] Pinnwände].
 
 ## Zugriffsanforderungen
 
