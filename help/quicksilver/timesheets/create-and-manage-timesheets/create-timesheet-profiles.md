@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen
-description: Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, die wiederkehrende Timesheets für Ihre Benutzer generieren, ohne dass Sie weitere Eingriffe vornehmen müssen. Dadurch sparen Sie Zeit und stellen sicher, dass die folgenden Elemente zwischen Benutzern konsistent sind - BEARBEITEN SIE MICH.
+description: Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, die wiederkehrende Timesheets für Ihre Benutzer generieren, ohne dass Sie weitere Eingriffe vornehmen müssen. Dies spart Ihnen Zeit und stellt die Konsistenz zwischen Benutzern sicher.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Arbeitszeittabellen erstellen</strong> </td> 
-      <td> <p> <p>Geben Sie an, wann das Timesheet-Profil die Timesheets generieren soll. Ein Zeitblatt kann so eingestellt werden, dass es automatisch wöchentlich, zweimal wöchentlich, halbmonatlich oder monatlich generiert wird. Wählen Sie den Wochentag aus, an dem das Datenblatt erstellt werden soll.</p> <p><b>NOTIZ</b>
+      <td> <p> <p>Geben Sie an, wann das Timesheet-Profil die Timesheets generieren soll. Ein Zeitblatt kann so eingestellt werden, dass es automatisch wöchentlich, zweimal wöchentlich, halbmonatlich oder monatlich generiert wird. Wählen Sie den Wochentag aus, an dem das Datenblatt erstellt werden soll.</p>
+      <p>Ein wöchentliches Timesheet beginnt mit dem Datum seiner Erstellung. Wenn Sie beispielsweise jeden Donnerstag wöchentliche Timesheets erstellen, ist der erste Wochentag auf dem Timesheet Donnerstag.</p>
+      <p><b>NOTIZ</b></p>
 
-   Wenn Sie ein Timesheet-Profil konfigurieren, um an einem Freitag Timesheets zu erstellen, können Benutzer für die aktuelle Woche keine Stunden am Freitag, Samstag und Sonntag aufzeichnen.</p> <p>Workfront erstellt immer zwei Timesheets auf einmal: Das erste Timesheet enthält immer das aktuelle Datum und das zweite Timesheet beginnt mit dem Ende des ersten Zeitrahmens.</p> </p> </td>
-   </tr> 
+   <p>Workfront erstellt immer zwei Timesheets auf einmal: Das erste Timesheet enthält immer das aktuelle Datum und das zweite Timesheet beginnt mit dem Ende des ersten Zeitrahmens.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Genehmigende Personen</strong></p> </td> 
       <td> <p> <p>Genehmiger sind Benutzer, die das Timesheet für die mit dem Timesheet verknüpften Benutzer validieren. Sie können bis zu 7 Benutzer als Genehmiger auf einem Zeitblatt identifizieren. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass ein Genehmiger verfügbar ist, wenn ein Benutzer nicht im Büro ist. Alle Genehmiger werden benachrichtigt, wenn ein Benutzer das Datenblatt zur Genehmigung einreicht. Nur ein Benutzer muss das Datenblatt validieren, damit es genehmigt werden kann.</p> <p>Als Genehmiger können nur Benutzer mit Zeitblatt-Administratorrechten festgelegt werden. Weitere Informationen zu den Verwaltungsrechten für Zeitblätter finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Wählen Sie im Dropdown-Menü den Genehmiger für das Zeitblatt aus (falls ein Genehmiger erforderlich ist). Sie können aus den folgenden Optionen auswählen:</p> 
