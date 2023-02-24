@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Pins in Layout-Vorlage umbenennen</span></a><span style="color: #ff0000;"> Neu in der Vorschau!</span>
-                        <p>Sie können jetzt Stifte in einer Layoutvorlage umbenennen, um sie für Ihre Benutzer aussagekräftiger zu machen, anstatt den Standardnamen für die fixierte Seite zu verwenden. Pins, die Administratoren erstellen, werden für alle Benutzer angezeigt, die der Layoutvorlage zugewiesen sind, und Benutzer können diese Pins nicht umbenennen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Pins in Layout-Vorlage umbenennen</span></a>
+                        </span></a><p>Sie können jetzt Stifte in einer Layoutvorlage umbenennen, um sie für Ihre Benutzer aussagekräftiger zu machen, anstatt den Standardnamen für die fixierte Seite zu verwenden. Pins, die Administratoren erstellen, werden für alle Benutzer angezeigt, die der Layoutvorlage zugewiesen sind, und Benutzer können diese Pins nicht umbenennen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Stunden auf verbundenen Karten auf einer Pinnwand protokollieren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt Stunden auf verbundenen Karten wie bei einer Aufgabe oder einem Problem protokollieren. Sie müssen über die richtigen Berechtigungen für die Aufgabe oder das Problem verfügen, um die Zeit zu protokollieren.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 23. Februar 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 2. März 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anzeige von Feldern auf einer Karte anpassen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anzeige von Feldern auf einer Karte anpassen</a></p>
                         <p>Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -102,7 +119,7 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Standardstatus für Karten definieren, die in eine Pinnwandspalte verschoben werden</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Standardstatus für Karten definieren, die in eine Pinnwandspalte verschoben werden</a></p>
                         <p>Sie können jetzt einen Standardstatus festlegen, der auf Karten angewendet wird, die in eine bestimmte Spalte verschoben werden, indem Sie in den Spaltenrichtlinien einen benutzerdefinierten Status und einen Systemstatus auswählen. Wenn Sie eine Karte in die Spalte verschieben, versucht Workfront zunächst, den benutzerdefinierten Status anzuwenden (z. B. "Auf Feedback warten"). Wenn der benutzerdefinierte Status für diese Karte nicht verfügbar ist, wendet Workfront stattdessen den Systemstatus an (z. B. "Bei Halten"). Wenn der Status der verbundenen Aufgabe oder des Problems in den in der Spaltenrichtlinie festgelegten benutzerdefinierten Status oder Systemstatus geändert wird, wird die Karte automatisch in die Spalte verschoben.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -119,7 +136,7 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Sammlungen sind jetzt in Adobe Workfront-Pinnwänden verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Sammlungen sind jetzt in Adobe Workfront-Pinnwänden verfügbar</a></p>
                         <p>Sie können jetzt Sammlungen im Dashboard der Pinnwände erstellen. Eine Sammlung ist eine Gruppe von Foren zur Zusammenarbeit an der Arbeit. Nachdem Sie die Sammlung benannt haben, können Sie der Sammlung Pinnwände mit einer Reihe von Vorlagen hinzufügen, die vordefinierte Einstellungen wie Spaltennamen enthalten.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -190,7 +207,7 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopieren von geplanten Stunden beim Kopieren eines Projekts</a><span style="color: #ff0000;"> Neu in der Vorschau!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopieren von geplanten Stunden beim Kopieren eines Projekts</a>
                         <p>Jetzt haben Sie die Möglichkeit, die im Ressourcenbudgeting-Bereich des Business Case oder im Resource Planer geplanten Stunden zu kopieren, wenn Sie ein Projekt kopieren. Vor dieser Verbesserung wurden die für das Projekt vorgesehenen Stunden nicht in das kopierte Projekt übertragen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -225,7 +242,7 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität</a><span style="color: #ff0000;"> Neu in der Vorschau!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität</a>
                         <p>Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer tatsächlich projektbezogener Arbeit widmen, führen wir das Arbeitszeitkonzept für Adobe Workfront ein.</p>
                         <p>Sie können den Wert des Felds Arbeitszeit für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten.</p>
                     </td>
@@ -328,6 +345,21 @@ Informationen zu den Wartungsupdates, die während der Version 23.2 vorgenommen 
 
 Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie unter [Seite mit Aktualisierungen zu Schulungsversionen](https://one.workfront.com/s/training-release-updates).
 
+### Funktion wird bald aus Workfront entfernt
+
+Die folgende Funktion wird in Kürze aus Workfront entfernt:
+
+#### **Änderungen an der Workfront-Standard-API**
+
+Um sicherzustellen, dass API-Aufrufe die aktuellste Workfront-API-Funktion nutzen können, aktualisieren wir derzeit die Standard-API. Wenn bei einem API-Aufruf keine Version der API angegeben wird, wird an die Standard-API aufgerufen.
+
+Die Standard-API spiegelt jetzt die neueste Version der API wider. Zukünftig wird die Standard-API jedes Mal aktualisiert, wenn eine neue API-Version veröffentlicht wird. Dadurch wird bei Aufrufen an die Standard-API immer die neueste Version der API verwendet.
+
+Zuvor verwendete die Standard-API die veraltete Workfront API-Version 2.0.
+
+Wenn Ihr Unternehmen derzeit die veraltete Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
+
+Weitere Informationen finden Sie unter [Aktualisieren von Integrationen, die die standardmäßige API-Versionierung verwenden](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, V
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

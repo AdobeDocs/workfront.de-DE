@@ -4,7 +4,7 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Eine Liste aller in Version 23.2 verfügbaren Änderungen finden Sie unter [23.2
 
 >[!NOTE]
 >
->Vorschau-Version: 9. Februar 2023; Geplante Produktionsversion: 23. Februar 2023
+>Vorschau-Version: 9. Februar 2023; Geplante Produktionsversion: 2. März 2023
 
 Beim Hinzufügen von Benutzern in den folgenden Bereichen werden jetzt zusätzliche Benutzerinformationen angezeigt:
 
