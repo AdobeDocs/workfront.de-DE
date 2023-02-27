@@ -4,10 +4,10 @@ keywords: API,data,sync,journal,entry,object
 navigation-topic: general-api
 title: Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
 description: Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

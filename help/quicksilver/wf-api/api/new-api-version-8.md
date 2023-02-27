@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Neue Funktionen in API Version 8
 description: Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste der Aktualisierungen, die an den Ressourcen von Version 8 vorgenommen wurden, finden Sie unter Aktualisierungen von API Version 8 .
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 32%
