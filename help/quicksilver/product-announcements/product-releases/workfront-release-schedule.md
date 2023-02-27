@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ In der Regel werden Funktionen in der Vorschau in der Produktionsumgebung mit de
 
 ### Wartungsaktualisierungen
 
-Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Siehe [Aktualisierungen der Workfront-Wartung](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) Seite, um zu sehen, was kürzlich behoben wurde.
+Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Siehe [Aktualisierungen der Workfront-Wartung](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Seite, um zu sehen, was kürzlich behoben wurde.
 
 ## Aus einer vierteljährlichen Version entfernte Funktionen
 
