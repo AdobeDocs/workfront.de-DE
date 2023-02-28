@@ -87,14 +87,11 @@ Der PKCE Generator-Code erstellt eine Ausgabe ähnlich der folgenden:
 ```
 >{
 >
+>  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
-  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
+>  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >
->
-  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
->
-}
+>}
 >```
 
 Ihre App speichert die `code_verifier` für später und sendet die `code_challenge` zusammen mit der Autorisierungsanfrage an den Autorisierungsserver `/authorize` URL.
@@ -108,12 +105,10 @@ Wenn Sie den standardmäßigen benutzerdefinierten Autorisierungsserver verwende
 >**Beispiel:**
 >
 >
->
-```
+>```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->
-&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 Beachten Sie die Parameter, die übergeben werden:
@@ -139,21 +134,16 @@ Um den Autorisierungscode gegen ein Zugriffstoken auszutauschen, übergeben Sie 
 >
 >**Beispiel:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+>  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -179,21 +169,16 @@ Wenn der Code weiterhin gültig ist und die Codeüberprüfung übereinstimmt, er
 >
 >**Beispiel:**
 >
->
-```
+>```
 >{
 >
+>    "access\_token": "eyJhd\[...\]Yozv",
 >
-    "access\_token": "eyJhd\[...\]Yozv",
+>    "expires\_in": 3600,
 >
+>    "token\_type": "Bearer"
 >
-    "expires\_in": 3600,
->
->
-    "token\_type": "Bearer"
->
->
-}
+>}
 >```
 
 ## Zugriffstoken überprüfen
@@ -206,12 +191,10 @@ Sie können Ihr Zugriffstoken mit einem API-Aufruf wie dem folgenden validieren:
 >
 >**Beispiel:**
 >
->
-```
+>```
 >/attask/api/<api version>/proj/search \\
 >
->
-  --header 'sessionID: <access\_token>' \\
+>  --header 'sessionID: <access\_token>' \\
 >```
 
 ## Aktualisierungs-Token anfordern
@@ -222,19 +205,14 @@ Um ein Aktualisierungstoken anzufordern, können Sie einen POST-Aufruf an die -A
 >
 >**Beispiel:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+>  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```
