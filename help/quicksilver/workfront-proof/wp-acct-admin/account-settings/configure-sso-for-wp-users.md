@@ -7,9 +7,9 @@ description: Wenn Sie über einen Select- oder Premium-Plan verfügen, können S
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Die Single-Sign-On-Funktion kann auf der [!UICONTROL Single Sign-on] Registerkar
 
 Als Dienstleister haben wir unsere Entitäts-ID hier veröffentlicht:
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (wobei &quot;Ihre Subdomäne&quot;die Subdomäne Ihres Kontos ist)
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) (wobei &quot;Ihre Subdomäne&quot;die Subdomäne Ihres Kontos ist)
 
 [!DNL Workfront Proof] erfordert die E-Mail-Adresse des Benutzers als eindeutige Kennung, die als eines der folgenden Attribute übergeben werden kann:
 
