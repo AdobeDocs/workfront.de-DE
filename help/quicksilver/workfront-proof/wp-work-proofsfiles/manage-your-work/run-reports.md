@@ -7,18 +7,22 @@ description: Workfront-Testversand ermöglicht es Ihnen, Berichte anzuzeigen, da
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # Ausführen von Berichten in [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">Die Berichtsfunktion ist in nicht mehr verfügbar [!DNL Workfront Proof]. Der Tab Berichterstellung wird weiterhin angezeigt, die Daten sind jedoch nicht präzise.</span>
+> 
+>* Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Workfront-Testversand ermöglicht es Ihnen, Berichte anzuzeigen, damit Sie den Arbeitsfortschritt und die Effizienz Ihrer Teams verfolgen können.
 
