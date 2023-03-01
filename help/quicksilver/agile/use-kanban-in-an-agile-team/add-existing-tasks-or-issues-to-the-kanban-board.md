@@ -6,7 +6,7 @@ description: Sie können jede Aufgabe oder jedes Problem einem Kanban-Board hinz
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 7b72d0eaa715b2094f4f574411d8e240107e080f
+source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -58,10 +58,9 @@ So fügen Sie eine Aufgabe oder ein Problem zu einem [!UICONTROL Kanban] Pinnwan
 1. Klicken **[!UICONTROL Mehr]** > **[!UICONTROL Hinzufügen zu]** > **[!UICONTROL Kanban Board]**.
 1. Im [!UICONTROL Meldungen hinzufügen] Geben Sie den Namen des Kanban-Teams ein.
 
->[!NOTE]
->
->Wenn Sie mehrere Teams hinzufügen, kann die Aufgabe oder das Problem nur in einem Team angezeigt werden [!DNL kanban] Pinnwand. Dies ist die Pinnwand, die Sie in Schritt 5 wählen.
+   >[!NOTE]
+   >
+   >Wenn Sie mehrere Teams hinzufügen, kann die Aufgabe oder das Problem nur in einem Team angezeigt werden [!DNL kanban] Pinnwand. Dies ist die Pinnwand, die Sie in Schritt 5 wählen.
 
-1. Wenn Sie Aufgaben hinzufügen, klicken Sie auf **[!UICONTROL Meldungen hinzufügen]**.\
-   Oder\
-   Wenn Sie Probleme hinzufügen, klicken Sie auf **[!UICONTROL Hinzufügen von Problemen]**.
+1. Wenn Sie Aufgaben hinzufügen, klicken Sie auf **[!UICONTROL Meldungen hinzufügen]**.
+Wenn Sie Probleme hinzufügen, klicken Sie auf **[!UICONTROL Hinzufügen von Problemen]**.
