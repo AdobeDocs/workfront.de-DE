@@ -6,7 +6,7 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
-
-{{highlighted-preview}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -185,8 +183,6 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
 
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 
-<div class="preview">
-
 ## Login-Stunden auf einer verbundenen Karte
 
 >[!NOTE]
@@ -207,4 +203,3 @@ Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Kart
 
 Die Protokollierungszeit auf der Karte entspricht der Protokollierungszeit für eine Aufgabe oder ein Problem. Weitere Informationen finden Sie unter &quot;Zeitpunkt der Anmeldung für ein Projekt, eine Aufgabe oder ein Problem&quot;im Artikel [Protokollzeit](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>
