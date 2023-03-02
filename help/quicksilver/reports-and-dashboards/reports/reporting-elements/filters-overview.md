@@ -7,14 +7,16 @@ description: Sie können Filter in Adobe Workfront verwenden, um die Anzahl der 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
 
 # Filterübersicht in Adobe Workfront
+
+<span class="preview">Beachten Sie, dass in der Vorschau-Umgebung das erweiterte Filtererlebnis (zuvor als &quot;Beta&quot;bezeichnet) jetzt standardmäßig verwendet wird. Diese verbesserten Filter sind jetzt &quot;Standard&quot;und das ältere Filtererlebnis ist &quot;alt&quot;.</span>
 
 Sie können Filter in Adobe Workfront verwenden, um die Anzahl der auf dem Bildschirm angezeigten Informationen in Listen, Berichten oder anderen Bereichen zu reduzieren.
 

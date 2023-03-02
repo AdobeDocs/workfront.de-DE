@@ -6,14 +6,16 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2513'
 ht-degree: 1%
 
 ---
 
 # Filter in Adobe Workfront erstellen oder bearbeiten
+
+<span class="preview">Beachten Sie, dass in der Vorschau-Umgebung das erweiterte Filtererlebnis (zuvor als &quot;Beta&quot;bezeichnet) jetzt standardmäßig verwendet wird. Diese verbesserten Filter sind jetzt &quot;Standard&quot;und das ältere Filtererlebnis ist &quot;alt&quot;.</span>
 
 Mit einem Filter können Sie die Anzahl der angezeigten Informationen in einer Liste von Elementen einschränken. Sie können bestimmte Kriterien basierend auf bestimmten Informationen über ein Objekt definieren und nur die Objekte anzeigen, die diesen Kriterien entsprechen.
 
@@ -86,7 +88,7 @@ Sie können Filter anhand der in der folgenden Tabelle beschriebenen Typen von F
 <li> <p>Probleme</p> </li>
 <li> <p>Portfolios</p> </li>
 <li> <p>Programme</p> </li>
-<li> <p>Benutzer</p> </li>
+<li> <p>Benutzende</p> </li>
 <li> <p>Vorlagen</p> </li>
 <li> <p>Gruppen</p> </li>
 </ul>
