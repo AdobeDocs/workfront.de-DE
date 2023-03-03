@@ -6,9 +6,9 @@ description: API-Grundlagen
 author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4405'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -427,11 +427,17 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
 
 ### Verwenden von paginierten Antworten {#using-paginated-responses}
 
-Um die Begrenzung der Ergebnisanzahl (Default Number of Results) zu überschreiben und 200 Ergebnisse zuzulassen, können Sie den Filter $$LIMIT=200 in Ihre Abfrage einfügen, wie im folgenden Beispiel gezeigt:
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>Um die Zuverlässigkeit und Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Ergebnisbegrenzung pro Abfrage 2000 Objekte. Wenn Sie versuchen, eine größere Begrenzung anzugeben, wird eine IllegalArgumentException -Fehlermeldung angezeigt. 
+Um die Begrenzung der Anzahl der Ergebnisse-Standardabfragen zu überschreiben und 200 Ergebnisse zuzulassen, können Sie die Variable `$$LIMIT=200` in Ihrer Abfrage zu filtern, wie im folgenden Beispiel gezeigt:
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Daher empfehlen wir die Verwendung paginierter Antworten für große Datensätze. Um das erste Ergebnis anzugeben, das zurückgegeben werden soll, fügen Sie den Filter $$FIRST hinzu. Beispielsweise gibt die folgende Anfrage die Ergebnisse 201-250 für eine Abfrage zurück:
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+Um die Zuverlässigkeit und Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Ergebnisbegrenzung pro Abfrage 2000 Objekte. Wenn Sie versuchen, eine größere Begrenzung anzugeben, wird eine `IllegalArgumentException` Fehlermeldung. 
+
+Daher empfehlen wir die Verwendung paginierter Antworten für große Datensätze. Um das erste zurückgegebene Ergebnis anzugeben, fügen Sie die `$$FIRST` Filter. Beispielsweise gibt die folgende Anfrage die Ergebnisse 201-250 für eine Abfrage zurück:
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
+
+Beachten Sie, dass im obigen Beispiel `$$FIRST=200` gibt das 201. Ergebnis zurück. `$$FIRST=0` das erste Ergebnis zurückgeben. Es kann hilfreich sein, sich den $$FIRST -Wert als die Anzahl der Ergebnisse vorzustellen, die Sie überspringen möchten, bevor Ergebnisse zurückgegeben werden.
+
+Verwenden Sie einen Sortierparameter, um sicherzustellen, dass Ihre Ergebnisse korrekt paginiert werden. Dadurch können die Ergebnisse in derselben Reihenfolge zurückgegeben werden, sodass die Paginierung die Ergebnisse nicht wiederholt oder überspringt. Verwenden Sie zum Beispiel zur Sortierung mit der Objekt-ID `ID_Sort=asc`.
 
 ### Erstellen einer Zugriffsregel
 
