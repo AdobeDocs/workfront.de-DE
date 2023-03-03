@@ -6,16 +6,14 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront Workload Bal
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Als Ressourcen-Manager können Sie den Adobe Workfront Workload Balancer verwenden, um Arbeitselemente anzuzeigen, die noch nicht Benutzern zugewiesen wurden, und ihnen diese Elemente zuzuweisen.
 
@@ -49,9 +47,9 @@ Workfront verwendet die folgenden Informationen, um die Kapazität des Benutzers
 * Die Zeit des Benutzers. Dies gibt an, an welchen Tagen der Benutzer planen zu starten.
 
    Weitere Informationen finden Sie unter [Persönliche Abwesenheit in Adobe Workfront konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
+
 * Die Arbeitszeit des Benutzers. Dies gibt den Prozentsatz der FTE-Zeit an, über die der Benutzer für die Ausführung der eigentlichen projektbezogenen Arbeit zur Verfügung steht, ohne dass dabei der Verwaltungsaufwand eingeschlossen ist. Setzen Sie den Wert für die Arbeitszeit auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeiten in seiner gesamten Vollzeitäquivalenz verfügbar ist.
-</div>
+
 
 ## Zuweisen von Arbeiten im Arbeitslastausgleich
 

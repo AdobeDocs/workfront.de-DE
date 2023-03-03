@@ -5,7 +5,7 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -890,7 +890,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
    <p>Ihr Workfront-Administrator entscheidet, welcher Zeitplan zur Bestimmung der Benutzerverfügbarkeit verwendet werden soll.  </p>
    <ul>
    <li> Wenn der [!UICONTROL Standardzeitplan] verwendet wird, verwendet Workfront die [!UICONTROL FTE] des in seinem Profil gefundenen Benutzers, um die Verfügbarkeit zu berechnen. </li>
-   <li> Wenn der Benutzerzeitplan verwendet wird, verwendet Workfront die Zeitüberschreitung des Benutzers. <span class="preview">[!UICONTROL Arbeitszeit]-Wert</span>und die Stunden des [!UICONTROL Standardzeitplans] zur Berechnung der [!UICONTROL FTE] des Benutzers. </li> </ul>
+   <li> Wenn der Benutzerzeitplan verwendet wird, verwendet Workfront die Zeitüberschreitung des Benutzers, den [!UICONTROL Arbeitszeitwert] und die Stunden des [!UICONTROL Standardzeitplans], um die [!UICONTROL FTE] des Benutzers zu berechnen. </li> </ul>
 
 <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.  </p>
    <p>Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter [!DNL Workfront], siehe <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>. </p>
@@ -2334,15 +2334,15 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
    <td>[!UICONTROL Arbeitszeit]</td> 
    <td>
 
-<p><span class="preview">Stellt den Prozentsatz der Vollzeitäquivalenzzeit ([!UICONTROL FTE]) dar, der dem Benutzer für die tatsächliche Arbeit zur Verfügung steht, ohne den Mehraufwand. Die [!UICONTROL Arbeitszeit] muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.</span>  </p>
-   </p><span class="preview">Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte [!UICONTROL FTE] für tatsächliche, projektbezogene Arbeit ausgibt.</span>   </p>
-   <p><span class="preview">Das System verwendet diese Zahl, um die Verfügbarkeit des Benutzers für tatsächliche, projektbezogene Arbeiten zu berechnen. </span></p>
-   <p> <span class="preview">Eine Planung von Ausnahmen und Zeitüberschreitungen kann sich auch auf die Benutzerkapazität auswirken.</span> </p>
-   <p><span class="preview">Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>.</span> </p>
+<p>Stellt den Prozentsatz der Vollzeitäquivalenzzeit ([!UICONTROL FTE]) dar, der dem Benutzer für die tatsächliche Arbeit zur Verfügung steht, ohne den Mehraufwand. Die [!UICONTROL Arbeitszeit] muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.</p>
+   </p>Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte [!UICONTROL FTE] für tatsächliche, projektbezogene Arbeit ausgibt.  </p>
+   <p>Das System verwendet diese Zahl, um die Verfügbarkeit des Benutzers für tatsächliche, projektbezogene Arbeiten zu berechnen. </p>
+   <p> Eine Planung von Ausnahmen und Zeitüberschreitungen kann sich auch auf die Benutzerkapazität auswirken. </p>
+   <p>Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>. </p>
     <p>Workfront berechnet die Verfügbarkeit eines Benutzers entsprechend den Voreinstellungen für das Ressourcenmanagement in Ihrem [!UICONTROL Setup]-Bereich. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>. </p> 
-   <p><span class="preview">Sie können die [!UICONTROL Arbeitszeit] eines Benutzers aktualisieren, wenn Sie den Benutzer bearbeiten oder erstellen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Benutzerprofil bearbeiten</a></span></p> 
+   <p>Sie können die [!UICONTROL Arbeitszeit] eines Benutzers aktualisieren, wenn Sie den Benutzer bearbeiten oder erstellen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Benutzerprofil bearbeiten</a></p> 
    <b>TIPP</b> 
-   <p><span class="preview">Setzen Sie den Wert [!UICONTROL Arbeitszeit] auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeit in seiner gesamten Vollzeitäquivalenz verfügbar ist.</span></p> 
+   <p>Setzen Sie den Wert [!UICONTROL Arbeitszeit] auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeit in seiner gesamten Vollzeitäquivalenz verfügbar ist.</p> 
    </td> 
   </tr> 
   <tr> 

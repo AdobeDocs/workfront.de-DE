@@ -6,16 +6,14 @@ description: Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu e
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 5%
 
 ---
 
 # Projekt kopieren
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
 >* Notizen
 >* Stunden
 >* Projektübergreifende Vorkenntnisse
->* <span class="preview">Veranschlagte Stunden</span>
+>* Veranschlagte Stunden
 >
 >Die folgenden Elemente werden immer aus einem vorhandenen Projekt in ein neues kopiert:
 >
@@ -179,12 +177,12 @@ So kopieren Sie ein Projekt:
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Veranschlagte Stunden</span></td> 
-      <td> <p><span class="preview">Entfernt die im Bereich Ressourcenplanung des Geschäftsszenarios des Projekts vorgesehenen Stunden aus dem kopierten Projekt. <span class="preview"></p>
+      <td role="rowheader">Veranschlagte Stunden</td> 
+      <td> <p>Entfernt die im Bereich Ressourcenplanung des Geschäftsszenarios des Projekts vorgesehenen Stunden aus dem kopierten Projekt.</p>
 
 <b>NOTIZ</b>
 
-<span class="preview">Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Geschäftsfall mit dem Szenario-Planer</a></span>
+Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Geschäftsfall mit dem Szenario-Planer</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Finanzinformationen</td> 

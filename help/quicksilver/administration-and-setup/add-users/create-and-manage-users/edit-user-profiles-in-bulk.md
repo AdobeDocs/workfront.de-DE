@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2363'
 ht-degree: 0%
 
 ---
 
 # Massenbearbeitung von Benutzerprofilen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -145,21 +143,21 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        <ul>
 
    <li>
-       <b><span class="preview">Arbeitszeit</span></b>: <span class="preview">Stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, zu der der Benutzer für die tatsächliche Arbeit zur Verfügung steht, ohne den Gemeinkosten zu berücksichtigen. Die Arbeitszeit muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.</span>
+       <b>Arbeitszeit</b>: Stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, zu der der Benutzer für die tatsächliche Arbeit zur Verfügung steht, ohne den Gemeinkosten zu berücksichtigen. Die Arbeitszeit muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.
 
-   <span class="preview">Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte FTE für tatsächliche, projektbezogene Arbeiten ausgibt.</span>
+   Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte FTE für tatsächliche, projektbezogene Arbeiten ausgibt.
 
-   <span class="preview">Das System verwendet diese Zahl, um die Verfügbarkeit des Benutzers für tatsächliche, projektbezogene Arbeiten zu berechnen. </span>
+   Das System verwendet diese Zahl, um die Verfügbarkeit des Benutzers für tatsächliche, projektbezogene Arbeiten zu berechnen.
 
-   <span class="preview">Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>.</span>
+   Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>.
 
-   <span class="preview">Eine Planung von Ausnahmen und Zeitüberschreitungen kann sich auch auf die Benutzerkapazität auswirken.
+   Eine Planung von Ausnahmen und Zeitüberschreitungen kann sich auch auf die Benutzerkapazität auswirken.
 
    Workfront berechnet die Verfügbarkeit eines Benutzers entsprechend den Voreinstellungen für die Ressourcenverwaltung in Ihrem Setup-Bereich. Weitere Informationen finden Sie unter <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.
 
    <b>TIPP</b>
 
-   <span class="preview">Setzen Sie den Wert für die Arbeitszeit auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeiten in seiner gesamten Vollzeitäquivalenz verfügbar ist.</span>
+   Setzen Sie den Wert für die Arbeitszeit auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeiten in seiner gesamten Vollzeitäquivalenz verfügbar ist.
    </li>
 
    <li><b>Deaktivierung planen</b>: Aktivieren Sie dieses Kontrollkästchen, wenn Sie planen möchten, dass Benutzer nach einem bestimmten Zeitraum deaktiviert werden.</li> 
@@ -196,7 +194,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Der Standardwert des Felds ist 1.
 
-   Planen von Ausnahmen, Zeitüberschreitung, <span class="preview">und der Wert der Arbeitszeit</span> kann die Verfügbarkeit des Benutzers beeinträchtigen.
+   Planen Sie Ausnahmen, eine Zeitüberschreitung und den Wert der Arbeitszeit können sich auf die Verfügbarkeit des Benutzers auswirken.
 
    Workfront berechnet die Verfügbarkeit eines Benutzers entsprechend den Voreinstellungen für die Ressourcenverwaltung in Ihrem Setup-Bereich.
 

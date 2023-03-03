@@ -5,17 +5,15 @@ title: Kopieren und Verschieben von Vorlagenaufgaben
 description: Sie können eine Vorlagenaufgabe kopieren oder in dieselbe Vorlage oder in eine andere Vorlage verschieben.
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 3%
 
 ---
 
 
 # Kopieren und Verschieben von Vorlagenaufgaben
-
-<span class="preview">Das Kopieren und Verschieben einer Vorlagenaufgabe ist in der Produktionsumgebung verfügbar. Die auf dieser Seite beschriebenen Schritte beziehen sich jedoch nur auf Funktionen in der Vorschau-Umgebung. Diese Funktion ist ab dem 2. März 2023 in der Produktion verfügbar.</span>
 
 Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopieren oder entweder in eine andere Vorlage oder an eine andere Stelle in derselben Vorlage verschieben.
 

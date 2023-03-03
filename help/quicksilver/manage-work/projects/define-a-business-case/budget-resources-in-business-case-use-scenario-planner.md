@@ -5,7 +5,7 @@ description: Im Rahmen der Ressourcenplanung können Sie den Adobe Workfront-Sze
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -13,10 +13,6 @@ ht-degree: 0%
 ---
 
 # Budgetressourcen im Geschäftsfall mit dem Szenario-Planer
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Im Rahmen der Ressourcenplanung können Sie den Adobe Workfront-Szenario-Planer verwenden, um beim Erstellen des Geschäftsszenarios die für das Abschließen der Arbeit in einem Projekt erforderlichen Vorgangsrollen zu planen.
 
@@ -132,21 +128,16 @@ Sie können Ihre Ressourcen für einen Zeitraum von 15 Jahren einplanen. Wenn Si
 
       Workfront verwendet die erforderlichen Arbeitsstunden aus der verknüpften Initiative, um die budgetierten Arbeitskosten und die geplanten Arbeitszeiten des Projekts zu berechnen. Dies ist die empfohlene Option. Kosten werden im Geschäftsfall in der Währung des Projekts angezeigt.
 
-      <!--drafted for Budgeted Hours:
-   <span class="preview">Wenn Sie ein Projekt kopieren und die budgetierten Stunden in das neue Projekt kopieren, werden die mit dem Szenario-Planer geplanten Stunden nicht in das neue Projekt kopiert. Nur Stunden, die im Ressourcenplaner veranschlagt sind, werden kopiert. Weitere Informationen finden Sie unter [Projekt kopieren](../manage-projects/copy-project.md)</span>
--->
+      Wenn Sie ein Projekt kopieren und die budgetierten Stunden in das neue Projekt kopieren, werden die mit dem Szenario-Planer geplanten Stunden nicht in das neue Projekt kopiert. Nur Stunden, die im Ressourcenplaner veranschlagt sind, werden kopiert. Weitere Informationen finden Sie unter [Projekt kopieren](../manage-projects/copy-project.md).
 
-   >[!IMPORTANT]
-   >
-   >Wenn Sie mit dem Szenario-Planer Haushaltsmittel für das Projekt einsetzen, werden die budgetierten Arbeitskosten in den folgenden Bereichen von Workfront angezeigt:
-   >
-   >* Ressourcen-Budgeting-Bereich des Geschäftsfalles
-   >* Der Scenario-Planer auf Systemebene als die People-Kosten der mit dem Projekt verknüpften Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
+      >[!IMPORTANT]
+      Wenn Sie mit dem Szenario-Planer Haushaltsmittel für das Projekt einsetzen, werden die budgetierten Arbeitskosten in den folgenden Bereichen von Workfront angezeigt:
+      * Ressourcen-Budgeting-Bereich des Geschäftsfalles
+      * Der Scenario-Planer auf Systemebene als die People-Kosten der mit dem Projekt verknüpften Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Optional) Klicken Sie auf **Im Szenario-Planer anzeigen** den Plan, der die mit dem Projekt verbundene Initiative enthält, zu öffnen. Dadurch wird der Szenario-Planer in einer neuen Browser-Registerkarte geöffnet.
 1. (Optional) Aktualisieren Sie die Informationen zur Initiative. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Initiativen im Szenario-Planer](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   >
-   >Sie müssen die Initiative nach jeder Änderung veröffentlichen, damit der Bereich Ressourcenbudgetierung im Projekt aktualisiert werden kann.
+   Sie müssen die Initiative nach jeder Änderung veröffentlichen, damit der Bereich Ressourcenbudgetierung im Projekt aktualisiert werden kann.
