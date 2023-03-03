@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,26 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 2, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Stunden auf verbundenen Karten auf einer Pinnwand protokollieren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Stunden auf verbundenen Karten auf einer Pinnwand protokollieren</a></p>
                         <p>Sie können jetzt Stunden auf verbundenen Karten wie bei einer Aufgabe oder einem Problem protokollieren. Sie müssen über die richtigen Berechtigungen für die Aufgabe oder das Problem verfügen, um die Zeit zu protokollieren.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -203,6 +219,22 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
                     <td>
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Erweiterte Filterfunktionen, die in Adobe Workfront allgemein verfügbar sind<span style="color: #ff0000;"> Neu in der Vorschau!</span></a>
+                        <p>Das erweiterte Filtererlebnis ist allgemein verfügbar und wird ab dem 2. März 2023 in der Vorschau zum standardmäßigen Filtergenerator. Eine schrittweise Einführung in die Produktion wird ebenfalls am 2. März beginnen, wobei die Verfügbarkeit für alle Kunden in der Version 23.2 verfügbar sein wird.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 2. März 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsversion: Mit Version 23.2</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
