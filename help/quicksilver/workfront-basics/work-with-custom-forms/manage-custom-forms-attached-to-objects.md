@@ -6,7 +6,7 @@ description: Sie können die Reihenfolge aktualisieren, in der die an ein Objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -14,6 +14,9 @@ ht-degree: 0%
 ---
 
 # Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt werden
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
 
 Sie können die Reihenfolge aktualisieren, in der die an ein Objekt angehängten benutzerdefinierten Formulare angezeigt, entfernt oder die Anzeige von benutzerdefinierten Formularen auf mehreren Objekten durch Massenbearbeitung geändert werden.
 
@@ -92,10 +95,15 @@ Möglicherweise wird dasselbe Feld in mehreren benutzerdefinierten Formularen an
 
 * Wenn Sie für zwei verschiedene Objekte dieselben berechneten Felder haben, müssen deren Berechnungen identisch sein, um Fehler zu vermeiden. Weitere Informationen zum Hinzufügen berechneter Felder zu benutzerdefinierten Formularen einschließlich mehrerer Formulare finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
 
-## Bearbeiten mehrerer benutzerdefinierter Formulare beim Massenbearbeitung von Objekten
+## Verwalten mehrerer benutzerdefinierter Formulare bei der Massenbearbeitung von Objekten
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section will need to be edited when the bulk Edit box is released to NWE; add some screen shots for NWE) </p>
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
 -->
 
 Wenn Sie mehrere benutzerdefinierte Formulare auf Objekte anwenden, die als Massenbearbeitung dienen, können Sie die Art und Weise bearbeiten, wie benutzerdefinierte Formulare auf diesen Objekten angezeigt werden, und gemeinsame Felder in den benutzerdefinierten Formularen bearbeiten.

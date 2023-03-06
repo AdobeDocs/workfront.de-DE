@@ -7,7 +7,7 @@ description: Sie können einem der unten aufgeführten Objekte ein vorhandenes b
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 1%
@@ -15,6 +15,9 @@ ht-degree: 1%
 ---
 
 # Benutzerdefiniertes Formular zu einem Objekt hinzufügen
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Sie können einem der unten aufgeführten Objekte ein vorhandenes benutzerdefiniertes Formular hinzufügen. Ein benutzerdefiniertes Formular enthält benutzerdefinierte Felder, in denen Sie Informationen zum Objekt speichern können.
 
@@ -25,7 +28,7 @@ Sie können einem der unten aufgeführten Objekte ein vorhandenes benutzerdefini
 * Portfolios
 * Programme
 * Dokumente
-* Benutzer
+* Benutzende
 * Wiederholungen
 * Ausgaben
 * Rechnungsdatensätze
@@ -104,19 +107,23 @@ Sie können bis zu 10 benutzerdefinierte Formulare zu einem bestimmten Objekt hi
 
 ## Benutzerdefiniertes Formular zu mehreren Objekten als Stapel hinzufügen
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit is released for NWE) </p>
--->
-
 Sie können benutzerdefinierte Formulare zu mehreren Objekten hinzufügen, indem Sie sie in einer Liste auswählen.
+
+<!--
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
+-->
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Wählen Sie mehrere Objekte in der Liste aus.
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf **Bearbeiten** icon  ![](assets/edit-icon.png)oder klicken Sie einfach auf **Bearbeiten** icon ![](assets/edit-icon.png).
 1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
-1. Im **Auswahl treffen** Wählen Sie im Dropdown-Menü das Formular aus, das Sie mit allen ausgewählten Objekten verknüpfen möchten.
-
+1. Wählen Sie das Formular aus, das Sie mit allen ausgewählten Objekten im **Auswahl treffen** Dropdown-Menü.
    >[!NOTE]
    >
    >Wenn Sie das Formular nicht im Dropdown-Menü finden können, bedeutet dies, dass mindestens einem der Objekte das Formular bereits zugeordnet ist. Bestimmen Sie, welches Objekt das Element ist, und entfernen Sie es aus Ihrer Auswahl, bevor Sie das Formular zu den restlichen Objekten hinzufügen können.

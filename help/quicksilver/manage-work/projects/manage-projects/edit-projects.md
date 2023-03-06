@@ -6,9 +6,9 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
-source-wordcount: '6382'
+source-wordcount: '6670'
 ht-degree: 2%
 
 ---
@@ -181,7 +181,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
    * [Finanzielle Details](#finance)
    * [Projekteinstellungen](#project-settings)
    * [Einstellungen für die Aufgabe](#task-settings)
-   * [Anfrage-Einstellungen](#issue-settings)
+   * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access)
 
    >[!NOTE]
@@ -304,21 +304,40 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
 ### Benutzerdefinierte Formulare {#custom-forms}
 
+
+Je nach Zugriffsebene und Ihrer Berechtigung für das Projekt gibt es die folgenden Szenarien:
+
+* Wenn Sie nicht über die Berechtigung &quot;Benutzerdefiniertes Formular bearbeiten&quot;für das Projekt verfügen, können Sie die Felder für die angehängten benutzerdefinierten Formulare nicht bearbeiten. Sie können nur die Felder in den benutzerdefinierten Formularen anzeigen, die an das Projekt angehängt sind.
+* Wenn Sie Zugriff auf einen Abschnitt in einem benutzerdefinierten Formular haben, können Sie die Felder in diesem Abschnitt nicht bearbeiten.
+* Wenn Sie keinen Zugriff auf einen Abschnitt in einem der benutzerdefinierten Formulare haben, die an das Projekt angehängt sind, wird der Abschnitt nicht im Feld Projekt bearbeiten angezeigt.
+
+Bei der Auswahl von mehr als einem Projekt zur Massenbearbeitung gibt es die folgenden Szenarien:
+
+* Wenn Sie nicht über die Berechtigung &quot;Benutzerdefiniertes Formular bearbeiten&quot;für mindestens eines der ausgewählten Projekte verfügen, können Sie die Felder für die angehängten benutzerdefinierten Formulare nicht bearbeiten. Sie können nur die Felder in den angehängten benutzerdefinierten Formularen anzeigen
+* Wenn Sie Zugriff auf einen Abschnitt in einem benutzerdefinierten Formular haben, können Sie die Felder in diesem Abschnitt nicht bearbeiten. Sie können nur die Felder in diesem Abschnitt anzeigen.
+* Wenn Sie keinen Zugriff auf einen Abschnitt in einem der benutzerdefinierten Formulare haben, die an mindestens ein Projekt angehängt sind, wird der Abschnitt nicht im Feld Projekte bearbeiten angezeigt.
+
+Informationen zum Zugriff auf benutzerdefinierte Formulare finden Sie in den folgenden Artikeln:
+
+* [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+
+So bearbeiten Sie Informationen zu benutzerdefinierten Formularen:
+
+
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** und wählen Sie ein Formular aus der Liste aus, um es an das Projekt anzuhängen.
-
-   Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können einem Projekt bis zu zehn benutzerdefinierte Formulare hinzufügen.
-
-1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an das Projekt angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie das Projekt speichern können.
+1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** und wählen Sie ein Formular aus der Liste aus, um es an das Projekt anzuhängen. Standardmäßig werden die ersten 40 Formulare in alphabetischer Reihenfolge angezeigt. Wenn das Formular nicht in der Liste angezeigt wird, geben Sie den Namen ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Projekt selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Informationen zum Festlegen von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >   Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können einem Projekt bis zu zehn benutzerdefinierte Formulare hinzufügen.
 
+
+1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an das Projekt angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie das Projekt speichern können.
 1. (Optional) Klicken Sie auf die **X-Symbol** rechts neben dem Namen eines benutzerdefinierten Formulars, um es zu entfernen, und klicken Sie dann auf **Entfernen**.
 1. (Optional) Fahren Sie je nach den zu ändernden Informationen mit der Bearbeitung der folgenden Abschnitte fort
 
@@ -327,6 +346,19 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
    Klicken Sie auf **Speichern**.
 
 ### Finanzielle Details {#finance}
+
+Je nach Zugriffsebene und Ihrer Berechtigung für das Projekt gibt es die folgenden Szenarien:
+
+* Wenn Sie Zugriff auf Finanzdaten anzeigen und Finanzberechtigungen für das Projekt anzeigen können, können Sie nur die Felder im Abschnitt Finanzen anzeigen. Die Felder in diesem Abschnitt können nicht bearbeitet werden.
+* Wenn Sie Zugriff auf Finanzdaten bearbeiten und Finanzberechtigungen für das Projekt verwalten haben, können Sie die Felder in diesem Abschnitt aktualisieren.
+
+Wenn Sie mehrere Projekte auswählen, um sie stapelweise zu bearbeiten, gibt es die folgenden Szenarien:
+
+* Wenn Sie mindestens ein Projekt auswählen, für das Sie über View Finance-Berechtigungen (anstelle von &quot;Manage Finance&quot;-Berechtigungen) verfügen, können Sie die Felder in diesem Abschnitt nur für alle ausgewählten Projekte anzeigen. Sie können die Felder im Abschnitt Finanzen nicht stapelweise bearbeiten.
+* Wenn Sie mindestens ein Projekt auswählen, für das Sie keine Finanzberechtigungen haben, wird dieser Abschnitt überhaupt nicht angezeigt.
+
+So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
+
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken **Finanzen** im linken Bereich.
@@ -550,7 +582,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 
    Klicken Sie auf **Speichern**.
 
-### Anfrage-Einstellungen {#issue-settings}
+### Problemeinstellungen {#issue-settings}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken **Problemeinstellungen** im linken Bereich.
@@ -657,7 +689,18 @@ Die folgenden Felder sind standardmäßig in der Projektheader enthalten.
 
 ## Stapelweises Bearbeiten von Projekten
 
-Sie können Projekte stapelweise bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren.
+Sie können Projekte stapelweise bearbeiten und Informationen für alle ausgewählten Projekte gleichzeitig aktualisieren.
+
+<!--
+The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+
+Editing projects in bulk differs depending on what environment you choose to update them in. 
+
+### Edit projects in bulk in the Production environment
+
+-->
 
 So bearbeiten Sie Projekte stapelweise:
 
@@ -716,9 +759,7 @@ So bearbeiten Sie Projekte stapelweise:
       <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
      -->
-   >[!NOTE]
-   >
-   >Die Informationen, die Sie für alle ausgewählten Projekte ändern, überschreiben die vorhandenen Informationen zu einzelnen Projekten mit Ausnahme der **Ressourcen-Manager** -Feld. Wenn Sie einen neuen Ressourcen-Manager in der Massenbearbeitung hinzufügen, wird dieser Manager allen ausgewählten Projekten hinzugefügt. Wenn andere Ressourcenmanager mit den ausgewählten Projekten verknüpft sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten auf den Projekten.
+
 
 1. (Optional) Wählen Sie im Bereich Einstellungen eine der folgenden Optionen aus:
 
@@ -750,3 +791,106 @@ So bearbeiten Sie Projekte stapelweise:
 1. Klicken **Änderungen speichern**.
 
    Alle von Ihnen vorgenommenen Änderungen sind jetzt in allen ausgewählten Projekten sichtbar.
+
+<!--drafted for bulk editing projects:  
+
+<div class="preview">
+
+### Edit projects in the Preview environment
+
+Consider the following when editing projects in bulk in the Preview environment:
+
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in the Preview environment: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+<div>
+-->
