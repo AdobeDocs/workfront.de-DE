@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Sie müssen über alle erforderlichen Zugriff oder Berechtigungen verfügen in [
 Einzelne Benutzer können Dokumente über die neue [!DNL SharePoint] Integration. Für die Integration ist keine Administratorkonfiguration erforderlich. Stattdessen meldet sich der Benutzer bei der [!DNL Microsoft] Konto beim Verknüpfen eines Dokuments, über das die Integration auf Dokumente zugreifen kann, die im [!DNL SharePoint].
 
 Wenn ein Benutzer die [!DNL Workfront] [!DNL SharePoint] Integration [!DNL SharePoint] -Konto, sehen sie alle Berechtigungen, die [!DNL Workfront] bei der Interaktion mit ihren [!UICONTROL SharePoint] -Konto. Leseberechtigungen zulassen [!DNL Workfront] zum Anzeigen und Aufrufen von Dateien in [!DNL SharePoint]und Schreibberechtigungen ermöglichen es dem Benutzer, Dateien in hochzuladen. [!DNL SharePoint].
+
+![Sharepoint-Berechtigungen](assets/sharepoint-permissions.png)
 
 Anweisungen zum Verknüpfen von Dokumenten über die neue [!DNL SharePoint] Integration, siehe [Externes Dokument verknüpfen zu [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
