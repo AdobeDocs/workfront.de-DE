@@ -7,9 +7,9 @@ description: Adobe Workfront-Pinnwände sind flexible Tools, die die Teamzusamme
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,7 @@ Mit Pinnwänden haben Sie folgende Möglichkeiten:
 Informationen zur Verwendung der grundlegenden Pinnwandfunktionen finden Sie unter [Erste Schritte mit Pinnwänden in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Informationen zu agilen Planungstools in Foren finden Sie unter [Übersicht über Agile Planungswerkzeuge](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 Sie können auch auf Pinnwände in der App zugreifen. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Boards] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+
+Informationen zu den Funktionen von Foren finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Boards] Videovorführungen](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Weitere Informationen zu agile Tools finden Sie unter [!DNL Workfront], siehe [Übersicht über Agile](../agile/agile-overview.md).

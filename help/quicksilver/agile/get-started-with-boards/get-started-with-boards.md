@@ -6,9 +6,9 @@ description: Lesen Sie diese Artikel, um zu erfahren, wie Pinnwände in Workfron
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
+* [Videodemonstration in Adobe Workfront-Foren](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Opt-in zu frühzeitigen Werbeunterbrechungen](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Verwenden des Dashboards-Dashboards](../../agile/get-started-with-boards/use-boards-page.md)
 * [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md)
