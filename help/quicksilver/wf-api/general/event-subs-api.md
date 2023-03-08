@@ -6,9 +6,9 @@ description: Ereignisabonnement-API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -73,65 +73,10 @@ Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, f
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
-* Zugriffsstufe &quot;Systemadministrator&quot;
-* Ein apiKey
+* Für die Verwendung von Ereignisanmeldungen ist eine Zugriffsstufe von &quot;Systemadministrator&quot;erforderlich.
+* A `sessionID`  -Kopfzeile ist erforderlich, um die API für Ereignisabonnements zu verwenden
 
-   >[!NOTE]
-   >
-   >Wenn Ihr Benutzer bereits die Workfront-API verwendet, sollte Ihr Benutzer bereits über einen apiKey verfügen. Sie können den apiKey über die folgende HTTP-Anforderung abrufen:
-
-**Anforderungs-URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**Anforderungsheader:**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Inhaltstyp</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Antwortcodes:**
-
-| Antwortcode | Beschreibung |
-|---|---|
-| 200 (OK) | Die Anfrage wurde erfolgreich verarbeitet und der vorhandene apiKey für den Benutzer sollte im Antworttext zurückgegeben werden. |
-| 401 (Nicht autorisiert) | Der Server bestätigt die Anfrage, konnte sie jedoch nicht verarbeiten, da der anfordernde apiKey/Benutzer keinen Zugriff auf diese Anfrage hat. |
-
-{style=&quot;table-layout:auto&quot;}
-
-**Beispiel für den Antworttext:**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Wenn Sie die Workfront-API zum ersten Mal verwenden, müssen Sie einen apiKey generieren, den Sie über diesen Link ausführen können:
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
 
 ## Erstellen der Abonnement-Ressource
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Genehmigung</p> </td> 
-   <td> <p>apiKey-Wert</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-Wert</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (Erstellt) | Das Ereignisabonnement wurde erfolgreich erstellt. |
 | 400 (Bad Request) | Das URL-Feld der Abonnement-Ressource wurde als ungültig erachtet. |
-| 401 (Nicht autorisiert) | Der bereitgestellte apiKey war leer oder wurde als ungültig betrachtet. |
-| 403 (Verboten) | Der Benutzer, der mit dem bereitgestellten apiKey übereinstimmt, hat keinen Administratorzugriff. |
+| 401 (Nicht autorisiert) | Die bereitgestellte sessionID war leer oder wurde als ungültig eingestuft. |
+| 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
 Wenn Sie eine Abonnement-Ressource als Text einer Anfrage übergeben (der Inhaltstyp lautet &quot;application/json&quot;), wird ein Ereignisabonnement für das angegebene Objekt erstellt. Der Antwortcode 201 (Erstellt) zeigt an, dass das Abonnement erstellt wurde. Ein anderer Antwort-Code als 201 bedeutet, dass das Abonnement **NOT** erstellt.
 
 >[!NOTE]
- Der Antwortheader &quot;Ort&quot;enthält den URI des neu erstellten Ereignisabonnements.
+>
+> Der Antwortheader &quot;Ort&quot;enthält den URI des neu erstellten Ereignisabonnements.
 
 **Beispiel für Antwortheader:**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Genehmigung</p> </td> 
-   <td> <p>apiKey-Wert</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-Wert</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Antwortcode | Beschreibung |
 |---|---|
-| 200 (OK) | Die Anfrage wurde mit allen Ereignisabonnements zurückgegeben, die für den Kunden gefunden wurden, der mit dem bereitgestellten apiKey übereinstimmt. |
-| 401 (Nicht autorisiert) | Der bereitgestellte apiKey war leer. |
-| 403 (Verboten) | Der Benutzer, der mit dem bereitgestellten apiKey übereinstimmt, hat keinen Administratorzugriff. |
+| 200 (OK) | Die Anfrage wurde mit allen für den Kunden gefundenen Ereignisabonnements zurückgegeben, die mit der bereitgestellten sessionID übereinstimmen. |
+| 401 (Nicht autorisiert) | Die bereitgestellte sessionID war leer. |
+| 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
 
 **Beispiel für Antwortheader:**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Genehmigung</p> </td> 
-   <td> <p>apiKey-Wert</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-Wert</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Antwortcode | Beschreibung |
 |---|---|
 | 200 (OK) | Die zurückgegebene Anfrage mit dem Ereignisabonnement, das mit der angegebenen Anmelde-ID übereinstimmt. |
-| 401 (Nicht autorisiert) | Der bereitgestellte apiKey war leer. |
-| 403 (Verboten) | Der Benutzer, der mit dem bereitgestellten apiKey übereinstimmt, hat keinen Administratorzugriff. |
+| 401 (Nicht autorisiert) | Die bereitgestellte sessionID war leer. |
+| 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
 
 **Beispiel für den Antworttext:**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Genehmigung</p> </td> 
-   <td> <p> apiKey des Benutzers </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID-Wert </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 (Nicht autorisiert)</td> 
-   <td>Der bereitgestellte apiKey war leer.</td> 
+   <td>Die bereitgestellte sessionID war leer.</td> 
   </tr> 
   <tr> 
    <td>403 (Verboten)</td> 
-   <td>Der Benutzer, der dem bereitgestellten apiKey entspricht, hat keinen Administratorzugriff.</td> 
+   <td>Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff.</td> 
   </tr> 
   <tr> 
    <td>404 (Nicht gefunden)</td> 
@@ -949,7 +895,7 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage, die das Feld base64Encod
 
 Der folgende API-Endpunkt wird nicht mehr unterstützt und sollte nicht für neue Implementierungen verwendet werden. Wir empfehlen auch die Umstellung alter Implementierungen auf die -Methode im **Abfrage von Ereignisanmeldungen** Abschnitt beschrieben.
 
-Sie können alle Ereignisabonnements für einen Kunden abfragen, wie im apiKey -Wert angegeben. Die Anforderungssyntax für die Auflistung aller Ereignisanmeldungen für einen bestimmten Kunden lautet die folgende URL:
+Sie können alle Ereignisabonnements für einen Kunden abfragen, wie durch den Wert sessionID angegeben. Die Anforderungssyntax für die Auflistung aller Ereignisanmeldungen für einen bestimmten Kunden lautet die folgende URL:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Genehmigung</p> </td> 
-   <td> <p> apiKey des Benutzers </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID-Wert </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (Nicht autorisiert)</td> 
-   <td>Der bereitgestellte apiKey war leer.</td> 
+   <td>Die bereitgestellte sessionID war leer.</td> 
   </tr> 
   <tr> 
    <td>403 (Verboten)</td> 
-   <td>Der Benutzer, der dem bereitgestellten apiKey entspricht, hat keinen Administratorzugriff.</td> 
+   <td>Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff.</td> 
   </tr> 
  </tbody> 
 </table>
