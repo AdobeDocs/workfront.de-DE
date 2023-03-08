@@ -6,7 +6,7 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Neu erstellen]** im [!UICONTROL Pinnwände] Bereich. Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Pinnwand hinzufügen]** im [!UICONTROL Pinnwände] Bereich. Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >

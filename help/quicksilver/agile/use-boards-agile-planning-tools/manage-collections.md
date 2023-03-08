@@ -6,7 +6,7 @@ title: Verwalten von Sammlungen
 description: Eine Sammlung ist eine konfigurierbare Gruppe von Foren für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Kollektion erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken **[!UICONTROL Neu erstellen]** im [!UICONTROL Sammlungen] Bereich des Dashboards.
+1. Klicken **[!UICONTROL Sammlung hinzufügen]** im [!UICONTROL Sammlungen] Bereich des Dashboards.
 1. Geben Sie einen Namen ein, der ersetzt werden soll **[!UICONTROL Unbenannte Sammlung]** und drücken Sie die Eingabetaste.
 
    Sie können der Sammlung Pinnwände hinzufügen oder auf [!UICONTROL **Alle Pinnwände**] , um zum Dashboard zurückzukehren.
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand in einer Sammlung erstellen
 
 1. Wenn Sie noch nicht in einer Sammlung sind, klicken Sie auf [!UICONTROL **Sammlung anzeigen**] im Dashboard, um eine vorhandene Sammlung zu öffnen.
-1. Klicken **[!UICONTROL Neu erstellen]** auf [!UICONTROL Pinnwände] der Sammlung.
+1. Klicken **[!UICONTROL Pinnwand hinzufügen]** auf [!UICONTROL Pinnwände] der Sammlung.
 1. Wählen Sie eine Vorlage für die Pinnwand aus.
 
 | Vorlage | Beschreibung |
