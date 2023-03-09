@@ -7,9 +7,9 @@ description: Sie können ein benutzerdefiniertes Formular mit dem Formularentwic
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ Sie können einem benutzerdefinierten Formular mehrere verschiedene Textfelder h
    >[!NOTE]
    >
    >Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar (in den kommenden Versionen verfügbar).
+
 * **Beschreibender Text**: Ermöglicht das Einfügen von Anweisungen und das Verknüpfen mit Seiten außerhalb von Workfront.
+
 +++
 
 So fügen Sie ein Textfeld hinzu:
@@ -134,7 +136,7 @@ So fügen Sie ein Textfeld hinzu:
    * Einzelzeilentext:
    * Absatztext
    * Textfeld mit Formatierung
-   * Beschreibende Texte
+   * Beschreibender Text
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ So fügen Sie ein Textfeld hinzu:
     <td>Eingabe in</td>
     <td>Beschreibung</td>
     <td>Verfügbar für </td>
+    </tr>
+    <tr>
+    <td>Größe</td>
+    <td><p>Ändern Sie die Größe der Textfelder im Formular.<p>
+   </td>
+    <td><ul>
+    <li>Einzeiliger Text</li>
+    <li>Text des Absatzes</li>
+    <li>Text mit Formatierung</li>
+    <li>Beschreibender Text - In Kürze verfügbar</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Bezeichnung</td>
@@ -209,6 +222,14 @@ So fügen Sie ein Textfeld hinzu:
     <td><ul><li>Beschreibender Text</li></ul></td>
     </tr>
    </table>
+
+1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
+
+   oder
+
+   Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
+
+   ![Kopiersymbol](assets/copy-field.png)
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
 
@@ -346,6 +367,20 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     </tbody> 
     </table>
 
+1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
+
+   oder
+
+   Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
+
+   ![Kopiersymbol](assets/copy-field.png)
+
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
+
+   oder
+
+   Klicken **Speichern und schließen**.
+
 ### Typevorschau- und Datumsfelder hinzufügen
 
 Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzufügen.
@@ -445,6 +480,14 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
     </tbody> 
    </table>
 
+1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
+
+   oder
+
+   Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
+
+   ![Kopiersymbol](assets/copy-field.png)
+
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
 
    oder
@@ -520,6 +563,14 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
     </tbody> 
    </table>
 
+1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
+
+   oder
+
+   Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
+
+   ![Kopiersymbol](assets/copy-field.png)
+
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
 
    oder
@@ -588,6 +639,14 @@ So fügen Sie eine Adobe XD-Datei hinzu:
      </tr> 
     </tbody> 
    </table>
+
+1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
+
+   oder
+
+   Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
+
+   ![Kopiersymbol](assets/copy-field.png)
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
 

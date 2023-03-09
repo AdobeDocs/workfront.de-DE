@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -62,6 +62,7 @@ Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen
 ## Schritt 1: Aufrufen von Benutzern {#step-1-to-users}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 
@@ -289,7 +290,7 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
       >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
       >     
       >   * Aufgaben
-      >   * Anfrage
+      >   * Problem
       >   * Anfrage
       >   * Änderungsanforderung
       >   * Bug-Bericht
