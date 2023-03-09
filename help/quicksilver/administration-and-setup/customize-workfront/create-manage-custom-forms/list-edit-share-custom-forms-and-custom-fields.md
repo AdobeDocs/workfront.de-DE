@@ -2,12 +2,13 @@
 title: Benutzerdefinierte Formulare und Widgets auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
 description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
+
 
 # Benutzerdefinierte Formulare und Widgets auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
 

@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 51d4fdb5a47099f22d171a700ee9cf5270fb1553
+source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
 workflow-type: tm+mt
-source-wordcount: '12620'
+source-wordcount: '12770'
 ht-degree: 1%
 
 ---
@@ -475,29 +475,48 @@ ht-degree: 1%
       * Benutzerdefinierte Formulare {#custom-forms}
          * [Benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Übersicht über benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * [Benutzerdefiniertes Formular erstellen oder bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-         * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-         * [Benutzerdefiniertes Feld hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-         * [Hinzufügen eines Bildes oder eines anderen Asset-Widgets zu einem benutzerdefinierten Formular](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-         * [Abschnittsumbruch hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-         * [Zugriff auf benutzerdefinierte Felder](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-         * [Berechnete Daten hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-         * [Vorhandenes berechnetes benutzerdefiniertes Feld erneut verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-         * [Benutzerdefinierte Felder und Widgets positionieren](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-         * [Freigeben für benutzerdefinierte Felder und Widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-         * [Wiederverwenden eines benutzerdefinierten Felds oder Widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-         * [Anzeigenlogik hinzufügen und Logik überspringen](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-         * [Freigeben eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [Benutzerdefiniertes Formular in der Vorschau anzeigen und ausfüllen](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-         * [Referenzieren benutzerdefinierter Formulare in Berichten](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-         * [Anzeigen von Berichten, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-         * [Anzeigen benutzerdefinierter Formulare, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-         * [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-         * [Löschen oder Deaktivieren eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-         * [Eigenschaften eines benutzerdefinierten Felds, einer Abschnittspause oder eines Widgets bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-         * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-         * [Rich-Text-Feldspeicherung in der API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-         * [Löschen von Objekttypen in einem benutzerdefinierten Formular](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Alter benutzerdefinierter Formular-Builder {#custom-form-builder}
+            * Verwenden des benutzerdefinierten Formular-Builders {#use-the-custom-form-builder}
+               * [Verwenden des veralteten benutzerdefinierten Formular-Builders](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+               * [Benutzerdefiniertes Formular mit dem alten Builder erstellen oder bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+               * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Builder zu erstellen](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+               * [Benutzerdefiniertes Feld hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Hinzufügen eines Bildes oder eines anderen Asset-Widgets zu einem benutzerdefinierten Formular mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+               * [Hinzufügen einer Abschnittspause zum Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+               * [Berechnete Daten mit dem Legacy-Builder hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+               * [Vorhandenes berechnetes benutzerdefiniertes Feld mit dem Legacy-Builder wiederverwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+               * [Positionieren von benutzerdefinierten Feldern und Widgets mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+               * [Freigeben für benutzerdefinierte Felder und Widgets mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+               * [Wiederverwenden eines benutzerdefinierten Felds oder Widgets mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+               * [Anzeigenlogik hinzufügen und Logik mit dem Legacy-Builder überspringen](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+               * [Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Builder aus.](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+               * [Löschen von Objekttypen in einem benutzerdefinierten Formular mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Form Designer {#form-designer}
+            * [Form Designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+            * [Übersicht über den Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+            * Benutzerdefiniertes Formular erstellen {#design-a-form}
+               * [Erstellen eines Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+               * [Entwerfen eines Formulars mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+               * [Entwerfen eines Formulars aus einer Kopie mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+               * [Berechnete Felder mit dem Formularentwickler hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+            * Formular verwalten {#manage-a-form}
+               * [Formular verwalten](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+               * [Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+               * [Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+         * Benutzerdefinierte Formulare verwalten {#manage-custom-forms}
+            * [Benutzerdefinierte Formulare und Felder verwalten](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [Freigeben eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+            * [Zugriff auf benutzerdefinierte Felder](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+            * [Referenzieren benutzerdefinierter Formulare in Berichten](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+            * [Anzeigen von Berichten, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+            * [Anzeigen benutzerdefinierter Formulare, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+            * [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+            * [Eigenschaften eines benutzerdefinierten Felds, einer Abschnittspause oder eines Widgets bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+            * [Löschen eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+            * [Rich-Text-Feldspeicherung in der API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * Status und Prioritätsbezeichnungen {#statuses-priority-labels}
          * [Benutzerdefinierte Status und Prioritätsbezeichnungen erstellen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Statusübersicht](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)

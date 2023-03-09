@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: create,custom,form,copy,base,another
 navigation-topic: create-and-manage-custom-forms
-title: Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen
+title: Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Builder zu erstellen
 description: Sie können ein neues benutzerdefiniertes Formular erstellen, das auf einem vorhandenen basiert.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen
+# Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Builder zu erstellen
 
 Sie können ein neues benutzerdefiniertes Formular erstellen, das auf einem vorhandenen basiert.
 
@@ -80,12 +80,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Wählen Sie das soeben kopierte Formular aus und klicken Sie auf **Bearbeiten**.
 1. Nehmen Sie Änderungen am Formular vor, wie in den folgenden Artikeln beschrieben:
 
-   * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](#Add2)
-   * [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Benutzerdefiniertes Formular in der Vorschau anzeigen und ausfüllen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Formular-Builder zu erstellen](#Add2)
+   * [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular mit dem alten Formular-Builder erneut.](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Fügen Sie mit dem alten Formular-Builder Logik hinzu und überspringen Sie Logik zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optional) Nachdem Sie auf **Speichern+Schließen**, fügen Sie das Formular an das Objekt an, in dem Sie es verwenden möchten, wie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

@@ -8,20 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
 # Übersicht über benutzerdefinierte Formulare
-
-**Video**:
-
-In diesem Video finden Sie eine Übersicht über benutzerdefinierte Formulare.
-
-![](assets/video-icon-verysmall.png) [Benutzerdefinierte Forms im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
 Sie können ein benutzerdefiniertes Formular erstellen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 
@@ -45,11 +39,12 @@ Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutze
 * Optionsschaltflächen
 * Beschreibender Text
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+## Erstellen eines benutzerdefinierten Formulars
 
-Sie können einem benutzerdefinierten Formular auch Widgets für visuelle Assets hinzufügen. Dies ist nützlich, wenn Sie Inhalte wie Branding-Bilder oder visuelle Anweisungen einbeziehen müssen. Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Es gibt zwei Optionen zum Erstellen eines benutzerdefinierten Formulars in [!DNL Workfront]. Sie können den alten benutzerdefinierten Formular-Builder oder den neuen Formularentwickler verwenden:
 
-Anweisungen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [Alter benutzerdefinierter Formular-Builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## Objekte, an die Benutzer ein benutzerdefiniertes Formular anhängen können
 
@@ -57,7 +52,7 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 
 * Projekt (einschließlich Geschäftsfälle)
 * Aufgabe
-* Anfrage
+* Problem
 * Firma
 * Dokument
 * Benutzer
@@ -68,4 +63,4 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 
 Anweisungen finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Benutzer, die ein benutzerdefiniertes Formular erstellen, können es so konfigurieren, dass es mit mehr als einem Objekttyp funktioniert. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Benutzer, die ein benutzerdefiniertes Formular erstellen, können es so konfigurieren, dass es mit mehr als einem Objekttyp funktioniert.

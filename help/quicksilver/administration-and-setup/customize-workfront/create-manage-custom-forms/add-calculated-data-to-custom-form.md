@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular
+title: Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular
+# Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular
 
 In einem benutzerdefinierten Formular können Sie ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
@@ -145,9 +145,9 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >* Suchen Sie nach Berechnungsfehlern, die bei der Durchführung hervorgehoben sind. Sie können den Mauszeiger über einen hervorgehobenen Fehler bewegen, um eine kurze Beschreibung seiner Ursache anzuzeigen.
       >  ![](assets/error-help.png)
    >* Zeigen Sie im Bereich unter Ihrer Berechnung eine Vorschau der Ergebnisse an einem vorhandenen Workfront-Objekt an.
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* Referenzausdrücke in einer langen Berechnung unter Verwendung der auf der linken Seite angezeigten Zeilennummern.
 
 

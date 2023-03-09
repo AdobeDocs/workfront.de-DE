@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen
+title: Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen
 description: Wenn Sie an einem benutzerdefinierten Formular arbeiten, können Sie ein neues benutzerdefiniertes Feld erstellen und es zu einem benutzerdefinierten Formular hinzufügen. Sie können auch ein benutzerdefiniertes Feld hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 3%
+source-wordcount: '2208'
+ht-degree: 2%
 
 ---
 
-# Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen
+# Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen
 
 Wenn Sie an einem benutzerdefinierten Formular arbeiten, können Sie ein neues benutzerdefiniertes Feld erstellen und es zu einem benutzerdefinierten Formular hinzufügen.
 

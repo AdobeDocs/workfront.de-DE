@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Löschen oder Deaktivieren eines benutzerdefinierten Formulars
-description: Sie können ein benutzerdefiniertes Formular aus dem System löschen oder deaktivieren.
-author: Caroline
+title: Löschen eines benutzerdefinierten Formulars
+description: Sie können ein benutzerdefiniertes Formular aus dem System löschen.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
-# Löschen oder Deaktivieren eines benutzerdefinierten Formulars
+# Löschen eines benutzerdefinierten Formulars
 
-Sie können ein benutzerdefiniertes Formular aus dem System löschen oder deaktivieren.
+Sie können ein benutzerdefiniertes Formular aus dem System löschen.
 
 >[!CAUTION]
 >
->Beim Löschen eines benutzerdefinierten Formulars werden auch alle benutzerdefinierten Daten zu den mit dem Formular verknüpften Objekten gelöscht. Die gelöschten Daten können nicht wiederhergestellt werden. Ziehen Sie stattdessen die Deaktivierung eines benutzerdefinierten Formulars in Betracht. Wenn Sie ein benutzerdefiniertes Formular deaktivieren, das Sie nicht mehr verwenden, behalten Sie alle zugehörigen historischen Daten bei.
+>Beim Löschen eines benutzerdefinierten Formulars werden auch alle benutzerdefinierten Daten zu den mit dem Formular verknüpften Objekten gelöscht. Die gelöschten Daten können nicht wiederhergestellt werden. Ziehen Sie stattdessen die Deaktivierung eines benutzerdefinierten Formulars in Betracht. Wenn Sie ein benutzerdefiniertes Formular deaktivieren, das Sie nicht mehr verwenden, behalten Sie alle zugehörigen historischen Daten bei. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erneut aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Zugriffsanforderungen
 
@@ -55,20 +55,3 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Klicken **Benutzerdefinierter Forms.**
 1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Löschen**.
 1. Wenn Sie sicher sind, dass Sie das benutzerdefinierte Formular und alle zugehörigen Daten zu Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.
-
-## Deaktivieren eines benutzerdefinierten Formulars
-
-Sie können nicht mehr verwendete benutzerdefinierte Formulare deaktivieren, ohne die zugehörigen historischen Daten zu verlieren. Benutzer können Objekten zwar kein inaktives benutzerdefiniertes Formular hinzufügen, sie können jedoch trotzdem Daten zu Objekten, an denen es bereits angehängt war, anzeigen und zu ihren Feldern hinzufügen.
-
-Felder in einem inaktiven benutzerdefinierten Formular können auch in einer Ansicht inline bearbeitet werden. Wenn ein Benutzer während einer Inline-Bearbeitung ein Feld aus einem inaktiven benutzerdefinierten Formular hinzufügt, wird das Formular automatisch an das Objekt angehängt, auch wenn das benutzerdefinierte Formular deaktiviert ist.
-
-Wenn Sie ein benutzerdefiniertes Formular erneut aktivieren, werden die zuvor vorhandenen Einstellungen beibehalten und die Benutzer können damit so interagieren, als wäre es nie deaktiviert.
-
-So deaktivieren Sie ein benutzerdefiniertes Formular:
-
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
-
-1. Klicken Sie auf den Namen des benutzerdefinierten Formulars, das Sie deaktivieren möchten.
-1. Klicken Sie auf **Formulareinstellungen** Registerkarte.
-1. Deaktivieren Sie die **Ist aktiv** -Option.
-1. Klicken **Speichern und schließen**.

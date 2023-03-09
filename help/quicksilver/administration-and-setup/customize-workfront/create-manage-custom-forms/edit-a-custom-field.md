@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken **Benutzerdefinierter Forms.**
 1. Klicken Sie auf **Felder** Registerkarte.
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. Wählen Sie das benutzerdefinierte Feld, die Abschnittsumbruch oder das Widget aus und klicken Sie auf **Bearbeiten**.
 1. Ändern Sie in dem angezeigten Feld die verfügbaren Optionen für das Element, das Sie bearbeiten.
 
-   Weitere Informationen zu diesen Optionen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) oder [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Weitere Informationen zu diesen Optionen
+   * Wenn Sie den benutzerdefinierten Formular-Builder verwenden, lesen Sie [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) oder [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Wenn Sie den Formularentwickler verwenden, lesen Sie [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern und schließen**.

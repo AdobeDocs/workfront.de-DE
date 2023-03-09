@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden
+title: Verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular mit dem alten Formular-Builder erneut.
 description: Sie können dasselbe berechnete benutzerdefinierte Feld für benutzerdefinierte Formulare verwenden, die zu verschiedenen Objekten gehören. Sie können beispielsweise das Feld "Errechneter Gewinn"verwenden, das Sie für das benutzerdefinierte Projekt-Formular für eine Aufgabe in einem benutzerdefinierten Formular erstellt haben.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-# Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden
+# Verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular mit dem alten Formular-Builder erneut.
 
 Sie können dasselbe berechnete benutzerdefinierte Feld für benutzerdefinierte Formulare verwenden, die zu verschiedenen Objekten gehören. Sie können beispielsweise das Feld &quot;Errechneter Gewinn&quot;verwenden, das Sie für das benutzerdefinierte Projekt-Formular für eine Aufgabe in einem benutzerdefinierten Formular erstellt haben.
 
-Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Bei Verwendung eines vorhandenen berechneten benutzerdefinierten Felds wird die Berechnung nicht auf das neue Formular übertragen. Sie müssen die Berechnung erneut im selben Feld zum neuen benutzerdefinierten Formular hinzufügen.
 

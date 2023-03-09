@@ -1,5 +1,5 @@
 ---
-title: Benutzerdefiniertes Formular erstellen oder bearbeiten
+title: Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# Benutzerdefiniertes Formular erstellen oder bearbeiten
+# Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten
 
 Sie können ein neues benutzerdefiniertes Formular erstellen oder bearbeiten. Beide Aufgaben werden in diesem Artikel erläutert.
 
-Informationen zum Erstellen eines neuen benutzerdefinierten Formulars aus einem vorhandenen finden Sie unter [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+Informationen zum Erstellen eines neuen benutzerdefinierten Formulars aus einem vorhandenen finden Sie unter [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Formular-Builder zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## Zugriffsanforderungen
 

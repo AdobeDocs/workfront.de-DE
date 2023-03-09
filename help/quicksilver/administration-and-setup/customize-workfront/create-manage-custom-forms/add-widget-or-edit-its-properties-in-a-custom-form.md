@@ -1,18 +1,18 @@
 ---
-title: Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular
+title: Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder
 description: Sie können die Eigenschaften der folgenden Asset-Widgets wie Bilder, Videos, PDF-Dateien und Adobe XD-Dateien in einem benutzerdefinierten Formular hinzufügen oder bearbeiten. Dies ist nützlich, wenn Sie visuelle Inhalte wie Branding-Bilder, ein Video mit Anweisungen oder einen interaktiven Prototyp für eine App einbeziehen müssen, die Sie entwerfen.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
 
-# Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular
+# Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder
 
 Sie können die Eigenschaften der folgenden Asset-Widgets in einem benutzerdefinierten Formular hinzufügen oder bearbeiten:
 
