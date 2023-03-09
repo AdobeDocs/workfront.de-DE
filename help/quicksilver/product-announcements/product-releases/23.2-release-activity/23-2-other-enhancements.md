@@ -4,9 +4,9 @@ description: 23.2 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Neue Kommentierungserfahrung für Beta-Probleme
+
+Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates einiger Objekte.
+
+Diese neue Erfahrung wird schließlich dazu führen, dass Kommentare in Adobe Workfront und darüber hinaus in der gesamten Adobe Experience Cloud vereinheitlicht werden.
+
+Im Rahmen dieser Aktualisierung führen wir die neue Kommentarerfahrung zum Abschnitt Aktualisierungen von Problemen ein. In der aktuellen Version steht jedem Benutzer ein Umschalter zur Verfügung, um dieses Erlebnis in seiner eigenen Umgebung im Beta-Modus zu aktivieren. Nach der Annahme der Beta-Vereinbarung wird der Abschnitt &quot;Updates&quot;angezeigt, in dem sie ihre Arbeit in diesem Bereich weiterhin wie bisher verwalten können.
+Ähnliche Funktionen wurden mit Version 23.1 für Workfront Goals veröffentlicht.
+
+Einige der Funktionen dieses Updates sind:
+
+* Separate Registerkarten für Kommentare und Systemaktualisierungen
+* Bessere Leistung
+
+In zukünftigen Versionen werden weitere Funktionen hinzugefügt, da die Funktionalität auch anderen Objekten hinzugefügt wird.
+
+Informationen zu den neuen Kommentarfunktionen finden Sie unter [Einheitliches Kommentierungserlebnis](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Exportieren von Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront für XD
 
