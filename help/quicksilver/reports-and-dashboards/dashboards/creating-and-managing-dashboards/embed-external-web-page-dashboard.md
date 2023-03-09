@@ -6,9 +6,9 @@ description: Sie können eine externe Webseite in ein Dashboard einbetten, um Zu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ Wenn Ihr Unternehmen beispielsweise über ein webbasiertes Dokument-Repository, 
 >Aus Sicherheitsgründen ist es auf einigen Websites nicht möglich, Webseiten als iframe einzubetten. Wenn die Webseite, die Sie in ein Dashboard einbetten möchten, dies nicht zulässt, wird die Seite nicht im Dashboard angezeigt. Sie können jedoch weiterhin auf die externe Seite zugreifen, indem Sie auf den Namen des Dashboards klicken.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >Wenden Sie sich an Ihren Webadministrator, um die Einbettung für eine Website zu ermöglichen, deren Inhaber Sie sind. **X-Frame-Options** -Einstellung. Weitere Informationen finden Sie unter [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
+>
+>* /dashboards &#x200B;
+>* /dashboard/:ID-&#x200B;
+>* /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
+>* /program/:ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID &#x200B;
+>* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourcemanagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /team/:ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## Zugriffsanforderungen
 
