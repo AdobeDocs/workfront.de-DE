@@ -6,7 +6,7 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ Beachten Sie beim Bearbeiten von Projekten Folgendes:
 
 ## Projekt bearbeiten
 
-Durch die Bearbeitung eines Projekts können Sie Informationen und Einstellungen für das Projekt sowie Aufgaben und Probleme im Zusammenhang mit dem Projekt ändern.
+Durch Bearbeiten eines Projekts können Sie Informationen und Einstellungen für das Projekt sowie Aufgaben und Probleme im Projekt ändern.
 
 Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatus in der Vorlage geändert werden, aus der das Projekt erstellt wurde. Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
