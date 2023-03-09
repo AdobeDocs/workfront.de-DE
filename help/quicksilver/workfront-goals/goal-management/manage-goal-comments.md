@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->Der Inhalt auf dieser Seite bezieht sich auf Funktionen, die Teil des neuen einheitlichen Kommentierungserlebnisses sind, das derzeit nur in Adobe Workfront-Zielen verfügbar ist. Weitere Informationen zum einheitlichen Kommentierungserlebnis finden Sie unter [Einheitliches Kommentierungserlebnis](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 Sie können Ziele im Abschnitt &quot;Aktualisierungen&quot;auf der Seite eines Ziels mit Kommentaren versehen.
 
 Sie können auf einen Kommentar antworten oder einen Kommentar erhalten, den Sie oder andere in diesem Bereich hinzugefügt haben.
@@ -203,6 +200,10 @@ Dadurch wird die Zielliste geöffnet.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Kommentar schreiben** ankreuzen.
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
 1. (Optional) Im **Benachrichtigen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. Klicken **Einsenden**.
