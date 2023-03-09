@@ -4,9 +4,9 @@ description: 23.2 Projektverbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Neben einem aktualisierten Erscheinungsbild der Benutzeroberfläche sind im Feld
 * Die Kommentarfunktion wurde aus dem Feld Projekte bearbeiten entfernt.
 
 Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Erweiterte Filterfunktionen, die in Adobe Workfront allgemein verfügbar sind
 

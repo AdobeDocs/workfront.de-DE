@@ -4,9 +4,9 @@ description: 23.2 Verbesserungen für Administratoren
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
 * **Ändern der Größe für beschreibenden Text**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden. <span style="color: #ff0000;"> Die Änderung der Größe für den beschreibenden Text wurde zeitweilig verzögert, kommt aber bald.</span></li>
 
-Weitere Informationen finden Sie unter [Übersicht über den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Weitere Informationen finden Sie unter [Übersicht über den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Pins in Layout-Vorlage umbenennen
 
@@ -37,4 +39,4 @@ Sie können jetzt Stifte in einer Layoutvorlage umbenennen, um sie für Ihre Ben
 
 Weitere Informationen finden Sie unter [Anpassen von fixierten Seiten mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Weitere Informationen dazu, wie Benutzer ihre personenbezogenen fixierten Seiten umbenennen können, finden Sie unter [Seiten fixieren, um Ihren Arbeitsbereich anzupassen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3414364/)
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3414364/){target=_blank}
