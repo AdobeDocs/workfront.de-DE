@@ -7,17 +7,16 @@ description: Sie können einem der unten aufgeführten Objekte ein vorhandenes b
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
 # Benutzerdefiniertes Formular zu einem Objekt hinzufügen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Sie können einem der unten aufgeführten Objekte ein vorhandenes benutzerdefiniertes Formular hinzufügen. Ein benutzerdefiniertes Formular enthält benutzerdefinierte Felder, in denen Sie Informationen zum Objekt speichern können.
 
@@ -53,8 +52,10 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
+   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p> <p><b>NOTIZ</b></p>
+
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Verwalten Sie Berechtigungen für das Objekt, an das Sie ein benutzerdefiniertes Formular anhängen möchten.</p> <p>Anzeigen von oder höheren Berechtigungen für das benutzerdefinierte Formular mit der Berechtigung zum <b>Anhängen an benutzerdefinierte Daten</b> Objekte (Projekte, Aufgaben und Probleme). Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>.</p> <p>Wichtig: Wenn Sie nicht über eine Planungslizenz mit Administratorzugriff auf Custom Forms verfügen, müssen Sie über bestimmte Berechtigungen verfügen, um zumindest das benutzerdefinierte Formular anzuzeigen, wie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>. Diese Berechtigungen müssen Ihnen gewährt werden, selbst wenn das Formular systemweit sichtbar ist. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
@@ -110,13 +111,13 @@ Sie können bis zu 10 benutzerdefinierte Formulare zu einem bestimmten Objekt hi
 Sie können benutzerdefinierte Formulare zu mehreren Objekten hinzufügen, indem Sie sie in einer Liste auswählen.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in der Vorschau-Umgebung in großen Mengen finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Wählen Sie mehrere Objekte in der Liste aus.

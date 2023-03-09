@@ -7,14 +7,16 @@ description: Sie können einen Bericht nicht nach einem benutzerdefinierten Mehr
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
 
 # Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Sie können einen Bericht nicht nach einem benutzerdefinierten Mehrfachfeld ordnen. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
 
@@ -104,6 +106,11 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt sind, wählen Sie alle Objekte in Ihrem Bericht aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachfeld und dem berechneten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional und bedingt) Aktivieren Sie die **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie auf **Änderungen speichern**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
+
+   >[!NOTE]
+   >
+   ><span class="preview">Diese Option wurde aus der Massenbearbeitung von Projekten in der Vorschau-Umgebung entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie auf **Mehr** ![](assets/more-icon-45x33.png) am Anfang einer Projektliste und **Ausdrücke neu berechnen**. </span>
+
 
 1. Rufen Sie den Bericht auf, in dem Sie die Grafik für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.
 1. Klicken **Berichtaktionen**, dann **Bearbeiten**.

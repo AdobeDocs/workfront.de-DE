@@ -8,17 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Detailansicht mithilfe einer Layoutvorlage anpassen
 
-<!-- drafted for bulk editing proejcts: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Als Adobe Workfront-Administrator können Sie mit einer Layoutvorlage festlegen, welche Informationen angezeigt werden, wenn ein Benutzer auf das Symbol &quot;Details&quot;klickt ![](assets/project-details-icon.png) im linken Bereich während der Anzeige einer Aufgabe, eines Problems, eines Dokuments, Programms oder Portfolios.
 
@@ -38,12 +37,11 @@ Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimm
 
    ![](assets/edit-task-screen.png)
 
-<!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
+* <span class="preview">Bildschirme vom Typ &quot;Objekte bearbeiten&quot;bei der Massenbearbeitung von Projekten, z. B. Projekte bearbeiten</span>
 
-  <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
-  -->
+   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+-->
 
 * Zusammenfassung ![](assets/summary-panel-icon.png) Bedienfeld für Listen von Aufgaben und Problemen
 
