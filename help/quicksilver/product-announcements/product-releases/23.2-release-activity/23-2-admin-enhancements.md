@@ -4,9 +4,9 @@ description: 23.2 Verbesserungen für Administratoren
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit Ve
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Erstellen benutzerdefinierter Formulare mit dem neuen Formularentwickler
+## Erstellen benutzerdefinierter Formulare mit der Beta-Version des neuen Formulardesigners
 
-Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können.
+Jetzt in einer öffentlichen Beta-Version verfügbar, verfügt der neue Formularentwickler über einen neuen Arbeitsbereich im Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können.
 
 Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
