@@ -5,9 +5,9 @@ description: Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,18 @@ So wenden Sie eine Scorecard auf ein Projekt an:
 1. Klicken **Speichern** , um die Scorecard zu speichern und das Projekt zu bewerten.
 
    Die Scorecard ist jetzt mit dem Projekt verknüpft und das Projekt wird bewertet.
+
+1. (Bedingt) Wenn sich die Werte von Scorecard-Fragen ändern, müssen Sie die Scorecard neu berechnen, um die neuen Werte für die Projektbewertung widerzuspiegeln. Gehen Sie wie folgt vor, um die Scorecard neu zu berechnen:
+
+   1. Markieren Sie eine Projektliste und wählen Sie alle Projekte aus der Liste aus.
+   1. Klicken Sie auf **Bearbeiten** -Symbol oben in der Liste.
+   1. Klicken **Einstellungen** im linken Bereich, und überprüfen Sie dann die **Scorecards neu berechnen** -Option am Ende des Einstellungsbereichs.
+   1. Klicken Sie auf Speichern. Dadurch wird der Punktwert basierend auf den Scorecards, die für alle ausgewählten Projekte angehängt sind, neu berechnet.
+
+      >[!NOTE]
+      >
+      >   <span class="preview">Die Option zum Neuberechnen von Scorecards wurde bei der Massenbearbeitung von Projekten aus der Vorschau-Umgebung entfernt. </span>
+
 
 ## Generieren einer Alignment-Punktzahl
 

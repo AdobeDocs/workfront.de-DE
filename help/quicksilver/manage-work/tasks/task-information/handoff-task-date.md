@@ -7,9 +7,9 @@ description: Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit ve
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 >
 >Weitere Informationen zur Neuberechnung der Projektzeitleiste finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat**: Das Übergabedatum entspricht immer dem durch die Beschränkung festgelegten Datum, unabhängig von anderen Bedingungen.\
+* **Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat**: Das Übergabedatum variiert je nach Art der Einschränkung und abhängig davon, ob die Aufgabe über ein tatsächliches Startdatum verfügt oder nicht.\
    Die folgenden erzwungenen Einschränkungen gelten für Aufgaben:
 
    * Muss beginnen am
@@ -73,6 +73,13 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
    * Nicht früher anfangen als
    * Nicht später anfangen als
    * Festes Datum
+
+   Die folgenden Szenarien existieren:
+
+   * Wenn die Aufgabe die Beschränkung Muss beginnen am oder Start nicht früher als hat, ist das Übergabedatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
+   * Wenn die Aufgabe die Beschränkung &quot;Must Finish On&quot;oder &quot;Start No Later Than&quot;hat, ist das Übergabedatum immer das tatsächliche Abschlussdatum des Vorgängers, unabhängig davon, ob für die Aufgabe ein tatsächliches Startdatum vorliegt oder nicht.
+   * Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat, ist das Übergabedatum das geplante Startdatum der Aufgabe, unabhängig davon, ob es einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
+
 
 ## Suchen Sie das Übermittlungsdatum.
 

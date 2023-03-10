@@ -6,9 +6,9 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '7664'
+source-wordcount: '7666'
 ht-degree: 2%
 
 ---
@@ -786,7 +786,7 @@ So bearbeiten Sie Projekte stapelweise:
 
 <div class="preview">
 
-### Bearbeiten von Projekten in der Vorschau-Umgebung
+### Bearbeiten von Projekten im Buk in der Vorschau-Umgebung
 
 Beachten Sie beim Massenbearbeitung von Projekten in der Vorschau-Umgebung Folgendes:
 
