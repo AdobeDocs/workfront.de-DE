@@ -4,9 +4,9 @@ description: 23.2 Projektverbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Neben einem aktualisierten Erscheinungsbild der Benutzeroberfläche sind im Feld
 * Angabe, welche benutzerdefinierten Formulare bereits an die ausgewählten Projekte angehängt sind und wie viele Projekte bereits über ein bestimmtes Formular verfügen.
 
 * Die Kommentarfunktion wurde aus dem Feld Projekte bearbeiten entfernt.
+
+* Die Option Scorecards neu berechnen wurde bei der Massenbearbeitung von Projekten entfernt.
 
 Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
