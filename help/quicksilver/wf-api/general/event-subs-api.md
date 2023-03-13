@@ -6,9 +6,9 @@ description: Ereignisabonnement-API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Verwenden Sie beim Abfragen von Workfronts HTTP die GET-Methode. Es gibt zwei M�
 
 ### Abonnements für alle Ereignisse abfragen
 
-Sie können alle Ereignisabonnements für einen Kunden abfragen, wie im apiKey -Wert angegeben. Sie können auch die folgenden Optionen verwenden, um die Antwort zu verwalten:
+Sie können alle Abonnements für Ereignisse eines Kunden abfragen oder die Antwort mit den folgenden Optionen verwalten. Sie können auch die folgenden Optionen verwenden, um die Antwort zu verwalten:
 
 * **page**: Abfrageparameter , um die Anzahl der zurückzugebenden Seiten anzugeben. Der Standardwert ist 1.
 * **limit**: Abfrageparameter , um die Anzahl der pro Seite zurückzugebenden Ergebnisse anzugeben. Der Standardwert ist 100 mit einer maximalen Anzahl von 1000.
