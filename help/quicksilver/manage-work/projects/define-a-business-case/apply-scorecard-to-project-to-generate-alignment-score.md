@@ -5,14 +5,16 @@ description: Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
 # Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den zuvor festgelegten Kriterien eines Portfolios übereinstimmt. Eine Scorecard spiegelt häufig die Mission, Werte und strategischen Ziele einer Organisation wider.
 

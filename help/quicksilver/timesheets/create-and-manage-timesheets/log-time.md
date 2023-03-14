@@ -6,9 +6,9 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2992'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,9 @@ Weitere Informationen zu den Stunden, die Sie in Workfront anmelden können, fin
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Review or higher</p> 
-   <p><b>NOTE</b></p>
-
-   <ul><li>Reviewers can log only General Hours in a timesheet</li>
-   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,11 +62,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> 
-   <p><b>NOTIZ</b></p>
-
-<ul><li>Überprüfer können in einem Zeitblatt nur die allgemeinen Zeiten protokollieren</li>
-   <li>Sie müssen über eine Arbeits-Lizenz oder eine höhere Lizenz verfügen, um Stunden für ein Projekt, eine Aufgabe oder ein Problem zu protokollieren</li></ul>
+   <td> <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
+   <li> Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich der Berechtigungen für "Log Hours"</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Tragen Sie die Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, bei oder höher ein, einschließlich der Berechtigungen für "Log Hours".</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
