@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Dadurch wird die Zielliste geöffnet.
 1. Suchen Sie das Ziel, dem Sie Kommentare hinzufügen möchten, und klicken Sie dann auf seinen Namen, um die Zielseite zu öffnen.
 1. Klicken  **Updates** im linken Bereich.
 1. Klicken Sie auf **Kommentare** in der linken oberen Ecke des Bereichs Updates.
-1. Beginnen Sie mit der Eingabe eines Kommentars im **Kommentar schreiben** ankreuzen.
+1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Dadurch wird die Zielliste geöffnet.
    >
    >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
-1. (Optional) Im **Benachrichtigen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
+1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. Klicken **Einsenden**.
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 5 bis 7 aus. <!--insure this stays accurate-->
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png) , um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
