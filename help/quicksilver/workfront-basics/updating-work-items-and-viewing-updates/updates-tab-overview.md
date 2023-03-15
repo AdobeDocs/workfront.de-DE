@@ -7,16 +7,22 @@ description: Der Tab Updates enthält bis zu 200 der letzten Updates, die in den
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # Übersicht über die Updates-Registerkarte
 
-Der Tab Updates enthält bis zu 200 der letzten Updates, die in den letzten 90 Tagen vorgenommen wurden. Sie können auf Aktualisierungen der folgenden Objekte antworten:
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+Der Tab Updates enthält bis zu 200 der letzten Updates, die in den letzten 90 Tagen vorgenommen wurden.
+
+Sie können Kommentare abgeben und auf Aktualisierungen zu folgenden Objekten antworten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ Der Tab Updates enthält bis zu 200 der letzten Updates, die in den letzten 90 T
   <tr> 
    <td> 
     <ul> 
+     <li>Dokumente</li> 
+     <li>Ziele</li> 
+     <li>Probleme</li> 
+     <li>Wiederholungen</li> 
      <li>Projekte</li> 
-     <li>Portfolios</li> 
      <li>Programme</li> 
-     <li>Vorlagen</li> 
-     <li>Vorlagenaufgaben</li> 
-     <li>Aufgaben</li> 
+     <li>Portfolios</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Probleme</li> 
-     <li>Wiederholungen</li> 
      <li>Storys</li> 
-     <li>Benutzer</li> 
-     <li>Dokumente</li> 
+     <li>Aufgaben</li> 
+     <li>Vorlagen</li> 
+     <li>Vorlagenaufgaben</li> 
      <li>Arbeitszeittabellen</li> 
+     <li>Benutzende</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +69,7 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>Projekt</td> 
   </tr> 
   <tr> 
@@ -100,6 +107,11 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
   <tr> 
    <td>Wiederholung</td> 
    <td>Team</td> 
+  </tr>
+
+<tr> 
+   <td>Ziele</td> 
+   <td>Ergebnis, Aktivität</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
 >[!NOTE]
 >
 >Antworten, die zu Systemaktualisierungen hinzugefügt werden, werden nicht auf das übergeordnete Objekt aktualisiert. Nur direkte Antworten auf ein untergeordnetes Objekt und Antworten, die zu vorhandenen Updates hinzugefügt werden, werden zu übergeordneten Objekten aggregiert.
+>
+>Informationen zur Objekthierarchie in Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Informationen zur Objekthierarchie in Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## Einschränkungen der Registerkarte Aktualisierungen
 
@@ -116,7 +131,7 @@ Informationen zur Objekthierarchie in Adobe Workfront finden Sie unter [Objekte 
 
 Sie können keine Aktualisierungen für Teams vornehmen. Auf der Registerkarte Updates für Teams werden die Aktualisierungen für die folgenden Objekte angezeigt:
 
-* Benutzer
+* Benutzende
 * Arbeitszeittabellen
 * Storys
 * Wiederholungen

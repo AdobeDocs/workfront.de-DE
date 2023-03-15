@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Problem) hinzufügen, um über den Fortschritt des Objekts zu kommunizieren. Benutzer, die dem Objekt zugewiesen sind oder es abonniert haben, können Ihre Aktualisierung anzeigen. Sie können Benutzer auch mit Tags versehen, um sie auf die Aktualisierung aufmerksam zu machen.
+In Workfront können Sie mehreren Objekten Kommentare hinzufügen. Weitere Informationen finden Sie unter [Übersicht über die Updates-Registerkarte](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Sie können einem Objekt aus den folgenden Bereichen von Workfront Aktualisierungen hinzufügen:
+Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Problem) hinzufügen, um über den Fortschritt des Objekts zu kommunizieren, und auch Kommentare dazu abgeben. Benutzer, die dem Objekt zugewiesen sind oder es abonniert haben, können Ihre Aktualisierung anzeigen. Sie können Benutzer auch mit Tags versehen, um sie auf die Aktualisierung aufmerksam zu machen.
+
+Die Informationen auf dieser Seite beziehen sich auf die Aktualisierung von Arbeiten für Projekte, Aufgaben oder Probleme. Informationen zum Hinzufügen von Kommentaren und Aktualisierungen zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+Sie können Projekte, Aufgaben und Probleme in den folgenden Bereichen von Workfront aktualisieren:
 
 * Von einem Workfront-Objekt im Abschnitt Updates
 * Im Startbereich (für Aufgaben und Probleme)
