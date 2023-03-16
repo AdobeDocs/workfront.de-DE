@@ -6,7 +6,7 @@ description: Sie können Benutzern, Rollen oder Teams Aufgaben zuweisen, um anzu
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem dem Benutzer zugewiesen (die Rolle wird nach dem Zufallsprinzip ausgewählt, wenn mehrere Übereinstimmungen vorliegen), zusammen mit allen zusätzlichen zugewiesenen Rollen</li>
       <li>Wenn mindestens eine Auftragsrolle zugewiesen ist und keine Übereinstimmung mit den Benutzerrollen vorliegt, wird die Aufgabe bzw. das Problem sowohl der Rolle bzw. den Rollen als auch dem Benutzer zugewiesen.</li>
      </ul>
-   <p>Informationen über die primäre Rolle eines Benutzers und andere Rollen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerprofil bearbeiten</a>.</p>
-   </td>
-  </tr>
+   <p>Informationen über die primäre Rolle eines Benutzers und andere Rollen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Benutzerprofil bearbeiten</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

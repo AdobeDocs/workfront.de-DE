@@ -6,9 +6,9 @@ description: Mit dem Adobe Workfront Workload Balancer können Sie Benutzern Arb
 author: Alina
 feature: Resource Management
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs für ein Team oder im Ressourcenbereich </p>
-   <p>Arbeiten, wenn Sie den Lastenausgleich eines Projekts verwenden </p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
   <tr> 

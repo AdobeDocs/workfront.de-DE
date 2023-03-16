@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen 
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
 
    Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wurde und das Problem im Konvertierungsprozess gelöscht wurde, ist das Bedienfeld &quot;Zusammenfassung&quot;leer. Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Aus dem **Filtersymbol** ![](assets/filter-nwepng.png) Wählen Sie oben rechts in der Liste einen der folgenden Filter aus:
+1. Aus dem **Filtersymbol** ![](assets/filter-nwepng.png) Wählen Sie oben rechts in der Liste einen der in der folgenden Tabelle aufgeführten Filter aus.
+
+   >[!TIP]
+   >
+   >Filter im Bereich Anforderungen können nicht geändert werden. Darüber hinaus gibt es keine Optionen, um die Ansicht des Anforderungsbereichs zu ändern oder zu ändern.
 
    <table style="table-layout:auto"> 
     <col> 

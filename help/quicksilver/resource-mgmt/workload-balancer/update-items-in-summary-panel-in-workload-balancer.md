@@ -6,9 +6,9 @@ description: Sie können das Bedienfeld "Zusammenfassung"im Arbeitslastausgleich
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs für ein Team oder im Ressourcenbereich </p>
-   <p>Arbeiten, wenn Sie den Lastenausgleich eines Projekts verwenden </p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p> 
  </p> </td> 
   </tr> 
   <tr> 

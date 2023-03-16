@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen ve
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs für ein Team oder im Ressourcenbereich </p>
-   <p>Arbeiten, wenn Sie den Lastenausgleich eines Projekts verwenden </p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Filter Standard zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Sie können eine Kopie dieses Filters bearbeiten.
 
-   Wenn Sie auf [!UICONTROL Lastenausgleich] aus einem Projekt: &quot;[!UICONTROL Die Arbeitselemente dieses Projekts]Der Filter wurde möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie auf [!UICONTROL Lastenausgleich] aus einem Projekt[!UICONTROL Die Arbeitselemente dieses Projekts]Der Filter wurde möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
    Standardmäßig wird die [!UICONTROL Lastenausgleich] eines Projekts zeigt alle Arbeitselemente an, die allen Benutzern des Projekts zugewiesen sind.
 

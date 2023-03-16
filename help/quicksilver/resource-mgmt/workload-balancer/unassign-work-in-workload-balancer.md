@@ -6,9 +6,9 @@ description: Sie können die Zuweisung von Benutzern zu Arbeitselementen im Bere
 author: Alina
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs für ein Team oder im Ressourcenbereich </p>
-   <p>Arbeiten, wenn Sie den Lastenausgleich eines Projekts verwenden </p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
 
 </td> 
   </tr> 

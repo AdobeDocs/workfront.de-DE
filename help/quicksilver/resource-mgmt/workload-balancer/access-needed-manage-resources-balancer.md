@@ -6,10 +6,10 @@ description: Ohne korrekten Zugriff oder ohne entsprechende Berechtigungen könn
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan, den Ihr U
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Plan</td> 
+   <td role="rowheader"><p>Workfront-Plan</p></td> 
    <td> <p>Bereiche, in denen Sie auf den Lastenausgleich zugreifen können</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich anzuzeigen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Planen Sie die Anzeige des Lastenausgleichs im Bereich Ressourcen .</p>
+   <p>Arbeiten zum Anzeigen des Workload-Balancers eines Teams oder Projekts</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -83,8 +84,8 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich zu verwalt
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> 
-   <p>Arbeiten, Verwalten von Ressourcen im Arbeitslastausgleich eines Projekts</p>
+   <td> <p>Planen Sie die Verwaltung von Zuweisungen im Arbeitslastausgleich im Bereich "Ressourcen".</p>
+   <p>Arbeiten zum Verwalten von Zuweisungen im Arbeitslastausgleich eines Teams oder Projekts</p>
    </td> 
   </tr> 
   <tr> 

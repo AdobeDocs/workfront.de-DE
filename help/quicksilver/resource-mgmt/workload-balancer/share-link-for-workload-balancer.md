@@ -6,9 +6,9 @@ description: Sie können den Lastenausgleich für andere Benutzer freigeben, fü
 author: Alina
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan oder höher</p> </td> 
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 

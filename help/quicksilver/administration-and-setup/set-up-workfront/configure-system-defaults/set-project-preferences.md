@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
        <ul> 
         <li>Status von [!UICONTROL Aktuell]</li> 
         <li>In den letzten drei Monaten wurde ein Update durchgeführt</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Wenn sich der Umfang eines Projekts ändert</strong>: Wählen Sie diese Option aus, um die Projektzeitpläne sofort bei einer Änderung des Projektumfangs neu zu berechnen. Weitere Informationen zu einer Änderung des Projektumfangs finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projektzeitpläne neu berechnen</a>.</p> </li> 
+        <li>Sie hatten einen Aktualisierungstyp von einem der folgenden:</li>
+        <ul>
+        <li>Automatisch UND bei Änderung</li>
+        <li>Nur Änderung</li>
+        <li>Nur automatisch</li> 
+      </ul>       
+    <b>TIPP</b>
+    <p>Projekte mit dem Aktualisierungstyp "Nur manuell"sind von dieser Einstellung nicht betroffen.</p>
+    <li> <p><strong>Wenn sich der Umfang eines Projekts ändert</strong>: Wählen Sie diese Option aus, um die Projektzeitpläne sofort bei einer Änderung des Projektumfangs neu zu berechnen. Weitere Informationen zu einer Änderung des Projektumfangs finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projektzeitpläne neu berechnen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
