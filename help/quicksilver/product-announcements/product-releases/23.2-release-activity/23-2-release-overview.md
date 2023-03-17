@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen zu Foren-Workflows aus Listen und Berichten</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
                         <p>Sie können einem Workstream in Workfront-Pinnwänden jetzt direkt aus einer Listen- oder Berichtansicht vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zum Workflow hinzufügen, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -170,7 +170,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen zu Workfront-Pinnwänden aus Listen und Berichten</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zur Workfront-Pinnwand</a></p>
                         <p>Sie können einer Workfront-Pinnwand jetzt direkt aus einer Listen- oder Berichtansicht heraus vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zur Pinnwand hinzufügen, werden zu verbundenen Karten.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>

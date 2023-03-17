@@ -4,9 +4,9 @@ description: 23.2 Agile Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workfl
 
 Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
 
-## Hinzufügen von Aufgaben und Problemen zu Foren-Workflows aus Listen und Berichten
+## Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste
 
 Sie können einem Workstream in Workfront-Pinnwänden jetzt direkt aus einer Listen- oder Berichtansicht vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zum Workflow hinzufügen, werden der Kartenliste als ungeplante Karten hinzugefügt.
+
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Hinzufügen benutzerdefinierter Felder zu Karten auf einer Pinnwand
+
+Sie können jetzt benutzerdefinierte Felder auf Adobe Workfront-Pinnwänden einbeziehen. Das Feld muss bereits in Workfront erstellt worden sein. Sie können keine neuen benutzerdefinierten Felder in einer Pinnwand entwerfen und erstellen.
+
+Wie die Standardfelder können Sie auch das benutzerdefinierte Feld in der Vollansicht einer Karte und die gekürzte Ansicht auf der Pinnwand anzeigen.
+
+Alle Daten aus dem benutzerdefinierten Feld auf der Karte sind schreibgeschützt.
+
+Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zur Workfront-Pinnwand
+
+Sie können einer Workfront-Pinnwand jetzt direkt aus einer Listen- oder Berichtansicht heraus vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zur Pinnwand hinzufügen, werden zu verbundenen Karten.
+
+Außerdem ist jetzt das Feld Pinnwände verfügbar, um Listen und Berichten für Aufgaben oder Probleme hinzuzufügen. In diesem Feld werden alle Pinnwände angezeigt, denen eine Aufgabe oder ein Problem hinzugefügt wurde.
 
 Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Kart
 
 Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Hinzufügen von Aufgaben und Problemen zu Workfront-Pinnwänden aus Listen und Berichten
-
-Sie können einer Workfront-Pinnwand jetzt direkt aus einer Listen- oder Berichtansicht heraus vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zur Pinnwand hinzufügen, werden zu verbundenen Karten.
-
-Außerdem ist jetzt das Feld Pinnwände verfügbar, um Listen und Berichten für Aufgaben oder Probleme hinzuzufügen. In diesem Feld werden alle Pinnwände angezeigt, denen eine Aufgabe oder ein Problem hinzugefügt wurde.
-
-Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Anzeige von Feldern auf einer Karte anpassen
 
