@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -114,44 +114,60 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                         </p>
                     </td>
                 </tr>
-              <!-- <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In Adobe Workfront-Pinnwänden verfügbare Iterationsfunktionen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglichen die Verwendung der agilen Scrum-Funktion. Zu diesen Funktionen gehören:
+                        <ul>
+                        <li>Workflows für die Gruppierung von Foren, die sich auf dasselbe Team beziehen, und die Zusammenarbeit an den Arbeiten</li>
+                        <li>Eine Liste der Karten oder des Arbeitsrückstands mit der Option, Quellen zu verwenden, um Karten mit Workfront-Aufgaben und -Problemen zu verbinden</li>
+                        <li>Iterationsplanungs- und Iterationsprozessboards</li>
+                        </ul>
+                        </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>Vorschau-Version: 17. März 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Produktionsversion: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen zu Foren-Workflows aus Listen und Berichten</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können einem Workstream in Workfront-Pinnwänden jetzt direkt aus einer Listen- oder Berichtansicht vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zum Workflow hinzufügen, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 17. März 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: Mit Version 23.2</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
-                        <ul>
-                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
-                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
-                        <li>Iteration planning and iteration process boards</li>
-                        </ul>
-                        </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen benutzerdefinierter Felder zu Karten auf einer Pinnwand</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt benutzerdefinierte Felder auf Adobe Workfront-Pinnwänden einbeziehen. Das Feld muss bereits in Workfront erstellt worden sein. Sie können keine neuen benutzerdefinierten Felder in einer Pinnwand entwerfen und erstellen.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>Vorschau-Version: 17. März 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Produktionsversion: Mit Version 23.2</p>
                             </li>
                         </ul>
                     </td>
-                </tr> -->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen zu Workfront-Pinnwänden aus Listen und Berichten</a></p>

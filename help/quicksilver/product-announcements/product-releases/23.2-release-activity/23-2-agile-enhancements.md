@@ -4,9 +4,9 @@ description: 23.2 Agile Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## In Adobe Workfront-Pinnwänden verfügbare Iterationsfunktionen
 
-## Iteration functionality available in Adobe Workfront Boards
+Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglichen die Verwendung der agilen Scrum-Funktion. Zu diesen Funktionen gehören:
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Workflows für die Gruppierung von Foren, die sich auf dasselbe Team beziehen, und die Zusammenarbeit an den Arbeiten
+* Eine Liste der Karten oder des Arbeitsrückstands mit der Option, Quellen zu verwenden, um Karten mit Workfront-Aufgaben und -Problemen zu verbinden
+* Iterationsplanungs- und Iterationsprozessboards
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workflows können Sie Daten auf unterschiedliche Weise visualisieren. Sie können Elemente auf Karten in einer Liste, auf einer Pinnwand oder in einer Iteration anzeigen. Karten in einem Workstream können auch auf mehreren Pinnwänden freigegeben werden. Sie können Workflows einfach mit Karten und Pinnwänden in einem Workflow erleichtern.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Hinzufügen von Aufgaben und Problemen zu Foren-Workflows aus Listen und Berichten
 
-## Add tasks and issues to Boards workstreams from lists and reports
+Sie können einem Workstream in Workfront-Pinnwänden jetzt direkt aus einer Listen- oder Berichtansicht vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zum Workflow hinzufügen, werden der Kartenliste als ungeplante Karten hinzugefügt.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Stunden auf verbundenen Karten auf einer Pinnwand protokollieren
 
@@ -50,6 +47,14 @@ Sie können jetzt Stunden auf verbundenen Karten wie bei einer Aufgabe oder eine
 Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen **Stunden** im Bereich Konfigurieren unter Karten.
 
 Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Hinzufügen von Aufgaben und Problemen zu Workfront-Pinnwänden aus Listen und Berichten
+
+Sie können einer Workfront-Pinnwand jetzt direkt aus einer Listen- oder Berichtansicht heraus vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zur Pinnwand hinzufügen, werden zu verbundenen Karten.
+
+Außerdem ist jetzt das Feld Pinnwände verfügbar, um Listen und Berichten für Aufgaben oder Probleme hinzuzufügen. In diesem Feld werden alle Pinnwände angezeigt, denen eine Aufgabe oder ein Problem hinzugefügt wurde.
+
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Anzeige von Feldern auf einer Karte anpassen
 
