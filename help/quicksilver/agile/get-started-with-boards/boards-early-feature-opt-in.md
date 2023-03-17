@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,10 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   <tr>
    <td>Login-Stunden auf verbundenen Karten</td>
    <td>Teilweise freigegeben</td>
+  </tr>
+  <tr>
+   <td>Benutzerdefinierte Felder zu verbundenen Karten hinzufügen</td>
+   <td>Teilweise freigegeben (in der Vorschau verfügbar)</td>
   </tr>
  </tbody> 
 </table>
