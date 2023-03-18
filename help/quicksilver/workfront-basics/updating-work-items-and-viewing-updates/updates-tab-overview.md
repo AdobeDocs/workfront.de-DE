@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Übersicht über die Updates-Registerkarte
-description: Der Tab Updates enthält bis zu 200 der letzten Updates, die in den letzten 90 Tagen vorgenommen wurden.
+title: Übersicht über den Aktualisierungsabschnitt
+description: Im Abschnitt Updates werden bis zu 200 der letzten Aktualisierungen angezeigt, die in den letzten 90 Tagen vorgenommen wurden.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# Übersicht über die Updates-Registerkarte
+# Übersicht über den Aktualisierungsabschnitt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-Der Tab Updates enthält bis zu 200 der letzten Updates, die in den letzten 90 Tagen vorgenommen wurden.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-Sie können Kommentare abgeben und auf Aktualisierungen zu folgenden Objekten antworten:
+-->
+
+Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
+
+## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+Im Abschnitt Updates werden die folgenden Informationen angezeigt:
+
+* Stellungnahmen von Verwendern und Antworten auf diese Stellungnahmen.
+* Systemaktualisierungen, bei denen es sich um Informationsmeldungen handelt, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ Sie können Kommentare abgeben und auf Aktualisierungen zu folgenden Objekten an
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
-Wie in der folgenden Tabelle dargestellt, erscheinen Antworten auf Aktualisierungen bestimmter Objekte auch auf der Registerkarte Updates von Objekten mit höherem Rang.
+Wie in der folgenden Tabelle dargestellt, erscheinen Antworten auf Aktualisierungen bestimmter Objekte auch im Abschnitt Updates von Objekten mit höherem Rang.
 
-Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die Aktualisierung für die Aufgabe auf der Registerkarte Updates und für das Projekt, das die Aufgabe enthält, auf der Registerkarte Updates angezeigt.
+Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die Aktualisierung im Abschnitt Updates für die Aufgabe und im Abschnitt Updates für das Projekt, das die Aufgabe enthält, angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Einschränkungen der Registerkarte Aktualisierungen
+## Einschränkungen des Abschnitts Updates
 
 ### Einschränkungen für Benutzer und Teams
 
-Sie können keine Aktualisierungen für Teams vornehmen. Auf der Registerkarte Updates für Teams werden die Aktualisierungen für die folgenden Objekte angezeigt:
+Sie können keine Aktualisierungen für Teams vornehmen. Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
 
 * Benutzende
 * Arbeitszeittabellen
 * Storys
 * Wiederholungen
 
-Auf der Registerkarte Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
+Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
 
 Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

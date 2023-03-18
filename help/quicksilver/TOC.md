@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -784,7 +784,7 @@ ht-degree: 1%
          * [Verwenden des Bereichs My Updates](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Aktualisieren von Arbeitselementen und Anzeigen von Updates {#update-work-items-view-updates}
       * [Aktualisieren von Arbeitselementen und Anzeigen von Updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-      * [Übersicht über die Updates-Registerkarte](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+      * [Übersicht über den Aktualisierungsabschnitt](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Update der Arbeit](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Zeichenbeschränkungen in Feldern](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
       * [Antworten auf Aktualisierungen](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Gruppen auf einer Pinnwand verwenden](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Kartenfalloff konfigurieren](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Iterationsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban in einem agilen Team {#kanban}
       * [Kanban in einem agilen Team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban-Übersicht](agile/use-kanban-in-an-agile-team/kanban-overview.md)
