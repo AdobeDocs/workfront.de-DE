@@ -6,10 +6,10 @@ title: Workflows verwalten
 description: Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 2%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit. Workflows können verschiedene Arten von Pinnwänden enthalten, die aus Vorlagen erstellt werden. <span class="preview">und eine Kartenliste mit Arbeitselementen. In einem Arbeitsablauf können Sie die Arbeit in Iterationen oder Sprints verfolgen.</span>
 
-<span class="preview">Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) und [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) und [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Workflows werden im Dashboard zusammen mit den einzelnen Foren angezeigt, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind. Weitere Informationen zum Dashboard für Pinnwände finden Sie unter [Verwenden des Dashboards-Dashboards](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Sie können auf einen beliebigen Pinnwandnamen im Dashboard klicken, um ihn zu öffnen.
 
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
 | Kanban-Board | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Ansauspalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr** Menü] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Rückblickende Pinnwand | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Was ist gut gelaufen? Was könnte verbessert werden? Wer soll gefeiert werden? Wie können wir unsere Verfahren beschleunigen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
-| <span class="preview">Iteration</span> | <span class="preview">Dies ist die Pinnwand, mit der eine Iteration definiert und ausgeführt wird. <p>Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr**] in einer Spalte auswählen [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| <span class="preview">Iterationsprozess</span> | <span class="preview">Dies ist die Pinnwand, mit der eine Iteration definiert und ausgeführt wird. <p>Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr**] in einer Spalte auswählen [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
 
 Weitere Informationen zum Einrichten der Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -111,7 +111,7 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 
    Die Gesamtanzahl der Karten, die Anzahl der spitze Karten und die Anzahl der Iterationen werden im Bereich Kartenliste angezeigt. Klicken [!UICONTROL **Liste anzeigen**] , um die Liste zu öffnen und Karten hinzuzufügen. Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Wenn eine Iteration definiert wurde, werden ihr Startdatum, die Anzahl der Karten und die Anzahl der Punkte angezeigt. Klicken [!UICONTROL **Iterationskarte anzeigen**] , um die Pinnwand zu öffnen. Weitere Informationen finden Sie unter [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Wenn eine Iteration definiert wurde, werden ihr Startdatum, die Anzahl der Karten und die Anzahl der Punkte angezeigt. Klicken [!UICONTROL **Iterationskarte anzeigen**] , um die Pinnwand zu öffnen. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Klicken [!UICONTROL **Quelle hinzufügen**] , um eine Quelle zum Importieren von Karten in den Workflow zu definieren. Derzeit ist die einzige verfügbare Quelle [!DNL Adobe Workfront].
 1. Fügen Sie Filter hinzu, um Aufgaben und Probleme aus Workfront als Karten zu importieren.

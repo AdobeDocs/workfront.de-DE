@@ -7,9 +7,9 @@ description: Wenn Sie eine Pinnwand mit Ad-hoc- und vernetzten Karten erstellen,
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [Iterationsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

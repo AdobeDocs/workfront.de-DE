@@ -6,9 +6,9 @@ title: Kartenliste verwenden
 description: Sie können eine Kartenliste in einem Workflow erstellen und die Karten zu Iterationen hinzufügen.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Klicken Sie auf das X, um die Suche zu löschen.
 
 >[!NOTE]
 >
->Sie müssen eine Iteration erstellen, bevor Sie Karten hinzufügen können. Weitere Informationen finden Sie unter [Iteration erstellen](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>Sie müssen eine Iteration erstellen, bevor Sie Karten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Rufen Sie die Kartenliste für den Workstream auf.
 1. Wählen Sie die [!UICONTROL **Iterationsansicht**] um zu sehen, welche Karten einer Iteration zugewiesen und welche nicht geplant sind.
