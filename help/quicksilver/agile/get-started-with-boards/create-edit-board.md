@@ -6,10 +6,10 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '524'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten.
 
-Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Informationen zum Hinzufügen einer Pinnwand zu einem Workstream finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Zugriffsanforderungen
 
@@ -43,11 +43,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Pinnwand hinzufügen]** im [!UICONTROL Pinnwände] Bereich. Informationen zum Hinzufügen einer Pinnwand zu einer Sammlung finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Um eine eigenständige Pinnwand zu erstellen, klicken Sie auf **[!UICONTROL Pinnwand hinzufügen]** im [!UICONTROL Pinnwände] Bereich. Informationen zum Hinzufügen einer Pinnwand zu einem Workstream finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
-   > Sammlungen sind nur über die frühe Funktion verfügbar. [!DNL Workfront] [!UICONTROL Pinnwände].
+   >Workflows sind in der Vorschau-Umgebung und in der Produktion über die frühe Funktion verfügbar, für die [!UICONTROL [!DNL Workfront] Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Wählen Sie eine Vorlage für die Pinnwand aus.
 
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   > Pinnwandvorlagen sind nur über das Feature Opt-in für [!DNL Workfront] [!UICONTROL Pinnwände].
+   > Pinnwandvorlagen sind nur über das Feature Opt-in für [!DNL Workfront] [!UICONTROL Pinnwände]. Andernfalls sind Sie auf die Basis-Pinnwand beschränkt.
 
 1. Geben Sie einen Namen für die Pinnwand im **[!UICONTROL Board]** und drücken Sie die Eingabetaste.
 1. Konfigurieren Sie die Pinnwand nach Bedarf.

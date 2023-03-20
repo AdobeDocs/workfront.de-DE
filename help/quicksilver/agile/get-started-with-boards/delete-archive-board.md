@@ -6,20 +6,21 @@ title: Pinnwand löschen oder archivieren
 description: Sie können eine Pinnwand in Workfront löschen oder archivieren. Durch das Löschen einer Pinnwand wird sie dauerhaft aus Workfront entfernt, während eine Pinnwand archiviert wird, bleiben alle Karten erhalten und können zu einem späteren Zeitpunkt wiederhergestellt werden.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 # Pinnwand löschen oder archivieren
 
-Sie können eine Pinnwand löschen oder archivieren in [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen. Diese Optionen gelten sowohl für eigenständige Pinnwände als auch für Pinnwände, die Teil von Sammlungen sind.
+Sie können eine Pinnwand löschen oder archivieren in [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen. Diese Optionen gelten sowohl für eigenständige Pinnwände als auch für Pinnwände, die Teil von Workflows sind.
 
 >[!NOTE]
 >
->Sammlungen sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Die vorherige Version von Workflows, so genannte Sammlungen, ist nur über die frühe Funktion verfügbar, für die [!UICONTROL [!DNL Workfront] Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Workflows stehen allen Benutzern in der Vorschauumgebung zur Verfügung.
 
 ## Zugriffsanforderungen
 

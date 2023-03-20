@@ -6,9 +6,9 @@ description: Sie können eine Karte in eine beliebige Spalte auf der Pinnwand ve
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -74,6 +74,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![Mehr Menü](assets/boards-moremenu-350x329.png)
 
 ## Karte kopieren
+
+Beim Kopieren einer Ad-hoc-Karte werden alle Felder auf der Karte dupliziert, einschließlich der Elemente der Checkliste.
 
 >[!NOTE]
 >
