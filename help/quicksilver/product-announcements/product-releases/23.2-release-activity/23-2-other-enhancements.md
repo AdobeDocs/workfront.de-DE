@@ -4,9 +4,9 @@ description: 23.2 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Mit dieser Neugestaltung haben wir das Hinzufügen von Kommentaren zu Systemaktu
 In zukünftigen Versionen werden weitere Funktionen hinzugefügt, da diese Verbesserungen auch weiterhin zu anderen Objekten hinzugefügt werden.
 
 Informationen zu den neuen Kommentarfunktionen finden Sie unter [Einheitliches Kommentierungserlebnis](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportieren von Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront für XD
 
