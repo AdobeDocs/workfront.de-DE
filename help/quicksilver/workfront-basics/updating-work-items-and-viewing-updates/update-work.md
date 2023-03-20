@@ -6,7 +6,7 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 1%
@@ -218,15 +218,16 @@ Der/Die/Das
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. Klicken **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
-1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
-Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
+1. <span class="preview">(Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.</span>
+1. <span class="preview">Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer. </span>
+
+   <span class="preview">Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt. </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+   >   <span class="preview">Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.</span>
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 4 bis 7 aus. <!--(**************insure this stays accurate***********)-->. Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png). Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Bedingt und Optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
