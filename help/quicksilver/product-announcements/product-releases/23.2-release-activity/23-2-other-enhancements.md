@@ -4,9 +4,9 @@ description: 23.2 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,26 @@ Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich
 
 Diese neue Erfahrung wird schließlich dazu führen, dass Kommentare in Adobe Workfront und darüber hinaus in der gesamten Adobe Experience Cloud vereinheitlicht werden.
 
-Im Rahmen dieser Aktualisierung führen wir die neue Kommentarerfahrung zum Abschnitt Aktualisierungen von Problemen ein. In der aktuellen Version steht jedem Benutzer ein Umschalter zur Verfügung, um dieses Erlebnis in seiner eigenen Umgebung im Beta-Modus zu aktivieren. Nach der Annahme der Beta-Vereinbarung wird der Abschnitt &quot;Updates&quot;angezeigt, in dem sie ihre Arbeit in diesem Bereich weiterhin wie bisher verwalten können.
+Im Rahmen dieser Aktualisierung führen wir die neue Kommentarerfahrung zum Abschnitt Aktualisierungen von Problemen ein. In der aktuellen Version steht jedem Benutzer ein Umschalter zur Verfügung, um dieses Erlebnis in seiner eigenen Umgebung im Beta-Modus zu aktivieren. Nach der Annahme der Beta-Vereinbarung wird der Abschnitt &quot;Updates&quot;angezeigt, in dem sie ihre Arbeit in diesem Abschnitt weiterhin wie bisher verwalten können.
+
 Ähnliche Funktionen wurden mit Version 23.1 für Workfront Goals veröffentlicht.
 
 Einige der Funktionen dieses Updates sind:
 
 * Separate Registerkarten für Kommentare und Systemaktualisierungen
+
 * Bessere Leistung
 
-In zukünftigen Versionen werden weitere Funktionen hinzugefügt, da die Funktionalität auch anderen Objekten hinzugefügt wird.
+* Echtzeitanzeige für neue Kommentare.
+   >[!NOTE]
+   >
+   >Die Veröffentlichung des Echtzeitindikators wurde verzögert.
+
+* Bearbeiten von Kommentaren nach deren Übermittlung.
+
+Mit dieser Neugestaltung haben wir das Hinzufügen von Kommentaren zu Systemaktualisierungen entfernt.
+
+In zukünftigen Versionen werden weitere Funktionen hinzugefügt, da diese Verbesserungen auch weiterhin zu anderen Objekten hinzugefügt werden.
 
 Informationen zu den neuen Kommentarfunktionen finden Sie unter [Einheitliches Kommentierungserlebnis](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
