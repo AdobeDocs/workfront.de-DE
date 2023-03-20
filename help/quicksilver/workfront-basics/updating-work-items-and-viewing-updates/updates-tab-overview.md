@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Wir gestalten derzeit den Abschnitt &quot;Aktualisierungen&quot;eines Objekts neu. Sie können auf das neue Design zugreifen, indem Sie die Beta-Kommentarfunktion aktivieren.
+>Wir gestalten derzeit den Abschnitt &quot;Aktualisierungen&quot;eines Objekts neu.
 >
->Derzeit ist die Beta-Version für <span class="preview">issues</span>.
+>Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Der Zugriff auf das neue Design erfolgt über die folgenden Objekte und in den folgenden Umgebungen:
+>
+>* <span class="preview">Wenn Sie das kommentierende Beta-Erlebnis für die folgenden Objekte aktivieren:</span>
+   >
+   >     * <span class="preview">Probleme</span>
+
+   >     
+   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
+   >
+   >     * <span class="preview">Startseite</span>
+   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
+   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
+>
+>* Standardmäßig als aktuelles Kommentarerlebnis für die folgenden Objekte:
+   >
+   >     * Ziele
+
+   >
+   >     Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
@@ -79,9 +98,9 @@ Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des Beta-Kommentars angezeigt:
+Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
-* **Updates**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+* **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systemaktivität**: Zeigt Systemaktualisierungen an, d. h. Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Aktuell können Sie mit der Beta-Kommentarfunktion zu den folgenden Objekten Kommentare abgeben und auf Aktualisierungen antworten:
@@ -102,14 +121,6 @@ Aktuell können Sie mit der Beta-Kommentarfunktion zu den folgenden Objekten Kom
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->Das kommentierende Erlebnis Beta ist das aktuelle Standarderlebnis für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals.
->
->Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 

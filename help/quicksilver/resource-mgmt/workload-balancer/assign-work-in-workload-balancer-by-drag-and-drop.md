@@ -6,7 +6,7 @@ description: Sie können Arbeitselemente mithilfe des Adobe Workfront Workload B
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -35,8 +35,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie die Zuweisung von Arbeiten im Arbeitslastausgleich im Bereich "Ressourcen".</p>
-   <p>Arbeiten zum Zuweisen von Arbeiten im Arbeitslastausgleich eines Teams oder Projekts</p>
+   <td> <p>Planen, um Arbeit im Arbeitslastausgleich im Ressourcenbereich zuzuweisen</p>
+   <p>Arbeit, um Arbeit im Arbeitslastausgleich eines Teams oder Projekts zuzuweisen</p>
  </td> 
   </tr> 
   <tr> 

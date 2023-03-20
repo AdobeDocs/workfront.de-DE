@@ -6,9 +6,9 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -17,22 +17,28 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
+>Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>Sie können auf das neue Design für die folgenden Objekte zugreifen:
+> * <span class="preview">Probleme beim Aktivieren der Beta-Kommentarfunktion. </span>
+   >
+   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
+   >
+   >     * <span class="preview">Startseite</span>
+   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
+   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
+>
+> * Ziele
+   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates für das Objekt angezeigt.
 
@@ -70,11 +76,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Antworten auf ein Update oder eine Antwort
 
-<!--
-Replying to a comment or reply differs depending on which experience and which object you select.
+Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erlebnis und welches Objekt Sie auswählen.
 
-### Reply to an update or reply in the current Updates section
--->
+### Antworten auf ein Update oder eine Antwort im Abschnitt &quot;Aktuelle Updates&quot;
+
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
 1. Im **Updates** -Registerkarte für das Objekt, suchen Sie nach der Aktualisierung oder Antwort, auf die Sie antworten möchten.
 
@@ -92,25 +97,25 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Optional) Verwenden Sie Formatierungen, Emojis, Include-Links oder Bilder, wie im Artikel &quot;Verwenden von Rich Text in einem Workfront-Update&quot;beschrieben. [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klicken **Antwort** , um die Antwort zu speichern.
 
-<!--
-
 <div class="preview">
-### Reply to a comment when using the commenting Beta experience
 
-1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
-1. Click **Reply**. 
+### Antworten auf einen Kommentar bei Verwendung des Beta-Kommentars
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
+1. Klicken **Updates** und klicken Sie dann auf **Kommentare** für das Objekt ein und suchen Sie nach dem Kommentar oder der Antwort, auf den/die Sie antworten möchten.
+1. Klicken **Antwort**.
 
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+   Sie können die Benutzer sehen, die aktiv an der Unterhaltung beteiligt sind am unteren Rand der **Neuer Kommentar** und Sie können weitere hinzufügen oder die nicht mehr relevanten entfernen. Diese Benutzer erhalten zusammen mit allen Benutzern, die das Objekt abonniert haben, eine Benachrichtigung, sobald ein Objekt aktualisiert oder beantwortet wird. Sie können auch weitere Benutzer taggen, um sie in Ihre Antwort einzubeziehen.  Informationen zum Tagging weiterer Benutzer finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. Beginnen Sie mit der Eingabe Ihrer Antwort und verwenden Sie zusätzliche Optionen aus der Rich-Text-Symbolleiste. Informationen zur Verwendung von Rich Text finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
 
-1. Click **Submit** to save the reply.
+1. Klicken **Einsenden** , um die Antwort zu speichern.
+
 </div>
--->
+
 
 
 ## Antworten auf eine Aktualisierung per E-Mail-Benachrichtigung

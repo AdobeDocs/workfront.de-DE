@@ -1,13 +1,13 @@
 ---
 title: Einrichten von Erinnerungsbenachrichtigungen
 description: Einrichten von Erinnerungsbenachrichtigungen
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Wählen Sie das Ereignis aus, das die geplante Erinnerungsbenachrichtigung Trigger.</p> <p>Wenn die Erinnerungsbenachrichtigung für Projekte, Aufgaben oder Probleme bestimmt ist, beziehen sich die verfügbaren Optionen auf das Abschlussdatum oder das Startdatum. Die Erinnerungsbenachrichtigung berücksichtigt den Zeitstempel des Abschlusses und Beginndatums von Projekten, Aufgaben und Problemen.</p> <p>Wenn die Erinnerungsbenachrichtigung für Timesheets bestimmt ist, beziehen sich die verfügbaren Optionen auf das Enddatum, das Startdatum oder das Datum der letzten Aktualisierung. Bei der Erinnerungsbenachrichtigung für Timesheets wird der Zeitstempel des Enddatums, des Starts und des letzten Aktualisierungsdatums berücksichtigt. Das Datenblatt beginnt um Mitternacht am Tag des Startdatums (12:00 Uhr) und endet direkt vor Mitternacht am Enddatum (23:59 Uhr).</p> </td> 
+      <td> <p>Wählen Sie das Ereignis aus, das die geplante Erinnerungsbenachrichtigung Trigger.</p> <p>Wenn die Erinnerungsbenachrichtigung für Projekte, Aufgaben oder Probleme bestimmt ist, beziehen sich die verfügbaren Optionen auf das Abschlussdatum oder das Startdatum. Die Erinnerungsbenachrichtigung berücksichtigt den Zeitstempel des Abschlusses und Beginndatums von Projekten, Aufgaben und Problemen.</p>
+
+   <p>Wenn die Erinnerungsbenachrichtigung für Timesheets bestimmt ist, beziehen sich die verfügbaren Optionen auf das Enddatum, das Startdatum oder das Datum der letzten Aktualisierung. Bei der Erinnerungsbenachrichtigung für Timesheets wird der Zeitstempel des Enddatums, des Starts und des letzten Aktualisierungsdatums berücksichtigt. Das Datenblatt beginnt um Mitternacht am Tag des Startdatums (12:00 Uhr) und endet direkt vor Mitternacht am Enddatum (23:59 Uhr).</p>
+
+   <p><b>NOTIZ</b></p>
+      <p>Erinnerungsbenachrichtigungen werden nur einmal alle 24 Stunden verteilt.</p> <p>Wenn Sie innerhalb von 24 Stunden mehrere Erinnerungsbenachrichtigungen einrichten, sendet Workfront eine Benachrichtigungs-E-Mail mit allen in dieser Benachrichtigung enthaltenen Erinnerungen.</p>
+      <p>Wenn Sie beispielsweise drei Erinnerungsbenachrichtigungen für Trigger 10 Stunden vor, 2 Stunden vor und 1 Stunde vor dem Fälligkeitsdatum konfigurieren, werden die drei Erinnerungen alle in derselben Benachrichtigung zusammengefasst, wenn sie am selben Tag stattfinden.</p> <p>Wenn Sie jedoch eine Erinnerungsbenachrichtigung für 26 Stunden vor und eine weitere für 1 Stunde vor dem Fälligkeitsdatum festlegen, erhalten Benutzer zwei separate Benachrichtigungen. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kriterien</td> 
@@ -110,7 +118,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Empfänger</td> 
+      <td role="rowheader">Empfängerinnen und Empfänger</td> 
       <td>Wählen Sie die Typen von Benutzern aus, die die Benachrichtigung erhalten sollen. Wählen Sie aus verschiedenen Objektbeteiligungen, z. B. Inhaber, Genehmiger oder Bevollmächtigter.</td> 
      </tr> 
     </tbody> 
