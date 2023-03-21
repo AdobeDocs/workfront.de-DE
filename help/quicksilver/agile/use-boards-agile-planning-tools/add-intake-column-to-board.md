@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!NOTE]
    >
    >Sie können die Aufnahmespalte filtern, um sowohl Aufgaben als auch Probleme einzuschließen. Sie müssen die Filter jedoch für jeden Objekttyp separat einrichten.
+   >
+   >Außerdem können Sie gespeicherte Filter und Systemstandardfilter auswählen.
 
 1. Klicken Sie im Filterbereich auf **[!UICONTROL Neuer Filter]** um zu beginnen.
 
