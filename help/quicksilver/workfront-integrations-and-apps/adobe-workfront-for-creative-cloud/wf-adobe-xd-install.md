@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für XD Plugin vom Adobe Marketplac
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: d4bdbce1c5fd5551ac225290840ba50b0ebeae45
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -99,8 +99,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
-   >![](assets/domain-350x50.png)   >
+   >* Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Wenn Ihre Workfront-Instanz in Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domäne anzugeben, die Sie unter Produkt > Workfront in der Admin Console finden.
+
 
 1. Geben Sie im Browser Ihre [!DNL Workfront] Anmeldedaten und klicken Sie dann auf **[!DNL Log in]**. Wenn Ihr Unternehmen Single Sign-On (SSO) verwendet, werden Sie zur Seite Ihres SSO-Anbieters weitergeleitet, um sich anzumelden.
 

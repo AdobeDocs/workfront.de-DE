@@ -6,9 +6,9 @@ description: Sie können das Workfront for Creative Cloud-Plug-in über den Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -119,8 +119,11 @@ So installieren Sie die [!DNL Adobe Workfront for design and video] Plug-in:
 
    >[!TIP]
    >
-   >Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
-   >![](assets/domain-350x50.png)   >
+   >* Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Wenn Ihre Workfront-Instanz in Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domäne anzugeben, die Sie unter Produkt > Workfront in der Admin Console finden.
+
 
 1. Geben Sie im Browser Ihre [!DNL Workfront] Anmeldedaten und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wenn Ihr Unternehmen Single Sign-On (SSO) verwendet, werden Sie zur Seite Ihres SSO-Anbieters weitergeleitet, um sich anzumelden.
 
