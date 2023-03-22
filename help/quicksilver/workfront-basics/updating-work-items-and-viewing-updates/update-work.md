@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 1. Informationen zum Antworten auf eine Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des Beta-Kommentarerlebnisses
 
 1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
 1. Klicken  **Updates** im linken Bereich.
-1. <span class="preview">Klicken **Probieren Sie die Beta-Kommentarversion aus** in der rechten unteren Ecke des Bereichs &quot;Updates&quot;auf und klicken Sie dann auf **Zustimmen** zur Beta-Vereinbarung. Dadurch wird der Bereich Updates auf das Beta-Kommentarerlebnis umgestellt. </span>
-Der/Die/Das 
-**Kommentare** ist standardmäßig ausgewählt.
+1. Klicken **Probieren Sie die Beta-Kommentarversion aus** in der rechten unteren Ecke des Bereichs &quot;Updates&quot;auf und klicken Sie dann auf **Zustimmen** zur Beta-Vereinbarung. Dadurch wird der Bereich Updates auf das Beta-Kommentarerlebnis umgestellt.
+Die **Kommentare** ist standardmäßig ausgewählt.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ Der/Die/Das
 
    Weitere Informationen finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;in diesem Artikel. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Wenn ein anderer Benutzer einen Kommentar für dasselbe Element sendet, das Sie aktualisieren, wird eine rote Zeile mit der Anzeige &quot;Neu&quot;angezeigt, die Sie über die neueren Kommentare informiert.
+   >
+   >Der Indikator wird nur angezeigt, nachdem der Kommentar zum Element gesendet wurde, nicht aber, wenn der Kommentar noch erstellt wurde.
+   >
+   >Der Indikator &quot;Neu&quot;wird nur angezeigt, wenn sowohl der Benutzer, der ein neues Update eingegeben hat, als auch der Benutzer, der derzeit ein Update aufruft, das neue Kommentarerlebnis verwenden.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. Klicken **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
-1. <span class="preview">(Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.</span>
-1. <span class="preview">Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer. </span>
-
-   <span class="preview">Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt. </span>
+1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
+1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
+Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.</span>
+   >   Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 4 bis 7 aus. <!--(**************insure this stays accurate***********)-->. Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png). Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Bedingt und Optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
@@ -241,6 +245,7 @@ Der/Die/Das
    >
    >Sie können einem Systemupdate keinen Kommentar hinzufügen.
 
+</div>
 
 ## Verwenden von Rich Text in einem Workfront-Update
 

@@ -7,9 +7,9 @@ description: Adobe Workfront hat Beschränkungen dafür, wie viele Objekte mit e
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Die folgenden Objekte, die mit Projekten verknüpft sind, haben die folgenden Ei
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Aufgaben</p></td> 
-   <td>  <p>Die maximale Anzahl von Aufgaben pro Projekt beträgt 5.000. Eine Warnmeldung wird angezeigt, wenn die Anzahl der Aufgaben diesem Höchstwert entspricht. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und dem Projekt können keine zusätzlichen Aufgaben hinzugefügt werden.</p> <p>Um dieses Maximum zu vermeiden, verschieben Sie Aufgaben, die für geschlossene Aufgaben geschlossen sind, in ein anderes Projekt. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p> </td> 
+   <td>  <p>Die maximale Anzahl von Aufgaben pro Projekt beträgt 5.000. Eine Warnmeldung wird angezeigt, wenn die Anzahl der Aufgaben diesem Höchstwert entspricht. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und dem Projekt können keine zusätzlichen Aufgaben hinzugefügt werden.</p> <p>Um dieses Maximum zu vermeiden, verschieben Sie Aufgaben, die für geschlossene Aufgaben geschlossen sind, in ein anderes Projekt. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p>
+
+<b>WICHTIG</b>
+
+Für Projekte mit vielen Abhängigkeiten von Aufgaben empfehlen wir, dass die Anzahl der Aufgaben in den Projekten viel niedriger sein sollte als die maximal zulässige Anzahl von 5.000 Aufgaben.
+
+Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des Projekts beeinflussen oder verhindern können:
+
+<ul><li>Anzahl der untergeordneten Elemente</li>
+   <li>Einzug mehrerer Ebenen von Aufgaben</li>
+   <li>Anzahl der Vorgänger</li>
+   <li>Mehrere Zuweisungen</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Probleme</p></td> 
