@@ -4,9 +4,9 @@ description: 23.2 Agile Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 23.2 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream
+
+Sie können einer Workfront-Pinnwand oder Workstream-Kartenliste jetzt direkt aus den Objektdetails vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie einer Pinnwand hinzufügen, werden zu verbundenen Karten, und alle Elemente, die einem Workstream hinzugefügt werden, werden der Kartenliste als ungeplante Karten hinzugefügt.
+
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## In Adobe Workfront-Pinnwänden verfügbare Iterationsfunktionen
 
@@ -28,6 +34,8 @@ Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglic
 Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workflows können Sie Daten auf unterschiedliche Weise visualisieren. Sie können Elemente auf Karten in einer Liste, auf einer Pinnwand oder in einer Iteration anzeigen. Karten in einem Workstream können auch auf mehreren Pinnwänden freigegeben werden. Sie können Workflows einfach mit Karten und Pinnwänden in einem Workflow erleichtern.
 
 Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
+
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste
 

@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In Adobe Workfront-Pinnwänden verfügbare Iterationsfunktionen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können einer Workfront-Pinnwand oder Workstream-Kartenliste jetzt direkt aus den Objektdetails vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie einer Pinnwand hinzufügen, werden zu verbundenen Karten, und alle Elemente, die einem Workstream hinzugefügt werden, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 23. März 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: Mit Version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In Adobe Workfront-Pinnwänden verfügbare Iterationsfunktionen</a></p>
                         <p>Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglichen die Verwendung der agilen Scrum-Funktion. Zu diesen Funktionen gehören:
                         <ul>
                         <li>Workflows für die Gruppierung von Foren, die sich auf dasselbe Team beziehen, und die Zusammenarbeit an den Arbeiten</li>
@@ -138,7 +154,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste</a></p>
                         <p>Sie können einem Workstream in Workfront-Pinnwänden jetzt direkt aus einer Listen- oder Berichtansicht vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie zum Workflow hinzufügen, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -154,7 +170,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen benutzerdefinierter Felder zu Karten auf einer Pinnwand</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen benutzerdefinierter Felder zu Karten auf einer Pinnwand</a></p>
                         <p>Sie können jetzt benutzerdefinierte Felder auf Adobe Workfront-Pinnwänden einbeziehen. Das Feld muss bereits in Workfront erstellt worden sein. Sie können keine neuen benutzerdefinierten Felder in einer Pinnwand entwerfen und erstellen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -484,7 +500,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Kommentierungserfahrung für Beta-Probleme<span style="color: #ff0000;"> Neu in der Vorschau!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Kommentierungserfahrung für Beta-Probleme</a>
                         <p>Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates einiger Objekte. </p>
                         <p>Diese neue Erfahrung wird schließlich dazu führen, dass Kommentare in Adobe Workfront und darüber hinaus in der gesamten Adobe Experience Cloud vereinheitlicht werden. </p>
                     </td>
