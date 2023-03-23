@@ -6,9 +6,9 @@ description: Einige der Gründe für den Export von Daten sind - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Informationen können in den folgenden Formaten exportiert werden:
 ### Ausfuhrbeschränkungen {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Export, einen gelieferten Bericht oder über die API unterliegt verschiedenen Einschränkungen.
@@ -106,9 +106,13 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
    * Bei Excel .xlsx-Dateien beträgt diese Beschränkung **100.000 Zeilen**.
    * Diese Beschränkungen schließen die Spaltenüberschriften sowie die Zeilen für Gruppierungen im Bericht aus. Wenn beispielsweise ein Bericht 6 Gruppierungen und 50.000 Zeilen oder Daten enthält, enthält die exportierte Datei 50.000 Zeilen.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Wenn Ihr Bericht mehr Elemente enthält, die diese Beschränkungen überschreiten, erhalten Sie eine Fehlermeldung, dass der Export nicht erfolgreich ist. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Beschränkungen ist, um die Ergebnisse exportieren zu können.
+   >Das Exportieren eines Berichts mit einer Kollektionsreferenz innerhalb einer Spalte kann zu einem Fehler führen, selbst wenn der Bericht ansonsten innerhalb der aufgeführten Exportbeschränkungen liegt. Wenn die referenzierte Sammlung zu groß ist, erfolgt eine Zeitüberschreitung beim Export und anschließend ein Fehler.
+   >
+   >Um diesen Fehler zu vermeiden, schließen Sie vor dem Export Spalten aus, die auf große Sammlungen verweisen, oder reduzieren Sie die Größe der referenzierten Sammlungen.
+
+   Wenn Ihr Bericht mehr Elemente enthält, die diese Beschränkungen überschreiten, erhalten Sie eine Fehlermeldung, dass der Export nicht erfolgreich ist. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Beschränkungen ist, um die Ergebnisse exportieren zu können.
 
    Wenn Ihr Bericht mehr als 50.000/65.000/100.000 Zeilen enthält und Sie alle Daten exportieren möchten, empfehlen wir, Filter oder Eingabeaufforderungen zu verwenden, um kleinere Datenmengen zu erhalten und mehrere Exporte durchzuführen.
 
