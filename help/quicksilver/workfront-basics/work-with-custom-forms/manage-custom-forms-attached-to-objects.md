@@ -6,16 +6,16 @@ description: Sie können die Reihenfolge aktualisieren, in der die an ein Objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt werden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
 
 Sie können die Reihenfolge aktualisieren, in der die an ein Objekt angehängten benutzerdefinierten Formulare angezeigt, entfernt oder die Anzeige von benutzerdefinierten Formularen auf mehreren Objekten durch Massenbearbeitung geändert werden.
 
