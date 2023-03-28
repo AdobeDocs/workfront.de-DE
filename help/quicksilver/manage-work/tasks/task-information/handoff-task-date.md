@@ -7,7 +7,7 @@ description: Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit ve
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 3%
@@ -76,7 +76,7 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 
    Die folgenden Szenarien existieren:
 
-   * Wenn die Aufgabe die Beschränkung Muss beginnen am oder Start nicht früher als hat, ist das Übergabedatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
+   * Wenn die Aufgabe die Beschränkung Muss beginnen am oder Anfang nicht früher als aufweist, ist das Übergabedatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
    * Wenn die Aufgabe die Beschränkung &quot;Must Finish On&quot;oder &quot;Start No Later Than&quot;hat, ist das Übergabedatum immer das tatsächliche Abschlussdatum des Vorgängers, unabhängig davon, ob für die Aufgabe ein tatsächliches Startdatum vorliegt oder nicht.
    * Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat, ist das Übergabedatum das geplante Startdatum der Aufgabe, unabhängig davon, ob es einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
 
