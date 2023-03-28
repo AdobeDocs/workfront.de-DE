@@ -4,9 +4,9 @@ description: 23.2 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Neu bei Workfront für Creative Cloud-Plug-ins
+
+Wir haben die folgenden Änderungen an der Workfront für Creative Cloud-Plug-ins hinzugefügt:
+
+* Das Plug-in benachrichtigt Sie jetzt, wenn eine Aufgabe über einen Vorgänger verfügt
+* Koreanisch wird jetzt unterstützt
 
 ## Neue Kommentierungserfahrung für Beta-Probleme
 

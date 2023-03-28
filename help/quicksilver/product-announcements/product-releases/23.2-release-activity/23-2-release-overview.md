@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td>
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neu bei Workfront für Creative Cloud-Plug-ins</a>
+                        <p>Wir haben die folgenden Änderungen an der Workfront für Creative Cloud-Plug-ins hinzugefügt:
+                        <ul>
+                        <li>Das Plug-in benachrichtigt Sie jetzt, wenn eine Aufgabe über einen Vorgänger verfügt</li>
+                        <li>Koreanisch wird jetzt unterstützt</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsversion: 23. März 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

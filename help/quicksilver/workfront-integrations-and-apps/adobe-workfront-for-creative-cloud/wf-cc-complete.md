@@ -6,9 +6,9 @@ description: Sie können in Adobe Creative Cloud-Anwendungen bleiben und Ihre Ar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 1. Aus dem **[!UICONTROL Arbeitsliste]**, wählen Sie die Aufgabe oder das Problem aus, die/das als abgeschlossen markiert werden soll.
 1. Klicken **[!UICONTROL Fertig]**.\
-   Damit wird das Element in Workfront abgeschlossen.\
-   ![](assets/complete-work-350x529.png)
+   Damit wird das Element in Workfront abgeschlossen.
+
+   >[!NOTE]
+   >
+   >Wenn das Arbeitselement über Vorgänger verfügt, ist die Schaltfläche Fertig grau, bis diese Vorgänger als abgeschlossen markiert sind. So zeigen Sie Vorgänger in [!DNL Workfront]klicken Sie auf den Aufgabennamen.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
