@@ -6,9 +6,9 @@ description: Konvertieren eines Problems in ein Projekt in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich ist, können S
 Sie können ein Problem in ein neues Projekt konvertieren oder es mithilfe einer Vorlage in ein Projekt konvertieren. In diesem Artikel werden beide Möglichkeiten zum Konvertieren von Problemen in Projekte beschrieben.
 
 Allgemeine Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+Beim Erstellen eines Projekts aus einem Problem werden einige Felder im Projekt von anderen Objekten ausgefüllt. Weitere Informationen finden Sie im Abschnitt &quot;Neue Standardeinstellungen für Projekte&quot;im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 
@@ -80,7 +82,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein leeres Projekt konvertiere
       >[!TIP]
       >   
       >* Wenn das Problem mit einer Anforderungswarteschlange erstellt wurde, erbt das neue Projekt die Gruppe der Anforderungswarteschlange.
-      >* Wenn das Problem durch Hinzufügen zum Abschnitt Probleme des Projekts erstellt wurde, erbt das neue Projekt die Gruppe, wenn das Projekt des Problems vorliegt.
+      >* Wenn das Problem durch Hinzufügen zum Abschnitt Probleme des Projekts erstellt wurde, übernimmt das neue Projekt die Gruppe des Projekts.
 
 
    * Führen Sie einen der folgenden Schritte aus, um ein Problem mithilfe einer Vorlage in ein Projekt zu konvertieren:

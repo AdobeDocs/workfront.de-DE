@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Projekt erstellen
-description: '(HINWEIS: Diese wird über die Benutzeroberfläche im Abschnitt "Globale Projekte"in Classic über die globale Navigationsleiste verknüpft. Nicht ändern/entfernen)'
+description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie können Projekte von Grund auf neu erstellen, eine Vorlage verwenden oder Probleme oder Aufgaben in Projekte umwandeln.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -127,13 +127,21 @@ Beachten Sie Folgendes:
 * Workfront wendet gegebenenfalls die Gruppeneinstellungen an, bevor die vom Workfront-Administrator festgelegten angewendet werden.
 * Wenn Sie ein Projekt mit einer Vorlage erstellen, haben die Einstellungen aus der Vorlage Vorrang vor den Einstellungen, die vom Workfront- oder Gruppenadministrator festgelegt wurden.
 
->[!NOTE]
->
->Es wird empfohlen, den Standardstatus für ein neues Projekt &quot;Planung&quot;festzulegen. Wenn Sie Änderungen am neuen Projekt vornehmen, wird sichergestellt, dass keine Benachrichtigungen an die dem Projekt zugewiesenen Benutzer Trigger werden.
+   >[!NOTE]
+   >
+   >Es wird empfohlen, den Standardstatus für ein neues Projekt &quot;Planung&quot;festzulegen. Wenn Sie Änderungen am neuen Projekt vornehmen, wird sichergestellt, dass keine Benachrichtigungen an die dem Projekt zugewiesenen Benutzer Trigger werden.
+   >
+   >Weitere Informationen zum Einrichten des Standardstatus und anderer Standardeinstellungen für ein neues Projekt finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-Weitere Informationen zum Einrichten des Standardstatus und anderer Standardeinstellungen für ein neues Projekt finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront definiert die Gruppe und den Status des neuen Projekts wie folgt:
 
+   * Der Standardstatus eines neuen Projekts, das aus einer Vorlage erstellt wurde, entspricht dem Status, der von Ihrem Workfront-Administrator im Hauptbereich &quot;Projekteinstellungen&quot;oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für eine Gruppe definiert wurde.
 
+   * Die Gruppe des neuen Projekts ist die Gruppe der Vorlage. Wenn die Vorlage nicht mit einer Gruppe verknüpft ist, ist die Gruppe des Projekts die Startseite des Benutzers, der das Projekt erstellt.
+
+   * Die für ein neues Projekt verfügbaren Status stimmen mit den Status der Gruppe des Projekts überein, bei der es sich entweder um die Gruppe der Vorlage oder um die Home-Gruppe des Benutzers handelt, der das Projekt erstellt.
+
+   * Die Gruppe eines neuen Projekts, das durch Konvertieren eines Problems in ein Projekt erstellt wurde, ist die Gruppe des vorhandenen Projekts des Problems. Wenn der Benutzer, der das Problem konvertiert, keinen Zugriff auf das Projekt des Problems hat, ist die Gruppe des neuen Projekts die Startseite des Benutzers, der das Problem konvertiert. Die Status des neuen Projekts stimmen mit den Gruppenstatus der mit dem Projekt verknüpften Gruppe überein, bei der es sich entweder um die Gruppe des ursprünglichen Projekts oder um die Home Group des Benutzers handelt, der das Problem konvertiert.
 
 ## Neues Projekt erstellen
 

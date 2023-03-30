@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Erstellen eines Projekts mit einer Vorlage
-description: Sie können Vorlagen als Framework zum Erstellen neuer Projekte verwenden. Wenn Sie Projekte haben, die sich häufig wiederholen, sparen Sie sich durch die Verwendung von Vorlagen für die allgemeine Zeitleiste des neuen Projekts, dieselben Projekte wiederholt erstellen zu müssen.
+description: Sie können Vorlagen als Framework zum Erstellen von Projekten verwenden. Wenn Sie Projekte haben, die sich häufig wiederholen, sparen Sie sich durch die Verwendung von Vorlagen für die allgemeine Zeitleiste des neuen Projekts, dieselben Projekte wiederholt erstellen zu müssen.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
 
 # Erstellen eines Projekts mit einer Vorlage
 
-Sie können Vorlagen als Framework zum Erstellen neuer Projekte verwenden. Wenn Sie Projekte haben, die sich häufig wiederholen, sparen Sie sich durch die Verwendung von Vorlagen für die allgemeine Zeitleiste des neuen Projekts, dieselben Projekte wiederholt erstellen zu müssen.
+Sie können Vorlagen als Framework zum Erstellen von Projekten verwenden. Wenn Sie Projekte haben, die sich häufig wiederholen, sparen Sie sich durch die Verwendung von Vorlagen für die allgemeine Zeitleiste des neuen Projekts, dieselben Projekte wiederholt erstellen zu müssen.
 
-Vorlagen bieten eine Möglichkeit, alle wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit Ihren Projekten verbunden sind. Alle mit einer Vorlage verknüpften Informationen werden an das Projekt übertragen. Dazu gehören Aufgaben, Zuweisungen, Dauern, Dokumente, Finanzdetails, Risiken und benutzerdefinierte Formulare.
+Vorlagen bieten Ihnen eine Möglichkeit, wiederholbare Prozesse, Informationen und Einstellungen zu erfassen, die mit Ihren Projekten verknüpft sind. Die mit einer Vorlage verknüpften Informationen werden an das Projekt übertragen. Dazu gehören Aufgaben, Zuweisungen, Dauern, Dokumente, Finanzdetails, Risiken und benutzerdefinierte Formulare.
 
 >[!TIP]
 >
->Der Status eines neuen Projekts, das anhand einer Vorlage erstellt wurde, entspricht dem Status, den der Workfront-Administrator im Bereich &quot;Haupteinstellungen&quot;oder ein Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für eine Gruppe festgelegt hat. Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront definiert die Gruppe und den Status des neuen Projekts wie folgt:
+>
+>* Der Standardstatus eines neuen Projekts, das aus einer Vorlage erstellt wurde, entspricht dem Status, der von Ihrem Workfront-Administrator im Hauptbereich &quot;Projekteinstellungen&quot;oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für eine Gruppe definiert wurde. Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* Die Gruppe des neuen Projekts ist die Gruppe der Vorlage. Wenn die Vorlage nicht mit einer Gruppe verknüpft ist, ist die Gruppe des Projekts die Startseite des Benutzers, der das Projekt erstellt.
+>
+>* Die für ein neues Projekt verfügbaren Status stimmen mit den Status der Gruppe des Projekts überein, bei der es sich entweder um die Gruppe der Vorlage oder um die Home-Gruppe des Benutzers handelt, der das Projekt erstellt.
+
 
 Sie haben die folgenden Optionen zum Erstellen eines Projekts aus einer Vorlage:
 
