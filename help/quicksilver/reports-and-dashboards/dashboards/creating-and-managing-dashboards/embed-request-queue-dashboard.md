@@ -6,9 +6,9 @@ description: Sie können eine neue Anforderungswarteschlange in ein Dashboard ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ Wenn Sie einen Link für einen Anfragetyp freigeben, wird der Anfragetyp für de
 
    Der Code sollte in etwa wie folgt aussehen:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Dies ist der Link zur Anforderungswarteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anforderungstyp ist vorausgewählt.
+   Dies ist der Link zur Anforderungswarteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt.
 
    Benutzer können eine beliebige Themengruppe oder ein beliebiges Warteschlangenthema auswählen oder einen anderen Anfragetyp auswählen.
 
@@ -120,19 +118,15 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, wird de
 
    Der Code sollte in etwa wie folgt aussehen:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Bearbeiten Sie den Code so, dass nur die folgenden Informationen beibehalten werden:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Sie können die `<samp>iframe </samp>` -Tag, wenn Sie den Code in eine andere Anwendung als Workfront einbetten.
+   >Sie können eine `<samp>iframe </samp>` -Tag, wenn Sie den Code in eine andere Anwendung als Workfront einbetten.
 
    Dies ist der Link zur Anforderungswarteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt und kann nicht geändert werden.
 
