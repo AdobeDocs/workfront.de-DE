@@ -6,9 +6,9 @@ description: Sie können eine externe Webseite in ein Dashboard einbetten, um Zu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Wenn Ihr Unternehmen beispielsweise über ein webbasiertes Dokument-Repository, 
 
 >[!IMPORTANT]
 >
->Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
+>Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Vorhandene Dashboards werden zwar nicht automatisch geändert, um diese externen Seiten zu entfernen, doch können Änderungen an einem Dashboard, das einen solchen Verweis enthält, erst gespeichert werden, wenn der Verweis entfernt oder geändert wurde.
+>
+>Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
 >
 >* /dashboards &#x200B;
 >* /dashboard/:ID-&#x200B;
@@ -44,7 +46,8 @@ Wenn Ihr Unternehmen beispielsweise über ein webbasiertes Dokument-Repository, 
 >* /requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Alternativ können Sie auch einen Listenbericht in Ihr Dashboard einfügen, wie hier beschrieben: [Einen Bericht zu einem Dashboard hinzufügen](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Zugriffsanforderungen
 

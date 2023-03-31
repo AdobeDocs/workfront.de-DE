@@ -6,9 +6,9 @@ description: Einige der Gründe für den Export von Daten sind - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
 
    >[!IMPORTANT]
    >
-   >Das Exportieren eines Berichts mit einer Kollektionsreferenz innerhalb einer Spalte kann zu einem Fehler führen, selbst wenn der Bericht ansonsten innerhalb der aufgeführten Exportbeschränkungen liegt. Wenn die referenzierte Sammlung zu groß ist, erfolgt eine Zeitüberschreitung beim Export und anschließend ein Fehler.
+   >Das Exportieren eines Berichts mit einer Kollektionsreferenz innerhalb einer Spalte kann zu einem Fehler führen, selbst wenn der Bericht ansonsten innerhalb der aufgeführten Exportbeschränkungen liegt. Wenn die referenzierte Sammlung zu groß ist, ist der Exportvorgang zeitaufwendig und führt anschließend zu einem Fehler.
    >
    >Um diesen Fehler zu vermeiden, schließen Sie vor dem Export Spalten aus, die auf große Sammlungen verweisen, oder reduzieren Sie die Größe der referenzierten Sammlungen.
 

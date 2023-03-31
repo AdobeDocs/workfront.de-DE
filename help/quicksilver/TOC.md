@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
+source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
 workflow-type: tm+mt
-source-wordcount: '12775'
+source-wordcount: '12782'
 ht-degree: 1%
 
 ---
@@ -893,6 +893,7 @@ ht-degree: 1%
       * [Fehlerbehebung bei Berechtigungen für Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Duplizierte Genehmigungsprozesse, die in der Startseiten-Arbeitsliste angezeigt werden](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Filterschaltflächen werden nicht in Seitenkopfzeilen angezeigt](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+      * [Projekte, bei denen es sich um Filter handelt, enthalten unerwartete Ergebnisse](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Übersicht über Pinnwände](agile/boards-overview.md)

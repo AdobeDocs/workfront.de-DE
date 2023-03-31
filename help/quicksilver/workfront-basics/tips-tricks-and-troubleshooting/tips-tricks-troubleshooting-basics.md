@@ -4,9 +4,9 @@ description: Tipps, Tricks und Fehlerbehebung für [!DNL Adobe Workfront] Grundl
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Duplizierte Validierungsprozesse, die im [!UICONTROL Homepage-Arbeitsliste]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Filterschaltflächen werden nicht in Seitenkopfzeilen angezeigt](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Ändern des Formats für Datumsangaben in [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [Projekte, bei denen es sich um Filter handelt, enthalten unerwartete Ergebnisse](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
