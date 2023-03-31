@@ -7,22 +7,24 @@ description: Lesen Sie die Artikel in diesen Bereichen, um zu erfahren, wie Sie 
 author: Lisa
 feature: Agile
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
 # Agile
 
+[!DNL Adobe Workfront] bietet mehrere Tools, mit denen Sie agile Workflows definieren können. Foren sind einfache, aber flexible Tools für die Teamzusammenarbeit. Die alten agilen Planungswerkzeuge beinhalten einen Rückstand und ein Story Board für Kanban- oder Scrum-Teams.
+
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Übersicht über Agile](../agile/agile-overview.md)
 * [Übersicht über Pinnwände](../agile/boards-overview.md)
-* [Agile in Projekten](../agile/agile-in-projects/agile-in-projects.md)
-* [Erste Schritte mit agile in [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Erste Schritte mit Pinnwänden in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Verwenden von agilen Planungstools in Foren](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [Übersicht über Agile](../agile/agile-overview.md)
+* [Erste Schritte mit agile in [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban in einem agilen Team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [In einem agilen Team scrum](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Arbeiten in einer agilen Umgebung](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
