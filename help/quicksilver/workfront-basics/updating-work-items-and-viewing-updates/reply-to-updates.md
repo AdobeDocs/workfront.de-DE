@@ -6,9 +6,9 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,14 +109,11 @@ Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erleb
 
 1. Beginnen Sie mit der Eingabe Ihrer Antwort und verwenden Sie zusätzliche Optionen aus der Rich-Text-Symbolleiste. Informationen zur Verwendung von Rich Text finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Klicken **Einsenden** , um die Antwort zu speichern.
 
+1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) neben der Aktualisierung finden Sie weitere Optionen zum Verwalten der Antwort. Weitere Informationen finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## Antworten auf eine Aktualisierung per E-Mail-Benachrichtigung
 

@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
 1. Klicken  **Updates** im linken Bereich.
-1. Klicken **Probieren Sie die Beta-Kommentarversion aus** in der rechten unteren Ecke des Bereichs &quot;Updates&quot;auf und klicken Sie dann auf **Zustimmen** zur Beta-Vereinbarung. Dadurch wird der Bereich Updates auf das Beta-Kommentarerlebnis umgestellt.
+1. Aktivieren Sie die **Kommentieren von Beta** in der oberen rechten Ecke des Bereichs Updates ein- und klicken Sie dann auf **Zustimmen** zur Beta-Vereinbarung. Dadurch wird der Bereich Updates auf das Beta-Kommentarerlebnis umgestellt.
 Die **Kommentare** ist standardmäßig ausgewählt.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
@@ -224,7 +224,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
 
 1. Klicken **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
+1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 ## Aktualisierte Informationen kopieren
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Beim Verwenden der Beta-Kommentarfunktion ist das Kopieren einer Aktualisierung nicht möglich.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link kopiert haben, können Sie ihn für andere freigeben, um ihn zur Aktualisierung weiterzuleiten.
 
@@ -348,7 +349,7 @@ Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablag
 Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopiert, damit Sie den Thread für andere Benutzer freigeben können.
 
 1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads** <span class="preview">oder **Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopie
 Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
 
 1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**.
+1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren** <span class="preview">oder **Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

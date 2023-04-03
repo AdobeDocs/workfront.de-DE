@@ -6,9 +6,9 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 2%
 
 ---
@@ -323,6 +323,7 @@ Bei der Auswahl von mehr als einem Projekt zur Massenbearbeitung gibt es die fol
 * Wenn Sie nicht über die Berechtigung &quot;Benutzerdefiniertes Formular bearbeiten&quot;für mindestens eines der ausgewählten Projekte verfügen, können Sie die Felder für die angehängten benutzerdefinierten Formulare nicht bearbeiten. Sie können nur die Felder in den angehängten benutzerdefinierten Formularen anzeigen
 * Wenn Sie Zugriff auf einen Abschnitt in einem benutzerdefinierten Formular haben, können Sie die Felder in diesem Abschnitt nicht bearbeiten. Sie können nur die Felder in diesem Abschnitt anzeigen.
 * Wenn Sie keinen Zugriff auf einen Abschnitt in einem der benutzerdefinierten Formulare haben, die an mindestens ein Projekt angehängt sind, wird der Abschnitt nicht im Feld Projekte bearbeiten angezeigt.
+* Wenn Sie erforderliche Felder in einem der benutzerdefinierten Formulare haben, die an alle Projekte angehängt sind, und ein Feld auswählen, ohne es tatsächlich zu bearbeiten, müssen Sie die Änderungen in diesem Feld verwerfen oder Informationen hinzufügen, bevor Sie die ausgewählten Projekte speichern können. Wenn Sie kein erforderliches Feld auswählen, können Sie die ausgewählten Projekte auch dann speichern, wenn das erforderliche Feld leer ist.
 
 Informationen zum Zugriff auf benutzerdefinierte Formulare finden Sie in den folgenden Artikeln:
 
