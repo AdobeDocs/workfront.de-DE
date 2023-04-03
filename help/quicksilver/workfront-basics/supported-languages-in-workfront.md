@@ -6,9 +6,9 @@ description: Sie können die Sprache ändern, in der Sie Adobe Workfront und E-M
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Die Workfront-Terminologie wird bei jedem Workfront-Update für die unterstützt
 
 Workfront unterstützt die folgenden Sprachen:
 
-* Chinesisch - vereinfacht (zh-CN)
-* Chinesisch - Traditionell (zh-TW)
 * Englisch (en-US)
 * Französisch (fr-FR)
 * Deutsch (de-DE)
-* Italienisch (it_IT)
 * Japanisch (ja)
+* Spanisch (es)
+* Italienisch (it_IT)
 * Portugiesisch (pt-BR)
-* Spanisch - Lateinamerika
+* Koreanisch (ko)
+* Chinesisch - vereinfacht (zh-CN)
+* Chinesisch - Traditionell (zh-TW)
 
 Die Sprache, die zur Anzeige von Workfront in Ihrem Browser verwendet wird, wird durch Ihre Browserspracheinstellungen gesteuert. Stellen Sie sicher, dass Sie eine Sprache für Ihren Browser auswählen, die in der Liste der unterstützten Sprachen aufgeführt ist.
 
