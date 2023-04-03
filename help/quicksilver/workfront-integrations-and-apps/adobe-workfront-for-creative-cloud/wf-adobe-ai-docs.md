@@ -5,9 +5,9 @@ title: Hochladen von Dokumenten aus Illustrator
 description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnell zu überprüfen und zu validieren oder einfach in Adobe Workfront zu speichern.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
-1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
+1. Öffnen Sie die **[!UICONTROL Festlegen der Exportdateieinstellungen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+
+   ![](assets/file-export-settings.png)
+1. Klicken **[!UICONTROL Hochladen]**.
 Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.

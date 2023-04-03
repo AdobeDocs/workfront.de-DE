@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für XD Plugin vom Adobe Marketplac
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Öffnen Sie die [!DNL Adobe Creative Cloud] App.
-1. Klicken Sie auf **[!UICONTROL Marketplace]** im oberen Bereich des Fensters angezeigt.
-1. Im **[!UICONTROL Alle Plugins durchsuchen]** Feld, Typ *Workfront* und drücken Sie dann **[!UICONTROL Eingabe]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Wann [!DNL Adobe Workfront for XD] in den Suchergebnissen angezeigt, klicken Sie auf **[!UICONTROL Get]**.
+1. Navigieren Sie zu [Adobe Workfront für XD Installationsseite](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) auf der Adobe Exchange.
+1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
+1. Einmal [!DNL Adobe XD] Plug-in-Manager öffnet sich, klicken Sie auf **[!UICONTROL Installieren]**.
 1. Lesen Sie die Informationen im Dialogfeld und klicken Sie auf **[!UICONTROL OK]**.
-
 1. Fahren Sie mit dem folgenden Abschnitt fort, um Informationen zum Öffnen des Plug-ins zu erhalten.
 
 ## Öffnen Sie die [!DNL Adobe Workfront for XD] plugin

@@ -6,9 +6,9 @@ description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnel
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
-1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
+1. Öffnen Sie die **[!UICONTROL Festlegen der Exportdateieinstellungen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+
+   ![](assets/file-export-settings.png)
+1. Klicken **[!UICONTROL Hochladen]**.
 Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.

@@ -6,9 +6,9 @@ description: Sie können das Workfront for Creative Cloud-Plug-in über den Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -74,17 +74,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So installieren Sie die [!DNL Adobe Workfront for design and video] Plug-in:
 
-1. Öffnen Sie die [!DNL Adobe Creative Cloud] App.
-1. Klicken Sie auf **[!UICONTROL Marketplace]** im oberen Bereich des Fensters angezeigt.
-1. Im **[!UICONTROL Alle Plugins durchsuchen]** Feld, Typ *Workfront* und drücken Sie dann **[!UICONTROL Eingabe]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Wann [!DNL Adobe Workfront for design and video] in den Suchergebnissen angezeigt, klicken Sie auf **[!UICONTROL Get]**.
+1. Navigieren Sie zu [Installationsseite für Adobe Workfront für Design und Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) auf der Adobe Exchange.
+1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
+1. Einmal [!DNL Adobe Creative Cloud] Plug-in-Manager öffnet sich, klicken Sie auf **[!UICONTROL Installieren]**.
 1. Lesen Sie die Informationen im Dialogfeld und klicken Sie auf **[!UICONTROL OK]**.
-1. Sobald das Plug-in installiert ist, öffnen Sie die [!DNL Creative Cloud] benötigen und suchen Sie das Workfront-Plug-in im Plug-in-Bedienfeld.
-
-   <!-- new screen -->
+1. Sobald das Plug-in installiert ist, öffnen Sie die [!DNL Creative Cloud] App, die Sie benötigen, und suchen Sie das Workfront-Plug-in im Bedienfeld des Plug-ins.
 
 1. Fahren Sie mit dem folgenden Abschnitt fort, um Informationen zum Öffnen des Plug-ins zu erhalten.
 
