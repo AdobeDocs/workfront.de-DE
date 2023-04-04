@@ -5,9 +5,9 @@ title: Einheitliches Kommentierungserlebnis
 description: Das neue einheitliche Kommentierungserlebnis
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ Das neue Kommentierungserlebnis wird derzeit für die folgenden Objekte unterst�
 So aktivieren Sie die neue Kommentarfunktion Beta:
 
 1. Markieren Sie ein Objekt, für das Sie das neue Kommentarerlebnis aktivieren möchten, und klicken Sie auf **Updates** im linken Bereich.
-1. Klicken **Probieren Sie die Commenting Beta aus** in der rechten unteren Ecke des Bereichs Updates.
+1. Aktivieren Sie die **Kommentieren von Beta** in der oberen rechten Ecke des Bereichs Updates ein-/ausschalten.
 1. Klicken **Zustimmen** in das Feld &quot;Beta-Vereinbarung&quot;ein. Dadurch wird das neue Kommentarerlebnis für das ausgewählte Objekt aktiviert.
 1. Geben Sie im Feld **Kommentare** Registerkarte. Die Registerkarte Kommentare sollte beim Öffnen des neuen Erlebnisses die Standardregisterkarte sein
 

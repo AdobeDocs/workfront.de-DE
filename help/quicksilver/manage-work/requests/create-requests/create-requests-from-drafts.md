@@ -6,14 +6,16 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Ihnen Wo
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
 # Anforderungen aus Entwürfen erstellen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Ihnen Workfront bei Eingabe einer neuen Anforderung vorschlägt, können Sie auch über den Bereich Entwürfe auf eine Entwurfsanfrage zugreifen und sie von dort abschicken.
 
@@ -53,11 +55,13 @@ Sie müssen Folgendes tun, bevor Sie eine Anforderung aus einem Entwurf erstelle
 ## Anforderungen aus Entwürfen erstellen
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront.
-1. Klicken **Anforderungen** > **Entwürfe**.
+1. Klicken **Anforderungen** > **Entwürfe**.
 
    In dieser Liste wird für jedes Warteschlangenthema jeder Anforderungswarteschlange ein Entwurf angezeigt.
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+
+1. <span class="preview">(Optional) Klicken Sie auf eine Spaltenüberschrift, um die Liste nach dieser Spalte zu sortieren.</span>
 
 1. Überprüfen Sie die Informationen zu den einzelnen Entwürfen in den folgenden Spalten der Liste &quot;Entwürfe&quot;:
 
@@ -67,10 +71,9 @@ Sie müssen Folgendes tun, bevor Sie eine Anforderung aus einem Entwurf erstelle
    | Eingabedatum | Das Datum, an dem Sie mit der Erstellung der Anforderung begonnen haben. |
    | Datum der letzten Aktualisierung | Das letzte Ihrer letzten Aktualisierungen. Wenn Sie es seit dem ersten Start der Anfrage nicht aktualisiert haben, sollten das Entrypdatum und das letzte Aktualisierungsdatum identisch sein. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Optional) Klicken Sie auf **Nach Anfragetyp filtern** Wählen Sie oben rechts in der Liste der Entwürfe die Anforderungswarteschlange aus, die die Entwürfe enthält, die angezeigt werden sollen.
-1. Klicken Sie auf den Namen eines Entwurfs, um ihn zu öffnen.
+1. <span class="preview">(Optional) Geben Sie über den Schnellfilter in der oberen rechten Ecke der Liste &quot;Entwürfe&quot;den Namen einer entworfenen Anforderung, Anforderungswarteschlange, Warteschlangenthema oder Themengruppe ein und klicken Sie dann auf den Namen eines Entwurfs, um ihn zu öffnen. </span>
 1. Aktualisieren Sie die Informationen für die Anforderung, wie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optional und bedingt) Klicken Sie während der Eingabe der Anforderung auf **Verwerfen** Entwurf, wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht, der nicht wiederhergestellt werden kann. Weitere Informationen zum Löschen von Entwürfen finden Sie unter [Anforderungsentwurf löschen](../../../manage-work/requests/create-requests/delete-request-draft.md).
 

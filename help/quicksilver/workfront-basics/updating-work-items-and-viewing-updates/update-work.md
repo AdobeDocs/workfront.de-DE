@@ -6,7 +6,7 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
    >[!TIP]
    >
    >   Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 4 bis 7 aus. <!--(**************insure this stays accurate***********)-->. Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png). Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Bedingt und Optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
@@ -349,7 +350,12 @@ Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablag
 Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopiert, damit Sie den Thread für andere Benutzer freigeben können.
 
 1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads** <span class="preview">oder **Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
+
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**
+
+   oder
+
+   <span class="preview">**Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopie
 Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
 
 1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren** <span class="preview">oder **Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
+1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**
+
+   oder
+
+   <span class="preview">**Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen** <span class="preview">oder **Löschen**</span>, im Beta-Kommentar-Erlebnis.
+1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen**
+
+   oder
+
+   <span class="preview"> **Löschen** im Beta-Kommentar-Erlebnis</span>.
 
 >[!NOTE]
 >
