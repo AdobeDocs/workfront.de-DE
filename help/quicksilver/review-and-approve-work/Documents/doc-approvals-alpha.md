@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ Um an dieser Alpha-Version teilnehmen zu können, stellen Sie bitte sicher, dass
 
 ## Neueste Version
 
+### Alpha-Version 3 - März 2023
+
+In dieser dritten Alpha-Version haben wir Ihr Feedback integriert, indem wir Erfolgsmeldungen eingeführt haben, die beim Abschließen von Aktionen wie dem Hinzufügen oder Entfernen von Genehmigern und Validierern angezeigt werden. Darüber hinaus bietet diese Version eine verbesserte Sichtbarkeit der ausstehenden Genehmigungen, die jetzt auf den Seiten &quot;Startseite&quot;und &quot;Meine Aktualisierungen&quot;angezeigt werden können, sodass Benutzer Dokumente einfach direkt von diesen Seiten aus genehmigen können.
+
+Sehen Sie sich das vollständige Video unten an:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Frühere Versionen_
+
 ### Alpha-Version 2 - Januar 2023
 
 Mit dieser Alpha 2-Version können Sie Personen und Teams als Validierer oder Genehmiger hinzufügen und Genehmigungsentscheidungen direkt auf der Seite mit den Dokumentdetails treffen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Frühere Versionen_
+Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha-Version 1 - November 2022
 
