@@ -4,10 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 2%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 23.2 vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht.
 
 Eine Liste aller in Version 23.2 verfügbaren Änderungen finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Aktualisierungen des Erscheinungsbilds der Liste &quot;Entwürfe&quot;im Bereich &quot;Anforderungen&quot;
+
+>[!NOTE]
+>
+>Vorschau-Version: 4. April 2023; Geplante Produktionsversion: 18. April 2023
+
+Wir haben die Liste der Entwürfe im Bereich Anforderungen aktualisiert, um sie mit den aktuelleren Listen in Workfront konsistent zu machen.
+Zu den Aktualisierungen gehören die folgenden:
+
+* Der Filter &quot;Nach Anfragetyp filtern&quot;wurde durch den standardmäßigen Schnellfilter ersetzt.
+* Das Bild wurde aus der Liste &quot;Entwürfe&quot;entfernt, wenn die Liste keine Anforderungen enthält
+* Der Liste wurden Paginierung und Spaltensortierung hinzugefügt.
+
+Weitere Informationen finden Sie unter [Anforderungen aus Entwürfen erstellen](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Smart-Benutzerauswahl in zusätzlichen Bereichen von Workfront verfügbar
 
