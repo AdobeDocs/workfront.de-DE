@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeigen können, Kommentare hinzufügen.
 
@@ -140,16 +140,15 @@ Dadurch wird die Zielliste geöffnet.
    >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
-1. <span class="preview">(Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**. </span>
-1. <span class="preview">Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer. </span>
+1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
+1. Bearbeiten Sie die Informationen im Kommentar&lt;<!--, or remove any of the tagged users-->.
+Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
-   <span class="preview">Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.</span>
+   > Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
 
    1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf eine der folgenden Optionen, um Informationen aus einem Kommentar in die Zwischenablage zu kopieren:
 
@@ -169,7 +168,7 @@ Dadurch wird die Zielliste geöffnet.
    >Der Indikator &quot;Neu&quot;wird nur angezeigt, wenn sowohl der Benutzer, der ein neues Update eingegeben hat, als auch der Benutzer, der derzeit ein Update aufruft, das neue Kommentarerlebnis verwenden.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">(Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen. </span>
+1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen.
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. <!--insure this stays accurate-->
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png) , um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Optional) Um Ihrer Aktualisierung Rich-Text-Formatierung hinzuzufügen, verwenden Sie beim Eingeben Attribute in der Rich-Text-Symbolleiste. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

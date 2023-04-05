@@ -6,16 +6,16 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # Projekte bearbeiten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ Die folgenden Felder sind standardmäßig in der Projektheader enthalten.
 
 Sie können Projekte stapelweise bearbeiten und Informationen für alle ausgewählten Projekte gleichzeitig aktualisieren.
 
+Beachten Sie beim Massenbearbeitung von Projekten Folgendes:
 
-Die Informationen, die Sie für alle ausgewählten Projekte ändern, überschreiben die vorhandenen Informationen zu einzelnen Projekten, mit Ausnahme des Felds Ressourcen-Manager .
+* Die Informationen, die Sie für alle ausgewählten Projekte ändern, überschreiben die vorhandenen Informationen zu einzelnen Projekten, mit Ausnahme des Felds Ressourcen-Manager .
 
-Durch Hinzufügen eines neuen Ressourcen-Managers bei der Massenbearbeitung von Projekten wird dieser Manager zu allen ausgewählten Projekten hinzugefügt. Wenn andere Ressourcen-Manager mit den ausgewählten Projekten verknüpft sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten in den Projekten.
-
-Die Massenbearbeitung von Projekten hängt von der Umgebung ab, in der sie aktualisiert werden sollen.
-
-### Stapelweises Bearbeiten von Projekten in der Produktionsumgebung
-
-So bearbeiten Sie Projekte stapelweise:
-
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-
-1. Klicken **Projekte**.
-1. Wählen Sie mehrere Projekte in der Liste aus.
-1. Klicken **Bearbeiten**.
-
-   Die **Projekte bearbeiten** wird geöffnet.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. Geben Sie die Informationen zu allen ausgewählten Projekten in den folgenden Abschnitten an:
-
-   * **Übersicht**
-
-      Weitere Informationen finden Sie unter [Übersicht](#overview) in diesem Artikel.
-
-   * **Finanzielle Details**
-
-      Weitere Informationen finden Sie unter [Finanzen](#finance) in diesem Artikel.
-
-   * **Portfolio**
-
-      Weitere Informationen finden Sie im Abschnitt &quot;Projektverknüpfung&quot;im [Übersicht](#overview) in diesem Artikel.
-
-   * **Einstellungen**
-
-      Weitere Informationen finden Sie unter [Projekteinstellungen](#project-settings) in diesem Artikel.
-
-   * **Zugriff**
-
-      Weitere Informationen finden Sie unter [Zugriff](#access) in diesem Artikel.
-
-   * **Benutzerdefinierte Formulare**
-
-      Weitere Informationen erhalten Sie, wenn Sie mit Schritt 7 unten fortfahren.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **Aufgaben**
-
-      Weitere Informationen finden Sie unter [Aufgabeneinstellungen](#task-settings) in diesem Artikel.
-
-   * **Probleme**
-
-      Weitere Informationen finden Sie unter   [Problemeinstellungen](#issue-settings) in diesem Artikel.
-
-   * **Kommentar**
-
-      Weitere Informationen erhalten Sie, wenn Sie mit Schritt 9 fortfahren.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (Optional) Wählen Sie im Bereich Einstellungen eine der folgenden Optionen aus:
-
-   * **Neuberechnung von Kosten und Einnahmen**: Wählen Sie diese Option, um die Kosten und Einnahmen für alle ausgewählten Projekte neu zu berechnen.
-   * **Zeitleisten neu berechnen**: Wählen Sie diese Option aus, um die Zeitpläne aller ausgewählten Projekte neu zu berechnen.
-   * **Scorecards neu berechnen**: Wählen Sie diese Option, um die Scorecard-Werte für alle ausgewählten Projekte neu zu berechnen.
-
-   ![recalculate_cost_scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. Klicken **Benutzerdefinierte Forms** , um die benutzerdefinierten Formulare zu bearbeiten, die an alle ausgewählten Projekte angehängt sind.
-
-   Wenn die ausgewählten Projekte keine gemeinsamen benutzerdefinierten Formulare haben, werden in diesem Abschnitt keine Formulare aufgeführt.
-
-   Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Projekte angehängt sind und die Sie bearbeiten können.
-
-1. (Optional) Wählen Sie im Abschnitt Benutzerdefinierter Forms die **Benutzerdefinierte Ausdrücke neu berechnen** , um sicherzustellen, dass alle berechneten benutzerdefinierten Felder, die sich in der benutzerdefinierten Forms befinden, die an die ausgewählten Projekte angehängt ist, auf dem neuesten Stand sind.
-
-   >[!IMPORTANT]
-   >
-   >Es wird empfohlen, nicht mehr als 500 Projekte gleichzeitig auszuwählen, wenn Sie benutzerdefinierte Ausdrücke neu berechnen.
-
-1. (Optional) Klicken Sie auf **Kommentar** Wählen Sie dann das Feld Aktualisierung für jedes Projekt posten aus und geben Sie einen Kommentar an, den Sie im Aktualisierungsstream des Projekts im verfügbaren Feld anzeigen möchten. Führen Sie einen der folgenden Schritte aus:
-
-   * Klicken Sie auf **Personen** icon ![](assets/people-icon-updates-classic.png) , um einen Benutzer zu taggen, der über Ihren Kommentar benachrichtigt wird.
-   * Klicken Sie auf **Sperren** icon ![](assets/lock-icon-open-updates-classic.png) , um Ihren Kommentar nur auf Personen in Ihrem Unternehmen zu beschränken.
-
-   Dieser Kommentar ist für alle sichtbar, die Zugriff auf das Projekt haben und Zugriff auf Notizen haben.
-
-1. Klicken **Änderungen speichern**.
-
-   Alle von Ihnen vorgenommenen Änderungen sind jetzt in allen ausgewählten Projekten sichtbar.
-
-<div class="preview">
-
-### Bearbeiten von Projekten im Buk in der Vorschau-Umgebung
-
-Beachten Sie beim Massenbearbeitung von Projekten in der Vorschau-Umgebung Folgendes:
+   Durch Hinzufügen eines neuen Ressourcen-Managers bei der Massenbearbeitung von Projekten wird dieser Manager zu allen ausgewählten Projekten hinzugefügt. Wenn andere Ressourcen-Manager mit den ausgewählten Projekten verknüpft sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten in den Projekten.
 
 * Wenn Sie Projekte auswählen, die für dasselbe Feld unterschiedliche Werte aufweisen, wird im Feld &quot;Projekte bearbeiten&quot;die Anzeige &quot;Mehrere Werte&quot;angezeigt. Felder, bei denen es sich um Kontrollkästchen, Optionsfelder und Umschalter handelt, weisen neben ihnen die Anzeige &quot;Mehrere Werte&quot;auf.
 
@@ -826,7 +727,7 @@ Beachten Sie beim Massenbearbeitung von Projekten in der Vorschau-Umgebung Folge
 
 * Wenn Sie mehrere Projekte auswählen, die zu verschiedenen Gruppen gehören, werden im Feld Status die Status auf Systemebene und nicht der Status auf Gruppenebene angezeigt.
 
-So bearbeiten Sie Projekte in der Vorschau-Umgebung:
+So bearbeiten Sie Projekte stapelweise:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 1. Klicken **Projekte**.
@@ -863,9 +764,9 @@ Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layou
 
    Zusätzliche benutzerdefinierte Formulare, die mit Projekten verknüpft werden können, aber nicht an ein ausgewähltes Projekt angehängt sind, werden in der **Forms zum Hinzufügen** im Abschnitt **Benutzerdefiniertes Formular hinzufügen** -Feld.
 
-1. Klicken Sie auf , um das zusätzliche benutzerdefinierte Formular im **Benutzerdefiniertes Formular hinzufügen** oder **Forms zum Hinzufügen** Unterabschnitten, wenn sie in der Liste angezeigt werden.
+1. Klicken Sie auf , um weitere benutzerdefinierte Formulare im **Benutzerdefiniertes Formular hinzufügen** oder **Forms zum Hinzufügen** Unterabschnitten, wenn sie in der Liste angezeigt werden.
 
-   Wenn ein benutzerdefiniertes Formular bereits an einige der ausgewählten Projekte angehängt ist, wird beim Hinzufügen eines Formulars neben dem Namen des Formulars angegeben, wie viele Projekte bereits über das Formular verfügen.
+   Wenn ein benutzerdefiniertes Formular bereits an einige der ausgewählten Projekte angehängt ist, wird neben dem Namen des Formulars angegeben, wie viele Projekte bereits über das Formular verfügen, wenn Sie ein Formular hinzufügen.
 
 1. (Optional) Klicken Sie auf die **x** Symbol rechts neben dem Namen eines benutzerdefinierten Formulars und klicken Sie dann auf **Entfernen** , um ihn aus allen ausgewählten Projekten zu entfernen.
 
@@ -892,5 +793,100 @@ Weitere Informationen zum Bearbeiten des Zugriffsbereichs finden Sie im Abschnit
 1. (Optional) Klicken Sie auf **Abbrechen** am unteren Rand des **Projekte bearbeiten** -Seite, um alle Änderungen zu entfernen, die an allen Projekten vorgenommen wurden.
 1. Klicken Sie auf **Speichern**.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->

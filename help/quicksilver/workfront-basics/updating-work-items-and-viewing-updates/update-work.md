@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Sie können auf das neue Design für die folgenden Objekte zugreifen:
-> * <span class="preview">Probleme beim Aktivieren der Beta-Kommentarfunktion. </span>
+> * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
-   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
+   >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
    >
-   >     * <span class="preview">Startseite</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
+   >     * Startseite
+   >     * Zusammenfassungsbereich in Listen
+   >     * Zusammenfassungsbereich in Timesheets
 >
 > * Ziele
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 1. Informationen zum Antworten auf eine Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des Beta-Kommentarerlebnisses
 
 1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
@@ -224,7 +223,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
 
 1. Klicken **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Informationen im Kommentar bearbeiten <!--or remove any of the tagged users-->.
 Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
    >
    >Sie können einem Systemupdate keinen Kommentar hinzufügen.
 
-</div>
 
 ## Verwenden von Rich Text in einem Workfront-Update
 
@@ -318,7 +316,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Auf Bilder kann nur über die Registerkarte Aktualisierungen eines Objekts zugegriffen werden. Sie sind nicht auf der Registerkarte Dokumente verfügbar.
    >* Sie können ein Update mit einem Bild und ohne Text senden.
 
-1. Klicken **Aktualisieren**  <span class="preview">oder **Einsenden**</span>, im Beta-Kommentar-Erlebnis.
+1. Klicken **Aktualisieren**  oder **Einsenden**, wenn Sie das Beta-Kommentarerlebnis verwenden.
 
 
 ## Aktualisierte Informationen kopieren
@@ -351,11 +349,7 @@ Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopie
 
 1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
 
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**
-
-   oder
-
-   <span class="preview">**Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads** oder **Link kopieren**, wenn Sie das Beta-Erlebnis verwenden.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopie
 Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
 
 1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**
-
-   oder
-
-   <span class="preview">**Link kopieren** bei Verwendung des Beta-Erlebnisses</span>.
+1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren** oder **Link kopieren**, wenn Sie das Beta-Erlebnis verwenden.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen**
-
-   oder
-
-   <span class="preview"> **Löschen** im Beta-Kommentar-Erlebnis</span>.
+1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen** oder **Löschen**, wenn Sie das Beta-Kommentarerlebnis verwenden.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Es ist nicht möglich, Systemaktualisierungen zu deaktivieren, wenn die Beta-Kommentarfunktion verwendet wird. </span>
-><span class="preview">Die Informationen in diesem Abschnitt beziehen sich nur auf die Funktionalität, die im aktuellen Abschnitt &quot;Aktualisierungen&quot;verfügbar ist. </span>
-><span class="preview">Weitere Informationen zu Systemaktualisierungen in der Beta-Version finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Es ist nicht möglich, Systemaktualisierungen zu deaktivieren, wenn die Beta-Kommentarfunktion verwendet wird.
+>Die Informationen in diesem Abschnitt beziehen sich nur auf die Funktionalität, die im aktuellen Abschnitt &quot;Aktualisierungen&quot;verfügbar ist.
+>Weitere Informationen zu Systemaktualisierungen in der Beta-Version finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Informationen angezeigt:

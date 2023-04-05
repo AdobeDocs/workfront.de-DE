@@ -6,9 +6,9 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Sie können auf das neue Design für die folgenden Objekte zugreifen:
-> * <span class="preview">Probleme beim Aktivieren der Beta-Kommentarfunktion. </span>
+> * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
-   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
+   >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
    >
-   >     * <span class="preview">Startseite</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
+   >     * Startseite
+   >     * Zusammenfassungsbereich in Listen
+   >     * Zusammenfassungsbereich in Timesheets
 >
 > * Ziele
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erleb
 1. (Optional) Verwenden Sie Formatierungen, Emojis, Include-Links oder Bilder, wie im Artikel &quot;Verwenden von Rich Text in einem Workfront-Update&quot;beschrieben. [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klicken **Antwort** , um die Antwort zu speichern.
 
-<div class="preview">
-
 ### Antworten auf einen Kommentar bei Verwendung des Beta-Kommentars
 
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
@@ -113,7 +112,6 @@ Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erleb
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) neben der Aktualisierung finden Sie weitere Optionen zum Verwalten der Antwort. Weitere Informationen finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## Antworten auf eine Aktualisierung per E-Mail-Benachrichtigung
 

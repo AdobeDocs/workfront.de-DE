@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->Wir gestalten derzeit den Abschnitt &quot;Aktualisierungen&quot;eines Objekts neu.
->
+>Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
 >Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Der Zugriff auf das neue Design erfolgt über die folgenden Objekte und in den folgenden Umgebungen:
+>Sie können auf das neue Design für die folgenden Objekte zugreifen:
+> * Probleme beim Aktivieren der Beta-Kommentarfunktion.
+   >
+   >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
+   >
+   >     * Startseite
+   >     * Zusammenfassungsbereich in Listen
+   >     * Zusammenfassungsbereich in Timesheets
 >
->* <span class="preview">Wenn Sie das kommentierende Beta-Erlebnis für die folgenden Objekte aktivieren:</span>
-   >
-   >     * <span class="preview">Probleme</span>
-
-   >     
-   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
-   >
-   >     * <span class="preview">Startseite</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
->
->* Standardmäßig als aktuelles Kommentarerlebnis für die folgenden Objekte:
-   >
-   >     * Ziele
+> * Ziele
 
    >
-   >     Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
@@ -116,7 +111,7 @@ Aktuell können Sie mit der Beta-Kommentarfunktion zu den folgenden Objekten Kom
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Probleme</span></li> 
+     <li>Probleme</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
 >
 >Informationen zur Objekthierarchie in Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Es ist nicht möglich, auf Systemaktualisierungen im neuen Beta-Kommentarerlebnis zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Es ist nicht möglich, auf Systemaktualisierungen im neuen Beta-Kommentarerlebnis zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Einschränkungen des Abschnitts Updates
 

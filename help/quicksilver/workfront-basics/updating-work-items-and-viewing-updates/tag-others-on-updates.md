@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -26,17 +26,18 @@ ht-degree: 0%
 >Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Sie können auf das neue Design für die folgenden Objekte zugreifen:
-> * <span class="preview">Probleme beim Aktivieren der Beta-Kommentarfunktion. </span>
+> * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
-   >     <span class="preview">Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:</span>
+   >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
    >
-   >     * <span class="preview">Startseite</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Listen</span>
-   >     * <span class="preview">Zusammenfassungsbereich in Timesheets</span>
+   >     * Startseite
+   >     * Zusammenfassungsbereich in Listen
+   >     * Zusammenfassungsbereich in Timesheets
 >
 > * Ziele
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -131,8 +132,6 @@ Das Tagging anderer Benutzer in einer Aktualisierung hängt davon ab, welches Er
    ![](assets/tagging-transparency-350x192.png)
 
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<div class="preview">
 
 ### Tagging anderer Benutzer über Aktualisierungen im Beta-Kommentarerlebnis
 

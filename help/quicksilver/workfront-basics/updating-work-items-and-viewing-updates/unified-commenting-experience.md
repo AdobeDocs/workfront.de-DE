@@ -5,9 +5,9 @@ title: Einheitliches Kommentierungserlebnis
 description: Das neue einheitliche Kommentierungserlebnis
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Neues Kommentierungserlebnis
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
 
@@ -91,7 +91,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">Ersetzt durch Bearbeitungskommentar </span>
+   <td>Ersetzt durch Bearbeitungskommentar 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">Diese Funktion sollte mit Version 23.2 verfügbar sein und wurde zeitweilig verzögert.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2. Quartal 2023 
    </td>
@@ -318,7 +316,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
 
 ## Neues Kommentierungserlebnis suchen
 
-Das neue Kommentierungserlebnis wird derzeit für die folgenden Objekte unterstützt, wenn der Abschnitt Updates in den folgenden Versionen angezeigt wird:
+Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt, wenn der Abschnitt Updates in den folgenden Versionen von Workfront angezeigt wird:
 
 * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
 
-   <div class="preview">
-
-   * Probleme.
+   * Probleme
    Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * Standardmäßig als Haupterlebnis für die Kommentarfunktion:
 
@@ -408,8 +403,6 @@ Das neue Kommentierungserlebnis wird derzeit für die folgenden Objekte unterst�
 
    Weitere Informationen zum Verwalten von Updates für Ziele finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 So aktivieren Sie die neue Kommentarfunktion Beta:
 
@@ -423,5 +416,3 @@ So aktivieren Sie die neue Kommentarfunktion Beta:
    Klicken Sie auf  **Systemaktivität** um die von Workfront erzeugten Aktivitätsaktualisierungen anzuzeigen.
 
    Weitere Informationen zum Aktualisieren von Objekten im neuen Kommentar-Erlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>
