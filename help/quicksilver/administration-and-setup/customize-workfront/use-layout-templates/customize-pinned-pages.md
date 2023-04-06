@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Anpassen von fixierten Seiten mithilfe einer Layoutvorlage
-
-{{highlighted-preview}}
 
 In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Diese können entweder über das Hauptmenü aufgerufen werden. ![](assets/main-menu-icon.png) oder Dashboards.
 
@@ -70,9 +68,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Wiederholen Sie den vorherigen Schritt, um alle anderen Seiten zu veröffentlichen.
 
-1. <span class="preview"> (Optional) Um eine Nadel umzubenennen, halten Sie den Mauszeiger über den Pinsel, klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **Pin umbenennen**. Geben Sie den neuen Pin-Namen ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.</span>
+1. (Optional) Um eine Nadel umzubenennen, halten Sie den Mauszeiger über den Pinsel, klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **Pin umbenennen**. Geben Sie den neuen Pin-Namen ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.
 
-   <span class="preview"> Ein kleines Popup-Fenster wird mehrere Sekunden angezeigt, nachdem Sie auf das Häkchen geklickt oder die Eingabetaste drücken, sodass Sie die Änderung des PIN-Namens vor dem Speichern rückgängig machen können.</span>
+   Ein kleines Popup-Fenster wird mehrere Sekunden angezeigt, nachdem Sie auf das Häkchen geklickt oder die Eingabetaste drücken, sodass Sie die Änderung des PIN-Namens vor dem Speichern rückgängig machen können.
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 
