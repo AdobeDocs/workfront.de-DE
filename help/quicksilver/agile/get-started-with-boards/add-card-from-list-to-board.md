@@ -5,7 +5,7 @@ title: Hinzufügen vorhandener Aufgaben oder Probleme zu einer Adobe Workfront-P
 description: Sie können eine Aufgabe oder ein Problem in einer Pinnwand in Adobe Workfront aus einer Listen- oder Berichtansicht hinzufügen.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Hinzufügen vorhandener Aufgaben oder Probleme zu einem [!DNL Adobe Workfront] Pinnwand oder Workstream
-
-{{highlighted-preview-article-level}}
 
 Sie können eine Aufgabe oder ein Problem zu einer Pinnwand oder einem Workstream hinzufügen in [!DNL Adobe Workfront] aus einer Listen- oder Berichtsansicht oder aus den Objektdetails.
 
