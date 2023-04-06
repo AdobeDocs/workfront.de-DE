@@ -7,7 +7,7 @@ description: Sie können ein benutzerdefiniertes Formular aus einer Kopie mit de
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Entwerfen eines Formulars aus einer Kopie mit dem Formularentwickler
-
-{{highlighted-preview-article-level}}
 
 Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorhandenen basiert. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 

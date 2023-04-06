@@ -7,7 +7,7 @@ description: Sie können vorhandene benutzerdefinierte Formulare mit dem Formula
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler
-
-{{highlighted-preview-article-level}}
 
 Sie können ein benutzerdefiniertes Formular jederzeit umbenennen, nachdem es mit dem Formularentwickler erstellt wurde.
 

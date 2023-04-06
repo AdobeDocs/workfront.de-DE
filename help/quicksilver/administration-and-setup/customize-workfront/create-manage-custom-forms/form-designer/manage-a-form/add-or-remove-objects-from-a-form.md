@@ -7,7 +7,7 @@ description: Mit dem Formularentwickler können Sie Objekttypen zu benutzerdefin
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular mit dem Formularentwickler
-
-{{highlighted-preview-article-level}}
 
 Mit dem Formularentwickler können Sie Objekttypen zu einem vorhandenen benutzerdefinierten Formular hinzufügen oder löschen.
 

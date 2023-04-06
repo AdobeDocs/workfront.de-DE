@@ -7,7 +7,7 @@ description: Sie können ein benutzerdefiniertes Formular mit dem Formularentwic
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 
 
 # Entwerfen eines Formulars mit dem Formularentwickler
-
-{{highlighted-preview-article-level}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -186,7 +184,7 @@ So fügen Sie ein Textfeld hinzu:
     </ul></td>
     </tr>
     <tr>
-    <td>Anleitungen</td>
+    <td>Anweisungen</td>
     <td>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png">
     </td>
@@ -299,7 +297,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     </ul></td>
     </tr> 
     <tr> 
-    <td role="rowheader">Anleitungen</td> 
+    <td role="rowheader">Anweisungen</td> 
     <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
@@ -332,7 +330,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">Erforderliches Feld festlegen</td> 
+    <td role="rowheader">Zu einem erforderlichen Feld machen</td> 
     <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
@@ -388,7 +386,7 @@ Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzu
 +++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
 * **Typahead**: Ermöglicht Benutzern die Eingabe des Namens eines Objekts, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn der Benutzer mit der Eingabe beginnt. Dieser Feldtyp unterstützt die folgenden Objekte:
-   * Benutzer
+   * Benutzerin oder Benutzer
    * Gruppe
    * Aufgabengebiet
    * Portfolio
@@ -442,7 +440,7 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
@@ -470,7 +468,7 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Erforderliches Feld festlegen</td> 
+      <td role="rowheader">Zu einem erforderlichen Feld machen</td> 
       <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
        <td><ul>
     <li>Typeahead</li>
@@ -553,7 +551,7 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
        </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr> 
@@ -629,7 +627,7 @@ So fügen Sie eine Adobe XD-Datei hinzu:
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr> 

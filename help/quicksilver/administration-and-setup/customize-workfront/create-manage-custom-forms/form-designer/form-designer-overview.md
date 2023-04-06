@@ -7,7 +7,7 @@ description: Sie können ein benutzerdefiniertes Formular entwerfen, das Benutze
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Übersicht über den Formularentwickler
-
-{{highlighted-preview-article-level}}
 
 Sie können den neuen Formularentwickler verwenden, um ein benutzerdefiniertes Formular zu entwerfen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 

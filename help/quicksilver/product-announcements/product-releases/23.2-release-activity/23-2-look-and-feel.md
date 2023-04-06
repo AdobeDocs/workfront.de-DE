@@ -4,10 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Eine Liste aller in Version 23.2 verfügbaren Änderungen finden Sie unter [23.2
 
 >[!NOTE]
 >
->Vorschau-Version: 4. April 2023; Geplante Produktionsversion: 18. April 2023
+>Vorschau-Version: 4. April 2023; Geplante Produktionsversion: 20. April 2023
 
 Wir haben die Liste der Entwürfe im Bereich Anforderungen aktualisiert, um sie mit den aktuelleren Listen in Workfront konsistent zu machen.
 Zu den Aktualisierungen gehören die folgenden:

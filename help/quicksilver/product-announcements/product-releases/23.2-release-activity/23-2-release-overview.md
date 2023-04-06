@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2 Versionsübersicht
 
-Auf dieser Seite finden Sie Informationen zu Funktionen, die in der für die Woche vom 3. April 2023 geplanten Version 23.2 enthalten sind.
-
-Die Verbesserungen auf dieser Seite sind in der Vorschau -Umgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die Version 23.2 der geplanten Produktionsversion naht.
+Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 23.1. Diese Verbesserungen wurden mit der Version 23.2 vom 6. und 7. April 2023 in der Produktionsumgebung verfügbar gemacht.
 
 Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream</a></p>
                         <p>Sie können einer Workfront-Pinnwand oder Workstream-Kartenliste jetzt direkt aus den Objektdetails vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie einer Pinnwand hinzufügen, werden zu verbundenen Karten, und alle Elemente, die einem Workstream hinzugefügt werden, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -429,7 +427,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Arbeitsfläche-Dashboards</a><span style="color: #ff0000;"> Bald!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboards für die Arbeitsfläche</a></p>
                         <p>Arbeitsfläche-Dashboards wurden als laufende Funktion für Dashboards hinzugefügt, die in Layoutvorlagen aktiviert werden können. In Arbeitsfläche-Dashboards können neben neuen Layoutoptionen auch Visualisierungen der Berichtsarbeitsfläche mit vorhandenen Berichten kombiniert werden. Derzeit werden nur Listenberichte unterstützt, aber während der Entwicklung werden weitere Optionen hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -464,8 +462,8 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische Anmelde- und Formensammlungen in der App</span></a><span style="color: #ff0000;"> Bald!</span>
-                        <p>Biometrische Anmeldung ist jetzt eine Option für eine schnellere Anmeldung bei der Mobile App! Nachdem die biometrische Verifizierung nach einer ersten Anmeldung eingerichtet wurde, können Benutzer Fingerabdrücke oder Gesichtserkennung verwenden, um sich schnell mit nur gelegentlicher Kennwortüberprüfung erneut bei der App anzumelden. Darüber hinaus wird es eine Reihe von Verbesserungen beim Erscheinungsbild der allgemeinen Anmeldeerfahrung geben, die in einer späteren Aktualisierung eingehen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische Anmelde- und Formensammlungen in der App</span></a>
+                        </span></a><p>Biometrische Anmeldung ist jetzt eine Option für eine schnellere Anmeldung bei der Mobile App! Nachdem die biometrische Verifizierung nach einer ersten Anmeldung eingerichtet wurde, können Benutzer Fingerabdrücke oder Gesichtserkennung verwenden, um sich schnell mit nur gelegentlicher Kennwortüberprüfung erneut bei der App anzumelden. Darüber hinaus wird es eine Reihe von Verbesserungen beim Erscheinungsbild der allgemeinen Anmeldeerfahrung geben, die in einer späteren Aktualisierung eingehen.</p>
                         <p>Karten-Sammlungen werden jetzt auch in der mobilen App unterstützt, sodass mobile Benutzer Sammlungen, auf die sie Zugriff haben, in der Desktop-Version von ihrer Liste der Karten für Mobilgeräte anzeigen können.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -537,7 +535,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Neukunden, die in Adobe Unified Experience integriert werden sollen</a><span style="color: #ff0000;"> Bald!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Neukunden, die in Adobe Unified Experience integriert werden sollen</a></p>
                         <p>Das einheitliche Erlebnis der Adobe umfasst:
                         <ul>
                         <li>Eine Anmeldung für alle Adobe Apps über Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Testversand-Viewer wird in einer neuen Registerkarte für Benutzer des einheitlichen Erlebnisses geöffnet</a><span style="color: #ff0000;"> Bald!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Testversand-Viewer wird in einer neuen Registerkarte für Benutzer des einheitlichen Erlebnisses geöffnet</a></p>
                         <p>Der Testversand-Viewer wird jetzt auf einer neuen Registerkarte für Benutzer von Unified Experience geöffnet.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Es gibt derzeit keine Workfront Testversandaktualisierungen in der Version. Dies
 
 Neue Funktionen in der Version 23.2 von Workfront Goals. Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Adobe Workfront-Ziele mit Version 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API-Version 15
+### API-Version 16
 
-Für API Version 15 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
+API-Version 16 wird mit Version 22.3 veröffentlicht. Für API Version 16 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API Version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API Version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
