@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '"Berichterstellungselemente: Filter, Ansichten und Gruppierungen'
 description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront aufweisen muss, sind Filter, Ansichten und Gruppierungen. Jedes Element liefert unterschiedliche Informationen in jedem Bericht.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Dieses Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt, die sich im Status von [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung]und werden mir zugewiesen.
 
-   Weitere Informationen zum Erstellen eines Filters finden Sie im Artikel unter &quot;Erstellen oder Bearbeiten eines Filters im Beta-Builder&quot; [Erstellen und Bearbeiten von Filtern in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Weitere Informationen zum Erstellen eines Filters finden Sie im Artikel unter &quot;Erstellen oder Bearbeiten eines Filters im Standard-Builder&quot;im Abschnitt [Erstellen und Bearbeiten von Filtern in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Benennen Sie den Filter und klicken Sie auf **[!UICONTROL Speichern]**.
 

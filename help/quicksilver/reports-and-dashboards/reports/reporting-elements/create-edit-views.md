@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
 description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können mehrere Arten von Ansichten in Adobe Workfront verwenden.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%

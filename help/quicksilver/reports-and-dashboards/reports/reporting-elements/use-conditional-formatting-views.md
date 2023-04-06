@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Bedingte Formatierung in Ansichten verwenden
 description: Wenn Sie Ihre Berichte mit anderen Benutzern in Adobe Workfront teilen, sollten Sie die Ansicht der Berichte anpassen, um das Lesen bestimmter Informationen zu vereinfachen oder einfach nur zu erkennen.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 2%

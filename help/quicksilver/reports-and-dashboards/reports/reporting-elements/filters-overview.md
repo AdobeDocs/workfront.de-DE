@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filterübersicht in Adobe Workfront
 description: Sie können Filter in Adobe Workfront verwenden, um die Anzahl der auf dem Bildschirm angezeigten Informationen in Listen, Berichten oder anderen Bereichen zu reduzieren.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
 
 # Filterübersicht in Adobe Workfront
-
-<span class="preview">Beachten Sie, dass in der Vorschau-Umgebung das erweiterte Filtererlebnis (zuvor als &quot;Beta&quot;bezeichnet) jetzt standardmäßig verwendet wird. Diese verbesserten Filter sind jetzt &quot;Standard&quot;und das ältere Filtererlebnis ist &quot;alt&quot;.</span>
 
 Sie können Filter in Adobe Workfront verwenden, um die Anzahl der auf dem Bildschirm angezeigten Informationen in Listen, Berichten oder anderen Bereichen zu reduzieren.
 
@@ -169,11 +167,11 @@ Wenn Sie einen Filter erstellen, verbinden Sie mehrere Elemente, aus denen Filte
 
 Dies ist ein Beispiel für den standardmäßigen Filter-Builder:
 
-![Standardfilter-Builder](assets/filter-statements-with-or-and-and-nwe.png)
+![Standardfilter-Builder](assets/filter-sample-with-or.png)
 
-Dies ist ein Beispiel für den Beta-Filter-Builder:
+Dies ist ein Beispiel für den alten Filter-Builder:
 
-![Beta-Filter-Builder](assets/filter-sample-with-or.png)
+![Legacy-Filter-Builder](assets/filter-statements-with-or-and-and-nwe.png)
 
 Ein Filter enthält die folgenden Elemente:
 
@@ -233,13 +231,13 @@ Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedin
 
 ## Erstellen von Filtern in der Builder-Oberfläche
 
-Sie können Filter wie folgt mithilfe der Standard- oder Beta-Builder-Oberfläche erstellen:
+Sie können einen Filter auf folgende Weise mithilfe der Standard- oder Legacy-Builder-Oberfläche erstellen:
 
 * Von Grund auf
 * Vorhandenen Filter ändern
 * Vorhandenen Filter kopieren
 
-Informationen zum Erstellen eines Filters mit der Standard- oder Beta-Builder-Oberfläche finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Informationen zum Erstellen eines Filters mit der Standard- oder Legacy-Builder-Oberfläche finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Erstellen von Filtern über die Benutzeroberfläche des Textmodus
 

@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filter in Adobe Workfront erstellen oder bearbeiten
 description: Mit einem Filter können Sie die Anzahl der angezeigten Informationen in einer Liste von Elementen einschränken. Sie können bestimmte Kriterien basierend auf bestimmten Informationen über ein Objekt definieren und nur die Objekte anzeigen, die diesen Kriterien entsprechen.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2380'
 ht-degree: 1%
 
 ---
 
 # Filter in Adobe Workfront erstellen oder bearbeiten
-
-<span class="preview">Beachten Sie, dass in der Vorschau-Umgebung das erweiterte Filtererlebnis (zuvor als &quot;Beta&quot;bezeichnet) jetzt standardmäßig verwendet wird. Diese verbesserten Filter sind jetzt &quot;Standard&quot;und das ältere Filtererlebnis ist &quot;alt&quot;.</span>
 
 Mit einem Filter können Sie die Anzahl der angezeigten Informationen in einer Liste von Elementen einschränken. Sie können bestimmte Kriterien basierend auf bestimmten Informationen über ein Objekt definieren und nur die Objekte anzeigen, die diesen Kriterien entsprechen.
 
@@ -76,11 +74,6 @@ Sie können Filter anhand der in der folgenden Tabelle beschriebenen Typen von F
 </tr>
 <tr>
 <td>Standard-Builder</td>
-<td>Alle Objekte </td>
-<td>Listen und Berichte</td>
-</tr>
-<tr>
-<td>Beta-Builder</td>
 <td>
 <ul>
 <li> <p>Projekte</p> </li>
@@ -100,149 +93,75 @@ Sie können Filter anhand der in der folgenden Tabelle beschriebenen Typen von F
 <ul>
 <li> <p>Die Liste "Projekte"im Szenario-Planer</p> <p>Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md">Übersicht über den Szenario-Planer</a>. </p> </li>
 </ul>
-<p>HINWEIS: Beta-Builder für Filter sind in Berichten nicht verfügbar.
+<p>HINWEIS: Standardgenerator für Filter sind in Berichten nicht verfügbar.
 </td>
+</tr>
+<tr>
+<td>Legacy-Builder</td>
+<td>Alle Objekte </td>
+<td>Listen und Berichte</td>
 </tr>
 </tbody>
 </table>
 
 Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront verstehen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Erstellen oder Bearbeiten von Filtern im Standard-Builder {#create-filter-in-standard-builder}
-
-Sie können Filter in Listen und Berichten wie folgt erstellen:
-
-* Von Grund auf
-* Vorhandenen Filter bearbeiten und als neuen Filter speichern
-
-Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist das Erstellen eines Filters von Grund auf oder aus einem vorhandenen Filter ähnlich.
-
-1. Markieren Sie eine Liste oder einen Bericht mit dem anzupassenden Filter.
-1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >Der Ersteller des Berichts muss die Bearbeitung von Filtern zulassen, damit die Dropdownliste Filter in einem Bericht angezeigt werden kann. Der Filter Berichtsstandard wird standardmäßig auf einen Bericht angewendet. Der Filter Berichtsstandard kann nur angepasst werden, wenn Sie den Bericht bearbeiten.
-
-   ![Filter-Dropdown](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klicken **Neuer Filter** oben in der Filterliste
-
-   Oder
-
-   Bewegen Sie den Mauszeiger über den zu ändernden Filter und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png).
-
-   Der Builder zum Anpassen der Filterstarts.
-
-1. Führen Sie einen der folgenden Schritte aus:
-
-   * Ändern Sie vorhandene Filterregeln, indem Sie auf die vorhandene Regel klicken und eine neue Option auswählen.
-   * Hinzufügen einer Filterregel durch Klicken auf **Hinzufügen einer weiteren Filterregel** eingeben, beginnen Sie mit der Eingabe des Namens der Option, für die Sie eine Regel im **Eingabe des Feldnamens beginnen** und klicken Sie dann auf ihn, wenn er in der Dropdown-Liste angezeigt wird.
-
-      Die mit dem Objekt Ihres Filters verknüpften Felder werden im Abschnitt **Eingabe des Feldnamens beginnen** ankreuzen.
-
-   * Klicken **UND** oder **ODER** beim Hinzufügen einer neuen Filterregel.\
-      Verwenden Sie beim Hinzufügen von Filterregeln die Filter-Modifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-      >[!NOTE]
-      >
-      >Wenn Sie eine Gruppe von UND-Anweisungen durch mehrere OR-Anweisungen verbinden, müssen Sie die Felder wiederholen, die sich zwischen den OR-Anweisungen für jede Gruppe von Anweisungen nicht ändern.
-      >
-      >![Connected filter-Anweisungen](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >Wenn Sie einen Filter für Aufgaben erstellen, die das Wort &quot;Marketing&quot;enthalten und sich in Projekten mit dem Status &quot;Aktuell&quot;oder &quot;Planung&quot;befinden, müssen Sie über die folgenden Filterregeln verfügen:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Obgleich Aufgabe: Name Enthält &quot;Marketing&quot;ändert sich nicht zwischen den beiden UND-Filtergruppen, sondern muss in der zweiten Gruppe wiederholt werden.
-
-   * Löschen Sie eine vorhandene Filterregel, indem Sie auf das X-Symbol klicken.
-
-1. (Optional) Klicken Sie auf **In den Textmodus wechseln** , um über die Benutzeroberfläche des Textmodus einen Filter hinzuzufügen.
-
-   Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. Klicken **Filter speichern** , um einen neuen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
-
-   Oder
-
-   Klicken **Als neuen Filter speichern** , um einen neuen Filter aus dem ausgewählten Filter zu erstellen.
-
-   Der neue Filter wird in der Filterliste angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
-
-1. (Optional) Führen Sie einen der folgenden Schritte aus:
-
-   * Geben Sie von Ihnen erstellte Filter für andere Benutzer frei oder stellen Sie sie systemweit zur Verfügung. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Entfernen Sie Filter, die nicht mehr in der Liste angezeigt werden sollen. Weitere Informationen finden Sie unter [Entfernen von Filtern, Ansichten und Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## Erstellen oder Bearbeiten eines Filters im Beta-Builder
-
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Folgendes:
 
-* Sie finden den Beta-Builder an denselben Stellen wie die Standard-Filterschnittstelle für die in der obigen Tabelle aufgelisteten Bereiche.
-* Sie können zwischen der Standard- und der Beta-Builder-Oberfläche hin und her wechseln, wo die Beta-Option verfügbar ist.
-* Nachdem Sie den Beta-Builder in einem Bereich aktiviert haben, ist dies das Standarderlebnis für alle Bereiche, in denen er verfügbar ist. Wenn Sie beispielsweise den Beta-Builder in einer Projektliste aktivieren, ist dies auch das Standarderlebnis für das Erstellen von Aufgaben- und Problemfiltern in Listen.
-* Sie können Filter auf folgende Weise über die Beta-Builder-Oberfläche erstellen:
+* Sie finden den Standard-Builder an denselben Stellen wie die alte Filterschnittstelle für die in der obigen Tabelle aufgelisteten Bereiche.
+* Der Standard-Builder ist das Standarderlebnis für alle Bereiche, in denen er verfügbar ist. Um zum alten Filter-Builder zu wechseln, klicken Sie auf das **Mehr** Menü neben [!UICONTROL **Filter**] und wählen Sie [!UICONTROL **Zurück zu Legacy-Filtern**].
 
-   * Von Grund auf
-   * Vorhandenen Filter bearbeiten
-   * Vorhandenen Filter duplizieren
-   * Duplizieren Sie einen vorhandenen Filter, bearbeiten Sie ihn und speichern Sie ihn als neuen Filter.
+   ![Zurück zu Legacy-Filtern](assets/use-legacy-filters.png)
 
-* Gespeicherte Filter sind in beiden Buildern verfügbar, unabhängig davon, welches Erlebnis Sie ursprünglich erstellt haben. Wenn Sie beispielsweise einen Filter mit dem Standard-Builder erstellt haben, können Sie ihn auch in der Beta-Builder-Oberfläche finden und ändern.
+* Gespeicherte Filter sind in beiden Buildern verfügbar, unabhängig davon, welches Erlebnis Sie ursprünglich erstellt haben. Wenn Sie beispielsweise einen Filter mit dem Legacy-Builder erstellt haben, können Sie ihn auch in der Standard-Builder-Oberfläche finden und ändern.
 
    >[!TIP]
    >
-   >Ein Filter &quot;Alle&quot;ist nicht im Beta-Builder enthalten, da alle Listenelemente angezeigt werden, wenn keine Filter angewendet werden. Klicken **Alle löschen** oben rechts im Builder, um alle aktiven Filter zu löschen und alle Elemente anzuzeigen. Wenn **Alle löschen** abgeblendet ist, werden keine Filter angewendet.
+   >Der Standard-Builder enthält keinen Filter &quot;Alle&quot;, da alle Listenelemente angezeigt werden, wenn keine Filter angewendet werden. Klicken [!UICONTROL **Alle löschen**] oben rechts im Builder, um alle aktiven Filter zu löschen und alle Elemente anzuzeigen. Wenn [!UICONTROL **Alle löschen**] abgeblendet ist, werden keine Filter angewendet.
 
-* Die Standard- und Beta-Builder haben beim Erstellen von Filtern mit mehreren Aussagen, die die UND- und ODER-Operatoren kombinieren, eine etwas andere Syntax. Daher können diese Filter beim Wechsel von einem Builder zu einem anderen unterschiedlich angezeigt werden.
+* Die Standard- und Legacy-Builder haben beim Erstellen von Filtern mit mehreren Aussagen, die die UND- und ODER-Operatoren kombinieren, eine etwas andere Syntax. Daher können diese Filter beim Wechsel von einem Builder zu einem anderen unterschiedlich angezeigt werden.
 
    >[!INFO]
    >
    >Das folgende Szenario ist vorhanden:
    >
-   >1. Verwenden Sie den Beta-Builder, um einen Filter mit der folgenden Syntax zu erstellen:
+   >1. Verwenden Sie den Standard-Builder, um einen Filter mit der folgenden Syntax zu erstellen:
    >
    >   `(A OR B) AND C`
    >
-   >1. Wechseln Sie zurück zum Standard-Builder und bearbeiten Sie den Filter anhand der Syntax des Standard-Builders, wie im Abschnitt [Erstellen oder Bearbeiten von Filtern im Standard-Builder](#create-filter-in-standard-builder) in diesem Artikel. Die Syntax für den Standard-Builder zeigt die Filteranweisungen wie folgt an:
+   >1. Wechseln Sie zum Legacy-Builder und bearbeiten Sie den Filter anhand der Syntax des Legacy-Builders, wie im Abschnitt [Erstellen oder Bearbeiten von Filtern im Legacy-Builder](#create-filter-in-legacy-builder) in diesem Artikel. Die Syntax für den Legacy-Builder zeigt die Filteranweisungen wie folgt an:
    >
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    >
-   >1. Ändern Sie den Filter in der Standardoberfläche.
-   >1. Wechseln Sie zurück zum Beta-Builder. Die Filteranweisung wird entsprechend der im Standard-Builder unterstützten Logik angezeigt, wie oben beschrieben.
+   >1. Ändern Sie den Filter in der alten Benutzeroberfläche.
+   >1. Wechseln Sie zurück zum Standard-Builder. Die Filteranweisung wird entsprechend der Logik angezeigt, die im Legacy-Builder unterstützt wird, wie oben beschrieben.
 
    >
-   >   Der Filter wird in der Beta-Builder-Oberfläche wie folgt angezeigt:
+   >   Der Filter wird in der Standard-Builder-Oberfläche wie folgt angezeigt:
    >  
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    > 
-   >   Dies geschieht, weil der Filter in der Standardoberfläche geändert wurde.
+   >   Dies geschieht, weil der Filter in der alten Benutzeroberfläche geändert wurde.
 
-Erstellen Sie einen Filter über die Beta-Builder-Oberfläche:
+## Erstellen oder Bearbeiten von Filtern im Standard-Builder
+
+Sie können Filter auf folgende Weise mithilfe der Standard-Builder-Oberfläche erstellen:
+
+* Von Grund auf
+* Vorhandenen Filter bearbeiten
+* Vorhandenen Filter duplizieren
+* Duplizieren Sie einen vorhandenen Filter, bearbeiten Sie ihn und speichern Sie ihn als neuen Filter.
+
+Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
 1. Rufen Sie eine Liste auf, in der Sie einen Filter erstellen möchten oder der den anzupassenden Filter enthält.
-1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png), und aktivieren Sie dann die **Beta-Einstellung** ![Beta-Einstellung](assets/beta-toggle-white-on-existing-filters.png) , um auf den Beta-Builder zuzugreifen. Sie ist standardmäßig deaktiviert.
+1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png) , um die Builder-Oberfläche zu öffnen.
 
-   Bestätigen Sie dann bei Bedarf die Beta-Vereinbarung. Sie müssen nur einmal zustimmen und der Beta-Builder bleibt aktiviert.
-
-   Dadurch wird die Beta-Filter-Builder-Oberfläche geöffnet.
-
-   >[!TIP]
-   >
-   >Die Kopfzeile der Filtergenerator-Oberfläche wird blau, wenn Sie den Beta-Builder aktivieren. Nachdem Sie die Beta-Builder-Oberfläche aktiviert haben, bleibt sie in Workfront für alle Bereiche aktiviert, in denen sie verfügbar ist.
-
-   ![Beta-Filter-Builder](assets/new-filters-all-filter-types.png)
+   ![Standardfilter-Builder](assets/new-filters-all-filter-types.png)
 
 1. Überprüfen Sie die folgenden Filterlisten:
 
@@ -312,7 +231,7 @@ Erstellen Sie einen Filter über die Beta-Builder-Oberfläche:
 
    >[!TIP]
    >
-   >Beim Erstellen des Filters werden die Ergebnisse sofort in der Liste angezeigt. Wenn der Filterbereich die Liste abdeckt, können Sie sie schließen, um die Anzeige zu sehen. Die eingegebenen Informationen bleiben beim erneuten Öffnen des Bedienfelds im Beta-Builder.
+   >Beim Erstellen des Filters werden die Ergebnisse sofort in der Liste angezeigt. Wenn der Filterbereich die Liste abdeckt, können Sie sie schließen, um die Anzeige zu sehen. Die eingegebenen Informationen bleiben beim erneuten Öffnen des Bedienfelds im Builder.
 
 1. Geben Sie den Wert eines Felds ein, nach dem Sie filtern möchten. Geben Sie beispielsweise den Namen eines Problems ein, wenn Sie nach `Issue:Name`. Wählen Sie den Wert aus, wenn er in der Liste angezeigt wird.
 
@@ -335,7 +254,7 @@ Erstellen Sie einen Filter über die Beta-Builder-Oberfläche:
 
    >[!INFO]
    >
-   >Wenn Sie nach Projekten filtern, die &quot;marketing&quot;im Namen enthalten, die entweder nicht vollständig sind und nicht &quot;On Hold&quot;sind, können Sie die folgenden Filtergruppen verwenden:
+   >Wenn Sie nach Projekten filtern, die &quot;Marketing&quot;im Namen enthalten, die entweder nicht vollständig sind und sich nicht auf &quot;Auf Halten&quot;befinden, können Sie die folgenden Filtergruppen verwenden:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -351,15 +270,15 @@ Erstellen Sie einen Filter über die Beta-Builder-Oberfläche:
 
    >[!TIP]
    >
-   >Es wird empfohlen, möglichst viele Filter mit der Beta-Builder-Oberfläche zu erstellen und nur den Textmodus zu verwenden, wenn Sie Änderungen am Filter vornehmen müssen, die nur im Textmodus unterstützt werden.
+   >Es wird empfohlen, so viele Filter wie möglich mit der Standard-Builder-Oberfläche zu erstellen und nur den Textmodus zu verwenden, wenn Sie Änderungen am Filter vornehmen müssen, die nur im Textmodus unterstützt werden.
 
    Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicken **Textmodus beenden** , um zur Beta-Builder-Oberfläche zurückzukehren.
+1. Klicken **Textmodus beenden** , um zur standardmäßigen Builder-Oberfläche zurückzukehren.
 
    >[!WARNING]
    >
-   >Einige Textmodusanweisungen werden im Beta-Builder oder in der Standardoberfläche nicht unterstützt. Wenn Sie den Textmodus beenden, wenn Sie diese Arten von Anweisungen erstellt haben, wird möglicherweise eine Warnmeldung angezeigt.
+   >Einige Textmodusanweisungen werden im Standard-Builder oder in der alten Benutzeroberfläche nicht unterstützt. Wenn Sie den Textmodus beenden, wenn Sie diese Arten von Anweisungen erstellt haben, wird möglicherweise eine Warnmeldung angezeigt.
 
 1. (Optional) Klicken Sie auf **Anwenden** , um den Filter auf die Liste anzuwenden und die Ergebnisse anzuzeigen.
 
@@ -411,4 +330,78 @@ Erstellen Sie einen Filter über die Beta-Builder-Oberfläche:
    * Geben Sie den Filter für andere frei oder stellen Sie ihn systemweit zur Verfügung. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Löschen Sie den Filter, wenn er nicht mehr gültig ist oder ein Duplikat ist. Sie können nur Filter löschen, deren Inhaber Sie sind. Sie können Filter entfernen, die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Entfernen von Filtern, Ansichten und Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## Erstellen oder Bearbeiten von Filtern im Legacy-Builder {#create-filter-in-legacy-builder}
+
+Sie können veraltete Filter in Listen und Berichten wie folgt erstellen:
+
+* Von Grund auf
+* Vorhandenen Filter bearbeiten und als neuen Filter speichern
+
+Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist das Erstellen eines Filters von Grund auf oder aus einem vorhandenen Filter ähnlich.
+
+1. Markieren Sie eine Liste oder einen Bericht mit dem anzupassenden Filter.
+1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >Der Ersteller des Berichts muss die Bearbeitung von Filtern zulassen, damit die Dropdownliste Filter in einem Bericht angezeigt werden kann. Der Filter Berichtsstandard wird standardmäßig auf einen Bericht angewendet. Der Filter Berichtsstandard kann nur angepasst werden, wenn Sie den Bericht bearbeiten.
+
+   ![Filter-Dropdown](assets/filter-drop-down-expanded-nwe.png)
+
+1. Klicken **Neuer Filter** oben in der Filterliste.
+
+   Oder
+
+   Bewegen Sie den Mauszeiger über den zu ändernden Filter und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png).
+
+   Der Builder zum Anpassen der Filterstarts.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Ändern Sie vorhandene Filterregeln, indem Sie auf die vorhandene Regel klicken und eine neue Option auswählen.
+   * Hinzufügen einer Filterregel durch Klicken auf **Hinzufügen einer weiteren Filterregel** eingeben, beginnen Sie mit der Eingabe des Namens der Option, für die Sie eine Regel im **Eingabe des Feldnamens beginnen** und klicken Sie dann auf ihn, wenn er in der Dropdown-Liste angezeigt wird.
+
+      Die mit dem Objekt Ihres Filters verknüpften Felder werden im Abschnitt **Eingabe des Feldnamens beginnen** ankreuzen.
+
+   * Klicken **UND** oder **ODER** beim Hinzufügen einer neuen Filterregel.\
+      Verwenden Sie beim Hinzufügen von Filterregeln die Filter-Modifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+      >[!NOTE]
+      >
+      >Wenn Sie eine Gruppe von UND-Anweisungen durch mehrere OR-Anweisungen verbinden, müssen Sie die Felder wiederholen, die sich zwischen den OR-Anweisungen für jede Gruppe von Anweisungen nicht ändern.
+      >
+      >![Connected filter-Anweisungen](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+      >
+      >Wenn Sie einen Filter für Aufgaben erstellen, die das Wort &quot;Marketing&quot;enthalten und sich in Projekten mit dem Status &quot;Aktuell&quot;oder &quot;Planung&quot;befinden, müssen Sie über die folgenden Filterregeln verfügen:
+      >
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Current`
+      >`OR`
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Planning`
+      >
+      >Obgleich Aufgabe: Name Enthält &quot;Marketing&quot;ändert sich nicht zwischen den beiden UND-Filtergruppen, sondern muss in der zweiten Gruppe wiederholt werden.
+
+   * Löschen Sie eine vorhandene Filterregel, indem Sie auf das X-Symbol klicken.
+
+1. (Optional) Klicken Sie auf **In den Textmodus wechseln** , um über die Benutzeroberfläche des Textmodus einen Filter hinzuzufügen.
+
+   Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+1. Klicken **Filter speichern** , um einen neuen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
+
+   Oder
+
+   Klicken **Als neuen Filter speichern** , um einen neuen Filter aus dem ausgewählten Filter zu erstellen.
+
+   Der neue Filter wird in der Filterliste angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus:
+
+   * Geben Sie von Ihnen erstellte Filter für andere Benutzer frei oder stellen Sie sie systemweit zur Verfügung. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Entfernen Sie Filter, die nicht mehr in der Liste angezeigt werden sollen. Weitere Informationen finden Sie unter [Entfernen von Filtern, Ansichten und Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 

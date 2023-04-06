@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Platzhalterfiltervariablen
 description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf einen generischen Benutzer oder ein generisches Datum statt auf einen bestimmten Benutzer oder ein bestimmtes Datum verweisen. Auf diese Weise sind die von Ihnen erstellten Elemente dynamisch und die Ergebnisse ändern sich je nach Kontext, in dem sie verwendet werden.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder früher)
 | **m** | Monat |
 | **y** | Jahr |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Qualifizierer** |  |
 |---|---|
 | **b** | Beginn der Woche (Sonntag) |
 | **e** | Wochenende (Samstag) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Benutzer** |  |
 |---|---|
 | **+** | Wert zum Platzhalterwert hinzufügen |
 | **-** | Wert vom Platzhalterwert subtrahieren |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Beispiel: der Platzhalter `$$TODAYb+2w` bezieht sich auf &quot;2 Wochen ab Beginn dieser Woche&quot;. Der Platzhalter *`$$NOW+2h` bezieht sich auf &quot;2 Stunden in der Zukunft&quot;.
 
@@ -135,7 +135,7 @@ Workfront stellt die folgenden benutzerbasierten Variablen bereit:
      <li>Meine Berichte</li> 
      <li>Meine Projekte</li> 
      <li>Meine Aufgaben</li> 
-     <li>Meine Anfragen</li> 
+     <li>Meine Probleme</li> 
      <li>Meine Stunden</li> 
     </ul> </td> 
   </tr> 
