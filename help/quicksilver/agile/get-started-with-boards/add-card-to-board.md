@@ -6,7 +6,7 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td> 
-      <td><p>Geben Sie die geschätzte Anzahl von Stunden für das Ausfüllen der Karte ein. Dies ist nur ein manueller Eintrag.</p></td>
+      <td>Geben Sie die geschätzte Anzahl von Stunden für das Ausfüllen der Karte ein. Dies ist nur ein manueller Eintrag.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Fälligkeitsdatum]</strong></td> 

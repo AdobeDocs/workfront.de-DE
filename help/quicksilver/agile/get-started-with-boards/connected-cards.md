@@ -6,10 +6,10 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td>
-      <td><p>Die Anzahl der Stunden, in denen die Karte ausgefüllt werden soll.</p><p>Wenn Sie die frühe Funktion verwenden, können Sie sich für [!DNL Workfront] [!UICONTROL Pinnwände], wobei die Schätzung geändert wird, ändert sich auch der Story-Punktwert auf der verbundenen Seite [!DNL Workfront] -Objekt.</p><p>Wenn Sie sich nicht für frühe Funktionen entscheiden, ist dieses Feld nur ein manueller Eintrag und der Wert darf nicht größer als 99 sein.</p></td>
+      <td><p>Die Anzahl der Stunden, in denen die Karte ausgefüllt werden soll.</p><p>Wenn Sie die Schätzung ändern, ändert sich auch der Story-Punkt-Wert auf dem verbundenen [!DNL Workfront] -Objekt.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -184,10 +184,6 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 
 ## Login-Stunden auf einer verbundenen Karte
-
->[!NOTE]
->
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
 
 Sie müssen über die richtigen Berechtigungen verfügen, um Stunden für die verbundene Aufgabe oder das Problem zu protokollieren.
 

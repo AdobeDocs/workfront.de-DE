@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![Aufnahmespalte](assets/intake-column-added3.png)
 
    Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
-
-   >[!NOTE]
-   >
-   >Die schreibgeschützte Ansicht für Karten in der Ansauspalte ist nur über die frühe Funktion &quot;Opt-in&quot;für [!DNL Workfront] [!UICONTROL Pinnwände].
 
    Sie können die Elemente in der Annahmespalte manuell neu anordnen.
 

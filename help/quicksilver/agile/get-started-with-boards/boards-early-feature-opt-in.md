@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Schreibgeschützte Karten in der Annahmespalte</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Feld "Schätzung"auf Karte dem Feld "Meldungspunkte"der Aufgabe zuordnen</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Erstellen von Workflows und Hinzufügen von Foren zu Workflows</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Iterationen erstellen</td>
-   <td>Teilweise freigegeben (in der Vorschau verfügbar)</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Kartenliste oder Rückstand definieren</td>
-   <td>Teilweise freigegeben (in der Vorschau verfügbar)</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Importieren von Unteraufgaben als Checklisten-Elemente auf Karten</td>
@@ -142,19 +142,31 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Anzeige von Feldern auf einer Karte anpassen</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>  
   <tr>
    <td>Standardstatus für in Spalten verschobene Karten definieren</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Login-Stunden auf verbundenen Karten</td>
-   <td>Teilweise freigegeben</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Benutzerdefinierte Felder zu verbundenen Karten hinzufügen</td>
-   <td>Teilweise freigegeben (in der Vorschau verfügbar)</td>
+   <td>Veröffentlicht</td>
+  </tr>
+  <tr>
+   <td>E-Mail-Benachrichtigungen für Pinnwände definieren</td>
+   <td>Geplant</td>
+  </tr>
+  <tr>
+   <td>Migrieren von alten Kanban-Karten zu Pinnwänden</td>
+   <td>Geplant</td>
+  </tr>
+  <tr>
+   <td>Dynamische Pinnwände erstellen</td>
+   <td>Geplant</td>
   </tr>
  </tbody> 
 </table>
