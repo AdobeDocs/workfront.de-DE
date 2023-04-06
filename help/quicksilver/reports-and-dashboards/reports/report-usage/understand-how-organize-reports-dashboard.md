@@ -7,9 +7,9 @@ description: Sie können sehen, ob einem Dashboard in Adobe Workfront ein Berich
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anzeigen von Dashboard-Informationen in der Berichtsliste
 
+>[!WARNING]
+>
+>Die Aufnahme der Spalte &quot;Dashboards&quot;in eine Berichtsliste kann die Ladezeiten erheblich erhöhen, insbesondere bei langen Berichtlisten.
+
 So erstellen Sie eine Ansicht mit Dashboard-Informationen für eine Berichtsliste:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Berichte**.
-
 1. Klicken Sie in der Liste der Berichte auf die **Ansicht** Dropdown-Menü.
 1. Klicken **Neue Ansicht**.
 1. Klicken **Spalte hinzufügen**.

@@ -6,186 +6,37 @@ description: Informationen zum Betaprogramm für das bevorstehende Tool zur Beri
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 3%
+source-wordcount: '1060'
+ht-degree: 1%
 
 ---
 
 
 # Reporting-Arbeitsfläche - Beta: Übersicht
 
-## Die Beta-Version der Reporting-Arbeitsfläche
+## Berichtsarbeitsfläche
 
-Eine komplette Neuvorstellung der Berichterstellung in Workfront, dem neuen Tool für Reporting-Canvas, steht kurz vor dem Abschluss und wird bald für öffentliche Tests verfügbar sein. Bei der Entwicklung der Reporting-Arbeitsfläche haben wir hart daran gearbeitet, ein Erlebnis zu bieten, das maximale Flexibilität bietet, verbunden mit einem intuitiven, modularen Design, sodass Benutzer wie Sie Ihre eigenen Daten am effektivsten für die Erstellung und Freigabe von Berichten nutzen können. Durch einen neuen, einheitlichen Berichtstyp, mit dem Sie nahezu jedes Element auf eine grenzenlose Arbeitsfläche ziehen und ablegen können, wird die Erstellung eines visuellen Daten-Master-Elements bald einfacher denn je sein.
+Eine komplette Neuerung der Berichterstellung in Workfront, dem neuen Tool für die Berichtsarbeitsfläche, befindet sich derzeit in der Entwicklung. Bei der Erstellung von Reporting-Arbeitsflächen haben wir hart daran gearbeitet, ein Erlebnis zu bieten, das maximale Flexibilität bietet, verbunden mit einem intuitiven, modularen Design, sodass Benutzer wie Sie Ihre eigenen Daten am effektivsten für die Erstellung und Freigabe von Berichten nutzen können. Durch einen neuen, einheitlichen Berichtstyp, mit dem Sie nahezu jedes Element auf eine grenzenlose Arbeitsfläche ziehen und ablegen können, wird die Erstellung eines visuellen Daten-Master-Elements bald einfacher denn je sein.
 
-Dieser Artikel enthält Informationen dazu, wie die Beta-Version funktioniert und wie Ihr Unternehmen uns dabei helfen kann, die Reporting-Arbeitsfläche vor dem offiziellen Start zu verbessern.
+Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die auf bestimmte Kunden beschränkt ist. Neue Reporting-Arbeitsflächenfunktionen werden jetzt über Canvas-Dashboards bereitgestellt. Siehe **Entwicklungsplan** unten finden Sie weitere Informationen.
 
-### Veröffentlichungszeitplan
+### Entwicklungsplan
 
-* Aktuelle Beta-Version: Die aktuelle Beta-Version ist privat und auf eine bestimmte Anzahl von Kunden beschränkt.
-* Public Beta Launch: TBD (Sobald ein Datum bekannt gegeben wird, werden wir allen Kunden den Zugriff auf die Beta-Version der Reporting-Arbeitsfläche gewähren.)
-* Offizielle Version: TBD
+Wir befinden uns in der letzten Phase der Lösung eines Problems mit der Datenqualität, das wir frühzeitig in der Beta-Phase der Reporting-Arbeitsfläche beobachtet haben. Wir werden in Kürze die Arbeit fortsetzen, um neue Visualisierungen bereitzustellen, die Auswahl der berichtspflichtigen Workfront-Objekte zu erweitern und die Erlebnisse bei der Berichterstellung und -verteilung zu verbessern, die allesamt von zentraler Bedeutung für die Erreichung unserer Ziele für die Reporting-Arbeitsfläche sind.
 
-### Funktionen
-
-Bei der Entwicklung der Berichtarbeitsfläche haben wir einige Funktionen radikal neu gestaltet - und von Grund auf neu gestaltet -, um die Berichterstellung zu optimieren. In der folgenden Tabelle werden die wichtigsten Funktionen der Reporting-Arbeitsfläche im Vergleich zu vorhandenen Reporting-Tools sowie deren aktueller Veröffentlichungsstatus vorgestellt:
-
->[!NOTE]
->
->Eine chronologische Liste der hinzugefügten Funktionen und gelösten Probleme finden Sie unter [Reporting-Arbeitsfläche - Beta: Release-Aktivität](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Funktionsbeschreibung</th> 
-   <th>Alte Terminologie </th> 
-   <th>Berichtarbeitsfläche - Terminologie</th> 
-   <th>Status</th> 
-  </tr> 
-  <tr> 
-   <td>Berichte</td> 
-   <td>Bericht</td> 
-   <td>Berichtsarbeitsfläche</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Dashboards</td> 
-   <td>Dashboard</td> 
-   <td>Berichtsarbeitsfläche</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Tabellen</td> 
-   <td>Tab Details</td> 
-   <td>Tabellenblock</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Diagramme</td> 
-   <td>Registerkarte "Diagramm"</td> 
-   <td>Visualisierungsbaustein</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Zwischensummen</td> 
-   <td>Registerkarte "Zusammenfassung"</td> 
-   <td>KPI-Visualisierung</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Bohrpfad</td> 
-   <td>Bericht-Viewer-Modal</td> 
-   <td>Bericht-Viewer-Überlagerung</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Spalten</td> 
-   <td>Registerkarte "Ansicht"</td> 
-   <td>Tabellenbearbeitung</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Filter</td> 
-   <td>Filter, Registerkarte</td> 
-   <td>Tabellenbearbeitung</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Gruppen</td> 
-   <td>Gruppenregisterkarte</td> 
-   <td>Tabellenbearbeitung</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Feldkonfiguration<br>(Aggregationen und bedingte Formatierung)</td> 
-   <td>Registerkarte "Ansicht"</td> 
-   <td>Tabellenbearbeitung (Spalte ausgewählt)</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Größe von Spalten ändern</td> 
-   <td>Textmodus</td> 
-   <td>Tabellenbearbeitung (Spalte ausgewählt)</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-   <tr> 
-   <td>Externer Inhalt</td> 
-   <td>Externe Seite</td> 
-   <td>Webinhaltsbaustein</td> 
-   <td>Veröffentlicht</td> 
-  </tr> 
-   <tr> 
-   <td>Wird exportiert</td> 
-   <td>Berichtsaktionen</td> 
-   <td><strong>Mehr</strong> Menü im Viewer</td> 
-   <td>Teilweise veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Spalten freigeben</td> 
-   <td>Textmodus</td> 
-   <td>Feldaufbau</td> 
-   <td>Teilweise veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Berechnete Spalten</td> 
-   <td>Textmodus</td> 
-   <td>Feldaufbau</td> 
-   <td>Teilweise veröffentlicht</td> 
-  </tr> 
-  <tr> 
-   <td>Diagrammstile</td> 
-   <td>Registerkarte "Diagramm"</td> 
-   <td>Visualisierungsbaustein (Registerkarte "Stil")</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Geplanter Versand</td> 
-   <td>Berichtsaktionen</td> 
-   <td><strong>Mehr</strong> Menü im Viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Berichtzugriff gewähren</td> 
-   <td>Berichtsaktionen</td> 
-   <td><strong>Mehr</strong> Menü im Viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Nicht authentifizierter Dashboard-Zugriff</td> 
-   <td>Dashboard-Aktionen</td> 
-   <td><strong>Mehr</strong> Menü im Viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Berichtsdaten bearbeiten</td> 
-   <td>Inline-Bearbeitung</td> 
-   <td>Zusammenfassungsbereich</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Seitenfilter</td> 
-   <td>K. A.</td> 
-   <td>Arbeitsflächenfilter</td> 
-   <td>Geplant</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->Die hier aufgeführten Funktionen werden im Rahmen eines Tiered Product Release-Schemas veröffentlicht. Funktionen, auf die Sie in dieser Beta-Version zugreifen können, sind möglicherweise nicht in der vollständigen Version verfügbar, je nach Plan Ihres Unternehmens.
+Wir werden diese neuen Erlebnisse schrittweise bereitstellen, beginnend mit Version 23.2, über die neue Seite &quot;Canvas-Dashboards&quot;, die jetzt in Ihrer Vorschau-Umgebung verfügbar ist. Mit Leinwanddashboards können Sie neben den neuen, von uns erstellten Berichtsfunktionen vorhandene Berichte anzeigen. Diese Funktion dient als primäre Umgebung für die Bereitstellung und Prüfung neuer Funktionen für die Berichtarbeitsfläche. Weitere Informationen zum Aktivieren und Verwenden von Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Beta-Teilnahme
 
+>[!IMPORTANT]
+>
+>Die unten stehenden Beta-Informationen richten sich an Administratoren, die bereits in der Beta-Version der Reporting-Arbeitsfläche enthalten waren und keine neuen Teilnehmer mehr akzeptieren. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche testen möchten, während sie hinzugefügt werden, lesen Sie **Entwicklungsplan** Informationen zum Aktivieren von Canvas-Dashboards.
+
 ### Verfügbarkeit
 
-Die Beta-Version der Reporting-Arbeitsfläche steht allen Unternehmen in AWS unabhängig von der Region zur Verfügung.
+Die Beta-Version der Reporting-Arbeitsfläche steht allen Unternehmen in AWS zur Verfügung, unabhängig von der Region.
 
 ### Betaversion
 
@@ -252,7 +103,7 @@ Um unseren Kunden die Beta so früh wie möglich bereitzustellen, haben wir sie 
 * Dokumentengenehmigung
 * Ausgabe
 * Stunde
-* Anfrage
+* Problem
 * Notiz
 * Portfolio
 * Projekt

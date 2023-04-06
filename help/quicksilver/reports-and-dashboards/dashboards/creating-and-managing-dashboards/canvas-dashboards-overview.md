@@ -5,7 +5,7 @@ title: Leinwand-Dashboards - Übersicht
 description: Sie können Canvas-Dashboards erstellen, die Visualisierungen der Berichtsarbeitsfläche mit traditionellen Berichten und neuen Layoutoptionen integrieren.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Diese Funktion befindet sich in der Entwicklung und unterstützt noch nicht:
 * Kalenderintegration
 * aufgerufene Berichte
 * Verteilung über Layoutvorlagen
-
 
 ## Auf Canvas-Dashboards zugreifen
 
