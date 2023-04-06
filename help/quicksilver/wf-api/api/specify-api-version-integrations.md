@@ -6,18 +6,16 @@ description: API-Version in Ihren Integrationen angeben
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # API-Version in Ihren Integrationen angeben
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
-
-Alle Adobe Workfront-URIs müssen nach dem &quot;attask/api&quot;-Teil des URI auf eine bestimmte Version der API verweisen. Im folgenden Beispiel wird Version 15.0 aufgerufen:
+Alle Adobe Workfront-URIs sollten auf eine bestimmte Version der API nach dem &quot;attask/api&quot;-Teil des URI verweisen. Im folgenden Beispiel wird Version 15.0 aufgerufen:
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ Weitere Informationen zum Veröffentlichungsintervall und zur Einstellung der Ve
 
 >[!IMPORTANT]
 >
->* Nach Version 23.2 wird die Standardversion der API auf die neueste Version festgelegt. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. Daher sollten nach der Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird.
+>* Die Standardversion der API wird auf die neueste Version festgelegt. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. **Daher sollten nach der Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird.**
 >
 >* Wenn Ihr Unternehmen derzeit die Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
->
->* <span class="preview">Die Standard-API in der Vorschau-Umgebung ist auf die neueste Version eingestellt. Die Standard-API in der Produktionsumgebung wird auf die neueste Version nach der Version 23.2 (April 2023) eingestellt</span>.
 >
 >Die neueste Version der API finden Sie unter [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
 
