@@ -6,9 +6,9 @@ title: Erstellen einer Iteration in einem Workflow
 description: Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Nachdem eine Iteration gestartet wurde, können Sie nur den Iterationsnamen ändern.
 
+## Iteration löschen
+
+1. Klicken Sie auf [!UICONTROL **Kartenliste**] im Workflow-Stream und öffnen Sie die Iterationsansicht.
+1. Klicken Sie auf **Löschen** neben der Iteration.
+1. Klicken [!UICONTROL **Iteration löschen**] in der Bestätigungsnachricht angezeigt.
