@@ -7,16 +7,16 @@ description: Sie können einem der unten aufgeführten Objekte ein vorhandenes b
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
 
 # Benutzerdefiniertes Formular zu einem Objekt hinzufügen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Sie können einem der unten aufgeführten Objekte ein vorhandenes benutzerdefiniertes Formular hinzufügen. Ein benutzerdefiniertes Formular enthält benutzerdefinierte Felder, in denen Sie Informationen zum Objekt speichern können.
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in der Vorschau-Umgebung in großen Mengen finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Das Hinzufügen benutzerdefinierter Formulare zu Objekten ist für alle Objekte mit Ausnahme von Projekten identisch.
+>
+>Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in Stapeln finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Wählen Sie mehrere Objekte in der Liste aus.
 
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf **Bearbeiten** icon  ![](assets/edit-icon.png)oder klicken Sie einfach auf **Bearbeiten** icon ![](assets/edit-icon.png).
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf **Bearbeiten** icon  ![](assets/edit-icon.png)oder klicken Sie einfach auf **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
 1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
 1. Wählen Sie das Formular aus, das Sie mit allen ausgewählten Objekten im **Auswahl treffen** Dropdown-Menü.
    >[!NOTE]
    >
    >Wenn Sie das Formular nicht im Dropdown-Menü finden können, bedeutet dies, dass mindestens einem der Objekte das Formular bereits zugeordnet ist. Bestimmen Sie, welches Objekt das Element ist, und entfernen Sie es aus Ihrer Auswahl, bevor Sie das Formular zu den restlichen Objekten hinzufügen können.
+
 
 1. Klicken **Änderungen speichern**.
 

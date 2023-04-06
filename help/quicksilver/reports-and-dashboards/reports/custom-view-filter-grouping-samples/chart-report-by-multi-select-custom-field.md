@@ -7,16 +7,16 @@ description: Sie können einen Bericht nicht nach einem benutzerdefinierten Mehr
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Sie können einen Bericht nicht nach einem benutzerdefinierten Mehrfachfeld ordnen. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
 
@@ -109,7 +109,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
    >[!NOTE]
    >
-   ><span class="preview">Diese Option wurde aus der Massenbearbeitung von Projekten in der Vorschau-Umgebung entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie auf **Mehr** ![](assets/more-icon-45x33.png) am Anfang einer Projektliste und **Ausdrücke neu berechnen**. </span>
+   >Diese Option wurde aus der Massenbearbeitung von Projekten entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie auf die **Mehr** icon ![](assets/more-icon-45x33.png) am Anfang einer Projektliste und **Ausdrücke neu berechnen**.
 
 
 1. Rufen Sie den Bericht auf, in dem Sie die Grafik für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.

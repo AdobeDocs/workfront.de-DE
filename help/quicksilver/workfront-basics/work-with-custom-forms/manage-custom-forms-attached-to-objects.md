@@ -6,16 +6,16 @@ description: Sie können die Reihenfolge aktualisieren, in der die an ein Objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt werden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Sie können die Reihenfolge aktualisieren, in der die an ein Objekt angehängten benutzerdefinierten Formulare angezeigt, entfernt oder die Anzeige von benutzerdefinierten Formularen auf mehreren Objekten durch Massenbearbeitung geändert werden.
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Informationen zum Verwalten von benutzerdefinierten Formularen für Projekte in der Umgebung &quot;Vorschau&quot;finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Die Verwaltung benutzerdefinierter Formulare für Objekte ist für alle Objekte mit Ausnahme von Projekten identisch.
+>
+>Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in Stapeln finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
 Wenn Sie mehrere benutzerdefinierte Formulare auf Objekte anwenden, die als Massenbearbeitung dienen, können Sie die Art und Weise bearbeiten, wie benutzerdefinierte Formulare auf diesen Objekten angezeigt werden, und gemeinsame Felder in den benutzerdefinierten Formularen bearbeiten.
 
