@@ -5,21 +5,15 @@ title: Anpassen der angezeigten Felder auf einer Karte
 description: Sie können anpassen, welche Felder auf einer Karte angezeigt werden, indem Sie ein Feld deaktivieren, damit es nicht in der vollständigen Karten- oder gekürzten Ansicht angezeigt wird, oder ein Feld in der gekürzten Kartenansicht ausblenden.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 
 # Anpassen der angezeigten Felder auf einer Karte
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Diese Funktion ist nur über die frühe Funktion verfügbar, für die [!DNL Workfront] [!UICONTROL Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Standardmäßig werden alle verfügbaren Felder auf einer Karte angezeigt, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Sie können anpassen, welche Felder angezeigt werden durch:
 
@@ -71,13 +65,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Um alle Felder in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder standardmäßig wiederherstellen**].
 1. Klicken [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
 
-<div class="preview">
-
 ## Hinzufügen benutzerdefinierter Felder zu Karten
+
+Benutzerdefinierte Felder sind auf verbundenen Karten verfügbar. Sie sind nur in der vollständigen Kartenansicht sichtbar, nicht in der gekürzten Ansicht auf der Pinnwand.
 
 >[!NOTE]
 >
->Wenn Sie Ihren Karten ein benutzerdefiniertes Feld hinzufügen, sind die Daten auf der Karte schreibgeschützt. Benutzerdefinierte Felder sind nur auf verbundenen Karten verfügbar.
+>Wenn Sie Ihren Karten ein benutzerdefiniertes Feld hinzufügen, sind die Daten auf der Karte schreibgeschützt.
 
 1. Öffnen Sie die Pinnwand und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich Konfigurieren zu öffnen.
 1. Erweitern [!UICONTROL **Karten**].
@@ -88,8 +82,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Nach benutzerdefinierten Feldern suchen](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >Die folgenden Feldtypen können nicht zu Karten hinzugefügt werden: Adobe XD, Image, PDF, Video.
+
 1. Wählen Sie den Feldnamen aus.
+1. (Optional) Klicken Sie auf die Schaltfläche **[!UICONTROL Feldwert]** um dieses benutzerdefinierte Feld in ein anderes zu ändern.
+1. (Optional) Ändern Sie die **[!UICONTROL Feldbezeichnung]** auf den Feldnamen, der auf Karten angezeigt werden soll.
+1. Wenn Sie alle Änderungen vorgenommen haben, klicken Sie auf [!UICONTROL **Feld speichern**].
 
-   Das benutzerdefinierte Feld wird zur Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld nach den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) oder löschen Sie sie aus der Pinnwand.
+   ![Benutzerdefinierter Feldwert und Titel](assets/save-custom-field-value-label.png)
 
-</div>
+   Das benutzerdefinierte Feld wird zur Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld entsprechend den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) Bearbeiten Sie das Feld oder löschen Sie es aus allen Karten.
+
