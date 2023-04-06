@@ -1,26 +1,26 @@
 ---
 title: Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp
-description: In diesem Artikel wird erläutert, was Sie als Adobe Workfront-Administrator für jeden Objekttyp in den einzelnen Zugriffsebenen zulassen können. Außerdem wird erläutert, was die Standardkonfiguration für die einzelnen Zugriffstypen ist.
-author: Caroline
+description: In diesem Artikel wird erläutert, was Sie als Adobe Workfront-Administrator für jeden Objekttyp in den einzelnen veralteten Zugriffsebenen zulassen können. Außerdem wird erläutert, was die Standardkonfiguration für die einzelnen Arten von Legacy-Zugriffsrechten ist.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3456'
 ht-degree: 10%
 
 ---
 
 # Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp
 
-In diesem Artikel wird erläutert, was Sie als Adobe Workfront-Administrator für jeden Objekttyp in den einzelnen Zugriffsebenen zulassen können. Außerdem wird erläutert, was die Standardkonfiguration für die einzelnen Zugriffstypen ist.
+In diesem Artikel wird erläutert, was Sie als Adobe Workfront-Administrator für jeden Objekttyp in den einzelnen veralteten Zugriffsebenen zulassen können. Außerdem wird erläutert, was die Standardkonfiguration für die einzelnen Arten von Legacy-Zugriffsrechten ist.
 
 Informationen zu allen für einen Objekttyp verfügbaren Funktionen in den einzelnen Zugriffsebenen finden Sie unter [Für jeden Objekttyp verfügbare Funktionen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projekte
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Projekte konfigurieren:
+Sie können für jede Legacy-Zugriffsebene die folgenden Optionen für Projekte konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Projekte konfigu
 
 ## Aufgaben
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Aufgaben konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Aufgaben konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Aufgaben konfigu
 
 ## Probleme
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Probleme konfigurieren:
+Sie können für jede Legacy-Zugriffsebene die folgenden Optionen für Probleme konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Probleme konfigu
 
 ## Portfolios
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Portfolios konfigurieren:
+Sie können für jede Legacy-Zugriffsebene die folgenden Optionen für Portfolios konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Portfolios konfi
 
 ## Programme
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Programme konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Programme konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Programme konfig
 
 ## Berichte, Dashboards und Kalender
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Berichte, Dashboards und Kalender konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Berichte, Dashboards und Kalender konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Berichte, Dashbo
 
 ## Filter, Ansichten und Gruppierungen
 
-Sie können für jede Zugriffsebene die folgenden Optionen für Filter, Ansichten und Gruppierungen konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Filter, Ansichten und Gruppierungen konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ Sie können für jede Zugriffsebene die folgenden Optionen für Filter, Ansichte
 
 ## Dokumente
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Dokumente konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Dokumente konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -571,9 +571,9 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Dokumente konfig
  </tbody> 
 </table>
 
-## Benutzer
+## Benutzende
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Benutzer konfigurieren:
+Sie können für jede Legacy-Zugriffsebene die folgenden Optionen für Benutzer konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Benutzer konfigu
 
 ## Teams
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Teams konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Teams konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Teams konfigurie
 
 ## Vorlagen
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Vorlagen konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Vorlagen konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Vorlagen konfigu
 
 ## Finanzdaten
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für Finanzdaten konfigurieren:
+In jeder Legacy-Zugriffsebene können Sie die folgenden Optionen für Finanzdaten konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für Finanzdaten konf
 
 ## Ressourcenverwaltung
 
-Auf jeder Zugriffsebene können Sie die folgenden Optionen für die Ressourcenverwaltung konfigurieren:
+Sie können für jede Legacy-Zugriffsebene die folgenden Optionen für die Ressourcenverwaltung konfigurieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ Auf jeder Zugriffsebene können Sie die folgenden Optionen für die Ressourcenve
 
 ## Bereich &quot;Szenario-Planer&quot;
 
-Die Standardeinstellung für alle Zugriffsebenen ist &quot;Kein Zugriff&quot;. Ein Workfront-Administrator kann diese Option ändern, um Zugriff für alle Planer-, Worker- und Reviewer-Zugriffsebenen anzuzeigen oder zu bearbeiten.
+Die Standardeinstellung für alle bisherigen Zugriffsebenen ist &quot;Kein Zugriff&quot;. Ein Workfront-Administrator kann diese Option ändern, um Zugriff für alle Planer-, Worker- und Reviewer-Zugriffsebenen anzuzeigen oder zu bearbeiten.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront Goals Area
 
-Alle sechs standardmäßigen Zugriffsebenen (und alle vier Lizenztypen) können Workfront-Ziele bearbeiten und anzeigen.
+Alle sechs standardmäßigen Zugriffsstufen (und alle vier Lizenztypen) können Workfront-Ziele bearbeiten und anzeigen.
 
 Die Standardoption ist &quot;Bearbeiten&quot;.

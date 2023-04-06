@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
-title: Für jeden Objekttyp verfügbare Funktionen
+title: Für jeden Objekttyp verfügbare Funktionen für verschiedene alte Zugriffsebenen
 description: In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 12%
+source-wordcount: '1446'
+ht-degree: 11%
 
 ---
 
-# Für jeden Objekttyp verfügbare Funktionen
+# Für jeden Objekttyp verfügbare Funktionen für verschiedene alte Zugriffsebenen
 
 In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 
@@ -73,7 +73,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 | Systemweit freigeben | ✓&#42; |   |   |   |   |
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Vorgänger hinzufügen | ✓ | ✓ |   |   |   |
-|  Anfragen hinzufügen | ✓ | ✓ |   |   |   |
+|  Probleme hinzufügen | ✓ | ✓ |   |   |   |
 | Aufgabe bearbeiten (ohne Status) | ✓ | ✓ |   |   |   |
 | Aufgabenstatus ändern | ✓ | ✓ |   |   |   |
 | Dokumente hinzufügen | ✓ | ✓ | ✓ |   |   |
@@ -91,7 +91,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 | Finanzierung anzeigen | ✓ | ✓ | ✓ |   |   |
 | Aktualisierungen/Kommentare | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 | Bearbeiten | ✓ |   |   |   |   |
 | Kopieren | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,13 +305,13 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 | Link (mit Integration) | ✓ | ✓ | ✓ | ✓ |   |
 | Verknüpfung aufheben (mit Integration) | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Nur für Dokumentordner verfügbar, nicht für Dokumente
 
-## Benutzer
+## Benutzende
 
 <table style="table-layout:auto"> 
  <col> 
@@ -477,7 +477,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 | Kopieren | ✓ |   |   |   |   |
 | Bearbeiten von Vorlagendetails | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da 
 | Risiken für Projekte erstellen | ✓ |   |   |
 | Risiken in Projekten anzeigen | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Be
 | Budgetressourcen in den Tools für die Ressourcenplanung&#42;&#42; | ✓ |   |   |   |   |
 | Anhängen von Ressourcen an Projekte, Vorlagen und Benutzer | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Be
 | Szenarien im Hauptmenü anzeigen ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | Anzeigen von Plänen und Initiativen, die der Benutzer erstellt hat&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

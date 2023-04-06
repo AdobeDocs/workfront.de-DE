@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Übersicht über Adobe Workfront-Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* Lizenztyp-Limit: Planner-Beschränkung
 >
 >Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## Anzeigen von Informationen zu monatlichen Zuweisungen von Testsendungen und Dokumententscheidungen
+
+Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
+
+>[!IMPORTANT]
+>
+>Die Entscheidungsgrenzen für Beweise und Dokumente gelten nicht für Benutzer auf [Legacy-Workfront-Lizenzen und -Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan. Sie können Ihre monatliche Zuteilung unter Einrichtung > Lizenzen anzeigen.
+
+Weitere Informationen zu den Beschränkungen für Testsendungen und Dokumentenentscheidungen finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite &quot;Lizenzen&quot; {#add-or-remove-a-home-group-to-the-licenses-page}
 

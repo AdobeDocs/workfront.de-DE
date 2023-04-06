@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden, wie hier beschrieben: [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter
 
-Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Überblick über veraltete Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. (Sie können dies für jede Zugriffsstufe mit Ausnahme von &quot;Systemadministrator&quot;und &quot;Externer Benutzer&quot;tun.)
+>Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. Sie können dies für jede Zugriffsstufe mit Ausnahme von &quot;Systemadministrator&quot;und &quot;Externer Benutzer&quot;tun.
 
 ## Zugriffsanforderungen
 
@@ -41,11 +42,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td>Aktueller Plan: Standard
+   <p>oder</p>
+   <p>Veralteter Plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="#" class="MCXref xref selected">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie aufzunehmen. In ACME-Unternehmen kann beispielsweise eine Kopie der Zugriffsebene des Planers ACME Planner heißen.</p> </td> 
+      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie aufzunehmen. Im ACME-Unternehmen kann beispielsweise eine Kopie der Standardzugriffsstufe ACME Standard heißen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung </td> 
@@ -77,12 +80,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Lizenztyp</td> 
-      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz die am ehesten mit der Art der Zugriffsebene in Verbindung stehende Lizenz ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</td> 
+      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz die am ehesten mit der Art der Zugriffsebene in Verbindung stehende Lizenz ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Überblick über veraltete Lizenzen</a> oder <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über veraltete Adobe Workfront-Lizenzen</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn **Plan** wird im **Lizenztyp** zum Bereich **Administratorzugriff zulassen für** und wählen Sie die administrativen Zugriffsberechtigungen für diejenigen, die diese Zugriffsebene haben sollen.
+1. (Bedingt) Wenn **Standard** oder **Plan** wird im **Lizenztyp** zum Bereich **Administratorzugriff zulassen für** und wählen Sie die administrativen Zugriffsberechtigungen für diejenigen, die diese Zugriffsebene haben sollen.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li>Hinzufügen neuer Vorgangsrollen</li> 
         <li>Bearbeiten der Rollenabrechnung und der Kostensätze</li> 
        </ul> 
-       <p>Wichtige Informationen zum Zugriff auf Finanzdaten, die einem Planer-Benutzer mit administrativem Zugriff auf Stellenrollen zur Verfügung stehen, finden Sie unter <a href="#planner-users-with-administrative-access-to-job-roles">Planen von Benutzern mit administrativem Zugriff auf Aufgabenrollen</a>.</p>
+       <p>Wichtige Informationen zum Zugriff auf Finanzdaten, die einem Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen zur Verfügung stehen, finden Sie unter <a href="#planner-users-with-administrative-access-to-job-roles">Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Arbeitszeittabellen und Stunden</td> 
-      <td> <p>Gruppenadministratoren können Benutzern in den von ihnen verwalteten Gruppen und Untergruppen Timesheet-Profile zuweisen.</p> <p>Wenn diese Option nicht aktiviert ist, können Gruppenadministratoren anderen Benutzern in den von ihnen verwalteten Gruppen und Untergruppen keine Zeitleistenprofile zuweisen, obwohl sie diese erstellen können.</p> <p>Alle anderen Benutzer mit einer Planungslizenz können alle Stunden und Timesheets in Workfront anzeigen.</p> <p>Wenn diese Option nicht aktiviert ist, können Benutzer Stunden nur in folgenden Bereichen anzeigen:</p> 
+      <td> <p>Gruppenadministratoren können Benutzern in den von ihnen verwalteten Gruppen und Untergruppen Timesheet-Profile zuweisen.</p> <p>Wenn diese Option nicht aktiviert ist, können Gruppenadministratoren anderen Benutzern in den von ihnen verwalteten Gruppen und Untergruppen keine Zeitleistenprofile zuweisen, obwohl sie diese erstellen können.</p> <p>Alle anderen Benutzer mit einer Standard- oder Planungslizenz können alle Stunden und Zeitpläne in Workfront anzeigen.</p> <p>Wenn diese Option nicht aktiviert ist, können Benutzer Stunden nur in folgenden Bereichen anzeigen:</p> 
        <ul> 
         <li>Von ihnen verwaltete Projekte, Aufgaben oder Probleme</li> 
         <li>Ihre eigenen Zeitpläne</li> 
@@ -203,9 +206,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Informationen dazu, wie ein Adobe-Administrator einem Benutzer eine Systemadministratorzugriffsstufe zuweist, finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planen von Benutzern mit administrativem Zugriff auf Aufgabenrollen {#planner-users}
+## Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen {#planner-users}
 
-Wenn Sie einem Planer-Benutzer Administratorzugriff auf Stellenrollen gewähren, wird die Einstellung &quot;Rollenabrechnung und -kosten bearbeiten&quot;automatisch für den Benutzer aktiviert.
+Wenn Sie einem Standard- oder Planer-Benutzer Administratorzugriff auf Stellenrollen gewähren, wird die Einstellung Rollenabrechnung und -kosten bearbeiten automatisch für den Benutzer aktiviert.
 
 Wenn Sie später den administrativen Zugriff auf Stellenrollen für den Benutzer deaktivieren, sind die Arbeitsplatzrollen für den Benutzer weiterhin sichtbar, da die Einstellung Rollenabrechnung und -kosten bearbeiten weiterhin aktiviert ist.
 

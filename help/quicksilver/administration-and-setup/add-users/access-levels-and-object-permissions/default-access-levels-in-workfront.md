@@ -10,16 +10,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 6%
+source-wordcount: '1515'
+ht-degree: 5%
 
 ---
 
-# Integrierte Zugriffsebenen in Adobe Workfront
+# Integrierte alte Zugriffsstufen in Adobe Workfront
 
-Jede der sechs integrierten Zugriffsebenen ist für einen bestimmten Benutzertyp ausgelegt:
+Jede der sechs nativen Zugriffsstufen wurde für einen bestimmten Benutzertyp entwickelt:
 
 * Systemadministrator
 * Planer
@@ -28,7 +28,7 @@ Jede der sechs integrierten Zugriffsebenen ist für einen bestimmten Benutzertyp
 * Antragsteller
 * Externer Benutzer
 
-Je nach Zugriffsebene sind für die meisten Workfront-Objekttypen bis zu drei Einstellungen verfügbar:
+Je nach der bisherigen Zugriffsstufe sind für die meisten Workfront-Objekttypen bis zu drei Einstellungen verfügbar:
 
 <table style="table-layout:auto">
     <tr>
@@ -45,11 +45,11 @@ Je nach Zugriffsebene sind für die meisten Workfront-Objekttypen bis zu drei Ei
     </tr>
 </table>
 
-Wenn Sie eine benutzerdefinierte Zugriffsebene für Planer, Worker, Anforderer oder Überprüfer benötigen, können Sie die integrierte Zugriffsebene kopieren und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig sein soll. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene oder Ändern einer der integrierten Zugriffsebenen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Wenn Sie eine benutzerdefinierte Zugriffsebene für Planer, Worker, Anforderer oder Überprüfer benötigen, können Sie die integrierte alte Zugriffsstufe kopieren und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig sein soll. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene oder Ändern einer der integrierten alten Zugriffsebenen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können.
+>Es wird dringend empfohlen, die integrierten alten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können.
 
 Allgemeine Informationen zu diesen Zugriffsebenen finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -57,13 +57,13 @@ Allgemeine Informationen zu diesen Zugriffsebenen finden Sie unter [Übersicht �
 
 Diese integrierte Zugriffsstufe, die an die Planungslizenz angehängt ist, wurde für einen Benutzer entwickelt, der für die Verwaltung des Adobe Workfront-Systems zuständig ist. Sie können diese integrierte Zugriffsebene nicht ändern.
 
-Benutzer mit der Zugriffsebene &quot;Systemadministrator&quot;können alles in Workfront tun. Sie können alle Workfront-Objekte und Informationen anzeigen und bearbeiten, die von allen anderen Benutzern in Workfront eingegeben wurden.
+Benutzer mit der Zugriffsstufe &quot;Systemadministrator&quot;können alles in Workfront tun. Sie können alle Workfront-Objekte und Informationen anzeigen und bearbeiten, die von allen anderen Benutzern in Workfront eingegeben wurden.
 
 Sie haben außerdem Zugriff auf den gesamten Bereich &quot;Einrichtung&quot;, in dem sie jede Einstellung auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü zugreifen ![](assets/main-menu-icon.png).
 
 Weitere Informationen finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planen der Zugriffsebene
+## Planen der bisherigen Zugriffsstufe
 
 Diese Zugriffsstufe, die ebenfalls an die Planungslizenz angehängt ist, wurde für Folgendes entwickelt:
 
@@ -73,9 +73,9 @@ Diese Zugriffsstufe, die ebenfalls an die Planungslizenz angehängt ist, wurde f
 * Benutzer, die Berichte erstellen und Timesheets, Arbeitselemente und Dokumente genehmigen
 * Benutzer, die Zugriff auf alle Bereiche im Hauptmenü benötigen ![](assets/main-menu-icon.png)
 
-Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Planers erstellen und den Umfang des Zugriffs für die verschiedenen Workfront-Objekttypen bestimmen. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
+Sie können eine benutzerdefinierte Version der integrierten alten Zugriffsstufe &quot;Planer&quot;erstellen und den Umfang des Zugriffs für die verschiedenen Workfront-Objekttypen bestimmen. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
 
-Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Objekte in der Zugriffsebene &quot;Planer&quot;:
+Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Objekte in der bisherigen Zugriffsstufe Planer :
 
 | Workfront-Objekttyp | Kein Zugriff | Zugriff anzeigen | Zugriff bearbeiten |
 |---|---|---|---|
@@ -87,18 +87,18 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Berichte (einschließlich Dashboards und Kalenderberichten) |   |   | ✓ |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokumente |   |   | ✓ |
-| Benutzer |   |   | ✓ |
+| Benutzende |   |   | ✓ |
 | Vorlagen |   |   | ✓ |
 | Finanzdaten |   |   | ✓ |
 | Ressourcenverwaltung |   |   | ✓ |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Zugriffsstufe der Arbeitnehmer
+## Zugriffsstufe für ältere Arbeitskräfte
 
-Diese integrierte Zugriffsebene, die an die Work-Lizenz angehängt ist, ist für Benutzer gedacht, die die Arbeit in Workfront durchführen. Sie planen die Arbeit nicht. sie vervollständigen sie.
+Diese Zugriffsstufe, die an die Work-Lizenz angehängt ist, richtet sich an Benutzer, die die Arbeit in Workfront durchführen. Sie planen die Arbeit nicht. sie vervollständigen sie.
 
 Benutzer mit dieser Zugriffsstufe:
 
@@ -109,7 +109,7 @@ Benutzer mit dieser Zugriffsstufe:
 * Kann auf alle Bereiche im Hauptmenü zugreifen ![](assets/main-menu-icon.png), ihr &quot;Benutzer&quot;-Bereich jedoch heißt Teams. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur Teams anzeigen, denen sie angehören, sowie die diesen Teams zugewiesenen Aufgaben.
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
-Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe von Worker erstellen und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
+Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe von Worker erstellen und den Umfang des Zugriffs für die verschiedenen Workfront-Objekttypen bestimmen. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
 
 Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Objekte in der Zugriffsebene von Worker:
 
@@ -123,16 +123,16 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokumente |   |   | ✓ |
-| Benutzer |   |   | ✓ |
+| Benutzende |   |   | ✓ |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;. Mit der Einstellung Ansicht kann der Benutzer nur den Bereich Finanzen in den Projektdetails anzeigen.) |   |
 | Ressourcenverwaltung |   | ✓ |   |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Zugriffsebene der Prüfer
+## Berechtigte Zugriffsstufe eines Prüfers
 
 Diese Zugriffsstufe, die an die Überprüfungslizenz angehängt ist, richtet sich an Führungskräfte, die Arbeiten von anderen Benutzern anfordern und die Arbeit überprüfen und genehmigen. Dies sind keine Projekteigentümer oder Teammitglieder, aber sie benötigen Zugriff auf Workfront, um die von ihnen überwachten Arbeitselemente anzuzeigen.
 
@@ -144,7 +144,7 @@ Benutzer mit Zugriffsstufe &quot;Prüfer&quot;:
 * Kann auf Anfragen und Dokumente im Hauptmenü zugreifen ![](assets/main-menu-icon.png).
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
-Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Prüfers erstellen und bestimmen, wie viel Zugriff es für die verschiedenen Workfront-Objekttypen ermöglicht. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
+Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Prüfers erstellen und bestimmen, wie viel Zugriff auf die verschiedenen Workfront-Objekttypen möglich ist. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
 
 Die folgenden Zugriffseinstellungen sind für Projekte und Aufgaben, die über die Zugriffsebene von Worker hinausgehen, am höchsten und für Objekte auf der Zugriffsebene des Prüfers verfügbar:
 
@@ -211,7 +211,7 @@ Die folgenden Zugriffseinstellungen sind für Projekte und Aufgaben, die über d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -249,13 +249,13 @@ Die folgenden Zugriffseinstellungen sind für Projekte und Aufgaben, die über d
  </tbody> 
 </table>
 
-## Zugriffsstufe anfordern
+## Anfordern der bisherigen Zugriffsstufe
 
-Diese integrierte Zugriffsstufe, die an die Anforderungslizenz angehängt ist, wurde für Benutzer entwickelt, die einfache Arbeitsanforderungen in Workfront erstellen und erhalten. Standardmäßig sind sie auf den Bereich Anforderungen beschränkt.
+Diese Zugriffsstufe, die an die Anforderungslizenz angehängt ist, wurde für Benutzer entwickelt, die einfache Arbeitsanfragen in Workfront erstellen und erhalten. Standardmäßig sind sie auf den Bereich Anforderungen beschränkt.
 
 Beispielsweise kann ein Benutzer Probleme in der Anforderungswarteschlange Ihres Unternehmens protokollieren.
 
-Benutzer mit dieser integrierten Zugriffsstufe:
+Benutzer mit dieser Zugriffsstufe:
 
 * Kann Anforderungen stellen und diese Anforderungen aktualisieren
 * Dokumente hochladen und genehmigen können
@@ -263,7 +263,7 @@ Benutzer mit dieser integrierten Zugriffsstufe:
 * Arbeitselemente können nicht zugewiesen werden
 * Kann nur über das Hauptmenü auf Anfragen zugreifen ![](assets/main-menu-icon.png). Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe &quot;Anforderer&quot;erstellen und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
+Sie können eine benutzerdefinierte Version der nativen Zugriffsstufe &quot;Anforderer&quot;erstellen und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](#Customiz) in diesem Artikel.
 
 Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Objekte in der Zugriffsebene &quot;Anforderer&quot;:
 
@@ -271,20 +271,20 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 |---|---|---|---|
 | Projekt |   | ✓ (nur die Seite &quot;Projektdetails&quot;) |   |
 | Aufgabe |   | ✓ (nur die Detailseite) |   |
-| Anfrage |   |   | ✓ |
+| Problem |   |   | ✓ |
 | Portfolios | ✓ |   |   |
 | Programme | ✓ |   |   |
 | Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ (nur die Detailseite) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
-| Benutzer |   | ✓ |   |
+| Benutzerin oder Benutzer |   | ✓ |   |
 | Vorlage | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
 | Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Zugriffsstufe für externe Benutzer
 
@@ -310,13 +310,13 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 |---|---|---|---|
 | Projekt | ✓ |   |   |
 | Aufgabe | ✓ | ✓ |   |
-| Anfrage | ✓ |   |   |
+| Problem | ✓ |   |   |
 | Portfolios | ✓ |   |   |
 | Programme | ✓ |   |   |
 | Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ (nur für Kalenderberichte; keine Möglichkeit zum Freigeben von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
 | Dokument |   | ✓ (ohne die Möglichkeit, Dokumente freizugeben) |   |
-| Benutzer |   | ✓ |   |
+| Benutzerin oder Benutzer |   | ✓ |   |
 | Vorlage | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
 | Ressourcenverwaltung | ✓ |   |   |

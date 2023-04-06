@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# Wie Zugriffsebenen und Berechtigungen zusammenarbeiten
+# Wie alte Zugriffsstufen und Berechtigungen zusammenarbeiten
 
 Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene die einzelnen Benutzer haben sollen. Diese Zugriffsebene definiert, was Benutzer mit Objekttypen und -bereichen im System sehen und tun können.
 
@@ -31,11 +31,11 @@ Wenn beispielsweise auf Ihrer Zugriffsebene angegeben wird, dass Sie Aufgaben er
 
 In diesem Artikel wird erläutert, wie diese Kombination funktioniert.
 
-## Zugriffsebene
+## Alte Zugriffsstufe
 
 Die von einem Workfront-Administrator jedem Benutzer zugewiesene Zugriffsebene ist für die Anmeldung bei Workfront erforderlich.
 
-Die standardmäßigen Zugriffsebenen sind:
+Die standardmäßigen Zugriffsstufen der Legacy sind:
 
 * Systemadministrator (an die Planungslizenz angehängt)
 * Planer (an die Planungslizenz angehängt)

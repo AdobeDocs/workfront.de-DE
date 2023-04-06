@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 6e711f208d14bb8d1d4b57733a2327b46fa7969b
+source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
 workflow-type: tm+mt
-source-wordcount: '12804'
+source-wordcount: '12860'
 ht-degree: 1%
 
 ---
@@ -412,15 +412,21 @@ ht-degree: 1%
          * [Anzeigen von Benutzeranmeldedaten](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * Funktionsweise von Zugriffsstufen {#access-levels}
-         * [Funktionsweise von Zugriffsstufen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Übersicht über Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Überblick über Lizenzen](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Zugriffsebenen und Berechtigungen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Zugriff auf Objekte nach Lizenztyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funktionsweise von Zugriffsstufen](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Übersicht über Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Überblick über Lizenzen](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Zugriff auf Objekte und Bereiche nach Lizenztyp](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Für jeden Objekttyp verfügbare Funktionen](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * Funktionsweise veralteter Zugriffsstufen {#legacy-access-levels}
+         * [Funktionsweise des Zugriffs auf ältere Ebenen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Überblick über veraltete Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Überblick über veraltete Lizenzen](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Alte Zugriffsebenen und Berechtigungen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Veralteter Zugriff auf Objekte nach Lizenztyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [Funktionalität für jeden Objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Konfigurierbarer Zugriff für jeden Objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Integrierte Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Zugriffsebenen und Lizenzen von Benutzern auflisten](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [Konfigurierbarer Legacy-Zugriff für jeden Objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Integrierte Zugriffsstufen von älteren Versionen](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Auflisten der bisherigen Zugriffsebenen und Lizenzen von Benutzern](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Zugriff auf Workfront konfigurieren {#configure-access}
          * [Zugriff konfigurieren](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1803,6 +1809,9 @@ ht-degree: 1%
          * [Testberechtigungsprofil stapelweise bearbeiten](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Freigabe über öffentliche URL oder Einbettungscode deaktivieren](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration zwischen den USA und EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+   * Tipps, Tricks und Fehlerbehebung bei Genehmigungen {#ttt-approvals}
+      * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Anzahl der Entscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Arbeitszeittabellen {#timesheets}
    * [Arbeitszeittabellen](timesheets/timesheets-all.md)
    * Angaben zum Datenblatt {#details}

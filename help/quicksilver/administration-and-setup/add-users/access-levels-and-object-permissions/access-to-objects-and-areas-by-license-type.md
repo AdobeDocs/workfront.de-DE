@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Zugriff auf Objekte und Bereiche nach Lizenztyp
-description: Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
-author: Caroline
+title: Veralteter Zugriff auf Objekte und Bereiche nach Lizenztyp
+description: Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede der älteren Adobe Workfront-Lizenzen für die Objekte und Bereiche in Workfront zulässt.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '436'
 ht-degree: 19%
 
 ---
 
-# Zugriff auf Objekte und Bereiche nach Lizenztyp
+# Veralteter Zugriff auf Objekte und Bereiche nach Lizenztyp
 
-Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
+In der folgenden Tabelle finden Sie Informationen zur höchsten Ebene des Legacy-Zugriffs (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 
 * **Ansicht**: Der Benutzer kann Elemente überprüfen und freigeben.
 * **Bearbeiten**: Der Benutzer kann Elemente erstellen, bearbeiten, löschen und freigeben.
@@ -37,7 +37,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 | Berichte, Dashboards und Kalender | Bearbeiten | Anzeigen | Anzeigen | &#42; anzeigen | Ansicht (nur für Kalender, keine Freigabeberechtigungen) |
 | Filter, Ansichten und Gruppierungen | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Kein Zugriff |
 | Dokumente | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Anzeigen (keine Freigabeberechtigungen) |
-| Benutzer | Bearbeiten | Anzeigen | Anzeigen | Anzeigen | Anzeigen |
+| Benutzende | Bearbeiten | Anzeigen | Anzeigen | Anzeigen | Anzeigen |
 | Teams | Bearbeiten | Bearbeiten | Anzeigen | Anzeigen | Kein Zugriff |
 | Vorlagen | Bearbeiten | Kein Zugriff | Kein Zugriff | Kein Zugriff | Kein Zugriff |
 | Finanzdaten | Bearbeiten | Anzeigen (nur im Bereich &quot;Finanzen&quot;in Projektdetails) | Anzeigen | Kein Zugriff | Kein Zugriff |
@@ -49,11 +49,11 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 
 >[!NOTE]
 >
->Benutzer mit einer Review-Lizenz oder einer Request-Lizenz verfügen über eingeschränkte Freigabemöglichkeiten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront-Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Benutzer mit einer Review-Lizenz oder einer Request-Lizenz verfügen über eingeschränkte Freigabemöglichkeiten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront-Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) oder [Übersicht über veraltete Adobe Workfront-Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externe Benutzer können in Workfront nicht nach Elementen suchen. Sie können Dokumente und Kalender anzeigen, die speziell für sie freigegeben wurden. Sie können auch die Benutzer sehen, die Elemente für sie freigeben.
 
-Detaillierte Informationen dazu, was die Zugriffsebenen für jedes Objekt und jeden Bereich zulassen, finden Sie in den folgenden Artikeln:
+Detaillierte Informationen dazu, was die alten Zugriffsebenen für jedes Objekt und jeden Bereich zulassen, finden Sie in den folgenden Artikeln:
 
 * [Projektzugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

@@ -6,9 +6,9 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 Sie müssen kein Adobe Workfront-Administrator sein, um Berechtigungen für Objekte freigeben zu können, auf die Sie Zugriff haben. Berechtigungen für Objekte funktionieren jedoch innerhalb der Zugriffsebenen, die vom Workfront-Administrator festgelegt wurden.
 
-Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder daraus entfernen. Wenn Sie nicht der Ersteller des Objekts sind, müssen Sie zusätzlich zu den Berechtigungen zum Freigeben für das Objekt über Freigabezugriff für das Objekt verfügen, das Sie auf Ihrer Zugriffsebene freigeben möchten. Informationen zu Zugriffsebenen finden Sie unter [Übersicht über Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder daraus entfernen. Wenn Sie nicht der Ersteller des Objekts sind, müssen Sie zusätzlich zu den Berechtigungen zum Freigeben für das Objekt über Freigabezugriff für das Objekt verfügen, das Sie auf Ihrer Zugriffsebene freigeben möchten. Informationen zu Zugriffsebenen finden Sie unter [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) oder [Überblick über veraltete Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
    Wenn Sie beispielsweise über Beitragsberechtigungen für das Objekt verfügen, können Sie keinen anderen Benutzer Verwaltungsberechtigungen für dieses Objekt erteilen.
 
-* Sie können ein Objekt nicht mit einer Berechtigungsebene freigeben, die höher ist als die Zugriffsebene eines Benutzers. Wenn ein Benutzer beispielsweise auf der Zugriffsebene Zugriff auf Projekte anzeigen hat, können Sie ihm keine Verwaltungsberechtigungen für ein Projekt erteilen.
+* Sie können ein Objekt nicht mit einer Berechtigungsebene freigeben, die höher ist als die Zugriffsebene eines Benutzers. Wenn ein Benutzer beispielsweise auf der Zugriffsebene Zugriff auf Projekte anzeigen hat, können Sie ihm keine Verwaltungsberechtigungen für ein Projekt erteilen.
 * Ein Benutzer mit der Berechtigung zum Anzeigen eines Objekts kann dieses Objekt für eine andere Person freigeben.
 * Sie können Objekte für aktive Benutzer, Arbeitsplatzrollen, Teams, Gruppen oder Unternehmen freigeben.
 
