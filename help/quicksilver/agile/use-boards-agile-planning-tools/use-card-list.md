@@ -6,7 +6,7 @@ title: Kartenliste verwenden
 description: Sie können eine Kartenliste in einem Workflow erstellen und die Karten zu Iterationen hinzufügen.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Kartenliste verwenden
-
-{{highlighted-preview-article-level}}
 
 Sie können eine Kartenliste in einem Workflow erstellen und die Karten zu Iterationen hinzufügen.
 

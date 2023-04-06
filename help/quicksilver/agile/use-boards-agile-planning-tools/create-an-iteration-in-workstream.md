@@ -6,7 +6,7 @@ title: Erstellen einer Iteration in einem Workflow
 description: Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Erstellen einer Iteration in einem Workflow
-
-{{highlighted-preview-article-level}}
 
 Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 

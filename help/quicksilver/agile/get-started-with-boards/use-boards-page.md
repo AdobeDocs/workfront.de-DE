@@ -6,27 +6,21 @@ description: Die [!UICONTROL Pinnwände] Dashboard zeigt die Liste der Pinnwänd
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Verwenden des Dashboards-Dashboards
 
-{{highlighted-preview}}
-
 Das Dashboard der Pinnwände zeigt die Liste der Pinnwände und Workflows an, auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und der Pinnwände, denen Sie hinzugefügt wurden. Zuerst werden einzelne Pinnwände angezeigt, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind.
-
->[!NOTE]
->
->Workflows sind in der Vorschau-Umgebung und in der Produktion über die frühe Funktion verfügbar, für die [!UICONTROL [!DNL Workfront] Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Im Dashboard haben Sie folgende Möglichkeiten für Foren und Workflows:
 
-* Pinnwand archivieren <span class="preview">oder Workstream</span>
-* Pinnwände filtern <span class="preview">und Workflows</span>
+* Pinnwand oder Workstream archivieren
+* Filtern von Pinnwänden und Workflows
 * Sortieren Sie die Pinnwandliste nach Pinnwandnamen oder Änderungsdatum.
 * Suchen Sie nach einer Pinnwand oder einem Workstream.
 * Löschen einer Pinnwand oder eines Workflows
@@ -54,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Filterboards <span class="preview">und Workflows</span> {#filter-boards}
+## Filtern von Foren und Workflows {#filter-boards}
 
 Sie können das Dashboard der Pinnwände filtern, um aktive, archivierte oder alle Pinnwände oder Workflows anzuzeigen.
 
@@ -85,7 +79,7 @@ Sie können im Bereich &quot;Pinnwände&quot;nach einer bestimmten Pinnwand such
 
    ![Suchen Sie nach Pinnwänden im Dashboard.](assets/boards-searchbox.png)
 
-## Pinnwand archivieren <span class="preview">oder Workstream</span>
+## Pinnwand oder Workstream archivieren
 
 Durch die Archivierung einer Pinnwand oder eines Workflows wird diese an das Archiv gesendet und kann später wiederhergestellt werden.
 
@@ -123,17 +117,18 @@ Beim Löschen eines Workflows werden auch alle Pinnwände des Workflows gelösch
 
 1. Klicken **[!UICONTROL Pinnwand löschen]** oder [!UICONTROL **Workflow löschen**] in der Bestätigungsnachricht angezeigt.
 
-## Verschieben einer Pinnwand in einen Workflow
+<!-- ## Move a board to a workstream
 
-Sie können eine Standalone-Pinnwand in einen Workstream verschieben oder eine Pinnwand von einem Workstream in einen anderen Workstream verschieben.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Sie können nur von Ihnen erstellte Pinnwände verschieben, nicht Pinnwände, zu denen Sie hinzugefügt wurden.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Pinnwand und wählen Sie [!UICONTROL **Zum Workflow wechseln**].
-1. Wählen Sie aus, zu welchem Workstream die Pinnwand hinzugefügt werden soll, und klicken Sie auf [!UICONTROL **Verschieben**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   Die Pinnwand wird in den Workstream verschoben und wird nicht mehr im [!UICONTROL Pinnwände] Bereich.
-Wenn Sie noch keinen Workstream erstellt haben, werden Sie aufgefordert, einen Workflow zu erstellen, in den Sie die Pinnwand verschieben können.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

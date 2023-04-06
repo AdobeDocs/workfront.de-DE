@@ -6,24 +6,18 @@ title: Workflows verwalten
 description: Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '841'
 ht-degree: 3%
 
 ---
 
 # Workflows verwalten
 
-{{highlighted-preview}}
+Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit. Workflows können verschiedene Arten von Foren enthalten, die aus Vorlagen und einer Liste von Arbeitselementen erstellt wurden. In einem Arbeitsablauf können Sie die Arbeit in Iterationen oder Sprints verfolgen.
 
->[!NOTE]
->
->Workflows sind in der Vorschau-Umgebung und in der Produktion über die frühe Funktion verfügbar, für die [!UICONTROL [!DNL Workfront] Pinnwände]. Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit. Workflows können verschiedene Arten von Pinnwänden enthalten, die aus Vorlagen erstellt werden. <span class="preview">und eine Kartenliste mit Arbeitselementen. In einem Arbeitsablauf können Sie die Arbeit in Iterationen oder Sprints verfolgen.</span>
-
-<span class="preview">Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) und [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) und [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 Workflows werden im Dashboard zusammen mit den einzelnen Foren angezeigt, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind. Weitere Informationen zum Dashboard für Pinnwände finden Sie unter [Verwenden des Dashboards-Dashboards](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Sie können auf einen beliebigen Pinnwandnamen im Dashboard klicken, um ihn zu öffnen.
 
@@ -68,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
 | Kanban-Board | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Ansauspalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr** Menü] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Rückblickende Pinnwand | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Was ist gut gelaufen? Was könnte verbessert werden? Wer soll gefeiert werden? Wie können wir unsere Verfahren beschleunigen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
-| <span class="preview">Iterationsprozess</span> | <span class="preview">Dies ist die Pinnwand, mit der eine Iteration definiert und ausgeführt wird. <p>Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr**] in einer Spalte auswählen [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Iterationsprozess | Dies ist die Pinnwand, mit der eine Iteration definiert und ausgeführt wird. <p>Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr**] in einer Spalte auswählen [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Weitere Informationen zum Einrichten der Pinnwand finden Sie unter [Pinnwand erstellen oder bearbeiten](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 
    Dies entspricht dem Hinzufügen von Mitgliedern zu einer Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Konfigurieren eines Workflows
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 
    Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen von Filtern für eine Ansaugspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

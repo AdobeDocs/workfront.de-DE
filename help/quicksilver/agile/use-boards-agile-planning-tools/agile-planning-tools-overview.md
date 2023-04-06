@@ -7,7 +7,7 @@ description: Wenn Sie eine Pinnwand mit Ad-hoc- und vernetzten Karten erstellen,
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Übersicht über Agile Planungswerkzeuge
-
-{{highlighted-preview}}
 
 Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungswerkzeuge nutzen.
 
@@ -26,15 +24,11 @@ Zu den nützlichen Tools für Kanban gehören:
 * Gruppieren von Karten in Swimlanes
 * Eine Aufnahmespalte, die für einen Rückstand verwendet werden kann
 
-<div class="preview">
-
 Zu den für Scrum nützlichen Tools gehören:
 
 * Workflows und Iterationsboards
 * Kartenliste oder Rückstand
 * Iterationsmetriken
-
-</div>
 
 Sie können diese Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne eine bestimmte agile Methodik einzuhalten.
 
