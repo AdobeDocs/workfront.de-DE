@@ -10,7 +10,7 @@ description: Mit dem [!DNL Adobe Experience Manager Assets] Connector für [!DNL
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
 
       Diese Konfiguration erfordert Informationen aus dem [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       Diese Konfiguration erfordert einen Benutzernamen und ein Kennwort.
 
@@ -79,7 +79,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
 
    Für [!DNL AEM Assets as a Cloud Service], siehe [Konfigurieren Sie die Verbindung für [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Für [!UICONTROL AEM Assets Basic], siehe [Konfigurieren Sie die Verbindung für [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Für [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), siehe [Konfigurieren Sie die Verbindung für [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
@@ -121,7 +121,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Organisations-ID]</td>
-                  <td class="">Geben Sie die Kennung Ihrer Organisation ein. Dies ist das Feld "[!UICONTROL org]" in der JSON-Datei mit den Client-Anmeldedaten.</td>
+                  <td class="">Geben Sie die Kennung Ihrer Organisation ein. Dies ist das Feld "[!UICONTROL org]" in der JSON-Datei mit den Client-Anmeldeinformationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -135,7 +135,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
       </table>
 
 
-### Konfigurieren Sie die Verbindung für [!DNL AEM Assets Basic]
+### Konfigurieren Sie die Verbindung für [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
