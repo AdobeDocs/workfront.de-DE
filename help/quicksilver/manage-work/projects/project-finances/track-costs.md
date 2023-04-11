@@ -7,9 +7,9 @@ description: Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Workfront berechnet die geplanten Kosten und die tatsächlichen Kosten für jede
 
 * [Geplante Kosten](#planned-cost)
 * [Budgetierte Kosten](#budgeted-cost)
-* [Ist-Kosten](#actual-cost)
+* [Istkosten](#actual-cost)
 
 #### Geplante Kosten {#planned-cost}
 
@@ -112,9 +112,6 @@ Die Plankosten eines Projekts werden nach folgender Formel berechnet:
 ```
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
-
-* 
-   * 
 
 Sie haben beispielsweise die folgenden Ausgaben im Tab Ausgaben einer Aufgabe: 100 $ Marketingkosten und 50 $ Verwaltungskosten. Wählen Sie auf der Registerkarte Finanzen den Kostentyp Benutzer Stündlich aus. Ein Benutzer wird der Aufgabe zugewiesen und die Stundenrate des Benutzers beträgt 15 USD. Der Benutzer wird fünf Stunden an dieser Aufgabe zugewiesen. Auf dem Tab Ausgaben des Projekts erhalten Sie Kosten in Höhe von 100 USD für eine so genannte Consulting-Ausgabe. Sie haben außerdem Festkosten in Höhe von 200 USD für das Projekt.
 
@@ -141,24 +138,22 @@ Die budgetierten Kosten des Projekts werden mit der folgenden Formel berechnet, 
 Wenn die oben genannten Bedingungen erfüllt sind, berechnet Workfront die budgetierten Projektkosten anhand der folgenden Formel:
 <pre>Budgetierte Projektkosten = budgetierte Arbeitskosten + veranschlagte Kosten aller Aufgaben + veranschlagte Kosten des Projekts</pre>
 
-#### Ist-Kosten {#actual-cost}
+#### Istkosten {#actual-cost}
 
 Die tatsächlichen Kosten eines Projekts sind die Kosten, die mit der tatsächlichen Arbeit (angemeldete Stunden) des Projekts verbunden sind.
 
 Die tatsächlichen Kosten werden anhand der folgenden Formel berechnet:
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-Sie haben beispielsweise die folgenden Ausgaben im Tab Ausgaben einer Aufgabe: Marketing-Ausgaben mit tatsächlichen Kosten von 110 USD und Verwaltungsausgaben mit tatsächlichen Kosten von 40 USD. Sie wählen den Kostentyp Stündliche Rolle aus und weisen der Aufgabe die Rolle Berater-Job zu. Der Anteil der Berater-Job-Rolle beträgt 15 USD pro Stunde und es werden 6 Stunden für die Aufgabe als Berater-Job-Rolle protokolliert. Es ist auch eine mit dem Projekt verbundene Beratungsaufgabe (auf der Registerkarte &quot;Ausgaben&quot;) mit tatsächlichen Kosten von 100 USD und einem Benutzer mit einer Kosten pro Stunde von 20 USD in seinem Benutzerprofil, der 10 Stunden am Projekt protokolliert.
+Sie haben beispielsweise die folgenden Ausgaben im Tab Ausgaben einer Aufgabe: Marketing-Ausgaben mit tatsächlichen Kosten von 110 USD und Verwaltungsausgaben mit tatsächlichen Kosten von 40 USD. Sie wählen den Kostentyp Stündliche Rolle aus und weisen der Aufgabe die Rolle Berater-Job zu. Der Anteil der Berater-Job-Rolle beträgt 15 USD pro Stunde und es werden 6 Stunden für die Aufgabe als Berater-Job-Rolle protokolliert. Mit dem Projekt verbundene Beratungskosten (auf der Registerkarte &quot;Ausgaben&quot;) mit tatsächlichen Kosten von 100 USD und ein Benutzer mit einer Kosten pro Stunde von 20 USD in seinem Benutzerprofil protokolliert 10 Stunden im Projekt. Sie haben außerdem Festkosten in Höhe von 200 USD für das Projekt.
 
 Die tatsächlichen Kosten des Projekts werden wie folgt berechnet:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
