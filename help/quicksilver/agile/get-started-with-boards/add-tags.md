@@ -6,7 +6,7 @@ description: Sie können Karten Tags hinzufügen, um visuell anzuzeigen, dass si
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-1. Suchen Sie das Tag, das Sie aus der Karte entfernen möchten, und klicken Sie dann auf die **[!UICONTROL Entfernen]**&#x200B; ![Tag löschen](assets/copy-of-boards-remove-30x23.png).
+1. Suchen Sie das Tag, das Sie aus der Karte entfernen möchten, und klicken Sie dann auf die **[!UICONTROL Entfernen]** icon ![Tag löschen](assets/copy-of-boards-remove-30x23.png).
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
 ## Tag löschen
