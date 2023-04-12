@@ -6,10 +6,10 @@ description: Sie können die Lösung eines Problems manuell mit der Lösung eine
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 
 ---
 
@@ -68,19 +68,30 @@ Bevor Sie beginnen, müssen Sie:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Navigieren Sie zu **Übersicht** -Gebiet **Problemdetails** Abschnitt.
-1. Klicken Sie auf **Gelöst von** und wählen Sie aus den folgenden Arten auflösender Objekte aus:  
+1. Klicken Sie auf **Gelöst von** und wählen Sie aus den folgenden Arten auflösender Objekte aus:
 
    * **Projekt**
    * **Aufgabe**
    * **Probleme**
 
-1. Das Feld für das aufgelöste Objekt wird angezeigt.
-1. Nachdem Sie das Objekt ausgewählt haben, geben Sie den Namen eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems in das verfügbare Feld ein und wählen Sie es aus, wenn es in der Dropdown-Liste angezeigt wird.
-1. Klicken **Speichern** **Änderungen**.\
+   Je nach ausgewähltem Objekt werden die folgenden Felder angezeigt:
+
+   * **Projekt wird gelöst**
+   * **Aufgabe wird gelöst**
+   * **Problem wird gelöst**
+
+
+1. Beginnen Sie mit der Eingabe des Namens eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems im **Auflösen des Projekts**, **Aufgabe** oder **Problem** und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
+
+   >[!NOTE]
+   >
+   >Sie können die Lösung eines Problems nicht mit der Aufgabe oder dem Projekt verknüpfen, in dem sich das Problem befindet. Die Aufgabe oder das Projekt des Problems werden nicht in den Feldern &quot;Aufgabe auflösen&quot;oder &quot;Aufgabe auflösen&quot;angezeigt.
+
+
+1. Klicken **Änderungen speichern**.
+
    Das ursprüngliche Problem wird zum auflösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das/das Sie in den Schritten 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem behoben wird, wenn das aufgelöste Objekt (das Projekt, die Aufgabe oder das Problem, mit dem Sie es verknüpft haben) abgeschlossen ist.
 
    >[!NOTE]
    >
    >Ein Projekt, eine Aufgabe oder ein Problem kann mehrere Probleme als auflösbare Objekte haben.
-
- 
