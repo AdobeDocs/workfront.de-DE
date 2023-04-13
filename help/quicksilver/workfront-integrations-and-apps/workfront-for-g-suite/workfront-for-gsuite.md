@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite verbindet Sie mit Ihrer wichtigsten Arb
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
+source-git-commit: 0862af846ca77c33132ec631cf1e3eae253d3cd8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 Diese Hilfeartikel helfen Ihnen bei den ersten Schritten mit [!DNL Workfront for G Suite]:
 
 * [Installieren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [Datenschutz und -berechtigungen in Workfront für G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
 * [Anmelden und Abmelden von [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
 In diesen wird beschrieben, wie Sie [!DNL Workfront] Objekte ohne Hinterlassen [!DNL G Suite]:
