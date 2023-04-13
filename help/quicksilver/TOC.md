@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 078f1a4d35f8aab9e650d1e7ddb1ac76665e79c4
+source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
 workflow-type: tm+mt
-source-wordcount: '12860'
+source-wordcount: '12867'
 ht-degree: 1%
 
 ---
@@ -933,6 +933,7 @@ ht-degree: 1%
       * [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+      * [Konfigurieren des Rückstands auf einer Workstream-Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Iterationsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Übersicht über Agile](agile/agile-overview.md)
    * Erste Schritte mit agil in Adobe Workfront {#agile-in-workfront}
