@@ -4,12 +4,12 @@ keywords: Version
 navigation-topic: product-announcements
 title: Adobe Workfront-Veröffentlichungszeitplan und -prozess
 description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die bevorstehende vierteljährliche Version kommuniziert.
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Pr
 
 ## Aus einer vierteljährlichen Version entfernte Funktionen
 
-Alle Funktionen, die mit einer bestimmten vierteljährlichen Version verknüpft sind, stehen 2-4 Wochen vor der endgültigen Veröffentlichung der Produktions-Version zum Testen in der Vorschau zur Verfügung. Wenn Funktionen vor diesem Zeitpunkt aus der vierteljährlichen Version entfernt werden, werden die folgenden Maßnahmen getroffen, um Kunden zu informieren:
+Alle Funktionen, die mit einer bestimmten vierteljährlichen Version verknüpft sind, stehen mindestens 2 bis 4 Wochen vor der endgültigen Veröffentlichung in der Produktions-Vorschau zum Testen zur Verfügung. Wenn Funktionen vor diesem Zeitpunkt aus der vierteljährlichen Version entfernt werden, werden die folgenden Maßnahmen getroffen, um Kunden zu informieren:
 
 * Die Versionshinweise für die vierteljährliche Version (zu finden im [Produktversionen](../../product-announcements/product-releases/product-releases.md) Seite) aktualisiert werden, um anzuzeigen, dass die Funktion entfernt wurde.
 
@@ -41,6 +41,30 @@ Wenn Funktionen aus der vierteljährlichen Version entfernt werden, nachdem alle
 * Die Versionshinweise für die vierteljährliche Version (zu finden im [Produktversionen](../../product-announcements/product-releases/product-releases.md) Seite) aktualisiert werden, um anzuzeigen, dass die Funktion entfernt wurde.
 * Der Workfront-Community wird ein Beitrag hinzugefügt, in dem erklärt wird, dass die Funktion entfernt wurde.
 * Über das Ankündigungszentrum wird allen Kunden eine Nachricht gesendet, in der darauf hingewiesen wird, dass die Funktion entfernt wurde. (Das Ankündigungszentrum ist das In-App-Benachrichtigungszentrum von Workfront. Weitere Informationen finden Sie unter [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).
+
+## Beta-Versionen
+
+Manchmal veröffentlicht Workfront neue Funktionen als Teil eines Betaprogramms.
+Die spezifischen Informationen zu den einzelnen Beta-Versionen, einschließlich der Teilnahme, werden bei jedem Start eines Betaprogramms und aller Betaprogramme unterschiedlich veröffentlicht.
+
+Es gibt folgende Arten von Betaprogrammen, die in Workfront verfügbar sind:
+
+* **Geschlossene oder private Beta-Version**: Die folgenden Merkmale sind bei einer geschlossenen oder privaten Beta-Version zu beachten:
+
+   * Funktionen stehen nur einer kleinen Gruppe von Kunden zur Verfügung, die sorgfältig von Workfront ausgewählt wurden.
+   * Teilnehmer arbeiten normalerweise mit einem Produkt-Manager zusammen und geben regelmäßig Feedback.
+   * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder die Produktion oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Betaprogramms zur Verfügung gestellt wird. Geschlossene Beta-Funktionen werden in zufälligen Abständen und ohne Warnung veröffentlicht.
+   * Auf den Seiten zur Produktversion gibt es keine Versionsinformationen für geschlossene Betas.
+
+* **Offene oder öffentliche Beta-Version**: Die folgenden Merkmale sind bei einer öffentlichen Beta-Version verfügbar:
+
+   * Die Funktionen sind für alle Workfront-Kunden verfügbar, befinden sich jedoch in der Beta-Phase. Sie sind möglicherweise nicht immer vollständig funktionsfähig und Feedback ist immer willkommen.
+   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und Kunden können entscheiden, ob sie die Beta-Funktionen selbst aktivieren möchten.
+   * Neue Funktionen, die Teil der Beta-Version sind, können entweder in der Vorschau oder in der Produktion veröffentlicht werden.
+   * Funktionen werden möglicherweise häufiger veröffentlicht als die üblichen Veröffentlichungsmuster für Workfront.
+   * Informationen darüber, wann Funktionen für eine öffentliche Beta-Version veröffentlicht werden, finden Sie auf den Seiten zur Produktversion.
+
+Weitere Informationen zu den Versionshinweisen finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md).
 
 ## Versionshinweise
 
