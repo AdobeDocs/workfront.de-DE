@@ -6,14 +6,16 @@ description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] Benachrichtigungen
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 
@@ -32,6 +34,7 @@ Sie können die folgenden E-Mail-Benachrichtigungen von [!DNL Workfront]:
 * [Benachrichtigung über veröffentlichte Kommentare](#notification-of-posted-comments)
 * [Automatische Erinnerungen](#automatic-reminders)
 * [Erinnerungsbenachrichtigungen](#reminder-notifications)
+* [Pinnwandbenachrichtigungen](#boards-notifications)
 * [Sonstiges [!DNL Workfront] E-Mails](#other-workfront-emails)
 
 ### Ereignisbenachrichtigungen
@@ -126,6 +129,16 @@ A [!DNL Workfront] Administrator (oder ein Benutzer mit [!UICONTROL Planen] Zugr
 Erinnerungsbenachrichtigungen werden von der E-Mail-Adresse gesendet, die die [!DNL Workfront] Administrator ausgewählt, um ausgehende E-Mails zu verarbeiten.
 
 Informationen zum Einrichten und Aktivieren von Erinnerungsbenachrichtigungen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### Pinnwandbenachrichtigungen
+
+[!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist.
+
+In den Vorlieben Ihrer Pinnwände können Sie auswählen, welche E-Mails Sie erhalten möchten. Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### Sonstiges [!DNL Workfront] E-Mails
 

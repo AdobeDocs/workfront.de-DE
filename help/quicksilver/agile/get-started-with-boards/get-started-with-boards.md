@@ -6,9 +6,9 @@ description: Lesen Sie diese Artikel, um zu erfahren, wie Pinnwände in Workfron
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Karte aus einer Pinnwand löschen oder archivieren](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtern und Suchen in einer Pinnwand](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Tags hinzufügen](../../agile/get-started-with-boards/add-tags.md)
+* [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
