@@ -6,9 +6,9 @@ description: Die folgenden Benachrichtigungen informieren Sie über die Kommunik
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1534'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>[!UICONTROL Täglich]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Jemand kommentiert eines meiner Arbeitselemente</strong> </p> <p>Der Verantwortliche des Arbeitselements erhält jedes Mal, wenn ein Benutzer ein Update zu einem Arbeitselement hinzufügt, eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Aktualisierung hinzufügt, ist auch der Verantwortliche. </p> <p>Wenn ein Kommentar zu einer Anfrage gepostet wird, senden Sie eine E-Mail an den Hauptkontakt des Problems.</p> <p>Der Hauptkontakt für ein Problem erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar auf einer Anfrage veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch der primäre Ansprechpartner für das Problem.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Aktuell] lautet.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL Kommentar zu] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Jemand kommentiert eines meiner Arbeitselemente</strong> </p> <p>Der Verantwortliche des Arbeitselements erhält jedes Mal, wenn ein Benutzer ein Update zu einem Arbeitselement hinzufügt, eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Aktualisierung hinzufügt, ist auch der Verantwortliche. </p> <p>Wenn ein Kommentar zu einer Anfrage gepostet wird, senden Sie eine E-Mail an den Hauptkontakt des Problems.</p> <p>Der Hauptkontakt für ein Problem erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar auf einer Anfrage veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch der primäre Ansprechpartner für das Problem.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL Kommentar zu] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Arbeitselementname<br>Projektname<br>Referenz für Arbeitselemente<br>Name des Benutzers, der das Arbeitselement kommentiert hat<br>Text des Kommentars zum Arbeitselement<br>Datum und Uhrzeit des Kommentars<br>*Gesamtzahl der eingegangenen Stellungnahmen<br>*Anzahl der für jedes Objekt erhaltenen Kommentare<br>*Projektname<br>*<strong>[!UICONTROL Alle Benachrichtigungen anzeigen]</strong> button<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
