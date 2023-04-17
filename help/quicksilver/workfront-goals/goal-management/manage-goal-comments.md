@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen.
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. <!--insure this stays accurate-->
+1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Weitere Kommentare werden unten auf dem Bildschirm angezeigt.
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png) , um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Optional) Um Ihrer Aktualisierung Rich-Text-Formatierung hinzuzufügen, verwenden Sie beim Eingeben Attribute in der Rich-Text-Symbolleiste. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn ein Ziel aktualisiert wird, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an. Workfront zeichnet auch eine Systemaktualisierung auf, wenn ein Ergebnis, eine Aktivität oder ein Projekt zum Ziel hinzugefügt oder aktualisiert wird. <!--ensure the casing on the tab has not changed-->

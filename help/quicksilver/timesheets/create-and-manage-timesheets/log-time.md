@@ -6,9 +6,9 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ Sie können allgemeine Stunden oder projektspezifische Stunden auf einem Timeshe
 
    >[!IMPORTANT]
    >
-   >Wenn sich die Rolle des Auftrags, für den Sie die Zeit protokolliert haben, geändert hat und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** deaktiviert wurde, müssen Sie Ihre Zeiteinträge manuell speichern. Das Timesheet speichert Ihre Zeit nur dann automatisch, wenn keine Zeit mehr für die geänderte Auftragsrolle protokolliert wird.
+   >Wenn eines der folgenden Szenarien eintritt, müssen Sie das Timesheet manuell speichern:
    >
-   >Wenn sich die Rolle geändert hat und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** aktiviert ist, können Sie die Zeit protokollieren oder die Rolle aktualisieren. Ihre Änderungen werden automatisch gespeichert.
+   >* Die Auftragsrolle, die mit der Zeit verknüpft ist, die Sie zuvor angemeldet haben, hat sich geändert und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** -Einstellung deaktiviert wurde. Die Protokollierungszeit für neue Datumswerte ordnet sie einer anderen Auftragsrolle zu.
+      >   
+      >   Wenn sich die Rolle geändert hat und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** aktiviert ist, können Sie die Zeit protokollieren oder die Rolle aktualisieren. Ihre Änderungen werden automatisch gespeichert.
+   >
+   >* Die einer Aufgabe oder einem Problem zugewiesene Auftragsrolle unterscheidet sich von der Stellenrolle, mit der der Timesheet-Eigentümer die Zeit protokolliert. <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >Das Timesheet speichert die Zeit automatisch, wenn zwischen den beiden Rollen keine Einträge mehr in Konflikt stehen.
 
 1. (Optional) Geben Sie die Zeitdauer im Feld Überstunden in der Kopfzeile des Zeitblatts an.
 
