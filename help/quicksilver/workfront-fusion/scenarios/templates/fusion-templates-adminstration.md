@@ -7,9 +7,9 @@ description: Wenn Sie Administrator sind, sind Sie berechtigt, von anderen Benut
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ Wenn Sie eine Vorlage validieren, wird sie im [!UICONTROL Öffentliche Vorlagen]
 
 Als Administrator haben Sie die Möglichkeit, ein Szenario als Vorlage zu klonen.
 
-Anweisungen zum Klonen eines Szenarios als Vorlage finden Sie unter [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+Anweisungen zum Klonen eines Szenarios als Vorlage finden Sie unter [Erstellen einer Vorlage aus einem Szenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

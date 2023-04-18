@@ -7,9 +7,9 @@ description: Sie können neue Szenario-Vorlagen in [!DNL Adobe] Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Neue Vorlage erstellen
 
+Sie können eine Vorlage in einem Prozess erstellen, der dem Erstellen eines Szenarios ähnelt. Fusion-Administratoren können auch Vorlagen aus vorhandenen Szenarien erstellen.
+
+* [Erstellen einer Vorlage](#build-a-template)
+* [Erstellen einer Vorlage aus einem Szenario](#create-a-template-from-a-scenario)
+
+### Erstellen einer Vorlage
+
 1. Klicken **[!UICONTROL Vorlagen]** ![](assets/fusion-template-icon.png) im linken Navigationsbereich.
 1. Klicken **[!UICONTROL Neue Vorlage erstellen]** in der oberen rechten Ecke.
 1. (Optional) Benennen Sie die Vorlage um, indem Sie die Standardeinstellung ersetzen. **[!UICONTROL Neuer Vorlagenname]** in der oberen linken Ecke.
@@ -81,6 +88,36 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 >[!NOTE]
 >
 >Durch das Speichern Ihrer Vorlage wird sie für alle Teammitglieder sichtbar. Wenn Sie möchten, dass Ihre Vorlage außerhalb Ihres Teams zugänglich ist, müssen Sie sie veröffentlichen und dann einen freigegebenen Link verwenden oder Ihren Administrator bitten, die Vorlage zu genehmigen und zu veröffentlichen.
+
+### Erstellen einer Vorlage aus einem Szenario
+
+>[!NOTE]
+>
+>Sie müssen Fusion-Administrator sein, um eine Vorlage aus einem Szenario zu erstellen.
+
+1. Öffnen Sie die Seite mit den Szenario-Details für das Szenario, aus dem Sie ein Szenario erstellen möchten.
+1. Klicken Sie auf **Admin** in der Nähe der oberen rechten Ecke der Seite.
+1. Auswählen **Als Vorlage klonen**.
+
+   Das Szenario wird in eine Seite &quot;Neue Vorlage&quot;kopiert.
+1. (Optional) Benennen Sie die Vorlage um, indem Sie die Standardeinstellung ersetzen. **[!UICONTROL Neuer Vorlagenname]** in der oberen linken Ecke.
+1. (Optional) Um die Sprache Ihrer Vorlage zu ändern, klicken Sie auf **[!UICONTROL Einrichten einer Vorlage]** ![](assets/fusion-scenario-settings-icon.png) und wählen Sie die Sprache aus der Dropdown-Liste Sprache aus.
+
+   >[!IMPORTANT]
+   >
+   >Die Auswahl Sprachen entspricht den in den Systemeinstellungen verfügbaren Sprachen und betrifft nur den Namen der öffentlichen Vorlage und deren Beschreibung. Eine Vorlagensprache kann nach dem Speichern der Vorlage nicht mehr geändert werden.
+
+1. (Optional) Um eine Beschreibung der Vorlage einzugeben, klicken Sie auf **[!UICONTROL Einrichten einer Vorlage]** ![](assets/fusion-scenario-settings-icon.png) und geben Sie die Beschreibung ein.
+1. Bearbeiten Sie Apps, Module und Tools auf dieselbe Weise wie beim Bearbeiten eines Standardszenarios.
+
+   Informationen zum Hinzufügen der kontextuellen Hilfe zu den Modulen finden Sie unter [Einrichten [!UICONTROL Assistent] Funktion](#set-up-wizard-functionality) in diesem Artikel.
+
+   >[!NOTE]
+   >
+   >Wenn Ihre Vorlage Module enthält, die das Hinzufügen der Verbindung, der Anmeldeinformationen oder anderer vertraulicher Informationen erfordern, werden diese Informationen nicht für die Vorlagenbenutzer freigegeben.
+
+1. (Optional) Klicken Sie auf **[!UICONTROL Einmal ausführen]** , um Ihre Vorlage zu testen.
+1. Klicken Sie auf **[!UICONTROL Speichern]** icon ![](assets/save-icon.png).
 
 ## Einrichten [!UICONTROL Assistent] Funktion {#set-up-wizard-functionality}
 
