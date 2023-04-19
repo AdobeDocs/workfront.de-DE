@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für XD Plugin vom Adobe Marketplac
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -59,12 +59,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Sie müssen die [!DNL Adobe XD] App vor der Installation des Workfront-Plug-ins.
 
-## Installieren Sie die [!DNL Adobe Workfront for XD] plugin
+## Installieren Sie die [!DNL Adobe Workfront for XD] Plugin für Ihre Organisation
 
->[!TIP]
->
->Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[Video-Tutorial hier anzeigen](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Installieren Sie die [!DNL Adobe Workfront for XD] Plug-in einzeln
+
+Sie können die [!DNL Adobe Workfront for XD] Plugin für sich aus dem [!DNL Adobe Exchange].
 
 1. Navigieren Sie zu [Adobe Workfront für XD Installationsseite](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) auf der Adobe Exchange.
 1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
