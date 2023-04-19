@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für Photoshop-Plug-in über den Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Sie müssen die [!DNL Adobe Photoshop] App vor der Installation [!DNL Workfront] Plug-in.
 
-## Installieren Sie die [!DNL Adobe Workfront for Photoshop] plugin
+## Installieren Sie die [!DNL Adobe Workfront for Photoshop] Plugin für Ihre Organisation
 
->[!TIP]
->
->Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[Video-Tutorial hier anzeigen](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Installieren Sie die [!DNL Adobe Workfront for Photoshop] Plug-in einzeln
+
+Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich aus dem [!DNL Adobe Exchange].
 
 1. Navigieren Sie zu [Installationsseite für Adobe Workfront für Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) auf der Adobe Exchange.
 1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
