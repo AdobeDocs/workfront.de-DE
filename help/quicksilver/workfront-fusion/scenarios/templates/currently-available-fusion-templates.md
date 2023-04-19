@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Diese Vorlage erfasst eine Projektgrundlinie bei jeder in den Switch-Modulen ver
 ### Workfront - Erstellung von Grundlinien pro Woche
 
 Diese Vorlage erfasst wöchentlich jeden Montag um 6 Uhr ET eine Projektgrundlinie für Projekte, die nach Portfolio gefiltert wurden, und erstellt eine Aktualisierung im Aktualisierungsstream zur Protokollierung.
+
+### Suchen Sie nach Projektvorlagen, die nicht in der Richtlinienzeit verwendet werden, und benachrichtigen Sie
+
+Überprüfen Sie einmal im Monat Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu handhabenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
 
 ## Workfront - Workfront-Testvorlagen
 
