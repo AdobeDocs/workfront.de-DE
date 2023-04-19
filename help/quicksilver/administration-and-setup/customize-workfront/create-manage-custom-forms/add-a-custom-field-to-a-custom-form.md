@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -87,7 +87,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader">Typeahead </td> 
       <td>Ermöglicht Benutzern die Eingabe des Namens eines Objekts, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn der Benutzer mit der Eingabe beginnt.
       Dieser Feldtyp unterstützt die folgenden Objekte:
-      <ul><li>Benutzer</li>
+      <ul><li>Benutzerin oder Benutzer</li>
       <li>Gruppe</li>
       <li>Aufgabengebiet</li>
       <li>Portfolio</li>
@@ -149,18 +149,19 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       </ul> <p>Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. Weitere Informationen finden Sie unter <a href="#Add" class="MCXref xref">Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen</a> in diesem Artikel.</p> </td>
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anleitung</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
       <p> <img src="assets/custom-field-tooltip.png"> </p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>NOTIZ</b>:   
-        <ul> 
-         <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie das Format Zahl oder Währung auswählen.<br></li> 
-         <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li> 
-        </ul> </p> </td> 
+      <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll. Sie können die Formatauswahl nach dem Speichern des Formulars ändern. Das neue Format muss jedoch den eingegebenen Wert unterstützen.</p>
+
+   <p><strong>Beispiel:</strong> Wenn Sie einen numerischen Wert für ein Feld im Textformat für mindestens ein Objekt speichern und das Format später in Zahl oder Währung ändern, tritt kein Fehler auf. </p>
+      <p>Wenn Sie jedoch einen alphanumerischen Wert in einem Feld mit dem Textformat für mindestens ein Objekt speichern und dann versuchen, das Format in Zahl oder Währung zu ändern, wird ein Fehler ausgegeben, da der gespeicherte alphanumerische Wert nicht mit den Formaten Zahl oder Währung kompatibel ist. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anzeigetyp</td> 
@@ -204,7 +205,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td>(Nur beschreibende Textfelder) Wenn Sie einen Hyperlink auf den eingegebenen beschreibenden Text anwenden möchten, fügen Sie ihn hier hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Erforderliches Feld festlegen</td> 
+      <td role="rowheader">Zu einem erforderlichen Feld machen</td> 
       <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
      </tr> 
      <tr> 
