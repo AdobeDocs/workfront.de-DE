@@ -6,14 +6,16 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand
+
+{{highlighted-preview}}
 
 Sie können einer Pinnwand schnell eine Karte hinzufügen und sie einem Mitglied auf der Pinnwand zuweisen. Die Karte kann eine Aufgabe, ein Problem, eine Person, eine Gruppe oder einen beliebigen Elementtyp darstellen, der in die Pinnwand eingeschlossen werden soll.
 
@@ -63,7 +65,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong> </td> 
-      <td>Eine Beschreibung der Karte.</td> 
+      <td>Eine Beschreibung der Karte. <span class="preview">Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong> </td> 
@@ -96,7 +98,17 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
     </tbody> 
    </table>
 
+   Beispiel-Kartendetails-Bild in der Produktionsumgebung:
    ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Beispielbild für Kartendetails in der Vorschau-Umgebung:
+   ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.</span>
+
+   >[!NOTE]
+   >
+   >Das linke Navigationsfenster und die Möglichkeit, klickbare Links im Feld Beschreibung hinzuzufügen, sind nur über die frühe Funktion der Anmeldung für Workfront-Pinnwände verfügbar.
 
 1. Klicken **[!UICONTROL Schließen]** , um die Karte zur Pinnwand hinzuzufügen.
 
