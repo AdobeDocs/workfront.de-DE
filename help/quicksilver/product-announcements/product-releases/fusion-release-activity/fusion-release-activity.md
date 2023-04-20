@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos m
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
+source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos miteinander, s
 Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Letzte Versionen
+
+### April 2023
+
+* [Workfront Fusion-Release-Aktivität: Woche vom 17. April 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
 ### März 2023
 
@@ -84,6 +88,10 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 3. Januar 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## Fusionsfreigaben 2021
+
++++**Zum Öffnen klicken**
+
 ### November 2021
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 29. November 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
@@ -142,6 +150,12 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 * [Workfront Fusion-Release-Aktivität: Woche vom 11. Januar 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 4. Januar 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## Fusionsfreigaben 2020
+
++++**Zum Öffnen klicken**
+
 ### Dezember 2020
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 7. Dezember 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -160,3 +174,5 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 24. August 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 17. August 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++
