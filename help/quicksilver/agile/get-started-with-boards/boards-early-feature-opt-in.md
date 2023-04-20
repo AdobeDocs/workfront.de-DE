@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 199a83eaeb7fb96b41cec44ea116121cb84c1721
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Dynamische Pinnwände erstellen</td>
-   <td>Geplant</td>
+   <td>Teilweise freigegeben</td>
   </tr>
  </tbody> 
 </table>
