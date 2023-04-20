@@ -6,7 +6,7 @@ description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] Benachrichtigungen
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 
@@ -130,15 +128,11 @@ Erinnerungsbenachrichtigungen werden von der E-Mail-Adresse gesendet, die die [!
 
 Informationen zum Einrichten und Aktivieren von Erinnerungsbenachrichtigungen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Pinnwandbenachrichtigungen
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist.
 
 In den Vorlieben Ihrer Pinnwände können Sie auswählen, welche E-Mails Sie erhalten möchten. Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Sonstiges [!DNL Workfront] E-Mails
 
