@@ -5,7 +5,8 @@ navigation-topic: boards
 title: E-Mail-Benachrichtigungen und Voreinstellungen in Foren
 description: Adobe Workfront-Pinnwände senden Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt und Ihnen eine Karte zugewiesen wird.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -13,8 +14,6 @@ ht-degree: 1%
 ---
 
 # E-Mail-Benachrichtigungen und Voreinstellungen in Foren
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist. Die Benachrichtigungen sind standardmäßig aktiviert und Sie können in Ihren Vorlageneinstellungen auswählen, welche E-Mails Sie erhalten möchten.
 
