@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -107,7 +107,9 @@ Aktuell können Sie mit der Beta-Kommentarfunktion zu den folgenden Objekten Kom
   <tr> 
    <td> 
     <ul> 
-     <li>Ziele</li> 
+     <li><p>Ziele</p>
+     <p>Dies ist das Standarderlebnis für Ziele</p>
+     </li> 
      </ul> </td> 
    <td> 
     <ul> 
