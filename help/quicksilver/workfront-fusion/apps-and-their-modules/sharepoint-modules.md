@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ![](assets/map-toggle-350x74.png)
 
+* [Laufwerkselement](#drive-item)
 * [Element](#item)
 * [Liste](#list)
 * [Seite (Beta)](#page-beta)
 * [Site](#site)
 * [Sonstige](#other)
+
+### Laufwerkselement
+
+* [Datei erstellen](#create-a-file)
+* [Ordner erstellen](#create-a-folder)
+* [Datei abrufen](#get-a-file)
+* [Ordnerelemente überwachen](#watch-folder-items)
+
+#### Datei erstellen
+
+Dieses Aktionsmodul erstellt eine neue Datei in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
+   <td> <p>Wählen Sie aus, wie Sie den Speicherort der Datei identifizieren möchten, die Sie erstellen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Ordner-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort aus, an dem Sie die Datei erstellen möchten. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Ordner erstellen
+
+Dieses Aktionsmodul erstellt einen neuen Ordner in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
+   <td> <p>Wählen Sie aus, wie Sie den Speicherort des Ordners identifizieren möchten, den Sie erstellen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Ordner-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort aus, an dem Sie den Ordner erstellen möchten. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Ordnername]</td> 
+   <td>Geben Sie einen Namen für den neuen Ordner ein oder ordnen Sie ihn zu.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Datei abrufen
+
+Dieses Aktionsmodul ruft die angegebene SharePoint-Datei ab.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
+   <td> <p>Wählen Sie aus, wie Sie den Speicherort der Datei identifizieren möchten, die Sie abrufen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Datei-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort der Datei aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Ordnerelemente überwachen
+
+Dieses Trigger-Modul startet ein Szenario, wenn ein Element in einem von Ihnen ausgewählten Ordner aktualisiert wird.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
+   <td> <p>Wählen Sie aus, wie Sie den Speicherort der Datei identifizieren möchten, die Sie abrufen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Ordner-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort des Ordners aus, den Sie überwachen möchten. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Maximale Elementanzahl eingeben [!DNL Workfront Fusion] sollte während eines Szenario-Ausführungszyklus zurückgegeben werden.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Element
 
