@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufügen, die Aufgaben und Probleme automatisch als verbundene Karten einzieht, wenn sie in [!DNL Workfront], basierend auf von Ihnen definierten Filtern. Die Ansauspalte kann als Rückstau für ein Kanban-Team dienen, als Aufnahmeort für ein Support-Team, um Probleme zu sehen, wenn sie einer Anfragewarteschlange hinzugefügt werden, oder zu einem anderen Zweck, den Sie benötigen.
 
 Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer als ganz links liegende Spalte.
+
+Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar.
 
 Die Spalte Aufnahme ist auf 300 Aufgaben und 300 Probleme beschränkt. Sie werden nach der in den Elementen definierten Priorität sortiert. Informationen zur Priorität finden Sie unter [Aufgabenpriorität aktualisieren](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) und [Priorität von Problemen aktualisieren](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
