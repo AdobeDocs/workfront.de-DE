@@ -3,13 +3,13 @@ title: Übersicht über die Version 23.3
 description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über die Version 23.3
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Agile Verbesserungen](#agile-enhancements)
+* [Weitere Verbesserungen](#other-enhancements)
 
 ### Agile Verbesserungen
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">E-Mail-Benachrichtigungen und Voreinstellungen in Foren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Vorlage für dynamische Pinnwände</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Eine neue Vorlage, dynamische Pinnwand, ist jetzt für eigenständige Pinnwände verfügbar. Diese Vorlage ist nicht für Pinnwände innerhalb eines Workflows verfügbar.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 20. April 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrieren von agilen Teams Kanban-Karten zu Foren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Eine neue <b>Zu Foren hinzufügen</b> Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 20. April 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Linke Navigation zu Kartendetails auf Pinnwänden hinzugefügt</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Je mehr Feldoptionen zu Karten auf Workfront-Pinnwänden hinzugefügt werden, desto länger sind die Kartendetails. In einem neuen Navigationsfenster links neben den Kartendetails können Sie einen Abschnitt auswählen und automatisch zu dieser Feldergruppe wechseln.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 20. April 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">E-Mail-Benachrichtigungen und Voreinstellungen in Foren</a></p>
                         <p>E-Mail-Benachrichtigungen sind jetzt für Adobe Workfront-Pinnwände verfügbar. Die Benachrichtigungen sind standardmäßig aktiviert und Sie können in Ihren Voreinstellungen auswählen, welche E-Mails Sie erhalten möchten. Sie erhalten eine E-Mail, wenn Sie einer Pinnwand hinzugefügt und Ihnen eine Karte zugewiesen wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion-Verbesserungen
 
-Es gibt derzeit keine Updates für Workfront Fusion. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Neue Funktionen in Workfront Fusion sind in der Produktion ab einem Zeitpunkt verfügbar, der außerhalb des Veröffentlichungszeitplans für 23.3 liegt. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Verbesserungen am Workfront-Szenario-Planer
 
