@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Sie müssen das richtige Plug-in für die Adobe Creative Cloud-Anwendung install
 
 ## Automatisierte Testversandeinstellungen anpassen {#adjust-proof-settings}
 
-1. (Optional) Automatisierte Testversandeinstellungen anpassen
+1. (Optional) Anpassen der Workflow-Einstellungen für automatisierte Testsendungen
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Testsendungen</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Phasen deaktivieren
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Testsendungen</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Phasen deaktivieren
+         </td>
+         <td>
+      <ol>
 
    <li>Umschalten Wählen Sie Alle auswählen , um alle Bühnen zu deaktivieren. 
-   <p>Oder</p></li>
-   <li>Umschalten einzelner Bühnen.</li>
+      <p>Oder</p></li>
+      <li>Umschalten einzelner Bühnen.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Empfänger hinzufügen
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Empfänger hinzufügen
+         </td>
+         <td>
+      <ol>
 
    <li>Geben Sie im Feld Neuen Empfänger hinzufügen den Namen des Benutzers ein.
-
-   Hinweis: Externe Empfänger können nicht per E-Mail über das Plug-in hinzugefügt werden.
 
    <li>Geben Sie die Rolle "Testversand"an.
 
    <li>Wählen Sie den Typ der E-Mail-Warnungen für den Empfänger aus. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Festlegen eines Termins
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Festlegen eines Termins
+         </td>
+         <td>
+      <ol>
 
    <li>Wählen Sie einen Termin aus.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>E-Mail-Benachrichtigungen</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Empfänger über den Testversand informieren
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>E-Mail-Benachrichtigungen</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Empfänger über den Testversand informieren
+         </td>
+         <td>
+      <ol>
 
    <li>Aktivieren Sie das Kontrollkästchen, um Benutzer darüber zu informieren, wann der Testversand erstellt wird.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Benutzerdefinierte Nachricht hinzufügen
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Benutzerdefinierte Nachricht hinzufügen
+         </td>
+         <td>
+      <ol>
 
    <li>Geben Sie einen Betreff ein.
 
    <li>Geben Sie die benutzerdefinierte Nachricht ein.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 

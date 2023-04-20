@@ -5,13 +5,13 @@ title: Hochladen von Testsendungen aus Illustrator
 description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnell zu überprüfen und zu validieren oder einfach in Adobe Workfront zu speichern.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # Hochladen von Testsendungen aus [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Im **[!UICONTROL Testgenehmigungen]** Bereich, wählen Sie **[!UICONTROL Automatisiert]**.
 1. (Optional) Im **[!UICONTROL Workflow-Vorlage]** Geben Sie den Namen einer Testversand-Workflow-Vorlage ein.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
