@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
 
    >[!TIP]
    >
-   >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
+   >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. (Optional) Um Ihrer Aktualisierung Rich-Text-Formatierung hinzuzufügen, verwenden Sie eine der folgenden Optionen aus dem **Rich-Text** Symbolleiste zum Erweitern des Textes:
@@ -223,7 +223,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
 
 1. Klicken **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Informationen im Kommentar bearbeiten <!--or remove any of the tagged users-->.
+1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
 Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    1. under **Anzuzeigender Text**, geben Sie den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
 
-1. (Optional) Klicken Sie auf die Schaltfläche **Bild** icon ![](assets/addimageicon-35x32.png) und navigieren Sie zum Bild auf Ihrem Computer.\
-   Oder\
-   Ziehen Sie das Bild in den Aktualisierungsbereich.
+1. (Optional) Um ein Bild an Ihre Aktualisierung anzuhängen, führen Sie je nach verwendeter Umgebung einen der folgenden Schritte aus:
+
+   * Klicken Sie auf **Bild** icon ![](assets/addimageicon-35x32.png) und navigieren Sie zum Bild auf Ihrem Computer oder ziehen Sie das Bild in den Aktualisierungsbereich, wenn Sie das aktuelle Aktualisierungserlebnis verwenden.
+
+   Oder
+
+   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-paperclip-icon.png) und navigieren Sie zum Bild auf Ihrem Computer, wenn Sie das kommentierende Beta-Erlebnis verwenden.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen** oder **Löschen**, wenn Sie das Beta-Kommentarerlebnis verwenden.
+1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen** oder klicken Sie auf **Löschen**, wenn Sie das Beta-Kommentarerlebnis verwenden.
 
->[!NOTE]
->
->Wenn Sie eine Aktualisierung mit einem angehängten Bild löschen, werden sowohl der Kommentar als auch das Bild gelöscht.
+   >[!NOTE]
+   >
+   >Wenn Sie eine Aktualisierung mit einem angehängten Bild löschen, werden sowohl der Kommentar als auch das Bild gelöscht.
+
+   Wenn dem Kommentar, den Sie löschen, Antworten zugeordnet sind, gibt es einen Hinweis darauf, dass der Kommentar mit dem Namen des Benutzers entfernt wurde, der ihn entfernt hat.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Bei Verwendung des Beta-Kommentarerlebnisses werden gelöschte Kommentare sofort aus Workfront entfernt. Ein Benutzer, der den Abschnitt Updates verwendet, sieht, dass ein Kommentar von einem anderen Benutzer in Echtzeit gelöscht wird.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Hinzufügen eines Updates zu einem Timesheet
 
