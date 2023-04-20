@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '12897'
+source-wordcount: '12905'
 ht-degree: 1%
 
 ---
@@ -935,6 +935,7 @@ ht-degree: 1%
       * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Gruppen auf einer Pinnwand verwenden](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Kartenfalloff konfigurieren](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Migrieren von agilen Teams Kanban-Karten zu Workfront-Pinnwänden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
