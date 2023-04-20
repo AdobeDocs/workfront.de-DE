@@ -6,14 +6,16 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1242'
+ht-degree: 0%
 
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
+
+{{highlighted-preview}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Durch Ändern des Namens wird auch der Name auf der verbundenen Seite geändert [!DNL Workfront] -Objekt.</p> </td> 
+      <td>Durch Ändern des Namens wird auch der Name auf der verbundenen Seite geändert [!DNL Workfront] -Objekt.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong></td> 
-      <td> <p>Durch Ändern der Beschreibung wird auch die Beschreibung auf der verbundenen Seite geändert [!DNL Workfront] -Objekt.</p> </td> 
+      <td>Durch Ändern der Beschreibung wird auch die Beschreibung auf der verbundenen Seite geändert [!DNL Workfront] -Objekt. <span class="preview">Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong></td>
@@ -110,7 +112,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Spalte]</strong></td>
-      <td><p>Wählen Sie die Spalte für die Karte aus.</p></td>
+      <td>Wählen Sie die Spalte für die Karte aus.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Geplanter Abschluss]</strong></td>
-      <td><p>Durch Ändern dieses Datums wird auch das geplante Abschlussdatum am verbundenen Datum geändert [!DNL Workfront] -Objekt.</p></td>
+      <td>Durch Ändern dieses Datums wird auch das geplante Abschlussdatum am verbundenen Datum geändert [!DNL Workfront] -Objekt.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td>
@@ -137,6 +139,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.</span>
+
+   >[!NOTE]
+   >
+   >Das linke Navigationsfenster und die Möglichkeit, klickbare Links im Feld Beschreibung hinzuzufügen, sind nur über die frühe Funktion der Anmeldung für Workfront-Pinnwände verfügbar.
 
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 Das verbundene Objekt, die zugewiesenen Personen, die Tags, das Fälligkeitsdatum, der Zähler der Checkliste, die geschätzten Stunden und der Status werden auf der Karte angezeigt.
