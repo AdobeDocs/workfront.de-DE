@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Das Tagging anderer Benutzer in einer Aktualisierung hängt davon ab, welches Er
 
    ![](assets/tag-users-in-update.png)
 
-1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar.
+1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die **Privatperson in meinem Unternehmen** ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ Das Tagging anderer Benutzer in einer Aktualisierung hängt davon ab, welches Er
 
 ### Tagging anderer Benutzer über Aktualisierungen im Beta-Kommentarerlebnis
 
+Sie können andere über Aktualisierungen im Beta-Kommentarerlebnis mit Tags versehen. Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten.
+
 1. Aktualisieren Sie ein Arbeitselement, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Im **Personen oder Teams taggen** eingeben, den Namen des Benutzers oder Teams eingeben, den Sie einbeziehen möchten, und auf den Namen klicken, wenn er in der Dropdown-Liste angezeigt wird.
 
@@ -148,7 +150,7 @@ Das Tagging anderer Benutzer in einer Aktualisierung hängt davon ab, welches Er
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar.
+1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die **Privatperson in meinem Unternehmen** ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ Das Tagging anderer Benutzer in einer Aktualisierung hängt davon ab, welches Er
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**. Entfernen Sie alle getaggten Benutzer und klicken Sie auf **Einsenden**. Sie können einen Kommentar nur innerhalb von 15 Minuten nach seiner Eingabe bearbeiten. Sie können nur die Kommentare bearbeiten, die Sie hinzugefügt haben.
