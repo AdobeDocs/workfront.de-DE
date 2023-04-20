@@ -7,16 +7,18 @@ description: Lesen Sie diesen Artikel, um besser zu verstehen, wie das Kanban-Bo
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Kanban-Übersicht
 
-In den folgenden Abschnitten erfahren Sie, wie die [!UICONTROL Kanban] Board-Funktionen:
+In den folgenden Abschnitten erfahren Sie, wie die [!UICONTROL Kanban] Board-Funktionen.
+
+Wenn Sie an einer Migration von einem agile Team interessiert sind [!UICONTROL Kanban] Pinnwand [!DNL Workfront] [!UICONTROL Pinnwände], siehe [Migrieren des agile Teams [!UICONTROL Kanban] Karten in [!DNL Workfront] Pinnwände](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] Layout und Funktionen der Pinnwände
 
