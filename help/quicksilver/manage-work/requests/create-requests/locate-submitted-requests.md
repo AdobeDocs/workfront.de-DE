@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen 
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '885'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
 
    >[!TIP]
    >
-   >Filter im Bereich Anforderungen können nicht geändert werden. Darüber hinaus gibt es keine Optionen, um die Ansicht des Anforderungsbereichs zu ändern oder zu ändern.
+   >Filter können im Abschnitt &quot;Gesendet&quot;des Bereichs Anforderungen nicht geändert werden. Darüber hinaus gibt es keine Optionen, um die Ansicht der Liste der gesendeten Anfragen zu ändern oder zu ändern.
 
    <table style="table-layout:auto"> 
     <col> 
