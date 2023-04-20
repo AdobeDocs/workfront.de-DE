@@ -2,7 +2,7 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 1%
@@ -808,7 +808,7 @@ ht-degree: 1%
       * [Tagging anderer Benutzer auf Updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Überblick über die Bearbeitung und Fertig-Schaltflächen](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Einheitliches Kommentierungserlebnis](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [Neues Kommentierungserlebnis](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Arbeiten mit benutzerdefinierten Formularen {#work-with-custom-forms}
       * [Arbeiten mit benutzerdefinierten Formularen](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
