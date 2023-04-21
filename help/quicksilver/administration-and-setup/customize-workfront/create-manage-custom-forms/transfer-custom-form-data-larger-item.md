@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts
 
-Je nach den Geschäftsanforderungen Ihrer Organisation kann die in einer Aufgabe oder einem Problem definierte Arbeit zu groß werden, um sie innerhalb der Aufgabe oder des Problems zu verwalten. In diesem Fall können Sie sie in ein größeres Arbeitselement konvertieren:
+Je nach den Geschäftsanforderungen Ihrer Organisation kann die in einer Aufgabe oder einem Problem definierte Arbeit für die Verwaltung innerhalb der Aufgabe oder des Problems zu groß werden. In diesem Fall können Sie sie in ein größeres Arbeitselement konvertieren:
 
 * Sie können Probleme in Aufgaben oder Projekte konvertieren
 * Sie können Aufgaben in Projekte konvertieren
@@ -51,34 +51,25 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
 
-## Erste: Benutzerdefiniertes Formular kopieren {#first-copy-the-custom-form}
-
-Zuerst müssen Sie sicherstellen, dass Sie alle benutzerdefinierten Formulardaten für eine Aufgabe oder ein Problem speichern, die bzw. das konvertiert werden soll. Da die benutzerdefinierten Formulardaten exakt mit dem konvertierten Element übereinstimmen müssen, empfiehlt es sich, das Formular zu duplizieren, damit Sie es an das neue Objekt anhängen können.
-
->[!TIP]
->
->Eine andere Möglichkeit, benutzerdefinierte Formulardaten in dieser Situation beizubehalten, besteht darin, den größeren Objekttyp zum benutzerdefinierten Formular hinzuzufügen. Anweisungen finden Sie im Abschnitt . [Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+## Erste: Hinzufügen zusätzlicher Objekte zum benutzerdefinierten Formular
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken **Benutzerdefinierte Forms**.
-1. Wählen Sie das benutzerdefinierte Formular vom Typ Aufgabe oder Problem aus und klicken Sie auf **Kopieren**.
-1. Im **Benutzerdefiniertes Formular** Geben Sie einen Namen für das neue Formular an.
+1. Suchen Sie das gewünschte Formular und klicken Sie auf **Bearbeiten**.
+1. Fügen Sie oben im Formular das Objekt hinzu, in das Sie die Aufgabe oder das Problem konvertieren möchten.
+   >[!INFO]
+   >
+   >**Beispiel**: Wenn Sie die benutzerdefinierten Formulardaten an ein Projekt übertragen möchten, wählen Sie Projekt aus.
 
-1. Aus dem **Formulartyp** Dropdown-Menü den Objekttyp auswählen, für den Sie das neue benutzerdefinierte Formular erstellen möchten
-
-   **Beispiel:** Wenn Sie die benutzerdefinierten Formulardaten an ein Projekt übertragen möchten, wählen Sie Projekt aus.
-
-1. Klicken **Formular kopieren**.
-
-   Dieses kopierte benutzerdefinierte Formular kann jetzt an eine Aufgabe oder ein Projekt angehängt werden.
+1. Klicken **Anwenden** unten im Formular.
 
 1. Fahren Sie fort mit [Zweitens: Konvertieren des Problems oder der Aufgabe und Übertragen der benutzerdefinierten Formulardaten](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Zweitens: Konvertieren des Problems oder der Aufgabe und Übertragen der benutzerdefinierten Formulardaten {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Kopieren Sie das benutzerdefinierte Formular zu dem Problem oder der Aufgabe, das/die Sie konvertieren, wie im Abschnitt beschrieben. [Erste: Benutzerdefiniertes Formular kopieren](#first-copy-the-custom-form) in diesem Artikel.
-1. Konvertieren Sie das Problem oder die Aufgabe mithilfe des **Benutzerdefinierte Forms** in dem Feld, das angezeigt wird, um das benutzerdefinierte Formular auszuwählen, das Sie kopiert haben. Anweisungen finden Sie in den folgenden Artikeln:
+1. Fügen Sie dem benutzerdefinierten Formular zusätzliche Objekte zu dem Problem oder der Aufgabe hinzu, das bzw. die Sie konvertieren, wie im Abschnitt beschrieben. [Erste: Hinzufügen zusätzlicher Objekte zum benutzerdefinierten Formular](#first-add-additonal-objects-to-the-custom-form) in diesem Artikel.
+1. Konvertieren Sie das Problem oder die Aufgabe mithilfe des **Benutzerdefinierte Forms** in dem Feld, das angezeigt wird, um das gewünschte benutzerdefinierte Formular auszuwählen. Anweisungen finden Sie in den folgenden Artikeln:
 
    * [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Konvertieren eines Problems in eine Aufgabe in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
@@ -88,3 +79,29 @@ Zuerst müssen Sie sicherstellen, dass Sie alle benutzerdefinierten Formulardate
 
    Die in den benutzerdefinierten Feldern des Problems erfassten Informationen werden jetzt in das benutzerdefinierte Formular für die Aufgabe übertragen.
 
+
+<!--
+## First: Copy the custom form {#first-copy-the-custom-form}
+
+First you need to make sure that you retain any custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form so that you can attach it to the new object.
+
+>[!TIP]
+>
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms**.
+1. Select the task- or issue-type custom form, then click **Copy**.
+1. In the **Custom Form** dialog box, specify a name for the new form.  
+
+1. From the **Form Type** drop-down menu, select the type of object you want to create the new custom form for
+
+   **Example:** If you want to transfer the custom form data to a project, select Project.
+
+1. Click **Copy Form**.
+
+   This copied custom form can now be attached to a task or project.
+
+1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+-->
