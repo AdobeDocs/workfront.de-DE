@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Überblick über Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Anzeigen von Informationen zu monatlichen Zuweisungen von Testsendungen und Dokumententscheidungen
 
-Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
-
 >[!IMPORTANT]
 >
->Die Entscheidungsgrenzen für Beweise und Dokumente gelten nicht für Benutzer auf [Legacy-Workfront-Lizenzen und -Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Die Entscheidungsgrenzen für Beweise und Dokumente gelten nur für Benutzer der neuen Lizenzen. Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
 
 Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan. Sie können Ihre monatliche Zuteilung unter Einrichtung > Lizenzen anzeigen.
 

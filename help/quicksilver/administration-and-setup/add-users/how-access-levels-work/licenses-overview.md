@@ -1,28 +1,29 @@
 ---
-title: Überblick über Lizenzen
+title: Übersicht über neue Lizenzen
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei Arten bezahlter Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von drei neuen gebührenpflichtigen Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
 
-# Überblick über Lizenzen
+# Übersicht über neue Lizenzen
 
 Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei Arten bezahlter Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 
-## Verknüpfung von Workfront-Lizenzen und Zugriffsstufen
+## Wie neue Workfront-Lizenzen und neue Zugriffsebenen verknüpft werden
 
-Die drei Arten bezahlter Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
+Die drei neuen gebührenpflichtigen Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
 Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die dieser Lizenz zugeordnete Zugriffsstufe zu.
 
@@ -56,4 +57,3 @@ Wenn Sie beispielsweise einem Benutzer die Standardzugriffsstufe zuweisen, wird 
 Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 Informationen zur Verwaltung Ihrer Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

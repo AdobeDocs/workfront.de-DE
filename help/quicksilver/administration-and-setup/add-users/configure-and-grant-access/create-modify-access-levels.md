@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter
 
-* [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Überblick über veraltete Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Übersicht über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Lizenztyp</td> 
-      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz die am ehesten mit der Art der Zugriffsebene in Verbindung stehende Lizenz ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Überblick über veraltete Lizenzen</a> oder <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über veraltete Adobe Workfront-Lizenzen</a>.</td> 
+      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz die am ehesten mit der Art der Zugriffsebene in Verbindung stehende Lizenz ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Übersicht über neue Lizenzen</a> oder <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Überblick über Lizenzen</a>.</td> 
      </tr> 
     </tbody> 
    </table>

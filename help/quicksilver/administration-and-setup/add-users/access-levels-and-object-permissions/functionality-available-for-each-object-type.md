@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
-title: Für jeden Objekttyp verfügbare Funktionen für verschiedene alte Zugriffsebenen
+title: Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
 description: In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
-# Für jeden Objekttyp verfügbare Funktionen für verschiedene alte Zugriffsebenen
+# Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
 
 In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 
@@ -285,7 +285,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 | Systemweit freigeben | ✓&#42; | ✓&#42; |   |   |   |
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Details bearbeiten | ✓ | ✓ | ✓ | ✓ |   |
-| Herunterladen | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Download | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Checkout | ✓ | ✓ | ✓ | ✓ |   |
 | Hinzufügen von Genehmigern | ✓ | ✓ | ✓ | ✓ |   |
 | Dokumente genehmigen | ✓ | ✓ | ✓ | ✓ | ✓ |

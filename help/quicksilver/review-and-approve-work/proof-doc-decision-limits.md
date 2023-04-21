@@ -5,23 +5,19 @@ title: Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - �
 description: Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick
 
-Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
+Die Entscheidungen über die Prüfung und die Dokumentierung sind auf alle nicht bezahlten Workfront-Lizenzen für die neuen Pläne beschränkt. Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->Die Entscheidungsgrenzen für Beweise und Dokumente gelten nicht für Benutzer auf [Legacy-Workfront-Lizenzen und -Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan:
+Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt. Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan:
 
 <table>
   <tr>

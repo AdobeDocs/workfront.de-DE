@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurieren, ob Testsendungen automatisch generiert werden
 description: Sie können konfigurieren, ob das System automatisch Testsendungen generiert, wenn Benutzer, die Sie angeben, Dokumente zu Workfront hinzufügen. Diese Einstellung ist standardmäßig deaktiviert.
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über veraltete Lizenzen</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 

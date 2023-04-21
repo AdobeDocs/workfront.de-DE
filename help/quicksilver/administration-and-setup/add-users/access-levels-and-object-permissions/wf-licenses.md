@@ -1,5 +1,5 @@
 ---
-title: Überblick über veraltete Lizenzen
+title: Überblick über Lizenzen
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# Überblick über veraltete Lizenzen
+# Überblick über Lizenzen
 
-Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl älterer Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von vier Arten von bezahlten Workfront-Legacy-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von vier Arten bezahlter Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 
-## Wie alte Lizenzen und Zugriffsstufen verknüpft werden
+## Verknüpfung von Lizenzen und Zugriffsebenen
 
-Die vier Arten von bezahlten Workfront-Legacy-Lizenzen ermöglichen unterschiedliche Zugriffsstufen auf Workfront. Jede ältere Zugriffsstufe ist an eine dieser Legacy-Lizenzen angehängt.
+Die vier gebührenpflichtigen Workfront-Lizenzen ermöglichen unterschiedliche Zugriffsstufen auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
-Als Workfront-Administrator weisen Sie einem Benutzer anstelle der Zuweisung einer älteren Lizenz die alte Zugriffsstufe zu, die dieser älteren Lizenz zugeordnet ist.
+Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die dieser Lizenz zugeordnete Zugriffsstufe zu.
 
 Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Workfront:
 
-| Legacy-Lizenz | Zugehörige alte Zugriffsstufe |
+| Lizenz | Zugehörige Zugriffsebene |
 |--- |--- |
 | Plan | Systemadministrator, Planer |
 | Arbeit | Arbeitskraft |

@@ -1,5 +1,5 @@
 ---
-title: Übersicht über Zugriffsebenen
+title: Übersicht über die neuen Zugriffsebenen
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
 
-# Übersicht über Zugriffsebenen
+# Übersicht über die neuen Zugriffsebenen
 
 Als Adobe Workfront-Administrator weisen Sie einem Benutzer für zwei Zwecke eine Zugriffsstufe zu:
 
 * Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können.
 * Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
 
-## Integrierte Zugriffsebenen in Adobe Workfront {#built-in-access}
+## Neue integrierte Zugriffsebenen in Adobe Workfront {#built-in-access}
 
-Workfront verfügt über sechs integrierte Zugriffsebenen:
+Workfront verfügt über sechs neue integrierte Zugriffsebenen:
 
 * Systemadministrator
 * Standard
