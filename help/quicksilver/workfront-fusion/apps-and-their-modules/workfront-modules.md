@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td>[!UICONTROL Suchkriterien]</td> 
-   <td> <p>Geben Sie das Feld, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert ein, nach dem Sie im Feld suchen.</p> <p>Hinweis: Nicht anwenden <code>username </code>in Ihren Suchkriterien. Einschließlich <code>username </code>in einer API-Abfrage zu [!DNL Workfront] meldet den Benutzer in Workfront an und die Suche wird nicht erfolgreich durchgeführt.</p> </td> 
+   <td> <p>Geben Sie das Feld, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert ein, nach dem Sie im Feld suchen.</p> <p>Hinweis: Nicht anwenden <code>username </code>in Ihren Suchkriterien. Einschließlich <code>username </code>in einer API-Abfrage zu [!DNL Workfront] meldet den Benutzer in Workfront an und die Suche wird nicht erfolgreich durchgeführt.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>mit Arrays arbeiten. Die Eingaben sollten im Array-Format erfolgen.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Ausgaben]</td> 
@@ -911,7 +911,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1043,7 +1043,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1218,7 +1218,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1428,7 +1428,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1532,7 +1532,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -1637,7 +1637,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
