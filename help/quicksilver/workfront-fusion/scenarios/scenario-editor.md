@@ -7,7 +7,7 @@ description: Mit dem Szenario-Editor können Sie Szenarien in einer visuellen Be
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      <td>Klicken <strong>[!UICONTROL Einmal ausführen]</strong> , um zu überprüfen, ob das Szenario wie erwartet ausgeführt wird, bevor Sie es aktivieren. Nach der Aktivierung wird das Szenario gemäß seinem Zeitplan ausgeführt. Wenn nicht alles wie erwartet ausgeführt wird, erfahren Sie in unserem Abschnitt zur Fehlerbehebung , wie Fehler zu handhaben sind.</td> 
    </tr> 
 </tbody>
+</table>
