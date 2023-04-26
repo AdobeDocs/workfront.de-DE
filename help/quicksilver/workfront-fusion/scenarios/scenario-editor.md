@@ -7,9 +7,9 @@ description: Mit dem Szenario-Editor können Sie Szenarien in einer visuellen Be
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
    Wenn Sie ein vorhandenes Szenario bearbeiten möchten, klicken Sie auf das Szenario.
 
-1. (Bedingt) Wenn Sie ein neues Szenario erstellen, finden Sie unter **[!UICONTROL Welche Dienste möchten Sie integrieren?]**, wählen Sie die Apps aus, mit denen Sie in dem Szenario arbeiten möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
-
-   Oder
-
-   Klicken **[!UICONTROL Überspringen]** , wenn Sie die Apps lieber im Szenario-Editor auswählen möchten.
-
    Im angezeigten Szenario-Editor können Sie alles tun, was in der unten stehenden Tabelle aufgeführt ist. Weitere Informationen finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Wenn Sie die Bearbeitung eines Szenarios abgeschlossen haben (oder zu einem beliebigen Zeitpunkt während der Bearbeitung), klicken Sie auf [!UICONTROL Speichern] Symbol. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
    >Nach dem Speichern des Szenarios wird eine neue Version unter dem Menü mit drei Punkten verfügbar sein, falls Sie in Zukunft darauf zugreifen müssen. Zuvor gespeicherte Szenario-Versionen sind nur für 60 Tage verfügbar.
 
 ## Verfügbare Szenario-Editor-Aktionen
+
+Die folgenden Aktionen sind im Szenario-Editor verfügbar:
 
 <table style="table-layout:auto"> 
 <tbody>

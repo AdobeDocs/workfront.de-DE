@@ -7,9 +7,9 @@ description: Die folgenden Aufgaben erläutern, wie Sie eine [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 1. Klicken **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
 
 1. Klicken **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
-1. (Optional) Unter **[!UICONTROL Welche Dienste möchten Sie integrieren?]** Wenn Sie ein neues Szenario erstellen, wählen Sie Apps aus, mit denen Sie in dem Szenario arbeiten möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
-
-   Oder
-
-   Klicken **[!UICONTROL Überspringen]** , wenn Sie die Apps im Szenario-Editor auswählen möchten.
-
 1. Wenn Sie ein neues Szenario erstellen, klicken Sie im angezeigten Bildschirm (im Szenario-Editor) auf **[!UICONTROL Neues Szenario]** in der linken oberen Ecke ein und geben Sie einen Namen für das Szenario ein.
 1. Fahren Sie fort mit [Hinzufügen eines Moduls in einem Szenario](#add-a-module-in-a-scenario).
 
