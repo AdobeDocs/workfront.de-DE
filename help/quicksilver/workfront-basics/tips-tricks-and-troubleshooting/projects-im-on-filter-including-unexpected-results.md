@@ -5,7 +5,7 @@ title: Projekte, die ich filtern möchte, einschließlich unerwarteter Ergebniss
 description: Lesen Sie diesen Artikel, um Probleme mit dem Filter Projekte zu beheben, die mit unerwarteten Ergebnissen verbunden sind.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Die [!UICONTROL **Projekte, an denen ich arbeite**] Filter umfasst Projekte, die
 
 1. Überprüfen Sie die [!UICONTROL **Projektdetails**] für jedes unerwartete Projekt, das vom Filter enthalten ist, und entfernen Sie Ihren Namen aus allen Feldern.
 
-ODER
+   ODER
 
 1. Verwenden Sie einen ähnlichen Filter, z. B. [!UICONTROL **Eigene Projekte**], der nur Projekte enthält, die Ihnen speziell zugewiesen sind.
 

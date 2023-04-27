@@ -7,10 +7,10 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,11 +104,11 @@ In den folgenden Listen werden die verfügbaren Ausdrücke definiert, die Sie ve
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Dieser Ausdruck fügt die Anzahl der Tage zum Datum hinzu und ist wie folgt formatiert:</p><pre>ADDDAYS(Datum, Zahl)</pre> </td> 
+   <td> <p>Dieser Ausdruck fügt die Anzahl der Tage zum Datum hinzu. Der Zahlenwert kann Teiltage enthalten (z. B. fügt 1,5 dem Datum anderthalb Tage hinzu).</p> <p>Der Ausdruck ist wie folgt formatiert:</p><pre>ADDDAYS(Datum, Zahl)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Dieser Ausdruck fügt die Anzahl der Wochentage zum Datum hinzu und ist wie folgt formatiert:</p><pre>ADDWEEKDAYS(Datum, Zahl)</pre> </td> 
+   <td> <p>Dieser Ausdruck fügt die Anzahl der Wochentage zum Datum hinzu. Dieser Ausdruck fügt nur ganze ganzzahlige Werte zum Datum hinzu und rundet es ab. </p> <p>Der Ausdruck ist wie folgt formatiert:</p><pre>ADDWEEKDAYS(Datum, Zahl)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
