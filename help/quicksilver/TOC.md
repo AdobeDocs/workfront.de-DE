@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
+source-git-commit: c57f437108fa70030973e227eb84882477ca386c
 workflow-type: tm+mt
-source-wordcount: '12923'
+source-wordcount: '12928'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 23.3 {#release-23-3}
          * [23.3 Versionsübersicht](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
          * [Woche der Veröffentlichungsaktivität der Version 23.3 vom 10. April 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
          * [Woche der Veröffentlichungsaktivität der Version 23.3 vom 17. April 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+         * [23.3 Woche der Veröffentlichungsaktivität vom 24. April 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+         * [Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Version 23.2 {#release-23-2}
          * [23.2 Versionsübersicht](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Verbesserungen für Administratoren](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -1357,7 +1358,7 @@ ht-degree: 1%
          * [Priorisieren von Projekten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Projektoptimierung im Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Berechnung des Nettowertrisikos in einem Portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * Anforde- rungen {#requests}
+   * Anfragen {#requests}
       * [Anforde- rungen](manage-work/requests/requests-overview.md)
       * Erstellen und Verwalten von Anforderungswarteschlangen {#create-and-manage-request-queues}
          * [Erstellen und Verwalten von Anforderungswarteschlangen](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)

@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Agile Verbesserungen](#agile-enhancements)
+* [Integrationsverbesserungen](#integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Agile Verbesserungen
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Einfache Filter zur Vorlage der dynamischen Pinnwand hinzugefügt</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Die Filter auf der Vorlage für dynamische Pinnwände wurden vereinfacht, sodass Sie Pinnwände schneller erstellen können.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 27. April 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Vorlage für dynamische Pinnwände</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Vorlage für dynamische Pinnwände</a></p>
                         <p>Eine neue Vorlage, dynamische Pinnwand, ist jetzt für eigenständige Pinnwände verfügbar. Diese Vorlage ist nicht für Pinnwände innerhalb eines Workflows verfügbar.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrieren von agilen Teams Kanban-Karten zu Foren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrieren von agilen Teams Kanban-Karten zu Foren</a></p>
                         <p>Eine neue <b>Zu Foren hinzufügen</b> Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Linke Navigation zu Kartendetails auf Pinnwänden hinzugefügt</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Linke Navigation zu Kartendetails auf Pinnwänden hinzugefügt</a></p>
                         <p>Je mehr Feldoptionen zu Karten auf Workfront-Pinnwänden hinzugefügt werden, desto länger sind die Kartendetails. In einem neuen Navigationsfenster links neben den Kartendetails können Sie einen Abschnitt auswählen und automatisch zu dieser Feldergruppe wechseln.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsversion für frühe Anmeldung: 27. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Integrationsverbesserungen
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Anpassen der Workflow-Vorlageneinstellungen für automatisierte Testsendungen mit Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können die vorhandenen automatisierten Workflow-Vorlageneinstellungen jetzt direkt im Creative Cloud anpassen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 27. April 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 27. April 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Weitere Verbesserungen
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Benutzerinitialen werden jetzt in Profilen ohne Avatare angezeigt</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Benutzerinitialen werden jetzt in Profilen ohne Avatare angezeigt</a></p>
                         <p>Um das Auffinden bestimmter Benutzer in großen Listen zu vereinfachen, werden die Benutzerinitialen in Profilen ohne benutzerdefinierte Avatare jetzt in Listen und Legacy-Berichten farbig hinterlegt. Dies ist eine geringfügige kosmetische Änderung und gilt nicht, wenn bereits ein Avatar-Foto verwendet oder der Benutzer deaktiviert wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Vorschau-Version: 20. April 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: Mit Version 23.3</span></p>
+                                <p><span class="preview">Produktionsversion: 4. Mai 2023</span></p>
                             </li>
                         </ul>
                     </td>
