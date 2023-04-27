@@ -5,7 +5,7 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
    <td>[!UICONTROL Tatsächliche Kosten]</td> 
    <td> <p>Die Summe der [!UICONTROL tatsächlichen Beträge] für alle Ausgaben, die für ein Projekt oder eine Aufgabe protokolliert werden.</p> <b>BEISPIEL </b>
    <p>Wenn Sie eine Ausgabe für Aufgabe 1 erstellen und im Feld [!UICONTROL Tatsächlicher Betrag] den Betrag von 600,00 USD eingeben, belaufen sich die tatsächlichen Kosten für diese Aufgabe auf 600,00 USD. </p> 
-   <p>Für ein Projekt: [!DNL Workfront] verwendet die folgende Formel zur Berechnung der tatsächlichen Kosten von [!UICONTROL]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>Für ein Projekt: [!DNL Workfront] verwendet die folgende Formel zur Berechnung der tatsächlichen Kosten von [!UICONTROL]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
@@ -349,7 +349,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
        </tr> 
       </tbody> 
      </table> 
-    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Dies sind schreibgeschützte Felder und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools zur Ressourcenbudgetierung verwenden. </p>
+    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Diese Felder sind schreibgeschützt und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools für die Ressourcenbudgetierung verwenden. </p>
     <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
      <ul> 
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>

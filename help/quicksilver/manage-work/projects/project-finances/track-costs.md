@@ -7,9 +7,9 @@ description: Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>Die tatsächlichen Kosten des Projekts werden wie folgt berechnet:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Diese Kosten werden in der Berechnung der tatsächlichen Kosten nicht dupliziert. Wenn beispielsweise ein Festbetrag zu den tatsächlichen Kosten des Projekts gehört, wird er nicht separat zu den tatsächlichen Kosten hinzugefügt.
+
+>[!NOTE]
+>
 >Beim Protokollieren der Zeit in einem Projekt gibt es bei der Berechnung der tatsächlichen Arbeitskosten für das Projekt die folgenden Szenarien:
 >
 >* Standardmäßig verwendet Workfront die Kosten pro Stunde des Benutzers zur Berechnung der tatsächlichen Arbeitskosten.
 >* Wenn der Benutzer, der die Uhrzeit protokolliert, keinen Kosten zugeordnet ist, verwendet Workfront die Kosten pro Stunde der Primären Rolle des Benutzers.
 >* Wenn Ihr Workfront-Administrator **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** im Bereich &quot;Voreinstellungen&quot;für Timesheets und Stunden festlegen und die Zeit für die Benutzerprotokollierung im Projekt eine andere Rolle auswählt, die dieser Zeit zugeordnet werden soll, werden die tatsächlichen Kosten des Projekts basierend auf der Rolle berechnet, die bei der Aufzeichnung der Stunden angegeben wurde. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### So berechnet Workfront Kostentypen für Aufgaben {#how-workfront-calculates-cost-types-for-tasks}
