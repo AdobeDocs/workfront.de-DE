@@ -6,7 +6,7 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
-
-{{highlighted-preview}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -102,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong></td> 
-      <td>Durch Ändern der Beschreibung wird auch die Beschreibung auf der verbundenen Seite geändert [!DNL Workfront] -Objekt. <span class="preview">Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</span></td> 
+      <td>Durch Ändern der Beschreibung wird auch die Beschreibung auf der verbundenen Seite geändert [!DNL Workfront] -Objekt. Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong></td>
@@ -140,7 +138,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-   <span class="preview">Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.</span>
+   Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
 
    >[!NOTE]
    >

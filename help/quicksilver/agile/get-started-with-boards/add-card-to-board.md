@@ -6,16 +6,14 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand
-
-{{highlighted-preview}}
 
 Sie können einer Pinnwand schnell eine Karte hinzufügen und sie einem Mitglied auf der Pinnwand zuweisen. Die Karte kann eine Aufgabe, ein Problem, eine Person, eine Gruppe oder einen beliebigen Elementtyp darstellen, der in die Pinnwand eingeschlossen werden soll.
 
@@ -65,7 +63,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong> </td> 
-      <td>Eine Beschreibung der Karte. <span class="preview">Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</span></td>
+      <td>Eine Beschreibung der Karte. Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong> </td> 
@@ -98,13 +96,13 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
     </tbody> 
    </table>
 
-   Beispiel-Kartendetails-Bild in der Produktionsumgebung:
+   Beispiel für ein Kartendetailbild in der Produktionsumgebung ohne aktivierten frühzeitigen Funktionszugriff:
    ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">Beispielbild für Kartendetails in der Vorschau-Umgebung:
-   ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   Beispiel-Kartendetails-Bild in der Produktionsumgebung mit aktiviertem frühzeitigen Funktionszugriff:
+   ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.</span>
+   Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
 
    >[!NOTE]
    >

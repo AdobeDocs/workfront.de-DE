@@ -6,16 +6,14 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 3%
 
 ---
 
 # Pinnwand erstellen oder bearbeiten
-
-{{highlighted-preview}}
 
 Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten.
 
@@ -54,29 +52,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. |
    | Kanban-Board | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Rückstau, Neu, In Bearbeitung, Abgeschlossen und Auf Warten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Ansauspalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf die [!UICONTROL **Mehr** Menü] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**]. Sie können diese voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Rückblickende Pinnwand | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Was ist gut gelaufen? Was könnte verbessert werden? Wer soll gefeiert werden? Wie können wir unsere Verfahren beschleunigen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
-   | <span class="preview">Dynamische Pinnwand</span> | <span class="preview">Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Nicht ausgewählt, Neu, In Bearbeitung, Auf Halten und Abschließen. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. (Die Spalte Nicht ausgewählt kann umbenannt, aber nicht gelöscht werden. Diese Spalte enthält alle Karten mit einem Status, der keinem der anderen Spaltenstatus entspricht.) <p>Die standardmäßigen Spaltenrichtlinien weisen Spalten basierend auf ihrem Status Karten zu. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+   | Dynamische Pinnwand | Die folgenden Spalten werden auf der Pinnwand bereitgestellt: Nicht ausgewählt, Neu, In Bearbeitung, Auf Halten und Abschließen. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. (Die Spalte Nicht ausgewählt kann umbenannt, aber nicht gelöscht werden. Diese Spalte enthält alle Karten mit einem Status, der keinem der anderen Spaltenstatus entspricht.) <p>Die standardmäßigen Spaltenrichtlinien weisen Spalten basierend auf ihrem Status Karten zu. Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**HINWEIS:** Die dynamische Pinnwand ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar. |
 
-1. <span class="preview">Führen Sie die Schritte des Einrichtungsassistenten nur für eine dynamische Pinnwand aus:</span>
+1. Führen Sie die Schritte des Einrichtungsassistenten nur für eine dynamische Pinnwand aus:
 
-   <div class="preview">
+   1. Suchen und Auswählen [!DNL Workfront] [!UICONTROL **Projekte**] , um Aufgaben und Probleme in den Vorstand zu bringen.
+   1. Suchen und Auswählen [!UICONTROL **Zuweisungen**] , um Aufgaben und Probleme in den Vorstand zu bringen.
 
-   1. Geben Sie einen Namen für die Pinnwand ein und klicken Sie auf [!UICONTROL **Nächste**].
-   1. Klicken [!UICONTROL **Quelle hinzufügen**].
-   1. Klicken [!UICONTROL **Quellen filtern**] und wählen Sie [!UICONTROL **Aufgaben**] oder [!UICONTROL **Probleme**].
+      Alle Objekte werden auf der Pinnwand als verbundene Karten angezeigt.
 
-      >[!NOTE]
-      >
-      >Sie können die Pinnwand filtern, um sowohl Aufgaben als auch Probleme einzuschließen. Sie müssen die Filter jedoch für jeden Objekttyp separat einrichten.
-      >
-      >Außerdem können Sie gespeicherte Filter und Systemstandardfilter auswählen.
+      Die [!UICONTROL **Hinzufügen von Karten**] Zähler zeigt an, wie viele Karten auf der Pinnwand vorhanden sein werden. Wenn Sie beispielsweise ein Projekt mit 100 Aufgaben und Problemen auswählen, zeigt der Zähler 100 an. Wenn Sie eine Benutzerzuweisung hinzufügen und diese Person fünf Aufgaben im Projekt zugewiesen ist, zeigt der Zähler 5 an.
 
-   1. Erstellen Sie einen Filter, um die Objekte zu definieren, die als verbundene Karten auf die Pinnwand gelangen sollen.
+   1. (Optional) Klicken Sie auf [!UICONTROL **Erweiterte Filter verwenden**] , um weitere Filteroptionen anzuzeigen.
 
       Dies entspricht dem Erstellen eines Filters für eine Annahmespalte. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
    1. Klicken Sie nach dem Hinzufügen der Filter auf [!UICONTROL **Pinnwand erstellen**].
-
-   </div>
 
 1. Geben Sie einen Namen für die Pinnwand im **[!UICONTROL Board]** und drücken Sie die Eingabetaste.
 1. Konfigurieren Sie die Pinnwand nach Bedarf.
