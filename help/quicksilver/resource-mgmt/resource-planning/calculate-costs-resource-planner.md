@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Kosten im Ressourcenplaner berechnen
-description: '"(Alina: ***Link zur Planung im Artikel "Ressourcenplaner", Grundlegendes zu Bereichen des Ressourcenplaners. - nicht verschieben/ändern/löschen.)'''
-author: Alina
+description: Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit Kostenwerten anstelle von Stunden- oder FTE-Werten einsetzen. Kostenwerte sind nicht für die Ansicht "Nach Benutzer anzeigen"im Ressourcenplaner verfügbar.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit Kostenwerten anstelle von Stunden- oder FTE-Werten einsetzen. Kostenwerte sind nicht verfügbar für **Ansicht nach Benutzer** im Ressourcenplaner angezeigt.
 
@@ -70,7 +72,7 @@ So zeigen Sie verfügbare, geplante und budgetierte Informationen nach Kosten im
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken **Ressourcen**.
-1. Navigieren Sie zu .
+1. Wechseln Sie zum Ressourcen-Planer.
 1. (Bedingt) Wählen Sie **Anzeigen nach Projekt** oder **Ansicht nach Rolle**.\
    Standardmäßig **Anzeigen nach Projekt** ausgewählt ist.\
    Die Informationen zur Zuordnung und Verfügbarkeit werden in Stunden angezeigt.

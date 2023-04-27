@@ -5,9 +5,9 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
        </tr> 
       </tbody> 
      </table> 
-    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Diese Felder sind schreibgeschützt und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools für die Ressourcenbudgetierung verwenden. </p>
+    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Dies sind schreibgeschützte Felder und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools zur Ressourcenbudgetierung verwenden. </p>
     <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
      <ul> 
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>
@@ -844,11 +844,32 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
    <td>[!UICONTROL External]</td> 
    <td> <p>Normalerweise ein Lizenztyp oder ein Benutzer mit einer solchen Lizenz, der nur die Möglichkeit hat, Informationen im System zu überprüfen.</p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] Lizenzübersicht</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL Externes System]</td> 
    <td>Alle Dienste oder Software, die außerhalb des vorgesehenen Datensatzsystems gespeichert und verwaltet werden.</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Jedes Workfront-Objekt oder die mit ihm verknüpften Informationen, wie es in der Datenbank angezeigt wird. </p>
+   <p>Beispielsweise sind "project", "user", "hour" sowohl Workfront-Objekte als auch -Felder. "Name", "Status", "Eigentümer", "Startdatum"sind Workfront-Felder, die mit den oben genannten Objekten verknüpft sind. </p>
+
+<p>Wenn auf Objekte verwiesen wird, können die Elemente "Objekte"und "Felder"austauschbar verwendet werden.</p>
+   <p>Im Berichtsbereich beziehen sich die "Felder"auf die Objekte oder Informationen über das Objekt, das Sie im Bericht erfassen möchten.</p>
+
+<p><b>NOTIZ</b></p>
+
+<p>Bei der Berichterstellung für mehr Text beziehen sich Felder auf die Objekte oder deren Informationen, wie sie in der Datenbank angezeigt werden.</p>
+   <p>Manchmal unterscheidet sich der in der Benutzeroberfläche angezeigte Name vom Namen des Felds in der Datenbank. Beispielsweise ist "issue"der Name des Objekts in der Workfront-Benutzeroberfläche, "opTask"ist jedoch der Name des Objekts (oder des Felds) in der Workfront-Datenbank. </p> 
+   <p> Es ist wichtig, das Feld so zu verwenden, wie es in der Datenbank erscheint, wenn Sie einen Textmodusbericht, eine Ansicht, einen Filter oder eine Gruppierung erstellen oder wenn Sie ein berechnetes Feld erstellen.</p>
+
+<p>Weitere Informationen finden Sie unter <a href="../../../wf-api/general/api-explorer.md">API-Explorer</a> und <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Textmodus - Übersicht</a>.</p>
+
+<p>Standardmäßig enthält Workfront eine Reihe von Feldern, die beide Objekte und ihre Informationen definieren. Sie können auch benutzerdefinierte Felder erstellen, um Objekte zu definieren, jedoch keine benutzerdefinierten Objekte erstellen.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Einer der Hauptbausteine eines Berichts oder eines Listenelements, das bestimmt, welche Informationen auf dem Bildschirm angezeigt werden. Weitere Informationen zu Berichterstellungselementen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Berichterstellungselemente: Filter, Ansichten und Gruppierungen</a>.</p> <p>Der Filter bestimmt die Ergebnisse, die in einem Bericht oder einem [!DNL Workfront] Bedienfeldauflistung, z. B. Projekte, Aufgaben oder Probleme.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   </tr> 
   <tr> 
    <td>[!UICONTROL Objekt]</td> 
-   <td> <p>Die Arbeitselemente und Berichte einer Organisation sowie die Benutzergruppen, die sie in [!UICONTROL Workfront] verwalten. Objekte können:</p> 
+   <td> <p>Die Informationen, die Sie in [!DNL Adobe Workfront] wird durch Objekte dargestellt, die in der [!DNL Workfront] Datenbank. Die Objekte sind das, was die Informationen in Workfront antreibt. Beispiele für Objekte:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programme]</li> 
@@ -1314,7 +1335,17 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Benutzer]</li> 
      <li>[!UICONTROL Unternehmen]</li> 
-    </ul> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in [!UICONTROL Adobe Workfront] verstehen</a>.</p> </td> 
+     <li>[!UICONTROL Benutzerdefinierte Formulare]</li>
+     <li>[!UICONTROL Benutzerdefinierte Felder]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Abrechnungsraten]</li> 
+     <li>[!UICONTROL Vorlagen]</li> 
+     <li>[!UICONTROL Vorlagenaufgaben]</li>
+
+<p><b>NOTIZ</b></p>
+  <p>Dies ist keine umfassende Liste. </p>
+
+</ul> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in [!UICONTROL Adobe Workfront] verstehen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Objekttypen]</td> 
@@ -1503,7 +1534,7 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
      <li> <p>Bei Problemen können Sie dieses Feld manuell aktualisieren. Die geplanten Problemzeiten werden nicht zu den geplanten Projektzeiten hinzugefügt. </p> <p>Tipp: In einem Problembericht wird eines der Felder [!UICONTROL Geplante Stunden] durch das Feld [!UICONTROL Arbeit] ersetzt. Im Feld wird die Anzahl der geplanten Stunden zum Problem angezeigt. Weitere Informationen finden Sie in den Feldern "Arbeit" oder "[!UICONTROL Arbeit]" in dieser Tabelle. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Bei Aufgaben können Sie dieses Feld manuell aktualisieren, wenn der [!UICONTROL Durationstyp] der Aufgabe die [!UICONTROL berechnete Zuweisung] oder [!UICONTROL Einfach] ist. Dieses Feld wird von [!DNL Workfront] wenn der [!UICONTROL Dauer-Typ] der Aufgabe [!UICONTROL Berechnete Arbeit] oder [!UICONTROL Aufwand gesteuert] ist.<br>Weitere Informationen zur [!UICONTROL Task Duration] finden Sie im Artikel <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die [!UICONTROL Dauer] und den [!UICONTROL Durationstyp]</a>.</p> </li> 
+     <li> <p>Für Aufgaben können Sie dieses Feld manuell aktualisieren, wenn der [!UICONTROL Durationstyp] der Aufgabe die [!UICONTROL berechnete Zuweisung] oder [!UICONTROL Einfach] ist. Dieses Feld wird von [!DNL Workfront] wenn der [!UICONTROL Dauer-Typ] der Aufgabe [!UICONTROL Berechnete Arbeit] oder [!UICONTROL Aufwand gesteuert] ist.<br>Weitere Informationen zur [!UICONTROL Task Duration] finden Sie im Artikel <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die [!UICONTROL Dauer] und den [!UICONTROL Durationstyp]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Für Projekte: [!DNL Workfront] berechnet die geplanten Stunden, indem alle geplanten Stunden aus allen Aufgaben des Projekts hinzugefügt werden. </p> </li> 

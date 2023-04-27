@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Es gibt folgende Arten von Betaprogrammen, die in Workfront verfügbar sind:
    * Informationen darüber, wann Funktionen für eine öffentliche Beta-Version veröffentlicht werden, finden Sie auf den Seiten zur Produktversion.
 
 Weitere Informationen zu den Versionshinweisen finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md).
+
+## Andere Versionen
+
+Manchmal veröffentlicht Workfront Funktionen, die möglicherweise nicht in den Versionshinweisen, Wartungsaktualisierungen oder in einem der aktuellen Dokumentationsartikel dokumentiert sind. Dies geschieht in dem Bemühen, neue Funktionen zu testen, bevor sie dauerhaft werden. Normalerweise werden diese Tests für eine begrenzte Anzahl von Kunden freigegeben, aber es kann auch vorkommen, dass sie für alle freigegeben werden.
+
+Wenn Sie im System auf etwas stoßen, das nicht mit der Dokumentation übereinstimmt, bitten wir Sie, unser Support-Team zu beauftragen. Weitere Informationen finden Sie unter [Support kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Versionshinweise
 

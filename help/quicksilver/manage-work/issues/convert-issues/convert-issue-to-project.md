@@ -6,9 +6,9 @@ description: Konvertieren eines Problems in ein Projekt in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ Sie können ein Problem mithilfe einer Vorlage in ein leeres Projekt konvertiere
 
          >[!TIP]
          >
-         >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl bei Problemen als auch bei Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten.
-         >
+         >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl mit Problemen als auch mit Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten, wenn sowohl die Felder für das Problem als auch die benutzerdefinierten Formulare des Projekts vorhanden sind.
+         >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld an das Problem sowie an das Projekt angehängt ist, müssen das Problem und das Projekt mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Wenn eine Inkompatibilität vorliegt, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie im Abschnitt &quot;Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten&quot;im [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* Wenn Sie eine Vorlage für die Konvertierung verwenden und ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das auch in einem benutzerdefinierten Formular enthalten ist, das an das Problem angehängt ist, wird der Feldwert des Problems für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld bei dem Problem jedoch leer ist, wird der Wert aus der Vorlage verwendet.
 
    1. Klicken [!UICONTROL **In Projekt konvertieren**].
