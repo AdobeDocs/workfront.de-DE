@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </table>
 
    Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
-
-   >[!NOTE]
-   >
-   >Das linke Navigationsfenster und die Möglichkeit, klickbare Links im Feld Beschreibung hinzuzufügen, sind nur über die frühe Funktion der Anmeldung für Workfront-Pinnwände verfügbar.
 
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 Das verbundene Objekt, die zugewiesenen Personen, die Tags, das Fälligkeitsdatum, der Zähler der Checkliste, die geschätzten Stunden und der Status werden auf der Karte angezeigt.

@@ -6,9 +6,9 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
     </tbody> 
    </table>
 
-   Beispiel für ein Kartendetailbild in der Produktionsumgebung ohne aktivierten frühzeitigen Funktionszugriff:
-   ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Beispiel-Kartendetails-Bild in der Produktionsumgebung mit aktiviertem frühzeitigen Funktionszugriff:
    ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)
 
    Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
-
-   >[!NOTE]
-   >
-   >Das linke Navigationsfenster und die Möglichkeit, klickbare Links im Feld Beschreibung hinzuzufügen, sind nur über die frühe Funktion der Anmeldung für Workfront-Pinnwände verfügbar.
 
 1. Klicken **[!UICONTROL Schließen]** , um die Karte zur Pinnwand hinzuzufügen.
 
