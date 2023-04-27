@@ -6,7 +6,7 @@ description: Informationen im Bereich "Projekt-Finanzen"verwalten
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -106,7 +106,7 @@ Beachten Sie Folgendes beim Anzeigen oder Bearbeiten von Informationen im Bereic
       <td>Die geschätzten Kosten des Projekts basierend auf den geplanten Stunden und den mit der Aufgabe verbundenen Raten (Stellenrollen oder Benutzer).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ist-Kosten</td> 
+      <td role="rowheader">Istkosten</td> 
       <td>Alle Kosten des Projekts. Die tatsächlichen Kosten entsprechen der Summe aller tatsächlichen Kosten: Arbeitskosten (basierend auf tatsächlichen Stunden und den mit den Rollen im Job oder Benutzern, die sie protokollieren, verbundenen Raten), Ausgaben und Fixkosten, die mit einem Projekt oder einer Aufgabe verknüpft werden können.</td> 
      </tr> 
      <tr> 
@@ -189,22 +189,18 @@ So bearbeiten Sie Informationen auf der Unterregisterkarte Projekt-Finanzen :
       <td>Geben Sie das Budget für dieses Projekt an.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fixkosten</strong> </td> 
+      <td role="rowheader">Fixkosten</td> 
       <td>Geben Sie die Festkosten für dieses Projekt an. Dies sollte keine Arbeits- oder Ausgabenkosten beinhalten.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Festeinnahmen</strong> </td> 
+      <td role="rowheader">Festeinnahmen</td> 
       <td> <p>Geben Sie den festen Umsatz für dieses Projekt an. Dies sollte keine Einnahmen aus Abrechnungseinträgen umfassen, die an Partner oder Dritte in Rechnung gestellt werden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projektwährung</td> 
       <td> <p>Geben Sie eine Währung für dieses Projekt an, wenn diese von der Standardwährung in Ihrem System abweicht. Die Standardwährung in Ihrem System wird von Ihrem Workfront-Administrator definiert. Weitere Informationen zur Einrichtung der Wechselkurse in Workfront finden Sie im Artikel <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wechselkurse einrichten</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Klicken **Speichern***Änderungen**.
+1. Klicken **Änderungen speichern**.

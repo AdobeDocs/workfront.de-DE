@@ -6,7 +6,7 @@ description: Die Erstellung und Verwaltung von Ausgaben ist für Projekt- und Au
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -52,10 +52,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Gehen Sie zu dem Projekt, in das Sie die Ausgaben eingeben möchten.\
    Wenn Sie einer Aufgabe Ausgaben hinzufügen möchten, navigieren Sie stattdessen zu einer Aufgabe. 
-1. Klicken **Anzeigen**** Mehr** und klicken Sie dann auf **Ausgaben.**
-1. Klicken **Fügen Sie Kosten hinzu.**
-Der/Die/Das 
-**Hinzufügen von Kosten** angezeigt.
+1. Klicken **Mehr anzeigen** Klicken Sie auf **Ausgaben**.
+1. Klicken **Hinzufügen von Kosten** .
+Die **Hinzufügen von Kosten** angezeigt.
 1. Aktualisieren Sie Folgendes:
 
    * **Beschreibung:** Beschreibung der Kosten.
@@ -76,12 +75,12 @@ Der/Die/Das
 
 1. Wählen Sie eine **Benutzerdefiniertes Formular** und geben Sie die erforderlichen zusätzlichen Informationen an. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einer Ausgabe verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Klicken **Speichern Sie die Änderungen.**
+1. Klicken **Änderungen speichern**.
 
 ## Kosten löschen
 
 1. Gehen Sie zum Projekt, in dem Sie Ausgaben löschen möchten.
-1. Klicken **Anzeigen***Mehr** Klicken Sie auf **Ausgaben.**
+1. Klicken **Mehr anzeigen** Klicken Sie auf **Ausgaben**.
 1. Wählen Sie die Ausgaben aus, die Sie löschen möchten, und klicken Sie auf **Löschen** ![Löschen](assets/delete.png).
 
-1. Klicken **Ja, löschen** zum Bestätigen des Löschvorgangs. 
+1. Klicken **Ja, löschen** zum Bestätigen des Löschvorgangs.
