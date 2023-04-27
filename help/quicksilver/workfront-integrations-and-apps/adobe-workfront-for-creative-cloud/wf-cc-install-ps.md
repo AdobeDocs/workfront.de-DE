@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für Photoshop-Plug-in über den Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td><p>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

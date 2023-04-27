@@ -6,9 +6,9 @@ description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnel
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
 1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
 1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
 1. Im **[!UICONTROL Testgenehmigungen]** Bereich, wählen Sie **[!UICONTROL Allgemein]**.
 1. (Optional) Fügen Sie Genehmiger hinzu.
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
+1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
+
 1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** , um eine Datei von Ihrem Computer hinzuzufügen.
 1. Klicken **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
    ![](assets/plugin-files-350x307.png)\
    Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+
 
 ## Hochladen eines automatisierten Testversands
 
@@ -93,26 +92,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten und dann die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
+1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
 1. Im **[!UICONTROL Testgenehmigungen]** Bereich, wählen Sie **[!UICONTROL Automatisiert]**.
 1. (Optional) Im **[!UICONTROL Workflow-Vorlage]** Geben Sie den Namen einer Testversand-Workflow-Vorlage ein.
-<!--
+
 {{adjust-proof-settings}}
--->
+
+>[!NOTE]
+>
+> Wenn die Workflow-Vorlage leere erforderliche Felder enthält, werden die automatisierten Testversandeinstellungen automatisch geöffnet. Sie müssen diese Felder ausfüllen, um den Testversand hochzuladen.
+
+
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
+1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
 1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** , um eine Datei von Ihrem Computer hinzuzufügen.
-1. Klicken **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
-
-   ![](assets/plugin-files-350x307.png)\
-   Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
-
+1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
 
 ## Eine neue Testversion hochladen
 
@@ -126,15 +125,13 @@ Sie können eine neue Version eines Testversands hochladen. Das Plug-in speicher
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png)in der Navigationsleiste.
 
 1. Klicken **[!UICONTROL Neue Version]** im unteren Bereich des Plug-ins.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten und dann die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
 
 1. Im *[!UICONTROL *Testversandgenehmigungen]** Abschnitt, wählen Sie **[!UICONTROL Allgemein]** oder **[!UICONTROL Automatisiert]**.
 
 1. Hinzufügen **[!UICONTROL Überprüfer]** oder **[!UICONTROL Workflow-Vorlage]** basierend auf dem in Schritt 7 ausgewählten Validierungstyp.
 
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
+1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
 1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.

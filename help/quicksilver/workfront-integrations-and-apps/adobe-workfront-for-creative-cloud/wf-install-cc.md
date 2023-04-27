@@ -6,9 +6,9 @@ description: Sie können das Workfront for Creative Cloud-Plug-in über den Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td><p>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

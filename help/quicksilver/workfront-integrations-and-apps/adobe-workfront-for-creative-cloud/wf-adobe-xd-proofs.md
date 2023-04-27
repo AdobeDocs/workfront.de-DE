@@ -6,10 +6,10 @@ description: Sie können Ihre Zeichenflächen als Testsendungen direkt in Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -99,6 +99,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Sie können einen interaktiven Testversand für Ihre Zeichenflächen mit dem [!D
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ Sie können einen interaktiven Testversand für Ihre Zeichenflächen mit dem [!D
 
    >[!IMPORTANT]
    >
-   >Benutzer müssen Zugriff auf die [!UICONTROL Desktop Proofing Viewer] um interaktive Testsendungen zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Installieren Sie die [!UICONTROL Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Benutzer müssen Zugriff auf die [!UICONTROL Desktop Proofing Viewer] um interaktive Testsendungen zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [[!UICONTROL Installieren des Desktop Proofing Viewers]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Eine neue Testversion hochladen
 
@@ -229,6 +233,8 @@ Sie können eine neue Version eines Testversands hochladen. Das Plug-in speicher
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Wählen Sie das Exportformat aus dem **[!UICONTROL Asset-Typ]** Dropdown-Menü.
 
