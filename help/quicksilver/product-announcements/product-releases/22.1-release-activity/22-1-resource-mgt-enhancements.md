@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Vor dieser Verbesserung konnten Sie nur einen Benutzer einem Arbeitselement entw
 Die neuen Massenzuweisungen enthalten neben dem Namen auch neue Filterfunktionen nach Projekt- und Aufgabenstatus.
 
 Weitere Informationen finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Informationen zur Einstellung der Planungswerkzeuge finden Sie unter [Veraltete Tools für die Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Überschreiben der Währung bei der Verwaltung von Stellenrollen
 

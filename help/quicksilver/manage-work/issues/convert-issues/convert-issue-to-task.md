@@ -6,9 +6,9 @@ description: Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich i
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Wenn diese Option deaktiviert ist, hat der Primäre Kontakt des Problems keinen Zugriff auf die neue Aufgabe.
 
-   * [!UICONTROL **Das geplante Abschlussdatum der Anfrage beibehalten**]
+   * [!UICONTROL **Das geplante Abschlussdatum des Problems beibehalten**]
 
       Wenn diese Option deaktiviert ist, wird die [!UICONTROL Geplantes Abschlussdatum] der neuen Aufgabe berechnet wird, ausgehend von der [!UICONTROL Geplantes Startdatum] der Aufgabe. Die [!UICONTROL Geplantes Startdatum] der neuen Aufgabe wird entsprechend den Systemvoreinstellungen für neue Aufgaben festgelegt.
 
@@ -107,9 +107,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung mit sowohl Problemen als auch Aufgaben konfiguriert ist, wird das Formular standardmäßig angehängt. Alle im Formular gespeicherten Informationen werden bei der Konvertierung für die Aufgabe beibehalten.
-   >
-   >Wenn beim Bearbeiten des Projekts im Feld &quot;Task Default Custom Forms&quot;Standardformulare für das Zielprojekt definiert sind, werden diese Aufgabenformulare auch der neuen Aufgabe hinzugefügt. Alle benutzerdefinierten Felder, die zwischen dem ursprünglichen Problem und den Feldern in den Standardformularen für Aufgaben vorhanden sind, werden mit Informationen aus den Problemfeldern vorausgefüllt.
+   >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl mit Problemen als auch mit Aufgaben konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten, wenn sowohl die Felder für das Problem als auch die benutzerdefinierten Formulare der Aufgabe vorhanden sind.
+   >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld an das Problem sowie an die Aufgabe angehängt ist, müssen das Problem und die Aufgabe mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Wenn eine Inkompatibilität vorliegt, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie im Abschnitt &quot;Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten&quot;im [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Wenn beim Bearbeiten des Projekts im Feld &quot;Task Default Custom Forms&quot;Standardformulare für das Zielprojekt definiert sind, werden diese Aufgabenformulare auch der neuen Aufgabe hinzugefügt. Alle benutzerdefinierten Felder, die zwischen dem ursprünglichen Problem und den Feldern in den Standardformularen für Aufgaben vorhanden sind, werden mit Informationen aus den Problemfeldern vorausgefüllt.
+
+
 
 1. Klicken [!UICONTROL **In Aufgabe konvertieren**].
 
@@ -131,9 +133,9 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 
 | Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich &quot;Projektdetails&quot; | Aufgabenliste oder Bericht | Bereich &quot;Aufgabendetails&quot; |
 |---|---|---|---|---|---|
-| [!UICONTROL Name der Anfrage] | [!UICONTROL Konvertierte Anfrage – Name] | ms | ✔ | ✔ | ✔ |
+| [!UICONTROL Name des Problems] | [!UICONTROL Name des konvertierten Problems] | ms | ✔ | ✔ | ✔ |
 | [!UICONTROL Hauptansprechpartner] | [!UICONTROL Name des konvertierten Emittenten] | ✔ | ✔ | ✔ |
-| [!UICONTROL Eingabedatum] | [!UICONTROL Konvertierte Anfrage – Eingabedatum] | ✔ |  | ✔ |
+| [!UICONTROL Eingabedatum] | [!UICONTROL Problem-Eingabedatum konvertiert] | ✔ |  | ✔ |
 
 
 >[!CAUTION]

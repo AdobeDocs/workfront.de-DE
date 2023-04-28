@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Informationen zum Zuweisen von Arbeitselementen im Arbeitslastausgleich finden S
 ## Neue Standardoption für den Lastenausgleich
 
 Im Rahmen unseres Bemühens, die Planung abzuschaffen und den Arbeitslastausgleich für Workfront zu einem der wichtigsten Ressourcen-Zuweisungstools zu machen, haben wir den Workfront Balancer zur Standardoption für alle neuen Benutzer gemacht. Derzeit ist die Option Planung die Standardoption. Diese Änderung gilt für alle Bereiche, in denen Sie auf die Planung zugreifen können, darunter den Bereich &quot;Ressourcen&quot;(im neuen Adobe Workfront-Erlebnis) oder den Bereich &quot;Personen&quot;(in Adobe Workfront Classic) sowie auf Projekt- und Teamebene.
-
-Informationen zur Einstellung der Planung finden Sie unter [Veraltete Tools für die Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Neues Filtererlebnis im Arbeitslastausgleich
 

@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Der Lastenausgleich
-description: Der Workflow-Lastenausgleich ist ein Tool zur Ressourcenplanung, das schließlich die derzeit veralteten Ressourcen-Planungswerkzeuge ersetzt.
+description: Der Lastenausgleich ist ein Tool zur Ressourcenplanung, mit dem Sie Ihren Ressourcen Arbeitselemente zuweisen können.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # Der Lastenausgleich
-
->[!IMPORTANT]
->
->Der Workflow-Lastenausgleich ist ein Tool zur Ressourcenplanung, das die Planungs-Tools ersetzt, die derzeit nicht mehr unterstützt werden.
->
->Weitere Informationen zum Entfernen der Ressourcen-Planungs-Tools und zum Ersetzen dieser Tools durch den Workflow-Lastenausgleich finden Sie unter [Veraltete Tools für die Ressourcenplanung in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Es wird empfohlen, den Lastenausgleich für die Planung Ihrer Ressourcen zu verwenden.
 
 Informationen dazu, was der Arbeitslastausgleich ist, wie er navigiert und wie er Arbeit zuweist, finden Sie in den folgenden Artikeln:
 
