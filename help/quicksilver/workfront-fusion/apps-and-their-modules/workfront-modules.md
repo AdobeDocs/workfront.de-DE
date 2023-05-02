@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Mithilfe von Ereignisabonnementfiltern können Fusion-Benutzer Ereignisabonnemen
 
 Dies unterscheidet sich von der Einrichtung eines Filters im [!DNL Workfront Fusion] Szenario. Ohne einen Abonnementfilter für Ereignisse erhält Ihr Webhook alle Ereignisse im Zusammenhang mit dem ausgewählten Objekttyp. Die meisten dieser Ereignisse wären für das Szenario irrelevant und müssen herausgefiltert werden, bevor das Szenario fortgesetzt werden kann.
 
+Die folgenden Operatoren sind im Filter Workfront > Ereignisse überwachen verfügbar:
+
+* Ist gleich
+* Ungleich
+* Größer als
+* Kleiner als
+* Größer oder gleich
+* Kleiner oder gleich
+* Enthält
+* Vorhanden
+* Nicht vorhanden
+* Geändert
+
 >[!NOTE]
+>
+> * Die `Exists`, `Does not exist`und `Changed` -Operatoren benötigen keinen Wert und das Wertefeld fehlt in diesen Optionen.
+> * Die `Changed` ignoriert das Feld Status .
+
+
+>[!IMPORTANT]
 >
 >Filter in vorhandenen [!DNL Workfront] Webhooks. So richten Sie verschiedene Filter für ein [!DNL Workfront] -Ereignis-Abonnements, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.
 
