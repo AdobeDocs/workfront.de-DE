@@ -6,7 +6,7 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Sie können auf das neue Design für die folgenden Objekte zugreifen:
 > * Probleme beim Aktivieren der Beta-Kommentarfunktion.

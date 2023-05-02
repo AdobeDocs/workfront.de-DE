@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 1%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 1%
       * Melden der Canvas-Beta {#reporting-canvas-beta}
          * [Übersicht über die Arbeitsfläche in der Beta-Phase](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [Reporting-Arbeitsfläche - Beta: Release-Aktivität](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Beta-Version mit Kommentaren {#new-commenting-experience-beta}
+         * [Neue Informationen zu Kommentar-Beta-Erlebnissen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Neues Kommentierungserlebnis](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [Neue Kommentar-Erlebnis-Release-Aktivität](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration und Einrichtung {#administration-and-setup}
    * [Administration und Einrichtung](administration-and-setup/administration-and-setup.md)
    * Erste Schritte mit Administration {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 1%
       * [Tagging anderer Benutzer auf Updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Überblick über die Bearbeitung und Fertig-Schaltflächen](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Neues Kommentierungserlebnis](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Arbeiten mit benutzerdefinierten Formularen {#work-with-custom-forms}
       * [Arbeiten mit benutzerdefinierten Formularen](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
