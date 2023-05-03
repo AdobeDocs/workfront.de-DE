@@ -8,7 +8,7 @@ description: In einigen Fällen können Sie die Ausführung des Szenarios zwangs
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Problemumgehung für Throw
 
-Um einen Fehler bedingt auszulösen, können Sie ein Modul so konfigurieren, dass es während des Vorgangs optional versehentlich fehlschlägt. Eine Möglichkeit besteht darin, die [!UICONTROL JSON] > [!UICONTROL Parse JSON] -Modul (siehe [JSON-Module](../../workfront-fusion/apps-and-their-modules/json-modules.md)), konfiguriert, um optional einen Fehler auszulösen (in diesem Fall BundleValidationError ):
+Um einen Fehler bedingt auszulösen, können Sie ein Modul so konfigurieren, dass es optional während des Vorgangs fehlschlägt. Eine Möglichkeit besteht darin, die [!UICONTROL JSON] > [!UICONTROL Parse JSON] -Modul (siehe [JSON-Module](../../workfront-fusion/apps-and-their-modules/json-modules.md)), konfiguriert, um optional einen Fehler auszulösen (in diesem Fall BundleValidationError ):
 
 Anschließend können Sie eine der Anweisungen zur Fehlerbehebung an die Fehlerbehebungsroute anhängen an:
 
