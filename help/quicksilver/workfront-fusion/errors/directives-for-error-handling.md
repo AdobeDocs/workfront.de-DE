@@ -8,9 +8,9 @@ description: In diesem Artikel werden Richtlinien beschrieben, die Sie für die 
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 >[!NOTE]
 >
->Derzeit können die Richtlinien zur Fehlerbehebung nicht außerhalb des Anwendungsbereichs einer Fehlerbearbeitungsroute verwendet werden und [!DNL Workfront Fusion] bietet derzeit kein Throw-Modul an, mit dem Sie einfach bedingt Fehler (Auswerfen) generieren können, obwohl eine Problemumgehung verwendet werden kann, um die Funktionalität zu imitieren. Weitere Informationen finden Sie unter [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) im Artikel [Umgang mit Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Siehe auch [Problemumgehung für Throw](../../workfront-fusion/errors/throw.md#workarou) im Artikel [Umgang mit Throw-Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* Derzeit können die Richtlinien zur Fehlerbehebung nicht außerhalb einer Fehlerbearbeitungsroute verwendet werden.
+   >
+   >   Weitere Informationen finden Sie unter [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) im Artikel [Umgang mit Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] bietet derzeit kein Throw-Modul an, mit dem Sie einfach bedingt Fehler (Auswerfen) generieren können, obwohl eine Problemumgehung verwendet werden kann, um die Funktionalität zu imitieren.
+   >
+   >   Weitere Informationen finden Sie unter [Problemumgehung für Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) im Artikel [Umgang mit Throw-Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+
 
 ## Break {#break}
 
-Wenn ein Fehler von der [!DNL Break] -Anweisung, wird ein Datensatz in der [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) -Ordner, in dem der Ausführungsstatus des Szenarios zusammen mit Daten aus den vorherigen Modulen gespeichert wird. Für jedes Datenbündel, das den Fehler verursacht, wird ein separater Datensatz erstellt.
+Wenn ein Fehler von der [!DNL Break] -Anweisung, wird ein Datensatz im Ordner Unvollständige Ausführungen erstellt. Dieser Datensatz speichert den Ausführungsstatus des Szenarios zusammen mit Daten aus den vorherigen Modulen. Der Datensatz verweist auf das Modul, in dem der Fehler aufgetreten ist, und enthält Informationen darüber, welche Daten vom Modul als Eingabe empfangen wurden. Für jedes Datenbündel, das den Fehler verursacht, wird ein separater Datensatz erstellt.
 
-Der Datensatz verweist auf das Modul, in dem der Fehler aufgetreten ist, und enthält Informationen darüber, welche Daten vom Modul als Eingabe empfangen wurden. Weitere Informationen finden Sie unter [Unvollständige Ausführungen in Adobe Workfront Fusion anzeigen und auflösen](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Weitere Informationen finden Sie unter [Unvollständige Ausführungen in Adobe Workfront Fusion anzeigen und auflösen](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-Hier können Sie den Fehler manuell beheben, indem Sie das Szenario (bei Bedarf) aktualisieren und es einmal ausführen.
+### Beheben von Fehlern, die aus der Break-Richtlinie resultieren
 
-Auf der anderen Seite durch Aktivierung der [!UICONTROL Automatische Ausführung] unter den Einstellungen der Break-Direktive so konfiguriert werden, dass eine unvollständige Ausführung automatisch verarbeitet wird, indem das Szenario nach der angegebenen Anzahl von Minuten erneut ausgeführt wird.
+Sie können den Fehler manuell beheben, indem Sie das Szenario (bei Bedarf) aktualisieren und es einmal ausführen.
+
+Sie können das Szenario auch so konfigurieren, dass eine unvollständige Ausführung automatisch verarbeitet wird, indem Sie das Szenario erneut ausführen. So konfigurieren Sie das Modul für die Verarbeitung unvollständiger Ausführungen:
+
+1. Aktivieren Sie innerhalb des Moduls Umbruch die [!UICONTROL **Automatische Ausführung**] -Option.
+1. Im **Anzahl der Versuche** -Feld die maximale Anzahl von Versuchen eingeben oder zuordnen, bei denen das Modul die Ausführung erneut versuchen soll
+
+   Diese Zahl muss zwischen 1 und 100 liegen.
+1. Im **Intervall zwischen Versuchen** eingeben oder die Anzahl der Minuten zwischen den einzelnen Wiederholungsversuchen zuordnen.
 
 Wenn diese Option aktiviert ist, wird bei einem Fehler die unvollständige Ausführung abgerufen (nach der in der Variablen [!UICONTROL Intervall zwischen Versuchen] -Feld) und mit den ursprünglichen Eingabedaten ausgeführt werden. Dieser Vorgang wiederholt sich, bis die Ausführung des Moduls ohne Fehler abgeschlossen ist oder die angegebene Anzahl von Versuchen erreicht ist.
 
@@ -101,12 +115,13 @@ Wenn diese Option aktiviert ist, wird bei einem Fehler die unvollständige Ausf�
 >
 >Wenn der erste Wiederholungsversuch fehlschlägt, erhöht sich das Intervall zwischen Wiederholungen bei jedem zweiten Versuch exponentiell.
 
+
 Wenn &quot;Ausführung automatisch abschließen&quot;aktiviert ist, wird die Ausführung des Szenarios als &quot;Erfolg&quot;markiert, da der automatische Wiederholungsversuch des Fehler-Handlers Break das Problem automatisch verarbeitet. In diesem Fall erhalten Benutzer keine E-Mail über die fehlgeschlagene Ausführung.
 
 Wenn &quot;Ausführung automatisch abschließen&quot;deaktiviert ist, wird die Ausführung als &quot;Warnung&quot;markiert.
 
-![](assets/break-directive-350x241.png)
+Es gibt einige Ausnahmen davon, dass Ausführungen unter &quot;Unvollständige Ausführungen&quot;gespeichert werden. Bei einigen Fehlertypen ist die automatische Wiederholung einer Szenario-Ausführung nicht möglich.
 
-Es gibt jedoch einige Ausnahmen davon, dass Ausführungen unter &quot;Unvollständige Ausführungen&quot;gespeichert werden. Bei einigen Fehlertypen ist die automatische Wiederholung einer Szenario-Ausführung nicht möglich. Weitere Informationen finden Sie unter [Speichern unvollständiger Ausführungen zulassen](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) im Artikel [Das Bedienfeld &quot;Szenario-Einstellungen&quot;in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Weitere Informationen finden Sie unter [Speichern unvollständiger Ausführungen zulassen](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) im Artikel [Das Bedienfeld &quot;Szenario-Einstellungen&quot;in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 Weitere Informationen finden Sie unter [Erweiterte Fehlerbehandlung in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md).

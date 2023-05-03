@@ -7,7 +7,7 @@ description: In einigen Fällen ist es nützlich, ein fehlerhaftes Modul mehrmal
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 * Das Wiederholungsintervall beträgt mindestens eine Minute.
 * Wenn das Modul mehrere Bundles verarbeitet und die Verarbeitung eines Bundles fehlschlägt, wird die partielle Ausführung (nur das Bundle, das den Fehler verursacht hat) in den Ordner der unvollständigen Ausführungen verschoben und für weitere Versuche gemäß der Variablen [!UICONTROL Break] Richtlinieneinstellungen. Die aktuelle Ausführung wird jedoch fortgesetzt und das Modul verarbeitet die nachfolgenden Bundles weiter. Sie können den[!UICONTROL Sequenzielle Verarbeitung]&quot; in der [!UICONTROL Szenario-Einstellungen] , um zu verhindern, dass das Szenario erneut ausgeführt wird, bis die im Ordner Unvollständige Ausführungen gespeicherte Ausführung erfolgreich aufgelöst wurde.
 
-Weitere Informationen zu unvollständigen Ausführungen finden Sie unter [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Weitere Informationen zu unvollständigen Ausführungen finden Sie unter [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Verwenden Sie die [!UICONTROL Repeater] Modul
 
-1. Verwenden Sie die **[!UICONTROL Repeater]** -Modul und legen Sie [!UICONTROL Wiederholungen] -Feld zur maximalen Anzahl von Versuchen.
+1. Verwenden Sie die **[!UICONTROL Repeater]** -Modul und legen Sie **[!UICONTROL Wiederholungen]** -Feld zur maximalen Anzahl von Versuchen.
 1. Verknüpfen Sie das potenziell fehlerhafte Modul mit dem **[!UICONTROL Repeater]** -Modul.
 1. Hängen Sie eine Fehler-Handler-Route an dieses Modul an (siehe [Umgang mit Fehlern in [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Verknüpfen Sie die **[!UICONTROL Instrumente] > [!UICONTROL Schlafen]** -Modul auf die Fehler-Handler-Route zu und legen Sie deren **[!UICONTROL Verzögerung]** auf die Anzahl der Sekunden zwischen den Versuchen.

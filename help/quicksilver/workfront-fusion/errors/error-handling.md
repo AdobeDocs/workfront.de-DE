@@ -8,9 +8,9 @@ description: Wenn bei der Ausführung eines Szenarios Fehler auftreten, liegt de
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: e936bbd2837e4aec67d4136b8efcccb6f8454a89
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Wenn bei der Ausführung eines Szenarios Fehler auftreten, liegt der Grund normalerweise darin, dass ein Dienst aufgrund eines Fehlers nicht verfügbar ist, ein Dienst mit unerwarteten Daten antwortet oder die Validierung von Eingabedaten fehlschlägt.
 
->[!NOTE]
->
->Wenn ein Modul während der Ausführung des Szenarios einen Fehler auslöst und keine mit dem Modul verbundene Fehlerbearbeitungsroute vorhanden ist, wird eine standardmäßige Fehlerbearbeitungslogik ausgeführt, wie in [Fehlerverarbeitung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Wenn ein Modul während der Ausführung des Szenarios einen Fehler auslöst und keine mit dem Modul verbundene Fehlerbearbeitungsroute vorhanden ist, wird die standardmäßige Fehlerbearbeitungslogik ausgeführt, wie hier beschrieben: [Fehlerverarbeitung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
-Durch Hinzufügen einer Fehler-Handler-Route zu einem Modul können Sie die standardmäßige Fehlerbearbeitungslogik durch Ihre eigene ersetzen. [!DNL Adobe Workfront Fusion] bietet fünf verschiedene Direktiven, von denen jede am Ende Ihrer Fehler-Handler-Routen eingefügt werden kann. Weitere Informationen finden Sie unter [Richtlinien zur Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+Durch Hinzufügen einer Fehler-Handler-Route zu einem Modul können Sie die standardmäßige Fehlerbearbeitungslogik durch Ihre eigene ersetzen. [!DNL Adobe Workfront Fusion] bietet fünf verschiedene Anweisungen, die am Ende Ihrer Fehler-Handler-Routen eingefügt werden können.
+
+Weitere Informationen finden Sie unter [Richtlinien zur Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 ## Zugriffsanforderungen
 
@@ -58,40 +58,51 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Fehler-Handler-Route
 
-Um eine Fehler-Handler-Route zu einem Modul hinzuzufügen (wir nennen es Modul X), klicken Sie mit der rechten Maustaste auf das Modul und wählen Sie **[!UICONTROL Fehler-Handler hinzufügen]**:
+So fügen Sie einem Modul eine Fehler-Handler-Route hinzu:
 
-![](assets/error-handler-route.png)
+1. Klicken Sie mit der rechten Maustaste auf das Modul und wählen Sie **[!UICONTROL Fehler-Handler hinzufügen]**:
 
-Das -Modul zeigt eine Liste von Richtlinien sowie die in Ihrem Szenario verwendeten Apps an. Wenn Modul X das letzte Modul in Ihrer Route ist, müssen Sie eine der Anweisungen auswählen. Oder Sie können Ihrer Route ein oder mehrere Module hinzufügen. In diesem Fall wird die [!UICONTROL Ignorieren] wird standardmäßig auf Modul X angewendet und im Falle eines Fehlers werden die nachfolgenden Module auf dieser Route verarbeitet.
+   ![](assets/error-handler-route.png)
 
-![](assets/directives-350x426.png)
+   Das -Modul zeigt eine Liste von Richtlinien sowie die in Ihrem Szenario verwendeten Apps an.
 
-Wie Sie unten sehen können, wenn beim Ausführen der [!UICONTROL Ordner erstellen] -Modul [!UICONTROL Ignorieren] wird automatisch angewendet und das Szenario wechselt zum nächsten Modul auf der Fehler-Handler-Route, wenn der Filter &quot;Datenfehler erfolgt&quot;ein oder mehrere Bundles zurückgibt.
+1. Wenn das Modul, dem Sie einen Fehler-Handler hinzugefügt haben, das letzte Modul in Ihrer Route ist, wählen Sie eine der Anweisungen aus.
 
-Wenn jedoch kein Fehler vorliegt, wird das Szenario zum [!UICONTROL Alle Dateien in einem Ordnermodul auflisten] auf der regulären Route.
+   Oder
 
-![](assets/if-there-is-no-error-350x234.png)
+   Fügen Sie der Fehler-Handler-Route ein oder mehrere Module hinzu.
 
-Um eine Fehler-Handler-Route von einer normalen Route zu unterscheiden, besteht die erste aus transparenten Kreisen, wie oben gezeigt.
+   Wenn Sie der Route weitere Module hinzufügen, wird die [!UICONTROL Ignorieren] wird standardmäßig angewendet und im Falle eines Fehlers werden die nachfolgenden Module auf dieser Route verarbeitet.
+
+
+>[!INFO]
+>
+>Wenn in diesem Beispiel beim Ausführen der [!UICONTROL Ordner erstellen] -Modul [!UICONTROL Ignorieren] wird automatisch angewendet und das Szenario wechselt zum nächsten Modul auf der Fehler-Handler-Route.
+>
+>Wenn jedoch kein Fehler vorliegt, wird das Szenario zum [!UICONTROL Alle Dateien in einem Ordnermodul auflisten] auf der regulären Route.
+>
+>![](assets/if-there-is-no-error-350x234.png)
+
+Beachten Sie, dass eine Fehler-Handler-Route aus transparenten Kreisen besteht, während eine normale Route aus soliden Kreisen besteht.
 
 ## Richtlinien zur Fehlerbehebung
 
 Die Richtlinien werden im Folgenden kurz erläutert. Weitere Informationen finden Sie unter [Richtlinien zur Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-Es gibt insgesamt fünf Direktiven, die in die folgenden Kategorien eingeteilt werden können, je nachdem, ob die Ausführung eines Szenarios fortgesetzt werden soll oder nicht:
+Es gibt insgesamt fünf Direktiven, die in die folgenden Kategorien eingeteilt werden können, je nachdem, ob die Ausführung eines Szenarios fortgesetzt werden soll oder nicht.
 
 Die folgenden Anweisungen stellen sicher, dass die Ausführung eines Szenarios fortgesetzt wird:
 
-* **[!UICONTROL Fortsetzen]** ermöglicht es Ihnen, eine Ersatzausgabe für das Modul mit dem Fehler anzugeben und der Ausführungsstatus des Szenarios wird als erfolgreich markiert
-* **[!UICONTROL Ignorieren]** ignoriert einfach den Fehler und der Ausführungsstatus des Szenarios wird als erfolgreich markiert
-* **[!UICONTROL Break]** speichert die Eingabe in die Warteschlange unvollständiger Ausführungen und der Ausführungsstatus des Szenarios wird als Warnung markiert. Weitere Informationen finden Sie unter [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL Fortsetzen]**: Ermöglicht die Angabe einer Ersatzausgabe für das Modul mit dem Fehler. Der Ausführungsstatus des Szenarios wird als erfolgreich markiert
+* **[!UICONTROL Ignorieren]**: ignoriert den Fehler. Der Ausführungsstatus des Szenarios wird als erfolgreich markiert
+* **[!UICONTROL Break]**: Speichert die Eingabe in die Warteschlange unvollständiger Ausführungen. Der Ausführungsstatus des Szenarios wird als Warnung markiert. Weitere Informationen finden Sie unter [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-Wenn dagegen die Ausführung eines Szenarios angehalten werden soll, müssen Sie eine der folgenden Anweisungen verwenden:
+Wenn die Ausführung eines Szenarios bei Auftreten eines Fehlers beendet werden soll, verwenden Sie eine der folgenden Anweisungen:
 
-* **[!UICONTROL Rollback]** stoppt die Ausführung des Szenarios sofort und markiert seinen Status als Fehler
-* **[!UICONTROL Bestätigen]** stoppt die Ausführung des Szenarios sofort und markiert seinen Status als erfolgreich
+* **[!UICONTROL Rollback]**: Stoppt die Ausführung des Szenarios sofort und markiert seinen Status als Fehler
+* **[!UICONTROL Bestätigen]**: Stoppt die Ausführung des Szenarios sofort und markiert seinen Status als Erfolg
 
-## Zusätzliche Ressourcen
+Weitere Informationen zur Fehlerbehebung finden Sie unter:
 
 * [Richtlinien zur Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [Erweiterte Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md) (umfasst die Einrichtung des oben genannten Szenarios für die Dropbox)
+* [Erweiterte Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
