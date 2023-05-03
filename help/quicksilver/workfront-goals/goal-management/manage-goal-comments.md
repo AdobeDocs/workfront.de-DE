@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -159,8 +159,8 @@ Dadurch wird die Zielliste geöffnet.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu oder entfernen Sie sie oder einen der getaggten Benutzer.
-Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
+1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu, entfernen Sie sie oder entfernen Sie einen der getaggten Benutzer.
+Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 

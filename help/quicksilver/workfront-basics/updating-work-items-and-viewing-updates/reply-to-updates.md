@@ -6,7 +6,7 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Sie können auf das neue Design für die folgenden Objekte zugreifen:
+>Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
    >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:

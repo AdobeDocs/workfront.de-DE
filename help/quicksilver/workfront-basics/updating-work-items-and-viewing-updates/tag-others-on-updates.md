@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Tagging anderer Benutzer auf Updates
 description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt bereitstellen, können alle Benutzer des Projekts die übermittelten Informationen sehen. Es kann jedoch vorkommen, dass Benutzer, die nicht am Projekt teilnehmen, von der Anzeige dieser Informationen profitieren. Anstatt diese Benutzer in das Projekt aufzunehmen, können Sie sie in der Aktualisierung mit Tags versehen, um sie für sie freizugeben. Tagging-Benutzer erhalten eine Ereignisbenachrichtigung.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Sie können auf das neue Design für die folgenden Objekte zugreifen:
+>Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
    >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
@@ -48,13 +49,7 @@ Anstatt diese Benutzer in das Objekt einzuschließen, indem Sie sie ihm zuweisen
 
 >[!NOTE]
 >
->Eine Ereignisbenachrichtigung muss aktiviert sein, damit ein Benutzer die E-Mail-Benachrichtigung erhält. Administratoren können Benachrichtigungen für das gesamte System oder für eine Gruppe der obersten Ebene aktivieren. Ein Benutzer kann auch individuelle Ereignisbenachrichtigungen in seinem eigenen Benutzerprofil aktivieren und deaktivieren. Weitere Informationen finden Sie unter folgenden Themen:
->
->* [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>Der Benutzer muss eine persönliche Benachrichtigung in seinem Profil aktivieren, damit er die E-Mail-Benachrichtigung erhält. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Informationen zum Hinzufügen von Aktualisierungen zu Workfront-Objekten finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -6,9 +6,9 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '592'
 ht-degree: 1%
 
 ---
@@ -384,12 +384,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   </tr>
 </table>
 
+## Neue Kommentar-Erlebnis-Release-Aktivität
 
-<!--
-## New commenting beta experience release activity
-
-For information about the features recently released, see [New commenting beta exprience release activity] (**********insert link after you move this file to the right folder in Betas**********)
---->
+Informationen zu den kürzlich veröffentlichten Funktionen finden Sie unter [Neue Kommentar-Beta-Erlebnisveröffentlichungsaktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Neues Kommentierungserlebnis suchen
 

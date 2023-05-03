@@ -7,7 +7,7 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,9 +23,10 @@ ht-degree: 4%
 >[!NOTE]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Sie können auf das neue Design für die folgenden Objekte zugreifen:
+>Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
    >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:

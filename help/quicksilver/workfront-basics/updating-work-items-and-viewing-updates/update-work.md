@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Weitere Informationen zum neuen Aktualisierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Sie können auf das neue Design für die folgenden Objekte zugreifen:
+>Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme beim Aktivieren der Beta-Kommentarfunktion.
    >
    >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
@@ -135,7 +136,7 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 1. Gehen Sie zu dem Arbeitselement, für das Sie eine Aktualisierung bereitstellen möchten (z. B. ein Projekt, eine Aufgabe oder ein Problem).
 1. Klicken Sie auf **Updates** Abschnitt.
 1. Klicken **Neue Aktualisierung starten,** Geben Sie dann Ihr Update ein.
-1. (Optional) Verwenden Sie Rich Text oder fügen Sie Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzu, um Ihre Inhalte zu verbessern. Weitere Informationen finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;in diesem Artikel
+1. (Optional) Verwenden Sie Rich Text oder fügen Sie Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzu, um Ihre Inhalte zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel
 1. (Optional) Aktualisieren Sie eine der folgenden Informationen zum Arbeitselement:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
    * Nummerierte Liste
    * Anlage hinzufügen <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Weitere Informationen finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;in diesem Artikel. <!--remove this list, above, when we get to parity for Rich Text-->
+   Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
    >Sie können einem Systemupdate keinen Kommentar hinzufügen.
 
 
-## Verwenden von Rich Text in einem Workfront-Update
+## Verwenden von Rich Text in einem Workfront-Update{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
    Oder
 
-   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-paperclip-icon.png) und navigieren Sie zum Bild auf Ihrem Computer, wenn Sie das kommentierende Beta-Erlebnis verwenden.
+   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-paperclip-icon.png) und navigieren Sie zum Bild auf Ihrem Computer, wenn Sie das kommentierende Beta-Erlebnis verwenden. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Ihr Workfront-Administrator muss das Hinzufügen von Bildern aktivieren, bevor das Bildsymbol angezeigt wird.
+   >* Der Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt &quot;Voreinstellungen für Feeds aktualisieren&quot;der Workfront-Benutzeroberfläche aktivieren, bevor die Symbole Bild oder Anhang hinzufügen angezeigt werden. Weitere Informationen finden Sie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Bilddateigröße beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
-   >* Auf Bilder kann nur über die Registerkarte Aktualisierungen eines Objekts zugegriffen werden. Sie sind nicht auf der Registerkarte Dokumente verfügbar.
+   >* Auf Bilder kann über den Abschnitt Aktualisierungen eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente verfügbar.
+   >* <!--In the current commenting experience,--> Wenn Sie einen Kommentar löschen, der ein Bild enthält, bleibt das Bild im Bereich &quot;Dokumente&quot;, ist jedoch nicht mehr im Abschnitt &quot;Aktualisierungen&quot;sichtbar.
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Sie können ein Update mit einem Bild und ohne Text senden.
 
 1. Klicken **Aktualisieren**  oder **Einsenden**, wenn Sie das Beta-Kommentarerlebnis verwenden.
@@ -392,7 +396,7 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    >[!NOTE]
    >
-   >Wenn Sie eine Aktualisierung mit einem angehängten Bild löschen, werden sowohl der Kommentar als auch das Bild gelöscht.
+   >Wenn Sie eine Aktualisierung mit einem angehängten Bild löschen, werden sowohl der Kommentar als auch das Bild gelöscht. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel.
 
    Wenn dem Kommentar, den Sie löschen, Antworten zugeordnet sind, gibt es einen Hinweis darauf, dass der Kommentar mit dem Namen des Benutzers entfernt wurde, der ihn entfernt hat.
 
