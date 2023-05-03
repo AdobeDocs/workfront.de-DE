@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit 
 | enthält | gibt Ergebnisse zurück, bei denen der Name &quot;Workfront&quot;enthält. | <pre>...name=Workfront&amp;name_Mod=contains..</pre> |
 | zwischen | gibt Ergebnisse zurück, die innerhalb der letzten 7 Tage ein Einstiegsdatum haben. | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 Bei Suchanfragen wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie einen Fehler erhalten, stellen Sie sicher, dass  **_Mod** und **_Range** die richtige Groß-/Kleinschreibung aufweisen.
