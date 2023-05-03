@@ -5,24 +5,22 @@ title: Migrieren von agilen Teams Kanban-Karten zu Workfront-Pinnwänden
 description: Sie können Ihre Arbeitselemente von einem agilen Team Kanban Board zu einem neuen oder vorhandenen Workfront Board migrieren.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Migrieren von agilen Teams Kanban-Karten zu Workfront-Pinnwänden
 
+{{highlighted-preview-article-level}}
+
 Sie können Ihre Arbeitselemente von einem agilen Team Kanban Board zu einem neuen oder vorhandenen Workfront Board migrieren. Wenn Sie die Migration ausführen, werden alle Karten auf der Kanban-Pinnwand in die Workfront-Pinnwand kopiert. Es ist nicht erlaubt, bestimmte Karten auszuwählen.
 
 Die Platzierung von Karten auf der Workfront-Pinnwand basiert auf Spaltenrichtlinien. (Beispielsweise könnte eine Richtlinie alle Karten mit dem Status &quot;Wird ausgeführt&quot;in eine bestimmte Spalte verschieben. Weitere Informationen zu Spaltenrichtlinien finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Wenn es keine Richtlinien gibt oder die Karten nicht mit den Richtlinien übereinstimmen, werden die Karten in der Spalte ganz links auf der Pinnwand platziert. Derzeit werden die Karten in der Spalte &quot;Backlog&quot;auf der alten Pinnwand nicht zur Workfront-Pinnwand hinzugefügt.
 
 Die Karten werden nicht aus dem agilen Team Kanban Board entfernt, und Kartenstatusänderungen werden mit beiden Pinnwänden synchronisiert. Sie können beide Pinnwände aktiv halten, bis Sie zum Wechsel zu Workfront-Pinnwänden bereit sind.
-
->[!NOTE]
->
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
 
 ## Zugriffsanforderungen
 
