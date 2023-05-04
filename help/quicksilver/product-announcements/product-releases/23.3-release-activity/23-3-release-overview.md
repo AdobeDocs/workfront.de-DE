@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
+### Administratorverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Steuerung auf Gruppenebene, verfügbar für Timesheet- und Stundenvoreinstellung "Wo Benutzer Zeit protokollieren können"</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Der Systemadministrator kann jetzt das Timesheet und die Voreinstellung "Wo Benutzer Zeit protokollieren können"sperren und entsperren. Wenn diese Voreinstellung entsperrt ist, können Gruppenadministratoren die Einstellungen "Wo Benutzer die Zeit protokollieren können"für jede Gruppe separat konfigurieren.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 4. Mai 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: Mit Version 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Agile Verbesserungen
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Einfache Filter zur Vorlage der dynamischen Pinnwand hinzugefügt</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Einfache Filter zur Vorlage der dynamischen Pinnwand hinzugefügt</a></p>
                         <p>Die Filter auf der Vorlage für dynamische Pinnwände wurden vereinfacht, sodass Sie Pinnwände schneller erstellen können.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
