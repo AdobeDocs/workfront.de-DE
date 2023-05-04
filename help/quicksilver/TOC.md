@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
+source-git-commit: 122751851792dfecd062f156f804827cb732c40b
 workflow-type: tm+mt
-source-wordcount: '12934'
+source-wordcount: '12940'
 ht-degree: 1%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 1%
       * [Ausführung, Zyklen und Phasen eines Szenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Unvollständige Ausführungen in Adobe Workfront Fusion anzeigen und auflösen](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+      * [Sperrte Szenarien anzeigen und verwalten in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
       * [Planen eines Szenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Aktivieren oder Deaktivieren eines Szenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Hinzufügen eines Filters zu einem Szenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2636,6 +2637,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
