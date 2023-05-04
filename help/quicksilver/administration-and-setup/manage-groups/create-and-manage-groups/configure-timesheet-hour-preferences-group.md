@@ -5,30 +5,32 @@ keywords: group,Preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
 title: Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe
 description: Auf Systemebene kann ein Adobe Workfront-Administrator die Abschnitte "Allgemeine Voreinstellungen"und "Timesheet- und Stundenvoreinstellungen"entsperren und Zeitesheets vorab ausfüllen. Auf diese Weise können Gruppenadministratoren die Optionen in diesen Abschnitten unabhängig für ihre eigenen Gruppen konfigurieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 4%
+source-wordcount: '1368'
+ht-degree: 5%
 
 ---
 
 # Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe
 
+{{highlighted-preview}}
+
 Ein Adobe Workfront-Administrator kann die folgenden Abschnitte der Voreinstellungen für Zeitpläne und Stunden auf Systemebene entsperren, sodass Gruppenadministratoren sie unabhängig für ihre eigenen Gruppen konfigurieren können:
 
 * Allgemeine Einstellungen
-* Arbeitszeittabellen vorab füllen mit
+* <span class="preview">Wo Benutzende die Zeit protokollieren können</span>
+* Vorausfüllen von Zeitesheets
 
 Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 Die folgenden Abschnitte auf der Seite &quot;Timesheet- und Stundeneinstellungen&quot;können nur auf Systemebene konfiguriert werden und können nicht für Gruppen entsperrt werden:
 
-* Protokollierungszeit
-* Einstellungen für die Löschung von Projekten, Aufgaben oder Problemen
+* Gelöschte Projekte, Aufgaben und Probleme
 
 Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
     </tbody> 
    </table>
 
-1. Im **Vorausfüllen von Timesheets mit** konfigurieren Sie eine der folgenden Optionen:
+1. <span class="preview">Im **Wo Benutzer die Zeit protokollieren können** konfigurieren Sie eine der folgenden Optionen:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Zeit direkt in Projekten protokollieren</span></td> 
+      <td><span class="preview">Ermöglicht Benutzern die Protokollzeit für das Projekt (sowohl auf der Registerkarte Updates als auch im Timesheet). Wenn Sie die Aufnahmezeit Ihrer Benutzer auf Projektebene beschränken möchten, lassen Sie diese Option deaktiviert.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Zeit für abgeschlossene Projekte protokollieren</span></td>
+      <td><span class="preview">Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status Fertig stellen aufzeichnen.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Zeit für eingestellte Projekte protokollieren</span></td> 
+      <td><span class="preview">Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status "Dead"protokollieren.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Diese Voreinstellung wird je nach Konfiguration der Voreinstellungen für die Home Group des Benutzers angewendet. Wenn diese Einstellungen in den Voreinstellungen für die Startseite des Benutzers aktiviert sind, können sie die Zeit direkt für Projekte protokollieren, einschließlich abgeschlossener oder veralteter Projekte, unabhängig davon, ob die Gruppeneinstellungen des Projekts dies zulassen oder nicht.
+
+1. Im **Vorausfüllen von Zeitesheets** konfigurieren Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
