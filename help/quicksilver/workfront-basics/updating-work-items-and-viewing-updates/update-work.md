@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Der Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt &quot;Voreinstellungen für Feeds aktualisieren&quot;der Workfront-Benutzeroberfläche aktivieren, bevor die Symbole Bild oder Anhang hinzufügen angezeigt werden. Weitere Informationen finden Sie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Bilddateigröße beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
    >* Auf Bilder kann über den Abschnitt Aktualisierungen eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente verfügbar.
-   >* <!--In the current commenting experience,--> Wenn Sie einen Kommentar löschen, der ein Bild enthält, bleibt das Bild im Bereich &quot;Dokumente&quot;, ist jedoch nicht mehr im Abschnitt &quot;Aktualisierungen&quot;sichtbar.
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Sie können ein Update mit einem Bild und ohne Text senden.
+   >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, gibt es je nach ausgewähltem Erlebnis die folgenden Szenarien:
+      >
+      >     * Im aktuellen Kommentar-Erlebnis bleibt das Bild im Bereich Dokumente , ist jedoch nicht mehr im Abschnitt Aktualisierungen sichtbar.
+      >     * Im neuen Kommentarerlebnis wird das Bild sowohl aus dem Abschnitt Updates als auch aus dem Bereich Dokumente entfernt. Das Bild wird auch aus dem Bereich &quot;Dokumente&quot;gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
+   >* Wenn jemand ein Bild löscht, das mit einem Kommentar verknüpft ist, wird es auch aus dem Kommentar entfernt.
+
 
 1. Klicken **Aktualisieren**  oder **Einsenden**, wenn Sie das Beta-Kommentarerlebnis verwenden.
 

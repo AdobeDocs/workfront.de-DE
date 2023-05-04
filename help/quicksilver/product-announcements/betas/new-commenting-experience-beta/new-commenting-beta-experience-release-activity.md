@@ -5,10 +5,10 @@ title: "Neue Kommentar-Erlebnis-Beta-Release-Aktivität"
 description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue Beta-Kommentarerlebnis für Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '470'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,6 @@ Die Informationen auf dieser Seite beziehen sich auf die Veröffentlichungsaktiv
 
 Allgemeine Informationen zum neuen Kommentar-Beta-Erlebnis, einschließlich einer Liste der Funktionen, die derzeit verfügbar sind oder in der Forschung verwendet werden, finden Sie unter [Neues Kommentierungserlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >Die neue Kommentarerfahrung, die mit der Beta-Version 23.2 gestartet wurde. Informationen zur ursprünglichen Version finden Sie unter [23.2 Versionsübersicht](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ Allgemeine Informationen zum neuen Kommentar-Beta-Erlebnis, einschließlich eine
 
 Die folgenden Abschnitte enthalten Funktionen, die nach der ursprünglichen Version hinzugefügt wurden, beginnend mit den zuletzt veröffentlichten Funktionen.
 
-<!--
+## Woche vom 2. Mai 2023
 
-## Week of May 2, 2023
+### Bilder werden aus dem Bereich &quot;Dokumente&quot;entfernt, wenn Anlagen aus Kommentaren entfernt werden oder wenn Kommentare, die eine Anlage enthalten, entfernt werden
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+Wir ändern die Funktionsweise von Anlagen beim Entfernen oder Bearbeiten eines Kommentars, der einen Anhang enthält. Wenn Sie jetzt einen Kommentar bearbeiten und den Anhang entfernen oder einen Kommentar löschen, der einen Anhang enthält, wird der Anhang auch aus dem Bereich &quot;Dokumente&quot;entfernt. Vor dieser Änderung blieben die Anlagen im vorherigen Kommentarerlebnis im Bereich Dokumente. Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Verfügbar für Problemkommentare für Beta-Erlebnisse und für Workfront-Ziele standardmäßig an den folgenden Daten:
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* Vorschau und Produktion: 4. Mai 2023
 
-* Preview and Production: May 4, 2023
--->
 
 ## 27. April 2023
 
