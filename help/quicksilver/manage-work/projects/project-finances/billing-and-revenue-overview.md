@@ -7,7 +7,7 @@ description: Als Projektmanager können Sie die Abrechnungssätze verwenden, um 
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Die folgende Tabelle zeigt die Umsatztypen im Zusammenhang mit Aufgaben, Problem
  <tbody> 
   <tr> 
    <td role="rowheader">Geplante Einnahmen</td> 
-   <td> <p>Bei Aufgaben ist dies der Umsatz, der mit den geplanten Stunden von Aufgaben verbunden ist. Die geplanten Stunden aus allen Aufgaben werden in die geplanten Stunden des Projekts einfließen, um zur Berechnung der geplanten Stunden des Projekts beizutragen. </p> <p>Weitere Informationen zu geplanten Stunden in Workfront finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über geplante Stunden</a>. </p> <p>Workfront berechnet den geplanten Umsatz für Aufgaben und Projekte anhand der folgenden Formeln:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Bei Aufgaben ist dies der Umsatz, der mit den geplanten Stunden von Aufgaben verbunden ist. Die geplanten Stunden aus allen Aufgaben werden in die geplanten Stunden des Projekts einfließen, um zur Berechnung der geplanten Stunden des Projekts beizutragen. </p> <p>Weitere Informationen zu geplanten Stunden in Workfront finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über geplante Stunden</a>. </p> <p>Workfront berechnet den geplanten Umsatz für Aufgaben und Projekte anhand der folgenden Formeln:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>NOTIZ</b>
 
 <p>Der geplante Umsatz des Projekts, der im Bereich "Projektdetails"und in den Projektberichten angezeigt wird, unterscheidet sich von dem geplanten Umsatz, der im Nutzungsbericht angezeigt wird. </p> <p>Der geplante Umsatz im Bereich "Projektdetails"spiegelt den mit der Aufgabe "Geplante Stunden"verbundenen Aufgabenumsatz sowie den festen Umsatz des Projekts wider. Der geplante Umsatz im Nutzungsbericht zeigt den geplanten Umsatz an, der nur mit den geplanten Stunden aus den Aufgabenzuweisungen für das Projekt verbunden ist. </p> 
@@ -120,7 +120,7 @@ Die folgende Tabelle zeigt die Umsatztypen im Zusammenhang mit Aufgaben, Problem
   </tr> 
   <tr> 
    <td role="rowheader">Tatsächliche Einnahmen*</td> 
-   <td> <p>In Verbindung mit den tatsächlichen Stunden von Aufgaben, Problemen und Projekten. </p> <p>Im Allgemeinen berechnet Workfront den tatsächlichen Umsatz anhand dieser Formel:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Informationen zu den tatsächlichen Umsatzberechnungen im Nutzungsbericht finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informationen zur Ressourcenauslastung anzeigen </a>. </p> <p><b>TIPP</b>
+   <td> <p>In Verbindung mit den tatsächlichen Stunden von Aufgaben, Problemen und Projekten. </p> <p>Im Allgemeinen berechnet Workfront den tatsächlichen Umsatz anhand dieser Formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Informationen zu den tatsächlichen Umsatzberechnungen im Nutzungsbericht finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informationen zur Ressourcenauslastung anzeigen </a>. </p> <p><b>TIPP</b>
 
 Sie können den tatsächlichen Umsatz nicht auf der Ausgabenebene anzeigen, aber die mit den tatsächlichen Stunden verbundenen Umsätze bei den Problemen tragen zum tatsächlichen Umsatz des Projekts bei. </p> </td>
 </tr> 
