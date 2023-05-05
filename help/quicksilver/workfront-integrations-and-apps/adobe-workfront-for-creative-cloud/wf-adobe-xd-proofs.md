@@ -6,10 +6,10 @@ description: Sie können Ihre Zeichenflächen als Testsendungen direkt in Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Um mehr als eine Zeichenfläche auszuwählen, klicken Sie auf die gewünschte Zeichenfläche und ziehen Sie die Maus darüber.
+   >* Die Zeichenflächen werden im Testversand in der Reihenfolge angezeigt, in der sie ausgewählt wurden. Die erste ausgewählte Zeichenfläche ist die erste Seite im Testversand usw.
+   >* Um schnell mehr als eine Zeichenfläche auszuwählen, klicken Sie auf und ziehen Sie die Maus über die gewünschten Zeichenflächen. Auf diese Weise können Sie die Reihenfolge der Zeichenflächen im Testversand nicht steuern.
+
 
 1. Aktivieren **[!UICONTROL Erstellen eines Testversands]**.
 
