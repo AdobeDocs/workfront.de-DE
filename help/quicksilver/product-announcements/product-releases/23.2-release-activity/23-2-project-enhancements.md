@@ -4,7 +4,8 @@ description: 23.2 Projektverbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 ver
 
 >[!NOTE]
 >
->Ab dem 23. März wird diese Version in einer stufenweisen Einführung, die am 11. Mai 2023 abgeschlossen wird, für die Produktion freigegeben.
+>Ab dem 23. März wird diese Version in einer stufenweisen Einführung, die nach dem 11. Mai 2023 abgeschlossen sein wird, für die Produktion freigegeben.
 
 Im Zuge der Aktualisierung des Erscheinungsbilds des Workfront-Erlebnisses haben wir das Feld &quot;Projekte bearbeiten&quot;neu gestaltet, wenn mehrere Projekte gleichzeitig in großen Mengen bearbeitet werden. Sie können auf das neue Feld Projekte bearbeiten zugreifen, wenn Sie mehrere Projekte gleichzeitig in einer Projektliste auswählen.
 
