@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 1%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht integriert sind in [!DNL Adobe Experience Cloud].
+>
+> Wenn Ihr Unternehmen bei [!DNL Adobe Experience Cloud], ist das Branding nicht verfügbar.
 
 Als Workfront-Administrator können Sie Workfront mit Logos an den folgenden Stellen markieren:
 

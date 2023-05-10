@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Brand Adobe Workfront mit einer Layoutvorlage
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht integriert sind in [!DNL Adobe Experience Cloud].
+>
+> Wenn Ihr Unternehmen bei [!DNL Adobe Experience Cloud], ist das Branding nicht verfügbar.
 
 Sie können eine Layoutvorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Rollen und Benutzer anzupassen. Dies ist besonders für Gruppen in einer großen Organisation nützlich, die über ein eigenes Branding verfügen.
 
@@ -23,7 +29,7 @@ Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Än
 
 >[!NOTE]
 >
->Ein Workfront-Administrator kann dieselben Branding-Anpassungen für das gesamte Unternehmen auf Systemebene vornehmen, wie hier beschrieben: [Markieren Sie Ihre Adobe Workfront-Instanz.](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Das Branding in einer Layoutvorlage setzt jedoch das Branding auf Systemebene außer Kraft. >
+>Ein Workfront-Administrator kann dieselben Branding-Anpassungen für das gesamte Unternehmen auf Systemebene vornehmen, wie hier beschrieben: [Markieren Sie Ihre Adobe Workfront-Instanz.](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Das Branding in einer Layoutvorlage setzt jedoch das Branding auf Systemebene außer Kraft.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

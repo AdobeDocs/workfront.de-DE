@@ -3,11 +3,11 @@ content-type: overview
 title: Übersicht über die Navigationsleiste oben
 description: Die obere Navigationsleiste, die oben auf Ihrem Bildschirm in der neuen [!DNL Adobe Workfront] experience - ermöglicht es Ihnen, andere Bereiche der Plattform einfach zu finden und zu diesen zu navigieren.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfron
 ## [!UICONTROL Start-Symbol]
 
 Die **[!UICONTROL Startseite]** icon ![](assets/home-icon.png) bringt Sie zum [!UICONTROL Startseite] -Seite, die die Standard-Landingpage ist. Weitere Informationen zu &quot;Home&quot;finden Sie unter [Verwenden Sie die [!UICONTROL Startseite] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-Ein [!DNL Adobe Workfront] -Administrator kann [!UICONTROL Startseite] -Symbol, um die Marke Ihres Unternehmens anzuzeigen. Weitere Informationen finden Sie unter [Markieren Sie Ihre [!DNL Adobe Workfront] instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Angeheftete Seiten
 
@@ -59,6 +57,12 @@ Die **[!UICONTROL Suche]** icon ![](assets/search-icon.png) in der oberen rechte
 Weitere Informationen zur Suche finden Sie unter [Suche [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Hauptmenü]
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Hauptmenü gilt nur für Organisationen, die noch nicht integriert sind in [!DNL Adobe Experience Cloud].
+>
+> Wenn Ihr Unternehmen bei [!DNL Adobe Experience Cloud], siehe [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) öffnet die [!UICONTROL Hauptmenü], mit dem Sie zu einem anderen Bereich von Workfront navigieren können.
 

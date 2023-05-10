@@ -5,9 +5,9 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>Der Anpassungsprozess [!DNL Workfront] um der Benutzeroberfläche ein Erscheinungsbild zu geben, das Ihr Unternehmen mit Ihren Farben und Logos widerspiegelt.</td> 
+   <td><p>Der Anpassungsprozess [!DNL Workfront] um der Benutzeroberfläche ein Erscheinungsbild zu geben, das Ihr Unternehmen mit Ihren Farben und Logos widerspiegelt.</p><p><strong>NOTE</strong><br>Wenn Ihr Unternehmen bei [!DNL Adobe Experience Cloud], ist das Branding nicht verfügbar.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 
@@ -1534,7 +1534,7 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
      <li> <p>Bei Problemen können Sie dieses Feld manuell aktualisieren. Die geplanten Problemzeiten werden nicht zu den geplanten Projektzeiten hinzugefügt. </p> <p>Tipp: In einem Problembericht wird eines der Felder [!UICONTROL Geplante Stunden] durch das Feld [!UICONTROL Arbeit] ersetzt. Im Feld wird die Anzahl der geplanten Stunden zum Problem angezeigt. Weitere Informationen finden Sie in den Feldern "Arbeit" oder "[!UICONTROL Arbeit]" in dieser Tabelle. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Für Aufgaben können Sie dieses Feld manuell aktualisieren, wenn der [!UICONTROL Durationstyp] der Aufgabe die [!UICONTROL berechnete Zuweisung] oder [!UICONTROL Einfach] ist. Dieses Feld wird von [!DNL Workfront] wenn der [!UICONTROL Dauer-Typ] der Aufgabe [!UICONTROL Berechnete Arbeit] oder [!UICONTROL Aufwand gesteuert] ist.<br>Weitere Informationen zur [!UICONTROL Task Duration] finden Sie im Artikel <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die [!UICONTROL Dauer] und den [!UICONTROL Durationstyp]</a>.</p> </li> 
+     <li> <p>Bei Aufgaben können Sie dieses Feld manuell aktualisieren, wenn der [!UICONTROL Durationstyp] der Aufgabe die [!UICONTROL berechnete Zuweisung] oder [!UICONTROL Einfach] ist. Dieses Feld wird von [!DNL Workfront] wenn der [!UICONTROL Dauer-Typ] der Aufgabe [!UICONTROL Berechnete Arbeit] oder [!UICONTROL Aufwand gesteuert] ist.<br>Weitere Informationen zur [!UICONTROL Task Duration] finden Sie im Artikel <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die [!UICONTROL Dauer] und den [!UICONTROL Durationstyp]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Für Projekte: [!DNL Workfront] berechnet die geplanten Stunden, indem alle geplanten Stunden aus allen Aufgaben des Projekts hinzugefügt werden. </p> </li> 
