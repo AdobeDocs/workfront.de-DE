@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Einfache Filter, die in Aufnahmespalten an Bord verfügbar sind</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Vereinfachte Filter wurden zur Einrichtung der Ansaugspalte hinzugefügt, damit Sie die Ansauspalte schneller definieren können. Die verfügbaren Filter sind Workfront-Projekte und -Zuweisungen nach Team oder Benutzer. Sie können bei Bedarf zu den erweiterten Filtern wechseln.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 10. Mai 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 10. Mai 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Einfache Filter zur Vorlage der dynamischen Pinnwand hinzugefügt</a></p>
                         <p>Die Filter auf der Vorlage für dynamische Pinnwände wurden vereinfacht, sodass Sie Pinnwände schneller erstellen können.</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldwerten zu Tags in Experience Manager Assets</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
+                        <p>Jetzt können Sie Assets basierend auf Daten aus Workfront kategorisieren und schnell finden. Sie können diese Daten als Teil Ihrer Metadatenkonfiguration in der Workfront für Experience Manager Assets-Integration zuordnen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 10. Mai 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 10. Mai 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldern zu benutzerdefinierten Experience Manager Assets-Metadatenfeldern</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
+                        <p>Mit der nativen Integration können Sie jetzt sowohl native als auch integrierte Workfront-Felder benutzerdefinierten Metadatenschema-Feldern in Experience Manager Assets as a Cloud Service zuordnen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 10. Mai 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 10. Mai 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Anpassen der Workflow-Vorlageneinstellungen für automatisierte Testsendungen mit Adobe Workfront for Creative Cloud</a></p>
@@ -285,7 +334,7 @@ Zu diesem Zeitpunkt der Version gibt es keine Aktualisierungen des Szenario-Play
 
 ### Workfront-Testverbesserungen
 
-Es gibt derzeit keine Workfront Testversandaktualisierungen in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Neue Funktionen in der Workfront-Testversion innerhalb des Veröffentlichungszeitrahmens 23.3. Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Adobe Workfront-Testversand mit Version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Verbesserungen bei Workfront-Zielen
 
