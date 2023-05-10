@@ -7,7 +7,7 @@ description: Ein auflösbares Objekt ist ein Problem, dessen Auflösung an ein a
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -169,7 +169,7 @@ Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten S
 
 Sie können benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösendes Objekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.
 
-Erstellen Sie beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen &quot;Gestartet&quot;mit dem dreistelligen Code &quot;LCD&quot;, der mit &quot;Aktuell&quot;übereinstimmt. Erstellen Sie außerdem einen benutzerspezifischen Problemstatus mit dem Namen &quot;Projekt gestartet&quot;, auch mit dem Buchstabencode &quot;LCD&quot;, der mit &quot;In Bearbeitung&quot;übereinstimmt. Wenn Sie das Projekt als &quot;Gestartet&quot;markieren, ändert sich der Status des Problems automatisch in &quot;Projekt gestartet&quot;. Wenn die Einstellung &quot;Problemstatus automatisch*** festlegen, sodass sie mit den Statusschlüsseln dem auflösbaren Objekt entspricht&quot;nicht aktiviert wurde, ändert sich der Problemstatus stattdessen in &quot;In Bearbeitung&quot;(Standardstatus).
+Erstellen Sie beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen &quot;Gestartet&quot;mit dem dreistelligen Code &quot;LCD&quot;, der mit &quot;Aktuell&quot;übereinstimmt. Erstellen Sie außerdem einen benutzerspezifischen Problemstatus mit dem Namen &quot;Projekt gestartet&quot;, auch mit dem Buchstabencode &quot;LCD&quot;, der mit &quot;In Bearbeitung&quot;übereinstimmt. Wenn Sie das Projekt als &quot;Gestartet&quot;markieren, ändert sich der Status des Problems automatisch in &quot;Projekt gestartet&quot;. Wenn die Einstellung &quot;Behebbares Problem automatisch aktualisieren, wenn der Status der Auflösen von Objektänderungen nicht aktiviert ist, ändert sich der Problemstatus stattdessen in &quot;Wird ausgeführt&quot;(Standardstatus).
 
 Weitere Informationen zum Erstellen eines benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -214,7 +214,7 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
  <thead> 
   <tr> 
    <th><strong>Feld in Ansicht</strong> </th> 
-   <th><strong>Anfrageansicht</strong> </th> 
+   <th><strong>Problemansicht</strong> </th> 
    <th><strong>Aufgabenansicht</strong> </th> 
    <th><strong>Projektansicht</strong> </th> 
   </tr> 
