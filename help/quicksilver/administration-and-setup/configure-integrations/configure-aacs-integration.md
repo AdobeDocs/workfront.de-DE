@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-Integrationen
 description: Sie können Ihre Arbeit mit den folgenden Adobe Experience Manager Assets-Integrationen verbinden.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ Sie können [!DNL Workfront] Objektdaten in Asset-Medienfelder in [!DNL Experien
 >
 >Sie können Metadaten nur in eine Richtung zuordnen: von [!DNL Workfront] nach [!DNL Experience Manager]. Metadaten für Dokumente, die verknüpft sind mit [!DNL Workfront] von [!DNL Experience Manager] kann nicht übertragen werden an [!DNL Workfront].
 
-
-
 ### Konfigurieren von Metadatenfeldern
 
+Bevor Sie mit der Zuordnung von Metadatenfeldern beginnen, müssen Sie Metadatenfelder sowohl in Workfront als auch in Experience Manager Assets konfigurieren.
+
+So konfigurieren Sie Metadatenfelder:
+
 1. Konfigurieren eines Metadatenschemas in [!DNL Experience Manager Assets] wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe [!DNL Workfront] und [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie hier beschrieben: [Benutzerdefiniertes Formular erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Erweitern, um weitere Informationen zu unterstützten Workfront- und Experience Manager Assets-Feldern anzuzeigen**
 
-### Assets
+**Experience Manager Assets Tags**
+
+Sie können jedes von Workfront unterstützte Feld einem Tag in Experience Manager Assets zuordnen. Dazu müssen Sie sicherstellen, dass die Tag-Werte in Experience Manager Assets mit Workfront übereinstimmen.
+
+* Die Feldwerte für Tags und Workfront müssen exakt mit der Schreibweise und dem Format übereinstimmen.
+* Workfront-Feldwerte, die Experience Manager-Assets-Tags zugeordnet werden, müssen in Kleinbuchstaben geschrieben werden, selbst wenn das Tag in Experience Manager Assets Großbuchstaben zu haben scheint.
+* Workfront-Feldwerte dürfen keine Leerzeichen enthalten.
+* Der Feldwert in Workfront muss auch die Ordnerstruktur des Experience Manager Assets-Tags enthalten.
+* Um mehrere einzeilige Textfelder Tags zuzuordnen, geben Sie eine kommagetrennte Liste der Tag-Werte auf der Workfront-Seite der Metadaten-Zuordnung ein und `xcm:keywords` auf der Experience Manager Assets-Seite. Jeder Feldwert wird einem separaten Tag zugeordnet. Sie können ein berechnetes Feld verwenden, um mehrere Workfront-Felder in einem einzigen, kommagetrennten Textfeld zu kombinieren.
+* Sie können Werte aus Dropdown-, Optionsfeld- oder Kontrollkästchen-Feldern zuordnen, indem Sie eine kommagetrennte Liste der in diesem Feld verfügbaren Werte eingeben.
+
+
+>[!INFO]
+>
+>**Beispiel**: Um mit dem hier in der Ordnerstruktur angezeigten Tag abzugleichen, lautet der Feldwert in Workfront `landscapes:trees/spruce`. Beachten Sie die Kleinbuchstaben im Workfront-Feldwert.
+>
+>Wenn das Tag am weitesten links im Tag-Baum sein soll, muss es von einem Doppelpunkt gefolgt werden. In diesem Beispiel würde der Feldwert in Workfront zum Landschaftsschild zugeordnet werden: `landscapes:`.
+>
+>![Ordnerstruktur in AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Nachdem Sie die Tags in Experience Manager Assets erstellt haben, werden sie im Abschnitt Metadaten unter der Dropdown-Liste Tags angezeigt. Um ein Feld mit einem Tag zu verknüpfen, wählen Sie `xcm:keywords` im Dropdown-Menü Experience Manager Assets-Feld im Bereich Metadatenzuordnung.
+
+Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Benutzerdefinierte Metadatenschema-Felder von Experience Manager Assets**
+
+Sie können sowohl integrierte als auch benutzerdefinierte Workfront-Felder benutzerdefinierten Metadatenschema-Feldern in Experience Manager Assets zuordnen.
+
+Benutzerdefinierte Metadatenfelder, die in Experience Manager Assets erstellt wurden, sind in ihrem eigenen Abschnitt im Metadaten-Setup-Bereich organisiert.
+
+![benutzerspezifischer Metadatenabschnitt](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront-Felder**
+
+Sie können sowohl integrierte als auch benutzerdefinierte Workfront-Felder Experience Manager Assets zuordnen. Die folgenden Feldwerte müssen sowohl Groß- als auch Kleinschreibung zwischen Workfront und Experience Manager Assets berücksichtigen:
+
+* Dropdown-Felder
+* Felder mit Mehrfachauswahl
+
+>[!TIP]
+>
+> Um zu überprüfen, ob die Feldwerte exakt übereinstimmen, gehen Sie zu
+>
+> * Einrichtung > Benutzerdefinierter Forms in Workfront oder das -Feld im -Objekt
+> * Assets > Metadatenschemata in Experience Manager Assets
+
+
++++
+
+### Zuordnen von Metadaten für Assets
 
 Metadaten-Maps beim Senden eines Assets aus [!DNL Workfront] zum ersten Mal. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden automatisch den angegebenen Feldern zugeordnet, wenn ein Asset zum ersten Mal an [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Diese Integration unterstützt keine benutzerdefinierten Metadaten von [!DNL Adobe Experience Manager].
 
 Zuordnen von Metadaten für Assets:
 
@@ -125,13 +180,15 @@ Zuordnen von Metadaten für Assets:
    >[!NOTE]
    >
    >Sie können eine [!DNL Workfront] Feld zu mehreren [!UICONTROL Experience Manager Assets] -Felder. Sie können nicht mehrere [!DNL Workfront] Felder zu einem einzelnen [!DNL Experience Manager Assets] -Feld.
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. Im [!DNL Experience Manager Assets] , durchsuchen Sie die vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf weitere Kategorien zuzugreifen.
 1. Wiederholen Sie die Schritte 2 und 3 nach Bedarf.
    ![Metadatenfelder](assets/asset-metadata.png)
 1. Klicken [!UICONTROL Speichern] oder zum [Ordner](#folders) in diesem Artikel.
 
-### Ordner
+### Zuordnen von Metadaten für Ordner
 
 Wenn Benutzer einen verknüpften Ordner in einem Projekt erstellen, werden die verknüpften Projekt-, Portfolio- und Programmdaten den Ordner-Metadatenfeldern in [!DNL Experience Manager Assets].
 

@@ -4,9 +4,10 @@ description: 23.2 Verbesserungen für Administratoren
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit Version 23.2 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Zuordnen von Workfront-Feldwerten zu Tags in Experience Manager Assets
+
+Jetzt können Sie Assets basierend auf Daten aus Workfront kategorisieren und schnell finden.  Sie können diese Daten als Teil Ihrer Metadatenkonfiguration in der Workfront für Experience Manager Assets-Integration zuordnen.
+
+Zuvor war die Zuordnung von Workfront-Daten zu Experience Manager Assets-Tags nicht verfügbar.
+
+Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Service] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+Weitere Informationen zu dieser Funktion finden Sie in Experience Manager Assets Essentials . [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit der Beta-Version des neuen Formulardesigners
 

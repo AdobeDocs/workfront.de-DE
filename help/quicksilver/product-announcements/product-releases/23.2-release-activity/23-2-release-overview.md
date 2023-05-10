@@ -4,13 +4,13 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2 Versionsübersicht
 
@@ -52,6 +52,22 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td>
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldwerten zu Tags in Experience Manager Assets</a>
+                        <p>Jetzt können Sie Assets basierend auf Daten aus Workfront kategorisieren und schnell finden.  Sie können diese Daten als Teil Ihrer Metadatenkonfiguration in der Workfront für Experience Manager Assets-Integration zuordnen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion: 30. März 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
