@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Annahmespalte erstellen
+## Ansauspalte mit einfachen Filtern erstellen
+
+>[!NOTE]
+>
+>Einfache Filter sind nur über die Funktion &quot;Opt-in für frühe Funktionen&quot;für Adobe Workfront-Pinnwände verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
 1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Erweitern **[!UICONTROL Board]**.
 1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
 
-   ![Annahmespalte erstellen](assets/create-intake-column2.png)
+   ![Einzugsspalten - einfache Filteroptionen](assets/intake-column-simple-filters.png)
 
    Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
 
+1. (Optional) Suchen Sie nach und wählen Sie [!DNL Workfront] [!UICONTROL **Projekte**].
+1. (Optional) Suchen Sie nach Benutzern oder Teams und wählen Sie sie aus. [!UICONTROL **Zuweisungen**].
+1. Auswählen [!UICONTROL **Fertiggestellte Arbeit einschließen**] , um Aufgaben und Probleme mit dem Status Fertig stellen in der Spalte Aufnahme anzuzeigen.
+
+   >[!NOTE]
+   >
+   >Wenn diese Option nicht ausgewählt ist und Karten in anderen Status als vollständig markiert sind, werden sie auf der Pinnwand &quot;abfallen&quot;und nicht mehr angezeigt.
+
+1. Klicken [!UICONTROL **Anwenden**].
+
+   Alle Objekte werden in der Spalte für die Aufnahme der Pinnwand als verbundene Karten angezeigt.
+
+   ![Aufnahmespalte](assets/intake-column-added3.png)
+
+## Erstellen einer Annahmespalte mit erweiterten Filtern
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
+1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Erweitern **[!UICONTROL Board]**.
+1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
+
+   Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
+
+1. Klicken [!UICONTROL **Erweiterte Filter verwenden**].
 1. Klicken **[!UICONTROL Quellen filtern]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+
+   ![Erweiterte Filteroptionen für Spalten aufnehmen](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Aufnahmespalte](assets/intake-column-added3.png)
 
-   Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
-
-   Sie können die Elemente in der Annahmespalte manuell neu anordnen.
-
-   Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich derzeit in der Spalte befinden und wie viele Filter angewendet werden.
-
    >[!NOTE]
    >
    >Sie können die Filter jederzeit aktualisieren, indem Sie das Fenster &quot;Konfigurieren&quot;öffnen und auf **[!UICONTROL Quellen filtern]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+
+## Annahmespalte verwenden
+
+Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
+
+
+Sie können die Elemente in der Annahmespalte manuell neu anordnen.
+
+Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich derzeit in der Spalte befinden und wie viele Filter angewendet werden.
 
 1. (Optional) Klicken Sie auf , um in der Ansaugluft nach einem Element zu suchen. ![Suchsymbol](assets/search-icon.png) in der Spalte ein.
 1. (Optional) Um eine Karte aus der Ansauspalte in eine andere Spalte zu verschieben, ziehen Sie die Karte an die gewünschte Position.
