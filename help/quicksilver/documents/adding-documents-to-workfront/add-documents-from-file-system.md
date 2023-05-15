@@ -6,9 +6,9 @@ description: Sie können in den folgenden Bereichen in Adobe Workfront - EDIT ME
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Die Workfront-Website verhindert, dass Viren und andere schädliche Inhalte übe
 
 ### So erkennt Workfront beschädigte Dateien {#how-workfront-detects-corrupted-files}
 
-Workfront sucht beim Hochladen eines Dokuments nach Viren. Wenn Sie versuchen, ein beschädigtes Dokument hochzuladen, setzt Workfront den Upload-Vorgang ab und eine Meldung erscheint, die angibt, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schädliche Inhalte erkennt und die Datei entfernt werden soll.\
-Alle beschädigten Dateien werden innerhalb von 24 Stunden nach der Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie zulassen, dass Workfront sie entfernt, werden keine Aktualisierungen aufgezeichnet.
+Die Dokumentenprüfung ist für Ihre Organisation nur auf Anfrage aktiviert.
+
+Wenn die Dokumentprüfung aktiviert ist, werden Dateien unter 25 MB beim Hochladen gescannt. Dateien über 25 MB werden nicht gescannt.
+
+Wenn Workfront ein beschädigtes Dokument erkennt, setzt Workfront den Upload-Prozess ein und eine Meldung wird angezeigt, die darauf hinweist, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schädliche Inhalte erkennt und die Datei entfernt werden soll.
+
+Beschädigte Dateien werden innerhalb von 24 Stunden nach der Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie zulassen, dass Workfront sie entfernt, werden keine Aktualisierungen aufgezeichnet.
 
 ### Einschränkungen bei Dateinamen {#file-name-restrictions}
 
