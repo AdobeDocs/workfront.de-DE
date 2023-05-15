@@ -7,9 +7,9 @@ description: Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgäng
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
   </tr> 
   <tr> 
    <td> <p>Prozent (p oder pe)</p> </td> 
-   <td> <p>Die Verzögerung wird als Prozentsatz der geschätzten Zeit zum Abschließen der vorherigen Aufgabe ausgedrückt. </p> <p>Wenn es beispielsweise eine Abhängigkeit zwischen Fertigstellung und Start mit einer Verzögerung von 20 % zwischen einer 10-tägigen Vorgängeraufgabe gibt, berechnet das System, wie viele Tage 20 % der vorherigen Aufgabendauer beträgt, und verwendet dies als Verzögerung. In diesem Fall wäre es 2 Tage nach Abschluss der Aufgabe. </p> <p>Hinweis: Die maximale Latenzgrenze beträgt 2000 %.</p> </td> 
+   <td> <p>Die Verzögerung wird als Prozentsatz der geschätzten Zeit zum Abschließen der vorherigen Aufgabe ausgedrückt. </p> <p>Wenn es beispielsweise eine Abhängigkeit von der Fertigstellung einer 10-tägigen Vorgängeraufgabe mit einer Verzögerung von 20 % gibt, berechnet das System, wie viele Tage 20 % der vorherigen Aufgabendauer darstellen, und verwendet dies als Verzögerung. In diesem Fall wäre es 2 Tage nach Abschluss der Aufgabe. </p>
+
+<p><b>NOTIZ</b></p> Die maximale Latenzgrenze beträgt 2000 %.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Wochentag (w) </p> </td> 
@@ -177,7 +179,17 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
      <li>Donnerstag=5</li> 
      <li>Freitag=6</li> 
      <li>Samstag=7</li> 
-    </ul> <p>Wenn Sie angeben möchten, dass das geplante Startdatum des Nachfolgers auf einen Dienstag der aktuellen Woche fällt und der Dienstag vor dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Hinweis: Wenn der Dienstag für die Woche des geplanten Abschlussdatums des Vorgängers verstrichen ist, ist das geplante Startdatum der Nachfolgeaufgabe der erste verfügbare Arbeitstag dieser Woche. </p> <p>Wenn Sie angeben möchten, dass die Verzögerung auf einen Samstag der aktuellen Woche fällt und der Samstag nach dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Wenn Samstag ein nicht funktionierender Tag ist, wird der nächste verfügbare Tag nach Samstag (um eine positive Verzögerung anzugeben) als geplantes Startdatum des Nachfolgers ausgewählt. </p> <p>Um vergangene oder zukünftige Wochen anzugeben, können Sie eine Zahl vor der Tagesnummer für den Verzögerungstyp hinzufügen. </p> <p>Um beispielsweise den Montag von 10 Wochen anzugeben, können Sie diesen Code verwenden, um den Vorgänger Ihres Nachfolgers anzugeben:</p> <p><code>4fs-102w</code> </p> <p>10 bedeutet, dass vor 10 Wochen und 2 die Zahl ist, die Montag zugewiesen ist. </p> </td> 
+    </ul> <p>Wenn Sie angeben möchten, dass das geplante Startdatum des Nachfolgers auf einen Dienstag der aktuellen Woche fällt und der Dienstag vor dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>NOTIZ</b></p>
+
+Wenn der Dienstag für die Woche des geplanten Abschlussdatums des Vorgängers verstrichen ist, ist das geplante Startdatum der Nachfolgeaufgabe der erste verfügbare Arbeitstag dieser Woche. </p> <p>Wenn Sie angeben möchten, dass die Verzögerung auf einen Samstag der aktuellen Woche fällt und der Samstag nach dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren:</p> <p>4fs+7w</code> </p> <p>Wenn Samstag ein nicht funktionierender Tag ist, wird der nächste verfügbare Tag nach Samstag (um eine positive Verzögerung anzugeben) als geplantes Startdatum des Nachfolgers ausgewählt. </p>
+
+<p>Dies gilt nicht für die Planung von Ausnahmen. Wenn ein Datum auch eine planmäßige Ausnahme ist und das Startdatum des Nachfolgers als dieser Tag berechnet wird, versucht das System, das nächste verfügbare Datum zu finden, das dem Wochentag entspricht, der im vorherigen Ausdruck angegeben ist.</p>
+
+<p>Wenn beispielsweise das Startdatum als ein bestimmter Dienstag berechnet wird und dieser Tag eine planmäßige Ausnahme ist und die Verzögerung des Vorgängers positiv ist, wird der folgende Dienstag (wenn es auch ein Arbeitstag ist) als Startdatum des Nachfolgers ausgewählt. Wenn die Verzögerung negativ ist, wählt das System den vorherigen Dienstag als Startdatum aus.</p>
+
+<p>Um vergangene oder zukünftige Wochen anzugeben, können Sie eine Zahl vor der Tagesnummer für den Verzögerungstyp hinzufügen. </p> <p>Um beispielsweise den Montag von 10 Wochen anzugeben, können Sie diesen Code verwenden, um den Vorgänger Ihres Nachfolgers anzugeben:</p> <p><code>4fs-102w</code> </p> <p>10 bedeutet, dass vor 10 Wochen und 2 die Zahl ist, die Montag zugewiesen ist. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Wochentag ungleich null (k)</p> </td> 

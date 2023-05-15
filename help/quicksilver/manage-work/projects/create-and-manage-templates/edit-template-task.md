@@ -7,9 +7,9 @@ description: Nach der Erstellung einer Vorlage können Sie Informationen zu den 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 5%
 
 ---
@@ -152,7 +152,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplante Stunden</strong> </td> 
-      <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe des mit dieser Vorlage erstellten Projekts an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die geplante Zeitdauer für eine Aufgabe nur angeben, wenn die<strong>Dauer Typ</strong> auf <strong>Berechnete Zuweisung</strong>. </p> </td> 
+      <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe des mit dieser Vorlage erstellten Projekts an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn die Variable<strong>Dauer Typ</strong> auf <strong>Berechnete Zuweisung</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Work Effort </td> 
@@ -276,6 +276,14 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Meilenstein</p></strong> </td> 
+      <td> <p>Wählen Sie einen Meilenstein für die Zuordnung zur ausgewählten Vorlagenaufgabe aus.</p>
+
+   <p><b>WICHTIG</b></p>
+   <p>Sie müssen einen Meilensteinpfad mit einer Vorlage verknüpfen, damit dieses Feld angezeigt wird. Weitere Informationen finden Sie unter <a href="../create-and-manage-templates/edit-templates.md">Bearbeiten von Projektvorlagen</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Überwachungsmodus</strong> </td> 
       <td> <p>Geben Sie an, wie der Fortschrittsstatus der künftigen Aufgabe verfolgt werden soll. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
@@ -348,7 +356,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen. Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
+1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen. Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
 1. (Bedingt und optional) Wenn Sie ein benutzerdefiniertes Formular an die Vorlagenaufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Vorlagenaufgabe speichern können.
 
    >[!NOTE]
