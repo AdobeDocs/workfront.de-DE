@@ -6,7 +6,7 @@ description: Sie können die Anzahl der Testversand- und Dokumententscheidungen 
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ So zeigen Sie die Anzahl der Entscheidungen für einen Benutzer an:
 
 1. Öffnen Sie die **Ansichten** und wählen Sie dann die **Lizenzen** anzeigen.
 
-1. Suchen der Spalte **Validierungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
+1. Spalte suchen **Entscheidungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
