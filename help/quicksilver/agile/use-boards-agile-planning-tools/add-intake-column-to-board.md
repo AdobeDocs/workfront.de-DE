@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
 
 1. Klicken [!UICONTROL **Erweiterte Filter verwenden**].
-1. Klicken **[!UICONTROL Quellen filtern]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+1. Klicken **[!UICONTROL Hinzufügen von Filterquellen]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
 
    ![Erweiterte Filteroptionen für Spalten aufnehmen](assets/intake-column-advanced-filters1.png)
 
