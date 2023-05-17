@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 1. Geben Sie im Bereich Updates einen Kommentar ein.
 1. (Optional) Um Ihrer Aktualisierung Rich-Text-Formatierung hinzuzufügen, verwenden Sie beliebige Attribute im **Rich-Text** Symbolleiste bei der Eingabe.
 
-   | **Attribut** | **Schaltfläche &quot;Symbolleiste&quot;** | **Mac-Tastaturbefehle** | **PC-Tastaturbefehle** |
+   | **Attribut** | **Symbolleiste** | **Tastaturbefehle für Mac** | **Windows-Tastaturbefehle** |
    |---|---|---|---|
    | Fett | ![mceclip10.png](assets/mceclip10.png) | η+b | Strg+B |
    | kursiv | ![mceclip9.png](assets/mceclip9.png) | Befehl+i | Strg+I |
    | Unterstreichen | ![mceclip8.png](assets/mceclip8.png) | η+u | Strg+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Strg+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : η+K</br> <br><span class="preview">So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: forecast+V</span></br> | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : Strg+K</br> <br><span class="preview">So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: Strg+V</span></br> |
    | Aufzählung | ![mceclip6.png](assets/mceclip6.png) | η+Shift+8 | Strg+Umschalt+8 |
    | Nummerierte Liste | ![mceclip5.png](assets/mceclip5.png) | η+Shift+7 | Strg+Umschalt+7 |
    | Blockzitat | ![](assets/block-quote-icon-large.png) | η+Shift+9 | Strg+Umschalt+9 |
 
    Um die Textformatierung zu beenden, deaktivieren Sie das -Attribut auf der **Rich-Text** Symbolleiste.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
