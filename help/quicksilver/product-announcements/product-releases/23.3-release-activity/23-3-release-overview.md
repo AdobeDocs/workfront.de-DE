@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Steuerung auf Gruppenebene, verfügbar für Timesheet- und Stundenvoreinstellung "Wo Benutzer Zeit protokollieren können"</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Steuerung auf Gruppenebene, verfügbar für Timesheet- und Stundenvoreinstellung "Wo Benutzer Zeit protokollieren können"</a></p>
                         <p>Der Systemadministrator kann jetzt das Timesheet und die Voreinstellung "Wo Benutzer Zeit protokollieren können"sperren und entsperren. Wenn diese Voreinstellung entsperrt ist, können Gruppenadministratoren die Einstellungen "Wo Benutzer die Zeit protokollieren können"für jede Gruppe separat konfigurieren.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Einfache Filter, die in Aufnahmespalten an Bord verfügbar sind</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Einfache Filter, die in Aufnahmespalten an Bord verfügbar sind</a></p>
                         <p>Vereinfachte Filter wurden zur Einrichtung der Ansaugspalte hinzugefügt, damit Sie die Ansauspalte schneller definieren können. Die verfügbaren Filter sind Workfront-Projekte und -Zuweisungen nach Team oder Benutzer. Sie können bei Bedarf zu den erweiterten Filtern wechseln.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldwerten zu Tags in Experience Manager Assets</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch verknüpfte Ordner mit Adobe Experience Manager Assets erstellen, wenn ein Projekt erstellt wird</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
+                        <p>Mit dem neuen Workflow Verknüpften Ordner für die Adobe Experience Manager-Integration erstellen können Sie die Integration mit einem Pfad zu einem Adobe Experience Manager Assets-Ordner konfigurieren. Wenn die Integration zu einer Projektvorlage hinzugefügt wird, erstellen alle aus der Vorlage erstellten Projekte automatisch einen verknüpften Unterordner in Experience Manager Assets im angegebenen Ordner. </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 11. Mai 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 18. Mai 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldwerten zu Tags in Experience Manager Assets</a></p>
                         <p>Jetzt können Sie Assets basierend auf Daten aus Workfront kategorisieren und schnell finden. Sie können diese Daten als Teil Ihrer Metadatenkonfiguration in der Workfront für Experience Manager Assets-Integration zuordnen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldern zu benutzerdefinierten Experience Manager Assets-Metadatenfeldern</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldern zu benutzerdefinierten Experience Manager Assets-Metadatenfeldern</a></p>
                         <p>Mit der nativen Integration können Sie jetzt sowohl native als auch integrierte Workfront-Felder benutzerdefinierten Metadatenschema-Feldern in Experience Manager Assets as a Cloud Service zuordnen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
