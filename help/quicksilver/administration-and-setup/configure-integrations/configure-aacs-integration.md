@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-Integrationen
 description: Sie können Ihre Arbeit mit den folgenden Adobe Experience Manager Assets-Integrationen verbinden.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ Ein [!DNL Experience Manager] Felder, die [!DNL Workfront] Die Felder &quot;Port
 >Benutzer müssen Schreibzugriff in [!DNL Experience Manager] für Assets, die im Objekt gespeichert sind, damit die Metadaten beim Aktualisieren synchronisiert werden können.
 
 1. Aktivieren Sie die **[!UICONTROL Synchronisieren von Objektmetadaten]** -Feld.
-1. Klicken Sie auf Speichern oder fahren Sie mit dem [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
+1. Klicken **Speichern** oder zum [Einrichten von Workflows (optional)](#set-up-workflows-optional) in diesem Artikel.
+
+<!--Courtney start here-->
+
+## Einrichten von Workflows (optional)
+
+Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Als Workfront-Administrator können Sie Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
+
+Die standardmäßigen Workflow-Werte, die Sie in der Integration festlegen, können auf den Ebenen &quot;Projektvorlage&quot;und &quot;Projekt&quot;überschrieben werden.
+
+### Einrichten eines Workflows für die Erstellung von mit Adobe Experience Manager verknüpften Ordnern
+
+1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
+1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
+   ![Linked folder navigation](assets/select-folder-aem-integration.png)
+1. Aktivieren Sie die **Portfolio- und Programmnamen anhängen** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
+1. Klicken **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
+
+<!--Courtney end here-->
 
 ## Verknüpfte Ordner einrichten (optional)
 
