@@ -6,16 +6,16 @@ description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7310'
+ht-degree: 2%
 
 ---
 
 # Projekte bearbeiten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist für alle Kunden in der Vorschau-Umgebung und für eine ausgewählte Gruppe von Kunden in der Produktionsumgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ Die folgenden Felder sind standardmäßig in der Projektheader enthalten.
 * Status
 * Entscheidungsfindung bei Genehmigungseinstellungen, wenn Sie in einem aktuellen Genehmigungsprozess als Genehmiger festgelegt sind
 
-<div class="preview">
-
 ## Stapelweises Bearbeiten von Projekten
 
 Sie können Projekte stapelweise bearbeiten und Informationen für alle ausgewählten Projekte gleichzeitig aktualisieren.
@@ -795,7 +793,6 @@ Weitere Informationen zum Bearbeiten des Zugriffsbereichs finden Sie im Abschnit
 1. (Optional) Klicken Sie auf **Abbrechen** am unteren Rand des **Projekte bearbeiten** -Seite, um alle Änderungen zu entfernen, die an allen Projekten vorgenommen wurden.
 1. Klicken Sie auf **Speichern**.
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

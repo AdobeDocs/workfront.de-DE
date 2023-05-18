@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    | Fett | ![mceclip10.png](assets/mceclip10.png) | η+b | Strg+B |
    | kursiv | ![mceclip9.png](assets/mceclip9.png) | Befehl+i | Strg+I |
    | Unterstreichen | ![mceclip8.png](assets/mceclip8.png) | η+u | Strg+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : η+K</br> <br><span class="preview">So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: forecast+V</span></br> | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : Strg+K</br> <br><span class="preview">So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: Strg+V</span></br> |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : η+K</br> <br>So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: forecast+V</br> | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : Strg+K</br> <br>So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: Strg+V</br> |
    | Aufzählung | ![mceclip6.png](assets/mceclip6.png) | η+Shift+8 | Strg+Umschalt+8 |
    | Nummerierte Liste | ![mceclip5.png](assets/mceclip5.png) | η+Shift+7 | Strg+Umschalt+7 |
    | Blockzitat | ![](assets/block-quote-icon-large.png) | η+Shift+9 | Strg+Umschalt+9 |

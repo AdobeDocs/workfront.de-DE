@@ -6,7 +6,7 @@ description: Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der V
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ So verknüpfen Sie Ressourcenpools stapelweise mit mehreren Projekten:
    >
    >* Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcen-Pools angezeigt, die für alle ausgewählten Vorlagen gelten. Wenn die ausgewählten Vorlagen keine gemeinsamen Ressourcen-Pools aufweisen, ist dieses Feld leer. Die Ressourcen-Pools, die Sie hier angeben, überschreiben die einzelnen Ressourcen-Pools der Projekte oder Vorlagen.
    >
-   >* Wenn Sie Projekte stapelweise bearbeiten, gibt es einen Indikator &quot;Mehrere Werte&quot;, wenn die ausgewählten Projekte unterschiedliche Ressourcen-Pools aufweisen. Wenn Sie Ressourcenpools stapelweise für Projekte hinzufügen, werden alle Pools zum ausgewählten Projekt hinzugefügt, wodurch die ursprünglichen Ressourcenpools überschrieben werden.</span>
+   >* Wenn Sie Projekte stapelweise bearbeiten, gibt es einen Indikator &quot;Mehrere Werte&quot;, wenn die ausgewählten Projekte unterschiedliche Ressourcen-Pools aufweisen. Wenn Sie Ressourcenpools stapelweise für Projekte hinzufügen, werden alle Pools zum ausgewählten Projekt hinzugefügt, wodurch die ursprünglichen Ressourcenpools überschrieben werden.
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Klicken **Änderungen speichern**.\
    Wenn Ihre Ressourcen-Pools mit Ihren Projekten oder Vorlagen verknüpft sind, können Sie im Ressourcenplaner Benutzerzuweisungen für Ihre Projekte einplanen.\
