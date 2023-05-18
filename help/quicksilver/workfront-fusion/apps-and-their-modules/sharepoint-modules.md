@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 * [Datei abrufen](#get-a-file)
 * [Ordnerelemente überwachen](#watch-folder-items)
 
-#### Datei erstellen
+#### Abrufen von Änderungen
 
-Dieses Aktionsmodul erstellt eine neue Datei in SharePoint.
+Dieses Modul gibt Änderungen zurück, die in SharePoint vorgenommen wurden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ Dieses Aktionsmodul erstellt eine neue Datei in SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
-   <td> <p>Wählen Sie aus, wie Sie den Speicherort der Datei identifizieren möchten, die Sie erstellen möchten.</p> 
+   <td> <p>Wählen Sie aus, wie Sie den Speicherort des Ordners identifizieren möchten, in dem Sie Änderungen abrufen möchten.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Ordner-ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort aus, an dem Sie die Datei erstellen möchten. </p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie den Speicherort aus, an dem Sie Änderungen abrufen möchten. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
-   <td>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Element in einem von Ihnen a
 
 ### Element
 
-* [[!UICONTROL Überwachungselemente]](#watch-items)
-* [[!UICONTROL Listenelemente]](#list-items)
-* [[!UICONTROL Abrufen eines Elements]](#get-an-item)
+* [[!UICONTROL Element kopieren]](#copy-an-item)
 * [[!UICONTROL Element erstellen]](#create-an-item)
-* [[!UICONTROL Element aktualisieren]](#update-an-item)
 * [[!UICONTROL Löschen eines Elements]](#delete-an-item)
+* [[!UICONTROL Abrufen eines Elements]](#get-an-item)
+* [[!UICONTROL Listenelemente]](#list-items)
+* [[!UICONTROL Element verschieben]](#move-an-item)
+* [[!UICONTROL Element aktualisieren]](#update-an-item)
+* [[!UICONTROL Überwachungselemente] (Geplant)](#watch-items-scheduled)
 
-#### [!UICONTROL Überwachungselemente]
 
-Dieses Trigger-Modul startet ein Szenario, wenn ein Element erstellt oder geändert wird.
+#### [!UICONTROL Element kopieren]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Überwachungslisten]</td> 
-   <td>Wählen Sie aus, ob Sie Listen nach Erstellungszeit (neue Elemente) oder Änderungszeitpunkt (aktualisierte Elemente) überwachen möchten.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Site- und Listen-ID eingeben]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die Sie sehen möchten.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>[!UICONTROL Listen-ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie die Website aus, die Sie ansehen möchten, und wählen Sie dann die Liste aus. Diese Dropdown-Listen rufen nur die folgenden Sites ab.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Elementen ein oder ordnen Sie sie zu, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Listenelemente]
-
-Dieses Aktionsmodul ruft eine Liste aller Elemente in einer angegebenen Liste ab.
+Dieses Aktionsmodul kopiert ein vorhandenes Element in einer SharePoint-Liste.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ Dieses Aktionsmodul ruft eine Liste aller Elemente in einer angegebenen Liste ab
    <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Listenelemente]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Liste identifizieren möchten, aus der Sie Elemente abrufen möchten.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>[!UICONTROL Listen-ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, aus der Sie Elemente abrufen möchten, und wählen Sie dann die Liste aus. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Elementen ein oder ordnen Sie sie zu, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Abrufen eines Elements]
-
-Dieses Aktionsmodul gibt die Daten eines angegebenen Elements zurück.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Element abrufen]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das gewünschte Element enthalten.</p> 
+   <td role="rowheader">Eingabe von Site-, Laufwerk- und Ordner-IDs</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu kopierende Element enthalten.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, aus der Sie ein Element abrufen möchten, wählen Sie die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp kopieren aus, ob Sie ein Feld oder einen Ordner verschieben möchten.  Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Ziel-ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Neuer Name]</td> 
+   <td>Geben Sie einen Namen für die neue Kopie des Elements ein oder ordnen Sie ihn zu. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ Dieses Aktionsmodul erstellt ein neues Element in einer SharePoint-Liste.
  </tbody> 
 </table>
 
+#### [!UICONTROL Löschen eines Elements]
+
+Dieses Aktionsmodul löscht ein vorhandenes Element in einer SharePoint-Liste.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Element aktualisieren]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu löschende Element enthalten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die das Element enthält, das Sie löschen möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Abrufen eines Elements]
+
+Dieses Aktionsmodul gibt die Daten eines angegebenen Elements zurück.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Element abrufen]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das gewünschte Element enthalten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, aus der Sie ein Element abrufen möchten, wählen Sie die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Listenelemente]
+
+Dieses Aktionsmodul ruft eine Liste aller Elemente in einer angegebenen Liste ab.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Listenelemente]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Liste identifizieren möchten, aus der Sie Elemente abrufen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>[!UICONTROL Listen-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, aus der Sie Elemente abrufen möchten, und wählen Sie dann die Liste aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Elementen ein oder ordnen Sie sie zu, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Verschieben eines Elements]
+
+Dieses Aktionsmodul kopiert ein vorhandenes Element in einer SharePoint-Liste.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Eingabe von Site-, Laufwerk- und Ordner-IDs</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu verschiebende Element enthalten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp kopieren aus, ob Sie ein Feld oder einen Ordner verschieben möchten. Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Ziel-ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Neuer Name]</td> 
+   <td>Geben Sie einen Namen für das verschobene Element ein oder ordnen Sie ihn zu. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Element aktualisieren]
 
 Dieses Aktionsmodul aktualisiert ein vorhandenes Element in einer SharePoint-Liste.
@@ -351,39 +408,9 @@ Dieses Aktionsmodul aktualisiert ein vorhandenes Element in einer SharePoint-Lis
  </tbody> 
 </table>
 
-#### [!UICONTROL Löschen eines Elements]
+#### [!UICONTROL Überwachungselemente] (Geplant)
 
-Dieses Aktionsmodul löscht ein vorhandenes Element in einer SharePoint-Liste.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Element aktualisieren]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu löschende Element enthalten.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die das Element enthält, das Sie löschen möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Liste
-
-* [[!UICONTROL Listen überwachen]](#watch-lists)
-* [[!UICONTROL Listen]](#list-lists)
-* [[!UICONTROL Liste abrufen]](#get-a-list)
-* [[!UICONTROL Liste erstellen]](#create-a-list)
-
-#### [!UICONTROL Listen überwachen]
-
-Dieses Trigger-Modul startet ein Szenario, wenn eine Liste erstellt oder geändert wird.
+Dieses Trigger-Modul startet ein Szenario, wenn ein Element erstellt oder geändert wird.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ Dieses Trigger-Modul startet ein Szenario, wenn eine Liste erstellt oder geände
    <td role="rowheader">[!UICONTROL Site- und Listen-ID eingeben]</td> 
    <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die Sie sehen möchten.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> wo sich die Liste befindet, die Sie sehen möchten.</p> </li> 
-     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie die Website aus, die Sie ansehen möchten. Über die Dropdown-Liste werden nur die von Ihnen verfolgte Site abgerufen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>[!UICONTROL Listen-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie die Website aus, die Sie ansehen möchten, und wählen Sie dann die Liste aus. Diese Dropdown-Listen rufen nur die folgenden Sites ab.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Listen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungsperioden zurückgeben soll.</p> </td> 
+   <td> <p>Geben Sie die maximale Anzahl von Elementen ein oder ordnen Sie sie zu, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Listen]
+### Liste
 
-Dieses Aktionsmodul ruft eine Liste aller Elemente in einer angegebenen Liste ab.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Listen]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Site identifizieren möchten, von der Sie Listen abrufen möchten.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Listen enthält, die Sie abrufen möchten. Über das Dropdown-Menü werden nur die folgenden Sites abgerufen.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Listen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungsperioden zurückgeben soll.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Liste abrufen]
-
-Dieses Aktionsmodul gibt die Daten einer angegebenen Liste zurück.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Liste abrufen]</td> 
-   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das gewünschte Element enthalten.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>Listen-ID</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, die Sie abrufen möchten, und wählen Sie dann die Liste aus. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Liste erstellen]](#create-a-list)
+* [[!UICONTROL Liste abrufen]](#get-a-list)
+* [[!UICONTROL Listen]](#list-lists)
+* [[!UICONTROL Listen überwachen]](#watch-lists)
 
 #### [!UICONTROL Liste erstellen]
 
@@ -497,6 +481,87 @@ Dieses Aktionsmodul erstellt eine neue Liste in SharePoint.
  </tbody> 
 </table>
 
+#### [!UICONTROL Liste abrufen]
+
+Dieses Aktionsmodul gibt die Daten einer angegebenen Liste zurück.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Liste abrufen]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das gewünschte Element enthalten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> und <strong>Listen-ID</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Liste enthält, die Sie abrufen möchten, und wählen Sie dann die Liste aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Listen]
+
+Dieses Aktionsmodul ruft eine Liste aller Elemente in einer angegebenen Liste ab.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Listen]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site identifizieren möchten, von der Sie Listen abrufen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die die Listen enthält, die Sie abrufen möchten. Über das Dropdown-Menü werden nur die folgenden Sites abgerufen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Listen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungsperioden zurückgeben soll.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Listen überwachen]
+
+Dieses Trigger-Modul startet ein Szenario, wenn eine Liste erstellt oder geändert wird.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Überwachungslisten]</td> 
+   <td>Wählen Sie aus, ob Sie Listen nach Erstellungszeit (neue Elemente) oder Änderungszeitpunkt (aktualisierte Elemente) überwachen möchten.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Site- und Listen-ID eingeben]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die Sie sehen möchten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong> wo sich die Liste befindet, die Sie sehen möchten.</p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie die Website aus, die Sie ansehen möchten. Über die Dropdown-Liste werden nur die von Ihnen verfolgte Site abgerufen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Listen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungsperioden zurückgeben soll.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Seite (Beta)
 
 >[!NOTE]
@@ -528,31 +593,8 @@ Dieses Aktionsmodul gibt die Daten einer angegebenen Seite zurück.
 
 ### Site
 
-* [[!UICONTROL Sites durchsuchen]](#search-sites)
 * [[!UICONTROL Website abrufen]](#get-a-site)
-
-#### [!UICONTROL Sites durchsuchen]
-
-Dieses Aktionsmodul sucht nach Sites anhand eines von Ihnen angegebenen Parameters.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Schlüsselwort des Anzeigenamens]</td> 
-   <td> <p>Geben Sie den Suchbegriff ein oder ordnen Sie ihn zu, nach dem Sie die Sites suchen möchten.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Sites ein oder ordnen Sie sie zu, die das Modul während der einzelnen Szenario-Ausführungszyklen zurückgeben soll.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Sites durchsuchen]](#search-sites)
 
 #### [!UICONTROL Website abrufen]
 
@@ -577,6 +619,29 @@ Dieses Aktionsmodul gibt die Daten einer angegebenen Site zurück.
  </tbody> 
 </table>
 
+#### [!UICONTROL Sites durchsuchen]
+
+Dieses Aktionsmodul sucht nach Sites anhand eines von Ihnen angegebenen Parameters.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Schlüsselwort des Anzeigenamens]</td> 
+   <td> <p>Geben Sie den Suchbegriff ein oder ordnen Sie ihn zu, nach dem Sie die Sites suchen möchten.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Sites ein oder ordnen Sie sie zu, die das Modul während der einzelnen Szenario-Ausführungszyklen zurückgeben soll.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Sonstige
 
 #### [!UICONTROL API-Aufruf durchführen]
@@ -597,7 +662,7 @@ Mit diesem Modul können Sie einen benutzerdefinierten API-Aufruf ausführen.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Methode]</p> </td> 
-   td&gt; <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Header]</td> 
@@ -617,6 +682,28 @@ Mit diesem Modul können Sie einen benutzerdefinierten API-Aufruf ausführen.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Ereignisse beobachten
+
+Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Element in SharePoint hinzugefügt, aktualisiert oder gelöscht wird.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Wählen Sie einen vorhandenen Webhook aus oder klicken Sie auf Hinzufügen , um einen neuen Webhook zu erstellen.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

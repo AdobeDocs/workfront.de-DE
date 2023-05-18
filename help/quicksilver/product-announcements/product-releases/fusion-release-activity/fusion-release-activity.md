@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos m
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos miteinander, s
 
 Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Letzte Versionen
+## Fusionsfreigaben 2023
 
 ### Mai 2023
 
+* [Workfront Fusion-Release-Aktivität: Woche vom 15. Mai 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 1. Mai 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### April 2023
@@ -35,6 +36,10 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 20. März 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 6. März 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## Fusionsfreigaben 2022
+
++++**Zum Öffnen klicken**
 
 ### Dezember 2022
 
@@ -91,6 +96,8 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 ### Januar 2022
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 3. Januar 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## Fusionsfreigaben 2021
 
