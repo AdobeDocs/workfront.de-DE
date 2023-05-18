@@ -5,14 +5,16 @@ title: Adobe Experience Manager Assets-Integrationen
 description: Sie können Ihre Arbeit mit den folgenden Adobe Experience Manager Assets-Integrationen verbinden.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Service] Integration
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ Ein [!DNL Experience Manager] Felder, die [!DNL Workfront] Die Felder &quot;Port
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## Einrichten von Workflows (optional)
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Als Workfront-Administrator können Sie Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
@@ -237,6 +241,8 @@ Die standardmäßigen Workflow-Werte, die Sie in der Integration festlegen, kön
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Aktivieren Sie die **Portfolio- und Programmnamen anhängen** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
 1. Klicken **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
+
+</div>
 
 <!--Courtney end here-->
 
