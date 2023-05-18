@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 5%
@@ -18,12 +18,10 @@ ht-degree: 5%
 
 # Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe
 
-{{highlighted-preview}}
-
 Ein Adobe Workfront-Administrator kann die folgenden Abschnitte der Voreinstellungen für Zeitpläne und Stunden auf Systemebene entsperren, sodass Gruppenadministratoren sie unabhängig für ihre eigenen Gruppen konfigurieren können:
 
 * Allgemeine Einstellungen
-* <span class="preview">Wo Benutzende die Zeit protokollieren können</span>
+* Wo Benutzende die Zeit protokollieren können
 * Vorausfüllen von Zeitesheets
 
 Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
@@ -136,23 +134,23 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
     </tbody> 
    </table>
 
-1. <span class="preview">Im **Wo Benutzer die Zeit protokollieren können** konfigurieren Sie eine der folgenden Optionen:</span>
+1. Im **Wo Benutzer die Zeit protokollieren können** konfigurieren Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Zeit direkt in Projekten protokollieren</span></td> 
-      <td><span class="preview">Ermöglicht Benutzern die Protokollzeit für das Projekt (sowohl auf der Registerkarte Updates als auch im Timesheet). Wenn Sie die Aufnahmezeit Ihrer Benutzer auf Projektebene beschränken möchten, lassen Sie diese Option deaktiviert.</span></td>
+      <td role="rowheader">Zeit direkt in Projekten protokollieren</td> 
+      <td>Ermöglicht Benutzern die Protokollzeit für das Projekt (sowohl auf der Registerkarte Updates als auch im Timesheet). Wenn Sie die Aufnahmezeit Ihrer Benutzer auf Projektebene beschränken möchten, lassen Sie diese Option deaktiviert.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Zeit für abgeschlossene Projekte protokollieren</span></td>
-      <td><span class="preview">Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status Fertig stellen aufzeichnen.</span></td>
+      <td role="rowheader">Zeit für abgeschlossene Projekte protokollieren</td>
+      <td>Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status Fertig stellen aufzeichnen.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Zeit für eingestellte Projekte protokollieren</span></td> 
-      <td><span class="preview">Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status "Dead"protokollieren.</span></td>
+      <td role="rowheader">Zeit für eingestellte Projekte protokollieren</td> 
+      <td>Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status "Dead"protokollieren.</td>
      </tr>
     </tbody>
    </table>
