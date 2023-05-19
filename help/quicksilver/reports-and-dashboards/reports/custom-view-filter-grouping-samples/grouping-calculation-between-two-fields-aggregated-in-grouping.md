@@ -8,7 +8,7 @@ description: Sie können den Textmodus in einer Spalte verwenden, um eine Berech
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -79,7 +79,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    textmode=true
    valuefield=workRequired
    namekey=workrequired
-   valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours") viewalias=workrequired displayname=Work Balance
+   valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours") 
+   viewalias=workrequired 
+   displayname=Work Balance
    ```
 
    >[!TIP]

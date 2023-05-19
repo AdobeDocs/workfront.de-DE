@@ -7,9 +7,9 @@ description: 'Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche des Standardmodus enthalten sind. Dies ist nur möglich, wenn Sie sie über den Textmodus referenzieren.\
 Sie können auf eine der folgenden Arten bestimmen, welche Felder in eine Ansicht aufgenommen werden können:
 
-* Verwenden Sie die [API-Explorer](https://one.workfront.com/s/api-explorer) , um andere Objekte zu finden, auf die über den Textmodus verwiesen werden kann.\
+* Verwenden Sie die [API-Explorer](../../../wf-api/general/api-explorer.md) , um andere Objekte zu finden, auf die über den Textmodus verwiesen werden kann.\
    Nicht alle im API Explorer dokumentierten Felder sind gültige Felder für den Textmodus. Einige Felder sind nur über die API meldebar.
 
 * Suchen Sie das ID-Feld des Objekts in einer Spalte. Die meisten Objekte mit einer Feld-ID haben auch einen entsprechenden Spalten- oder Feldnamen, auf den über die Benutzeroberfläche des Standardmodus möglicherweise nicht zugegriffen werden kann.

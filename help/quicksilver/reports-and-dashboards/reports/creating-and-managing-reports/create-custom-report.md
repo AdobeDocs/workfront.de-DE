@@ -6,9 +6,9 @@ description: Die Erstellung von Berichten hilft Ihnen dabei, auf die Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1786'
 ht-degree: 1%
 
 ---
@@ -129,8 +129,9 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >[!NOTE]
    >
    >Wenn Sie ein Feld hinzufügen, das auf ein Objekt verweist, das zu weit von dem Objekt entfernt ist, über das Sie Berichte erstellen, können Sie möglicherweise nicht nach diesem Feld sortieren.\
-   >Beispielsweise kann ein Problembericht nicht nach dem Feld Projekteigentümer sortiert werden, da er auf 3 zusätzliche Objekte verweist: Projekt, Eigentümer und Name. Sie können dieses Feld jedoch dennoch zu einem Problembericht hinzufügen und die Informationen dafür anzeigen.\
-   >Weitere Informationen zu objektübergreifenden Verweisen in Berichten finden Sie im Abschnitt &quot;Fortschrittliche Berichterstellung Teil 1 von 3&quot;in der [Lernpfad für Berichte und Dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   >Beispielsweise kann ein Problembericht nicht nach dem Feld Projekteigentümer sortiert werden, da er auf 3 zusätzliche Objekte verweist: Projekt, Eigentümer und Name. Sie können dieses Feld jedoch dennoch zu einem Problembericht hinzufügen und die Informationen dafür anzeigen.
+
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. (Optional) Wenn Sie Gruppierungen verwenden und die Informationen in einer Spalte zusammenfassen (aggregieren) möchten, klicken Sie auf die Schaltfläche **Zusammenfassen dieser Spalte nach** Dropdown-Liste im **Spalteneinstellungen** und wählen Sie dann die Option aus, mit der Sie die Informationen in der Spalte aggregieren möchten.
 

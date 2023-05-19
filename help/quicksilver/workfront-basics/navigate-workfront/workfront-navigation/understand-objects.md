@@ -5,9 +5,9 @@ title: Objekte in [!DNL Adobe Workfront]
 description: Objekte in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2263'
 ht-degree: 6%
 
 ---
@@ -43,10 +43,10 @@ Im Folgenden finden Sie einige der am häufigsten verwendeten Objekte in [!DNL W
 | [!UICONTROL Probleme] | [!UICONTROL Aufgaben], [!UICONTROL Projekte] | [!UICONTROL Dokumente], [!UICONTROL Hinweise], [!UICONTROL Stunden], [!UICONTROL Benutzer] |
 | [!UICONTROL Dashboards] |  | [!UICONTROL Berichte], externe Seiten |
 | [!UICONTROL Berichte] | [!UICONTROL Dashboards] |  |
-| [!UICONTROL Gruppen] |  | [!UICONTROL Benutzer] |
-| [!UICONTROL Teams] |  | [!UICONTROL Benutzer] |
-| [!UICONTROL Benutzer] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen] | [!UICONTROL Aufgabengebiete] |
-| [!UICONTROL Firmen] |  | [!UICONTROL Benutzer] |
+| [!UICONTROL Gruppen] |  | [!UICONTROL Benutzende] |
+| [!UICONTROL Teams] |  | [!UICONTROL Benutzende] |
+| [!UICONTROL Benutzende] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen] | [!UICONTROL Aufgabengebiete] |
+| [!UICONTROL Firmen] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Dokumente] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Projekte], [!UICONTROL Portfolios], [!UICONTROL Programme], [!UICONTROL Benutzer] |  |
 | [!UICONTROL Pläne]* |  | [!UICONTROL Initiativen] |
 | [!DNL Goals]* |  | [!UICONTROL Ergebnisse], [!UICONTROL Tätigkeiten] |
@@ -190,7 +190,7 @@ Es sind nicht alle Objekte durchsuchbar in [!DNL Workfront]. Sie können grundle
 | [!UICONTROL Aufgaben] | ✓ | ✓ |
 | [!UICONTROL Probleme] | ✓ | ✓ |
 | [!UICONTROL Berichte] | ✓ | ✓ |
-| [!UICONTROL Benutzer] | ✓ | ✓ |
+| [!UICONTROL Benutzende] | ✓ | ✓ |
 | [!UICONTROL Vorlagen] | ✓ | ✓ |
 | [!UICONTROL Dokumente] | ✓ | ✓ |
 | [!UICONTROL Portfolios] | ✓ | ✓ |
@@ -227,7 +227,7 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Aufgabe]
 * [!UICONTROL Stunde]
 * [!UICONTROL Probleme]
-* [!UICONTROL Benutzer]
+* [!UICONTROL Benutzerin oder Benutzer]
 * [!UICONTROL Zugriffsebene]
 * [!UICONTROL Genehmigung]
 * [!UICONTROL Genehmigungsprozess]
@@ -260,7 +260,7 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Filter]
 * [!UICONTROL Ziel]
 
-   Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Sie können strategische Ziele erstellen und Projekte nur dann verbinden, wenn Ihr Unternehmen eine [!DNL Workfront Goals] Lizenz. Informationen zu [!DNL Workfront Goals], siehe [[!DNL Workfront Goals] Übersicht](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). Weitere Informationen zur Verbindung von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Sie können strategische Ziele erstellen und Projekte nur dann verbinden, wenn Ihr Unternehmen eine [!DNL Workfront Goals] Lizenz. Informationen zu [!DNL Workfront Goals], siehe [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Weitere Informationen zur Verbindung von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -277,23 +277,13 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Stundentyp]
 * [!UICONTROL Initiative]
 
-   Sie können nur dann einen Bericht für Initiativen erstellen, die die untergeordneten Objekte eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz. Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiativen im [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   Sie können nur dann einen Bericht für Initiativen erstellen, die die untergeordneten Objekte eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz. Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * Aufgabengebiet für Initiative
 
-   Sie können nur dann einen Bericht über die mit den Initiativen in einem Plan verbundenen Arbeitsplatzrollen erstellen, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz. Informationen zum Erstellen von Initiativen und deren Zuordnung zu Berufsrollen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   Sie können nur dann einen Bericht über die mit den Initiativen in einem Plan verbundenen Arbeitsplatzrollen erstellen, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz. Informationen zum Erstellen von Initiativen und deren Zuordnung zu Berufsrollen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Wiederholung]
 * [!UICONTROL Aufgabengebiet]

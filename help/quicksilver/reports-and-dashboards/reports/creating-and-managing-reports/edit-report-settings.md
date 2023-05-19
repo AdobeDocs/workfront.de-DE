@@ -6,9 +6,9 @@ description: Sie können die Einstellungen eines Berichts bearbeiten, um festzul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 9%
 
 ---
@@ -121,7 +121,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Siehe auch:
 
-* [Grundlegendes Berichtserstellungsprogramm für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Erste Schritte mit Berichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

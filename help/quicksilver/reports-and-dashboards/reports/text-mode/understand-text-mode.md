@@ -6,9 +6,9 @@ description: Textmodus - Übersicht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Si
 >
 >Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. Informationen zu Schulungsmaterialien für die Berichterstellung finden Sie unter [Lernpfade für Workfront-Berichte und Dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Es wird empfohlen, den Standardmodus zu verwenden, um sicherzustellen, dass die erstellten Berichte bei der Aktualisierung der Workfront-Software intakt bleiben. Während der Textmodus es Ihnen ermöglicht, komplexere Ansichten, Filter und Gruppierungen zu erstellen, ist die Wartung ebenfalls komplizierter und wird bei der Aktualisierung der Workfront-Software nicht garantiert.
 * Es wird empfohlen, immer zu versuchen, alle Berichterstellungselemente in der Standardschnittstelle zu erstellen und nur für wenige Anpassungen zum Textmodus-Builder zu wechseln.
 

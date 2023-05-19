@@ -6,9 +6,9 @@ description: Sie können die Textmodus-Oberfläche verwenden, um komplexere Ansi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Eine vollständige Liste aller unserer berichtspflichtigen Felder und ihrer Attr
 ## Überlegungen zur Syntax des Textmodus
 
 * Sie müssen die Adobe Workfront-Syntax verstehen, bevor Sie mit der Erstellung von Berichterstellungselementen im Textmodus beginnen können. Die Workfront-Syntax für den Textmodus ist für diese Anwendung eindeutig und weist eindeutige Merkmale auf, mit denen Sie vertraut sein müssen.
-* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. Informationen zu Schulungsmaterialien für die Berichterstellung finden Sie unter [Lernpfade für Workfront-Berichte und Dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Sie können Ansichten, Filter und Gruppierungen mithilfe der Benutzeroberfläche des Standardmodus anpassen. Sie können jedoch nur im Textmodus benutzerdefinierte Eingabeaufforderungen erstellen.
 
 ## Allgemeine Richtlinien zum Erstellen von Berichterstellungselementen im Textmodus

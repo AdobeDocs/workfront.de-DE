@@ -6,9 +6,9 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
 Siehe auch:
 
-* [Grundlegendes Programm zur Berichterstellung](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

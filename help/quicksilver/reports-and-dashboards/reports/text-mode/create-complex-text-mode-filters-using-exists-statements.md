@@ -6,9 +6,9 @@ description: Erstellen komplexer Textmodusfilter mithilfe von EXISTS-Anweisungen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2799'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Beachten Sie bei der Verwendung von EXISTS-Anweisungen in einem Filter die folge
 
 * Sie müssen den Objektcode des Linkobjekts verwenden, um Ihre Anweisungen zu verbinden.\
    Den Objektcode aller Objekte finden Sie im API Explorer.\
-   Weitere Informationen zum API Explorer finden Sie in der [API-Explorer](https://one.workfront.com/s/api-explorer).
+   Weitere Informationen zum API Explorer finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original und die Zielobjekte direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können mehrere Felder (Zielfelder) für dasselbe Objekt (Zielobjekt) referenzieren. In diesem Fall müssen Sie die Zeilen, die auf die Felder verweisen, durch UND verbinden.\

@@ -6,9 +6,9 @@ description: Standardmäßig können Benutzer nur die Objekte in einem Bericht s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 269340bc6a0c237edf44f5aa325d4ff95b647df8
+source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als den selbst für die **Stellen Sie diesen Bericht mit den Zugriffsrechten von bereit:** -Feld.
+   Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als sich für die **Stellen Sie diesen Bericht mit den Zugriffsrechten von bereit:** -Feld.
 
 1. Wählen Sie die **Format** Sie möchten, dass der Bericht in der E-Mail angezeigt wird:
 
@@ -115,3 +115,39 @@ So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
    Oder\
    Klicken **Wiederholen der Bereitstellung** um einen wiederkehrenden Versand für den Bericht zu planen.\
    Weitere Informationen zu Berichtbereitstellungen finden Sie im Artikel [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## Einschränkungen für Berichte mit einer Quellspalte
+
+Die folgenden Berichte zeigen eine Quellspalte an, in der Sie Informationen zum übergeordneten Objekt anzeigen können:
+
+* Problemberichte
+* Stündliche Berichte
+* Dokumentberichte
+
+Wenn Benutzer keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, wird die Spalte Quelle des Berichts leer angezeigt, selbst wenn der Bericht für die Anzeige konfiguriert ist oder mit den Zugriffsrechten eines anderen Benutzers bereitgestellt werden soll.
+
+Um Informationen über das übergeordnete Objekt im Bericht anzuzeigen, wird empfohlen, eine Spalte für das übergeordnete Objekt hinzuzufügen, in der der Name des übergeordneten Objekts angezeigt werden kann.
+
+Sie können beispielsweise Folgendes zu einem Bericht mit einer Quellspalte hinzufügen:
+
+* Die Spalten &quot;Projektname&quot;, &quot;Aufgabenname&quot;oder &quot;Problemname&quot;in einem Dokument- oder Stundenbericht.
+* Die Spalten Projektname oder Aufgabenname für einen Problembericht.
+* Eine Spalte mit Textmodusausdrücken, die auf alle drei Objekte verweisen. Im Folgenden finden Sie ein Beispiel für einen Stundenbericht:
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+
+   `namekey=view.relatedcolumn`
+
+   `namekeyargkey.0=opTask`
+
+   `namekeyargkey.1=name`
+
+   `textmode=true`
+
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+
+   `valueformat=HTML`
+
+   Weitere Informationen zu Textmodusansichten finden Sie unter [Bearbeiten einer Ansicht im Textmodus](../text-mode/edit-text-mode-in-view.md).

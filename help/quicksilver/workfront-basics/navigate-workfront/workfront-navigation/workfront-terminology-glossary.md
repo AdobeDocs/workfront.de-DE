@@ -5,9 +5,9 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '19399'
+source-wordcount: '19551'
 ht-degree: 0%
 
 ---
@@ -1989,7 +1989,20 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Gibt das übergeordnete Objekt eines anderen Objekts an. Beispielsweise hat ein Dokument, das einer Aufgabe angehängt ist, den Namen der Aufgabe im Feld [!UICONTROL Source] eines [!UICONTROL Document] Berichts oder einer Ansicht. Ein im Rahmen eines Projekts protokolliertes Problem hat den Namen des Projekts im Feld [!UICONTROL Quelle] eines Problemberichts oder einer Ansicht. </p> </td> 
+   <td> <p>Gibt das übergeordnete Objekt eines anderen Objekts an. Beispielsweise hat ein Dokument, das einer Aufgabe angehängt ist, den Namen der Aufgabe im Feld [!UICONTROL Source] eines [!UICONTROL Document] Berichts oder einer Ansicht. Ein im Rahmen eines Projekts protokolliertes Problem hat den Namen des Projekts im Feld [!UICONTROL Quelle] eines Problemberichts oder einer Ansicht. </p> 
+   <p>Die folgenden Berichte zeigen eine Quellspalte an, in der Sie Informationen zum übergeordneten Objekt anzeigen können:</p>
+  <ul><li>Problemberichte</li>
+    <li>Stündliche Berichte</li>
+    <li>Dokumentberichte </li>
+    </ul>
+   <p>Wenn Benutzer keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, wird die Spalte Quelle des Berichts leer angezeigt, selbst wenn der Bericht für die Anzeige konfiguriert ist oder mit den Zugriffsrechten eines anderen Benutzers bereitgestellt werden soll. </p>
+   <p> Um Informationen über das übergeordnete Objekt im Bericht anzuzeigen, wird empfohlen, eine Spalte für das übergeordnete Objekt hinzuzufügen, in der der Name des übergeordneten Objekts angezeigt werden kann. </p>
+    <p>Sie können beispielsweise Folgendes zu einem Bericht mit einer Quellspalte hinzufügen: </p>
+    <ul><li>Die Spalten "Projektname", "Aufgabenname"oder "Problemname"in einem Dokument- oder Stundenbericht.</li>
+    <li>Die Spalten Projektname oder Aufgabenname für einen Problembericht. </li> </ul>
+    Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Startdatum]</td> 
