@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ Dieses Aktionsmodul kopiert ein vorhandenes Element in einer SharePoint-Liste.
    <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu kopierende Element enthalten.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp kopieren aus, ob Sie ein Feld oder einen Ordner verschieben möchten.  Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp aus, ob Sie ein Feld oder einen Ordner verschieben möchten.  Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ziel-ID]</td> 
-   <td>  </td> 
+   <td> Geben Sie die Kennung des Ordners ein, in den Sie das Element kopieren möchten, oder ordnen Sie sie zu. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Neuer Name]</td> 
@@ -367,12 +367,12 @@ Dieses Aktionsmodul kopiert ein vorhandenes Element in einer SharePoint-Liste.
    <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu verschiebende Element enthalten.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Listen-ID]</strong>und <strong>[!UICONTROL Item ID]</strong> in den angezeigten Feldern.</p> </li> 
-     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp kopieren aus, ob Sie ein Feld oder einen Ordner verschieben möchten. Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
+     <li> <p><strong>[!UICONTROL Wählen Sie aus der Liste aus, der Sie folgen]</strong> </p> <p>Wählen Sie im Feld Elementtyp aus, ob Sie ein Feld oder einen Ordner verschieben möchten. Wählen Sie die Site aus, die das Element enthält, das Sie kopieren möchten, wählen Sie dann die Liste aus und wählen Sie dann das Element aus. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ziel-ID]</td> 
-   <td>  </td> 
+   <td> Geben Sie die Kennung des Ordners ein, in den Sie das Element verschieben möchten, oder ordnen Sie sie zu. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Neuer Name]</td> 
@@ -643,6 +643,33 @@ Dieses Aktionsmodul sucht nach Sites anhand eines von Ihnen angegebenen Paramete
 </table>
 
 ### Sonstige
+
+#### Abrufen von Änderungen
+
+Dieses Modul ruft Ergänzungen, Aktualisierungen und Löschungen ab, die im Ordner &quot;SharePoint&quot;vorgenommen wurden.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL SharePoint] Konto [!DNL Workfront Fusion], siehe <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Eingabe von Site-, Drive- und Ordner-IDs]</td> 
+   <td> <p>Wählen Sie aus, wie Sie die Site und die Liste identifizieren möchten, die das zu aktualisierende Element enthalten.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Manuell eingeben]</strong> </p> <p>Geben Sie die <strong>[!UICONTROL Site-ID]</strong>, <strong>[!UICONTROL Drive ID]</strong>und <strong>[!UICONTROL Ordner-ID]</strong> in den angezeigten Feldern.</p> </li> 
+     <li> <p><strong>[!UICONTROL Aus Liste auswählen]</strong> </p> <p>Wählen Sie die Site aus, die das zu aktualisierende Element enthält, wählen Sie dann das Laufwerk aus und wählen Sie dann den Ordner aus. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> Das Token gibt an, ab welchem Punkt das Modul mit dem Abrufen von Änderungen beginnen soll.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL API-Aufruf durchführen]
 
