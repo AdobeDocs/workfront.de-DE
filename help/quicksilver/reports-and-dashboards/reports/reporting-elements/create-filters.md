@@ -6,10 +6,10 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 1%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -151,7 +151,7 @@ Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Fol
 
 Sie können Filter auf folgende Weise mithilfe der Standard-Builder-Oberfläche erstellen:
 
-* Von Grund auf
+* Von Grund auf neu
 * Vorhandenen Filter bearbeiten
 * Vorhandenen Filter duplizieren
 * Duplizieren Sie einen vorhandenen Filter, bearbeiten Sie ihn und speichern Sie ihn als neuen Filter.
@@ -175,7 +175,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    </tr>
    <tr>
    <td role="rowheader"><strong>Gespeichert</strong></td>
-   <td>Filter, die Sie selbst erstellt und gespeichert haben.</td>
+   <td>Filter, die Sie selbst erstellt und gespeichert haben. Standardmäßig werden in dieser Liste gespeicherte Filter in der Reihenfolge angezeigt, in der sie zuletzt gespeichert wurden. Die Filternamen können jedoch per Drag-and-Drop manuell neu angeordnet werden.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Standardeinstellungen für das System</strong></td>
@@ -335,7 +335,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
 Sie können veraltete Filter in Listen und Berichten wie folgt erstellen:
 
-* Von Grund auf
+* Von Grund auf neu
 * Vorhandenen Filter bearbeiten und als neuen Filter speichern
 
 Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist das Erstellen eines Filters von Grund auf oder aus einem vorhandenen Filter ähnlich.

@@ -6,9 +6,9 @@ description: Sie können Filter, Ansichten und Gruppierungen, auf die Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
    </tr>
    <tr>
    <td role="rowheader"><strong>Gespeichert</strong></td>
-   <td>Filter, die Sie selbst erstellt und gespeichert haben.</td>
+   <td>Filter, die Sie selbst erstellt und gespeichert haben. Standardmäßig werden in dieser Liste gespeicherte Filter in der Reihenfolge angezeigt, in der sie zuletzt gespeichert wurden. Die Filternamen können jedoch per Drag-and-Drop manuell neu angeordnet werden.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Standardeinstellungen für das System</strong></td>
