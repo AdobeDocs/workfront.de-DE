@@ -6,7 +6,7 @@ description: Der Name eines Problems wird als opTask in der Adobe Workfront-Date
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Der Name eines Problems wird als `opTask` in der Adobe Workfront-Datenbank. Auch wenn es Zeiten gibt, in denen Sie die `issue` Feldname, um auf Probleme zu verweisen, meistens müssen Sie die `opTask` Feldname anstelle von `issue` beim Referenzieren von Problemen.
 
-Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank angezeigt werden, finden Sie im Abschnitt [API-Explorer](https://one.workfront.com/s/api-explorer).
+Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank angezeigt werden, finden Sie im Abschnitt [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 ## `opTask` filename
 
@@ -46,7 +46,7 @@ Informationen zum Reporting zu Sammlungen finden Sie unter [Referenzieren von Sa
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->

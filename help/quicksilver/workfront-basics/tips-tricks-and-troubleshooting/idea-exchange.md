@@ -5,9 +5,9 @@ title: Das Innovationslabor
 description: Die [!UICONTROL Innovationslabor] ermöglicht es authentifizierten Benutzern, Ideen mit anderen Kunden einzureichen, darüber abzustimmen und zu diskutieren.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Als authentifizierter Benutzer haben Sie folgende Möglichkeiten:
 
 Über eine Idee abstimmen:
 
-1. Melden Sie sich bei der [!DNL Adobe Workfront] der Gemeinschaft [!DNL Workfront One] Website unter der folgenden URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. Melden Sie sich bei der [!DNL Adobe Workfront] der Gemeinschaft [!DNL Adobe Experience League] Website unter der folgenden URL:  [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. Klicken Sie auf **[!UICONTROL Zusammenarbeit]** Registerkarte und klicken Sie dann auf **[!UICONTROL Innovationslabor]**.
+1. Klicken Sie auf **[!UICONTROL Ideen]** Registerkarte.
 
 1. Suchen Sie nach der Idee, über die Sie abstimmen möchten.
 1. Klicken Sie auf die Idee.
