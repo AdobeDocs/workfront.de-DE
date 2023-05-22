@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: f299ecfe72a588331bd8b003e9a42d112c374635
+source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
 workflow-type: tm+mt
-source-wordcount: '13005'
+source-wordcount: '13017'
 ht-degree: 1%
 
 ---
@@ -439,6 +439,7 @@ ht-degree: 1%
          * [Übersicht über neue Lizenzen](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
          * [Zugriff auf Objekte und Bereiche durch neue Lizenzen](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Deaktivieren Sie die Option für die automatische Aktualisierung für nicht bezahlte Benutzer im neuen Lizenzplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Funktionsweise von Zugriffsstufen {#legacy-access-levels}
          * [Funktionsweise von Zugriffsstufen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Zugriffsübersicht](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
