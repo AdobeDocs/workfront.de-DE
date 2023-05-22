@@ -7,9 +7,10 @@ description: Sie können ein benutzerdefiniertes Formular entwerfen, das Benutze
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
+source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
@@ -45,8 +46,6 @@ Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 ## Funktion in Kürze verfügbar
 
 Folgendes ist derzeit nicht im Formularentwickler verfügbar, wird aber bald hinzugefügt:
-
-* Größe des beschreibenden Texts anpassen
 
 * Logik anzeigen/überspringen
 
