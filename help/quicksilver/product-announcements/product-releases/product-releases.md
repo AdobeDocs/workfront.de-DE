@@ -6,10 +6,10 @@ description: Im Folgenden finden Sie Links zu den Versionshinweisen für aktuell
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 14%
+source-wordcount: '160'
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ Informationen dazu, wie Sie Ihre Organisation bei der reibungslosen Anpassung an
   <tr> 
    <td> <p>Versionen 2020</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 20.4</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 20.3</a> </li> <li><a href="https://one.workfront.com/s/article/2020-2-release-overview-439776658?language=en_US">Versionsübersicht 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">Versionsübersicht 2020.1</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 20.4</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 20.3</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">Versionsübersicht 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">Versionsübersicht 2020.1</a> </li> </li> 
     </ul> <p>Versionen 2019</p> 
     <ul> 
      <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Versionsaktivität 2019.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Versionsaktivität 2019.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">Aktivität "Version 2019.1"</a> </li> </li> 

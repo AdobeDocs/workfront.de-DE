@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
+source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2732'
 ht-degree: 0%
 
 ---
@@ -655,7 +655,7 @@ Informationen zu den Wartungsupdates, die während der Version 23.2 vorgenommen 
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie unter [Seite mit Aktualisierungen zu Schulungsversionen](https://one.workfront.com/s/training-release-updates).
+Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie unter [Seite mit Aktualisierungen zu Schulungsversionen](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktion wird bald aus Workfront entfernt
 
