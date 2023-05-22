@@ -6,9 +6,10 @@ title: Workflows verwalten
 description: Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten für die Zusammenarbeit an der Arbeit.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -100,6 +101,7 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 1. Klicken Sie im Dashboard auf [!UICONTROL **Workflow anzeigen**] , um einen Workflow zu öffnen.
 1. Klicken [!UICONTROL **Konfigurieren**] , um [!UICONTROL Workstream konfigurieren] Bereich.
 1. (Optional) Geben Sie eine Beschreibung des Workflows ein. Diese Beschreibung wird im Dashboard angezeigt.
+1. (Optional) Fügen Sie Tags zum Workstream hinzu. Weitere Informationen finden Sie unter [Tags hinzufügen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    Die Gesamtanzahl der Karten, die Anzahl der spitze Karten und die Anzahl der Iterationen werden im Bereich Kartenliste angezeigt. Klicken [!UICONTROL **Liste anzeigen**] , um die Liste zu öffnen und Karten hinzuzufügen. Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -109,4 +111,3 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 1. Fügen Sie Filter hinzu, um Aufgaben und Probleme aus Workfront als Karten zu importieren.
 
    Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen von Filtern für eine Ansaugspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-
