@@ -6,9 +6,9 @@ description: Sie können Ihre Berichte durch Hinzufügen eines Diagramms erweite
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ So fügen Sie eine **Balken** Diagramm zu Ihrem Bericht hinzufügen:
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Grafikfarben anpassen](#customize-chart-colors).
 
 1. (Optional) Wählen Sie **In 3D anzeigen** um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
-1. (Optional)**Gruppenbalken**: Wählen Sie diese Option aus, um festzulegen, wie die Balken gruppiert werden sollen.\
+1. (Optional) Gruppenbalken**: Wählen Sie diese Option aus, um festzulegen, wie die Balken gruppiert werden sollen.\
    Wählen Sie aus den folgenden Optionen aus:
 
    * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Balken angezeigt werden sollen:\
@@ -185,7 +185,7 @@ So fügen Sie eine **Linie** Diagramm zu Ihrem Bericht hinzufügen:
    Beachten Sie die folgenden Optionen:
 
    * Wählen Sie den Wert aus, den Sie in die Grafik aufnehmen möchten, sowie die Art und Weise, wie die Informationen zusammengefasst werden sollen.
-   * Wählen Sie die **Diagramm für eine Sekundäre Achse**-Feld, um die Daten auf der rechten Seite des Diagramms darzustellen.\
+   * Wählen Sie die **Diagramm für eine Sekundäre Achse** -Feld, um die Daten auf der rechten Seite des Diagramms darzustellen.\
       ![](assets/qs-line-chart-350x172.png)
 
 1. Klicken **Speichern und schließen** um die Grafik und den Bericht zu speichern.
@@ -233,8 +233,21 @@ So fügen Sie eine **Blase** Diagramm zu Ihrem Bericht hinzufügen:
    >Weitere Informationen zur Zusammenfassung der Informationen in einer Berichtsspalte finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Im **Blasen** Wählen Sie die Gruppierung aus, die Sie in die Grafik aufnehmen möchten. Die Gruppierung wird durch die Platzierung der Punkte im Diagramm dargestellt.
-1. Im **Blasenfarbe** auswählen, wählen Sie das Feld aus, das durch die Farben der Blasen dargestellt werden soll. Die **Blasenfarbe** kann eine Gruppierung sein, die Sie im Bericht definieren, aber es kann sich nur um Felder aus dem Objekt handeln, das Sie als **Blasen**. Wenn Sie beispielsweise &quot;Task Name&quot;ausgewählt haben, können Sie den Aufgabenstatus, jedoch nicht den Projektstatus als **Blasenfarbe**.\
+1. Im **Blasenfarbe** auswählen, wählen Sie das Feld aus, das durch die Farben der Blasen dargestellt werden soll.
+
    ![](assets/qs-bubble-chart-350x103.png)
+
+
+   Die **Blasenfarbe** kann sich um eine Gruppierung handeln, die Sie im Bericht definieren, ist jedoch nur verfügbar, wenn Sie die **Name** -Spalte für das Objekt des Berichts im **Blasen** -Feld.
+
+   Wenn Sie beispielsweise **Aufgabenname** in einem Aufgabenbericht können Sie **Aufgabenstatus** als **Blasenfarbe** -Feld.
+
+   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+
+   Wenn Sie jedoch **Aufgabenstatus** für **Blasen** -Feld können Sie keine **Blasenfarbe** -Feld. Außerdem können Sie **Projektname** für **Blasenfarbe** -Feld, auch wenn Sie **Aufgabenname** für **Blase** -Feld.
+
+   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+
 
 1. Klicken **Speichern und schließen** , um die Änderungen am Interface Builder zu speichern.
 
@@ -324,4 +337,4 @@ Beachten Sie beim Arbeiten mit Diagrammen die folgenden Einschränkungen:
 
 * Die Legende des Diagramms kann nicht bearbeitet werden.
 * Bei der Verwendung berechneter Felder für Gruppierungen ist ein Klick auf die Diagrammelemente nicht möglich.
-* Die meisten Datenpunkte, die Sie in einem Diagramm anzeigen können, sind vier in einem Punktdiagramm. Alle anderen Diagrammtypen zeigen zwei oder maximal drei Datenpunkte an.
+* Die größte Anzahl von Datenpunkten, die Sie in einem Diagramm anzeigen können, beträgt vier in einem Punktdiagramm. Alle anderen Diagrammtypen zeigen zwei oder maximal drei Datenpunkte an.
