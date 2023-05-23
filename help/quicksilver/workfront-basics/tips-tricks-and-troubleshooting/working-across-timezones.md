@@ -2,10 +2,10 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Arbeiten über Zeitzonen hinweg
-description: Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Folgendes zu berechnen - BEARBEITEN SIE ME.
+description: Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -25,10 +25,7 @@ Die Zeiten, in denen [!DNL Workfront] basieren auf Zeitzonenkonfigurationen für
 
 >[!NOTE]
 >
-><div class="preview">In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Uhrzeitanweisungen in berechneten benutzerdefinierten Feldern von der koordinierten UTC (Universal Time) berechnet und gespeichert, nicht von den Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular werden basierend auf den individuellen Zeitzonen der einzelnen Benutzer generiert und angezeigt.</div>
-
-
-
+>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Uhrzeitanweisungen in berechneten benutzerdefinierten Feldern von der koordinierten UTC (Universal Time) berechnet und gespeichert, nicht von den Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular werden basierend auf den individuellen Zeitzonen der einzelnen Benutzer generiert und angezeigt.
 
 * [Die [!DNL Workfront] instance](#your-organization-s-workfront-instance)
 * [Ihr Benutzerprofil](#your-user-profile)
@@ -48,7 +45,10 @@ Die Zeitzone für die [!DNL Workfront] -Instanz wird normalerweise für den Spei
 
 Die Zeitzone in Ihrem Benutzerprofil sollte für den Ort konfiguriert werden, an dem Sie arbeiten. Dies bestimmt Folgendes:
 
-* Die in Ihrem Ausgang angezeigte Zeit [!DNL Workfront] E-Mail-Nachrichten
+<!--
+* The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * Zeiten für ein Objekt, an dem Sie arbeiten, z. B. Start- und Endzeiten
 
    Wenn Benutzer in mehreren Zeitzonen einem Objekt zugewiesen sind, [!DNL Workfront] konvertiert die Objektzeiten für alle involvierten Benutzer mithilfe der in den einzelnen Benutzerprofilen konfigurierten Zeitzone.
