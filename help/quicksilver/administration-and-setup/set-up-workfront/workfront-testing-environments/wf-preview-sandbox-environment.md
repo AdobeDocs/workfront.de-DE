@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Die Vorschau-Sandbox dient als Umgebung, in der Benutzer in Ihrer Organisation D
 
 Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Er wird jedoch jedes Wochenende aktualisiert, sodass die Daten bis zu einer Woche hinter der Produktionsumgebung liegen können. Elemente, die seit der letzten Aktualisierungszeit erstellt wurden, befinden sich bis zur folgenden Aktualisierung in der Umgebung &quot;Sandbox-Vorschau&quot;.
 
-Daten fließen unidirektional, von der Produktion zur Vorschau und nicht umgekehrt. Eine Aktualisierung der Vorschauumgebung wird immer von [!DNL Workfront] jedes Wochenende. Weitere Informationen zum jeweiligen Tag und zur Uhrzeit der Aktualisierung finden Sie unter [status.adobe.com](https://status.adobe.com/de/).
+Daten fließen unidirektional, von der Produktion zur Vorschau und nicht umgekehrt. Eine Aktualisierung der Vorschauumgebung wird immer von [!DNL Workfront] jedes Wochenende.
 
 Vorschau-Sandbox ermöglicht auch [!DNL Workfront] , um neue Funktionen in einer sicheren Umgebung bereitzustellen, bevor sie für die Bereitstellung in der Produktion bereit sind. Sie können die neuen Funktionen testen und [!DNL Workfront] Feedback zu ihrer Funktionalität durch Zugriff auf die Vorschau-Sandbox. Aus diesem Grund liegt der Code der Vorschau-Sandbox immer vor dem Produktions-Code, obwohl Ihre Daten wöchentlich aktualisiert werden.
 
