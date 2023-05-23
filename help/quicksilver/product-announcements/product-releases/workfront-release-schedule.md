@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Wenn Funktionen aus der vierteljährlichen Version entfernt werden, nachdem alle
 Manchmal veröffentlicht Workfront neue Funktionen als Teil eines Betaprogramms.
 Die spezifischen Informationen zu den einzelnen Beta-Versionen, einschließlich der Teilnahme, werden bei jedem Start eines Betaprogramms und aller Betaprogramme unterschiedlich veröffentlicht.
 
-Es gibt folgende Arten von Betaprogrammen, die in Workfront verfügbar sind:
+Die folgenden Betaprogramme sind in Workfront verfügbar:
 
 * **Geschlossene oder private Beta-Version**: Die folgenden Merkmale sind bei einer geschlossenen oder privaten Beta-Version zu beachten:
 
@@ -59,7 +59,7 @@ Es gibt folgende Arten von Betaprogrammen, die in Workfront verfügbar sind:
 * **Offene oder öffentliche Beta-Version**: Die folgenden Merkmale sind bei einer öffentlichen Beta-Version verfügbar:
 
    * Die Funktionen sind für alle Workfront-Kunden verfügbar, befinden sich jedoch in der Beta-Phase. Sie sind möglicherweise nicht immer vollständig funktionsfähig und Feedback ist immer willkommen.
-   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und Kunden können entscheiden, ob sie die Beta-Funktionen selbst aktivieren möchten.
+   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und die Kunden können entscheiden, ob sie die Beta-Funktionen selbst aktivieren.
    * Neue Funktionen, die Teil der Beta-Version sind, können entweder in der Vorschau oder in der Produktion veröffentlicht werden.
    * Funktionen werden möglicherweise häufiger veröffentlicht als die üblichen Veröffentlichungsmuster für Workfront.
    * Informationen darüber, wann Funktionen für eine öffentliche Beta-Version veröffentlicht werden, finden Sie auf den Seiten zur Produktversion.
@@ -82,7 +82,6 @@ Die Versionshinweise enthalten eine Tabelle mit einer Liste der Funktionen in de
 
 * Versionsdatum der Vorschau
 * Produktionsveröffentlichungsdatum
-* Verfügbarkeit im neuen Adobe Workfront-Erlebnis und/oder Adobe Workfront Classic
 
 Beispiel:
 
