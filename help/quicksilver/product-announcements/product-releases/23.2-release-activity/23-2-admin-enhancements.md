@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud
 Weitere Informationen zu dieser Funktion finden Sie in Experience Manager Assets Essentials . [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit der Beta-Version des neuen Formulardesigners
+
+>[!IMPORTANT]
+>
+>Die Beta-Version des Formulardesigners wurde am 24. Mai 2023 vorübergehend deaktiviert. Sie können den alten Formular-Builder verwenden, um Ihre benutzerdefinierten Formulare zu erstellen und zu bearbeiten. Siehe [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Jetzt in einer öffentlichen Beta-Version verfügbar, verfügt der neue Formularentwickler über einen neuen Arbeitsbereich im Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können.
 
