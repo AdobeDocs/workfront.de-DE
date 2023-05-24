@@ -9,9 +9,9 @@ description: In [!DNL Adobe Workfront Fusion] können Sie Ihr E-Mail-Konto mit m
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ea19c2a58bac322c804fca3f6bb7d7147efa4d9a
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,6 @@ Trigger, in denen eine neue E-Mail zur Verarbeitung gemäß bestimmten Kriterien
 * [[!UICONTROL E-Mail kopieren]](#copy-an-email)
 * [[!UICONTROL E-Mail löschen]](#delete-an-email)
 * [[!UICONTROL E-Mails abrufen]](#get-emails)
-* [[!UICONTROL E-Mail senden]](#send-me-an-email)
 
 #### [!UICONTROL E-Mail senden]
 
@@ -541,25 +540,6 @@ Gibt E-Mails zurück, die den angegebenen Kriterien entsprechen.
   <tr> 
    <td role="rowheader">[!UICONTROL Fortfahren der Routenausführung, selbst wenn das Modul keine Ergebnisse zurückgibt]</td> 
    <td> <p> Wählen Sie aus, ob Sie das Modul auch dann weiterhin ausführen möchten, wenn keine Ergebnisse zurückgegeben werden.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL E-Mail senden]
-
-Sendet eine neue E-Mail an Ihre E-Mail-Adresse.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Geben Sie die Betreffzeile der E-Mail ein oder ordnen Sie sie zu.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Geben Sie den Text der E-Mail ein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
