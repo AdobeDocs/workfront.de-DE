@@ -7,10 +7,10 @@ description: Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ Personen und Teams müssen als Mitglieder zum Workstream hinzugefügt werden, be
 
    Dies entspricht dem Hinzufügen von Mitgliedern zu einer Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Hinzufügen von Quellen zu Workflows
+
+Eine Quelle bestimmt, woher die Karten im Workstream stammen.
+
+{{step1-to-boards}}
+
+1. Klicken Sie auf [!UICONTROL **Quellen**] icon ![Quellen-Symbol](assets/sources-icon.png) , um eine Quelle zum Importieren von Karten in den Workflow zu definieren. Derzeit ist die einzige verfügbare Quelle [!DNL Adobe Workfront].
+1. Fügen Sie Filter hinzu, um Aufgaben und Probleme aus Workfront als Karten zu importieren.
+
+   Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen erweiterter Filter für eine Ansauspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Konfigurieren eines Workflows
 
 {{step1-to-boards}}
 
 1. Klicken Sie im Dashboard auf [!UICONTROL **Workflow anzeigen**] , um einen Workflow zu öffnen.
 1. Klicken [!UICONTROL **Konfigurieren**] , um [!UICONTROL Workstream konfigurieren] Bereich.
-1. (Optional) Geben Sie eine Beschreibung des Workflows ein. Diese Beschreibung wird im Dashboard angezeigt.
-1. (Optional) Fügen Sie Tags zum Workstream hinzu. Weitere Informationen finden Sie unter [Tags hinzufügen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Optional) Erweitern [!UICONTROL **Workstream**] und geben Sie eine Beschreibung des Workflows ein. Diese Beschreibung wird im Dashboard angezeigt.
+1. (Optional) Erweitern [!UICONTROL **Iterationen**] , um einen Iterationsvorgang für diesen Workstream zu definieren.
 
    Die Gesamtanzahl der Karten, die Anzahl der spitze Karten und die Anzahl der Iterationen werden im Bereich Kartenliste angezeigt. Klicken [!UICONTROL **Liste anzeigen**] , um die Liste zu öffnen und Karten hinzuzufügen. Weitere Informationen finden Sie unter [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Wenn eine Iteration definiert wurde, werden ihr Startdatum, die Anzahl der Karten und die Anzahl der Punkte angezeigt. Klicken [!UICONTROL **Iterationskarte anzeigen**] , um die Pinnwand zu öffnen. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Wenn bereits eine Iteration definiert wurde, werden ihr Startdatum, die Anzahl der Karten und die Anzahl der Punkte angezeigt. Klicken [!UICONTROL **Pinnwand anzeigen**] , um die Iterationskarte zu öffnen. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Klicken [!UICONTROL **Quelle hinzufügen**] , um eine Quelle zum Importieren von Karten in den Workflow zu definieren. Derzeit ist die einzige verfügbare Quelle [!DNL Adobe Workfront].
-1. Fügen Sie Filter hinzu, um Aufgaben und Probleme aus Workfront als Karten zu importieren.
-
-   Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen von Filtern für eine Ansaugspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Optional) Erweitern [!UICONTROL **Tags**] , um Tags zum Workflow hinzuzufügen. Suchen Sie nach einem Tag oder geben Sie einen neuen Tag-Namen in das Suchfeld ein und drücken Sie die Eingabetaste , um es zu erstellen.
