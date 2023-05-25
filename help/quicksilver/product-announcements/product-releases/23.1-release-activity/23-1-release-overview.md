@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -527,7 +527,7 @@ Informationen zu den Wartungsupdates, die während der Version 22.3 vorgenommen 
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie unter [Seite mit Aktualisierungen zu Schulungsversionen](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;im [Workfront Tutorials-Seite](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktion wird bald aus Workfront entfernt
 
