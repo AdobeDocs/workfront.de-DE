@@ -7,7 +7,7 @@ description: Ein Workstream ist eine konfigurierbare Gruppe von Foren und Karten
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
+source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Eine Quelle bestimmt, woher die Karten im Workstream stammen.
 1. Klicken Sie auf [!UICONTROL **Quellen**] icon ![Quellen-Symbol](assets/sources-icon.png) , um eine Quelle zum Importieren von Karten in den Workflow zu definieren. Derzeit ist die einzige verfügbare Quelle [!DNL Adobe Workfront].
 1. Fügen Sie Filter hinzu, um Aufgaben und Probleme aus Workfront als Karten zu importieren.
 
-   Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen erweiterter Filter für eine Ansauspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   Das Hinzufügen von Filtern für Workstream-Quellen entspricht dem Hinzufügen erweiterter Filter für eine Ansaugspalte auf einer Basis-Pinnwand oder Kanban-Pinnwand. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Konfigurieren eines Workflows
 
