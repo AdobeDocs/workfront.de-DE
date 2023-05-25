@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die den Ar
 
 **[!UICONTROL Video-Asset-Produktion] (verwaltet)**
 Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit für einen standardmäßigen Videoproduktionsprozess organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Video-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Videoinhalten zu erstellen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für spezialisierte Arten von Videomaterial an.
+
+**[!UICONTROL [!DNL Workfront]Kommunikations- und Launch-Vorlage]**
+
+Dieser Blueprint enthält eine einzelne Vorlage, die die Arbeit organisiert, die ein [!DNL Workfront] Der Kunde muss dies tun, damit die [!DNL Workfront] Anwendung.
 
 **[!DNL Workfront Usage Dashboard]**
 Dieser Blueprint enthält ein Dashboard mit 11 Berichten, die Systemadministratoren und Governance-Teams dabei unterstützen, zu verstehen, ob ihre Konfiguration erwartungsgemäß verwendet wird.
