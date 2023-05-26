@@ -2,20 +2,46 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Verwenden Sie die [!DNL Adobe Workfront] mobile App
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie die [!DNL Adobe Workfront] mobile App.
-author: Lisa
+description: Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und Einzelpersonen in Ihrem Unternehmen durch [!DNL Adobe Workfront's] mobile App, auf jedem iOS- oder Android-Gerät verfügbar.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
 # Verwenden Sie die [!DNL Adobe Workfront] mobile App
 
-Dieser Abschnitt enthält die folgenden Artikel:
+Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und Einzelpersonen in Ihrem Unternehmen durch [!DNL Adobe Workfront's] mobile App, auf jedem iOS- oder Android-Gerät verfügbar. Mit der App können Sie:
+
+* Schneller Zugriff auf wichtige Informationen
+* Lassen Sie Ihren Workflow mit einstufigen Aktionen laufen.
+* Bleiben Sie produktiv unterwegs
+
+Sie können das Programm über die [Apple App Store](https://www.apple.com/app-store/) oder [Google Play Store](https://play.google.com/store/apps;).
+
+In der mobilen App können Sie Arbeitselemente abschließen und Informationen anzeigen, wie Sie es in der Browserversion von tun [!DNL Workfront]. Diese Funktionen und mehr sind verfügbar:
+
+* Arbeiten und Zuweisen von Aufgaben und Problemen
+* Post-Updates
+* Zugreifen auf Workfront-Pinnwände
+* Anzeigen und Verwalten von Projekten
+* Anzeigen, Kommentieren und Treffen von Entscheidungen zu Testsendungen
+* Genehmigen von Aufgaben und Problemen, Dokumenten, Testsendungen, Timesheets und Zugriffsanfragen
+* In-App-Benachrichtigungen anzeigen und darauf reagieren
+* Erstellen und Verarbeiten von Workfront-Anforderungen
+* Login-Zeit auf einem Zeitblatt
+
+<!--
+>[!NOTE]
+>
+>The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
+-->
+
+Weitere Informationen über [!DNL Adobe Workfront] mobile App, lesen Sie die folgenden Artikel:
 
 * [[!DNL Adobe Workfront] für [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Seien Sie ein [!DNL Android] Betatest](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

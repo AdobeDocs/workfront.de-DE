@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für Mobilgeräte-Management (MDM)
 description: 'Adobe [!DNL Workfront] verfügt über eine Partnerschaft mit einigen Mobile Device Management (MDM)-Plattformen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten. Die mobile Workfront-App ist auf den folgenden mobilen Geräteverwaltungsplattformen verfügbar: EDIT ME.'
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

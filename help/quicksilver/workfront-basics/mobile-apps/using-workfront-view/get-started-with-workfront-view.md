@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Erste Schritte mit der Adobe Workfront-Ansicht
 description: Sie können den Fortschritt Ihrer Projekte verfolgen, wenn Sie unterwegs sind, indem Sie die [!DNL Adobe Workfront] Mobile App anzeigen.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%

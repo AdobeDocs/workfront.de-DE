@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für iOS
 description: Die [!DNL Adobe Workfront] Mit der -App können Sie auf beliebige iOS-Geräte zugreifen. Sie können die [!DNL Workfront] Mobile App auf Smartphones und Tablets mit iOS 10 oder höher. Eine dedizierte [!DNL Workfront] Die mobile App ist sowohl für die iPhone als auch für die iPad verfügbar.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Die [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen für I
 
 ![Benachrichtigungsbereich](assets/mobile-notifications-area.png)
 
-## [!UICONTROL Anforde- rungen]
+## [!UICONTROL Anfragen]
 
 Die [!UICONTROL Anforderungen] -Bereich können Sie Details zu Anforderungen anzeigen. Aus dem [!UICONTROL Anforderungen] -Bereich des Programms können Sie:
 

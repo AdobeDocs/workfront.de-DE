@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für Android
 description: Die [!DNL Adobe Workfront] -App können Sie auf jedem Android-Gerät auf Ihre Arbeit zugreifen. Sie können die [!DNL Workfront] mobile App auf Smartphones und Tablets mit Android 5.0 oder höher.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Die [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen für I
 
 ![Benachrichtigungsbereich](assets/mobile-notifications-area.png)
 
-## [!UICONTROL Anforde- rungen]
+## [!UICONTROL Anfragen]
 
 Die [!UICONTROL Anforderungen] -Bereich können Sie Details zu Anforderungen anzeigen. Aus dem [!UICONTROL Anforderungen] -Bereich des Programms können Sie:
 

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Sei ein iOS-Betatester
 description: Lesen Sie diesen Artikel, um ein iOS-Betatester für die [!DNL Adobe Workfront] mobile App.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%

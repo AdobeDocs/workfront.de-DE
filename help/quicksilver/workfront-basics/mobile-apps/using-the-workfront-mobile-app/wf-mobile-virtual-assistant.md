@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Virtueller Adobe Workfront-Assistent für mobile Apps
 description: Verwenden Sie den virtuellen Assistenten der Adobe Workfront-Mobile-App, um Informationen innerhalb von Workfront zu suchen, zu löschen und zu suchen. Zusätzlich können Sie virtuelle Assistenzbefehle und Abfragen anheften, um jederzeit auf die Ergebnisse zuzugreifen.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
@@ -49,7 +49,7 @@ Verwenden Sie die [!UICONTROL zeigen] -Befehl, um Informationen zu den folgenden
    <td>Ja</td> 
   </tr> 
   <tr> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>Ja</td> 
    <td>Ja</td> 
    <td>Ja</td> 
@@ -215,7 +215,7 @@ Verwenden Sie die [!UICONTROL zeigen] -Befehl, um Informationen zu den folgenden
 Verwenden Sie den Befehl &quot;Löschen&quot;, um die folgenden Objekttypen zu löschen:
 
 * Aufgabe
-* Anfrage
+* Problem
 * Dokument
 * Arbeitszeittabelle
 

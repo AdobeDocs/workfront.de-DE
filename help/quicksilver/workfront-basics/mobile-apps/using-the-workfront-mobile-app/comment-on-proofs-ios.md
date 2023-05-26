@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Kommentar zu Testsendungen in iOS
 description: Sie können vorhandene Kommentare zu einem Testversand überprüfen und auflösen und dem Testdokument neue Kommentare und Anmerkungen hinzufügen.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%

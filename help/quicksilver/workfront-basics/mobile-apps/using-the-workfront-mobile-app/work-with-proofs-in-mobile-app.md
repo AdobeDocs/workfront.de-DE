@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Überprüfen und treffen Sie Entscheidungen über Testsendungen im [!DNL Adobe Workfront] mobile App
 description: Wenn Ihnen ein Testversand zur Genehmigung zugewiesen wurde, wird er in Ihrer Liste der Validierungen in der Mobile App angezeigt. Sie können den Testversand direkt in der App überprüfen und eine Entscheidung darüber treffen.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
