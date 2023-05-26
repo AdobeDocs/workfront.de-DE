@@ -9,9 +9,9 @@ description: Sie können in Ihren Adobe Workfront Fusion-HTTP-Modulen "Mutual TL
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
+source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -100,18 +100,21 @@ Sie können die folgenden Links verwenden, um die öffentlichen Workfront Fusion
 
    Zur Verwendung in der EU
 
-### Zertifikate für den 14. November 2022 - 15. Juli 2023
+<!--
+
+### Certificates for November 14, 2022 - July 15, 2023
 
 >[!IMPORTANT]
 >
->* Diese [!DNL Workfront Fusion] öffentliche Zertifikate laufen am 15. Juli 2023 aus.
->* Dies sind Platzhalter-mTLS-Zertifikate.
+>* These [!DNL Workfront Fusion] public certificates expire on July 15, 2023.
+>* These are wildcard mTLS certificates.
 
+* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
+* [Download [!DNL Workfront Fusion] EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
-* [Download [!DNL Workfront Fusion] Zertifikat 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
-* [Download [!DNL Workfront Fusion] EU-Zertifikat 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
+   For use in the EU 
 
-   Zur Verwendung in der EU
+   -->
 
 ## Aktivieren der bidirektionalen TLS in [!DNL Workfront Fusion] HTTP-Module
 
