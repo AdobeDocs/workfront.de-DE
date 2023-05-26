@@ -6,7 +6,7 @@ description: Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit fü
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
+source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -58,3 +58,4 @@ Weitere Informationen über [!DNL Adobe Workfront] mobile App, lesen Sie die fol
 * [[!DNL Adobe Workfront] für [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Konfigurieren [!DNL Adobe Workfront] für [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 * [[!DNL Adobe Workfront] Mobile App - virtueller Assistent](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+
