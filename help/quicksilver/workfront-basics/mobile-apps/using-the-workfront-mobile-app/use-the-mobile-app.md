@@ -6,9 +6,9 @@ description: Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit fü
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und E
 * Lassen Sie Ihren Workflow mit einstufigen Aktionen laufen.
 * Bleiben Sie produktiv unterwegs
 
-Sie können das Programm über die [Apple App Store](https://www.apple.com/app-store/) oder [Google Play Store](https://play.google.com/store/apps;).
+Sie können das Programm über die [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) oder [Google Play Store](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 In der mobilen App können Sie Arbeitselemente abschließen und Informationen anzeigen, wie Sie es in der Browserversion von tun [!DNL Workfront]. Diese Funktionen und mehr sind verfügbar:
 
