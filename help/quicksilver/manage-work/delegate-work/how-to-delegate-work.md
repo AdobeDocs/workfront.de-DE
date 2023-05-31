@@ -5,9 +5,9 @@ title: Delegieren von Aufgaben und Problemen
 description: Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht im Büro sind, vorübergehend delegieren. In diesem Artikel wird beschrieben, wie Aufgaben und Problemzuweisungen delegiert werden.
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Sie können auf die [!UICONTROL Zuweisungen] in den folgenden Bereichen:
 
    Die [!UICONTROL Zuweisungen] -Feld in der Aufgabe oder in der Problemüberschrift ändern sich zu [!UICONTROL Zuweisung und Delegationen].
 
-* Die [!DNL Workload Balancer] beim manuellen Zuweisen von Aufgaben oder Problemen
+* Die [!UICONTROL Lastenausgleich] beim manuellen Zuweisen von Aufgaben oder Problemen
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -222,7 +222,7 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegation
 
 >[!TIP]
 >
->Die geplanten oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in den Tools für die Ressourcenverwaltung nicht berücksichtigt, z. B. bei der [!DNL Workload Balancer] oder [!DNL Resource Planner] für die delegierten Benutzer. Die Stunden bleiben nur mit dem zugewiesenen Benutzer verknüpft.
+>Die geplanten oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in den Tools für die Ressourcenverwaltung nicht berücksichtigt, z. B. bei der [!UICONTROL Lastenausgleich] oder [!DNL Resource Planner] für die delegierten Benutzer. Die Stunden bleiben nur mit dem zugewiesenen Benutzer verknüpft.
 
 ### Suchen Sie delegierte Arbeit in [!UICONTROL Startseite]
 

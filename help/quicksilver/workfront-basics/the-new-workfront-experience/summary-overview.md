@@ -4,9 +4,9 @@ title: Zusammenfassungsübersicht
 description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Aufgaben in den Arbeitsbereichen [!UICONTROL Nicht zugewiesen] und [!UICONTROL Zugeordnet] [!DNL Workload Balancer]</td> 
+   <td>Aufgaben in den Arbeitsbereichen [!UICONTROL Nicht zugewiesen] und [!UICONTROL Zugewiesene] Arbeitsbereiche des [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Probleme</td> 
@@ -45,7 +45,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Probleme im Bereich [!UICONTROL Zugewiesene Arbeit] der [!DNL Workload Balancer]</td> 
+   <td>Probleme im Bereich [!UICONTROL Zugewiesene Arbeit] des [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Probleme im Abschnitt [!UICONTROL Gesendet] des Bereichs [!UICONTROL Anforderungen]</td> 
@@ -68,7 +68,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
 
 In diesem Artikel wird beschrieben, wie Sie auf die [!UICONTROL Zusammenfassung] Bedienfeld für Aufgaben und Probleme in Listen.
 
-Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] im [!DNL Workload Balancer], siehe [Arbeitselemente in der [!DNL Workload Balancer] mithilfe der [!UICONTROL Zusammenfassung]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] im [!UICONTROL Lastenausgleich], siehe [Arbeitselemente in der [!UICONTROL Lastenausgleich] mithilfe der [!UICONTROL Zusammenfassung]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] für Dokumente, siehe [[!UICONTROL Zusammenfassung] für Dokumentübersicht](../../documents/managing-documents/summary-for-documents.md).
 

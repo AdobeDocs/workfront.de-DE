@@ -6,9 +6,9 @@ description: Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,9 @@ Beide Prozesse stellen eine Verbindung zwischen den Projekten und den entspreche
 
    * Die [!UICONTROL Rollenzuweisung] in den folgenden Bereichen:
 
-      * [!DNL Workload Balancer] des Projekts
+      * [!UICONTROL Lastenausgleich] des Projekts
 
-         Informationen dazu, wie Sie die Rollenverteilung zwischen der Initiative und dem verknüpften Projekt im [!DNL Workload Balancer], siehe [Rollenzuweisung für Projekte und Initiativen im [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+         Informationen dazu, wie Sie die Rollenverteilung zwischen der Initiative und dem verknüpften Projekt im [!UICONTROL Lastenausgleich], siehe [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Lastenausgleich]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
       * [!UICONTROL Aufgaben] Abschnitt
 

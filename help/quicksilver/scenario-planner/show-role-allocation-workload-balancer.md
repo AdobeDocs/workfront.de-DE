@@ -6,14 +6,14 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
 
-# Rollenzuweisung für Projekte und Initiativen im [!DNL Workload Balancer]
+# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Lastenausgleich]
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ Sie müssen Folgendes tun:
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Rollenzuweisung für Projekte und Initiativen im [!DNL Workload Balancer]
+## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Lastenausgleich]
 
-Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz können Sie die Ressourcenzuweisungen zwischen der Initiative und dem ihr zugeordneten Projekt auf Projektebene abstimmen. [!DNL Workload Balancer].
+Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz können Sie die Ressourcenzuweisungen zwischen der Initiative und dem ihr zugeordneten Projekt auf Projektebene abstimmen. [!UICONTROL Lastenausgleich].
 
 1. (Bedingt) Verbinden Sie ein Projekt mit einer Initiative mit einer der in den folgenden Artikeln beschriebenen Methoden:
 
@@ -72,7 +72,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz können Sie 
    >Wenn Sie Änderungen an den Ressourcen der Initiative vornehmen, müssen Sie das Szenario, zu dem die Initiative gehört, erneut veröffentlichen, damit die neuesten Ressourceninformationen aus der Initiative über das Projekt aktualisiert werden.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Zuordnung von Stellenrollen für das Projekt und die damit verbundene Initiative überprüfen möchten.
-1. Klicken [!DNL Workload Balancer] im linken Bereich.
+1. Klicken [!UICONTROL Lastenausgleich] im linken Bereich.
 
    Möglicherweise müssen Sie auf **[!UICONTROL Planung]**, dann **[!UICONTROL Wechseln zum Lastenausgleich]**.
 

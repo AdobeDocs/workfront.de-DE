@@ -5,9 +5,9 @@ title: Linke Navigation in [!DNL Adobe Workfront]
 description: Das linke Navigationsfenster in [!DNL Workfront] erleichtert die Navigation durch das System.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1403'
 ht-degree: 1%
 
 ---
@@ -60,13 +60,13 @@ Der linke Bereich ist für die folgenden Objekte verfügbar:
 
 * Projekt
 * Aufgabe
-* Anfrage
+* Problem
 * Portfolio
 * Programm
 * Vorlage
 * Vorlagenaufgabe
 * Wiederholung
-* Benutzer
+* Benutzerin oder Benutzer
 * Team
 * Gruppe
 * Ziel
@@ -134,7 +134,7 @@ Die folgenden Abschnitte werden im linken Bereich für die **[!UICONTROL Ressour
    <td>Zeigt den Ressourcen-Planer an. Verwenden Sie diesen Bereich, um Ihre Ressourcen über mehrere Projekte hinweg zu planen. Informationen zur Verwendung des Ressourcen-Planers finden Sie unter <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Erste Schritte mit der Ressourcenplanung</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Lastenausgleich]</strong></td> 
    <td>Zeigt den Lastenausgleich an. Verwenden Sie diesen Bereich, um Ihren Ressourcen tatsächliche Arbeit zuzuweisen. <br>
    Informationen zur Verwendung von Planungsressourcen finden Sie unter <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich</a>.</td> 
   </tr> 

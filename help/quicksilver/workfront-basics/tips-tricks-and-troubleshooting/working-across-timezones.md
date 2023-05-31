@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Sie können Benutzern auf verschiedene Weise dabei helfen, einfacher über mehre
 
    Anweisungen zum Zuweisen eines Zeitplans zu einem Projekt oder Benutzer finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung der [!UICONTROL Geplante Stunden] im [!DNL Workload Balancer], siehe [Verwalten Sie die Benutzerzuordnungen im [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung der [!UICONTROL Geplante Stunden] im [!UICONTROL Lastenausgleich], siehe [Verwalten Sie die Benutzerzuordnungen im [!UICONTROL Lastenausgleich]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berechnete Zeitfelder in einem benutzerdefinierten Formular verwenden {#use-calculated-time-fields-in-a-custom-form}

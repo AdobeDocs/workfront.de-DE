@@ -7,9 +7,9 @@ description: Eine Liste von Artikeln, in denen die Funktionalität des Workfront
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Rollenzuweisung für Projekte und Initiativen im [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Lastenausgleich]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  
