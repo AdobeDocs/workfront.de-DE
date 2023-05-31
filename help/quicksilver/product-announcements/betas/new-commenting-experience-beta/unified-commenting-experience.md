@@ -6,9 +6,9 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -261,13 +261,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -382,6 +382,21 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Antworten auf Systemaktualisierungen 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
 ## Neue Kommentar-Erlebnis-Release-Aktivität
@@ -394,7 +409,7 @@ Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt,
 
 * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
 
-   * Probleme
+   * Probleme<!--, <span class="preview">projects, tasks, and documents</span>-->
    Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

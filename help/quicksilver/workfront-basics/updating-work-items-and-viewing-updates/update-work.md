@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3151'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme beim Aktivieren der Beta-Kommentarfunktion.
+> * Probleme, <!--<span class="preview">projects, tasks, and documents</span>,--> beim Aktivieren der Beta-Kommentarfunktion.
    >
-   >     Diese Funktion ist nur für den Abschnitt Aktualisierungen von Problemen verfügbar und nicht für die folgenden Bereiche:
+   >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
    >
    >     * Startseite
    >     * Zusammenfassungsbereich in Listen
@@ -231,7 +231,9 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
 
    >[!TIP]
    >
-   >   Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+   >* Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+   >* Der Datumsstempel neben dem Kommentar ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Bearbeitung.
+
 
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 4 bis 7 aus. <!--(**************insure this stays accurate***********)-->. Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.

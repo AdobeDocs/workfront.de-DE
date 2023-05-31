@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,16 @@ Dadurch wird die Zielliste geöffnet.
 
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
 1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu, entfernen Sie sie oder entfernen Sie einen der getaggten Benutzer.
-Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
+Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird ein Indikator &quot;bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+   > * Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
+   >
+   > * Der Datumsstempel ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Aktualisierung.
+
 
    1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf eine der folgenden Optionen, um Informationen aus einem Kommentar in die Zwischenablage zu kopieren:
 

@@ -6,9 +6,9 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '3234'
 ht-degree: 0%
 
 ---
@@ -353,6 +353,19 @@ Um Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren zu kö
 
 ##### Registerkarte Updates{#updates-tab}
 
+<!--
+
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+>
+>* In the Preview and Production environments for issues. 
+>* <span class="preview">In the Preview environment for tasks and projects.</span> 
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+-->
+
 Die folgenden Voraussetzungen müssen erfüllt sein, bevor Sie Stunden auf der Registerkarte Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems protokollieren können:
 
 * Sie müssen über eine Arbeits- oder Planungslizenz verfügen.
@@ -361,6 +374,34 @@ Die folgenden Voraussetzungen müssen erfüllt sein, bevor Sie Stunden auf der R
 
 * Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Protokollzeit direkt für Projekte aktivieren, die unter [!UICONTROL **Datenblatt und Stunden** ]> [!UICONTROL **Voreinstellungen**].\
    Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+So melden Sie die Zeit auf der Registerkarte Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems:
+
+1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
+1. Wählen Sie im linken Bereich die Option **Updates**.
+1. Klicken **Protokollzeit**.
+
+   Das Dialogfeld Stunden eingeben wird angezeigt.
+
+   >[!TIP]
+   >
+   >   Wenn die Voreinstellung Ihres Profils auf die Protokollzeit in Tagen festgelegt ist, wird das Feld Tage eingeben angezeigt.
+   >   
+   >   Oben rechts im Feld Tage eingeben gibt es einen Hinweis darauf, wie viele Stunden ein Tag beinhaltet.
+
+   ![](assets/log-time-box-in-updates-stream.png)
+
+1. Geben Sie die folgenden Informationen an:
+
+   * **Stündentyp**: Wählen Sie im Dropdown-Menü einen Stündentyp aus, wenn dieser von dem standardmäßig angezeigten unterscheidet.
+
+      Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** -Einstellung festlegen, wählen Sie eine **Auftragsrolle** aus dem Dropdown-Menü. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.
+
+1. Klicken **Protokollzeit**.
 
 ##### Registerkarte &quot;Stunden&quot;{#hours-tab}
 
@@ -374,9 +415,9 @@ Oder Sie müssen über Folgendes verfügen:
 * Sie müssen mindestens über Beitragsberechtigungen für das Projekt mit Zugriff auf &quot;Log Hours&quot;verfügen. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Einstellung Zeitpunkt der Projektprotokollierung unter &quot;Timesheet &amp; Hours > Voreinstellungen&quot;aktivieren. Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-So protokollieren Sie die Zeit eines Projekts, einer Aufgabe oder eines Problems:
+So melden Sie die Zeit auf der Registerkarte Stunden eines Projekts, einer Aufgabe oder eines Problems an:
 
-1. Navigieren Sie zu einem Projekt, einer Aufgabe oder einem Problem.
+1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
 1. Wählen Sie im linken Bereich die Option **Stunden**.
 1. Klicken **Protokollzeit**.
 
