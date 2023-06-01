@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 0%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <span class="preview">Projekte</span>, <span class="preview">Aufgaben</span>und <span class="preview">Dokumente</span>, wenn Sie die Beta-Kommentarfunktion aktivieren.
+> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
    >
+   >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
    >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
    >
    >     * Startseite
