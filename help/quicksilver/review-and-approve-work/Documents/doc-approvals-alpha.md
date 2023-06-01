@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
+exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+source-git-commit: d52a550350aad0b7ae67d90e3742a21de743f2b3
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Alpha-Programm - Dokumentgenehmigungen
 
@@ -25,15 +25,23 @@ Um an dieser Alpha-Version teilnehmen zu können, stellen Sie bitte sicher, dass
 
 ## Neueste Version
 
+### Alpha-Version 4 - Mai 2023
+
+In dieser vierten Alpha-Version haben wir, bevor wir nur für eine ausgewählte Kundengruppe produktiv sind, Benachrichtigungen in die Workfront-Kopfzeile, den Aktualisierungsstream und die E-Mail eingefügt. Beachten Sie, dass E-Mail-Benachrichtigungen ausschließlich für die Produktionsumgebung bestimmt sind und nicht in Ihrer Vorschauumgebung sichtbar sind. Wenn Sie daran interessiert sind, diese Version am 14. Juni in Ihrer Produktionsumgebung implementieren zu lassen, wenden Sie sich bitte direkt an mich unter jbarron@adobe.com.
+
+Wir freuen uns auf diesen Meilenstein und freuen uns auf viel mehr!
+
+Sehen Sie sich das vollständige Video unten an:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420094/)
+
+## _Frühere Versionen_
+
 ### Alpha-Version 3 - März 2023
 
 In dieser dritten Alpha-Version haben wir Ihr Feedback integriert, indem wir Erfolgsmeldungen eingeführt haben, die beim Abschließen von Aktionen wie dem Hinzufügen oder Entfernen von Genehmigern und Validierern angezeigt werden. Darüber hinaus bietet diese Version eine verbesserte Sichtbarkeit der ausstehenden Genehmigungen, die jetzt auf den Seiten &quot;Startseite&quot;und &quot;Meine Aktualisierungen&quot;angezeigt werden können, sodass Benutzer Dokumente einfach direkt von diesen Seiten aus genehmigen können.
 
-Sehen Sie sich das vollständige Video unten an:
-
->[!VIDEO](https://video.tv.adobe.com/v/3417854/)
-
-## _Frühere Versionen_
+Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3417854/){target=_blank}
 
 ### Alpha-Version 2 - Januar 2023
 
