@@ -6,7 +6,7 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 1%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
-   >
-   >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.\
-   >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
-   >
-   >     * Startseite
-   >     * Zusammenfassungsbereich in Listen
-   >     * Zusammenfassungsbereich in Timesheets
 >
-> * Ziele
-
-   >
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
+>
+>  Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
+>
+>  Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>
+>  * Startseite
+>  * Zusammenfassungsbereich in Listen
+>  * Zusammenfassungsbereich in Timesheets
+>
+>* Ziele
+>
+>  Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates für das Objekt angezeigt.
 
@@ -100,6 +100,7 @@ Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erleb
    Oben in diesem Aktualisierungs-Thread können Sie die Benutzer sehen, die aktiv an der Konversation beteiligt sind oder in jeder Antwort getaggt sind. Diese Benutzer erhalten zusammen mit allen Benutzern, die das Objekt abonniert haben, eine Benachrichtigung, sobald ein Objekt aktualisiert oder beantwortet wird. Sie können auch weitere Benutzer taggen, um sie in Ihre Antwort einzubeziehen.  Informationen zum Tagging weiterer Benutzer finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. (Optional) Wenn Sie Text aus einer vorherigen Aktualisierung in Ihre Antwort aufnehmen möchten, klicken Sie auf die **Mehr** neben der Aktualisierung oder Antwort, die Sie zitieren möchten, klicken Sie auf **Antwort zitieren**. Text aus der vorherigen Aktualisierung wird im Eingabefeld mit einer vertikalen grauen Linie markiert.
 1. (Optional) Verwenden Sie Formatierungen, Emojis, Include-Links oder Bilder, wie im Artikel &quot;Verwenden von Rich Text in einem Workfront-Update&quot;beschrieben. [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klicken **Antwort** , um die Antwort zu speichern.
