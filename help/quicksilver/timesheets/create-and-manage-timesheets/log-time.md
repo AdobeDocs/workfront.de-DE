@@ -6,14 +6,18 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
 
 # Protokollzeit
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Sie können die Arbeitszeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Arbeitsstunden anzugeben, die Sie damit verbringen. Sie können auch Zeit protokollieren, die nicht mit der Arbeit in Zusammenhang steht, wie Urlaub, Krankheitszeit oder Zeit, die Sie in Meetings verbringen. Die Login-Zeit wird in Ihrem Timesheet angezeigt.
 
@@ -109,7 +113,7 @@ Sie können allgemeine Stunden oder projektspezifische Stunden auf einem Timeshe
 
 >[!NOTE]
 >
->Überprüfungsbenutzer, die einem Timesheet-Profil zugewiesen sind, können die Registerkarte &quot;Timesheets&quot;sehen und allgemeine Stunden protokollieren. Sie können jedoch keine Stunden für Aufgaben oder Probleme protokollieren, die ihnen auf dem Timesheet zugewiesen werden.
+>Überprüfungsbenutzer, die einem Timesheet-Profil zugewiesen sind, können den Bereich &quot;Timesheets&quot;anzeigen und allgemeine Stunden protokollieren. Sie können jedoch keine Stunden für Aufgaben oder Probleme protokollieren, die ihnen auf dem Timesheet zugewiesen werden.
 
 1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
@@ -342,40 +346,32 @@ So protokollieren Sie die Zeit eines Arbeitselements im Bereich &quot;Startseite
 
 ### Projekt, Aufgabe oder Problem {#project-task-or-issue}
 
-Sie können projektspezifische Zeit für ein Projekt, eine Aufgabe oder ein Problem protokollieren.
+Sie können projektspezifische Zeit für ein Projekt, eine Aufgabe oder ein Problem in den folgenden Abschnitten protokollieren:
 
-#### Für die Protokollierungszeit erforderliche Berechtigungen
+* [Abschnitt „Aktualisierungen“](#updates-section)
+* [Stundenabschnitt](#hours-section)
 
-Um Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren zu können, benötigen Sie bestimmte Berechtigungen. Sie können die Zeit an zwei Stellen in einem Projekt, einer Aufgabe oder einem Problem protokollieren:
+#### Abschnitt „Aktualisierungen“{#updates-section}
 
-* [Registerkarte Updates](#updates-tab)
-* [Registerkarte &quot;Stunden&quot;](#hours-tab)
-
-##### Registerkarte Updates{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> Sie können die Zeit für Probleme protokollieren. <span class="preview">Projekte und Aufgaben</span> beim Aktivieren des neuen Beta-Kommentar-Erlebnisses im Abschnitt Updates.
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+Um die Zeit im Abschnitt Updates eines Projekts, einer Aufgabe oder eines Problems zu protokollieren, müssen Sie über Folgendes verfügen:
 
-Die folgenden Voraussetzungen müssen erfüllt sein, bevor Sie Stunden auf der Registerkarte Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems protokollieren können:
-
-* Sie müssen über eine Arbeits- oder Planungslizenz verfügen.
-* Sie müssen mindestens über Beitragsberechtigungen für das Projekt, die Aufgabe oder das Problem mit Zugriff auf Protokollzeiten verfügen.\
+* Eine Arbeits- oder Planungslizenz.
+* Tragen Sie dem Projekt, der Aufgabe oder dem Problem, das Zugriff auf Protokollzeiten hat, oder höher Berechtigungen ein.\
    Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Protokollzeit direkt für Projekte aktivieren, die unter [!UICONTROL **Datenblatt und Stunden** ]> [!UICONTROL **Voreinstellungen**].\
+* Ihr Workfront-Administrator muss die Protokollzeit direkt für Projekte aktivieren, die unter [!UICONTROL **Datenblatt und Stunden** ]> [!UICONTROL **Voreinstellungen**], wenn Sie die Zeit direkt in einem Projekt protokollieren möchten.
+
    Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-So melden Sie die Zeit auf der Registerkarte Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems:
+So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Projekts, einer Aufgabe oder eines Problems:
 
 1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
 1. Wählen Sie im linken Bereich die Option **Updates**.
@@ -403,22 +399,22 @@ So melden Sie die Zeit auf der Registerkarte Aktualisierungen eines Projekts, ei
 
 1. Klicken **Protokollzeit**.
 
-##### Registerkarte &quot;Stunden&quot;{#hours-tab}
+#### Stundenabschnitt{#hours-section}
 
-Die folgenden Voraussetzungen müssen erfüllt sein, bevor Sie Stunden auf der Registerkarte Stunden eines Projekts, einer Aufgabe oder eines Problems protokollieren können:
+Sie müssen ein Workfront-Administrator sein, um die Zeit für Projekte, Aufgaben und Probleme im Abschnitt Stunden zu protokollieren.
 
-* Sie müssen Systemadministrator sein.
+Oder
 
-Oder Sie müssen über Folgendes verfügen:
+Sie müssen über Folgendes verfügen:
 
-* Sie müssen über eine Planungslizenz mit Administratorzugriff auf Timesheets und Stunden verfügen. Weitere Informationen zum Gewähren des administrativen Zugriffs auf Timesheets und Stunden finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Sie müssen mindestens über Beitragsberechtigungen für das Projekt mit Zugriff auf &quot;Log Hours&quot;verfügen. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Einstellung Zeitpunkt der Projektprotokollierung unter &quot;Timesheet &amp; Hours > Voreinstellungen&quot;aktivieren. Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Eine Planungslizenz mit administrativem Zugriff auf Timesheets und Stunden. Weitere Informationen zum Gewähren des administrativen Zugriffs auf Timesheets und Stunden finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Beitragen Sie oder höhere Berechtigungen zum Projekt mit Zugriff auf &quot;Log Hours&quot;. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Einstellung Zeitpunkt für die Projektprotokollierung unter &quot;Timesheet &amp; Hours > Voreinstellungen&quot;aktivieren. Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-So melden Sie die Zeit auf der Registerkarte Stunden eines Projekts, einer Aufgabe oder eines Problems an:
+So melden Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder eines Problems an:
 
 1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
-1. Wählen Sie im linken Bereich die Option **Stunden**.
+1. Klicken Sie im linken Bereich auf **Stunden**.
 1. Klicken **Protokollzeit**.
 
    Das Dialogfeld Protokollzeiten wird angezeigt.

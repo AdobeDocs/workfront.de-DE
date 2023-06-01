@@ -6,16 +6,16 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # Neues Kommentierungserlebnis
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
 
@@ -47,7 +47,7 @@ Das neue Kommentierungserlebnis umfasst Verbesserungen und Änderungen am vorhan
 Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 
 * Verbesserte Leistung und Benutzerfreundlichkeit
-* Die Trennung von Benutzerkommentaren und Systemaktivität wird aktualisiert. Es gibt keine Änderungen an der Funktionsweise der Systemaktualisierungen.
+* Die Trennung von Benutzerkommentaren und Systemaktivität wird aktualisiert.
 * Echtzeitanzeige beim Hinzufügen neuer Kommentare zu einem Objekt
 * Bearbeiten von Kommentaren nach deren Übermittlung.
 
@@ -261,7 +261,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt,
 
 * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
 
-   * Probleme<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>
    Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

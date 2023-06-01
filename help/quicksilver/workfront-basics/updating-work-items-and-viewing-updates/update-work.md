@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <!--<span class="preview">projects, tasks, and documents</span>,--> beim Aktivieren der Beta-Kommentarfunktion.
+> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>, wenn Sie die Beta-Kommentarfunktion aktivieren.
    >
    >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
    >
@@ -193,7 +193,7 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 Die **Kommentare** ist standardmäßig ausgewählt.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 1. (Optional) So fügen Sie einen URL-Link zu zusätzlichen Informationsquellen hinzu:
 
    1. Klicken Sie in der Aktualisierung auf die Stelle, an der Sie einen Link einfügen möchten.
-   1. Im **Rich-Text** Symbolleiste, klicken Sie auf **Hyperlink** Symbol. ![](assets/link-icon.png)
+   1. Im **Rich-Text** Symbolleiste, klicken Sie auf **Hyperlink** icon ![](assets/link-icon.png).
 
    1. Im **Link erstellen** Feld, das angezeigt wird, unter **URL**, geben Sie die URL der Quelle ein oder fügen Sie sie ein.
 
