@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span> beim Aktivieren der Beta-Kommentarfunktion.
+> * Probleme, <span class="preview">Projekte</span>, <span class="preview">Aufgaben</span>und <span class="preview">Dokumente</span>, wenn Sie die Beta-Kommentarfunktion aktivieren.
    >
    >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
    >
@@ -131,7 +131,7 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
 
 >[!NOTE]
 >
->Beim Aktivieren des neuen Beta-Kommentarerlebnisses werden Kommentare zu den folgenden übergeordneten Objekten und in den folgenden Umgebungen angezeigt:
+>Beim Aktivieren des neuen Beta-Kommentar-Erlebnisses werden Kommentare zu den folgenden übergeordneten Objekten angezeigt:
 >
 >* Probleme
 >* <span class="preview">Projekte</span>

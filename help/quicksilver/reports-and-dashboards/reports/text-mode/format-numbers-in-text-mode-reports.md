@@ -6,7 +6,7 @@ description: Numerische Werte wie die Währung können so konfiguriert werden, d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
@@ -40,4 +40,5 @@ Sie können Zahlen mit den folgenden Werten für die `valueformat` Zeile Ihrer S
 | 12% | <pre>doubleAsPercentRounded</pre> |
 | 12,34% | <pre>doubleAsPercent</pre> |
 | (1,234.56) | <pre>doubleAsFinancial</pre> |
-| (1,234) | <pre>doubleAsFinanceRounded</pre> |
+| (1,234) | <pre>doubleAsFinancialRounded</pre> |
+
