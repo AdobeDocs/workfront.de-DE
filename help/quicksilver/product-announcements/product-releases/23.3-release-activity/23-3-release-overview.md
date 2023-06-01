@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-Verbesserungen
 
+* [Administratorverbesserungen](#administrator-enhancements)
 * [Agile Verbesserungen](#agile-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
+* [Projektverbesserungen](#project-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch verknüpfte Ordner mit Adobe Experience Manager Assets erstellen, wenn ein Projekt erstellt wird</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
-                        <p>Mit dem neuen Workflow Verknüpften Ordner für die Adobe Experience Manager-Integration erstellen können Sie die Integration mit einem Pfad zu einem Adobe Experience Manager Assets-Ordner konfigurieren. Wenn die Integration zu einer Projektvorlage hinzugefügt wird, erstellen alle aus der Vorlage erstellten Projekte automatisch einen verknüpften Unterordner in Experience Manager Assets im angegebenen Ordner. </p><p>Diese Funktion ist nur bei einer Adobe Experience Manager as a Cloud Service-Integration in Workfront verfügbar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch verknüpfte Ordner mit Adobe Experience Manager Assets erstellen, wenn ein Projekt erstellt wird</a></p>
+                        <p>Mit dem neuen Workflow Verknüpften Ordner für die Adobe Experience Manager-Integration erstellen können Sie die Integration mit einem Pfad zu einem Adobe Experience Manager Assets-Ordner konfigurieren. Wenn die Integration zu einer Projektvorlage hinzugefügt wird, erstellen alle aus der Vorlage erstellten Projekte automatisch einen verknüpften Unterordner in Experience Manager Assets im angegebenen Ordner. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Projektverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neue Dokumentgenehmigungen</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Dokumentgenehmigungen werden in einem schrittweisen Rollout neu gestaltet, das mit jeder Version mehr Benutzern zur Verfügung gestellt wird.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 31. Mai 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 14. Juni 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Weitere Verbesserungen
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neues Kommentierungserlebnis für Beta für Projekte, Aufgaben und Dokumente</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Das neue Beta-Kommentarerlebnis ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das Beta-Kommentarerlebnis nur für Probleme und Ziele verfügbar.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 1. Juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: Mit Version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Benutzerinitialen werden jetzt in Profilen ohne Avatare angezeigt</a></p>
