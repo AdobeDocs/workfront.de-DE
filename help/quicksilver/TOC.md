@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 1%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 1%
       * [Validierungsanfrage delegieren](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Zurückrufen von eingereichten Genehmigungen](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * Dokumentüberprüfungen und -genehmigungen {#document-reviews-and-approvals}
+      * [Dokumentüberprüfungen und -genehmigungen](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * Dokumentgenehmigungen verwalten {#manage-document-approvals}
+         * [Dokumentgenehmigungen verwalten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Dokumentgenehmigung erstellen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * Dokumente überprüfen und genehmigen {#review-and-approve-documents}
+         * [Dokumente überprüfen und genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [Dokument überprüfen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
       * [Proofing](review-and-approve-work/proofing/proofing.md)
       * Testversand - Übersicht {#proofing-overview}
