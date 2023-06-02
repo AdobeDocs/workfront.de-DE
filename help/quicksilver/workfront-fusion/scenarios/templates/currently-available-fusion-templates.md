@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Um die verfügbaren Vorlagen anzuzeigen, klicken Sie auf **Vorlagen** icon ![](a
 ## Workfront-Vorlagen
 
 Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
+
+### Workfront - Kopieren von Programm-benutzerdefinierten Forms- und Felddaten in zugehörige neue Projekte
+
+Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Programms zu den neuen Projekten hinzugefügt.
 
 ### Workfront - Konvertieren eines genehmigten Problems in ein Projekt
 
