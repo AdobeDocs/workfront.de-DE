@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
+source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Ausführung des Szenarios, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
 * [Anzeigen des Ausführungsverlaufs eines Szenarios im [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md)
 * [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
-* [Sperrte Szenarien anzeigen und verwalten in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Planen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [Aktivieren oder deaktivieren Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)

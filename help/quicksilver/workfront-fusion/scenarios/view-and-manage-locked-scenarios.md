@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Sperrte Szenarien anzeigen und verwalten in [!DNL Adobe Workfront Fusion]
-description: Sperrte Szenarien anzeigen und verwalten in [!DNL Adobe Workfront Fusion]
+title: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
+description: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
+exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
+source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
 
-In einigen Fällen kann ein Szenario vorübergehend durch die [!DNL Workfront Fusion] Technikerteam, da das Szenario Leistungsprobleme oder andere Probleme verursacht. Gesperrte Ausführungen werden automatisch innerhalb von 2-4 Stunden entsperrt. Sie können Szenarien auch manuell entsperren.
+In einigen Fällen ist ein Szenario möglicherweise vorübergehend gesperrt in [!DNL Workfront Fusion]. Gesperrte Ausführungen werden automatisch innerhalb von 2-4 Stunden entsperrt. Sie können Szenarien auch manuell entsperren.
 
 >[!IMPORTANT]
 >
 >Das manuelle Entsperren eines Szenarios kann bei den Ausführungen eines Szenarios zu Fehlern führen.
-
 
 ## Zugriffsanforderungen
 
@@ -53,9 +53,21 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Grundlegendes zu gesperrten Szenarien
+
+Szenarien können aus verschiedenen Gründen gesperrt werden.
+
+Workfront Fusion unterstützt keine parallele Verarbeitung geplanter Szenarien. Diese Szenarien werden zu Beginn der Szenario-Ausführung gesperrt und nach Abschluss entsperrt. Wenn die Ausführung unterbrochen wird, wird das Szenario möglicherweise nicht entsperrt. Dies kann vorkommen, wenn ein Benutzer das Szenario manuell erzwingt oder ein Systemproblem vorliegt.
+
+Darüber hinaus kann das Workfront Fusion Engineering-Team ein Szenario sperren, da es Leistungs- oder andere Probleme verursacht.
+
+Unabhängig von der Ursache eines gesperrten Szenarios wird das Szenario 2-4 Stunden nach seiner Sperrung automatisch entsperrt.
+
 ## Sperrszenario entsperren
 
 Gesperrte Szenarien werden 2-4 Stunden nach der Sperrung entsperrt. Sie können ein Szenario manuell entsperren, bevor es automatisch entsperrt werden soll.
+
+Das manuelle Entsperren eines Szenarios kann bei den Ausführungen eines Szenarios zu Fehlern führen. Es wird empfohlen, Szenarien nur dann manuell zu entsperren, wenn ein Szenario aufgrund der Ausführung und Beendigung von Ausführungen im Rahmen des Designs des Szenarios gesperrt ist. Unter anderen Umständen empfehlen wir, auf die automatische Entsperrung des Szenarios zu warten.
 
 >[!IMPORTANT]
 >
