@@ -6,9 +6,9 @@ description: So installieren Sie die App, bevor sie im [!DNL Salesforce] AppExch
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
+source-git-commit: 0c49ab99653f390d592bba39bcb92145b8bedd0c
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,11 @@ So installieren Sie die App, bevor sie verfügbar ist:
 
 1. Navigieren Sie in Ihrer Produktionsumgebung zu
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
    Navigieren Sie in Ihrer Sandbox-Umgebung zu
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
 1. Überprüfen Sie die **[!UICONTROL Ja, Zugriff auf diese Drittanbieter-Websites gewähren]** ankreuzen.
 
