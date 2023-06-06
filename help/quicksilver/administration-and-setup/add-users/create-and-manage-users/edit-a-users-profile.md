@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
+source-git-commit: fb934506205c586852497197115a7731083c0e54
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <li><b>Ist aktiv:</b> Aktivieren Sie dieses Kontrollkästchen, um anzugeben, dass der Benutzer aktiv ist. Aktive Benutzer verwenden eine Workfront-Lizenz. Wenn Sie das Feld löschen, wird der Benutzer deaktiviert.</li> 
        <li> <p><b>Zugriffsebene:</b> Wählen Sie die Zugriffsebene aus, die diesem Benutzer zugewiesen werden soll.</p> 
        <p>Wenn Sie einem Benutzer eine Zugriffsebene zuweisen, können Sie eine Ebene zuweisen, die Ihrer eigenen Zugriffsebene entspricht oder darunter liegt. (Wenn Ihre Zugriffsebene beispielsweise "Planer"lautet, können Sie die Zugriffsebene "Administrator"nicht zuweisen.) Sie können jedoch keine Zugriffsstufe zuweisen, die standardmäßig kleiner als Ihre eigene Zugriffsstufe ist, wenn der Workfront-Administrator nicht standardmäßige Zugriffsberechtigungen für die Zugriffsebene aktiviert hat, die nicht auch in Ihrer eigenen Zugriffsstufe aktiviert sind (über die Einstellungen für die Feinabstimmung, wie hier beschrieben: <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>). </p> 
-       <p>Weitere Informationen zu Zugriffsebenen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Zugriff auf Adobe Workfront konfigurieren</a>.</p> </li> 
+       <p>Weitere Informationen zu Zugriffsebenen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Zugriff auf Adobe Workfront konfigurieren</a>.</p><p> <b>Hinweis:</b> Wenn Ihr Unternehmen das neue Zugriffsmodell (Standard/Light/Contributor) verwendet, können Sie einen Standard- oder Light-Benutzer nicht einer Contributor-Zugriffsebene zuweisen, wenn dieser Benutzer seine Entscheidungsgrenze für den Monat bereits erreicht hat. </p><p>Weitere Informationen zum neuen Zugriffsmodell finden Sie unter <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über die neuen Zugriffsebenen</a>. </p><p>Informationen zu Entscheidungsgrenzen finden Sie unter <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick</a>.</p></li> 
        <li> <p><b>Layout-Vorlage</b>: Wählen Sie eine Layoutvorlage für den Benutzer aus. Diese Layout-Vorlage hat Vorrang vor jeder Layout-Vorlage, die der Startseite, dem Startseiten-Team oder der primären Auftragsrolle des Benutzers zugewiesen ist. Weitere Informationen zur Zuweisungspriorität von Layout-Vorlagen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Erstellen und Verwalten von Layoutvorlagen</a>.</p> <p><b>NOTIZ</b>:  <p>Die Liste der in diesem Feld verfügbaren Vorlagen hängt von Ihrem Zugriff ab:</p> 
        <ul> 
        <li>Als Workfront-Administrator können Sie alle Layout-Vorlagen auf Systemebene und Gruppenebene sehen.</li> 
