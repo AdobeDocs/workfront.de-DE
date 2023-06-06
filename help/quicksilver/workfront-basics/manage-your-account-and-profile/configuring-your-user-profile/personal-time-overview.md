@@ -7,10 +7,10 @@ description: Adobe Workfront ist nicht dafür konzipiert, Ihre vorhandenen Syste
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e87f2a459314b8059a3df634e97560b5c1dffac4
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
@@ -33,8 +33,6 @@ Tools für die Ressourcenverwaltung verwenden auch Ihre persönliche Zeitspanne,
 >
 
 
-
-
 ## Zugriffsanforderungen
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
@@ -47,15 +45,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher (zur Konfiguration Ihrer persönlichen Zeit)</p> </td> 
+   <td>[!UICONTROL Arbeit] oder höher (zur Konfiguration Ihrer persönlichen Zeit)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td>[!UICONTROL Manager] mit Zugriff auf [!UICONTROL Benutzer bearbeiten] (um Änderungen am Zeitlimitkalender anderer Benutzer vorzunehmen)</td> 
+   <td>[!UICONTROL Manager] mit Zugriff auf [!UICONTROL Benutzer bearbeiten] (um Änderungen an der Zeitdauer anderer Benutzer vorzunehmen)<br>
+   <strong>HINWEIS:</strong> Wenn ein Manager die persönliche Zeit eines anderen Benutzers außerhalb des Kalenders bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
   </tr> 
  </tbody> 
 </table>

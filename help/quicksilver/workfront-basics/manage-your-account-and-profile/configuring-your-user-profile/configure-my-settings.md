@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Meine Einstellungen konfigurieren
 description: Ihre [!DNL Adobe Workfront] Das Profil enthält Informationen über Sie (z. B. Ihren Namen, Ihre E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen zu Ihren Interaktionen mit [!DNL Workfront] und anderen Benutzern in Ihrem Unternehmen.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
 source-wordcount: '3228'
 ht-degree: 1%

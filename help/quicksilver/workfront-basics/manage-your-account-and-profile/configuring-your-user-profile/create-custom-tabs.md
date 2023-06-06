@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Erstellen benutzerdefinierter Abschnitte
 description: Die Informationen, die Sie im [!DNL Workfront] Webanwendung wird häufig standardmäßig in den Abschnitten im linken Bereich angezeigt. Jeder Abschnitt enthält verschiedene Informationen zu [!DNL Workfront] Bereich oder Objekt.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '678'
+ht-degree: 2%
 
 ---
 
@@ -35,10 +35,10 @@ In der folgenden Tabelle sind alle [!DNL Workfront] Bereiche und Objekte, die Ab
 | [!UICONTROL Projekt] | ✓ | ✓ |
 | [!UICONTROL Aufgabe] | ✓ |  ✓ |
 | [!UICONTROL Probleme] |  ✓ |  ✓ |
-| [!UICONTROL Benutzer] |  ✓ |  ✓ |
+| [!UICONTROL Benutzerin oder Benutzer] |  ✓ |  ✓ |
 | [!UICONTROL Dokument] |  ✓ |  ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Zugriffsanforderungen
 
@@ -103,7 +103,7 @@ Die folgenden Objekte werden nach dem Objekt gefiltert, unter dem sie angezeigt 
 
 * Projekt
 * Aufgabe
-* Anfrage
+* Problem
 * Genehmigungsprozess
 * Notiz
 * Dokument
