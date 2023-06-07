@@ -7,10 +7,10 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2368'
+ht-degree: 5%
 
 ---
 
@@ -247,7 +247,11 @@ In den folgenden Listen werden die verfügbaren Ausdrücke definiert, die Sie ve
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>Dieser Ausdruck multipliziert alle Zahlen und ist wie folgt formatiert:<pre>PROD(number1, number2, ....</pre></td> 
+   <td>Dieser Ausdruck multipliziert alle Zahlen und ist wie folgt formatiert:<pre>PROD(number1, number2, ....</pre>
+   <b>NOTIZ</b>
+
+Stellen Sie beim Multiplizieren von Feldern, die Stunden enthalten, sicher, dass Sie verstehen, ob die Stunden in den ausgewählten Feldern in Minuten, Stunden oder Sekunden in der Datenbank gespeichert werden. Wenn die Stunden in Minuten oder Sekunden gespeichert, aber in Stunden auf der Workfront-Oberfläche angezeigt werden, müssen Sie beim Schreiben eines Ausdrucks mithilfe dieser Berechnung möglicherweise die Konvertierung von Minuten oder Sekunden in Stunden berücksichtigen.
+</td> 
   </tr> 
   <tr> 
    <td><strong>ROUND</strong> </td> 

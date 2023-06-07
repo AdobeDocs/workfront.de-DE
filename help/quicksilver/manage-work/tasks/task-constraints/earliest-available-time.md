@@ -7,7 +7,7 @@ description: Die früheste verfügbare Zeit ist eine Aufgabenbegrenzung, mit der
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -68,12 +68,16 @@ In diesem Fall:
 
 * **Früheste verfügbare Zeit:** Die Verwendung der frühesten Zeitbeschränkung für die Nachfolgeaufgabe gibt der flexiblen Beschränkung des Vorgängers Priorität.
 
-   **Beispiel:** Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe B so kurz wie möglich am Ende des Projekts geplant.
+   **BEISPIEL**
+
+   Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe B so kurz wie möglich am Ende des Projekts geplant.
 
    ![Die früheste Zeitbeschränkung für &quot;Verfügbare Zeit&quot;, wenn die Aufgabe die Daten nahe dem Abschlussdatum des Projekts hat](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
 * **So bald wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So bald wie möglich für die Nachfolgeaufgabe der Nachfolgeaufgabe die Priorität ein.
 
-   **Beispiel:**  Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird Aufgabe B so nahe wie möglich am Projektstart geplant.
+   **BEISPIEL**
+
+   Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird Aufgabe B so nahe wie möglich am Projektstart geplant.
 
    ![Sofort wie möglich Beschränkung, wenn die Aufgabe die Daten nahe dem Startdatum des Projekts hat](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
