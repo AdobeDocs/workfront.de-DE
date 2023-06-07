@@ -8,9 +8,9 @@ description: Sie können das Text-Parser-Tool verwenden, um Text zur Verwendung 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -226,9 +226,6 @@ Sucht den eingegebenen Text nach einem bestimmten Wert oder regulären Ausdruck 
 
 ### Datenauswertung
 
-Beim Datenscraping, manchmal auch als Web-Scraping, Datenextraktion oder Webernte bezeichnet, werden Daten von Websites erfasst und in Ihrer lokalen Datenbank oder in Tabellen gespeichert. Wenn Sie Daten von einer Website löschen möchten und Sie nicht mit regulären Ausdrücken vertraut sind, können Sie ein Tool zum Datenscraping verwenden:
-
-* [Apify](https://apify.com/)
-* [Best Data Scraping Tools für 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
+Beim Datenscraping, manchmal auch als Web-Scraping, Datenextraktion oder Webernte bezeichnet, werden Daten von Websites erfasst und in Ihrer lokalen Datenbank oder in Tabellen gespeichert. Wenn Sie Daten von einer Website löschen möchten und Sie nicht mit regulären Ausdrücken vertraut sind, können Sie ein Tool zum Scraping von Daten verwenden.
 
 Wenn das Daten-Scraping-Tool eine REST-API bereitstellt, können Sie über unsere universelle [[!UICONTROL HTTP] Module](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) und [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) Module.
