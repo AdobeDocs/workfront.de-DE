@@ -6,16 +6,22 @@ title: Konfigurieren des Rückstands auf einer Workstream-Pinnwand
 description: Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden.
 author: Lisa
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
+source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren des Rückstands auf einer Workstream-Pinnwand
 
-Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden. Diese Optionen sind auf Standalone-Pinnwänden nicht verfügbar. Weitere Informationen zum Hinzufügen einer Ansaugspalte zu einer Standalone-Pinnwand finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden.
+
+>[!NOTE]
+>
+>Wenn Sie eine neue Karte in die Spalte &quot;Backlog&quot;einfügen, die nicht den Abfragekriterien entspricht, verschwindet die Karte beim Aktualisieren der Pinnwand aus dem Backlog und ist nur in der Kartenliste verfügbar. Sie können die Abfrage jederzeit ändern, um die Karten anzupassen, die in der Spalte &quot;Rückstand&quot;angezeigt werden.
+
+Die Spalte mit dem Rückstand und die Abfrage sind auf Standalone-Pinnwänden nicht verfügbar. Weitere Informationen zum Hinzufügen einer Ansaugspalte zu einer Standalone-Pinnwand finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Zugriffsanforderungen
 
@@ -55,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Möglicherweise wird bereits eine Standardabfrage auf den Rückstand angewendet, die alle Arbeitselemente aus der Kartenliste anzeigt, die nicht zu einer Iteration gehören und sich nicht im Status Abgeschlossen befinden.
+   >Eine Standardabfrage kann bereits auf den Rückstand angewendet werden, um alle Arbeitselemente aus der Kartenliste anzuzeigen, die einen Status haben und deren Status nicht abgeschlossen ist.
 
 1. Klicken [!UICONTROL **Bedingung hinzufügen**] und klicken Sie in das Feld &quot;leer&quot;.
 1. Wählen Sie das Feld aus, nach dem abgefragt werden soll.
