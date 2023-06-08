@@ -6,10 +6,10 @@ description: Bedingte Formatierung im Textmodus verwenden
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 2%
+source-wordcount: '1743'
+ht-degree: 1%
 
 ---
 
@@ -295,7 +295,6 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Diese Anweisung kann zwar auf eine Spalte mit dem Unternehmensnamen angewendet werden, kann aber auch auf jede andere Spalte im Bericht angewendet werden. Grüner Text wird nur angezeigt, wenn dem Projekt ein Unternehmen zugeordnet ist. Speichern Sie die `[field name]`, `[value]`und `[qualifier]` steuern, ob die Bedingung letztendlich in der Spalte angezeigt wird oder nicht.
 >* Beim Arbeiten mit Qualifikatoren wird empfohlen, `cicontains` anstelle von `equal`. Standardmäßig `equal` sucht nach ID-Nummern. Verwenden der `cicontains` qualifiziert, können Sie auf Elemente nach ihrem Namen zugreifen.
 
-
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
@@ -322,7 +321,7 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 | Rot | `d30519` |
 | Gelb | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Ausrichtung** | **Zeile: align=** |
 |---|---|
@@ -330,14 +329,14 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 | Rechtsausrichtung | `right` |
 | Ausrichtung zentrieren | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | Schriftart | Zeile: ***fontstyle=*** |
 |---|---|
 | Fett | `bold` |
 | Kursiv | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Hintergrundfarbe** | **Zeile: bgcolor=** |
 |---|---|
@@ -350,7 +349,7 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 | Gelb | `feecc8` |
 | Weiß | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### Mehrere bedingte Formate {#multiple-conditional-formats}
 
@@ -375,8 +374,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >[!NOTE]
 >
 >Wenn Sie mehr als einen bedingten Formatierungsausdruck einschließen, müssen Sie jeden Ausdruck in der Anweisung numerisch identifizieren. Beachten Sie, dass Ausdruck 0 und Ausdruck 1 identifiziert wurden.
-
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
 #### Text anwenden {#apply-text}
 
@@ -553,7 +550,7 @@ Um die verfügbaren Bilder zu verwenden, wenden Sie den folgenden Code und die f
 | Weißer Kreis ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Gelber Kreis ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Bedingtes Formatieren eines `valueexpression` {#conditionally-format-a-valueexpression}
 
@@ -580,9 +577,9 @@ Beachten Sie beim Hinzufügen von Aggregatoren zu einer Spalte im Textmodus Folg
 * Sie können einer Spalte, die eine Berechnung anzeigt, einen Aggregator hinzufügen. Der aggregierte Wert wird in der Gruppierung der Ansicht oder des Berichts angezeigt. Weitere Informationen finden Sie unter [Gruppierung: das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Die Codezeilen für die Spaltendefinition müssen mit den Codezeilen übereinstimmen, die den Aggregator einführen, und dem &quot;Aggregator&quot;vorangehen. Wenn Sie beispielsweise eine Spalte haben, in der Sie geplante Stunden für ein Projekt anzeigen, lautet der Textmodus der Hauptzeilen der Spalte:
 
-   ```
-   valuefield=workRequired
-   valueformat=compound
-   ```
+  ```
+  valuefield=workRequired
+  valueformat=compound
+  ```
 
-   Wenn Sie den Wert aller Zeilen in der Gruppierung der Ansicht aggregieren möchten, können wir den folgenden Code hinzufügen, um die Aggregatorwerte hinzuzufügen: `aggregator.valuefield=workRequired` (der `aggregator.valuefield` muss mit dem `valuefield` beschreibt die Spalte) `aggregator.valueformat=compound` (der `aggregator.valueformat` muss denselben Wert wie die `valueformat` beschreibt die Spalte) `aggregator.function=SUM` (Dies ist eine obligatorische Zeile, die anzeigt, wie Sie die Spalte aggregieren möchten. In diesem Fall möchten Sie alle geplanten Stunden in einer Zahl in der Gruppierungszeile hinzufügen.) `aggregator.displayformat=minutesAsHoursString` (Da Stunden in Workfront in Minuten gespeichert werden, soll die `displayformat` für Stunden, in denen sie in Minuten gespeichert werden)
+  Wenn Sie den Wert aller Zeilen in der Gruppierung der Ansicht aggregieren möchten, können wir den folgenden Code hinzufügen, um die Aggregatorwerte hinzuzufügen: `aggregator.valuefield=workRequired` (der `aggregator.valuefield` muss mit dem `valuefield` beschreibt die Spalte) `aggregator.valueformat=compound` (der `aggregator.valueformat` muss denselben Wert wie die `valueformat` beschreibt die Spalte) `aggregator.function=SUM` (Dies ist eine obligatorische Zeile, die anzeigt, wie Sie die Spalte aggregieren möchten. In diesem Fall möchten Sie alle geplanten Stunden in einer Zahl in der Gruppierungszeile hinzufügen.) `aggregator.displayformat=minutesAsHoursString` (Da Stunden in Workfront in Minuten gespeichert werden, soll die `displayformat` für Stunden, in denen sie in Minuten gespeichert werden)

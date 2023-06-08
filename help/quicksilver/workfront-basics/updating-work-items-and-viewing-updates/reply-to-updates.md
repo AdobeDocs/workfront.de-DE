@@ -6,7 +6,7 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 >
 >* Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
 >
->  Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
+>     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
 >
->  Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
 >
->  * Startseite
->  * Zusammenfassungsbereich in Listen
->  * Zusammenfassungsbereich in Timesheets
+>     * Startseite
+>     * Zusammenfassungsbereich in Listen
+>     * Zusammenfassungsbereich in Timesheets
 >
 >* Ziele
 >

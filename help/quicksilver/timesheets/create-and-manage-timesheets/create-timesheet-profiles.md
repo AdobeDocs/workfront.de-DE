@@ -6,9 +6,9 @@ description: Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, d
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Verfügbare Stundentypen</strong> </td> 
-      <td>Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einem Timesheet. Wenn Ihre Organisation jedoch nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe anzeigen möchte, können Sie die allgemeinen Stunden auswählen, die sie in ihren Timesheets sehen möchten, indem Sie sie in ihrem Timesheet-Profil in diesem Feld auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, deaktivieren Sie alle Stundentypen, um das Timesheet ohne Abschnitt für allgemeine Stunden zu erstellen.</td> 
+      <td><p>Diese Einstellung bezieht sich nur auf die allgemeinen Stundentypen und nicht auf projektspezifische Stundentypen. </p>
+      <p>Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einem Timesheet. Wenn Ihre Organisation jedoch nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe anzeigen möchte, können Sie die allgemeinen Stunden auswählen, die sie in ihren Timesheets sehen möchten, indem Sie sie in ihrem Timesheet-Profil in diesem Feld auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, deaktivieren Sie alle Stundentypen, um das Timesheet ohne Abschnitt für allgemeine Stunden zu erstellen.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
@@ -158,7 +159,6 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >* Sie können einen Benutzer auch mit einem Zeitblatt-Profil verknüpfen, indem Sie das Benutzerprofil bearbeiten. Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Wenn Sie eine Gruppe hinzufügen, wird nur der Gruppenname auf der Registerkarte &quot;Personen zuweisen&quot;angezeigt, nicht die Liste der Gruppenmitglieder. Wenn Sie die hier aufgelisteten Gruppenmitglieder sehen möchten, klicken Sie auf Änderungen speichern und dann auf den Namen des soeben erstellten Timesheet-Profils.
    >* Wenn Sie diese Schritte abschließen, generiert das Timesheet-Profil nur Timesheets für die zugewiesenen Benutzer oder Gruppenmitglieder, die keine Timesheets für den aktuellen Zeitraum haben.
-
 
 1. Klicken **Änderungen speichern**.
 
