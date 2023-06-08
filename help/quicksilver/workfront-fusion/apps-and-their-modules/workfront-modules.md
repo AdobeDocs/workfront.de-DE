@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
 workflow-type: tm+mt
-source-wordcount: '5345'
+source-wordcount: '5378'
 ht-degree: 3%
 
 ---
@@ -76,11 +76,10 @@ Sie können eine Verbindung zu Ihrem [!DNL Workfront] direkt in einer [!DNL Work
    >[!NOTE]
    >
    >* Wenn keine Schaltfläche zum Anmelden bei SAML angezeigt wird, hat Ihr Unternehmen Single Sign-On (SSO) nicht aktiviert. Sie können sich mit Ihrem Benutzernamen und Passwort anmelden.
-      >   
-      >   Weitere Informationen zur einmaligen Anmeldung finden Sie unter [Übersicht über Single Sign-on [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   Weitere Informationen zur einmaligen Anmeldung finden Sie unter [Übersicht über Single Sign-on [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
    >   
    >* OAuth 2.0-Verbindungen zum [!DNL Workfront] API ist nicht mehr auf API-Schlüssel angewiesen.
-
 
 ## [!DNL Workfront] Module und ihre Felder
 
@@ -345,6 +344,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
 >* Beim Eingeben des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort), können Sie HTML-Tags in der [!UICONTROL Hinweis Text] -Feld, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
 >  Weitere Informationen zu Rich-Text in Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -391,6 +391,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
 >* Beim Eingeben des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort), können Sie HTML-Tags in der [!UICONTROL Hinweis Text] -Feld, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
 >  Weitere Informationen zu Rich-Text in Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -403,7 +404,7 @@ Das Modul gibt die folgenden Informationen zurück:
 * **[!UICONTROL Status-Code]** (Zahl): Dies zeigt an, ob Ihre HTTP-Anforderung erfolgreich oder fehlgeschlagen ist. Dies sind Standardcodes, die Sie im Internet nachschlagen können.
 * **[!UICONTROL Kopfzeilen]** (Objekt): Ein detaillierterer Kontext für den Antwort-/Status-Code, der sich nicht auf den Ausgabetext bezieht. Nicht alle Header, die in einem Antwortheader angezeigt werden, sind Antwortheader, sodass einige möglicherweise nicht nützlich für Sie sind.
 
-   Die Antwortheader hängen von der HTTP-Anforderung ab, die Sie beim Konfigurieren des Moduls ausgewählt haben.
+  Die Antwortheader hängen von der HTTP-Anforderung ab, die Sie beim Konfigurieren des Moduls ausgewählt haben.
 
 * **[!UICONTROL body]** (Objekt): Je nach der HTTP-Anforderung, die Sie beim Konfigurieren des Moduls ausgewählt haben, erhalten Sie möglicherweise einige Daten zurück. Diese Daten, z. B. die Daten aus einer GET-Anfrage, sind in diesem Objekt enthalten.
 
@@ -657,6 +658,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
 >* Beim Eingeben des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort), können Sie HTML-Tags in der [!UICONTROL Hinweis Text] -Feld, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
 >  Weitere Informationen zu Rich-Text in Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -741,7 +743,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 +++
 
-+++ **[!UICONTROL Suchen]**
++++ **[!UICONTROL Suche]**
 
 Dieses Suchmodul sucht nach Datensätzen in einem Objekt in [!DNL Workfront] die mit der angegebenen Suchabfrage übereinstimmen.
 
@@ -1675,14 +1677,13 @@ Die folgenden Operatoren sind im Filter Workfront > Ereignisse überwachen verf�
 * Kleiner oder gleich
 * Enthält
 * Vorhanden
+   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
 * Nicht vorhanden
+   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
 * Geändert
-
->[!NOTE]
->
-> * Die `Exists`, `Does not exist`und `Changed` -Operatoren benötigen keinen Wert und das Wertefeld fehlt in diesen Optionen.
-> * Die `Changed` ignoriert das Feld Status .
-
+   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
+   * Dieser Operator ignoriert das Feld Status .
+   * Bei Verwendung von `Changed`auswählen **Nur aktualisierte Ereignisse** im **Ursprung des Datensatzes** -Feld.
 
 >[!IMPORTANT]
 >
