@@ -7,9 +7,9 @@ description: In diesem Dokument wird beschrieben, wie Sie Hilfe beim Wiederherst
 feature: System Setup and Administration
 role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sie können die exportierten Daten wie folgt importieren:
 
 Die Vorschau-Sandbox-Umgebung wird während unserer Wartungsfenster am Wochenende aktualisiert.
 
-Weitere Informationen zu den Wartungsfenstern für die Sandbox-Vorschauumgebung finden Sie unter [trust.workfront.com](https://trust.workfront.com/).
+Weitere Informationen zu den Wartungsfenstern für die Sandbox-Vorschauumgebung finden Sie unter [die Statussite der Adobe](https://status.adobe.com/de).
 
 >[!IMPORTANT]
 >
