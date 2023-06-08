@@ -4,10 +4,10 @@ description: Konfigurieren der Kreisvisualisierung in der Berichtsarbeitsfläche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Eine Tortenvisualisierung kann Ihnen dabei helfen, eine Geschichte über Ihre Da
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Kreisvisualisierung konfigurieren
 
@@ -64,7 +64,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
       |---|---|
       | Datenquelle anzeigen | Aktivieren Sie diese Option, um die Quelltabelle für die Visualisierung auf der Berichtsarbeitsfläche anzuzeigen, oder deaktivieren Sie die Option zum Ausblenden. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
 <!--   
       NOLAN-FLAG: convert table to html. 

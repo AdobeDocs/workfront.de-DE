@@ -4,10 +4,10 @@ description: Konfigurieren einer KPI-Visualisierung in der Berichtsarbeitsfläch
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Eine KPI-Visualisierung (Key Performance Indicator) kann Ihnen dabei helfen, die
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurieren einer KPI-Visualisierung
 
@@ -64,7 +64,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
       |---|---|
       | Datenquelle anzeigen | Aktivieren Sie diese Option, um die Quelltabelle für die Visualisierung auf der Berichtsarbeitsfläche anzuzeigen, oder deaktivieren Sie die Option zum Ausblenden. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

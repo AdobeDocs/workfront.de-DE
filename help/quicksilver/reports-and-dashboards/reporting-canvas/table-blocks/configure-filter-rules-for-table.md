@@ -5,7 +5,7 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Eine Filterregel enthält drei Komponenten:
    <td> <p>Das Feld, das die Informationen enthält, nach denen Sie Ihre Tabelle filtern möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Operator</td> 
+   <td role="rowheader">Benutzerin oder Benutzer</td> 
    <td> <p>Die Art und Weise, wie der Filter bestimmt, welche Feldwerte in Ihre Tabelle aufgenommen oder daraus ausgeschlossen werden. </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +44,7 @@ Oder Sie können nur Projekte anzeigen, denen ein Projekteigentümer zugewiesen 
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurieren von Filterregeln für eine Tabelle
 

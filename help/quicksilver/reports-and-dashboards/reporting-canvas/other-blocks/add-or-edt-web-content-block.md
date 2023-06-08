@@ -6,10 +6,10 @@ description: Mit Webinhaltblöcken können Sie Informationen von externen Websit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Mit Webinhaltblöcken können Sie Informationen von externen Websites direkt in 
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Webinhaltsbausteine hinzufügen oder bearbeiten
 
@@ -70,7 +70,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    | Ungültige URL | Die eingegebene URL gibt keine gültige Site zurück. |
    | Einschränkungen der Website des Anbieters | Die Site, die Sie einbetten möchten, ist nicht zulässig. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optional) Klicken Sie auf die **Parameter übergeben** Umschalten, um eine Liste der verfügbaren Übergabeparameter zu öffnen.
 

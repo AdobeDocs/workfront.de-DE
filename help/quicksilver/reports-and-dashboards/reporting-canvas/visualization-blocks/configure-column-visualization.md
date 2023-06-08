@@ -4,10 +4,10 @@ description: Konfigurieren einer Spaltenvisualisierung auf der Berichtsarbeitsfl
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 2%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Eine Spaltenvisualisierung kann Ihnen dabei helfen, schnell eine Geschichte übe
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Spaltenvisualisierung konfigurieren
 
@@ -64,7 +64,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
       |---|---|
       | Datenquelle anzeigen | Aktivieren Sie diese Option, um die Quelltabelle für die Visualisierung auf der Berichtsarbeitsfläche anzuzeigen, oder deaktivieren Sie die Option zum Ausblenden. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

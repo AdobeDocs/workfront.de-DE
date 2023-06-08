@@ -4,9 +4,9 @@ description: Konfigurieren einer Tabellenspalte auf der Berichtsarbeitsfläche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Die Spalten einer Tabelle können für die Anzeige konfiguriert werden. Sie kön
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Spalten in einer Tabelle ändern
 
@@ -45,7 +45,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    | Verschieben einer Spalte | Um die Reihenfolge der Spalten in einer Tabelle neu anzuordnen, klicken Sie auf einen Spaltennamen und ziehen Sie ihn an eine neue Position. |
    | Spalte löschen | Um eine Spalte aus einer Tabelle zu löschen, klicken Sie auf die Spalte, die Sie löschen möchten, und dann auf das x rechts neben dem Spaltennamen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Um eine Spalte zu konfigurieren, klicken Sie in der Kopfzeile der Tabelle auf den Namen der Spalte, die Sie ändern möchten, und dann auf eine der folgenden Registerkarten im rechten Bereich:
 

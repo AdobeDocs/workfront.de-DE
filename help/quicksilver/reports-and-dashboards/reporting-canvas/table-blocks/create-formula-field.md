@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ Mit dem Feld-Builder auf der Arbeitsfläche für die Berichterstellung können S
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Erstellen eines Formelfelds
 
@@ -67,6 +67,6 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    | DATEDIFF | Berechnet die Gesamtanzahl von Tagen zwischen zwei Daten, auf eine Dezimalstelle gerundet. | Zahl |
    | WEEKDAYDIFF | Berechnet die Anzahl der Wochentage zwischen zwei Daten, auf eine Dezimalstelle gerundet. | Zahl |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicken Sie auf **Zurück** in der oberen linken Ecke des Bildschirms, um zu Ihrer Tabelle zurückzukehren.
