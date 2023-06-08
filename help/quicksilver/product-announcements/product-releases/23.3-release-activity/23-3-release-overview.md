@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbessertes Erlebnis beim Verschieben eines Dokuments in einen verknüpften Ordner mit Drag &amp; Drop</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p> 
+                        <p>Wir haben eine gewisse Transparenz beim Ziehen und Ablegen eines Dokuments in einen verknüpften Ordner hinzugefügt. Das Dokument, das Sie in einen verknüpften Ordner verschoben haben, verbleibt nun in der Dokumentliste, bis es vollständig verschoben wurde. Die Dokumentoptionen sind deaktiviert, Sie können das Dokument jedoch während des Verschieben weiterhin zur Ansicht öffnen. Wenn das Dokument die Übertragung abgeschlossen hat, verschwindet es aus der Dokumentliste, da es sich jetzt vollständig im verknüpften Ordner befindet. </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 7. Juni 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 15. Juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch verknüpfte Ordner mit Adobe Experience Manager Assets erstellen, wenn ein Projekt erstellt wird</a></p>
                         <p>Mit dem neuen Workflow Verknüpften Ordner für die Adobe Experience Manager-Integration erstellen können Sie die Integration mit einem Pfad zu einem Adobe Experience Manager Assets-Ordner konfigurieren. Wenn die Integration zu einer Projektvorlage hinzugefügt wird, erstellen alle aus der Vorlage erstellten Projekte automatisch einen verknüpften Unterordner in Experience Manager Assets im angegebenen Ordner. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neue Dokumentgenehmigungen</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändern der Unterstützung für Microsoft Office-Testsendungen</a> </p>
+                        <p>Um eine robuste und skalierbare Testversandlösung zu erhalten, ändern wir die unterstützten Microsoft Office-Dateitypen und -Dateigrößenbeschränkungen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 8. Juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: 8. Juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neue Dokumentgenehmigungen</a> </p>
                         <p>Dokumentgenehmigungen werden in einem schrittweisen Rollout neu gestaltet, das mit jeder Version mehr Benutzern zur Verfügung gestellt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neues Kommentierungserlebnis für Beta für Projekte, Aufgaben und Dokumente</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Neues Kommentierungserlebnis für Beta für Projekte, Aufgaben und Dokumente</a> </p>
                         <p>Das neue Beta-Kommentarerlebnis ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das Beta-Kommentarerlebnis nur für Probleme und Ziele verfügbar.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Neue Verbesserungen beim Canvas-Dashboard</a></p>
+                        <p>Verbesserungen am Canvas-Dashboard werden innerhalb des Veröffentlichungszeitrahmens von 23.3 bereitgestellt. Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumgebung mit Version 23.3 bereitgestellt. 
+ </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Veröffentlichung: Während des Veröffentlichungszeitrahmens 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion: Mit Version 23.3 (sofern nicht anders angegeben)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

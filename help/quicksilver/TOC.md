@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 1%
          * [23.3. Woche der Veröffentlichungsaktivität vom 8. Mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [Woche der Veröffentlichungsaktivität der Version 23.3 vom 15. Mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3. Woche der Veröffentlichungsaktivität vom 29. Mai 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [23.3. Woche der Veröffentlichungsaktivität vom 5. Juni 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Version 23.2 {#release-23-2}
          * [23.2 Versionsübersicht](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 1%
          * [2.3 Versionsübersicht](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3 Verbesserungen für Administratoren](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [2.3 Integrationsverbesserungen](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [22.3 Verbesserungen für Mobilgeräte ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [2.3 Weitere Verbesserungen ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [2.3 Projektverbesserungen ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [2.3 Verbesserungen bei der Ressourcenverwaltung ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [2.3 Verbesserungen bei der Berichterstellung ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [22.3 Verbesserungen für Mobilgeräte](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [2.3 Weitere Verbesserungen](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [2.3 Projektverbesserungen](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [2.3 Verbesserungen bei der Ressourcenverwaltung](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [2.3 Verbesserungen bei der Berichterstellung](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * Version 22.2 {#release-22-2}
          * [2.2 Versionsübersicht](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
