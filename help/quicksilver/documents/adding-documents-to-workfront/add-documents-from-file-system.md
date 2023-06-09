@@ -6,9 +6,9 @@ description: Sie können in den folgenden Bereichen in Adobe Workfront - EDIT ME
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
+source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Sie können Workfront über das Dateisystem auf Ihrer Workstation neue Dokumente
 So fügen Sie ein Dokument hinzu:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf **Dokumente** und klicken Sie auf die **Neu hinzufügen** Dropdown-Menü.
+1. Klicken Sie auf **Dokumente** und klicken Sie auf die **Neu hinzufügen** Dropdown-Menü.
 
    ![](assets/add-new-350x138.png)
 
@@ -76,16 +76,17 @@ So fügen Sie ein Dokument hinzu:
       <td role="rowheader">Hochladen von Dokumenten aus Ihrem Dateisystem auf Ihre Workstation</td> 
       <td> 
        <ol> 
-        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Dokument.</strong></li> 
+        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Dokument.</strong></li> 
         <li value="2"> <p>Suchen Sie das Dokument, das Sie hinzufügen möchten, und wählen Sie es aus dem Dateisystem auf Ihrer Workstation aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste drücken, während Sie zusätzliche Dateien auswählen.</p> </li> 
         <li value="3">Klicken <strong>Öffnen</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>NOTE</b>: Sie können Dateien auch direkt aus Ihrem Dateimanager in die Dokumentliste ziehen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hochladen von Dokumenten von einer Drittanbieteranwendung wie Google Drive oder SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Von &lt;name_of_third-party_application&gt;</strong>.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Vom Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Von &lt;name_of_third-party_application&gt;</strong>.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Vom Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument in der Drittanbieteranwendung auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten mit externen Anwendungen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -93,7 +94,7 @@ So fügen Sie ein Dokument hinzu:
       <td role="rowheader">Anfordern eines Dokuments von einem anderen Workfront-Benutzer</td> 
       <td> 
        <ol> 
-        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Anfordern eines Dokuments</strong>.</li> 
+        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Anfordern eines Dokuments</strong>.</li> 
         <li value="2">Im <strong>Von wem angefordert du es?</strong> Geben Sie den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
         <li value="3">Im <strong>Sagen Sie ihnen, was Sie anfordern</strong> den Namen des Dokuments eingeben.</li> 
         <li value="4"> <p>Klicken <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 

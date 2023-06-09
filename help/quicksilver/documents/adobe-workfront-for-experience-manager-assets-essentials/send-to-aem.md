@@ -6,9 +6,9 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets od
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,21 @@ So senden Sie die neueste Version:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klicken Sie auf **Speichern**. Die neue Version speichert am selben Speicherort wie die vorherige Version.
+
+## Verschieben eines Dokuments in einen verknüpften Ordner in Experience Manager Assets
+
+>[!NOTE]
+>
+>Diese Funktion ist nur für Experience Manager Assets as a Cloud Service verfügbar. Es ist nicht für Experience Manager Assets Essentials verfügbar.
+
+Sie können ein Dokument in einen verknüpften Ordner in Experience Manager Assets verschieben, wenn sich sowohl das Dokument als auch der verknüpfte Ordner in derselben Dokumentliste befinden (z. B. im Dokumentbereich eines Projekts).
+
+1. Suchen Sie das Dokument, das Sie verschieben möchten.
+1. Ziehen Sie das Dokument in den verknüpften Ordner von Experience Manager Assets, in den Sie es verschieben möchten.
+
+Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar. Nachdem das Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
+
+>[!NOTE]
+>
+> Alle Aktionen oder Bearbeitungen, die Sie während des Bearbeitungsvorgangs am Dokument vornehmen, werden nicht im Dokument in Experience Manager Assets angezeigt und gehen daher verloren.
+

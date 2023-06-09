@@ -6,9 +6,9 @@ description: Sie können Dokumente und Ordner aus den folgenden Quellen mit Adob
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 0ecee45183f5bc77a1c4a489013e486d8c26094c
+source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
 
 Bevor Sie Dokumente oder Ordner verknüpfen, muss Ihr Workfront-Administrator diese Funktion für jeden Dokumentanbieter oder für eine benutzerdefinierte Dokumentintegration aktivieren, wie hier beschrieben: [Dokumentintegrationen konfigurieren](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Sie können Dokumente, die mit einem externen Cloud-Anbieter verknüpft sind, auf die gleiche Weise wie Dokumente, die direkt in Workfront hochgeladen wurden, testen und genehmigen. 
+Sie können Dokumente, die mit einem externen Cloud-Anbieter verknüpft sind, auf die gleiche Weise wie Dokumente, die direkt in Workfront hochgeladen wurden, testen und genehmigen.
 
 ## Zugriffsanforderungen
 
@@ -89,7 +89,7 @@ Dokumente, die von einer externen Anwendung mit Workfront verknüpft sind, werde
 Es gelten die folgenden Ausnahmen:
 
 * Wenn sie vom Document Service bereitgestellt werden, können Miniaturansichten und Vorschaubilder auf Workfront-Servern gespeichert werden.
-* Wenn Sie in Workfront Testsendungen verwenden, wird das Dokument kopiert und den Testservern hinzugefügt. 
+* Wenn Sie in Workfront Testsendungen verwenden, wird das Dokument kopiert und den Testservern hinzugefügt.
 
 ## Verknüpfen eines Dokuments aus einer externen Anwendung mit Workfront
 
@@ -133,17 +133,19 @@ Sie können Dokumente über eine externe Anwendung wie Google und Microsoft OneD
 
    Sie können zwar mehrere Dokumente auswählen, es werden jedoch nur die in der aktuellen Ansicht ausgewählten Dokumente verknüpft. Wenn Sie beispielsweise ein Dokument auswählen und dann in einen Ordner wechseln, wird das ursprünglich ausgewählte Dokument nicht verknüpft.
 
-1. (Bedingt) Wenn Sie Workfront DAM-Kunde sind, klicken Sie auf die **Miniatur** -Symbol, um Dateien als Miniaturansichten anzuzeigen.
+1. (Bedingt) Wenn Sie Workfront DAM-Kunde sind, klicken Sie auf die **Miniatur** -Symbol, um Dateien als Miniaturansichten anzuzeigen.
 
    >[!NOTE]
-   Workfront DAM-Kunden können beim Verknüpfen von Dokumenten aus Workfront DAM Miniaturansichten anzeigen. Miniaturansichten werden möglicherweise auch für Workfront DAM-Kunden für andere Dienste wie Dropbox und Box angezeigt. Das Anzeigen von Miniaturansichten für andere Dienste als Workfront DAM in Workfront wird jedoch nicht unterstützt und Miniaturansichten werden beim Verknüpfen von Dokumenten von SharePoint oder Google Drive nie angezeigt.
+   >
+   >Workfront DAM-Kunden können beim Verknüpfen von Dokumenten aus Workfront DAM Miniaturansichten anzeigen. Miniaturansichten werden möglicherweise auch für Workfront DAM-Kunden für andere Dienste wie Dropbox und Box angezeigt. Das Anzeigen von Miniaturansichten für andere Dienste als Workfront DAM in Workfront wird jedoch nicht unterstützt und Miniaturansichten werden beim Verknüpfen von Dokumenten von SharePoint oder Google Drive nie angezeigt.
 
 1. Klicken **Link**.
 
    In Workfront wird neben den Dokumenten das Symbol des Cloud-Anbieters angezeigt.
 
    >[!NOTE]
-   Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
+   >
+   >Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
 
 ### Neue Version eines verknüpften Dokuments hinzufügen {#add-a-new-version-of-a-linked-document}
 
@@ -152,7 +154,8 @@ Sie können eine neue Version eines mit Workfront verknüpften Dokuments aus ein
 1. Navigieren Sie zu **Dokumente** Bereich, in dem das Dokument verknüpft ist, und wählen Sie dann das verknüpfte Dokument aus.
 
    >[!IMPORTANT]
-   Das Dokument muss sich außerhalb eines verknüpften Ordners befinden, um eine neue Version zu erstellen.
+   >
+   >Das Dokument muss sich außerhalb eines verknüpften Ordners befinden, um eine neue Version zu erstellen.
 
 1. Klicken **Neu hinzufügen** > **Version** und klicken Sie dann auf den externen Dokumentanbieter.
 
@@ -171,25 +174,27 @@ Sie können eine neue Version eines mit Workfront verknüpften Dokuments aus ein
 
    Navigieren Sie zu den Dokumenten, die Sie verknüpfen möchten, und wählen Sie sie aus.
 
-   Sie können mehrere Dokumente auswählen. Es werden jedoch nur Dokumente verknüpft, die in der aktuellen Ansicht ausgewählt sind. Wenn Sie beispielsweise ein Dokument auswählen und dann in einen Ordner wechseln, wird das ursprünglich ausgewählte Dokument nicht verknüpft.
+   Sie können mehrere Dokumente auswählen. Es werden jedoch nur Dokumente verknüpft, die in der aktuellen Ansicht ausgewählt sind. Wenn Sie beispielsweise ein Dokument auswählen und dann in einen Ordner wechseln, wird das ursprünglich ausgewählte Dokument nicht verknüpft.
 
-1. (Bedingt) Wenn Sie Workfront DAM-Kunde sind, klicken Sie auf die **Miniatur** -Symbol, um Dateien als Miniaturansichten anzuzeigen.
+1. (Bedingt) Wenn Sie Workfront DAM-Kunde sind, klicken Sie auf die **Miniatur** -Symbol, um Dateien als Miniaturansichten anzuzeigen.
 
    >[!NOTE]
-   Workfront DAM-Kunden können beim Verknüpfen von Dokumenten aus Workfront DAM Miniaturansichten anzeigen. Miniaturansichten werden möglicherweise auch für Workfront DAM-Kunden für andere Dienste wie Dropbox und Box angezeigt. Das Anzeigen von Miniaturansichten für andere Dienste als Workfront DAM in Workfront wird jedoch nicht unterstützt und Miniaturansichten werden beim Verknüpfen von Dokumenten von SharePoint oder Google Drive nie angezeigt.
+   >
+   >Workfront DAM-Kunden können beim Verknüpfen von Dokumenten aus Workfront DAM Miniaturansichten anzeigen. Miniaturansichten werden möglicherweise auch für Workfront DAM-Kunden für andere Dienste wie Dropbox und Box angezeigt. Das Anzeigen von Miniaturansichten für andere Dienste als Workfront DAM in Workfront wird jedoch nicht unterstützt und Miniaturansichten werden beim Verknüpfen von Dokumenten von SharePoint oder Google Drive nie angezeigt.
 
 1. Klicken **Link**.
 
    In Workfront wird neben den Dokumenten das Symbol des Cloud-Anbieters angezeigt, das angibt, dass sie mit dem externen Cloud-Anbieter verknüpft sind.
 
    >[!NOTE]
-   Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
+   >
+   >Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
 
 Informationen zum Hinzufügen einer neuen Version eines Dokuments, das Sie aus Ihrem Dateisystem in Workfront hochgeladen haben, finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront-Testdokumente verknüpfen {#link-workfront-proof-documents}
 
-Sie können Testsendungen mit Workfront verknüpfen, die ursprünglich in Workfront Testversand vorhanden waren. Wenn Sie einen Testversand aus Workfront Testversand verknüpfen, sind alle mit dem Testversand verknüpften Kommentare und anderen Metadaten in Workfront verfügbar. 
+Sie können Testsendungen mit Workfront verknüpfen, die ursprünglich in Workfront Testversand vorhanden waren. Wenn Sie einen Testversand aus Workfront Testversand verknüpfen, sind alle mit dem Testversand verknüpften Kommentare und anderen Metadaten in Workfront verfügbar.
 
 Sie können nur die Testsendungen verknüpfen, für die Sie Zugriff auf &quot;Anzeigen&quot;im Workfront-Testversand haben.
 
@@ -197,7 +202,8 @@ Sie können nur die Testsendungen verknüpfen, für die Sie Zugriff auf &quot;An
 1. Klicken **Neu hinzufügen** Klicken Sie auf **Von Workfront Testing**.
 
    >[!NOTE]
-   Die Optionen in diesem Menü variieren je nachdem, welche Drittanbieter in Ihrer Umgebung konfiguriert sind.
+   >
+   >Die Optionen in diesem Menü variieren je nachdem, welche Drittanbieter in Ihrer Umgebung konfiguriert sind.
 
 1. Im **Link** proofs **von** Geben Sie in das Feld &quot;Workfront-Testversand&quot;den Namen des Testversands ein, den Sie in Workfront verfügbar machen möchten.
 
@@ -224,7 +230,8 @@ Sie können ein neues Google-Dokument in Workfront erstellen. Für andere Cloud-
    Ein Google-Dokument wird zum **Dokumente** Registerkarte.
 
    >[!NOTE]
-    Meine Festplatte und für mich freigegeben zeigen zwei unterschiedliche Ergebnisse an. Wenn Sie eine Datei in My Drive nicht finden können, überprüfen Sie den Ordner Für mich freigegeben .
+   >
+   > Meine Festplatte und für mich freigegeben zeigen zwei unterschiedliche Ergebnisse an. Wenn Sie eine Datei in My Drive nicht finden können, überprüfen Sie den Ordner Für mich freigegeben .
 
 ## Aktualisieren und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter
 
@@ -263,9 +270,9 @@ Beim Synchronisieren von Ordnerinhalten aus einer externen Dokumentanwendung ver
 * Wenn ein Benutzer in einem verknüpften Ordner in Workfront auf Inhalte zugreift (z. B. auf einen Unterordner in einem verknüpften Ordner), die von einem anderen Benutzer mit Workfront verknüpft wurden, wird der Inhalt mit Workfront unter Verwendung der Workfront-Anmeldedaten des Benutzers, der den Ordner ursprünglich verknüpft hat, synchronisiert, nicht mit den Anmeldedaten des Benutzers, der auf den Inhalt zugreift.
 
 >[!IMPORTANT]
-* Wenn der Benutzer, der den Ordner ursprünglich verknüpft hat, aus dem Workfront-System entfernt wird, können Benutzer nicht mehr über Workfront auf den Inhalt des verknüpften Ordners zugreifen. In diesem Fall muss der Ordner von einem aktiven Workfront-Benutzer, der über Berechtigungen für den Ordner in der externen Anwendung verfügt, neu verknüpft werden.
-* Wenn der Benutzer, der einen Ordner verknüpft hat, keinen Zugriff mehr auf die externe Anwendung hat, kann Workfront nicht mehr auf den Ordnerinhalt zugreifen. Dies kann beispielsweise der Fall sein, wenn der Benutzer, der den Ordner ursprünglich verknüpft hat, das Unternehmen verlässt. Um einen kontinuierlichen Zugriff sicherzustellen, muss ein Benutzer mit Zugriff auf den Ordner den Ordner erneut verknüpfen.
-
+>
+>* Wenn der Benutzer, der den Ordner ursprünglich verknüpft hat, aus dem Workfront-System entfernt wird, können Benutzer nicht mehr über Workfront auf den Inhalt des verknüpften Ordners zugreifen. In diesem Fall muss der Ordner von einem aktiven Workfront-Benutzer, der über Berechtigungen für den Ordner in der externen Anwendung verfügt, neu verknüpft werden.
+>* Wenn der Benutzer, der einen Ordner verknüpft hat, keinen Zugriff mehr auf die externe Anwendung hat, kann Workfront nicht mehr auf den Ordnerinhalt zugreifen. Dies kann beispielsweise der Fall sein, wenn der Benutzer, der den Ordner ursprünglich verknüpft hat, das Unternehmen verlässt. Um einen kontinuierlichen Zugriff sicherzustellen, muss ein Benutzer mit Zugriff auf den Ordner den Ordner erneut verknüpfen.
 
 ### Externe Ordner verknüpfen {#link-one-or-more-external-folders}
 
@@ -285,7 +292,8 @@ Beim Synchronisieren von Ordnerinhalten aus einer externen Dokumentanwendung ver
    Sie können mehrere Ordner auswählen. Es werden jedoch nur Ordner verknüpft, die in der aktuellen Ansicht ausgewählt sind. Wenn Sie beispielsweise einen Ordner auswählen und dann in einen Ordner wechseln, wird der ursprünglich ausgewählte Ordner nicht verknüpft.
 
    >[!NOTE]
-   Wenn Sie Ordner von Google Drive aus verknüpfen, können Sie nur Ordner verknüpfen, die sich in Ihrem persönlichen Laufwerk (My Drive) und Team Drive befinden. Sie können keine Ordner aus dem Bereich &quot;Für mich freigegeben&quot;verknüpfen.
+   >
+   >Wenn Sie Ordner von Google Drive aus verknüpfen, können Sie nur Ordner verknüpfen, die sich in Ihrem persönlichen Laufwerk (My Drive) und Team Drive befinden. Sie können keine Ordner aus dem Bereich &quot;Für mich freigegeben&quot;verknüpfen.
 
 1. Klicken **Link**.
 
@@ -310,26 +318,32 @@ Sie können einen neuen Ordner in einem vorhandenen verknüpften Ordner erstelle
    ![](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
-   Die folgenden Einschränkungen gelten beim Ziehen eines vorhandenen Workfront-Ordners in einen verknüpften Ordner:
-   * Der Ordner, den Sie ziehen, kann noch nicht verknüpft sein und keine bereits verknüpften Inhalte enthalten.
-   * Der Ordner (einschließlich des Inhalts), den Sie ziehen, darf 50 MB nicht überschreiten.
-
+   >
+   >Die folgenden Einschränkungen gelten beim Ziehen eines vorhandenen Workfront-Ordners in einen verknüpften Ordner:
+   >
+   >* Der Ordner, den Sie ziehen, kann noch nicht verknüpft sein und keine bereits verknüpften Inhalte enthalten.
+   >* Der Ordner (einschließlich des Inhalts), den Sie ziehen, darf 50 MB nicht überschreiten.
 
 ## Dokument zu einem verknüpften Ordner hinzufügen
 
 Wenn Sie ein Dokument über Workfront zu einem verknüpften Ordner hinzufügen, wird es automatisch als verknüpftes Dokument hinzugefügt.
 
-1. Im **Dokumente** Bereich, in dem Sie das Dokument speichern möchten, ziehen Sie das Dokument in einen verknüpften Ordner.
+1. Wählen Sie den Ordner aus, in dem das Dokument gespeichert werden soll, und klicken Sie auf **Neu hinzufügen > Dokument**, navigieren Sie zum Dokument und fügen Sie es dem Ordner hinzu.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left<br></p>
-   -->
+
 
    Oder
 
-   Wählen Sie den Ordner aus, in dem das Dokument gespeichert werden soll, und klicken Sie auf **Neu hinzufügen > Dokument**, navigieren Sie zum Dokument und fügen Sie es dem Ordner hinzu.
+   Im **Dokumente** Bereich, in dem Sie das Dokument speichern möchten, ziehen Sie das Dokument in einen verknüpften Ordner.
 
    Eine neue Dokumentversion wird automatisch in der externen Anwendung erstellt und mit Workfront verknüpft.
+
+>[!NOTE]
+>
+> * Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar. Nachdem das Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
+>
+> * Alle Aktionen oder Bearbeitungen, die Sie während des Bearbeitungsvorgangs am Dokument vornehmen, werden nicht im Dokument in Experience Manager Assets angezeigt und gehen daher verloren.
+
 
 ## Verknüpfte Dokumente oder Ordner löschen
 
@@ -347,4 +361,5 @@ Wenn Sie ein verknüpftes Dokument oder einen verknüpften Ordner umbenennen, is
 Wenn der Name in Workfront und in der externen Anwendung übereinstimmen soll, müssen Sie ihn an beiden Stellen umbenennen.
 
 >[!IMPORTANT]
-Benennen Sie ein Dokument in Workfront nicht um, das mit Dropbox verknüpft ist. Dadurch wird der Zugriff auf die Datei in Workfront verhindert. Benennen Sie stattdessen die Datei in Dropbox um und synchronisieren Sie sie dann erneut, wie unter [Verknüpfen von Dokumenten mit externen Anwendungen](#synchronizing-changes-made-on-a-linked-document).
+>
+>Benennen Sie ein Dokument in Workfront nicht um, das mit Dropbox verknüpft ist. Dadurch wird der Zugriff auf die Datei in Workfront verhindert. Benennen Sie stattdessen die Datei in Dropbox um und synchronisieren Sie sie dann erneut, wie unter [Verknüpfen von Dokumenten mit externen Anwendungen](#synchronizing-changes-made-on-a-linked-document).
