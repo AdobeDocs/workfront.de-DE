@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
+source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
 workflow-type: tm+mt
-source-wordcount: '13069'
+source-wordcount: '13077'
 ht-degree: 1%
 
 ---
@@ -214,6 +214,7 @@ ht-degree: 1%
       * Aktivität &quot;Workfront-Testversion&quot; {#proof-release}
          * Testversand mit Version 23.3 {#proof-23-3-release}
             * [Adobe Workfront-Testversand mit Version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront-Testversion 23.3: Woche vom 5. Juni 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront-Testversion 23.3: Woche vom 8. Mai 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront-Proof-Release-Aktivität: Woche vom 17. Mai 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront-Proof-Release-Aktivität: Woche vom 29. November 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
