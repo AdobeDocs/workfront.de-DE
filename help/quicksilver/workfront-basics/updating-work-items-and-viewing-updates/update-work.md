@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3211'
 ht-degree: 1%
 
 ---
@@ -27,22 +27,20 @@ ht-degree: 1%
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
-   >
-   >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
-   >
-   >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
-   >
-   >     * Startseite
-   >     * Zusammenfassungsbereich in Listen
-   >     * Zusammenfassungsbereich in Timesheets
+>
+>     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
+>
+>     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>
+>     * Startseite
+>     * Zusammenfassungsbereich in Listen
+>     * Zusammenfassungsbereich in Timesheets
 >
 > * Ziele
-
-   >
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Sie können den meisten Objekten in Adobe Workfront im Abschnitt Updates Kommentare hinzufügen. Weitere Informationen dazu, welche Objekte den Abschnitt Aktualisierungen anzeigen, finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ Die **Kommentare** ist standardmäßig ausgewählt.
    >
    >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
+1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
+   * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
+   * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. (Optional) Um Ihrer Aktualisierung Rich-Text-Formatierung hinzuzufügen, verwenden Sie eine der folgenden Optionen aus dem **Rich-Text** Symbolleiste zum Erweitern des Textes:
 
@@ -235,7 +236,6 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
    >
    >* Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
    >* Der Datumsstempel neben dem Kommentar ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Bearbeitung.
-
 
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, führen Sie dann die Schritte 4 bis 7 aus. <!--(**************insure this stays accurate***********)-->. Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
@@ -296,7 +296,6 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Wenn Ihr Unternehmen Workfront mit Internet Explorer verwendet, verliert jeder formatierte Text, der in eine Aktualisierung eingefügt wird, seine Rich-Text-Formatierung und wird als Nur-Text angezeigt. Sie können den Text mithilfe der Attribute in der Rich-Text-Symbolleiste neu formatieren.
    >* Die Rich-Text-Formatierung ist nicht für Aktualisierungen verfügbar, die im Bereich &quot;Timesheets&quot;vorgenommen werden, oder für die Objekte &quot;Hinweis&quot;und &quot;Letzte Bedingung&quot;in einem Bericht.
 
-
 1. (Optional) Wenn Sie Text aus früheren Aktualisierungen oder aus anderen Quellen einbeziehen und von Ihrer eigenen Aktualisierung unterscheiden möchten, können Sie ihn als Blockzitat markieren. Klicken Sie auf **Blockierungsangebot** icon ![](assets/block-quote-small.png) und geben Sie den Text ein, den Sie zitieren möchten. Der zitierte Text wird mit einer vertikalen grauen Linie markiert. Klicken Sie auf **Blockierungsangebot** erneut ein, um zur normalen Formatierung zurückzukehren.
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Ein nicht unterstütztes Emoji wird durch eine schwarze oder weiße Box dargestellt.
    >* Windows 7 unterstützt nur Schwarzweiß-Emojis.
    >* Emojis, die auf eine per E-Mail vorgenommene Aktualisierung angewendet werden, werden nicht in der Aktualisierung angezeigt, wenn sie im Bereich Updates angezeigt werden.
-
 
 1. (Optional) So fügen Sie einen URL-Link zu zusätzlichen Informationsquellen hinzu:
 
@@ -338,11 +336,10 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Auf Bilder kann über den Abschnitt Aktualisierungen eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente verfügbar.
    >* Sie können ein Update mit einem Bild und ohne Text senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, gibt es je nach ausgewähltem Erlebnis die folgenden Szenarien:
-      >
-      >     * Im aktuellen Kommentar-Erlebnis bleibt das Bild im Bereich Dokumente , ist jedoch nicht mehr im Abschnitt Aktualisierungen sichtbar.
-      >     * Im neuen Kommentarerlebnis wird das Bild sowohl aus dem Abschnitt Updates als auch aus dem Bereich Dokumente entfernt. Das Bild wird auch aus dem Bereich &quot;Dokumente&quot;gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
+   >
+   >     * Im aktuellen Kommentar-Erlebnis bleibt das Bild im Bereich Dokumente , ist jedoch nicht mehr im Abschnitt Aktualisierungen sichtbar.
+   >     * Im neuen Kommentarerlebnis wird das Bild sowohl aus dem Abschnitt Updates als auch aus dem Bereich Dokumente entfernt. Das Bild wird auch aus dem Bereich &quot;Dokumente&quot;gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
    >* Wenn jemand ein Bild löscht, das mit einem Kommentar verknüpft ist, wird es auch aus dem Kommentar entfernt.
-
 
 1. Klicken **Aktualisieren**  oder **Einsenden**, wenn Sie das Beta-Kommentarerlebnis verwenden.
 
@@ -449,11 +446,11 @@ Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Information
 
 * **Benutzeraktualisierungen:** Benutzeraktualisierungen sind Kommentare, die Sie und andere Benutzer in Ihrem System eingeben.
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **Systemaktualisierungen:** Das System aktualisiert den Datensatz zum Entfernen von Assets, zum Hinzufügen oder Löschen von Versionen, zum Anhängen oder Entfernen einer Genehmigungsanfrage sowie alle Änderungen oder Änderungen, die an den Dokumenten am Objekt vorgenommen wurden.
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 Abhängig von Ihrer Workfront-Lizenz sind Systemaktualisierungen möglicherweise standardmäßig aktiviert. Workfront-Administratoren können bestimmen, was in Systemaktualisierungen verfolgt wird, wie unter [Vom System verfolgte Aktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Sie können auch Systemaktualisierungen oder Aktivitäten herausfiltern, sodass nur Benutzeraktualisierungen für alle Objekte angezeigt werden.
 

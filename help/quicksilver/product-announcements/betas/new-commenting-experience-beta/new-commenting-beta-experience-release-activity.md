@@ -6,10 +6,10 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ Allgemeine Informationen zum neuen Kommentar-Beta-Erlebnis, einschließlich eine
 >Kommentar-Funktionen, die für das Beta-Erlebnis für Workfront-Objekte veröffentlicht werden, werden auch im Abschnitt &quot;Updates&quot;eines Zielobjekts in Workfront Goals veröffentlicht.
 
 Die folgenden Abschnitte enthalten Funktionen, die nach der ursprünglichen Version hinzugefügt wurden, beginnend mit den zuletzt veröffentlichten Funktionen.
+
+## Woche vom 13. Juni 2023
+
+### Verbessertes Erlebnis beim Bearbeiten von Kommentaren
+
+Beim Bearbeiten von Kommentaren können Sie jetzt die folgenden Tastaturbefehle verwenden:
+
+* STRG + Z (CMD + Z für Mac) zum Rückgängigmachen einer Änderung
+
+* STRG + Y (CMD + Y für Mac) zum Wiederholen einer Änderung
+
+Vor diesen Verbesserungen konnten Sie Änderungen beim Bearbeiten eines Kommentars weder rückgängig machen noch wiederholen. Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Vorschau: 13. Juni 2023
+
+Produktion: 13. Juni 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Woche vom 29. Mai 2023
 

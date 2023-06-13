@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Dadurch wird die Zielliste geöffnet.
    >
    >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
+1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
+   * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
+   * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
 1. (Optional) Um Ihrer Aktualisierung, einem Hyperlink oder einem Bild Rich-Text-Formatierung hinzuzufügen, verwenden Sie alle Optionen in der Rich-Text-Symbolleiste oder die zugehörigen Symbole. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. Wählen Sie die **Privatperson in meinem Unternehmen** umschalten, um den Kommentar nur für Personen in Ihrem Unternehmen sichtbar zu machen.
@@ -170,13 +173,12 @@ Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung b
    >
    > * Der Datumsstempel ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Aktualisierung.
 
-
    1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf eine der folgenden Optionen, um Informationen aus einem Kommentar in die Zwischenablage zu kopieren:
 
       * **Link kopieren** , um den Link einer Aktualisierung ohne die Antworten zu kopieren.
       * **Textkörper kopieren** , um den Text einer Aktualisierung zu kopieren.
 
-         Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. <!--insure this stays accurate-->
