@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '13077'
+source-wordcount: '13075'
 ht-degree: 1%
 
 ---
@@ -2109,7 +2109,6 @@ ht-degree: 1%
          * [Verwenden von TLS auf Gegenseitigkeit in HTTP-Modulen in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
       * [HubSpot CRM-Module](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
       * [Bildmodule](workfront-fusion/apps-and-their-modules/image-module.md)
-      * [Integrationsmodule](workfront-fusion/apps-and-their-modules/intacct-modules.md)
       * [Jira-Softwaremodule](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON-Module](workfront-fusion/apps-and-their-modules/json-modules.md)
       * [MariaDB-Module](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
