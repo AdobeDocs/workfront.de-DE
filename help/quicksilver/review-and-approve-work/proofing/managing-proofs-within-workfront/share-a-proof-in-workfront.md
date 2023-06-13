@@ -6,9 +6,9 @@ description: Sie können ein freigegebenes Dokument in Adobe Workfront freigeben
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rolle "Testversand"</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
    <td>Autor oder Moderator</td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Durch die Freigabe eines Testversand-Links erhalten Workfront-Benutzer, die Zugr
 
    * Um den Link in die Zwischenablage zu kopieren, klicken Sie auf **Link kopieren**.
 
-      Sie können den Link nun über ein Tool eines Drittanbieters verteilen, z. B. einen Chat oder eine E-Mail-Anwendung.
+     Sie können den Link nun über ein Tool eines Drittanbieters verteilen, z. B. einen Chat oder eine E-Mail-Anwendung.
 
    * Gehen Sie wie folgt vor, um den Link direkt von Adobe Workfront per E-Mail zu versenden:
 
@@ -114,6 +114,13 @@ Durch die Freigabe eines Testversand-Links erhalten Workfront-Benutzer, die Zugr
 
 Sie können einen beliebigen Workfront-Benutzer zum Testversand hinzufügen, wenn Sie für den Testversand über die Berechtigung zum Bearbeiten verfügen. Wenn der Testversand mehrere Phasen umfasst, fügen Sie den Benutzer einer einzelnen Phase hinzu
 
+>[!WARNING]
+>
+>Zusätzlich zu den in diesem Artikel aufgeführten Methoden können Sie einem Testversand Benutzer hinzufügen, indem Sie ihnen einen Kommentar im Tab Aktualisierungen eines vorhandenen Testversands zuweisen. Benutzer, die auf diese Weise zu einem Testversand hinzugefügt werden, erhalten jedoch keine E-Mail-Benachrichtigung, es sei denn, sie werden erneut mit Tags versehen, nachdem sie zum Testversand-Workflow hinzugefügt wurden.
+>
+>Daher wird empfohlen, Benutzer über eine der unten aufgeführten Methoden einem Testversand hinzuzufügen, nicht indem Sie sie in einem Kommentar mit Tags versehen.
+>
+
 >[!NOTE]
 >
 >Beachten Sie Folgendes, wenn Sie einen veralteten Workfront-Plan verwenden, in dem die Prüfung für einen Benutzer aktiviert und deaktiviert werden kann:
@@ -121,7 +128,6 @@ Sie können einen beliebigen Workfront-Benutzer zum Testversand hinzufügen, wen
 >* Für Ihre Empfänger ist die Aktivierung des Testversands nicht erforderlich.
 >* Wenn der automatisierte Workflow aktiviert ist und Sie einen Benutzer zum Testversand hinzufügen, für den die Testversand-Funktion in Workfront nicht aktiviert ist, wird im automatisierten Workflow eine neue Phase erstellt. Der Benutzer, den Sie hinzufügen, wird automatisch zu dieser neuen Phase hinzugefügt, wenn er den Testversand zum ersten Mal anzeigt. (Weitere Informationen finden Sie unter [Übersicht über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 >
-
 
 ### Hinzufügen von Benutzern zu einem vorhandenen Testversand über die Registerkarte &quot;Dokumente&quot;
 

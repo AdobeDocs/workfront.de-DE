@@ -7,9 +7,9 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprü
 Workfront hat die folgenden Beschränkungen:
 
 * Dateien müssen weniger als 4 GB pro Datei betragen.
+* Microsoft Word- (DOC, DOCX) und PowerPoint-Dateien (PPT, PPTX) müssen kleiner als 512 MB sein.
 * XLS- und XLSX-Dateien müssen kleiner als 100 MB sein.
 * Dateien, die mit Kommentaren zu Testsendungen verbunden sind, müssen kleiner als 30 MB sein.
 * PNGs müssen eine Höhe und Breite von weniger als 65535 px haben.
@@ -34,6 +35,18 @@ Workfront hat die folgenden Beschränkungen:
 >Das Hochladen von Dateien dauert länger, und wenn Ihre Verbindung nicht stabil ist, kann die Aktion beendet/unterbrochen werden.
 
 ## Statische Dateien
+
+>[!IMPORTANT]
+> Die folgenden statischen Dateitypen werden nicht mehr unterstützt:
+>
+> * DOT - Microsoft Word-Dokumentvorlage
+> * DOTX - Microsoft Word-Dokumentvorlage
+> * POT - Microsoft PowerPoint-Vorlage
+> * POTX - Microsoft PowerPoint-Vorlage
+> * PPS - Microsoft PowerPoint-Bildschirmpräsentation
+> * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
+> * XLT - Microsoft Excel-Vorlage
+> * XLTX - Microsoft Excel-Vorlage
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptive Bild-Komprimierung auf biologischer Ebene
@@ -155,12 +168,22 @@ Workfront hat die folgenden Beschränkungen:
 
 ## Statische Dateien - Text-Tool
 
+>[!IMPORTANT]
+> Die folgenden statischen Dateitypen für das Text-Tool werden nicht mehr unterstützt:
+>
+> * DOT - Microsoft Word-Dokumentvorlage
+> * DOTX - Microsoft Word-Dokumentvorlage
+> * POT - Microsoft PowerPoint-Vorlage
+> * POTX - Microsoft PowerPoint-Vorlage
+> * PPS - Microsoft PowerPoint-Bildschirmpräsentation
+> * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
+> * XLT - Microsoft Excel-Vorlage
+> * XLTX - Microsoft Excel-Vorlage
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator-Vorlage
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* DOT - Microsoft Word-Dokumentvorlage
-* DOTX - Microsoft Word-Dokumentvorlage 
 * EPS - Encapsulated PostScript
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-Präsentation
@@ -169,8 +192,7 @@ Workfront hat die folgenden Beschränkungen:
 * RTF - Rich-Text
 * XLS - Microsoft Excel-Tabelle
 * XLSX - Microsoft Excel-Tabelle 2007
-* XLT - Microsoft Excel-Vorlage
-* XLTX - Microsoft Excel-Vorlage
+
 
 ## Videodateien
 

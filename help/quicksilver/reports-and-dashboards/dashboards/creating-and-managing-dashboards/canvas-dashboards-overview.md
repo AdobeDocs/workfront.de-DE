@@ -5,24 +5,25 @@ title: Leinwand-Dashboards - Übersicht
 description: Sie können Canvas-Dashboards erstellen, die Visualisierungen der Berichtsarbeitsfläche mit traditionellen Berichten und neuen Layoutoptionen integrieren.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Leinwand-Dashboards - Übersicht
 
 Canvas-Dashboards, eine Funktion, die derzeit für Dashboards entwickelt wird, bieten eine neue Option zum Erstellen effektiver Dashboards in Workfront. Arbeitsfläche-Dashboards ermöglichen die einfache Einbindung von Visualisierungen der Arbeitsfläche in vorhandene Berichte, was mehr Flexibilität und neue Layoutoptionen bietet.
 
 Diese Funktion befindet sich in der Entwicklung und unterstützt noch nicht:
-* Diagrammberichte
 * externe Seiten
 * Kalenderintegration
 * aufgerufene Berichte
 * Verteilung über Layoutvorlagen
+
+Eine vollständige Liste der Funktionen, die den Canvas-Dashboards hinzugefügt wurden, finden Sie unter [Arbeitsfläche-Dashboards: Release-Aktivität](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Auf Canvas-Dashboards zugreifen
 
