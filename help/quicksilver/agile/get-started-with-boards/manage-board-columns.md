@@ -6,9 +6,9 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
+source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Bearbeiten]**. Geben Sie im Bereich &quot;Einstellungen&quot;den neuen Namen in die **[!UICONTROL Spaltenname]** und klicken Sie auf **[!UICONTROL Schließen]**.
 
 ## Pinnwandspalte löschen
+
+Wenn Sie eine Spalte aus einer Pinnwand löschen, kann sie nicht wiederhergestellt werden.
 
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Löschen]**.
