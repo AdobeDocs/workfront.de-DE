@@ -7,7 +7,7 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
-   >
-   >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
-   >
-   >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
-   >
-   >     * Startseite
-   >     * Zusammenfassungsbereich in Listen
-   >     * Zusammenfassungsbereich in Timesheets
 >
-> * Ziele
-
-   >
-   >   Das neue Kommentarerlebnis ist die Standardeinstellung für Ziele. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
+>
+>     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>
+>     * Startseite
+>     * Zusammenfassungsbereich in Listen
+>     * Zusammenfassungsbereich in Timesheets
+>
+> * Ziele<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   Das neue Kommentierungserlebnis ist die Standardeinstellung für Ziele <!--<span class="preview">and cards</span>-->. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
@@ -124,6 +122,13 @@ Derzeit können Sie mit der Beta-Kommentarfunktion Kommentare und Antworten auf 
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
