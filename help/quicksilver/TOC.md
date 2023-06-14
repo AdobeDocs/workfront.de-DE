@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
+source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13078'
 ht-degree: 1%
 
 ---
@@ -1729,6 +1729,7 @@ ht-degree: 1%
       * [Dokumentüberprüfungen und -genehmigungen](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * Dokumentgenehmigungen verwalten {#manage-document-approvals}
          * [Dokumentgenehmigungen verwalten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Übersicht über Dokumentgenehmigungen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [Dokumentgenehmigung erstellen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
