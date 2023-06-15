@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Kommentaren zu Karten auf Pinnwänden</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt Kommentare zu Ad-hoc- und verbundenen Karten auf Pinnwänden hinzufügen und andere Benutzer mit den Kommentaren versehen. Kommentare sind in den Kartendetails verfügbar. Die Kommentarfunktion für Pinnwände verwendet das neue Adobe Workfront-Kommentarerlebnis.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 15. Juni 2023</p>
+                            </li>
+                            <li>
+                                 <p>Produktionsversion für frühe Anmeldung: 22. Juni 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbessertes Erlebnis beim Verschieben eines Dokuments in einen verknüpften Ordner mit Drag &amp; Drop</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbessertes Erlebnis beim Verschieben eines Dokuments in einen verknüpften Ordner mit Drag &amp; Drop</a></p> 
                         <p>Wir haben eine gewisse Transparenz beim Ziehen und Ablegen eines Dokuments in einen verknüpften Ordner hinzugefügt. Das Dokument, das Sie in einen verknüpften Ordner verschoben haben, verbleibt nun in der Dokumentliste, bis es vollständig verschoben wurde. Die Dokumentoptionen sind deaktiviert, Sie können das Dokument jedoch während des Verschieben weiterhin zur Ansicht öffnen. Wenn das Dokument die Übertragung abgeschlossen hat, verschwindet es aus der Dokumentliste, da es sich jetzt vollständig im verknüpften Ordner befindet. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3</a></p>
-                        <p>Kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung werden innerhalb des Veröffentlichungszeitrahmens von 23.3 vorgenommen. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht. </p>
-                    </td>
-                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau-Veröffentlichung: Während des Veröffentlichungszeitrahmens 23.3<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produktionsversion: Mindestens 2 Wochen nach Veröffentlichung in der Vorschau (sofern nicht anders angegeben)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Neue Verbesserungen beim kommentierenden Beta-Erlebnis</a></p>
                         <p>Verbesserungen am Abschnitt Aktualisierungen werden innerhalb des Zeitrahmens der Version 23.3 für das neue Kommentar-Beta-Erlebnis bereitgestellt. Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumgebung mit Version 23.3 bereitgestellt. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Veröffentlichung: Während des Veröffentlichungszeitrahmens 23.3<br /></p>
+                                <p>Vorschau-Version: 5. Juni 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: Mit Version 23.3 (sofern nicht anders angegeben)</span></p>
+                                <p><span class="preview">Produktionsversion: 5. Juni 2023</span></p>
                             </li>
                         </ul>
                     </td>
