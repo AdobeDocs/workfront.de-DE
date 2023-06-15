@@ -7,10 +7,10 @@ description: Durch den Zugriff auf Workfront Fusion über Adobe Experience Cloud
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Zugreifen auf [!DNL Workfront Fusion] bis [!DNL Adobe Experience Cloud] bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung all Ihrer Anzeigen[!DNL]Adobe-Anwendungen. Mit der einheitlichen Identitätsverwaltung können Sie sich an einem zentralen Ort ohne mehrere URLs oder Anmelde-IDs anmelden.
 
-Ein Video mit einer Beschreibung der Navigation in [!DNL Fusion] im [!DNL Adobe Experience Cloud], siehe [[!DNL Fusion] auf [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+Ein Video mit einer Beschreibung der Navigation in [!DNL Fusion] im [!DNL Adobe Experience Cloud], siehe:
+
+[[!DNL Fusion] am [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Zugriffsanforderungen
 
