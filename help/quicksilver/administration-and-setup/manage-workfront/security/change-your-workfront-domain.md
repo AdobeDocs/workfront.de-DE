@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b413ffc2416439629e073b32b5e9828df2f5de90
+source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
->
->Informationen zum Ändern der Adobe Workfront-Domäne, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Einrichten von Domänen](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains).
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in Adobe Admin Console integriert wurde, ist es nicht möglich, Ihre Workfront-Domäne zu ändern.
 >
 >Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
