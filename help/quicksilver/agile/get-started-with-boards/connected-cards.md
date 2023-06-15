@@ -6,14 +6,16 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
+
+{{highlighted-preview}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -70,7 +72,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* In den Suchergebnissen sind nur Objekte verfügbar, für die Sie Berechtigungen haben. Wenn ein Element abgeblendet ist, wurde es bereits zur Pinnwand hinzugefügt.
    >* Beim Filtern nach **[!UICONTROL Eigene Projekte]** oder **[!UICONTROL Projekte, an denen ich arbeite]**, werden Projekte, die dem Status &quot;Abgeschlossen&quot;, &quot;Abgelaufen&quot;oder &quot;Abgelehnt&quot;entsprechen, nicht einbezogen. Sie können mit der **[!UICONTROL Alle]** Filter.
 
-
 1. Klicken **[!UICONTROL Hinzufügen]**.
 
    ![Suche nach Aufgabe oder Problem, um eine Verbindung herzustellen](assets/boards-tasksissues-350x94.png)
@@ -101,12 +102,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong></td> 
       <td>Durch Ändern der Beschreibung wird auch die Beschreibung auf der verbundenen Seite geändert [!DNL Workfront] -Objekt. Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</td> 
-     </tr> 
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong></td>
-      <td><p>Um der Karte weitere Personen oder ein Team zuzuweisen, geben Sie im Suchfeld einen Namen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können sowohl Einzelanwender als auch Teams hinzufügen. Nur eine Teamzuweisung ist auf einer verbundenen Karte erlaubt.</p>
-      <p>Bevollmächtigte müssen Mitglieder in der Pinnwand sein, oder sie werden nicht in der Auswahlliste angezeigt. Wenn ein Team Mitglied im Board ist, können die einzelnen Teammitglieder der Karte zugewiesen werden.</p>
-      <p>Alle von Ihnen ausgewählten Bevollmächtigten werden ebenfalls der Aufgabe oder dem Problem in [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Spalte]</strong></td>
@@ -127,18 +122,42 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td><p>Die Anzahl der Stunden, in denen die Karte ausgefüllt werden soll.</p><p>Wenn Sie die Schätzung ändern, ändert sich auch der Story-Punkt-Wert auf dem verbundenen [!DNL Workfront] -Objekt.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong></td>
+      <td><p>Um der Karte weitere Personen oder ein Team zuzuweisen, geben Sie im Suchfeld einen Namen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können sowohl Einzelanwender als auch Teams hinzufügen. Nur eine Teamzuweisung ist auf einer verbundenen Karte erlaubt.</p>
+      <p>Bevollmächtigte müssen Mitglieder in der Pinnwand sein, oder sie werden nicht in der Auswahlliste angezeigt. Wenn ein Team Mitglied im Board ist, können die einzelnen Teammitglieder der Karte zugewiesen werden.</p>
+      <p>Alle von Ihnen ausgewählten Bevollmächtigten werden ebenfalls der Aufgabe oder dem Problem in [!DNL Workfront].</p></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Suchen Sie nach Tags für die Karte und wählen Sie sie aus.</p>
       <p>Informationen zum Erstellen neuer Tags finden Sie unter <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags hinzufügen</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Benutzerdefinierte Felder]</strong></td>
+      <td><p>Alle von Ihnen hinzugefügten benutzerdefinierten Felder werden in diesem Bereich angezeigt.</p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassen der angezeigten Felder auf einer Karte</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklisten-Elemente]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checkliste]</strong> </td> 
       <td> <p>Klicken <strong>[!UICONTROL Checklisten-Element hinzufügen]</strong>. Geben Sie dann den Titel des Elements ein und drücken Sie die Eingabetaste. Ein weiteres Element wird automatisch hinzugefügt. Fahren Sie mit der Eingabe von Titeln fort, um weitere Elemente hinzuzufügen.</p> <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
+      <td>Siehe "Loggen Sie Stunden auf einer verbundenen Karte ein" unten.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Kommentare]</strong></span> </td>
+      <td><span class="preview"><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein. Benutzer mit Tags auf verbundenen Karten erhalten E-Mail-Benachrichtigungen.</p><p>Klicken <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
+      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Systemaktivität]</strong></span> </td> 
+      <td><span class="preview"><p>Wenn Sie <strong>Systemaktivität</strong> als Kartenabschnitt aktiviert wurde, wird die Aktivität in diesem Bereich angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassen der angezeigten Felder auf einer Karte</a> und <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Vom System verfolgte Aktualisierungen</a>.</p></span></td>
+     </tr>     
     </tbody> 
    </table>
 
-   Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
+   Verwenden Sie das linke Navigationsfenster, um zwischen den Bereichen der Felder in den Kartendetails zu wechseln.
 
 1. Klicken **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 Das verbundene Objekt, die zugewiesenen Personen, die Tags, das Fälligkeitsdatum, der Zähler der Checkliste, die geschätzten Stunden und der Status werden auf der Karte angezeigt.
@@ -175,7 +194,6 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
    >
    >* In den Suchergebnissen sind nur Objekte verfügbar, für die Sie Berechtigungen haben.
    >* Beim Filtern nach **[!UICONTROL Eigene Projekte]** oder **[!UICONTROL Projekte, an denen ich arbeite]**, Projekte, die einer [!UICONTROL Fertig], [!UICONTROL Inaktiv]oder [!UICONTROL Zurückgewiesen] -Status nicht enthalten sind. Sie können mit der **[!UICONTROL Alle]** Filter.
-
 
 1. Klicken **[!UICONTROL Verbinden]**.
 

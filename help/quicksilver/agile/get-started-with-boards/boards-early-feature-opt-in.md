@@ -6,9 +6,9 @@ title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
 description: In diesem Artikel erfahren Sie mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,10 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Verwenden Sie vereinfachte Filter für die Annahmespalte</td>
+   <td>Teilweise freigegeben</td>
+  </tr>
+  <tr>
+   <td>Verwenden von Kommentaren zu Ad-hoc- und verbundenen Karten</td>
    <td>Teilweise freigegeben</td>
   </tr>
  </tbody> 

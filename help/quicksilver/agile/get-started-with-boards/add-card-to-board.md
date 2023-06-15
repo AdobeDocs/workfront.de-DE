@@ -6,14 +6,16 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand
+
+{{highlighted-preview}}
 
 Sie können einer Pinnwand schnell eine Karte hinzufügen und sie einem Mitglied auf der Pinnwand zuweisen. Die Karte kann eine Aufgabe, ein Problem, eine Person, eine Gruppe oder einen beliebigen Elementtyp darstellen, der in die Pinnwand eingeschlossen werden soll.
 
@@ -64,11 +66,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong> </td> 
       <td>Eine Beschreibung der Karte. Sie können der Beschreibung URLs hinzufügen. Diese werden beim Speichern der Karte zu klickbaren Links.</td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong> </td> 
-      <td> <p>Um die Karte zuzuweisen, geben Sie einen Namen in das Suchfeld ein und wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehrere Personen oder Teams zuweisen.</p> <p>Bevollmächtigte müssen Mitglieder in der Pinnwand sein, oder sie werden nicht in der Auswahlliste angezeigt. Wenn ein Team Mitglied im Board ist, können die einzelnen Teammitglieder der Karte zugewiesen werden.</p></td>
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Spalte]</strong> </td> 
       <td>Wählen Sie die Spalte für die Karte aus. Wenn Sie die <strong>[!UICONTROL Spalte]</strong> leer ist, wird die Karte in der ersten Spalte links auf der Pinnwand platziert.</td>
@@ -78,27 +76,45 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
       <td>Wählen Sie einen Status für die Karte aus. Wenn Sie auf <strong>[!UICONTROL Mark Complete]</strong> oben auf der Karte, ändert sich der Status automatisch in [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td> 
-      <td>Geben Sie die geschätzte Anzahl von Stunden für das Ausfüllen der Karte ein. Dies ist nur ein manueller Eintrag.</td>
-     </tr>
-     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Fälligkeitsdatum]</strong></td> 
       <td>Wählen Sie ein Fälligkeitsdatum für die Karte aus. </td>
      </tr>
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td> 
+      <td>Geben Sie die geschätzte Anzahl von Stunden für das Ausfüllen der Karte ein. Dies ist nur ein manueller Eintrag.</td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong> </td> 
+      <td> <p>Um die Karte zuzuweisen, geben Sie einen Namen in das Suchfeld ein und wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehrere Personen oder Teams zuweisen.</p> <p>Bevollmächtigte müssen Mitglieder in der Pinnwand sein, oder sie werden nicht in der Auswahlliste angezeigt. Wenn ein Team Mitglied im Board ist, können die einzelnen Teammitglieder der Karte zugewiesen werden.</p></td>
+     </tr>     
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
       <td>Suchen Sie nach Tags für die Karte und wählen Sie sie aus. Informationen zum Erstellen neuer Tags finden Sie unter <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags hinzufügen</a>.</td> 
-     </tr>  
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Verbindung]</strong> </td>
+      <td>Sie können eine Ad-hoc-Karte mit einem [!DNL Workfront] Aufgabe oder Problem. Weitere Informationen finden Sie unter "Konvertieren einer Ad-hoc-Karte in eine verbundene Karte"im Artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Angeschlossene Karten auf Pinnwänden verwenden</a>.</td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklisten-Elemente]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checkliste]</strong> </td> 
       <td> <p>Klicken <strong>[!UICONTROL Checklisten-Element hinzufügen]</strong>. Geben Sie dann den Titel des Elements ein und drücken Sie die Eingabetaste. Ein weiteres Element wird automatisch hinzugefügt. Fahren Sie mit der Eingabe von Titeln fort, um weitere Elemente hinzuzufügen.</p> <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Kommentare]</strong></span> </td>
+      <td><span class="preview"><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>HINWEIS:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
+      </p><p>Klicken <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
+      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
+   Beispielbild in der Produktionsumgebung:
    ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)
 
-   Verwenden Sie das Navigationsfenster auf der linken Seite, um in den Kartendetails zwischen Gruppen von Feldern zu wechseln.
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Ad-hoc-Kartendetails](assets/ad-hoc-card-details-with-comments.png)
+
+   Verwenden Sie das linke Navigationsfenster, um zwischen den Bereichen der Felder in den Kartendetails zu wechseln.
 
 1. Klicken **[!UICONTROL Schließen]** , um die Karte zur Pinnwand hinzuzufügen.
 
