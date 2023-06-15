@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * Zusammenfassungsbereich in Listen
 >     * Zusammenfassungsbereich in Timesheets
 >
-> * Ziele<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Ziele, <span class="preview">Karten im Bereich &quot;Foren&quot;</span>
 >
->   Das neue Kommentierungserlebnis ist die Standardeinstellung für Ziele <!--<span class="preview">and cards</span>-->. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   Das neue Kommentierungserlebnis ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
@@ -84,7 +84,7 @@ Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
      <li>Vorlagen</li> 
      <li>Vorlagenaufgaben</li> 
      <li>Arbeitszeittabellen</li> 
-     <li>Benutzende</li> 
+     <li>Benutzende</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des n
 * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systemaktivität**: Zeigt Systemaktualisierungen an, d. h. Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Derzeit können Sie mit der Beta-Kommentarfunktion Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
+Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Derzeit können Sie mit der Beta-Kommentarfunktion Kommentare und Antworten auf 
    <td> 
     <ul> 
      <li><p>Ziele</p>
-     <p>Dies ist das Standarderlebnis für Ziele</p>
+     <li><span class="preview">Karten im Bereich der Karten</span></li>
+      Dies ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>.
      </li> 
      <li><span class="preview">Projekte</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Probleme</li> 
@@ -123,12 +124,10 @@ Derzeit können Sie mit der Beta-Kommentarfunktion Kommentare und Antworten auf 
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 

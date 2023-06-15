@@ -6,10 +6,10 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1194'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +36,12 @@ ht-degree: 1%
 >     * Zusammenfassungsbereich in Listen
 >     * Zusammenfassungsbereich in Timesheets
 >
-> * Ziele<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Ziele, <span class="preview">Karten im Bereich &quot;Foren&quot;</span>
 >
->   Das neue Kommentierungserlebnis ist die Standardeinstellung für Ziele <!--<span class="preview">and cards</span>-->. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   Das neue Kommentierungserlebnis ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+
 
 Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates für das Objekt angezeigt.
 

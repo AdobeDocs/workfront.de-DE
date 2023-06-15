@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * Zusammenfassungsbereich in Listen
 >     * Zusammenfassungsbereich in Timesheets
 >
-> * Ziele<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Ziele, <span class="preview">Karten im Bereich &quot;Foren&quot;</span>
 >
->   Das neue Kommentierungserlebnis ist die Standardeinstellung für Ziele <!--<span class="preview">and cards</span>-->. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   Das neue Kommentierungserlebnis ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Sie können den meisten Objekten in Adobe Workfront im Abschnitt Updates Kommentare hinzufügen. Weitere Informationen dazu, welche Objekte den Abschnitt Aktualisierungen anzeigen, finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 >[!NOTE]
 >
->Die folgende Funktion ist für alle Objekte mit Ausnahme von Zielen verfügbar. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md)
+>Die folgende Funktion ist für alle Objekte mit Ausnahme von Zielen und Karten verfügbar. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Gehen Sie zu dem Arbeitselement, für das Sie eine Aktualisierung bereitstellen möchten (z. B. ein Projekt, eine Aufgabe oder ein Problem).
 1. Klicken Sie auf **Updates** Abschnitt.
@@ -283,7 +285,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : η+K</br> <br>So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: forecast+V</br> | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen : Strg+K</br> <br>So fügen Sie im Beta-Erlebnis für Kommentare einen Link über den ausgewählten Text ein: Strg+V</br> |
    | Aufzählung | ![mceclip6.png](assets/mceclip6.png) | η+Shift+8 | Strg+Umschalt+8 |
    | Nummerierte Liste | ![mceclip5.png](assets/mceclip5.png) | η+Shift+7 | Strg+Umschalt+7 |
-   | Blockzitat | <span class="preview">![](assets/block-quote-icon-large.png)</span> | η+Shift+9 | Strg+Umschalt+9 |
+   | Blockzitat | ![](assets/block-quote-icon-large.png) | η+Shift+9 | Strg+Umschalt+9 |
 
    Um die Textformatierung zu beenden, deaktivieren Sie das -Attribut auf der **Rich-Text** Symbolleiste.
 
@@ -346,20 +348,17 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 ## Aktualisierte Informationen kopieren
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link kopiert haben, können Sie ihn für andere freigeben, um ihn zur Aktualisierung weiterzuleiten.
+
+Das Kopieren eines Updates hängt davon ab, welches Kommentierungserlebnis Sie verwenden.
+
+### Kopieren einer Aktualisierung im aktuellen Kommentierungserlebnis
 
 * [Aktualisieren kopieren](#copy-the-update)
 * [Den Thread-Link kopieren](#copy-the-thread-link)
 * [Aktualisierungslink kopieren](#copy-the-update-link)
 
-### Aktualisieren kopieren {#copy-the-update}
+#### Aktualisieren kopieren {#copy-the-update}
 
 Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
 
@@ -368,24 +367,47 @@ Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablag
 
    ![Textkörper kopieren](assets/update-stream-copy-body-text-350x152.png)
 
-### Den Thread-Link kopieren {#copy-the-thread-link}
+#### Den Thread-Link kopieren {#copy-the-thread-link}
 
 Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopiert, damit Sie den Thread für andere Benutzer freigeben können.
 
 1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
 
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads** oder **Link kopieren**, wenn Sie das Beta-Erlebnis verwenden.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Aktualisierungslink kopieren {#copy-the-update-link}
+#### Aktualisierungslink kopieren {#copy-the-update-link}
 
 Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
 
 1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren** oder **Link kopieren**, wenn Sie das Beta-Erlebnis verwenden.
+1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Kopieren von Aktualisierungen im neuen Kommentierungserlebnis
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Link kopieren](#copy-link)
+* [Fließtext kopieren](#copy-body-text)
+
+#### Link kopieren
+
+Mit dieser Option wird der Kommentar- oder Thread-Link in die Zwischenablage kopiert, damit Sie den Kommentar oder den gesamten Thread für andere Benutzer freigeben können.
+
+1. Gehen Sie zu der Aktualisierung, deren Link Sie kopieren möchten.
+
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link kopieren**.
+
+#### Fließtext kopieren
+
+Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Textkörper kopieren**.
 
 ## Aktualisieren oder Antworten löschen
 

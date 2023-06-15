@@ -6,9 +6,9 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ Das neue Kommentierungserlebnis umfasst Verbesserungen und Änderungen am vorhan
 Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 
 * Verbesserte Leistung und Benutzerfreundlichkeit
-* Die Trennung von Benutzerkommentaren und Systemaktivität wird aktualisiert.
+* Trennung von Benutzerkommentaren und Aktualisierungen der Systemaktivität
 * Echtzeitanzeige beim Hinzufügen neuer Kommentare zu einem Objekt
-* Bearbeiten von Kommentaren nach deren Übermittlung.
+* Kommentare nach dem Senden bearbeiten
 
 Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 
-* Kommentar zu einer Systemaktualisierung.
+* Kommentar zu einer Systemaktualisierung
+* Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
+* Benutzerdefiniertes Formular bearbeiten
 
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
 
@@ -295,7 +297,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   </tr>
 </table>
 
-## Neue Kommentar-Erlebnis-Release-Aktivität
+## Veröffentlichungs-Timeline
 
-Informationen zu den kürzlich veröffentlichten Funktionen finden Sie unter [Neue Kommentar-Beta-Erlebnisveröffentlichungsaktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Informationen zu den kürzlich für das neue Kommentierungserlebnis veröffentlichten Funktionen sowie eine Veröffentlichungszeitleiste finden Sie unter [Neue Kommentar-Beta-Erlebnisveröffentlichungsaktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Neues Kommentierungserlebnis suchen
 
@@ -423,21 +425,18 @@ Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt,
 
 * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
 
-   * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>
+   * Probleme, <span class="preview">Projekte, Aufgaben, Meldungen und Dokumente</span>
 
   Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Standardmäßig als Haupterlebnis für die Kommentarfunktion:
 
-   * Ziele
+   * Ziele, <span class="preview">Karten im Bereich &quot;Foren&quot;</span>
 
   >[!NOTE]
   >
   >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  Weitere Informationen zum Verwalten von Updates für Ziele finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 Beta:
 
