@@ -6,9 +6,9 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ Allgemeine Informationen zum neuen Kommentar-Beta-Erlebnis, einschließlich eine
 
 Die folgenden Abschnitte enthalten Funktionen, die nach der ursprünglichen Version hinzugefügt wurden, beginnend mit den zuletzt veröffentlichten Funktionen.
 
-## Woche vom 13. Juni 2023
+## Woche vom 12. Juni 2023
+
+### Neues Kommentierungserlebnis für Beta für Karten im Bereich &quot;Foren&quot;
+
+Das neue Beta-Kommentarerlebnis ist jetzt für Karten im Bereich Karten verfügbar. Weitere Informationen finden Sie unter [Übersicht über die Version 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Vorschau: 15. Juni 2023
+
+Produktionsversion für frühe Anmeldung: 22. Juni 2023
+
+Produktion für alle Kunden: mit Version 23.3
+
+### Blockanführungszeichen zu einem Kommentar hinzufügen
+
+Sie können jetzt Blockanführungszeichen zu einem Kommentar hinzufügen, indem Sie im neuen Beta-Kommentar eine Rich-Text-Symbolleistenoption verwenden.
+
+Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Vorschau: 14. Juni 2023
+
+Produktion: 15. Juni 2023
 
 ### Verbessertes Erlebnis beim Bearbeiten von Kommentaren
 
