@@ -5,7 +5,7 @@ title: Dokument genehmigen
 description: Wenn Sie als Genehmiger für ein Dokument zugewiesen sind, gibt es mehrere Möglichkeiten, Ihre Genehmigungsentscheidung zu treffen.
 author: Nolan
 feature: Work Management
-source-git-commit: 369a8564f44524d1abed57553435ce69c7c5e170
+source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -64,7 +64,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](../assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-
 1. Klicken **Filter** oben links auf der Seite und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
 
    Alle Arbeitselemente, für die eine Genehmigung erforderlich ist, werden in der Liste angezeigt.
@@ -82,6 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
       * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
+
    * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
    Beachten Sie Folgendes bei der Anzeige von Dokumentgenehmigungen auf der Startseite:
@@ -90,8 +90,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Nachdem eine Entscheidung über eine Genehmigung getroffen wurde, bleibt die Genehmigung im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browserseite aktualisieren.
 
-
-
 ## Dokument auf der Dokumentseite genehmigen
 
 1. Klicken Sie auf den Namen des Dokuments, um zur Dokumentseite zu gelangen.
@@ -99,8 +97,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie im Dropdown-Menü Version neben dem Dokumentnamen die Version des Dokuments aus, für das die Genehmigung aussteht. Standardmäßig wird die neueste Version ausgewählt.
 
    Wenn die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung für Sie hat, werden die Schaltflächen für die Validierungsentscheidung oben rechts auf der Seite angezeigt. Wenn andere Versionen des Dokuments noch ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü &quot;Version&quot;ein roter Punkt angezeigt.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
@@ -110,8 +109,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
       * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
-   * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
+   * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
 ## Genehmigen eines Dokuments im Bereich &quot;Dokumentzusammenfassung&quot;
 
@@ -122,8 +121,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie die Version des Dokuments aus, das Sie im Dropdown-Menü Version überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
    Wenn die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung für Sie hat, werden die Schaltflächen für die Validierungsentscheidung in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung angezeigt. Wenn andere Versionen des Dokuments noch ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü &quot;Version&quot;ein roter Punkt angezeigt.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicken Sie in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung auf eine der folgenden beiden Genehmigungsoptionen:
@@ -133,4 +133,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
       * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
+
    * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
