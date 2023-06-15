@@ -7,7 +7,7 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >   Das neue Kommentierungserlebnis ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+>     Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
