@@ -6,9 +6,9 @@ description: Sie können Canvas-Dashboards erstellen, die Visualisierungen der B
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Eine neue Option für Canvas-Dashboards im linken Bereich der vorhandenen Dashbo
 1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon.png)Klicken Sie auf **Dashboards**.
 
 1. Klicken Sie im linken Bereich auf **Arbeitsfläche-Dashboards**.
+
+## Verwenden von Canvas-Dashboards
+
+### Neues Canvas-Dashboard erstellen
+
+1. Öffnen Sie Canvas-Dashboards wie beschrieben unter **Öffnen von Canvas-Dashboards** höher.
+
+1. Klicken **+ Neues Dashboard**
+
+1. Klicken **Unbenannt** in der linken oberen Ecke ein, um einen Namen für das Dashboard einzugeben.
+
+1. Klicken **Fertig** oben rechts, um Ihr neues Dashboard zu speichern oder Widgets hinzuzufügen, wie in **Einen Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen** unten.
+
+### Einen Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen
+
+1. Öffnen Sie Canvas-Dashboards wie beschrieben unter **Öffnen von Canvas-Dashboards** höher.
+
+1. Klicken Sie auf das Dashboard, dem Sie einen Bericht aus der Liste der Dashboards hinzufügen möchten.
+
+1. Klicken **Widgets verwalten** Klicken Sie oben rechts auf **Widget hinzufügen**.
+
+1. Bewegen Sie den Mauszeiger über den Typ des Berichts-Widgets, das Sie hinzufügen möchten, und klicken Sie dann auf das angezeigte Kontrollkästchen.
+
+1. Wenn Sie alle Widgets ausgewählt haben, die Sie hinzufügen möchten, klicken Sie auf **Hinzufügen** in der oberen rechten Ecke.
+
+1. Die ausgewählten Widgets werden im Dashboard angezeigt. Klicken **Konfiguration** in der Mitte eines Widgets auswählen, welchen Bericht es anzeigen soll.
+
+1. Geben Sie den Namen des Berichts ein, den Sie im **Bericht suchen** -Feld. Wenn der Bericht in der Liste angezeigt wird, klicken Sie auf **Listenbericht** oder **Diagrammbericht** neben dem Namen, um die Informationen aus diesem Bericht in dem von Ihnen ausgewählten Format anzuzeigen.
+
+>[!WARNING]
+> Das Hinzufügen mehrerer Widgets, die Informationen aus demselben Bericht anzeigen, ist zwar derzeit möglich, es wird jedoch empfohlen, jeden Bericht nur einmal anzuzeigen, da dies die Dashboard-Leistung beeinträchtigen kann.
+
+### Widget in einem Arbeitsfläche-Dashboard bearbeiten
+
+1. Öffnen Sie Canvas-Dashboards wie beschrieben unter **Öffnen von Canvas-Dashboards** höher.
+
+1. Klicken Sie in der Liste der Dashboards auf das Dashboard, das Sie bearbeiten möchten.
+
+1. (Optional) Um die Größe eines Widgets zu ändern, ziehen Sie die **Größe ändern** in der unteren linken Ecke des Widgets zu Ihrer gewünschten Größe.
+
+1. (Optional) Um ein Widget neu zu positionieren, ziehen Sie den Randbereich des Widgets und ziehen Sie es an die gewünschte relative Position im Dashboard.
