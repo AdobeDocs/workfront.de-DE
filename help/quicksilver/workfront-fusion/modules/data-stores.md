@@ -8,7 +8,7 @@ description: Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -176,9 +176,9 @@ Die Eigenschaften eines Datenspeichers umfassen die vom Datenspeicher verwendete
 ### Inhalt eines Datenspeichers bearbeiten
 
 1. Klicken Sie auf **[!UICONTROL Datenspeicher]** icon ![](assets/data-store-icon.png) im linken Navigationsbereich, um die [!UICONTROL Datenspeicher] Bereich.
-1. Klicken **[!UICONTROL Durchsuchen]** ![](assets/browse-data-store.png) neben dem Datenspeicher, den Sie bearbeiten möchten.
+1. Klicken **[!UICONTROL Durchsuchen]**  neben dem Datenspeicher, den Sie bearbeiten möchten.
 1. (Optional) Ordnen Sie die Spalten neu an, indem Sie sie an die gewünschte Position ziehen.
-1. (Optional) [!UICONTROL Bearbeiten] eine einzelne Zelle durch Klicken auf **[!UICONTROL Bearbeiten]** icon ![](assets/data-store-edit.png)in diese Zelle ein und geben Sie dann den gewünschten Wert ein.
+1. (Optional) [!UICONTROL Bearbeiten] eine einzelne Zelle durch Klicken auf **[!UICONTROL Bearbeiten]** -Symbol in dieser Zelle und geben Sie dann den gewünschten Wert ein.
 1. (Optional) Fügen Sie dem Datenspeicher ein neues Element hinzu, indem Sie auf **[!UICONTROL Hinzufügen]** und geben Sie dann die Informationen für das neue Element ein.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

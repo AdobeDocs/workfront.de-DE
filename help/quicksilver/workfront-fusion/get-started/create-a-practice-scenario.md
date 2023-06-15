@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenari
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2094'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,19 @@ Das Erstellen eines Szenarios umfasst mehrere Hauptaufgaben:
 1. Melden Sie sich bei Ihrem [!DNL Workfront Fusion] -Konto.
 1. Klicken **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
 
-   Im linken Bereich, der angezeigt wird, können Sie Ihre Szenarien in Ordnern organisieren.
+   >[!NOTE]
+   >
+   >Wenn das linke Navigationsfenster oder dessen Symbole nicht angezeigt werden, klicken Sie auf das Menü ![Menü](assets/main-menu-icon-left-nav.png) Symbol.
+
+   In grau [!UICONTROL Ordner] angezeigt werden, können Sie Ihre Szenarien in Ordnern organisieren.
 
    Oben im Hauptbereich rechts können Sie **[!UICONTROL Alle]** Szenarien, die Sie erstellt haben, **[!UICONTROL Aktive Szenarien]** und **[!UICONTROL Inaktive Szenarien]** und **[!UICONTROL Konzepte]**, die Szenarien sind, in denen zuvor noch etwas mehr Arbeit erforderlich ist [!DNL Workfront Fusion] kann sie als aktiv oder inaktiv klassifizieren.
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. Klicken Sie im linken Bereich auf die **[!UICONTROL Ordner hinzufügen]** icon ![](assets/add-folder-icon.png)Geben Sie dann einen Namen wie &quot;Practice scenarios&quot;für Ihren ersten Ordner ein.
+1. Im [!UICONTROL Ordner] auf **[!UICONTROL Ordner hinzufügen]** icon ![](assets/add-folder-icon.png)Geben Sie dann einen Namen wie &quot;Practice scenarios&quot;für Ihren ersten Ordner ein.
 
 1. Öffnen Sie den Ordner und klicken Sie auf **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
 
@@ -105,9 +111,11 @@ Das Erstellen eines Szenarios umfasst mehrere Hauptaufgaben:
 
    Der Szenario-Editor wird mit einem leeren Modul in der Mitte angezeigt. [!DNL Google Sheets] App, die Sie vorgeladen haben, und einige Optionen in der Symbolleiste am unteren Rand.
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
-   Wenn Sie mit der Erstellung eines neuen Szenarios beginnen, ist es empfehlenswert, einen Namen dafür zu erstellen.
+Wenn Sie mit der Erstellung eines neuen Szenarios beginnen, ist es empfehlenswert, einen Namen dafür zu erstellen.
 
 1. Wählen Sie die **[!UICONTROL Neues Szenario]** Platzhaltername in der oberen linken Ecke und geben Sie dann einen Namen wie &quot;Practice scenario 1&quot;ein.
 1. Fahren Sie mit [Hinzufügen und Konfigurieren des ersten Moduls](#add-and-configure-the-first-module) unten.
@@ -282,22 +290,19 @@ Wir müssen das Szenario weiterhin konfigurieren, um Projekte für alle anderen 
 >
 >1. Klicken Sie mit der rechten Maustaste auf die [!DNL Workfront] Modul, und klicken Sie dann auf **[!UICONTROL Notiz hinzufügen]**.
 >1. Geben Sie in die angezeigte Notiz eine Übersicht für das Modul ein.
-
 >
->   Dies ist hilfreich, da Sie das Modul nicht ständig öffnen müssen, um zu sehen, was es tut. Sie können beispielsweise &quot;Erstellt ein Projekt mit dem Namen, dem geplanten Startdatum und der aus einer Tabelle zugeordneten Priorität&quot;eingeben.
+>    Dies ist hilfreich, da Sie das Modul nicht ständig öffnen müssen, um zu sehen, was es tut. Sie können beispielsweise &quot;Erstellt ein Projekt mit dem Namen, dem geplanten Startdatum und der aus einer Tabelle zugeordneten Priorität&quot;eingeben.
 >
->   Für [!UICONTROL Google Tabellen] -Modul können Sie beispielsweise &quot;Projektliste für neue hinzugefügte Zeilen/Projekte ansehen&quot;eingeben.
+>    Für [!UICONTROL Google Tabellen] -Modul können Sie beispielsweise &quot;Projektliste für neue hinzugefügte Zeilen/Projekte ansehen&quot;eingeben.
 >
->   Sie können mehrere Notizen für ein Modul hinzufügen.
+>    Sie können mehrere Notizen für ein Modul hinzufügen.
 >
 >1. Schließen Sie die **[!UICONTROL Hinweise]** Bereich.
 >
->   Nachdem Sie einem Szenario eine Notiz hinzugefügt haben, wird auf der Seite **[!UICONTROL Hinweise]** icon ![](assets/notes-icon-w-dot.png) unten im Szenario-Editor.
+>    Nachdem Sie einem Szenario eine Notiz hinzugefügt haben, wird auf der Seite **[!UICONTROL Hinweise]** icon ![](assets/notes-icon-w-dot.png) unten im Szenario-Editor.
 >
 >1. Klicken Sie auf **[!UICONTROL Hinweise]** icon ![](assets/notes-icon-w-dot.png) um Ihre Notizen anzuzeigen.
-
 >
-
 
 
 

@@ -8,9 +8,9 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 * [Organisationsrollen](#organization-roles)
 * [Einladen von Benutzern zu einer Organisation](#inviting-users-to-an-organization)
+* [Zwischen Organisationen wechseln](#switch-between-organizations)
 
 ### Organisationsrollen
 
@@ -100,6 +101,12 @@ Die Einladung läuft in einem Tag ab.
 >[!NOTE]
 >
 >Wenn der Benutzer neu bei [!DNL Fusion], [!DNL Fusion] erstellt automatisch ein Konto für sie und sendet eine E-Mail mit einem temporären Kennwort, um den neuen Benutzer anzuweisen, sich anzumelden und sein Kennwort zu ändern.
+
+### Zwischen Organisationen wechseln
+
+Sie können Teil von mehr als einer Organisation in Fusion sein. Ressourcen werden nicht zwischen Organisationen freigegeben.
+
+Sie können Unternehmen innerhalb der Adobe Unified Experience wechseln, indem Sie auf den Organisationsnamen oben rechts klicken und die neue Organisation aus der Dropdown-Liste auswählen. Nur Organisationen mit einem Fusion-Konto werden in der Dropdown-Liste angezeigt, auch wenn Sie Mitglied anderer Organisationen in der Adobe sind.
 
 ## Teams
 
@@ -179,6 +186,14 @@ Die Optionen für E-Mail-Benachrichtigungen werden auf Teamebene festgelegt.
 </table>
 
 Änderungen an Benachrichtigungsoptionen werden automatisch gespeichert
+
+#### Zwischen Teams wechseln
+
+Sie können Teil von mehr als einem Team in Fusion sein. Da Teams keine Ressourcen gemeinsam nutzen, müssen Sie möglicherweise Teams wechseln, um auf bestimmte Szenarien oder andere Ressourcen zuzugreifen.
+
+Wenn Ihr Unternehmen nicht Teil der Adobe Unified Experience ist, können Sie zwischen Teams wechseln, indem Sie im linken Navigationsbereich auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen.
+
+Wenn Ihr Team die Adobe Einheitliches Erlebnis verwendet, können Sie ein neues Team auswählen, indem Sie in der Kopfzeile auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen. Diese Option ist auf allen Seiten verfügbar, die für ein bestimmtes Team spezifisch sind, z. B. auf einer Szenario-Seite oder auf der Seite Verbindungen .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

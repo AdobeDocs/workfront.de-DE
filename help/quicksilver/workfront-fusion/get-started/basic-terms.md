@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">App oder Dienst</td> 
-   <td> <p>Eine Software-Anwendung, am häufigsten.</p> <p>Eine App kann auch eine spezielle Funktion sein, mit der Daten bearbeitet werden, z. B. ein Iterator oder Aggregator. </p> <p>Ein Dienst ist eine Quelle von Bundles, die eine Web-API, Web-Seite, verschiedene Arten von Servern (FTP, SMTP, IMAP) usw. enthalten können. </p> <p> <img src="assets/apps-350x420.jpg" style="width: 350;height: 420;"> </p> </td> 
+   <td> <p>Eine Software-Anwendung, am häufigsten.</p> <p>Eine App kann auch eine spezielle Funktion sein, mit der Daten bearbeitet werden, z. B. ein Iterator oder Aggregator. </p> <p>Ein Dienst ist eine Quelle von Bundles, die eine Web-API, Web-Seite, verschiedene Arten von Servern (FTP, SMTP, IMAP) usw. enthalten können. </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">App-Connector</td> 

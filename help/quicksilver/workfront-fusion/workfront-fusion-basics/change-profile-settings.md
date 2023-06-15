@@ -7,9 +7,9 @@ description: Sie können Informationen in Ihren [!DNL Adobe Workfront Fusion] Ko
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,25 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Profileinstellungen ändern
 
-So ändern Sie Informationen in Ihrem Kontoprofil:
+Der Prozess zum Ändern der Profileinstellung hängt davon ab, ob Ihr Unternehmen die Adobe Unified Shell verwendet.
+
+* [Profileinstellungen an Unified Shell ändern](#change-profile-settings-on-the-unified-shell)
+* [Profileinstellungen ohne Unified Shell ändern](#change-profile-settings-without-the-unified-shell)
+
+### Profileinstellungen an Unified Shell ändern
+
+Wenn sich Ihr Unternehmen in der Adobe Unified Shell befindet, können Sie auf Ihre Profil- und Präferenzoptionen zugreifen, indem Sie im oberen Navigationsbereich auf Ihr Profilbild klicken.
+
+In diesem Menü haben Sie folgende Möglichkeiten:
+
+* Auswählen **[!UICONTROL Dunkles Thema]** Formatierung für [!DNL Adobe Experience Cloud].
+* Satz **[!UICONTROL Voreinstellungen]** für [!DNL Adobe Experience Cloud], einschließlich der Primär- und Sekundarsprachvoreinstellungen.
+* Zugriff auf **[!UICONTROL [!DNL Workfront]Profil]**. Sobald Sie sich im Profil befinden, klicken Sie auf das **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Meine Einstellungen konfigurieren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Abmelden]** von Adobe Experience Cloud.
+
+### Profileinstellungen ohne Unified Shell ändern
+
+So ändern Sie Informationen in Ihrem Kontoprofil in Organisationen, die nicht die Adobe Unified Shell S verwenden:
 
 1. Klicken Sie unten im linken Bereich auf Ihren Avatar und dann auf **[!UICONTROL Profil]**.
 1. Klicken Sie auf: **[!UICONTROL Allgemeine Optionen]**&#x200B;ändern Sie dann eine der folgenden Optionen:
