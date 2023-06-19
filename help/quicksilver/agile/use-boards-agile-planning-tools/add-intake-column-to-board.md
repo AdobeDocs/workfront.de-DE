@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
+source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufügen, die Aufg
 Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer als ganz links liegende Spalte.
 
 Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar.
+
+Die Aufnahmespalte ist nicht auf Pinnwänden verfügbar, die Teil eines Workflows sind. Stattdessen können Sie eine Rückstandsspalte einrichten, um Karten aus der Kartenliste abzurufen. Weitere Informationen zum Hinzufügen einer Spalte mit dem Rückstand zu einer Pinnwand in einem Workstream finden Sie unter [Konfigurieren des Rückstands auf einer Workstream-Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
 Die Spalte Aufnahme ist auf 300 Aufgaben und 300 Probleme beschränkt. Sie werden nach der in den Elementen definierten Priorität sortiert. Informationen zur Priorität finden Sie unter [Aufgabenpriorität aktualisieren](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) und [Priorität von Problemen aktualisieren](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
