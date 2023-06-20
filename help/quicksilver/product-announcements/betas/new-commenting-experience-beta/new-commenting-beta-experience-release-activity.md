@@ -6,9 +6,9 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
    * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis)
 * Mit der Version 23.4 (Anfang Oktober 2023)
    * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Ende 2023:
-   * Entfernen Sie das veraltete Erlebnis aus den Objekten, die es noch haben.
-   * Die folgenden Objekte verfügen über das neue Kommentarerlebnis als einziges Erlebnis: Projekte, Aufgaben, Probleme, Meldungen, Dokumente, Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets, Ziele, Karten.
+   * Die folgenden Objekte verfügen über das neue Kommentarerlebnis als Standarderlebnis: Projekte, Aufgaben, Probleme, Meldungen, Dokumente, Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets, Ziele, Karten. Das veraltete Kommentierungserlebnis bleibt als Option erhalten.
 
   >[!NOTE]
   >
