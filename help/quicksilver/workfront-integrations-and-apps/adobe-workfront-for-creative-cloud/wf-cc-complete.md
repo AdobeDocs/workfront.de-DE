@@ -6,9 +6,9 @@ description: Sie können in Adobe Creative Cloud-Anwendungen bleiben und Ihre Ar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
+source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,14 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Aus dem **[!UICONTROL Arbeitsliste]**, wählen Sie die Aufgabe oder das Problem aus, die/das als abgeschlossen markiert werden soll.
-1. Klicken **[!UICONTROL Fertig]**.\
-   Damit wird das Element in Workfront abgeschlossen.
+1. Klicken **[!UICONTROL Fertig]**.  Wenn Sie der einzige Benutzer sind, der dieser Aufgabe oder diesem Problem zugewiesen ist, markiert dies das Element [!UICONTROL Fertig] oder [!UICONTROL Gelöst] in [!DNL Workfront].
+1. (Bedingt) Wenn dieser Aufgabe oder diesem Problem mehrere Benutzer zugewiesen sind, klicken Sie auf [!UICONTROL Fertig] öffnet ein Dropdown-Menü. Anschließend können Sie:
+
+   Klicken **[!UICONTROL Fertig mit meinem Teil]** , wenn andere Benutzer auch ihre Arbeit ausführen müssen, damit die Aufgabe oder das Problem abgeschlossen ist.
+
+   Oder
+
+   Klicken **[!UICONTROL Fertig]** (für Aufgaben) oder **[!UICONTROL Gelöst]** (für Probleme), wenn keine weiteren Arbeiten an der Aufgabe oder dem Problem erforderlich sind. Dadurch wird das Element markiert [!UICONTROL Fertig] oder [!UICONTROL Gelöst] in [!DNL Workfront].
 
    >[!NOTE]
    >
