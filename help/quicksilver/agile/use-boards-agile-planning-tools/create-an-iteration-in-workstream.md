@@ -6,14 +6,17 @@ title: Erstellen einer Iteration in einem Workflow
 description: Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 author: Lisa
 feature: Agile
-source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 # Erstellen einer Iteration in einem Workflow
+
+{{highlighted-preview}}
 
 Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 
@@ -82,12 +85,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Klicken Sie auf der Registerkarte &quot;Kartenliste&quot;in der Ansicht &quot;Iteration&quot;auf die [!UICONTROL **Iterationsdetails**] icon ![Iterationsdetails](assets/iteration-details-button.png).
    * Klicken Sie auf der Iterationsfläche auf die [!UICONTROL **Iterationsdetails**] icon ![Iterationsdetails](assets/iteration-details-button.png) im Metrikbereich oben rechts.
 
-1. Bearbeiten Sie die Iteration nach Bedarf und klicken Sie auf [!UICONTROL **Speichern**].
+1. Im [!UICONTROL Iterationskonfiguration] bearbeiten Sie die Iteration nach Bedarf.
+1. Um den Iterationsnamen zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
 
-   Nachdem eine Iteration gestartet wurde, können Sie nur den Iterationsnamen ändern.
+   Nachdem eine Iteration gestartet wurde, können Sie nur den Iterationsnamen und nicht die Daten oder die Iterationslänge ändern.
+
+1. <span class="preview">Um Ziele zur Iteration hinzuzufügen, erweitern Sie [!UICONTROL **Ziele**].</span>
+1. <span class="preview">Klicken [!UICONTROL **Ziel hinzufügen**] und geben Sie den Zielnamen ein.</span>
+
+   <span class="preview">Da die Ziele während der Iteration abgeschlossen sind, können Sie das Kontrollkästchen aktivieren, um sie als abgeschlossen zu kennzeichnen, oder auf die Schaltfläche **Löschen** icon ![Löschsymbol](assets/delete.png) , um ein Ziel zu löschen. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.</span>
+
+<!--
+<div class="preview">
+
+## Assign cards to the next iteration
+
+Use the [!UICONTROL Next Iteration] column to move cards from the current iteration to the next iteration, without sending them to the backlog first.
+
+1. Move a card to the [!UICONTROL **Next Iteration**] column, or add a new card directly in the column.
+1. Access the next iteration by clicking the [!UICONTROL **Next Iteration**] column title, or by clicking the up-pointing arrow next to the iteration name on the top of the screen.
+
+   The cards that you marked to come over to the next iteration are placed in the columns that correspond with their status.
+
+</div>
+-->
 
 ## Iteration löschen
 
 1. Klicken Sie auf [!UICONTROL **Kartenliste**] im Workflow-Stream und öffnen Sie die Iterationsansicht.
-1. Klicken Sie auf **Löschen** neben der Iteration.
+1. Klicken Sie auf **Löschen** icon ![Löschsymbol](assets/delete.png) neben der Iteration.
 1. Klicken [!UICONTROL **Iteration löschen**] in der Bestätigungsnachricht angezeigt.
