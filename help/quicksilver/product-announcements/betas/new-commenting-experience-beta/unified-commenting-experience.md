@@ -6,16 +6,16 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Neues Kommentierungserlebnis
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur für alle Kunden in der Vorschau -Umgebung verfügbar.</span>
 
 Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
 
@@ -432,7 +432,7 @@ Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt,
 
 * Standardmäßig als Haupterlebnis für die Kommentarfunktion:
 
-   * Ziele, <span class="preview">Karten im Bereich &quot;Foren&quot;</span>
+   * Ziele, Karten im Bereich der Foren
 
   >[!NOTE]
   >
