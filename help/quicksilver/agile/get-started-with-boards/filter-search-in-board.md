@@ -6,14 +6,16 @@ description: Sie können eine Pinnwand so filtern, dass nur bestimmte Karten ang
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Filtern und Suchen in einer Pinnwand
+
+{{highlighted-preview}}
 
 Sie können eine Pinnwand filtern, um Folgendes anzuzeigen:
 
@@ -23,6 +25,8 @@ Sie können eine Pinnwand filtern, um Folgendes anzuzeigen:
 * Karten, die in einem bestimmten Zeitrahmen fällig sind
 * Archivierte Karten
 * Karten, die mit einem bestimmten Projekt verbunden sind
+
+<span class="preview">Durch Sortieren der Pinnwand werden alle Karten in den Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.</span>
 
 Die Suche hilft Ihnen auch, eine bestimmte Karte auf der Pinnwand zu finden.
 
@@ -105,6 +109,29 @@ Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie könn
    Sie können auch Karten anzeigen, die nicht mit einem Projekt verbunden sind.
 
    ![Nach Verbindung filtern](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## Auf Pinnwand sortieren
+
+Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.
+
+1. Rufen Sie die Pinnwand auf.
+1. Klicken [!UICONTROL **Sortieren nach**] und wählen Sie [!UICONTROL **Name**], [!UICONTROL **Fälligkeitsdatum**], [!UICONTROL **Schätzung**], [!UICONTROL **Status**] oder [!UICONTROL **Verbindung**].
+
+   Die Verbindung (Projektname) gilt nur für verbundene Karten. Die anderen Optionen sortieren sowohl verbundene als auch Ad-hoc-Karten in den Spalten.
+
+   Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zurück, in der sie manuell festgelegt wurden, bevor andere Sortieroptionen angewendet wurden. Dies ist die Standardsortierung der Spalten.
+
+1. Auswählen [!UICONTROL **Rückwärtsreihenfolge**] , um die Spalten in umgekehrter Reihenfolge der Sortieroption zu sortieren.
+
+   Der Pfeil auf dem Sortiersymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert werden.
+
+   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird auf dem Sortiersymbol ein Indikator angezeigt ![Angewandte Sortierung](assets/sort-applied-boards.png).
+
+   ![Nach Spalten auf einer Pinnwand sortieren](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## Durchsuchen einer Pinnwand
 
