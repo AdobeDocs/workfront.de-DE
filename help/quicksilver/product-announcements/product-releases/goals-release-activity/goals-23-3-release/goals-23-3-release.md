@@ -6,13 +6,13 @@ title: Adobe Workfront-Ziele mit Version 23.3
 description: Auf dieser Seite finden Sie Informationen zur Funktionalität der Adobe Workfront-Ziele im neuen Adobe Workfront-Erlebnis, das mit Version 23.3 für die Produktionsumgebung freigegeben wird.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: af605e10362c780ea82c2ea73d2aaf9d78ec4498
+exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront-Ziele mit Version 23.3
 
@@ -37,7 +37,7 @@ Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zei
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Verbesserungen am Aktualisierungsabschnitt</a></p>
-                        <p>Verbesserungen am Abschnitt "Aktualisierungen"der Ziele werden innerhalb des Veröffentlichungszeitrahmens von 23.3 bereitgestellt. Diese Verbesserungen werden kurz nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.</p>
+                        <p>Verbesserungen am Abschnitt "Aktualisierungen"der Ziele werden innerhalb des Veröffentlichungszeitrahmens von 23.3 zur Verfügung gestellt, während gleichzeitig die Aktualisierungen veröffentlicht werden, die für das neue Kommentar-Beta-Erlebnis veröffentlicht werden. Diese Verbesserungen werden kurz nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                      <p>

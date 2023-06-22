@@ -7,9 +7,9 @@ description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Ve
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumg
 
 ## Verbesserungen am Aktualisierungsabschnitt
 
-Verbesserungen am Abschnitt &quot;Aktualisierungen&quot;der Ziele werden innerhalb des Veröffentlichungszeitrahmens von 23.3 bereitgestellt. Diese Verbesserungen werden kurz nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
+Verbesserungen am Abschnitt &quot;Aktualisierungen&quot;der Ziele werden innerhalb des Veröffentlichungszeitrahmens von 23.3 zur Verfügung gestellt, während gleichzeitig die Aktualisierungen veröffentlicht werden, die für das neue Kommentar-Beta-Erlebnis veröffentlicht werden. Diese Verbesserungen werden kurz nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 
 Die für Ziele bereitgestellten Kommentierungsverbesserungen entsprechen denen, die mit dem neuen Kommentar-Beta-Erlebnis für andere Workfront-Objekte veröffentlicht wurden.
 

@@ -7,9 +7,9 @@ description: Auf dieser Seite finden Sie Informationen über die Funktionen für
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zei
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändern der Unterstützung für Microsoft Office-Testsendungen</a><span style="color: #ff0000;"> Neu in der Produktion!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Aufschieben von Aktualisierungen für den Desktop Proofing Viewer</a> </p>
+                        <p>Basierend auf dem Benutzer-Feedback fügen wir die Option hinzu, Updates für den Desktop Proofing Viewer zu verschieben. Benutzer können jetzt eine Aktualisierung verzögern und ihre Arbeit fortsetzen. Es wird jedoch daran erinnert, dass beim Öffnen des Desktop Proofing Viewers eine Aktualisierung verfügbar ist.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: Mit Version 23.3</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: Mit Version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändern der Unterstützung für Microsoft Office-Testsendungen</a></p>
                         <p>Um eine robuste und skalierbare Testversandlösung zu erhalten, ändern wir die unterstützten Microsoft Office-Dateitypen und -Dateigrößenbeschränkungen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -50,7 +65,8 @@ Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zei
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Update des Desktop Proofing Viewers</a></p>
                         <p>Der Desktop Proofing Viewer wurde auf Version 2.1.24 aktualisiert! Dieses Update beinhaltet Chrome v100-Unterstützung für die Überprüfung interaktiver Testsendungen sowie eine Reihe von Fehlerbehebungen.</p>
