@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,8 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 1. Informationen zum Antworten auf eine Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des Beta-Kommentarerlebnisses
+
+Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
 1. Klicken  **Updates** im linken Bereich.
@@ -388,6 +390,8 @@ Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage 
 
 
 ### Kopieren von Aktualisierungen im neuen Kommentierungserlebnis
+
+Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 

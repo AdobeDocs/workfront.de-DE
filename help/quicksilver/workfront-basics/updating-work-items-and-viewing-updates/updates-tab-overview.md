@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Storys</li> 
+     <li>Storys*</li> 
      <li>Aufgaben</li> 
      <li>Vorlagen</li> 
      <li>Vorlagenaufgaben</li> 
@@ -89,10 +89,13 @@ Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
   </tr> 
  </tbody> 
 </table>
+*Geschichten sind Aufgaben. Alle Informationen zu Aufgaben stehen auch für Meldungen zur Verfügung.
 
 ### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im Beta-Kommentierungserlebnis
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
@@ -109,7 +112,7 @@ Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworte
    <td> 
     <ul> 
      <li><p>Ziele</p>
-     <li><span class="preview">Karten im Bereich der Karten</span></li>
+     <li><span class="preview">Karten im Bereich der Karten*</span></li>
       Dies ist das einzige Erlebnis für Ziele <span class="preview">und Karten</span>.
      </li> 
      <li><span class="preview">Projekte</span></li>
@@ -124,10 +127,7 @@ Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworte
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->Wenn Sie die Abschnitte Kommentare und Systemaktivitäten auf einer Karte aktivieren, können Sie Aktualisierungen zu Karten in den Bereichen Pinnwand hinzufügen und anzeigen. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+*Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 

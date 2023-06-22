@@ -6,9 +6,9 @@ description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,11 @@ Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erleb
 
 ### Antworten auf einen Kommentar bei Verwendung des Beta-Kommentars
 
+Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
 1. Klicken **Updates** und klicken Sie dann auf **Kommentare** für das Objekt ein und suchen Sie nach dem Kommentar oder der Antwort, auf den/die Sie antworten möchten.
+   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. Klicken **Antwort**.
 
    Sie können die Benutzer sehen, die aktiv an der Unterhaltung beteiligt sind am unteren Rand der **Neuer Kommentar** und Sie können weitere hinzufügen oder die nicht mehr relevanten entfernen. Diese Benutzer erhalten zusammen mit allen Benutzern, die das Objekt abonniert haben, eine Benachrichtigung, sobald ein Objekt aktualisiert oder beantwortet wird. Sie können auch weitere Benutzer taggen, um sie in Ihre Antwort einzubeziehen.  Informationen zum Tagging weiterer Benutzer finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

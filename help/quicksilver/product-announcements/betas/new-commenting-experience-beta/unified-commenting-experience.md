@@ -6,9 +6,9 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt,
 
 * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
 
-   * Probleme, <span class="preview">Projekte, Aufgaben, Meldungen und Dokumente</span>
+   * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>
 
   Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

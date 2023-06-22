@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung b
         Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. <!--insure this stays accurate-->
+1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. Weitere Informationen zur Beantwortung von Aktualisierungen finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)

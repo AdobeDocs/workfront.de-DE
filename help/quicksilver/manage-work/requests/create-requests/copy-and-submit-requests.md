@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 2%
@@ -14,9 +14,7 @@ ht-degree: 2%
 
 # Anforderungen kopieren und senden
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anforderung kopieren, minimale Änderungen daran vornehmen und sie als neue Anforderung erneut senden.
 
@@ -91,7 +89,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 * Sie haben immer Zugriff auf das Kopieren und Senden einer Kopie Ihrer eigenen Anfragen, es sei denn, jemand hat Ihre Berechtigungen für sie entfernt.
 * Der Zugriff auf Kopier- und Sendeanforderungen, die ursprünglich von anderen gesendet wurden, kann Personen im selben Unternehmen automatisch gewährt werden, wenn der Ersteller der Anforderungswarteschlange die **Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen** in den Bereichen &quot;Queue Details&quot;oder &quot;Edit Project&quot;. Wenn Sie diese Einstellung deaktivieren, kann nur der ursprüngliche Anfragende eigene Anforderungen anzeigen.
 
-   Weitere Informationen finden Sie in den folgenden Artikeln:
+  Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md)
@@ -102,9 +100,9 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
    * Die Anforderungswarteschlange wurde gelöscht.
    * Das Warteschlangenthema wurde gelöscht.
 
-      >[!TIP]
-      >
-      >Wenn das Warteschlangenthema das einzige in der Anforderungswarteschlange war, können Sie die Anforderung dennoch kopieren und senden, und sie wird unter der Anforderungswarteschlange selbst gespeichert.
+     >[!TIP]
+     >
+     >Wenn das Warteschlangenthema das einzige in der Anforderungswarteschlange war, können Sie die Anforderung dennoch kopieren und senden, und sie wird unter der Anforderungswarteschlange selbst gespeichert.
 
    * Die Anforderungswarteschlange wird nicht mehr als Warteschlange für Hilfeanfragen veröffentlicht. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Wenn die Anforderungswarteschlange kein Warteschlangenthema enthält und die ursprüngliche Anforderung vor Januar 2022 eingereicht wurde.
@@ -113,9 +111,9 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 
 * Sie können eine Kopie einer konvertierten Anforderung kopieren und senden, wenn die Anforderung im Konvertierungsprozess beibehalten wurde. Weitere Informationen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >Die kopierte Anforderung ist nicht mit einem aufgelösten Objekt verknüpft.
+  >[!TIP]
+  >
+  >Die kopierte Anforderung ist nicht mit einem aufgelösten Objekt verknüpft.
 
 ## Anforderungen kopieren und senden
 
@@ -123,27 +121,34 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie sie aus und klicken Sie auf das **Kopieren und Senden als neu** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
-   * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu**
+   * Wählen Sie sie aus und klicken Sie auf das **Kopieren und Senden als neu** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      Oder
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie dann auf **Kopieren und Senden als neu**.
+   * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     Oder
 
-      >[!TIP]
-      >
-      >Wenn Sie keinen Zugriff auf das Erstellen von Problemen haben, erhalten Sie eine Warnung, dass Ihr Administrator Sie daran gehindert hat, Anforderungen zu erstellen.
+     Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie dann auf **Kopieren und Senden als neu**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >Wenn Sie keinen Zugriff auf das Erstellen von Problemen haben, erhalten Sie eine Warnung, dass Ihr Administrator Sie daran gehindert hat, Anforderungen zu erstellen.
 
 1. (Optional) Aktualisieren Sie bei Bedarf die folgenden Informationen:
 
    * **Anfragetyp**: die Anforderungswarteschlange, in der die kopierte Anforderung gespeichert wird. Standardmäßig wird die kopierte Anforderung in der Anforderungswarteschlange der ursprünglichen Anforderung gespeichert.
    * **Themengruppen** und **Warteschlangenthemen**, wenn sie ausgewählt sind. Die Namen oder Themengruppen und Themen der Warteschlange werden für Ihre Umgebung angepasst. Standardmäßig wird die kopierte Anforderung in den Themengruppen und den Warteschlangenthemen der ursprünglichen Anforderung gespeichert.
 
-      >[!TIP]
-      >
-      >Wenn sich der Pfad vom Pfad der ursprünglichen Anforderung ändert, hat der Ersteller der Anforderungswarteschlange die Warteschlange geändert.
+     >[!TIP]
+     >
+     >Wenn sich der Pfad vom Pfad der ursprünglichen Anforderung ändert, hat der Ersteller der Anforderungswarteschlange die Warteschlange geändert.
 
 1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anforderung. Je nachdem, welche Felder der Ersteller der Anforderungswarteschlange im **Neue Ausgabefelder** Abschnitt **Warteschlangendetails** -Unterregisterkarte des Projekts können Sie eines der folgenden Felder finden:
 
@@ -231,7 +236,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
    >
    >* Alle benutzerdefinierten Formulare, die an die ursprüngliche Anforderung angehängt sind, und die Werte in den benutzerdefinierten Feldern werden an die kopierte Anforderung übertragen. Dazu gehören Felder, die Logik enthalten.
    >* Sie können keine benutzerdefinierten Formulare aus der kopierten Anforderung entfernen.
-
 
 1. Klicken **Einsenden**.
 

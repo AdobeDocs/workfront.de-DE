@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen 
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -15,14 +15,16 @@ ht-degree: 1%
 
 # Gesendete Anforderungen suchen
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 Sie können die folgenden Arten von Anforderungen finden, die Sie oder eine andere Person gesendet haben, oder Anforderungen, die Sie gestartet haben, aber noch nie abgesendet haben. Sie können diese Anforderungen in den folgenden Bereichen von Adobe Workfront finden:
 
 * **Gesendeter Bereich**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
 * **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet haben, aber noch nie beendet haben und Sie nie gesendet haben. Weitere Informationen zu Entwurfsanfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   >[!TIP]
-   >
-   >Sie können nur Ihre eigenen Entwurfsanfragen anzeigen.
+  >[!TIP]
+  >
+  >Sie können nur Ihre eigenen Entwurfsanfragen anzeigen.
 
 ## Zugriffsanforderungen
 
@@ -69,6 +71,8 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
    >Die Spalten in der Liste &quot;Gesendete Anforderungen&quot;können nicht angepasst werden.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Die folgenden Spalten werden standardmäßig angezeigt:
 
