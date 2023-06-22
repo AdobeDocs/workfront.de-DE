@@ -6,16 +6,14 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand
-
-{{highlighted-preview}}
 
 Sie können einer Pinnwand schnell eine Karte hinzufügen und sie einem Mitglied auf der Pinnwand zuweisen. Die Karte kann eine Aufgabe, ein Problem, eine Person, eine Gruppe oder einen beliebigen Elementtyp darstellen, der in die Pinnwand eingeschlossen werden soll.
 
@@ -100,18 +98,18 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
       <td> <p>Klicken <strong>[!UICONTROL Checklisten-Element hinzufügen]</strong>. Geben Sie dann den Titel des Elements ein und drücken Sie die Eingabetaste. Ein weiteres Element wird automatisch hinzugefügt. Fahren Sie mit der Eingabe von Titeln fort, um weitere Elemente hinzuzufügen.</p> <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Kommentare]</strong></span> </td>
-      <td><span class="preview"><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>HINWEIS:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
+      <td role="rowheader"><strong>[!UICONTROL Kommentare]</strong></td>
+      <td><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>HINWEIS:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
       </p><p>Klicken <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
-      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.</p></span></td>
+      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p><p><strong>HINWEIS:</strong> Kommentare zu Karten sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Beispielbild in der Produktionsumgebung:
+   Beispielbild in der Produktionsumgebung, wenn das frühe Feature-Opt-in nicht verwendet wird:
    ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   Beispielbild in der Produktionsumgebung, wenn die frühe Funktion aktiviert ist:
    ![Ad-hoc-Kartendetails](assets/ad-hoc-card-details-with-comments.png)
 
    Verwenden Sie das linke Navigationsfenster, um zwischen den Bereichen der Felder in den Kartendetails zu wechseln.
