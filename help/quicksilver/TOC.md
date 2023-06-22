@@ -2,9 +2,9 @@
 user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 1%
 
 ---
@@ -2166,6 +2166,7 @@ ht-degree: 1%
          * [Aktualisieren Ihrer Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Kennzeichnen von Arbeitselementen, die mit dem Adobe Workfront-Plug-in abgeschlossen wurden](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Protokollzeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [Verwalten [!DNL Adobe Workfront] Benachrichtigungen von Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Anwendungen {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin] der [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Anwendungen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
