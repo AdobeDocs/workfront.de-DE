@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller in Version 23.3 verfügbaren Änderungen finden Sie unter [23.3
 
 >[!NOTE]
 >
->Vorschau- und Produktionsversionen: Ankündigung (vor Version 23.3)
+>Vorgesehene Version: 28. Juni 2023; Geplante Produktionsversion: 13. Juli 2023
 
 Die Benutzeroberfläche der Liste Gesendete Anfragen wurde verbessert.
 
@@ -36,8 +36,16 @@ Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](/help
 
 >[!NOTE]
 >
->Vorschau-Version: noch bekannt zu geben (vor der Version 23.3); Produktionsversion: mit Version 23.3
+>Vorgesehene Version: 5. Juli 2023; Geplante Produktionsversion: mit Version 23.3
 
 Wir haben das Feld Neue Anforderung aktualisiert, das beim Senden einer neuen Anforderung angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neues Problem überein, das beim Hinzufügen eines neuen Problems zu einem Projekt angezeigt wird.
 
 Weitere Informationen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Aktualisierte Liste der Abrechnungssätze
+
+>[!NOTE]
+>
+>Vorschau-Version: 29. Juni 2023; Geplante Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3; Geplante Produktionsversion für alle Kunden: Mit Version 23.4
+
+Die Liste der Projektabrechnungssätze hat jetzt das modernere Aussehen in den meisten anderen Listen in Workfront.

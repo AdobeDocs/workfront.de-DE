@@ -3,9 +3,9 @@ title: 23.3 Agile Verbesserungen
 description: 23.3 Agile Verbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 23.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Weitere Informationen zum Opt-in für neue Foren-Funktionen vor der vierteljährlichen Veröffentlichung finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Agile Ansicht eines Projekts zeigt ein Kanban-Board an
 
@@ -28,24 +30,6 @@ Während Sie sich auf der Pinnwand befinden, können Sie zur alten Agile-Ansicht
 
 Die Dokumentation für das aktualisierte Projekt Agile View wird mit seiner Version zur Vorschau bereitgestellt.
 
-## Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar
-
-Sie können jetzt alle Foren und Workflows im Dunkelmodus anzeigen. Die neue Einstellung ist über die Voreinstellungen im Dashboard der Foren verfügbar.
-
->[!NOTE]
->
->Wenn die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert wurde, können Sie über Ihr Voreinstellungsmenü (Profilbild) die Dark-Design-Formatierung für Adobe Experience Cloud aktivieren. Für Workfront-Pinnwände wird keine separate Dunkelmodusoption angezeigt.
-
-Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Verbesserungen bei Workstream-Iterationen in Adobe Workfront-Foren
-
-Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.
-
-Außerdem ist die Spalte Nächste Iteration jetzt auf Iterationsboards verfügbar. Wenn Sie eine Karte in diese Spalte einfügen, wird sie automatisch in die nächste Iteration übertragen und kehrt nicht zum Rückstand zurück. Bei der nächsten Iteration erscheint die Karte in der Spalte, die ihrem Status entspricht.
-
-Weitere Informationen zu beiden Funktionen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Nach Pinnwandspalten sortieren
 
 Wir haben die Möglichkeit hinzugefügt, die Karten in den Spalten auf einer Pinnwand zu sortieren. Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.
@@ -56,6 +40,24 @@ Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zur
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar
+
+Sie können jetzt alle Foren und Workflows im Dunkelmodus anzeigen. Die neue Einstellung ist über die Voreinstellungen im Dashboard der Foren verfügbar.
+
+>[!NOTE]
+>
+>Wenn die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert wurde, können Sie über Ihr Voreinstellungsmenü (Profilbild) die Dark-Design-Formatierung für Adobe Experience Cloud aktivieren. Für Workfront-Pinnwände wird keine separate Dunkelmodusoption angezeigt.
+
+Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## In Workstream-Iterationen in Adobe Workfront-Foren verfügbare Ziele
+
+Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Hinzufügen von Kommentaren zu Karten auf Pinnwänden
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/h
 Sie können jetzt Kommentare zu Ad-hoc- und verbundenen Karten auf Pinnwänden hinzufügen und andere Benutzer mit den Kommentaren versehen. Kommentare sind in den Kartendetails verfügbar. Die Kommentarfunktion für Pinnwände verwendet das neue Adobe Workfront-Kommentarerlebnis.
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) und [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Verbesserungen beim Tag-Manager für Foren
 

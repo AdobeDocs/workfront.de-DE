@@ -4,7 +4,7 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
 
 * [Administratorverbesserungen](#administrator-enhancements)
 * [Agile Verbesserungen](#agile-enhancements)
+* [Verbesserungen bei der Finanzverwaltung](#financial-management-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Projektverbesserungen](#project-enhancements)
+* [Mobile Verbesserungen](#mobile-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -111,7 +113,23 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nach Pinnwandspalten sortieren</a><span style="color: #ff0000;"> Bald!</span></p>
+                        <p>Wir haben die Möglichkeit hinzugefügt, die Karten in den Spalten auf einer Pinnwand zu sortieren. Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 22. Juni 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
@@ -130,24 +148,8 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei Workstream-Iterationen in Adobe Workfront-Foren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
-                        <p>Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden. Außerdem ist die Spalte Nächste Iteration jetzt auf Iterationsboards verfügbar.</p>
-                    </td>
-                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau-Version: 22. Juni 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nach Pinnwandspalten sortieren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
-                        <p>Wir haben die Möglichkeit hinzugefügt, die Karten in den Spalten auf einer Pinnwand zu sortieren. Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ziele, die bei Workstream-Iterationen in Adobe Workfront-Foren verfügbar sind</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -299,6 +301,42 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
             </tbody>
         </table>
 
+### Verbesserungen bei der Finanzverwaltung
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a><span style="color: #ff0000;"> Bald!</span> </p>
+                        <p>Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 29. Juni 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.4</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Integrationsverbesserungen
 
 <table>
@@ -445,24 +483,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a><span style="color: #ff0000;"> Bald!</span> </p>
-                        <p>Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.</p>
-                    </td>
-                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau-Version: 29. Juni 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.4</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Dokumentgenehmigungen</a> </p>
