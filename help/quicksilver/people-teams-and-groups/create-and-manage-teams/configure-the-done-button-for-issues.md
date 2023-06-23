@@ -6,9 +6,9 @@ description: Mit der Schaltfläche Fertig kann automatisch der Status einer Aufg
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Die [!UICONTROL Fertig] -Schaltfläche kann automatisch den Status einer Aufgabe
 Benutzer mit bestimmten Berechtigungen können die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status im System widerzuspiegeln. Es gibt 3 verschiedene Möglichkeiten, die [!UICONTROL Fertig] -Schaltfläche funktioniert bei Problemen in [!DNL Workfront]:
 
 * Wenn dem Benutzer eine [!UICONTROL Startseite], [!DNL Workfront] Administrator oder Benutzer mit [!UICONTROL Plan] -Lizenz kann die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status für Teammitglieder widerzuspiegeln. Siehe [Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
+* Wenn der Benutzer über keine [!UICONTROL Startseite], aber sie haben[!UICONTROL Sonstige Teams] in ihrem Profil sucht Workfront nach der Einstellung der [!UICONTROL Fertig] auf einem der mit dem Benutzer verknüpften Teams. Die Auswahl ist zufällig und der mit einem der Teams verknüpfte Status wird für das Problem verwendet.
 * Wenn der Benutzer über keine [!UICONTROL Startseite] zugewiesen wurde, [!UICONTROL Fertig] -Schaltfläche für Probleme an ein systemgeneriertes [!UICONTROL Gelöst] Status mit dem dreistelligen Code [!UICONTROL RLV]. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die [!UICONTROL Fertig] -Schaltfläche wird automatisch auf diesen Status festgelegt.
 * Wenn die Variable [!UICONTROL Gelöst] ([!UICONTROL RLV]) wird gelöscht und der Benutzer markiert das Problem als [!UICONTROL Fertig] nein [!UICONTROL Startseite]festgelegt ist, wird der standardmäßige Problemstatus an das Problem gebunden, das als Standard für [!UICONTROL Geschlossen] für die Gruppe, die dem Projekt zugewiesen ist, zu der das Problem gehört. Der Workfront-Administrator kann eine systemweite Standardeinstellung für die Gruppe konfigurieren. Siehe [Konfigurieren Sie die [!UICONTROL Fertig] -Schaltfläche beim [!UICONTROL Gelöst] Status wurde gelöscht](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in diesem Artikel.
 
@@ -71,20 +72,18 @@ Sie können ändern, welcher Status auf das Arbeitselement angewendet wird, inde
    >* Wenn Sie für jeden Arbeitselement-Typ einen Status auswählen, wird der Status der Aufgabe oder des Problems auf diesen Status festgelegt, wenn ein Benutzer auf [!UICONTROL Fertig] auf ihren Posten. Wenn Sie mehrere Status für jeden Arbeitselement-Typ festlegen, wird ein Dropdown-Menü zum [!UICONTROL Fertig] und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
    >* Sie können nur Status auf Systemebene mit dem [!UICONTROL Fertig] Schaltfläche. Sie können keine gruppenspezifischen Status mit den Status der Arbeitselemente verknüpfen.
    >* Wenn ein dem Element zugewiesener Benutzer das Element in den Status setzt, der dem Element zugeordnet ist [!UICONTROL Fertig] Schaltfläche, wird das Element als [!UICONTROL Fertig] für diesen Benutzer, unabhängig davon, ob der von Ihnen ausgewählte Status ein [!UICONTROL Abgeschlossen] oder [!UICONTROL Geschlossen] Status oder Arbeitsstatus.
-
    >   
    >   
    >  Beispiel: das [!UICONTROL Fertig] Schaltfläche mit In Bearbeitung bewirkt, dass das Arbeitselement als [!UICONTROL Fertig] für den Benutzer, der den Status von Neu in Gestartet ändert.
    >   
    >* Problemtypen können angepasst werden und können andere Namen haben als die unten in Ihrer Umgebung aufgelisteten.\
-      >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
-      >     
-      >   * [!UICONTROL Aufgaben]
-      >   * [!UICONTROL Probleme]
-      >   * [!UICONTROL Anfrage]
-      >   * [!UICONTROL Änderungsanforderung]
-      >   * [!UICONTROL Bug-Bericht]
-
+   >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
+   >     
+   >   * [!UICONTROL Aufgaben]
+   >   * [!UICONTROL Probleme]
+   >   * [!UICONTROL Anfrage]
+   >   * [!UICONTROL Änderungsanforderung]
+   >   * [!UICONTROL Bug-Bericht]
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird ein[!UICONTROL Fertig mit meinem Teil]&quot; im Dropdown-Menü neben den verschiedenen Status, die für Ihr Team ausgewählt wurden.
 

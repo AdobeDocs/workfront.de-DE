@@ -6,9 +6,9 @@ description: Erstellen von Arbeitselementen aus dem Startbereich
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,13 @@ Sie können eine persönliche Aufgabe erstellen, die nur Ihnen im [!UICONTROL St
 
 >[!NOTE]
 >
->Wenn Sie eine persönliche Aufgabe erstellen, wird sie in einem &quot;ausgeblendeten&quot;Projekt gespeichert, das in [!UICONTROL Workfront]. Sie können nur auf dieses Projekt zugreifen, wenn Sie eine Aufgabe daraus löschen (aus der Aufgabe selbst, nicht aus dem [!UICONTROL Startseite] Bereich).\
->![[!UICONTROL Projekt für persönliche Aufgaben]](assets/createworkitems-personal--project-350x105.png)>
+>* Wenn Sie eine persönliche Aufgabe erstellen, wird sie in einem &quot;ausgeblendeten&quot;Projekt gespeichert, das in [!UICONTROL Workfront]. Das Projekt trägt den Namen &quot;&lt; Benutzername >&#39;s Tasks&quot;. Der &quot;Benutzername&quot;ist der vollständige Name des Benutzers, der die Aufgabe erstellt hat. Sie können nur auf dieses Projekt zugreifen, wenn Sie auf die persönliche Aufgabe in der [!UICONTROL Startseite] -Bereich, beispielsweise aus dem Breadcrumb der Aufgabe.
+>
+>* Im Gegensatz zu regulären Projektaufgaben haben persönliche Aufgaben eine begrenzte Anzahl von Feldern, die in der Workfront-Benutzeroberfläche sichtbar sind und keinen Einfluss auf die Planung oder den Fortschritt von Projekten haben. Wenn Sie eine persönliche Aufgabe einem anderen Benutzer zuweisen, werden alle Aufgabenfelder zu einer persönlichen Aufgabe hinzugefügt. Die Aufgabe verbleibt jedoch im persönlichen Projekt des Benutzers, der die Aufgabe erstellt hat.
+>
+>* Es wird empfohlen, ein Projekt zu erstellen und persönliche Aufgaben dorthin zu verschieben, wenn Sie persönliche Aufgaben in den regulären Arbeitsablauf einbinden möchten.
+>
+> ![[!UICONTROL Projekt für persönliche Aufgaben]](assets/createworkitems-personal--project-350x105.png)
 
 ## Arbeit von einem anderen Benutzer anfordern
 

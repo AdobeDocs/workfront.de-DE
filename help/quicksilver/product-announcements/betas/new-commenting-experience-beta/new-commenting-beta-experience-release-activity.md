@@ -6,9 +6,9 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ Die in diesem Abschnitt aufgelisteten Funktionen sollen kurz nach der Woche vom 
 
 Jetzt können Sie den Inhalt eines Kommentars kopieren und ihn als neues Anführungszeichen zu einer Antwort im selben Thread hinzufügen, wenn Sie das neue Kommentarerlebnis verwenden.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorschau und Produktion: Geplant für den 29. Juni 2023
+Geplante Vorschau und Produktionsversion: 29. Juni 2023
+
+#### Neue Benutzeroberfläche für die Protokollierungszeit
+
+Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wurde im neuen Kommentar-Erlebnis neu gestaltet.
+
+Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
+
+Vorgesehene Version: 29. Juni 2023
+
+Geplante Produktionsversion: mit Version 23.3
 
 #### Hinzufügen von Emojis zu einer Aktualisierung
 
 Sie können jetzt einem Kommentar Emojis hinzufügen, indem Sie eine Symbolleistenoption &quot;Rich-Text&quot;im neuen Kommentarerlebnis verwenden.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
 Vorschau: Ankündigung (während der Version 23.3)
 
@@ -91,11 +101,11 @@ Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Versio
 
 Dies ist das einzige Kommentarerlebnis für diese Objekte, da das veraltete Kommentarerlebnis beim Zugriff auf sie entfernt wird.
 
-Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
 Vorschau-Version: Ankündigung nach der Produktionsversion 23.3 (20. Juli 2023)
 
-Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3
+Produktionsversion für Fast-Release-Kunden: Ankündigung nach Version 23.3
 
 Produktionsversion für alle Kunden: mit Version 23.4
 
