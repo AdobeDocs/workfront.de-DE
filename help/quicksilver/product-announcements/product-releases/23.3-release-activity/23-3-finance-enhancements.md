@@ -3,7 +3,7 @@ title: 23.3 Verbesserungen beim Finanzmanagement
 description: 23.3 Verbesserungen beim Finanzmanagement
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Außerdem sind jetzt im Benutzerprofil datumswirksame Aufgabenrollensätze verf�
 
 Mit einer neuen Funktion, Ratenkarten, können Sie mehrere Abrechnungsraten pro Auftragseinstellung festlegen, basierend auf dem Standort. Eine Abrechnungsrate für eine Stellenaufgabe und einen Ort kann auch effektive Daten enthalten. An Projekte können Ratenkarten angehängt werden, um alle Rateninformationen gleichzeitig für die jeweilige Rolle und den jeweiligen Standort des Auftrags anzuwenden. Standortbasierte Rollen können auch Aufgaben zugewiesen werden, mit der Möglichkeit, ihre Raten auf der Zuweisungsebene zu überschreiben.
 
-Alle diese Funktionen werden im Juli 2023 für die Vorschau veröffentlicht und die aktualisierte Benutzerdokumentation ist dann verfügbar.
+Alle diese Funktionen werden am 29. Juli 2023 für die Vorschau veröffentlicht und die aktualisierte Benutzerdokumentation ist zu diesem Zeitpunkt verfügbar.
