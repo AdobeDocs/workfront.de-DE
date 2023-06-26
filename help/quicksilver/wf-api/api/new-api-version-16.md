@@ -6,7 +6,7 @@ description: Adobe Workfront hat die API-Version 16 am 6. April 2022 veröffentl
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -187,7 +187,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
           <li>
             <p><b>getIsAutoUpgradeDisabled</b>
             </p>
-            <p>Diese Aktion gibt einen booleschen Wert zurück, der beschreibt, ob der Kunde die Option zur automatischen Aktualisierung von Lizenzinhabern des Beitragenden deaktiviert hat.</p>
+            <p>Diese Aktion gibt einen booleschen Wert zurück, der beschreibt, ob der Kunde die Option zur automatischen Aktualisierung von Mitwirkenden-Lizenzinhabern deaktiviert hat.</p>
          </li>
         </ul>
       </td>
