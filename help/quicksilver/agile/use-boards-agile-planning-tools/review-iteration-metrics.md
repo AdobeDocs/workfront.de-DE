@@ -7,16 +7,14 @@ description: Metriken sind für jede Iteration in einem Workstream auf der Itera
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
 # Iterationsmetriken überprüfen
-
-{{highlighted-preview}}
 
 Metriken sind für jede Iteration in einem Workstream, auf der Iterationsprozessplatine und im Dashboard verfügbar.
 
@@ -49,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie die [!UICONTROL Iterationsvorgang] Pinnwand.
 1. Überprüfen Sie den Metrikbereich über der Pinnwand oben rechts. Klicken Sie auf die Nach-oben- und Nach-unten-Pfeile, um zwischen den Iterationen zu wechseln.
 
-   Die folgenden Metriken werden angezeigt: Gesamtzahl der der der Iteration zugewiesenen Punkte, die verbleibenden Punkte, die noch nicht in der Iteration abgeschlossen sind, die Anzahl der in der Iteration abgeschlossenen Punkte, <span class="preview">und die Anzahl der in der Iteration erstellten und abgeschlossenen Ziele</span>.
+   Die folgenden Metriken werden angezeigt: Gesamtzahl der der der Iteration zugewiesenen Punkte, die verbleibenden Punkte, die noch nicht in der Iteration abgeschlossen sind, die Anzahl der in der Iteration abgeschlossenen Punkte.
 
 1. (Optional) Klicken Sie auf die [!UICONTROL **Iterationsdetails**] icon ![Iterationsdetails](assets/iteration-details-button.png) , um das Detaildialogfeld für die ausgewählte Iteration zu öffnen.
 

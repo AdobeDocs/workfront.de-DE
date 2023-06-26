@@ -7,16 +7,14 @@ description: Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # Erstellen einer Iteration in einem Workflow
-
-{{highlighted-preview}}
 
 Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
 
@@ -90,12 +88,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Nachdem eine Iteration gestartet wurde, können Sie nur den Iterationsnamen und nicht die Daten oder die Iterationslänge ändern.
 
-1. <span class="preview">Um Ziele zur Iteration hinzuzufügen, erweitern Sie [!UICONTROL **Ziele**].</span>
-1. <span class="preview">Klicken [!UICONTROL **Ziel hinzufügen**] und geben Sie den Zielnamen ein.</span>
+<!--   
 
-   <span class="preview">Da die Ziele während der Iteration abgeschlossen sind, können Sie das Kontrollkästchen aktivieren, um sie als abgeschlossen zu kennzeichnen, oder auf die Schaltfläche **Löschen** icon ![Löschsymbol](assets/delete.png) , um ein Ziel zu löschen. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration
