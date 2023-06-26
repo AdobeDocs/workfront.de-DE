@@ -3,9 +3,9 @@ title: 23.3 Agile Verbesserungen
 description: 23.3 Agile Verbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zur
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar
 
 Sie können jetzt alle Foren und Workflows im Dunkelmodus anzeigen. Die neue Einstellung ist über die Voreinstellungen im Dashboard der Foren verfügbar.
@@ -54,7 +56,7 @@ Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstel
 
 Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Außerdem ist die Spalte Nächste Iteration jetzt auf Iterationsboards verfügbar. Wenn Sie eine Karte in diese Spalte einfügen, wird sie automatisch in die nächste Iteration übertragen und kehrt nicht zum Rückstand zurück. Bei der nächsten Iteration erscheint die Karte in der Spalte, die ihrem Status entspricht.
 
 Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

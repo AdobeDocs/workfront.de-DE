@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dunkelmodus jetzt auf Adobe Workfront-Pinnwänden verfügbar</a></p>
                         <p>Sie können jetzt alle Foren und Workflows im Dunkelmodus anzeigen. Die neue Einstellung ist über die Voreinstellungen im Dashboard der Foren verfügbar.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 22. Juni 2023</p>
+                                <p>Vorschau-Version: 22. Juni 2023<span style="color: #ff0000;"> Diese Funktion wurde aus der Vorschau entfernt und wird nicht mit Version 23.3 veröffentlicht.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
+                                <p>Produktionsversion für alle Kunden: Nicht zutreffend</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ziele, die bei Workstream-Iterationen in Adobe Workfront-Foren verfügbar sind</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ziele, die bei Workstream-Iterationen in Adobe Workfront-Foren verfügbar sind</a></p>
                         <p>Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, ohne die Ziele auf einer Karte auflisten zu müssen. Ziele werden in einem Checklisten-Format hinzugefügt und können als abgeschlossen markiert werden. Im Metrikbereich oben rechts in der Iteration wird angezeigt, wie viele Ziele vorhanden sind und wie viele erreicht wurden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 22. Juni 2023</p>
+                                <p>Vorschau-Version: 22. Juni 2023<span style="color: #ff0000;"> Diese Funktion wurde aus der Vorschau entfernt und wird nicht mit Version 23.3 veröffentlicht.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
+                                <p>Produktionsversion für alle Kunden: Nicht zutreffend</p>
                             </li>
                         </ul>
                     </td>
