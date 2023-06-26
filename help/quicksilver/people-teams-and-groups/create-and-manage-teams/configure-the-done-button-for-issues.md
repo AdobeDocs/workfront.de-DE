@@ -6,7 +6,7 @@ description: Mit der Schaltfläche Fertig kann automatisch der Status einer Aufg
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Die [!UICONTROL Fertig] -Schaltfläche kann automatisch den Status einer Aufgabe
 Benutzer mit bestimmten Berechtigungen können die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status im System widerzuspiegeln. Es gibt 3 verschiedene Möglichkeiten, die [!UICONTROL Fertig] -Schaltfläche funktioniert bei Problemen in [!DNL Workfront]:
 
 * Wenn dem Benutzer eine [!UICONTROL Startseite], [!DNL Workfront] Administrator oder Benutzer mit [!UICONTROL Plan] -Lizenz kann die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status für Teammitglieder widerzuspiegeln. Siehe [Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
-* Wenn der Benutzer über keine [!UICONTROL Startseite], aber sie haben[!UICONTROL Sonstige Teams] in ihrem Profil sucht Workfront nach der Einstellung der [!UICONTROL Fertig] auf einem der mit dem Benutzer verknüpften Teams. Die Auswahl ist zufällig und der mit einem der Teams verknüpfte Status wird für das Problem verwendet.
+* Wenn der Benutzer über keine [!UICONTROL Startseite], aber sie haben [!UICONTROL Sonstige Teams] in ihrem Profil sucht Workfront nach der Einstellung der [!UICONTROL Fertig] auf einem der mit dem Benutzer verknüpften Teams. Die Auswahl ist zufällig und der mit einem der Teams verknüpfte Status wird für das Problem verwendet.
 * Wenn der Benutzer über keine [!UICONTROL Startseite] zugewiesen wurde, [!UICONTROL Fertig] -Schaltfläche für Probleme an ein systemgeneriertes [!UICONTROL Gelöst] Status mit dem dreistelligen Code [!UICONTROL RLV]. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die [!UICONTROL Fertig] -Schaltfläche wird automatisch auf diesen Status festgelegt.
 * Wenn die Variable [!UICONTROL Gelöst] ([!UICONTROL RLV]) wird gelöscht und der Benutzer markiert das Problem als [!UICONTROL Fertig] nein [!UICONTROL Startseite]festgelegt ist, wird der standardmäßige Problemstatus an das Problem gebunden, das als Standard für [!UICONTROL Geschlossen] für die Gruppe, die dem Projekt zugewiesen ist, zu der das Problem gehört. Der Workfront-Administrator kann eine systemweite Standardeinstellung für die Gruppe konfigurieren. Siehe [Konfigurieren Sie die [!UICONTROL Fertig] -Schaltfläche beim [!UICONTROL Gelöst] Status wurde gelöscht](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in diesem Artikel.
 

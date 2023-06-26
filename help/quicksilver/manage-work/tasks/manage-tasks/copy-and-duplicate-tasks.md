@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,37 @@ Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt kopieren oder 
 Sie können eine oder mehrere Aufgaben oder übergeordnete Aufgaben gleichzeitig kopieren oder duplizieren.
 
 ## Zugriffsanforderungen
+
+<!-- drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,8 +68,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p><b>NOTIZ</b>
+
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Berechtigungen für eine Aufgabe verwalten </p> <p>Beitragen oder höhere Berechtigungen zum Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
@@ -54,12 +87,13 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
 * Probleme werden nicht mit der Aufgabe kopiert.
 * Meilensteine werden in die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
+* Wenn Sie eine Aufgabe von einem Projekt in ein anderes kopieren, können die Aufgabendaten neu berechnet werden. Bei der Neuberechnung werden der Zeitplan, den das neue Projekt verwendet, und die Informationen zum Zeitplan des Projekts berücksichtigt.
 
 Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwendung kopieren:
 
 * Auf der Aufgabenebene über die **Weitere Symbole** ![](assets/qs-more-menu-19x7.png) rechts neben dem Aufgabennamen.
 
-   Weitere Informationen finden Sie unter [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) in diesem Artikel.
+  Weitere Informationen finden Sie unter [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) in diesem Artikel.
 
 * Führen Sie in einer Aufgabenliste einen der folgenden Schritte aus:
 
@@ -67,8 +101,9 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
    * Wählen Sie die Aufgabe (oder die Aufgaben) aus und erweitern Sie die **Mehr** icon ![](assets/more-icon-task-list.png) oben in der Aufgabenliste.
    * Auswählen einer Aufgabe und Erweitern der **Mehr** icon ![](assets/more-icon-task-list.png) neben dem Aufgabennamen.
 
-      Diese Option ist nicht verfügbar, wenn mehrere Aufgaben ausgewählt werden.
-   Weitere Informationen finden Sie unter [Aufgaben in eine Liste kopieren](#copy-tasks-in-a-list) in diesem Artikel.
+     Diese Option ist nicht verfügbar, wenn mehrere Aufgaben ausgewählt werden.
+
+  Weitere Informationen finden Sie unter [Aufgaben in eine Liste kopieren](#copy-tasks-in-a-list) in diesem Artikel.
 
 ## Aufgaben in eine Liste kopieren {#copy-tasks-in-a-list}
 
@@ -90,6 +125,7 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
    * Klicken Sie auf **Mehr Menü** Klicken Sie oben in der Aufgabenliste auf **Kopieren nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und klicken Sie dann auf **Kopieren nach**.
    * Klicken Sie bei der Auswahl einer Aufgabe auf die **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
+
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fahren Sie mit dem Kopieren der Aufgabe fort, wie im Abschnitt beschrieben [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) beginnt mit Schritt 4.
@@ -128,7 +164,6 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
    >* Sie können auch mit der Eingabe der Referenznummer beginnen oder die Kennung des Projekts eingeben. Auf diese Weise können Sie zwischen Projekten mit identischen Namen unterscheiden.
    >* In der Liste werden nur 100 Projekte angezeigt.
 
-
    Der aktuelle Projektname wird standardmäßig angezeigt. Wenn Sie die Aufgabe im selben Projekt kopieren möchten, lassen Sie dieses Feld unverändert.
 
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
@@ -143,6 +178,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 1. Klicken **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
+   >
    Auswählen und Deselektieren **Alle auswählen** Deaktiviert alle Optionen.
 
    Deaktivieren Sie die folgenden Optionen, um sie nicht an die kopierte Aufgabe zu übertragen. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Optionen deaktiviert werden:
@@ -201,12 +237,14 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 1.  (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Aufgabe im Zielprojekt aus, die Sie der kopierten Aufgabe übergeordnet werden möchten.
 
    >[!TIP]
+   >
    Bei der Auswahl, mehrere Aufgaben in einer Liste zu kopieren, werden alle ausgewählten Aufgaben zu den untergeordneten Elementen des ausgewählten übergeordneten Elements.
 
    Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
 
    * Wählen Sie in der Aufgabenliste einen der übergeordneten Elemente des Projektplans aus.
    * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Aufgabe.
+
    Die Aufgabe sollte in der Liste angezeigt werden.
 
    ![Auswählen einer übergeordneten Aufgabe beim Verschieben einer Aufgabe mit Suchfunktion ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
@@ -242,12 +280,12 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
    * Probleme
    * Nur die Vorgänger, die sich in derselben Gruppe kopierter Aufgaben befinden, werden ebenfalls mit ihren Nachfolgeaufgaben kopiert.
 
-      **Beispiel:** Wenn Sie z. B. Aufgabe 2 und den Vorgänger, Aufgabe 1, gleichzeitig kopieren, haben Sie eine Kopie von Aufgabe 2 und eine Kopie von Aufgabe 1. Die Kopie von Aufgabe 1 ist der Vorgänger der Kopie von Aufgabe 2. Wenn Sie jedoch nur Aufgabe 2 kopieren, ohne den Vorgänger zu kopieren, hat die Kopie keinen Vorgänger.
+     **Beispiel:** Wenn Sie z. B. Aufgabe 2 und den Vorgänger, Aufgabe 1, gleichzeitig kopieren, haben Sie eine Kopie von Aufgabe 2 und eine Kopie von Aufgabe 1. Die Kopie von Aufgabe 1 ist der Vorgänger der Kopie von Aufgabe 2. Wenn Sie jedoch nur Aufgabe 2 kopieren, ohne den Vorgänger zu kopieren, hat die Kopie keinen Vorgänger.
 
 * Beim Duplizieren einer übergeordneten Aufgabe werden auch alle untergeordneten Aufgaben dupliziert, auch wenn die untergeordneten Aufgaben nicht ausgewählt sind.
 * Sie können mehrere Aufgaben gleichzeitig duplizieren.
 
-   Sie können jedoch nicht mehrere Aufgaben duplizieren, die nicht sequenziell sind.
+  Sie können jedoch nicht mehrere Aufgaben duplizieren, die nicht sequenziell sind.
 
 * Meilensteine werden in die neue Aufgabe verschoben und aus der ursprünglichen Aufgabe entfernt.
 
@@ -259,7 +297,7 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 
    * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Automatische Speicherung**, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das **Mehr Menü** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
 
-      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
    * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann die folgenden Schritte aus:
 
@@ -268,4 +306,5 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
       1. (Optional und bedingt) Klicken Sie auf **Wiederholen** wenn Sie zuvor auf **Rückgängig**, um die Änderungen beizubehalten und die Aufgaben zu duplizieren.
 
       1. Klicken **Speichern** , um Ihre Änderungen zu speichern.
+
    1. Aufgaben in einer Liste bearbeiten
