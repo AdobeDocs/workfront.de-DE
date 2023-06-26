@@ -6,9 +6,9 @@ title: E-Mail-Benachrichtigungen und Voreinstellungen in Foren
 description: Adobe Workfront-Pinnwände senden Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt und Ihnen eine Karte zugewiesen wird.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >E-Mail-Benachrichtigungen sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
-
-<span class="preview">Zusätzliche Voreinstellungen ermöglichen es Ihnen, den Dunkelmodus für alle Foren und Workflows zu aktivieren.</span>
 
 ## Zugriffsanforderungen
 
