@@ -5,13 +5,13 @@ title: Hochladen von Dokumenten aus Illustrator
 description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnell zu überprüfen und zu validieren oder einfach in Adobe Workfront zu speichern.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
 
 # Hochladen von Dokumenten aus [!DNL Illustrator]
 
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Sie müssen die [!DNL Adobe Workfront for design and video] -Plug-in, bevor Sie Dokumente von [!DNL Illustrator].
 
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Hochladen von Dokumenten in [!DNL Illustrator]
 
@@ -73,3 +73,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![](assets/file-export-settings.png)
 1. Klicken **[!UICONTROL Hochladen]**.
 Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+
+>[!NOTE]
+>
+>Wenn das Dokument als Textdokument exportiert, müssen Sie Ihre Voreinstellungen unter [!DNL Adobe Illustrator].
+>
+>1. In [!DNL Illustrator], klicken Sie auf die **[!UICONTROL Bearbeiten]** Registerkarte und wählen Sie **[!UICONTROL Voreinstellungen]**.
+>1. Auswählen **[!UICONTROL Allgemein]**.
+>1. Klicken **[!UICONTROL Voreinstellungen zurücksetzen]**.
+>1. Schließen und neu starten [!DNL Illustrator].
