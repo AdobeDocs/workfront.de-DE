@@ -1,13 +1,14 @@
 ---
 title: Anforderungen kopieren und senden
-description: Anforderungen kopieren und senden
+description: Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anforderung kopieren, minimale Änderungen daran vornehmen und sie als neue Anforderung erneut senden.
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie sie aus und klicken Sie auf das **Kopieren und Senden als neu** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * Wählen Sie sie aus und klicken Sie auf das **Kopieren und Senden als neu** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]

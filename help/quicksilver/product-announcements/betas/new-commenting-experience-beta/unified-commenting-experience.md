@@ -5,10 +5,11 @@ title: Neues Kommentierungserlebnis
 description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -61,12 +62,12 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 >
 >Bei den unten aufgeführten Objekten sind nur die Kommentare und Systemaktualisierungen aus dem letzten Jahr (ab Juni 2022) verfügbar, wenn Sie das Beta-Erlebnis aktivieren.
 >
+>Sie können Kommentare und Systemaktualisierungen zu diesen Objekten vor Juni 2022 anzeigen, wenn Sie sich den Abschnitt Updates im aktuellen Erlebnis ansehen:
 >* Probleme
 >* <span class="preview">Projekte</span>
 >* <span class="preview">Aufgaben</span>
 >* <span class="preview">Dokumente</span>
->
->Sie können Kommentare und Systemaktualisierungen vor Juni 2022 anzeigen, wenn Sie sich den Abschnitt Updates im aktuellen Erlebnis ansehen.
+
 
 
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
@@ -135,7 +136,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>
