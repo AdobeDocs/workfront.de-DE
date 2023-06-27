@@ -8,10 +8,10 @@ description: Die folgenden mathematischen Funktionen sind im Bereich Adobe Workf
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +69,12 @@ Gibt die kleinste Ganzzahl zurück, die größer oder gleich einer angegebenen Z
 >**Beispiele:**
 >
 >* `ceil(` `1.2` `)`
-   >
-   >   Gibt 2 zurück
+>
+>   Gibt 2 zurück
 >
 >* `ceil(` `4` `)`
-   >
-   >   Gibt 4 zurück
-
+>
+>   Gibt 4 zurück
 
 ## [!UICONTROL floor (number)]
 
@@ -78,17 +85,16 @@ Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer angegebenen Za
 >**Beispiele:**
 >
 >* `floor(` `1.2` `)`
-   >
-   >   Gibt 1 zurück
+>
+>   Gibt 1 zurück
 >
 >* `floor(` `1.9` `)`
-   >
-   >   Gibt 1 zurück
+>
+>   Gibt 1 zurück
 >
 >* `floor(` `4` `)`
-   >
-   >   Gibt 4 zurück
-
+>
+>   Gibt 4 zurück
 
 ## [!UICONTROL formatNumber (Zahl) decimalPOINTS; [decimalSeparator]; [Tausendertrennzeichen])]
 
@@ -123,21 +129,20 @@ Kürzt den numerischen Wert auf die nächste Ganzzahl.
 >**Beispiele:**
 >
 >* `round(` `1.2` `)`
-   >
-   >   Gibt 1 zurück
+>
+>   Gibt 1 zurück
 >
 >* `round(` `1.5` `)`
-   >
-   >   Gibt 2 zurück
+>
+>   Gibt 2 zurück
 >
 >* `round(` `1.7` `)`
-   >
-   >   Gibt 2 zurück
+>
+>   Gibt 2 zurück
 > 
 >* `round(` `2` `)`
-   >
-   >   Gibt 2 zurück
-
+>
+>   Gibt 2 zurück
 
 ## [!UICONTROL sum ([Array von Werten]), sum(value1; Wert 2; ...)]
 

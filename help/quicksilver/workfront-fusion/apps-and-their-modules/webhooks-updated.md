@@ -8,9 +8,9 @@ description: Ein Webhook ist ein HTTP-Aufruf, der durch ein Ereignis ausgelöst 
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion für Arbeitsautomatisierung und -integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -211,9 +219,7 @@ Content-Type: application/json
 >1. Klicken **[!UICONTROL Hinzufügen]** , um einen neuen Webhook hinzuzufügen.
 >1. Klicken **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
 >1. Klicken **[!UICONTROL JSON-Pass-Through]**.
-
 >
-
 
 ## Webhook-Header
 
@@ -264,9 +270,9 @@ Die Konfiguration des Moduls umfasst zwei Felder: [!UICONTROL Status] und [!UICO
 
 * Die [!UICONTROL body] enthält alles, was vom Webhook-Aufruf akzeptiert wird. Dabei kann es sich um einfachen Text, HTML, XML, JSON usw. handeln.
 
-   >[!TIP]
-   >
-   >Es wird empfohlen, `Content-Type` -Kopfzeile zum entsprechenden MIME-Typ: `text/plain` für einfachen Text, `text/html` für HTML, `application/json` für JSON, `application/xml` für XML usw. Weitere Informationen zu MIME-Typen finden Sie unter [MIME-Module](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >[!TIP]
+  >
+  >Es wird empfohlen, `Content-Type` -Kopfzeile zum entsprechenden MIME-Typ: `text/plain` für einfachen Text, `text/html` für HTML, `application/json` für JSON, `application/xml` für XML usw. Weitere Informationen zu MIME-Typen finden Sie unter [MIME-Module](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn die Antwort innerhalb dieses Zeitraums nicht verfügbar ist, gibt Workfront Fusion den Status &quot;200 Akzeptiert&quot;zurück.
 

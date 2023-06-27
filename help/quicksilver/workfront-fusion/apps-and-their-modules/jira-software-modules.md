@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2085'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion für Arbeitsautomatisierung und -integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,33 +122,32 @@ So erwerben Sie einen privaten Schlüssel für Ihre [!DNL Workfront Fusion Jira]
 
    * `openssl genrsa -out jira_privatekey.pem 1024`
 
-      Dieser Befehl generiert einen privaten 1024-Bit-Schlüssel.
+     Dieser Befehl generiert einen privaten 1024-Bit-Schlüssel.
 
    * `openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365`
 
-      Dieser Befehl erstellt ein X509-Zertifikat.
+     Dieser Befehl erstellt ein X509-Zertifikat.
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-      Dieser Befehl extrahiert den privaten Schlüssel (PKCS8-Format) in den `jira_privatekey.pcks8`
+     Dieser Befehl extrahiert den privaten Schlüssel (PKCS8-Format) in den `jira_privatekey.pcks8`
 -Datei.
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
-      Dieser Befehl extrahiert den öffentlichen Schlüssel aus dem Zertifikat in den `jira_publickey.pem` -Datei.
+     Dieser Befehl extrahiert den öffentlichen Schlüssel aus dem Zertifikat in den `jira_publickey.pem` -Datei.
 
-      >[!NOTE]
-      >
-      >Wenn Sie Windows verwenden, müssen Sie möglicherweise den öffentlichen Schlüssel im `jira_publickey.pem` Datei manuell:
-      >
-      >1. Führen Sie in Ihrem Terminal den folgenden Befehl aus:
-      >   
-      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
-      >   
-      >1. Kopieren Sie die Terminal-Ausgabe (einschließlich `-------BEGIN PUBLIC KEY--------` und `-------END PUBLIC KEY--------`
-      >   
-      >1. Fügen Sie die Terminal-Ausgabe in eine Datei mit dem Namen `jira_publickey.pem`.
-
+     >[!NOTE]
+     >
+     >Wenn Sie Windows verwenden, müssen Sie möglicherweise den öffentlichen Schlüssel im `jira_publickey.pem` Datei manuell:
+     >
+     >1. Führen Sie in Ihrem Terminal den folgenden Befehl aus:
+     >   
+     >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
+     >   
+     >1. Kopieren Sie die Terminal-Ausgabe (einschließlich `-------BEGIN PUBLIC KEY--------` und `-------END PUBLIC KEY--------`
+     >   
+     >1. Fügen Sie die Terminal-Ausgabe in eine Datei mit dem Namen `jira_publickey.pem`.
 
 
 1. Weiter zu [Konfigurieren Sie die Client-App als Verbraucher in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)

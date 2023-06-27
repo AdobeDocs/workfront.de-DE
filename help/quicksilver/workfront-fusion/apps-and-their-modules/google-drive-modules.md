@@ -9,9 +9,9 @@ description: Die [!DNL Adobe Workfront Fusion Google Drive] -Module ermöglichen
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2956'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,17 +738,17 @@ Beachten Sie Folgendes zu Operatoren in diesen Feldern:
 
 * Die `contains` -Operator führt nur die Präfixübereinstimmung für eine `title`.
 
-   Beispielsweise stimmt der Titel &quot;HelloWorld&quot;mit `title contains 'Hello'` aber nicht für `title contains 'World'`.
+  Beispielsweise stimmt der Titel &quot;HelloWorld&quot;mit `title contains 'Hello'` aber nicht für `title contains 'World'`.
 
 * Die `contains` -Operator führt nur die Übereinstimmung mit gesamten Zeichenfolgen-Token für aus `fullText`.
 
-   Wenn beispielsweise der Volltext eines Dokuments die Zeichenfolge &quot;HelloWorld&quot;enthält, wird nur die Abfrage `fullText contains 'HelloWorld'` gibt ein Ergebnis zurück. Abfragen wie `fullText contains 'Hello'` keine Ergebnisse in diesem Szenario zurückgeben.
+  Wenn beispielsweise der Volltext eines Dokuments die Zeichenfolge &quot;HelloWorld&quot;enthält, wird nur die Abfrage `fullText contains 'HelloWorld'` gibt ein Ergebnis zurück. Abfragen wie `fullText contains 'Hello'` keine Ergebnisse in diesem Szenario zurückgeben.
 
 * Die `contains` -Operator stimmt mit einem exakten alphanumerischen Satz überein, wenn er von doppelten Anführungszeichen umgeben ist.
 
-   Wenn beispielsweise die Variable `fullText` eines Dokuments enthält die Zeichenfolge &quot;Hallo Welt&quot;, dann die Abfrage `fullText contains '"Hello there"'` gibt ein Ergebnis zurück, aber die Abfrage `fullText contains '"Hello world"'` nicht.
+  Wenn beispielsweise die Variable `fullText` eines Dokuments enthält die Zeichenfolge &quot;Hallo Welt&quot;, dann die Abfrage `fullText contains '"Hello there"'` gibt ein Ergebnis zurück, aber die Abfrage `fullText contains '"Hello world"'` nicht.
 
-   Außerdem, weil die Suche alphanumerisch ist, wenn die `fullText` eines Dokuments enthält die Zeichenfolge &quot;Hello_world&quot;und dann die Abfrage `fullText contains '"Hello world"'` gibt ein Ergebnis zurück.
+  Außerdem, weil die Suche alphanumerisch ist, wenn die `fullText` eines Dokuments enthält die Zeichenfolge &quot;Hello_world&quot;und dann die Abfrage `fullText contains '"Hello world"'` gibt ein Ergebnis zurück.
 
 * Felder von `type` -Datum ist derzeit nicht miteinander vergleichbar, sondern nur mit konstanten Daten.
 
@@ -778,7 +786,7 @@ Beachten Sie Folgendes zu Operatoren in diesen Feldern:
  <col> 
  <thead> 
   <tr> 
-   <th>Operator </th> 
+   <th>Benutzerin oder Benutzer </th> 
    <th> <p>Notizen</p> </th> 
   </tr> 
  </thead> 
@@ -842,55 +850,38 @@ Bei zusammengesetzten Klauseln können Sie Klammern verwenden, um Klauseln zu gr
 Alle Beispiele auf dieser Seite zeigen nicht kodierte `<q>q</q>` Parameter, wobei `title = 'hello'` kodiert als `title+%3d+%27hello%27`. Client-Bibliotheken verarbeiten diese Kodierung automatisch.
 
 * Suchen Sie nach Dateien mit dem Namen &quot;hello&quot;.
-
-   <pre>title = 'hello'</pre>
+  <pre>title = 'hello'</pre>
 * Suchen Sie mithilfe des ordnerspezifischen MIME-Typs nach Ordnern
-
-   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * Suchen Sie nach Dateien, die keine Ordner sind.
-
-   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Suchen Sie nach Dateien mit einem Namen, der die Wörter &quot;hello&quot;und &quot;bye&quot;enthält.
-
-   <pre>title enthält "hello"und [!UICONTROL name] enthält "bye".</pre>
+  <pre>title enthält "hello"und [!UICONTROL name] enthält "bye".</pre>
 * Suchen Sie nach Dateien mit einem Namen, der das Wort &quot;hello&quot;nicht enthält.
-
-   <pre>kein Titel enthält 'hello'</pre>
+  <pre>kein Titel enthält 'hello'</pre>
 * Suchen Sie nach Dateien, die das Wort &quot;hello&quot;im Inhalt enthalten
-
-   <pre>fullText enthält 'hello'</pre>
+  <pre>fullText enthält 'hello'</pre>
 * Suchen Sie nach Dateien, die das Wort &quot;hello&quot;im Inhalt nicht enthalten
-
-   <pre>not fullText contains 'hello'</pre>
+  <pre>not fullText contains 'hello'</pre>
 * Suchen Sie nach Dateien, die den genauen Wortlaut &quot;hello world&quot;im Inhalt enthalten.
-
-   <pre>fullText enthält '"hello world"'fullText enthält '"hello_world"'</pre>
+  <pre>fullText enthält '"hello world"'fullText enthält '"hello_world"'</pre>
 * Suchen Sie nach Dateien mit einer Abfrage, die das Zeichen &quot;\&quot;enthält (z. B. &quot;\authors&quot;).
-
-   <pre>fullText enthält '\\authors'</pre>
+  <pre>fullText enthält '\\authors'</pre>
 * Suchen Sie nach Dateien, die vom Benutzer &quot;test@example.org&quot;geschrieben werden können.
-
-   <pre>"test@example.org"in [!DNL writers]</pre>
+  <pre>"test@example.org"in [!DNL writers]</pre>
 * Suchen Sie nach ID . `1234567` im `parents` -Sammlung. Dadurch werden alle Dateien und Ordner direkt im Ordner gesucht, dessen ID lautet. `1234567`.
-
-   <pre>"1234567"in [!UICONTROL Eltern]</pre>
+  <pre>"1234567"in [!UICONTROL Eltern]</pre>
 * Suchen Sie nach der Alias-ID. `appDataFolder` im `parents` -Sammlung. Dadurch werden alle Dateien und Ordner gefunden, die sich direkt unter dem Ordner [Ordner &quot;Anwendungsdaten&quot;](https://developers.google.com/drive/api/v2/appdata).
-
-   <pre>"appDataFolder"in übergeordneten Elementen</pre>
+  <pre>"appDataFolder"in übergeordneten Elementen</pre>
 * Suchen Sie nach Dateien, die von den Benutzern &quot;test@example.org&quot;und &quot;test2@example.org&quot;geschrieben werden können.
-
-   <pre>"test@example.org"in Schriftstellern und "test2@example.org"in Schriftstellern</pre>
+  <pre>"test@example.org"in Schriftstellern und "test2@example.org"in Schriftstellern</pre>
 * Suchen Sie nach Dateien mit dem Text &quot;wichtig&quot;, die sich im Papierkorb befinden.
-
-   <pre>fullText enthält "wichtig"und ist durchgestrichen = true</pre>
+  <pre>fullText enthält "wichtig"und ist durchgestrichen = true</pre>
 * Suchen Sie nach Dateien, die nach dem 4. Juni 2012 geändert wurden.
-
-   <pre>modifiedDate &gt; '2012-06-04T12:00:00' // Standardzeitzone ist UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // Standardzeitzone ist UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Suchen Sie nach Dateien, die für den autorisierten Benutzer mit &quot;hello&quot;im Namen freigegeben wurden.
-
-   <pre>sharedWithMe und title enthält 'hello'</pre>
+  <pre>sharedWithMe und title enthält 'hello'</pre>
 * Suchen Sie nach Dateien mit [benutzerdefinierte Dateieigenschaft](https://developers.google.com/drive/api/v2/properties) benannt `additionalID` mit dem Wert `8e8aceg2af2ge72e78`.
-
-   <pre>properties hat { key='additionalID' und value='8e8aceg2af2ge72e78' und visibility='PRIVATE' }</pre>
+  <pre>properties hat { key='additionalID' und value='8e8aceg2af2ge72e78' und visibility='PRIVATE' }</pre>
 
 Quelle dieses Handbuchs: [[!DNL Google Drive] Dokumentation](https://developers.google.com/drive/api/v2/search-shareddrives).

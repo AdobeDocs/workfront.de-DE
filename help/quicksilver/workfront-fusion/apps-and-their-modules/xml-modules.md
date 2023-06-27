@@ -8,10 +8,10 @@ description: Mit der XML-App können Sie einen im XML-Format formatierten Text �
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 1%
+source-wordcount: '1453'
+ht-degree: 2%
 
 ---
 
@@ -37,11 +37,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td>  
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,41 +102,41 @@ Die [!UICONTROL XML] > [!UICONTROL Parse XML] analysiert einen XML-formatierten 
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. Klicken **[!UICONTROL OK]**&#x200B;, um die Konfiguration des Moduls zu speichern und zu schließen.
->1. Hinzufügen [!UICONTROL XML] > [!UICONTROL Parse XML] -Modul, verbinden Sie es nach dem [!UICONTROL HTTP] > [!UICONTROL Datei abrufen] und konfigurieren Sie es wie folgt:
+1. Hinzufügen [!UICONTROL XML] > [!UICONTROL Parse XML] -Modul, verbinden Sie es nach dem [!UICONTROL HTTP] > [!UICONTROL Datei abrufen] und konfigurieren Sie es wie folgt:
 >
->   <table style="table-layout:auto"> 
->    <col> 
->    <col> 
->    <tbody> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL Datenstruktur]</td> 
->      <td> 
->       <ol> 
->        <li value="1">Klicken Sie auf <strong>[!UICONTROL Hinzufügen]</strong> Schaltfläche.</li> 
->        <li value="2">Klicken Sie auf <strong>[!UICONTROL Generator]</strong> Schaltfläche.</li> 
->        <li value="3">Öffnen Sie in Ihrem Webbrowser eine neue Registerkarte oder ein neues Fenster.</li> 
->        <li value="4">Geben Sie die URL, die Sie im dritten Schritt verwendet haben, in die Adressleiste ein und rufen Sie die XML-Datei ab.</li> 
->        <li value="5">Wählen Sie den gesamten XML-Text aus und kopieren Sie ihn in die Zwischenablage.</li> 
->        <li value="6">Schließen Sie die Registerkarte oder das Fenster und kehren Sie zu Ihrem Szenario zurück.</li> 
->        <li value="7">Fügen Sie den kopierten XML-Text in das Feld Beispieldaten ein.</li> 
->        <li value="8">Klicken <strong>[!UICONTROL Save]</strong>.</li> 
->        <li value="9">Überprüfen Sie, ob die Datenstruktur erfolgreich generiert wurde.</li> 
->        <li value="10">Klicken <strong>[!UICONTROL Save]</strong> , um die Datenstruktur zu speichern.</li> 
->       </ol> <p>Sie können die Schritte 2 bis 9 überspringen, um eine leere Datenstruktur bereitzustellen. Wenn die Datenstruktur leer ist, ist die Ausgabe des Moduls erst dann im Zuordnungsbereich verfügbar, wenn das Modul mindestens einmal ausgeführt wurde.</p> </td> 
->     </tr> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL XML]</td> 
->      <td> <p>Ordnen Sie die <code>Data </code>-Element aus der Ausgabe des Moduls [!UICONTROL HTTP] &gt; [!UICONTROL Laden Sie eine Datei] in das Feld. Verwenden Sie die <code>toString()</code> -Funktion, um den Wert aus dem Datentyp [!UICONTROL Buffer] (Binärdaten) in den Datentyp [!UICONTROL Text] zu konvertieren.</p> <p>Sie können den Code der Formel kopieren und in das Feld einfügen: <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Weitere Informationen zu den Datentypen "Puffer"und "Text"finden Sie unter <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Elementdatentypen in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
->     </tr> 
->    </tbody> 
->   </table>
-
+<table style="table-layout:auto"> 
+&gt;    <col> 
+&gt;    <col> 
+&gt;    <tbody> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL Datenstruktur]</td> 
+&gt;      <td> 
+&gt;       <ol> 
+&gt;        <li value="1">Klicken Sie auf <strong>[!UICONTROL Hinzufügen]</strong> Schaltfläche.</li> 
+&gt;        <li value="2">Klicken Sie auf <strong>[!UICONTROL Generator]</strong> Schaltfläche.</li> 
+&gt;        <li value="3">Öffnen Sie in Ihrem Webbrowser eine neue Registerkarte oder ein neues Fenster.</li> 
+&gt;        <li value="4">Geben Sie die URL, die Sie im dritten Schritt verwendet haben, in die Adressleiste ein und rufen Sie die XML-Datei ab.</li> 
+&gt;        <li value="5">Wählen Sie den gesamten XML-Text aus und kopieren Sie ihn in die Zwischenablage.</li> 
+&gt;        <li value="6">Schließen Sie die Registerkarte oder das Fenster und kehren Sie zu Ihrem Szenario zurück.</li> 
+&gt;        <li value="7">Fügen Sie den kopierten XML-Text in das Feld Beispieldaten ein.</li> 
+&gt;        <li value="8">Klicken <strong>[!UICONTROL Save]</strong>.</li> 
+&gt;        <li value="9">Überprüfen Sie, ob die Datenstruktur erfolgreich generiert wurde.</li> 
+&gt;        <li value="10">Klicken <strong>[!UICONTROL Save]</strong> , um die Datenstruktur zu speichern.</li> 
+&gt;       </ol> <p>Sie können die Schritte 2 bis 9 überspringen, um eine leere Datenstruktur bereitzustellen. Wenn die Datenstruktur leer ist, ist die Ausgabe des Moduls erst dann im Zuordnungsbereich verfügbar, wenn das Modul mindestens einmal ausgeführt wurde.</p> </td> 
+&gt;     </tr> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
+&gt;      <td> <p>Ordnen Sie die <code>Data </code>-Element aus der Ausgabe des Moduls [!UICONTROL HTTP] &gt; [!UICONTROL Laden Sie eine Datei] in das Feld. Verwenden Sie die <code>toString()</code> -Funktion, um den Wert aus dem Datentyp [!UICONTROL Buffer] (Binärdaten) in den Datentyp [!UICONTROL Text] zu konvertieren.</p> <p>Sie können den Code der Formel kopieren und in das Feld einfügen: <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Weitere Informationen zu den Datentypen "Puffer"und "Text"finden Sie unter <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Elementdatentypen in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+&gt;     </tr> 
+&gt;    </tbody> 
+&gt;   </table>
 
 ## [!UICONTROL XML-Attribute analysieren]
 
 Standardmäßig wird die [!UICONTROL XML] > [!UICONTROL Parse XML] -Modul fügt Attribute in eine spezielle Sammlung ein `_attributes` als untergeordnetes Element des Knotens, der über diese Attribute verfügt. Wenn der Knoten ein Textknoten ist und über Attribute verfügt, werden zwei spezielle Eigenschaften hinzugefügt: `_attributes` für Attribute und `_value` für den Textinhalt des Knotens.
 
 >[!INFO]
+>
 **Beispiel:** Diese XML:
 
 ```
@@ -182,34 +190,33 @@ Die [!UICONTROL XML] > [!UICONTROL XML erstellen] -Modul konvertiert ein Bundle 
 
 >[!INFO]
 >
->**Beispiel:**
+**Beispiel:**
 >
->Ein typischer Anwendungsfall besteht darin, Daten aus einem [!DNL Google] >Tabelle in XML.
+Ein typischer Anwendungsfall besteht darin, Daten aus einem [!DNL Google] >Tabelle in XML.
 >
->1. Platzieren Sie die [!DNL Google Sheets] > [!UICONTROL Zeilen auswählen] -Modul in Ihrem Szenario verwenden, um die Daten abzurufen. Richten Sie das Modul ein, um Zeilen aus Ihrem [!DNL Google] Tabelle. Festlegen des &#x200B;**[!UICONTROL Maximale Anzahl an zurückgegebenen Zeilen]** auf eine kleine Zahl, jedoch zu Testzwecken größer als 1 (Beispiel: 3). Führen Sie die [!DNL Google Sheets] -Modul durch Rechtsklick darauf und Auswahl von &quot;**[!UICONTROL Nur dieses Modul ausführen]**.&quot; Überprüfen Sie die Ausgabe des Moduls.
->1. Verbinden Sie die [!UICONTROL Array-Aggregator] -Modul nach [!DNL Google Sheets] -Modul. Wählen Sie in der Moduleinrichtung die [!DNL Google Sheets] -Modul im **[!UICONTROL Quellknoten]** -Feld. Lassen Sie die anderen Felder unverändert.
->1. Verbinden Sie die [!UICONTROL XML] > [!UICONTROL XML erstellen] -Modul nach [!UICONTROL Array-Aggregator] -Modul.
+1. Platzieren Sie die [!DNL Google Sheets] > [!UICONTROL Zeilen auswählen] -Modul in Ihrem Szenario verwenden, um die Daten abzurufen. Richten Sie das Modul ein, um Zeilen aus Ihrem [!DNL Google] Tabelle. Festlegen des &#x200B;**[!UICONTROL Maximale Anzahl an zurückgegebenen Zeilen]** auf eine kleine Zahl, jedoch zu Testzwecken größer als 1 (Beispiel: 3). Führen Sie die [!DNL Google Sheets] -Modul durch Rechtsklick darauf und Auswahl von &quot;**[!UICONTROL Nur dieses Modul ausführen]**.&quot; Überprüfen Sie die Ausgabe des Moduls.
+1. Verbinden Sie die [!UICONTROL Array-Aggregator] -Modul nach [!DNL Google Sheets] -Modul. Wählen Sie in der Moduleinrichtung die [!DNL Google Sheets] -Modul im **[!UICONTROL Quellknoten]** -Feld. Lassen Sie die anderen Felder unverändert.
+1. Verbinden Sie die [!UICONTROL XML] > [!UICONTROL XML erstellen] -Modul nach [!UICONTROL Array-Aggregator] -Modul.
 >
->   Die Einrichtung des Moduls erfordert eine Datenstruktur, die die Struktur der XML-Ausgabe beschreibt. Klicken Sie auf **[!UICONTROL Hinzufügen]** -Schaltfläche, um die Einrichtung der Datenstruktur zu öffnen. Die einfachste Möglichkeit, diese Datenstruktur zu erstellen, besteht darin, sie automatisch aus einem XML-Beispiel zu generieren.
->   
->1. Klicken Sie auf **[!UICONTROL Generator]** und fügen Sie Ihr XML-Beispiel in die [!UICONTROL Beispieldaten] -Feld:
+Die Einrichtung des Moduls erfordert eine Datenstruktur, die die Struktur der XML-Ausgabe beschreibt. Klicken Sie auf **[!UICONTROL Hinzufügen]** -Schaltfläche, um die Einrichtung der Datenstruktur zu öffnen. Die einfachste Möglichkeit, diese Datenstruktur zu erstellen, besteht darin, sie automatisch aus einem XML-Beispiel zu generieren.
 >
->   ![](assets/sample-data-field-350x146.png)
->   
->1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Feld Spezifikation in der Datenstruktur enthält nun die generierte Struktur.
->1. Ändern Sie den Namen Ihrer Datenstruktur in einen spezifischeren Namen und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.
->1. Klicken Sie auf **[!UICONTROL Zuordnung]** neben dem Feld klicken und die `Array[]` -Element [!UICONTROL Array-Aggregator] Ausgabe an sie:
->1. Klicken **[!UICONTROL OK]** , um das Setup des XML-Moduls zu schließen.
->1. Öffnen Sie die Einrichtung der [!UICONTROL Array-Aggregator] -Modul. Ändern Sie die **[!UICONTROL Zielstruktur]** von &quot;Benutzerdefiniert&quot;in das Feld eines XML-Moduls, das dem übergeordneten XML-Element entspricht.Zuordnen von Elementen aus dem [!DNL Google Sheets] in die entsprechenden Felder ein.
->1. Klicken **[!UICONTROL OK]** , um das Setup des Array Aggregator-Moduls zu schließen.
->1. Führen Sie das Szenario aus.
+1. Klicken Sie auf **[!UICONTROL Generator]** und fügen Sie Ihr XML-Beispiel in die [!UICONTROL Beispieldaten] -Feld:
 >
->   Das XML-Modul gibt die richtige XML-Datei aus.
->   
->1. Öffnen Sie die Einrichtung der [!DNL Google Sheets] und erhöhen Sie die [!UICONTROL Maximale Anzahl an zurückgegebenen Zeilen] -Zahl größer als die Anzahl der Zeilen in Ihrem Arbeitsblatt sein, um alle Daten zu verarbeiten.
+![](assets/sample-data-field-350x146.png)
 >
->   Die resultierende XML-Datei kann in [!DNL Dropbox], als Anhang per E-Mail gesendet, über FTP auf einen Server hochgeladen usw.
-
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Feld Spezifikation in der Datenstruktur enthält nun die generierte Struktur.
+1. Ändern Sie den Namen Ihrer Datenstruktur in einen spezifischeren Namen und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.
+1. Klicken Sie auf **[!UICONTROL Zuordnung]** neben dem Feld klicken und die `Array[]` -Element [!UICONTROL Array-Aggregator] Ausgabe an sie:
+1. Klicken **[!UICONTROL OK]** , um das Setup des XML-Moduls zu schließen.
+1. Öffnen Sie die Einrichtung der [!UICONTROL Array-Aggregator] -Modul. Ändern Sie die **[!UICONTROL Zielstruktur]** von &quot;Benutzerdefiniert&quot;in das Feld eines XML-Moduls, das dem übergeordneten XML-Element entspricht.Zuordnen von Elementen aus dem [!DNL Google Sheets] in die entsprechenden Felder ein.
+1. Klicken **[!UICONTROL OK]** , um das Setup des Array Aggregator-Moduls zu schließen.
+1. Führen Sie das Szenario aus.
+>
+Das XML-Modul gibt die richtige XML-Datei aus.
+>
+1. Öffnen Sie die Einrichtung der [!DNL Google Sheets] und erhöhen Sie die [!UICONTROL Maximale Anzahl an zurückgegebenen Zeilen] -Zahl größer als die Anzahl der Zeilen in Ihrem Arbeitsblatt sein, um alle Daten zu verarbeiten.
+>
+Die resultierende XML-Datei kann in [!DNL Dropbox], als Anhang per E-Mail gesendet, über FTP auf einen Server hochgeladen usw.
 
 ## Hinzufügen von XML-Attributen
 

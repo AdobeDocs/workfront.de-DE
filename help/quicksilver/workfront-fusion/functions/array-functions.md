@@ -8,9 +8,9 @@ description: Die folgenden Array-Funktionen sind im Bereich Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +100,11 @@ Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält
 >**Beispiele:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  Gibt ein primitives Array mit E-Mails zurück
 >
 >* `map(Emails[];email;label;work;home)`
-  >
+>
 >  Gibt ein primitives Array mit E-Mails zurück, deren Beschriftung gleich &quot;Arbeit&quot;oder &quot;Zuhause&quot;ist
 
 Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
@@ -124,19 +132,19 @@ Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
 
 * `asc`
 
-   (Standard) - aufsteigende Reihenfolge: 1, 2, 3, ... für den Typ Zahl. A, B, C, a, b, c, ... für den Typ Text
+  (Standard) - aufsteigende Reihenfolge: 1, 2, 3, ... für den Typ Zahl. A, B, C, a, b, c, ... für den Typ Text
 
 * `desc`
 
-   absteigende Reihenfolge: ..., 3, 2, 1 für den Typ Zahl. ..., c, b, a, C, B, A für den Typ Text.
+  absteigende Reihenfolge: ..., 3, 2, 1 für den Typ Zahl. ..., c, b, a, C, B, A für den Typ Text.
 
 * `asc ci`
 
-   Groß-/Kleinschreibung - aufsteigende Reihenfolge: A, a, B, b, C, c, ... für den Typ Text.
+  Groß-/Kleinschreibung - aufsteigende Reihenfolge: A, a, B, b, C, c, ... für den Typ Text.
 
 * `desc ci`
 
-   nicht von Schreibweise abhängig: ..., C, c, B, b, A, a für den Typ Text.
+  nicht von Schreibweise abhängig: ..., C, c, B, b, A, a für den Typ Text.
 
 Verwenden Sie die `key` -Parameter, um auf Eigenschaften in komplexen Objekten zuzugreifen.
 
@@ -151,21 +159,20 @@ Das erste Element in einem Array ist Index 1.
 >**Beispiele:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in aufsteigender Standardreihenfolge
+>
+>    Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in aufsteigender Standardreihenfolge
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in absteigender Reihenfolge
+>
+>   Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in absteigender Reihenfolge
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in aufsteigender Reihenfolge, in der nicht zwischen Groß- und Kleinschreibung unterschieden wird
+>
+>    Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in aufsteigender Reihenfolge, in der nicht zwischen Groß- und Kleinschreibung unterschieden wird
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    Sortiert ein Array von E-Mails nach der Eigenschaft &quot;sender.name&quot;
-
+>
+>    Sortiert ein Array von E-Mails nach der Eigenschaft &quot;sender.name&quot;
 
 ## [!UICONTROL arrayDifference [array1, array2, mode]]
 
@@ -177,33 +184,30 @@ Geben Sie einen der folgenden Werte für die `mode` Parameter.
 
 * `symmetric`: Gibt ein Array von Elementen zurück, die nicht für beide Arrays gelten.
 
-   Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` die nicht in `array2`und alle Elemente von `array2` die nicht in `array1`.
+  Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` die nicht in `array2`und alle Elemente von `array2` die nicht in `array1`.
 
-   >[!INFO]
-   >
-   >**Beispiele:**
-   >
-   >Bei den folgenden Arrays:
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    Rückgabe `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    Rückgabe `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    Rückgabe `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**Beispiele:**
+  >
+  >Bei den folgenden Arrays:
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    Rückgabe `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    Rückgabe `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    Rückgabe `[1,2,6,7]`

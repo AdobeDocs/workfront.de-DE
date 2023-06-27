@@ -8,9 +8,9 @@ title: Adobe Target-Module
 description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] -Module ermöglichen es Ihnen, Datensätze eines bestimmten Typs zu erstellen, zu lesen, zu aktualisieren oder zu löschen, alle Datensätze eines bestimmten Typs aufzulisten, Datensätze anhand von von Kriterien zu suchen oder einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Target] API.
 author: Becky
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2646'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration]</p>
-      </td>
+      <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td>
+      <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td>
     </tr>
     </tr>
   </tbody>
@@ -661,7 +667,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Targ
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Geben Sie einen Pfad relativ zu {baseURL}/ ein.</p>
+        <p>Geben Sie einen Pfad relativ zu ein {baseURL}/</p>
       </td>
     </tr>
     <tr>
@@ -795,7 +801,7 @@ Dieses Aktionsmodul aktualisiert eine Aktivität, ein Angebot oder eine Zielgrup
 
 * [[!UICONTROL Abrufen von Datensätzen]](#get-records)
 
-* [[!UICONTROL Suchen]](#search)
+* [[!UICONTROL Suche]](#search)
 
 
 #### [!UICONTROL Abrufen von Datensätzen]
@@ -835,7 +841,7 @@ Dieses Suchmodul ruft eine Liste von Datensätzen des ausgewählten Typs ab.
   </tbody>
 </table>
 
-#### [!UICONTROL Suchen]
+#### [!UICONTROL Suche]
 
 Dieses Suchmodul sucht nach Aktivitäten, Angeboten oder Zielgruppen basierend auf von Ihnen festgelegten Kriterien.
 

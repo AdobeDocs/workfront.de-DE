@@ -8,9 +8,9 @@ description: Die [!DNL Adobe Workfront Fusion Tools] enthält mehrere nützliche
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -112,7 +120,6 @@ Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario fe
 >* So debuggen Sie eine Formel. Wenn eine in einem Modul verwendete Formel anscheinend kein korrektes Ergebnis liefert, kopieren Sie die Formel und fügen Sie sie in ein [!UICONTROL Variable festlegen] -Modul, das Sie vor dem entsprechenden Modul einfügen. Trennen Sie die Module nach der [!UICONTROL Variable festlegen] und führen Sie das Szenario aus. Überprüfen Sie die [!UICONTROL Variable festlegen] die Ausgabe, Anpassung oder Vereinfachung der Formel des Moduls, wiederholte Ausführung des Szenarios und Fortsetzung des Vorgangs, bis das Problem behoben wurde.
 
 
-
 #### [!UICONTROL Variable abrufen]
 
 Dieses Modul ruft einen Wert ab, der zuvor vom [!UICONTROL Variable festlegen] oder [!UICONTROL Mehrere Variablen festlegen] -Modul.
@@ -163,7 +170,6 @@ Dieses Modul gibt einen Wert zurück, der nach dem Vorgang jedes Moduls um 1 ink
 >1. So erstellen Sie dieses Szenario:
 >1. Legen Sie die **[!UICONTROL Wert zurücksetzen]** auf &quot;Nie&quot;gesetzt.
 >1. Legen Sie die Route für ungerade Werte fest. Legen Sie den Filter für diese Route mithilfe der Modulus-Mathematikfunktion fest, die `1`:
-
 >
 >   ![](assets/odd-350x459.png)
 >

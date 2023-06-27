@@ -8,9 +8,9 @@ description: "Adobe Workfront Fusion unterscheidet fünf Modultypen: Aktionsmodu
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,11 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -63,16 +67,15 @@ Im Gegensatz zu Trigger-Modulen können Aktionsmodule am Anfang, in der Mitte od
 >* **[!DNL Workfront]> [!UICONTROL Datei hochladen]** sendet eine Datei an [!DNL Workfront] und gibt die Kennung zurück.
 >* **[!UICONTROL Bild] > [!UICONTROL Größe ändern]** empfängt ein Bild, ändert seine Größe in bestimmte Dimensionen und übergibt das in der Größe angepasste Bild an die nächste Aktion.
 
-
 Der Aktionstyp besteht aus vier Untertypen: Erstellen, Lesen, Aktualisieren und Löschen. Der Untertyp Aktualisieren ermöglicht die folgenden drei Vorgänge:
 
 * **Inhalt eines Felds löschen**. Dieser Vorgang erfolgt, wenn der Inhalt des Felds ausgewertet wird, um Suchbegriffe zu löschen (nicht zu verwechseln mit *leer*).
 
-   ![](assets/erase-content-of-field.png)
+  ![](assets/erase-content-of-field.png)
 
 * **Inhalt eines Felds unverändert lassen**. Dieser Vorgang erfolgt, wenn das Feld leer gelassen oder der Inhalt des Felds als leer ausgewertet wird (in JSON über null dargestellt).
 
-   ![](assets/leave-content-field-unchanged-350x231.png)
+  ![](assets/leave-content-field-unchanged-350x231.png)
 
 * **Inhalt eines Felds ersetzen**. Dieser Vorgang erfolgt in allen anderen Fällen als den beiden oben beschriebenen.
 
@@ -129,7 +132,6 @@ Abruf-Trigger ermöglichen es Ihnen, das erste Bundle auszuwählen, das über da
 >
 >* **[!DNL Google Sheets]> [!UICONTROL Zeilen ansehen]** gibt neue Zeilen zurück, die vom Benutzer seit der letzten Ausführung des Szenarios hinzugefügt wurden.
 
-
 ### Sofortige Trigger
 
 Sofortige Trigger ermöglichen dem Dienst die Benachrichtigung [!DNL Workfront Fusion] über *change* sofort. Es wird empfohlen, ein Szenario mit einem sofortigen Trigger zu planen. Anweisungen finden Sie unter [Planen eines Szenarios in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Siehe auch [Sofortige Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) für Details zur Verarbeitung der eingehenden Daten.
@@ -140,7 +142,6 @@ Sofortige Trigger ermöglichen dem Dienst die Benachrichtigung [!DNL Workfront F
 >
 >* **[!DNL Workfront]> [!UICONTROL Ereignisse beobachten]** gibt Informationen zurück, wenn ein bestimmter Ereignistyp in Workfront auftritt, z. B. die Erstellung einer Aufgabe.
 >* **[!DNL Google Sheets]> [!UICONTROL Änderungen überwachen]** gibt bei jeder Aktualisierung einer Zelle Informationen zurück.
-
 
 ## Aggregatoren
 
@@ -159,7 +160,6 @@ Szenarien können eine unbegrenzte Anzahl von Aggregatoren enthalten.
 >* **[!UICONTROL Archivieren] > [!UICONTROL Erstellen eines Archivs]** Komprimiert empfangene Dateien in ein ZIP-Archiv
 >* **[!UICONTROL CSV] > [!UICONTROL Aggregieren in CSV]** Führt mehrere Zeichenfolgen aus einer CSV-Datei in einer einzigen Zeile zusammen
 >* **[!UICONTROL Instrumente] > [!UICONTROL Textaggregator]** kombiniert mehrere Zeichenfolgen zu einer einzigen Zeichenfolge
-
 
 Weitere Informationen finden Sie unter [Aggregatormodul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 

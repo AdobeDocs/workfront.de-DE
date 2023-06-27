@@ -9,10 +9,10 @@ description: Sie können das SOAP-Modul verwenden, um eine Verbindung zu SOAP-AP
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '466'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,23 +76,29 @@ Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterst�
 >  
 >Folgendes würde nicht richtig erkannt durch [!UICONTROL Workfront Fusion]:
 >
->
 >```
 ><complexType name="ArrayOfFloat">
 >
->   <complexContent>
+>   
+  <complexContent>
 >
->      <restriction base="soapenc:Array">
+>      
+     <restriction base="soapenc:Array">
 >
->         <attribute ref="soapenc:arrayType"
+>         
+        <attribute ref="soapenc:arrayType"
 >
->            wsdl:arrayType="xsd:integer[]"/>
+>            
+           wsdl:arrayType="xsd:integer[]"/>
 >
->      </restriction>
+>      
+     </restriction>
 >
->   </complexContent>
+>   
+  </complexContent>
 >
-></complexType>
+>
+</complexType>
 >```
 
 Er enthält die `soapenc:Array`, `soapenc:arrayType` und `wsdl:arrayType` -Verweise, die noch nicht unterstützt werden in [!UICONTROL Workfront Fusion].

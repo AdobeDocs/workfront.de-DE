@@ -7,9 +7,9 @@ description: Viele Dienste bieten Webhooks, mit denen Sie sofortige Benachrichti
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 04191419ab6079cc34576b5a7532cd1596e4b91d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,15 +87,13 @@ In diesem Fall wird Ihr Szenario sofort ausgeführt, wenn [!DNL Workfront Fusion
 >
 >* Ein Zyklus ist nicht mit einem Szenario identisch. Es kann mehrere Zyklen innerhalb einer Szenario-Ausführung geben.
 >* Wenn Sie ein Szenario mit einem sofortigen Trigger ausführen, gelten die folgenden Ausnahmen:
-   >
-   >     * Das Intervall zwischen zwei Ausführungen unterliegt nicht dem Mindestintervall gemäß dem Preisplan.
-
-      >
-      >       Wenn das Szenario beispielsweise die Ausführung beendet hat, wird die Warteschlange des Webhooks erneut überprüft. Wenn es ausstehende Webhooks gibt, wird das Szenario sofort erneut ausgeführt und alle ausstehenden Webhooks werden erneut verarbeitet.
-   >   
-   >     * Die Einstellung Maximale Anzahl an Zyklen wird ignoriert und auf 100 gesetzt. Das bedeutet, dass während der Ausführung eines einzigen Szenarios nicht mehr als 100 ausstehende Webhooks verarbeitet werden (bei der Rate von 1 Ereignis pro Zyklus).
 >
-
+>     * Das Intervall zwischen zwei Ausführungen unterliegt nicht dem Mindestintervall gemäß dem Preisplan.
+>
+>       Wenn das Szenario beispielsweise die Ausführung beendet hat, wird die Warteschlange des Webhooks erneut überprüft. Wenn es ausstehende Webhooks gibt, wird das Szenario sofort erneut ausgeführt und alle ausstehenden Webhooks werden erneut verarbeitet.
+>   
+>     * Die Einstellung Maximale Anzahl an Zyklen wird ignoriert und auf 100 gesetzt. Das bedeutet, dass während der Ausführung eines einzigen Szenarios nicht mehr als 100 ausstehende Webhooks verarbeitet werden (bei der Rate von 1 Ereignis pro Zyklus).
+>
 
 
 Wenn Sie eine andere Zeitplaneinstellung als [!UICONTROL Sofort], wird das Szenario in den von Ihnen festgelegten Intervallen ausgeführt. Da mehrere Webhooks in der Warteschlange während des Intervalls gesammelt werden können, wird empfohlen, die [[!UICONTROL Höchstzahl der Zyklen]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) auf einen höheren Wert als den Standardwert 1, um in einem Szenario mehr Webhooks zu verarbeiten:

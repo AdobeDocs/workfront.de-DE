@@ -8,9 +8,9 @@ title: Adobe Journey Optimizer-Module
 description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Journey Optimizer], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 author: Becky
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration]</p>
-      </td>
+      <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td>
+      <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td>
     </tr>
   </tbody>
 </table>
@@ -455,7 +461,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Jour
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Geben Sie einen Pfad relativ zu {baseURL} ein, beginnend mit<code>/</code></p>
+        <p>Geben Sie einen Pfad relativ zu ein {baseURL} beginnt mit<code>/</code></p>
       </td>
     </tr>
     <tr>

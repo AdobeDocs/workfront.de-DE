@@ -8,9 +8,9 @@ description: Mit dem Router-Modul können Sie Ihren Fluss in mehrere Routen verz
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Die [!UICONTROL Router] ermöglicht es Ihnen, Ihren Fluss in mehrere Routen zu v
 >
 >* Routen werden nacheinander, nicht parallel verarbeitet. Ein Bundle wird erst dann an die nächste Route gesendet, wenn es vollständig von der vorherigen Route verarbeitet wurde.
 >
-
 
 
 
@@ -49,11 +48,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,15 +75,15 @@ A [!UICONTROL Router] kann auf eine der folgenden Arten zu einem Szenario hinzug
 
 * Wenn Sie die [!UICONTROL Router] -Modul nach einem Modul, klicken Sie auf den rechten Griff des Moduls und beginnen Sie mit der Eingabe **[!UICONTROL Router]** , um danach zu suchen, und wählen Sie **[!UICONTROL Flusssteuerung]** > **[!UICONTROL Router]** in der Liste der Module, die angezeigt werden.
 
-   ![](assets/connect-the-router-350x108.png)
+  ![](assets/connect-the-router-350x108.png)
 
 * Wenn Sie die [!UICONTROL Router] -Modul zwischen zwei Modulen, klicken Sie auf das Schraubenschlüsselsymbol unter der Route, die die beiden Module verbindet (oder klicken Sie mit der rechten Maustaste auf die Route) und wählen Sie **[!UICONTROL Router hinzufügen]** aus dem Menü.
 
-   ![](assets/insert-router-350x191.png)
+  ![](assets/insert-router-350x191.png)
 
 * Sie können eine [!UICONTROL Router] automatisch hinzugefügt. Um beispielsweise in der Abbildung unten das Modul in der unteren rechten Ecke mit dem Modul in der oberen linken Ecke zu verbinden (das bereits mit dem Modul in der oberen rechten Ecke verbunden ist), ziehen Sie den linken Ziehpunkt des unteren rechten Moduls und legen Sie es auf das Modul oben links ab.
 
-   ![](assets/insert-router-automatically-350x379.png)
+  ![](assets/insert-router-automatically-350x379.png)
 
 ## Filter
 

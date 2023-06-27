@@ -9,9 +9,9 @@ description: Zur Verwendung [!DNL Google Sheets] mit [!DNL Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3942'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -690,7 +698,7 @@ Weitere Informationen finden Sie unter [developers.google.com/sheets/api/limits]
 ### Wie Sie leere Zellen von einem [!DNL Google Sheet]
 
 Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie diese Formel, um die leeren Spalten zu erhalten.
-<pre>auswählen, * [!UICONTROL wobei E null ​ ist];</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Mit [Google Query Lang] können Sie eine erweiterte Abfrage erstellen.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>* [!UICONTROL auswählen, wobei E null ​ ist;</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Mit [Google Query Lang] können Sie eine erweiterte Abfrage erstellen.](https://developers.google.com/chart/interactive/docs/querylanguage)
 
 ### Hinzufügen einer Schaltfläche in einem Arbeitsblatt, um ein Szenario auszuführen
 
@@ -712,7 +720,7 @@ Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie d
    * Der Name der Funktion muss dem in Schritt 9 angegebenen Namen entsprechen.
    * Ersetzen Sie die URL durch die URL des Webhooks, den Sie in Schritt 2 kopiert haben.
 
-      <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
 1. Presse **[!UICONTROL Strg+S]** Um die Skriptdatei zu speichern, geben Sie einen Projektnamen ein und klicken Sie auf **[!UICONTROL OK]**.
 

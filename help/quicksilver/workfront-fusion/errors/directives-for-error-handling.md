@@ -8,9 +8,9 @@ description: In diesem Artikel werden Richtlinien beschrieben, die Sie für die 
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,12 +92,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 >[!NOTE]
 >
 >* Derzeit können die Richtlinien zur Fehlerbehebung nicht außerhalb einer Fehlerbearbeitungsroute verwendet werden.
-   >
-   >   Weitere Informationen finden Sie unter [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) im Artikel [Umgang mit Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>
+>   Weitere Informationen finden Sie unter [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) im Artikel [Umgang mit Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
 >* [!DNL Workfront Fusion] bietet derzeit kein Throw-Modul an, mit dem Sie einfach bedingt Fehler (Auswerfen) generieren können, obwohl eine Problemumgehung verwendet werden kann, um die Funktionalität zu imitieren.
-   >
-   >   Weitere Informationen finden Sie unter [Problemumgehung für Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) im Artikel [Umgang mit Throw-Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
-
+>
+>   Weitere Informationen finden Sie unter [Problemumgehung für Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) im Artikel [Umgang mit Throw-Fehlern in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
 
 ## Break {#break}
 

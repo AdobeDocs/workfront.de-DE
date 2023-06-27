@@ -8,9 +8,9 @@ description: Die folgenden Zeichenfolgen-Funktionen sind im Zuordnungsbereich f�
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '774'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +65,12 @@ Entfernt alle nichtascii-Zeichen aus einer Textzeichenfolge.
 >**Beispiele:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   Gibt Folgendes zurück: [!DNL Workfront]
+>
+>   Gibt Folgendes zurück: [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   Gibt Folgendes zurück: [!UICONTROL escrz]
-
+>
+>   Gibt Folgendes zurück: [!UICONTROL escrz]
 
 ## [!UICONTROL base64 (text)]
 
@@ -98,13 +105,12 @@ Konvertiert das erste Zeichen in einer Textzeichenfolge in Großbuchstaben.
 >**Beispiele:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   Gibt Folgendes zurück: [!UICONTROL true]
+>
+>   Gibt Folgendes zurück: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   Gibt Folgendes zurück: [!UICONTROL false]
-
+>
+>   Gibt Folgendes zurück: [!UICONTROL false]
 
 ## [!UICONTROL decodeURL (text)]
 
@@ -154,17 +160,16 @@ Gibt die Position des ersten Vorkommens eines angegebenen Werts in einer Zeichen
 >**Beispiele:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   Gibt Folgendes zurück: 1
+>
+>   Gibt Folgendes zurück: 1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   Gibt Folgendes zurück: -1
+>
+>   Gibt Folgendes zurück: -1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   Gibt Folgendes zurück: 6
-
+>
+>   Gibt Folgendes zurück: 6
 
 ## [!UICONTROL length (text oder buffer)]
 
@@ -236,11 +241,14 @@ Die Ersatzzeichenfolge kann die folgenden speziellen Ersatzmuster enthalten:
 >![](assets/variable-value-350x63.png)
 >
 >Gibt Folgendes zurück: Telefonnummer `+420777111222`
->>![](assets/variable-value---2-350x55.png)
+>>
+>![](assets/variable-value---2-350x55.png)
+>
 >Gibt Folgendes zurück: Telefonnummer: `+420777111222`
 
 >[!CAUTION]
-Verwenden Sie keine benannten Erfassungsgruppen wie `/ is (?<number>\d+)/` im Ersetzungszeichenfolgenargument. Dies führt zu einem Fehler.
+>
+>Verwenden Sie keine benannten Erfassungsgruppen wie `/ is (?<number>\d+)/` im Ersetzungszeichenfolgenargument. Dies führt zu einem Fehler.
 
 Weitere Informationen zu regulären Ausdrücken finden Sie unter [Text-Parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -249,18 +257,24 @@ Weitere Informationen zu regulären Ausdrücken finden Sie unter [Text-Parser](.
 Berechnet den SHA1-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegeben ist, wird stattdessen SHA1-HMAC-Hash zurückgegeben. Unterstützte Kodierungen: &quot;hex&quot;(Standard), &quot;base64&quot;oder &quot;latin1&quot;.
 
 >[!INFO]
-**Beispiel:**
-`sha1( workfront )`
-Gibt Folgendes zurück: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
+>
+>**Beispiel:**
+>
+>`sha1( workfront )`
+>
+>Gibt Folgendes zurück: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
 ## [!UICONTROL sha256 (Text; [encoding]; [key])]
 
 Berechnet den sha256-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegeben ist, wird stattdessen der HMAC-Hash sha256 zurückgegeben. Unterstützte Kodierungen: &quot;hex&quot;(Standard), &quot;base64&quot;oder &quot;latin1&quot;.>
 
 >[!INFO]
-**Beispiel:**
-`sha256( workfront )`
-Gibt Folgendes zurück: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bc
+>
+>**Beispiel:**
+>
+>`sha256( workfront )`
+>
+>Gibt Folgendes zurück: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bc
 
 ## [!UICONTROL sha512 (Text; [Ausgabekodierung]; [key]; [Schlüsselkodierung])]
 
@@ -281,49 +295,61 @@ Unterstützte Schlüsselkodierungen:
 Bei Verwendung von[!UICONTROL binary]&quot; Schlüssel kodieren, muss ein Schlüssel ein Puffer sein, nicht eine Zeichenfolge.
 
 >[!INFO]
-**Beispiel:**
-`sha512(workfront)`
-Gibt Folgendes zurück: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b 85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
+>
+>**Beispiel:**
+>
+>`sha512(workfront)`
+>
+>Gibt Folgendes zurück: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b 85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text; separator)]
 
 Teilt eine Zeichenfolge in ein Zeichenfolgen-Array, indem die Zeichenfolge in Teilzeichenfolgen unterteilt wird.
 
 >[!INFO]
-**Beispiel:**
-`split( John, George, Paul ; , )`
+>
+>**Beispiel:**
+>
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase (text)]
 
 Großschreibung des ersten Buchstabens jedes Wortes und Kleinschreibung aller anderen Buchstaben.
 
 >[!INFO]
-**Beispiel:**
-`startcase( hello WORLD )`
-Gibt Folgendes zurück: [!UICONTROL Hello World]
+>
+>**Beispiel:**
+>`startcase( hello WORLD )`
+>
+>Gibt Folgendes zurück: [!UICONTROL Hello World]
 
 ## [!UICONTROL streifenHTML (text)]
 
 Entfernt alle HTML-Tags aus Text.
 
 >[!INFO]
-**Beispiel:**
-`stripHTML( <b>Hello</b> )`
-Gibt Folgendes zurück: Hallo
+>
+>**Beispiel:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Gibt Folgendes zurück: Hallo
 
 ## [!UICONTROL substring (text; start;end)]
 
 Gibt einen Teil einer Textzeichenfolge zwischen der Position &quot;Start&quot;und der Position &quot;Ende&quot;zurück.
 
 >[!INFO]
-**Beispiele:**
-* `substring( Hello ; 0 ; 3)`
-
-   Gibt Folgendes zurück: Hel
-* `substring( Hello ; 1 ; 3 )`
-
-   Gibt Folgendes zurück: el
-
+>
+>**Beispiele:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Gibt Folgendes zurück: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Gibt Folgendes zurück: el
 
 ## [!UICONTROL toBinary (Wert)]
 
@@ -332,14 +358,16 @@ Konvertiert jeden Wert in Binärdaten.
 Sie können auch die Kodierung als zweites Argument angeben, um binäre Konversionen von Hex oder base64 auf Binärdaten anzuwenden.
 
 >[!INFO]
-**Beispiele:**
-* `toBinary( Workfront )`
-
-   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
-
+>
+>**Beispiele:**
+>
+>* `toBinary( Workfront )`
+>
+>   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString (Wert)]
 
@@ -354,6 +382,9 @@ Entfernt Leerzeichen am Anfang oder Ende des Textes.
 Konvertiert alle Buchstaben einer Textzeichenfolge in Großbuchstaben.
 
 >[!INFO]
-**Beispiel:**
-`upper( Hello )`
-Gibt Folgendes zurück: [!UICONTROL HELLO]
+>
+>**Beispiel:**
+>
+>`upper( Hello )`
+>
+>Gibt Folgendes zurück: [!UICONTROL HELLO]

@@ -8,9 +8,9 @@ description: In diesem Artikel werden häufig gestellte Fragen im Zusammenhang m
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +110,7 @@ Ein Vorgang ist eine beliebige Aufgabe, die von einem Modul ausgeführt wird. Ei
 
 ### Antwort
 
-Die Datenübertragung bezieht sich auf die Datenmenge, die über Ihr Szenario übertragen wird. Angenommen, Sie haben ein Szenario, in dem ein 100 KB großes Bild von FTP abgerufen und auf 50 KB reduziert wird und beide Bilder in gespeichert werden. [!DNL Dropbox]. Die in diesem Szenario verwendete Datenmenge beträgt 150 KB.
+Die Datenübertragung bezieht sich auf die Datenmenge, die über Ihr Szenario übertragen wird. Angenommen, Sie haben ein Szenario, in dem ein 100 KB großes Bild von FTP abgerufen und auf 50 KB reduziert wird und beide Bilder in gespeichert werden. [!DNL Dropbox]. Die Datenmenge, die in diesem Szenario verwendet wird, beträgt 250 KB.
 
 ## Was ist eine Verbindung?
 

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '3041'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,19 @@ In einem Adobe Workfront Fusion-Szenario können Sie Workflows, die CloudConvert
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -483,7 +491,6 @@ Trigger, in denen ein Auftrag in Ihrem Konto oder Ihrer Aufgabe erstellt, beende
 >* Die [!UICONTROL Neues Auftragsereignis] Trigger wird auch ausgelöst, wenn ein *Kontakt* Aufgabe erstellt, abgeschlossen oder fehlgeschlagen ist.
 >
 
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -787,9 +794,7 @@ In der folgenden Tabelle finden Sie mögliche Fehler und ihre Lösungen:
 >
 >1. Öffnen Sie die Einstellungen des Moduls.
 >1. Konfigurieren Sie das Modul wie folgt:
-
 >
 >   ![](assets/cloudconvert-mp4-example.png)
 >
 >1. Stellen Sie sicher, dass alle Einstellungen in das Feld Konversions- und Engine-spezifische Optionen einbezogen werden: Suchen Sie für jede Einstellung aus Schritt 5 den entsprechenden Parameter aus Schritt 13 und den zugehörigen Wert.
-

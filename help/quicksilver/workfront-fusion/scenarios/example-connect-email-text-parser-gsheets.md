@@ -7,9 +7,9 @@ description: In diesem Szenario können Sie ein Protokoll aller E-Mail-Nachricht
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>
+   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Oder</p>
+   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,11 +149,13 @@ Das erste Modul hinzufügen und konfigurieren
 
    * Wenn Sie nur nach E-Mail-Adresse suchen möchten, können Sie den unten stehenden Regex verwenden:
 
-      ([\w.-]+@[\w.-]+)
+     ([\w.-]+@[\w.-]+)
 
    * Sie können auch nur mithilfe des unten stehenden Regex nach Telefonnummern suchen:
 
-      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4} Das obige Muster deckt die gängigsten Formate ab, in denen eine Telefonnummer geschrieben wird.
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
+Das obige Muster deckt die gängigsten Formate ab, in denen eine Telefonnummer geschrieben wird.
+
    Um Ihre Muster zu testen, empfehlen wir Ihnen, [[!DNL https://regex101.com]](https://regex101.com/) mit [!DNL javascript] als den Geschmack.
 
    Der Rest der Konfiguration bleibt derselbe wie zuvor.
@@ -196,21 +206,21 @@ Für [!DNL Sheets]müssen wir zunächst eine Tabelle mit den erforderlichen Kopf
 
       * Enthält die Wortgruppe &quot;[!UICONTROL Textparsermodul]&quot; (und keine E-Mail-Adresse)
 
-         ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
       * Enthält den obigen Satz und eine E-Mail-Adresse
 
-         ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-         Wenn bei der Einrichtung keine Fehler auftreten, werden im ersten Arbeitsblatt alle E-Mails erfasst, die den Satz &quot;[!UICONTROL Textparsermodul]&quot;, während das zweite Arbeitsblatt nur diejenigen erfasst, die die Wortgruppe &quot;[!UICONTROL Textparsermodul]und eine E-Mail-Adresse. Weitere Informationen finden Sie in den folgenden Screenshots.
+        Wenn bei der Einrichtung keine Fehler auftreten, werden im ersten Arbeitsblatt alle E-Mails erfasst, die den Satz &quot;[!UICONTROL Textparsermodul]&quot;, während das zweite Arbeitsblatt nur diejenigen erfasst, die die Wortgruppe &quot;[!UICONTROL Textparsermodul]und eine E-Mail-Adresse. Weitere Informationen finden Sie in den folgenden Screenshots.
 
-         Arbeitsblatt 1:
+        Arbeitsblatt 1:
 
-         ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-         Arbeitsblatt 2:
+        Arbeitsblatt 2:
 
-         ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## Ressourcen
 

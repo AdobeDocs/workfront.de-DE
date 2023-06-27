@@ -8,9 +8,9 @@ description: Ein Iterator-Modul ist ein spezielles Modul, das ein Array in eine 
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: a2060e7179f2295bfd42da84bd7bca9862ad0a17
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,11 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>  </td> 
+   <td>
+   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Oder</p>
+   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -65,15 +69,14 @@ Weitere Informationen finden Sie unter [Moduleinstellungen in Adobe Workfront Fu
 >**Beispiele:**
 >
 >* Das folgende Szenario zeigt, wie E-Mails mit Anhängen abgerufen und als einzelne Dateien in einer ausgewählten Datei gespeichert werden [!DNL Dropbox] Ordner.
-   >
-   >   E-Mails können eine Reihe von Anhängen enthalten. Die [!UICONTROL Iterator] -Modul, das nach dem ersten Modul eingefügt wird, ermöglicht es Ihnen, jede Anlage separat zu handhaben. Die [!UICONTROL Iterator] -Modul teilt das Array der Anlagen in einzelne Bundles auf. Jedes Bundle mit einer Anlage wird dann nacheinander in einem ausgewählten [!DNL Dropbox] Ordner. Die [!UICONTROL Iterator] Die Moduleinrichtung ist oben dargestellt: die [!UICONTROL Array] -Feld sollte enthalten `Attachments` Array.
-   >
-   >   ![](assets/attachments-array-350x154.jpg)
+>
+>   E-Mails können eine Reihe von Anhängen enthalten. Die [!UICONTROL Iterator] -Modul, das nach dem ersten Modul eingefügt wird, ermöglicht es Ihnen, jede Anlage separat zu handhaben. Die [!UICONTROL Iterator] -Modul teilt das Array der Anlagen in einzelne Bundles auf. Jedes Bundle mit einer Anlage wird dann nacheinander in einem ausgewählten [!DNL Dropbox] Ordner. Die [!UICONTROL Iterator] Die Moduleinrichtung ist oben dargestellt: die [!UICONTROL Array] -Feld sollte enthalten `Attachments` Array.
+>
+>   ![](assets/attachments-array-350x154.jpg)
 >
 >* Für Ihre Bequemlichkeit bieten viele [!DNL Workfront Fusion] Apps-Angebot spezialisiert [!UICONTROL Iterator] -Module mit einer vereinfachten Einrichtung. Beispiel: die [!UICONTROL Email] Die App enthält das spezielle [!UICONTROL Iterator] Modul [!UICONTROL Email] > [!UICONTROL Anhänge itterieren] die dieselben Ergebnisse wie im Allgemeinen [!UICONTROL Iterator] -Modul.
-   >
-   >   ![](assets/specialized-iterators-350x135.jpg)
-
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## Fehlerbehebung: Zuordnungsbereich zeigt keine zuordnbaren Elemente unter [!UICONTROL Iterator] Modul
