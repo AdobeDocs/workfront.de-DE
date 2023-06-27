@@ -6,9 +6,9 @@ description: Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 * Kommentar zu einer Systemaktualisierung
 * Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
 * Benutzerdefiniertes Formular bearbeiten
+
+>[!NOTE]
+>
+>Bei den unten aufgeführten Objekten sind nur die Kommentare und Systemaktualisierungen aus dem letzten Jahr (ab Juni 2022) verfügbar, wenn Sie das Beta-Erlebnis aktivieren.
+>
+>* Probleme
+>* <span class="preview">Projekte</span>
+>* <span class="preview">Aufgaben</span>
+>* <span class="preview">Dokumente</span>
+>
+>Sie können Kommentare und Systemaktualisierungen vor Juni 2022 anzeigen, wenn Sie sich den Abschnitt Updates im aktuellen Erlebnis ansehen.
+
 
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
 

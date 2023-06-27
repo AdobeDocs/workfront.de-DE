@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ Die Verbesserungen sind:
 * Beim Hochladen der Seite gibt es jetzt eine Ladeanzeige.
 * Das Symbol Kopieren ist persistent und wird von Text begleitet. Es wird deaktiviert, wenn keine Anforderungen ausgewählt sind.
 
-Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). Die Dokumentation wird nach der Veröffentlichung der Funktion aktualisiert.
 
-## Aktualisiertes Design beim Senden einer neuen Anforderung
+## Entwurf beim Hinzufügen eines neuen Problems zu einem Projekt aktualisiert
 
 >[!NOTE]
 >
 >Vorgesehene Version: 5. Juli 2023; Geplante Produktionsversion: mit Version 23.3
 
-Wir haben das Feld Neue Anforderung aktualisiert, das beim Senden einer neuen Anforderung angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neues Problem überein, das beim Hinzufügen eines neuen Problems zu einem Projekt angezeigt wird.
+Wir haben das Feld Neues Problem aktualisiert, das beim Senden eines neuen Problems an ein Projekt angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neue Anforderung überein, das beim Senden einer neuen Anforderung an eine Anforderungswarteschlange angezeigt wird.
 
-Weitere Informationen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Weitere Informationen finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md). Die Dokumentation wird nach der Veröffentlichung der Funktion aktualisiert.
 
 ## Aktualisierte Liste der Abrechnungssätze
 

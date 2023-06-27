@@ -6,9 +6,9 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Allgemeine Informationen zu den neuen Kommentierungserlebnissen, einschließlich
 >
 >Die neue Kommentarerfahrung, die mit der Beta-Version 23.2 gestartet wurde. Informationen zur ursprünglichen Version finden Sie unter [23.2 Versionsübersicht](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Kommentar-Funktionen, die für das Beta-Erlebnis für Workfront-Objekte veröffentlicht werden, werden auch im Abschnitt &quot;Updates&quot;eines Zielobjekts in Workfront Goals veröffentlicht.
+>Kommentar-Funktionen, die für Workfront-Objekte in der Beta-Phase veröffentlicht werden, werden auch im Abschnitt Updates der folgenden Objekte als einziges Kommentarerlebnis verfügbar gemacht:
+>* Ziele
+>* Karten im Bereich der Foren.
 
 ## Veröffentlichungs-Timeline
 
