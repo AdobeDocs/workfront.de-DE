@@ -7,9 +7,9 @@ description: Sie können auf Ihre [!DNL Adobe Workfront] Startinhalte, einschlie
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
+>Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
 Sie können auf Ihre [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalte, einschließlich aller Ihnen zugewiesenen Aufgaben, Probleme, Genehmigungen und Zugriffsanforderungen, ohne G Suite verlassen zu müssen.
 

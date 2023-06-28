@@ -7,9 +7,9 @@ description: In G Suite beim Öffnen einer Benachrichtigungs-E-Mail-Adobe [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
+>Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
 In [!DNL G Suite]beim Öffnen einer Benachrichtigungs-E-Mail [!DNL Adobe Workfront] hat gesendet, können Sie die zugehörigen Arbeitselementdetails anzeigen und antworten, ohne Ihre [!UICONTROL Posteingang]. Wenn Aktionen verfügbar sind, wie z. B. das Genehmigen einer Anforderung, können Sie diese Aktionen direkt über [!DNL Workfront for G Suite].
 

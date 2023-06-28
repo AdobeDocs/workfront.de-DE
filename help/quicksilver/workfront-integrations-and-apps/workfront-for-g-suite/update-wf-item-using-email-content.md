@@ -7,9 +7,9 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
+>Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
 Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem mit Informationen aus einem Nicht-Netzwerk aktualisieren[!DNL Adobe Workfront] E-Mail.
 
@@ -99,6 +99,6 @@ Bevor Sie eine [!DNL Workfront] Element mit E-Mail-Inhalt aus [!DNL G Suite], m�
 
    * So antworten Sie auf eine Aktualisierung der **[!UICONTROL Updates]** Registerkarte, klicken Sie auf **[!UICONTROL Antwort]** und geben Sie Ihre Antwort ein.
 
-      Für beide oben genannten Optionen können Sie auf **[!UICONTROL Benachrichtigen]** um die Empfänger für die Antwort anzugeben, wie in Schritt 5 beschrieben. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Post]** , um die Aktualisierung oder Antwort hinzuzufügen.
+     Für beide oben genannten Optionen können Sie auf **[!UICONTROL Benachrichtigen]** um die Empfänger für die Antwort anzugeben, wie in Schritt 5 beschrieben. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Post]** , um die Aktualisierung oder Antwort hinzuzufügen.
 
    * Klicken Sie auf **[!UICONTROL Details]** -Registerkarte, um die Details für das neue Projekt, die Aufgabe oder das Problem anzuzeigen.

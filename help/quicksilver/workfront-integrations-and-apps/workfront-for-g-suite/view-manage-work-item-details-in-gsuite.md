@@ -7,9 +7,9 @@ description: Sie können die Details eines Arbeitselements anzeigen und verwalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
+>Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
 Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne [!DNL G Suite]. Sie können beispielsweise die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen kennzeichnen, alles innerhalb von [!DNL Adobe Workfront for G Suite].
 
@@ -62,18 +62,18 @@ Bevor Sie Details zu Arbeitselementen anzeigen und verwalten können, finden Sie
 
    * Anzeigen der **[!UICONTROL Beschreibung]** und andere Details, wie z. B. die dem Objekt zugewiesenen Benutzer, die **[!UICONTROL Priorität]**, der Anforderer, der **[!UICONTROL Geplantes Abschlussdatum]**, sowie alle benutzerdefinierten Felder und Formulare, die an das Objekt angehängt sind.
 
-      Benutzerdefinierte Formulare zeigen nur Felder an, in denen Informationen hinzugefügt wurden.
+     Benutzerdefinierte Formulare zeigen nur Felder an, in denen Informationen hinzugefügt wurden.
 
    * Klicken Sie auf **[!UICONTROL Übergeordnetes Projekt]** -Bereich, um die Details des übergeordneten Objekts anzuzeigen.
 
-      >[!TIP]
-      >
-      >Dies kann hilfreich sein, wenn Sie Aufgaben und Probleme mit demselben Namen haben und diese unterscheiden müssen.
+     >[!TIP]
+     >
+     >Dies kann hilfreich sein, wenn Sie Aufgaben und Probleme mit demselben Namen haben und diese unterscheiden müssen.
 
    * Akzeptieren Sie die Ihnen zugewiesenen Aufgaben durch Klicken auf **[!UICONTROL Arbeiten daran]**.
    * Bearbeiten verschiedener Optionen, z. B. **[!UICONTROL Fertig]** -Option, die **[!UICONTROL Status]** und die **[!UICONTROL Prozent abgeschlossen]**.
 
-      under **[!UICONTROL Prozent abgeschlossen]**, geben Sie Zahlen und (optional) das Prozentzeichen % ein, um Ihren Fortschritt bei einem Element anzuzeigen.
+     under **[!UICONTROL Prozent abgeschlossen]**, geben Sie Zahlen und (optional) das Prozentzeichen % ein, um Ihren Fortschritt bei einem Element anzuzeigen.
    * Zeigen Sie Informationen zu einer Genehmigungsanfrage an, einschließlich Eigentümer, Größe und Anlagen.
    * **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** Validierungsanfragen und -dokumente.
 

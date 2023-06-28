@@ -7,10 +7,10 @@ description: Sie können die [!DNL Adobe Workfront] für das G Suite-Add-on übe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Es gibt eine [bekanntes Problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) mit der aktuellen Version von [!DNL Workfront for G Suite] funktioniert nicht erwartungsgemäß. Wir arbeiten an einer neuen Version und erwarten, dass sie an die [!DNL Google Marketplace] in naher Zukunft.
+>Die neueste Version der [!DNL Adobe Workfront] Plug-in für [!DNL Google] wurde am 26. Juni 2023 veröffentlicht.
 
 Sie können die [!DNL Adobe Workfront for G Suite] -Add-on aus der [!DNL G Suite] Marketplace.
 
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Installieren [!DNL Workfront for G Suite]
 
-1. Klicken Sie auf den folgenden Link: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. Klicken Sie auf den folgenden Link: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    Oder
 
