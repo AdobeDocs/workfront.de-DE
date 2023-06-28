@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 42abf0163e5ad25923a913d315bdd0f4b95418be
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '13093'
+source-wordcount: '13094'
 ht-degree: 1%
 
 ---
@@ -619,7 +619,7 @@ ht-degree: 1%
          * [Einladungen per E-Mail an neue Benutzer](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * Sicherheit {#security}
          * [Sicherheit](administration-and-setup/manage-workfront/security/security.md)
-         * [Sicherheitseinstellungen](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [Systemvoreinstellungen konfigurieren](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [Kennwörter für die Authentifizierung](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [Entfernung von Single Sign-on-Optionen](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [Verlängern des SAML 2.0-Metadatenzertifikats](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)

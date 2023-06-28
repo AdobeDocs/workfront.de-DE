@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '747'
 ht-degree: 5%
 
 ---
 
-# Systemsicherheitsvoreinstellungen konfigurieren
+# Systemvoreinstellungen konfigurieren
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -23,14 +23,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-Als Adobe Workfront-Administrator können Sie Sicherheitseinstellungen für Ihr Workfront-System konfigurieren:
+Als Adobe Workfront-Administrator können Sie die Voreinstellungen für Ihr Workfront-System konfigurieren:
 
 * Zugriff auf Workfront über mobile Apps und andere integrierte Anwendungen
 * Regeln zum Einbetten von Workfront in einen iFrame
 
 Änderungen, die Sie an den Systemvoreinstellungen vornehmen, wirken sich auf alle Benutzer in Ihrem System und deren Erlebnis in Workfront aus.
 
-Es wird empfohlen, die Sicherheitseinstellungen des Systems während der Workfront-Implementierung zu konfigurieren und diese anschließend nur gelegentlich erneut aufzurufen.
+Es wird empfohlen, die Systemvoreinstellungen während der Workfront-Implementierung zu konfigurieren und sie anschließend nur gelegentlich erneut aufzurufen.
 
 ## Zugriffsanforderungen
 
@@ -55,13 +55,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-## Systemsicherheitsvoreinstellungen konfigurieren
+## Systemvoreinstellungen konfigurieren
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie im linken Bereich auf **System** > **Voreinstellungen**.
 
-1. Im **Sicherheit** Wählen Sie eines der folgenden Felder aus, um die Sicherheitseinstellungen für Ihr Unternehmen festzulegen:
+1. Wählen Sie eines der folgenden Felder aus, um die Einstellungen für Ihre Organisation festzulegen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,6 +104,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr> 
       <td role="rowheader">Mobile Benutzer automatisch abmelden nach </td> 
       <td>Hiermit können Sie festlegen, wann ein Benutzer nach einer Inaktivität von der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option betrifft auch Workfront-Kunden, die eine Single Sign-On-Lösung verwenden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Benutzern im System wird standardmäßig das Erlebnis "Neue Startseite"angezeigt </td> 
+      <td>Hiermit können Sie festlegen, ob Benutzern standardmäßig das Erlebnis "Neue Startseite"angezeigt wird. In beiden Fällen können Benutzer die Option "Neues Home"einzeln aktivieren oder deaktivieren. Diese Option ist standardmäßig aktiviert.</td> 
      </tr> 
     </tbody> 
    </table>

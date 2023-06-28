@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Sie können alle Informationen auf Ihrer Startseite schnell filtern, um Objektin
 
 Für Benutzer, die das vorhandene Home-Erlebnis bevorzugen, kann die Option &quot;Neues Home&quot;deaktiviert werden.
 
+
 **So gehen Sie zurück zum aktuellen Starterlebnis:**
 
 1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol klicken ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) oben im Bildschirm, wenn Startseite als Landingpage festgelegt ist, oder durch Klicken auf das Hauptmenüsymbol ![Symbol für Hauptmenü](../new-home/assets/main-menu-icon-left-nav.png) Klicken Sie dann auf **Startseite**.
@@ -97,3 +98,7 @@ Für Benutzer, die das vorhandene Home-Erlebnis bevorzugen, kann die Option &quo
    ![Zurück zur aktuellen Schaltfläche &quot;Home&quot;](../new-home/assets/go-back-to-current-home-button.png)
 
 1. Im sich öffnenden Bestätigungsfenster können Sie eine kurze Umfrage zu Ihrem Erlebnis mit New Home durchführen oder auf **Zurück zur aktuellen Startseite** um Ihre Entscheidung abzuschließen und zum aktuellen Starterlebnis zurückzukehren.
+
+>[!NOTE]
+>
+> Systemadministratoren können &quot;Neue Startseite&quot;als Standard für ihre Benutzer deaktivieren. Informationen zum Ändern des standardmäßigen Home-Erlebnisses für Benutzer in einem System finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
