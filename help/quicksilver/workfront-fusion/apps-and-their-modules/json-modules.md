@@ -88,7 +88,7 @@ Wenn das JSON-Zeichenfolgenfeld eine Sammlung enthält `{ ... }`, ist die Ausgab
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Wenn das JSON-Zeichenfolgenfeld ein Array enthält `[ ... ]`, ist die Ausgabe ei
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
