@@ -239,26 +239,26 @@ Dieses Aktionsmodul wandelt ein Objekt in eine JSON-Zeichenfolge um.
 1. Verbinden [!UICONTROL JSON] > [!UICONTROL JSON erstellen] -Modul nach [!UICONTROL Array-Aggregator] -Modul. Die Einrichtung des Moduls erfordert eine Datenstruktur, die das JSON-Format beschreibt. Klicken **[!UICONTROL Hinzufügen]** , um die Einrichtung der Datenstruktur zu öffnen. Die einfachste Möglichkeit, diese Datenstruktur zu erstellen, besteht darin, sie automatisch aus einem JSON-Beispiel zu generieren. Klicken **[!UICONTROL Generator]** und fügen Sie Ihr JSON-Beispiel in die **[!UICONTROL Beispieldaten]** -Feld:
 >
 **Beispiel:**
->   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die [!UICONTROL Spezifikation] -Feld in der Datenstruktur enthält nun die generierte Struktur.
 1. Ändern Sie den Namen Ihrer Datenstruktur in einen spezifischeren Namen und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.
