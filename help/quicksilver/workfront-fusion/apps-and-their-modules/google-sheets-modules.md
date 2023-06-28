@@ -698,7 +698,7 @@ Weitere Informationen finden Sie unter [developers.google.com/sheets/api/limits]
 ### Wie Sie leere Zellen von einem [!DNL Google Sheet]
 
 Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie diese Formel, um die leeren Spalten zu erhalten.
-<pre>* [!UICONTROL auswählen, wobei E null ​ ist;</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Mit [Google Query Lang] können Sie eine erweiterte Abfrage erstellen.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>* auswählen, wobei E null ​ ist;</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Mit [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage) können Sie eine erweiterte Abfrage erstellen.
 
 ### Hinzufügen einer Schaltfläche in einem Arbeitsblatt, um ein Szenario auszuführen
 
