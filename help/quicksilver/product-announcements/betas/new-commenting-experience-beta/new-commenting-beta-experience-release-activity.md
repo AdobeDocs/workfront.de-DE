@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%
@@ -76,7 +76,9 @@ Jetzt können Sie den Inhalt eines Kommentars kopieren und ihn als neues Anführ
 
 Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Geplante Vorschau und Produktionsversion: 29. Juni 2023
+Vorschau: 28. Juni 2023
+
+Geplante Produktionsversion: 29. Juni 2023
 
 #### Neue Benutzeroberfläche für die Protokollierungszeit
 

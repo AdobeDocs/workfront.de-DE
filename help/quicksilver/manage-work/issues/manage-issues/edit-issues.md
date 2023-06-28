@@ -5,10 +5,12 @@ title: Probleme bearbeiten
 description: Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme für Sie freigegeben haben.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2467'
 ht-degree: 3%
 
 ---
@@ -92,6 +94,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Informationen zu den Feldern, die im Abschnitt Problemdetails angezeigt werden, erhalten Sie, wenn Sie das Problem im Feld Problem bearbeiten weiter bearbeiten, wie unten beschrieben.
 
 1. Um alle Informationen zu einem Problem zu bearbeiten, wählen Sie ein Problem in einer Liste aus und klicken Sie auf **Bearbeiten** oben in der Liste
@@ -110,7 +113,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
 
 1. Ziehen Sie in Erwägung, Informationen in einem der folgenden Abschnitte anzugeben:
 
-   * [Name der Anfrage](#issue-name)
+   * [Name des Problems](#issue-name)
    * [Übersicht](#overview)
    * [Arbeitsaufträge](#assignments)
    * [Benutzerdefinierte Formulare](#Custom%C2%A0F)
@@ -119,8 +122,10 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
    >[!NOTE]
    >
    >Je nachdem, wie Ihr Workfront-Administrator unsere Layoutvorlage eingerichtet hat, unterscheiden sich die Felder im Feld &quot;Problem bearbeiten&quot;möglicherweise in Ihrer Umgebung. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >Die meisten in den folgenden Abschnitten aufgelisteten Felder sind auch über das Feld Neues Problem verfügbar, wenn Sie ein Problem erstellen. Die Abschnitte, unter denen sich die Felder befinden, stimmen nicht mit dem Feld &quot;Neues Problem&quot;überein. Informationen zum Erstellen von Problemen finden Sie unter [Erstellen von Problemen](../../issues/manage-issues/create-issues.md).
 
-### Name der Anfrage {#issue-name}
+### Name des Problems {#issue-name}
 
 1. Beginnen Sie mit der Bearbeitung eines Problems wie oben beschrieben.
 1. Klicken **Problemname**.
@@ -282,7 +287,6 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
    >
    >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
-
 
 1. (Optional) Geben Sie an, ob ein Bevollmächtigter der Hauptverantwortliche für das Problem ist, indem Sie den Mauszeiger über den Namen des Bevollmächtigten bewegen und auf **Primär machen**. Ein Team kann nicht der Hauptverantwortliche eines Problems sein.
 1. Aktualisieren Sie die folgenden Felder:

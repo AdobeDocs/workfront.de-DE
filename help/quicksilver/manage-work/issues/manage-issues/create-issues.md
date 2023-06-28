@@ -5,8 +5,10 @@ title: Erstellen von Problemen
 description: Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine Aufgabe protokollieren. Benutzer mit dem entsprechenden Zugriff können den Status von Problemen im Zuge des Fertigstellungsprozesses des Projekts oder der Aufgabe anzeigen und überwachen, sodass längere E-Mail-Ketten oder Statussitzungen nicht mehr erforderlich sind. Im Gegensatz zu Aufgaben, bei denen es sich um geplante Ereignisse handelt, stellen Probleme ungeplante Arbeitselemente in Adobe Workfront dar.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -14,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Erstellen von Problemen
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine Aufgabe protokollieren. Benutzer mit dem entsprechenden Zugriff können den Status von Problemen im Zuge des Fertigstellungsprozesses des Projekts oder der Aufgabe anzeigen und überwachen, sodass längere E-Mail-Ketten oder Statussitzungen nicht mehr erforderlich sind. Im Gegensatz zu Aufgaben, bei denen es sich um geplante Ereignisse handelt, stellen Probleme ungeplante Arbeitselemente in Adobe Workfront dar.
 
@@ -53,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
+(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
 -->
 
 ## Einschränkungen beim Erstellen von Problemen
@@ -92,6 +96,8 @@ So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
+   <!--update the screen shot above for preview and highlight in yellow-->
+
    * Wenn im Projekt nur ein Queue-Thema festgelegt ist, wird es automatisch angezeigt.
    * Wenn die Themengruppe keine Warteschlangenthemen oder Themengruppen darunter enthält, ist nichts in der Dropdown-Liste Themengruppe verfügbar.
 
@@ -99,9 +105,9 @@ So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
    * Bug-Bericht
    * Änderungsanforderung
-   * Anfrage
+   * Problem
    * Anfrage\
-      Je nachdem, wie Ihr Workfront-Administrator Ihre Projekteinstellungen konfiguriert hat, können die Namen der Problemtypen für Sie unterschiedlich sein.
+     Je nachdem, wie Ihr Workfront-Administrator Ihre Projekteinstellungen konfiguriert hat, können die Namen der Problemtypen für Sie unterschiedlich sein.
 
 1. Geben Sie eines der Felder an, die im Abschnitt **Neues Problem** Formular. Weitere Informationen zum Definieren von Feldern bei Auftreten eines neuen Problems finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 1. (Bedingt) Wenn die Warteschlangenthemen mit einem benutzerdefinierten Formular verknüpft sind, wird dieses benutzerdefinierte Formular im **Neues Problem** Formular.\
@@ -119,6 +125,7 @@ Probleme können mehreren Benutzern, Auftragsrollen oder einem Team zugewiesen w
 >[!IMPORTANT]
 >
 >Der Projekteigentümer muss **Benutzern erlauben, Probleme inline hinzuzufügen** beim Definieren von Problemeinstellungen für das Projekt, bevor Sie Probleme inline zum Projekt oder zu den Aufgaben hinzufügen können. Informationen zum Konfigurieren von Problemeinstellungen für ein Projekt finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 Wenn Sie mehrere Probleme schnell hinzufügen möchten, können Sie Probleme für eine Aufgabe oder ein Projekt inline erstellen, indem Sie sie zu einer Liste von Problemen hinzufügen.
 
@@ -150,7 +157,6 @@ So erstellen Sie Probleme inline:
    >* Felder, die zu einem anderen Objekt gehören
    >* Felder, auf die Sie keinen Zugriff haben
    >* Felder, die Berechnungen entsprechen und von Workfront automatisch aktualisiert werden
-
 
 1. Klicken Sie auf Enter , um die Inline-Bearbeitung abzuschließen und das Problem dem Projekt oder der Aufgabe hinzuzufügen.
 
