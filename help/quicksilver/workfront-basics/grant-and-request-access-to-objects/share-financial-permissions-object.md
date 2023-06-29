@@ -6,14 +6,16 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zu
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # Freigeben von Finanzberechtigungen für ein Objekt
+
+{{highlighted-preview}}
 
 Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsstufe Zugriff auf die Anzeige oder Bearbeitung von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -83,7 +85,7 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
 
 Beachten Sie Folgendes bei der Erteilung von Finanzberechtigungen für Objekte:
 
-* Sie können finanziellen Berechtigungen für Projekte, Aufgaben und Probleme gewähren.
+* Sie können finanziellen Berechtigungen für Projekte, Aufgaben, Probleme, <span class="preview">und Ratenkarten</span>.
 * Berechtigungen können vererbt werden: Wenn Sie über View Finance-Berechtigungen für ein Projekt verfügen, erben Sie automatisch View Finance-Berechtigungen für die Aufgaben und Probleme im Projekt.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
@@ -103,7 +105,7 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
    * **Mitwirken**
    * **Verwalten**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Klicken Sie im selben Dropdown-Menü auf **Erweiterte Einstellungen**, führen Sie dann einen der folgenden Schritte aus:
 
@@ -154,6 +156,18 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">Ratenkarten verwalten</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Anzeigen von Ratenkarten</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
   <tr> 
    <td>Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung</td> 
    <td>✓</td> 

@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Unternehmen
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -66,9 +68,9 @@ Sie müssen über Folgendes verfügen, um Unternehmen in [!DNL Workfront]:
 
    * Benutzer desselben Unternehmens können die Anforderungen der anderen Benutzer sehen.
 
-      Weitere Informationen zum [!DNL Workfront] -Administrator kann ähnlichen Zugriff auf Anforderungen auf Grundlage des Unternehmens der Benutzer gewähren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme in [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     Weitere Informationen zum [!DNL Workfront] -Administrator kann ähnlichen Zugriff auf Anforderungen auf Grundlage des Unternehmens der Benutzer gewähren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme in [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-      Weitere Informationen dazu, wie ein Gruppenadministrator ähnlichen Zugriff auf Anforderungen je nach Unternehmen der Benutzer gewähren kann, finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     Weitere Informationen dazu, wie ein Gruppenadministrator ähnlichen Zugriff auf Anforderungen je nach Unternehmen der Benutzer gewähren kann, finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    * Benutzer können nur Anforderungswarteschlangen sehen, die mit ihren Unternehmen verknüpft sind. Weitere Informationen zum Einschränken der Sichtbarkeit einer Anforderungswarteschlange finden Sie unter [Zugriff auf Anforderungswarteschlangen gewähren](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
    * Sie können Benutzer so einschränken, dass sie nur Benutzer in ihrem Unternehmen oder ihrem Unternehmen und dem primären Unternehmen sehen. Informationen zur primären Unternehmensfunktionalität bezüglich des Datenschutzes für Benutzer finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -110,7 +112,7 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Abrechnungsraten] Abschnitt</td> 
-      <td> <p>Sie können die mit Ihren Auftragsrollen auf Unternehmensebene verbundenen Abrechnungsraten überschreiben. Informationen zum Erstellen von Auftrags-Rollen und deren Zuordnung zu Abrechnungsraten finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Vorgangsrollen</a>.</p> <p>Weitere Informationen über das Außerkraftsetzen der Abrechnungssätze auf Unternehmensebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene</a>.</p> </td> 
+      <td> <p><span class="preview">Dieser Abschnitt wurde in der Vorschau -Umgebung entfernt.</span></p><p>Sie können die mit Ihren Auftragsrollen auf Unternehmensebene verbundenen Abrechnungsraten überschreiben. Informationen zum Erstellen von Auftrags-Rollen und deren Zuordnung zu Abrechnungsraten finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Vorgangsrollen</a>.</p> <p>Weitere Informationen über das Außerkraftsetzen der Abrechnungssätze auf Unternehmensebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Abschnitt "Benutzerdefinierter Forms"</td> 
@@ -128,6 +130,10 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
 ## Verwalten von Firmenmitgliedschaften
 
 Informationen zur Verwaltung von Mitgliedschaften für ein bestehendes Unternehmen finden Sie unter [Verwalten von Firmenmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## Rechnungssätze verwalten
+
+Informationen zum Außerkraftsetzen der Abrechnungssätze auf Unternehmensebene finden Sie unter [Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## Informationen zum Freigeben von Objekten für Unternehmen
 

@@ -7,9 +7,9 @@ description: Die folgenden Artikel enthalten Informationen zu Bereichen, in dene
 author: Alina
 feature: Work Management
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -85,3 +85,5 @@ Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten 
 [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [Außerkraftsetzen der Abrechnungsraten für Auftragsrollen auf Projektebene](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+
+[Eine Ratenkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)

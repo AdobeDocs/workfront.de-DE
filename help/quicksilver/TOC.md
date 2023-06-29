@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 1%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 1%
          * [Scorecard erstellen](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Neuberechnungen der Projektzeitleiste](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Benutzerdefinierte Quartale für Projekte](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Orte konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Konfigurieren von Zeitplänen und Timesheet-Voreinstellungen {#configure-timesheets-schedules}
          * [Konfigurieren von Zeitplänen und Timesheet-Voreinstellungen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Zeitpläne - Übersicht](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 1%
          * [Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnungsraten auf Unternehmensebene](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [Außerkraftsetzen der Abrechnungsraten für Auftragsrollen auf Projektebene](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Eine Ratenkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Übersicht über den geplanten Nutzen des Projekts](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Leistungsindex-Methode (PIM) festlegen](manage-work/projects/project-finances/set-pim.md)
          * [Berechnung der Kapitalrendite (ROI)](manage-work/projects/project-finances/calculate-roi.md)

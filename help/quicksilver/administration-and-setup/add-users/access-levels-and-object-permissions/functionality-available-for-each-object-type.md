@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 11%
 
 ---
 
 # Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
+
+{{highlighted-preview}}
 
 In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 
@@ -27,7 +29,7 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalten.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Kopieren | ✓&#42; |   |   |   |   |
@@ -65,7 +67,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 
 ## Aufgaben
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; | ✓&#42; |   |   |   |
@@ -97,7 +99,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 
 ## Probleme
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bearbeiten | ✓ | ✓ | ✓ | ✓ |   |
@@ -127,7 +129,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Portfolios haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -151,7 +153,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Portfolios habe
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Programme haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -216,7 +218,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Planer</p> </th> 
    <th> <p>Arbeitskraft</p> </th> 
    <th> <p>Prüfer</p> </th> 
-   <th> <p>Antragsteller</p> </th> 
+   <th> <p>Anfragende Person</p> </th> 
    <th>Externer Benutzer<br></th> 
   </tr> 
  </thead> 
@@ -276,7 +278,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 ## Dokumente
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -332,7 +334,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
    <th> <p>Prüfer</p> </th> 
-   <th> <p>Antragsteller</p> </th> 
+   <th> <p>Anfragende Person</p> </th> 
    <th> <p>Externer Benutzer**</p> </th> 
   </tr> 
  </thead> 
@@ -407,7 +409,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
    <th> <p>Prüfer</p> </th> 
-   <th> <p>Antragsteller</p> </th> 
+   <th> <p>Anfragende Person</p> </th> 
    <th> <p>Externer Benutzer*</p> </th> 
   </tr> 
  </thead> 
@@ -467,7 +469,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 ## Vorlagen
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -485,7 +487,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Finanzdaten haben.
 
-Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da sie keinen Zugriff auf [Objekt oder Bereich auswählen].
+Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da sie keinen Zugriff auf diese Objekte und Bereiche haben.
 
 | Aktion | Planer | Arbeitskraft | Prüfer |
 |---|---|---|---|
@@ -496,6 +498,7 @@ Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da 
 | Rechnungsdatensätze verwalten | ✓ |   |   |
 | Verwalten von Ausgaben | ✓ | ✓ |   |
 | Finanzdaten anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |
+| <span class="preview">Ratenkarten verwalten</span> | ✓ |   |   |
 | Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung | ✓ |   |   |
 | Budgetressourcen in den Tools für die Ressourcenplanung&#42;&#42; | ✓ |   |   |
 | Anzeigen der Ressourcenzuordnung in den Tools für die Ressourcenplanung&#42; | ✓ | ✓ | ✓ |
@@ -512,7 +515,7 @@ Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da 
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Bereich auswählen]. Andere Lizenztypen können eingeschränkten oder keinen Zugriff auf Resource Management in Workfront haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |   |
 | Erstellen, Bearbeiten und Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |   |
@@ -533,13 +536,13 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Be
 
 ## Bereich &quot;Szenario-Planer&quot;
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Antragsteller | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
 |---|---|---|---|---|---|
 | Vorhandene Pläne und Initiativen erstellen/bearbeiten | ✓ | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Informationen zu Aufgabenrollen in Plänen und Initiativen&#42; | ✓ | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Kosteninformationen zu Plänen und Initiativen&#42; | ✓ | ✓ | ✓ |   |   |
 | Löschen von Plänen und Initiativen | ✓ | ✓ | ✓ |   |   |
-| Szenarien im Hauptmenü anzeigen ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
+| Szenarien im Hauptmenü anzeigen ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Anzeigen von Plänen und Initiativen, die der Benutzer erstellt hat&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

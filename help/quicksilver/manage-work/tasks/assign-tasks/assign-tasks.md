@@ -6,14 +6,16 @@ description: Sie können Benutzern, Rollen oder Teams Aufgaben zuweisen, um anzu
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
 
 # Aufgaben zuweisen
+
+{{highlighted-preview}}
 
 Sie können Benutzern, Stellenrollen oder Teams Aufgaben zuweisen, um anzugeben, wer für die Erfüllung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
@@ -26,7 +28,6 @@ Sie können Benutzern, Stellenrollen oder Teams Aufgaben zuweisen, um anzugeben,
 >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
 >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
 >
-
 
 Die Anzahl der einer Aufgabe zugewiesenen Benutzer und der Zeitplan des Aufgabenbesitzers können die geplanten Daten einer Aufgabe ändern, was zu einer Änderung der Zeitleiste des Projekts führt. Informationen zu den Auswirkungen der Zuweisung mehrerer Benutzer zu einer Aufgabe finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -123,7 +124,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 * Aufgaben und Probleme in einem Projekt können zuerst einem oder mehreren Teams oder Auftragsprofilen zugewiesen werden. Wenn das Projekt startbereit ist, müssen sie möglicherweise auch Benutzern zugewiesen werden:
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
@@ -168,23 +169,25 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
 
 
-      >[!TIP]
-      >
-      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >[!TIP]
+     >
+     >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >
+     ><span class="preview">Beim Hinzufügen einer Auftrags-Rollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie die System-/Standardauftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkarten-Auftragsrolle aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
    * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste, wenn diese Liste angezeigt wird. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    * Klicken **Erweitert**
 
-      Informationen zum Ausführen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Informationen zum Ausführen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional und bedingt) Klicken Sie auf die **X-Symbol** neben dem Namen der Zuweisung im rechten Bereich der Aufgabe, um eine Zuweisung zu entfernen, wenn Sie auf **Erweitert**.
@@ -219,11 +222,12 @@ So weisen Sie Aufgaben in einer Liste zu:
    * Klicken Sie in die **Zugeordnet zu** oder **Zugeordnet** und beginnen Sie mit der Eingabe des Namens eines aktiven Benutzers, den Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf diesen, wenn er in der Liste angezeigt wird.
    * Klicken Sie in die **Zuweisungen** eingeben und den Namen eines aktiven Benutzers, einer aktiven Rolle oder eines Teams eingeben, das bzw. das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf sie, wenn sie in der Liste angezeigt wird.
 
-      >[!TIP]
-      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >
+     ><span class="preview">Beim Hinzufügen einer Auftrags-Rollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie die System-/Standardauftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkarten-Auftragsrolle aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
 
 1. (Bedingt) Wenn im **Zuweisungen** und klicken Sie auf das **Personen** in der oberen rechten Ecke des Zuweisungsfelds, um die **Erweiterte Zuweisungen** und erstellen Sie erweiterte Zuweisungen.
 
@@ -234,7 +238,8 @@ So weisen Sie Aufgaben in einer Liste zu:
    Weitere Informationen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   Sie können keine erweiterten Zuweisungen aus den Feldern Zugeordnet oder Zugeordnet vornehmen.
+   >
+   >Sie können keine erweiterten Zuweisungen aus den Feldern Zugeordnet oder Zugeordnet vornehmen.
 
 1. Nachdem Sie Ihre Bevollmächtigten zur Aufgabe hinzugefügt haben, drücken Sie die Eingabetaste oder klicken Sie auf eine beliebige Stelle auf der Seite, um Ihre Änderungen zu speichern, wenn Sie Automatisches Speichern ausgewählt haben. Klicken Sie andernfalls auf **Speichern**.
 
@@ -244,7 +249,8 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Bedingt) Stellen Sie sicher, dass die Variable **Automatische Speicherung** ausgewählt ist, wenn Sie sich auf einer Liste von Aufgaben im Rahmen eines Projekts befinden.
 
    >[!IMPORTANT]
-   Aufgaben können beim manuellen Speichern von Aufgaben in einem Projekt nicht stapelweise bearbeitet werden.
+   >
+   >Aufgaben können beim manuellen Speichern von Aufgaben in einem Projekt nicht stapelweise bearbeitet werden.
 
 1. Wählen Sie mehrere Aufgaben in der Aufgabenliste aus.
 1. Klicken **Bearbeiten**.
@@ -254,7 +260,8 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. Im **Zuweisungen** Bereich, wählen Sie die **Bevollmächtigter** und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, die/das Sie allen Aufgaben zuweisen möchten.
 
    >[!IMPORTANT]
-   Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Aufgaben hinzugefügt, anstatt die vorhandenen Ressourcen für die Aufgaben zu ersetzen.
+   >
+   >Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Aufgaben hinzugefügt, anstatt die vorhandenen Ressourcen für die Aufgaben zu ersetzen.
 
 1. (Optional) Wählen Sie das Optionsfeld im **Aufgabeneigentümer** gibt an, welche Ressource der primäre Verantwortliche oder Eigentümer der Aufgabe ist, wenn Sie der Aufgabe mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
 1. (Bedingt) Geben Sie die **Zuteilung %** für jede Ressource, die der Aufgabe zugewiesen ist, wenn alle ausgewählten Aufgaben über eine Dauer verfügen, die vom Aufwandstyp bestimmt oder berechnet wurde. Dies gibt an, wie viel Zeit diese Ressourcen für das Abschließen der Aufgabe verbringen sollen. Dies ist nur für Benutzer und Vorgangsrollen verfügbar.
@@ -264,7 +271,8 @@ So weisen Sie Aufgaben in einer Liste zu:
    Geben Sie den Betrag von **Stunden** für jede Ressource, die der Aufgabe zugewiesen ist, wenn für alle ausgewählten Aufgaben der Typ Einfache Dauer ausgewählt ist. Die Gesamtstundenzahl für alle Ressourcen sollte der Anzahl der geplanten Stunden für die Aufgabe entsprechen.
 
    >[!IMPORTANT]
-   Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Aufgaben unterschiedliche Typen der Dauer oder die ausgewählten Aufgaben unterschiedliche Typen der Dauer aufweisen.
+   >
+   >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Aufgaben unterschiedliche Typen der Dauer oder die ausgewählten Aufgaben unterschiedliche Typen der Dauer aufweisen.
 
    Informationen zum Typ der Dauer für Aufgaben finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 

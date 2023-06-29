@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Zugriff auf Finanzdaten gewähren
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Folgendes über die Zugriffsebene des Benutzers definieren, wie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -117,13 +119,14 @@ Ein Benutzer ohne Zugriff auf Finanzdaten hat keinen Zugriff auf Folgendes:
 * Finanzabschnitt unter Projekt- und Aufgabenobjekte
 * Geschäftsfall
 * Abrechnungssätze und Rechnungsbelege
+* <span class="preview">Ratenkarten</span>
 * Kosten pro Stunde und Abrechnung pro Stunde für Benutzereinstellungen
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
 
 * Kosten pro Stunde und Abrechnung pro Stunde für Job Roles
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
 
 ### Zugriff anzeigen
 
@@ -134,11 +137,11 @@ Benutzer mit Zugriff auf Finanzdaten anzeigen können Folgendes anzeigen (nicht 
 * Abrechnungssätze und Rechnungsbelege
 * Kosten pro Stunde und Abrechnung pro Stunde für Benutzereinstellungen
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
 
 * Kosten pro Stunde und Abrechnung pro Stunde für Job Roles
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Anzeigen in Schritt 4 oben.
 
 ### Zugriff bearbeiten
 
@@ -147,10 +150,11 @@ Ein Benutzer mit Zugriff auf Finanzdaten bearbeiten kann Folgendes anzeigen und 
 * Finanzabschnitt unter Projekt- und Aufgabenobjekte
 * Geschäftsfall
 * Abrechnungssätze und Rechnungsbelege
+* <span class="preview">Ratenkarten</span>
 * Kosten pro Stunde und Abrechnung pro Stunde für Benutzereinstellungen
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Bearbeiten in Schritt 4.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Bearbeiten in Schritt 4.
 
 * Kosten pro Stunde und Abrechnung pro Stunde für Job Roles
 
-   Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Bearbeiten in Schritt 4.
+  Sie können dies über das Zahnradsymbol konfigurieren ![](assets/gear-icon-settings.png) auf die Schaltfläche Bearbeiten in Schritt 4.
