@@ -3,9 +3,9 @@ title: 23.3 Agile Verbesserungen
 description: 23.3 Agile Verbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Die Agile-Ansicht eines Projekts enthält jetzt zusätzliche Funktionen zum Filt
 
 Während Sie sich auf der Pinnwand befinden, können Sie zur alten Agile-Ansicht wechseln.
 
-Die Dokumentation für das aktualisierte Projekt Agile View wird mit seiner Version zur Vorschau bereitgestellt.
+Weitere Informationen finden Sie unter [Projekt in der Agile-Ansicht verwalten](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Nach Pinnwandspalten sortieren
 

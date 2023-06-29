@@ -6,14 +6,16 @@ description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeige
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
+
+{{highlighted-preview}}
 
 Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können mehrere Arten von Ansichten in Adobe Workfront verwenden.
 
@@ -72,12 +74,12 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
    * Passen Sie die Anzeigereihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
       * (Optional) Im **Spalteneinstellungen** Bereich, klicken Sie auf **Zusammenfassen dieser Spalte nach** eine der verfügbaren Optionen für die Zusammenfassung der Informationen auswählen. Bei Auswahl dieser Option werden die Informationen in der Spalte in den Berichtsgruppen aggregiert.\
-         Für Datumsfelder können Sie die Werte anhand der folgenden Optionen zusammenfassen:
+        Für Datumsfelder können Sie die Werte anhand der folgenden Optionen zusammenfassen:
 
          * Maximum
          * Minimum
 
-         Bei Zahlungs- und Währungsfeldern können Sie die Werte anhand der folgenden Optionen zusammenfassen:
+        Bei Zahlungs- und Währungsfeldern können Sie die Werte anhand der folgenden Optionen zusammenfassen:
 
          * Anzahl
          * Summe
@@ -85,20 +87,21 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
          * Maximum
          * Minimum
 
-         >[!NOTE]
-         >
-         >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
-         >   
-         >   * Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
-         >   * Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und die Einzelaufgaben. sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-         >   * Benutzerdefinierte Datenfelder für Zahlenwerte und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
+        >[!NOTE]
+        >
+        >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
+        >   
+        >   * Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
+        >   * Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und die Einzelaufgaben. sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+        >   * Benutzerdefinierte Datenfelder für Zahlenwerte und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
+        >   
+        >
 
-
-         Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Optional) Klicken Sie auf **Erweiterte Optionen** um die folgenden Informationen für die Spalte anzugeben:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
          </tbody> 
         </table>
 
-         Weitere Informationen zur bedingten Formatierung von Ansichten in Berichten finden Sie im Artikel [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Weitere Informationen zur bedingten Formatierung von Ansichten in Berichten finden Sie im Artikel [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Bedingt) Wenn Sie auf **Erweiterte Optionen** klicken **Fertig**.
 
@@ -147,14 +148,18 @@ Sie können eine neue Agile-Ansicht erstellen oder eine vorhandene Agile-Ansicht
 
 Weitere Informationen zu Agile-Ansichten finden Sie im Artikel [Projekt in der Agile-Ansicht verwalten](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Dieses Verfahren gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
 
 So erstellen oder passen Sie eine Agile-Ansicht an:
 
 1. Rufen Sie die Liste der Aufgaben eines Projekts auf.
-1. Klicken Sie auf **Agile Storyboard** icon ![](assets/agile-storyboard-nwe.png).
+1. Klicken Sie auf **Agile Storyboard** icon ![Symbol &quot;Agile Storyboard&quot;](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">Oder</span>
+
+   <span class="preview">Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png)und klicken Sie anschließend auf **Verwenden des veralteten agile** in der Pinnwandansicht.</span>
 
 1. (Bedingt) So passen Sie eine vorhandene Agile-Ansicht an:
 
@@ -239,7 +244,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
 
    * Name der Meldung mit einem Link direkt zur Aufgabe
    * Der Projektname mit einem Link direkt zum Projekt\
-      Dieser Link wird nur bei Verwendung der agilen Ansicht bei einer Iteration angezeigt. sie wird bei Verwendung einer Agile-Ansicht in einem Projekt nicht angezeigt.
+     Dieser Link wird nur bei Verwendung der agilen Ansicht bei einer Iteration angezeigt. sie wird bei Verwendung einer Agile-Ansicht in einem Projekt nicht angezeigt.
    * Aufgabenbeschreibung
    * Aktuelle Zusage
    * Anzeigen und Bearbeiten der prozentualen Vollständigkeit entweder durch Anpassung der prozentualen Vollständigkeit selbst oder durch Anpassung der Anzahl der vollständigen Punkte oder Stunden
