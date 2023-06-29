@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -993,6 +993,12 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
+   <td>Korrekturabzug-Genehmigung</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Reservierte Zeit* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1652,7 +1658,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzerdelegation</td> 
+   <td>Benutzerdelegierung</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -1722,3 +1728,4 @@ Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Häufig gestellte
 Weitere Informationen zu Webhooks finden Sie unter [Sofortige Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Weitere Informationen zu Filtern in Szenarien finden Sie unter [Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
