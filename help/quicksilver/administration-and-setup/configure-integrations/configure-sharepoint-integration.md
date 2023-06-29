@@ -8,7 +8,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -25,14 +25,13 @@ ht-degree: 0%
 >
 >Die neue [!DNL SharePoint] Die Integration wurde mit der Version 22.3 (Juli 2022) für die Produktion freigegeben. Auch wenn Ihre Benutzer weiterhin auf Dokumente zugreifen können, die über die veraltete [!DNL SharePoint] -Integration, müssen sie die neue [!DNL SharePoint] Integration, um Dokumente aus SharePoint zu verknüpfen.
 >
->* Die neue SharePoint-Integration erfordert keine Konfiguration durch einen Administrator und kann von einzelnen Benutzern eingerichtet werden. Um jedoch einen reibungslosen Übergang zur neuen SharePoint-Integration sicherzustellen, muss ein Workfront-Administrator einige kleine Änderungen an den Einstellungen im Workfront-Setup-Bereich vornehmen.
-   >
-   >    Informationen und Anweisungen finden Sie unter [Konfigurieren der alten SharePoint-Integration für den kontinuierlichen Zugriff auf Dokumente](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
+>* Die neue SharePoint-Integration muss nicht von einem Administrator konfiguriert werden und kann von einzelnen Benutzern eingerichtet werden. Um jedoch einen reibungslosen Übergang zur neuen SharePoint-Integration sicherzustellen, muss ein Workfront-Administrator einige kleine Änderungen an den Einstellungen im Workfront-Setup-Bereich vornehmen.
+>
+>    Informationen und Anweisungen finden Sie unter [Konfigurieren der alten SharePoint-Integration für den kontinuierlichen Zugriff auf Dokumente](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
 >    
 >* Es wird empfohlen, dass Benutzer Dokumente verknüpfen, die derzeit über die veraltete Version verknüpft sind [!DNL SharePoint] Integration durch die neue Integration.
-   >    
-   >    Anweisungen zum Verknüpfen von Dokumenten finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
-
+>    
+>    Anweisungen zum Verknüpfen von Dokumenten finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Sie können [!DNL Workfront] mit [!DNL SharePoint Online], sodass Benutzer zu navigieren, eine Verknüpfung erstellen und [!DNL SharePoint] Dokumente in Workfront. Die bereitgestellten Funktionen ähneln denen anderer [!DNL Workfront] Integrationen, z. B. [!DNL Google Drive], [!DNL Box]und [!DNL Dropbox].
 
@@ -82,7 +81,6 @@ Anweisungen zum Verknüpfen von Dokumenten über die neue [!DNL SharePoint] Inte
 >* A [!DNL SharePoint] Integration kann eine Verbindung zu einer [!DNL SharePoint] -Instanz. Daher kann ein Benutzer eine Integration für eine [!DNL SharePoint], kann jedoch keine Integration für eine Sekunde einrichten [!DNL SharePoint], auch wenn sie über Berechtigungen und Dokumente für die zweite verfügen [!DNL SharePoint].
 >
 >* Ein Benutzer hat Zugriff auf dieselben Sites, Sammlungen, Ordner, Unterordner und Dateien über die [!DNL Workfront] [!DNL SharePoint] -Integration, wie sie in ihren [!DNL SharePoint] -Konto.
-
 
 ## Sicherheits-, Zugriffs- und Autorisierungsinformationen für die [!DNL SharePoint] Integration
 
@@ -135,7 +133,6 @@ So stellen Sie sicher, dass Sie auf Dokumente zugreifen können, die über die v
 >
 > * Das Vermächtnis [!DNL SharePoint] Integration wird als[!DNL SharePoint].&quot;
 > * Die neue [!DNL SharePoint] Integration wird als[!UICONTROL [!DNL SharePoint] (Graph-API)].&quot;
-
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Einrichtung]** ![Einrichtung](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. Auswählen **[!UICONTROL Dokumente]** Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Cloud-Anbieter]**.
@@ -449,7 +446,7 @@ So zeigen Sie eine Site-Sammlung in [!DNL Workfront]müssen folgende Bedingungen
 
 * Der Benutzer muss Zugriff auf die Site-Sammlung in der [!DNL SharePoint].
 
-   So überprüfen Sie dies in [!DNL SharePoint], gehen Sie zu [!DNL SharePoint]und öffnen Sie die Site-Sammlung > [!UICONTROL Einstellungen] > [!UICONTROL Site-Berechtigungen].
+  So überprüfen Sie dies in [!DNL SharePoint], gehen Sie zu [!DNL SharePoint]und öffnen Sie die Site-Sammlung > [!UICONTROL Einstellungen] > [!UICONTROL Site-Berechtigungen].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:

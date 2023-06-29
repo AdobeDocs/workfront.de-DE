@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
+source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verf
 
 Möglicherweise stehen für Ihr Team oder Ihre Organisation andere vom Team erstellte Vorlagen zur Verfügung.
 
-Um die verfügbaren Vorlagen anzuzeigen, klicken Sie auf **Vorlagen** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü.
+Um die verfügbaren Vorlagen anzuzeigen, klicken Sie auf **Vorlagen** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü von Fusion.
 
 ## Workfront-Vorlagen
 
