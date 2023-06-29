@@ -6,16 +6,16 @@ description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen 
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # Gesendete Anforderungen suchen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Sie können die folgenden Arten von Anforderungen finden, die Sie oder eine andere Person gesendet haben, oder Anforderungen, die Sie gestartet haben, aber noch nie abgesendet haben. Sie können diese Anforderungen in den folgenden Bereichen von Adobe Workfront finden:
 
@@ -62,7 +62,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken **Gesendet** im linken Bereich, um alle gesendeten Anfragen anzuzeigen.
+1. Klicken **Gesendet** im linken Bereich, um alle gesendeten Anfragen anzuzeigen.
 
    Sie können bis zu 2000 Anfragen anzeigen, die möglicherweise auf mehreren Seiten angezeigt werden.
 
@@ -70,44 +70,43 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
    >
    >Die Spalten in der Liste &quot;Gesendete Anforderungen&quot;können nicht angepasst werden.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Die folgenden Spalten werden standardmäßig angezeigt:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>Der Name der Anforderung.</p> <p>Klicken Sie auf den Namen einer Anforderung, um sie zu öffnen. </p> <p><b>TIPP</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Name</td> 
+         <td> <p>Der Name der Anforderung.</p> <p>Klicken Sie auf den Namen einer Anforderung, um sie zu öffnen. </p> <p><b>TIPP</b>
 
    Wenn das Problem beim Konvertieren in eine Aufgabe oder ein Projekt nicht beibehalten wurde, ist der Name des Problems abgeblendet und kann nicht mehr angeklickt werden. Informationen zu Konvertierungsproblemen finden Sie unter <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Übersicht über Konvertierungsprobleme in Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Konvertiert in</td> 
-      <td> <p>Der Name des auflösenden Objekts, bei dem es sich um eine Aufgabe oder ein Projekt handeln kann, in die die Anforderung konvertiert wurde. </p> <p>Klicken Sie auf den Namen der Aufgabe oder des Projekts, um sie zu öffnen. </p> <p>Wenn die Anforderung nicht konvertiert wurde, ist dieses Feld leer. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Pfad</td> 
-      <td>Der Name der Anforderungswarteschlange, Themengruppen und Warteschlangenthemen, an die die Anfrage ursprünglich gesendet wurde. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Status</td> 
-      <td>Der aktuelle Status der Anforderung oder des auflösenden Objekts (Aufgabe oder Projekt)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Eingabedatum</td> 
-      <td>Das Datum, an dem die Anforderung gesendet wurde, oder das Datum, an dem das auflösende Objekt erstellt wurde, wenn die Anforderung beim Konvertieren gelöscht wurde. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Datum der letzten Aktualisierung</td> 
-      <td> <p>Das Datum, an dem die Anforderung zuletzt aktualisiert wurde.</p> <p>Die Liste Gesendete Anforderungen wird standardmäßig nach diesem Feld sortiert. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Konvertiert in</td> 
+         <td> <p>Der Name des auflösenden Objekts, bei dem es sich um eine Aufgabe oder ein Projekt handeln kann, in die die Anforderung konvertiert wurde. </p> <p>Klicken Sie auf den Namen der Aufgabe oder des Projekts, um sie zu öffnen. </p> <p>Wenn die Anforderung nicht konvertiert wurde, ist dieses Feld leer. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Pfad</td> 
+         <td>Der Name der Anforderungswarteschlange, Themengruppen und Warteschlangenthemen, an die die Anfrage ursprünglich gesendet wurde. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Status</td> 
+         <td>Der aktuelle Status der Anforderung oder des auflösenden Objekts (Aufgabe oder Projekt)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Eingabedatum</td> 
+         <td>Das Datum, an dem die Anforderung gesendet wurde, oder das Datum, an dem das auflösende Objekt erstellt wurde, wenn die Anforderung beim Konvertieren gelöscht wurde. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Datum der letzten Aktualisierung</td> 
+         <td> <p>Das Datum, an dem die Anforderung zuletzt aktualisiert wurde.</p> <p>Die Liste Gesendete Anforderungen wird standardmäßig nach diesem Feld sortiert. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Optional) Klicken Sie auf die Kopfzeile einer Spalte, um sie zu sortieren.
 

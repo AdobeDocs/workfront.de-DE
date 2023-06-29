@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
 
 # Anforderungen kopieren und senden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anforderung kopieren, minimale Änderungen daran vornehmen und sie als neue Anforderung erneut senden.
 
@@ -122,15 +122,13 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie sie aus und klicken Sie auf das **Kopieren und Senden als neu** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * Wählen Sie sie aus und klicken Sie auf <span class="preview"> **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
+   > <span class="preview">Wenn Sie zuvor keine Anforderung ausgewählt haben, ist das Symbol Kopieren abgeblendet.</span>
 
-   * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu**
 
      Oder
 
