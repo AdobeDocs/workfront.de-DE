@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wur
 
 Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorgesehene Version: 29. Juni 2023
+Geplante Vorschau-Version für Projekte, Aufgaben und Probleme: 5. Juli 2023
 
-Geplante Produktionsversion: mit Version 23.3
+Geplante Produktionsversion für Probleme: 6. Juli 2023
+
+Geplante Produktionsversion für Projekte und Aufgaben: mit Version 23.3
 
 #### Hinzufügen von Emojis zu einer Aktualisierung
 
@@ -188,7 +190,7 @@ Sie können die Zeit für Probleme, Aufgaben und Projekte im Bereich Updates pro
 
 Vorschau: 1. Juni 2023
 
-Produktion: Ankündigung
+Produktion: mit Version 23.3
 
 ### Woche vom 15. Mai 2023
 
