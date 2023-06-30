@@ -4,7 +4,7 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
@@ -29,10 +29,11 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
 > * Wenn Sie auf der **vierteljährlich** Release-Track, wird die Version nach 23.3 **23,10** im Oktober 2023.
 > 
 > Vierteljährliche Versionen enthalten Funktionen aus drei monatlichen Versionen. Die vierteljährliche Version 23.10 umfasst beispielsweise Funktionen, die in den monatlichen Versionen 23.8, 23.9 und 23.10 veröffentlicht wurden.
->|Monatsversion|Vierteljährliche Version|
->|—|—|
->|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 Uhr (Oktober 2023)</li></ul>| <ul><li>23.10 Uhr (Oktober 2023)</li></ul>|
->|<ul><li>23.11 (November 2023)</li><li>23.12 (Dezember 2023)</li><li>24.1 (Januar 2024)</li></ul>| <ul><li>24.1 (Januar 2024)</li></ul>|
+>
+>| Monatliche Version | Quartalsversion |
+>|----|----|
+>| <ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 Uhr (Oktober 2023)</li></ul> | <ul><li>23.10 Uhr (Oktober 2023)</li></ul> |
+>| <ul><li>23.11 (November 2023)</li><li>23.12 (Dezember 2023)</li><li>24.1 (Januar 2024)</li></ul> | <ul><li>24.1 (Januar 2024)</li></ul> |
 
 ## Adobe Workfront-Verbesserungen
 

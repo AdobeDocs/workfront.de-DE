@@ -6,7 +6,7 @@ description: Ein automatisierter Workflow erleichtert die Verwaltung des Überpr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -68,7 +68,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* Wenn eine Person in einer Vorlage für einen automatisierten Workflow zu einer Nutzung hinzugefügt, aber bereits als Validierer für den Testversand vorhanden ist, wird der Validierer durch Anwendung der Vorlage aus der Bühne entfernt. Wenn Sie keinen weiteren Validierer zur Bühne hinzufügen, werden Sie in einer Meldung aufgefordert, einen hinzuzufügen.
    >* Ihre Fähigkeit, eine Vorlage für einen automatisierten Workflow zu ändern, hängt von den vom Workfront-Administrator konfigurierten Vorlageneinstellungen ab, wie in beschrieben. Wenn die Möglichkeit zur Änderung der Vorlage deaktiviert ist, kann sie nur vom Inhaber der Vorlage geändert werden.
 
-
 1. Konfigurieren Sie den ersten Schritt des automatisierten Workflows:
 
    1. (Optional) Wenn Sie einen Namen für den ersten Schritt erstellen möchten, klicken Sie auf **Stufe 1**, und geben Sie den Namen ein.
@@ -77,15 +76,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       >[!NOTE]
       >
       >Beachten Sie beim Hinzufügen von Validierern zu einer Phase Folgendes:
-      >
+      >   
       >* Sie können externe Benutzer zu einer Bühne mit einer E-Mail-Adresse hinzufügen.
       >* Nachdem Sie einen Benutzer zu einer Bühne hinzugefügt haben, können Sie die Einstellungen für diesen Benutzer im Testversand konfigurieren.
       >* Sie können Benutzer direkt in eine andere Bühne ziehen oder Benutzer auf eine Bühne ziehen **Phasen** Diagramm. Um mehrere Benutzer auszuwählen, drücken Sie Umschalt+Strg (unter Windows) bzw. Umschalt+Befehl (unter Mac).
       >* Sie können einen Validierer nur einmal zu einem Testversand hinzufügen. Das bedeutet, dass Sie dieselbe Person nicht mehr als einer Testphase hinzufügen können.
       >* Prüfer, die nicht zu einer privaten Bühne hinzugefügt wurden, können diese Phase nicht auf dem Testversand oder den Kommentaren sehen, die in dieser Phase abgegeben wurden.
-      >* Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands.\
-      >   Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde.
-
+      >* Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands. Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde.
 
    1. Klicken **Staging-Einstellungen**.
    1. Klicken Sie auf **Phase aktivieren** -Option, um anzugeben, wie die Bühne aktiviert werden soll.
@@ -118,7 +115,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         </tr>
         <tr>
          <td role="rowheader">Nur eine Entscheidung für diese Phase anfordern</td>
-         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer in der <strong>Primärer Entscheidungsträger</strong>Dropdown-Menü.</p></td>
+         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer in der <strong>Primärer Entscheidungsträger</strong>Dropdown-Menü.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Machen Sie diese Phase privat</td>
@@ -211,11 +208,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td role="rowheader">Testversand über öffentliche URL oder Einbettungscode abonnieren</td> 
       <td>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:
        <ul>
-        <li><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren. </li>
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
+         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
         </ul><p><strong>Hinweis:</strong> Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 

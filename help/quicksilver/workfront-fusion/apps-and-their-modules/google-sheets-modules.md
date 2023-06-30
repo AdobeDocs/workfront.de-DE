@@ -9,9 +9,9 @@ description: Zur Verwendung [!DNL Google Sheets] mit [!DNL Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ Weitere Informationen finden Sie unter [developers.google.com/sheets/api/limits]
 ### Wie Sie leere Zellen von einem [!DNL Google Sheet]
 
 Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie diese Formel, um die leeren Spalten zu erhalten.
-<pre>* auswählen, wobei E null ​ ist;</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Mit [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage) können Sie eine erweiterte Abfrage erstellen.
+<pre>select * where E is null</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Sie können eine erweiterte Abfrage mit [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage) erstellen.
 
 ### Hinzufügen einer Schaltfläche in einem Arbeitsblatt, um ein Szenario auszuführen
 

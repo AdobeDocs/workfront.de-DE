@@ -6,7 +6,7 @@ description: PKCE-Fluss für OAuth 2-Anwendungen verwenden
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Ein PKCE-Fluss umfasst die folgenden Schritte. Die Schritte in diesem Abschnitt 
 
 Bevor Sie die Autorisierung implementieren können, müssen Sie Ihre App in OAuth2 registrieren, indem Sie eine App-Integration aus Workfront erstellen.
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Erstellen des Testschlüssels für den Code Exchange
@@ -83,14 +83,10 @@ Der PKCE Generator-Code erstellt eine Ausgabe ähnlich der folgenden:
 >
 >**Beispiel:**
 >
->
-```
+>```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -107,7 +103,6 @@ Wenn Sie den standardmäßigen benutzerdefinierten Autorisierungsserver verwende
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -115,7 +110,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 * `client_id` entspricht der Client-ID der OAuth2-Anwendung, die Sie beim Konfigurieren der Anwendung in der erstellt haben.
 
-   Anweisungen finden Sie unter Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE in OAuth2-Anwendungen für Workfront-Integrationen erstellen .
+  Anweisungen finden Sie unter Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE in OAuth2-Anwendungen für Workfront-Integrationen erstellen .
 
 * `response_type` is `code`, da die Anwendung den Grant-Typ Autorisierungscode verwendet.
 
@@ -136,13 +131,9 @@ Um den Autorisierungscode gegen ein Zugriffstoken auszutauschen, übergeben Sie 
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -171,13 +162,9 @@ Wenn der Code weiterhin gültig ist und die Codeüberprüfung übereinstimmt, er
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -193,7 +180,6 @@ Sie können Ihr Zugriffstoken mit einem API-Aufruf wie dem folgenden validieren:
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -207,12 +193,8 @@ Um ein Aktualisierungstoken anzufordern, können Sie einen POST-Aufruf an die -A
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

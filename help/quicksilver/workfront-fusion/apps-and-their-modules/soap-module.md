@@ -9,7 +9,7 @@ description: Sie kÃ¶nnen das SOAP-Modul verwenden, um eine Verbindung zu SOAP-AP
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -78,20 +78,12 @@ Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterstÃ
 >
 >```
 ><complexType name="ArrayOfFloat">
->
 >     <complexContent>
->
->       <restriction base="soapenc:Array">
->
->       <attribute ref="soapenc:arrayType"
->
->            wsdl:arrayType="xsd:integer[]"/>
->
->    </restriction>
->
-></complexContent>
->
->
+>           <restriction base="soapenc:Array">
+>                 <attribute ref="soapenc:arrayType"
+>                       wsdl:arrayType="xsd:integer[]"/>
+>           </restriction>
+>     </complexContent>
 ></complexType>
 >```
 
