@@ -3,9 +3,9 @@ title: 23.3 Administratorverbesserungen
 description: 23.3 Administratorverbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Damit Sie neue Workfront-Produktfunktionen und -Updates schneller erhalten könn
 
 Zuvor wurden Funktionen für alle Kunden in einem vierteljährlichen Zyklus veröffentlicht.
 
-Dokumentation mit weiteren Informationen wird in Version 23.3 verfügbar sein.
+Weitere Informationen finden Sie unter [Schnellveröffentlichungsprozess aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Steuerung auf Gruppenebene, verfügbar für Timesheet- und Stundenvoreinstellung &quot;Wo Benutzer Zeit protokollieren können&quot;
 
