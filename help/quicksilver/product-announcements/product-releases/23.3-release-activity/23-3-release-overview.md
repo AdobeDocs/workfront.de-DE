@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile Ansicht eines Projekts zeigt ein Kanban-Board an</a><span style="color: #ff0000;"> Bald!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile Ansicht eines Projekts zeigt ein Kanban-Board an</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
                         <p>Die Agile-Ansicht eines Projekts enthält jetzt zusätzliche Funktionen zum Filtern, Gruppieren und Sortieren von Arbeiten in einem Kanban-Board. Das neue, flexible Design der Ansicht beinhaltet eine robuste Suchfunktion und die Möglichkeit, dem Projekt direkt aus der Pinnwand neue Aufgaben hinzuzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -332,7 +332,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a><span style="color: #ff0000;"> Bald!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p>
                         <p>Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -342,7 +342,8 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                             </li>
                             <li>
                                 <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.4</p>
+                                <p>Produktionsversion für alle Kunden: Mit Version 23.4<br>
+                                <span style="color: #ff0000;"> Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.</span></p>
                             </li>
                         </ul>
                     </td>

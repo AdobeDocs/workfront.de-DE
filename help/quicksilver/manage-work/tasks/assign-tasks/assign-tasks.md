@@ -6,9 +6,9 @@ description: Sie können Benutzern, Rollen oder Teams Aufgaben zuweisen, um anzu
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Aufgaben zuweisen
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.
 
 Sie können Benutzern, Stellenrollen oder Teams Aufgaben zuweisen, um anzugeben, wer für die Erfüllung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
