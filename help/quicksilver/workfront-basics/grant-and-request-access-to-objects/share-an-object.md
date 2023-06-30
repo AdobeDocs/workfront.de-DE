@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf di
 author: Alina
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Informationen zum Freigeben von Berechtigungen für Objekte finden Sie unter [Ü
 >
 >Ein Workfront-Administrator kann allen Elementen im System Berechtigungen hinzufügen oder entfernen, ohne Eigentümer dieser Elemente zu sein.
 
-In diesem Artikel wird beschrieben, wie Sie die folgenden Objekte freigeben, für die die Freigabe identisch ist: 
+In diesem Artikel wird beschrieben, wie Sie die folgenden Objekte freigeben: 
 
 * Projekte, Aufgaben, Probleme
 * Portfolios, Programme
@@ -43,13 +43,13 @@ Weitere Informationen zum Freigeben aller anderen Objekte in Workfront finden Si
    * [Dashboard freigeben](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Kalenderberichte freigeben](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-   Weitere Informationen finden Sie unter [Berichte, Dashboards und Kalender freigeben](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) allgemeine Informationen zur Freigabe von Berichten, Dashboards und Kalendern. 
+  Weitere Informationen finden Sie unter [Berichte, Dashboards und Kalender freigeben](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) allgemeine Informationen zur Freigabe von Berichten, Dashboards und Kalendern. 
 
 * Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Informationen zu Dokumentordnern finden Sie unter [Dokumentordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Pläne finden Sie unter [Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md).
 
-   Dies erfordert eine zusätzliche Lizenz.
+  Dies erfordert eine zusätzliche Lizenz.
 
 * Ziele finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Dies erfordert eine zusätzliche Lizenz.
 
@@ -120,7 +120,17 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Wechseln Sie zu dem Objekt, das Sie freigeben möchten.
 
    Informationen darüber, welche Objekte freigegeben werden können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Klicken Sie auf **Mehr** icon ![](assets/more-icon.png)neben dem Objektnamen klicken Sie dann auf **Freigabe** oder **Freigeben.**
+1. Für Projekte, Aufgaben und Probleme:
+
+   Klicken Sie auf **Freigeben** neben dem Objektnamen.
+
+   ![](assets/new-share-button.png)
+
+   ODER
+
+   Für Dokumente, Portfolios und Programme:
+
+   Klicken Sie auf **Mehr** icon ![](assets/more-icon.png)neben dem Objektnamen klicken Sie dann auf **Freigabe** oder **Freigeben.**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -140,6 +150,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >
    >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
+   >
 
 1. (Optional) Wiederholen Sie Schritt 3 für jeden Benutzer, jedes Team, jede Rolle oder jede Gruppe, dem/der Sie Zugriff auf das Objekt gewähren möchten.
 
@@ -156,22 +167,27 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * **Ansicht:** Benutzer können das Element überprüfen und freigeben. 
    * **Beitragen****:** Benutzer können Aktualisierungen vornehmen, Protokollinformationen protokollieren, kleinere Änderungen vornehmen und alle Anzeigeberechtigungen freigeben.
 
-      >[!TIP]
-      >
-      >Sie können Beitragsberechtigungen nur für die folgenden Objekte gewähren: 
-      * Projekte
-      * Aufgaben
-      * Probleme
-
+     >[!TIP]
+     >
+     >Sie können Beitragsberechtigungen nur für die folgenden Objekte gewähren: 
+     >
+     >   
+     >   
+     * Projekte
+     * Aufgaben
+     * Probleme
+     >   
+     >
 
    * **Verwalten:**Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte, die auf der Zugriffsebene gewährt werden, sowie über alle Berechtigungen für Ansicht und Beitrag .
 
-      >[!NOTE]
-       Der Workfront-Administrator oder der Ersteller von Objekten kann Berechtigungen aus diesen Entitäten entfernen.
+     >[!NOTE]
+     >
+      Der Workfront-Administrator oder der Ersteller von Objekten kann Berechtigungen aus diesen Entitäten entfernen.
 
-       
+      
 
-      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
 1. (Optional) Klicken Sie auf **Erweiterte Optionen** um bestimmte Berechtigungen für das Objekt zu konfigurieren.
 
@@ -188,20 +204,23 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Nachdem Sie Berechtigungen für ein Projekt definiert haben, werden dieselben Berechtigungen automatisch angewendet, wenn Sie ein Projekt das nächste Mal von Grund auf neu erstellen.
 
    >[!NOTE]
+   >
    Die Projektzugriffsvorlage setzt die Standardeinstellungen für die Freigabe außer Kraft, die Ihnen der Workfront-Administrator in Ihrer Zugriffsebene erteilt hat.\
    Weitere Informationen zum Angeben von Standardwerten für die Freigabe von Projekten auf der Zugriffsebene finden Sie unter [Projektzugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) . >
+   >
    <!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >(NOTE: (this note also appears in Understanding Project Permissions.))   >
    ></MadCap:conditionalText>   >
    >-->   >
-
+   >
 
    Sie können Berechtigungen für die Projekte festlegen, die aus einer Vorlage erstellt werden, wenn Sie die Vorlage freigeben. Weitere Informationen finden Sie unter [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 1. (Optional) Um das Objekt öffentlich zu machen, klicken Sie auf **Veröffentlichen Sie dies für externe Benutzer**.
 
    >[!TIP]
+   >
    Diese Option ist nicht für alle Objekte verfügbar.
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
@@ -210,6 +229,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Alle Benutzer mit dem Link können das Objekt anzeigen.
 
    >[!CAUTION]
+   >
    Es wird empfohlen, bei der Freigabe eines Objekts mit vertraulichen Informationen für externe Benutzer Vorsicht walten zu lassen. Dadurch können sie Informationen anzeigen, ohne Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
 
 1. Klicken Sie auf **Speichern**.
@@ -219,6 +239,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Über eine Objektliste können Sie mehrere Objekte gleichzeitig für andere Benutzer, Teams, Gruppen, Auftrags- oder Unternehmen freigeben.
 
 >[!IMPORTANT]
+>
 Wenn Sie Objekte stapelweise freigeben, werden die Namen der Entitäten, die über Berechtigungen für die einzelnen Objekte verfügen, nicht angezeigt. Bei der Freigabe von Objekten in großen Mengen werden die Entitäten, die Sie der Freigabeliste hinzufügen, den ausgewählten Objekten hinzugefügt. Sie überschreiben nicht die mit den einzelnen Objekten verknüpften Entitäten. 
 
 So geben Sie Objekte stapelweise frei:
@@ -229,6 +250,7 @@ So geben Sie Objekte stapelweise frei:
    Benutzer, die bereits Zugriff auf das Objekt haben, werden bei der Massenweitergabe nicht als verfügbar aufgelistet.
 
    >[!NOTE]
+   >
    Wenn Sie nicht berechtigt sind, ein von Ihnen ausgewähltes Objekt freizugeben, wird die **Freigeben** -Schaltfläche nicht angezeigt.
 
 1. Im **Bearbeiten `<Object Name>` Zugriff auf** eingeben, beginnen Sie mit der Eingabe des Namens eines Benutzers, Teams, einer Gruppe, einer Rolle oder eines Unternehmens, dem Sie Berechtigungen erteilen möchten.

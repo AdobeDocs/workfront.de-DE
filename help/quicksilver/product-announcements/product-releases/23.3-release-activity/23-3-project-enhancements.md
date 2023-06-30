@@ -3,9 +3,9 @@ title: 23.3 Projektverbesserungen
 description: 23.3 Projektverbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ In dieser ersten Version wurde der Genehmigungsprozess optimiert, um neben neuen
 * Direktes Treffen von Genehmigungsentscheidungen über Meine Updates und Startseite
 * Erstellen von Genehmigungen für bestimmte Dokumentversionen
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Dokumentüberprüfungen und -genehmigungen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über die neuen Dokumentgenehmigungen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## Schaltfläche &quot;Neue Freigabe&quot;
+
+Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme abgerufen, um die Freigabe intuitiver zu gestalten. Die neue Schaltfläche Freigeben wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
+
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Objekt freigeben](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
