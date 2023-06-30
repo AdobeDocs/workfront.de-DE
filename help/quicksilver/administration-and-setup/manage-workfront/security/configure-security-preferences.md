@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '781'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 5%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -67,6 +69,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p><span class="preview">Schnellüberprüfungsprozess aktivieren</span></p> </td> 
+      <td><span class="preview">Ermöglicht die Aktivierung der monatlichen Workfront-Versionen für Ihr Unternehmen anstelle der vierteljährlichen Versionen.</p><p>Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren</a>.</span></p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>Einbetten von <strong>Workfront</strong> in einem iFrame</p> </td> 
       <td>Ermöglicht die Einbettung von Workfront in einen iFrame.<p>Diese Option ist standardmäßig deaktiviert.</p><p><b>WICHTIG</b>: Durch die Anzeige einer webbasierten Anwendung in einem iframe ist die Anwendung anfällig für eine Clickjacking-Sicherheitslücke.</p></td> 
