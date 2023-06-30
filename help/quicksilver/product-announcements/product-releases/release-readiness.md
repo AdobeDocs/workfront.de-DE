@@ -1,26 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Vorbereiten auf eine [!DNL Adobe Workfront] vierteljährliche Veröffentlichung
+title: Vorbereiten auf eine [!DNL Adobe Workfront] Version
 description: Befolgen Sie diese Tipps, um Ihre Organisation für jede neue Workfront-Version reibungslos zu aktualisieren.
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
 
-# Vorbereiten auf eine [!DNL Adobe Workfront] vierteljährliche Veröffentlichung
+# Vorbereiten auf eine [!DNL Adobe Workfront] Geplante Veröffentlichung
 
-[!DNL Adobe Workfront] veröffentlicht vierteljährlich wichtige Aktualisierungen der Produktionsumgebung. Als [!DNL Workfront] Administrator haben Sie die Möglichkeit sicherzustellen, dass Ihr Unternehmen einen reibungslosen Übergang zu jeder neuen Version der [!DNL Workfront] Produkt.
+[!DNL Adobe Workfront] veröffentlicht regelmäßig wichtige Aktualisierungen der Produktionsumgebung. Als [!DNL Workfront] Administrator haben Sie die Möglichkeit sicherzustellen, dass Ihr Unternehmen einen reibungslosen Übergang zu jeder neuen Version der [!DNL Workfront] Produkt.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Sehen Sie sich das folgende Video an, um mehr darüber zu erfahren, wie Sie sich auf eine [!DNL Adobe Workfront] vierteljährlich veröffentlicht.
+Sehen Sie sich das folgende Video an, um mehr darüber zu erfahren, wie Sie sich auf eine [!DNL Adobe Workfront] verfügbar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -28,11 +29,11 @@ Sehen Sie sich das folgende Video an, um mehr darüber zu erfahren, wie Sie sich
 
 Eine ausführliche Beschreibung der [!DNL Workfront] Freigabeprozess, siehe [[!DNL Adobe Workfront] Veröffentlichungszeitplan und -prozess](workfront-release-schedule.md).
 
-## Vorbereiten auf eine [!DNL Workfront] vierteljährliche Veröffentlichung
+## Vorbereiten auf eine [!DNL Workfront] Version
 
 >[!TIP]
 >
->Sie können eine Projektvorlage erstellen, um die mit [!DNL Workfront] vierteljährlich veröffentlicht.
+>Sie können eine Projektvorlage erstellen, um terminierte Arbeiten zu verfolgen [!DNL Workfront] veröffentlicht.
 >
 >Weitere Informationen finden Sie unter [Verwenden Sie eine [!DNL Workfront] Projekt zur Nachverfolgung der Release-Arbeit](#use-a-workfront-project-to-track-release-work) in diesem Artikel.
 
@@ -49,11 +50,11 @@ Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen
 
 Versionshinweise für eine bestimmte Funktion werden veröffentlicht, wenn die Funktion zu Ihrer [!UICONTROL Vorschau-Sandbox] Umgebung. Auf diese Weise können Sie die Funktion kennen und untersuchen, bevor sie Teil Ihrer Produktionsumgebung ist.
 
-Jede vierteljährliche Version verfügt über eine Übersichtsseite der Version mit kurzen Beschreibungen der einzelnen Funktionen und Links zu ausführlicheren Notizen, die zusätzliche Informationen sowie Demovideos enthalten. Diese ausführlichen Hinweise werden wöchentlich organisiert, wenn die Versionen zur Vorschau angezeigt werden, und dann nach Bereichen umstrukturiert, die näher am tatsächlichen Produktionsveröffentlichungsdatum liegen.
+Jede Version verfügt über eine Übersichtsseite zu Versionen mit kurzen Beschreibungen der einzelnen Funktionen und Links zu ausführlicheren Notizen, die zusätzliche Informationen sowie Demovideos enthalten. Diese ausführlichen Hinweise werden wöchentlich organisiert, wenn die Versionen zur Vorschau angezeigt werden, und dann nach Bereichen umstrukturiert, die näher am tatsächlichen Produktionsveröffentlichungsdatum liegen.
 
 Wir empfehlen dringend, sich die Demovideos anzusehen, die in den Versionshinweisen verfügbar sind. Diese können besonders nützlich sein, um die Funktion in Aktion zu sehen oder um einen kurzen Blick in den Kontext der Funktion zu werfen, wenn Sie nicht ganz auf der richtigen Zeit sind.
 
-Links zu den vierteljährlichen Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
+Links zu den Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
 
 ### Beobachten Sie die [!DNL Workfront] Ankündigungszentrum
 
@@ -64,8 +65,8 @@ Links zu den vierteljährlichen Versionsübersichten finden Sie unter [Produktve
 Als [!DNL Workfront] Administrator, erhalten Sie die Nachricht &quot;Ankündigungs-Center&quot;von [!DNL Workfront] über verschiedene Aspekte der Version. Sie erhalten eine Mitteilung über das Ankündigungs-Center, wenn eine der folgenden Aktionen eintritt:
 
 * In der Produktionsumgebung sind neue Funktionen verfügbar
-* In der Vorschau veröffentlichte Funktionen werden vor der geplanten vierteljährlichen Veröffentlichung für die Produktion freigegeben.
-* Alle neuen Funktionen sind in der Vorschau-Umgebung vor der geplanten vierteljährlichen Veröffentlichung verfügbar.
+* In der Vorschau veröffentlichte Funktionen werden vor der geplanten Veröffentlichung für die Produktion freigegeben.
+* Alle neuen Funktionen sind in der Vorschau-Umgebung vor der geplanten Veröffentlichung verfügbar.
 * Das Release-Webinar steht zur Registrierung zur Verfügung
 
 >[!TIP]
@@ -89,11 +90,11 @@ Weitere Informationen über [!UICONTROL Vorschau-Sandbox] Umgebung, siehe [Die [
 
 ### Webinar zur Veröffentlichung besuchen
 
-[!DNL Workfront] veranstaltet kurz vor jeder vierteljährlichen Version ein Release-Webinar. Hier wird die [!DNL Workfront] Das Produktteam erklärt und demonstriert neue Funktionen und kann Fragen von Teilnehmern beantworten.
+[!DNL Workfront] hostet ein Release-Webinar kurz vor einigen Versionen. Hier wird die [!DNL Workfront] Das Produktteam erklärt und demonstriert neue Funktionen und kann Fragen von Teilnehmern beantworten.
 
 Veröffentlichungs-Webinare werden über die [!DNL Workfront] Ankündigungszentrum. Registrierungslinks finden Sie auf der Seite Versionsübersicht .
 
-Links zu den vierteljährlichen Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
+Links zu den Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
 
 ### Feedback zu Workfront
 
