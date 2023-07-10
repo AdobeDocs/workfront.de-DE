@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Diese Vorlagen rufen Informationen von einem Webdienst ab und bringen diese Info
 ### APILayer > Workfront - Tägliche Aktualisierung des Wechselkurses (EUR)
 
 Diese Vorlage erstellt ein Szenario, das die Aktualisierung eines Wechselkurses zu einem bestimmten Zeitpunkt automatisiert. Bei diesem Szenario wird der Kurs von Euro (EUR) auf US-Dollar (USD) von einer APIlayers.com-API abgerufen und der Kurs in Workfront aktualisiert.
+
+## Workfront-Marketo-Vorlagen
+
+Diese Vorlagen unterstützen die Integration von Workfront mit Marketo.
+
+>[!NOTE]
+>
+> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+
+### Genehmigen Sie Ihren Marketo Engage-E-Mail-Entwurf mit Workfront-Genehmigungs-Workflows.
+
+Dies ist Teil der Integration von Workfront und Marketo Engage &quot;Überprüfen und genehmigen&quot;. Diese Vorlage erkennt, ob ein E-Mail-Testversand in Workfront genehmigt wurde, und aktualisiert dann die entsprechende E-Mail in Marketo Engage wie genehmigt.
+
+### Erfassen von Marketing-Kampagnenanforderungen in Workfront und Automatisieren der Erstellung von Kampagnen in Marketo Engage
+
+Dieses Szenario bietet eine programmatische Möglichkeit, E-Mail- und Webinar-Kampagnen in Marketo Engage aus einer in Workfront erstellten Anforderung zu erstellen. Durch die Verwendung von Automatisierung zur Erstellung, Organisation und Konfiguration von Kampagnen können Teams die Effizienz steigern.
+
+### Prüfen eines E-Mail-Testversands Ihres Marketo Engage-E-Mail-Entwurfs in Workfront
+
+Diese Vorlage erkennt, ob eine Workfront-Aufgabe auf einen Überprüfungsstatus gesetzt wurde, und exportiert dann den E-Mail-Entwurf aus Marketo Engage, um ihn als Testversand in Workfront zu speichern.
 
 ## Workfront-Anaplan-Vorlagen
 
