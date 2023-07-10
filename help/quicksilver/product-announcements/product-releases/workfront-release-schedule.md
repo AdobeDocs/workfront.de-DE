@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisier
 
 
 Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält.
+
+Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein.
 
 In der Regel werden Funktionen in der Vorschau in Ihrer Produktionsumgebung mit der nächsten Version verfügbar gemacht. In einigen Fällen werden Funktionen jedoch außerhalb einer geplanten Version in der Produktionsumgebung bereitgestellt. Diese Änderungen bleiben mindestens 2 Wochen in der Vorschau, um Ihnen ausreichend Zeit zu geben, die Änderungen kennenzulernen. Diese Änderungen werden auch über das Ankündigungszentrum mitgeteilt, sobald sie der Vorschau hinzugefügt werden.
 
