@@ -8,15 +8,17 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Anmelden als anderer Benutzer
 
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur für alle Benutzer in der Vorschauumgebung verfügbar.</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -87,7 +89,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >   
    >* Sie können das Kennwort eines Workfront-Administrators nicht zurücksetzen.
 
-
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie im linken Bereich auf **Anmelden als**.
@@ -145,6 +146,13 @@ Wenn Sie sich als ein anderer Benutzer anmelden, wird das letzte Anmeldedatum f�
 Wenn Sie sich bei Workfront als ein anderer Benutzer anmelden und eine Aktion ausführen, zeigt Workfront eindeutig an, dass jede Aktion, die Sie ausführen, von Ihnen im Namen des Benutzers ausgeführt wird, als der Sie angemeldet sind.
 
 Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie als ein anderer Benutzer angemeldet sind, zeigt eine Anweisung an, dass der Kommentar von Ihnen im Namen des Benutzers abgegeben wurde.
+
+>[!NOTE]
+>
+><span class="preview">Bei Verwendung des neuen Kommentar-Erlebnisses wird der Kommentar als Benutzer hinzugefügt, der sich als ein anderer Benutzer angemeldet hat. Es gibt keinen Hinweis darauf, dass er einen Kommentar für den Namen einer anderen Person hinzufügt.
+>
+>Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### Prüfungsinformationen anzeigen {#view-audit-information}
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,9 @@ Allgemeine Informationen zu den neuen Kommentierungserlebnissen, einschließlich
 
 Wir planen, die neue Kommentarerfahrung iterativ zu veröffentlichen. Dies wirkt sich auf ausgewählte Objekte mit jeder Version aus. Einige wenige Funktionen werden möglicherweise am Anfang veröffentlicht und den übrigen Objekten werden im Laufe der Zeit weitere Funktionen hinzugefügt.
 
-Informationen darüber, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter   [Übersicht über den Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Informationen darüber, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter   [Übersicht über den Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung:
+Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern. Weitere Informationen zu allen veröffentlichten Funktionen finden Sie unter [Veröffentlichte Funktionen](#released-features) in diesem Artikel.
 
 * Mit der Version 23.2 (6. April 2023):
    * Kommentieren von Erlebnis-Beta für Probleme
@@ -51,24 +51,41 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
 * Ende 2023:
    * Das veraltete Kommentierungserlebnis bleibt als Option für die folgenden Objekte erhalten: Projekte, Aufgaben, Probleme und Dokumente.
 
-     Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets, Ziele, Karten haben das neue Kommentierungserlebnis als einzige Option.
-
   >[!NOTE]
   >
   >    Iterationen verfügen weiterhin über das alte Kommentierungserlebnis.
 
-Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprünglichen Version hinzugefügt wurden, beginnend mit den zuletzt veröffentlichten Funktionen.
-
 ## Veröffentlichte Funktionen
 
-Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. Auf der Seite werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentierungserlebnis behoben wurden.
+Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprünglichen Version hinzugefügt wurden, beginnend mit den zuletzt veröffentlichten Funktionen.
 
+Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. In diesem Artikel werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentarerlebnis behoben wurden.
 
 ### Nach dem 19. Juni 2023 veröffentlichte Funktionen
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 Die in diesem Abschnitt aufgelisteten Funktionen sollen kurz nach der Woche vom 19. Juni 2023 veröffentlicht werden.
+
+#### Automatisch alle Thread-Teilnehmer taggen
+
+Ein Kommentar-Eigentümer wird jetzt automatisch in einem Thread getaggt. Vor dieser Aktualisierung wurden nur die Benutzer mit Tags versehen, die entweder mit &quot;@name&quot;-Tags versehen wurden oder sie zum Abschnitt &quot;Personen oder Teams taggen&quot;hinzugefügt wurden, der in der Liste der getaggten Benutzer angezeigt wurde. Damit können Sie jetzt bei Bedarf den Eigentümer eines Kommentars aus dem Thread entfernen, selbst wenn diese zuvor nicht manuell getaggt wurden.
+
+Vorgesehene Version: 12. Juli 2023
+
+Geplante Produktionsversion: 13. Juli 2023
+
+#### Neue Benutzeroberfläche für die Protokollierungszeit
+
+Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wurde im neuen Kommentar-Erlebnis neu gestaltet.
+
+Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
+
+Vorschau der Version für Projekte, Aufgaben und Probleme: 5. Juli 2023
+
+Produktionsversion für Probleme: 6. Juli 2023
+
+Geplante Produktionsversion für Projekte und Aufgaben: mit Version 23.3
 
 #### Angeben von Kommentar-Inhalt in einer neuen Antwort
 
@@ -80,27 +97,13 @@ Vorschau: 28. Juni 2023
 
 Produktionsversion: 29. Juni 2023
 
-#### Neue Benutzeroberfläche für die Protokollierungszeit
-
-Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wurde im neuen Kommentar-Erlebnis neu gestaltet.
-
-Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
-
-Geplante Vorschau-Version für Projekte, Aufgaben und Probleme: 5. Juli 2023
-
-Geplante Produktionsversion für Probleme: 6. Juli 2023
-
-Geplante Produktionsversion für Projekte und Aufgaben: mit Version 23.3
-
 #### Hinzufügen von Emojis zu einer Aktualisierung
 
 Sie können jetzt einem Kommentar Emojis hinzufügen, indem Sie eine Symbolleistenoption &quot;Rich-Text&quot;im neuen Kommentarerlebnis verwenden.
 
 Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorschau: Ankündigung (während der Version 23.3)
-
-Produktion: Ankündigung. Vor der Version 23.3.
+Vorschau und Produktion: Ankündigung (während oder kurz nach der Version 23.3)
 
 #### Neues Kommentierungserlebnis für zusätzliche Objekte
 

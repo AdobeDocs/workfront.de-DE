@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 * Kommentar zu einer Systemaktualisierung
 * Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
 * Benutzerdefiniertes Formular bearbeiten
+* Die &quot;im Namen von &lt; Benutzername >&quot;-Informationen, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>Rich-Text (Emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>Rich-Text (Blockzitate)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
   </tr>
   <tr>
-   <td>Entfernen von Personen aus dem Thread 
+   <td>Automatisch alle Thread-Teilnehmer taggen
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Benutzerdefiniertes Formular bearbeiten 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Thread-Link kopieren 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2. Quartal 2023 
    </td>
@@ -411,9 +399,50 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Benutzerdefiniertes Formular bearbeiten 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Antworten auf Systemaktualisierungen 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Anzeigen von "im Namen von", wenn Kommentare hinzugefügt werden, die als ein anderer Benutzer angemeldet sind
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
 
 ## Veröffentlichungs-Timeline
 
-Informationen zu den kürzlich für das neue Kommentierungserlebnis veröffentlichten Funktionen sowie eine Veröffentlichungszeitleiste finden Sie unter [Neue Kommentar-Beta-Erlebnisveröffentlichungsaktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Informationen zu den kürzlich für das neue Kommentierungserlebnis veröffentlichten Funktionen sowie eine Veröffentlichungszeitleiste finden Sie unter [Neue Kommentar-Erlebnis-Release-Aktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Neues Kommentierungserlebnis suchen
 

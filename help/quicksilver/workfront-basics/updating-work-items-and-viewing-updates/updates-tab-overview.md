@@ -7,10 +7,10 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränku
 
 ### Einschränkungen bei der Eingabe von Kommentaren im Namen eines anderen Benutzers
 
-Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und Aktionen in Workfront ausführen, z. B. Kommentare eingeben. (Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
+Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und Aktionen in Workfront ausführen, z. B. Kommentare eingeben.
+
+Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
+
+>[!NOTE]
+>
+><span class="preview">Bei Verwendung des neuen Kommentar-Erlebnisses wird der Kommentar als Benutzer hinzugefügt, der sich als ein anderer Benutzer angemeldet hat. Es gibt keinen Hinweis darauf, dass er einen Kommentar für den Namen einer anderen Person hinzufügt.
+>
+>Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 Ein Gruppenadministrator kann im Namen einer anderen Person Kommentare abgeben, diesen Kommentar jedoch nicht löschen. Nur ein Adobe Workfront-Administrator kann einen Kommentar löschen, den er für einen anderen Benutzer abgegeben hat.
 

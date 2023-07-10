@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](/help
 
 >[!NOTE]
 >
->Vorgesehene Version: 6. Juli 2023; Geplante Produktionsversion: mit Version 23.3
+>Vorgesehene Version: Ankündigung; Geplante Produktionsversion: ankündigen.
+>
+>Diese Funktion sollte ursprünglich mit Version 23.3 veröffentlicht werden und wurde später verschoben.
 
 Wir haben das Feld Neues Problem aktualisiert, das beim Senden eines neuen Problems an ein Projekt angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neue Anforderung überein, das beim Senden einer neuen Anforderung an eine Anforderungswarteschlange angezeigt wird.
 
