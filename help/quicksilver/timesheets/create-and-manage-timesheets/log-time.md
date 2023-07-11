@@ -6,7 +6,7 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Pr
 1. Wählen Sie im linken Bereich die Option **Updates**.
 1. Klicken **Protokollzeit**.
 
-   Das Dialogfeld Stunden eingeben wird angezeigt.
+   <span class="preview">Das Dialogfeld Protokollzeit wird angezeigt. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Pr
    >   
    >   Oben rechts im Feld Tage eingeben gibt es einen Hinweis darauf, wie viele Stunden ein Tag beinhaltet.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Geben Sie die folgenden Informationen an:
 

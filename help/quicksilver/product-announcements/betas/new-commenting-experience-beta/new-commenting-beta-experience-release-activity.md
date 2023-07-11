@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1591'
 ht-degree: 3%
 
 ---
@@ -81,11 +81,9 @@ Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wur
 
 Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorschau der Version für Projekte, Aufgaben und Probleme: 5. Juli 2023
+Vorschau-Version: 5. Juli 2023
 
-Produktionsversion für Probleme: 6. Juli 2023
-
-Geplante Produktionsversion für Projekte und Aufgaben: mit Version 23.3
+Produktionsversion: mit Version 23.3
 
 #### Angeben von Kommentar-Inhalt in einer neuen Antwort
 
