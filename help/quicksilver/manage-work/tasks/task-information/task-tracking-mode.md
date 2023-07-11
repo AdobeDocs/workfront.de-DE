@@ -7,9 +7,9 @@ description: Sie können die Einstellung des Tracking-Modus einer Aufgabe beim E
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Workfront geht davon aus, dass Aufgaben plangemäß abgeschlossen werden und ken
 
 Es gibt die folgenden Ausnahmen:
 
-* Wenn die Aufgabe unvollständige Vorgänger aufweist, wird sie erst automatisch abgeschlossen, wenn alle Vorgänger abgeschlossen sind.
+* Wenn die Aufgabe unvollständige Vorgänger aufweist, wird sie erst automatisch abgeschlossen, wenn alle Vorgänger abgeschlossen sind. Vorfahren müssen durchgesetzt werden.
 * Wenn die Aufgabe die Beschränkung &quot;Festes Datum&quot;hat, wird die Aufgabe immer am geplanten Abschlussdatum abgeschlossen, unabhängig davon, ob ihre Vorgänger abgeschlossen sind.
 
 >[!IMPORTANT]
