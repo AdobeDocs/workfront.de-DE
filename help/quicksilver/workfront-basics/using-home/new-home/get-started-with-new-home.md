@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widg
     Zeigt Probleme an, die Ihnen in einer Tabelle mit anpassbaren Filtern, Ansichten und Gruppierungen zugewiesen sind, sowie eine Schaltfläche zum direkten Erstellen eines neuen Problems.
 
 * **Meine Anforderungen**\
-    Zeigt alle Ihnen zugewiesenen Anforderungen an, einen Filter, mit dem Sie nur offene Anforderungen anzeigen können, und eine Schaltfläche, mit der der Übersichtsbereich für eine Anforderung geöffnet wird.
+    Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, die den Zusammenfassungsbereich für eine Anforderung öffnet.
 
 * **Team-Anforderungen**\
     Zeigt alle ausstehenden Anforderungen für Teams an, die Sie nach Team sortiert haben, sowie Schaltflächen zum direkten Zuweisen einer Anforderung an einen Benutzer oder zum Arbeiten daran.
