@@ -6,7 +6,7 @@ description: API-Versionierung und Support-Zeitplan
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 11%
@@ -33,7 +33,7 @@ Die folgende Tabelle zeigt die Veröffentlichung und den Support-Zeitplan für d
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
+   <td>16</td> 
    <td> <p>April 2023</p> <p>(mit Version 23.2)</p> </td> 
    <td> <p>**im Jahr 2026</p> <p>(mit Version 26.2)</p> </td> 
   </tr> 
