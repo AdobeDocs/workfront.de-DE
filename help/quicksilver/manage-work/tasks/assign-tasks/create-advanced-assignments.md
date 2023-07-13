@@ -6,9 +6,9 @@ description: Sie können Aufgaben- oder Problemzuweisungen mit erweiterten Zuwei
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Erweiterte Zuweisungen erstellen
 
 {{highlighted-preview}}
-
->[!IMPORTANT]
->
->Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.
 
 Sie können Aufgaben- oder Problemzuweisungen mit erweiterten Zuweisungen verwalten.
 

@@ -3,24 +3,20 @@ title: 23.3 Verbesserungen beim Finanzmanagement
 description: 23.3 Verbesserungen beim Finanzmanagement
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbesserungen beim Finanzmanagement
 
-Auf dieser Seite werden alle Finanzverbesserungen beschrieben, die mit Version 23.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit Version 23.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Datum der tatsächlichen Kosten- und Abrechnungskurse
-
->[!IMPORTANT]
->
->Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.
 
 Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.
 

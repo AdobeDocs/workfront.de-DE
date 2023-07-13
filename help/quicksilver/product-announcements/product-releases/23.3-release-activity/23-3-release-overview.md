@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                             <li>
                                 <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.4<br>
-                                <span style="color: #ff0000;"> Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.</span></p>
+                                <span style="color: #ff0000;"> Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.</span></p>
                             </li>
                         </ul>
                     </td>
