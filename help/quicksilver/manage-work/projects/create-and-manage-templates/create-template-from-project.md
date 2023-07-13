@@ -2,14 +2,15 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Vorlage aus Projekt erstellen
-description: Vorlage aus Projekt erstellen
+description: Sie können Vorlagen erstellen, wenn Sie ein vorhandenes Projekt als Vorlage speichern.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +23,12 @@ ht-degree: 2%
 Sie können Vorlagen erstellen, wenn Sie ein vorhandenes Projekt als Vorlage speichern.
 
 Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie die neue Vorlage verwenden, um neue Projekte zu erstellen. Dies vereinfacht und beschleunigt die Projekterstellung.
+
+>[!NOTE]
+>
+>Beim Speichern eines Projekts als Vorlage werden die tatsächlichen Daten der Aufgaben und des Projekts nicht für die Vorlage gespeichert.
+>
+>Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem Zeitpunkt, zu dem das zukünftige Projekt beginnen kann) eine Aufgabe beginnen kann und an welchem Tag die Aufgabe möglicherweise abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte die tatsächlichen Daten. Weitere Informationen finden Sie unter [Projekt erstellen](../create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 

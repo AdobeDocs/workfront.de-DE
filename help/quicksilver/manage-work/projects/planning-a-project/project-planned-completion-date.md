@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Festlegen des geplanten Abschlussdatums des Projekts
 description: Das geplante Abschlussdatum eines Projekts ist das Datum, bis zu dem das Projekt abgeschlossen sein soll.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -86,13 +87,18 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Manuelles Festlegen des geplanten Abschlussdatums eines Projekts
 
-Sie müssen das geplante Abschlussdatum eines Projekts manuell festlegen, wenn Sie das Projekt ab dem Abschlussdatum planen. 
+Sie müssen das geplante Abschlussdatum eines Projekts manuell festlegen, wenn Sie das Projekt ab dem Abschlussdatum planen.
+
+>[!NOTE]
+>
+>Wenn Sie das geplante Abschlussdatum eines Projekts manuell festlegen, berechnet Workfront automatisch das geplante Startdatum des Projekts basierend auf der Dauer aller Aufgaben.
+
 
 So planen Sie ein Projekt ab dem Abschlussdatum:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Projekte**.
 
-1. Klicken **Neues Projekt** then **Neues Projekt**.
+1. Klicken **Neues Projekt** then **Neues Projekt**.
 
    Weitere Informationen zum Erstellen von Projekten finden Sie im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -107,7 +113,7 @@ So planen Sie ein Projekt ab dem Abschlussdatum:
 
 ## Automatisches Festlegen des geplanten Abschlussdatums eines Projekts
 
-Das geplante Abschlussdatum eines Projekts wird von Adobe Workfront automatisch berechnet, wenn Sie das Projekt vom Startdatum an planen. 
+Das geplante Abschlussdatum eines Projekts wird von Workfront automatisch berechnet, wenn Sie das Projekt vom Startdatum an planen. 
 
 So planen Sie ein Projekt vom Startdatum aus:
 

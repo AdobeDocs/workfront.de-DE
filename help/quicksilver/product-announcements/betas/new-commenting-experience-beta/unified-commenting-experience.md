@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 >* <span class="preview">Aufgaben</span>
 >* <span class="preview">Dokumente</span>
 
-
-
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
 
 <table>
@@ -79,7 +77,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td><strong>Existiert in alten Kommentierungserlebnissen </strong>
    </td>
-   <td><strong>Existiert in der Beta-Version des neuen Kommentar-Erlebnisses </strong>
+   <td><strong>Existiert im neuen Kommentierungserlebnis </strong>
    </td>
    <td><strong>Wird in das neue Kommentierungserlebnis eingeführt </strong>
    </td>
@@ -224,9 +222,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

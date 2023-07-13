@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3497'
 ht-degree: 1%
 
 ---
@@ -42,21 +42,34 @@ ht-degree: 1%
 >
 >     Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
-Sie können den meisten Objekten in Adobe Workfront im Abschnitt Updates Kommentare hinzufügen. Weitere Informationen dazu, welche Objekte den Abschnitt Aktualisierungen anzeigen, finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Sie können ein Workfront-Objekt (Projekt, Aufgabe oder Problem) aktualisieren, um über den Fortschritt des Objekts zu kommunizieren, während Sie Kommentare zum Objekt abgeben. Benutzer, die dem Objekt zugewiesen sind oder es abonniert haben, können Ihre Aktualisierung anzeigen. Sie können Benutzer auch mit Tags versehen, um sie auf die Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten eine In-App-Benachrichtigung und eine E-Mail über Ihre Aktualisierung. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+## Überlegungen zum Aktualisieren der Arbeit
 
-Sie können einem Objekt einen Kommentar hinzufügen, den Sie anzeigen können, oder Sie können sich als Workfront- oder Gruppenadministrator anmelden und einen Kommentar für einen anderen Benutzer hinzufügen. Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Sie können den meisten Objekten in Adobe Workfront im Abschnitt Updates Kommentare hinzufügen. Weitere Informationen dazu, welche Objekte den Abschnitt Aktualisierungen anzeigen, finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Die Informationen auf dieser Seite beschreiben, wie Sie Kommentare zu Workfront-Objekten erstellen können und wie Sie Projekte, Aufgaben und Probleme aktualisieren. Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md). Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals.
+* Sie können ein Workfront-Objekt (Projekt, Aufgabe oder Problem) aktualisieren, um über den Fortschritt des Objekts zu kommunizieren, während Sie Kommentare zum Objekt abgeben. Benutzer, die dem Objekt zugewiesen sind oder es abonniert haben, können Ihre Aktualisierung anzeigen.
 
+* Sie können Benutzer taggen, um sie auf die Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten eine In-App-Benachrichtigung und eine E-Mail über Ihre Aktualisierung.
 
-Sie können Projekte, Aufgaben und Probleme in den folgenden Bereichen von Workfront aktualisieren:
+  >[!TIP]
+  >
+  >   <span class="preview">In der neuen Kommentarerfahrung werden Kommentar-Inhaber automatisch mit Tags versehen. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* Von einem Workfront-Objekt im Abschnitt Updates
-* Im Startbereich (für Aufgaben und Probleme)
-* Im Bereich &quot;Zusammenfassung&quot;in einer Liste von Objekten (für Aufgaben und Probleme)
-* Aus dem Timesheet (für Aufgaben und Probleme)
+* Sie können einem Objekt einen Kommentar hinzufügen, den Sie anzeigen können, oder Sie können sich als Workfront- oder Gruppenadministrator anmelden und einen Kommentar für einen anderen Benutzer hinzufügen. Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* Sie können Projekte, Aufgaben und Probleme in den folgenden Bereichen von Workfront aktualisieren:
+
+   * Von einem Workfront-Objekt im Abschnitt Updates
+   * Im Startbereich (für Aufgaben und Probleme)
+   * Im Bereich &quot;Zusammenfassung&quot;in einer Liste von Objekten (für Aufgaben und Probleme)
+   * Aus dem Timesheet (für Aufgaben und Probleme)
+
+Die Informationen auf dieser Seite beschreiben, wie Sie Kommentare zu Workfront-Objekten erstellen können und wie Sie Projekte, Aufgaben und Probleme aktualisieren.
+
+Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md). Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals.
+
+Weitere Informationen über das Komma auf Karten im Bereich &quot;Foren&quot;finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Zugriffsanforderungen
 
@@ -395,7 +408,7 @@ Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage 
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
 
 * [Link kopieren](#copy-link)
 * [Fließtext kopieren](#copy-body-text)

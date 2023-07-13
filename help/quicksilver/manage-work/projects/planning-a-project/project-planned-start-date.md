@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Übersicht über das geplante Projektstartdatum
 description: Übersicht über das geplante Projektstartdatum
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ Das geplante Startdatum eines Projekts kann manuell oder automatisch festgelegt 
 ## Manuelles Festlegen des geplanten Startdatums eines Projekts
 
 Sie müssen das geplante Startdatum eines Projekts manuell festlegen, wenn Sie das Projekt vom Startdatum an planen.
+
+>[!NOTE]
+>
+>Wenn Sie das geplante Projektstartdatum manuell festlegen, berechnet Workfront automatisch das geplante Abschlussdatum des Projekts basierend auf der Dauer aller Aufgaben.
 
 Informationen zum Festlegen des geplanten Startdatums für das Projekt finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -55,23 +60,23 @@ Das geplante Startdatum eines Projekts wird automatisch festgelegt, wenn Sie das
 
 * von Grund auf neu und wenn Sie das Projekt vom Abschlussdatum planen.
 
-   Das geplante Startdatum wird von Adobe Workfront automatisch basierend auf dem Datum, das Sie für das Abschlussdatum auswählen, und der Dauer aller Projektaufgaben berechnet.
+  Das geplante Startdatum wird von Adobe Workfront automatisch basierend auf dem Datum, das Sie für das Abschlussdatum auswählen, und der Dauer aller Projektaufgaben berechnet.
 
-   Informationen zum Erstellen eines neuen Projekts finden Sie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+  Informationen zum Erstellen eines neuen Projekts finden Sie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 * importieren Sie es aus Microsoft Project.
 
-   Das geplante Startdatum ist das Startdatum des Projekts im Microsoft-Projekt.
+  Das geplante Startdatum ist das Startdatum des Projekts im Microsoft-Projekt.
 
-   Informationen zum Importieren eines Projekts aus Microsoft Project finden Sie unter [Importieren eines Projekts aus einem Microsoft-Projekt](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Informationen zum Importieren eines Projekts aus Microsoft Project finden Sie unter [Importieren eines Projekts aus einem Microsoft-Projekt](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importieren Sie es mit Workfront Kick-Starts, wenn Sie Workfront-Administrator sind.
 
-   Das geplante Startdatum stimmt immer mit der Uhrzeit und dem Datum des Computers überein, es sei denn, Sie geben im Feld setPlannedStartDate im Projektblatt der Kick-Start-Datei etwas Anderes an.
+  Das geplante Startdatum stimmt immer mit der Uhrzeit und dem Datum des Computers überein, es sei denn, Sie geben im Feld setPlannedStartDate im Projektblatt der Kick-Start-Datei etwas Anderes an.
 
-   Informationen zum Importieren von Daten mithilfe von Kick-Start finden Sie unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Informationen zum Importieren von Daten mithilfe von Kick-Start finden Sie unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Informationen zum Importieren von Projekten mit Kick-Start finden Sie unter [Kick-Starts-Szenario: einfache Vorbereitung des Projekt- und Aufgabenimports](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Informationen zum Importieren von Projekten mit Kick-Start finden Sie unter [Kick-Starts-Szenario: einfache Vorbereitung des Projekt- und Aufgabenimports](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

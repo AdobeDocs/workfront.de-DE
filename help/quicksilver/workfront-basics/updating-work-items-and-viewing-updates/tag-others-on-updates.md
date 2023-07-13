@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
+> * Probleme, <span class="preview" style="display-inline">Projekte, Aufgaben und Dokumente</span>.
 >
 >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
 >
@@ -136,19 +136,19 @@ Sie können Benutzer im Abschnitt &quot;Aktuelle Updates&quot;manuell taggen.
 
 ### Tagging anderer Benutzer über Aktualisierungen im Beta-Kommentarerlebnis
 
-<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
+Sie können anderen auf folgende Weise Tags für Aktualisierungen im neuen Kommentierungserlebnis zuweisen:
 
-You can tag others on updates in the new commenting experience in the following ways:
+* <span class="preview"> **Automatisch**: Wenn ein Benutzer einen Kommentar oder eine Antwort hinzufügt, wird er automatisch mit Tags versehen und dem Bereich Personen oder Teams des Kommentarfelds hinzugefügt. </span>
+* **Manuell**: Wenn Sie einen Benutzer manuell zum Bereich Personen taggen des Kommentarfelds hinzufügen.
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
-* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten oder darauf antworten.
 
-You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+1. Aktualisieren Sie ein Arbeitselement, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">Als Eigentümer des Kommentars werden Sie automatisch mit Tags versehen und dem Bereich Personen oder Teams des Kommentarfelds hinzugefügt. </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Der Eigentümer des Kommentars kann seinen eigenen Namen nicht im Bereich &quot;Personen taggen&quot;oder &quot;Teams&quot;des Kommentarfelds sehen.</span>
 
-Sie können anderen manuell Tags für Aktualisierungen im Beta-Kommentar-Erlebnis zuweisen. Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten oder darauf antworten.
-
-1. Aktualisieren Sie ein Arbeitselement, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. Im **Personen oder Teams taggen** eingeben, den Namen des Benutzers oder Teams eingeben, den Sie einbeziehen möchten, und auf den Namen klicken, wenn er in der Dropdown-Liste angezeigt wird.
 
    Oder

@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Gesendete Anforderungen suchen
 description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie Anforderungen finden können, die Sie oder eine andere Person gesendet haben oder die Sie nie gesendet und als Entwürfe gespeichert haben.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Gesendete Anforderungen suchen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Sie können die folgenden Arten von Anforderungen finden, die Sie oder eine andere Person gesendet haben, oder Anforderungen, die Sie gestartet haben, aber noch nie abgesendet haben. Sie können diese Anforderungen in den folgenden Bereichen von Adobe Workfront finden:
 
@@ -70,7 +72,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
    >
    >Die Spalten in der Liste &quot;Gesendete Anforderungen&quot;können nicht angepasst werden.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Die folgenden Spalten werden standardmäßig angezeigt:

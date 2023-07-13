@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Projekt kopieren
 description: Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie können jeweils nur ein Projekt kopieren. Sie können keine Projekte in großen Mengen kopieren.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '764'
 ht-degree: 5%
 
 ---
@@ -43,7 +44,7 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
 >* Scorecard
 >* Standardinformationen für Aufgaben (Prozess für die Standardgenehmigung für Aufgaben, benutzerdefinierte Forms für Aufgaben)
 >
-
+> Die Daten der ursprünglichen Aufgaben auf den Projekten werden in das neue Projekt kopiert. Sie müssen das Start- oder Abschlussdatum des Projekts ändern (je nach Zeitplan-Modus), um die Daten für die Aufgaben zu aktualisieren. Aufgabeneinschränkungen verhindern möglicherweise, dass Sie die Daten des Projekts ändern.
 
 ## Zugriffsanforderungen
 

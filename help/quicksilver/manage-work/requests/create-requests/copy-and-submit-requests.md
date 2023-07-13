@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # Anforderungen kopieren und senden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anforderung kopieren, minimale Änderungen daran vornehmen und sie als neue Anforderung erneut senden.
 
@@ -122,11 +122,11 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie sie aus und klicken Sie auf <span class="preview"> **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
+   * Wählen Sie sie aus und klicken Sie auf **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
 
    >[!TIP]
    >
-   > <span class="preview">Wenn Sie zuvor keine Anforderung ausgewählt haben, ist das Symbol Kopieren abgeblendet.</span>
+   > Wenn Sie zuvor keine Anforderung ausgewählt haben, ist das Symbol Kopieren abgeblendet.
 
    * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu**
 

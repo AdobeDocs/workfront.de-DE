@@ -6,9 +6,9 @@ description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Be
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und alle Informationen für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann an das Projekt übertragen, wenn Sie sie aus der Vorlage erstellen.
 
+>[!NOTE]
+>
+>Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem Zeitpunkt, zu dem das zukünftige Projekt beginnen kann) eine Aufgabe beginnen kann und an welchem Tag die Aufgabe möglicherweise abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte die tatsächlichen Daten. Weitere Informationen finden Sie unter [Projekt erstellen](../create-projects/create-project.md).
+
+
 Sie können eine neue Vorlage wie folgt erstellen:
 
 * Von Grund auf, wie in diesem Artikel beschrieben.
 * Aus vorhandenen Projekten durch Speichern eines Projekts als Vorlage.
 
-   Weitere Informationen zum Erstellen von Vorlagen aus vorhandenen Projekten finden Sie unter [Projekt als Vorlage speichern](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Weitere Informationen zum Erstellen von Vorlagen aus vorhandenen Projekten finden Sie unter [Projekt als Vorlage speichern](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * durch Kopieren aus einer anderen Vorlage.
 
-   Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Wenn Sie Workfront-Administrator sind, können Sie Vorlagen durch Importieren von Blueprints erstellen. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
