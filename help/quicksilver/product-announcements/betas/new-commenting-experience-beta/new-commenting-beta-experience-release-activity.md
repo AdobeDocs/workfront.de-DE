@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Geplante Produktionsversion: 13. Juli 2023
 
 Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wurde im neuen Kommentar-Erlebnis neu gestaltet.
 
-Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
+Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Vorschau-Version: 5. Juli 2023
 
@@ -89,7 +89,7 @@ Produktionsversion: mit Version 23.3
 
 Jetzt können Sie den Inhalt eines Kommentars kopieren und ihn als neues Anführungszeichen zu einer Antwort im selben Thread hinzufügen, wenn Sie das neue Kommentarerlebnis verwenden.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
+Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 28. Juni 2023
 
