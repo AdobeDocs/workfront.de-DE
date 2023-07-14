@@ -5,7 +5,7 @@ title: Adobe Experience Manager Assets-Integrationen
 description: Sie können Ihre Arbeit mit den folgenden Adobe Experience Manager Assets-Integrationen verbinden.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets]&#
 * Tracking von Metadaten für Assets und Ordner
 * Synchronisieren von Projektmetadaten zwischen [!DNL Workfront] und [!DNL Experience Manager Assets]
 
-Sie können auch mehrere Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehrere Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg verbinden. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.
+>[!NOTE]
+>
+>Sie können auch mehrere Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehrere Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg verbinden. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.
 
 ## Zugriffsanforderungen
 
@@ -165,7 +167,6 @@ Sie können sowohl integrierte als auch benutzerdefinierte Workfront-Felder Expe
 > * Einrichtung > Benutzerdefinierter Forms in Workfront oder das -Feld im -Objekt
 > * Assets > Metadatenschemata in Experience Manager Assets
 
-
 +++
 
 ### Zuordnen von Metadaten für Assets
@@ -181,7 +182,6 @@ Zuordnen von Metadaten für Assets:
    >
    >Sie können eine [!DNL Workfront] Feld zu mehreren [!UICONTROL Experience Manager Assets] -Felder. Sie können nicht mehrere [!DNL Workfront] Felder zu einem einzelnen [!DNL Experience Manager Assets] -Feld.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. Im [!DNL Experience Manager Assets] , durchsuchen Sie die vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf weitere Kategorien zuzugreifen.
 1. Wiederholen Sie die Schritte 2 und 3 nach Bedarf.
