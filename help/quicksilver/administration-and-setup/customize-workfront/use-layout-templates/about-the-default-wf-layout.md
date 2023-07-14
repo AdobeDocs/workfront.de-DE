@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Das Standardlayout ist die Anordnung des Hauptmenüs , des linken Bereichs sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layoutvorlage vornimmt.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -49,7 +49,7 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
    <th>Prüfer</th> 
-   <th>Antragsteller</th> 
+   <th>Anfragende Person</th> 
    <th>Externer Benutzer</th> 
   </tr> 
  </thead> 
@@ -149,7 +149,7 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Anforde- rungen</strong> </td> 
+   <td rowspan="3"><strong>Anfragen</strong> </td> 
    <td><strong>Neue Anforderung</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 

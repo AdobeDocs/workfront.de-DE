@@ -6,10 +6,10 @@ description: Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Au
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 3%
+source-wordcount: '341'
+ht-degree: 2%
 
 ---
 
@@ -48,14 +48,14 @@ Sie müssen über Folgendes verfügen, um die Dauer einer Aufgabe zu ändern:
 
 ## Aktualisierung des Zeitdauer-Typs einer Aufgabe
 
-Neben der Aktualisierung des Aufgabentyps (wie in diesem Artikel beschrieben) können Sie auch den Dauer-Typ aktualisieren, wenn Sie eine Aufgabe bearbeiten oder erweiterte Aufgaben zuweisen. Weitere Informationen finden Sie unter:
+Neben der Aktualisierung des Aufgabentyps (wie in diesem Artikel beschrieben) können Sie auch den Dauer-Typ aktualisieren, wenn Sie eine Aufgabe bearbeiten oder erweiterte Aufgaben zuweisen. Weitere Informationen finden Sie unter:
 
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 So aktualisieren Sie die Dauer einer Aufgabe:
 
-1. Klicken **Hauptmenü** > **Projekte** und klicken Sie auf ein Projekt, um darauf zuzugreifen.
+1. Klicken **Hauptmenü** > **Projekte** und klicken Sie auf ein Projekt, um darauf zuzugreifen.
 1. Klicken Sie auf **Aufgaben** im linken Bereich .
 1. Klicken **Aufgabendetails** Klicken Sie im linken Bereich und dann im Bereich &quot;Übersicht&quot;auf **Dauer Typ**.
 
@@ -63,14 +63,11 @@ So aktualisieren Sie die Dauer einer Aufgabe:
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   | Berechnete Arbeit | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Berechnete Arbeit](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Dauertyp | Weitere Informationen |
    |---|---|
+   | Berechnete Arbeit | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Berechnete Arbeit](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
    | Leistungsgesteuert | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Aufwandsorientiert](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
    | Berechnete Zuweisung | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Berechnete Zuweisung](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Einfach | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
-
-1. Klicken **Speichern** **Änderungen**.
-
- 
+1. Klicken **Änderungen speichern**.

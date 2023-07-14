@@ -7,9 +7,9 @@ description: Sie können die Breite von Spalten vorübergehend ändern, indem Si
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 >[!IMPORTANT]
 >
 >Wenn Sie die Breite einer Spalte manuell ändern, wie im Abschnitt &quot;Breite und Reihenfolge der Spalten vorübergehend ändern&quot;im Artikel beschrieben [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) Wenn Sie die Breite der Spalte dauerhaft geändert haben, wird die Breite der Spalte entsprechend Ihrer manuellen Größenanpassung beibehalten und die Breite der Spalte, die gemäß den folgenden Schritten aktualisiert wird, wird überschrieben. Sie können die Spalte entsprechend der in den folgenden Schritten definierten Breite anzeigen, nachdem Sie Ihren Cache gelöscht oder sich über einen anderen Browser angemeldet haben.
+>
+>Weitere Informationen zum Anpassen der Spaltenbreite bei Verwendung der Benutzeroberfläche für den Textmodus finden Sie in den Definitionen &quot;Breite&quot;und &quot;Stretch&quot;im [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
@@ -79,3 +81,5 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Für **width** eine beliebige Zahl (in Pixel) angeben, die angibt, wie breit die Spalte in der Ansicht angezeigt werden soll.
 
 1. Klicken **Speichern**, dann **Ansicht speichern**.
+
+

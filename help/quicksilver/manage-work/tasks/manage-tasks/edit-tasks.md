@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Aufgaben bearbeiten
-description: Aufgaben bearbeiten
+description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie Beitragsberechtigungen oder Verwaltungsberechtigungen besitzen.
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 9c7af82b02649f33728d05126587fb5035e9e110
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3663'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
 * Aktualisieren von Benachrichtigungen für Trigger zu Aufgaben, die einen aktuellen Status aufweisen. Um Verwirrung bei Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, begrenzen Sie Bearbeitungsaufgaben so weit wie möglich, wenn das Projekt den Status Aktuell aufweist.
 * Sie können keine Aufgaben bearbeiten, die sich in einem Genehmigungsprozess befinden. Sie können die Zeit nur protokollieren oder den Status einer Aufgabe in einem Genehmigungsprozess aktualisieren.
 
-   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Sie können Dokumente nur dann bearbeiten und Aufgaben in einem Projekt hinzufügen, für das der Status &quot;Abgeschlossen&quot;, &quot;Dead&quot;oder &quot;Ausstehende Genehmigung&quot;lautet, wenn der Workfront-Administrator oder ein Gruppenadministrator diese Funktion im Bereich &quot;Projekteinstellungen&quot;aktiviert hat. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -102,7 +102,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 1. Klicken **Projekte** und klicken Sie auf den Namen eines Projekts, um es zu öffnen.
 1. Klicken **Aufgaben** im linken Bereich.
 1. Klicken Sie auf die Aufgabe, die Sie bearbeiten möchten.
-1. (Optional) Um beschränkte Informationen zu einer Aufgabe zu bearbeiten, klicken Sie auf **Aufgabendetails** im linken Bereich.
+1. (Bedingt) Um beschränkte Informationen über eine Aufgabe zu bearbeiten, klicken Sie als Benutzer mit Beitragsberechtigungen für die Aufgabe auf **Aufgabendetails** im linken Bereich.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -110,20 +110,19 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
    * **Übersicht**
 
-      Dieser Bereich wird standardmäßig erweitert.
+     Dieser Bereich wird standardmäßig erweitert.
 
    * **Benutzerdefinierte Formulare**
 
-      Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
+     Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
 
    * **Finanzielle Details**
+
    >[!NOTE]
    >
    >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Felder im Bereich &quot;Aufgabendetails&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Informationen zu den Feldern, die im Abschnitt Aufgabendetails angezeigt werden, finden Sie unter
-
-   Fahren Sie mit der Bearbeitung der Aufgabe im Feld Aufgabe bearbeiten wie unten beschrieben fort.
+   Informationen zu den Feldern, die im Abschnitt &quot;Aufgabendetails&quot;angezeigt werden, erhalten Sie, wenn Sie die Aufgabe im Feld &quot;Aufgabe bearbeiten&quot;bearbeiten möchten, wie unten beschrieben.
 
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
@@ -133,6 +132,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
       * [Verwalten von Aufgabeninformationen im Bereich &quot;Aufgabendetails - Übersicht&quot;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Verwalten von Aufgabenfinanzen im Abschnitt &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
    1. (Optional) Wenn keine benutzerdefinierten Formulare an die Aufgabe angehängt sind, beginnen Sie mit der Eingabe des Namens eines Formulars im **Benutzerdefiniertes Formular hinzufügen** und wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
    1. (Optional) Klicken Sie auf die **Export** icon ![](assets/export.png) , um die Übersicht und die benutzerdefinierten Formulardaten in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Export**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -146,10 +146,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-
-
-
-1. Um alle Informationen über die Aufgabe zu bearbeiten, klicken Sie auf das **Mehr** Menü ![](assets/more-icon.png) neben dem Namen der Aufgabe klicken Sie auf **Bearbeiten**.
+1. (Bedingt) Um alle Informationen über die Aufgabe zu bearbeiten, klicken Sie als Benutzer mit Verwaltungsberechtigungen für die Aufgabe auf die **Mehr** Menü ![](assets/more-icon.png) neben dem Namen der Aufgabe klicken Sie auf **Bearbeiten**.
 
    Oder
 
@@ -335,7 +332,6 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
    >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
 
-
 1. (Optional) Geben Sie durch Auswahl der **Inhaber** neben ihrem Namen. Ein Team kann nicht der Hauptverantwortliche einer Aufgabe sein.
 1. (Bedingt und optional) Aktualisieren Sie die folgenden Felder:
 
@@ -402,7 +398,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       </tr> 
       <tr> 
       <td>Wochen</td> 
-      <td>M</td> 
+      <td>W </td> 
       </tr> 
       <tr> 
       <td>Monate</td> 
@@ -609,9 +605,9 @@ Die folgenden Felder sind standardmäßig in der Projektheader enthalten:
 * Arbeitsaufträge
 * Geplantes Abschlussdatum und -zeit
 
-   >[!CAUTION]
-   >
-   >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können die Bearbeitung dieses Felds verhindern. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >[!CAUTION]
+  >
+  >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können die Bearbeitung dieses Felds verhindern. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Entscheidungsfindung bei Genehmigungseinstellungen, wenn Sie in einem aktuellen Genehmigungsprozess als Genehmiger festgelegt sind

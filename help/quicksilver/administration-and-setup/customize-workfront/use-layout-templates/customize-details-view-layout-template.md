@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Workfront-Administrator können Sie mit einer Layoutvorlage festlegen, welche Informationen angezeigt werden, wenn ein Benutzer beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder Portfolios den Bereich Details im linken Bereich auswählt.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,39 @@ or billing record
 
 Sie können auch die Reihenfolge der Informationen ändern, in der diese Informationen angezeigt werden. Beispielsweise können Sie für alle Aufgaben, die Ihren Benutzern angezeigt werden, benutzerdefinierte Forms-Informationen für alle Aufgaben, die Ihren Benutzern angezeigt werden, an den Anfang der Detailansicht verschieben.
 
+Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
+
 Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimmen auch die Verfügbarkeit und Reihenfolge der Felder, die Benutzer in den folgenden Bereichen sehen:
 
 * &quot;Neues Objekt&quot;-Felder, z. B. &quot;Neue Aufgabe&quot;und &quot;Neues Problem&quot;
 
-   ![](assets/new-task-dialog.png)
+  ![](assets/new-task-dialog.png)
 
 * Bildschirme vom Typ &quot;Objekt bearbeiten&quot;, z. B. &quot;Aufgabe bearbeiten&quot;, &quot;Problem bearbeiten&quot;und &quot;Projekt bearbeiten&quot;
 
-   ![](assets/edit-task-screen.png)
+  ![](assets/edit-task-screen.png)
 
 
 * Bildschirme vom Typ &quot;Objekte bearbeiten&quot;bei der Massenbearbeitung von Objekten Derzeit wird dies für die Bearbeitung von Projekten in großen Mengen unterstützt.
 
-   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Zusammenfassung ![](assets/summary-panel-icon.png) Bedienfeld für Listen von Aufgaben und Problemen
 
-   ![](assets/summary-area.png)
+  ![](assets/summary-area.png)
 
-   >[!NOTE]
-   >
-   >Änderungen an den Layoutvorlagen wirken sich nur für die Aufgaben und Probleme aus, die dem angemeldeten Benutzer zugewiesen sind, und betreffen die Reihenfolge und Verfügbarkeit der Felder im Bereich &quot;Zusammenfassung&quot;.
+  >[!NOTE]
+  >
+  >Änderungen an den Layoutvorlagen wirken sich nur für die Aufgaben und Probleme aus, die dem angemeldeten Benutzer zugewiesen sind, und betreffen die Reihenfolge und Verfügbarkeit der Felder im Bereich &quot;Zusammenfassung&quot;.
 
 * Konversionsfelder, z. B. &quot;Problem in Aufgabe konvertieren&quot;oder &quot;Problem in Projekt konvertieren&quot;.
 
-   ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
+  ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
 
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -94,9 +100,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie Manager dieser Gruppe sein</
    * Ziehen von Bereichs-Kopfzeilen ![](assets/move-icon---dots.png) um ihre Reihenfolge zu ändern.
    * Aktivieren oder Deaktivieren von Optionen unter **Übersicht** und **Benutzerdefinierte Forms** um sie ein- oder auszublenden.
 
-      Wenn Sie alle Felder in einem dieser Abschnitte ausblenden, wird der gesamte Abschnitt ausgeblendet.
+     Wenn Sie alle Felder in einem dieser Abschnitte ausblenden, wird der gesamte Abschnitt ausgeblendet.
 
-      Alle Felder sind standardmäßig aktiviert.
+     Alle Felder sind standardmäßig aktiviert.
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 

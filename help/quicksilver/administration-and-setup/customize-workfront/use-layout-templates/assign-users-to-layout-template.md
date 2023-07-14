@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator können Sie einer beliebigen Benutzer, Rolle, Gruppe oder Gruppe, die diese Vorlage verwenden möchten, eine von Ihnen erstellte Layoutvorlage zuweisen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -90,15 +90,15 @@ Es ist jedoch immer nur eine Layout-Vorlage für den Benutzer sichtbar. Die ange
 * **Individueller Benutzer**: Die Layout-Vorlage, die der Person als einzelner Benutzer zugewiesen wurde, setzt alle anderen außer Kraft. Sie können eine vorherige Zuweisung, die für einen einzelnen Benutzer vorgenommen wurde, überschreiben, indem Sie eine neue Zuweisung vornehmen. die neueste hat Vorrang.
 * **Primäre Rolle**: Wenn der Person keine Layoutvorlage als einzelner Benutzer zugewiesen wurde, wird ihnen die Vorlage angezeigt, die für ihre primäre Aufgabenrolle zugewiesen ist.
 
-   Nur die Layout-Vorlage, die der Rolle &quot;Hauptauftrag&quot;eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die sekundären, vom Benutzer gespeicherten Auftragsrollen zugewiesen wurden, sind nicht sichtbar.
+  Nur die Layout-Vorlage, die der Rolle &quot;Hauptauftrag&quot;eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die sekundären, vom Benutzer gespeicherten Auftragsrollen zugewiesen wurden, sind nicht sichtbar.
 
 * **Heimteam**: Wenn der Person weder eine Layoutvorlage als einzelner Benutzer noch als Benutzer mit der Rolle &quot;primärer Job&quot;zugewiesen wurde, wird ihnen die ihrem Home-Team zugewiesene Vorlage angezeigt.
 
-   Nur die Vorlage, die dem Home-Team eines Benutzers zugewiesen wurde, ist für den Benutzer sichtbar. Für andere Teams zugewiesene Vorlagen, denen ein Benutzer angehört, sind nicht sichtbar.
+  Nur die Vorlage, die dem Home-Team eines Benutzers zugewiesen wurde, ist für den Benutzer sichtbar. Für andere Teams zugewiesene Vorlagen, denen ein Benutzer angehört, sind nicht sichtbar.
 
 * **Startseite**: Wenn der Person weder eine Layoutvorlage als einzelner Benutzer, noch als Benutzer mit der Rolle &quot;primärer Job&quot;oder als Mitglied eines Home-Teams zugewiesen wird, wird ihnen die Vorlage angezeigt, die ihrer Home-Gruppe zugewiesen ist.
 
-   Nur die Vorlage, die der Gruppe Startseite eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die einer ihrer anderen Gruppen zugewiesen sind, sind nicht sichtbar.
+  Nur die Vorlage, die der Gruppe Startseite eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die einer ihrer anderen Gruppen zugewiesen sind, sind nicht sichtbar.
 
 ## Große Anzahl von Benutzern, die einer Layoutvorlage zugewiesen sind
 

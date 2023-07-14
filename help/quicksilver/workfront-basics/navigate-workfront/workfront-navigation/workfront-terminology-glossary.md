@@ -5,9 +5,9 @@ title: Glossar [!DNL Adobe Workfront] Terminologie
 description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begriffe in Adobe Workfront auf.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
        </tr> 
       </tbody> 
      </table> 
-    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Dies sind schreibgeschützte Felder und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools zur Ressourcenbudgetierung verwenden. </p>
+    <p>Jede weitere Erwähnung von [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] bezieht sich auf Stunden, die mit veralteten Funktionen, die aus Workfront entfernt wurden, budgetiert wurden. Diese Felder sind schreibgeschützt und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools für die Ressourcenbudgetierung verwenden. </p>
     <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
      <ul> 
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>
@@ -2103,8 +2103,17 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Strategische Ausrichtung]</td> 
    <td>Messen und Ausrichten von Unternehmenszielen über Portfolios und Programme hinweg.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Dies wird in Berichtsspalten bei der Verwendung der Textmodus -Benutzeroberfläche verwendet. </p>
+   <p>Die <code>[!UICONTROL stretch]</code> wird verwendet, um zu ermitteln, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs für einen typischen Benutzer beträgt etwa 850 Pixel. Das bedeutet, dass Ihre Ansicht bei einer Ansicht mit vier Spalten (jeweils 150 Pixel) 600 von 850 Pixel umfasst. Die Benutzeroberfläche enthält 250 zusätzliche Pixel, die zu den Spalten hinzugefügt werden, für die ein gestreckter Prozentsatz bereitgestellt wird. </p>
+   <p>Der Abschnitt einer Spalte wird erzwungen, wenn Sie die zusätzliche Codezeile verwenden: <code>[!UICONTROL usewidths=true]</code> für mindestens eine der Spalten in der Ansicht. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Abonnenten]</td> 
    <td> <p>Benutzer, die Projekte, Aufgaben oder Probleme abonnieren.</p> <p>Wenn Sie dieses Feld in einem Bericht verwenden, wird eine Liste mit Abonnenten angezeigt, wobei jeder Abonnent durch ein Komma getrennt ist.</p> <p>Weitere Informationen finden Sie im Artikel <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnieren von Elementen in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td>[!UICONTROL Ansichten in diesem Jahr]</td> 
    <td>In einer Berichtsliste wird angezeigt, wie oft der Bericht in diesem Jahr angezeigt wurde.<br>Weitere Informationen zu Nutzungsinformationen in Berichtslisten finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Berichtverwendung anzeigen</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> Wenn Sie in einem Bericht die Benutzeroberfläche des [!UICONTROL Textmodus] verwenden, ist dies die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet für jedes Feld eine empfohlene Breite. Je nach Feldtyp und -format können Sie jedoch Anpassungen vornehmen.
+Sie müssen die zusätzliche <code>[!UICONTROL usewidths=true]</code> Codezeile, um die für die Spalte angegebene Breite zu erzwingen. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>In einem Projekt-, Aufgaben- oder Problembericht werden unter Verwendung der folgenden Anweisung im Textmodus die geplanten Stunden des Projekts, der Aufgabe oder des Problems angezeigt:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Informationen zur Verwendung des Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Übersicht über die Syntax der Textmodi</a>. </p> 
    <p><b>TIPP</b> 
    <p>Wenn Sie in einen Problembericht eines der Felder [!UICONTROL Geplante Stunden] einfügen, wird die <code>work </code>zum Bericht hinzu. </p> </td> 
@@ -2396,7 +2416,10 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>In einem Projekt-, Aufgaben- oder Problembericht zeigt die Verwendung der folgenden Anweisung im Textmodus die Anzahl der geplanten Stunden des Projekts, der Aufgabe oder des Problems an, gefolgt vom Wort "Stunden":</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Informationen zur Verwendung des Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Übersicht über die Syntax der Textmodi</a>. </p> </td> 
   </tr> 
  </tbody> 

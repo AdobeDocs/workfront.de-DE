@@ -7,9 +7,9 @@ description: Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, ind
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 65f25a3b1198f491f7357efef11e2ae075e9721a
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Die folgenden Kriterien bestimmen den Fortschrittsstatus einer Aufgabe:
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Fortschritt</strong> </p> </th> 
+   <th> <p><strong>Fortschrittsstatus</strong> </p> </th> 
    <th> <p><strong>Bestimmen von Kriterien</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -59,22 +59,26 @@ Die folgenden Kriterien bestimmen den Fortschrittsstatus einer Aufgabe:
  </tbody> 
 </table>
 
-## Aktualisierung des Aufgabenstatus im Zeitverlauf
+<!--hiding this because some users find the images confusing, as they don't really show the dates mentioned in the descriptions above. Keep the pictures though, in case some users will complain that we hid them. 
 
-Die verschiedenen Datumstypen in unseren Projekten zeigen uns, wie Aufgaben im Laufe der Zeit voranschreiten:
+## How task Progress Status updates over time
 
-* Im Zeitplan
+The different date types in our projects tell us how tasks are progressing over time:
 
-   ![](assets/on-time-progress-status-350x233.png)
+* On Time
 
-* Gefährdet
+  ![](assets/on-time-progress-status-350x233.png)
 
-   ![](assets/at-risk-progress-status-350x233.png)
+* At Risk
 
-* In Verzug
+  ![](assets/at-risk-progress-status-350x233.png)
 
-   ![](assets/behind-progress-status-350x233.png)
+* Behind
 
-* In Verzug
+  ![](assets/behind-progress-status-350x233.png)
 
-   ![](assets/late-progress-status-350x233.png)
+* Late
+
+  ![](assets/late-progress-status-350x233.png)
+
+-->

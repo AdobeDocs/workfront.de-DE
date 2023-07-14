@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange aus e
 ## Erstellen einer Anforderungswarteschlange
 
 Wenn Sie ein Projekt als Anforderungswarteschlange einrichten, muss der Projektstatus Aktuell sein, damit er im Anforderungsbereich von Workfront angezeigt wird.
+
+>[!TIP]
+>
+>Ihr Workfront- oder Gruppenadministrator weist Sie möglicherweise einer benutzerdefinierten Layout-Vorlage zu, die möglicherweise keine der in den folgenden Schritten beschriebenen Abschnitte enthält.
+
 
 So erstellen Sie eine Anforderungswarteschlange:
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layoutvorlage verwenden, um die Optionen zu konfigurieren, die Benutzern beim Öffnen des Hauptmenüs in Workfront angezeigt werden.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '570'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,11 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 >
 >Die Optionen des Hauptmenüs, die den Benutzern angezeigt werden, hängen vom Lizenztyp und den Einstellungen der jeweiligen Zugriffsstufe ab. Einige Benutzer, die diese Layoutvorlage verwenden werden, sehen möglicherweise nicht alle Optionen, die Sie hier auswählen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) und [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
+Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -60,9 +64,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    * Startseite
 
-      >[!TIP]
-      >
-      >Standardmäßig wird &quot;Home&quot;als &quot;Meine Updates für Benutzer von Review-Lizenzen&quot;angezeigt, es sei denn, ihnen ist eine Layoutvorlage zugeordnet, die den Bereich Meine Updates im Hauptmenü enthält.
+     >[!TIP]
+     >
+     >Standardmäßig wird &quot;Home&quot;als &quot;Meine Updates für Benutzer von Review-Lizenzen&quot;angezeigt, es sei denn, ihnen ist eine Layoutvorlage zugeordnet, die den Bereich Meine Updates im Hauptmenü enthält.
 
    * Portfolios
    * Programme
@@ -73,16 +77,16 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    * Ressourcen- zuordnung
    * Szenarios
 
-      >[!NOTE]
-      >
-      >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
-   * Benutzer
+   * Benutzende
 
-      >[!NOTE]
-      >
-      >Nur Benutzer mit einer Planungslizenz können Benutzer sehen ![](assets/users-icon-in-main-menu.png) im Hauptmenü.
+     >[!NOTE]
+     >
+     >Nur Benutzer mit einer Planungslizenz können Benutzer sehen ![](assets/users-icon-in-main-menu.png) im Hauptmenü.
 
    * Anforde- rungen
    * Arbeitszeittabellen
@@ -92,9 +96,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    * Proofing
    * Ziele
 
-      >[!NOTE]
-      >
-      >Dies erfordert eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >Dies erfordert eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Meine Updates
    * Pinnwände

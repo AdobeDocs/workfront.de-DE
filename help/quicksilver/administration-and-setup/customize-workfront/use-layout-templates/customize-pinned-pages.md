@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Dabei kann es sich um Seiten handeln, die über das Hauptmenü oder Dashboards aufgerufen werden.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Weitere Informationen zum Veröffentlichen von Seiten finden Sie unter [Seiten f
 Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -60,9 +62,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    * Klicken Sie auf ein Menüelement &quot;Hauptmenü&quot;.
 
-      >[!IMPORTANT]
-      >
-      >Für die Anzeige der Bereiche Szenarien und Ziele sind zusätzliche Lizenzen erforderlich. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md) Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >Für die Anzeige der Bereiche Szenarien und Ziele sind zusätzliche Lizenzen erforderlich. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md) Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
    * Klicken **Hinzufügen eines Dashboards**, und geben Sie eine Beschreibung ein **Titel des benutzerdefinierten Abschnitts** und fügen Sie das Dashboard hinzu.
 

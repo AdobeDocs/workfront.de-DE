@@ -6,9 +6,9 @@ description: Die Themen der Warteschlange funktionieren zusammen mit Routing-Reg
 author: Alina
 feature: Work Management
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Sie müssen über Folgendes verfügen:
       <td>Wählen Sie alle benutzerdefinierten Formulare aus, die Sie mit dem Warteschlangenthema verknüpfen möchten. Sie müssen benutzerdefinierte Formulare für Probleme erstellen, bevor Sie sie mit Warteschlangenthemen verknüpfen können. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standardgenehmigung</td> 
+      <td role="rowheader"><strong>Standardgenehmigung</strong></td> 
       <td> <p>Verknüpfen Sie einen Genehmigungsprozess mit diesem Warteschlangenthema. In diesem Dropdown-Menü werden nur die Prozesse zur Genehmigung von Problemen angezeigt. Alle an diese Warteschlange gesendeten Probleme werden mit diesem Genehmigungsprozess verknüpft. Ihr Adobe Workfront-Administrator muss Validierungsprozesse auf Systemebene definieren, bevor Sie sie mit Warteschlangenthemen verknüpfen können. <span>Benutzer mit Administratorzugriff auf Genehmigungsprozesse können auch gruppenspezifische Validierungsprozesse erstellen.</span> Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.<br></p> 
        <div> 
         <p>Wichtig: Wenn sich die Gruppe des Projekts ändert, wird der gruppenspezifische Genehmigungsprozess, der an bestehende Probleme angehängt ist, zu einem Genehmigungsprozess für einzelne Anwendungen. Weitere Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>.</p> 
@@ -136,7 +136,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardroute</strong> </td> 
-      <td>Geben Sie die Routing-Regel an, die Sie mit dem Thema Warteschlange verknüpfen möchten. Sie müssen die Routing-Regel erstellen, bevor Sie sie an ein Warteschlangenthema anhängen können.</td> 
+      <td>Geben Sie die Routing-Regel an, die Sie mit dem Thema Warteschlange verknüpfen möchten. Sie müssen die Routing-Regel erstellen, bevor Sie sie an ein Warteschlangenthema anhängen können. Weitere Informationen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Erstellen von Routing-Regeln</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anforderungstypen</strong> </td> 
@@ -144,7 +144,7 @@ Sie müssen über Folgendes verfügen:
        <ul> 
         <li>Bug-Bericht</li> 
         <li>Änderungsanforderung</li> 
-        <li>Anfrage</li> 
+        <li>Problem</li> 
         <li>Anfrage</li> 
        </ul> <p>Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. </p> </td> 
      </tr> 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator können Sie eine Layoutvorlage verwenden, um die Beschriftungen einiger Objekte in Workfront so zu ändern, dass sie mit den in Ihrem Unternehmen verwendeten Begriffen übereinstimmen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
@@ -37,8 +37,11 @@ Nachdem Sie eine Layoutvorlage gespeichert haben, in der Sie die Terminologie ge
 >* Bei der Anpassung von Bezeichnungen treten möglicherweise Grammatik- und andere Probleme auf. Wenn Sie beispielsweise &quot;Problem&quot;in &quot;Anfrage&quot;ändern, kann es in der Benutzeroberfläche Orte geben, an denen die Wortgruppe &quot;Anfrage&quot;angezeigt wird. Weitere Informationen finden Sie unter [Auswirkungen der Anpassung von Objektnamen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) im Artikel [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
+Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -72,15 +75,15 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    * Um einen alternativen Begriff aus Workfront zu verwenden, klicken Sie auf den Abwärtspfeil.  ![](assets/dropdown-arrow.png) neben der Beschriftung klicken Sie dann in der Dropdown-Liste auf die gewünschte alternative Beschriftung.
 
-      >[!NOTE]
-      >
-      >Alternative Beschriftungen, die in den Dropdownlisten bereitgestellt werden, werden in Versionen von Workfront unterstützt, die für nicht englischsprachige Sprachen lokalisiert sind.
+     >[!NOTE]
+     >
+     >Alternative Beschriftungen, die in den Dropdownlisten bereitgestellt werden, werden in Versionen von Workfront unterstützt, die für nicht englischsprachige Sprachen lokalisiert sind.
 
    * Um eine eigene benutzerdefinierte Alternative für die für ein Objekt angezeigte Beschriftung bereitzustellen, klicken Sie auf **Festlegen benutzerdefinierter Namen** rechts neben dem Titel, und geben Sie dann die **Singular** und **Plural** Formen des benutzerdefinierten Begriffs. Sie können auf **Zurücksetzen** wenn du es dir anders überlegst.
 
-      Sie können die folgenden Objektnamen anpassen:
+     Sie können die folgenden Objektnamen anpassen:
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
       <col>
       <col>
       <col>
@@ -92,7 +95,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
           <p>Programm</p>
           <p>Projekt</p>
           <p>Aufgabe</p>
-          <p>Anfrage</p>
+          <p>Problem</p>
           <p>Ziel</p>
           <p>Ergebnis</p>
           <p>Aktivität</p>

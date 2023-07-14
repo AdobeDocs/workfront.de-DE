@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator können Sie den Gruppenadministratoren einer bestimmten Gruppe Administratorrechte für eine Layoutvorlage erteilen, damit sie die Vorlage bearbeiten können. Dadurch wird die Vorlage nicht den Benutzern in der Gruppe zugewiesen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -61,6 +61,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* Wenn ein Gruppenadministrator eine Layoutvorlage erstellt, ist die Zuweisung des Administratorzugriffs obligatorisch. Die Layout-Vorlage ist für die angegebene Gruppe bestimmt und nur für diese sichtbar. Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Informationen zu Gruppenadministratoren finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
    >* Wenn Sie den Gruppenadministratoren einer bestimmten Gruppe keinen Administratorzugriff gewähren, haben alle Benutzer, die Benutzerkonten bearbeiten können, Administratorzugriff auf die Layoutvorlage. Einige Workfront-Administratoren haben die Absicht, keinen Administratorzugriff für eine Layoutvorlage zu gewähren, um sie zu einer Layoutvorlage auf Systemebene zu machen.
-
 
 1. Sie können jederzeit auf Speichern klicken, um den Fortschritt zu speichern, und die Vorlage später weiter ändern.

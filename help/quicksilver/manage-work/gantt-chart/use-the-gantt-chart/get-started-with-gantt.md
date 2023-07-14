@@ -2,13 +2,13 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Erste Schritte mit [!UICONTROL Gantt] Diagramm
-description: Übersichtsinformationen zu den Projekt- und Aufgabendiagrammen in Adobe Workfront.
+description: Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstellung einer Liste von Aufgaben oder Projekten.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '550'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ Obwohl sie ähnlich aussehen und sich anfühlen, ist die Funktionalität jedes e
 
 ## Zugriff auf [!UICONTROL Gantt-Diagramm]
 
-Die [!UICONTROL Gantt] Diagramme in [!DNL Workfrontprovide] eine visuelle Darstellung einer Liste von Aufgaben oder Projekten. Sie können die Aufgabenliste anzeigen [!UICONTROL Gantt-Diagramm] direkt aus der Aufgabenliste eines Projekts oder aus einem Aufgabenbericht. Sie können die Projektliste anzeigen [!UICONTROL Gantt-Diagramm] in einer Projektliste oder einem Projektbericht.
+Die [!UICONTROL Gantt] Diagramme in [!DNL Workfront]  eine visuelle Darstellung einer Liste von Aufgaben oder Projekten bereitstellen. Sie können die Aufgabenliste anzeigen [!UICONTROL Gantt-Diagramm] direkt aus der Aufgabenliste eines Projekts oder aus einem Aufgabenbericht. Sie können die Projektliste anzeigen [!UICONTROL Gantt-Diagramm] in einer Projektliste oder einem Projektbericht.
 
 * [Aufgabenliste [!UICONTROL Gantt-Diagramm]](#task-list-gantt-chart)
 * [Projektliste [!UICONTROL Gantt-Diagramm]](#project-list-gantt-chart)
@@ -86,7 +86,7 @@ Die folgenden Anzeigeoptionen sind in der Aufgabenliste verfügbar [!UICONTROL G
 * [!UICONTROL Meilenstein-Diamanten]
 * [!UICONTROL Meilenstein-Linien]
 * [!UICONTROL Vorgänger]
-* [!UICONTROL Fortschritt]
+* [!UICONTROL Fortschrittsstatus]
 * [!UICONTROL Voraussichtliche Termine]
 
 Detaillierte Informationen zu den oben aufgeführten Anzeigeoptionen finden Sie unter [Konfigurieren der Anzeige von Informationen auf der [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
@@ -100,7 +100,7 @@ Die folgenden Anzeigeoptionen sind in der Projektliste verfügbar [!UICONTROL Ga
 * [!UICONTROL Meilenstein-Diamanten]
 * [!UICONTROL Meilenstein-Linien]
 * [!UICONTROL Vorgänger]
-* [!UICONTROL Fortschritt]
+* [!UICONTROL Fortschrittsstatus]
 * [!UICONTROL Voraussichtliche Termine]
 
 Informationen zu den oben aufgeführten Anzeigeoptionen finden Sie unter [Konfigurieren der Anzeige von Informationen auf der [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).

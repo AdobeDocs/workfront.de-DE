@@ -5,11 +5,11 @@ content-type: reference
 product-area: system-administration;templates
 navigation-topic: customize-workfront
 description: Als Workfront-Administrator oder Gruppenadministrator können Sie Layoutvorlagen erstellen und ändern, um die Elemente der Workfront-Benutzeroberfläche für Ihre Benutzer anzupassen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%

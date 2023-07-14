@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Integrierte Statussymbole in Ansichten
-description: Integrierte Statussymbole in Ansichten
+description: Sie können das integrierte Feld für Statussymbole in Ihren Ansichten als Spalte hinzufügen, um die Sichtbarkeit in wichtigen Punkten zu Ihren Objekten zu verbessern.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1322'
+ht-degree: 3%
 
 ---
 
@@ -28,13 +28,20 @@ Sie können das integrierte Feld für Statussymbole in Ihren Ansichten als Spalt
 * Eine Aufgabe befindet sich auf einem kritischen Pfad
 * Ein Benutzer gehört zu einem Unternehmen, einem Team oder befindet sich in einer anderen Zeitzone
 
-Die meisten Indikatoren im Feld Statussymbole sind schnelle Links zum tatsächlichen Objekt oder Bereich des Objekts, das/die sie darstellen.
+Beachten Sie Folgendes:
 
-Wenn eines der durch die Symbole dargestellten Elemente im Objekt fehlt, wird das Symbol, das das fehlende Element darstellt, in der Spalte Statussymbole anstelle eines vollständigen Bildes als Entwurf angezeigt.\
-![task_status_icons.png](assets/task-status-icons.png)\
-Weitere Informationen finden Sie unter [Übersicht über Statussymbole und -flags](#overview-of-status-icons-and-flags) in diesem Artikel.\
-In einigen Ansichten wird die **Statussymbole** Feld heißt **Flags** oder **Symbole anzeigen**.\
-Sie können das Erscheinungsbild der Symbole im Feld Statussymbole nicht anpassen.
+* Die meisten Indikatoren im Feld Statussymbole sind schnelle Links zum tatsächlichen Objekt oder Bereich des Objekts, das/die sie darstellen.
+
+* Wenn eines der durch die Symbole dargestellten Elemente im Objekt fehlt, wird das Symbol für das fehlende Element in der Spalte Statussymbole anstelle eines farbigen Bildes abgeblendet angezeigt.
+
+  ![task_status_icons.png](assets/task-status-icons.png)
+
+  Weitere Informationen finden Sie unter [Übersicht über Statussymbole und -flags](#overview-of-status-icons-and-flags) in diesem Artikel.
+
+* In einigen Ansichten wird die **Statussymbole** Feld heißt **Flags** oder **Symbole anzeigen**.\
+  Sie können das Erscheinungsbild der Symbole im Feld Statussymbole nicht anpassen.
+
+* Sie können die Anzahl der Symbole im Feld Statussymbole nicht bearbeiten.
 
 ## Zugriffsanforderungen
 
@@ -86,9 +93,9 @@ So fügen Sie das Feld Statussymbole zu einer benutzerdefinierten Ansicht hinzu,
    * Vorlagen
    * Ausgaben
    * Dokumente
-   * Benutzer\
-      Nur diese Objekte verfügen über die **Statussymbole** verfügbar.\
-      Informationen zu Objektlisten finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   * Benutzende\
+     Nur diese Objekte verfügen über die **Statussymbole** verfügbar.\
+     Informationen zu Objektlisten finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Aus dem **Ansicht** Dropdown-Menü auswählen **Neue Ansicht**.
 
@@ -240,28 +247,28 @@ Sie müssen über die Berechtigungen zum Anzeigen der Objekte verfügen, damit S
   <tr> 
    <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_gehört_to_company_icon.png" style="width: 44;height: 44;"> </td> 
    <td>Gibt an, dass der Benutzer mit einem Unternehmen verknüpft ist. </td> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td>Nicht verfügbar</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/user-with-team-icon-40x48.png" alt="user_with_team_icon.png" style="width: 40;height: 48;"> </td> 
    <td>Gibt an, dass der Benutzer mit einem Team verknüpft ist.</td> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td>Klicken Sie auf , um das Benutzerprofil zu öffnen.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
    <td>Klicken Sie auf die Registerkarte Zuordnung des Benutzers. </td> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td>Klicken Sie auf , um die Registerkarte Zuordnung des Benutzers zu öffnen und zu erfahren, welchen Arbeitselementen der Benutzer zugewiesen ist.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/screen-shot-2018-07-26-at-2.31.40-pm-44x40.png" alt="screen_shot_2018-07-26_at_2.31.40_PM.png" style="width: 44;height: 40;"> </td> 
    <td>Gibt an, dass sich der Benutzer in einer anderen Zeitzone befindet als das System.</td> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td>Nicht verfügbar</td> 
    <td> </td> 
   </tr> 

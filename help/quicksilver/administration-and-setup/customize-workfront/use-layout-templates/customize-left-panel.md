@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In einer Layoutvorlage können Sie anpassen, was Benutzer im linken Bedienfeld in Adobe Workfront sehen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c0b0102eb1e1f45e794f962f7e905349f9e241eb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Sie können beispielsweise bestimmen, welche der folgenden Elemente Benutzern im
 >
 >An der Bestellung und Sichtbarkeit vorgenommene Änderungen werden in der Mobile App übernommen.
 
+Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -66,7 +70,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Anzeigen ![](assets/add-secondary-nav-item.png) oder ausblenden ![](assets/delete-secondary-nav-item.png) Elemente. Beliebiges Element ohne ![](assets/add-secondary-nav-item.png) oder ![](assets/delete-secondary-nav-item.png) kann nicht ausgeblendet werden.
 
    * Elemente ziehen ![](assets/move-icon---dots.png) , um ihre Reihenfolge im linken Bereich zu ändern.
-
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -195,10 +198,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!NOTE]
    >
    >Die letzten drei Elemente im **[!UICONTROL Anpassen der Ansicht von Benutzern]** Dropdown-Liste ([!UICONTROL Listen], [!UICONTROL Startseite und Zusammenfassung]und [!UICONTROL Branding]) dienen zum Konfigurieren anderer Bereiche als dem linken Bereich. Weitere Informationen finden Sie in diesen Artikeln:
->   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>   >   
+* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [Anpassen [!UICONTROL Startseite] und [!UICONTROL Zusammenfassung] Layout-Vorlage verwenden](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 * [Adobe von Marken [!DNL Workfront] Layout-Vorlage verwenden](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-
 
 
 1. (Optional) Wenn Sie ein Element des linken Bedienfelds hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Benutzerspezifischen Abschnitt hinzufügen]**, geben Sie einen **[!UICONTROL Titel des benutzerdefinierten Abschnitts]** Fügen Sie für das Element das Dashboard hinzu.
@@ -206,6 +209,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Dashboard-Elemente werden unten im linken Bereich angezeigt. Benutzer sehen den Titel des von Ihnen eingegebenen benutzerdefinierten Abschnitts neben dem Dashboard-Element, wenn sie den Mauszeiger über das linke Bedienfeld bewegen.
 
    >[!NOTE]
+   >
    Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bereich hinzufügen. Wenn Sie benutzerdefinierte Dashboard-Elemente zu einer Layoutvorlage hinzufügen, werden Ihre Elemente mit ihren Elementen zusammengeführt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen dazu, wie Benutzer das linke Bedienfeld anpassen können, finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Weitere Informationen zu Dashboards finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
@@ -217,4 +221,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!TIP]
+   >
    Sie können auf [!UICONTROL Speichern] Sie können den Fortschritt jederzeit speichern und die Vorlage später ändern.

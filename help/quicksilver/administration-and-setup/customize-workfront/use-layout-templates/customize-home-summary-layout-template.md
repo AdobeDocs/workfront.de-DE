@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie auf eine Aufgabe oder ein Problem in der Startseite und in der Zusammenfassung klicken. Jede Konfiguration, die Sie mithilfe der folgenden Schritte vornehmen, wirkt sich auf die gleiche Weise auf den Startbereich und den Zusammenfassungsbereich aus. Diese Anpassungen gelten nicht für das Bedienfeld "Dokumentzusammenfassung".
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '993'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ Sie können auch die Felder anpassen, die Benutzern im Bereich Startseite angeze
 
 Informationen zum Startbereich finden Sie unter [Verwenden des Startbereichs](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 

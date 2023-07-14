@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Workfront-Administrator können Sie mit einer Layout-Vorlage festlegen, welche Listenelemente in den Dropdown-Menüs Filter, Ansicht und Gruppierung angezeigt werden. Diese Menüs werden in Workfront über die oben genannten Listen angezeigt, z. B. die Aufgabenliste für ein Projekt.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als Adobe Workfront-Administrator können Sie mit einer Layout-Vorlage festlegen
 Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
