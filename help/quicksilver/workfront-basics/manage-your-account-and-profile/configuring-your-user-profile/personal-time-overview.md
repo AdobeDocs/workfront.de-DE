@@ -7,10 +7,10 @@ description: Adobe Workfront ist nicht dafür konzipiert, Ihre vorhandenen Syste
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ Tools für die Ressourcenverwaltung verwenden auch Ihre persönliche Zeitspanne,
 >* [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Zugriffsanforderungen
 
@@ -63,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliche Zeit konfigurieren in [!DNL Workfront]
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.
+1. {#step1-click-profile-pic}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Zeitlimit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Zeit aus.
@@ -71,4 +70,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Lassen Sie die Option deaktiviert, wenn Sie weniger als einen vollen Tag frei nehmen, und geben Sie die Start- und Endzeit Ihrer Freizeit an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.\
-   Ihre Zeitdauer ist jetzt für alle [!DNL Workfront] System in Planungswerkzeugen wie dem Ressourcenraster. Wenn Ihnen während dieser Zeit Arbeit zugewiesen wird, erscheint eine QuickInfo, die den Benutzer informiert, für den Sie eine Zeitüberschreitung geplant haben.
+   Ihre Zeitdauer ist jetzt für alle [!DNL Workfront] in den Tools zur Ressourcenverwaltung wie dem Resource Planer und dem Workload Balancer. Wenn Ihnen während dieser Zeit Arbeit zugewiesen wird, erscheint eine QuickInfo, die den Benutzer informiert, für den Sie eine Zeitüberschreitung geplant haben.
