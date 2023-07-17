@@ -6,9 +6,9 @@ description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 ## E-Mail-Benachrichtigungen
 
 [!DNL Workfront] sendet eine Reihe von E-Mail-Benachrichtigungen, um Benutzer über Aktivitäten in Workfront zu warnen und nützliche Informationen und Links bereitzustellen.
+
+Informationen zum Ändern der Voreinstellungen für Ihre E-Mail-Benachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ Beim Empfang täglicher Digest-Benachrichtigungen müssen Sie auf verschiedene P
 
 * Benachrichtigungen in einer täglichen Digest-E-Mail sind nach verschiedenen Kriterien gruppiert. Beispiel: bei **[!UICONTROL Informationen zu eigenen Projekten]** festgelegt ist, werden die Ereignisse nach dem Projektnamen gruppiert.
 
-   Für **[!UICONTROL Kommunikation]** -Kategorie, werden die Benachrichtigungen nach dem Objekt gruppiert, an dem die Nachricht erfolgte.
+  Für **[!UICONTROL Kommunikation]** -Kategorie, werden die Benachrichtigungen nach dem Objekt gruppiert, an dem die Nachricht erfolgte.
 
 * Die tägliche Digest-E-Mail listet Ereignisse auf, die für Aktionen in einem bestimmten Bereich aufgetreten sind (z. B. **Angaben zu eigenen Projekten**) innerhalb von 24 Stunden vor der für die Auslieferung ausgewählten Zeit.
 * Die Zeitzone für den täglichen Digest-Versand stimmt mit Ihrer Zeitzone überein, wie sie in Ihrem Browser konfiguriert ist.

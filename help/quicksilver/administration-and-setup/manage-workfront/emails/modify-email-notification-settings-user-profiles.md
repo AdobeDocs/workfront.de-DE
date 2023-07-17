@@ -9,9 +9,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;P
 
 Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können Sie nur die Einstellungen ändern, die den ausgewählten Benutzern gemeinsam sind.
 
-Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Zugriffsanforderungen
 

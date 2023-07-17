@@ -7,7 +7,7 @@ description: Übersicht über die Berechnung der Stunden und der FTE für Benutz
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -28,11 +28,11 @@ Weitere Informationen zur Berechnung der Kosten im Ressourcenplaner finden Sie u
 Die folgenden Ressourcendaten werden im Ressourcenplaner unterschiedlich berechnet:
 
 * Die Werte Verfügbare Stunden oder FTE werden auf Grundlage der Konfiguration der Voreinstellungen für die Ressourcenverwaltung in Ihrem System durch Ihren Systemadministrator berechnet.\
-   Weitere Informationen zur Berechnung der Werte für verfügbare Stunden und VZÄ finden Sie unter [Berechnen der verfügbaren Stunden oder der FTE für Benutzer und Stellenrollen im Resource Planer](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   Weitere Informationen zum Definieren der Voreinstellungen für die Ressourcenverwaltung für das Adobe Workfront-System finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Weitere Informationen zur Berechnung der Werte für verfügbare Stunden und VZÄ finden Sie unter [Berechnen der verfügbaren Stunden oder der FTE für Benutzer und Stellenrollen im Resource Planer](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Weitere Informationen zum Definieren der Voreinstellungen für die Ressourcenverwaltung für das Adobe Workfront-System finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Alle anderen FTE-Werte werden auf der Grundlage des Systemstandardzeitplans berechnet.\
-   Weitere Informationen dazu, wie die anderen Werte bei Verwendung von FTE im Resource Planer angezeigt werden, finden Sie im Abschnitt [Berechnen Sie alle anderen Stunden- und FTE-Werte für Benutzer und Rollen im Resource Planer.](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in diesem Artikel.
+  Weitere Informationen dazu, wie die anderen Werte bei Verwendung von FTE im Resource Planer angezeigt werden, finden Sie im Abschnitt [Berechnen Sie alle anderen Stunden- und FTE-Werte für Benutzer und Rollen im Resource Planer.](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in diesem Artikel.
 
 Es ist wichtig zu verstehen, was die FTE für jeden Ihrer Benutzer und seine Aufgabenrollen ist, um Ihre Ressourcen genau zu verwalten, während Sie sie für die Arbeit zuweisen.
 
@@ -100,7 +100,7 @@ Für dieses Beispiel verwenden wir die folgenden Zahlen:
 
 * Standardzeitplan des Systems beträgt 40 Stunden
 * Ein Benutzerzeitplan von 20 Stunden
-* Ein FTE-Nutzer von 0,75.
+* VZÄ des Nutzers von 0,75
 
 | Methode zur Berechnung der FTE (Systemeinstellung) | **Stunden vom Zeitplan des Benutzers** | **Stunden ab Standardzeitplan** | **Feld für Benutzer-FTE** | **Verfügbare Stunden im Ressourcenplaner** | **Verfügbare FTE im Ressourcenplaner** |
 |---|---|---|---|---|---|
@@ -117,18 +117,16 @@ Zusätzlich zu den verfügbaren Stunden oder VZÄ werden im Ressourcenplaner auc
 * Budgetierte Stunden
 * Stundenvarianz
 * Netzstunden\
-   Weitere Informationen zu diesen Werten finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Weitere Informationen zu diesen Werten finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 * Stundendifferenz\
-   Weitere Informationen dazu, was dieser Wert darstellt, finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Weitere Informationen dazu, was dieser Wert darstellt, finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Sie können dieselben Informationen im Ressourcenplaner als FTE oder als Stunden anzeigen.
 
 Workfront verwendet die folgende Formel, um alle anderen Werte als FTE im Ressourcenplaner anzuzeigen:
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >

@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -22,3 +22,8 @@ Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Er
 * Informationen zum Konfigurieren von Ereignisbenachrichtigungen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Informationen zum Konfigurieren von Erinnerungsbenachrichtigungen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 * Informationen zum Konfigurieren von E-Mail-Vorlagen finden Sie unter [E-Mail-Vorlagen konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+
+Diese Links zeigen Ihnen, wie Sie die Hilfeartikel für Adobe Workfront-Benachrichtigungen im Benutzerbereich anzeigen können.
+
+* Allgemeine Informationen zu Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md)
+* Informationen zum Einrichten eigener Benachrichtigungen in Ihrem Profil finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
