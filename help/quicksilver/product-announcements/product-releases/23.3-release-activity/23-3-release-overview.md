@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 20aac191f6bca42610575384c398306e61f59780
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
 >
 >Version 23.3 bietet die Möglichkeit, Ihr Unternehmen auf monatliche Releases umzustellen. Daher ändert Workfront das Nummerierungsschema der Versionen, um sowohl die monatlichen als auch die vierteljährlichen Releasedateien zu berücksichtigen.
 >
->* Wenn Sie auf der **fast release (monatlich)** track, wird die Version nach 23.3 **23,8** im August 2023.
-> * Wenn Sie auf der **vierteljährlich** Release-Track, wird die Version nach 23.3 **23,10** im Oktober 2023.
+>* Wenn Sie auf der **fast release (monatlich)** track, wird die Version nach 23.3 **23,8**, am 31. August 2023.
+> * Wenn Sie auf der **vierteljährlich** Release-Track, wird die Version nach 23.3 **23,10**, in der Woche vom 26. Oktober 2023.
 > 
 > Vierteljährliche Versionen enthalten Funktionen aus drei monatlichen Versionen. Die vierteljährliche Version 23.10 umfasst beispielsweise Funktionen, die in den monatlichen Versionen 23.8, 23.9 und 23.10 veröffentlicht wurden.
 >
+>Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein.
+>
 >| Monatliche Version | Quartalsversion |
 >|----|----|
->| <ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 Uhr (Oktober 2023)</li></ul> | <ul><li>23.10 Uhr (Oktober 2023)</li></ul> |
+>| <ul><li>23.8 (31. August 2023)</li><li>23.9 (28. September 2023)</li><li>23.10 (26. Oktober 2023)</li></ul> | <ul><li>23.10 Uhr (Woche vom 26. Oktober 2023)</li></ul> |
 >| <ul><li>23.11 (November 2023)</li><li>23.12 (Dezember 2023)</li><li>24.1 (Januar 2024)</li></ul> | <ul><li>24.1 (Januar 2024)</li></ul> |
->
->Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein.
 
 ## Adobe Workfront-Verbesserungen
 
