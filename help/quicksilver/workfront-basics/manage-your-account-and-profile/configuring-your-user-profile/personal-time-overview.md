@@ -7,10 +7,10 @@ description: Adobe Workfront ist nicht dafür konzipiert, Ihre vorhandenen Syste
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliche Zeit konfigurieren in [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**.
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Zeitlimit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Zeit aus.
 1. Auswählen **[!UICONTROL Ganztägig]**, wenn Sie sich einen ganzen Tag freinehmen.\
