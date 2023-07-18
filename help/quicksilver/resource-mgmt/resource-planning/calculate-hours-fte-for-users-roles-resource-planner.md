@@ -7,7 +7,7 @@ description: Übersicht über die Berechnung der Stunden und der FTE für Benutz
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ Je nachdem, wie diese Einstellung konfiguriert ist, wird die Verfügbarkeit der 
      Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Zeitplan erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Die **Verfügbare FTE** für den Benutzer im Ressourcenplaner identisch mit der in den Benutzereinstellungen angegebenen FTE für den Benutzer ist.
-Wenn das FTE-Format des Benutzers beispielsweise 0,5 in den Benutzereinstellungen beträgt, beträgt die verfügbare FTE des Benutzers 0,5 im Resource Planer. Weitere Informationen zum Wert der FTE des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Wenn das FTE-Format des Benutzers beispielsweise 0,5 in den Benutzereinstellungen beträgt, beträgt die verfügbare FTE des Benutzers 0,5 im Resource Planer. Weitere Informationen zum Wert der FTE des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Zeitplan des Benutzers**: Der Zeitplan des Benutzers wird verwendet, um die Verfügbarkeit des Benutzers im Ressourcen-Planer zu bestimmen. Der Wert der FTE des Benutzers wird ignoriert. In diesem Fall:
 
    * Die **Verfügbare Stunden** im Ressourcenplaner sind mit den Stunden aus dem Zeitplan des Benutzers identisch.
 
-  Wenn beispielsweise der Zeitplan des Benutzers 40 Stunden pro Woche für die Arbeit zur Verfügung hat, ist der Benutzer für 40 Stunden pro Woche im Ressourcen-Planer verfügbar.
+     Wenn beispielsweise der Zeitplan des Benutzers 40 Stunden pro Woche für die Arbeit zur Verfügung hat, ist der Benutzer für 40 Stunden pro Woche im Ressourcen-Planer verfügbar.
 
    * Die **Verfügbare FTE** wird im Ressourcenplaner anhand der folgenden Formel berechnet:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Wenn beispielsweise der Zeitplan des Benutzers 20 Stunden zur Arbeit zur Verfügung hat und der Standardzeitplan in Workfront 40 Stunden zur Verfügung hat, beträgt die FTE des Benutzers 0,5.
+     Wenn beispielsweise der Zeitplan des Benutzers 20 Stunden zur Arbeit zur Verfügung hat und der Standardzeitplan in Workfront 40 Stunden zur Verfügung hat, beträgt die FTE des Benutzers 0,5.
 
-  Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Zeitplan erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Zeitplan erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -114,7 +115,7 @@ Für dieses Beispiel verwenden wir die folgenden Zahlen:
 
 * Standardzeitplan des Systems beträgt 40 Stunden
 * Ein Benutzerzeitplan von 20 Stunden
-* VZÄ eines Benutzers von 0,75
+* VZÄ des Nutzers von 0,75
 
 | Methode zur Berechnung der FTE (Systemeinstellung) | **Stunden vom Zeitplan des Benutzers** | **Stunden ab Standardzeitplan** | **Feld für Benutzer-FTE** | **Verfügbare Stunden im Ressourcenplaner** | **Verfügbare FTE im Ressourcenplaner** |
 |---|---|---|---|---|---|
