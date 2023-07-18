@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4912349cbbc74a6f7587312e83297169ecd52f51
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2421'
 ht-degree: 8%
 
 ---
@@ -125,9 +125,9 @@ So exportieren Sie eine Kick-Start-Vorlage:
       <td> <p> Teammitglied</p> <p>Team</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Benutzer</p> </td> 
+      <td> <p>Benutzerin oder Benutzer</p> </td> 
       <td> <p>Exportiert als Excel-Datei. Um die vollständige Liste der Optionen anzuzeigen, klicken Sie auf <strong>Weitere Optionen</strong>.</p> </td> 
-      <td> <p>Benutzer</p> <p>Einstellungen</p> </td> 
+      <td> <p>Benutzerin oder Benutzer</p> <p>Einstellungen</p> </td> 
      </tr> 
      <tr> 
       <td>Zugriffsebene</td> 
@@ -180,9 +180,9 @@ So exportieren Sie eine Kick-Start-Vorlage:
       <td> <p> Stunde</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td>Anfrage</td> 
+      <td>Problem</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Anfrage</p> <p>Einstellungen </p> </td> 
+      <td> <p> Problem</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Aufgabengebiet</td> 
@@ -298,6 +298,7 @@ Wenn Sie eine dieser Registerkarten öffnen, zeigt Zeile 2 die Felder für jedes
 >  Wenn ein erforderliches Feld jedoch einen in den Systemvoreinstellungen festgelegten Standardwert enthält, müssen Sie ihn nicht ausfüllen.
 >
 >  Beispiel: auf der **PROJ Project** Registerkarte, die **setCondition** und **setConditionType** -Felder können leer bleiben, aber die **setGroupID** und **setName** kann nicht verwendet werden.
+>
 
 ### Datensatz importieren  {#import-a-record}
 
@@ -310,16 +311,16 @@ Jede Tabellenzeile entspricht einem eindeutigen Objekt.
 
 1. Füllen Sie die Zelle im **ID** auf eine der folgenden Arten:
 
-   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben)**TRUE** im **isNew** -Spalte) eine beliebige Zahl für die ID angeben. Diese Nummer muss im Arbeitsblatt eindeutig sein.
+   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben) **TRUE** im **isNew** -Spalte) eine beliebige Zahl für die ID angeben. Diese Nummer muss im Arbeitsblatt eindeutig sein.
 
-   * Wenn das zu importierende Objekt bereits im Workfront-System vorhanden ist (und Sie eingegeben haben)**FALSE** im **isNew** ), muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
+   * Wenn das zu importierende Objekt bereits im Workfront-System vorhanden ist (und Sie eingegeben haben) **FALSE** im **isNew** ), muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
 
-      **Beispiel:** Bei einem Projekt wird der Wert angezeigt, der im **setGroupID** -Spalte muss eine der folgenden Eigenschaften aufweisen:
+     **Beispiel:** Bei einem Projekt wird der Wert angezeigt, der im **setGroupID** -Spalte muss eine der folgenden Eigenschaften aufweisen:
 
       * Die GUID für eine bestehende Gruppe in Ihrer Workfront-Instanz
       * Der Wert (Zahl) in der Spalte ID auf der **GRUPPENgruppe** Blatt, wenn Sie während des Imports eine neue Gruppe erstellen
 
-         ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![Beispiel-ID für eine Gruppe](assets/kick-start-group-example.png)
 
 1. Geben Sie Werte für die erforderlichen Felder und alle anderen Felder ein, die während des Imports ausgefüllt werden sollen.
 1. (Optional) So fügen Sie benutzerdefinierte Daten hinzu:
@@ -329,7 +330,7 @@ Jede Tabellenzeile entspricht einem eindeutigen Objekt.
    * In der Spalte **setCategoryID** Geben Sie die GUID des vorhandenen benutzerdefinierten Formulars ein, in dem sich dieses benutzerdefinierte Feld befindet. Dieses Feld ist beim Import benutzerdefinierter Daten erforderlich.
    * Wenn Sie mehrere Datenwerte in das benutzerdefinierte Feld hinzufügen müssen (z. B. Optionsfelder, Kontrollkästchen oder Listen), verwenden Sie das auf der Registerkarte Voreinstellungen aufgelistete benutzerdefinierte Trennzeichen für die vertikale Leiste &quot;|&quot;, um die Werte zu trennen.
 
-      **Beispiel:** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihr benutzerdefiniertes Formular einzutragen.
+     **Beispiel:** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihr benutzerdefiniertes Formular einzutragen.
 
 ### Datum einschließen  {#include-dates}
 
@@ -393,33 +394,33 @@ Obwohl es sich nach Möglichkeit empfiehlt, IDs zu verwenden, ist es manchmal ni
 
 * **(Projektimport)**
 
-   Legen Sie beim Importieren von Projekten die **setGroupID** der Projekte, indem sie **GRUPPENgruppe** , wobei die jeweiligen Gruppen-IDs notiert und in die richtigen Zellen eingefügt werden (**setGroupID** -Spalte) **PROJ Project** Blatt.
+  Legen Sie beim Importieren von Projekten die **setGroupID** der Projekte, indem sie **GRUPPENgruppe** , wobei die jeweiligen Gruppen-IDs notiert und in die richtigen Zellen eingefügt werden (**setGroupID** -Spalte) **PROJ Project** Blatt.
 
-   Dies ist möglich, wenn man nur mit wenigen Gruppen und Projekten arbeitet, aber wenn man mit mehreren von ihnen arbeitet, ist es nicht praktisch.
+  Dies ist möglich, wenn man nur mit wenigen Gruppen und Projekten arbeitet, aber wenn man mit mehreren von ihnen arbeitet, ist es nicht praktisch.
 
-   Um die Ersetzung des Attributnamens für das oben beschriebene Beispiel durchzuführen, ändern Sie die **setGroupID** Spaltenüberschrift zu **#setGroupID GROUP***name**. Anschließend können Sie die Gruppe jedes Projekts nach Namen referenzieren.
+  Um die Ersetzung des Attributnamens für das oben beschriebene Beispiel durchzuführen, ändern Sie die **setGroupID** Spaltenüberschrift zu **#setGroupID GROUP***name**. Anschließend können Sie die Gruppe jedes Projekts nach Namen referenzieren.
 
-   >[!NOTE]
-   >
-   >Die Option zur Verwendung der Attributnamenersetzung ist auf Verweise nur für vorhandene Datensätze beschränkt. Sie können die Namensersetzung nicht für Objekte verwenden, die Sie im selben Import erstellen.
+  >[!NOTE]
+  >
+  >Die Option zur Verwendung der Attributnamenersetzung ist auf Verweise nur für vorhandene Datensätze beschränkt. Sie können die Namensersetzung nicht für Objekte verwenden, die Sie im selben Import erstellen.
 
 * **(Benutzerimport)**
 
-   Wenn Sie Benutzer importieren, füllen Sie die **setRoleID** aus einer Liste von Rollen auf der **ROLLE** Registerkarte.
+  Wenn Sie Benutzer importieren, füllen Sie die **setRoleID** aus einer Liste von Rollen auf der **ROLLE** Registerkarte.
 
-   Einige Rollen-IDs sind für Datensätze bestimmt, die bereits im Konto vorhanden sind, andere werden während des Imports erstellt.
+  Einige Rollen-IDs sind für Datensätze bestimmt, die bereits im Konto vorhanden sind, andere werden während des Imports erstellt.
 
-   Für die neuen Benutzerdatensätze, die vorhandenen Rollen zugewiesen sind, können Sie die Namensersetzung verwenden. Für die neuen Benutzerdatensätze, die neu importierten Rollen zugewiesen sind, ist dies nicht möglich.
+  Für die neuen Benutzerdatensätze, die vorhandenen Rollen zugewiesen sind, können Sie die Namensersetzung verwenden. Für die neuen Benutzerdatensätze, die neu importierten Rollen zugewiesen sind, ist dies nicht möglich.
 
-   So können Sie beide Methoden für dieselbe Importdatei verwenden:
+  So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie links im Arbeitsblatt eine Spalte hinzu **setRoleID** Spalte.
    * Benennen Sie die neue Spalte. **#setRoleID ROLE name**.
    * Geben Sie für Rollenzuweisungen an vorhandene Datensätze die Rollennamen in die **#setRoleID ROLE name** Spalte.
 
-      Geben Sie für Rollenzuweisungen an neue Rollendatensätze die ID ein, die Sie im Rollenblatt in setRoleID zugewiesen haben.
+     Geben Sie für Rollenzuweisungen an neue Rollendatensätze die ID ein, die Sie im Rollenblatt in setRoleID zugewiesen haben.
 
-      ![](assets/setroleid-350x66.png)
+     ![Rolle-ID für Benutzer](assets/set-role-id.png)
 
 ## Importieren der Tabellenkalkulationsdaten in Workfront
 
@@ -431,9 +432,9 @@ Der Kick-Start-Import unterstützt die folgenden Dateitypen:
 * Ältere Excel (&#42;.xls)
 * Zip (&#42;ZIP) xlsx- oder xls-Datei
 
-   >[!NOTE]
-   >
-   >Verwenden Sie eine ZIP-Datei, wenn Sie Excel-Tabellen importieren, die auf Berichte, Dokumente, Avatare oder Ansichts-, Filter- oder Gruppierungseigenschaftsdateien verweisen. Bei Verwendung einer komprimierten Importdatei wird die &#42;Die ZIP-Datei muss denselben Namen wie die &#42;.xlsx oder &#42;.xls-Datei und alle Inhalte müssen sich auf derselben Dateistrukturebene (keine Ordner) befinden.
+  >[!NOTE]
+  >
+  >Verwenden Sie eine ZIP-Datei, wenn Sie Excel-Tabellen importieren, die auf Berichte, Dokumente, Avatare oder Ansichts-, Filter- oder Gruppierungseigenschaftsdateien verweisen. Bei Verwendung einer komprimierten Importdatei wird die &#42;Die ZIP-Datei muss denselben Namen wie die &#42;.xlsx oder &#42;.xls-Datei und alle Inhalte müssen sich auf derselben Dateistrukturebene (keine Ordner) befinden.
 
 
 So importieren Sie die Tabellenkalkulationsvorlagen-Daten in Workfront:

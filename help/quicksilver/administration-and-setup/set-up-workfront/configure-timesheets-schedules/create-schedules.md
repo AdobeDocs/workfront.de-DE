@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten finden
 Gruppenadministratoren können auch Zeitpläne erstellen, die mit den von ihnen verwalteten Gruppen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen und Ändern der Zeitpläne einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 Informationen zur Verwendung von Zeitplänen zur Unterstützung der Zusammenarbeit von Benutzern in [!DNL Workfront] über Zeitzonen hinweg, siehe [Arbeiten über Zeitzonen hinweg](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+Informationen zur Verwendung von Zeitplänen bei der Ressourcenplanung finden Sie unter [Zeitpläne - Übersicht](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) und [Übersicht über den Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Zugriffsanforderungen
 
