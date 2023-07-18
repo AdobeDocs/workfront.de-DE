@@ -7,7 +7,7 @@ description: Übersicht über die Berechnung der Stunden und der FTE für Benutz
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Für dieses Beispiel verwenden wir die folgenden Zahlen:
 
 * Standardzeitplan des Systems beträgt 40 Stunden
 * Ein Benutzerzeitplan von 20 Stunden
-* VZÄ des Nutzers von 0,75
+* Ein FTE-Nutzer von 0,8
 
 | Methode zur Berechnung der FTE (Systemeinstellung) | **Stunden vom Zeitplan des Benutzers** | **Stunden ab Standardzeitplan** | **Feld für Benutzer-FTE** | **Verfügbare Stunden im Ressourcenplaner** | **Verfügbare FTE im Ressourcenplaner** |
 |---|---|---|---|---|---|
