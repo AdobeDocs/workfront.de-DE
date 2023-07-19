@@ -6,7 +6,7 @@ description: Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie d
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -127,14 +127,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * Aufgabenname
       * Übersicht
       * Arbeitsaufträge
-      * Benutzerdefinierte Forms
+      * Benutzerdefinierte Formulare
       * Finanzielle Details
       * Einstellungen
 
-         Informationen zum Definieren aller Aufgabenfelder für eine Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Informationen zum Definieren aller Aufgabenfelder für eine Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
    1. (Bedingt und optional) Wenn die Aufgabe wiederkehrend sein soll, aktualisieren Sie die **Häufigkeit der Wiederholungen** -Feld. Weitere Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Optional) Klicken Sie auf **Dokumente** im linken Bereich, um ein Dokument an die neue Aufgabe anzuhängen, und klicken Sie dann auf **Hinzufügen oder Verknüpfen von Dateien** , um der Aufgabe ein Dokument von Ihrem Computer oder einem anderen Dienst hinzuzufügen oder Dokumente und Ordner von Ihrem Computer oder einem anderen Dienst zu verknüpfen.
-
 
 1. (Bedingt) Wenn Sie auf **Weitere Aufgaben hinzufügen** in Schritt 5 die Eingabe der Aufgabeninformationen über die Inline-Bearbeitung starten und die Eingabetaste drücken.
 
@@ -150,13 +150,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Wenn Sie auf **Neue Aufgabe** Klicken Sie in Schritt 5 auf **Aufgabe erstellen** , um Ihre Änderungen zu speichern und die neue Aufgabe zu Ihrem Projekt hinzuzufügen.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
    * Wenn Sie auf **Weitere Aufgaben hinzufügen** Gehen Sie in Schritt 5 wie folgt vor:
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 

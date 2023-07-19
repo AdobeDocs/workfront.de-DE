@@ -6,9 +6,9 @@ description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront p
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Sie können die Arbeitszeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Arbeitsstunden anzugeben, die Sie damit verbringen. Sie können auch Zeit protokollieren, die nicht mit der Arbeit in Zusammenhang steht, wie Urlaub, Krankheitszeit oder Zeit, die Sie in Meetings verbringen. Die Login-Zeit wird in Ihrem Timesheet angezeigt.
 
@@ -361,13 +361,13 @@ Sie können projektspezifische Zeit für ein Projekt, eine Aufgabe oder ein Prob
 
 #### Abschnitt „Aktualisierungen“{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> Sie können die Zeit für Probleme protokollieren. <span class="preview">Projekte und Aufgaben</span> beim Aktivieren des neuen Beta-Kommentar-Erlebnisses im Abschnitt Updates.
+> Es gibt geringfügige Unterschiede im Erscheinungsbild der Benutzeroberfläche zwischen dem aktuellen und dem neuen Abschnitt Updates. Die Informationen in diesem Abschnitt beziehen sich auf die Funktionalität, die im neuen Kommentar-Erlebnis angezeigt wird.
 >
->Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Weitere Informationen zum Abschnitt &quot;Neue Updates&quot;finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Um die Zeit im Abschnitt Updates eines Projekts, einer Aufgabe oder eines Problems zu protokollieren, müssen Sie über Folgendes verfügen:
 
@@ -383,9 +383,9 @@ So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Pr
 
 1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
 1. Wählen Sie im linken Bereich die Option **Updates**.
-1. Klicken **Protokollzeit**.
+1. Klicken **Protokollzeit**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">Das Dialogfeld Protokollzeit wird angezeigt. </span>
+   Das Dialogfeld Protokollzeit wird angezeigt.
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Pr
    >   
    >   Oben rechts im Feld Tage eingeben gibt es einen Hinweis darauf, wie viele Stunden ein Tag beinhaltet.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Geben Sie die folgenden Informationen an:
 

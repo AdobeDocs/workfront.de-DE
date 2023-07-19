@@ -6,9 +6,9 @@ description: Sie können wiederkehrende Aufgaben für Aufgaben erstellen, die Si
 author: Alina
 feature: Work Management
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klicken **Weitere Optionen** Geben Sie dann einen Namen für die Aufgabe in die **Aufgabenname** -Feld.
-1. Fahren Sie mit der Aktualisierung der Aufgabe genauso fort wie beim Hinzufügen einer neuen Aufgabe. Weitere Informationen zum Hinzufügen einer neuen Aufgabe finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+1. Fahren Sie mit der Aktualisierung der Aufgabe genauso fort wie beim Hinzufügen einer neuen Aufgabe. Weitere Informationen zum Hinzufügen einer neuen Aufgabe finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!TIP]
+   >
+   >   Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden jeder Wiederholung. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe entspricht der Gesamtanzahl aller geplanten Stunden aus allen Wiederholungen.
+
 1. Klicken **Übersicht** im linken Bereich.
 1. Scrollen Sie nach unten zum **Intervallzeitplan** und wählen Sie dann die **Machen Sie dies zu einer wiederkehrenden Aufgabe** -Option.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. Im **Häufigkeit** in der Dropdown-Liste die Anzahl der Zeiteinheiten, in denen die Aufgabe ausgeführt werden soll, und die Zeiteinheiten auswählen. Wählen Sie aus den folgenden Optionen aus:
+1. Im **Häufigkeit** in der Dropdown-Liste die Anzahl der Zeiteinheiten, in denen die Aufgabe ausgeführt werden soll, und die Zeiteinheiten auswählen. Wählen Sie aus den folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,4 +131,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!IMPORTANT]
    >
-   >Die Änderung der übergeordneten Wiederholung nach der individuellen Änderung der untergeordneten Elemente kann zu unterschiedlichen Informationen zwischen den untergeordneten Elementen oder zwischen den untergeordneten Elementen und dem übergeordneten Element führen. Weitere Informationen finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Die Änderung der übergeordneten Wiederholung nach der individuellen Änderung der untergeordneten Elemente kann zu unterschiedlichen Informationen zwischen den untergeordneten Elementen oder zwischen den untergeordneten Elementen und dem übergeordneten Element führen. Weitere Informationen finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

@@ -7,10 +7,10 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur für alle Kunden in der Vorschau -Umgebung verfügbar.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, <span class="preview">Projekte, Aufgaben und Dokumente</span>.
+> * Probleme, Projekte, Aufgaben und Dokumente.
 >
 >     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
 >
@@ -115,13 +115,13 @@ Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworte
      <li>Karten im Bereich der Karten*</li>
       Dies ist das einzige Erlebnis für Ziele und Karten.
      </li> 
-     <li><span class="preview">Projekte</span></li>
+     <li>Projekte</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Probleme</li> 
-     <li><span class="preview">Aufgaben</span></li>
-     <li><span class="preview">Dokumente</span></li>
+     <li>Aufgaben</li>
+     <li>Dokumente</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die 
 
 >[!NOTE]
 >
->Beim Aktivieren des neuen Beta-Kommentar-Erlebnisses werden Kommentare zu den folgenden übergeordneten Objekten angezeigt:
+>Wenn Sie das neue Kommentarerlebnis aktivieren, werden Kommentare zu den folgenden übergeordneten Objekten angezeigt:
 >
 >* Probleme
->* <span class="preview">Projekte</span>
->* <span class="preview">Aufgaben</span>
+>* Projekte
+>* Aufgaben
 >
 >Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../adm
 
 Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">Bei Verwendung des neuen Kommentar-Erlebnisses wird der Kommentar als Benutzer hinzugefügt, der sich als ein anderer Benutzer angemeldet hat. Es gibt keinen Hinweis darauf, dass er einen Kommentar für den Namen einer anderen Person hinzufügt.
+>Bei Verwendung des neuen Kommentar-Erlebnisses wird der Kommentar als Benutzer hinzugefügt, der sich als ein anderer Benutzer angemeldet hat. Es gibt keinen Hinweis darauf, dass er einen Kommentar für den Namen einer anderen Person hinzufügt.
 >
->Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 Ein Gruppenadministrator kann im Namen einer anderen Person Kommentare abgeben, diesen Kommentar jedoch nicht löschen. Nur ein Adobe Workfront-Administrator kann einen Kommentar löschen, den er für einen anderen Benutzer abgegeben hat.

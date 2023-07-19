@@ -6,9 +6,9 @@ description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt 
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Dies wird nur bei den übergeordneten wiederkehrenden Aufgaben angezeigt. Es zeigt die Dauer jeder wiederkehrenden Aufgabe an. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>NOTIZ</b>
+      <td> <p>Dies wird nur bei den übergeordneten wiederkehrenden Aufgaben angezeigt. Er zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>NOTIZ</b>
 
    Die in einzelnen wiederkehrenden Aufgaben geänderten Zeiträume zeigen nicht den in diesem Feld angegebenen Wert an. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
    </tr> 
    <tr> 
    <td role="rowheader">Geplante Stunden</td> 
-   <td> <p>Geben Sie die Anzahl der geplanten Stunden für die Aufgabe in Stunden an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn für den Typ "Dauer"die Option "Berechnete Zuweisung"ausgewählt ist. Weitere Informationen zu Dauer-Typen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>.</p> </td> 
+   <td> <p>Geben Sie die Anzahl der geplanten Stunden für die Aufgabe in Stunden an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn für den Typ "Dauer"die Option "Berechnete Zuweisung"ausgewählt ist. Weitere Informationen zu Dauer-Typen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>.</p> 
+   <b>NOTIZ</b>
+   <p>
+   Bei der Erstellung wiederkehrender Aufgaben sind die geplanten Stunden die Aufgaben jedes Vorkommens. Die geplanten Stunden der übergeordneten Aufgaben entsprechen der Gesamtzahl aller geplanten Stunden von allen Vorkommen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Zuteilung</td> 

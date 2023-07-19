@@ -8,10 +8,10 @@ description: Übersicht über wiederkehrende Aufgaben
 author: Alina
 feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 3%
+source-wordcount: '679'
+ht-degree: 2%
 
 ---
 
@@ -43,14 +43,14 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 * Sie können einer vorhandenen Aufgabe keine Wiederholungshäufigkeit hinzufügen.
 * Wiederkehrende Aufgaben werden als Unteraufgaben oder untergeordnete Aufgaben für das Hauptvorkommen angezeigt, das als übergeordnete Aufgabe angezeigt wird.
 * Eine Genehmigung kann nicht an eine übergeordnete wiederkehrende Aufgabe angehängt werden.
-* Workfront überträgt die meisten Felder, die Sie beim Erstellen für die übergeordnete Wiederholung aktualisieren, an die untergeordneten Aufgaben. Die folgenden Felder werden bei ihrer Erstellung nicht an die untergeordneten Aufgaben übertragen:
+* Workfront überträgt die meisten Felder, die Sie beim Erstellen für die übergeordnete Wiederholung aktualisieren, an die untergeordneten Aufgaben. Die folgenden Felder werden bei ihrer Erstellung nicht an die untergeordneten Aufgaben übertragen:
 
    * Die Aufgabenbegrenzung der untergeordneten Aufgaben ändert sich automatisch in:
 
       * Muss bei Projekten beginnen, die ab dem Startdatum geplant sind.
       * Muss für Projekte, die ab dem Abschlussdatum geplant sind, abgeschlossen sein.
-   * Die mit dem Elternteil verknüpften Dokumente werden nicht an die untergeordneten Elemente übertragen.
 
+   * Die mit dem Elternteil verknüpften Dokumente werden nicht an die untergeordneten Elemente übertragen.
 
 * Die folgenden Änderungen betreffen die übergeordnete Aufgabe, nachdem Sie angegeben haben, dass die Aufgabe wiederkehrend ist:
 
@@ -60,6 +60,7 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 
       * Einfach
       * Leistungsgesteuert
+* Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden jeder Wiederholung. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe entspricht der Gesamtanzahl aller geplanten Stunden aus allen Wiederholungen.
 
 ## Überlegungen zum Bearbeiten wiederkehrender Aufgaben
 
@@ -89,7 +90,7 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger an den unt
 | Dauer Typ | Aktualisieren der untergeordneten Elemente nicht |
 | Benutzerdefinierte Formulare - Informationen | Aktualisieren der untergeordneten Elemente nicht |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Die folgenden Szenarien bestehen, wenn Sie die Häufigkeit der Wiederholungen einer übergeordneten Aufgabe aktualisieren:
 
