@@ -4,9 +4,9 @@ title: Zusammenfassungsübersicht
 description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Sie können nur eine Aufgabe oder ein Problem gleichzeitig auswählen, um ihre Details im [!UICONTROL Zusammenfassung] Bereich.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Zusammenfassungsbereich](assets/summary-panel-for-task.png)
 
 1. (Optional) So schließen Sie die [!UICONTROL Zusammenfassung] einen der folgenden Schritte ausführen:
 
    * Klicken Sie in einer Aufgaben- oder Problemliste auf die **[!UICONTROL Zusammenfassung öffnen]** icon ![](assets/summary-panel-icon.png)
 
-      Oder
+     Oder
 
-      Klicken Sie auf **X** rechts oben im [!UICONTROL Zusammenfassung] Bereich.
+     Klicken Sie auf **X** rechts oben im [!UICONTROL Zusammenfassung] Bereich.
 
    * Im [!UICONTROL Gesendet] Abschnitt [!UICONTROL Anforderungen] Bereich, klicken Sie auf **[!UICONTROL Zusammenfassung schließen]** icon ![](assets/close-summary-with-text-nwe.png)
 
-      Oder
+     Oder
 
-      Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds &quot;Zusammenfassung&quot;angezeigt.
+     Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds &quot;Zusammenfassung&quot;angezeigt.
 
 ## [!UICONTROL Prozent abgeschlossen]
 

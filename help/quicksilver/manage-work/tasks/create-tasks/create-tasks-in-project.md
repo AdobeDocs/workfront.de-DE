@@ -6,9 +6,9 @@ description: Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie d
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Informationen zum Erstellen persönlicher Aufgaben, die sich nicht in einem Proj
 
 In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen. Sie können Aufgaben auch wie folgt erstellen:
 
-* Durch Kopieren oder Duplizieren vorhandener Aufgaben. Weitere Informationen finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* durch Verschieben von Aufgaben von einem Projekt in ein anderes. Weitere Informationen finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Durch Kopieren oder Duplizieren vorhandener Aufgaben. Weitere Informationen finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* durch Verschieben von Aufgaben von einem Projekt in ein anderes. Weitere Informationen finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Zugriffsanforderungen
 
@@ -89,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer agilen Ansicht anzeigen, klicken Sie auf die Schaltfläche **Listenansicht** icon ![](assets/list-view-in-agile-view-for-tasks.png) in der oberen rechten Ecke, um die Aufgabenliste anzuzeigen.
 1. (Optional) Klicken Sie auf die **Planmodus** icon ![](assets/nwe-plan-mode-icon-task-list.png) und wählen Sie **Manuelles Speichern** Wählen Sie entweder **Standard** oder **Timeline-Planung**. Dadurch wird die **Automatische Speicherung** -Option, die standardmäßig aktiviert ist.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Manuelles Speichern auswählen](assets/manual-save-option.png)
 
    >[!TIP]
    >

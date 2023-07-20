@@ -6,9 +6,9 @@ description: Die Definition einer Arbeitsaufschlüsselungsstruktur (Work Breakdo
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1745'
 ht-degree: 1%
 
 ---
@@ -48,23 +48,23 @@ Stellen Sie bei der Definition von Aufgaben sicher, dass Sie nicht zu viel Arbei
 Um WBS-Ergebnisse und -Lieferziele in Workfront zu definieren, empfehlen wir die folgenden Aktivitäten, um eine hierarchische Ansicht der Projektaufgaben zu erstellen:
 
 * Erstellen Sie ein neues Projekt, falls noch nicht geschehen.\
-   Informationen zum Erstellen eines Projekts finden Sie im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+  Informationen zum Erstellen eines Projekts finden Sie im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 * Erstellen Sie Aufgaben für alle Aktionselemente, die zum Abschließen jedes Ergebnisses und jeder Bereitstellung erforderlich sind.\
-   Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Ermitteln Sie aus den soeben erstellten Aufgaben, welche der wichtigsten Ergebnisse sind, und ordnen Sie sie Meilensteinen zu.\
-   Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Schlüsseln Sie die Aufgaben mit einem zu großen Bereich in Unteraufgaben auf. Ordnen Sie sie dem übergeordneten Element zu, das Ihr Deliverable definiert.\
-   Informationen zum Erstellen von Unteraufgaben finden Sie im Artikel [Erstellen von Unteraufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Informationen zum Erstellen von Unteraufgaben finden Sie im Artikel [Erstellen von Unteraufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identifizieren Sie Abhängigkeitsbeziehungen zwischen Unteraufgaben und zwischen Meilensteinen.\
-   In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer anderen Gruppe von Aufgaben ab.\
-   Weitere Informationen zu Aufgabenabhängigkeiten finden Sie in den Artikeln [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) und [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer anderen Gruppe von Aufgaben ab.\
+  Weitere Informationen zu Aufgabenabhängigkeiten finden Sie in den Artikeln [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) und [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Bestimmen Sie, ob zu einem beliebigen Zeitpunkt der Projektlebensdauer Genehmigungen und Überprüfungen erforderlich sind. Erstellen Sie Validierungsprozesse, um diese Anforderungen zu erfüllen.\
-   Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Schätzen des Arbeitsplanes und der Zeitpläne
 
@@ -74,22 +74,22 @@ Beachten Sie Folgendes:
 
 * Aufgabenbegrenzungen definieren, wann die Arbeit an einer Aufgabe beginnen oder enden muss.
 
-   Informationen zum Definieren von Aufgabenbegrenzungen finden Sie im Artikel [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Informationen zum Definieren von Aufgabenbegrenzungen finden Sie im Artikel [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Die Dauer einer Aufgabe ist der Zeitrahmen, der zum Abschließen einer Aufgabe verfügbar ist. Bei der Schätzung der Dauer können Sie einen Wert eingeben, der die Möglichkeit einer Verzögerung berücksichtigt. Wenn ähnliche Projekte in der Vergangenheit abgeschlossen wurden, ist es möglicherweise sinnvoll, diesen Wert festzulegen.
 
-   Da die Dauer eine Schätzung ist, sollten Sie sicherstellen, optimistische Zeitwerte festzulegen, um Faktoren zu berücksichtigen, die die Aufgabe beeinflussen könnten, wie Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Stellen Sie außerdem sicher, dass Sie überlegen, ob es zugehörige Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen bei der Arbeit platzieren und die Aufgabenfertigstellung beeinflussen können.
+  Da die Dauer eine Schätzung ist, sollten Sie sicherstellen, optimistische Zeitwerte festzulegen, um Faktoren zu berücksichtigen, die die Aufgabe beeinflussen könnten, wie Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Stellen Sie außerdem sicher, dass Sie überlegen, ob es zugehörige Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen bei der Arbeit platzieren und die Aufgabenfertigstellung beeinflussen können.
 
-   Je nach Dauer der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Je nach Dauer der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Aufgaben zuweisen
 
 Nachdem Sie die Dauer und die Begrenzungen jeder Aufgabe definiert haben, können Sie bestimmen, wer über die Zeit und die Fertigkeiten verfügt, um die Arbeit zu erledigen. Sie können den folgenden Entitäten in Workfront Aufgaben zuweisen:
 
 * Benutzende\
-   Aufgaben können nur Benutzern mit der Zugriffsebene Planer oder Worker zugewiesen werden. Sie können zwar Anforderungen und Validierern Aufgaben zuweisen, diese jedoch nicht abschließen. Aus diesem Grund wird empfohlen, ihnen keine Aufgaben zuzuweisen.
+  Aufgaben können nur Benutzern mit der Zugriffsebene Planer oder Worker zugewiesen werden. Sie können zwar Anforderungen und Validierern Aufgaben zuweisen, diese jedoch nicht abschließen. Aus diesem Grund wird empfohlen, ihnen keine Aufgaben zuzuweisen.
 
-   Informationen zu den Zugriffsebenen und dazu, wie sie definieren, was Benutzer mit Workfront-Objekten tun können, finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Informationen zu den Zugriffsebenen und dazu, wie sie definieren, was Benutzer mit Workfront-Objekten tun können, finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Aufgabengebiete
 * Teams
@@ -150,7 +150,7 @@ Sie können die Aufgabenliste auf Projektebene anzeigen.
 
    Die Struktur der Arbeitsaufschlüsselung wird in der zweiten Spalte der ausgewählten Ansicht angezeigt.
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![Aufschlüsselungsstruktur der Arbeit in einer Aufgabenliste](assets/work-breakdown-structure.png)
 
 ### Anzeigen von WBS in einem Aufgabenbericht {#view-the-wbs-in-a-task-report}
 

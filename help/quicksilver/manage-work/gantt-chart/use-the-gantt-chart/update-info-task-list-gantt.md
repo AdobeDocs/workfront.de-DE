@@ -6,9 +6,9 @@ description: Das Gantt-Diagramm der Aufgabenliste zeigt Details zu Aufgaben an, 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. Klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
@@ -87,7 +87,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >   
    >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
    >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
-
+   >   
+   >
 
 1. Klicken **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
 
@@ -118,7 +119,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >   
    >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
    >   * [!DNL Windows]: [!UICONTROL Strg + Z verwenden] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
-
+   >   
+   >
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** .
 
@@ -152,7 +154,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >   * [!UICONTROL So spät wie möglich (SSWM)]
    >   * [!UICONTROL Frühestmögliche Zeit]
    >   * [!UICONTROL Spätestmögliche Zeit]
-
    >   
    >   
    >In einigen Fällen können die Vorgängerbeziehungen verhindern, dass die Aufgaben früher gestartet werden, und die Verschiebung der Aufgabe ist nicht zulässig.
@@ -167,7 +168,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >   
    >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
    >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
-
+   >   
+   >
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -189,6 +191,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, um Ihre Änderungen manuell zu speichern, klicken Sie auf die **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
@@ -200,7 +203,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >   
    >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
    >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
-
+   >   
+   >
 
 1. Klicken **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
 

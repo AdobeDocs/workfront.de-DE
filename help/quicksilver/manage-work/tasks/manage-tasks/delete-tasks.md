@@ -6,9 +6,9 @@ description: Sie können Aufgaben löschen, die möglicherweise dupliziert oder 
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Wenn die Aufgabe Stunden protokolliert hat, muss der Workfront- oder Gruppenadministrator das Löschen dieser Aufgaben zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz konfiguriert. Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, bei denen Aufgaben mit aufgezeichneten Stunden ausgeführt werden.
 
-   <!--
+  <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-   Weitere Informationen zum Aktivieren des Löschens von Aufgaben, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Weitere Informationen zum Aktivieren des Löschens von Aufgaben, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Auswirkungen des Löschens von Aufgaben {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ Die folgenden Objekte, die an eine Aufgabe angehängt sind, werden auch beim Lö
 
 * Dokumente
 
-   Sie können eine Aufgabe nicht löschen, der ein ausgechecktes Dokument angehängt ist. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Dokumente auschecken](../../../documents/managing-documents/check-out-documents.md).
+  Sie können eine Aufgabe nicht löschen, der ein ausgechecktes Dokument angehängt ist. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Dokumente auschecken](../../../documents/managing-documents/check-out-documents.md).
 
 * Probleme
 * Teilaufgaben
@@ -85,21 +85,21 @@ Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zu
 * Wechseln Sie zum Projekt und werden nicht in der Aufgabe wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
 * werden gelöscht und für die Aufgabe wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
 
-   Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, bei denen Aufgaben mit aufgezeichneten Stunden ausgeführt werden.
+  Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, bei denen Aufgaben mit aufgezeichneten Stunden ausgeführt werden.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
 
-   Weitere Informationen zum Konfigurieren der Löscheinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Weitere Informationen zum Konfigurieren der Löscheinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Die Ausgaben für die Aufgabe werden in das Projekt verschoben.
 
 * Die der Aufgabe oder der Aufgabenvalidierung zugewiesenen Benutzer verbleiben im Projektteam.
 
-   Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Aufgaben löschen
 
@@ -121,9 +121,10 @@ Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zu
       1. Klicken **Löschen**, dann **Ja, löschen** , um den Löschvorgang zu bestätigen.
 
          Die Aufgaben werden gelöscht.
+
    1. (Bedingt) Klicken Sie auf die **Planmodus** Symbol und wählen Sie **Manuelles Speichern** , wenn Sie die Änderungen rückgängig machen möchten, die Sie an der Aufgabenliste vornehmen.
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![Manuelles Speichern auswählen](assets/manual-save-option.png)
 
       Gehen Sie wie folgt vor:
 
@@ -134,7 +135,6 @@ Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zu
       1. Klicken **Speichern** , um die Aufgaben zu löschen.
 
          Aufgaben werden erst gelöscht, nachdem Sie Ihre Änderungen gespeichert haben.
-
 
 ### Löschen einer einzelnen Aufgabe {#delete-a-single-task}
 
