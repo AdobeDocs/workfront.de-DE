@@ -6,9 +6,9 @@ description: Das Gantt-Diagramm der Aufgabenliste zeigt Details zu Aufgaben an, 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    Die **[!UICONTROL Automatische Speicherung]** standardmäßig aktiviert ist, werden alle Änderungen automatisch gespeichert.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
 
@@ -131,7 +131,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
 
@@ -178,7 +178,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
 1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
