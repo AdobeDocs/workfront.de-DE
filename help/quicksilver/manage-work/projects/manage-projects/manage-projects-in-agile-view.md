@@ -6,16 +6,14 @@ description: Erforderliche Pläne, Lizenztypen und Zugriffe auf das Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Projekt in der Agile-Ansicht verwalten
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 >[!NOTE]
 >
-><span class="preview">Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
+>Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
 * [Agile Funktionalität in einem Projekt](#agile-functionality-in-a-project)
 * [Unterschiede bei der Verwendung der Agile-Ansicht für ein Projekt im Vergleich zu einer Iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
 1. Wechseln Sie zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten.
-1. Klicken Sie auf **Agile** icon ![Symbol &quot;Agil&quot;](assets/agile-icon-nwe.png).
+1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">Oder</span>
-
-   <span class="preview">Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).</span>
-
-   Das Projekt wird in der standardmäßigen agilen Ansicht angezeigt.
-
-   <span class="preview">In der Umgebung &quot;Vorschau&quot;wird standardmäßig die Pinnwandansicht angezeigt.</span>
+   Die Pinnwandansicht des Projekts wird standardmäßig angezeigt.
 
    ![Vorstandsansicht des Projekts](assets/project-agile-board-view.png)
 
-   (Nur alte agile Ansicht) Wenn Sie das Projekt zuvor in einer benutzerdefinierten agilen Ansicht angezeigt haben, wird das Projekt in dieser Ansicht und nicht in der standardmäßigen agilen Ansicht angezeigt.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Optional) Klicken Sie auf **Konfigurieren** , um Optionen für die Spalten und Karten festzulegen.</span>
+1. (Optional) Klicken Sie auf **Konfigurieren** , um Optionen für die Spalten und Karten festzulegen.
 
-   <span class="preview">Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie in der Pinnwandansicht eines Projekts keine Spaltenrichtlinien definieren können.</span>
+   Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie in der Pinnwandansicht eines Projekts keine Spaltenrichtlinien definieren können.
 
-1. <span class="preview">(Optional) Klicken Sie auf **Verwenden des veralteten agile** , um die ältere agile Ansicht anstelle der Pinnwandansicht zu verwenden.</span>
+1. (Optional) Klicken Sie auf **Verwenden des veralteten agile** , um die ältere agile Ansicht anstelle der Pinnwandansicht zu verwenden.
 
 1. (Optional - Nur ältere Dateiansicht) Wenn Sie eine benutzerdefinierte agile Ansicht erstellt haben oder wenn ein anderer Benutzer eine benutzerdefinierte agile Ansicht erstellt und für Sie freigegeben hat, können Sie sie anstelle der standardmäßigen agilen Ansicht anzeigen.
 
@@ -200,14 +192,13 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
    Um der agilen Ansicht Status hinzuzufügen, erstellen Sie entweder eine neue agile Ansicht oder passen Sie eine vorhandene agile Ansicht an, wie im Abschnitt &quot;Erstellen oder Anpassen einer Agile-Ansicht&quot;im Artikel beschrieben. [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf die **Liste** Symbol.\
-   ![Listen-Symbol](assets/list-icon.png)
+1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf die **Liste** Symbol.
 
 ## Erstellen und Anpassen von Agile-Ansichten {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
+>Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
 Wie bei standardmäßigen Ansichten in Workfront können Sie vorhandene agile Ansichten anpassen oder neue agile Ansichten von Grund auf neu erstellen. Im Gegensatz zu Standardansichten können Sie keine neuen agilen Ansichten basierend auf vorhandenen agilen Ansichten erstellen.
 
@@ -217,7 +208,7 @@ Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie im 
 
 >[!NOTE]
 >
-><span class="preview">Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
+>Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
 Informationen zum Freigeben einer agilen Ansicht finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Informationen zum Freigeben einer agilen Ansicht finden Sie unter [Filter, Ansic
 
 >[!NOTE]
 >
-><span class="preview">Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
+>Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
 Informationen zum Löschen einer Ansicht finden Sie im Abschnitt &quot;Ansicht entfernen&quot;im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

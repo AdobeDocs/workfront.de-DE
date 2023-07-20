@@ -6,16 +6,14 @@ description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeige
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
-
-{{highlighted-preview}}
 
 Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können mehrere Arten von Ansichten in Adobe Workfront verwenden.
 
@@ -150,16 +148,12 @@ Weitere Informationen zu Agile-Ansichten finden Sie im Artikel [Projekt in der A
 
 >[!NOTE]
 >
-><span class="preview">Dieses Verfahren gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.</span>
+>Dieses Verfahren gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
 So erstellen oder passen Sie eine Agile-Ansicht an:
 
 1. Rufen Sie die Liste der Aufgaben eines Projekts auf.
-1. Klicken Sie auf **Agile Storyboard** icon ![Symbol &quot;Agile Storyboard&quot;](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">Oder</span>
-
-   <span class="preview">Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png)und klicken Sie anschließend auf **Verwenden des veralteten agile** in der Pinnwandansicht.</span>
+1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png)und klicken Sie anschließend auf **Verwenden des veralteten agile** in der Pinnwandansicht.
 
 1. (Bedingt) So passen Sie eine vorhandene Agile-Ansicht an:
 
@@ -255,4 +249,4 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
 1. Klicken Sie auf **Speichern**.\
    Ihr Zugriff bestimmt, wie die Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version zu speichern. Beachten Sie, dass sich Änderungen an der Ansicht auf Benutzer auswirken, für die die Ansicht freigegeben wurde.
 
-1. (Optional) Klicken Sie auf die **Listenansicht** icon ![](assets/list-view-in-agile-view-for-tasks.png) , um zur Aufgabenliste zurückzukehren.
+1. (Optional) Klicken Sie auf die **Liste** -Symbol, um zur Liste der Aufgaben zurückzukehren.

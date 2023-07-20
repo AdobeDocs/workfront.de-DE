@@ -6,9 +6,9 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
       <td role="rowheader"><strong>[!UICONTROL Kommentare]</strong></td>
       <td><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>HINWEIS:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
       </p><p>Klicken <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
-      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p><p><strong>HINWEIS:</strong> Kommentare zu Karten sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</p></td>
+      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Beispielbild in der Produktionsumgebung, wenn das frühe Feature-Opt-in nicht verwendet wird:
-   ![Ad-hoc-Kartendetails](assets/boards-edit-ad-hoc-card-041723.png)
-
-   Beispielbild in der Produktionsumgebung, wenn die frühe Funktion aktiviert ist:
    ![Ad-hoc-Kartendetails](assets/ad-hoc-card-details-with-comments.png)
 
    Verwenden Sie das linke Navigationsfenster, um zwischen den Bereichen der Felder in den Kartendetails zu wechseln.

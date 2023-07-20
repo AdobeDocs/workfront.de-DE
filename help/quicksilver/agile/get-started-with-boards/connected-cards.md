@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Kommentare]</strong></td>
       <td><p>Klicken Sie in <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren, und klicken Sie auf <strong>Anlage hinzufügen</strong> icon <img src="assets/attachment-icon.png" alt="Anlagensymbol"> , um eine Datei an den Kommentar anzuhängen. Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein. Benutzer mit Tags auf verbundenen Karten erhalten E-Mail-Benachrichtigungen.</p><p>Klicken <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
-      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p><p><strong>HINWEIS:</strong> Kommentare zu Karten sind nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</p></td>
+      <p><strong>HINWEIS:</strong> Der Kommentarbereich auf Karten verwendet das neue Adobe Workfront-Kommentarerlebnis. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Systemaktivität]</strong></td> 
-      <td><p>Wenn Sie <strong>Systemaktivität</strong> als Kartenabschnitt aktiviert wurde, wird die Aktivität in diesem Bereich angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassen der angezeigten Felder auf einer Karte</a> und <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Vom System verfolgte Aktualisierungen</a>.</p><p><strong>HINWEIS:</strong> Die Systemaktivität ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</p></td>
+      <td><p>Wenn Sie <strong>Systemaktivität</strong> als Kartenabschnitt aktiviert wurde, wird die Aktivität in diesem Bereich angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassen der angezeigten Felder auf einer Karte</a> und <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Vom System verfolgte Aktualisierungen</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

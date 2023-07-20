@@ -6,7 +6,7 @@ description: Sie können eine Pinnwand so filtern, dass nur bestimmte Karten ang
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtern und Suchen in einer Pinnwand
-
-{{highlighted-preview}}
 
 Sie können eine Pinnwand filtern, um Folgendes anzuzeigen:
 
@@ -26,7 +24,7 @@ Sie können eine Pinnwand filtern, um Folgendes anzuzeigen:
 * Archivierte Karten
 * Karten, die mit einem bestimmten Projekt verbunden sind
 
-<span class="preview">Durch Sortieren der Pinnwand werden alle Karten in den Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.</span>
+Durch Sortieren der Pinnwand werden alle Karten in den Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.
 
 Die Suche hilft Ihnen auch, eine bestimmte Karte auf der Pinnwand zu finden.
 
@@ -110,8 +108,6 @@ Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie könn
 
    ![Nach Verbindung filtern](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Auf Pinnwand sortieren
 
 Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.
@@ -130,8 +126,6 @@ Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einze
    Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird auf dem Sortiersymbol ein Indikator angezeigt ![Angewandte Sortierung](assets/sort-applied-boards.png).
 
    ![Nach Spalten auf einer Pinnwand sortieren](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Durchsuchen einer Pinnwand
 
