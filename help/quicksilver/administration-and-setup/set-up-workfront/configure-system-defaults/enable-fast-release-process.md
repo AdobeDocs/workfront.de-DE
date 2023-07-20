@@ -7,7 +7,7 @@ description: Sie können auswählen, ob Sie monatlich oder vierteljährlich neue
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Sie können entscheiden, ob Sie neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhalten möchten.
 

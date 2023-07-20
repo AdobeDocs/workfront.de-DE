@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 5%
@@ -20,8 +20,6 @@ ht-degree: 5%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
-
-{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -70,8 +68,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">Schnellüberprüfungsprozess aktivieren</span></p> </td> 
-      <td><span class="preview">Ermöglicht die Aktivierung der monatlichen Workfront-Versionen für Ihr Unternehmen anstelle der vierteljährlichen Versionen.</p><p>Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren</a>.</span></p></td> 
+      <td role="rowheader"> <p>Schnellüberprüfungsprozess aktivieren</p> </td> 
+      <td>Ermöglicht die Aktivierung der monatlichen Workfront-Versionen für Ihr Unternehmen anstelle der vierteljährlichen Versionen.</p><p>Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Einbetten von <strong>Workfront</strong> in einem iFrame</p> </td> 
