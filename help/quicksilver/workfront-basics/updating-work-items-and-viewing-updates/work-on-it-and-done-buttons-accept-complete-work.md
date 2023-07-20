@@ -6,8 +6,9 @@ title: Überblick über die Bearbeitung und Fertig-Schaltflächen
 description: Wenn Sie einer Aufgabe oder einem Problem zugewiesen sind, können Sie eine kontextbezogene Schaltfläche verwenden, mit der Sie Namen ändern und abhängig von Ihrer Beteiligung am Arbeitselement funktionieren.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -26,19 +27,19 @@ Je nachdem, in welchem Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Probl
 
 * Wenn die Aufgabe oder das Problem Ihnen zum ersten Mal zugewiesen wird und der Status Neu lautet, wird die Schaltfläche als Bearbeitung angezeigt.
 
-   ![](assets/nwe-work-on-it-button.png)
+  ![](assets/nwe-work-on-it-button.png)
 
-   >[!TIP]
-   >
-   >Sie können die Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start ersetzen. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter  [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >[!TIP]
+  >
+  >Sie können die Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start ersetzen. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter  [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
 * Nachdem Sie auf &quot;Bearbeitung für Annahme bearbeiten&quot;geklickt haben, ändert sich die Schaltfläche in Fertig markieren , je nachdem, von wo aus Sie in Workfront auf die Aufgabe oder das Problem zugreifen. Informationen darüber, wo Sie auf die Schaltfläche &quot;Bearbeiten&quot;zugreifen können, finden Sie im Abschnitt [Suchen Sie die Schaltfläche &quot;Bearbeiten&quot;und &quot;Fertig&quot;](#locate-the-work-on-it-and-done-button) in diesem Artikel.
 
-   ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![](assets/nwe-mark-as-done-button-350x122.png)
 
 * Wenn Sie nicht die einzige der Aufgabe oder dem Problem zugewiesen sind und über die Arbeitsliste im Bereich &quot;Startseite&quot;auf Ihr Arbeitselement zugreifen, ändert sich die Schaltfläche in Fertig mit meinem Teil.
 
-   ![](assets/home-left-done-with-my-part-button-350x184.png)
+  ![](assets/home-left-done-with-my-part-button-350x184.png)
 
 ## Suchen Sie die Schaltfläche &quot;Bearbeiten&quot;und &quot;Fertig&quot; {#locate-the-work-on-it-and-done-button}
 
@@ -46,15 +47,15 @@ Die Schaltflächen Bearbeiten und Fertig finden Sie in den folgenden Bereichen v
 
 * Der Bereich &quot;Startseite&quot;, sowohl in der Arbeitsliste als auch im Detailbereich
 
-   Informationen zum Markieren eines Elements als &quot;Fertig&quot;im Bereich &quot;Startseite&quot;finden Sie unter [Markieren eines Elements als Fertig im Bereich &quot;Startseite&quot;](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Informationen zum Markieren eines Elements als &quot;Fertig&quot;im Bereich &quot;Startseite&quot;finden Sie unter [Markieren eines Elements als Fertig im Bereich &quot;Startseite&quot;](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * In der Kopfzeile der Aufgabe oder des Problems
 
-   Informationen zu den Objektüberschriften finden Sie unter [Neue Objektüberschriften](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Informationen zu den Objektüberschriften finden Sie unter [Neue Objektüberschriften](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * Im Fenster der Aufgaben- oder Problemzusammenfassung in einer Liste oder im Arbeitslastausgleich
 
-   Informationen zur Verwendung des Bedienfelds &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Informationen zur Verwendung des Bedienfelds &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Übersicht über die Felder, die automatisch aktualisiert werden, wenn Sie auf die Schaltfläche &quot;Bearbeiten und Fertig&quot;klicken
 
@@ -70,13 +71,13 @@ Wenn Sie auf Bearbeiten klicken, werden auch die folgenden Elemente aktualisiert
 
 * Aktualisierungen des Zuweisungsstatus von angefordert zur Arbeit
 
-   >[!TIP]
-   >
-   >Das Feld Zuweisungsstatus ist nur in Berichten und Listen sichtbar. Weitere Informationen zum Feld Zuweisungsstatus finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >Das Feld Zuweisungsstatus ist nur in Berichten und Listen sichtbar. Weitere Informationen zum Feld Zuweisungsstatus finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Commit date
 
-   Weitere Informationen zum Datum des Commit finden Sie unter [Datum bestätigen - Übersicht](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Weitere Informationen zum Datum des Commit finden Sie unter [Datum bestätigen - Übersicht](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Schaltfläche &quot;Start&quot; {#start-button}
 
@@ -87,11 +88,11 @@ Zusätzlich zu den Feldern, die aktualisiert werden, wenn Sie auf die Schaltflä
 * Status
 * Tatsächliches Startdatum
 
-   Informationen zum tatsächlichen Startdatum finden Sie unter [Übersicht über das tatsächliche Projektstartdatum](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Informationen zum tatsächlichen Startdatum finden Sie unter [Übersicht über das tatsächliche Projektstartdatum](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Tatsächliches Abschlussdatum, wenn die Schaltfläche Start mit einem Status verknüpft ist, der mit &quot;Fertig stellen&quot;oder &quot;Geschlossen&quot;übereinstimmt.
 
-   Informationen zum tatsächlichen Abschlussdatum finden Sie unter [Übersicht über das tatsächliche Abschlussdatum des Projekts](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Informationen zum tatsächlichen Abschlussdatum finden Sie unter [Übersicht über das tatsächliche Abschlussdatum des Projekts](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >
@@ -102,7 +103,6 @@ Zusätzlich zu den Feldern, die aktualisiert werden, wenn Sie auf die Schaltflä
 >* Team-Anforderungen
 >* Aufgabenüberschrift
 >
-
 
 ### Schaltfläche &quot;Fertig&quot; {#the-done-button}
 

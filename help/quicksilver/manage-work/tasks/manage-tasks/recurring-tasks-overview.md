@@ -6,12 +6,13 @@ navigation-topic: manage-tasks
 title: Übersicht über wiederkehrende Aufgaben
 description: Übersicht über wiederkehrende Aufgaben
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,11 +61,11 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 
       * Einfach
       * Leistungsgesteuert
-* Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden jeder Wiederholung. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe entspricht der Gesamtanzahl aller geplanten Stunden aus allen Wiederholungen.
+* Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden eines jeden Vorkommens. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe ist die Gesamtanzahl aller geplanten Stunden von allen Vorkommen.
 
 ## Überlegungen zum Bearbeiten wiederkehrender Aufgaben
 
-Einige Änderungen, die Sie an einer wiederkehrenden übergeordneten Aufgabe vornehmen, werden möglicherweise nicht bei allen vorhandenen Wiederholungen aktualisiert. Untergeordnete Aufgaben, die Fortschritt anzeigen oder einzeln aktualisiert wurden, werden beim Aktualisieren der übergeordneten Aufgabe nicht aktualisiert. Nach Auffassung von Workfront zeigt eine Aufgabe Fortschritte in folgenden Situationen an:
+Einige Änderungen, die Sie an einer übergeordneten Aufgabe für wiederkehrende Aufgaben vornehmen, werden möglicherweise nicht bei allen vorhandenen Vorkommen aktualisiert. Untergeordnete Aufgaben, die Fortschritt anzeigen oder einzeln aktualisiert wurden, werden beim Aktualisieren der übergeordneten Aufgabe nicht aktualisiert. Nach Auffassung von Workfront zeigt eine Aufgabe Fortschritte in folgenden Situationen an:
 
 * Der Status wird aktualisiert und die Aufgabe ist nicht mehr neu
 * Der Prozentsatz für den Abschluss der Aufgabe ist größer als null
@@ -75,7 +76,7 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger an den unt
 | Bei der übergeordneten Aufgabe aktualisierte Felder | Updates werden an unbearbeitete Kinder oder untergeordnete Elemente übertragen, ohne dass ein Fortschritt aufgezeichnet wurde |
 |---|---|
 | Wiederholungsfrequenz* | ms |
-| Arbeitsaufträge&#42;&#42; | ✔ |
+| Arbeitsaufträge | ✔ |
 | Name | ✔ |
 | Beschreibung | ✔ |
 | Priorität | ✔ |
@@ -85,9 +86,9 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger an den unt
 | Umsatztyp | ✔ |
 | Ressourcenabgleich | ✔ |
 | Abgleichsverzögerung | ✔ |
-| Aufgabenbegrenzung | Aktualisieren der untergeordneten Elemente nicht |
+| Aufgabenbeschränkung | Aktualisieren der untergeordneten Elemente nicht |
 | Benutzerdefinierte Forms anhängen oder entfernen | Aktualisieren der untergeordneten Elemente nicht |
-| Dauer Typ | Aktualisieren der untergeordneten Elemente nicht |
+| Dauertyp | Aktualisieren der untergeordneten Elemente nicht |
 | Benutzerdefinierte Formulare - Informationen | Aktualisieren der untergeordneten Elemente nicht |
 
 {style="table-layout:auto"}

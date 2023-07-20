@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: Wiederkehrende Aufgaben erstellen
 description: Sie können wiederkehrende Aufgaben für Aufgaben erstellen, die Sie im Rahmen eines Projekts wiederholen müssen.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >   Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden jeder Wiederholung. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe entspricht der Gesamtanzahl aller geplanten Stunden aus allen Wiederholungen.
+   >   Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden eines jeden Vorkommens. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe ist die Gesamtanzahl aller geplanten Stunden von allen Vorkommen.
 
 1. Klicken **Übersicht** im linken Bereich.
 1. Scrollen Sie nach unten zum **Intervallzeitplan** und wählen Sie dann die **Machen Sie dies zu einer wiederkehrenden Aufgabe** -Option.
