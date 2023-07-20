@@ -3,16 +3,16 @@ title: 23.3 Verbesserungen für Mobilgeräte
 description: 23.3 Verbesserungen für Mobilgeräte
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 23.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

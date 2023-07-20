@@ -4,20 +4,18 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Version 23.3
 
-Auf dieser Seite finden Sie Informationen zu Funktionen, die in der für die Woche vom 17. Juli 2023 geplanten Version 23.3 enthalten sind.
+Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 23.3. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Die Verbesserungen auf dieser Seite sind in der Vorschau -Umgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die Version 23.3 der geplanten Produktionsversion naht.
-
-Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Melden Sie sich hier für das Webinar an](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können [Registrieren Sie sich für das Webinar, um eine On-Demand-Aufzeichnung hier anzuzeigen.](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum 23.3 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 
@@ -116,7 +114,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile Ansicht eines Projekts zeigt ein Kanban-Board an</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile Ansicht eines Projekts zeigt ein Kanban-Board an</a></p>
                         <p>Die Agile-Ansicht eines Projekts enthält jetzt zusätzliche Funktionen zum Filtern, Gruppieren und Sortieren von Arbeiten in einem Kanban-Board. Das neue, flexible Design der Ansicht beinhaltet eine robuste Suchfunktion und die Möglichkeit, dem Projekt direkt aus der Pinnwand neue Aufgaben hinzuzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -132,7 +130,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nach Pinnwandspalten sortieren</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nach Pinnwandspalten sortieren</a></p>
                         <p>Wir haben die Möglichkeit hinzugefügt, die Karten in den Spalten auf einer Pinnwand zu sortieren. Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -189,7 +187,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 15. Juni 2023</p>
                             </li>
                             <li>
-                                 <p>Produktionsversion für frühe Anmeldung: 22. Juni 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 22. Juni 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 10. Mai 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsversion für frühe Anmeldung: 10. Mai 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 10. Mai 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 27. April 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 20. April 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p>
+                                 <p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 20. April 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</span></p></s>
+                                 <s><p>Produktionsversion für frühe Anmeldung: 28. April 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Produktionsversion für alle Kunden: 18. Mai 2023</span></p>
@@ -308,7 +306,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                                 <p>Vorschau-Version: 13. April 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsversion für frühe Anmeldung: 13. April 2023 <span style="color: #ff0000;"> Diese Funktion ist nur in der Produktion verfügbar, wenn die Workfront-Pinnwände bereits über die erste Funktion aktiviert wurden.</p>
+                                 <p>Produktionsversion für frühe Anmeldung: 13. April 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum der tatsächlichen Kosten- und Abrechnungskurse</a></p>
                         <p>Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -346,7 +344,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                             <li>
                                 <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.4<br>
-                                <span style="color: #ff0000;"> Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.</span></p>
+                                Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ Das Webinar zur Version 23.3 wird am 29. Juni 2023 stattfinden. Sie können [Mel
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Starterlebnis</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Starterlebnis</a></p>
                         <p>Um es Benutzern aller Typen zu ermöglichen, Workfront für ihre spezifischen Anforderungen zu nutzen, hat Home ein umfangreiches Update erhalten! Das neue Starterlebnis bietet visuelle und inhaltliche Anpassungen für Ihre Startseite und bietet die Flexibilität, nur die Informationen anzuzeigen, die für Ihre Arbeit am relevantesten sind.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
