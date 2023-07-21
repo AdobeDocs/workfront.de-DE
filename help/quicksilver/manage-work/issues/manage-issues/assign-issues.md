@@ -5,10 +5,11 @@ title: Zuweisen von Problemen
 description: Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für das Abschließen der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter Problemzuweisungen ändern - Übersicht.
 author: Alina
 feature: Work Management
+role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,6 @@ Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer fü
 >
 >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
 >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
-
 
 Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um weitere Informationen zur Problemzuweisung zu erhalten:
 
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Tragen Sie Berechtigungen zu dem Element bei, in das Sie das Problem kopieren und Probleme hinzufügen können.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Tragen Sie Berechtigungen zu dem Element bei, in das Sie das Problem kopieren und Probleme hinzufügen können.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
 
 * Aufgaben oder Probleme werden normalerweise zuerst einer oder mehreren Auftrags- oder Teams zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.
 
-   Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
+  Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
 
    * Wenn nur eine Auftragsrolle zugewiesen ist und sie mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
    * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem dem Benutzer zugewiesen, der eine seiner &quot;Sonstige Rollen&quot;(die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen) erfüllt, sowie allen weiteren zugewiesenen Rollen.
@@ -118,17 +118,21 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
 
    * Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
 
-      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste
    * Klicken **Zuweisen** , um es sich selbst zuzuweisen
    * Klicken **Erweitert**
 
-      Das Erstellen erweiterter Zuweisungen ähnelt dem Erstellen von Aufgaben und Problemen. Informationen zum Ausführen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Das Erstellen erweiterter Zuweisungen ähnelt dem Erstellen von Aufgaben und Problemen. Informationen zum Ausführen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-      >[!TIP]
-      >
-      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >[!TIP]
+     >
+     >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
+     >
+     >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >
+     >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. Klicken **Speichern** , um die Zuweisung des Problems abzuschließen.
@@ -153,14 +157,19 @@ So weisen Sie Probleme in einer Liste zu:
 
    * Klicken Sie in die **Zugeordnet zu** oder **Zugeordnet** und beginnen Sie mit der Eingabe des Namens eines aktiven Benutzers, den Sie dem Problem zuweisen möchten, und klicken Sie dann auf ihn, wenn er in der Liste angezeigt wird.
 
-      ![](assets/assigned-to-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
    * Klicken Sie in die **Zuweisungen** eingeben und den Namen eines aktiven Benutzers, einer Rolle oder eines aktiven Teams eingeben, das Sie dem Problem zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
-      ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assignments-field-task-list-nwe.png)
+
    >[!TIP]
    >
-   >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
+   >
+   >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >
+   Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Bedingt) Wenn im Feld Zuweisungen sichtbar, klicken Sie auf die Schaltfläche **Personensymbol** ![](assets/teams.png) in der rechten oberen Ecke des Zuweisungsfelds, um das Feld Erweiterte Zuweisungen zu öffnen und erweiterte Zuweisungen zu erstellen. Weitere Informationen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

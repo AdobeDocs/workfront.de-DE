@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Validierungsprozess bearbeiten
 description: Wenn Sie Adobe Workfront-Administrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie alle Genehmigungsprozesse im System anzeigen und bearbeiten.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1953'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,6 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 >
 >* Eine Phase über die aktuelle Phase hinaus hinzufügen
 >* Hinzufügen eines zusätzlichen Genehmigers vor der aktuellen Phase
-
 
 ## Zugriffsanforderungen
 
@@ -135,6 +134,7 @@ Sie müssen über Folgendes verfügen:
    <p><b>TIPP</b>:</p>
 
    <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
+      <p>Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a></p>.
 
    <p><b>NOTIZ</b>:
 

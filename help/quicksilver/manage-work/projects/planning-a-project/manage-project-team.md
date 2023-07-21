@@ -4,11 +4,12 @@ navigation-topic: plan-a-project
 title: Verwalten des Projektteams
 description: Das Projektteam besteht aus Benutzern, die mit dem Projekt verknüpft sind. Die Mitglieder des Projektteams werden im Abschnitt Personen des Projekts angezeigt.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -136,7 +137,8 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektt
    >
    >* Sie können keine Benutzer hinzufügen, indem Sie ihre Teams, Gruppen, Unternehmen oder Rollen hinzufügen.
    >* Beachten Sie beim Hinzufügen der Benutzer den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
-
+   >
+   >  Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Klicken **Hinzufügen**.

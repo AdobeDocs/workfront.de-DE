@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Projekte bearbeiten
 description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planungsstatus befindet.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7336'
 ht-degree: 2%
 
 ---
@@ -142,6 +143,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
       * [Informationen im Bereich &quot;Projektübersicht&quot;verwalten](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Informationen im Bereich &quot;Projekt-Finanzen&quot;verwalten](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+
    1. (Optional) Um ein benutzerdefiniertes Formular anzuhängen, geben Sie den Namen eines Formulars in die **Benutzerdefiniertes Formular hinzufügen** und wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
    1. (Optional) Klicken Sie auf die **Export** icon ![](assets/export.png) , um die Übersicht und die benutzerdefinierten Formulardaten in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Export**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -154,6 +156,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Informationen zu den Feldern, die im Abschnitt Projektdetails angezeigt werden, erhalten Sie, wenn Sie mit der Bearbeitung des Projekts im Feld Projekt bearbeiten fortfahren, wie unten beschrieben.
 1. Um alle Informationen zum Projekt zu bearbeiten, klicken Sie auf das **Mehr** Menü ![](assets/qs-more-menu.png) neben dem Namen des Projekts klicken Sie auf **Bearbeiten**.
 
@@ -302,7 +305,11 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
    >[!TIP]
    >
-   >Beachten Sie beim Aktualisieren der Felder &quot;Projekteigentümer&quot;, &quot;Projektsponsor&quot;und &quot;Ressourcen-Manager&quot;den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >Beachten Sie beim Aktualisieren der Felder &quot;Projekteigentümer&quot;, &quot;Projektsponsor&quot;und &quot;Ressourcen-Manager&quot;den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
+   >
+   >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >
+   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Optional) Fahren Sie je nach den zu ändernden Informationen mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -677,15 +684,15 @@ Die folgenden Felder sind standardmäßig in der Projektheader enthalten.
 * Projektbesitzer
 * Geplantes Abschlussdatum und -zeit
 
-   >[!NOTE]
-   >
-   >Sie können dieses Feld nur bearbeiten, wenn das Projekt ab dem Abschlussdatum geplant ist. Wenn das Projekt ab dem Startdatum geplant ist, berechnet Workfront das geplante Abschlussdatum und die geplante Abschlusszeit basierend auf der Dauer der Aufgaben.
+  >[!NOTE]
+  >
+  >Sie können dieses Feld nur bearbeiten, wenn das Projekt ab dem Abschlussdatum geplant ist. Wenn das Projekt ab dem Startdatum geplant ist, berechnet Workfront das geplante Abschlussdatum und die geplante Abschlusszeit basierend auf der Dauer der Aufgaben.
 
 * Bedingung
 
-   >[!NOTE]
-   >
-   >Sie können dieses Feld nur bearbeiten, wenn der Bedingungstyp des Projekts &quot;Manuell&quot;ist. Wenn der Bedingungstyp auf Fortschrittsstatus gesetzt ist, berechnet Workfront die Bedingung basierend auf dem Fortschritt der Aufgaben. Weitere Informationen finden Sie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >[!NOTE]
+  >
+  >Sie können dieses Feld nur bearbeiten, wenn der Bedingungstyp des Projekts &quot;Manuell&quot;ist. Wenn der Bedingungstyp auf Fortschrittsstatus gesetzt ist, berechnet Workfront die Bedingung basierend auf dem Fortschritt der Aufgaben. Weitere Informationen finden Sie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Status
 * Entscheidungsfindung bei Genehmigungseinstellungen, wenn Sie in einem aktuellen Genehmigungsprozess als Genehmiger festgelegt sind
@@ -698,32 +705,31 @@ Beachten Sie beim Massenbearbeitung von Projekten Folgendes:
 
 * Die Informationen, die Sie für alle ausgewählten Projekte ändern, überschreiben die vorhandenen Informationen zu einzelnen Projekten, mit Ausnahme des Felds Ressourcen-Manager .
 
-   Durch Hinzufügen eines neuen Ressourcen-Managers bei der Massenbearbeitung von Projekten wird dieser Manager zu allen ausgewählten Projekten hinzugefügt. Wenn andere Ressourcen-Manager mit den ausgewählten Projekten verknüpft sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten in den Projekten.
+  Durch Hinzufügen eines neuen Ressourcen-Managers bei der Massenbearbeitung von Projekten wird dieser Manager zu allen ausgewählten Projekten hinzugefügt. Wenn andere Ressourcen-Manager mit den ausgewählten Projekten verknüpft sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten in den Projekten.
 
 * Wenn Sie Projekte auswählen, die für dasselbe Feld unterschiedliche Werte aufweisen, wird im Feld &quot;Projekte bearbeiten&quot;die Anzeige &quot;Mehrere Werte&quot;angezeigt. Felder, bei denen es sich um Kontrollkästchen, Optionsfelder und Umschalter handelt, weisen neben ihnen die Anzeige &quot;Mehrere Werte&quot;auf.
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Wenn sich die ausgewählten Optionen in mindestens einem der ausgewählten Projekte unterscheiden, werden neben der Anzeige &quot;Mehrere Werte&quot;Felder mit mehreren Optionen auf eine der folgenden Arten angezeigt:
 
    * Kontrollkästchen-Felder haben eine Zeile anstelle eines Kontrollkästchens für die Option, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Felder vom Typ Umschalten werden abgeblendet angezeigt, wobei der Umschalter in der Mitte für die Option aktiviert ist, der für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
-   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Felder vom Typ Radiobutton, für die einige Optionen, aber nicht alle ausgewählt sind, zeigen alle Optionsfelder als leer an.
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
+     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wenn Sie eine Option in einem Feld mit mehreren Optionen aktualisieren (z. B. ein Feld, das als Satz von Umschaltern oder Kontrollkästchen angezeigt wird), müssen alle anderen Optionen zwischen den ausgewählten Projekten übereinstimmen.
 
-   >[!IMPORTANT]
-   >
-   >Sie können beispielsweise ein Kontrollkästchen mit drei Kontrollkästchen (Option 1, Option 2 und Option 3) und Option 1 ist für alle Projekte deaktiviert und Option 2 und 3 für einige und deaktiviert für andere Projekte, die Sie ausgewählt haben. Wenn Sie Option 1 für alle Projekte aktivieren möchten, müssen Sie auch Option 2 und 3 für alle ausgewählten Projekte zuordnen, bevor Sie Ihre Änderungen speichern können. Sie müssen sie also entweder auswählen oder die Auswahl aufheben, damit sie für alle ausgewählten Projekte übereinstimmen. Wenn Sie keine der Optionen ändern, können Sie das Feld wie besehen speichern und die Projekte behalten ihre aktuelle Auswahl für alle Optionen bei.
+  >[!IMPORTANT]
+  >
+  >Sie können beispielsweise ein Kontrollkästchen mit drei Kontrollkästchen (Option 1, Option 2 und Option 3) und Option 1 ist für alle Projekte deaktiviert und Option 2 und 3 für einige und deaktiviert für andere Projekte, die Sie ausgewählt haben. Wenn Sie Option 1 für alle Projekte aktivieren möchten, müssen Sie auch Option 2 und 3 für alle ausgewählten Projekte zuordnen, bevor Sie Ihre Änderungen speichern können. Sie müssen sie also entweder auswählen oder die Auswahl aufheben, damit sie für alle ausgewählten Projekte übereinstimmen. Wenn Sie keine der Optionen ändern, können Sie das Feld wie besehen speichern und die Projekte behalten ihre aktuelle Auswahl für alle Optionen bei.
 
 * Wenn Sie mehrere Projekte auswählen, die zu verschiedenen Gruppen gehören, werden im Feld Status die Status auf Systemebene und nicht der Status auf Gruppenebene angezeigt.
 

@@ -5,11 +5,12 @@ navigation-topic: manage-projects
 title: Informationen im Bereich "Projektübersicht"verwalten
 description: Informationen im Bereich "Projektübersicht"verwalten
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1430'
 ht-degree: 4%
 
 ---
@@ -154,10 +155,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Beachten Sie beim Aktualisieren der Felder &quot;Projekteigentümer&quot;, &quot;Projektsponsor&quot;und &quot;Ressourcen-Manager&quot;den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >Beachten Sie beim Aktualisieren der Felder &quot;Projekteigentümer&quot;, &quot;Projektsponsor&quot;und &quot;Ressourcen-Manager&quot;den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
+   >
+   >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   > 
+   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Überprüfen Sie die folgenden Felder im Abschnitt Übersicht . Die folgenden Felder können nicht bearbeitet werden:
+1. Überprüfen Sie die folgenden Felder im Abschnitt Übersicht . Die folgenden Felder können nicht bearbeitet werden:
 
    | Feld | Beschreibung |
    |---|---|

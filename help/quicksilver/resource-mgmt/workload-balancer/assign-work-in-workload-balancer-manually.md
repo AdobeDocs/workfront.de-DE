@@ -5,10 +5,11 @@ title: Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs
 description: Mit dem Adobe Workfront Workload Balancer können Sie Benutzern Arbeitselemente manuell zuweisen.
 author: Alina
 feature: Resource Management
+role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
@@ -83,13 +84,18 @@ Sie können Arbeitselemente zuweisen, die noch keinem Benutzer zugewiesen wurden
    >* Windows: Klicken Sie bei gedrückter Strg-Taste auf die Aufgaben- oder Problemleiste.
    >* In Mac: Klicken Sie bei gedrückter CMD-Taste auf die Aufgaben- oder Problemleiste.
 
-
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams, den/das Sie dem Element im **Suchen nach Personen, Rollen oder Teams** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Speichern**.
+
    >[!TIP]
    >
-   >Beachten Sie beim Hinzufügen eines Benutzers den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >Beachten Sie beim Hinzufügen eines Benutzers den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
+   >
+   >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >
+   > Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
@@ -113,12 +119,12 @@ Sie können Arbeitselemente zuweisen, die noch keinem Benutzer zugewiesen wurden
    >   
    >   * Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
    >   * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
-
+   >   
+   >
 
    * Klicken **Erweitert** , um auf erweiterte Zuweisungen zuzugreifen.
 
-      Weitere Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
+     Weitere Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. (Optional) Klicken Sie auf die **Symbol &quot;Zuordnungen anzeigen&quot;** ![](assets/show-allocations-icon-small.png)und klicken Sie dann auf **Mehr Menü** ![](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
 
