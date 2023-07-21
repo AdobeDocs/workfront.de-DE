@@ -3,9 +3,9 @@ title: 23.3 Administratorverbesserungen
 description: 23.3 Administratorverbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ Der Systemadministrator kann jetzt das Timesheet und die Voreinstellung &quot;Wo
 Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## Logik anzeigen und Logikindikatoren und Regeln überspringen, die in der Beta-Version des Formulardesigners angezeigt werden
+
+Die öffentliche Beta-Version des Formulardesigners wurde am 21. Juli 2023 in der Vorschau und Produktion wieder aktiviert. Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können.
+Wenn Sie ein benutzerdefiniertes Formular in der Beta-Version des Formulardesigners öffnen, das die im alten Formularersteller erstellte Anzeige- oder Auslassungslogik enthält, können Sie jetzt die Logik anzeigen:
+
+* Symbole auf einem Feld auf der Arbeitsfläche des Formularentwurfs zeigen an, dass die Logik für dieses Feld konfiguriert ist oder dass das Feld in Logikregeln verwendet wird, die für andere Felder konfiguriert sind.
+* Wenn Sie ein Feld mit angewendeter Logik auswählen, werden die vorhandenen Logikregeln in den Feldeinstellungen angezeigt.
+
+Die Bearbeitung vorhandener Logik und das Hinzufügen neuer Logik zu einem benutzerdefinierten Formular sind noch nicht in der Beta-Version des Formularentwurfs verfügbar, sind jedoch für die Zukunft geplant.
+
+Weitere Informationen finden Sie unter [Übersicht über den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                             </li>
                             <li>
                                  <p>Produktionsversion: Mit Version 23.2<br />
-                                 <span style="color: #ff0000;">Die Beta-Version des Formulardesigners wurde am 24. Mai 2023 in der Vorschau und Produktion vorübergehend deaktiviert.</span></p>
+                                 <span style="color: #ff0000;">Die Beta-Version des Formulardesigners wurde vom 24. Mai bis 21. Juli 2023 in der Vorschau und Produktion vorübergehend deaktiviert.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Pins in Layout-Vorlage umbenennen</span></a>
-                        </span></a><p>Sie können jetzt Stifte in einer Layoutvorlage umbenennen, um sie für Ihre Benutzer aussagekräftiger zu machen, anstatt den Standardnamen für die fixierte Seite zu verwenden. Pins, die Administratoren erstellen, werden für alle Benutzer angezeigt, die der Layoutvorlage zugewiesen sind, und Benutzer können diese Pins nicht umbenennen.</p>
+                        <p>Sie können jetzt Stifte in einer Layoutvorlage umbenennen, um sie für Ihre Benutzer aussagekräftiger zu machen, anstatt den Standardnamen für die fixierte Seite zu verwenden. Pins, die Administratoren erstellen, werden für alle Benutzer angezeigt, die der Layoutvorlage zugewiesen sind, und Benutzer können diese Pins nicht umbenennen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische Anmelde- und Formensammlungen in der App</span></a>
-                        </span></a><p>Biometrische Anmeldung ist jetzt eine Option für eine schnellere Anmeldung bei der Mobile App! Nachdem die biometrische Verifizierung nach einer ersten Anmeldung eingerichtet wurde, können Benutzer Fingerabdrücke oder Gesichtserkennung verwenden, um sich schnell mit nur gelegentlicher Kennwortüberprüfung erneut bei der App anzumelden. Darüber hinaus wird es eine Reihe von Verbesserungen beim Erscheinungsbild der allgemeinen Anmeldeerfahrung geben, die in einer späteren Aktualisierung eingehen.</p>
+                        <p>Biometrische Anmeldung ist jetzt eine Option für eine schnellere Anmeldung bei der Mobile App! Nachdem die biometrische Verifizierung nach einer ersten Anmeldung eingerichtet wurde, können Benutzer Fingerabdrücke oder Gesichtserkennung verwenden, um sich schnell mit nur gelegentlicher Kennwortüberprüfung erneut bei der App anzumelden. Darüber hinaus wird es eine Reihe von Verbesserungen beim Erscheinungsbild der allgemeinen Anmeldeerfahrung geben, die in einer späteren Aktualisierung eingehen.</p>
                         <p>Karten-Sammlungen werden jetzt auch in der mobilen App unterstützt, sodass mobile Benutzer Sammlungen, auf die sie Zugriff haben, in der Desktop-Version von ihrer Liste der Karten für Mobilgeräte anzeigen können.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -592,7 +592,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportieren von Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront für XD</span></a>
-                        </span></a><p>Im Plug-in Adobe Workfront for XD können Sie jetzt festlegen, Ihre Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien zu exportieren.</p>
+                        <p>Im Plug-in Adobe Workfront for XD können Sie jetzt festlegen, Ihre Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien zu exportieren.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>

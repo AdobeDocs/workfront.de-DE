@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: 18. Mai 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik anzeigen und Logikindikatoren und Regeln überspringen, die in der Beta-Version des Formulardesigners angezeigt werden</a></p>
+                        <p>Die öffentliche Beta-Version des Formulardesigners wurde am 21. Juli 2023 in der Vorschau und Produktion wieder aktiviert. Darüber hinaus können Sie jetzt die vorhandenen Logikregeln anzeigen, die in älteren benutzerdefinierten Formularen im Formularentwickler erstellt wurden.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 21. Juli 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: 21. Juli 2023</p>
                             </li>
                         </ul>
                     </td>
