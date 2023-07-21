@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Sie können zwar beim Entwerfen eines neuen benutzerdefinierten Formulars noch k
 
 Die Symbole in einem Feld im Formularentwickler weisen darauf hin, dass auf das Feld Logik angewendet wird.
 
-Die **D** -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Anzeigelogik ist (wenn im Formular eine bestimmte Auswahl getroffen wurde, wird dieses Feld angezeigt). Die **D** -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Anzeigelogik zu definieren (eine bestimmte Auswahl oder ein Wert in diesem Feld zeigt das Zielfeld an).
+Die ![Logik für Zielfeld anzeigen](assets/display-logic-bottom-left.png) -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Anzeigelogik ist (wenn im Formular eine bestimmte Auswahl getroffen wurde, wird dieses Feld angezeigt). Die ![Symbol für Anzeigenlogik definieren](assets/display-logic-bottom-right.png) -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Anzeigelogik zu definieren (eine bestimmte Auswahl oder ein Wert in diesem Feld zeigt das Zielfeld an).
 
-Die **S** -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Logik zum Überspringen ist (wenn eine bestimmte Auswahl im Formular vorgenommen wird, wird das Formular zu diesem Feld übersprungen). Die **S** -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Logik zum Überspringen zu definieren (eine bestimmte Auswahl oder ein bestimmter Wert in diesem Feld überspringt andere Felder und geht direkt zum Zielfeld).
+Die ![Logik für Zielfeld überspringen](assets/skip-logic-bottom-left.png) -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Logik zum Überspringen ist (wenn eine bestimmte Auswahl im Formular vorgenommen wird, wird das Formular zu diesem Feld übersprungen). Die ![Symbol &quot;Logik überspringen&quot;definieren](assets/skip-logic-bottom-right.png) -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Logik zum Überspringen zu definieren (eine bestimmte Auswahl oder ein bestimmter Wert in diesem Feld überspringt andere Felder und geht direkt zum Zielfeld).
+
+![Logische Symbole](assets/logic-icons-3.png)
 
 Wenn Sie ein Feld mit angewendeter Logik auswählen, werden die vorhandenen Logikregeln in den Feldeinstellungen angezeigt.
 
