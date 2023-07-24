@@ -7,9 +7,9 @@ description: A Select oder Premium [!DNL Workfront] Für die Verwendung dieser F
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Zunächst müssen Sie den Abschnitt Benutzerdefiniertes Feld einrichten, dem Sie
    | **Durchsuchbar** | Ermöglicht Benutzern das Suchen nach Elementen durch Suchen nach den benutzerdefinierten Felddaten. |
    | **Ausgeblendet** | Blendet das benutzerdefinierte Feld im [!UICONTROL Neuer Testversand], neuer Gast und [!UICONTROL Neuer Benutzer] pages |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Im **Benutzerdefiniertes Feld** angezeigt wird, klicken Sie auf die **[!UICONTROL Benutzerdefinierte Feldeinstellungen]** Registerkarte, um die Seite zu aktualisieren.
@@ -75,6 +75,10 @@ Zunächst müssen Sie den Abschnitt Benutzerdefiniertes Feld einrichten, dem Sie
 
    Sie können Werte mithilfe von Kontrollwerten bestimmen, welche Werte im Kontrollfeld angezeigt werden, was bei Auswahl dazu führt, dass das abhängige Feld sichtbar wird. Angenommen, das abhängige Feld ist A und das Kontrollfeld X, und die Kontrollwerte in X sind nur Optionen 1 und 2. Das bedeutet, dass Feld A nur sichtbar ist, wenn Feld X Option 1 oder 2 ausgewählt ist. Wenn also Feld X Optionen 3 oder 4 ausgewählt sind, wird Feld A nicht angezeigt. Öffnen Sie die **[!UICONTROL Sichtbarkeitsregeln]** Registerkarte.
 
+   >[!NOTE]
+   >
+   >Benutzerdefinierte Feldtypen Liste und Radio können in einer Sichtbarkeitsregel nur für das Kontrollfeld verwendet werden, wohingegen das abhängige Feld jeder Feldtyp sein kann.
+
    So fügen Sie eine Sichtbarkeitsregel hinzu:
 
    1. Klicken **[!UICONTROL Neue Sichtbarkeitsregel]** für das Modul, dem Sie die Regel hinzufügen möchten.
@@ -87,6 +91,10 @@ Zunächst müssen Sie den Abschnitt Benutzerdefiniertes Feld einrichten, dem Sie
    Wenn Option 1 in Feld Y ausgewählt ist, werden nur die Optionen 1 und 2 in Feld B angezeigt.
 
    Wenn Option 2 in Feld Y ausgewählt ist, werden nur die Optionen 3 und 4 in Feld B angezeigt.
+
+   >[!NOTE]
+   >
+   >Benutzerdefinierte Feldtypen für Liste und Radio können nur für die abhängigen und gesteuerten Felder in einer Abhängigkeitsregel verwendet werden.
 
    So fügen Sie eine Abhängigkeitsregel hinzu:
 

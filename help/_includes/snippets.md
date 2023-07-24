@@ -1,5 +1,5 @@
 ---
-source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -110,12 +110,11 @@ So richten Sie verknüpfte Ordner ein:
 >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **[!UICONTROL Hauptmenü]** ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite oder (falls verfügbar) klicken Sie auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
 >
 
-
 <!-- Integrations -->
 
 ## Voraussetzungen {#cc-install-prereq}
 
-Sie müssen das richtige Plug-in für die Adobe Creative Cloud-Anwendung installieren, die Sie verwenden:
+Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwendung installieren:
 * Informationen zu Photoshop finden Sie unter [Installieren von Adobe Workfront für Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XD finden Sie unter [Installieren von Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * InDesign, Illustrator, Premiere Pro und After Effects finden Sie unter [Installieren von Adobe Workfront für Design und Video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -239,7 +238,7 @@ Sie müssen das richtige Plug-in für die Adobe Creative Cloud-Anwendung install
 
 ## Neueste DPV-Version {#latest-version}
 
-**Neueste Version**: 2.1.23 ab 23.03.2023
+**Neueste Version**: 2.1.24 ab 15.05.2023
 
 <!-- Release -->
 
@@ -280,20 +279,18 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
    >* Wenn Sie für jeden Arbeitselement-Typ einen Status auswählen, wird der Status der Aufgabe oder des Problems auf diesen Status gesetzt, wenn ein Benutzer auf Fertig für sein Element klickt. Wenn Sie für jeden Arbeitselement-Typ mehrere Status festlegen, wird der Schaltfläche Fertig ein Dropdown-Menü hinzugefügt und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
    >* Sie können nur Status auf Systemebene mit der Schaltfläche Fertig verknüpfen. Sie können keine gruppenspezifischen Status mit den Status der Arbeitselemente verknüpfen.
    >* Wenn ein dem Element zugewiesener Benutzer das Element in den Status setzt, der mit der Schaltfläche Fertig verknüpft ist, wird das Element für diesen Benutzer als Fertig angezeigt, unabhängig davon, ob der von Ihnen ausgewählte Status ein Status &quot;Abgeschlossen&quot;oder &quot;Geschlossen&quot;oder ein Arbeitsstatus ist.
-
    >   
    >   
    >  Wenn Sie beispielsweise die Schaltfläche Fertig mit In Bearbeitung verknüpfen, wird das Arbeitselement für den Benutzer, der den Status von Neu in Gestartet ändert, als Fertig angezeigt.
    >   
    >* Problemtypen können angepasst werden und können andere Namen haben als die unten in Ihrer Umgebung aufgelisteten.\
-      >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
-      >     
-      >   * Aufgaben
-      >   * Problem
-      >   * Anfrage
-      >   * Änderungsanforderung
-      >   * Bug-Bericht
-
+   >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
+   >     
+   >   * Aufgaben
+   >   * Problem
+   >   * Anfrage
+   >   * Änderungsanforderung
+   >   * Bug-Bericht
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den für Ihr Team ausgewählten verschiedenen Status die Option &quot;Fertig mit meinem Teil&quot;angezeigt.
 

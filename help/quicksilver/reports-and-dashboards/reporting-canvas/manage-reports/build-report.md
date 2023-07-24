@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Story</td> 
-       <td> <p>Fügen Sie Text hinzu, der den Informationen im Bericht Kontext gibt.</p> <p>Weitere Informationen finden Sie unter [letzterer Link].</p> </td> 
+       <td> <p>Fügen Sie Text hinzu, der den Informationen im Bericht Kontext gibt.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Webinhalt</td> 
@@ -61,7 +61,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Arbeitsflächenfilter</td> 
-       <td> <p>Fügen Sie einen Filter hinzu, mit dem Benutzer verschiedene Aspekte eines Berichts betrachten können. Dieser Filter gilt für alle Daten des Berichts.</p> <p>Weitere Informationen finden Sie unter [letzterer Link].</p> </td> 
+       <td> <p>Fügen Sie einen Filter hinzu, mit dem Benutzer verschiedene Aspekte eines Berichts betrachten können. Dieser Filter gilt für alle Daten des Berichts.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr> 
      <tr> 
       <td role="rowheader">Bericht favorisieren</td> 
-      <td>Klicken Sie nach dem Verlassen des Bearbeitungsbereichs auf das <strong>Star</strong> Symbol [Symbol] neben dem Namen des Berichts, um ihn zu Ihrer Liste der Lieblingsberichte hinzuzufügen.</td> 
+      <td>Klicken Sie nach dem Verlassen des Bearbeitungsbereichs auf das <strong>Star</strong> neben dem Namen des Berichts klicken, um ihn zu Ihrer Liste der bevorzugten Berichte hinzuzufügen.</td> 
      </tr> 
     </tbody> 
    </table>

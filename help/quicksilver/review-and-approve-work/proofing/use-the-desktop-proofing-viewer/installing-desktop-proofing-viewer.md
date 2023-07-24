@@ -6,9 +6,9 @@ description: Der Desktop Proofing Viewer, der hauptsächlich für die Prüfung i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Installieren des Desktop Proofing Viewers auf Mac
 
-Wenn Ihr Adobe Workfront-Administrator oder Workfront Testversand-Administrator die App auf Ihre Workstation heruntergeladen und den Desktop Proofing Viewer als Standard-Viewer für interaktive Testsendungen konfiguriert hat, können Sie die Installation einfach beenden, indem Sie einen interaktiven Testversand im Bereich &quot;Dokumente&quot;öffnen.
+Wenn Ihr Adobe Workfront-Administrator oder Workfront Testversand-Administrator die App auf Ihre Workstation heruntergeladen und den Desktop Proofing Viewer als Standard-Viewer für interaktive Testsendungen konfiguriert hat, können Sie die Installation abschließen, indem Sie einfach einen interaktiven Testversand im Bereich Dokumente öffnen.
 
 Ist dies nicht der Fall, können Sie die folgenden Schritte ausführen.
 

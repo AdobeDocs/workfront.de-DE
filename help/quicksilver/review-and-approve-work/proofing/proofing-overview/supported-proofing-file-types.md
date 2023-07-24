@@ -7,9 +7,9 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprü
 Workfront hat die folgenden Beschränkungen:
 
 * Dateien müssen weniger als 4 GB pro Datei betragen.
-* Microsoft Word- (DOC, DOCX) und PowerPoint-Dateien (PPT, PPTX) müssen kleiner als 512 MB sein.
+* Microsoft Word- (DOC, DOCX) und PowerPoint-Dateien (PPT, PPTX) müssen kleiner als 512 MB sein. (Dies gilt auch für die Archivierung von Testsendungen dieser Dateitypen, die vor der Implementierung der Größenbeschränkung erstellt wurden.)
 * XLS- und XLSX-Dateien müssen kleiner als 100 MB sein.
 * Dateien, die mit Kommentaren zu Testsendungen verbunden sind, müssen kleiner als 30 MB sein.
 * PNGs müssen eine Höhe und Breite von weniger als 65535 px haben.
@@ -180,11 +180,15 @@ Workfront hat die folgenden Beschränkungen:
 > * XLT - Microsoft Excel-Vorlage
 > * XLTX - Microsoft Excel-Vorlage
 
+>[!WARNING]
+> Der folgende statische Dateityp wird aufgrund eines Sicherheitsproblems vorübergehend nicht unterstützt:
+>
+> * EPS - Encapsulated PostScript
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator-Vorlage
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* EPS - Encapsulated PostScript
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-Präsentation
 * PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
