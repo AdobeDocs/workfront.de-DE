@@ -4,9 +4,11 @@ navigation-topic: create-and-manage-request-queues
 title: Themengruppen erstellen
 description: Themengruppen sind mit Anforderungswarteschlangen verknüpft. Sie ermöglichen es Ihnen, Ihre Anforderungswarteschlangen je nach Art der Anforderungen in mehrere Kategorien zu unterteilen.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -58,7 +60,6 @@ Weitere Informationen zum Erstellen von Anforderungswarteschlangen finden Sie un
 >* Die Anzahl der Warteschlangenthemen, die einer Themengruppe zugeordnet werden können, ist unbegrenzt.
 >* Themengruppen sind ein berichtspflichtiges Objekt.
 >
-
 
 ## Themengruppen erstellen
 

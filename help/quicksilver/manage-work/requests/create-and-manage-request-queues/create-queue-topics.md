@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Erstellen von Warteschlangenthemen
 description: Die Themen der Warteschlange funktionieren zusammen mit Routing-Regeln, um eingehende Arbeiten automatisch einem Benutzer, einer Auftragsrolle oder einem Team zuzuweisen oder in einem Projekt zu platzieren. Die Themen der Warteschlange definieren die Bedingungen, die für die Implementierung der Routing-Regel vorhanden sein müssen.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anforderungstypen</strong> </td> 
-      <td> <p>Wählen Sie, welche Art von Anforderungen dieses Warteschlangen-Thema speichert. Die sichtbaren Optionen werden auf der <strong>Warteschlangendetails</strong> des Projekts. Dies ist ein Pflichtfeld. </p> <p>Hinweis: Anfragetypen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs "Queue Details"eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen aus:</p> 
-       <ul> 
-        <li>Bug-Bericht</li> 
-        <li>Änderungsanforderung</li> 
-        <li>Problem</li> 
-        <li>Anfrage</li> 
-       </ul> <p>Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. </p> </td> 
-     </tr> 
+      <td> <p>Wählen Sie, welche Art von Anforderungen dieses Warteschlangen-Thema speichert. Die sichtbaren Optionen werden auf der <strong>Warteschlangendetails</strong> des Projekts. Dies ist ein Pflichtfeld. </p>
+
+   <p><b>NOTIZ</b>:
+
+   Typen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs &quot;Queue Details&quot;eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen aus:</p>
+   <ul>
+   <li>Bug-Bericht</li>
+   <li>Änderungsanforderung</li>
+   <li>Problem</li>
+   <li>Anfrage</li>
+   </ul> <p>Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 

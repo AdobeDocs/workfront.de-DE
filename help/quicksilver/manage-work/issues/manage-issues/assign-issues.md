@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -169,7 +169,7 @@ So weisen Sie Probleme in einer Liste zu:
    >
    >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
    >
-   Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Bedingt) Wenn im Feld Zuweisungen sichtbar, klicken Sie auf die Schaltfläche **Personensymbol** ![](assets/teams.png) in der rechten oberen Ecke des Zuweisungsfelds, um das Feld Erweiterte Zuweisungen zu öffnen und erweiterte Zuweisungen zu erstellen. Weitere Informationen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

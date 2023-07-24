@@ -3,13 +3,15 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Erstellen und Verwalten von Anforderungswarteschlangen
-description: Informationen zum Erstellen und Verwalten von Anforderungswarteschlangen in Adobe Workfront finden Sie in den folgenden Artikeln.
+description: Sie können Anforderungswarteschlangen in Adobe Workfront erstellen, um ungeplante Arbeiten in Ihrem Unternehmen zu erfassen. In den folgenden Artikeln wird beschrieben, wie Sie Projekte so konfigurieren können, dass sie als Anforderungswarteschlangen funktionieren.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -25,6 +27,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
   -->
