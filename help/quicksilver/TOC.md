@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -1875,7 +1875,7 @@ ht-degree: 1%
       * [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Erstellen eines Datenblatts für die einmalige Verwendung](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Timesheet-Informationen bearbeiten](timesheets/create-and-manage-timesheets/edit-timesheets.md)
-      * [Protokollzeit](timesheets/create-and-manage-timesheets/log-time.md)
+      * [Zeit erfassen](timesheets/create-and-manage-timesheets/log-time.md)
       * [Zeitblatt zur Genehmigung einreichen](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
       * [Timesheet genehmigen](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
       * [Gesamtstunden auf dem Timesheet anzeigen](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)

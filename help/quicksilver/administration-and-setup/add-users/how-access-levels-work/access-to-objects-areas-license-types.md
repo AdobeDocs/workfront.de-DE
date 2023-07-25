@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 17%
 
 ---
@@ -23,9 +23,9 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 * **Ansicht**: Der Benutzer kann Elemente überprüfen und freigeben.
 * **Bearbeiten**: Der Benutzer kann Elemente erstellen, bearbeiten, löschen und freigeben.
 
-   >[!NOTE]
-   >
-   >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
