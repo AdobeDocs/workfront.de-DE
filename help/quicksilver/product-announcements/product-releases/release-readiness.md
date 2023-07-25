@@ -6,14 +6,20 @@ description: Befolgen Sie diese Tipps, um Ihre Organisation für jede neue Workf
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Vorbereiten auf eine [!DNL Adobe Workfront] Geplante Veröffentlichung
+
+>[!NOTE]
+>
+>Workfront bietet zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält. Der Prozess der Vorbereitung auf eine Version ist ähnlich, unabhängig vom Modell, das Ihr Unternehmen verwendet.
+>
+>Eine ausführliche Erläuterung der beiden Versionsmodelle finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] veröffentlicht regelmäßig wichtige Aktualisierungen der Produktionsumgebung. Als [!DNL Workfront] Administrator haben Sie die Möglichkeit sicherzustellen, dass Ihr Unternehmen einen reibungslosen Übergang zu jeder neuen Version der [!DNL Workfront] Produkt.
 
@@ -50,7 +56,7 @@ Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen
 
 Versionshinweise für eine bestimmte Funktion werden veröffentlicht, wenn die Funktion zu Ihrer [!UICONTROL Vorschau-Sandbox] Umgebung. Auf diese Weise können Sie die Funktion kennen und untersuchen, bevor sie Teil Ihrer Produktionsumgebung ist.
 
-Jede Version verfügt über eine Übersichtsseite zu Versionen mit kurzen Beschreibungen der einzelnen Funktionen und Links zu ausführlicheren Notizen, die zusätzliche Informationen sowie Demovideos enthalten. Diese ausführlichen Hinweise werden wöchentlich organisiert, wenn die Versionen zur Vorschau angezeigt werden, und dann nach Bereichen umstrukturiert, die näher am tatsächlichen Produktionsveröffentlichungsdatum liegen.
+Jede Version verfügt über eine Übersichtsseite zu Versionen mit kurzen Beschreibungen der einzelnen Funktionen und Links zu ausführlicheren Notizen, die zusätzliche Informationen sowie Demovideos enthalten. Diese ausführlichen Hinweise werden wöchentlich organisiert, wenn die Versionen zur Vorschau angezeigt werden, und dann nach Bereichen umstrukturiert, die näher am tatsächlichen vierteljährlichen Produktionsveröffentlichungsdatum liegen.
 
 Wir empfehlen dringend, sich die Demovideos anzusehen, die in den Versionshinweisen verfügbar sind. Diese können besonders nützlich sein, um die Funktion in Aktion zu sehen oder um einen kurzen Blick in den Kontext der Funktion zu werfen, wenn Sie nicht ganz auf der richtigen Zeit sind.
 
@@ -78,7 +84,7 @@ Als [!DNL Workfront] Administrator, erhalten Sie die Nachricht &quot;Ankündigun
 
 ### Die [!UICONTROL Vorschau-Sandbox] Umgebung
 
-Die [!UICONTROL Vorschau-Sandbox] Umgebung, auch bekannt als [!UICONTROL Vorschau] dient als Umgebung, in der Benutzer in Ihrem Unternehmen sicher testen und mit einer separaten Kopie Ihrer Daten aus der Produktionsumgebung arbeiten können. [!UICONTROL Workfront] veröffentlicht neue Funktionen und Funktionen in der Vorschau-Umgebung lange vor ihrer Veröffentlichung in der Produktionsumgebung. Sie haben die Möglichkeit, sich mit diesen Funktionen vertraut zu machen, bevor sie in die täglichen Workflows Ihrer Benutzer veröffentlicht werden. Wenn Ihre Benutzer dann Schwierigkeiten haben, die neuen Funktionen zu nutzen, können Sie ihnen bei der Anpassung leichter helfen.
+Die [!UICONTROL Vorschau-Sandbox] Umgebung, auch bekannt als [!UICONTROL Vorschau] dient als Umgebung, in der Benutzer in Ihrem Unternehmen sicher testen und mit einer separaten Kopie Ihrer Daten aus der Produktionsumgebung arbeiten können. [!UICONTROL Workfront] veröffentlicht in der Regel neue Funktionen und Funktionen in der Vorschau-Umgebung mindestens zwei Wochen vor ihrer Veröffentlichung in der Produktionsumgebung. Sie haben die Möglichkeit, sich mit diesen Funktionen vertraut zu machen, bevor sie in die täglichen Workflows Ihrer Benutzer veröffentlicht werden. Wenn Ihre Benutzer dann Schwierigkeiten haben, die neuen Funktionen zu nutzen, können Sie ihnen bei der Anpassung leichter helfen.
 
 >[!TIP]
 >
