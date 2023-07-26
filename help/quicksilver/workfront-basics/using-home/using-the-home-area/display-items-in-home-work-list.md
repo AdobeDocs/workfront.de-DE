@@ -1,21 +1,28 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Elemente in der [!UICONTROL Arbeitsliste] im Startbereich
+title: Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im Startbereich
 description: Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in der [!UICONTROL Arbeit] Liste wie unten beschrieben.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# Elemente in der [!UICONTROL Arbeitsliste] im Startbereich
+# Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im Startbereich
 
 Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in der [!UICONTROL Arbeit] Liste wie unten beschrieben.
+
+>[!NOTE]
+>
+>Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
+>
+>Beim Konvertieren einer Aufgabe in ein Projekt wird die Aufgabe gelöscht und aus dem Startbereich des der Aufgabe zugewiesenen Benutzers entfernt.
+
 
 ## Zugriffsanforderungen
 
@@ -37,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Projekte, Aufgaben, Probleme und Dokumente</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Projekte, Aufgaben, Probleme und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -70,7 +77,7 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Aufgaben bearbeiten]</strong></td> 
-      <td> <p>Zeigt nur Aufgaben an, an denen Sie aktiv arbeiten. Diese Aufgaben werden Ihnen zugewiesen, für die Sie auf die Schaltfläche [!UICONTROL Bearbeiten] geklickt haben.</p> </td> 
+      <td> <p>Zeigt nur Aufgaben an, an denen Sie aktiv arbeiten. Hierbei handelt es sich um Aufgaben, die Ihnen zugewiesen sind und für die Sie auf die Schaltfläche [!UICONTROL Bearbeiten] geklickt haben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Aufgaben bereit zum Start]</strong></td> 
@@ -104,7 +111,7 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Persönlich</strong></td> 
-      <td>Zeigt nur persönliche Aufgaben an. Dies sind Aufgaben, die Sie als [!UICONTROL Aufgaben]-Aufgabe erstellen, wie im Abschnitt beschrieben. <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Persönliche Aufgabe erstellen</a> im Artikel <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Arbeitselemente aus dem [!UICONTROL Home]-Bereich erstellen</a>.</td> 
+      <td>Zeigt nur persönliche Aufgaben an. Dies sind Aufgaben, die Sie als [!UICONTROL Aufgabe erstellen, wie im Abschnitt beschrieben. <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Persönliche Aufgabe erstellen</a> im Artikel <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Arbeitselemente aus dem [!UICONTROL Home]-Bereich erstellen</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Validierungen]</strong></td> 
@@ -112,7 +119,7 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
        <div> 
         <p>Zeigt nur die Ihnen zugewiesenen oder zugewiesenen Genehmigungen und die von Ihnen eingereichten Genehmigungen an. Zu den Genehmigungen gehören Genehmigungen für Arbeitselemente (Projekte, Aufgaben und Probleme) sowie Genehmigungen für Dokumente, Testsendungen, Zugriffsanfragen und Timesheets. Weitere Informationen zu Genehmigungen finden Sie in den folgenden Artikeln:</p> 
         <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Genehmigungen anzeigen</a> </li> 
+         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Anzeigen von Genehmigungen</a> </li> 
         </ul> 
         <ul> 
          <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Arbeitsgenehmigungen</a> </p> </li> 
@@ -122,7 +129,7 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Abgeschlossen]</strong></td> 
-      <td> <p>Zeigt nur abgeschlossene Aufgaben, Probleme und persönliche Aufgaben an. Die abgeschlossene Arbeit wird für die letzten zwei Wochen angezeigt und in der Arbeitsliste nach der Woche gruppiert, in der sie abgeschlossen wurden. Genehmigungen sind nicht enthalten.</p> <p>Abgeschlossene Arbeiten werden in der [!UICONTROL Arbeitsliste] ausgeblendet, es sei denn, Sie wählen diesen Filter aus.</p> </td> 
+      <td> <p>Zeigt nur abgeschlossene Aufgaben, Probleme und persönliche Aufgaben an. Die abgeschlossene Arbeit wird für die letzten zwei Wochen angezeigt und in der Arbeitsliste nach der Woche gruppiert, in der sie abgeschlossen wurden. Genehmigungen sind nicht enthalten.</p> <p>Abgeschlossene Arbeiten werden in der [!UICONTROL Arbeitsliste] ausgeblendet, sofern Sie diesen Filter nicht auswählen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -133,15 +140,14 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
    >
    >* Filteroptionen basieren auf Objekten (Aufgaben, Probleme, Genehmigungen, Persönliche Aufgaben).
    >* Aufgaben und Probleme werden im Zusammenhang mit unserer Bereitschaft zur Bearbeitung weiter nach ihrem Status gefiltert ([!UICONTROL Arbeiten an], [!UICONTROL Bereit zum Start], [!UICONTROL Nicht bereit] für Aufgaben und [!UICONTROL Arbeiten an] und [!UICONTROL Angefordert] für Probleme). Sie können auswählen, ob Aufgaben oder Probleme in einem bestimmten Status angezeigt werden sollen, oder auf Aufgaben oder Probleme klicken, um alle Status auszuwählen und anzuzeigen.
-   >* Es gibt einen separaten Filter für abgeschlossene Elemente, der sowohl Aufgaben als auch Probleme enthält. Dies umfasst keine Genehmigungen. Die [!UICONTROL Abgeschlossen] Filter enthält Persönliche Aufgaben.
+   >* Es gibt einen separaten Filter für abgeschlossene Elemente, der sowohl Aufgaben als auch Probleme enthält. Dies umfasst keine Genehmigungen. Die [!UICONTROL Abgeschlossen] -Filter enthält Persönliche Aufgaben.
    >* Sie können jeweils nur einen Status auswählen. Beispielsweise können Sie nur [!UICONTROL Arbeiten an] Aufgaben und nur [!UICONTROL Angefordert] Probleme.
    >* Sie können keine Filter auf Elemente anwenden, die einem Ihrer Teams zugewiesen sind, und diese sind nicht in den Elementen enthalten, die Ihnen direkt zugewiesen sind.
 
 
-
 1. (Optional) Weitere Organisation der [!UICONTROL Arbeitsliste], wie im Abschnitt beschrieben [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority) in diesem Artikel.
 
-## Gruppieren und sortieren nach [!UICONTROL Datum], [!UICONTROL Projekt]und [!UICONTROL Priorität]
+## Gruppieren und sortieren nach [!UICONTROL Datum], [!UICONTROL Projekt], und [!UICONTROL Priorität]
 
 Sie können die [!UICONTROL Arbeitsliste] von [!UICONTROL Geplantes Abschlussdatum], [!UICONTROL Datum der Übermittlung], [!UICONTROL Projekt]oder [!UICONTROL Meine Priorität]. Die von Ihnen ausgewählte Option bestimmt, wie Elemente im [!UICONTROL Arbeitsliste].
 
@@ -199,7 +205,7 @@ Sie können die [!UICONTROL Arbeitsliste] von [!UICONTROL Geplantes Abschlussdat
 
 >[!NOTE]
 >
->Die Standardsortierung ist aufsteigend. Wenn Sie die Sortierung in absteigend ändern, werden die ausgewählten Sortieroptionen im Browser gespeichert. Wenn Sie auf demselben Computer durchgängig denselben Browser verwenden (und die Site-Daten nicht löschen), ändert sich die Sortierung nicht. Wenn Sie jedoch Browser oder Computer wechseln, wird die Sortierung zur Standardsortierung geändert.
+>Die Standardsortierung ist aufsteigend. Wenn Sie die Sortierung in absteigend ändern, werden die ausgewählten Sortieroptionen im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändert sich die Sortierung nicht. Wenn Sie jedoch Browser oder Computer wechseln, wird die Sortierung zur Standardsortierung geändert.
 
 ## Anzeigen verspäteter Elemente
 
@@ -210,7 +216,7 @@ Sie können die [!UICONTROL Arbeitsliste] von [!UICONTROL Geplantes Abschlussdat
 * **Dokumente**: [!UICONTROL Gesendetes Datum]
 * **Timesheets**: [!UICONTROL Gesendetes Datum]
 * **Genehmigungen**: [!UICONTROL Gesendetes Datum]
-* **Genehmigungen als Nachweis**: [!UICONTROL Testversand-Deadline]
+* **Genehmigungen für den Nachweis**: [!UICONTROL Testversand-Deadline]
 
 ## Suchen Sie die [!UICONTROL Arbeitsliste]
 
@@ -221,7 +227,7 @@ Darüber hinaus werden nur die Namen der Arbeitselemente durchsucht (Information
 So durchsuchen Sie die [!UICONTROL Arbeitsliste]:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. (Optional) Filtern Sie die [!UICONTROL Arbeitsliste]wie in [Filtern Sie die [!UICONTROL Arbeitsliste]](#filter-the-work-list) und [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority).
+1. (Optional) Filtern Sie die [!UICONTROL Arbeitsliste], wie unter [Filtern Sie die [!UICONTROL Arbeitsliste]](#filter-the-work-list) und [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority).
 
 1. (Optional) Wenn Sie nach einem bereits abgeschlossenen Arbeitselement suchen, müssen Sie die [!UICONTROL Arbeitsliste] , um vor der Suche abgeschlossene Elemente anzuzeigen.
 1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
@@ -241,7 +247,7 @@ Sie können die Größe der [!UICONTROL Arbeitsliste] sodass es zwischen etwa ei
 Elemente in [!UICONTROL Arbeitsliste] innerhalb von Gruppierungen angezeigt werden. Sie können Gruppierungen reduzieren und erweitern, um zu steuern, wie viele Informationen zu einem bestimmten Zeitpunkt auf der Seite angezeigt werden.
 
 Sie können Gruppierungen innerhalb der [!UICONTROL Arbeitsliste] um besser kontrollieren zu können, welche Informationen sichtbar sind.\
-Standardmäßig wird die [!UICONTROL Diese Woche] Gruppierung wird erweitert und alle anderen Gruppierungen werden reduziert. Alle Änderungen, die Sie vornehmen, werden beim nächsten Zugriff auf den Startbereich gespeichert.
+Standardmäßig wird die Variable [!UICONTROL Diese Woche] Gruppierung wird erweitert und alle anderen Gruppierungen werden reduziert. Alle Änderungen, die Sie vornehmen, werden beim nächsten Zugriff auf den Startbereich gespeichert.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
 1. Klicken Sie auf **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** neben allen Gruppen, die Sie erweitern oder reduzieren möchten.
@@ -249,4 +255,4 @@ Standardmäßig wird die [!UICONTROL Diese Woche] Gruppierung wird erweitert und
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
 
    Oder\
-   Um alle Gruppierungen gleichzeitig zu erweitern oder zu reduzieren, klicken Sie auf die **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** Pfeil neben einer beliebigen Gruppierung, während Sie die [!UICONTROL Umschalt] Schlüssel.
+   Um alle Gruppierungen gleichzeitig zu erweitern oder zu reduzieren, klicken Sie auf die Schaltfläche **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** Pfeil neben einer beliebigen Gruppierung, während Sie die [!UICONTROL Umschalt] Schlüssel.

@@ -5,10 +5,12 @@ title: Übersicht über Konvertierungsprobleme in Adobe Workfront
 description: Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -31,7 +33,9 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
    * Während der Konvertierung werden Sie möglicherweise gefragt, ob Sie das Problem und seine Lösung an das Projekt oder die Aufgabe, die Sie erstellen, binden möchten.
    * Wenn Sie das Problem beibehalten, aktualisieren der Status und der Prozentsatz am Ende des Projekts oder der Aufgabe automatisch den Status und den Prozentsatz des Abschlusses des Problems, wenn Änderungen am Projekt, der Aufgabe oder dem Problem auftreten oder wenn die Workfront die Timeline neu berechnet.
 
-* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie unter [Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel.
+* Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
+
+* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie unter [Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel beschrieben.
 * Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokumentlinks angehängt sind:
 
    * Dokument
@@ -129,7 +133,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
    <td>Aus der Vorlage übertragen.</td> 
   </tr> 
   <tr> 
-   <td>Anfrage-Einstellungen</td> 
+   <td>Problemeinstellungen</td> 
    <td>Aus der Vorlage übertragen. </td> 
   </tr> 
   <tr> 
@@ -227,7 +231,7 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 
 | Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich &quot;Projektdetails&quot; | Aufgabenliste oder Bericht | Bereich &quot;Aufgabendetails&quot; |
 |---|---|---|---|---|---|
-| Name der Anfrage | Konvertierte Anfrage – Name | ms | ✔ | ✔ | ✔ |
+| Name des Problems | Name des konvertierten Problems | ms | ✔ | ✔ | ✔ |
 | Hauptansprechpartner | Name des konvertierten Emittenten | ✔ | `✔` | ✔ |   |
 | Eingabedatum | Einstiegsdatum der konvertierten Ausgabe | ✔ |   | ✔ |   |
 
