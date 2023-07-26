@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3590'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein 
 
 Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-Informationen zur API, die für PDF-Services verwendet wird, finden Sie unter [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Informationen zur API für PDF-Services finden Sie unter [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 ## Sicherheitsaspekte bei Verwendung von [!DNL Adobe PDF Services]
 
@@ -46,7 +46,7 @@ Die [!DNL Adobe PDF Services] Sie können Ihre Dateien lesen, konvertieren oder 
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,17 +63,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -83,9 +83,15 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Voraussetzungen
+
+Um eine OAuth-Server-zu-Server-API zu erstellen, müssen Sie die Adobe PDF Services-API in Ihrer Adobe Developers Console hinzufügen. Wählen Sie beim Hinzufügen der API die Option OAuth Server-to-Server aus.
+
+Anweisungen finden Sie unter [Hinzufügen einer API zum Projekt mithilfe von OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) In der Entwicklerdokumentation für die Adobe.
+
 ## Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]
 
-So erstellen Sie eine Verbindung für Ihre [!DNL Adobe PDF Services] -Module:
+So erstellen Sie eine Verbindung für [!DNL Adobe PDF Services] -Module:
 
 1. In jeder [!DNL Adobe PDF Services] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
 
@@ -111,19 +117,19 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe PDF Services] -Module:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client-ID]</td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].</td>
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].<p>Anweisungen zum Auffinden von Anmeldeinformationen finden Sie unter <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Anmeldeinformationen</a> in der Entwicklerdokumentation der Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client Secret]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client Secret]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].<p>Anweisungen zum Auffinden von Anmeldeinformationen finden Sie unter <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Anmeldeinformationen</a> in der Entwicklerdokumentation der Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technische Konto-ID] (nur JWT)</td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Technische Konto-ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Technische Konto-ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].<p>Anweisungen zum Auffinden von Anmeldeinformationen finden Sie unter <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Anmeldeinformationen</a> in der Entwicklerdokumentation der Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organisations-ID] (nur JWT)</td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Organisations-ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Organisations-ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].<p>Anweisungen zum Auffinden von Anmeldeinformationen finden Sie unter <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Anmeldeinformationen</a> in der Entwicklerdokumentation der Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta Scopes] (nur JWT)</td>
@@ -133,7 +139,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe PDF Services] -Module:
         </tr>
        </tbody>
     </table>
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 
 ## [!DNL Adobe PDF Services] Module und ihre Felder
@@ -156,7 +162,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 * [[!UICONTROL PDF-Datei Linearisieren]](#linearize-a-pdf-file)
 * [[!UICONTROL OCR für PDF-Datei]](#ocr-for-pdf-file)
 * [[!UICONTROL Seitenbearbeitung]](#page-manipulation)
-* [[!UICONTROL Automatische Tags für PDF-Barrierefreiheit]](#pdf-accessibility-auto-tag)
+* [[!UICONTROL PDF Barrierefreiheit automatisch taggen]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF-Dateieigenschaften]](#pdf-file-properties)
 * [[!UICONTROL Protect PDF-Datei]](#protect-pdf-file)
 * [[!UICONTROL Schutz einer PDF-Datei entfernen]](#remove-protection-of-a-pdf-file)
@@ -164,7 +170,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ### [!UICONTROL Dokument generieren]
 
-Die [!UICONTROL Dokument generieren] -Modul ist eine leistungsstarke Möglichkeit, eine PDF zu erstellen, die die von Ihnen ausgewählten Daten enthält. Sie können sie formatieren, indem Sie eine [!DNL Microsoft Word] oder durch Bereitstellung von Daten im JSON-Format.
+Die [!UICONTROL Dokument generieren] -Modul ist eine leistungsstarke Möglichkeit, eine PDF zu erstellen, die die von Ihnen ausgewählten Daten enthält. Sie können sie formatieren, indem Sie [!DNL Microsoft Word] oder durch Bereitstellung von Daten im JSON-Format.
 
 Weitere Informationen über [!UICONTROL [!DNL Adobe PDF Services] Dokument generieren] -Funktion, siehe [Übersicht über die Dokumenterstellung](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) im [!DNL Adobe Document Services] Dokumentation.
 
@@ -191,11 +197,11 @@ Füllen Sie die [!UICONTROL Dokument generieren] Modulfelder wie folgt:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
-   <td> <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</p> <p>Diese Quelldatei ist [!DNL Microsoft Word ]-Vorlage, die das -Modul zum Generieren der neuen PDF verwendet.</p> <p>Es wird empfohlen, ein Projekt in [!DNL Workfront] für [!DNL Microsoft Word] Vorlagen, die Sie in [!DNL Workfront Fusion]. Anschließend können Sie die [!DNL Workfront] &gt; [!UICONTROL Dokument herunterladen] Modul, um die entsprechende Vorlage in Ihr Szenario zu ziehen.</p> </td> 
+   <td> <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</p> <p>Diese Quelldatei ist [!DNL Microsoft Word ]-Vorlage, die das -Modul zum Generieren der neuen PDF verwendet.</p> <p>Wir empfehlen, ein Projekt in [!DNL Workfront] für die [!DNL Microsoft Word] Vorlagen, die Sie in [!DNL Workfront Fusion]. Anschließend können Sie die [!DNL Workfront] &gt; [!UICONTROL Dokument herunterladen] Modul, um die entsprechende Vorlage in Ihr Szenario zu ziehen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ausgabeformat]</td> 
@@ -227,7 +233,7 @@ So verwenden Sie die [!UICONTROL Dokument generieren] -Modul mit JSON verwenden,
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -258,7 +264,7 @@ Mit diesem Aktionsmodul können Sie Daten aus einer PDF-Datei extrahieren. Das M
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -293,16 +299,16 @@ Dieses Aktionsmodul nimmt mehrere PDF-Dateien und fasst sie zu einer PDF-Datei z
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dokumente]</td> 
-   <td> <p>Sie können ein Aggregator-Modul verwenden, um Dokumente zu einer PDF zu kombinieren, oder Sie können die Dokumente manuell hinzufügen. </p> <p>Es wird empfohlen, ein [!UICONTROL Array Aggregator]-Modul zu verwenden, um die Ausgabe eines vorherigen Moduls zu aggregieren. Mithilfe eines Aggregators müssen Sie nicht die Namen, Speicherorte oder Anzahl der zu kombinierenden Dateien kennen. Die Verwendung eines Aggregators ist daher viel flexibler und skalierbarer als die manuelle Eingabe der zu kombinierenden Dokumente.</p> <p>Um das Dateimodul [!UICONTROL PDF] mit einem Aggregator kombinieren zu können, müssen Sie die Zuordnung im Feld [!UICONTROL Dokumente] aktivieren. </p> <p>In diesem Beispiel identifiziert das Modul [!UICONTROL Read Related Records] Dokumente, die mit einem Projekt verknüpft sind, und das Modul [!UICONTROL Download Documents] lädt jedes einzelne herunter. Alle PDF werden in einem Array aggregiert, das an das Dateimodul [!UICONTROL PDF] übergeben wird.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Sie können Dokumente auch manuell eingeben.</p> <p>Für jedes Dokument, das in die kombinierte PDF aufgenommen werden soll:</p> 
+   <td> <p>Sie können ein Aggregatormodul verwenden, um Dokumente zu einer PDF zu kombinieren, oder Sie können die Dokumente manuell hinzufügen. </p> <p>Es wird empfohlen, ein [!UICONTROL Array Aggregator]-Modul zu verwenden, um die Ausgabe eines vorherigen Moduls zu aggregieren. Mithilfe eines Aggregators müssen Sie nicht die Namen, Speicherorte oder Anzahl der zu kombinierenden Dateien kennen. Die Verwendung eines Aggregators ist daher viel flexibler und skalierbarer als die manuelle Eingabe der zu kombinierenden Dokumente.</p> <p>Um das Dateimodul [!UICONTROL PDF] mit einem Aggregator kombinieren zu können, müssen Sie die Zuordnung im Feld [!UICONTROL Dokumente] aktivieren. </p> <p>In diesem Beispiel identifiziert das Modul [!UICONTROL Read Related Records] Dokumente, die mit einem Projekt verknüpft sind, und das Modul [!UICONTROL Download Documents] lädt jedes einzelne herunter. Alle PDF werden in einem Array aggregiert, das an das Dateimodul [!UICONTROL PDF] übergeben wird.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Sie können Dokumente auch manuell eingeben.</p> <p>Für jedes Dokument, das in die kombinierte PDF aufgenommen werden soll:</p> 
     <ol> 
      <li value="1"> <p>Klicken Sie auf [!UICONTROL Dokument hinzufügen]</p> </li> 
      <li value="2"> <p>Wählen Sie im Feld [!UICONTROL Quelldatei] das Modul aus, das das einzuschließende Dokument ausgibt, oder ordnen Sie den Namen und die Daten der Quelldatei zu. </p> </li> 
      <li value="3"> <p>(Optional) Wenn Sie nur bestimmte Seiten aus der Quelldatei einbeziehen möchten, klicken Sie für jeden Seitenbereich, den Sie hinzufügen möchten, auf <strong>[!UICONTROL Element hinzufügen]</strong> Geben Sie im Feld [!UICONTROL Seiten] die erste und letzte Seite des einzuschließenden Seitenbereichs ein und klicken Sie auf <strong>[!UICONTROL Hinzufügen]</strong>. Sie können mehr als einen Seitenbereich in ein einzelnes Dokument einschließen.</p> </li> 
-     <li value="4"> <p>Klicken <strong>[!UICONTROL Hinzufügen]</strong>. </p> </li> 
+     <li value="4"> <p>Klicks <strong>[!UICONTROL Hinzufügen]</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -320,7 +326,7 @@ Dieses Aktionsmodul nimmt eine PDF-Datei und komprimiert sie. Dies kann zur Eins
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -351,7 +357,7 @@ Dieses Tool konvertiert ein Dokument in eine PDF-Datei. Die Quelldatei muss eine
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -368,15 +374,15 @@ Dieses Tool konvertiert ein Dokument in eine PDF-Datei. Die Quelldatei muss eine
    <td role="rowheader">[!UICONTROL Sprache]</td> 
    <td> <p>Wählen Sie die Standardsprache für das Quelldokument aus. Dadurch kann das Modul eine geeignete Schriftart auswählen, wenn die Schriftart nicht in der Quelldatei enthalten ist.</p> <p>Wählen Sie aus den folgenden Sprachen aus:</p> 
     <ul> 
-     <li> <p>en-US (Standard): Englisch (Vereinigte Staaten von Amerika)</p> </li> 
+     <li> <p>en-US (Standard): Englisch (USA)</p> </li> 
      <li> <p>ca-ES: Katalanisch (Spanien)</p> </li> 
-     <li> <p>cs-CZ: Tschechische Republik</p> </li> 
+     <li> <p>cs-CZ: Tschechisch (Tschechische Republik)</p> </li> 
      <li> <p>da-DK: Dänisch (Dänemark)</p> </li> 
      <li> <p>de-DE: Deutsch (Deutschland)</p> </li> 
      <li> <p>en-AE: Englisch (Vereinigte Arabische Emirate)</p> </li> 
      <li> <p>en-GB: Englisch (Vereinigtes Königreich)</p> </li> 
      <li> <p>en-IL: Englisch (Israel)</p> </li> 
-     <li> <p>en-US: Englisch (Vereinigte Staaten von Amerika)</p> </li> 
+     <li> <p>en-US: English (United States of America)</p> </li> 
      <li> <p>es-ES: Spanisch (Spanien)</p> </li> 
      <li> <p>es-MX: Spanisch (Mexiko)</p> </li> 
      <li> <p>eu-ES: Baskisch (Spanien)</p> </li> 
@@ -386,16 +392,16 @@ Dieses Tool konvertiert ein Dokument in eine PDF-Datei. Die Quelldatei muss eine
      <li> <p>fr-MA: Französisch (Marokko)</p> </li> 
      <li> <p>hr-HR: Kroatisch (Kroatien)</p> </li> 
      <li> <p>hu-HU: Ungarisch (Ungarn)</p> </li> 
-     <li> <p>it-IT: Italienisch (Italien)</p> </li> 
+     <li> <p>IT: Italienisch (Italien)</p> </li> 
      <li> <p>ja-JP: Japanisch (Japan)</p> </li> 
-     <li> <p>kr-KR: Koreanisch (Südkorea)</p> </li> 
+     <li> <p>kr-KR: Korea (Südkorea)</p> </li> 
      <li> <p>nb-NO: Norwegisch Bokmål (Norwegen)</p> </li> 
      <li> <p>nl-NL: Niederländisch (Niederlande)</p> </li> 
      <li> <p>pl-PL: Polnisch (Polen)</p> </li> 
      <li> <p>pt-BR: Portugiesisch (Brasilien)</p> </li> 
      <li> <p>pt-PT: Portugiesisch (Portugal)</p> </li> 
      <li> <p>ro-RO: Rumänisch (Rumänien)</p> </li> 
-     <li> <p>ru-RU: Russisch (Russland)</p> </li> 
+     <li> <p>Ru-RU: Russisch (Russland)</p> </li> 
      <li> <p>sk-SK: Slowakisch (Slowakei)</p> </li> 
      <li> <p>sl-SI: Slowenisch (Slowenien)</p> </li> 
      <li> <p>sv-SE: Schwedisch (Schweden)</p> </li> 
@@ -420,7 +426,7 @@ Dieses Tool konvertiert eine HTML-Datei in eine PDF-Datei.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -465,7 +471,7 @@ Dieses Tool konvertiert ein Bild in eine PDF-Datei.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -492,7 +498,7 @@ Dieses Tool konvertiert eine PDF-Datei in ein Dokument. Sie können eines der fo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -526,7 +532,7 @@ Beispielsweise würde eine Datei mit dem Namen &quot;TestFile&quot;mit 8 Seiten 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -555,7 +561,7 @@ Dieses Tool linearisiert ein PDF-Dokument, um ein Web-optimiertes PDF-Dokument z
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -576,7 +582,7 @@ Dieses Tool führt eine optische Zeichenerkennung (OCR) für eine Datei durch un
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -609,7 +615,7 @@ Dieses Modul ermöglicht es Ihnen, Seiten in einem PDF-Dokument selektiv zu dreh
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -625,7 +631,7 @@ Dieses Modul ermöglicht es Ihnen, Seiten in einem PDF-Dokument selektiv zu dreh
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seiten]</td> 
-   <td> <p>Klicken Sie für jeden Seitenbereich, den Sie löschen möchten, auf <strong>[!UICONTROL Hinzufügen]</strong> und geben Sie dann die erste und letzte Seite des Seitenbereichs ein. </p> <p>Notiz:   
+   <td> <p>Klicken Sie für jeden zu löschenden Seitenbereich auf <strong>[!UICONTROL Hinzufügen]</strong> und geben Sie dann die erste und letzte Seite des Seitenbereichs ein. </p> <p>Notiz:   
      <ul> 
       <li> <p>Sie können negative Zahlen verwenden, um vom Ende des Dokuments zurückzuzählen. Die letzte Seite eines Dokuments ist -1, die zweite Seite der letzten Seite -2 usw.</p> </li> 
       <li> <p>Um eine einzelne Seite zu löschen, legen Sie dieselbe Seitenzahl fest wie Anfang und Ende des Bereichs.</p> </li> 
@@ -638,7 +644,7 @@ Dieses Modul ermöglicht es Ihnen, Seiten in einem PDF-Dokument selektiv zu dreh
  </tbody> 
 </table>
 
-### [!UICONTROL Automatische Tags für PDF-Barrierefreiheit]
+### [!UICONTROL PDF Barrierefreiheit automatisch taggen]
 
 Dieses Aktionsmodul erstellt eine PDF, die für Anwendungsfälle der Barrierefreiheit mit Tags versehen ist. Außerdem wird ein optionaler Microsoft Excel-Bericht erstellt, der Probleme auflistet und Korrekturen vorschlägt.
 
@@ -650,7 +656,7 @@ Dieses Aktionsmodul erstellt eine PDF, die für Anwendungsfälle der Barrierefre
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -674,7 +680,7 @@ Dieses Tool extrahiert grundlegende Informationen zum Dokument, z. B.:
 * PDF-Version
 * Ob die Datei verschlüsselt ist
 * Ob die Datei linerarisiert ist
-* Gibt an, ob die Datei eingebettete Dateien enthält
+* Ob die Datei eingebettete Dateien enthält
 
 <table style="table-layout:auto"> 
  <col> 
@@ -684,7 +690,7 @@ Dieses Tool extrahiert grundlegende Informationen zum Dokument, z. B.:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -705,7 +711,7 @@ Dieses Tool sichert ein PDF-Dokument mit einem Benutzer- oder Eigentümerkennwor
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -723,8 +729,8 @@ Dieses Tool sichert ein PDF-Dokument mit einem Benutzer- oder Eigentümerkennwor
    <td role="rowheader">[!UICONTROL Verschlüsselungsalgorithmus]</td> 
    <td> <p>Wählen Sie den Verschlüsselungsalgorithmus aus. </p> 
     <ul> 
-     <li> <p>[!UICONTROL AES-128-Verschlüsselung]</p> <p>Das Kennwort unterstützt nur LATIN-I-Zeichen. </p> </li> 
-     <li> <p>[!UICONTROL AES-256-Verschlüsselung]</p> <p>Das Kennwort unterstützt den Unicode-Zeichensatz</p> </li> 
+     <li> <p>[!UICONTROL AES-128 encryption]</p> <p>Das Kennwort unterstützt nur LATIN-I-Zeichen. </p> </li> 
+     <li> <p>[!UICONTROL AES-256 encryption]</p> <p>Das Kennwort unterstützt den Unicode-Zeichensatz</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -733,7 +739,7 @@ Dieses Tool sichert ein PDF-Dokument mit einem Benutzer- oder Eigentümerkennwor
     <ul> 
      <li> <p>[!UICONTROL Gesamter Inhalt]</p> </li> 
      <li> <p>[!UICONTROL Alle Inhalte außer Metadaten]</p> </li> 
-     <li> <p>[!UICONTROL Nur eingebettete Daten] </p> </li> 
+     <li> <p>[!UICONTROL Only embedded data] </p> </li> 
     </ul> <p>Durch die Auswahl von "[!UICONTROL Only embedded data]"werden alle bereitgestellten Zugriffsberechtigungen als ineffektiv gerendert.</p> </td> 
   </tr> 
   <tr> 
@@ -755,7 +761,7 @@ Dieses Tool entfernt die Sicherheit (Kennwortschutz) aus einem PDF-Dokument.
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -780,7 +786,7 @@ Dieses Aktionsmodul teilt ein PDF-Dokument in mehrere kleinere Dokumente auf. Si
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Wählen Sie die für dieses Modul zu verwendende Verbindung aus.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
+   <td> <p>Wählen Sie die Verbindung aus, die für dieses Modul verwendet werden soll.</p> Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe PDF Services], siehe <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe PDF Services]</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
