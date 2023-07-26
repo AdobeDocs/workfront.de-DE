@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein neues benutzerdefiniertes Formular erstellen oder bearbeiten.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -50,11 +50,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare und benutzerdefinierten Felder überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer die einzelnen Formulare erstellt hat und welche Felder damit verknüpft sind.
 
-1. Klicken **Neues benutzerdefiniertes Formular.**
+1. Klicks **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie mindestens einen Objekttyp aus, den Sie mit dem benutzerdefinierten Formular verknüpfen möchten, und klicken Sie dann auf **Weiter**.
 
    ![](assets/choose-object-type.jpg)
@@ -65,13 +65,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Wiederholen Sie diesen Vorgang, um beliebig viele Objekttypen hinzuzufügen. Sie können auch auf das X eines Objekttyps klicken, um ihn aus dem Formular zu löschen.
 
-   Informationen zum Löschen von Objekttypen aus einem benutzerdefinierten Formular, das Sie bereits gespeichert haben, finden Sie unter [Löschen von Objekttypen in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   Informationen zum Löschen von Objekttypen aus einem bereits gespeicherten benutzerdefinierten Formular finden Sie unter [Löschen von Objekttypen in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Klicken **Fertig**.
+1. Klicks **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
 
 1. Wenn Sie dem Formular ein neues benutzerdefiniertes Feld hinzufügen möchten, fahren Sie mit dem [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) oder [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
@@ -98,11 +98,11 @@ Sie können ein benutzerdefiniertes Formular jederzeit bearbeiten, nachdem es er
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie auf **Bearbeiten**.
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional) Um den Titel und die Beschreibung des benutzerdefinierten Formulars zu ändern, klicken Sie auf die **Formulareinstellungen** tab, und geben Sie dann eine **Formulartitel** und **Beschreibung**.
 
 1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es an weitere Objekte angehängt werden kann, klicken Sie auf das Pluszeichen + nach **Objekttypen** und wählen Sie dann den gewünschten Typ im angezeigten Menü aus.
@@ -113,11 +113,11 @@ Sie können ein benutzerdefiniertes Formular jederzeit bearbeiten, nachdem es er
 
    Sie können auch auf das X für einen Objekttyp klicken, um ihn aus dem Formular zu löschen. Dies sollte mit Vorsicht geschehen, wenn Sie einen Objekttyp aus einem benutzerdefinierten Formular löschen möchten, das Sie bereits gespeichert haben. Weitere Informationen finden Sie unter [Löschen von Objekttypen in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Klicken **Fertig**.
+1. Klicks **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
 
 1. Wenn Sie dem Formular ein neues benutzerdefiniertes Feld hinzufügen möchten, fahren Sie mit dem [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) oder [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 

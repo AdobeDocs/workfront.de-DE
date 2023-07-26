@@ -2,7 +2,9 @@
 title: Benutzerdefinierte Formulare und Widgets auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
 description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -45,7 +47,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms**.
+1. Klicks **Benutzerdefinierte Forms**.
 
    Mit dem **Forms** ausgewählt sind, werden alle benutzerdefinierten Formulare Ihres Unternehmens zusammen mit ihren Beschreibungen, den ihnen zugeordneten Objekttypen, den Namen der Benutzer, die sie erstellt haben, und der Frage aufgelistet, ob sie im System aktiv sind oder nicht.
 
@@ -76,7 +78,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    * [Bearbeiten von Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-
 
 1. Wählen Sie die **Abschnitte** und stellen Sie sicher, dass **Parametergruppe** wird als **Ansicht** für die Liste.
 

@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular mit dem Legacy-Formular
 description: Sie können die benutzerdefinierten Felder und Widgets in einem benutzerdefinierten Formular in Abschnitte mit Überschriften gruppieren. Dies ist nützlich, um Benutzern, die das Formular ausfüllen, ein organisiertes Erlebnis zu präsentieren. Wenn Sie den Zugriff auf bestimmte benutzerdefinierte Felder und Widgets auf bestimmte Benutzer beschränken müssen, können Sie sie in einem Abschnitt platzieren und dann nur diesen Benutzern Zugriff auf den Abschnitt gewähren.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Fügen Sie benutzerdefinierte Felder und Widgets zum Formular hinzu, wie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. Während Sie das benutzerdefinierte Formular noch erstellen oder bearbeiten, finden Sie im **Feld hinzufügen** Registerkarte, klicken Sie auf **Abschnittsumbruch**.
+1. Während Sie das benutzerdefinierte Formular noch erstellen oder bearbeiten, finden Sie im **Feld hinzufügen** Registerkarte, klicken **Abschnittsumbruch**.
 
    ![](assets/click-section-break.jpg)
 
@@ -94,7 +94,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
           <li><p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
           <p>Ermöglicht Benutzern, zum Objekt beizutragen, wenn es sich um ein Projekt, eine Aufgabe oder ein Problem handelt.</p>
           <p>Ermöglicht Benutzern, das Profil zu bearbeiten oder Eigentümer der Profilberechtigung für das Objekt zu sein, wenn es ein Benutzer ist.</p></li> 
-          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
           <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
          </ul> </li> 
         <p>Die folgenden Berechtigungen sind unter <b>Benutzer mit diesem Zugriff auf das Objekt können Feldwerte bearbeiten</b>: </p> 
@@ -102,7 +102,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
           <li> <p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
            <p>Wenn das Objekt ein Projekt, eine Aufgabe oder ein Problem ist, ermöglicht diese Berechtigung Benutzern, zum Objekt beizutragen</p>
           <p>Wenn das Objekt ein Benutzer ist, können Benutzer mit dieser Berechtigung das Profil bearbeiten oder Inhaber der Profilberechtigung für das Objekt sein.</p> 
-          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
           <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
          </ul> </li> 
        </ul> 
@@ -120,11 +120,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Dies ist vor dem Speichern des Abschnitts erforderlich.
 
-1. Klicken **Fertig**.
+1. Klicks **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
 
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 

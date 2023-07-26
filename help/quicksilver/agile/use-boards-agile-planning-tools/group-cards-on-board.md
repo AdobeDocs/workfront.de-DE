@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Gruppen auf einer Pinnwand verwenden
 description: Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Tag gruppieren. Wenn Sie eine Gruppierungsoption auswählen, werden die Karten im Swimlane-Format angezeigt.
 author: Lisa
+feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 09ab9912df9ad2ac30a461f22b585d633fc73b23
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -47,8 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Gruppieren von Karten auf einer Pinnwand
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken **[!UICONTROL Gruppe]** um das Gruppenbedienfeld auf der linken Seite der Pinnwand zu öffnen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks **[!UICONTROL Gruppe]** um das Gruppenbedienfeld auf der linken Seite der Pinnwand zu öffnen.
 
    >[!NOTE]
    >
@@ -67,4 +68,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![[!UICONTROL Nach Optionen gruppieren]](assets/group-by-rail.png)
 
-1. Klicken **[!UICONTROL Gruppen ausblenden]** , um das Gruppenbedienfeld auszublenden und die gesamte Pinnwand anzuzeigen.
+1. Klicks **[!UICONTROL Gruppen ausblenden]** , um das Gruppenbedienfeld auszublenden und die gesamte Pinnwand anzuzeigen.

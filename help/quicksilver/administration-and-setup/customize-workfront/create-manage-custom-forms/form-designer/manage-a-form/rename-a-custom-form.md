@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können vorhandene benutzerdefinierte Formulare mit dem Formularentwickler umbenennen.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler
 
@@ -51,7 +51,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
@@ -59,8 +59,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Um den Titel zu ändern, klicken Sie auf den Formularnamen.
 1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld &quot;Beschreibung&quot;.
 
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.

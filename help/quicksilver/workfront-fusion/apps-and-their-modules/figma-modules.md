@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Bildmodule
 description: 'Mit dem [!DNL Adobe Workfront Fusion] Bildmodule: Sie können Listen mit Kommentaren, Dateien, Dateiversionen oder Projekten abrufen. Sie können auch einen Kommentar posten oder einen Aufruf an die Figma-API richten.'
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%
@@ -25,7 +26,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
   <col/>
@@ -46,17 +47,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td>
     </tr>
   </tbody>
@@ -90,14 +91,14 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ### Kommentare
 
-* [Löschen von Kommentaren](#delete-a-comment)
+* [Kommentare löschen](#delete-a-comment)
 
 * [Kommentare auflisten](#list-comments)
 
 * [Posten eines Kommentars](#post-a-comment)
 
 
-#### [!UICONTROL Löschen von Kommentaren]
+#### [!UICONTROL Kommentare löschen]
 
 Dieses Aktionsmodul löscht einen einzelnen Kommentar aus einer Datei.
 
@@ -107,7 +108,7 @@ Dieses Aktionsmodul löscht einen einzelnen Kommentar aus einer Datei.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
       </td>
     </tr>
     <tr>
@@ -131,7 +132,7 @@ Dieses Suchmodul listet alle Kommentare auf, die an eine einzelne Datei in [!DNL
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datei-ID]</td>
@@ -165,7 +166,7 @@ Dieses Aktionsmodul sendet einen Kommentar in eine Figma-Datei.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL Datei-ID]</td>
@@ -193,7 +194,7 @@ Dieses Aktionsmodul sendet einen Kommentar in eine Figma-Datei.
 
 * [Datei oder Bild abrufen](#get-a-file-or-image)
 
-* [Verlauf der Dateiversionen auflisten](#list-file-version-history)
+* [Versionsverlauf der Listendatei](#list-file-version-history)
 
 * [Projektdateien auflisten](#list-project-files)
 
@@ -202,7 +203,7 @@ Dieses Aktionsmodul sendet einen Kommentar in eine Figma-Datei.
 
 #### [!UICONTROL Datei oder Bild abrufen]
 
-Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibliothek ab
+Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Bildbibliothek ab
 
 <table style="table-layout:auto"> 
   <col/>
@@ -210,7 +211,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Objekttyp]</td>
@@ -239,7 +240,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
             <p><b>[!UICONTROL Bilddateien]</b>
             </p>
             <p>Das Modul gibt Downloadlinks für alle Bilder zurück, die in Bilddateien in einem Dokument vorhanden sind. Bildbearbeitung [!DNL Figma] stellt alle vom Benutzer bereitgestellten Bilder dar. Wenn Sie ein Bild in [!DNL Figma], [!DNL Figma] erstellt ein Rechteck mit einer einzelnen Füllung, die das Bild darstellt, und der Benutzer kann das Rechteck (und die Eigenschaften auf der Füllung) transformieren.</p>
-            <p>Informationen zu Feldern finden Sie unter <a href="#Get5" class="MCXref xref" >[!UICONTROL Datei oder Bild abrufen: Bildfüllungen]</a>.</p>
+            <p>Informationen zu Feldern finden Sie unter <a href="#Get5" class="MCXref xref" >[!UICONTROL Datei oder Bild abrufen: Bilddateien]</a>.</p>
           </li>
         </ul>
       </td>
@@ -276,7 +277,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
         <div class="example"><span class="autonumber"><span><b>Beispiel: </b></span></span>
           <ul>
             <li>
-              <p>Geben Sie nur zur Rückgabe von Seiten ein. <code>1</code>.</p>
+              <p>Geben Sie nur zur Rückgabe von Seiten <code>1</code>.</p>
             </li>
             <li>
               <p>Um Seiten und Objekte der obersten Ebene zurückzugeben, geben Sie <code>2</code>.</p>
@@ -329,7 +330,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
         <div class="example"><span class="autonumber"><span><b>Beispiel: </b></span></span>
           <ul>
             <li>
-              <p>Geben Sie nur zur Rückgabe von Seiten ein. <code>1</code>.</p>
+              <p>Geben Sie nur zur Rückgabe von Seiten <code>1</code>.</p>
             </li>
             <li>
               <p>Um Seiten und Objekte der obersten Ebene zurückzugeben, geben Sie <code>2</code>.</p>
@@ -362,7 +363,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
       <td>Wählen Sie die Datei aus, von der Sie JSON zurückgeben möchten.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>Knoten-IDs]</td>
+      <td role="rowheader" [!UICONTROL>Knoten-IDs</td>
       <td>
         <p>Geben Sie die Knoten ein, die das Modul rendern soll.</p>
         <p>Klicken Sie für jeden Knoten, den Sie rendern möchten, auf <b>[!UICONTROL Hinzufügen]</b> und geben Sie den Text des Knotens ein.</p>
@@ -411,7 +412,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
   </tbody>
 </table>
 
-##### Datei oder Bild abrufen: Bildfüllungen
+##### Datei oder Bild abrufen: Bild füllt
 
 <table style="table-layout:auto"> 
   <col/>
@@ -424,7 +425,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Figma-Bibli
   </tbody>
 </table>
 
-### [!UICONTROL Verlauf der Dateiversionen auflisten]
+### [!UICONTROL Versionsverlauf der Listendatei]
 
 Dieses Suchmodul gibt den Versionsverlauf einer einzelnen Datei in [!UICONTROL Figma].
 <table style="table-layout:auto"> 
@@ -433,7 +434,7 @@ Dieses Suchmodul gibt den Versionsverlauf einer einzelnen Datei in [!UICONTROL F
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     <tr>
       <td role="rowheader">[!UICONTROL Datei-ID]</td>
       <td>
@@ -465,12 +466,12 @@ Dieses Suchmodul gibt eine Liste aller Dateien im angegebenen Projekt zurück.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datei-ID]</td>
       <td>
-        <p>Geben Sie die Projekt-ID ein oder ordnen Sie sie dem Projekt zu, für das Sie Dateien abrufen möchten. </p>
+        <p>Geben Sie die Projekt-ID für das Projekt ein, für das Sie Dateien abrufen möchten, oder ordnen Sie sie zu. </p>
         <ul>
           <li>
             <p>Wenn Sie die Kennung des Projekts nicht kennen, klicken Sie auf <b>[!UICONTROL Projekte suchen]</b> und geben Sie die Kennung des Teams ein, mit dem das Projekt verknüpft ist, oder ordnen Sie sie zu. Wählen Sie dann das Projekt aus.</p>
@@ -495,7 +496,7 @@ Dieses Suchmodul gibt eine Liste aller Projekte innerhalb des angegebenen Teams 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Team ID]</td>
@@ -521,7 +522,7 @@ Dieses Aktionsmodul ruft einen einzelnen Stil oder eine einzelne Komponente oder
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[!UICONTROL Objekt&gt; Schlüssel]</td>
@@ -572,7 +573,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
+      <td> <p>Anweisungen zum Verbinden der [!DNL Figma] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -634,7 +635,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn eines der folgenden Ereignisse f
         <p>So fügen Sie einen neuen Webhook hinzu:</p>
         <ol>
           <li value="1">
-            <p>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem Feld [!UICONTROL Webhook] .</p>
+            <p>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem Feld [!UICONTROL Webhook] .</p>
           </li>
           <li value="2">
             <p>Wählen Sie die Verbindung aus, die Sie für diesen Webhook verwenden möchten. Anweisungen zum Verbinden der [!DNL Figma] Konto für [!UICONTROL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen.</a></p>
@@ -649,7 +650,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn eines der folgenden Ereignisse f
             <p>Geben Sie den [!UICONTROL Status] oder die [!UICONTROL Beschreibung] der Ereignisse ein, die der Webhook sehen soll.</p>
           </li>
           <li value="6">
-            <p>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren.</p>
+            <p>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren.</p>
           </li>
         </ol>
       </td>

@@ -8,13 +8,14 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word-Vorlagenmodule
 description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows automatisieren, die Microsoft Word-Vorlagen verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Microsoft Word Template]-Module
 
@@ -26,7 +27,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,17 +90,17 @@ A [!DNL Microsoft Word] Vorlage ist eine normale [!DNL Microsoft Word] Dokument 
 
 ### Einfaches Wert-Tag {#simple-value-tag}
 
-Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem [!UICONTROL Schlüssel] Wert des Felds, der in zwei geschweifte Klammern gesetzt wird; Beispiel:
+Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem [!UICONTROL Schlüssel] -Wert des Felds, der in zwei geschweifte Klammern gesetzt wird, z. B.
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie eine [!DNL Microsoft Word Template] -Modul, um die folgende Vorlage zu erstellen:
 
-<pre>> Hi &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hi {{name}}!</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -110,26 +111,25 @@ Dazu richten Sie das -Modul wie folgt ein:
 Sie können ein Bedingungs-Tag verwenden, um Text einzuschließen, der nur gerendert werden soll, wenn bestimmte Bedingungen erfüllt sind. Um den Text einzuschließen, platzieren Sie ihn zwischen öffnenden und schließenden Bedingungs-Tags wie &quot;hasPhone&quot;, wenn die Bedingung lautet, ob die Daten eine Telefonnummer enthalten oder nicht. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt, dem Namen eines schließenden Tags ein Schrägstrich vorangestellt, wie im folgenden Beispiel gezeigt.
 
 **Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
-<pre>> &#123;&#123;#hasPhone&#125;&#125;Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;E-Mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Dazu richten Sie das -Modul wie folgt ein:
+<pre>&gt; {{#hasPhone}}Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-Mail: {{email}} {{/hasEmail}}</pre>Dazu richten Sie das -Modul wie folgt ein:
 
 ![](assets/word-template-conditional-350x501.png)
 
 Im Dokument würde die Telefonnummer wie folgt aussehen:
-<pre>&gt; Telefon: 444551234</pre>
+<pre>&gt; Telefon: 4445551234</pre>
 
 ### Schleifentag {#loop-tag}
 
-Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen Textabschnitt zu wiederholen. Schließen Sie den Text ein, indem Sie ihn zwischen den öffnenden und schließenden Schleifen-Tags platzieren. Dem Namen eines öffnenden Tags wird das Hash-Zeichen # vorangestellt. dem Namen eines schließenden Tags ein Schrägstrich vorangestellt wird.
+Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen Textabschnitt zu wiederholen. Schließen Sie den Text ein, indem Sie ihn zwischen den öffnenden und schließenden Schleifen-Tags platzieren. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt; dem Namen eines schließenden Tags wird ein Schrägstrich / vorangestellt.
 
 * [Schleifen-Tag mit Dokumentmodul ausfüllen](#loop-tag-with-fill-out-a-document-module)
-
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Schleifen-Tag mit Dokumentmodul ausfüllen {#loop-tag-with-fill-out-a-document-module}
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -182,7 +182,7 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Starttrennzeichen des ersetzten Texts]</td> 
+   <td role="rowheader">[!UICONTROL Start-Trennzeichen des zu ersetzenden Texts]</td> 
    <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>[[</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
@@ -212,7 +212,7 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
     </ul> 
     <p>So fügen Sie einen Eintrag hinzu:</p>
     <ol> 
-     <li> Klicken <b>[!UICONTROL Element hinzufügen]</b>. </li> 
+     <li> Klicks <b>[!UICONTROL Element hinzufügen]</b>. </li> 
      <li>Wählen Sie den Werttyp des Eintrags aus.</li> 
      <li>Fügen Sie den Namen und den Wert hinzu. Weitere Informationen finden Sie im Beispiel für den ausgewählten Werttyp in diesem Artikel. 
       <ul> 
@@ -244,7 +244,7 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
    <td>Wählen Sie das Modul aus, das die Quelle Ihres Textes darstellt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Starttrennzeichen des ersetzten Texts]</td> 
+   <td role="rowheader">[!UICONTROL Start-Trennzeichen des zu ersetzenden Texts]</td> 
    <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>[[</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
@@ -282,7 +282,7 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
     </ul> 
     <p>So fügen Sie einen Eintrag hinzu:</p>
     <ol> 
-     <li> Klicken <b>[!UICONTROL Element hinzufügen]</b>. </li> 
+     <li> Klicks <b>[!UICONTROL Element hinzufügen]</b>. </li> 
      <li>Wählen Sie den Werttyp des Eintrags aus.</li> 
      <li>Fügen Sie den Namen und den Wert hinzu. Weitere Informationen finden Sie im Beispiel für den ausgewählten Werttyp in diesem Artikel. 
       <ul> 
@@ -294,4 +294,3 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
   </tr> 
  </tbody> 
 </table>
-

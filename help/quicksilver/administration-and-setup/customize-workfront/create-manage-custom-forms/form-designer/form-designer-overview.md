@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular entwerfen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Oben im neuen Formularentwickler und im alten Formularersteller befindet sich ei
 
 Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
-* **Feld kopieren**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
+* **Kopieren eines Felds**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
 
 * **Ändern der Größe für beschreibenden Text**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden.
 
-* **Standardabschnitt verwenden**: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, wird jetzt auf der Arbeitsfläche der Abschnitt &quot;Standard&quot;angezeigt, sodass Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen wurde.
+* **Standardabschnitt verwenden**: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, ist jetzt ein Abschnitt &quot;Standard&quot;auf der Arbeitsfläche sichtbar, damit Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen ist.
 
   >[!NOTE]
   >
@@ -78,7 +78,7 @@ Die folgende Funktion wurde aus dem Formular-Designer entfernt:
 
 * Formulareinstellungen, Formularfreigabe, Registerkarten für Feldfreigabe
 
-   * Die Formulareinstellungen sind jetzt oben auf der Arbeitsfläche verfügbar
+   * Die Formulareinstellungen sind jetzt oben auf der Arbeitsfläche verfügbar.
 
    * Hauptregisterkarte &quot;Formularfreigabe&quot;und Unterregisterkarte &quot;Feldfreigabe&quot;
 

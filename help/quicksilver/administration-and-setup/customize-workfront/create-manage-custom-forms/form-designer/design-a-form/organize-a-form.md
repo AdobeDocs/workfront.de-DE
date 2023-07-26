@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular mit dem Form Designer organisieren.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 08de894a-82f0-4440-a350-680d6648f01e
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
 
 ---
-
 
 # Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Formularentwickler
 
@@ -61,7 +61,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
 
 1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicken **Abschnittsumbruch** und ziehen Sie sie an die gewünschte Position auf der Arbeitsfläche.
+1. Klicks **Abschnittsumbruch** und ziehen Sie sie an die gewünschte Position auf der Arbeitsfläche.
 
 1. Konfigurieren Sie im rechten Bereich die gewünschten Optionen für den Abschnitt:
 
@@ -91,7 +91,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
           <li><p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
           <p>Ermöglicht Benutzern, zum Objekt beizutragen, wenn es sich um ein Projekt, eine Aufgabe oder ein Problem handelt.</p>
           <p>Ermöglicht Benutzern, das Profil zu bearbeiten oder Eigentümer der Profilberechtigung für das Objekt zu sein, wenn es ein Benutzer ist.</p></li> 
-          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
           <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
          </ul> </li> 
         <p>Die folgenden Berechtigungen sind unter <b>Benutzer mit diesem Zugriff auf das Objekt können Feldwerte bearbeiten</b>: </p> 
@@ -99,7 +99,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
           <li> <p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
            <p>Wenn das Objekt ein Projekt, eine Aufgabe oder ein Problem ist, ermöglicht diese Berechtigung Benutzern, zum Objekt beizutragen</p>
           <p>Wenn das Objekt ein Benutzer ist, können Benutzer mit dieser Berechtigung das Profil bearbeiten oder Inhaber der Profilberechtigung für das Objekt sein.</p> 
-          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
           <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
          </ul> </li> 
        </ul> 
@@ -115,11 +115,11 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
 
 1. Ziehen Sie mindestens ein benutzerdefiniertes Feld oder Widget in den neuen Abschnitt oder fügen Sie es hinzu. Dies ist vor dem Speichern des Abschnitts erforderlich.
 
-1. Klicken **Fertig**.
+1. Klicks **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
 
 ### Wie sich mehrere Objektarten auf die Genehmigungen von Abschnittsumbrüchen auswirken können {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
@@ -157,17 +157,16 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* Sie können die **Vorschau** rechts oben, um eine Vorstellung davon zu erhalten, wie die benutzerdefinierten Felder und Widgets im Formular angezeigt werden.
 >* Benutzerdefinierte Felder und Widgets werden im Formular möglicherweise nicht immer auf die gleiche Weise angezeigt, je nachdem, wie viel Platz auf dem Bildschirm verfügbar ist, wenn ein Benutzer das Formular anzeigt. Beispielsweise kann das dritte Feld in einer Zeile von Feldern zur nächsten Zeile von Feldern umbrechen, wenn der horizontale Bereich begrenzt ist.
 
-
 1. (Optional) Um ein benutzerdefiniertes Feld oder Widget über oder unter einem anderen zu positionieren, ziehen Sie es über oder unter, bis eine horizontale blaue Linie zwischen den Elementen angezeigt wird.
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden**
+1. Klicken Sie zum Speichern der Änderungen auf **Anwenden**
 
    oder
 
-   Klicken **Speichern und schließen**.
+   Klicks **Speichern und schließen**.
 
 ## Vorschau eines benutzerdefinierten Formulars
 
 1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicken **Vorschau** in der oberen linken Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+1. Klicks **Vorschau** in der oberen linken Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.

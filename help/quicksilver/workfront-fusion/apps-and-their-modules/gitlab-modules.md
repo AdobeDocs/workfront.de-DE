@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: GitLab-Module
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
+feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '4485'
 ht-degree: 0%
@@ -33,7 +34,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,17 +51,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -95,8 +96,8 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
    </table>
 
 
-1. Klicken **[!UICONTROL Weiter]**.
-1. Klicken **[!UICONTROL Autorisieren]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]**.
+1. Klicks **[!UICONTROL Autorisieren]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 ## [!DNL GitLab] Module und ihre Felder
 
@@ -118,7 +119,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn sich der Status eines Bu
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Build-Statusänderungen überwacht werden soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Build-Statusänderungen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -135,7 +136,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Kommentar zu einem C
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -152,7 +153,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Commit in ein Reposi
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Commits überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Commits überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -169,7 +170,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn zu einem Problem ein Kom
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Problemkommentare überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Problemkommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -186,7 +187,7 @@ Diese [!UICONTROL Instant Trigger] startet ein Szenario, wenn ein Problem erstel
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Probleme überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Probleme überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -208,7 +209,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eines der folgenden Erei
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Zusammenführungsanfragen überwacht werden soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Zusammenführungsanfragen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -225,7 +226,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Kommentar für eine 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Zusammenführungsanfragekommentare überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Zusammenführungsanfragekommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -242,7 +243,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn sich der Status einer Pi
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Pipeline-Statusänderungen überwacht werden soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Pipeline-Statusänderungen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -259,7 +260,7 @@ Dieses Modul für geplante Trigger startet ein Szenario, wenn ein neues Projekt 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Ergebnisse</td> 
@@ -280,7 +281,7 @@ Dieses geplante Trigger-Modul startet ein Szenario, wenn einem Repository eine n
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Ergebnisse</td> 
@@ -301,7 +302,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Tag in einem Reposit
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Tags überwacht werden soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Tags überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -318,7 +319,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein neuer Kommentar zu e
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -343,7 +344,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eine Wiki-Seite erstellt
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>So fügen Sie einen neuen Webhook hinzu: <ol><li>Klicken <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Wiki-Seiten überwachen soll</li></ul></li><li>Klicken <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Wiki-Seiten überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -370,7 +371,7 @@ Dieses Aktionsmodul bricht einen einzelnen Build eines Projekts ab.
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Projekt-ID]</td> 
@@ -490,11 +491,11 @@ Informationen zu Feldern finden Sie unter [Neue Datei im Repository erstellen](h
 
 +++
 
-+++**[!UICONTROL Neues Problem erstellen]**
++++**[!UICONTROL Neues Problem-Hinweis erstellen]**
 
 Dieses Aktionsmodul erstellt einen Problemhinweis für ein einzelnes Projektproblem.
 
-Informationen zu Feldern finden Sie unter [Neues Problem erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neues Problem-Hinweis erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) im [!DNL GitLab] Dokumentation.
 
 +++
 
@@ -577,7 +578,7 @@ Informationen zu Feldern finden Sie unter [Meilenstein bearbeiten](https://docs.
 
 +++
 
-+++**[!UICONTROL Löschen eines Builds]**
++++**[!UICONTROL Build löschen]**
 
 Dieses Aktionsmodul löscht einen Build eines Projekts (entfernt Auftragsartefakte und Auftragsprotokolle).
 
@@ -710,7 +711,7 @@ Informationen zu Feldern finden Sie unter [Abrufen einer einzelnen Zusammenführ
 
 Dieses Aktionsmodul ruft Meilensteindetails ab.
 
-Informationen zu Feldern finden Sie unter [Einzelne Meilensteine abrufen](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen einzelner Meilensteine](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) im [!DNL GitLab] Dokumentation.
 
 +++
 
@@ -835,7 +836,7 @@ Informationen zu Feldern finden Sie unter [Zusammenführungsanforderungen auflis
 
 +++
 
-+++**[!UICONTROL Eigene Projekte auflisten]**
++++**[!UICONTROL Liste eigener Projekte]**
 
 Dieses Suchmodul ruft Projekte ab, bei denen der authentifizierte Benutzer als Eigentümer festgelegt ist.
 
@@ -867,11 +868,11 @@ Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://do
 
 +++
 
-+++**[!UICONTROL Auflisten von Projektproblemen]**
++++**[!UICONTROL Projektprobleme auflisten]**
 
 Dieses Suchmodul gibt alle Probleme in einem angegebenen Projekt zurück.
 
-Informationen zu Feldern finden Sie unter [Auflisten von Projektproblemen](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) im [!DNL GitLab] Dokumentation.
 
 +++
 
@@ -915,11 +916,11 @@ Informationen zu Feldern finden Sie unter [Alle Projekte auflisten](https://docs
 
 +++
 
-+++**[!UICONTROL Repository-Zweige auflisten]**
++++**[!UICONTROL Repository-Verzweigungen auflisten]**
 
 Dieses Modul sucht nach Repository-Verzweigungen anhand des Suchbegriffs.
 
-Informationen zu Feldern finden Sie unter [Repository-Zweige auflisten](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Repository-Verzweigungen auflisten](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) im [!DNL GitLab] Dokumentation.
 
 +++
 
@@ -935,7 +936,7 @@ Informationen zu Feldern finden Sie unter [Repository-Commits auflisten](https:/
 
 Dieses Suchmodul ruft eine Repository-Beitragsliste ab.
 
-Informationen zu Feldern finden Sie unter [Mitwirkende](https://docs.gitlab.com/ee/api/repositories.html#contributors) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Mitarbeiter](https://docs.gitlab.com/ee/api/repositories.html#contributors) im [!DNL GitLab] Dokumentation.
 
 +++
 

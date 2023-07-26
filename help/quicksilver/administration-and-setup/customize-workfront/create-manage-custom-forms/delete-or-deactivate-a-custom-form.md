@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Löschen eines benutzerdefinierten Formulars
 description: Sie können ein benutzerdefiniertes Formular aus dem System löschen.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierter Forms.**
+1. Klicks **Benutzerdefinierter Forms.**
 1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Löschen**.
 1. Wenn Sie sicher sind, dass Sie das benutzerdefinierte Formular und alle zugehörigen Daten zu Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.

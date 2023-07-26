@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular aus einer Kopie mit dem Formularentwickler entwerfen.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
-
 
 # Entwerfen eines Formulars aus einer Kopie mit dem Formularentwickler
 
@@ -51,7 +51,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierter Forms.**
+1. Klicks **Benutzerdefinierter Forms.**
 1. Wählen Sie das benutzerdefinierte Formular aus, das Sie als Grundlage für ein neues benutzerdefiniertes Formular verwenden möchten, und klicken Sie dann auf **Kopieren**.
 1. Im **Benutzerdefinierte Formularkopie** Geben Sie die folgenden Informationen ein:
 
@@ -73,7 +73,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     </tbody> 
    </table>
 
-1. Klicken **Formular kopieren**.
+1. Klicks **Formular kopieren**.
 
    Wenn berechnete Felder im Originalformular auf Felder verweisen, die nicht mit einem Objekttyp kompatibel sind, den Sie dem neuen Formular hinzufügen, werden Sie aufgefordert, die Berechnungen in diesen Feldern zu ändern.
 

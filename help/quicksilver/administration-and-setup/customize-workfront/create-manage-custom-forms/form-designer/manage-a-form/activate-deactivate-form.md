@@ -1,21 +1,21 @@
 ---
-title: Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars
+title: Deaktivieren oder reaktivieren Sie ein benutzerdefiniertes Formular
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr verwenden, um historische Daten beizubehalten.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
-
-# Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars
+# Deaktivieren oder reaktivieren Sie ein benutzerdefiniertes Formular
 
 Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr verwenden, um historische Daten beizubehalten.
 
@@ -53,7 +53,7 @@ Felder in einem inaktiven benutzerdefinierten Formular können auch in einer Ans
 So deaktivieren Sie ein benutzerdefiniertes Formular:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
-1. Wählen Sie im linken Bereich **Benutzerdefinierte Forms**.
+1. Wählen Sie im linken Bereich die Option **Benutzerdefinierte Forms**.
 1. Im **Forms** wählen Sie das benutzerdefinierte Formular aus, das Sie deaktivieren möchten.
 1. Wählen Sie in der Spalte Ist aktiv die Option **False** und klicken Sie aus der Spalte. Das Formular ist nicht mehr aktiv.
 
@@ -62,6 +62,6 @@ So deaktivieren Sie ein benutzerdefiniertes Formular:
 Wenn Sie ein benutzerdefiniertes Formular reaktivieren, werden die zuvor vorhandenen Einstellungen beibehalten und die Benutzer können mit dem Formular so interagieren, als wäre es nie deaktiviert.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
-1. Wählen Sie im linken Bereich **Benutzerdefinierte Forms**.
+1. Wählen Sie im linken Bereich die Option **Benutzerdefinierte Forms**.
 1. Im **Forms** wählen Sie das benutzerdefinierte Formular aus, das Sie reaktivieren möchten.
 1. Wählen Sie in der Spalte Ist aktiv die Option **True** und klicken Sie aus der Spalte. Das Formular ist jetzt aktiv.

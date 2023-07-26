@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets mit dem alten Formular-Builder
 description: Wenn Sie ein neues benutzerdefiniertes Feld oder Widget zu einem benutzerdefinierten Formular hinzufügen, kann standardmäßig jeder Benutzer im System mit Zugriff auf benutzerdefinierte Formulare die Eigenschaften für dieses Element bearbeiten (z. B. Titel und Name). Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 2%
@@ -62,10 +62,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    1. Wählen Sie im Formularbearbeitungsbereich auf der rechten Seite das Element aus, für das Sie die Freigabe konfigurieren möchten.
    1. Klicken Sie im linken Bereich auf **Feld freigeben**.
 
-
 1. Im **Benutzerdefinierter Feldzugriff** das angezeigt wird, geben Sie an, für wen Sie das Element freigeben möchten und wie Sie es freigeben möchten:
 
-   1. In der unteren linken Ecke des **Benutzerdefinierter Feldzugriff** Feld, unter **Zugriff auf benutzerdefinierte Felder gewähren** eingeben, beginnen Sie mit der Eingabe des Namens eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens, für den bzw. das Sie das Element freigeben möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
+   1. In der unteren linken Ecke des **Benutzerdefinierter Feldzugriff** Feld, unter **Zugriff auf benutzerdefinierte Felder gewähren an** eingeben, beginnen Sie mit der Eingabe des Namens eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens, für den bzw. das Sie das Element freigeben möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
 
       ![](assets/share-field-give-access-to.jpg)
 
@@ -95,15 +94,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    * **Machen Sie diesen bearbeitbaren Code systemweit so, dass er von jedem in Workfront bearbeitet werden kann** (Standardoption)
 
-      Wenn Sie ein benutzerdefiniertes Feld oder Widget hinzufügen und die Freigabe nicht einschränken, können alle Benutzer im System, die Zugriff auf benutzerdefinierte Formulare haben, es anzeigen und seine Eigenschaften bearbeiten.
+     Wenn Sie ein benutzerdefiniertes Feld oder Widget hinzufügen und die Freigabe nicht einschränken, können alle Benutzer im System, die Zugriff auf benutzerdefinierte Formulare haben, es anzeigen und seine Eigenschaften bearbeiten.
 
    * **Systemweiten Bearbeitungs-Zugriff entfernen**
 
-      Schränkt den Zugriff auf nur die Benutzer ein, die Sie der Liste hinzugefügt haben.
+     Beschränkt den Zugriff auf nur die, die Sie der Liste hinzugefügt haben.
 
    * **Machen Sie dies systemweit sichtbar, sodass jeder in Workfront es sehen kann.**
 
-1. Klicken **Speichern** oder **Speichern und schließen**.
+1. Klicks **Speichern** oder **Speichern und schließen**.
 
 ## Vererbter Zugriff auf benutzerdefinierte Felder und Widgets bei der Freigabe eines benutzerdefinierten Formulars
 
@@ -125,7 +124,7 @@ Sie können ermitteln, wer Zugriff auf ein benutzerdefiniertes Feld oder Widget 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
 1. Klicken Sie auf **Felder** und wählen Sie das Feld, Bild oder Zugriffs-Widget aus.
 1. Klicken Sie in dem angezeigten Feld auf **Vererbte Berechtigungen** und die angezeigten Namen anzeigen.
-1. Klicken **Abbrechen**.
+1. Klicks **Abbrechen**.
 
 ### Entfernen des Zugriffs auf ein benutzerdefiniertes Feld oder Widget in einem benutzerdefinierten Formular, das freigegeben wurde {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 

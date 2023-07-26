@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen
 description: Wenn Sie an einem benutzerdefinierten Formular arbeiten, können Sie ein neues benutzerdefiniertes Feld erstellen und es zu einem benutzerdefinierten Formular hinzufügen. Sie können auch ein benutzerdefiniertes Feld hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 3%
@@ -143,7 +143,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das benutzerdefinierte Feld, wenn Sie es zu verschiedenen Bereichen in Workfront hinzufügen, z. B. zu Berichten, Startseite und API-Interaktionen.</p> <p>Wenn Sie das benutzerdefinierte Feld zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
       <p><b>WICHTIG</b>:   
       <ul> 
-      <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Ist dies der Fall, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann. <p>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.</p> </li>
+      <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann. <p>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.</p> </li>
       <li> <p>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.</p> </li>
       <li><p>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.</p></li>
       </ul> <p>Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. Weitere Informationen finden Sie unter <a href="#Add" class="MCXref xref">Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen</a> in diesem Artikel.</p> </td>
@@ -177,17 +177,17 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Referenzierter Objekttyp</td> 
-      <td> <p>(Nur Eingabefelder) Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf "Anwenden"oder "Speichern und schließen"geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>NOTIZ</b>:   
+      <td> <p>(Nur Eingabefelder) Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Übernehmen oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>NOTIZ</b>:   
         <ul> 
          <li>Wenn Ihr Workfront-Administrator den Namen für Portfolios, Programme oder Projekte in der Benutzeroberfläche von Workfront angepasst hat, wird der standardmäßige Workfront-Name für das Objekt in dieser Dropdownliste und nicht der benutzerdefinierte Name angezeigt. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe dazu benötigen.<br></li> 
-         <li>Die folgenden Objekttypen werden in den mobilen Apps von iOS und Android Workfront unterstützt: Benutzer, Firma, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</li> 
+         <li>Die folgenden Objekttypen werden in den mobilen Apps von iOS und Android Workfront unterstützt: Benutzer, Unternehmen, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Filter hinzufügen</td> 
       <td> <p>(Nur Felder vom Typ voraus) Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte einzuschränken, die Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so einschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
        <ul> 
-        <li>Sie gehören zu einer oder mehreren von Ihnen angegebenen Gruppen</li> 
+        <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
         <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
         <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
        </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie im Abschnitt . <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Textmodus in einem Filter bearbeiten</a> im Artikel <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>. </p> <p><b>NOTIZ</b>:   
@@ -205,7 +205,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td>(Nur beschreibende Textfelder) Wenn Sie einen Hyperlink auf den eingegebenen beschreibenden Text anwenden möchten, fügen Sie ihn hier hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Zu einem erforderlichen Feld machen</td> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td> 
       <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
      </tr> 
      <tr> 
@@ -213,33 +213,33 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td><p>Klicken Sie auf die Dropdown-Liste und wählen Sie dann die Objekttypen aus, bei denen die Werteänderungen des Felds automatisch verfolgt werden sollen.</p> 
       <p><b>NOTE</b>: Diese Option ist für Folgendes nicht verfügbar:</p> 
       <ul> 
-      <li>Benutzerdefinierte Formulare, die mit den folgenden Objekttypen verknüpft sind: Kosten, Unternehmen, Iteration, Rechnungsstellung und Gruppe.</li> 
-      <li>Die folgenden Feldtypen: Errechneter , beschreibender Text und Abschnittsumbruch</li> 
+      <li>Benutzerdefinierte Formulare, die mit den folgenden Objekttypen verknüpft sind: Ausgaben, Unternehmen, Iteration, Rechnungsstellung und Gruppe.</li> 
+      <li>Die folgenden Feldtypen: Berechnet , beschreibender Text und Abschnittsumbruch</li> 
       </ul>
       <p><b>WICHTIG</b>: Die Auswahl oder Deaktivierung eines Objekttyps wirkt sich auf alle benutzerdefinierten Formulare aus, die mit dem ausgewählten Objekttyp verknüpft sind und dieses Feld enthalten. Wenn Sie beispielsweise die Auswahl eines Objekttyps hier aufheben und das benutzerdefinierte Formular speichern, werden die Werteänderungen des Felds für diesen Objekttyp in keinem benutzerdefinierten Formular mehr verfolgt, das das Feld enthält.</p>
        <p>Nachdem Sie hier einen Objekttyp für ein Feld ausgewählt und das benutzerdefinierte Formular gespeichert haben, wird das Feld auf der Registerkarte "Benutzerdefinierte Felder"im Bereich "Feeds aktualisieren"unter "Einrichtung"angezeigt.</p> 
        <p>Wenn dieses Feld dagegen im Bereich "Feeds aktualisieren"unter "Einrichtung"gelöscht wird, wird der Objekttyp für diese Einstellung für alle benutzerdefinierten Formulare deaktiviert, die mit dem Objekttyp verknüpft sind und dieses Feld enthalten.</p> 
-       <p>Weitere Informationen finden Sie im Abschnitt . <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Felder hinzufügen, die von Workfront verfolgt werden sollen</a> im Artikel <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Systemaktualisierungen konfigurieren</a>.</p> </td> 
+       <p>Weitere Informationen finden Sie im Abschnitt . <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Fügen Sie die Felder hinzu, die von Workfront verfolgt werden sollen</a> im Artikel <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Systemaktualisierungen konfigurieren</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td> 
       <td>Geben Sie an, welche Felder im Formular angezeigt werden sollen, basierend auf den Auswahlen, die Benutzer in vorhandenen Feldern treffen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Auswahlmöglichkeiten </td> 
-      <td> <p>(Nur Dropdown-, Kontrollkästchen- oder Optionsfelder); optional)</p> 
+      <td role="rowheader">Auswahl </td> 
+      <td> <p>(Nur Dropdown-, Kontrollkästchen- oder Optionsfelder; optional)</p> 
        <ol> 
-        <li> <p>Klicken <b>Optionen</b>, aktivieren Sie dann einen der folgenden Schritte:</p> 
+        <li> <p>Klicks <b>Optionen</b>, aktivieren Sie dann einen der folgenden Schritte:</p> 
            <ul> 
             <li><strong>Werte anzeigen</strong>: Zeigt die Werte jeder Auswahl im Feld an. Der Titel jeder Auswahl wird standardmäßig angezeigt.</li> 
-            <li><strong>Sortierungsoptionen A-Z</strong>: Sortiert die Auswahlmöglichkeiten, die Sie dem Feld alphabetisch hinzufügen.</li> 
+            <li><strong>Sortierungsoptionen A-Z</strong>: Sortiert die Auswahlmöglichkeiten, die Sie im Feld alphabetisch hinzufügen.</li> 
            </ul> 
         </li> 
         <li> <p>Klicken Sie für jede Auswahlmöglichkeit, die Sie für den Benutzer hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png">und wählen Sie dann eine der folgenden Optionen aus:</p> 
            <ul> 
             <li><strong>Standardmäßig auswählen</strong>: Wählen Sie im Feld standardmäßig die gewünschte Option aus.</li> 
-            <li> <p><strong>Auswahl ausblenden</strong>: Blenden Sie die Auswahl im Feld aus. Ausgeblendete Optionen stehen in Berichten weiterhin zur Verfügung.</p> </li> 
-            <li> <p><strong>Auswahl entfernen</strong>: Entfernen Sie die Auswahl aus dem Feld.</p> <p><b>WARNUNG</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahl verwenden, entfernen Sie sie nicht aus dem Feld. Wenn Sie sie entfernen, gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden. Dies verhindert, dass Benutzer sie in Zukunft auswählen.</p> </li> 
+            <li> <p><strong>Auswahl ausblenden</strong>: Blendet die Auswahl im Feld aus. Ausgeblendete Optionen stehen in Berichten weiterhin zur Verfügung.</p> </li> 
+            <li> <p><strong>Auswahl entfernen</strong>: Entfernt die Auswahl aus dem Feld.</p> <p><b>WARNUNG</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahl verwenden, entfernen Sie sie nicht aus dem Feld. Wenn Sie sie entfernen, gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden. Dies verhindert, dass Benutzer sie in Zukunft auswählen.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -247,7 +247,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     </tbody> 
    </table>
 
-1. (Bedingt) Um den Anzeigetyp eines Felds im benutzerdefinierten Formular zu ändern, klicken Sie auf die Schaltfläche **Anzeigetyp** und klicken Sie auf den gewünschten Typ.
+1. (Bedingt) Wenn Sie den Anzeigetyp eines Felds im benutzerdefinierten Formular ändern möchten, klicken Sie auf die Schaltfläche **Anzeigetyp** und klicken Sie auf den gewünschten Typ.
 
    Sie können zwischen den folgenden Feldanzeigetypen wechseln:
 
@@ -263,7 +263,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >* Wenn Sie zu &quot;Optionsfelder&quot;wechseln, behält Workfront alle Mehrfachauswahlwerte bei, die ein Benutzer in das Feld eingegeben hat, bis der Benutzer Daten in einem beliebigen Teil des Formulars ändert und speichert. An dieser Stelle werden alle Werte, die mit dem Feld vom Typ Mehrfachauswahl ausgewählt wurden, durch den ausgewählten Wert für Optionsfelder ersetzt.
    >* Wenn Sie zu einem Dropdown-Menü mit nur einer Auswahl wechseln, behält Workfront alle Mehrfachauswahlwerte bei, die ein Benutzer möglicherweise in das Feld eingegeben hat, bis der Benutzer die Werte im Feld ändert und speichert. An dieser Stelle werden alle Werte, die mit dem Feld vom Typ Mehrfachauswahl ausgewählt wurden, durch den ausgewählten Dropdown-Wert ersetzt.
 
-
 1. (Optional) Wiederholen Sie die Schritte 2 bis 6, um weitere benutzerdefinierte Felder hinzuzufügen.
 
    Oder
@@ -274,7 +273,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >
    >Sie können bis zu 500 Felder und Widgets in einem einzelnen benutzerdefinierten Formular hinzufügen. Je nach Komplexität eines Formulars kann die Leistung jedoch beeinträchtigt werden, wenn mehr als 100 Formulare vorhanden sind. Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechnete benutzerdefinierte Datenfelder und Optionen mit mehreren Werten in einem einzelnen Feld.
 
-1. Klicken **Anwenden**.
+1. Klicks **Anwenden**.
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 
    * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)

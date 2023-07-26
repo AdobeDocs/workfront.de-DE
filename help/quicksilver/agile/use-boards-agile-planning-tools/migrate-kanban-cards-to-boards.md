@@ -4,8 +4,9 @@ navigation-topic: boards
 title: Migrieren von agilen Teams Kanban-Karten zu Workfront-Pinnwänden
 description: Sie können Ihre Arbeitselemente von einem agilen Team Kanban Board zu einem neuen oder vorhandenen Workfront Board migrieren.
 author: Lisa
+feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 {{step1-to-team}}
 
 1. Greifen Sie auf ein Kanban-Board zu.
-1. Klicken [!UICONTROL **Zu Foren hinzufügen**] und wählen Sie [!UICONTROL **Neue Pinnwand**].
+1. Klicks [!UICONTROL **Hinzufügen zu Pinnwänden**] und wählen [!UICONTROL **Neue Pinnwand**].
 1. Im [!UICONTROL Neue Pinnwand hinzufügen] dialog, geben Sie einen Namen für die neue Pinnwand ein (den Namen der aktuellen [!UICONTROL Kanban] Pinnwand wird automatisch angezeigt) und klicken Sie auf [!UICONTROL **Hinzufügen**].
 
    ![Hinzufügen von Kanban-Karten zur neuen Pinnwand](assets/add-kanban-cards-to-new-board-dialog.png)
@@ -60,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 {{step1-to-team}}
 
 1. Greifen Sie auf ein Kanban-Board zu.
-1. Klicken [!UICONTROL **Zu Foren hinzufügen**] und wählen Sie [!UICONTROL **Vorstand**].
+1. Klicks [!UICONTROL **Hinzufügen zu Pinnwänden**] und wählen [!UICONTROL **Vorstand**].
 1. Im [!UICONTROL Hinzufügen zu vorhandener Pinnwand] , suchen Sie nach der Pinnwand, auf die die Karten migriert werden sollen, und wählen Sie sie aus. Klicken Sie anschließend auf [!UICONTROL **Hinzufügen**].
 
    ![Hinzufügen von Kanban-Karten zur vorhandenen Pinnwand](assets/add-kanban-cards-to-existing-board-dialog.png)

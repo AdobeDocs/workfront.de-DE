@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Airtable Module
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
@@ -23,7 +24,7 @@ Mit dem [!DNL Airtable] Connector für [!DNL Adobe Workfront Fusion]können Sie 
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -403,7 +404,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz in der angegebenen
   </tr> 
   <tr> 
    <td> <p>Trigger-Konfiguration</p> </td> 
-   <td> <p>Trigger</p> <p>A <code>Created Time</code> oder <code>Last Modified Time</code> -Feld zum Sortieren von Datensätzen. Wenn Sie keine <code>Created Time</code> oder <code>Last Modified Time</code> in Ihrem Schema verwenden, müssen Sie eines erstellen. </p> <p>Beschriftungsfeld</p> <p>Ein Feld, das als Beschriftung für einen Datensatz verwendet wird, z. B. im Dialogfeld Festlegen, wo der Datensatz gestartet werden soll.</p> </td> 
+   <td> <p>Trigger</p> <p>A <code>Created Time</code> oder <code>Last Modified Time</code> -Feld zum Sortieren von Datensätzen. Wenn Sie keine <code>Created Time</code> oder <code>Last Modified Time</code> -Feld in Ihrem Schema verwenden, müssen Sie eines erstellen. </p> <p>Beschriftungsfeld</p> <p>Ein Feld, das als Beschriftung für einen Datensatz verwendet wird, z. B. im Dialogfeld Festlegen, wo der Datensatz gestartet werden soll.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit</td> 
@@ -426,7 +427,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Formular gesendet wird.
 
 >[!NOTE]
 >
->Diese Funktion ist nur für bezahlte Airtable Pro Plan verfügbar.
+>Diese Funktion ist nur für zahlungspflichtige Airtable Pro Plan verfügbar.
 
 Die Webhook-URL muss in Workfront Fusion generiert und dann zur Formularkonfiguration in Airtable hinzugefügt werden.
 
@@ -438,7 +439,7 @@ Die Webhook-URL muss in Workfront Fusion generiert und dann zur Formularkonfigur
 1. Melden Sie sich bei Ihrem Airtable-Konto an.
 1. Öffnen Sie die Basis und die Tabelle, die Sie für das Formular verwenden möchten, und erstellen Sie eine Formularansicht.
 1. Legen Sie das Formular nach Bedarf fest, scrollen Sie nach unten in das Formular und aktivieren Sie die Option Zu URL umleiten , nachdem das Formular gesendet wurde.
-1. Geben Sie die in Schritt 2 generierte Webhook-URL in das angezeigte Dialogfeld ein und fügen Sie ?record_id={record_id} direkt nach der Webhook-URL hinzu, um die Datensatz-ID in die Ausgabe des Moduls einzuschließen. Klicken Sie dann auf Speichern. Die resultierende URL sieht beispielsweise wie folgt aus:
+1. Geben Sie die in Schritt 2 generierte Webhook-URL in das angezeigte Dialogfeld ein und fügen Sie &quot;?record_id=&quot;hinzu.{record_id} direkt nach der Webhook-URL, um die Datensatz-ID in die Ausgabe des Moduls einzuschließen, und klicken Sie dann auf Speichern. Die resultierende URL sieht beispielsweise wie folgt aus:
 1. Gehen Sie zurück zu Ihrem Workfront Fusion-Szenario und führen Sie das Modul Antworten überwachen nur aus, um Felder von Airtable zu laden und diese Felder den anderen Modulen zuzuordnen.
 1. Senden Sie das Formular in Airtable, wobei die Option Zu URL umleiten, nachdem das Formular gesendet wurde aktiviert ist und die Webhook-URL hinzugefügt wurde (Schritt 6 oben).
 

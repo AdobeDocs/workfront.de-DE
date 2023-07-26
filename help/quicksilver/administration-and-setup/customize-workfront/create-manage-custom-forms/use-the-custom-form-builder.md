@@ -6,15 +6,15 @@ product-area: system-administration
 navigation-topic: customize-workfront
 description: Sie können ein benutzerdefiniertes Formular erstellen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 7b225c5b9010089189ecbc2260e6148c9494e3eb
+exl-id: 9268fe04-1ad2-481f-822d-6e2b8ac23e26
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden des veralteten benutzerdefinierten Formular-Builders
 

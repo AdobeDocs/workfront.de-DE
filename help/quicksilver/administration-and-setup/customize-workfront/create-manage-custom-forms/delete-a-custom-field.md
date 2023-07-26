@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Löschen eines benutzerdefinierten Felds oder Widgets aus dem System
 description: Um die Systemleistung zu verbessern und die Verwendung von Formularen für Benutzer zu vereinfachen, sollten Sie benutzerdefinierte Felder und Widgets aus Ihrem System entfernen, wenn sie nicht mehr verwendet werden.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierter Forms.**
+1. Klicks **Benutzerdefinierter Forms.**
 1. Klicken Sie auf **Felder** Registerkarte.
 1. Wählen Sie das benutzerdefinierte Feld oder Widget aus und klicken Sie auf **Löschen**.
 1. Wenn Sie sicher sind, dass Sie das Element und (im Fall eines benutzerdefinierten Felds) alle zugehörigen Daten zu Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.
@@ -73,9 +73,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    1. Fügen Sie die benutzerdefinierten Felder zum neuen Formular hinzu, das Sie aus dem ursprünglichen benutzerdefinierten Formular entfernen möchten.
 
       * Wenn Sie den benutzerdefinierten Formular-Builder verwenden, lesen Sie [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Wenn Sie den Formularentwickler verwenden, lesen Sie [Hinzufügen neuer oder vorhandener Felder zum benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
-   1. Speichern Sie das neue benutzerdefinierte Formular.
+      * Wenn Sie den Formularentwickler verwenden, lesen Sie [Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
 
+   1. Speichern Sie das neue benutzerdefinierte Formular.
 
 1. Beschränken Sie den Zugriff auf das benutzerdefinierte Formular auf Benutzer mit Administratorzugriff, wie unter [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Wenden Sie das neue benutzerdefinierte Formular auf die Objekte an, auf die das ursprüngliche benutzerdefinierte Formular bereits angewendet wurde, wie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

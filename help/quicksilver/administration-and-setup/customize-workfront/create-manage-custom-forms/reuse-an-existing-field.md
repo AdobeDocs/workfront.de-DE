@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Verwenden Sie ein benutzerdefiniertes Feld oder Asset-Widget in einem benutzerdefinierten Formular mit dem Legacy-Formular
 description: Wenn Sie ein benutzerdefiniertes Formular erstellen oder bearbeiten, können Sie ein benutzerdefiniertes Feld oder Widget hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%

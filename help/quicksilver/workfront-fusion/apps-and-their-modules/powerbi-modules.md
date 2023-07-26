@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Power BI-Module
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # [!DNL Power BI] Module
 
-[!DNL Power BI] ist eine Anwendung, mit der Sie Daten für Ihre Stakeholder visualisieren und darstellen können. Es kann Daten aus verschiedenen Quellen aufnehmen.
+[!DNL Power BI] ist eine Anwendung, mit der Sie Daten für Ihre Stakeholder visualisieren und darstellen können. Es kann Daten aus einer Vielzahl von Quellen aufnehmen.
 
 >[!NOTE]
 >
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,17 +45,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +85,7 @@ Dieses Suchmodul ruft eine Liste von Dashboards ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Gruppen-ID]  </td>
@@ -111,7 +112,7 @@ Dieses Suchmodul ruft eine Liste von Dashboard-Kacheln ab.
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Dashboard-ID eingeben]</td>
@@ -148,7 +149,7 @@ Dieses Aktionsmodul ruft Metadaten eines angegebenen Dashboards ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dashboard-ID eingeben]</td>
@@ -179,7 +180,7 @@ Dieses Aktionsmodul ruft Metadaten einer angegebenen Dashboard-Kachel ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dashboard-ID eingeben]</td>
@@ -214,7 +215,7 @@ Dieses Aktionsmodul erstellt ein neues Dashboard.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -239,7 +240,7 @@ Dieses Suchmodul ruft eine Liste von Berichten ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Gruppen-ID]  </td>
@@ -266,7 +267,7 @@ Dieses Aktionsmodul ruft Metadaten eines angegebenen Berichts ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Berichtkennung eingeben]</td>
@@ -297,7 +298,7 @@ Dieses Aktionsmodul kopiert einen vorhandenen Bericht.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Berichtkennung eingeben]</td>
@@ -332,7 +333,7 @@ Dieses Aktionsmodul löscht einen Bericht.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Berichtkennung eingeben]</td>
@@ -365,7 +366,7 @@ Dieses Suchmodul ruft eine Liste von Datensätzen ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Gruppen-ID]  </td>
@@ -390,7 +391,7 @@ Dieses Aktionsmodul ruft Metadaten eines angegebenen Datensatzes ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Berichtkennung eingeben]</td>
@@ -421,7 +422,7 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -440,10 +441,10 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz.
             <p><b>[!UICONTROL as Azure]</b>: Ein Datensatz mit einer Live-Verbindung zu [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL As on Prem]</b>: Ein Datensatz mit einer Live-Verbindung zu [!DNL On-premise Analysis] Diensleistung</p>
+            <p><b>[!UICONTROL As on Prem]</b>: Ein Datensatz mit einer Live-Verbindung zu [!DNL On-premise Analysis] Dienst</p>
           </li>
           <li>
-            <p><b>[!DNL Push]</b>: Ein Datensatz, der einen programmgesteuerten Zugriff zum Übertragen von Daten in ermöglicht [!DNL Power BI]</p>
+            <p><b>[!DNL Push]</b>: Ein Datensatz, der einen programmgesteuerten Zugriff zum Übertragen von Daten in ermöglicht. [!DNL Power BI]</p>
           </li>
           <li>
             <p><b>[!DNL Push Streaming]</b>: Ein Datensatz, der Daten-Streaming unterstützt und programmgesteuerten Zugriff zum Senden von Daten in ermöglicht [!DNL Power BI]</p>
@@ -460,7 +461,7 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz.
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
-      <td>Fügen Sie die Datenquellen hinzu. Informationen zu Feldern finden Sie unter <a href="#Data" class="MCXref_0">Datenquellen-Felder</a>.</td>
+      <td>Hinzufügen der Datenquellen. Informationen zu Feldern finden Sie unter <a href="#Data" class="MCXref_0">Datenquellen-Felder</a>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Default Retention Policy]  </td>
@@ -499,7 +500,7 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz.
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Geben Sie einen Spaltennamen ein (Zuordnung).</p>
+            <p>Geben Sie einen Spaltennamen ein (zuordnen).</p>
           </li>
           <li>
             <p><b>[!UICONTROL Datentyp]</b>
@@ -592,7 +593,7 @@ Dieses Aktionsmodul fügt Zeilen einer angegebenen Push-Datensatztabelle hinzu o
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tabelle eingeben]</td>
@@ -675,7 +676,7 @@ Dieses Aktionsmodul aktualisiert einen angegebenen Datensatz.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datensatz eingeben]</td>
@@ -707,7 +708,7 @@ Dieses Aktionsmodul aktualisiert einen angegebenen Datensatz.
             <p>[!UICONTROL Mail bei Fehler]</p>
           </li>
           <li>
-            <p>[!UICONTROL Keine Benachrichtigung]</p>
+            <p>Keine Benachrichtigung!</p>
           </li>
         </ul>
       </td>
@@ -725,7 +726,7 @@ Dieses Aktionsmodul löscht einen Datensatz.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Berichtkennung eingeben]</td>
@@ -758,7 +759,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn eine App aktualisiert wird.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -779,7 +780,7 @@ Dieses Suchmodul ruft eine Liste aller installierten Apps ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -800,7 +801,7 @@ Dieses Suchmodul ruft eine Liste aller Berichte aus der angegebenen App ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]</td>
@@ -825,7 +826,7 @@ Dieses Suchmodul ruft eine Liste von Dashboards aus einer bestimmten App ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]</td>
@@ -850,7 +851,7 @@ Dieses Aktionsmodul ruft Metadaten einer angegebenen App ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -871,7 +872,7 @@ Dieses Aktionsmodul ruft Metadaten aus dem Bericht einer bestimmten App ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -898,7 +899,7 @@ Dieses Aktionsmodul ruft Metadaten des Dashboards einer bestimmten App ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -927,7 +928,7 @@ Dieses Aktionsmodul führt einen API-Aufruf an die [!DNL Power BI] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Power BI] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">

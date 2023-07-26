@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer-Module
 description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Journey Optimizer], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table>
   <col/>
@@ -51,17 +52,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td>
     </tr>
   </tbody>
@@ -80,7 +81,7 @@ Bevor Sie die [!DNL Adobe Journey Optimizer] müssen Sie sicherstellen, dass die
 
 ## Erstellen Sie eine Verbindung zu [!DNL Adobe Journey Optimizer]
 
-So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Journey Optimizer] -Module:
+So erstellen Sie eine Verbindung für [!DNL Adobe Journey Optimizer] -Module:
 
 1. In jeder [!DNL Adobe Journey Optimizer] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
 
@@ -127,7 +128,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Journey Optimizer] -Modul
             <p>So extrahieren Sie Ihren privaten Schlüssel oder Ihr Zertifikat:</p>
             <ol>
               <li value="1">
-                <p>Klicken <b>[!UICONTROL Extract]</b>.</p>
+                <p>Klicks <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
                 <p>Wählen Sie den Dateityp aus, den Sie extrahieren.</p>
@@ -139,14 +140,14 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Journey Optimizer] -Modul
                 <p>Geben Sie das Kennwort für die Datei ein.</p>
               </li>
               <li value="5">
-                <p>Klicken <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
+                <p>Klicks <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## [!DNL Adobe Journey Optimizer] Module und ihre Felder
 
@@ -183,15 +184,15 @@ Dieses Aktionsmodul erstellt eine Platzierung, Entscheidungsregel, ein Tag, ein 
         [!UICONTROL Record Type]
       </td>
       <td>
-        Wählen Sie den Typ des Datensatzes aus, den Sie erstellen möchten
+        Wählen Sie den zu erstellenden Datensatztyp aus
         <ul>
-        <li><b>[!UICONTROL Platzierung]</b>: Weiter zu <a href="#placement-fields" >[!UICONTROL Platzierungsfelder]</a>.</li>
-        <li><b>[!UICONTROL Entscheidungsregel]</b>: Weiter zu <a href="#decision-rule-fields" >Felder für [!UICONTROL Entscheidungsregel]</a>.</li>
-        <li><b>[!UICONTROL Entscheidung]</b>: Weiter zu <a href="#decision-fields" >[!UICONTROL Entscheidungsfelder</a>.</li>
-        <li><b>[!UICONTROL Tag]</b>: Weiter zu <a href="#tag-fields" >Felder des [!UICONTROL Tags]</a>.</li>
-        <li><b>[!UICONTROL Sammlung]</b>: Weiter zu <a href="#collection-fields" >[!UICONTROL Kollektionsfelder]</a>.</li>
-        <li><b>[!UICONTROL Fallback-Angebot]</b>: Weiter zu <a href="#fallback-offer-fields" >[!UICONTROL Fallback-Angebot]-Felder</a>.</li>
-        <li><b>[!UICONTROL Personalisiertes Angebot]</b>: Weiter zu <a href="#personalized-offer-fields" >Felder für personalisierte Angebote</a>.</li>
+        <li><b>[!UICONTROL Platzierung]</b>: Fahren Sie mit <a href="#placement-fields" >[!UICONTROL Platzierungsfelder]</a>.</li>
+        <li><b>[!UICONTROL Entscheidungsregel]</b>: Fahren Sie mit <a href="#decision-rule-fields" >Felder für [!UICONTROL Entscheidungsregel]</a>.</li>
+        <li><b>[!UICONTROL Entscheidung]</b>: Fahren Sie mit <a href="#decision-fields" >[!UICONTROL Entscheidungsfelder</a>.</li>
+        <li><b>[!UICONTROL Tag]</b>: Fahren Sie mit <a href="#tag-fields" >Felder des [!UICONTROL Tags]</a>.</li>
+        <li><b>[!UICONTROL Sammlung]</b>: Fahren Sie mit <a href="#collection-fields" >[!UICONTROL Kollektionsfelder]</a>.</li>
+        <li><b>[!UICONTROL Fallback-Angebot]</b>: Fahren Sie mit <a href="#fallback-offer-fields" >[!UICONTROL Fallback-Angebot]-Felder</a>.</li>
+        <li><b>[!UICONTROL Personalisiertes Angebot]</b>: Fahren Sie mit <a href="#personalized-offer-fields" >Felder für personalisierte Angebote</a>.</li>
         </ul>
       </td>
     </tr>
@@ -273,7 +274,7 @@ Dieses Aktionsmodul erstellt eine Platzierung, Entscheidungsregel, ein Tag, ein 
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Praktika]</td>
-      <td>Wählen Sie die Platzierungen aus, die dieser Entscheidung hinzugefügt werden sollen
+      <td>Auswählen der Platzierungen, die dieser Entscheidung hinzugefügt werden sollen
       </td>
     </tr>
    <tr>
@@ -421,7 +422,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz in [!DNL Adobe Journey Opt
         [!UICONTROL Record Type]
       </td>
       <td>
-        Wählen Sie den Typ des Datensatzes aus, den Sie löschen möchten
+        Wählen Sie den zu löschenden Datensatztyp aus
         <ul>
         <li>[!UICONTROL Platzierung]</li>
         <li>[!UICONTROL Entscheidungsregel]</li>
@@ -518,7 +519,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz in [!DNL Adobe Journey Opt
         [!UICONTROL Record Type]
       </td>
       <td>
-        Wählen Sie den Typ des Datensatzes aus, den Sie löschen möchten
+        Wählen Sie den zu löschenden Datensatztyp aus
         <ul>
         <li>[!UICONTROL Platzierung]</li>
         <li>[!UICONTROL Entscheidungsregel]</li>
@@ -558,7 +559,7 @@ Dieses Aktionsmodul erstellt eine Platzierung, eine Entscheidung, eine Entscheid
         [!UICONTROL Record Type]
       </td>
       <td>
-        Wählen Sie den Typ des Datensatzes aus, den Sie aktualisieren möchten
+        Wählen Sie den zu aktualisierenden Datensatztyp aus
         <ul>
         <li>[!UICONTROL Platzierung]</li>
         <li>[!UICONTROL Entscheidungsregel]</li>
@@ -583,7 +584,7 @@ Dieses Aktionsmodul erstellt eine Platzierung, eine Entscheidung, eine Entscheid
       </td>
       <td>Für jedes Feld, das Sie aktualisieren möchten:
       <ol>
-      <li>Klicken <b>[!UICONTROL Hinzufügen]</b>.</li>
+      <li>Klicks <b>[!UICONTROL Hinzufügen]</b>.</li>
       <li>Wählen Sie aus, ob Sie Werte hinzufügen, ersetzen oder entfernen möchten.</li>
       <li>Geben Sie das Feld ein, das Sie aktualisieren möchten.</li>
       <li>Geben Sie den neuen Wert für das Feld ein.</li>

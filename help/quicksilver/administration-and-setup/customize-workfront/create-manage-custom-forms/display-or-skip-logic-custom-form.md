@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können festlegen, welche Abschnitte eines benutzerdefinierten Formulars angezeigt oder übersprungen werden sollen, je nach den Optionen, die ein Benutzer beim Ausfüllen vornimmt.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 * Um eine Anzeigerlogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Auswahlfeld (Optionsfelder, Dropdown-Menüs oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.
 
-   Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Sie können einem Widget oder einer Abschnittsumbruch keine Logik zum Überspringen hinzufügen. Sie können sie nur zu einem Multiple-Choice-Feld hinzufügen (Optionsfelder, Dropdown-Listen oder Kontrollkästchen).
 
@@ -81,11 +81,11 @@ Am besten erfahren Sie, wie Sie einem benutzerdefinierten Formular eine Anzeige-
 
 1. Erstellen Sie das benutzerdefinierte Beispielformular:
 
-   1. Klicken **Neues benutzerdefiniertes Formular** Klicken Sie auf **Projekt** in der Dropdown-Liste.
+   1. Klicks **Neues benutzerdefiniertes Formular** Klicken Sie auf **Projekt** in der Dropdown-Liste.
 
    1. Im **Formulartitel** Feld, Typ **Beispiel für ein benutzerdefiniertes Formular - Erlernen der Anzeigenlogik und Logik überspringen**.
 
-   1. Klicken **Feld hinzufügen** in der oberen linken Ecke.
+   1. Klicks **Feld hinzufügen** in der oberen linken Ecke.
    1. Fügen Sie ein Dropdown-Feld mit dem Namen *Problemfeld* durch Klicken auf **Dropdown**, dann eingeben **Problemfeld** im **Titel** ankreuzen.
 
    1. under **Auswahlmöglichkeiten** Fügen Sie die folgenden Auswahlmöglichkeiten in die Textfelder ein:
@@ -94,33 +94,33 @@ Am besten erfahren Sie, wie Sie einem benutzerdefinierten Formular eine Anzeige-
 
       Keine Forschung mehr
 
-   1. Klicken **Speichern und schließen** in der unteren linken Ecke.
+   1. Klicks **Speichern und schließen** in der unteren linken Ecke.
 
 1. Wählen Sie das neue **Beispiel für ein benutzerdefiniertes Formular - Erlernen der Anzeigenlogik und Logik überspringen** benutzerdefiniertes Formular und klicken Sie auf **Bearbeiten**.
 
-1. Fügen Sie ein neues einzeiliges Textfeld mit dem Namen *sonstige Forschung* durch Klicken auf **Einzelzeilentext-Feld**, dann eingeben **sonstige Forschung** im **Titel** ankreuzen.
+1. Fügen Sie ein neues einzeiliges Textfeld mit dem Namen *sonstige Forschung* durch Klicken auf **Einzeiliges Textfeld**, dann eingeben **sonstige Forschung** im **Titel** ankreuzen.
 
-1. Klicken **Logik hinzufügen** in der Nähe der linken unteren Seite des **Benutzerdefiniertes Formular bearbeiten** angezeigt.
+1. Klicks **Logik hinzufügen** in der Nähe der linken unteren Seite des **Benutzerdefiniertes Formular bearbeiten** angezeigt.
 
-1. In dem sich öffnenden Feld wird mit dem **Anzeigelogik** Registerkarte öffnen, richten Sie die Logik ein für den Zeitpunkt, zu dem die **sonstige Forschung** wird im Formular angezeigt, indem Sie auf **Problemfeld** in der ersten Dropdown-Liste, **Erforderliche Forschung** in der zweiten Dropdown-Liste und **Ausgewählt** in der dritten Dropdown-Liste.
-1. Klicken **Speichern** zum Schließen der **Feldlogik** und klicken Sie auf **Fertig** im **Feldeinstellungen** Bereich.
+1. In dem sich öffnenden Feld wird mit dem **Anzeigelogik** Registerkarte öffnen, richten Sie die Logik ein für den Zeitpunkt, zu dem die **sonstige Forschung** wird im Formular durch Klicken auf **Problemfeld** in der ersten Dropdown-Liste **Erforderliche Forschung** in der zweiten Dropdown-Liste und **Ausgewählt** in der dritten Dropdown-Liste.
+1. Klicks **Speichern** zum Schließen der **Feldlogik** und klicken Sie auf **Fertig** im **Feldeinstellungen** Bereich.
 
    Wenn jetzt jemand **Erforderliche Forschung** im **Problemfeld** in der Dropdown-Liste **sonstige Forschung** wird angezeigt.
 
-1. Klicken **Vorschau** , um sicherzustellen, dass die Logik wie gewünscht im Formular angezeigt wird.
-1. Klicken **Endvorschau** wenn Sie feststellen, dass die Logik erwartungsgemäß funktioniert.
-1. Klicken **Speichern und schließen** auf **Benutzerdefiniertes Formular bearbeiten** Fenster zum Speichern des Formulars, dann fortfahren mit [Logik überspringen](#skip-logic) unten.
+1. Klicks **Vorschau** , um sicherzustellen, dass die Logik wie gewünscht im Formular angezeigt wird.
+1. Klicks **Endvorschau** wenn Sie feststellen, dass die Logik erwartungsgemäß funktioniert.
+1. Klicks **Speichern und schließen** auf **Benutzerdefiniertes Formular bearbeiten** Fenster zum Speichern des Formulars, dann fortfahren mit [Logik überspringen](#skip-logic) unten.
 
 ### Logik überspringen {#skip-logic}
 
-Die Logik zum Überspringen funktioniert ähnlich wie die Anzeigelogik, fungiert jedoch als umgekehrt: Anstatt bestimmte benutzerdefinierte Multiple-Choice-Felder basierend auf bestimmten Auswahlen anzuzeigen, legen Sie anhand der Benutzerauswahl fest, welche Felder übersprungen werden sollen.
+Logik überspringen funktioniert ähnlich wie die Anzeigelogik, fungiert jedoch als umgekehrt: Anstatt spezifische benutzerdefinierte Multiple-Choice-Felder basierend auf bestimmten Auswahlen anzuzeigen, legen Sie anhand der Auswahl des Benutzers fest, welche übersprungen werden sollen.
 
 Um mehr darüber zu erfahren, fahren Sie mit der Arbeit an dem benutzerdefinierten Beispielformular fort, das Sie im Abschnitt erstellt haben [Anzeigelogik](#display-logic) in diesem Artikel:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms**.
-1. Wählen Sie das Formular aus **Beispiel für ein benutzerdefiniertes Formular - Erlernen der Anzeigenlogik und Logik überspringen** die Sie in den obigen Schritten erstellt haben, klicken Sie auf **Bearbeiten**.
+1. Klicks **Benutzerdefinierte Forms**.
+1. Wählen Sie das Formular **Beispiel für ein benutzerdefiniertes Formular - Erlernen der Anzeigenlogik und Logik überspringen** die Sie in den obigen Schritten erstellt haben, klicken Sie auf **Bearbeiten**.
 
 1. Wählen Sie das von Ihnen erstellte Dropdown-Feld namens *Problemfeld*.
 1. Klicken Sie auf **Logik hinzufügen** im **Feldeinstellungen** Seitenleiste.
@@ -129,10 +129,10 @@ Um mehr darüber zu erfahren, fahren Sie mit der Arbeit an dem benutzerdefiniert
 
 1. Setzen Sie das erste Dropdown-Menü auf **Keine Forschung mehr** und die zweite Dropdown-Liste **Ausgewählt**.
 
-1. Im **Überspringen Sie dann zu** Dropdown-Liste auswählen **Ende des Formulars.**
+1. Im **Überspringen Sie dann zu** Dropdown-Liste auswählen **Formularende.**
 
    Wenn jetzt jemand **Keine Forschung mehr** im **Problemfeld** in das Dropdown-Feld springen, wird das Formular direkt am Ende des Formulars übersprungen, ohne dass die **sonstige Forschung** -Feld.
 
 1. Klicken Sie auf **Speichern**.
-1. Klicken **Vorschau**  , um sicherzustellen, dass die Logik die gewünschte Anwendung findet.
-1. Klicken **Fertig** unten links im Formular angezeigt.
+1. Klicks **Vorschau**  , um sicherzustellen, dass die Logik die gewünschte Anwendung findet.
+1. Klicks **Fertig** unten links im Formular angezeigt.

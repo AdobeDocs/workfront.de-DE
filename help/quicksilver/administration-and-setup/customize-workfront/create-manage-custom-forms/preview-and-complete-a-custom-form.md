@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.
-description: Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau davon anzeigen, wie es für Benutzer aussehen wird, und dieses dann speichern und schließen.
+description: Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau des Formulars anzeigen, um zu sehen, wie es für Benutzer aussehen wird, und es dann speichern und schließen.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.
 
-Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau davon anzeigen, wie es für Benutzer aussehen wird, und dieses dann speichern und schließen.
+Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau des Formulars anzeigen, um zu sehen, wie es für Benutzer aussehen wird, und es dann speichern und schließen.
 
 ## Zugriffsanforderungen
 
@@ -48,9 +48,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Erstellen und konfigurieren Sie ein benutzerdefiniertes Formular, wie in den Artikeln beschrieben. [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)und andere.
 
-1. (Optional) Klicken Sie auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussieht, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+1. (Optional) Klicken Sie auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussieht, und klicken Sie auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
 
-1. Klicken **Speichern+Schließen** , um Ihre Änderungen zu speichern.
+1. Klicks **Speichern+Schließen** , um Ihre Änderungen zu speichern.
 
    Oder
 

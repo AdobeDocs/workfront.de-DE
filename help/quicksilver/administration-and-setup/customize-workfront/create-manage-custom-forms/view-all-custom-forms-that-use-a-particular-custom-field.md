@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Alle benutzerdefinierten Formulare anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 description: Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

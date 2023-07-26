@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Kartenfalloff konfigurieren
 description: Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan archiviert oder von der Pinnwand heruntergefallen werden.
 author: Lisa
+feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -45,8 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Kartenfalloff konfigurieren
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern **[!UICONTROL Karten]**.
 1. Aktivieren **[!UICONTROL Automatische Archivierung von Karten aus der Pinnwand]**.
 
@@ -57,5 +58,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Das Datum wird ab dem Zeitpunkt der letzten Änderung der Karte bestimmt.
 
 1. Wählen Sie aus, aus welcher Spalte Karten entfernt werden sollen.
-1. Klicken **[!UICONTROL Speichern]** in der Bestätigungsnachricht angezeigt.
-1. Klicken **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bereich. Die Konfigurationseinstellungen werden automatisch angewendet, wenn Sie die Pinnwand aktualisieren.
+1. Klicks **[!UICONTROL Speichern]** in der Bestätigungsnachricht angezeigt.
+1. Klicks **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bedienfeld. Die Konfigurationseinstellungen werden automatisch angewendet, wenn Sie die Pinnwand aktualisieren.

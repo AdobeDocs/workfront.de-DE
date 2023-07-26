@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen</td> 
-      <td> <p>Möglichkeit, das benutzerdefinierte Formular für Objekte anzuzeigen und auszufüllen.</p> <p><b>NOTE</b>: Für Benutzer mit Arbeits-, Überprüfungs- und Anforderungslizenzen ist dies die höchste verfügbare Option.</p> <p>Klicken <strong>Erweiterte Einstellungen</strong> um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Möglichkeit, das benutzerdefinierte Formular für Objekte anzuzeigen und auszufüllen.</p> <p><b>NOTE</b>: Für Benutzer mit Arbeits-, Überprüfungs- und Anforderungslizenzen ist dies die höchste verfügbare Option.</p> <p>Klicks <strong>Erweiterte Einstellungen</strong> um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li><strong>Anhängen an benutzerdefinierte Daten</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, auf die sie Zugriff haben Verwalten</li> 
         <li> <p><strong>Freigeben</strong>: Möglichkeit, das benutzerdefinierte Formular für andere Benutzer im System freizugeben</p> <p>Benutzer mit einer Arbeits-, Überprüfungs- oder Anforderungslizenz können ein benutzerdefiniertes Formular nur über die API oder einen Bericht für benutzerdefinierte Formulare freigeben. Weitere Informationen finden Sie unter .</p> </li> 
@@ -78,11 +78,11 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
-      <td> <p>Nur für Benutzer mit einer Planungslizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, sondern auch das benutzerdefinierte Formular vollständig bearbeiten. Dazu gehören das Hinzufügen, Bearbeiten und Löschen von Feldern.</p> <p>Klicken <strong>Erweiterte Einstellungen</strong> um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Nur für Benutzer mit einer Planungslizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, sondern auch das benutzerdefinierte Formular vollständig bearbeiten. Dazu gehören das Hinzufügen, Bearbeiten und Löschen von Feldern.</p> <p>Klicks <strong>Erweiterte Einstellungen</strong> um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li> <p><strong>Anhängen an benutzerdefinierte Daten</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, auf die sie Zugriff haben Verwalten</p> </li> 
-        <li><strong>Löschen</strong>: Löschen Sie das benutzerdefinierte Formular aus dem System</li> 
-        <li><strong>Freigeben</strong>: Freigeben des benutzerdefinierten Formulars für andere Benutzer im System</li> 
+        <li><strong>Löschen</strong>: Löschen Sie das benutzerdefinierte Formular aus dem System.</li> 
+        <li><strong>Freigeben</strong>: Geben Sie das benutzerdefinierte Formular für andere Benutzer im System frei.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -97,7 +97,6 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
    >
    >* Wenn Sie ein benutzerdefiniertes Formular systemweit sichtbar machen, können Benutzer es nur auf Objekten sehen und ausfüllen, denen sie zugewiesen sind, und nicht an andere Objekte anhängen. Sie können das benutzerdefinierte Formular mithilfe der Option &quot;An benutzerdefinierte Daten anhängen&quot;anhängen, wie in Schritt 5 erläutert.
    >* Die meisten Unternehmen möchten sicherstellen, dass alle Benutzer im System ein benutzerdefiniertes Formular ausfüllen können, wenn es an Objekte angehängt ist, an denen sie arbeiten, und seine Daten in Berichten anzeigen. Wenn dies für Ihre Organisation zutrifft, empfehlen wir die Verwendung von &quot;**Diese Funktion systemweit sichtbar machen**.&quot; Wenn die Option auf diese Weise konfiguriert ist, wird im Dialogfeld &quot;Sichtbar systemweit&quot;angezeigt:
-
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   

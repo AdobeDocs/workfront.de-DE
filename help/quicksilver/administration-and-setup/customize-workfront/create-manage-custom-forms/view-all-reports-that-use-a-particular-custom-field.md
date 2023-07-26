@@ -2,10 +2,10 @@
 title: Alle Berichte anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 description: Sie können eine benutzerdefinierte Ansicht im Bereich "Benutzerdefinierter Forms"hinzufügen, die anzeigt, welche Berichte ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden. Dies ist nützlich, wenn Sie das Feld oder Widget bearbeiten oder löschen müssen, da es möglicherweise bereits in einem oder mehreren Berichten implementiert ist. Es ist wichtig zu beurteilen, ob diese Berichte angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -56,18 +56,18 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    In der Spalte Berichte können Sie sehen, welche Berichte die einzelnen benutzerdefinierten Felder und Widgets verwenden, die zu einem benutzerdefinierten Formular in Ihrem System hinzugefügt wurden. Es ist möglich, dass jemand bereits eine Ansicht erstellt hat, die Folgendes enthält: **Berichte** Spalte.
 
-1. Wenn keine Ansicht angezeigt wird, die **Berichte** erstellen Sie eine neue Ansicht, die Folgendes enthält:
+1. Wenn keine Ansicht angezeigt wird, die die **Berichte** erstellen Sie eine neue Ansicht, die Folgendes enthält:
 
    1. Klicken Sie auf **Ansicht** Dropdown-Menü, und klicken Sie auf **Neue Ansicht**.
 
    1. Im **Neue Ansicht** Seite, die angezeigt wird, ersetzen Sie im Feld links oben **Neue Parameteransicht** mit einem beschreibenden Namen für die Ansicht, z. B. *Felder und Widgets*.
 
-   1. Klicken **Spalte hinzufügen** in der Nähe der rechten unteren Ecke.
+   1. Klicks **Spalte hinzufügen** in der rechten unteren Ecke.
    1. Im **In dieser Spalte anzeigen** in der Nähe der oberen linken Ecke angezeigt wird, beginnen Sie mit der Eingabe. *Bericht*, wählen Sie **Berichte** , wenn sie in der Liste unter dem Feld angezeigt wird.
 
    1. (Bedingt) Wenn Sie die **Berichte** -Spalte, die Sie gerade zu einer anderen horizontalen Position hinzugefügt haben, ziehen Sie die Kopfzeile in **Spaltenvorschau** unten auf der Seite.
 
-   1. Klicken **Fertig** Klicken Sie auf **Ansicht speichern**.
+   1. Klicks **Fertig** Klicken Sie auf **Ansicht speichern**.
 
 1. Klicken Sie auf **Ansicht** Dropdown-Menü und wählen Sie dann den Namen der soeben erstellten benutzerdefinierten Ansicht aus.
 1. Im **Name** -Spalte, das benutzerdefinierte Feld oder Widget suchen, das Sie bearbeiten oder löschen möchten, und dann die **Berichte** in dieser Zeile, um zu sehen, welche Berichte sie verwenden (falls vorhanden).
@@ -88,9 +88,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >      
    > 1. Klicken Sie im Hauptmenü auf **Berichte**.
    > 1. Klicken Sie links oben auf **Neuer Bericht** Klicken Sie auf **Parameter** in der Liste, die angezeigt wird.
-   > 1. Klicken **Spalte hinzufügen** in der Nähe der rechten unteren Ecke.
+   > 1. Klicks **Spalte hinzufügen** in der rechten unteren Ecke.
    > 1. Im **In dieser Spalte anzeigen** in der Nähe der oberen linken Ecke angezeigt wird, beginnen Sie mit der Eingabe. *Bericht*, wählen Sie **Berichte** , wenn sie in der Liste unter dem Feld angezeigt wird.
    > 1. (Bedingt) Wenn Sie die **Berichte** -Spalte, die Sie gerade zu einer anderen horizontalen Position hinzugefügt haben, ziehen Sie die Kopfzeile in **Spaltenvorschau** unten auf der Seite.
-   > 1. Klicken **Fertig** Klicken Sie auf **Speichern+Schließen**.
-   > 1. Geben Sie einen beschreibenden Namen für den Bericht ein, z. B. *Felder und Widgets*.
-
+   > 1. Klicks **Fertig** Klicken Sie auf **Speichern+Schließen**.
+   > 1. Geben Sie einen beschreibenden Namen für den Bericht ein, beispielsweise *Felder und Widgets*.

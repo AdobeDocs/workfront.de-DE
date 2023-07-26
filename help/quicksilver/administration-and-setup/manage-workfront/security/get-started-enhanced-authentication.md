@@ -3,8 +3,10 @@ title: Verbesserte Authentifizierung - Übersicht
 description: Ausgeblendet aus der Suche und aus der linken Navigationsleiste
 hidefromtoc: true
 hide: true
+feature: System Setup and Administration
+role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 3%
@@ -102,7 +104,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
   <tr> 
    <td> <p>Schutz vor falschen Kennworteintragungsversuchen </p> </td> 
    <td> <p>✓ </p> <p>Sperrt das Konto nach fünf falschen Kennworteintragungsversuchen. Die nach der Sperrung benötigte Wartezeit wird vom Workfront-Administrator konfiguriert</p> </td> 
-   <td> <p>✓</p> <p>Die Wartezeit wird exponentiell nach jedem aufeinander folgenden fehlerhaften Passwort erhöht, das auf Best Practices der Branche basiert. der erforderliche Zeitraum vom Workfront-Administrator nicht konfiguriert werden kann</p> </td> 
+   <td> <p>✓</p> <p>Die Wartezeit wird exponentiell nach jedem aufeinander folgenden fehlerhaften Passwort erhöht, das auf Best Practices der Branche basiert. Die erforderliche Zeit kann vom Workfront-Administrator nicht konfiguriert werden.</p> </td> 
    <td> <p>✓</p> <p>Verwendet einen Sperralgorithmus, der eine Vielzahl verdächtiger Verhaltensweisen proaktiv blockiert.</p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +151,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Konfigurieren Sie die Workfront-Anmeldeseite, um immer zur Anmeldeseite des Identitätsanbieters umzuleiten. </p> </td> 
+   <td> <p> Konfigurieren der Workfront-Anmeldeseite, um immer zur Anmeldeseite des Identitätsanbieters umzuleiten </p> </td> 
    <td> Standardmäßig aktiviert und kann nicht deaktiviert werden</td> 
    <td> <p>✓</p> <p>Der Workfront-Administrator kann die Anmeldeseite konfigurieren, um zur Anmeldeseite des Identitätsanbieters umzuleiten, oder eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
    <td> <p>✓</p> <p> Workfront-Administratoren können die Anmeldeseite so konfigurieren, dass sie zur Anmeldeseite des Identitätsanbieters weitergeleitet wird, oder eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
@@ -171,7 +173,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Einen einzelnen Benutzernamen und ein einzelnes Kennwort für Sandbox-Umgebungen</p> </td> 
+   <td> <p>Ein einzelner Benutzername und ein Kennwort für Sandbox-Umgebungen</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>✓</p> </td> 

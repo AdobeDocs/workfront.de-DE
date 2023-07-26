@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API-Artikel
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -24,7 +25,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Ereignisabonnementzertifikate](../../wf-api/api/event-sub-certs.md)
 * [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Core-API-Änderungen: Statussuchantworten](../../wf-api/api/api-changes-search.md)
+* [Core-API-Änderungen: Status-Suchantworten](../../wf-api/api/api-changes-search.md)
 * [Aktualisieren von Integrationen, die die standardmäßige API-Versionierung verwenden](../../wf-api/api/update-default-api-versioning.md)
 * [Veraltete API-interne](../../wf-api/api/deprecation-api-internal.md)
 * [Escapezeichen in API-Antworten](../../wf-api/api/escaped-characters-api.md)

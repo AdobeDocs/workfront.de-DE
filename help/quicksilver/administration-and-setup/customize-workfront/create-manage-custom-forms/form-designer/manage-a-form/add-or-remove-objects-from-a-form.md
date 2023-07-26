@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Mit dem Formularentwickler können Sie Objekttypen zu benutzerdefinierten Formularen hinzufügen oder daraus entfernen.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular mit dem Formularentwickler
 
@@ -60,7 +60,7 @@ Sie können dem Formular weitere Objekttypen hinzufügen, damit es an mehrere Ob
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
@@ -70,11 +70,11 @@ Sie können dem Formular weitere Objekttypen hinzufügen, damit es an mehrere Ob
 
    ![](assets/add-new-object.png)
 
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
 
 ## Löschen von Objekttypen in einem benutzerdefinierten Formular
 
@@ -90,11 +90,11 @@ So löschen Sie einen Objekttyp:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie auf **Bearbeiten**.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**.
 1. Klicken Sie auf das X auf einem der **Objekttypen** die Sie aus dem Formular löschen möchten, klicken Sie auf **Löschen** in der angezeigten Warnmeldung angezeigt.
 
    ![](assets/delete-object-types.png)
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt für jeden anderen Objekttyp, den Sie aus dem Formular entfernen möchten.
-1. Klicken **Fertig** Klicken Sie auf **Schließen und speichern**.
+1. Klicks **Fertig** Klicken Sie auf **Schließen und speichern**.

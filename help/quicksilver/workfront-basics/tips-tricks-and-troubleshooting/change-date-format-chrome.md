@@ -2,21 +2,22 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Ändern des Formats für Datumsangaben in [!DNL Adobe Workfront]
+title: Datumsformat ändern in [!DNL Adobe Workfront]
 description: So ändern Sie das Datumsformat für die Datumsangaben in [!DNL Adobe Workfront] müssen Sie die Spracheinstellungen in Ihrem Browser ändern.
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# Ändern des Formats für Datumsangaben in [!DNL Adobe Workfront]
+# Datumsformat ändern in [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-So ändern Sie das Datumsformat in [!DNL Adobe Workfront], z. B. [!UICONTROL Geplantes Abschlussdatum], [!UICONTROL Tatsächliches Abschlussdatum]oder [!UICONTROL Voraussichtlicher Abschluss], von TT/MM/JJJJ zu MM/TT/JJJJ oder umgekehrt, müssen Sie beispielsweise die Spracheinstellungen in Ihrem Browser ändern.
+So ändern Sie das Datumsformat in [!DNL Adobe Workfront], beispielsweise [!UICONTROL Geplantes Abschlussdatum], [!UICONTROL Tatsächliches Abschlussdatum]oder [!UICONTROL Voraussichtlicher Abschluss], von TT/MM/JJJJ zu MM/TT/JJJJ oder umgekehrt, müssen Sie beispielsweise die Spracheinstellungen in Ihrem Browser ändern.
 
 Wenn die Standardsprache in Ihrem Browser auf *[!UICONTROL Englisch (USA)]*, werden die Daten im Format MM/TT/JJJJ angezeigt.
 

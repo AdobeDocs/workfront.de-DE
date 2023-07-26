@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Workday-Module
 description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows automatisieren, die [!DNL Workday], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 author: Becky
+feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 2%
@@ -26,7 +27,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,17 +44,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -97,7 +98,7 @@ So verwenden Sie die [!DNL Workday] -Module müssen Sie:
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Mandantenname]</td>
-                <td>Geben Sie hierfür den Mandanten ein. [!DNL Workday] -Konto. Ihr Mandant ist die Kennung Ihres Unternehmens und kann in der URL angezeigt werden, die Sie zum Anmelden bei Workday verwenden. Beispiel: in der Adresse <code>https://www.myworkday.com/mycompany</code>, lautet der Mandant <code>mycompany</code>.</td>
+                <td>Geben Sie hierfür den Mandanten ein. [!DNL Workday] -Konto. Ihr Mandant ist die Kennung Ihres Unternehmens und kann in der URL angezeigt werden, die Sie zum Anmelden bei Workday verwenden. Beispiel: in der -Adresse <code>https://www.myworkday.com/mycompany</code>, lautet der Mandant <code>mycompany</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Client-ID]</td>
@@ -115,7 +116,7 @@ So verwenden Sie die [!DNL Workday] -Module müssen Sie:
     </table>
 
 
-3. Klicken [!UICONTROL Weiter] , um die Verbindung zu speichern und zum Modul zurückzukehren
+3. Klicks [!UICONTROL Weiter] , um die Verbindung zu speichern und zum Modul zurückzukehren
 
 ## [!DNL Workday] Module und ihre Felder
 
@@ -180,7 +181,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz in [!DNL Workday].
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Verbindung]</td>
-            <td>Anweisungen zum Verbinden der [!DNL Workday] Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xre[!DNL ]f" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a>.</td>
+            <td>Anweisungen zum Verbinden der [!DNL Workday] -Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xre[!DNL ]f" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record Type]</td>
@@ -196,7 +197,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz in [!DNL Workday].
         </tr>
         <tr>
             <td role="rowheader">[!UICONTROL ID] </td>
-            <td >Geben Sie die Kennung des Datensatzes ein oder ordnen Sie ihn zu.</td>
+            <td >Geben Sie die Kennung des Datensatzes ein, den Sie löschen möchten, oder ordnen Sie sie zu.</td>
         </tr>
     </tbody>
 </table>
@@ -216,7 +217,7 @@ Das Modul gibt den Status-Code zusammen mit den Kopfzeilen und dem Text des API-
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>Anweisungen zum Verbinden der [!DNL Workday] Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xre[!DNL ]f" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a>.</td>
+            <td>Anweisungen zum Verbinden der [!DNL Workday] -Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xre[!DNL ]f" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -302,7 +303,7 @@ Dieses Aktionsmodul liest einen einzelnen Datensatz.
         </tr>
         <tr>
             <td role="rowheader">[!UICONTROL ID] </td>
-            <td >Geben Sie die Kennung des Datensatzes ein oder ordnen Sie ihn zu.</td>
+            <td >Geben Sie die Kennung des Datensatzes ein, den Sie löschen möchten, oder ordnen Sie sie zu.</td>
         </tr>
     </tbody>
 </table>
@@ -317,7 +318,7 @@ Dieses Suchmodul ruft eine Liste von Datensätzen des angegebenen Typs ab.
       <tbody>
           <tr>
               <td role="rowheader">[!UICONTROL Verbindung]</td>
-              <td>Anweisungen zum Verbinden der [!DNL Workday] Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xref" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a></td>
+              <td>Anweisungen zum Verbinden der [!DNL Workday] -Konto [!DNL Workfront Fusion], siehe <a href="#Connect" class="MCXref xref" >Verbinden [!DNL Workday] nach [!DNL Workfront Fusion]</a></td>
           </tr>
           <tr>
               <td  role="rowheader">[!UICONTROL Record Type]</td>

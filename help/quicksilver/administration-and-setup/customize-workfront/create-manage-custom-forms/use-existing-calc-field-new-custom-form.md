@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular mit dem alten Formular-Builder erneut.
 description: Sie können dasselbe berechnete benutzerdefinierte Feld für benutzerdefinierte Formulare verwenden, die zu verschiedenen Objekten gehören. Sie können beispielsweise das Feld "Errechneter Gewinn"verwenden, das Sie für das benutzerdefinierte Projekt-Formular für eine Aufgabe in einem benutzerdefinierten Formular erstellt haben.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -37,4 +37,3 @@ Sie können für dasselbe Feld auch eine andere Berechnung für das neue Formula
 >* Wählen Sie die Option Benutzerdefinierte Ausdrücke neu berechnen , wenn Sie Objekte stapelweise bearbeiten.
 >* Wählen Sie bei der Bearbeitung eines berechneten benutzerdefinierten Felds in einem benutzerdefinierten Formular die Option Vorherige Berechnungen aktualisieren .
 >
-

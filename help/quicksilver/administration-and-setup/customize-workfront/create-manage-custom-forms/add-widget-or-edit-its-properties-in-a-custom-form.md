@@ -2,10 +2,10 @@
 title: Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder
 description: Sie können die Eigenschaften der folgenden Asset-Widgets wie Bilder, Videos, PDF-Dateien und Adobe XD-Dateien in einem benutzerdefinierten Formular hinzufügen oder bearbeiten. Dies ist nützlich, wenn Sie visuelle Inhalte wie Branding-Bilder, ein Video mit Anweisungen oder einen interaktiven Prototyp für eine App einbeziehen müssen, die Sie entwerfen.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    * Wenn Sie ein neues Widget hinzufügen, wählen Sie **Bild**, **PDF** oder **Video** , um es am unteren Rand des Formulars hinzuzufügen, oder ziehen Sie es an die gewünschte Position im Formular.
 
-      ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
 
 
    * Wenn Sie ein Widget hinzufügen möchten, das bereits zu einem anderen benutzerdefinierten Formular hinzugefügt wurde, klicken Sie auf **Feldbibliothek** und klicken Sie dann in der angezeigten Liste auf den Namen des Widgets. Weitere Informationen finden Sie unter [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
@@ -87,7 +87,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Widget beginnen. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Widget begonnen haben. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -104,7 +104,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anleitung</td> 
       <td> <p>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     </tbody> 
    </table>
 
-1. Klicken **Anwenden**.
+1. Klicks **Anwenden**.
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 
    * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
@@ -129,7 +129,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 ## Hinzufügen einer XD-Datei zu einem benutzerdefinierten Formular
 
 1. Beginnen Sie mit der Arbeit an einem benutzerdefinierten Formular, wie beschrieben in [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Mit dem **Feld hinzufügen** öffnen, wählen Sie **Adobe XD**.
+1. Mit dem **Feld hinzufügen** öffnen Sie die Registerkarte, wählen Sie **Adobe XD**.
 1. Geben Sie eine der folgenden Eigenschaften für das Widget ein oder bearbeiten Sie sie:
 
    <table style="table-layout:auto"> 
@@ -142,7 +142,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Widget beginnen. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Widget begonnen haben. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -151,7 +151,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitungen</td> 
+      <td role="rowheader">Anleitung</td> 
       <td> <p>(Optional) Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr> 

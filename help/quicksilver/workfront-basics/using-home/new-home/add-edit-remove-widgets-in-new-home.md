@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite
 description: Sie können aus einer Reihe von Widgets wählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und auf Ihrer Startseite angeordnet werden.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -50,4 +51,4 @@ Informationen zu verfügbaren Widgets und den von ihnen verfolgten Informationen
 
 1. Suchen Sie das Widget auf Ihrer Startseite, das Sie entfernen möchten, und klicken Sie dann auf das Symbol Mehr . ![Mehr Symbol](../new-home/assets/more-icon.png) in der oberen rechten Ecke des Widgets.
 
-1. Klicken **Entfernen**.
+1. Klicks **Entfernen**.

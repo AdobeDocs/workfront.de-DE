@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Bearbeiten von Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets in einem benutzerdefinierten Formular
 description: Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in Ihrer Adobe Workfront-Instanz im benutzerdefinierten Formular verwendet wird. Dazu gehören der Titel, der Name, Anweisungen usw. des Elements.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Benutzerdefinierter Forms.**
+1. Klicks **Benutzerdefinierter Forms.**
 1. Klicken Sie auf **Felder** Registerkarte.
 1. Wählen Sie das benutzerdefinierte Feld, die Abschnittsumbruch oder das Widget aus und klicken Sie auf **Bearbeiten**.
 1. Ändern Sie in dem angezeigten Feld die verfügbaren Optionen für das Element, das Sie bearbeiten.
@@ -59,4 +59,4 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    * Wenn Sie den benutzerdefinierten Formular-Builder verwenden, lesen Sie [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) oder [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
    * Wenn Sie den Formularentwickler verwenden, lesen Sie [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Wenn Sie fertig sind, klicken Sie auf **Speichern und schließen**.
+1. Klicken Sie abschließend auf **Speichern und schließen**.

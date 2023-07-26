@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Target-Module
 description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] -Module ermöglichen es Ihnen, Datensätze eines bestimmten Typs zu erstellen, zu lesen, zu aktualisieren oder zu löschen, alle Datensätze eines bestimmten Typs aufzulisten, Datensätze anhand von von Kriterien zu suchen oder einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
   <col/>
@@ -47,17 +48,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td>
     </tr>
     </tr>
@@ -77,9 +78,9 @@ Bevor Sie die [!DNL Adobe Target] müssen Sie sicherstellen, dass die folgenden 
 
 ## Erstellen Sie eine Verbindung zu [!DNL Adobe Target]
 
-So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Target] -Module:
+So erstellen Sie eine Verbindung für [!DNL Adobe Target] -Module:
 
-1. Klicken **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
+1. Klicks **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
 
 1. Füllen Sie die folgenden Felder aus:
 
@@ -109,12 +110,12 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Target] -Module:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID des technischen Kontos]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] Technische Konto-ID. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+        <td>Geben Sie Ihre [!DNL Adobe] Kennung des technischen Kontos. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Mandant]</td>
         <td>
-          <p> Um Ihren Mandanten zu finden, melden Sie sich bei der [!DNL Adobe Experience Cloud], öffnen [!DNL Target]und klicken Sie auf [!DNL Target] Karte. Verwenden Sie den Wert der Mandanten-ID, wie in der URL-Subdomäne angegeben.</p>
+          <p> Um Ihren Mandanten zu finden, melden Sie sich bei [!DNL Adobe Experience Cloud], öffnen [!DNL Target]und klicken Sie auf [!DNL Target] Karte. Verwenden Sie den Wert der Mandanten-ID, wie in der URL-Subdomäne angegeben.</p>
           <p>Wenn beispielsweise Ihre URL bei [!DNL Adobe Target] is <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> lautet dann Ihre Mandantenkennung "mycompany".</p>
         </td>
       </tr>
@@ -129,7 +130,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Target] -Module:
           <p>So extrahieren Sie Ihren privaten Schlüssel oder Ihr Zertifikat:</p>
           <ol>
             <li value="1">
-              <p>Klicken <b>[!UICONTROL Extract]</b>.</p>
+              <p>Klicks <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Wählen Sie den Dateityp aus, den Sie extrahieren.</p>
@@ -141,7 +142,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Target] -Module:
               <p>Geben Sie das Kennwort für die Datei ein.</p>
             </li>
             <li value="5">
-              <p>Klicken <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
+              <p>Klicks <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
             </li>
           </ol>
         </td>
@@ -149,7 +150,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Target] -Module:
     </tbody>
     </table>
 
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## [!DNL Adobe Target] Module und ihre Felder
 
@@ -377,7 +378,7 @@ Dieses Aktionsmodul erstellt eine AB- oder XT-Aktivität, ein Angebot oder eine 
           <li>
             <p><b>[!UICONTROL Zielgruppen-ID]</b>
             </p>
-            <p>Eingeben oder Zuordnen des Segments, das in Berichten verwendet werden soll</p>
+            <p>Eingeben oder Zuordnen des Segments für die Berichterstellung</p>
           </li>
           <li>
             <p><b>[!UICONTROL Metrik, lokale ID]</b>
@@ -551,7 +552,7 @@ Dieses Aktionsmodul erstellt eine AB- oder XT-Aktivität, ein Angebot oder eine 
           <li>
             <p><b>[!UICONTROL Zielgruppen-ID]</b>
             </p>
-            <p>Eingeben oder Zuordnen des Segments, das in Berichten verwendet werden soll</p>
+            <p>Eingeben oder Zuordnen des Segments für die Berichterstellung</p>
           </li>
           <li>
             <p><b>[!UICONTROL Metrik, lokale ID]</b>
@@ -717,7 +718,7 @@ Dieses Aktionsmodul löscht eine einzelne AB-Aktivität, XT-Aktivität, Angebot 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Datensatz-ID]</td>
-    <td>Geben Sie die Kennung des Datensatzes ein oder ordnen Sie ihn zu.</td>
+    <td>Geben Sie die Kennung des Datensatzes ein, den Sie löschen möchten, oder ordnen Sie sie zu.</td>
   </tr>
 </tbody>
 </table>
@@ -740,7 +741,7 @@ Dieses Aktionsmodul ruft Daten für eine einzelne Aktivität, ein Angebot, eine 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Datensatz-ID]</td>
-    <td>Geben Sie die Kennung des Datensatzes ein oder ordnen Sie ihn zu.</td>
+    <td>Geben Sie die Kennung des Datensatzes ein, den Sie lesen möchten, oder ordnen Sie sie zu.</td>
   </tr>
 </tbody>
 </table>
@@ -821,7 +822,7 @@ Dieses Suchmodul ruft eine Liste von Datensätzen des ausgewählten Typs ab.
       <td>Wählen Sie den Typ des Datensatzes aus, den Sie aktualisieren möchten.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Sortieren nach]</td>
+      <td role="rowheader">Sortieren nach</td>
       <td>Klicken Sie für jedes Feld, nach dem Sie sortieren möchten, auf <b>[!UICONTROL Element hinzufügen]</b> und wählen Sie das Feld aus und ob die zurückgegebenen Ergebnisse aufsteigend oder absteigend sein sollen.</td>
     </tr>
     <tr>
@@ -858,12 +859,12 @@ Dieses Suchmodul sucht nach Aktivitäten, Angeboten oder Zielgruppen basierend a
     <td>Wählen Sie den Typ des Datensatzes aus, den Sie aktualisieren möchten.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL Sortieren nach]</td>
+    <td role="rowheader">Sortieren nach</td>
     <td>Klicken Sie für jedes Feld, nach dem Sie sortieren möchten, auf <b>[!UICONTROL Element hinzufügen]</b> und wählen Sie das Feld aus und ob die zurückgegebenen Ergebnisse aufsteigend oder absteigend sein sollen.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Suchkriterien]</td>
-    <td>Wählen Sie für jede Regel, die Sie einrichten möchten, das Feld, den Operator und den Wert aus. Klicken <b>[!UICONTROL Add AND rule]</b> , um zusätzliche Regeln zu erstellen.</td>
+    <td>Wählen Sie für jede Regel, die Sie einrichten möchten, das Feld, den Operator und den Wert aus. Klicks <b>[!UICONTROL Add AND rule]</b> , um zusätzliche Regeln zu erstellen.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Offset]</td>

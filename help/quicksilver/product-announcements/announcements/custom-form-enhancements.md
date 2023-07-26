@@ -2,8 +2,9 @@
 title: Verbesserungen beim benutzerdefinierten Formular
 description: Die folgenden wichtigen Verbesserungen wurden in Version 22.2 für die Verwaltung benutzerdefinierter Formulare vorgenommen.
 author: Luke
+feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -24,11 +25,11 @@ Wenn ein benutzerdefiniertes Formular, das ein Widget enthält, an ein Objekt an
 
 * Der Detailbereich des Objekts (z. B. für ein Projekt, den Bereich Projektdetails ) &#x200B;
 
-   ![](assets/see-image-details-page.png)
+  ![](assets/see-image-details-page.png)
 
 * Das Feld &quot;Bearbeiten&quot;für das Objekt, wenn es das neue Erscheinungsbild von Adobe Workfront aufweist (z. B. die Felder &quot;Projekt bearbeiten&quot;und &quot;Aufgabe bearbeiten&quot;) &#x200B;
 
-   ![](assets/image-see-in-edit.png)
+  ![](assets/image-see-in-edit.png)
 
 Derzeit können Benutzer das Widget nicht in den folgenden Bereichen sehen: &#x200B;
 
@@ -45,7 +46,7 @@ Sie können jedem neuen benutzerdefinierten Formular mehrere Objekttypen zuweise
 
 ![](assets/new-custom-form-object-types.png)
 
-Oder ein vorhandenes benutzerdefiniertes Formular:
+Oder jedes vorhandene benutzerdefinierte Formular:
 
 ![](assets/add-object-type-existing-form.png)
 
@@ -77,7 +78,7 @@ Beachten Sie Folgendes, wenn Sie ein benutzerdefiniertes Formular mit mehreren O
 
 ### Berechtigungsoptionen für Abschnittsumbrüche
 
-Die für die Objekttypen &quot;Issue&quot;, &quot;Task&quot;, &quot;Project&quot;und &quot;User&quot;verfügbaren Optionen für Abschnittsumbrüche verfügen über eine weitere Berechtigungsoption als die Berechtigungsoptionen für alle anderen Objekttypen: Eingeschränkte Bearbeitung.
+Die für die Objekttypen &quot;Issue&quot;, &quot;Task&quot;, &quot;Project&quot;und &quot;User&quot;verfügbaren Optionen für Abschnittsumbrüche verfügen über eine weitere Berechtigungsoption als die Berechtigungsoptionen für alle anderen Objektarten: Eingeschränkte Bearbeitung.
 
 ![](assets/section-break-permissions-limited-edit.png)
 
@@ -93,18 +94,17 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Abschnittsumbruchs zu 
 
 ### Kompatibilität berechneter benutzerdefinierter Felder
 
-Wenn in einem benutzerdefinierten Formular mit mehreren Objekten auf Felder verwiesen wird, die für alle zugehörigen Objekttypen des Formulars verfügbar sind (z. B. {name}, {description} und {entryDate}, die für mehrere Objekttypen verfügbar sind), werden die Daten korrekt berechnet, unabhängig davon, an welches Objekt Sie sie anhängen.
+Wenn in einem benutzerdefinierten Formular mit mehreren Objekten ein berechnetes Feld auf Felder verweist, die für alle zugehörigen Objekttypen des Formulars verfügbar sind (z. B. {name}, {description}, und {entryDate}, die für mehrere Objekttypen verfügbar sind), werden die Daten korrekt berechnet, unabhängig davon, an welches Objekt Sie sie anhängen.
 
-Wenn Sie beispielsweise ein Formular mit mehreren Objekten für Projekte und Probleme haben und ein berechnetes Feld mit dem Ausdruck {name} hinzufügen, zeigt das Feld den Projektnamen an, wenn Sie das Formular zu einem Projekt hinzufügen, und den Aufgabennamen, an dem Sie das Formular zu einer Aufgabe hinzufügen.
+Wenn Sie beispielsweise über ein Formular mit mehreren Objekten für Projekte und Probleme verfügen, fügen Sie ein berechnetes Feld hinzu, das die {name} -Ausdruck, zeigt das Feld den Projektnamen an, wenn Sie das Formular zu einem Projekt hinzufügen, und den Aufgabennamen, den Sie das Formular zu einer Aufgabe hinzufügen.
 
 Wenn jedoch ein berechnetes Feld im Formular auf ein Feld verweist, das nicht mit allen Objekttypen des Formulars kompatibel ist, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen.
 
 >[!INFO]
 >
->**Beispiel:** In einem benutzerdefinierten Formular, das mit dem Task-Objekttyp verknüpft ist, erstellen Sie ein berechnetes benutzerdefiniertes Feld, das auf das integrierte Feld &quot;Zugeordnetes Feld&quot;verweist: Name, damit der Name des Hauptverantwortlichen angezeigt werden kann, wenn das Formular an eine Aufgabe angehängt wird:
+>**Beispiel:** In einem benutzerdefinierten Formular, das mit dem Task-Objekttyp verknüpft ist, erstellen Sie ein berechnetes benutzerdefiniertes Feld, das auf das integrierte Feld Zugeordneter Name verweist, sodass der Name des verantwortlichen primären Verantwortlichen angezeigt werden kann, sobald das Formular an eine Aufgabe angehängt wird:
 >
->
-```
+>```
 >Assigned To: Name{assignedTo}.{name}
 >```
 >
@@ -115,11 +115,11 @@ In diesem Fall haben Sie folgende Möglichkeiten:
 * Entfernen Sie eines der beiden inkompatiblen Elemente aus dem benutzerdefinierten Formular - entweder den Objekttyp oder das referenzierte Feld.
 * Beides beibehalten und die Platzhalterfiltervariable verwenden `$$OBJCODE` als Bedingung in einem IF-Ausdruck verwenden, um zwei verschiedene Versionen des Felds In Charge zu erstellen. Dadurch kann das Feld unabhängig vom Objekttyp, an den das Formular angehängt ist, erfolgreich funktionieren.
 
-   Im obigen Beispiel gibt es zwar keine integrierte Funktion &quot;Zugeordnet zu&quot;: Namensfeld für Projekte gibt es ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, es sei denn, jemand ändert dies manuell). In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Benutzer: Namensfeld, wenn das Formular an eine Aufgabe angehängt wird:
+  Unter Verwendung des obigen Beispiels gibt es zwar kein integriertes Feld Zugeordneter Benutzer: Name für Projekte, es gibt jedoch ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, sofern dies nicht manuell geändert wird). In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Name , wenn das Formular an eine Aufgabe angehängt wird:
 
-   ```
-   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
-   ```
+  ```
+  IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
+  ```
 
 >[!NOTE]
 >

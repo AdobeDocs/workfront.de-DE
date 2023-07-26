@@ -3,17 +3,18 @@ filename: api-changes-search
 content-type: api
 keywords: object,status,search,best,practice,response
 navigation-topic: api-navigation-topic
-title: '"Core-API-Änderungen: Statussuchantworten'
+title: "Core API changes: Status search responses"
 description: Änderungen in der Art und Weise, wie Workfront Statusobjekte speichert.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-# Core-API-Änderungen: Statussuchantworten
+# Core-API-Änderungen: Status-Suchantworten
 
 Es wurden Änderungen an der Art und Weise vorgenommen, wie Workfront Statusobjekte speichert. Diese Änderungen wirken sich nicht darauf aus, wie Statussuchanfragen ausgeführt werden, sondern beeinflussen die Antwort, die von API-Anfragen zurückgegeben wird, die eine Suche nach Statusobjekten enthalten, indem eine unvollständige Liste der Gruppenstatus zurückgegeben wird.
 

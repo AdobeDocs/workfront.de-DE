@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Rich-Text-Feldspeicherung in der API
 description: Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es gespeichert und über die Workfront-API als Parameterwert zugänglich gemacht.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -29,43 +29,43 @@ Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit 3 benutzerdefin
 
 ```
 {
-	Data: {
-		ID: “xxxxxxxxxxxxxxxxxxxxxxx”,
-		name: “new project with rich text”,
-		objCode: “PROJ”,
-		- parameterValues: {
-			DE:rich 1: “{
-				"blocks":[
-				{
-					"key":"7eibh",
-					"text":"Hello Word!",
-					"type":"unstyled",
-					"depth":0,
-					"inlineStyleRanges":[
-					{
-						"offset":0,
-						"length":6,
-						"style":"BOLD"
-					},
-					{
-						"offset":6,
-						"length":5,
-						"style":"ITALIC"
-					}
-					],
-					"entityRanges":[
-					],
-				"data":{
-				}
-				}
-				],
-			"entityMap":{
-			}
-		}”,
-		DE: paragraph text: “here is some paragraph text”,
-		DE: calc field: “here is a calc field entry”,
-		}
-	}
+    Data: {
+        ID: "xxxxxxxxxxxxxxxxxxxxxxx",
+        name: "new project with rich text",
+        objCode: "PROJ",
+        - parameterValues: {
+            DE:rich 1: "{
+                "blocks":[
+                {
+                    "key":"7eibh",
+                    "text":"Hello Word!",
+                    "type":"unstyled",
+                    "depth":0,
+                    "inlineStyleRanges":[
+                    {
+                        "offset":0,
+                        "length":6,
+                        "style":"BOLD"
+                    },
+                    {
+                        "offset":6,
+                        "length":5,
+                        "style":"ITALIC"
+                    }
+                    ],
+                    "entityRanges":[
+                    ],
+                "data":{
+                }
+                }
+                ],
+            "entityMap":{
+            }
+        }",
+        DE: paragraph text: "here is some paragraph text",
+        DE: calc field: "here is a calc field entry",
+        }
+    }
 }
 ```
 

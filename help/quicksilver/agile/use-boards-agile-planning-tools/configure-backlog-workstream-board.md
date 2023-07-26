@@ -2,18 +2,19 @@
 filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
-title: Konfigurieren des Rückstands auf einer Workstream-Pinnwand
+title: Konfigurieren des Rückstands auf einer Arbeitsfläche
 description: Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren des Rückstands auf einer Workstream-Pinnwand
+# Konfigurieren des Rückstands auf einer Arbeitsfläche
 
 Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden.
 
@@ -46,13 +47,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Konfigurieren des Rückstands auf einer Workstream-Pinnwand
+## Konfigurieren des Rückstands auf einer Arbeitsfläche
 
 {{step1-to-boards}}
 
-1. Öffnen Sie den Workflow, in dem Sie arbeiten möchten. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Öffnen Sie den Workflow, in dem Sie arbeiten möchten. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
 1. Klicken Sie auf eine beliebige Pinnwand im Workstream, um sie zu öffnen.
-1. Klicken [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Aktivieren [!UICONTROL **Eine Spalte im Rückstand auf dieser Pinnwand einschließen**].
 
    Die Spalte &quot;backlog&quot;wird links auf der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie eine Abfrage darauf anwenden.
@@ -63,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Eine Standardabfrage kann bereits auf den Rückstand angewendet werden, um alle Arbeitselemente aus der Kartenliste anzuzeigen, die einen Status haben und deren Status nicht abgeschlossen ist.
 
-1. Klicken [!UICONTROL **Bedingung hinzufügen**] und klicken Sie in das Feld &quot;leer&quot;.
+1. Klicks [!UICONTROL **Bedingung hinzufügen**] und klicken Sie in das Feld &quot;leer&quot;.
 1. Wählen Sie das Feld aus, nach dem abgefragt werden soll.
 
    Die Felder, aus denen Sie auswählen können, sind die Standardfelder auf einer Karte.
@@ -83,6 +84,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![Rückstandsabfrage](assets/backlog-query-wrkstrm-board.png)
 
 1. (Optional) Klicken Sie auf [!UICONTROL **Gruppe erstellen**] , um eine Gruppe von Bedingungen hinzuzufügen, die mit der ersten Bedingung mit einem ODER -Operator verbunden sind.
-1. Klicken [!UICONTROL **Abfrage speichern**].
+1. Klicks [!UICONTROL **Abfrage speichern**].
 
    Die Abfrage wird angewendet und die den Kriterien entsprechenden Karten werden in der Spalte &quot;Rückstand&quot;angezeigt.

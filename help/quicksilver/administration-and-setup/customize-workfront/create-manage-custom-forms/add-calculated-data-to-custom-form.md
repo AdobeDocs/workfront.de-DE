@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In einem benutzerdefinierten Formular können Sie ein berechnetes benutzerdefiniertes Feld erstellen, das Berechnungen generiert. Erstellen Sie dazu eine Anweisung, die Datenausdrücke und die Namen vorhandener Felder verwendet, bei denen es sich um benutzerdefinierte Felder, berechnete benutzerdefinierte Datenfelder und integrierte Workfront-Felder handeln kann. Diese Anweisung berechnet die eingegebenen Daten und zeigt das Ergebnis im neuen berechneten benutzerdefinierten Feld an.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -23,19 +23,19 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
 * Ein einfacher Verweis auf ein einzelnes integriertes Feld.
 
-   >[!INFO]
-   >
-   > **Beispiel:** Um den Umsatz zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld erstellen, das das integrierte Feld &quot;Tatsächlicher Umsatz&quot;enthält. Wenn ein Benutzer das benutzerdefinierte Formular an ein Projekt oder eine Aufgabe anhängt, wird der Umsatz für das Projekt oder die Aufgabe im Feld angezeigt.
+  >[!INFO]
+  >
+  > **Beispiel:** Um den Umsatz zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld erstellen, das das integrierte Feld &quot;Tatsächlicher Umsatz&quot;enthält. Wenn ein Benutzer das benutzerdefinierte Formular an ein Projekt oder eine Aufgabe anhängt, wird der Umsatz für das Projekt oder die Aufgabe im Feld angezeigt.
 
 * Ein Ausdruck, der auf ein oder mehrere Felder verweist. Dabei kann es sich um benutzerdefinierte Felder, andere berechnete benutzerdefinierte Felder und integrierte Felder handeln.
 
-   >[!INFO]
-   >
-   >**Beispiel:** Um den durch Projekte und Aufgaben generierten Gewinn zu berechnen, können Sie ein berechnetes benutzerdefiniertes Feld namens Profit erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
-   >
-   >Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
-   >
-   >In den folgenden Schritten sehen Sie, wie dieses Beispiel ausgeführt werden kann.
+  >[!INFO]
+  >
+  >**Beispiel:** Um den durch Projekte und Aufgaben generierten Gewinn zu berechnen, können Sie ein berechnetes benutzerdefiniertes Feld namens Profit erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
+  >
+  >Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
+  >
+  >In den folgenden Schritten sehen Sie, wie dieses Beispiel ausgeführt werden kann.
 
 Informationen zum Erstellen benutzerdefinierter Formulare für Ihre Organisation und zum Verständnis des Typs der Felder, die Sie ihnen zuordnen können, finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -74,9 +74,9 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
 
 1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Im **Feld hinzufügen** Registerkarte, klicken Sie auf **Berechnet**.
+1. Im **Feld hinzufügen** Registerkarte, klicken **Berechnet**.
 
-   Im Anzeigebereich auf der rechten Seite wird das Feld angezeigt *12345*. Dies ist lediglich ein Hinweis, der Sie daran erinnert, dass das Feld ein berechnetes benutzerdefiniertes Feld ist, während Sie das benutzerdefinierte Formular erstellen oder bearbeiten. Wenn das Formular an ein Objekt angehängt ist und Benutzer es ausfüllen, sehen sie das Ergebnis der Berechnung im Feld, nie die *12345* Indikator.
+   Im Anzeigebereich rechts wird das Feld angezeigt *12345*. Dies ist lediglich ein Hinweis, der Sie daran erinnert, dass das Feld ein berechnetes benutzerdefiniertes Feld ist, während Sie das benutzerdefinierte Formular erstellen oder bearbeiten. Wenn das Formular an ein Objekt angehängt ist und Benutzer es ausfüllen, sehen sie das Ergebnis der Berechnung im Feld, nie die *12345* Indikator.
 
 1. Geben Sie die folgenden Informationen für das berechnete Feld an:
 
@@ -88,31 +88,31 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
     <tbody> 
      <tr> 
       <td role="rowheader">Bezeichnung</td> 
-      <td>Geben Sie einen Titel für das Feld ein. Dies wird Benutzern bei der Verwendung des benutzerdefinierten Formulars angezeigt. Das Feld <b>Name</b>, die automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
+      <td>Geben Sie eine Beschriftung für das Feld ein. Dies wird Benutzern bei der Verwendung des benutzerdefinierten Formulars angezeigt. Das Feld <b>Name</b>, die automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader" id="instructions">Anleitungen</td> 
+      <td role="rowheader" id="instructions">Anleitung</td> 
       <td> Standardmäßig wird hier die Formel gespeichert, die Sie für das Feld erstellen. Sie können Text hinzufügen, um zusätzliche Informationen über das Feld und die Formel darin bereitzustellen. Dies kann auf zwei Arten nützlich sein: 
        <ul> 
         <li> <p>Erinnern Sie sich daran, was die Formel ist und wie sie funktioniert. Dies ist besonders hilfreich, wenn Sie dieses berechnete benutzerdefinierte Feld für mehrere Formulare verwenden möchten.</p> </li> 
-        <li> <p>Als QuickInfo können Benutzer sehen, wenn sie den Mauszeiger über das Feld bewegen. Sie fügen hier Text hinzu, den Sie in der QuickInfo sehen möchten.</p> <p>Wenn Sie nicht möchten, dass sie die Formel in der QuickInfo sehen, was für sie verwirrend sein kann, können Sie sie verbergen. Anweisungen finden Sie in der Tabellenzeile "Anzeigereihenfolge der Anweisungen"im Abschnitt . <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld.</a> in diesem Artikel.</p> </li> 
+        <li> <p>Als QuickInfo können Benutzer sehen, wenn sie den Mauszeiger über das Feld bewegen. Hier fügen Sie Text hinzu, den Sie in der QuickInfo sehen möchten.</p> <p>Wenn Sie nicht möchten, dass sie die Formel in der QuickInfo sehen, was für sie verwirrend sein kann, können Sie sie verbergen. Anweisungen finden Sie in der Tabellenzeile "Anzeigereihenfolge der Anweisungen"im Abschnitt . <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld</a> in diesem Artikel.</p> </li> 
        </ul> <p>Informationen zur Verwendung desselben berechneten benutzerdefinierten Felds in einem neuen Formular finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer eine <strong>Zahl</strong> oder <strong>Währung</strong> Format. Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
-      <p><b>WICHTIG</b>: Bevor Sie ein Format auswählen, sollten Sie das richtige Format für das neue Feld berücksichtigen. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p> </td> 
+      <p><b>WICHTIG</b>: Beachten Sie vor der Auswahl eines Formats das richtige Format für das neue Feld. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fahren Sie fort mit [Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld.](#build-the-calculation-for-your-calculated-custom-field) in diesem Artikel.
+1. Fahren Sie mit [Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld](#build-the-calculation-for-your-calculated-custom-field) in diesem Artikel.
 
-## Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld. {#build-the-calculation-for-your-calculated-custom-field}
+## Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld {#build-the-calculation-for-your-calculated-custom-field}
 
 1. Erstellen Sie das berechnete benutzerdefinierte Feld, wie im Abschnitt beschrieben. [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](#add-a-calculated-field-to-a-custom-form) in diesem Artikel.
 
-1. Klicken **Maximieren** , um **Berechnungs-Editor** und erstellen Sie Ihre Berechnung.
+1. Klicks **Maximieren** , um die **Berechnungs-Editor** und erstellen Sie Ihre Berechnung.
 
    >[!INFO]
    >
@@ -128,7 +128,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
 
    Sie können in einer Berechnung auf einen beliebigen benutzerdefinierten Feldtyp verweisen, mit Ausnahme von zwei: Textfeld mit Formatierungstyp und Beschreibender Text. Informationen zu den benutzerdefinierten Feldtypen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
 
-1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder** die verfügbar sind, um sie zu Ihrer Berechnung hinzuzufügen.
+1. Klicken Sie in das große Textfeld und dann auf **Ausdruck** und **Felder** die verfügbar sind, um sie zu Ihrer Berechnung hinzuzufügen.
 
    Sie können auch mit der Eingabe eines Ausdrucks oder Felds in das große Textfeld beginnen und es dann auswählen, wenn es angezeigt wird. Jedes Element wird mit einem &quot;F&quot;für das Feld oder einem &quot;E&quot;für den Ausdruck angezeigt.
 
@@ -138,24 +138,22 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >
    >Sie können eine der folgenden Aktionen ausführen, um Hilfe bei der Berechnung zu erhalten:
    > 
-   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie dieser verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
-   >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Ausdrücke werden blau und Felder grün angezeigt.
-      >  ![](assets/colors-fields-expressions.jpg)
+   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >  ![](assets/hover-expression-help-text.jpg)
+   >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Die Ausdrücke werden blau und die Felder grün angezeigt.
+   >  ![](assets/colors-fields-expressions.jpg)
    >* Suchen Sie nach Berechnungsfehlern, die bei der Durchführung hervorgehoben sind. Sie können den Mauszeiger über einen hervorgehobenen Fehler bewegen, um eine kurze Beschreibung seiner Ursache anzuzeigen.
-      >  ![](assets/error-help.png)
+   >  ![](assets/error-help.png)
    >* Zeigen Sie im Bereich unter Ihrer Berechnung eine Vorschau der Ergebnisse an einem vorhandenen Workfront-Objekt an.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-      >  ![](assets/preview-calc.jpg)
+   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+   >  ![](assets/preview-calc.jpg)
    >* Referenzausdrücke in einer langen Berechnung unter Verwendung der auf der linken Seite angezeigten Zeilennummern.
 
-
-1. Klicken **Minimieren** wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
+1. Klicks **Minimieren** wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
 
    >[!NOTE]
    >
-   >Im Anzeigebereich auf der rechten Seite wird das Feld angezeigt *12345.* Dies ist lediglich ein Hinweis, der Sie daran erinnert, dass das Feld ein berechnetes benutzerdefiniertes Feld ist, während Sie das benutzerdefinierte Formular erstellen oder bearbeiten. Wenn das Formular an ein Objekt angehängt ist und Benutzer es ausfüllen, sehen sie das Ergebnis der Berechnung im Feld, nie die *12345* Indikator.
+   >Im Anzeigebereich rechts wird das Feld angezeigt *12345.* Dies ist lediglich ein Hinweis, der Sie daran erinnert, dass das Feld ein berechnetes benutzerdefiniertes Feld ist, während Sie das benutzerdefinierte Formular erstellen oder bearbeiten. Wenn das Formular an ein Objekt angehängt ist und Benutzer es ausfüllen, sehen sie das Ergebnis der Berechnung im Feld, nie die *12345* Indikator.
 
 1. (Optional) Verwenden Sie eine der folgenden Optionen, um Ihr berechnetes benutzerdefiniertes Feld weiter zu konfigurieren:
 
@@ -178,7 +176,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
     </tbody> 
    </table>
 
-1. Klicken **Fertig** wenn alle Änderungen am berechneten benutzerdefinierten Feld abgeschlossen sind.
+1. Klicks **Fertig** wenn alle Änderungen am berechneten benutzerdefinierten Feld abgeschlossen sind.
 
    Oder klicken Sie auf **Anwenden** , um Ihre Änderungen bis jetzt auf das Formular anzuwenden, wenn Sie dem Formular weiterhin benutzerdefinierte Felder hinzufügen möchten.
 
@@ -220,15 +218,15 @@ Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Ein
 
 * Wenn Sie möchten, dass die Berechnung auf ein Feld verweist, das Daten aus dem *parent* -Objekt, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen, auch in geschweiften Klammern.
 
-   Wenn das benutzerdefinierte Formular beispielsweise für die Verwendung mit Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie Folgendes angeben: `Project` als Objekttyp des Felds:
+  Wenn das benutzerdefinierte Formular beispielsweise für Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie Folgendes angeben: `Project` als Objekttyp des Felds:
 
-   `{project}.{actualRevenue}`
+  `{project}.{actualRevenue}`
 
-   Oder, wenn es ein benutzerdefiniertes Feld ist:
+  Oder, wenn es ein benutzerdefiniertes Feld ist:
 
-   `{project}.{DE:profit}`
+  `{project}.{DE:profit}`
 
-   Wenn Sie sich nicht sicher sind, welcher Objekttyp des übergeordneten Objekts lautet, da die benutzerdefinierte für für mehrere Objekttypen konfiguriert ist, können Sie die Filtervariable &quot;Platzhalter&quot;verwenden `$$OBJCODE` , damit die Berechnung für jeden der möglichen Typen funktioniert. Weitere Informationen finden Sie unter [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](#calculated-custom-fields-in-multi-object-custom-forms) in diesem Artikel.
+  Wenn Sie sich nicht sicher sind, welcher Objekttyp des übergeordneten Objekts lautet, da die benutzerdefinierte für für mehrere Objekttypen konfiguriert ist, können Sie die Filtervariable &quot;Platzhalter&quot;verwenden `$$OBJCODE` , damit die Berechnung für jeden der möglichen Typen funktioniert. Weitere Informationen finden Sie unter [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](#calculated-custom-fields-in-multi-object-custom-forms) in diesem Artikel.
 
 ### Separate Elemente mit Zeiträumen
 
@@ -238,7 +236,7 @@ Wenn Sie beispielsweise in einem benutzerdefinierten Formular vom Typ Aufgabe de
 
 `{project}.{porfolio}.{owner}`
 
-Dies würde Folgendes bestimmen: Über das Objekt des benutzerdefinierten Formulars (eine Aufgabe) können Sie auf das nächste Objekt zugreifen, das sich auf die Aufgabe bezieht (ein Projekt). Von dort können Sie auf das nächste verwandte Objekt zum Projekt (ein Portfolio) und dann auf das nächste verwandte Objekt zum Portfolio (den Eigentümer) zugreifen.
+Dadurch wird Folgendes bestimmt: Über das Objekt des benutzerdefinierten Formulars (eine Aufgabe) können Sie auf das nächste Objekt zugreifen, das mit der Aufgabe verbunden ist (ein Projekt). Von dort können Sie auf das nächste verwandte Objekt zum Projekt (ein Portfolio) und dann auf das nächste verwandte Objekt zum Portfolio (den Eigentümer) zugreifen.
 
 ### Namenssyntax für die Referenzierung eines benutzerdefinierten Felds
 
@@ -278,9 +276,9 @@ In diesem Fall haben Sie folgende Möglichkeiten:
 
 >[!INFO]
 >
->**Beispiel:** Es gibt jedoch keine Zuweisung zu: Namensfeld in Projekten gibt es ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, es sei denn, jemand ändert dies manuell).
+>**Beispiel:** Es gibt zwar kein Feld Zugeordneter Benutzer: Name in Projekten, es gibt jedoch ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, es sei denn, dies wird manuell geändert).
 >
->In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Benutzer: Namensfeld, wenn das Formular an eine Aufgabe angehängt wird:
+>In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Name , wenn das Formular an eine Aufgabe angehängt wird:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
@@ -294,7 +292,6 @@ Berechnete benutzerdefinierte Felder eines Objekts werden automatisch neu berech
 * Jemand bearbeitet ein anderes Feld, das durch ein berechnetes benutzerdefiniertes Feld im Objekt referenziert wird.
 * Der berechnete Ausdruck ist leer und das Feld enthält einen Wert. Dadurch wird der Wert auf null gesetzt.
 
-   >[!NOTE]
-   >
-   ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Uhrzeitanweisungen in berechneten benutzerdefinierten Feldern von der koordinierten UTC (Universal Time) berechnet und gespeichert, nicht von den Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular werden basierend auf den individuellen Zeitzonen der einzelnen Benutzer generiert.</div>
-
+  >[!NOTE]
+  >
+  ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Uhrzeitanweisungen in berechneten benutzerdefinierten Feldern von der koordinierten UTC (Universal Time) berechnet und gespeichert, nicht von den Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular werden basierend auf den individuellen Zeitzonen der einzelnen Benutzer generiert.</div>
