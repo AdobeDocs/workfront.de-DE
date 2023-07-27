@@ -8,16 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
 
 # Erstellen von Problemen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung verfügbar.</span>
 
 <!--remove Preview and Prod references when this comes to Prod-->
 
@@ -75,18 +75,15 @@ Ihr Unternehmen sollte über einen klar definierten Prozess verfügen, in dem fe
 
 Die Felder für die neuen Probleme in einem Projekt werden im Abschnitt Warteschlangendetails des Projekts definiert, in dem die Probleme protokolliert werden. Weitere Informationen zum Konfigurieren des Abschnitts &quot;Warteschlangendetails&quot;des Projekts finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Informationen zum Erstellen von Problemen durch Senden an eine Anforderungswarteschlange finden Sie in der [Erstellen von Problemen durch Eingabe einer neuen Anforderung](#create-issues-by-entering-a-new-request) in diesem Artikel.
+Informationen zum Erstellen von Problemen durch Senden an eine Anforderungswarteschlange finden Sie in der [Erstellen von Problemen durch Eingabe einer neuen Anforderung](#create-issues-by-entering-a-new-request) in diesem Artikel beschrieben.
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche &quot;Neues Problem&quot;
 
 Nachdem Sie die Felder eines neuen Ausgabedarstellungsformulars in Ihrem Projekt definiert haben, können Sie mit der Erstellung von Problemen beginnen.
 
-<!--
-Creating issues differs depending on which environment you choose to create the issue. 
+Das Erstellen von Problemen hängt davon ab, in welcher Umgebung Sie das Problem erstellen.
 
-### Create issues on a task or project using the New Issue button in the Production environment
-
--->
+### Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche &quot;Neues Problem&quot;in der Produktionsumgebung
 
 So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
@@ -96,7 +93,7 @@ So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Klicken **Neues Problem**.
+1. Klicks **Neues Problem**.
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
@@ -137,79 +134,75 @@ So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
    Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicken **Neues Problem speichern.**
+1. Klicks **Neues Problem speichern.**
 
 Probleme können mehreren Benutzern, Auftragsrollen oder einem Team zugewiesen werden. Weitere Informationen zum Zuweisen und Verwalten von Anforderungen finden Sie unter [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: 
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
 
 <div class="preview">
 
-### Create issues on a task or project using the New Issue button in the Preview environment
+### Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche Neues Problem in der Vorschaufumgebung
 
-To create an issue on a task or a project:
+So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
+1. Gehen Sie zu einem Projekt, in dem Sie das Problem erstellen möchten.
+1. (Optional) Wenn Sie das Problem für eine Aufgabe protokollieren möchten, navigieren Sie zum **Aufgaben** und klicken Sie auf den Namen einer Aufgabe.
+1. Klicken Sie auf **Probleme** Abschnitt.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Click **New Issue**.
-   The New issue box displays.
+1. Klicks **Neues Problem**.
+Das Feld Neues Problem wird angezeigt.
 
-      ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Bedingt) Wenn der Projektersteller Warteschlangenthemen oder Themengruppen für das Projekt erstellt hat, werden sie zum neuen Ausstellungsformular hinzugefügt. Geben Sie die **Themengruppe** oder **Warteschlangenthema** Ihres neuen Problems. Für Themengruppen und Warteschlangenthemen wurden Namen an Ihre Umgebung angepasst.\
+   Weitere Informationen zum Erstellen von Themengruppen finden Sie unter [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
+   * Wenn im Projekt nur ein Queue-Thema festgelegt ist, wird es automatisch angezeigt.
+   * Wenn die Themengruppe keine Warteschlangenthemen oder Themengruppen darunter enthält, ist nichts in der Dropdown-Liste Themengruppe verfügbar.
 
-1. Add the issue name in the **Subject** field, then add a **Description**.
+1. Fügen Sie den Namen des Problems im **Betreff** ein Feld und fügen Sie dann eine **Beschreibung**.
 
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
+1. (Bedingt) Wenn der Projektersteller für die **Anfragetyp** -Feld, das im Formular Neues Problem angezeigt werden soll, wählen Sie aus den folgenden Optionen den Typ Ihres Problems aus:
 
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
+   * Bug-Bericht
+   * Änderungsanforderung
+   * Problem
+   * Anfrage\
+     Je nachdem, wie Ihr Workfront-Administrator Ihre Projekteinstellungen konfiguriert hat, können die Namen der Problemtypen für Sie unterschiedlich sein.
 
    >[!TIP]
    >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >Die Anfragetypen müssen in den Warteschlangendetails sowie beim Erstellen des Warteschlangenthemas aktiviert sein, damit es im Formular &quot;Neues Problem&quot;als Auswahl angezeigt wird. Weitere Informationen finden Sie in den folgenden Artikeln:
+   >* [Erstellen einer Anforderungswarteschlange](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Erstellen von Warteschlangenthemen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Continue specifying the fields available in the **New issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Geben Sie weiterhin die Felder an, die im **Neues Problem** Formular. Weitere Informationen zu den Feldern, die bei Eingabe eines neuen Problems verfügbar sind, finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >Not all the issue-related fields are available in the New issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
+   >Nicht alle Problemfelder sind im Formular Neue Ausgabe verfügbar. Der Projektersteller aktiviert die Felder, die beim Erstellen eines Problems verfügbar sind, wenn er den Bereich &quot;Queue Details&quot;des Projekts definiert. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New issue** form, after the default Workfront fields.
+1. (Bedingt) Wenn die Warteschlangenthemen mit einem benutzerdefinierten Formular verknüpft sind, wird dieses benutzerdefinierte Formular im **Neues Problem** Formular.\
+   Oder\
+   Wenn das Projekt mit einem benutzerdefinierten Formular für ein Problem über den Bereich &quot;Queue Details&quot;verknüpft ist, wird das Formular im **Neues Problem** Formular nach den standardmäßigen Workfront-Feldern.
 
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click **Submit**. 
+1. Klicks **Einsenden**.
 
-   Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Probleme können mehreren Benutzern, Auftragsrollen oder einem Team zugewiesen werden. Weitere Informationen zum Zuweisen und Verwalten von Anforderungen finden Sie unter [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 </div>
--->
-
-
-
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt inline
 
 >[!IMPORTANT]
 >
->Der Projekteigentümer muss **Benutzern erlauben, Probleme inline hinzuzufügen** beim Definieren von Problemeinstellungen für das Projekt, bevor Sie Probleme inline zum Projekt oder zu den Aufgaben hinzufügen können. Informationen zum Konfigurieren von Problemeinstellungen für ein Projekt finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Der Projektinhaber muss **Benutzern erlauben, Probleme inline hinzuzufügen** beim Definieren von Problemeinstellungen für das Projekt, bevor Sie Probleme inline zum Projekt oder zu den Aufgaben hinzufügen können. Informationen zum Konfigurieren von Problemeinstellungen für ein Projekt finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 >
 
 Wenn Sie mehrere Probleme schnell hinzufügen möchten, können Sie Probleme für eine Aufgabe oder ein Projekt inline erstellen, indem Sie sie zu einer Liste von Problemen hinzufügen.
@@ -223,7 +216,7 @@ So erstellen Sie Probleme inline:
 1. Gehen Sie zu einem Projekt, in dem Sie das Problem erstellen möchten.
 1. (Optional) Wenn Sie das Problem für eine Aufgabe protokollieren möchten, navigieren Sie zum **Aufgaben** und klicken Sie auf den Namen einer Aufgabe.
 1. Klicken Sie auf **Probleme** Abschnitt.
-1. Klicken **Weitere Probleme hinzufügen**.
+1. Klicks **Weitere Probleme hinzufügen**.
 
    Eine neue Zeile wird in der Liste der Probleme im Abschnitt Probleme erstellt.
 
