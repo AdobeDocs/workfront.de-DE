@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller in Version 23.3 verfügbaren Änderungen finden Sie unter [23.3
 
 >[!NOTE]
 >
->Vorgesehene Version: 29. Juni 2023; Geplante Produktionsversion: 13. Juli 2023
+>Geplante Vorschau-Version: 29. Juni 2023; Geplante Produktionsversion: 13. Juli 2023
 
 Die Benutzeroberfläche der Liste Gesendete Anfragen wurde verbessert.
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](/help
 
 >[!NOTE]
 >
->Vorgesehene Version: Ankündigung; Geplante Produktionsversion: ankündigen.
+>Geplante Vorschau-Version: 27. Juli 2023; Geplante Produktion für schnelle Veröffentlichung: Mit Version 23.8. Geplante Produktion für die vierteljährliche Version: Mit der Version 23.10
 >
 >Diese Funktion sollte ursprünglich mit Version 23.3 veröffentlicht werden und wurde später verschoben.
 
@@ -48,6 +48,6 @@ Weitere Informationen finden Sie unter [Erstellen von Problemen](../../../manage
 
 >[!NOTE]
 >
->Vorschau-Version: 29. Juni 2023; Geplante Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3; Geplante Produktionsversion für alle Kunden: Mit Version 23.4
+>Vorschau-Version: 29. Juni 2023; geplante Produktionsversion für die Schnell-Release-Kunden: Nach der Produktionsversion 23.3 soll die Veröffentlichung verkündet werden; geplante Produktionsversion für alle Kunden: Mit Version 23.4
 
 Die Liste der Projektabrechnungssätze hat jetzt das modernere Aussehen in den meisten anderen Listen in Workfront.
