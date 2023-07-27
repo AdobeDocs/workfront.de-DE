@@ -6,7 +6,7 @@ description: Der Desktop Proofing Viewer, der hauptsächlich für die Prüfung i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Beliebig</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Beliebig</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,13 +53,13 @@ Ist dies nicht der Fall, können Sie die folgenden Schritte ausführen.
 
 1. Führen Sie einen der folgenden Schritte aus, um die App herunterzuladen:
 
-   * Wenn Sie die Produktionsumgebung verwenden, klicken Sie auf [Mac Production Download für den Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
-   * Wenn Sie die Vorschau-Umgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop-Proofing-Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
+   * Wenn Sie die Produktionsumgebung verwenden, klicken Sie auf [Mac Production Download für den Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
+   * Wenn Sie die Vorschau-Umgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop-Proofing-Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
 1. Klicken Sie im angezeigten Installationsfeld auf **Weiter** Klicken Sie auf **Installieren**.
 
-   ![00000776.png](assets/00000776-350x244.png)
+   ![0000776.png](assets/00000776-350x244.png)
 
 1. Öffnen Sie einen interaktiven Testversand über den Bereich Dokumente .
 
@@ -77,8 +77,8 @@ Wenn Ihr Workfront- oder Workfront-Testversand-Administrator die App auf Ihre Wo
 
 1. Führen Sie einen der folgenden Schritte aus, um die App herunterzuladen:
 
-   * Klicken Sie in der Produktionsumgebung auf [Windows Production-Download für den Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
-   * Klicken Sie in der Vorschau-Umgebung auf [Herunterladen der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
+   * Klicken Sie in der Produktionsumgebung auf [Windows Production-Download für den Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
+   * Klicken Sie in der Vorschau-Umgebung auf [Herunterladen der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
 1. Öffnen Sie in dem sich öffnenden Installationsfenster die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
