@@ -5,8 +5,9 @@ navigation-topic: get-started-with-boards
 title: Pinnwand löschen oder archivieren
 description: Sie können eine Pinnwand in Workfront löschen oder archivieren. Durch das Löschen einer Pinnwand wird sie dauerhaft aus Workfront entfernt, während eine Pinnwand archiviert wird, bleiben alle Karten erhalten und können zu einem späteren Zeitpunkt wiederhergestellt werden.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # Pinnwand löschen oder archivieren
 
-Sie können eine Pinnwand löschen oder archivieren in [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen. Diese Optionen gelten sowohl für eigenständige Pinnwände als auch für Pinnwände, die Teil von Workflows sind.
+Sie können eine Pinnwand löschen oder archivieren [!DNL Workfront]. Wenn Sie eine Pinnwand löschen, wird sie endgültig aus [!DNL Workfront], während die Archivierung einer Pinnwand alle Karten behält und es ermöglicht, sie zu einem späteren Zeitpunkt wiederherzustellen. Diese Optionen gelten sowohl für eigenständige Pinnwände als auch für Pinnwände, die Teil von Workflows sind.
 
 ## Zugriffsanforderungen
 
@@ -69,7 +70,7 @@ Archivierte Pinnwände behalten alle Karten und Zuweisungen bei. Jeder Benutzer 
 Eine archivierte Pinnwand kann jederzeit wiederhergestellt werden. Jeder Benutzer kann eine archivierte Pinnwand wiederherstellen.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie im Dashboard auf das Filtersymbol ![Filter](assets/filter-icon-spectrum-25x25.png) und wählen Sie **[!UICONTROL Archivierte Pinnwände]**.
+1. Klicken Sie im Dashboard auf das Filtersymbol ![Filter](assets/filter-icon-spectrum-25x25.png) und wählen **[!UICONTROL Archivierte Pinnwände]**.
 1. Suchen Sie die Pinnwand, die Sie wiederherstellen möchten, und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) neben dem Pinnwandnamen und wählen Sie **[!UICONTROL Wiederherstellen]**.
 
    ![Pinnwand wiederherstellen](assets/boards-dashboard-restore.png)

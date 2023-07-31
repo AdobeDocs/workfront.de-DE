@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Sie können auf einen Kommentar antworten oder einen Kommentar erhalten, den Sie
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
 Dadurch wird die Zielliste geöffnet.
 1. Suchen Sie das Ziel, dem Sie Kommentare hinzufügen möchten, und klicken Sie dann auf seinen Namen, um die Zielseite zu öffnen.
-1. Klicken  **Updates** im linken Bereich.
+1. Klicks  **Updates** im linken Bereich.
 1. Klicken Sie auf **Kommentare** in der linken oberen Ecke des Bereichs Updates.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
@@ -150,15 +150,13 @@ Dadurch wird die Zielliste geöffnet.
    >
    >Sie müssen ein Unternehmen in Ihrem Profil angeben, damit diese Option im Bereich Updates verfügbar ist.
 
-1. Klicken **Einsenden**.
+1. Klicks **Einsenden**.
 
    >[!TIP]
    >
-   >Wenn ein anderer Benutzer einen Kommentar für dasselbe Element sendet, das Sie aktualisieren, wird eine rote Zeile mit der Anzeige &quot;Neu&quot;angezeigt, die Sie über die neueren Kommentare informiert.
+   >Wenn ein anderer Benutzer einen Kommentar für dasselbe Element sendet, das Sie aktualisieren, wird eine rote Zeile mit der Anzeige &quot;Neu&quot;angezeigt, um Sie über die neueren Kommentare zu informieren, sowie eine blaue Benachrichtigung am unteren Rand des Bildschirms, die die Anzahl der neuen Kommentare angibt.
    >
    >Der Indikator wird nur angezeigt, nachdem der Kommentar zum Element gesendet wurde, nicht aber, wenn der Kommentar noch erstellt wurde.
-   >
-   >Der Indikator &quot;Neu&quot;wird nur angezeigt, wenn sowohl der Benutzer, der ein neues Update eingegeben hat, als auch der Benutzer, der derzeit ein Update aufruft, das neue Kommentarerlebnis verwenden.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.

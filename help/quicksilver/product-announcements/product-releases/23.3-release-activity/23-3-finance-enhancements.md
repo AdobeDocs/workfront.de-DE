@@ -3,20 +3,34 @@ title: 23.3 Verbesserungen beim Finanzmanagement
 description: 23.3 Verbesserungen beim Finanzmanagement
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbesserungen beim Finanzmanagement
 
-Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 bereitgestellt.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Datum der tatsächlichen Kosten- und Abrechnungskurse
+
+
+>[!IMPORTANT]
+>
+>Diese Funktion wird an den folgenden Daten zur Verfügung gestellt:
+>
+>* Vorschau-Version: 29. Juni 2023
+>
+>* Produktionsversion für Fast-Release-Kunden: Nach der Produktionsversion 23.3 anzukündigen.
+>
+>* Produktionsversion für alle Kunden: Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
+>
+>Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.
+
 
 Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.
 
@@ -24,4 +38,4 @@ Außerdem sind jetzt im Benutzerprofil datumswirksame Aufgabenrollensätze verf�
 
 Mit einer neuen Funktion, Ratenkarten, können Sie mehrere Abrechnungsraten pro Auftragseinstellung festlegen, basierend auf dem Standort. Eine Abrechnungsrate für eine Stellenaufgabe und einen Ort kann auch effektive Daten enthalten. An Projekte können Ratenkarten angehängt werden, um alle Rateninformationen gleichzeitig für die jeweilige Rolle und den jeweiligen Standort des Auftrags anzuwenden. Standortbasierte Rollen können auch Aufgaben zugewiesen werden, mit der Möglichkeit, ihre Raten auf der Zuweisungsebene zu überschreiben.
 
-Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Erstellen und Verwalten von Vorgangsrollen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)und [Übersicht über Rechnungsstellung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Erstellen und Verwalten von Vorgangsrollen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), und [Übersicht über Rechnungsstellung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
