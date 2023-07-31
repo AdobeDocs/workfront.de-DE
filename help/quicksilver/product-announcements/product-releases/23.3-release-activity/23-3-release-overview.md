@@ -4,9 +4,9 @@ description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                                 <p>Vorschau-Version: 22. Juni 2023<span style="color: #ff0000;"> Diese Funktion wurde aus der Vorschau entfernt und wird nicht mit Version 23.3 veröffentlicht.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Nicht zutreffend</p>
+                                <p>Produktionsversion für alle Kunden: nicht verfügbar</p>
                             </li>
                         </ul>
                     </td>
@@ -189,7 +189,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                                 <p>Vorschau-Version: 22. Juni 2023<span style="color: #ff0000;"> Diese Funktion wurde aus der Vorschau entfernt und wird nicht mit Version 23.3 veröffentlicht.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Nicht zutreffend</p>
+                                <p>Produktionsversion für alle Kunden: nicht verfügbar</p>
                             </li>
                         </ul>
                     </td>
@@ -202,7 +202,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 15. Juni 2023</p>
+                                <p>Vorschau: 15. Juni 2023</p>
                             </li>
                             <li>
                                  <p>Produktionsversion für frühe Anmeldung: 22. Juni 2023 <span style="color: #ff0000;"> Diese Funktion ist zu diesem Zeitpunkt in der Produktion nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.</span></p>
@@ -281,7 +281,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrieren von agilen Teams Kanban-Karten zu Foren</a></p>
-                        <p>Eine neue <b>Zu Foren hinzufügen</b> Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.</p>
+                        <p>Eine neue <b>Hinzufügen zu Pinnwänden</b> Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -360,8 +360,8 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                                 <p>Vorschau-Version: 29. Juni 2023</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3</p>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.4<br>
+                                <p>Produktionsversion für Fast-Release-Kunden: Nach der Produktionsversion 23.3 anzukündigen.</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)<br>
                                 Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.</p>
                             </li>
                         </ul>
@@ -394,7 +394,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend</p>
+                                <p>Vorschauversion: nicht verfügbar</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: 27. Juni 2023</span></p>
@@ -410,7 +410,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend</p>
+                                <p>Vorschauversion: nicht verfügbar</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: 22. Juni 2023</span></p>
@@ -426,7 +426,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend</p>
+                                <p>Vorschauversion: nicht verfügbar</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: 22. Juni 2023</span></p>
@@ -484,7 +484,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Workfront-Feldern zu benutzerdefinierten Experience Manager Assets-Metadatenfeldern</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront-Felder benutzerdefinierten Experience Manager Assets-Metadatenfeldern zuordnen</a></p>
                         <p>Mit der nativen Integration können Sie jetzt sowohl native als auch integrierte Workfront-Felder benutzerdefinierten Metadatenschema-Feldern in Experience Manager Assets as a Cloud Service zuordnen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -588,12 +588,12 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Testversandfunktion in der mobilen Workfront-App</a> </p>
-                        <p>Mit der Einstellung der eigenständigen Workfront-Testversand-App in Version 23.4 wurden der primären mobilen Workfront-App Testfunktionen hinzugefügt, mit denen der Testversand auf Mobilgeräten fortgesetzt werden kann.</p>
+                        <p>Da die eigenständige Workfront-Testversand-App in der Version 23.10 (Oktober 2023) eingestellt wurde, wurden der primären mobilen Workfront-App Testfunktionen hinzugefügt, mit denen die Weiterverfolgung von Testsendungen auf Mobilgeräten ermöglicht wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend</p>
+                                <p>Vorschauversion: nicht verfügbar</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: Verfügbar im Apple App Store und Google Play Store am 21. Juni 2023</span></p>
@@ -644,11 +644,11 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Ankündigung nach der Produktionsversion 23.3</p>
+                                <p>Vorschau-Veröffentlichung: Nach der Produktionsversion 23.3 anzukündigen.</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für Fast-Release-Kunden: Ankündigung nach der Produktionsversion 23.3 </p>
-                                <p>Produktionsversion für alle Kunden: Mit Version 23.4</p>
+                                <p>Produktionsversion für Fast-Release-Kunden: Nach der Produktionsversion 23.3 anzukündigen. </p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -726,7 +726,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Im gesamten Veröffentlichungszeitrahmen von 23.3</p>
+                                <p>Vorschau-Veröffentlichung: Während des Veröffentlichungszeitrahmens 23.3</p>
                             </li>
                             <li>
                                 <p><span class="preview">Mindestens 2 Wochen nach Veröffentlichung in der Vorschau (sofern nicht anders angegeben)</span></p>
@@ -777,11 +777,11 @@ Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, V
 
 Die folgende Funktion wird in Kürze aus Workfront entfernt:
 
-#### Einstellung der mobilen Testversand-App mit Version 23.4
+#### Einstellung der mobilen Testversand-App mit Version 23.10 (Oktober 2023)
 
-Mit Version 23.4 werden wir die mobile Proof-App offiziell als veraltet einstufen. Die allgemeine mobile Workfront-App wurde um eine neue Testversandfunktion erweitert (weitere Informationen finden Sie in der Versionshinweise unter Workfront Mobile-Verbesserungen ). Den Benutzern wird empfohlen, die Anwendung so bald wie möglich für Testsendungen zu verwenden.
+Mit der Version 23.10 (Oktober 2023) werden wir die mobile Proof-App offiziell als veraltet einstufen. Die allgemeine mobile Workfront-App wurde um eine neue Testversandfunktion erweitert (weitere Informationen finden Sie in der Versionshinweise unter Workfront Mobile-Verbesserungen ). Den Benutzern wird empfohlen, die Anwendung so bald wie möglich für Testsendungen zu verwenden.
 
-Beachten Sie, dass für die mobile Workfront-App eine Workfront-Anmeldung erforderlich ist. Externe Benutzer und Gäste können die Proof-App weiterhin für Testsendungen verwenden. wird jedoch nicht mehr unterstützt und ab Version 23.4 nicht mehr verfügbar sein.
+Beachten Sie, dass für die mobile Workfront-App eine Workfront-Anmeldung erforderlich ist. Externe Benutzer und Gäste können die Proof-App weiterhin für Testsendungen verwenden. Sie wird jedoch nicht mehr unterstützt und ab Version 23.10 (Oktober 2023) nicht mehr verfügbar sein.
 
 
 <!-- HTML you might need
