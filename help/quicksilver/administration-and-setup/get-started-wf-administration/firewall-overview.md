@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Da Adobe Workfront mit dem Netzwerk Ihres Unternehmens kommuniziert, muss die Fi
 
 Dies wird durch eine Zulassungsliste erreicht, bei der es sich im Wesentlichen um eine &quot;Liste&quot;von Sites handelt, die Daten über die Firewall senden oder empfangen dürfen. Sites können auf zwei Arten identifiziert werden:
 
-* **IP-Adresse**: Zahlenreihen wie 52.31.132.175
+* **IP-Adresse**: eine Reihe von Zahlen wie 52.31.132.175
 * **Domäne**: Teil einer URL, z. B. &quot;diese Domäne&quot;in www.thisdomain.com
 
 Workfront verwendet bestimmte IP-Adressen und Domänen für die Web-Kommunikation. Diese müssen der Zulassungsliste Ihres Unternehmens hinzugefügt werden, bevor Sie Workfront in Ihrem Unternehmen verwenden können.
@@ -49,25 +49,19 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
  <tbody> 
   <tr> 
    <td role="rowheader">Spezifische IP-Adressen und Domänen, die</td> 
-   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurieren der Zulassungsliste Ihrer Firewall</a> enthält die Liste der IP-Adressen und Domänen, die Ihr Unternehmen zu seiner Zulassungsliste hinzufügen muss. </p> <p>Möglicherweise hat Ihr Netzwerkadministrator keinen Zugriff auf den Artikel "Konfigurieren der Firewall". In diesem Fall müssen Sie sie ihnen bereitstellen. Es wird davon abgeraten, eine Papierkopie zu drucken. Mit einer digitalen Kopie kann Ihr Netzwerkadministrator die Adressen kopieren und einfügen. Dies ist schneller und genauer als die Eingabe aus einer Kopie.</p> </td> 
+   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurieren der Zulassungsliste Ihrer Firewall</a> enthält die Liste der IP-Adressen und Domänen, die Ihr Unternehmen zu seiner Zulassungsliste hinzufügen muss. </p> <p>Möglicherweise hat Ihr Netzwerkadministrator keinen Zugriff auf den Artikel "Konfigurieren der Firewall". In diesem Fall müssen Sie sie ihnen bereitstellen. Es wird nicht empfohlen, eine Papierkopie zu drucken. Mit einer digitalen Kopie kann Ihr Netzwerkadministrator die Adressen kopieren und einfügen. Dies ist schneller und genauer als die Eingabe aus einer Kopie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Cluster</td> 
    <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Ihr Workfront-Plan</td> 
-   <td> <p>Der Plan Ihrer Organisation ist einer der folgenden:</p> 
-    <ul> 
-     <li> <p>Unternehmen </p> </li> 
-     <li> <p>Business </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>Team </p> </li> 
-    </ul> <p>Informationen zum Auffinden Ihres Plans finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Zeigen Sie den Cluster- und Workfront-Plan Ihres Unternehmens an.</a></p> </td> 
+   <td role="rowheader">Ihr Workfront-Abo</td> 
+   <td> <p>Informationen zum Auffinden des Unternehmensplans finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Anzeigen des Clusters und des Workfront-Plans Ihres Unternehmens</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihre Domäne</td> 
-   <td> <p>Um Ihre Domäne zu finden, sehen Sie sich die Webadresse an, mit der Sie eine Verbindung zu Workfront herstellen.</p> <p>Beispiel: im Internet <code>greatcompany.my.workfront.com</code>, lautet die Domäne "Großunternehmen".</p> </td> 
+   <td> <p>Um Ihre Domäne zu finden, sehen Sie sich die Webadresse an, mit der Sie eine Verbindung zu Workfront herstellen.</p> <p>Beispiel: in der Webadresse <code>greatcompany.my.workfront.com</code>lautet, lautet die Domäne "Großunternehmen".</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sonstige Adobe Workfront-Produkte</td> 
@@ -107,10 +101,10 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** im linken Bereich
+1. Klicks **System** im linken Bereich
 1. Um den Cluster anzuzeigen, wählen Sie **Kundeninformationen**.
 
-   Ihr Cluster wird oben rechts im **Basisinformationen** Abschnitt.
+   Ihr Cluster wird in der Nähe der oberen rechten Ecke des **Grundlegende Informationen** Abschnitt.
 
    ![](assets/locate-cluster.png)
 

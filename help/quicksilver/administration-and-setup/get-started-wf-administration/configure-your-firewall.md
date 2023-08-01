@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
@@ -29,27 +29,39 @@ Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte 
 
 * Nachrichten von der Workfront-Anwendung senden
 
-   >[!NOTE]
-   >
-   >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+  >[!NOTE]
+  >
+  >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * Verwenden von Dokument-Webhooks beim Konfigurieren von benutzerdefinierten Dokumentintegrationen
 * Verwenden von Workfront-Ereignisabonnements
 
-   Weitere Informationen finden Sie unter [Ereignisabonnement-API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Weitere Informationen finden Sie unter [Ereignisabonnement-API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 Sie müssen auch bestimmte Ports öffnen, damit E-Mail-Nachrichten beim Versand verschlüsselt werden können.
 
-## Workfront-auf die Zulassungsliste setzte, die Sie verwenden können
+## Workfront-auf die Zulassungsliste setzte
 
 Wenn Ihr Unternehmen über den Enterprise-Plan verfügt, können Sie auch zwei Workfront-auf die Zulassungsliste setzte konfigurieren:
 
 * **E-Mail-Zulassungsliste**: Hiermit können Sie steuern, wo Benutzer in Workfront gespeicherte E-Mail-Daten versenden können. Weitere Informationen finden Sie unter [Konfigurieren der E-Mail-Zulassungsliste](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP-Zulassungsliste**: Beschränkt den Zugriff auf Workfront auf 45 von Ihnen angegebene IP-Adressen oder IP-Adressbereiche und bietet so eine zusätzliche Sicherheitsschicht für die Workfront-Anwendung. Weitere Informationen finden Sie unter [Zugriff auf Adobe Workfront nach IP-Adresse einschränken](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **IP-Zulassungsliste**: Beschränkt den Zugriff auf Workfront auf 45 IP-Adressen oder IP-Adressbereiche, die Sie angeben, und bietet eine zusätzliche Sicherheitsschicht für die Workfront-Anwendung. Weitere Informationen finden Sie unter [Zugriff auf Adobe Workfront nach IP-Adresse einschränken](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+
+## Workfront-Cluster suchen
+
+Die IP-Adressen, die Sie Ihrer Zulassungsliste in Ihrer Firewall hinzufügen müssen, hängen vom Cluster ab, in dem Ihre Produktionsumgebung ausgeführt wird.
+
+So suchen Sie den Cluster Ihres Unternehmens:
+
+1. Als Workfront-Administrator klicken Sie auf das **Hauptmenü** icon ![Hauptmenü](assets/main-menu-icon.png)Klicken Sie auf **Einrichtung**.
+1. Klicken Sie im linken Navigationsbereich auf **System**, wählen Sie **Kundeninformationen**.
+1. Suchen Sie die **Cluster-Einrichtung** -Feld in der rechten oberen Ecke der Seite. Der Cluster Ihres Unternehmens ist hier aufgeführt.
+
+   CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
+
+Weitere Informationen finden Sie im Abschnitt . [Cluster- und Workfront-Plan Ihres Unternehmens anzeigen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP-Adressen, die der Zulassungsliste hinzugefügt werden sollen
-
-Die IP-Adressen, die Sie Ihrer Zulassungsliste in Ihrer Firewall hinzufügen müssen, hängen vom Cluster ab, in dem Ihre Produktionsumgebung ausgeführt wird. Sie können herausfinden, welcher Cluster dieser ist, indem Sie Setup > System > Benutzerdefinierte Informationen aufrufen. Weitere Informationen finden Sie im Abschnitt . [Grundlegende Informationen konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) im Artikel [Grundlegende Informationen für Ihr System konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 >[!IMPORTANT]
 >
@@ -59,14 +71,13 @@ Die IP-Adressen, die Sie Ihrer Zulassungsliste in Ihrer Firewall hinzufügen mü
 >* Workfront für Outlook
 >* Workfront für Salesforce
 
-
 * [IP-Adressen, die die Cluster 1, 2, 3, 5, 7, 8 und 9 zulassen](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-Adressen für Cluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [IP-Adressen für Cluster 6](#ip-addresses-to-allow-for-cluster-6)
 * [IP-Adressen, um ein Testlaufwerk zu ermöglichen](#IP%20Addre2)
 * [IP-Adressen, die bei der Implementierung von Ereignisabonnements zulässig sind](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [IP-Adressen zur besseren Authentifizierung](#ip-addresses-to-allow-for-enhanced-authentication)
-* [IP-Adressen, die für den Zugriff auf Workfront Fusion hinzugefügt werden sollen](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* [IP-Adressen, um eine erweiterte Authentifizierung zu ermöglichen](#ip-addresses-to-allow-for-enhanced-authentication)
+* [IP-Adressen für den Zugriff auf Workfront Fusion hinzufügen](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [IP-Adressen, die zur Verwendung von Workfront für Jira hinzugefügt werden sollen](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [IP-Adressen, die für die Verwendung von Workfront Ascent hinzugefügt werden sollen](#ip-addresses-to-add-for-using-workfront-ascent)
 * [URLs, die für alle Cluster Workfront hinzugefügt werden sollen](#urls-to-add-for-all-clusters-workfront)
@@ -250,7 +261,7 @@ Fügen Sie für alle Umgebungen die folgenden IP-Adressen hinzu, um Nutzlasten v
  </tbody> 
 </table>
 
-### IP-Adressen zur besseren Authentifizierung {#ip-addresses-to-allow-for-enhanced-authentication}
+### IP-Adressen, um eine erweiterte Authentifizierung zu ermöglichen {#ip-addresses-to-allow-for-enhanced-authentication}
 
 Fügen Sie die folgenden IP-Adressen hinzu, um die erweiterte Authentifizierung für die Vorschau oder Produktion zu verwenden.
 
@@ -314,7 +325,7 @@ Fügen Sie die folgenden IP-Adressen hinzu, um die erweiterte Authentifizierung 
  </tbody> 
 </table>
 
-### IP-Adressen, die für den Zugriff auf Workfront Fusion hinzugefügt werden sollen  {#ip-addresses-to-add-for-accessing-workfront-fusion}
+### IP-Adressen für den Zugriff auf Workfront Fusion hinzufügen  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um Workfront Fusion den Zugriff auf Ihr System zu ermöglichen.
 
@@ -483,7 +494,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie Ihrer Zulas
    <td role="rowheader">Um Workfront Testing den Zugriff auf Workfront in einem beliebigen Cluster zu ermöglichen, fügen Sie diese zu allen Umgebungen hinzu</td> 
    <td> 
     <ul> 
-     <li>*.workfront.com - Erforderlich, um Testsendungen in Workfront anzuzeigen</li> 
+     <li>*.workfront.com - Erforderlich für die Anzeige von Testsendungen in Workfront</li> 
      <li>*.proofhq.com - Erforderlich, um Testsendungen in Workfront Testing anzuzeigen</li> 
      <li>*.proofhq.eu - Erforderlich, um Testsendungen in Workfront Testing anzuzeigen</li> 
     </ul> <p><b>NOTIZ</b>:  <p>Das Hinzufügen von IP-Adressen zu Ihrer Zulassungsliste für Workfront Testversand wird nicht unterstützt. Sie waren dynamisch, nachdem Workfront nach AWS verschoben wurde. Stattdessen empfehlen wir, nur Workfront-Testdomänen zuzulassen.</p> <p>Wenn es ein Problem beim Hinzufügen dieser Domänen zu Ihrer Zulassungsliste gibt und Sie stattdessen eine IP-Adresse benötigen, wenden Sie sich an den Workfront-Kundensupport.</p> </p> </td> 
@@ -496,7 +507,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie Ihrer Zulas
 Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um verschiedene Funktionen nutzen zu können.
 
 * [Für Rückrufe und Weberfassungs-Testsendungen](#for-callbacks-and-webcapture-proofs)
-* [Für ausgehende E-Mails](#for-outgoing-email)
+* [Ausgehende E-Mail](#for-outgoing-email)
 
 ### Für Rückrufe und Weberfassungs-Testsendungen {#for-callbacks-and-webcapture-proofs}
 
@@ -551,7 +562,7 @@ Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um v
  </tbody> 
 </table>
 
-### Für ausgehende E-Mails {#for-outgoing-email}
+### Ausgehende E-Mail {#for-outgoing-email}
 
 <table style="table-layout:auto"> 
  <col> 
