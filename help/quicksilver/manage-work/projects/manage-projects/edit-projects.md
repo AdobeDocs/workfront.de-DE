@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '7336'
+source-wordcount: '7315'
 ht-degree: 2%
 
 ---
@@ -57,10 +57,8 @@ Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Es wird empf
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,17 +85,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
-    <ul> 
-     <li> <p>Beitragen Sie Berechtigungen zu einem Projekt, um es im Bereich "Projektdetails"zu bearbeiten </p> </li> 
-     <li> <p>Berechtigungen für ein Projekt verwalten, um es im Feld "Projekt bearbeiten"zu bearbeiten</p> </li> 
-    </ul> <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+    <p>Berechtigungen für ein Projekt verwalten </p> 
+    <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Einschränkungen beim Bearbeiten von Projekten
+## Einschränkungen bei der Bearbeitung von Projekten
 
 Es gibt einige Einschränkungen, die Sie daran hindern können, Projekte zu bearbeiten.
 
@@ -105,10 +101,10 @@ Beachten Sie beim Bearbeiten von Projekten Folgendes:
 
 * Sie können keine Projekte bearbeiten, die sich in einem Genehmigungsprozess befinden, mit Ausnahme der Protokollierungszeit.
 * Sie können nur dann Dokumente oder Vorlagen an ein Projekt anhängen, das den Status &quot;Abgeschlossen&quot;, &quot;Unbeendet&quot;oder &quot;Ausstehende Genehmigung&quot;aufweist, wenn diese Funktion im Bereich &quot;Projekteinstellungen&quot;von Ihrem Workfront-Administrator oder einem Gruppenadministrator aktiviert wurde. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* Sie können die folgenden Informationen zu einem Projekt nur im Status Dead oder Complete bearbeiten:
+* Sie können die folgenden Informationen zu einem Projekt nur im Status &quot;Dead&quot;oder &quot;Complete&quot;bearbeiten:
 
    * Ändern Sie bestehende Ausgaben.
-   * Hinzufügen, Entfernen oder Bearbeiten benutzerdefinierter Formulare.
+   * Fügen Sie benutzerdefinierte Formulare hinzu, entfernen Sie sie oder bearbeiten Sie sie.
 
 ## Projekt bearbeiten
 
@@ -139,10 +135,10 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
    1. (Optional) Klicken Sie auf die **Alle reduzieren** in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich ausgeblendet wird, klicken Sie auf die Schaltfläche **Rechtspfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
+   1. Weitere Informationen zur Bearbeitung von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
 
       * [Informationen im Bereich &quot;Projektübersicht&quot;verwalten](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-      * [Informationen im Bereich &quot;Projekt-Finanzen&quot;verwalten](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+      * [Verwalten von Informationen im Bereich &quot;Projekt-Finanzen&quot;](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Optional) Um ein benutzerdefiniertes Formular anzuhängen, geben Sie den Namen eines Formulars in die **Benutzerdefiniertes Formular hinzufügen** und wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
    1. (Optional) Klicken Sie auf die **Export** icon ![](assets/export.png) , um die Übersicht und die benutzerdefinierten Formulardaten in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Export**. Wählen Sie aus den folgenden Optionen aus:
@@ -194,7 +190,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 ### Projektname {#project-name}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Projektname** im linken Bereich.
+1. Klicks **Projektname** im linken Bereich.
 
    ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
@@ -205,7 +201,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 ### Übersicht {#overview}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Übersicht** im linken Bereich.
+1. Klicks **Übersicht** im linken Bereich.
 
    ![](assets/nwe-overview-in-edit-project-box-350x172.png)
 
@@ -241,11 +237,11 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bedingung</strong> </td> 
-      <td> <p> <p>(Wird nur angezeigt, nachdem Sie <strong>Manuell</strong> für <strong>Bedingungstyp</strong>): Wählen Sie eine Bedingung aus, um anzugeben, wie das Projekt ausgeführt wird. </p> <p>Informationen dazu, wie Projektbedingungen automatisch oder manuell festgelegt werden können, finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a></p> </p> </td> 
+      <td> <p> <p>(Wird nur angezeigt, nachdem Sie <strong>Manuell</strong> für die <strong>Bedingungstyp</strong>): Wählen Sie eine Bedingung, um anzugeben, wie das Projekt ausgeführt wird. </p> <p>Informationen dazu, wie Projektbedingungen automatisch oder manuell festgelegt werden können, finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Zeitplanmodus</strong> </td> 
-      <td> <p>Geben Sie an, ob das Projekt vom Startdatum oder vom Abschlussdatum geplant ist. Diese Auswahl bestimmt die geplanten Termine der Aufgaben für das Projekt. 
+      <td> <p>Geben Sie an, ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. Diese Auswahl bestimmt die geplanten Termine der Aufgaben für das Projekt. 
        <ul> 
        <li><strong>Startdatum</strong>: Die erste Aufgabe des Projekts hat standardmäßig dasselbe geplante Startdatum wie das Projekt. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Startdatum</a>. Die Projekt-Timeline berechnet vom Startdatum aus und das Abschlussdatum des Projekts wird vom System basierend auf der Dauer aller Aufgaben berechnet. </li> 
        <li><strong>Abschlussdatum</strong>: Die letzte Aufgabe des Projekts hat dasselbe geplante Abschlussdatum wie das Projekt. Die Projekt-Timeline berechnet vom Abschlussdatum aus und das Projektstartdatum wird vom System berechnet, indem die Dauer aller Aufgaben vom Abschlussdatum des Projekts abgezogen wird. </li> 
@@ -330,7 +326,7 @@ Bei der Auswahl von mehr als einem Projekt zur Massenbearbeitung gibt es die fol
 * Wenn Sie nicht über die Berechtigung &quot;Benutzerdefiniertes Formular bearbeiten&quot;für mindestens eines der ausgewählten Projekte verfügen, können Sie die Felder für die angehängten benutzerdefinierten Formulare nicht bearbeiten. Sie können nur die Felder in den angehängten benutzerdefinierten Formularen anzeigen
 * Wenn Sie Zugriff auf einen Abschnitt in einem benutzerdefinierten Formular haben, können Sie die Felder in diesem Abschnitt nicht bearbeiten. Sie können nur die Felder in diesem Abschnitt anzeigen.
 * Wenn Sie keinen Zugriff auf einen Abschnitt in einem der benutzerdefinierten Formulare haben, die an mindestens ein Projekt angehängt sind, wird der Abschnitt nicht im Feld Projekte bearbeiten angezeigt.
-* Wenn Sie erforderliche Felder in einem der benutzerdefinierten Formulare haben, die an alle Projekte angehängt sind, und ein Feld auswählen, ohne es tatsächlich zu bearbeiten, müssen Sie die Änderungen in diesem Feld verwerfen oder Informationen hinzufügen, bevor Sie die ausgewählten Projekte speichern können. Wenn Sie kein erforderliches Feld auswählen, können Sie die ausgewählten Projekte auch dann speichern, wenn das erforderliche Feld leer ist.
+* Wenn Sie erforderliche Felder in einem der benutzerdefinierten Formulare haben, die an alle Projekte angehängt sind, und Sie ein Feld auswählen, ohne es tatsächlich zu bearbeiten, müssen Sie die Änderungen in diesem Feld verwerfen oder Informationen hinzufügen, bevor Sie die ausgewählten Projekte speichern können. Wenn Sie kein erforderliches Feld auswählen, können Sie die ausgewählten Projekte auch dann speichern, wenn das erforderliche Feld leer ist.
 
 Informationen zum Zugriff auf benutzerdefinierte Formulare finden Sie in den folgenden Artikeln:
 
@@ -341,7 +337,7 @@ So bearbeiten Sie Informationen zu benutzerdefinierten Formularen:
 
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
@@ -372,11 +368,11 @@ Wenn Sie mehrere Projekte auswählen, um sie stapelweise zu bearbeiten, gibt es 
 * Wenn Sie mindestens ein Projekt auswählen, für das Sie über View Finance-Berechtigungen (anstelle von &quot;Manage Finance&quot;-Berechtigungen) verfügen, können Sie die Felder in diesem Abschnitt nur für alle ausgewählten Projekte anzeigen. Sie können die Felder im Abschnitt Finanzen nicht stapelweise bearbeiten.
 * Wenn Sie mindestens ein Projekt auswählen, für das Sie keine Finanzberechtigungen haben, wird dieser Abschnitt überhaupt nicht angezeigt.
 
-So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
+So bearbeiten Sie Felder im Finanzbereich:
 
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Finanzen** im linken Bereich.
+1. Klicks **Finanzen** im linken Bereich.
 
    ![](assets/nwe-finance-in-edit-project-box-350x183.png)
 
@@ -396,7 +392,7 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Performance-Index-Methode</strong> </td> 
-      <td> <p>Auswählen <b>Stundenbasiert</b>oder <b>Kostenbasiert</b> um anzugeben, ob die Metriken zum Earned Value des Projekts (z. B. Kosten-Leistungs-Index oder Geschätzte tatsächliche Kosten) anhand von Stunden oder Kosten berechnet werden. </p> <p>Weitere Informationen zur Leistungsindex-Methode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Leistungsindex-Methode (PIM) festlegen</a>. </p> <p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die standardmäßige Leistungsindex-Methodeneinstellung für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </td> 
+      <td> <p>Auswählen <b>Stundenbasiert</b>oder <b>Kostenbasiert</b> um anzugeben, ob die Metriken zum Earned Value des Projekts (z. B. Kosten-Leistungs-Index oder Geschätzte tatsächliche Kosten) anhand von Stunden oder Kosten berechnet werden. </p> <p>Weitere Informationen zur Leistungsindex-Methode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Leistungsindex-Methode (PIM) festlegen</a>. </p> <p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die standardmäßige Einstellung Performance Index Method für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Schätzung bei Fertigstellung</strong> </td> 
@@ -434,7 +430,7 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
 ### Projekteinstellungen {#project-settings}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Projekteinstellungen** im linken Bereich.
+1. Klicks **Projekteinstellungen** im linken Bereich.
 
    ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
@@ -453,14 +449,14 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
       <td> <p>Steuert, wie das Projekt als abgeschlossen markiert wird. Wählen Sie aus den folgenden Optionen aus: 
        <ul> 
        <li><p><strong>Automatisch</strong>: Das Projekt wird als abgeschlossen markiert, wenn alle Aufgaben und Probleme abgeschlossen sind.</p><p>Der Projektstatus wird nur dann automatisch in Abgeschlossen geändert, wenn der Projektstatus Aktuell ist, wenn die Aufgaben abgeschlossen sind. </p></li> 
-       <li><strong>Manuell</strong>: Sie müssen den Status Fertig stellen für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind.</li> 
+       <li><strong>Manuell</strong>: Sie müssen den Status Abgeschlossen für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Zusammenfassung - Fertigstellungsmodus</strong></td> 
        <td> <p>Steuert, wie die übergeordneten Aufgaben als abgeschlossen markiert werden. Wählen Sie aus den folgenden Optionen aus: 
        <ul> 
-       <li><strong>Automatisch</strong>: Die übergeordneten Aufgaben sind als "Abgeschlossen"markiert und aktualisieren ihren Prozentsatz automatisch, da die untergeordneten Aufgaben abgeschlossen und der Prozentsatz der Abschlüsse der untergeordneten Aufgaben aktualisiert wird. </li> 
+       <li><strong>Automatisch</strong>: Die übergeordneten Aufgaben sind als abgeschlossen markiert und aktualisieren ihren Prozentsatz automatisch, da die untergeordneten Aufgaben abgeschlossen und der Prozentsatz der abgeschlossenen Kinder aktualisiert wird. </li> 
        <li><strong>Manuell</strong>: Sie müssen den prozentualen Abschluss und den Status der übergeordneten Aufgaben manuell aktualisieren, unabhängig davon, welche Änderungen an den untergeordneten Aufgaben vorgenommen werden.</li> 
        </ul></p> </td> 
        </tr> 
@@ -470,7 +466,7 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
        <ul> 
        <li>Datum der Aufgaben aktualisieren</li> 
        <li>Ändern von Vorgängerbeziehungen von Aufgaben</li> 
-       <li><p>Ändern Sie die Beziehungen zwischen über- und untergeordneten Elementen, fügen Sie Zuweisungen hinzu oder entfernen Sie sie, und ändern Sie darüber hinaus die Aufgabenbegrenzung oder den Dauertyp.</p><p>Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übergeordnete Aufgaben oder das Projekt) zu dem durch den Aktualisierungstyp angegebenen Zeitpunkt aktualisiert. </p><p>Wenn die übergeordneten Objekte nicht unmittelbar nach der Änderung aktualisiert werden, wenn Sie "Automatisch und bei Änderung"oder "Nur ändern"auswählen, aktualisieren Sie die Seite.</p><p>Wählen Sie aus den folgenden Optionen aus: </p><p>- <strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem das Projekt abhängig ist (Bei Änderung). Die Projekt-Timeline wird auch jede Nacht aktualisiert (automatisch).</p><p>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass das Projekt stets auf dem neuesten Stand ist.</p><p>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt ausführen, für die eine Timeline-Neuberechnung Trigger wird, werden alle verfügbaren Daten sofort angezeigt, sodass Sie mit der Arbeit fortfahren können. Bei Projekten mit mehr als 100 Aufgaben werden Daten, die eine längere Neuberechnung erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.</p><p>- <strong>Nur ändern</strong>: Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem das Projekt abhängig ist. Sie können diese Option auswählen, wenn Änderungen selten im Projekt oder in anderen Projekten auftreten, von denen die Timeline abhängig ist.</p><p>- <strong>Nur Automatisch</strong>: Die Projektzeitleiste wird jede Nacht aktualisiert. Die Timeline wird nicht unmittelbar nach den Änderungen aktualisiert.</p><p>Sie können diese Option auswählen, wenn täglich im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, viele Änderungen vorgenommen werden. Beachten Sie jedoch, dass Sie diese Einstellung ausgewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.</p><p>- <strong>Nur manuell</strong>: Die Projekt-Timeline wird nur aktualisiert, wenn Sie die Option zum Neuberechnen der Timeline auswählen. Weitere Informationen zur manuellen Neuberechnung der Projekt-Timeline finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>. </p><p>Sie können diese Option auswählen, wenn Sie gleichzeitig viele Änderungen am Projekt vornehmen und möchten, dass die Timeline-Neuberechnung erfolgt, nachdem alle Änderungen vorgenommen wurden (und nicht nach jeder einzelnen Änderung).</p></li> 
+       <li><p>Ändern Sie die Beziehungen zwischen über- und untergeordneten Elementen, fügen Sie Zuweisungen hinzu oder entfernen Sie sie, und ändern Sie darüber hinaus die Aufgabenbegrenzung oder den Dauertyp.</p><p>Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übergeordnete Aufgaben oder das Projekt) zu dem durch den Aktualisierungstyp angegebenen Zeitpunkt aktualisiert. </p><p>Wenn die übergeordneten Objekte nicht unmittelbar nach der Änderung aktualisiert werden, wenn Sie "Automatisch und bei Änderung"oder "Nur ändern"auswählen, aktualisieren Sie die Seite.</p><p>Wählen Sie aus den folgenden Optionen aus: </p><p>- <strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem das Projekt abhängig ist (Bei Änderung). Die Projekt-Timeline wird auch jede Nacht aktualisiert (automatisch).</p><p>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass das Projekt stets auf dem neuesten Stand ist.</p><p>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt ausführen, für die eine Timeline-Neuberechnung Trigger wird, werden alle verfügbaren Daten sofort angezeigt, sodass Sie mit der Arbeit fortfahren können. Bei Projekten mit mehr als 100 Aufgaben werden Daten, die eine längere Neuberechnung erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.</p><p>- <strong>Nur ändern</strong>: Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem das Projekt abhängig ist. Sie können diese Option auswählen, wenn Änderungen selten im Projekt oder in anderen Projekten auftreten, von denen die Timeline abhängig ist.</p><p>- <strong>Nur Automatisch</strong>: Die Projekt-Timeline wird jede Nacht aktualisiert. Die Timeline wird nicht unmittelbar nach den Änderungen aktualisiert.</p><p>Sie können diese Option auswählen, wenn täglich im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, viele Änderungen vorgenommen werden. Beachten Sie jedoch, dass Sie diese Einstellung ausgewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.</p><p>- <strong>Nur manuell</strong>: Die Projekt-Timeline wird nur aktualisiert, wenn Sie die Option zum Neuberechnen der Timeline auswählen. Weitere Informationen zur manuellen Neuberechnung der Projekt-Timeline finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>. </p><p>Sie können diese Option auswählen, wenn Sie gleichzeitig viele Änderungen am Projekt vornehmen und möchten, dass die Timeline-Neuberechnung erfolgt, nachdem alle Änderungen vorgenommen wurden (und nicht nach jeder einzelnen Änderung).</p></li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -479,21 +475,21 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Benutzer-Ausfallzeiten</strong> </td> 
-       <td> <p>Bestimmt, ob durch die Abwesenheit des Primären Verantwortlichen einer Aufgabe die für das Projekt geplanten Aufgabendaten angepasst werden. </p><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für diese Einstellung für Ihr System aus <span>oder Ihrer Gruppe</span>. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p><p>Wählen Sie aus den folgenden Optionen aus:<br>- <strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong>: Bei Auswahl dieser Option passen sich die geplanten Zeitpunkte der Aufgaben an die Zeitdauer des Primären Aufgabenempfängers an, falls während der Aufgabendauer eine Zeitüberschreitung eintritt. </p><p>Wenn beispielsweise eine Aufgabe mit der Begrenzung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für die Zeitüberschreitung markiert hat, sind die geplanten Aufgabenzeiträume vom 1. bis 4. Juni, wenn diese Auswahl aktiviert ist. Je nach Aufgabenbegrenzung gibt es die folgenden Szenarien: </p> 
+       <td> <p>Bestimmt, ob durch die Abwesenheit des Primären Verantwortlichen einer Aufgabe die für das Projekt geplanten Aufgabendaten angepasst werden. </p><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für diese Einstellung für Ihr System aus <span>oder Ihrer Gruppe</span>. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p><p>Wählen Sie aus den folgenden Optionen aus:<br>- <strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong>: Wenn Sie diese Option auswählen, werden die geplanten Zeitpunkte der Aufgaben entsprechend der Zeitspanne des Primären Aufgabenempfängers angepasst, wenn während der Aufgabendauer eine Zeitüberschreitung eintritt. </p><p>Wenn beispielsweise eine Aufgabe mit der Begrenzung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für die Zeitüberschreitung markiert hat, sind die geplanten Aufgabenzeiträume vom 1. bis 4. Juni, wenn diese Auswahl aktiviert ist. Je nach Aufgabenbegrenzung gibt es die folgenden Szenarien: </p> 
        <ul> 
        <li>Bei Aufgabenbegrenzungen, die sich auf die Planung ab einem Startdatum beziehen (so bald wie möglich, früheste verfügbare Zeit, Start nicht früher als, Start nicht später als, Muss beginnen am), ändert sich das geplante Startdatum nicht, jedoch das geplante Abschlussdatum.</li> 
        <li>Bei Aufgabenbegrenzungen, die sich auf die Planung ab einem Fertigstellungsdatum beziehen (so spät wie möglich, aktuelle verfügbare Zeit, nicht früher beenden als, Später beenden muss beenden am), ändert sich das geplante Abschlussdatum nicht, jedoch das geplante Startdatum.</li> 
        <li>Bei Aufgaben mit einer Beschränkung von Feste Datumswerte ändern sich weder das geplante Start- noch das Abschlussdatum. </li> 
-       </ul><p>Die Dauer der Aufgabe ändert sich bei Auswahl dieser Einstellung nicht. Je nach Aufgabenbegrenzung ändern sich nur die geplanten Datumswerte. Informationen zur Aufgabenbegrenzung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>. </p><p>- <strong>Ignorieren der Benutzerzeit in der Aufgabendauer</strong>: Bei Auswahl dieser Option bleiben die geplanten Projektzeitpunkte unverändert, selbst wenn der Primäre Aufgabenverantwortliche während der Aufgabendauer eine gewisse Zeitspanne hat. </p><p>Beachten Sie bei der Auswahl der Optionen für diese Einstellung Folgendes:</p> 
+       </ul><p>Die Dauer der Aufgabe ändert sich bei Auswahl dieser Einstellung nicht. Je nach Aufgabenbegrenzung ändern sich nur die geplanten Datumswerte. Informationen zur Aufgabenbegrenzung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>. </p><p>- <strong>Ignorieren der Benutzerzeit in der Aufgabendauer</strong>: Bei Auswahl dieser Option bleiben die geplanten Projektzeitpunkte unverändert, auch wenn für den Primären Verantwortlichen der Aufgabe während der Aufgabendauer eine gewisse Zeitspanne zur Verfügung steht. </p><p>Beachten Sie bei der Auswahl der Optionen für diese Einstellung Folgendes:</p> 
        <ul> 
        <li><p>Die Standardoption für diese Einstellung für ein neues Projekt ist dieselbe wie für die Projektanvoreinstellung auf Systemebene. </p><p>Weitere Informationen zu den Projektvoreinstellungen auf Systemebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p></li> 
        <li>Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, wird die Einstellung im Projekt so aktualisiert, dass sie mit der Vorlage übereinstimmt. </li> 
-       <li><p>Workfront entscheidet, welche geplanten Aufgabendaten an den Task Constraint-Wert der Aufgabe angepasst werden sollen. Je nachdem, was das ist, kann entweder das geplante Start- oder das geplante Abschlussdatum betroffen sein oder beides könnte sogar gleich bleiben. Wenn beispielsweise eine Aufgabe eine Begrenzung von festen Datumswerten hat, werden die Daten nicht angepasst, wenn der Primäre Verantwortliche eine Zeitüberschreitung hat, selbst wenn <strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong> ausgewählt ist. </p></li> 
+       <li><p>Workfront entscheidet, welche geplanten Aufgabendaten an den Aufgabenbegrenzungswert der Aufgabe angepasst werden sollen. Je nachdem, was das ist, kann entweder das geplante Start- oder das geplante Abschlussdatum betroffen sein oder beides könnte sogar gleich bleiben. Wenn beispielsweise eine Aufgabe eine Begrenzung von festen Datumswerten hat, werden die Daten nicht angepasst, wenn der Primäre Verantwortliche eine Zeitüberschreitung hat, selbst wenn <strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong> ausgewählt ist. </p></li> 
        </ul></td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Abgleichsmodus für Ressourcen</strong> </td> 
-       <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> <p>- <strong>Manuell</strong>: Sie müssen Ihre Ressourcen manuell dehnen (dies ist die Standardeinstellung).</p> <p>- <strong>Automatisch</strong>: Workfront verwaltet Ressourcen.</p> <p>Weitere Informationen zur Ressourcenebene finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in Gantt Chart </a>.</p> </p> </td> 
+       <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> <p>- <strong>Manuell</strong>: Sie müssen Ihre Ressourcen manuell dehnen (dies ist die Standardeinstellung).</p> <p>- <strong>Automatisch</strong>: Workfront verwaltet Ihre Ressourcen.</p> <p>Weitere Informationen zur Ressourcenebene finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in Gantt Chart </a>.</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risiko</strong> </td> 
@@ -512,12 +508,12 @@ So bearbeiten Sie Felder im Bereich &quot;Finanzen&quot;:
        <td> <p> Wählen Sie diese Option aus, damit der Projekteigentümer die im Projekt angemeldete Zeit genehmigen muss. Wenn Sie Rechnungsdatensätze verwenden und diese Option auswählen, werden nur die genehmigten Stunden im Projekt als verfügbare Abrechnungszeiten für die Rechnungsdatensätze angezeigt. Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Timesheets. </p> <p>Weitere Informationen dazu, wie Sie eine Genehmigung für ein Projekt benötigen, finden Sie unter <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Genehmigung für ein Projekt erforderlich</a>.</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Filter Hour Types</strong> und</span> <strong>Stündungstypen</strong></td> 
+       <td role="rowheader"><strong>Filtern von Stündentypen</strong> und</span> <strong>Stündungstypen</strong></td> 
        <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-       <li> <p>Auswählen <strong>Nein</strong> , um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen. (Dies ist die Standardauswahl.)</p> <p>Oder</p> </li> 
+       <li> <p>Auswählen <strong>Nein</strong> , um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> </li> 
        <li>Auswählen <strong>Ja</strong> , um nur eine Untergruppe der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, wählen Sie dann die Stundentypen aus, die verfügbar gemacht werden sollen. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</li> 
-       <p>Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Sie müssen mindestens einen Stundentyp auswählen; Wenn Sie diese Option wählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt zur Verfügung gestellt.</p> </ul>
+       <p>Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Sie müssen mindestens einen Stundentyp auswählen. Wenn Sie diese Option wählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt zur Verfügung gestellt.</p> </ul>
 
    <p>Dieselbe Stundentyp muss auf der Ebene der einzelnen Benutzer ausgewählt werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann. Weitere Informationen zum Definieren von Stundentypen auf Benutzerebene finden Sie unter <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>. </p> </p> </td> 
       </tr> 
@@ -556,7 +552,7 @@ Sie können die Standardeinstellungen definieren, die mit allen neuen Aufgaben v
 Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgaben auswirken, finden Sie im Abschnitt . [Aufgabenstandardwerte beim Hinzufügen von Aufgaben zu einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) im Artikel [Übersicht über Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Aufgabeneinstellungen** im linken Bereich.
+1. Klicks **Aufgabeneinstellungen** im linken Bereich.
 
    ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
@@ -569,7 +565,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
    * Wenn Sie mehrere Projekte aus derselben Gruppe auswählen, werden in diesem Feld sowohl systemspezifische als auch gruppenspezifische Aufgabengenehmigungsprozesse angezeigt.
    * Wenn Sie mehrere Projekte aus verschiedenen Gruppen auswählen, werden in diesem Feld nur Aufgabengenehmigungsprozesse auf Systemebene angezeigt.
 
-1. Im **Benutzerdefinierter Forms für Aufgaben** Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zum Projekt hinzufügen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
+1. Im **Benutzerdefinierter Forms-Task Standard** Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zum Projekt hinzufügen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
 1. (Optional) Wählen Sie **Verwenden Sie den Arbeitsaufwand, um die geplante Aufgabe automatisch zu berechnen.** , wenn Sie die Verwaltung von Aufgabenaufwand aktivieren möchten, indem Sie anstelle von &quot;Geplante Stunden&quot;den Arbeitsaufwand verwenden.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
@@ -595,7 +591,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 ### Problemeinstellungen {#issue-settings}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Problemeinstellungen** im linken Bereich.
+1. Klicks **Problemeinstellungen** im linken Bereich.
 
    ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
@@ -627,7 +623,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 ### Zugriff {#access}
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
-1. Klicken **Zugriff** im linken Bereich.
+1. Klicks **Zugriff** im linken Bereich.
 
    ![](assets/nwe-access-in-edit-project-box-350x262.png)
 
@@ -654,7 +650,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
       <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong>oder <strong>Verwalten</strong> Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Wenn jemand eine Anforderung sendet: Zugriff gewähren</strong></td> 
+      <td role="rowheader"><strong>Wenn ein Benutzer eine Anforderung sendet: Gewähren Sie ihm Zugriff</strong></td> 
       <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong>oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn das Projekt auch eine Anforderungswarteschlange ist und ein Benutzer eine Anforderung an das Projekt sendet, erhält er diesen Zugriff auf die von ihm gesendete Anfrage. Informationen zum Einrichten eines Projekts als Anforderungswarteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -662,8 +658,8 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
       <td><p>Wählen Sie dieses Feld aus, wenn Sie möchten, dass Personen desselben Unternehmens denselben Zugriff auf alle Anforderungen des Projekts haben, unabhängig davon, ob sie sie gesendet haben oder nicht.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Gewähren Sie ihnen Zugriff auf ...</strong></td> 
-      <td><p>Wählen Sie die Zugriffsoptionen aus, die Benutzer für das Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für den Zugriff aus, sofern sie als <strong>Viewer</strong>, <strong>Mitwirkende</strong>oder <strong>Führungskräfte</strong> wenn Sie das Projekt für sie freigeben. </p><p>Die <strong>Löschen</strong> Zugriff auf <strong>Verwalten</strong> Die Berechtigungsebene bestimmt, ob Benutzer das Projekt selbst löschen können. Benutzer mit <strong>Verwalten</strong> Der Zugriff auf das Projekt kann Aufgaben und Probleme innerhalb des Projekts löschen, unabhängig davon, ob diese Option aktiviert ist oder ob <strong>Verwalten</strong> Berechtigungen für die Aufgaben und Probleme. </p></td> 
+      <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Gewähren Sie ihm Zugriff auf ...</strong></td> 
+      <td><p>Wählen Sie die Zugriffsoptionen aus, die Benutzer für das Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für den Zugriff aus, sofern sie als <strong>Viewer</strong>, <strong>Mitarbeiter</strong>oder <strong>Führungskräfte</strong> wenn Sie das Projekt für sie freigeben. </p><p>Die <strong>Löschen</strong> Zugriff auf <strong>Verwalten</strong> Die Berechtigungsebene bestimmt, ob Benutzer das Projekt selbst löschen können. Benutzer mit <strong>Verwalten</strong> Der Zugriff auf das Projekt kann Aufgaben und Probleme innerhalb des Projekts löschen, unabhängig davon, ob diese Option aktiviert ist oder ob <strong>Verwalten</strong> Berechtigungen für die Aufgaben und Probleme. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -729,14 +725,14 @@ Beachten Sie beim Massenbearbeitung von Projekten Folgendes:
 
   >[!IMPORTANT]
   >
-  >Sie können beispielsweise ein Kontrollkästchen mit drei Kontrollkästchen (Option 1, Option 2 und Option 3) und Option 1 ist für alle Projekte deaktiviert und Option 2 und 3 für einige und deaktiviert für andere Projekte, die Sie ausgewählt haben. Wenn Sie Option 1 für alle Projekte aktivieren möchten, müssen Sie auch Option 2 und 3 für alle ausgewählten Projekte zuordnen, bevor Sie Ihre Änderungen speichern können. Sie müssen sie also entweder auswählen oder die Auswahl aufheben, damit sie für alle ausgewählten Projekte übereinstimmen. Wenn Sie keine der Optionen ändern, können Sie das Feld wie besehen speichern und die Projekte behalten ihre aktuelle Auswahl für alle Optionen bei.
+  >Sie können beispielsweise ein Kontrollkästchen mit drei Kontrollkästchen (Option 1, Option 2 und Option 3) und Option 1 ist für alle Projekte deaktiviert und Option 2 und 3 für einige und deaktiviert für andere Projekte, die Sie ausgewählt haben. Wenn Sie Option 1 für alle Projekte aktivieren möchten, müssen Sie auch Option 2 und 3 für alle ausgewählten Projekte zuordnen, bevor Sie Ihre Änderungen speichern können. Sie müssen sie also entweder auswählen oder die Auswahl aufheben, damit sie für alle ausgewählten Projekte übereinstimmen. Wenn Sie keine der Optionen ändern, können Sie das Feld unverändert speichern und die Projekte behalten ihre aktuelle Auswahl für alle Optionen bei.
 
 * Wenn Sie mehrere Projekte auswählen, die zu verschiedenen Gruppen gehören, werden im Feld Status die Status auf Systemebene und nicht der Status auf Gruppenebene angezeigt.
 
-So bearbeiten Sie Projekte stapelweise:
+So bearbeiten Sie mehrere Projekte:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken **Projekte**.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicks **Projekte**.
 1. Wählen Sie mehrere Projekte in der Liste aus.
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
 Die **Projekte bearbeiten** wird geöffnet.
@@ -745,13 +741,13 @@ Die **Projekte bearbeiten** wird geöffnet.
 
 Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layoutvorlage geändert hat, werden die Bereiche im linken Bereich des Felds &quot;Projekt bearbeiten&quot;oder die in diesen Bereichen aufgelisteten Felder möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicken **Übersicht** um allgemeine Informationen zu den ausgewählten Projekten zu bearbeiten.  Weitere Informationen zum Bearbeiten des Übersichtsbereichs finden Sie im Abschnitt [Übersicht](#overview) in diesem Artikel.
+1. Klicks **Übersicht** um allgemeine Informationen zu den ausgewählten Projekten zu bearbeiten.  Weitere Informationen zum Bearbeiten des Übersichtsbereichs finden Sie im Abschnitt [Übersicht](#overview) in diesem Artikel.
 
    >[!TIP]
    >
    >Die von Ihnen bearbeiteten Felder werden mit einem hellvioletten Hintergrund angezeigt.
 
-1. Klicken **Benutzerdefinierte Forms** , um benutzerdefinierte Formulare zu bearbeiten, hinzuzufügen oder zu ersetzen, die mit den ausgewählten Projekten verknüpft sind.
+1. Klicks **Benutzerdefinierte Forms** , um benutzerdefinierte Formulare zu bearbeiten, hinzuzufügen oder zu ersetzen, die mit den ausgewählten Projekten verknüpft sind.
 
    Die benutzerdefinierten Formulare, die an alle ausgewählten Projekte angehängt sind, werden im **Benutzerdefinierte Formulare** im Abschnitt **Benutzerdefinierte Forms** Bereich.
 
@@ -782,15 +778,15 @@ Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layou
 
    Weitere Informationen zum Bearbeiten benutzerdefinierter Formulare finden Sie im Abschnitt . [Benutzerdefinierte Forms](#custom-forms) in diesem Artikel.
 
-1. Klicken **Finanzen** um die Finanzinformationen für alle ausgewählten Projekte zu bearbeiten.
-Weitere Informationen zum Bearbeiten des Finanzbereichs finden Sie im Abschnitt [Finanzen](#finance) in diesem Artikel.
-1. Klicken **Projekteinstellungen** , um die Einstellungen für alle ausgewählten Projekte zu bearbeiten.
+1. Klicks **Finanzen** , um die Finanzinformationen für alle ausgewählten Projekte zu bearbeiten.
+Weitere Informationen zum Bearbeiten des Finanzbereichs finden Sie im Abschnitt . [Finanzen](#finance) in diesem Artikel.
+1. Klicks **Projekteinstellungen** , um die Einstellungen für alle ausgewählten Projekte zu bearbeiten.
 Weitere Informationen zum Bearbeiten des Bereichs Projekteinstellungen finden Sie im Abschnitt . [Projekteinstellungen](#project-settings) in diesem Artikel.
-1. Klicken **Aufgabeneinstellungen** , um die Aufgabeneinstellungen für alle ausgewählten Projekte zu bearbeiten.
+1. Klicks **Aufgabeneinstellungen** , um die Aufgabeneinstellungen für alle ausgewählten Projekte zu bearbeiten.
 Weitere Informationen zum Bearbeiten des Bereichs &quot;Aufgabeneinstellungen&quot;finden Sie im Abschnitt [Aufgabeneinstellungen](#task-settings) in diesem Artikel.
-1. Klicken **Problemeinstellungen** um die Problemeinstellungen für alle ausgewählten Projekte zu bearbeiten.
+1. Klicks **Problemeinstellungen** um die Problemeinstellungen für alle ausgewählten Projekte zu bearbeiten.
 Weitere Informationen zum Bearbeiten des Bereichs Problemeinstellungen finden Sie im Abschnitt . [Problemeinstellungen](#issue-settings) in diesem Artikel.
-1. Klicken **Zugriff** , um die Zugriffseinstellungen für alle ausgewählten Projekte zu bearbeiten.
+1. Klicks **Zugriff** , um die Zugriffseinstellungen für alle ausgewählten Projekte zu bearbeiten.
 Weitere Informationen zum Bearbeiten des Zugriffsbereichs finden Sie im Abschnitt . [Zugriff](#access) in diesem Artikel.
 1. (Optional) Um eine der Informationen zu entfernen, die Sie im Feld &quot;Projekte bearbeiten&quot;hinzugefügt haben, halten Sie den Mauszeiger über ein bearbeitetes Feld und klicken Sie auf **x** das Symbol für die Löschung oben rechts im Feld.
 

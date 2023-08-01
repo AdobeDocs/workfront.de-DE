@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2504'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen zu einem Problem, um es im Bereich "Problemdetails"zu bearbeiten. </p> <p>Berechtigungen für ein Problem verwalten, um es im Feld "Problem bearbeiten"zu bearbeiten</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Beitragen Sie Berechtigungen zu einem Problem, um die folgenden Felder im Bereich Details zu bearbeiten: </p>
+   <ul>
+   <li>Beschreibung</li>
+   <li>Status</li>
+   <li>Schweregrad</li>
+   </ul>
+   <p>Berechtigungen für ein Problem verwalten, um alle Felder im Bereich Details oder im Feld Problem bearbeiten zu bearbeiten</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,9 +70,9 @@ Es gibt einige Einschränkungen, die Sie daran hindern können, Probleme zu bear
 Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails bearbeiten. Die folgenden Schritte beschreiben die Bearbeitung eines Problems im Feld Problem bearbeiten .
 
 1. Navigieren Sie zu **Hauptmenü**.
-1. Klicken **Projekte** und klicken Sie dann auf den Namen eines Projekts, um das Projekt zu öffnen.
+1. Klicks **Projekte** und klicken Sie dann auf den Namen eines Projekts, um das Projekt zu öffnen.
 1. (Optional) Klicken Sie auf **Aufgaben** und klicken Sie dann auf den Namen einer Aufgabe, um die Aufgabe zu öffnen.
-1. Klicken **Probleme** im linken Bereich.
+1. Klicks **Probleme** im linken Bereich.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
@@ -123,22 +129,22 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
    >
    >Je nachdem, wie Ihr Workfront-Administrator unsere Layoutvorlage eingerichtet hat, unterscheiden sich die Felder im Feld &quot;Problem bearbeiten&quot;möglicherweise in Ihrer Umgebung. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
-   >Die meisten in den folgenden Abschnitten aufgelisteten Felder sind auch über das Feld Neues Problem verfügbar, wenn Sie ein Problem erstellen. Die Abschnitte, unter denen sich die Felder befinden, stimmen nicht mit dem Feld &quot;Neues Problem&quot;überein. Informationen zum Erstellen von Problemen finden Sie unter [Erstellen von Problemen](../../issues/manage-issues/create-issues.md).
+   >Die meisten in den folgenden Abschnitten aufgelisteten Felder sind auch über das Feld Neues Problem verfügbar, wenn Sie ein Problem erstellen. Die Abschnitte, unter denen sich die Felder befinden, stimmen nicht mit dem Feld Neues Problem überein. Informationen zum Erstellen von Problemen finden Sie unter [Erstellen von Problemen](../../issues/manage-issues/create-issues.md).
 
 ### Name des Problems {#issue-name}
 
 1. Beginnen Sie mit der Bearbeitung eines Problems wie oben beschrieben.
-1. Klicken **Problemname**.
+1. Klicks **Problemname**.
 
    ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Aktualisieren Sie die **Problemname** -Feld.
-1. Klicken **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
+1. Klicks **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
 ### Übersicht {#overview}
 
 1. Beginnen Sie mit der Bearbeitung eines Problems wie oben beschrieben.
-1. Klicken **Übersicht**.
+1. Klicks **Übersicht**.
 
    ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
@@ -161,7 +167,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
      </tr> 
      <tr> 
       <td role="rowheader">Priorität</td> 
-      <td> <p>Dies ist eine visuelle Markierung für Sie, mit der Sie Probleme priorisieren können.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
+      <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Probleme priorisieren können.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
         <li> <p><strong>Keine</strong> </p> </li> 
         <li> <p><strong>Niedrig</strong> </p> </li> 
@@ -220,7 +226,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
       <td> Standardmäßig beträgt das geplante Abschlussdatum 24 Stunden ab dem standardmäßigen geplanten Startdatum. Standardmäßig haben Probleme eine Dauer von 1 Tag. Sie können die <strong>Geplantes Abschlussdatum</strong> des Problems.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tatsächliches Startdatum und -zeitpunkt</td> 
+      <td role="rowheader">Tatsächliches Startdatum und -zeit</td> 
       <td>Das tatsächliche Startdatum wird automatisch ausgefüllt, wenn Sie den Status des Problems in <strong>In Bearbeitung</strong>. Sie können die <strong>Tatsächliches Startdatum</strong> des Problems. Sie können das Datum bei Bedarf manuell aktualisieren. </td> 
      </tr> 
      <tr> 
@@ -260,16 +266,16 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
 
 
 
-1. Klicken **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
+1. Klicks **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
 #### Arbeitsaufträge {#assignments}
 
 1. Beginnen Sie mit der Bearbeitung des Problems wie oben beschrieben.
-1. Klicken **Zuweisungen** im linken Bereich.
+1. Klicks **Zuweisungen** im linken Bereich.
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Klicken **Suchen nach Personen, Rollen und Teams** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf die Aufgabe oder drücken Sie die Eingabetaste , wenn sie in der Liste angezeigt wird.
+1. Klicks **Suchen nach Personen, Rollen und Teams** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf die Aufgabe oder drücken Sie die Eingabetaste , wenn sie in der Liste angezeigt wird.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -311,12 +317,12 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
     </tbody> 
    </table>
 
-1. Klicken **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
+1. Klicks **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
 ### Benutzerdefinierte Forms
 
 1. Beginnen Sie mit der Bearbeitung eines Problems wie oben beschrieben.
-1. Klicken **Benutzerdefinierte Forms**.
+1. Klicks **Benutzerdefinierte Forms**.
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
@@ -328,12 +334,12 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
    >
    >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Problem selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Informationen zum Festlegen von Berechtigungen für Probleme finden Sie unter [Problem freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
-1. Klicken **Speichern** oder fahren Sie mit der Bearbeitung des folgenden Abschnitts fort.
+1. Klicks **Speichern** oder fahren Sie mit der Bearbeitung des folgenden Abschnitts fort.
 
 ### Einstellungen {#settings}
 
 1. Beginnen Sie mit der Bearbeitung eines Problems wie oben beschrieben.
-1. Klicken **Einstellungen**.
+1. Klicks **Einstellungen**.
 
    ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
 

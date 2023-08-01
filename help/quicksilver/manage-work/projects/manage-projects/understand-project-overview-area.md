@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1446'
 ht-degree: 4%
 
 ---
@@ -41,11 +41,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte oder höher anzeigen</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Projekte anzeigen oder höher </p>
+
+<p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt oder höher anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Projekt anzeigen, um eingeschränkte Informationen zum Projekt anzuzeigen</p> 
+   <p>Zugriff auf das Projekt verwalten, um Informationen zum Projekt zu bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Zugriff auf den Abschnitt Übersicht
 
 1. Wechseln Sie zu dem Projekt, dessen Übersichtsabschnitt Sie anzeigen möchten.
-1. Klicken **Projektdetails** im linken Bereich.
+1. Klicks **Projektdetails** im linken Bereich.
 1. Die **Übersicht** sollte zuerst als Teil der Projektdetails angezeigt werden und sollte standardmäßig erweitert werden
 
    Oder
@@ -71,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Bearbeiten oder überprüfen Sie die Felder in der Tabelle unten, die im **Übersicht** Abschnitt.\
-   Um ein Feld zu bearbeiten, das zur Bearbeitung verfügbar ist, klicken Sie auf das Feld oder klicken Sie auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
+   Um ein beliebiges Feld zu bearbeiten, klicken Sie auf das Feld oder klicken Sie auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
 
    >[!NOTE]
    >
@@ -99,7 +102,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Der Projektstatus. </p> <p>Tipp: Sie können ein Projekt nur dann abschließen, wenn alle Aufgaben und Probleme ebenfalls abgeschlossen sind. Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, können Sie ein Projekt nicht manuell abschließen. </p> </td> 
+      <td> <p>Der Projektstatus. </p> <p>Tipp: Sie können ein Projekt nur abschließen, wenn alle Aufgaben und Probleme ebenfalls abgeschlossen sind. Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, können Sie ein Projekt nicht manuell abschließen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bedingungstyp</td> 
@@ -119,7 +122,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Portfolio</td> 
-      <td>Das mit dem Projekt verknüpfte Portfolio. Sie müssen das Portfolio erstellen, bevor Sie es zu einem Projekt hinzufügen können. </td> 
+      <td>Das dem Projekt zugeordnete Portfolio. Sie müssen das Portfolio erstellen, bevor Sie es zu einem Projekt hinzufügen können. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Programm</td> 
@@ -169,7 +172,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    | Referenznummer | Dies ist ein automatisch generiertes Feld, das immer einen eindeutigen Wert für jedes Projekt hat. |
    | Projizierter Starttermin | Dies ist ein &quot;Echtzeit&quot;-Datum, an dem die Arbeit auf der Grundlage der abgeschlossenen Arbeit und der verbleibenden Arbeit beginnen wird. |
    | Voraussichtliches Abschlussdatum | Dies ist ein Echtzeit-Datum, an dem das Projekt abgeschlossen werden soll, basierend auf dem Fortschritt abgeschlossener Aufgaben und basierend auf Fortschrittsaktualisierungen zu den Aufgaben, die entweder neu oder in Bearbeitung sind. |
-   | Geplante Stunden | Stunden geplant. Diese Stunden entsprechen der Gesamtanzahl der geplanten Stunden für jede Aufgabe. |
+   | Geplante Stunden | Stunden für das Projekt geplant. Diese Stunden entsprechen der Gesamtanzahl der geplanten Stunden für jede Aufgabe. |
    | Tatsächliche Stunden | Stunden, die am Projekt angemeldet sind. Diese Stunden entsprechen der Gesamtanzahl der angemeldeten Stunden am Projekt, den Aufgaben oder den Problemen des Projekts. |
    | Geplante Dauer | Dauer des Projekts basierend auf dem Zeitrahmen zwischen dem frühesten geplanten Startdatum einer Aufgabe und dem neuesten geplanten Abschlussdatum einer Aufgabe für das Projekt. |
    | Tatsächliche Dauer | Die Zeit, die das Projekt tatsächlich benötigt, basierend auf dem Zeitrahmen zwischen dem frühesten tatsächlichen Startdatum einer Aufgabe und dem letzten tatsächlichen Abschlussdatum einer Aufgabe im Projekt. |
@@ -220,4 +223,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Informationen zur Verknüpfung von Projekten mit Initiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

@@ -6,9 +6,9 @@ description: Verwalten von Aufgabeninformationen im Bereich "Aufgabendetails - �
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7e591a8eb801da463f05b574c091f68278974ad7
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2089'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ In diesem Artikel wird beschrieben, wie Sie Informationen im Übersichtsbereich 
 
 * [Verwalten von Aufgabenfinanzen im Abschnitt &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
-* [Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt werden](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+* [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt werden](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Zugriffsanforderungen
 
@@ -52,7 +52,15 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Beitragen oder höhere Berechtigungen für das Projekt</p> <p>Zeigen Sie Berechtigungen für die Aufgabe an, um Informationen im Abschnitt Details anzuzeigen. </p> <p>Verwalten Sie Berechtigungen für die Aufgabe, Informationen im Abschnitt Details zu aktualisieren .</p> </td> 
+   <td> <p>Beitragen oder höhere Berechtigungen für das Projekt</p> <p>Zeigen Sie die Berechtigungen für die Aufgabe an, um Informationen im Abschnitt Details anzuzeigen. </p> 
+   <p>Beitragen Sie Berechtigungen für die Aufgabe, um die folgenden Informationen im Abschnitt Details zu aktualisieren:</p>
+
+<ul>
+   <li>Beschreibung</li>
+   <li>Status</li>
+   </ul>
+
+<p>Verwalten Sie Berechtigungen für die Aufgabe, alle Informationen im Abschnitt "Details"zu aktualisieren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,14 +68,14 @@ Sie müssen über Folgendes verfügen:
 ## Bearbeiten von Aufgabeninformationen im Abschnitt &quot;Aufgabendetails - Überblick&quot;
 
 1. Gehen Sie zu einer Aufgabe, die Sie anzeigen oder bearbeiten möchten.
-1. Klicken **Aufgabendetails** im linken Bereich .
+1. Klicks **Aufgabendetails** im linken Bereich .
 1. Navigieren Sie zu **Übersicht** -Bereich, um weitere Informationen zur Aufgabe anzuzeigen.
 
    Standardmäßig ist &quot;Überblick&quot;der erste Bereich im Abschnitt &quot;Aufgabendetails&quot;und er wird erweitert.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator unsere Layout-Vorlage einrichtet, werden die Felder im Abschnitt &quot;Aufgabendetails&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator unsere Layoutvorlage einrichtet, werden die Felder im Abschnitt &quot;Aufgabendetails&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) in der oberen rechten Ecke des Bereichs Details klicken Sie auf **Übersicht**.
 
@@ -75,7 +83,7 @@ Sie müssen über Folgendes verfügen:
    >
    >Sie können keine Felder bearbeiten, die automatisch von Workfront generiert werden oder für die Sie nicht über die entsprechenden Berechtigungen verfügen.
 
-1. Bearbeiten Sie ein beliebiges Feld, das bearbeitet werden kann, indem Sie mit einem einzigen Klick auf das Feld klicken oder auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
+1. Bearbeiten Sie ein beliebiges Feld, das bearbeitet werden kann, indem Sie entweder auf das Feld klicken oder auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
 1. Zeigen Sie die folgenden Felder an oder bearbeiten Sie sie.
 
    Es können nicht alle Felder bearbeitet werden.  
@@ -102,7 +110,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader">Priorität</td> 
-      <td> <p>Dies ist eine visuelle Markierung für Sie, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
         <li> <p> Keine</p> </li> 
         <li> <p> Niedrig </p> </li> 
@@ -132,7 +140,7 @@ Sie müssen über Folgendes verfügen:
        <div> 
         <div> 
          <p>Dies ist der Zeitraum, in dem Sie einer Aufgabe erlauben, offen zu bleiben, bevor sie abgeschlossen wird. </p> 
-         <p>Wichtig: Da die Aufgabendauer normalerweise die Zeit zwischen dem geplanten Start und dem geplanten Abschlussdatum ist, wirkt sich dies auf die Zeitleiste des Projekts aus.</p> 
+         <p>Wichtig: Da die Aufgabendauer normalerweise die Zeit zwischen dem geplanten Start und den geplanten Abschlussdaten ist, wirkt sich dies auf die Timeline des Projekts aus.</p> 
          <p>Gehen Sie wie folgt vor, um die Dauer der Aufgabe und die Zeiteinheit anzugeben:</p> 
          <ul> 
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Geben Sie die Zeitdauer ein und wählen Sie aus den im Dropdown-Menü verfügbaren Zeiteinheiten aus.</p> </li> </ul>
@@ -160,7 +168,7 @@ Sie müssen über Folgendes verfügen:
            </tr> 
            <tr> 
             <td>Wochen</td> 
-            <td>M</td> 
+            <td>W </td> 
            </tr> 
            <tr> 
             <td>Monate</td> 
@@ -215,9 +223,9 @@ Sie müssen über Folgendes verfügen:
       <td role="rowheader">Work Effort </td> 
       <td> 
        <div> 
-        <p>Der für die Ausführung der Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den für die Erfüllung einer Aufgabe erforderlichen Aufwand abzuschätzen. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
+        <p>Der für die Ausführung der Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den Aufwand abzuschätzen, der zum Abschließen einer Aufgabe erforderlich ist. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
         <ul> 
-         <li> <p>Die Aufgabe hat einen einfachen Dauerhaltungstyp. </p> <p>Tipp: Wenn Sie den Aufgabentyp ändern, wird dieses Feld abgeblendet. </p> </li> 
+         <li> <p>Die Aufgabe hat einen einfachen Dauerhaltungstyp. </p> <p>Tipp: Wenn Sie den Aufgabentyp ändern, wird dieses Feld abgeblendet angezeigt. </p> </li> 
          <li>Ihr Projektmanager hat die Option "Use Work Effort"aktiviert, um die Aufgabe "Geplante Stunden"für das Projekt automatisch zu berechnen. </li> 
         </ul> 
         <p>Wählen Sie aus den folgenden Optionen aus:</p> 
@@ -262,7 +270,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader">Projizierter Starttermin</td> 
-      <td> <p>Das Datum des "tatsächlichen Lebens", an dem die Aufgabe beginnen soll, hängt vom Fortschritt und der Fertigstellung früherer Aufgaben ab. Dies ist ein berechnetes Feld, das nicht manuell bearbeitet werden kann.</p> <p> Das voraussichtliche Startdatum und das geplante Startdatum beginnen mit dem gleichen Zeitpunkt, wenn ein Projekt zum ersten Mal geplant wird. Wenn sich das Projekt weiterentwickelt und die Aufgabe noch nicht gestartet wurde, kann das voraussichtliche Startdatum vom geplanten Starttermin abweichen. Weitere Informationen zu den geplanten Startdaten finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Übersicht über das vorgeschlagene Projektstartdatum</a>. </p> </td> 
+      <td> <p>Das Datum des "tatsächlichen Lebens", an dem die Aufgabe beginnen soll, hängt vom Fortschritt und der Fertigstellung früherer Aufgaben ab. Dies ist ein berechnetes Feld, das nicht manuell bearbeitet werden kann.</p> <p> Das voraussichtliche Startdatum und das geplante Startdatum beginnen mit dem gleichen Zeitpunkt, wenn ein Projekt zum ersten Mal geplant wird. Wenn sich das Projekt weiterentwickelt und die Aufgabe noch nicht gestartet wurde, kann das voraussichtliche Startdatum vom geplanten Starttermin abweichen. Weitere Informationen zu den geplanten Startdaten finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Übersicht über das vorgeschlagene Startdatum des Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tatsächliches Startdatum</td> 
@@ -291,7 +299,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Eingabedatum</td> 
-      <td>Das Datum, an dem die Aufgabe erstellt wurde.</td> 
+      <td>Das Datum der Erstellung der Aufgabe.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Eingegeben von</td> 
@@ -299,7 +307,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Letztes Aktualisierungsdatum</td> 
-      <td> <p>Das Datum, an dem die Aufgabe zuletzt aktualisiert wurde. </p> <p>Tipp: Workfront zeichnet jedes Mal, wenn jemand eine Aufgabe bearbeitet und speichert, ein Aktualisierungsdatum auf.</p> </td> 
+      <td> <p>Das Datum der letzten Aktualisierung der Aufgabe. </p> <p>Tipp: Workfront zeichnet jedes Mal, wenn ein Benutzer eine Aufgabe bearbeitet und speichert, ein Aktualisierungsdatum auf.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zuletzt aktualisiert von</td> 
@@ -352,4 +360,4 @@ Sie müssen über Folgendes verfügen:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p>
    -->
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

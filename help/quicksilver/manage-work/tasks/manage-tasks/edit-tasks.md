@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,8 +53,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
     <ul> 
-     <li> <p>Beitragen Sie Berechtigungen zu einer Aufgabe, um sie im Bereich "Aufgabendetails"zu bearbeiten </p> </li> 
-     <li> <p>Berechtigungen für eine Aufgabe verwalten, um sie im Feld "Aufgabe bearbeiten"zu bearbeiten</p> </li> 
+     <li> <p>Beitragen Sie Berechtigungen zu einer Aufgabe, um die folgenden Informationen im Bereich "Aufgabendetails"zu bearbeiten: </p>
+     <ul>
+     <li>Beschreibung</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Berechtigungen für eine Aufgabe verwalten, um alle Informationen im Bereich Details und im Feld Aufgabe bearbeiten zu bearbeiten</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Beitragen oder höhere Berechtigungen zum Projekt</p> </li> 
@@ -80,7 +85,7 @@ Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
 
 * Sie können die folgenden Informationen zu einer Aufgabe jederzeit bearbeiten, wenn das Projekt als abgeschlossen, ungültig oder in einem Genehmigungsprozess markiert wurde:
 
-   * Protokollzeit
+   * Zeit erfassen
    * Bestehende Ausgaben bearbeiten
    * Benutzerdefiniertes Formular anhängen
 
@@ -98,12 +103,12 @@ Sie können eine Aufgabe in einer Liste über das Bedienfeld &quot;Zusammenfassu
 
 Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetails bearbeiten. Die folgenden Schritte beschreiben die Bearbeitung einer Aufgabe im Feld &quot;Aufgabe bearbeiten&quot;.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Projekte** und klicken Sie auf den Namen eines Projekts, um es zu öffnen.
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Projekte** und klicken Sie dann auf den Namen eines Projekts, um es zu öffnen.
+1. Klicks **Aufgaben** im linken Bereich.
 1. Klicken Sie auf die Aufgabe, die Sie bearbeiten möchten.
-1. (Bedingt) Um beschränkte Informationen über eine Aufgabe zu bearbeiten, klicken Sie als Benutzer mit Beitragsberechtigungen für die Aufgabe auf **Aufgabendetails** im linken Bereich.
+1. (Bedingt) Klicken Sie zum Bearbeiten begrenzter Informationen zu einer Aufgabe auf **Aufgabendetails** im linken Bereich.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -181,18 +186,18 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 ### Aufgabenname {#task-name}
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken **Aufgabenname** im linken Bereich.
+1. Klicks **Aufgabenname** im linken Bereich.
 
    ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Aktualisieren Sie den Namen der Aufgabe.
 
-1. Klicken **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicks **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Übersicht {#overview}
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken **Übersicht** im linken Bereich.
+1. Klicks **Übersicht** im linken Bereich.
 
    ![](assets/nwe-overview-section-edit-task-box-350x257.png)
 
@@ -217,7 +222,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
    </tr> 
      <tr> 
       <td role="rowheader">Priorität</td> 
-      <td> <p>Dies ist eine visuelle Markierung für Sie, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
       <li> <p> Keine</p> </li> 
       <li> <p> Niedrig </p> </li> 
@@ -272,7 +277,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tatsächliches Startdatum und -zeitpunkt</td> 
+      <td role="rowheader">Tatsächliches Startdatum und -zeit</td> 
       <td> <p>Geben Sie ein tatsächliches Startdatum für die Aufgabe an. Der Standardwert wird normalerweise automatisch ausgefüllt, wenn Sie den Status der Aufgabe in "Wird ausgeführt"ändern. Das tatsächliche Startdatum kann auch vom Projektmanager oder Aufgabenbesitzer manuell geändert werden. </p> </td> 
      </tr> 
      <tr> 
@@ -286,7 +291,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       <td role="rowheader">Work Effort </td> 
       <td>
 
-   <p>Der für die Ausführung der Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den für die Erfüllung einer Aufgabe erforderlichen Aufwand abzuschätzen. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
+   <p>Der für die Ausführung der Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den Aufwand abzuschätzen, der zum Abschließen einer Aufgabe erforderlich ist. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
       <ul> 
       <li> <p>Die Aufgabe hat einen einfachen Dauerhaltungstyp. </p> <p><b>TIPP</b>
 
@@ -309,16 +314,16 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
     </tbody> 
    </table>
 
-1. Klicken **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicks **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Arbeitsaufträge {#assignments}
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken **Zuweisungen** im linken Bereich.
+1. Klicks **Zuweisungen** im linken Bereich.
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. Klicken **Suchen nach Personen, Rollen und Teams** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf die Aufgabe oder drücken Sie die Eingabetaste , wenn sie in der Liste angezeigt wird.
+1. Klicks **Suchen nach Personen, Rollen und Teams** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf die Aufgabe oder drücken Sie die Eingabetaste , wenn sie in der Liste angezeigt wird.
 
    >[!NOTE]
    >
@@ -464,18 +469,18 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       </tbody> 
       </table>
 
-1. Klicken **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicks **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Benutzerdefinierte Formulare
 
 Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Informationen zum Einrichten des Projekts, um benutzerdefinierte Standardformulare für Aufgaben für alle neuen Aufgaben einzuschließen, finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Beginnen Sie mit der Bearbeitung der Aufgabe wie oben beschrieben.
-1. Klicken **Benutzerdefinierte Forms** im linken Bereich oder klicken Sie auf den Namen eines benutzerdefinierten Formulars, falls es bereits angehängt ist.
+1. Klicks **Benutzerdefinierte Forms** im linken Bereich oder klicken Sie auf den Namen eines benutzerdefinierten Formulars, falls es bereits angehängt ist.
 
    ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
-1. Klicken **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
+1. Klicks **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
    Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
 
@@ -485,12 +490,12 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
    >
    >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für die Aufgabe selbst haben. Informationen zum Festlegen von Aufgabenberechtigungen finden Sie unter [Aufgabe freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-1. Klicken **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicks **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel.
-1. Klicken **Finanzen** im linken Bereich.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel beschrieben.
+1. Klicks **Finanzen** im linken Bereich.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
 
@@ -528,12 +533,12 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
     </tbody> 
    </table>
 
-1. Klicken **Speichern** oder fahren Sie mit dem folgenden Abschnitt fort.
+1. Klicks **Speichern** oder fahren Sie mit dem folgenden Abschnitt fort.
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel.
-1. Klicken **Einstellungen** im linken Bereich.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel beschrieben.
+1. Klicks **Einstellungen** im linken Bereich.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
 
@@ -579,7 +584,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
    <li> <p>Sie können Standardgenehmigungsverfahren definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Weitere Informationen zum Einrichten des Projekts, um standardmäßige Aufgabengenehmigungsprozesse einzuschließen, finden Sie im Abschnitt "Aufgaben"im Artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>. </p> </li>
 
-   <li> <p>Bei der Massenbearbeitung gibt es die folgenden Szenarien: </p> 
+   <li> <p>Bei der Massenbearbeitung von Aufgaben gibt es die folgenden Szenarien: </p> 
       <ul> 
       <li> <p>Wenn Sie mehrere Aufgaben aus derselben Gruppe auswählen, werden in diesem Feld sowohl Validierungsprozesse auf Systemebene als auch auf Gruppenebene angezeigt. </p> </li> 
       <li> <p>Wenn Sie mehrere Aufgaben aus verschiedenen Gruppen auswählen, werden in diesem Feld nur Validierungsprozesse auf Systemebene angezeigt. </p> </li> 
