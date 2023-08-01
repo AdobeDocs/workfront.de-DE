@@ -7,9 +7,9 @@ description: Mit dem Adobe Workfront Fusion DevTool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,13 @@ ht-degree: 0%
 
 Die [!DNL Adobe Workfront Fusion] Mit DevTool können Sie Szenarien verstehen und Fehler beheben. Das DevTool fügt dem [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
 
+>[!NOTE]
+>
+>Das Workfront Fusion DevTool ist nicht für Organisationen verfügbar, die über die Adobe Unified Shell auf Fusion zugreifen.
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,19 +39,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,18 +77,18 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
    Once unpacked, the DevTool appears among your other Chrome extensions.
    -->
 
-Sie können die [!DNL Workfront Fusion] DevTool zu [!DNL Chrome] durch [!UICONTROL [!DNL Chrome] Webstore].
+Sie können die [!DNL Workfront Fusion] DevTool zu [!DNL Chrome] durch die [!UICONTROL [!DNL Chrome] Webstore].
 
-1. Klicken [dieser Link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) , um [!DNL Workfront Fusion] DevTool im [!UICONTROL [!DNL Chrome] Webstore].
-1. Klicken **[!UICONTROL Hinzufügen zu[!DNL Chrome]]**.
-1. Überprüfen Sie im sich öffnenden Fenster die Berechtigungen. Wenn Sie mit den Berechtigungen einverstanden sind, klicken Sie auf **[!UICONTROL Erweiterung hinzufügen]**.
+1. Klicks [dieser Link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) , um zu [!DNL Workfront Fusion] DevTool im [!UICONTROL [!DNL Chrome] Webstore].
+1. Klicks **[!UICONTROL Hinzufügen zu[!DNL Chrome]]**.
+1. Überprüfen Sie im sich öffnenden Fenster die Berechtigungen. Wenn Sie den Berechtigungen zustimmen, klicken Sie auf **[!UICONTROL Erweiterung hinzufügen]**.
 
 Die [!DNL Workfront Fusion] Die DevTool-Erweiterung wird zu Ihrem [!DNL Chrome] Erweiterungen.
 
 
 ## Suchen Sie die [!DNL Workfront Fusion] DevTool
 
-So verwenden Sie die [!DNL Workfront Fusion] DevTool müssen Sie die [!DNL Workfront Fusion] DevTool-Erweiterung für Ihre [!DNL Chrome] Browser, wie unter [Installieren der Chrome DevTool-Erweiterung](#install-the-chrome-devtool-extension).
+So verwenden Sie die [!DNL Workfront Fusion] DevTool müssen Sie die [!DNL Workfront Fusion] DevTool-Erweiterung für Ihre [!DNL Chrome] Browser, wie beschrieben in [Installieren der Chrome DevTool-Erweiterung](#install-the-chrome-devtool-extension).
 
 1. Öffnen Sie Ihre [!DNL Workfront Fusion] Szenario.
 1. Öffnen [!DNL Chrome Developer Tools]:
@@ -161,8 +165,8 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
       <td role="rowheader"> <p>Rufen Sie die Anforderung im JSON-Rohformat oder in der cURL ab</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Rohe JSON</strong> </p> <p>Klicken <strong>[!UICONTROL RAW kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klicken <strong>[!UICONTROL cURL kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
+        <li> <p><strong>Rohe JSON</strong> </p> <p>Klicks <strong>[!UICONTROL RAW kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klicks <strong>[!UICONTROL cURL kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -182,9 +186,9 @@ Der Szenario-Debugger ist für komplexere Szenarien nützlich. Er zeigt den Verl
 Die [!DNL Workfront Fusion] DevTool bietet Tools, die die Einrichtung Ihres Szenarios erleichtern.
 
 1. Klicken Sie auf **[!UICONTROL Instrumente]** icon ![](assets/console-tools-icon.png) , um die Tools zu öffnen.
-1. Wählen Sie das Tool aus, das Sie verwenden möchten
+1. Wählen Sie das gewünschte Tool aus
 1. Konfigurieren Sie die Felder wie unten beschrieben.
-1. Klicken **[!UICONTROL Ausführen]**.
+1. Klicks **[!UICONTROL Ausführen]**.
 
 Tools und ihre Felder:
 
