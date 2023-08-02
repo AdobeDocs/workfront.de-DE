@@ -2,12 +2,12 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Fehlerbehebung bei der Adobe Experience Manager-Integration
-description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials - EDIT ME.
+description: "Problem: Assets werden nicht in Adobe Experience Manager gespeichert"
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: e4bf79b8c5d53870aec6d415510acccb53a5c7f6
+source-git-commit: a73ebfe8c735eb9e103b01a201a8f71d6ab7bda2
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
