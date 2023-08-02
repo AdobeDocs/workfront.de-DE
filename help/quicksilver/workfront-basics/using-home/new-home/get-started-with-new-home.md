@@ -5,10 +5,10 @@ title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 0%
+source-wordcount: '1032'
+ht-degree: 21%
 
 ---
 
@@ -26,13 +26,13 @@ Die neue Startseite ist sehr anpassbar, sodass Sie die Widgets auswählen könne
 Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widgets hinzufügen, können Sie auswählen, welcher Informationstyp angezeigt wird, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets sind nur für bestimmte Lizenztypen verfügbar, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
 * **Meine Arbeit**\
-    Dieses Widget ist ein idealer Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und Anforderungen. Es zeigt alle von Ihnen zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an.
+    Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und zeigt alle zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an.
 
 * **Meine Projekte**\
-    Zeigt Projekte an, die Ihnen in einer Tabelle zugewiesen sind, die so sortiert werden kann, dass nur Projekte angezeigt werden, deren Inhaber Sie sind, sowie alle Projekte, in denen Sie sich befinden; Standardfilter-, Anzeigen- und Gruppierungsoptionen; und eine Schaltfläche zum direkten Erstellen eines neuen Projekts.
+    Zeigt die Ihnen zugewiesenen Projekte in einer Tabelle an. Diese kann so sortiert werden, dass nur die Projekte angezeigt werden, die Sie besitzen, oder alle Projekte, an denen Sie beteiligt sind. Die Tabelle verfügt außerdem über Standardfilter-, Ansichts- und Gruppierungsoptionen sowie eine Schaltfläche zum direkten Erstellen eines neuen Projekts.
 
 * **Meine Aufgaben**\
-    Zeigt Aufgaben an, die Ihnen in einer Tabelle mit anpassbaren Filtern, Ansichten und Gruppierungen zugewiesen sind, sowie eine Schaltfläche zum direkten Erstellen einer neuen Aufgabe.
+    Zeigt die Ihnen zugewiesenen Aufgaben in einer Tabelle mit anpassbaren Filtern, Ansichten und Gruppierungen an, sowie eine Schaltfläche zum direkten Erstellen einer neuen Aufgabe.
 
 * **Meine Probleme**\
     Zeigt Probleme an, die Ihnen in einer Tabelle mit anpassbaren Filtern, Ansichten und Gruppierungen zugewiesen sind, sowie eine Schaltfläche zum direkten Erstellen eines neuen Problems.
@@ -41,19 +41,30 @@ Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widg
     Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, die den Zusammenfassungsbereich für eine Anforderung öffnet.
 
 * **Team-Anforderungen**\
-    Zeigt alle ausstehenden Anforderungen für Teams an, die Sie nach Team sortiert haben, sowie Schaltflächen zum direkten Zuweisen einer Anforderung an einen Benutzer oder zum Arbeiten daran.
+    Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
 * **Warten auf Genehmigung**\
-    Zeigt alle ausstehenden zugewiesenen oder zugewiesenen Genehmigungen, eine Schaltfläche zum Delegieren von Genehmigungen und Schaltflächen zum Treffen von Genehmigungsentscheidungen direkt im Widget an.
+    Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
 * **Alle Genehmigungen**\
-    Zeigt alle Genehmigungen für Ihr Unternehmen in einer Tabelle mit anpassbaren Spalten sowie einer Suchleiste an, über die Sie nach bestimmten Genehmigungen suchen können.
+    Zeigt alle Genehmigungen für Ihr Unternehmen in einer Tabelle mit anpassbaren Spalten an, sowie einer Suchleiste an, über die Sie nach bestimmten Genehmigungen suchen können.
 
 * **Erwähnungen**\
-    Zeigt aktuelle Kommentar-Threads an, die @-Erwähnungen von Ihnen in Workfront enthalten, sowie eine Antwortschaltfläche, mit der Sie eine Antwort im Widget erstellen können.
+    Zeigt die letzten Kommentar-Threads aus Workfront an, die @-Erwähnungen von Ihnen enthalten sowie eine Antwort-Schaltfläche, mit der Sie eine Antwort innerhalb des Widgets verfassen können.
 
 * **To-dos**\
     Mit diesem einzigartigen Widget können Sie Textelemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können.
+
+Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische Widgets angezeigt. In der folgenden Tabelle wird beschrieben, welche Widgets die Benutzer der einzelnen Lizenztypen sehen, wenn sie zum ersten Mal zu &quot;New Home&quot;navigieren.
+
+| **Alter Lizenztyp** | **Standard-Widgets** | **Aktueller Lizenztyp** | **Standard-Widgets** |
+|---|---|---|---|
+| Plan | Meine Projekte, Erwähnungen, Aufgaben | Standard | Meine Projekte, meine Arbeit, Erwähnungen, Aufgaben |
+| Arbeit | Meine Arbeit, Erwähnungen, Aufgaben | Leicht | Meine Arbeit, die auf meine Genehmigung wartet, Aufgaben |
+| Überarbeitung | Meine Arbeit, Erwähnungen, Aufgaben | Mitwirkender oder Mitwirkende | Meine Arbeit, Erwähnungen, Aufgaben |
+| Begrenzt | Meine Projekte, die auf meine Genehmigung warten, Aufgaben | Extern | Warten auf meine Genehmigung, Aufgaben |
+| Mitwirkender oder Mitwirkende | Meine Arbeit, Erwähnungen, Aufgaben |  |  |
+| Extern | Warten auf meine Genehmigung, Aufgaben |  |  |
 
 Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
