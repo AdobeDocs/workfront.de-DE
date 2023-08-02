@@ -7,9 +7,9 @@ description: In diesen Videos erfahren Sie, welche Pinnwände in Adobe Workfront
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Eine einfache oder einfache Pinnwand ermöglicht es Ihnen, schnell mit Pinnwänd
 Eine Kanban-Pinnwand kann einen Rückstand oder eine Aufnahmespalte enthalten, der mit Filtern konfiguriert ist, um Aufgaben und Probleme von Workfront auf die Pinnwand zu übertragen.
 
 [Sehen Sie sich eine Videodemonstration eines Kanban-Pinners an.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Dynamische Pinnwand
+
+Mit einer dynamischen Pinnwand können Sie basierend auf einem Workfront-Projekt automatisch eine Pinnwand mit Karten füllen. Mithilfe von Filtern werden den Spalten basierend auf ihrem Status Karten hinzugefügt.
+
+[Zeigen Sie eine Videodemonstration einer dynamischen Pinnwand an.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Mobilgerät
 
