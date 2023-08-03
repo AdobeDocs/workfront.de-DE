@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,19 @@ Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer 
 
 Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar.
 
-Die Aufnahmespalte ist nicht auf Pinnwänden verfügbar, die Teil eines Workflows sind. Stattdessen können Sie eine Rückstandsspalte einrichten, um Karten aus der Kartenliste abzurufen. Weitere Informationen zum Hinzufügen einer Spalte mit dem Rückstand zu einer Pinnwand in einem Workstream finden Sie unter [Konfigurieren des Rückstands auf einer Workstream-Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
+Die Aufnahmespalte ist nicht auf Pinnwänden verfügbar, die Teil eines Workflows sind. Stattdessen können Sie eine Rückstandsspalte einrichten, um Karten aus der Kartenliste abzurufen. Weitere Informationen zum Hinzufügen einer Spalte mit dem Rückstand zu einer Pinnwand in einem Workstream finden Sie unter [Konfigurieren des Rückstands auf einer Arbeitsfläche](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-Die Spalte Aufnahme ist auf 300 Aufgaben und 300 Probleme beschränkt. Sie werden nach der in den Elementen definierten Priorität sortiert. Informationen zur Priorität finden Sie unter [Aufgabenpriorität aktualisieren](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) und [Priorität von Problemen aktualisieren](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+Die Ansauspalte ist auf 300 Aufgaben und 300 Probleme beschränkt. Die Standardreihenfolge der Elemente in der Ansaugluft-Spalte lautet wie folgt:
+
+Aufgaben:
+
+* Primäre Reihenfolge: Projektname
+* Sekundäre Reihenfolge: Struktur der Arbeitsaufschlüsselung
+
+Probleme:
+
+* Primäre Reihenfolge: Projektname
+* Sekundäre Reihenfolge: Referenznummer
 
 Weitere Informationen zu Spalten finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Informationen zu verbundenen Karten finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -54,8 +64,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Ansauspalte mit einfachen Filtern erstellen
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern **[!UICONTROL Board]**.
 1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
 
@@ -71,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn diese Option nicht ausgewählt ist und Karten in anderen Status als vollständig markiert sind, werden sie auf der Pinnwand &quot;abfallen&quot;und nicht mehr angezeigt.
 
-1. Klicken [!UICONTROL **Anwenden**].
+1. Klicks [!UICONTROL **Anwenden**].
 
    Alle Objekte werden in der Spalte für die Aufnahme der Pinnwand als verbundene Karten angezeigt.
 
@@ -80,15 +90,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erstellen einer Annahmespalte mit erweiterten Filtern
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern **[!UICONTROL Board]**.
 1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
 
    Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
 
-1. Klicken [!UICONTROL **Erweiterte Filter verwenden**].
-1. Klicken **[!UICONTROL Hinzufügen von Filterquellen]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+1. Klicks [!UICONTROL **Erweiterte Filter verwenden**].
+1. Klicks **[!UICONTROL Hinzufügen von Filterquellen]** und wählen **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
 
    ![Erweiterte Filteroptionen für Spalten aufnehmen](assets/intake-column-advanced-filters1.png)
 
@@ -146,4 +156,4 @@ Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich d
 
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Klicken Sie anschließend auf die **[!UICONTROL Element verschieben]** auswählen, eine andere Spalte auswählen und **[!UICONTROL Verschieben]**.
 
-1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf die **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Löschen]**.
+1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf die **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) und wählen **[!UICONTROL Löschen]**.

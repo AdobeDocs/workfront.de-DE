@@ -7,9 +7,9 @@ description: Lesen Sie diesen Artikel , um mehr über die [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   <tr>
    <td>Verwenden von Kommentaren zu Ad-hoc- und verbundenen Karten</td>
    <td>Veröffentlicht</td>
+  </tr>
+  <tr>
+   <td>Dokumente auf verbundenen Karten anzeigen</td>
+   <td>Teilweise veröffentlicht</td>
   </tr>
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 0%
 ## Hervorgehobene Vorschau für vollständigen Artikel {#highlighted-preview-article-level}
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+
+## Vorschau und schnelle Veröffentlichung Q4 2023 {#preview-and-fast-release}
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## Wichtiger Hinweis für Navigationsfunktionen, die nicht für AEC/Shell gelten {#important-not-on-aec}
 
@@ -80,7 +88,7 @@ Sie können Benutzern erlauben, mit Experience Manager verknüpfte Ordner zu ers
 
 Geben Sie in den folgenden Schritten an, wo die verknüpften Ordner erstellt werden sollen. Jede Integration kann nur einen Speicherort für alle verknüpften Ordner haben.
 
-So richten Sie verknüpfte Ordner ein:
+Einrichten verknüpfter Ordner:
 
 1. Umschalten **Aktivierter verknüpfter Ordner** auf.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner live sein sollen.
@@ -145,7 +153,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
          </td>
       </tr>
       <tr>
-         <td>Phasen deaktivieren
+         <td>Deaktivieren von Phasen
          </td>
          <td>
       <ol>
@@ -234,7 +242,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit dem Testversand - {#step1-to-proofing}
 
-1. Klicken Sie in Workfront auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png)oder (falls verfügbar) auf **[!UICONTROL Hauptmenü]** Symbol oben links ![Hauptmenü](assets/main-menu-icon-left-nav.png)Klicken Sie auf **[!UICONTROL Testversand]** , um auf Workfront Testversand zuzugreifen.
+1. Klicken Sie in Workfront auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png)oder (falls verfügbar) auf **[!UICONTROL Hauptmenü]** Symbol oben links ![Hauptmenü](assets/main-menu-icon-left-nav.png)Klicken Sie auf **[!UICONTROL Testing]** , um auf Workfront Testversand zuzugreifen.
 
 ## Neueste DPV-Version {#latest-version}
 
@@ -268,7 +276,7 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
 
 1. Klicken Sie auf **[!UICONTROL Switch Team]** und wählen Sie entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Suchen Sie die **[!UICONTROL Schaltfläche &quot;Fertig&quot;]** -Abschnitt unten im **[!UICONTROL Team-Einstellungen]** Seite.
+1. Suchen Sie die **[!UICONTROL Schaltfläche Fertig]** -Abschnitt am unteren Rand des **[!UICONTROL Team-Einstellungen]** Seite.
 
 1. Wählen Sie für jeden Arbeitselementtyp einen oder mehrere Status aus.
 
@@ -294,7 +302,7 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den für Ihr Team ausgewählten verschiedenen Status die Option &quot;Fertig mit meinem Teil&quot;angezeigt.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Klicks **[!UICONTROL Änderungen speichern]**.
 
 ## Benutzer einem Startseiten-Team zuordnen {#associate-users-with-home-team}
 
@@ -304,13 +312,13 @@ So verknüpfen Sie Benutzer mit einem Home-Team:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
-1. Klicken **[!UICONTROL Benutzer]** und wählen Sie dann den oder die Benutzer aus, die Sie mit einem Home Team verbinden möchten.
+1. Klicks **[!UICONTROL Benutzer]** und wählen Sie dann den oder die Benutzer aus, die Sie mit einem Startseiten-Team verbinden möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Im **[!UICONTROL Einrichtung]** auswählen, wählen Sie die **[!UICONTROL Startseite]** -Feld. Beginnen Sie mit der Eingabe des Namens des Teams, dessen Einstellungen Sie mit den Benutzern verknüpfen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
+1. Im **[!UICONTROL Einrichtung]** auswählen, wählen Sie die **[!UICONTROL Startseite]** -Feld. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie den Benutzern zuweisen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Klicks **[!UICONTROL Änderungen speichern]**.
 Die von Ihnen ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
 Alle Teameinstellungen, einschließlich der mit der Schaltfläche Fertig verknüpften Status, sind nun für diese Benutzer sichtbar.
 

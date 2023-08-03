@@ -6,14 +6,16 @@ description: Erforderliche Pläne, Lizenztypen und Zugriffe auf das Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
 
 # Projekt in der Agile-Ansicht verwalten
+
+{{preview-and-fast-release}}
 
 <!--
 Required plans, license types, and access
@@ -90,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Die folgende agile Funktion ist verfügbar, wenn ein Projekt in einer agilen Ansicht verwaltet wird:
 
 * Fertigstellungsstatus\
-  Weitere Informationen zum Fertigstellungsstatus finden Sie unter [Übersicht über den Iterationsabschluss](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Weitere Informationen zum Fertigstellungsstatus finden Sie unter [Übersicht über den Iteration-Abschlussstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Story Board\
   Weitere Informationen zum Storyboard finden Sie im Abschnitt [Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) Abschnitt.
@@ -108,12 +110,12 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 
 #### Aufgaben und Unteraufgaben folgen unterschiedlichen Anzeigeregeln auf dem Meldungsboard {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Aufgaben, die weder über eine übergeordnete Aufgabe noch über eine Unteraufgabe verfügen, werden immer als eine einzige Storykarte auf dem Storyboard angezeigt.\
+* Aufgaben, die weder eine übergeordnete Aufgabe noch eine Unteraufgabe haben, werden immer als eine einzige Storykarte auf dem Storyboard angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
 
   ![Agile Projektliste - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-single-list-nwe.png) Diese Aufgaben werden in der agilen Projektansicht wie folgt angezeigt:
 
-  ![Projektansicht - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
+  ![Projektansicht in der Mobile-Ansicht - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
 
 * Übergeordnete Aufgaben mit Unteraufgaben werden immer im **Meldungen** Spalte des Storyboards. Unteraufgaben werden in der Swimlane der übergeordneten Aufgabe angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
@@ -141,7 +143,7 @@ Sie können Aufgaben im Projekt nicht neu anordnen, wenn Sie das Projekt in eine
 
 #### Aufgaben werden nur in geplanten Stunden gemessen {#tasks-are-measured-only-in-planned-hours}
 
-Aufgaben an einem Projekt werden immer in geplanten Stunden gemessen.
+Aufgaben an einem Projekt werden immer in &quot;Geplante Stunden&quot;gemessen.
 
 Bei einer Iteration können Aufgaben (Geschichten) in Stunden oder Punkten gemessen werden.
 
@@ -161,7 +163,7 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
-1. Wechseln Sie zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten.
+1. Wechseln Sie in der Aufgabenliste zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten <span class="preview">oder der Problemliste</span>.
 1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
 
    Die Pinnwandansicht des Projekts wird standardmäßig angezeigt.
@@ -182,19 +184,19 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
    Die benutzerdefinierte Ansicht &quot;agile&quot;wird verwendet, wenn Sie das nächste Mal auf die **Agile** Symbol.
 
-   Informationen zum Erstellen einer neuen agilen Ansicht finden Sie unter [Erstellen und Anpassen von Agile-Ansichten](#create-and-customize-agile-views).
+   Informationen zum Erstellen einer neuen agilen Ansicht finden Sie unter [Agile Ansichten erstellen und anpassen](#create-and-customize-agile-views).
 
    Das Projekt wird in der benutzerdefinierten agile Ansicht angezeigt.
 
-1. (Nur Bedingt - Alte agile Ansicht) Wenn Aufgaben in Ihrem Projekt andere Status als &quot;Neu&quot;, &quot;Gestartet&quot;oder &quot;Abgeschlossen&quot;(Standardstatus für die Agile-Ansicht) verwenden, müssen Sie die zusätzlichen Status zur agilen Ansicht hinzufügen, damit alle Aufgaben in diesen Status angezeigt werden.
+1. (Bedingt - Nur ältere agile Ansicht) Wenn Aufgaben in Ihrem Projekt andere Status als &quot;Neu&quot;, &quot;In Bearbeitung&quot;oder &quot;Abgeschlossen&quot;(Standardstatus für die Agile-Ansicht) verwenden, müssen Sie der agilen Ansicht die zusätzlichen Status hinzufügen, damit alle Aufgaben in diesen Status angezeigt werden.
 
    Wenn Aufgaben sich in einem Status befinden, der nicht auf der agilen Story-Pinnwand angezeigt wird, wird die Aufgabe selbst nicht auf der agilen Story-Pinnwand angezeigt (der prozentuale Abschluss dieser Aufgaben trägt jedoch weiterhin zum Percent Complete der übergeordneten Aufgaben und zum Percent Complete des übergeordneten Projekts bei).
 
    Um der agilen Ansicht Status hinzuzufügen, erstellen Sie entweder eine neue agile Ansicht oder passen Sie eine vorhandene agile Ansicht an, wie im Abschnitt &quot;Erstellen oder Anpassen einer Agile-Ansicht&quot;im Artikel beschrieben. [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf die **Liste** Symbol.
+1. (Optional) Klicken Sie auf die Schaltfläche **Liste** Symbol.
 
-## Erstellen und Anpassen von Agile-Ansichten {#create-and-customize-agile-views}
+## Agile Ansichten erstellen und anpassen {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
