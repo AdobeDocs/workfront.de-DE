@@ -6,7 +6,7 @@ description: Erforderliche Pläne, Lizenztypen und Zugriffe auf das Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
-1. Wechseln Sie in der Aufgabenliste zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten <span class="preview">oder der Problemliste</span>.
+1. <span class="preview">Wechseln Sie zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten, entweder in der Aufgabenliste oder in der Problemliste.</span>
 1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
 
    Die Pinnwandansicht des Projekts wird standardmäßig angezeigt.
