@@ -5,10 +5,10 @@ title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widg
 * **To-dos**\
     Mit diesem einzigartigen Widget können Sie Textelemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können.
 
-Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische Widgets angezeigt. In der folgenden Tabelle wird beschrieben, welche Widgets die Benutzer der einzelnen Lizenztypen sehen, wenn sie zum ersten Mal zu &quot;New Home&quot;navigieren.
+  >[!NOTE]
+  >
+  >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können.
 
-| **Alter Lizenztyp** | **Standard-Widgets** | **Aktueller Lizenztyp** | **Standard-Widgets** |
-|---|---|---|---|
-| Plan | Meine Projekte, Erwähnungen, Aufgaben | Standard | Meine Projekte, meine Arbeit, Erwähnungen, Aufgaben |
-| Arbeit | Meine Arbeit, Erwähnungen, Aufgaben | Leicht | Meine Arbeit, die auf meine Genehmigung wartet, Aufgaben |
-| Überarbeitung | Meine Arbeit, Erwähnungen, Aufgaben | Mitwirkender oder Mitwirkende | Meine Arbeit, Erwähnungen, Aufgaben |
-| Begrenzt | Meine Projekte, die auf meine Genehmigung warten, Aufgaben | Extern | Warten auf meine Genehmigung, Aufgaben |
-| Mitwirkender oder Mitwirkende | Meine Arbeit, Erwähnungen, Aufgaben |  |  |
-| Extern | Warten auf meine Genehmigung, Aufgaben |  |  |
+Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische Widgets angezeigt. In den folgenden Tabellen wird beschrieben, welche Widgets die Benutzer der einzelnen Lizenztypen sehen, wenn sie zum ersten Mal zur neuen Startseite navigieren.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Aktueller Lizenztyp</b></td>
+        <td><b>Standard-Widgets</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>Meine Projekte, meine Arbeit, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Leicht</td>
+        <td>Meine Arbeit, die auf meine Genehmigung wartet, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Mitwirkender oder Mitwirkende</td>
+        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Warten auf meine Genehmigung, Aufgaben</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Alter Lizenztyp</b></td>
+        <td><b>Standard-Widgets</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Meine Projekte, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Arbeit</td>
+        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Überarbeitung</td>
+        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Begrenzt</td>
+        <td>Meine Projekte, die auf meine Genehmigung warten, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Mitwirkender oder Mitwirkende</td>
+        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Warten auf meine Genehmigung, Aufgaben</td>
+    </tr>
+</table>
 
 Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
