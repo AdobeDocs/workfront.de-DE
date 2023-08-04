@@ -8,9 +8,9 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,19 +32,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -86,7 +86,7 @@ Standardmäßig kann ein Organisationsinhaber (oder autorisierter Benutzer) eine
 
 So laden Sie einen Benutzer zum Beitritt zu einer Organisation ein:
 
-1. Klicken **[!UICONTROL Details ändern]** in der oberen rechten Ecke des Bildschirms.
+1. Klicks **[!UICONTROL Details ändern]** in der oberen rechten Ecke des Bildschirms.
 1. Auswählen **[!UICONTROL Neuen Benutzer einladen]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
@@ -110,7 +110,7 @@ Die Einladung läuft in einem Tag ab.
 
 ### Zwischen Organisationen wechseln
 
-Sie können Teil von mehr als einer Organisation in Fusion sein. Ressourcen werden nicht zwischen Organisationen freigegeben.
+Sie können Teil mehrerer Organisationen in Fusion sein. Ressourcen werden nicht zwischen Organisationen freigegeben.
 
 Sie können Unternehmen innerhalb der Adobe Unified Experience wechseln, indem Sie auf den Organisationsnamen oben rechts klicken und die neue Organisation aus der Dropdown-Liste auswählen. Nur Organisationen mit einem Fusion-Konto werden in der Dropdown-Liste angezeigt, auch wenn Sie Mitglied anderer Organisationen in der Adobe sind.
 
@@ -141,11 +141,13 @@ Benutzer können ihr Team aus der Dropdown-Liste im linken Navigationsbereich au
 
 Ein Benutzer hat in jedem seiner Teams eine der folgenden Rollen:
 
-* **[!UICONTROL Team Admin]**: Zusätzlich zu den Funktionen der anderen Teamrollen ermöglicht es die Admin-Rolle dem Benutzer, die Rolle eines Teammitglieds hinzuzufügen, zu entfernen oder zu ändern.
-* **[!UICONTROL Team Member]**: Mit der Teammitgliederrolle können Benutzer Szenarien erstellen und ausführen.
+* **[!UICONTROL Team Admin]**: Zusätzlich zu den Funktionen der anderen Teamrollen ermöglicht die Administratorrolle dem Benutzer das Hinzufügen, Entfernen und Ändern der Rolle eines Teammitglieds.
+* **[!UICONTROL Team Member]**: Mit der Team-Mitgliederrolle können Benutzer Szenarien erstellen und ausführen.
 * **[!UICONTROL Team-Überwachung]**: Die [!UICONTROL Monitoring] -Rolle ermöglicht Benutzern den Zugriff auf Ausführungsinformationen für Szenarien, sie können jedoch keine Szenarien entwerfen oder ihren Status &quot;Aktiv&quot;ändern.
 * **[!UICONTROL Team-Operator]**: Die [!UICONTROL operator] -Rolle ermöglicht es Benutzern, Ausführungsdaten anzuzeigen und den Status &quot;Aktiv&quot;von Szenarien zu ändern.
 * **[!UICONTROL Team Eingeschränktes Mitglied]**: Die Funktionalität für diese Rolle ist derzeit nicht verfügbar und wird demnächst bereitgestellt. Es wird empfohlen, dieser Rolle derzeit keine Benutzer zuzuweisen.
+
+Informationen zu bestimmten Aufgaben, die für Teamrollen verfügbar sind, finden Sie unter[Organisations- und Teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Team-Management
 
@@ -160,7 +162,7 @@ So erstellen Sie ein Team:
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Einrichtung]**
 1. Wählen Sie die **[!UICONTROL Team]** Registerkarte.
-1. Klicken **[!UICONTROL Neues Team hinzufügen]** unter der Liste der Teams.
+1. Klicks **[!UICONTROL Neues Team hinzufügen]** unter der Liste der Teams.
 1. Geben Sie einen Namen für das neue Team ein und klicken Sie auf **Hinzufügen**.
 
 #### Festlegen von Team-Benachrichtigungsoptionen
@@ -195,11 +197,11 @@ Die Optionen für E-Mail-Benachrichtigungen werden auf Teamebene festgelegt.
 
 #### Zwischen Teams wechseln
 
-Sie können Teil von mehr als einem Team in Fusion sein. Da Teams keine Ressourcen gemeinsam nutzen, müssen Sie möglicherweise Teams wechseln, um auf bestimmte Szenarien oder andere Ressourcen zuzugreifen.
+Sie können Teil mehrerer Teams in Fusion sein. Da Teams keine Ressourcen gemeinsam nutzen, müssen Sie möglicherweise die Teams wechseln, um auf bestimmte Szenarien oder andere Ressourcen zuzugreifen.
 
 Wenn Ihr Unternehmen nicht Teil der Adobe Unified Experience ist, können Sie zwischen Teams wechseln, indem Sie im linken Navigationsbereich auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen.
 
-Wenn Ihr Team die Adobe Einheitliches Erlebnis verwendet, können Sie ein neues Team auswählen, indem Sie in der Kopfzeile auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen. Diese Option ist auf allen Seiten verfügbar, die für ein bestimmtes Team spezifisch sind, z. B. auf einer Szenario-Seite oder auf der Seite Verbindungen .
+Wenn Ihr Team das einheitliche Erlebnis der Adobe erhält, können Sie ein neues Team auswählen, indem Sie in der Kopfzeile auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen. Diese Option ist auf allen Seiten verfügbar, die für ein bestimmtes Team spezifisch sind, z. B. auf einer Szenario-Seite oder auf der Seite Verbindungen .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>
