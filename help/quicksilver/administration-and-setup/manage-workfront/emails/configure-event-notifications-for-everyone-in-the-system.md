@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren
+
+<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -22,7 +24,7 @@ Ereignisbenachrichtigungen Trigger senden E-Mails an Benutzer, wenn ein bestimmt
 
 Je nach dem von Ihnen aktivierten Ereignis und der Benutzer bleibt in seinem Profil aktiviert, erhalten Benutzer sofortige, tägliche oder sowohl sofortige als auch tägliche E-Mail-Benachrichtigungen, wenn ein Ereignis eintritt.
 
-Sie müssen zunächst angeben, welche Benachrichtigungen alle Benutzer im Setup-Bereich Ihrer Workfront-Instanz erhalten sollen. Nachdem Sie eine Benachrichtigung im Bereich Einrichtung aktiviert haben, wird sie für jeden Benutzer auf seiner Profilseite aktiviert.
+Sie müssen zunächst angeben, welche Benachrichtigungen alle Ihre Benutzer im Setup-Bereich Ihrer Workfront-Instanz erhalten sollen. Nachdem Sie eine Benachrichtigung im Bereich Einrichtung aktiviert haben, wird sie für jeden Benutzer auf seiner Profilseite aktiviert.
 
 Nachdem Benachrichtigungen im Bereich Einrichtung aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planungslizenz die aktivierten Benachrichtigungen in einem Benutzerprofil auch konfigurieren, um zu steuern, welche Benachrichtigungen ein bestimmter Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -65,9 +67,13 @@ Sie müssen Benachrichtigungen im Bereich Einrichtung von Workfront aktivieren, 
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Email** > **Benachrichtigungen**.
+1. Klicks **Email** > **Benachrichtigungen**.
 
-1. Stellen Sie sicher, dass **Ereignisbenachrichtigungen** -Registerkarte geöffnet ist.
+   <!--hidden shot for the tab redesign - make live in August 2023:
+   ![](assets/notifications-area-under-setup-emails.png)
+   -->
+
+1. Stellen Sie sicher, dass **Ereignisbenachrichtigungen** ist geöffnet.
 1. Klicken Sie auf den Schalter links neben dem Ereignisnamen, um ihn zu aktivieren oder zu deaktivieren.
 
    Informationen zum standardmäßigen Benachrichtigungsstatus für ein Ereignis finden Sie unter [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md).

@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 2%
@@ -17,9 +17,11 @@ ht-degree: 2%
 
 # Erstellen eines Genehmigungsprozesses für Arbeitselemente
 
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
+
 Sie können einen Validierungsprozess erstellen, den Benutzer an ein Arbeitselement (Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe), ein Dokument oder einen Testversand anhängen können. Durch einen Genehmigungsprozess wird sichergestellt, dass bestimmte Bevollmächtigte bestimmte Änderungen am Objekt überprüfen, bevor das Objekt im System fortfährt.
 
-In diesem Artikel wird beschrieben, wie Sie globale Genehmigungsprozesse auf Systemebene oder Gruppenebene für Arbeitselemente (Projekt, Aufgabe, Problem, Vorlage oder Vorlagenaufgabe) erstellen.
+In diesem Artikel wird beschrieben, wie Sie globale Genehmigungsprozesse auf Systemebene oder Gruppenebene für Arbeitselemente (Projekt-, Aufgaben-, Problem-, Vorlagen- oder Vorlagenaufgaben) erstellen.
 
 Informationen zu Genehmigungen, die mit Dokumenten oder Testsendungen verknüpft sind, finden Sie in den folgenden Artikeln:
 
@@ -55,7 +57,7 @@ Sie müssen über Folgendes verfügen:
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Wenn Sie Workfront-Administrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie einen Validierungsprozess auf Systemebene oder einen Validierungsprozess auf Gruppenebene für eine bestimmte Gruppe erstellen.</p> 
-   <p>Als Gruppenadministrator können Sie Genehmigungsprozesse auf Gruppenebene für von Ihnen verwaltete Gruppen erstellen.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <p>Als Gruppenadministrator können Sie Genehmigungsprozesse auf Gruppenebene für von Ihnen verwaltete Gruppen erstellen.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +68,19 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. (Bedingt) Wenn Sie einen Genehmigungsprozess auf Systemebene erstellen, klicken Sie auf **Prozesse** > **Genehmigungen** im linken Bereich.
+1. (Bedingt) Wenn Sie einen Validierungsprozess auf Systemebene erstellen, klicken Sie auf **Prozesse** > **Genehmigungen** im linken Bereich.
 
    Oder
 
    Wenn Sie einen Validierungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
 
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
+
 1. Klicken Sie auf **Projektgenehmigungen**, **Aufgabenvalidierungen** oder **Emissionsgenehmigungen** je nach dem Typ des zu erstellenden Validierungsprozesses.
 
-1. Klicken **Neuer Genehmigungsprozess**.
+1. Klicks **Neuer Genehmigungsprozess**.
 1. Geben Sie die folgenden Informationen in das angezeigte Feld ein:
 
    <table style="table-layout:auto"> 
@@ -134,7 +140,7 @@ Sie müssen über Folgendes verfügen:
 
    <p><b>TIPP</b>:</p>
 
-   <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
+   <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
       <p>Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a>. </p>
 
    <p><b>NOTIZ</b>:
@@ -143,7 +149,7 @@ Sie müssen über Folgendes verfügen:
 
    <p><b>WICHTIG</b>:  
        <ul> 
-       <li> <p>Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts benannt ist, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Wenn niemand als Eigentümer des Projekts benannt ist, wird die Genehmigung dem Workfront-Administrator zugewiesen. </p> </li> 
+       <li> <p>Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts benannt ist, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Wenn niemand als Projekteigentümer bestimmt wurde, wird die Genehmigung dem Workfront-Administrator zugewiesen. </p> </li> 
       </ul> 
        <ul> 
        <li> <p>Wenn Sie einer Rolle eine Genehmigung zuweisen, wird die <b>Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)</b> deaktiviert ist, es gibt jedoch keine Rollen im Projektteam, die mit der Rolle bei der Genehmigung übereinstimmen. Die Genehmigung wird dem Projekteigentümer neu zugewiesen. Weitere Informationen zu den Validierungseinstellungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>.</p> </li> 
@@ -164,10 +170,10 @@ Sie müssen über Folgendes verfügen:
       <td role="rowheader">Legen Sie fest, was geschehen soll, wenn die Genehmigung abgelehnt wird</p> </td> 
       <td> <p>Wählen Sie die Aktion aus, die ausgeführt werden soll, wenn das Arbeitselement in einer beliebigen Phase des Pfads abgelehnt wird:</p> 
        <ul> 
-       <li><b>Erstellen eines Problems</b>: (Nur für Projekt- und Aufgabengenehmigungsverfahren verfügbar) Ein Problem wird im Projekt oder in der Aufgabe erstellt, in dem der Genehmigungsprozess ausgeführt wird. Die standardmäßig zugewiesene Ressource für die Aufgabe oder der Eigentümer des Projekts wird dem Problem zugewiesen. Standardmäßig lautet der Name des erstellten Problems <b>Genehmigung abgelehnt (&lt;project or="" task="" name=""&gt;)</b>. Dies ist ein Zurückweisungsproblem, das je nach Validierungsprozess, in dem die Zurückweisung erfolgte, unter die Aufgabe oder das Projekt eingegeben wurde.</li> 
+       <li><b>Erstellen eines Problems</b>: (Nur für Projekt- und Aufgabengenehmigungsprozesse verfügbar) Es wird ein Problem im Projekt oder in der Aufgabe erstellt, in dem der Genehmigungsprozess ausgeführt wird. Die standardmäßig zugewiesene Ressource für die Aufgabe oder der Eigentümer des Projekts wird dem Problem zugewiesen. Standardmäßig lautet der Name des erstellten Problems <b>Genehmigung abgelehnt (&lt;project or="" task="" name=""&gt;)</b>. Dies ist ein Zurückweisungsproblem, das je nach Validierungsprozess, in dem die Zurückweisung erfolgte, unter die Aufgabe oder das Projekt eingegeben wurde.</li> 
        <li> <p><b>Status festlegen auf</b>: Wählen Sie eine der folgenden Optionen aus:</p> 
        <ul> 
-       <li><b>Vorheriger Status</b>: Das zurückgewiesene Projekt, die Aufgabe oder das Problem kehrt zum Status zurück, der vor dem Status liegt, der den Genehmigungsprozess aktiviert.</li> 
+       <li><b>Vorheriger Status</b>: Das abgelehnte Projekt, die zurückgewiesene Aufgabe oder das abgelehnte Problem kehrt zum Status zurück, bevor der Status aktiv ist.</li> 
        <li><p><b>Jeder andere Status in der Liste</b>: Das zurückgewiesene Objekt wechselt in den von Ihnen gewählten Status, z. B. "Auf Halten". Sie können einen der Standardstatus oder einen benutzerdefinierten Status auswählen, den Sie Ihrem Workfront-System hinzugefügt haben.</p>
        <p>Wenn Sie als Zurückweisungsstatus den einem Validierungsprozess zugeordneten Status auswählen, wechselt das zurückgewiesene Objekt in den ausgewählten Status und wird als "Genehmigung ausstehend"markiert.</p> 
        <p> Wenn Sie beispielsweise für den Zurückweisungsstatus die Option "Auf Halten"wählen und der Status "Auf Halten"mit einem Genehmigungsprozess verknüpft ist, wird das zurückgewiesene Objekt in den Status "Auf Halten - Genehmigung ausstehend"versetzt, was die Genehmigung erfordert.</p>

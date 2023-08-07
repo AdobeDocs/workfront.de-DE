@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -51,9 +51,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie im Bedienfeld auf der linken Seite auf **Email** > **Benachrichtigungen**.
+1. Klicken Sie im linken Bereich auf **Email** > **Benachrichtigungen**> **E-Mail-Vorlagen**.
 
-1. Klicken Sie auf **E-Mail-Vorlagen** Registerkarte und klicken Sie dann auf **Neue E-Mail-Vorlage**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
+
+1. Klicks **Neue E-Mail-Vorlage**.
 
 1. Im **Neue E-Mail-Vorlage** die folgenden Informationen angeben:
 
@@ -62,24 +66,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">E-Mail-Vorlage</td> 
-      <td>Titel der E-Mail-Vorlage (erforderlich).</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beschreibung</td> 
-      <td>Beschreibung der Vorlage.</td> 
+      <td role="rowheader">Name</td> 
+      <td>Titel der E-Mail-Vorlage (erforderlich)</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objekttyp</td> 
       <td>Geben Sie den Objekttyp an, mit dem Sie die Vorlage verknüpfen möchten (Erforderlich, standardmäßig wird "Problem"festgelegt).</td> 
-     </tr> 
+     </tr>
      <tr> 
+      <td role="rowheader">Beschreibung</td> 
+      <td>Beschreibung der Vorlage.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Betreff </td> 
       <td>Betreff, das beim Versand der E-Mail-Nachricht angezeigt wird (erforderlich).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> <p>Inhalt, der beim Senden der E-Mail-Nachricht angezeigt wird</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie unter <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel.</p> </td> 
+      <td role="rowheader">Text </td> 
+      <td> <p>Inhalt, der angezeigt wird, wenn die E-Mail-Nachricht gesendet wird</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie unter <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -99,7 +104,7 @@ Die HTML-Formatierung kann Ihre E-Mail-Vorlagen anreichern, wie in den folgenden
 
 ### Verknüpfung zu Workfront-Objekten {#link-to-workfront-objects}
 
-Sie können mithilfe der `$$` -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der Datenbank zu suchen, die mit einem bestimmten Objekt verknüpft sind.
+Sie können mithilfe der Variablen `$$` -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der Datenbank zu suchen, die mit einem bestimmten Objekt verknüpft sind.
 
 Der Hauptteil der E-Mail für eine Benachrichtigung, die den Verantwortlichen der Aufgabe über den Beginn benachrichtigt, kann beispielsweise folgende Struktur aufweisen:
 
@@ -129,7 +134,7 @@ Führen Sie einen der folgenden Schritte aus, um den Platzhalterwert für ein Ob
 
 * Verwenden Sie den Wert &quot;valueField&quot;, den Sie in einer Textmodusansicht eines Berichts finden. Weitere Informationen zu Textmoduswerten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   Der Wert &quot;heading&quot;kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
+  Der Wert &quot;heading&quot;kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
 
 ### Verknüpfung zu benutzerdefinierten Feldern mit HTML {#link-to-custom-fields-with-html}
 

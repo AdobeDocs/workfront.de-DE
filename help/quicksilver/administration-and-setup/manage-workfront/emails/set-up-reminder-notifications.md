@@ -5,14 +5,16 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
 
 # Einrichten von Erinnerungsbenachrichtigungen
+
+<!--hidden content for the tab redesign in August 2023-->
 
 Erinnerungsbenachrichtigungen senden E-Mails an Empfänger basierend auf bestimmten Kriterien. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene &quot;Planer&quot;und Administratorzugriff auf Erinnerungsbenachrichtigungen können Sie Erinnerungsbenachrichtigungen manuell mit Ihren Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen.
 
@@ -64,9 +66,12 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Email** > **Benachrichtigungen**.
+1. Klicks **Email** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
 
-1. Klicken Sie auf **Erinnerungsbenachrichtigungen** Registerkarte und klicken Sie dann auf **Neue Erinnerungsbenachrichtigung**.
+   <!--hidden for the tab redesign for August 2023:
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   -->
+1. Klicks **Neue Erinnerungsbenachrichtigung**.
 
 1. Klicken Sie in der Dropdown-Liste auf den Objekttyp, den Sie mit der Erinnerungsbenachrichtigung verbinden möchten.
 
@@ -105,7 +110,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
      </tr> 
      <tr> 
       <td role="rowheader">Kriterien</td> 
-      <td> <p>Wählen Sie die Kriterien aus, um die Erinnerungsbenachrichtigung für die Planung zu qualifizieren. Erinnerungsbenachrichtigungen werden nur geplant, wenn die Kriterienauswahl erfüllt ist.</p> <p>Je nach dem in Schritt 4 ausgewählten Objekttyp sind die folgenden Kriterienoptionen verfügbar:</p> 
+      <td> <p>Wählen Sie die Kriterien aus, um die Erinnerungsbenachrichtigung für die Planung zu qualifizieren. Erinnerungsbenachrichtigungen werden nur geplant, wenn die Kriterienauswahl erfüllt ist.</p> <p>Je nach dem in Schritt 4 ausgewählten Objekttyp stehen die folgenden Kriterienoptionen zur Verfügung:</p> 
        <ul> 
         <li><strong>In aktuellen Projekten unvollständig:</strong> (Verfügbar für Aufgaben- und Problemerinnerungen) Die Erinnerungsbenachrichtigung wird nur dann gesendet, wenn der Objektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, nicht abgeschlossen und der Projektstatus Aktuell ist.</li> 
         <li><strong>Alle in aktuellen Projekten:</strong>(Verfügbar für Aufgaben- und Problemerinnerungen) Die Erinnerungsbenachrichtigung soll unabhängig vom Objektstatus und nur gesendet werden, wenn der Projektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, aktuell ist.</li> 
@@ -144,8 +149,8 @@ So führen Sie eine Erinnerungsbenachrichtigung manuell zum Trigger durch:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** > **Diagnose** in der linken unteren Ecke von Workfront.
+1. Klicks **System** > **Diagnose** in der linken unteren Ecke von Workfront.
 
-1. Klicken **Erinnerungsbenachrichtigungen senden** und warten Sie auf die Bestätigung oben auf dem Bildschirm, dass sie gesendet wurden.
+1. Klicks **Erinnerungsbenachrichtigungen senden** und warten Sie auf die Bestätigung oben auf dem Bildschirm, dass sie gesendet wurden.
 
    Die in der Erinnerungsbenachrichtigung angegebenen Benutzer erhalten eine E-Mail.
