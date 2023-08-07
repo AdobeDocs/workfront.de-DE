@@ -8,7 +8,7 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
+source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -97,8 +97,6 @@ So laden Sie einen Benutzer zum Beitritt zu einer Organisation ein:
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 [!DNL Fusion] sendet eine E-Mail mit einer Einladung an die jeweilige Organisation und einer [!UICONTROL Rolle akzeptieren] Schaltfläche.
-
-![](assets/accept-the-role.png)
 
 Wenn der Empfänger auf die Schaltfläche klickt, wird er zur Einladungsseite weitergeleitet, wo er die Einladung annehmen kann.
 
