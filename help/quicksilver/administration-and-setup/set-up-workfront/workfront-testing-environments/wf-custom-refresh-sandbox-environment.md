@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
@@ -57,14 +57,14 @@ Sie müssen über Folgendes verfügen:
 
 ## Aktualisieren der benutzerdefinierten Aktualisierungs-Sandbox
 
-Die Sandbox Benutzerdefinierte Aktualisierung enthält Ihre tatsächlichen Produktionsdaten und wird erst aktualisiert, wenn Sie dies planen. Sie können eine Aktualisierung jederzeit planen, und zwar so oft wie in der Woche.
+Die Sandbox Benutzerdefinierte Aktualisierung enthält Ihre tatsächlichen Produktionsdaten und wird erst aktualisiert, wenn Sie dies planen. Sie können eine Aktualisierung jederzeit planen, und zwar so oft wie nur einmal pro Woche.
 
 >[!NOTE]
 >
 >* Sie können keine Aktualisierung für den aktuellen Tag planen. Wenn heute beispielsweise der 1. Juni ist, ist der früheste Tag, an dem Sie eine Aktualisierung planen können, der 2. Juni.
+>* Die geplante Aktualisierung erfolgt um 12:00 Uhr am angegebenen Datum, basierend auf der Zeitzone des Benutzers, der die Anforderung gesendet hat.
 >* Ihre Sandbox für benutzerdefinierte Aktualisierungen verfügt immer über dieselben Produktfunktionen wie Ihre Produktionsumgebung. Wenn Sie jedoch Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisieren, wird das Branding nur für die Hintergrundfarbe des Anmeldebildschirms beibehalten. Die Logos auf dem Anmeldebildschirm und der Navigationsleiste werden auf [!DNL Workfront] -Standardeinstellungen sowie alle Branding-Bilder, die Sie vor der Aktualisierung geändert haben, werden nicht angezeigt.
 >
-
 
 
 
@@ -86,7 +86,7 @@ So greifen Sie auf Ihre benutzerdefinierte Aktualisierungs-Sandbox zu:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
+1. Klicks **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
 
 1. Im **[!UICONTROL Testumgebung]** Abschnitt, klicken Sie auf **[!UICONTROL Sandbox 1]** oder **[!UICONTROL Sandbox 2]**.
 
@@ -161,7 +161,7 @@ Nachdem Sie eine Aktualisierung Ihrer benutzerdefinierten Aktualisierungs-Sandbo
 So planen Sie eine Aktualisierung Ihrer Sandbox zur Kundenaktualisierung:
 
 1. Melden Sie sich bei Ihrer benutzerdefinierten Aktualisierungs-Sandbox an.
-1. Klicken **[!UICONTROL Zeitplan]** im Banner am oberen Bildschirmrand ein Datum aus dem Kalender auswählen.
+1. Klicks **[!UICONTROL Zeitplan]** im Banner am oberen Bildschirmrand ein Datum aus dem Kalender auswählen.
 1. Wählen Sie ein Datum aus, an dem die Aktualisierung durchgeführt werden soll, und klicken Sie dann auf **[!UICONTROL Zeitplanaktualisierung]**.
 
 ## Von der Sandbox für benutzerdefinierte Aktualisierung zur Produktion wechseln
@@ -170,7 +170,7 @@ So planen Sie eine Aktualisierung Ihrer Sandbox zur Kundenaktualisierung:
 
    Weitere Informationen zum Zugriff auf Ihre benutzerdefinierte Aktualisierungs-Sandbox finden Sie unter [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen über Ihre Produktionsumgebung](#access-the-custom-refresh-sandbox-from-your-production-environment) oder [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen über eine URL](#access-the-custom-refresh-sandbox-using-a-url).
 
-1. Klicken **[!UICONTROL Zu Produktion wechseln]** im Banner am oberen Bildschirmrand angezeigt.
+1. Klicks **[!UICONTROL Zu Produktion wechseln]** im Banner am oberen Bildschirmrand angezeigt.
 
    Denken Sie daran, dass die in der Sandbox geleistete Arbeit nicht im [!UICONTROL production] -Umgebung, da die Übertragung von Daten unidirektional ist, von der Produktion zu Ihrer benutzerdefinierten Aktualisierungs-Sandbox und nicht umgekehrt.
 
@@ -193,7 +193,7 @@ Weitere Informationen zur Konfiguration [!DNL Workfront] mit SSO, siehe [Überbl
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die [!DNL Workfront] -Instanz mit Adobe IMS aktiviert ist. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+>Dies ist nicht verfügbar, wenn die [!DNL Workfront] -Instanz mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ## Vorgesehene Nutzung und Verfügbarkeit
 
