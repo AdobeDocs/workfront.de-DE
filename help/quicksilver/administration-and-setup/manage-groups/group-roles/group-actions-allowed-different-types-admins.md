@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,13 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Voreinstellungen für Projekt, Aufgaben und Probleme konfigurieren</p> </td> 
+   <td> <p>Voreinstellungen für Projekt, Aufgabe und Problem konfigurieren</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Zeitblatt- und Stundenvoreinstellungen sperren und entsperren</p> </td> 
+   <td> <p>Zeitblatt- und Stundeneinstellungen sperren und entsperren</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
@@ -122,7 +122,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Stundentypen erstellen und verwalten</p> </td> 
+   <td> <p>Erstellen und Verwalten von Stundentypen</p> </td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
@@ -152,7 +152,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Erstellen von einmaligen Timesheets</td> 
+   <td>Erstellen von Einzelbenutzer-Timesheets</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Importieren und Exportieren von Daten mit Kick-Starts</td> 
+   <td>Importieren und Exportieren von Daten mithilfe von Kick-Starts</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -226,6 +226,14 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
  </tbody> 
 </table>
 
-&#42; Auf der Zugriffsebene des Gruppenadministrators **Bearbeiten** muss für die **Benutzer** Einstellung, mit **Benutzerverwaltung (Gruppenbenutzer)** ausgewählt unter **Einstellungen anpassen** ![](assets/gear-icon-in-access-levels.png). Weitere Informationen finden Sie im Abschnitt . [Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; Auf der Zugriffsebene des Gruppenadministrators **Bearbeiten** muss für die **Benutzer** Einstellung, mit **Benutzerverwaltung (Gruppenbenutzer)** ausgewählt unter **Optimieren Ihrer Einstellungen** ![](assets/gear-icon-in-access-levels.png). Weitere Informationen finden Sie im Abschnitt . [Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; Auf der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+Die folgenden Aktivitäten stehen nur für Gruppen- und Untergruppen-Administratoren zur Verfügung, wenn ihre Organisationen den Prime- oder Ultimate-Plan nutzen. Diese spezifischen Aktivitäten können auch als &quot;erweiterte Unternehmenskontrollen&quot;bezeichnet werden. Siehe [Adobe Workfront - Preisschilderseite](https://business.adobe.com/products/workfront/pricing.html) für weitere Informationen zu Plänen. (Für Organisationen, die die alten Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
+
+* Voreinstellungen für Projekt, Aufgabe und Problem konfigurieren
+* Zeitblatt- und Stundenvoreinstellungen konfigurieren
+* Ereignisbenachrichtigungs-E-Mails konfigurieren
+* Erstellen und Verwalten von Genehmigungsprozessen
+* Erstellen und Verwalten von Untergruppen
