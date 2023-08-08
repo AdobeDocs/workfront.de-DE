@@ -9,7 +9,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -22,7 +22,10 @@ Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;P
 
 Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können Sie nur die Einstellungen ändern, die den ausgewählten Benutzern gemeinsam sind.
 
-Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## Zugriffsanforderungen
 
@@ -50,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png). Wählen Sie die Benutzer aus und klicken Sie auf **Bearbeiten**.
 1. Im **Person bearbeiten** wird angezeigt, klicken Sie auf **Benachrichtigungen**.
 
-1. Erweitern Sie eine Kategorie, um die mit dieser Kategorie verbundenen Benachrichtigungseinstellungen anzuzeigen.
+1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen zu dieser Kategorie anzuzeigen.
 
    Wenn mindestens ein Benutzer ausgewählt ist, bei dem die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kategorieprüffeld für diese Benachrichtigung eine horizontale Zeile ![](assets/straight-line-instead-of-checkmark.jpg) anstelle eines Häkchen.
 

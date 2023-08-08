@@ -7,9 +7,9 @@ description: Adobe Workfront ist nicht dafür konzipiert, Ihre vorhandenen Syste
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Tools für die Ressourcenverwaltung verwenden auch Ihre persönliche Zeitspanne,
 >Um sicherzustellen, dass keine Inkonsistenzen mit den Daten auftreten, für die Sie die Zeitdauer planen, empfehlen wir, dass die Zeitzone Ihres Benutzerprofils mit der Zeitzone Ihres Zeitplans übereinstimmt. Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
 ## Zugriffsanforderungen
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
    <td>[!UICONTROL Manager] mit Zugriff auf [!UICONTROL Benutzer bearbeiten] (um Änderungen an der Zeitdauer anderer Benutzer vorzunehmen)<br>
-   <strong>HINWEIS:</strong> Wenn ein Manager die persönliche Zeit eines anderen Benutzers außerhalb des Kalenders bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
+   <strong>NOTE:</strong> Wenn ein Manager die persönliche Zeit eines anderen Benutzers außerhalb des Kalenders bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,8 +65,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**.
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Zeitlimit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Zeit aus.
-1. Auswählen **[!UICONTROL Ganztägig]**, wenn Sie sich einen ganzen Tag freinehmen.\
+
+   ![Persönliche Uhrzeit des Kalenders](assets/personal-time-off-calendar.png)
+
+1. Auswählen **[!UICONTROL Ganztägig]**, wenn Sie sich einen ganzen Tag freinehmen.
+
    Lassen Sie die Option deaktiviert, wenn Sie weniger als einen vollen Tag frei nehmen, und geben Sie die Start- und Endzeit Ihrer Freizeit an.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.\
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
    Ihre Zeitdauer ist jetzt für alle [!DNL Workfront] in den Tools zur Ressourcenverwaltung wie dem Resource Planer und dem Workload Balancer. Wenn Ihnen während dieser Zeit Arbeit zugewiesen wird, erscheint eine QuickInfo, die den Benutzer informiert, für den Sie eine Zeitüberschreitung geplant haben.
