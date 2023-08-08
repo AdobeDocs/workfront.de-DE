@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Wir planen, die neue Kommentarerfahrung iterativ zu veröffentlichen. Dies wirkt
 
 Informationen darüber, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter   [Übersicht über den Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern. Weitere Informationen zu allen veröffentlichten Funktionen finden Sie unter [Veröffentlichte Funktionen](#released-features) in diesem Artikel.
+Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern. Weitere Informationen zu allen veröffentlichten Funktionen finden Sie unter [Veröffentlichte Funktionen](#released-features) in diesem Artikel beschrieben.
 
 * Mit der Version 23.2 (6. April 2023):
    * Kommentieren von Erlebnis-Beta für Probleme
@@ -43,13 +43,13 @@ Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen fü
    * Kommentieren von Erlebnis-Beta für Projekte, Aufgaben und Dokumente.
    * Neues Kommentierungserlebnis für Karten im Bereich &quot;Foren&quot;(als einziges Erlebnis)
 * Während der Version 23.4 (Datum anzukündigen) (begrenzte Version<!--, only available to customers that choose the fast release -->):
-   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis)
+   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Zeitpläne (als einziges Erlebnis)
 * Mit der Version 23.4 (Anfang Oktober 2023)
-   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis)
+   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Zeitpläne (als einziges Erlebnis)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * Das Kommentieren des Erlebnisses Beta für Projekte, Aufgaben, Probleme und Dokumente wird zur Standardoption.
 * Ende 2023:
-   * Das veraltete Kommentierungserlebnis bleibt als Option für die folgenden Objekte erhalten: Projekte, Aufgaben, Probleme und Dokumente.
+   * Die veraltete Kommentarfunktion bleibt als Option für die folgenden Objekte erhalten: Projekte, Aufgaben, Probleme und Dokumente.
 
   >[!NOTE]
   >
@@ -71,7 +71,7 @@ Die in diesem Abschnitt aufgelisteten Funktionen sollen kurz nach der Woche vom 
 
 Ein Kommentar-Eigentümer wird jetzt automatisch in einem Thread getaggt. Vor dieser Aktualisierung wurden nur die Benutzer mit Tags versehen, die entweder mit &quot;@name&quot;-Tags versehen wurden oder sie zum Abschnitt &quot;Personen oder Teams taggen&quot;hinzugefügt wurden, der in der Liste der getaggten Benutzer angezeigt wurde. Damit können Sie jetzt bei Bedarf den Eigentümer eines Kommentars aus dem Thread entfernen, selbst wenn diese zuvor nicht manuell getaggt wurden.
 
-Vorgesehene Version: 12. Juli 2023
+Geplante Vorschau-Version: 12. Juli 2023
 
 Geplante Produktionsversion: 13. Juli 2023
 
@@ -101,7 +101,7 @@ Sie können jetzt einem Kommentar Emojis hinzufügen, indem Sie eine Symbolleist
 
 Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorschau und Produktion: Ankündigung (während oder kurz nach der Version 23.3)
+Vorschau und Produktion: Ankündigung (während oder kurz nach Version 23.3) <!--August 10, 2023-->
 
 #### Neues Kommentierungserlebnis für zusätzliche Objekte
 
@@ -111,9 +111,9 @@ Dies ist das einzige Kommentarerlebnis für diese Objekte, da das veraltete Komm
 
 Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
-Vorschau-Version: Ankündigung nach der Produktionsversion 23.3 (20. Juli 2023)
+Vorschau-Veröffentlichung: Nach der Produktionsversion 23.3 (20. Juli 2023) anzukündigen.
 
-Produktionsversion für Fast-Release-Kunden: Ankündigung nach Version 23.3
+Produktionsversion für Fast-Release-Kunden: Nach Version 23.3 noch bekannt zu geben.
 
 Produktionsversion für alle Kunden: mit Version 23.4
 
@@ -129,7 +129,7 @@ Produktionsversion für frühe Anmeldung: 22. Juni 2023
 
 Produktion für alle Kunden: mit Version 23.3
 
-#### Blockanführungszeichen zu einem Kommentar hinzufügen
+#### Hinzufügen von Blockzitaten zu einem Kommentar
 
 Sie können jetzt Blockanführungszeichen zu einem Kommentar hinzufügen, indem Sie im neuen Beta-Kommentar eine Rich-Text-Symbolleistenoption verwenden.
 
@@ -200,7 +200,7 @@ Produktion: mit Version 23.3
 Sie können nun mithilfe der folgenden Tastaturbefehle Hyperlinks zu Kommentaren hinzufügen:
 
 * STRG + V (CMD + V für Mac) fügt einen Link über den ausgewählten Text ein
-* STRG + K (CMD + K für Mac) öffnet das Feld Links hinzufügen .
+* STRG + K (CMD + K für Mac) öffnet das Feld Verknüpfungen hinzufügen .
 
 Vor diesen Verbesserungen konnten Sie Hyperlinks nur hinzufügen, indem Sie in der Rich-Text-Symbolleiste auf das Link-Symbol klicken. Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

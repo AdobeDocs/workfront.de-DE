@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -51,83 +51,99 @@ Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf
 
 ### Übersicht über den Abschnitt &quot;Aktuelle Updates&quot;
 
-Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
+* Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-Im Abschnitt &quot;Aktuelle Updates&quot;werden die folgenden Informationen angezeigt:
+* Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
 
-* Stellungnahmen von Verwendern und Antworten auf diese Stellungnahmen.
-* Systemaktualisierungen, bei denen es sich um Informationsmeldungen handelt, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Dokumente</li> 
+      <li>Ziele</li> 
+      <li>Probleme</li> 
+      <li>Wiederholungen</li> 
+      <li>Projekte</li> 
+      <li>Programme</li> 
+      <li>Portfolios</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Storys*</li> 
+      <li>Aufgaben</li> 
+      <li>Vorlagen</li> 
+      <li>Vorlagenaufgaben</li> 
+      <li>Arbeitszeittabellen</li> 
+      <li>Benutzende</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
+  *Geschichten sind Aufgaben. Alle Informationen zu Aufgaben stehen auch für Meldungen zur Verfügung.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Dokumente</li> 
-     <li>Ziele</li> 
-     <li>Probleme</li> 
-     <li>Wiederholungen</li> 
-     <li>Projekte</li> 
-     <li>Programme</li> 
-     <li>Portfolios</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Storys*</li> 
-     <li>Aufgaben</li> 
-     <li>Vorlagen</li> 
-     <li>Vorlagenaufgaben</li> 
-     <li>Arbeitszeittabellen</li> 
-     <li>Benutzende</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Geschichten sind Aufgaben. Alle Informationen zu Aufgaben stehen auch für Meldungen zur Verfügung.
+* Im Abschnitt &quot;Aktuelle Updates&quot;werden die folgenden Informationen angezeigt:
+
+   * Benutzeraktualisierungen: Kommentare von Benutzern und Antworten auf diese Kommentare.
+   * Systemaktualisierungen: Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* Die folgenden Objekte zeichnen keine Systemaktualisierungen auf:
+
+   * Team
+   * Vorlage
+   * Vorlagenaufgabe
 
 ### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im Beta-Kommentierungserlebnis
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
-* **Systemaktivität**: Zeigt Systemaktualisierungen an, d. h. Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
-Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
+   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Ziele</p>
-     <li>Karten im Bereich der Karten*</li>
-      Dies ist das einzige Erlebnis für Ziele und Karten.
-     </li> 
-     <li>Projekte</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Probleme</li> 
-     <li>Aufgaben</li>
-     <li>Dokumente</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
 
-*Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Ziele</p>
+        <li>Karten im Bereich der Karten*</li>
+          Dies ist das einzige Erlebnis für Ziele und Karten.
+        </li> 
+        <li>Projekte</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Probleme</li> 
+        <li>Aufgaben</li>
+        <li>Dokumente</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
@@ -234,7 +250,7 @@ Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränku
 
 Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und Aktionen in Workfront ausführen, z. B. Kommentare eingeben.
 
-Weitere Informationen finden Sie unter [Anmelden als anderer Benutzer](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Weitere Informationen finden Sie unter [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
 
