@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '884'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 * Aktionen, die Benutzer für ein Objekt ausführen
 
 Zu diesen Systemaktualisierungen gehören die vorgenommene Änderung, der Name des Benutzers, der die Änderung vorgenommen hat, sowie Uhrzeit und Datum der Änderung.
+
+Weitere Informationen zu Systemaktualisierungen finden Sie unter [Vom System getrackte Aktualisierungen](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 Als [!DNL Workfront] Administrator können Sie konfigurieren, welche Objektfelder und Aktionen [!DNL Workfront] verfolgt, um Systemaktualisierungen aufzuzeichnen.
 
@@ -46,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTE</b>: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +65,6 @@ Sie können bestimmen, welche Informationen [!DNL Workfront] verfolgt, wenn Benu
 
 
 
-
 * [Hinzufügen von gewünschten Feldern [!DNL Workfront] zum Tracking](#add-fields-you-want-workfront-to-track)
 * [Felder entfernen, die nicht verfolgt werden sollen](#remove-fields-that-you-don-t-want-tracked)
 
@@ -77,15 +78,15 @@ Sie können die gewünschten Felder hinzufügen [!DNL Workfront] zur Verfolgung 
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie im Bedienfeld auf der linken Seite auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 
 1. &#x200B; **[!UICONTROL Felder hinzufügen]** und klicken Sie dann auf das Objekt, das Sie verfolgen möchten.
 
-1. Im &#x200B; **[!UICONTROL Feeds aktualisieren]** in das Feld ein, beginnen Sie mit der Eingabe eines integrierten (Standard-) Felds oder eines benutzerdefinierten Felds für das Objekt und klicken Sie dann auf , um es auszuwählen, wenn es in der Liste angezeigt wird.
+1. Im &#x200B; **[!UICONTROL Feeds aktualisieren]** in das Feld ein, beginnen Sie mit der Eingabe eines integrierten (Standard-) Felds oder eines benutzerdefinierten Felds für das Objekt und wählen Sie es dann aus, wenn es in der Liste angezeigt wird.
 
    Wenn [!DNL Workfront] das Feld bereits verfolgt, können Sie es nicht erneut aus der Liste hinzufügen.
 
-1. Nach dem Hinzufügen aller gewünschten Felder [!DNL Workfront] zum Tracking klicken Sie auf **[!UICONTROL Felder hinzufügen]**.
+1. Nachdem Sie alle gewünschten Felder hinzugefügt haben [!DNL Workfront] klicken Sie auf **[!UICONTROL Felder hinzufügen]**.
 
    Die von Ihnen hinzugefügten integrierten Felder werden unter dem **[!UICONTROL Integrierte Felder]** Unterregisterkarte.
 
@@ -99,7 +100,7 @@ Sie können Felder entfernen, die das System nicht für einen bestimmten Objektt
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicks **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 
 1. Im **[!UICONTROL Verfolgte Felder]** auswählen, wählen Sie die **[!UICONTROL Alle Felder]** Unterregisterkarte.
 
@@ -109,9 +110,9 @@ Sie können Felder entfernen, die das System nicht für einen bestimmten Objektt
 
 1. Im **[!UICONTROL Feld entfernen]** wird angezeigt, klicken Sie auf **[!UICONTROL Ja, entfernen]** zur Bestätigung.
 
-Alle Aktualisierungen bezüglich der zuvor verfolgten Felder bleiben im [!UICONTROL Updates] Gebiet, in dem sie aufgezeichnet wurden.
+Alle Aktualisierungen bezüglich der zuvor verfolgten Felder bleiben im Abschnitt [!UICONTROL Updates] Gebiet, in dem sie aufgezeichnet wurden.
 
-## Bestimmen, welche Aktionen ausgeführt werden [!DNL Workfront] Tracks für einen Objekttyp
+## Bestimmen der Aktionen [!DNL Workfront] Tracks für einen Objekttyp
 
 Sie können [!DNL Workfront] Verfolgen Sie die folgenden Aktionen, die Benutzer für Objekte im gesamten [!DNL Workfront] -Schnittstelle.
 
@@ -160,7 +161,7 @@ Sie können beispielsweise [!DNL Workfront] eine Aktualisierung jedes Mal aufzei
    <td> <p>Aktiviert</p> </td> 
   </tr> 
   <tr> 
-   <td>Anfrage wird gelöscht</td> 
+   <td>Problem wurde gelöscht</td> 
    <td>Projekte</td> 
    <td> <p>Aktiviert</p> </td> 
   </tr> 
@@ -186,7 +187,7 @@ So konfigurieren Sie die gewünschten Aktionen [!DNL Workfront] zur Verfolgung:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicks **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** Registerkarte.
 
