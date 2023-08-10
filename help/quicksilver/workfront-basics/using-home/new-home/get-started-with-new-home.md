@@ -5,10 +5,10 @@ title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ Die neue Startseite ist sehr anpassbar, sodass Sie die Widgets auswählen könne
 
 ### Widgets
 
-Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widgets hinzufügen, können Sie auswählen, welcher Informationstyp angezeigt wird, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets sind nur für bestimmte Lizenztypen verfügbar, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
+Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widgets hinzufügen, können Sie auswählen, welcher Informationstyp angezeigt wird, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets sind nur für bestimmte Lizenztypen verfügbar, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
 * **Meine Arbeit**\
     Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und zeigt alle zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an.
@@ -50,7 +52,7 @@ Widgets sind die Grundlage für das neue Zuhause. Wenn Sie Ihrer Startseite Widg
     Zeigt alle Genehmigungen für Ihr Unternehmen in einer Tabelle mit anpassbaren Spalten an, sowie einer Suchleiste an, über die Sie nach bestimmten Genehmigungen suchen können.
 
 * **Erwähnungen**\
-    Zeigt die letzten Kommentar-Threads aus Workfront an, die @-Erwähnungen von Ihnen enthalten sowie eine Antwort-Schaltfläche, mit der Sie eine Antwort innerhalb des Widgets verfassen können.
+    Zeigt die letzten Kommentar-Threads aus Workfront an, die @-Erwähnungen von Ihnen enthalten sowie eine Antwort-Schaltfläche, mit der Sie eine Antwort innerhalb des Widgets verfassen können. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
 * **To-dos**\
     Mit diesem einzigartigen Widget können Sie Textelemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können.
@@ -114,8 +116,6 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
         <td>Warten auf meine Genehmigung, Aufgaben</td>
     </tr>
 </table>
-
-Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Hintergrundanpassung
 
