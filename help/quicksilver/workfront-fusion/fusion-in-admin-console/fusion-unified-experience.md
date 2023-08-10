@@ -7,16 +7,16 @@ description: Durch den Zugriff auf Workfront Fusion über Adobe Experience Cloud
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Unified Experience] für [!DNL Workfront Fusion]
 
-Zugreifen auf [!DNL Workfront Fusion] bis [!DNL Adobe Experience Cloud] bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung all Ihrer [!DNL Adobe] Anwendungen. Mit der einheitlichen Identitätsverwaltung können Sie sich an einem zentralen Ort ohne mehrere URLs oder Anmelde-IDs anmelden.
+Zugriff [!DNL Workfront Fusion] bis [!DNL Adobe Experience Cloud] bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung all Ihrer [!DNL Adobe] Anwendungen. Mit der einheitlichen Identitätsverwaltung können Sie sich an einem zentralen Ort ohne mehrere URLs oder Anmelde-IDs anmelden.
 
 Ein Video mit einer Beschreibung der Navigation in [!DNL Fusion] im [!DNL Adobe Experience Cloud], siehe:
 
@@ -41,16 +41,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> 
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -76,11 +76,11 @@ Nachdem Sie sich bei [!DNL Adobe Experience Cloud], können Sie alle [!DNL Workf
 
 >[!NOTE]
 >
->Beim ersten Anmelden bei [!DNL Adobe Experience Cloud]verwendet, wird standardmäßig die erste Organisation in der alphabetischen Liste verwendet. Bei der nächsten Anmeldung wird als Organisation standardmäßig der letzte Besuch ausgeführt.
+>Beim ersten Anmelden bei [!DNL Adobe Experience Cloud]verwendet, wird standardmäßig die erste Organisation in der alphabetischen Liste verwendet. Bei der nächsten Anmeldung wird standardmäßig die letzte Organisation ausgewählt, die Sie besucht haben.
 
 [!DNL Workfront Fusion] in der Liste von [!DNL Adobe Experience Cloud] Produkte, auf die Sie Zugriff haben. Sie können [!DNL Workfront Fusion] im Schnellzugriffsmenü auf [!DNL Experience Cloud] Startseite oder den Produktumschalter verwenden ![Produktumschalter](assets/main-menu-icon.png) , um Anwendungen jederzeit zu ändern.
 
-![Auswählen [!DNL Workfront Fusion] , um auf die Anwendung zuzugreifen](assets/aec-product-switcher.png)
+![Auswählen [!DNL Workfront Fusion] auf die Anwendung zugreifen](assets/aec-product-switcher.png)
 
 ## Navigieren [!DNL Workfront Fusion]
 
@@ -90,7 +90,7 @@ Um Teams zu wechseln, klicken Sie auf den Teamnamen oben auf der Seite und wähl
 
 Um zwischen Organisationen zu wechseln, klicken Sie auf den Organisationsnamen oben rechts auf Ihrem Bildschirm und wählen Sie dann die Organisation aus.
 
-## Zugriff auf Ihr Profil und Ihre Voreinstellungen
+## Zugriff auf Ihr Profil und Ihre Einstellungen
 
 Sie können auf Ihre Profil- und Präferenzoptionen zugreifen, indem Sie im oberen Navigationsbereich auf Ihr Profilbild klicken.
 
@@ -100,6 +100,13 @@ In diesem Menü haben Sie folgende Möglichkeiten:
 
 * Auswählen **[!UICONTROL Dunkles Thema]** Formatierung für [!DNL Adobe Experience Cloud].
 * Satz **[!UICONTROL Voreinstellungen]** für [!DNL Adobe Experience Cloud], einschließlich der Primär- und Sekundarsprachvoreinstellungen.
-* Zugriff auf **[!UICONTROL [!DNL Workfront Fusion]Profil]**. Sobald Sie sich im Profil befinden, klicken Sie auf das **[!UICONTROL Mehr]** Menü ![](assets/more-icon.png) und wählen Sie **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Meine Einstellungen konfigurieren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Zugriff auf **[!UICONTROL [!DNL Workfront Fusion]Profil]**. Sobald Sie sich im Profil befinden, klicken Sie auf das **[!UICONTROL Mehr]** Menü ![](assets/more-icon.png) und wählen **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Meine Einstellungen konfigurieren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Abmelden]** von Adobe Experience Cloud.
+
+
+## Auf Benachrichtigungen zugreifen
+
+Ihre Benachrichtigungen und Mitteilungen finden Sie im Bereich Benachrichtigungen der Unified Shell.
+
+Um Ihre Benachrichtigungen anzuzeigen, klicken Sie auf das Symbol Benachrichtigungen . ![Benachrichtigungssymbol](assets/notifications-icon.png) in der oberen rechten Ecke des Bildschirms. Ein roter Punkt auf dem Benachrichtigungssymbol zeigt an, dass Sie Benachrichtigungen oder Mitteilungen nicht gelesen haben.
 
