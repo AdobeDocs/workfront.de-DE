@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 1%
@@ -129,9 +129,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -155,7 +155,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   </tr>
   <tr>
 <tr>
-   <td> Anführungskommentare
+   <td> Kommentare einfügen
    </td>
    <td>✓ 
    </td>
@@ -256,7 +256,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
   </tr>
   <tr>
-   <td>Rückgängigmachen der Veröffentlichung eines Kommentars 
+   <td>Veröffentlichung eines Kommentars rückgängig machen 
    </td>
    <td>✓ 
    </td>
@@ -274,7 +274,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td>Ersetzt durch die Registerkarte Aktivität 
+   <td>Ersetzt durch die Registerkarte Aktivität . 
    </td>
    <td> 
    </td>
@@ -326,7 +326,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
   </tr>
   <tr>
-   <td>Protokollzeit 
+   <td>Zeit erfassen 
    </td>
    <td>✓ 
    </td>
@@ -508,11 +508,11 @@ Beta:
 
 1. Markieren Sie ein Objekt, für das Sie das neue Kommentierungserlebnis aktivieren möchten, und klicken Sie auf **Updates** im linken Bereich.
 1. Aktivieren Sie die **Kommentieren von Beta** in der oberen rechten Ecke des Bereichs Updates ein-/ausschalten.
-1. Klicken **Zustimmen** in das Feld &quot;Beta-Vereinbarung&quot;ein. Dadurch wird das neue Kommentarerlebnis für das ausgewählte Objekt aktiviert.
-1. Geben Sie im Feld **Kommentare** Registerkarte. Die Registerkarte Kommentare sollte beim Öffnen des neuen Erlebnisses die Standardregisterkarte sein
+1. Klicks **Zustimmen** in das Feld &quot;Beta-Vereinbarung&quot;ein. Dadurch wird das neue Kommentarerlebnis für das ausgewählte Objekt aktiviert.
+1. Beginnen Sie mit der Eingabe eines Updates in die **Kommentare** Registerkarte. Die Registerkarte Kommentare sollte beim Öffnen des neuen Erlebnisses die Standardregisterkarte sein
 
    Oder
 
    Klicken Sie auf  **Systemaktivität** um die von Workfront erzeugten Aktivitätsaktualisierungen anzuzeigen.
 
-   Weitere Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen zum Aktualisieren von Objekten im neuen Kommentierungserlebnis finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

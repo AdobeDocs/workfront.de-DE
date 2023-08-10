@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Einrichten von Erinnerungsbenachrichtigungen
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Erinnerungsbenachrichtigungen senden E-Mails an Empfänger basierend auf bestimmten Kriterien. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene &quot;Planer&quot;und Administratorzugriff auf Erinnerungsbenachrichtigungen können Sie Erinnerungsbenachrichtigungen manuell mit Ihren Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen.
 
@@ -68,9 +66,8 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
 
 1. Klicks **Email** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Klicks **Neue Erinnerungsbenachrichtigung**.
 
 1. Klicken Sie in der Dropdown-Liste auf den Objekttyp, den Sie mit der Erinnerungsbenachrichtigung verbinden möchten.
