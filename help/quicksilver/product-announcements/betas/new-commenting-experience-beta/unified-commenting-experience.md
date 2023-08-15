@@ -7,16 +7,20 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Neues Kommentierungserlebnis
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
 
@@ -34,25 +38,6 @@ For additional resources for the new commenting experience, also see the followi
 ## Funktionen
 
 Das neue Kommentierungserlebnis umfasst Verbesserungen und Änderungen am vorhandenen Aktualisierungsstream.
-
-<!-- Previous content here - replaced with the table below: 
-
->[!IMPORTANT]
->The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
-
-* **Creating comments**
-
-    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-* **Responding to comments**
-
-    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
-
-* **System Activity**
-    
-    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
--->
 
 Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 
@@ -73,6 +58,7 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 >Bei den unten aufgeführten Objekten sind nur die Kommentare und Systemaktualisierungen aus dem letzten Jahr (ab Juni 2022) verfügbar, wenn Sie das Beta-Erlebnis aktivieren.
 >
 >Sie können Kommentare und Systemaktualisierungen zu diesen Objekten vor Juni 2022 anzeigen, wenn Sie sich den Abschnitt Updates im aktuellen Erlebnis ansehen:
+>
 >* Probleme
 >* Projekte
 >* Aufgaben
@@ -487,24 +473,80 @@ Informationen zu den kürzlich für das neue Kommentierungserlebnis veröffentli
 
 ## Neues Kommentierungserlebnis suchen
 
-Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt, wenn der Abschnitt Updates in den folgenden Versionen von Workfront angezeigt wird:
+Das neue Kommentarerlebnis wird derzeit für die folgenden Objekte unterstützt:
 
-* Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;:
+<!--replace the first bullet with this on August 17: 
+
+<span class="preview">
+
+* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+
+   * Project
+   * Task
+   * Issue
+   * Document
+
+   >[!TIP]
+   >
+   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+
+   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+</span>
+
+-->
+
+* Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;für
 
    * Probleme, Projekte, Aufgaben und Dokumente
 
   Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+<!--replace the second bullet with this on August 17: 
 
-* Standardmäßig als Haupterlebnis für die Kommentarfunktion:
+<span class="preview">
 
-   * Ziele, Karten im Bereich der Foren
+* By default, as the only commenting experience for the following objects:  
+
+  * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+>[!TIP]
+>
+>There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
+</span>
+
+-->
+
+* Standardmäßig als einziges Kommentarerlebnis für
+
+   * Ziele, Karten auf Pinnwänden
 
   >[!NOTE]
   >
   >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Beta:
+<!--display on August 17: 
+
+Depending on the environment you access the commenting experience you can do one of the following: 
+
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
+-->
+
+Beta-Kommentarfunktion aktivieren:
 
 1. Markieren Sie ein Objekt, für das Sie das neue Kommentierungserlebnis aktivieren möchten, und klicken Sie auf **Updates** im linken Bereich.
 1. Aktivieren Sie die **Kommentieren von Beta** in der oberen rechten Ecke des Bereichs Updates ein-/ausschalten.
@@ -516,3 +558,19 @@ Beta:
    Klicken Sie auf  **Systemaktivität** um die von Workfront erzeugten Aktivitätsaktualisierungen anzuzeigen.
 
    Weitere Informationen zum Aktualisieren von Objekten im neuen Kommentierungserlebnis finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--make this available for August 17: 
+
+<span class="preview">
+
+To disable the new commenting experience and display the legacy experience: 
+
+1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
+1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
+  
+  This changes the Updates area to the legacy commenting stream. 
+
+1. Start typing an update in the space provided. 
+</span>
+
+-->

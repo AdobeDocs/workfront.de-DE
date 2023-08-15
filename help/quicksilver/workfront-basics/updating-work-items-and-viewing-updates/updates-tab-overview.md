@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,31 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
 
 >[!NOTE]
 >
@@ -29,7 +53,7 @@ ht-degree: 4%
 >Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
 > * Probleme, Projekte, Aufgaben und Dokumente.
 >
->     Dies ist verfügbar, wenn Sie das Beta-Kommentar-Erlebnis aktivieren.
+>     Dies ist verfügbar, wenn Sie das neue Kommentarerlebnis aktivieren.
 >
 >     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
 >
@@ -50,6 +74,8 @@ Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die B
 Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf zugreifen, unterschiedlich organisiert.
 
 ### Übersicht über den Abschnitt &quot;Aktuelle Updates&quot;
+
+<!--October 26 - replace current with legacy-->
 
 * Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
 
@@ -89,8 +115,8 @@ Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf
 
 * Im Abschnitt &quot;Aktuelle Updates&quot;werden die folgenden Informationen angezeigt:
 
-   * Benutzeraktualisierungen: Kommentare von Benutzern und Antworten auf diese Kommentare.
-   * Systemaktualisierungen: Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Benutzeraktualisierungen**: Kommentare von Benutzern und Antworten auf diese Kommentare.
+   * **Systemaktualisierungen**: Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Die folgenden Objekte zeichnen keine Systemaktualisierungen auf:
 
@@ -98,9 +124,11 @@ Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf
    * Vorlage
    * Vorlagenaufgabe
 
-### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im Beta-Kommentierungserlebnis
+### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -111,7 +139,31 @@ Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis v
 
 * Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
 
-  <table style="table-layout:auto"> 
+<!--replace the table with this list on August 17: 
+
+    * Projects
+    * Tasks (and stories)
+    * Issues
+    * Documents
+
+    <span class="preview">
+    
+    * Templates
+    * Template Tasks
+    * Timesheets
+    * Users
+    * Portfolios
+    * Programs
+    
+    >[!NOTE]
+    >
+    >    You cannot display the new commenting experience for iterations. 
+
+    </span>
+  
+  -->
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +186,7 @@ Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis v
     </tbody> 
     </table>
 
-  *Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+*Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
 <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
@@ -227,7 +279,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
 >
 >Informationen zur Objekthierarchie in Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Es ist nicht möglich, auf Systemaktualisierungen im neuen Beta-Kommentarerlebnis zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> Es ist nicht möglich, auf Systemaktualisierungen in der neuen Kommentierungserfahrung zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Einschränkungen des Abschnitts Updates
 

@@ -6,20 +6,45 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '3460'
+source-wordcount: '3430'
 ht-degree: 1%
 
 ---
 
 # Update der Arbeit
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -151,6 +176,8 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 ### Hinzufügen eines Updates zu einem Arbeitselement im Abschnitt &quot;Aktuelle Updates&quot;
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >Die folgende Funktion ist für alle Objekte mit Ausnahme von Zielen und Karten verfügbar. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -209,15 +236,16 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 1. Informationen zum Antworten auf eine Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des Beta-Kommentarerlebnisses
+### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des neuen Kommentierungserlebnisses
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
 1. Klicks  **Updates** im linken Bereich.
-1. Aktivieren Sie die **Kommentieren von Beta** in der oberen rechten Ecke des Bereichs Updates ein- und klicken Sie dann auf **Zustimmen** zur Beta-Vereinbarung. Dadurch wird der Bereich Updates auf das Beta-Kommentarerlebnis umgestellt.
-Die **Kommentare** ist standardmäßig ausgewählt.
+
+   Die **Kommentare** ist standardmäßig ausgewählt.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
+   <!-- August 17 - add new screen shot and make yellow-->
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -245,6 +273,8 @@ Die **Kommentare** ist standardmäßig ausgewählt.
 1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu oder entfernen Sie sie oder einen der getaggten Benutzer.
 Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -254,6 +284,8 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
 
 1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 4 bis 8 oben. <!--(**************insure this stays accurate***********)--> Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -267,7 +299,9 @@ Sie können Ihren Kommentar innerhalb von 15 Jahren nach seiner Übermittlung be
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png). Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Bedingt und Optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+<!--August 17 - new screen shot and make yellow-->
+
+![](assets/members-icons-expanded-unshimmed.png)
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn das Objekt oder seine untergeordneten Elemente aktualisiert werden, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an.
 
    Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -313,6 +347,8 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 1. (Optional) Wenn Sie Text aus früheren Aktualisierungen oder aus anderen Quellen einbeziehen und von Ihrer eigenen Aktualisierung unterscheiden möchten, können Sie ihn als Blockzitat markieren. Klicken Sie auf **Blockierungsangebot** icon ![](assets/block-quote-small.png) und geben Sie den Text ein, den Sie zitieren möchten. Der zitierte Text wird mit einer vertikalen grauen Linie markiert. Klicken Sie auf **Blockierungsangebot** erneut ein, um zur normalen Formatierung zurückzukehren.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/block-quote-marked-350x144.png)
 
 1. (Optional) Fügen Sie Ihrem Update Emojis hinzu.
@@ -342,7 +378,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
    Oder
 
-   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer, wenn Sie das kommentierende Beta-Erlebnis verwenden. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und suchen Sie nach dem Bild auf Ihrem Computer, wenn Sie die neue Kommentarfunktion verwenden. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -366,6 +402,8 @@ Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link k
 Das Kopieren eines Updates hängt davon ab, welches Kommentierungserlebnis Sie verwenden.
 
 ### Kopieren einer Aktualisierung im aktuellen Kommentierungserlebnis
+
+<!--October 26 - replace current with legacy-->
 
 * [Aktualisieren kopieren](#copy-the-update)
 * [Den Thread-Link kopieren](#copy-the-thread-link)
@@ -431,7 +469,7 @@ Je nachdem, welchen Zugriff Ihr Workfront-Administrator Ihnen gewährt, können 
 Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisierungen löschen, die von einem anderen Benutzer vorgenommen wurden. Wenn die Zugriffsebene eines Benutzers es ihm jedoch ermöglicht, eigene Aktualisierungen zu löschen, kann sich der Workfront-Administrator als dieser Benutzer anmelden und die vorgenommenen Aktualisierungen löschen. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) und [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Gehen Sie zu dem Update oder der Antwort, das/die Sie löschen möchten.
-1. Klicken Sie auf **Mehr** neben der Aktualisierung oder Antwort, die Sie löschen möchten, klicken Sie auf **Löschen**.
+1. Klicken Sie auf **Mehr** neben der Aktualisierung oder Antwort, die Sie löschen möchten, klicken Sie auf **Löschen**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -442,6 +480,8 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
    >Wenn Sie eine Aktualisierung mit einem angehängten Bild löschen, werden sowohl der Kommentar als auch das Bild gelöscht. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
 
    Wenn dem Kommentar, den Sie löschen, Antworten zugeordnet sind, gibt es einen Hinweis darauf, dass der Kommentar mit dem Namen des Benutzers entfernt wurde, der ihn entfernt hat.
+
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
@@ -481,17 +521,17 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 >[!NOTE]
 >
 >Es ist nicht möglich, Systemaktualisierungen zu deaktivieren, wenn die neue Kommentarfunktion verwendet wird.
->Die Informationen in diesem Abschnitt beziehen sich nur auf die im Abschnitt &quot;Aktuelle Updates&quot;verfügbaren Funktionen.
+>Die Informationen in diesem Abschnitt beziehen sich nur auf die im Abschnitt &quot;Aktuelle Updates&quot;verfügbaren Funktionen. <!--October 26: replace current with legacy-->
 >Weitere Informationen zu Systemaktualisierungen in der Beta-Version finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Informationen angezeigt:
 
-* **Benutzeraktualisierungen:** Benutzeraktualisierungen sind Kommentare, die Sie und andere Benutzer in Ihrem System eingeben.
+* **Benutzeraktualisierungen:** Benutzeraktualisierungen sind Kommentare, die Sie und andere Benutzer in Ihrem System eingeben. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Systemaktualisierungen:** Das System aktualisiert den Datensatz zum Entfernen von Assets, zum Hinzufügen oder Löschen von Versionen, zum Anhängen oder Entfernen einer Genehmigungsanfrage sowie alle Änderungen oder Änderungen, die an den Dokumenten am Objekt vorgenommen wurden.
+* **Systemaktualisierungen:** Das System aktualisiert den Datensatz zum Entfernen von Assets, zum Hinzufügen oder Löschen von Versionen, zum Anhängen oder Entfernen einer Genehmigungsanfrage sowie alle Änderungen oder Änderungen, die an den Dokumenten am Objekt vorgenommen wurden. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/system-updates-cl-350x277.png)
 
