@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -23,7 +25,7 @@ Sie können einen ganzen Bericht - oder einen bestimmten Block - in ein Dateifor
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Bericht exportieren
 
@@ -37,7 +39,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >   * Wenn Sie einen Bericht mit mehreren Tabellen in ein XLSX-Format exportieren, enthält die exportierte Datei für jede Tabelle ein separates Blatt.
    >   * Wenn Sie einen Bericht mit mehreren Tabellen in ein CSV-Format exportieren, ist das exportierte Ergebnis ein komprimierter Ordner, der eine separate Datei für jede Tabelle enthält.
    >   * Wenn Sie eine Tabelle mit gruppierten Zeilen in ein CSV-Format exportieren, enthält die CSV-Datei alle Zeilen, die jedoch nicht in Gruppen angezeigt werden.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

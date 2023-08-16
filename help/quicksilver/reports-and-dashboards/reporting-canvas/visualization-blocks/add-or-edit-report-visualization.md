@@ -4,7 +4,9 @@ description: Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der B
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%
@@ -25,7 +27,7 @@ Sie können die folgenden Visualisierungstypen zu einem Bericht hinzufügen:
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Visualisierungsbausteine hinzufügen oder bearbeiten
 
@@ -34,13 +36,13 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 >Alle Ihre Änderungen werden automatisch gespeichert, wenn Sie die Blöcke in Ihrem Bericht erstellen und bearbeiten.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicken **Neuer Bericht** erstellen Sie dann einen Bericht mit Tabellen, die Daten enthalten, wie unter [Erstellen eines Berichts auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) und [Hinzufügen oder Bearbeiten von Tabellenblöcken in der Arbeitsfläche für Berichte](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Klicks **Neuer Bericht** erstellen Sie dann einen Bericht mit Tabellen, die Daten enthalten, wie unter [Erstellen eines Berichts auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) und [Hinzufügen oder Bearbeiten von Tabellenblöcken in der Arbeitsfläche für Berichte](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Oder
 
-   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf die **Mehr Menü** icon ![](assets/more-icon.png) im Berichtkopf und wählen Sie dann **Bearbeiten**.
+   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf die **Mehr Menü** icon ![](assets/more-icon.png) in der Berichtüberschrift und wählen Sie **Bearbeiten**.
 
-1. Auf der rechten Bildschirmseite unter **Baustein hinzufügen**, entweder:
+1. Auf der rechten Seite des Bildschirms unter **Baustein hinzufügen**, entweder:
 
    Ziehen Sie die **Visualisierung** *** auf der Arbeitsfläche direkt zu Ihrer gewünschten Position.
 

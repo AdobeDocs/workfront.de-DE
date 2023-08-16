@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -44,17 +46,17 @@ Oder Sie können nur Projekte anzeigen, denen ein Projekteigentümer zugewiesen 
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurieren von Filterregeln für eine Tabelle
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
 
-1. Klicken **Neuer Bericht**.
+1. Klicks **Neuer Bericht**.
 
    Oder
 
-   Gehen Sie zu einem vorhandenen Bericht und klicken Sie auf die Schaltfläche **Mehr Menü** icon ![](assets/more-icon.png) im Berichtkopf und wählen Sie dann **Bearbeiten**.
+   Gehen Sie zu einem vorhandenen Bericht und klicken Sie auf die Schaltfläche **Mehr Menü** icon ![](assets/more-icon.png) in der Berichtüberschrift und wählen Sie **Bearbeiten**.
 
 1. Um Zeilen auf einer neuen Tabelle zu gruppieren, ziehen Sie einen Tabellenblock auf die Arbeitsfläche oder doppelklicken Sie darauf.
 
@@ -89,7 +91,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
       <td> <p>Das Feld, nach dem Sie filtern, ist vorhanden und hat einen Wert.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>Ist kleiner als</strong> </td> 
       <td> <p>Hierbei wird nach allen Ergebnissen gesucht, deren Wert kleiner ist als der eingegebene Wert, ohne den eingegebenen Wert einzuschließen.</p> </td> 
      </tr> 
      <tr> 
@@ -97,7 +99,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
       <td> <p>Hierbei werden alle Ergebnisse gesucht, deren Wert kleiner oder gleich dem eingegebenen Wert ist.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Greater Than</strong> </td> 
+      <td role="rowheader"><strong>Ist größer als</strong> </td> 
       <td> <p>Hierbei wird nach allen Ergebnissen gesucht, deren Wert größer als der eingegebene Wert ist, ohne den eingegebenen Wert einzuschließen.</p> </td> 
      </tr> 
      <tr> 
@@ -110,10 +112,10 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Enthält</strong> </td> 
-      <td> <p>Dadurch wird in einer gesamten Textzeichenfolge nach dem angegebenen Text gesucht.</p> <p>Beispielsweise erfasst die Verwendung von "Enthält Inf"alles mit "Inf"oder "inf", z. B. das Wort "Unendlichkeit".</p> <p>Hinweis: Adobe Workfront sucht nach dem gesamten Wort bzw. der gesamten Wortgruppe, die Sie für jede Filterregel eingeben. Wenn Sie beispielsweise nach Feldern suchen, deren Name die Wortgruppe "neues Projekt"enthält, zeigt Workfront keine Projekte an, deren Namen nur "neues Projekt"oder "Projekt"enthalten, oder Ausdrücke, die dazwischen zusätzliche Wörter enthalten, z. B. "neues Hauptprojekt". Der Filter findet nur Projekte mit dem genauen Wortlaut "neues Projekt"im Namen.</p> </td> 
+      <td> <p>Dadurch wird in einer gesamten Textzeichenfolge nach dem angegebenen Text gesucht.</p> <p>Beispielsweise erfasst die Verwendung von "Enthält Inf"alles mit "Inf"oder "inf", z. B. das Wort "Unendlichkeit".</p> <p>Hinweis: Adobe Workfront sucht nach dem gesamten Wort bzw. der gesamten Wortgruppe, die bzw. die Wortgruppe, die Sie für jede Filterregel eingeben. Wenn Sie beispielsweise nach Feldern suchen, deren Name die Wortgruppe "neues Projekt"enthält, zeigt Workfront keine Projekte an, deren Namen nur "neues Projekt"oder "Projekt"enthalten, oder Ausdrücke, die dazwischen zusätzliche Wörter enthalten, z. B. "neues Hauptprojekt". Der Filter findet nur Projekte mit dem genauen Wortlaut "neues Projekt"im Namen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Beinhaltet nicht</strong> </td> 
+      <td role="rowheader"><strong>Enthält nicht</strong> </td> 
       <td> <p>Dadurch werden Elemente herausgefiltert, die angegebenen Text fehlen.</p> <p>Beispielsweise gibt "enthält nicht inf"alle Felder zurück, deren Namen "Inf"oder "inf"enthalten.</p> </td> 
      </tr> 
     </tbody> 
@@ -154,6 +156,6 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
 1. (Bedingt) Gehen Sie wie folgt vor, um einen zusätzlichen Filterregelsatz hinzuzufügen:
 
-   1. Ziehen Sie das Feld, das Sie hinzufügen möchten, zum **Regelsatz hinzufügen** Bereich unterhalb Ihrer anderen Filterregelsätze.
+   1. Ziehen Sie das Feld, das Sie hinzufügen möchten, zum **Hinzufügen eines Regelsatzes** Bereich unterhalb Ihrer anderen Filterregelsätze.
    1. Wiederholen Sie die Schritte 4 bis 7.
    1. Wählen Sie im Dropdown-Menü Operator links im neuen Regelsatz die Option **UND** oder **ODER**. Diese Operatoren funktionieren genauso wie die in Schritt 7 aufgeführten, gelten jedoch für ganze Regelsätze im Gegensatz zu einzelnen Regeln innerhalb eines Satzes.****

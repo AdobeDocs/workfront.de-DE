@@ -4,7 +4,9 @@ description: Konfigurieren einer Spaltenvisualisierung auf der Berichtsarbeitsfl
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -18,7 +20,7 @@ Eine Spaltenvisualisierung kann Ihnen dabei helfen, schnell eine Geschichte übe
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Spaltenvisualisierung konfigurieren
 
@@ -28,7 +30,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
 1. Beginnen Sie mit dem Hinzufügen eines Visualisierungsblocks mit der **Spalte** Visualisierungstyp zu einem Bericht hinzufügen, wie hier beschrieben: [Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Klicken Sie auf das Symbol Visualisierung bearbeiten . ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie einen der folgenden Schritte aus.
+1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie einen der folgenden Schritte aus.
 
    1. Im **Einstellungen** tab:
 

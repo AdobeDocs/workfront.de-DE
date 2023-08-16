@@ -6,7 +6,9 @@ description: Mit Webinhaltblöcken können Sie Informationen von externen Websit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -20,18 +22,18 @@ Mit Webinhaltblöcken können Sie Informationen von externen Websites direkt in 
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Webinhaltsbausteine hinzufügen oder bearbeiten
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicken **Neuer Bericht**.
+1. Klicks **Neuer Bericht**.
 
    Oder
 
    Gehen Sie zu einem vorhandenen Bericht und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/more-icon-27x15.png) Klicken Sie in der Berichtüberschrift auf **Bearbeiten**.
 
-1. Auf der rechten Bildschirmseite unter **Baustein hinzufügen**, entweder:
+1. Auf der rechten Seite des Bildschirms unter **Baustein hinzufügen**, entweder:
 
    Ziehen Sie die **Webinhalt** auf der Arbeitsfläche direkt zu Ihrer gewünschten Position.
 
@@ -43,7 +45,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >
    >Sie können die Größe des Blocks nach seiner Platzierung durch Ziehen der Ecken-Griffe ändern.
 
-1. Klicken **Unbenannter Webinhalt** Geben Sie in die Kopfzeile des Blocks einen Titel für den Block ein.
+1. Klicks **Unbenannter Webinhalt** Geben Sie in die Kopfzeile des Blocks einen Titel für den Block ein.
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) in der Blockkopfzeile.
 
    ![](assets/web-content-block-header-350x76.png)
@@ -62,7 +64,6 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >   * domo.com
    >   * looker.com
 
-
    Unter Ihrer eingegebenen URL wird ein Warnhinweis angezeigt, wenn sie nicht eingebettet werden kann. Zu diesen Warnungen gehören:
 
    | Warnungsname | Grund |
@@ -76,6 +77,6 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
    >[!WARNING]
    >
-   >Übergabeparameter sind derzeit deaktiviert.
+   >Parameter für die Weiterleitung sind derzeit deaktiviert.
 
-1. Klicken **Einbetten-URL** , um Ihre Auswahl zu speichern und zu Ihrem Bericht zurückzukehren.
+1. Klicks **Einbetten-URL** , um Ihre Auswahl zu speichern und zu Ihrem Bericht zurückzukehren.

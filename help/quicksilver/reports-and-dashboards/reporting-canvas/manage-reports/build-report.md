@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Sie können einen Bericht erstellen, indem Sie eindeutige Bausteine auf die Arbe
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Erstellen eines Berichts
 
@@ -28,7 +30,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 >Alle Ihre Änderungen werden automatisch gespeichert, wenn Sie die Blöcke in Ihrem Bericht erstellen und bearbeiten.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicken **Neuer Bericht**.
+1. Klicks **Neuer Bericht**.
 1. Geben Sie in der linken oberen Ecke der Bearbeitungsarbeitsfläche einen Namen für den Bericht ein.
 
    Sie können den Namen des Berichts jederzeit ändern, indem Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) neben seinem Namen.
@@ -49,7 +51,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr> 
      <tr> 
       <td role="rowheader">Visualisierung <img src="assets/visualization-icon.png"></td> 
-      <td> <p>Fügen Sie eine Datenvisualisierung hinzu, die auf den Daten eines Tabellenblocks basiert.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche</a>.</p> </td> 
+      <td> <p>Fügen Sie eine Datenvisualisierung hinzu, die auf den Daten in einem Tabellenblock basiert.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche</a>.</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Story</td> 
@@ -86,7 +88,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
      </tr> 
      <tr> 
       <td role="rowheader">Baustein neu positionieren</td> 
-      <td> Wählen Sie einen Block aus, klicken Sie auf den Ziehpunkt und ziehen Sie ihn. <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> in der linken oberen Ecke des Blocks, um ihn über, unter oder neben einen anderen Block zu verschieben.</td> 
+      <td> Wählen Sie einen Block aus, klicken Sie auf und ziehen Sie den Ziehpunkt <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> in der linken oberen Ecke des Blocks, um ihn über, unter oder neben einen anderen Block zu verschieben.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -99,11 +101,11 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
     <tbody> 
      <tr> 
       <td role="rowheader">Freigeben in Workfront</td> 
-      <td> <p>Klicken <strong>Freigeben</strong> oben rechts, um bestimmten Benutzern Zugriff auf den Bericht zu gewähren.</p> </td> 
+      <td> <p>Klicks <strong>Freigeben</strong> oben rechts, um bestimmten Benutzern Zugriff auf den Bericht zu gewähren.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Als Datei exportieren</td> 
-      <td>Klicken Sie nach dem Verlassen des Bearbeitungsbereichs auf das <strong>Mehr Menü</strong> icon <img src="assets/more-icon.png"> neben dem Namen des Berichts klicken Sie auf <strong>Export</strong>.</td> 
+      <td>Klicken Sie nach dem Verlassen des Bearbeitungsbereichs auf das <strong>Mehr Menü</strong> icon <img src="assets/more-icon.png"> neben dem Berichtnamen klicken und <strong>Export</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bericht favorisieren</td> 

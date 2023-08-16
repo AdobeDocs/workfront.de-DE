@@ -4,7 +4,9 @@ description: Konfigurieren einer Balkenvisualisierung auf der Berichtsarbeitsfl�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -18,7 +20,7 @@ Mit einer Balkenvisualisierung können Sie schnell eine Geschichte über Ihre Da
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurieren einer Balkenvisualisierung
 
@@ -28,7 +30,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
 1. Beginnen Sie mit dem Hinzufügen eines Visualisierungsblocks mit der **Balken** Visualisierungstyp zu einem Bericht hinzufügen, wie hier beschrieben: [Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Klicken Sie auf das Symbol Visualisierung bearbeiten . ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie einen der folgenden Schritte aus.
+1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie einen der folgenden Schritte aus.
 
    1. Im **Einstellungen** tab:
 

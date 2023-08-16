@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -19,12 +21,12 @@ Eine Tabelle zeigt Feldinformationen in Spalten an, die gefiltert, gruppiert und
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Hinzufügen oder Bearbeiten von Tabellenblöcken
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicken **Neuer Bericht**.
+1. Klicks **Neuer Bericht**.
 
    Oder
 
@@ -42,11 +44,11 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >
    >Sie können die Größe des Blocks nach seiner Platzierung durch Ziehen der Ecken-Griffe ändern.
 
-1. Klicken **Unbenannte Tabelle** Geben Sie in die Tabellenüberschrift einen Titel für die Tabelle ein.
+1. Klicks **Unbenannte Tabelle** Geben Sie in die Tabellenüberschrift einen Titel für die Tabelle ein.
 
    ![](assets/table-name-350x142.png)
 
-1. Klicken **Bearbeiten** in der Mitte des Tabellenblocks, um die Tabelle zu konfigurieren.
+1. Klicks **Bearbeiten** in der Mitte des Tabellenblocks, um die Tabelle zu konfigurieren.
 
    >[!NOTE]
    >
@@ -69,5 +71,5 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 1. Führen Sie einen der folgenden Schritte aus, um die Tabelle weiter zu konfigurieren:
 
    * **Formelfeld hinzufügen**: Klicken **Neu +** oben im **Felder** Liste. Weitere Informationen zum Erstellen eines Formelfelds finden Sie unter [Erstellen eines Formelfelds in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **Filter hinzufügen**: Ziehen Sie das Feld, nach dem die Tabelle gefiltert werden soll, auf die **Filter** oberhalb der Tabelle. Weitere Informationen zum Einrichten von Filterregeln finden Sie unter [Tabelle in Berichtsarbeitsfläche filtern](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **Filter hinzufügen**: Ziehen Sie das Feld, nach dem die Tabelle gefiltert werden soll, auf den **Filter** oberhalb der Tabelle. Weitere Informationen zum Einrichten von Filterregeln finden Sie unter [Tabelle in Berichtsarbeitsfläche filtern](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
    * **Gruppieren von Zeilen nach bestimmten Attributen**: Ziehen Sie das Feld, nach dem die Tabelle gruppiert werden soll, auf den **Gruppe** oberhalb der Tabelle. Weitere Informationen zum Erstellen von Zeilengruppen finden Sie unter [Gruppieren von Tabellenzeilen in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

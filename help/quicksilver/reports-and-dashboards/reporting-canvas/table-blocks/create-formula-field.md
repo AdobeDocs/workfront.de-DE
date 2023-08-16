@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 7%
@@ -19,7 +21,7 @@ Mit dem Feld-Builder auf der Arbeitsfläche für die Berichterstellung können S
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Erstellen eines Formelfelds
 
@@ -32,7 +34,7 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >
    >Wenn Sie die Tabelle gerade erstellt haben und noch keine Felder hinzugefügt haben, klicken Sie stattdessen in der Tabellenmitte auf die Schaltfläche Bearbeiten .
 
-1. Klicken **Neu +** oben im **Felder** Liste im rechten Bereich.
+1. Klicks **Neu +** oben im **Felder** Liste im rechten Bereich.
 1. Klicken Sie auf der sich öffnenden neuen Seite auf die **Bearbeiten** icon ![](assets/edit-icon.png) neben dem Feldnamen in der oberen linken Ecke, um den Namen des Formelfelds zu ändern.
 1. Ziehen **Funktionen** oder **Felder** aus dem linken Bereich in den Feld-Builder in der Mitte, um sie zum Formelfeld hinzuzufügen.
 
