@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
 
 # Liste der verfügbaren Blueprints
 
-Folgendes [!DNL Adobe Workfront] Für Systemadministratoren stehen Blueprints zur Installation zur Verfügung. Weitere Informationen zu Blueprints finden Sie unter [Blueprints - Übersicht](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+Die folgenden [!DNL Adobe Workfront] Für Systemadministratoren stehen Blueprints zur Installation zur Verfügung. Weitere Informationen zu Blueprints finden Sie unter [Blueprints - Übersicht](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
 **[!UICONTROL Neue IT-Checkliste für Mitarbeiter hinzufügen]**
 Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professionelle Dienstleistungsorganisation hat sich seit Jahren im Rahmen von Implementierungsinteraktionen mit IT-Teams des Unternehmens eingesetzt, um neue Onboarding-Aktivitäten für Mitarbeiter zu organisieren. Durch die Verwendung dieser Vorlage können IT-Teams effizient arbeiten, was zu einer positiven neuen Mitarbeitererfahrung und einer schnelleren Verfolgung der Produktivität führt.
@@ -25,7 +25,7 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professione
 **[!UICONTROL Jährliche Budgetplanung]**
 Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professionelle Dienstleistungsorganisation hat sich seit Jahren im Rahmen von Implementierungsinteraktionen mit Finanzteams für die Organisation der Aktivitäten im Zusammenhang mit der jährlichen Haushaltsplanung eingesetzt. Die Vorlage hilft bei der Festlegung von Erwartungen mit Geschäftsbereichsleitern und leitet sie durch den Prozess, während des jährlichen Planungsprozesses Budgets anzufordern und zu reservieren.
 
-**[!UICONTROL Versandplan für vertraglich vereinbarte Dienstleistungen]**
+**[!UICONTROL Bereitstellungsplan für vertraglich vereinbarte Dienstleistungen]**
 Dieser Blueprint enthält eine Vorlage, die die Arbeit im Zusammenhang mit der Bereitstellung kundenorientierter Dienste organisiert. Sie soll einen einheitlichen Ansatz für die Erbringung vertraglich vereinbarter Dienstleistungen schaffen.
 
 **[!UICONTROL Corporate Event Plan]**
@@ -64,6 +64,9 @@ Dieser Entwurf enthält die Konfiguration von Organisationsstrukturen, die auf e
 **[!UICONTROL Einrichtung der Informationstechnologie]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, die auf ein Anwendungsbeispiel für Informationstechnologie erweitert werden.
 
+**[!UICONTROL Vererbte Instanzgrundlagen | Checkliste]**
+Dieser Blueprint enthält eine Projektvorlage (oder Checkliste), die Sie mit einer kurzen Liste von Fragen, Ressourcen und Links überprüfen können, um ein klares Verständnis der Konfiguration Ihrer Workfront-Instanz zu erhalten. Verwenden Sie dies, wenn Sie kürzlich eine Workfront-Instanz geerbt haben und eine Anleitung zum Starten benötigen.
+
 **[!UICONTROL Integrierte Kampagnenausführung]**
 Die [!UICONTROL Integrierte Kampagnenausführung] Blueprint enthält eine einzelne Projektvorlage, die die verteilte Arbeit über mehrere Teams hinweg organisiert, um eine Kampagne mit mehreren Kanälen auszuführen.
 
@@ -76,14 +79,14 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront professional ser
 **[!UICONTROL Neue Mietbereitschaft]**
 Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professionelle Dienstleistungs-Organisation nutzt seit Jahren im Rahmen von Implementierungsverträgen mit Personal-Teams, um Personalspezialisten und Personalverantwortliche zu veranlassen, wichtige Tätigkeiten auszuführen, um den ersten Tag eines neuen Mitarbeiters bemerkenswert zu machen.
 
-**[!UICONTROL Nach der Implementierung: Rollout neuer Anwendungsfälle]**
+**[!UICONTROL Nach der Implementierung: Neuer Anwendungsfall-Rollout]**
 Dieser Blueprint enthält eine einzelne Vorlage, die die Arbeit organisiert, die ein [!DNL Workfront] Der Kunde muss abgeschlossen sein, um die Erweiterung auf die nächsten Prozesse nach der ersten Implementierung verwalten zu können.
 
 **[!UICONTROL Drucken von Asset-Produktion] (integriert)**
-Die [!UICONTROL Drucken von Asset-Produktion] enthält eine Vorlage, die die Arbeit für einen standardmäßigen Druckproduktionsprozess organisiert. Die Vorlage bietet einen schlanken Prozess für die Erstellung von Original-Druck-Assets für ein Team, das Standardarbeitsanweisungen verwendet, um zu definieren, wie die Arbeit ausgeführt werden soll, und verwendet das Projekt nur, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
+Die [!UICONTROL Drucken von Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit für einen standardmäßigen Druckproduktionsprozess organisiert. Die Vorlage bietet einen schlanken Prozess für die Erstellung von Original-Druck-Assets für ein Team, das Standardarbeitsanweisungen verwendet, um zu definieren, wie die Arbeit ausgeführt werden soll, und verwendet das Projekt nur, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
 
 **[!UICONTROL Drucken von Asset-Produktion] (verwaltet)**
-Die [!UICONTROL Drucken von Asset-Produktion] enthält eine Vorlage, die die Arbeit für einen standardmäßigen Druckproduktionsprozess organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Druck-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Druckinhalten zu erstellen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für gedruckte Materialien an.
+Die [!UICONTROL Drucken von Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit für einen standardmäßigen Druckproduktionsprozess organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Druck-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Druckinhalten zu erstellen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für gedruckte Materialien an.
 
 **[!UICONTROL Drucken: Briefpost-Asset-Produktion]**
 Diese [!UICONTROL Drucken: Briefpost-Asset-Produktion] blueprint organisiert die Arbeit für einen Produktionsprozess für Druckmaterial. Dieser Blueprint dient als Ausgangspunkt für die Verwaltung von Druckmaterial, insbesondere Briefpost, in Workfront.
@@ -107,7 +110,7 @@ Dieser Blueprint definiert eine Checkliste für interne Rekrutierungsressourcen,
 Die [!UICONTROL Social Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Die Vorlage bietet einen schlanken Prozess für die ursprüngliche Erstellung von Social-Assets für ein Team, das Standardarbeitsanweisungen verwendet, um zu definieren, wie die Arbeit ausgeführt werden soll, und verwendet das Projekt nur, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
 
 **[!UICONTROL Social Asset-Produktion] (verwaltet)**
-Die [!UICONTROL Social Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Social-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für alle Prozesse zur Erstellung sozialer Inhalte zu schaffen, indem Sie es an die Anforderungen anderer kreativer Prozesse für soziale Inhalte anpassen.
+Die [!UICONTROL Social Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Dieses Paket dient als Ausgangspunkt für die Verwaltung der Erstellung von Social-Assets in Workfront. Verwenden Sie dieses Paket, um eine Grundlage für alle Prozesse zur Erstellung sozialer Inhalte zu schaffen, indem Sie es an die Anforderungen anderer kreativer Prozesse für soziale Inhalte anpassen.
 
 **[!UICONTROL Software-Implementierungen/App-Entwicklung]**
 Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professionelle Dienstleistungsorganisation arbeitet seit Jahren im Rahmen von Implementierungsinteraktionen mit IT-Teams an der Installation von Drittanbieterlösungen oder der Erstellung interner Dienstprogramme und Anwendungen.
@@ -119,7 +122,7 @@ Dieser Blueprint enthält ein Dashboard, das Systemadministratoren bei der Wartu
 Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die den Arbeitsprozess für einen standardmäßigen Videoproduktionsprozess organisiert. Die Vorlage bietet einen schlanken Prozess für die Erstellung von Original-Video-Assets für ein Team, das Standardarbeitsanweisungen verwendet, um zu definieren, wie die Arbeit ausgeführt werden soll, und verwendet das Projekt nur, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
 
 **[!UICONTROL Video-Asset-Produktion] (verwaltet)**
-Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit für einen standardmäßigen Videoproduktionsprozess organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Video-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Videoinhalten zu erstellen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für spezialisierte Arten von Videomaterial an.
+Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die die Arbeit für einen standardmäßigen Videoproduktionsprozess organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Videoasset-Erstellung in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Videoinhalten zu erstellen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für spezialisierte Arten von Videomaterial an.
 
 **[!UICONTROL [!DNL Workfront]Kommunikations- und Launch-Vorlage]**
 

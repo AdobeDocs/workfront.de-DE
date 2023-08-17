@@ -6,9 +6,9 @@ description: Sie können Aktualisierungen eines Dokuments hinzufügen oder darau
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -44,29 +44,23 @@ Sie müssen über Folgendes verfügen:
 
 ## Hinzufügen von Dokumentaktualisierungen oder Antworten darauf
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Suchen Sie das gewünschte Dokument.
+1. Wechseln Sie zum Objekt, das das Dokument enthält, und wählen Sie dann **Dokumente** im linken Bereich.
+1. Suchen Sie das benötigte Dokument und führen Sie einen der folgenden Schritte aus:
 
-1. In der Zusammenfassung unter **Updates** klicken **Neue Aktualisierung starten**. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
+   * Klicken Sie auf das Dokument in der Liste und anschließend auf die **Zusammenfassung öffnen** icon ![](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und klicken Sie auf **Neue Aktualisierung starten** oder klicken Sie **Antwort** , um eine Antwort zu einem vorhandenen Kommentar hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
+   * Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Dokumentdetails**, dann **Updates** im linken Bereich.
+Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Oder
+   Die Aktualisierungen und Antworten werden dem Dokument und den übergeordneten Objekten hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierung der Abschnittsübersicht](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-   Klicken Sie unter einem vorhandenen Kommentar auf **Antwort**. Klicken Sie dann auf **Antwort eingeben**.
 
-1. Geben Sie Ihren Kommentar oder Ihre Antwort ein.
-1. (Optional) Wenn Sie einen Benutzer taggen möchten, um ihn über Ihren Kommentar oder Ihre Antwort zu benachrichtigen, beginnen Sie mit der Eingabe des Benutzernamens in die **Benachrichtigen** und wählen Sie dann den Namen aus, wenn er in der Dropdown-Liste angezeigt wird.
-1. (Optional) Um die Genehmigung für das Dokument anzufordern, klicken Sie auf **Bitten Sie um Genehmigung.**
-
-1. (Optional) Aktivieren Sie **Privatperson in meinem Unternehmen** , wenn Sie verhindern möchten, dass Benutzer außerhalb Ihres Unternehmens Ihre Aktualisierung anzeigen.
-1. Klicken **Aktualisieren** wenn Sie eine neue Aktualisierung hinzugefügt haben, oder klicken Sie auf **Antwort** , wenn Sie auf eine Aktualisierung geantwortet haben.
-
-## Hinzufügen einer Antwort zu einem Testkommentar für ein Dokument
+## Antworten zu Testkommentaren für Dokumente hinzufügen
 
 Wenn Sie im Bereich &quot;Updates&quot;auf einen Kommentar antworten, den ein Benutzer beim Testen eines Dokuments erstellt hat, wird der Testversand-Viewer gestartet, damit Sie dort Ihre Antwort mit dem benötigten Kontext eingeben können. Ihre Antwort wird sowohl im Testversand-Viewer als auch im Bereich Updates für das Dokument angezeigt.
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicken **Testversand ausfüllen**, geben Sie den Kommentar in den Proofing-Viewer ein, der gestartet wird, und klicken Sie dann auf **Antwort**.
+1. Klicks **Testversand ausfüllen**, geben Sie den Kommentar in den zu startenden Testversand-Viewer ein und klicken Sie dann auf **Antwort**.
 
-   Informationen zum Eingeben von Kommentaren und Antworten in den Testversand-Viewer finden Sie unter [Testversand-Kommentar](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Informationen zum Eingeben von Kommentaren und Antworten in den Testversand-Viewer finden Sie unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).

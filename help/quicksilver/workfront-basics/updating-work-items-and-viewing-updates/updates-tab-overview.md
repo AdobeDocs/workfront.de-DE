@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 4%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>\
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
+>
+>Je nachdem, aus welcher Umgebung und welchen Objekten Sie auf das Kommentierungserlebnis zugreifen, werden im Abschnitt Updates möglicherweise unterschiedliche Funktionen angezeigt.
+>
+>Weitere Informationen über das neue Kommentierungserlebnis und dessen Verfügbarkeit finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Das neue Kommentarerlebnis ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>
+> * Startseite
+> * Zusammenfassungsbereich in Listen
+> * Zusammenfassungsbereich in Timesheets
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 4%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->Für die folgenden Objekte können Sie auf das neue Erlebnis zugreifen:
-> * Probleme, Projekte, Aufgaben und Dokumente.
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     Dies ist verfügbar, wenn Sie das neue Kommentarerlebnis aktivieren.
+>     This is available when you enable the new commenting experience.
 >
->     Diese Funktion ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * Startseite
->     * Zusammenfassungsbereich in Listen
->     * Zusammenfassungsbereich in Timesheets
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * Ziele, Karten im Bereich der Foren
+> * Goals, cards in the Boards area
 >
->   Das neue Kommentarerlebnis ist das einzige Erlebnis für Ziele und Karten. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Anforderungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
-
-Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf zugreifen, unterschiedlich organisiert.
-
-### Übersicht über den Abschnitt &quot;Aktuelle Updates&quot;
-
-<!--October 26 - replace current with legacy-->
 
 * Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
 
@@ -106,12 +103,20 @@ Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf
       <li>Vorlagenaufgaben</li> 
       <li>Arbeitszeittabellen</li> 
       <li>Benutzende</li>
+      <li>Karten auf Pinnwänden</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *Geschichten sind Aufgaben. Alle Informationen zu Aufgaben stehen auch für Meldungen zur Verfügung.
+
+Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf zugreifen, unterschiedlich organisiert.
+
+
+### Übersicht über den Abschnitt &quot;Aktuelle Updates&quot;
+
+<!--October 26 - replace current with legacy-->
 
 * Im Abschnitt &quot;Aktuelle Updates&quot;werden die folgenden Informationen angezeigt:
 
@@ -128,74 +133,88 @@ Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
    * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * Projekte
+   * Aufgaben (und Meldungen)
+   * Probleme
+   * Dokumente
+   * Ziele
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * Karten auf Pinnwänden
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * Vorlagen
+   * Vorlagenaufgaben
+   * Arbeitszeittabellen
+   * Benutzende
+   * Portfolios
+   * Programme
+
+  >[!NOTE]
+  >
+  >    Sie können das neue Kommentarerlebnis für Iterationen nicht anzeigen.
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>Ziele</p>
-        <li>Karten im Bereich der Karten*</li>
-          Dies ist das einzige Erlebnis für Ziele und Karten.
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>Projekte</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>Probleme</li> 
-        <li>Aufgaben</li>
-        <li>Dokumente</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*Sie können Karten in den Bereichen Pinnwand hinzufügen und Aktualisierungen anzeigen, wenn Sie die Abschnitte Kommentare und Systemaktivität auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
@@ -287,7 +306,11 @@ Im Abschnitt Updates eines Teams und bei der Eingabe von Updates für andere Ben
 
 ### Einschränkungen für Benutzer und Teams
 
-Sie können keine Aktualisierungen für Teams vornehmen. Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
+Im Abschnitt Updates eines Teams können Sie keine neuen Kommentare hinzufügen.
+
+<span class="preview">Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört. </span>
+
+Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
 
 * Benutzende
 * Arbeitszeittabellen
