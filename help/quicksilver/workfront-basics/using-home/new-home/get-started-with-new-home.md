@@ -5,10 +5,10 @@ title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Leicht</td>
-        <td>Meine Arbeit, die auf meine Genehmigung wartet, Aufgaben</td>
+        <td>Meine Arbeit, die auf meine Genehmigung wartet</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+        <td>Meine Arbeit, Erwähnungen</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung, Aufgaben</td>
+        <td>Warten auf meine Genehmigung</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Überarbeitung</td>
-        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+        <td>Meine Arbeit, Erwähnungen</td>
     </tr>
     <tr>
         <td>Begrenzt</td>
-        <td>Meine Projekte, die auf meine Genehmigung warten, Aufgaben</td>
+        <td>Meine Projekte warten auf meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
+        <td>Meine Arbeit, Erwähnungen</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung, Aufgaben</td>
+        <td>Warten auf meine Genehmigung</td>
     </tr>
 </table>
 
