@@ -6,19 +6,22 @@ description: Sie können in den folgenden Bereichen in Adobe Workfront - EDIT ME
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
 
+{{preview-and-fast-release}}
+
 Sie können in den folgenden Bereichen in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen:
 
 * Der Bereich &quot;Globale Dokumente&quot;
 * Der Dokumentbereich für ein Workfront-Objekt
+* <span class="preview">Eine verbundene Karte auf einer Workfront-Pinnwand</span>
 
 Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Drittanbieter-Cloud-Anbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Weitere Informationen zum Hinzufügen neuer Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Drittanbieter-Cloud-Anbietern finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -59,7 +62,7 @@ Sie können Workfront über das Dateisystem auf Ihrer Workstation neue Dokumente
 >
 >Zwar gibt es keine Größenbeschränkung für Dokumenten-Uploads, doch sind Dokumentdownloads auf 4 GB beschränkt.
 
-So fügen Sie ein Dokument hinzu:
+Hinzufügen eines Dokuments:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, dem Sie ein neues Dokument hinzufügen möchten.
 1. Klicken Sie auf **Dokumente** und klicken Sie auf die **Neu hinzufügen** Dropdown-Menü.
@@ -78,7 +81,7 @@ So fügen Sie ein Dokument hinzu:
        <ol> 
         <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Dokument.</strong></li> 
         <li value="2"> <p>Suchen Sie das Dokument, das Sie hinzufügen möchten, und wählen Sie es aus dem Dateisystem auf Ihrer Workstation aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste drücken, während Sie zusätzliche Dateien auswählen.</p> </li> 
-        <li value="3">Klicken <strong>Öffnen</strong>.</li> 
+        <li value="3">Klicks <strong>Öffnen</strong>.</li> 
        </ol> 
        <p><b>NOTE</b>: Sie können Dateien auch direkt aus Ihrem Dateimanager in die Dokumentliste ziehen.</td> 
      </tr> 
@@ -96,8 +99,8 @@ So fügen Sie ein Dokument hinzu:
        <ol> 
         <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Anfordern eines Dokuments</strong>.</li> 
         <li value="2">Im <strong>Von wem angefordert du es?</strong> Geben Sie den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
-        <li value="3">Im <strong>Sagen Sie ihnen, was Sie anfordern</strong> den Namen des Dokuments eingeben.</li> 
-        <li value="4"> <p>Klicken <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
+        <li value="3">Im <strong>Sagen Sie ihnen, was Sie anfordern</strong> -Feld den Namen des Dokuments eingeben.</li> 
+        <li value="4"> <p>Klicks <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

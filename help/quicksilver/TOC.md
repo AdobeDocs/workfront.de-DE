@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -799,7 +799,7 @@ ht-degree: 1%
          * [Liste exportieren](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Inline-Bearbeitungselemente in einer Liste in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [Anzeige einer Liste ändern](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-      * [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+      * [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [Übersicht über die Navigationsleiste oben](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
       * [Linke Navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Karten verwalten](agile/get-started-with-boards/move-board-items.md)
       * [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Hinzufügen von Dokumenten zu Karten](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Karte aus einer Pinnwand löschen oder archivieren](agile/get-started-with-boards/delete-board-items.md)
       * [Filtern und Suchen in einer Pinnwand](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1551,7 +1552,7 @@ ht-degree: 1%
          * [Gruppierung: Sortieren Sie die Ergebnisse der Liste nach einem berechneten Wert, der allen Objekten der Gruppierung entspricht.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Gruppierung: Anzeige des Ergebnisses der Aggregation mehrerer berechneter Werte in einer Gruppierung](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
          * [Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
-         * [Gruppierung: Verteilung in Prozent 1 des Projekts](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+         * [Gruppierung: Projekt-Prozentverteilung 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
          * [Gruppierung: Projekt-Prozentverteilung 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
          * [Gruppierung: Projekte nach Datum der Einsendung](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
          * [Gruppierung: Projekt-Sponsor für Stunden](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
@@ -1842,7 +1843,7 @@ ht-degree: 1%
             * [Herunterladen eines Testversands im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
             * [Tastaturbefehle im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
             * [Einrichten der interaktiven Inhaltsüberprüfung im Web Proofing-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-            * [Freigeben eines Testversands über den Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+            * [Freigeben eines Testversands aus dem Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
             * [Anzeigen früherer Testversand-Versionen im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurieren der Einstellungen des Testversand-Viewers](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
@@ -2102,7 +2103,7 @@ ht-degree: 1%
       * [Datenmodulen](workfront-fusion/apps-and-their-modules/datadog-modules.md)
       * [Datenspeichermodule](workfront-fusion/apps-and-their-modules/data-store-modules.md)
       * [DocuSign-Module](workfront-fusion/apps-and-their-modules/docusign-modules.md)
-      * [Dropbox Module](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
+      * [Dropbox-Module](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
       * [E-Mail-Module](workfront-fusion/apps-and-their-modules/email-modules.md)
       * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
       * [Bildmodule](workfront-fusion/apps-and-their-modules/figma-modules.md)
@@ -2174,7 +2175,7 @@ ht-degree: 1%
    * Adobe Workfront für Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront für Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installieren des Adobe Workfront-Plug-ins für Creative Cloud-Anwendungen {#install-wf-cc}
-         * [Installieren von Adobe Workfront für Creative Cloud-Anwendungen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+         * [Installieren von Adobe Workfront für Creative Cloud-Apps](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Installieren und Öffnen von Adobe Workfront für Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Installieren und Öffnen von Adobe Workfront für XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Installieren und öffnen [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -2235,7 +2236,7 @@ ht-degree: 1%
       * [Aktivieren Sie Outlook for Office für die Verwendung mit Adobe Workfront und SAML 2.0.](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront für Microsoft Teams {#workfront-for-microsoft-teams}
       * [Adobe Workfront für Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-      * [Übersicht über Adobe-Arbeitsbereiche für Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+      * [Adobe Workfronts für Microsoft Teams - Übersicht](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Installieren von Adobe Workfront für Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Zugriff auf Adobe Workfront über Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Suchen und Freigeben von Adobe Workfront-Elementen in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
@@ -2253,9 +2254,9 @@ ht-degree: 1%
       * [Adobe Workfront für Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Adobe Workfront für Slack konfigurieren](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Greifen Sie über Slack auf Ihre Favoriten und aktuellen Artikel zu](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [Verwalten von Arbeiten und Genehmigungen durch Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-      * [Erstellen von Aufgaben und Problemen aus Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-      * [Suchen nach Adobe Workfront-Elementen aus dem Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+      * [Verwalten Sie Ihre Arbeit und Ihre Validierungen über Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [Erstellen von Aufgaben und Problemen über Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+      * [Suchen nach Adobe Workfront-Elementen über Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Zugriff auf Adobe Workfront-Objekte über einen freigegebenen Link in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Zugriff auf Adobe Workfront über Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [Slack-Kommentar als Update posten](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
@@ -2477,7 +2478,7 @@ ht-degree: 1%
          * [Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Erfahren Sie, wie Cache und Cookies Workfront Testing beeinflussen](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Geschwindigkeitsprobleme beim Workfront-Testversand](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Probleme bei der Anzeige von Testsendungen - Erläuterung von freigegebenen Objekten für Flash](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
+         * [Probleme bei der Anzeige von Testsendungen - Erläuterung von freigegebenen Flash-Objekten](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Fehlerbehebung - Testversand-Viewer für Workfront](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront-Testintegrationen {#wf-proof-integrations}
       * [Workfront-Testintegrationen](workfront-proof/wp-integrations/wp-integrations.md)

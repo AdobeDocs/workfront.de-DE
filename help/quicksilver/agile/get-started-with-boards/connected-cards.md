@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Wenn eine der folgenden Details für die Karte an einem Ort aktualisiert wird, w
 * [!UICONTROL Status]
 * [!UICONTROL Geplantes Abschlussdatum]
 * [!UICONTROL Schätzung] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Dokumente]</span>
 
 >[!NOTE]
+>
 >Eine einzelne verbundene Aufgabe oder ein Problem kann nur einmal pro Board hinzugefügt werden. Dieselbe Aufgabe oder dasselbe Problem kann mit mehreren Pinnwänden verbunden sein.
 
 ## Zugriffsanforderungen
@@ -143,8 +145,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Dokumente]</strong></span></td>
-      <td><span class="preview"><p>Bewegen Sie den Mauszeiger über die Dokumentminiatur und klicken Sie auf <strong>Vorschau</strong> , um die Datei im Browser anzuzeigen, oder <strong>Herunterladen</strong> , um die Datei auf Ihren Computer herunterzuladen.</p></span>
-      <span class="preview"><p><strong>NOTE:</strong> Zu diesem Zeitpunkt muss ein Dokument in die Workfront-Aufgabe hochgeladen werden, damit es auf der verbundenen Karte verfügbar ist.</p></span></td>
+      <td><span class="preview">Bewegen Sie bei einem vorhandenen Dokument den Mauszeiger über die Dokumentminiaturansicht und klicken Sie auf <strong>Vorschau</strong> , um die Datei im Browser anzuzeigen, oder <strong>Herunterladen</strong> , um die Datei auf Ihren Computer herunterzuladen. Ein neues Dokument finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Hinzufügen von Dokumenten zu Karten</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
