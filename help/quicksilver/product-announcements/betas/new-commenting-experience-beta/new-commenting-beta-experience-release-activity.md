@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprün
 
 Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. In diesem Artikel werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentarerlebnis behoben wurden.
 
-### Woche vom 14. August 2023 (Start der Version vom vierten Quartal 2023)
+### Woche vom 14. August 2023
+
+[Sehen Sie sich eine Videodemonstration zu allen Funktionen an, die in der Woche vom 14. August 2023 veröffentlicht wurden](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Neues Kommentierungserlebnis für zusätzliche Objekte
 
