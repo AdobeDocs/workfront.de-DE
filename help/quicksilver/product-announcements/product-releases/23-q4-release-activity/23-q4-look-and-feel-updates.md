@@ -4,7 +4,7 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ Eine Liste aller mit der Version vom vierten Quartal 2023 verfügbaren Änderung
 
 Die Registerkarten für E-Mail-Benachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen im Bereich &quot;Setup&quot;> &quot;E-Mail&quot;> &quot;Benachrichtigungen&quot;wurden auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
