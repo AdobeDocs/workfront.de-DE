@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 21. August 2023<br /></p>
                             </li>
                             <li>
-                                <p>Produktion für Foren frühzeitiger Zugriff: 24. August 2023</p>
+                                <p>Produktion für Foren - frühzeitiger Zugriff: TBD</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
