@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 23.10 (sofern nicht anders angegeben)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Neue Filteroptionen für neue Startseite</a> </p>
+                        <p>Neue Filteroptionen sind jetzt für das Widget "Meine Arbeit"in "Neue Startseite"verfügbar. Zu den Optionen gehören Filter für Objekttypen (Aufgaben, Probleme und Anforderungen) und Status (nicht bereit, startbereit, arbeiten und fertig gestellt).</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Terminologieunterstützung für die neue Startseite</a> </p>
+                        <p>Um die besonderen Anforderungen von Unternehmen besser zu erfüllen, verwendet das neue Home jetzt benutzerdefinierte Terminologie für Objekte, die in den Layoutvorlagen einer Instanz definiert sind. Wenn beispielsweise die Objekte "Projekt"in Ihrer Workfront-Instanz in "Kampagnen"umbenannt wurden, wird das Widget "Meine Projekte"stattdessen als "Meine Kampagnen"auf der neuen Startseite angezeigt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Die Schaltfläche Neue Startseite ausprobieren wurde für Konten entfernt, die "Neue Startseite"deaktiviert haben</a> </p>
+                        <p>Die Schaltfläche Neue Startseite ausprobieren ist nicht mehr für Konten vorhanden, für die die Option Neue Startseite deaktiviert wurde. Die neue Startseite muss vom Systemadministrator erneut aktiviert werden, bevor einzelne Benutzer die Schaltfläche zum Testen der neuen Startseite verwenden können.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
                             </li>
                         </ul>
                     </td>
