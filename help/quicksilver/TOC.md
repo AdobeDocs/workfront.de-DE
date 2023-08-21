@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 1%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 1%
          * [Testumgebungen](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Vorschau einer Sandbox-Umgebung](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Benutzerdefinierte Sandbox-Umgebung aktualisieren](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [Objekte von einem Objekt verschieben [!DNL Workfront] Umgebung zu einer anderen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Benutzer hinzufügen {#add-users}
       * [Benutzer zu Workfront hinzufügen](administration-and-setup/add-users/add-users.md)
       * Benutzer erstellen und verwalten {#create-manage-users}
