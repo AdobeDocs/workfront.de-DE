@@ -3,7 +3,7 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 3. August 2023<br /></p>
+                                <p>Vorschau-Version: 3. August 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für Foren frühzeitiger Zugriff: 10. August 2023</p>
@@ -88,7 +88,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 3. August 2023<br /></p>
+                                <p>Vorschau-Version: 3. August 2023</p>
                             </li>
                              <li>
                                 <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
@@ -105,10 +105,10 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 21. August 2023<br /></p>
+                                <p>Vorschau-Version: 21. August 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für Foren - frühzeitiger Zugriff: TBD</p>
+                                <p>Produktion für Foren frühzeitiger Zugriff: 24. August 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für schnelle Veröffentlichung: TBD</p>
