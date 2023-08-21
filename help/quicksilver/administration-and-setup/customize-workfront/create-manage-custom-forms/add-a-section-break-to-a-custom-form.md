@@ -7,9 +7,9 @@ description: Sie können die benutzerdefinierten Felder und Widgets in einem ben
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader"> <p>Zugriff erteilen</p> </td> 
       <td> <p> Wählen Sie die Berechtigungen aus, die Benutzer für ein Objekt benötigen, an das das benutzerdefinierte Formular angehängt ist, um diesen Abschnitt anzuzeigen und die Feldwerte zu bearbeiten. 
        <p>Die folgenden Berechtigungen sind unter <b>Benutzer mit diesem Zugriff auf das Objekt können Feldwerte anzeigen</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Ansicht</strong>: Berechtigungen für das Objekt anzeigen</li>
           <li><p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
           <p>Ermöglicht Benutzern, zum Objekt beizutragen, wenn es sich um ein Projekt, eine Aufgabe oder ein Problem handelt.</p>
           <p>Ermöglicht Benutzern, das Profil zu bearbeiten oder Eigentümer der Profilberechtigung für das Objekt zu sein, wenn es ein Benutzer ist.</p></li> 
