@@ -7,9 +7,9 @@ description: Sie können neue Szenario-Vorlagen in [!DNL Adobe] Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Sie können eine Vorlage in einem Prozess erstellen, der dem Erstellen eines Sze
 >[!NOTE]
 >
 >Durch das Speichern Ihrer Vorlage wird sie für alle Teammitglieder sichtbar. Wenn Sie möchten, dass Ihre Vorlage außerhalb Ihres Teams zugänglich ist, müssen Sie eine Anfrage zur Genehmigung und Veröffentlichung senden. Die Anfrage wird zur Genehmigung an Adobe Workfront gesendet. Sobald sie genehmigt wurde, kann die Vorlage von anderen Benutzern außerhalb Ihres Teams verwendet werden.
+>
+>Informationen zu Veröffentlichungsvorlagen finden Sie unter [Veröffentlichen und freigeben [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Erstellen einer Vorlage aus einem Szenario
 
