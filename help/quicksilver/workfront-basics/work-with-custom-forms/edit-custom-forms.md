@@ -7,9 +7,9 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Die Informationen in einem benutzerdefinierten Formular, das an ein Objekt angeh
 
    Wenn jemand Daten in einem anderen Objekt ändert, auf das von berechneten benutzerdefinierten Feldern in Ihrem Objekt verwiesen wird, werden die Änderungen nicht automatisch in Ihrem Objekt übernommen. Informationen zum manuellen Aktualisieren aller berechneten benutzerdefinierten Felder in Ihrem Objekt finden Sie unter [Alle berechneten benutzerdefinierten Felder für ein Objekt neu berechnen](#recalculate-all-calculated-custom-fields-for-an-object) in diesem Artikel.
 
-   <span class="preview">Wenn abhängige Felder auf der Seite geändert werden, werden berechnete Felder im benutzerdefinierten Formular dynamisch in Echtzeit neu berechnet. Sie können die aktualisierten Ergebnisse sehen, ohne das Formular zu speichern. Dies gilt für berechnete Felder in Standardformularen sowie für benutzerdefinierte Formulare.</span>
+   <span class="preview">Wenn abhängige Felder auf der Seite geändert werden, werden berechnete Felder im benutzerdefinierten Formular dynamisch in Echtzeit neu berechnet. Sie können den neuen berechneten Feldwert sehen, ohne das Formular zu speichern. Er wird jedoch erst dann auf das Formular und das Objekt angewendet, wenn Sie die Änderungen speichern. Dies gilt für berechnete Felder in Standardformularen sowie für benutzerdefinierte Formulare.</span>
 
    Sie können auch alle berechneten benutzerdefinierten Felder für ein Objekt manuell aktualisieren, wenn Sie das Objekt zusammen mit anderen Objekten in einer Liste stapelweise bearbeiten. Anweisungen finden Sie unter [Alle berechneten benutzerdefinierten Felder für mehrere Objekte in einer Liste beim Bearbeiten der Objekte neu berechnen](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in diesem Artikel.
 
