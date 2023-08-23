@@ -6,9 +6,9 @@ description: Sie können anpassen, welche Felder auf einer Karte angezeigt werde
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Karten konfigurieren {#configure-cards}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern [!UICONTROL **Karten**].
 
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es in beiden Kartenansichten zu deaktivieren.
 1. Klicken Sie auf das Symbol Ausblenden . ![Symbol &quot;Ausblenden&quot;](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es in der gekürzten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder standardmäßig wiederherstellen**].
-1. Klicken [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
+1. Klicks [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
 
 ## Hinzufügen benutzerdefinierter Felder zu Karten
 
@@ -86,7 +86,7 @@ Benutzerdefinierte Felder sind auf verbundenen Karten verfügbar. Sie sind nur i
 
    >[!NOTE]
    >
-   >Die folgenden Feldtypen können nicht zu Karten hinzugefügt werden: Adobe XD, Image, PDF, Video.
+   >Die folgenden Feldtypen können nicht zu Karten hinzugefügt werden: Adobe XD, Bild, PDF, Video.
 
 1. Wählen Sie den Feldnamen aus.
 1. (Optional) Klicken Sie auf die Schaltfläche **[!UICONTROL Feldwert]** um dieses benutzerdefinierte Feld in ein anderes zu ändern.
@@ -96,3 +96,7 @@ Benutzerdefinierte Felder sind auf verbundenen Karten verfügbar. Sie sind nur i
    ![Benutzerdefinierter Feldwert und Titel](assets/save-custom-field-value-label.png)
 
    Das benutzerdefinierte Feld wird zur Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld entsprechend den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) Bearbeiten Sie das Feld oder löschen Sie es aus allen Karten.
+
+>[!NOTE]
+>
+>Wenn Sie das benutzerdefinierte Feld später in Workfront umbenennen, müssen Sie die Feldbeschriftung im Fenster &quot;Für Übereinstimmung konfigurieren&quot;bearbeiten. Andernfalls wird das Feld nicht auf den Karten angezeigt.
