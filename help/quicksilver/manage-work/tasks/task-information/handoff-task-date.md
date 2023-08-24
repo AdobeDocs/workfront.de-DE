@@ -7,7 +7,7 @@ description: Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit ve
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 3%
@@ -34,27 +34,26 @@ Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit verfügbar wird
 >* Eingestellt
 >
 
-
 Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums einer Aufgabe:
 
 * **Wenn die Aufgabe einen unvollständigen Vorgänger hat**: Das Übergabedatum für die Aufgabe ist null.
 * **Wenn die Aufgabe einen vollständigen Vorgänger hat**: Das Übergabedatum entspricht dem tatsächlichen Abschlussdatum der vorherigen Aufgabe. Wenn der Vorgänger über eine Verzögerung verfügt, berechnet Workfront das Übergabedatum der Nachfolgeaufgabe anhand der folgenden Formel:
 
-   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+  `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-   Informationen zur Zeitverzögerung finden Sie unter [Übersicht über die Lag-Typen](../use-prdcssrs/lag-types.md).
+  Weitere Informationen zur Zeitverzögerung finden Sie unter [Übersicht über die Lag-Typen](../use-prdcssrs/lag-types.md).
 
-   Wenn die Nachfolgeaufgabe mehr als einen Vorgänger aufweist, wird das Übermittlungsdatum auf der Grundlage des letzten tatsächlichen Abschlussdatums der Vorgänger berechnet. Wenn die tatsächlichen Abschlussdaten der beiden Vorgänger beispielsweise der 8. November 2022 und der 20. November 2022 sind, ist das Übergabedatum des Nachfolgers der 20. November 2022.
+  Wenn die Nachfolgeaufgabe mehr als einen Vorgänger aufweist, wird das Übermittlungsdatum auf der Grundlage des letzten tatsächlichen Abschlussdatums der Vorgänger berechnet. Wenn die tatsächlichen Abschlussdaten der beiden Vorgänger beispielsweise der 8. November 2022 und der 20. November 2022 sind, ist das Übergabedatum des Nachfolgers der 20. November 2022.
 
-   >[!NOTE]
-   >
-   >   Das Übermittlungsdatum einer Nachfolgeaufgabe basierend auf dem tatsächlichen Abschlussdatum oder einer Vorläuferaufgabe wird unabhängig davon, ob der Vorgänger erzwungen wird oder nicht, auf die gleiche Weise berechnet. Weitere Informationen zu erzwungenen Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../use-prdcssrs/enforced-predecessors.md).
+  >[!NOTE]
+  >
+  >   Das Übermittlungsdatum einer Nachfolgeaufgabe basierend auf dem tatsächlichen Abschlussdatum oder einer Vorläuferaufgabe wird unabhängig davon, ob der Vorgänger erzwungen wird oder nicht, auf die gleiche Weise berechnet. Weitere Informationen zu erzwungenen Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../use-prdcssrs/enforced-predecessors.md).
 
 
 * **Wenn die Aufgabe keinen Vorgänger hat und**:
 
    * **Das geplante Startdatum liegt in der Vergangenheit.**: Das Übergabedatum entspricht dem geplanten Startdatum des Projekts.
-   * **Das geplante Startdatum ist in der Zukunft (ein beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum entspricht dem geplanten Startdatum des Projekts.
+   * **Das geplante Startdatum ist in der Zukunft (ein beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum entspricht dem geplanten Startdatum der Aufgabe.
 
 >[!NOTE]
 >
@@ -66,7 +65,7 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 >Weitere Informationen zur Neuberechnung der Projektzeitleiste finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * **Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat**: Das Übergabedatum variiert je nach Art der Einschränkung und abhängig davon, ob die Aufgabe über ein tatsächliches Startdatum verfügt oder nicht.\
-   Die folgenden erzwungenen Einschränkungen gelten für Aufgaben:
+  Die folgenden erzwungenen Einschränkungen gelten für Aufgaben:
 
    * Muss beginnen am
    * Muss beendet werden am
@@ -74,12 +73,11 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
    * Nicht später anfangen als
    * Festes Datum
 
-   Die folgenden Szenarien existieren:
+  Die folgenden Szenarien existieren:
 
-   * Wenn die Aufgabe die Beschränkung Muss beginnen am oder Anfang nicht früher als aufweist, ist das Übergabedatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
+   * Wenn die Aufgabe die Beschränkung Must Start On oder Start No Früher Than hat, ist das Übermittlungsdatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
    * Wenn die Aufgabe die Beschränkung &quot;Must Finish On&quot;oder &quot;Start No Later Than&quot;hat, ist das Übergabedatum immer das tatsächliche Abschlussdatum des Vorgängers, unabhängig davon, ob für die Aufgabe ein tatsächliches Startdatum vorliegt oder nicht.
    * Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat, ist das Übergabedatum das geplante Startdatum der Aufgabe, unabhängig davon, ob es einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
-
 
 ## Suchen Sie das Übermittlungsdatum.
 

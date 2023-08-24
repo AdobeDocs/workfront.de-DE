@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 03505cbede4b022e792f39c5730d3edc5231585e
+source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
 workflow-type: tm+mt
-source-wordcount: '13188'
+source-wordcount: '13192'
 ht-degree: 1%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 1%
          * [Neue Informationen zu Kommentar-Beta-Erlebnissen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Neues Kommentierungserlebnis](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Neue Kommentarerlebnis-Release-Aktivität](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * [Häufig gestellte Fragen zu neuen Kommentaren](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Administration und Einrichtung {#administration-and-setup}
    * [Administration und Einrichtung](administration-and-setup/administration-and-setup.md)
    * Erste Schritte mit Administration {#get-started-administration}

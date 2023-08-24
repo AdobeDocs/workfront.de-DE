@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen fü
 Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprünglichen Version 23.2 hinzugefügt wurden, beginnend mit den Funktionen, die zuletzt veröffentlicht wurden.
 
 Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. In diesem Artikel werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentarerlebnis behoben wurden.
+
+### Woche vom 21. August 2023
+
+#### Ändern des Zeitstempelformats auf der Registerkarte &quot;Kommentare&quot;
+
+Das Zeitstempelformat der Benutzerkommentare wurde auf der Registerkarte Kommentare des neuen Kommentar-Streams aktualisiert. Im Rahmen dieser Änderung wird bei Kommentaren aus dem laufenden Jahr das Jahr nicht mehr im Zeitstempel angezeigt. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum einschließlich des Jahres angezeigt.
+
+Die Änderungen wirken sich nicht auf Systemaktualisierungen auf der Registerkarte Systemaktivität aus.
+
+Vorschau und Produktion: 24. August 2023
 
 ### Woche vom 14. August 2023
 
