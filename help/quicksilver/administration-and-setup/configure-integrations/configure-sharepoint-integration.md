@@ -8,14 +8,14 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
 
-# Ältere Version konfigurieren [!DNL SharePoint] Integration
+# Konfigurieren der alten Version [!DNL SharePoint] Integration
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -33,9 +33,9 @@ ht-degree: 0%
 >    
 >    Anweisungen zum Verknüpfen von Dokumenten finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Sie können [!DNL Workfront] mit [!DNL SharePoint Online], sodass Benutzer zu navigieren, eine Verknüpfung erstellen und [!DNL SharePoint] Dokumente in Workfront. Die bereitgestellten Funktionen ähneln denen anderer [!DNL Workfront] Integrationen, z. B. [!DNL Google Drive], [!DNL Box]und [!DNL Dropbox].
+Sie können [!DNL Workfront] mit [!DNL SharePoint Online], sodass Benutzer zu navigieren, eine Verknüpfung zu erstellen und [!DNL SharePoint] Dokumente in Workfront. Die bereitgestellten Funktionen ähneln denen anderer [!DNL Workfront] Integrationen, z. B. [!DNL Google Drive], [!DNL Box], und [!DNL Dropbox].
 
-Diese Integration ist nur mit [!DNL SharePoint Online]. On-Premise-Instanzen von [!DNL SharePoint] werden nicht unterstützt.
+Diese Integration ist nur mit [!DNL SharePoint Online]. On-Premise-Instanzen [!DNL SharePoint] werden nicht unterstützt.
 
 ## Zugriffsanforderungen
 
@@ -70,7 +70,7 @@ Sie müssen über alle erforderlichen Zugriff oder Berechtigungen verfügen in [
 
 Einzelne Benutzer können Dokumente über die neue [!DNL SharePoint] Integration. Für die Integration ist keine Administratorkonfiguration erforderlich. Stattdessen meldet sich der Benutzer bei der [!DNL Microsoft] Konto beim Verknüpfen eines Dokuments, über das die Integration auf Dokumente zugreifen kann, die im [!DNL SharePoint].
 
-Wenn ein Benutzer die [!DNL Workfront] [!DNL SharePoint] Integration [!DNL SharePoint] -Konto, sehen sie alle Berechtigungen, die [!DNL Workfront] bei der Interaktion mit ihren [!UICONTROL SharePoint] -Konto. Leseberechtigungen zulassen [!DNL Workfront] zum Anzeigen und Aufrufen von Dateien in [!DNL SharePoint]und Schreibberechtigungen ermöglichen es dem Benutzer, Dateien in hochzuladen. [!DNL SharePoint].
+Wenn ein Benutzer zum ersten Mal die [!DNL Workfront] [!DNL SharePoint] Integration [!DNL SharePoint] -Konto, sehen sie alle Berechtigungen, die [!DNL Workfront] bei der Interaktion mit ihren [!UICONTROL SharePoint] -Konto. Leseberechtigungen zulassen [!DNL Workfront] zum Anzeigen und Aufrufen von Dateien in [!DNL SharePoint]und Schreibberechtigungen ermöglichen es dem Benutzer, Dateien in hochzuladen. [!DNL SharePoint].
 
 ![Sharepoint-Berechtigungen](assets/sharepoint-permissions.png)
 
@@ -82,7 +82,28 @@ Anweisungen zum Verknüpfen von Dokumenten über die neue [!DNL SharePoint] Inte
 >
 >* Ein Benutzer hat Zugriff auf dieselben Sites, Sammlungen, Ordner, Unterordner und Dateien über die [!DNL Workfront] [!DNL SharePoint] -Integration, wie sie in ihren [!DNL SharePoint] -Konto.
 
-## Sicherheits-, Zugriffs- und Autorisierungsinformationen für die [!DNL SharePoint] Integration
+### Verknüpfen von Dokumenten mit SharePoint
+
+Anweisungen zum Verknüpfen von Dokumenten aus SharePoint über die neue [!DNL SharePoint] Integration, siehe [Externes Dokument verknüpfen zu [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Dokumente an SharePoint senden
+
+So senden Sie ein Dokument an SharePoint:
+
+1. Klicken Sie auf **Senden an** icon ![Senden an](assets/send-to-icon.png) und wählen Sie SharePoint (Graph-API) aus.
+1. (Optional) Suchen Sie in der Suchleiste nach der Site oder dem Ordner, an die Sie das Dokument senden möchten.
+1. Wählen Sie die Site oder den Ordner aus der Liste aus.
+
+   * Sites sind mit ![Site-Symbol](assets/site-icon.png).
+
+   * Ordner sind mit ![Ordnersymbol](assets/folder-icon.png).
+
+   * Dateien sind nicht mit einem Symbol markiert.
+
+1. Klicken Sie auf **Speichern**.
+
+
+## Sicherheits-, Zugriffs- und Autorisierungsinformationen für [!DNL SharePoint] Integration
 
 ### Authentifizierung und Autorisierung
 
@@ -94,7 +115,7 @@ Wenn ein Benutzer zum ersten Mal ein Dokument zu [!DNL Workfront] von [!DNL Shar
 
 | Zugriff | Grund |
 |---|---|
-| Vollständigen Zugriff auf Ihre Dateien | Ermöglicht [!DNL Workfront] , um auf die Dateien eines Benutzers zuzugreifen und das Asset zu verknüpfen. Wann Dokumente gesendet werden von [!DNL Workfront] nach [!DNL SharePoint], [!DNL Workfront] erfordert Zugriff, um das Asset zu erstellen. |
+| Zugriff auf Ihre Dateien | Ermöglicht [!DNL Workfront] , um auf die Dateien eines Benutzers zuzugreifen und das Asset zu verknüpfen. Wann Dokumente gesendet werden von [!DNL Workfront] nach [!DNL SharePoint], [!DNL Workfront] erfordert Zugriff, um das Asset zu erstellen. |
 | Elemente in allen Site-Sammlungen lesen | Ermöglicht [!DNL Workfront] , um Assets zu lesen und die Benutzernavigation zu aktivieren. |
 | Bearbeiten oder Löschen von Elementen in allen Site-Sammlungen | Ermöglicht [!DNL Workfront] , um Assets in Sites und Site-Sammlung zu erstellen. Löschen wird nur bei Bereinigungen nach erfolglosen Linkversuchen verwendet. |
 | Beibehalten des Zugriffs auf die Daten, auf die Sie Zugriff gewährt haben | Ermöglicht [!DNL Workfront] , um ein Aktualisierungstoken zu generieren. |
@@ -102,7 +123,7 @@ Wenn ein Benutzer zum ersten Mal ein Dokument zu [!DNL Workfront] von [!DNL Shar
 
 Dieser Zugriff wird vom Benutzer beim ersten Verwenden der Integration gewährt und kann jederzeit widerrufen werden.
 
-Beachten Sie Folgendes bezüglich des Zugriffs auf [!DNL SharePoint] durch [!DNL Workfront] [!DNL SharePoint] Integration:
+Beachten Sie Folgendes bezüglich des Zugriffs auf [!DNL SharePoint] durch die [!DNL Workfront] [!DNL SharePoint] Integration:
 
 * Die für diese Integration angeforderten Berechtigungen sind **delegiert** Berechtigungen.
 * [!DNL Workfront] fordert den Mindestzugriff an, der für die Durchführung von Vorgängen in der Integration erforderlich ist.
@@ -116,7 +137,7 @@ Alle Kommunikation zwischen [!DNL Workfront] und [!DNL SharePoint] wird über HT
 
 [!DNL Workfront] speichert, kopiert oder dupliziert keine Daten aus [!DNL SharePoint]. Die einzige Ausnahme ist, dass [!DNL Workfront] speichert Miniaturansichten aus [!DNL SharePoint] in der Listenansicht und in der Vorschau angezeigt.
 
-Wenn ein Asset zum ersten Mal in hochgeladen wurde [!DNL Workfront]und anschließend an [!DNL SharePoint], [!DNL Workfront] speichert die Daten für die erste Datei, da Benutzer eine frühere Version eines [!DNL Workfront] Dokument. Wenn ein Dokument in [!DNL SharePoint], [!DNL Workfront] speichert diese Dateidaten nicht.
+Wenn ein Asset zum ersten Mal in [!DNL Workfront]und anschließend an [!DNL SharePoint], [!DNL Workfront] speichert die Daten für die erste Datei, da Benutzer eine frühere Version eines [!DNL Workfront] Dokument. Wenn ein Dokument erstellt wurde in [!DNL SharePoint], [!DNL Workfront] speichert diese Dateidaten nicht.
 
 ## Konfigurieren der alten [!DNL SharePoint] Integration für den kontinuierlichen Zugriff auf Dokumente
 
@@ -127,11 +148,11 @@ So stellen Sie sicher, dass Ihre Benutzer über die alte Version weiterhin Zugri
 
 ### Zugriff auf die alte Version neu konfigurieren [!DNL SharePoint] Integration
 
-So stellen Sie sicher, dass Sie auf Dokumente zugreifen können, die über die veralteten [!DNL SharePoint] -Integration, wobei sichergestellt wird, dass Ihre Benutzer keine neuen Dokumente über diese Integration verknüpfen können, führen Sie das folgende Verfahren aus.
+So stellen Sie sicher, dass Sie auf Dokumente zugreifen können, die über die veralteten [!DNL SharePoint] -Integration. Stellen Sie dabei sicher, dass Ihre Benutzer keine neuen Dokumente über diese Integration verknüpfen können, und führen Sie das folgende Verfahren aus.
 
 >[!NOTE]
 >
-> * Das Vermächtnis [!DNL SharePoint] Integration wird als[!DNL SharePoint].&quot;
+> * Das Erbe [!DNL SharePoint] Integration wird als[!DNL SharePoint].&quot;
 > * Die neue [!DNL SharePoint] Integration wird als[!UICONTROL [!DNL SharePoint] (Graph-API)].&quot;
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Einrichtung]** ![Einrichtung](../get-started-wf-administration/assets/gear-icon-settings.png).
@@ -377,7 +398,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## Fehlerbehebung
 
 * [Problem: Benutzer erhalten bei der Verwendung der Variablen [!DNL SharePoint] Integration.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [Problem: Beim Versuch zu durchsuchen [!DNL SharePoint] Dateien in [!DNL Workfront], sehe ich keine oder alle meiner Site-Sammlungen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [Problem: Beim Versuch, [!DNL SharePoint] Dateien in [!DNL Workfront], sehe ich keine oder alle meiner Site-Sammlungen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [Problem: Ich kann nicht auf zuvor verknüpfte Ordner und Dokumente in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### Problem: Benutzer erhalten bei der Verwendung der Variablen [!DNL SharePoint] Integration. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -398,14 +419,14 @@ Benutzer mit [!UICONTROL Vollständige Kontrolle] Zugriff haben alle erforderlic
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Bearbeiten]</p> </td> 
-   <td> <p>Kann Listen hinzufügen, bearbeiten und löschen; Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
+   <td> <p>Kann Listen hinzufügen, bearbeiten und löschen; kann Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
    <td> <p>Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Nur Ansicht]</p> </td> 
+   <td role="rowheader"> <p>Nur Ansicht</p> </td> 
    <td> <p>Kann Seiten, Listenelemente und Dokumente anzeigen (Dokumenttypen mit serverseitigen Dateihandlern können im Browser angezeigt, aber nicht heruntergeladen werden)</p> </td> 
   </tr> 
  </tbody> 
@@ -427,7 +448,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### Problem: Beim Versuch zu durchsuchen [!DNL SharePoint] Dateien in [!DNL Workfront], sehe ich keine oder alle meiner Site-Sammlungen. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### Problem: Beim Versuch, [!DNL SharePoint] Dateien in [!DNL Workfront], sehe ich keine oder alle meiner Site-Sammlungen. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 Lösungen:
 
