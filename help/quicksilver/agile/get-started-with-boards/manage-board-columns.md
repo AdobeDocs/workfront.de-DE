@@ -6,9 +6,9 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Hinzufügen einer Spalte zu einer Pinnwand
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken **[!UICONTROL Spalte hinzufügen]** rechts von den vorhandenen Spalten.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks **[!UICONTROL Spalte hinzufügen]** rechts von den vorhandenen Spalten.
 1. Geben Sie in die neue Spalte einen Namen ein und klicken Sie auf **[!UICONTROL Spalte hinzufügen]**.
 
    ![Neue Spalte hinzufügen](assets/boards-add-column.png)
@@ -71,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Bearbeiten]**. Geben Sie im Bereich &quot;Einstellungen&quot;den neuen Namen in die **[!UICONTROL Spaltenname]** und klicken Sie auf **[!UICONTROL Schließen]**.
+   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]**. Geben Sie im Bereich &quot;Einstellungen&quot;den neuen Namen in die **[!UICONTROL Spaltenname]** und klicken Sie auf **[!UICONTROL Schließen]**.
 
 ## Pinnwandspalte löschen
 
@@ -82,7 +82,7 @@ Wenn Sie eine Spalte aus einer Pinnwand löschen, kann sie nicht wiederhergestel
 
    >[!NOTE]
    >
-   >Spalten, die Karten enthalten, einschließlich archivierter Karten, können nicht gelöscht werden. Wenn Sie versuchen, eine Spalte zu löschen, die Karten enthält, müssen Sie eine andere Spalte für diese Karten auswählen.
+   >Spalten mit Karten, einschließlich archivierter Karten, können nicht gelöscht werden. Wenn Sie versuchen, eine Spalte zu löschen, die Karten enthält, müssen Sie eine andere Spalte für diese Karten auswählen.
 
 ## Anzahl der Karten anzeigen
 
@@ -91,7 +91,7 @@ Sie können eine Konfigurationseinstellung verwenden, um die Anzahl der Karten i
 Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Zähler für die Karte hinzugefügt. Weitere Informationen zu WIP-Beschränkungen finden Sie unter [Verwalten Sie die [!UICONTROL Laufende Arbeiten] (WIP)-Beschränkung auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
 1. Erweitern **[!UICONTROL Spalte]**.
 1. Aktivieren **[!UICONTROL Spaltenkartenanzahl anzeigen]**.
 
@@ -99,7 +99,7 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 
    Der Kartenzähler wird oben in jeder Spalte angezeigt.
 
-1. Klicken **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bereich.
+1. Klicks **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bedienfeld.
 
 ## Spalteneinstellungen und Richtlinien definieren
 
@@ -124,7 +124,7 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 
    1. Wählen Sie eine [!UICONTROL **Benutzerdefiniert**] Status, der auf die Karte für Aufgaben und Probleme angewendet wird.
 
-      Wenn eine Karte in diese Spalte verschoben wird, [!DNL Workfront] versucht zunächst, den benutzerdefinierten Status anzuwenden (z. B. &quot;Gelöst&quot;). Wenn der ausgewählte benutzerdefinierte Status für diese Karte nicht verfügbar ist, werden Sie aufgefordert, einen anderen Status auszuwählen, der dem Systemstatus entspricht (aus Schritt b oben). Weitere Informationen zu Status finden Sie unter [Statusübersicht](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      Wenn eine Karte in diese Spalte verschoben wird, [!DNL Workfront] Versuchen Sie zunächst, den benutzerdefinierten Status anzuwenden (z. B. &quot;Gelöst&quot;). Wenn der ausgewählte benutzerdefinierte Status für diese Karte nicht verfügbar ist, werden Sie aufgefordert, einen anderen Status auszuwählen, der dem Systemstatus entspricht (aus Schritt b oben). Weitere Informationen zu Status finden Sie unter [Statusübersicht](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Wenn der Status der verbundenen Aufgabe oder des Problems in den in der Spaltenrichtlinie festgelegten benutzerdefinierten Status oder Systemstatus geändert wird, wird die Karte automatisch in die Spalte verschoben.
 
@@ -135,10 +135,10 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 
       * **[!UICONTROL Hinzufügen zu Bevollmächtigten]:** Die von Ihnen ausgewählten Bevollmächtigten werden zur bestehenden Liste der Bevollmächtigten auf einer Karte hinzugefügt, wenn sie in diese Spalte verschoben werden.
       * **[!UICONTROL Zuweisung überschreiben]:** Die von Ihnen ausgewählten Bevollmächtigten überschreiben alle anderen Bevollmächtigten und werden zum einzigen Bevollmächtigten auf einer Karte, wenn sie in diese Spalte verschoben werden.
-   1. Wählen Sie die Bevollmächtigten aus der Dropdownliste aus. Es stehen nur Mitglieder des Board zur Auswahl. Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Klicks [!UICONTROL **Zuweisung hinzufügen**] und nach einem Benutzer suchen. Wählen Sie die Bevollmächtigten aus den Suchergebnissen aus. Alle Workfront-Benutzer und -Teams können aus dieser Gruppe auswählen.
 
       ![Zuweisung für Spalte](assets/boards-column-assignees.png)
-
 
 1. (Optional) Legen Sie einen Wert für die Karten-Tags fest:
 
@@ -147,15 +147,15 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 
       * **[!UICONTROL Tags hinzufügen]:** Die von Ihnen ausgewählten Tags werden der vorhandenen Liste der Tags auf einer Karte hinzugefügt, wenn sie in diese Spalte verschoben wird.
       * **[!UICONTROL Tags überschreiben]:** Die Tags, die Sie auswählen, überschreiben alle anderen Tags und werden zum einzigen Tags auf einer Karte, wenn sie in diese Spalte verschoben werden.
+
    1. Wählen Sie die Tags aus der Dropdownliste aus. Nur Tags, die bereits in der [!UICONTROL Tag-Manager] zur Auswahl stehen. Informationen zum Hinzufügen neuer Tags finden Sie unter [Tags hinzufügen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tags für Spalte](assets/boards-column-tags.png)
 
-
-1. Aktivieren Sie die **[!UICONTROL Laufende Arbeitsbegrenzung]** -Richtlinie, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können. Geben Sie dann die Begrenzungsnummer in das Feld **[!UICONTROL Begrenzung festlegen]** -Feld.
+1. Aktivieren Sie die **[!UICONTROL Laufende Arbeit]** -Richtlinie, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können. Geben Sie dann die Begrenzungsnummer in das Feld **[!UICONTROL Begrenzung festlegen]** -Feld.
 
    ![WIP-Beschränkung für Spalte](assets/boards-wip-limit-in-column.png)
 
    Weitere Informationen finden Sie unter [Grenze für laufende Arbeit (WIP) auf einer Pinnwand verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
-1. Klicken **[!UICONTROL Schließen]** , um den Einstellungsbereich zu verlassen und die Spalte und deren Karten anzuzeigen.
+1. Klicks **[!UICONTROL Schließen]** , um den Einstellungsbereich zu verlassen und die Spalte und deren Karten anzuzeigen.

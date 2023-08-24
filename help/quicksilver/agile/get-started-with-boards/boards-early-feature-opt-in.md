@@ -7,9 +7,9 @@ description: Lesen Sie diesen Artikel , um mehr über die [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Allgemeine Informationen zu Foren finden Sie unter [[!UICONTROL Pinnwände] Übe
 
 ## Funktionen
 
-In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mit ihrem aktuellen Veröffentlichungsstatus vorgestellt. Funktionen, auf die Sie über die frühe Funktion zugreifen können, sind in der Vollversion möglicherweise nicht verfügbar, je nach der Eingabe, die wir erhalten.
+In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mit ihrem aktuellen Veröffentlichungsstatus vorgestellt. Funktionen, auf die Sie über die frühe Funktion zugreifen können, sind in der vollständigen Version möglicherweise nicht verfügbar, je nach der Eingabe, die wir erhalten.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -212,7 +212,7 @@ Nur [!DNL Workfront] -Administratoren können sich für frühzeitige Funktionen 
 
 ### Woher weiß ich, ob meine Organisation sich für frühe Funktionen entschieden hat?
 
-Wenn [!DNL Workfront] -Administrator hat die frühen Funktionen für Pinnwände aktiviert. Sie sehen eine [!UICONTROL Früheres Feature Opt-in] Schaltfläche Aktiviert oben im Dashboard-Bildschirm. Klicken Sie auf die Schaltfläche , um zu sehen, welche Funktionen aktiviert sind.
+Wenden Sie sich an [!DNL Workfront] Administrator zu ermitteln, ob sie die Frühzeiterstellung für Pinnwände aktiviert haben.
 
 ### Können frühe Funktionen nur für bestimmte Benutzer aktiviert werden?
 

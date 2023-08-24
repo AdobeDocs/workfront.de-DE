@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Die Karte wird unten in der Spalte ganz links hinzugefügt. Der verbundene [!DNL Workfront] -Objekt und dessen Bevollmächtigte werden auf der Karte angezeigt.
 
-   >[!NOTE]
-   >
-   >Wenn ein Bevollmächtigter [!DNL Workfront] Aufgabe oder Problem ist kein Mitglied der Pinnwand, sie werden nicht der Karte zugewiesen.
-
    ![Verbundene Karte](assets/boards-connected-card-first-added.png)
 
 1. Klicks ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die [!DNL Workfront] Aufgabe oder Problem in einer neuen Browser-Registerkarte.
@@ -125,8 +121,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong></td>
-      <td><p>Um der Karte weitere Personen oder ein Team zuzuweisen, geben Sie im Suchfeld einen Namen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können sowohl Einzelanwender als auch Teams hinzufügen. Nur eine Teamzuweisung ist auf einer verbundenen Karte erlaubt.</p>
-      <p>Bevollmächtigte müssen Mitglieder in der Pinnwand sein, oder sie werden nicht in der Auswahlliste angezeigt. Wenn ein Team Mitglied im Board ist, können die einzelnen Teammitglieder der Karte zugewiesen werden.</p>
+      <td><p>Um der Karte weitere Personen oder ein Team zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und beginnen Sie, einen Namen in das Suchfeld einzugeben. Wählen Sie sie dann aus, wenn sie in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelanwender als auch Teams hinzufügen. Nur eine Teamzuweisung ist auf einer verbundenen Karte erlaubt.</p>
       <p>Alle von Ihnen ausgewählten Bevollmächtigten werden ebenfalls der Aufgabe oder dem Problem in [!DNL Workfront].</p></td>
      </tr>
      <tr>

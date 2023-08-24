@@ -6,16 +6,16 @@ description: Personen müssen als Mitglieder zur Pinnwand hinzugefügt werden, b
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand
 
-Personen und Teams müssen als Mitglieder der Pinnwand hinzugefügt werden, bevor sie die Pinnwand anzeigen und Karten zugewiesen werden können.
+Personen und Teams müssen als Mitglieder in die Pinnwand aufgenommen werden, bevor sie die Pinnwand anzeigen können.
 
 ## Zugriffsanforderungen
 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Mitglied hinzufügen]** icon ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Im **[!UICONTROL Mitglieder hinzufügen]** einen Namen eingeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-   Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst zum Forum hinzugefügt. Das gesamte Team und die einzelnen Teammitglieder können dann einer Karte zugewiesen werden.
+   Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst zum Forum hinzugefügt.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Element aus Pinnwand entfernen](assets/boards-remove-member-from-board-350x367.png)
 
-   Wenn Sie ein Mitglied aus einer Pinnwand löschen, werden es auch aus allen Karten gelöscht, denen es zugewiesen wurde. Bei verbundenen Karten werden die Zuweisungen auch auf der Seite [!DNL Workfront] Aufgabe oder Problem.
+   Wenn Sie ein Mitglied aus einer Pinnwand entfernen, werden diese nicht aus den Karten entfernt, denen es zugewiesen ist. Bei verbundenen Karten werden die Zuweisungen auch auf der Seite [!DNL Workfront] Aufgabe oder Problem.
 
    Mitglieder werden nur aus diesem Gremium entfernt. Sie werden nicht aus anderen Pinnwänden entfernt, denen sie angehören.
 
