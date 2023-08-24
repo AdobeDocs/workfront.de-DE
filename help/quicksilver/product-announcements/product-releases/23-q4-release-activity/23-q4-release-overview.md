@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ## Adobe Workfront-Verbesserungen
 
 * [Erweiterungen für Foren](#boards-enhancements)
+* [Integrationsverbesserungen](#integration-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
@@ -60,6 +61,42 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Benutzerzuweisung auf Pinnwänden und Karten</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Es gibt jetzt Verbesserungen, die beim Hinzufügen von Benutzern zu Pinnwänden und Karten in Adobe Workfront-Pinnwänden mehr Flexibilität bieten.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 21. August 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion für alle Kunden: 24. August 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Dokumenten zu verbundenen Karten</a></p><p>Sie können jetzt Dokumente auf verbundenen Karten auf Adobe Workfront-Pinnwänden anhängen. Alle Dokumente, die Sie auf der Karte hinzufügen, stehen auf der Registerkarte Dokumente der verbundenen Aufgabe oder Ausgabe zur Verfügung. Dieselben Dateitypen werden in beiden Bereichen unterstützt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 21. August 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für Foren frühzeitiger Zugriff: 24. August 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Dokumente, die auf verbundenen Karten nur als Ansicht verfügbar sind</a></p><p>Für verbundene Karten auf Adobe Workfront-Pinnwänden können Sie jetzt Dokumente wie Bilder und PDF anzeigen. Sie können entweder eine Vorschau eines Dokuments im Browser anzeigen oder es auf Ihren Computer herunterladen. </p>
@@ -98,29 +135,65 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Integrationsverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Dokumenten zu verbundenen Karten</a></p><p>Sie können jetzt Dokumente auf verbundenen Karten auf Adobe Workfront-Pinnwänden anhängen. Alle Dokumente, die Sie auf der Karte hinzufügen, stehen auf der Registerkarte Dokumente der verbundenen Aufgabe oder Ausgabe zur Verfügung. Dieselben Dateitypen werden in beiden Bereichen unterstützt.</p>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p><p>Wir haben einige Änderungen vorgenommen, um das Auffinden von Ordnern beim Senden von Dokumenten an Ihre SharePoint (GraphAPI)-Ordner zu vereinfachen</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 21. August 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktion für Foren frühzeitiger Zugriff: 24. August 2023</p>
+                                <p>Vorschau-Version: 24. August<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für schnelle Veröffentlichung: TBD</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 24. August<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Projektverbesserungen
 
