@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Informationen im Bereich "Projekt-Finanzen"verwalten
-description: Informationen im Bereich "Projekt-Finanzen"verwalten
+title: Verwalten von Informationen im Bereich "Projekt-Finanzen"
+description: Verwalten von Informationen im Bereich "Projekt-Finanzen"
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
 
 ---
 
-# Informationen im Bereich &quot;Projekt-Finanzen&quot;verwalten
+# Verwalten von Informationen im Bereich &quot;Projekt-Finanzen&quot;
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -39,7 +39,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte und Finanzdaten</p> <p>Zugriff auf Projekte und Finanzdaten bearbeiten, um Finanzinformationen zu dem Projekt zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte und Finanzdaten</p> <p>Zugriff auf Projekte und Finanzdaten bearbeiten, um Finanzinformationen zu dem Projekt zu bearbeiten</p> <p><b>NOTIZ</b></p>
+   <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -61,7 +62,7 @@ Beachten Sie Folgendes beim Anzeigen oder Bearbeiten von Informationen im Bereic
 ## Anzeigen von Finanzinformationen für ein Projekt
 
 1. Wechseln Sie zu einem Projekt.
-1. Klicken **Projektdetails** im linken Bereich.
+1. Klicks **Projektdetails** im linken Bereich.
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) in der oberen rechten Ecke des Bereichs Details klicken Sie auf **Finanzen**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
@@ -107,7 +108,7 @@ Beachten Sie Folgendes beim Anzeigen oder Bearbeiten von Informationen im Bereic
      </tr> 
      <tr> 
       <td role="rowheader">Istkosten</td> 
-      <td>Alle Kosten des Projekts. Die tatsächlichen Kosten entsprechen der Summe aller tatsächlichen Kosten: Arbeitskosten (basierend auf tatsächlichen Stunden und den mit den Rollen im Job oder Benutzern, die sie protokollieren, verbundenen Raten), Ausgaben und Fixkosten, die mit einem Projekt oder einer Aufgabe verknüpft werden können.</td> 
+      <td>Alle Kosten des Projekts. Die tatsächlichen Kosten sind die Summe aller tatsächlichen Kosten: Arbeitskosten (basierend auf tatsächlichen Stunden und den mit den Arbeitsplatzrollen oder den Nutzern, die sie protokollieren, verbundenen Tarifen), Ausgaben und Festkosten, die mit einem Projekt oder einer Aufgabe verknüpft werden können.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Festeinnahmen</td> 
@@ -123,7 +124,7 @@ Beachten Sie Folgendes beim Anzeigen oder Bearbeiten von Informationen im Bereic
      </tr> 
      <tr> 
       <td role="rowheader">In Rechnung gestellte Einnahmen</td> 
-      <td> <p>Umsatz, der Kunden oder anderen Parteien in Rechnung gestellt und in Rechnungsaufzeichnungen erfasst wird. Weitere Informationen zur Rechnungsstellung von Datensätzen finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Rechnungsdatensätze erstellen</a>. </p> </td> 
+      <td> <p>Umsatz, der Kunden oder anderen Parteien in Rechnung gestellt und in Rechnungsaufzeichnungen erfasst wird. Weitere Informationen zur Rechnungsstellung von Datensätzen finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Erstellen von Rechnungsdatensätzen</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -148,9 +149,9 @@ So bearbeiten Sie Informationen auf der Unterregisterkarte Projekt-Finanzen :
    >
    >Für die folgenden Schritte benötigen Sie die Berechtigung zum Verwalten des Projekts. Es wird außerdem empfohlen, dass nur der Projekteigentümer Änderungen an der Unterregisterkarte &quot;Finanzen&quot;des Projekts vornimmt.
 
-1. Klicken **Projektdetails** im linken Bereich.
+1. Klicks **Projektdetails** im linken Bereich.
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) in der oberen rechten Ecke des Bereichs Details klicken Sie auf **Finanzen** . Dadurch wird der Finanzbereich zur Bearbeitung geöffnet.
-1. Bearbeiten Sie ein beliebiges Feld, das bearbeitet werden kann, indem Sie mit einem einzigen Klick auf das Feld klicken oder auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
+1. Bearbeiten Sie ein beliebiges Feld, das bearbeitet werden kann, indem Sie entweder auf das Feld klicken oder auf **+Hinzufügen** , um Informationen zu einem leeren Feld hinzuzufügen.
 
    >[!TIP]
    >
@@ -203,4 +204,4 @@ So bearbeiten Sie Informationen auf der Unterregisterkarte Projekt-Finanzen :
     </tbody> 
    </table>
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
