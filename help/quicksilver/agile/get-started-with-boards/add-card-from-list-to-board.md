@@ -5,9 +5,10 @@ title: Hinzufügen vorhandener Aufgaben oder Probleme zu einer Adobe Workfront-P
 description: Sie können eine Aufgabe oder ein Problem in einer Pinnwand in Adobe Workfront aus einer Listen- oder Berichtansicht hinzufügen.
 author: Lisa
 feature: Agile
-source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
+exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -47,44 +48,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie eine der folgenden Optionen aus: **[!UICONTROL Projekte]**, **[!UICONTROL Berichterstellung]** oder **[!UICONTROL Dashboards]**.
 1. Wechseln Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, die/das Sie der Pinnwand oder dem Workstream hinzufügen möchten.
 1. Wählen Sie eine oder mehrere Aufgaben oder Probleme aus.
-1. Klicken [!UICONTROL **Mehr**] > [!UICONTROL **Zu Foren hinzufügen**] oder [!UICONTROL **Hinzufügen zu Workflows**].
+
+   Wenn Sie eine Unteraufgabe auswählen, wird sie auch als Karte auf der Pinnwand hinzugefügt.
+
+1. Klicks [!UICONTROL **Mehr**] > [!UICONTROL **Hinzufügen zu Pinnwänden**] oder [!UICONTROL **Hinzufügen zu Workflows**].
 1. Im [!UICONTROL Hinzufügen zu] wählen Sie die Pinnwand oder den Arbeitsablauf aus, zu der die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Workflows sind.
 
-1. Klicken [!UICONTROL **Hinzufügen**].
+1. Klicks [!UICONTROL **Hinzufügen**].
 
-   Für Pinnwände: Die Aufgabe oder das Problem wird der Pinnwand hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien für den Status angewendet werden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Annahmespalte einzuschließen.
+   Für eine Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien für den Status angewendet werden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Annahmespalte einzuschließen.
 
    Informationen zu Spaltenrichtlinien finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-   Für Workflows: Die Aufgabe oder das Problem wird der Kartenliste des Workflows als ungeplante Karte hinzugefügt.
+   Für einen Workstream: Die Aufgabe oder das Problem wird der Kartenliste des Workflows als nicht geplante Karte hinzugefügt.
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand oder einem Workstream aus den Objektdetails
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
-1. Klicken [!UICONTROL **Projekte**] und klicken Sie auf den Namen eines Projekts, um es zu öffnen.
-1. Klicken [!UICONTROL **Aufgaben**] oder [!UICONTROL **Probleme**] im linken Bereich.
-1. Klicken Sie auf die Aufgabe oder das Problem, die/das Sie einer Pinnwand oder einem Workstream hinzufügen möchten.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Zu Foren hinzufügen**] oder [!UICONTROL **Hinzufügen zu Workflows**].
+1. Klicks [!UICONTROL **Projekte**] und klicken Sie dann auf den Namen eines Projekts, um es zu öffnen.
+1. Klicks [!UICONTROL **Aufgaben**] oder [!UICONTROL **Probleme**] im linken Bereich.
+1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die/das Sie einer Pinnwand oder einem Workstream hinzufügen möchten.
+1. Klicken Sie auf **[!UICONTROL Mehr]** Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Hinzufügen zu Pinnwänden**] oder [!UICONTROL **Hinzufügen zu Workflows**].
 1. Im [!UICONTROL Hinzufügen zu] wählen Sie die Pinnwand oder den Arbeitsablauf aus, zu der die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Workflows sind.
 
-1. Klicken [!UICONTROL **Hinzufügen**].
+1. Klicks [!UICONTROL **Hinzufügen**].
 
-   Für Pinnwände: Die Aufgabe oder das Problem wird der Pinnwand hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien für den Status angewendet werden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Annahmespalte einzuschließen.
+   Für eine Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien für den Status angewendet werden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Annahmespalte einzuschließen.
 
    Informationen zu Spaltenrichtlinien finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-   Für Workflows: Die Aufgabe oder das Problem wird der Kartenliste des Workflows als ungeplante Karte hinzugefügt.
+   Für einen Workstream: Die Aufgabe oder das Problem wird der Kartenliste des Workflows als nicht geplante Karte hinzugefügt.
 
 ## Anzeigen der mit einer Aufgabe oder einem Problem verknüpften Pinnwände in einer Liste
 
-1. Wechseln Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, für die bzw. das Pinnwände-Informationen angezeigt werden sollen.
+1. Gehen Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, für die bzw. das Sie Informationen zu Foren anzeigen möchten.
 1. Wählen Sie eine Ansicht aus, die die Spalte &quot;Pinnwände&quot;enthält, oder erstellen Sie eine neue Ansicht mit der Spalte &quot;Pinnwände&quot;.
 Informationen zu Ansichten finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
-1. Klicken [!UICONTROL **Anzeigen**] in der Spalte, um die Liste der Foren anzuzeigen, in denen sich die Aufgabe oder das Problem befindet.
+1. Klicks [!UICONTROL **Anzeigen**] in der Spalte, um die Liste der Foren anzuzeigen, in denen sich die Aufgabe oder das Problem befindet.
 
    ![Anzeigen von Pinnwänden in der Spalte](assets/show-boards-in-column.png)
 

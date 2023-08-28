@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Produktion für Foren frühzeitiger Zugriff: 24. August 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
+                                <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
@@ -110,7 +110,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Produktion für Foren frühzeitiger Zugriff: 10. August 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                                <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
@@ -128,7 +128,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 3. August 2023</p>
                             </li>
                              <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
+                                <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
