@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
+source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -91,12 +93,12 @@ Anweisungen zum Verknüpfen von Dokumenten aus SharePoint über die neue [!DNL S
 So senden Sie ein Dokument an SharePoint:
 
 1. Klicken Sie auf **Senden an** icon ![Senden an](assets/send-to-icon.png) und wählen Sie SharePoint (Graph-API) aus.
-1. (Optional) Suchen Sie in der Suchleiste nach der Site oder dem Ordner, an die Sie das Dokument senden möchten.
+1. <span class="preview">(Optional) Suchen Sie in der Suchleiste nach der Site oder dem Ordner, an die Sie das Dokument senden möchten.</span>
 1. Wählen Sie die Site oder den Ordner aus der Liste aus.
 
-   * Sites sind mit ![Site-Symbol](assets/site-icon.png).
+   * <span class="preview">Sites sind mit ![Site-Symbol](assets/site-icon.png).</span>
 
-   * Ordner sind mit ![Ordnersymbol](assets/folder-icon.png).
+   * <span class="preview">Ordner sind mit ![Ordnersymbol](assets/folder-icon.png).</span>
 
    * Dateien sind nicht mit einem Symbol markiert.
 
