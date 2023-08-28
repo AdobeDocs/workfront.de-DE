@@ -6,9 +6,9 @@ description: Als Benutzer mit Administratorzugriff auf Timesheets können Sie In
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Sie können Informationen in einem einzigen Zeitblatt bearbeiten oder mehrere Ze
 
 >[!IMPORTANT]
 >
->Wenn Benutzer mit Timesheet-Profilen verknüpft sind und die Timesheets automatisch generiert werden, beziehen sich die Änderungen an vorhandenen Timesheets nicht auf Timesheets, die für zukünftige Datumswerte erstellt werden. Bei allen automatisch erstellten Timesheets werden die Einstellungen in den Timesheet-Profilen festgelegt. Weitere Informationen finden Sie unter [Erstellen von Timesheet-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md)
+>Wenn Benutzer mit Timesheet-Profilen verknüpft sind und die Timesheets automatisch generiert werden, spiegeln die Änderungen an vorhandenen Timesheets nicht die Timesheets wider, die für zukünftige Datumsangaben erstellt werden. Bei allen automatisch erstellten Timesheets werden die Einstellungen in den Timesheet-Profilen festgelegt. Weitere Informationen finden Sie unter [Erstellen von Timesheet-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
 
 ## Zugriffsanforderungen
@@ -101,7 +101,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Inhaber</strong> </td> 
+      <td role="rowheader"><strong>Besitzerin bzw. Besitzer</strong> </td> 
       <td> <p>Dies ist der Name des Benutzers, für den das Timesheet erstellt wurde. Dieses Feld kann nicht bearbeitet werden. </p> <p>Das Feld wird nicht angezeigt, wenn Sie mehrere Timesheets auswählen. </p> </td> 
      </tr> 
      <tr> 
@@ -111,6 +111,16 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      <tr> 
       <td role="rowheader"><strong>Enddatum</strong> </td> 
       <td> Dies ist das Enddatum des Zeitplans.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Status</strong> </td> 
+      <td> Dies ist der Status des Zeitblatts.
+      Die folgenden Optionen sind für den Status von Zeitblättern möglich: 
+      <ul><li><b>Öffnen</b>: Das Timesheet ist geöffnet und die Stundeneinträge können bearbeitet werden.</li>
+      <li><b>Gesendet</b>: Das Timesheet wird den vorgesehenen Genehmigern zur Genehmigung vorgelegt.</li>
+      <li><b>Abgelehnt</b>: Das Timesheet wurde von den Genehmigern nicht genehmigt und steht nun dem Benutzer erneut zur Bearbeitung der Zeiteinträge zur Verfügung.</li>
+      <li><b>Geschlossen</b>: Das Timesheet wird entweder vom Benutzer geschlossen oder vom Genehmiger genehmigt, sodass es nun geschlossen wird. Sie können einem geschlossenen Timesheet keine Zeit hinzufügen.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Genehmigende Personen</strong> </td> 
@@ -127,4 +137,4 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     </tbody> 
    </table>
 
-1. Klicken Sie auf Speichern.
+1. Klicken Sie auf **Speichern**.

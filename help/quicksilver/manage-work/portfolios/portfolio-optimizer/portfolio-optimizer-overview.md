@@ -7,7 +7,7 @@ description: Die [!UICONTROL Portfolio Optimizer] ist das Tool für die Projektb
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 Die [!UICONTROL Portfolio Optimizer] ist das Tool für die Projektbewertung und den Projektvergleich. Überprüfung und Vergleich [!UICONTROL Geschäftsfall] Werte für Projekte, die einem Portfolio zugewiesen sind, zeigen an, wie ein Portfolio-Manager Projekte priorisieren und den größtmöglichen Nutzen für eine Organisation erzielen kann.
 
+![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+
 Der Zweck der [!UICONTROL Portfoliooptimierung] ist es, eine Schnittstelle bereitzustellen, über die ein Portfoliomanager, ein Lenkungsausschuss oder ein Produktverwaltungsbüro zusammenfassende Informationen über den Geschäftsfall jedes Projekts anzeigen kann. Projekte können dann nach strategischen Werten und Zielen oder nach ihrem Gesamtergebnis priorisiert werden.
 
 Die [!UICONTROL Portfolio Optimizer] kann Ihnen nur helfen, wenn Sie die folgenden Voraussetzungen erfüllt haben:
@@ -25,7 +27,7 @@ Die [!UICONTROL Portfolio Optimizer] kann Ihnen nur helfen, wenn Sie die folgend
 
 * Die [!UICONTROL Geschäftsszenarios] die Projekte abgeschlossen wurden. Weitere Informationen finden Sie in den Artikeln im Abschnitt [Geschäftsfall definieren](../../projects/define-a-business-case/define-business-case.md).
 * Ein Portfolio wird im Bereich Projektübersicht im Abschnitt Projektdetails für die Projekte definiert, die Sie überprüfen möchten
-* Sie haben das Projektbudget und den geplanten Nutzen für die Projekte angegeben, die Sie überprüfen möchten. Feste Kosten und fester Umsatz sind optional, fügen jedoch zusätzlichen Wert hinzu. Weitere Informationen finden Sie unter [Projektfinanzierung](../../projects/project-finances/project-finances-overview-1.md).
+* Sie haben das Projektbudget und den geplanten Nutzen für die Projekte angegeben, die Sie überprüfen möchten. Feste Kosten und fester Umsatz sind optional, fügen jedoch zusätzlichen Wert hinzu. Weitere Informationen finden Sie unter [Projektfinanzierungen](../../projects/project-finances/project-finances-overview-1.md).
 
 
 Informationen zum Auffinden der [!UICONTROL Portfolio Optimizer], siehe [Suchen Sie die [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
@@ -35,23 +37,23 @@ Informationen zum Auffinden der [!UICONTROL Portfolio Optimizer], siehe [Suchen 
 * [Die Finanzbereiche der [!UICONTROL Portfolio Optimizer]](#the-financial-areas-in-the-portfolio-optimizer)
 * [Die Finanzbereiche im [!UICONTROL Portfolio Optimizer]](#the-financial-fields-in-the-portfolio-optimizer)
 
-Sie können den Finanzstatus Ihres Portfolios jederzeit während der Laufzeit Ihrer Projekte anzeigen, wenn Sie die [!UICONTROL Portfolio Optimizer].
+Sie können den Finanzstatus Ihres Portfolios jederzeit während der Laufzeit Ihrer Projekte bei Verwendung der [!UICONTROL Portfolio Optimizer].
 
 Beachten Sie Folgendes bei der Arbeit mit Finanzen im [!UICONTROL Portfolio Optimizer]:
 
 * Für jedes Projekt wird eine Punktzahl festgelegt, wenn die [!UICONTROL Geschäftsszenarios] werden entsprechend den Kriterien ergänzt, die sie im [!UICONTROL Portfolio Optimizer]. Beispielsweise erhalten Projekte mit niedrigen Kosten oder hoher Ausrichtung ein höheres Ergebnis.
 
-   Weitere Informationen zur Berechnung des Portfolio-Optimierungswerts eines Projekts finden Sie im Artikel [Übersicht über die [!UICONTROL Portfolio Optimizer] Ergebnis](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Weitere Informationen zur Berechnung des Portfolio-Optimierungswerts eines Projekts finden Sie im Artikel [Übersicht über die [!UICONTROL Portfolio Optimizer] Ergebnis](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 * Die Finanzberechnungen für die [!UICONTROL Portfolio Optimizer] die [!UICONTROL Geplante Kosten] im [!UICONTROL Geschäftsfall] des Projekts.
-* Sie können Ihre Projekte manuell priorisieren im [!UICONTROL Portfolio Optimizer], wobei alle Informationen über sie zu berücksichtigen sind. Dazu gehören Finanzdaten, die Ausrichtung an ihren Scorecards, z. B. ROI.
+* Sie können Ihre Projekte im Abschnitt [!UICONTROL Portfolio Optimizer], wobei alle Informationen über sie zu berücksichtigen sind. Dazu gehören Finanzdaten, die Ausrichtung an ihren Scorecards, z. B. ROI.
 
 ### Die Finanzbereiche der [!UICONTROL Portfolio Optimizer] {#the-financial-areas-in-the-portfolio-optimizer}
 
 Sie können Finanzinformationen in den folgenden Bereichen der [!UICONTROL Portfolio Optimizer]:
 
-* **[!UICONTROL Portfolio-Kopfzeile]**: In diesem Bereich werden Finanzinformationen aus allen Projekten des Portfolios angezeigt. Sie wird auf jeder Registerkarte des Portfolio-Objekts angezeigt.
-* **[!UICONTROL Finanzierung von Portfolios für ausgewählte Projekte]**: In diesem Bereich werden Finanzinformationen aus den in der [!UICONTROL Portfolio Optimizer]. Sie können Projekte hinzufügen oder entfernen und verstehen, wie sich dies auf die Finanzen des Portfolios auswirkt, indem Sie die Informationen in diesem Bereich ansehen.
+* **[!UICONTROL Portfolio-Kopfzeile]**: Dieser Bereich zeigt Finanzinformationen aus allen Projekten des Portfolios an. Sie wird auf jeder Registerkarte des Portfolio-Objekts angezeigt.
+* **[!UICONTROL Finanzierung von Portfolios für ausgewählte Projekte]**: In diesem Bereich werden Finanzinformationen aus den in der Variablen [!UICONTROL Portfolio Optimizer]. Sie können Projekte hinzufügen oder entfernen und verstehen, wie sich dies auf die Finanzen des Portfolios auswirkt, indem Sie die Informationen in diesem Bereich ansehen.
 * **[!UICONTROL Projektfinanzierung]**: In diesem Bereich werden die Finanzinformationen der einzelnen Projekte angezeigt, die im Abschnitt [!UICONTROL Portfolio Optimizer].
 
 ### Die Finanzbereiche im [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
@@ -129,7 +131,7 @@ Die folgenden Finanzfelder werden im [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Verbleibend]</td> 
-   <td> <p>Das verbleibende Budget, nachdem alle [!UICONTROL Budgeted Costs] für alle Projekte innerhalb des Portfolios aus dem Portfolio abgezogen wurden.</p> <p>Das [!UICONTROL Portfolio Budget] wird nach folgender Formel berechnet:</p> <p><em>[!UICONTROL Restmittel des Portfolios] = [!UICONTROL Gesamtbudget des Portfolios] - Gesamtkosten [!UICONTROL Eingesetzte Kosten] aller Portfolio-Projekte</em> </p> <p>Die Gesamtkosten (!UICONTROL Budgeted Cost) aller Projekte im Portfolio werden in der Symbolleiste im Feld Budget dargestellt. </p> <p>Weitere Informationen zu Tracking-Kosten für ein Projekt finden Sie im Artikel<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> </td> 
+   <td> <p>Das verbleibende Budget, nachdem alle [!UICONTROL Budgeted Costs] für alle Projekte innerhalb des Portfolios aus dem Portfolio abgezogen wurden.</p> <p>Das [!UICONTROL Portfolio Budget] wird nach folgender Formel berechnet:</p> <p><em>[!UICONTROL Restmittel des Portfolios] = [!UICONTROL Gesamtbudget des Portfolios] - Gesamtkosten [!UICONTROL Eingesetzte Kosten] aller Portfolio-Projekte</em> </p> <p>Die Gesamtkosten (!UICONTROL Budgeted Cost) aller Projekte im Portfolio werden in der Indikatorleiste im Feld Budget dargestellt. </p> <p>Weitere Informationen zu Tracking-Kosten für ein Projekt finden Sie im Artikel<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Gesamtkosten]</td> 
@@ -141,10 +143,10 @@ Die folgenden Finanzfelder werden im [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Benefit]</td> 
-   <td> <p>Die Summe aller [!UICONTROL Geplanten Nutzenwerte] aller Projekte im Portfolio. Der Wert des geplanten Nutzens eines jeden Projekts wird in der Spalte [!UICONTROL Portfolio Optimizer] aufgeführt. </p> <p>Weitere Informationen zum geplanten [!UICONTROL Nutzen] eines Projekts finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen des Projekts</a>.</p> </td> 
+   <td> <p>Die Summe aller [!UICONTROL Geplanten Nutzenwerte] aller Projekte im Portfolio. Der Wert des geplanten Nutzens eines jeden Projekts wird in der Spalte [!UICONTROL Portfolio Optimizer] in der Spalte [!UICONTROL Benefit] aufgeführt. </p> <p>Weitere Informationen zum geplanten [!UICONTROL Nutzen] eines Projekts finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen des Projekts</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Indikator [!UICONTROL Risiko-Nettowert</td> 
+   <td>Indikator [!UICONTROL Risiko-Nettowert]</td> 
    <td> <p>Ermittelt den [!UICONTROL Potenzielles Risiko]-Wert unter Berücksichtigung des [!UICONTROL Net Value], der von allen Projekten im Portfolio bereitgestellt wird. Um die höchste Effizienz im Portfolio zu erzielen, möchten Sie sehen, dass der [!UICONTROL Risiko]-Indikator niedrig ist und der [!UICONTROL Net Value]-Indikator hoch ist. </p> <p>Weitere Informationen zur Berechnung des Risikos für [!UICONTROL Net Value] finden Sie im Artikel <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">Berechnung des Nettowertrisikos in einem Portfolio</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -154,7 +156,7 @@ Die folgenden Finanzfelder werden im [!UICONTROL Portfolio Optimizer]:
 
 Sie können nur den Projektlistenbereich der [!UICONTROL Portfolio Optimizer] durch die Verwendung von Einstellungen zum Ändern der Informationen in der Liste.
 
-Die folgenden Symbole und Optionen stehen für [!UICONTROL Portfolio Optimizer]:
+Die folgenden Symbole und Optionen stehen für die [!UICONTROL Portfolio Optimizer]:
 
 <table style="table-layout:auto"> 
  <col> 

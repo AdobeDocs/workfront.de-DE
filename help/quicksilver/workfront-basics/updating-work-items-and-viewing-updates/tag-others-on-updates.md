@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Tagging anderer Benutzer auf Updates
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>\
 <span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Sie können Benutzer im Abschnitt &quot;Aktuelle Updates&quot;manuell taggen.
 
 Sie können anderen auf folgende Weise Tags für Aktualisierungen im neuen Kommentierungserlebnis zuweisen:
 
-* **Automatisch**: Wenn ein Benutzer einen Kommentar oder eine Antwort hinzufügt, werden diese automatisch mit Tags versehen und dem Bereich Personen oder Teams des Kommentarfelds hinzugefügt.
+* **Automatisch**: Wenn ein Benutzer einen Thread startet, einen Kommentar hinzufügt oder eine Antwort hinzufügt, wird er automatisch mit Tags versehen und zum Bereich Personen oder Teams des Kommentarfelds hinzugefügt. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Wenn der Thread im veralteten Kommentarerlebnis beginnt, werden die Thread-Teilnehmer nicht automatisch mit Tags versehen.
+
 * **Manuell**: Wenn Sie einen Benutzer manuell zum Bereich Personen taggen des Kommentarfelds hinzufügen.
 
 Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten oder darauf antworten.
@@ -213,3 +220,10 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) <span class="preview">in der oberen rechten Ecke des Kommentars</span>Klicken Sie auf **Bearbeiten**. Entfernen Sie alle getaggten Benutzer und klicken Sie auf **Einsenden**. Sie können einen Kommentar nur innerhalb von 15 Minuten nach seiner Eingabe bearbeiten. Sie können nur die hinzugefügten Kommentare bearbeiten.
+
+   >[!TIP]
+   >
+   >Wenn Sie mit dem veralteten Kommentarerlebnis Kommentare und Antworten hinzufügen, können Inhaber von Kommentaren, die nicht speziell mit Tags versehen wurden, von Personen, die das neue Kommentarerlebnis verwenden, nicht manuell entfernt werden.
+
+
+

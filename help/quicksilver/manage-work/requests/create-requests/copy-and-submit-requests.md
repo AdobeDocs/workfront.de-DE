@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Zugriff auf Probleme bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -86,7 +86,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 ## Überlegungen zum Kopieren und Senden von Anforderungen als neue
 
 * Sie können nur gesendete Anforderungen kopieren und senden. Entworfene Anforderungen können nicht kopiert werden.
-* Sie können Anforderungen kopieren und senden, die Sie ursprünglich gesendet haben, oder Anforderungen, die von anderen gesendet wurden, und Sie haben Zugriff auf mindestens &quot;Ansicht&quot;.
+* Sie können Anforderungen kopieren und senden, die Sie ursprünglich gesendet haben, oder Anforderungen, die von anderen gesendet wurden, und Sie haben Zugriff auf zumindest Ansicht.
 * Sie haben immer Zugriff auf das Kopieren und Senden einer Kopie Ihrer eigenen Anfragen, es sei denn, jemand hat Ihre Berechtigungen für sie entfernt.
 * Der Zugriff auf Kopier- und Sendeanforderungen, die ursprünglich von anderen gesendet wurden, kann Personen im selben Unternehmen automatisch gewährt werden, wenn der Ersteller der Anforderungswarteschlange die **Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen** in den Bereichen &quot;Queue Details&quot;oder &quot;Edit Project&quot;. Wenn Sie diese Einstellung deaktivieren, kann nur der ursprüngliche Anfragende eigene Anforderungen anzeigen.
 
@@ -119,7 +119,12 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 ## Anforderungen kopieren und senden
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Anforderungen**.
-1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
+1. (Bedingt) Wenn der Abschnitt Gesendet nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
+
+   >[!TIP]
+   >
+   >   Ihr Workfront- oder Gruppenadministrator kann Ihre Layoutvorlage anpassen und Bereiche aus dem Hauptmenü oder aus dem linken Bereich in Ihrer Umgebung entfernen. In diesem Fall sind sie möglicherweise nicht für Sie verfügbar.
+
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie sie aus und klicken Sie auf **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
@@ -132,7 +137,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 
      Oder
 
-     Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie dann auf **Kopieren und Senden als neu**.
+     Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie auf **Kopieren und Senden als neu**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -236,6 +241,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
    >* Alle benutzerdefinierten Formulare, die an die ursprüngliche Anforderung angehängt sind, und die Werte in den benutzerdefinierten Feldern werden an die kopierte Anforderung übertragen. Dazu gehören Felder, die Logik enthalten.
    >* Sie können keine benutzerdefinierten Formulare aus der kopierten Anforderung entfernen.
 
-1. Klicken **Einsenden**.
+1. Klicks **Einsenden**.
 
    Die kopierte Anforderung wird als neue Anforderung in der von Ihnen angegebenen Anforderungswarteschlange gesendet.
