@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-Integrationen
 description: Sie können Ihre Arbeit mit den folgenden Adobe Experience Manager Assets-Integrationen verbinden.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Bevor Sie beginnen,
+Bevor Sie beginnen
 
 * Sie müssen [!DNL Workfront] und [!DNL Adobe Experience Manager Assets] mit einer Organisations-ID in der [!DNL Adobe Admin Consol]e. Weitere Informationen finden Sie unter [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -79,17 +79,18 @@ Bevor Sie beginnen,
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** rechts oben in Adobe Workfront auf und klicken Sie dann auf **[!UICONTROL Einrichtung]** .
 1. Auswählen **[!UICONTROL Dokumente]** Wählen Sie im linken Bereich die Option **[!UICONTROL [!DNL Experience Manager]Integration]**.
+
    >[!NOTE]
    >
    >Dieser Konfigurationsbereich wird nur angezeigt, wenn Ihre [!DNL Workfront] -Umgebung ist in einer [!DNL Adobe Admin Console].
 
 1. Auswählen **[!UICONTROL Hinzufügen [!DNL Experience Manager] Integration]**.
 1. Im **[!UICONTROL Name]** Geben Sie den Namen ein, den die Benutzer bei der Interaktion mit dieser Integration in Workfront und Experience Manager Assets sehen sollen.
-1. Im **[!UICONTROL Navigations-URL]** -Feld, füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um eine Verknüpfung mit der [!DNL Experience Manager] -Instanz aus der [!UICONTROL Hauptmenü] für schnellen Zugriff.
+1. Im **[!UICONTROL NavigationsURL]** -Feld, füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um eine Verknüpfung mit der [!DNL Experience Manager] -Instanz aus der [!UICONTROL Hauptmenü] für schnellen Zugriff.
 1. Wählen Sie ein Repository aus dem **[!UICONTROL [!DNL Experience Manager]Assets-Repository]** Dropdown-Menü. Das System füllt automatisch alle [!DNL Experience Manager] Repositorys, die mit der Organisations-ID verknüpft sind, der Ihr Benutzerprofil zugewiesen ist.
    ![Experience Manager-Repository auswählen](assets/setup-information.png)
 
-1. Klicken **[!UICONTROL Speichern]** oder zum [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel.
+1. Klicks **[!UICONTROL Speichern]** oder zum [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel beschrieben.
 
    >[!NOTE]
    >
@@ -130,7 +131,7 @@ Sie können jedes von Workfront unterstützte Feld einem Tag in Experience Manag
 
 >[!INFO]
 >
->**Beispiel**: Um mit dem hier in der Ordnerstruktur angezeigten Tag abzugleichen, lautet der Feldwert in Workfront `landscapes:trees/spruce`. Beachten Sie die Kleinbuchstaben im Workfront-Feldwert.
+>**Beispiel**: Um mit dem hier in der Ordnerstruktur angezeigten Tag abzugleichen, würde der Feldwert in Workfront folgendermaßen aussehen: `landscapes:trees/spruce`. Beachten Sie die Kleinbuchstaben im Workfront-Feldwert.
 >
 >Wenn das Tag am weitesten links im Tag-Baum sein soll, muss es von einem Doppelpunkt gefolgt werden. In diesem Beispiel würde der Feldwert in Workfront zum Landschaftsschild zugeordnet werden: `landscapes:`.
 >
@@ -180,13 +181,13 @@ Zuordnen von Metadaten für Assets:
 
    >[!NOTE]
    >
-   >Sie können eine [!DNL Workfront] Feld zu mehreren [!UICONTROL Experience Manager Assets] -Felder. Sie können nicht mehrere [!DNL Workfront] Felder zu einem einzelnen [!DNL Experience Manager Assets] -Feld.
+   >Sie können eine einzelne [!DNL Workfront] Feld zu mehreren [!UICONTROL Experience Manager Assets] -Felder. Sie können nicht mehrere [!DNL Workfront] Felder zu einem einzelnen [!DNL Experience Manager Assets] -Feld.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Im [!DNL Experience Manager Assets] , durchsuchen Sie die vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf weitere Kategorien zuzugreifen.
 1. Wiederholen Sie die Schritte 2 und 3 nach Bedarf.
    ![Metadatenfelder](assets/asset-metadata.png)
-1. Klicken [!UICONTROL Speichern] oder zum [Ordner](#folders) in diesem Artikel.
+1. Klicks [!UICONTROL Speichern] oder zum [Ordner](#folders) in diesem Artikel beschrieben.
 
 ### Zuordnen von Metadaten für Ordner
 
@@ -208,19 +209,21 @@ Zuordnen von Metadaten für Ordner:
 1. Im **[!DNL Experience Manager Assets]** , durchsuchen Sie die vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf weitere Kategorien zuzugreifen.
 1. Wiederholen Sie die Schritte 2 und 3 nach Bedarf.
    ![Ordnermetadaten](assets/folder-metadata.png)
-1. Klicken **[!UICONTROL Speichern]** oder zum [Synchronisierung von Projektmetadaten](#project-metadata-sync) in diesem Artikel.
+1. Klicks **[!UICONTROL Speichern]** oder zum [Synchronisierung von Projektmetadaten](#project-metadata-sync) in diesem Artikel beschrieben.
 
 
 ### Synchronisierung von Objektmetadaten
 
 Ein [!DNL Experience Manager] Felder, die [!DNL Workfront] Die Felder &quot;Portfolio&quot;, &quot;Programm&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;, &quot;Problem&quot;und &quot;Dokument&quot;werden automatisch aktualisiert, wenn das Feld in [!DNL Workfront].
 
+Wenn diese Option aktiviert ist, enthält jedes Asset, das an Adobe Experience Manager gesendet wurde, eine Karte auf der Seite &quot;Dokumentdetails&quot;, die eine Echtzeitansicht der Adobe Experience Manager-Metadaten des Dokuments anzeigt.
+
 >[!IMPORTANT]
 >
 >Benutzer müssen Schreibzugriff in [!DNL Experience Manager] für Assets, die im Objekt gespeichert sind, damit die Metadaten beim Aktualisieren synchronisiert werden können.
 
 1. Aktivieren Sie die **[!UICONTROL Synchronisieren von Objektmetadaten]** -Feld.
-1. Klicken **Speichern** oder zum [Einrichten von Workflows (optional)](#set-up-workflows-optional) in diesem Artikel.
+1. Klicks **Speichern** oder zum [Einrichten von Workflows (optional)](#set-up-workflows-optional) in diesem Artikel beschrieben.
 
 <!--Courtney start here-->
 
@@ -236,7 +239,7 @@ Die standardmäßigen Workflow-Werte, die Sie in der Integration festlegen, kön
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Aktivieren Sie die **Portfolio- und Programmnamen anhängen** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
-1. Klicken **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
+1. Klicks **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel beschrieben.
 
 <!--Courtney end here-->
 
@@ -246,7 +249,7 @@ Sie können Benutzern erlauben, Ordner zu erstellen, die mit [!DNL Experience Ma
 
 Geben Sie in den folgenden Schritten an, wo die verknüpften Ordner erstellt werden sollen. Jede Integration kann nur einen Speicherort für alle verknüpften Ordner haben.
 
-So richten Sie verknüpfte Ordner ein:
+Einrichten verknüpfter Ordner:
 
 1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner aktivieren]** auf.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
