@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Benutzerzuweisung auf Pinnwänden und Karten</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Es gibt jetzt Verbesserungen, die beim Hinzufügen von Benutzern zu Pinnwänden und Karten in Adobe Workfront-Pinnwänden mehr Flexibilität bieten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Benutzerzuweisung auf Pinnwänden und Karten</a></p><p>Es gibt jetzt Verbesserungen, die beim Hinzufügen von Benutzern zu Pinnwänden und Karten in Adobe Workfront-Pinnwänden mehr Flexibilität bieten.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -127,6 +127,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             <li>
                                 <p>Vorschau-Version: 3. August 2023</p>
                             </li>
+                            <li>
+                                <p>Produktion für Foren - frühzeitiger Zugriff: nicht zutreffend</p>
+                            </li>
                              <li>
                                 <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
                             </li>
@@ -157,7 +160,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p><p>Wir haben einige Änderungen vorgenommen, um das Auffinden von Ordnern beim Senden von Dokumenten an Ihre SharePoint (GraphAPI)-Ordner zu vereinfachen</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)</a></p><p>Wir haben einige Änderungen vorgenommen, um das Auffinden von Ordnern beim Senden von Dokumenten an Ihre SharePoint (GraphAPI)-Ordner zu vereinfachen</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -165,17 +168,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 24. August<br /></p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span> </p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a></p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -183,10 +183,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 24. August<br /></p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: TBD</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Entwurf beim Hinzufügen eines neuen Problems zu einem Projekt aktualisiert</a> </p><p>Dieses Update wurde mit Version 23.3 angekündigt.
-                        <p>Wir haben das Feld Neues Problem aktualisiert, das beim Senden eines neuen Problems an ein Projekt angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neue Anforderung überein, das beim Senden einer neuen Anforderung an eine Anforderungswarteschlange angezeigt wird.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Entwurf beim Hinzufügen eines neuen Problems zu einem Projekt aktualisiert</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        <p>Dieses Update wurde mit Version 23.3 angekündigt.</p>
+                        <p>Wir haben das Feld Neues Problem aktualisiert, das beim Senden eines neuen Problems an ein Projekt angezeigt wird. Jetzt stimmt die Benutzeroberfläche mit dem Feld Neue Anforderung überein, das beim Senden einer neuen Anforderung an eine Anforderungswarteschlange angezeigt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -232,7 +231,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamische Neuberechnung berechneter Felder in Formularen</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamische Neuberechnung berechneter Felder in Formularen</a></p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Berechnete Felder in einem Formular, das an ein Objekt angehängt ist, werden jetzt dynamisch in Echtzeit neu berechnet, wenn die abhängigen Werte in einem Formular auf der Seite geändert werden. Auf diese Weise können Sie die aktualisierten Ergebnisse anzeigen, ohne das Formular zu speichern.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -252,6 +252,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Geplante Stunden für untergeordnete wiederkehrende Aufgaben mit einfacher Dauer ohne Zuweisung festlegen</a></p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Die Art und Weise, wie geplante Stunden wiederkehrenden Aufgaben ohne Zuweisung und einfache Dauer zugeordnet werden, wurde geändert. Wenn Sie jetzt "Geplante Stunden"für eine neue wiederkehrende Aufgabe mit dem Typ Einfache Dauer und ohne Zuweisung festlegen, werden die Stunden auch den einzelnen Wiederholungen zugeordnet. Vor dieser Änderung wurden die Stunden nicht für einzelne Wiederholungen gespeichert, wenn die Zuordnung der übergeordneten Aufgaben aufgehoben wurde.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -349,6 +350,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Neue Verbesserungen der Beta-Version für Kommentierungserlebnisse</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Verbesserungen am Abschnitt Updates werden innerhalb des Zeitrahmens der Veröffentlichung für das kommentierende Erlebnis-Beta für das vierte Quartal 2023 bereitgestellt. Diese Verbesserungen werden in der Produktionsumgebung allen Kunden mit der Version vom vierten Quartal 2023 (Oktober 2023) zur Verfügung gestellt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -368,6 +370,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Neue Beta-Verbesserungen für Canvas Dashboards</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Verbesserungen an den Canvas-Dashboards werden im Rahmen der laufenden Beta-Phase im Veröffentlichungszeitrahmen des vierten Quartals 2023 bereitgestellt. Diese Verbesserungen werden in der Produktionsumgebung allen Kunden mit der Version vom vierten Quartal 2023 (Oktober 2023) zur Verfügung gestellt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -387,6 +390,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Neue Filteroptionen für neue Startseite</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Neue Filteroptionen sind jetzt für das Widget "Meine Arbeit"in "Neue Startseite"verfügbar. Zu den Optionen gehören Filter für Objekttypen (Aufgaben, Probleme und Anforderungen) und Status (nicht bereit, startbereit, arbeiten und fertig gestellt).</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -425,6 +429,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Die Schaltfläche Neue Startseite ausprobieren wurde für Konten entfernt, die "Neue Startseite"deaktiviert haben</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Die Schaltfläche Neue Startseite ausprobieren ist nicht mehr für Konten vorhanden, für die die Option Neue Startseite deaktiviert wurde. Die neue Startseite muss vom Systemadministrator erneut aktiviert werden, bevor einzelne Benutzer die Schaltfläche zum Testen der neuen Startseite verwenden können.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -444,6 +449,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Standard-Widget "Neue Startseite"ändern</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Das To-dos-Widget, das die Berechtigung zum Erstellen von Aufgaben erfordert, ist jetzt nur im standardmäßigen Widget-Satz für Benutzer mit den Lizenztypen Standard, Plan oder Arbeit vorhanden. Darüber hinaus wurde das Widget automatisch aus den Startseiten von Benutzern mit allen anderen Lizenztypen entfernt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
