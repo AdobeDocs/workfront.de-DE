@@ -6,9 +6,9 @@ description: Sie können eine Pinnwand so filtern, dass nur bestimmte Karten ang
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Durch Sortieren der Pinnwand werden alle Karten in den Spalten sortiert. Eine ei
 
 Die Suche hilft Ihnen auch, eine bestimmte Karte auf der Pinnwand zu finden.
 
-Wenn Filter angewendet werden, wird auf der Pinnwand eine Anzeige angezeigt ![Auf Pinnwand angewendeter Filter](assets/boards-filterapplied-30x30.png). Klicken **[!UICONTROL Alle löschen]** , um alle Filter aus der Pinnwand zu entfernen, und klicken Sie auf **[!UICONTROL Filter ausblenden]** , um den Filterbereich zu schließen.
+Wenn Filter angewendet werden, wird auf der Pinnwand eine Anzeige angezeigt ![Auf Pinnwand angewendeter Filter](assets/boards-filterapplied-30x30.png). Klicks **[!UICONTROL Alle löschen]** , um alle Filter aus der Pinnwand zu entfernen, und klicken Sie auf das Symbol &quot;Reduzieren&quot;, um das Filterbedienfeld zu schließen.
 
-![Filterbereich](assets/boards-all-filters-collapsed-1022.png)
+![Filterbereich](assets/boards-all-filters-collapsed-0823.png)
 
 ## Zugriffsanforderungen
 
@@ -56,22 +56,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Pinnwand nach Bevollmächtigten filtern
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Mitglieder] und wählen Sie die Person(en) aus, deren Karten Sie sehen möchten. Sie können auch nicht zugewiesene Karten anzeigen.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Mitglieder] und wählen Sie die Person(en) aus, deren Karten Sie sehen möchten. Sie können auch nicht zugewiesene Karten anzeigen.
 
    ![Nach Mitglied filtern](assets/boards-filter-by-assignees-0822.png)
 
 ## Pinnwand nach Tags filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Tags] und wählen Sie die Tags aus, die Sie sehen möchten.
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Tags] und wählen Sie die Tags aus, die Sie sehen möchten.
 
    ![Nach Tag filtern](assets/boards-filter-by-tags-0822.png)
 
 ## Pinnwand nach Status filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Status] und wählen Sie die Statustypen aus, die Sie sehen möchten.
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Status] und wählen Sie die Statustypen aus, die Sie sehen möchten.
 
    Sie können auch abgeschlossene Karten ausblenden.
 
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Pinnwand nach Fälligkeitsdatum filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Fälligkeitsdatum] und wählen Sie die gewünschten Datumsoptionen aus.
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Fälligkeitsdatum] und wählen Sie die gewünschten Datumsoptionen aus.
 
    Es werden nur Karten aus den ausgewählten Datumsbereichen angezeigt.
 
@@ -91,7 +91,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie können die Pinnwand filtern, um auch alle archivierten Karten anzuzeigen.
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Archivierte Karten] und wählen Sie **[!UICONTROL Archivierte Karten]** , um alle archivierten Karten anzuzeigen.
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Archivierte Karten] und wählen Sie **[!UICONTROL Archivierte Karten]** , um alle archivierten Karten anzuzeigen.
 
    Der Filter zeigt die Anzahl der archivierten Karten an.
 
@@ -102,7 +102,7 @@ Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie könn
 ## Pinnwand nach Verbindung filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Verbindung] und wählen Sie die [!DNL Workfront] Projekte für die verbundenen Karten, die Sie sehen möchten.
+1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Verbindung] und wählen Sie die [!DNL Workfront] Projekte für die verbundenen Karten, die Sie sehen möchten.
 
    Sie können auch Karten anzeigen, die nicht mit einem Projekt verbunden sind.
 
@@ -113,13 +113,13 @@ Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie könn
 Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einzelne Spalte kann nicht sortiert werden und der Rückstand oder die Annahmespalte sind nicht sortiert.
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Sortieren nach**] und wählen Sie [!UICONTROL **Name**], [!UICONTROL **Fälligkeitsdatum**], [!UICONTROL **Schätzung**], [!UICONTROL **Status**] oder [!UICONTROL **Verbindung**].
+1. Klicks [!UICONTROL **Sortieren nach**] und wählen [!UICONTROL **Name**], [!UICONTROL **Fälligkeitsdatum**], [!UICONTROL **Schätzung**], [!UICONTROL **Status**] oder [!UICONTROL **Verbindung**].
 
    Die Verbindung (Projektname) gilt nur für verbundene Karten. Die anderen Optionen sortieren sowohl verbundene als auch Ad-hoc-Karten in den Spalten.
 
-   Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zurück, in der sie manuell festgelegt wurden, bevor andere Sortieroptionen angewendet wurden. Dies ist die Standardsortierung der Spalten.
+   Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zurück, in der sie manuell festgelegt wurden, bevor andere Sortieroptionen angewendet wurden. Dies ist die Standardsortierung für die Spalten.
 
-1. Auswählen [!UICONTROL **Rückwärtsreihenfolge**] , um die Spalten in umgekehrter Reihenfolge der Sortieroption zu sortieren.
+1. Auswählen [!UICONTROL **Rückwärtsreihenfolge**] um die Spalten in umgekehrter Reihenfolge nach der Sortieroption zu sortieren.
 
    Der Pfeil auf dem Sortiersymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert werden.
 
@@ -130,10 +130,10 @@ Wenn Sie eine Sortieroption auswählen, werden alle Spalten sortiert. Eine einze
 ## Durchsuchen einer Pinnwand
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
+1. Klicks [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
 
    Alle Karten, die den Suchbegriff enthalten, werden angezeigt.
 
    Klicken Sie auf das X, um die Suche zu löschen.
 
-   ![Nach Karten in einer Pinnwand suchen](assets/boards-searchbox.png)
+   ![Suchen nach Karten in einer Pinnwand](assets/boards-searchbox.png)
