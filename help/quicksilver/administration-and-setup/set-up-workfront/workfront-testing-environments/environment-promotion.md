@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 2%
+source-wordcount: '2334'
+ht-degree: 3%
 
 ---
 
@@ -126,7 +126,7 @@ Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfiguration
 
 Die API authentifiziert jede Anfrage, um sicherzustellen, dass der Client Zugriff auf das Anzeigen oder Ändern eines angeforderten Objekts hat.
 
-Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-Schlüssels, der mit einer der folgenden Methoden gegeben werden kann:
+Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-Schlüssels, der mit der folgenden Methode gegeben werden kann:
 
 ### Authentifizierung des Anforderungsheaders
 
@@ -192,7 +192,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Oder
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -288,9 +295,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -349,9 +362,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -418,9 +437,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -531,7 +556,12 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -658,7 +688,14 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Oder
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -735,9 +772,15 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -796,7 +839,7 @@ Es wird derzeit kein UPDATE unterstützt `action` in den Alpha-Funktionen dieses
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### Kopfzeilen
@@ -804,7 +847,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Oder
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -841,14 +891,14 @@ Dieser Aufruf startet einen Installationsversuch eines Promotion-Pakets in der i
 
 #### Optionen
 
-Wenn eine `translationmap` nicht im Hauptteil der POST angegeben ist, wird der Prozess automatisch `/translationmap` aufrufen. Die `translationmap` wird wie bisher verwendet, ohne Gelegenheit, sie zu überprüfen oder zu ändern.
+Wenn eine `translationmap` nicht im Hauptteil der POST angegeben ist, wird der Prozess automatisch `/prepare-installation` aufrufen. Die `translationmap` wird wie bisher verwendet, ohne Gelegenheit, sie zu überprüfen oder zu ändern.
 
 Wenn eine `translationmap` im Hauptteil der POST bereitgestellt wird, verwendet der Installationsprozess die bereitgestellte Zuordnung. Dies gibt einem installierten Benutzer die Möglichkeit, vor der Ausführung eines Installationsversuchs Änderungen vorzunehmen und zu überprüfen.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### Kopfzeilen
@@ -856,7 +906,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Oder
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -897,16 +954,22 @@ Die Ergebnisse umfassen Installationsereignisse aus allen Umgebungen, in denen d
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Kopfzeilen
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -995,9 +1058,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Oder
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
