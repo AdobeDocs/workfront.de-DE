@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # Neue Kommentarerlebnis-Release-Aktivität
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ Das Zeitstempelformat der Benutzerkommentare wurde auf der Registerkarte Komment
 
 Die Änderungen wirken sich nicht auf Systemaktualisierungen auf der Registerkarte Systemaktivität aus.
 
-Vorschau und Produktion: 24. August 2023
+Vorschau und Produktion für alle Kunden: 24. August 2023
 
 ### Woche vom 14. August 2023
 
 [Sehen Sie sich eine Videodemonstration zu allen Funktionen an, die in der Woche vom 14. August 2023 veröffentlicht wurden](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Neues Kommentierungserlebnis für zusätzliche Objekte
+
+[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
 
 Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Version 23.3 in der Produktion zur Verfügung: Vorlagenaufgaben, Vorlagen, Timesheets, Teams, Benutzer, Programme, Portfolios.
 
@@ -98,6 +102,8 @@ Produktionsversion für schnelle Veröffentlichung: Mit der Version 23.8 (31. Au
 Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
 
 #### Neues Design-Update für den neuen Kommentarstream
+
+[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
 
 Wir haben den neuen Kommentar-Stream neu gestaltet, um ihn mit einem aktuelleren Look-and-Feel zu versehen. Einige der Verbesserungen sind:
 
@@ -122,6 +128,8 @@ Produktion für schnelle Veröffentlichung: Mit der Version 23.8 (31. August 202
 Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10 (Oktober 2023)
 
 #### Das neue Kommentierungserlebnis ist das Standarderlebnis für Projekte, Aufgaben, Probleme und Dokumente
+
+[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
 
 Wir machen das neue Kommentierungserlebnis zum Standarderlebnis für die folgenden Objekte: Projekte, Aufgaben, Probleme und Dokumente.  Das veraltete Kommentierungserlebnis bleibt beim Zugriff auf diese Objekte als Alternative erhalten.
 
