@@ -3,9 +3,9 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
+source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 24. August<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,7 +183,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 24. August<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -418,10 +418,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit Version 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span></p>
                             </li>
                         </ul>
                     </td>
