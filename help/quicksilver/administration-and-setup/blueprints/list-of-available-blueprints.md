@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ Die [!UICONTROL Allgemeine interne strategische Initiative] blueprint enthält e
 **[!UICONTROL Einrichtung der Personalverwaltung]**
 Dieser Entwurf enthält die Konfiguration von Organisationsstrukturen, die auf eine Personalabteilung erweitert werden sollen.
 
-[!BADGE Neu!]{type=Informative}**[!UICONTROL Einrichtung der Informationstechnologie]**
+**[!UICONTROL Einrichtung der Informationstechnologie]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, die auf ein Anwendungsbeispiel für Informationstechnologie erweitert werden.
 
-**[!UICONTROL Vererbte Instanzgrundlagen | Checkliste]**
+[!BADGE Neu!]{type=Informative}**[!UICONTROL Vererbte Instanzgrundlagen | Checkliste]**
 Dieser Blueprint enthält eine Projektvorlage (oder Checkliste), die Sie mit einer kurzen Liste von Fragen, Ressourcen und Links überprüfen können, um ein klares Verständnis der Konfiguration Ihrer Workfront-Instanz zu erhalten. Verwenden Sie dies, wenn Sie kürzlich eine Workfront-Instanz geerbt haben und eine Anleitung zum Starten benötigen.
 
 **[!UICONTROL Integrierte Kampagnenausführung]**
