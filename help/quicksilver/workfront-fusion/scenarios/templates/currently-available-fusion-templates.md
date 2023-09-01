@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,19 @@ Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verf
 
 Möglicherweise stehen für Ihr Team oder Ihre Organisation andere vom Team erstellte Vorlagen zur Verfügung.
 
-Um die verfügbaren Vorlagen anzuzeigen, klicken Sie auf **Vorlagen** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü von Fusion.
+Klicken Sie auf die Schaltfläche **Vorlagen** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü von Fusion.
 
 ## Workfront-Vorlagen
 
 Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
 
-### Workfront - Kopieren von Programm-benutzerdefinierten Forms- und Felddaten in zugehörige neue Projekte
+### [!BADGE Neu!]{type=Informative}
 
 Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Programms zu den neuen Projekten hinzugefügt.
+
+### [!BADGE Neu!]{type=Informative}
+
+Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Portfolios zu den neuen Projekten hinzugefügt.
 
 ### Workfront - Konvertieren eines genehmigten Problems in ein Projekt
 
@@ -42,7 +46,7 @@ Diese Vorlage erstellt auf Basis eines eindeutigen Ereignisses, z. B. einer Änd
 
 Mit dieser Vorlage für Massenaktualisierungen werden alle Projekte umbenannt, die den Kriterien einer Suche entsprechen (in ein Portfolio fallen), und sie mit einem Standardformat umbenannt.
 
-### Workfront - Umbenennen von Projekten mit Konvention
+### Workfront - Umbenennen von Projekten mit einer Konvention
 
 Diese Vorlage ermittelt alle Projekte, die die Kriterien eines Filters erfüllen (die in ein Portfolio fallen), und benennt sie in ein Standardformat um.
 
@@ -54,7 +58,7 @@ Diese Vorlage erfasst eine Projektgrundlinie bei jeder in den Switch-Modulen ver
 
 Diese Vorlage erfasst wöchentlich jeden Montag um 6 Uhr ET eine Projektgrundlinie für Projekte, die nach Portfolio gefiltert wurden, und erstellt eine Aktualisierung im Aktualisierungsstream zur Protokollierung.
 
-### Suchen Sie nach Projektvorlagen, die nicht in der Richtlinienzeit verwendet werden, und benachrichtigen Sie
+### [!BADGE Neu!]{type=Informative}
 
 Überprüfen Sie einmal im Monat Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu handhabenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
 
@@ -68,7 +72,7 @@ Wenn eine Entscheidung über einen Testversand getroffen wird, der direkt zu ein
 
 ### Workfront-Testversand > Workfront - Task Update und Abschluss (falls genehmigt) bei Testbestätigungsentscheidung
 
-Wenn einzelne Testsendungen an einzelne Aufgaben gebunden sind, schließt dieses Szenario die damit verbundene Aufgabe, sobald eine Validierungsentscheidung für den Testversand getroffen wird. Falls genehmigt, wird die Aufgabe abgeschlossen und das Projekt aktualisiert.
+Wenn einzelne Testsendungen an einzelne Aufgaben gebunden sind, schließt dieses Szenario die damit verbundene Aufgabe, sobald eine Validierungsentscheidung für den Testversand getroffen wird. Wenn die Genehmigung erteilt wurde, wird die Aufgabe abgeschlossen und das Projekt aktualisiert.
 
 ## HTTP - Workfront-Vorlagen
 
@@ -80,7 +84,7 @@ Diese Vorlagen rufen Informationen von einem Webdienst ab und bringen diese Info
 
 ### APILayer > Workfront - Tägliche Aktualisierung des Wechselkurses (EUR)
 
-Diese Vorlage erstellt ein Szenario, das die Aktualisierung eines Wechselkurses zu einem bestimmten Zeitpunkt automatisiert. Bei diesem Szenario wird der Kurs von Euro (EUR) auf US-Dollar (USD) von einer APIlayers.com-API abgerufen und der Kurs in Workfront aktualisiert.
+Diese Vorlage erstellt ein Szenario, das die Aktualisierung eines Wechselkurses zu einem bestimmten Zeitpunkt automatisiert. Bei diesem Szenario wird der Kurs von Euro (EUR) auf US-Dollar (USD) von einer APIlayers.com API abgerufen und der Kurs in Workfront aktualisiert.
 
 ## Workfront-Marketo-Vorlagen
 
@@ -92,15 +96,15 @@ Diese Vorlagen unterstützen die Integration von Workfront mit Marketo.
 
 ### Genehmigen Sie Ihren Marketo Engage-E-Mail-Entwurf mit Workfront-Genehmigungs-Workflows.
 
-Dies ist Teil der Integration von Workfront und Marketo Engage &quot;Überprüfen und genehmigen&quot;. Diese Vorlage erkennt, ob ein E-Mail-Testversand in Workfront genehmigt wurde, und aktualisiert dann die entsprechende E-Mail in Marketo Engage wie genehmigt.
+Dies ist Teil der Integration von Workfront und Marketo Engage &quot;Überprüfen und Genehmigen&quot;. Diese Vorlage erkennt, ob ein E-Mail-Testversand in Workfront genehmigt wurde, und aktualisiert dann die entsprechende E-Mail in der genehmigten Marketo Engage-Version.
 
-### Erfassen von Marketing-Kampagnenanforderungen in Workfront und Automatisieren der Erstellung von Kampagnen in Marketo Engage
+### Erfassen von Marketing-Kampagnenanfragen in Workfront und Automatisieren der Erstellung von Kampagnen in Marketo Engage
 
 Dieses Szenario bietet eine programmatische Möglichkeit, E-Mail- und Webinar-Kampagnen in Marketo Engage aus einer in Workfront erstellten Anforderung zu erstellen. Durch die Verwendung von Automatisierung zur Erstellung, Organisation und Konfiguration von Kampagnen können Teams die Effizienz steigern.
 
 ### Prüfen eines E-Mail-Testversands Ihres Marketo Engage-E-Mail-Entwurfs in Workfront
 
-Diese Vorlage erkennt, ob eine Workfront-Aufgabe auf einen Überprüfungsstatus gesetzt wurde, und exportiert dann den E-Mail-Entwurf aus Marketo Engage, um ihn als Testversand in Workfront zu speichern.
+Diese Vorlage erkennt, ob eine Workfront-Aufgabe auf einen Überprüfungsstatus gesetzt wurde, und exportiert dann den E-Mail-Entwurf von Marketo Engage, um ihn als Testversand in Workfront zu speichern.
 
 ## Workfront-Anaplan-Vorlagen
 
@@ -120,10 +124,10 @@ Weitere Informationen zur Integration von Workfront mit Anaplan finden Sie unter
 
 ### Workflows für die Verknüpfung von Budgetanforderungen
 
-* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus [!DNL Adobe Workfront] Budgetanfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an [!DNL Adobe Workfront] Projekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus einem [!DNL Adobe Workfront] Budgetanfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an eine [!DNL Adobe Workfront] Projekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows zum Verknüpfen von Kampagnenanfragen
 
-* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an [!DNL Adobe Workfront] Kampagnenanforderung oder Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus einem [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an eine [!DNL Adobe Workfront] Kampagnenanforderung oder Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
