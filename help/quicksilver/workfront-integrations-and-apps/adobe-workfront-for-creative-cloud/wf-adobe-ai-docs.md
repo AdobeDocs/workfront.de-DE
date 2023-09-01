@@ -6,9 +6,9 @@ description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnel
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
+source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> -->
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] -Lizenz.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-* Sie müssen die [!DNL Adobe Workfront for design and video] -Plug-in, bevor Sie Dokumente von [!DNL Illustrator].
+* Sie müssen installieren [!DNL Adobe Workfront for design and video] vor dem Hochladen von Dokumenten aus [!DNL Illustrator].
 
   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -65,13 +65,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wechseln Sie zum Arbeitselement, in das Sie ein Dokument hochladen möchten.
 1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
+1. Klicks **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
+1. (Optional) Geben Sie einen Kommentar in die **[!UICONTROL Updates]** Bereich.
 1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
 1. Öffnen Sie die **[!UICONTROL Festlegen der Exportdateieinstellungen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
    ![](assets/file-export-settings.png)
-1. Klicken **[!UICONTROL Hochladen]**.
+1. Klicks **[!UICONTROL Hochladen]**.
 Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
 
 >[!NOTE]
@@ -80,5 +80,5 @@ Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-P
 >
 >1. In [!DNL Illustrator], klicken Sie auf die **[!UICONTROL Bearbeiten]** Registerkarte und wählen Sie **[!UICONTROL Voreinstellungen]**.
 >1. Auswählen **[!UICONTROL Allgemein]**.
->1. Klicken **[!UICONTROL Voreinstellungen zurücksetzen]**.
+>1. Klicks **[!UICONTROL Voreinstellungen zurücksetzen]**.
 >1. Schließen und neu starten [!DNL Illustrator].
