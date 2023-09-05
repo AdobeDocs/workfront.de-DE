@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Umsatz]</td> 
-   <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die Variable <strong>[!UICONTROL Umsatz]</strong> auf<strong>[!UICONTROL Nicht abrechenbar]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
+   <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die Variable <strong>[!UICONTROL Umsatz]</strong> auf <strong>[!UICONTROL Nicht abrechenbar]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kostentyp]</td> 
@@ -118,7 +118,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Primären Kontakt erlauben, Zugriff auf die Aufgabe zu erhalten]</strong>: Ermöglicht dem Hauptkontakt (Problemersteller) Zugriff auf die Aufgabe, die Aufgabe zu überprüfen, über den Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt "Aktualisierungen"der Aufgabe abzugeben.</li> 
+     <li><strong>[!UICONTROL Primären Kontakt erlauben, Zugriff auf die Aufgabe zu erhalten]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie Zugriff auf die Aufgabe auf, um sie zu überprüfen, über ihren Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen der Aufgabe zu machen.</li> 
      <li> <p><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Primären Kontakt für den Projektzugriff zulassen]</strong>: Ermöglicht dem Hauptkontakt (Problemersteller) Zugriff auf das Projekt, um es zu überprüfen, über den Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen des Projekts abzugeben.</li> 
+     <li><strong>[!UICONTROL Primären Kontakt für den Projektzugriff zulassen]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie den Zugriff auf das Projekt auf, um es zu überprüfen, über den Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen des Projekts abzugeben.</li> 
      <li><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, die aufgelisteten Optionen während der Konvertierung eines Problems in ein Projekt zu ändern.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Wenn jemand einer Aufgabe zugewiesen ist]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
+     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
      <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Wenn einem Problem ein Benutzer zugewiesen ist]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
+     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
      <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
