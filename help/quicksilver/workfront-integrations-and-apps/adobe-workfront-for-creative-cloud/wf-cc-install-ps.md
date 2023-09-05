@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für Photoshop-Plug-in über den Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td><p>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
+   <td><p>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] -Lizenz.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,9 +63,11 @@ Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL
 
 [Video-Tutorial hier anzeigen](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
+[!DNL Adobe Admin Console] Administratoren können auch reinen Plug-in-Pakete für die Verteilung an Benutzer erstellen. Weitere Informationen finden Sie unter [Erstellen von [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Pakete für Ihre Benutzer in [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+
 ## Installieren Sie die [!DNL Adobe Workfront for Photoshop] Plug-in einzeln
 
-Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich aus dem [!DNL Adobe Exchange].
+Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich selbst aus dem [!DNL Adobe Exchange].
 
 1. Navigieren Sie zu [Installationsseite für Adobe Workfront für Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) auf der Adobe Exchange.
 1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
@@ -101,10 +103,9 @@ Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich aus dem [!
    >[!TIP]
    >
    >* Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
-      >![](assets/domain-350x50.png)
+   >![](assets/domain-350x50.png)
    >
-   > * Wenn Ihre Workfront-Instanz in Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domäne anzugeben, die Sie unter Produkt > Workfront in der Admin Console finden.
-
+   > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domäne anzugeben, die Sie unter Produkt > Workfront in der Admin Console finden.
 
 1. Geben Sie im Browser Ihre [!DNL Workfront] Anmeldedaten und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wenn Ihr Unternehmen Single Sign-On (SSO) verwendet, werden Sie zur Seite Ihres SSO-Anbieters weitergeleitet, um sich anzumelden.
 
@@ -119,6 +120,5 @@ Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich aus dem [!
    >* [!DNL Workfront] verbindet [!DNL Adobe Creative Cloud] mit OAuth 2.0, einem sicheren Standard, der von den meisten webbasierten Integrationen für die Authentifizierung und Autorisierung von Benutzern verwendet wird.
    >* Wenn Sie aufgefordert werden, die [Domäne oder Host] Ihrer [!DNL Workfront] -Konto angeben, geben Sie es in folgendem Format ein: *yourCompany&#39;sDomain.my.workfront.com*. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
 
-
-1. Klicken **[!UICONTROL Zugriff erlauben]** , um die Anmeldung abzuschließen.
+1. Klicks **[!UICONTROL Zugriff erlauben]** , um die Anmeldung abzuschließen.
 1. Gehen Sie zurück zu [!UICONTROL Adobe Photoshop] um Ihre Arbeit zu sehen.
