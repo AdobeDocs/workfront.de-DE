@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
       <td> <p>Deaktivieren Sie diese Option, um zu verhindern, dass Benutzer außerhalb Ihres Unternehmens Zugriff auf diese Aktualisierung haben.</p> 
       <p><b>NOTIZ</b></p>
       <p>Diese Option wird nur angezeigt, wenn der Benutzer mit einem Unternehmen verknüpft ist.</p>
+      <p>Diese Option ist nicht in allen Bereichen verfügbar, aus denen Sie Aktualisierungen hinzufügen können. Dies ist beispielsweise nicht in Drittanbieteranwendungen verfügbar, aus denen Sie Aktualisierungen hinzufügen können. </p>
       </td> 
      </tr> 
     </tbody> 
