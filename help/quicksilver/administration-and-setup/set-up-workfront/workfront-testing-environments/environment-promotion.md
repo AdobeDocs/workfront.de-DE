@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ Der zweite Schritt verwendet die `objectCollections` -Array, das im Hauptteil de
 >
 >Jedes Element im Array enthält eine `objCode` -Schlüssel, der dem im Workfront API Explorer dokumentierten Objektcode entspricht.
 >
->Jedes Element enthält auch `entities` -Sammlung. Dies erwartet die `ID` und `name` -Schlüssel vorhanden sein.
+>Jedes Element enthält auch `entities` -Sammlung. Dies erwartet die `ID` -Feld. Es kann auch eine optionale `name` -Attribut, um die `ID` darstellt.
 >
 >Für die Liste der zulässigen Objektcodes, die im Abschnitt `objectCollections` Liste, siehe [Unterstützte Objekte für die Umgebungsförderung](#supported-objects-for-environment-promotion) in diesem Artikel beschrieben.
 
