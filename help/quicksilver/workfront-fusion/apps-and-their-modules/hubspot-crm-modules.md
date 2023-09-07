@@ -4,9 +4,9 @@ description: Die [!DNL Adobe Workfront Fusion] Mit HubSpot CRM-Modulen können S
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Die [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] -Module ermöglichen es Ihn
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +34,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,7 +60,7 @@ Verwendung [!DNL HubSpot CRM] -Module, müssen Sie über eine [!DNL HubSpot CRM]
 
 ## Verbinden [!DNL Adobe Workfront Fusion] nach [!DNL HubSpot CRM]
 
-Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL HubSpot CRM] Module und ihre Felder
 
@@ -91,7 +91,7 @@ Dieses Suchmodul sucht anhand von benutzerdefinierten Eigenschaften oder Abfrage
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -106,7 +106,7 @@ Dieses Suchmodul sucht anhand von benutzerdefinierten Eigenschaften oder Abfrage
    <td>Wählen Sie die Eigenschaften aus, die in der Ausgabe des Moduls angezeigt werden sollen. Die verfügbaren Felder hängen vom ausgewählten Objekt ab.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Filtern nach] </td> 
+   <td role="rowheader">[!UICONTROL Filter nach] </td> 
    <td> <p>Auswählen, wie Sie die Suche filtern möchten</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Abfrage]</strong> </p> <p>Abfrage eingeben oder zuordnen</p> </li> 
@@ -114,7 +114,7 @@ Dieses Suchmodul sucht anhand von benutzerdefinierten Eigenschaften oder Abfrage
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sortieren nach]</td> 
+   <td role="rowheader">Sortieren nach</td> 
    <td> <p>Klicken Sie auf , um die Ergebnisse zu sortieren. Wenn Sie die Ergebnisse sortieren möchten, werden die folgenden Felder angezeigt. </p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Eigenschaftsname]</strong> </p> <p>Wählen Sie die Eigenschaft aus, nach der die Ergebnisse sortiert werden sollen</p> </li> 
@@ -148,11 +148,11 @@ Dieses Aktionsmodul erzeugt Kontakte, Unternehmen oder Geschäfte.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ des Datensatzes aus, den Sie erstellen möchten</p> </td> 
+   <td> <p>Wählen Sie den zu erstellenden Datensatztyp aus</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eigenschaften]</td> 
@@ -171,7 +171,7 @@ Dieses Aktionsmodul ruft Details zu einem Kontakt, einem Unternehmen oder einem 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -199,7 +199,7 @@ Dieses Aktionsmodul ruft Details zu einem Kontakt, einem Unternehmen oder einem 
 
 #### [!UICONTROL Datensatz aktualisieren]
 
-Dieses Aktionsmodul aktualisiert einen Kontakt, ein Unternehmen oder eine Transaktion.
+Dieses Aktionsmodul aktualisiert einen Kontakt, ein Unternehmen oder einen Deal.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -207,11 +207,11 @@ Dieses Aktionsmodul aktualisiert einen Kontakt, ein Unternehmen oder eine Transa
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Wählen Sie den zu aktualisierenden Datensatztyp aus.</td> 
+   <td>Wählen Sie den Typ des Datensatzes aus, den Sie aktualisieren möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Suchtyp]</td> 
@@ -246,7 +246,7 @@ Dieses Aktionsmodul löscht einen Kontakt, ein Unternehmen oder eine Transaktion
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -269,7 +269,7 @@ Dieses Aktionsmodul ruft Metadaten für eine bestimmte Datensatzeigenschaft anha
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -296,7 +296,7 @@ Dieses Trigger-Modul startet ein Szenario, in dem ein Kontakt, ein Unternehmen o
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -321,7 +321,7 @@ Dieses Trigger-Modul startet ein Szenario, in dem ein Kontakt, ein Unternehmen o
 
 * [[!UICONTROL Einen Kontakt erstellen/aktualisieren (veraltet)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Erstellen/Aktualisieren einer Kontaktgruppe]](#createupdate-a-group-of-contacts)
-* [[!UICONTROL Hinzufügen von Kontakten zu einer Liste]](#add-contacts-to-a-list)
+* [[!UICONTROL Kontakte zu einer Liste hinzufügen]](#add-contacts-to-a-list)
 * [[!UICONTROL Einen Kontakt aus einer Liste entfernen]](#remove-a-contact-from-a-list)
 * [[!UICONTROL Kontakte zusammenführen]](#merge-contacts)
 * [[!UICONTROL Kontaktsuche]](#search-for-contacts)
@@ -338,7 +338,7 @@ Erstellt einen Kontakt, wenn er noch nicht in einem Portal vorhanden ist, oder a
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eigenschaften]</td> 
@@ -357,11 +357,11 @@ Erstellt eine Gruppe von Kontakten oder aktualisiert diese, falls sie bereits ex
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Batch von Kontakten zur Erstellung/Aktualisierung] </td> 
-   <td> <p>Fügen Sie den Kontaktstapel hinzu.</p> <p>Klicken <strong>[!UICONTROL Element hinzufügen]</strong> um einen neuen Kontakt hinzuzufügen. Geben Sie im sich öffnenden Fenster die folgenden Informationen ein oder ordnen Sie sie zu:</p> 
+   <td> <p>Fügen Sie den Kontaktstapel hinzu.</p> <p>Klicks <strong>[!UICONTROL Element hinzufügen]</strong> um einen neuen Kontakt hinzuzufügen. Geben Sie im sich öffnenden Fenster die folgenden Informationen ein oder ordnen Sie sie zu:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Suchtyp]</strong> </p> <p>Wählen Sie aus, wie Sie den Kontakt identifizieren möchten:</p> 
       <ul> 
@@ -374,7 +374,7 @@ Erstellt eine Gruppe von Kontakten oder aktualisiert diese, falls sie bereits ex
  </tbody> 
 </table>
 
-#### [!UICONTROL Hinzufügen von Kontakten zu einer Liste]
+#### [!UICONTROL Kontakte zu einer Liste hinzufügen]
 
 Dieses Modul fügt Kontaktdatensätze, die bereits im System erstellt wurden, einer Kontaktliste hinzu.
 
@@ -384,7 +384,7 @@ Dieses Modul fügt Kontaktdatensätze, die bereits im System erstellt wurden, ei
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listen-ID] </td> 
@@ -415,7 +415,7 @@ Entfernt einen Kontakt aus einer Kontaktliste.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listen-ID] </td> 
@@ -436,7 +436,7 @@ Entfernt einen Kontakt aus einer Kontaktliste.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID 1] </td> 
@@ -459,7 +459,7 @@ Ruft eine Liste von Kontakten mithilfe der Suchabfrage ab.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfrage]</td> 
@@ -482,7 +482,7 @@ Gibt alle Kontakte zurück, die im Portal erstellt wurden. Die Ausgabe ist auf 5
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -510,7 +510,7 @@ Ruft eine Liste der Kontakte im Unternehmen ab. Die Ausgabe ist auf 5000 Kontakt
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -538,7 +538,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein neuer Kontakt zu einer Liste
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listen-ID]</td> 
@@ -570,7 +570,7 @@ Gibt alle Deal- und Ticket-Pipelines für ein bestimmtes Portal zurück.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Objekttyp] </td> 
@@ -589,7 +589,7 @@ Gibt eine bestimmte Deal-Pipeline zurück.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pipeline-ID] </td> 
@@ -614,7 +614,7 @@ Ruft eine Liste von Unternehmen ab, die auf einer exakten Übereinstimmung mit d
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Domain] </td> 
@@ -647,7 +647,7 @@ Dieses Modul erstellt einen Ordner.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ordnername] </td> 
@@ -670,7 +670,7 @@ Markiert einen Ordner als gelöscht.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -689,7 +689,7 @@ Verschiebt eine Datei in einen anderen Ordner.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Datei-ID] </td> 
@@ -718,7 +718,7 @@ Löscht ein vorhandenes Ticket anhand seiner Kennung.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -731,13 +731,26 @@ Löscht ein vorhandenes Ticket anhand seiner Kennung.
 
 Ermöglicht die Ausführung eines benutzerdefinierten API-Aufrufs.
 
+>[!NOTE]
+>
+>Die folgenden Endpunkte wurden am 31. August 2023 in der HubSpot-API nicht mehr unterstützt und können nicht mehr in Fusion-Modulen verwendet werden.
+>
+>* Inhaltsereignisse auflisten
+>* Social-Ereignisse auflisten
+>* Kalenderaufgabenereignisse auflisten
+>* Alle Kalenderereignisse auflisten
+>* Kalenderaufgabe erstellen
+>* Kalenderaufgabe nach ID abrufen
+>* Kalenderaufgabe aktualisieren
+>* Löschen einer Kalenderaufgabe
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -749,7 +762,7 @@ Ermöglicht die Ausführung eines benutzerdefinierten API-Aufrufs.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Header]</td> 
-   <td> <p> Geben Sie die gewünschten Anforderungsheader ein. Sie müssen keine Autorisierungskopfzeilen hinzufügen. Wir haben das schon für Sie gemacht.</p> </td> 
+   <td> <p> Geben Sie die gewünschten Anforderungsheader ein. Sie müssen keine Autorisierungs-Header hinzufügen. Das haben wir bereits für Sie getan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfragezeichenfolge]</td> 
@@ -772,7 +785,7 @@ Ermöglicht die Ausführung eines benutzerdefinierten API-Aufrufs.
 >
 >![](assets/hubspot-api-config.png)
 >
->Treffer der Suche finden Sie in der Ausgabe des Moduls unter [!UICONTROL Bundle] > [!UICONTROL body] > [!UICONTROL contact].
+>Treffer der Suche finden Sie in der Ausgabe des Moduls unter [!UICONTROL Paket] > [!UICONTROL body] > [!UICONTROL contact].
 >
 >In unserem Beispiel wurden drei Kontakte zurückgegeben:
 >
