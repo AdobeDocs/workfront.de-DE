@@ -7,9 +7,9 @@ description: Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgäng
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
 <p><b>NOTIZ</b></p> Die maximale Latenzgrenze beträgt 2000 %.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Wochentag (w) </p> </td> 
+   <td> <p>Wochentag (w oder wir) </p> </td> 
    <td> <p>Die Verzögerung zwischen zwei Aufgaben wird durch Angabe der Wochentage der Woche gemessen, die das geplante Abschlussdatum des Vorgängers enthält.</p> <p>Für diesen Lag-Typ wird jeder Wochentag mit einer Zahl verknüpft:</p> 
     <ul> 
      <li>Sonntag=1</li> 
@@ -187,7 +187,7 @@ Wenn das Startdatum des Nachfolgers als ein bestimmter Dienstag berechnet wird u
 <p>Um vergangene oder zukünftige Wochen anzugeben, können Sie eine Zahl vor der Tagesnummer für den Verzögerungstyp hinzufügen. </p> <p>Um beispielsweise den Montag von 10 Wochen anzugeben, können Sie diesen Code verwenden, um den Vorgänger Ihres Nachfolgers anzugeben:</p> <p><code>4fs-102w</code> </p> <p>10 bedeutet, dass vor 10 Wochen und 2 die Zahl ist, die Montag zugewiesen ist. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Wochentag ungleich null (k)</p> </td> 
+   <td> <p>Wochentag ungleich null (k oder ke)</p> </td> 
    <td> <p>Die Verzögerung zwischen zwei Aufgaben wird identisch mit dem Tag des Wochenzeitraums gemessen, es sei denn, die Zeit des Vorgängers endet am angegebenen Wochentag. Die Latenzzeit wird dann auf die angrenzende Woche (+/-) berechnet. </p> <p>In diesem Fall kann die Zeitverzögerung nie 0 betragen.</p> </td> 
   </tr> 
  </tbody> 
