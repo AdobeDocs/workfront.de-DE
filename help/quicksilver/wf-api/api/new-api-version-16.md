@@ -6,7 +6,7 @@ description: Adobe Workfront hat die API-Version 16 am 6. April 2022 veröffentl
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Neue Funktionen in API Version 16
 
-Adobe Workfront hat die API-Version 16 am 6. April 2022 veröffentlicht. API Version 16 enthält die folgenden Änderungen gegenüber Version 15.
+Adobe Workfront hat die API-Version 16 am 6. April 2023 veröffentlicht. API Version 16 enthält die folgenden Änderungen gegenüber Version 15.
 
 ## Hinzugefügte Ressourcen
 
@@ -94,7 +94,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Das Format lautet <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -117,7 +117,7 @@ Ein Zuweisungsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Das Format lautet <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
           </li>
           <li>
             <p><b>isContected</b>
@@ -313,7 +313,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Das Format lautet <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -438,7 +438,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Das Format lautet <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -649,7 +649,7 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Das Format lautet <code>YYYY-MM-DD: (number of minutes)</code>und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
