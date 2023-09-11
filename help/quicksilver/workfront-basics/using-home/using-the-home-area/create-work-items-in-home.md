@@ -6,9 +6,9 @@ description: Erstellen von Arbeitselementen aus dem Startbereich
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTIZ</b></p> 
+   <p>Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -55,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können eine persönliche Aufgabe erstellen, die nur Ihnen im [!UICONTROL Startseite] Bereich:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. Klicken **[!UICONTROL Neue Aufgabe]** > **[!UICONTROL Persönlich]**.
+1. Klicks **[!UICONTROL Neue Aufgabe]** > **[!UICONTROL Persönlich]**.
 
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
@@ -63,7 +64,7 @@ Sie können eine persönliche Aufgabe erstellen, die nur Ihnen im [!UICONTROL St
 1. (Optional) Klicken Sie auf **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum aus, an dem die Aufgabe fällig wird. Dadurch wird die [!UICONTROL Geplantes Abschlussdatum] für die Aufgabe.\
    Sie können die **[!UICONTROL Geplantes Abschlussdatum]** durch Klicken auf das Datum im rechten Bereich oder durch Bearbeiten der **[!UICONTROL Dies geschieht durch]** Datum direkt in der Aufgabe.
 
-1. Klicken **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
+1. Klicks **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
    Die Aufgabe wird Ihnen zugewiesen und ist im [!UICONTROL Startseite] Bereich.
 
 >[!NOTE]
@@ -72,6 +73,9 @@ Sie können eine persönliche Aufgabe erstellen, die nur Ihnen im [!UICONTROL St
 >
 >* Im Gegensatz zu regulären Projektaufgaben haben persönliche Aufgaben eine begrenzte Anzahl von Feldern, die in der Workfront-Benutzeroberfläche sichtbar sind und keinen Einfluss auf die Planung oder den Fortschritt von Projekten haben. Wenn Sie eine persönliche Aufgabe einem anderen Benutzer zuweisen, werden alle Aufgabenfelder zu einer persönlichen Aufgabe hinzugefügt. Die Aufgabe verbleibt jedoch im persönlichen Projekt des Benutzers, der die Aufgabe erstellt hat.
 >
+>
+>* Persönliche Aufgaben werden nur dann auf Timesheets angezeigt, wenn sie Stunden protokolliert haben oder auf das Timesheet fixiert sind. Sie können eine persönliche Aufgabe nur dann in ein Timesheet einfügen, wenn Stunden für die Aufgabe protokolliert sind. Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Es wird empfohlen, ein Projekt zu erstellen und persönliche Aufgaben dorthin zu verschieben, wenn Sie persönliche Aufgaben in den regulären Arbeitsablauf einbinden möchten.
 >
 > ![[!UICONTROL Projekt für persönliche Aufgaben]](assets/createworkitems-personal--project-350x105.png)
@@ -83,15 +87,15 @@ Sie können Arbeiten von einem anderen Benutzer direkt über den Startbereich an
 So fordern Sie Arbeiten von einem anderen Benutzer von der [!UICONTROL Startseite] Bereich:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. Klicken **[!UICONTROL Neue Aufgabe]**, wählen Sie **[!UICONTROL Anfrage]**.
+1. Klicks **[!UICONTROL Neue Aufgabe]**, wählen Sie **[!UICONTROL Anfrage]**.
 
    ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
 1. Im **[!UICONTROL Name]** -Feld einen Namen für die Aufgabe angeben.
 1. Im **[!UICONTROL Zuweisen zu]** ein, geben Sie den Namen des Benutzers, Teams oder der Rolle ein, den/die Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
 1. Im [!UICONTROL Hinzufügen von als] Dropdown-Menü auswählen, ob eine Aufgabe oder ein Problem hinzugefügt werden soll.
-1. Klicken **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit für die Fälligkeit der Aufgabe aus.
-1. Klicken **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
+1. Klicks **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit für die Fälligkeit der Aufgabe aus.
+1. Klicks **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
    Die Aufgabe wird als Arbeitsanforderung in der [!UICONTROL Startseite] Bereich des von Ihnen ausgewählten Benutzers.
 
 ## Aufgabe oder Problem zu einem Projekt hinzufügen
@@ -99,19 +103,19 @@ So fordern Sie Arbeiten von einem anderen Benutzer von der [!UICONTROL Startseit
 Sie können eine Aufgabe oder ein Problem direkt über den Bereich Startseite zu einem vorhandenen Projekt hinzufügen:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Startseite**.
-1. Klicken **[!UICONTROL Neue Aufgabe]**, wählen Sie **[!UICONTROL Projektaufgabe]**.
+1. Klicks **[!UICONTROL Neue Aufgabe]**, wählen Sie **[!UICONTROL Projektaufgabe]**.
 
    ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
 
 1. Im **[!UICONTROL Name]** -Feld einen Namen für die Aufgabe oder das Problem angeben.
 1. Im **[!UICONTROL Zuweisen zu]** ein, geben Sie den Namen des Benutzers, Teams oder der Rolle ein, den/die Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-1. Beginnen Sie mit der Eingabe des Namens des Projekts, in dem Sie die Aufgabe oder das Problem erstellen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
+1. Geben Sie den Namen des Projekts ein, in dem Sie die Aufgabe oder das Problem erstellen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
 
    >[!IMPORTANT]
    >
    >Die Aufgabe oder das Problem wird auf der Seite [!UICONTROL Arbeitsliste] nur beim Projekt [!UICONTROL Status] auf [!UICONTROL Aktuell].
 
-1. (Bedingt) Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Problem]** von **[!UICONTROL Hinzufügen von als]** Dropdown-Menü. Standardmäßig **[!UICONTROL Aufgabe]** ausgewählt ist.
+1. (Bedingt) Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Problem]** aus dem **[!UICONTROL Hinzufügen von als]** Dropdown-Menü. Standardmäßig ist **[!UICONTROL Aufgabe]** ausgewählt ist.
 
-1. Klicken **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit für die Fälligkeit der Aufgabe aus.
-1. Klicken **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.
+1. Klicks **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit für die Fälligkeit der Aufgabe aus.
+1. Klicks **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.

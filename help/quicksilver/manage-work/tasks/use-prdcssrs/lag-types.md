@@ -7,16 +7,16 @@ description: Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgäng
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Lag-Typen
 
-Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann (Positive Lag), oder die Zeit, die eine abhängige Aufgabe vor dem Start des Vorgängers beginnen könnte (Negative Lag).
+Lag ist die Zeit, die nach dem geplanten Abschluss eines Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann (Positive Lag), oder die Zeit, die eine abhängige Aufgabe vor dem Start des Vorgängers beginnen könnte (Negative Lag).
 
 Die geplanten, geplanten und geschätzten Termine der Nachfolgeaufgaben werden unter Berücksichtigung der Verzögerungen sowie der geplanten, geplanten und geschätzten Start- (Abschluss-)Daten der Voraufgaben berechnet.
 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,10 +89,10 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
 ### Anzeigen von Lag-Typen im Abschnitt &quot;Vorgänger&quot;einer Aufgabe {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Gehen Sie zu einer Aufgabe, für die Sie den Vorgänger und den Lag-Typ definieren möchten.
-1. Klicken **Vorgänger** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, und dann **Vorgänger**.
-1. Klicken **Vorgänger hinzufügen**.
+1. Klicks **Vorgänger** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, und dann **Vorgänger**.
+1. Klicks **Vorgänger hinzufügen**.
 1. (Optional) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, ersetzen Sie die **Übergeordnetes Projekt** mit einem anderen Projekt.
-1. Beginnen Sie mit der Eingabe des Namens der Vorgängeraufgabe und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+1. Geben Sie den Namen der Vorgängeraufgabe ein und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
 1. Wählen Sie die **Abhängigkeitstyp**.
 
    Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
@@ -100,13 +100,13 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
 1. Geben Sie eine **Lag** Betrag unter Verwendung eines numerischen Werts. Sie können negative Zahlen angeben, um eine negative Verzögerung anzugeben.
 1. Wählen Sie aus den folgenden Optionen aus, um den Verzögerungstyp zu identifizieren, den Sie für Ihren Vorgänger angeben möchten:
 
-   * **Tage**
+   * **Tag(e)**
    * **Kalendertage**
    * **Prozent**
    * **Wochentag**
    * **Wochentag (nicht null)**
 
-      Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
+     Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -120,21 +120,16 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
    * die Nummer der Aufgabe, die als Vorgänger der ausgewählten Aufgabe angegeben werden soll
    * die Abkürzung für den Abhängigkeitstyp, den Sie zwischen den Aufgaben anzeigen möchten
 
-      Weitere Informationen zu den Abkürzungen für Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Weitere Informationen zu den Abkürzungen für Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * entweder ein **+** für eine positive Verzögerung oder **-** für eine negative Verzögerung
 
    * die Zeitspanne, in der die Verzögerung
    * die Abkürzung für den zu verwendenden Lag-Typ.
 
-      Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
-   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen hat, geben Sie
+     Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
 
-   ```
-   1fs+2d
-   ```
-
-   in der Spalte &quot;Vorgänger&quot;.
+   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen hat, geben Sie  `1fs+2d` in der Spalte &quot;Vorgänger&quot;.
 
 1. Klicken Sie auf die Eingabetaste, um die Änderungen an der Aufgabe zu speichern.
 
@@ -155,12 +150,12 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Tage (d)</p> </td> 
-   <td> <p>Die Verzögerung zwischen zwei durch Abhängigkeit bedingten Aufgaben wird in Arbeitstagen gemessen. Dies ist der standardmäßige Lag-Typ. </p> <p>Wenn es beispielsweise eine Finish-Start-Abhängigkeit mit einer Verzögerung von zwei Arbeitstagen gibt und die Vorgängeraufgabe am Freitag abgeschlossen wird, beginnt die abhängige Aufgabe am Mittwoch. Die Wochenendtage zählen nicht als Teil der Verzögerung. </p> <p>Hinweis: Die maximale Verzögerung für Tage beträgt 366.</p> </td> 
+   <td> <p>Tage (d oder de)</p> </td> 
+   <td> <p>Die Verzögerung zwischen zwei durch Abhängigkeit bedingten Aufgaben wird in Arbeitstagen gemessen. Dies ist der standardmäßige Lag-Typ. </p> <p>Wenn es beispielsweise eine Finish-Start-Abhängigkeit mit einer Verzögerung von zwei Arbeitstagen gibt und die Vorgängeraufgabe am Freitag abgeschlossen wird, beginnt die abhängige Aufgabe am Mittwoch. Die Wochenendtage zählen nicht als Teil der Verzögerung. </p> <p>Hinweis: Die maximale Latenzgrenze für Tage beträgt 366.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Kalendertage (c)</p> </td> 
-   <td> <p>Die Verzögerung zwischen zwei Aufgaben wird in Kalendertagen gemessen, einschließlich Feiertagen und Wochenenden. </p> <p>Hinweis: Dieser Verzögerungstyp zählt zwar als Teil der Verzögerung Nicht-Arbeitstage, eine abhängige Aufgabe kann jedoch nie an einem nicht funktionierenden Tag beginnen. Wenn dieser Verzögerungstyp dazu führt, dass die abhängige Aufgabe an einem nicht funktionierenden Tag beginnt, wird das geplante Startdatum der abhängigen Aufgabe für den folgenden Arbeitstag geplant. </p> <p>Wenn es beispielsweise eine Finish-Start-Abhängigkeit mit einer Verzögerung von 2 Kalendertagen gibt und die Vorgängeraufgabe am Donnerstag abgeschlossen wird, beginnt die abhängige Aufgabe am Montag und nicht am Sonntag. </p> </td> 
+   <td> <p>Kalendertage (c oder ce)</p> </td> 
+   <td> <p>Die Verzögerung zwischen zwei Aufgaben wird in Kalendertagen gemessen, einschließlich Feiertagen und Wochenenden. </p> <p>Hinweis: Dieser Verzögerungstyp zählt zwar Nicht-Arbeitstage als Teil der Verzögerung, eine abhängige Aufgabe kann jedoch nie an einem nicht funktionierenden Tag beginnen. Wenn dieser Verzögerungstyp dazu führt, dass die abhängige Aufgabe an einem nicht funktionierenden Tag beginnt, wird das geplante Startdatum der abhängigen Aufgabe für den folgenden Arbeitstag geplant. </p> <p>Wenn es beispielsweise eine Finish-Start-Abhängigkeit mit einer Verzögerung von 2 Kalendertagen gibt und die Vorgängeraufgabe am Donnerstag abgeschlossen wird, beginnt die abhängige Aufgabe am Montag und nicht am Sonntag. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Prozent (p oder pe)</p> </td> 
@@ -183,7 +178,7 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
 
 <p><b>NOTIZ</b></p>
 
-Wenn der Dienstag für die Woche des geplanten Abschlussdatums des Vorgängers verstrichen ist, ist das geplante Startdatum der Nachfolgeaufgabe der erste verfügbare Arbeitstag dieser Woche. </p> <p>Wenn Sie angeben möchten, dass die Verzögerung auf einen Samstag der aktuellen Woche fällt und der Samstag nach dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren:</p> <p>4fs+7w</code> </p> <p>Wenn Samstag ein nicht funktionierender Tag ist, wird der nächste verfügbare Tag nach Samstag (um eine positive Verzögerung anzugeben) als geplantes Startdatum des Nachfolgers ausgewählt. </p>
+Wenn das Startdatum des Nachfolgers als ein bestimmter Dienstag berechnet wird und dieser Tag für die aktuelle Woche verstrichen ist, ist das geplante Startdatum der Nachfolgeaufgabe derselbe Tag (Dienstag) der folgenden Woche, sofern verfügbar. </p> <p>Wenn Sie angeben möchten, dass die Verzögerung auf einen Samstag der aktuellen Woche fällt und der Samstag nach dem geplanten Abschlussdatum des Vorgängers liegt, würden Sie Ihren Nachfolger mit der folgenden Formel codieren:</p> <p><code>4fs+7w</code> </p> <p>Wenn Samstag ein nicht funktionierender Tag ist, wird der nächste verfügbare Tag nach Samstag (um eine positive Verzögerung anzugeben) als geplantes Startdatum des Nachfolgers ausgewählt. </p>
 
 <p>Dies gilt nicht für die Planung von Ausnahmen. Wenn ein Datum auch eine planmäßige Ausnahme ist und das Startdatum des Nachfolgers als dieser Tag berechnet wird, versucht das System, das nächste verfügbare Datum zu finden, das dem Wochentag entspricht, der im vorherigen Ausdruck angegeben ist.</p>
 
@@ -206,14 +201,14 @@ Beachten Sie bei der Verwendung negativer Abstände die folgenden Regeln:
 
 * Das negative Lag kann nicht erzwingen, dass das Start-/Enddatum einer Aufgabe vor oder nach dem geplanten Start-/Enddatum des Projekts liegt. Diese Daten werden im Feld Zeitplan von des Projekts angegeben.
 
-   Beachten Sie in diesem Fall Folgendes:
+  Beachten Sie in diesem Fall Folgendes:
 
    * Planen Sie das Projekt ab dem Abschlussdatum.
    * Die letzte Aufgabe im Projekt sollte die &quot;Must Finish on Task Constraint&quot;verwenden. Es wird empfohlen, der Aufgabe eine ausreichend lange Dauer zuzuweisen, damit alle Aufgaben im Projekt berücksichtigt werden können. Die verbleibenden Aufgaben funktionieren mit der so bald wie möglich geltenden Beschränkung.
 
 * Die Verwendung einer Finish-Start-Vorgängerbeziehung mit Aufgaben kann zu einer Fehlermeldung führen.
 
-   Beachten Sie in diesem Fall Folgendes:
+  Beachten Sie in diesem Fall Folgendes:
 
    * Legen Sie eine Fertigstellen-Finish-Vorgängerbeziehung zwischen Aufgaben fest.
    * Die Dauer der Nachfolgeaufgabe sollte der vorgesehenen Anzahl von Verzögerungen zwischen Aufgaben entsprechen oder diese überschreiten.
