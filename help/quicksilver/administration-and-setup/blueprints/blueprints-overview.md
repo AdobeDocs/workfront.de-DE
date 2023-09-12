@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Blueprints - Übersicht
+
+Blueprints sind Sets von Workfront-Objekten, die häufige Anwendungsfälle in Workfront behandeln. Sie können einen Blueprint herunterladen und installieren und dann die Objekte für Ihren spezifischen Anwendungsfall konfigurieren.
+
+>[!INFO]
+>
+>Beispiele:
+>
+>* **Einrichtung der Personalverwaltung**
+>
+>   Dieser Entwurf enthält die Konfiguration von Organisationsstrukturen, die auf eine Personalabteilung erweitert werden sollen.
+>
+>* **Neue IT-Checkliste für Mitarbeiter hinzufügen**
+>
+>   Dieser Blueprint enthält eine Vorlage zur Organisation neuer Onboarding-Aktivitäten für Mitarbeiter. Durch die Verwendung dieser Vorlage können IT-Teams effizient arbeiten, was zu einer positiven neuen Mitarbeitererfahrung und einer schnelleren Verfolgung der Produktivität führt.
+>
+>* **Checkliste für geerbte Instanzgrundlagen**
+>
+>    Dieser Blueprint enthält eine Projektvorlage (oder Checkliste), die Sie mit einer kurzen Liste von Fragen, Ressourcen und Links überprüfen können, um ein klares Verständnis der Konfiguration Ihrer Workfront-Instanz zu erhalten. Verwenden Sie dies, wenn Sie kürzlich eine Workfront-Instanz geerbt haben und eine Anleitung zum Starten benötigen.
+>
+>Informationen zum Überprüfen der aktuellen Blueprints finden Sie unter [Liste der verfügbaren Blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 Blueprints stellen grundlegende Bausteine bereit, mit denen Sie ein Arbeitsverwaltungssystem erstellen können, das mit Ihnen wächst. Systemadministratoren können den Blueprints-Katalog durchsuchen und gebrauchsfertige Projektvorlagen, Dashboards und Organisationsstrukturen installieren. Andere Benutzer können den Katalog durchsuchen und die Installation eines Blueprints anfordern. Weitere Informationen finden Sie unter [Katalog mit Blueprints durchsuchen und Installation von Blueprints anfordern](../../administration-and-setup/blueprints/browse-catalog.md).
 
