@@ -1,0 +1,44 @@
+---
+title: Datensatzinformationen
+description: Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro erstellen und verwalten können.
+hidefromtoc: true
+hide: true
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 0%
+
+---
+
+
+<!-- update the metadata with real information when making this available in TOC and in the left nav
+---
+title: The architecture and fields of Adobe Maestro
+description: The following articles describe how you can create and manage records in Adobe Maestro. 
+hidefromtoc: yes
+author: Alina
+feature: Work Management
+role: User
+hide: yes
+---
+-->
+
+# Datensatzinformationen
+
+>[!IMPORTANT]
+>
+>Derzeit ist Adobe Maestro Teil eines geschlossenen Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>
+>Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
+>
+>Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro-overview.md).
+
+Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen.
+
+In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro erstellen und verwalten können:
+
+* [Datensätze erstellen](../records/create-records.md)
+* [Datensätze bearbeiten](../records/edit-records.md)
+* [Datensätze löschen](../records/delete-records.md)
+* [Datensätze freigeben](../records/share-records.md)
+* [Datensätze verbinden](../records/connect-records.md)

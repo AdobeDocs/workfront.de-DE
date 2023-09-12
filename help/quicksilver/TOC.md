@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13232'
+source-wordcount: '13335'
 ht-degree: 1%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 1%
       * [Terminologie für Adobe Workfront-Ziele anpassen](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Freigeben eines Ziels in Workfront-Zielen](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Benachrichtigungen zu Adobe Workfront-Zielen aktivieren](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe Maestro {#adobe-maestro}
+   * [Adobe Maestro-Informationen](maestro/maestro-information.md)
+   * [Übersicht über Adobe Maestro](maestro/maestro-overview.md)
+   * [Adobe Maestro-Release-Aktivität](maestro/release-activity.md)
+   * Architektur von Adobe Maestro {#adobe-maestro-architecture}
+      * [Architekturinformationen](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [Erstellen von Arbeitsbereichen](maestro/architecture-and-fields/create-workspaces.md)
+      * [Übersicht über Datensatztypen und Taxonomien](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [Erstellen von Datensatztypen](maestro/architecture-and-fields/create-record-types.md)
+      * [Erstellen von Taxonomiedatensatztypen](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [Datensatztypen verbinden](maestro/architecture-and-fields/connect-record-types.md)
+      * [Felder erstellen](maestro/architecture-and-fields/create-fields.md)
+      * [Datensatztypen bearbeiten](maestro/architecture-and-fields/edit-record-types.md)
+      * [Felder bearbeiten](maestro/architecture-and-fields/edit-fields.md)
+      * [Löschen von Arbeitsbereichen](maestro/architecture-and-fields/delete-workspaces.md)
+      * [Löschen von Datensatztypen](maestro/architecture-and-fields/delete-record-types.md)
+      * [Felder löschen](maestro/architecture-and-fields/delete-fields.md)
+      * [Beispiel für das Verbinden von Datensatztypen und Datensätzen](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [Liste der Workspace-Vorlagen](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobe Maestro-Zugriff {#adobe-maestro-access}
+      * [Zugriffsinformationen](maestro/access/access-information.md)
+      * [Zugriffsübersicht](maestro/access/access-overview.md)
+      * [Zugriff auf Adobe Maestro gewähren](maestro/access/grant-access.md)
+   * Adobe Maestro-Datensätze {#adobe-maestro-records}
+      * [Datensatzinformationen](maestro/records/records-information.md)
+      * [Datensätze erstellen](maestro/records/create-records.md)
+      * [Datensätze verbinden](maestro/records/connect-records.md)
+      * [Datensätze bearbeiten](maestro/records/edit-records.md)
+      * [Datensätze löschen](maestro/records/delete-records.md)
+      * [Datensätze freigeben](maestro/records/share-records.md)
+   * Adobe Maestro-Ansichten {#adobe-maestro-views}
+      * [Ansichtsinformationen](maestro/views/views-information.md)
+      * [Verwalten von Datensatzansichten](maestro/views/manage-record-views.md)
+      * [Tabellenansicht verwalten](maestro/views/manage-the-table-view.md)
+      * [Verwalten der Timeline-Ansicht](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Erste Schritte mit Adobe Workfront Fusion {#get-started-with-workfront-fusion}
