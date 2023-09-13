@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Textmodus - Übersicht
-description: Textmodus - Übersicht
+description: Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Sie beim Erstellen der Elemente, aus denen der Bericht oder die Liste besteht, entweder die Standard- oder die Textmodus-Benutzeroberfläche verwenden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Sie beim Erstellen der Elemente, aus denen der Bericht oder die Liste besteht, entweder die Standard- oder die Textmodus-Benutzeroberfläche verwenden. Über die Standardoberfläche können Sie auf Felder und deren Attribute verweisen, die in der Benutzeroberfläche von Workfront jederzeit verfügbar sind. Mithilfe des Textmodus können Sie auf Felder und Attribute verweisen, die möglicherweise nicht im Standardmodus verfügbar sind, aber in der Workfront-Datenbank verfügbar sind.
+Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Sie beim Erstellen der Elemente, aus denen der Bericht oder die Liste besteht, entweder die Standard- oder die Textmodus-Benutzeroberfläche verwenden. Über die Standardoberfläche können Sie auf Felder und deren Attribute verweisen, die in der Benutzeroberfläche von Workfront leicht verfügbar sind. Mithilfe des Textmodus können Sie auf Felder und Attribute verweisen, die möglicherweise nicht im Standardmodus verfügbar sind, aber in der Workfront-Datenbank verfügbar sind.
+
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
 
 ## Überlegungen vor der Verwendung des Textmodus
 
@@ -36,27 +38,27 @@ Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Si
 >Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
-* Es wird empfohlen, den Standardmodus zu verwenden, um sicherzustellen, dass die erstellten Berichte bei der Aktualisierung der Workfront-Software intakt bleiben. Während der Textmodus es Ihnen ermöglicht, komplexere Ansichten, Filter und Gruppierungen zu erstellen, ist die Wartung ebenfalls komplizierter und wird bei der Aktualisierung der Workfront-Software nicht garantiert.
+* Es wird empfohlen, den Standardmodus zu verwenden, um sicherzustellen, dass die von Ihnen erstellten Berichte bei der Aktualisierung der Workfront-Software intakt bleiben. Während der Textmodus es Ihnen ermöglicht, komplexere Ansichten, Filter und Gruppierungen zu erstellen, ist die Wartung ebenfalls komplizierter und wird bei der Aktualisierung der Workfront-Software nicht garantiert.
 * Es wird empfohlen, immer zu versuchen, alle Berichterstellungselemente in der Standardschnittstelle zu erstellen und nur für wenige Anpassungen zum Textmodus-Builder zu wechseln.
 
-   >[!TIP]
-   >
-   >Mithilfe des Standard-Builders erhalten Sie wichtige Bausteine und Codemuster, die Sie dann beim Ändern des Codes im Textmodus verwenden können.
+  >[!TIP]
+  >
+  >Mithilfe des Standard-Builders erhalten Sie wichtige Bausteine und Codemuster, die Sie dann beim Ändern des Codes im Textmodus verwenden können.
 
 * Es gibt einen Satz von Regeln und eine eindeutige Syntax, die Sie verwenden müssen, um Berichte und Listen im Textmodus erfolgreich zu erstellen. Vergewissern Sie sich, dass Sie mit der Workfront-Syntax für den Textmodus vertraut sind, bevor Sie beginnen.
 
-   Informationen zur Syntax und den Regeln für die Verwendung des Textmodus finden Sie unter [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Informationen zur Syntax und den Regeln für die Verwendung des Textmodus finden Sie unter [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Nachdem Sie ein Berichterstellungselement im Textmodus angepasst haben, können Sie entweder nicht wieder in den Standardmodus wechseln (in einer Ansicht) oder der Code für das von Ihnen erstellte Element wird möglicherweise gelöscht (in Filtern und Gruppierungen). Dies liegt daran, dass nicht alle Felder, die im Textmodus unterstützt werden, im Standardmodus unterstützt werden.
 
 ## Benutzeroberfläche im Standardmodus
 
-In der Benutzeroberfläche für den Standardmodus werden Felder angezeigt, mit denen Sie die Anwendungselemente zuordnen können, die in einem Bericht oder einer Liste angezeigt werden sollen. Die Benutzeroberfläche des Standardmodus besteht aus einer Reihe von Dropdown-Menüs, aus denen Sie die Felder auswählen können, die in Ihren Berichten oder Listen angezeigt werden sollen.
+In der Benutzeroberfläche für den Standardmodus werden Felder angezeigt, mit denen Sie die Anwendungselemente zuordnen können, die in einem Bericht oder einer Liste angezeigt werden sollen. Die Benutzeroberfläche des Standardmodus besteht aus einer Reihe von Dropdownmenüs, aus denen Sie die Felder auswählen können, die in Ihren Berichten oder Listen angezeigt werden sollen.
 
 Weitere Informationen zur Benutzeroberfläche des Standardmodus und zum Erstellen eines Berichts oder einer Liste finden Sie unter:
 
 * [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Berichtselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Textmodus-Benutzeroberfläche
 
@@ -611,6 +613,6 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 ## Allgemeine Gründe für die Verwendung des Textmodus {#common-reasons-to-use-text-mode}
 
-Neben der Erstellung benutzerdefinierter Eingabeaufforderungen, die nur im Textmodus konfiguriert werden können, empfehlen wir, die Berichterstellung zu verwenden, um Ansichten, Filter und Gruppierungen zu erstellen. Es gibt jedoch einige Fälle, in denen Sie den Textmodus verwenden können, um Ihre Berichte und Listen zu verbessern.
+Neben der Erstellung benutzerdefinierter Eingabeaufforderungen, die nur im Textmodus konfiguriert werden können, empfehlen wir, die Berichterstellung zu verwenden, um Ansichten, Filter und Gruppierungen zu erstellen. Es gibt jedoch einige Fälle, in denen Sie den Textmodus verwenden können, um Ihre Berichte und Listen zu erweitern.
 
 Weitere Informationen zu häufigen Verwendungen für den Textmodus finden Sie unter [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

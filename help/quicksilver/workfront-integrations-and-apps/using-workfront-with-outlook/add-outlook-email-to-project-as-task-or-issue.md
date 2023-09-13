@@ -6,9 +6,9 @@ description: Sie können E-Mails in [!DNL Adobe Workfront] Aufgaben oder Problem
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 
 
 
-1. Klicken **[!UICONTROL Zu Arbeit hinzufügen]**.
+1. Klicks **[!UICONTROL Zu Arbeit hinzufügen]**.
 
 1. Wählen Sie die **[!UICONTROL Zum Projekt hinzufügen]** -Feld.
 1. Beginnen Sie mit der Eingabe des Namens eines Projekts im **[!UICONTROL Projekt]** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -63,7 +63,13 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 
    Wählen Sie die **[!UICONTROL Problem]** Optionsfeld, wenn Sie dem ausgewählten Projekt ein Problem hinzufügen möchten.
 
-1. (Optional) Geben Sie an, wem diese Aufgabe oder dieses Problem im **[!UICONTROL Weisen Sie dies zu]** -Feld.
+1. (Optional) Geben Sie an, wem diese Aufgabe oder dieses Problem im **[!UICONTROL Zuweisen]** -Feld.
+
+   >[!TIP]
+   >
+   >Sie können die Aufgabe oder das Problem einem Team zuweisen, wenn Sie möchten, dass mehrere Personen davon Kenntnis erhalten. Wenn die Mitglieder des Teams ihre E-Mail-Benachrichtigungen aktiviert haben, erhalten sie eine E-Mail über die neue Aufgabe bzw. das ihnen zugewiesene Problem.
+
+
 1. (Optional) Geben Sie die **[!UICONTROL Fällig nach Datum]**. Dies wird zum [!UICONTROL Geplantes Abschlussdatum] der Aufgabe oder des Problems.
 1. (Optional) Aktualisieren Sie die folgenden Informationen aus der E-Mail, bevor sie als Aufgabe oder Problem gespeichert wird (Pflichtfelder sind mit einem Sternchen versehen).
 
@@ -83,7 +89,7 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
       </tr>
    </table>
 
-1. Klicken **[!UICONTROL Hinzufügen]**.
+1. Klicks **[!UICONTROL Hinzufügen]**.
 
    Die Aufgabe oder das Problem wird dem angegebenen Projekt hinzugefügt
 
@@ -92,4 +98,6 @@ Ihre [!DNL Workfront] Administrator muss [!DNL Outlook for Office] mit [!DNL Wor
 1. (Optional) Gehen Sie zurück zu [!DNL Outlook]und wählen Sie die konvertierte E-Mail aus.
 
    Oben im [!DNL Workfront] -Add-In-Bedienfeld anzeigen, sehen Sie die Bestätigung mit einem Link, zu dem die E-Mail hinzugefügt wurde. [!DNL Workfront] als Aufgabe oder Problem. Der Link enthält das Datum, an dem er konvertiert wurde.
+
+
 

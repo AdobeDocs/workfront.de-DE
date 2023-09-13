@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Sie können die Textmodus-Oberfläche verwenden, um komplexere Ansichten, Filter
 Informationen und Überlegungen zum Textmodus vor dem Start finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Eine vollständige Liste aller unserer berichtspflichtigen Felder und ihrer Attribute finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
 
 ## Überlegungen zur Syntax des Textmodus
 
@@ -36,7 +38,7 @@ Die folgenden allgemeinen Richtlinien gelten beim Erstellen von Berichterstellun
 * Beachten Sie die Hierarchie der Objekte in Workfront. Die folgenden Unterschiede bestehen zwischen Ansichten, Filtern und Gruppierungen:
 
    * Sie können ein Objekt anzeigen, das sich in einer Ansicht aus drei Objekten außerhalb des Berichts oder Listenobjekts befindet.
-   * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung keine Objekte referenzieren, die mehr als 2 Objekte vom Hauptobjekt entfernt sind.
+   * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung nicht auf Objekte verweisen, die mehr als zwei Objekte vom Hauptobjekt entfernt sind.
 
   **Beispiel:** Sie können den Namen oder die GUID des Portfolio-Eigentümers in einer Aufgabenansicht anzeigen:
 
@@ -57,7 +59,7 @@ Die folgenden allgemeinen Richtlinien gelten beim Erstellen von Berichterstellun
 
 * Verwenden Sie nach Möglichkeit Platzhalter, um Ihre Berichte und Listen dynamischer zu gestalten und zu vermeiden, dass sie für verschiedene Benutzer und ähnliche Zeitpläne dupliziert werden.
 
-## Überblick über Fallbeispiele
+## Überblick über Fälle in Camel
 
 Beim Referenzieren von Workfront-Feldern oder ihren Attributen im Textmodus müssen Sie in Workfront deren Namen in Binnenmajuskel-Schreibweise eingeben. In diesem Fall werden die Felder mit einem Namen in Kleinbuchstaben geschrieben. Zusammengesetzte Felder werden nach folgendem Muster geschrieben:
 
@@ -90,7 +92,7 @@ Die folgenden Syntaxsätze der unten aufgeführten Berichterstellungselemente we
 
 * Die Codezeilen und die Syntax sind für Filter und benutzerdefinierte Eingabeaufforderungen ähnlich.
 
-  Weitere Informationen finden Sie unter:
+  Weitere Informationen finden Sie unter
 
    * [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -110,8 +112,8 @@ In der folgenden Tabelle sind die gängigsten Codezeilen in einer Ansicht oder G
 
 | Codezeile | Beschreibung |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------|
-| `valuefield` | Gibt das in der Ansichtsspalte oder in der Gruppierung referenzierte Objekt an. Dies ist ein direkter Verweis auf das referenzierte Objekt. |
-| `valueexpression` | Gibt das in der Ansichtsspalte oder in der Gruppierung referenzierte Objekt an. Dies ist eine Berechnung zwischen mehreren Feldern. |
+| `valuefield` | Identifiziert das in der Ansichtsspalte oder Gruppierung referenzierte Objekt. Dies ist ein direkter Verweis auf das referenzierte Objekt. |
+| `valueexpression` | Identifiziert das in der Ansichtsspalte oder Gruppierung referenzierte Objekt. Dies ist eine Berechnung zwischen mehreren Feldern. |
 | `valueformat` | Gibt das Format an, in dem Workfront den Wert zurückgibt, der in den Ausdruckszeilen &quot;value&quot;oder &quot;value&quot;angegeben ist. |
 | `width` | Gibt die Breite einer Spalte in Pixel an. |
 | `stretch` | Gibt an, welche Spalten zusätzlichen Speicherplatz belegen, der für die Ansicht nicht benötigt wird. |
@@ -190,7 +192,7 @@ Die folgenden Regeln gelten für das Referenzieren von Workfront-Objekten mithil
 
      `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * In einer Gruppierung:
+   * Gruppierung:
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
@@ -215,12 +217,12 @@ Die folgenden Regeln gelten für das Referenzieren von Workfront-Objekten mithil
 #### `Valueformat` Übersicht über Ansichten und Gruppierungen
 
 Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die `valueformat=` Linie. Dies teilt Workfront mit, in welchem Format Sie den Wert zurückgeben möchten, den Sie im
-`valuefield` oder Werteausdruckszeilen. Sie können zwar verschiedene Formate für die `valueformat` empfiehlt es sich, bei Verwendung von
+`valuefield` oder Werteausdruckszeilen. Sie können zwar verschiedene Formate für die `valueformat` empfiehlt es sich, bei der Verwendung von
 `valueexpression`:
 
 `valueformat=HTML`
 
-Zusätzliche `valueformats` -Werte, siehe auch die folgenden Artikel:
+Für zusätzliche `valueformats` -Werte, siehe auch die folgenden Artikel:
 
 * [Datumsangaben in Textmodusberichten formatieren](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatnummern, Währungs- und Prozentwerte in Textmodusberichten](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -255,7 +257,7 @@ Die Syntax zum Erstellen von Filtern ähnelt der zum Erstellen von benutzerdefin
 
 >[!TIP]
 >
->Sie können eine benutzerdefinierte Eingabeaufforderung erstellen, indem Sie zunächst einen Filter für die Anweisung erstellen, die Sie in die Eingabeaufforderung aufnehmen möchten. Verbinden Sie alle Codezeilen in einem Filter mit &quot;&amp;&quot;ohne Leerzeichen zwischen den Zeilen und die zu Ihrer benutzerdefinierten Eingabeaufforderung werden.
+>Sie können eine benutzerdefinierte Eingabeaufforderung erstellen, indem Sie zunächst einen Filter für die Anweisung erstellen, die Sie in die Eingabeaufforderung aufnehmen möchten. Verbinden Sie alle Codezeilen in einem Filter mit &quot;&amp;&quot;ohne Leerzeichen zwischen den Zeilen und der benutzerdefinierten Eingabeaufforderung.
 
 Informationen zum Erstellen von Filtern und benutzerdefinierten Eingabeaufforderungen finden Sie unter:
 

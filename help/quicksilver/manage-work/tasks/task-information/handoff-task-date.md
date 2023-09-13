@@ -7,10 +7,10 @@ description: Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit ve
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 
 * **Wenn die Aufgabe keinen Vorgänger hat und**:
 
-   * **Das geplante Startdatum liegt in der Vergangenheit.**: Das Übergabedatum entspricht dem geplanten Startdatum des Projekts.
-   * **Das geplante Startdatum ist in der Zukunft (ein beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum entspricht dem geplanten Startdatum der Aufgabe.
+   * **Das geplante Startdatum liegt in der Vergangenheit.**: Das Übergabedatum entspricht dem geplanten Startdatum des Projekts, wenn für die Aufgabe keine erzwungene Beschränkung festgelegt ist. Informationen zu den Fällen, in denen Aufgaben Zwänge erzwungen haben, finden Sie im Abschnitt &quot;Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat&quot;unten.
+   * **Das geplante Startdatum ist in der Zukunft (ein beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum entspricht dem geplanten Startdatum der Aufgabe, wenn für die Aufgabe keine erzwungene Beschränkung festgelegt ist. Informationen zu den Fällen, in denen Aufgaben Zwänge erzwungen haben, finden Sie im Abschnitt &quot;Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat&quot;unten.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 
   Die folgenden Szenarien existieren:
 
-   * Wenn die Aufgabe die Beschränkung Must Start On oder Start No Früher Than hat, ist das Übermittlungsdatum das Beschränkungsdatum, es sei denn, es gibt ein aktuelles Startdatum für die Aufgabe. Wenn für die Aufgabe ein tatsächliches Anfangsdatum vorliegt, ist das Übergabedatum das tatsächliche Abschlussdatum des Vorgängers.
-   * Wenn die Aufgabe die Beschränkung &quot;Must Finish On&quot;oder &quot;Start No Later Than&quot;hat, ist das Übergabedatum immer das tatsächliche Abschlussdatum des Vorgängers, unabhängig davon, ob für die Aufgabe ein tatsächliches Startdatum vorliegt oder nicht.
-   * Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat, ist das Übergabedatum das geplante Startdatum der Aufgabe, unabhängig davon, ob es einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
+   * **Wenn die Aufgabe die Beschränkung Muss beginnen am oder Start nicht früher als hat**: Wenn das Datum der Aufgabenbegrenzung in der Vergangenheit liegt und es für die Aufgabe kein aktuelles Startdatum gibt (die Aufgabe wurde noch nicht gestartet), ist das Übermittlungsdatum das nächstmögliche Datum, an dem die Aufgabe gestartet werden kann, um bearbeitet zu werden. Wenn die Aufgabe gestartet wurde, entspricht das Übergabedatum dem Startdatum des Projekts.
+   * **Wenn die Aufgabe die Beschränkung Must Finish On oder Start No Later Than hat**: Wenn das Datum der Aufgabenbegrenzung in der Zukunft liegt und es für die Aufgabe kein tatsächliches Startdatum gibt (die Aufgabe wurde noch nicht gestartet), ist das Übergabedatum das geplante Startdatum der Aufgabe. Wenn für die Aufgabe das tatsächliche Startdatum angegeben ist, ist das Übergabedatum das Anfangsdatum des Projekts.
+   * **Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat**: Das Übergabedatum ist das geplante Startdatum der Aufgabe, unabhängig davon, ob sie über einen Vorgänger verfügt oder nicht und unabhängig davon, ob der Vorgänger abgeschlossen ist oder nicht.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## Suchen Sie das Übermittlungsdatum.
 

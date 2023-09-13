@@ -6,9 +6,9 @@ description: Übersicht über die häufigsten Verwendungen für den Textmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ In diesem Artikel werden nur einige häufige Beispiele dafür vorgestellt, wo Si
 * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Berechnete benutzerdefinierte Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
+
 <!--this link is outdated: 
 
 For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
@@ -34,12 +36,12 @@ For additional real-life text mode examples that other Workfront customers might
 
 ## Instanzen, in denen der Textmodus in Listen und Berichten verwendet werden kann
 
-Es wird empfohlen, den Bericht- und Listenaufbau zu verwenden, um Ansichten, Filter und Gruppierungen zu erstellen. Es gibt jedoch einige Fälle, in denen Sie den Textmodus verwenden können, um Ihre Berichte und Listen zu verbessern.
+Es wird empfohlen, den Bericht- und Listenaufbau zu verwenden, um Ansichten, Filter und Gruppierungen zu erstellen. Es gibt jedoch einige Fälle, in denen Sie den Textmodus verwenden können, um Ihre Berichte und Listen zu erweitern.
 
 Sie können den Textmodus verwenden, wenn Sie Folgendes in Workfront erreichen möchten:
 
 * Erstellen Sie benutzerdefinierte berechnete benutzerdefinierte Felder in einem benutzerdefinierten Formular.\
-   Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie im Abschnitt [Textmodus in berechneten benutzerdefinierten Feldern verwenden](#use-text-mode-in-calculated-custom-fields) in diesem Artikel.
+  Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie im Abschnitt [Textmodus in berechneten benutzerdefinierten Feldern verwenden](#use-text-mode-in-calculated-custom-fields) in diesem Artikel beschrieben.
 * Verbessern Sie Filter, Ansichten und Gruppierungen über das hinaus, was in ReportBuilder möglich ist. Informationen zur Verwendung des Textmodus für Filter, Ansichten und Gruppierungen finden Sie in den folgenden Abschnitten in diesem Artikel:
 
    * [Textmodus in Ansichten verwenden](#use-text-mode-in-views)
@@ -48,7 +50,7 @@ Sie können den Textmodus verwenden, wenn Sie Folgendes in Workfront erreichen m
 
 * Erstellen Sie benutzerdefinierte Eingabeaufforderungen. Sie können benutzerdefinierte Eingabeaufforderungen nur im Textmodus erstellen.
 
-   Informationen zum Erstellen von benutzerdefinierten Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Informationen zum Erstellen von benutzerdefinierten Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Textmodus in berechneten benutzerdefinierten Feldern verwenden {#use-text-mode-in-calculated-custom-fields}
 
@@ -60,7 +62,7 @@ Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds 
 
 Sie können beispielsweise ein berechnetes benutzerdefiniertes Feld hinzufügen, das einen Uhrzeit- und Datumsstempel des Zeitpunkts anzeigt, zu dem ein Element als In Bearbeitung markiert wurde. Sie können diese Berechnung für andere Status verwenden.
 
-Weitere Informationen finden Sie unter [Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
+Weitere Informationen finden Sie unter [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,17 +99,17 @@ Weitere Informationen finden Sie unter [Berechnetes benutzerdefiniertes Feldbeis
 
 Sie können den Textmodus in Ansichten verwenden, um die Felder und Objekte zu erweitern, die in der Ansicht angezeigt werden können.
 
-Die häufigsten Gründe für die Verwendung des Textmodus in einer Ansicht finden Sie in den folgenden Artikeln:
+Beispiele für die häufigsten Gründe für die Verwendung des Textmodus in einer Ansicht finden Sie in den folgenden Artikeln:
 
 * [Ansicht: Anzeigen von Objekten, die nicht in der Standardoberfläche enthalten sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Ansicht: das Ergebnis einer Berechnung zwischen zwei Feldern einer Spalte anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [Ansicht: Spaltenbreite dauerhaft bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [Ansicht: Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [Ansicht: Breite einer Spalte dauerhaft bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
 * [Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
 * [Ansicht: Link zu einem Objekt in einer Spalte entfernen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 * [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [Ansicht: Inhalt einer Spalte ausblenden](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [Ansicht: Anzeigen eines Bildes anstelle einer Zeichenfolge in einer Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [Ansicht: Einzüge von Aufgaben in einer Aufgabenliste anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [Anzeigen: Einzüge von Aufgaben in einer Aufgabenliste anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Ansicht: Zeit- und Datumsunterschiede berechnen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 <!--
@@ -300,10 +302,10 @@ Sie können den Textmodus beim Erstellen von Filtern verwenden, um die Felder un
 
 Die häufigsten Gründe für die Verwendung des Textmodus in einem Filter finden Sie in den folgenden Artikeln:
 
-* [Filter: mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen (&quot;AND&quot;-Anweisungen)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (&quot;AND&quot;-Anweisungen)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [Filter: Nur Elemente im Genehmigungsstatus anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [Filter: Elemente nach Status mit demselben Namen anzeigen, wenn die Status mit verschiedenen Gruppen verknüpft sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
-* [Filter: Elemente in einer Liste durch Vergleich zweier Felder ausschließen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* [Filter: Zeigt Elemente nach Status mit demselben Namen an, wenn die Status mit verschiedenen Gruppen verknüpft sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [Filter: Löscht Elemente in einer Liste durch Vergleich zweier Felder](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * Der Abschnitt [Beispiele für Textmodusfilter, die mehrere Ebenen in der Objekthierarchie umfassen](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) im Artikel [Erstellen komplexer Textmodusfilter mithilfe von EXISTS-Anweisungen](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 * Der Abschnitt [Erstellen komplexer Textmodusfilter für fehlende Objekte](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) im Artikel [Erstellen komplexer Textmodusfilter mithilfe von EXISTS-Anweisungen](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
@@ -375,10 +377,10 @@ Sie können den Textmodus beim Erstellen von Gruppierungen verwenden, um die Fel
 
 Die häufigsten Gründe für die Verwendung des Textmodus in einer Gruppierung finden Sie in den folgenden Artikeln:
 
-* [Gruppierung: die Ergebnisse der Liste anhand eines berechneten Werts organisieren, der allen Objekten der Gruppierung gemeinsam ist](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [Gruppierung: einer Liste eine vierte Gruppierung hinzufügen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [Gruppierung: den Anzeigenamen in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Gruppierung: angeben, ob die Ergebnisse einer Gruppierung mithilfe des Textmodus reduziert oder erweitert werden sollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Gruppierung: Sortieren Sie die Ergebnisse der Liste nach einem berechneten Wert, der allen Objekten der Gruppierung entspricht.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Gruppierung: Fügt einer Liste eine vierte Gruppierung hinzu](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [Gruppierung: Anzeige in einer Gruppierung gruppieren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

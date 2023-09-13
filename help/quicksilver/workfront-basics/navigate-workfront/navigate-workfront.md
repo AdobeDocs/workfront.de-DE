@@ -2,18 +2,20 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navigieren [!DNL Adobe Workfront]
-description: Sehen Sie sich diese Bereiche an, um sich ein Bild davon zu machen, wie Sie in Workfront navigieren.
+description: Lesen Sie diese Artikel, um zu erfahren, wie Sie in Workfront navigieren und die Terminologie von Workfront kennenlernen.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 35fba253260deea56b2f3350aa32e1860338103f
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
 # Navigieren [!DNL Adobe Workfront]
+
+Lesen Sie diese Artikel, um zu erfahren, wie Sie in Workfront navigieren und die Terminologie von Workfront kennenlernen.
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte und Artikel:
 
@@ -21,7 +23,7 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte und Artikel:
 * [Glossar [!DNL Adobe Workfront] Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] FAQs](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
-* [[!DNL Adobe Workfront] Suchen](../../workfront-basics/navigate-workfront/search/search.md)
+* [[!DNL Adobe Workfront] Suche](../../workfront-basics/navigate-workfront/search/search.md)
 * [Neueste und Favoriten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Übersicht über die Navigationsleiste oben](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
 * [Linke Navigation in [!DNL Adobe Workfront]](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)

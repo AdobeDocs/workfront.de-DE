@@ -3,9 +3,9 @@ title: Adobe Maestro-Release-Aktivität
 description: Verwenden Sie Maestro, um benutzerdefinierte Objekte, Felder und Arbeitsbereiche zu erstellen.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Sie können jetzt ein benutzerdefiniertes Symbol für einen Datensatztyp und ein
 
 Vorschau und Produktion: 13. Juli 2023
 
-Sie können jetzt einen Kontrollkästchen-Feldtyp zu Maestro-Datensatztypen hinzufügen. Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine einzelne Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
+Sie können jetzt einen Kontrollkästchen-Feldtyp zu Maestro-Datensatztypen hinzufügen. Sie können ein Feld vom Typ Kontrollkästchen verwenden, um einem Datensatz eine einzige Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
 
 ## Woche vom 26. Juni 2023
 

@@ -6,9 +6,9 @@ description: Die Erstellung von Berichten hilft Ihnen dabei, auf die Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 Die Erstellung von Berichten hilft Ihnen dabei, auf die Informationen zuzugreifen, die Ihr Unternehmen in Adobe Workfront benötigt. Sie können einen der integrierten Berichte verwenden, die in Workfront verfügbar sind, oder Sie können Ihre eigenen Berichte von Grund auf neu erstellen.
 
-Weitere Informationen zu integrierten Berichten finden Sie unter [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Informationen zum Erstellen eines Berichts durch Kopieren finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Weitere Informationen zu integrierten Berichten finden Sie unter [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Informationen zum Erstellen eines Berichts durch Kopieren finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Weitere Informationen zum Erstellen und Verwalten von Berichten, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
 
 ## Zugriffsanforderungen
 
@@ -54,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefinierten Bericht erstellen](#Walk-thr) unten.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
-1. Klicken **Neuer Bericht** und wählen Sie dann den Objekttyp aus, den Sie für den Bericht verwenden möchten.
+1. Klicks **Neuer Bericht** und wählen Sie dann den Objekttyp aus, den Sie für den Bericht verwenden möchten.
 
    Die Berichterstellung wird geladen.
 
@@ -98,11 +102,11 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    </table>
 
 1. Klicken Sie während der Berichterstellung auf **Anwenden** , um Ihre Änderungen zu speichern.
-1. Nachdem Sie fertig sind, klicken Sie auf **Speichern und schließen**.
+1. Klicken Sie nach Abschluss auf **Speichern und schließen**.
 
 ### Spalten (Ansicht) zu einem Bericht hinzufügen {#add-columns-view-to-a-report}
 
-1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel.
+1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
 1. Wählen Sie in ReportBuilder die **Spalten (Ansicht)** um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
 1. (Optional) Klicken Sie auf **Anwenden einer vorhandenen Ansicht** , um eine vorhandene Ansicht zu verwenden.
 
@@ -129,7 +133,7 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >[!NOTE]
    >
    >Wenn Sie ein Feld hinzufügen, das auf ein Objekt verweist, das zu weit von dem Objekt entfernt ist, über das Sie Berichte erstellen, können Sie möglicherweise nicht nach diesem Feld sortieren.\
-   >Beispielsweise kann ein Problembericht nicht nach dem Feld Projekteigentümer sortiert werden, da er auf 3 zusätzliche Objekte verweist: Projekt, Eigentümer und Name. Sie können dieses Feld jedoch dennoch zu einem Problembericht hinzufügen und die Informationen dafür anzeigen.
+   >Beispielsweise kann ein Problembericht nicht nach dem Feld &quot;Projekteigentümer&quot;sortieren, da er auf 3 zusätzliche Objekte verweist: Projekt, Inhaber und Name. Sie können dieses Feld jedoch dennoch zu einem Problembericht hinzufügen und die Informationen dafür anzeigen.
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
@@ -146,9 +150,8 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
    >
    >* Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
-   >* Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und die Einzelaufgaben. sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-   >* Benutzerdefinierte Datenfelder für Zahlenwerte und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
-
+   >* Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und Einzelaufgaben; sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+   >* Benutzerdefinierte Datenfelder für Zahlungs- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
 
    Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -172,20 +175,20 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
      </tr> 
      <tr> 
       <td role="rowheader">Spaltenregeln</td> 
-      <td> <p>Klicken <strong>Eine Regel für diese Spalte hinzufügen</strong> , um der Spalte bedingte Formatierungen hinzuzufügen. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicken <strong>Regel hinzufügen</strong> nach der Definition der Regel. Weitere Informationen zur bedingten Formatierung in einer Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Bedingte Formatierung in Ansichten verwenden</a>.</p> </td> 
+      <td> <p>Klicks <strong>Eine Regel für diese Spalte hinzufügen</strong> , um der Spalte bedingte Formatierungen hinzuzufügen. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicks <strong>Regel hinzufügen</strong> nach der Definition der Regel. Weitere Informationen zur bedingten Formatierung in einer Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Bedingte Formatierung in Ansichten verwenden</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
+1. Klicks **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
 
-   Klicken **Speichern und schließen** wenn Sie mit der Bearbeitung der Spalten des Berichts fertig sind und den Bericht speichern möchten.
+   Klicks **Speichern und schließen** wenn Sie mit der Bearbeitung der Spalten des Berichts fertig sind und den Bericht speichern möchten.
 
 ### Gruppierungen zu einem Bericht hinzufügen {#add-groupings-to-a-report}
 
-1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel.
+1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
 1. Wählen Sie in ReportBuilder die **Gruppierungen** um anzugeben, wie Sie Elemente im Bericht gruppieren möchten.
-1. Klicken **Gruppierung hinzufügen** um eine neue Gruppierung hinzuzufügen.
+1. Klicks **Gruppierung hinzufügen** um eine neue Gruppierung hinzuzufügen.
 
    Oder
 
@@ -206,20 +209,19 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >* Wenn Sie Gruppierungen bei der Anzeige einer Liste manuell anpassen, behält sich Workfront Ihre manuellen Voreinstellungen vor, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
    >* Die Ergebnisse einer Gruppierung werden immer erweitert, nachdem sie über ein Diagrammelement aufgerufen wurden.
 
-
 1. (Optional) Sie können eine Matrixgruppierung erstellen, um Ihre Ergebnisse in einem Rasterformat anzuzeigen.
 
    Weitere Informationen zum Erstellen eines Matrix-Berichts finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Klicken **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
+1. Klicks **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
 
-   Klicken **Speichern und schließen** wenn Sie mit der Bearbeitung der Gruppierungen im Bericht fertig sind und den Bericht speichern möchten.
+   Klicks **Speichern und schließen** wenn Sie mit der Bearbeitung der Gruppierungen im Bericht fertig sind und den Bericht speichern möchten.
 
 ### Filter zu einem Bericht hinzufügen {#add-filters-to-a-report}
 
-1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel.
+1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
 1. Wählen Sie in ReportBuilder die **Filter** um die Menge an Informationen zu identifizieren, die der Bericht enthalten soll.
-1. Klicken **Filterregel hinzufügen** , um einen benutzerdefinierten Filter hinzuzufügen.\
+1. Klicks **Filterregel hinzufügen** , um einen benutzerdefinierten Filter hinzuzufügen.\
    Oder\
    Auswählen **Vorhandenen Filter anwenden** , um einen vorhandenen Filter zu verwenden.
 
@@ -234,19 +236,19 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
 
    Weitere Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-1. Klicken **Anwenden** Wenn Sie mit der Bearbeitung der Filter im Bericht fertig sind, wenden Sie Ihre Änderungen bis jetzt an und bearbeiten Sie den Bericht mit den folgenden Optionen.
+1. Klicks **Anwenden** Wenn Sie mit der Bearbeitung der Filter im Bericht fertig sind, wenden Sie Ihre Änderungen bis jetzt an und bearbeiten Sie den Bericht mit den folgenden Optionen.
 
-   Klicken **Speichern und schließen** , wenn der Bericht angezeigt wird und Sie den Bericht speichern möchten.
+   Klicks **Speichern und schließen** , wenn der Bericht angezeigt wird und Sie den Bericht speichern möchten.
 
 ### Diagramm zu einem Bericht hinzufügen {#add-a-chart-to-a-report}
 
-1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel.
-1. Wählen Sie in ReportBuilder die **Diagramm** und wählen Sie den gewünschten Grafiktyp aus.
+1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
+1. Wählen Sie in ReportBuilder die **Diagramm** und wählen Sie dann den Grafiktyp aus, den Sie hinzufügen möchten.
 
    ![](assets/nwe-add-a-chart-350x247.png)
 
    Weitere Informationen zum Erstellen einer Grafik in einem Bericht finden Sie unter [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. Klicken **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
+1. Klicks **Anwenden** um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
 
-   Klicken **Speichern und schließen** wenn Sie mit der Bearbeitung des Berichts fertig sind und den Bericht speichern möchten.
+   Klicks **Speichern und schließen** wenn Sie mit der Bearbeitung des Berichts fertig sind und den Bericht speichern möchten.

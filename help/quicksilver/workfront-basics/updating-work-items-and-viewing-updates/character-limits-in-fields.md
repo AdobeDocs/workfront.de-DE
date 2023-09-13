@@ -7,9 +7,9 @@ description: Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zei
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,8 @@ Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in 
 Wenn Sie sich dem Limit nähern, wird ein Zähler angezeigt. Wenn Sie den Grenzwert überschreiten, werden überschüssige Zeichen hervorgehoben und Sie können den Text nicht posten. Löschen Sie Zeichen, bis Sie die zulässige Beschränkung erreicht haben.
 
 Die Zeichenbeschränkung unterscheidet sich je nach verwendetem Feld. Die unten aufgeführten Beschränkungen gelten für Sprachen, die ein lateinisches Alphabet verwenden (z. B. Englisch). Die Beschränkung kann für Sprachen mit erweiterten oder Doppelbyte-Zeichen niedriger sein.
+
+Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Feldern nicht ändern.
 
 <table style="table-layout:auto"> 
  <col> 
