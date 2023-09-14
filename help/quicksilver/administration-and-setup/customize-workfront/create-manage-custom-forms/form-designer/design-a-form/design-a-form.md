@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # Formular mit dem Formularentwickler erstellen
+
+{{preview-and-fast-release}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -491,6 +493,90 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
    oder
 
    Klicks **Speichern und schließen**.
+
+<div class="preview">
+
+### Externe Suchfelder hinzufügen
+
+Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine dieser Optionen aus der Dropdown-Liste auswählen.
+
+So fügen Sie eine externe Suche hinzu:
+
+1. Suchen Sie auf der linken Bildschirmseite nach **Externe Suche** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Bezeichnung</td> 
+      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das benutzerdefinierte Feld.</p> <p>Wenn Sie das benutzerdefinierte Feld zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
+      <p><b>WICHTIG</b>:   
+      <ul> 
+      <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann. <p>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.</p> </li>
+      <li> <p>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.</p> </li>
+      <li><p>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.</p></li>
+      </ul> <p>Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. Weitere Informationen finden Sie unter <a href="#Add" class="MCXref xref">Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen</a> in diesem Artikel.</p> </td>
+     </tr> 
+      <td role="rowheader">Anleitung</td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Format</td>
+      <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p>
+      <p><strong>NOTIZ:</strong></p>
+      <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte für Objekte müssen in der Lage sein, in den neuen Typ zu konvertieren. (Wenn der Formattyp beispielsweise Text ist und ein Objekt den Wert "abc"speichert, können Sie das Feld nicht konvertieren und erhalten eine Fehlermeldung, dass das System "abc"nicht in Zahl/Währung konvertieren kann.) Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li>
+      <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">Basis-API URL</td> 
+      <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie im Dropdown-Menü anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus den zurückgegebenen JSON-Optionen auszuwählen, die Dropdown-Optionen sein sollen.</p><p>Beim Eingeben der API-URL können Sie optional die folgenden Werte in die URL übergeben:</p>
+      <ul><li>$$query - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</li>
+      <li>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</li></ul>
+      <p><strong>NOTE:</strong> Lesen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP-Methode</td> 
+      <td>Auswählen <strong>Get</strong>, <strong>Post</strong>oder <strong>Put</strong> für die -Methode.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON-Pfad</td>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der JSON-Datei, die von der API-URL zurückgegeben wird. Es dient dazu, festzulegen, welche Werte aus dem JSON-Bereich in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON in diesem Format zurückgibt:</br>
+      <pre>
+      { data: { name: "USA"}, { name: "Canada"} }
+      </pre>
+      </p>
+      <p>dann können Sie "$.data[*].name"verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen.</p> <p>Weitere Informationen zum JSON-Pfad und zum Sicherstellen des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Kopfzeilen</td>
+      <td>Klicks <strong>Kopfzeile hinzufügen</strong>und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Klicken Sie zum Speichern der Änderungen auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
+
+   oder
+
+   Klicks **Speichern und schließen**.
+
+>[!NOTE]
+>
+>Technische Einschränkungen des Aufrufs an die externe API:
+>
+>* Maximale Anzahl an Optionen: 200 (nur die ersten 200 Optionen aus der zurückgegebenen JSON werden angezeigt)
+>* Zeitüberschreitung: 3 Sekunden
+>* Anzahl weiterer Versuche: 3
+>* Wartezeit zwischen Wiederholungen: 500 ms
+>* Erwartete Antwortstatus: 2xx
+
+</div>
 
 ### Bilder, PDF und Videos hinzufügen
 
