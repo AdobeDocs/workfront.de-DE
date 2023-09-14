@@ -3,9 +3,9 @@ title: Liste der Workspace-Vorlagen
 description: Ein Arbeitsbereich ist eine Sammlung operativer Datensatztypen und Taxonomien, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Maestro verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen, Taxonomien und Feldern beginnen können.
 hide: true
 hidefromtoc: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 >[!IMPORTANT]
 >
->Derzeit ist Adobe Maestro Teil eines geschlossenen Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >

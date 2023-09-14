@@ -3,9 +3,9 @@ title: Architekturinformationen
 description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur von Adobe Maestro konfigurieren können. Im Rahmen dieser Konfiguration erfahren Sie, wie Sie Arbeitsbereiche, Datensatztypen und benutzerdefinierte Felder erstellen, um die Workflows abzubilden, die Sie in Adobe Maestro verwalten möchten.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Derzeit ist Adobe Maestro Teil eines geschlossenen Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >

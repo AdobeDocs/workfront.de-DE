@@ -3,9 +3,9 @@ title: Beispiel für das Verbinden von Datensatztypen und Datensätzen
 description: In diesem Artikel wird ein Beispiel für das Erstellen einer Verbindung zwischen einem Adobe Maestro-Record-Typ und einem Workfront-Projektobjekttyp beschrieben. Außerdem wird beschrieben, wie Sie einen Maestro-Datensatz mit einem einzelnen Projekt verbinden können.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Derzeit ist Adobe Maestro Teil eines geschlossenen Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >
