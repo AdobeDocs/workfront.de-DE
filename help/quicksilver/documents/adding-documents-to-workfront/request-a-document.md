@@ -6,9 +6,9 @@ description: Sie können ein Dokument für jedes Objekt anfordern, das Dokumente
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -48,24 +48,24 @@ Sie müssen über Folgendes verfügen:
 1. Klicken Sie auf **Dokumente** Registerkarte. 
 1. Klicken Sie auf **Neu hinzufügen** Dropdown-Menü.
 
-1. Klicken **Anfordern eines Dokuments**.
+1. Klicks **Anfordern eines Dokuments**.
 
    Das Dialogfeld Dokument anfordern wird angezeigt.
 
    ![document_request.png](assets/document-request-350x242.png)
 
-1. Beginnen Sie mit der Eingabe des Namens des Benutzers, von dem Sie das Dokument anfordern, und wählen Sie es dann aus, wenn es in der Dropdown-Liste angezeigt wird. Nur lizenzierte Adobe Workfront-Benutzer werden als Optionen in der Dropdownliste angezeigt.
+1. Beginnen Sie mit der Eingabe des Namens des Benutzers, von dem Sie das Dokument anfordern, und wählen Sie es dann aus, wenn es in der Dropdown-Liste angezeigt wird. Nur lizenzierte Adobe Workfront-Benutzer werden als Optionen in der Dropdown-Liste angezeigt.
 
    >[!NOTE]
    >
    >Wenn Sie [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) aktiviert haben, können Sie eine Anfrage an eine beliebige E-Mail-Adresse senden. Es gibt eine Einstellung in der [Systemsicherheitsvoreinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) bestimmt, ob diese externen E-Mail-Benutzer ein Kennwort erstellen müssen, bevor sie mit Workfront interagieren. 
 
 1. Beschreiben Sie den Grund, aus dem Sie das Dokument anfordern.
-1. Klicken **Anfrage senden**.
+1. Klicks **Anfrage senden**.
 
    Wenn Sie eine Anforderung an einen Benutzer senden, wird ein Platzhalter im Dokumentbereich hinzugefügt. Sie können den Benutzer daran erinnern oder die Anfrage von diesem Platzhalter abbrechen. Der Benutzer erhält eine Workfront-Benachrichtigung und eine E-Mail zur Anfrage.
 
-   Wenn diese Voreinstellung aktiviert ist, erhält der Benutzer eine E-Mail-Benachrichtigung sowie eine In-App-Benachrichtigung. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Wenn diese Voreinstellung aktiviert ist, erhält der Benutzer eine E-Mail-Benachrichtigung sowie eine In-App-Benachrichtigung. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Sie können auf den in der E-Mail-Benachrichtigung enthaltenen Link klicken und dann das Dokument hochladen. Sie können auch auf die In-App-Benachrichtigung klicken. Jede Option leitet Sie zur Benutzerprofilseite weiter, auf die Sie das angeforderte Dokument hochladen können.
 

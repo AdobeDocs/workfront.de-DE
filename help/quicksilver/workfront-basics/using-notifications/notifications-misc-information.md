@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Benachrichtigungen: Sonstige Informationen"'
+title: "Mitteilungen: Verschiedene Informationen"
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die an einem Projekt durchgeführt werden, das Sie sponsern.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 8%
 
 ---
 
-# Benachrichtigungen: Verschiedene Informationen
+# Mitteilungen: Verschiedene Informationen
 
 Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die an einem Projekt durchgeführt werden, das Sie sponsern.
 
-Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -32,13 +32,13 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>Einbezogene Felder </p> <p> *Nur täglich Digest-Felder</p> </th> 
+   <th> <p>Einbezogene Felder </p> <p> *Nur tägliche Digest-Felder</p> </th> 
    <th>Standardstatus</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Eine Nachricht wird an das [!UICONTROL Ankündigungszentrum] gesendet.</strong> </p> <p>Sie erhalten eine E-Mail-Benachrichtigung, sobald eine neue Nachricht an das [!UICONTROL Ankündigungszentrum] gesendet wurde. </p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL [!DNL Adobe Workfront] Ankündigung]: &lt;subject of="" the="" announcement=""&gt;</em></p> </td> 
+   <td> <p><strong>Eine Nachricht wird an das [!UICONTROL Ankündigungszentrum] gesendet.</strong> </p> <p>Sie erhalten eine E-Mail-Benachrichtigung, sobald eine neue Nachricht an das [!UICONTROL Ankündigungszentrum] gesendet wurde. </p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL [!DNL Adobe Workfront] Mitteilung]: &lt;subject of="" the="" announcement=""&gt;</em></p> </td> 
    <td> Gegenstand der Mitteilung<br>Text der in der Mitteilung enthaltenen Nachricht<br>Attached Document(s)<br>Name des Benutzers, der die Mitteilung gesendet hat<br>Datum und Uhrzeit des Versands der Mitteilung </td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 
@@ -48,7 +48,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Nachdem Sie eine Anfrage zum Hochladen erhalten haben, wird die Anfrage storniert.</strong> </p> <p>Die Dokumentanforderung erhält eine E-Mail-Benachrichtigung, wenn eine Dokumentanforderung abgebrochen wird.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt; die Dokumentanforderung abgebrochen hat. </em></p> <p>Der folgende Text ist im Text der E-Mail-Benachrichtigung enthalten:</p> <p><em>[!UICONTROL Hi] &lt;your name=""&gt;, <br><br>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt;[!UICONTROL braucht keine Informationen mehr zu der zuvor gestellten Anfrage hochzuladen. Wir wollten Ihnen nur Bescheid geben.]</em> </p> </td> 
+   <td> <p><strong>Nachdem Sie eine Anfrage zum Hochladen erhalten haben, wird die Anfrage storniert.</strong> </p> <p>Die Dokumentanforderung erhält eine E-Mail-Benachrichtigung, wenn eine Dokumentanforderung abgebrochen wird.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt; die Dokumentanforderung abgebrochen hat. </em></p> <p>Der folgende Text ist im Text der E-Mail-Benachrichtigung enthalten:</p> <p><em>[!UICONTROL Hi] &lt;your name=""&gt;, <br><br>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt;[!UICONTROL braucht keine Informationen mehr zu der zuvor gestellten Anfrage hochzuladen. Wir wollten euch nur Bescheid geben.]</em> </p> </td> 
    <td>Name des Benutzers, der die Anforderung abgebrochen hat<br>Der Text der ursprünglichen Anforderung zum Hochladen von Dokumenten<br>Ein Banner "[!UICONTROL CANCELED]"über der ursprünglichen Dokumentanforderung<br>Datum und Uhrzeit der ursprünglichen Dokumentanforderung<br></td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 
@@ -58,18 +58,18 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Eine Änderung bei einer Anfragezuweisung wirkt sich auf mein Team aus</strong> </p> <p>Der Manager eines einem Problem zugewiesenen Benutzers erhält eine E-Mail-Benachrichtigung, wenn dieser Benutzer aus einem Problem entfernt oder einem Problem zugewiesen wird. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>Problemzuweisung: &lt;issue name=""&gt;</em></p> </td> 
+   <td> <p><strong>Eine Änderung bei einer Problemzuweisung wirkt sich auf mein Team aus</strong> </p> <p>Der Manager eines einem Problem zugewiesenen Benutzers erhält eine E-Mail-Benachrichtigung, wenn dieser Benutzer aus einem Problem entfernt oder einem Problem zugewiesen wird. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>Problemzuweisung: &lt;issue name=""&gt;</em></p> </td> 
    <td> <p>Problemname<br>Projektname<br>Problemverweisnummer<br>Name des Benutzers, der die Zuweisung vorgenommen hat<br>Problemtyp<br>Name des dem Problem zugewiesenen Benutzers<br>Ausgabedatum eingegeben<br>Problempriorität<br>Primärer Kontakt<br>Problem [!UICONTROL Geplantes Abschlussdatum]<br>Problemstatus<br><strong>[!UICONTROL Weitere Informationen]</strong> button</p> </td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Einer meiner Mitarbeiter wird einem Projekt hinzugefügt</strong> </p> <p>Ein Manager erhält eine E-Mail-Benachrichtigung, wenn einem Projekt ein Benutzer hinzugefügt wird. Diese Benachrichtigung wird unabhängig vom Status des Projekts gesendet. </p> <p>Benutzer mit einer [!UICONTROL Review]-Lizenz erhalten keine Benachrichtigung.</p> <p>Betreff der E-Mail ist: <em>Projektzuweisung: &lt;user name=""&gt;[&lt;project guid=""&gt;_ &lt;user guid=""&gt;]</em></p> </td> 
-   <td> <p>Projektname<br>Portfolio Name<br>Projektnummer<br>Name des Benutzers, der die Person zum Projekt hinzugefügt hat<br>Name des Benutzers, der zum Projekt hinzugefügt wurde<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projektanprozentsatz abgeschlossen<br>Namen anderer Personen im Projekt<br>Projektstatus<br>Projektinhaber<br><strong>[!UICONTROL Weitere Informationen]</strong> button<br><br><br></p> </td> 
+   <td> <p>Projektname<br>Portfolio Name<br>Referenz-Nummer des Projekts<br>Name des Benutzers, der die Person zum Projekt hinzugefügt hat<br>Name des Benutzers, der zum Projekt hinzugefügt wurde<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projektanprozentsatz abgeschlossen<br>Namen anderer Personen im Projekt<br>Projektstatus<br>Projektinhaber<br><strong>[!UICONTROL Weitere Informationen]</strong> button<br><br><br></p> </td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Jemand fügt ein Projekt einem Portfolio oder Programm zu, dessen Besitzer ich bin</strong> </p> <p>Das Portfolio und/oder der Programmeigentümer erhalten eine Benachrichtigung, wenn ein neues Projekt zu einem Portfolio oder Programm hinzugefügt wird.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL Projekt hinzugefügt zu] &lt;portfolio name=""&gt;[Projekt-GUID]</em></p> </td> 
-   <td> Portfolio Name<br>Projektnummer<br>Name des Benutzers, der das Projekt zum Portfolio/Programm hinzugefügt hat<br><br></td> 
+   <td> Portfolio Name<br>Referenz-Nummer des Projekts<br>Name des Benutzers, der das Projekt zum Portfolio/Programm hinzugefügt hat<br><br></td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 

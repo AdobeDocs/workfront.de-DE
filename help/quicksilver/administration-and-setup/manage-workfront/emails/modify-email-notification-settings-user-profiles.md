@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: modify,email,notification,settings,bulk,bulk,edit,configure,multiple,users
 navigation-topic: emails-administration
 title: E-Mail-Benachrichtigungseinstellungen in Benutzerprofilen ändern
-description: Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene "Planer"verfügen, mit der Sie die Einstellungen anderer Benutzer bearbeiten können, können Sie die Benachrichtigungseinstellungen für mehrere Benutzer gleichzeitig konfigurieren. Dazu gehört auch die Angabe, ob Benutzer Benachrichtigungen bei Ereignissen erhalten oder in einer täglichen Digest-E-Mail, wie in Adobe Workfront-Benachrichtigungen beschrieben. Informationen zu der für die Bearbeitung von Benutzern erforderlichen Zugriffsebene finden Sie unter Gewähren von Zugriff für Benutzer.
-author: Lisa, Caroline
+description: Dieser Artikel enthält Informationen für Workfront- oder Gruppenadministratoren darüber, wie sie die E-Mail-Benachrichtigungen anderer Benutzer aktualisieren können.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können S
 
 >[!NOTE]
 >
->Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Zugriffsanforderungen

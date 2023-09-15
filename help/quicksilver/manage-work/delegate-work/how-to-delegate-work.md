@@ -6,9 +6,9 @@ description: Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
    * Der Benutzer, den Sie als Ihr Delegat ausgewählt haben, erhält eine E-Mail über die Zuweisung, wenn seine Ereignisbenachrichtigungen aktiviert sind.
 
-     Informationen zum Aktivieren von persönlichen E-Mail-Benachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     Informationen zum Aktivieren von persönlichen E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

@@ -5,9 +5,9 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Je nach dem von Ihnen aktivierten Ereignis und der Benutzer bleibt in seinem Pro
 
 Sie müssen zunächst angeben, welche Benachrichtigungen alle Ihre Benutzer im Setup-Bereich Ihrer Workfront-Instanz erhalten sollen. Nachdem Sie eine Benachrichtigung im Bereich Einrichtung aktiviert haben, wird sie für jeden Benutzer auf seiner Profilseite aktiviert.
 
-Nachdem Benachrichtigungen im Bereich Einrichtung aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planungslizenz die aktivierten Benachrichtigungen in einem Benutzerprofil auch konfigurieren, um zu steuern, welche Benachrichtigungen ein bestimmter Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Nachdem Benachrichtigungen im Bereich Einrichtung aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planungslizenz die aktivierten Benachrichtigungen in einem Benutzerprofil auch konfigurieren, um zu steuern, welche Benachrichtigungen ein bestimmter Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Eine Liste aller Ereignisbenachrichtigungen, die Sie aktivieren und deaktivieren können, finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

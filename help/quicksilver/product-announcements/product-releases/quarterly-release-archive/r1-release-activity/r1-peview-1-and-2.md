@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vo
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Übersicht ü
 
 Workfront-Administratoren können jetzt Projekte, Aufgaben und Probleme wiederherstellen, die innerhalb der letzten 30 Tage gelöscht wurden. Alle mit dem Projekt, der Aufgabe oder dem Problem verknüpften Informationen, einschließlich Dokumenten und benutzerdefinierten Daten, werden wiederhergestellt.
 
-Es stehen auch neue Optionen zur Konfiguration von Stunden zur Verfügung, die mit einem Projekt, einer Aufgabe oder einem Problem protokolliert werden, das gelöscht wird. Weitere Informationen finden Sie unter [Auswirkungen auf die Stunden konfigurieren, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+Es stehen auch neue Optionen zur Konfiguration von Stunden zur Verfügung, die mit einem Projekt, einer Aufgabe oder einem Problem protokolliert werden, das gelöscht wird. Weitere Informationen finden Sie unter [Konfigurieren der Auswirkungen auf die Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -41,24 +41,24 @@ Weitere Informationen finden Sie unter [Validierung der Arbeit](../../../../revi
 
 ## Zu aktualisierende Objekte konfigurieren, die noch nicht genehmigt wurden
 
-Wenn die Genehmigung eines Projekts, einer Aufgabe oder eines Problems aussteht, können Sie jetzt konfigurieren, ob Benutzer Folgendes tun können:
+Wenn die Genehmigung eines Projekts, einer Aufgabe oder eines Problems aussteht, können Sie jetzt konfigurieren, ob Benutzer:
 
 * Bearbeiten Sie das benutzerdefinierte Formular eines Projekts, einer Aufgabe oder eines Problems, für das die Genehmigung aussteht.\
-   Informationen zum Konfigurieren von Projekten, Aufgaben und Problemen, die bei ausstehender Genehmigung bearbeitet werden sollen, finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Informationen zum Konfigurieren von Projekten, Aufgaben und Problemen, die bei ausstehender Genehmigung bearbeitet werden sollen, finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Fügen Sie einem Projekt, für das die Genehmigung aussteht, Probleme hinzu.\
-   Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Probleme hinzufügen können, wenn das Projekt noch nicht genehmigt wurde, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Probleme hinzufügen können, wenn das Projekt noch nicht genehmigt wurde, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Bearbeiten Sie Aufgaben und Probleme in einem Projekt, für das die Genehmigung aussteht.\
-   Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Aufgaben und Probleme bearbeiten können, wenn das Projekt noch nicht genehmigt ist, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Aufgaben und Probleme bearbeiten können, wenn das Projekt noch nicht genehmigt ist, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Vor dieser Änderung konnten Projekte, Aufgaben und Probleme, die noch nicht genehmigt wurden, nicht bearbeitet werden. Außerdem konnten keine Probleme zu Projekten hinzugefügt werden, für die eine Genehmigung aussteht, und Aufgaben und Probleme konnten nicht in Projekten bearbeitet werden, für die eine Genehmigung aussteht.
+Vor dieser Änderung konnten Projekte, Aufgaben und Probleme, die noch nicht genehmigt wurden, nicht bearbeitet werden. Außerdem konnten Probleme nicht zu Projekten hinzugefügt werden, für die eine Genehmigung aussteht, und Aufgaben und Probleme konnten nicht in Projekten bearbeitet werden, für die eine Genehmigung aussteht.
 
 ## Zuweisen von Layoutvorlagen zu Gruppen
 
 Sie können nun Layoutvorlagen Gruppen zuweisen.
 
-Vor dieser Änderung können Sie Benutzern, Teams und Auftragsprofilen Layoutvorlagen zuweisen. Das Zuweisen einer Layoutvorlage zu Gruppen hat bei der Zuweisung von Layoutvorlagen den niedrigsten Rang. 
+Vor dieser Änderung können Sie Benutzern, Teams und Auftragsprofilen Layoutvorlagen zuweisen. Das Zuweisen einer Layoutvorlage zu Gruppen hat bei der Zuweisungspriorität von Layoutvorlagen den niedrigsten Rang. 
 
 Weitere Informationen finden Sie unter &quot;Erstellen und Verwalten von Layoutvorlagen&quot;.
 
@@ -68,7 +68,7 @@ Die Funktion wurde bei der Massenbearbeitung von E-Mail-Benachrichtigungseinstel
 
 Vor dieser Änderung wurden die von Ihnen ausgewählten E-Mail-Benachrichtigungseinstellungen gespeichert und alle anderen unveränderten Benachrichtigungseinstellungen beim Speichern der Änderungen deaktiviert. 
 
-Weitere Informationen finden Sie unter &quot;Ändern der Einstellungen für Benutzerbenachrichtigungen in Stapeln&quot;in [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter &quot;Ändern der Einstellungen für Benutzerbenachrichtigungen in Stapeln&quot;in [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Aktualisiertes Erscheinungsbild mehrerer E-Mail-Benachrichtigungen
 

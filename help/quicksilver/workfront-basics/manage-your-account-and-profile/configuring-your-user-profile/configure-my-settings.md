@@ -6,9 +6,9 @@ description: Ihre [!DNL Adobe Workfront] Das Profil enthält Informationen über
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Abhängig von der Zugriffsstufe, in der Sie [!DNL Workfront]können Sie einige d
 
 Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem [!UICONTROL Meine Einstellungen] Bereich.
 
-Einige in bearbeitbaren Abschnitten enthaltene Felder können je nach anderen Einstellungen, die in Ihrer Zugriffsebene möglicherweise konfiguriert sind, nicht bearbeitet werden. Weitere Informationen über zusätzlichen Zugriff, der für die Bearbeitung einiger der Felder erforderlich ist, finden Sie unter [!UICONTROL Meine Einstellungen]finden Sie in den Abschnitten unter [Konfigurieren der [!UICONTROL Meine Einstellungen] area](#configuring-the-my-settings-area).
+Einige Felder in bearbeitbaren Abschnitten können je nach anderen Einstellungen, die in Ihrer Zugriffsebene möglicherweise konfiguriert sind oder nicht, nicht bearbeitet werden. Weitere Informationen über zusätzlichen Zugriff, der für die Bearbeitung einiger der Felder benötigt wird, finden Sie unter [!UICONTROL Meine Einstellungen]finden Sie in den Abschnitten unter [Konfigurieren der [!UICONTROL Meine Einstellungen] area](#configuring-the-my-settings-area).
 
 Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
@@ -158,7 +158,7 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Benutzerdefinierter Forms]</td> 
+   <td rowspan="2">[!UICONTROL Custom Forms]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -240,7 +240,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail-Adresse]</strong></td> 
-   <td> Aktualisieren Sie Ihre E-Mail-Adresse. Dies ist ein Pflichtfeld. Beachten Sie, dass Ihre E-Mail-Adresse auch Ihr Benutzername ist für [!DNL Workfront].</td> 
+   <td> E-Mail-Adresse aktualisieren. Dies ist ein Pflichtfeld. Beachten Sie, dass Ihre E-Mail-Adresse auch Ihr Benutzername ist für [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Kennwort zurücksetzen]</strong></td> 
@@ -248,11 +248,11 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) &lt;sso configuration=""&gt; [!UICONTROL Benutzername]</strong></td> 
-   <td> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront], wird Ihr SSO-Benutzername in diesem Feld angezeigt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] -Instanz in diesem Feld sichtbar ist.</td> 
+   <td> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront], wird Ihr SSO-Benutzername in diesem Feld angezeigt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] in diesem Feld sichtbar ist.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Nur zulassen &lt;sso configuration=""&gt; Authentifizierung]</strong></td> 
-   <td> <p> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront] und Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] -Instanz in diesem Feld sichtbar ist.</p> <p>Wenn dieses Feld ausgewählt ist, müssen Sie sich bei [!DNL Workfront] mit Ihren SSO-Anmeldeinformationen. Wenn Sie diese Option deaktivieren, können Sie sich bei [!DNL Workfront] mit [!DNL Workfront] Anmeldedaten.</p> <p>Weitere Informationen zur Konfiguration [!DNL Workfront] mit einer SSO-Lösung, siehe <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-on [!DNL Adobe Workfront]</a>. Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Benutzer für Single Sign-on aktualisieren</a>.</p> </td> 
+   <td> <p> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront] und Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] in diesem Feld sichtbar ist.</p> <p>Wenn dieses Feld ausgewählt ist, müssen Sie sich bei [!DNL Workfront] mit Ihren SSO-Anmeldeinformationen. Wenn Sie diese Option deaktivieren, können Sie sich bei [!DNL Workfront] mit [!DNL Workfront] Anmeldedaten.</p> <p>Weitere Informationen zur Konfiguration [!DNL Workfront] mit einer SSO-Lösung, siehe <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-on [!DNL Adobe Workfront]</a>. Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Benutzer für Single Sign-on aktualisieren</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -335,7 +335,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
        <p>Die Zeitzone wirkt sich auch darauf aus, was in einem PTO-Kalenderbericht angezeigt wird.</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL E-Mail-Gebietsschema]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td>Geben Sie hier Ihre bevorzugte Sprache an. Damit wird das in ausgehenden E-Mail-Nachrichten verwendete Sprache-, Datums- und Zahlenformat gesteuert.</td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
 
 ### [!UICONTROL Benachrichtigungen]
 
-Geben Sie an, von welchen Benachrichtigungen Sie empfangen möchten [!DNL Workfront]. Weitere Informationen zum Konfigurieren von Benachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Geben Sie an, von welchen Benachrichtigungen Sie empfangen möchten [!DNL Workfront]. Weitere Informationen zum Konfigurieren von Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Zugriff]
 
@@ -380,7 +380,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout-Vorlage]</strong> </td> 
-   <td>Dieses Feld ist für Benutzer mit einem [!UICONTROL Plan] oder [!UICONTROL Plan] sichtbar. [!DNL Workfront] Administrator-/ Zugriffsebene und kann nur für [!UICONTROL bearbeitet werden. [!DNL Workfront] Administratoren] oder Benutzer mit einer [!UICONTROL Plan]-Lizenz, die auch Administratorzugriff haben. Wählen Sie hier eine Layoutvorlage aus, um das Erscheinungsbild und das Feld Ihrer Workfront-Benutzeroberfläche zu aktualisieren. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.<br>Weitere Informationen zu Layout-Vorlagen und deren Auswirkungen auf die Benutzeroberfläche finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Erstellen und Verwalten von Layoutvorlagen</a></td> 
+   <td>Dieses Feld ist für Benutzer mit einem [!UICONTROL Plan] oder [!UICONTROL Plan] sichtbar [!DNL Workfront] Administrator-/ Zugriffsebene und kann nur für [!UICONTROL bearbeitet werden [!DNL Workfront] Administratoren] oder Benutzer mit einer [!UICONTROL Plan]-Lizenz, die auch Administratorzugriff haben. Wählen Sie hier eine Layoutvorlage aus, um das Erscheinungsbild und das Feld Ihrer Workfront-Benutzeroberfläche zu aktualisieren. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.<br>Weitere Informationen zu Layout-Vorlagen und deren Auswirkungen auf die Benutzeroberfläche finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Erstellen und Verwalten von Layoutvorlagen</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -426,11 +426,11 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Direkte Berichte]</strong></td> 
-   <td>Nachdem Sie eine <strong>[!UICONTROL Company]</strong> Für Ihr Profil können Sie auch den Namen Ihrer direkt unterstellten Mitarbeiter in dieses Feld eingeben. Hier können Sie beliebig viele direkte Berichte festlegen. Geben Sie den Namen ein und klicken Sie auf , um ihn auszuwählen, sobald er in der Liste angezeigt wird.</td> 
+   <td>Nachdem Sie eine <strong>[!UICONTROL Company]</strong> Für Ihr Profil können Sie auch den Namen Ihrer direkt unterstellten Mitarbeiter in dieses Feld eingeben. Hier können Sie beliebig viele direkte Berichte festlegen. Geben Sie den Namen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Team]</strong> </td> 
-   <td> <p>Wählen Sie eine <strong>[!UICONTROL Home Team]</strong> aus dem Dropdown-Menü. Dieses Feld ist für Benutzer mit Zugriffsstufe [!UICONTROL Plan] oder [!UICONTROL Systemadministrator] sichtbar und kann nur bearbeitet werden für [!DNL Workfront] Administratoren oder Benutzer mit einer [!UICONTROL Plan] -Lizenz, die auch Administratorzugriff haben. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.<br></p> <p>Ihre <strong>Startseite</strong> kann das Aussehen und das Erscheinungsbild Ihrer [!DNL Workfront] -Schnittstelle, wenn eine Layout-Vorlage mit dem Team verknüpft ist. </p> <p> <br>Weitere Informationen zu Teams finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams - Übersicht</a>.</p> </td> 
+   <td> <p>Wählen Sie eine <strong>[!UICONTROL Home Team]</strong> aus dem Dropdown-Menü. Dieses Feld ist für Benutzer mit Zugriffsstufe [!UICONTROL Plan] oder [!UICONTROL Systemadministrator] sichtbar und kann nur für [!DNL Workfront] Administratoren oder Benutzer mit einer [!UICONTROL Plan] -Lizenz, die auch Administratorzugriff haben. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.<br></p> <p>Ihre <strong>Startseite</strong> kann das Aussehen und das Erscheinungsbild Ihrer [!DNL Workfront] -Schnittstelle, wenn eine Layout-Vorlage mit dem Team verknüpft ist. </p> <p> <br>Weitere Informationen zu Teams finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Sonstige Teams]</strong> </td> 
@@ -478,7 +478,7 @@ Verwenden Sie Folgendes in diesem Abschnitt:
    <td> <p>Geben Sie an, welcher Prozentsatz der geplanten Zeit den einzelnen Auftragsrollen zugewiesen wird. Der Standardwert für [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] für [!UICONTROL Sonstige Rollen] beträgt 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Notiz:  
      <ul> 
       <li>Wenn [!UICONTROL Sonstige Rollen] eine FTE-Verfügbarkeit von 0 % haben, werden sie nicht im [!UICONTROL Resource Planer] angezeigt, es sei denn, die Benutzer sind Aufgaben in diesen Rollen zugewiesen.</li> 
-      <li> <p>Die Summe aller <strong>[!UICONTROL Prozentsatz der Verfügbarkeit von VZÄ]</strong> für alle Rollen muss 100 % entsprechen. Jeder [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] berechnet die [!UICONTROL Verfügbaren Stunden] für jede Rolle pro Benutzer im [!UICONTROL Resource Planer]. </p> <p>Die [!UICONTROL Verfügbare Stunden] für jede Rolle pro Benutzer hängt von der für den Benutzer verfügbaren Zeit ab. Die verfügbare Zeit für den Benutzer wird berechnet durch [!DNL Workfront] abhängig von der Methode, die von der [!DNL Workfront] Administrator, um die FTE in den [!UICONTROL Resource Management Preferences] zu berechnen. Weitere Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>. Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </li> 
+      <li> <p>Die Summe aller <strong>[!UICONTROL Prozentsatz der Verfügbarkeit von VZÄ]</strong> für alle Rollen muss 100 % entsprechen. Jeder [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] berechnet die [!UICONTROL Verfügbaren Stunden] für jede Rolle pro Benutzer im [!UICONTROL Resource Planer]. </p> <p>Die [!UICONTROL Verfügbare Stunden] für jede Rolle pro Benutzer hängt von der für den Benutzer verfügbaren Zeit ab. Die verfügbare Zeit für den Benutzer wird berechnet durch [!DNL Workfront] abhängig von der Methode, die von der [!DNL Workfront] Administrator, um die FTE in den [!UICONTROL Voreinstellungen für die Ressourcenverwaltung] zu berechnen. Weitere Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>. Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -514,7 +514,7 @@ Verwenden Sie Folgendes in diesem Abschnitt:
 
 ### [!UICONTROL Benutzerdefiniertes Formular]
 
-Sie können ein benutzerdefiniertes Formular mit Ihrem Benutzerprofil verknüpfen. Dadurch können Sie zusätzliche Informationen für Ihren Benutzer speichern, die andernfalls nicht im [!DNL Workfront] native Felder, die oben beschrieben sind.\
+Sie können ein benutzerdefiniertes Formular mit Ihrem Benutzerprofil verknüpfen. Dadurch können Sie zusätzliche Informationen für Ihren Benutzer speichern, die andernfalls nicht im [!DNL Workfront] nativen Feldern, die oben beschrieben sind.\
 Sie müssen über einen der folgenden Zugriffsrechte oder Berechtigungen verfügen, um ein benutzerdefiniertes Formular an Ihren Benutzer anhängen zu können:
 
 * Sie sind [!DNL Workfront] Administrator.

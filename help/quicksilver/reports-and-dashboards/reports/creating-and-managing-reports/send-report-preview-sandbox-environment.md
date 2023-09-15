@@ -6,9 +6,9 @@ description: Die Informationen auf dieser Seite beziehen sich auf Funktionen, di
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Planen von Berichten in der Vorschau-Umgebung
 
-Ob ein bereitgestellter Bericht in der Vorschau-Umgebung erstellt wird oder nicht, hängt davon ab, ob **Empfangen von E-Mails aus dieser Testumgebung** aktiviert ist oder nicht.
+Ob ein bereitgestellter Bericht in der Vorschau-Umgebung erstellt wird, hängt davon ab, ob **Empfangen von E-Mails aus dieser Testumgebung** aktiviert ist oder nicht.
 
 Informationen zum Aktivieren von E-Mails aus der Sandbox-Umgebung finden Sie unter [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
@@ -83,7 +83,7 @@ Wenn Sie einen Bericht für die Bereitstellung in der Vorschau-Umgebung planen, 
 
 Ob ein bereitgestellter Bericht in der Sandbox für benutzerdefinierte Aktualisierung erstellt wird, hängt davon ab, ob die Einstellung E-Mails von dieser Testumgebung empfangen aktiviert ist oder nicht.
 
-Informationen zum Aktivieren von E-Mails aus der Vorschau-Umgebung finden Sie im Abschnitt . [E-Mail-Benachrichtigungseinstellungen anzeigen und ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) im Artikel [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Informationen zum Aktivieren von E-Mails aus der Vorschau-Umgebung finden Sie im Abschnitt . [E-Mail-Benachrichtigungseinstellungen anzeigen und ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) im Artikel [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

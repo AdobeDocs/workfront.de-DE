@@ -5,9 +5,9 @@ description: Adobe Workfront sendet Benachrichtigungen über Elemente, die Sie z
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -75,21 +75,20 @@ Um beispielsweise ein Problem zu abonnieren:
    >
    >Um Projekte zu abonnieren, haben Sie folgende Möglichkeiten:
    >
-   >* Gehen Sie zu dem Projekt, für das Sie sich anmelden möchten, und klicken Sie auf das **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und **[!UICONTROL Abonnieren]**.
+   >* Gehen Sie zu dem Projekt, für das Sie sich anmelden möchten, und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen, und **[!UICONTROL Abonnieren]**.
    >* Wechseln Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus. Klicken Sie auf die **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) Klicken Sie oben in der Liste auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Projektliste verfügbar.
 
-
-1. Klicken **[!UICONTROL Mehr]** ![](assets/more-icon.png)Klicken Sie auf **[!UICONTROL Abonnieren]**.
+1. Klicks **[!UICONTROL Mehr]** ![](assets/more-icon.png)Klicken Sie auf **[!UICONTROL Abonnieren]**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
    Ein Häkchen wird auf der Glocke angezeigt und die zugehörige Nummer wird aktualisiert, um Sie zur Anzahl der angemeldeten Benutzer hinzuzufügen.
 
-   Sie haben sich jetzt für das Problem angemeldet. Der Aktualisierungsstatus für die Problemdatensätze, die Sie für das Problem abonniert haben.
+   Sie haben sich jetzt für das Problem angemeldet. Der Aktualisierungsstatus für die Problemdatensätze, die Sie für das Problem angemeldet haben.
 
    Jedes Mal, wenn jemand zu dem Problem Stellung nimmt, erhalten Sie eine In-App-Benachrichtigung. Je nach den Funktionen, die Sie aktiviert haben, können Sie auch E-Mail-Benachrichtigungen und Mobile-App-Push-Benachrichtigungen erhalten.
 
-   Weitere Informationen zur Abonnement-E-Mail finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Weitere Informationen zur Abonnement-E-Mail finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Abmeldung von einem Artikel
 
@@ -103,11 +102,10 @@ So melden Sie sich beispielsweise von einem Problem ab:
    >
    >Um sich von Projekten abzumelden, haben Sie folgende Möglichkeiten:
    >
-   >* Gehen Sie zu dem Projekt, von dem Sie sich abmelden möchten, und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und **[!UICONTROL Abmelden]**.
+   >* Gehen Sie zu dem Projekt, von dem Sie sich abmelden möchten, und klicken Sie auf das **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen, und **[!UICONTROL Abmelden]**.
    >* Wechseln Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus. Klicken Sie auf die **[!UICONTROL Mehr]** icon ![](assets/qs-more-menu.png) Klicken Sie oben in der Liste auf **[!UICONTROL Abmelden]**. Dies ist nur in einer Projektliste verfügbar.
 
-
-1. Klicken **[!UICONTROL Mehr]** ![](assets/more-icon.png)Klicken Sie auf **[!UICONTROL Abmelden]**.
+1. Klicks **[!UICONTROL Mehr]** ![](assets/more-icon.png)Klicken Sie auf **[!UICONTROL Abmelden]**.
 
    ![](assets/unsubscribe-to-a-work-item-350x258.png)
 
@@ -124,7 +122,7 @@ Sie können verwalten, wer Projekte, Aufgaben und Probleme abonniert, für die S
 * [Andere Benutzer für ein Element anmelden](#subscribe-another-user-to-an-item)
 * [Abmeldung einer anderen Person von einem Artikel](#unsubscribe-another-person-from-an-item)
 
-Alle Abonnenten erhalten [!UICONTROL Ansicht] Berechtigung zum abonnierten Element. Wenn die neuen Abonnenten bereits über Berechtigungen für das Element verfügen, bleiben ihre Berechtigungen intakt.
+Alle Abonnenten erhalten [!UICONTROL Ansicht] -Berechtigung zum abonnierten Element. Wenn die neuen Abonnenten bereits über Berechtigungen für das Element verfügen, bleiben ihre Berechtigungen erhalten.
 
 ### Andere Benutzer für ein Element anmelden
 
@@ -138,9 +136,8 @@ Alle Abonnenten erhalten [!UICONTROL Ansicht] Berechtigung zum abonnierten Eleme
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
-
-1. Klicken **[!UICONTROL Mehr]** ![](assets/more-icon.png).
-1. Klicken Sie auf die Zahlenblase neben dem **[!UICONTROL Abonnieren]** Link.
+1. Klicks **[!UICONTROL Mehr]** ![](assets/more-icon.png).
+1. Klicken Sie auf die Zahlenblase neben dem **[!UICONTROL Abonnieren]** -Link.
 1. Geben Sie in das Feld, das angezeigt wird, den Namen des Benutzers im **[!UICONTROL Andere abonnieren]** und wählen Sie dann den Benutzer aus den angezeigten Optionen aus.
 
 1. (Optional) Um weitere Abonnenten hinzuzufügen, wiederholen Sie Schritt 4.
@@ -156,20 +153,19 @@ Wenn jemand einen Kommentar zum [!UICONTROL Updates] -Registerkarte des Artikels
 
    >[!TIP]
    >
-   >Um einen anderen Benutzer von Projekten abzumelden, haben Sie folgende Möglichkeiten:
+   >Um einen anderen Benutzer von Projekten abzumelden, führen Sie einen der folgenden Schritte aus:
    >
    >* Wechseln Sie zu dem Projekt, von dem Sie andere abmelden möchten, oder
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
-
-1. Klicken **[!UICONTROL Mehr]** ![](assets/more-icon.png).
-1. Klicken Sie auf die Zahlenblase neben dem **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]** Link.
+1. Klicks **[!UICONTROL Mehr]** ![](assets/more-icon.png).
+1. Klicken Sie auf die Zahlenblase neben dem **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]** -Link.
 1. Im **[!UICONTROL Abonnenten]** auf das &quot;X&quot;neben dem Namen des Benutzers klicken, den Sie abmelden möchten.
 
    Oder
 
-   Beginnen Sie mit der Eingabe des Benutzernamens im **[!UICONTROL Suchen nach Personen in der Liste]** und klicken Sie dann auf das X rechts neben dem Benutzernamen.
+   Beginnen Sie mit der Eingabe des Benutzernamens im **[!UICONTROL Suchen nach Personen in der Liste]** und klicken Sie dann auf das &quot;X&quot;rechts neben dem Benutzernamen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -211,12 +207,12 @@ Beachten Sie Folgendes bei der Arbeit mit Abonnements:
 
 * Die [!DNL Workfront] -Administrator kann nicht steuern, welche Benutzer sich anmelden können oder nicht.
 
-   Jeder mit [!UICONTROL Ansicht] oder höhere Berechtigungen für Aufgaben, Probleme oder Projekte abonnieren können.
+  Jeder mit [!UICONTROL Ansicht] oder höhere Berechtigungen für Aufgaben, Probleme oder Projekte abonnieren können.
 
 * Abonnements können nicht für eine tägliche Digest-E-Mail konfiguriert werden.
 * Wenn Sie eine Aufgabe, ein Problem oder ein Projekt abonnieren und auch der Verantwortliche, der Primäre Ansprechpartner oder der Projekteigentümer sind, erhalten Sie nur die Abonnenten-E-Mail, wenn jemand zu dem von Ihnen abonnierten Artikel einen Kommentar abgibt.
 
-   Weitere Informationen zu E-Mail-Benachrichtigungen, die Trigger eines Kommentars zu einem Ihrer Elemente erhalten, finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+  Weitere Informationen zu E-Mail-Benachrichtigungen, die Trigger eines Kommentars zu einem Ihrer Elemente erhalten, finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Wenn Sie ein Element abonnieren und einen Kommentar dazu abgeben, erhalten Sie keine Abonnenten-E-Mail zu diesem Kommentar, es sei denn, Sie geben Ihren Namen in den Kommentar ein.
 * Wenn der Benutzer, der den Kommentar zu dem Element kommentiert, den Kommentar privat macht, indem er den Kommentar sperrt, und Sie nicht Teil desselben Unternehmens sind wie dieser Benutzer, erhalten Sie keine Benachrichtigung für diesen Kommentar. Weitere Informationen dazu, wie Sie Ihrem Unternehmen einen privaten Kommentar geben, finden Sie im [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) Abschnitt in [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

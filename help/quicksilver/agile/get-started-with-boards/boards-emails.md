@@ -7,9 +7,9 @@ description: Adobe Workfront-Pinnwände senden Ihnen eine E-Mail, wenn Sie einer
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist. Die Benachrichtigungen sind standardmäßig aktiviert und Sie können in Ihren Vorlageneinstellungen auswählen, welche E-Mails Sie erhalten möchten.
 
-Je nach den Einstellungen für E-Mail-Benachrichtigungen erhalten Sie auch eine E-Mail, wenn Sie in einem Kommentar auf einer verbundenen Karte getaggt sind. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
+Je nach den Einstellungen für E-Mail-Benachrichtigungen erhalten Sie auch eine E-Mail, wenn Sie in einem Kommentar auf einer verbundenen Karte getaggt sind. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
 
 ## Zugriffsanforderungen
 

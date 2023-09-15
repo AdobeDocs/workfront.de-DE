@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vo
 author: Luke
 feature: Product Announcements
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Beim Erstellen von Genehmigungsprozessen für Projekt-, Aufgaben- und Problemgen
 
 * Die Genehmigung &quot;Schritte&quot;wird jetzt als Genehmigung &quot;Phasen&quot;bezeichnet.
 * Mehrere Arten von Genehmigern pro Phase einschließen.\
-   Dazu gehören Benutzer, Teams und Arbeitsplatzrollen.\
-   Vor dieser Änderung könnten Sie mehrere Genehmiger desselben Typs einbeziehen. Sie können beispielsweise mehrere Jobrollen einbeziehen, jedoch keine Auftrags- und Team-Rolle.
+  Dazu gehören Benutzer, Teams und Arbeitsplatzrollen.\
+  Vor dieser Änderung könnten Sie mehrere Genehmiger desselben Typs einbeziehen. Sie können beispielsweise mehrere Jobrollen einbeziehen, jedoch keine Auftrags- und Team-Rolle.
 
 * Die folgenden bereits bestehenden Einschränkungen bei der Änderung bestehender globaler Genehmigungsprozesse wurden entfernt:
 
@@ -66,22 +66,22 @@ Weitere Informationen zum Planen der Deaktivierung von Benutzern finden Sie unte
 
 Die Option Täglicher Digest-Versand ist jetzt im Bereich &quot;Erforderliche Aktion&quot;Ihrer Benachrichtigungseinstellungen verfügbar.
 
-Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
-## Verbesserung des Papierkorbs: Im Update-Stream aufgezeichnet und E-Mail-Benachrichtigung empfangen
+## Verbesserung des Papierkorbs: Wird im Aktualisierungs-Stream aufgezeichnet und erhält E-Mail-Benachrichtigung
 
 Die folgenden Verbesserungen wurden beim Wiederherstellen gelöschter Projekte, Aufgaben und Probleme hinzugefügt:
 
 * Nach dem Wiederherstellen eines Objekts erhalten Sie jetzt eine E-Mail-Benachrichtigung.\
-   Als Workfront-Administrator erhalten Sie jetzt eine E-Mail-Benachrichtigung, nachdem Sie ein zuvor gelöschtes Projekt, eine Aufgabe oder ein Problem wiederhergestellt haben. Die E-Mail-Benachrichtigung informiert Sie über den Status des Wiederherstellungsprozesses.\
-   Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Als Workfront-Administrator erhalten Sie jetzt eine E-Mail-Benachrichtigung, nachdem Sie ein zuvor gelöschtes Projekt, eine Aufgabe oder ein Problem wiederhergestellt haben. Die E-Mail-Benachrichtigung informiert Sie über den Status des Wiederherstellungsprozesses.\
+  Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Wenn das Objekt wiederhergestellt wird, wird das Löschen und Wiederherstellen des Objekts jetzt im Aktualisierungsstream des Objekts selbst und im Aktualisierungsstream des übergeordneten Objekts aufgezeichnet.\
-   Zuvor wurde nur der Löschvorgang im Aktualisierungsstream des übergeordneten Objekts aufgezeichnet.\
-   Wenn die Aufgabe beispielsweise wiederhergestellt wird, wird eine Meldung zum Aktualisierungsstream des Projekts und der Aufgabe selbst hinzugefügt, die angibt, dass die Aufgabe wiederhergestellt wurde. (Löschungen und Wiederherstellungen werden nicht bei Unteraufgaben aufgezeichnet. Informationen zum Löschen und Wiederherstellen von Unteraufgaben sind nur für übergeordnete Aufgaben verfügbar.)\
-   Weitere Informationen finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Zuvor wurde nur der Löschvorgang im Aktualisierungsstream des übergeordneten Objekts aufgezeichnet.\
+  Wenn die Aufgabe beispielsweise wiederhergestellt wird, wird eine Meldung zum Aktualisierungsstream des Projekts und der Aufgabe selbst hinzugefügt, die angibt, dass die Aufgabe wiederhergestellt wurde. (Löschungen und Wiederherstellungen werden nicht bei Unteraufgaben aufgezeichnet. Informationen zum Löschen und Wiederherstellen von Unteraufgaben sind nur für übergeordnete Aufgaben verfügbar.)\
+  Weitere Informationen finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 

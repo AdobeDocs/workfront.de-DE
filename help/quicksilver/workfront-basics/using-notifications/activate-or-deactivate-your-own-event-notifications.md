@@ -1,32 +1,33 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen
-description: Ihr Adobe Workfront-Administrator konfiguriert, welche Ereignisbenachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten.
+keywords: modify,email,notification,settings
+title: Ihre eigenen E-Mail-Benachrichtigungen ändern
+description: In diesem Artikel wird beschrieben, wie Sie Ihre E-Mail-Benachrichtigungen in Ihrem Benutzerprofil verwalten können.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen
+# Ihre eigenen E-Mail-Benachrichtigungen ändern
 
-Ihre Adobe [!DNL Workfront] Der Administrator konfiguriert, welche Ereignisbenachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten (siehe [[!UICONTROL Ereignis konfigurieren] Benachrichtigungen für alle im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Ihre Adobe [!DNL Workfront] Der Administrator konfiguriert, welche E-Mail-Benachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten (siehe [[!UICONTROL Ereignis konfigurieren] Benachrichtigungen für alle im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Ihr Gruppenadministrator kann auch konfigurieren, welche Ereignisbenachrichtigungen für Sie und die Benutzer in Ihrer Startseite aktiviert werden. Wenn [!UICONTROL Startseite] eine Untergruppe ist, erhalten Sie die Ereignisbenachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert wurden.
+Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Startseite]. Wenn [!UICONTROL Startseite] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert wurden.
 
 Sie können dies weiter anpassen, indem Sie konfigurieren, welche Benachrichtigungen Sie erhalten. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen oder eine tägliche Digest-E-Mail erhalten möchten.
 
-Informationen zu E-Mail-Benachrichtigungen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
 >* Wenn Sie einen Benachrichtigungstyp aktivieren und dann feststellen, dass Sie keine Benachrichtigungen dieses Typs erhalten, liegt dies möglicherweise daran, dass dieser Typ nicht für Ihre Rolle gilt.
->* Die [!DNL Workfront] Administrator oder Gruppenadministrator kann keine Benachrichtigungen für [!DNL Workfront Goals]. Weitere Informationen zu Benachrichtigungen finden Sie unter [!DNL Workfront] Administratoren können konfigurieren, siehe [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Informationen zum Konfigurieren von einzelnen Benachrichtigungen für [!DNL Workfront Goals] lesen Sie diesen Artikel weiter.
+>* Die [!DNL Workfront] Administrator oder Gruppenadministrator kann keine Benachrichtigungen für [!DNL Workfront Goals]. Weitere Informationen zu den Benachrichtigungen finden Sie unter [!DNL Workfront] Administratoren können konfigurieren, siehe [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Informationen zum Konfigurieren von einzelnen Benachrichtigungen für [!DNL Workfront Goals] lesen Sie diesen Artikel weiter.
 >
 
 ## Zugriffsanforderungen
@@ -54,9 +55,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## E-Mail-Benachrichtigungseinstellungen anzeigen und ändern
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.
+{{step1-click-profile-pic}}
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** icon ![](assets/more-icon.png) Klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** icon ![](assets/more-icon.png) neben Ihrem Namen klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
 1. Im **[!UICONTROL Person bearbeiten]** das angezeigt wird, wechseln Sie zum **[!UICONTROL Benachrichtigungen]** Abschnitt.
 
@@ -84,8 +85,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Die tägliche Zusammenfassung enthält Ereignisse, die die Kriterien der Benachrichtigungen 24 Stunden vor dem ausgewählten Zeitpunkt erfüllen. Sie erhalten für jeden Benachrichtigungstyp eine tägliche Digest-E-Mail.\
    Der tägliche Digest kann nach der von Ihnen ausgewählten Zeit eintreffen, je nachdem, wie viele E-Mails in die Warteschlange für den Versand im System gestellt werden. Die angegebene Uhrzeit entspricht der Ortszeit, die Sie in den Browsereinstellungen angegeben haben.
 
-1. (Bedingt und optional) Aktivieren Sie beim Ändern der Einstellungen für E-Mail-Benachrichtigungen in der Vorschau-Umgebung die Option **[!UICONTROL Empfangen von E-Mails aus dieser Testumgebung]** auf den Empfang von E-Mails einstellen. E-Mails werden nicht automatisch aus der Vorschau-Umgebung generiert.
+1. (Bedingt und optional) Aktivieren Sie beim Ändern der Einstellungen für E-Mail-Benachrichtigungen in der Vorschau-Umgebung die Option **[!UICONTROL Empfangen von E-Mails aus dieser Testumgebung]** für den Empfang von E-Mails festlegen. E-Mails werden nicht automatisch aus der Vorschau-Umgebung generiert.
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Klicks **[!UICONTROL Änderungen speichern]**.

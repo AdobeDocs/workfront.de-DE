@@ -8,10 +8,10 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '5008'
-ht-degree: 24%
+source-wordcount: '5006'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ Diese Benachrichtigungen können auf System- und Gruppenebene konfiguriert werde
 * Informationen zum Konfigurieren von Ereignisbenachrichtigungen auf Systemebene finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Informationen zum Konfigurieren von Ereignisbenachrichtigungen auf Gruppenebene finden Sie unter [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Einzelne Benutzer können auch ihre individuellen Ereignisbenachrichtigungen in ihrem jeweiligen Profil aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Einzelne Benutzer können auch ihre individuellen Ereignisbenachrichtigungen in ihrem jeweiligen Profil aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In den folgenden Tabellen sind alle Adobe Workfront-Ereignisbenachrichtigungen aufgeführt, eine kurze Beschreibung des Ereignisses sowie Informationen dazu, ob das Ereignis standardmäßig aktiv oder inaktiv ist.
 
@@ -54,7 +54,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
   </tr> 
   <tr> 
    <td> <p>Dokument</p> <p> </p> </td> 
-   <td> <p>Dokument hinzugefügt an Anfordernder Benutzer</p> </td> 
+   <td> <p>Anfrage Dokument hinzufügen an angefragte Person</p> </td> 
    <td> <p>Fordern Sie mich auf, Dokumente hochzuladen.</p> <p>Die Dokumentenanfrage erhält eine E-Mail-Benachrichtigung, wenn sie eine Anforderung zum Hochladen eines Dokuments erhält.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Problemzuweisung an „Problem zugewiesen an“</p> </td> 
-   <td> <p>Ich wurde einem Problem zugewiesen.</p> <p>Der Problemverantwortliche erhält nur dann eine E-Mail-Benachrichtigung, wenn der Status des Projekts aktuell ist und der Status des Problems nicht geschlossen ist oder mit Geschlossen übereinstimmt.</p> <p>Benutzer mit der Lizenz "Überprüfen"oder "Anfrage"erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ich wurde einem Problem zugewiesen.</p> <p>Der Problemverantwortliche erhält nur dann eine E-Mail-Benachrichtigung, wenn der Status des Projekts aktuell ist und der Status des Problems nicht geschlossen ist oder mit Geschlossen übereinstimmt.</p> <p>Benutzer mit einer Lizenz für Review oder Anfrage erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Aufgabenzuweisung an "Aufgabe zugewiesen zu"</p> </td> 
+   <td> <p>Aufgabenzuweisung an „Aufgabe zugewiesen an“</p> </td> 
    <td> <p>Ich bin der Hauptverantwortliche einer Aufgabe.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn er zum primären Verantwortlichen der Aufgabe gemacht wird, es sei denn, der Verantwortliche ist der Benutzer, der die Zuweisung vorgenommen hat.</p> <p>Eine Benachrichtigung wird gesendet, wenn der Projektstatus Aktuell ist und die Aufgabe nicht als abgeschlossen markiert ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -126,28 +126,28 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
   </tr> 
   <tr> 
    <td> <p>Arbeitszeittabelle</p> </td> 
-   <td> <p>Einreichung der Arbeitszeittabelle an genehmigende Person</p> </td> 
+   <td> <p>Übermittlung der Arbeitszeittabelle an genehmigende Person</p> </td> 
    <td> <p>Ich muss eine Arbeitszeittabelle genehmigen.</p> <p>Der Timesheet-Genehmiger erhält eine E-Mail-Benachrichtigung, wenn ein zu validierendes Zeitblatt übermittelt wird, es sei denn, der Benutzer, der das Datenblatt gesendet hat, ist auch der Timesheet-Genehmiger.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Status des Zeitblatts übermittelt wird.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Zuweisung</p> </td> 
-   <td> <p>Arbeitselementanforderung an Team</p> </td> 
-   <td> <p>Mein Team erhält einen neuen Arbeitsauftrag.</p> <p>Team-Mitglieder erhalten eine E-Mail-Benachrichtigung, wenn das Team eine neue Arbeitsanfrage erhält. (Der Benutzer, der die Anfrage gesendet hat, erhält keine Benachrichtigung, wenn er Mitglied des Teams ist.)</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Arbeitsanforderung aktuell ist und der Status der Arbeitsanforderung "Neu"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Arbeitselement-Anfrage an Team</p> </td> 
+   <td> <p>Mein Team erhält eine neue Arbeitsanfrage.</p> <p>Team-Mitglieder erhalten eine E-Mail-Benachrichtigung, wenn das Team eine neue Arbeitsanfrage erhält. (Der Benutzer, der die Anfrage gesendet hat, erhält keine Benachrichtigung, wenn er Mitglied des Teams ist.)</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Arbeitsanforderung aktuell ist und der Status der Arbeitsanforderung "Neu"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Zuweisung</p> </td> 
-   <td> <p>Kommentar zum Arbeitsauftrag an Zugewiesene(n) des Arbeitselements</p> </td> 
+   <td> <p>Arbeitselement-Anfrage an Zugewiesene(n) des Arbeitselements</p> </td> 
    <td> <p>Ich erhalte einen neuen Arbeitsauftrag.</p> <p>Der Bevollmächtigte des Arbeitselements erhält eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Anfrage stellt, ist auch der Bevollmächtigte. </p> <p>Eine Benachrichtigung wird nicht gesendet, wenn der Aufgabenstatus Abgeschlossen oder der Problemstatus Abgeschlossen ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Anfrage aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ich habe
+## Von mir gestellte Anfragen
 
-Siehe auch [Benachrichtigungen: Ich habe](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -166,66 +166,66 @@ Siehe auch [Benachrichtigungen: Ich habe](../../../workfront-basics/using-notifi
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Statusänderung der Dokumentengenehmigung an Antragsteller(in)</p> </td> 
-   <td> <p>Eine Anforderung zur Dokumentgenehmigung ist abgeschlossen.</p> <p>Der Dokumentenanfrager erhält eine E-Mail-Benachrichtigung, wenn die Genehmigungsanfrage abgeschlossen ist.</p> </td> 
+   <td> <p>Eine Anforderung zur Dokumentgenehmigung ist abgeschlossen.</p> <p>Der Dokumentanfragende erhält eine E-Mail-Benachrichtigung, wenn die Genehmigungsanforderung für das Dokument abgeschlossen ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
-   <td> <p>Dokumentanforderung abgeschlossen (Nachricht an Antragsteller)</p> </td> 
-   <td> <p>Anforderung zum Hochladen eines Dokuments wurde ausgeführt.</p> <p>Der Dokumentanfragende erhält eine E-Mail-Benachrichtigung, wenn eine Anforderung zum Hochladen eines Dokuments erfüllt ist.</p> </td> 
+   <td> <p>Dokumentanfrage abgeschlossen (Nachricht an anfragende Person)</p> </td> 
+   <td> <p>Anfrage zum Hochladen eines Dokuments wurde ausgeführt.</p> <p>Der Dokumentanfragende erhält eine E-Mail-Benachrichtigung, wenn eine Anforderung zum Hochladen eines Dokuments erfüllt ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problem hinzugefügt zu primärem Kontakt für das Problem</p> </td> 
+   <td> <p>Problem hinzugefügt an primärem Ansprechpartner für das Problem</p> </td> 
    <td> <p>Ich füge einem Projekt ein Problem hinzu.</p> <p>Der Hauptkontakt zu einem Problem erhält eine Benachrichtigung, wenn er ein Problem in einem Projekt hinzufügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td>Problem</td> 
-   <td>Problemzuweisung an primären Kontakt für das Problem</td> 
+   <td>Problemzuweisung an primären Ansprechpartner für das Problem</td> 
    <td> <p>Jemand wird einem Problem zugeordnet, für das ich der Hauptkontakt bin.</p> <p>Der Hauptkontakt zu einem Problem erhält eine Benachrichtigung, wenn das Problem einem Benutzer zugewiesen wird. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> Inaktiv</td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Abgeschlossenes Problem an primären Kontakt für das Problem</p> </td> 
+   <td> <p>Abgeschlossenes Problem an primären Ansprechpartner für das Problem</p> </td> 
    <td> <p>Ein Problem, für das ich der primäre Ansprechpartner bin, wurde abgeschlossen.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>Projektstatus-Änderung an den Benutzer, der das Projekt eingegeben hat</p> </td> 
+   <td> <p>Projektstatus-Änderung an die Person, die das Projekt eingegeben hat</p> </td> 
    <td> <p>Der Status ändert sich in einem Projekt, das ich erstellt habe.</p> <p>Der Benutzer, der das Projekt erstellt hat, erhält eine E-Mail-Benachrichtigung, wenn sich der Projektstatus ändert.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Hinzufügung des primären Kontakts zum Problem anfragen</p> </td> 
+   <td> <p>Anfrage gesendet an primären Ansprechpartner für das Problem</p> </td> 
    <td> <p>Ich sende eine Anfrage (Bestätigung).</p> <p>Der Primäre Kontakt zu diesem Problem erhält eine E-Mail-Benachrichtigung, wenn er ein Problem sendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Zuweisung an primären Kontakt für das Problem anfordern</p> </td> 
+   <td> <p>Zuweisung einer Anfrage an primäre Kontaktperson für das Problem</p> </td> 
    <td> <p>Jemand wurde mit meiner Anfrage beauftragt.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Benutzer dem Problem zugewiesen wird, es sei denn, der primäre Ansprechpartner und der zugewiesene Benutzer sind derselbe Benutzer.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Schließung bei primärem Kontakt für das Problem anfragen</p> </td> 
+   <td> <p>Anfrage geschlossen an primären Ansprechpartner für das Problem</p> </td> 
    <td> <p>Meine Anforderung ist geschlossen (Bestätigung).</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn die Anfrage geschlossen wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> <p>Wenn die Benachrichtigungen für "Problemabwicklung"aktiviert sind, werden sie immer anstelle der "Anfrage für Primären Kontakt ausgeben"Trigger. Wenn diese Benachrichtigung an den Trigger gesendet werden soll, müssen Sie die Benachrichtigungen zum Abschluss von Problemen deaktivieren.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
-   <td> <p>Hinzufügung von Dokument bei primärem Kontakt für das Problem anfragen</p> </td> 
-   <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
+   <td> <p>Anfrage Dokument hinzufügen an primären Ansprechpartner für das Problem</p> </td> 
+   <td> <p>Ich soll ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, ändern oder hochladen.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Statusänderung bei primärem Kontakt für das Problem anfragen</p> </td> 
+   <td> <p>Statusänderung der Anfrage an primären Ansprechpartner für das Problem</p> </td> 
    <td> <p>Die Statusänderungen zu meiner Anforderung.</p> <p>Der Hauptkontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Problemstatus ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Hauptkontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -239,7 +239,7 @@ Siehe auch [Benachrichtigungen: Ich habe](../../../workfront-basics/using-notifi
 
 ## Kommunikation
 
-Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
+Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -263,20 +263,20 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
-   <td> <p>Hinzufügung von Notiz bei primärem Kontakt für das Problem anfragen</p> </td> 
+   <td> <p>Anfrage Notiz hinzufügen an primären Ansprechpartner für das Problem</p> </td> 
    <td> <p>Wenn ein Kommentar zu einer Anfrage gepostet wird, senden Sie eine E-Mail an den Hauptkontakt des Problems.</p> <p>Der Hauptkontakt für ein Problem erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar auf einer Anfrage veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch der primäre Ansprechpartner für das Problem.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Benutzerin oder Benutzer</p> </td> 
    <td>Weitergeleitete Aktualisierung an Benutzer</td> 
-   <td> <p>Jemand hat mich in die direkte Aktualisierung einbezogen.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält der Benutzer, der in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur gesendet, wenn der Benutzer über Zugriffsrechte für das Objekt verfügt und es in seinem Profil aktiviert bleibt.  </p> <p>Diese Ereignisbenachrichtigung ist standardmäßig aktiviert und kann nicht deaktiviert werden.</p> </td> 
+   <td> <p>Jemand bezieht mich in eine gezielte Aktualisierung ein.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält der Benutzer, der in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur gesendet, wenn der Benutzer über Zugriffsrechte für das Objekt verfügt und es in seinem Profil aktiviert bleibt.  </p> <p>Diese Ereignisbenachrichtigung ist standardmäßig aktiviert und kann nicht deaktiviert werden.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
    <td> <p>Directed Update to Team</p> </td> 
-   <td> <p>Jemand hat mein Team in eine direkte Aktualisierung einbezogen.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält jedes Mitglied des Teams, das in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur an Benutzer gesendet, die über Zugriffsberechtigungen für das Objekt der Aktualisierung verfügen.</p> <p>Wenn der Benutzer, der die gezielte Aktualisierung sendet, Mitglied des Teams ist, das eingeschlossen ist, erhält der Benutzer, der die Aktualisierung sendet, keine E-Mail-Benachrichtigung.</p> </td> 
+   <td> <p>Jemand bezieht mein Team in eine gezielte Aktualisierung ein.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält jedes Mitglied des Teams, das in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur an Benutzer gesendet, die über Zugriffsberechtigungen für das Objekt der Aktualisierung verfügen.</p> <p>Wenn der Benutzer, der die gezielte Aktualisierung sendet, Mitglied des Teams ist, das eingeschlossen ist, erhält der Benutzer, der die Aktualisierung sendet, keine E-Mail-Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
    <td> <p>Jemand hat einen Thread kommentiert, an dem ich teilnehme.</p> <p>Teilnehmer im Thread und Benutzer, die in einer Direktnachricht enthalten sind, erhalten eine E-Mail-Benachrichtigung, wenn ein Benutzer einen Kommentar im Thread abgibt.</p> <p>Benutzer müssen Zugriff auf Ansicht haben, um eine Benachrichtigung zu erhalten.</p> <p>Die folgenden Benutzer erhalten keine Benachrichtigung:</p> 
     <ul> 
      <li> <p>In einer Direktnachricht enthaltene Teams</p> </li> 
-     <li> <p>Eigentümer der Notiz</p> </li> 
+     <li> <p>Der Eigentümer der Notiz</p> </li> 
      <li> <p>Der Primäre Kontakt</p> </li> 
     </ul> </td> 
    <td> <p>Aktiv</p> </td> 
@@ -298,7 +298,7 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
-   <td> <p>Antwort zum Arbeitsauftrag an Auftraggeber</p> </td> 
+   <td> <p>Antwort auf eine Arbeitsanfrage an die anfragende Person</p> </td> 
    <td> <p>Wenn Benutzer auf einen Arbeitsauftrag antworten, die Person, die den Auftrag erteilt hat, per E-Mail benachrichtigen.</p> <p>Nachdem ein Benutzer eine Anforderung gesendet hat und ein anderer Benutzer auf diese Anforderung antwortet, erhält der Benutzer, der die Anforderung gesendet hat, eine E-Mail-Benachrichtigung.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn:</p> 
     <ul> 
      <li> <p>Der Benutzer, der antwortet, ist derselbe Benutzer, der die Anfrage gestellt hat</p> </li> 
@@ -372,7 +372,7 @@ Siehe auch [Benachrichtigungen: Validierungsinformationen](../../../workfront-ba
 
 ## Informationen über die mir zugewiesene Arbeit
 
-Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesene Arbeit](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgaben](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -390,26 +390,26 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesene Arbeit](
  <tbody> 
   <tr data-mc-conditions=""> 
    <td>Aufgabe</td> 
-   <td>Vorgängeraufgaben-Fertigstellung für alle abhängigen Aufgaben für zugewiesenes Team</td> 
+   <td>Fertigstellung aller Vorgängeraufgaben an Aufgabenabhängige im zugewiesesen Team</td> 
    <td> <p>Alle Vorgänger der Aufgaben des Teams sind fertig gestellt.</p> <p>Die Aufgabenempfänger (alle Mitglieder des Teams) erhalten eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td>Inaktiv</td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Vorgängeraufgaben-Fertigstellung an alle abhängigen Aufgaben</p> </td> 
+   <td> <p>Fertigstellung aller Vorgängeraufgaben an Aufgabenabhängige</p> </td> 
    <td> <p>Alle Vorgänger meiner Aufgaben sind abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Genehmigungsentscheidung für die Ausstellung, die</p> </td> 
+   <td> <p>Genehmigungsentscheidung für die Ausstellung, die zugewiesen wurde</p> </td> 
    <td> <p>Eine von mir bearbeitetes Problem wurde genehmigt oder abgelehnt.</p> <p>Der Verantwortliche eines Problems erhält eine E-Mail-Benachrichtigung, wenn eine Genehmigungsentscheidung getroffen (genehmigt oder abgelehnt) wird.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Genehmigungsentscheidung für Aufgabe zugewiesen an</p> </td> 
-   <td> <p>Wenn eine Genehmigungsaufgabe genehmigt oder abgelehnt wird, den zugewiesenen Benutzer per E-Mail benachrichtigen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe genehmigt oder abgelehnt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Eine von mir abgeschlossene Aufgabe wird genehmigt oder abgelehnt.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe genehmigt oder abgelehnt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -420,44 +420,44 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesene Arbeit](
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Das geplante Abschlussdatum für das Problem hat sich geändert</p> </td> 
+   <td> <p>Geplantes Abschlussdatum für Problem hat sich geändert</p> </td> 
    <td> <p>Das Fälligkeitsdatum eines Problems, dem ich zugewiesen bin, ändert sich.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich das geplante Abschlussdatum ändert, es sei denn, der Benutzer, der das geplante Abschlussdatum geändert hat, ist auch der Verantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus etwas Anderes als die Planung ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Statusänderung des Problems in „Problem zugewiesen an“</p> </td> 
-   <td> <p>Die Statusänderungen eines meiner Arbeitselemente.</p> <p>Der Bevollmächtigte des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Status ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Bevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Statusänderung eines Problems an Problem zugeweisen zu</p> </td> 
+   <td> <p>Der Status eines mir zugewiesenen Problems ändert sich.</p> <p>Der Bevollmächtigte des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Status ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Bevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
-   <td> <p>Dokumentanfrage hinzugefügt zu Problem zugewiesen an</p> </td> 
-   <td> <p>Dokumente zu meiner Anfrage werden hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"lautet und für das Projekt auf der Registerkarte "Warteschlangeneinstellungen"die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
+   <td> <p>Dokument zu Anfrage hinzugefügt an Problem zugewiesen zu</p> </td> 
+   <td> <p>Dokumente zu einer mir zugewiesenen Anfrage werden hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Aufgabenabschluss an "Aufgabe zugewiesen zu"</p> </td> 
-   <td> <p>Nach Abschluss einer Aufgabe den zugewiesenen Benutzer per E-Mail benachrichtigen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe abgeschlossen ist. Nach Abschluss einer persönlichen Aufgabe werden keine Benachrichtigungen gesendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit der Lizenz "Review"oder "Anforderer"erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Eine mir zugewiesene Aufgabe ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe abgeschlossen ist. Nach Abschluss einer persönlichen Aufgabe werden keine Benachrichtigungen gesendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit der Lizenz "Review"oder "Anforderer"erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Aufgabenabschluss an Benutzer mit abhängigen Aufgaben</p> </td> 
+   <td> <p>Fertigstellung einer Vorgängeraufgabe an Aufgabenabhängige</p> </td> 
    <td> <p>Ein Vorgänger einer meiner Aufgaben ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn einer der Vorgänger seiner Aufgabe abgeschlossen ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Geplantes Abschlussdatum für die Aufgabe hat sich geändert</p> </td> 
+   <td> <p>Geplantes Abschlussdatum für Aufgabe hat sich geändert</p> </td> 
    <td> <p>Den zugewiesenen Benutzer per E-Mail benachrichtigen, wenn sich das geplante Abschlussdatum der Aufgabe ändert.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich das geplante Abschlussdatum der Aufgabe ändert, es sei denn, der Benutzer, der das geplante Abschlussdatum geändert hat, ist auch der Aufgabenverantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus etwas Anderes als die Planung ist.</p> <p>Was persönliche Aufgaben betrifft, so wird keine Benachrichtigung gesendet.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Statusänderung in "Aufgabe zugewiesen zu"</p> </td> 
-   <td> <p>Der Status ändert sich bei einer Aufgabe, der ich zugewiesen bin.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich der Status der Aufgabe ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Verantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung. </p> </td> 
+   <td> <p>Statusänderung einer Aufgabe an Aufgabe zugeweisen zu</p> </td> 
+   <td> <p>Der Status einer Aufgabe, der ich zugewiesen bin, ändert sich.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich der Status der Aufgabe ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Verantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -488,7 +488,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
  <tbody> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>Änderung des Projektstatus in "aktuell" an Projektteam</p> </td> 
+   <td> <p>Statusänderung bei aktuellem Projekt an Projektteam</p> </td> 
    <td> <p>Ein Projekt, an dem ich arbeite, wird aktiv.</p> <p>Benutzer des Projekts erhalten eine E-Mail-Benachrichtigung, sobald das Projekt aktiv wird.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -500,20 +500,20 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problem hinzugefügt zu Projekt-Team</p> </td> 
+   <td> <p>Problem hinzugefügt an Projektteam</p> </td> 
    <td> <p>Einem Projekt, an dem ich mitarbeite, wurde ein Problem hinzugefügt.</p> <p>Benutzer in einem Projekt erhalten eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problem abgeschlossen an Projekt-Team</p> </td> 
+   <td> <p>Problem abgschlossen an Projektteam</p> </td> 
    <td> <p>Ein Problem in einem Projekt, an dem ich mitarbeite, wurde abgeschlossen.</p> <p>Jeder Benutzer im Projekt erhält eine Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Meilensteinaufgabe abgeschlossen an Projektteam</p> </td> 
-   <td> <p>Eine Meilensteinaufgabe ist an einem Projekt abgeschlossen, an dem ich bin.</p> <p>Alle Benutzer im Projektteam erhalten eine Benachrichtigung, wenn eine Meilensteinaufgabe abgeschlossen ist. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
+   <td> <p>Eine Meilensteinaufgabe ist an einem Projekt abgeschlossen, an dem ich arbeite.</p> <p>Alle Benutzer im Projektteam erhalten eine Benachrichtigung, wenn eine Meilensteinaufgabe abgeschlossen ist. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -524,14 +524,14 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>Projektstatus-Änderung an das Projektteam</p> </td> 
+   <td> <p>Projektstatus-Änderung an Projektteam</p> </td> 
    <td> <p>Der Status eines Projekts, an dem ich mitarbeite, hat sich geändert.</p> <p>Benutzer im Projektteam erhalten eine E-Mail-Benachrichtigung, wenn sich der Status des Projekts ändert. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projektbenutzer</p> </td> 
    <td> <p>Projektbenutzer hinzugefügt an Projektbenutzer</p> </td> 
-   <td> <p>Wenn ein Benutzer einem Projektteam hinzugefügt wird, den Benutzer per E-Mail informieren.</p> <p>Der Benutzer, der zum Projekt hinzugefügt wurde, erhält beim Hinzufügen eine E-Mail-Benachrichtigung, es sei denn, der Benutzer wurde zum Projekt selbst hinzugefügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
+   <td> <p>Ich werde einem Projektteam hinzugefügt.</p> <p>Der Benutzer, der zum Projekt hinzugefügt wurde, erhält beim Hinzufügen eine E-Mail-Benachrichtigung, es sei denn, der Benutzer wurde zum Projekt selbst hinzugefügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -542,7 +542,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Hinzufügung von nicht zugewiesenem Problem zu Projekt-Team</p> </td> 
+   <td> <p>Nicht zugewiesenes Problem hinzugefügt an Projektteam</p> </td> 
    <td> <p>Einem Projekt, an dem ich mitarbeite, wurde ein nicht zugewiesenes Problem hinzugefügt.</p> <p>Benutzer eines Projekts erhalten eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem ohne Zuweisung hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -551,7 +551,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
 
 ## Informationen über Projekte, die ich besitze
 
-Siehe auch [Benachrichtigungen: Informationen über Projekte, die ich besitze](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich besitze](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -575,50 +575,50 @@ Siehe auch [Benachrichtigungen: Informationen über Projekte, die ich besitze](.
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problem hinzugefügt zu Projektbesitzerin bzw. -besitzer</p> </td> 
+   <td> <p>Problem hinzugefügt an Problembesitzer</p> </td> 
    <td> <p>Ein Problem wird einem Projekt in meinem Besitz hinzugefügt.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Änderung des Verpflichtungsdatums für ein Problem an Projektbesitzerin bzw. -besitzer</p> </td> 
-   <td> <p>Das Verpflichtungsdatum ändert sich für ein Problem in einem meiner Projekte.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn sich das Veröffentlichungsdatum für ein Problem im Projekt ändert, es sei denn, der Benutzer, der das Veröffentlichungsdatum ändert, ist derselbe Benutzer wie der Projekteigentümer.</p> </td> 
+   <td> <p>Änderung des Verpflichtungsdatums für ein Problem an Problembesitzer</p> </td> 
+   <td> <p>Das Verpflichtungsdatum ändert sich bei einem der Projekte, dessen Besitzer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn sich das Veröffentlichungsdatum für ein Problem im Projekt ändert, es sei denn, der Benutzer, der das Veröffentlichungsdatum ändert, ist derselbe Benutzer wie der Projekteigentümer.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Abgeschlossenes Problem an Projektbesitzerin bzw. -besitzer</p> </td> 
+   <td> <p>Problem abgeschlossen an Problembesitzer</p> </td> 
    <td> <p>Ein Problem, in einem Projekt, dessen Besitzerin bzw. Besitzer ich bin, wurde abgeschlossen.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Abgeschlossene Meilensteinaufgabe an Projektbesitzer.</p> </td> 
-   <td> <p>Eine Meilensteinaufgabe wird an einem Projekt abgeschlossen, das ich besitze.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
+   <td> <p>Ein Meilenstein in einem Projekt, dessen Besitzer ich bin, ist abgeschlossen.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
    <td> <p>Projektbesitzer-Zuweisung an Projektbesitzer</p> </td> 
-   <td> <p>Ich bin bei einem neuen Projekt als Besitzer festgelegt.</p> <p>Wenn ein Benutzer als Eigentümer eines Projekts zugewiesen wird, erhält er eine E-Mail-Benachrichtigung.</p> <p>Wenn der Projekteigentümer derselbe Benutzer ist, der die Zuweisung vorgenommen hat, wird keine E-Mail-Benachrichtigung gesendet</p> </td> 
+   <td> <p>Ich bin bei einem neuen Projekt als Besitzer festgelegt.</p> <p>Wenn ein Benutzer als Eigentümer eines Projekts zugewiesen wird, erhält er eine E-Mail-Benachrichtigung.</p> <p>Wenn der Projektinhaber derselbe Benutzer ist, der die Zuweisung vorgenommen hat, wird keine E-Mail-Benachrichtigung gesendet</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>Änderung des Projektstatus dem Projektbesitzer melden</p> </td> 
+   <td> <p>Änderung des Projektfortschritts an Projektbesitzer</p> </td> 
    <td> <p>Ein Projekt, das ich besitze, kommt zurück.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn das Projekt verspätet ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Änderung des Commit-Datums für eine Aufgabe an Projektbesitzer</p> </td> 
+   <td> <p>Änderung des Verpflichtungsdatums für eine Aufgabe an Projektbesitzer</p> </td> 
    <td> <p>Den Projektbesitzer per E-Mail benachrichtigen, wenn sich das Commit-Datum einer Aufgabe ändert.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn sich das Veröffentlichungsdatum für eine Aufgabe im Projekt ändert, es sei denn, der Benutzer, der das Veröffentlichungsdatum geändert hat, ist auch Projektinhaber.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Abgeschlossene Aufgabe an Projektbesitzer</p> </td> 
-   <td> <p>Eine Aufgabe wird an einem Projekt abgeschlossen, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine Benachrichtigung. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
+   <td> <p>Eine Aufgabe in einem Projekt, dessen Besitzer ich bin, ist abgeschlossen.</p> <p>Der Projekteigentümer erhält eine Benachrichtigung. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -629,8 +629,8 @@ Siehe auch [Benachrichtigungen: Informationen über Projekte, die ich besitze](.
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Nicht zugewiesenes Problem hinzugefügt zu Projektbesitzerin bzw. -besitzer</p> </td> 
-   <td> <p>Ein nicht zugewiesenes Problem wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein nicht zugewiesenes Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Nicht zugewiesenes Problem hinzugefügt an Problembesitzer</p> </td> 
+   <td> <p>Ein nicht zugewiesenes Problem wird zu einem Projekt, dessen Besitzer ich bin, hinzugefügt.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein nicht zugewiesenes Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -638,7 +638,7 @@ Siehe auch [Benachrichtigungen: Informationen über Projekte, die ich besitze](.
 
 ## Informationen zu den von mir geförderten Projekten
 
-Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projekten](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich sponsere](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -656,13 +656,13 @@ Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projek
  <tbody> 
   <tr> 
    <td> <p>Dokument</p> </td> 
-   <td> <p>Dokument hinzugefügt an Projektsponsor</p> </td> 
+   <td> <p>Problem hinzugefügt an Projektsponsor</p> </td> 
    <td> <p>Ein Dokument wird zu einem Projekt hinzugefügt, das ich sponsere.</p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein Dokument hinzugefügt wird, es sei denn, das Dokument wird vom Projektsponsor hinzugefügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus Aktuell ist und das Dokument nicht Privat ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problem hinzugefügt zu Projekt-Sponsor</p> </td> 
+   <td> <p>Problem hinzugefügt an Projektsponsor</p> </td> 
    <td> <p>Ein Problem wird zu einem Projekt hinzugefügt, dessen Sponsor ich bin.</p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -674,7 +674,7 @@ Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projek
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Abschluss einer Meilensteinaufgabe (Nachricht an Projektsponsor)</p> </td> 
+   <td> <p>Abschluss einer Meilenstein-Aufgabe an Projektsponsor</p> </td> 
    <td> <p>Eine Meilensteinaufgabe wird an einem Projekt abgeschlossen, das ich sponsere.</p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn eine Meilensteinaufgabe an einem von ihm geförderten Projekt abgeschlossen wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -692,7 +692,7 @@ Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projek
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
-   <td> <p>Aufgabe abgeschlossen (Nachricht an Projektsponsor)</p> </td> 
+   <td> <p>Aufgabe abgeschlossen an Projektsponsor</p> </td> 
    <td> <p>Eine Aufgabe wird an einem Projekt abgeschlossen, das ich sponsere.</p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -704,7 +704,7 @@ Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projek
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Nicht zugewiesenes Problem hinzugefügt zu Projekt-Sponsor</p> </td> 
+   <td> <p>Nicht zugewiesenes Problem hinzugefügt an Projektsponsor</p> </td> 
    <td> <p>Ein nicht zugewiesenes Problem wird zu einem Projekt hinzugefügt, dessen Sponsor ich bin.</p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein nicht zugewiesenes Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -713,7 +713,7 @@ Siehe auch [Benachrichtigungen: Informationen zu den von mir geförderten Projek
 
 ## Verschiedene Informationen
 
-Siehe auch [Benachrichtigungen: Verschiedene Informationen](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -731,13 +731,13 @@ Siehe auch [Benachrichtigungen: Verschiedene Informationen](../../../workfront-b
  <tbody> 
   <tr> 
    <td>Ankündigung</td> 
-   <td> <p>Ankündigung wurde hinzugefügt.</p> </td> 
+   <td> <p>Ankündigng wurde hinzugefügt.</p> </td> 
    <td> <p>Es wird eine Nachricht an das Announcement Center gesendet.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
-   <td> <p>Rücknahme der Dokumentanforderung an Ersuchten</p> </td> 
+   <td> <p>Stornierung der Dokumentanfrage an angefragte Person</p> </td> 
    <td> <p>Abbrechen einer Anfrage zum Hochladen von Dokumenten von mir.</p> <p>Die Dokumentanforderung erhält eine E-Mail-Benachrichtigung, wenn eine Dokumentanforderung abgebrochen wird.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -750,25 +750,25 @@ Siehe auch [Benachrichtigungen: Verschiedene Informationen](../../../workfront-b
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Problemzuweisung an Ressourcenbesitzerin bzw. -besitzer</p> </td> 
-   <td> <p>Eine Änderung bei einer Problemzuweisung wirkt sich auf mein Team aus.</p> <p>Der Problemverantwortliche-Manager erhält eine E-Mail-Benachrichtigung, wenn sich eine Änderung auf einen von ihm verwalteten Benutzer auswirkt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
+   <td> <p>Problemzuweisung an Ressourcenbesitzer</p> </td> 
+   <td> <p>Eine Änderung bei einer Problemzuweisung wirkt sich auf mein Team aus.</p> <p>Der Problemverantwortliche-Manager erhält eine E-Mail-Benachrichtigung, wenn eine Änderung einen von ihm verwalteten Benutzer betrifft.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Benutzerin oder Benutzer</p> </td> 
    <td> <p>Neuer Benutzer an Benutzer</p> </td> 
-   <td> <p>Wenn ein neuer Benutzer in Workfront erstellt wird, den Benutzer per E-Mail informieren.</p> <p>Nachdem der neue Benutzer erstellt wurde, erhält er eine Einladung in eine E-Mail, in der er darüber informiert wird, dass ein Workfront-Konto erstellt wurde, und er aufgefordert wird, sein Kennwort festzulegen.</p> <p>Bei der Erstellung eines neuen Benutzers können Benutzer die Option "Einladungs-E-Mail an diese Person senden"auswählen (siehe Beschreibung unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a><span style="font-weight: 400;">). Wenn jedoch die Option "Neuer Benutzer für Benutzer"global aktiviert ist, erhalten alle neuen Benutzer die Einladung per E-Mail, unabhängig davon, ob die Option "Einladungs-E-Mail an diese Person senden"ausgewählt ist.</span></p> </td> 
+   <td> <p>Wenn ein neuer Benutzer in Workfront erstellt wird, den Benutzer per E-Mail informieren.</p> <p>Nachdem der neue Benutzer erstellt wurde, erhält er eine Einladung in eine E-Mail, in der er darüber informiert wird, dass ein Workfront-Konto erstellt wurde, und er aufgefordert wird, sein Kennwort festzulegen.</p> <p>Bei der Erstellung eines neuen Benutzers können Benutzer die Option "Einladungs-E-Mail an diese Person senden"auswählen (siehe <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a><span style="font-weight: 400;">). Wenn jedoch die Option "Neuer Benutzer für Benutzer"global aktiviert ist, erhalten alle neuen Benutzer die Einladung per E-Mail, unabhängig davon, ob die Option "Einladungs-E-Mail an diese Person senden"ausgewählt ist.</span></p> </td> 
    <td> Inaktiv </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
-   <td> <p>Objektfreigabe für Team</p> </td> 
+   <td> <p>Objektfreigabe an Team</p> </td> 
    <td> <p>Jemand hat ein Objekt für mein Team freigegeben.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Benutzerin oder Benutzer</p> </td> 
-   <td> <p>Objektfreigabe für Benutzer</p> </td> 
+   <td> <p>Objektfreigabe an Benutzer</p> </td> 
    <td> <p>Jemand hat ein Objekt für mich freigegeben.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -813,7 +813,7 @@ Siehe auch [Benachrichtigungen: Delegation](../../../workfront-basics/using-noti
 
 | Objekttyp | Ereignis | Beschreibung | Standardstatus |
 |------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Aufgaben und Probleme | Delegierung von Aufgab und Problem an Beauftragten | Ich delegiere meine Aufgaben und Probleme (Bestätigung) | Aktiv |
-| Aufgaben und Probleme | Delegierung von Aufgabe und Problem an Beauftragten beenden | Ich beende die Übertragung meiner Aufgaben und Probleme (Bestätigung) | Aktiv |
+| Aufgaben und Probleme | Delegierung von Aufgaben und Problemen an Beauftragenden | Ich delegiere meine Aufgaben und Probleme (Bestätigung) | Aktiv |
+| Aufgaben und Probleme | Beendigung der Delegierung von Aufgaben und Problemen an Beauftragenden | Ich beende die Delegierung meiner Aufgaben und Probleme (Bestätigung) | Aktiv |
 | Aufgaben und Probleme | Delegierung von Aufgaben und Problemen an Beauftragten | Jemand delegiert Aufgaben und Probleme an mich. | Aktiv |
 | Aufgaben und Probleme | Anhalten von Aufgaben und Delegieren von Aufgaben zur Delegierung | Jemand beendet die Delegierung von Aufgaben und Problemen an mich. | Aktiv |

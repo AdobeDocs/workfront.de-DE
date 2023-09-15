@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 701b3c95929259cc01b97866b61a8c4c680ee5a7
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '13340'
+source-wordcount: '13338'
 ht-degree: 1%
 
 ---
@@ -863,7 +863,7 @@ ht-degree: 1%
    * Benachrichtigungen verwenden {#use-notifications}
       * [Benachrichtigungen verwenden](workfront-basics/using-notifications/use-notifications.md)
       * [Adobe Workfront-Benachrichtigungen](workfront-basics/using-notifications/wf-notifications.md)
-      * [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [Ihre eigenen E-Mail-Benachrichtigungen ändern](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Abonnieren von Elementen in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [Übersicht über In-App-Benachrichtigungen](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [Anzeigen und Verwalten von In-App-Benachrichtigungen](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)

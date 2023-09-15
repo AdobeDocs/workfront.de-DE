@@ -6,9 +6,9 @@ description: Empfangen [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-Nach der Installation [!DNL Adobe Workfront for Slack]können Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack].\
+Nach der Installation [!DNL Adobe Workfront for Slack], können Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack].\
 Informationen zur Installation [!DNL Workfront for Slack], siehe [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 Sie können eine bestimmte Anzahl von [!UICONTROL Benachrichtigungen] die in der Benachrichtigungsblase im [!DNL Workfront] -Schnittstelle, die auch in bereitgestellt werden soll [!DNL Slack].
@@ -48,7 +48,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Bevor Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack], müssen Sie
+Bevor Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack]müssen Sie
 
 * Konfigurieren [!DNL Workfront for Slack]\
    Anweisungen zum Konfigurieren von [!DNL Workfront for Slack], siehe [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
@@ -71,27 +71,27 @@ Bevor Sie [!DNL Workfront] Benachrichtigungen in [!DNL Slack], müssen Sie
 
    * [!UICONTROL Ich habe eine neue Aufgabe oder ein neues Problem.]
    * [!UICONTROL Mein Team wird einer neuen Aufgabe oder einem neuen Problem zugewiesen]
-   * [!UICONTROL Ich erhalte eine neue Genehmigungs- oder Zugriffsanfrage]
-   * [!UICONTROL Jemand hat mich in die direkte Aktualisierung einbezogen]
+   * [!UICONTROL Ich erhalte eine neue Genehmigungs- oder Zugriffsanfrage.]
+   * [!UICONTROL Jemand bezieht mich in eine gezielte Aktualisierung ein]
    * [!UICONTROL Jemand hat einen Thread kommentiert, an dem ich teilnehme]
-   * [!UICONTROL Für eine Aufgabe, ein Problem oder ein Projekt wird ein Update durchgeführt.]
+   * [!UICONTROL Für eine Aufgabe, ein Problem oder ein Projekt, das von mir abonniert ist, wird ein Update durchgeführt]
    * [!UICONTROL Jemand kommentiert eines meiner Arbeitselemente]
    * [!UICONTROL Jemand kommentiert meinen Hilfeantrag]
 
    Die Änderungen, die Sie an den [!UICONTROL Benachrichtigungen] werden sofort wirksam.\
-   Die Benachrichtigungen, die Sie aktiviert haben, werden im Abschnitt [!DNL Workfront] [!DNL Slack] -Kanal. Wenn Sie Benachrichtigungen hier deaktivieren, werden sie nur für [!DNL Slack]und nicht für die [!DNL Workfront] -Schnittstelle. Sie erhalten sie weiterhin im [!DNL Workfront] Benachrichtigungen werden oben rechts in der Benutzeroberfläche angezeigt.
+   Die von Ihnen aktivierten Benachrichtigungen werden im Abschnitt [!DNL Workfront] [!DNL Slack] -Kanal. Wenn Sie Benachrichtigungen hier deaktivieren, werden sie nur für [!DNL Slack]und nicht für die [!DNL Workfront] -Schnittstelle. Sie erhalten sie weiterhin im [!DNL Workfront] Benachrichtigungen werden oben rechts in der Benutzeroberfläche angezeigt.
 
 ## Verwalten [!DNL Workfront] Benachrichtigungen von [!DNL Slack]
 
 Sie können empfangen und beantworten [!DNL Workfront] Benachrichtigungen von [!DNL Slack].
 
 Sie können E-Mail-Benachrichtigungen für Benachrichtigungen deaktivieren, die Sie in [!DNL Slack], um sicherzustellen, dass Sie keine doppelten Benachrichtigungen erhalten.\
-Informationen zur Konfiguration Ihrer E-Mail-Benachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Informationen zur Konfiguration Ihrer E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Aktivieren oder Deaktivieren [!DNL Workfront] Benachrichtigungen in [!DNL Slack] wirkt sich nicht auf die Benachrichtigungen aus, die Sie innerhalb der [!DNL Workfront] -Schnittstelle.\
 Benachrichtigungen innerhalb der [!DNL Workfront] -Schnittstelle kann nicht deaktiviert werden.
 
-So verwalten Sie [!DNL Workfront] Benachrichtigungen für [!DNL Slack]:
+So verwalten Sie Ihre [!DNL Workfront] Benachrichtigungen für [!DNL Slack]:
 
 1. Anmelden bei [!UICONTROL Slack].
 1. Anmelden bei [!DNL Workfront] von [!DNL Slack].\
@@ -103,7 +103,7 @@ So verwalten Sie [!DNL Workfront] Benachrichtigungen für [!DNL Slack]:
 1. Navigieren Sie zu **[!DNL Workfront]** Kanal zum Auffinden Ihrer [!DNL Workfront] Benachrichtigungen.
 1. (Bedingt und optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken **[!UICONTROL Arbeiten daran]** , um zu akzeptieren, an einer Aufgabe zu arbeiten.
+   * Klicks **[!UICONTROL Arbeiten daran]** , um zu akzeptieren, an einer Aufgabe zu arbeiten.
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Antwort in[!DNL Workfront]]** Um auf einen Kommentar zu antworten, geben Sie Ihre Antwort ein und klicken Sie auf **[!UICONTROL Antwort]**.
 
@@ -111,9 +111,9 @@ So verwalten Sie [!DNL Workfront] Benachrichtigungen für [!DNL Slack]:
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
-      Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
-      Nur der genehmigte Slack [Dateitypen](https://api.slack.com/types/file) kann in der Vorschau angezeigt werden.
+     Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
+      Nur die genehmigte Slack [Dateitypen](https://api.slack.com/types/file) -Vorschau angezeigt werden.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Förderung]** oder **[!UICONTROL Ignorieren]** , um die Anforderung eines weiteren Zugriffs von einem anderen Benutzer zu erteilen oder zu ignorieren.\
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Zuschuss]** oder **[!UICONTROL Ignorieren]** , um die Anforderung eines weiteren Zugriffs von einem anderen Benutzer zu erteilen oder zu ignorieren.\
 
-      Sie erhalten eine Bestätigung, dass Ihre Aktion in [!DNL Workfront]für jede Entscheidung, die Sie in Ihren Benachrichtigungen treffen.
+     Sie erhalten eine Bestätigung, dass Ihre Aktion in [!DNL Workfront]für jede Entscheidung, die Sie in Ihren Benachrichtigungen treffen.

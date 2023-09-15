@@ -5,9 +5,9 @@ title: Anzeigen und Verwalten [!DNL Adobe Workfront] Benachrichtigungen in Adobe
 description: Sie können Benachrichtigungen in Adobe Creative Cloud von [!DNL Adobe Workfront] über Elemente, die Sie genehmigen müssen, Zuweisungen, Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Benachrichtigungen sind in den folgenden Adobe Creative Cloud-Apps verfügbar:
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] -Lizenz.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Benachrichtigungen sind in den folgenden Adobe Creative Cloud-Apps verfügbar:
 
 {{cc-install-prereq}}
 
-* Sie haben sofortige Benachrichtigungen in [!DNL Workfront]. Informationen zum Aktivieren von Sofortbenachrichtigungen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Sie haben sofortige Benachrichtigungen in [!DNL Workfront]. Informationen zum Aktivieren von Sofortbenachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Anzeigen und Verwalten [!DNL Workfront] Benachrichtigungen in Adobe Creative Cloud
 

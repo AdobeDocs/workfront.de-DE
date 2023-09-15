@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Benachrichtigungen: Ziele"'
-description: '''Benachrichtigungen: Ziele"'
+title: 'Benachrichtigungen: Ziele'
+description: 'Benachrichtigungen: Ziele'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
 
 # Benachrichtigungen: Ziele
 
-Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!DNL Adobe Workfront Goals] in Ihrem Profil. Ein Benutzer mit [!UICONTROL Plan] -Lizenz können sie auch für andere Benutzer aktivieren. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse in [!DNL Adobe Workfront Goals] in Ihrem Profil. Ein Benutzer mit [!UICONTROL Plan] -Lizenz können sie auch für andere Benutzer aktivieren. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Zugriffsanforderungen
 
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf [!UICONTROL Ansicht] [!DNL Goals] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Ansicht] [!DNL Goals] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -57,12 +57,12 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Der Benutzer, dessen [!DNL Goals] -Benachrichtigungen werden aktualisiert und müssen Folgendes aufweisen:
+Der Benutzer, [!DNL Goals] -Benachrichtigungen werden aktualisiert und müssen Folgendes aufweisen:
 
 * Eine Layout-Vorlage mit [!DNL Goals] -Gebiet [!UICONTROL Hauptmenü].
 * Zugriff auf die neuen [!DNL Adobe Workfront] Erlebnis.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: we need this here because you can see these notifications from Classic)
   </MadCap:conditionalText>
@@ -70,7 +70,7 @@ Der Benutzer, dessen [!DNL Goals] -Benachrichtigungen werden aktualisiert und m�
 
 ## [!DNL Goals] Benachrichtigungen in [!UICONTROL Benutzerprofil] area
 
-Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie über Ereignisse in [!DNL Workfront Goals], z. B. eine Person, die Ihnen ein Ziel, ein Ergebnis oder eine Aktivität zuweist oder eine Person, die ein Update für ein Ziel, ein Ergebnis oder eine Aktivität vornimmt, deren Inhaber Sie sind. Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie über Ereignisse in [!DNL Workfront Goals], z. B. eine Person, die Ihnen ein Ziel, ein Ergebnis oder eine Aktivität zuweist oder eine Person, die ein Update für ein Ziel, ein Ergebnis oder eine Aktivität vornimmt, deren Inhaber Sie sind. Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 

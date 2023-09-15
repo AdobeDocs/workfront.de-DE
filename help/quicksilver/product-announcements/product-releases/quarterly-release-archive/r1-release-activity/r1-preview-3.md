@@ -6,9 +6,9 @@ description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vo
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Übersicht ü
 
 ## Verbesserte Methode zum Verknüpfen externer Dateien
 
-Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox usw.) befindet sich jetzt an einer auffälligeren Stelle im Bereich &quot;Dokumente&quot;. 
+Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox) befindet sich jetzt an einer auffälligeren Stelle im Bereich &quot;Dokumente&quot;. 
 
 Darüber hinaus ist die erstmalige Autorisierung eines Dokumentanbieters vor der Verknüpfung von Dateien von diesem Anbieter nun intuitiver (es handelt sich lediglich um einen zusätzlichen Schritt bei der Verknüpfung von Dateien von einem externen Anbieter).
 
@@ -49,12 +49,12 @@ Das aktualisierte Team, das am Kalender arbeitet, enthält die folgenden Verbess
 Unterschiede zum Ressourcen-Planungstool bei der Planung von Ressourcen für Projekte:
 
 * Alle Teammitglieder werden im Team angezeigt, das am Kalender arbeitet.\
-   Beim Planen von Ressourcen für Projekte werden nur Benutzer angezeigt, denen eine Rolle zugeordnet ist, die mit einer Rolle übereinstimmt, die einer oder mehreren Aufgaben im Bereich Nicht zugewiesen zugewiesen zugewiesen zugewiesen ist.
+  Beim Planen von Ressourcen für Projekte werden nur Benutzer angezeigt, denen eine Rolle zugeordnet ist, die mit einer Rolle übereinstimmt, die einer oder mehreren Aufgaben im Bereich Nicht zugewiesen zugewiesen zugewiesen zugewiesen ist.
 * Das Swap-Tool ist nicht im Team, das am Kalender arbeitet, enthalten.
 * Jedes Teammitglied kann Änderungen am Team vornehmen, das am Kalender arbeitet.\
-   Beim Planen von Ressourcen für Projekte können nur Ressourcen-Manager Ressourcenentscheidungen für das Projekt treffen.
+  Beim Planen von Ressourcen für Projekte können nur Ressourcen-Manager Ressourcenentscheidungen für das Projekt treffen.
 * Probleme werden standardmäßig im Team angezeigt, das am Kalender arbeitet.\
-   Beim Planen von Ressourcen für Projekte werden Probleme nicht standardmäßig angezeigt.
+  Beim Planen von Ressourcen für Projekte werden Probleme nicht standardmäßig angezeigt.
 
 Weitere Informationen zur Verwendung des aktualisierten Teams, das am Kalender arbeitet, finden Sie unter &quot;Ressourcenplanung&quot;.
 
@@ -77,7 +77,7 @@ Vor dieser Änderung kontrollierte der Filter nur, welche Aufgaben und Probleme 
 
 Weitere Informationen zur Verwendung des Filters zur Steuerung der Anzeige in der Zeitleiste der Planung finden Sie unter &quot;Informationen im Planungsbereich filtern&quot;und &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
-### Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline {#users-remain-on-the-timeline-after-being-assigned-a-task}
+### Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline. {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
 Benutzer verbleiben auf der Planung, nachdem ihnen eine Aufgabe oder ein Problem zugewiesen wurde, selbst wenn keine weiteren Aufgaben oder Probleme mit einer übereinstimmenden Rollenzuweisung vorhanden sind. Auf diese Weise können Sie alle erforderlichen Änderungen vornehmen, nachdem Benutzer zugewiesen wurden.
 
@@ -85,7 +85,7 @@ Vor dieser Änderung verschwanden die Benutzer unmittelbar nach der Zuweisung ei
 
 Weitere Informationen finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
-## Anpassen der Workfront-Terminologie durch Ändern von Objektnamen
+## Workfront-Terminologie durch Ändern von Objektnamen anpassen
 
 Sie können jetzt die Workfront-Terminologie anpassen, indem Sie die Namen bestimmter Objekte ändern.\
 Mithilfe einer Layout-Vorlage können Sie jetzt die Namen der folgenden Arbeitsobjekte an die Anforderungen in Ihrer Organisation anpassen:
@@ -132,7 +132,7 @@ Mit diesen Feldern erhalten Sie einen Einblick in den Beginn des aktuellen oder 
 
 Weitere Informationen zu diesen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Weitere Informationen zu Validierungspfaden, ihrer Erstellung und Auslösung sowie zu den Funktionen, die sie in Genehmigungsprozessen verwenden, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Weitere Informationen zu Validierungspfaden, deren Erstellung und Auslösung sowie zu den Funktionen, die sie in Genehmigungsprozessen verwenden, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Berichte aufgenommen werden (diese Felder enthielten Informationen zum Projekt und nicht Informationen über die Genehmigungen selbst, und wurden häufig falsch verwendet):
 
@@ -144,7 +144,7 @@ Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Ber
 
 Die Option Täglicher Digest-Versand wurde zum Bereich &quot;Anforderungen, die ich durchgeführt habe&quot;in Ihren Benachrichtigungseinstellungen hinzugefügt.
 
-Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
@@ -161,7 +161,7 @@ Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisiere
 Die Meilensteinansicht, die beim Anzeigen einer Projektliste oder eines Projektberichts verfügbar ist, enthält jetzt die folgenden Verbesserungen:
 
 * Geplante Datumswerte können bearbeitet werden
-* Prozentualer Abschluss für Projekte und Aufgaben wird angezeigt
+* Prozent abgeschlossen für Projekte und Aufgaben wird angezeigt
 
 Vor dieser Änderung mussten Sie zur Änderung der Daten oder zum Anzeigen des Prozentsatzes zum Abschluss der einzelnen Aufgaben gehen.
 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,16 @@ Um die Lesbarkeit und das Gesamterlebnis zu verbessern, haben die folgenden E-Ma
 * Eine abhängige Aufgabe, der Sie zugewiesen sind, kann jetzt gestartet werden
 * Team-E-Mail-Benachrichtigung mit Vorgänger-Abschluss
 
-Informationen zum Aktivieren von E-Mails für Testzwecke in Ihrer Vorschauumgebung finden Sie im Abschnitt E-Mails in der Vorschau verwalten unter [Aktivieren oder Deaktivieren Ihrer eigenen Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Informationen zum Aktivieren von E-Mails für Testzwecke in Ihrer Vorschauumgebung finden Sie im Abschnitt E-Mails in der Vorschau verwalten unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Neue E-Mail-Benachrichtigungen für Teams
 
 Wir haben die folgende E-Mail-Benachrichtigung für Teams hinzugefügt:
 
 * Ein Vorgänger einer Aufgabe, die meinem Team zugewiesen wurde, ist abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung, wenn ein Vorgänger einer seiner Aufgaben als abgeschlossen markiert wurde.
-* Alle Vorgänger einer Aufgabe, die meinem Team zugewiesen ist, sind abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung für jeden Vorgänger, der als abgeschlossen gekennzeichnet ist.
+* Alle Vorgänger einer Aufgabe, die meinem Team zugewiesen wurde, sind abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung für jeden Vorgänger, der als abgeschlossen gekennzeichnet ist.
 
-Weitere Informationen finden Sie unter [Benachrichtigungen: Informationen über die mir zugewiesene Arbeit](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Weitere Informationen finden Sie unter [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgaben](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 ## Neu für Administratoren: Verbesserungen bei E-Mail-Benachrichtigungen
 
@@ -67,4 +67,4 @@ Diese Funktion ist jetzt im [Lernpfad für E-Mail- und In-App-Benachrichtigungen
 
 Zwei neue API-Objekte, documentVersion und proofApproval, wurden erstellt und sind so konfiguriert, dass Trigger-Abonnementaktualisierungen durchgeführt werden, wenn ein Dokument versioniert oder genehmigt wird.
 
-Eine vollständige Liste der mit den einzelnen Objekten verknüpften Felder finden Sie unter [Ressourcen für Ereignisabonnements](../../../wf-api/api/event-sub-resource-fields.md).
+Eine vollständige Liste der Felder, die mit den einzelnen Objekten verknüpft sind, finden Sie unter [Ressourcen-Felder für Ereignisabonnements](../../../wf-api/api/event-sub-resource-fields.md).
