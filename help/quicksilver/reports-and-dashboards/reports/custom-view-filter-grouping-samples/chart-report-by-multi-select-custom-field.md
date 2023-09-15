@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen
-description: Sie können einen Bericht nicht nach einem benutzerdefinierten Mehrfachfeld ordnen. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
+description: Sie können einen Bericht nur dann anhand eines benutzerdefinierten Mehrfachfelds grafisch darstellen, wenn Sie ein zusätzliches berechnetes Feld erstellt haben, das die im benutzerdefinierten Mehrfachfeld ausgewählten Optionen erfasst.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,24 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Sie können einen Bericht nicht nach einem benutzerdefinierten Mehrfachfeld ordnen. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
+Anstatt ein Diagramm mit einem benutzerdefinierten Mehrfachfeld zu erstellen, empfehlen wir, für jede Option eines benutzerdefinierten Mehrfachfelds separate Felder zu erstellen.
+
+Beispiele für benutzerdefinierte Mehrfachauswahl-Felder:
+
+* Kontrollkästchen
+* Dropdown-Menüs mit Mehrfachauswahl
+
+Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+Wenn es jedoch nicht möglich ist, für jede Option eines Mehrfachauswahlfelds separate Felder zu verwenden, können Sie einen Bericht nach einem benutzerdefinierten Feld mit Mehrfachauswahl kartieren, indem Sie berechnete benutzerdefinierte Felder verwenden, um die Optionen aus dem Mehrfachauswahlfeld zuerst zu gruppieren. Danach können Sie den Bericht nach den berechneten Feldern ordnen.
+
+>[!NOTE]
+>
+>Elemente mit einer der ausgewählten Optionen werden nur einmal gezählt.
+>
+>Wenn Sie beispielsweise über ein benutzerdefiniertes Kontrollkästchen mit Auswahl 1 und Auswahl 2 als Optionen verfügen und das Formular an Aufgaben anhängen, werden die Aufgaben mit Auswahl 1 und Auswahl 2 in einem separaten Diagrammelement angezeigt als die Aufgaben, für die nur Auswahl 1 oder Auswahl 2 ausgewählt ist.
+>
+>Aufgaben, für die Auswahl 1 ausgewählt ist, werden nicht im selben Diagrammelement angezeigt wie die Aufgaben, für die die Optionen Auswahl 1 und Auswahl 2 ausgewählt sind.
 
 ## Zugriffsanforderungen
 
@@ -51,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachfeld ausgewählten Werte anzeigt. Weitere Informationen finden Sie unter [Erstellen Sie ein berechnetes benutzerdefiniertes Feld, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist.](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
+Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachfeld ausgewählten Werte anzeigt. Weitere Informationen finden Sie unter [Erstellen Sie ein berechnetes benutzerdefiniertes Feld, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist.](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel beschrieben.
 
 ## Bericht mit Mehrfachauswahl benutzerdefinierter Felder im Diagramm darstellen
 
@@ -66,45 +83,50 @@ Sie können kein Diagramm in einem Bericht erstellen, indem Sie auf ein benutzer
 
 ### Erstellen Sie ein berechnetes benutzerdefiniertes Feld, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist. {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
 
-Um ein berechnetes Feld erstellen zu können, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist, müssen folgende Voraussetzungen erfüllt sein:
+Um ein berechnetes Feld zu erstellen, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist, müssen folgende Voraussetzungen erfüllt sein:
 
-* Erstellen Sie das benutzerdefinierte Mehrfachauswahlfeld in einem benutzerdefinierten Formular.\
-   Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Ein benutzerdefiniertes Feld mit mehreren Auswahlen in einem benutzerdefinierten Formular.\
+  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* Hängen Sie das benutzerdefinierte Formular an Objekte an.
-* Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt.
+* Ein benutzerdefiniertes Formular mit dem benutzerdefinierten Mehrfachauswahlfeld, das an Objekte angehängt ist.
+* Werte für das benutzerdefinierte Mehrfachauswahlfeld für jedes Objekt.
 
 So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist:
 
-1. Erstellen Sie ein benutzerdefiniertes Formular oder bearbeiten Sie ein vorhandenes.\
-   Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Erstellen Sie ein benutzerdefiniertes Formular oder bearbeiten Sie ein vorhandenes.
+
+   Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Wählen Sie das Objekt oder die Objekte aus, die Sie für das benutzerdefinierte Formular verwenden möchten.
-1. Klicken **Feld hinzufügen**, dann **Berechnet** , um das benutzerdefinierte Feld mit mehreren Auswahlen zum Formular hinzuzufügen.
+1. Klicks **Feld hinzufügen**, dann **Berechnet** , um das benutzerdefinierte Mehrfachauswahlfeld zum Formular hinzuzufügen.
 
-1. Im **Titel** geben Sie dem neuen berechneten Feld einen Namen, um anzugeben, dass es auf das benutzerdefinierte Feld mit mehreren Auswahlen verweist.\
+1. Im **Titel** geben Sie dem neuen berechneten Feld einen Namen, um anzugeben, dass es auf das benutzerdefinierte Feld mit mehreren Auswahlen verweist.
+
    Beispiel: &quot;Berechnetes Mehrfachauswahlfeld-Feld&quot;.
 
 1. Im **Berechnung** geben Sie folgenden Code ein:
 
-   ```
-   {DE:Multi-select Custom Field}
-   ```
+   `{DE:Multi-select Custom Field}`
+
+   Dadurch werden die im benutzerdefinierten Mehrfachfeld ausgewählten Auswahlmöglichkeiten zum berechneten Feld hinzugefügt. Wenn das Formular beispielsweise mit Aufgaben verknüpft ist und Auswahl 1 aus dem benutzerdefinierten Mehrfachfeld ausgewählt ist, zeigt das berechnete benutzerdefinierte Feld den Wert &quot;Auswahl 1&quot;an. Wenn für eine andere Aufgabe Auswahl 1 und Auswahl 2 ausgewählt sind, zeigt das berechnete benutzerdefinierte Feld den Wert &quot;Auswahl 1, Auswahl 2&quot;an.
 
 1. Ersetzen Sie &quot;Benutzerdefiniertes Feld mit Mehrfachauswahl&quot;durch den tatsächlichen Namen Ihres benutzerdefinierten Mehrfachauswahlfelds, wie er in Workfront angezeigt wird.
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Optional) Wenn sich das benutzerdefinierte Feld mit mehreren Auswahlen bereits in diesem Formular befindet und dieses Formular bereits an Objekte angehängt ist, aktivieren Sie die **Vorherige Berechnungen aktualisieren** -Option.\
-   Dadurch wird sichergestellt, dass das neue Feld automatisch mit dem Wert aus dem benutzerdefinierten Mehrfachfeld ausgefüllt wird, da es zu den Formularen hinzugefügt wird, die bereits an die Objekte angehängt sind.
+1. (Optional) Wenn sich das benutzerdefinierte Feld mit mehreren Auswahlen bereits in diesem Formular befindet und dieses Formular bereits an Objekte angehängt ist, aktivieren Sie die **Aktualisieren früherer Berechnungen (im Hintergrund)** -Option.
 
-1. Klicken **Fertig**.
-1. Klicken **Speichern +Schließen**.
+   Dadurch wird sichergestellt, dass das neue berechnete Feld automatisch mit dem Wert aus dem benutzerdefinierten Mehrfachfeld ausgefüllt wird, da es zu den Formularen hinzugefügt wird, die bereits an die Objekte angehängt sind.
+
+1. Klicks **Fertig**.
+1. Klicks **Speichern und schließen**.
+
+   Das berechnete benutzerdefinierte Feld wird dem benutzerdefinierten Formular hinzugefügt. Wenn das Formular derzeit an Objekte angehängt ist, wird das Feld mit Informationen aus dem benutzerdefinierten Mehrfachfeld gefüllt.
 
 ### Erstellen Sie ein Diagramm, das auf ein berechnetes benutzerdefiniertes Feld verweist. {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt sind, wählen Sie alle Objekte in Ihrem Bericht aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachfeld und dem berechneten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
-1. (Optional und bedingt) Aktivieren Sie die **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie auf **Änderungen speichern**.\
+1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie im Tab Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachfeld und dem berechneten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
+1. (Optional und bedingt) Wählen Sie die **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie auf **Änderungen speichern**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
@@ -113,10 +135,17 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 
 1. Rufen Sie den Bericht auf, in dem Sie die Grafik für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.
-1. Klicken **Berichtaktionen**, dann **Bearbeiten**.
+1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
 
 1. Wählen Sie die <strong>Gruppierungen</strong> Registerkarte und klicken Sie dann auf <strong>Gruppierung hinzufügen</strong>.
-1. Fügen Sie die<strong>Berechnetes Mehrfachauswahlfeld</strong> die Sie als Gruppierung erstellt haben.
-1. Wählen Sie die <strong>Diagramm</strong> und fügen Sie dem Bericht ein Diagramm hinzu.<br>Informationen zum Hinzufügen eines Diagramms zu einem Bericht finden Sie im Abschnitt <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Diagramm zu einem Bericht hinzufügen</a> im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Benutzerdefinierten Bericht erstellen</a>.
-1. Wählen Sie die <strong>Berechnetes Mehrfachauswahlfeld</strong> als eines der im Diagramm anzuzeigenden Felder.
-1. Klicken <strong>Speichern und schließen</strong>.<br>Der Bericht zeigt die Ergebnisse, die nach dem Feld für die Mehrfachauswahl mit berechneten Werten gruppiert wurden, in einer Grafik an.
+1. Fügen Sie die <strong>Berechnetes Mehrfachauswahlfeld</strong> die Sie als Gruppierung erstellt haben.
+1. Wählen Sie die <strong>Diagramm</strong> und fügen Sie dem Bericht ein Diagramm hinzu.
+
+   Wählen Sie beispielsweise eine **Spalte** Diagramm.
+   <br>Informationen zum Hinzufügen eines Diagramms zu einem Bericht finden Sie im Abschnitt . <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Diagramm zu einem Bericht hinzufügen</a> im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Benutzerdefinierten Bericht erstellen</a>.
+1. Im **Untere (X) Achse** ein, wählen Sie die <strong>Berechnetes Mehrfachauswahlfeld</strong> in der Grafik angezeigt.
+1. Klicks <strong>Speichern und schließen</strong>.
+
+   Der Bericht zeigt die Ergebnisse, die nach dem Feld für die Mehrfachauswahl mit berechneten Werten in einer Grafik gruppiert sind.
+
+   ![](assets/chart-multi-select-field-column-chart-example.png)

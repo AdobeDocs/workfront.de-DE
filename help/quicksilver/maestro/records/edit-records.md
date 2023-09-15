@@ -3,10 +3,10 @@ title: Datensätze bearbeiten
 description: Sie können Datensatzinformationen in Adobe Maestro bearbeiten. Sie müssen Datensatztypen erstellen, bevor Sie mit der Erstellung und Bearbeitung von Datensätzen beginnen können.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Wenn die bearbeiteten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln sich die neuen Informationen der bearbeiteten Datensätze in den verknüpften Datensätzen wider.
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 
+
 ## Datensätze bearbeiten
 
 Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
@@ -140,7 +141,9 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
    >[!TIP]
    >
-   >Verknüpfte Felder können nicht bearbeitet werden. Die Informationen für diese Felder werden automatisch aus den verknüpften Datensätzen ausgefüllt. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+   >* Verknüpfte Felder können nicht bearbeitet werden. Die Informationen für diese Felder werden automatisch aus den verknüpften Datensätzen ausgefüllt. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
 
 
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,7 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 * Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
 * Benutzerdefiniertes Formular bearbeiten
 * Die &quot;im Namen von &lt; Benutzername >&quot;-Informationen, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt.
+* Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
 
 >[!NOTE]
 >
