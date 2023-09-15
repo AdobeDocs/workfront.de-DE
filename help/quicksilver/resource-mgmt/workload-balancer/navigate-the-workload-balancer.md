@@ -6,9 +6,9 @@ description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Res
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
 workflow-type: tm+mt
-source-wordcount: '4048'
+source-wordcount: '4054'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
@@ -98,7 +98,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-
 ## Überlegungen zum Anzeigen von Elementen im Arbeitslastausgleich
 
 Beachten Sie Folgendes bei der Anzeige des Lastenausgleichs:
@@ -108,27 +107,25 @@ Beachten Sie Folgendes bei der Anzeige des Lastenausgleichs:
    * **Nicht zugewiesene Arbeit**: Elemente, die keine Zuweisung aufweisen oder nur Auftrags- oder Teams zugewiesen sind.
    * **Zugewiesene Arbeit**: Elemente, die mindestens einem Benutzer zugewiesen sind. Die zugewiesenen Elemente werden unter dem Namen des zugewiesenen Benutzers angezeigt.
 
-   >[!NOTE]
-   >
-   >* Elemente, die einer Job-Rolle oder einem Team zugewiesen sind und auch einem Benutzer zugewiesen sind, der der primäre Verantwortliche ist, werden nicht im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt.
-   >
-   >* Einem Benutzer zugewiesene Elemente sowie eine Auftragsrolle, bei der die Auftragsrolle als Hauptverantwortlicher des Elements ausgewählt ist, werden im Bereich Nicht zugewiesene Arbeit angezeigt.
-   >* Elemente, die mehr als einem Benutzer zugewiesen sind, werden im Bereich &quot;Zugewiesene Arbeit&quot;unter den Namen aller Benutzer angezeigt.
-
+  >[!NOTE]
+  >
+  >* Arbeitselemente, die einer Auftrags- oder Team-Rolle zugewiesen und auch einem Benutzer zugewiesen sind, der Hauptverantwortlichen ist, werden nicht im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt.
+  >* Arbeitselemente, die einem Benutzer zugewiesen sind, und Auftragsrollen, bei denen die Auftragsrolle als Hauptverantwortlicher des Elements ausgewählt ist, werden im Bereich Nicht zugewiesene Arbeit angezeigt.
+  >* Arbeitselemente, die mehr als einem Benutzer zugewiesen sind, werden unter allen Namen der zugewiesenen Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
 
 * Wenn ein Projekt während eines Zeitraums keine Aufgaben hat, wird die Leiste auf Projektebene zu einer abgeblendeten Farbe.
 
-   ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
+  ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
 
-* Wenn Sie nicht berechtigt sind, bestimmte Elemente anzuzeigen, werden sie als **Nicht verfügbare Arbeitselemente** oder **Nicht zugängliche Projekte**.
+* Wenn Sie nicht berechtigt sind, bestimmte Elemente anzuzeigen, werden sie als **Unzugängliche Arbeitselemente** oder **Nicht zugängliche Projekte**.
 
-   ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
+  ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
 
 * Die Namen der Arbeitselemente werden links und ihre Timeline rechts angezeigt.
 * Die Gesamtanzahl der geplanten Stunden für jedes Arbeitselement wird rechts neben dem Namen des Arbeitselements und links neben der Leiste angezeigt, die die Timeline des Arbeitselements darstellt.
 * Die Gesamtdauer der geplanten Stunden für jedes Projekt wird rechts neben dem Namen des Projekts und links neben der Leiste angezeigt, die die Timeline des Projekts darstellt.
 
-   Die Informationen zu den geplanten Stunden für das Projekt umfassen die Gesamtanzahl der geplanten Stunden von allen im Arbeitslastausgleich aufgelisteten Elementen und nicht die Gesamtanzahl der geplanten Stunden für das Projekt.
+  Die Informationen zu den geplanten Stunden für das Projekt umfassen die Gesamtanzahl der geplanten Stunden von allen im Arbeitslastausgleich aufgelisteten Elementen und nicht die Gesamtanzahl der geplanten Stunden für das Projekt.
 
 Weitere Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie in den folgenden Artikeln:
 
@@ -158,7 +155,7 @@ Nachdem Sie die Einstellungen ausgewählt haben, die Sie auf Ihre Ansicht anwend
 So navigieren Sie zum Arbeitslade-Balancer für mehrere Projekte:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**.
-1. Klicken **Lastenausgleich** im linken Bereich.
+1. Klicks **Lastenausgleich** im linken Bereich.
 
    ![](assets/nwe-balancer-global.png)
 
@@ -169,16 +166,17 @@ So navigieren Sie zum Arbeitslade-Balancer für mehrere Projekte:
       * Arbeitselemente (Aufgaben und Probleme), die Rollen, Teams oder nicht zugewiesenen Aufgaben zugewiesen sind, werden angezeigt, nachdem Sie Filter angewendet haben.
 Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbeitselemente angezeigt. Es wird empfohlen, Filter zu verwenden, um für Sie relevante Informationen in diesem Bereich anzuzeigen.
 
-         Informationen zur Verwendung von Filtern finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../workload-balancer/filter-information-workload-balancer.md).
+        Informationen zur Verwendung von Filtern finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../workload-balancer/filter-information-workload-balancer.md).
 
       * Projekte werden nur angezeigt, wenn Sie die Einstellung Gruppe nach Projekt aktivieren. Weitere Informationen finden Sie im Abschnitt . [Ansicht anpassen](#customize-the-view) in diesem Artikel.
+
    * Die **Zugewiesene Arbeit** -Bereich zeigt die folgenden Arbeitselemente an:
 
       * Alle aktiven Benutzer des Systems werden standardmäßig in diesem Bereich angezeigt. Es wird empfohlen, Filter zu verwenden, um die Datenmenge in diesem Bereich zu begrenzen. Wenn Benutzer Elementen zugewiesen sind, werden die Arbeitselemente auch unter ihrem Namen angezeigt.
 
       * Aufgaben und Probleme, die mindestens einem Benutzer zugewiesen sind, werden unter dem Namen des Benutzers angezeigt.
 
-         Die Arbeitselemente unter den Benutzernamen im Bereich &quot;Zugewiesene Arbeit&quot;werden nach den folgenden Kriterien in dieser Reihenfolge sortiert:
+        Die Arbeitselemente unter den Benutzernamen im Bereich &quot;Zugewiesene Arbeit&quot;werden nach den folgenden Kriterien in dieser Reihenfolge sortiert:
 
          1. Geplantes Startdatum (ältestes zuerst)
          1. Geplantes Abschlussdatum (ältestes zuerst)
@@ -189,10 +187,8 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
             >* Sie können die Projektsortierung anpassen, indem Sie eine Option aus der Einstellung &quot;Projekte sortieren nach&quot;auswählen.
             >
             >* Projekte werden nur angezeigt, wenn Sie die Einstellung &quot;Gruppe nach Projekt&quot;aktivieren.
-
             > 
             >Informationen zum Anpassen von Einstellungen finden Sie im Abschnitt . [Ansicht anpassen](#customize-the-view) in diesem Artikel.
-
 
 1. (Optional) Klicken Sie auf die **Filter** icon ![](assets/filter-icon.png) im **Zugewiesene Arbeit** Bereich, und wählen Sie dann die **Standardfilter** im **Vorgeschlagen** Bereich des Filterfelds.
 
@@ -279,38 +275,39 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
 
    * **Gruppe nach Projekt**: Wenn diese Option ausgewählt ist, werden die Elemente in den Bereichen Nicht zugewiesen und Zugewiesene Arbeit nach Projekt gruppiert. Diese Option ist standardmäßig aktiviert.
 
-   * **Stunden aus Problemen einschließen**: Wenn diese Option ausgewählt ist, werden den Benutzern zugewiesene Probleme im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers und Probleme, die Benutzern nicht zugewiesen sind, im Bereich Nicht zugewiesene Arbeit angezeigt. Die geplanten Stunden von den Problemen zählen zu den geplanten Stunden für das Projekt und für den Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;.
+   * **Stunden aus Problemen einschließen**: Wenn diese Option ausgewählt ist, werden den Benutzern zugewiesene Probleme im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers und Probleme, die Benutzern nicht zugewiesen sind, im Bereich Nicht zugewiesene Arbeit angezeigt. Die geplanten Stunden von den Problemen zählen zu den geplanten Stunden für das Projekt und für den Benutzer im Bereich Zugewiesene Arbeit .
    * **Vorgeschlagene Daten anzeigen**: Wenn diese Option ausgewählt ist, wird zusätzlich zur geplanten Timeline die projizierte Timeline der Arbeitselemente angezeigt. Beachten Sie Folgendes:
       * Die projizierte Zeitleiste von Projekt, Aufgaben und Problemen wird als dunkelblaue Linie über der Aufgaben-, Ausgabe- und Projektarcha angezeigt.
       * Die projizierte Timeline, die sich außerhalb der geplanten Timeline befindet, wird hellblau angezeigt, auch wenn Sie das Farbdesign wie unten beschrieben aktualisieren.
       * Die projizierte Zeitleiste für die Elemente, auf die Sie keinen Zugriff haben, wird hellgrau mit einer darunter liegenden Linie angezeigt.
-      * Wenn eine Aufgabe oder ein Problem vor dem Fälligkeitsdatum des geplanten Abschlusses abgeschlossen wird, werden die Zuordnungsnummern für die verbleibenden Tage durchlaufen und nicht auf die Zuordnung des Benutzers angerechnet. Dies wird nur angezeigt, wenn sowohl die Einstellung Vorgeschlagene Daten anzeigen als auch das Zuordnungssymbol anzeigen aktiviert sind.
+      * Wenn eine Aufgabe oder ein Problem vor dem Fälligkeitsdatum des geplanten Abschlusses abgeschlossen wird, werden die Zuordnungsnummern für die verbleibenden Tage durchlaufen und nicht für die Zuordnung des Benutzers gezählt. Dies wird nur angezeigt, wenn sowohl die Einstellung Vorgeschlagene Daten anzeigen als auch das Zuordnungssymbol anzeigen aktiviert sind.
 
-      >[!TIP]
-      >
-      >Beachten Sie, dass Arbeitselemente im Arbeitslastausgleich angezeigt werden, wenn während des ausgewählten Zeitrahmens entweder ihre geplanten oder die prognostizierten Zeitpläne (nicht unbedingt beide gleichzeitig) eintreten.
+     >[!TIP]
+     >
+     >Beachten Sie, dass Arbeitselemente im Arbeitslastausgleich angezeigt werden, wenn während des ausgewählten Zeitrahmens entweder ihre geplanten oder die prognostizierten Zeitpläne (nicht unbedingt beide gleichzeitig) eintreten.
 
    * **Fertige Arbeiten anzeigen**: Wenn diese Option aktiviert ist, werden abgeschlossene Aufgaben und Probleme im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt. Dies ist standardmäßig aktiviert.
 
-      Ein grünes Häkchen-Symbol wird in der oberen rechten Ecke einer Aufgabe oder einer Problemleiste angezeigt, wenn sie abgeschlossen sind. Dasselbe Symbol wird für ein Projekt angezeigt, wenn die Aufgaben oder Probleme für den ausgewählten Zeitraum des Projekts abgeschlossen sind.
-   * **Restzeit anzeigen**: Wenn diese Option aktiviert ist, zeigt Workfront den Unterschied zwischen der täglichen Arbeitszeit, für die der Benutzer verfügbar ist, basierend auf seinem Zeitplan und den Arbeitszeiten an, für die er im Bereich &quot;Zugewiesene Arbeit&quot;zugewiesen ist. Dies ist standardmäßig deaktiviert und die zugewiesene Zeit wird standardmäßig angezeigt.
+     Ein grünes Häkchen-Symbol wird in der oberen rechten Ecke einer Aufgabe oder einer Problemleiste angezeigt, wenn sie abgeschlossen sind. Dasselbe Symbol wird für ein Projekt angezeigt, wenn die Aufgaben oder Probleme für den ausgewählten Zeitraum des Projekts abgeschlossen sind.
+   * **Restzeit anzeigen**: Wenn diese Option aktiviert ist, zeigt Workfront die Differenz zwischen der täglichen Arbeitszeit, für die der Benutzer verfügbar ist, und der Arbeitszeit für die Benutzer im Bereich Zugewiesene Arbeit an. Dies ist standardmäßig deaktiviert und die zugewiesene Zeit wird standardmäßig angezeigt.
    * Im **Farbschema auswählen** wählen Sie die gewünschte Farbe für das Projekt und die Aufgabenleisten aus.
 
-      >[!TIP]
-      >
-      >Die Einstellung für die Auswahl des Farbdesigns wirkt sich nicht auf die Farbe der Problembalken aus. Probleme werden immer in einer Farbleiste angezeigt.
+     >[!TIP]
+     >
+     >Die Einstellung für die Auswahl des Farbdesigns wirkt sich nicht auf die Farbe der Problembalken aus. Probleme werden immer in einer Farbleiste angezeigt.
 
-      Wählen Sie aus den folgenden Optionen aus:
+     Wählen Sie aus den folgenden Optionen aus:
       * **Standard**: Die Balken für alle Projekte und ihre Arbeitselemente werden blau angezeigt.
       * **Projekt**: Die mit jedem Projekt verknüpften Balken und die zugehörigen Aufgaben ändern sich entsprechend dem Namen des Projekts. Alle Aufgaben, die zum Projekt gehören, werden in Balken angezeigt, die mit der Farbe des Projekts übereinstimmen. Die Projektanlagen werden in einer helleren Schattierung angezeigt, um sie von den Aufgaben zu unterscheiden. Die Projektleisten enthalten auch ein Projektsymbol, wenn Sie festlegen, dass keine Zuordnungen angezeigt werden.
       * **Projektstatus**: Die mit jedem Projekt verknüpften Balken und die zugehörigen Arbeitselemente ändern sich in die Farbe des Status des Projekts.
 
-         Der Projektstatus ist der mit der Gruppe des Projekts verknüpfte Projektstatus. Wenn die Gruppe keine gruppenspezifischen Status aufweist, ist die Farbe der Arbeitselementbalken die des Projekstatus auf Systemebene. Sowohl das System als auch benutzerdefinierte Status werden angezeigt. Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        Der Projektstatus ist der mit der Gruppe des Projekts verknüpfte Projektstatus. Wenn die Gruppe keine gruppenspezifischen Status aufweist, ist die Farbe der Arbeitselementbalken die des Projekstatus auf Systemebene. Sowohl das System als auch benutzerdefinierte Status werden angezeigt. Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+
    * Im **Anzeigen der Benutzerzuordnung in** Wählen Sie aus den folgenden Optionen aus:
       * **Stunden**: Zeigt zugewiesene Zeit als Stunden an. Dies ist die Standardeinstellung.
       * **Prozentsatz**: Zeigt die zugewiesene Zeit als Prozentsatz der gesamten verfügbaren Zeit an
    * Im **Sortierungseinstellungen** wählen Sie aus, wie die Elemente im Lastenausgleich sortiert werden sollen. Wählen Sie aus den folgenden Optionen aus:
-      * **Benutzer nach Primärer Rolle sortieren**: Die Benutzer werden im Bereich &quot;Zugewiesene Arbeit&quot;in alphabetischer Reihenfolge ihrer Primären Rollen angezeigt.
+      * **Benutzer nach Primärer Rolle sortieren**: Die Benutzer werden im Bereich &quot;Zugewiesene Arbeit&quot;in der alphabetischen Reihenfolge ihrer Primären Rollen angezeigt.
       * **Benutzer alphabetisch sortieren**: Benutzer werden im Bereich Zugewiesene Arbeit in alphabetischer Reihenfolge ihrer Vornamen angezeigt.
       * **Projekte nach sortieren**: Wählen Sie ein Projektfeld aus dem Dropdown-Menü aus, um Projekte in den Bereichen Nicht zugewiesene oder Zugewiesene Arbeit alphabetisch nach diesem Feld zu sortieren.
 
@@ -335,8 +332,7 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
    >
    >* Die Option Zuordnungen anzeigen wirkt sich nur darauf aus, was für Projekte, Aufgaben, Probleme und nicht zugängliche Elemente angezeigt wird. Täglich geplante Stunden für Benutzer werden standardmäßig angezeigt und können nicht ausgeblendet werden.
    >* Sie müssen die Einstellung Gruppe nach Projekt aktivieren, um tägliche geplante Stunden für Projekte anzuzeigen.
-   >* Wenn Sie den Lastenausgleich nach Woche anzeigen, sind die angezeigten Stunden die wöchentlich geplanten Stunden.
-
+   >* Wenn Sie den Lastenausgleich nach Woche anzeigen, werden die wöchentlichen geplanten Stunden angezeigt.
 
 
 1. (Optional) Bewegen Sie den Mauszeiger über die zugewiesene Zeit in der Benutzerzeile, um die Kapazität und Zuordnung des Benutzers zu verstehen. Die Kapazität ist die Verfügbarkeit des Benutzers nach seinem Zeitplan.
@@ -348,23 +344,22 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
 
    ![](assets/more-menu-right-of-task-350x104.png)
 
-   * **Weisen Sie dies zu** und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, dem Sie das Arbeitselement im **Suchen nach Personen, Rollen oder Teams** -Feld.
+   * **Zuweisen** und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, dem Sie das Arbeitselement im **Suchen nach Personen, Rollen oder Teams** -Feld.
 
-      Sie können auch die folgenden Verknüpfungen verwenden, um Aufgaben oder Probleme zuzuweisen:
+     Sie können auch die folgenden Verknüpfungen verwenden, um Aufgaben oder Probleme zuzuweisen:
 
-      * Windows: Klicken Sie bei gedrückter Strg-Taste auf die Aufgaben- oder Problemleiste.
+      * Unter Windows: Klicken Sie bei gedrückter Strg-Taste auf die Aufgaben- oder Problemleiste.
       * In Mac: Klicken Sie bei gedrückter CMD-Taste auf die Aufgaben- oder Problemleiste.
 
-      Weitere Informationen zum Zuweisen von Arbeitselementen zu Benutzern im Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../workload-balancer/assign-work-in-workload-balancer.md).
+     Weitere Informationen zum Zuweisen von Arbeitselementen zu Benutzern im Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../workload-balancer/assign-work-in-workload-balancer.md).
 
-      >[!TIP]
-      >
-      >Wenn Ihr Workfront- oder Gruppenadministrator Delegationen in Ihrer Umgebung aktiviert hat, verwenden Sie die Registerkarte Zuweisungen , um Benutzer der Aufgabe oder dem Problem zuzuweisen. Informationen zur Delegierung von Aufgaben finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >[!TIP]
+     >
+     >Wenn Ihr Workfront- oder Gruppenadministrator Delegationen in Ihrer Umgebung aktiviert hat, verwenden Sie die Registerkarte Zuweisungen , um Benutzer der Aufgabe oder dem Problem zuzuweisen. Informationen zur Delegierung von Aufgaben finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **Zuordnungen bearbeiten** und bearbeiten Sie dann die täglichen oder wöchentlichen Zuordnungen für den Benutzer. Informationen zur Verwaltung der Benutzerzuordnungen finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
    * **Zusammenfassung öffnen**. Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet. Klicken Sie dann auf das Feld &quot;Zuweisungen&quot;und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams im **Suchen nach Personen, Rollen oder Teams** -Feld, um das Element zuzuweisen. Weitere Informationen finden Sie im Abschnitt . [Weitere Informationen zu Aufgaben und Problemen anzeigen](#display-more-information-about-tasks-and-issues) in diesem Artikel.
-
 
 1. (Optional) Doppelklicken Sie auf eine tägliche oder wöchentliche Zuordnung für einen Benutzer in der Leiste eines Arbeitselements, um die Anzahl der zugewiesenen Stunden zu bearbeiten, und klicken Sie dann auf die **Speichern** icon ![](assets/save-allocations-wb.png) , um die Zuordnungen oder die **Abbrechen** icon  ![](assets/cancel-allocations-wb.png) um die von Ihnen angepassten Zuordnungen zu entfernen.
 
@@ -376,10 +371,10 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
 
    Informationen zur Verwaltung der Benutzerzuordnungen finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. Klicken **Massenzuweisungen** , um Arbeitselemente stapelweise zuzuweisen.
+1. Klicks **Massenzuweisungen** , um Arbeitselemente stapelweise zuzuweisen.
 
    Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. Ziehen Sie Elemente aus dem **Nicht zugewiesene Arbeit** -Bereich oder von einem Benutzer ablegen und auf einen anderen Benutzer ablegen, um ihn zuzuweisen.
+1. Ziehen Sie Elemente aus dem **Nicht zugewiesene Arbeit** -Bereich oder von einem Benutzer aus erstellen und sie auf einen anderen Benutzer ablegen, um sie zuzuweisen.
 
    Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
@@ -393,7 +388,7 @@ Anstatt Zuordnungen in täglichen oder wöchentlichen Zahlen anzuzeigen, können
 
    Die Tage, an denen der Benutzer übergeordnet ist, werden als rote Blöcke angezeigt, die Tage, an denen der Benutzer unterzugeordnet ist, oder die Tage, an denen die Kapazität nicht ausgeschöpft ist, werden als blaue Blöcke angezeigt.
 
-   Die Größe der Blöcke gibt die Menge der Zuordnung an: Je größer das Feld, desto mehr Zeit wird dem Benutzer Arbeitselementen für diesen Tag oder diese Woche zugewiesen.
+   Die Größe der Blöcke gibt die Menge der Zuordnung an: Je größer das Feld, desto mehr Zeit wird dem Benutzer für die Arbeitselemente dieses Tages oder dieser Woche zugewiesen.
 
    ![](assets/user-allocation-chart-350x237.png)
 
@@ -408,7 +403,7 @@ Weitere Informationen zu den Aufgaben und Problemen finden Sie im Workload Balan
 1. Führen Sie einen der folgenden Schritte aus, um weitere Informationen im Bedienfeld &quot;Zusammenfassung&quot;anzuzeigen:
 
    * Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
-   * Klicken Sie auf **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen.
+   * Klicken Sie auf **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
    * Klicken Sie auf **Mehr** Menü rechts neben einer Aufgabe oder einem Problem und klicken Sie auf **Zusammenfassung öffnen**.
 
    Informationen zum Aktualisieren von Aufgabeninformationen in der Zusammenfassung im Arbeitslastausgleich finden Sie unter [Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
@@ -444,14 +439,14 @@ Das Navigieren in den Arbeitslastausgleich eines Teams ähnelt dem Navigieren im
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)Klicken Sie auf **Teams**.
 Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
-1. Klicken **Lastenausgleich** im linken Bereich. Der Lastenausgleich eines Teams sollte standardmäßig angezeigt werden.
+1. Klicks **Lastenausgleich** im linken Bereich. Der Lastenausgleich eines Teams sollte standardmäßig angezeigt werden.
 
    ![](assets/nwe-balancer-team-350x172.png)
 
    Der Lastenausgleich eines Teams zeigt standardmäßig die folgenden Informationen an:
 
-   * Im **Nicht zugewiesene Arbeit** Bereich: Arbeitselemente, die dem Team oder den Team- und Jobrollen zugewiesen sind und die Benutzern nicht zugewiesen sind.
-   * Im **Zugewiesene Arbeit** Bereich: Den Benutzern zugewiesene Arbeitselemente werden unter den Benutzernamen angezeigt.
+   * Im **Nicht zugewiesene Arbeit** area: Arbeitselemente, die dem Team oder den Team- und Jobrollen zugewiesen sind und die Benutzern nicht zugewiesen sind.
+   * Im **Zugewiesene Arbeit** area: Den Benutzern zugewiesene Arbeitselemente werden unter den Namen der Benutzer angezeigt.
 
 1. Fahren Sie weiter mit dem Arbeitslastausgleich eines Teams, wie im Abschnitt [Navigieren Sie im Bereich Ressourcen zum Arbeitslastausgleich für mehrere Projekte.](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) Abschnitt dieses Artikels.
 
@@ -459,20 +454,20 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Namen eines Projekts, um die Projektseite zu öffnen.
-1. Klicken **Lastenausgleich** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Lastenausgleich**.
+1. Klicks **Lastenausgleich** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Lastenausgleich**.
 
    ![](assets/nwe-balancer-project-350x152.png)
 
    Der Lastenausgleich für das Projekt zeigt standardmäßig die folgenden Informationen an:
 
-   * Im **Nicht zugewiesene Arbeit** Bereich: Arbeitselemente am Projekt, die Rollen oder Teams zugewiesen sind und Benutzern nicht zugewiesen sind.
-   * Im **Zugewiesene Arbeit** Bereich: Arbeitselemente für das Projekt, die mindestens einem Benutzer zugewiesen sind.
+   * Im **Nicht zugewiesene Arbeit** area: Arbeitselemente am Projekt, die Rollen oder Teams zugewiesen sind und Benutzern nicht zugewiesen sind.
+   * Im **Zugewiesene Arbeit** area: Arbeitselemente am Projekt, die mindestens einem Benutzer zugewiesen sind.
 
    Es wird empfohlen, Filter zu verwenden, um nur Benutzer anzuzeigen, die für Sie wichtig sind.
 
    Sie können beispielsweise erwägen, nur Benutzer anzuzeigen, die zu Ihren Teams oder Gruppen gehören. Weitere Informationen finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Optional) Klicken Sie auf die **Filter** icon ![](assets/filter-icon.png) im Bereich &quot;Zugewiesene Arbeit&quot;und wählen Sie die **Die Arbeitselemente dieses Projekts** -Option **Vorgeschlagen** Bereich des Filterbereichs. Dieser Filter ist standardmäßig deaktiviert.
+1. (Optional) Klicken Sie auf die **Filter** icon ![](assets/filter-icon.png) im Bereich &quot;Zugewiesene Arbeit&quot;und wählen Sie die **Die Arbeitselemente dieses Projekts** Option aus der **Vorgeschlagen** Bereich des Filterbereichs. Dieser Filter ist standardmäßig deaktiviert.
 
    Wenn diese Option ausgewählt ist, werden nur die Elemente angezeigt, die Benutzern im ausgewählten Projekt zugewiesen sind.
 
