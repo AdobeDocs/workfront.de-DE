@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,10 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Felder, die mehrere Auswahlmöglichkeiten zulassen, wie das Kontrollkästchen und das Dropdown-Menü, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
 1. Im **Feldeinstellungen** konfigurieren Sie die verfügbaren Optionen für den Typ des benutzerdefinierten Felds, das Sie hinzufügen:
 

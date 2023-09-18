@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Hinzufügen eines Textfelds:
 
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Textfelder und ziehen Sie es in einen Bereich auf der Arbeitsfläche:
 
-   * Einzelzeilentext:
+   * Einzelzeilentext
    * Absatztext
    * Textfeld mit Formatierung
    * Beschreibender Text
@@ -254,6 +254,10 @@ Sie können einem benutzerdefinierten Formular Radiobuttons, Checkboxes und Drop
 * **Dropdown**: Bietet eine Liste von Dropdown-Optionen.
 
 +++
+
+>[!NOTE]
+>
+>Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Kontrollkästchen-Gruppe, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
 So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
 
@@ -534,7 +538,7 @@ So fügen Sie eine externe Suche hinzu:
       <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li></ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Basis-API URL</td> 
+      <td role="rowheader">Basis-API-URL</td> 
       <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie im Dropdown-Menü anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus den zurückgegebenen JSON-Optionen auszuwählen, die Dropdown-Optionen sein sollen.</p><p>Beim Eingeben der API-URL können Sie optional die folgenden Werte in die URL übergeben:</p>
       <ul><li>$$query - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</li>
       <li>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</li></ul>
@@ -568,13 +572,14 @@ So fügen Sie eine externe Suche hinzu:
 
 >[!NOTE]
 >
->Technische Einschränkungen des Aufrufs an die externe API:
+>Die folgenden Elemente sind technische Einschränkungen des Aufrufs an die externe API:
 >
 >* Maximale Anzahl an Optionen: 200 (nur die ersten 200 Optionen aus der zurückgegebenen JSON werden angezeigt)
 >* Zeitüberschreitung: 3 Sekunden
 >* Anzahl weiterer Versuche: 3
 >* Wartezeit zwischen Wiederholungen: 500 ms
 >* Erwartete Antwortstatus: 2xx
+>* Der Benutzer kann den ausgewählten Wert in Workfront-Listen und -Berichten sehen (und den Wert bearbeiten), sieht aber nicht die Dropdown-Liste mit Optionen aus der externen API.
 
 </div>
 
