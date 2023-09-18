@@ -7,7 +7,7 @@ description: Sie können einen Bericht nur dann anhand eines benutzerdefinierten
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
    >[!NOTE]
    >
    >Diese Option wurde aus der Massenbearbeitung von Projekten entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie auf die **Mehr** icon ![](assets/more-icon-45x33.png) am Anfang einer Projektliste und **Ausdrücke neu berechnen**.
-
 
 1. Rufen Sie den Bericht auf, in dem Sie die Grafik für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.
 1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
