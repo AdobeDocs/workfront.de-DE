@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ Sie können einem benutzerdefinierten Formular Radiobuttons, Checkboxes und Drop
 
 >[!NOTE]
 >
->Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Kontrollkästchen-Gruppe, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
+>Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Kontrollkästchen-Gruppe und Dropdown-Liste, sind in Berichten schwer grafisch zu gestalten und zu gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
 So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
 
@@ -328,7 +328,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     </tr> 
     <tr> 
      <td role="rowheader">Anzeigetyp</td> 
-    <td>Zwischen Optionsfeldern, Kontrollkästchengruppen oder Dropdown-Listen für das Feld wechseln.</td> 
+    <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchengruppen, Dropdown-Listen oder Dropdown-Listen mit Mehrfachauswahl für das Feld.</td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
@@ -559,7 +559,7 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">Kopfzeilen</td>
-      <td>Klicks <strong>Kopfzeile hinzufügen</strong>und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.</td>
+      <td><p>Klicks <strong>Kopfzeile hinzufügen</strong>und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.</p><p><strong>NOTE:</strong> Die Felder "Kopfzeile"sind kein sicherer Ort zum Speichern von Anmeldeinformationen. Achten Sie darauf, was Sie eingeben und speichern.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ So fügen Sie eine externe Suche hinzu:
 >* Anzahl weiterer Versuche: 3
 >* Wartezeit zwischen Wiederholungen: 500 ms
 >* Erwartete Antwortstatus: 2xx
->* Der Benutzer kann den ausgewählten Wert in Workfront-Listen und -Berichten sehen (und den Wert bearbeiten), sieht aber nicht die Dropdown-Liste mit Optionen aus der externen API.
+>* Benutzer können den ausgewählten Wert in Workfront-Listen und -Berichten sehen (und ihn bearbeiten), sehen aber keine Dropdown-Liste mit Optionen aus der externen API.
 
 </div>
 
