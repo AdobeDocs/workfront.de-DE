@@ -9,13 +9,13 @@ description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # Deaktivieren Sie die Option für die automatische Aktualisierung für nicht bezahlte Benutzer im neuen Lizenzplan
 
@@ -53,10 +53,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-## Deaktivieren Sie automatische Upgrades für nicht bezahlte Benutzer
+## Deaktivieren Sie automatische Upgrades für nicht bezahlte Benutzer.
 
 {{step-1-to-setup}}
 
-1. Scrollen Sie nach unten zu [!UICONTROL **Voreinstellungen**].
-1. Im [!UICONTROL **Allgemeine Voreinstellungen**] Abschnitt, überprüfen Sie die [!UICONTROL **Deaktivieren Sie die automatische Aktualisierung innerhalb der Zugriffsebenen.**] ankreuzen.
+1. Erweitern [!UICONTROL **System**] Klicken Sie im linken Navigationsbereich auf [!UICONTROL **Voreinstellungen**].
+1. Im [!UICONTROL **Allgemeine Voreinstellungen**] -Abschnitt, überprüfen Sie die [!UICONTROL **Deaktivieren Sie die automatische Aktualisierung innerhalb der Zugriffsebenen.**] ankreuzen.
 1. Klicken Sie auf [!UICONTROL **Speichern**].

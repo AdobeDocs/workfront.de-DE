@@ -3,9 +3,9 @@ title: Adobe Maestro-Release-Aktivität
 description: Verwenden Sie Maestro, um benutzerdefinierte Objekte, Felder und Arbeitsbereiche zu erstellen.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichu
 In diesem Abschnitt werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
+
+## Woche vom 18. September 2023
+
+### Zeilen neu anordnen
+
+Vorschau und Produktion: 20. September 2023
+
+Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenansicht einer Datensatztypseite neu anordnen.
 
 ## Woche vom 4. September 2023
 
