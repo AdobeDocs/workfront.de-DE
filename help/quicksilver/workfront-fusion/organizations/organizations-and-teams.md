@@ -8,9 +8,9 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Die Einladung läuft in einem Tag ab.
 
 Sie können Teil mehrerer Organisationen in Fusion sein. Ressourcen werden nicht zwischen Organisationen freigegeben.
 
-Sie können Unternehmen innerhalb der Adobe Unified Experience wechseln, indem Sie auf den Organisationsnamen oben rechts klicken und die neue Organisation aus der Dropdown-Liste auswählen. Nur Organisationen mit einem Fusion-Konto werden in der Dropdown-Liste angezeigt, auch wenn Sie Mitglied anderer Organisationen in der Adobe sind.
+Sie können Organisationen innerhalb des Adobe Unified Experience wechseln, indem Sie auf den Organisationsnamen oben rechts klicken und die neue Organisation aus der Dropdown-Liste auswählen. Nur Organisationen mit einem Fusion-Konto werden in der Dropdown-Liste angezeigt, auch wenn Sie Mitglied anderer Organisationen im Adobe sind.
 
 ## Teams
 
@@ -165,6 +165,12 @@ So erstellen Sie ein Team:
 
 #### Festlegen von Team-Benachrichtigungsoptionen
 
+>[!NOTE]
+>
+>Wenn Sie auf [!DNL Fusion] durch die [!DNL Adobe Experience Cloud], werden Ihre Benachrichtigungen im Abschnitt [!DNL Experience Cloud] Benachrichtigungszentrum.
+>
+>Weitere Informationen finden Sie unter [Auf Benachrichtigungen zugreifen](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] für [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+
 Die Optionen für E-Mail-Benachrichtigungen werden auf Teamebene festgelegt.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Team]**
@@ -197,9 +203,9 @@ Die Optionen für E-Mail-Benachrichtigungen werden auf Teamebene festgelegt.
 
 Sie können Teil mehrerer Teams in Fusion sein. Da Teams keine Ressourcen gemeinsam nutzen, müssen Sie möglicherweise die Teams wechseln, um auf bestimmte Szenarien oder andere Ressourcen zuzugreifen.
 
-Wenn Ihr Unternehmen nicht Teil der Adobe Unified Experience ist, können Sie zwischen Teams wechseln, indem Sie im linken Navigationsbereich auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen.
+Wenn Ihr Unternehmen nicht Teil des Adobe Unified Experience ist, können Sie zwischen Teams wechseln, indem Sie im linken Navigationsbereich auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen.
 
-Wenn Ihr Team das einheitliche Erlebnis der Adobe erhält, können Sie ein neues Team auswählen, indem Sie in der Kopfzeile auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen. Diese Option ist auf allen Seiten verfügbar, die für ein bestimmtes Team spezifisch sind, z. B. auf einer Szenario-Seite oder auf der Seite Verbindungen .
+Wenn Ihr Team das einheitliche Adobe-Erlebnis nutzt, können Sie ein neues Team auswählen, indem Sie in der Kopfzeile auf den Teamnamen klicken und dann aus der Dropdown-Liste ein Team auswählen. Diese Option ist auf allen Seiten verfügbar, die für ein bestimmtes Team spezifisch sind, z. B. auf einer Szenario-Seite oder auf der Seite Verbindungen .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

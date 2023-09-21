@@ -7,9 +7,9 @@ description: Durch den Zugriff auf Workfront Fusion über Adobe Experience Cloud
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,11 @@ In diesem Menü haben Sie folgende Möglichkeiten:
 Ihre Benachrichtigungen und Mitteilungen finden Sie im Bereich Benachrichtigungen der Unified Shell.
 
 Um Ihre Benachrichtigungen anzuzeigen, klicken Sie auf das Symbol Benachrichtigungen . ![Benachrichtigungssymbol](assets/notifications-icon.png) in der oberen rechten Ecke des Bildschirms. Ein roter Punkt auf dem Benachrichtigungssymbol zeigt an, dass Sie Benachrichtigungen oder Mitteilungen nicht gelesen haben.
+
+Anweisungen zum Konfigurieren Ihrer Benachrichtigungen in Adobe Experience Cloud finden Sie unter [Benachrichtigungskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in der Adobe-Dokumentation.
+
+Beachten Sie bei der Konfiguration Folgendes:
+
+* **Warnhinweise** verweisen auf festgefahrene Szenarien.
+* **Inhaltsaktualisierungen** bezieht sich auf Fehler und Warnungen in Szenario-Ausführungen.
 
