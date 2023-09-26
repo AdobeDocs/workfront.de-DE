@@ -3,7 +3,8 @@ title: Adobe Maestro-Informationen
 description: Als Leiter von Marketingoperationen können Sie Adobe Maestro verwenden, um die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams zu organisieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie Maestro konfigurieren und seine Funktionen als Teil Ihrer Kampagnenverwaltungsvorgänge nutzen können.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

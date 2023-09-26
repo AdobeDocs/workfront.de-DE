@@ -3,7 +3,8 @@ title: Architekturinformationen
 description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur von Adobe Maestro konfigurieren können. Im Rahmen dieser Konfiguration erfahren Sie, wie Sie Arbeitsbereiche, Datensatztypen und benutzerdefinierte Felder erstellen, um die Workflows abzubilden, die Sie in Adobe Maestro verwalten möchten.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

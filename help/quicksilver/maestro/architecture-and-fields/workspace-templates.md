@@ -3,7 +3,8 @@ title: Liste der Workspace-Vorlagen
 description: Ein Arbeitsbereich ist eine Sammlung operativer Datensatztypen und Taxonomien, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Maestro verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen, Taxonomien und Feldern beginnen können.
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
