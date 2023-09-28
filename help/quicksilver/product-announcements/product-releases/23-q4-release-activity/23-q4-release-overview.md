@@ -3,9 +3,10 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
-source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
+exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -66,7 +67,8 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a></p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Ein neuer Feldtyp, <strong>Externe Suche</strong>, ist jetzt im benutzerdefinierten Formularentwickler verfügbar. Wenn Daten in einem externen System gespeichert sind, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -104,7 +106,7 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Benutzerzuweisung auf Pinnwänden und Karten</a></p><p>Es gibt jetzt Verbesserungen, die beim Hinzufügen von Benutzern zu Pinnwänden und Karten in Adobe Workfront-Pinnwänden mehr Flexibilität bieten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Benutzerzuweisung auf Pinnwänden und Karten</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Es gibt jetzt Verbesserungen, die beim Hinzufügen von Benutzern zu Pinnwänden und Karten in Adobe Workfront-Pinnwänden mehr Flexibilität bieten.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -201,7 +203,7 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)</a></p><p>Wir haben einige Änderungen vorgenommen, um das Auffinden von Ordnern beim Senden von Dokumenten an Ihre SharePoint (GraphAPI)-Ordner zu vereinfachen</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wir haben einige Änderungen vorgenommen, um das Auffinden von Ordnern beim Senden von Dokumenten an Ihre SharePoint (GraphAPI)-Ordner zu vereinfachen</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -216,7 +218,7 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a></p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -370,7 +372,8 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Neue Schnellzugriffsschaltflächen für das Widget "Meine Arbeit"</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Neue Schnellzugriffsschaltflächen für das Widget "Meine Arbeit"</a> </p>
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Weitere Erweiterungen Ihrer Fähigkeit, die Arbeit direkt über die neue Startseite zu verwalten, wurden dem Widget Meine Arbeit neue Schnellzugriffsschaltflächen hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -409,7 +412,7 @@ Das Webinar zur Version 23.10 wird am 5. Oktober 2023 stattfinden. Sie können [
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Terminologieunterstützung für die neue Startseite</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Terminologieunterstützung für die neue Startseite</a> </p><p>[!BADGE In Production ]{type=Informative}</p>
                         <p>Um die besonderen Anforderungen von Unternehmen besser zu erfüllen, verwendet das neue Home jetzt benutzerdefinierte Terminologie für Objekte, die in den Layoutvorlagen einer Instanz definiert sind. Wenn beispielsweise die Objekte "Projekt"in Ihrer Workfront-Instanz in "Kampagnen"umbenannt wurden, wird das Widget "Meine Projekte"stattdessen als "Meine Kampagnen"auf der neuen Startseite angezeigt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -595,6 +598,8 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+[!BADGE In production ]{type=Informative}
+
 
 
 Test for boards early access stuff
@@ -604,5 +609,3 @@ Production release for early opt-in: March 2, 2023 This feature is available in 
 Production release for all customers: With the 23.2 release
 
 -->
-
-
