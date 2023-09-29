@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Um an dieser Alpha-Version teilnehmen zu können, müssen Sie vom Produktteam zu
 In dieser Version aus dem 5. Alpha haben wir Folgendes:
 
 * Verbesserte Liste mit Genehmigern und Validierern
-* Es wurde die Möglichkeit hinzugefügt, Genehmigern zu ermöglichen, die noch keine Genehmigungsentscheidung getroffen haben.
+* Es wurde die Möglichkeit hinzugefügt, Genehmiger zu erinnern, die noch keine Genehmigungsentscheidung getroffen haben
 * Die Möglichkeit, einzelne Teammitglieder in der Genehmigungsliste anzuzeigen, wurde hinzugefügt.
 * Zusätzliche Möglichkeit zum Hinzufügen externer Genehmiger
 * Verbesserte Ansicht für externe Genehmiger zum Anzeigen von Dokumentvorschau, -download und -kommentaren
