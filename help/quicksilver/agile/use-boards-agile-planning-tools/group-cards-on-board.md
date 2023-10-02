@@ -7,9 +7,9 @@ description: Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Ta
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Tag gruppieren.
 
 >[!NOTE]
 >
->Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten. Informationen über die Aufnahmespalte finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten, und die Ansauspalte wird ausgeblendet, wenn eine Gruppe angewendet wird. Informationen über die Aufnahmespalte finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Zugriffsanforderungen
 
