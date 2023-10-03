@@ -5,13 +5,13 @@ title: Erste Schritte mit der neuen Startseite in Adobe Workfront
 description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Verwaltung Ihrer Arbeit.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Erste Schritte mit der neuen Startseite in Adobe Workfront
 
@@ -131,24 +131,9 @@ Sie können Ihrer Startseite ein wenig persönliches Erlebnis hinzufügen, indem
 
 1. Im **Hintergrund** Abschnitt **Anpassen** angezeigt wird, klicken Sie auf die Farbe, die Sie für Ihren Home-Hintergrund auswählen möchten. Sie können auch auf **Keines** um den Hintergrund zu entfernen.
 
-### Nach Zeitbereich filtern
-
-Sie können alle Informationen auf Ihrer Startseite schnell filtern, um Objektinformationen innerhalb von drei bestimmten Zeitbereichen anzuzeigen: Tag, Woche oder Monat. Darüber hinaus wird oben auf der Startseite eine Zusammenfassung der Anzahl der Aufgaben, die Sie fällig und innerhalb des Bereichs abgeschlossen haben, angezeigt.
-
-**So ändern Sie den Zeitraum Ihrer Startseite:**
-
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol klicken ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) oben im Bildschirm, wenn Startseite als Landingpage festgelegt ist, oder durch Klicken auf das Hauptmenüsymbol ![Symbol für Hauptmenü](../new-home/assets/main-menu-icon-left-nav.png) Klicken Sie dann auf **Startseite**.
-
-1. Klicken Sie oben links auf der Startseite auf den Filter für den Zeitraum . Standardmäßig ist der Filter auf **Meine Woche**.
-
-   ![Dropdown-Liste für Zeitbereichfilter](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Klicken Sie auf **Tag**, **Woche** oder **Monat** , um Ihre Startseite so zu filtern, dass nur Informationen zu Objekten angezeigt werden, die innerhalb dieses Zeitraums fällig sind.
-
 ## Zurück zum aktuellen Starterlebnis
 
 Für Benutzer, die das vorhandene Home-Erlebnis bevorzugen, kann die Option &quot;Neues Home&quot;deaktiviert werden.
-
 
 **So gehen Sie zurück zum aktuellen Starterlebnis:**
 
