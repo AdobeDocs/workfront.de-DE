@@ -5,27 +5,27 @@ content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von drei neuen gebührenpflichtigen Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei neuen Workfront-Lizenztypen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
 
 # Übersicht über neue Lizenzen
 
-Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei Arten bezahlter Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei Arten von Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 
 ## Wie neue Workfront-Lizenzen und neue Zugriffsebenen verknüpft werden
 
 Die drei neuen gebührenpflichtigen Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
-Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die dieser Lizenz zugeordnete Zugriffsstufe zu.
+Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die mit dieser Lizenz verbundene Zugriffsstufe zu.
 
 Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Workfront:
 
