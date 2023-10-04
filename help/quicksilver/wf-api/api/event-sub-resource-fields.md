@@ -1,19 +1,19 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Ressourcen für Ereignisabonnements
-description: Ressourcen für Ereignisabonnements
+title: Ressourcen-Felder für Ereignisabonnements
+description: Ressourcen-Felder für Ereignisabonnements
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 10%
 
 ---
 
-# Ressourcen für Ereignisabonnements
+# Ressourcen-Felder für Ereignisabonnements
 
 Die Felder der Ereignisabonnement-Ressource stellen Trigger für Ereignisse dar, die dazu führen, dass ein Ereignisabonnement eine ausgehende Nachricht an einen konfigurierten Endpunkt sendet. Wenn ein Ressourcenfeld bearbeitet wird, wird ein UPDATE-Ereignis ausgelöst.
 
@@ -60,6 +60,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td> </td> 
    <td> </td> 
    <td>Arbeit</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1471,6 +1481,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>attachRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -2486,7 +2501,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
