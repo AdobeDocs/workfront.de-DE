@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lize
 
 ## Wie neue Workfront-Lizenzen und neue Zugriffsebenen verknüpft werden
 
-Die drei neuen gebührenpflichtigen Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
+Die drei neuen Workfront-Lizenztypen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
 Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die mit dieser Lizenz verbundene Zugriffsstufe zu.
 
