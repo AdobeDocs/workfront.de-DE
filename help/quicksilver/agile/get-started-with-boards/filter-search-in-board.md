@@ -6,9 +6,9 @@ description: Sie können eine Pinnwand so filtern, dass nur bestimmte Karten ang
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie können die Pinnwand filtern, um auch alle archivierten Karten anzuzeigen.
 
 1. Rufen Sie die Pinnwand auf.
+1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
+1. Erweitern [!UICONTROL **Karten**].
+1. Aktivieren [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
 1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Archivierte Karten] und wählen Sie **[!UICONTROL Archivierte Karten]** , um alle archivierten Karten anzuzeigen.
 
    Der Filter zeigt die Anzahl der archivierten Karten an.
 
-   ![Archivierte Karten filtern](assets/boards-filter-by-archived-cards_0822.png)
+   ![Archivierte Karten filtern](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >Die [!UICONTROL Archivierte Karten] ist im Filter nicht verfügbar, wenn Sie die Konfigurationseinstellung zur Anzeige archivierter Karten nicht aktiviert haben.
 
 1. Auswählen **[!UICONTROL Archivierte Karten]** erneut, um die Option zu löschen und nur aktive Karten anzuzeigen.
 
