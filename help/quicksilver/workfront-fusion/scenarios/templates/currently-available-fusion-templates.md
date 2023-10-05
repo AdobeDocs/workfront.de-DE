@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
 
 ### [!BADGE Neu!]{type=Informative}
 
-Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Programms zu den neuen Projekten hinzugefügt.
+Durch diese Automatisierung werden in Workfront neue Projekte basierend auf Namen, Portfolio, Status, geplanten Startdatum und Vorlagendetails erstellt, die Sie in einer CSV-Datei angeben.
 
 ### [!BADGE Neu!]{type=Informative}
+
+Verwenden Sie diese Vorlage, um ein 30-tägiges Hinweis-Update für Ihre Anfragen zu erzwingen. Anforderungen, die nicht in 30 Tagen aktualisiert wurden, erhalten ihren Status geändert und 60 Tage lang geschlossen.
+
+### [!BADGE Neu!]{type=Informative}
+
+Durch diese Automatisierung werden Projekte auf den Status Abgeschlossen aktualisiert, in dem alle Aufgaben nach 1005 abgeschlossen sind. Projekte mit offenen Problemen oder offenen Aufgaben oder Projektgenehmigungen erhalten eine Aktualisierung, und nach der Lösung werden die Projekte in den Status Abgeschlossen verschoben.
+
+### [!BADGE Neu!]{type=Informative}
+
+Verwenden Sie dieses Szenario, um die Warnung bei und den Abschluss von Projekten zu automatisieren, die der veralteten Projektrichtlinie Ihres Unternehmens entsprechen.
+
+### [!BADGE Neu!]{type=Informative}
+
+Verwenden Sie diese Vorlage, um Notizen und Antworten von einem Problem oder einer Anfrage in ein bereits konvertiertes Projekt oder eine bereits konvertierte Aufgabe zu kopieren.
+
+### Workfront - Kopieren von Programm-benutzerdefinierten Forms- und Felddaten in zugehörige neue Projekte
+
+Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Programms zu den neuen Projekten hinzugefügt.
+
+### Workfront - Kopieren von Portfolio-benutzerdefinierten Forms- und Felddaten in verknüpfte neue Projekte
 
 Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Portfolios zu den neuen Projekten hinzugefügt.
 
@@ -58,7 +78,7 @@ Diese Vorlage erfasst eine Projektgrundlinie bei jeder in den Switch-Modulen ver
 
 Diese Vorlage erfasst wöchentlich jeden Montag um 6 Uhr ET eine Projektgrundlinie für Projekte, die nach Portfolio gefiltert wurden, und erstellt eine Aktualisierung im Aktualisierungsstream zur Protokollierung.
 
-### [!BADGE Neu!]{type=Informative}
+### Suchen Sie nach Projektvorlagen, die nicht in der Richtlinienzeit verwendet werden, und benachrichtigen Sie
 
 Überprüfen Sie einmal im Monat Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu handhabenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
 
@@ -81,6 +101,10 @@ Diese Vorlagen rufen Informationen von einem Webdienst ab und bringen diese Info
 >[!NOTE]
 >
 > Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+
+### [!BADGE Neu!]{type=Informative}
+
+Einrichten der JWT-Autorisierung für eine Client-API.
 
 ### APILayer > Workfront - Tägliche Aktualisierung des Wechselkurses (EUR)
 
@@ -105,6 +129,19 @@ Dieses Szenario bietet eine programmatische Möglichkeit, E-Mail- und Webinar-Ka
 ### Prüfen eines E-Mail-Testversands Ihres Marketo Engage-E-Mail-Entwurfs in Workfront
 
 Diese Vorlage erkennt, ob eine Workfront-Aufgabe auf einen Überprüfungsstatus gesetzt wurde, und exportiert dann den E-Mail-Entwurf von Marketo Engage, um ihn als Testversand in Workfront zu speichern.
+
+## Workfront-SharePoint-Vorlagen
+
+Diese Vorlagen verbinden Workfront und SharePoint.
+
+>[!NOTE]
+>
+> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+
+### [!BADGE Neu!]{type=Informative}
+
+Mit dieser Vorlage können Sie sehen, ob sich ein Ordner in SharePoint geändert hat.
+
 
 ## Workfront-Anaplan-Vorlagen
 
@@ -131,3 +168,6 @@ Weitere Informationen zur Integration von Workfront mit Anaplan finden Sie unter
 
 * [Erstellen Sie eine [!DNL Anaplan] Listenelement aus einem [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Anwenden eines [!DNL Anaplan] Mittelzuweisung an eine [!DNL Adobe Workfront] Kampagnenanforderung oder Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
