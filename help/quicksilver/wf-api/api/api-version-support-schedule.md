@@ -6,10 +6,10 @@ description: API-Versionierung und Support-Zeitplan
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
+source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 10%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 
 
 Adobe Workfront veröffentlicht regelmäßig neue API-Versionen, in der Regel zweimal jährlich. API-Versionen werden 3 Jahre nach der Veröffentlichung unterstützt. API-Versionen, die älter als 3 Jahre sind, werden nicht mehr unterstützt.
+
+Weitere Informationen zur Identifizierung und Verwendung von API-Versionen finden Sie unter [API-Version in Ihren Integrationen angeben](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 Die folgende Tabelle zeigt die Veröffentlichung und den Support-Zeitplan für die Workfront-API.
 
@@ -35,17 +37,17 @@ Die folgende Tabelle zeigt die Veröffentlichung und den Support-Zeitplan für d
  <tbody> 
    <td>16</td> 
    <td> <p>April 2023</p> <p>(mit Version 23.2)</p> </td> 
-   <td> <p>**im Jahr 2026</p> <p>(mit Version 26.2)</p> </td> 
+   <td> <p>**2026</p> <p>(mit Version 26.2)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 
    <td>Erstes Halbjahr 2022</td> 
-   <td>**im Jahr 2025</td> 
+   <td>**2025</td> 
   </tr> 
   <tr> 
    <td>14</td> 
    <td> <p>Oktober 2021</p> <p>(mit Version 21.4)</p> </td> 
-   <td> <p>**im Jahr 2024</p> <p>(mit Version 24.4)</p> </td> 
+   <td> <p>**2024</p> <p>(mit Version 24.4)</p> </td> 
   </tr> 
   <tr> 
    <td>13</td> 
@@ -55,12 +57,12 @@ Die folgende Tabelle zeigt die Veröffentlichung und den Support-Zeitplan für d
   <tr> 
    <td>12</td> 
    <td> <p>Zweite Hälfte 2020</p> <p>(mit Version 2020.4)</p> </td> 
-   <td> <p>**im Jahr 2023</p> <p>(mit Version 2023.4)</p> </td> 
+   <td> <p>**2023</p> <p>(mit Version 2023.4)</p> </td> 
   </tr> 
   <tr> 
    <td>11</td> 
    <td> <p>Erstes Halbjahr 2020</p> <p>(mit Version 2020.2)</p> </td> 
-   <td> <p>** im Jahr 2023</p> <p>(mit Version 2023.2)</p> </td> 
+   <td> <p>** 2023</p> <p>(mit Version 2023.2)</p> </td> 
   </tr> 
   <tr> 
    <td>10</td> 
