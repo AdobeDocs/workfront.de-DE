@@ -6,9 +6,9 @@ description: Sie können einer Pinnwand schnell eine Ad-hoc-Karte hinzufügen un
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
 1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicks **[!UICONTROL Karte hinzufügen] > [!UICONTROL Neue Karte]**.
+
+   Die [!UICONTROL Kartendetails] angezeigt.
+
+   >[!NOTE]
+   >
+   >Wenn Sie außerhalb des Namensfelds klicken, wird die Ad-hoc-Karte automatisch als &quot;Unbenannt&quot;unten in der Spalte ganz links gespeichert. Um den Vorgang zu beenden, ohne die Karte zu speichern, müssen Sie auf [!UICONTROL **Abbrechen**] ohne auf eine andere Stelle im [!UICONTROL Kartendetails] ankreuzen.
+
 1. Im **[!UICONTROL Kartendetails]** die folgenden Informationen hinzufügen:
 
    <table style="table-layout:auto"> 
