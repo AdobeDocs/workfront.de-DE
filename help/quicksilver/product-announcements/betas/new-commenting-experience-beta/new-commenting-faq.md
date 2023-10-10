@@ -6,13 +6,13 @@ description: Dieser Artikel enthält eine Liste der am häufigsten gestellten Fr
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # Häufig gestellte Fragen zu neuen Kommentaren
 
@@ -24,7 +24,7 @@ Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues K
 
 Derzeit unterstützen wir nur Bildanlagen für Kommentare. Wenn Sie andere Dateitypen sehen möchten, senden Sie bitte eine Anfrage an ein Innovationslabor, damit wir verstehen können, wie erforderlich die Funktion ist.
 
-## Werden Sie im neuen Kommentierungserlebnis die Möglichkeit zurückgeben, den Status, die Bedingung oder das geplante Abschlussdatum eines Arbeitselements zu bearbeiten?
+## Werden Sie im neuen Kommentarerlebnis die Möglichkeit zurückgeben, den Status, die Bedingung, das Komprimierungsdatum oder das geplante Abschlussdatum eines Arbeitselements zu bearbeiten?
 
 Wir planen nicht, die Möglichkeit zur Durchführung dieser Aktionen wiederherzustellen, da diese in der Kopfzeile und in den Detailbereichen des Objekts verfügbar sind. Wir verstehen, dass wir Sie bitten, das Muster der Verwendung des Kommentarstreams zu ändern, aber wir tun dies, um die Kommentarerfahrung für ihren direkten Zweck der Kommunikation und Zusammenarbeit zu behalten.
 

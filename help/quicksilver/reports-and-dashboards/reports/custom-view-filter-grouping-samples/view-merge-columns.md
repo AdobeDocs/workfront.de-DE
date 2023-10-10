@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte"
+title: "Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte"
 description: Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * Beim Exportieren der Ansicht in eine PDF-Datei gilt die bedingte Formatierung für die erste Spalte einer zusammengeführten Spalte.
    * Beim Exportieren der Ansicht in eine Excel-Datei werden zusammengeführte Spalten als separate Spalten angezeigt. Die einzelnen Spalten zeigen auch ihre jeweiligen bedingten Formatierungsregeln an.
 
-* Spalten mit der **viewalias** -Attribut kann die Anzahl der Spalten begrenzen, die Sie zusammenführen können. Vermeiden Sie die Verwendung der **viewalias** -Attribut. Wenn Sie die Variable **viewalias** -Attribut in einer Spalte angeben, stellen Sie sicher, dass es sich um das letzte Element handelt, das in der Spalte aufgeführt ist.
+* Spalten mit der **viewalias** -Attribut kann die Anzahl der Spalten begrenzen, die Sie zusammenführen können. Um diese Beschränkungen zu vermeiden, sollten Sie die **viewalias** -Attribut. Wenn Sie die **viewalias** -Attribut in einer Spalte angeben, stellen Sie sicher, dass es sich um das letzte Element handelt, das in der Spalte aufgeführt ist.
 
 * Wenn Sie eine Liste mit gemeinsamen Spalten in ein Excel- oder Tabulator-Format exportieren, werden diese Spalten in der exportierten Datei getrennt.
 
@@ -109,7 +109,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.
 
 ## Zusammenführen von Daten aus zwei Spalten mit einem Zeilenumbruch
 
@@ -122,7 +122,7 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    >* Die Spalten, die Sie zusammenführen möchten, müssen nebeneinander liegen.
    >* Sie müssen auf die erste Spalte klicken, die Sie zusammenführen möchten.
 
-1. Klicken **In den Textmodus wechseln** und fügen Sie in der mittleren Spalte, die Sie in Schritt 1 hinzugefügt haben, den folgenden Code hinzu:
+1. Klicks **In den Textmodus wechseln** und fügen Sie in der mittleren Spalte, die Sie in Schritt 1 hinzugefügt haben, den folgenden Code hinzu:
 
    `value=<br>`
 
@@ -133,7 +133,7 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    `sharecol=true`
 
 
-1. Fügen Sie der ersten Spalte den folgenden Text hinzu:
+1. Klicken Sie auf die erste Spalte und dann auf **In den Textmodus wechseln** und fügen Sie der Spalte dann den folgenden Text hinzu:
 
    `sharecol=true`
 
@@ -188,4 +188,4 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.

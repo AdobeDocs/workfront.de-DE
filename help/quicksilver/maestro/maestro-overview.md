@@ -4,13 +4,13 @@ description: Adobe Maestro ist ein neues Angebot von Adobe Workfront. Sie könne
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Übersicht über Adobe Maestro
 
@@ -358,6 +358,7 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Sortieren von Gruppierungen in der Timeline-Ansicht |                               | ✓ |                  |
 | Arbeitsbereiche verbinden |                               | ✓ |                  |
 | Maestro-Datensätze und Taxonomien verbinden | ✓ |
+| In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
 | Verbinden von Maestro-Datensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
 | Seite mit Datensatzdetails | ✓ |                                  |                  |
 | Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-

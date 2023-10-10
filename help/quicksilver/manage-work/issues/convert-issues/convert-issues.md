@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 
 * Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
 
-* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie unter [Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel beschrieben.
+* Beim Konvertieren eines Problems werden die Berechtigungen für die ursprünglichen Probleme nicht an das konvertierte Objekt (Aufgabe oder Projekt) übertragen.
+
+* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie unter [Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel beschrieben.
 * Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokumentlinks angehängt sind:
 
    * Dokument
@@ -110,12 +112,17 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Gruppe</td> 
-   <td>Übertragungen aus der Vorlage. Wenn keine Gruppe in der Vorlage vorhanden ist, wird sie auf die Gruppe des Projekts festgelegt, zu der das Problem gehört.</td> 
+   <td><p> Die folgenden Szenarien existieren:</p>
+     <ul><li>Wenn während der Konvertierung eine Gruppe angegeben wird, wird dies zur Gruppe des Projekts</li>
+     <li>Wenn Sie mithilfe einer Vorlage in ein Projekt konvertieren und sich in der Vorlage eine Gruppe befindet und während der Konvertierung keine Gruppe angegeben wird, wird die Gruppe der Vorlage zur Gruppe des neuen Projekts</li>
+      <li> Wenn keine Gruppe in der Vorlage vorhanden ist und Sie während der Konvertierung keine Gruppe angeben, wird die Gruppe des Projekts des ursprünglichen Problems zur Gruppe des neuen Projekts</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Firma</td> 
-   <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
-  </tr> 
+   <td>Firma</td>    
+   <td>  Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td>
+
+</tr> 
   <tr> 
    <td>Projektbesitzer</td> 
    <td>Übertragungen aus dem Feld Vorlageneigentümer in der Vorlage. Andernfalls wird er auf den angemeldeten Benutzer festgelegt, der die Konvertierung durchführt. </td> 

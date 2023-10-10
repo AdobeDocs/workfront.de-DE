@@ -4,13 +4,13 @@ description: Sie können Datensätze und ihre Felder in einer Tabellenansicht an
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 5%
+source-wordcount: '1659'
+ht-degree: 4%
 
 ---
-
 
 # Tabellenansicht verwalten
 
@@ -145,24 +145,45 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >
    >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
-1. Um die Spaltenbreite zu vergrößern, ziehen Sie die Spaltentrennlinien und legen Sie sie an der gewünschten Stelle ab.
+1. Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
+
+   >[!NOTE]
+   >
+   >Wenn Sie mindestens eine Sortierung auf die Tabellenansicht anwenden, können Sie die Reihenfolge der Zeilen nicht ändern.
+
+1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
    >[!TIP]
    >
    >Die Änderungen an der Spaltenbreite und -reihenfolge sind dauerhaft und für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen.
 
-1. Um eine Spalte auszublenden, bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und klicken Sie auf **Feld ausblenden**
+1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Feld ausblenden**
 
    Oder
 
-   Klicks **Felder** in der Tabellen-Symbolleiste und deaktivieren Sie den Umschalter, der den auszublendenden Feldern zugeordnet ist.
+   Klicks **Felder** in der Tabellen-Symbolleiste und deaktivieren Sie den Umschalter, der den auszublendenden Feldern (oder Spalten) zugeordnet ist.
 
    >[!TIP]
    >
    >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
 
 
-1. Aus dem **Felder** aktivieren Sie den Umschalter, der mit den Feldern verknüpft ist, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
+1. Klicken Sie auf **Felder** aktivieren und aktivieren Sie den Umschalter, der den Feldern zugeordnet ist, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
+
+1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
+
+   1. Klicken Sie auf **suchen** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und das Feld mit der richtigen Übereinstimmung wird blau hervorgehoben.
+
+      Sie können beliebige Wörter oder Sonderzeichen verwenden, die auf dem Bildschirm sichtbar sind.
+
+      Sie können keine Suchbegriffe verwenden, die Feldern zugeordnet sind, die in der Tabellenansicht ausgeblendet sind.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
+
+   1. Klicken Sie auf **X** in das Suchfeld ein, um den Suchbegriff zu löschen.
+
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows}
 
@@ -388,12 +409,11 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
 
 1. Klicken Sie außerhalb der **Sortieren von Datensätzen nach** zum Schließen.
 
+   ![](assets/sorting-in-table-view.png)
+
    Die in der Tabelle angezeigten Informationen werden nach den von Ihnen ausgewählten Kriterien sortiert.
 
    In den für die Sortierung ausgewählten Feldern wird ein Sortiersymbol angezeigt, gefolgt von einer Zahl, die die Reihenfolge angibt, in der die Sortierung angewendet wird.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

@@ -1,11 +1,11 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Geschäftsfall genehmigen
-description: Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für ideal, dies zu tun.
+description: Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für optimal.
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Geschäftsfall genehmigen
 
-Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für ideal, dies zu tun. 
+Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für optimal. 
 
 Weitere Informationen zum Abschließen und Senden eines Geschäftsszenarios finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -56,7 +56,7 @@ Beachten Sie bei der Genehmigung eines Geschäftsfalls eines Projekts Folgendes:
 * Sie müssen manuell zu den einzelnen Projekten wechseln, für die die Genehmigung von Geschäftsfällen erforderlich ist, um zu sehen, dass die Genehmigung aussteht. Es gibt keinen Workfront-Benachrichtigungsmechanismus, der jemanden darauf hinweist, dass er den Geschäftsfall eines Projekts genehmigen muss.
 * Sie können die Projekte finden, die auf die Genehmigung des Geschäftsfalls warten, indem Sie entweder einen Projektbericht erstellen oder auf das Portfolio zugreifen, mit dem sie verknüpft sind. 
 
-   Weitere Informationen zu Portfolios finden Sie im Artikel [Übersicht über Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie im Artikel [Übersicht über Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Genehmigen Sie den Geschäftsfall, indem Sie einen Projektbericht erstellen
 
@@ -108,19 +108,19 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
 
    , um anzuzeigen, wo Sie als Portfolio-Manager benannt sind. 
 
-1. Klicken **Speichern+Schließen**.
+1. Klicks **Speichern+Schließen**.
 
    Beachten Sie, dass alle Projekte im Bericht den Status von **Angefordert**.
 
 1. Klicken Sie auf den Namen eines Projekts im Bericht, um es zu öffnen.
-1. Klicken **Geschäftsfall** im linken Bereich.
-1. Klicken **Genehmigen** oder **Ablehnen** im Bereich &quot;Business Case Summary&quot;, um den Geschäftsfall zu genehmigen oder abzulehnen. 
+1. Klicks **Geschäftsfall** im linken Bereich.
+1. Klicks **Genehmigen** oder **Ablehnen** im Bereich &quot;Business Case Summary&quot;, um den Geschäftsfall zu genehmigen oder abzulehnen.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
-   Der Projektstatus wird in **Genehmigt** wenn der Geschäftsfall genehmigt wurde.
+   Der Projektstatus ändert sich in **Genehmigt** wenn der Geschäftsfall genehmigt wurde.
 
-   Der Projektstatus wird in **Zurückgewiesen** wenn der Geschäftsfall abgelehnt wird.
+   Der Projektstatus ändert sich in **Abgelehnt** wenn der Geschäftsfall abgelehnt wird.
 
    >[!NOTE]
    >

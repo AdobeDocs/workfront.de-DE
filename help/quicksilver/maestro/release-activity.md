@@ -4,13 +4,13 @@ description: Verwenden Sie Maestro, um benutzerdefinierte Objekte, Felder und Ar
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-Release-Aktivität
 
@@ -34,13 +34,21 @@ In diesem Abschnitt werden die Funktionen und Patches aufgelistet, die nach dem 
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
 
+## Woche vom 9. Oktober 2023
+
+### In Tabellenansicht suchen
+
+Vorschau und Produktion: 9. Oktober 2023
+
+Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen in allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
+
 ## Woche vom 18. September 2023
 
 ### Zeilen neu anordnen
 
 Vorschau und Produktion: 20. September 2023
 
-Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenansicht einer Datensatztypseite neu anordnen.
+Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenansicht einer Datensatztypseite neu anordnen. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
 
 ## Woche vom 4. September 2023
 
