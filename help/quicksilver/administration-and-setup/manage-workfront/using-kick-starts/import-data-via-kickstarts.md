@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -23,7 +23,7 @@ Kick-Starts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten fü
 Dieser Prozess ist in drei Hauptaufgaben unterteilt:
 
 * Exportieren Sie zunächst eine Kick-Start-Vorlage als Tabellendatei
-* Als zweites füllen Sie die Tabelle mit Ihren Daten aus
+* Als zweites füllen Sie die Tabelle mit Ihren Daten
 * Schließlich importieren Sie die ausgefüllte Tabelle in Workfront
 
 Jedes dieser Verfahren wird in der richtigen Reihenfolge in diesem Artikel beschrieben.
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,9 +67,9 @@ So exportieren Sie eine Kick-Start-Vorlage:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** > **Daten exportieren (Kick-Starts)**.
+1. Klicks **System** > **Daten exportieren (Kick-Starts)**.
 
-1. Klicken **Weitere Optionen** und wählen Sie dann die Informationstypen aus, die Sie einbeziehen möchten.
+1. Klicks **Weitere Optionen** und wählen Sie dann die Informationstypen aus, die Sie einbeziehen möchten.
 
    Jede ausgewählte Option stellt eine Sammlung mehrerer Registerkarten im exportierten Arbeitsblatt dar. Wenn Sie beispielsweise die Option Bericht auswählen, werden alle zum Erstellen eines Berichts erforderlichen Objekte (Ansichten, Filter, Gruppierungen, Berichte) in die Tabelle aufgenommen.
 
@@ -267,7 +267,7 @@ So exportieren Sie eine Kick-Start-Vorlage:
     </tbody> 
    </table>
 
-1. Klicken **Download**.
+1. Klicks **Herunterladen**.
 1. Fahren Sie mit [Füllen Sie die Tabellenvorlage mit Ihren Daten](#populate-the-spreadsheet-template-with-your-data) , um die Vorlage mit Ihren Daten zu füllen.
 
 ## Füllen Sie die Tabellenvorlage mit Ihren Daten {#populate-the-spreadsheet-template-with-your-data}
@@ -276,13 +276,13 @@ So exportieren Sie eine Kick-Start-Vorlage:
 * [Datensatz importieren](#import-a-record)
 * [Datum einschließen](#include-dates)
 * [Verwenden von Platzhaltern](#use-wildcards)
-* [Attributnamensetzung für IDs](#attribute-name-substitution-for-ids)
+* [Wertersetzung für IDs durch Attributnamen](#attribute-name-substitution-for-ids)
 
 ### Über die im Arbeitsblatt enthaltenen Registerkarten (Datenblätter) {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
 
 >[!TIP]
 >
->Um besser zu verstehen, wie Sie die Informationen in den einzelnen Spalten formatieren müssen, wenn Sie die Kick-Start-Vorlage füllen, sollten Sie eine Übung durchführen, indem Sie einen Kick-Start mit vorhandenen Workfront-Daten zu den Objekten exportieren, die Sie importieren möchten. Anweisungen finden Sie unter [Daten aus Adobe Workfront über Kick-Starts exportieren](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>Um besser zu verstehen, wie Sie die Informationen in den einzelnen Spalten formatieren müssen, wenn Sie die Kick-Start-Vorlage füllen, sollten Sie eine Übung durchführen, indem Sie einen Kick-Start mit vorhandenen Workfront-Daten zu den Objekten exportieren, die Sie importieren möchten. Anweisungen finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 Wenn Sie eine leere Kick-Starts-Vorlage öffnen, sind verschiedene Registerkarten (Datenblätter) verfügbar. Sie hängen von den Objekten ab, die Sie zum Herunterladen ausgewählt haben. Jedes Objekt stellt ein Objekt in der Anwendung dar, z. B. Projekt, Aufgaben, Stunden, Dashboard und Benutzer:
 
@@ -311,16 +311,21 @@ Jede Tabellenzeile entspricht einem eindeutigen Objekt.
 
 1. Füllen Sie die Zelle im **ID** auf eine der folgenden Arten:
 
-   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben) **TRUE** im **isNew** -Spalte) eine beliebige Zahl für die ID angeben. Diese Nummer muss im Arbeitsblatt eindeutig sein.
+   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben) **TRUE** im **isNew** -Spalte), geben Sie eine beliebige Zahl für die ID an. Diese Nummer muss im Arbeitsblatt eindeutig sein.
 
    * Wenn das zu importierende Objekt bereits im Workfront-System vorhanden ist (und Sie eingegeben haben) **FALSE** im **isNew** ), muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
+
+     ![Beispiel-ID für eine Gruppe](assets/kick-start-group-example.png)
+
+   * Beim Importieren eines Projekts müssen Sie eine Gruppen-ID angeben.
+
+      * Wenn die Gruppe bereits in Workfront vorhanden ist, müssen Sie ihre eindeutige ID der **setGroupID** -Feld für das Projekt.
+      * Wenn die Gruppe nicht in Workfront vorhanden ist, können Sie die **GRUPPENgruppe** in Ihre Importdatei eintragen, legen Sie die **isNew** -Feld zu **TRUE** im Gruppenblatt und geben Sie eine numerische ID für die neue Gruppe in der **ID** Spalte. Die **setGroupID** -Feld für das neue Projekt muss mit der numerischen **ID** für die neue Gruppe.
 
      **Beispiel:** Bei einem Projekt wird der Wert angezeigt, der im **setGroupID** -Spalte muss eine der folgenden Eigenschaften aufweisen:
 
       * Die GUID für eine bestehende Gruppe in Ihrer Workfront-Instanz
       * Der Wert (Zahl) in der Spalte ID auf der **GRUPPENgruppe** Blatt, wenn Sie während des Imports eine neue Gruppe erstellen
-
-        ![Beispiel-ID für eine Gruppe](assets/kick-start-group-example.png)
 
 1. Geben Sie Werte für die erforderlichen Felder und alle anderen Felder ein, die während des Imports ausgefüllt werden sollen.
 1. (Optional) So fügen Sie benutzerdefinierte Daten hinzu:
@@ -338,9 +343,9 @@ Workfront kann die meisten Datumsformate verarbeiten. Sie müssen jedoch sichers
 
 >[!TIP]
 >
->Für die meisten Benutzer ist es am einfachsten, das Format MM/TT/JJJJ zu verwenden (z. B.: 10.7.2022).
+>Für die meisten Benutzer ist es am einfachsten, das Format MM/TT/JJJJ zu verwenden (z. B. 07/10/2022).
 
-Workfront akzeptiert auch Zeitwerte als Teil des Datums (z. B.: 07/10/2022 01:30 oder 07/10/2022 (13:00 PM).
+Workfront akzeptiert auch Zeitwerte als Teil des Datums (z. B. 07/10/2022 01:30 oder 07/10/2022 1:00 PM).
 
 Wenn Sie einen Zeitpunkt im Datum weglassen, führt Workfront einen der folgenden Schritte aus:
 
@@ -381,12 +386,12 @@ Sie können die folgenden Platzhalterzeichen verwenden, wenn Sie Ihre Kick-Start
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Dieser Platzhalter wurde speziell für Kick-Start-Benutzerimporte hinzugefügt. Wenn ein Workfront-Konto erstellt wird, wird ein Benutzer mit der Zugriffsebene "Systemadministrator"erstellt. Der dem Standardadministrator zugewiesene Benutzername kann beim Erstellen anderer Benutzer in dem Konto als Präfix verwendet werden.</p> <p>Da Benutzernamen für alle Kunden eindeutig sein müssen, ist dies nützlich, wenn Sie mehrere Personen mit sehr häufigen Benutzernamen haben, z. B. John Smith, der den Benutzernamen "jsmith"haben könnte. Indem Sie der Zuweisung des Benutzernamens den standardmäßigen Administrator-Benutzernamen voranstellen, garantieren Sie, dass jeder Benutzername eindeutig ist (z. B.: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tipp: Eine elegantere Methode, um sicherzustellen, dass Benutzernamen systemweit eindeutig sind, besteht darin, die E-Mail-Adresse des Kontakts in die <strong>setUsername</strong> -Feld.</p> </td> 
+   <td> <p>Dieser Platzhalter wurde speziell für Kick-Start-Benutzerimporte hinzugefügt. Wenn ein Workfront-Konto erstellt wird, wird ein Benutzer mit der Zugriffsebene "Systemadministrator"erstellt. Der dem Standardadministrator zugewiesene Benutzername kann beim Erstellen anderer Benutzer in dem Konto als Präfix verwendet werden.</p> <p>Da Benutzernamen für alle Kunden eindeutig sein müssen, ist dies nützlich, wenn Sie mehrere Personen mit sehr häufigen Benutzernamen haben, z. B. John Smith, der den Benutzernamen "jsmith"haben könnte. Indem Sie der Zuweisung des Benutzernamens den standardmäßigen Administrator-Benutzernamen voranstellen, garantieren Sie, dass jeder Benutzername eindeutig ist (z. B.: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tipp: Eine elegantere Möglichkeit, sicherzustellen, dass Benutzernamen systemweit eindeutig sind, besteht darin, die E-Mail-Adresse des Kontakts in die <strong>setUsername</strong> -Feld.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Attributnamensetzung für IDs  {#attribute-name-substitution-for-ids}
+### Wertersetzung für IDs durch Attributnamen  {#attribute-name-substitution-for-ids}
 
 Obwohl es sich nach Möglichkeit empfiehlt, IDs zu verwenden, ist es manchmal nicht praktisch, beim Festlegen einer **setAttributeID** -Wert. Sie können Werte nach Namen referenzieren, indem Sie einfach die Spaltenüberschrift ändern.
 
@@ -406,7 +411,7 @@ Obwohl es sich nach Möglichkeit empfiehlt, IDs zu verwenden, ist es manchmal ni
 
 * **(Benutzerimport)**
 
-  Wenn Sie Benutzer importieren, füllen Sie die **setRoleID** aus einer Liste von Rollen auf der **ROLLE** Registerkarte.
+  Wenn Sie Benutzer importieren, füllen Sie die **setRoleID** aus einer Liste von Rollen auf der **ROLLROLLE** Registerkarte.
 
   Einige Rollen-IDs sind für Datensätze bestimmt, die bereits im Konto vorhanden sind, andere werden während des Imports erstellt.
 
@@ -415,7 +420,7 @@ Obwohl es sich nach Möglichkeit empfiehlt, IDs zu verwenden, ist es manchmal ni
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie links im Arbeitsblatt eine Spalte hinzu **setRoleID** Spalte.
-   * Benennen Sie die neue Spalte. **#setRoleID ROLE name**.
+   * Benennen Sie die neue Spalte **#setRoleID ROLE name**.
    * Geben Sie für Rollenzuweisungen an vorhandene Datensätze die Rollennamen in die **#setRoleID ROLE name** Spalte.
 
      Geben Sie für Rollenzuweisungen an neue Rollendatensätze die ID ein, die Sie im Rollenblatt in setRoleID zugewiesen haben.
@@ -429,7 +434,7 @@ Nachdem Sie die Excel-Vorlage mit Ihren Daten gefüllt haben, können Sie die Da
 Der Kick-Start-Import unterstützt die folgenden Dateitypen:
 
 * XML-basiertes Excel (&#42;.xlsx)
-* Ältere Excel (&#42;.xls)
+* Ältere Excel-Version (&#42;.xls)
 * Zip (&#42;ZIP) xlsx- oder xls-Datei
 
   >[!NOTE]
@@ -441,11 +446,11 @@ So importieren Sie die Tabellenkalkulationsvorlagen-Daten in Workfront:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** >**Daten importieren (Kick-Starts)**.
+1. Klicks **System** >**Daten importieren (Kick-Starts)**.
 
 1. Im **Hochladen von Daten mit der Kick-Start-Tabelle** Abschnitt, klicken Sie auf **Datei auswählen**, suchen Sie dann die ausgefüllte Tabelle und wählen Sie sie aus.
 
-1. Klicken **Hochladen.**
+1. Klicks **Hochladen.**
 
    Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, wird das Programm mit einem Timeout beendet und die Datei kann nicht hochgeladen werden.
 

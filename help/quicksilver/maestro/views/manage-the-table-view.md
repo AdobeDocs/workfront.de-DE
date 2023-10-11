@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >
    >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
-1. Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
-
-   >[!NOTE]
-   >
-   >Wenn Sie mindestens eine Sortierung auf die Tabellenansicht anwenden, können Sie die Reihenfolge der Zeilen nicht ändern.
-
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Die Zeilen einer Maestro-Tabellenansicht zeigen einzelne Datensätze des ausgew�
 
 Sie können bis zu 10.000 Datensätze (oder Zeilen) für einen Datensatztyp in Maestro haben.
 
-Das Hinzufügen von Zeilen zu einer Maestro-Tabellenansicht entspricht dem Erstellen von Datensätzen in einer Tabelle.
+1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
+1. Fügen Sie Einträge (oder Zeilen) hinzu, wie im Artikel beschrieben. [Datensätze erstellen](../records/create-records.md).
 
-Weitere Informationen finden Sie unter [Datensätze erstellen](../records/create-records.md).
+   Die von Ihnen in der Tabellenansicht hinzugefügten Datensätze werden sofort gespeichert und sind für alle Benutzer sichtbar, die auf Maestro zugreifen. <!--this will change with permissions-->
+
+1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
+
+   >[!NOTE]
+   >
+   >Wenn Sie mindestens eine Sortierung auf die Tabellenansicht anwenden, können Sie die Reihenfolge der Zeilen nicht ändern.
 
 <!-- this is not possible right now:
 
