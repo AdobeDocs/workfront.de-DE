@@ -6,14 +6,19 @@ title: Kartenliste verwenden
 description: Sie können eine Kartenliste in einem Workflow erstellen und die Karten zu Iterationen hinzufügen.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Kartenliste verwenden
+
+>[!IMPORTANT]
+>
+>Workflows sind nicht für alle Kunden verfügbar.
 
 Sie können eine Kartenliste in einem Workflow erstellen und die Karten zu Iterationen hinzufügen.
 
@@ -44,9 +49,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-boards}}
 
-1. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
 1. Klicken Sie auf [!UICONTROL **Kartenliste**] Registerkarte.
-1. Klicken [!UICONTROL **Karte hinzufügen**].
+1. Klicks [!UICONTROL **Karte hinzufügen**].
 1. Im [!UICONTROL **Karte erstellen/bearbeiten**] Fügen Sie die folgenden Informationen hinzu:
 
    <table style="table-layout:auto"> 
@@ -95,28 +100,28 @@ Um eine Karte zu löschen, wählen Sie sie in der Liste aus und klicken Sie auf 
 
 Karten können nur über die Iterationskarte archiviert werden. Wenn eine Karte archiviert wird, wird sie nicht in der Kartenliste angezeigt, es sei denn, Sie filtern nach archivierten Karten. Informationen zur Archivierung einer Karte finden Sie unter [Karte aus einer Pinnwand löschen oder archivieren](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
-1. Rufen Sie die Kartenliste für den Workstream auf.
-1. Klicken [!UICONTROL **Filter**] und wählen Sie [!UICONTROL **Alle**], [!UICONTROL **Aktive Karten**] oder [!UICONTROL **Archivierte Karten**].
+1. Greifen Sie auf die Kartenliste für den Workstream zu.
+1. Klicks [!UICONTROL **Filter**] und wählen [!UICONTROL **Alle**], [!UICONTROL **Aktive Karten**] oder [!UICONTROL **Archivierte Karten**].
 
    Wenn ein anderer Filter als der Standard auf die Kartenliste angewendet wird, wird auf dem Filtersymbol ein Indikator angezeigt ![Filter angewendet](assets/boards-filterapplied-30x30.png).
 
 ### In der Kartenliste suchen
 
-1. Rufen Sie die Kartenliste für den Workstream auf.
-1. Klicken [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
+1. Greifen Sie auf die Kartenliste für den Workstream zu.
+1. Klicks [!UICONTROL **Suche**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
 
    Alle Karten, die den Suchbegriff enthalten, werden angezeigt.
 Klicken Sie auf das X, um die Suche zu löschen.
 
-   ![Nach Karten in einer Pinnwand suchen](assets/boards-searchbox.png)
+   ![Suchen nach Karten in einer Pinnwand](assets/boards-searchbox.png)
 
 ## Hinzufügen von Karten zu einer Iteration
 
 >[!NOTE]
 >
->Sie müssen eine Iteration erstellen, bevor Sie Karten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>Sie müssen eine Iteration erstellen, bevor Sie ihr Karten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Rufen Sie die Kartenliste für den Workstream auf.
+1. Greifen Sie auf die Kartenliste für den Workstream zu.
 1. Wählen Sie die [!UICONTROL **Iterationsansicht**] um zu sehen, welche Karten einer Iteration zugewiesen und welche nicht geplant sind.
 1. Wählen Sie eine nicht geplante Karte in der Liste aus und klicken Sie auf [!UICONTROL **Bearbeiten**].
 1. Wählen Sie eine Iteration im [!UICONTROL **Iterationen**] -Feld.
@@ -130,4 +135,3 @@ Klicken Sie auf das X, um die Suche zu löschen.
 >[!TIP]
 >
 >Wenn Sie eine Iterationsprozessplatine erstellt haben, werden alle ungeplanten Karten auf der Kartenliste im [!UICONTROL Rückstand] Spalte. Wenn eine Karte in eine andere Spalte verschoben wird, wird sie Teil der aktiven Iteration. Karten, die Sie der Iteration in der Kartenliste hinzufügen, werden einer Spalte entsprechend ihrem Status hinzugefügt.
-

@@ -6,14 +6,18 @@ description: Sie können eine Aufgabe oder ein Problem in einer Pinnwand in Adob
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen vorhandener Aufgaben oder Probleme zu einem [!DNL Adobe Workfront] Pinnwand oder Workstream
+
+>[!IMPORTANT]
+>
+>Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
 Sie können eine Aufgabe oder ein Problem zu einer Pinnwand oder einem Workstream hinzufügen in [!DNL Adobe Workfront] aus einer Listen- oder Berichtsansicht oder aus den Objektdetails.
 

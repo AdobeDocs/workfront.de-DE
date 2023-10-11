@@ -6,16 +6,20 @@ description: Sie können Karten Tags hinzufügen, um visuell anzuzeigen, dass si
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # Tags hinzufügen
 
-Sie können Karten Tags hinzufügen, um visuell anzuzeigen, dass sie ähnlich sind. Anschließend können Sie nach diesen Tags filtern, um zugehörige Karten anzuzeigen. Pinnwand-Tags werden nicht von Pinnwänden gemeinsam genutzt, Workstream-Tags sind jedoch auf allen Pinnwänden in einem Workstream verfügbar.
+Sie können Karten Tags hinzufügen, um visuell anzuzeigen, dass sie ähnlich sind. Anschließend können Sie nach diesen Tags filtern, um zugehörige Karten anzuzeigen.
+
+>[!NOTE]
+>
+>Tags werden nicht zwischen Pinnwänden freigegeben.
 
 ## Zugriffsanforderungen
 
@@ -44,64 +48,70 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-boards}}
 
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) neben dem Namen der Pinnwand und wählen Sie **[!UICONTROL Tag-Manager]**.
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Im [!UICONTROL Tag-Manager] Dialogfeld auswählen [!UICONTROL **Tag hinzufügen**] im [!UICONTROL Pinnwand-Tags] Abschnitt.
-1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
+1. Im [!UICONTROL Tag-Manager] Dialogfeld auswählen [!UICONTROL **Tag hinzufügen**] im [!UICONTROL Pinnwandtags] Abschnitt.
+1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdownmenü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um weitere Tags zu erstellen.
-1. Klicken **[!UICONTROL Fertig]** in der oberen rechten Ecke des Feldes.
+1. Klicks **[!UICONTROL Fertig]** in der oberen rechten Ecke des Feldes.
 
    ![Tag Manager](assets/tag-manager-2023.png)
 
 ## Erstellen von Tags für Workflows
 
+>[!IMPORTANT]
+>
+>Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
+
+Workstream-Tags stehen allen Pinnwänden in einem Workstream zur Verfügung.
+
 {{step1-to-boards}}
 
-1. Klicken Sie im Dashboard auf [!UICONTROL **Workflow anzeigen**] , um einen Workflow zu öffnen.
+1. Klicken Sie im Dashboard auf [!UICONTROL **Arbeitsablauf anzeigen**] , um einen Workflow zu öffnen.
 1. Öffnen Sie eine Pinnwand. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) neben dem Namen der Pinnwand und wählen Sie **[!UICONTROL Tag-Manager]**.
 
    Oder
 
-   Klicken [!UICONTROL **Konfigurieren**] , um [!UICONTROL Workstream konfigurieren] Bereich. Klicken Sie anschließend auf **[!UICONTROL Tag-Manager]**.
+   Klicks [!UICONTROL **Konfigurieren**] , um die [!UICONTROL Konfigurieren von Workstream] Bedienfeld. Klicken Sie anschließend auf **[!UICONTROL Tag-Manager]**.
 
 1. Im [!UICONTROL Tag-Manager] Dialogfeld auswählen [!UICONTROL **Tag hinzufügen**] im Abschnitt &quot;Workstream-Tags&quot;.
-1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
+1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdownmenü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um weitere Tags zu erstellen.
-1. Klicken **[!UICONTROL Fertig]** in der oberen rechten Ecke des Feldes.
+1. Klicks **[!UICONTROL Fertig]** in der oberen rechten Ecke des Feldes.
 
    ![Tag Manager](assets/tag-manager-workstreams.png)
 
 ## Tag zu einer Karte hinzufügen
 
-1. Greifen Sie auf eine Pinnwand zu.
+1. Öffnen Sie eine Pinnwand.
 1. Um die Kartendetails zu bearbeiten, klicken Sie auf die Karte (nicht im Kartennamen).
 
    Oder
 
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-1. Im **[!UICONTROL Tags]** Geben Sie den Namen eines vorhandenen Tags ein und wählen Sie es aus den Suchergebnissen aus.\
+1. Im **[!UICONTROL Tags]** den Namen eines vorhandenen Tags eingeben und aus den Suchergebnissen auswählen.\
    Oder\
-   Klicken Sie auf **[!UICONTROL Bearbeiten]**&#x200B; ![Tag bearbeiten](assets/boards-edittag-30x29.png) und erstellen Sie ein neues Tag im Tag-Manager. Klicken **Fertig** um zur Karte zurückzukehren, wählen Sie dann das Tag auf der Karte aus.
+   Klicken Sie auf **[!UICONTROL Bearbeiten]** Symbol &#x200B; ![Tag bearbeiten](assets/boards-edittag-30x29.png) und erstellen Sie ein neues Tag im Tag-Manager. Klicks **Fertig** um zur Karte zurückzukehren, wählen Sie dann das Tag auf der Karte aus.
 1. Klicken Sie auf **Schließen**.
 
 ## Tag bearbeiten
 
-1. Greifen Sie auf eine Pinnwand zu.
+1. Öffnen Sie eine Pinnwand.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) neben dem Namen der Pinnwand und wählen Sie **[!UICONTROL Tag-Manager]**.
 
    ![Wählen Sie Tag-Manager aus.](assets/boards-tagmanager-350x189.png)
 
 1. (Bedingt) Klicken Sie auf den Tag-Namen, um den Text zu bearbeiten.
 1. (Bedingt) Klicken Sie auf die [!UICONTROL color] Dropdown-Menü, um die Tag-Farbe zu ändern.
-1. Klicken **[!UICONTROL Fertig]**.
+1. Klicks **[!UICONTROL Fertig]**.
 
 ## Entfernen eines Tags aus einer Karte
 
-1. Greifen Sie auf eine Pinnwand zu.
+1. Öffnen Sie eine Pinnwand.
 1. Um die Kartendetails zu bearbeiten, klicken Sie auf die Karte (nicht im Kartennamen).
 
    Oder
@@ -113,10 +123,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Tag löschen
 
-1. Greifen Sie auf eine Pinnwand zu.
+1. Öffnen Sie eine Pinnwand.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) neben dem Namen der Pinnwand und wählen Sie **[!UICONTROL Tag-Manager]**.
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
 1. Suchen Sie das Tag, das Sie löschen möchten, und klicken Sie dann auf **[!UICONTROL Löschen]** icon ![Tag löschen](assets/copy-of-boards-delete-30x27.png).
-1. Klicken **[!UICONTROL Fertig]**.
+1. Klicks **[!UICONTROL Fertig]**.

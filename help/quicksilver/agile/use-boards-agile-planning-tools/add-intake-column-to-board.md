@@ -7,10 +7,10 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,12 @@ Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer 
 
 Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar.
 
-Die Aufnahmespalte ist nicht auf Pinnwänden verfügbar, die Teil eines Workflows sind. Stattdessen können Sie eine Rückstandsspalte einrichten, um Karten aus der Kartenliste abzurufen. Weitere Informationen zum Hinzufügen einer Spalte mit dem Rückstand zu einer Pinnwand in einem Workstream finden Sie unter [Konfigurieren des Rückstands auf einer Arbeitsfläche](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 Die Ansauspalte ist auf 300 Aufgaben und 300 Probleme beschränkt. Die Standardreihenfolge der Elemente in der Ansaugluft-Spalte lautet wie folgt:
 
 Aufgaben:
 
 * Primäre Reihenfolge: Projektname
-* Sekundäre Reihenfolge: Struktur der Arbeitsaufschlüsselung
+* Sekundäre Reihenfolge: Struktur für Auffächerung des Arbeitsaufwands
 
 Probleme:
 

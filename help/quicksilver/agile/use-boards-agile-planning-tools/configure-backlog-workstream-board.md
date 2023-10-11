@@ -7,14 +7,18 @@ description: Sie können festlegen, dass in einem Workstream eine Spalte mit dem
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren des Rückstands auf einer Arbeitsfläche
+
+>[!IMPORTANT]
+>
+>Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
 Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand auf einer Pinnwand angezeigt werden soll, und eine Abfrage für die Karten definieren, die aus der Liste der Workstream-Karten in den Pinnwandspeicher gezogen werden.
 

@@ -7,14 +7,18 @@ description: Metriken sind für jede Iteration in einem Workstream auf der Itera
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Iterationsmetriken überprüfen
+
+>[!IMPORTANT]
+>
+>Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
 Metriken sind für jede Iteration in einem Workstream, auf der Iterationsprozessplatine und im Dashboard verfügbar.
 
@@ -43,11 +47,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-boards}}
 
-1. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
 1. Wählen Sie die [!UICONTROL Iterationsvorgang] Pinnwand.
 1. Überprüfen Sie den Metrikbereich über der Pinnwand oben rechts. Klicken Sie auf die Nach-oben- und Nach-unten-Pfeile, um zwischen den Iterationen zu wechseln.
 
-   Die folgenden Metriken werden angezeigt: Gesamtzahl der der der Iteration zugewiesenen Punkte, der verbleibenden Punkte, die bei der Iteration noch nicht abgeschlossen wurden, und der Anzahl der Punkte, die bei der Iteration abgeschlossen wurden.
+   Die folgenden Metriken werden angezeigt: Gesamtzahl der der Iteration zugewiesenen Punkte, die verbleibenden Punkte, die bei der Iteration noch nicht abgeschlossen sind, und die Anzahl der bei der Iteration abgeschlossenen Punkte.
 
 1. (Optional) Klicken Sie auf die [!UICONTROL **Iterationsdetails**] icon ![Iterationsdetails](assets/iteration-details-button.png) , um das Detaildialogfeld für die ausgewählte Iteration zu öffnen.
 
@@ -55,6 +59,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-boards}}
 
-Die folgenden Metriken werden im Dashboard für die aktuelle Iteration des Workflows angezeigt: Gesamtzahl der der der Iteration zugewiesenen Punkte, Anzahl der abgeschlossenen Punkte und der verbleibenden Punkte, die bei der Iteration noch nicht abgeschlossen sind.
+Die folgenden Metriken werden im Dashboard für die aktuelle Iteration des Workflows angezeigt: Gesamtanzahl der der Iteration zugewiesenen Punkte, Anzahl der abgeschlossenen Punkte und die verbleibenden Punkte, die bei der Iteration noch nicht abgeschlossen wurden.
 
 Um Metriken für andere Iterationen zu überprüfen, müssen Sie die Iterationsfläche öffnen.
