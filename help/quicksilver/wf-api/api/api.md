@@ -7,9 +7,9 @@ description: Workfront API-Artikel
 author: Becky
 feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7b7261a7d26a898697c9a2223c9fbeaecebccf99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Neue Funktionen in API Version 17](../../wf-api/api/new-api-version-17.md)
 * [Neue Funktionen in API Version 16](../../wf-api/api/new-api-version-16.md)
 * [Neue Funktionen in API Version 15](../../wf-api/api/new-api-version-15.md)
 * [Neue Funktionen in API Version 14](../../wf-api/api/new-api-version-14.md)
