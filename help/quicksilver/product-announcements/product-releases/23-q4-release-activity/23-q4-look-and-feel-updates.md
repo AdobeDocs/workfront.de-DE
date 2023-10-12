@@ -4,10 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom vierten Quartal 2023 vorgenommen wurden.
 
 Eine Liste aller mit der Version vom vierten Quartal 2023 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indikator für manuell angepasste Zuordnungen im Arbeitslastausgleich
+
+>[!NOTE]
+>
+>Vorschau-Version: 12. Oktober 2023; Produktionsversion für alle Kunden: TBD
+
+Um mehr Klarheit über manuelle Anpassungen oder die Konfiguration im Arbeitslastausgleich zu schaffen, zeigen manuell angepasste stündliche Zuordnungen jetzt ein Stiftsymbol an.
+
+Weitere Informationen finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Neue Look-and-Feel-Aktualisierungen für Registerkarten im Bereich Setup-Benachrichtigungen
 

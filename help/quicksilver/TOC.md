@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
 workflow-type: tm+mt
-source-wordcount: '13352'
+source-wordcount: '13344'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 1%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 4. Quartal 2023 {#release-23-q4}
          * [4. Quartal 2023 - Versionsübersicht](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-         * [Veröffentlichungswoche 2023 Q4 vom 24. Juli 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-         * [Veröffentlichungswoche 2023 Q4 vom 31. Juli 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-         * [Veröffentlichungswoche 2023 Quartal 2023 vom 14. August 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-         * [Release-Woche 2023 Q4 vom 21. August 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-         * [Release-Woche 2023 Q4 vom 11. September 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-         * [Veröffentlichungswoche 2023 Q4 vom 2. Oktober 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+         * [Verbesserungen für Q4-Administratoren im Jahr 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+         * [Verbesserungen für Q4-Mainboards im Jahr 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+         * [Verbesserungen des Finanzmanagements im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+         * [Verbesserungen für das 4. Quartal 2023 - Startseite](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [Verbesserungen der Integration im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+         * [Projektverbesserungen im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [Weitere Verbesserungen im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * Version 23.3 {#release-23-3}
          * [23.3 Versionsübersicht](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

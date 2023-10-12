@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2808'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
@@ -47,7 +47,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Fügen Sie Berechtigungen oder höher hinzu, die Zuweisen zu den Aufgaben und Problemen enthalten, für die Sie Zuordnungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie Berechtigungen für die Aufgaben, für die Sie zusätzlich zur Aktualisierung der Zuordnungen die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Arbeitslastausgleich finden Sie in der <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in diesem Artikel. </p> <p>Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Aufgabe freigeben </a><span> Informationen zu Berechtigungen für Probleme finden Sie unter</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Problem freigeben </a></span>. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Fügen Sie Berechtigungen oder höher hinzu, die Zuweisen zu den Aufgaben und Problemen enthalten, für die Sie Zuordnungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie Berechtigungen für die Aufgaben, für die Sie zusätzlich zur Aktualisierung der Zuordnungen die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Arbeitslastausgleich finden Sie in der <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in diesem Artikel beschrieben. </p> <p>Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Aufgabe freigeben </a><span> Informationen zu Berechtigungen für Probleme finden Sie unter</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Problem freigeben </a></span>. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,9 +80,9 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 * Sie können die täglichen, wöchentlichen und monatlichen Zuordnungen der Benutzer zu ihren Arbeitselementen anzeigen. Aktivieren Sie die Wochen- oder Monatsansicht, um wöchentliche oder monatliche Zuordnungen anzuzeigen.
 * Sie können den Lastenausgleich verwenden, um die tägliche, wöchentliche oder monatliche Zuordnung der Benutzer zu den Aufgaben oder Problemen zu ändern. Informationen zum Anpassen der Ansicht des Lastenausgleichs finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   >[!NOTE]
-   >
-   >Es wird empfohlen, bei der Verwaltung von Benutzerzuordnungen immer zu entscheiden, welchen Zeitraum (täglich, wöchentlich oder monatlich) Sie verwenden möchten, und nicht für dieselben Arbeitselemente zwischen ihnen zu wechseln. Durch die Aktualisierung der wöchentlichen Zuordnungen für denselben Benutzer, für den Sie zuvor die tägliche Zuordnung aktualisiert haben, wird die tägliche Zuordnung für den Benutzer geändert.
+  >[!NOTE]
+  >
+  >Es wird empfohlen, bei der Verwaltung von Benutzerzuordnungen immer zu entscheiden, welchen Zeitraum (täglich, wöchentlich oder monatlich) Sie verwenden möchten, und nicht für dieselben Arbeitselemente zwischen ihnen zu wechseln. Durch die Aktualisierung der wöchentlichen Zuordnungen für denselben Benutzer, für den Sie zuvor die tägliche Zuordnung aktualisiert haben, wird die tägliche Zuordnung für den Benutzer geändert.
 
 * Sie können die Zuordnungen für Arbeits- und Nichtarbeitstage aktualisieren.
 * Die Zeitstempel für die geplanten Start- und Abschlussdaten der Arbeitselemente sowie den Zeitplan des Projekts sind wichtig, wenn Workfront die tägliche Zuweisung für die Aufgabe automatisch berechnet.
@@ -93,8 +93,7 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 >
 >Workfront berechnet die Zuweisung der 2 Stunden über die 2 Tage der Laufzeit mithilfe der folgenden Formel:
 >
->
-```
+>```
 >
 >   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
@@ -105,7 +104,7 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 >
 >  (2 / 13) * 8 = 1,23 Zuordnungsstunden für den zweiten Tag
 >
->  In den obigen Berechnungen entspricht 13 der Gesamtanzahl der für die Aufgabe verfügbaren Stunden: 5 + 8 = 13
+>  In den obigen Berechnungen ist 13 die Gesamtanzahl der für die Aufgabe verfügbaren Stunden: 5 + 8 = 13
 
 
 
@@ -113,26 +112,26 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 
 * Wenn ein Benutzer eine geplante Zeitüberschreitung festgelegt hat, wird der Tag oder der Teil des Tages in einem grauen Hintergrund angezeigt. Wenn der Workfront-Administrator die Einstellung Benutzerzeit deaktivieren im Bereich Einrichtung aktiviert hat, um die Zeitüberschreitung des Benutzers zu berücksichtigen, werden die zugewiesenen Stunden zum nächsten verfügbaren Tag in der Timeline verschoben. Wenn die Einstellung deaktiviert ist, bleiben die zugewiesenen Stunden am Tag, der für eine Zeitverzögerung markiert ist, und der Benutzer wird als übergeordnet angezeigt. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!TIP]
-   >
-   >Wenn die Zeit nach der Zuweisung des Benutzers zu einem Arbeitselement markiert wurde, müssen Sie die Timeline des Projekts neu berechnen, um die verschobene Zuordnung anzuzeigen. Weitere Informationen finden Sie unter [Projektzeitpläne neu berechnen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >[!TIP]
+  >
+  >Wenn die Zeit nach der Zuweisung des Benutzers zu einem Arbeitselement markiert wurde, müssen Sie die Timeline des Projekts neu berechnen, um die verschobene Zuordnung anzuzeigen. Weitere Informationen finden Sie unter [Projektzeitpläne neu berechnen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * Wenn der Aufgabe mehrere Benutzer zugewiesen sind, wird die Anzahl der geplanten Stunden zunächst gleichmäßig an jeden Benutzer verteilt und dann gleichmäßig auf jeden Tag innerhalb der Dauer der Aufgabe. Diese Verteilung wird zur Zuordnung jedes Benutzers zur Aufgabe.
 
-   Die folgenden Szenarien können beispielsweise existieren:
+  Die folgenden Szenarien können beispielsweise existieren:
 
    * Für eine Aufgabe mit einer Dauer von 2 Tagen und 10 geplanten Stunden, die einem Benutzer zugewiesen ist, beträgt die tägliche Zuweisung für den Benutzer standardmäßig 5 Stunden pro Tag.
    * Für eine Aufgabe mit einer Dauer von 2 Tagen und 10 geplanten Stunden, die zwei Benutzern zugewiesen ist, beträgt die tägliche Zuweisung für jeden Benutzer standardmäßig 2,5 Stunden pro Tag.
 
 * Wenn eine Aufgabe oder ein Problem vor dem geplanten Abschlussdatum abgeschlossen wurde, wird die Anzahl der zugewiesenen Stunden für die verbleibenden Tage erreicht und nicht in die Gesamtzuordnung des Benutzers einbezogen. Dies wird nur angezeigt, wenn sowohl das Symbol Zuordnungen anzeigen als auch die Einstellung Vorgeschlagene Daten anzeigen aktiviert sind. Weitere Informationen zum Aktivieren von Einstellungen im Lastenausgleich finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![](assets/allocations-struck-through-highlighted-350x39.png)
 
 * Wenn ein Benutzer übergeordnet ist, werden die zugewiesenen Stunden im Benutzerfeld mit einem roten Hintergrund angezeigt.
 * Wenn der Benutzer die geplante verfügbare Zeit nicht oder nicht über die gleiche Anzahl von Stunden verfügt, werden die Stunden mit blauem Hintergrund angezeigt.
 * Sie können die Zuordnung der Benutzer in einer Diagrammansicht in der Benutzerzeile anzeigen. Informationen zum Aktivieren der Diagrammansicht für Benutzerzuordnungen finden Sie im Abschnitt &quot;Navigieren im Arbeitslastausgleich&quot;im Artikel [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/user-allocation-chart-350x237.png)
+  ![](assets/user-allocation-chart-350x237.png)
 
 ### Kriterien für das Zurücksetzen der Benutzerzuordnungen {#criteria-that-reset-user-allocations}
 
@@ -147,7 +146,7 @@ Nicht alle Aufgaben ändern den Trigger der geänderten Zuordnungen zur Neuverte
 
 #### Aktionen, die angepasste Zuordnungen zurücksetzen {#actions-that-reset-adjusted-allocations}
 
-Mit den folgenden Aktionen können Sie die täglichen, wöchentlichen oder monatlichen Zuordnungen für Benutzer zurücksetzen oder ändern, nachdem Sie sie manuell angepasst haben, wie im Abschnitt [Ändern der Benutzerzuordnungen](#modify-user-allocations) in diesem Artikel:
+Die folgenden Aktionen setzen die täglichen, wöchentlichen oder monatlichen Zuordnungen für Benutzer zurück oder ändern sie, nachdem Sie sie manuell angepasst haben, wie im Abschnitt [Ändern der Benutzerzuordnungen](#modify-user-allocations) in diesem Artikel:
 
 * Wenn Sie die Länge eines Arbeitselements verkürzen, wodurch die Anzahl der Tage in seiner Dauer verkürzt wird, werden die angepassten zugewiesenen Stunden ab den verlorenen Tagen zum Zuordnungsbetrag des letzten Tages des Arbeitselements hinzugefügt.
 * Wenn Sie die Anzahl der geplanten Stunden für einen Auftrag oder das Arbeitselement ändern, verteilt sich die neue Anzahl geplanter Stunden gleichmäßig für die gesamte Dauer des Arbeitselements.
@@ -196,9 +195,9 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
 
    Der Name der Aufgaben und der Projekte wird durch die Zuordnung des Benutzers für die Aufgabe oder das Projekt ersetzt.
 
-1. (Optional) Klicken Sie auf die **Einstellungen** icon ![](assets/gear-icon-settings.png) und wählen Sie eine der folgenden Optionen aus:
+1. (Optional) Klicken Sie auf die **Einstellungen** icon ![](assets/gear-icon-settings.png) und eine der folgenden Optionen auswählen:
 
-   1. **Stunden aus Problemen einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
+   1. **Für Probleme aufgewendete Stunden einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
    1. **Abgeschlossene Arbeiten anzeigen** . Auf diese Weise werden Elemente angezeigt, die abgeschlossen und während der Zeitleiste geplant wurden, für die Sie Zuordnungen verwalten.
    1. **Restzeit anzeigen** -Option. Die Gesamtanzahl der Stunden für jeden Benutzer (in der Benutzerzeile) ändert sich. Wenn diese Einstellung aktiviert ist, zeigt der Lastenausgleich die Stunden an, die jeder Benutzer für die Arbeit zur Verfügung hat, anstatt die Anzahl der Stunden, für die er zugewiesen ist.
 
@@ -216,13 +215,13 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-menu.png) für ein Arbeitselement klicken Sie dann auf **Zuordnungen bearbeiten**.
 
-![](assets/more-menu-on-task-wb-nwe.png)
+   ![](assets/more-menu-on-task-wb-nwe.png)
 
-Oder
+   Oder
 
-Doppelklicken Sie auf den Tag, die Woche oder den Monat in der Leiste einer Aufgabe oder eines Problems.
+   Doppelklicken Sie auf den Tag, die Woche oder den Monat in der Leiste einer Aufgabe oder eines Problems.
 
-Die Zuordnungsfelder werden bearbeitbar.
+   Die Zuordnungsfelder werden bearbeitbar.
 
 1. Klicken Sie in das Feld jeder täglichen, wöchentlichen oder monatlichen Zuordnung, um die Anzahl der Stunden oder den Prozentwert, denen der Benutzer pro Tag, Woche oder Monat zugewiesen werden soll, manuell zu aktualisieren. Klicken Sie dann auf die Schaltfläche **Speichern** icon ![](assets/checkmark-icon.png).
 
@@ -240,19 +239,26 @@ Die Zuordnungsfelder werden bearbeitbar.
 
    Die folgenden Szenarien existieren:
 
-   * Bei Aufgaben mit nicht einfachen Typen für die Dauer oder bei Problemen muss die Gesamtanzahl der Zuweisungen mit der Aufgabe Geplante Stunden übereinstimmen, bevor Sie auf das Häkchensymbol klicken können.
+   * Bei Aufgaben mit nicht einfachen Typen für die Dauer oder bei Problemen muss die Gesamtanzahl der Zuweisungen mit der Aufgabe Geplante Stunden übereinstimmen, bevor Sie auf das Häkchen klicken können.
    * Bei Aufgaben mit dem Typ Einfache Dauer kann die Gesamtanzahl der Zuweisungen höher oder niedriger als die Anzahl der geplanten Stunden sein. Sie können auch ohne Übereinstimmung auf das Häkchen klicken. Dadurch wird auch die Anzahl der geplanten Stunden für die Aufgabe aktualisiert. Sie müssen über die richtigen Berechtigungen und Zugriffsrechte verfügen, um geplante Stunden für Aufgaben über den Workload Balancer zu aktualisieren.
 
-      >[!TIP]
-      >
-      >Ein Sperrsymbol wird rechts neben dem Aufgabennamen angezeigt, wenn Sie mit der Anpassung Ihrer Zuordnungen beginnen, um anzugeben, dass die Aufgabe über einen einfachen Dauerhaltungstyp verfügt.
+     >[!TIP]
+     >
+     >Ein Sperrsymbol wird rechts neben dem Aufgabennamen angezeigt, wenn Sie mit der Anpassung Ihrer Zuordnungen beginnen, um anzugeben, dass die Aufgabe über einen einfachen Dauerhaltungstyp verfügt.
 
-      ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um geplante Stunden im Arbeitslastausgleich zu aktualisieren, finden Sie im folgenden Abschnitt in diesem Artikel: [Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen](#update-task-planned-hours-when-managing-user-allocations). Weitere Informationen zu Aufgabendauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+
+   Weitere Informationen zu den Bedingungen, die erfüllt werden müssen, um geplante Stunden im Arbeitslastausgleich zu aktualisieren, finden Sie im folgenden Abschnitt in diesem Artikel: [Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen](#update-task-planned-hours-when-managing-user-allocations). Weitere Informationen zu Aufgabendauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
    Jeder, der Zugriff auf den Lastenausgleich hat und dieselben Benutzer und Projekte anzeigt, die Sie verwaltet haben, sieht nun die aktualisierte Zuordnung für die von Ihnen verwalteten Benutzer.
+
+>[!TIP]
+>
+>Rechts neben dem Namen des Arbeitselements wird ein Stiftsymbol angezeigt, um anzugeben, dass es manuell angepasst wurde.
+
+![Symbol &quot;Manuell angepasste Stunden&quot;](assets/icon-for-manually-adjusted-hours.png)
 
 ## Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -264,20 +270,18 @@ Sie können die geplanten Stunden einer Aufgabe aktualisieren, wenn Sie die Benu
 >* Eine manuelle Aktualisierung der geplanten Stunden durch Änderung der täglichen Zuordnung kann sich auf die geplanten Stunden auswirken, wenn Zuweisungen aus den Aufgaben in der Zukunft entfernt werden. Weitere Informationen finden Sie unter [Übersicht über geplante Stunden](../../manage-work/tasks/task-information/planned-hours.md).
 >
 >* Es ist nicht möglich, geplante Stunden für Probleme zu aktualisieren, indem die Zuordnungen im Arbeitslastausgleich aktualisiert werden.
->
-
 
 Dies ist möglich, wenn die folgenden Bedingungen erfüllt sind:
 
-* Sie verfügen über die richtigen Berechtigungen und Zugriffsrechte, um geplante Stunden über den Lastenausgleich zu verwalten. Dazu gehören:
+* Sie verfügen über die richtigen Berechtigungen und Zugriffsrechte, um geplante Stunden über den Lastenausgleich zu verwalten. Dazu gehören die folgenden:
 
    * Verwalten Sie Berechtigungen für die Aufgaben.
    * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Lastenausgleich im Bereich Ressourcenverwaltung Ihrer Zugriffsebene.
 
-   Weitere Informationen über den für die Verwendung des Workload Balancer benötigten Zugriff finden Sie im folgenden Abschnitt in diesem Artikel: [Zugriffsanforderungen](#access-requirements) .
+  Weitere Informationen über den für die Verwendung des Workload Balancer benötigten Zugriff finden Sie im folgenden Abschnitt in diesem Artikel: [Zugriffsanforderungen](#access-requirements).
 
 * Die Aufgabe verfügt über den Typ Einfache Dauer .
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->

@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die bevorstehende vierteljährliche Version kommuniziert.
 
+Die Versionen finden in der Regel um 20-22 Uhr US Mountain Time statt.
+
 ## Zeitplan für die Produktion aktualisieren
 
 ### Produktfunktionen
@@ -27,7 +29,7 @@ Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisier
 
 Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält.
 
-Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein.
+Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein. Die Versionen finden in der Regel um 20-22 Uhr US Mountain Time statt.
 
 In der Regel werden Funktionen in der Vorschau in Ihrer Produktionsumgebung mit der nächsten Version verfügbar gemacht. In einigen Fällen werden Funktionen jedoch außerhalb einer geplanten Version in der Produktionsumgebung bereitgestellt. Diese Änderungen bleiben mindestens 2 Wochen in der Vorschau, um Ihnen ausreichend Zeit zu geben, die Änderungen kennenzulernen. Diese Änderungen werden auch über das Ankündigungszentrum mitgeteilt, sobald sie der Vorschau hinzugefügt werden.
 
@@ -47,7 +49,7 @@ Wenn Funktionen aus der geplanten Version entfernt werden, nachdem alle Funktion
 
 * Die Versionshinweise für die Version (zu finden in der [Produktversionen](../../product-announcements/product-releases/product-releases.md) Seite) aktualisiert werden, um anzuzeigen, dass die Funktion entfernt wurde.
 * Der Workfront-Community wird ein Beitrag hinzugefügt, in dem erklärt wird, dass die Funktion entfernt wurde.
-* Über das Ankündigungszentrum wird allen Kunden eine Nachricht gesendet, in der darauf hingewiesen wird, dass die Funktion entfernt wurde. (Das Ankündigungszentrum ist das In-App-Benachrichtigungszentrum von Workfront. Weitere Informationen finden Sie unter [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).
+* Über das Ankündigungszentrum wird allen Kunden eine Nachricht gesendet, in der darauf hingewiesen wird, dass die Funktion entfernt wurde. (Das Kommunikationszentrum ist das In-App-Benachrichtigungszentrum von Workfront. Weitere Informationen finden Sie unter [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).
 
 ## Beta-Versionen
 
@@ -56,14 +58,14 @@ Die spezifischen Informationen zu den einzelnen Beta-Versionen, einschließlich 
 
 Die folgenden Betaprogramme sind in Workfront verfügbar:
 
-* **Geschlossene oder private Beta-Version**: Die folgenden Merkmale sind bei einer geschlossenen oder privaten Beta-Version zu beachten:
+* **Geschlossene oder private Beta**: Die folgenden Eigenschaften sind Merkmale einer geschlossenen oder privaten Beta-Version:
 
    * Funktionen stehen nur einer kleinen Gruppe von Kunden zur Verfügung, die sorgfältig von Workfront ausgewählt wurden.
    * Teilnehmer arbeiten normalerweise mit einem Produkt-Manager zusammen und geben regelmäßig Feedback.
    * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder die Produktion oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Betaprogramms zur Verfügung gestellt wird. Geschlossene Beta-Funktionen werden in zufälligen Abständen und ohne Warnung veröffentlicht.
    * Auf den Seiten zur Produktversion gibt es keine Versionsinformationen für geschlossene Betas.
 
-* **Offene oder öffentliche Beta-Version**: Die folgenden Merkmale sind bei einer öffentlichen Beta-Version verfügbar:
+* **Offene oder öffentliche Betaversion**: Die folgenden Merkmale sind bei einer öffentlichen Beta-Version verfügbar:
 
    * Die Funktionen sind für alle Workfront-Kunden verfügbar, befinden sich jedoch in der Beta-Phase. Sie sind möglicherweise nicht immer vollständig funktionsfähig und Feedback ist immer willkommen.
    * Die Teilnahme an einer öffentlichen Beta-Version ist optional und die Kunden können entscheiden, ob sie die Beta-Funktionen selbst aktivieren.

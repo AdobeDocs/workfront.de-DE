@@ -3,9 +3,10 @@ title: 23.3 Verbesserungen beim Finanzmanagement
 description: 23.3 Verbesserungen beim Finanzmanagement
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 ver
 >
 >* Produktionsversion für Fast-Release-Kunden: Nach der Produktionsversion 23.3 anzukündigen.
 >
->* Produktionsversion für alle Kunden: Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
+>* Produktionsversion für alle Kunden: Produktionsversion für alle Kunden: Ankündigung
 >
 >Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.
 

@@ -3,10 +3,10 @@ title: Übersicht über die Version 23.3
 description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                             </li>
                             <li>
                                 <p>Produktionsversion für Fast-Release-Kunden: Nach der Produktionsversion 23.3 anzukündigen.</p>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)<br>
+                                <p>Produktionsversion für alle Kunden: Ankündigung<br>
                                 Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde in der Vorschau vom 30. Juni bis 13. Juli 2023 vorübergehend deaktiviert.</p>
                             </li>
                         </ul>
@@ -421,7 +421,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen und Verwalten von Workfront-Benachrichtigungen über Workfront für Creative Cloud-Plug-ins</a></p> 
-                        <p>Um Ihnen den Empfang der benötigten Benachrichtigungen zu erleichtern, haben wir es ermöglicht, Workfront-Benachrichtigungen anzuzeigen und zu verwalten, ohne die Adobe Creative Cloud verlassen zu müssen. Jetzt können Sie Benachrichtigungen sowie Arbeitselemente und Kommentare zu diesen Benachrichtigungen direkt im Workfront-Plug-in-Fenster in der Creative Cloud-Anwendung anzeigen.</p>
+                        <p>Um Ihnen den Empfang der benötigten Benachrichtigungen zu erleichtern, haben wir es ermöglicht, Workfront-Benachrichtigungen anzuzeigen und zu verwalten, ohne die Adobe Creative Cloud verlassen zu müssen. Jetzt können Sie Benachrichtigungen sowie die damit verbundenen Arbeitselemente und Kommentare direkt im Workfront-Plug-in-Fenster in der Creative Cloud-Anwendung anzeigen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -500,7 +500,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassen der Workflow-Vorlageneinstellungen für automatisierte Testsendungen mit Adobe Workfront for Creative Cloud</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassen der Workflow-Vorlageneinstellungen für automatisierte Testsendungen mit Adobe Workfront für Creative Cloud</a></p>
                         <p>Sie können die vorhandenen automatisierten Workflow-Vorlageneinstellungen jetzt direkt im Creative Cloud anpassen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
