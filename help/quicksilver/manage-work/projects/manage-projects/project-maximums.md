@@ -7,9 +7,9 @@ description: Adobe Workfront hat Beschränkungen dafür, wie viele Objekte mit e
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ Die folgenden Objekte, die mit Projekten verknüpft sind, haben die folgenden Ei
 
 <b>WICHTIG</b>
 
-Für Projekte mit vielen Abhängigkeiten von Aufgaben empfehlen wir, dass die Anzahl der Aufgaben in den Projekten viel niedriger sein sollte als die maximal zulässige Anzahl von 5.000 Aufgaben.
+Bei Projekten mit vielen Abhängigkeiten von Aufgaben kann die Leistung bei der Berechnung der Timeline oder bei der Arbeit im Projekt beeinträchtigt sein.
+
+Aus diesem Grund empfehlen wir, dass die Anzahl der Aufgaben in Projekten mit komplexen Abhängigkeiten deutlich niedriger sein sollte als die maximal zulässige Anzahl von 5.000 Aufgaben.
 
 Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des Projekts beeinflussen oder verhindern können:
 

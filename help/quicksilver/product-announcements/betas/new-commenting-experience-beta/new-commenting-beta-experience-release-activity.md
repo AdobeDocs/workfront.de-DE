@@ -6,8 +6,8 @@ description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 2%
@@ -70,6 +70,18 @@ Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen fü
 Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprünglichen Version 23.2 hinzugefügt wurden, beginnend mit den Funktionen, die zuletzt veröffentlicht wurden.
 
 Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. In diesem Artikel werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentarerlebnis behoben wurden.
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### Woche vom 11. September 2023
 
@@ -319,7 +331,7 @@ Bearbeiten von angehängten Bildern beim Bearbeiten eines Kommentars. Weitere In
 
 Das folgende Wartungsupdate wurde für die Beta-Ausgabe von Problemkommentaren und für Ziele veröffentlicht:
 
-Bilder werden als Entwurf beibehalten, wenn Sie mit der Beta-Kommentar-Funktion von einer Aktualisierung wegnavigieren. Weitere Informationen finden Sie im Abschnitt &quot;Wartungs-Update am 20. April&quot;im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Aktualisierungen im April 2023</a>.
+Bilder werden als Entwurf beibehalten, wenn mit der Beta-Kommentar-Funktion von einer Aktualisierung wegnavigiert wird. Weitere Informationen finden Sie im Abschnitt &quot;Wartungs-Update am 20. April&quot;im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Aktualisierungen im April 2023</a>.
 
 ### 17. April 2023
 

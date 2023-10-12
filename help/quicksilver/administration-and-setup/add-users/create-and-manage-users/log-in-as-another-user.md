@@ -1,5 +1,5 @@
 ---
-title: Anmelden als anderer Benutzer
+title: Melden Sie sich als anderer Benutzer an
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
 
 ---
 
-# Anmelden als anderer Benutzer
+# Melden Sie sich als anderer Benutzer an
 
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
@@ -69,8 +69,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Mit der Zugriffsebene des Systemadministrators können Sie sich wie jeder andere anmelden. Weitere Informationen zu dieser Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> <p>Mit einer Planer-Zugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die <b>Benutzer</b> -Einstellung in der Zugriffsebene ist so konfiguriert, dass <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzer-Admin</b> Optionen aktiviert unter <b>Einstellungen anpassen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTE</b>: Wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> 
+   <td> <p>Mit der Zugriffsebene des Systemadministrators können Sie sich wie jeder andere anmelden. Weitere Informationen zu dieser Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> <p>Mit einer Planer-Zugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die <b>Benutzer</b> -Einstellung in der Zugriffsebene ist so konfiguriert, dass <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzeradministrator</b> Optionen aktiviert unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTE</b>: Von diesen beiden Optionen, wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> 
    <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >
    >Gruppenadministratoren können sich nur als Benutzer anmelden, die Mitglieder der von ihnen verwalteten Gruppen sind. Sie können sich nicht als Workfront-Administrator anmelden.
 
-1. Klicken **Melden Sie sich an.**
+1. Klicks **Melden Sie sich an.**
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
@@ -140,7 +140,7 @@ Workfront bietet Mechanismen zur Verfolgung und Prüfung von Aktivitäten, die w
 Wenn Sie sich als ein anderer Benutzer anmelden, wird das letzte Anmeldedatum für diesen Benutzer bis zu dem Datum geändert, an dem sich der System- oder Gruppenadministrator als dieser Benutzer anmeldet.
 
 * [Anzeigen von Indikatoren zu Artikeln](#view-indicators-on-items)
-* [Prüfungsinformationen anzeigen](#view-audit-information)
+* [Audit-Informationen anzeigen](#view-audit-information)
 
 ### Anzeigen von Indikatoren zu Artikeln {#view-indicators-on-items}
 
@@ -148,7 +148,7 @@ Wenn Sie sich bei Workfront als ein anderer Benutzer anmelden und eine Aktion au
 
 Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie als ein anderer Benutzer angemeldet sind, zeigt eine Anweisung an, dass der Kommentar von Ihnen im Namen des Benutzers abgegeben wurde.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >
@@ -157,12 +157,12 @@ Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie a
 >Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
-### Prüfungsinformationen anzeigen {#view-audit-information}
+### Audit-Informationen anzeigen {#view-audit-information}
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator oder Gruppenadministrator an.
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Anmelden als** Klicken Sie dann auf **Zugriffsprotokoll** Registerkarte.
+1. Klicks **Anmelden als** und klicken Sie dann auf **Zugriffsprotokoll** Registerkarte.
 
    Jedes Mal, wenn sich ein System- oder Gruppenadministrator bei Workfront als einem anderen Benutzer anmeldet, wird das Ereignis im Audit-Protokoll protokolliert. Darüber hinaus werden alle geprüfbaren Aktionen, die ausgeführt werden, während der Administrator als ein anderer Benutzer angemeldet ist, im Audit-Protokoll protokolliert.
 

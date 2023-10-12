@@ -4,13 +4,13 @@ description: Sie können Datensatzinformationen in Adobe Maestro bearbeiten. Sie
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze bearbeiten. <!--will change with access levels-->
 * Wenn die bearbeiteten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln sich die neuen Informationen der bearbeiteten Datensätze in den verknüpften Datensätzen wider.
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
-
+* Felder, die mit anderen Datensätzen verknüpft sind, können nicht bearbeitet werden.
 
 ## Datensätze bearbeiten
 
@@ -145,6 +145,11 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >* Verknüpfte Felder können nicht bearbeitet werden. Die Informationen für diese Felder werden automatisch aus den verknüpften Datensätzen ausgefüllt. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
    >
    >* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

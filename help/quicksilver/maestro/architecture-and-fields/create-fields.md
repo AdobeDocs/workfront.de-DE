@@ -4,13 +4,13 @@ description: In Adobe Maestro können Sie benutzerdefinierte Felder für jeden B
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Prozentsatz](#percentage)
    * [Währung](#currency)
    * [Kontrollkästchen](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 
    ![](assets/single-line-text-field-type.png)
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spaltenüberschrift eines Felds in einer Tabelle bewegen.
 1. Klicken Sie auf **Erstellen**.
@@ -213,12 +214,22 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 
 Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datensatz, ähnlich dem Feld Beschreibung . Der Inhalt eines Absatzfelds kann bis zu 1.000 Zeichen lang sein.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Absatz** Feldtyp.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 1. Klicken Sie auf **Erstellen**.
@@ -235,7 +246,7 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
    ![](assets/multi-select-field-type.png)
 
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Auswahlmöglichkeiten**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdown-Menü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl haben.
@@ -257,7 +268,7 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
    ![](assets/single-select-field-type.png)
 
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Auswahlmöglichkeiten**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdown-Menü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl haben.
@@ -279,7 +290,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
    ![](assets/date-field-type.png)
 
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Datumsformat**: Der Typ des Datumsformats, das in diesem Feld angezeigt werden soll.
@@ -308,7 +319,7 @@ Zahlenfeldtypen erfassen Informationen im Zahlenformat.
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Zahl** Feldtyp.
 
    ![](assets/number-field-type.png)
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
@@ -331,7 +342,7 @@ Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem
 
    ![](assets/percentage-field-type.png)
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
@@ -353,7 +364,7 @@ Währungsfeldtypen erfassen Informationen in einem Zahlenformat, dem ein Währun
 
    ![](assets/currency-field-type.png)
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Währung**: Der Typ der Währung, die in diesem Feld angezeigt werden soll. Dies ist eine Liste der Währungen gemäß der Internationalen Organisation für Normung (ISO).
@@ -376,12 +387,30 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
 
    ![](assets/checkbox-field-type.png)
 
-1. Fügen Sie die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Kontrollkästchen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden. Das Feld wird auch auf der Detailseite eines Datensatzes angezeigt.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Erstellen von Feldern durch Verknüpfung von Datensatztypen
 
@@ -402,6 +431,3 @@ Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem n
 Maestro erstellt Felder für betriebliche Datensatztypen und Taxonomien, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
 
 Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture-and-fields/create-workspaces.md).
-
-
-
