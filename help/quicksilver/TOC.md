@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 1%
 
 ---
@@ -971,6 +971,7 @@ ht-degree: 1%
       * [Angeschlossene Karten auf Pinnwänden verwenden](agile/get-started-with-boards/connected-cards.md)
       * [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Karten verwalten](agile/get-started-with-boards/move-board-items.md)
+      * [Verwalten von Unteraufgaben auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [Hinzufügen von Dokumenten zu Karten](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
@@ -1934,8 +1935,8 @@ ht-degree: 1%
    * [Plan im Szenario-Planer freigeben](scenario-planner/share-a-plan.md)
    * [Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Rollenzuweisung für Projekte und Initiativen im Arbeitslastausgleich anzeigen](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront Goals {#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+* Adobe Workfront-Ziele {#adobe-workfront-goals}
+   * [Adobe Workfront-Ziele](workfront-goals/workfront-goals.md)
    * [Übersicht über Adobe Workfront-Ziele](workfront-goals/goal-management/wf-goals-overview.md)
    * Zielverwaltung in Adobe Workfront Goals {#goal-management}
       * [Zielverwaltung in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)

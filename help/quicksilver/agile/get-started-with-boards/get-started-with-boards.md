@@ -6,9 +6,9 @@ description: Lesen Sie diese Artikel, um zu erfahren, wie Pinnwände in Workfron
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [Karten verwalten](../../agile/get-started-with-boards/move-board-items.md)
+* [Verwalten von Unteraufgaben auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
 * [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [Karte aus einer Pinnwand löschen oder archivieren](../../agile/get-started-with-boards/delete-board-items.md)
