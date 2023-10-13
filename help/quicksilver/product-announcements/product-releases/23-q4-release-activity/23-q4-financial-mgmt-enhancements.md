@@ -3,9 +3,9 @@ title: Verbesserungen des Finanzmanagements im vierten Quartal 2023
 description: Verbesserungen des Finanzmanagements im vierten Quartal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,5 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vier
 Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.
 
 Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Erstellen und Verwalten von Vorgangsrollen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), und [Übersicht über Rechnungsstellung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3424915/){target=_blank}
