@@ -3,9 +3,9 @@ title: Verbesserungen für das vierte Quartal 2023 - Startseite
 description: Verbesserungen für das vierte Quartal 2023 - Startseite
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Schaltfläche &quot;Arbeit delegieren&quot;für Projekt-, Aufgaben- und Problem-Widgets
+
+Als häufig angeforderte Funktion der alten Startseite haben wir jetzt eine Delegierungsschaltfläche zu den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;hinzugefügt, damit Sie Ihre Arbeit einfach delegieren können, wenn Sie nicht im Büro sind. Im Delegationsmenü, das genauso funktioniert wie vor New Home, können Sie auswählen, wem und wie lange Sie Ihre Geschichten und Probleme delegieren möchten. Beachten Sie, dass die Arbeitszuweisung in Ihrer Workfront-Umgebung aktiviert sein muss, damit die Schaltfläche angezeigt wird.
+
+Weitere Informationen zur Delegierung in Workfront finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## Neues Widget &quot;Pinnwände&quot;für neues Zuhause
 

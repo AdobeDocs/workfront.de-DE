@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Schaltfläche "Arbeit delegieren"für Projekt-, Aufgaben- und Problem-Widgets</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Als häufig angeforderte Funktion der alten Startseite haben wir jetzt eine Delegierungsschaltfläche zu den Widgets "Meine Arbeit", "Meine Aufgaben"und "Meine Probleme"hinzugefügt, damit Sie Ihre Arbeit einfach delegieren können, wenn Sie nicht im Büro sind.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 12. Oktober 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Widget "Pinnwände"für neues Zuhause</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
