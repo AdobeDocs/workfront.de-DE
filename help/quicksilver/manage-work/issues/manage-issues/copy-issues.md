@@ -6,9 +6,9 @@ description: Sie können ein Problem oder eine Anfrage kopieren und im selben od
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -57,13 +57,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Überlegungen zu Problemen im Zusammenhang mit Dokumenten oder Anforderungswarteschlangen
+## Überlegungen zum Kopieren von Problemen
+
+### Allgemeine Überlegungen zum Kopieren von Problemen
+
+Sie haben die Möglichkeit, beim Kopieren einige mit dem Problem verknüpfte Elemente in das kopierte Problem zu kopieren. Einige Elemente werden jedoch standardmäßig an das neue Problem übertragen, andere nicht, wie in den folgenden Listen beschrieben.
+
+Die folgenden Elemente werden standardmäßig in das neue Problem kopiert:
+
+* Hauptansprechpartner
+* Benutzerdefinierte Formulare. Die Informationen in den benutzerdefinierten Feldern werden nur dann in das neue Problem kopiert, wenn Sie im Kopiervorgang Benutzerdefinierte Daten auswählen.
+* Genehmigungen
+* Geplante Start- und geplante Abschlussdaten
+
+Die folgenden Objekte werden standardmäßig nicht in das neue Problem kopiert:
+
+* Protokollierte Stunden
+
+### Überlegungen zu Problemen im Zusammenhang mit Dokumenten oder Anforderungswarteschlangen
 
 Beachten Sie beim Kopieren von Problemen, die Dokumente enthalten oder mit einer Anforderungswarteschlange verknüpft sind, Folgendes:
 
 * **Wenn ein Problem mit einer Anforderungswarteschlange verknüpft ist:** Wenn Sie ein Problem in ein anderes Objekt kopieren und das Problem mit einer Anforderungswarteschlange verknüpft ist, wird das kopierte Problem nicht mehr mit der ursprünglichen Warteschlange verknüpft, aus der das erste Problem stammt.
-* **Wenn ein Dokument an das Problem angehängt ist:** Wenn Sie ein Problem in ein anderes Objekt kopieren und an das Problem ein Dokument angehängt ist, werden das Dokument und seine Versionen ebenfalls in das neue Problem verschoben. Mit dem Dokument verknüpfte Testsendungen oder Genehmigungen werden nicht verschoben.
-* **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem kopieren, bei dem Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft sind, werden die Links zu den Dokumenten an das kopierte Problem weitergeleitet. 
+* **Wenn ein Dokument an das Problem angehängt ist:** Wenn Sie ein Problem in ein anderes Objekt kopieren und an das Problem ein Dokument angehängt ist, werden das Dokument und seine Versionen ebenfalls in das neue Problem verschoben. Testsendungen oder Genehmigungen, die mit dem Dokument verknüpft sind, werden nicht verschoben.
+* **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem kopieren, bei dem Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft sind, werden die Links zu den Dokumenten an das kopierte Problem weitergeleitet.
 
 ## Probleme in eine Liste kopieren
 
@@ -80,11 +97,11 @@ Sie können ein oder mehrere Probleme aus einer Liste von Problemen oder aus ein
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Fahren Sie mit dem Kopieren des Problems fort, wie im Abschnitt beschrieben. [Ein einzelnes Problem kopieren](#copy-a-single-issue) beginnt mit Schritt 2.
+1. Fahren Sie mit dem Kopieren des Problems fort, wie im Abschnitt beschrieben [Ein einzelnes Problem kopieren](#copy-a-single-issue) Starten Sie mit Schritt 2.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE:&nbsp;ensure step number stays accurate)
+   (NOTE: ensure step number stays accurate)
    </MadCap:conditionalText>
    -->
 
@@ -106,19 +123,20 @@ Sie können ein Problem kopieren, wenn Sie es anzeigen.
    >
    >In der Liste werden nur 100 Projekte angezeigt.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , wenn Sie keinen Zugriff auf das Kopieren von Problemen in das Projekt haben.
+1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , wenn Sie keinen Zugriff auf das Kopieren von Problemen in das Projekt haben.
 1. (Bedingt) Kopieren Sie das Problem weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Probleme zu einer der Aufgaben im Zielprojekt hinzuzufügen.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass Probleme zu diesen Projekten hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass Probleme zu diesen Projekten hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Optional) Im **Optionen** deaktivieren Sie eines der in der folgenden Tabelle aufgeführten Elemente, um sie aus dem neuen Problem zu entfernen. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!NOTE]
-   Dies betrifft nur die kopierten Probleme, nicht die ursprünglichen Probleme.
+   >
+   >Dies betrifft nur die kopierten Probleme, nicht die ursprünglichen Probleme.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -130,7 +148,7 @@ Sie können ein Problem kopieren, wenn Sie es anzeigen.
      </tr> 
      <tr> 
       <td role="rowheader">Fortschritt</td> 
-      <td>Entfernt ggf. den prozentualen Abschluss des Problems. </td> 
+      <td>Entfernt ggf. den prozentualen Abschluss des Problems.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokumente</td> 
@@ -146,14 +164,14 @@ Sie können ein Problem kopieren, wenn Sie es anzeigen.
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Daten</td> 
-      <td>Entfernt die Informationen zum Problem aus dem benutzerdefinierten Formular sowie die Informationen zu den benutzerdefinierten Formularen, die mit Dokumenten verknüpft sind, die mit dem Problem verknüpft sind, sofern diese ebenfalls mit dem Problem kopiert werden. Die benutzerdefinierten Formulare bleiben an die Probleme und Dokumente angehängt, die Informationen auf den Formularen werden jedoch nicht in die neue Ausgabe übernommen. </td> 
+      <td>Entfernt die Informationen zum Problem aus dem benutzerdefinierten Formular sowie die Informationen zu den benutzerdefinierten Formularen, die mit Dokumenten verknüpft sind, die mit dem Problem verknüpft sind, sofern diese ebenfalls mit dem Problem kopiert werden. Die benutzerdefinierten Formulare bleiben an die Probleme und Dokumente angehängt, die Informationen auf den Formularen werden jedoch nicht in die neue Ausgabe übernommen. </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optional) Im **Aufgabe auswählen** wählen Sie die Aufgabe aus, in die Sie das Problem verschieben möchten.
-1. Klicken **Problem kopieren** oder **Probleme kopieren** wenn Sie mehrere Probleme in einer Liste ausgewählt haben.
+1. Klicks **Problem kopieren** oder **Probleme kopieren** wenn Sie mehrere Probleme in einer Liste ausgewählt haben.
 
    Die kopierten Probleme werden dem angegebenen Projekt hinzugefügt.
 
- 
+

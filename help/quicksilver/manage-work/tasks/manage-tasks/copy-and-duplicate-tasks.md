@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -85,15 +85,20 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
-* Probleme werden nicht mit der Aufgabe kopiert.
 * Meilensteine werden in die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
 * Wenn Sie eine Aufgabe von einem Projekt in ein anderes kopieren, können die Aufgabendaten neu berechnet werden. Bei der Neuberechnung werden der Zeitplan, den das neue Projekt verwendet, und die Informationen zum Zeitplan des Projekts berücksichtigt.
+* Unteraufgaben werden an die neue Aufgabe übertragen.
+* Benutzerdefinierte Formulare werden mit der Aufgabe kopiert. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die kopierten Aufgaben übertragen, wenn Sie beim Kopieren der Aufgabe &quot;Benutzerdefinierte Daten kopieren&quot;auswählen.
+* Sie haben die Möglichkeit, beim Kopieren einige der Aufgabe zugeordnete Elemente in die kopierte Aufgabe zu kopieren. Die folgenden Objekte werden jedoch standardmäßig nicht an die kopierte Aufgabe übertragen:
+   * Probleme
+   * Protokollierte Stunden
+   * Benutzerkommentare <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwendung kopieren:
 
 * Auf der Aufgabenebene über die **Weitere Symbole** ![](assets/qs-more-menu-19x7.png) rechts neben dem Aufgabennamen.
 
-  Weitere Informationen finden Sie unter [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) in diesem Artikel.
+  Weitere Informationen finden Sie unter [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) in diesem Artikel beschrieben.
 
 * Führen Sie in einer Aufgabenliste einen der folgenden Schritte aus:
 
@@ -103,7 +108,7 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
 
      Diese Option ist nicht verfügbar, wenn mehrere Aufgaben ausgewählt werden.
 
-  Weitere Informationen finden Sie unter [Aufgaben in eine Liste kopieren](#copy-tasks-in-a-list) in diesem Artikel.
+  Weitere Informationen finden Sie unter [Aufgaben in eine Liste kopieren](#copy-tasks-in-a-list) in diesem Artikel beschrieben.
 
 ## Aufgaben in eine Liste kopieren {#copy-tasks-in-a-list}
 
@@ -113,7 +118,7 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
 
    Wechseln Sie zu einem Aufgabenbericht.
 
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Aufgaben** im linken Bereich.
 1. Klicken Sie auf **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , dann **Automatische Speicherung**.
 
    >[!IMPORTANT]
@@ -175,7 +180,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
    >
    >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Klicken **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
+1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
    >
@@ -189,7 +194,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
     <tbody> 
      <tr> 
       <td role="rowheader">Einschränkung</td> 
-      <td> <p>Die Aufgabenbegrenzung wird auf "Sofort wie möglich"oder "So spät wie möglich"festgelegt, basierend auf der Einstellung "Projektplanmodus".</p> <p> Wenn diese Option aktiviert ist, wird die aktuelle Einschränkung der Aufgabe an die kopierte Aufgabe übertragen. </p> <p>Hinweis: Wenn beim Verschieben oder Kopieren einer Aufgabe mit datumsspezifischen Begrenzungen in ein anderes Projekt die Beschränkungsdaten der Aufgabe außerhalb der Daten des neuen Projekts liegen, wird entweder die Aufgabenbegrenzung so bald wie möglich oder so spät wie möglich geändert oder die geplanten Start- oder Abschlussdaten der Projekte werden angepasst. Beispiele für datumsspezifische Begrenzungen sind "Must On", "Must Finish On", "Start No Before", "Start No Later Than" usw. Informationen zu Aufgabenbegrenzungen und dazu, wie Aufgabenbegrenzungen oder Projektdaten betroffen sein können, finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a> und suchen Sie nach einer bestimmten Einschränkung.</p> </td> 
+      <td> <p>Die Aufgabenbegrenzung wird auf "Sofort wie möglich"oder "So spät wie möglich"festgelegt, basierend auf der Einstellung "Projektplanmodus".</p> <p> Wenn diese Option aktiviert ist, wird die aktuelle Einschränkung der Aufgabe an die kopierte Aufgabe übertragen. </p> <p>Hinweis: Wenn beim Verschieben oder Kopieren einer Aufgabe mit datumsspezifischen Begrenzungen in ein anderes Projekt die Beschränkungsdaten der Aufgabe außerhalb der Daten des neuen Projekts liegen, wird entweder die Aufgabenbegrenzung so bald wie möglich oder so spät wie möglich geändert oder die geplanten Start- oder Abschlussdaten der Projekte angepasst. Beispiele für datumsspezifische Begrenzungen sind "Must On", "Must Finish On", "Start No Before", "Start No Later Than" usw. Informationen zu Aufgabenbegrenzungen und dazu, wie Aufgabenbegrenzungen oder Projektdaten betroffen sein können, finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a> und suchen Sie nach einer bestimmten Einschränkung.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeitsaufträge</td> 
@@ -251,13 +256,13 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
 1. Wählen Sie das Optionsfeld für das übergeordnete Element aus, nachdem Sie es gefunden haben. 
 
-   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste im Zielprojekt platziert. 
+   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste des Zielprojekts platziert. 
 
-1. Klicken **Aufgabe kopieren**
+1. Klicks **Aufgabe kopieren**
 
    Oder
 
-   Klicken **Aufgaben kopieren** wenn Sie mehrere Aufgaben in einer Liste auswählen.
+   Klicks **Aufgaben kopieren** wenn Sie mehrere Aufgaben in einer Liste auswählen.
 Die kopierten Aufgaben befinden sich jetzt im angegebenen Projekt und sind entweder Unteraufgaben der ausgewählten übergeordneten Aufgabe oder die letzten Aufgaben des Projekts.
 
 ## Aufgaben duplizieren
@@ -292,7 +297,7 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 ### Aufgaben duplizieren
 
 1. Wechseln Sie zu dem Projekt, das die zu duplizierenden Aufgaben enthält.
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Aufgaben** im linken Bereich.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Automatische Speicherung**, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das **Mehr Menü** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
@@ -301,10 +306,10 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 
    * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann die folgenden Schritte aus:
 
-      1. Wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie auf **Duplizieren**.
+      1. Wählen Sie die zu duplizierenden Aufgaben aus und klicken Sie auf **Duplizieren**.
       1. (Optional) Klicken Sie auf **Rückgängig** , um Ihre Änderungen rückgängig zu machen und die Aufgaben nicht zu duplizieren.
       1. (Optional und bedingt) Klicken Sie auf **Wiederholen** wenn Sie zuvor auf **Rückgängig**, um die Änderungen beizubehalten und die Aufgaben zu duplizieren.
 
-      1. Klicken **Speichern** , um Ihre Änderungen zu speichern.
+      1. Klicks **Speichern** , um Ihre Änderungen zu speichern.
 
    1. Aufgaben in einer Liste bearbeiten
