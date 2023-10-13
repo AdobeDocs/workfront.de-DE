@@ -6,7 +6,7 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Verwalten von Benutzerzuordnungen im Lastenausgleich
+
+{{highlighted-preview}}
 
 Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen, wöchentlichen oder monatlichen Zuordnungen über den Arbeitslastausgleich verwalten, um sicherzustellen, dass ihnen eine Anzahl von Stunden zugewiesen wird, die in ihre verfügbaren Zeitpläne passen.
 
@@ -256,7 +258,7 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
 
 >[!TIP]
 >
->Rechts neben dem Namen des Arbeitselements wird ein Stiftsymbol angezeigt, um anzugeben, dass es manuell angepasst wurde.
+><span class="preview">Rechts neben dem Namen des Arbeitselements wird ein Stiftsymbol angezeigt, um anzugeben, dass es manuell angepasst wurde.</span>
 
 ![Symbol &quot;Manuell angepasste Stunden&quot;](assets/icon-for-manually-adjusted-hours.png)
 

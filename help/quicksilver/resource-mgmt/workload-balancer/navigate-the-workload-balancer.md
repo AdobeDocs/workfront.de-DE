@@ -6,9 +6,9 @@ description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Res
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Beachten Sie Folgendes bei der Anzeige des Lastenausgleichs:
 
   >[!NOTE]
   >
-  >* Arbeitselemente, die einer Auftrags- oder Team-Rolle zugewiesen und auch einem Benutzer zugewiesen sind, der Hauptverantwortlichen ist, werden nicht im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt.
+  >* Arbeitselemente, die einer Auftrags- oder Team-Rolle zugewiesen und auch einem Benutzer zugewiesen sind, der der Hauptverantwortliche ist, werden sowohl im Arbeitsbereich &quot;Nicht zugewiesen&quot;als auch unter dem Namen des zugewiesenen Benutzers im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
   >* Arbeitselemente, die einem Benutzer zugewiesen sind, und Auftragsrollen, bei denen die Auftragsrolle als Hauptverantwortlicher des Elements ausgewählt ist, werden im Bereich Nicht zugewiesene Arbeit angezeigt.
   >* Arbeitselemente, die mehr als einem Benutzer zugewiesen sind, werden unter allen Namen der zugewiesenen Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
+
+  Weitere Informationen finden Sie unter &quot;Zuweisungsbereiche im Lastenausgleich&quot;in [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Wenn ein Projekt während eines Zeitraums keine Aufgaben hat, wird die Leiste auf Projektebene zu einer abgeblendeten Farbe.
 
