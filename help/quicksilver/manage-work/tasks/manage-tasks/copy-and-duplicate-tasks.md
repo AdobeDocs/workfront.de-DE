@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
-* Meilensteine werden in die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
 * Wenn Sie eine Aufgabe von einem Projekt in ein anderes kopieren, können die Aufgabendaten neu berechnet werden. Bei der Neuberechnung werden der Zeitplan, den das neue Projekt verwendet, und die Informationen zum Zeitplan des Projekts berücksichtigt.
-* Unteraufgaben werden an die neue Aufgabe übertragen.
 * Benutzerdefinierte Formulare werden mit der Aufgabe kopiert. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die kopierten Aufgaben übertragen, wenn Sie beim Kopieren der Aufgabe &quot;Benutzerdefinierte Daten kopieren&quot;auswählen.
 * Sie haben die Möglichkeit, beim Kopieren einige der Aufgabe zugeordnete Elemente in die kopierte Aufgabe zu kopieren. Die folgenden Objekte werden jedoch standardmäßig nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * Benutzerkommentare <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Benutzerkommentare <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
-Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwendung kopieren:
+   * Meilensteine werden in die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
+   * Unteraufgaben werden an die neue Aufgabe übertragen.
 
-* Auf der Aufgabenebene über die **Weitere Symbole** ![](assets/qs-more-menu-19x7.png) rechts neben dem Aufgabennamen.
-
-  Weitere Informationen finden Sie unter [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) in diesem Artikel beschrieben.
-
-* Führen Sie in einer Aufgabenliste einen der folgenden Schritte aus:
-
-   * Klicken Sie mit der rechten Maustaste auf den Namen einer Aufgabe.
-   * Wählen Sie die Aufgabe (oder die Aufgaben) aus und erweitern Sie die **Mehr** icon ![](assets/more-icon-task-list.png) oben in der Aufgabenliste.
-   * Auswählen einer Aufgabe und Erweitern der **Mehr** icon ![](assets/more-icon-task-list.png) neben dem Aufgabennamen.
-
-     Diese Option ist nicht verfügbar, wenn mehrere Aufgaben ausgewählt werden.
-
-  Weitere Informationen finden Sie unter [Aufgaben in eine Liste kopieren](#copy-tasks-in-a-list) in diesem Artikel beschrieben.
+* Sie können eine Aufgabe gleichzeitig kopieren oder mehrere Aufgaben gleichzeitig kopieren, wenn Sie Aufgaben in einer Liste bearbeiten.
 
 ## Aufgaben in eine Liste kopieren {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
 
    Wechseln Sie zu einem Aufgabenbericht.
 
-1. Klicks **Aufgaben** im linken Bereich.
+1. (Bedingt) Klicken Sie auf **Aufgaben** im linken Bereich, wenn Sie das Projekt geöffnet haben, das die Aufgaben enthält.
 1. Klicken Sie auf **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , dann **Automatische Speicherung**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Sie können eine Aufgabe in die folgenden Bereiche der Adobe Workfront-Webanwend
 
    * Klicken Sie auf **Mehr Menü** Klicken Sie oben in der Aufgabenliste auf **Kopieren nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und klicken Sie dann auf **Kopieren nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf die **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf die **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fahren Sie mit dem Kopieren der Aufgabe fort, wie im Abschnitt beschrieben [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) beginnt mit Schritt 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Kopieren einer Aufgabe auf Aufgabenebene {#copy-a-task-at-the-task-level}
 
-Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufgabe kopieren, nachdem Sie sie geöffnet haben. 
+Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufgabe kopieren, nachdem Sie sie geöffnet haben.
 
 1. Suchen Sie eine Aufgabe in Ihrem Workfront-System, indem Sie danach suchen.
-1. Klicken Sie auf den Namen der Aufgabe, um sie zu öffnen. 
+1. Klicken Sie auf den Namen der Aufgabe, um sie zu öffnen.
 1. Klicken Sie auf **Mehr** Dropdown-Menü ![](assets/qs-more-menu.png) neben dem Namen der Aufgabe klicken Sie auf **Kopieren** **nach**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Geben Sie den Namen der **Zielprojekt** wo Sie die Aufgabe in die **Zielprojekt auswählen** -Feld. 
+1. Geben Sie den Namen der **Zielprojekt** wo Sie die Aufgabe in die **Zielprojekt auswählen** -Feld.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
    Der aktuelle Projektname wird standardmäßig angezeigt. Wenn Sie die Aufgabe im selben Projekt kopieren möchten, lassen Sie dieses Feld unverändert.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
+1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
 1. (Bedingt) Kopieren Sie die Aufgabe weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Aufgaben zu einer der Aufgaben im Zielprojekt hinzuzufügen.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
+1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
    >
-   Auswählen und Deselektieren **Alle auswählen** Deaktiviert alle Optionen.
+   >Auswählen und Deselektieren **Alle auswählen** Deaktiviert alle Optionen.
 
    Deaktivieren Sie die folgenden Optionen, um sie nicht an die kopierte Aufgabe zu übertragen. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Optionen deaktiviert werden:
 
@@ -239,24 +225,24 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
     </tbody> 
    </table>
 
-1.  (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Aufgabe im Zielprojekt aus, die Sie der kopierten Aufgabe übergeordnet werden möchten.
+1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Aufgabe im Zielprojekt aus, die Sie der kopierten Aufgabe übergeordnet werden möchten.
 
-   >[!TIP]
-   >
-   Bei der Auswahl, mehrere Aufgaben in einer Liste zu kopieren, werden alle ausgewählten Aufgaben zu den untergeordneten Elementen des ausgewählten übergeordneten Elements.
+>[!TIP]
+>
+>Bei der Auswahl, mehrere Aufgaben in einer Liste zu kopieren, werden alle ausgewählten Aufgaben zu den untergeordneten Elementen des ausgewählten übergeordneten Elements.
 
-   Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
+Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wählen Sie in der Aufgabenliste einen der übergeordneten Elemente des Projektplans aus.
-   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Aufgabe.
+* Wählen Sie in der Aufgabenliste einen der übergeordneten Elemente des Projektplans aus.
+* Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Aufgabe.
 
-   Die Aufgabe sollte in der Liste angezeigt werden.
+Die Aufgabe sollte in der Liste angezeigt werden.
 
-   ![Auswählen einer übergeordneten Aufgabe beim Verschieben einer Aufgabe mit Suchfunktion ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Auswählen einer übergeordneten Aufgabe beim Verschieben einer Aufgabe mit Suchfunktion ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Wählen Sie das Optionsfeld für das übergeordnete Element aus, nachdem Sie es gefunden haben. 
+1. Wählen Sie das Optionsfeld für das übergeordnete Element aus, nachdem Sie es gefunden haben.
 
-   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste des Zielprojekts platziert. 
+   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste des Zielprojekts platziert.
 
 1. Klicks **Aufgabe kopieren**
 
@@ -275,7 +261,6 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 ### Überlegungen zum Duplizieren von Aufgaben {#considerations-for-duplicating-tasks}
 
 * Sie können eine Aufgabe nur dann in einer Aufgabenliste duplizieren, wenn die Liste nach Aufgabennummer sortiert ist.
-
 * Die neue Aufgabe hat denselben Namen wie die ursprüngliche Aufgabe.
 * Sie können nicht auswählen, welche Informationen für die neue Aufgabe dupliziert werden. Fast alle Informationen aus der ursprünglichen Aufgabe werden standardmäßig an die duplizierte Aufgabe übermittelt, einschließlich der übergeordneten Beziehung.
 * Die folgenden Elemente werden nicht in die neue Aufgabe übertragen:
@@ -285,10 +270,12 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
    * Probleme
    * Nur die Vorgänger, die sich in derselben Gruppe kopierter Aufgaben befinden, werden ebenfalls mit ihren Nachfolgeaufgaben kopiert.
 
-     **Beispiel:** Wenn Sie z. B. Aufgabe 2 und den Vorgänger, Aufgabe 1, gleichzeitig kopieren, haben Sie eine Kopie von Aufgabe 2 und eine Kopie von Aufgabe 1. Die Kopie von Aufgabe 1 ist der Vorgänger der Kopie von Aufgabe 2. Wenn Sie jedoch nur Aufgabe 2 kopieren, ohne den Vorgänger zu kopieren, hat die Kopie keinen Vorgänger.
+     **BEISPIEL**
+
+     Wenn Sie z. B. Aufgabe 2 und den Vorgänger, Aufgabe 1, gleichzeitig kopieren, haben Sie eine Kopie von Aufgabe 2 und eine Kopie von Aufgabe 1. Die Kopie von Aufgabe 1 ist der Vorgänger der Kopie von Aufgabe 2. Wenn Sie jedoch nur Aufgabe 2 kopieren, ohne den Vorgänger zu kopieren, hat die Kopie keinen Vorgänger.
 
 * Beim Duplizieren einer übergeordneten Aufgabe werden auch alle untergeordneten Aufgaben dupliziert, auch wenn die untergeordneten Aufgaben nicht ausgewählt sind.
-* Sie können mehrere Aufgaben gleichzeitig duplizieren.
+* Sie können eine oder mehrere Aufgaben gleichzeitig duplizieren.
 
   Sie können jedoch nicht mehrere Aufgaben duplizieren, die nicht sequenziell sind.
 
@@ -312,4 +299,4 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 
       1. Klicks **Speichern** , um Ihre Änderungen zu speichern.
 
-   1. Aufgaben in einer Liste bearbeiten
+         Die Aufgaben werden dupliziert und demselben Projekt wie die ursprünglichen Aufgaben hinzugefügt.

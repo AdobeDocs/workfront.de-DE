@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ In diesem Abschnitt werden die Funktionen und Patches aufgelistet, die nach dem 
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
 
+## Woche vom 16. Oktober 2023
+
+### Neuer Benutzerfeldtyp
+
+Vorschau und Produktion: 16. Oktober 2023
+
+Sie können jetzt ein Feld vom Typ Personen zu Maestro-Datensatztypen hinzufügen. Sie können Felder vom Typ Personen verwenden, um vorhandene Benutzer einem Datensatz zuzuordnen. Weitere Informationen finden Sie unter [Felder erstellen](../maestro/architecture-and-fields/create-fields.md).
+
+
+### Rich-Text-Format für Absatzfelder
+
+Vorschau und Produktion: 16. Oktober 2023
+
+Für Absatzfelder wurden Steuerelemente im Rich-Text-Format hinzugefügt. Sie können Absatzfelder mit Rich Text formatieren, entweder in der Tabellenansicht eines Datensatztyps oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
+
+
 ## Woche vom 9. Oktober 2023
 
 ### In Tabellenansicht suchen
@@ -41,24 +57,6 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 Vorschau und Produktion: 9. Oktober 2023
 
 Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen in allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## Woche vom 18. September 2023
 

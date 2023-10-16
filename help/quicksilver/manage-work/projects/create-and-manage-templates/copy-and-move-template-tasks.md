@@ -6,9 +6,9 @@ description: Sie können eine Vorlagenaufgabe kopieren oder in dieselbe Vorlage 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -52,22 +52,23 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Beachten Sie beim Kopieren einer Vorlagenaufgabe Folgendes:
 
-* Meilensteine werden nicht in die kopierte oder verschobene Vorlagenaufgabe übertragen.
+* Die folgenden Informationen werden standardmäßig an die verschobene Aufgabe übertragen:
 
-* Teilaufgaben werden an die neue Vorlagenaufgabe übertragen.
-* Benutzerdefinierte Formulare werden mit der Vorlagenaufgabe kopiert. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die neue Vorlagenaufgabe übertragen, wenn Sie die Option zum Kopieren benutzerdefinierter Daten auswählen.
+   * Benutzerdefinierte Formulare und benutzerdefinierte Feldinformationen.
+   * Teilaufgaben.
+
+* Die folgenden Informationen werden nicht an die verschobene oder kopierte Aufgabe übertragen:
+
+   * Meilensteine werden nicht in die kopierte oder verschobene Vorlagenaufgabe übertragen.
+
 * Sie haben die Möglichkeit, während des Kopiervorgangs einige mit der Vorlagenaufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Die folgenden Objekte werden jedoch standardmäßig nicht an die kopierte Aufgabe übertragen:
 
    * Benutzerkommentare
-
-* Sie können eine Vorlagenaufgabe in die folgenden Bereiche der Adobe Workfront-Webanwendung kopieren:
-
-   * Auf der Ebene der Vorlagenaufgaben über die **Weitere Symbole** ![](assets/more-icon.png) rechts neben dem Namen der Vorlagenaufgabe.
-
-   * In einer Aufgabenliste einer Vorlage.
-* Sie können Vorlagenaufgaben entweder nacheinander kopieren oder verschieben oder mehrere Vorlagenaufgaben auswählen.
+* Benutzerdefinierte Formulare werden mit der Vorlagenaufgabe kopiert. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die neue Vorlagenaufgabe übertragen, wenn Sie die Option zum Kopieren benutzerdefinierter Daten auswählen.
 
 ## Vorlagenaufgaben kopieren
+
+Sie können eine einzelne Vorlagenaufgabe kopieren oder mehrere Vorlagenaufgaben stapelweise kopieren.
 
 1. Wechseln Sie zu der Vorlage, die die Vorlagenaufgabe oder Vorlagenaufgaben enthält, die Sie kopieren möchten.
 1. Klicks **Vorlagenaufgaben** im linken Bereich.
@@ -165,7 +166,6 @@ Das Feld Vorlage kopieren wird geöffnet.
     </tbody> 
    </table>
 
-(FRAGEN ZUR LETZTEN ZEILE: VORLAGENAUFGABE SCHEINT NICHT &quot;FREIGABE&quot;ZU HABEN)
 
 1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Vorlagenaufgabe in der Zielvorlage aus, die Sie zur übergeordneten Aufgabe der kopierten Vorlagenaufgabe werden möchten.
 
@@ -191,8 +191,7 @@ Das Feld Vorlage kopieren wird geöffnet.
 
 ## Vorlagenaufgaben verschieben
 
-Neben dem Kopieren von Vorlagenaufgaben können Sie auch eine Vorlagenaufgabe in eine andere Vorlagenaufgabe in derselben Vorlage oder in eine andere Vorlage verschieben.
-
+Sie können eine Vorlagenaufgabe entweder in eine andere Vorlagenaufgabe in derselben Vorlage oder in eine andere Vorlage verschieben. Sie können eine Vorlagenaufgabe oder mehrere Vorlagenaufgaben stapelweise verschieben.
 
 1. Markieren Sie die Vorlage, die die zu verschiebenden Vorlagenaufgaben enthält.
 1. Klicks **Vorlagenaufgaben** im linken Bereich.
@@ -300,7 +299,6 @@ Das Feld Vorlage verschieben wird geöffnet.
     </tbody> 
    </table>
 
-(FRAGEN ZUR LETZTEN ZEILE: VORLAGENAUFGABE SCHEINT NICHT &quot;FREIGABE&quot;ZU HABEN)
 
 1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Vorlagenaufgabe in der Zielvorlage aus, die Sie zur übergeordneten Aufgabe der verschobenen Vorlage werden möchten.
 

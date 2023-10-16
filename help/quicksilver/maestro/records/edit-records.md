@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Bearbeiten von Datensätzen
 
 * Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze bearbeiten. <!--will change with access levels-->
-* Wenn die bearbeiteten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln sich die neuen Informationen der bearbeiteten Datensätze in den verknüpften Datensätzen wider.
+* Felder, die mit anderen Datensätzen oder Feldern verknüpft sind, die Berechnungen enthalten, können nicht bearbeitet werden.
+* Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, werden die neuen Informationen der von Ihnen bearbeiteten Datensätze in den verknüpften Datensätzen angezeigt.
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
-* Felder, die mit anderen Datensätzen verknüpft sind, können nicht bearbeitet werden.
+* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
+* Sie können beim Bearbeiten eines Felds vom Typ &quot;Absatz&quot;die folgenden Rich-Text-Formatierungsoptionen verwenden:
+
+   * Fett
+   * Kursiv
+   * Unterstreichen
+   * Link hinzufügen
+   * Liste mit Aufzählungszeichen hinzufügen
+   * Nummerierte Liste hinzufügen
 
 ## Datensätze bearbeiten
 
@@ -99,9 +108,11 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 ### Datensatz auf der Detailseite des Datensatzes bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf Maestro.
+1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro**.
 
    Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
@@ -120,11 +131,6 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    Verknüpfte Felder oder Felder, die Berechnungen enthalten oder vom System generiert werden, können nicht bearbeitet werden.
-
-
 1. Klicks **Änderungen speichern**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Datensatz in der Tabellenansicht des Datensatztyps bearbeiten
@@ -132,24 +138,15 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> Klicken Sie dann auf **Maestro** ![](assets/maestro-icon.png).
 
    Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
+
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
 1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
-1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten, und drücken Sie dann die Eingabetaste **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert.
+1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
-   >[!TIP]
-   >
-   >* Verknüpfte Felder können nicht bearbeitet werden. Die Informationen für diese Felder werden automatisch aus den verknüpften Datensätzen ausgefüllt. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert.

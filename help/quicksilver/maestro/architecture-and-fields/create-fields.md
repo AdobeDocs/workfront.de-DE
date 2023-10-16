@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Prozentsatz](#percentage)
    * [Währung](#currency)
    * [Kontrollkästchen](#checkbox)
-     <!--* [People](#people)-->
+   * [Personen](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 
 ### Absatz {#paragraph}
 
-Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datensatz, ähnlich dem Feld Beschreibung . Der Inhalt eines Absatzfelds kann bis zu 1.000 Zeichen lang sein.
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datensatz, ähnlich dem Feld Beschreibung .
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* Der Inhalt eines Absatzfelds kann bis zu 1.000 Zeichen lang sein.
+>
+>* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden.
 
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Absatz** Feldtyp.
 
@@ -394,23 +390,25 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
 
    Das neue Kontrollkästchen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden. Das Feld wird auch auf der Detailseite eines Datensatzes angezeigt.
 
-<!--
-### People
+### Personen
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--, job role, or team--> zu einem Datensatz. Es handelt sich um ein Feld vom Typ voraus, dem nur Benutzer hinzugefügt werden können.<!--, roles, or teams--> die bereits in Workfront vorhanden sind.
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Personen** Feldtyp.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
+   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
+   * **Mehrere Werte zulassen**: Wählen Sie diese Option aus, wenn Sie zulassen möchten, dass Benutzer mehr als einen Benutzer in dieses Feld hinzufügen können. Diese Option ist standardmäßig deaktiviert.
+
+   >[!NOTE]
+   >
+   >    Wenn Sie die Option Mehrere Werte zulassen auswählen und mehrere Benutzer in den Datensätzen gespeichert sind, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung bei der Bearbeitung dieses Felds in Zukunft nicht mehr aufheben.
+1. Klicken Sie auf **Erstellen**.
+
+   Das neue Feld vom Typ Personen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden. Das Feld wird auch auf der Detailseite eines Datensatzes angezeigt.
 
 ## Erstellen von Feldern durch Verknüpfung von Datensatztypen
 
