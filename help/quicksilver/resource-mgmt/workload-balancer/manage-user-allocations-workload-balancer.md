@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Sie müssen über Folgendes verfügen:
 
 Benutzerzuweisungen sind Stunden, die die Zeit angeben, die ein Benutzer an einem bestimmten Tag, Wochentag, Woche oder Monat verbringen soll, um das Arbeitselement abzuschließen. Sie sind in den geplanten Stunden des Arbeitselements enthalten.
 
-In diesem Artikel wird beschrieben, wie Sie die tägliche, wöchentliche oder monatliche stündliche Zuordnung für Benutzer aktualisieren, die Aufgaben oder Problemen zugewiesen sind. Informationen zum Verwalten der Gesamtzuweisungen für Benutzer und Auftragsrollen für Aufgaben finden Sie unter [Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+In diesem Artikel wird beschrieben, wie Sie die tägliche, wöchentliche oder monatliche stündliche Zuordnung für Benutzer aktualisieren, die Aufgaben oder Problemen zugewiesen sind. Informationen zum Verwalten der Gesamtzuweisungen für Benutzer und Auftragsrollen für Aufgaben finden Sie unter [Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Übersicht über die Benutzerzuordnung](#user-allocation-overview)
 * [Kriterien für das Zurücksetzen der Benutzerzuordnungen](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 >
 >Workfront berechnet die Zuweisung der 2 Stunden über die 2 Tage der Laufzeit mithilfe der folgenden Formel:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Die täglichen Zuordnungszeiten für jeden Tag in unserem Beispiel lauten:
 >   
@@ -107,8 +104,6 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 >  (2 / 13) * 8 = 1,23 Zuordnungsstunden für den zweiten Tag
 >
 >  In den obigen Berechnungen ist 13 die Gesamtanzahl der für die Aufgabe verfügbaren Stunden: 5 + 8 = 13
-
-
 
 * Zwei Benutzer in unterschiedlichen Zeitzonen oder Zeitplänen in unterschiedlichen Zeitzonen als die der zugewiesenen Benutzer können dazu führen, dass die Zuordnungsmengen für zwei Benutzer, die dieselben Arbeitselemente anzeigen, unterschiedlich angezeigt werden.
 
@@ -178,7 +173,7 @@ Beachten Sie Folgendes bei der Anzeige der geplanten Stunden im Arbeitslastausgl
 Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisungen im Arbeitslasten-Balancer ändern, um sicherzustellen, dass sie nie überverteilt werden, oder um einen präzisen Zeitausgleich zwischen Ihren Ressourcen sicherzustellen. Informationen dazu, wie Sie erkennen, ob ein Benutzer übergeordnet ist, finden Sie im Abschnitt . [Übersicht über die Benutzerzuordnung](#user-allocation-overview) in diesem Artikel.
 
 1. Stellen Sie sicher, dass Benutzern Aufgaben und Probleme zugewiesen sind. Informationen zum Zuweisen von Arbeit zu Benutzern im Lastenausgleich finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-1. Wechseln Sie zum Lastenausgleich .
+1. Wechseln Sie zum Lastenausgleich.
 1. (Optional) Klicken Sie auf **Woche** oder **Monat** um wöchentliche oder monatliche Zuordnungen für Benutzer zu verwalten.
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
@@ -199,9 +194,9 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
 
 1. (Optional) Klicken Sie auf die **Einstellungen** icon ![](assets/gear-icon-settings.png) und eine der folgenden Optionen auswählen:
 
-   1. **Für Probleme aufgewendete Stunden einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
-   1. **Abgeschlossene Arbeiten anzeigen** . Auf diese Weise werden Elemente angezeigt, die abgeschlossen und während der Zeitleiste geplant wurden, für die Sie Zuordnungen verwalten.
-   1. **Restzeit anzeigen** -Option. Die Gesamtanzahl der Stunden für jeden Benutzer (in der Benutzerzeile) ändert sich. Wenn diese Einstellung aktiviert ist, zeigt der Lastenausgleich die Stunden an, die jeder Benutzer für die Arbeit zur Verfügung hat, anstatt die Anzahl der Stunden, für die er zugewiesen ist.
+   1. **Für Probleme aufgewendete Stunden einbeziehen**. Auf diese Weise können Sie neben der Aufgabenzuordnung auch Problemzuweisungen verwalten.
+   1. **Abgeschlossene Arbeiten anzeigen**. Auf diese Weise werden Elemente angezeigt, die abgeschlossen und während der Zeitleiste geplant wurden, für die Sie Zuordnungen verwalten.
+   1. **Verbleibende Zeit anzeigen**. Die Gesamtanzahl der Stunden für jeden Benutzer (in der Benutzerzeile) ändert sich. Wenn diese Einstellung aktiviert ist, zeigt der Lastenausgleich die Stunden an, die jeder Benutzer für die Arbeit zur Verfügung hat, anstatt die Anzahl der Stunden, für die er zugewiesen ist.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Im Rahmen der Zuweisung von Arbeit an Benutzer können Sie die Benutzerzuweisung
       >[!NOTE]
       >
       >Der Workfront-Administrator entscheidet, welcher Zeitplan in Ihrem gesamten System zur Berechnung der Benutzerkapazität im Bereich &quot;Ressourcenverwaltung&quot;der Einrichtung verwendet werden soll. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-menu.png) für ein Arbeitselement klicken Sie dann auf **Zuordnungen bearbeiten**.
 

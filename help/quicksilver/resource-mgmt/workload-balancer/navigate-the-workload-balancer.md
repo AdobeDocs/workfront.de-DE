@@ -6,9 +6,9 @@ description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Res
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '4082'
+source-wordcount: '4077'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Beachten Sie Folgendes bei der Anzeige des Lastenausgleichs:
 
   >[!NOTE]
   >
-  >* Arbeitselemente, die einer Auftrags- oder Team-Rolle zugewiesen und auch einem Benutzer zugewiesen sind, der der Hauptverantwortliche ist, werden sowohl im Arbeitsbereich &quot;Nicht zugewiesen&quot;als auch unter dem Namen des zugewiesenen Benutzers im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
+  >* Arbeitselemente, die einer Auftrags- oder Team-Rolle zugewiesen und auch einem Benutzer zugewiesen sind, werden sowohl im Arbeitsbereich &quot;Nicht zugewiesen&quot;als auch unter dem Namen des zugewiesenen Benutzers im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
   >* Arbeitselemente, die einem Benutzer zugewiesen sind, und Auftragsrollen, bei denen die Auftragsrolle als Hauptverantwortlicher des Elements ausgewählt ist, werden im Bereich Nicht zugewiesene Arbeit angezeigt.
   >* Arbeitselemente, die mehr als einem Benutzer zugewiesen sind, werden unter allen Namen der zugewiesenen Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;angezeigt.
 
