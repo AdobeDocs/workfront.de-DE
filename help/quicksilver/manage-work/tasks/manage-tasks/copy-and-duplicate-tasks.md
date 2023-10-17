@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
    Wechseln Sie zu einem Aufgabenbericht.
 
 1. (Bedingt) Klicken Sie auf **Aufgaben** im linken Bereich, wenn Sie das Projekt geöffnet haben, das die Aufgaben enthält.
-1. Klicken Sie auf **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , dann **Automatische Speicherung**.
+1. Klicken Sie auf **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png)und stellen sicher, dass **Automatische Speicherung** aktiviert ist.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
 1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Aufgabe im Zielprojekt aus, die Sie der kopierten Aufgabe übergeordnet werden möchten.
 
->[!TIP]
->
->Bei der Auswahl, mehrere Aufgaben in einer Liste zu kopieren, werden alle ausgewählten Aufgaben zu den untergeordneten Elementen des ausgewählten übergeordneten Elements.
+   >[!TIP]
+   >
+   >Bei der Auswahl, mehrere Aufgaben in einer Liste zu kopieren, werden alle ausgewählten Aufgaben zu den untergeordneten Elementen des ausgewählten übergeordneten Elements.
 
-Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
+   Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
 
-* Wählen Sie in der Aufgabenliste einen der übergeordneten Elemente des Projektplans aus.
-* Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Aufgabe.
+   * Wählen Sie in der Aufgabenliste einen der übergeordneten Elemente des Projektplans aus.
+   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Aufgabe.
 
-Die Aufgabe sollte in der Liste angezeigt werden.
+   Die Aufgabe wird in der Liste angezeigt.
 
-![Auswählen einer übergeordneten Aufgabe beim Verschieben einer Aufgabe mit Suchfunktion ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Auswählen einer übergeordneten Aufgabe beim Verschieben einer Aufgabe mit Suchfunktion ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Wählen Sie das Optionsfeld für das übergeordnete Element aus, nachdem Sie es gefunden haben.
 
-   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste des Zielprojekts platziert.
+   Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste im Zielprojekt platziert.
 
 1. Klicks **Aufgabe kopieren**
 
@@ -287,11 +289,11 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 1. Klicks **Aufgaben** im linken Bereich.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Automatische Speicherung**, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das **Mehr Menü** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
+   * (Bedingt) Klicken Sie auf die **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) und die **Automatische Speicherung** aktiviert ist, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf **Mehr Menü** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Bedingt) Klicken Sie auf die **Menü &quot;Planungsmodus&quot;** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann die folgenden Schritte aus:
+   * (Bedingt) Klicken Sie auf die **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann die folgenden Schritte aus:
 
       1. Wählen Sie die zu duplizierenden Aufgaben aus und klicken Sie auf **Duplizieren**.
       1. (Optional) Klicken Sie auf **Rückgängig** , um Ihre Änderungen rückgängig zu machen und die Aufgaben nicht zu duplizieren.

@@ -4,19 +4,21 @@ description: Alle Benutzer einer Organisation können Zugriff auf Adobe Maestro 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 99fac041-a235-4991-b826-d19944164bc9
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
-
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 # Zugriffsübersicht
 
 >[!IMPORTANT]
+>
+>Adobe Maestro ist ein neues Angebot von Adobe Workfront.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -26,8 +28,6 @@ ht-degree: 2%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro ist ein neues Angebot von Adobe Workfront. Weitere Informationen finden Sie unter [Übersicht über Maestro](../maestro-overview.md).
 
 Derzeit können alle Benutzer in Ihrem Unternehmen Zugriff auf Maestro haben, wenn ein Workfront-Administrator ihnen den Zugriff ermöglicht.
 

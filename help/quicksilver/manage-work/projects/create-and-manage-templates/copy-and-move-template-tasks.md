@@ -6,9 +6,9 @@ description: Sie können eine Vorlagenaufgabe kopieren oder in dieselbe Vorlage 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 3%
 
 ---
@@ -50,21 +50,33 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Überlegungen zum Kopieren oder Verschieben von Vorlagenaufgaben
 
-Beachten Sie beim Kopieren einer Vorlagenaufgabe Folgendes:
+Beachten Sie beim Kopieren von Vorlagenaufgaben Folgendes:
+
+* Die folgenden Informationen werden nicht an die kopierte Aufgabe übertragen:
+
+   * Meilensteine
+
+* Sie haben die Möglichkeit, während des Kopiervorgangs einige mit der Vorlagenaufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Die folgenden Objekte werden jedoch standardmäßig nicht an die kopierte Aufgabe übertragen:
+
+   * Benutzerkommentare
+
+* Benutzerdefinierte Formulare werden mit der Vorlagenaufgabe kopiert, wenn Sie eine Vorlagenaufgabe kopieren. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die neue Vorlagenaufgabe übertragen, wenn Sie die Option zum Kopieren benutzerdefinierter Daten auswählen.
+
+* Die folgenden Elemente werden standardmäßig an die kopierte Vorlagenaufgabe übertragen:
+
+   * Teilaufgaben
+
+Beachten Sie beim Verschieben von Vorlagenaufgaben Folgendes:
 
 * Die folgenden Informationen werden standardmäßig an die verschobene Aufgabe übertragen:
 
    * Benutzerdefinierte Formulare und benutzerdefinierte Feldinformationen.
    * Teilaufgaben.
-
-* Die folgenden Informationen werden nicht an die verschobene oder kopierte Aufgabe übertragen:
-
-   * Meilensteine werden nicht in die kopierte oder verschobene Vorlagenaufgabe übertragen.
-
-* Sie haben die Möglichkeit, während des Kopiervorgangs einige mit der Vorlagenaufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Die folgenden Objekte werden jedoch standardmäßig nicht an die kopierte Aufgabe übertragen:
-
    * Benutzerkommentare
-* Benutzerdefinierte Formulare werden mit der Vorlagenaufgabe kopiert. Die Informationen in den benutzerdefinierten Feldern werden nur dann an die neue Vorlagenaufgabe übertragen, wenn Sie die Option zum Kopieren benutzerdefinierter Daten auswählen.
+
+* Die folgenden Informationen werden nicht an die verschobene Aufgabe übertragen:
+
+   * Meilensteine.
 
 ## Vorlagenaufgaben kopieren
 

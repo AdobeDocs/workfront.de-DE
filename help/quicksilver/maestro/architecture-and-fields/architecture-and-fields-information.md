@@ -4,9 +4,10 @@ description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ In den folgenden Artikeln wird beschrieben, wie Sie die Maestro-Arbeitsbereiche 
 * [Datensatztypen bearbeiten](../architecture-and-fields/edit-record-types.md)
 * [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md)
 * [Beispiel für das Verbinden von Datensatztypen und Datensätzen](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Erstellen von Feldern in Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Felder erstellen](../architecture-and-fields/create-fields.md)
 * [Felder bearbeiten](../architecture-and-fields/edit-fields.md)
 * [Löschen von Arbeitsbereichen](../architecture-and-fields/delete-workspaces.md)
 * [Löschen von Datensatztypen](../architecture-and-fields/delete-record-types.md)
 * [Felder löschen](../architecture-and-fields/delete-fields.md)
-
-

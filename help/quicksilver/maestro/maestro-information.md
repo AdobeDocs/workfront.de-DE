@@ -4,13 +4,13 @@ description: Als Leiter von Marketingoperationen können Sie Adobe Maestro verwe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-Informationen
 
@@ -53,8 +53,8 @@ In den folgenden Artikeln finden Sie einen Überblick über Adobe Maestro:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Videodemonstration von Adobe Maestro anzeigen](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Übersicht über Maestro](maestro-overview.md): Eine allgemeine Übersicht über Adobe Maestro, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Maestro Ihre Journey zu starten.
-* [Release-Aktivität](../maestro/release-activity.md): Eine Liste aller Funktionen, die seit dem Start des beendeten Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden, mit genauen Veröffentlichungsterminen und einem kurzen Überblick über jede Funktion.
+* [Übersicht über Adobe Maestro](maestro-overview.md): Eine allgemeine Übersicht über Adobe Maestro, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Maestro Ihre Journey zu starten.
+* [Adobe Maestro-Release-Aktivität](../maestro/release-activity.md): Eine Liste aller Funktionen, die seit dem Start des beendeten Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden, mit genauen Veröffentlichungsterminen und einem kurzen Überblick über jede Funktion.
 
 ## Maestro-Architektur und -Funktionalität
 
@@ -64,4 +64,3 @@ Die folgenden Abschnitte enthalten Artikel, die die derzeit verfügbaren Maestro
 * [Architekturinformationen](../maestro/architecture-and-fields/architecture-and-fields-information.md): Detaillierte Informationen zur Architektur von Adobe Maestro mit schrittweisen Anleitungen zum Erstellen und Verwalten von Arbeitsbereichen, Datensatztypen und Feldern.
 * [Datensatzinformationen](../maestro/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
 * [Ansichtsinformationen](../maestro/views/views-information.md): Detaillierte Informationen zu Maestro-Ansichten und deren Verwaltung.
-

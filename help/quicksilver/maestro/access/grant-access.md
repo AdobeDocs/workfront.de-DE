@@ -4,19 +4,21 @@ description: Erfahren Sie, wie Sie Zugriff gewähren und Informationen in Adobe 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Zugriff auf Adobe Maestro gewähren
 
 >[!IMPORTANT]
+>
+>Adobe Maestro ist ein neues Angebot von Adobe Workfront.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro ist ein neues Angebot von Adobe Workfront. Weitere Informationen finden Sie unter [Übersicht über Maestro](../maestro-overview.md).
 
 Derzeit können alle Benutzer in Ihrer Organisation Zugriff auf Maestro haben, wenn die folgende Voraussetzung erfüllt ist:
 
@@ -50,9 +50,9 @@ Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, könn
 
 So geben Sie den Maestro-Bereich mithilfe einer Layoutvorlage frei:
 
-1. Melden Sie sich bei Workfront als Systemadministrator an.
+1. Anmelden bei **Workfront** als Systemadministrator.
 
-1. Fügen Sie das Maestro-Symbol mithilfe einer Layout-Vorlage zum Hauptmenü hinzu.
+1. Fügen Sie die **Maestro** icon ![](assets/maestro-icon.png) der **Hauptmenü** mithilfe einer **Layout-Vorlage**.
 
    Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ So geben Sie den Maestro-Bereich mithilfe einer Layoutvorlage frei:
    Alle Benutzer, die der Vorlage zugewiesen sind, können jetzt im Hauptmenü auf Maestro zugreifen.
 
    Benutzer können damit beginnen, Arbeitsbereiche, Datensatztypen, Datensätze und Felder zu erstellen.
-
-
-

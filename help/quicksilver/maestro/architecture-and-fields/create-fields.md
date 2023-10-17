@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--
    >[!NOTE]
    >
    >    Wenn Sie die Option Mehrere Werte zulassen auswählen und mehrere Benutzer in den Datensätzen gespeichert sind, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung bei der Bearbeitung dieses Felds in Zukunft nicht mehr aufheben.
+
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ Personen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden. Das Feld wird auch auf der Detailseite eines Datensatzes angezeigt.

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2655'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b></p>
+
+<p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -99,7 +101,7 @@ In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange aus e
  <tbody> 
   <tr> 
    <td role="rowheader">Warteschlangendetails</td> 
-   <td> <p>Sie müssen ein Projekt als Anforderungswarteschlange im Bereich Warteschlangendetails einrichten. Dieser Schritt ist obligatorisch. </p> <p>Weitere Informationen finden Sie unter <a href="#create-a-request-queue" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a> in diesem Artikel beschrieben.</p> </td> 
+   <td> <p>Sie müssen ein Projekt als Anforderungswarteschlange im Bereich Warteschlangendetails einrichten. Dieser Schritt ist obligatorisch. </p> <p>Weitere Informationen finden Sie unter <a href="#create-a-request-queue" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a> in diesem Artikel beschrieben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Themengruppen</td> 
@@ -131,7 +133,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 1. (Optional) Klicken Sie auf **Projektdetails** im linken Bereich und fügen Sie eine **Beschreibung** im Projekt **Übersicht** Bereich. Diese Informationen werden bei allen neuen Anforderungen angezeigt.
 1. Klicks **Warteschlangendetails** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Warteschlangendetails**.
 
-   Dadurch wird der Abschnitt Warteschlangendetails geöffnet.
+   Dadurch wird der Abschnitt &quot;Warteschlangendetails&quot;geöffnet.
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
@@ -140,14 +142,14 @@ So erstellen Sie eine Anforderungswarteschlange:
    * **Als Warteschlange für Hilfeanfragen veröffentlichen:** Wählen Sie diese Option aus, um dieses Projekt als Anforderungswarteschlange zu identifizieren. Alle eingehenden Probleme werden als Anforderungen betrachtet.\
      Wenn diese Option nicht ausgewählt ist, verhält sich das Projekt wie ein Standardprojekt in Workfront und alle eingehenden Probleme sind Probleme.
 
-   * **Wer kann dieser Warteschlange Anforderungen hinzufügen?** Wählen Sie aus, welche Benutzer Zugriff haben, um Anforderungen zu dieser Warteschlange hinzuzufügen. Sie können den folgenden Gruppen von Personen erlauben, die Anforderungswarteschlange in ihrem Anforderungsbereich in der globalen Navigationsleiste anzuzeigen:
+   * **Wer kann dieser Warteschlange Anforderungen hinzufügen?** Wählen Sie aus, welche Benutzer Zugriff haben, um Anforderungen zu dieser Warteschlange hinzuzufügen. Sie können den folgenden Gruppen von Personen erlauben, die Anforderungswarteschlange in ihrem Anforderungsbereich in der globalen Navigationsleiste anzuzeigen, wenn sie eine neue Anforderung hinzufügen:
 
      | Wer kann Anforderungen eingeben? | Beschreibung |
      |---|---|
      | Jeder | Jeder Workfront-Benutzer mit einem aktiven Konto kann diese Anforderungswarteschlange anzeigen und Anforderungen hinzufügen |
      | Benutzer mit Ansichtszugriff auf dieses Projekt | Benutzer mit Anzeigeberechtigungen für das Projekt können Anforderungen anzeigen und dieser Warteschlange hinzufügen |
      | Personen im Unternehmen dieses Projekts | Benutzer, die zu dem mit diesem Projekt verknüpften Unternehmen gehören, können Anforderungen anzeigen und dieser Warteschlange hinzufügen. Wenn mit dem Projekt ein Unternehmen verknüpft ist, wird der Name des Unternehmens nach dieser Einstellung in Klammern aufgeführt. |
-     | Personen in der Gruppe dieses Projekts | Benutzer, die zu der mit diesem Projekt verknüpften Gruppe gehören, können Anforderungen anzeigen und dieser Warteschlange hinzufügen. Wenn dem Projekt eine Gruppe zugeordnet ist, wird der Name der Gruppe nach dieser Einstellung in Klammern aufgeführt. |
+     | Personen in der Gruppe dieses Projekts | Benutzer, die zu der mit diesem Projekt verknüpften Gruppe gehören, können Anforderungen anzeigen und dieser Warteschlange hinzufügen. Wenn dem Projekt eine Gruppe zugeordnet ist, wird der Name der Gruppe in Klammern nach dieser Einstellung in grauer Schrift aufgeführt. |
 
      {style="table-layout:auto"}
 
@@ -172,7 +174,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
         >[!NOTE]
         >
-        Beim Anzeigen einer Anforderungswarteschlange in einem iFrame wird nur das Anforderungsformular angezeigt. Der Anforderungsname ist vorausgewählt und abgeblendet. Der Benutzer kann den Anfragetyp nicht ändern. Navigationskomponenten des Anforderungsbereichs werden nicht angezeigt.
+        >Beim Anzeigen einer Anforderungswarteschlange in einem iFrame wird nur das Anforderungsformular angezeigt. Der Anforderungsname ist vorausgewählt und abgeblendet. Der Benutzer kann den Anfragetyp nicht ändern. Navigationskomponenten des Anforderungsbereichs werden nicht angezeigt.
 
         Damit das Anforderungswarteschlangenformular bei Verwendung dieses Einbettungscodes angezeigt wird, müssen Sie die Einstellung &quot;Einbetten von Workfront in einen iframe zulassen&quot;in Ihrem System-Setup aktivieren. Weitere Informationen zum Aktivieren der Einbettung von Workfront in einen iFrame finden Sie unter [Systemsicherheitsvoreinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Wenn diese Einstellung nicht aktiviert ist, wird der iframe als leer angezeigt.
 
@@ -220,7 +222,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
      >[!NOTE]
      >
-     Anfragetypen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs &quot;Queue Details&quot;eines Projekts finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Anfragetypen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs &quot;Queue Details&quot;eines Projekts finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Jeder hier ausgewählte Typ steht im Formular zur Verfügung (Sie können mehrere Typen auswählen). Die Auswahl von mehr als einem Typ kann dabei helfen, mehrere eingehende Anfragen zu organisieren.\
      Wenn Sie beispielsweise das Formular in einer Anforderungswarteschlange für ein IT-Projekt verwenden, können die folgenden Anfragetypen in die Warteschlange einsteigen: Hardware, Software, Fehlerbehebungen und Probleme.
@@ -231,9 +233,9 @@ So erstellen Sie eine Anforderungswarteschlange:
    * **Benutzer aus demselben Unternehmen erben dieselben Berechtigungen für alle Anforderungen.:** Wenn diese Option aktiviert ist, sind alle an die Warteschlange gesendeten Anforderungen für Benutzer im selben Unternehmen sichtbar. Benutzer können diese Anforderungen im Abschnitt Alle Anforderungen im Bereich Anforderungen anzeigen. Wenn diese Einstellung aktiviert oder deaktiviert ist, wirkt sich sie auf alle zukünftigen Anforderungen aus. Sie hat keine rückwirkenden Auswirkungen auf Informationen.
    * **Wenn jemand eine Anfrage stellt, gewähren Sie automatisch Folgendes:** Wenn ein Benutzer eine Anforderung an die Anforderungswarteschlange sendet, wird dem Benutzer automatisch die für diese Anforderung ausgewählte Berechtigungsstufe zugewiesen. Wählen Sie aus den folgenden Berechtigungsebenen aus:
 
-      * **Anzeigen**
-      * **Mitwirken**. Dies ist die Standardauswahl.
-      * **Verwalten**
+      * **Zugriff anzeigen**
+      * **Beitragszugriff**. Dies ist die Standardauswahl.
+      * **Zugriff verwalten**
 
      Weitere Informationen zum Workfront-Berechtigungsmodell finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      Durch das Festlegen von Berechtigungen hier sparen Sie Zeit, anstatt Berechtigungen für jede einzelne eingehende Anfrage erteilen zu müssen. Die Auswahl dieser Option wirkt sich auf alle zukünftigen Anforderungen aus, wirkt sich jedoch nicht rückwirkend auf vorhandene Anforderungen aus.
@@ -242,7 +244,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
      >[!IMPORTANT]
      >
-     Wenn sich die Gruppe des Projekts ändert, wird der gruppenspezifische Genehmigungsprozess, der an bestehende Probleme angehängt ist, zu einem Genehmigungsprozess für einzelne Anwendungen. Weitere Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter [Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Wenn sich die Gruppe des Projekts ändert, wird der gruppenspezifische Genehmigungsprozess, der an bestehende Probleme angehängt ist, zu einem Genehmigungsprozess für einzelne Anwendungen. Weitere Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter [Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
      Wenn Sie mit einer Anforderungswarteschlange mehrere Warteschlangenthemen verknüpft haben, empfehlen wir, stattdessen Genehmigungsprozesse mit den Warteschlangenthemen zu verknüpfen. Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -251,21 +253,20 @@ So erstellen Sie eine Anforderungswarteschlange:
       * In der Liste werden nur aktive Validierungsprozesse angezeigt.
       * Systemweite und gruppenspezifische Validierungsprozesse werden in der Liste angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der des Projekts verknüpft ist, wird nicht in der Liste angezeigt.
 
-   * **Standardroute**: Verknüpfen Sie eine Routing-Regel mit dieser Anforderungswarteschlange. Mit Routing-Regeln können Sie der richtigen Ressource (Benutzer, Auftragsrolle oder Team) und dem richtigen Projekt automatisch neue Probleme zuweisen, die an eine Anforderungswarteschlange gesendet werden. Alle Probleme, die an diese Warteschlange gesendet werden, werden mit dieser Routing-Regel verknüpft. Sie müssen Routing-Regeln konfigurieren, bevor Sie sie mit der Anforderungswarteschlange verknüpfen können.\
+   * **Standardroute**: Verknüpfen Sie eine Routing-Regel mit dieser Anforderungswarteschlange. Mit Routing-Regeln können Sie der richtigen Ressource (Benutzer, Auftragsrolle oder Team) und dem richtigen Projekt automatisch neue Probleme zuweisen, die an eine Anforderungswarteschlange gesendet werden. Alle Probleme, die an diese Warteschlange gesendet werden, werden mit dieser Routing-Regel verknüpft. Sie müssen Routing-Regeln konfigurieren, bevor sie im Abschnitt Warteschlangendetails angezeigt werden und bevor Sie sie mit der Anforderungswarteschlange verknüpfen können.\
      Wenn Sie mit einer Anforderungswarteschlange mehrere Warteschlangenthemen verknüpft haben, empfehlen wir, stattdessen Routing-Regeln mit den Warteschlangenthemen zu verknüpfen. Weitere Informationen zum Erstellen von Routing-Regeln finden Sie unter [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   * **Neue Ausgabefelder:** Wählen Sie im Abschnitt Alle Benutzer mit den folgenden ausgewählten Feldern anzeigen alle Felder aus, die für alle Benutzer sichtbar sein sollen, die eine Anforderung an das Projekt senden oder dem Projekt oder den Aufgaben ein Problem hinzufügen.
+   * **Neue Ausgabefelder:** Im **Anzeigen der folgenden ausgewählten Felder für alle Benutzer** Wählen Sie alle Felder aus, die für alle Benutzer sichtbar sein sollen, die eine Anfrage an das Projekt senden oder ein Problem zum Projekt oder den Aufgaben hinzufügen.
 
      >[!TIP]
      >
-     Neue Problemfelder, die im Abschnitt &quot;Warteschlangendetails&quot;ausgewählt sind, sind auch mit neuen Problemen verknüpft, die dem Projekt oder den Aufgaben im Abschnitt Probleme hinzugefügt wurden.
+     >Neue Ausgabefelder, die im Abschnitt &quot;Warteschlangendetails&quot;ausgewählt sind, sind ebenfalls mit einem neuen Problem verknüpft, das zum Projekt hinzugefügt wurde <!--this is confusing: or to the tasks in the Issues section-->.
 
      Wenn Sie die Felder &quot;Zugeordnet&quot;, &quot;Auftragsrolle&quot;oder &quot;Team&quot;aktivieren, werden sie im Anfrageformular immer in &quot;Zuweisungen&quot;umbenannt. Sie können jedoch nur den hier ausgewählten Zuweisungstyp angeben.
 
      >[!NOTE]
      >
-     Wenn Sie im Bereich &quot;Warteschlangendetails&quot;die Option &quot;Zugeordnet&quot;ausgewählt haben, können Sie im Anfrageformular nur Benutzer in das Feld &quot;Zuweisungen&quot;eingeben. In diesem Fall können Sie keine Jobrollen oder Teams eingeben.
-
+     >Wenn Sie im Bereich &quot;Warteschlangendetails&quot;die Option &quot;Zugeordnet&quot;ausgewählt haben, können Sie im Anfrageformular nur Benutzer in das Feld &quot;Zuweisungen&quot;eingeben. In diesem Fall können Sie keine Jobrollen oder Teams eingeben.
 
    * **Dokumente**: Wenn Sie im neuen Anfrageformular den Abschnitt Dokumente anzeigen möchten, wählen Sie aus, wo der Abschnitt zum Hochladen des Dokuments platziert werden soll. Wählen Sie aus den folgenden Optionen aus:
 
@@ -286,7 +287,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Alle ausgewählten und nicht ausgewählten Felder anzeigen für:** Wählen Sie aus, welche Benutzer alle Felder im Formular sehen sollen. Die folgenden Optionen steuern den Zugriff auf die Felder im Formular.
+   * **Alle ausgewählten und nicht ausgewählten Felder anzeigen für:** Wählen Sie aus, welche Benutzer alle Felder im neuen Anfrageformular sehen sollen. Die folgenden Optionen steuern den Zugriff auf die Felder im Formular.
 
      | Welche Benutzer können alle Felder im Anfrageformular sehen? | Beschreibung |
      |---|---| 
@@ -294,8 +295,8 @@ So erstellen Sie eine Anforderungswarteschlange:
      | Personen mit Ansichtszugriff auf dieses Projekt (Planlizenz) | Benutzer mit einer Planlizenz, die ebenfalls Ansichtsrechte für dieses Projekt haben, können sowohl die ausgewählten als auch die nicht ausgewählten Felder sehen. Die übrigen Benutzer, die Anfragen an dieses Projekt senden können, sehen nur die ausgewählten Felder. |
      | Keine Benutzer | Die nicht ausgewählten Felder werden keinem Benutzer angezeigt. Alle Benutzer, die Anforderungen an dieses Projekt senden können, sehen nur die ausgewählten Felder. |
 
-   * **Benutzerdefinierte Forms**: Wählen Sie ein benutzerdefiniertes Formular aus, das mit der Anforderungswarteschlange verknüpft werden soll. In diesem Dropdownmenü können Sie nur die Option Benutzerdefinierte Forms für Probleme auswählen. Bei allen an die Anforderungswarteschlange gesendeten Problemen sind die ausgewählten Formulare ihnen zugeordnet.\
-     Wenn mehrere Warteschlangenthemen mit einer Anforderungswarteschlange verknüpft sind, empfehlen wir, benutzerdefinierte Formulare stattdessen mit den Warteschlangenthemen zu verknüpfen. Weitere Informationen zum Erstellen von Unterabschnitten für die Anforderungswarteschlange finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   * **Benutzerdefinierte Forms**: Wählen Sie ein benutzerdefiniertes Formular aus, das mit der Anforderungswarteschlange verknüpft werden soll. In diesem Dropdownmenü können Sie nur die Option Benutzerdefinierte Forms für Probleme auswählen. Bei allen an die Anforderungswarteschlange gesendeten Problemen sind die ausgewählten Formulare ihnen zugeordnet. Sie müssen benutzerdefinierte Problemformulare erstellen, bevor Sie sie im Abschnitt Warteschlangendetails anzeigen können.
+Wenn mehrere Warteschlangenthemen mit einer Anforderungswarteschlange verknüpft sind, empfehlen wir, benutzerdefinierte Formulare stattdessen mit den Warteschlangenthemen zu verknüpfen. Weitere Informationen zum Erstellen von Unterabschnitten für die Anforderungswarteschlange finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
 
@@ -303,7 +304,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
      >[!TIP]
      >
-     Benutzerdefinierte Formulare, die dem Abschnitt &quot;Warteschlangendetails&quot;hinzugefügt werden, sind auch mit neuen Problemen verknüpft, die dem Projekt oder den Aufgaben im Abschnitt &quot;Probleme&quot;hinzugefügt wurden.
+     >Benutzerdefinierte Formulare, die dem Abschnitt &quot;Warteschlangendetails&quot;hinzugefügt werden, sind auch mit neuen Problemen verknüpft, die dem Projekt hinzugefügt werden <!--this is confusiong: or the tasks in the Issues  section-->.
 
 1. Fahren Sie mit der Auswahl der Informationen für die Einstellungen im **E-Mail-Warteschlangeneinstellungen** -Bereich, damit Benutzer Anfragen per E-Mail an das Projekt in der Anforderungswarteschlange senden können.
 

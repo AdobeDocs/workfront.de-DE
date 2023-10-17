@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Support kontaktieren
-description: Support kontaktieren
+description: Als Adobe Workfront-Kunde können Sie sich telefonisch an den Workfront-Kundendienst wenden oder ein Ticket online einreichen.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ Sie können ein Support-Ticket über die Self-Service-Website einreichen [!DNL E
 >Nur autorisierte Support-Kontakte (oder berechtigte Kunden) können Online-Support-Tickets einreichen.
 
 
-1. Aus dem [[!DNL Experience League]](https://experienceleague.adobe.com) Website, klicken Sie auf **[!UICONTROL Support]**  oben auf der Seite.
+1. Aus dem [[!DNL Experience League]](https://experienceleague.adobe.com) Website, klicken Sie **[!UICONTROL Support]**  oben auf der Seite.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    Auf der Support-Startseite können Sie einfach zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren, die wichtigsten Support-Artikel anzeigen oder auf zusätzliche Lernquellen zugreifen.
 
-1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option &quot;[!UICONTROL Support-Fall öffnen]&quot;, klicken Sie auf **[!UICONTROL Sign] In**.
+1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option **[!UICONTROL Support-Fall öffnen]** Klicken Sie auf **[!UICONTROL Sign] In**.
 
-1. Klicken **[!UICONTROL Fall öffnen]** in der linken Seitenleiste.
+1. Klicks **[!UICONTROL Fall öffnen]** in der linken Seitenleiste.
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen eingeben können ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], usw.), den Titel der Groß-/Kleinschreibung und die Fallbeschreibung.
+   Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen eingeben können ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], usw.), den Titel der Groß-/Kleinschreibung und die Beschreibung der Groß-/Kleinschreibung.
 
    >[!TIP]
    >
@@ -79,13 +79,13 @@ Sie können ein Support-Ticket über die Self-Service-Website einreichen [!DNL E
    >
    >Sie können auch zur [!UICONTROL Meine Fälle] Seite durch Klicken auf **[!UICONTROL Meine Fälle]** in der linken Seitenleiste.
 
-1. Im [!UICONTROL Meine Fälle] verwenden Sie die Optionen oben auf der Seite, um nach Produkt ([!DNL Experience Cloud] Lösung) oder Fall [!UICONTROL Status] (geöffnet oder geschlossen). Sie können auch die [!UICONTROL suchen] um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
+1. Im **[!UICONTROL Meine Fälle]** , verwenden Sie die Optionen oben auf der Seite, nach denen Sie filtern möchten. **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** (Öffnen oder geschlossen). Sie können auch die [!UICONTROL suchen] um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
 
-1. Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf das **Fallnummer** , um darauf zuzugreifen. Die [!UICONTROL Case] -Ansicht geöffnet.
+1. Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf die Schaltfläche **Fallnummer** , um darauf zuzugreifen. Die [!UICONTROL Case] -Ansicht geöffnet.
 
 1. Im [!UICONTROL Case] sehen Sie sich die neuesten Kommentare mit dem Eigentümer der zugewiesenen Groß-/Kleinschreibung an und fügen Sie weitere Anlagen oder Antworten hinzu.
 
-1. Klicken **[!UICONTROL Eskalieren an die Verwaltung]** rechts auf der Seite unter **[!UICONTROL Anwendungsdetails]** um den Fall zu eskalieren.
+1. Klicks **[!UICONTROL Eskalieren an die Verwaltung]** rechts auf der Seite unter **[!UICONTROL Anwendungsdetails]** um den Fall zu eskalieren.
 
 1. Klicken Sie auf **[!UICONTROL Schreibweise]** -Schaltfläche, um den Fall zu schließen.
 
