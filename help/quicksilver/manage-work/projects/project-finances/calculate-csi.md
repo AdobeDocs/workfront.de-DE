@@ -7,7 +7,7 @@ description: Der Cost Schedule Performance Index (CSI) ist eine automatische Ber
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -26,23 +26,21 @@ Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die 
 
 >[!TIP]
 >
->Adobe Workfront berechnet CSI sowohl für Aufgaben als auch für Projekte. Workfront berechnet keinen CSI-Wert für Probleme.
+>Adobe Workfront berechnet CSI für Aufgaben und Projekte. Workfront berechnet keinen CSI-Wert für Probleme.
 
 Sie können von den Informationen dieser Metrik nur profitieren, wenn in Ihrer Organisation Folgendes vorhanden ist:
 
 * Ihre Benutzer protokollieren die Zeit für die Arbeit, die sie abgeschlossen haben.\
-   Dies berechnet CSI auf der Grundlage von Stunden.
+  Dies berechnet CSI auf der Grundlage von Stunden.
 * Ihren Benutzern oder Auftragseinheiten sind die Kosten pro Stunde zugeordnet. 
 
-   Dies berechnet CSI auf der Grundlage der Kosten.
+  Dies berechnet CSI auf der Grundlage der Kosten.
 
 ## Berechnung des CSI (Cost Schedule Performance Index) durch Workfront
 
 Workfront berechnet den CSI (Cost Performance Index) eines Projekts oder einer Aufgabe mithilfe der folgenden Formel:
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
 Weitere Informationen zu CPI finden Sie im Artikel [CPI (Cost Performance Index) berechnen](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -50,9 +48,8 @@ Weitere Informationen zu SPI finden Sie im Artikel [Berechnung des Zeitplan-Leis
 
 CSI hat die folgenden drei möglichen Werte:
 
-* 1 = entspricht dem Gesamtplan   
-* 
-   >1 = Unter-Budgetplankombination
+* 1 = entspricht dem Gesamtplan
+* \>1 = Unter Budgetplankombination
 * &lt;1) Kombination aus Budgetplankombinationen
 
 ![](assets/csi-highlighted.png)
