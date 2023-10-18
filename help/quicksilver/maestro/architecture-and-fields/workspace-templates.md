@@ -4,13 +4,13 @@ description: Ein Arbeitsbereich ist eine Sammlung operativer Datensatztypen und 
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Liste der Workspace-Vorlagen
 
 >[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -154,5 +156,3 @@ Im Folgenden finden Sie Workspace-Vorlagen in Maestro und die Anzahl der darin e
       * **Produktteam**: 3 Felder
       * **Funktionsanforderungen**: 8 Felder und 1 verknüpftes Feld
       * **Branche**: 1 Feld und 1 verknüpftes Feld
-
-

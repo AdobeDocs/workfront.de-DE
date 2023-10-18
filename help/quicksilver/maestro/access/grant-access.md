@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Maestro ist ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -50,7 +50,7 @@ Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, könn
 
 So geben Sie den Maestro-Bereich mithilfe einer Layoutvorlage frei:
 
-1. Anmelden bei **Workfront** als Systemadministrator.
+1. Anmelden bei **Workfront** als Workfront-Administrator.
 
 1. Fügen Sie die **Maestro** icon ![](assets/maestro-icon.png) der **Hauptmenü** mithilfe einer **Layout-Vorlage**.
 

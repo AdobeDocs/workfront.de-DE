@@ -6,9 +6,9 @@ description: Sie können Aufgaben in verschiedene Projekte oder in verschiedene 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
 Die folgenden Elemente werden standardmäßig nicht mit der Aufgabe verschoben:
 
-* Meilensteine werden in die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
+* Meilensteine
 
 ## Verschieben von Aufgaben in eine Liste
 

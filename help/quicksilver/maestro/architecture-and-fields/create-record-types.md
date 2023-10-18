@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # Erstellen von operationellen Datensatztypen
 
 >[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -100,7 +102,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture-and-fields/create-workspaces.md).
       * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren. Dies ist nicht für Taxonomie-Datensatztypen verfügbar.
-      * Wenn Sie eine Verbindung zu Objekttypen aus einer anderen Anwendung erstellen, wenn Sie Felder zu einem Datensatztyp hinzufügen. Dadurch wird in Maestro ein schreibgeschützter Datensatztyp erstellt, der mit Objektarten aus der Originalanwendung verbunden ist. Dies ist nicht für Taxonomie-Datensatztypen verfügbar.
+      * Wenn Sie eine Verbindung zu Objekttypen aus einer anderen Anwendung erstellen, wenn Sie Felder zu einem Datensatztyp hinzufügen. Dadurch wird in Maestro ein schreibgeschützter Datensatztyp erstellt, der mit Objektarten aus der Originalanwendung verbunden ist.
 
      Informationen zum Verbinden von Objekttypen mit Maestro-Datensätzen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
    * Manuell:
@@ -258,5 +260,7 @@ Sie können die folgenden Objekte aus den folgenden Anwendungen importieren:
    * Projekte
    * Portfolios
    * Programme
+   * Firma
+   * Gruppe
 
 Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).

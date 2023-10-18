@@ -6,9 +6,9 @@ description: Sie können den Status einer Aufgabe aktualisieren, um andere darü
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -83,6 +83,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
+## Überlegungen zum Aktualisieren des Status von Aufgaben
+
+* Wenn Sie eine Aufgabe als &quot;Abgeschlossen&quot;markieren, wird der prozentuale Abschluss der Aufgabe auf 100 % aktualisiert.
+* Für übergeordnete Aufgaben gibt es die folgenden Szenarien:
+   * Sie können den Status einer übergeordneten Aufgabe nicht auf &quot;Abgeschlossen&quot;aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf &quot;Automatisch&quot;eingestellt ist und die Unteraufgaben nicht abgeschlossen sind.
+   * Sie können den Status einer übergeordneten Aufgabe auf &quot;Abgeschlossen&quot;aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf &quot;Manuell&quot;festgelegt ist und die Unteraufgaben abgeschlossen oder unvollständig sind.
+
+  Weitere Informationen finden Sie unter [Projekte bearbeiten](../manage-projects/edit-projects.md).
+
 ## Aufgabenstatus manuell aktualisieren
 
 Wenn Sie einen Aufgabenstatus aktualisieren, können Sie auch eine Erläuterung zum neuen Status eingeben und andere Aufgabeninformationen wie das Fälligkeitsdatum ändern.
@@ -91,14 +100,14 @@ Wenn Sie einen Aufgabenstatus aktualisieren, können Sie auch eine Erläuterung 
 1. Klicken Sie auf **Status** in der Aufgabenüberschrift ein und wählen Sie einen neuen Status aus.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um weitere Informationen zur Aktualisierung bereitzustellen, und klicken Sie dann auf **Aktualisieren** oder wenn die Aufgabe die **Fertig** status, click **Fertig:**
 
-   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** Bereich und Klicken **Neue Aktualisierung starten** und geben Sie Ihre Notiz ein.
+   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** Bereich und Klicken **Neue Aktualisierung starten**, und geben Sie Ihre Notiz ein.
 
    * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das **Benachrichtigen** ein, das angezeigt wird, wenn Sie einen Hinweis zur Aktualisierung eingeben. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Um die Bedingung der Aufgabe zu aktualisieren, klicken Sie auf **Bedingung auswählen** rechts von der **Benachrichtigen** (diese werden angezeigt, wenn Sie einen Hinweis zur Aktualisierung eingeben), wählen Sie dann die Bedingung aus, die die aktuelle Bedingung der Aufgabe am besten widerspiegelt.
 
    * Um das Übermittlungsdatum der Aufgabe zu aktualisieren, erweitern Sie die **Datum der Übermittlung** und wählen Sie einen neuen Termin für die Veröffentlichung aus.
    * Um einen visuellen Hinweis zum Abschluss von Aufgaben bereitzustellen, ziehen Sie die Blase unter &quot;Percent Complete&quot;oder doppelklicken Sie darauf, um einen Prozentwert einzugeben.\
-      ![](assets/drag-the-progress-bar-350x155.png)
+     ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Automatisches Aktualisieren des Aufgabenstatus
 
@@ -131,7 +140,7 @@ Workfront aktualisiert den Status einer Aufgabe automatisch in einen anderen Sta
   <tr data-mc-conditions=""> 
    <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Arbeit an einer Aufgabe zu akzeptieren, die Ihnen zugewiesen ist.</span> </td> 
    <td><span>Neu</span> </td> 
-   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen des Startseiten-Teams verknüpft ist.</p> <p>Weitere Informationen zum Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start Task", finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Schaltfläche "Rückgängig"</span>Wenn Sie auf Aufgabe starten klicken, wird der Status auf Neu zurückgesetzt. </p> </td> 
+   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen des Home-Teams verknüpft ist.</p> <p>Weitere Informationen zum Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start Task", finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Schaltfläche "Rückgängig"</span>Wenn Sie auf Aufgabe starten klicken, wird der Status auf Neu zurückgesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

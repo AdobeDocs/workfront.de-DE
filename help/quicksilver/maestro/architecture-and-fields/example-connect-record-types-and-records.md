@@ -4,17 +4,19 @@ description: In diesem Artikel wird ein Beispiel für das Erstellen einer Verbin
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Beispiel für das Verbinden von Datensatztypen und Datensätzen
 
 >[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -193,6 +195,3 @@ Gehen Sie dazu folgendermaßen vor:
    >    Die Felder, die Sie zum Workfront Project Maestro-Datensatz hinzufügen, werden nur auf der Seite Workfront-Projekt hinzugefügt und nicht der Seite Campaign-Record Type als verknüpfte Felder hinzugefügt. Sie müssen die Projektfelder aus dem Feld Projektinformationen, verbunden mit Objekt des Datensatztyps Campaign hinzufügen, um sie für Kampagnen anzuzeigen.
 
 1. (Optional und bedingt) Wenn Sie mindestens zwei Datumsfelder für Projekte angezeigt haben, klicken Sie auf die Schaltfläche **Ansicht** Dropdown-Menü in der Workfront-Datensatztyp-Tabelle &quot;Projekt&quot;und **Ansicht erstellen** > **Timeline** > **Erstellen** , um eine Timeline-Ansicht zu erstellen und die Projekte in einer Timeline anzuzeigen.
-
-
-

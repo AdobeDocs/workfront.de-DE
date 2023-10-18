@@ -4,13 +4,13 @@ description: Sie können Datensatztypen nach dem Speichern bearbeiten. Datensatz
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Datensatztypen bearbeiten
 
 >[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -123,4 +125,3 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    Sie können auch einen Datensatztyp in der Kopfzeile der Seite des Datensatztyps umbenennen.
-

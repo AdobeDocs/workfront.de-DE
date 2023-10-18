@@ -4,13 +4,13 @@ description: Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zuei
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
+>
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
@@ -42,6 +44,7 @@ Sie können Folgendes verbinden:
 
 * Betriebsaufzeichentypen von Maestro
 * Maestro-Betriebsaufzeichentypen zu Taxonomiedatensatztypen
+* Maestro-Taxonomie-Typen zu betrieblichen Datensatztypen
 * Maestro-Betriebsdatentypen und -objekttypen aus anderen Anwendungen.
 
 Auf diese Weise können Sie Felder aus dem verknüpften Datensatz oder Objekttyp in einem anderen Maestro-Datensatz anzeigen.
@@ -240,7 +243,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicks **Felder hinzufügen** , um Ihre Änderungen zu speichern.
 
-   Folgendes wird hinzugefügt:
+   Die folgenden Elemente werden hinzugefügt:
 
    * Das verknüpfte Datensatzfeld, das die Datensätze des verknüpften Datensatztyps anzeigt, nachdem Sie sie manuell hinzugefügt haben. Der Name des verknüpften Datensatzfelds ist der Name, den Sie in Schritt 6 ausgewählt haben. <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Ein verknüpftes Datensatzfeld des Datensatztyps, mit dem Sie verknüpft sind. Der Name des verknüpften Datensatzfelds im verknüpften Datensatztyp ist der Name des Datensatztyps, von dem Sie eine Verknüpfung herstellen.
 
-     Wenn Sie beispielsweise den Datensatztyp &quot;Produkt&quot;aus dem Datensatztyp &quot;Kampagne&quot;verknüpfen und das verknüpfte Feld der Kampagne &quot;Verknüpftes Produkt&quot;nennen, wird ein mit &quot;Kampagne&quot;verknüpftes Feld für den Produktdatensatztyp erstellt.
+     Wenn Sie beispielsweise den Datensatztyp &quot;Produkt&quot;aus dem Datensatztyp &quot;Kampagne&quot;verknüpfen und das verknüpfte Feld der Kampagne &quot;Verknüpftes Produkt&quot;nennen, wird ein mit &quot;Kampagne&quot;verknüpftes Datensatzfeld für den Produktdatensatz-Typ erstellt.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >Das verknüpfte Datensatzfeld, das den von Ihnen verknüpften Datensatztyp anzeigt, wird nicht zu Datensatztypen hinzugefügt, wenn Sie einen Datensatztyp mit folgendem Element verbinden: <!--is this temporary for taxonomies??-->
-     >        
-     >   * Eine Taxonomie.
-     >   * Ein Objekttyp aus einer anderen Anwendung.
-
-1. (Optional) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf das Dropdown-Menü rechts neben dem verknüpften Datensatzfeld und klicken Sie dann auf eine der folgenden Optionen:
+1. (Optional) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
 
    * **Feld bearbeiten**: Sie können nur die **Name** und **Beschreibung** Informationen zum Feld.
    * **Suchfelder bearbeiten**: Fügt die Felder des verknüpften Datensatzes hinzu oder entfernt sie.
@@ -270,11 +264,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Um Felder hinzuzufügen oder zu entfernen, folgen Sie den Anweisungen in den Schritten 7 bis 12. <!--ensure these step numbers stay accurate-->
 
-1. (Optional) Klicken Sie in der Kopfzeile des verknüpften Datensatzes oder der verknüpften Felder auf den nach unten zeigenden Pfeil und dann auf **Löschen**.
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil in der Kopfzeile des verknüpften Datensatzfelds vom Typ, von dem Sie die Verknüpfung herstellen, und klicken Sie dann auf **Löschen**.
 
-   Das Datensatzfeld und alle zusätzlichen Lookup-Felder werden gelöscht und die Felder und ihre Informationen können nicht wiederhergestellt werden.
+   Das Datensatzfeld und alle zusätzlichen verknüpften Lookup-Felder werden gelöscht und die Felder und ihre Informationen können nicht wiederhergestellt werden.
 
    >[!TIP]
    >
-   >    Das verknüpfte Datensatzfeld im Datensatz, der mit dem ursprünglichen Datensatz verknüpft ist, wird nicht gelöscht. <!-- is this still accurate?! -->
-
+   >    Das verknüpfte Datensatzfeld des Datensatztyps, zu dem Sie eine Verknüpfung herstellen, wird nicht gelöscht. <!-- is this still accurate?! -->

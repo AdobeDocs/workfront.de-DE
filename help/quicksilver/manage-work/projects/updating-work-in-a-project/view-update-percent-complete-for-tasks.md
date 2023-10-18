@@ -6,9 +6,9 @@ description: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisi
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -84,26 +84,34 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folgenden Bereiche aktualisieren:
 
-* **In einer Aufgabenliste**: Sie können den prozentualen Abschluss einer Aufgabe aktualisieren, wenn die Spalte &quot;Prozent abgeschlossen&quot;angezeigt wird.\
-   Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitungselemente in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **In einer Aufgabenliste**: Sie können den Prozentsatz des Abschlusses einer Aufgabe aktualisieren, wenn die Spalte &quot;Prozent abgeschlossen&quot;angezeigt wird.\
+  Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitungselemente in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 * **In der Milestone-Ansicht**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren, wenn Sie die Meilensteinansicht in einer Projektliste oder in einem Projektbericht verwenden. Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Während der Aktualisierung der Aufgabe**: Sie können die Option zum Abschließen des Prozentsatzes einer Aufgabe aktualisieren, wenn Sie der Aufgabe ein Update hinzufügen.
+* **Während der Aktualisierung der Aufgabe**: Sie können die Option zum prozentualen Abschluss einer Aufgabe aktualisieren, wenn Sie der Aufgabe ein Update hinzufügen.
 
-   >[!IMPORTANT]
-   >
-   >Diese Option wird erst angezeigt, nachdem Sie die Option &quot;Prozentsatz abschließen anzeigen&quot;aktiviert haben.\
-   >Gehen Sie wie folgt vor, um die Aktualisierungsleiste für die prozentuale Aktualisierung von Aufgaben zu aktivieren:
-   >
-   >1. Navigieren Sie zu **Main** Menü > Ihr Name >**Mehr** Symbol neben Ihrem Namen >**Bearbeiten** > Auswählen **Prozentualer Abschluss der Aktualisierung anzeigen**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >[!IMPORTANT]
+  >
+  >Diese Option wird erst angezeigt, nachdem Sie die Option &quot;Prozentsatz abschließen anzeigen&quot;aktiviert haben.\
+  >Gehen Sie wie folgt vor, um die Aktualisierungsleiste für die prozentuale Aktualisierung von Aufgaben zu aktivieren:
+  >
+  >1. Navigieren Sie zu **Main** Menü > Ihr Name >**Mehr** Symbol neben Ihrem Namen >**Bearbeiten** > Auswählen **Prozentualer Abschluss der Aktualisierung anzeigen**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+
+* **In der Aufgabenüberschrift**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe in der Kopfzeile der Aufgabe aktualisieren. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../tasks/manage-tasks/edit-tasks.md).
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
-* **In der Aufgabenüberschrift**: Sie können den Prozentsatz des Abschlusses einer Aufgabe im Aufgabenkopf aktualisieren. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../tasks/manage-tasks/edit-tasks.md).
+## Überlegungen zum Aktualisieren des prozentualen Abschlusses einer Aufgabe
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* Wenn Sie eine Aufgabe als zu 100 % abgeschlossen markieren, wird der Aufgabenstatus auf &quot;Abgeschlossen&quot;aktualisiert.
+* Für übergeordnete Aufgaben gibt es die folgenden Szenarien:
+   * Sie können den prozentualen Abschluss einer übergeordneten Aufgabe nicht auf 100 % aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf Automatisch eingestellt ist und die Unteraufgaben nicht abgeschlossen sind.
+   * Sie können den Prozentsatz der Abschlüsse einer übergeordneten Aufgabe auf 100 % aktualisieren, wenn für den Zusammenfassungsabschlussmodus des Projekts &quot;Manuell&quot;festgelegt ist und die Unteraufgaben abgeschlossen oder unvollständig sind.
 
+  Weitere Informationen finden Sie unter [Projekte bearbeiten](../manage-projects/edit-projects.md).
 
 ## Prozentsatz des Abschlusses einer Aufgabe aktualisieren
 

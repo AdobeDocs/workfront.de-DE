@@ -4,13 +4,13 @@ description: Nachdem Sie Verbindungen zwischen Datensatztypen hergestellt haben,
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Datensätze verbinden
 
 >[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
 >
 >Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
 >
@@ -276,15 +278,3 @@ Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Workfron
    >  Die Felder, die Sie auf der Seite &quot;Workfront-Objektdatensatz&quot;hinzufügen oder entfernen, werden nicht zum Maestro-Datensatztyp hinzugefügt oder entfernt, der mit dem Workfront-Objekttyp verknüpft ist. Die Felder sind nur auf der schreibgeschützten Workfront-Datensatztypseite sichtbar, sodass Sie sie in Maestro überprüfen können.
 
 1. (Optional) Wählen Sie im Dropdownmenü Ansicht auf der Seite Workfront-Objektdatensatztyp die Timeline-Ansicht aus, um die mit Workfront verknüpften Objekte in der Timeline-Ansicht anzuzeigen.
-
-
-
-
-
-
-
-
-
-
-
-
