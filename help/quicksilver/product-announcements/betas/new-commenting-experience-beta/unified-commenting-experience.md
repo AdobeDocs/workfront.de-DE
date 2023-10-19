@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich
 
 Das neue Kommentierungserlebnis steht langsam für alle Objekte mit dem Abschnitt Updates in Workfront zur Verfügung und wird später auch für andere Adobe Experience Cloud-Anwendungen verfügbar sein.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Funktionen
@@ -50,7 +47,7 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 * Kommentar zu einer Systemaktualisierung
 * Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
 * Benutzerdefiniertes Formular bearbeiten
-* Die &quot;im Namen von &lt; Benutzername >&quot;-Informationen, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* Die Informationen &quot;im Namen von &lt; Benutzername >&quot;, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt, wurden ursprünglich entfernt. Es wurde am 19. Oktober 2023 wieder eingesetzt.
 * Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Kommentare auflösen 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3. Quartal 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>In Kommentaren suchen 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3. Quartal 2023 
+   <td>1. Quartal 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Bilder in Kommentare kopieren und einfügen
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1. Quartal 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Benutzerdefiniertes Formular bearbeiten 
    </td>
@@ -456,7 +455,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Klicks **Melden Sie sich an.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Wenn Sie sich als ein anderer Benutzer anmelden, wird das letzte Anmeldedatum f�
 Wenn Sie sich bei Workfront als ein anderer Benutzer anmelden und eine Aktion ausführen, zeigt Workfront eindeutig an, dass jede Aktion, die Sie ausführen, von Ihnen im Namen des Benutzers ausgeführt wird, als der Sie angemeldet sind.
 
 Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie als ein anderer Benutzer angemeldet sind, zeigt eine Anweisung an, dass der Kommentar von Ihnen im Namen des Benutzers abgegeben wurde.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Bei Verwendung des neuen Kommentar-Erlebnisses wird der Kommentar als Benutzer hinzugefügt, der sich als ein anderer Benutzer angemeldet hat. Es gibt keinen Hinweis darauf, dass er einen Kommentar für den Namen einer anderen Person hinzufügt.
->
->Wenn sich beispielsweise ein Workfront-Administrator als ein anderer Benutzer anmeldet, ist der mit dem Kommentar verknüpfte Benutzer der Workfront-Administrator. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Audit-Informationen anzeigen {#view-audit-information}
 

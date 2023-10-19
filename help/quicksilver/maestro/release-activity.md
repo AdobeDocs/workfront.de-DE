@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Vorschau und Produktion: 16. Oktober 2023
 
 Für Absatzfelder wurden Steuerelemente im Rich-Text-Format hinzugefügt. Sie können Absatzfelder mit Rich Text formatieren, entweder in der Tabellenansicht eines Datensatztyps oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
 
+
+### Farbkodierung für die Timeline-Ansicht aufzeichnen und gruppieren
+
+Vorschau und Produktion: 19. Oktober 2023
+
+Sie können jetzt die Datensatzleisten und die Gruppierungen in der Timeline-Ansicht farbcodieren.
+
+Im Folgenden finden Sie Optionen für die Farben, die Sie in der Timeline-Ansicht für Datensatzbalken und -gruppierungen anzeigen möchten:
+
+* Die Gruppierungen können die folgenden Farben aufweisen:
+
+   * Grau (Standard)
+
+   * Die Farbe des Felds, nach dem Sie eine Gruppierung vornehmen
+
+* Balken können die folgenden Farben aufweisen:
+
+   * Die Farbe des Datensatztyps
+
+   * Die Farbe eines ausgewählten Felds
+
+   * Die Farbe der Gruppierung
+
+   * Keine Farbe (Standard)
+
+Beim Abgleich von Farben mit einem bestimmten Feld können Sie nur Felder mit farbcodierten Optionen auswählen.
+
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](../maestro/views/manage-the-timeline-view.md).
 
 ## Woche vom 9. Oktober 2023
 

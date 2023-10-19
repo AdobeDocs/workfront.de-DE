@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -166,13 +166,13 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
 * Die Filter sind für die ausgewählte Ansicht eindeutig. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen denselben Filter, der derzeit angewendet wird.
 
-* Sie können die erstellten Filter nicht benennen und auf eine Timeline-Ansicht anwenden.
+* Sie können die von Ihnen erstellten Filter nicht für eine Timeline-Ansicht benennen.
 
-* Durch das Entfernen von Filtern werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp wie Sie zugreifen, und es wird die gleiche Ansicht verwendet, die Sie verwenden.
+* Wenn Sie Filter entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 
-Das Hinzufügen von Filtern in der Timeline-Ansicht ist mit dem Hinzufügen von Filtern in der Tabellenansicht identisch.
+* Das Hinzufügen von Filtern in der Timeline-Ansicht ist mit dem Hinzufügen von Filtern in der Tabellenansicht identisch.
 
-Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](../views/manage-the-table-view.md).
+  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](../views/manage-the-table-view.md).
 
 ### Gruppierung hinzufügen
 
@@ -180,45 +180,49 @@ Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im A
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 Sie können Datensätze nach ähnlichen Informationen gruppieren, wenn Sie eine Gruppierung auf eine Ansicht anwenden.
 
 Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 
-* Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Sie können in einer Maestro-Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
 * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden.
+* Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
+
+* Sie können die für eine Timeline-Ansicht erstellten Gruppierungen nicht benennen.
+
+* Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 
 So fügen Sie eine Gruppierung hinzu:
 
-1. Erstellen Sie eine Timeline-Ansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
-1. Klicks **Gruppierung**.
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
+1. Klicks **Gruppierung** in der rechten oberen Ecke der Timeline-Ansicht.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Andere Felder auswählen** und suchen Sie nach einem anderen Feld und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Andere Felder auswählen**, suchen Sie nach einem anderen Feld und klicken Sie darauf, wenn es in der Liste angezeigt wird.
 
    >[!TIP]
    >
    >Verknüpfte Felder können nicht ausgewählt werden.
 
-   Die Gruppierung wird automatisch auf die Timeline angewendet und Datensätze werden innerhalb des Gruppierungsfelds angezeigt. Die Anzahl der Elemente in einer Gruppierung wird in der Gruppierungszeile angezeigt.
+   Die Gruppierung wird automatisch auf die Timeline angewendet und Datensätze werden innerhalb des Gruppierungsfelds angezeigt.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
-   Die Anzahl der angewendeten Gruppierungen wird links neben dem Gruppierungssymbol in der oberen rechten Ecke der Symbolleiste angezeigt.
+   Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Klicken Sie auf die **x** rechts neben einer Gruppierung, um die Gruppierung zu entfernen
+1. (Optional) Klicken Sie auf die **x** rechts neben einem Feld, das zum Entfernen der Gruppierung ausgewählt wurde
 
    Oder
 
-   Klicks **Alle löschen** um alle Gruppierungen zu entfernen.
+   Klicks **Alle löschen** um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb der **Gruppiert Datensätze nach** zum Schließen.
 
@@ -234,18 +238,17 @@ this is not possible right now; if this is the same functionality as the table v
 
 Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche Informationen im Timeline-Abschnitt der Ansicht angezeigt werden.
 
-1. Erstellen Sie eine Timeline-Ansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 1. Klicks **Einstellungen**.
 1. Klicks **Datum und Uhrzeit** im linken Bereich und wählen Sie dann eine **Startdatum** und **Enddatum** in der Timeline angezeigt. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges Datumsfeld auswählen. Die den Datensätzen entsprechenden Balken beginnen am Datum, das Sie für das Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
 
    >[!NOTE]
    >
-   >    Datensätze, die keine Werte für das Start- oder Enddatum oder ein Startdatum nach dem Enddatum haben, werden nicht in der Timeline-Ansicht angezeigt.
+   >Datensätze, die keine Werte für das Start- oder Enddatum oder ein Startdatum nach dem Enddatum haben, werden nicht in der Timeline-Ansicht angezeigt.
 
+1. Klicks **Balkenstil** im linken Bereich, um anzugeben, welche Felder in den Datensatzleisten angezeigt werden sollen.
 
-1. Klicks **Datensatzdetails** , um anzugeben, welche Felder in den Datensatz-Bards angezeigt werden sollen.
-
-   Das Feld Name ist standardmäßig ausgewählt.
+   Das Feld Name ist standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
 
 1. Klicks **Feld hinzufügen** , um bis zu 4 Felder zu den Datensatzbalken hinzuzufügen.
 1. Klicken Sie in die **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
@@ -259,6 +262,41 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
    Eine Vorschau der Balken wird auf der rechten Seite angezeigt.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Klicks **Farbe** im linken Bereich, um die Farben der Datensätze und Gruppierungen in der Timeline anzupassen.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Bedingt und optional) Wenn Sie der Timeline-Ansicht eine Gruppierung hinzugefügt haben, wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Gruppierung im **Festlegen der Gruppierungsfarbe** Abschnitt:
+
+   * **Standard (grau)**: Die Farbe der Gruppierungen ist auf grau eingestellt. Dies ist die Standardeinstellung.
+   * **Feldwerte**: Die Farbe der Gruppierungen entspricht der Farbe des Felds, nach dem Sie die Gruppe bilden.
+Sie können die Farbe der Gruppierungen nur mit Feldern mit farbcodierten Optionen abgleichen.
+
+   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbkodierte Optionen aufweisen.
+
+   Wenn Sie eine Gruppierung nach Feldern ohne farbkodierte Optionen durchführen, bleibt die Gruppierungsfarbe grau.
+
+   >[!TIP]
+   >
+   >Wenn Sie der Timeline-Ansicht keine Gruppierungen hinzugefügt haben, wird dieser Abschnitt nicht angezeigt.
+
+1. Im **Datensatzfarbe festlegen** Wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Datensätze festzulegen:
+
+   * **Record Type**: Die Farbe der Datensätze entspricht der Farbe des von Ihnen ausgewählten Datensatztyps. Dies ist die Standardoption.
+   * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
+   * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn Sie keine Gruppierungen auf die Timeline-Ansicht angewendet haben.
+   * **Keines**: Datensätze werden in einer weißen Leiste angezeigt.
+
+1. (Bedingt) Bei Auswahl von **Feldwerte** Wählen Sie für die Datensatzfarben ein Feld aus der **Übereinstimmung der Datensatzfarbe mit** Dropdown-Menü.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   Im Dropdown-Menü werden nur Felder mit farbcodierten Optionen angezeigt.
+
+   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbkodierte Optionen aufweisen.
+
+   Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
 1. Klicken Sie auf **Speichern**.
 
