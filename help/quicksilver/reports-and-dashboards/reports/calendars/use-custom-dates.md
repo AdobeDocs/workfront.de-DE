@@ -6,9 +6,9 @@ description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards] und [!UICONTROL Kalender] bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards] und [!UICONTROL Kalender] bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf den Kalenderbericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf den Kalenderbericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,11 +65,11 @@ Sie können auswählen, wie die Gruppe von Elementen im Kalender angezeigt werde
 
 1. Wählen Sie den Kalender aus, dem Sie eine neue Gruppe von Elementen hinzufügen möchten.\
    Oder\
-   Klicken **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendernamen ein.
+   Klicks **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendernamen ein.
 
    >[!NOTE]
    >
-   >Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards]und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen.
+   >Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards], und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen.
 
 1. Klicken Sie links auf **[!UICONTROL Zum Kalender hinzufügen]** Klicken Sie auf **[!UICONTROL Erweiterte Elemente hinzufügen]**.
 
@@ -101,7 +101,7 @@ Sie können auswählen, wie die Gruppe von Elementen im Kalender angezeigt werde
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Benutzerdefinierte Datumswerte]</strong></td>
-      <td><p>Geben Sie den benutzerdefinierten Datumnamen ein, der an das Objekt angehängt ist, das Sie verfolgen möchten.</p></td>
+      <td><p>Geben Sie den benutzerdefinierten Datumnamen ein, der an das Objekt angehängt ist, das Sie verfolgen möchten.</p><p><strong>NOTE:</strong> Die Suche nach dem benutzerdefinierten Datumsnamen ist auf 50 Ergebnisse beschränkt, um Leistungsprobleme zu vermeiden.</td>
      </tr>
     </tbody>
    </table>
@@ -118,7 +118,7 @@ Nachdem Sie eingerichtet haben, wie Elemente angezeigt werden sollen, müssen Si
    * **[!UICONTROL Projekte]**
    * **[!UICONTROL Probleme]**
 
-1. Klicken **[!UICONTROL Aufgaben hinzufügen]**, **[!UICONTROL Projekte hinzufügen]** oder **[!UICONTROL Hinzufügen von Problemen]**- abhängig vom Objekttyp, den Sie dem Kalender hinzufügen.\
+1. Klicks **[!UICONTROL Aufgaben hinzufügen]**, **[!UICONTROL Projekte hinzufügen]** oder **[!UICONTROL Hinzufügen von Problemen]**- abhängig vom Objekttyp, den Sie dem Kalender hinzufügen.\
    ![Objekt für Kalender auswählen](assets/field-name.png)
 
 1. Geben Sie im Dropdown-Menü den Feldnamen ein und wählen Sie dann die Feldquelle des Objekts aus, das im Kalender angezeigt werden soll (z. B. **[!UICONTROL Verspätete Aufgaben]**).

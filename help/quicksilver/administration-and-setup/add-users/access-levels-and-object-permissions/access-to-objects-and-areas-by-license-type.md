@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '425'
 ht-degree: 19%
 
 ---
@@ -23,9 +23,9 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 * **Ansicht**: Der Benutzer kann Elemente überprüfen und freigeben.
 * **Bearbeiten**: Der Benutzer kann Elemente erstellen, bearbeiten, löschen und freigeben.
 
-   >[!NOTE]
-   >
-   >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 |   | Plan | Arbeit | Überarbeitung | Anfrage | Extern |
 |---|---|---|---|---|---|
@@ -49,7 +49,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 
 >[!NOTE]
 >
->Benutzer mit einer Review-Lizenz oder einer Request-Lizenz verfügen über eingeschränkte Freigabemöglichkeiten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront-Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) oder [Übersicht über Adobe Workfront-Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Benutzer mit einer Review-Lizenz oder einer Request-Lizenz verfügen über eingeschränkte Freigabemöglichkeiten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront-Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externe Benutzer können in Workfront nicht nach Elementen suchen. Sie können Dokumente und Kalender anzeigen, die speziell für sie freigegeben wurden. Sie können auch die Benutzer sehen, die Elemente für sie freigeben.
 
