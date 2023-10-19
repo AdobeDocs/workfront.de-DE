@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -21,9 +21,13 @@ ht-degree: 13%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domänen, die für Adobe Apps und Services zulässig sein sollen](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domänen, die für Adobe-Apps und -Dienste zulässig sein sollen](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>Die Art und Weise, wie ein Unternehmen seine Zulassungsliste konfiguriert, ist für jede Organisation eindeutig. Arbeiten Sie mit Ihrem IT-Team zusammen, um das Verfahren Ihres Unternehmens zu ermitteln und diese Ergänzungen zu implementieren.
 
 Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen. Dadurch wird die Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern geöffnet und die folgenden Prozesse sind möglich:
 
