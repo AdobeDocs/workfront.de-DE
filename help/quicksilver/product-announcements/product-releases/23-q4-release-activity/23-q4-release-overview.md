@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -325,8 +325,8 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Standard-Landingpage für Mitwirkende: Neue Startseite</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span> </p>
-                        <p>Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-Konten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Mitarbeiter-Standard-Landingpage: Neue Startseite</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span> </p>
+                        <p>Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierte E-Mail-Vorlagen</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
-                        <p>Als Beginn einer neuen Initiative zur Aktualisierung unserer Ereignisbenachrichtigungs-E-Mails haben wir zwei der am häufigsten verwendeten Funktionen aktualisiert: Dokumentenvalidierung und Objektfreigabe.</p>
-                    </td>
-                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau-Version: 12. Oktober 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 23.10</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Änderungen am Hauptmenü des Beitragenden</a> <span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
-                        <p>Um Mitarbeiter besser über die Funktionen zu informieren, die mit einem gebührenpflichtigen Workfront-Lizenztyp verfügbar sind, können sie jetzt alle verfügbaren Optionen im Hauptmenü sehen.</p>
+                        <p>Um Mitarbeiter/Antragsteller besser über die Funktionen zu informieren, die mit einem gebührenpflichtigen Workfront-Lizenztyp verfügbar sind, können sie jetzt alle verfügbaren Optionen im Hauptmenü sehen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>

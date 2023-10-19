@@ -6,9 +6,9 @@ description: Sie können ein Dokument für jedes Objekt anfordern, das Dokumente
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Sie müssen über Folgendes verfügen:
 
    Sie können auf den in der E-Mail-Benachrichtigung enthaltenen Link klicken und dann das Dokument hochladen. Sie können auch auf die In-App-Benachrichtigung klicken. Jede Option leitet Sie zur Benutzerprofilseite weiter, auf die Sie das angeforderte Dokument hochladen können.
 
-   Sie können auch direkt auf die E-Mail antworten und die angeforderten Dokumente anhängen (sofern Sie für die Unterstützung von E-Mail-Antworten konfiguriert sind). Informationen zum Konfigurieren von E-Mail-Antworten finden Sie unter .
+   Sie können auch direkt auf die E-Mail antworten und die angeforderten Dokumente anhängen (sofern Sie für die Unterstützung von E-Mail-Antworten konfiguriert sind).
 
 1. Nach dem Hochladen des Dokuments kann die Person, die das Dokument angefordert hat, auf das Dokument in ihrer **Dokumente** Bereich.
 

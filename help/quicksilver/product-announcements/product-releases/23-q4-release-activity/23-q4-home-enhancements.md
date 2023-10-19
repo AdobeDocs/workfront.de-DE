@@ -3,9 +3,9 @@ title: Verbesserungen für das vierte Quartal 2023 - Startseite
 description: Verbesserungen für das vierte Quartal 2023 - Startseite
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ In einer wichtigen neuen Ergänzung zu den Arbeitsverwaltungsoptionen, die in Ne
 
 Weitere Informationen zu den Widgets, die in der neuen Startseite verfügbar sind, finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Neue Standard-Landingpage für Mitwirkende: Neue Startseite
+## Neue Mitarbeiter-Standard-Landingpage: Neue Startseite
 
-Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-Konten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Beachten Sie, dass bei einem Layout mit einer benutzerdefinierten Startseite, die derzeit von einem Mitarbeiter-Konto verwendet wird, dies weiterhin die Startseite ist.
+Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Beachten Sie, dass bei einem Layout mit einer benutzerdefinierten Startseite, die derzeit von einem Mitarbeiter-Konto verwendet wird, dies weiterhin die Startseite ist.
 
 Weitere Informationen zur Verwendung von &quot;New Home&quot;finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
