@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
 
 ### Externe Suchfelder hinzufügen
 
-Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine dieser Optionen aus der Dropdown-Liste auswählen.
+Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
 
 So fügen Sie eine externe Suche hinzu:
 
@@ -540,7 +540,8 @@ So fügen Sie eine externe Suche hinzu:
      <tr> 
       <td role="rowheader">Basis-API-URL</td> 
       <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie im Dropdown-Menü anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus den zurückgegebenen JSON-Optionen auszuwählen, die Dropdown-Optionen sein sollen.</p><p>Beim Eingeben der API-URL können Sie optional die folgenden Werte in die URL übergeben:</p>
-      <ul><li>$$query - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</li>
+      <ul><li>$$QUERY - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</li>
+      <li>$$HOST - Dies stellt den aktuellen Workfront-Host dar und kann verwendet werden, um /search API-Aufrufe an die Workfront-API durchzuführen. Wenn dieser Platzhalter verwendet wird, wird die Authentifizierung verarbeitet und Benutzer müssen keine Authentifizierungskopfzeilen senden. (Beispielsweise können Benutzer Aufgaben mithilfe der Basis-URL "$$HOST/attask/api/task/search"suchen und es ermöglicht die Suche nach Aufgaben und die Auswahl von Werten aus einer zurückgegebenen Liste von Aufgaben.)</li>
       <li>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</li></ul>
       <p><strong>NOTE:</strong> Lesen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">Kopfzeilen</td>
       <td><p>Klicks <strong>Kopfzeile hinzufügen</strong>und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.</p><p><strong>NOTE:</strong> Die Felder "Kopfzeile"sind kein sicherer Ort zum Speichern von Anmeldeinformationen. Achten Sie darauf, was Sie eingeben und speichern.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Mehrfachauswahl-Dropdown</td>
+      <td><p>Wählen Sie diese Option aus, damit der Benutzer mehr als einen Wert in der Dropdown-Liste auswählen kann.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann.</p></td>
+     </tr>       
     </tbody>
    </table>
 
