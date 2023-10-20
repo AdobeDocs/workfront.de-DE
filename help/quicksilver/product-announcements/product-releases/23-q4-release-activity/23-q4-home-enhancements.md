@@ -3,9 +3,9 @@ title: Verbesserungen für das vierte Quartal 2023 - Startseite
 description: Verbesserungen für das vierte Quartal 2023 - Startseite
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vier
 
 Als häufig angeforderte Funktion der alten Startseite haben wir jetzt eine Delegierungsschaltfläche zu den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;hinzugefügt, damit Sie Ihre Arbeit einfach delegieren können, wenn Sie nicht im Büro sind. Im Delegationsmenü, das genauso funktioniert wie vor New Home, können Sie auswählen, wem und wie lange Sie Ihre Geschichten und Probleme delegieren möchten. Beachten Sie, dass die Arbeitszuweisung in Ihrer Workfront-Umgebung aktiviert sein muss, damit die Schaltfläche angezeigt wird.
 
-Weitere Informationen zur Delegierung in Workfront finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Weitere Informationen zur Delegierung in Workfront finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Neues Widget &quot;Pinnwände&quot;für neues Zuhause
 
@@ -30,7 +30,7 @@ Weitere Informationen zu den Widgets, die in der neuen Startseite verfügbar sin
 
 ## Neue Mitarbeiter-Standard-Landingpage: Neue Startseite
 
-Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Beachten Sie, dass bei einem Layout mit einer benutzerdefinierten Startseite, die derzeit von einem Mitarbeiter-Konto verwendet wird, dies weiterhin die Startseite ist.
+Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Diese Standard-Widgets für Mitarbeiter sind: Anforderungen, Erwähnungen, Probleme und Foren. Beachten Sie, dass ein Layout mit einer benutzerdefinierten Startseite, das derzeit von einem Mitarbeiter-Konto verwendet wird, ihre Startseite bleibt.
 
 Weitere Informationen zur Verwendung von &quot;New Home&quot;finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
