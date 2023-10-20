@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Echtzeitaktualisierungen auf der Aufgabenliste</a> </p>
+                        <p>[!BADGE In Produktion]{type=Informative}</p>
+                        <p>Aufgabenlisten werden jetzt in Echtzeit aktualisiert. Änderungen, die an einer Aufgabe vorgenommen werden, werden in der Aufgabenliste aktualisiert, sodass ein Benutzer, der die Aufgabenliste anzeigt, die Änderung sehen kann, ohne die Seite zu aktualisieren.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion für alle Kunden: stufenweise Einführung, abgeschlossen am 19. Oktober 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

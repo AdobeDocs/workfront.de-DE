@@ -3,9 +3,9 @@ title: Projektverbesserungen im vierten Quartal 2023
 description: Projektverbesserungen im vierten Quartal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Weitere Informationen finden Sie unter [Informationen in benutzerdefinierten For
 Die Art und Weise, wie geplante Stunden wiederkehrenden Aufgaben ohne Zuweisung und einfache Dauer zugeordnet werden, wurde geändert. Wenn Sie jetzt &quot;Geplante Stunden&quot;für eine neue wiederkehrende Aufgabe mit dem Typ Einfache Dauer und ohne Zuweisung festlegen, werden die Stunden auch den einzelnen Wiederholungen zugeordnet. Vor dieser Änderung wurden die Stunden nicht für einzelne Wiederholungen gespeichert, wenn die Zuordnung der übergeordneten Aufgaben aufgehoben wurde.
 
 Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Wiederkehrende Aufgaben erstellen](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Echtzeitaktualisierungen auf der Aufgabenliste
+
+Aufgabenlisten werden jetzt in Echtzeit aktualisiert. Änderungen, die an einer Aufgabe vorgenommen werden, werden in der Aufgabenliste aktualisiert, sodass ein Benutzer, der die Aufgabenliste anzeigt, die Änderung sehen kann, ohne die Seite zu aktualisieren.
