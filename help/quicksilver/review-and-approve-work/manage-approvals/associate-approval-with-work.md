@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit
 description: In diesem Artikel wird beschrieben, wie Sie Genehmigungsprozesse mit Arbeitselementen verknüpfen können. Informationen zum Verknüpfen von Genehmigungen mit Testsendungen oder Dokumenten finden Sie in den folgenden Artikeln.
 author: Courtney and Alina
-feature: Work Management
-exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+feature: Work Management, Digital Content and Documents
+sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+source-git-commit: e375408e6ccc25ff8d5c1e4f6c4fc7da2208db46
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%
@@ -77,17 +77,17 @@ Zusätzlich zu den unten beschriebenen Überlegungen empfehlen wir, die allgemei
   -->
 
 * Sie müssen das Projekt, die Aufgabe, das Problem, die Vorlage oder die Vorlagenaufgabe erstellen, bevor ihnen der Genehmigungsprozess zugeordnet werden kann.
-* Wenn Sie einen Validierungsprozess an ein Element für einen Status anhängen, der übergeben wurde und in dem sich das Element derzeit befindet, wird der Validierungsprozess nicht ausgelöst und den Genehmigern werden keine Benachrichtigungen gesendet.
+* Wenn Sie einen Validierungsprozess an ein Element für einen Status anhängen, der übergeben wurde und in dem sich das Element derzeit befindet, wird der Validierungsprozess nicht ausgelöst und es werden keine Benachrichtigungen an die Genehmiger gesendet.
 
-   **Beispiel:** Wenn eine Aufgabe den Status Abgeschlossen aufweist und Sie einen mit dem Status Abgeschlossen verknüpften Genehmigungsprozess anhängen, wird die Genehmigung nicht Trigger.
+  **Beispiel:** Wenn eine Aufgabe den Status Abgeschlossen aufweist und Sie einen mit dem Status Abgeschlossen verknüpften Genehmigungsprozess anhängen, wird die Genehmigung nicht Trigger.
 
 * Wenn Sie einen Genehmigungsprozess an den ersten Status eines Elements anhängen (mithilfe einer Vorlage für Aufgaben und Projekte, mithilfe der Einstellungen für die Warteschlangeneinrichtung für Probleme oder durch Definition der Aufgabeneinstellungen eines Projekts für neue Aufgaben), werden die Genehmigungsprozesse umgangen, wenn die gesendete Genehmigung zurückgerufen wird. In diesem Fall erhalten die Genehmiger keine Benachrichtigungen.
 
-   Weitere Informationen zum Aufrufen von Genehmigungen finden Sie unter [Genehmigungen anzeigen](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  Weitere Informationen zum Aufrufen von Genehmigungen finden Sie unter [Anzeigen von Genehmigungen](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-   >[!TIP]
-   >
-   >Der erste Status für eine Aufgabe oder ein Problem ist &quot;Neu&quot;. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektoptionen in Ihrem System ausgewählt hat. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!TIP]
+  >
+  >Der erste Status für eine Aufgabe oder ein Problem ist &quot;Neu&quot;. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektoptionen in Ihrem System ausgewählt hat. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Die Zuordnung von Genehmigungsprozessen zu einem Objekt wird im Bereich Updates für das Objekt nicht aufgezeichnet.
 * Sie können einen Genehmigungsprozess nicht mit einer übergeordneten Aufgabe verknüpfen.
@@ -102,17 +102,19 @@ Sie können einen globalen Genehmigungsprozess mit einem Arbeitselement (Projekt
 Der globale Genehmigungsprozess muss für die mit dem Arbeitselement verknüpfte Gruppe oder für alle Gruppen im System verfügbar sein.
 
 >[!NOTE]
+>
 Sie können Projektgenehmigungsprozesse an eine Vorlage anhängen und Aufgabengenehmigungsprozesse an eine Vorlagenaufgabe. Wenn Sie dies tun und jemand die Vorlage zum Erstellen eines Projekts verwendet, wird der Genehmigungsprozess zu einem Projekt- bzw. Aufgabenvalidierungsprozess. Ein an eine Vorlage oder Vorlagenaufgabe angehängter Genehmigungsprozess für eine einmalige Verwendung bleibt ein einmaliger Genehmigungsprozess für Projekte und Aufgaben.
 
 Informationen dazu, wie Workfront-Administratoren einen globalen Genehmigungsprozess für alle Gruppen im System konfigurieren können und wie Gruppenadministratoren Genehmigungen für eine Gruppe erstellen können, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
+>
 Sie können auch einen globalen Genehmigungsprozess an Ihre spezifischen Anforderungen anpassen. Weitere Informationen finden Sie im Abschnitt . [Globalen Genehmigungsprozess zur Verwendung für ein bestimmtes Objekt ändern](#modify-a-global-approval-process-for-use-on-a-specific-object) in diesem Artikel.
 
 So verknüpfen Sie einen vorhandenen globalen Genehmigungsprozess mit einer Projekt-, Aufgaben-, Ausgabe-, Vorlagen- oder Vorlagenaufgabe:
 
 1. Wechseln Sie zu dem Arbeitselement, mit dem Sie einen Genehmigungsprozess verknüpfen möchten.
-1. Klicken **Genehmigungen** im linken Bereich.
+1. Klicks **Genehmigungen** im linken Bereich.
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** Klicken Sie auf **Genehmigungen**.
 
@@ -142,12 +144,14 @@ Das Ändern eines globalen Genehmigungsprozesses, der an ein Element angehängt 
 Sie können einen globalen Genehmigungsprozess an die jeweiligen Anforderungen des Projekts, der Aufgabe oder des Problems anpassen, das Sie damit verbinden.
 
 >[!IMPORTANT]
+>
 Wenn Sie einen globalen Genehmigungsprozess ändern, wird dieser zu einem Genehmigungsprozess für einzelne Anwendungen, der nur für das Objekt verwendet werden kann, an dem Sie ihn geändert haben. Der globale Genehmigungsprozess bleibt unverändert.
+>
 Beachten Sie beim Ändern eines globalen Genehmigungsprozesses die folgenden Einschränkungen:
+>
 * Der Genehmigungsprozess wird nur für das Projekt, die Aufgabe oder das Problem geändert, mit dem/dem Sie den Genehmigungsprozess verbinden.
 * Künftige Änderungen, die von einem Administrator am ursprünglichen globalen Genehmigungsprozess vorgenommen werden, spiegeln nicht den von Ihnen geänderten globalen Genehmigungsprozess wider.
 >
-
 
 So ändern Sie einen bereits an ein Element angehängten Genehmigungsprozess:
 
@@ -156,11 +160,12 @@ So ändern Sie einen bereits an ein Element angehängten Genehmigungsprozess:
    Anweisungen finden Sie im Abschnitt . [Verknüpfen eines globalen Genehmigungsprozesses mit einem Arbeitselement](#associate-a-global-approval-process-with-a-work-item) in diesem Artikel.
 
    >[!IMPORTANT]
-   Stellen Sie sicher, dass Sie auf **Speichern** beim Hinzufügen der Genehmigung.
+   >
+   Klicken Sie auf **Speichern** beim Hinzufügen der Genehmigung.
 
-1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf das **Bearbeiten** icon ![](assets/edit-icon.png) in der rechten oberen Ecke der Genehmigungsseite. Dadurch wird der Genehmigungsprozess auf globaler oder Gruppenebene zu einem Genehmigungsprozess für die einmalige Verwendung.
+1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png) in der rechten oberen Ecke der Genehmigungsseite. Dadurch wird der Genehmigungsprozess auf globaler oder Gruppenebene zu einem Genehmigungsprozess für die einmalige Verwendung.
 1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt . [Verknüpfen eines einmaligen Genehmigungsprozesses mit einer Projekt-, Aufgaben-, Problem-, Vorlagen- oder Vorlagenaufgabe](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in diesem Artikel.
-1. Klicken **Speichern** Klicken Sie auf **Speichern** erneut, um zu bestätigen, dass Sie den globalen Genehmigungsprozess in einen Validierungsprozess für die einmalige Verwendung konvertieren möchten, der nur für dieses Objekt verfügbar ist.
+1. Klicks **Speichern** Klicken Sie auf **Speichern** erneut, um zu bestätigen, dass Sie den globalen Genehmigungsprozess in einen Validierungsprozess für einzelne Anwendungen konvertieren möchten, der nur für dieses Objekt verfügbar ist.
 
 ## Verknüpfen eines einmaligen Genehmigungsprozesses mit einer Projekt-, Aufgaben-, Problem-, Vorlagen- oder Vorlagenaufgabe {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -169,6 +174,7 @@ Sie können einen Genehmigungsprozess für eine einmalige Verwendung erstellen, 
 Sie können auch einen Validierungsprozess für die einmalige Verwendung mit einer Vorlage oder Vorlagenaufgabe verknüpfen, damit er für Projekte und Aufgaben verfügbar ist, die aus der Vorlage erstellt werden.
 
 >[!NOTE]
+>
 Sie können einen Validierungsprozess für die einmalige Verwendung mit einem beliebigen Status auf System- oder Gruppenebene für ein Projekt, eine Aufgabe, ein Problem, eine Vorlage oder eine Vorlagenaufgabe verknüpfen. Weitere Informationen zum Workfront-Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Durch die Erstellung eines Validierungsprozesses auf diese Weise können Sie einen benutzerdefinierten Validierungsprozess erstellen, der Ihren Anforderungen entspricht. Der Genehmigungsprozess kann jedoch nicht mit anderen Arbeitselementen in der Zukunft verknüpft werden.
@@ -178,13 +184,13 @@ Alternativ können Sie einen globalen Genehmigungsprozess für ein bestimmtes El
 So erstellen Sie einen Validierungsprozess für die einmalige Verwendung:
 
 1. Wechseln Sie zur Projekt-, Aufgaben-, Ausgabe-, Vorlagen- oder Vorlagenaufgabe, der Sie einen Genehmigungsprozess zuordnen möchten.
-1. Klicken **Genehmigungen** im linken Bereich.
+1. Klicks **Genehmigungen** im linken Bereich.
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen**.
 
    ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. Klicken **Einzelbenutzer erstellen**.
+1. Klicks **Einzelbenutzer erstellen**.
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
@@ -195,10 +201,11 @@ So erstellen Sie einen Validierungsprozess für die einmalige Verwendung:
    -->
 
    >[!TIP]
+   >
    Nachdem Sie den Genehmigungsprozess für die einmalige Verwendung angehängt haben, wird er als`<Custom>`&quot; im Feld Validierungsprozess im Feld Bearbeiten von Vorlagen und Vorlagenaufgaben. Informationen zum Bearbeiten von Vorlagen oder Vorlagenaufgaben finden Sie in den folgenden Artikeln:
+   >
    * [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
    * [Vorlagenaufgabe bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -216,7 +223,7 @@ Die folgenden Szenarien existieren: 
 So entfernen oder löschen Sie einen Genehmigungsprozess aus einem Arbeitselement:
 
 1. Wechseln Sie zu dem Projekt, der Aufgabe, dem Problem, der Vorlage oder der Vorlagenaufgabe, in dem Sie einen zuvor hinzugefügten Genehmigungsprozess entfernen möchten.
-1. Klicken **Genehmigungen** im linken Bereich.
+1. Klicks **Genehmigungen** im linken Bereich.
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen**.
 
@@ -224,10 +231,10 @@ So entfernen oder löschen Sie einen Genehmigungsprozess aus einem Arbeitselemen
 
 1. Klicken Sie auf eines der folgenden Symbole in der oberen rechten Ecke des Bereichs Genehmigungen , je nachdem, welcher Typ der Genehmigung dem Element zugeordnet ist:
 
-   * **Die Entfernung** icon ![](assets/remove-icon---x-in-circle.png) für globale Genehmigungen oder Genehmigungen auf Gruppenebene.
+   * **Die Entfernung** icon ![](assets/remove-icon---x-in-circle.png) für globale oder gruppenspezifische Genehmigungen.
    * **Löschen** icon ![](assets/delete.png) für Einzelgenehmigungen.
 
-1. Klicken **Entfernen** oder **Löschen** zur Bestätigung.
+1. Klicks **Entfernen** oder **Löschen** zur Bestätigung.
 
    Der Genehmigungsprozess wird aus dem Arbeitselement entfernt.
 

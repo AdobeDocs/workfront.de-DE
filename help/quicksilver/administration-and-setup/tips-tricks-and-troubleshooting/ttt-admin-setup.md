@@ -8,8 +8,9 @@ description: In diesem Abschnitt erhalten Sie weitere Informationen zur Verwaltu
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -30,14 +31,14 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Fehler: Automatisch bereitgestellter Benutzer kann sich nicht anmelden](../../administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
 * [Fehlermeldung: [!UICONTROL Digitale XML-Signatur konnte nicht validiert werden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
 * [Fehlermeldung: [!UICONTROL Ungültiger Parameter: Konversionswert]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
-* [Fehlermeldung: [!UICONTROL SAML 2.0 Authentifizierung fehlgeschlagen: Benutzerkennung nicht gefunden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
+* [Fehlermeldung: [!UICONTROL SAML 2.0-Authentifizierung fehlgeschlagen: Benutzer-ID nicht gefunden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
 * [Fehlermeldung: [!UICONTROL SAML 2.0-Fehler: Primärer StatusCode]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
-* [Fehlermeldung: [!UICONTROL SAML 2.0-Fehler: Benutzerkennung nicht gefunden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
+* [Fehlermeldung: [!UICONTROL SAML 2.0-Fehler: Benutzer-ID nicht gefunden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
 * [Fehlermeldung: [!UICONTROL Es gibt ein leichtes Problem. Dieses Feld wird in einer Konfiguration mit mehreren Formularen verwendet]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
 * [Fehler: [!UICONTROL SSO-Benutzer können sich aufgrund verschiedener Fehler nicht bei Adobe Workfront anmelden]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
 * [[!UICONTROL Externe] Benutzerlizenztyp fehlt bei Zugriffsebenen](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Anmeldefehler: [!UICONTROL Die folgenden Felder sind ungültig: emailAddr darf nicht null sein]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-* [Verhindern Sie das Spoofing und fügen Sie [!DNL Adobe Workfront] SPF-Datensätze](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+* [Verhindern des Spoofens und Hinzufügen von [!DNL Adobe Workfront] SPF-Datensätze](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
 * [Abrufen von Verlaufsdaten aus [!DNL Adobe Workfront]: Vor- und Nachteile](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [E-Mail-Header-Datei speichern](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Freigabe zeigt mehr als eine Berechtigung an](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)

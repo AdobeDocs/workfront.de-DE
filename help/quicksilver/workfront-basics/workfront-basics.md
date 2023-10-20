@@ -5,11 +5,12 @@ title: Grundlagen zu Adobe Workfront
 description: Arbeiten Sie sich in diese Bereiche ein, um ein Verständnis der Grundlagen von Adobe Workfront zu erhalten.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 

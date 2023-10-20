@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: E-Mails
-description: Die E-Mail in Adobe Workfront besteht aus Benachrichtigungen, Erinnerungen und Benutzereinladungen. Systemadministratoren sind für die Einrichtung vieler E-Mail-Einstellungen verantwortlich. Andere Benutzer können jedoch (je nach Zugriffsstufe) von der Verwendung von E-Mail-Funktionen profitieren, um ihre eigene Kommunikation rund um die Arbeit zu verwalten.
+description: Die E-Mail in Adobe Workfront besteht aus Benachrichtigungen, Erinnerungen und Benutzereinladungen. Systemadministratoren sind für die Einrichtung vieler E-Mail-Einstellungen verantwortlich. Andere Benutzer können jedoch (je nach Zugriffsstufe) von der Verwendung von E-Mail-Funktionen profitieren, um ihre eigene Kommunikation im Arbeitsbereich zu verwalten.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # E-Mails
 
-Die E-Mail in Adobe Workfront besteht aus Benachrichtigungen, Erinnerungen und Benutzereinladungen. Systemadministratoren sind für die Einrichtung vieler E-Mail-Einstellungen verantwortlich. Andere Benutzer können jedoch (je nach Zugriffsstufe) von der Verwendung von E-Mail-Funktionen profitieren, um ihre eigene Kommunikation rund um die Arbeit zu verwalten.
+Die E-Mail in Adobe Workfront besteht aus Benachrichtigungen, Erinnerungen und Benutzereinladungen. Systemadministratoren sind für die Einrichtung vieler E-Mail-Einstellungen verantwortlich. Andere Benutzer können jedoch (je nach Zugriffsstufe) von der Verwendung von E-Mail-Funktionen profitieren, um ihre eigene Kommunikation im Arbeitsbereich zu verwalten.
 
 E-Mails in Workfront (sowohl intern als auch extern) sind vielfältig und dynamisch. Automatische Nachrichten können an Benutzer gesendet werden, die sie benachrichtigen, wenn Aufgaben verspätet sind. Benachrichtigungen können für ein bestimmtes Arbeitselement festgelegt werden, um einen Benutzer daran zu erinnern, wenn eine Aufgabe einem Fälligkeitsdatum näher kommt. Einladungen können eingerichtet werden, damit Benutzer ihre eigenen Passwörter festlegen können, anstatt vom Systemadministrator Kennwörter verwalten zu lassen.
 

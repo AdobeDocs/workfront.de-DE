@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Erinnern von Genehmigern an eingereichte Genehmigungen
 description: Sie können Genehmiger an ausstehende Genehmigungen für die folgenden Objekte erinnern - BEARBEITEN SIE MICH.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 3%
@@ -75,7 +75,6 @@ So erinnern Sie einen anderen Benutzer daran, Ihre Zugriffsanfrage für ein Obje
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-
 1. Im **Arbeitsliste** Bereich, wechseln Sie zur **Gesendete Genehmigungen** Gruppierung.
 
 1. Wählen Sie eine **Zugriffsanfrage** Validierung in der Arbeitsliste.
@@ -84,7 +83,7 @@ So erinnern Sie einen anderen Benutzer daran, Ihre Zugriffsanfrage für ein Obje
 
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
-1. Klicken **Remind** in der rechten oberen Ecke des rechten Bedienfelds, um eine Benachrichtigung an den Genehmiger zu senden.
+1. Klicks **Remind** in der rechten oberen Ecke des rechten Bedienfelds, um eine Benachrichtigung an den Genehmiger zu senden.
 
 ## Dokumente
 
@@ -97,7 +96,6 @@ So erinnern Sie einen anderen Benutzer daran, Ihre Zugriffsanfrage für ein Obje
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-
 1. Im **Arbeitsliste** Bereich, wechseln Sie zur **Gesendete Genehmigungen** Gruppierung.
 
 1. Klicken Sie auf **Dokument** Validierung in der Arbeitsliste.
@@ -105,6 +103,6 @@ So erinnern Sie einen anderen Benutzer daran, Ihre Zugriffsanfrage für ein Obje
    Dadurch wird die Dokumentgenehmigung rechts neben der Arbeitsliste geöffnet.\
    ![](assets/document-350x232.png)
 
-1. Klicken **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds.
 1. Klicken Sie auf **Remind** -Symbol, um eine Benachrichtigung an den Genehmiger zu senden.\
    ![call.png](assets/remind-350x41.png)

@@ -6,8 +6,9 @@ title: Arbeiten mit Gruppen und Teams
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie mit Gruppen und Teams in Workfront arbeiten.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%

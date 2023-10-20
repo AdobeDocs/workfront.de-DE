@@ -6,8 +6,9 @@ title: Konvertierungsprobleme
 description: In den folgenden Artikeln finden Sie Informationen zum Konvertieren von Problemen.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: bb84c18e-5270-44ae-9e6e-0a2099d6d164
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%

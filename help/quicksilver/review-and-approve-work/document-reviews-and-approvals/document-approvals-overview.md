@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Übersicht über die neuen Dokumentgenehmigungen
 description: Sie können einem Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über die neuen Dokumentgenehmigungen
 

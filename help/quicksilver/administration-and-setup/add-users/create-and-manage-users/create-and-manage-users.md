@@ -8,8 +8,9 @@ description: Sie können Benutzer in Adobe Workfront hinzufügen, indem Sie einz
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -22,10 +23,10 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 * [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
-* [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 * [Massenbearbeitung von Benutzerprofilen](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
 * [Direkte Berichte erstellen](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-* [Anmelden als anderer Benutzer](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+* [Melden Sie sich als anderer Benutzer an](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
 * [Voreinstellungen eines Benutzers zurücksetzen](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
 * [Benutzernamen ändern](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
 * [Ändern des Kennworts für einen automatisch bereitgestellten Benutzer](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -35,4 +36,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Audit-Protokolle anzeigen und exportieren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Anzeigen von Benutzeranmeldedaten](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Benutzer in Adobe Admin Console verwalten](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Verwalten von Benutzern in Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

@@ -7,8 +7,9 @@ title: Verwaltung von Workfront-Kontonachweisen
 description: 'Dieser Abschnitt enthält die folgenden Unterabschnitte: BITTE BEARBEITEN.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 16%
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 

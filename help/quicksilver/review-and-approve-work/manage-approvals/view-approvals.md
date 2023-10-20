@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Genehmigungen anzeigen
+title: Anzeigen von Genehmigungen
 description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Validierungsprozesse, die im gesamten System konsistent sind.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
-# Genehmigungen anzeigen
+# Anzeigen von Genehmigungen
 
 Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Validierungsprozesse, die im gesamten System konsistent sind.
 
@@ -59,22 +59,22 @@ Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
 * Im Startbereich
 
    * Alle Projekte, Aufgaben, Probleme, Timesheets, Dokumente und Zugriffe, die auf Ihre Genehmigung warten, werden im Bereich Startseite angezeigt, wenn Sie Alle oder Genehmigungen anzeigen.
-   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Bereich &quot;Startseite&quot;im Abschnitt &quot;Von mir gesendete Genehmigungen&quot;der Arbeitsliste angezeigt. Weitere Informationen finden Sie unter [Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen.](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel.
+   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Bereich &quot;Startseite&quot;im Abschnitt &quot;Von mir gesendete Genehmigungen&quot;der Arbeitsliste angezeigt. Weitere Informationen finden Sie unter [Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen.](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel beschrieben.
    * Genehmigungen werden aus dem Startbereich entfernt, wenn das zugehörige Projekt, die Aufgabe oder das Problem mit &quot;Gelöst&quot;, &quot;Auf Halten&quot;, &quot;Geschlossen&quot;oder &quot;Abgebrochen&quot;markiert ist.
 
-   Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit der Startseite](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit der Startseite](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * In der Kopfzeile eines Projekts, einer Aufgabe, eines Problems, eines Dokuments oder eines Testversands
 * Im Abschnitt Genehmigungen eines Projekts, einer Aufgabe oder eines Problems
 * In einem Bericht
 
-   >[!NOTE]
-   >
-   >Sie können keine Entscheidung über eine Genehmigung aus einem Bericht treffen.
+  >[!NOTE]
+  >
+  >Sie können keine Entscheidung über eine Genehmigung aus einem Bericht treffen.
 
-   Sie können einen Projekt-, Aufgaben-, Problem- oder Dokumentgenehmigungsbericht erstellen, der Validierungsinformationen enthält.
+  Sie können einen Projekt-, Aufgaben-, Problem- oder Dokumentgenehmigungsbericht erstellen, der Validierungsinformationen enthält.
 
-   Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen. {#review-work-you-submit-for-approval-in-the-home-area}
 
@@ -87,8 +87,7 @@ Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-
-1. Auswählen **Arbeitsliste** und klicken Sie dann auf **Filter** Dropdown-Menü und **Genehmigungen**.
+1. Auswählen **Arbeitsliste** und klicken Sie dann auf **Filter** Dropdown-Menü und wählen Sie **Genehmigungen**.
 1. Erweitern Sie die **Gesendete Genehmigungen** und finden Sie die von Ihnen eingereichten Validierungen.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
@@ -117,7 +116,7 @@ Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten de
 
 ### Im Bereich Updates können Sie einen Genehmigungsstatus anzeigen. {#use-the-updates-area-to-view-an-approval-status}
 
-Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird ein Status in der **Updates** -Tab des Objekts, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
+Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird ein Status in der Variablen **Updates** -Tab des Objekts, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
 
 * Ein Genehmigungsprozess wird für ein Objekt eingeleitet. Der Validierungsprozess wird bei Änderung des Status eingeleitet.
 * Das Objekt wird zurückgewiesen

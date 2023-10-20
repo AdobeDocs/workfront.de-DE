@@ -7,8 +7,9 @@ title: Organisationen in [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c777b9e7-87cd-428f-9980-ef556f30e70f
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%

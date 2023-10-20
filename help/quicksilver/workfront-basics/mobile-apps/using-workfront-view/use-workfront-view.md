@@ -6,8 +6,9 @@ title: Adobe Workfront-Ansicht verwenden
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie [!DNL Adobe Workfront] Ansicht.
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%

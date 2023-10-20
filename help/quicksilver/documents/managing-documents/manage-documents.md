@@ -6,8 +6,9 @@ title: Dokumente verwalten
 description: Sie können Dokumente in Workfront im Bereich Dokumente organisieren und verwalten.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 16b2675741de3171c8789b33820b7bb5c506b978
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%
@@ -33,6 +34,6 @@ Dieser Abschnitt enthält die folgenden Artikel: &#x200B;
 * [Dokumente auschecken](../../documents/managing-documents/check-out-documents.md)
 * [Dokumente herunterladen](../../documents/managing-documents/download-documents.md)
 * [Dokumente verschieben](../../documents/managing-documents/move-documents.md)
-* [Dokumentenspeicherbeschränkungen überprüfen](../../documents/managing-documents/check-document-storage.md)
+* [Überprüfen der Dokumentenspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md)
 * [Dokumente löschen](../../documents/managing-documents/delete-documents.md)
 * [Bilder aus der Zwischenablage einfügen](../../documents/managing-documents/paste-image-clipboard.md)

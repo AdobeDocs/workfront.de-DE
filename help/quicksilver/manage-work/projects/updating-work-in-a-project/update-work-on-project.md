@@ -2,19 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Arbeiten an einem Projekt aktualisieren
+title: Aktualisieren von Arbeiten an einem Projekt
 description: Um den Status und den Fortschritt eines Projekts zu aktualisieren, müssen Sie den Status und den Fortschritt seiner Aufgaben aktualisieren. Das wird schließlich wieder aufgenommen, um den Fortschritt des Projekts zu zeigen.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# Arbeiten an einem Projekt aktualisieren
+# Aktualisieren von Arbeiten an einem Projekt
 
 Um den Status und den Fortschritt eines Projekts zu aktualisieren, müssen Sie den Status und den Fortschritt seiner Aufgaben aktualisieren. Das wird schließlich wieder aufgenommen, um den Fortschritt des Projekts zu zeigen.
 

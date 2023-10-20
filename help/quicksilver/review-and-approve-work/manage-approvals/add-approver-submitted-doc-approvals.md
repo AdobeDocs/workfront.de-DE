@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: Zusätzliche Genehmiger zu gesendeten Dokumentgenehmigungen hinzufügen
-description: Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt über den Startbereich hinzufügen.
+description: Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt über den Bereich Startseite hinzufügen.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Zusätzliche Genehmiger zu gesendeten Dokumentgenehmigungen hinzufügen
 
-Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt über den Startbereich hinzufügen.
+Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt über den Bereich Startseite hinzufügen.
 
 ## Zugriffsanforderungen
 
@@ -57,12 +57,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-
 1. Im **Arbeitsliste** Bereich, wechseln Sie zur **Gesendete Genehmigungen** Gruppierung.
 
 1. Wählen Sie eine **Dokument** Validierung.
 
-1. Klicken **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds.
 1. Im **Jemand soll dieses Dokument genehmigen** Geben Sie den Namen des Genehmigers ein.
 
    Wenn Ihr Adobe Workfront-Administrator die Möglichkeit zur Zusammenarbeit mit Personen aktiviert hat, die Workfront nicht verwenden, wie hier beschrieben: [Systemsicherheitsvoreinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)können Sie ihre E-Mail-Adressen eingeben, um sie einzuschließen.

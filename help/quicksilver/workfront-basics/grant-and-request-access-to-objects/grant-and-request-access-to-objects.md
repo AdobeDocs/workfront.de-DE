@@ -6,8 +6,9 @@ title: Gewähren und Anfordern von Berechtigungen für Objekte
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Berechtigungen für Objekte in Workfront erteilen und anfordern können.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -38,10 +39,10 @@ Dieser Abschnitt enthält die folgenden Artikel darüber, wie Sie Berechtigungen
 * [Filter, Ansichten oder Gruppierungen freigeben](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md)
 
-   Dies erfordert eine zusätzliche Lizenz für den Workfront-Szenario-Planer. Weitere Informationen finden Sie unter [Für die Verwendung des Szenario-Planers benötigter Zugriff](../../scenario-planner/access-needed-to-use-sp.md).
+  Dies erfordert eine zusätzliche Lizenz für den Workfront-Szenario-Planer. Weitere Informationen finden Sie unter [Für die Verwendung des Szenario-Planers benötigter Zugriff](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-   Dies erfordert eine zusätzliche Lizenz für Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Dies erfordert eine zusätzliche Lizenz für Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Zugriff auf Adobe Workfront konfigurieren](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

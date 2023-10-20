@@ -5,14 +5,15 @@ navigation-topic: projects-navigation-topic
 title: Dokumente überprüfen und genehmigen
 description: Dieser Abschnitt enthält Artikel zum Überprüfen und Genehmigen von Dokumenten in Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # Dokumente überprüfen und genehmigen
 

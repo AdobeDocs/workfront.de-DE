@@ -6,8 +6,9 @@ title: Adobe Workfront für Outlook
 description: Adobe Workfront Fusion bietet eine Integration mit Outlook. Dieser Artikel enthält Anweisungen zur Installation und Konfiguration dieser Integrationen sowie zur Verwendung dieser Integrationen in Ihrer täglichen Arbeit.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Einrichten [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * [Berechtigungsebenen für [!DNL Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-* [Antworten auf einen Kommentar von [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
+* [Antworten Sie auf einen Kommentar von [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
 * [Vorhandenes Objekt von einem [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
 * [Hinzufügen einer [!DNL Outlook] E-Mail an ein Projekt als Aufgabe oder Problem senden](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
 * [Erstellen Sie eine [!DNL Adobe Workfront] Anfrage von [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)

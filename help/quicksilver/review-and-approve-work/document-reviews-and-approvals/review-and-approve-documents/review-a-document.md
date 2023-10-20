@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Dokument überprüfen
 description: Als Validierer können Sie eine Vorschau eines Dokuments anzeigen, das Ihnen zur Überprüfung übermittelt wurde.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
-
 
 # Dokument überprüfen
 
@@ -63,11 +63,11 @@ Add once functionality is added
 
 1. Bewegen Sie den Mauszeiger über das Dokument im Feld &quot;Vorschau&quot;. Anschließend können Sie entweder:
 
-   Klicken **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+   Klicks **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
    ODER
 
-   Klicken **Download** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+   Klicks **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
 1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -81,12 +81,12 @@ Add once functionality is added
 
 1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments im **Details** im oberen Bereich der Dokumentzusammenfassung. Anschließend können Sie entweder:
 
-   Klicken **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+   Klicks **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
    ODER
 
-   Klicken **Download** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+   Klicks **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
 1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie nach unten zum **Versionen** auf das Symbol Mehr klicken. ![](../assets/more-icon.png) neben der Version, die Sie überprüfen und auswählen möchten **Download** oder **Vorschau**.
+1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie nach unten zum **Versionen** auf das Symbol Mehr klicken. ![](../assets/more-icon.png) neben der Version, die Sie überprüfen und auswählen möchten **Herunterladen** oder **Vorschau**.

@@ -6,8 +6,9 @@ title: Aufgabeninformationen
 description: Aufgaben sind Arbeitselemente, die zur Fertigstellung eines Projekts in Adobe Workfront beitragen. Informationen zu Aufgabeninformationen finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -34,10 +35,10 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Tracking-Modus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Zeitverzögerung für Aufgabenebene aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Aktualisierungstyp für Aufgaben](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [Differenz zwischen prognostizierten und geschätzten Daten](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [Differenz zwischen prognostizierten und geschätzten Datumswerten](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [Übersicht über die Aufgabe: Originaldauer und ursprünglich geplante Stunden](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Unterschied zwischen geplanter Dauer und Dauer für Aufgaben](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md">Overview of project, task, and issue dates</a> </li>
   -->

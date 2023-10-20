@@ -7,8 +7,9 @@ title: Workfront-Korrekturabzug
 description: 'Dieser Abschnitt enthält die folgenden Unterabschnitte: BITTE BEARBEITEN.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -19,7 +20,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in Adobe Workfront finden Sie unter [Testversand](../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in Adobe Workfront finden Sie unter [Testing](../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
@@ -31,5 +32,5 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [E-Mail-Warnungen](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Verwalten von Benutzern und Kontakten in [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] mobile](../workfront-proof/wp-mobile/wp-mobile.md)
-* [[!DNL Workfront Proof] Tech corner](../workfront-proof/wp-tech-corner/tech-corner.md)
+* [[!DNL Workfront Proof] Tech-Ecke](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] Integrationen](../workfront-proof/wp-integrations/wp-integrations.md)

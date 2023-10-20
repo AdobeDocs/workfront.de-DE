@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Zurückrufen von eingereichten Genehmigungen
 description: Sie können sich an eines der folgenden Objekte erinnern, die zur Genehmigung eingereicht wurden.
 author: Courtney and Alina
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 1%
@@ -68,10 +68,11 @@ So erinnern Sie sich an eine von Ihnen eingereichte Projektgenehmigung:
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -81,7 +82,7 @@ So erinnern Sie sich an eine von Ihnen eingereichte Projektgenehmigung:
 
    ![](assets/project-pending-approval-phome-nwe-350x106.png)
 
-1. Klicken **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
 
 ## Aufgaben
 
@@ -90,6 +91,7 @@ Wenn Sie sich an eine Aufgabenvalidierung erinnern, kehrt die Aufgabe zum Status
 Wenn Sie sich an eine Validierung erinnern, die mit dem Anfangsstatus der Aufgabe verknüpft ist, wird der Validierungsprozess umgangen und die Aufgabe bleibt im Anfangsstatus.
 
 >[!NOTE]
+>
 Sie können den ersten Status eines Projekts oder einer Aufgabe mit einem Genehmigungsprozess verknüpfen, indem Sie eine Vorlage verwenden. Weitere Informationen zum Hinzufügen von Genehmigungen zu einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 So rufen Sie eine von Ihnen gesendete Aufgabenvalidierung zurück:
@@ -97,10 +99,11 @@ So rufen Sie eine von Ihnen gesendete Aufgabenvalidierung zurück:
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -110,7 +113,7 @@ So rufen Sie eine von Ihnen gesendete Aufgabenvalidierung zurück:
 
    ![](assets/task-pending-approval-home-nwe-350x97.png)
 
-1. Klicken **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
 
 ## Probleme
 
@@ -119,15 +122,17 @@ Wenn Sie sich an eine Problemvalidierung erinnern, kehrt das Problem zum Status 
 Wenn Sie sich an eine Validierung erinnern, die mit dem Anfangsstatus des Problems verknüpft ist, wird der Genehmigungsprozess umgangen und das Problem bleibt im Anfangsstatus.
 
 >[!NOTE]
+>
 Sie können den ersten Status eines Problems mit einem Genehmigungsprozess verknüpfen, indem Sie eine Vorlage verwenden. Weitere Informationen zum Erstellen einer Anforderungswarteschlange finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -137,7 +142,7 @@ Sie können den ersten Status eines Problems mit einem Genehmigungsprozess verkn
 
    ![](assets/issue-pending-approval-home-nwe-350x103.png)
 
-1. Klicken **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
 
 ## Arbeitszeittabellen
 
@@ -146,10 +151,11 @@ Wenn Sie sich an eine Timesheet-Validierung erinnern, kehrt das Timesheet zum St
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -159,7 +165,7 @@ Wenn Sie sich an eine Timesheet-Validierung erinnern, kehrt das Timesheet zum St
 
    ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
-1. Klicken **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
 
 ## Dokumente
 
@@ -168,10 +174,11 @@ Zum Zurückrufen einer Dokumentgenehmigung müssen Sie einen oder alle Benutzer 
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -181,7 +188,7 @@ Zum Zurückrufen einer Dokumentgenehmigung müssen Sie einen oder alle Benutzer 
 
    ![Document.png](assets/document-350x232.png)
 
-1. Klicken **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds. Dadurch wird das Feld Genehmigungen verwalten geöffnet.
+1. Klicks **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds. Dadurch wird das Feld Genehmigungen verwalten geöffnet.
 1. Klicken Sie auf **Entfernen** -Symbol mit dem Namen eines Benutzers im Feld Genehmigungen verwalten . Entfernen Sie alle Benutzer, um die Dokumentgenehmigung vollständig zurückzurufen.
 
    ![Remove_User.png](assets/remove-user-350x41.png)
@@ -191,10 +198,11 @@ Zum Zurückrufen einer Dokumentgenehmigung müssen Sie einen oder alle Benutzer 
 1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
+   >
    Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
+   >
    * Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    * Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Im **Arbeitsliste** -Bereich, navigieren Sie zum **Gesendete Genehmigungen** Gruppierung.
 
@@ -204,4 +212,4 @@ Zum Zurückrufen einer Dokumentgenehmigung müssen Sie einen oder alle Benutzer 
 
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
-1. Klicken **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.
+1. Klicks **Rückruf** in der rechten oberen Ecke des rechten Bedienfelds.

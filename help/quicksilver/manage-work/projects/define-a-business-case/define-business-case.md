@@ -5,8 +5,9 @@ title: Geschäftsfall definieren
 description: Sie können ein Projekt formell und effizient anfordern, indem Sie einen Geschäftsfall erstellen. In den folgenden Artikeln werden die Informationen beschrieben, die Sie zum Definieren des Geschäftsfalls eines Projekts benötigen.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über die Bereiche des Geschäftsfalles](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [Überblick über die Bereiche des Geschäftsfalls](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [Geschäftsfall genehmigen](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
 * [Überblick über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md)

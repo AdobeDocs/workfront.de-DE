@@ -3,12 +3,13 @@ title: Funktionsweise von Zugriffsstufen
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. Die folgenden Artikel erläutern, wie die Zugriffsebenen funktionieren.
+description: Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. In den folgenden Artikeln wird erläutert, wie die Zugriffsebenen funktionieren.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Funktionsweise von Zugriffsstufen
 
-Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. Die folgenden Artikel erläutern, wie die Zugriffsebenen funktionieren.
+Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. In den folgenden Artikeln wird erläutert, wie die Zugriffsebenen funktionieren.
 
 * [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Überblick über Lizenzen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)

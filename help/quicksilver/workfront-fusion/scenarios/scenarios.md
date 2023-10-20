@@ -7,8 +7,9 @@ title: Szenarien in [!DNL Adobe] Workfront Fusion
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [Szenario-Vorlagen](../../workfront-fusion/scenarios/templates/fusion-templates.md)
-* [[!DNL Adobe Workfront Fusion] Beispielszenario: E-Mail verbinden, [!UICONTROL Textanalyse]und [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
+* [[!DNL Adobe Workfront Fusion] Szenario: E-Mail verbinden, [!UICONTROL Textanalyse], und [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Wiederherstellen einer Szenario-Version in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Kopieren Sie Module oder Szenarien in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Sperrte Szenarien anzeigen und verwalten in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

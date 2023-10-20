@@ -6,8 +6,9 @@ title: Aktualisieren von Arbeitselementen und Anzeigen von Updates
 description: Sie können den Abschnitt "Aktualisierungen"der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder vom System verfolgte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

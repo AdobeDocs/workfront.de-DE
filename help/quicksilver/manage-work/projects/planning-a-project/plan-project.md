@@ -5,8 +5,9 @@ title: Projektübersicht planen
 description: Projektübersicht planen
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
@@ -47,11 +48,11 @@ Nachdem Sie den Gesamtumfang des Projekts definiert haben, können Sie feststell
 
 * [Definieren des Start- und Abschlussdatums des Projekts](#define-the-start-and-completion-date-of-the-project)
 * [Definieren des Projektplans](#define-the-project-schedule)
-* [Verwalten zusätzlicher für die Projektplanung benötigter Informationen](#manage-additional-information-needed-for-planning-the-project)
+* [Verwalten zusätzlicher Informationen, die für die Projektplanung erforderlich sind](#manage-additional-information-needed-for-planning-the-project)
 
 ### Definieren des Start- und Abschlussdatums des Projekts {#define-the-start-and-completion-date-of-the-project}
 
-Wenn Sie ein Projekt planen, müssen Sie als Erstes die Timeline festlegen: wann kann das Projekt starten und wann es abgeschlossen sein muss. Bestimmen Sie, ob ein festgelegter Termin für den Zeitpunkt festgelegt ist, zu dem das Projekt abgeschlossen sein muss, oder ob Sie einen Ausgangspunkt festlegen und von dort aus arbeiten sollten. 
+Beim Planen eines Projekts müssen Sie als Erstes die Zeitleiste bestimmen: Wann kann das Projekt beginnen und wann es abgeschlossen sein muss. Bestimmen Sie, ob ein festgelegter Termin für den Zeitpunkt festgelegt ist, zu dem das Projekt abgeschlossen sein muss, oder ob Sie einen Ausgangspunkt festlegen und von dort aus arbeiten sollten. 
 
 Sie können ein Projekt vom Startdatum an planen oder vom Abschlussdatum an planen. Sie können dieses Attribut beim anfänglichen Erstellen des Projekts festlegen und jederzeit durch Bearbeiten des Projekts ändern.
 
@@ -71,21 +72,21 @@ Sie können mehrere Projektpläne erstellen und einen Standardzeitplan auf das P
 
 Weitere Informationen zu Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Verwalten zusätzlicher für die Projektplanung benötigter Informationen {#manage-additional-information-needed-for-planning-the-project}
+### Verwalten zusätzlicher Informationen, die für die Projektplanung erforderlich sind {#manage-additional-information-needed-for-planning-the-project}
 
 Bei der Planung eines Projekts müssen zusätzliche Informationen eingerichtet werden, bevor Sie mit der Arbeit an dem Projekt beginnen können. 
 
-Stellen Sie folgende Fragen:
+Stellen Sie die folgenden Fragen:
 
-* Gibt es eine Verordnung, die vorschreibt, dass Sie die Ereignisse und Prozesse protokollieren? Wenn ja, was müssen Sie verfolgen?\
-   Mit Workfront können Sie Bearbeitungen, Perimeteränderungen, Statusänderungen und Aktionen aufzeichnen, um branchenspezifische Vorschriften einzuhalten.\
-   Weitere Informationen zum Definieren der zu verfolgenden Updates in Workfront finden Sie im Artikel [Vom System verfolgte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+* Gibt es eine Verordnung, die vorschreibt, dass Sie einen Bericht über Ereignisse und Prozesse führen? Wenn ja, was müssen Sie verfolgen?\
+  Mit Workfront können Sie Bearbeitungen, Perimeteränderungen, Statusänderungen und Aktionen aufzeichnen, um branchenspezifische Vorschriften einzuhalten.\
+  Weitere Informationen zum Definieren der zu verfolgenden Updates in Workfront finden Sie im Artikel [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Gibt es Informationen, die Sie nachverfolgen müssen und in denen kein Feld in Workfront zum Speichern vorhanden ist? Wenn ja, erstellen Sie benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.\
-   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* Gibt es Validierungspunkte, die gewährt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Validierungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.\
-   Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Gibt es Validierungspunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.\
+  Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Erstellen der Projekt-Timeline
 
@@ -99,19 +100,19 @@ Beachten Sie beim Erstellen der Zeitleiste des Projekts Folgendes:
 * Schlüsseln Sie größere Ziele in Kinderaufgaben auf und definieren Sie deren Start- und Enddatum.
 * Bestimmen Sie, ob Ihre Ziele von anderen Zielen abhängig sind.
 
-   Sie können diese Abhängigkeiten als Vorgänger einrichten.
+  Sie können diese Abhängigkeiten als Vorgänger einrichten.
 
-   Sie können beispielsweise ein Projekt zum Bau eines Wohngebäudes haben. Eines Ihrer Ziele ist die Klempnerei, das andere ist die Schaffung des Fundaments. Eine Ihrer Aufgaben besteht darin, die Hauptwasserleitung der Stadt anzubinden, und dies muss vor der Grundlegung durchgeführt werden. Die meisten anderen Installations-Aufgaben können jedoch erst nach dem Fundament durchgeführt werden. In diesem Fall sollten Sie die Verwendung von Vorgängern in Erwägung ziehen, um zu verstehen, wann ein Ziel beginnen kann, nachdem die Voraussetzung beendet wurde.
+  Sie können beispielsweise ein Projekt zum Bau eines Wohngebäudes haben. Eines Ihrer Ziele ist die Klempnerei, das andere ist die Schaffung des Fundaments. Eine Ihrer Aufgaben besteht darin, die Hauptwasserleitung der Stadt anzubinden, und dies muss vor der Grundlegung durchgeführt werden. Die meisten anderen Installations-Aufgaben können jedoch erst nach dem Fundament durchgeführt werden. In diesem Fall sollten Sie die Verwendung von Vorgängern in Erwägung ziehen, um zu verstehen, wann ein Ziel beginnen kann, nachdem die Voraussetzung beendet wurde.
 
-   Wenn Sie übergeordnete Aufgaben zum Organisieren von Zielen verwenden, können Sie für jedes Hauptziel eine Aufgabe erstellen und Unteraufgaben hinzufügen, wenn Sie mit der Phase der Unterteilung von Hauptzielen in einzelne Aufgaben beginnen. Dadurch bleiben die Aufgaben erhalten, die Teil des im Rahmen des Projekts organisierten Ziels sind. 
+  Wenn Sie übergeordnete Aufgaben zum Organisieren von Zielen verwenden, können Sie für jedes Hauptziel eine Aufgabe erstellen und Unteraufgaben hinzufügen, wenn Sie mit der Phase der Unterteilung von Hauptzielen in einzelne Aufgaben beginnen. Dadurch bleiben die Aufgaben erhalten, die Teil des im Rahmen des Projekts organisierten Ziels sind. 
 
-   Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Überlegen Sie die wichtigsten Ziele für Ihr Projekt und kennzeichnen Sie sie als Meilensteinaufgaben.
 
-   Es wird empfohlen, übergeordnete Aufgaben als Meilensteine zu verwenden.
+  Es wird empfohlen, übergeordnete Aufgaben als Meilensteine zu verwenden.
 
-   Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Definieren Sie einen Zeitplan für jedes Ziel. Wenn Sie mit übergeordneten Aufgaben arbeiten, muss jede untergeordnete Aufgabe über ein definiertes Start- und Abschlussdatum verfügen. Die Zeit zwischen dem frühesten Startdatum einer Aufgabe und dem letzten Abschlussdatum einer Aufgabe für dasselbe Projekt wird in der Projekt-Timeline angezeigt. 
 
@@ -121,28 +122,28 @@ Während Sie die Ziele Ihres Projekts und die damit verbundenen Aufgaben definie
 
 Sie können Aufgaben für ein Projekt wie folgt erstellen:
 
-* Fügen Sie Aufgaben in der Inline-Bearbeitung zu einem Projekt hinzu.
+* Hinzufügen von Aufgaben zu einem Projekt in der Inline-Bearbeitung.
 * Verwenden Sie eine Vorlage mit definierten Vorlagenaufgaben und fügen Sie sie zu Ihrem Projekt hinzu. 
 
-   Die Vorlagenaufgaben werden zu den Aufgaben des Projekts. 
+  Die Vorlagenaufgaben werden zu den Aufgaben des Projekts. 
 
-   Weitere Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+  Weitere Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste jeder Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Definieren Sie die Eltern-Kind-Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
 * Verknüpfen Sie einen Milestone-Pfad mit dem Projekt und verknüpfen Sie einen Milestone mit seiner jeweiligen Aufgabe. 
 
-   Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie im Artikel [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie im Artikel [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Definieren Sie den Arbeitsaufwand für die einzelnen Aufgaben. Dies wird im Feld Geplante Stunden jeder Aufgabe erfasst.
 
-   Weitere Informationen zu geplanten Stunden finden Sie im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
+  Weitere Informationen zu geplanten Stunden finden Sie im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Weisen Sie jede Aufgabe einem Benutzer oder Team zu, der für die Fertigstellung verantwortlich ist.
 * Überprüfen Sie die Verfügbarkeit der Benutzer, die Sie den Aufgaben zuweisen. Stellen Sie sicher, dass sie frei arbeiten können und nicht übergeordnet sind, damit sie ihre zugewiesenen Aufgaben ausführen können. Wenn Benutzer übergeordnet sind oder in ihren Zeitplänen Zeit frei sind, sollten Sie einen der folgenden Punkte beachten:
@@ -150,5 +151,5 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
    * Reduzieren Sie die geplanten Stunden für jede Aufgabe.
    * Fügen Sie einer Aufgabe weitere Benutzer hinzu, um sicherzustellen, dass sie während der ihr zugewiesenen Zeit abgeschlossen werden kann.
    * Weisen Sie die Aufgaben erneut Benutzern zu, die ohne weitere Einschränkungen verfügbar sind.\
-      Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Weitere Informationen zum Planen Ihrer Ressourcen für die Arbeit an einem Projekt finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Weitere Informationen zum Planen Ihrer Ressourcen für die Arbeit an einem Projekt finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

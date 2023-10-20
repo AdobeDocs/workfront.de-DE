@@ -6,8 +6,9 @@ title: Programme erstellen und verwalten
 description: Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, das über Projektgrenzen hinausgeht. Programme können nicht außerhalb eines Portfolios existieren.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%

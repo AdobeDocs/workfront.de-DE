@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Validierung der Arbeit
 description: Validierung der Arbeit
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können Genehmigungen in verschiedenen Bereichen von Workfront anzeigen und verwalten.
 
-Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, oder von Elementen, die Sie selbst zur Genehmigung eingereicht haben, finden Sie unter [Genehmigungen anzeigen](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, oder von Elementen, die Sie selbst zur Genehmigung eingereicht haben, finden Sie unter [Anzeigen von Genehmigungen](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Genehmigen Sie die Arbeit vom Startbereich aus.
 
@@ -71,7 +71,6 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
    >   
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
-
 
 1. Klicken Sie auf **Filter** Dropdown-Menü.
 
@@ -91,44 +90,44 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
 
 1. Klicken Sie im rechten Bereich auf eine der verfügbaren Optionen, wenn Sie eine Genehmigungsentscheidung treffen. Je nach Typ des zu genehmigenden Elements werden in der rechten oberen Ecke der Seite die folgenden Optionen angezeigt:
 
-   * **Projekte:** Klicken **Genehmigen** oder **Ablehnen**.
+   * **Projekte:** Klicks **Genehmigen** oder **Ablehnen**.
 
-   * **Aufgaben:** Klicken **Genehmigen** oder **Ablehnen** .
+   * **Aufgaben:** Klicks **Genehmigen** oder **Ablehnen** .
 
-   * **Probleme:** Klicken **Genehmigen** oder **Ablehnen** .
+   * **Probleme:** Klicks **Genehmigen** oder **Ablehnen** .
 
-   * **Timesheets:** Klicken **Genehmigen** oder **Ablehnen** .
+   * **Timesheets:** Klicks **Genehmigen** oder **Ablehnen** .
 
-   * **Dokumente:** Klicken **Genehmigen**, **Ablehnen** oder **Änderungen**.\
-       Beachten Sie beim Anzeigen von Genehmigungen Folgendes:
+   * **Dokumente:** Klicks **Genehmigen**, **Ablehnen** oder **Änderungen**.\
+      Beachten Sie beim Anzeigen von Genehmigungen Folgendes:
 
       * Hier werden die Testversandgenehmigungen angezeigt, wenn ein Benutzer einen Testversand für Sie freigegeben hat, wie im Artikel unter &quot;Link zum Testversand freigeben&quot;beschrieben. [Freigeben eines Testversands in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
       * Testversandgenehmigungen werden nur dann im Startbereich angezeigt, wenn Ihre Workfront-Umgebung in ein Workfront Testversand Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
       * Sie erhalten eine In-App-Benachrichtigung, in der Sie über die Genehmigung des Testversands informiert werden.\
-         Weitere Informationen zu In-App-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+        Weitere Informationen zu In-App-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
       * Der Name des Benutzers, der die Genehmigung angefordert hat, wird neben dem Miniaturbild im Startbereich mit folgendem Text angezeigt:\
-         &quot;*Benutzer A* Ihre Genehmigung soll...&quot;
+        &quot;*Benutzer A* Ihre Genehmigung soll...&quot;
 
-         <!--      
+        <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
         </MadCap:conditionalText>      
         -->
 
-         Wenn der Benutzername nicht verfügbar ist, wird der folgende Text angezeigt:\
-         &quot;Eine neue Version eines Testversands kann angezeigt werden.&quot;
-      * Um eine Validierungsentscheidung für den Testversand zu treffen, klicken Sie auf **Gehe zu Testversand** klicken **Prüfung abschließen** und klicken Sie dann auf eine der verfügbaren Optionen. Folgende Optionen stehen bei der Validierung eines Testversands zur Verfügung: **Genehmigt**, **Genehmigt mit Änderungen**, **Erforderliche Änderungen** und **Nicht zutreffend**.
+        Wenn der Benutzername nicht verfügbar ist, wird der folgende Text angezeigt:\
+        &quot;Eine neue Version eines Testversands kann angezeigt werden.&quot;
+      * Um eine Validierungsentscheidung für den Testversand zu treffen, klicken Sie auf **Gehe zu Testversand** klicken **Finish-Überprüfung** und klicken Sie dann auf eine der verfügbaren Optionen. Folgende Optionen stehen bei der Validierung eines Testversands zur Verfügung: **Genehmigt**, **Genehmigt mit Änderungen**, **Erforderliche Änderungen**, und **Nicht zutreffend**.
 
-      * Nachdem eine Entscheidung über den Testversand getroffen wurde, bleibt der Testversand im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browserseite aktualisieren.
+      * Nachdem eine Entscheidung über den Testversand getroffen wurde, bleibt der Testversand im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browser-Seite aktualisieren.
 
-         Informationen zur Überprüfung eines Testversands finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+        Informationen zur Überprüfung eines Testversands finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
    * **Zugriff:** Wählen Sie die Zugriffsstufe aus, die im **Zugriff ändern** Dropdown-Menü, und klicken Sie auf **Zugriff gewähren**. Oder klicken Sie auf **Ignorieren**.
-
 
 ## Direkte Genehmigung der Arbeit über ein Projekt, eine Aufgabe oder ein Problem
 
-Wenn die Genehmigung eines Projekts, einer Aufgabe oder eines Problems aussteht, können Sie die Genehmigung direkt über das Projekt, die Aufgabe oder das Problem genehmigen oder ablehnen. Sie können auch Details zum Genehmigungsprozess anzeigen.
+Wenn die Genehmigung eines Projekts, einer Aufgabe oder eines Problems aussteht, können Sie die Genehmigung direkt über das Projekt, die Aufgabe oder das Problem genehmigen oder ablehnen. Sie können auch Details zum Validierungsprozess anzeigen.
 
 So genehmigen Sie Arbeiten direkt über ein Projekt, eine Aufgabe oder ein Problem:
 
@@ -150,12 +149,12 @@ So genehmigen Sie Arbeiten direkt über ein Projekt, eine Aufgabe oder ein Probl
      </tr> 
      <tr> 
       <td role="rowheader">Validierungsphasen</td> 
-      <td>Die Etappen des Validierungsprozesses. <br>Die aktuelle Phase, in der die Genehmigung aussteht, wird als Ausstehend angezeigt. Bereits genehmigte Phasen werden als Genehmigt angezeigt. -Phasen, die noch nicht genehmigt wurden, werden als Nicht gestartet angezeigt.</td> 
+      <td>Die Etappen des Validierungsprozesses. <br>Die aktuelle Phase, in der die Genehmigung aussteht, wird als Ausstehend angezeigt. Bereits genehmigte Phasen werden als Genehmigt angezeigt. Etappen, die noch nicht genehmigt wurden, werden als Nicht gestartet angezeigt.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Genehmigen** oder **Ablehnen**, je nachdem, ob Sie den Validierungsprozess genehmigen oder ablehnen möchten.\
+1. Klicks **Genehmigen** oder **Ablehnen**, je nachdem, ob Sie den Validierungsprozess genehmigen oder ablehnen möchten.\
    Die Validierungsphase, für die die Genehmigung ausstand, wird nun genehmigt und der Genehmigungsprozess wird in die nächste Phase verschoben. Der Status wird genehmigt, nachdem alle Phasen genehmigt wurden.
 
 ## Dokument direkt aus einem Dokument genehmigen 
@@ -177,11 +176,11 @@ Abhängig von Ihren Benachrichtigungseinstellungen erhalten Sie E-Mails, die Sie
    * Anzeigen der Metadaten zum Dokument.
    * Wenn ein Testversand zur Überprüfung des Dokuments mit Markup und Kommentaren erstellt wurde, klicken Sie auf **Offener Testversand** ![](assets/open-proof-icon-qs.png) in der Nähe der oberen rechten Ecke und überprüfen Sie den Testversand.
 
-      <!--   
+     <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-      Informationen zur Überprüfung von Testsendungen finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Informationen zur Überprüfung von Testsendungen finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Klicken Sie auf **Entscheidung** in der oberen rechten Ecke die Option zum Genehmigen, Genehmigen mit Änderungen oder Ablehnen des Dokuments.
 

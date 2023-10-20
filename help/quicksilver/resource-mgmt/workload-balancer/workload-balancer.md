@@ -6,8 +6,9 @@ title: Der Lastenausgleich
 description: Der Lastenausgleich ist ein Tool zur Ressourcenplanung, mit dem Sie Ihren Ressourcen Arbeitselemente zuweisen können.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -31,11 +32,11 @@ Informationen dazu, was der Arbeitslastausgleich ist, wie er navigiert und wie e
 * [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 * [Den Lastenausgleich über einen Link freigeben](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/add-custom-section-for-balancer.md" class="MCXref xref" xrefformat="{para}">Add a custom section to display the Workload Balancer </a> </li>
   -->
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
   -->
 

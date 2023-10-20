@@ -6,8 +6,9 @@ title: Projektfinanzierung
 description: Die folgenden Artikel enthalten Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten erhalten und wie Sie Projektfinanzierungen verwalten können.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten erhalten und wie Sie Projektfinanzierungen verwalten können, finden Sie in den folgenden Artikeln:
 
-## Allgemeine Projektfinanzierung
+## Allgemeine Projektfinanzierungen
 
 [Übersicht über die Projektfinanzen](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
-[Informationen im Bereich &quot;Projekt-Finanzen&quot;verwalten](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+[Verwalten von Informationen im Bereich &quot;Projekt-Finanzen&quot;](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
 [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md)
 
@@ -62,7 +63,7 @@ Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten 
 
 [Berechnete veranschlagte Kosten](../../../manage-work/projects/project-finances/budgeted-cost.md)
 
-[Budgetierte Arbeitskosten und budgetierte Stunden für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
+[Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
 
 [Planete Arbeitskosten berechnen](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
@@ -78,7 +79,7 @@ Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten 
 
 [Übersicht über Rechnungsstellung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
 
-[Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md)
+[Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md)
 
 [Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnungsraten auf Unternehmensebene](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 

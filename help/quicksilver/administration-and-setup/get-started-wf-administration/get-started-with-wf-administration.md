@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Erste Schritte mit Adobe Workfront Administration
-description: Sie können die Workfront-Systemstandards, Zeitpläne und Zeitpläne, Organisationseinstellungen, systemtrackte Aktualisierungsinformationen und Testumgebungen für Ihr Unternehmen konfigurieren
+description: Sie können die Workfront-Systemstandardeinstellungen, Zeitpläne und Zeitpläne, Organisationseinstellungen, systemtrackte Aktualisierungsinformationen und Testumgebungen für Ihr Unternehmen konfigurieren
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

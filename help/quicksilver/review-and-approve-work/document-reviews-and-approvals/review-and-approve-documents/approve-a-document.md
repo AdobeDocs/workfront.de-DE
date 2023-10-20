@@ -4,20 +4,20 @@ navigation-topic: approvals
 title: Dokument genehmigen
 description: Wenn Sie als Genehmiger für ein Dokument zugewiesen sind, gibt es mehrere Möglichkeiten, Ihre Genehmigungsentscheidung zu treffen.
 author: Nolan
-feature: Work Management
-source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
+feature: Work Management, Digital Content and Documents
+exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
-
 # Dokument genehmigen
 
 Wenn Sie als Genehmiger für ein Dokument zugewiesen sind, gibt es mehrere Möglichkeiten, Ihre Genehmigungsentscheidung zu treffen.
 
-Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Dokumentgenehmigung erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Erstellen einer Dokumentgenehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](../assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
-1. Klicken **Filter** oben links auf der Seite und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
+1. Klicks **Filter** oben links auf der Seite und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
 
    Alle Arbeitselemente, für die eine Genehmigung erforderlich ist, werden in der Liste angezeigt.
 
@@ -76,7 +76,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
 
-   * Die **Genehmigen** Das Dropdown-Menü enthält zwei Optionen:
+   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
 
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Der Name des Benutzers, der die Genehmigung angefordert hat, wird über dem Dokumentnamen in Startseite mit dem Text &quot;*Benutzer A* Ihre Zustimmung möchten Sie bitte an...&quot; sowie unter **Gesendet von** in den Validierungsinformationen, die nach Auswahl einer Validierung rechts angezeigt werden.
 
-   * Nachdem eine Entscheidung über eine Genehmigung getroffen wurde, bleibt die Genehmigung im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browserseite aktualisieren.
+   * Nachdem eine Entscheidung über eine Genehmigung getroffen wurde, bleibt die Genehmigung im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browser-Seite aktualisieren.
 
 ## Dokument auf der Dokumentseite genehmigen
 
@@ -96,7 +96,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie im Dropdown-Menü Version neben dem Dokumentnamen die Version des Dokuments aus, für das die Genehmigung aussteht. Standardmäßig wird die neueste Version ausgewählt.
 
-   Wenn die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung für Sie hat, werden die Schaltflächen für die Validierungsentscheidung oben rechts auf der Seite angezeigt. Wenn andere Versionen des Dokuments noch ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü &quot;Version&quot;ein roter Punkt angezeigt.
+   Wenn für die aktuell ausgewählte Version des Dokuments eine Genehmigung aussteht, werden die Schaltflächen für die Validierungsentscheidung oben rechts auf der Seite angezeigt. Wenn für andere Versionen des Dokuments ausstehende Genehmigungen vorliegen, wird im Dropdown-Menü für die Version ein roter Punkt angezeigt.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
@@ -104,7 +104,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
 
-   * Die **Genehmigen** Das Dropdown-Menü enthält zwei Optionen:
+   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
 
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
@@ -112,7 +112,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
-## Genehmigen eines Dokuments im Bereich &quot;Dokumentzusammenfassung&quot;
+## Genehmigen eines Dokuments im Bereich Dokumentzusammenfassung
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
@@ -120,7 +120,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie die Version des Dokuments aus, das Sie im Dropdown-Menü Version überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-   Wenn die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung für Sie hat, werden die Schaltflächen für die Validierungsentscheidung in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung angezeigt. Wenn andere Versionen des Dokuments noch ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü &quot;Version&quot;ein roter Punkt angezeigt.
+   Wenn die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung für Sie hat, werden die Schaltflächen für die Validierungsentscheidung oben rechts im Bereich &quot;Dokumentzusammenfassung&quot;angezeigt. Wenn für andere Versionen des Dokuments ausstehende Genehmigungen vorliegen, wird im Dropdown-Menü für die Version ein roter Punkt angezeigt.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
@@ -128,7 +128,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung auf eine der folgenden beiden Genehmigungsoptionen:
 
-   * Die **Genehmigen** Das Dropdown-Menü enthält zwei Optionen:
+   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
 
       * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 

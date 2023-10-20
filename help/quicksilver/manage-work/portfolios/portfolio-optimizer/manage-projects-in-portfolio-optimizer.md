@@ -2,19 +2,20 @@
 content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
-title: Verwalten Sie Projekte im [!UICONTROL Portfolio Optimizer]
+title: Verwalten Sie Projekte in der [!UICONTROL Portfolio Optimizer]
 description: Die [!UICONTROL Portfolio Optimizer] ist das Tool für die Projektbewertung und den Projektvergleich. Der Prozess der Überprüfung und des Vergleichs von Geschäftsfallwerten für Projekte, die einem Portfolio zugewiesen sind, ist die Art und Weise, wie ein Portfolioverwalter Projekte priorisieren und den größtmöglichen Nutzen für eine Organisation generieren kann.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# Verwalten Sie Projekte im [!UICONTROL Portfolio Optimizer]
+# Verwalten Sie Projekte in der [!UICONTROL Portfolio Optimizer]
 
 Die [!UICONTROL Portfolio Optimizer] ist das Tool für die Projektbewertung und den Projektvergleich. Der Prozess der Überprüfung und des Vergleichs von Geschäftsfallwerten für Projekte, die einem Portfolio zugewiesen sind, ist die Art und Weise, wie ein Portfolioverwalter Projekte priorisieren und den größtmöglichen Nutzen für eine Organisation generieren kann.
 

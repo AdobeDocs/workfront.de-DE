@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Arbeiten mit Objekten einer Gruppe
-description: Wenn der Seite "Gruppen"neue Objekte hinzugefügt werden, vergessen Sie nicht, den Artikel Gruppen/Gruppen verwalten overview/groups.html zu aktualisieren
+description: Wenn der Seite Gruppen neue Objekte hinzugefügt werden, vergessen Sie nicht, den Artikel Gruppen verwalten overview/groups.html zu aktualisieren
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

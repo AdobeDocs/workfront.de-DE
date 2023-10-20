@@ -6,8 +6,9 @@ title: Ressourcen verwalten
 description: Das Ressourcenmanagement ist wichtig, um Ihre Arbeit ordnungsgemäß zu verwalten und die Verfügbarkeit von Prognosen zu gewährleisten. In den folgenden Artikeln erfahren Sie, wie Sie Ihre Ressourcen für die Arbeit planen und planen.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%

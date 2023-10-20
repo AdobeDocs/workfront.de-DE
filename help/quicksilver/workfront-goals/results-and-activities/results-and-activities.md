@@ -6,8 +6,9 @@ title: Ergebnisse und Aktivitäten in Adobe Workfront-Zielen
 description: Ergebnisse und Aktivitäten sind Fortschrittsanzeigen für ein Ziel in Adobe Workfront-Zielen. Weitere Informationen zu Ergebnissen und Aktivitäten finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

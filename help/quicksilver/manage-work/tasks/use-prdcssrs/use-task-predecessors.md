@@ -6,8 +6,9 @@ title: Verwenden von Aufgabenvorgängen
 description: Vorgänger sind Aufgaben, von denen andere Aufgaben (als Nachfolgeaufgaben bezeichnet) abhängen, bevor sie abgeschlossen werden können. In den folgenden Artikeln erfahren Sie mehr über Vorgänger in Adobe Workfront.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%

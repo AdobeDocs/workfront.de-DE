@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Entfernen von Genehmigern oder Prüfern aus einem Dokument
 description: Sie können einzelne Genehmiger oder Prüfer aus einem Dokument entfernen.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # Entfernen von Genehmigern oder Prüfern aus einem Dokument
 
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Auswählen **Genehmigungen** im linken Bereich.
 
-1. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Validierers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
+1. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
 
    Die Genehmigungs- oder Überprüfungsanforderung wird entfernt und der Genehmiger erhält eine Benachrichtigung, dass seine Validierung nicht mehr erforderlich ist. Auch der genehmigungsbezogene Freigabe-Zugriff wurde entfernt.
 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie im Versions-Dropdown-Menü die Version des Dokuments aus, für das Sie einen Genehmiger oder Überprüfer entfernen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Document Summary&quot;. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Validierers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
+1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Document Summary&quot;. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
 
    Die Genehmigungs- oder Überprüfungsanforderung wird entfernt und der Genehmiger erhält eine Benachrichtigung, dass seine Validierung nicht mehr erforderlich ist. Auch der genehmigungsbezogene Freigabe-Zugriff wurde entfernt.
 

@@ -8,8 +8,9 @@ description: Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8f2996a-89cb-4929-ad04-ab84c7bd66fc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -33,4 +34,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 * [Gruppe verschieben](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
 * [Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
-* [Liste von Gruppen exportieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
+* [Eine Liste von Gruppen exportieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)

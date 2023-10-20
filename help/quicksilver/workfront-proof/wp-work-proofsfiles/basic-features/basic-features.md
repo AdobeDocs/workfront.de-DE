@@ -2,23 +2,24 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Grundlegende Funktionen in [!DNL Workfront Proof]
+title: Grundlegende Funktionen [!DNL Workfront Proof]
 description: Dieser Abschnitt enthält die folgenden Artikel - "EDIT ME".
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1c8fd07d-fb86-4d64-8a3d-4148ced6659b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+recommendations: noDisplay, noCatalog
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 1%
 
 ---
 
-# Grundlegende Funktionen in [!DNL Workfront Proof]
+# Grundlegende Funktionen [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
