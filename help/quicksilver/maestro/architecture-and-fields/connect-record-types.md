@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Um Felder hinzuzufügen oder zu entfernen, folgen Sie den Anweisungen in den Schritten 7 bis 12. <!--ensure these step numbers stay accurate-->
+   Um Suchfelder hinzuzufügen oder zu entfernen, folgen Sie den Anweisungen in den Schritten 7 bis 12 oben. <!--ensure these step numbers stay accurate-->
 
 1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil in der Kopfzeile des verknüpften Datensatzfelds vom Typ, von dem Sie die Verknüpfung herstellen, und klicken Sie dann auf **Löschen**.
 

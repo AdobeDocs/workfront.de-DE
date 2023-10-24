@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 1%
@@ -113,6 +113,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Dadurch wird die Seite des Datensatztyps geöffnet.
 1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Klicks **Feld bearbeiten**, aktualisieren Sie dann die Informationen über das Feld und klicken Sie auf **Speichern**.
 
    <!--insert screen shot when finalized-->

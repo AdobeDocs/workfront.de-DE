@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -106,6 +106,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf die Karte eines Datensatztyps, dessen Felder Sie löschen möchten.
 1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 1. Suchen Sie das zu löschende Feld in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Klicks **Löschen**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->

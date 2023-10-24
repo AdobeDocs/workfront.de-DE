@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Ziehen Sie die Spaltenüberschrift in den Arbeitsbereich und legen Sie sie an der gewünschten Position ab. Die Spalte, die Sie kurz verschoben haben, wird mit blauem Hintergrund angezeigt, bis Sie weitere Anpassungen an der Tabelle vornehmen.
 
-   * Klicks **Felder** Ziehen Sie die Felder in die Symbolleiste der Tabelle und legen Sie sie in der gewünschten Reihenfolge ab. Klicken Sie dann außerhalb der **Sichtbarkeit und Reihenfolge der Felder** , um es zu schließen.
+   * Klicks **Felder** Ziehen Sie die Felder in die Symbolleiste der Tabelle und legen Sie sie in der gewünschten Reihenfolge ab. Klicken Sie dann außerhalb der **Sichtbarkeit und Reihenfolge der Felder** zum Schließen.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,14 +157,14 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    Oder
 
-   Klicks **Felder** in der Tabellen-Symbolleiste und deaktivieren Sie den Umschalter, der den auszublendenden Feldern (oder Spalten) zugeordnet ist.
+   Klicks **Felder** in der Tabellen-Symbolleiste und deaktivieren Sie den Umschalter, der den auszublendenden Feldern (oder Spalten) zugeordnet ist. Die **Sichtbarkeit und Reihenfolge der Felder** angezeigt.
 
    >[!TIP]
    >
    >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
 
 
-1. Klicken Sie auf **Felder** aktivieren und aktivieren Sie den Umschalter, der den Feldern zugeordnet ist, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
+1. Klicken Sie auf **Felder** und aktivieren Sie den Umschalter, der den Feldern zugeordnet ist, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
 
 1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
 
