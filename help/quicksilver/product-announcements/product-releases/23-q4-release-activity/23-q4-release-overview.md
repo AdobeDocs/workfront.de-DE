@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Schnellzugriffsschaltflächen für Projekt-, Aufgaben- und Problemverfolgungswidgets</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Schnellaktion-Schaltflächen für das Widget "Meine Arbeit"</a> </p>
                         <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
-                        <p>Die Tracking-Widgets "Projekt", "Aufgabe"und "Problem"wurden um neue Schnellzugriffsschaltflächen erweitert, sodass Sie Ihre Arbeit direkt über die neue Startseite verwalten können.</p>
+                        <p>Um Ihre Fähigkeit zur direkten Verwaltung der Arbeit über die neue Startseite zu erweitern, wurden dem Widget "Meine Arbeit"neue Schnellaktion-Schaltflächen hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>

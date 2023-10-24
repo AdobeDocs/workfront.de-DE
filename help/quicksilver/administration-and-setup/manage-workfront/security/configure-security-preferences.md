@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '802'
 ht-degree: 5%
 
 ---
@@ -111,7 +111,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Benutzern im System wird standardmäßig das Erlebnis "Neue Startseite"angezeigt </td> 
-      <td>Hiermit können Sie festlegen, ob Benutzern standardmäßig das Erlebnis "Neue Startseite"angezeigt wird. Wenn diese Option aktiviert ist, können Benutzer die Option "Neues Home"einzeln aktivieren oder deaktivieren. Wenn diese Option deaktiviert ist, haben die Benutzer keine Möglichkeit, die neue Startseite zu verwenden. Diese Option ist standardmäßig aktiviert.</td> 
+      <td>Hiermit können Sie festlegen, ob Benutzern standardmäßig das Erlebnis "Neue Startseite"angezeigt wird. Wenn diese Option aktiviert ist, sehen die Benutzer standardmäßig das Erlebnis "Neues Home", können jedoch weiterhin auf individueller Basis die Option Neues Home aktivieren oder deaktivieren. <b>Wenn diese Option deaktiviert ist, haben die Benutzer keine Möglichkeit, die neue Startseite zu verwenden.</b> Diese Einstellung ist standardmäßig aktiviert.</td> 
      </tr> 
     </tbody> 
    </table>

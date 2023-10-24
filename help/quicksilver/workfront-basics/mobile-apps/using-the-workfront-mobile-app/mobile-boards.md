@@ -6,9 +6,9 @@ description: Im [!DNL Workfront] Mobile App können Sie alle Pinnwände sehen, d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Im [!DNL Workfront] Mobile App können Sie alle Pinnwände sehen, die Sie in der
 Alle Änderungen, die Sie an Pinnwänden und Karten im Programm vornehmen, werden auch in der Desktop-Version der Pinnwand übernommen.
 
 Um Feedback zu mobilen Pinnwänden zu geben, wählen Sie die **[!UICONTROL Senden]** ![Feedback senden](assets/mobile-send-feedback-icon.png) -Symbol oben auf einer Pinnwand und folgen Sie den Anweisungen.
+
+>[!NOTE]
+>
+>Derzeit unterstützt die mobile App alle Arten von Pinnwänden **Außer** Iteration Process boards.
 
 ## Liste der Pinnwände anzeigen und filtern
 
@@ -52,7 +56,7 @@ Wenn Sie eine Pinnwand öffnen, werden deren Spalten und Karten angezeigt. Führ
 
 Wählen Sie eine Karte aus und halten Sie sie gedrückt, um sie in eine andere Spalte zu verschieben.
 
-Wenn die Pinnwand eine Aufnahmespalte enthält, wird sie als Spalte ganz links angezeigt. Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können eine Karte auswählen, um die Aufgabe oder das Problem zu öffnen. Die Aufnahmespaltenfilter werden in der Desktop-Version der Pinnwand gesteuert. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Wenn die Pinnwand eine Aufnahmespalte enthält, wird sie als die ganz links liegende Spalte angezeigt. Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können eine Karte auswählen, um die Aufgabe oder das Problem zu öffnen. Die Aufnahmespaltenfilter werden in der Desktop-Version der Pinnwand gesteuert. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Arbeiten mit verbundenen Karten
 
@@ -115,7 +119,7 @@ Wenn Filter angewendet werden, wird auf der Pinnwand eine Anzeige angezeigt ![Au
 
 1. Filter und Suchsymbol auswählen ![Filtern und Suchen](assets/filter-search-icon-mobile-boards.png).
 1. Auswählen [!UICONTROL **Mitglieder**] und wählen Sie die Person(en), deren Karten Sie sehen möchten. Sie können auch nicht zugewiesene Karten anzeigen.
-1. Auswählen [!UICONTROL **Fertig**] oder ![Symbol &quot;Fertig&quot;](assets/mobile-apply-icon-checkmark.png).
+1. Auswählen [!UICONTROL **Fertig**] oder ![Symbol Fertig](assets/mobile-apply-icon-checkmark.png).
 
 ### Filtern einer Pinnwand nach Tags ([!DNL iOS] nur)
 
@@ -126,7 +130,7 @@ Wenn Filter angewendet werden, wird auf der Pinnwand eine Anzeige angezeigt ![Au
 ### Durchsuchen einer Pinnwand
 
 1. Filter und Suchsymbol auswählen ![Filtern und Suchen](assets/filter-search-icon-mobile-boards.png).
-1. Geben Sie einen Suchbegriff in das Feld ein und wählen Sie [!UICONTROL **Fertig**] oder ![Symbol &quot;Fertig&quot;](assets/mobile-apply-icon-checkmark.png).
+1. Geben Sie einen Suchbegriff in das Feld ein und wählen Sie [!UICONTROL **Fertig**] oder ![Symbol Fertig](assets/mobile-apply-icon-checkmark.png).
 
    Alle Karten, die den Suchbegriff im Titel enthalten, werden angezeigt.
 Wählen Sie das X aus, um die Suche zu löschen.

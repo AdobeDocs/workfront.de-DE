@@ -6,10 +6,10 @@ description: Das neue Zuhause ist eine leistungsstarke neue Funktion für die Ve
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt alle Genehmigungen für Ihr Unternehmen in einer Tabelle mit anpassbaren Spalten an, sowie einer Suchleiste an, über die Sie nach bestimmten Genehmigungen suchen können.
 
 * **Erwähnungen**\
-    Zeigt die letzten Kommentar-Threads aus Workfront an, die @-Erwähnungen von Ihnen enthalten sowie eine Antwort-Schaltfläche, mit der Sie eine Antwort innerhalb des Widgets verfassen können. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
+    Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates , sowie eine Antwortschaltfläche, mit der Sie eine Antwort im Widget erstellen können. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
 * **To-dos**\
     Mit diesem einzigartigen Widget können Sie Textelemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können.
@@ -78,7 +78,7 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Arbeit, Erwähnungen</td>
+        <td>Meine Anforderungen, Erwähnungen, auf meine Genehmigung warten, Foren</td>
     </tr>
     <tr>
         <td>Extern</td>
@@ -100,15 +100,15 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
         <td>Meine Arbeit, Erwähnungen, Aufgaben</td>
     </tr>
     <tr>
-        <td>Überarbeitung</td>
+        <td>Überprüfung</td>
         <td>Meine Arbeit, Erwähnungen</td>
     </tr>
     <tr>
-        <td>Begrenzt</td>
+        <td>Anfrage</td>
         <td>Meine Projekte warten auf meine Genehmigung</td>
     </tr>
     <tr>
-        <td>Mitwirkender oder Mitwirkende</td>
+        <td>Mitwirken</td>
         <td>Meine Arbeit, Erwähnungen</td>
     </tr>
     <tr>

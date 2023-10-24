@@ -3,9 +3,9 @@ title: Verbesserungen für das vierte Quartal 2023 - Startseite
 description: Verbesserungen für das vierte Quartal 2023 - Startseite
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Weitere Informationen zu den Widgets, die in der neuen Startseite verfügbar sin
 
 ## Neue Mitarbeiter-Standard-Landingpage: Neue Startseite
 
-Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Diese Standard-Widgets für Mitarbeiter sind: Anforderungen, Erwähnungen, Probleme und Foren. Beachten Sie, dass ein Layout mit einer benutzerdefinierten Startseite, das derzeit von einem Mitarbeiter-Konto verwendet wird, ihre Startseite bleibt.
+Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Diese Standard-Widgets für Mitarbeiter sind: Meine Anforderungen, Erwähnungen, Wartezeiten auf meine Genehmigung und Pinnwände. Beachten Sie, dass ein Layout mit einer benutzerdefinierten Startseite, das derzeit von einem Mitarbeiter-Konto verwendet wird, ihre Startseite bleibt.
 
 Weitere Informationen zur Verwendung von &quot;New Home&quot;finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ Basierend auf dem Benutzer-Feedback haben wir den seitenweiten Zeitbereichsfilte
 
 Weitere Informationen zur Tracking-Arbeit in der neuen Startseite finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Neue Schnellzugriffsschaltflächen für die Tracking-Widgets &quot;Projekt&quot;, &quot;Aufgabe&quot;und &quot;Problem&quot;
+## Neue Schnellaktion-Schaltflächen für das Widget &quot;Meine Arbeit&quot;
 
-Die neuen Schnellzugriffsschaltflächen für Projekt-, Aufgaben- und Problemverfolgungswidgets (einschließlich My Work) wurden erweitert und ermöglichen nun die direkte Verwaltung der Arbeit über die neue Startseite. Mit diesen neuen Schaltflächen, die in den einzelnen Projekten, Aufgaben, Problemen oder Anforderungen enthalten sind, können Sie schnell den Übersichtsbereich öffnen, Dateien hochladen, benutzerdefinierte Formulare bearbeiten, eine Aktualisierung erstellen und die Protokollierungszeit festlegen, ohne Ihre neue Startseite verlassen zu müssen. Außerdem können Sie auf jede neue Seite die Schaltfläche &quot;Bearbeiten&quot;aufrufen.
+Um Ihre Fähigkeit zur direkten Verwaltung der Arbeit über die neue Startseite zu erweitern, wurden dem Widget &quot;Meine Arbeit&quot;neue Schnellaktion-Schaltflächen hinzugefügt. Mit diesen neuen Schaltflächen, die in jedem Projekt, jeder Aufgabe, jedem Problem oder jeder Anfrage im Widget enthalten sind, können Sie schnell den Übersichtsbereich öffnen, Dateien hochladen, benutzerdefinierte Formulare bearbeiten, eine Aktualisierung erstellen und die Protokollierungszeit festlegen, ohne Ihre neue Startseite verlassen zu müssen. Außerdem können Sie eine größere Schaltfläche &quot;Bearbeiten/Fertig&quot;verwenden.
 
 Weitere Informationen zu den Widget-Funktionen in &quot;New Home&quot;finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
