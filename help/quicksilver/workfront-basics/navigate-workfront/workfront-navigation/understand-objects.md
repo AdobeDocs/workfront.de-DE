@@ -5,9 +5,9 @@ title: Objekte in [!DNL Adobe Workfront]
 description: Objekte in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Benutzerdelegierung]
 
   Sie können Berichte zu Benutzern erstellen, die beauftragt wurden, Aufgaben und Probleme anderer Benutzer auszuführen, während sie nicht im Büro sind. Dieser Bericht zeigt den Abwesenheitsbenutzer sowie den Benutzer an, der während seiner Abwesenheit seinen Verpflichtungen nachkommt.
+
 * [!UICONTROL Benutzerentscheidungen]
+
+  Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat bezüglich Testsendungen und Dokumenten getroffen haben.
+
 * [!UICONTROL Anzeigen]
 * [!UICONTROL Arbeitselement] (Dadurch wird ein Bericht für Aufgaben und Probleme erstellt)
