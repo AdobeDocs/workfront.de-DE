@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # Vom System getrackte Aktualisierungen
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] erfasst die Aktivität, die auf bestimmten Objekten stattfindet, indem Statusinformationen in der [!UICONTROL Updates] Bereich.
 
@@ -32,6 +34,8 @@ Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
 
   Weitere Informationen zu System-Update-Feeds und deren Aktivierung finden Sie unter [Systemaktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,11 +44,13 @@ Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
 
 ## Überlegungen zu systemverfolgten Aktualisierungen
 
-* Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Bereich Updates verfügbar. Die [!UICONTROL Updates] Bereich ist für die folgenden Objekte verfügbar:
+Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Bereich Updates verfügbar.
+
+* Die [!UICONTROL Updates] Bereich ist für die folgenden Objekte verfügbar:
 
    * [!UICONTROL Projekt]
    * [!UICONTROL Aufgabe]
-   * [!UICONTROL Probleme]
+   * [!UICONTROL Problem]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programm]
    * [!UICONTROL Benutzerin oder Benutzer]
@@ -70,6 +76,7 @@ Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
    * [!UICONTROL Vorlage]
    * [!UICONTROL Vorlagenaufgabe]
    * Ad-hoc [!UICONTROL Karte]
+   * [!UICONTROL Wiederholungen]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Die Benutzer können Systemaktualisierungen standardmäßig anzeigen oder sie nicht anzeigen lassen.
+* Im Folgenden werden die Unterschiede zwischen dem neuen und dem alten Kommentierungserlebnis beschrieben:
 
-  Informationen zum Deaktivieren der Anzeige von Systemaktualisierungen finden Sie im Abschnitt . [Systemaktualisierungen aktivieren oder deaktivieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) im Artikel [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Bei Verwendung des neuen Kommentierungserlebnisses werden Benutzeraktualisierungen auf der Registerkarte Kommentare angezeigt und Systemaktualisierungen werden auf der Registerkarte Systemaktivität angezeigt.
 
-  >[!NOTE]
-  >
-  >Wir gestalten derzeit das Kommentierungserlebnis und die [!UICONTROL Updates] Gebiet in [!DNL Workfront].
-  >
-  > Systemaktualisierungen können bei der Verwendung des neuen Kommentierungserlebnisses nicht ausgeblendet werden.
-  > 
-  >Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * Bei Verwendung des veralteten Kommentierungserlebnisses werden System- und Benutzeraktualisierungen in einem kontinuierlichen Feed angezeigt.
+
+   * Bei der Verwendung des bisherigen Kommentierungserlebnisses können Benutzer standardmäßig Systemaktualisierungen anzeigen oder festlegen, dass sie nicht angezeigt werden. Die Deaktivierung von Systemaktualisierungen ist bei Verwendung des neuen Kommentierungserlebnisses nicht möglich.
+
+     Informationen zum Deaktivieren der Anzeige von Systemaktualisierungen finden Sie im Abschnitt . [Systemaktualisierungen aktivieren oder deaktivieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) im Artikel [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront zeichnet vom System getrackte Aktualisierungen für die folgenden Objekte auf, es gibt jedoch keine Option, die Anzeige zu deaktivieren:
 

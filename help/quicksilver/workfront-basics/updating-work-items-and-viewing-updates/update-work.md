@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3617'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,28 @@ ht-degree: 1%
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>\
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
->Je nachdem, aus welcher Umgebung und welchen Objekten Sie auf das Kommentierungserlebnis zugreifen, werden im Abschnitt Updates möglicherweise unterschiedliche Funktionen angezeigt.
+>
+>Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, sehen Sie möglicherweise die folgende Funktion für den Abschnitt Aktualisierungen :
+>* Das neue Erlebnis
+>* Das alte Erlebnis
+>* Das neue und das veraltete Erlebnis
 >
 >Weitere Informationen über das neue Kommentierungserlebnis und dessen Verfügbarkeit finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Das neue Kommentarerlebnis ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>Das neue Kommentarerlebnis ist nur für den Bereich Updates der Workfront-Objekte verfügbar und nicht verfügbar, wenn Sie auf die Objekte aus den folgenden Bereichen zugreifen:
 >
 > * Startseite
 > * Zusammenfassungsbereich in Listen
@@ -169,20 +176,18 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Hinzufügen einer Aktualisierung zu einem Arbeitselement
 
-Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des Abschnitts Updates und dem ausgewählten Objekt ab.
-
-### Hinzufügen eines Updates zu einem Arbeitselement im Abschnitt &quot;Aktuelle Updates&quot;
-
-<!--on October 26, replace "current" with "legacy"-->
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Die folgende Funktion ist für alle Objekte mit Ausnahme von Zielen und Karten verfügbar. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
->
->Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+>Die Informationen auf dieser Seite beschreiben, wie Sie Projekte, Aufgaben und Probleme aktualisieren.
+
+
+Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der verwendeten Version des Abschnitts Updates ab.
+
+### Hinzufügen einer Aktualisierung zu einem Arbeitselement im Abschnitt &quot;Legacy-Updates&quot;
 
 1. Gehen Sie zu dem Arbeitselement, für das Sie eine Aktualisierung bereitstellen möchten (z. B. ein Projekt, eine Aufgabe oder ein Problem).
 1. Klicken Sie auf **Updates** Abschnitt.
+1. (Bedingt) Wenn sie aktiviert ist, klicken Sie auf die **Neue Kommentare** in der oberen rechten Ecke des Abschnitts Updates , um sie zu deaktivieren und das alte Kommentierungserlebnis zu aktivieren.
 1. Klicks **Neue Aktualisierung starten,** Geben Sie dann Ihr Update ein.
 1. (Optional) Verwenden Sie Rich Text oder fügen Sie Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzu, um Ihre Inhalte zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
 1. (Optional) Aktualisieren Sie eine der folgenden Informationen zum Arbeitselement:
@@ -236,15 +241,14 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der Version des
 
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des neuen Kommentierungserlebnisses
 
-Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. Suchen Sie das Objekt, das Sie aktualisieren möchten, und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
+1. Suchen Sie das zu aktualisierende Objekt (Projekt, Aufgabe oder Problem) und klicken Sie dann auf seinen Namen, um die Seite des Objekts zu öffnen.
 1. Klicks  **Updates** im linken Bereich.
+1. (Bedingt) Wenn die Variable **Neue Kommentare** deaktiviert ist, klicken Sie auf , um sie zu aktivieren.
 
-   Die **Kommentare** ist standardmäßig ausgewählt.
+   Dies ermöglicht das neue Kommentarerlebnis. Die **Kommentare** ist standardmäßig ausgewählt.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -263,19 +267,23 @@ Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis v
    >Der Indikator wird erst angezeigt, nachdem der Kommentar zum Element gesendet wurde, und nicht, wenn der Kommentar noch erstellt wurde.
    >
    >Der Indikator &quot;Neu&quot;wird nur angezeigt, wenn sowohl der Benutzer, der ein neues Update eingegeben hat, als auch der Benutzer, der derzeit ein Update aufruft, das neue Kommentarerlebnis verwenden.
-   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Klicks **Einsenden** , um die Aktualisierung zum Workfront-Objekt hinzuzufügen.
-1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png)  <span class="preview">in der oberen rechten Ecke des Kommentars</span>Klicken Sie auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu oder entfernen Sie sie oder einen der getaggten Benutzer.
-Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der bei der Eingabe des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
+1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken Sie auf **Bearbeiten**.
+
+   >[!IMPORTANT]
+   >
+   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten.
+
+1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu oder entfernen Sie sie oder einen der getaggten Benutzer. Links neben dem Datumsstempel, der bei der Eingabe des Kommentars angezeigt wird, wird die Anzeige &quot;Bearbeitet&quot;hinzugefügt.
 
    >[!TIP]
    >
    >Kommentare aus dem aktuellen Jahr zeigen das Jahr nicht im Datumsstempel an. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum einschließlich des Jahres angezeigt.
 
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -284,34 +292,27 @@ Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlu
    >* Wenn Sie einen Kommentar im Namen eines anderen Benutzers posten (wenn Sie sich als anderer Benutzer als Workfront- oder Gruppenadministrator anmelden), können Sie den Kommentar nicht bearbeiten, wenn Sie als der andere Benutzer angemeldet sind. Sie können den Kommentar erst bearbeiten, nachdem Sie sich als Benutzer abgemeldet und sich wieder wie Sie selbst angemeldet haben.
 
 
-1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 4 bis 8 oben. <!--(**************insure this stays accurate***********)--> Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Klicken Sie auf **Antwort** oder beginnen Sie mit der Eingabe eines Kommentars im **Antwort hinzufügen ...** -Bereich, um auf einen vorhandenen Kommentar zu antworten, dann folgen Sie den Schritten 4 bis 8 oben. <!--(**************insure this stays accurate***********)--> Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-   >[!TIP]
-   >
-   >   <span class="preview">Um weitere Antworten auf eine vorhandene Antwort hinzuzufügen, können Sie die Variable **Antwort hinzufügen...** oder klicken Sie **Antwort** zum ursprünglichen Kommentar. Ihre Antwort wird am Ende des Threads hinzugefügt.</span>
+1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die beim Hinzufügen Ihrer Kommentare außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
 
-
-1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
-
-   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
+   ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Weitere Kommentare werden unten auf dem Bildschirm angezeigt.
-
 
 
    >[!NOTE]
    >
    >   Die Anzeige &quot;neue Kommentare&quot;und die Schaltfläche &quot;Anzeigen&quot;werden nur dann angezeigt, wenn sowohl die Benutzer, die die neuen Updates eingegeben haben, als auch der Benutzer, der sich derzeit den Abschnitt Updates ansieht, das neue Kommentierungserlebnis verwenden.
 
-
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png). Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
-1. (Bedingt und Optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
+1. (Bedingt und optional) Wenn Sie Ihrem Kommentar weitere Personen hinzugefügt haben, klicken Sie auf die Anzahl der Mitglieder, die in der Aktualisierung enthalten sind, um eine Liste der Entitäten anzuzeigen, für die der Kommentar, den Sie eingegeben haben, freigegeben ist.
 
-   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Neben den Avataren werden die Namen der ersten beiden getaggten Entitäten angezeigt. Wenn mehr als zwei Entitäten mit Tags versehen sind, werden nur der Name des ersten und die Anzahl der zusätzlichen Entitäten angezeigt.</span>
+   >Neben den Avataren werden die Namen der ersten beiden getaggten Entitäten angezeigt. Wenn mehr als zwei Entitäten mit Tags versehen sind, werden nur der Name des ersten und die Anzahl der zusätzlichen Entitäten angezeigt.
 
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn das Objekt oder seine untergeordneten Elemente aktualisiert werden, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an.
 
@@ -327,7 +328,7 @@ Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlu
 
 >[!NOTE]
 >
->Einige der Optionen in der Rich-Text-Symbolleiste stehen für das neue Kommentierungserlebnis möglicherweise nicht zur Verfügung.
+>Die folgenden Informationen beschreiben die Verwendung von Rich Text im neuen Kommentierungserlebnis, sofern nichts anderes angegeben ist.
 
 Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinzufügen verschiedener Elemente wie Emojis, Links oder Bilder verbessern.
 
@@ -340,15 +341,18 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
    | **Attribut** | **Symbolleiste** | **Tastaturbefehle für Mac** | **Windows-Tastaturbefehle** |
    |---|---|---|---|
-   | Fett | ![mceclip10.png](assets/mceclip10.png) | η+b | Strg+B |
+   | Fett | ![](assets/mceclip10.png) | η+b | Strg+B |
    | kursiv | ![mceclip9.png](assets/mceclip9.png) | Befehl+i | Strg+I |
    | Unterstreichen | ![mceclip8.png](assets/mceclip8.png) | η+u | Strg+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld Verknüpfungen erstellen oder Links hinzufügen: SUMME+K</br> <br>So fügen Sie in der Beta-Version mit Kommentaren einen Link über den ausgewählten Text ein: Slovenské+V</br> | <br>So öffnen Sie das Feld Links erstellen oder Links hinzufügen: Strg+K</br> <br>So fügen Sie in der Beta-Version mit Kommentaren einen Link über den ausgewählten Text ein: Strg+V</br> |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>So öffnen Sie das Feld &quot;Links hinzufügen&quot;: ^+K</br> <br>So fügen Sie einen Link über den ausgewählten Text ein: SUMME+V</br> | <br>So öffnen Sie das Feld &quot;Links hinzufügen&quot;: Strg+K</br> <br>So fügen Sie einen Link über den ausgewählten Text ein: Strg+V</br> |
    | Aufzählung | ![mceclip6.png](assets/mceclip6.png) | η+Shift+8 | Strg+Umschalt+8 |
    | Nummerierte Liste | ![mceclip5.png](assets/mceclip5.png) | η+Shift+7 | Strg+Umschalt+7 |
-   | Blockzitat | ![](assets/block-quote-icon-large.png) | η+Shift+9 | Strg+Umschalt+9 |
+   | Blockzitat | ![](assets/block-quote-icon-large.png) | η+Shift+9 | <br>Strg+Umschalt+9</br> <br>Dies ist im neuen Kommentierungserlebnis nicht verfügbar. </br> |
+
+   <!--remove the last row when we remove legacy from the system-->
 
    Um die Textformatierung zu beenden, deaktivieren Sie das -Attribut auf der **Rich-Text** Symbolleiste.
+
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
@@ -359,11 +363,13 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Wenn Ihr Unternehmen Workfront mit Internet Explorer verwendet, verliert jeder formatierte Text, der in eine Aktualisierung eingefügt wird, seine Rich-Text-Formatierung und wird als Nur-Text angezeigt. Sie können den Text mithilfe der Attribute in der Rich-Text-Symbolleiste neu formatieren.
    >* Die Rich-Text-Formatierung ist nicht für Aktualisierungen verfügbar, die im Bereich &quot;Timesheets&quot;vorgenommen werden, oder für die Objekte &quot;Hinweis&quot;und &quot;Letzte Bedingung&quot;in einem Bericht.
 
-1. (Optional) Wenn Sie Text aus früheren Aktualisierungen oder aus anderen Quellen einbeziehen und von Ihrer eigenen Aktualisierung unterscheiden möchten, können Sie ihn als Blockzitat markieren. Klicken Sie auf **Blockierungsangebot** icon ![](assets/block-quote-small.png) und geben Sie den Text ein, den Sie zitieren möchten. Der zitierte Text wird mit einer vertikalen grauen Linie markiert. Klicken Sie auf **Blockierungsangebot** erneut ein, um zur normalen Formatierung zurückzukehren.
+1. (Optional und bedingt) Wenn Sie Text aus früheren Aktualisierungen oder aus anderen Quellen einbeziehen und von Ihrer eigenen Aktualisierung unterscheiden möchten, können Sie ihn als Blockzitat markieren. Klicken Sie auf **Blockierungsangebot** icon ![](assets/block-quote-small.png) und geben Sie den Text ein, den Sie zitieren möchten. Der zitierte Text wird mit einer vertikalen grauen Linie markiert. Klicken Sie auf **Blockierungsangebot** erneut ein, um zur normalen Formatierung zurückzukehren. Dies ist im neuen Kommentierungserlebnis nicht verfügbar.
 
-   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-1. (Optional) Fügen Sie Ihrem Update Emojis hinzu.
+   ![](assets/block-quote-marked-350x144.png)</span>
+
+1. (Optional) Klicken Sie auf die **Emoji** icon ![](assets/emoji-icon.png) , um Emojis zu Ihrer Aktualisierung hinzuzufügen.
 
    >[!NOTE]
    >
@@ -384,13 +390,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    1. under **Anzuzeigender Text**, geben Sie den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
 
-1. (Optional) Um ein Bild an Ihre Aktualisierung anzuhängen, führen Sie je nach verwendeter Umgebung einen der folgenden Schritte aus:
-
-   * Klicken Sie auf **Bild** icon ![](assets/addimageicon-35x32.png) und navigieren Sie zum Bild auf Ihrem Computer oder ziehen Sie das Bild in den Aktualisierungsbereich, wenn Sie das aktuelle Aktualisierungserlebnis verwenden.
-
-   Oder
-
-   Klicken Sie auf **Anlage hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und suchen Sie nach dem Bild auf Ihrem Computer, wenn Sie die neue Kommentarfunktion verwenden. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
+1. (Optional) Klicken Sie auf die Schaltfläche **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und suchen Sie nach dem Bild auf Ihrem Computer, wenn Sie die neue Kommentarfunktion verwenden.
 
    >[!NOTE]
    >
@@ -400,11 +400,13 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Sie können ein Update mit einem Bild und ohne Text senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, gibt es je nach ausgewähltem Erlebnis die folgenden Szenarien:
    >
-   >     * Im aktuellen Kommentar-Erlebnis bleibt das Bild im Bereich Dokumente , ist jedoch nicht mehr im Abschnitt Aktualisierungen sichtbar.
+   >     * Im bisherigen Kommentierungserlebnis bleibt das Bild im Bereich Dokumente, ist jedoch nicht mehr im Abschnitt Aktualisierungen sichtbar.
    >     * Im neuen Kommentarerlebnis wird das Bild sowohl aus dem Abschnitt Updates als auch aus dem Bereich Dokumente entfernt. Das Bild wird auch aus dem Bereich &quot;Dokumente&quot;gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
    >* Wenn jemand ein Bild löscht, das mit einem Kommentar verknüpft ist, wird es auch aus dem Kommentar entfernt.
 
-1. Klicks **Aktualisieren**  oder **Einsenden**, wenn Sie das Beta-Kommentarerlebnis verwenden.
+   <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. Klicks **Einsenden** , um Ihren Kommentar hinzuzufügen.
 
 
 ## Aktualisierte Informationen kopieren
@@ -413,13 +415,14 @@ Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link k
 
 Das Kopieren eines Updates hängt davon ab, welches Kommentierungserlebnis Sie verwenden.
 
-### Kopieren einer Aktualisierung im aktuellen Kommentierungserlebnis
+### Kopieren einer Aktualisierung im alten Kommentierungserlebnis
 
-<!--October 26 - replace current with legacy-->
+<!--remove legacy when removed from the UI-->
 
 * [Aktualisieren kopieren](#copy-the-update)
 * [Den Thread-Link kopieren](#copy-the-thread-link)
 * [Aktualisierungslink kopieren](#copy-the-update-link)
+* [Antwort zitieren](#quote-reply)
 
 #### Aktualisieren kopieren {#copy-the-update}
 
@@ -449,18 +452,35 @@ Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage 
 
    ![](assets/copy-update-link-old-ui.png)
 
+
+#### Antwort zitieren
+
+Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanführungszeichen in eine neue Antwort kopiert.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Antwort zitieren**.
+
+   Ein neues Kommentarfeld wird geöffnet und die zitierte Antwort wird in den neuen Kommentar aufgenommen und als Blockanführungszeichen markiert.
+
+1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Antwort** , um den Kommentar hinzuzufügen.
+
 ### Kopieren von Aktualisierungen im neuen Kommentierungserlebnis
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
+Sie können Informationen aus einem vorhandenen Kommentar kopieren, indem Sie einen der folgenden Schritte ausführen:
+
 * [Link kopieren](#copy-link)
 * [Fließtext kopieren](#copy-body-text)
+* [Anführungsantwort](#quote-reply-1)
+
+![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### Link kopieren
 
-Diese Option kopiert den Kommentar- oder Thread-Link in die Zwischenablage, damit Sie den Kommentar oder den gesamten Thread für andere Benutzer freigeben können.
+Die Option Link kopieren kopiert den Kommentar- oder Thread-Link in die Zwischenablage, damit Sie den Kommentar oder den gesamten Thread für andere Benutzer freigeben können.
 
 1. Gehen Sie zu der Aktualisierung, deren Link Sie kopieren möchten.
 
@@ -468,10 +488,25 @@ Diese Option kopiert den Kommentar- oder Thread-Link in die Zwischenablage, dami
 
 #### Fließtext kopieren
 
-Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
+Mit der Option Textkörper kopieren wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
 
 1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
 1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Textkörper kopieren**.
+
+#### Anführungsantwort
+
+Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanführungszeichen in eine neue Antwort kopiert.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Anführungsantwort**.
+
+   Ein neues Kommentarfeld wird geöffnet und die zitierte Antwort wird in den neuen Kommentar aufgenommen und als Blockanführungszeichen markiert.
+
+   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
+
+1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Einsenden** , um den Kommentar hinzuzufügen.
 
 ## Aktualisieren oder Antworten löschen
 
@@ -484,7 +519,7 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicken Sie in der angezeigten Nachricht auf **Bestätigen** oder klicken Sie **Löschen**, wenn Sie das Beta-Kommentarerlebnis verwenden.
+1. Klicken Sie in der angezeigten Nachricht auf **Löschen**.
 
    >[!NOTE]
    >
@@ -492,9 +527,9 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
    Wenn dem Kommentar, den Sie löschen, Antworten zugeordnet sind, gibt es einen Hinweis darauf, dass der Kommentar mit dem Namen des Benutzers entfernt wurde, der ihn entfernt hat.
 
-   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
+   ![](assets/removed-comment-indicator-new-experience.png)
 
-   Bei Verwendung des Beta-Kommentarerlebnisses werden gelöschte Kommentare sofort aus Workfront entfernt. Ein Benutzer, der den Abschnitt Updates verwendet, sieht, dass ein Kommentar von einem anderen Benutzer in Echtzeit gelöscht wird.
+   Gelöschte Kommentare werden sofort aus Workfront entfernt. Ein Benutzer, der den Abschnitt Updates verwendet, sieht, dass ein Kommentar von einem anderen Benutzer in Echtzeit gelöscht wird.
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
@@ -521,18 +556,19 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
 -->
 
+
+
 ## Systemaktualisierungen aktivieren oder deaktivieren
 
-<!--October 2023: remove the whole section because this is no longer possible -->
+<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
 
 <!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
 >Es ist nicht möglich, Systemaktualisierungen zu deaktivieren, wenn die neue Kommentarfunktion verwendet wird.
->Die Informationen in diesem Abschnitt beziehen sich nur auf die im Abschnitt &quot;Aktuelle Updates&quot;verfügbaren Funktionen. <!--October 26: replace current with legacy-->
->Weitere Informationen zu Systemaktualisierungen in der Beta-Version finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>Die Informationen in diesem Abschnitt beziehen sich nur auf die Funktionalität, die im Abschnitt &quot;Legacy-Updates&quot;verfügbar ist. &lt;!—Entfernen Sie diesen Abschnitt, wenn wir Legacy aus dem System entfernen ->
+>Weitere Informationen zu Systemaktualisierungen im neuen Kommentierungserlebnis finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Informationen angezeigt:
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2209'
 ht-degree: 2%
 
 ---
@@ -25,41 +25,70 @@ ht-degree: 2%
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
-Diese Seite enthält Informationen zur Veröffentlichungszeitleiste für das neue Kommentierungserlebnis, das derzeit in Adobe Workfront verfügbar ist.
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die während der Beta-Phase für das neue Kommentarerlebnis veröffentlicht wurden.
+>
+>Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023.
+>
+>Die während der Beta-Phase veröffentlichten Funktionen wurden allen Kunden ab der Version vom vierten Quartal 2023 (Oktober 2023) zur Verfügung gestellt und das Betaprogramm wurde eingestellt.
+> 
+><br>Weitere Informationen finden Sie in den folgenden Artikeln: </br>
+>
+>* Informationen zu den Funktionen, die während des neuen Erlebnis-Beta-Zeitraums veröffentlicht wurden, finden Sie unter [Neues Kommentierungserlebnis](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>* Informationen zu den Funktionen, die nach dem Schließen des neuen Betaprogramms für Kommentarerlebnisse für das Kommentarerlebnis veröffentlicht wurden, finden Sie auf der aktuellen Übersichtsseite zur Produktversion.
 
-Allgemeine Informationen zu den neuen Kommentierungserlebnissen, einschließlich einer Liste der derzeit verfügbaren Funktionen oder der in der Forschung verwendeten Funktionen, finden Sie unter [Neues Kommentierungserlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
+<!--
+ This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
+
+For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 
 >[!IMPORTANT]
 >
->Die neue Kommentarerfahrung, die mit der Beta-Version 23.2 gestartet wurde. Informationen zur ursprünglichen Version finden Sie unter [23.2 Versionsübersicht](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Funktionen, die für die Workfront-Objekte freigegeben wurden, die die Beta-Kommentarfunktion unterstützen, werden auch im Abschnitt Updates der folgenden Objekte als einziges Kommentarerlebnis verfügbar gemacht:
->* Ziele
->* Karten im Bereich der Foren.
+>Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
-## Veröffentlichungs-Timeline
+-->
 
-Wir planen, die neue Kommentarerfahrung iterativ zu veröffentlichen. Dies wirkt sich auf ausgewählte Objekte mit jeder Version aus. Einige wenige Funktionen werden möglicherweise am Anfang veröffentlicht und den übrigen Objekten werden im Laufe der Zeit weitere Funktionen hinzugefügt.
+## Neue Timeline zur Veröffentlichung des Kommentierungserlebnisses
 
-Informationen darüber, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter   [Übersicht über den Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Das neue Kommentarerlebnis bringt ein neues Design in den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten.
 
-Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern. Weitere Informationen zu allen veröffentlichten Funktionen finden Sie unter [Veröffentlichte Funktionen](#released-features) in diesem Artikel beschrieben.
+Informationen darüber, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern.
+
+Weitere Informationen zu den während der Beta-Phase veröffentlichten Funktionen und zum Zeitpunkt ihrer Veröffentlichung finden Sie in der [Während der Beta-Phase veröffentlichte Funktionen](#features-released-during-the-beta-period) in diesem Artikel beschrieben.
+
+Informationen zu den Funktionen, die nach dem Schließen der Beta-Phase für das neue Kommentar-Erlebnis veröffentlicht wurden, finden Sie auf der Seite mit der aktuellen Versionsübersicht .
+
+Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des neuen Kommentierungserlebnisses:
 
 * Mit der Version 23.2 (6. April 2023):
-   * Kommentieren von Erlebnis-Beta für Probleme
-   * Neues Kommentierungserlebnis für Ziele (als einziges Erlebnis)
+   * Starten des Kommentierungserlebnisses Beta für Probleme
+   * Das neue Kommentarerlebnis für Ziele freigeben (als einziges Erlebnis)
 * Mit der Version 23.3 (20. Juli 2023):
-   * Kommentieren von Erlebnis-Beta für Projekte, Aufgaben und Dokumente.
-   * Neues Kommentierungserlebnis für Karten im Bereich &quot;Foren&quot;(als einziges Erlebnis)
+   * Starten Sie die Beta-Kommentarfunktion für Projekte, Aufgaben und Dokumente.
+   * Das neue Kommentarerlebnis für Karten im Bereich &quot;Foren&quot;freigeben (als einziges Erlebnis)
 * In der Version vom vierten Quartal 2023 (begrenzte Version, nur für Kunden verfügbar, die die schnelle Version wählen):
-   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Zeitpläne (als einziges Erlebnis)
-   * Das Kommentieren des Erlebnisses Beta für Projekte, Aufgaben, Probleme und Dokumente wird zur Standardoption. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
-* Mit der Version vom 4. Quartal 2023 (23.10) (Oktober 2023)
-   * Neues Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Zeitpläne (als einziges Erlebnis)
-   * Die neue Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente wird zur Standardoption. Dadurch wird die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
+   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets freigeben (als einziges Erlebnis)
+   * Aktualisieren Sie die Beta-Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente, sodass sie zur Standardoption wird. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
+* Mit der Version vom 26. Quartal 2023 (23.10) (26. Oktober 2023)
+   * Veröffentlichen Sie die neue Kommentarfunktion für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis) für alle Kunden.
+   * Machen Sie die neue Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente zur Standardoption.
+
+  >[!IMPORTANT]
+  >
+  >    Dadurch wird die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
+
+   * Machen Sie alle ab diesem Datum für das Kommentierungserlebnis veröffentlichten Funktionen Teil der aktuellen monatlichen und vierteljährlichen Versionen.
 * Ende 2023:
-   * Die veraltete Kommentarfunktion bleibt als sekundäre Option für die folgenden Objekte erhalten: Projekte, Aufgaben, Probleme und Dokumente.
+   * Behalten Sie die alte Kommentarfunktion als sekundäre Option für die folgenden Objekte bei: Projekte, Aufgaben, Probleme und Dokumente. Die neue Kommentarfunktion ist die Standardoption für alle Benutzer.
 
   >[!NOTE]
   >
@@ -67,13 +96,15 @@ Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen fü
 
 * Erstes Quartal 2024 (Januar 2024):
 
-   * Die Option, zum alten Kommentar-Stream zurückzukehren, wird entfernt und der neue Kommentar-Stream wird zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen.
+   * Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen zu machen.
 
-## Veröffentlichte Funktionen
+## Während der Beta-Phase veröffentlichte Funktionen
 
-Der folgende Abschnitt enthält eine Liste von Funktionen, die nach der ursprünglichen Version 23.2 hinzugefügt wurden, beginnend mit den Funktionen, die zuletzt veröffentlicht wurden.
+Die in diesem Abschnitt beschriebenen Funktionen stehen jetzt allen Kunden und in allen Umgebungen zur Verfügung.
 
-Die folgenden Informationen beziehen sich wöchentlich auf die Release-Aktivität und enthalten die Funktionen der neuen Kommentar-Beta-Erfahrung. In diesem Artikel werden neue Funktionen und Probleme aufgelistet, die für das neue Kommentarerlebnis behoben wurden.
+Die folgenden Funktionen wurden während der Beta-Phase zwischen der Version 23.2 (6. April 2023) und der Version vom 4. Quartal 2023 (26. Oktober 2023) zum Kommentierungserlebnis hinzugefügt.
+
+Die folgenden Informationen beziehen sich wöchentlich auf die Veröffentlichungsaktivität, beginnend mit der letzten Aktualisierung.
 
 ### Woche vom 16. Oktober 2023
 
@@ -109,7 +140,9 @@ Vorschau und Produktion für alle Kunden: 24. August 2023
 
 #### Neues Kommentierungserlebnis für zusätzliche Objekte
 
-[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Version 23.3 in der Produktion zur Verfügung: Vorlagenaufgaben, Vorlagen, Timesheets, Teams, Benutzer, Programme, Portfolios.
 
@@ -125,7 +158,9 @@ Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
 
 #### Neues Design-Update für den neuen Kommentarstream
 
-[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Wir haben den neuen Kommentar-Stream neu gestaltet, um ihn mit einem aktuelleren Look-and-Feel zu versehen. Einige der Verbesserungen sind:
 
@@ -151,7 +186,9 @@ Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10 (
 
 #### Das neue Kommentierungserlebnis ist das Standarderlebnis für Projekte, Aufgaben, Probleme und Dokumente
 
-[!BADGE In Produktion für schnelle Veröffentlichung]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Wir machen das neue Kommentierungserlebnis zum Standarderlebnis für die folgenden Objekte: Projekte, Aufgaben, Probleme und Dokumente.  Das veraltete Kommentierungserlebnis bleibt beim Zugriff auf diese Objekte als Alternative erhalten.
 

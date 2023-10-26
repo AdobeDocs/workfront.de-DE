@@ -7,31 +7,32 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 5%
+source-wordcount: '1156'
+ht-degree: 4%
 
 ---
 
+
 # Übersicht über den Aktualisierungsabschnitt
 
-<!--take "Beta" references out when we remove the beta-->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>\
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
 >[!IMPORTANT]
 >
 >Die Kommentarerfahrung in Adobe Workfront wird derzeit umgestaltet.
 >
->Je nachdem, aus welcher Umgebung und welchen Objekten Sie auf das Kommentierungserlebnis zugreifen, werden im Abschnitt Updates möglicherweise unterschiedliche Funktionen angezeigt.
+>Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, sehen Sie möglicherweise die folgende Funktion für den Abschnitt Aktualisierungen :
+>* Das neue Erlebnis
+>* Das alte Erlebnis
+>* Das neue und das veraltete Erlebnis
+>
+>Dieser Artikel enthält Informationen zu den neuen und den älteren Versionen des Abschnitts Updates .
 >
 >Weitere Informationen über das neue Kommentierungserlebnis und dessen Verfügbarkeit finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Das neue Kommentarerlebnis ist nur für den Abschnitt Updates verfügbar und nicht für die folgenden Bereiche:
+>Das neue Kommentarerlebnis ist nur für den Bereich Updates der Workfront-Objekte verfügbar und nicht verfügbar, wenn Sie auf die Objekte aus den folgenden Bereichen zugreifen:
 >
 > * Startseite
 > * Zusammenfassungsbereich in Listen
@@ -43,188 +44,96 @@ ht-degree: 5%
 >
 >Iterations display the legacy commenting experience.-->
 
-<!--old note, removed with August 2023: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the new commenting experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
-
-The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
-
--->
 
 ## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
 
-* Der Abschnitt Updates eines Objekts zeigt bis zu 200 der letzten Aktualisierungen an, die in den letzten 90 Tagen vorgenommen wurden.
+Im Abschnitt Updates eines Objekts werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
 
-  ![](assets/updates-tab-before-unified-experience-for-issues.png)
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* Der Abschnitt Updates wird für die folgenden Objekte angezeigt:
+Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, finden Sie im Abschnitt Aktualisierungen möglicherweise das folgende Erlebnis:
 
-  <table style="table-layout:auto"> 
-  <col> 
-  <col> 
-  <tbody> 
-    <tr> 
-    <td> 
-      <ul> 
-      <li>Dokumente</li> 
-      <li>Ziele</li> 
-      <li>Probleme</li> 
-      <li>Wiederholungen</li> 
-      <li>Projekte</li> 
-      <li>Programme</li> 
-      <li>Portfolios</li> 
-      </ul> </td> 
-    <td> 
-      <ul> 
-      <li>Storys*</li> 
-      <li>Aufgaben</li> 
-      <li>Vorlagen</li> 
-      <li>Vorlagenaufgaben</li> 
-      <li>Arbeitszeittabellen</li> 
-      <li>Benutzende</li>
-      <li>Karten auf Pinnwänden</li>
-      </ul> </td> 
-    </tr> 
-  </tbody> 
-  </table>
+* Sowohl das neue als auch das alte Kommentierungserlebnis für die folgenden Objekte:
 
-  *Geschichten sind Aufgaben. Alle Informationen zu Aufgaben stehen auch für Meldungen zur Verfügung.
+   * Projekt
+   * Aufgabe (einschließlich Meldungen)
+   * Problem
+   * Dokument
 
-Die Informationen im Abschnitt Updates sind je nach Umgebung, aus der Sie darauf zugreifen, unterschiedlich organisiert.
+     >[!TIP]
+     >
+     >Verwenden Sie die Option Neue Kommentare , um das neue Kommentarerlebnis (wenn Sie es aktivieren) oder das veraltete Kommentarerlebnis (wenn Sie es deaktivieren) anzuzeigen. Die neue Kommentarfunktion ist die Standardeinstellung. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+* Nur das neue Kommentarerlebnis für die unten aufgeführten Objekte. Es gibt keine Option, das veraltete Kommentierungserlebnis für diese Objekte zu aktivieren:
+
+   * Ziel
+
+     >[!NOTE]
+     >
+     >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   * Karte auf einer Pinnwand
+   * Team
+   * Vorlage
+   * Vorlagenaufgabe
+   * Arbeitszeittabelle
+   * Programm
+   * Portfolio
+   * Benutzerin oder Benutzer
+
+* Nur das veraltete Kommentierungserlebnis für die folgenden Objekte:
+
+   * Wiederholungen
+
+     Es gibt keine Option, das neue Kommentarerlebnis für Iterationen zu aktivieren.
+
+### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
+
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
+
+>[!NOTE]
+>
+>Das neue Kommentierungserlebnis steht nicht für Iterationen zur Verfügung.
 
 
-### Übersicht über den Abschnitt &quot;Aktuelle Updates&quot;
+* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
-<!--October 26 - replace current with legacy-->
 
-* Im Abschnitt &quot;Aktuelle Updates&quot;werden die folgenden Informationen angezeigt:
+   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-   * **Benutzeraktualisierungen**: Kommentare von Benutzern und Antworten auf diese Kommentare.
-   * **Systemaktualisierungen**: Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Die folgenden Objekte zeichnen keine Systemaktualisierungen auf:
+* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;:
 
    * Team
    * Vorlage
    * Vorlagenaufgabe
-
-### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
-
-Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
-
-* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
-
-   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-      * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;:
-
-         * Team
-         * Vorlage
-         * Vorlagenaufgabe
-         * Ad-hoc-Karte
-
-* Derzeit können Sie mit dem neuen Kommentierungserlebnis Kommentare und Antworten auf Aktualisierungen zu folgenden Objekten hinzufügen:
+   * Ad-hoc-Karte
 
 
-   * Projekte
-   * Aufgaben (und Meldungen)
-   * Probleme
-   * Dokumente
-   * Ziele
+### Überblick über den Abschnitt zu veralteten Aktualisierungen
 
-  >[!NOTE]
-  >
-  >Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+<!--when we remove legacy, make this section an "Iterations-only" section-->
 
-   * Karten auf Pinnwänden
+![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-  >[!NOTE]
-  >
-  > Sie können Karten im Bereich &quot;Pinnwände&quot;um Aktualisierungen ergänzen und anzeigen, wenn Sie die Abschnitte &quot;Kommentare&quot;und &quot;Systemaktivität&quot;auf einer Karte aktivieren. Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
+Im Abschnitt zu veralteten Aktualisierungen werden die folgenden Informationen angezeigt:
 
+* **Benutzeraktualisierungen**: Kommentare von Benutzern und Antworten auf diese Kommentare.
+* **Systemaktualisierungen**: Informationsmeldungen, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Sie können beispielsweise Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfassen. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <span class="preview">
+Die folgenden Objekte zeichnen keine Systemaktualisierungen auf:
 
-   * Vorlagen
-   * Vorlagenaufgaben
-   * Arbeitszeittabellen
-   * Benutzende
-   * Portfolios
-   * Programme
+* Team
+* Vorlage
+* Vorlagenaufgabe
+* Wiederholungen
 
-  >[!NOTE]
-  >
-  >    Sie können das neue Kommentarerlebnis für Iterationen nicht anzeigen.
-
-  </span>
-
-<!--hidden in August 2023 and replaced by the list above: 
-
-  <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td> 
-        <ul> 
-        <li><p>Goals</p>
-        <li>Cards in the Boards area*</li>
-          This is the only experience for goals and cards.
-        </li> 
-        <li>Projects</li>
-        </ul> </td> 
-      <td> 
-        <ul> 
-        <li>Issues</li> 
-        <li>Tasks</li>
-        <li>Documents</li>
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
-
-  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
-  -->
 
 ## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
-Kommentare oder Antworten zu Aktualisierungen bestimmter Objekte werden auch im Abschnitt &quot;Aktualisierungen&quot;von Objekten mit höherem Rang angezeigt.
+Kommentare, Antworten oder Systemaktualisierungen für bestimmte Objekte werden auch im Abschnitt Updates von Objekten mit höherem Rang angezeigt.
 
 Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die Aktualisierung im Abschnitt Updates für die Aufgabe und im Abschnitt Updates für das Projekt, das die Aufgabe enthält, angezeigt.
-
->[!NOTE]
->
->Wenn Sie das neue Kommentarerlebnis aktivieren, werden Kommentare zu den folgenden übergeordneten Objekten angezeigt:
->
->* Probleme
->* Projekte
->* Aufgaben
->
->Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in den übergeordneten Objekten angezeigt werden:
 
@@ -263,7 +172,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Arbeitszeittabelle</td> 
+   <td>Arbeitszeittabelle*</td> 
    <td>Benutzer, Team</td> 
   </tr> 
   <tr> 
@@ -275,16 +184,23 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Wiederholung</td> 
+   <td>Wiederholung*</td> 
    <td>Team</td> 
   </tr>
 
 <tr> 
-   <td>Ziele</td> 
-   <td>Ergebnis, Aktivität</td> 
+   <td>Ergebnis</td> 
+   <td>Ziel</td> 
+  </tr> 
+  <tr> 
+   <td>Aktivität</td> 
+   <td>Ziel</td> 
   </tr> 
  </tbody> 
 </table>
+* Diese sind für das neue Kommentarerlebnis nicht verfügbar.
+
+<br>
 
 >[!NOTE]
 >
@@ -294,26 +210,32 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
 >
 > Es ist nicht möglich, auf Systemaktualisierungen in der neuen Kommentierungserfahrung zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+</br>
+
 ## Einschränkungen des Abschnitts Updates
 
 Im Abschnitt Updates eines Teams und bei der Eingabe von Updates für andere Benutzer gibt es einige Einschränkungen.
 
 ### Einschränkungen für Benutzer und Teams
 
-Im Abschnitt Updates eines Teams können Sie keine neuen Kommentare hinzufügen.
+Beachten Sie beim Anzeigen von Updates für Benutzer und Teams Folgendes:
 
-<span class="preview">Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört. </span>
+* Im Abschnitt Updates eines Teams können Sie keine neuen Kommentare hinzufügen.
 
-Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
+* Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört.
 
-* Benutzende
-* Arbeitszeittabellen
-* Storys
-* Wiederholungen
+* Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
 
-Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
+   * Benutzende
+   * Arbeitszeittabellen*
+   * Storys
+   * Wiederholungen*
 
-Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  *Diese sind für das neue Kommentarerlebnis nicht verfügbar.
+
+* Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
+
+  Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Einschränkungen bei der Eingabe von Kommentaren im Namen eines anderen Benutzers
 
@@ -327,7 +249,7 @@ Beachten Sie beim Anmelden als anderer Benutzer und beim Hinzufügen von Komment
 
 * Ein Gruppenadministrator kann im Namen einer anderen Person Kommentare abgeben, diesen Kommentar jedoch nicht löschen. Nur ein Adobe Workfront-Administrator kann einen Kommentar löschen, den er für einen anderen Benutzer abgegeben hat.
 
-* Ein Workfront- oder Gruppenadministrator kann nur einen Kommentar bearbeiten, den er im Namen eines anderen Benutzers hinzugefügt hat, wenn er sich als Benutzer abmeldet und sich wieder als solcher anmeldet.
+* Ein Workfront- oder Gruppenadministrator kann nur einen Kommentar bearbeiten, den er im Namen eines anderen Benutzers hinzugefügt hat, wenn er sich als Benutzer abmeldet und sich wieder als solcher anmeldet. Sie können einen Kommentar nicht im Namen eines anderen Benutzers löschen.
 
 ## Systemaktualisierungen zu Arbeitselementen mit dem Journaleintragsbericht anzeigen
 

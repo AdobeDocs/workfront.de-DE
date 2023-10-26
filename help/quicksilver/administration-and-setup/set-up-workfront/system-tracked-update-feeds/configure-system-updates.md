@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
 description: Workfront generiert automatische Systemaktualisierungen im [!UICONTROL Updates] -Bereich, um die Änderungen aufzuzeichnen, die Benutzer am Objekt vornehmen. Als [!DNL Workfront] Administrator können Sie konfigurieren, welche Objektfelder und Aktionen [!DNL Workfront] verfolgt, um Systemaktualisierungen aufzuzeichnen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
 
-Zu diesen Systemaktualisierungen gehören die vorgenommene Änderung, der Name des Benutzers, der die Änderung vorgenommen hat, sowie Uhrzeit und Datum der Änderung.
+Diese Systemaktualisierungen umfassen die folgenden Informationen:
+
+* Die Änderung, die vorgenommen wurde
+* Der Name des Benutzers, der die Änderung vorgenommen hat
+* Datum und Uhrzeit der Änderung
 
 Weitere Informationen zu Systemaktualisierungen finden Sie unter [Vom System getrackte Aktualisierungen](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -65,10 +69,10 @@ Sie können bestimmen, welche Informationen [!DNL Workfront] verfolgt, wenn Benu
 
 
 
-* [Hinzufügen von gewünschten Feldern [!DNL Workfront] zum Tracking](#add-fields-you-want-workfront-to-track)
+* [Felder hinzufügen, die Sie möchten [!DNL Workfront] zum Tracking](#add-fields-you-want-workfront-to-track)
 * [Felder entfernen, die nicht verfolgt werden sollen](#remove-fields-that-you-don-t-want-tracked)
 
-### Hinzufügen von gewünschten Feldern [!DNL Workfront] zum Tracking {#add-fields-you-want-workfront-to-track}
+### Felder hinzufügen, die Sie möchten [!DNL Workfront] zum Tracking {#add-fields-you-want-workfront-to-track}
 
 Sie können die gewünschten Felder hinzufügen [!DNL Workfront] zur Verfolgung eines bestimmten Objekttyps im gesamten [!DNL Workfront] -Schnittstelle. Wenn Benutzer Informationen in diesem Feld ändern, [!DNL Workfront] erfasst Informationen über die Änderung als Systemaktualisierung im [!UICONTROL Updates] -Bereich für das Objekt.
 

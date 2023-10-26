@@ -7,23 +7,32 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
+source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '885'
 ht-degree: 3%
 
 ---
 
 # Neues Kommentierungserlebnis
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>\
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
-Eine Aktualisierung der Kommentierungserfahrung in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update umfasst eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Updates von ausgewählten Objekten.
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die während der Beta-Phase für das neue Kommentarerlebnis veröffentlicht wurden.
+>
+>Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023.
+>
+>Die während der Beta-Phase veröffentlichten Funktionen wurden allen Kunden ab der Version vom vierten Quartal 2023 (Oktober 2023) zur Verfügung gestellt und das Betaprogramm wurde eingestellt.
 
-Das neue Kommentierungserlebnis steht langsam für alle Objekte mit dem Abschnitt Updates in Workfront zur Verfügung und wird später auch für andere Adobe Experience Cloud-Anwendungen verfügbar sein.
+<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
+
+The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
 
 <!--For additional resources for the new commenting experience, also see the following articles:
 
@@ -33,7 +42,7 @@ Das neue Kommentierungserlebnis steht langsam für alle Objekte mit dem Abschnit
 
 ## Funktionen
 
-Das neue Kommentierungserlebnis umfasst Verbesserungen und Änderungen am vorhandenen Aktualisierungsstream.
+Das neue Kommentierungserlebnis umfasst Verbesserungen und Änderungen am Abschnitt &quot;Aktualisierungen&quot;von Adobe Workfront-Objekten.
 
 Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 
@@ -60,6 +69,8 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 >* Projekte
 >* Aufgaben
 >* Dokumente
+
+Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu neuen Kommentaren](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
 
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
 
@@ -409,6 +420,21 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   </tr>
 
 <tr>
+   <td>Verschieben von Bildern in einen Kommentar
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1. Quartal 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
+<tr>
    <td>Benutzerdefiniertes Formular bearbeiten 
    </td>
    <td>✓ 
@@ -470,54 +496,34 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
 
 Informationen zu den kürzlich für das neue Kommentierungserlebnis veröffentlichten Funktionen sowie eine Veröffentlichungszeitleiste finden Sie unter [Neue Kommentar-Erlebnis-Release-Aktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
+Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 ## Neues Kommentierungserlebnis suchen
 
-Die neuen Kommentarumgebungen sind derzeit für die folgenden Objekte und in den folgenden Umgebungen verfügbar:
+&lt;!—WICHTIG: Wenn wir das veraltete Erlebnis loswerden, verschieben Sie eine Version davon in den Arbeitsartikel Aktualisieren oder die Übersicht des Aktualisierungsabschnitts - um zu sagen, dass das Erlebnis für alle außer für Iterationen unterschiedlich ist—>
 
-* In der Produktionsumgebung für alle Kunden:
+Die neue Kommentarfunktion ist derzeit für alle Kunden und für alle Umgebungen verfügbar.
 
-   * Beim Aktivieren des Beta-Erlebnisses im Abschnitt &quot;Aktualisierungen&quot;für
+Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, sehen Sie möglicherweise die folgende Funktion für den Abschnitt Aktualisierungen :
 
-      * Probleme, Projekte, Aufgaben und Dokumente
+* Sowohl das neue als auch das alte Kommentierungserlebnis für die folgenden Objekte:
 
-     Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * Projekt
+      * Aufgabe (einschließlich Meldungen)
+      * Problem
+      * Dokument
+      
+      >[!TIP]
+      >
+      >Verwenden Sie die Option Neue Kommentare , um das neue Kommentarerlebnis (wenn Sie es aktivieren) oder das veraltete Kommentarerlebnis (wenn Sie es deaktivieren) anzuzeigen, wie in diesem Abschnitt beschrieben. Die neue Kommentarfunktion ist die Standardeinstellung.
+  
+   * Nur das neue Kommentarerlebnis für die unten aufgeführten Objekte. Es gibt keine Option, das veraltete Kommentierungserlebnis für diese Objekte zu aktivieren:
 
-   * Standardmäßig als einziges Kommentarerlebnis für
-
-      * Ziele, Karten auf Pinnwänden
+      * Ziel
 
      >[!NOTE]
      >
      >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-* <span class="preview"> In der Vorschau-Umgebung für alle Kunden </span>
-
-  <span class="preview">
-
-   * Standardmäßig, wenn Sie das Erlebnis für neue Kommentare im Abschnitt Updates für die folgenden Objekte aktivieren:
-
-      * Projekt
-      * Aufgabe
-      * Problem
-      * Dokument
-
-     >[!TIP]
-     >
-     >Die Option Neues Kommentierungserlebnis ist für diese Objekte standardmäßig aktiviert. Sie können die Auswahl des Umschalters Neue Kommentare aufheben, um das veraltete Kommentierungserlebnis anzuzeigen.
-
-     Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-  </span>
-
-  <span class="preview">
-
-   * Standardmäßig als einziges Kommentarerlebnis für die folgenden Objekte:
-
-      * Ziel
-
-        >[!NOTE]
-        >
-        >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
       * Karte auf einer Pinnwand
       * Team
       * Vorlage
@@ -527,11 +533,12 @@ Die neuen Kommentarumgebungen sind derzeit für die folgenden Objekte und in den
       * Portfolio
       * Benutzerin oder Benutzer
 
-     >[!TIP]
-     >
-     >Es gibt keine Option, das neue Kommentarerlebnis für Iterationen zu aktivieren. Für Iterationen ist nur das veraltete Kommentierungserlebnis verfügbar.
+* Nur das veraltete Kommentierungserlebnis für die folgenden Objekte:
 
-  </span>
+   * Wiederholungen
+
+     Es gibt keine Option, das neue Kommentarerlebnis für Iterationen zu aktivieren. Für Iterationen ist nur das veraltete Kommentierungserlebnis verfügbar.
+
 
 <!--before August 17: 
 
@@ -554,35 +561,24 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-Je nach Umgebung, in der Sie auf das Kommentarerlebnis zugreifen, haben Sie folgende Möglichkeiten:
+<!--Depending on the environment you access the commenting experience you can do one of the following: 
 
-* Aktivieren des Kommentierungserlebnisses Beta in der Produktionsumgebung
-* <span class="preview">Erlebnis für veraltete Kommentierungen in der Vorschau-Umgebung aktivieren </span>
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
+-->
 
-So aktivieren Sie das Kommentierungserlebnis Beta in der Produktionsumgebung:
+So aktivieren Sie die Kommentarerlebnis-Option für Projekte, Aufgaben, Probleme und Dokumente:
 
 1. Markieren Sie ein Objekt, für das Sie das neue Kommentierungserlebnis aktivieren möchten, und klicken Sie auf **Updates** im linken Bereich.
-1. Klicken Sie auf **Kommentieren von Beta** Aktivieren Sie sie in der oberen rechten Ecke des Bereichs Updates .
-1. Klicks **Zustimmen** in das Feld &quot;Beta-Vereinbarung&quot;ein. Dadurch wird das neue Kommentarerlebnis für das ausgewählte Objekt aktiviert.
-1. Beginnen Sie mit der Eingabe eines Updates in die **Kommentare** Registerkarte. Die Registerkarte Kommentare sollte beim Öffnen des neuen Erlebnisses die Standardregisterkarte sein
+1. (Bedingt) Wenn sie deaktiviert ist, aktivieren Sie die **Neue Kommentare** in der oberen rechten Ecke des Bereichs Updates , um sie zu aktivieren. Dies sollte standardmäßig aktiviert sein.
+
+   ![](assets/new-commenting-toggle-off-highlighted.png)
+
+1. Beginnen Sie mit der Eingabe eines Updates in die **Kommentare** Registerkarte. Die Registerkarte Kommentare ist die Standardregisterkarte beim Öffnen des neuen Erlebnisses.
 
    Oder
 
    Klicken Sie auf  **Systemaktivität** um die von Workfront erzeugten Aktivitätsaktualisierungen anzuzeigen.
 
-<span class="preview">
+1. (Optional) Um das neue Kommentarerlebnis zu deaktivieren und zur alten Kommentarfunktion zurückzukehren, deaktivieren Sie die Option **Neue Kommentare** -Option.
 
-So deaktivieren Sie das neue Kommentarerlebnis und zeigen das veraltete Erlebnis in der Vorschau-Umgebung an:
-
-1. Wechseln Sie zu einem Projekt, einer Aufgabe, einem Problem oder einem Dokument und klicken Sie auf **Updates** im linken Bereich.
-1. Klicken Sie auf **Neue Kommentare** Schalten Sie in der oberen rechten Ecke des Bereichs Updates um, um den Umschalter zu deaktivieren und das neue Erlebnis zu deaktivieren.
-
-Dadurch wird der Bereich Updates in den alten Kommentar-Stream geändert.
-
-1. Beginnen Sie mit der Eingabe eines Updates in die **Kommentare** Registerkarte. Die Registerkarte Kommentare sollte beim Öffnen des neuen Erlebnisses die Standardregisterkarte sein
-
-   Oder
-
-   Klicken Sie auf  **Systemaktivität** um die von Workfront erzeugten Aktivitätsaktualisierungen anzuzeigen.
-
-</span>
