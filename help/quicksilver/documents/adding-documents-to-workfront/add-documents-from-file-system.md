@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
-description: Sie können in den folgenden Bereichen in Adobe Workfront - EDIT ME - Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen.
+description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
 
-{{preview-and-fast-release}}
-
 Sie können in den folgenden Bereichen in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen:
 
 * Der Bereich &quot;Globale Dokumente&quot;
 * Der Dokumentbereich für ein Workfront-Objekt
-* <span class="preview">Eine verbundene Karte auf einer Workfront-Pinnwand</span>
+* Eine verbundene Karte auf einer Workfront-Pinnwand
 
 Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Drittanbieter-Cloud-Anbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Weitere Informationen zum Hinzufügen neuer Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Drittanbieter-Cloud-Anbietern finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

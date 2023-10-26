@@ -5,7 +5,7 @@ title: Verwalten von Unteraufgaben auf Pinnwänden
 description: Durch die Verwendung von Unteraufgaben auf Karten können Sie eine über- und untergeordnete Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen.
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Verwalten von Unteraufgaben auf Pinnwänden
-
-{{highlighted-preview-article-level}}
 
 Durch die Verwendung von Unteraufgaben auf Karten können Sie eine über- und untergeordnete Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen. Eine Unteraufgabe, die Sie einer Karte auf einer Workfront-Pinnwand hinzufügen, wird der Aufgabe im Workfront-Projekt ebenfalls hinzugefügt. Weitere Informationen zu Unteraufgaben und Aufgaben auf Projektebene finden Sie unter [Erstellen von Unteraufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

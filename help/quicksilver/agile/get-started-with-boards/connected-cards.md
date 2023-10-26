@@ -6,7 +6,7 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
-
-{{preview-and-fast-release}}
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -27,8 +25,8 @@ Wenn eine der folgenden Details für die Karte an einem Ort aktualisiert wird, w
 * [!UICONTROL Status]
 * [!UICONTROL Geplantes Abschlussdatum]
 * [!UICONTROL Schätzung] / [!UICONTROL Story Points]
-* <span class="preview">[!UICONTROL Teilaufgaben]</span>
-* <span class="preview">[!UICONTROL Dokumente]</span>
+* [!UICONTROL Teilaufgaben]
+* [!UICONTROL Dokumente]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Unteraufgabe]</strong></span></td>
-      <td><span class="preview"><p>Alle vorhandenen Unteraufgaben für die Aufgabe werden in diesem Abschnitt angezeigt. Klicks <strong>[!UICONTROL Unteraufgabe hinzufügen]</strong> , um eine neue Unteraufgabe hinzuzufügen.</p>
+      <td role="rowheader"><strong>[!UICONTROL Unteraufgabe]</strong></td>
+      <td><p>Alle vorhandenen Unteraufgaben für die Aufgabe werden in diesem Abschnitt angezeigt. Klicks <strong>[!UICONTROL Unteraufgabe hinzufügen]</strong> , um eine neue Unteraufgabe hinzuzufügen.</p>
       <p>Der Zähler oben im Abschnitt zeigt die Anzahl der abgeschlossenen Unteraufgaben und die Gesamtzahl der Unteraufgaben an.</p>
-      <p>Weitere Informationen zu Unteraufgaben finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Verwalten von Unteraufgaben auf Pinnwänden</a>.</p></span></td>
+      <p>Weitere Informationen zu Unteraufgaben finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Verwalten von Unteraufgaben auf Pinnwänden</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checkliste]</strong></td>
@@ -148,8 +146,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Dokumente]</strong></span></td>
-      <td><span class="preview">Bewegen Sie bei einem vorhandenen Dokument den Mauszeiger über die Dokumentminiaturansicht und klicken Sie auf <strong>Vorschau</strong> , um die Datei im Browser anzuzeigen, oder <strong>Herunterladen</strong> , um die Datei auf Ihren Computer herunterzuladen. Ein neues Dokument finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Hinzufügen von Dokumenten zu Karten</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Dokumente]</strong></td>
+      <td>Bewegen Sie bei einem vorhandenen Dokument den Mauszeiger über die Dokumentminiaturansicht und klicken Sie auf <strong>Vorschau</strong> , um die Datei im Browser anzuzeigen, oder <strong>Herunterladen</strong> , um die Datei auf Ihren Computer herunterzuladen. Ein neues Dokument finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Hinzufügen von Dokumenten zu Karten</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

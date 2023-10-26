@@ -6,7 +6,7 @@ description: Erforderliche Pläne, Lizenztypen und Zugriffe auf das Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
+source-git-commit: 2137d792485324386b33e75af91ab09415b48390
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Projekt in der Agile-Ansicht verwalten
 
-{{preview-and-fast-release}}
+{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -133,7 +133,7 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 Beim Anzeigen eines Projekts in einer agilen Ansicht werden die folgenden agilen Komponenten nicht verwendet:
 
 * **Rückprotokoll:** Es wird kein Rückstau verwendet, da Aufgaben im Projekt automatisch als Meldungen angezeigt werden.
-* **Iterationen:** Statt Iterationen zu erstellen, um die Daten zu definieren, zu denen die Arbeit abgeschlossen sein wird, werden die derzeit in der Projekt-Timeline festgelegten Tage zu Arbeitstagen.
+* **Iterationen:** Statt Iterationen zu erstellen, um die Daten zu definieren, zu denen die Arbeit abgeschlossen sein wird, werden die aktuell in der Projekt-Timeline festgelegten Tage zu Arbeitstagen.
 
 #### Die Aufgabenreihenfolge wird in der Agile-Ansicht beibehalten und kann nicht neu angeordnet werden {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 

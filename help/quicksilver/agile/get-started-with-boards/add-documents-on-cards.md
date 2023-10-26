@@ -6,7 +6,7 @@ description: Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundene
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Hinzufügen von Dokumenten zu Karten
-
-{{article-preview-and-fast-release}}
 
 Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinzufügen. Alle Dokumente, die Sie auf der Karte hinzufügen, stehen auf der Registerkarte Dokumente der verbundenen Aufgabe oder Ausgabe zur Verfügung und Dokumente, die zur Aufgabe oder zum Problem hinzugefügt wurden, sind auf der Karte sichtbar. In beiden Bereichen werden dieselben Dateitypen unterstützt. Weitere Informationen zu Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
