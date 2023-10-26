@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # Formular mit dem Formularentwickler erstellen
-
-{{preview-and-fast-release}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -498,8 +496,6 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
 
    Klicks **Speichern und schließen**.
 
-<div class="preview">
-
 ### Externe Suchfelder hinzufügen
 
 Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
@@ -590,8 +586,6 @@ So fügen Sie eine externe Suche hinzu:
 >* Wartezeit zwischen Wiederholungen: 500 ms
 >* Erwartete Antwortstatus: 2xx
 >* Benutzer können den ausgewählten Wert in Workfront-Listen und -Berichten sehen (und ihn bearbeiten), sehen aber keine Dropdown-Liste mit Optionen aus der externen API.
-
-</div>
 
 ### Bilder, PDF und Videos hinzufügen
 
