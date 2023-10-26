@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '13358'
+source-wordcount: '13366'
 ht-degree: 1%
 
 ---
@@ -381,6 +381,7 @@ ht-degree: 1%
          * [Häufig gestellte Fragen zu neuen Kommentaren](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
       * Alpha der Integration von Workfront und Frame.io {#frame-io-wf-integration-alpha}
          * [Alpha-Integration von Adobe Workfront und Frame.io - Überblick](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+         * [Alpha: Funktionen der nativen Integration von Adobe Workfront und Frame.io](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration und Einrichtung {#administration-and-setup}
    * [Administration und Einrichtung](administration-and-setup/administration-and-setup.md)
    * Erste Schritte mit Administration {#get-started-administration}
