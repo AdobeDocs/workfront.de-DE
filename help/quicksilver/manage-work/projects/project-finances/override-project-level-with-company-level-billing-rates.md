@@ -6,16 +6,14 @@ description: Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnung
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnungsraten auf Unternehmensebene
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -59,14 +57,14 @@ Wenn ein Unternehmen mit einem Projekt verknüpft ist und diese Option aktiviert
 Wenn ein Benutzer die Projektfinanzierung manuell neu berechnet, werden alle Änderungen an den Abrechnungsraten auf Unternehmensebene angewendet. Historische Umsatzberechnungen werden ebenfalls überschrieben, es sei denn, sie sind als abgerechnet gekennzeichnet.
 
 1. Wechseln Sie zu einem Projekt.
-1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen des Projekts in der Kopfzeile und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen des Projekts in der Kopfzeile klicken Sie auf **Bearbeiten**.
 1. Im **Finanzen** aktivieren Sie die **Erlauben Sie, dass die Abrechnungsraten auf Unternehmensebene die Abrechnungsraten auf Projektebene außer Kraft setzen.**.
 
    >[!CAUTION]
    >
-   >Wenn Sie diese Option aktivieren, werden historische Umsatzberechnungen überschrieben, es sei denn, sie sind als abgerechnet gekennzeichnet. Sie können die historischen Umsatzberechnungen beibehalten, indem Sie einen Rechnungsdatensatz erstellen. Weitere Informationen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >Wenn Sie diese Option aktivieren, werden historische Umsatzberechnungen überschrieben, es sei denn, sie sind als abgerechnet gekennzeichnet. Sie können die historischen Umsatzberechnungen beibehalten, indem Sie einen Rechnungsdatensatz erstellen. Weitere Informationen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
 
 ## Aktualisierung der Abrechnungsraten auf Unternehmensebene und Anwendung auf ein Projekt
 
@@ -77,20 +75,12 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungsraten auf Unternehme
 >Benutzer müssen auf der Zugriffsebene auf Unternehmen Zugriff haben, um die Abrechnungsraten auf Unternehmensebene zu aktualisieren.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung**.
-1. Klicken **Unternehmen**.
+1. Klicks **Unternehmen**.
 1. Klicken Sie auf den Namen des Unternehmens, das mit dem Projekt verknüpft ist, für das Sie die Außerkraftsetzung der Abrechnungsraten auf Unternehmensebene aktiviert haben.
-1. Klicken **Abrechnungssätze** im linken Bereich.
-1. Geben Sie in der Produktionsumgebung die neue Abrechnungsrate für eine vorhandene Stellenrolle in der **Abrechnungsrate des Unternehmens** und drücken Sie die Eingabetaste.
+1. Klicks **Abrechnungssätze** im linken Bereich.
+1. Aktualisieren Sie die **Abrechnungsrate des Unternehmens** und Start-/Enddaten für eine vorhandene Auftragsrolle eingeben und die Eingabetaste drücken.
 
-   Oder
-
-   <div class="preview">
-
-   Aktualisieren Sie in der Vorschau -Umgebung die **Abrechnungsrate des Unternehmens** und Start-/Enddaten für eine vorhandene Auftragsrolle eingeben und die Eingabetaste drücken.
-
-   Um einen neuen Datum für die effektive Abrechnungsrate des Unternehmens hinzuzufügen, wählen Sie einen Abrechnungskurs für die Auftragrolle aus und klicken Sie auf Bearbeiten. Weitere Informationen zu den datumswirksamen Abrechnungskursen für Unternehmen finden Sie unter [Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Um einen neuen Datums- und effektiven Abrechnungskurs für das Unternehmen hinzuzufügen, wählen Sie einen Abrechnungskurs für die Auftragrolle aus und klicken Sie auf **Bearbeiten**. Weitere Informationen zu den datumswirksamen Abrechnungskursen für Unternehmen finden Sie unter [Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Führen Sie einen der folgenden Schritte aus, um die Unternehmenspreise für ein oder mehrere Projekte zu aktualisieren:
 
@@ -98,9 +88,9 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungsraten auf Unternehme
 
    1. Gehen Sie zu einer Projektliste.
    1. Aktivieren Sie das Kontrollkästchen entsprechend den zu aktualisierenden Projekten.
-   1. Klicken **Bearbeiten**.
+   1. Klicks **Bearbeiten**.
    1. Aktivieren Sie im Abschnitt Einstellungen die Option **Neuberechnung von Kosten und Einnahmen** -Option.
-   1. Klicken **Änderungen speichern**.
+   1. Klicks **Änderungen speichern**.
 
    * Einzelprojekt:
 

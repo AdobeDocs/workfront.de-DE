@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Unternehmen
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -48,7 +46,7 @@ Sie müssen über Folgendes verfügen, um Unternehmen in [!DNL Workfront]:
     </ul> <p><b>NOTIZ</b>:  
      <ul> 
       <li> <p>Sie können auch Unternehmen verwalten, die mit einer beliebigen Gruppe verbunden sind, der Sie als Gruppenadministrator zugewiesen sind.</p> </li> 
-      <li> <p>Um Benutzer zum [!DNL Workfront] -System verwenden, müssen Sie über einen der folgenden Schritte verfügen:</p> 
+      <li> <p>Um Benutzer zum hinzuzufügen und aus dem [!DNL Workfront] -System verwenden, müssen Sie über einen der folgenden Schritte verfügen:</p> 
        <ul> 
         <li> <p>Die Zugriffsstufe des [!UICONTROL Systemadministrators]. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> </li> 
         <li> <p>In Ihrer Zugriffsebene muss [!UICONTROL Bearbeiten] für die Einstellung [!UICONTROL Benutzer] ausgewählt sein. Außerdem können Sie für die Einstellung [!UICONTROL Benutzer] unter [!UICONTROL Feinabstimmung Ihrer Einstellungen] <img src="assets/gear-icon-in-access-levels.png"> , müssen die Option [!UICONTROL Erstellen] und mindestens eine der beiden [!UICONTROL User Admin]-Optionen aktiviert sein. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Wenn Sie die Option [!UICONTROL Benutzeradministrator (Gruppenbenutzer)] verwenden, müssen Sie Gruppenadministrator einer Gruppe sein, der der Benutzer angehört.</p> </li> 
@@ -68,7 +66,7 @@ Sie müssen über Folgendes verfügen, um Unternehmen in [!DNL Workfront]:
 
    * Benutzer desselben Unternehmens können die Anforderungen der anderen Benutzer sehen.
 
-     Weitere Informationen zum [!DNL Workfront] -Administrator kann ähnlichen Zugriff auf Anforderungen auf Grundlage des Unternehmens der Benutzer gewähren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme in [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     Weitere Informationen zum [!DNL Workfront] -Administrator kann ähnlichen Zugriff auf Anforderungen auf Grundlage des Unternehmens der Benutzer gewähren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme für alle Benutzer in [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
      Weitere Informationen dazu, wie ein Gruppenadministrator ähnlichen Zugriff auf Anforderungen je nach Unternehmen der Benutzer gewähren kann, finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
@@ -86,7 +84,7 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL Unternehmen]**.
+1. Klicks **[!UICONTROL Unternehmen]**.
 1. Wenn Sie ein Unternehmen hinzufügen, klicken Sie auf **[!UICONTROL Neue Firma]**.
 
    Oder
@@ -105,15 +103,11 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
        <ul> 
         <li> <p><b>[!UICONTROL Firmenname]</b>: Geben Sie einen Namen für das Unternehmen ein.</p> </li> 
         <li> <p><b>[!UICONTROL ist aktiv]</b>: Wenn diese Option aktiviert ist, können Benutzer das Unternehmen suchen und es an Projekte anhängen, die sie erstellen und bearbeiten. Ein inaktives Unternehmen kann nicht an Projekte angehängt werden. Diese Option ist standardmäßig aktiviert.</p> </li> 
-        <li> <p><b>[!UICONTROL Dies ist das Primäre Unternehmen]</b>: Weist das Unternehmen als Hauptunternehmen Ihrer Organisation zu. Das primäre Unternehmen repräsentiert normalerweise Ihre [!DNL Workfront] -Konto, in dem die meisten Ihrer Benutzer arbeiten.</p> <p>Sie können ein Unternehmen oder kein Unternehmen als Hauptunternehmen festlegen, aber Sie können nicht mehrere Unternehmen als Primärunternehmen bestimmen lassen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> <p><b>NOTE</b>: Durch Ändern der Zugriffsebene können Sie Benutzer auf andere Benutzer beschränken: nur in ihrer Hauptfirma oder in ihrem verbundenen Unternehmen und dem Primärunternehmen. Informationen dazu, wie das primäre Unternehmen mit den Zugriffsebenen der Benutzer arbeitet, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </li> 
-        <li> <p><b>[!UICONTROL Group]</b>: Wenn es eine Gruppe gibt, die Geschäfte mit dem Unternehmen führt, können Sie hier den Namen der Gruppe hinzufügen. Dies ist nützlich für Gruppenadministratoren, die über alle Unternehmen berichten und diese verwalten müssen, mit denen ihre Gruppen Geschäfte tätigen.</p> <p><b>WICHTIG</b>: Wenn Sie die Gruppe, die mit diesem Unternehmen zusammenarbeiten soll, nicht zuordnen, können Administratoren der Gruppe nur dann auf die Unternehmenszugriffsebene zugreifen, wenn sie über Administratorzugriff verfügen. Informationen dazu, wie dieser Zugriff gewährt wird, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Geben Sie den Gruppennamen ein und drücken Sie dann die Eingabetaste <strong>[!UICONTROL Eingabe]</strong> angezeigt.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Wenn Sie einer Firma eine Gruppe zuweisen, erhalten die Gruppenadministratoren für die Gruppe [!UICONTROL Manager] Zugriff auf das Unternehmen. Weitere Informationen finden Sie unter <a href="#group-administrators-and-companies" class="MCXref xref">Gruppenadministratoren und Unternehmen</a> in diesem Artikel.</p> </li> 
+        <li> <p><b>[!UICONTROL Dies ist das Primäre Unternehmen]</b>: Weist das Unternehmen als Hauptunternehmen Ihres Unternehmens zu. Das primäre Unternehmen repräsentiert normalerweise Ihre [!DNL Workfront] -Konto, in dem die meisten Ihrer Benutzer arbeiten.</p> <p>Sie können ein Unternehmen oder kein Unternehmen als Hauptunternehmen festlegen, aber Sie können nicht mehrere Unternehmen als Primärunternehmen bestimmen lassen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> <p><b>NOTE</b>: Durch Änderung der Zugriffsebene können Sie Benutzer so einschränken, dass sie andere Benutzer sehen: nur in ihrem primären Unternehmen oder in ihrem verbundenen Unternehmen und dem primären Unternehmen. Informationen dazu, wie das primäre Unternehmen mit den Zugriffsebenen der Benutzer arbeitet, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </li> 
+        <li> <p><b>[!UICONTROL Group]</b>: Wenn es eine Gruppe gibt, die mit dem Unternehmen Geschäfte tätigt, können Sie hier den Namen der Gruppe hinzufügen. Dies ist nützlich für Gruppenadministratoren, die über alle Unternehmen berichten und diese verwalten müssen, mit denen ihre Gruppen Geschäfte tätigen.</p> <p><b>WICHTIG</b>: Wenn Sie die Gruppe, die mit diesem Unternehmen zusammenarbeitet, nicht zuordnen, können Administratoren der Gruppe nur dann auf die Unternehmenszugriffsebene zugreifen, wenn sie über Administratorzugriff auf Unternehmen verfügen. Informationen dazu, wie dieser Zugriff gewährt wird, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Geben Sie den Gruppennamen ein und drücken Sie dann die Eingabetaste <strong>[!UICONTROL Eingabe]</strong> angezeigt.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Wenn Sie einer Firma eine Gruppe zuweisen, erhalten die Gruppenadministratoren für die Gruppe [!UICONTROL Manager] Zugriff auf das Unternehmen. Weitere Informationen finden Sie unter <a href="#group-administrators-and-companies" class="MCXref xref">Gruppenadministratoren und Unternehmen</a> in diesem Artikel.</p> </li> 
         <li> <p><b>[!UICONTROL Firmenmitglieder]</b>: Fügen Sie dem Unternehmen vorhandene Benutzer hinzu. Dadurch verknüpfen Sie diese Benutzer mit diesem Unternehmen.</p> <p>Es gibt keine Beschränkung dafür, wie viele Benutzer Sie mit einem Unternehmen verknüpfen, aber ein Benutzer kann nicht mit mehr als einem Unternehmen verknüpft werden.</p> </li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Abrechnungsraten] Abschnitt</td> 
-      <td> <p><span class="preview">Dieser Abschnitt wurde in der Vorschau -Umgebung entfernt.</span></p><p>Sie können die mit Ihren Auftragsrollen auf Unternehmensebene verbundenen Abrechnungsraten überschreiben. Informationen zum Erstellen von Auftrags-Rollen und deren Zuordnung zu Abrechnungsraten finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Vorgangsrollen</a>.</p> <p>Weitere Informationen über das Außerkraftsetzen der Abrechnungssätze auf Unternehmensebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Abschnitt "Benutzerdefinierter Forms"</td> 
       <td> <p>Wenn es Felder gibt, die Sie Ihrem Unternehmen hinzufügen möchten, die in nicht verfügbar sind. [!DNL Workfront]können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Dropdown-Menü werden nur aktive Unternehmen aufgeführt. Informationen zum Erstellen von benutzerdefinierten Forms finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>. </p> </td> 
@@ -139,7 +133,7 @@ Informationen zum Außerkraftsetzen der Abrechnungssätze auf Unternehmensebene 
 
 Bestimmte Berechtigungen stehen Benutzern zur Verfügung, die mit einem Unternehmen verbunden sind, wie im Abschnitt beschrieben [Vorteile beim Hinzufügen von Benutzern zu einem Unternehmen](#benefits-of-adding-users-to-a-company). Zusätzlich zu diesen Berechtigungen können Sie Benutzern Berechtigungen erteilen, Objekte in der [!DNL Workfront] , indem Sie das Objekt für das Unternehmen freigeben.
 
-Anstatt ein Objekt für einen einzelnen Benutzer freizugeben, können Sie es für das gesamte Unternehmen freigeben. Jeder Benutzer im Unternehmen hat dieselben Berechtigungen für dieses Objekt.
+Anstatt ein Objekt für einen einzelnen Benutzer freizugeben, können Sie es für das gesamte Unternehmen freigeben. Jeder Benutzer im Unternehmen verfügt über die gleichen Berechtigungen für dieses Objekt.
 
 Weitere Informationen zum Freigeben von Objekten finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -147,7 +141,7 @@ Weitere Informationen zum Freigeben von Objekten finden Sie unter [Übersicht ü
 
 Wenn eine [!DNL Workfront] Administrator weist einem Unternehmen eine Gruppe zu, die Gruppenadministratoren für die Gruppe gewinnen [!UICONTROL Verwalten] Zugang zum Unternehmen in [!UICONTROL Einrichtung]. Dazu gehört auch der Zugriff auf die [!UICONTROL Unternehmen] Seite in [!UICONTROL Einrichtung], wo sie das mit ihrer Gruppe verbundene Unternehmen sehen und verwalten können.
 
-Mit diesem Zugriff auf [!UICONTROL Unternehmen] -Seite kann ein Gruppenadministrator einem Unternehmen eine Gruppe zuweisen, es muss sich jedoch um ein Unternehmen handeln, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit Administratorzugriff auf Unternehmen konfiguriert ist, wird die [!UICONTROL Gruppe] -Feld ist erforderlich, wenn der Gruppenadministrator das Unternehmen erstellt. Der fette Titel gibt Folgendes an:
+Mit diesem Zugriff auf [!UICONTROL Unternehmen] -Seite kann ein Gruppenadministrator einem Unternehmen eine Gruppe zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit Administratorzugriff auf Unternehmen konfiguriert ist, wird die [!UICONTROL Gruppe] -Feld ist erforderlich, wenn der Gruppenadministrator das Unternehmen erstellt. Der fette Titel gibt Folgendes an:
 
 ![](assets/manage-company-group-field-req.jpg)
 

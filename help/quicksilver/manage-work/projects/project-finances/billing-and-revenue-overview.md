@@ -7,9 +7,9 @@ description: Als Projektmanager können Sie die Abrechnungssätze verwenden, um 
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Beachten Sie beim Arbeiten mit Abrechnungsraten Folgendes:
 * Sie benötigen eine Planungslizenz mit Zugriff auf Finanzdaten bearbeiten , um die Abrechnungsraten zu verwalten.\
   Weitere Informationen zur Gewährung des Zugriffs auf Finanzdaten finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Die Abrechnungsraten sind die Beträge des Umsatzes pro Arbeitseinheit, die mit den Rollen oder Benutzern in einem Beschäftigungsverhältnis stehen.
+* Die Abrechnungsraten sind Beträge des Umsatzes pro Arbeitseinheit, die mit den Rollen oder Benutzern in einem Beschäftigungsverhältnis stehen.
 
   Das Multiplizieren der Raten mit den Arbeitsstunden generiert Umsatz für Ihre Projekte.
 
@@ -39,7 +39,7 @@ Beachten Sie beim Arbeiten mit Abrechnungsraten Folgendes:
   >
   >Wenn Sie einen Abrechnungsdatensatz als &quot;Abgerechnet&quot;markieren, kann er nie bearbeitet werden. Dies ist wichtig, wenn Ihre Tarife variieren und Sie die Umsatz- und Ausgabedaten in Ihrem Projekt speichern möchten. Wenn Sie ihn zu einem Rechnungsdatensatz hinzufügen und ihn als &quot;Abgerechnet&quot;markieren, wird verhindert, dass er aktualisiert wird, wenn die Preise in Ihrem System aktualisiert werden.
 
-  Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+  Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 * Sie können Abrechnungssätze für Benutzer und Rollen erstellen oder eine einmalige Abrechnungsrate für ein Projekt oder eine Aufgabe festlegen.
 
@@ -54,44 +54,28 @@ Beachten Sie beim Arbeiten mit Abrechnungsraten Folgendes:
 
 ### Benutzerabrechnungssätze {#user-billing-rates}
 
-Als Benutzeradministrator können Sie bei der Erstellung eines Benutzers diesen eine Abrechnungsrate zuweisen, indem Sie in seinem Profil einen Wert für das Feld &quot;Abrechnung pro Stunde&quot;angeben.
+Als Benutzeradministrator können Sie bei der Erstellung eines Benutzers diesen die effektiven Abrechnungsraten des Datums zuordnen, indem Sie Werte für die Felder &quot;Abrechnung pro Stunde&quot;und die Daten für die Tarife angeben.
 
 Weitere Informationen zum Erstellen von Benutzern finden Sie im Artikel [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-![](assets/qs-user-edit-ui-with-rp-and-billing-per-hour-field-1-350x152.png)
-
-<div class="preview">
-
-In der Vorschau -Umgebung können Sie den Benutzer mit dem Datum der effektiven Rechnungsraten verknüpfen, indem Sie Werte für die Felder &quot;Rechnungsstellung pro Stunde&quot;und die Daten für die Tarife angeben.
-
 ![Bearbeiten von Benutzerkosten und Abrechnungssätzen](assets/edit-user-cost-billing-rate-1.png)
-
-</div>
 
 ### Abrechnungssätze für Auftragsrollen {#job-role-billing-rates}
 
-Als Adobe Workfront-Administrator können Sie bei der Erstellung einer Stellenrolle diese mit einer Abrechnungsrate verknüpfen, indem Sie einen Wert für das Feld &quot;Abrechnung/Stunde&quot;angeben.
+Wenn Sie als Adobe Workfront-Administrator eine Stellenrolle erstellen, können Sie sie mit dem Datum der effektiven Abrechnungsraten verknüpfen, indem Sie Werte für die Felder &quot;Abrechnung pro Stunde&quot;und die Daten für die Tarife angeben.
 
 Sie können den Wert eines Rechnungskurses für Auftragsrollen mithilfe der Basiswährung Ihres Workfront-Systems oder mithilfe einer anderen benutzerdefinierten Währung definieren.
 
-Weitere Informationen zum Erstellen von Stellenrollen und zum Überschreiben ihrer Währung finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
-
-![](assets/billing-rate-for-role-1-350x294.png)
-
-<div class="preview">
-
-In der Vorschau -Umgebung können Sie die Auftragsrolle mit dem Datum der effektiven Abrechnungsraten verknüpfen, indem Sie Werte für die Felder &quot;Abrechnung pro Stunde&quot;und die Daten für die Tarife angeben.
+Weitere Informationen zum Erstellen von Stellenrollen und zum Überschreiben ihrer Währung finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ![Bearbeiten von Kosten und Abrechnungskursen für die Rolle im Auftrag](assets/edit-job-role-multiple-billing-rates.png)
-
-</div>
 
 ### Feste Abrechnungsraten für Projekte oder Aufgaben {#fixed-billing-rates-for-projects-or-tasks}
 
 Zusätzlich zu den Stundensätzen für Benutzer und Rolle können Sie auch die folgenden festen Abrechnungsraten erzielen:
 
 * Fester Betrag für den festen Umsatz pro Stunde
-* Fester Betrag für den Typ des festen Umsatzes
+* Fester Betrag für den Typ &quot;Fester Umsatz&quot;
 
 Weitere Informationen dazu, wie feste Abrechnungssätze zur Berechnung des Umsatzes verwendet werden, finden Sie unter [Übersicht über die Aufgaben Umsatztypen](#overview-of-task-revenue-types).
 
@@ -126,7 +110,7 @@ Die folgende Tabelle zeigt die Umsatztypen im Zusammenhang mit Aufgaben, Problem
   <tr> 
    <td role="rowheader">Geplante Einnahmen</td> 
    <td> <p>Bei Aufgaben ist dies der Umsatz, der mit den geplanten Stunden von Aufgaben verbunden ist. Die geplanten Stunden aus allen Aufgaben werden in die geplanten Stunden des Projekts einfließen, um zur Berechnung der geplanten Stunden des Projekts beizutragen. </p> <p>Weitere Informationen zu geplanten Stunden in Workfront finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über geplante Stunden</a>. </p> <p>Workfront berechnet den geplanten Umsatz für Aufgaben anhand dieser Formel:</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><span class="preview"><strong>NOTE</strong></br> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</span></p> <p>Workfront berechnet den geplanten Umsatz für Projekte anhand der folgenden Formel:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTE</strong></br> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p> <p>Workfront berechnet den geplanten Umsatz für Projekte anhand der folgenden Formel:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>NOTIZ</b>
 
 <p>Der geplante Umsatz des Projekts, der im Bereich "Projektdetails"und in den Projektberichten angezeigt wird, unterscheidet sich von dem geplanten Umsatz, der im Nutzungsbericht angezeigt wird. </p> <p>Der geplante Umsatz im Bereich "Projektdetails"spiegelt den mit der Aufgabe "Geplante Stunden"verbundenen Aufgabenumsatz sowie den festen Umsatz des Projekts wider. Der geplante Umsatz im Nutzungsbericht zeigt den geplanten Umsatz an, der nur mit den geplanten Stunden aus den Aufgabenzuweisungen für das Projekt verbunden ist. </p> 
@@ -140,14 +124,14 @@ Die folgende Tabelle zeigt die Umsatztypen im Zusammenhang mit Aufgaben, Problem
   </tr> 
   <tr> 
    <td role="rowheader">Tatsächliche Einnahmen*</td> 
-   <td> <p>In Verbindung mit den tatsächlichen Stunden von Aufgaben, Problemen und Projekten. </p> <p>Im Allgemeinen berechnet Workfront den tatsächlichen Umsatz anhand dieser Formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><span class="preview"><strong>NOTE</strong></br> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</span></p> <p>Informationen zu den tatsächlichen Umsatzberechnungen im Nutzungsbericht finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informationen zur Ressourcenauslastung anzeigen </a>. </p> <p><b>TIPP</b>
+   <td> <p>In Verbindung mit den tatsächlichen Stunden von Aufgaben, Problemen und Projekten. </p> <p>Im Allgemeinen berechnet Workfront den tatsächlichen Umsatz anhand dieser Formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>NOTE</strong></br> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p> <p>Informationen zu den tatsächlichen Umsatzberechnungen im Nutzungsbericht finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informationen zur Ressourcenauslastung anzeigen </a>. </p> <p><b>TIPP</b>
 
 Sie können den tatsächlichen Umsatz nicht auf der Ausgabenebene anzeigen, aber die mit den tatsächlichen Stunden verbundenen Umsätze bei den Problemen tragen zum tatsächlichen Umsatz des Projekts bei. </p> </td>
 </tr> 
  </tbody> 
 </table>
 
-*Bei tatsächlichen Stunden beziehen sich die Tarife des Benutzers immer auf den Benutzer, der die Stunden protokolliert, oder auf die Raten seiner Rollen. Informationen dazu, wann Workfront die Benutzerraten verwendet und wann es die Raten seiner Arbeitsplatzrollen verwendet, finden Sie unter [Umsatzberechnungen](#revenue-calculations) in diesem Artikel.
+*Bei tatsächlichen Stunden beziehen sich die Tarife des Benutzers immer auf den Benutzer, der die Stunden protokolliert, oder auf die Raten seiner Rollen. Informationen dazu, wann Workfront die Benutzerraten verwendet und wann es die Raten seiner Arbeitsplatzrollen verwendet, finden Sie unter [Umsatzberechnungen](#revenue-calculations) in diesem Artikel beschrieben.
 
 <!--Note from the table for Planned Revenue line: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
@@ -170,7 +154,7 @@ Sie können Ihre Aufgaben auch als &quot;Nicht abrechenbar&quot;markieren. In di
 ## Übersicht über die Aufgaben Umsatztypen {#overview-of-task-revenue-types}
 
 Standardmäßig wird der Umsatztyp aller neuen Aufgaben gemäß den Voreinstellungen für Aufgaben und Probleme festgelegt, die von Ihrem Workfront- oder Gruppenadministrator festgelegt wurden.\
-Weitere Informationen zum Definieren der Aufgaben- und Problemvoreinstellungen für Ihre Workfront-Instanz finden Sie im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Weitere Informationen zum Definieren der Aufgaben- und Problemeinstellungen für Ihre Workfront-Instanz finden Sie im Artikel [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Der Projekteigentümer kann den Umsatztyp von Aufgaben und den festen Umsatz für Projekte ändern.\
 Weitere Informationen zum Festlegen des festen Umsatzes für ein Projekt finden Sie im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).\
@@ -194,15 +178,15 @@ Sie können die folgenden Umsatztypen auf Ihre Aufgaben oder Projekte anwenden:
   </tr> 
   <tr> 
    <td> <p>Benutzer pro Stunde</p> </td> 
-   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden. </p> <p>Die Abrechnungsrate, die Sie für einen bestimmten Benutzer festgelegt haben, multipliziert mit der Anzahl der für diese Aufgabe geplanten Stunden, wird zum geplanten Umsatz der Aufgabe. Die Abrechnungsrate, die Sie für einen bestimmten Benutzer festlegen, multipliziert mit der Anzahl der Stunden, die der Benutzer für die Aufgabe anmeldet, ist der tatsächliche Umsatz der Aufgabe. <br>Wenn Sie beispielsweise einen Benutzer erstellen und für das Feld "Abrechnung pro Stunde"20 USD festlegen, dann beträgt der tatsächliche Abrechnungsbetrag der Aufgabe 100 USD, wenn der Benutzer 5 Stunden für eine Aufgabe auf dem Timesheet sendet.</p>
-   <p><span class="preview">Ein Benutzerprofil kann mehrere Abrechnungsraten mit effektiven Daten enthalten. Beispielsweise endet der erste Abrechnungskurs des Benutzers von 20 USD am 30. April 2023 und der zweite Abrechnungskurs des Benutzers von 25 USD am 1. Mai 2023. Wenn der Benutzer am 28. April 2 Stunden und am 2. Mai 3 Stunden für eine Aufgabe sendet, beträgt der tatsächliche Rechnungsbetrag der Aufgabe 40 USD + 75 USD = 115 USD.</span></p>
+   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden. </p> <p>Die Abrechnungsrate, die Sie für einen bestimmten Benutzer festgelegt haben, multipliziert mit der Anzahl der für diese Aufgabe geplanten Stunden, wird zum geplanten Umsatz der Aufgabe. Die Abrechnungsrate, die Sie für einen bestimmten Benutzer festlegen, multipliziert mit der Anzahl der Stunden, die der Benutzer für die Aufgabe anmeldet, ist der tatsächliche Umsatz der Aufgabe. <br>Wenn Sie z. B. einen Benutzer erstellen und für das Feld "Abrechnung pro Stunde"20 USD festlegen, dann beträgt der tatsächliche Abrechnungsbetrag der Aufgabe 100 USD, wenn der Benutzer 5 Stunden für eine Aufgabe auf dem Timesheet sendet.</p>
+   <p>Ein Benutzerprofil kann mehrere Abrechnungsraten mit effektiven Daten enthalten. Beispielsweise endet der erste Abrechnungskurs des Benutzers von 20 USD am 30. April 2023 und der zweite Abrechnungskurs des Benutzers von 25 USD am 1. Mai 2023. Wenn der Benutzer am 28. April 2 Stunden und am 2. Mai 3 Stunden für eine Aufgabe sendet, beträgt der tatsächliche Rechnungsbetrag der Aufgabe 40 USD + 75 USD = 115 USD.</p>
    <p><b>TIPP</b>
 
 Dies ist der standardmäßige Umsatztyp beim Erstellen einer Aufgabe.</p> </td>
 </tr> 
   <tr> 
    <td> <p>Stundensatz nach Funktion</p> </td> 
-   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Dieser Typ ähnelt dem Typ Benutzer stündlich , verwendet jedoch anstelle von Benutzerraten die Anzahl der Arbeitsplätze.</p> <p><span class="preview"><strong>NOTE</strong><br>Eine Stellenfunktion kann auch mehrere Abrechnungsraten mit effektiven Daten aufweisen.</span></p></td> 
+   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Dieser Typ ähnelt dem Typ Benutzer stündlich , verwendet jedoch anstelle von Benutzerraten die Anzahl der Arbeitsplätze.</p> <p><strong>NOTE</strong><br>Eine Stellenfunktion kann auch mehrere Abrechnungsraten mit effektiven Daten aufweisen.</p></td> 
   </tr> 
   <tr> 
    <td> <p>Benutzer stündlich mit Cap</p> </td> 
@@ -245,7 +229,7 @@ Wenn Sie Stunden für ein Problem protokollieren und einen Stundentyp verwenden,
 
 Weitere Informationen zu Tracking-Kosten finden Sie im Artikel [Kosten verfolgen](../../../manage-work/projects/project-finances/track-costs.md).
 
-Weitere Informationen zu Stundentypen finden Sie im Artikel [Stundentypen verwalten](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Weitere Informationen zu Stundentypen finden Sie im Artikel [Verwalten von Stundentypen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Umsatzberechnungen
 
@@ -257,16 +241,16 @@ Beachten Sie bei der Berechnung der Einnahmen für eine Aufgabe Folgendes:
 
 * Wenn ein Benutzer oder eine Auftragsrolle einen Satz von 0,00 USD anzeigt, liest Workfront diesen Betrag als gültigen Betrag und multipliziert diesen Betrag mit der Anzahl der Stunden, die der Auftrag zur Berechnung des Umsatzes benötigt. Wenn Sie für Ihre Aufgaben keinen Umsatz anzeigen möchten, stellen Sie sicher, dass das Feld für die Abrechnungsrate für Ihre Benutzer- oder Auftragsrolle leer ist.
 * Wenn Abrechnungsraten für Auftragsrollen gelten, verwendet Workfront die Überschreibungsrate auf Projektebene anstelle der Abrechnungsrate für diese Rolle, die auf Systemebene jedes Mal festgelegt wird, wenn eine Überschreibungsrate für das Projekt vorliegt.
-* <span class="preview">Wenn für den tatsächlichen Umsatz der Benutzer oder die Auftragsrolle mehrere Abrechnungsraten mit effektiven Datumsangaben aufweist, entspricht der Aufgabenerlös der Summe der Einnahmen aus jedem Zeitraum, in dem der Benutzer seine Zeit protokolliert hat. Der geplante Umsatz basiert auf den geplanten Stunden für die Zeiträume.</span>
+* Wenn für den tatsächlichen Umsatz der Benutzer oder die Auftragsrolle mehrere Abrechnungsraten mit effektiven Datumsangaben aufweist, entspricht der Aufgabenerlös der Summe der Einnahmen aus jedem Zeitraum, in dem der Benutzer seine Zeit protokolliert hat. Der geplante Umsatz basiert auf den geplanten Stunden für die Zeiträume.
 * Im Falle mehrerer Bevollmächtigter für die Aufgaben gelten die unten beschriebenen Szenarien für jeden Bevollmächtigten.
 
 Es gibt eine Hierarchie, welche Rate bei Umsatzberechnungen basierend auf Aufgabenzuweisungen verwendet wird.
 
-Wenn Ihr Workfront-Administrator **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** im Bereich &quot;Voreinstellungen für Timesheets und Stunden&quot;festgelegt ist, und wenn die Benutzer-Protokollierungszeit im Projekt eine andere Rolle auswählt, die mit dieser Zeit verknüpft werden soll, wird der tatsächliche Umsatz der Aufgabe oder des Projekts immer anhand der Rolle berechnet, die dem Stundeneintrag zugeordnet ist. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel [Zeitblatt- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Wenn Ihr Workfront-Administrator die **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** im Bereich &quot;Voreinstellungen für Timesheets und Stunden&quot;festgelegt ist, und wenn die Benutzer-Protokollierungszeit im Projekt eine andere Rolle auswählt, die mit dieser Zeit verknüpft werden soll, wird der tatsächliche Umsatz der Aufgabe oder des Projekts immer anhand der Rolle berechnet, die dem Stundeneintrag zugeordnet ist. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel [Zeitblatt- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Bei der Berechnung der Aufgabenerlöse anhand des Typs Umsatz und der Art der Aufgabenzuweisung gibt es die folgenden Szenarien:
 
-* **Der Umsatztyp der Aufgabe ist &quot;Benutzer stündlich&quot;**
+* **Der Umsatztyp der Aufgabe ist Benutzer stündlich**
 
   <table style="table-layout:auto"> 
    <col> 
@@ -283,7 +267,7 @@ Bei der Berechnung der Aufgabenerlöse anhand des Typs Umsatz und der Art der Au
     <tr> 
      <td role="rowheader">Abrechnung pro Stunde für geplanten Umsatz</td> 
      <td>$0.00</td> 
-     <td> Wenn ein Benutzer in seinem Profil eine Abrechnungsrate hat, wird diese zur Berechnung des geplanten Umsatzes verwendet. Andernfalls wird die Systemabrechnungsrate der Rolle des Hauptauftrags verwendet. <br><p><b>NOTE</b>  Der Benutzer kann der Aufgabe mit einer seiner sekundären Job-Rollen zugewiesen werden, aber hier wird die Rate der Rolle des Hauptauftrags verwendet.</p><p><span class="preview">Wenn sich die Rolle des Benutzers während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzierungen die korrekten Zinssätze angewendet.</span></p></td> 
+     <td> Wenn ein Benutzer in seinem Profil eine Abrechnungsrate hat, wird diese zur Berechnung des geplanten Umsatzes verwendet. Andernfalls wird die Systemabrechnungsrate der Rolle des Hauptauftrags verwendet. <br><p><b>NOTE</b>  Der Benutzer kann der Aufgabe mit einer seiner sekundären Job-Rollen zugewiesen werden, aber hier wird die Rate der Rolle des Hauptauftrags verwendet.</p><p>Wenn sich die Rolle des Benutzers während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzierungen die korrekten Zinssätze angewendet.</p></td> 
      <td><p><span class="preview">Wenn eine Ratenkarte an das Projekt angehängt ist, wird der geplante Umsatz basierend auf der Auftragrolle aus der Ratenkarte berechnet.</span></p> <p><span class="preview">Die Abrechnungsraten können auf Projektebene überschrieben werden.</span></p></td> 
     </tr> 
     <tr> 
@@ -320,14 +304,14 @@ Bei der Berechnung der Aufgabenerlöse anhand des Typs Umsatz und der Art der Au
     <tr> 
      <td role="rowheader">Abrechnung pro Stunde für geplanten Umsatz</td> 
      <td>$0.00</td> 
-     <td><p>Workfront untersucht die Rolle, die der Benutzer bei der Berechnung des geplanten Umsatzes spielt. <br>Wenn der Benutzer keiner Rolle in der Aufgabe zugeordnet ist, beträgt der Umsatz 0,00 USD.</p> <p><span class="preview"><strong>NOTE</strong><br>Wenn sich die Rolle des Benutzers während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzierungen die korrekten Zinssätze angewendet.</span></p> </td> 
+     <td><p>Workfront untersucht die Rolle, die der Benutzer bei der Berechnung des geplanten Umsatzes spielt. <br>Wenn der Benutzer keiner Rolle in der Aufgabe zugeordnet ist, beträgt der Umsatz 0,00 USD.</p> <p><strong>NOTE</strong><br>Wenn sich die Rolle des Benutzers während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzierungen die korrekten Zinssätze angewendet.</p> </td> 
      <td><p><span class="preview">Wenn eine Ratenkarte an das Projekt angehängt ist, wird der geplante Umsatz basierend auf der Auftragrolle aus der Ratenkarte berechnet.</span></p> <p><span class="preview">Die Abrechnungsraten können auf Projektebene überschrieben werden.</span></p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Abrechnung pro Stunde für tatsächlichen Umsatz</td> 
      <td>Workfront verwendet die Abrechnungsrate der Rolle des Hauptauftrags des Benutzers, der die Zeit protokolliert. <br><span class="preview">Wenn die Zeit für einen Benutzer oder eine Rolle protokolliert wird, der bzw. die in den erweiterten Zuweisungen eine standortspezifische Zuweisung hat, wird die Rate des Standorts verwendet.</span> <br>Wenn dem Benutzer, der die Zeit protokolliert, keine Auftragsrolle zugeordnet ist oder die Rolle des Hauptauftrags keine Abrechnungsrate aufweist, beträgt der tatsächliche Umsatz 0,00 USD. </td> 
      <td> Wenn der Benutzer, der die Zeit protokolliert, der Aufgabe zugewiesen ist, wird die Abrechnungsrate der Auftragsrolle, die dem Benutzer der Aufgabe zugeordnet ist, zur Berechnung des tatsächlichen Umsatzes verwendet. <br><span class="preview">Wenn die Zeit für einen Benutzer oder eine Rolle protokolliert wird, der bzw. die in den erweiterten Zuweisungen eine standortspezifische Zuweisung hat, wird die Rate des Standorts verwendet.</span> <br>Andernfalls wird die Abrechnungsrate der Rolle des Hauptauftrags verwendet. Wenn der Benutzer keine Rolle als Hauptauftrag hat oder seine Rolle als Hauptauftrag keine Abrechnungsrate aufweist, beträgt der tatsächliche Umsatz 0,00 USD. </td> 
-     <td>Wenn eine der Auftragsrollen des Benutzers, der die Zeit protokolliert, der Aufgabe zugewiesen ist, wird diese Auftragsrollenrate verwendet. Wenn die der Aufgabe zugewiesene Auftragsrolle nicht mit dem Benutzer verknüpft ist, der die Zeit protokolliert, wird zur Berechnung des tatsächlichen Umsatzes die Abrechnungsrate der Hauptrolle des Benutzers verwendet. Wenn der Benutzer keine Rolle als Job hat oder keine Rate mit seiner Rolle als primärer Job verknüpft ist, wird die Rate der der Aufgabe zugewiesenen Auftragrolle verwendet. </td> 
+     <td>Wenn eine der Auftragsrollen des Benutzers, der die Zeit protokolliert, der Aufgabe zugewiesen ist, wird diese Auftragsrollenrate verwendet. Wenn die der Aufgabe zugewiesene Auftragsrolle nicht mit dem Benutzer verknüpft ist, der die Zeit protokolliert, wird zur Berechnung des tatsächlichen Umsatzes die Abrechnungsrate der Hauptrolle des Benutzers verwendet. Wenn der Benutzer keine Rolle als Job hat oder keine Rate mit seiner Rolle als primärer Job verknüpft ist, wird die Rate der der Aufgabe zugewiesenen Auftragsrolle verwendet. </td> 
     </tr> 
    </tbody> 
   </table>
@@ -391,18 +375,14 @@ Sie können die folgenden Umsatztypen für Projekte verfolgen:
 
 * Der geplante Umsatz für ein Projekt wird anhand der folgenden Formel berechnet:
 
-  ```
-  Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue
-  ```
+  `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Informationen zur Berechnung des geplanten Umsatzes für Aufgaben finden Sie in der [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in diesem Artikel.
+  Informationen zur Berechnung des geplanten Umsatzes für Aufgaben finden Sie in der [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in diesem Artikel beschrieben.
 
 * Der tatsächliche Umsatz eines Projekts wird anhand der folgenden Formel berechnet:
 
-  ```
-  Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)
-  ```
+  `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Informationen zur Berechnung des tatsächlichen Umsatzes der Aufgabe finden Sie in der [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in diesem Artikel.
+Informationen zur Berechnung des tatsächlichen Umsatzes der Aufgabe finden Sie in der [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in diesem Artikel beschrieben.
 
 Für den tatsächlichen Umsatz, der mit den direkt im Projekt protokollierten Stunden oder den Problemen verknüpft ist, verwendet Workfront die Abrechnungsrate des Benutzers, der die Zeit im Projekt protokolliert. Wenn dem Benutzer keine Abrechnungsrate zugeordnet ist, verwendet Workfront die Abrechnungsrate seiner Primären Auftragsrolle. Wenn beide Raten null sind, ist der tatsächliche Umsatz, der den im Projekt angemeldeten Stunden zugeordnet ist, oder die Probleme sind null.

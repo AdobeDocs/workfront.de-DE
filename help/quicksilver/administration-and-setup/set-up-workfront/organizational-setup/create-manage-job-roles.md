@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Erstellen und Verwalten von Vorgangsrollen
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -83,11 +81,11 @@ Sie müssen über Folgendes verfügen:
      <tr> 
       <td role="rowheader">[!UICONTROL Kostensatz]</td> 
       <td><p>Dies ist die Kosten pro Stunde für die Rolle "Auftrag". Dieser Wert berechnet die geplanten und tatsächlichen Kosten der Aufgaben und Probleme im Zusammenhang mit der Rolle sowie schließlich die geplanten und tatsächlichen Kosten der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> 
-      <p><span class="preview">Klicken Sie für datumswirksame Kostensätze auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.</span></p> <p><span class="preview">Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit einem Startdatum vom 1. Mai 2023 hinzufügen, wird dem ersten Kostensatz ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</span></p> <p><span class="preview">Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen. </span></p></td> 
+      <p>Klicken Sie für datumswirksame Kostensätze auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit einem Startdatum vom 1. Mai 2023 hinzufügen, wird dem ersten Kostensatz ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Abrechnungsrate] </td> 
-      <td><p>Dies ist die Abrechnungsrate pro Stunde für die Auftragsrolle. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> <p><span class="preview">Klicken Sie für datumswirksame Abrechnungsraten auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Abrechnungskurs hat kein Startdatum und der letzte Abrechnungskurs hat kein Enddatum.</span></p> <p><span class="preview">Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungskurs kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Abrechnungskurs ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</span></p> <p><span class="preview">Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen. </span></p> </td> 
+      <td><p>Dies ist die Abrechnungsrate pro Stunde für die Auftragsrolle. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> <p>Klicken Sie für datumswirksame Abrechnungsraten auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Abrechnungskurs hat kein Startdatum und der letzte Abrechnungskurs hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungskurs kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Abrechnungskurs ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Währung überschreiben]</span> </td> 

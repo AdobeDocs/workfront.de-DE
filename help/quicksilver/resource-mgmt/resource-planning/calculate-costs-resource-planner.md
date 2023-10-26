@@ -6,7 +6,7 @@ description: Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit 
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Kosten im Ressourcenplaner berechnen
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -29,7 +27,7 @@ Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit Kostenwerten 
 >
 >Sie müssen Benutzer und Stellenrollen mit den Kosten pro Stunde-Raten verknüpfen, um Kosteninformationen im Ressourcenplaner anzuzeigen.\
 >Weitere Informationen zum Zuordnen der Kosten pro Stunde zu den Jobrollen finden Sie unter [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Weitere Informationen zur Verknüpfung von Cost per Hour-Raten mit Benutzern finden Sie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Weitere Informationen zur Verknüpfung von &quot;Cost per Hour&quot;-Raten mit Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Bevor Sie Ihre Ressourcen in den Budgets einplanen, sollten Sie wissen, welche Aufgaben zu erledigen sind (geplante Stunden, FTE oder Kosten) und wann Ihre Benutzer zur Arbeit bereit sind (Verfügbare Stunden, FTE oder Kosten).\
 Weitere Informationen zum Verständnis der Informationen im Ressourcenplaner bei der Budgetierung nach Stunden oder VZÄ finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
@@ -71,9 +69,9 @@ Standardmäßig werden die Verfügbarkeits- und Zuordnungsinformationen in Stund
 
 So zeigen Sie verfügbare, geplante und budgetierte Informationen nach Kosten im Ressourcenplaner an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Ressourcen**.
+1. Klicks **Ressourcen**.
 1. Wechseln Sie zum Ressourcen-Planer.
 1. (Bedingt) Wählen Sie **Anzeigen nach Projekt** oder **Ansicht nach Rolle**.\
    Standardmäßig **Anzeigen nach Projekt** ausgewählt ist.\
@@ -142,13 +140,9 @@ Obwohl Sie Aufgabeninformationen nicht im Ressourcenplaner anzeigen können, wer
 * Die **Kostentyp** der Aufgaben des Projekts.\
   Weitere Informationen zum Kostentyp einer Aufgabe finden Sie unter [Kosten verfolgen](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
 * Die tatsächlichen Daten der Kostensätze für die Rollen und Benutzer im Auftrag.
 
   Wenn beispielsweise die Rolle oder der Benutzer im Februar 10 geplante Stunden und im März 10 geplante Stunden hat, sich der Kostensatz jedoch von 12 auf 20 USD im März geändert hat, beträgt der Wert für die geplanten Kosten im Februar 120 USD, im März beträgt der Wert für die geplanten Kosten 200 USD.
-
-</div>
 
 >[!NOTE]
 >
@@ -156,7 +150,7 @@ Obwohl Sie Aufgabeninformationen nicht im Ressourcenplaner anzeigen können, wer
 
 Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gibt es die folgenden Szenarien:
 
-* Wenn die **Kostentyp** ist **Benutzer stündlich **und es gibt **keine Zuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** ist **Benutzer stündlich **und es gibt **keine Zuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
@@ -166,17 +160,13 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die **Kostentyp** is **Benutzer stündlich** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** is **Benutzer stündlich** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
      Die vom Benutzer geplanten Kosten werden mit der folgenden Formel berechnet:
 
-
-
-     ```
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      Wenn ein Benutzer in seinem Profil einen Kostensatz hat, wird dieser Satz zur Berechnung der geplanten Kosten verwendet. Andernfalls werden die Kosten pro Stunde auf Systemebene der Primären Rolle verwendet.
 
@@ -186,15 +176,13 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die Berechnung der Plankosten für die Rolle erfolgt anhand der folgenden Formel:
 
-     ```
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **Geplante Projektkosten**:
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die **Kostentyp** is **Benutzer stündlich** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** is **Benutzer stündlich** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
@@ -202,9 +190,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die Berechnung der Plankosten für die Rolle erfolgt anhand der folgenden Formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Die Kosten pro Stunde auf Systemebene der der Aufgabe zugewiesenen Auftragsrolle wird zur Berechnung der geplanten Kosten verwendet.
 
@@ -212,7 +198,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die **Kostentyp** is **Stündliche Rolle** und es **keine Zuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und gibt es **keine Zuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
@@ -222,7 +208,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die **Kostentyp** is **Stündliche Rolle** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
@@ -230,9 +216,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die Berechnung der Plankosten für die Rolle erfolgt nach folgender Formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront untersucht die Rolle, die der Benutzer bei der Berechnung der geplanten Kosten für die Rolle spielt.
 
@@ -242,11 +226,9 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die geplanten Projektkosten werden mit der folgenden Formel berechnet:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Wenn die **Kostentyp** is **Stündliche Rolle** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
+* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
 
    * **Rolle und geplante Benutzerkosten**:
 
@@ -254,9 +236,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die Berechnung der Plankosten für die Rolle erfolgt nach folgender Formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront untersucht die Rolle, die der Benutzer bei der Berechnung der geplanten Kosten für die Rolle spielt.
 
@@ -264,9 +244,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die geplanten Projektkosten werden mit der folgenden Formel berechnet:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>
@@ -332,7 +310,7 @@ Um im Ressourcenplaner budgetierte Kostenwerte anzuzeigen, müssen Sie über Fol
 
 >[!NOTE]
 >
->Die budgetierten Stunden für die Projekte werden auf der Grundlage der Budgetierten Stunden für die Rollen berechnet, nicht auf der Grundlage der Benutzerrollen.
+>Die Budgetzeit für die Projekte wird auf der Grundlage der Budgetierten Stunden für die Rollen berechnet, nicht auf der Grundlage der Benutzerrollen.
 
 Die folgende Tabelle zeigt, wie die Budgetierung von Kosten im Ressourcenplaner erfolgt:
 
@@ -360,7 +338,7 @@ Wenn die Rolle keinen Kostensatz pro Stunde aufweist, betragen die Kosten für d
 </tr> 
   <tr> 
    <td>Budgetierte Projektkosten</td> 
-   <td> <p>Die budgetierten Kosten pro Projekt werden anhand der folgenden Formel berechnet:</p> <p><code>Project Budgeted Cost = SUM(Role Budgeted Cost). </code> </p> </td> 
+   <td> <p>Die budgetierten Kosten pro Projekt werden mit der folgenden Formel berechnet:</p> <p><code>Project Budgeted Cost = SUM(Role Budgeted Cost). </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
