@@ -10,22 +10,22 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Überblick über Lizenzen
 
-Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von vier Arten bezahlter Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 
 ## Verknüpfung von Lizenzen und Zugriffsebenen
 
-Die vier gebührenpflichtigen Workfront-Lizenzen ermöglichen unterschiedliche Zugriffsstufen auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
+Die fünf Arten von Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
-Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die dieser Lizenz zugeordnete Zugriffsstufe zu.
+Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die mit dieser Lizenz verbundene Zugriffsstufe zu.
 
 Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Workfront:
 
@@ -33,7 +33,8 @@ Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Work
 |--- |--- |
 | Plan | Systemadministrator, Planer |
 | Arbeit | Arbeitskraft |
-| Überarbeitung | Prüfer |
+| Überprüfung | Prüfer |
+| Anfrage | Anfragender |
 | Extern | Externer Benutzer |
 
 >[!NOTE]

@@ -6,7 +6,7 @@ description: Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnung
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungsraten auf Unternehme
 
    * Mehrere Projekte:
 
-   1. Gehen Sie zu einer Projektliste.
-   1. Aktivieren Sie das Kontrollkästchen entsprechend den zu aktualisierenden Projekten.
-   1. Klicks **Bearbeiten**.
-   1. Aktivieren Sie im Abschnitt Einstellungen die Option **Neuberechnung von Kosten und Einnahmen** -Option.
-   1. Klicks **Änderungen speichern**.
+      1. Gehen Sie zu einer Projektliste.
+      1. Aktivieren Sie das Kontrollkästchen entsprechend den zu aktualisierenden Projekten.
+      1. Klicks **Bearbeiten**.
+      1. Aktivieren Sie im Abschnitt Einstellungen die Option **Neuberechnung von Kosten und Einnahmen** -Option.
+      1. Klicks **Änderungen speichern**.
 
    * Einzelprojekt:
 
