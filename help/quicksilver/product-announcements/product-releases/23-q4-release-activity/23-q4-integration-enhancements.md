@@ -3,16 +3,16 @@ title: Verbesserungen der Integration im vierten Quartal 2023
 description: Verbesserungen der Integration im vierten Quartal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Verbesserungen der Integration im vierten Quartal 2023
 
-Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

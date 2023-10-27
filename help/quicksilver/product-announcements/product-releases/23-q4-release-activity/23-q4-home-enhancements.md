@@ -3,16 +3,16 @@ title: Verbesserungen für das vierte Quartal 2023 - Startseite
 description: Verbesserungen für das vierte Quartal 2023 - Startseite
 author: Lisa
 feature: Product Announcements
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Verbesserungen für das vierte Quartal 2023 - Startseite
 
-Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
