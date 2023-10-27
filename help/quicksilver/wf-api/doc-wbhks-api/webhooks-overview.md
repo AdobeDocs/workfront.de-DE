@@ -7,9 +7,9 @@ description: Webhooks-Übersicht
 author: Becky
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: eb738fa8cadaafb0332c5c78a3816d5c346c33b2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Workfront Document Webhooks definiert eine Reihe von API-Endpunkten, über
 
 ![](assets/mceclip0-350x262.png)
 
-Das Benutzererlebnis für webhook-basierte Integrationen ähnelt dem der vorhandenen Dokumentenintegrationen wie Google Drive, Box und Dropbox. Ein Workfront-Benutzer kann beispielsweise die folgenden Aktionen durchführen:
+Das Benutzererlebnis für webhook-basierte Integrationen ähnelt dem von vorhandenen Dokumentenintegrationen wie Google Drive, Box und Dropbox. Ein Workfront-Benutzer kann beispielsweise die folgenden Aktionen durchführen:
 
 * Navigieren zur Ordnerstruktur des externen Dokumentanbieters
 * Suchdateien
@@ -31,15 +31,19 @@ Das Benutzererlebnis für webhook-basierte Integrationen ähnelt dem der vorhand
 
 **Referenzimplementierung**
 
-Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, stellt Workfront eine Referenzimplementierung bereit. Der Code dafür finden Sie unter [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app) . Diese Implementierung ist Java-basiert und ermöglicht es Workfront, Dokumente in einem Netzwerkdateisystem zu verbinden. 
+Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, stellt Workfront Beispiele für eine Referenzimplementierung bereit. Diese Beispiele finden Sie unter [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Die Beispiele sind Java-basiert und ermöglichen es Workfront, Dokumente in einem Netzwerkdateisystem zu verbinden. 
+
+>[!NOTE]
+>
+>Die Ressourcen auf GitHub sind nur Beispiele und können keine Implementierung ausführen.
 
 ## Versionen
 
-* Version 1.0 (Releasedatum - Mai 2015): Erstspezifikation
+* Version 1.0 (Veröffentlichungsdatum - Mai 2015): Erstspezifikation
 
 * Version 1.1 (Veröffentlichungsdatum - Juni 2015). Aktualisiert /uploadInit - documentId und documentVersionId hinzugefügt
 
-* Version 1.2 (Veröffentlichungsdatum - Oktober 2015): /createFolder hinzugefügt
+* Version 1.2 (Releasedatum - Oktober 2015): /createFolder hinzugefügt
 
 * Bevorstehende Versionen (Veröffentlichungsdatum - TBD):
 
@@ -47,4 +51,4 @@ Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, stellt
    * /rename hinzugefügt
    * /serviceInfo hinzugefügt
    * /customAction hinzugefügt
-   * Fügen Sie pagination und parentId zu /search hinzu
+   * Hinzufügen von Pagination und parentId zu /search
