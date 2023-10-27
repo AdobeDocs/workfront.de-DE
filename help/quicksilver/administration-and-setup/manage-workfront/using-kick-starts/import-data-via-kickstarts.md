@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Jede Tabellenzeile entspricht einem eindeutigen Objekt.
 1. Füllen Sie die Zelle im **isNew** column:
 
    * Wenn das zu importierende Objekt neu ist, geben Sie **TRUE** um die Daten in die Zeile zu importieren.
-   * Wenn sich das Objekt bereits in Workfront befindet, geben Sie **FALSE** , um die Zeile zu ignorieren.
+   * Wenn sich das Objekt bereits in Workfront befindet, **FALSE** muss sich in der Spalte befinden, um die Zeile zu ignorieren.
+
+      * Datensätze, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
+      * Wenn Sie eine Vorlage mit Daten heruntergeladen haben, sind vorhandene Objekte bereits mit **FALSE**.
+      * Wenn Sie eine leere Vorlage heruntergeladen haben, müssen Sie keine neuen Zeilen für vorhandene Objekte hinzufügen.
 
 1. Füllen Sie die Zelle im **ID** auf eine der folgenden Arten:
 
-   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben) **TRUE** im **isNew** -Spalte), geben Sie eine beliebige Zahl für die ID an. Diese Nummer muss im Arbeitsblatt eindeutig sein.
+   * Wenn das zu importierende Objekt neu ist (und Sie eingegeben haben) **TRUE** im **isNew** Spalte), geben Sie eine beliebige Zahl für die ID ein. Diese Nummer muss im Arbeitsblatt eindeutig sein.
 
-   * Wenn das zu importierende Objekt bereits im Workfront-System vorhanden ist (und Sie eingegeben haben) **FALSE** im **isNew** ), muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
+   * Wenn das Objekt bereits in Workfront (und **FALSE** im **isNew** ), muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
+
+      * Datensätze, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
+      * Wenn Sie eine Vorlage mit Daten heruntergeladen haben, enthalten vorhandene Objekte bereits die GUID als ID.
+      * Sie können ein neues Objekt auf Grundlage eines vorhandenen Objekts importieren, indem Sie **FALSE** nach **TRUE** im **isNew** -Spalte, indem Sie die ID ändern und die erforderlichen Datenanpassungen vor dem Import vornehmen.
 
      ![Beispiel-ID für eine Gruppe](assets/kick-start-group-example.png)
 
