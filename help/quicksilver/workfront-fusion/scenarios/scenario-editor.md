@@ -7,9 +7,9 @@ description: Mit dem Szenario-Editor können Sie Szenarien in einer visuellen Be
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Mit dem Szenario-Editor können Sie Szenarien in einer visuellen Benutzeroberfl�
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,19 +37,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,9 +61,9 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Öffnen Sie den Szenario-Editor:
 
-1. Klicken **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
+1. Klicks **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
 
-1. Wenn Sie ein Szenario erstellen möchten, klicken Sie auf **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
+1. Klicken Sie zum Erstellen eines Szenarios auf **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
 
    Oder
 
@@ -99,7 +99,7 @@ Die folgenden Aktionen sind im Szenario-Editor verfügbar:
      <td role="rowheader">Einrichten einer Route</td>   
      <td> <p>Klicken Sie auf das Symbol [!UICONTROL Schraubenschlüssel] . <img src="assets/wrench-icon.gif"> zwischen den beiden Modulen stehen und eine der folgenden Optionen verwenden:</p>    
        <ul>
-         <li><strong>[!UICONTROL Filter einrichten]</strong>: Legen Sie fest, welche Bundles an bestimmten Punkten im Szenario verwendet werden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]</a>.</li>     
+         <li><strong>[!UICONTROL Filter einrichten]</strong>: Steuern Sie, welche Bundles an bestimmten Punkten im Szenario verwendet werden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]</a>.</li>     
          <li><strong>[!UICONTROL Unlink]</strong>: Entfernt eine Route.</li>     
          <li><strong>[!UICONTROL Router hinzufügen]</strong>: Fügt einen Router zwischen Modulen hinzu. </li>     
          <li><strong>[!UICONTROL Modul hinzufügen]</strong>: Fügt ein neues Modul zwischen Modulen hinzu.</li>     
@@ -159,7 +159,12 @@ Die folgenden Aktionen sind im Szenario-Editor verfügbar:
    </tr>  
    <tr> 
      <td role="rowheader">Testen des Szenarios</td>   
-     <td>Klicken <strong>[!UICONTROL Einmal ausführen]</strong> , um zu überprüfen, ob das Szenario wie erwartet ausgeführt wird, bevor Sie es aktivieren. Nach der Aktivierung wird das Szenario gemäß seinem Zeitplan ausgeführt. Wenn nicht alles wie erwartet ausgeführt wird, erfahren Sie in unserem Abschnitt zur Fehlerbehebung , wie Fehler zu handhaben sind.</td> 
+     <td>Klicks <strong>[!UICONTROL Einmal ausführen]</strong> , um zu überprüfen, ob das Szenario wie erwartet ausgeführt wird, bevor Sie es aktivieren. Nach der Aktivierung wird das Szenario gemäß seinem Zeitplan ausgeführt. Wenn nicht alles wie erwartet ausgeführt wird, erfahren Sie in unserem Abschnitt zur Fehlerbehebung , wie Fehler zu handhaben sind.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Debugging des Szenarios mit dem Entwickler-Tool</td>   
+     <td>Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwicklungstool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>

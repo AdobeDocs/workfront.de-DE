@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Debugging-Szenarien mit dem Adobe Workfront Fusion DevTool
-description: Mit dem Adobe Workfront Fusion DevTool können Sie Szenarien verstehen und Fehler beheben. Das DevTool fügt den Chrome Developer Tools ein zusätzliches Bedienfeld hinzu. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
+title: Debugging-Szenarien mit dem Adobe Workfront Fusion-Entwicklungstool
+description: Mit dem Adobe Workfront Fusion Devtool können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt den Chrome Developer Tools ein zusätzliches Bedienfeld hinzu. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
 
-# Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] DevTool
+# Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwicklungstool
 
-Die [!DNL Adobe Workfront Fusion] Mit DevTool können Sie Szenarien verstehen und Fehler beheben. Das DevTool fügt dem [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
-
->[!NOTE]
->
->Das Workfront Fusion DevTool ist nicht für Organisationen verfügbar, die über die Adobe Unified Shell auf Fusion zugreifen.
+Die [!DNL Adobe Workfront Fusion] Mit Devtool können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt ein zusätzliches Bedienfeld zum [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
 
 ## Zugriffsanforderungen
 
@@ -61,34 +57,49 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Installieren Sie die [!DNL Chrome] DevTool-Erweiterung
+## Zugriff auf das Workfront Fusion-Entwicklungstool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+Der Zugriff auf das Entwickler-Tool hängt davon ab, ob Sie Fusion im [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience]
 
-Sie können die [!DNL Workfront Fusion] DevTool zu [!DNL Chrome] durch die [!UICONTROL [!DNL Chrome] Webstore].
+Wenn Sie Fusion in der Adobe Unified Shell verwenden, können Sie über den Szenario-Editor auf das Dev-Tool zugreifen.
 
-1. Klicks [dieser Link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) , um zu [!DNL Workfront Fusion] DevTool im [!UICONTROL [!DNL Chrome] Webstore].
+1. Wechseln Sie zum Szenario-Editor für das Szenario, das Sie debuggen möchten.
+
+   Informationen zum Suchen des Szenario-Editors finden Sie unter [Szenario-Editor](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. Klicken Sie mit der rechten Maustaste in einen leeren Bereich der Seite (nicht auf ein Modul).
+1. Auswählen **Entwickler-Tool öffnen**.
+
+>[!NOTE]
+>
+>Derzeit ist nur der **Live Stream** -Bereich des Entwickler-Tools steht Benutzern in der Unified Shell zur Verfügung.
+
+### Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis
+
+So verwenden Sie das Entwickler-Tool im klassischen [!DNL Fusion] Erlebnis, müssen Sie eine [!DNL Chrome] -Erweiterung. Sie können diese Erweiterung dann über die [!DNL Chrome] Entwicklertools.
+
+* [Installieren Sie die [!DNL Chrome] Entwicklererweiterung](#install-the-chrome-devtool-extension)
+* [Suchen Sie die [!DNL Workfront Fusion] Entwicklungstool](#locate-the-workfront-fusion-devtool)
+
+#### Installieren Sie die [!DNL Chrome] Entwicklererweiterung
+
+Sie können die [!DNL Workfront Fusion] Entwickeln in [!DNL Chrome] durch die [!UICONTROL [!DNL Chrome] Webstore].
+
+1. Klicks [dieser Link](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) , um zu [!DNL Workfront Fusion] Entwickler im [!UICONTROL [!DNL Chrome] Webstore].
 1. Klicks **[!UICONTROL Hinzufügen zu[!DNL Chrome]]**.
 1. Überprüfen Sie im sich öffnenden Fenster die Berechtigungen. Wenn Sie den Berechtigungen zustimmen, klicken Sie auf **[!UICONTROL Erweiterung hinzufügen]**.
 
-Die [!DNL Workfront Fusion] Die DevTool-Erweiterung wird zu Ihrem [!DNL Chrome] Erweiterungen.
+Die [!DNL Workfront Fusion] Die Entwicklererweiterung wird zu Ihrem [!DNL Chrome] Erweiterungen.
 
 
-## Suchen Sie die [!DNL Workfront Fusion] DevTool
+#### Suchen Sie die [!DNL Workfront Fusion] Entwicklungstool
 
-So verwenden Sie die [!DNL Workfront Fusion] DevTool müssen Sie die [!DNL Workfront Fusion] DevTool-Erweiterung für Ihre [!DNL Chrome] Browser, wie beschrieben in [Installieren der Chrome DevTool-Erweiterung](#install-the-chrome-devtool-extension).
+So verwenden Sie die [!DNL Workfront Fusion] Entwickler: Sie müssen die [!DNL Workfront Fusion] Entwickeln der Tool-Erweiterung für Ihre [!DNL Chrome] Browser, wie beschrieben in [Installieren der Chrome Developer Tool-Erweiterung](#install-the-chrome-Devtool-extension).
 
 1. Öffnen Sie Ihre [!DNL Workfront Fusion] Szenario.
 1. Öffnen [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ So verwenden Sie die [!DNL Workfront Fusion] DevTool müssen Sie die [!DNL Workf
 
 1. Klicken Sie auf **[!DNL Workfront Fusion]** Registerkarte in [!DNL Chrome Dev Tools].
 
-## Verwenden Sie die [!DNL Workfront Fusion] DevTool
+## Verwenden Sie die [!DNL Workfront Fusion] Entwicklungstool
 
-Workfront Fusion DevTool ist in drei Hauptbereiche unterteilt. Sie finden diese im linken Bereich Ihres DevTool-Fensters.
+Workfront Fusion Devtool ist in drei Hauptbereiche unterteilt. Sie finden diese im linken Bereich Ihres Entwickler-Tools-Fensters.
 
 * [Live Stream](#live-stream)
 * [Szenario-Debugger](#scenario-debugger)
@@ -147,26 +158,26 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
         <li> <p>Anfrageinhalt</p> </li> 
         <li> <p>Antwortheader</p> </li> 
         <li> <p>Response Body</p> </li> 
-       </ul> <p>Um diese Informationen anzuzeigen, klicken Sie auf die entsprechende Registerkarte im rechten Bereich des [!DNL Workfront Fusion] DevTool.</p> </td> 
+       </ul> <p>Um diese Informationen anzuzeigen, klicken Sie auf die entsprechende Registerkarte im rechten Bereich des [!DNL Workfront Fusion] Entwickler.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Suchanfragen und Antworten</p> </td> 
-      <td> <p>Geben Sie den Suchbegriff in das Suchfeld im linken Bereich des [!DNL Workfront Fusion] DevTool , um nur Anforderungen anzuzeigen, die den Suchbegriff enthalten.</p> </td> 
+      <td> <p>Geben Sie den Suchbegriff in das Suchfeld im linken Bereich des [!DNL Workfront Fusion] Entwickler-Tool, um nur Anforderungen anzuzeigen, die den Suchbegriff enthalten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Liste von Anforderungen entfernen </p> </td> 
-      <td> <p>Klicken Sie oben rechts im linken Bedienfeld des DevTool auf das Papierkorbsymbol, um die Liste der von der [!DNL Workfront Fusion] DevTool. </p> </td> 
+      <td> <p>Klicken Sie auf das Papierkorbsymbol in der oberen rechten Ecke des linken Bedienfelds des Entwickler-Tools, um die Liste der von der [!DNL Workfront Fusion] Entwickler. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Aktivieren der Konsolenprotokollierung</p> </td> 
-      <td> <p>Klicken Sie auf das Computersymbol <img src="assets/console-computer-icon.png"> in der oberen rechten Ecke des linken Bedienfelds des DevTool.</p> <p>Die Protokollierung in der Konsole ist aktiviert, wenn das Computersymbol grün ist.</p> </td> 
+      <td> <p>Klicken Sie auf das Computersymbol <img src="assets/console-computer-icon.png"> in der oberen rechten Ecke des linken Bedienfelds des Entwickler-Tools.</p> <p>Die Protokollierung in der Konsole ist aktiviert, wenn das Computersymbol grün ist.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Rufen Sie die Anforderung im JSON-Rohformat oder in der cURL ab</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Rohe JSON</strong> </p> <p>Klicks <strong>[!UICONTROL RAW kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klicks <strong>[!UICONTROL cURL kopieren]</strong> in der rechten oberen Ecke des rechten Bereichs von DevTool.</p> </li> 
+        <li> <p><strong>Rohe JSON</strong> </p> <p>Klicks <strong>[!UICONTROL RAW kopieren]</strong> in der oberen rechten Ecke des rechten Bereichs des Entwickler-Tools.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klicks <strong>[!UICONTROL cURL kopieren]</strong> in der oberen rechten Ecke des rechten Bereichs des Entwickler-Tools.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
 Der Szenario-Debugger ist für komplexere Szenarien nützlich. Er zeigt den Verlauf der ausgeführten Szenarien an und ermöglicht es Ihnen, Module nach ihrem Namen oder ihrer ID zu suchen.
 
 1. Klicken Sie auf **[!UICONTROL Szenario-Debugger]** icon ![](assets/scenario-debugger-icon.png) , um den Szenario-Debugger zu öffnen.
-1. (Optional) Geben Sie den Suchbegriff (Name oder Modul-ID) in das Suchfeld im linken Bereich von ein. [!DNL Workfront Fusion] DevTool im [!UICONTROL Szenario-Debugger] Abschnitt.
+1. (Optional) Geben Sie den Suchbegriff (Name oder Modul-ID) in das Suchfeld im linken Bereich von ein. [!DNL Workfront Fusion] Entwickler im [!UICONTROL Szenario-Debugger] Abschnitt.
 1. Doppelklicken Sie auf den Namen des Moduls, um seine Einstellungen im Szenario-Editor zu öffnen.
 1. Zeigen Sie die Anfragedetails an, indem Sie auf den gewünschten Vorgang klicken.
 
 ### Instrumente
 
-Die [!DNL Workfront Fusion] DevTool bietet Tools, die die Einrichtung Ihres Szenarios erleichtern.
+Die [!DNL Workfront Fusion] Das Entwickler-Tool verfügt über Tools, die die Einrichtung Ihres Szenarios erleichtern.
 
 1. Klicken Sie auf **[!UICONTROL Instrumente]** icon ![](assets/console-tools-icon.png) , um die Tools zu öffnen.
 1. Wählen Sie das gewünschte Tool aus
