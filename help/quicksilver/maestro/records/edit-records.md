@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 2%
 
 ---
@@ -151,4 +151,4 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert.
+1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. In der oberen rechten Ecke der Tabellenansicht wird eine Anzeige zum Speichern der Änderungen kurz angezeigt.

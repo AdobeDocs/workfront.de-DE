@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 1. Klicks **Neu &lt; Name des Datensatztyps >** in der letzten Zeile der Tabelle, um der Tabelle eine neue Zeile hinzuzufügen.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    Geben Sie STRG+Eingabetaste ein, um einen neuen Datensatz in einer neuen Zeile hinzuzufügen.
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Beginnen Sie mit der Eingabe von Informationen in die neue Zeile zum neuen Datensatz.
 
