@@ -6,9 +6,9 @@ description: Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundene
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Suchen Sie auf der Karte die [!UICONTROL Dokumente] Bereich. Klicks ![Listen-Symbol](assets/docs-list-icon.png) zum Anzeigen aller Dokumente in einer Liste oder klicken Sie auf ![Galeriesymbol](assets/docs-gallery-icon.png) um die Dokumente in einer Galerie anzuzeigen.
 1. Bewegen Sie den Mauszeiger über die Dokumentminiatur und klicken Sie auf [!UICONTROL **Vorschau**] , um die Datei im Browser anzuzeigen, oder [!UICONTROL **Herunterladen**] , um die Datei auf Ihren Computer herunterzuladen.
+
+   >[!NOTE]
+   >
+   >PDF zeigen kein Miniaturbild an.
