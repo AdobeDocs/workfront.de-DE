@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom vierten Quartal 2023 vorgenommen wurden.
 
 Eine Liste aller mit der Version vom vierten Quartal 2023 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Look-and-Feel-Aktualisierungen für E-Mail-Vorlage für Dokumentgenehmigungen
+
+>[!NOTE]
+>
+>Vorschau-Version: 1. November 2023; Produktionsversion für alle Kunden: 1. November
+
+Die E-Mail-Vorlage für Benachrichtigungen zur Dokumentgenehmigung wurde aktualisiert, um sie besser an andere Adobe-E-Mail-Vorlagen anzupassen und die Benutzerfreundlichkeit zu verbessern.
 
 ## Indikator für manuell angepasste Zuordnungen im Arbeitslastausgleich
 
