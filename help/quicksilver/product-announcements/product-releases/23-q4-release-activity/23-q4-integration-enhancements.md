@@ -3,9 +3,10 @@ title: Verbesserungen der Integration im vierten Quartal 2023
 description: Verbesserungen der Integration im vierten Quartal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ Wir haben einige Änderungen an der Art und Weise vorgenommen, wie Sie Dokumente
 Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten über die neue SharePoint-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen
+
+>[!NOTE]
+>
+>Diese Funktion wurde noch nicht für Produktionsumgebungen veröffentlicht.
 
 Wir haben einige Verbesserungen am Benutzererlebnis beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner vorgenommen.
 
