@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichu
 In diesem Abschnitt werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
+
+## Woche vom 30. Oktober 2023
+
+### Neue Feldtypen für Benutzer und Datumsfelder zum Erfassen, wer einen Datensatz erstellt oder zuletzt geändert hat oder zu welchem Datum
+
+Vorschau und Produktion: 30. Oktober 2023
+
+Wir haben die folgenden Feldtypen für Maestro-Datensätze eingeführt:
+
+* Erstellt von
+
+* Erstellungsdatum
+
+* Zuletzt geändert von
+
+* Zuletzt geändert am
+
+Die Feldwerte der aus diesen Feldtypen erstellten Felder sind schreibgeschützt und erfassen den Namen des Benutzers, der einen Datensatz erstellt oder zuletzt geändert hat, oder das Datum, an dem der Datensatz erstellt oder zuletzt geändert wurde.
+
+Weitere Informationen finden Sie unter [Felder erstellen](../maestro/architecture-and-fields/create-fields.md).
+
+### Navigieren zu Workfront-Objekten aus einem Maestro-Datensatz
+
+Vorschau und Produktion: 31. Oktober 2023
+
+Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in Maestro öffnen:
+
+* Die schreibgeschützte verknüpfte Tabellenansicht der Workfront-Objektdatensätze
+
+* Die Seite mit den Details zum schreibgeschützten Workfront-Objektdatensatz
+
+Weitere Informationen finden Sie unter [Datensätze verbinden](../maestro/records/connect-records.md).
 
 ## Woche vom 16. Oktober 2023
 

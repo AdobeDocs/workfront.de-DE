@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Workfron
    >
    >  Die Felder, die Sie auf der Seite &quot;Workfront-Objektdatensatz&quot;hinzufügen oder entfernen, werden nicht zum Maestro-Datensatztyp hinzugefügt oder entfernt, der mit dem Workfront-Objekttyp verknüpft ist. Die Felder sind nur auf der schreibgeschützten Workfront-Datensatztypseite sichtbar, sodass Sie sie in Maestro überprüfen können.
 
-1. (Optional) Wählen Sie im Dropdownmenü Ansicht auf der Seite Workfront-Objektdatensatztyp die Timeline-Ansicht aus, um die mit Workfront verknüpften Objekte in der Timeline-Ansicht anzuzeigen.
+1. (Optional und bedingt) Wenn Sie dem Workfront-Objekt mindestens zwei Datumsfelder hinzugefügt haben, klicken Sie auf die Schaltfläche **Ansicht** Dropdown-Menü auf der Seite Workfront-Objektdatensatztyp auswählen und **Timeline** anzeigen. Die mit Workfront verknüpften Objekte werden in der Timeline-Ansicht angezeigt.
