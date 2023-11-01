@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
+source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1634'
 ht-degree: 4%
 
 ---
@@ -108,20 +108,20 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 
 {style="table-layout:auto"}
 
-### Geringere Zugangsstufe
+### Geringfügige Zugangsstufe
 
 Diese Zugriffsstufe ist an die Light-Lizenz angehängt und richtet sich an Benutzer, die:
 
 * Alle Elemente und Updates anzeigen, die für die Arbeit erforderlich sind
 * Projekte, Aufgaben und Probleme genehmigen
 * Anzeigen von Dashboards und Berichten
-* Tracking-Zeit
+* Zeitverlauf verfolgen und Timesheets genehmigen
 * Erstellen und Verwalten von Problemen
-* Aktualisierung der Arbeit
+* Aktualisierungen der Arbeit vornehmen
 
 Benutzer mit der Zugriffsebene Light :
 
-* Arbeitselemente können nicht zugewiesen oder Timesheets können nicht genehmigt werden
+* Arbeitselemente können zugewiesen werden, können jedoch nicht abgeschlossen werden.
 * Kann auf Anfragen und Dokumente im Hauptmenü zugreifen.
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
@@ -250,20 +250,20 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
  </tbody> 
 </table>
 
-### Benutzerzugriffsebene
+### Beitragende-Zugriffsebene
 
 Diese Zugriffsstufe ist an die Mitarbeiter-Lizenz angehängt und richtet sich an Benutzer, die:
 
 * Anfragen senden
 * Anforderungen verfolgen
-* Anforderungen aktualisieren und überprüfen.
+* Anforderungen aktualisieren und überprüfen
 
 Benutzer mit dieser integrierten Zugriffsstufe:
 
 * Kann Anforderungen stellen und diese Anforderungen aktualisieren
 * Dokumente hochladen und genehmigen können
 * Kann den Status der von ihnen eingereichten Probleme überprüfen
-* Arbeitselemente können nicht zugewiesen werden
+* Arbeitselemente können zugewiesen werden, sie jedoch nicht abschließen
 * Kann nur über das Hauptmenü auf Anfragen zugreifen. Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
@@ -306,7 +306,7 @@ Benutzer mit der Zugriffsebene &quot;Externer Benutzer&quot;:
 
 * Kann nur Dokumente und Kalenderberichte anzeigen, die für sie freigegeben wurden
 * Anzeigen von Benutzern, die Dokumente und Kalenderberichte für sie freigeben
-* Genehmigen der Dokumente, die für sie freigegeben sind
+* Genehmigen Sie die Dokumente, die für sie freigegeben wurden.
 
 Sie können diese Zugriffsebene nicht ändern.
 
@@ -325,7 +325,7 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Problem | ✓ |   |   |
 | Portfolios | ✓ |   |   |
 | Programme | ✓ |   |   |
-| Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ (nur für Kalenderberichte; keine Möglichkeit zum Freigeben von Berichten) |   |
+| Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ (nur für Kalenderberichte; keine Möglichkeit, Berichte freizugeben) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
 | Dokument |   | ✓ (keine Möglichkeit zum Freigeben von Dokumenten) |   |
 | Benutzerin oder Benutzer |   | ✓ |   |
@@ -368,7 +368,7 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Von einem übergeordneten freigegebenen Objekt übernommen 
+   <td> <p>Von einem übergeordneten freigegebenen Objekt geerbt 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -389,17 +389,16 @@ Benutzer erhalten Zugriff auf einzelne Objekte, wenn andere Benutzer diese freig
 >* Wenn ein Benutzer ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte darunter hat, erbt der Empfänger dieselben Berechtigungen für diese untergeordneten Objekte.
 >* Wenn eine Zugriffsebene Benutzer daran hindert, bestimmte Objekte zu löschen, hindert dies sie nicht daran, untergeordnete Objekte zu löschen, die in diesen Objekten enthalten sind.
 
-
 Ein Benutzer kann dem Empfänger eine der folgenden Berechtigungen für das einzelne Objekt gewähren:
 
-* **Ansicht**: Mit dieser Berechtigungsebene kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
 
    * Systemweit, damit alle Benutzer ihn sehen können (nicht für alle Objekte verfügbar)
    * Bei externen Benutzern ohne Workfront-Lizenz (nicht für alle Objekte verfügbar)
    * Mit einer E-Mail-Adresse (nur für Dokumente und Kalender verfügbar)
 
 * **Beitragen**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt teilt, werden die Rechte des Empfängers an dem Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den Berechtigungen für das Objekt bestimmt, die vom Freigebende gewährt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination der Zugriffsebene des Empfängers und der Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
 
 ### Beispielszenarien
 
