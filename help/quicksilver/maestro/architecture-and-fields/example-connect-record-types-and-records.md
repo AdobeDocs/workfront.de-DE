@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Gehen Sie dazu folgendermaßen vor:
    * Die Projekte, die Sie für die Verbindung mit Kampagnen ausgewählt haben, werden auf der Datensatztyp-Seite des Workfront-Projekts als separate Datensätze angezeigt. Die Projektdatensätze sind ebenfalls schreibgeschützt und ihre Informationen werden automatisch aktualisiert, wenn Projekte in Workfront aktualisiert werden. Sie müssen weitere Projekte aus dem verbundenen Maestro-Datensatz hinzufügen, um sie im Workfront-Projekt-Datensatztyp anzuzeigen.
    * Das Feld Kampagnenverknüpfter Datensatz wird mit den Namen der Kampagnen gefüllt, die mit Projekten verbunden sind, ausgehend von der Seite Kampagnentyps .
 
-1. (Optional) Klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) rechts neben dem Workfront Project Record Type-Namen und klicken Sie auf **Umbenennen** , um den Datensatztyp umzubenennen.
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Seite &quot;Workfront-Projektdetails&quot;in Maestro zu öffnen:
 
-   >[!TIP]
-   >
-   >Sie können einen Namen eines Datensatztyps umbenennen, indem Sie auf den Namen in der Kopfzeile des Datensatztyps klicken.
+   * Über den Datensatztyp, den Sie verknüpft haben (**Kampagne**), navigieren Sie zum Workfront-Projekt-verknüpften Datensatzfeld (**Projektinformationen**) und klicken Sie auf den Namen eines Workfront-Projekts.
+   * Aus dem **Verzeichnis** Ansicht der **Workfront-Projekt** Datensatzseite, klicken Sie auf den Namen eines Workfront-Projekts
 
-1. Klicken Sie auf das Symbol Felder hinzufügen . ![](assets/add-fields-icon.png) in der oberen rechten Ecke der Workfront Project Record Type-Tabelle, um dem Workfront Project Maestro-Datensatztyp weitere Projektfelder hinzuzufügen.
+     Oder
+
+     Klicken Sie auf **Mehr** Menü rechts neben einem Workfront-Projekt und klicken Sie auf **Ansicht**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Dadurch wird die Maestro-Detailseite des verknüpften Workfront-Projekts geöffnet. Dies ist eine schreibgeschützte Seite.
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um das verknüpfte Workfront-Projekt in Workfront zu öffnen:
+
+   * Aus dem **Verzeichnis** Ansicht der **Workfront-Projekt** auf den Namen eines Workfront-Projekts klicken,
+
+   Oder
+
+   Klicken Sie auf **Mehr** Menü rechts neben dem Workfront-Projektnamen und klicken Sie auf **Zu Quelle wechseln**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Dadurch wird die Workfront-Projektseite geöffnet. Sie können Informationen zum Workfront-Projekt bearbeiten, sofern Sie dazu berechtigt sind.
+
+1. Klicken Sie auf **Felder hinzufügen** icon ![](assets/add-fields-icon.png) in der oberen rechten Ecke der Workfront Project Record Type-Tabelle, um dem Workfront Project Maestro-Datensatztyp weitere Projektfelder hinzuzufügen.
 1. Klicken Sie auf **+** für alle Projektfelder, die Sie zum Workfront Project Maestro-Datensatz hinzufügen möchten, im **Nicht ausgewählte Felder** Abschnitt.
 1. Klicken Sie auf **-** für alle Projektfelder, die Sie aus dem Workfront Project Maestro-Datensatz entfernen möchten, im **Ausgewählte Felder** Abschnitt.
 1. Klicken Sie auf **Speichern**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Sie können Folgendes verbinden:
 * Maestro-Betriebsaufzeichnungen für Taxonomiedatensätze
 * Maestro-Betriebsaufzeichnungen und -objekte aus anderen Anwendungen.
 
-  Die folgenden Anwendungen und Objekttypen werden derzeit unterstützt:
+  Sie können Maestro-Datensätze mit Objekten der unten aufgeführten Typen aus den folgenden Anwendungen verbinden:
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Jeder mit Zugriff auf Maestro kann die Verbindungen sehen, die Sie zwischen Maestro-Datensätzen oder zwischen Maestro-Datensätzen und Workfront-Objekten herstellen. Außerdem können Sie die Verbindungen aller anderen anzeigen und bearbeiten. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Sie können einen Maestro-Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden.
 * Sie können keine Taxonomien mit Datensatztypen oder Objekten aus einer anderen Anwendung verbinden. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Derzeit können Sie Maestro-Datensätze nur mit Workfront-Objekten verknüpfen. Um Maestro-Datensätze mit Workfront-Objekten zu verknüpfen, benötigen Sie Folgendes:
+* Um Maestro-Datensätze mit Workfront-Objekten zu verknüpfen, benötigen Sie Folgendes:
 
    * Workfront-Objekte. Beispielsweise müssen Sie in Workfront zunächst Projekte, Portfolios, Programme, Unternehmen oder Gruppen erstellen.
    * Maestro-Arbeitsbereiche, Datensatztypen und Datensätze. Weitere Informationen finden Sie in den folgenden Artikeln:
@@ -151,16 +151,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Maestro-Datensätze verbinden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> Klicken Sie dann auf **Maestro** ![](assets/maestro-icon.png).
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
    Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
+1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 1. Fügen Sie eine Verbindung zu einem anderen Datensatz oder Objekttyp aus dem ausgewählten Datensatztyp hinzu. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
 
-Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Datensatztyp anzuzeigen.
+   Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Datensatztyp anzuzeigen.
 
 1. Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
 1. Wechseln Sie aus einem Datensatz, der in der Tabellenansicht aufgeführt ist, zur verknüpften Datensatzspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Maestro-Datensätzen verknüpfen möchten, und klicken Sie dann auf die Schaltfläche **+** Symbol.
@@ -201,7 +201,7 @@ Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Datensatztyp
 
 Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Workfront-Objekttyp hergestellt haben, können Sie einzelne Maestro-Datensätze mit Objekten in Workfront verbinden. Sie können auch Felder vom Workfront-Objekt mit dem Maestro-Datensatztyp verbinden.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> Klicken Sie dann auf **Maestro** ![](assets/maestro-icon.png).
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
    Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
@@ -265,11 +265,30 @@ Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Workfron
    >
    >    * Um den Workfront-Objektdatensatz-Typ in der Timeline-Ansicht anzuzeigen, müssen Sie mindestens zwei Datumsfelder in der Tabellenansicht der schreibgeschützten Workfront-Datensatztypseite anzeigen.
 
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) neben dem Workfront-Objekt-Datensatztyp-Namen in der Kopfzeile der Seite, und klicken Sie auf **Umbenennen** , um den Namen des Datensatzes zu bearbeiten.
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Seite &quot;Workfront-Objektdatensatzdetails&quot;in Maestro zu öffnen:
 
-   >[!NOTE]
-   >
-   >    Sie können einen verknüpften Workfront-Record-Typ oder andere Objekte nicht von der Workfront-Record-Type-Seite löschen.
+   * Wechseln Sie vom verknüpften Datensatztyp zum Workfront-Objekt-verknüpften Datensatzfeld und klicken Sie auf den Namen des Workfront-Objekts.
+   * Aus dem **Verzeichnis** Ansicht der Workfront-Datensatztypseite, klicken Sie auf den Namen des Workfront-Objekts
+
+     Oder
+
+     Klicken Sie auf **Mehr** Menü rechts neben dem Workfront-Objektnamen und klicken Sie auf **Ansicht**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Dadurch wird die Maestro-Detailseite des verknüpften Workfront-Objekts geöffnet. Dies ist eine schreibgeschützte Seite.
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um das verknüpfte Workfront-Objekt in Workfront zu öffnen:
+
+   * Aus dem **Verzeichnis** Ansicht der Workfront-Datensatztypseite auf den Namen des Workfront-Objekts klicken,
+
+   Oder
+
+   Klicken Sie auf **Mehr** Menü rechts neben dem Workfront-Objektnamen und klicken Sie auf **Zu Quelle wechseln**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Dadurch wird die Workfront-Objektseite geöffnet. Sie können Informationen zum Workfront-Objekt bearbeiten, sofern Sie dazu berechtigt sind.
 
 1. (Optional) Klicken Sie auf die **Felder hinzufügen** icon ![](assets/add-fields-icon.png) in der rechten oberen Ecke der Tabellenansicht auf der Workfront-Datensatztypseite, um Workfront-Felder zum Workfront-Datensatztyp hinzuzufügen oder daraus zu entfernen.
 

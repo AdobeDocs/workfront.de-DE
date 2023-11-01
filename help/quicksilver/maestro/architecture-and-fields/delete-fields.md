@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Sie können nicht mehr relevante Maestro-Felder löschen.
 
 ## Überlegungen zum Löschen von Maestro-Feldern:
 
-* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder löschen. <!--this will change with access levels/ permissions-->
+* Sie können von Ihnen erstellte Felder oder Felder löschen, die von anderen Benutzern oder vom System erstellt wurden. <!--this will change with access levels/ permissions-->
+* Das Feld Name eines Datensatzes kann nicht gelöscht werden. <!--change this to say you can't delete the field selected to be the primary-->
 * Sie können ein Feld nur in der Tabelle vom Typ Datensatz löschen.
 * Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
 * Wenn Sie ein verknüpftes Datensatzfeld löschen, werden auch alle verknüpften Suchfelder aus dem Datensatztyp gelöscht, aus dem Sie eine Verknüpfung herstellen. Die verknüpften Datensatzfelder der Datensatztypen, mit denen Sie eine Verknüpfung herstellen, werden nicht gelöscht.
