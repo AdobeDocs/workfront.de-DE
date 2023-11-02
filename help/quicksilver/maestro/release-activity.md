@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in Maes
 * Die Seite mit den Details zum schreibgeschützten Workfront-Objektdatensatz
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](../maestro/records/connect-records.md).
+
+### Verbesserte Navigation in der Tabellenansicht
+
+Vorschau und Produktion: 2. November 2023
+
+Wir haben die Navigation in der Tabellenansicht einer Seite vom Typ Datensatz verbessert.
+
+Im Folgenden finden Sie einige Verbesserungen:
+
+* Navigieren Sie mithilfe der Tabulatortaste auf der Tastatur durch die Spalten und Zeilen der Tabelle.
+
+* Fügen Sie an jeder Spaltenposition einen neuen Datensatz hinzu. Vor dieser Verbesserung können Sie einen Datensatz nur aus der ersten Spalte hinzufügen.
+
+* Verwenden Sie die Tastenkombination Umschalt + Eingabetaste , um einen neuen Datensatz (oder eine neue Zeile) zur Tabelle hinzuzufügen.
+
+Weitere Informationen finden Sie unter [Datensätze erstellen](../maestro/records/connect-records.md).
 
 ## Woche vom 16. Oktober 2023
 
