@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1953'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 1%
 # Aufgaben zuweisen
 
 {{highlighted-preview}}
-
->[!IMPORTANT]
->
->Die Funktion zum Außerkraftsetzen der Zuweisungsrate wurde am 30. Juni 2023 in der Vorschau vorübergehend deaktiviert.
 
 Sie können Benutzern, Stellenrollen oder Teams Aufgaben zuweisen, um anzugeben, wer für die Erfüllung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
@@ -117,7 +113,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes:
 
-* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Informationen zum Zuordnen von Benutzern zu Aufgabenrollen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Weitere Informationen zum Verknüpfen von Benutzern mit Auftragsrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Wenn Sie einer Aufgabe oder einem Problem mehrere Benutzer zuweisen, wird der erste von Ihnen ausgewählte Benutzer automatisch zum Eigentümer der Aufgabe oder des Problems bestimmt.
 Anweisungen zum Ändern finden Sie in den Informationen zur Option Primär machen im Artikel [Erweiterte Zuweisungen erstellen](create-advanced-assignments.md).
@@ -145,7 +141,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem dem Benutzer zugewiesen (die Rolle wird nach dem Zufallsprinzip ausgewählt, wenn mehrere Übereinstimmungen vorliegen), zusammen mit allen zusätzlichen zugewiesenen Rollen</li>
       <li>Wenn mindestens eine Auftragsrolle zugewiesen ist und keine Übereinstimmung mit den Benutzerrollen vorliegt, wird die Aufgabe bzw. das Problem sowohl der Rolle bzw. den Rollen als auch dem Benutzer zugewiesen.</li>
      </ul>
-   <p>Informationen über die primäre Rolle eines Benutzers und andere Rollen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Benutzerprofil bearbeiten</a>.</p>
+   <p>Informationen über die primäre Rolle eines Benutzers und andere Rollen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Profil eines Benutzers bearbeiten</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Zuweisen einer einzelnen Aufgabe
 
 1. Gehen Sie zu einer Aufgabe, die Sie zuweisen möchten.
-1. Klicken **Zuweisen zu** im **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems.
+1. Klicks **Zuweisen zu** im **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems.
 
    Oder
 
@@ -192,7 +188,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste, wenn diese Liste angezeigt wird. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-   * Klicken **Erweitert**
+   * Klicks **Erweitert**
 
      Informationen zum Ausführen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
@@ -262,18 +258,18 @@ So weisen Sie Aufgaben in einer Liste zu:
    >Aufgaben können beim manuellen Speichern von Aufgaben in einem Projekt nicht stapelweise bearbeitet werden.
 
 1. Wählen Sie mehrere Aufgaben in der Aufgabenliste aus.
-1. Klicken **Bearbeiten**.
+1. Klicks **Bearbeiten**.
 
    Die **Aufgaben bearbeiten** wird geöffnet.
 
-1. Im **Zuweisungen** Bereich, wählen Sie die **Bevollmächtigter** und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, die/das Sie allen Aufgaben zuweisen möchten.
+1. Im **Zuweisungen** Bereich, wählen Sie die **Bevollmächtigter** und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, die bzw. das Sie allen Aufgaben zuweisen möchten.
 
    >[!IMPORTANT]
    >
    >Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Aufgaben hinzugefügt, anstatt die vorhandenen Ressourcen für die Aufgaben zu ersetzen.
 
 1. (Optional) Wählen Sie das Optionsfeld im **Aufgabeneigentümer** gibt an, welche Ressource der primäre Verantwortliche oder Eigentümer der Aufgabe ist, wenn Sie der Aufgabe mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Bedingt) Geben Sie die **Zuteilung %** für jede Ressource, die der Aufgabe zugewiesen ist, wenn alle ausgewählten Aufgaben über eine Dauer verfügen, die vom Aufwandstyp bestimmt oder berechnet wurde. Dies gibt an, wie viel Zeit diese Ressourcen für das Abschließen der Aufgabe verbringen sollen. Dies ist nur für Benutzer und Vorgangsrollen verfügbar.
+1. (Bedingt) Geben Sie die **Zuteilung %** für jede Ressource, die der Aufgabe zugewiesen ist, wenn alle ausgewählten Aufgaben über eine Dauer verfügen, die vom Aufwandstyp bestimmt oder berechnet wurde. Dies gibt an, wie viel Zeit diese Ressourcen für das Abschließen der Aufgabe verbringen sollen. Dies ist nur für Benutzer und Aufgabenrollen verfügbar.
 
    Oder
 
@@ -289,10 +285,10 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. (Optional) Wenn Sie vorhandene Bevollmächtigte aus allen Aufgaben entfernen möchten, führen Sie einen der folgenden Schritte aus:
 
-   1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie aus der Aufgabe entfernen möchten, wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird, und klicken Sie auf **Zuweisung entfernen** , um weitere Bevollmächtigte zu entfernen.
-   1. Klicken **Alle vorhandenen Zuweisung entfernen** um alle Bevollmächtigten aus allen ausgewählten Aufgaben zu entfernen.
+   1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie aus der Aufgabe entfernen möchten, wählen Sie ihn aus, wenn er in der Liste angezeigt wird, und klicken Sie auf **Zuweisung entfernen** , um weitere Bevollmächtigte zu entfernen.
+   1. Klicks **Alle vorhandenen Zuweisung entfernen** , um alle Bevollmächtigten aus allen ausgewählten Aufgaben zu entfernen.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
 1. (Optional und bedingt) Wenn die Felder Zugeordnet oder Zuweisungen in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und klicken Sie dann auf die Schaltfläche **X-Symbol** neben dem Namen eines Bevollmächtigten, um ihn aus der Aufgabe zu entfernen.
 
 <!--
