@@ -6,10 +6,10 @@ description: Sie können ein Dokument für jedes Objekt anfordern, das Dokumente
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -68,8 +68,6 @@ Sie müssen über Folgendes verfügen:
    Wenn diese Voreinstellung aktiviert ist, erhält der Benutzer eine E-Mail-Benachrichtigung sowie eine In-App-Benachrichtigung. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Sie können auf den in der E-Mail-Benachrichtigung enthaltenen Link klicken und dann das Dokument hochladen. Sie können auch auf die In-App-Benachrichtigung klicken. Jede Option leitet Sie zur Benutzerprofilseite weiter, auf die Sie das angeforderte Dokument hochladen können.
-
-   Sie können auch direkt auf die E-Mail antworten und die angeforderten Dokumente anhängen (sofern Sie für die Unterstützung von E-Mail-Antworten konfiguriert sind).
 
 1. Nach dem Hochladen des Dokuments kann die Person, die das Dokument angefordert hat, auf das Dokument in ihrer **Dokumente** Bereich.
 
