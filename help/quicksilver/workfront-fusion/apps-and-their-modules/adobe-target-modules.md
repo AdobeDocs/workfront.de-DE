@@ -9,7 +9,7 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ Dieses Aktionsmodul erstellt eine AB- oder XT-Aktivität, ein Angebot oder eine 
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Verbindung]</td>
-    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record Type]</td>
@@ -197,19 +197,19 @@ Dieses Aktionsmodul erstellt eine AB- oder XT-Aktivität, ein Angebot oder eine 
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>Weiter zu <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-Aktivitätsfelder</a>.</p>
+          <p>Weiter zu <a href="#ab-activity-fields" class="MCXref xref" >AB-Aktivitätsfelder</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT-Aktivität]</p>
-          <p>Weiter zu <a href="#XT" class="MCXref xref" >XT-Aktivitätsfelder</a>.</p>
+          <p>Weiter zu <a href="#xt-activity-fields" class="MCXref xref" >XT-Aktivitätsfelder</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Angebot]</p>
-          <p>Weiter zu <a href="#Offer" class="MCXref xref" >Angebotsfelder</a>.</p>
+          <p>Weiter zu <a href="#offer-fields" class="MCXref xref" >Angebotsfelder</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>Weiter zu <a href="#Audience" class="MCXref xref" >Zielgruppenfelder</a>.</p>
+          <p>Weiter zu <a href="#audience-fields" class="MCXref xref" >Zielgruppenfelder</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Targ
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Basis-URL]</td>
@@ -710,7 +710,7 @@ Dieses Aktionsmodul löscht eine einzelne AB-Aktivität, XT-Aktivität, Angebot 
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Verbindung]</td>
-    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record Type]</td>
@@ -733,7 +733,7 @@ Dieses Aktionsmodul ruft Daten für eine einzelne Aktivität, ein Angebot, eine 
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Verbindung]</td>
-    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record Type]</td>
@@ -756,7 +756,7 @@ Dieses Aktionsmodul aktualisiert eine Aktivität, ein Angebot oder eine Zielgrup
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record Type]</td>
@@ -766,12 +766,12 @@ Dieses Aktionsmodul aktualisiert eine Aktivität, ein Angebot oder eine Zielgrup
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>Siehe Feldbeschreibungen in <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-Aktivitätsfelder</a> under <a href="#Create2" class="MCXref xref" >Datensatz erstellen</a>.</p>
+            <p>Siehe Feldbeschreibungen in <a href="#ab-activity-fields" class="MCXref xref" >AB-Aktivitätsfelder</a> under <a href="#create-a-record" class="MCXref xref" >Datensatz erstellen</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT-Aktivität]</b>
             </p>
-            <p>Siehe Feldbeschreibungen in <a href="#XT" class="MCXref xref" >XT-Aktivitätsfelder</a> under <a href="#Create2" class="MCXref xref" >Datensatz erstellen</a>.</p>
+            <p>Siehe Feldbeschreibungen in <a href="#xt-activity-fields" class="MCXref xref" >XT-Aktivitätsfelder</a> under <a href="#create-a-record" class="MCXref xref" >Datensatz erstellen</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Sonstige Aktivität]</b>
@@ -781,12 +781,12 @@ Dieses Aktionsmodul aktualisiert eine Aktivität, ein Angebot oder eine Zielgrup
           <li>
             <p><b>[!UICONTROL Angebot]</b>
             </p>
-            <p>Siehe Feldbeschreibungen in <a href="#Offer" class="MCXref xref" >Angebotsfelder</a> under <a href="#Create2" class="MCXref xref" >Datensatz erstellen</a>.</p>
+            <p>Siehe Feldbeschreibungen in <a href="#offer-fields" class="MCXref xref" >Angebotsfelder</a> under <a href="#create-a-record" class="MCXref xref" >Datensatz erstellen</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>Siehe Feldbeschreibungen in <a href="#Audience" class="MCXref xref" >Zielgruppenfelder</a> under <a href="#Create2" class="MCXref xref" >Datensatz erstellen</a>.</p>
+            <p>Siehe Feldbeschreibungen in <a href="#audience-fields" class="MCXref xref" >Zielgruppenfelder</a> under <a href="#create-a-record" class="MCXref xref" >Datensatz erstellen</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ Dieses Suchmodul ruft eine Liste von Datensätzen des ausgewählten Typs ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record Type]</td>
@@ -852,7 +852,7 @@ Dieses Suchmodul sucht nach Aktivitäten, Angeboten oder Zielgruppen basierend a
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Verbindung]</td>
-    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#Create" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
+    <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Target], siehe <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Target]</a> in diesem Artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record Type]</td>
