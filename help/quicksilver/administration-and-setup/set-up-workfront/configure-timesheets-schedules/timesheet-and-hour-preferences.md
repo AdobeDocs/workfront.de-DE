@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1352'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,14 @@ ht-degree: 1%
 
 Als [!DNL Adobe Workfront] Administrator können Sie die Voreinstellungen für Timesheets und Stunden in [!DNL Workfront] um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
 
-Alle Änderungen an Timesheets wirken sich auf alle in der Zukunft erstellten Timesheets aus.
+>[!NOTE]
+>
+>Elemente, für die Sie die Zeit während des Zeitrahmens des Zeitblatts protokolliert haben, werden standardmäßig im Zeitblatt angezeigt, obwohl sie die in diesem Artikel beschriebenen Bedingungen für das Vorausfüllen des Zeitblatts möglicherweise nicht erfüllen.
+>
+>Informationen zur Protokollierungszeit finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
+
+Alle Änderungen, die Sie an Timesheets vornehmen, wirken sich auf alle in der Zukunft erstellten Timesheets aus.
 
 ## Zugriffsanforderungen
 
@@ -43,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTIZ</b>
 
-Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -52,7 +59,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL Datenblatt und Stunden]** > **[!UICONTROL Voreinstellungen]**.
+1. Klicks **[!UICONTROL Datenblatt und Stunden]** > **[!UICONTROL Voreinstellungen]**.
 
 1. Auf der angezeigten Seite wird im **[!UICONTROL Allgemeine Voreinstellungen]** konfigurieren Sie eine der folgenden Optionen:
 
@@ -66,7 +73,8 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
        <ul> 
         <li>Alle Projekte, Aufgaben und Probleme, auf die sie Zugriff auf die Protokollzeit haben</li> 
         <li>Ihre Timesheets als "Allgemeine Zeit"</li> 
-       </ul> <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> <p><b>NOTE</b>: Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
+       </ul> <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> <p><b>NOTIZ</b>:</p> 
+       <p>Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
      </tr>
 
    <tr> 
@@ -110,7 +118,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
     </tr>
    </table>
 
-1. Im **[!UICONTROL Vorfüllen von Zeitleisten]** konfigurieren Sie eine der folgenden Optionen:
+1. Im **[!UICONTROL Vorfüllen von Zeitesheets]** konfigurieren Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -146,7 +154,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Behalten Sie die bereits zu Timesheets hinzugefügte protokollierte Zeit als allgemeine Zeit bei.]</strong>: Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, verbleibt die Zeit auf dem Timesheet.</li> 
-        <li><strong>[!UICONTROL Beliebige Zeit löschen]</strong>: Wenn dieses Projekt später wiederhergestellt wird, wird die bereits protokollierte Zeit für das Projekt wiederhergestellt.</li> 
+        <li><strong>[!UICONTROL Beliebige Zeit löschen]</strong>: Wenn dieses Projekt später wiederhergestellt wird, wird die bereits protokollierte Zeit im Projekt wiederhergestellt.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -185,8 +193,8 @@ So entsperren Sie eine Projektvoreinstellung, damit Gruppen sie konfigurieren k�
    * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie. ![](assets/unlock-toggle-button.png).
    * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist (dies ist die Standardeinstellung).
 
-      >[!IMPORTANT]
-      >
-      >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren. Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Gruppen im System übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Einstellungen, die von Gruppenadministratoren vorgenommen wurden.
+     >[!IMPORTANT]
+     >
+     >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren. Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Gruppen im System übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Einstellungen, die von Gruppenadministratoren vorgenommen wurden.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

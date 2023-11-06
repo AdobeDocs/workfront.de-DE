@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -415,55 +415,6 @@ Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link k
 
 Das Kopieren eines Updates hängt davon ab, welches Kommentierungserlebnis Sie verwenden.
 
-### Kopieren einer Aktualisierung im alten Kommentierungserlebnis
-
-<!--remove legacy when removed from the UI-->
-
-* [Aktualisieren kopieren](#copy-the-update)
-* [Den Thread-Link kopieren](#copy-the-thread-link)
-* [Aktualisierungslink kopieren](#copy-the-update-link)
-* [Antwort zitieren](#quote-reply)
-
-#### Aktualisieren kopieren {#copy-the-update}
-
-Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
-
-1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Textkörper kopieren**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Den Thread-Link kopieren {#copy-the-thread-link}
-
-Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopiert, damit Sie den Thread für andere Benutzer freigeben können.
-
-1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
-
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Aktualisierungslink kopieren {#copy-the-update-link}
-
-Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
-
-1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Antwort zitieren
-
-Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanführungszeichen in eine neue Antwort kopiert.
-
-1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Antwort zitieren**.
-
-   Ein neues Kommentarfeld wird geöffnet und die zitierte Antwort wird in den neuen Kommentar aufgenommen und als Blockanführungszeichen markiert.
-
-1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Antwort** , um den Kommentar hinzuzufügen.
-
 ### Kopieren von Aktualisierungen im neuen Kommentierungserlebnis
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ Die Option Link kopieren kopiert den Kommentar- oder Thread-Link in die Zwischen
 
 1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link kopieren**.
 
+1. Fügen Sie den Link, den Sie im vorherigen Schritt kopiert haben, in eine E-Mail oder eine andere Anwendung ein, um ihn für andere freizugeben. Der freigegebene Link öffnet den Kommentar, von dem Sie den Link freigegeben haben.
+
+   >[!TIP]
+   >
+   >Wenn Sie die Verknüpfung einer Konversation mit einem untergeordneten Objekt von einem übergeordneten Objekt freigeben, öffnet die Verknüpfung den Thread im Bereich Updates des übergeordneten Objekts.
+   >
+   >Wenn Sie beispielsweise den Link eines Aufgabenkommentars aus dem Bereich &quot;Aktualisierungen&quot;des Projekts kopieren, öffnet der Kommentar die Projektseite.
+
 #### Fließtext kopieren
 
 Mit der Option Textkörper kopieren wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
@@ -507,6 +466,64 @@ Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanfü
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Einsenden** , um den Kommentar hinzuzufügen.
+
+### Kopieren einer Aktualisierung im alten Kommentierungserlebnis
+
+<!--remove legacy when removed from the UI-->
+
+* [Aktualisieren kopieren](#copy-the-update)
+* [Den Thread-Link kopieren](#copy-the-thread-link)
+* [Aktualisierungslink kopieren](#copy-the-update-link)
+* [Antwort zitieren](#quote-reply)
+
+  >[!TIP]
+  >
+  >Wenn Sie den Link einer Konversation über ein untergeordnetes Objekt aus einem übergeordneten Objekt kopieren und freigeben, öffnet die Verknüpfung den Thread im Bereich &quot;Aktualisierungen&quot;des untergeordneten Objekts.
+  >
+  >Wenn Sie beispielsweise den Link eines Aufgabenkommentars aus dem Bereich &quot;Aktualisierungen&quot;des Projekts kopieren, öffnet der Kommentar die Aufgabenseite.
+
+#### Aktualisieren kopieren {#copy-the-update}
+
+Mit dieser Option wird der Text von einem bestimmten Update in die Zwischenablage kopiert.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Textkörper kopieren**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Den Thread-Link kopieren {#copy-the-thread-link}
+
+Mit dieser Option wird der vollständige Thread-Link in die Zwischenablage kopiert, damit Sie den Thread für andere Benutzer freigeben können.
+
+1. Gehen Sie zum Aktualisierungs-Thread, den Sie kopieren möchten.
+
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Link zum Kopieren des Threads**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Fügen Sie den Link, den Sie im vorherigen Schritt kopiert haben, in eine E-Mail oder eine andere Anwendung ein, um ihn für andere freizugeben. Der freigegebene Link öffnet den Kommentar, von dem Sie den Link freigegeben haben.
+
+#### Aktualisierungslink kopieren {#copy-the-update-link}
+
+Mit dieser Option wird ein bestimmter Aktualisierungslink in die Zwischenablage kopiert. Wenn Sie den Aktualisierungslink freigeben, sieht der Benutzer, der darauf folgt, einen Rahmen um die Aktualisierung.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü neben der einzelnen Aktualisierung und klicken Sie auf **Link zum Aktualisieren kopieren**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Fügen Sie den Link, den Sie im vorherigen Schritt kopiert haben, in eine E-Mail oder eine andere Anwendung ein, um ihn für andere freizugeben. Der freigegebene Link öffnet den Kommentar, von dem Sie den Link freigegeben haben.
+
+#### Antwort zitieren
+
+Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanführungszeichen in eine neue Antwort kopiert.
+
+1. Gehen Sie zu der Aktualisierung oder Antwort, die Sie kopieren möchten.
+1. Klicken Sie auf **Mehr** Menü und klicken Sie auf **Antwort zitieren**.
+
+   Ein neues Kommentarfeld wird geöffnet und die zitierte Antwort wird in den neuen Kommentar aufgenommen und als Blockanführungszeichen markiert.
+
+1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Antwort** , um den Kommentar hinzuzufügen.
 
 ## Aktualisieren oder Antworten löschen
 
