@@ -7,7 +7,7 @@ description: Bei der Zuordnung werden die Ausgaben eines Moduls, strukturiert in
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Das Zuordnungsbedienfeld wird angezeigt, wenn Sie auf ein Feld klicken, in das S
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
@@ -37,19 +37,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ Der Betrieb eines Moduls erzeugt null, eins oder mehrere Pakete als Ausgabe. Ein
 
 So untersuchen Sie die Ausgabe eines Moduls:
 
-1. Klicken **[!UICONTROL Einmal ausführen]** , um das Modul auszuführen.
+1. Klicks **[!UICONTROL Einmal ausführen]** , um das Modul auszuführen.
 1. Klicken Sie auf die Blase über dem Modul.
 
    Ein Protokoll mit allen Modulphasen wird angezeigt. Sie finden das Bundle oder die Bundles, die von der Betriebsphase eines Moduls ausgegeben werden, unter der **[!UICONTROL Ausgabe]** -Überschrift. Jedes Bundle enthält seine Elemente und die Werte jedes Elements.
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter [Konfigurieren Sie die Einstellungen eine
 
 Sie können mehrere Elemente in einem Feld zuordnen, sie mit Literalen (festen Werten) kombinieren und mithilfe von Operatoren und Funktionen komplexe Formeln erstellen:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Die Funktionen und Operatoren finden Sie im Zuordnungsfenster unter einem seiner Registerkarten.
 
@@ -118,7 +118,7 @@ Die anderen Registerkarten enthalten die folgenden Funktionstypen:
 
 * **Text- und Binärfunktionen** ![](assets/toolbar-icon-text&binary-functions.png) - Siehe [Zeichenfolgenfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) für weitere Informationen.
 
-* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Siehe [Datums- und Uhrzeitfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) und den unten stehenden Artikeln für weitere Informationen.
+* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Siehe [Funktionen für Datum und Uhrzeit in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) und den unten stehenden Artikeln für weitere Informationen.
 
    * [Token für die Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
    * [Token für Datums- und Uhrzeitanalyse in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
@@ -135,7 +135,7 @@ Weitere Informationen zum Zuordnen von Elementen mithilfe von Funktionen finden 
 
 Einige Elemente können mehrere Werte verschiedener Typen enthalten. Dies sind Sammlungstypelemente.
 
-Sie können eine [!UICONTROL collection] Geben Sie ein Element nach dem kleinen schwarzen Rechteck ein, das rechts neben dem Titel des Elements und seiner automatisch erweiterten Liste von Unterelementen angezeigt wird:
+Sie können [!UICONTROL collection] Geben Sie ein Element nach dem kleinen schwarzen Rechteck ein, das rechts neben dem Titel des Elements und seiner automatisch erweiterten Liste von Unterelementen angezeigt wird:
 
 ![](assets/collection.png)
 
@@ -202,7 +202,7 @@ Im Folgenden wird die Formel detailliert aufgeschlüsselt:
 
 1. Der vierte Parameter ist der angegebene Schlüsselwert.
 
-Da die `map()` -Funktion ein Array zurückgibt (da mehrere Elemente mit dem angegebenen Schlüsselwert vorhanden sein könnten), muss die `get()` -Funktion, um das erste Element abzurufen:
+Da die `map()` -Funktion ein Array zurückgibt (da mehrere Elemente mit dem angegebenen Schlüsselwert vorhanden sein könnten), muss die `get()` Funktion zum Abrufen des ersten Elements:
 
 * Der erste Parameter der `get()` -Funktion das Ergebnis der `map()` -Funktion.
 
@@ -262,7 +262,7 @@ Sie können Folgendes ausführen:
 
 Wenn Sie nur das einzelne Modul ausführen möchten:
 
-1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie dann auf **[!UICONTROL Nur dieses Modul ausführen]** im angezeigten Menü...
+1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie dann auf **[!UICONTROL Nur dieses Modul ausführen]** im angezeigten Menü.
 1. Geben Sie Beispielwerte für die Eingabeelemente an und klicken Sie auf **[!UICONTROL OK]** .
 1. Wenn das Modul ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu untersuchen.
 
