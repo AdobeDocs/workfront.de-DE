@@ -5,8 +5,9 @@ title: Wenn APIModel INTERNAL Feldprojektkategorie nicht unterstützt
 description: Wenn APIModel INTERNAL Feldprojekte nicht unterstützt (OpTask)
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 22%
@@ -17,7 +18,7 @@ ht-degree: 22%
 # Kategorie
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
-message: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
+Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -141,9 +142,9 @@ message: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 | Name | Bezeichnung | Typ | Objektcode eingeben | URL |
 |---|---|---|---|---|
 | Kunde | customer | Kunde | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Eingegeben von | enterBy | Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Eingegeben von | enterBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Gruppe | Gruppe | Gruppe | GRUPPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Zuletzt aktualisiert von | lastUpdatedBy | Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
 
 ## Sammlungen

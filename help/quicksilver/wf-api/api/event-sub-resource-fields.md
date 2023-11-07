@@ -5,8 +5,9 @@ title: Ressourcen-Felder für Ereignisabonnements
 description: Ressourcen-Felder für Ereignisabonnements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 10%
@@ -34,12 +35,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td>Zuweisung</td> 
    <td>ASSGN</td> 
-   <td>effectiveWorkCompleted</td> 
+   <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>currentWorkPerDayStartDate</td> 
+   <td>actualWorkPerDayStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -100,12 +101,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> projectsAvgWorkPerDay </td> 
+   <td> projectedAvgWorkPerDay </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> forecastUserAllocationPercentage </td> 
+   <td> projectedUserAllocationPercentage </td> 
   </tr> 
   <tr> 
    <td> </td> 

@@ -6,8 +6,9 @@ title: Filtern von Ereignis-Abonnementnachrichten
 description: Filtern von Ereignis-Abonnementnachrichten
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -275,7 +276,7 @@ Auch wenn Ihre Verarbeitung oder Filterung die Zeitüberschreitung von fünf Sek
 
 Weitere Informationen zum Wiederholungsmechanismus finden Sie unter [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md).
 
-## Implementieren gehosteter Filter in Cloudless Architecture
+## Implementieren von gehosteten Filtern in Cloudless Architecture
 
 Wenn Sie keine Cloud-Architektur für die Filterung von Ereignisabonnements nutzen können, können Sie die Beispiele unter [Filtern von Ereignismeldungen](#filtering-event-messages) als Roadmaps zur Implementierung Ihrer eigenen gehosteten Filter oder Verarbeitungskomponenten.
 

@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 10
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 46%
+source-wordcount: '472'
+ht-degree: 35%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
@@ -44,7 +45,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | BERICHT  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
@@ -55,7 +56,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | BERICHT  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
@@ -69,7 +70,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | BERICHT  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
@@ -83,7 +84,7 @@ ht-degree: 46%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
@@ -98,7 +99,7 @@ ht-degree: 46%
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Aktualisierte Ressourcen**
 
@@ -112,7 +113,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
@@ -120,20 +121,20 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLabourCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Zuweisung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |   |   |   |   |   |   |
-| displayedByAssignedToUser |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
+| viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`Validator hinzugefügt: LESS_THAN_EQUAL
+`<sup>1</sup>`Validator hinzugefügt: LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -141,7 +142,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -149,11 +150,11 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
 ### DocMetadataLinkGroup
 
@@ -161,36 +162,36 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Dokument
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
 Ausgabe
 
@@ -198,7 +199,7 @@ Ausgabe
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gruppe
 
@@ -207,44 +208,44 @@ Ausgabe
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
 ### OpTask
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Der Typ wurde von null in boolesch geändert.
+<sup>1</sup> Typ geändert von null in boolesch
 
 ### PortalSection
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Portfolio
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Projekt
 
@@ -255,25 +256,25 @@ Ausgabe
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLabourCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TestversandApproval
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| approveDecision |  |  |  |  |  |  |
+| approveDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Satz
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 hinzugefügte Validator-WÄHRUNG
+<sup>1</sup>Hinzugefügte Validator-WÄHRUNG
 
 ### Aufgabe
 
@@ -283,7 +284,7 @@ Ausgabe
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,11 +292,11 @@ Ausgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validator LESS_THAN hinzugefügt
+<sup>1</sup> Validator hinzugefügt LESS_THAN
 
 ### TeamAssignment
 
@@ -303,7 +304,7 @@ Ausgabe
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
@@ -311,7 +312,7 @@ Ausgabe
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Arbeitszeittabelle
 
@@ -319,47 +320,47 @@ Ausgabe
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Aktualisieren
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
-### Benutzer
+### Benutzerin oder Benutzer
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
 ### Arbeit
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Der Typ wurde von null in boolesch geändert.
+<sup>1</sup> Typ geändert von null in boolesch
 
 ## Entfernte Ressourcen {#removed-resources}
 
@@ -375,7 +376,7 @@ Ausgabe
 | roleID |   |   |   |   |   | BERICHT  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

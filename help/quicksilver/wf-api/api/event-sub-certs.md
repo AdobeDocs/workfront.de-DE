@@ -5,7 +5,9 @@ title: Ereignisabonnementzertifikate
 description: Ereignisabonnementzertifikate
 author: Becky
 feature: Workfront API
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+role: Developer
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -92,7 +94,12 @@ Weitere Informationen finden Sie unter
 
 ## Zuordnung von Zertifikat zu Umgebung
 
-| WF-Umgebung | Certificate Common Name | Certificate Subject (DN) | | — | — | — | | Produktion | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com| | Vorschau | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com | | Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com | | Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| WF-Umgebung | Certificate Common Name | Zertifikatsinhaber (DN) |
+| -- | -- | -- |
+| Produktion | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| Vorschau | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## Zertifikate herunterladen
 
@@ -105,4 +112,3 @@ Klicken Sie auf die folgenden Links, um die Clientzertifikate herunterzuladen.
 >[!NOTE]
 >
 >Sie können dasselbe Client-Zertifikat für beide Sandbox-Umgebungen verwenden.
-

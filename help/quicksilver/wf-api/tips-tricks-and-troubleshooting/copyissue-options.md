@@ -5,8 +5,9 @@ title: Optionskonfiguration für OPTASK copyIssue
 description: Eine Erläuterung der vom copyIssue -Endpunkt erwarteten ganzzahligen Werte.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
-source-git-commit: 93a67b3dbd59f188dad6b060ec93c3f137c981b2
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 6%
@@ -35,10 +36,10 @@ Beispiele:
 
 * Um den Fortschritt beim Kopieren des Problems zu löschen, geben Sie eine `options` Wert von `4`.
 
-* Geben Sie einen `options` Wert von `132`.
+* Um sowohl den Fortschritt als auch die Dokumente zu löschen, geben Sie einen `options` Wert von `132`.
 
-   Kleiner Fortschritt = 4
+  Kleiner Fortschritt = 4
 
-   Clear Documents = 128
+  Clear Documents = 128
 
-   4 + 128 = 132
+  4 + 128 = 132

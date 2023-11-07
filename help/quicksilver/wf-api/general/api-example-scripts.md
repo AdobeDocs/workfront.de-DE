@@ -5,8 +5,9 @@ title: API-Beispielskripte
 description: Beispielskripte für FAPI
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -39,4 +40,4 @@ Um Beispiele im Repository zu finden, geben Sie `example` in **Repository suchen
 
 >[!IMPORTANT]
 >
->Diese Software wird &quot;wie besehen&quot;, ohne jegliche Garantie, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die Gewährleistung der Handelsfähigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung. Die Autoren oder Urheberrechtsinhaber haften in keinem Fall für Ansprüche, Schäden oder andere Haftungen, sei es in einer Vertragsklage, einer unerlaubten Handlung oder auf andere Weise, die sich aus, aus der Software oder der Verwendung oder anderen Geschäften mit der Software ergeben.
+>Diese Software wird &quot;wie besehen&quot;, ohne jegliche Garantie, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die Gewährleistung der Handelsfähigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung. Die Autoren oder Urheberrechtsinhaber haften in keinem Fall für Ansprüche, Schäden oder andere Haftungen, sei es in einer Vertragsklage, einer unerlaubten Handlung oder auf andere Weise, die sich aus der Software oder der Verwendung oder anderen Geschäften mit der Software ergeben, aus ihr oder in Verbindung mit ihr.

@@ -5,8 +5,9 @@ title: Neue Funktionen in API Version 13
 description: Adobe Workfront hat die API-Version 13 am 22. April 2021 veröffentlicht. API Version 13 enthält die folgenden Änderungen gegenüber Version 12.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -98,7 +99,7 @@ Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs-Übersicht im
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Objektcodes finden Sie im <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Objektcodes finden Sie im Abschnitt <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -189,7 +190,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe  {#group}
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen stellen oft die Struktur der Abteilungen dar.
+Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
 Weitere Informationen zu Gruppen finden Sie unter [Gruppen vs. Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
@@ -238,7 +239,7 @@ Die Ressource JournalEntry hat das Flag REPORTABLE hinzugefügt.
 
 ### LayoutTemplate {#layouttemplate}
 
-Adobe Workfront-Administratoren oder Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das LayoutTemplate-Objekt ist spezifisch für Adobe Workfront Classic.
+Adobe Workfront-Administratoren oder -Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das LayoutTemplate-Objekt ist spezifisch für Adobe Workfront Classic.
 
 Informationen zu dem Objekt, das Layoutvorlagen im neuen Adobe Workfront-Erlebnis darstellt, finden Sie unter [UITemplate](#uitemplate)
 
@@ -456,7 +457,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront-Administratoren oder Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das UITemplate-Objekt ist spezifisch für das neue Adobe Workfront-Erlebnis.
+Adobe Workfront-Administratoren oder -Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das UITemplate-Objekt ist spezifisch für das neue Adobe Workfront-Erlebnis.
 
 Informationen zu dem Objekt, das Layoutvorlagen in Adobe Workfront Classic darstellt, finden Sie unter [LayoutTemplate](#layouttemplate).
 

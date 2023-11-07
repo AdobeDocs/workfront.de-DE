@@ -5,8 +5,9 @@ title: Aktualisierung auf emailAddr aktualisiert den Benutzernamen nicht
 description: Aktualisierung auf emailAddr aktualisiert den Benutzernamen nicht
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Normalerweise `emailAddr` und `username` sind dasselbe Attribut. Wenn Sie daher die `emailAddr` -Attribut `username` -Attribut automatisch entsprechend aktualisiert.
 
-Wenn die `username` entspricht nicht dem `emailAddr`, ein Update der `emailAddr` aktualisiert die `username` automatisch. Dies gilt für beide `emailAddr` Änderungen über die Benutzeroberfläche und die API.
+Wenn die Variable `username` stimmt nicht mit der `emailAddr`, ein Update der `emailAddr` aktualisiert die `username` automatisch. Dies gilt für beide `emailAddr` Änderungen über die Benutzeroberfläche und die API.
 
 ## Ursache
 
@@ -34,4 +35,4 @@ Die Diskrepanz kann auf verschiedene Weise entstehen:
 
 ## Lösung
 
-Verwenden Sie die API, um die `username` -Attribut identisch mit dem `emailAddr`. Nach der Synchronisierung der Attribute wird jede Aktualisierung der `emailAddr` wird auch die `username` übereinstimmen (wenn das Benutzernamenfeld nicht in der Aktualisierung enthalten ist).
+Verwenden Sie die API, um die `username` -Attribut identisch mit dem `emailAddr`. Nach der Synchronisierung der Attribute sollten Sie alle Aktualisierungen an der `emailAddr` wird auch die `username` übereinstimmen (wenn das Benutzernamenfeld nicht in der Aktualisierung enthalten ist).

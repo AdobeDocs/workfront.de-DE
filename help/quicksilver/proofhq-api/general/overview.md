@@ -4,8 +4,9 @@ description: Übersicht
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
@@ -24,7 +25,7 @@ Die öffentliche Benutzeroberfläche ist SOAP 1.1-kompatibel mit WSDL-Unterstüt
 
 ## API-Versionierung
 
-Um die Kompatibilität mit der vorhandenen Client-Integration zu gewährleisten, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Siehe  [API-Aktualisierungen](http://api.proofhq.com/new-updates) für weitere Informationen. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, finden Sie im Abschnitt &quot;Erste Schritte mit der API&quot;unten.
+Um die Kompatibilität mit der vorhandenen Client-Integration zu gewährleisten, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Lesen Sie hierzu die  [API-Aktualisierungen](http://api.proofhq.com/new-updates) für weitere Informationen. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, finden Sie im Abschnitt &quot;Erste Schritte mit der API&quot;unten.
 
 ## Erste Schritte mit der API
 
@@ -48,9 +49,9 @@ Alle Anforderungen verwenden das folgende Umschlag-, Header- und Textformat:
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
    <soapenv:Header/>
    <soapenv:Body>
-	   ... API function and data inserted here ...
-	</soapenv:Body>
-	</soapenv:Envelope>
+       ... API function and data inserted here ...
+    </soapenv:Body>
+    </soapenv:Envelope>
 ```
 
 ## FAQs

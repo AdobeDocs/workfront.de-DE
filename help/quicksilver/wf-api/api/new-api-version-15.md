@@ -5,8 +5,9 @@ title: Neue Funktionen in API Version 15
 description: Adobe Workfront hat die API-Version 14 am 14. Juni 2022 veröffentlicht. API Version 15 enthält die folgenden Änderungen gegenüber Version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 3%
@@ -53,7 +54,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
           <li>
             <p><b>Dauer</b>
             </p>
-            <p>Die Zeit zwischen endDate und startDate.</p>
+            <p>Die Zeitspanne zwischen endDate und startDate.</p>
           </li>
           <li>
             <p><b>endDate</b>
@@ -83,7 +84,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
           <li>
             <p><b>name</b>
             </p>
-            <p>Name der Initiative</p>
+            <p>Der Name der Initiative</p>
           </li>
           <li>
             <p><b>planID</b>
@@ -409,7 +410,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>requestDate</b>
+            <p><b>requedDate</b>
             </p>
           </li>
           <li>
@@ -440,7 +441,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>Anforderer</b>
+            <p><b>Anfragender</b>
             </p>
           </li>
           <li>
@@ -553,7 +554,7 @@ Für API Version 15 wurden keine Ressourcen entfernt.
 
 * [Genehmigung (GENEHMIGUNG)](#Approval)
 
-* [Kategorie (CTGY)](#Category)
+* [Kategorie (KG)](#Category)
 
 * [CategoryParameter (CTGYPA)](#Category2)
 
@@ -726,7 +727,7 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
 
 ### AccessRule (ACSRUL)
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer von ihnen erstellte Projekte freigeben können.
+Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table>
   <col/>
@@ -837,7 +838,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
   </tbody>
 </table>
 
-### Kategorie (CTGY)
+### Kategorie (KG)
 
 Ein Category -Objekt ist ein benutzerdefiniertes Formular.
 
@@ -990,7 +991,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe (GRUPPE)
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen stellen oft die Struktur der Abteilungen dar.
+Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
 Weitere Informationen zu Gruppen finden Sie unter Gruppen vs. Teams.
 
@@ -1032,7 +1033,7 @@ Das Group -Objekt hat die Markierung hinzugefügt `DATA_EXTENDIBLE`
             </p>
           </li>
           <li>
-            <p><b>Anforderer</b>
+            <p><b>Anfragender</b>
             </p>
           </li>
           <li>
@@ -1560,7 +1561,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
 
 ### Aktualisieren (AKTUALISIEREN)
 
-Arbeitselemente in Workfront können aktualisiert werden, um die Benutzer über den aktuellen Status auf dem Laufenden zu halten. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
+Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über den aktuellen Status informiert werden. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
 
 <table>
   <col/>

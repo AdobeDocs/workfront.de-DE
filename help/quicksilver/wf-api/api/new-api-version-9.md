@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 9
 description: Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Liste der Aktualisierungen anzuzeigen, die an den Ressourcen von Version 9 vorgenommen wurden, besuchen Sie bitte Aktualisierungen von API Version 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -40,7 +41,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +54,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
@@ -61,7 +62,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### BudgetedHour
 
@@ -75,7 +76,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarPortalSection
 
@@ -90,7 +91,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarSection
 
@@ -107,7 +108,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalSection
 
@@ -135,7 +136,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Eine Liste 
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

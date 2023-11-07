@@ -6,8 +6,9 @@ title: Löschen eines Dokuments oder Ordners
 description: Löschen eines Dokuments oder Ordners
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 6%
@@ -39,6 +40,6 @@ Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umga
 ### Beispiel
 
 PUT https://www.example.com/api/deleteid=1234
-* return `status: “success”`
+* return `status: "success"`
 
-* return `status: “failure”, error: “File not found”`
+* return `status: "failure", error: "File not found"`

@@ -5,11 +5,12 @@ title: Verfügbare Zeit-API für Benutzer abrufen
 description: Verfügbare Zeit-API für Benutzer abrufen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 

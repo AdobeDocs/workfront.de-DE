@@ -5,8 +5,9 @@ title: Genehmigungs-Code-Ablauf für benutzerdefinierte OAuth 2-Anwendungen
 description: Genehmigungs-Code-Ablauf für benutzerdefinierte OAuth 2-Anwendungen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -16,34 +17,34 @@ ht-degree: 0%
 
 # Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden
 
-Um in Workfront integriert zu werden und die Kommunikation Ihrer Client-App mit Workfront im Namen des Benutzers zu ermöglichen, müssen Sie:
+Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Client-App mit Workfront im Namen des Benutzers zu ermöglichen, müssen Sie:
 
 * Erstellen einer OAuth2-Anwendung
 * Drittanbieteranwendung konfigurieren
-* Link zur Seite &quot;Autorisieren&quot;für Ihre Benutzer
-* Einrichten des Autorisierungscode-Flusses: Benutzer melden sich bei der Workfront-Instanz an und erklären sich damit einverstanden, dass die Client-Anwendung in ihrem Namen eine Verbindung zu Workfront herstellen kann. Daher erhalten Sie einen Autorisierungscode, den Sie mit Zugriffs- und Aktualisierungstoken austauschen.
-* Einrichten des Aktualisierungstoken-Flusses: In diesem Fluss verwenden Sie das Aktualisierungstoken, um ein neues Zugriffstoken zu erhalten, wenn das alte abgelaufen ist.
+* Link zur Autorisierungsseite für Ihre Benutzer
+* Einrichten des Autorisierungscodeflusses: Benutzer melden sich bei der Workfront-Instanz an und stimmen zu, dass sie der Client-Anwendung erlauben, in ihrem Namen eine Verbindung zu Workfront herzustellen. Daher erhalten Sie einen Autorisierungscode, den Sie mit Zugriffs- und Aktualisierungstoken austauschen.
+* Aktualisierungstoken-Fluss einrichten: In diesem Fluss verwenden Sie das Aktualisierungstoken, um ein neues Zugriffstoken zu erhalten, wenn das alte abgelaufen ist.
 
 ## Erstellen einer OAuth2-Anwendung
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
-## Link zur Seite &quot;Autorisieren&quot;für Ihre Benutzer
+## Link zur Autorisierungsseite für Ihre Benutzer
 
 Ihre Benutzer müssen sich anmelden, um diese Integration in ihrem eigenen Konto zu autorisieren. Die Seite, die sie autorisieren können, hat ein bestimmtes Format, wie hier beschrieben. Verwenden Sie diese Informationen, um die Adresse der Autorisierungsseite für die App zu ermitteln und Ihren Benutzern diese Adresse oder einen Link darauf bereitzustellen.
 
 * Die vollständige URL der Domäne Ihres Unternehmens. Beispiel:
 
-   ```
-   https://myorganization.my.workfront.com
-   ```
+  ```
+  https://myorganization.my.workfront.com
+  ```
 
 
 * `client_id`: Dies ist die Client-ID, die beim Erstellen der OAuth2-App in Workfront generiert wurde.
 
 * `redirect_uri`: Dies ist die Umleitungs-URL, die Sie beim Erstellen der App eingegeben haben. Ihre Benutzer werden zu dieser Seite weitergeleitet, nachdem sie die App für ihr Konto autorisiert haben.
 
-* `response_type`: Dieser Wert muss den Wert `code`.
+* `response_type`: Dieser muss den Wert aufweisen. `code`.
 
 Die URL für die Autorisierungsseite lautet daher:
 
@@ -94,11 +95,11 @@ Um Ihre Benutzer mit OAuth2 anzumelden, gehen Sie wie folgt vor:
 
 * `code`: Der Autorisierungscode, der zum Abrufen des Zugriffs-/Aktualisierungstokens erforderlich ist.
 * `domain`: Die Domäne Ihres Unternehmens. Beispiel: in `myorganization.my.workfront.com`, lautet die Domäne `myorganization`.
-* `lane`: die Fahrspur der Anforderung. Beispiel: in `myorganization.preview.workfront.com`, ist die Spur `preview`.
+* `lane`: die Spur der Anfrage. Beispiel: in `myorganization.preview.workfront.com`, ist die Spur `preview`.
 
-   >[!IMPORTANT]
-   >
-   >Die `code` ist nur 2 Minuten gültig. Daher müssen Sie die Aktualisierungs- und Zugriffstoken innerhalb dieser Zeit abrufen.
+  >[!IMPORTANT]
+  >
+  >Die `code` ist nur 2 Minuten gültig. Daher müssen Sie die Aktualisierungs- und Zugriffstoken innerhalb dieser Zeit abrufen.
 
 1. Wenn Sie über einen Code verfügen, können Sie eine Aktualisierung anfordern und auf Token zugreifen, indem Sie den Code zusammen mit Client-App-Anmeldeinformationen an die `/integrations/oauth2/api/v1/token` -Endpunkt.
 

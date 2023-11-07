@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 8
 description: Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste der Aktualisierungen, die an den Ressourcen von Version 8 vorgenommen wurden, finden Sie unter Aktualisierungen von API Version 8 .
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 32%
+source-wordcount: '261'
+ht-degree: 26%
 
 ---
 
@@ -44,7 +45,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
@@ -55,7 +56,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 | versionName |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **KanbanBoard**
 
@@ -69,7 +70,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 |   |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TestversandApprovalStatus
 
@@ -79,7 +80,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ProofFileMetadata**
 
@@ -91,7 +92,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 | ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ResourceBudgetedHour**
 
@@ -105,7 +106,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 | userID |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
@@ -119,7 +120,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 |   |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **RichTextNote**
 
@@ -130,7 +131,7 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 |   |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Abonnieren
 
@@ -143,12 +144,12 @@ Dies ist eine Liste von Ressourcen, die neu in API Version 9 sind. Eine Liste de
 |   |   |   |   |   |   | BERICHT |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserRole
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| roleID | Funktion |   |   |   |   |   |
+| roleID | Rolle |   |   |   |   |   |
 | timePercentage | Benutzer |   |   |   |   |   |
 | userID |   |   |   |   |   |   |

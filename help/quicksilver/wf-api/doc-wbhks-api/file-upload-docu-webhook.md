@@ -6,8 +6,9 @@ title: Datei-Upload über Document Webhooks
 description: Datei-Upload über Document Webhooks
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -93,7 +94,7 @@ Die rohen Inhalts-Bytes für das Dokument.
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -101,7 +102,7 @@ oder
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

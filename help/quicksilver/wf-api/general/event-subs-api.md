@@ -5,8 +5,9 @@ title: Ereignisabonnement-API
 description: Ereignisabonnement-API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -44,7 +45,7 @@ Um Payloads von Ereignisanmeldungen über Ihre Firewall zu erhalten, müssen Sie
 * 54.218.48.56
 * 52.39.217.230
 
-Die folgenden Themen unterstützen die API zur Ereignisanmeldung:
+Die folgenden Themen unterstützen die API für die Ereignisanmeldung:
 
 ## Von Ereignisanmeldungen unterstützte Objekte
 
@@ -65,9 +66,9 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Aufgabe
 * Vorlage
 * Arbeitszeittabelle
-* Benutzer
+* Benutzerin oder Benutzer
 
-Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcen für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
+Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcen-Felder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Ereignisabonnement-Authentifizierung
 
@@ -76,7 +77,7 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 * Für die Verwendung von Ereignisanmeldungen ist eine Zugriffsstufe von &quot;Systemadministrator&quot;erforderlich.
 * A `sessionID`  -Kopfzeile ist erforderlich, um die API für Ereignisabonnements zu verwenden
 
-   Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
+  Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
 
 ## Erstellen der Abonnement-Ressource
 
@@ -90,7 +91,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
 
    * **Zeichenfolge** - Der objCode des Objekts, für das Änderungen abonniert werden. Die möglichen Werte für &quot;objCode&quot;sind in der folgenden Tabelle aufgeführt.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -161,7 +162,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col">TSHET</td> 
        </tr> 
        <tr> 
-        <td scope="col">Benutzer</td> 
+        <td scope="col">Benutzerin oder Benutzer</td> 
         <td scope="col">BENUTZER</td> 
        </tr> 
       </tbody> 
@@ -204,7 +205,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <thead> 
   <tr> 
    <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
+   <th> <p>Kopfzeilenwert</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -251,19 +252,19 @@ Wenn Sie eine Abonnement-Ressource als Text einer Anfrage übergeben (der Inhalt
 |---|---|
 | Content-Length | `→0` |
 | Datum | `→Wed, 05 Apr 2017 21:23:33 GMT` |
-| Standort | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
+| Speicherort | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | Server | `→Apache-Coyote/1.1` |
 
 ## Abfrage von Ereignisanmeldungen
 
-Verwenden Sie beim Abfragen von Workfronts HTTP die GET-Methode. Es gibt zwei Möglichkeiten, Ereignisanmeldungen abzufragen: Abfrage nach Abonnement-ID (siehe unten) oder Abfrage aller Ereignisabonnements.
+Verwenden Sie beim Abfragen von Workfronts HTTP die GET-Methode. Es gibt zwei Möglichkeiten, um nach Abonnements für Ereignisse zu suchen: Abfrage nach Anmelde-ID (siehe unten) oder Abfrage aller Ereignisabonnationen.
 
 ### Abonnements für alle Ereignisse abfragen
 
 Sie können alle Abonnements für Ereignisse eines Kunden abfragen oder die Antwort mit den folgenden Optionen verwalten. Sie können auch die folgenden Optionen verwenden, um die Antwort zu verwalten:
 
-* **page**: Abfrageparameter , um die Anzahl der zurückzugebenden Seiten anzugeben. Der Standardwert ist 1.
-* **limit**: Abfrageparameter , um die Anzahl der pro Seite zurückzugebenden Ergebnisse anzugeben. Der Standardwert ist 100 mit einer maximalen Anzahl von 1000.
+* **page**: Abfrageparameter-Option, um die Anzahl der zurückzugebenden Seiten anzugeben. Der Standardwert ist 1.
+* **limit**: Abfrageparameter-Option, um die Anzahl der pro Seite zurückzugebenden Ergebnisse anzugeben. Der Standardwert ist 100 mit einer maximalen Anzahl von 1000.
 
 Die Anforderungssyntax für die Auflistung aller Ereignisanmeldungen für einen bestimmten Kunden lautet wie folgt:
 
@@ -283,7 +284,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <thead> 
   <tr> 
    <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
+   <th> <p>Kopfzeilenwert</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -376,7 +377,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <thead> 
   <tr> 
    <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
+   <th> <p>Kopfzeilenwert</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -419,13 +420,14 @@ Die Filterung der Ereignisabonnements kann verwendet werden, um sicherzustellen,
 Beispiel: eine **UPDATE - TASK** Ereignisabonnement kann nur dann auf Trigger gesetzt werden, wenn die **newState** einer Ereignis-Payload definiert die **taskStatus** as **current**.
 
 >[!IMPORTANT]
+>
 Die folgenden Attribute gelten für die Filterung der Ereignisabonnements
 
 * Wenn ein Filterfeld einen nicht leeren Wert hat, werden nur Nachrichten mit einer **newState** mit den Filterschlüsseln und -werten an die abonnierte URL gesendet werden
 * Sie können nach benutzerdefinierten Daten filtern, die in der Variablen **newState** UND/ODER **oldState** des Objekts
 * Filter werden nur danach ausgewertet, ob sie einem bestimmten Wert entsprechen oder nicht
-* Wenn Ihre Filtersyntax falsch ist oder mit keiner der in der Variablen **newState** der Payload wird keine Validierungsmeldung zurückgegeben, um anzuzeigen, dass ein Fehler aufgetreten ist
-* Filter können nicht für ein aktuell vorhandenes Abonnement aktualisiert werden. Ein neues Abonnement muss mit neuen Filterparametern erstellt werden.
+* Wenn Ihre Filtersyntax falsch ist oder mit keiner der im **newState** der Payload wird keine Validierungsmeldung zurückgegeben, um anzuzeigen, dass ein Fehler aufgetreten ist
+* Filter können nicht mit einem Abonnement aktualisiert werden, das bereits existiert. Ein neues Abonnement muss mit neuen Filterparametern erstellt werden.
 * Mehrere Filter können auf ein Abonnement angewendet werden. Das Abonnement wird nur bereitgestellt, wenn alle Filterbedingungen erfüllt sind.
 * Die Anwendung mehrerer Filter auf ein Abonnement entspricht der Verwendung einer **UND** logischen Operators.
 * Auf ein einzelnes Objekt können mehrere Ereignisabonnements angewendet werden, sofern mindestens ein Parameter für das Abonnementfeld für Ereignisse zwischen den einzelnen Ereignisabonnements unterschiedlich ist.
@@ -433,7 +435,7 @@ Die folgenden Attribute gelten für die Filterung der Ereignisabonnements
 
 ### Verwenden von Vergleichsoperatoren
 
-Sie können ein Vergleichsfeld zusammen mit dem Filterfeld angeben. Verwenden Sie in diesem Feld einen Vergleichsoperator, um nach Vergleichsergebnissen zu filtern. Sie können beispielsweise ein UPDATE - TASK-Abonnement erstellen, das nur dann eine Payload sendet, wenn der Aufgabenstatus NICHT gleich aktuell ist. Sie können die folgenden Vergleichsoperatoren verwenden:
+Sie können ein Vergleichsfeld zusammen mit dem Filterfeld angeben. Verwenden Sie in diesem Feld einen Vergleichsoperator zum , um nach Vergleichsergebnissen zu filtern. Sie können beispielsweise ein UPDATE - TASK-Abonnement erstellen, das nur dann eine Payload sendet, wenn der Aufgabenstatus NICHT gleich aktuell ist. Sie können die folgenden Vergleichsoperatoren verwenden:
 
 #### eq: equal
 
@@ -455,7 +457,7 @@ Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Ände
 }
 ```
 
-#### ne: ungleich
+#### ne: nicht gleich
 
 Mit diesem Filter können Nachrichten durchkommen, wenn die eingetretene Änderung nicht mit `fieldValue` genau im Filter. Die `fieldValue` -Wert die Groß-/Kleinschreibung beachten.
 
@@ -495,7 +497,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 }
 ```
 
-#### get: größer als oder gleich
+#### get: greater than or equal to
 
 Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` größer als oder gleich dem Wert für `fieldValue`.
 
@@ -535,7 +537,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 }
 ```
 
-#### lte: kleiner als oder gleich
+#### lte: kleiner oder gleich
 
 Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` kleiner oder gleich dem Wert für `fieldValue`.
 
@@ -580,6 +582,7 @@ Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Ände
 Mit diesem Filter können Nachrichten nur durchkommen, wenn das angegebene Feld (`fieldName`) hat einen anderen Wert in &quot;oldstate&quot;und &quot;newstate&quot;. Andere Felder neben dem angegebenen (`fieldName`) gibt diese Änderung nicht zurück.
 
 >[!NOTE]
+>
 `fieldValue` im Filterarray unten hat keine Auswirkungen.
 
 ```
@@ -604,6 +607,7 @@ Durch diesen Connector wird der Filter auf den neuen Status oder den alten Statu
 `oldState` ist in CREATE nicht möglich `eventTypes`.
 
 >[!NOTE]
+>
 Das unten stehende Abonnement mit dem angegebenen Filter gibt nur Nachrichten zurück, in denen der Name der Aufgabe `again` auf `oldState`, was vor einer Aktualisierung der Aufgabe war.
 Ein Anwendungsfall dafür wäre es, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. Um beispielsweise alle Aufgaben herauszufinden, die von &quot;Research Some name&quot;zu &quot;Research TeamName Some name&quot;geändert wurden
 
@@ -670,7 +674,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
+   <th> <p>Kopfzeilenwert</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -853,7 +857,7 @@ Wenn ein Abonnement für ein Ereignis aufgrund eines Konflikts zwischen Sonderze
 
 ### Basis-64-Kodierungsfeld
 
-Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Der Standardwert ist false und die möglichen Werte sind: true, false und &quot;&quot;(leer).
+Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Der Standardwert ist false und die möglichen Werte sind: true, false und &quot;&quot; (leer).
 
 ### Beispiel einer Anfrage mit dem Feld base64Encoding
 
@@ -911,7 +915,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Header Name</p> </th> 
-   <th> <p>Header-Wert</p> </th> 
+   <th> <p>Kopfzeilenwert</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

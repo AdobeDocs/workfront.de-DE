@@ -5,8 +5,9 @@ title: Verwenden des JWT-Flusses für benutzerdefinierte OAuth 2-Anwendungen
 description: Verwenden des JWT-Flusses für benutzerdefinierte OAuth 2-Anwendungen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden
 
-Um in Workfront integriert zu werden und die Kommunikation Ihrer Client-App mit Workfront im Namen des Benutzers zu ermöglichen, müssen Sie:
+Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Client-App mit Workfront im Namen des Benutzers zu ermöglichen, müssen Sie:
 
 * Erstellen einer OAuth2-Anwendung
 * Zertifikat mit öffentlichem Schlüssel erstellen
@@ -23,7 +24,7 @@ Um in Workfront integriert zu werden und die Kommunikation Ihrer Client-App mit 
 
 ## Erstellen einer OAuth2-Anwendung
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 ## Zertifikat mit öffentlichem Schlüssel erstellen
 
@@ -35,10 +36,10 @@ Der verwendete Algorithmus ist RS256 (RSA Signature with SHA-256). Dies ist ein 
 
 Um den öffentlichen Schlüssel zu generieren, führen Sie folgende Schritte aus: **one** des Folgenden.
 
-* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus. Laden Sie dann `certificate_pub.crt` mithilfe der **Hinzufügen eines öffentlichen Schlüssels** in der OAuth2-Anwendungseinrichtung in Workfront.
+* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus. Laden Sie dann `certificate_pub.crt` mithilfe der **Öffentlichen Schlüssel hinzufügen** in der OAuth2-Anwendungseinrichtung in Workfront.
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
+  <!-- [Copy](javascript:void(0);) -->
+  <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
 * Verwenden Sie die **Generieren eines öffentlichen/privaten Keypairs** in der OAuth2-Anwendungseinrichtung in Workfront, um den RSA zu generieren.
 

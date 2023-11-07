@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 7
 description: Sammlungen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 50%
 | adLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -117,7 +118,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TestversandApproval
 
@@ -128,7 +129,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -144,7 +145,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -156,7 +157,7 @@ ht-degree: 50%
 | isOwner  | Benutzer  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -174,7 +175,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | Suchen |
 |   |   |   |   |   |   | Ersetzen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -192,7 +193,7 @@ ht-degree: 50%
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -205,7 +206,7 @@ ht-degree: 50%
 | pageID  |   |   |   |   |   | Bericht |
 | url  |   |   |   |   |   | Suchen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,17 +216,17 @@ ht-degree: 50%
 
 ## Aktualisierte Objekte
 
-Änderungen an vorhandenen Objekten: -Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen haben einen angehängten Hinweis nach der Tabelle.
+Änderungen an vorhandenen Objekten: Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen Objekten haben einen angehängten Hinweis nach der Tabelle
 
 ### UpdateBean
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten 
+<sup>1</sup> Änderungen an möglichen Werten 
 
  
 
@@ -234,16 +235,16 @@ ht-degree: 50%
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ Als meldepflichtig gekennzeichnet
+<sup>1</sup> Als meldepflichtig markiert
 
  
 
@@ -253,11 +254,11 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Genehmigungspfad¹
+### Validierungspfad<sup>1</sup>
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ ht-degree: 50%
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ausgeführte Kennzeichnung entfernt
+<sup>1</sup> Entferntes berichtspflichtiges Flag
 
  
 
@@ -279,11 +280,11 @@ ht-degree: 50%
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datumsvalidierung hinzugefügt
+<sup>1</sup> Datumsvalidierung hinzugefügt
 
-² Nicht-filterbares Flag hinzugefügt
+<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
@@ -291,13 +292,13 @@ ht-degree: 50%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Felder wurden hinzugefügt, includeIssues
+<sup>1</sup> Feld includeIssues hinzugefügt
 
  
 
@@ -305,11 +306,11 @@ ht-degree: 50%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten 
+<sup>1</sup> Änderungen an möglichen Werten 
 
  
 
@@ -319,7 +320,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -339,7 +340,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -350,9 +351,9 @@ ht-degree: 50%
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderung des PRÄZISION-Validators für 8 bis 9
+<sup>1</sup> Änderung des PRÄZISION-Validators für 8 bis 9
 
  
 
@@ -366,7 +367,7 @@ ht-degree: 50%
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ ht-degree: 50%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten
 
  
 
@@ -389,7 +390,7 @@ ht-degree: 50%
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -402,7 +403,7 @@ ht-degree: 50%
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,7 +415,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -424,7 +425,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -446,7 +447,7 @@ ht-degree: 50%
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -454,15 +455,15 @@ ht-degree: 50%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Typ geändert von &quot;Int&quot;zu &quot;Double&quot; 
+<sup>1</sup> Typ geändert von &quot;Int&quot;zu &quot;Double&quot; 
 
  
 
-### Benutzer
+### Benutzerin oder Benutzer
 
 <table style="table-layout:auto"> 
  <col> 
@@ -551,7 +552,7 @@ ht-degree: 50%
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten

@@ -5,8 +5,9 @@ title: Neue Funktionen in API Version 11
 description: ReportBudgedHour wurde zur Adobe Workfront-API als Berichtsressource hinzugefügt. Es enthält Referenzfelder, Kernfelder und Standardfelder, die in BudgetedHour fehlen.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 2%
@@ -186,7 +187,7 @@ ReportBudgedHour wurde zur Adobe Workfront-API als Berichtsressource hinzugefüg
    <td> 
     <ul> 
      <li> <p style="font-weight: bold;">Projekt</p> <p>Das Projekt, mit dem eine ReportableBudgetedHour verknüpft ist.</p> </li> 
-     <li> <p style="font-weight: bold;">Funktion</p> <p>Die Auftragsrolle, mit der eine reportableBudgetedHour verknüpft ist.</p> </li> 
+     <li> <p style="font-weight: bold;">Rolle</p> <p>Die Auftragsrolle, mit der eine reportableBudgetedHour verknüpft ist.</p> </li> 
      <li> <p style="font-weight: bold;">Benutzer</p> <p>Der Benutzer, mit dem eine ReportableBudgetedHour verknüpft ist.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -328,7 +329,7 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
 
 ### AccessRule {#accessrule}
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer von ihnen erstellte Projekte freigeben können.
+Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -364,7 +365,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
      <li style="font-weight: bold;">scheduledStartDate</li>
     </ul><p style="font-weight: normal;">Die folgenden Felder wurden zur öffentlichen API hinzugefügt, um Transparenz bei der Berechnung von EAC (Schätzung bei Abschluss) zu gewährleisten.</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die auch als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die ebenfalls als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Die auch als "Geplanter Wert"bekannten budgetierten Kosten für geplante Arbeit (BCWS) sind eine Metrik zur Projektleistung, die die geplanten Kosten der Aufgabenmenge darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollten. Für Aufgaben: BCWS = Geplanter Prozentsatz Abgeschlossen x Aufgabenbudget. Bei Projekten BCWS = SUM(BCWS-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
     </ul><p style="font-weight: normal;">Die folgenden Felder haben den möglichen Wert ET hinzugefügt. Dieser Wert stellt die Zeiteinheit der verstrichenen Monate dar, die sich auf Monate ohne Berücksichtigung von Wochenenden oder Feiertagen bezieht.</p>
     <ul>
@@ -616,7 +617,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
      <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Mögliche Werte wurden hinzugefügt:</p> 
       <ul> 
        <li style="font-weight: normal;">password:password.eauthPolicy (Anforderungen an die Kennwortkomplexität)</li> 
-       <li style="font-weight: normal;"> password:password.minimumLength (Mindestlänge des Kennworts)</li> 
+       <li style="font-weight: normal;"> password:password.minimumLength (Mindestlänge des Passworts)</li> 
        <li style="font-weight: normal;">password:mobileSessionTimeout (Zeitlimit für mobile Sitzungen)</li> 
        <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (User Time Off)</li> 
        <li style="font-weight: normal;">timesheet:default.timesheet.manualrole (manuelle Kontrollrolle)</li> 
@@ -700,7 +701,7 @@ Ein Layout-Vorlagenobjekt stellt eine bestimmte Anordnung von Layoutelementen da
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Dieses Feld wurde hinzugefügt. Es ist ein boolescher Parameter, der den Wert true hat, wenn eine Layout-Vorlage für die Anzeige von Zeitstempeln für Fälligkeitsdaten in der Arbeitsliste und im Kalender festgelegt ist, und false, wenn Zeitstempel ausgeblendet werden.  </p> </li> 
+     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Dieses Feld wurde hinzugefügt. Es ist ein boolescher Parameter, der den Wert true hat, wenn eine Layout-Vorlage für die Anzeige von Zeitstempeln für Fälligkeitsdaten in der Arbeitsliste und im Kalender festgelegt ist, und false , wenn Zeitstempel ausgeblendet werden sollen.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -899,7 +900,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
      <li style="font-weight: bold;">scheduledStartDate</li>
     </ul><p style="font-weight: normal;">Die folgenden Felder wurden zur öffentlichen API hinzugefügt, um Transparenz bei der Berechnung von EAC (Schätzung bei Abschluss) zu gewährleisten.</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die auch als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die ebenfalls als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Die auch als "Geplanter Wert"bekannten budgetierten Kosten für geplante Arbeit (BCWS) sind eine Metrik zur Projektleistung, die die geplanten Kosten der Aufgabenmenge darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollten. Für Aufgaben: BCWS = Geplanter Prozentsatz Abgeschlossen x Aufgabenbudget. Bei Projekten BCWS = SUM(BCWS-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
     </ul><p style="font-weight: normal;">In den folgenden Feldern wurde die Markierung WÄHRUNG hinzugefügt</p>
     <ul>
@@ -1090,7 +1091,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
      <li style="font-weight: bold;">scheduledStartDate</li>
     </ul><p style="font-weight: normal;">Die folgenden Felder wurden zur öffentlichen API hinzugefügt, um Transparenz bei der Berechnung von EAC (Schätzung bei Abschluss) zu gewährleisten.</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die auch als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die ebenfalls als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Die auch als "Geplanter Wert"bekannten budgetierten Kosten für geplante Arbeit (BCWS) sind eine Metrik zur Projektleistung, die die geplanten Kosten der Aufgabenmenge darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollten. Für Aufgaben: BCWS = Geplanter Prozentsatz Abgeschlossen x Aufgabenbudget. Bei Projekten BCWS = SUM(BCWS-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
     </ul><p style="font-weight: normal;">Die folgenden Felder haben den möglichen Wert ET hinzugefügt. Dieser Wert stellt die Zeiteinheit der verstrichenen Monate dar, die sich auf Monate ohne Berücksichtigung von Wochenenden oder Feiertagen bezieht.</p>
     <ul>
@@ -1242,7 +1243,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
 
 ### Aktualisieren {#update}
 
-Arbeitselemente in Workfront können aktualisiert werden, um die Benutzer über den aktuellen Status auf dem Laufenden zu halten. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
+Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über den aktuellen Status informiert werden. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1347,7 +1348,7 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
      <li style="font-weight: bold;">scheduledStartDate</li>
     </ul><p style="font-weight: normal;">Die folgenden Felder wurden zur öffentlichen API hinzugefügt, um Transparenz bei der Berechnung von EAC (Schätzung bei Abschluss) zu gewährleisten.</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die auch als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Die ebenfalls als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die die budgetierten Kosten der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossenen Aufgabe darstellt. Bei Aufgaben: BCWP = Tatsächlicher Prozentsatz der Vollständigkeit x Aufgabenbudget. Bei Projekten: BCWP = SUM(BCWP-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Die auch als "Geplanter Wert"bekannten budgetierten Kosten für geplante Arbeit (BCWS) sind eine Metrik zur Projektleistung, die die geplanten Kosten der Aufgabenmenge darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollten. Für Aufgaben: BCWS = Geplanter Prozentsatz Abgeschlossen x Aufgabenbudget. Bei Projekten BCWS = SUM(BCWS-Werte aller übergeordneten und einzelnen Aufgaben).</p></li>
     </ul><p style="font-weight: normal;">Die folgenden Felder haben den möglichen Wert ET hinzugefügt. Dieser Wert stellt die Zeiteinheit der verstrichenen Monate dar, die sich auf Monate ohne Berücksichtigung von Wochenenden oder Feiertagen bezieht.</p>
     <ul>

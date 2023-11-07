@@ -5,8 +5,9 @@ title: Ausgehendes Nachrichtenformat für Ereignisabonnements
 description: Ausgehendes Nachrichtenformat für Ereignisabonnements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 Mit der Veröffentlichung von Adobe Workfront 2017.3 wird sich das Format für ausgehende Nachrichten für Ereignisabonnationen ändern, um eine verbesserte Leistung und eine bessere Nutzung von Ereignisabonnements für Ihre Integrationen zu ermöglichen.
 
-## Aktualisierungen des Formats ausgehender Nachrichten
+## Aktualisierungen des Formats der ausgehenden Nachricht
 
 Folgende Änderungen werden am Format der ausgehenden Nachricht vorgenommen:
 
 * Ausgehende Nachrichten enthalten den oldState und newState für eine Workfront-Ressource.
 
-   Diese Werte zeigen die Änderungen an, die aufgrund eines Ereignisses in Workfront an einem Objekt vorgenommen wurden.
+  Diese Werte zeigen die Änderungen an, die aufgrund eines Ereignisses in Workfront an einem Objekt vorgenommen wurden.
 
 * Das Metadatenfeld eventTime wird allen ausgehenden Nachrichten hinzugefügt.
 
-   Dieses Feld gibt in Nanosekunden und EpochSeconds den Zeitpunkt an, zu dem ein Ereignis aufgetreten ist. Verwenden Sie eventTime bei der Bestellung von Ereignissen, die von Ihrer Integration verarbeitet werden.
+  Dieses Feld gibt in Nanosekunden und EpochSeconds den Zeitpunkt an, zu dem ein Ereignis aufgetreten ist. Verwenden Sie eventTime bei der Bestellung von Ereignissen, die von Ihrer Integration verarbeitet werden.
 
 * Das referenzierte Feld owner:companyID in der NOTE-Ressource wird entfernt.
 * Das Objekt currentVersion, auf das verwiesen wird. Die DOCU (Document)-Ressource wird entfernt.

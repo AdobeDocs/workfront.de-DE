@@ -5,8 +5,9 @@ title: Neue Funktionen in API Version 12
 description: Workfront hat die API-Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 2%
@@ -124,7 +125,7 @@ Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </p> </li> 
-     <li> <p><a href="#user" class="MCXref xref">Benutzer</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">Benutzerin oder Benutzer</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Arbeit </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -175,7 +176,7 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
      <li> <p><strong>coreAction</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Lastenausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, können benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
@@ -246,7 +247,7 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
      <li> <p style="font-weight: bold;">action</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Lastenausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, können benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -256,7 +257,7 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
 
 ### AccessRule {#accessrule}
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer von ihnen erstellte Projekte freigeben können.
+Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -269,7 +270,7 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
      <li><strong>coreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Lastenausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, können benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
@@ -356,7 +357,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
        <li> <p>DYNAMISCH,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Mittel)</p> </li> 
@@ -516,7 +517,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe  {#group}
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen stellen oft die Struktur der Abteilungen dar.
+Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -724,7 +725,7 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
      <li><strong>requestorCoreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Lastenausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, können benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a></p> </li> 
       </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
        <ul> 
@@ -792,7 +793,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Mittel)</p> </li> 
@@ -861,7 +862,7 @@ Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Vorlagenaufgabe bear
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Mittel)</p> </li> 
@@ -912,7 +913,7 @@ Weitere Informationen zu Timesheets finden Sie unter [Timesheets - Übersicht](.
  </tbody> 
 </table>
 
-### Benutzer {#user}
+### Benutzerin oder Benutzer {#user}
 
 Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
@@ -924,7 +925,7 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
    <td role="rowheader">Direkte Felder</td> 
    <td> <p>Die folgenden Felder wurden der Ressource Benutzer hinzugefügt:</p> 
     <ul> 
-     <li> <p><strong>effectiveDeactivationDate</strong> </p> <p>Dies stellt das Datum und die Uhrzeit dar, zu der ein Benutzer deaktiviert wurde.</p> <p>Weitere Informationen zu deaktivierten Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Benutzer deaktivieren oder reaktivieren</a>.</p> </li> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>Dies stellt das Datum und die Uhrzeit dar, zu der ein Benutzer deaktiviert wurde.</p> <p>Weitere Informationen zu deaktivierten Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Benutzer deaktivieren oder reaktivieren</a>.</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>In diesem Feld wird der Zugriff des Benutzers auf Workfront-Ziele angezeigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>Kein Zugriff</p> </li> 
@@ -971,7 +972,7 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
        <li> <p>DYNAMISCH,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Mittel)</p> </li> 

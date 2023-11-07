@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 9 (Fortsetzung)
 description: Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter Neue Funktionen in API Version 9. Die Liste der Aktualisierungen von Version 9 finden Sie unter Aktualisierungen von API Version 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 20%
 
 ---
 
@@ -83,7 +84,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
@@ -95,7 +96,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
@@ -113,7 +114,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTab
 
@@ -135,7 +136,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
@@ -152,7 +153,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
@@ -162,7 +163,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte kan
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ScheduleReport
 

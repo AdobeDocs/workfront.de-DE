@@ -6,8 +6,9 @@ title: Abrufen von Metadaten für eine Datei oder einen Ordner
 description: Abrufen von Metadaten für eine Datei oder einen Ordner
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
@@ -37,7 +38,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>Die vom Webhook-Provider referenzierte Kennung der Datei oder des Ordners. Dies unterscheidet sich von der Dokument-ID von Adobe Workfront. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert "/".
+   <td>Die Kennung der Datei oder des Ordners, auf die der Webhook-Provider verweist. Dies unterscheidet sich von der Dokument-ID von Adobe Workfront. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert '/'.
    <p>Hinweis: Die maximale Länge der ID beträgt 255 Zeichen.</p></td> 
   </tr> 
  </tbody> 
@@ -67,7 +68,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
   <tr> 
    <td>kind </td> 
    <td>Zeichenfolge </td> 
-   <td>Gibt an, ob es sich bei diesem Element um eine Datei oder einen Ordner handelt ("file"oder "folder")</td> 
+   <td>Gibt an, ob es sich bei diesem Element um eine Datei oder einen Ordner handelt ('file' oder 'folder')</td> 
   </tr> 
   <tr> 
    <td>id</td> 
@@ -77,12 +78,12 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
   <tr> 
    <td>viewLink</td> 
    <td>Zeichenfolge </td> 
-   <td> <p>Der URL-Pfad, der von einem Benutzer zum Anzeigen des Dokuments in einem Browserfenster verwendet wird. Die URL kann entweder vom Dokumentanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
+   <td> <p>Der URL-Pfad, der von einem Benutzer zum Anzeigen des Dokuments in einem Browserfenster verwendet wird. Die URL kann entweder vom Dokumentenanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
   </tr> 
   <tr> 
    <td>downloadLink</td> 
    <td>Zeichenfolge </td> 
-   <td> <p>Der URL-Pfad, den ein Benutzer zum Herunterladen des Dokuments in ein Browserfenster verwendet. Die URL kann entweder vom Dokumentanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
+   <td> <p>Der URL-Pfad, den ein Benutzer zum Herunterladen des Dokuments in ein Browserfenster verwendet. Die URL kann entweder vom Dokumentenanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
   </tr> 
   <tr> 
    <td>mimeType</td> 

@@ -5,11 +5,12 @@ title: Aktualisierungen für API Version 8
 description: 'Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Informationen zu den Ressourcen, die neu in Version 8 sind, finden Sie unter Neue Funktionen in API Version 8. Änderungen, die an einer Ressource vorgenommen werden, werden wie folgt angegeben: BEARBEITEN SIE MICH.'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 26%
 
 ---
 
@@ -27,38 +28,38 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| Aktion¹  |   |   |   |   |   |   |
+| action<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| forbiddenActions² |   |   |   |   |   |   |
-| secondaryActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Markierung entfernt: REPORTABLE\
-² Änderungen an möglichen Werten
+<sup>1</sup> Flag entfernt: REPORTABLE\
+<sup>2</sup> Änderungen an möglichen Werten
 
 ### Genehmigung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten\
-Überprüfungsfelder hinzugefügt: DYNAMIC, LAZY_READ und NOT_GROUPABLE
+<sup>1</sup>Änderungen an möglichen Werten\
+<sup>2</sup>Flags hinzugefügt: DYNAMIC, LAZY_READ und NOT_GROUPABLE
 
 ### Zuweisung
 
@@ -68,38 +69,38 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Kunde
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### CustomerPreferences
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### DocumentApproval
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Flag hinzugefügt: NOT_FILTERABLE
+<sup>1</sup>Flag hinzugefügt: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gruppe
 
@@ -115,17 +116,17 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 |   |   | Eigentümer |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Flag hinzugefügt: NOT_FILTERABLE
+<sup>1</sup>Flag hinzugefügt: NOT_FILTERABLE
 
 ### Wiederholung
 
@@ -133,7 +134,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gefällt mir
 
@@ -141,61 +142,61 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Notiz
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### OpTask
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iteration |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | Schätzung |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Portfolio
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Programm
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Projekt
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### TestversandApproval
 
@@ -203,23 +204,23 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | approveID | Genehmiger |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Flag hinzugefügt: NOT_FILTERABLE
+<sup>1</sup>Flag hinzugefügt: NOT_FILTERABLE
 
 ### QueueDef
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Satz
 
@@ -229,7 +230,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ReservedTime
 
@@ -237,7 +238,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Aufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Team
 
@@ -269,7 +270,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 | teamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Vorlage
 
@@ -277,29 +278,29 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 Aktualisieren
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
-### Benutzer
+### Benutzerin oder Benutzer
 
 |   |   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|---|
@@ -307,7 +308,7 @@ Aktualisieren
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ Aktualisieren
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten
+<sup>1</sup>Änderungen an möglichen Werten
 
 ### Arbeit
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-1 Änderungen an möglichen Werten\
-Überprüfungsfelder hinzugefügt: DYNAMIC, LAZY_READ und NOT_GROUPABLE
+<sup>1</sup>Änderungen an möglichen Werten\
+<sup>2</sup>Flags hinzugefügt: DYNAMIC, LAZY_READ und NOT_GROUPABLE

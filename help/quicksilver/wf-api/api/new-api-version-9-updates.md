@@ -5,11 +5,12 @@ title: Aktualisierungen für API Version 9
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 36%
 
 ---
 
@@ -27,13 +28,13 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
-| `taskID`<sup>2</sup> |  |  |  |  |  |  |
+| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
+| `taskID`<sup>2</sup> |   |   |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Markierung entfernt: REPORTABLE\
-² Flag entfernt: NOT_GROUPABLE
+<sup>1</sup> Flag entfernt: REPORTABLE\
+<sup>2</sup> Flag entfernt: NOT_GROUPABLE
 
 ### Genehmigung
 
@@ -41,20 +42,20 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Zuweisung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `assignUserToRoleOnTasks`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
+| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Feld hinzugefügt: lockToRole
+<sup>1</sup> Feld hinzugefügt: lockToRole
 
 ### CustomerPreferences
 
@@ -62,127 +63,127 @@ Zuweisung
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichenWerten
 
 ### Stunde
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `days` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `days` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Wiederholung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `moveIssues` |  |  |
+|   |   |   |   | `moveIssues` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LayoutTemplates
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Notiz
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `html` |  |  |  |  |  |  |
-| `json` |  |  |  |  |  |  |
-| `richTextNoteID` |  |  |  |  |  |  |
+| `html` |   |   |   |   |   |   |
+| `json` |   |   |   |   |   |   |
+| `richTextNoteID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### OpTask
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `color` | `agileWork` |  |  | `convertToProject` |  |  |
-| `isReady` |  |  |  | `convertToTask` |  |  |
-| `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+| `color` | `agileWork` |   |   | `convertToProject` |   |   |
+| `isReady` |   |   |   | `convertToTask` |   |   |
+| `storyBoardOrder` |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceBudget
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `ID` |  |  |  |  |  |  |
+| `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Markierung entfernt: REPORTABLE
+<sup>1</sup> Flag entfernt: REPORTABLE
 
 ### Zeitplan
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `homeGroupID` | `homeGroup` |  |  |  |  |  |
+| `homeGroupID` | `homeGroup` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Aufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  | `agileWork` |  |  | `convertToProject` |  |  |
-|  |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+|   | `agileWork` |   |   | `convertToProject` |   |   |
+|   |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Team
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `includeIssues` |  |  |  |  |  |  |
+| `includeIssues` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TimesheetProfile
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `filtersForObjCode` |  |
+|   |   |   |   |   | `filtersForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `viewsForObjCode` |  |
+|   |   |   |   |   | `viewsForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Benutzer
+### Benutzerin oder Benutzer
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `logTimeInDays` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `logTimeInDays` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Arbeit
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder` | `agileWork` |  |  | `getWFHomeObjects` |  |  |
+| `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

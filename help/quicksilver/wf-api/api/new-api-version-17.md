@@ -5,7 +5,9 @@ title: Neue Funktionen in API Version 17
 description: Adobe Workfront hat die API-Version 17 am 6. April 2022 veröffentlicht. API Version 17 enthält die folgenden Änderungen gegenüber Version 15.
 author: Becky
 feature: Workfront API
-source-git-commit: e0b040b062796a1d1b1e0c029ca0ef71b77ed54a
+role: Developer
+exl-id: 08e90754-5505-424c-ae67-015cc987b5df
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 4%
@@ -803,9 +805,9 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
               <li>Dokument genehmigt (ADA)</li>
               <li>Dokument mit Änderungen genehmigt (ADC)</li>
               <li>Arbeit für Dokument erforderlich (ADN)</li>
-              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich (AN)</li>
-              <li>(Benutzer) hat (Dokument) mit den Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich (ACN)</li>
-              <li>(Benutzer) hat markiert (Dokument), da es funktioniert. Ihre Genehmigung ist nicht mehr erforderlich (AWN)</li>
+              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AN)</li>
+              <li>(Benutzer) hat (Dokument) mit den Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (ACN)</li>
+              <li>(Benutzer) hat markiert (Dokument), da es funktioniert. Ihre Genehmigung ist nicht mehr erforderlich. (AWN)</li>
               <li>Dokument erfordert Ihre Überprüfung jetzt anstatt der Genehmigung (AAC)</li>
               <li>Dokument erfordert Ihre Genehmigung jetzt anstatt einer Überprüfung (ADN)</li>
               <li>Dokument geprüft (RDC)</li>

@@ -5,8 +5,9 @@ title: API Explorer verwenden
 description: API Explorer verwenden
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
@@ -23,7 +24,7 @@ Bei der Verwendung der Adobe Workfront Core API ist der API Explorer ein veralte
 1. Navigieren Sie mithilfe eines Webbrowsers zum [API-Explorer](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. Wählen Sie oben rechts im API Explorer die gewünschteWorkfront aus. **API-Version**, standardmäßig wird die neueste Version automatisch ausgewählt.
+1. Wählen Sie oben rechts im API Explorer die gewünschteWorkfront aus. **API-Version**, standardmäßig wird die neueste Version automatisch ausgewählt
 1. Die **Filter** kann verwendet werden, um die Objekte nach Namen zu filtern und die Liste der Objekte entsprechend zu kürzen:
 
    ![](assets/mceclip2-350x147.png)
@@ -32,7 +33,7 @@ Bei der Verwendung der Adobe Workfront Core API ist der API Explorer ein veralte
    * **Verweise**: Verfügbare Referenzvariablen für das angegebene Objekt. Ein Verweis ist ein Alias für eine Variable. Nach der Initialisierung kann eine Referenz synonym mit dem Variablennamen verwendet werden. Ein Verweis verwendet einen initialisierten Speicher.
    * **Sammlungen**: Verfügbare Sammlungen für das Objekt. Sammlungen sind Variablen, die eine Eins-zu-viele-Beziehung zwischen dem Objekt und der Ressource darstellen.
    * **Suche**: Verfügbare Suchressourcen für das Objekt. Die Suchergebnisse basieren auf den Abfrageparametern, die von der Suchressource in der API-Anfrage angegeben werden.
-   * **Aktionen**: Unterstützte Aktionen für das -Objekt. Bei Aktionen kann es sich um einfache oder komplexe Verfahren handeln, die für eine Ressource oder einen Satz von Ressourcen ausgeführt werden. Eine bestimmte Aktion kann sich auch auf verwandte Ressourcen auswirken.
+   * **Aktionen**: Unterstützte Aktionen für das Objekt. Bei Aktionen kann es sich um einfache oder komplexe Verfahren handeln, die für eine Ressource oder einen Satz von Ressourcen ausgeführt werden. Eine bestimmte Aktion kann sich auch auf verwandte Ressourcen auswirken.
 
 1. Öffnen Sie eine Registerkarte und klicken Sie dann auf die Objekt-ID , um die entsprechenden Variablen anzuzeigen.\
    ![](assets/approval-350x89.png)\

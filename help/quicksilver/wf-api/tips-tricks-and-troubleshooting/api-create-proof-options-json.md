@@ -5,8 +5,9 @@ title: Erweiterte Testoptionen mit der Adobe Workfront-API hinzufügen
 description: Erweiterte Testoptionen mit der Adobe Workfront-API hinzufügen
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Verwenden Sie einen der folgenden Workflows, um mithilfe der API Testversandopti
 
 In diesem Abschnitt wird beschrieben, wie Sie mithilfe einer Kombination aus Workfront- und ProofHQ-APIs einen Testversand mit erweiterten Testversandoptionen über die Workfront-API erstellen.
 
-Die ProofHQ-API enthält eine Reihe von Aktionen, die für Testsendungen in der Workfront-API nicht verfügbar sind. Mithilfe dieser Aktionen können Sie den Testversand präziser als in der Workfront-API verfügbar ändern oder konfigurieren.
+Die ProofHQ-API enthält eine Reihe von Aktionen, die für Testsendungen in der Workfront-API nicht verfügbar sind. Mithilfe dieser Aktionen können Sie den Testversand genauer ändern oder konfigurieren, als in der Workfront-API verfügbar ist.
 
 Einen Überblick über die ProofHQ-API finden Sie im Abschnitt [Übersicht über PoofHQ](../../proofhq-api/general/overview.md). Weitere Informationen finden Sie unter [Dokumentation zu ProofHQ](https://api.proofhq.com/home.html).
 
@@ -38,13 +39,13 @@ Einen Überblick über die ProofHQ-API finden Sie im Abschnitt [Übersicht über
 >* In der ProofHQ-API erstellte Testsendungen werden nicht automatisch mit Workfront verknüpft. Es wird daher empfohlen, in der Workfront-API Testsendungen zu erstellen, bevor diese mit der ProofHQ-API aktualisiert werden.
 >
 
-
 ### Erstellen eines Testversands mit erweiterten Testversandoptionen
 
 1. Erstellen Sie einen Testversand mit der `Document createProof` -Aktion in der Workfront-API.
 
    >[!NOTE]
-   Legen Sie bei der Erstellung des Testversands `{}` als Wert für die `advancedProofingOptions` Parameter.
+   >
+   Legen Sie bei der Erstellung des Testversands `{}` als Wert für die `advancedProofingOptions` -Parameter.
 
 1. Verwenden Sie nach der Erstellung des Testversands die ProofHQ-API, um alle erweiterten Optionen hinzuzufügen.
 
@@ -148,15 +149,17 @@ In diesem Abschnitt wird beschrieben, wie Sie einen Testversand mit erweiterten 
 
 ### Erstellen eines Testversands mit erweiterten Testversandoptionen
 
-Sie können Testsendungen über die Workfront-API erstellen, indem Sie die `Document createProof` Aktion. Diese Aktion akzeptiert die `advancedProofingOptions` -Parameter, der den Werttyp von `string`. So fügen Sie erweiterte Testversandoptionen in Ihre `createProof` -Aktion verwenden, müssen Sie die Optionen in die `advancedProofingOptions` im JSON-Format.
+Sie können Testsendungen über die Workfront-API erstellen, indem Sie die `Document createProof` Aktion. Diese Aktion akzeptiert die `advancedProofingOptions` -Parameter, der den Werttyp von `string`. So fügen Sie erweiterte Testversandoptionen in Ihre `createProof` -Aktion verwenden, müssen Sie die Optionen in die `advancedProofingOptions` -Parameter im JSON-Format.
 
 >[!NOTE]
+>
 Es kann schwierig sein, die Felder vorherzusagen, die in Ihre JSON für advancedProofingOptions einbezogen werden sollen. Möglicherweise möchten Sie die Netzwerkdaten Ihres Unternehmens untersuchen, während Sie erweiterte Testsendungen in Workfront verwenden, und Ihre JSON auf den Feldern und Werten basieren, die üblicherweise von Ihrem Unternehmen verwendet werden.
+>
 Da diese Felder schwer vorherzusagen sind, empfehlen wir, einen Testversand mithilfe der Workfront-API zu erstellen und ihn dann mithilfe der ProofHQ-API zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen eines Testversands mit den Workfront- und ProofHQ-APIs (empfohlen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in diesem Artikel
 
 ### Beispiel
 
-Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON für die `advancedProofingOptions` Parameter. Ihre `advancedProofingOptions` Die JSON-Datei kann mehr oder weniger Felder als hier angezeigt haben.
+Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON für die `advancedProofingOptions` -Parameter. Ihre `advancedProofingOptions` Die JSON-Datei kann mehr oder weniger Felder als hier angezeigt haben.
 
 **Beispiel:**
 

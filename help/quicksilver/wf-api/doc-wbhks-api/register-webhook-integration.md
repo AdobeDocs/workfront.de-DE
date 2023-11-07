@@ -6,8 +6,9 @@ title: Webhook-Integration registrieren
 description: Webhook-Integration registrieren
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 11%
@@ -44,8 +45,8 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
    <td>Der Name dieser Integration.</td> 
   </tr> 
   <tr> 
-   <td>Basis-API URL</td> 
-   <td> <p>Der Speicherort der Callback-API. Bei Aufrufen an das externe System hängt Workfront einfach den Endpunktnamen an diese Adresse an. Wenn der Administrator beispielsweise die Basis-API-URL "https://www.mycompany.com/api/v1"eingegeben hat, verwendet Workfront die folgende URL, um die Metadaten eines Dokuments zu erhalten: https://www.mycompany.com/api/v1/metadata?id=1234</p> </td> 
+   <td>Basis-API-URL</td> 
+   <td> <p>Der Speicherort der Callback-API. Bei Aufrufen an das externe System hängt Workfront einfach den Endpunktnamen an diese Adresse an. Wenn der Administrator beispielsweise die Basis-API-URL " https://www.mycompany.com/api/v1 "eingegeben hat, verwendet Workfront die folgende URL, um die Metadaten eines Dokuments zu erhalten: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Anforderungsparameter</td> 
@@ -57,11 +58,11 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
   </tr> 
   <tr> 
    <td>Authentifizierungs-URL</td> 
-   <td> <p>(Nur OAuth2) Die vollständige URL, die für die Benutzerauthentifizierung verwendet wird. Workfront navigiert Benutzer im Rahmen der OAuth-Bereitstellung zu dieser Adresse. Hinweis: Workfront hängt einen "state"-Parameter an die Abfragezeichenfolge an. Der Provider muss dies zurück an Workfront übergeben, indem er es an den Workfront-Weiterleitungs-URI anhängt.</p> </td> 
+   <td> <p>(Nur OAuth2) Die vollständige URL, die für die Benutzerauthentifizierung verwendet wird. Workfront navigiert Benutzer im Rahmen des OAuth-Bereitstellungsprozesses zu dieser Adresse. Hinweis: Workfront hängt einen "state"-Parameter an die Abfragezeichenfolge an. Der Provider muss dies zurück an Workfront übergeben, indem er es an den Workfront-Weiterleitungs-URI anhängt.</p> </td> 
   </tr> 
   <tr> 
    <td>Token Endpoint URL</td> 
-   <td> <p>(Nur OAuth2) Die vollständige API-URL, die zum Abrufen von OAuth2-Token verwendet wird. Dies wird vom Webhook-Provider oder externen Dokumentenanbieter gehostet</p> </td> 
+   <td> <p>(Nur OAuth2) Die vollständige API-URL, mit der OAuth2-Token abgerufen werden. Dies wird vom Webhook-Provider oder externen Dokumentenanbieter gehostet</p> </td> 
   </tr> 
   <tr> 
    <td>Client-ID</td> 
@@ -69,11 +70,11 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
   </tr> 
   <tr> 
    <td>Geheimer Client-Schlüssel</td> 
-   <td> <p>(Nur OAuth2) Das OAuth2-Client-Geheimnis für diese Integration</p> </td> 
+   <td> <p>(Nur OAuth2) Das OAuth2 Client Secret für diese Integration</p> </td> 
   </tr> 
   <tr> 
    <td>Workfront Redirect-URI</td> 
-   <td>(Nur OAuth2) Dies ist ein schreibgeschütztes Feld, das von Workfront generiert wird. Dieser Wert wird verwendet, um diese Integration beim externen Dokumentenanbieter zu registrieren. Hinweis: Wie oben für die Authentifizierungs-URL beschrieben, muss der Provider den Parameter "state"und seinen Wert bei der Durchführung der Umleitung an den Abfragezeichenfolgen anhängen.</td> 
+   <td>(Nur OAuth2) Dies ist ein schreibgeschütztes Feld, das von Workfront generiert wird. Dieser Wert wird verwendet, um diese Integration beim externen Dokumentenanbieter zu registrieren. Hinweis: Wie oben für die Authentifizierungs-URL beschrieben, muss der Provider den Parameter "state"und seinen Wert beim Ausführen der Umleitung an den Abfragezeichenfolgen anhängen.</td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 

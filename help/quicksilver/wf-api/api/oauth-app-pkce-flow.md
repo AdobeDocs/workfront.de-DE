@@ -5,8 +5,9 @@ title: PKCE-Fluss für OAuth 2-Anwendungen verwenden
 description: PKCE-Fluss für OAuth 2-Anwendungen verwenden
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Ein PKCE-Fluss umfasst die folgenden Schritte. Die Schritte in diesem Abschnitt 
 
 Bevor Sie die Autorisierung implementieren können, müssen Sie Ihre App in OAuth2 registrieren, indem Sie eine App-Integration aus Workfront erstellen.
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Erstellen des Testschlüssels für den Code Exchange
@@ -62,7 +63,7 @@ Ihr erster Schritt besteht darin, einen Code-Prüfer und eine Herausforderung zu
       <tr>
         <td role="rowheader">Code-Prüfer</td>
         <td>
-          <p>Zufällige URL-sichere Zeichenfolge mit einer Mindestlänge von 43 Zeichen</p>
+          <p>Zufällige URL-sichere Zeichenfolge mit mindestens 43 Zeichen</p>
         </td>
       </tr>
       <tr>

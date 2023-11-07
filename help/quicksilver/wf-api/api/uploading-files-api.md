@@ -5,8 +5,9 @@ title: Hochladen von Dateien über die API
 description: Hochladen von Dateien über die API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -39,6 +40,6 @@ Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen unter *
 }
 ```
 
-Sie sollten eine ID für das Objekt in der Antwort erhalten.
+Sie sollten eine ID für das -Objekt in der Antwort erhalten.
 
 Weitere Informationen finden Sie in der Hilfe des jeweiligen API-Tools, das Sie verwenden.

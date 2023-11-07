@@ -5,8 +5,9 @@ title: Best Practices für Ereignisabonnements
 description: Best Practices für Ereignisabonnements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -45,11 +46,11 @@ Um Payloads von Ereignisabonnenten über Ihre Firewall zu erhalten, müssen Sie 
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer:
 
-* Eine Zugriffsstufe **Systemadministrator**
+* Eine Zugriffsebene von **Systemadministrator**
 Weitere Informationen finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Ein API-Schlüssel
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->

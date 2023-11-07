@@ -5,11 +5,12 @@ title: Neue Funktionen in API Version 6
 description: Neue Funktionen in API Version 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 33%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 42%
 
 ## Aktualisierte Objekte
 
-Änderungen an vorhandenen Objekten: -Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen haben einen angehängten Hinweis nach der Tabelle.
+Änderungen an vorhandenen Objekten: Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen Objekten haben einen angehängten Hinweis nach der Tabelle
 
 ### Aktualisieren
 
@@ -60,14 +61,14 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten
 
-² hasFilters attribute changed to true
+<sup>2</sup> hasFilters -Attribut auf true geändert
 
  
 
@@ -76,16 +77,16 @@ ht-degree: 42%
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManager | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datumsvalidierung hinzugefügt
+<sup>1</sup> Datum hinzugefügt
 
-² Markierung NOT_FILTERABLE hinzugefügt
+<sup>2</sup> Markierung NOT_FILTERABLE hinzugefügt
 
  
 
@@ -93,9 +94,9 @@ ht-degree: 42%
 
 |   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,15 +106,15 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten
 
  
 
-### Genehmigungspfad¹
+### Validierungspfad<sup>1</sup>
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -126,13 +127,13 @@ ht-degree: 42%
 | isPrivate |   |   |   |   |   | Suchen |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ In MELDEPFLICHTIG geändert
+<sup>1</sup> Geändert zu &quot;Berichterstellbar&quot;
 
-² Max Length Validator hinzugefügt
+<sup>2</sup> Validator für die maximale Länge hinzugefügt
 
  
 
@@ -140,14 +141,14 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datumsvalidierung hinzugefügt
+<sup>1</sup> Datumsvalidierung hinzugefügt
 
-² Nicht-filterbares Flag hinzugefügt
+<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
@@ -159,7 +160,7 @@ ht-degree: 42%
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Nicht-filterbare Markierung hinzugefügt
+<sup>1</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
@@ -179,11 +180,11 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Nicht-filterbare Markierung hinzugefügt
+<sup>1</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
@@ -191,11 +192,11 @@ ht-degree: 42%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Markierung für Feld NO_TIME hinzugefügt
+<sup>1</sup> Felderkennzeichnung NO_TIME hinzugefügt
 
 ### Niedergangsereignis 
 
@@ -204,7 +205,7 @@ ht-degree: 42%
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ ht-degree: 42%
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -227,7 +228,7 @@ Benutzerdefinierte Enumeration 
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
 |   |   |   |   |   | taskGroupStatuses |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Dokument 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ Wechselkurs 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| rate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderung des PRÄZISION-Validators für 8 bis 9
+<sup>1</sup> Änderung des PRÄZISION-Validators für 8 bis 9
 
  
 
@@ -260,7 +261,7 @@ Wechselkurs 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,29 +269,29 @@ Wechselkurs 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Änderungen an möglichen Werten
+<sup>1</sup> Änderungen an möglichen Werten
 
  
 
-### Optask (Problem)¹ 
+### Optask (Problem)<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Als RESTORABLE gekennzeichnet
+<sup>1</sup> Als RESTORABLE gekennzeichnet
 
-² Nicht-filterbares Flag hinzugefügt
+<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
-### Projekt¹ 
+### Projekt<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -301,28 +302,28 @@ Wechselkurs 
 | Arbeit |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
+<sup>1</sup> Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
 
-² Nicht-filterbares Flag hinzugefügt
+<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
-### Aufgabe¹
+### Aufgabe<sup>1</sup>
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Als RESTORABLE gekennzeichnet
+<sup>1</sup> Als RESTORABLE gekennzeichnet
 
-² AT_DATE_YEAR_BEFORE -Validator hinzugefügt
+<sup>2</sup> AT_DATE_YEAR_BEFORE Validator hinzugefügt
 
-³ Nicht-filterbare Markierung hinzugefügt
+<sup>3</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
@@ -333,43 +334,43 @@ Wechselkurs 
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Vorlage¹ 
+### Vorlage<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   | resourceManager | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
+<sup>1</sup> Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
 
-### Vorlagenaufgabe¹ 
+### Vorlagenaufgabe<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Als RESTORABLE gekennzeichnet
+<sup>1</sup> Als RESTORABLE gekennzeichnet
 
-² Nicht-filterbares Flag hinzugefügt
+<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
 
  
 
-### Benutzer
+### Benutzerin oder Benutzer
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH-Geiger
+<sup>1</sup> MAX_LENGTH-Geiger
 
  
 
@@ -377,13 +378,13 @@ Wechselkurs 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Mögliche Werte geändert
+<sup>1</sup> Mögliche Werte geändert
 
-² hat Filter geändert zu `[true]`
+<sup>2</sup> Filter geändert zu `[true]`
 
  
 

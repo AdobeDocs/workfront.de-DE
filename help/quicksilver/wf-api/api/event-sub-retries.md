@@ -5,8 +5,9 @@ title: Wiederholungen von Ereignisabonnements
 description: Wiederholungen von Ereignisabonnements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Die folgenden Erläuterungen entsprechen den im Flussdiagramm dargestellten Schr
 
    Alle fehlgeschlagenen Zustellversuche werden protokolliert, sodass ein Debugging durchgeführt werden kann, um die Grundursache eines bestimmten Fehlers oder einer Reihe von Fehlern zu ermitteln.
 
-1. URL-Fehler wurden erhöht.
+1. URL-Fehler inkrementiert.
 1. Die Anzahl der Nachrichtenversuche wird erhöht.
 1. Berechnen Sie die Verzögerung, bis der Nachrichtenversand erneut versucht wird.
 1. Die Nachricht wird in die Warteschlange für erneute Zustellversuche eingefügt.

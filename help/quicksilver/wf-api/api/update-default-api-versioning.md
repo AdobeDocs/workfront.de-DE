@@ -5,8 +5,9 @@ title: Aktualisieren von Integrationen, die die standardmäßige API-Versionieru
 description: Aktualisieren von Integrationen, die die standardmäßige API-Versionierung verwenden
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -48,13 +49,13 @@ Um eine Standard-API-Anfrage in eine versionierte API-Anfrage umzuwandeln, rufen
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Beim Aktualisieren Ihrer Workfront API-Anfragen können Sie eine beliebige unterstützte Version unserer API angeben. Weitere Informationen zum Referenzieren einer bestimmten API finden Sie unter [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md).
+Beim Aktualisieren Ihrer Workfront-API-Anfragen können Sie eine beliebige unterstützte Version unserer API angeben. Weitere Informationen zum Referenzieren einer bestimmten API finden Sie unter [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md).
 
 Um das maximale Support-Fenster sicherzustellen, sollten Sie die neueste Version aufrufen. Eine Liste der unterstützten APIs finden Sie in [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
 
 ## Verlauf der Standardversion der API
 
-Die ursprüngliche Absicht der &quot;Standard-API&quot;bzw. &quot;Standard-API&quot;bestand darin, sie der neuesten Version der Workfront-API zuzuordnen. Dadurch können Kunden mit grundlegenden Integrationen mit dem Namen Default ihre API-Anfragen nie aktualisieren.
+Die ursprüngliche Absicht der &quot;Standard-API&quot;(Default) bestand darin, sie der neuesten Version der Workfront-API zuzuordnen. Dadurch können Kunden mit grundlegenden Integrationen mit dem Namen Default ihre API-Anfragen nie aktualisieren.
 
 Im Jahr 2011 veröffentlichte Workfront Version 3.0 der API. Der Standardwert wurde automatisch in Version 3.0 verschoben, wodurch viele Kundenintegrationen beschädigt wurden, die zu komplex waren, um Version 3.0 zu verwenden, ohne aktualisiert zu werden. Daher setzte Workfront diese Änderung zurück und ließ die Standardversion bei Version 2 zurück.
 

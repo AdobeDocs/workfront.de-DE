@@ -5,8 +5,9 @@ title: Neue Funktionen in API Version 14
 description: Adobe Workfront hat am 9. September 2021 die API-Version 14 veröffentlicht. API Version 14 enthält die folgenden Änderungen gegenüber Version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -30,7 +31,7 @@ Für API Version 14 wurden keine Ressourcen entfernt.
 Die folgenden Ressourcen wurden für API Version 14 geändert.
 
 * [BillingRecord (BILL)](#billingrecord-bill)
-* [Kategorie (CTGY)](#category-ctgy)
+* [Kategorie (KG)](#category-ctgy)
 * [CustomEnum (CSTEM)](#customenum-cstem)
 * [Kunde (CUST)](#customer-cust)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
@@ -48,7 +49,7 @@ Die folgenden Ressourcen wurden für API Version 14 geändert.
 
 Ein BillingRecord -Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die abgerechnet werden können. Diese Informationen können zur Erstellung von Rechnungen in einem externen Buchführungssystem verwendet werden.
 
-Weitere Informationen zu Rechnungsdatensätzen finden Sie unter [Rechnungsdatensätze erstellen](../../manage-work/projects/project-finances/create-billing-records.md).
+Weitere Informationen zu Rechnungsdatensätzen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../manage-work/projects/project-finances/create-billing-records.md).
 
 Das BillingRecord -Objekt hat die Markierung hinzugefügt **DATA_EXTENDIBLE**.
 
@@ -87,7 +88,7 @@ Das BillingRecord -Objekt hat die Markierung hinzugefügt **DATA_EXTENDIBLE**.
  </tbody> 
 </table>
 
-### Kategorie (CTGY) {#category-ctgy}
+### Kategorie (KG) {#category-ctgy}
 
 Ein Category -Objekt ist ein benutzerdefiniertes Formular.
 
@@ -109,7 +110,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
    <td role="rowheader">Aktionen</td> 
    <td> 
     <ul> 
-     <li> <p><b>isObjectFrozenInPendingApprovalStatus</b> </p> <p>Diese Aktion akzeptiert die Parameter objID und objCode und gibt einen booleschen Wert zurück.</p> </li> 
+     <li> <p><b>isObjectFrozenInPendingApprovalStatus</b> </p> <p>Diese Aktion akzeptiert die Parameter "objID"und "objCode"und gibt einen booleschen Wert zurück.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -182,7 +183,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe (GRUPPE) {#group-group}
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen stellen oft die Struktur der Abteilungen dar.
+Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
 Weitere Informationen zu Gruppen finden Sie unter [Gruppen vs. Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 

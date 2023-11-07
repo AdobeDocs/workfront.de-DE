@@ -5,8 +5,9 @@ title: Escapezeichen in API-Antworten
 description: Escapezeichen in API-Antworten
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 8%
@@ -15,7 +16,7 @@ ht-degree: 8%
 
 # Escapezeichen in API-Antworten
 
-Die Syntax einiger API-Antworten kann das Escape-Zeichen enthalten, `\` (umgekehrter Schrägstrich). Ein Escape-Zeichen zeigt an, dass das Zeichen oder die Zeichenfolge der Zeichen, die unmittelbar auf das Maskierungszeichen folgen, einen Sonderwert hat. Beispiel: `\t` teilt dem Lesegerät mit, dass `t` sollten als `tab` und nicht als Buchstaben &quot;t&quot;. Eine Zeichenfolge aus einem oder mehreren Zeichen nach dem umgekehrten Schrägstrich wird als Escape-Sequenz bezeichnet.
+Die Syntax einiger API-Antworten kann das Escape-Zeichen enthalten, `\` (umgekehrter Schrägstrich). Ein Escape-Zeichen zeigt an, dass das Zeichen oder die Zeichenfolge der Zeichen, die unmittelbar auf das Maskierungszeichen folgen, einen Sonderwert hat. Beispiel: `\t` teilt dem Lesegerät mit, dass `t` sollten so ausgelegt werden, dass `tab` und nicht als Buchstaben &quot;t&quot;. Eine Zeichenfolge aus einem oder mehreren Zeichen nach dem umgekehrten Schrägstrich wird als Escape-Sequenz bezeichnet.
 
 Hexadezimale Escapesequenzen erfordern die Verwendung gültiger Hexadezimalziffern. In der folgenden Tabelle sind die Escape-Sequenzen aufgeführt, die in Adobe Workfront-API-Antworten kodiert sind:
 

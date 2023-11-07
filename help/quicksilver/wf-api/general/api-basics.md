@@ -5,8 +5,9 @@ title: API-Grundlagen
 description: API-Grundlagen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -122,16 +123,22 @@ Die API verwendet dieselbe Cookie-basierte Authentifizierung, die von der Web-Be
 ## Anmeldung
 
 >[!IMPORTANT]
+>
 Workfront empfiehlt nicht mehr die Verwendung der `/login` -Endpunkt oder API-Schlüssel. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
+>
 * Serverauthentifizierung mit JWT
 * Benutzerauthentifizierung mit OAuth2
 >
-Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 Anweisungen zur Verwendung der Serverauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md)
+>
 Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
-Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Business Platform integriert wurde.
+>
+Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde.
+>
 Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Mit einem gültigen Benutzernamen und Kennwort können Sie die folgende Anfrage verwenden, um eine Sitzungs-ID zu erhalten:
@@ -143,6 +150,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 Dadurch wird ein Cookie gesetzt, um zukünftige Anforderungen zu authentifizieren und eine JSON-Antwort mit der neu erstellten sessionID, der Benutzer-ID des angemeldeten Benutzers und anderen Sitzungsattributen zurückzugeben.
 
 >[!NOTE]
+>
 Wenn Sie über einen bestimmten API-Benutzer verfügen, der auch Administrator ist, empfiehlt Workfront dringend, sich mit einem API-Schlüssel anzumelden.
 
 **Generieren eines API-Schlüssels**
@@ -195,7 +203,7 @@ So melden Sie einen Benutzer ab:
 
 1. Navigieren Sie zu Ihrem Anmeldebildschirm, melden Sie sich jedoch nicht an.
 1. Ändern Sie die URL in /attask/api/v15.0/project/search.\
-   Beachten Sie, dass die Seite nicht gefunden werden kann.
+   Beachten Sie, dass die Seite nicht gefunden wird.
 1. Ersetzen Sie das Wort *suchen* mit login?username=admin&amp;password=user, ersetzen Ihren Benutzernamen und Ihr Kennwort für *admin* und *user\
    *Diese Sitzung wird im Browser als Cookie gespeichert und muss nicht bei jeder nachfolgenden GET-Anfrage neu angegeben werden.
 
@@ -220,7 +228,7 @@ Wenn Sie die ID eines Objekts kennen, können Sie das Objekt abrufen, indem Sie 
 GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 ```
 
-gibt eine Antwort zurück, die der folgenden ähnelt:
+gibt eine Antwort ähnlich der folgenden zurück:
 
 <pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Brand New Project",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
 
@@ -268,13 +276,14 @@ In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit 
 | get | gibt Ergebnisse zurück, deren vollständige Prozent größer als oder gleich 50 ist | <pre>...percentComplete=50&amp;percentComplete_Mod=get..</pre> |
 | lte | gibt Ergebnisse zurück, deren Prozentsatz vollständig kleiner als oder gleich 50 ist | <pre>...percentComplete=50&amp;percentComplete_Mod=lte..</pre> |
 | isnull | gibt Ergebnisse zurück, bei denen die Beschreibung null ist | <pre>...description_Mod=isnull..</pre> |
-| notnull | gibt Ergebnisse zurück, bei denen die Beschreibung nicht Null ist | <pre>...description_Mod=notnull ...</pre> |
+| notnull | gibt Ergebnisse zurück, bei denen die Beschreibung nicht Null ist | <pre>...description_Mod=notnull..</pre> |
 | enthält | gibt Ergebnisse zurück, bei denen der Name &quot;Workfront&quot;enthält. | <pre>...name=Workfront&amp;name_Mod=contains..</pre> |
 | zwischen | gibt Ergebnisse zurück, die innerhalb der letzten 7 Tage ein Einstiegsdatum haben. | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
+>
 Bei Suchanfragen wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie einen Fehler erhalten, stellen Sie sicher, dass  **_Mod** und **_Range** die richtige Groß-/Kleinschreibung aufweisen.
 
 #### Verwenden von ODER-Anweisungen
@@ -293,29 +302,30 @@ verwenden Sie dann den folgenden API-Aufruf mit mehreren ODER-Anweisungen:
 <pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:Portfolio:name=FixedAssets<br>&amp;OR:1:Portfolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
 </pre>
 
-#### Verwenden von Filterparametern
+#### Filterparameter verwenden
 
 Ein potenzieller Fehler bei der Verwendung von URL-Parametern für Suchfilter besteht darin, dass Workfront bestimmte Parameter analysiert, bevor nach verschiedenen Authentifizierungsmethoden gesucht wird (z. B. Benutzername, Kennwort, apiKey, Cookie). In diesem Fall werden die Parameter nicht als Filter im Aufruf verwendet. 
 
 Um dieses Problem zu vermeiden, können Sie diese Werte in Filterparametern mit JSON-Formatierung platzieren. Wenn Sie beispielsweise nach dem Benutzernamen-Testbenutzer filtern möchten, anstatt 
-<pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>den URL-Parameter in einen Filter übergeben, wie im folgenden Beispiel gezeigt:
+<pre>/attask/api/v15.0/user/search?Benutzername=testuser@workfront.com</pre>den URL-Parameter in einen Filter übergeben, wie im folgenden Beispiel gezeigt:
 <pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
 #### Verwenden des Map Request-Parameters
 
 Standardmäßig sind die von einer Suche zurückgegebenen Daten ein JSON-Array. Je nach Anwendungsfall kann es effizienter sein, das Ergebnis als JSON-Objekt nach ID zu indizieren. Dies kann mithilfe des map -Anforderungsparameters erfolgen. Beispielsweise die Anfrage 
 <pre>/attask/api/v15.0/task/search?map=true</pre>gibt eine Antwort zurück, die nach ID indiziert ist, ähnlich der folgenden:
-<pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEU",<br>            "name": "erste Aufgabe",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "zweite Aufgabe",<br>            "ID": "4ca28ba60002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba60002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### Verwenden des Feldanfrageparameters
 
-Beim Abrufen eines Objekts wird standardmäßig nur die am häufigsten verwendete Teilmenge von Feldern zurückgegeben.
+Beim Abrufen eines Objekts werden standardmäßig nur die am häufigsten verwendeten Felder zurückgegeben.
 
 Sie können den Feldanforderungsparameter verwenden, um eine kommagetrennte Liste bestimmter Felder anzugeben, die zurückgegeben werden. Beispielsweise die Anfrage
-<pre>/attask/api/v15.0/task/search?fields=scheduledStartDate,priority</pre>gibt eine Antwort zurück, die der folgenden ähnelt:
-<pre>{<br>    "priority": 2,<br>    "name": "erste Aufgabe",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "scheduledStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
+<pre>/attask/api/v15.0/task/search?fields=scheduledStartDate,priority</pre>gibt eine Antwort ähnlich der folgenden zurück:
+<pre>{<br>    "priority": 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "scheduledStartDate": "2010-08-30T09":00:00:000-060" <br>}</pre>
 
 >[!NOTE]
+>
 Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
 Eine Liste möglicher Feldverweise finden Sie unter  [API-Explorer](../../wf-api/general/api-explorer.md)
@@ -325,7 +335,7 @@ Eine Liste möglicher Feldverweise finden Sie unter  [API-Explorer](../../wf-ap
 Sie können nach verschachtelten Objekten suchen. Standardmäßig werden verschachtelte Objekte nur mit dem Namen und der ID zurückgegeben. Um beispielsweise alle Probleme zusammen mit den Eigentümern abzurufen, verwenden Sie die folgende Anfrage:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Wenn weitere Informationen erforderlich sind, können Sie ein verschachteltes Feld mit Doppelpunkt-Syntax anfordern. Die folgende Anfrage sucht beispielsweise nach allen Problemen zusammen mit dem Namen, der ID, dem Titel und der Telefonnummer des Eigentümers.
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>und gibt Folgendes zurück: 
-<pre>{<br>    "name": "ein wichtiges Thema",<br>    "ID": "4c78285f0000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Betriebsspezialist",<br>        "phoneNumber": ‚555-1234‘,<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "name": "ein wichtiges Problem",<br>    "ID": "4c78285f0000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Abrufen verschachtelter Sammlungen
 
@@ -342,16 +352,16 @@ Standardmäßig werden nur der Name und die ID jeder Aufgabe zurückgegeben, es 
 
 Sie können benutzerdefinierte Datenfelder mit dem Präfix &quot;DE:&quot;abrufen. Um beispielsweise ein Projekt mit einem Parameter namens &quot;CustomText&quot;anzufordern, verwenden Sie die folgende Anfrage:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die
-<pre>{<br>    "name": "benutzerdefiniertes Datenprojekt",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "Aufgabe b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld parameterValues anfordern. Beispiel, 
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld parameterValues anfordern. Beispiel, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>gibt ähnliche Daten wie die folgenden zurück:
-<pre>{<br>    "name": "benutzerdefiniertes Datenprojekt",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "Aufgabe b", <br>        "DE:CustomNumber": 1.4 <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### Verwenden von benannten Abfragen
 
 Einige Objektarten haben spezifische Suchen, die häufig ausgeführt werden und verfügbar sind, indem der Name der Abfrage an das Ende des URI des Objekttyps angehängt wird. Beispielsweise ruft die folgende Anfrage die Arbeitselemente (Aufgaben und Probleme) ab, denen der Benutzer derzeit zugewiesen ist:
 <pre>/attask/api/v15.0/work/myWork</pre>Named-Abfragen unterstützen das Anfordern des Feldparameters, um zusätzliche Felder abzurufen. Einige benannte Abfragen akzeptieren auch zusätzliche Filter. Eine Liste der zulässigen benannten Abfragen und Objekte finden Sie auf der Registerkarte Aktion für das Objekt im [API Explorer](../../wf-api/general/api-explorer.md).
 
-#### Verwenden des Filters Zählung
+#### Verwenden des Filters &quot;Zählung&quot;
 
 Sie können die Anzahl der Ergebnisse angeben, die von einer bestimmten Suche zurückgegeben werden sollen. Dadurch kann der Server die Anforderung schneller verarbeiten und Bandbreite sparen. Beispielsweise die Anfrage
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>gibt die Anzahl der Ergebnisse im folgenden Format zurück:
@@ -361,8 +371,8 @@ Sie können die Anzahl der Ergebnisse angeben, die von einer bestimmten Suche zu
 
 Sie können eine Berichtsanforderung durchführen, bei der nur das Aggregat eines Felds mit einer oder mehreren Gruppierungen gewünscht wird. Wie im folgenden Beispiel gezeigt, entspricht die Berichtssyntax der SOAP-API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>, das das folgende Ergebnis zurückgibt
-<pre>{<br>    "Erstes Projekt": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Durch Hinzufügen des Parameters $$ROLLUP=true wird auf jeder Gruppierungsebene ein Gesamtwert angegeben:
-<pre>{<br>    "Erstes Projekt": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
+<pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Durch Hinzufügen des Parameters $$ROLLUP=true wird auf jeder Gruppierungsebene ein Gesamtwert angegeben:
+<pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### Sortieren von Abfrageergebnissen in der API
 
@@ -374,7 +384,7 @@ Wenn Sie beispielsweise nach Aufgabe Geplantes Startdatum sortieren möchten, en
 
 Dies funktioniert für die meisten Felder in Workfront.
 
-### Berücksichtigung von Abfragebeschränkungen
+### Abfragebeschränkungen berücksichtigen
 
 Bei der Abfrage eines Objekts sollten die Beziehung verwandter Objekte und Suchbeschränkungen besonders berücksichtigt werden. Beispielsweise kann eine Abfrage nach Projekten, wie in der folgenden Tabelle dargestellt, maximal 2.000 Projekte zurückgeben. Diese 2.000 Projekte gelten als &quot;primäre Objekte&quot;. Wenn Sie in den Projekten das Feld Aufgaben abfragen, wird das Feld Aufgaben (eine Sammlung) zum sekundären Objekt des primären Objektprojekts. Eine Abfrage für das Feld Aufgaben kann Tausende von Aufgaben für Projekte enthalten. Insgesamt kann die kombinierte Anzahl der zurückgegebenen Objekte (Projekte und Aufgaben) 50.000 nicht überschreiten.
 
@@ -400,7 +410,7 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
   <tr> 
    <td>Max. Anzahl an Ergebnissen</td> 
    <td>2,000</td> 
-   <td>Der Abfragefilter (d. h. $$LIMIT) kann maximal 2000 Ergebnisse zurückgeben. Weitere Informationen finden Sie unter "Paginierte Antworten".</td> 
+   <td>Der Abfragefilter (d. h. $$LIMIT) kann maximal 2000 Ergebnisse zurückgeben. Weitere Informationen finden Sie unter "Seitenbezogene Antworten".</td> 
   </tr> 
   <tr> 
    <td>Max. Feldtiefe</td> 
@@ -444,7 +454,7 @@ Verwenden Sie einen Sortierparameter, um sicherzustellen, dass Ihre Ergebnisse k
 Sie können eine Zugriffsregel erstellen, um zu bestimmen, wer auf ein Objekt zugreifen kann. Im Folgenden finden Sie Beispiele für Zugriffsregeln, die Sie festlegen können:
 
 Um ein Projekt so festzulegen, dass es nur für einen Benutzer mit der ID &quot;abc123&quot;freigegeben wird, verwenden Sie die folgende Anfrage:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: "abc123", accessorObjCode: 'USER', coreAction: 'VIEW'} } }</pre>Alternativ können Sie nur für eine neue Person freigeben und vorhandene Berechtigungen beibehalten:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternativ können Sie nur für eine neue Person freigeben und vorhandene Berechtigungen beibehalten:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>So rufen Sie die vorhandenen Zugriffsregeln ab:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
@@ -470,7 +480,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 Sie können Dokumente über die folgende API-URL hochladen:
 <pre>POST /attask/api/v15.0/upload</pre>Die API erwartet, dass der Inhaltstyp mehrteilige Formulardaten ist. Der Parametername für die Datei muss uploadedFile sein. Der Server gibt die folgenden JSON-Daten zurück:
 <pre>{<br>    "handle": "4c7c08fa000002ff924e298ee148df4"<br>}</pre>Sie können beim Erstellen eines Workfront-Dokuments das Handle verwenden und an die folgende URL posten:
-<pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, (Handle aus dem Datei-Upload)<br>    docObjCode: PROJ, (oder TASK, OPTASK usw.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, (handle vom Datei-Upload)<br>    docObjCode: PROJ, (oder TASK, OPTASK usw.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## PUT-Verhalten
 
@@ -486,14 +496,15 @@ Aktualisierungen von Objekten erfolgen immer per ID unter Verwendung des eindeut
 ### Angeben von JSON-Bearbeitungen
 
 Wie im folgenden Beispiel gezeigt, können Sie den Parameter für Aktualisierungsanfragen verwenden, um die Felder anzugeben, die mit der JSON-Syntax aktualisiert werden sollen:
-<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br>     name: "Neuer Projektname", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br>     name: "New Project Name", <br>     Status: "CUR", <br>     ... <br>}</pre>
 
 ### Verschachtelte Aktualisierungen vornehmen
 
 Einige Objekte verfügen über private Sammlungen, die aktualisiert werden können. Das folgende Beispiel zeigt beispielsweise, wie die vorhandenen Zuweisungen für eine bestimmte Aufgabe überschrieben werden:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>    Zuweisungen: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>    Zuweisungen: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
+>
 Während Aktualisierungen auf der obersten Ebene gering sind, ersetzen Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt die vorhandene Sammlung vollständig. Um eine einzelne Zuweisung einer Aufgabe zu bearbeiten, ohne die Objekte zu beeinträchtigen, verwenden Sie PUT für die Zuweisung und nicht für die Aufgabe.
 
 Im folgenden Beispiel wird ein Projekt zur Warteschlange eines öffentlichen Helpdesk. Beachten Sie, dass die vorhandenen Warteschlangeneigenschaften ersetzt werden.
@@ -507,11 +518,11 @@ Einige Objekte unterstützen zusätzliche Aktionen, die zusätzlich zu einfachen
 ### Verschieben von Objekten
 
 Im Folgenden wird die Syntax zum Verschieben einer Aufgabe von einem Projekt in ein anderes veranschaulicht:
-<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8...</pre>Ein Beispiel für jeden Aktionstyp finden Sie hier: (??)
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8...</pre>Ein Beispiel für jeden Aktionstyp finden Sie hier: (???)
 <pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Nur die Aktion Verschieben erfordert die Identifizierung zusätzlicher Attribute, um das Projekt anzugeben, in das das Arbeitselement verschoben werden soll.
 
 Im Folgenden finden Sie ein Beispiel für jeden Aktionstyp: 
-<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: "abc123", accessorObjCode: 'USER', coreAction: 'VIEW'}}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}}</pre>
 
 ### Freigeben von Objekten
 
@@ -529,9 +540,10 @@ DELETE entfernt ein Objekt. In jedem Fall kann der URI den Parameter force=true 
 
 Eine Massen-Update-Anweisung aktualisiert mehrere Objekte gleichzeitig in einem einzelnen API-Aufruf. Ein Bulk-create-API-Aufruf wird ähnlich wie ein normaler Update-Aufruf erstellt, wie in den folgenden Beispielen gezeigt:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>, was zu einer Rückgabe ähnlich der folgenden führt:
-<pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>Sie können auch eine Massenaktualisierung vornehmen, die in etwa wie folgt aussieht:
+<pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompleteDate: "2014-08-28T11:00:00:000-0400"<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400"<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:12:00:000-0400"<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    scheduledCompleteDate: "2014-08-28T11:00:00:000-0400"<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400"<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:12:00:000-0400"<br>    status: "CUR"<br>}]</pre>Sie können auch eine Massenaktualisierung vornehmen, die in etwa wie folgt aussieht:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Bearbeiten"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>, was zu einer Rückgabe ähnlich der folgenden führt:
-<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>     Priorität: 0,<br>     forecastCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Wenn Sie möchten, dass alle Vorgänge in derselben Transaktion stattfinden, fügen Sie "atomic=true"zu Ihrem Batch-API-Aufruf als Anforderungsparameter hinzu. Auf diese Weise wurden alle Vorgänge zurückgesetzt, wenn einer der Vorgänge fehlschlägt.
+<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     scheduledCompleteDate: "2014-08-28T11:00:00:000-0400"<br>     scheduledStartDate: "2014-08-28T11:00:00:000-0400"<br>     Priorität: 0,<br>     forecastCompletionDate: "2014-08-28T16:16:00:000-0400"<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    scheduledCompleteDate: "2014-08-28T11:00:00:000-0400"<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400"<br>    Priorität: 0,<br>    forecastCompletionDate: "2014-08-28T16:16:00:000-0400"<br>    status: "CUR"<br>}]</pre>Wenn Sie möchten, dass alle Vorgänge in derselben Transaktion stattfinden, fügen Sie "atomic=true"zu Ihrem Batch-API-Aufruf als Anforderungsparameter hinzu. Auf diese Weise wurden alle Vorgänge zurückgesetzt, wenn einer der Vorgänge fehlschlägt.
 
 >[!NOTE]
-Atomische Batch-Vorgänge können nur &quot;success: &quot;true&quot;oder ein Fehler.
+>
+Atomische Batch-Vorgänge können nur &quot;success: true&quot;oder einen Fehler zurückgeben.

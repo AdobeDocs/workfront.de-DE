@@ -6,8 +6,9 @@ title: Verwenden der API zum Synchronisieren von Daten für Programme und Dienst
 description: Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Adobe Workfront verwendet &quot;Ereignisabos&quot;(auch häufig als Webhooks bez
 
 ## Batch-Aktualisierungen
 
-Mit Batch-Aktualisierungen können Sie Ihr System für Aktualisierungen konfigurieren, indem Sie regelmäßige Anfragen an Workfront-Server richten. Es gibt viele Möglichkeiten, dies zu tun. Im Allgemeinen besteht der Prozess jedoch darin, dass Ihr Dienst eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anfrageaufruf erstellt oder geändert wurden. Informationen zu potenziellen Anforderungsaufrufen und hilfreichen Parametern finden Sie unter [Verhalten der GET](../../wf-api/general/api-basics.md#get-behavior) aus dem Abschnitt [API-Grundlagen](../../wf-api/general/api-basics.md) Artikel.
+Mit Batch-Aktualisierungen können Sie Ihr System für Aktualisierungen konfigurieren, indem Sie regelmäßige Anfragen an Workfront-Server richten. Es gibt viele Möglichkeiten, dies zu tun. Im Allgemeinen besteht der Prozess jedoch darin, dass Ihr Dienst eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anfrageaufruf erstellt oder geändert wurden. Informationen zu potenziellen Anforderungsaufrufen und hilfreichen Parametern finden Sie unter [Verhalten der GET](../../wf-api/general/api-basics.md#get-behavior) aus dem [API-Grundlagen](../../wf-api/general/api-basics.md) Artikel.
 
 Beachten Sie beim Einrichten Ihres Dienstes für Batch-Aktualisierungen Folgendes:
 

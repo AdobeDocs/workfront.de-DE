@@ -5,8 +5,9 @@ title: API-Version in Ihren Integrationen angeben
 description: API-Version in Ihren Integrationen angeben
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Alle Adobe Workfront-URIs sollten auf eine bestimmte Version der API nach dem &q
 
 Stellen Sie sicher, dass alle Integrationen die derzeit unterstützten Workfront-APIs aufrufen.
 
-## Veröffentlichungs- und Veraltungszeitplan für Workfront-APIs
+## Veröffentlichungs- und Veraltungsplan für Workfront-APIs
 
 Neue Versionen der API werden regelmäßig veröffentlicht, in der Regel zweimal jährlich. Jede Version wird drei Jahre nach ihrem Veröffentlichungsdatum unterstützt, wobei ein zusätzliches Jahr veraltet ist und die Version zwar verfügbar, aber nicht unterstützt wird.
 
@@ -29,7 +30,7 @@ Weitere Informationen zum Veröffentlichungsintervall und zur Einstellung der Ve
 
 >[!IMPORTANT]
 >
->* Die Standardversion der API wird auf die neueste Version festgelegt. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. **Daher sollten nach der Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird.**
+>* Die Standardversion der API wird auf die neueste Version festgelegt. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. **Daher sollten nach Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird.**
 >
 >* Wenn Ihr Unternehmen derzeit die Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
 >
@@ -57,7 +58,7 @@ Beim Erstellen oder Verwalten von Workfront-Integrationen sollten Sie eine Metho
 Um die Aktualisierung von Integrationen effizienter zu gestalten, sollten Sie die folgenden Vorschläge für die Aufzeichnung von Integrationswerten berücksichtigen:
 
 * Store-Werte, die künftigen Änderungen in einer Eigenschaftendatei unterliegen, die Sie aktualisieren
-* Erstellen eines Webdiensts zur Verwaltung von Eigenschaften in Echtzeit
+* Erstellen Sie einen Webdienst, um Eigenschaften in Echtzeit zu verwalten
 * Store-Eigenschaftswerte in einem Datenspeicher, den Ihre Anwendung lesen kann
 
 Durch die Konzeption Ihrer Workfront-Integrationen mit diesem Ziel wird die Notwendigkeit umfangreicher Entwicklungsarbeiten entlastet, wenn sich diese Werte unweigerlich ändern.
