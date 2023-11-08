@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 1%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 1%
          * [Benutzerattribute zuordnen](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Deaktivieren eines Benutzers](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Benutzer löschen](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Auditprotokolle](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Audit-Protokolle](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Audit-Protokolle anzeigen und exportieren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Anzeigen von Benutzeranmeldedaten](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -767,6 +767,7 @@ ht-degree: 1%
    * Verwaltung in der Adobe Admin Console {#admin-in-admin-console}
       * [Workfront-Verwaltung in Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Vorbereitung auf die Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Grundlegendes zur Produkt- und Benutzermigration von Workfront zu Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Tipps, Tricks und Fehlerbehebung für Verwaltung und Einrichtung {#admin-setup-tips}
       * [Tipps, Tricks und Fehlerbehebung](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Gruppenadministratoren müssen einen höheren Zugriff haben als die von ihnen verwalteten](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 1%
    * [Bericht- erstellung](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Berichtsarbeitsfläche {#reporting-canvas}
       * [Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Berichte verwalten {#manage-reports}
+      * Verwalten von Berichten {#manage-reports}
          * [Berichte verwalten - Übersicht](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Erstellen eines Berichts auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Bericht in Berichtsarbeitsfläche exportieren](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
