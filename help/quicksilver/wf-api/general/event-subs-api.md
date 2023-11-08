@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Dashboard
 * Dokument
 * Ausgabe
+* Feld
 * Stunde
 * Problem
 * Notiz
 * Portfolio
 * Programm
 * Projekt
+* Datensatz
+* Eintragstyp
 * Bericht
 * Aufgabe
 * Vorlage
@@ -122,6 +125,10 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Feld</p></td> 
+        <td scope="col"><p>FELD</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Stunde</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -144,6 +151,14 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        <tr> 
         <td scope="col"><p>Projekt</p></td> 
         <td scope="col"><p>PROJ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Datensatz</p></td> 
+        <td scope="col"><p>AUFZEICHNUNG</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Eintragstyp</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Bericht</p></td> 
