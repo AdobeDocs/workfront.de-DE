@@ -3,21 +3,21 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Berechnete benutzerdefinierte Daten in Berichten
-description: Dieser Abschnitt enthält die folgenden Artikel - "EDIT ME".
+description: Sie können Berichte mithilfe berechneter benutzerdefinierter Daten erstellen.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # Berechnete benutzerdefinierte Daten in Berichten
 
-Dieser Abschnitt enthält die folgenden Artikel:
+Sie können Berichte mithilfe berechneter benutzerdefinierter Daten erstellen. In den folgenden Artikeln wird beschrieben, wie:
 
 * [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Berechnete benutzerdefinierte Felder vs. berechnete Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)

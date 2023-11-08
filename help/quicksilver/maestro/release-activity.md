@@ -1,13 +1,13 @@
 ---
 title: Adobe Maestro-Release-Aktivität
-description: Verwenden Sie Maestro, um benutzerdefinierte Objekte, Felder und Arbeitsbereiche zu erstellen.
+description: Adobe Maestro ist derzeit für ausgewählte Workfront-Kunden verfügbar. Lesen Sie diesen Artikel oft, um mehr über die Funktionen zu erfahren, die kürzlich für Adobe Maestro veröffentlicht wurden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichu
 In diesem Abschnitt werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
+
+## Woche vom 6. November 2023
+
+### Gruppierung für die Tabellenansicht
+
+Vorschau und Produktion: 7. November 2023
+
+Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Maestro-Oberfläche nach drei eindeutigen Feldern gruppieren <!--checking into this for now: and by four fields when using the API-->.
+
+Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
 
 ## Woche vom 30. Oktober 2023
 

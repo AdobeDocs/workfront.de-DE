@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ Beachten Sie Folgendes:
      * Edit record information
 -->
 
-Beim Erstellen einer Timeline-Ansicht werden standardmäßig alle Datensätze des ausgewählten Datensatztyps in einer Timeline als Balken angezeigt.
-
 So verwalten Sie eine Timeline-Ansicht:
 
 1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie die Timeline anzeigen möchten.
@@ -129,7 +127,7 @@ So verwalten Sie eine Timeline-Ansicht:
 
    ![](assets/timeline-view-example.png)
 
-   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einer chronologischen Zeitleiste als Balken angezeigt.
+   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einer Timeline als Balken angezeigt und sind standardmäßig in chronologischer Reihenfolge sortiert.
 
 1. Führen Sie einen der folgenden Schritte aus, um durch die Timeline zu navigieren:
 
@@ -176,26 +174,22 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
 ### Gruppierung hinzufügen
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Sie können Datensätze nach ähnlichen Informationen gruppieren, wenn Sie eine Gruppierung auf eine Ansicht anwenden.
 
+Das Hinzufügen von Gruppierungen in der Timeline-Ansicht ähnelt dem Hinzufügen von Gruppierungen zur Tabellenansicht.
+
 Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
 * Sie können in einer Maestro-Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
 * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden.
 * Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
-
 * Sie können die für eine Timeline-Ansicht erstellten Gruppierungen nicht benennen.
-
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 
-So fügen Sie eine Gruppierung hinzu:
+So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 
 1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 1. Klicks **Gruppierung** in der rechten oberen Ecke der Timeline-Ansicht.
@@ -218,7 +212,7 @@ So fügen Sie eine Gruppierung hinzu:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Klicken Sie auf die **x** rechts neben einem Feld, das zum Entfernen der Gruppierung ausgewählt wurde
+1. (Optional) Innerhalb des **Gruppiert Datensätze nach** und klicken Sie auf das **x** rechts neben einem Feld, das zum Entfernen der Gruppierung ausgewählt wurde
 
    Oder
 

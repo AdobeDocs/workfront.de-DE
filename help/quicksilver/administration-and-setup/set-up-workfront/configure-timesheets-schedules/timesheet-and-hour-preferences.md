@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Als [!DNL Adobe Workfront] Administrator können Sie die Voreinstellungen für Timesheets und Stunden in [!DNL Workfront] um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Elemente, für die Sie die Zeit während des Zeitrahmens des Zeitblatts protokolliert haben, werden standardmäßig im Zeitblatt angezeigt, obwohl sie die in diesem Artikel beschriebenen Bedingungen für das Vorausfüllen des Zeitblatts möglicherweise nicht erfüllen.
+>Zusätzlich zu den Artikeln, die ein Timesheet gemäß den in diesem Artikel beschriebenen Bedingungen vorab ausfüllen, werden die folgenden Elemente standardmäßig auch auf Timesheets angezeigt:
+>* Elemente, bei denen Sie die Zeit im Zeitrahmen des Zeitblatts protokolliert haben
+>* Elemente, die auf das Zeitblatt geschrieben sind
+>* Elemente, nach denen Sie suchen und die Sie manuell zum Timesheet hinzufügen. Manuell hinzugefügte Elemente werden standardmäßig fixiert.
 >
->Informationen zur Protokollierungszeit finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Alle Änderungen, die Sie an Timesheets vornehmen, wirken sich auf alle in der Zukunft erstellten Timesheets aus.

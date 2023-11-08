@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Zeit- und Datumsunterschiede berechnen'''
-description: Sie können den Unterschied zwischen den folgenden - BEARBEITEN SIE MICH.
+title: "Ansicht: Unterschiede bei Uhrzeit und Datum berechnen"
+description: Erstellen Sie eine Ansicht, die den Unterschied zwischen zwei Datumsfeldern in einem Objekt oder zwischen einem Datumsfeld in einem Objekt und einem anderen Datumsfeld in dem übergeordneten Objekt anzeigt.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Sie können die Zeit- und Datumsdifferenz in Adobe Workfront nicht zwischen zwei verschiedenen Objekten desselben Typs berechnen. Sie können beispielsweise nicht die Differenz zwischen zwei Daten zu zwei verschiedenen Projekten, Aufgaben oder Problemen berechnen.
+>Sie können die Zeit- und Datumsdifferenz in Adobe Workfront nicht zwischen zwei verschiedenen Objekten desselben Typs berechnen. Sie können beispielsweise nicht die Zeit- und Datumsdifferenz zwischen zwei Daten aus zwei verschiedenen Projekten, Aufgaben oder Problemen berechnen.
 
-Sie können den Unterschied zwischen folgenden Werten berechnen:
+Sie können den Unterschied zwischen den folgenden Werten berechnen:
 
 * Zeit- und Datumsdifferenz zwischen zwei Datumsfeldern im selben Objekt
 * Die Zeit- und Datumsdifferenz zwischen dem Feld eines Objekts und einem anderen Feld des übergeordneten Objekts
@@ -70,11 +70,11 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
 1. Gehen Sie zu einer Liste von Aufgaben.
 1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Tatsächliches Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Tatsächliches Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
+1. Klicks **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
 
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
@@ -83,7 +83,7 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
    displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
    ```
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.
 
 ## Berechnung der Zeit- und Datumsdifferenz zwischen dem Feld eines Objekts und einem anderen Feld eines übergeordneten Objekts
 
@@ -95,25 +95,25 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
 1. Gehen Sie zu einer Liste von Aufgaben.
 1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projekt geplant Abschlussdatum&quot;oder &quot;Übergeordnetes Abschlussdatum&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projekt geplant Abschlussdatum&quot;oder &quot;Übergeordnetes Abschlussdatum&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
+1. Klicks **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
 
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch einen der folgenden Codes:
 
    * So zeigen Sie den Unterschied zwischen dem geplanten Abschlussdatum des Projekts und dem der Aufgabe an:
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * So zeigen Sie den Unterschied zwischen dem geplanten Abschlussdatum der übergeordneten Aufgabe und dem der Aufgabe an:
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.
