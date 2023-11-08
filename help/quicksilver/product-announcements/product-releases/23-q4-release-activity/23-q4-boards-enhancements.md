@@ -3,9 +3,10 @@ title: Verbesserungen an den Foren des vierten Quartals 2023
 description: Verbesserungen an den Foren des vierten Quartals 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 4a527328-df5d-446a-899c-a613131c7001
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,10 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vier
 Weitere Informationen zum Opt-in für neue Foren-Funktionen vor der vierteljährlichen Veröffentlichung finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Auf Adobe Workfront-Pinnwänden jetzt verfügbare Unteraufgaben
+
+>[!NOTE]
+>
+>Diese Funktion ist ab dem 7. November 2023 vorübergehend nicht mehr verfügbar. Diese Seite wird aktualisiert, sobald die Funktion verfügbar ist.
 
 Wenn Sie einer Pinnwand für eine Workfront-Aufgabe eine verbundene Karte hinzufügen, werden alle vorhandenen Unteraufgaben auf die Karte importiert. Wenn Sie eine Unteraufgabe auf einer verbundenen Karte erstellen, wird der Workfront-Aufgabe eine Unteraufgabe hinzugefügt.
 
