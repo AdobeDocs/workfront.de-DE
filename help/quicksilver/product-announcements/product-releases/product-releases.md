@@ -6,9 +6,9 @@ description: Im Folgenden finden Sie Links zu den Versionshinweisen für aktuell
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
+source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '180'
 ht-degree: 15%
 
 ---
@@ -32,6 +32,11 @@ Informationen dazu, wie Sie Ihre Organisation bei der reibungslosen Anpassung an
   <tr data-mc-conditions=""> 
    <td> <p>Versionen 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version des ersten Quartals 2024</a> </p> 
+   <td>    </td> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Versionen 2023</p> 
+    <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 2023 im vierten Quartal</a> </p> <p> Enthält Versionen: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Versionsübersicht</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Versionsübersicht</a> </p> </li>
@@ -50,7 +55,9 @@ Informationen dazu, wie Sie Ihre Organisation bei der reibungslosen Anpassung an
      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">2.2 Versionsübersicht</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 - Versionsübersicht</a> </p> </li> 
     </ul> </td> 
-   <td> </td> 
+   <td><ul> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion-Release-Aktivität</a> </p> </li> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td> <p>Versionen 2021</p> 
