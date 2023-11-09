@@ -3,13 +3,13 @@ title: Anzeigen der Visualisierung der Ressourcenkapazität in Enhanced Analytic
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Die Visualisierung der Ressourcenkapazität zeigt an, ob ein Team vorbei ist, unterhalb der Kapazitäten ist oder nicht. Diese Berechnung basiert auf - EDIT ME.
+description: Die Visualisierung der Ressourcenkapazität zeigt an, ob ein Team vorbei ist, unterhalb der Kapazitäten ist oder nicht.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschni
 
 Die Visualisierung der Ressourcenkapazität zeigt an, ob ein Team vorbei ist, unterhalb der Kapazitäten ist oder nicht. Diese Berechnung basiert auf:
 
-* **Verfügbare Kapazität**: Gesamtstundenzahl, die ein Heimteam für die Arbeit in dem gefilterten Zeitraum zur Verfügung hat
+* **Verfügbare Kapazität**: Die Gesamtdauer der Stunden, die ein Heimteam für die Arbeit in dem gefilterten Zeitraum zur Verfügung hat
 
-   >[!NOTE]
-   >
-   >Wenn Sie sich einen zukünftigen Zeitraum ansehen, wird die verfügbare Kapazität anhand der Kapazität des Teams für die letzten sieben Tage berechnet. Aus diesem Grund werden geplante PTO nicht berücksichtigt.
+  >[!NOTE]
+  >
+  >Wenn Sie sich einen zukünftigen Zeitraum ansehen, wird die verfügbare Kapazität anhand der Kapazität des Teams für die letzten sieben Tage berechnet. Aus diesem Grund werden geplante PTO nicht berücksichtigt.
 
-* **Geplante Kapazität**: Gesamtsumme der geplanten Arbeitsstunden, die das Heimteam in dem gefilterten Zeitraum erwarten würde
+* **Geplante Kapazität**: Die Gesamtzahl der geplanten Arbeitsstunden, die das Heimteam in dem gefilterten Zeitraum erwarten würde
 
 Dieser Vergleich der geplanten Arbeitszeiten eines Heimteams mit den tatsächlichen geplanten Arbeitszeiten kann Ihnen dabei helfen festzustellen, ob Sie dem Heimteam nicht genügend Arbeit zuweisen oder ob es bei diesen Arbeitsstunden möglicherweise zu einem Burnout kommt.
 
@@ -71,19 +71,19 @@ In der Visualisierung der Ressourcenkapazität sehen Sie die folgenden Details:
 
 * **Geplante Kapazität**: Der blaue Kreis steht in Übereinstimmung mit dem Namen des Startseiten-Teams für die Anzahl der geplanten Stunden, die dem Startseiten-Team zugewiesen sind.
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **Tatsächliche Kapazität**: Entsprechend dem Namen des Startseiten-Teams stellt die vertikale Zeile die Anzahl der Stunden dar, die für das Startseiten-Team verfügbar sind.
+* **Tatsächliche Kapazität**: Die vertikale Zeile entspricht einem Team-Startnamen und stellt die Anzahl der Stunden dar, die für das Startseiten-Team verfügbar sind.
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
 * **Überkapazitäten**: Wenn die horizontale Linie und der blaue Kreis rechts neben der vertikalen Linie angezeigt werden, wurde dem Heimteam mehr Arbeit zugewiesen, als sie in der Anzahl der verfügbaren Stunden vervollständigen können. Dies bedeutet, dass das Team möglicherweise über die Kapazität für den gefilterten Zeitraum verfügt. Die verbleibende Anzahl der Stunden, die das Team abschließen muss, wird rechts neben dem blauen Kreis angezeigt.
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
 * **Kapazität**: Wenn die horizontale Linie und der blaue Kreis links neben der vertikalen Linie angezeigt werden, verfügt das Startseiten-Team über mehr verfügbare Stunden als die Anzahl der geplanten Arbeitsstunden, die ihnen zugewiesen wurden. Dies bedeutet, dass das Team für den gefilterten Zeitraum möglicherweise nicht in der Lage ist. Links neben dem blauen Kreis wird die zusätzliche Anzahl der Stunden angezeigt, die das Startseiten-Team für die Arbeit zur Verfügung hat.
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
 Wenn Sie den Mauszeiger über eine Zeile bewegen, werden die genaue Anzahl der Stunden für die geplante Kapazität und die verfügbare Kapazität sowie die Anzahl der Stunden angezeigt, die das Heimteam verbringt oder zu wenig Kapazität hat.
 
@@ -108,7 +108,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die einzelnen Teams aus, für die Daten angezeigt werden sollen.
+1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die Teams aus, für die Sie Daten anzeigen möchten.
 
    Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
 

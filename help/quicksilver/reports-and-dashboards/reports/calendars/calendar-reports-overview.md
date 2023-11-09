@@ -3,13 +3,13 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Kalenderberichte - Übersicht
-description: Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsangaben in einem Kalenderbericht für die folgenden Objekte anzeigen - BEARBEITEN SIE MICH.
+description: Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Darüber hinaus können Benutzer Kalender erstellen und auf Kalender zugreifen, 
 
 >[!NOTE]
 >
->Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards]und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen. Wenden Sie sich an [!DNL Workfront] Administrator.
+>Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards], und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen. Wenden Sie sich an [!DNL Workfront] Administrator.
 
 ## Gruppieren von Elementen nach Datum
 

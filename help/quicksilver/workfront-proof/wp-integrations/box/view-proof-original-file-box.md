@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: Originaldatei eines Testversands in einem Feld anzeigen
-description: 'Wenn Sie die [!DNL Workfront Proof] - Box-Integration: In Box können Sie die Originaldatei anzeigen, die zum Erstellen eines Testversands verwendet wurde. Sie können dies auf zwei Arten tun - BEARBEITEN SIE MICH.'
+description: Hier erfahren Sie, wie Sie die Originaldatei eines Testversands in Box anzeigen können.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Wenn Sie die [!DNL Workfront Proof] - [!DNL Box] -Integration können Sie in Box die Originaldatei anzeigen, die zum Erstellen eines Testversands verwendet wurde. Dazu gibt es zwei Möglichkeiten:
 

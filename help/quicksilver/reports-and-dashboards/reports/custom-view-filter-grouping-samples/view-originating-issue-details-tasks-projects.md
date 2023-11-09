@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Informationen zur Ausgangsausgabe für Aufgaben und Projekte'
-description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist - BEARBEITEN SIE MICH.
+title: "Ansicht: Details zu Ausgangsfragen für Aufgaben und Projekte"
+description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. Diese Ansicht zeigt die Felder des Problems an, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
 
-# Ansicht: Informationen zur ursprünglichen Ausgabe für Aufgaben und Projekte
+# Ansicht: Informationen zu Ausgangsthemen für Aufgaben und Projekte
 
 Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist:
 
@@ -28,7 +28,7 @@ Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine au
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Weitere Informationen finden Sie auch unter [Ansicht: Originalausgabeinformationen zu Aufgaben- und Projektlisten anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Weitere Informationen finden Sie auch unter [Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten an](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Zugriffsanforderungen
 
@@ -67,12 +67,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Gehen Sie zu einer Liste von Aufgaben oder einer Liste von Projekten.
 1. Aus dem **Ansicht** Dropdown-Menü auswählen **Neue Ansicht**.
 
-1. Im **Spaltenvorschau** -Bereich, alle Spalten außer einer entfernen.
+1. Im **Spaltenvorschau** -Bereich, alle Spalten mit Ausnahme einer ausschließen.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In den Textmodus wechseln**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre></pre>
+   <pre><code>column.0.textmode=false<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.descriptionkey=name<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.width=150<br>column.1.displayname=Resolvables (Issues)<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(resolvables).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={name}<br>column.1.valueformat=HTML<br>column.2.displayname=Resolvables Entry Date<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(resolvables).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={entryDate}<br>column.2.valueformat=HTML<br>column.3.displayname=Resolvables Due Date<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(resolvables).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Resolvables Actual Completion Date<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(resolvables).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={actualCompletionDate}<br>column.4.valueformat=HTML<br>column.5.displayname=Resolvables Request Type<br>column.5.listdelimiter=<br><br>column.5.listmethod=nested(resolvables).lists<br>column.5.textmode=true<br>column.5.type=iterate<br>column.5.valueexpression={opTaskType}<br>column.5.valueformat=HTML<br>column.6.displayname=Resolvables Originator<br>column.6.listdelimiter=<br><br>column.6.listmethod=nested(resolvables).lists<br>column.6.textmode=true<br>column.6.type=iterate<br>column.6.valueexpression={owner}.{name}<br>column.6.valueformat=HTML<br>column.7.descriptionkey=assignedto<br>column.7.linkedname=assignedTo<br>column.7.listsort=nested(assignedTo).string(name)<br>column.7.namekey=assignedto<br>column.7.querysort=assignedTo:name<br>column.7.shortview=false<br>column.7.stretch=0<br>column.7.textmode=true<br>column.7.valuefield=assignedTo:name<br>column.7.valueformat=HTML<br>column.7.width=150</code></pre>
 
-1. Klicken **Ansicht speichern**.
+1. Klicks **Ansicht speichern**.

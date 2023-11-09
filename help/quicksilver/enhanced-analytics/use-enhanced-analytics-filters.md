@@ -2,14 +2,14 @@
 title: Filter in erweiterten Analysen anwenden
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Mithilfe der Filter im Bereich "Erweiterte Analyse"können Sie sich auf bestimmte Projekte oder bestimmte Datentypen konzentrieren. Die von Ihnen verwendeten Filtertypen geben Ihnen Einblicke in - BEARBEITEN SIE MICH.
+description: Mithilfe der Filter im Bereich "Erweiterte Analyse"können Sie sich auf bestimmte Projekte oder bestimmte Datentypen konzentrieren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1484'
+ht-degree: 1%
 
 ---
 
@@ -109,7 +109,7 @@ Die folgenden Projektfeldfiltertypen sind verfügbar:
 | **Sponsor** | Zeigt nur Daten für Projekte mit den ausgewählten Sponsoren an |
 | **Projektbesitzer** | Zeigt nur Daten für Projekte mit den ausgewählten Projekteigentümern an |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Benutzerdefinierte Formularfilter funktionieren anders. Weitere Informationen finden Sie unter [Hinzufügen eines Projektfeldfilters](#add-a-project-field-filter).
 
@@ -128,7 +128,7 @@ So fügen Sie einen Projektfeldfilter hinzu:
 
    ![](assets/select-filter-value-350x251.png)
 
-1. Nachdem Sie alle gewünschten Werte ausgewählt haben, klicken Sie auf **Filter anwenden**.\
+1. Klicken Sie nach Auswahl aller gewünschten Werte auf **Filter anwenden**.\
    Die Projektzahl in der oberen rechten Ecke der Seite wird entsprechend Ihren angewendeten Filtern aktualisiert.
 1. Wiederholen Sie diese Schritte für jeden Filter, den Sie hinzufügen möchten.
 
@@ -141,11 +141,13 @@ So fügen Sie einen Projektfeldfilter hinzu:
    >   
    >   
    >   * Verwenden Sie die Pfeile unten links, um die nächsten 50 Projekte in dieser Visualisierung anzuzeigen.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Verwenden Sie das Dropdown-Menü Sortieren nach einer Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Informationen zum Anpassen des Datumsbereichs finden Sie unter [Datumsbereichfilter ändern](#change-the-date-range-filter).
 
@@ -167,19 +169,19 @@ So fügen Sie einen Filter für benutzerdefinierte Formulare hinzu:
    >
    >Es können nicht alle Feldtypen des benutzerdefinierten Formulars zu einem Filter hinzugefügt werden. Derzeit unterstützt Enhanced Analytics nur die oben aufgeführten Feldtypen.
 
-   * **Kontrollkästchen**, **Dropdown** oder **Optionsfeld**: Wählen Sie jeden Wert im ausgewählten Feld aus, den Sie in den Filter aufnehmen möchten, oder klicken Sie auf die Schaltfläche **Alle auswählen** aktivieren.\
-      ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **Kontrollkästchen**, **Dropdown** oder **Optionsfeld**: Wählen Sie jeden Wert im ausgewählten Feld aus, den Sie in Ihren Filter aufnehmen möchten, oder klicken Sie auf die Schaltfläche **Alle auswählen** aktivieren.\
+     ![](assets/custom-form-filter-checkbox-350x255.png)
 
    * **Datum**: Navigieren Sie mit den Pfeilen zu einem bestimmten Monat und wählen Sie dann das Datum im ausgewählten Feld aus, das Sie in den Filter aufnehmen möchten.\
-      ![](assets/custom-form-filter-date-350x348.png)
+     ![](assets/custom-form-filter-date-350x348.png)
 
-   * **Text**: Geben Sie den Text in das ausgewählte Feld ein, das Sie in den Filter aufnehmen möchten.\
-      ![](assets/custom-form-filter-text-350x90.png)
+   * **Text**: Geben Sie den Text in das ausgewählte Feld ein, das Sie in Ihren Filter aufnehmen möchten.\
+     ![](assets/custom-form-filter-text-350x90.png)
 
-   * **Zahl**: Geben Sie die Zahl in das ausgewählte Feld ein, die Sie in den Filter aufnehmen möchten.\
-      ![](assets/custom-form-filter-number-350x93.png)
+   * **Zahl**: Geben Sie die Zahl in das ausgewählte Feld ein, die Sie in Ihren Filter aufnehmen möchten.\
+     ![](assets/custom-form-filter-number-350x93.png)
 
-1. Nachdem Sie die Werte eingegeben oder ausgewählt haben, nach denen Sie filtern möchten, klicken Sie auf **Filter anwenden**.
+1. Klicken Sie nach Eingabe oder Auswahl der Werte, nach denen Sie filtern möchten, auf **Filter anwenden**.
 
    Die Projektzahl in der oberen rechten Ecke der Seite wird entsprechend Ihren angewendeten Filtern aktualisiert.
 
@@ -194,11 +196,13 @@ So fügen Sie einen Filter für benutzerdefinierte Formulare hinzu:
    >   
    >   
    >   * Verwenden Sie die Pfeile unten links, um die nächsten 50 Projekte in dieser Visualisierung anzuzeigen.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Verwenden Sie das Dropdown-Menü Sortieren nach einer Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Informationen zum Anpassen des Datumsbereichs finden Sie unter [Datumsbereichfilter ändern](#change-the-date-range-filter).
 
@@ -219,7 +223,7 @@ So fügen Sie einen Filter für benutzerdefinierte Formulare hinzu:
    >Alle Teams sind unabhängig von Ihrer Zugriffsstufe als Filteroptionen enthalten.
 
 
-1. Nachdem Sie alle gewünschten Teams ausgewählt haben, klicken Sie auf **Filter anwenden**.
+1. Klicken Sie nach Auswahl aller gewünschten Teams auf **Filter anwenden**.
 
    Beim Hinzufügen von Filtern werden die Daten in den unten stehenden Visualisierungen angezeigt.
 

@@ -2,13 +2,13 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Integration von Experience Manager Assets Essentials konfigurieren
-description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials - EDIT ME.
+description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
@@ -77,11 +77,11 @@ Sie müssen über Folgendes verfügen:
    <tr>
       <td><strong>Name</strong>
       </td>
-      <td>Geben Sie den Namen ein, den Benutzer anzeigen sollen, und zwar über die Schaltfläche Neue hinzufügen im Bereich Dokumente .
+      <td>Geben Sie den Namen ein, den Benutzer anzeigen sollen, indem Sie im Bereich "Dokumente"auf die Schaltfläche Neu hinzufügen klicken.
       </td>
    </tr>
    <tr>
-      <td><strong>Navigations-URL</strong>
+      <td><strong>NavigationsURL</strong>
       </td>
       <td>Das System füllt die Navigations-URL automatisch. Diese URL wird verwendet, um über das Hauptmenü eine Verknüpfung zur Assets Essentials-Instanz Ihres Unternehmens herzustellen, damit Sie schnell darauf zugreifen können.
       </td>
@@ -96,7 +96,7 @@ Sie müssen über Folgendes verfügen:
    </tr>
    </table>
 
-1. Klicken **Speichern** oder zum [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel.
+1. Klicks **Speichern** oder zum [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel beschrieben.
 
 
 ## Einrichten von Metadaten (optional)
@@ -142,7 +142,7 @@ Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal aus Workfront gesende
    Um ein Workfront-Feld einem Experience Manager Assets-Tag zuzuordnen, wählen Sie `dc:subject`.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
    ![Metadaten aktivieren](assets/metadata-assets-essentials.png)
-1. Klicken **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
+1. Klicks **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel beschrieben.
 
 
 ## Verknüpfte Ordner einrichten (optional)

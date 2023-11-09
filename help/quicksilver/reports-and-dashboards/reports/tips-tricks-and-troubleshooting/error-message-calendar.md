@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '"Fehlermeldung im Kalender: "Dieser Kalender besitzt die Anzeigerechte eines deaktivierten Benutzers."'
-description: Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel - BEARBEITEN SIE MICH - durchzuführen.
+title: "Fehlermeldung im Kalender: 'Dieser Kalender hat die Anzeigerechte eines deaktivierten Benutzers.'"
+description: Erfahren Sie mehr über die Fehlermeldung "Dieser Kalender hat die Anzeigerechte eines deaktivierten Benutzers".
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
 
-# Fehlermeldung im Kalender: &quot;Dieser Kalender besitzt die Anzeigerechte eines deaktivierten Benutzers.&quot;
+# Fehlermeldung im Kalender: &quot;Dieser Kalender hat die Anzeigerechte eines deaktivierten Benutzers.&quot;
 
 ## Zugriffsanforderungen
 

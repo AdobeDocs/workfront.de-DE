@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Suchen [!DNL Workfront Proof]
-description: Sie können auf der Workfront Proof-Site - BEARBEITEN SIE MICH - nach den folgenden Inhaltstypen suchen.
+description: Sie können auf der gesamten Workfront-Proof-Site nach Inhalten suchen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Sie können in der [!DNL Workfront Proof] Site:
 
@@ -35,7 +35,7 @@ Sie können in der [!DNL Workfront Proof] Site:
 
 So durchsuchen Sie die [!DNL Workfront Proof] Site:
 
-1. Geben Sie den Text ein, nach dem Sie suchen möchten, und drücken Sie dann die Eingabetaste **[!UICONTROL Eingabe]**.\
+1. Geben Sie den Text ein, nach dem Sie suchen möchten, und drücken Sie dann die **[!UICONTROL Eingabe]**.\
    Beachten Sie Folgendes zu Suchergebnissen:
 
    * Das Suchwerkzeug findet Elemente, die alle eingegebenen Suchbegriffe enthalten. Um Suchergebnisse zu minimieren und die Suchgenauigkeit zu maximieren, stellen Sie sicher, dass Sie die Suchbegriffe richtig buchstabieren und Leerzeichen dazwischen einfügen.

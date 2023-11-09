@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '"Fehlermeldung beim Ausführen eines Berichts: "Sie sind derzeit nicht angemeldet."'
-description: Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel - BEARBEITEN SIE MICH - durchzuführen.
+title: "Fehlermeldung bei Ausführung eines Berichts: 'Sie sind derzeit nicht angemeldet.'"
+description: Erfahren Sie mehr über die Fehlermeldung "Sie sind derzeit nicht angemeldet".
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 4%
 
 ---
 
-# Fehlermeldung beim Ausführen eines Berichts: &quot;Sie sind derzeit nicht angemeldet.&quot;
+# Fehlermeldung bei Ausführung eines Berichts: &quot;Sie sind derzeit nicht angemeldet.&quot;
 
 ## Zugriffsanforderungen
 
@@ -64,12 +64,12 @@ Sie müssen über Verwaltungsberechtigungen für den Bericht verfügen, um die B
 So passen Sie den Bericht an und sehen die Ergebnisse:
 
 1. Gehen Sie zum Bericht.
-1. Klicken **Berichtaktionen** > **Bearbeiten** > **Berichtseinstellungen**.
+1. Klicks **Berichtaktionen** > **Bearbeiten** > **Berichtseinstellungen**.
 
 1. Geben Sie den Namen eines aktiven Benutzers im **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld.\
    Oder\
    Lassen Sie die **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** Feld leer.
 
-1. Klicken **Fertig**.
-1. Klicken **Speichern und schließen**.\
+1. Klicks **Fertig**.
+1. Klicks **Speichern und schließen**.\
    Der Fehler sollte bei der Ausführung dieses Berichts nicht erneut angezeigt werden.

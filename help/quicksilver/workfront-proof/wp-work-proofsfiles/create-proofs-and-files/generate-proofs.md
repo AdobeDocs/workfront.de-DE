@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Testsendungen generieren in [!DNL Workfront Proof]
-description: Mit Workfront Testsendungen können Sie Testsendungen aus Dokumenten oder Websites erstellen und diese für andere freigeben. Die folgenden Schritte beschreiben die verschiedenen verfügbaren Konfigurationsoptionen - BEARBEITEN SIE MICH.
+description: Mit Workfront Testsendungen können Sie Testsendungen aus Dokumenten oder Websites erstellen und diese für andere freigeben.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Workfront Proof] ermöglicht Ihnen die Erstellung von Testsendungen aus Dokumenten oder Websites und die gemeinsame Nutzung dieser Testsendungen mit anderen. Die folgenden Schritte beschreiben die verschiedenen verfügbaren Konfigurationsoptionen:
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. Führen Sie einen der folgenden Schritte aus, um mit der Erstellung eines neuen Testversands zu beginnen und die [!UICONTROL Neuer Testversand] Seite:
 
    * Klicken Sie auf Grün **[!UICONTROL Neuer Testversand]** in der oberen linken Ecke einer beliebigen Seite.
-   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** Link.
+   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** -Link.
 
    * Senden über Dropzone (Enterprise-Funktion).
    * Die **[!UICONTROL Neuer Testversand]** angezeigt.
@@ -37,9 +37,9 @@ ht-degree: 0%
    * Ziehen Sie ein Dokument aus Ihrem Dateisystem in den Drag-and-Drop-Bereich im **[!UICONTROL Dateien hinzufügen]** Bereich.
    * Klicken Sie in den Drag-and-Drop-Bereich im **[!UICONTROL Dateien hinzufügen]** und wählen Sie dann das Dokument aus, das Sie vom Dateisystem auf Ihrer Workstation hochladen möchten.
 
-      ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
-1. Um eine oder mehrere Websites zu testen, geben Sie die URL der Website an, die Sie im **[!UICONTROL Dateien hinzufügen]** Bereich, und drücken Sie dann **[!UICONTROL Eingabe]**.
+1. Um eine oder mehrere Websites zu testen, geben Sie die URL der Website an, die Sie im **[!UICONTROL Dateien hinzufügen]** Bereich, und drücken Sie dann die **[!UICONTROL Eingabe]**.
 
 1. (Optional) Wiederholen Sie diesen Vorgang, um mehrere Websites zum Testversand hinzuzufügen.
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 1. (Optional) Ändern Sie die Dateinamen aller hochgeladenen Dateien:
 
-   1. Bewegen Sie den Mauszeiger über den Dokumentnamen, den Sie in der Dokumentliste in der **[!UICONTROL Dateien hinzufügen]** Bereich und klicken Sie dann auf **[!UICONTROL Bearbeiten]** Symbol.
+   1. Bewegen Sie den Mauszeiger über den Dokumentnamen, den Sie in der Dokumentliste in der **[!UICONTROL Dateien hinzufügen]** Bereich und klicken Sie dann auf das **[!UICONTROL Bearbeiten]** Symbol.
 
       ![proof_edit.png](assets/proof-edit-350x53.png)
 
    1. Im **[!UICONTROL Name des Testversands]** ein, geben Sie einen neuen Namen an und klicken Sie auf **[!UICONTROL Fertig]**.
 
-   1. (Optional) Um Dateien, die hochgeladen werden sollen, zu löschen, bewegen Sie den Mauszeiger in der Dokumentliste im **[!UICONTROL Dateien hinzufügen]** Bereich und klicken Sie dann auf **[!UICONTROL Löschen]** Symbol.
+   1. (Optional) Um Dateien, die hochgeladen werden sollen, zu löschen, bewegen Sie den Mauszeiger in der Dokumentliste im **[!UICONTROL Dateien hinzufügen]** Bereich und klicken Sie dann auf das **[!UICONTROL Löschen]** Symbol.
 
       ![proof_delete.png](assets/proof-delete-350x53.png)
 
@@ -79,15 +79,15 @@ ht-degree: 0%
 
    * **Allgemein:** Wählen Sie diese Option, um Benutzer zu bestimmen, die unmittelbar nach der Erstellung auf den Testversand zugreifen möchten. Sie können den Testversand für mehrere Benutzer freigeben.
 
-      Weitere Informationen zum Freigeben eines Testversands finden Sie unter &quot;Hinzufügen von Benutzern zu einem Testversand&quot;in [Freigeben eines Testversands in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Weitere Informationen zum Freigeben eines Testversands finden Sie unter &quot;Hinzufügen von Benutzern zu einem Testversand&quot;in [Freigeben eines Testversands in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatisiert:** Wählen Sie diese Option, um Inhaltsüberprüfung und -validierung zu verwalten, wenn komplexe Überprüfungsprozesse vorliegen oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personengruppen senden. Mit automatisiertem Workflow wechselt der Testversand von Phase zu Phase bis zur endgültigen Genehmigung. Die betroffenen Benutzer werden jedes Mal benachrichtigt, wenn sie eine Genehmigung vornehmen müssen.
 
-      Weitere Informationen zum Erstellen eines automatisierten Workflows finden Sie unter [Einen Testversand mit einem automatisierten Workflow einrichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     Weitere Informationen zum Erstellen eines automatisierten Workflows finden Sie unter [Einen Testversand mit einem automatisierten Workflow einrichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
 1. Wählen Sie aus, ob E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer gesendet werden sollen, die Sie im vorherigen Schritt ausgewählt haben:
 
-   * **Benachrichtigt die Empfänger über diesen Testversand:** Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann **[!UICONTROL Grundlegende Freigabe]** wird im **[!UICONTROL Workflow]** -Abschnitt, eine E-Mail-Benachrichtigung, die bei der Erstellung des Testversands gesendet wird. Wann **[!UICONTROL Automatisierter Workflow]** wird im **[!UICONTROL Workflow]** -Abschnitt eine E-Mail-Benachrichtigung sendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit dem der Benutzer verknüpft ist.
+   * **Benachrichtigt die Empfänger über diesen Testversand:** Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann **[!UICONTROL Grundlegende Freigabe]** wird im Feld **[!UICONTROL Workflow]** -Abschnitt, eine E-Mail-Benachrichtigung, die bei der Erstellung des Testversands gesendet wird. Wann **[!UICONTROL Automatisierter Workflow]** wird im Feld **[!UICONTROL Workflow]** -Abschnitt eine E-Mail-Benachrichtigung sendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit dem der Benutzer verknüpft ist.
 
    * **Fügen Sie eine benutzerdefinierte Nachricht hinzu:** Wählen Sie diese Option aus, um eine benutzerdefinierte Nachricht in die Benachrichtigung einzuschließen. Sie können einen Betreff und einen Nachrichtentext angeben. Der Nachrichtentext kann Rich-Text-Formatierungen wie Fett, Aufzählungszeichen und Hyperlinks enthalten.
 
@@ -99,7 +99,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">Anmeldung erforderlich - Testversand kann nur für andere Benutzer freigegeben werden</td> 
-      <td> <p><strong>Anmeldung erforderlich - Testversand kann nur für andere Benutzer freigegeben werden:</strong> Wenn diese Option ausgewählt ist, wird nur [!DNL Workfront Proof] -Benutzer können den Testversand anzeigen.</p> <p>Diese Option ist standardmäßig deaktiviert. jede Person mit der URL kann den Testversand anzeigen.</p> <p>Wenn diese Option ausgewählt ist:</p> 
+      <td> <p><strong>Anmeldung erforderlich - Testversand kann nur für andere Benutzer freigegeben werden:</strong> Wenn diese Option ausgewählt ist, wird nur [!DNL Workfront Proof] -Benutzer können den Testversand anzeigen.</p> <p>Diese Option ist standardmäßig deaktiviert. Jede Person mit der URL kann den Testversand anzeigen.</p> <p>Wenn diese Option ausgewählt ist:</p> 
        <ul> 
         <li>Benutzer können sich nur dann beim Testversand anmelden, wenn sie zum Testversand hinzugefügt wurden.</li> 
         <li>Abonnements können nicht aktiviert werden.</li> 
@@ -130,14 +130,14 @@ ht-degree: 0%
       <td> <p>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:</p> 
        <ul> 
         <li><strong>Abonnentenrolle</strong>: Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li> 
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten</strong>: Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li> 
-        <li> <p><strong>Nachweis des Zugriffs über einen für</strong>: Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zuzugreifen.) Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.</p> <p>Hinweis: Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an den Testversandinhaber, damit dieser entscheiden kann, zu welcher Stufe die Person hinzugefügt werden soll.</p> </li> 
+        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten</strong>: Die Standard-E-Mail-Warnung, die allen Validierern zugewiesen wird, die den Testversand abonnieren.</li> 
+        <li> <p><strong>Nachweis des Zugriffs über einen für</strong>: Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail mit Testbenachrichtigung</strong> (der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>E-Mails zur Validierung und zum Testversand</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zuzugreifen. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</p> <p>Hinweis: Wenn die Testsendungen einen automatisierten Workflow zugeordnet haben, generieren alle Abonnements Bestätigungs-E-Mails an den Testversand-Inhaber, sodass dieser entscheiden kann, zu welcher Stufe die Person hinzugefügt werden soll.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL Testversand erstellen]**.
+1. Klicks **[!UICONTROL Testversand erstellen]**.
 
    Workfront beginnt mit der Erstellung eines Testversands der ausgewählten Dokumente oder Websites. Je nach Dateigröße und Typ variiert die Verzögerung beim Hochladen eines Dokuments. Seien Sie geduldig, da die Erzeugung größerer Dateien länger dauert. Sie können von der Seite weg navigieren und Workfront generiert weiterhin Ihre -Datei. Die maximale Größe für den Datei-Upload beträgt 4 GB.
 
@@ -162,7 +162,7 @@ So generieren Sie einen Testversand für eine URL:
 1. Führen Sie einen der folgenden Schritte aus, um mit der Erstellung eines neuen Testversands zu beginnen und die [!UICONTROL Neuer Testversand] Seite:
 
    * Klicken Sie auf Grün **[!UICONTROL Neuer Testversand]** in der oberen linken Ecke einer beliebigen Seite.
-   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** Link.
+   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** -Link.
 
    * Senden über Dropzone (Enterprise-Funktion).
 
@@ -173,7 +173,7 @@ So generieren Sie einen Testversand für eine URL:
 
       ![Screenshot_2018-05-15_10-59-56.png](assets/screenshot-2018-05-15-10-59-56-350x80.png)
 
-1. Geben Sie auf der daraufhin angezeigten Seite Neue Testversand-Version die URL der Website an, die Sie testen möchten, im **[!UICONTROL Dateien hinzufügen]** Bereich, und drücken Sie dann **[!UICONTROL Eingabe]**.
+1. Geben Sie auf der daraufhin angezeigten Seite Neue Testversand-Version die URL der Website an, die Sie testen möchten, im **[!UICONTROL Dateien hinzufügen]** Bereich, und drücken Sie dann die **[!UICONTROL Eingabe]**.
 
 1. (Optional) Wiederholen Sie diesen Vorgang, um mehrere Websites zum Testversand hinzuzufügen.
 
@@ -207,7 +207,7 @@ So generieren Sie einen Testversand für eine URL:
      </tr> 
      <tr> 
       <td role="rowheader">Suchen nach Unterseiten</td> 
-      <td>(Diese Option ist für interaktive Testsendungen nicht verfügbar.) Wählen Sie diese Option, um durch die Seiten der Website zu navigieren. Sie können die Website von der Hauptseite aus auf bis zu zwei Ebenen erweitern. Bewegen Sie den Mauszeiger über eine Seite, um die URL der Seite anzuzeigen. Wählen Sie nur die Seiten aus, die Sie testen möchten. Jede ausgewählte Seite wird standardmäßig als individueller Testversand erstellt. oder aktivieren Sie die <strong>Zu einem Testversand zusammenführen</strong> -Option, um alle ausgewählten Seiten in einem Testversand zusammenzufassen.</td> 
+      <td>(Diese Option ist für interaktive Testsendungen nicht verfügbar.) Wählen Sie diese Option, um durch die Seiten der Website zu navigieren. Sie können die Website von der Hauptseite aus auf zwei Ebenen erweitern. Bewegen Sie den Mauszeiger über eine Seite, um die URL der Seite anzuzeigen. Wählen Sie nur die Seiten aus, die Sie testen möchten. Jede ausgewählte Seite wird standardmäßig als individueller Testversand erstellt. Sie können auch die Option <strong>Zu einem Testversand zusammenführen</strong> -Option, um alle ausgewählten Seiten in einem Testversand zusammenzufassen.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -218,11 +218,11 @@ So generieren Sie einen Testversand für eine URL:
    * [Einen Testversand mit einem automatisierten Workflow einrichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
    * [Zugriffs- und Abonnementeinstellungen für einen Testversand konfigurieren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. Klicken **[!UICONTROL Fertig]**.
+1. Klicks **[!UICONTROL Fertig]**.
 
    Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten. Wenn Sie einer vorhandenen URL-Testversand eine neue Version hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
-1. Klicken **[!UICONTROL Testversand erstellen]**.
+1. Klicks **[!UICONTROL Testversand erstellen]**.
 
 ## Erstellen eines Testversands für interaktive Inhalte {#generate-a-proof-for-interactive-content}
 
@@ -246,7 +246,7 @@ Informationen zum Hinzufügen eines interaktiven URL-Testversands finden Sie unt
 1. Führen Sie einen der folgenden Schritte aus, um mit der Erstellung eines neuen Testversands zu beginnen und die [!UICONTROL Neuer Testversand] Seite:
 
    * Klicken Sie auf Grün **[!UICONTROL Neuer Testversand]** in der oberen linken Ecke einer beliebigen Seite.
-   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** Link.
+   * Im **[!UICONTROL Dashboard]** im **[!UICONTROL Übersicht]** klicken Sie auf die **[!UICONTROL Neuer Testversand]** -Link.
 
    * Senden über Dropzone (Enterprise-Funktion).
 
@@ -258,7 +258,7 @@ Informationen zum Hinzufügen eines interaktiven URL-Testversands finden Sie unt
    * im Artikel
    * [Zugriffs- und Abonnementeinstellungen für einen Testversand konfigurieren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. Klicken **[!UICONTROL Testversand erstellen]**.
+1. Klicks **[!UICONTROL Testversand erstellen]**.
 
    Workfront beginnt mit der Erstellung eines Testversands des ZIP-Bundles. Je nach Bundle-Größe variiert die Zeitverzögerung beim Hochladen von Dokumenten. Die Erstellung größerer Dateien dauert länger. Sie können von der Seite weg navigieren und Workfront generiert weiterhin Ihre -Datei. Die maximale Größe für den Datei-Upload beträgt 4 GB.
 

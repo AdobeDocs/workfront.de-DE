@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront-Proof-App
-description: Laden Sie die [!DNL Workfront Proof] Apps aus dem Apple App Store oder Google Store verwenden, um unabhängig von Ihrem Standort produktiv zu sein. Die [!DNL Workfront Proof] Das Programm verfügt über die folgenden Funktionen in iPhone und iPod Touch - EDIT ME.
+description: Erfahren Sie mehr über die mobile Workfront-Proof-App.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Laden Sie die [!DNL Workfront Proof] Apps aus dem Apple App Store oder Google Store verwenden, um unabhängig von Ihrem Standort produktiv zu sein. Die [!DNL Workfront Proof] Das Programm verfügt über die folgenden Funktionen in iPhone und iPod Touch:
 
@@ -77,22 +77,22 @@ Standardmäßig öffnet das Dashboard die Ansicht Testsendungen insgesamt . Dies
 |---|---|
 | **Risikoansicht** | Zeigt alle Testsendungen an, deren Frist weniger als 24 Stunden beträgt. |
 | **Verspätete Ansicht** | Listet alle Testsendungen auf, bei denen nicht alle Aktionen abgeschlossen sind, für die die Frist bereits überschritten wurde. |
-| **Letzte Ansicht** | Umfasst die Testsendungen, auf die Sie vor Kurzem zugegriffen haben und die Ihnen gehören, die Berechtigungen zum Anzeigen gemäß Ihren Profilberechtigungen besitzen und die für Sie freigegeben wurden. Diese Ansicht zeigt nur die Testsendungen an, die Sie selbst geöffnet haben (entweder über die [!DNL Workfront Proof] Betrachter oder über die Seite &quot;Testversand-Details&quot;). |
+| **Letzte Ansicht** | Umfasst die Testsendungen, auf die Sie vor Kurzem zugegriffen haben und die Ihnen gehören, die Berechtigungen zum Anzeigen gemäß Ihren Profilberechtigungen besitzen und die für Sie freigegeben wurden. Diese Ansicht zeigt nur die Testsendungen an, die Sie selbst geöffnet haben (entweder über die [!DNL Workfront Proof] Betrachter oder über die Seite Testversand-Details ). |
 | **Email-Link** | Um einen Testversand aus Ihrer E-Mail zu öffnen, öffnen Sie einfach die E-Mail in Ihrer E-Mail-App und klicken Sie auf die Schaltfläche [!UICONTROL Testversand durchführen] Button-Link in der E-Mail (1) und Sie gelangen zum Testversand im [!DNL Workfront Proof] App. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Überprüfen eines statischen Testversands in der App
 
-Wenn Sie einen Testversand in der App öffnen, haben Sie folgende Möglichkeiten:
+Wenn Sie einen Testversand in der Mobile App öffnen, haben Sie folgende Möglichkeiten:
 
 * Lesen und beantworten Sie Kommentare anderer validierungsverantwortlicher Benutzer (1 - die Ziffer, die im Symbol angezeigt wird, gibt die Anzahl der Kommentare an, die auf dem Testversand zurückgelassen wurden. Wenn keine Kommentare auf dem Testversand verblieben sind, zeigt diese Schaltfläche 0 an und wird ausgegraut.)
-* Fügen Sie Kommentare und Markups hinzu (2).
+* Kommentare und Markups hinzufügen (2).
 * Die Sichtbarkeit der Schaltfläche Kommentar und Entscheidung hängt von Ihrer Testversandrolle ab.
 * Entscheiden Sie (3).
 * Gehen Sie zum Menü (4).
 * Skalieren Sie den Testversand, indem Sie den Bildschirm drücken.
-   ![IMG_0223.png](assets/img-0223-350x541.png)
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## Kommentare und Antworten hinzufügen
 
@@ -119,7 +119,7 @@ Wenn Sie einen Testversand in der App öffnen, haben Sie folgende Möglichkeiten
    * Um zum Testversand-Bild zurückzukehren, tippen Sie auf die Schaltfläche [!UICONTROL Callout] Symbol.
    * Um den vollständigen Kommentar und seine Antworten anzuzeigen, tippen Sie auf den Kommentar selbst.
 
-      ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
    * So wenden Sie eine Aktion auf einen Kommentar an:
 
@@ -173,8 +173,7 @@ Sie können ein Markup hinzufügen (z. B. ein Feld, das einen Bereich auf dem Te
    >* Wenn Sie Entscheidungsgründe einrichten, werden diese im [!UICONTROL Entscheidung übermitteln] angezeigt, den Sie auswählen können.
 
 
-
-   Wenn Sie bereits eine Entscheidung eingereicht haben und sie ändern oder entfernen möchten, können Sie dies einfach tun. Nach Vorlage einer Entscheidung wird eine neue Option **[!UICONTROL Meine Entscheidung entfernen]** (6) wird auf der [!UICONTROL Entscheidung übermitteln] angezeigt.
+   Wenn Sie bereits eine Entscheidung eingereicht haben und sie ändern oder entfernen möchten, können Sie dies einfach tun. Nach Vorlage einer Entscheidung wird eine neue Option **[!UICONTROL Meine Entscheidung entfernen]** (6) wird auf der Seite [!UICONTROL Entscheidung übermitteln] angezeigt.
 
    ![remove_decision.png](assets/remove-decision-350x543.png)
 
@@ -183,7 +182,7 @@ Sie können ein Markup hinzufügen (z. B. ein Feld, das einen Bereich auf dem Te
 Die Überprüfung eines Audiomotivs in der iOS-App ist so einfach wie die Überprüfung einer statischen Datei:
 
 1. Tippen Sie auf die [!UICONTROL play/pause] -Schaltfläche, um das Video wiederzugeben oder anzuhalten (1).
-1. Um durch das Video zu navigieren, tippen Sie auf das [!UICONTROL Navigation] bar (2).
+1. Tippen Sie zum Navigieren im Video auf das [!UICONTROL Navigation] Balken (2).
 1. Um einen Kommentar zu hinterlassen, tippen Sie auf **[!UICONTROL Kommentar]** (3), folgen Sie dann den oben beschriebenen Anweisungen.
 
    Alle Kommentare oder Markierungen, die auf dem Testversand verbleiben, werden durch Pins entlang der Navigationsleiste (4) gekennzeichnet.

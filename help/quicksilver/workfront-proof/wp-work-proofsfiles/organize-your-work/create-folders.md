@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Erstellen von Ordnern in [!DNL Workfront Proof]
-description: Sie können Unterordner auf eine der folgenden Arten erstellen - BEARBEITEN SIE MICH.
+description: Sie können Unterordner in Workfront Proof erstellen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Erstellen eines neuen Ordners der obersten Ebene {#creating-a-new-top-level-folder}
 
 1. Klicken Sie in der Seitenleiste auf den Dropdown-Pfeil (1) neben dem grünen **[!UICONTROL Neuer Testversand]** Schaltfläche.
-1. Auswählen **[!UICONTROL Neuer Ordner]**. (2)\
-   Die [!UICONTROL Neuer Ordner] angezeigt.
+1. Auswählen **[!UICONTROL Ordner]**. (2)\
+   Die [!UICONTROL Ordner] angezeigt.
 
 1. Fahren Sie mit [Konfigurieren des neuen Ordners](#configuring-the-new-folder).\
    ![New_top_folder.png](assets/new-top-folder.png)
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Sie können Unterordner auf eine der folgenden Arten erstellen:
 
-* [Erstellen eines Unterordners auf der Seite &quot;Ordnerdetails&quot;](#creating-a-sub-folder-from-the-folder-details-page)
+* [Erstellen eines Unterordners auf der Seite Ordnerdetails](#creating-a-sub-folder-from-the-folder-details-page)
 * [Erstellen eines Unterordners auf der Seite &quot;Kontoordner&quot;](#creating-a-sub-folder-from-the-account-folders-page)
 
 >[!NOTE]
@@ -64,12 +64,12 @@ So erstellen Sie einen Unterordner aus dem [!UICONTROL Ordnerdetails] Seite:
 
 ### Erstellen eines Unterordners auf der Seite &quot;Kontoordner&quot; {#creating-a-sub-folder-from-the-account-folders-page}
 
-1. Klicken [Name Ihres Kontos] Ordner in der Seitenleiste, um auf die Seite &quot;Kontoordner&quot;zuzugreifen (1)\
+1. Klicks [Name Ihres Kontos] Ordner in der Seitenleiste, um auf die Seite &quot;Kontoordner&quot;zuzugreifen (1)\
    ![Subfolder_from_acc_folders_1.png](assets/subfolder-from-acc-folders-1.png)
 
 1. Suchen Sie den Ordner, dem Sie einen Unterordner hinzufügen möchten, und öffnen Sie den [!UICONTROL Aktionen] menu (2)
 1. Auswählen [!UICONTROL Neuer Unterordner] aus dem Menü (3)\
-   Die [!UICONTROL Neuer Ordner] angezeigt.
+   Die [!UICONTROL Ordner] angezeigt.
 1. Fahren Sie mit [Konfigurieren des neuen Ordners](#configuring-the-new-folder).
 
 ![Subfolder_from_acc_folders_2.png](assets/subfolder-from-acc-folders-2-350x177.png)

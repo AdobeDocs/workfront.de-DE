@@ -3,13 +3,13 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Berechnete benutzerdefinierte Felder vs. berechnete Spalten
-description: 'Um mehrere Felder in Adobe Workfront zu aggregieren und diesen aggregierten Wert in einem neuen Feld anzuzeigen, können Sie Folgendes tun: BEARBEITEN SIE MICH.'
+description: Informationen zu benutzerdefinierten Daten in Berichten und Dashboards
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 Um mehrere Felder in Adobe Workfront zu aggregieren und diesen aggregierten Wert in einem neuen Feld anzuzeigen, haben Sie folgende Möglichkeiten:
 
 * Ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular\
-   Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie im Abschnitt [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) im Artikel [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie im Abschnitt [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) im Artikel [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Eine berechnete Spalte in einer Ansicht\
-   Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie im Abschnitt . [Textmodus in Ansichten verwenden](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie im Abschnitt . [Textmodus in Ansichten verwenden](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 Obwohl Sie den Textmodus verwenden, um sowohl berechnete Felder als auch berechnete Spalten zu erstellen, unterscheidet sich die Syntax für ihre Erstellung. In den oben aufgeführten Artikeln erfahren Sie, wie Sie berechnete Felder und Spalten erstellen. Informationen zur unterschiedlichen Syntax, die in berechneten Datenausdrücken wie berechneten benutzerdefinierten Feldern und Spalten verwendet wird, finden Sie im Abschnitt . [Syntax von berechneten benutzerdefinierten Feldern im Vergleich zu berechneten benutzerdefinierten Spalten](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in diesem Artikel.
 
@@ -36,25 +36,25 @@ Beispiel:
 
 * In einem benutzerdefinierten Feld würden Sie in einem benutzerdefinierten Formular für Aufgaben den Namen des übergeordneten Projekts der Aufgabe generieren, an das das benutzerdefinierte Formular angehängt ist:
 
-   ```
-   {project}.{name}
-   ```
+  ```
+  {project}.{name}
+  ```
 
 * In einer benutzerdefinierten Spalte in einem Bericht können Sie wie folgt eine benutzerdefinierte Spalte für den Projektnamen zu einem Aufgabenbericht hinzufügen:
 
-   ```
-   valuefield=project:name
-   ```
+  ```
+  valuefield=project:name
+  ```
 
-   Oder
+  Oder
 
-   ```
-   valueexpression={project}.{name}
-   ```
+  ```
+  valueexpression={project}.{name}
+  ```
 
-   >[!TIP]
-   >
-   >Dieselbe Syntax gilt für alle Berichterstellungselemente im Textmodus, in denen berechnete Ausdrücke verwendet werden: Ansichten, Filter, Gruppierungen, Eingabeaufforderungen.
+  >[!TIP]
+  >
+  >Dieselbe Syntax gilt für alle Berichterstellungselemente im Textmodus, in denen berechnete Ausdrücke verwendet werden: Ansichten, Filter, Gruppierungen, Eingabeaufforderungen.
 
 Die Unterschiede zwischen den beiden Syntaxen sind:
 
@@ -72,7 +72,7 @@ Die Unterschiede zwischen den beiden Syntaxen sind:
   </tr> 
   <tr> 
    <td>Feldnamen in Klammern oder geschweifte Klammern einschließen</td> 
-   <td> <p>Schließen Sie Feldnamen nicht in Klammern oder Klammern ein, wenn Sie sie in einer <code>valuefield </code>Linie.</p> <p>Fügen Sie Feldnamen in geschweifte Klammern ein, wenn Sie sie in einer <code>valueexpression</code> Linie.</p> </td> 
+   <td> <p>Schließen Sie Feldnamen nicht in Klammern oder Klammern ein, wenn Sie sie in einer <code>valuefield </code>Linie.</p> <p>Fügen Sie Feldnamen in geschweifte Klammern bei der Verwendung in einer <code>valueexpression</code> Linie.</p> </td> 
   </tr> 
   <tr> 
    <td>Trennen Sie die Felder durch Punkte.</td> 
@@ -100,15 +100,15 @@ Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefiniert
 
 * Wenn Echtzeitdaten für einen Bericht verfügbar sein sollen.
 
-   Berechnete Ansichten sind immer neu, da die Berechnung bei Ausführung des Berichts oder Anwendung der Ansicht erfolgt.
+  Berechnete Ansichten sind immer neu, da die Berechnung bei Ausführung des Berichts oder Anwendung der Ansicht erfolgt.
 
-* Wenn Sie nicht planen, diese Informationen nach aggregierten Ergebnissen zu gruppieren, noch verwenden Sie sie in einer Grafik.
+* Wenn Sie nicht planen, diese Informationen nach aggregierten Ergebnissen zu gruppieren, oder diese Informationen in einer Grafik verwenden möchten.
 * Wenn Sie nicht planen, die Daten über die in der Spalte berechnete Aggregation hinaus zu aggregieren (Daten können nur einmal aggregiert werden).
 * Wenn Sie möchten, dass die Berechnung einen Verweis auf das aktuelle Datum mit den Platzhaltern $$TODAY oder $$NOW enthält.
 
-   >[!TIP]
-   >
-   >Verwenden Sie diese Referenz nicht in berechneten benutzerdefinierten Feldern, da diese nur neu berechnet werden, wenn das angehängte Objekt bearbeitet wird. Diese Art von Berechnungen sind überholt.
+  >[!TIP]
+  >
+  >Verwenden Sie diese Referenz nicht in berechneten benutzerdefinierten Feldern, da diese nur neu berechnet werden, wenn das angehängte Objekt bearbeitet wird. Diese Art von Berechnungen sind überholt.
 
 ## Beispiele für berechnete benutzerdefinierte Felder und Spalten
 

@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Inhalt in einem Testversand anzeigen
-description: Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel - BEARBEITEN SIE MICH - durchzuführen.
+description: Erfahren Sie, wie Sie Inhalte in einem Testversand anzeigen können.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -77,12 +77,12 @@ Sie können einen statischen Testversand anzeigen, der mehrere Seiten in einer e
 
 ## Verwenden von Miniaturansichten
 
-Das Bedienfeld &quot;Miniaturansichten&quot;wird auf der linken Seite des Testversand-Viewers angezeigt. Sie können den Bereich für Miniaturansichten verwenden, um durch den Testversand zu navigieren. Miniaturansichten sind besonders nützlich, wenn ein Testversand mehrere Seiten enthält.
+Das Bedienfeld &quot;Miniaturansichten&quot;wird links im Testversand-Viewer angezeigt. Sie können den Bereich für Miniaturansichten verwenden, um durch den Testversand zu navigieren. Miniaturansichten sind besonders nützlich, wenn ein Testversand mehrere Seiten enthält.
 
-* [Ausblenden und Anzeigen des Bedienfelds &quot;Miniaturansichten&quot;](#hide-and-display-the-thumbnails-panel)
+* [Ausblenden und Anzeigen des Miniaturansichtsbereichs](#hide-and-display-the-thumbnails-panel)
 * [Zoomen und Schwenken in der Miniaturansicht](#zoom-and-pan-in-the-thumbnail-view)
 
-### Ausblenden und Anzeigen des Bedienfelds &quot;Miniaturansichten&quot; {#hide-and-display-the-thumbnails-panel}
+### Ausblenden und Anzeigen des Miniaturansichtsbereichs {#hide-and-display-the-thumbnails-panel}
 
 Das Bedienfeld &quot;Miniaturansichten&quot;wird standardmäßig angezeigt. Sie können die Größe des Bedienfelds ausblenden oder anpassen.
 
@@ -139,15 +139,15 @@ Sie können den Zoom-Prozentsatz beim Anzeigen des Testversands anpassen. Wenn S
 
    * Klicken Sie auf **Zoom** klicken Sie auf den Testversand, um den Testversand in einem höheren Zoomfaktor anzuzeigen, oder ziehen Sie über einen Bereich des Testversands, um nur diesen Bereich anzuzeigen.
 
-      ![change_zoom_percent.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percent.png](assets/change-zoom-percentage-350x36.png)
 
    * Klicken Sie auf den aktuellen Zoom-Prozentsatz, klicken Sie auf einen neuen Zoom-Prozentsatz oder klicken Sie auf **An Breite anpassen**, **An Höhe anpassen** oder **An Seite anpassen**.
 
-      ![zoom_percent_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percent_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Klicken Sie auf **Plus** oder **Minus** Symbole zum Erhöhen oder Verringern des Zoom-Prozentsatzes.
 
-      ![change_zoom_percent_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percent_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Wenn Sie einen bestimmten Bereich des Videodrucks vergrößern möchten, klicken Sie auf die Schaltfläche **Schwenken** und ziehen Sie dann den Testversand nach Bedarf.
 

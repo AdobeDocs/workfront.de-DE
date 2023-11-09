@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Vermeiden von Spam-Filtern
-description: Dieser Abschnitt enthält die folgenden Artikel - "EDIT ME".
+description: Erfahren Sie, wie Sie in Workfront Testversand Spamfilter vermeiden können.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4b01bb97-33ae-4034-b087-a37feef4b4d9
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---

@@ -1,19 +1,19 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Final
-description: Die folgende Funktion ist derzeit nicht in der Vorschau oder Beta verfügbar, wird aber in der Produktionsumgebung in R1 - EDIT ME veröffentlicht.
+title: R1 Endgültige
+description: Aktivität "Version 2018.3"
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# R1 Final
+# R1 Endgültige
 
 Die folgende Funktion ist derzeit nicht in der Vorschau oder Beta verfügbar, wird aber in der Produktionsumgebung in R1 veröffentlicht:
 
@@ -27,7 +27,7 @@ Informationen dazu, wie Sie Genehmigungsentscheidungen im Bereich &quot;Meine Ar
 
 ## Bericht zu Testgenehmigungen in meinem Arbeitsbereich (Workfront)
 
-Jetzt können Sie einen Bericht auf der Basis des Objekts &quot;Proof Approval&quot;erstellen. Dieser Bericht ermöglicht Ihnen die Berichterstellung über Testversandgenehmigungen aus den &quot;Meine Arbeit&quot;-Bereichen der Benutzer, in denen noch keine Entscheidungen getroffen wurden.
+Jetzt können Sie einen Bericht auf der Basis des Objekts &quot;Proof Approval&quot;erstellen. Dieser Bericht ermöglicht Ihnen die Berichterstellung über die Testversandgenehmigungen aus den &quot;Meine Arbeit&quot;-Bereichen der Benutzer, in denen noch keine Entscheidungen getroffen wurden.
 
 Die Berichte zur Validierung des Testversands enthalten folgende Informationen:
 
@@ -61,7 +61,7 @@ Weitere Informationen finden Sie unter [Zugriff auf Workfront Testing von Adobe 
 
 Vor dieser Änderung konnte nur der Workfront-Administrator über die Workfront-Benutzeroberfläche direkt auf die ProofHQ-Site zugreifen.
 
-## Neue Option für sichere TLS-Verbindung für ausgehende E-Mails (Workfront)
+## Neue Option für sichere TLS-Verbindung für ausgehende Nachrichten (Workfront)
 
 Wenn Sie Ihre Workfront-Kommunikation über Ihren eigenen E-Mail-Server verwalten möchten, können Sie jetzt für Ihre ausgehende E-Mail eine sichere TLS-Verbindung aktivieren.
 
@@ -119,14 +119,14 @@ Für in Workfront integrierte ProofHQ Premium-Konten werden jetzt die folgenden 
 Sie können jetzt die folgenden zusätzlichen Informationen in benutzerdefinierte Ansichten einfügen:
 
 * **Daten auf Empfängerebene**\
-   Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für Daten auf Empfängerebene einzuschließen: Rolle, Position, E-Mail-Warnungen, Meine Deadline, Datum zum Testversand hinzugefügt, und Empfängersuche.\
-   Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für Daten auf Empfängerebene einzuschließen: Rolle, Position, E-Mail-Warnungen, Meine Deadline, Datum zum Testversand hinzugefügt und Empfängersuche.\
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Testdaten**\
-   Sie können benutzerdefinierte Ansichten so konfigurieren, dass die folgenden Spalten zu Testdaten hinzugefügt werden: Anzahl der Kommentare (alle Versionen), Größe auf Festplatte, Testtyp, Anzahl der Dateien pro Version, Daten der Kommentaranlagerungen (Größe auf Festplatte, Dateiname) und Filterung nach Unterordner.\
-   Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Sie können benutzerdefinierte Ansichten so konfigurieren, dass die folgenden Spalten zu Testdaten hinzugefügt werden: Anzahl der Kommentare (alle Versionen), Größe auf Festplatte, Testtyp, Anzahl der Dateien pro Version, Daten der Kommentaranhänge (Größe auf Festplatte, Dateiname) und Filterung nach Unterordner.\
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Daten auf Staging-Ebene im Zusammenhang mit automatisierten Workflows**\
-   Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für einzelne Phasen automatisierter Workflows einzuschließen: SOCD-Status, Staging-Fristen, Name der aktiven Bühne, Name der nächsten Phase, Name der Bühne, Name der Bühne und Vorlage.\
-   Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für einzelne Phasen automatisierter Workflows einzuschließen: SOCD-Status, Staging-Deadlines, Name der aktiven Bühne, Name der nächsten Stufe, Name der Staging-Umgebung und Vorlage.\
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Verbesserungen an Testberichten (früher Analytics) (ProofHQ)
 
@@ -139,7 +139,7 @@ Die Berichterstellungsfunktion (ehemals Analytics) umfasst die folgenden Verbess
    * Erstes Aktivitätserlebnis nachweisen
    * Anzahl der Kommentare und Antworten
 
-* Druckberichte
+* Berichte drucken
 * Aktualisiertes Erscheinungsbild
 
 ## Anzeigen der Funktion &quot;ProofHQ&quot;in der Vorschauumgebung (ProofHQ)

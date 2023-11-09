@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Anzeigen von Objekten, die nicht in der Standardoberfläche enthalten sind'
-description: 'Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche des Standardmodus enthalten sind. Dies ist nur möglich, wenn Sie sie über den Textmodus referenzieren. Sie können auf eine der folgenden Arten bestimmen, welche Felder in eine Ansicht aufgenommen werden können: BEARBEITEN SIE MICH.'
+title: "Ansicht: Anzeigen von Objekten, die nicht in der Standardoberfläche enthalten sind"
+description: Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche des Standardmodus enthalten sind. Dies ist nur möglich, wenn Sie sie über den Textmodus referenzieren.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche des Standardm
 Sie können auf eine der folgenden Arten bestimmen, welche Felder in eine Ansicht aufgenommen werden können:
 
 * Verwenden Sie die [API-Explorer](../../../wf-api/general/api-explorer.md) , um andere Objekte zu finden, auf die über den Textmodus verwiesen werden kann.\
-   Nicht alle im API Explorer dokumentierten Felder sind gültige Felder für den Textmodus. Einige Felder sind nur über die API meldebar.
+  Nicht alle im API Explorer dokumentierten Felder sind gültige Felder für den Textmodus. Einige Felder sind nur über die API meldebar.
 
 * Suchen Sie das ID-Feld des Objekts in einer Spalte. Die meisten Objekte mit einer Feld-ID haben auch einen entsprechenden Spalten- oder Feldnamen, auf den über die Benutzeroberfläche des Standardmodus möglicherweise nicht zugegriffen werden kann.
 
-   Sie können den Textmodus verwenden, um die Spalte oder den Feldnamen anstelle der ID in eine Ansicht aufzunehmen, indem Sie die `fieldnameID` mit dem `fieldname:name`.
+  Sie können den Textmodus verwenden, um die Spalte oder den Feldnamen anstelle der ID in eine Ansicht aufzunehmen, indem Sie die `fieldnameID` mit dem `fieldname:name`.
 
-   In der Benutzeroberfläche für den Standardmodus kann beispielsweise die Variable **Portfolio Owner ID** -Feld für eine Projektansicht verfügbar ist, aber die **Name des Portfolios-Eigentümers** nicht. Sie können den Textmodus verwenden, um die **Name des Portfolios-Eigentümers** in der Spalte einer Ansicht.
+  In der Benutzeroberfläche für den Standardmodus kann beispielsweise die Variable **Portfolio Owner ID** -Feld für eine Projektansicht verfügbar ist, aber die **Name des Portfolios-Eigentümers** nicht. Sie können den Textmodus verwenden, um die **Name des Portfolios-Eigentümers** in der Spalte einer Ansicht.
 
 ## Zugriffsanforderungen
 
@@ -65,9 +65,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Gehen Sie zu einer Projektliste.
 1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
 
-1. Klicken **Spalte hinzufügen** Geben Sie dann &quot;Portfolio Owner ID&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** Geben Sie dann &quot;Portfolio Owner ID&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Ersetzen Sie die `valuefield` Linie (`valuefield=portfolio:ownerID`) mit der folgenden Zeile:
 
@@ -93,4 +93,4 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >So ersetzen Sie beliebige Felder `ID` durch das Feld `name` im Textmodus immer ersetzen `ID` mit `:name` im `valuefield` Linie.
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.

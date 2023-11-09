@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Anmeldung bei der [!DNL Workfront Proof] Mobile App
-description: Wenn Sie versuchen, sich bei der Workfront Proof Mobile App anzumelden, wird - BEARBEITEN SIE MICH - zurückgegeben.
+description: Fehlerbehebung bei der Anmeldung bei der mobilen Workfront-Proof-App.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem
 
-Beim Versuch, sich bei der [!DNL Workfront Proof] Mobile App: gibt Folgendes zurück:
+Beim Versuch, sich bei der [!DNL Workfront Proof] Mobile App gibt Folgendes zurück:
 
 &quot;Ihr Benutzername oder Kennwort ist falsch. Bitte versuchen Sie es erneut.&quot;
 
@@ -34,7 +34,7 @@ Dieses Problem tritt auf, wenn Sie [!DNL Workfront Proof] Mobile App allein, wei
 Bei Verwendung von [!DNL Workfront] &amp; [!DNL Workfront Proof],
 
 1. Stellen Sie sicher, dass beide [!DNL Workfront] Mobile App und [!DNL Workfront Proof] Die mobile App wird auf Ihrem Gerät installiert.
-1. Melden Sie sich bei der [!DNL Workfront] Mobile App und rufen Sie das Dokument auf, das Sie testen möchten.
-1. Klicken Sie oben rechts im Bildschirm auf das Drei-Punkte-Symbol und klicken Sie dann auf **[!UICONTROL Testversand]**.
+1. Melden Sie sich bei [!DNL Workfront] Mobile App und rufen Sie das Dokument auf, das Sie testen möchten.
+1. Klicken Sie oben rechts im Bildschirm auf das Drei-Punkte-Symbol und dann auf **[!UICONTROL Testing]**.
 Die [!DNL Workfront Proof] Die Mobile App startet automatisch die Anmeldung.
 Sie können jetzt mit dem Testversand im Dokument arbeiten.

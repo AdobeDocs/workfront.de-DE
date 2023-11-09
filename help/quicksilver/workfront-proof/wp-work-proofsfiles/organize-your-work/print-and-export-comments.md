@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]
-description: 'Die Kommentarzusammenfassung ist direkt in den folgenden Bereichen verfügbar: BEARBEITEN SIE MICH.'
+description: Die Kommentarzusammenfassung ist im Workfront-Testversand verfügbar.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Drucken von Kommentaren
 
@@ -64,7 +64,7 @@ Auf der Übersichtsseite Kommentare haben Sie die folgenden Druckoptionen zur Au
 
 Die Miniaturansicht zeigt jeden Kommentar in der richtigen Reihenfolge zusammen mit dem vollständigen Thread für jeden Kommentar an. Sie können auch Kommentare sortieren und die Miniaturansicht für jeden Kommentar mit hinzugefügten Markups anzeigen.
 
-Um die Miniaturansicht zu drucken, klicken Sie auf die **[!UICONTROL Drucker]** -Symbol oben rechts auf der Seite und wählen Sie eine der folgenden Optionen aus:
+Klicken Sie zum Drucken der Miniaturansicht auf die **[!UICONTROL Drucker]** -Symbol oben rechts auf der Seite und wählen Sie eine der folgenden Optionen aus:
 
 * Sortieren nach Kommentar-ID oder Seite (1)
 * Miniaturansicht für jeden Kommentar mit hinzugefügten Markups (2)
@@ -95,7 +95,7 @@ So laden Sie die [!DNL Excel] Zusammenfassung auf der Seite mit Details zum Test
 
 Gehen Sie wie folgt vor, um einen Testversand unter Verwendung aller Markierungen und Kommentare an die PDF zu exportieren:
 
-1. Navigieren Sie zu **[!UICONTROL Ansichten]** auf der linken Bildschirmseite.
+1. Navigieren Sie zu **[!UICONTROL Ansichten]** auf der linken Bildschirmseite angezeigt.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Symbol eingebettet in einen Testversand und klicken Sie dann auf **[!UICONTROL Kommentare drucken]**.
 
 1. Klicken Sie oben rechts auf der Seite auf das Symbol In PDF exportieren .

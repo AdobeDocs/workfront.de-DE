@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac
-description: Wenn Sie feststellen, dass der Proofing-Viewer die Schriftart der Benutzeroberfläche nicht richtig anzeigt, kann dies auf einige Probleme mit den Schriftarten auf Ihrem Mac-Computer zurückzuführen sein. Um das Problem zu lösen, versuchen Sie die folgenden Lösungen - BEARBEITEN SIE MICH.
+description: Fehlerbehebung bei beschädigter Schnittstellenschriftart im Testversand-Viewer auf Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Wenn Sie feststellen, dass der Proofing-Viewer die Schriftart der Benutzeroberfläche nicht richtig anzeigt, kann dies auf einige Probleme mit den Schriftarten auf Ihrem Mac-Computer zurückzuführen sein. Um das Problem zu beheben, versuchen Sie die folgenden Lösungen:
 
@@ -29,10 +29,10 @@ Wenn Sie feststellen, dass der Proofing-Viewer die Schriftart der Benutzeroberfl
 
 1. Schließen Sie den verwendeten Browser.
 1. Öffnen Sie die Anwendung &quot;Font Book&quot;in Ihrem Ordner &quot;Applications&quot;.
-1. Klicken **[!UICONTROL Alle Schriftarten]** Absatz 1.
-1. Klicken **[!UICONTROL Bearbeiten]** > **[!UICONTROL Suchen nach aktivierten Duplikaten]**.
+1. Klicks **[!UICONTROL Alle Schriftarten]** Absatz 1.
+1. Klicks **[!UICONTROL Bearbeiten]** > **[!UICONTROL Suchen nach aktivierten Duplikaten]**.
 
-1. Klicken **[!UICONTROL Ja]** , um Duplikate aufzulösen.
+1. Klicks **[!UICONTROL Ja]** , um Duplikate aufzulösen.
 1. Wenn eine Warnung zu beschädigten Schriftarten angezeigt wird, klicken Sie auf **[!UICONTROL Ja]**.
 1. Starten Sie den Computer neu.
 1. Testen Sie den Testversand erneut.
@@ -45,7 +45,7 @@ Zunächst müssen Sie das Schriftbuch starten, die Schriftart oder die Schriftfa
 
 Der zweite Schritt besteht darin, den Schriftartencache zu löschen, und es gibt mehrere Möglichkeiten, dies zu erreichen.
 
-Die erste besteht darin, einfach in den abgesicherten Modus neu zu starten, indem Sie die Umschalttaste sofort gedrückt halten, wenn Sie die Bootmodelle beim Start hören. Wenn dieser Modus geladen wird, sollte ein Fortschrittsbalken angezeigt werden, in dem das System verschiedene Prüfungen und Wartungsroutinen durchführt, darunter das Löschen des Schriftarten-Caches.
+Die erste besteht darin, einfach in den abgesicherten Modus neu zu starten, indem Sie die Umschalttaste sofort gedrückt halten, wenn Sie die Bootmodelle beim Start hören. Wenn dieser Modus geladen wird, sollte ein Fortschrittsbalken angezeigt werden, in dem das System verschiedene Prüfungen und Wartungsroutinen durchführt, von denen einer darin besteht, den Schriftarten-Cache zu leeren.
 
 Der zweite Ansatz besteht in der Verwendung des Terminals, was durch Ausführen des folgenden Befehls in einem Administratorkonto möglich ist: *sutil-Datenbanken sudo -remove*
 
@@ -68,9 +68,9 @@ Der alte Testversand-Viewer basiert auf [!DNL Flash Player] und manchmal, wenn d
 1. Öffnen Sie Finder und öffnen Sie die **[!UICONTROL Los]** Registerkarte.
 1. Drücken Sie die Wahltaste ( ⌥ Alt ), um die [!UICONTROL Bibliothek] in der Dropdown-Liste.
 1. Klicken Sie bei gedrückter Wahltaste auf die [!UICONTROL Bibliothek] Ordner.
-1. Nach dem [!UICONTROL Bibliothek] Ordner geöffnet, navigieren Sie zu [!UICONTROL Schriftarten] Ordner in
+1. Nach dem [!UICONTROL Bibliothek] Ordner geöffnet, navigieren Sie zu [!UICONTROL Schriftarten] Ordner in.
 1. Verschieben Sie alle Schriftarten, die sich im [!UICONTROL Schriftarten] in einen anderen Ordner, vielleicht auf Ihrem Desktop (erstellen Sie bitte keinen weiteren Ordner im Ordner &quot;Schriftarten&quot;).
-1. Diese Aktion blendet alle benutzerdefinierten Schriften aus. sollten Sie die Standardsystemschriftarten weiterhin an ihrem eigenen Speicherort speichern.
+1. Durch diese Aktion werden alle benutzerdefinierten Schriftarten ausgeblendet. Die Standardsystemschriftarten sollten weiterhin an einem anderen Speicherort gespeichert werden.
 1. Beenden und neu starten [!DNL Safari].
 1. Öffnen Sie den Testversand erneut.
 

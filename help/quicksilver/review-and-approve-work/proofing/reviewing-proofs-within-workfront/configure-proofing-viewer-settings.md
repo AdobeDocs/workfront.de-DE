@@ -2,26 +2,26 @@
 product-area: documents;setup
 navigation-topic: review-a-proof
 title: Konfigurieren der Einstellungen des Testversand-Viewers
-description: Sie können die folgenden Einstellungen sowohl für den Web Proofing Viewer als auch für den Desktop Proofing Viewer - EDIT ME konfigurieren.
+description: Sie können Einstellungen für den Web Proofing Viewer und den Desktop Proofing Viewer konfigurieren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Einstellungen des Testversand-Viewers
 
-Sie können die folgenden Einstellungen für den Web Proofing Viewer und den Desktop Proofing Viewer konfigurieren:
+Sie können die folgenden Einstellungen sowohl für den Web Proofing Viewer als auch für den Desktop Proofing Viewer konfigurieren:
 
 * Ob Kommentar-Markups und Pins bei Testsendungen angezeigt werden.
 * Ob die Markup-Tools oben im Testversand-Viewer oder in einem Dropdown-Menü angezeigt werden.
 * Welche E-Mail-Benachrichtigungen erhalten Sie als Validierer für den geöffneten Testversand?
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
@@ -33,7 +33,7 @@ Sie können die folgenden Einstellungen für den Desktop Proofing Viewer konfigu
 
 * Wie Sie möchten, dass Links innerhalb des Website-Inhalts im Viewer geöffnet werden.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
@@ -50,11 +50,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -88,21 +88,21 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
 
    Die verfügbaren Einstellungen variieren je nach Art des geöffneten Testversands.
 
-   * **Markierungen anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die Kommentarzeichen, die Prüfer bei der Verwendung der Markup-Tools zu Testsendungen hinzufügen. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
+   * **Markierungen anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die Kommentarzeichen, die Prüfer Testsendungen hinzufügen, wenn sie die Markup-Tools verwenden. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
 
-      Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
+     Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
 
    * **Stifte anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die nummerierten Pins, die Prüfer bei der Verwendung der Markup-Tools zu Testsendungen hinzufügen. Sie geben an, wo und in welcher Reihenfolge der Validierer Kommentare hinzugefügt hat. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
 
-      Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
+     Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
 
    * **Verwenden erweiterter Markup-Tools** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Standardmäßig werden die Optionen des Markup-Tools über dem Testversand-Viewer angezeigt. Sie können sie so konfigurieren, dass sie nur in einem vertikalen Menü angezeigt werden, das nur durch Klicken geöffnet wird.
 
-      Diese Einstellung gilt für alle Testsendungen, die Sie öffnen.
+     Diese Einstellung gilt für alle Testsendungen, die Sie öffnen.
 
    * **E-Mail-Benachrichtigungen senden zu** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Klicken Sie auf eine der folgenden Optionen. Diese Einstellung wirkt sich nur auf den geöffneten Testversand aus. Weitere Informationen finden Sie unter [Benachrichtigungen über Testversandkommentare und Entscheidungen - Überblick](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -119,7 +119,7 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
         <td>Workfront sendet eine E-Mail nur dann an den Validierer, wenn ein Benutzer eine Entscheidung trifft.<p>Dies kann für die Person nützlich sein, die den Validierungsprozess verwaltet (z. B. einen Projektmanager), und muss den Fortschritt des Testversands überwachen und sehen, welche Benutzer ihre Entscheidung getroffen haben.</p><p>Sie werden nicht über Ihre eigene Entscheidung informiert, es sei denn, Sie wählen beim Senden Ihrer Entscheidung eine E-Mail-Bestätigungsoption aus.</p></td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Endgültige Entscheidung</td> 
+        <td role="rowheader">Finale Entscheidung</td> 
         <td>Workfront sendet eine E-Mail, wenn der letzte Genehmiger des Testversands seine Entscheidung getroffen hat.<p>Dieser Warnhinweis wird häufig vom Designer verwendet, der normalerweise nicht an der eigentlichen Reviewdiskussion teilnehmen muss. Wenn die endgültige Entscheidung getroffen wird, wird der Designer benachrichtigt und kann dann alle notwendigen Änderungen vornehmen.</p><p>Dieser Warnhinweis kann auch für einen Abteilungsleiter nützlich sein, der nur benachrichtigt werden muss, wenn der Überprüfungsprozess abgeschlossen ist.</p></td> 
        </tr> 
        <tr> 
@@ -137,15 +137,15 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Beim Klicken auf Hyperlinks in einem Testversand** (nur im Desktop Proofing Viewer verfügbar): Wählen Sie eine Option aus, um festzulegen, was im Desktop Proofing-Viewer geschieht, wenn Sie auf einen Link klicken, der auf einer neuen Registerkarte oder in einem neuen Browser-Fenster geöffnet werden soll.
+   * **Beim Klicken auf Hyperlinks in einem Testversand** (nur im Desktop Proofing Viewer verfügbar): Wählen Sie eine Option aus, um festzulegen, was im Desktop Proofing Viewer geschieht, wenn Sie auf einen Link klicken, der auf einer neuen Registerkarte oder einem neuen Browser-Fenster geöffnet werden soll.
 
-      Diese Einstellung gilt für alle interaktiven Testsendungen, die Sie öffnen.
+     Diese Einstellung gilt für alle interaktiven Testsendungen, die Sie öffnen.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -164,12 +164,12 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
    * **Cache löschen**: Löscht die Browser-Cache-Daten, die möglicherweise mit einem interaktiven Testversand gespeichert werden, den Sie anzeigen. Dadurch können Inhalte wie Popups (die durch Browsercache-Daten blockiert werden können) im Desktop Proofing Viewer angezeigt werden.
 
-      Zu den gelöschten Daten gehören der HTTP-Cache (z. B. Bilder, die nach der nächsten Seitenaktualisierung wiederverwendet werden sollen) und der Cache für Webspeicherdaten (z. B. Cookies und Daten, die Benutzer identifizieren).
+     Zu den gelöschten Daten gehören der HTTP-Cache (z. B. Bilder, die nach der nächsten Seitenaktualisierung wiederverwendet werden sollen) und der Cache für Webspeicherdaten (z. B. Cookies und Daten, die Benutzer identifizieren).
 
-      Diese Einstellung wirkt sich nur auf den geöffneten Testversand aus.
+     Diese Einstellung wirkt sich nur auf den geöffneten Testversand aus.

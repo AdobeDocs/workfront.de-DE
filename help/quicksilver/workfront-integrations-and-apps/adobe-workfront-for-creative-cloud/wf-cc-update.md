@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Aktualisieren Ihrer Arbeit in Adobe Photoshop
-description: Sie können Ihre Arbeit in den folgenden Bereichen aktualisieren - EDIT ME.
+description: Sie können Ihre Arbeit mit dem Adobe Workfront-Plugin aktualisieren.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] -Lizenz.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -86,10 +86,10 @@ So veröffentlichen Sie eine Aktualisierung:
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Aus dem **[!UICONTROL Arbeitsliste]**, wählen Sie das Arbeitselement aus, für das Sie eine Aktualisierung veröffentlichen möchten.
-1. Klicken **[!UICONTROL Aktualisieren]** in der Navigationsleiste.\
+1. Klicks **[!UICONTROL Aktualisieren]** in der Navigationsleiste.\
    ![](assets/photoshop-update-350x295.png)
 
-1. Klicken **[!UICONTROL Neues Update]**.
+1. Klicks **[!UICONTROL Neues Update]**.
 1. Geben Sie Ihre Aktualisierung ein.
 1. (Optional) Um einen Benutzer mit Tags zu versehen, geben Sie das @-Symbol und den Namen des Benutzers ein und wählen Sie dann seinen Namen aus dem Dropdown-Menü aus.
-1. Klicken **[!UICONTROL Einsenden]**. Aktualisierungen werden in Echtzeit mit der Adobe Workfront-Webanwendung synchronisiert.
+1. Klicks **[!UICONTROL Einsenden]**. Aktualisierungen werden in Echtzeit mit der Adobe Workfront-Webanwendung synchronisiert.

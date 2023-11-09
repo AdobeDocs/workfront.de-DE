@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Konfigurieren der Testversandeinstellungen in [!DNL Workfront Proof]
-description: 'Sie können einen Testversand, den Sie erstellen oder bearbeiten, auf eine der folgenden Arten konfigurieren: BEARBEITEN SIE MICH.'
+description: Sie können einen Testversand konfigurieren, den Sie in Testsendungen erstellen oder bearbeiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Sie haben folgende Möglichkeiten, einen Testversand zu konfigurieren, den Sie erstellen oder bearbeiten:
 
@@ -51,7 +51,6 @@ Wenn Sie jedoch höhere Sicherheitsstufen für Ihren Überprüfungs- und Genehmi
 >* *Damit sich jemand beim Testversand anmelden kann (wenn die erforderliche Anmeldung aktiviert wurde), muss er zum Testversand hinzugefügt worden sein.*
 >* *Wenn die erforderliche Anmeldung aktiviert ist, können Abonnements nicht aktiviert werden.*
 
-
 So müssen Sie sich für alle Benutzer anmelden, die den Testversand überprüfen:
 
 1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
@@ -62,7 +61,7 @@ So müssen Sie sich für alle Benutzer anmelden, die den Testversand überprüfe
    Oder\
    Für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** auswählen **[!UICONTROL Erforderliche Anmeldung]**.
 
-## Anfordern von nur einer Entscheidung für den Testversand
+## Nur eine Entscheidung für den Testversand erforderlich
 
 Diese Einstellung ist nützlich, wenn Sie nur eine Person aus einer Gruppe, Abteilung oder Firma benötigen, um eine Entscheidung über den Testversand zu treffen.
 
@@ -100,7 +99,7 @@ Sie können die Validierungsverantwortlichen daran hindern, die Originaldatei he
    Oder\
    Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]**, Auswahl aufheben **[!UICONTROL Originaldatei herunterladen]**.\
+1. Für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** abwählen **[!UICONTROL Originaldatei herunterladen]**.\
    Oder\
    Für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** auswählen **[!UICONTROL Herunterladen der Originaldatei]**.
 
@@ -128,6 +127,6 @@ So können andere Benutzer einen Testversand abonnieren:
    Oder\
    Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]**, Auswahl aufheben **[!UICONTROL Testversand über öffentliche URL oder Einbettungscode abonnieren]**.\
+1. Für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** abwählen **[!UICONTROL Testversand über öffentliche URL oder Einbettungscode abonnieren]**.\
    Oder\
    Für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** auswählen **[!UICONTROL Abonnement]**.
