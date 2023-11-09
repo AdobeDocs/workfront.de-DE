@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Benutzerdefinierte Zugriffsebenen erstellen und ändern
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter
 
@@ -57,8 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step-1-to-setup}}
 
-1. Klicken **Zugriffsebenen** im linken Bereich.
-1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
+1. Klicks **Zugriffsebenen** im linken Bereich.
+1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie auf **Kopieren**.
 
    Oder
 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie aufzunehmen. Im ACME-Unternehmen kann beispielsweise eine Kopie der Standardzugriffsstufe ACME Standard heißen.</p> </td> 
+      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie einzufügen. Im ACME-Unternehmen kann beispielsweise eine Kopie der Standardzugriffsstufe ACME Standard heißen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung </td> 
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn **Standard** oder **Plan** wird im **Lizenztyp** zum Bereich **Administratorzugriff zulassen für** und wählen Sie die administrativen Zugriffsberechtigungen für diejenigen, die diese Zugriffsebene haben sollen.
+1. (Bedingt) Wenn **Standard** oder **Plan** wird im Feld **Lizenztyp** zum Bereich **Administratorzugriff zulassen für** und wählen Sie die administrativen Zugriffsberechtigungen für diejenigen aus, die diese Zugriffsebene haben werden.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,7 +114,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li>Ausgaben für von ihnen verwaltete Projekte, Aufgaben oder Probleme</li>
         <li>Ihre eigenen Ausgaben</li>
         <li>Die Kosten für ihre Untergebenen</li>
-       </ul><p><b>NOTE</b>: Dadurch kann der Benutzer keine neuen Ausgabentypen erstellen.</p></td> 
+       </ul><p><b>NOTE</b>: Benutzer können hierdurch keine neuen Ausgabetypen erstellen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aufgabengebiete</td> 
@@ -133,7 +133,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Erinnerungsbenachrichtigungen</td> 
-      <td>Erstellen und verwalten Sie Erinnerungsbenachrichtigungen in Workfront.<p>Ohne diesen Zugriff können Benutzer nur Benachrichtigungen empfangen und anzeigen.</p></td> 
+      <td>Erstellen und verwalten Sie Erinnerungsbenachrichtigungen in Workfront.<p>Ohne diesen Zugriff sind Benutzer auf den Empfang und die Anzeige von Benachrichtigungen beschränkt.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeitszeittabellen und Stunden</td> 
@@ -148,7 +148,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Klicken **Weitere Einschränkungen festlegen** und legen Sie dann eine der folgenden Einschränkungen für die Zugriffsebene fest.
+1. Klicks **Weitere Einschränkungen festlegen** und legen Sie dann eine der folgenden Einschränkungen für die Zugriffsebene fest.
 
    >[!IMPORTANT]
    >
@@ -172,7 +172,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Nicht zulassen, dass Benutzer Kommentare löschen </td> 
-      <td> <p>Verhindert, dass Benutzer Kommentare zu Elementen löschen. </p> <p><b>NOTE</b>: Niemand kann die Kommentare anderer Benutzer löschen.</p> </td> 
+      <td> <p>Verhindert, dass Benutzer Kommentare zu Elementen löschen. </p> <p><b>NOTE</b>: Keiner kann die Kommentare anderer Benutzer löschen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nur Firmen, Gruppen &amp; Teams anzeigen, der Sie angehören</td> 
@@ -197,12 +197,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn zwei Benutzer zu zwei verschiedenen Unternehmen gehören, aber beide Benutzer vom primären Unternehmen sehen können, können sie den Bereich Updates sehen, der mit dem primären Unternehmen verknüpft ist.
 
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der Artikel fort, die unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, mit einem der Artikel fortzufahren, die unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), beispielsweise [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Klicken Sie auf **Speichern**.
 
    Nachdem die Zugriffsebene erstellt wurde, können Sie sie einem Benutzer zuweisen (es sei denn, es handelt sich um eine Zugriffsstufe für Systemadministratoren).
 
-   Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
    Informationen dazu, wie ein Adobe-Administrator einem Benutzer eine Systemadministratorzugriffsstufe zuweist, finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
