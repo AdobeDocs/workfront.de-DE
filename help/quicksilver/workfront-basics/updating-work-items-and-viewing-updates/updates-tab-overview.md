@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Arbeitszeittabelle*</td> 
-   <td>Benutzer, Team</td> 
+   <td>Arbeitszeittabelle</td> 
+   <td><p>Benutzer, Team</p>
+   <p><b>NOTIZ</b></p>
+   <p>Die Kommentare zum Datenblatt werden im Abschnitt Updates des Benutzers angezeigt, der den Kommentar abgibt, sowie im Abschnitt Updates seines Startseiten-Teams.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Vorlagenaufgabe</td> 
@@ -184,7 +187,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Wiederholung*</td> 
+   <td>Wiederholung</td> 
    <td>Team</td> 
   </tr>
 
@@ -198,7 +201,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
   </tr> 
  </tbody> 
 </table>
-* Diese sind für das neue Kommentarerlebnis nicht verfügbar.
+
 
 <br>
 

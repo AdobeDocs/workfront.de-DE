@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Freigeben von Datensatzlinks aus der Tabellenansicht des Datensatztyps
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> Klicken Sie dann auf **Maestro**.
+1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro**.
 
    Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
@@ -110,7 +110,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü Mehr . ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
+   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
