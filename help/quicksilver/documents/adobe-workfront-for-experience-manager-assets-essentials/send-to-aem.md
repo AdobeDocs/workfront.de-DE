@@ -6,16 +6,14 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets od
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Senden eines Dokuments an Experience Manager Assets oder Assets Essentials
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Sie können Dokumente von Workfront an Experience Manager Assets oder Assets Essentials senden. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden weiterhin mit Ihrem gesamten Dokumentenspeicher angerechnet. Von Assets Essentials verknüpfte Assets zählen nicht zum Gesamtspeicher.
 
@@ -116,9 +114,9 @@ Sie können ein Dokument in einen verknüpften Ordner in Experience Manager Asse
 1. Suchen Sie das Dokument, das Sie verschieben möchten.
 1. Ziehen Sie das Dokument in den verknüpften Ordner von Experience Manager Assets, in den Sie es verschieben möchten.
 
-<div class="preview">Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar. Nachdem das Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
+Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar. Nachdem das Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
 
 >[!NOTE]
 >
 > Alle Aktionen oder Bearbeitungen, die Sie während des Übergangs am Dokument vornehmen, werden nicht im Dokument in Experience Manager Assets angezeigt und gehen daher verloren.
-</div>
+

@@ -6,16 +6,14 @@ description: Verwenden von Workflows in der Integration von Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Workflows in der Experience Manager Assets-Integration verwenden
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Ein Workfront-Administrator kann Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
@@ -147,8 +145,6 @@ So bearbeiten Sie den Workflow für verknüpfte Ordner:
 
 #### Assets veröffentlichen
 
-<div class="preview">
-
 So bearbeiten Sie den Workflow zum Veröffentlichen von Assets:
 
 1. Umschalten **Assets automatisch veröffentlichen** ein- oder ausschalten.
@@ -159,4 +155,4 @@ So bearbeiten Sie den Workflow zum Veröffentlichen von Assets:
 
    Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
 
-</div>
+

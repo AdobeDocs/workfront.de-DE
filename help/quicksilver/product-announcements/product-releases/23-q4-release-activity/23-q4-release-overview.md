@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a></p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen zum Drag &amp; Drop für Dokumentintegrationen</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wir haben einige Verbesserungen vorgenommen, um Klarheit zu schaffen und Benutzerfehler beim Ziehen und Ablegen einer Datei in einen verknüpften Ordner zu entfernen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -780,9 +780,9 @@ Mit Version 23.10 werden wir die mobile Proof-App offiziell als veraltet einstuf
 
 Beachten Sie, dass für die mobile Workfront-App eine Workfront-Anmeldung erforderlich ist. Externe Benutzer und Gäste können die Proof-App weiterhin für Testsendungen verwenden. Sie wird jedoch nicht mehr unterstützt und ab Version 23.10 nicht mehr verfügbar sein.
 
-#### Workflows wurden für Konten entfernt, die sie nicht verwenden
+#### Arbeitsabläufe wurden für Konten entfernt, die sie nicht verwenden
 
-Bei Konten, die noch nie einen Workstream in Adobe Workfront-Pinnwänden erstellt haben, wurde der Bereich Workflows ab dem 11. Oktober 2023 aus dem Dashboard der Pinnwände entfernt. Konten, die Workflows verwenden, haben weiterhin Zugriff darauf. In zukünftigen Versionen werden verbesserte Funktionen für die Bildbearbeitung behoben.
+Bei Konten, die noch nie einen Workstream in Adobe Workfront-Pinnwänden erstellt haben, wurde der Bereich Workflows ab dem 11. Oktober 2023 aus dem Dashboard der Pinnwände entfernt. Konten, die Arbeitsabläufe verwenden, haben weiterhin Zugriff darauf. In zukünftigen Versionen werden verbesserte Funktionen für die Bildbearbeitung behoben.
 
 <!-- HTML you might need
 
