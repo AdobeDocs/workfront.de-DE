@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,13 +109,13 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
       <td role="rowheader">Kriterien</td> 
       <td> <p>Wählen Sie die Kriterien aus, um die Erinnerungsbenachrichtigung für die Planung zu qualifizieren. Erinnerungsbenachrichtigungen werden nur geplant, wenn die Kriterienauswahl erfüllt ist.</p> <p>Je nach dem in Schritt 4 ausgewählten Objekttyp stehen die folgenden Kriterienoptionen zur Verfügung:</p> 
        <ul> 
-        <li><strong>In aktuellen Projekten unvollständig:</strong> (Verfügbar für Aufgaben- und Problemerinnerungen) Die Erinnerungsbenachrichtigung wird nur dann gesendet, wenn der Objektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, nicht abgeschlossen und der Projektstatus Aktuell ist.</li> 
-        <li><strong>Alle in aktuellen Projekten:</strong>(Verfügbar für Aufgaben- und Problemerinnerungen) Die Erinnerungsbenachrichtigung soll unabhängig vom Objektstatus und nur gesendet werden, wenn der Projektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, aktuell ist.</li> 
-        <li><strong>Unvollständige Projekte:</strong> (Für Projekterinnerungen verfügbar) Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Projektstatus etwas Anderes als "Abgeschlossen"ist.</li> 
-        <li><strong>Projekte abschließen:</strong> (Verfügbar für Projekterinnerungen) Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Projektstatus Abgeschlossen ist.</li> 
-        <li><strong>Öffnen Sie Timesheets:</strong> (Verfügbar für Zeitblatt-Erinnerungen) Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Status des Zeitblatts "Open"lautet.</li> 
-        <li><strong>Gesendete Timesheets:</strong> (Verfügbar für Zeitblatt-Erinnerungen) Die Erinnerungsbenachrichtigung ist für den Zeitpunkt der Übermittlung des Zeitleistensatzes geplant.</li> 
-        <li><strong>Öffnen Sie das Datenblatt oder unter 40 Stunden pro Woche:</strong> (Für Zeitblatt-Erinnerungen verfügbar) Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Status des Zeitblatts "Open"lautet oder wenn das Timesheet weniger als 40 Stunden protokolliert wurde.</li> 
+        <li><strong>In aktuellen Projekten unvollständig:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung wird nur dann gesendet, wenn der Objektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, nicht abgeschlossen ist und der Projektstatus "Aktuell" lautet.</li> 
+        <li><strong>Alle in aktuellen Projekten:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung soll unabhängig vom Objektstatus und nur dann gesendet werden, wenn der Projektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, aktuell ist.</li> 
+        <li><strong>Unvollständige Projekte:</strong> <i>(Verfügbar für Erinnerungen an Projekte)</i> Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Projektstatus etwas Anderes als "Abgeschlossen"ist.</li> 
+        <li><strong>Alle Projekte:</strong> <i>(Verfügbar für Erinnerungen an Projekte)</i> Die Erinnerungsbenachrichtigung soll unabhängig vom Projektstatus gesendet werden.</li> 
+        <li><strong>Öffnen Sie Timesheets:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird geplant, wenn der Status des Zeitblatts "Open"lautet.</li> 
+        <li><strong>Gesendete Timesheets:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird geplant, wenn der Status des Zeitblatts übermittelt wird.</li> 
+        <li><strong>Öffnen Sie das Datenblatt oder unter 40 Stunden pro Woche:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird terminiert, wenn der Status des Timesheets "Open"lautet oder wenn das Timesheet weniger als 40 Stunden protokolliert wurde.</li> 
         <li><strong>E-Mail-Vorlage:</strong> Wählen Sie aus der Dropdown-Liste eine E-Mail-Vorlage aus, die an Ihre Erinnerung angehängt werden soll.<br>Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">E-Mail-Vorlagen konfigurieren</a>.</li> 
        </ul> </td> 
      </tr> 
