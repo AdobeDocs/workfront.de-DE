@@ -5,14 +5,17 @@ title: Verwenden von Workflows in der Integration von Experience Manager Assets 
 description: Verwenden von Workflows in der Integration von Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Workflows in der Experience Manager Assets-Integration verwenden
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Ein Workfront-Administrator kann Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
@@ -41,7 +44,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td><p>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</p><p>Sie müssen über Schreibzugriff auf das Repository in Adobe Experience Manager verfügen, um verknüpfte Ordner erstellen zu können.</p>&gt;
+   <td><p>Sie müssen über as a Cloud Service oder Assets Essentials von Experience Manager Assets verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</p><p>Sie müssen über Schreibzugriff auf das Repository in Adobe Experience Manager verfügen.</p>
    </td>
   </tr>
   <tr>
@@ -64,7 +67,7 @@ Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <strong>Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen,
+Bevor Sie beginnen
 
 * Ihr Workfront-Administrator muss Workflows in einer Adobe Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
@@ -72,17 +75,17 @@ Bevor Sie beginnen,
 
 Sie können einen Workflow zu einer Projektvorlage hinzufügen. Der Workflow wird auf alle aus der Vorlage erstellten Projekte angewendet.
 
-1. <!-- main menu snippet??--> Öffnen Sie eine Vorlage durch Klicken auf **Vorlagen** im Hauptmenü und wählen Sie dann die Vorlage aus der Liste aus.
-1. Klicken **Experience Manager Assets** im linken Navigationsbereich.
+1. Öffnen Sie eine Vorlage durch Klicken auf **Vorlagen** im Hauptmenü und wählen Sie dann die Vorlage aus der Liste aus.
+1. Klicks **Experience Manager Assets** im linken Navigationsbereich.
 
    >[!NOTE]
    >
-   >Wenn der Abschnitt Experience Manager Assets nicht im linken Navigationsbereich angezeigt wird, hat Ihr Workfront-Administrator die Workflows für Ihr Unternehmen nicht aktiviert. <!--Is this right?-->
+   >Wenn der Abschnitt &quot;Experience Manager Assets&quot;nicht im linken Navigationsbereich angezeigt wird, hat Ihr Workfront-Administrator die Workflows für Ihr Unternehmen nicht aktiviert. <!--Is this right?-->
 
 1. Im **Auswählen einer Integration für das Feld &quot;Automatisierte Workflows&quot;**, wählen Sie die Integration mit den Workflows aus, die Sie für Projekte verwenden möchten, die aus dieser Vorlage erstellt wurden.
 1. (Optional) Bearbeiten Sie alle Workflow-Werte, die Sie auf Projekte anwenden möchten, die mit dieser Vorlage erstellt wurden.
 
-   Um beispielsweise einen verknüpften Ordner an einem anderen Speicherort als dem Standardwert zu erstellen, geben Sie den verknüpften Ordnerspeicherort ein.
+   Anweisungen zu bestimmten Workflows finden Sie unter [Workflow-Werte in einem Projekt bearbeiten](#edit-workflow-values-in-a-project) in diesem Artikel.
 
    In Vorlagen oder Projekten sind nur Workflows verfügbar, die im Experience Manager-Bereich der Einrichtung aktiviert wurden.
 
@@ -92,9 +95,9 @@ Sie können einen Workflow zu einer Projektvorlage hinzufügen. Der Workflow wir
 
 Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen Workflow zu einem vorhandenen Projekt hinzufügen. In beiden Fällen verwenden Sie eine Projektvorlage, um den Workflow hinzuzufügen.
 
-### Workflow beim Erstellen eines Projekts hinzufügen
+### Hinzufügen eines Workflows beim Erstellen eines Projekts
 
-1. Erstellen Sie ein Projekt.
+1. Beginnen Sie mit der Erstellung eines Projekts.
 
    Anweisungen finden Sie unter [Erstellen eines Projekts mit einer Vorlage](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
@@ -106,12 +109,14 @@ Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen 
 
 ### Hinzufügen eines Workflows zu einem vorhandenen Projekt
 
-1. Beginnen Sie mit dem Hinzufügen einer Vorlage zum Projekt.
+1. Fügen Sie dem Projekt eine Vorlage hinzu.
 
    Anweisungen finden Sie unter [Eine Vorlage an ein Projekt anhängen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. Wählen Sie bei der Auswahl einer Vorlage für das Projekt die Vorlage aus, die die Workflows enthält, die Sie für dieses Projekt verwenden möchten.
 1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Workflow-Werte in einem Projekt bearbeiten](#edit-workflow-values-in-a-project).
+
+   In Vorlagen oder Projekten sind nur Workflows verfügbar, die im Experience Manager-Bereich der Einrichtung aktiviert wurden.
 
 ### Workflow-Werte in einem Projekt bearbeiten
 
@@ -123,19 +128,35 @@ Alle Workflow-Werte finden Sie unter:
 * Der Abschnitt Adobe Experience Manager im linken Navigationsbereich.
 
 
-   >[!NOTE]
-   >
-   >Wenn diese Bereiche nicht sichtbar sind, hat Ihr Workfront-Administrator die Workflows für Ihr Unternehmen nicht aktiviert.
+  >[!NOTE]
+  >
+  >Wenn diese Bereiche nicht sichtbar sind, hat Ihr Workfront-Administrator die Workflows für Ihr Unternehmen nicht aktiviert.
 
 #### Verknüpfte Ordner
 
 So bearbeiten Sie den Workflow für verknüpfte Ordner:
 
-1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
-1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
-1. Klicken Sie auf Speichern , wenn Sie das Fenster Projekt erstellen oder Projekt bearbeiten verwenden.
+1. Umschalten **[!UICONTROL Verknüpften Ordner erstellen]** ein- oder ausschalten.
+1. (Bedingt) Wenn Sie verknüpfte Ordner aktivieren, wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration verknüpft werden sollen.
+1. Klicks **[!UICONTROL Speichern]** wenn Sie die [!UICONTROL Projekt erstellen] oder [!UICONTROL Projekt bearbeiten] Fenster.
 
    Oder
 
-   Wenn Sie sich im Adobe Experience Manager-Bereich befinden, werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
+   Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
 
+
+#### Assets veröffentlichen
+
+<div class="preview">
+
+So bearbeiten Sie den Workflow zum Veröffentlichen von Assets:
+
+1. Umschalten **Assets automatisch veröffentlichen** ein- oder ausschalten.
+1. (Bedingt) Wenn Sie die Veröffentlichung aktivieren, wählen Sie aus, ob Sie die Veröffentlichung im Veröffentlichungsdienst, im Brand Portal oder beidem durchführen möchten.
+1. Klicks **[!UICONTROL Speichern]** wenn Sie die [!UICONTROL Projekt erstellen] oder [!UICONTROL Projekt bearbeiten] Fenster.
+
+   Oder
+
+   Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
+
+</div>

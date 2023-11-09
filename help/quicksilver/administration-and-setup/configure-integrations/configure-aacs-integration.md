@@ -5,9 +5,9 @@ title: Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Se
 description: Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Exper
 
 Die standardmäßigen Workflow-Werte, die Sie in der Integration festlegen, können auf den Ebenen &quot;Projektvorlage&quot;und &quot;Projekt&quot;überschrieben werden.
 
-### Einrichten eines Workflows für die Erstellung von mit Adobe Experience Manager verknüpften Ordnern
+Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfügbar:
+
+* [Mit Adobe Experience Manager verknüpfte Ordner erstellen](#create-adobe-experience-manager-linked-folders)
+* [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Mit Adobe Experience Manager verknüpfte Ordner erstellen
 
 1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Aktivieren Sie die **Portfolio- und Programmnamen anhängen** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
-1. Klicks **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel beschrieben.
+1. Aktivieren Sie die **[!UICONTROL Portfolio- und Programmnamen anhängen]** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
+1. Klicks **[!UICONTROL Speichern]** oder zum [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel beschrieben.
+
+### Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden
+
+1. Aktivieren **[!UICONTROL Assets automatisch veröffentlichen]**.
+1. Aktivieren Sie das Kontrollkästchen neben dem Speicherort, an dem Sie Assets veröffentlichen möchten, die an Adobe Experience Manager-Assets gesendet werden. Sie können eine oder beide Optionen aktivieren.
+1. (Bedingt) Wenn Sie die Option Brand Portal aktiviert haben, wählen Sie die Brand Portal aus, in der Sie Assets veröffentlichen möchten.
+1. Klicks **[!UICONTROL Speichern]** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel beschrieben.
 
 ## Verknüpfte Ordner einrichten (optional)
 
