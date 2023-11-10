@@ -7,16 +7,16 @@ description: Ein Dashboard ermöglicht einen schnellen Zugriff auf Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c6e63ac7e98b7cc05476393aa53f5b738ca60a41
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Dashboards
 
-Ein Dashboard ermöglicht einen schnellen Zugriff auf Informationen. Sie können Informationen in Berichten sammeln und sie dann in Dashboards einfügen, um den Zugriff auf diese Informationen zu vereinfachen.
+Ein Dashboard ermöglicht einen schnellen Zugriff auf Informationen, die aus mehreren Berichten stammen. Zunächst können Sie Informationen in Berichten sammeln und dann mehrere Berichte in Dashboards platzieren, um den Zugriff auf diese Informationen zu vereinfachen.
 
 ## Zugriffsanforderungen
 
@@ -54,13 +54,13 @@ Sie müssen über Folgendes verfügen:
 Sie können ein Dashboard mit den folgenden Elementen in Adobe Workfront füllen:
 
 * Berichte\
-   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalender\
-   Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Externe Seiten\
-   Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -69,32 +69,32 @@ Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard
 Sie können ein Dashboard wie folgt für Benutzer freigeben:
 
 * Einzelne Freigabe.\
-   Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Dashboard freigeben](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Dashboard freigeben](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Fügen Sie jedem Bereich oder Objekt in Workfront mit einem benutzerdefinierten Bereich ein Dashboard hinzu.\
-   Weitere Informationen zum Erstellen benutzerdefinierter Abschnitte finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Weitere Informationen zum Erstellen benutzerdefinierter Abschnitte finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Platzieren Sie die Dashboards in Layout-Vorlagen, die Sie für Benutzer freigeben können.\
-   Weitere Informationen zum Freigeben von Dashboards über Layoutvorlagen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Weitere Informationen zum Freigeben von Dashboards über Layoutvorlagen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Drucken Sie eine Kopie davon, um sie für Benutzer freizugeben.\
-   Weitere Informationen zum Drucken von Dashboards finden Sie unter [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+  Weitere Informationen zum Drucken von Dashboards finden Sie unter [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
 * Exportieren Sie sie als .pdf -Datei, damit Sie sie per E-Mail an Benutzer senden können.\
-   Weitere Informationen zum Exportieren eines Dashboards in eine PDF-Datei finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+  Weitere Informationen zum Exportieren eines Dashboards in eine PDF-Datei finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Wenn Sie ein Dashboard für Benutzer freigeben, werden alle Berichte, Kalender und externen Seiten, die sich im Dashboard befinden, standardmäßig auch für dieselben Benutzer freigegeben.
 
 >[!NOTE]
 >
->Wenn ein Benutzer gelöscht wird, ist der Zugriff auf von ihm erstellte Dashboards nicht mehr möglich. Weitere Informationen finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Wenn ein Benutzer gelöscht wird, können die von ihm erstellten Dashboards nicht mehr aufgerufen werden. Weitere Informationen finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Anzeigen von Dashboards
 
 Sie können ein Dashboard wie folgt anzeigen:
 
 * Rufen Sie den Bereich auf, in dem er platziert wurde, und das Dashboard im Bereich wird angezeigt.\
-   Weitere Informationen zum Platzieren von Dashboards in benutzerdefinierten Abschnitten finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Weitere Informationen zum Platzieren von Dashboards in benutzerdefinierten Abschnitten finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Suchen Sie nach und greifen Sie manuell darauf zu, wenn Sie sie finden.
 
@@ -105,12 +105,12 @@ Sie können ein Dashboard wie folgt anzeigen:
 
    * **Meine Dashboards**: Hier werden die von Ihnen erstellten Dashboards aufgelistet.
 
-      >[!TIP]
-      >
-      >Wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, können Sie keine Dashboards erstellen. In diesem Fall ist die Liste Meine Dashboards leer.
+     >[!TIP]
+     >
+     >Wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, können Sie keine Dashboards erstellen. In diesem Fall ist die Liste Meine Dashboards leer.
 
-   * **Freigegebene Dashboards**: Dashboards, die von anderen Benutzern erstellt und für Sie freigegeben wurden, sind hier aufgeführt.
-   * **Alle Dashboards**: Die Dashboards Ihrer und anderer Benutzer, die für Sie freigegeben sind, werden hier aufgelistet.
+   * **Freigegebene Dashboards**: Dashboards, die von anderen Benutzern erstellt und für Sie freigegeben werden, sind hier aufgeführt.
+   * **Alle Dashboards**: Hier werden sowohl die Dashboards Ihrer und anderer Benutzer aufgelistet, die für Sie freigegeben sind.
 
    ![Bereich &quot;Dashboards&quot;](assets/dashboards-area.png)
 

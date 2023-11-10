@@ -7,7 +7,7 @@ description: Sie können die Art der Informationen, die in einer Liste oder eine
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Sie können die Art der Informationen, die in einer Liste oder einem Bericht ang
 * Sie können vorhandene Ansichten anpassen. Alle Benutzer, die die Ansichten anzeigen können, können Ihre Änderungen ebenfalls sehen.
 * Ihr Adobe Workfront-Administrator muss Ihnen Zugriff auf die Bearbeitung von Filtern, Ansichten und Gruppierungen gewähren, damit Sie Ansichten erstellen können.
 
-   Informationen zum Gewähren des Bearbeitungszugriffs finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Informationen zum Gewähren des Bearbeitungszugriffs finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Ihre Berechtigungen für eine Ansicht bestimmen, wie eine Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version der Ansicht zu speichern. Wenn Sie Änderungen an einer Ansicht vornehmen, die Sie für andere freigegeben haben, wirkt sich dies auch auf diese aus.
 * Sie können eine Ansicht anpassen, die nur für Sie freigegeben wurde, wenn der Benutzer, der sie freigegeben hat, Ihnen Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben einer Ansicht finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
@@ -46,8 +46,11 @@ Im Folgenden finden Sie Arten von Ansichten, die Sie in Listen oder Berichten in
     <tr>
         <td><strong>Gantt-Ansicht</strong></td>
         <td>Sie können sie auf eine Liste von Aufgaben im Abschnitt Aufgaben eines Projekts anwenden oder einer Liste von Projekten hinzufügen oder sie zu einer Aufgabe oder einem Projektbericht hinzufügen. Sie können mithilfe vordefinierter integrierter Optionen anpassen, welche Informationen Sie in der Gantt-Ansicht anzeigen. Alle Benutzer mit Zugriff auf Aufgaben oder Projekte können sie in der Gantt-Ansicht anzeigen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Erste Schritte mit dem Gantt-Diagramm</a>.</td>
-    </tr>
+       </tr>
 </table>
+
+<!--NOTE FOR MAYBE LATER: consider adding calendar and board views to this list of views (above)?! -->
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -226,7 +229,7 @@ Informationen zum Freigeben einer Ansicht finden Sie unter [Filter, Ansichten od
 
 Die Möglichkeit, eine Ansicht zu entfernen, hängt davon ab, ob Sie die Ansicht ursprünglich erstellt haben oder ob sie für Sie freigegeben wurde. Eine Standardansicht kann nicht entfernt werden.
 
-Weitere Informationen finden Sie unter [Entfernen von Filtern, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Weitere Informationen finden Sie unter [Filter, Ansichten und Gruppierungen entfernen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

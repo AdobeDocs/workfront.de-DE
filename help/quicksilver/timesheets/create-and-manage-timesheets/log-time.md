@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ So entfernen Sie ein manuell hinzugefügtes Element aus dem Timesheet:
 
 Sie können projektspezifische Zeit auf der Startseite protokollieren.
 
-Allgemeine Informationen zur Verwendung des Startbereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folgenden Abschnitten:
 
-So protokollieren Sie die Zeit eines Arbeitselements im Bereich &quot;Startseite&quot;:
+* Weitere Informationen zur Verwendung des veralteten Home-Bereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Informationen zur Verwendung des neuen Startbereichs finden Sie unter [Erste Schritte mit der neuen Startseite in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
+
+1. Zum **Startseite** Bereich.
+1. Fügen Sie eines der folgenden Widgets hinzu:
+
+   * Meine Aufgaben
+   * Meine Probleme
+   * Meine Arbeit
+   * Meine Anfragen
+1. Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Zusammenfassung**
+
+   Oder
+
+   Klicken Sie auf **Zusammenfassung** icon ![](assets/open-summary-icon-in-home.png) aus einer Aufgabe oder einem Problem im Widget &quot;Meine Arbeit&quot;.
+
+   Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Fahren Sie die Protokollierungszeit im Bedienfeld &quot;Zusammenfassung&quot;fort, wie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### Protokollieren der Zeit für ein Arbeitselement aus dem alten Startbereich
 
 1. Im **Arbeitsliste** Bereich, wählen Sie das Element aus, in dem Sie die Zeit protokollieren möchten.
 1. Klicken Sie im rechten Bereich auf **Protokollzeit**.
@@ -430,16 +454,16 @@ So melden Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder e
    * **Inhaber:** Ihr Name wird standardmäßig in diesem Feld angezeigt.\
      Wenn Sie die Stunden für einen anderen Benutzer protokollieren, geben Sie dessen Namen an.
 
-   * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.
    * **Stündentyp**: Wählen Sie im Dropdown-Menü einen Stundentyp aus, wenn dieser sich von dem standardmäßig angezeigten unterscheidet.
 
      Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** -Einstellung festlegen, wählen Sie eine **Auftragsrolle** aus dem Dropdown-Menü. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![screen_shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.
 
-1. Klicks **Protokollzeiten**.
+1. Klicks **Protokollzeit**.
 
 ### Zusammenfassungsbereich
 
