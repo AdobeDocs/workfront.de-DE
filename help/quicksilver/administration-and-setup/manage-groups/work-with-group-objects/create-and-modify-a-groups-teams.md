@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
 
-## Anzeigen, Arbeiten mit und Erstellen von Teams für Ihre Gruppe über den Bereich &quot;Gruppen&quot;
+## Anzeigen, Arbeiten mit und Erstellen von Teams für Ihre Gruppe über den Bereich Gruppen
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
@@ -58,6 +58,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Führen Sie einen der folgenden Schritte aus:
 
    * **Team hinzufügen**: Klicken **Neues Team**, und konfigurieren Sie sie mithilfe der folgenden Optionen:
+
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
    <table style="table-layout:auto"> 
@@ -70,7 +71,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Gruppe</td> 
-       <td> <p> Das System füllt das Feld Gruppe für das neue Portfolio mit der Gruppe aus, die Sie anzeigen. Wenn Sie das Team mit einer anderen Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken <img src="assets/switch-team-icon.png" alt="Symbol "Team wechseln""> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
+       <td> <p> Das System füllt das Feld Gruppe für das neue Team mit der Gruppe aus, die Sie anzeigen. Wenn Sie das Team mit einer anderen Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken. <img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Team-Mitglieder</td> 
@@ -90,14 +91,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Schaltfläche „Fertig“</td> 
-       <td>Wählen Sie den Status aus, den Sie für Elemente festlegen möchten, wenn auf die Schaltfläche Fertig geklickt wird.</td> 
+       <td>Wählen Sie den Status aus, den Sie für Elemente festlegen möchten, wenn Sie auf die Schaltfläche Fertig klicken.</td> 
        </tr> 
       </tbody> 
      </table>
 
    * **Bearbeiten von Teams**: Wählen Sie mindestens ein Team aus, klicken Sie auf **die** Symbol Bearbeiten ![](assets/edit-icon.png), und konfigurieren Sie sie mithilfe der folgenden Optionen:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -107,10 +108,10 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Gruppe</td> 
-       <td> <p>Verbinden Sie das Team mit einer Gruppe. Geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken <img src="assets/switch-team-icon.png" alt="Symbol "Team wechseln""> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
+       <td> <p>Verbinden Sie das Team mit einer Gruppe. Geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken. <img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader">Inhaber</td> 
+       <td role="rowheader">Besitzerin bzw. Besitzer</td> 
        <td>Wählen Sie einen Inhaber für das Team aus.</td> 
        </tr> 
        <tr> 
@@ -131,11 +132,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Bearbeiten</td> 
-       <td> <p>Ändern Sie die Schaltfläche "Bearbeiten"in die Schaltfläche "Starten". Wenn ein Benutzer auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche Start finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a>.</p> </td> 
+       <td> <p>Ändern Sie die Schaltfläche "Bearbeiten"in die Schaltfläche "Starten". Wenn ein Benutzer auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche "Start"finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a>.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Schaltfläche „Fertig“</td> 
-       <td> <p>Passen Sie die Schaltfläche Fertig an. Weitere Informationen finden Sie unter:</p> 
+       <td> <p>Passen Sie die Schaltfläche Fertig an. Weitere Informationen finden Sie unter</p> 
        <ul> 
        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Konfigurieren der Schaltfläche "Fertig"für Aufgaben</a> </li> 
        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Schaltfläche "Fertig"für Probleme konfigurieren</a> </li> 
