@@ -6,9 +6,9 @@ description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Sofort</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Es wurde ein Fehler gefunden, der meine Aufmerksamkeit erfordert</strong> </p> <p>Der Benutzer, der auf einen Kommentar per E-Mail antwortet, erhält eine E-Mail-Benachrichtigung, wenn die Antwort nicht zugestellt werden kann.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL Fehler bei der Verarbeitung von] &lt;subject of="" original="" message=""&gt;</em></p> <p>Informationen zur Verwendung von E-Mails zur Beantwortung von Kommentaren finden Sie unter .<strong></strong></p> </td> 
+   <td> <p><strong>Es wurde ein Fehler gefunden, der meine Aufmerksamkeit erfordert</strong> </p> <p>Der Benutzer, der auf einen Kommentar per E-Mail antwortet, erhält eine E-Mail-Benachrichtigung, wenn die Antwort nicht zugestellt werden kann.</p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>[!UICONTROL Fehler bei der Verarbeitung von] &lt;subject of="" original="" message=""&gt;</em></p> <p>Informationen zur Verwendung von E-Mails für die Beantwortung von Kommentaren finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">Antworten auf E-Mail-Benachrichtigungen</a>.</p> </td>
    <td> </td> 
    <td><strong>Sofort</strong> </td> 
   </tr> 

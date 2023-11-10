@@ -6,7 +6,7 @@ description: Sie können auf Workfront-E-Mail-Benachrichtigungen antworten, die 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -19,12 +19,8 @@ Abhängig von der Konfiguration Ihrer E-Mail-Benachrichtigungen erhalten Sie mö
 
 Sie haben folgende Möglichkeiten, auf eine Aktualisierung einer E-Mail-Benachrichtigung zu antworten:
 
-Antwort auf den ursprünglichen Kommentar.
-
 * Verwenden Sie die Schaltfläche Kommentar in der E-Mail, um zurück zu Workfront zu navigieren und auf die Aktualisierung im Bereich Updates zu antworten.
-* Antworten Sie auf die E-Mail, die Sie erhalten. Ihre Antwort-E-Mail wird als Workfront hinzugefügt
-
-
+* Antworten Sie auf die E-Mail, die Sie erhalten. Ihre Antwort-E-Mail wird als Workfront-Antwort auf den ursprünglichen Kommentar hinzugefügt.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ Sie können auf Workfront-E-Mails antworten, die aus Kommentaren generiert wurde
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
