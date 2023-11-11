@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Die öffentliche Benutzeroberfläche ist SOAP 1.1-kompatibel mit WSDL-Unterstüt
 
 ## API-Versionierung
 
-Um die Kompatibilität mit der vorhandenen Client-Integration zu gewährleisten, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Lesen Sie hierzu die  [API-Aktualisierungen](http://api.proofhq.com/new-updates) für weitere Informationen. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, finden Sie im Abschnitt &quot;Erste Schritte mit der API&quot;unten.
+Um die Kompatibilität mit der vorhandenen Client-Integration zu gewährleisten, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Lesen Sie hierzu die  [API-Aktualisierungen](https://api.proofhq.com/new-updates.html) für weitere Informationen. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, finden Sie im Abschnitt &quot;Erste Schritte mit der API&quot;unten.
 
 ## Erste Schritte mit der API
 
@@ -54,6 +54,3 @@ Alle Anforderungen verwenden das folgende Umschlag-, Header- und Textformat:
     </soapenv:Envelope>
 ```
 
-## FAQs
-
-Eine Sammlung häufig gestellter Fragen finden Sie unter [this](http://api.proofhq.com/faqs) Seite.

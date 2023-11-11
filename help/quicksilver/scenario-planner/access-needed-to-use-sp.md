@@ -7,7 +7,7 @@ description: Der Szenario-Planer benötigt eine separate Lizenz von Adobe Workfr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -55,8 +55,8 @@ Sie müssen sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor 
 
 -->
 
-* Ihr Unternehmen muss eine [!DNL Workfront] [!UICONTROL Unternehmen] oder höher [!DNL Workfront] Plan. Informationen zum [!DNL Workfront] Pläne, siehe [Workfront-Pläne](http://workfront.com/plans).
-* Ihr Unternehmen muss eine [!DNL Workfront Scenario Planner] zusätzlich zu einer [!DNL Workfront] Lizenz. Wenden Sie sich an [!DNL Workfront] Kundenbetreuer für weitere Informationen [!DNL Workfront Scenario Planner] Lizenzen.
+* Ihr Unternehmen muss eine [!DNL Workfront] [!UICONTROL Unternehmen] oder höher [!DNL Workfront] Plan. Informationen zum [!DNL Workfront] Pläne, siehe [Workfront-Pläne](https://workfront.com/plans).
+* Ihr Unternehmen muss eine [!DNL Workfront Scenario Planner] zusätzlich zu einer [!DNL Workfront] -Lizenz. Wenden Sie sich an [!DNL Workfront] Kundenbetreuer für weitere Informationen [!DNL Workfront Scenario Planner] Lizenzen.
 
 <!--drafted for P&P: 
 
@@ -76,11 +76,11 @@ Sie müssen sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor 
 
    * [!UICONTROL Plan]
    * [!UICONTROL Arbeit]
-   * [!UICONTROL Überarbeitung]
+   * [!UICONTROL Überprüfung]
 
-   >[!NOTE]
-   >
-   >Benutzer mit [!UICONTROL Anfrage] oder [!UICONTROL Externe] Der Lizenztyp kann nicht auf die [!DNL Workfront Scenario Planner].
+  >[!NOTE]
+  >
+  >Benutzer mit [!UICONTROL Anfrage] oder [!UICONTROL Externe] Der Lizenztyp kann nicht auf die [!DNL Workfront Scenario Planner].
 
 <!--drafted - replace the note above with this at P&P release: 
   * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
@@ -88,15 +88,15 @@ Sie müssen sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor 
 
 * Ihre [!DNL Workfront] Administrator muss [!UICONTROL Ansicht] oder [!UICONTROL Bearbeiten] Zugriff auf [!DNL Scenario Planner] in Ihrer Zugriffsstufe.
 
-   Informationen zur Gewährung des Zugriffs auf die [!DNL Workfront Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Informationen über die Gewährung des Zugriffs auf die [!DNL Workfront Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * (Optional und empfohlen) Um finanzielle Informationen für Ihre Pläne und Initiativen anzuzeigen oder zu aktualisieren, benötigen Sie [!DNL Workfront] Außerdem muss der Administrator Ihnen Zugriff auf [!UICONTROL Finanzdaten] in Ihrer Zugriffsstufe. Informationen zur Bereitstellung von Finanzdaten auf Ihrer Zugriffsstufe finden Sie unter [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   <!--this used to be true but not anymore:
+  <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-* Wenn Sie auf Pläne zugreifen müssen, die Sie nicht erstellt haben, muss Ihnen ein Planersteller die richtigen Berechtigungen für den Zugriff auf diesen Plan erteilen. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel.
+* Wenn Sie auf Pläne zugreifen müssen, die Sie nicht erstellt haben, muss Ihnen ein Planersteller die richtigen Berechtigungen für den Zugriff auf diesen Plan erteilen. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel beschrieben.
 
 ## Zugang erforderlich zur Anzeige von Plänen und Initiativen
 
@@ -104,17 +104,17 @@ Zusätzlich zu Ihrem Unternehmen, das die richtige Lizenz für die [!DNL Workfro
 
 * Eine Zugriffsstufe mit mindestens [!UICONTROL Ansicht] Zugriff auf [!DNL Scenario Planner].
 
-   Informationen über die Zugriffsstufe zu [!DNL Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Informationen über die Zugriffsstufe zu [!DNL Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * Eine Zugriffsstufe mit mindestens [!UICONTROL Ansicht] Zugriff auf [!UICONTROL Finanzdaten] wenn Sie auch finanzielle Informationen über den Plan und die Initiativen anzeigen müssen. Beispiele für Finanzinformationen sind Budgets, Kosten oder Arbeitsplatzraten.
 
-   Informationen zum [!UICONTROL Finanzdaten] Zugriffsebene, siehe [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Informationen zum [!UICONTROL Finanzdaten] Zugriffsebene, siehe [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   >[!TIP]
-   >
-   >[!UICONTROL Anforderer] und [!UICONTROL Externe] Benutzer haben keinen Zugriff auf die [!DNL Scenario Planner].
+  >[!TIP]
+  >
+  >[!UICONTROL Anforderer] und [!UICONTROL Externe] Benutzer haben keinen Zugriff auf die [!DNL Scenario Planner].
 
-* Anzeigen von Berechtigungen für den Plan. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel.
+* Anzeigen von Berechtigungen für den Plan. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel beschrieben.
 
 ## Für die Verwaltung von Plänen und Initiativen benötigter Zugriff
 
@@ -122,21 +122,21 @@ Ihre [!DNL Workfront] Der Administrator muss Ihnen den folgenden Zugriff zuweise
 
 * A [!UICONTROL Plan] oder [!UICONTROL Arbeit] Lizenztyp mit Bearbeitungszugriff auf die [!DNL Scenario Planner] in Ihrer Zugriffsstufe.
 
-   Alle anderen Lizenztypen haben keinen Zugriff auf die Verwaltung von Plänen.
+  Alle anderen Lizenztypen haben keinen Zugriff auf die Verwaltung von Plänen.
 
-   Informationen über die Gewährung des Zugangs zu [!DNL Scenario Planner] auf der Zugriffsebene finden Sie unter [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Informationen über die Gewährung des Zugangs zu [!DNL Scenario Planner] auf der Zugriffsebene finden Sie unter [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * A [!UICONTROL Plan] Lizenztyp mit [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Finanzdaten] in Ihrer Zugriffsebene, wenn Sie auch Finanzinformationen über den Plan aktualisieren müssen.
 
-   Beispiele für Finanzinformationen, die Sie bearbeiten können, sind [!UICONTROL Budget], [!UICONTROL Geplanter Vorteil]und [!UICONTROL Feste Kosten].
+  Beispiele für Finanzinformationen, die Sie bearbeiten können, sind [!UICONTROL Budget], [!UICONTROL Geplanter Vorteil], und [!UICONTROL Feste Kosten].
 
-   >[!TIP]
-   >
-   >Nur [!UICONTROL Plan] Lizenzinhaber [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Finanzdaten].
+  >[!TIP]
+  >
+  >Nur [!UICONTROL Plan] Lizenzinhaber [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Finanzdaten].
 
-   Informationen zum [!UICONTROL Finanzdaten] Zugriffsebene, siehe [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Informationen zum [!UICONTROL Finanzdaten] Zugriffsebene, siehe [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Verwalten Sie Berechtigungen für einen Plan, den Sie nicht erstellt haben. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel.
+* Verwalten Sie Berechtigungen für einen Plan, den Sie nicht erstellt haben. Informationen zu den Berechtigungen, die für den Zugriff auf von Ihnen nicht erstellte Pläne und Initiativen erforderlich sind, finden Sie unter [Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen](#permissions-needed-to-access-plans-and-initiatives) in diesem Artikel beschrieben.
 
 ## Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen
 

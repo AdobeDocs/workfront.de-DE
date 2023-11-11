@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Sie müssen vor jedem Aufruf der API keine neue Sitzungs-ID abrufen, die 24 Stun
 
 ## Was ist ein Testversand/eine persönliche URL?
 
-**Team/Public**: Jede Testversand-Version verfügt über eine eindeutige Team (Public)-URL. Wenn diese Option aktiviert ist, wird der Testversand im schreibgeschützten Modus geöffnet. Sie können die Team-URL mit der [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) -Methode.
+**Team/Public**: Jede Testversand-Version verfügt über eine eindeutige Team (Public)-URL. Wenn diese Option aktiviert ist, wird der Testversand im schreibgeschützten Modus geöffnet. Sie können die Team-URL mit der [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) -Methode.
 
-**Persönlich**: Eine persönliche URL ist für jeden Validierer und jede Testversand-Version eindeutig. Wenn ein Testversand 3 Versionen enthält und sich ein Validierer auf allen Versionen befindet, verfügt der Validierer über 3 eindeutige persönliche URLs. Eine persönliche URL öffnet die Testversand-Version, wobei der Validierer bereits identifiziert wurde und daher sicher und nicht freigegeben werden sollte. Persönliche URLs können durch Aufruf der [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) Methode und dann die Iteration über jede  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) und den Parameter &quot;proof_url&quot;abrufen.
+**Persönlich**: Eine persönliche URL ist für jeden Validierer und jede Testversand-Version eindeutig. Wenn ein Testversand 3 Versionen enthält und sich ein Validierer auf allen Versionen befindet, verfügt der Validierer über 3 eindeutige persönliche URLs. Eine persönliche URL öffnet die Testversand-Version, wobei der Validierer bereits identifiziert wurde und daher sicher und nicht freigegeben werden sollte. Persönliche URLs können durch Aufruf der [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) Methode und dann die Iteration über jede  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) und den Parameter &quot;proof_url&quot;abrufen.
 
 ## >Wie werden benutzerdefinierte Parameter beim Öffnen des minimierten Fensters einbezogen?
 
@@ -71,5 +71,5 @@ Beispielsweise die URL für die minimierte Suche
 
 ## Wie erstelle ich einen Java Web Service Client?
 
-[Dieses Video](http://screencast.com/t/xsSNrqs5b) zeigt, wie Sie einen Java Web Service-Client mit Eclipse und der Workfront-WSDL-Definition für Testversand erstellen können.
+[Dieses Video](https://screencast.com/t/xsSNrqs5b) zeigt, wie Sie einen Java Web Service-Client mit Eclipse und der Workfront-WSDL-Definition für Testversand erstellen können.
 

@@ -9,7 +9,7 @@ description: Sie können das SOAP-Modul verwenden, um eine Verbindung zu SOAP-AP
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Sie können die [!UICONTROL SOAP] Modul zum Herstellen einer Verbindung [!UICONT
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,10 +65,10 @@ Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterst�
 
 * Elemente neu definieren
 * Einschränkungen für Bruchziffern
-* Beschränkungen für Gesamtzahl von Stellen
+* Beschränkungen für die Gesamtanzahl der Stellen
 * Leerraumbeschränkungen
 * Mehrere Teile in Eingabe- und Ausgabemeldungen. Es werden nur einteilige Nachrichten unterstützt
-* Benutzerdefinierte XML-Schemaelemente, die mithilfe von [[!UICONTROL SOAP] Kodierung](http://schemas.xmlsoap.org) Schemas und Elemente.
+* Benutzerdefinierte XML-Schemaelemente, die mithilfe von [[!UICONTROL SOAP] Kodierung](https://schemas.xmlsoap.org) Schemas und Elemente.
 
 >[!INFO]
 >
@@ -136,9 +136,9 @@ Wenn die Variable [!UICONTROL SOAP] -Modul weigert sich, die WSDL-Datei zu verar
 1. In [!DNL Workfront Fusion], fügen Sie die URL in das URL-Feld des HTTP-Moduls ein.
 1. Öffnen Sie die [Online [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) in einem neuen Webbrowserfenster/-tab.
 1. Fügen Sie die WSDL-URL in das Feld WSDL-URL ein.
-1. Klicken **[!UICONTROL Durchsuchen]**.
+1. Klicks **[!UICONTROL Durchsuchen]**.
 1. Wählen Sie aus der Funktionsliste nach links, z. B. `getLanguages`.
-1. Den Inhalt der [!UICONTROL XML anfordern] Textbereich.
+1. Kopieren Sie den Inhalt der [!UICONTROL XML anfordern] Textbereich.
 1. In [!UICONTROL Workfront Fusion], fügen Sie den kopierten Inhalt in das URL-Feld des Moduls ein.
 1. Geben Sie Werte für ausgewählte Parameter an, indem Sie die Fragezeichen durch tatsächliche Werte ersetzen:
 

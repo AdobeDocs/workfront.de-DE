@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: "FAQs: Workfront-Testversand - Migration zwischen den USA und der EMEA"
+title: "Häufig gestellte Fragen: Workfront-Testversand - Migration der USA in die EMEA"
 description: Workfront kontaktiert direkt alle Organisationen, die von der Migration von Workfront Proof US zu EMEA betroffen sind.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Woher weiß ich, ob diese Änderung meine Einrichtung betrifft?
 
-[!DNL Workfront] kontaktiert direkt alle Organisationen, die von der [!DNL Workfront Proof] Migration von USA zu EMEA.
+[!DNL Workfront] kontaktiert direkt alle Organisationen, die vom [!DNL Workfront Proof] Migration von USA zu EMEA.
 
-## Muss ich etwas unternehmen, um mich auf die Migration vorzubereiten?
+## Muss ich irgendetwas tun, um mich auf die Migration vorzubereiten?
 
 Ja. Stellen Sie vor der Migration sicher, dass Sie der Zulassungsliste Ihres Unternehmens Folgendes hinzufügen:
 
@@ -33,9 +33,9 @@ Ja. Stellen Sie vor der Migration sicher, dass Sie der Zulassungsliste Ihres Unt
 
 ## Wie lange dauert die Migration meines Kontos?
 
-Für einen kurzen Zeitraum von bis zu zwei Stunden ist Ihr Konto nicht zugänglich, während wir es zu seinem neuen Standort im EMEA-Rechenzentrum migrieren. Details zum Zeitpunkt der Migration finden Sie in unserer [[!DNL Workfront] Status-Site](http://status.workfront.com/).
+Für einen kurzen Zeitraum von bis zu zwei Stunden ist Ihr Konto nicht zugänglich, während wir es zu seinem neuen Standort im EMEA-Rechenzentrum migrieren.
 
-Nach Abschluss der Kontomigration werden wir damit beginnen, alle Ihre Dateien von unserem US-Rechenzentrum in das EMEA-Rechenzentrum zu verschieben. Während die Dateien verschoben werden, können sie weiterhin im US-Rechenzentrum aufgerufen werden. Dieser Prozess erfolgt im Hintergrund und hat keine Auswirkungen auf Sie und Ihre Benutzer.
+Nach Abschluss der Kontomigration werden wir damit beginnen, alle Ihre Dateien von unserem US-Rechenzentrum in das EMEA-Rechenzentrum zu verschieben. Während die Dateien verschoben werden, können sie weiterhin im US-Rechenzentrum aufgerufen werden. Dieser Prozess findet im Hintergrund statt und hat keine Auswirkungen auf Sie und Ihre Benutzer.
 
 Nach Abschluss der Migration können Sie und Ihre Benutzer nur noch vom EMEA-Rechenzentrum auf Dateien und Testsendungen zugreifen.
 

@@ -9,7 +9,7 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die
 
 Dies ist nützlich, wenn Sie Aufgaben ausführen müssen, die derzeit beim Testen in nicht unterstützt werden [!DNL Workfront] oder [!DNL Workfront Proof], z. B. Aktualisierung von Testsendungen anhand bestimmter Ereignisse und Suche nach Empfängern eines Testversands.
 
-Die [!DNL Workfront Proof] -Connector wird nicht mit der Anzahl der aktiven Apps angerechnet, die für Ihr Unternehmen verfügbar sind. Alle Szenarien, auch wenn sie nur die [!DNL Workfront Proof] App verwenden, zählen Sie mit der Gesamtanzahl der Szenarien Ihrer Organisation.
+Die [!DNL Workfront Proof] -Connector wird nicht mit der Anzahl der aktiven Apps angerechnet, die für Ihr Unternehmen verfügbar sind. Alle Szenarien, auch wenn sie nur die [!DNL Workfront Proof] App verwenden, zählen Sie mit der Gesamtszenario-Anzahl Ihrer Organisation.
 
 Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -30,7 +30,7 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
@@ -47,17 +47,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -103,10 +103,10 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">Eintragstyp</td> 
    <td>Wählen Sie den Typ [!DNL Workfront Proof] notieren, dass das Modul überwacht werden soll.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -136,7 +136,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
@@ -163,7 +163,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aktivitätstyp]</td> 
@@ -188,7 +188,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 #### [!UICONTROL Korrekturabzug erstellen]
 
-Dieses Aktionsmodul erstellt einen neuen Testversand oder eine neue Version eines Testversands in [!DNL Workfront Proof].
+Dieses Aktionsmodul erstellt einen neuen Testversand oder eine neue Testversion in [!DNL Workfront Proof].
 
 Wenn Sie eine neue Version erstellen, geben Sie die Parameter für den neuen Testversand und den Quell-Testversand an.
 
@@ -202,10 +202,10 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Testversand-Typ]</td> 
+   <td>[!UICONTROL Testtyp]</td> 
    <td> <p>Geben Sie an, ob der erstellte Testversand einen einfachen Workflow oder einen automatisierten [!UICONTROL Workflow] enthalten soll.</p> <p>Füllen Sie dann die Felder aus, die für den gewählten Testversand-Typ angezeigt werden. Wenn Sie beispielsweise [!UICONTROL Automatisierter Workflow] auswählen, füllen Sie die <strong>[!UICONTROL Workflow-Phasen]</strong> -Feld, um die Bühnen zu konfigurieren.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Auflösung-ID]</td> 
-   <td>Geben Sie die Kennung der Auflösung ein, die Sie für Ihren Testversand verwenden möchten. Eine Liste der Auflösungs-IDs finden Sie unter [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API-Dokumentation</a>.</td> 
+   <td>Geben Sie die Kennung der Auflösung ein, die Sie für Ihren Testversand verwenden möchten. Eine Liste der Auflösungs-IDs finden Sie unter [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-Dokumentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -349,7 +349,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Methode]</td> 
@@ -389,7 +389,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Testversand-ID]</td> 
@@ -416,7 +416,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
@@ -435,7 +435,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 #### [!UICONTROL PDF-Übersicht anfordern]
 
-Dieses Aktionsmodul fordert die PDF-Zusammenfassung für einen bestimmten Testversand in [!DNL Workfront Proof].
+Dieses Aktionsmodul fordert die PDF-Zusammenfassung für einen bestimmten Nachweis in [!DNL Workfront Proof].
 
 Sie geben die Kennung des Testversands an.
 
@@ -451,7 +451,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Testversand-ID]</td> 
@@ -487,7 +487,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Testversand-ID]</td> 
@@ -542,7 +542,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
    <td>Geben Sie die Kennung des Testversands ein oder ordnen Sie ihn zu.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Testversand-Name]</td> 
+   <td>[!UICONTROL Testname]</td> 
    <td>Geben Sie den Namen des Testversands ein, den Sie aktualisieren möchten, oder ordnen Sie ihn zu.</td> 
   </tr> 
   <tr> 
@@ -554,7 +554,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
    <td>Wählen Sie aus, ob Sie einen Link zu anderen Versionen dieses Testversands anzeigen möchten.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Subject]</td> 
+   <td>[!UICONTROL Betreff]</td> 
    <td>Betreff des Testversands eingeben oder zuordnen</td> 
   </tr> 
  </tbody> 
@@ -574,7 +574,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Quelldatei]</td> 
@@ -604,7 +604,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Suchen nach</td> 
@@ -619,7 +619,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
    <td>Geben Sie an, ob das Modul nach <strong>[!UICONTROL Alle übereinstimmenden Datensätze]</strong> oder nur die <strong>[!UICONTROL Erster übereinstimmender Datensatz]</strong>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Sortieren nach]</td> 
+   <td>Sortieren nach:</td> 
    <td>Wählen Sie das Feld aus, nach dem die Ergebnisse sortiert werden sollen.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -639,7 +639,7 @@ Dieses Suchmodul listet alle verfügbaren Workflow-Vorlagen auf.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ausgaben]</td> 

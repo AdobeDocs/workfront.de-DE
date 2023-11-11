@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2304'
 ht-degree: 2%
@@ -134,7 +134,7 @@ Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-S
 
 ### Authentifizierung des Anforderungsheaders
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anforderungsheader namens SessionID zu übergeben, der das Sitzungstoken enthält. Das hat den Vorteil, dass man vor [Cross-Site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) greift zu und stört nicht den URI zum Zwischenspeichern.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anforderungsheader namens SessionID zu übergeben, der das Sitzungstoken enthält. Das hat den Vorteil, dass man vor [Cross-Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) greift zu und stört nicht den URI zum Zwischenspeichern.
 
 Im Folgenden finden Sie ein Beispiel für eine Anfrage-Kopfzeile:
 

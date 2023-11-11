@@ -8,7 +8,7 @@ description: Der Workfront Testversand-Administrator kann für die Anmeldeseite 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -19,36 +19,36 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Anmelden
 
-1. Navigieren Sie zu [Anmeldeseite](http://www.proofhq.com/login) (oder auf unserer Website unter  [www.proofhq.com](http://www.proofhq.com/)).
+1. Navigieren Sie zu [Anmeldeseite](https://www.proofhq.com/login) (oder auf unserer Website unter  [www.proofhq.com](https://www.proofhq.com/)).
 
 1. Klicken Sie auf [!UICONTROL Anmeldung] Schaltfläche oben rechts.
 1. Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.\
    Wenn Sie Ihr Kennwort vergessen haben, lesen Sie den Abschnitt .  [Wenn Sie Ihr Kennwort vergessen haben](#when-you-forget-your-password) später in diesem Artikel.
 
 1. Wenn Sie angemeldet bleiben möchten (ohne das Sitzungs-Timeout nach 30 Minuten Inaktivität zu haben), wählen Sie **[!UICONTROL Anmeldung beibehalten]**.
-1. Klicken **[!UICONTROL Anmelden]**.
+1. Klicks **[!UICONTROL Anmelden]**.
 
-Die [!DNL Workfront Proof] -Administrator kann personalisiertes Branding für [!UICONTROL Anmelden] Seite. Siehe [Markieren Sie die [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oder wenn Sie eine [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] Bearbeitungsplan, siehe  [Markieren Sie die [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+Die [!DNL Workfront Proof] -Administrator kann für die [!UICONTROL Anmelden] Seite. Siehe [Marke [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oder wenn Sie eine [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] Bearbeitungsplan, siehe  [Marke [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 Für [!UICONTROL Unternehmen] und [!UICONTROL Unbegrenzt] Pläne, wir bieten eine Single Sign-On (SSO)-Funktion, mit der sich Ihre Benutzer bei [!DNL Workfront Proof] den Benutzernamen und das Kennwort für Ihre Organisation verwenden. Siehe [Single Sign-On konfigurieren für [!DNL Workfront Proof] Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md). für weitere Informationen.
 
 ## Abmelden
 
-1. Klicken **[!UICONTROL Abmelden]** in der oberen rechten Ecke von Workfront Proof.\
+1. Klicks **[!UICONTROL Abmelden]** in der oberen rechten Ecke von Workfront Proof.\
    Es wird eine Meldung angezeigt, in der bestätigt wird, dass Sie abgemeldet sind. Sie können auf **[!UICONTROL Zurück zur Anmeldeseite]** um sich bei Bedarf erneut anzumelden.\
-   Die [!DNL Workfront Proof] -Administrator kann für diese Nachricht personalisiertes Branding einrichten. Siehe [Markieren Sie die [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oder wenn und Sie eine [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] Bearbeitungsplan, siehe  [Markieren Sie die [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   Die [!DNL Workfront Proof] -Administrator kann für diese Nachricht personalisiertes Branding einrichten. Siehe [Marke [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oder wenn und Sie eine [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] Bearbeitungsplan, siehe  [Marke [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Wenn Sie Ihr Kennwort vergessen haben {#when-you-forget-your-password}
 
 Wenn Sie Ihr Passwort vergessen haben, können Sie [!DNL Workfront Proof] eine E-Mail zum Zurücksetzen der E-Mail versenden.
 
-1. Navigieren Sie zu [Anmeldeseite](http://www.proofhq.com/login) (oder auf unserer Website unter  [www.proofhq.com](http://www.proofhq.com/)).
+1. Navigieren Sie zu [Anmeldeseite](https://www.proofhq.com/login) (oder auf unserer Website unter  [www.proofhq.com](https://www.proofhq.com/)).
 
-1. Klicken **[!UICONTROL Kennwort vergessen?]**
+1. Klicks **[!UICONTROL Kennwort vergessen?]**
 1. Geben Sie im angezeigten Feld Ihre E-Mail-Adresse ein und klicken Sie auf **[!UICONTROL Link abrufen]**.
 
 ## Passwort ändern
@@ -65,7 +65,7 @@ Wenn Sie [!UICONTROL Auswählen] oder [!UICONTROL Premium] Plan, [!DNL Workfront
 
 Sie können mehrere E-Mail-Adressen zu Ihren [!DNL Workfront Proof] -Konto. Ihre primäre E-Mail-Adresse ist die E-Mail-Adresse, an die Ihre [!DNL Workfront Proof] sendet Testversandbenachrichtigungen. Sie können es auch verwenden, um sich bei [!DNL Workfront Proof]. Sie können Ihre primäre E-Mail-Adresse ändern.
 
-1. Klicken **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Klicks **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
 
 1. under **[!UICONTROL E-Mail-Alias für Benutzer]** klicken **[!UICONTROL Neue E-Mail-Adresse]**.
 

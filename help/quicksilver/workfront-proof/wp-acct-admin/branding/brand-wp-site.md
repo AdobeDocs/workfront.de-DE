@@ -2,29 +2,29 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Markieren Sie die [!DNL Workfront Proof] site
+title: Marke [!DNL Workfront Proof] site
 description: Als [!DNL Workfront Proof] Administrator, können Sie Ihre [!DNL Workfront Proof] -Konto, um Ihnen und Ihren Benutzern ein benutzerspezifischeres Erlebnis zu bieten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
 
 ---
 
-# Markieren Sie die [!DNL Workfront Proof] site
+# Marke [!DNL Workfront Proof] site
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront] Testversand. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront] Testversand. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] Administrator, können Sie Ihre [!DNL Workfront Proof] -Konto, um Ihnen und Ihren Benutzern ein benutzerspezifischeres Erlebnis zu bieten.
 
 Das Branding von Konten ist in allen Plänen kostenlos verfügbar.
 
-Informationen zum erweiterten Branding, einschließlich Branding der Kopfzeile, Menüleiste, Dashboard und mehr, finden Sie unter [Markieren Sie die [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). Erweitertes Branding ist nur bei Select- und Premium-Plänen verfügbar
+Informationen zum erweiterten Branding, einschließlich Branding der Kopfzeile, Menüleiste, Dashboard und mehr, finden Sie unter [Marke [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). Erweitertes Branding ist nur bei Select- und Premium-Plänen verfügbar
 
 In den folgenden Abschnitten finden Sie Informationen dazu, wie Sie verschiedene Aspekte der [!DNL Workfront] Testseite:
 
@@ -33,7 +33,7 @@ In den folgenden Abschnitten finden Sie Informationen dazu, wie Sie verschiedene
 So aktivieren Sie das Branding für Ihr Konto:
 
 1. Anmelden bei [!DNL Workfront Proof] als [!DNL Workfront Proof] Administrator.
-1. Klicken **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
+1. Klicks **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
 
    Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
@@ -55,7 +55,7 @@ So aktivieren Sie das Branding für Ihr Konto:
 So fügen Sie Ihr eigenes Branding-Bild zum [!UICONTROL Testversand] Seite jedes in Ihrem Konto erstellten Testversands:
 
 1. Anmelden bei [!DNL Workfront Proof] als [!DNL Workfront Proof] Administrator.
-1. Klicken **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
+1. Klicks **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
 
    Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
@@ -71,7 +71,7 @@ Wenn Sie **[!UICONTROL Deaktivieren]**, die [!DNL Workfront Proof] Das Logo wird
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 
-1. Klicken **[!UICONTROL Bearbeiten]** , um das Branding-Bild (4) auszuwählen.
+1. Klicks **[!UICONTROL Bearbeiten]** , um das Branding-Bild (4) auszuwählen.
 
    Sie können JPG, GIF oder PNGs verwenden. Transparenz wird unterstützt. Die empfohlene Bildgröße beträgt 150 x 300 Pixel. Die Größe Ihres Bildes auf den Anmelde- und Abmeldeseiten wird auf diese Dimensionen geändert.
 
@@ -91,7 +91,7 @@ Sie können Ihr Branding-Bild so konfigurieren, dass es in E-Mail-Benachrichtigu
 So richten Sie E-Mail-Branding ein:
 
 1. Anmelden bei [!DNL Workfront Proof] als [!DNL Workfront Proof] Administrator.
-1. Klicken **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
+1. Klicks **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof] -Schnittstelle.
 
    Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
@@ -135,4 +135,4 @@ So richten Sie E-Mail-Branding ein:
 
 Wenn Sie einen Testversand über die [!DNL Workfront Proof] API können Sie Schaltflächen und Links unterdrücken und eigene benutzerspezifische Links erstellen.
 
-Siehe [[!DNL Workfront Proof] API](http://api.proofhq.com/) für weitere Informationen.
+Siehe [[!DNL Workfront Proof] API](https://api.proofhq.com/) für weitere Informationen.

@@ -9,7 +9,7 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Microsoft Office 365 Calendar], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 
-Zur Verwendung [!DNL Office 365 Calendar] mit [!DNL Adobe Workfront Fusion], muss ein [!DNL Office 365 Excel] -Konto. Sie können eine erstellen unter [www.office.com](http://www.office.com/).
+Zur Verwendung [!DNL Office 365 Calendar] mit [!DNL Adobe Workfront Fusion], muss ein [!DNL Office 365 Excel] -Konto. Sie können eine erstellen unter [www.office.com](https://www.office.com/).
 
-Anweisungen zum Verbinden Ihres Office 365-Kontos mit [!DNL Workfront Fusion], siehe [Verbindung zur Adobe erstellen [!DNL Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Anweisungen zum Verbinden Ihres Office 365-Kontos mit [!DNL Workfront Fusion], siehe [Herstellen einer Verbindung zu Adobe [!DNL Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-Nachdem Sie die Einwilligung erteilt haben, werden Sie zum [!UICONTROL Workfront Fusion] Administrationsseite, auf der Sie mit der Erstellung Ihres Szenarios fortfahren können.
+Nachdem Sie die Einwilligung erteilt haben, werden Sie zum [!UICONTROL Workfront Fusion] Administrationsseite, auf der Sie Ihr Szenario weiter erstellen können.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,17 +45,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Dieses Ereignismodul ruft Details zu einem Trigger ab, wenn das Ereignis im Kale
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ereignisse ansehen]</td> 
@@ -146,7 +146,7 @@ Dieses Suchmodul ruft Details zu einem Ereignis zurück, wenn das Ereignis im au
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalendergruppen-ID]</td> 
@@ -160,7 +160,7 @@ Dieses Suchmodul ruft Details zu einem Ereignis zurück, wenn das Ereignis im au
    <td role="rowheader">[!UICONTROL Filter]</td> 
    <td> <p>Legen Sie die Filterbedingungen fest, um die Ergebnisse zu filtern. Sie können nach den folgenden Eigenschaften filtern:</p> 
     <ul> 
-     <li>[!UICONTROL Subject]</li> 
+     <li>[!UICONTROL Betreff]</li> 
      <li>[!UICONTROL Ereignis-ID]</li> 
      <li>[!UICONTROL Erstellungsdatumszeit]</li> 
      <li>[!UICONTROL Last Modified Date Time]</li> 
@@ -171,7 +171,7 @@ Dieses Suchmodul ruft Details zu einem Ereignis zurück, wenn das Ereignis im au
    <td role="rowheader">[!UICONTROL Reihenfolge nach]</td> 
    <td> <p>Wählen Sie aus, wie die Ergebnisse sortiert werden sollen.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Subject]</strong>, aufsteigend oder absteigend</li> 
+     <li><strong>[!UICONTROL Betreff]</strong>, aufsteigend oder absteigend</li> 
      <li><strong>[!UICONTROL Erstellungsdatumszeit]</strong>, aufsteigend oder absteigend</li> 
      <li><strong>[!UICONTROL Last Modified Date Time]</strong>, aufsteigend oder absteigend</li> 
     </ul> </td> 
@@ -193,7 +193,7 @@ Dieses Aktionsmodul ruft Details zum angegebenen Ereignis ab.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ereignis-ID]</td> 
@@ -213,19 +213,19 @@ Dieses Aktionsmodul erstellt ein neues Ereignis.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td role="rowheader">[!UICONTROL Betreff]</td> 
    <td> <p>Geben Sie einen Titel für das erstellte Ereignis ein oder ordnen Sie ihn zu.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Startdatum]</td> 
-   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung beginnt. Format verwenden <code>({date}T{time}</code>; Beispiel: <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung beginnt. Format verwenden <code>({date}T{time}</code>; zum Beispiel <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enddatum]</td> 
-   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung endet. Format verwenden <code>{date}T{time}</code>; Beispiel: <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung endet. Format verwenden <code>{date}T{time}</code>; zum Beispiel <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -308,23 +308,23 @@ Dieses Aktionsmodul aktualisiert ein vorhandenes Ereignis.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ereignis-ID]</td> 
    <td>Geben Sie die ID des Ereignisses ein, das Sie aktualisieren möchten, ordnen Sie sie zu oder wählen Sie sie aus.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td role="rowheader">[!UICONTROL Betreff]</td> 
    <td> <p>Geben Sie einen Titel für das erstellte Ereignis ein oder ordnen Sie ihn zu.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Startdatum]</td> 
-   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung beginnt. Format verwenden <code>{date}T{time}</code>; Beispiel: <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung beginnt. Format verwenden <code>{date}T{time}</code>; zum Beispiel <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enddatum]</td> 
-   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung endet. Format verwenden <code>({date}T{time}</code>; Beispiel: <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Geben Sie einen einzelnen Zeitpunkt ein, zu dem das Ereignis in einer kombinierten Datums- und Uhrzeitdarstellung endet. Format verwenden <code>({date}T{time}</code>; zum Beispiel <code>2017-08-29T04:00:00.0000000</code>. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -355,7 +355,7 @@ Dieses Aktionsmodul aktualisiert ein vorhandenes Ereignis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inhaltstyp des Textkörpers]</td> 
-   <td>Wählen Sie aus, ob der Hauptteilinhalt der mit dem Ereignis verknüpften Nachricht Nur-Text oder HTML ist.</td> 
+   <td>Wählen Sie aus, ob der Hauptteilinhalt der Nachricht, die mit dem Ereignis verknüpft ist, Nur-Text oder HTML ist.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Textkörper]</td> 
@@ -407,7 +407,7 @@ Dieses Aktionsmodul löscht ein vorhandenes Ereignis.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ereignis-ID]</td> 
@@ -435,7 +435,7 @@ Dieses Suchmodul ruft eine Liste aller Kalender des authentifizierten Benutzers 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalendergruppen-ID]</td> 
@@ -459,7 +459,7 @@ Dieses Aktionsmodul ruft Details zu einem einzelnen Kalender ab.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalender-ID]</td> 
@@ -479,7 +479,7 @@ Dieses Aktionsmodul erstellt einen neuen Kalender in Ihrem Google-Konto.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalendername]</td> 
@@ -499,7 +499,7 @@ Dieses Aktionsmodul bearbeitet einen vorhandenen Kalender.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalender-ID]</td> 
@@ -523,7 +523,7 @@ Dieses Aktionsmodul löscht einen vorhandenen Kalender.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Kalender-ID]</td> 
@@ -545,7 +545,7 @@ Mit diesem Modul können Sie einen benutzerdefinierten API-Aufruf ausführen.
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Office 365] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
