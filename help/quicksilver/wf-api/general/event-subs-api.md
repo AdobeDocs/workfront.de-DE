@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 3%
+source-wordcount: '2126'
+ht-degree: 4%
 
 ---
 
@@ -70,6 +70,7 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Vorlage
 * Arbeitszeittabelle
 * Benutzerin oder Benutzer
+* Arbeitsbereich
 
 Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcen-Felder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        <tr> 
         <td scope="col">Benutzerin oder Benutzer</td> 
         <td scope="col">BENUTZER</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Arbeitsbereich</td> 
+        <td scope="col">ARBEITSBEREICH</td> 
        </tr> 
       </tbody> 
      </table>
