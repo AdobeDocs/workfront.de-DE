@@ -8,14 +8,14 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] Leistungsgarantien
+# [!DNL Adobe Workfront Fusion] Performance-Limits
 
 >[!NOTE]
 >
@@ -25,15 +25,15 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 ## Szenarios
 
-* Der standardmäßige Ausführungstimeout des Szenarios lautet **40 Minuten**. Wenn die Ausführung diesen Timeout erreicht, [!DNL Workfront Fusion] unterbricht je nach Szenario die Ausführung des Szenarios nach dem nächsten Zyklus oder Vorgang. Dadurch wird das Szenario kurz nach Erreichen der 40-Minuten-Grenze angehalten
+* Der standardmäßige Ausführungstimeout des Szenarios lautet **40 Minuten**. Wenn die Ausführung diesen Timeout erreicht, [!DNL Workfront Fusion] unterbricht die Ausführung des Szenarios nach dem nächsten Zyklus oder Vorgang, je nach Szenario. Dadurch wird das Szenario kurz nach Erreichen der 40-Minuten-Grenze angehalten
 * Die maximale Größe eines Szenario-Blueprints beträgt **5 MB** Wir empfehlen jedoch, die Szenario-Größe unter **3 MB**.
 
-   App-Module, die Daten mit einer großen Anzahl von Feldern erstellen oder aktualisieren, können zu sehr großen Blueprints führen.
+  App-Module, die Daten mit einer großen Anzahl von Feldern erstellen oder aktualisieren, können zu sehr großen Blueprints führen.
 
    * Bei Verwendung von [!DNL Workfront] nur die Felder auswählen, die für Ihre Anwendungsfälle zum Erstellen oder Aktualisieren benötigt werden.
    * Verwenden Sie bei Verwendung anderer Apps benutzerdefinierte API-Module, um mit jedem Datensatztyp zu interagieren, der über eine große Anzahl von Feldern verfügt.
 
-* Es gibt zwar keine Obergrenze für die Anzahl der Module in einem Szenario, Szenarien mit mehr als 150 Modulen wirken sich jedoch negativ auf die Leistung Ihrer [!DNL Workfront Fusion] System. Daher empfehlen wir nicht, Szenarien mit mehr als 150 Modulen zu erstellen.
+* Es gibt zwar keine Obergrenze für die Anzahl der Module in einem Szenario, Szenarien mit mehr als 150 Modulen wirken sich jedoch negativ auf die Leistung Ihrer [!DNL Workfront Fusion] System. Aus diesem Grund empfehlen wir nicht, Szenarien mit über 150 Modulen zu erstellen.
 
 ## Vorgänge
 
@@ -51,7 +51,7 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 * Die Speichernutzung des Servers für eine einzelne Ausführung ist auf **1 GB**.
 
-   Viele Faktoren, wie große Dateien oder komplexe Module, können die Speichernutzung von Servern auf eine Weise beeinflussen, die schwer vorherzusagen oder zu steuern ist. Aus diesem Grund kann die Ausführung Ihres Szenarios die Speichergrenze von 1 GB überschreiten, selbst wenn das Szenario alle anderen Leistungsgarantien erfüllt. Wenn Sie die Speicherbegrenzung überschreiten, schlägt die Ausführung fehl.
+  Viele Faktoren, wie große Dateien oder komplexe Module, können die Speichernutzung von Servern auf eine Weise beeinflussen, die schwer vorherzusagen oder zu steuern ist. Aus diesem Grund kann die Ausführung Ihres Szenarios die Speichergrenze von 1 GB überschreiten, selbst wenn das Szenario alle anderen Leistungsgarantien erfüllt. Wenn Sie die Speicherbegrenzung überschreiten, schlägt die Ausführung fehl.
 
 ## Webhooks
 
@@ -64,3 +64,8 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
    * Der Webhook wird nur in inaktiven Szenarien verwendet, die seit mehr als 30 Tagen inaktiv sind.
 
 * Deaktivierte Webhooks werden automatisch gelöscht und abgemeldet, wenn sie mit keinem Szenario verbunden sind und seit über 30 Tagen den Status deaktiviert haben.
+
+## Ausführungsverlauf
+
+* Die Protokolle im Ausführungsverlauf sind auf eine Größe von **100 MB**. Wenn der Ausführungsverlauf diese Größe überschreitet, werden nur die ersten 100 MB angezeigt.
+
