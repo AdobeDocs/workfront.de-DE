@@ -3,7 +3,7 @@ title: Übersicht über die Version des ersten Quartals 2024
 description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 9. November 2024, 2024<br /></p>
+                                <p>Vorschau-Version: 9. November 2024, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle Kunden: 9. November. 2024</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 9. November. 2023 behoben</span></p>
                             </li>
                         </ul>
                     </td>
