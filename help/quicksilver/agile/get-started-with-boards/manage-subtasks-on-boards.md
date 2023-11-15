@@ -6,18 +6,14 @@ description: Durch die Verwendung von Unteraufgaben auf Karten können Sie eine 
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 7a48179ad113c57fe6588a32de86aaf8836f586e
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Unteraufgaben auf Pinnwänden
-
->[!IMPORTANT]
->
->Unteraufgaben auf Karten sind ab dem 7. November 2023 vorübergehend nicht mehr verfügbar.
 
 Durch die Verwendung von Unteraufgaben auf Karten können Sie eine über- und untergeordnete Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen. Eine Unteraufgabe, die Sie einer Karte auf einer Workfront-Pinnwand hinzufügen, wird der Aufgabe im Workfront-Projekt ebenfalls hinzugefügt. Weitere Informationen zu Unteraufgaben und Aufgaben auf Projektebene finden Sie unter [Erstellen von Unteraufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

@@ -4,9 +4,9 @@ description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Das Webinar zur Version 23.10 wurde am 5. Oktober 2023 veröffentlicht. Sie kön
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Auf Adobe Workfront-Pinnwänden jetzt verfügbare Unteraufgaben</a> <span style="color: #ff0000; font-weight: bold;">(Vorläufig ab 7. November 2023 nicht verfügbar)</span></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wenn Sie einer Pinnwand für eine Workfront-Aufgabe eine verbundene Karte hinzufügen, werden alle vorhandenen Unteraufgaben auf die Karte importiert. Wenn Sie eine Unteraufgabe auf einer verbundenen Karte erstellen, wird der Workfront-Aufgabe eine Unteraufgabe hinzugefügt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Auf Adobe Workfront-Pinnwänden jetzt verfügbare Unteraufgaben</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wenn Sie einer Pinnwand für eine Workfront-Aufgabe eine verbundene Karte hinzufügen, werden alle vorhandenen Unteraufgaben auf die Karte importiert. Wenn Sie eine Unteraufgabe auf einer verbundenen Karte erstellen, wird der Workfront-Aufgabe eine Unteraufgabe hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>

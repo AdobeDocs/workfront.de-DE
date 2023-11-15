@@ -6,9 +6,9 @@ description: Sie können anpassen, welche Felder auf einer Karte angezeigt werde
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Benutzerdefinierte Felder sind auf verbundenen Karten verfügbar. Sie sind nur in der vollständigen Kartenansicht sichtbar, nicht in der gekürzten Ansicht auf der Pinnwand.
 
->[!NOTE]
->
->Wenn Sie Ihren Karten ein benutzerdefiniertes Feld hinzufügen, sind die Daten auf der Karte schreibgeschützt.
+Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden, bestimmte benutzerdefinierte Elemente stehen jedoch möglicherweise nur für die Bearbeitung im ursprünglichen Feld und nicht auf der Karte zur Verfügung.
 
 1. Öffnen Sie die Pinnwand und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich Konfigurieren zu öffnen.
 1. Erweitern [!UICONTROL **Karten**].
