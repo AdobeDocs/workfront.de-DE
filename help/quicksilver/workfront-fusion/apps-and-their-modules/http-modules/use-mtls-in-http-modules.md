@@ -9,7 +9,7 @@ description: Sie können in Ihren Adobe Workfront Fusion-HTTP-Modulen "Mutual TL
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
@@ -32,15 +32,15 @@ Durch gegenseitige TLS kann diese Identitätsbestätigung auf beide Arten erfolg
 >
 >**Beispiel:**
 >
->* **TLS**: Wenn eine Person &quot;MyGreatBank.com&quot;in einen Browser eingibt, will sie sicher sein, dass sie zu My Great Bank geht, nicht zu einer Website, die ihre Bankinformationen missbrauchen oder verkaufen könnte. Sie wollen auch sicherstellen, dass ihre Bankkontoinformationen verschlüsselt sind.
+>* **TLS**: Wenn eine Person &quot;MyGreatBank.com&quot;in einen Browser eingibt, will sie sicher sein, dass sie zu &quot;My Great Bank&quot;geht, nicht zu einer Website, die ihre Bankinformationen missbrauchen oder verkaufen könnte. Sie wollen auch sicherstellen, dass ihre Bankkontoinformationen verschlüsselt sind.
 >
->   Wenn der Browser (der Client) eine Verbindung zu MyGreatBank.com (dem Server) herstellt, benötigt TLS ein Zertifikat von MyGreatBank.com, um seine Identität zu überprüfen. Die Bescheinigung wird von einer Zertifizierungsstelle wie [!DNL DigiCert] oder [!DNL Thawte]. Da der Browser der Zertifizierungsstelle vertraut, ermöglicht er die Verbindung.
+>   Wenn der Browser (der Client) eine Verbindung zu MyGreatBank.com (dem Server) herstellt, erfordert TLS ein Zertifikat von MyGreatBank.com , um seine Identität zu überprüfen. Die Bescheinigung wird von einer Zertifizierungsstelle wie [!DNL DigiCert] oder [!DNL Thawte]. Da der Browser der Zertifizierungsstelle vertraut, ermöglicht er die Verbindung.
 >
->* **TLS auf Gegenseitigkeit**: MySoftware.com ist ein Software-Client, der Informationen von der MyGreatBank.com API benötigt. MyGreatBank ermöglicht es nur vertrauenswürdigen Clients, eine Verbindung zu ihren Servern herzustellen. Zusätzlich zu den regulären TLS, die die Identität von MyGreatBank.com überprüfen, überprüft der Prozess der TLS/Certificate Authority auch die Anfrage von MySoftware.com.
+>* **TLS auf Gegenseitigkeit**: MySoftware.com ist ein Software-Client, der Informationen von der MyGreatBank.com API benötigt. MyGreatBank ermöglicht es nur vertrauenswürdigen Clients, eine Verbindung zu ihren Servern herzustellen. Zusätzlich zu den regulären TLS, die die Identität von MyGreatBank.com überprüfen, überprüft der TLS-/Zertifikatauthentifizierungsprozess auch die Anfrage von MySoftware.com.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,17 +57,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,8 +101,8 @@ Sie können die folgenden Links verwenden, um die öffentlichen Workfront Fusion
 >
 >* Dies sind mTLS-Zertifikate ohne Platzhalter.
 
-* [Download [!DNL Workfront Fusion] Zertifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
-* [Download [!DNL Workfront Fusion] EU-Zertifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Herunterladen [!DNL Workfront Fusion] Zertifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+* [Herunterladen [!DNL Workfront Fusion] EU-Zertifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   Zur Verwendung in der EU
 
@@ -134,4 +134,4 @@ So aktivieren Sie gegenseitige TLS in einer [!UICONTROL HTTP] Anfragemodul:
    Anweisungen zum Konfigurieren eines [!UICONTROL HTTP] Anforderungsmodul, siehe den entsprechenden Artikel unter [[!UICONTROL HTTP] Module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 1. Aktivieren **[!UICONTROL Erweiterte Einstellungen anzeigen]** am unteren Rand des Moduls.
-1. Aktivieren **[!UICONTROL Verwenden von TLS auf Gegenseitigkeit]**.
+1. Aktivieren **[!UICONTROL Gegenseitige TLS verwenden]**.
