@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1843'
 ht-degree: 1%
 
 ---
@@ -369,7 +369,7 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Verbinden von Maestro-Datensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
 | Seite mit Datensatzdetails | ✓ |                                  |                  |
 | Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
-| Zugriffsebenen und Berechtigungen | | ✓ |  |
+| Workspace-Berechtigungen | | ✓ |  |
 | Anfragen senden |                               |                                  | ✓ |
 | Kreativbeschreibung |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
