@@ -6,9 +6,9 @@ description: Sie können einen neuen interaktiven Testversand oder eine neue Ver
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie einen neuen Website-Testversand oder eine neue Version eines vorhandenen erstellen möchten.
-1. Klicken **Dokumente** im linken Bereich.
+1. Klicks **Dokumente** im linken Bereich.
 1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
 
 1. (Bedingt) Auf der **Neuer Testversand** angezeigt, wenn Sie eine neue Version eines vorhandenen Testversands erstellen:
@@ -64,13 +64,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
+
    1. Im **Neu hinzufügen** Dropdown, klicken Sie auf **Version** > **Testversand**.
 
-1. Im **Dateien hinzufügen** Geben Sie die URL der Website ein, die Sie testen möchten, und drücken Sie die Eingabetaste **Eingabe**.
+1. Im **Dateien hinzufügen** Geben Sie die URL der Website ein, die Sie testen möchten, und drücken Sie dann die Eingabetaste **Eingabe**.  Sie können diesen Vorgang wiederholen, um mehrere Websites hinzuzufügen, die getestet werden sollen.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-   Sie können diesen Vorgang wiederholen, um mehrere Websites hinzuzufügen, die getestet werden sollen.
+
+   >[!NOTE]
+   >
+   > Die URL darf maximal 1.000 Zeichen enthalten.
 
 1. Klicken Sie auf die von Ihnen hinzugefügte URL.
 
@@ -83,7 +87,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
-1. Klicken **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
+1. Klicks **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
    oder\
    Fahren Sie mit der Konfiguration eines erweiterten Testversands fort:
 
