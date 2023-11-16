@@ -7,9 +7,9 @@ description: Mit dem Adobe Workfront Fusion Devtool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Wenn Sie Fusion in der Adobe Unified Shell verwenden, können Sie über den Szen
 
 >[!NOTE]
 >
->Derzeit ist nur der **Live Stream** -Bereich des Entwickler-Tools steht Benutzern in der Unified Shell zur Verfügung.
+>Derzeit ist nur der **Live Stream** und **Szenario-Debugger** Bereiche des Entwickler-Tools stehen Benutzern im einheitlichen Erlebnis zur Verfügung. Die **Instrumente** im Bereich Unified Experience derzeit nicht verfügbar.
 
 ### Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis
 
@@ -193,6 +193,10 @@ Der Szenario-Debugger ist für komplexere Szenarien nützlich. Er zeigt den Verl
 1. Zeigen Sie die Anfragedetails an, indem Sie auf den gewünschten Vorgang klicken.
 
 ### Instrumente
+
+>[!NOTE]
+>
+>Dieser Bereich steht Benutzern im Adobe Unified Experience derzeit nicht zur Verfügung.
 
 Die [!DNL Workfront Fusion] Das Entwickler-Tool verfügt über Tools, die die Einrichtung Ihres Szenarios erleichtern.
 
