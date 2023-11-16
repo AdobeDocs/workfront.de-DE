@@ -6,22 +6,20 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # Update der Arbeit
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. </span>
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -290,7 +288,7 @@ Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der verwendeten
    >
    >* Es wird eine E-Mail erzeugt, um die Benutzer nur dann über Ihre Aktualisierung zu informieren, wenn Sie die ursprüngliche Aktualisierung übermitteln. Nach Bearbeitung des Updates wird keine E-Mail erzeugt.
    >* Der Datumsstempel neben dem Kommentar ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Bearbeitung.
-   >* Wenn Sie einen Kommentar im Namen eines anderen Benutzers posten (wenn Sie sich als anderer Benutzer als Workfront- oder Gruppenadministrator anmelden), können Sie den Kommentar nicht bearbeiten, wenn Sie als der andere Benutzer angemeldet sind. Sie können den Kommentar erst bearbeiten, nachdem Sie sich als Benutzer abgemeldet und sich wieder wie Sie selbst angemeldet haben.
+   >* Wenn Sie einen Kommentar für einen anderen Benutzer hinzufügen (wenn Sie sich als anderer Benutzer als Workfront- oder Gruppenadministrator anmelden), können Sie den Kommentar nicht bearbeiten, wenn Sie als der andere Benutzer angemeldet sind. Sie können den Kommentar erst bearbeiten, nachdem Sie sich als Benutzer abgemeldet und sich wieder wie Sie selbst angemeldet haben.
 
 
 1. (Optional) Klicken Sie auf **Antwort** oder beginnen Sie mit der Eingabe eines Kommentars im **Antwort hinzufügen ...** -Bereich, um auf einen vorhandenen Kommentar zu antworten, dann folgen Sie den Schritten 4 bis 8 oben. <!--(**************insure this stays accurate***********)--> Informationen zur Beantwortung einer Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    1. under **Anzuzeigender Text**, geben Sie den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
 
-1. (Optional) <span class="preview">Um ein Bild an das Update anzuhängen, kopieren Sie einen Screenshot von Ihrem Computer und klicken Sie dann auf **STRG + V** für Windows (oder **CMD + V** für Mac), um ihn in den Kommentar einzufügen</span>
+1. (Optional) <span class="preview">Um ein Bild an Ihre Aktualisierung anzuhängen, kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein </span>
 
    Oder
 
-   Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und suchen Sie nach dem Bild auf Ihrem Computer, wenn Sie die neue Kommentarfunktion verwenden.
+   Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
 
    >[!NOTE]
    >
    >* Der Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt &quot;Voreinstellungen für Feeds aktualisieren&quot;der Workfront-Benutzeroberfläche aktivieren, bevor die Symbole Bild oder Anhang hinzufügen angezeigt werden. Weitere Informationen finden Sie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Bilddateigröße beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
    >* Auf Bilder kann über den Abschnitt Updates eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente unter dem Hauptmenü verfügbar.
+   >* <span class="preview">Sie können das Bild einfügen, indem Sie mit der rechten Maustaste auf den neuen Kommentar klicken oder indem Sie Strg + V für Windows (oder CMD + V für Mac) auf Ihrer Tastatur drücken.</span>
    >* Sie können ein Update mit einem Bild und ohne Text senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, gibt es je nach ausgewähltem Erlebnis die folgenden Szenarien:
    >
@@ -424,13 +423,17 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 Sie können nach einem Kommentar oder einer Antwort im Abschnitt Updates eines Objekts suchen.
 
 1. Navigieren Sie zu **Updates** -Abschnitt eines Objekts.
-1. Eingabe eines Suchbegriffs beginnen <!--or a user's name--> im **Suche** in der oberen rechten Ecke des Bereichs Updates. <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. Eingabe eines Suchbegriffs beginnen <!--or a user's name --> im **Suche** in der oberen rechten Ecke des **Kommentare** Registerkarte.
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    Der Suchbegriff <!--or user--> Sie nach gesucht haben, wird hervorgehoben und die Kommentare, die sie enthalten, werden oben im Abschnitt Aktualisierungen angezeigt.
 
-1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zum Abschluss zurückzukehren.
+   Workfront durchsucht den gesamten Update-Stream des Objekts außerhalb der auf dem Bildschirm sichtbaren Kommentare.
+
+1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zu allen Kommentaren zurückzukehren.
 
 </div>
 

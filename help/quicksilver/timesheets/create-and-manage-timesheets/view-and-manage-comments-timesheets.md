@@ -6,9 +6,9 @@ description: Sie können Kommentare zu Timesheets, den in den Timesheets enthalt
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der
 
 ### Kommentar zum Gesamtzeitplan {#comment-on-the-overall-timesheet}
 
-Sie können allgemeine Kommentare zum Timesheet machen.
+Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das gesamte Timesheet ähnelt dem Kommentieren auf andere Objekte.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der oberen linken Ecke oder in Workfront, falls verfügbar.
 
 1. Klicks **Timesheets**.
 1. Gehen Sie zum Timesheet, wo Sie einen Kommentar abgeben möchten.
 1. Klicks **Updates** Klicken Sie im linken Bereich auf das **Kommentare** Registerkarte.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Geben Sie eine Aktualisierung im **Neuer Kommentar** ankreuzen.
+1. Beginnen Sie mit dem Hinzufügen neuer Kommentare oder Antworten zu vorhandenen, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Fügen Sie Personen oder Teams in die **Personen oder Teams taggen** -Feld, um andere in Ihre Aktualisierung aufzunehmen. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Optional) Fügen Sie Ihrem Kommentar Rich-Text-Formatierung hinzu. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Wählen Sie die **Privatperson in meinem Unternehmen** , wenn Sie möchten, dass nur Personen aus Ihrem Unternehmen die Aktualisierung anzeigen.
 1. Geben Sie Ihren Kommentar ein und klicken Sie dann auf **Einsenden**.
 
-   Ihr Kommentar wird im [!UICONTROL Updates] des Zeitplans.
+   Ihr Kommentar wird im [!UICONTROL Updates] im Bereich des Zeitplans im Tab Kommentare .
 
 1. (Optional) Klicken Sie auf die **Systemaktivität** , um systemgenerierte Aktualisierungen zu überprüfen.
 
-   Weitere Informationen finden Sie im Abschnitt &quot;Systemaktualisierungen aktivieren oder deaktivieren&quot;im Artikel [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Kommentar zu einem einzelnen Stundeneintrag in einem Timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
