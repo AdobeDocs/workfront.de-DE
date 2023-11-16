@@ -3,10 +3,10 @@ title: Übersicht über die Version des ersten Quartals 2024
 description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-Verbesserungen
 
+* [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
+* [Aktualisierung von Stream- und Benachrichtigungsverbesserungen](#update-stream-and-notification-enhancements)
+
+### Verbesserungen bei der Dokumentenverwaltung
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markieren einer Überprüfung als abgeschlossen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue <strong>Meine Überprüfung abschließen</strong> Schaltfläche.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. November 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Dokumentprüfungs- und Genehmigungsstatus wird in der Dokumentüberschrift angezeigt</a></p><p>Um den Überprüfungs- und Genehmigungsprozess transparenter zu gestalten, haben wir den Status zur Kopfzeile der Seite "Dokumentdetails"hinzugefügt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 9. November 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### Integrationsverbesserungen
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Felder mit Typvorschau sind jetzt in der Adobe Experience Manager-Integration verfügbar.</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um die Verknüpfung von Feldern zwischen Workfront und Adobe Experience Manager zu vereinfachen, wurde Unterstützung für Typeahead-Felder in der Metadaten-Zuordnung hinzugefügt. Jetzt können Sie Typeahead-Felder entsprechenden Feldern in Adobe Experience Manager zuordnen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. November 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion für alle Kunden: 7. Dezember 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisches Veröffentlichen von Assets in Adobe Experience Manager</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Wir haben der Adobe Experience Manager-Integration einen weiteren Workflow hinzugefügt. Jetzt können Sie festlegen, dass Ihre Assets automatisch veröffentlicht werden, wenn sie an Adobe Experience Manager gesendet werden. Die Integration kann so konfiguriert werden, dass sie im Adobe Experience Manager-Veröffentlichungsdienst oder in einem Adobe Experience Manager-Brand Portal veröffentlicht wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 9. November 2024, 2023<br /></p>
+                                <p>Vorschau-Version: 9. November 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle Kunden: 9. November. 2023 behoben</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 9. November 2023</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### Aktualisierung von Stream- und Benachrichtigungsverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Suchen Sie im Abschnitt Updates nach einem Kommentar oder Benutzer.</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um schnell Informationen im Abschnitt "Aktualisierungen"eines Objekts zu finden, können Sie jetzt in einem Kommentar nach einem Suchbegriff oder nach einem beliebigen Benutzer suchen, der mit einem Kommentar verknüpft ist.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. November 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopieren Sie ein Bild und fügen Sie es in einen Kommentar im Abschnitt Updates ein</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um Kontext zum Inhalt einer Nachricht bereitzustellen, können Sie Ihren Kommentaren jetzt schnell Bilder anhängen, indem Sie sie von Ihrem Computer kopieren und in eine neue Aktualisierung oder Antwort einfügen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 16. November 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## Ankündigungen
 
