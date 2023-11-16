@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,9 +114,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Filter Builder](assets/intake-filter-dialog6.png)
 
-   Dieses Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt, die sich im Status von [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung]und werden mir zugewiesen.
+   Dieses Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt, die sich im Status von [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung].
 
-   Weitere Informationen zum Erstellen eines Filters finden Sie im Artikel unter &quot;Erstellen oder Bearbeiten eines Filters im Standard-Builder&quot;im Abschnitt [Erstellen und Bearbeiten von Filtern in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   >[!NOTE]
+   >
+   >Es wird empfohlen, den Platzhalter &quot;Me&quot;(angemeldeter Benutzer) nicht in einem Pinnwandfilter zu verwenden, da nicht garantiert ist, dass immer Aufgaben oder Probleme für den angemeldeten Benutzer angezeigt werden. Nachdem die Pinnwand mit den richtigen Aufgaben und Problemen eingerichtet wurde, können Sie die Pinnwand filtern, um Elemente für einen bestimmten Bevollmächtigten anzuzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+   Weitere Informationen zum Erstellen eines Filters finden Sie im Artikel im Abschnitt &quot;Erstellen oder Bearbeiten eines Filters im Standard-Builder&quot; [Erstellen und Bearbeiten von Filtern in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Benennen Sie den Filter und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -141,7 +145,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Annahmespalte verwenden
 
 Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
-
 
 Sie können die Elemente in der Annahmespalte manuell neu anordnen.
 
