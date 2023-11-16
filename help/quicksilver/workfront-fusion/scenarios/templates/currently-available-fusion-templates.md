@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Klicken Sie auf die Schaltfläche **Vorlagen** icon ![](assets/fusion-template-i
 
 Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Projekterstellung aus CSV
 
 Durch diese Automatisierung werden in Workfront neue Projekte basierend auf Namen, Portfolio, Status, geplanten Startdatum und Vorlagendetails erstellt, die Sie in einer CSV-Datei angeben.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Bereinigungsanfragen ohne neue Hinweise in den letzten 30 Tagen
 
 Verwenden Sie diese Vorlage, um ein 30-tägiges Hinweis-Update für Ihre Anfragen zu erzwingen. Anforderungen, die nicht in 30 Tagen aktualisiert wurden, erhalten ihren Status geändert und 60 Tage lang geschlossen.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Ändern Sie den Projektstatus zu Abgeschlossen um 100 %.
 
 Durch diese Automatisierung werden Projekte auf den Status Abgeschlossen aktualisiert, in dem alle Aufgaben nach 1005 abgeschlossen sind. Projekte mit offenen Problemen oder offenen Aufgaben oder Projektgenehmigungen erhalten eine Aktualisierung, und nach der Lösung werden die Projekte in den Status Abgeschlossen verschoben.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Warnung und Versuch, veraltete Projekte zu schließen
 
 Verwenden Sie dieses Szenario, um die Warnung bei und den Abschluss von Projekten zu automatisieren, die der veralteten Projektrichtlinie Ihres Unternehmens entsprechen.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Kopieren neuer Hinweise und Antworten von Quellproblem/Anfrage an bereits konvertierte Projekte oder Aufgaben
 
 Verwenden Sie diese Vorlage, um Notizen und Antworten von einem Problem oder einer Anfrage in ein bereits konvertiertes Projekt oder eine bereits konvertierte Aufgabe zu kopieren.
 
@@ -57,6 +57,10 @@ Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinie
 ### Workfront - Konvertieren eines genehmigten Problems in ein Projekt
 
 Diese Vorlage konvertiert Probleme in Projekte. Sie können sie an die Standards Ihres Unternehmens anpassen.
+
+### [!BADGE Neu!]{type=Informative}
+
+Dieses flexible Szenario kopiert Dokumente von Problemen oder Anforderungen in zuvor konvertierte Projekte oder Aufgaben.
 
 ### Angepasste Benachrichtigung basierend auf Feldänderung
 
@@ -102,7 +106,7 @@ Diese Vorlagen rufen Informationen von einem Webdienst ab und bringen diese Info
 >
 > Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### [!BADGE Neu!]{type=Informative}
+### Herstellen einer Verbindung mit JWT (JSON Web Token)
 
 Einrichten der JWT-Autorisierung für eine Client-API.
 
@@ -138,7 +142,7 @@ Diese Vorlagen verbinden Workfront und SharePoint.
 >
 > Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### [!BADGE Neu!]{type=Informative}
+### Änderungen an SharePoint-Ordnern überwachen
 
 Mit dieser Vorlage können Sie sehen, ob sich ein Ordner in SharePoint geändert hat.
 
