@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Wenn Sie eine dieser Registerkarten öffnen, zeigt Zeile 2 die Felder für jedes
 >
 >  Beispiel: auf der **PROJ Project** Registerkarte, die **setCondition** und **setConditionType** -Felder können leer bleiben, aber die **setGroupID** und **setName** kann nicht verwendet werden.
 >
+>* Bestimmte Felder, darunter **setResourceRevenue** und **setEnteredByID**, werden automatisch vom System generiert. Wenn Sie Daten für diese Felder in das Arbeitsblatt eingeben, werden diese beim Hochladen des Arbeitsblatts durch den Kick-Start-Prozess überschrieben.
 
 ### Datensatz importieren  {#import-a-record}
 
