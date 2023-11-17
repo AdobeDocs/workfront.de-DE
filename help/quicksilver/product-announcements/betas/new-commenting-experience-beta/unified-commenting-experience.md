@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # Neues Kommentierungserlebnis
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.  </span>
+
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Funktionen, die während der Beta-Phase für das neue Kommentarerlebnis veröffentlicht wurden.
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die für das neue Kommentierungserlebnis veröffentlicht wurden.
 >
->Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023.
+>Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023. Das Betaprogramm für die neue Kommentarerfahrung wurde mit der Version vom Oktober 2023 eingestellt.
 >
->Die während der Beta-Phase veröffentlichten Funktionen wurden allen Kunden ab der Version vom vierten Quartal 2023 (Oktober 2023) zur Verfügung gestellt und das Betaprogramm wurde eingestellt.
+>Die in diesem Artikel beschriebenen Funktionen wurden im Oktober 2023 für alle Kunden freigegeben, sofern nicht anders angegeben.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1. Quartal 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1. Quartal 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, se
 
 * Sowohl das neue als auch das alte Kommentierungserlebnis für die folgenden Objekte:
 
-      * Projekt
-      * Aufgabe (einschließlich Meldungen)
-      * Problem
-      * Dokument
-      
-      >[!TIP]
-      >
-      >Verwenden Sie die Option Neue Kommentare , um das neue Kommentarerlebnis (wenn Sie es aktivieren) oder das veraltete Kommentarerlebnis (wenn Sie es deaktivieren) anzuzeigen, wie in diesem Abschnitt beschrieben. Die neue Kommentarfunktion ist die Standardeinstellung.
-  
+   * Projekt
+   * Aufgabe (einschließlich Meldungen)
+   * Problem
+   * Dokument
+
+  >[!TIP]
+  >
+  >Verwenden Sie die Option Neue Kommentare , um das neue Kommentarerlebnis (wenn Sie es aktivieren) oder das veraltete Kommentarerlebnis (wenn Sie es deaktivieren) anzuzeigen, wie in diesem Abschnitt beschrieben. Die neue Kommentarfunktion ist die Standardeinstellung.
+
    * Nur das neue Kommentarerlebnis für die unten aufgeführten Objekte. Es gibt keine Option, das veraltete Kommentierungserlebnis für diese Objekte zu aktivieren:
 
       * Ziel
