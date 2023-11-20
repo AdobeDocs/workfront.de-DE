@@ -8,9 +8,9 @@ description: Dieser Artikel enthält Informationen über den Zugriff und die Ber
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ In diesem Artikel werden der Zugriff und die Funktionalität beschrieben, die de
 >Die Organisationsrollen unterscheiden sich von den Teamrollen in [!DNL Workfront Fusion]. Weitere Informationen zu Organisations- und Teamrollen finden Sie unter [Organisationen und Teams](../organizations/organizations-and-teams.md).
 
 ## Zugriffsanforderungen
-
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
-
-&lt;### Zugriffsanforderungen
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
@@ -106,7 +102,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Organisationen löschen</p> </td> 
+   <td> <p>Organisation löschen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -122,7 +118,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td> <p>Verwalten von Organisationsbenutzern</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
