@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Deaktivieren oder reaktivieren Sie ein benutzerdefiniertes Formular
 
 Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr verwenden, um historische Daten beizubehalten.
+
+>[!NOTE]
+>
+>Wenn ein benutzerdefiniertes Formular deaktiviert ist, aber weiterhin Teil eines Warteschlangenthemas oder einer Anforderungswarteschlangendefinition ist, wird es an neue Anforderungen angehängt. Wenn das Formular nicht in den Anforderungen enthalten sein soll, müssen Sie es manuell aus der Anforderungswarteschlange entfernen.
 
 ## Zugriffsanforderungen
 
