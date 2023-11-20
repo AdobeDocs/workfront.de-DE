@@ -6,9 +6,9 @@ description: Sie können anpassen, welche Felder auf einer Karte angezeigt werde
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 >[!NOTE]
 >
 >Wenn Sie das benutzerdefinierte Feld später in Workfront umbenennen, müssen Sie die Feldbeschriftung im Fenster &quot;Für Übereinstimmung konfigurieren&quot;bearbeiten. Andernfalls wird das Feld nicht auf den Karten angezeigt.
+
+## Archivierte Karten anzeigen oder ausblenden
+
+Sie müssen eine Konfigurationseinstellung aktivieren, um archivierte Karten auf einer Pinnwand anzuzeigen.
+
+1. Öffnen Sie die Pinnwand und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich Konfigurieren zu öffnen.
+1. Erweitern [!UICONTROL **Karten**].
+1. Aktivieren [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
+
+   Jetzt können Sie die Pinnwand filtern, um alle archivierten Karten anzuzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Klicks [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
+
+## Kartenfalloff konfigurieren
+
+Informationen zum automatischen Entfernen von Karten aus der Pinnwand nach einem bestimmten Zeitraum finden Sie unter [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
