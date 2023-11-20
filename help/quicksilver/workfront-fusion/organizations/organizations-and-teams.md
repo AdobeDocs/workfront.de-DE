@@ -8,9 +8,9 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Ein Benutzer hat in einer Organisation eine der folgenden Rollen:
 * **[!UICONTROL Buchhalter]**: Eine Rolle &quot;Buchhalter&quot;ermöglicht es Benutzern nur, Lizenzinformationen im Dashboard der Organisation anzuzeigen.
 * **[!UICONTROL App-Entwickler]**: Die Funktionalität für diese Rolle ist derzeit nicht verfügbar und wird demnächst bereitgestellt. Es wird empfohlen, dieser Rolle derzeit keine Benutzer zuzuweisen.
 
+Informationen zu spezifischen Aktionen, die Benutzern in den verschiedenen Rollen der Organisation zur Verfügung stehen, finden Sie unter [Organisations- und Teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Einladen von Benutzern zu einer Organisation
 
 Standardmäßig kann ein Organisationsinhaber (oder autorisierter Benutzer) eine andere Person einladen, ihrer Organisation beizutreten.
@@ -145,7 +147,7 @@ Ein Benutzer hat in jedem seiner Teams eine der folgenden Rollen:
 * **[!UICONTROL Team-Operator]**: Die [!UICONTROL operator] -Rolle ermöglicht es Benutzern, Ausführungsdaten anzuzeigen und den Status &quot;Aktiv&quot;von Szenarien zu ändern.
 * **[!UICONTROL Team Eingeschränktes Mitglied]**: Die Funktionalität für diese Rolle ist derzeit nicht verfügbar und wird demnächst bereitgestellt. Es wird empfohlen, dieser Rolle derzeit keine Benutzer zuzuweisen.
 
-Informationen zu bestimmten Aufgaben, die für Teamrollen verfügbar sind, finden Sie unter[Organisations- und Teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Informationen zu spezifischen Aktionen, die Benutzern in den einzelnen Teamrollen zur Verfügung stehen, finden Sie unter [Organisations- und Teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Team-Management
 
