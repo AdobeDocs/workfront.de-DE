@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 
 #### Login-Zeit auf einem Zeitblatt {#log-time-on-a-timesheet}
 
-Sie können allgemeine Stunden oder projektspezifische Stunden auf einem Timesheet protokollieren.
+Sie können die Zeit auf die folgenden Elemente im Timesheet protokollieren:
+
+* Vorausgefüllte Aufgaben, Probleme und Projekte, die automatisch angezeigt werden, je nachdem, wie Ihr Workfront-Administrator die Timesheet-Voreinstellungen festlegt. Informationen dazu, wie Timesheets vorausgefüllt werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Nur die Ihnen zugewiesenen Aufgaben und Probleme werden vorab in Ihr Timesheet eingefügt. Aufgaben und Probleme, die Ihren Teams oder Auftragsrollen zugewiesen sind, werden nicht automatisch in Ihr Arbeitsblatt eingefügt.
+
+  Wenn Sie auf Bearbeiten für ein Ihrer Teams zugewiesenes Element klicken, wird das Element Ihnen zugewiesen und das Element wird in Ihrem Zeitblatt angezeigt.
+* Aufgaben, Probleme oder Projekte, die Sie manuell hinzufügen.
+* Aufgaben, Probleme oder Projekte, für die Sie bereits an anderer Stelle in Workfront angemeldet haben.
+* Allgemeine Zeit (Urlaub, Schulung, Betriebszeit).
 
 >[!NOTE]
 >
 >Überprüfungsbenutzer, die einem Timesheet-Profil zugewiesen sind, können den Bereich &quot;Timesheets&quot;anzeigen und allgemeine Stunden protokollieren. Sie können jedoch keine Stunden für Aufgaben oder Probleme protokollieren, die ihnen auf dem Timesheet zugewiesen werden.
 
-1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+So protokollieren Sie die Zeit auf einem Timesheet:
+
+1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der linken oberen Ecke von Workfront, falls verfügbar.
 
 1. Klicks [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
    ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
-
-   Das Timesheet wird vorab mit Elementen ausgefüllt, die Ihnen während des Zeitrahmens des Zeitblatts zugewiesen wurden. Informationen dazu, wie Timesheets vorausgefüllt werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Wenn Sie kein Element auf dem Timesheet sehen, können Sie es hinzufügen.
-
-   >[!NOTE]
-   >
-   >Das Timesheet wird nur mit den Ihnen zugewiesenen Elementen vorausgefüllt. Es werden keine Elemente eingefügt, die Ihren Teams oder Ihren Jobrollen zugewiesen sind.
-   >
-   >Wenn Sie auf Bearbeiten für ein Ihrer Teams zugewiesenes Element klicken, wird das Element Ihnen zugewiesen und das Element wird in Ihrem Zeitblatt angezeigt.
 
 
 1. (Optional) Klicken Sie auf die **Vollbild** icon ![](assets/full-screen.png) um das Timesheet im Vollbildmodus anzuzeigen, klicken Sie auf **exit-full-screen** ![](assets/exit-full-screen.png) -Symbol, um zum Timesheet zurückzukehren.
