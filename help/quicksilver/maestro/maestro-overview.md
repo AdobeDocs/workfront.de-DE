@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >[Videodemonstration von Adobe Maestro anzeigen](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture-and-fields/create-workspaces.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture/create-workspaces.md).
 
 * **Record Type**: Der Maestro-Hauptobjekttyp.
 
@@ -140,7 +140,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
   In Maestro können Sie alle Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
 
-  Weitere Informationen finden Sie unter [Übersicht über die Betriebsdatentypen und -taxonomien](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Weitere Informationen finden Sie unter [Übersicht über die Betriebsdatentypen und -taxonomien](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro verfügt über die folgenden Datensatztypen:
 
@@ -150,7 +150,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
      Beispielsweise kann Campaign, Activity, Programm operationelle Datensatztypen sein.
 
-     Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../maestro/architecture-and-fields/create-record-types.md).
+     Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../maestro/architecture/create-record-types.md).
 
    * **Taxonomie**: Ein Record Type, der Attribute über einen operationellen Record erfasst.
 
@@ -160,7 +160,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
      Beispielsweise können Datensatztypen vom Typ Zielgruppe, Region oder Adresse vom Typ Taxonomie sein.
 
-     Weitere Informationen finden Sie unter [Erstellen von Taxonomiedatensatztypen](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Weitere Informationen finden Sie unter [Erstellen von Taxonomiedatensatztypen](../maestro/architecture/create-a-taxonomy.md).
 
 * **Datensatz**: Eine Instanz eines Maestro-Datensatztyps. Ein Datensatz kann sich auf einen operationellen Datensatztyp oder auf eine Taxonomie beziehen.
 
@@ -183,7 +183,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
   Maestro enthält eine Workspace-Vorlage für Vertrieb, Marketing und Produktverwaltung .
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture-and-fields/create-workspaces.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture/create-workspaces.md).
 
 * **Felder**: Felder sind Attribute, die Sie zu Betriebs- oder Taxonomiedatensatztypen hinzufügen können, die Informationen zum Datensatztyp enthalten. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
    * Maestro-Felder können vollständig angepasst werden und sind nur in Maestro verfügbar. Sie können nicht über Workfront auf Maestro-Felder zugreifen.
 
-  Weitere Informationen finden Sie unter [Felder erstellen](../maestro/architecture-and-fields/create-fields.md)
+  Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md)
 
   Ein neuer operationeller Datensatztyp ist standardmäßig mit den folgenden vordefinierten Feldern verknüpft:
 
@@ -243,7 +243,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
   Informationen zum Verknüpfen von Datensatztypen und Datensätzen sowie zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
 
-   * [Datensatztypen verbinden](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Datensatztypen verbinden](../maestro/architecture/connect-record-types.md)
    * [Datensätze verbinden](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

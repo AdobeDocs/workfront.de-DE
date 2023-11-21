@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >
@@ -125,7 +125,7 @@ Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feld
 Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufügen.
 
 1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
-1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../architecture-and-fields/create-fields.md).
+1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../fields/create-fields.md).
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden auf der Detailseite der Datensätze des ausgewählten Datensatztyps als neue Felder hinzugefügt.
 
@@ -238,7 +238,7 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
      >[!TIP]
      >
-     > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../architecture-and-fields/create-fields.md).
+     > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
 
    >[!TIP]
    >
-   > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../architecture-and-fields/create-fields.md).
+   > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
 1. (Optional) Im **Sortieren von Datensätzen nach** und klicken Sie auf das **x** Symbol rechts neben einem Sortierfeld zum Entfernen der Sortierung
 

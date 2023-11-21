@@ -1,20 +1,20 @@
 ---
-title: Datensätze freigeben
-description: Sie können Datensätze für andere freigeben, um Ihre Zusammenarbeit zu verbessern.
+title: Erstellen von Taxonomiedatensatztypen
+description: Taxonomien sind eine Art wiederverwendbarer Datensatztypen, die Attribute über einen operationellen Datensatztyp in Adobe Workfront Maestro erfassen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Datensätze freigeben
+# Erstellen von Taxonomiedatensatztypen
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro-overview.md).
 
-Um mit anderen Benutzern zusammenzuarbeiten, können Sie Datensätze für andere freigeben.
+Taxonomien sind Datensatztypen, die Attribute über betriebliche Datensatztypen in Adobe Maestro erfassen.
 
-Sie können einen Maestro-Datensatz wie folgt freigeben:
+Beispielsweise kann Campaign ein operativer Datensatztyp sein. Im Folgenden finden Sie Taxonomien, die Attribute zum Kampagnen-Datensatztyp erfassen: Region, Zielgruppe, Land.
 
-* Kopieren Sie den Link der Detailseite eines Datensatzes aus Ihrem Browser, wenn die Seite geöffnet ist.
-
-* Kopieren Sie einen Link auf die Detailseite des Datensatzes, wenn Sie Datensätze in der Tabellenansicht des Datensatztyps anzeigen.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In diesem Artikel wird beschrieben, wie Sie einen Link von der Tabellenansicht eines Datensatztyps auf die Detailseite eines Datensatzes kopieren können.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Weitere Informationen zu Maestro-Datensatztypen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Zugriffsanforderungen
 
@@ -52,7 +38,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe</p> </td>
    <td>
@@ -81,6 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Beliebig</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Layout-Vorlage</td>
    <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/grant-access.md">Zugriff auf Adobe Maestro gewähren</a>. </p>  
@@ -90,8 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Freigeben von Datensatzlinks aus der Tabellenansicht des Datensatztyps
+## Überlegungen zum Erstellen von Taxonomien
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro**.
+* Sie müssen einen Arbeitsbereich erstellen, bevor Sie Taxonomien im Arbeitsbereich erstellen können.
 
-   Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
-1. Klicken Sie auf eine Karte vom Typ Datensatz.
+  Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+* Sie können einen Taxonomie-Datensatztyp erstellen, indem Sie einen der folgenden Schritte ausführen:
+   * Erstellen Sie sie automatisch, wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+   * Erstellen Sie sie manuell von Grund auf neu.
+   * Erstellen Sie sie manuell, indem Sie Informationen aus einer externen Liste einfügen.
 
-   Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
-1. Rechtsklick auf eine Datensatzzeile
+* Alle neu erstellten Taxonomien enthalten die folgenden Felder:
 
-   Oder
+   * Name <!--if there won't be any more fields, consider rephrasing this-->
 
-   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
+  Darüber hinaus können Sie benutzerdefinierte Felder zu Taxonomien hinzufügen. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    Bei Verwendung einer Workspace-Vorlage erstellte Taxonomien verfügen über zusätzliche Felder.
 
-   Der Link wird in die Zwischenablage kopiert.
+## Erstellen einer Taxonomie
 
-1. Fügen Sie den Link in ein E-Mail- oder Chat-Fenster ein, um ihn für andere Benutzer freizugeben. Wenn Benutzer den Link erhalten, wird die Detailseite des Datensatzes geöffnet.
+Das Erstellen von Taxonomien ähnelt dem Erstellen eines operationellen Datensatztyps von Grund auf oder aus einer Workspace-Vorlage.
 
-   >[!TIP]
-   >
-   >Die Felder des Datensatzes auf der Detailseite sind dieselben Felder, die in der Tabellenansicht des Datensatzes verfügbar sind.
+Weitere Informationen finden Sie im Artikel unter &quot;Erstellen eines neuen Datensatztyps&quot; [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Informationen zum automatischen Erstellen von Taxonomien beim Erstellen eines Arbeitsbereichs aus einer Vorlage finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).

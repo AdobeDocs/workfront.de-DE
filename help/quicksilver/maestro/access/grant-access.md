@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,63 @@ Alle Benutzer in Ihrer Organisation können Zugriff auf Maestro haben, wenn die 
 >
 >Es gibt keine Zugriffsebenen oder Berechtigungen, die mit Benutzern oder den Informationen in Maestro verknüpft sind. Alle Benutzer, für die Maestro in ihrer Umgebung aktiviert ist, können alle Informationen, die andere Benutzer Maestro hinzufügen, anzeigen, bearbeiten und löschen.
 
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
+   <td>
+<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
+   <td>
+<p>Beliebig</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td>
+   <p>Beliebig</p> 
+  </td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Zugriffsebene</p></td>
+   <td> <p>Alle zur Verwendung von Maestro</p>
+   <p>Systemadministrator oder planen, den Maestro-Bereich in einer Layout-Vorlage freizugeben</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich zu Ihrer Layoutvorlage hinzufügen. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+<!--
+When permissions is released:
+
+* leave as is for Access levels (I think)
+* Add a new row for Permissions: System admin or Manage access to the workspace to share a workspace with others
+-->
+
 ## Maestro-Bereich im Hauptmenü für andere freigeben
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
@@ -67,11 +124,14 @@ Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, könn
 
 ## Share permissions to a workspace
 
-Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+The following users can share a workspace with other users:
+
+* System administrators can share all workspaces, including the ones that they did not create.
+* All other users can share only workspaces for which they have Manage permissions to. 
 
 To share a workspace with others: 
 
-1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner or Workfront, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
 1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
@@ -85,11 +145,11 @@ To share a workspace with others:
 
 ## Remove permissions to a workspace
 
-1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
-1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
-    
-    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner of Workfront, if available, then click **Maestro**.
+1. Open the workspace you want to remove permissions to, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
+1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 
 1. Click **Save**.
+
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
 
 -->

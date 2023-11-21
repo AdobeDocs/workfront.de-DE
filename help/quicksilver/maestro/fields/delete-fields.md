@@ -1,20 +1,31 @@
 ---
-title: Datensätze freigeben
-description: Sie können Datensätze für andere freigeben, um Ihre Zusammenarbeit zu verbessern.
+title: Felder löschen
+description: In Adobe Maestro können Sie benutzerdefinierte Felder löschen, die nicht mehr relevant sind.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Datensätze freigeben
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Felder löschen
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 1%
 >
 >Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro-overview.md).
 
-Um mit anderen Benutzern zusammenzuarbeiten, können Sie Datensätze für andere freigeben.
+In Adobe Maestro können Sie benutzerdefinierte Felder erstellen, um Informationen zu Datensätzen zu speichern.
 
-Sie können einen Maestro-Datensatz wie folgt freigeben:
+Informationen zum Erstellen von benutzerdefinierten Feldern in Maestro finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-* Kopieren Sie den Link der Detailseite eines Datensatzes aus Ihrem Browser, wenn die Seite geöffnet ist.
+Sie können nicht mehr relevante Maestro-Felder löschen.
 
-* Kopieren Sie einen Link auf die Detailseite des Datensatzes, wenn Sie Datensätze in der Tabellenansicht des Datensatztyps anzeigen.
+## Überlegungen zum Löschen von Maestro-Feldern:
 
-<!-- Update with this when we release permissions: 
+* Sie können von Ihnen erstellte Felder oder Felder löschen, die von anderen Benutzern oder vom System erstellt wurden. <!--this will change with access levels/ permissions-->
+* Das Feld Name eines Datensatzes kann nicht gelöscht werden. <!--change this to say you can't delete the field selected to be the primary-->
+* Sie können ein Feld nur in der Tabelle vom Typ Datensatz löschen.
+* Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
+* Wenn Sie ein verknüpftes Datensatzfeld löschen, werden auch alle verknüpften Suchfelder aus dem Datensatztyp gelöscht, aus dem Sie eine Verknüpfung herstellen. Die verknüpften Datensatzfelder der Datensatztypen, mit denen Sie eine Verknüpfung herstellen, werden nicht gelöscht.
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In diesem Artikel wird beschrieben, wie Sie einen Link von der Tabellenansicht eines Datensatztyps auf die Detailseite eines Datensatzes kopieren können.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Zugriffsanforderungen
 
@@ -90,8 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Freigeben von Datensatzlinks aus der Tabellenansicht des Datensatztyps
+## Felder löschen
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
-1. Klicken Sie auf eine Karte vom Typ Datensatz.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
-   Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+   Dadurch wird der zuletzt aufgerufene Arbeitsbereich in Maestro geöffnet.
+1. Klicken Sie auf die Karte eines Datensatztyps, dessen Felder Sie löschen möchten.
+1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
+1. Suchen Sie das zu löschende Feld in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
 
-   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
-1. Rechtsklick auf eine Datensatzzeile
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   Oder
+1. Klicks **Löschen**. <!-- check this: they might replace it with **Delete field**-->
 
-   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. Klicks **Löschen** zur Bestätigung.
 
-   Der Link wird in die Zwischenablage kopiert.
-
-1. Fügen Sie den Link in ein E-Mail- oder Chat-Fenster ein, um ihn für andere Benutzer freizugeben. Wenn Benutzer den Link erhalten, wird die Detailseite des Datensatzes geöffnet.
-
-   >[!TIP]
-   >
-   >Die Felder des Datensatzes auf der Detailseite sind dieselben Felder, die in der Tabellenansicht des Datensatzes verfügbar sind.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Das Feld wird gelöscht, kann nicht wiederhergestellt werden und kann keinem Datensatz mehr zugeordnet werden.

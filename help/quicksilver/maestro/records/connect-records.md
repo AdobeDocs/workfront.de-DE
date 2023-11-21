@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >
@@ -42,9 +42,9 @@ Sie können Adobe Maestro-Datensätze miteinander oder mit Objekten aus anderen 
 
 Sie müssen zunächst zwei Datensatztypen oder einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden. Anschließend können Sie über die Tabellenansicht des Datensatztyps Datensätze miteinander oder Datensätze mit anderen Objekten verbinden.
 
-Informationen zum Verbinden von Datensatztypen untereinander oder mit Objekttypen aus anderen Anwendungen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+Informationen zum Verbinden von Datensatztypen untereinander oder mit Objekttypen aus anderen Anwendungen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
-Ein Beispiel für das Verbinden von Datensatztypen finden Sie unter [Beispiel für das Verbinden von Datensatztypen und Datensätzen](../architecture-and-fields/example-connect-record-types-and-records.md).
+Ein Beispiel für das Verbinden von Datensatztypen finden Sie unter [Beispiel für das Verbinden von Datensatztypen und Datensätzen](../architecture/example-connect-record-types-and-records.md).
 
 Sie können Folgendes verbinden:
 
@@ -113,6 +113,61 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Workfront-Objekte. Beispielsweise müssen Sie in Workfront zunächst Projekte, Portfolios, Programme, Unternehmen oder Gruppen erstellen.
    * Maestro-Arbeitsbereiche, Datensatztypen und Datensätze. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-      * [Erstellen von Arbeitsbereichen](../architecture-and-fields/create-workspaces.md)
-      * [Erstellen von Datensatztypen](../architecture-and-fields/create-record-types.md)
+      * [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md)
+      * [Erstellen von Datensatztypen](../architecture/create-record-types.md)
       * [Datensätze erstellen](../records/create-records.md)
 
-   * Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+   * Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
 
 ### Maestro-Datensätze verbinden
 
@@ -158,7 +213,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
-1. Fügen Sie eine Verbindung zu einem anderen Datensatz oder Objekttyp aus dem ausgewählten Datensatztyp hinzu. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+1. Fügen Sie eine Verbindung zu einem anderen Datensatz oder Objekttyp aus dem ausgewählten Datensatztyp hinzu. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
    Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Datensatztyp anzuzeigen.
 
@@ -216,7 +271,7 @@ Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Workfron
    * Firma
    * Gruppe
 
-   Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture-and-fields/connect-record-types.md).
+   Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
    Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Objekttyp anzuzeigen.
 

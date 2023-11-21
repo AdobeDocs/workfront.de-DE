@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Als Leiter von Marketingoperationen können Sie Adobe Maestro verwenden, um die 
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist.
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
 >
@@ -62,7 +62,8 @@ In den folgenden Artikeln finden Sie einen Überblick über Adobe Maestro:
 
 Die folgenden Abschnitte enthalten Artikel, die die derzeit verfügbaren Maestro-Funktionen detailliert beschreiben:
 
-* [Zugriffsinformationen](../maestro/access/access-information.md): Informationen über den für die Verwendung von Adobe Maestro benötigten Zugriff.
-* [Architekturinformationen](../maestro/architecture-and-fields/architecture-and-fields-information.md): Detaillierte Informationen zur Architektur von Adobe Maestro mit schrittweisen Anleitungen zum Erstellen und Verwalten von Arbeitsbereichen, Datensatztypen und Feldern.
+* [Zugriffsinformationen](../maestro/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung von Adobe Maestro erforderlich sind.
+* [Architekturinformationen](../maestro/architecture/architecture-information.md): Detaillierte Informationen zur Architektur von Adobe Maestro mit einer schrittweisen Anleitung zur Erstellung und Verwaltung von Arbeitsbereichen und Datensätzen.
+* [Feldinformationen](../maestro/fields/fields-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen benutzerdefinierter Felder für Maestro-Datensatztypen.
 * [Datensatzinformationen](../maestro/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
-* [Ansichtsinformationen](../maestro/views/views-information.md): Detaillierte Informationen zu Maestro-Ansichten und deren Verwaltung.
+* [Ansichtsinformationen](../maestro/views/views-information.md): Detaillierte Informationen zu Maestro-Ansichten und deren Verwaltung bei der Anzeige von Datensätzen auf einer Seite vom Typ Datensatz.

@@ -1,20 +1,31 @@
 ---
-title: Datensätze freigeben
-description: Sie können Datensätze für andere freigeben, um Ihre Zusammenarbeit zu verbessern.
+title: Löschen von Datensatztypen
+description: Sie können betriebliche Datensatztypen oder Taxonomie-Datensatztypen löschen, wenn sie nicht mehr relevant sind.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Datensätze freigeben
+# Löschen von Datensatztypen
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro-overview.md).
 
-Um mit anderen Benutzern zusammenzuarbeiten, können Sie Datensätze für andere freigeben.
+Sie können betriebliche Datensatztypen oder Taxonomie-Datensatztypen löschen, wenn sie nicht mehr relevant sind.
 
-Sie können einen Maestro-Datensatz wie folgt freigeben:
+Informationen zu Datensatztypen und Taxonomien finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* Kopieren Sie den Link der Detailseite eines Datensatzes aus Ihrem Browser, wenn die Seite geöffnet ist.
+Es wird empfohlen, die Felder und Datensätze, die mit dem Datensatztyp oder der Taxonomie verknüpft sind, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
 
-* Kopieren Sie einen Link auf die Detailseite des Datensatzes, wenn Sie Datensätze in der Tabellenansicht des Datensatztyps anzeigen.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In diesem Artikel wird beschrieben, wie Sie einen Link von der Tabellenansicht eines Datensatztyps auf die Detailseite eines Datensatzes kopieren können.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Zugriffsanforderungen
 
@@ -90,8 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Freigeben von Datensatzlinks aus der Tabellenansicht des Datensatztyps
+## Überlegungen zum Löschen von Datensatztypen
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
-1. Klicken Sie auf eine Karte vom Typ Datensatz.
+* Sie können jeden Datensatztyp oder jede Taxonomie löschen, den Sie oder andere Mitarbeiter in Ihrem Unternehmen erstellt haben. <!--this will change with access levels and permissions-->
+* Durch das Löschen von Datensatztypen werden alle mit ihnen verknüpften Informationen entfernt, einschließlich Feldern und Datensätzen dieses Typs.
+* Gelöschte Datensatztypen und ihre Informationen können nicht abgerufen werden.
 
-   Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+## Löschen von Datensatztypen
 
-   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
-1. Rechtsklick auf eine Datensatzzeile
+Das Löschen von Taxonomie-Datensatztypen ist mit dem Löschen betrieblicher Datensatztypen identisch.
 
-   Oder
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
-   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
+   Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
 
-   Der Link wird in die Zwischenablage kopiert.
+   Der Arbeitsbereich wird geöffnet und die damit verbundenen Datensatztypen und Taxonomien werden angezeigt.
+1. Klicken Sie auf die Karte für den Datensatztyp oder die Taxonomie, die Sie löschen möchten.
 
-1. Fügen Sie den Link in ein E-Mail- oder Chat-Fenster ein, um ihn für andere Benutzer freizugeben. Wenn Benutzer den Link erhalten, wird die Detailseite des Datensatzes geöffnet.
+   Dadurch wird die Seite des Datensatztyps geöffnet.
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**.
+1. Klicks **Löschen** zur Bestätigung.
 
-   >[!TIP]
-   >
-   >Die Felder des Datensatzes auf der Detailseite sind dieselben Felder, die in der Tabellenansicht des Datensatzes verfügbar sind.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Der ausgewählte Datensatztyp oder die ausgewählte Taxonomie sowie die zugehörigen Felder und Datensätze werden gelöscht.

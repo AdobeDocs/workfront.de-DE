@@ -4,9 +4,9 @@ description: Sie können Berechtigungen für einen von Ihnen erstellten Adobe Ma
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Übersicht über die Freigabe von Berechtigungen in Adobe Maestro
 
@@ -35,7 +37,7 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
 * Arbeitsbereiche
 
-  In freigegebenen Arbeitsbereichen werden alle Datensatztypen, Datensätze und Felder gemeinsam genutzt, die mit den Arbeitsbereichen verknüpft sind.
+  Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind.
 
 ## Überlegungen zum Freigeben von Objekten in Maestro
 
@@ -54,9 +56,14 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Berechtigungsebene</b></p></td> 
+   <td> <p><b>Aktionen, die Sie ausführen können</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Anzeigen</td> 
-   <td> <p>Sie können die folgenden Aktionen durchführen:</p> 
+   <td role="rowheader"><p>Anzeigen</p></td> 
+   <td> 
     <ul> 
      <li>Anzeigen des Arbeitsbereichs</li> 
      <li>Alle Datensatztypen im Arbeitsbereich anzeigen</li> 
@@ -65,8 +72,8 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Mitwirken</td> 
-   <td> <p>Sie können die folgenden Aktionen durchführen:</p> 
+   <td role="rowheader"><p>Mitwirken</p></td> 
+   <td>  
     <ul> 
      <li>Alle Aktionen, die mit der Berechtigung "Anzeigen"enthalten sind</li> 
      <li>Datensätze hinzufügen</li>
@@ -77,8 +84,8 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Verwalten</td> 
-   <td> <p>Sie können die folgenden Aktionen durchführen:</p> 
+   <td role="rowheader"><p>Verwalten</p></td> 
+   <td> 
     <ul> 
      <li>Alle Aktionen, die in den Berechtigungen "Anzeigen"und "Beiträge"enthalten sind</li> 
      <li>Datensatztypen bearbeiten</li> 
@@ -90,7 +97,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-Administratoren</td> 
+   <td role="rowheader"><p>Workfront-Administratoren</p></td> 
    <td> <p>Dies ist keine Maestro-Erlaubnis.</p>
    <p> Alle Workfront-Administratoren haben folgende Möglichkeiten: </p>
    <ul><li>Erstellen von Arbeitsbereichen</li>
@@ -101,13 +108,15 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Freigeben eines Arbeitsbereichs
 
-Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugriff gewähren](../access/grant-access.md).
+Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugriff auf Adobe Maestro gewähren](../access/grant-access.md).
 
 ## Berechtigungen für einen Arbeitsbereich entfernen
 
-Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugriff gewähren](../access/grant-access.md).
+Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugriff auf Adobe Maestro gewähren](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 
