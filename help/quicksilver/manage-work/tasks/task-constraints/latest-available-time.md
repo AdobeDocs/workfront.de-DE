@@ -2,19 +2,19 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint - Übersicht: Neueste verfügbare Zeit"
+title: "Task Constraint Overview: Neueste verfügbare Zeit"
 description: Die neueste verfügbare Zeit (LAT) ist eine Art von Aufgabenbegrenzung in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Neueste verfügbare Zeit
+# Übersicht über Aufgabenbeschränkungen: Aktuelle verfügbare Zeit
 
 Die neueste verfügbare Zeit (LAT) ist eine Art von Aufgabenbegrenzung in Adobe Workfront.
 
@@ -29,7 +29,7 @@ Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -56,19 +56,19 @@ In diesem Fall:
 
 * **Neueste verfügbare Zeit:** Die Verwendung der Zeitbeschränkung &quot;Neueste verfügbare Zeit&quot;für die Vorgängeraufgabe gibt der flexiblen Beschränkung des Nachfolgers Priorität.
 
-   **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A verfügt über die aktuelle Zeitbegrenzung und Aufgabe B über die Beschränkung &quot;Sofort wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
+  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A verfügt über die aktuelle Zeitbegrenzung und Aufgabe B über die Beschränkung &quot;Sofort wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **So spät wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität ein.
+* **Spätestens** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität ein.
 
-   **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Beschränkung &quot;So spät wie möglich&quot;und Aufgabe B die Beschränkung &quot;So bald wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
+  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Beschränkung &quot;So spät wie möglich&quot;und Aufgabe B die Beschränkung &quot;So bald wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>

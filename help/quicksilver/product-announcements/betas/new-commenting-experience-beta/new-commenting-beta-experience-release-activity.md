@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Vorschau und Produktion für alle Kunden: 19. Oktober 2023.
 ### Woche vom 11. September 2023
 
 #### Das neue Kommentierungserlebnis erfasst Informationen ab dem 1. Januar 2019
+
+>[!NOTE]
+>
+>Diese Einschränkung wurde nach dem 28. November 2023 aufgehoben. Weitere Informationen finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 Projekte, Aufgaben, Probleme und Dokumente zeigen Aktualisierungen ab dem 1. Januar 2019 an. Vor dieser Verbesserung wurde das neue Kommentierungserlebnis erst ab Juni 2022 für diese Objekte aktualisiert.
 

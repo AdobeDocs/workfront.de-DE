@@ -4,9 +4,10 @@ description: Sie können Berechtigungen für einen von Ihnen erstellten Adobe Ma
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
      <li>Felder hinzufügen</li> 
      <li>Felder löschen</li> 
      <li>Hinzufügen neuer Verbindungen zwischen Datensatztypen</li> 
+     <li>Freigeben des Arbeitsbereichs für Benutzer und Gruppen</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugr
 Informationen zum Freigeben eines Maestro-Arbeitsbereichs finden Sie unter [Zugriff auf Adobe Maestro gewähren](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

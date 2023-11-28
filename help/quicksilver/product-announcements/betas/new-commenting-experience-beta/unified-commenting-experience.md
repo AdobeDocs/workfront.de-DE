@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 * Die Informationen &quot;im Namen von &lt; Benutzername >&quot;, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt, wurden ursprünglich entfernt. Es wurde am 19. Oktober 2023 wieder eingesetzt.
 * Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->Für die unten aufgeführten Objekte sind ab dem 1. Januar 2019 nur die Kommentare und Systemaktualisierungen verfügbar, die im neuen Kommentarerlebnis verfügbar sind.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->Sie können Kommentare und Systemaktualisierungen zu diesen Objekten vor dem 1. Januar 2019 anzeigen, wenn Sie sich den Abschnitt Updates im aktuellen Erlebnis ansehen:
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* Probleme
->* Projekte
->* Aufgaben
->* Dokumente
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu neuen Kommentaren](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis verfügbar sein werden, sowie ihre Verfügbarkeit in den Bereichen, in denen sie unterstützt werden:
 
