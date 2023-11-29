@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 ### Datensatz in der Tabellenansicht des Datensatztyps bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> Klicken Sie dann auf **Maestro** ![](assets/maestro-icon.png).
+1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
    Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
@@ -201,10 +201,38 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+1. (Bedingt) Aus der **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Tabelle auswählen Sie eine **Verzeichnis** anzeigen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. In der oberen rechten Ecke der Tabellenansicht wird eine Anzeige zum Speichern der Änderungen kurz angezeigt.
+
+   >[!NOTE]
+   >
+   >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
+   >  
+   >  * Verknüpfte Felder, die durch Verknüpfen von Datensatztypen erstellt werden
+   >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
+
+
+1. (Optional) Kopieren Sie einen vorhandenen Wert eines Felds und fügen Sie ihn dann in ein Feld desselben Typs in einem anderen Datensatz ein. Klicken Sie dann auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
+
+   >[!NOTE]
+   >
+   >Beachten Sie Folgendes:
+   >
+   >* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+   >
+   >* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+   >* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
+   ><ul>
+   >
+   > * Personen
+   >
+   > * Systemfelder
+   >
+   > * Verknüpfte Felder, die durch das Verbinden von Datensätzen erstellt wurden
+
+   <!--take People out of the list above when they release this - this might be coming later-->

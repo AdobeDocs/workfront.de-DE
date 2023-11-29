@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,30 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Woche vom 27. November 2023
+
+### Kopieren und Einfügen von Informationen aus einem Feld in ein anderes in der Maestro-Tabellenansicht
+
+Vorschau und Produktion: 28. November 2023
+
+Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Maestro-Datensatz kopieren und einfügen.
+
+Beachten Sie Folgendes:
+
+* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+
+* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+
+* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
+
+   * Personen
+
+   * Systemfelder
+
+   * Verknüpfte Felder, die durch das Verbinden von Datensätzen erstellt wurden
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
 
 ## Woche vom 6. November 2023
 
