@@ -3,13 +3,13 @@ title: Übersicht über die Version des ersten Quartals 2024
 description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über die Version des ersten Quartals 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Verbesserungen der Startseite
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Die Schnellaktion-Schaltflächen für "Arbeit"wurden geändert, sodass sie nur auf dem Mauszeiger angezeigt werden</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um die Leistung zu verbessern, werden die im Widget Meine Arbeit verfügbaren Schnellaktion-Schaltflächen jetzt nur angezeigt, wenn mit der Maus auf ein Arbeitselement gezeigt wird.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 29. November 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion für alle Kunden: 29. November 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Integrationsverbesserungen
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Das neue Kommentierungserlebnis erfasst alle Informationen für Projekte, Aufgaben, Probleme und Dokumente</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Projekte, Aufgaben, Probleme und Dokumente zeigen alle Aktualisierungen im neuen Kommentarerlebnisbereich an, die seit dem Beginn Ihrer Workfront-Instanz vorgenommen wurden.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 28. November 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für alle Kunden: 28. November 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Suchen Sie im Abschnitt Updates nach einem Kommentar oder Benutzer.</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um schnell Informationen im Abschnitt "Aktualisierungen"eines Objekts zu finden, können Sie jetzt in einem Kommentar nach einem Suchbegriff oder nach einem beliebigen Benutzer suchen, der mit einem Kommentar verknüpft ist.</p>

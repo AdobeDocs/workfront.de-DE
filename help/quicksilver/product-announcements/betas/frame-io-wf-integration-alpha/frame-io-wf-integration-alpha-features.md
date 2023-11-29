@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ Um die Funktion zu testen, melden Sie sich bei Ihrer Workfront-Vorschau- oder Sa
 
 Im Folgenden finden Sie Informationen zu den wichtigsten Anwendungsfällen, die wir behandeln möchten, sowie zu den Funktionen, die wir derzeit geplant haben. <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">Markierter Text</span> unten bezieht sich auf Funktionen, die noch nicht implementiert sind, aber in einer späteren Version enthalten sein werden.
+>
+>Aufzählungszeichen unter einem **&quot;Potenzielle Verbesserungen in zukünftigen Versionen&quot;** -Kopfzeile kann in einer zukünftigen Version enthalten sein oder auch nicht, je nach Alpha-Feedback und unseren sich entwickelnden Entwicklungsplänen.
+>
+
+
 ### Workfront-Administratoren können eine Verbindung zwischen Workfront-Gruppen und Frame.io-Konten herstellen
 
-* _In Workfront können Sie eine Workfront-Gruppe mit einem Frame.io-Konto verbinden_
+* <span class="preview">In Workfront können Sie eine Workfront-Gruppe mit einem Frame.io-Konto verbinden</span>
 
 * Ein neues Frame.io-Team wird in Frame.io erstellt, das die verbundene Workfront-Gruppe darstellt.
 
@@ -76,19 +84,19 @@ Im Folgenden finden Sie Informationen zu den wichtigsten Anwendungsfällen, die 
 
 * Möglichkeit, Workfront-Projekte durch Zuweisen einer Frame-verbundenen Gruppe als Frame.io zu markieren
 
-* _Verbesserung: Möglichkeit, Aufgaben in Workfront-Projekten als Frame-Aufgaben umzuschalten, wodurch wiederum Aufgabenordner in Frame.io erstellt werden_
+* <span class="preview">Verbesserung: Möglichkeit, Aufgaben in Workfront-Projekten als Frame-Aufgaben umzuschalten, wodurch wiederum Aufgabenordner in Frame.io erstellt werden</span>
 
 * Wenn ein Workfront-Projektstatus auf &quot;Aktuell&quot;festgelegt ist, wird ein entsprechendes vernetztes Projekt in Frame erstellt, mit Workfront verknüpfte Benutzer werden zum Frame-Projekt hinzugefügt und ihnen wird von Frame.io aus eine E-Mail-Benachrichtigung gesendet
 
    * Alle Workfront-Projektmitglieder (Benutzer und Teams) werden als Mitwirkende zum Frame.io-Projekt hinzugefügt (bei der Projekterstellung und späteren).
 
-   * _Änderung: Benutzer und Teams, die Frame-aktivierten Workfront-Aufgaben zugewiesen sind, werden als Mitwirkende zum Frame.io-Projekt hinzugefügt und benachrichtigt (bei der Projekterstellung und später)_
+   * <span class="preview">Änderung: Benutzer und Teams, die Frame-aktivierten Workfront-Aufgaben zugewiesen sind, werden als Mitwirkende zum Frame.io-Projekt hinzugefügt und benachrichtigt (bei der Projekterstellung und später)</span>
 
 * Dokumente (Creative Briefs), die zu projektbezogenen und Frame-aktivierten Aufgaben hinzugefügt wurden, werden beim Erstellen des Projekts in das Frame.io-Projekt (innerhalb des entsprechenden Arbeitsordners) verschoben (Trigger: Projektstatus auf &quot;Aktuell&quot;).
 
    * Es wird empfohlen, die Anzahl der Dokumente zu begrenzen, die Ihrem Projekt hinzugefügt werden, bevor Sie nur für kreative Briefs aktiv werden. So können Sie vermeiden, dass mehrere unnötige Dokumente an Frame.io gesendet werden.
 
-* _Verbesserung: Benutzer/Teams, die explizit von einer Frame-aktivierten Workfront-Aufgabe nicht zugewiesen wurden, werden aus dem Frame.io-Projekt entfernt_
+* <span class="preview">Verbesserung: Benutzer/Teams, die explizit von einer Frame-aktivierten Workfront-Aufgabe nicht zugewiesen wurden, werden aus dem Frame.io-Projekt entfernt</span>
 
 **Potenzielle Verbesserungen in zukünftigen Versionen:**
 
@@ -104,9 +112,9 @@ Im Folgenden finden Sie Informationen zu den wichtigsten Anwendungsfällen, die 
 
 * Neue Versionen in Frame.io erstellen automatisch eine neue Dokumentversion in Workfront für verbundene Assets
 
-* _Verbesserung: Möglichkeit, die referenzierten Workfront-Aufgaben aus Frame.io als abgeschlossen zu markieren_
+* <span class="preview">Verbesserung: Möglichkeit, die referenzierten Workfront-Aufgaben aus Frame.io als abgeschlossen zu markieren</span>
 
-* _Verbesserung: Wenn das verbundene Workfront-Dokument gelöscht wird, bleibt es in Frame.io und kann mit derselben oder anderen Projektaufgabe erneut verbunden werden_
+* <span class="preview">Verbesserung: Wenn das verbundene Workfront-Dokument gelöscht wird, bleibt es in Frame.io und kann mit derselben oder anderen Projektaufgabe erneut verbunden werden</span>
 
 **Potenzielle Verbesserungen in zukünftigen Versionen:**
 
@@ -118,7 +126,7 @@ Im Folgenden finden Sie Informationen zu den wichtigsten Anwendungsfällen, die 
 
 * Workfront-Benutzer und -Teams können neuen Dokumentgenehmigungen für mit Frame.io verbundene Dokumente hinzugefügt werden
 
-* _Verbesserung: Wenn die Freigabe eines Benutzers/Teams für ein Dokument mit aktiviertem Frame aufgehoben wird, verliert er auch seinen Zugriff auf das Asset im Frame.io-Viewer_
+* <span class="preview">Verbesserung: Wenn die Freigabe eines Benutzers/Teams für ein Dokument mit aktiviertem Frame aufgehoben wird, verliert er auch seinen Zugriff auf das Asset im Frame.io-Viewer</span>
 
 **Potenzielle Verbesserungen in zukünftigen Versionen:**
 
@@ -134,12 +142,12 @@ Im Folgenden finden Sie Informationen zu den wichtigsten Anwendungsfällen, die 
 
 * Möglichkeit zur Nutzung der vorhandenen Reviews- und Kommentarfunktionen, die vom Frame.io-Viewer bereitgestellt werden und mit dem Workfront-Update-Stream synchronisiert werden
 
-* _Möglichkeit, im Frame.io-Viewer eine neue Entscheidung über die Dokumentgenehmigung zu treffen_
+* <span class="preview">Möglichkeit, im Frame.io-Viewer eine neue Entscheidung über die Dokumentgenehmigung zu treffen</span>
 
 ### In Frame.io werden Kreative über die Gesamtentscheidung informiert, die für das verbundene Frame.io-Asset getroffen wurde.
 
-* _Verbesserung: Der Gesamtstatus der Dokumentgenehmigung wird auf dem Asset in Frame.io angezeigt_
+* <span class="preview">Verbesserung: Der Gesamtstatus der Dokumentgenehmigung wird auf dem Asset in Frame.io angezeigt</span>
 
 ### Projektkoordinatoren können endgültige Assets an AEM senden
 
-* _Verbesserung: Frame-verbundene Dokumente, einschließlich Metadaten, können mit dem vorhandenen Workfront + AEM Asset CS-Connector an AEM gesendet werden_
+* <span class="preview">Verbesserung: Frame-verbundene Dokumente, einschließlich Metadaten, können mit dem vorhandenen Workfront + AEM Asset CS-Connector an AEM gesendet werden</span>

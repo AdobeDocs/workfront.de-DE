@@ -3,9 +3,10 @@ title: Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2
 description: Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2024
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen am Aktualisierungsstream und an Benachrichtigungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Das neue Kommentierungserlebnis erfasst alle Informationen für Projekte, Aufgaben, Probleme und Dokumente
+
+Projekte, Aufgaben, Probleme und Dokumente zeigen alle Aktualisierungen im neuen Kommentarerlebnisbereich an, die seit dem Beginn Ihrer Workfront-Instanz vorgenommen wurden. Vor dieser Verbesserung hat das neue Kommentierungserlebnis nur Aktualisierungen erfasst, die mit Januar 2019 für diese Objekte beginnen.
 
 ## Suchen Sie im Abschnitt Updates nach einem Kommentar oder Benutzer.
 

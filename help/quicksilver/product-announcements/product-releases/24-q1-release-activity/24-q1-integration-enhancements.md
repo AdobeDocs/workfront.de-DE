@@ -3,7 +3,8 @@ title: Integrationsverbesserungen für das erste Quartal 2024
 description: Integrationsverbesserungen für das erste Quartal 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
+exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Felder mit Typvorschau sind jetzt in der Adobe Experience Manager-Integration verfügbar.
 
@@ -31,7 +32,3 @@ Wir haben der Adobe Experience Manager-Integration einen weiteren Workflow hinzu
 Der Workflow Automatische Veröffentlichung kann in der Adobe Experience Manager-Integration aktiviert und konfiguriert werden. Wenn diese Option aktiviert ist, kann der Workflow auf der Projektvorlage oder Projektebene bearbeitet werden.
 
 Weitere Informationen finden Sie unter [Assets veröffentlichen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Workflows in der Experience Manager Assets-Integration verwenden](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
