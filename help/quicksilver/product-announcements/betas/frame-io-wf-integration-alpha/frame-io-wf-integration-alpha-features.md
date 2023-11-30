@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ Damit Sie die neuen Funktionen des Alpha-Programms einfach testen können, haben
 
 Um die Funktion zu testen, melden Sie sich bei Ihrer Workfront-Vorschau- oder Sandbox-Instanz an und führen Sie die folgenden Schritte aus:
 
+>[!NOTE]
+>
+><span class="preview">Markierter Text</span> unten bezieht sich auf Funktionen, die noch nicht für Tests implementiert sind, aber in einer späteren Version enthalten sein werden.
+>
+
 1. **Koordinatoren:** Erstellen Sie in Workfront ein Projekt mit der `Frame.io alpha testing` als Projektgruppe zugewiesen wurde.
 
-1. **Koordinatoren:** Weisen Sie in Workfront Ihre kreativen Inhalte den projektaktivierten Aufgaben oder Frame zu und ändern Sie den Projektstatus in &quot;Aktuell&quot;.
+1. **Koordinatoren:** Weisen Sie in Workfront Ihre kreativen Inhalte dem Projekt zu <span class="preview">oder Frame-aktivierte Aufgaben</span> und ändern Sie den Projektstatus in &quot;Aktuell&quot;.
 
 1. **Kreative:** Prüfen Sie Ihre E-Mails auf eine Einladung zum neu erstellten Frame.io-Projekt
 
 1. **Kreative:** Klicken Sie in der Einladungs-E-Mail auf die Schaltfläche &quot;Projekt beitreten&quot;, um dem Projekt Frame.io beizutreten, überprüfen Sie die Kreativbeschreibung innerhalb des Projekts und beginnen Sie mit der Inhaltserstellung in Ihrem gewünschten Creative Cloud-Tool.
 
-1. **Kreative:** Laden Sie die erstellten Assets in Frame.io hoch und fügen Sie sie zum verknüpften Workfront-Projekt (oder den zugewiesenen Frame-aktivierten Aufgaben) hinzu.
+1. **Kreative:** Laden Sie die erstellten Assets in Frame.io hoch und fügen Sie sie zum verknüpften Workfront-Projekt hinzu. <span class="preview">(oder zugewiesene Frame-aktivierte Aufgaben).</span>
 
 1. **Koordinatoren:** Suchen Sie in Workfront die verknüpften Frame.io-Assets in Ihrem Projekt und weisen Sie Überprüfer/Genehmiger zu (weitere Informationen zum Zuweisen von Überprüfungen/Genehmigern finden Sie unter [Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **Interessenträger:** Zeigen Sie in Workfront Ihre Genehmigungsanforderung in den Startseiten- oder Dokumentdetails an, überprüfen Sie das Dokument Frame Connect im Frame.io-Viewer und hinterlassen Sie dann einen Kommentar mit Feedback.
 
-1. **Koordinatoren:** Sehen Sie sich in Workfront die vom Verantwortlichen erstellten Kommentare im Abschnitt &quot;Aktualisierungen&quot;des Dokuments mit Frame.io an.
+1. <span class="preview">**Koordinatoren:** Sehen Sie sich in Workfront die vom Verantwortlichen erstellten Kommentare im Abschnitt &quot;Aktualisierungen&quot;des Dokuments mit Frame.io an.</span>
 
-1. **Interessenträger:** Entscheiden Sie im Frame.io-Viewer.
+1. <span class="preview">**Interessenträger:** Entscheiden Sie im Frame.io-Viewer.</span>
 
-1. **Kreative:** Beachten Sie in Frame.io die globale Genehmigungsentscheidung, die für Ihre Assets getroffen wurde.
+1. <span class="preview">**Kreative:** Beachten Sie in Frame.io die globale Genehmigungsentscheidung, die für Ihre Assets getroffen wurde.</span>
 
 1. **Kreative:** Wenden Sie in Frame.io die angeforderten Änderungen an, indem Sie die aktualisierte Version zum Versionsstapel des verbundenen Assets hinzufügen.
 
