@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos m
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 83249a555a71ea9626d5df53036144f991e81617
+source-git-commit: d2ebed0139b04bb7c42bbae8064b416229472fdf
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ### November 2023
 
+* [Workfront Fusion-Release-Aktivität: Woche vom 27. November 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 13. November 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
 
 
