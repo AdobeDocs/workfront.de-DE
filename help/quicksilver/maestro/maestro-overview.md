@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
      ![](assets/table-view-example.png)
 
-   * **Timeline-Ansicht**: Zeigt Datensätze mit mindestens zwei Datumsfeldern in einer chronologischen Zeitleiste an.
+   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Felder vom Typ Datum in einer chronologischen Zeitleiste aufweisen.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Anfragen senden |                               |                                  | ✓ |
 | Kreativbeschreibung |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| Kommentare zu Datensätzen hinzufügen |                               | ✓ |                 |
+| Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |
 
 ## Maestro-Release-Aktivität
 
