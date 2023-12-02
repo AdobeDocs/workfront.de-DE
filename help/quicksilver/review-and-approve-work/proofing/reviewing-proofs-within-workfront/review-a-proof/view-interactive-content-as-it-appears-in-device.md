@@ -6,9 +6,9 @@ description: Sie können eine Vorschau eines interaktiven Testversands auf versc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -54,15 +54,15 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
 * Im Web Proofing Viewer können Sie interaktive Inhalte so anzeigen, wie sie in den Auflösungen für die verschiedenen Geräte angezeigt werden. Der Web Proofing Viewer emuliert den Inhalt jedoch nicht mithilfe von Benutzeroberflächenspezifikationen auf diesen Geräten, wie z. B. Schaltflächenfarbe.
 
-   >[!NOTE]
-   >
-   >Ihr Workfront-Administrator kann benutzerdefinierte Geräte für Benutzer in Ihrem Unternehmen konfigurieren, wie unter Konfigurieren von benutzerdefinierten Geräten für interaktive Testsendungen im Artikel beschrieben.
+  >[!NOTE]
+  >
+  >Ihr Workfront-Administrator kann benutzerdefinierte Geräte für Benutzer in Ihrem Unternehmen konfigurieren, wie unter [Konfigurieren benutzerdefinierter Geräte für Testsendungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) im Artikel [Konfigurieren der Testversandeinstellungen für Ihre Organisation](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Anzeigen eines Testversands mit einer vordefinierten Geräte- oder Auflösungseinstellung
 
 1. Gehen Sie zur Dokumentliste, die den Testversand enthält, den Sie öffnen möchten.
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Offener Testversand**.
-1. Klicken **Responsive** unten im Testversand-Viewer.
+1. Klicks **Responsive** unten im Testversand-Viewer.
 
    ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
@@ -80,7 +80,7 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
 1. Gehen Sie zur Dokumentliste, die den Testversand enthält, den Sie öffnen möchten.
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Offener Testversand**.
-1. Klicken **Responsive** unten im Proofing-Viewer.
+1. Klicks **Responsive** unten im Proofing-Viewer.
 1. Geben Sie einen benutzerdefinierten **Responsive** auflösen.
 
    ![Typ_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
@@ -94,6 +94,6 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
    Die benutzerdefinierte Auflösung wird an den folgenden Stellen angezeigt:
 
    * Im **Auflösung** -Bedienfeld in der unteren Mitte des Viewers.\
-      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In allen Kommentaren fügen Überprüfer zum Testversand hinzu. Jeder Kommentar enthält die Bildschirmauflösung, die beim Erstellen des Kommentars durch den Validierer ausgewählt wurde.
