@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Im Startbereich (für Aufgaben und Probleme)
    * Über das Bedienfeld &quot;Zusammenfassung&quot;in einer Liste von Objekten oder aus einem Timesheet (für Aufgaben und Probleme)
 
-Die Informationen auf dieser Seite beschreiben, wie Sie Kommentare zu Workfront-Objekten erstellen können und wie Sie Projekte, Aufgaben und Probleme aktualisieren.
+Die Informationen auf dieser Seite beschreiben, wie Sie Kommentare zu Workfront-Objekten erstellen können und wie Sie Projekte, Aufgaben und Probleme aktualisieren, wenn Sie ihnen Kommentare hinzufügen.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md). Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals.
 
@@ -152,17 +154,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anfrage oder höher für Probleme und Dokumente; Überprüfung oder höher für alle anderen Objekte</p> </td> 
+   <td> <p>Anfrage oder höher für Probleme und Dokumente</p>
+   <p> Überprüfen oder höher für alle anderen Objekte</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
    <td> <p>Anzeigen oder Bearbeiten des Zugriffs für das Objekt, auf dem die Aktualisierung ausgeführt wird</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -175,14 +178,29 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Hinzufügen einer Aktualisierung zu einem Arbeitselement
 
+Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der verwendeten Version des Abschnitts Updates ab.
+
+Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
+
+* Projekte
+* Aufgaben
+* Probleme
+* Programme
+* Portfolios
+* Vorlagen
+* Vorlagenaufgaben
+* Benutzende
+* Arbeitszeit- tabellen
+* Teams
+* Ziele
+* Karten im Bereich der Karten
+* Wiederholungen
+
+### Hinzufügen einer Aktualisierung zu einem Arbeitselement im Abschnitt &quot;Legacy-Updates&quot;
+
 >[!IMPORTANT]
 >
 >Die Informationen auf dieser Seite beschreiben, wie Sie Projekte, Aufgaben und Probleme aktualisieren.
-
-
-Das Hinzufügen eines Updates zu einem Arbeitselement hängt von der verwendeten Version des Abschnitts Updates ab.
-
-### Hinzufügen einer Aktualisierung zu einem Arbeitselement im Abschnitt &quot;Legacy-Updates&quot;
 
 1. Gehen Sie zu dem Arbeitselement, für das Sie eine Aktualisierung bereitstellen möchten (z. B. ein Projekt, eine Aufgabe oder ein Problem).
 1. Klicken Sie auf **Updates** Abschnitt.

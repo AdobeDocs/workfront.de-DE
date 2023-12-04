@@ -1,52 +1,61 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Erste Schritte mit der Startseite
-description: Es gibt zwei Möglichkeiten, Ihre Arbeit im [!UICONTROL Startseite] -Bereich, entweder aus dem [!UICONTROL Arbeitsliste] oder den Kalender.
-author: Lisa
+title: Erste Schritte mit [!UICONTROL Startseite]
+description: Es gibt zwei Möglichkeiten, Ihre Arbeit im [!UICONTROL Startseite] -Bereich, entweder aus dem [!UICONTROL Arbeitsliste] oder [!UICONTROL Kalender].
+author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 1%
+source-wordcount: '1134'
+ht-degree: 0%
 
 ---
 
 # Erste Schritte mit [!UICONTROL Startseite]
 
-Es gibt zwei Möglichkeiten, Ihre Arbeit im [!UICONTROL Startseite] -Bereich, entweder aus dem [!UICONTROL Arbeitsliste] oder den Kalender.
+In diesem Artikel wird eine Übersicht über die aktuelle [!UICONTROL Startseite] Gebiet in [!DNL Adobe Workfront]. Informationen zur Arbeit in der neuen [!UICONTROL Startseite], siehe [Erste Schritte mit der neuen Startseite in Adobe Workfront](../new-home/get-started-with-new-home.md).
+
+Es gibt zwei Möglichkeiten, Ihre Arbeit in der aktuellen [!UICONTROL Startseite] Bereich:
+
+* Aus dem [!UICONTROL Arbeitsliste]
+* Aus dem [!UICONTROL Kalender].
 
 ## Auftragsliste
 
-Die [!UICONTROL Arbeitsliste] ermöglicht es Ihnen, alle zugewiesenen Aufgaben an einem Ort anzuzeigen:
+Sie können alle zugewiesenen Aufgaben an einem Ort im [!UICONTROL Arbeitsliste]:
 
 ![[!UICONTROL Arbeitsliste] Bedienfelder](assets/worklist-and-right-panel-home.png)
 
-A. Verwenden Sie das linke Bedienfeld, um die Ihnen zugewiesenen Aufgaben zu filtern, zu sortieren und auszuwählen.
+Überprüfen Sie die folgenden Abschnitte im aktuellen [!UICONTROL Startseite] -Bereich, wie im obigen Bild hervorgehoben:
 
-B. Nachdem Sie ein Arbeitselement im linken Bereich ausgewählt haben, verwenden Sie das rechte Bedienfeld, um mit benutzerdefinierten Feldern zu interagieren, Aktualisierungen vorzunehmen und die Protokollzeit zu ändern.
+* **A**: Verwenden Sie das linke Bedienfeld, um die Ihnen zugewiesenen Aufgaben zu filtern, zu sortieren und auszuwählen.
+
+* **B**: Nachdem Sie ein Arbeitselement im linken Bereich ausgewählt haben, verwenden Sie das rechte Bedienfeld, um mit benutzerdefinierten Feldern zu interagieren, Aktualisierungen vorzunehmen und die Protokollzeit zu ändern.
 
 Weitere Informationen zur Verwendung des [!UICONTROL Homepage-Arbeitsliste], siehe die folgenden Artikel:
 
-* [Elemente in der [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+* [Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Erstellen Sie Arbeitselemente aus dem [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
 ## Kalender
 
-Im Kalender können Sie Ihre Arbeit visualisieren, indem Sie anzeigen, wann Arbeitselemente fällig sind, und Ihnen so die Möglichkeit geben, die Zeit für die Fertigstellung zu blockieren:
+Sie können Ihre Arbeit visualisieren, indem Sie anzeigen, wann Arbeitselemente fällig sind, und Sie können die Zeit für ihre Fertigstellung blockieren, indem Sie Ihre Arbeit im [!UICONTROL Kalender] im [!UICONTROL Startseite] Bereich:
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-A. Verwenden Sie die [!UICONTROL Kalender] anzeigen, um eine visuelle Karte der Arbeit zu erstellen, die Sie abschließen müssen. Klicken Sie einfach auf und ziehen Sie Arbeitselemente aus dem [!UICONTROL Arbeitsliste] zum Kalender hinzu, um die Arbeitszeit zu blockieren.
+Überprüfen Sie die folgenden Abschnitte im aktuellen [!UICONTROL Startseite] -Bereich, wie im obigen Bild hervorgehoben:
 
-B. Verwenden Sie die Synchronisierungsoption des Kalenders, um sie mit Ihrer [!DNL Outlook] Kalender. Verwalten Sie Meetings und arbeiten Sie alle an einem Ort.
+* **A**: Verwenden Sie die [!UICONTROL Kalender] anzeigen, um eine visuelle Karte der Arbeit zu erstellen, die Sie abschließen müssen. Klicken Sie einfach auf und ziehen Sie Arbeitselemente aus dem [!UICONTROL Arbeitsliste] auf [!UICONTROL Kalender] um die Arbeitszeit zu blockieren.
 
-C. Verwenden Sie die [!UICONTROL Details] -Schaltfläche, um einen neuen rechten Bereich zu öffnen, in dem Sie weitere Informationen zum Arbeitselement anzeigen können.
+* **B**: Verwenden Sie die [!UICONTROL Kalender]Die Synchronisierungsoption &quot;Synchronisieren&quot;mit Ihrer [!DNL Outlook] Kalender. Verwalten Sie Meetings und arbeiten Sie alle an einem Ort.
 
-D. Verwenden Sie die Symbolleiste, um zu verfolgen, wann Ihnen zugewiesene Arbeit fällig ist.
+* **C**: Verwenden Sie die [!UICONTROL Details] -Schaltfläche, um einen neuen rechten Bereich zu öffnen, in dem Sie weitere Informationen zum Arbeitselement anzeigen können.
 
-Weitere Informationen zur Verwendung des Home-Kalenders finden Sie unter [Verwenden Sie die [!UICONTROL Home Calendar] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **D**: Verwenden Sie die Symbolleiste, um zu verfolgen, wann Ihnen zugewiesene Arbeit fällig ist.
+
+Weitere Informationen zur Verwendung des Home-Kalenders finden Sie unter [Verwenden Sie die [!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 ## Arbeit suchen
 
@@ -56,17 +65,17 @@ Die [!UICONTROL Startseite] ist Ihre zentrale Anlaufstelle, um Aufgaben, Problem
 >
 >Die Filter- und Sortieroptionen werden im Browser gespeichert. Wenn Sie durchgängig denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die Filter und die Sortierung nicht, aber wenn Sie Browser oder Computer wechseln, werden die Filter und die Sortierung unterschiedlich sein.
 
-### Gruppieren Sie ähnliche Arbeitselemente zusammen mit dem[!UICONTROL Gruppieren nach]&#39; option
+### Gruppieren Sie ähnliche Arbeitselemente zusammen mit &quot;&quot;[!UICONTROL Gruppieren nach]&#39; option
 
 Die [!UICONTROL Sortieren nach] -Option können Sie ähnliche Elemente in der Arbeitsliste gruppieren. Sie können nach Folgendem sortieren:
 
 * [!UICONTROL Geplanter Abschluss]
 * [!UICONTROL Geplanter Start]
-* [!UICONTROL Verpflichtungsdatum]
+* [!UICONTROL Datum der Übermittlung]
 * [!UICONTROL Projekt]
 * [!UICONTROL Meine Priorität]
 
-Weitere Informationen zur Verwendung von Gruppierungen finden Sie unter [Elemente in der [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Weitere Informationen zur Verwendung von Gruppierungen finden Sie unter [Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
@@ -78,17 +87,17 @@ Die folgenden Beispiele zeigen, wie Sie Elemente filtern können, die Sie auf de
 
 * Filtern nach Elementtyp und -status.
 
-   Wenn Sie beispielsweise alle Aufgaben anzeigen möchten, können Sie die [!UICONTROL Aufgaben] Filter. Wenn Sie genauer sein möchten und nur Aufgaben anzeigen möchten, die für die Arbeit bereit sind, wählen Sie die [!UICONTROL Bereit zum Start] Filter unter [!UICONTROL Aufgaben] Filter.
+  Wenn Sie beispielsweise alle Aufgaben anzeigen möchten, können Sie die [!UICONTROL Aufgaben] Filter. Wenn Sie genauer sein möchten und nur Aufgaben anzeigen möchten, die für die Arbeit bereit sind, wählen Sie die [!UICONTROL Bereit zum Start] Filter unter [!UICONTROL Aufgaben] Filter.
 
 * Filtern Sie nur nach Elementtyp.
 
-   Sie können beispielsweise [!UICONTROL Probleme] um alle Probleme in allen Status anzuzeigen ([!UICONTROL Arbeiten an] oder [!UICONTROL Angefordert]) oder [!UICONTROL Genehmigungen] , um alle Arbeitselemente, Zugriffsanfragen, Zeitpläne, Dokumente und Testversandgenehmigungen anzuzeigen.
+  Sie können beispielsweise [!UICONTROL Probleme] um alle Probleme in allen Status anzuzeigen ([!UICONTROL Arbeiten an] oder [!UICONTROL Angefordert]) oder [!UICONTROL Genehmigungen] , um alle Arbeitselemente, Zugriffsanfragen, Zeitpläne, Dokumente und Testversandgenehmigungen anzuzeigen.
 
 * Nur nach Status filtern.
 
-   Sie können beispielsweise die [!UICONTROL Abgeschlossen] filtern, um abgeschlossene Aufgaben und Probleme anzuzeigen. Dazu gehören persönliche Aufgaben, jedoch keine Genehmigungen.
+  Sie können beispielsweise die [!UICONTROL Abgeschlossen] filtern, um abgeschlossene Aufgaben und Probleme anzuzeigen. Dazu gehören persönliche Aufgaben, jedoch keine Genehmigungen.
 
-Weitere Informationen zur Verwendung von Filtern finden Sie unter [Elemente in der [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Weitere Informationen zur Verwendung von Filtern finden Sie unter [Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
@@ -150,7 +159,7 @@ Schnelle und effiziente Kommunikation mit Kollegen aus der [!UICONTROL Startseit
 
 * Aktualisieren der [!UICONTROL Datum der Übermittlung]
 
-   <!--
+  <!--
   <note type="note">
   This is the only place you can update the Commit Date in Home.
   <br>
