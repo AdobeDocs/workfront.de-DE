@@ -6,9 +6,9 @@ description: Die Finanzmittel werden für ein Projekt berechnet, da Änderungen 
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -60,7 +60,7 @@ Wenn sich die Rate eines Benutzers oder einer Rolle während der Lebensdauer ein
 
 >[!CAUTION]
 >
->Vor der manuellen Neuberechnung der Finanzen für ein bestimmtes Projekt möchten Sie möglicherweise alle Finanzdaten beibehalten, die bereits zu einem früheren Zeitpunkt berechnet wurden. Es wird empfohlen, die Option Finanzen neu berechnen nur zu verwenden, wenn Sie sicher sind, dass Sie keine Änderungen an vorhandenen Informationen vornehmen, oder nur, wenn solche Änderungen gewünscht werden.
+>Vor der manuellen Neuberechnung der Finanzen für ein bestimmtes Projekt möchten Sie möglicherweise alle Finanzdaten beibehalten, die bereits zu einem früheren Zeitpunkt berechnet wurden. Es wird empfohlen, die Option &quot;Finanzen neu berechnen&quot;nur zu verwenden, wenn Sie sicher sind, dass Sie keine Änderungen an vorhandenen Informationen vornehmen, oder nur, wenn solche Änderungen gewünscht werden.
 
 ## Finanzielle Daten für Aufgaben mit vorhandenen Stunden beibehalten {#preserve-financial-data-for-tasks-with-existing-hours}
 
@@ -78,16 +78,16 @@ Weitere Informationen zu Abrechnungssätzen und -umsätzen finden Sie im Artikel
 Die Umsatzraten können sich auf folgenden Ebenen ändern:
 
 * Die Systemebene (für Aufgabenrollen)\
-   Weitere Informationen zum Erstellen von Stellenrollen mit Abrechnungsraten auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Weitere Informationen zum Erstellen von Stellenrollen mit Abrechnungsraten auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Benutzerebene\
-   Weitere Informationen zum Ändern der Informationen zur Abrechnungsrate für Benutzer finden Sie im Artikel [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Ändern der Informationen zur Abrechnungsrate für Benutzer finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Auf Unternehmensebene (für Jobrollen)\
-   Weitere Informationen finden Sie unter [Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  Weitere Informationen finden Sie unter [Außerkraftsetzen der Abrechnungssätze für Stellenangebote auf Unternehmensebene](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Die Projektebene (für Auftragsrollen)\
-   Weitere Informationen zum Überschreiben der Rollenquoten bei Arbeitsplätzen auf Projektebene finden Sie im Artikel [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Weitere Informationen zum Überschreiben der Rollenquoten bei Arbeitsplätzen auf Projektebene finden Sie im Artikel [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Beispielsweise ändert sich der Abrechnungskurs eines Benutzers im Laufe eines Projekts von 50 auf 75 USD pro Stunde und Sie möchten, dass alle vorhandenen Daten zum alten Preis (50 USD pro Stunde) berechnet bleiben. Bei der Neuberechnung der Projektfinanzierungen werden die Einnahmen jedoch für Aufgaben, die bereits über vorhandene Finanzdaten verfügen, aktualisiert, um die neue Abrechnungsrate (75 USD pro Stunde) widerzuspiegeln.
 
@@ -100,7 +100,7 @@ Wenn sich die Abrechnungssätze auf einer der oben genannten Ebenen ändern, kö
 
 Wenn Sie die Projektfinanzierungen nicht neu berechnen oder die Stunden, die in einem abrechnungsfähigen Datensatz angemeldet sind, sperren, werden die Stunden, die nach den Ratenänderungen protokolliert werden, mit dem neuen Satz berechnet und die Stunden, die vor den Kostenratenänderungen protokolliert wurden, bleiben mit dem alten Satz berechnet.
 
-Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Beibehalten des Projektumsatzes durch Verwendung mehrerer Außerkraftsetzungen der Abrechnungsrate {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
@@ -117,12 +117,12 @@ Weitere Informationen zur Verwendung von Überschreibungen mehrerer Abrechnungsr
 Die Kostensätze können sich auf folgenden Ebenen ändern:
 
 * Systemebene (für Aufgabenrollen)\
-   Weitere Informationen zum Erstellen von Arbeitsplatzrollen mit Kostensätzen auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Weitere Informationen zum Erstellen von Arbeitsplatzrollen mit Kostensätzen auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Benutzerebene\
-   Weitere Informationen zum Ändern der Kostensatzinformationen für Benutzer finden Sie im Artikel [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Ändern der Kostensatzinformationen für Benutzer finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Wenn sich die Abrechnungssätze auf einer der oben genannten Ebenen ändern, können Sie die bereits für das Projekt berechneten vorhandenen Kosten beibehalten, indem Sie die im Projekt aufgezeichnete und unter Verwendung des alten Abrechnungssatzes berechnete Zeit in einen Abrechnungsdatensatz mit dem Status Abgerechnet sperren. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Wenn sich die Abrechnungssätze auf einer der oben genannten Ebenen ändern, können Sie die bereits für das Projekt berechneten vorhandenen Kosten beibehalten, indem Sie die im Projekt aufgezeichnete und unter Verwendung des alten Abrechnungssatzes berechnete Zeit in einen Abrechnungsdatensatz mit dem Status Abgerechnet sperren. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Sie können auch die manuelle Option Finanzen neu berechnen vermeiden, wenn Sie keinen Rechnungsdatensatz erstellen möchten, wie im Abschnitt beschrieben [Manuelles Neuberechnen der Finanzen für ein Projekt](#manually-recalculate-finances-for-a-project) in diesem Artikel.
 
@@ -138,9 +138,9 @@ Wenn sich Ihre Beträge während der Laufzeit eines Projekts ändern und Sie mö
 
 Sie können die Projektfinanzierung in Workfront von der Projektseite aus oder über eine Projektliste oder einen Bericht neu berechnen.
 
-Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie unter [Manuelles Neuberechnen von Finanzierungen als Stapel im Feld &quot;Projekte bearbeiten&quot;](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) in diesem Artikel.
+Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie unter [Manuelle Neuberechnung von Gesamtfinanzierungen](#manually-recalculate-finances-in-bulk) in diesem Artikel beschrieben.
 
-1. Wechseln Sie zu dem Projekt, in dem Sie die Finanzen neu berechnen möchten, und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen
+1. Wechseln Sie zu dem Projekt, in dem Sie die Finanzen neu berechnen möchten, und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -152,16 +152,16 @@ Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten.
 
    >[!TIP]
    >
-   >Je nach der Komplexität Ihrer Projekte empfehlen wir, bei der Neuberechnung ihrer Finanzen keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl von benutzerdefinierten Feldern.
+   >Je nach der Komplexität Ihrer Projekte empfehlen wir, bei der Neuberechnung ihrer Finanzen keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder.
 
-1. Klicken **Finanzen neu berechnen**.
+1. Klicks **Finanzen neu berechnen**.
 
    Alle geplanten Kosten und Einnahmen des Projekts werden mit neuen Informationen berechnet.
 
-   Sie sollten oben im Browser eine Bestätigung erhalten, dass die Finanzen des Projekts erfolgreich neu berechnet wurden.\
-   Bestehende Kostenwerte und einige Umsatzwerte, die nicht gesperrt wurden, werden entsprechend den neuen Raten aktualisiert.
+   Sie sollten oben im Browser eine Bestätigung erhalten, dass die Finanzen des Projekts erfolgreich neu berechnet wurden.
+Bestehende Kostenwerte und einige Umsatzwerte, die nicht gesperrt wurden, werden entsprechend den neuen Raten aktualisiert.
 
-## Manuelles Neuberechnen von Finanzierungen als Stapel im Feld &quot;Projekte bearbeiten&quot; {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## Manuelle Neuberechnung von Gesamtfinanzierungen{#manually-recalculate-finances-in-bulk}
 
 Sie können die Finanzen mehrerer Projekte manuell neu berechnen, indem Sie sie stapelweise bearbeiten. Dadurch werden die Einnahmen aus den Projekten rückwirkend neu berechnet.
 
@@ -169,18 +169,22 @@ Sie können die Finanzen mehrerer Projekte manuell neu berechnen, indem Sie sie 
 >
 >Sie können verhindern, dass die Umsatzwerte aktualisiert werden, um die neuen Zinssätze widerzuspiegeln, wenn Sie das Finanzwesen manuell neu berechnen, indem Sie die Schritte im Abschnitt befolgen [Finanzielle Daten für Aufgaben mit vorhandenen Stunden beibehalten](#preserve-financial-data-for-tasks-with-existing-hours) dieses Artikels. Die Kostenwerte werden immer aktualisiert, um die neuen Zinssätze widerzuspiegeln, wenn Sie die Projektfinanzierung manuell neu berechnen.
 
-Manuelle Neuberechnung der Finanzierung mehrerer Projekte:
+So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 
 1. Gehen Sie zu einer Projektliste.
-1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie auf **Bearbeiten**.
+1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/qs-more-icon-on-an-object.png) oben in der Liste.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenbearbeitung keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl von benutzerdefinierten Feldern.
+   >Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenbearbeitung keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder.
 
-1. Klicken **Einstellungen**, wählen Sie **Neuberechnung von Kosten und Einnahmen**.
+1. Klicks **Finanzen neu berechnen**.
 
-1. Klicken **Änderungen speichern**.
+   Alle für die ausgewählten Projekte geplanten Kosten und Einnahmen werden mit neuen Informationen neu berechnet.
+
+   Sie sollten oben im Browser eine Bestätigung erhalten, dass die Finanzierung der Projekte erfolgreich neu berechnet wurde.
 
 ## Maßnahmen, die eine automatische Neuberechnung der Finanzen Trigger haben
 
