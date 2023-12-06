@@ -7,9 +7,9 @@ description: Die Niederschlagsvisualisierung zeigt den Niedergang eines bestimmt
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,30 @@ ht-degree: 0%
 
 Die Niederschlagsvisualisierung zeigt den Niedergang eines bestimmten Projekts im Zeitverlauf und hilft Ihnen, die Beziehung zwischen Projektbedingung, Geschwindigkeit und verbleibenden Stunden - oder Tagen zu verstehen.
 
-![](assets/burndown-350x112.png)
+![Beispiel für einen optimierten Analyseaufbau](assets/burndown120623.png)
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
-   <td> <p>Unternehmen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td>
+      <p>Neuer Plan: Beliebig</p>
+      <p>oder</p>
+      <p>Aktueller Plan: Business oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td>
+      <p>Neuer Plan: leicht oder höher</p>
+      <p>oder</p>
+      <p>Aktueller Plan: Überprüfung oder höher</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -42,7 +49,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,27 +58,27 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
 
 ## Grundlegendes zur Aufschlüsselungsvisualisierung
 
-Die durchgehende blaue Linie zeigt die geplante Geschwindigkeit vom Startdatum bis zum geplanten Abschlussdatum an. Diese Zeile wird angepasst, wenn die Arbeit hinzugefügt, entfernt oder aktualisiert wird, und sie wird in eine gestrichelte vertikale Linie geändert, wenn das Projekt das geplante Abschlussdatum erreicht.
+Die durchgehende blaue Linie zeigt die geplante Geschwindigkeit vom Startdatum bis zum geplanten Abschlussdatum an. Diese Zeile wird angepasst, wenn die Arbeit hinzugefügt, entfernt oder aktualisiert wird, und sie wird in eine gestrichelte vertikale Linie umgewandelt, wenn das Projekt das geplante Abschlussdatum erreicht.
 
-![](assets/burndown-planned-line.png)
+![Geplante Geschwindigkeit](assets/burndown-planned-line.png)
 
 Die tatsächliche Zeile zeigt die Anzahl der Stunden - oder Tage - an, die im Zeitverlauf für das Projekt verbracht wurden. Die Farbe dieser Zeile zeigt die tägliche Bedingung des Projekts an:
 
-* **Grün**: Das Projekt ist auf Zielebene.
+* **Grün**: Das Projekt wurde ausgewählt.
 
-   ![](assets/burndown-green.png)
+  ![Zielgruppe](assets/burndown-green.png)
 
-* **Orange**: Das Projekt ist gefährdet.
+* **Orange**: Das Projekt ist in Gefahr.
 
-   ![](assets/burndown-orange.png)
+  ![Risiko](assets/burndown-orange.png)
 
 * **Rot**: Das Projekt ist in Schwierigkeiten.
 
-   ![](assets/burndown-red.png)
+  ![In Schwierigkeiten](assets/burndown-red.png)
 
 Weitere Informationen zu diesen Projektbedingungen finden Sie unter [Übersicht über Projektbedingung und Bedingungstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -82,17 +89,18 @@ Unter der X-Achse der Visualisierung können Sie weitere Informationen darüber 
 Wenn Sie alle diese Informationen in der Aufschlüsselungsvisualisierung anzeigen, können Sie Folgendes feststellen:
 
 * Die Gesundheit des einzelnen Projekts im Zeitverlauf
-* Inwiefern die eingetretenen (oder ungeplanten) Probleme die geplante Arbeit beeinträchtigten.
-* Welche Ereignisse haben Ihr Projekt über das ursprüngliche Abschlussdatum hinaus verlängert.
+* Auswirkungen der eingetretenen (oder ungeplanten) Arbeiten auf die geplante Arbeit
+* Welche Ereignisse haben Ihr Projekt nach dem ursprünglichen Abschlussdatum erweitert?
 
 Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Ansicht der Niederschlagsvisualisierung
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+{{step1-to-analytics}}
+
 1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsangaben auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -104,9 +112,9 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. (Optional) Wenn Sie einen Datumsbereich vergrößern möchten, wählen Sie einen Punkt auf der Visualisierung für den Anfang Ihres Datumsbereichs aus und ziehen Sie ihn an das Ende Ihres Datumsbereichs.
 
-   Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und es wird ein Zeitrahmen-Filter erstellt.
+   Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und es wird automatisch ein Zeitrahmen-Filter erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. Klicken Sie in der Visualisierung Flugplan oder Projekt-Treemap auf ein Projekt, um weitere Informationen anzuzeigen.
 
@@ -116,12 +124,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >
    >Weitere Informationen zu diesen anderen Visualisierungen finden Sie unter:
    >
-   >   
-   >   
    >   * [Anzeigen der Visualisierung des Flugplans in der erweiterten Analyse](../enhanced-analytics/flight-plan-overview.md)
    >   * [Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics](../enhanced-analytics/project-treemap-overview.md)
    >   * [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md)
-
+   >
 
 1. (Optional) Ändern Sie die Ansicht von den geplanten Stunden in **duration**.
 
@@ -130,23 +136,23 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >[!NOTE]
    >
    >Auswählen **duration** ändert alle Stundeninformationen in Tage.\
-   >![](assets/duration-burndown-350x112.png)\
-   >Weitere Informationen zur Dauer im Bereich &quot;Erweiterte Analyse&quot;finden Sie im Abschnitt &quot;Ansicht der Dauer&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+   >![Duration-Burndown](assets/duration-burndown-350x112.png)\
+   >Weitere Informationen zur Dauer im Bereich &quot;Erweiterte Analyse&quot;finden Sie im Abschnitt &quot;Ansicht der Dauer&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Klicken Sie auf einen beliebigen Punkt im Liniendiagramm.
 
-   Unten wird das genaue Datum angezeigt und weitere Informationen zu Aufgaben und Stunden - oder Tagen - für den ausgewählten Tag werden angezeigt.
+   Unter dem Diagramm wird das genaue Datum angezeigt und weitere Informationen zu Aufgaben und Stunden - oder Tagen - für den ausgewählten Tag werden angezeigt.
 
-   ![](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Details zur Verteilung](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Wenn die tatsächliche Geschwindigkeit eine flache Linie ist, die entlang der x-Achse verläuft (inline mit 0 Stunden oder 0 Tagen) der Visualisierung, bedeutet dies, dass dem Projekt keine geplanten Stunden oder Tage hinzugefügt wurden.\
    >Wenn die tatsächliche Geschwindigkeit eine flache Linie über der x-Achse ist (inline mit einer Anzahl von Stunden oder Tagen), die nie zurückgeht, bedeutet dies, dass innerhalb des gefilterten Zeitraums keine Aufgaben abgeschlossen wurden.
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Export** icon ![](assets/export.png)Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Export** icon ![Symbol &quot;Exportieren&quot;](assets/export.png)in der oberen rechten Ecke der Visualisierung und wählen Sie das Exportformat aus:
 
-   * **Diagramm (PNG)**
-   * **Datentabelle (XSLX)**
+   * Diagramm (PNG)
+   * Datentabelle (XSLX)
 
-1. (Optional) Um Details über den Fortschritt von Aufgaben im ausgewählten Projekt anzuzeigen, sehen Sie sich die Aufgaben in der Flugvisualisierung an, die unter der Aufschlüsselungsvisualisierung angezeigt wird.
+1. (Optional) Um Details über den Fortschritt von Aufgaben im ausgewählten Projekt anzuzeigen, sehen Sie sich die Aufgaben in der Flugvisualisierung an, die unter der Aufschlüsselungsvisualisierung angezeigt wird. Weitere Informationen finden Sie unter [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
