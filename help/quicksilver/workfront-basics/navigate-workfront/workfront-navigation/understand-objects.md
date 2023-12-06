@@ -1,18 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Objekte in [!DNL Adobe Workfront]
-description: Objekte in [!DNL Adobe Workfront]
+title: "[!DNL Adobe Workfront] Objektübersicht"
+description: "Die Informationen, die Sie unter [!DNL Adobe Workfront] wird durch Objekte dargestellt, die in der [!DNL Workfront] Datenbank. Die Objekte sind das, was die Informationen in [!DNL Workfront]. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel."
 feature: Get Started with Workfront
+author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: 0d167d78477b746d35209b315f0a7903b7269d1b
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 7%
+source-wordcount: '2306'
+ht-degree: 1%
 
 ---
 
-# Objekte in [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] Objektübersicht
 
 <!--
 <***Linked to several articles, do not remove/ change. 
@@ -45,8 +46,8 @@ Im Folgenden finden Sie einige der am häufigsten verwendeten Objekte in [!DNL W
 | [!UICONTROL Berichte] | [!UICONTROL Dashboards] |  |
 | [!UICONTROL Gruppen] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Teams] |  | [!UICONTROL Benutzende] |
-| [!UICONTROL Benutzende] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen] | [!UICONTROL Aufgabengebiete] |
-| [!UICONTROL Firmen] |  | [!UICONTROL Benutzende] |
+| [!UICONTROL Benutzende] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen] | [!UICONTROL Vorgangsrollen] |
+| [!UICONTROL Unternehmen] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Dokumente] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Projekte], [!UICONTROL Portfolios], [!UICONTROL Programme], [!UICONTROL Benutzer] |  |
 | [!UICONTROL Pläne]* |  | [!UICONTROL Initiativen] |
 | [!DNL Goals]* |  | [!UICONTROL Ergebnisse], [!UICONTROL Tätigkeiten] |
@@ -60,11 +61,13 @@ Eine vollständige Liste der Objekte in [!DNL Workfront], siehe [API-Explorer](.
 
 ## Objektnamen anpassen
 
-Als [!DNL Workfront] Administratoren können die Objektnamen in [!DNL Workfront] durch Verwendung von  [!UICONTROL Layout-Vorlage].
+Als [!DNL Workfront] Administratoren können die Objektnamen in [!DNL Workfront] durch Verwendung von [!UICONTROL Layout-Vorlage].
 
 Weitere Informationen zum Anpassen von Objektnamen mithilfe eines  [!UICONTROL Layout-Vorlage], siehe [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Nachdem Sie eine Layoutvorlage angepasst und sie Benutzern zugewiesen haben, sehen diese Benutzer die benutzerdefinierten Namen für die Objekte. Die Benutzer, die der Layoutvorlage zugewiesen wurden, sehen die Standardnamen für die Objekte nirgendwo in der Webanwendung mehr.
+
+Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als &quot;Interaktion&quot;bezeichnet wird, können Sie den Namen &quot;Interaktion&quot;ersetzen[!UICONTROL Projekt]&quot; mit &quot;Interaktion&quot;ein. Ihre [!DNL Workfront] -Benutzeroberfläche zeigt &quot;Interaktion&quot;anstelle von &quot;[!UICONTROL Projekt]&quot; überall, wo der Name &quot;[!UICONTROL Projekt]&quot; angezeigt.
 
 >[!NOTE]
 >
@@ -100,7 +103,6 @@ Als [!DNL Workfront] -Administrator können Sie die Namen der folgenden Objekte 
   **[!UICONTROL Initiativen], [!UICONTROL Szenarien], und [!UICONTROL Pläne] sind nur verfügbar, wenn Ihr Unternehmen [!DNL Workfront Scenario Planner]. Informationen zum [!DNL Scenario Planner], siehe [Erste Schritte mit [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 
-Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als &quot;Interaktion&quot;bezeichnet wird, können Sie den Namen &quot;Interaktion&quot;ersetzen[!UICONTROL Projekt]&quot; mit &quot;Interaktion&quot;ein. Ihre [!DNL Workfront] -Benutzeroberfläche zeigt &quot;Interaktion&quot;anstelle von &quot;[!UICONTROL Projekt]&quot; überall, wo der Name &quot;[!UICONTROL Projekt]&quot; angezeigt.
 
 Weitere Informationen zum Anpassen von Objektnamen finden Sie unter  [!UICONTROL Layout-Vorlagen], siehe [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -138,7 +140,7 @@ Beachten Sie Folgendes beim Anpassen von Objektnamen in [!DNL Workfront]:
 
 * Sie können stilistische oder grammatikalische Fehler in Systemanzeigen feststellen. Wenn Sie beispielsweise &quot;[!UICONTROL Problem]&#39; auf &#39;Request&#39; und Sie sehen irgendwo im System die Phrase &#39;An request&#39;, dies funktioniert wie beabsichtigt und sollte nicht als Fehler betrachtet werden.
 * Ihre benutzerdefinierten Namen für die Objekte können nicht übersetzt werden. Nur die [!DNL Workfront] Standardnamen können in die unterstützten Sprachen übersetzt werden. Weitere Informationen zu Sprachen, die in unterstützt werden [!DNL Workfront], siehe [Unterstützte Sprachen in [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md). Die benutzerdefinierten Objektnamenfelder unterstützen Fremdzeichen, sodass Sie Terminologie in jeder Sprache eingeben können.
-* Beim Anpassen von Objektnamen mithilfe einer  [!UICONTROL Layout-Vorlage], empfehlen wir Ihnen, Ihre  [!UICONTROL Layout-Vorlagen] um Ihre Geschäftseinheiten (Teams oder Gruppen).\
+* Beim Anpassen von Objektnamen mithilfe einer  [!UICONTROL Layout-Vorlage], empfehlen wir Ihnen, Ihre  [!UICONTROL Layout-Vorlagen] basierend auf Ihren Geschäftseinheiten (Teams oder Gruppen).\
    Es wird empfohlen, Namen zu verwenden, die von den Benutzern dieser Geschäftsbereiche deutlich verstanden werden, um Verwirrung zu vermeiden.
 * E-Mail-Benachrichtigungen und zugestellte Berichte enthalten immer Objektnamen, die durch die  [!UICONTROL Layout-Vorlage] des Benutzers, der die E-Mail generiert. Ihre Benutzer sollten darauf vorbereitet sein, in ihren E-Mails Objektnamen anzuzeigen, die nicht mit ihrer Gruppe oder ihrem Team verbunden sind, wenn sie E-Mail-Benachrichtigungen von Benutzern in anderen Teams und Gruppen erhalten.\
    Als [!DNL Workfront] Administratoren sollten die Benutzer auf die Symbole hinweisen, die mit den einzelnen Objekten verknüpft sind. Die Symbole bleiben zwischen verschiedenen Objektnamen konsistent und entsprechen dem Standardobjekt, wie es in der Datenbank angezeigt wird. Für eine Liste aller [!DNL Workfront] mit Objekten verknüpfte Symbole, siehe [Objektsymbole](#object-icons).
@@ -161,14 +163,14 @@ Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in W
 | [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL Ziel] | ![](assets/nwe-goal-icon.png) | ms |
 | [!UICONTROL Gruppe] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Problem] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Aufgabengebiet] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Problem] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ms |
+| [!UICONTROL Auftragsrolle] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Programm] | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Projekt] | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ms |
+| [!UICONTROL Programm] | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png) | ms |
+| [!UICONTROL Projekt] | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png) | ms |
 | [!UICONTROL Bericht] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Aufgabe] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Aufgabe] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ms |
 | [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Vorlage] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
 
@@ -184,7 +186,7 @@ Sie können alle Objekte durchsuchen, die in [!DNL Workfront]oder Sie können ei
 
 Es sind nicht alle Objekte durchsuchbar in [!DNL Workfront]. Sie können grundlegende und erweiterte Suchen nach den folgenden Objekten in [!DNL Workfront]:
 
-| **Objekt** | **Einfache Suche** | **Erweiterte Suche** |
+| **Objekt** | **Grundlegende Suche** | **Erweiterte Suche** |
 |---|---|---|
 | [!UICONTROL Projekte] | ✓ | ✓ |
 | [!UICONTROL Aufgaben] | ✓ | ✓ |
@@ -196,7 +198,7 @@ Es sind nicht alle Objekte durchsuchbar in [!DNL Workfront]. Sie können grundle
 | [!UICONTROL Portfolios] | ✓ | ✓ |
 | [!UICONTROL Programme] | ✓ | ✓ |
 | [!UICONTROL Dashboards] | ✓ | ✓ |
-| [!UICONTROL Firmen] | ✓ | ✓ |
+| [!UICONTROL Unternehmen] | ✓ | ✓ |
 | [!UICONTROL Hinweise] (oder [!UICONTROL Updates]) | ✓ |  |
 
 Weitere Informationen zum Ausführen grundlegender und erweiterter Suchvorgänge finden Sie unter [!DNL Workfront], siehe [Suche [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
@@ -204,8 +206,6 @@ Weitere Informationen zum Ausführen grundlegender und erweiterter Suchvorgänge
 ## Berichte zu Objekten
 
 Das Verständnis der Hierarchie und Interdependenz von Objekten ist äußerst wichtig, bevor Sie mit der Erstellung von Berichten in [!DNL Workfront]. Berichte sind objektspezifisch. Sie müssen das richtige Objekt für Ihren Bericht auswählen, bevor Sie die gewünschten Daten anzeigen können.
-
-Je nachdem, welches Objekt Sie für den Bericht ausgewählt haben, können Sie nur auf die Objekte zugreifen, die direkt mit dem Objekt des Berichts verknüpft sind.
 
 >[!IMPORTANT]
 >
@@ -215,88 +215,72 @@ Je nachdem, welches Objekt Sie für den Bericht ausgewählt haben, können Sie n
 
 >[!NOTE]
 >
->Wenn Sie die Namen Ihrer Objekte mithilfe einer Layoutvorlage angepasst haben, wurden auch die Namen des Objekts in ReportBuilder angepasst. Stellen Sie sicher, dass Sie wissen, welche Objekte angepasst wurden, und suchen Sie im ReportBuilder nach dem angepassten Namen. Weitere Informationen darüber, welche Objekte benutzerdefinierte Namen haben können in [!DNL Workfront], siehe *[Objektnamen, die mithilfe einer  [!UICONTROL Layout-Vorlage]](#object-names-that-can-be-customized-using-a-layout-template).*
->Bei der Verwendung des Textmodus in Ihren Berichten sind die Namen der Objekte in Textmodusausdrücken die Standardnamen in [!DNL Workfront]und nicht die angepassten Objektnamen. Weitere Informationen zur Verwendung des Textmodus in Berichten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+> * Wenn Sie die Namen Ihrer Objekte mithilfe einer Layoutvorlage angepasst haben, wurden auch die Namen des Objekts in ReportBuilder angepasst. Stellen Sie sicher, dass Sie wissen, welche Objekte angepasst wurden, und suchen Sie im ReportBuilder nach dem angepassten Namen. Weitere Informationen darüber, welche Objekte benutzerdefinierte Namen haben können in [!DNL Workfront], siehe [Objektnamen, die mithilfe einer  [!UICONTROL Layout-Vorlage]](#object-names-that-can-be-customized-using-a-layout-template) in diesem Artikel.
+> * Bei der Verwendung des Textmodus in Ihren Berichten sind die Namen der Objekte in Textmodusausdrücken die Standardnamen in [!DNL Workfront]und nicht die angepassten Objektnamen. Weitere Informationen zur Verwendung des Textmodus in Berichten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
 Weitere Informationen über unsere API finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichterstellung im [!DNL Workfront] Webanwendung:
+### Für Berichte verfügbare Objekte
+
+Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichterstellung im [!DNL Workfront] Webanwendung. Eingezogene Aufzählungspunkte geben weitere Informationen zum Objekt und stellen keine zusätzlichen Objekte dar.
 
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
 * [!UICONTROL Stunde]
 * [!UICONTROL Problem]
-* [!UICONTROL Benutzerin oder Benutzer]
-* [!UICONTROL Zugriffsebene]
-* [!UICONTROL Genehmigung]
-* [!UICONTROL Genehmigungsprozess]
+* [!UICONTROL Benutzer]
+* [!UICONTROL Zugriff] Ebene
+* [!UICONTROL Validierung]
+* [!UICONTROL Validierungsprozess]
 * [!UICONTROL Zuweisung]
-<!--this is no longer available: * [!UICONTROL Backlog Work Item]\
-   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).-->
-
-* [!UICONTROL Ausgangsbasis]
+* [!UICONTROL Grundlinie]
 * [!UICONTROL Baseline-Aufgabe]
-* [!UICONTROL Rechnungsnachweis]
+* [!UICONTROL Rechnungsdatensatz]
 * [!UICONTROL Budgetierte Stunde]
-
-  Dies ist die [!UICONTROL Budgetierte Stunden], wie sie in älteren, veralteten Tools zur Ressourcenverwaltung angezeigt werden.
-
-  Der &quot;Bud. Stundenfeld im Feld [!UICONTROL Budgetierte Stunde] Der Bericht bezieht sich auf die Stunden, die für Stellenrollen in der [!UICONTROL Ressourcenplaner]. Weitere Informationen finden Sie unter [Grundlegendes [!UICONTROL Geplante Arbeitskosten] und [!UICONTROL Budgetierte Stunden] für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+   * Dies ist die [!UICONTROL Budgetierte Stunden], wie sie in älteren, veralteten Tools zur Ressourcenverwaltung angezeigt werden.
+   * Der &quot;Bud. Stundenfeld im Feld [!UICONTROL Budgetierte Stunde] Der Bericht bezieht sich auf die Stunden, die für Stellenrollen in der [!UICONTROL Ressourcenplaner]. Weitere Informationen finden Sie unter [Grundlegendes [!UICONTROL Geplante Arbeitskosten] und [!UICONTROL Budgetierte Stunden] für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Kalenderereignis]
 * [!UICONTROL Firma]
 * [!UICONTROL Benutzerdefiniertes Formular]
 * [!UICONTROL Dashboard]
 * [!UICONTROL Dokument]
-* [!UICONTROL Dokumentengenehmigung]
-* [!UICONTROL Dokumentversion]\
-   Sie können Informationen zur Version des Dokuments, zum Dokument, mit dem die Version verknüpft ist, zum Ersteller der Version und zum Benutzer, der den Testversand in der Dokumentversion erstellt hat, sofern vorhanden (Testversand-Ersteller) anzeigen.
+* [!UICONTROL Dokumentvalidierung]
+* [!UICONTROL Dokumentversion]
+   * Sie können Informationen zur Version des Dokuments, zum Dokument, mit dem die Version verknüpft ist, zum Ersteller der Version und zum Benutzer, der den Testversand in der Dokumentversion erstellt hat, sofern vorhanden (Testversand-Ersteller) anzeigen.
 * [!UICONTROL E-Mail-Vorlage]
-* [!UICONTROL Ausgabe]
+* [!UICONTROL Ausgaben]
 * [!UICONTROL Ausgabentyp]
 * [!UICONTROL Externe Seite]
 * [!UICONTROL Favorit]
 * [!UICONTROL Filter]
 * [!UICONTROL Ziel]
-
-  Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Sie können strategische Ziele erstellen und Projekte nur dann verbinden, wenn Ihr Unternehmen eine [!DNL Workfront Goals] -Lizenz. Informationen zu [!DNL Workfront Goals], siehe [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Weitere Informationen zur Verbindung von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-
-  >[!TIP]
-  >
-  >Sie können keine Berichte zu Projektzielen erstellen, die mit einem [!UICONTROL Geschäftsfall]. Weitere Informationen zu Projektzielen und strategischen Zielen finden Sie unter [Glossar [!DNL Adobe Workfront] Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Sie können strategische Ziele erstellen und Projekte nur dann verbinden, wenn Ihr Unternehmen eine [!DNL Workfront Goals] -Lizenz. Informationen zu [!DNL Workfront Goals], siehe [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Weitere Informationen zur Verbindung von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+*Sie können keine Berichte zu Projektzielen erstellen, die mit einem [!UICONTROL Geschäftsfall]. Weitere Informationen zu Projektzielen und strategischen Zielen finden Sie unter [Glossar [!DNL Adobe Workfront] Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Gruppe]
 * [!UICONTROL Gruppierung]
-* [!UICONTROL Stundentyp]
+* [!UICONTROL Stündentyp]
 * [!UICONTROL Initiative]
-
-  Sie können nur dann einen Bericht für Initiativen erstellen, die die untergeordneten Objekte eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz. Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
-
+   * Sie können nur dann einen Bericht für Initiativen erstellen, die die untergeordneten Objekte eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz. Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 * Aufgabengebiet für Initiative
+   * Sie können nur dann einen Bericht über die mit den Initiativen in einem Plan verbundenen Arbeitsplatzrollen erstellen, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz. Informationen zum Erstellen von Initiativen und deren Zuordnung zu Berufsrollen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-  Sie können nur dann einen Bericht über die mit den Initiativen in einem Plan verbundenen Arbeitsplatzrollen erstellen, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz. Informationen zum Erstellen von Initiativen und deren Zuordnung zu Berufsrollen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
-
-
-* [!UICONTROL Wiederholung]
-* [!UICONTROL Aufgabengebiet]
+* [!UICONTROL Iteration]
+* [!UICONTROL Auftragsrolle]
 * [!UICONTROL Journaleintrag]
+   * Sie können Berichte zu getrackten Systemaktualisierungen im Abschnitt [!UICONTROL Updates] Objektbereich wie Aufgaben, Projekte, Probleme usw. Weitere Informationen finden Sie unter [Bericht über [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
-  Sie können Berichte zu getrackten Systemaktualisierungen im Abschnitt [!UICONTROL Updates] Objektbereich wie Aufgaben, Projekte, Probleme usw. Weitere Informationen finden Sie unter [Bericht über [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
-
-* [!UICONTROL Layoutvorlage]
-* [!UICONTROL Meilenstein]
-* [!UICONTROL Meilensteinpfad]
+* [!UICONTROL Layout-Vorlage]
+* [!UICONTROL Milestone]
+* [!UICONTROL Milestone-Pfad]
 * [!UICONTROL Hinweis] oder [!UICONTROL Updates]
-
-  >[!NOTE]
-  >
-  >Sie können Berichte zu Kommentaren erstellen, die von einzelnen Benutzern hinzugefügt wurden.
+   * Sie können Berichte zu Kommentaren erstellen, die von einzelnen Benutzern hinzugefügt wurden.
 
 * [!UICONTROL Parameter] (oder [!UICONTROL Benutzerdefiniertes Feld])
 * [!UICONTROL Parametergruppe] (oder [!UICONTROL Abschnittsumbruch])
-  <!--this is no longer in the UI: * [!UICONTROL Portal Profile] (this displays information that has been deprecated)-->
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt] ([!UICONTROL Finanzdaten])
@@ -305,15 +289,15 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
   >
   >Finanzinformationen werden in [!UICONTROL Projekt] ([!UICONTROL Finanzdaten]) werden nur dann gemeldet, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise im Januar 2015 einer Aufgabe eine berufliche Rolle zugewiesen wurde und heute September 2021 ist, wird ein Finanzfeld wie der [!UICONTROL Zuordnungsdatum] für die Stellenrolle nicht in der [!UICONTROL Projekt (Finanzdaten)] Bericht.
 
-* [!UICONTROL Korrekturabzug-Genehmigung]\
-   Sie können verschiedene Informationen über die Validierung des Testversands einsehen, einschließlich des Testversands, der zur Validierung unterbreitet wurde, Informationen über die [!UICONTROL Genehmiger], Informationen zum Antragsteller (wenn der Antragsteller lizenziert ist) [!DNL Workfront] Benutzer), Versionsinformationen, Testversand-ID und Erstellungsdatum des Testversands.\
-   [!UICONTROL Validierung des Testversands] Berichte enthalten nur Testsendungen, die in den Bereichen &quot;Meine Arbeit&quot;der Benutzer verfügbar sind, in denen noch keine Entscheidungen getroffen wurden.\
-   Die Befähigungsnachweise werden unter [!DNL Workfront] wie beschrieben [Benutzer zu Testversand hinzufügen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Freigeben eines Testversands in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* [!UICONTROL Validierung des Testversands]
+   * Sie können verschiedene Informationen über die Validierung des Testversands einsehen, einschließlich des Testversands, der zur Validierung unterbreitet wurde, Informationen über die [!UICONTROL Genehmiger], Informationen zum Antragsteller (wenn der Antragsteller lizenziert ist) [!DNL Workfront] Benutzer), Versionsinformationen, Testversand-ID und Erstellungsdatum des Testversands.\
+      [!UICONTROL Validierung des Testversands] Berichte enthalten nur Testsendungen, die in den Arbeitsbereichen der Benutzer verfügbar sind, in denen noch keine Entscheidungen getroffen wurden.\
+   * Die Befähigungsnachweise werden unter [!DNL Workfront] wie beschrieben [Benutzer zu Testversand hinzufügen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Freigeben eines Testversands in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Warteschlange]
 * [!UICONTROL Warteschlangenthema]
 * [!UICONTROL Rate] (zeigt die Vorgangsrolle an. [!UICONTROL Abrechnungsrate] information)
-* [!UICONTROL Erinnerungsnachricht]
+* [!UICONTROL Erinnerungsbenachrichtigung]
 * [!UICONTROL Bericht]
 * [!UICONTROL Ressourcenpool]
 * [!UICONTROL Risiko]
@@ -323,21 +307,20 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Team]
 * [!UICONTROL Vorlage]
 * [!UICONTROL Vorlagenaufgabe]
-* [!UICONTROL Freizeit]
+* [!UICONTROL Zeitlimit]
+   * Sie können Berichte zur Zeitüberschreitung eines Benutzers erstellen, wie vom Benutzer in seinem Profil angegeben.
 
-  Sie können Berichte zur Zeitüberschreitung eines Benutzers erstellen, wie vom Benutzer in seinem Profil angegeben.
-
-* [!UICONTROL Arbeitszeittabelle]
-* [!UICONTROL Arbeitszeittabellen-Profil]
+* [!UICONTROL Datenblatt]
+* [!UICONTROL Datenblatt-Profil]
 * [!UICONTROL Themengruppe]
-* [!UICONTROL Benutzergenehmigung]
+* [!UICONTROL Benutzervalidierung]
 * [!UICONTROL Benutzerdelegierung]
 
-  Sie können Berichte zu Benutzern erstellen, die beauftragt wurden, Aufgaben und Probleme anderer Benutzer auszuführen, während sie nicht im Büro sind. Dieser Bericht zeigt den Abwesenheitsbenutzer sowie den Benutzer an, der während seiner Abwesenheit seinen Verpflichtungen nachkommt.
+   * Sie können Berichte zu Benutzern erstellen, die beauftragt wurden, Aufgaben und Probleme anderer Benutzer auszuführen, während sie nicht im Büro sind. Dieser Bericht zeigt den Abwesenheitsbenutzer sowie den Benutzer an, der während seiner Abwesenheit seinen Verpflichtungen nachkommt.
 
 * [!UICONTROL Benutzerentscheidungen]
 
-  Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat bezüglich Testsendungen und Dokumenten getroffen haben.
+   * Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat bezüglich Testsendungen und Dokumenten getroffen haben.
 
-* [!UICONTROL Anzeigen]
+* [!UICONTROL Ansicht]
 * [!UICONTROL Arbeitselement] (Dadurch wird ein Bericht für Aufgaben und Probleme erstellt)

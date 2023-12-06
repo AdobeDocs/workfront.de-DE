@@ -7,16 +7,16 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht
 
-Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprüfen, selbst wenn sie nicht über die Software verfügen, mit der die Dateien (z. B. Photoshop oder Illustrator) auf ihren Computern installiert sind. Wir unterstützen statische, Video-, Audio-, Web-Aufnahmen und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
+Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprüfen, selbst wenn sie nicht über die Software verfügen, mit der die Dateien (z. B. Photoshop oder Illustrator) auf ihren Computern installiert sind. Wir unterstützen statische, Video-, Audio-, Web-Capture- und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
 
 ## Dateigrößenbeschränkungen
 
@@ -105,10 +105,10 @@ Workfront hat die folgenden Beschränkungen:
 * JPM - JPEG 2000 Part 6
 * JPX - JPEG 2000 Part 2
 * KDC - Kodak Digital Camera
-* Mac - MacPaint
+* MAC - MacPaint
 * MIF - MapInfo-Interchange
 * MNG - mehrere Netzwerkgrafiken
-* MO:DCA - Gemischtes Objekt: Dokumentinhaltsarchitektur
+* MO:DCA - Mixed Object: Document Content Architecture
 * MSP - Microsoft Paint
 * MRC - LEAD-gemischte Rasterinhalte
 * MRC - T.44 Mixed Raster Content
@@ -131,7 +131,7 @@ Workfront hat die folgenden Beschränkungen:
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-Präsentation
 * PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
@@ -192,7 +192,7 @@ Workfront hat die folgenden Beschränkungen:
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-Präsentation
 * PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * RTF - Rich-Text
 * XLS - Microsoft Excel-Tabelle
 * XLSX - Microsoft Excel-Tabelle 2007
