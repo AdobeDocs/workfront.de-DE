@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 1. Klicken Sie auf **Updates** Abschnitt.
 1. (Bedingt) Wenn sie aktiviert ist, klicken Sie auf die **Neue Kommentare** in der oberen rechten Ecke des Abschnitts Updates , um sie zu deaktivieren und das alte Kommentierungserlebnis zu aktivieren.
 1. Klicks **Neue Aktualisierung starten,** Geben Sie dann Ihr Update ein.
-1. (Optional) Verwenden Sie Rich Text oder fügen Sie Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzu, um Ihre Inhalte zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzuzufügen und Ihren Inhalt zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
 1. (Optional) Aktualisieren Sie eine der folgenden Informationen zum Arbeitselement:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
    * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
-1. (Optional) Verwenden Sie Rich Text oder fügen Sie Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzu, um Ihre Inhalte zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzuzufügen und Ihren Inhalt zu verbessern. Weitere Informationen finden Sie unter [Verwenden von Rich Text in einem Workfront-Update](#use-rich-text-in-a-workfront-update) in diesem Artikel beschrieben.
 
    >[!TIP]
    >
@@ -407,11 +407,15 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    1. under **Anzuzeigender Text**, geben Sie den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
 
-1. (Optional) <span class="preview">Um ein Bild an Ihre Aktualisierung anzuhängen, kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein </span>
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihre Aktualisierung anzuhängen:
 
-   Oder
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
+   * <span class="preview">Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein. </span>
+   * Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
+
 
    >[!NOTE]
    >
