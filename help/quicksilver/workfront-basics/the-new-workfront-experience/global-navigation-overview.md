@@ -1,13 +1,13 @@
 ---
 content-type: overview
 title: Übersicht über die Navigationsleiste oben
-description: Die obere Navigationsleiste, die oben auf Ihrem Bildschirm in der neuen [!DNL Adobe Workfront] experience - ermöglicht es Ihnen, andere Bereiche der Plattform einfach zu finden und zu diesen zu navigieren.
+description: Die obere Navigationsleiste, die in der neuen [!DNL Adobe Workfront] experience - ermöglicht es Ihnen, andere Bereiche der Plattform einfach zu finden und zu diesen zu navigieren.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfron
 
 ![Navigationsleiste oben](assets/global-navigation-bar.png)
 
-## [!UICONTROL Start-Symbol]
+## [!UICONTROL Startseite] icon
 
 Die **[!UICONTROL Startseite]** icon ![](assets/home-icon.png) bringt Sie zum [!UICONTROL Startseite] -Seite, die die Standard-Landingpage ist. Weitere Informationen zu &quot;Home&quot;finden Sie unter [Verwenden Sie die [!UICONTROL Startseite] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
@@ -68,7 +68,7 @@ Die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) ö
 
 Die Optionen, die im [!UICONTROL Hauptmenü] sind abhängig von:
 
-* **Layoutvorlagenkonfigurationen**: Informationen zum [!DNL Workfront] kann der Administrator [!UICONTROL Hauptmenü] aus einer Layout-Vorlage, siehe [Anpassen der [!UICONTROL Hauptmenü] Layout-Vorlage verwenden](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Layoutvorlagenkonfigurationen**: Um zu erfahren, wie ein [!DNL Workfront] kann der Administrator [!UICONTROL Hauptmenü] aus einer Layout-Vorlage, siehe [Anpassen der [!UICONTROL Hauptmenü] Layout-Vorlage verwenden](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * **Lizenztyp**: Informationen zu den Standardkonfigurationen für verschiedene Lizenztypen finden Sie unter [Informationen zur Navigation für einen Benutzer mit einer Review-Lizenz](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) oder [Die Navigation für eine [!UICONTROL Arbeit]-Lizenzanwender](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
@@ -89,7 +89,7 @@ Jedes Symbol bringt Sie in einen anderen Bereich des neuen [!DNL Adobe Workfront
     <ul> 
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Verwenden des [!UICONTROL Home]-Bereichs</a></li> 
      <li>[!UICONTROL Portfolios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio-Management</a></li> 
-     <li>[!UICONTROL Programme]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Programme erstellen und verwalten </a></li> 
+     <li>[!UICONTROL Programme] <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Programme erstellen und verwalten </a></li> 
      <li>[!UICONTROL Projekte]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projekte</a></li> 
      <li>[!UICONTROL Berichte]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Berichte</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
@@ -107,7 +107,7 @@ Jedes Symbol bringt Sie in einen anderen Bereich des neuen [!DNL Adobe Workfront
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Erweiterte Analyse - Übersicht</a></li> 
      <li>[!UICONTROL Ziele]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] Übersicht</a></li> 
      <li>[!UICONTROL Szenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Übersicht über den Szenario-Planer</a></li> 
-     <li>[!UICONTROL Testing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Testversand</a></li> 
+     <li>[!UICONTROL Testing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Testversand: Artikelindex</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -125,7 +125,7 @@ Unter diesen Optionen finden Sie im [!UICONTROL Hauptmenü], können Sie auf Fol
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Hilfe]</p> </td> 
-   <td> <p>Klicken <b>[!UICONTROL Hilfe]</b> bringt Sie zu [!DNL Adobe Experience League] wo Sie Hilfe-Artikel aufrufen, Schulungen finden, ein Support-Ticket für Kunden einreichen können und so weiter.</p> <p>Weitere Informationen finden Sie unter [!DNL Experience League] oder andere Methoden, um Hilfe zu erhalten, siehe <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Kurzanleitung zum Auffinden von Hilfe in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Klicken <b>[!UICONTROL Hilfe]</b> bringt Sie zu [!DNL Adobe Experience League] wo Sie Hilfe-Artikel aufrufen können, Schulungen finden, ein Support-Ticket für Kunden einreichen können und so weiter.</p> <p>Weitere Informationen unter [!DNL Experience League] oder andere Methoden, um Hilfe zu erhalten, siehe <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Kurzanleitung zum Auffinden von Hilfe in Adobe Workfront</a>.</p> </td> 
   </tr>
 
 <tr> 

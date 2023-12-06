@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -38,13 +38,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Aktueller Plan: Standard
+   <td>Neuer Plan: Standard
    <p>oder</p>
-   <p>Veralteter Plan: Plan</p></td> 
+   <p>Aktueller Plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
@@ -100,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td>Fügen Sie neue hinzu und bearbeiten Sie bestehende Unternehmen in Workfront.<br><p>Ohne diesen Zugriff können Benutzer nur bestehende Unternehmen anzeigen.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Benutzerdefinierte Formulare</td> 
+      <td role="rowheader">Benutzerdefinierte Formulare in meiner Gruppe</td> 
       <td>Erstellen und verwalten Sie alle benutzerdefinierten Formulare in ihrer Gruppe. <br><p>Ohne diesen Zugriff können Benutzer nur vorhandene Formulare an Objekte anhängen, auf die sie Zugriff haben, um sie beizutragen oder zu verwalten.</p></td> 
      </tr> 
      <tr> 

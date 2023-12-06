@@ -3,10 +3,10 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -360,7 +360,7 @@ ht-degree: 1%
             * [R1 Vorschau 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [R1 Vorschau 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [Webinare zur R1-Version](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * Ankündigungen {#announcements}
+   * Mitteilungen {#announcements}
       * [Ankündigungen](product-announcements/announcements/announcements.md)
       * [Verbesserungen beim benutzerdefinierten Formular](product-announcements/announcements/custom-form-enhancements.md)
       * [Zeitplan von nicht mehr unterstützten Funktionen](product-announcements/announcements/feature-removal-timeline.md)
@@ -525,7 +525,7 @@ ht-degree: 1%
       * Benutzerdefiniertes Branding in Adobe Workfront {#custom-branding}
          * [Benutzerdefiniertes Branding](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Markieren Ihrer Instanz](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [Konfigurieren einer benutzerdefinierten Hilfe-URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [Benutzerdefinierte Hilfe-URL konfigurieren](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * Layout-Vorlagen {#layout-templates}
          * [Layout-Vorlagen](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Standard-Workfront-Layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -544,9 +544,9 @@ ht-degree: 1%
          * [Administratorzugriff auf Layoutvorlagen](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Zuweisen von Benutzern zu Layoutvorlagen](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Layout-Vorlage kopieren](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Löschen Sie die klassischen Layout-Vorlagen mithilfe eines API-Aufrufs](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Löschen Sie die klassischen Layoutvorlagen mithilfe eines API-Aufrufs](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Benutzerdefinierte Formulare {#custom-forms}
-         * [Benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Benutzerdefinierte Formulare in meiner Gruppe](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Übersicht über benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Alter benutzerdefinierter Formular-Builder {#custom-form-builder}
             * Verwenden des benutzerdefinierten Formular-Builders {#use-the-custom-form-builder}
@@ -676,7 +676,7 @@ ht-degree: 1%
       * Diagnose {#diagnostics}
          * [Diagnose](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Diagnose für Trigger-Automatisierungen verwenden](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Kickstarts {#kick-starts}
+      * Kick-Start {#kick-starts}
          * [Kickstarts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [Exportieren von Workfront-Daten über Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [Daten mithilfe einer Kick-Start-Vorlage importieren](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -800,7 +800,7 @@ ht-degree: 1%
       * [Freigabe zeigt mehr als eine Berechtigung an](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Nicht authentifizierte E-Mail nicht akzeptiert](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Benutzeranmeldeinformationen vs. SAML-Anmeldeinformationen](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [Aktualisieren Sie die Auto-Upgrade-Optionen in den Zugriffsebenen](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [Aktualisieren der Optionen für die automatische Aktualisierung in den Zugriffsebenen](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Grundlagen zu Adobe Workfront {#basics}
    * [Grundlagen zu Adobe Workfront](workfront-basics/workfront-basics.md)
    * [Glossar der Adobe Workfront-Terminologie](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -1028,14 +1028,14 @@ ht-degree: 1%
       * [Geschichte von Kanban Board löschen](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
    * In einem agilen Team scrum {#scrum}
       * [In einem agilen Team scrum](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * Burndown {#burndown}
+      * Niederschlag {#burndown}
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Übersicht über die Agile-Burndown-Liste](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [Übersicht über den Iteration-Abschlussstatus](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Größe der Aufschlüsselungsgrafik ändern und reduzieren](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Daten in der Startgrafik synchronisieren](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [Verwenden eines alternativen Teamzeitplans für Startdiagramme](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-      * Wiederholungen {#iterations}
+      * Iterationen {#iterations}
          * [Wiederholungen](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Iterationen - Übersicht](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Iteration erstellen](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
@@ -1156,7 +1156,7 @@ ht-degree: 1%
       * Erstellen von Projekten {#create-projects}
          * [Erstellen von Projekten](manage-work/projects/create-projects/create-projects-overview.md)
          * [Projekt erstellen](manage-work/projects/create-projects/create-project.md)
-         * [Ein Projekt anfordern](manage-work/projects/create-projects/request-project.md)
+         * [Projekt anfordern](manage-work/projects/create-projects/request-project.md)
          * [Erstellen eines Projekts mit einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus einem Microsoft-Projekt](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Erstellen von Projekt-Grundlinien](manage-work/projects/create-projects/create-baselines.md)
@@ -1393,7 +1393,7 @@ ht-degree: 1%
          * [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Level Resources in Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [Gantt-Diagramm in PDF exportieren](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Portfoliverwaltung {#portfolio-management}
+   * Portfolio-Management {#portfolio-management}
       * [Portfoliverwaltung](manage-work/portfolios/portfolio-management-overview.md)
       * Übersicht über Portfolio in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portfolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -1423,7 +1423,7 @@ ht-degree: 1%
          * [Priorisieren von Projekten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Projektoptimierung im Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Berechnung des Nettowertrisikos in einem Portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * Anfragen {#requests}
+   * Anforderungen {#requests}
       * [Anforde- rungen](manage-work/requests/requests-overview.md)
       * Erstellen und Verwalten von Anforderungswarteschlangen {#create-and-manage-request-queues}
          * [Erstellen und Verwalten von Anforderungswarteschlangen](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
@@ -1473,11 +1473,11 @@ ht-degree: 1%
    * Tipps, Tricks und Fehlerbehebung für Teams und Gruppen {#tips-tricks-people-teams-groups}
       * [Tipps, Tricks und Fehlerbehebung für Teams und Gruppen](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Benutzername bereits in Verwendung](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Bericht- erstellung {#reporting}
+* Berichterstellung {#reporting}
    * [Bericht- erstellung](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Berichtsarbeitsfläche {#reporting-canvas}
       * [Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Verwalten von Berichten {#manage-reports}
+      * Berichte verwalten {#manage-reports}
          * [Berichte verwalten - Übersicht](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Erstellen eines Berichts auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Bericht in Berichtsarbeitsfläche exportieren](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
@@ -1678,7 +1678,7 @@ ht-degree: 1%
          * [Dashboards verstehen](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Erste Schritte mit Dashboards](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [So werden Berichte in einem Dashboard angezeigt](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * Dashboads erstellen und verwalten {#create-dashboards}
+      * Erstellen und Verwalten von Dashboards {#create-dashboards}
          * [Dashboads erstellen und verwalten](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [Dashboard erstellen](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [Einen Bericht zu einem Dashboard hinzufügen](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1692,7 +1692,7 @@ ht-degree: 1%
          * [Dashboard freigeben](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Externe Seite aus einem Dashboard entfernen](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Übersicht über Canvas-Dashboards](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Erweiterte Analyse {#enhanced-analytics}
+   * Verbesserte Analyse {#enhanced-analytics}
       * [Erweiterte Analyse](enhanced-analytics/enhanced-analytics.md)
       * [Erweiterte Analyse - Übersicht](enhanced-analytics/enhanced-analytics-overview.md)
       * [Filter in erweiterten Analysen anwenden](enhanced-analytics/use-enhanced-analytics-filters.md)
@@ -1784,7 +1784,7 @@ ht-degree: 1%
          * [Dokumente überprüfen und genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [Dokument überprüfen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * Proofing {#proofing}
+   * Testing {#proofing}
       * [Proofing](review-and-approve-work/proofing/proofing.md)
       * Testversand - Übersicht {#proofing-overview}
          * [Testversand - Übersicht](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
@@ -1898,8 +1898,8 @@ ht-degree: 1%
    * Tipps, Tricks und Fehlerbehebung bei Genehmigungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* Arbeitszeittabellen {#timesheets}
-   * [Arbeitszeittabellen](timesheets/timesheets-all.md)
+* Timesheets {#timesheets}
+   * [Arbeitszeit- tabellen](timesheets/timesheets-all.md)
    * Angaben zum Datenblatt {#details}
       * [Angaben zum Datenblatt in Adobe Workfront](timesheets/timesheets/timesheets.md)
       * [Timesheets - Übersicht](timesheets/timesheets/timesheets-overview.md)
@@ -2338,8 +2338,8 @@ ht-degree: 1%
       * [Anwenden einer Anaplan-Budgetzuordnung auf ein Adobe Workfront-Projekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Erstellen eines Anaplan-Listenelements aus einer Adobe Workfront-Kampagnenanforderung](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Anwenden einer Anaplan-Budgetzuordnung auf eine Adobe Workfront-Kampagnenanforderung oder ein Kampagnenprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront-Korrekturabzug {#workfront-proof}
-   * [Workfront-Korrekturabzug](workfront-proof/workfront-proof.md)
+* Workfront-Testversand {#workfront-proof}
+   * [Workfront-Testversand: Artikelindex](workfront-proof/workfront-proof.md)
    * Erste Schritte mit Workfront Testing {#get-started-wf-proof}
       * [Erste Schritte mit Workfront Testversand](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Workflow-Beispiele {#workflow-examples}
@@ -2506,7 +2506,7 @@ ht-degree: 1%
       * [E-Mail-Warneinstellungen für einen Testversand in Workfront Testversand ändern](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Verwalten von Benutzern und Kontakten in Workfront Proof {#managing-users-in-wf-proof}
       * [Verwalten von Benutzern und Kontakten in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Benutzende {#users}
+      * Benutzer {#users}
          * [Benutzende](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Erstellen von Benutzern mit Workfront Testversand](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Konfigurieren von Benutzerinformationen mit Workfront Testversand](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
@@ -2552,7 +2552,7 @@ ht-degree: 1%
       * Workfront-Proof-API {#wf-proof-api}
          * [Workfront-Proof-API](workfront-proof/wp-integrations/api/wp-api.md)
          * [Die Workfront-Proof-API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * Feld {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Einführung in die Workfront-Testversand- und Box-Integration](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Erstellen eines Testversands über Ihr Box-Konto](workfront-proof/wp-integrations/box/create-proof-box-account.md)

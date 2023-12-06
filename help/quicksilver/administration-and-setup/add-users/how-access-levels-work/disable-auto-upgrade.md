@@ -9,10 +9,10 @@ description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,6 @@ Sie können die Option für die automatische Aktualisierung im Setup-Bereich dea
 >
 >Nach der Deaktivierung wird jeder nicht bezahlte Benutzer, der die zugewiesene Anzahl von Entscheidungen überschreitet, nicht automatisch aktualisiert.
 
-
 ## Zugriffsanforderungen
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
@@ -38,13 +37,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Aktueller Plan: Standard
+   <td>Neuer Plan: Standard
    <p>oder</p>
-   <p>Veralteter Plan: Plan</p></td> 
+   <p>Aktueller Plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 

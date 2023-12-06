@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +56,9 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
    >[!NOTE]
    >
-   >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das gebührenpflichtige Workfront Testversand-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront-Testversand](../../workfront-proof/workfront-proof.md).
+   >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das gebührenpflichtige Workfront Testversand-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront-Testversand: Artikelindex](../../workfront-proof/workfront-proof.md).
 
-1. (Bedingt) Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine Startseite hinzufügen**, fügen Sie in Ihrem System eine Home Groups hinzu, wie im Abschnitt beschrieben. [Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite &quot;Lizenzen&quot;](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel.
+1. (Bedingt) Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine Startseite hinzufügen**, fügen Sie in Ihrem System eine Home Groups hinzu, wie im Abschnitt beschrieben. [Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel.
 
 ## Anzeigen von Informationen zu Lizenzen für Workfront-Add-ons
 
@@ -76,6 +76,7 @@ Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Ado
 >[!NOTE]
 >
 >Mit Workfront können Sie weitere Workfront Goals-Lizenzen zuweisen, die Sie erworben haben. Wenn Sie jedoch mehr Lizenzen zuweisen, als Ihr Workfront Goals-Vertrag zulässt, setzt sich ein Workfront-Kundenbetreuer mit Ihnen in Verbindung, um Ihnen mitzuteilen, dass Sie Ihre Vertragsnummer überschritten haben.
+>
 
 <!--
 If an organization has other paid add-on products, their license information also displays here. If the organization doesn't have any paid add-on products, nothing displays here. (Drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)
@@ -85,9 +86,10 @@ If an organization has other paid add-on products, their license information als
 >
 >Benutzer ohne Administratorzugriff können einen Gruppenbericht verwenden, um die Lizenzanzahl anzuzeigen. Erstellen Sie im Tab Bericht einen neuen Gruppenbericht und fügen Sie die folgenden Spalten hinzu:>
 >* Lizenztyp-Limit: Worker Limit
->* Lizenztyp-Limit: Planner-Beschränkung
+>* Lizenztyp-Limit: Planner Limit
 >
 >Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>
 
 ## Anzeigen von Informationen zu monatlichen Zuweisungen von Testsendungen und Dokumententscheidungen
 
@@ -103,7 +105,7 @@ Weitere Informationen zu den Beschränkungen für Testsendungen und Dokumentenen
 
 ![](assets/monthly-decision-allotment.png)
 
-## Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite &quot;Lizenzen&quot; {#add-or-remove-a-home-group-to-the-licenses-page}
+## Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen {#add-or-remove-a-home-group-to-the-licenses-page}
 
 Für die Verwendung dieser Funktion ist ein Business- oder Enterprise-Workfront-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne.](https://www.workfront.com/plans)
 
@@ -117,15 +119,14 @@ Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine
 >* Sie können nur Gruppen der obersten Ebene als Startseite und keine Untergruppen hinzufügen. Wenn einem Benutzer eine Untergruppe zugewiesen wurde, wird seine Lizenz zur Lizenzanzahl für die Gruppe der obersten Ebene oberhalb dieser Untergruppe hinzugefügt.
 >
 
-
 So fügen Sie der Lizenzseite eine Startseite hinzu oder entfernen sie:
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-1. Klicken **Gruppenliste verwalten**.
-1. Beginnen Sie mit der Eingabe des Namens der Gruppe der obersten Ebene im **Startseiten-Gruppen** ankreuzen.
+1. Klicks **Gruppenliste verwalten**.
+1. Geben Sie den Namen der Gruppe der obersten Ebene in die **Startseiten-Gruppen** ankreuzen.
 1. Um die Gruppe hinzuzufügen, klicken Sie auf ihren Namen, sobald sie angezeigt wird.
 
    Oder
@@ -151,7 +152,7 @@ So legen Sie die maximale Lizenzanzahl für eine Startseite fest:
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
 1. Suchen Sie die Startseite in der Liste.
-1. Im **Max** auf den Wert klicken, für den Sie ein Maximum festlegen möchten.
+1. Im **Max** -Spalte der Gruppe auf den Wert klicken, für den Sie ein Maximum festlegen möchten.
 1. Geben Sie die Höchstzahl ein und drücken Sie dann die Eingabetaste.
 
    ![](assets/updated-max.png)
