@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Sie können Adobe Workfront mit Drittanbieteranwendungen integrieren. Integrationen können das Dienstprogramm von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen.
-author: Becky, Caroline
+description: Sie können Adobe Workfront mit Anwendungen von Drittanbietern sowie mit anderen [!DNL Adobe] Produkte. Integrationen können das Dienstprogramm von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen. Details zu den verschiedenen Integrationstypen finden Sie in diesem Artikel.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] Integrationen
 
-Sie können Adobe Workfront mit Anwendungen von Drittanbietern sowie mit anderen [!DNL Adobe] Produkte. Integrationen können das Dienstprogramm von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen.
+Sie können [!DNL Adobe Workfront] mit Drittanbieteranwendungen sowie anderen [!DNL Adobe] Produkte. Integrationen können das Dienstprogramm von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen.
 
 Die Integrationen für [!DNL Workfront] fallen in folgende Kategorien:
 
@@ -44,9 +44,9 @@ Gehen Sie wie folgt vor, um mit integrierten (nativen) Integrationen zu beginnen
 
 1. **Technologieadministrator identifizieren**
 
-   Identifizieren Sie den Technologieadministrator Ihres Unternehmens für die Anwendung, in die Sie integrieren möchten. [!DNL Workfront]. Wenn Sie beispielsweise die Integration mit [!DNL Jira], müssen Sie eine Verbindung zum [!DNL Jira] und binden sie in alle Konfigurationsanforderungen innerhalb ihrer Plattform ein. Sie sollten diesen Administrator auch an allen Gesprächen mit [!DNL Workfront] Kundensupport.
+   Identifizieren Sie den Technologieadministrator Ihres Unternehmens für die Anwendung, in die Sie integrieren möchten. [!DNL Workfront]. Wenn Sie beispielsweise die Integration mit [!DNL Jira], müssen Sie eine Verbindung zum [!DNL Jira] Administrator und binden sie an alle Konfigurationsanforderungen innerhalb ihrer Plattform ein. Sie sollten diesen Administrator auch in sämtliche Gespräche mit [!DNL Workfront] Kundensupport.
 
-   Um Ihren Administrator zum Start zu bewegen, müssen Sie ihm die spezifischen Anweisungen für diese Integration bereitstellen. Links zu diesen Anweisungen finden Sie unter [Kostenlose Integrationen](#integrations-available-at-no-additional-cost).
+   Um Ihren Administrator zum Einstieg zu bewegen, müssen Sie ihm die spezifischen Anweisungen für diese Integration bereitstellen. Links zu diesen Anweisungen finden Sie unter [Kostenlose Integrationen](#integrations-available-at-no-additional-cost).
 
 1. **Interagieren mit [!DNL Workfront] Kundensupport**
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um mit integrierten (nativen) Integrationen zu beginnen
 
    >[!NOTE]
    >
-   >Sie müssen der zugewiesene Support-Kontakt in Ihrem Unternehmen sein, um einen Support-Fall einreichen zu können. Nachdem der Fall eingereicht wurde, können Sie Ihren Technologieadministrator für das andere System zur Konversation hinzufügen. Sie können sich nicht direkt an den Support wenden.
+   >Sie müssen der zugewiesene Support-Kontakt in Ihrem Unternehmen sein, um einen Support-Fall einreichen zu können. Nachdem der Fall eingereicht wurde, können Sie Ihren Technologieadministrator für das andere System zur Konversation hinzufügen. Der Support kann nicht direkt kontaktiert werden.
 
 Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen möglicherweise nicht alle Anforderungen Ihres Unternehmens erfüllen. Wenden Sie sich in diesem Fall an Ihren Kundenbetreuer, um eine benutzerdefinierte Integration zu besprechen.
 
@@ -130,7 +130,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
     <ul> 
      <li>[!DNL G Suite] -Benutzer müssen über [!DNL Workfront] Lizenz </li> 
      <li>[!DNL Workfront] Berechtigungen für Ansicht und Freigabe der Arbeit müssen pro Zugriffsebene festgelegt werden. </li> 
-     <li> POP-aktiviertes E-Mail-Konto </li> 
+     <li> Benutzer muss über ein POP-aktiviertes E-Mail-Konto verfügen </li> 
      <li>[!DNL Workfront] Anfrageeinstellungen müssen POP-Einstellungen enthalten </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] Plan oder höher</li> 
+     <li><p>Neuer Workfront-Plan: [!UICONTROL Select] [!DNL Workfront] Plan oder höher</p><p>Aktueller Workfront-Plan: [!UICONTROL Pro] [!DNL Workfront] Plan oder höher</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -234,7 +234,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] Plan oder höher</li> 
+     <li><p>Neuer Workfront-Plan: [!UICONTROL Select] [!DNL Workfront] Plan oder höher</p><p>Aktueller Workfront-Plan: [!UICONTROL Pro] [!DNL Workfront] Plan oder höher</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] Verknüpfen von Aktionen innerhalb von und zwischen Apps und Diensten , um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Es verfügt über dedizierte Connectoren für viele Apps, kann jedoch mit einer öffentlichen API eine Verbindung zu allen Anwendungen herstellen.
+
   Weitere Informationen finden Sie unter [[!DNL Adobe Workfront Fusion] Übersicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  Weitere Informationen finden Sie unter [Adobe Workfront für Experience Manager Assets und Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Durch die Integration von Workfront und Experience Manager Assets oder Assets Essentials können Unternehmen die Geschwindigkeit und Time-to-Market von Inhalten steigern, indem sie Arbeit und Digital Asset Management miteinander verbinden.
+
+Weitere Informationen finden Sie unter [Übersicht über die Integrationen von Adobe Workfront mit Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegrationen
 
-[!DNL Workfront] verfügt über ein reichhaltiges Partner-Ökosystem mit Dutzenden Integrationen, die Ihre [!DNL Workfront] Erlebnis.
+[!DNL Workfront] verfügt über viele Partnerintegrationen, die Ihre [!DNL Workfront] Erlebnis.
 
-Beispiele für vorhandene Partnerangebote sind Integrationen mit [!DNL Salesforce.com], [!DNL Oracle Responsys], und [!DNL Microsoft Visual Studio]. Weitere Informationen zu diesen und anderen aufregenden Integrationen finden Sie in der [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Beispiele für vorhandene Partnerangebote sind Integrationen mit [!DNL Salesforce.com], [!DNL Oracle Responsys], und [!DNL Microsoft Visual Studio].
+
+Weitere Informationen zu diesen und anderen Partnerintegrationen finden Sie im [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-Die [!DNL Workfront] Mit der API können Sie Ihre [!DNL Workfront] Erfahrung durch Nutzung unserer öffentlichen API. Sie können Ihre eigenen Integrationen mit unserer offenen API erstellen. Eine detaillierte Liste der verfügbaren Objekte finden Sie im [!DNL Workfront] API, siehe [!DNL Workfront] [API-Explorer](../../wf-api/general/api-explorer.md).
+Die [!DNL Workfront] Mit der API können Sie Ihre [!DNL Workfront] Erfahrung durch Nutzung unserer öffentlichen API. Sie können Ihre eigenen Integrationen mit unserer offenen API erstellen.
+
+Eine detaillierte Liste der verfügbaren Objekte finden Sie im [!DNL Workfront] API, siehe [!DNL Workfront] [API-Explorer](../../wf-api/general/api-explorer.md).

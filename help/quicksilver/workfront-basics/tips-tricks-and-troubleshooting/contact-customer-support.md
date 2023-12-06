@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Support kontaktieren
-description: Als Adobe Workfront-Kunde können Sie sich telefonisch an den Workfront-Kundendienst wenden oder ein Ticket online einreichen.
+description: Als Adobe Workfront-Kunde können Sie sich telefonisch an den Workfront-Kundendienst wenden oder ein Ticket online einreichen. Dieser Artikel enthält Anweisungen zur Kontaktaufnahme mit dem Support und zur Anzeige und Verwaltung Ihrer Support-Fälle.
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -36,28 +37,32 @@ Sie können [!DNL Workfront Customer Support] 7 Tage in der Woche, 24 Stunden am
 
 Sie können ein Support-Ticket über die Self-Service-Website einreichen [!DNL Experience League] Portal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Nur autorisierte Support-Kontakte (oder berechtigte Kunden) können Online-Support-Tickets einreichen.
+>Nur autorisierte Support-Kontakte (oder Benutzer mit Supportberechtigung) können Online-Support-Tickets einreichen.
 
 
 1. Aus dem [[!DNL Experience League]](https://experienceleague.adobe.com) Website, klicken Sie **[!UICONTROL Support]**  oben auf der Seite.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Auf der Support-Startseite können Sie einfach zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren, die wichtigsten Support-Artikel anzeigen oder auf zusätzliche Lernquellen zugreifen.
+   Die [!UICONTROL Support] Seite geöffnet.
+
+   Aus dem [!UICONTROL Support] Homepage können Sie zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren und die obere [!UICONTROL Support] oder auf zusätzliche Lernquellen zugreifen.
 
 1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option **[!UICONTROL Support-Fall öffnen]** Klicken Sie auf **[!UICONTROL Sign] In**.
 
 1. Klicks **[!UICONTROL Fall öffnen]** in der linken Seitenleiste.
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen eingeben können ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], usw.), den Titel der Groß-/Kleinschreibung und die Beschreibung der Groß-/Kleinschreibung.
+Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen eingeben können ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], usw.), den Titel der Groß-/Kleinschreibung und die Beschreibung der Groß-/Kleinschreibung.
 
-   >[!TIP]
-   >
-   >Seien Sie bei der Beschreibung des Problems, mit dem Sie konfrontiert sind, so beschreibend wie möglich, damit wir den Fehlerbehebungsprozess beschleunigen können.
+>[!TIP]
+>
+>Seien Sie bei der Beschreibung des Problems, mit dem Sie konfrontiert sind, so beschreibend wie möglich, damit wir den Fehlerbehebungsprozess beschleunigen können.
 
 
 1. Füllen Sie die Informationen für die folgenden Felder aus, um uns genauere Informationen zu geben:
@@ -69,29 +74,30 @@ Sie können ein Support-Ticket über die Self-Service-Website einreichen [!DNL E
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Submit Case]**.
 
-   Die [!UICONTROL Meine Fälle] angezeigt.
+   Der Fall wird eingereicht, und die [!UICONTROL Meine Fälle] angezeigt.
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. (Optional) Auf der Registerkarte **[!UICONTROL Meine Fälle]** Seite, sehen Sie sich die von Ihrem Unternehmen eingereichten Fälle an.
-
-   >[!TIP]
-   >
-   >Sie können auch zur [!UICONTROL Meine Fälle] Seite durch Klicken auf **[!UICONTROL Meine Fälle]** in der linken Seitenleiste.
-
-1. Im **[!UICONTROL Meine Fälle]** , verwenden Sie die Optionen oben auf der Seite, nach denen Sie filtern möchten. **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** (Öffnen oder geschlossen). Sie können auch die [!UICONTROL suchen] um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
-
-1. Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf die Schaltfläche **Fallnummer** , um darauf zuzugreifen. Die [!UICONTROL Case] -Ansicht geöffnet.
-
-1. Im [!UICONTROL Case] sehen Sie sich die neuesten Kommentare mit dem Eigentümer der zugewiesenen Groß-/Kleinschreibung an und fügen Sie weitere Anlagen oder Antworten hinzu.
-
-1. Klicks **[!UICONTROL Eskalieren an die Verwaltung]** rechts auf der Seite unter **[!UICONTROL Anwendungsdetails]** um den Fall zu eskalieren.
-
-1. Klicken Sie auf **[!UICONTROL Schreibweise]** -Schaltfläche, um den Fall zu schließen.
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 Wenden Sie sich bei Fragen oder Problemen beim Einreichen einer Anfrage an den Support.
 
+
+## Anzeigen und Verwalten von Support-Fällen
+
+1. Navigieren Sie zum **[!UICONTROL Meine Fälle]** Seite. Diese Seite wird geöffnet, wenn Sie eine Groß-/Kleinschreibung übermitteln oder indem Sie auf **[!UICONTROL Meine Fälle]** in der linken Navigation.
+
+1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Öffnen] oder Closed). Sie können auch die [!UICONTROL suchen] um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
+
+1. (Optional) Klicken Sie auf die Schaltfläche **Fallnummer** , um darauf zuzugreifen.
+
+   Die Fallansicht wird geöffnet.
+
+1. (Optional) Überprüfen Sie in der Fallansicht die neuesten Kommentare mit dem zugewiesenen Falleigentümer und fügen Sie zusätzliche Anhänge oder Antworten hinzu.
+
+1. (Optional) Klicken Sie zur Eskalation der Groß-/Kleinschreibung auf **[!UICONTROL Eskalieren an die Verwaltung]** rechts auf der Seite unter **[!UICONTROL Anwendungsdetails].
+
+1. Klicken Sie auf **[!UICONTROL Schreibweise]** -Schaltfläche, um den Fall zu schließen.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
