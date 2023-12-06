@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -84,19 +84,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
    <td>
-<p>Beliebig</p>
+<p>Alle</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Beliebig</p> 
+   <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Beliebig</p>  
+   <td> <p>Alle</p>  
 </td>
   </tr>
 <tr>
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## Überlegungen zum Verbinden von Datensatztypen
+
+Beachten Sie Folgendes:
 
 * Sie können die folgenden Entitäten in Maestro verbinden:
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/dots-main-menu.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/lines-main-menu.png) in der oberen linken Ecke auf **[!UICONTROL Maestro]**.
 
    Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
@@ -252,7 +255,7 @@ After permssions - replace the table with:
    * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen können, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Diese Option ist standardmäßig aktiviert.
 
-1. Klicken Sie auf **Erstellen**.
+1. Klicks **Erstellen**.
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Einstellung Suchfeld auswählen ausgewählt haben, wird die **Suchfelder hinzufügen** wird geöffnet.
 

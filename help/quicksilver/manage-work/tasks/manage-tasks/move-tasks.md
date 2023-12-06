@@ -6,9 +6,9 @@ description: Sie können Aufgaben in verschiedene Projekte oder in verschiedene 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neuer Plan: Standard </p> 
+ <p>oder</p>  
+<p>Aktueller Plan: Arbeit oder höher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -202,7 +204,7 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
      <tr> 
       <td role="rowheader">Dokumente</td> 
       <td> <p>Die mit der Aufgabe verknüpften Dokumente werden nicht an die verschobene Aufgabe übertragen. Dazu gehören Versionen, Testsendungen und verknüpfte Dokumente.</p> <p>Dokumentgenehmigungen sind nicht enthalten. Dokumentgenehmigungen können beim Verschieben einer Aufgabe nie verschoben werden.</p> 
-      <b>NOTIZ</b>
+      <b>NOTE</b>
 
    Wenn Sie sich dafür entscheiden, die Dokumente nicht mit der Aufgabe verschieben zu lassen, werden die Dokumente gelöscht und 30 Tage lang in den Papierkorb gelegt. Ein Administrator kann sie wiederherstellen und wird für die verschobene Aufgabe wiederhergestellt.
 

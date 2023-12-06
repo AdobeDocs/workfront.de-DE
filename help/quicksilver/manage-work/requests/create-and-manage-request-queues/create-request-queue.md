@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Erstellen einer Anforderungswarteschlange
-description: Sie können eine Anforderungswarteschlange einrichten, in die Benutzer gelegentliche Anforderungen eingeben können, die für ein Projekt nicht geplant sind.
+description: Sie können eine Anforderungswarteschlange einrichten, in die Benutzer gelegentliche Anforderungen eingeben können, die für ein Projekt nicht geplant sind. Beispielsweise kann eine Helpdesk-Anforderungswarteschlange eingerichtet werden, um alle Benutzeranforderungen zu erfassen, die an eine IT-Abteilung gesendet werden.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,39 @@ In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange erste
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P: replace the table below with this:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> 
+   <p>Neue Lizenz: Standard </p>
+   Oder
+   <p>Aktuelle Lizenz: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
+
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben
+
+
+<!--old access levels: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,16 +71,13 @@ In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange erste
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>Current license: Stadard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,37 +86,8 @@ In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange erste
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+*To find out what plan, license type, or access you have, contact your Workfront administrator
 -->
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b></p>
-
-<p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben
 
 ## Übersicht über Anforderungswarteschlangen
 
@@ -230,7 +230,7 @@ So erstellen Sie eine Anforderungswarteschlange:
    * **Standarddauer:** Die Standarddauer ist die Zeitdauer, die normalerweise zum Abschließen eines Problems benötigt wird. Dies wird zur Standardeinstellung für alle eingehenden Probleme und kann manuell geändert werden. Die Dauer wird in der Regel in Stunden, Tagen oder Wochen festgelegt. Die Standarddauer eines Problems ist dieselbe wie die geplanten Stunden zu diesem Problem. Das geplante Abschlussdatum des Problems wird auf dieser Grundlage berechnet.\
      Die Standarddauer für die Problemdauer beträgt 1 Tag oder 8 Stunden. Wenn Ihr Workfront-Administrator die typischen Stunden pro Arbeitstag auf weniger als 8 Stunden festlegt, beträgt die Standarddauer für Probleme immer noch 8 Stunden. Wenn beispielsweise die typische Dauer pro Arbeitstag auf 7 Stunden festgelegt ist, beträgt die Standarddauer für Probleme 1,14 Tage oder 8 Stunden. Weitere Informationen zum Einrichten der typischen Stunden pro Arbeitstag finden Sie im Abschnitt &quot;Timeline-Berechnungen&quot;im Artikel [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Benutzer aus demselben Unternehmen erben dieselben Berechtigungen für alle Anforderungen.:** Wenn diese Option aktiviert ist, sind alle an die Warteschlange gesendeten Anforderungen für Benutzer im selben Unternehmen sichtbar. Benutzer können diese Anforderungen im Abschnitt Alle Anforderungen im Bereich Anforderungen anzeigen. Wenn diese Einstellung aktiviert oder deaktiviert ist, wirkt sich sie auf alle zukünftigen Anforderungen aus. Sie hat keine rückwirkenden Auswirkungen auf Informationen.
+   * **Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen.:** Wenn diese Option aktiviert ist, sind alle an die Warteschlange gesendeten Anforderungen für Benutzer im selben Unternehmen sichtbar. Benutzer können diese Anforderungen im Abschnitt Alle Anforderungen im Bereich Anforderungen anzeigen. Wenn diese Einstellung aktiviert oder deaktiviert ist, wirkt sich sie auf alle zukünftigen Anforderungen aus. Sie hat keine rückwirkenden Auswirkungen auf Informationen.
    * **Wenn jemand eine Anfrage stellt, gewähren Sie automatisch Folgendes:** Wenn ein Benutzer eine Anforderung an die Anforderungswarteschlange sendet, wird dem Benutzer automatisch die für diese Anforderung ausgewählte Berechtigungsstufe zugewiesen. Wählen Sie aus den folgenden Berechtigungsebenen aus:
 
       * **Zugriff anzeigen**

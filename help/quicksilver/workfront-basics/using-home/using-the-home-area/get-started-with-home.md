@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Erste Schritte mit [!UICONTROL Startseite]
-description: Es gibt zwei Möglichkeiten, Ihre Arbeit im [!UICONTROL Startseite] -Bereich, entweder aus dem [!UICONTROL Arbeitsliste] oder [!UICONTROL Kalender].
+description: Die [!UICONTROL Startseite] ist Ihre zentrale Anlaufstelle, um Aufgaben, Probleme und Genehmigungen zu finden, die Ihnen zugewiesen sind. Es gibt zwei Möglichkeiten, Ihre Arbeit im [!UICONTROL Startseite] -Bereich, entweder aus dem [!UICONTROL Arbeitsliste] oder [!UICONTROL Kalender].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit [!UICONTROL Startseite]
 
-In diesem Artikel wird eine Übersicht über die aktuelle [!UICONTROL Startseite] Gebiet in [!DNL Adobe Workfront]. Informationen zur Arbeit in der neuen [!UICONTROL Startseite], siehe [Erste Schritte mit der neuen Startseite in Adobe Workfront](../new-home/get-started-with-new-home.md).
+In diesem Artikel wird eine Übersicht über die aktuelle [!UICONTROL Startseite] Gebiet in [!DNL Adobe Workfront]. Informationen zur Arbeit in der neuen [!UICONTROL Startseite], siehe [Erste Schritte mit der neuen Startseite](../new-home/get-started-with-new-home.md).
 
 Es gibt zwei Möglichkeiten, Ihre Arbeit in der aktuellen [!UICONTROL Startseite] Bereich:
 
 * Aus dem [!UICONTROL Arbeitsliste]
 * Aus dem [!UICONTROL Kalender].
 
-## Auftragsliste
+## [!UICONTROL Arbeitsliste]
 
 Sie können alle zugewiesenen Aufgaben an einem Ort im [!UICONTROL Arbeitsliste]:
 
@@ -39,7 +39,7 @@ Weitere Informationen zur Verwendung des [!UICONTROL Homepage-Arbeitsliste], sie
 * [Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Erstellen Sie Arbeitselemente aus dem [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## Kalender
+## [!UICONTROL Kalender]
 
 Sie können Ihre Arbeit visualisieren, indem Sie anzeigen, wann Arbeitselemente fällig sind, und Sie können die Zeit für ihre Fertigstellung blockieren, indem Sie Ihre Arbeit im [!UICONTROL Kalender] im [!UICONTROL Startseite] Bereich:
 
@@ -59,15 +59,15 @@ Weitere Informationen zur Verwendung des Home-Kalenders finden Sie unter [Verwen
 
 ## Arbeit suchen
 
-Die [!UICONTROL Startseite] ist Ihre zentrale Anlaufstelle, um Aufgaben, Probleme und Genehmigungen zu finden, die Ihnen zugewiesen sind. Die Filter- und Sortieroptionen, die in der [!UICONTROL Startseite] arbeiten zusammen, um Sie bei der Arbeit zu unterstützen. Sie können die [!UICONTROL Sortieren nach] -Option, um Elemente zu gruppieren, und verwenden Sie dann den Filter , um sich auf Aufgaben zu konzentrieren, die abgeschlossen werden müssen.
+Die [!UICONTROL Startseite] ist Ihre zentrale Anlaufstelle, um Aufgaben, Probleme und Genehmigungen zu finden, die Ihnen zugewiesen sind. Die Filter-, Gruppierungs- und Sortieroptionen arbeiten zusammen, um Sie bei der gewünschten Organisation Ihrer Arbeitselemente zu unterstützen. Sie können Gruppierungen verwenden, um Elemente zu gruppieren, Filter zu verwenden, die sich auf zu vervollständigende Arbeiten konzentrieren, und schließlich eine Sortierung, um die Elemente in auf- oder absteigender Reihenfolge Ihrer Gruppierung aufzulisten.
 
 >[!NOTE]
 >
 >Die Filter- und Sortieroptionen werden im Browser gespeichert. Wenn Sie durchgängig denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die Filter und die Sortierung nicht, aber wenn Sie Browser oder Computer wechseln, werden die Filter und die Sortierung unterschiedlich sein.
 
-### Gruppieren Sie ähnliche Arbeitselemente zusammen mit &quot;&quot;[!UICONTROL Gruppieren nach]&#39; option
+### Gruppieren ähnlicher Arbeitselemente zusammen mit Gruppierungen
 
-Die [!UICONTROL Sortieren nach] -Option können Sie ähnliche Elemente in der Arbeitsliste gruppieren. Sie können nach Folgendem sortieren:
+Sie können Gruppierungen verwenden, um in der Arbeitsliste unter einer gemeinsamen Kopfzeile wie Elemente anzuzeigen. Sie können Elemente gruppieren, indem Sie:
 
 * [!UICONTROL Geplanter Abschluss]
 * [!UICONTROL Geplanter Start]
@@ -93,21 +93,17 @@ Die folgenden Beispiele zeigen, wie Sie Elemente filtern können, die Sie auf de
 
   Sie können beispielsweise [!UICONTROL Probleme] um alle Probleme in allen Status anzuzeigen ([!UICONTROL Arbeiten an] oder [!UICONTROL Angefordert]) oder [!UICONTROL Genehmigungen] , um alle Arbeitselemente, Zugriffsanfragen, Zeitpläne, Dokumente und Testversandgenehmigungen anzuzeigen.
 
-* Nur nach Status filtern.
-
-  Sie können beispielsweise die [!UICONTROL Abgeschlossen] filtern, um abgeschlossene Aufgaben und Probleme anzuzeigen. Dazu gehören persönliche Aufgaben, jedoch keine Genehmigungen.
-
 Weitere Informationen zur Verwendung von Filtern finden Sie unter [Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### Für Ihr Team zugewiesene Zugriffsaufgaben
 
-Die [!UICONTROL Startseite] verfügt über eine permanente Gruppierung für Team-Anfragen mit einem direkten Link zur Anfrageseite des Teams. Verwenden Sie diese Gruppierung, um Anforderungen für beliebige Teams anzuzeigen und darauf zuzugreifen.
+Die [!UICONTROL Startseite] Das Gebiet hat eine ständige Gruppierung ([!UICONTROL Team-Anforderungen]), das Aufgaben und Probleme anzeigt, die Ihren Teams zugewiesen sind. In diesem Abschnitt werden Teams angezeigt. Wenn Sie auf den Namen eines Teams klicken, wird die Seite Team-Anforderungen dieses Teams geöffnet.
 
 >[!NOTE]
 >
->Die [!UICONTROL Filter] und [!UICONTROL Sortieren nach] -Optionen wirken sich nicht auf die [!UICONTROL Team-Anforderungen] Gruppierung. Diese Gruppierung ist sichtbar, solange Sie Ihrer Mannschaft Arbeit zugewiesen haben.
+>Die Filter- und Sortieroptionen wirken sich nicht auf die [!UICONTROL Team-Anforderungen] Gruppierung. Diese Gruppierung ist sichtbar, solange Sie Ihrer Mannschaft Arbeit zugewiesen haben.
 
 Weitere Informationen zum Zugriff auf Teamanfragen finden Sie im Artikel [[!UICONTROL Verwalten] Arbeits- und Team-Anforderungen in [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ Weitere Informationen zum Zugriff auf Teamanfragen finden Sie im Artikel [[!UICO
 
 ### Überwachen Sie die von Ihnen gesendeten Arbeiten.
 
-Verfolgen Sie die Arbeit, die Sie zur Genehmigung vorgelegt haben, direkt von [!UICONTROL Arbeitsliste]. Sie können den Genehmiger an die Arbeit erinnern, die genehmigt werden muss. Sie können die Validierung bei Bedarf auch zurückrufen.
+Verfolgen Sie die Arbeit, die Sie zur Genehmigung vorgelegt haben, direkt von [!UICONTROL Arbeitsliste]. Es gibt eine ständige Gruppierung für [!UICONTROL Gesendete Genehmigungen] bei Auswahl der Ansicht [!UICONTROL Genehmigungen] im [!UICONTROL Arbeitsliste]. Sie können den Genehmiger an die Arbeit erinnern, die genehmigt werden muss. Sie können die Validierung bei Bedarf auch zurückrufen.
 
 >[!NOTE]
 >
->Die [!UICONTROL Filter] und [!UICONTROL Sortieren nach] -Optionen wirken sich nicht auf die [!UICONTROL Gesendete Genehmigungen] Gruppierung. Diese Gruppierung ist sichtbar, solange die Arbeit auf die Validierung wartet.
-
-
+>Filter und Sortierung wirken sich nicht auf die [!UICONTROL Gesendete Genehmigungen] Gruppierung. Diese Gruppierung ist sichtbar, solange die Arbeit auf die Validierung wartet.
+>
+>Die Anzahl der Genehmigungen in der [!UICONTROL Genehmigungen] -Filter zeigt nicht die Anzahl der Elemente an, die Sie zur Genehmigung gesendet haben. Die [!UICONTROL Genehmigungen] -Filter zeigt nur die Elemente an, die auf Ihre Genehmigung warten.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## Was für Sie wichtig ist, priorisieren
 
-Die [!UICONTROL Arbeitsliste] ermöglicht es Ihnen, die für Sie wichtige Arbeit mit der [!UICONTROL Meine Priorität nach] -Option. Sie können bis zu 20 Elemente zu Ihrem [!UICONTROL Meine Priorität] Liste. Verwenden Sie die [!UICONTROL Mehr] -Menü, um Ihrer Prioritätsliste Arbeitselemente hinzuzufügen.
+Die [!UICONTROL Arbeitsliste] ermöglicht es Ihnen, die für Sie wichtige Arbeit mit der [!UICONTROL Meine Priorität] Gruppierung. Sie können bis zu 20 Elemente zu Ihrem [!UICONTROL Meine Priorität] Liste.
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ Weitere Informationen zur Verwendung von [!UICONTROL Meine Priorität], siehe [P
 
 ## Erledigen
 
-Verwenden Sie das rechte Bedienfeld in [!UICONTROL Startseite] , um Ihre Arbeit zu aktualisieren und abzuschließen.
+Nachdem Sie auf den Namen eines Elements im [!UICONTROL Arbeitsliste]verwenden, verwenden Sie das rechte Bedienfeld in [!UICONTROL Startseite] , um Ihre Arbeit zu aktualisieren und abzuschließen.
 
 ### Arbeiten in einem für Sie angepassten Raum
 
-Ihre [!DNL Adobe Workfront] -Administrator kann bis zu 16 benutzerdefinierte Felder hinzufügen, um die benötigten Informationen leichter finden und aktualisieren zu können. Die meisten Felder können bearbeitet werden, sodass Sie nicht zum Arbeitselement navigieren müssen.
+Ihre [!DNL Workfront] -Administrator kann bis zu 16 benutzerdefinierte Felder zu Elementen im [!UICONTROL Arbeitsliste]um das Auffinden und Aktualisieren der benötigten Informationen zu erleichtern. Die meisten Felder können bearbeitet werden, sodass Sie nicht zum Arbeitselement navigieren müssen.
 
-Um die Felder in diesem Bereich zu aktualisieren, klicken Sie einfach auf das Feld.
+Um die Felder in diesem Bereich zu aktualisieren, klicken Sie einfach auf ein Feld. Wenn das Feld bearbeitbar ist, können Sie es im rechten Bereich ändern.
 
 >[!NOTE]
 >
->Sie können die [!UICONTROL Datum der Übermittlung] in diesem Bereich.
+>Sie können die [!UICONTROL Datum der Übermittlung] wenn dieses Feld einem Arbeitselement aus einer Layoutvorlage hinzugefügt wird.
 
 ![](assets/16-fields-home-350x137.png)
 
-### Aktualisieren von Mitarbeitern mit wichtigen Informationen
+### Aktualisieren anderer Personen mit wichtigen Informationen
 
-Schnelle und effiziente Kommunikation mit Kollegen aus der [!UICONTROL Startseite] Bereich. Sie stellen Fragen an Mitarbeiter, benachrichtigen sie über aktuelle Updates oder beantworten direkte Kommentare. Darüber hinaus können Sie andere über den Fortschritt informieren, indem Sie:
+Schnelle und effiziente Kommunikation mit anderen über die [!UICONTROL Startseite] Bereich. Im Kommentarbereich eines Arbeitselements können Sie Fragen stellen, andere über aktuelle Updates informieren oder auf direkte Kommentare von der [!UICONTROL Startseite] Bereich. Darüber hinaus können Sie andere über den Fortschritt informieren, indem Sie:
 
-* Aktualisieren der [!UICONTROL Datum der Übermittlung]
+* Aktualisieren der [!UICONTROL Datum der Übermittlung] im Kommentarbereich
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   Dies ist der einzige Ort, an dem Sie das Datum der Veröffentlichung auf der Startseite aktualisieren können.
 
-* Berichte darüber, wie Sie die Dinge wahrnehmen
+* Berichte darüber, wie Sie sich die Dinge anfühlen, durch Hinzufügen eines Kommentars oder Aktualisieren der [!UICONTROL Bedingung] eines Artikels
 * Aktualisieren der prozentualen Abschlussleiste
 
 Weitere Informationen zur Kommunikation finden Sie im [!UICONTROL Startseite] -Bereich, siehe [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

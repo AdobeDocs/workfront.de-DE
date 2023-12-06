@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -51,19 +51,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
    <td>
-<p>Beliebig</p>
+<p>Alle</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Beliebig</p> 
+   <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Beliebig</p>  
+   <td> <p>Alle</p>  
 </td>
   </tr>
 <tr>
@@ -217,7 +217,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
 
 
-1. (Optional) Kopieren Sie einen vorhandenen Wert eines Felds und fügen Sie ihn dann in ein Feld desselben Typs in einem anderen Datensatz ein. Klicken Sie dann auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
+1. (Optional) Kopieren Sie einen oder mehrere vorhandene Werte eines Felds und fügen Sie sie dann in ein Feld desselben Typs in einen anderen Datensatz ein. Klicken Sie dann auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
    ><ul>
    >
-   > * Personen
-   >
    > * Systemfelder
-   >
-   > * Verknüpfte Felder, die durch das Verbinden von Datensätzen erstellt wurden
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

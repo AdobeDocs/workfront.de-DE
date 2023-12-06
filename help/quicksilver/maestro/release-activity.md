@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Woche vom 4. Dezember 2023
+
+### Kopieren Sie Informationen aus einem Feld in ein anderes und fügen Sie sie in der Maestro-Tabellenansicht für die Felder vom Typ Personen und verknüpfte Datensätze ein.
+
+Vorschau und Produktion: 5. Dezember 2023
+
+Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Maestro-Datensatz kopieren und einfügen. Diese Funktion wird jetzt für die folgenden Feldtypen unterstützt:
+
+* Personen
+* Verknüpfte Datensatzfelder
+
+Beachten Sie Folgendes:
+
+* Das Kopieren und Einfügen von Feldwerten von einem Feld in ein anderes wird für Felder unterstützt, die mehrere Werte anzeigen.
+
+* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+
+* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
+
+Informationen zu verknüpften Feldern finden Sie unter [Datensatztypen verbinden](../maestro/architecture/connect-record-types.md).
 
 ## Woche vom 27. November 2023
 

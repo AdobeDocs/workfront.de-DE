@@ -6,10 +6,10 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dcdcf21903d0fceb3c05039689bb87ae4c834d07
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '4704'
-ht-degree: 3%
+source-wordcount: '4775'
+ht-degree: 2%
 
 ---
 
@@ -35,14 +35,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Vorlagen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -569,6 +569,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
 
    * Finanzielle Details
+
    >[!TIP]
    >
    >Informationen zu allen Feldern, die im Bereich &quot;Details&quot;angezeigt werden, erhalten Sie, wenn Sie mit der Bearbeitung aller Felder über das Feld &quot;Vorlage bearbeiten&quot;weiter unten fortfahren.
@@ -581,11 +582,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    * [Vorlagenname](#template-name)
    * [Übersicht](#overview-preview)
-   * [Finanzielle Details](#finance-preview)
+   * [Finanzen](#finance-preview)
    * [Benutzerdefinierte Formulare](#custom-forms-preview)
    * [Projekteinstellungen](#project-settings)
    * [Aufgabeneinstellungen](#task-settings)
-   * [Anfrage-Einstellungen](#issue-settings)
+   * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access-preview)
 
 
@@ -680,6 +681,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
          <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das Projekt, das aus der Vorlage erstellt wurde. </li> 
          <li>Sie werden zum Projekteigentümer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
+         <li> Wenn der Benutzer, der als Vorlageninhaber benannt wurde, von seiner Zugriffsebene aus eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Zugriff auf Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Anzeigeberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlageneigentümer bestimmt sind.</li>
          </ul></td> 
        </tr> 
        <tr> 
@@ -795,27 +797,27 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <col> 
        <tbody> 
        <tr> 
-       <td role="rowheader"><strong>Meilensteinpfad</strong> </td> 
+       <td role="rowheader"><strong>Milestone-Pfad</strong> </td> 
        <td> <p>Wählen Sie einen Milestone-Pfad für die Vorlage aus. In der Liste werden nur aktive Meilensteinpfade angezeigt.<br>Weitere Informationen zu Meilensteinpfaden finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Meilensteinpfad erstellen</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Fertigstellungsmodus</strong> </td> 
+         <td role="rowheader"><strong>Abschlussmodus</strong> </td> 
          <td> <p>Steuert, wie das zukünftige Projekt als abgeschlossen markiert wird. <br>Wählen Sie aus den folgenden Optionen aus:</p> 
          <ul> 
          <li> <p><strong>Automatisch</strong>: Das Projekt wird als abgeschlossen markiert, wenn alle Aufgaben und Probleme abgeschlossen sind.</p> </li> 
-         <li> <p><strong>Manuell</strong>: Sie müssen den Status Fertig stellen für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind. </p> </li> 
+         <li> <p><strong>Manuell</strong>: Sie müssen den Status Abgeschlossen für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Zusammenfassung - Fertigstellungsmodus</strong> </td> 
+       <td role="rowheader"><strong>Modus für Zusammenfassungsabschluss</strong> </td> 
        <td> <p>Steuert, wie die übergeordneten Aufgaben im künftigen Projekt als abgeschlossen markiert werden. <br>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-       <li> <p><strong>Automatisch</strong>: Die übergeordneten Aufgaben sind als "Abgeschlossen"markiert und aktualisieren ihren Prozentsatz automatisch, da die untergeordneten Aufgaben abgeschlossen und der Prozentsatz der Abschlüsse der untergeordneten Aufgaben aktualisiert wird. </p> </li> 
+       <li> <p><strong>Automatisch</strong>: Die übergeordneten Aufgaben sind als abgeschlossen markiert und aktualisieren ihren Prozentsatz automatisch, da die untergeordneten Aufgaben abgeschlossen und der Prozentsatz der abgeschlossenen Kinder aktualisiert wird. </p> </li> 
        <li> <p><strong>Manuell</strong>: Sie müssen den prozentualen Abschluss und den Status der übergeordneten Aufgaben manuell aktualisieren, unabhängig davon, welche Änderungen an den untergeordneten Aufgaben vorgenommen werden. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Update-Typ</strong> </td> 
+         <td role="rowheader"><strong>Aktualisierungstyp</strong> </td> 
          <td> <p>Steuert, wann die Änderungen, die Sie an der Zeitleiste des künftigen Projekts vornehmen, im Projekt gespeichert werden. </p> 
          <b>BEISPIEL </b> 
          <p>Die folgenden Änderungen am Projekt-Trigger ermöglichen eine Aktualisierung der Timeline des Projekts:</p> 
@@ -827,13 +829,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> 
          </div> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
          <ul> 
-         <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Timeline des künftigen Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Timeline abhängig ist (Bei Änderung). Die Projekt-Timeline wird auch jede Nacht aktualisiert (automatisch).<br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Projekt-Timeline immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt ausführen, für die eine Timeline-Neuberechnung Trigger wird, werden alle verfügbaren Daten sofort angezeigt, sodass Sie mit der Arbeit fortfahren können. Bei Projekten mit mehr als 100 Aufgaben werden Daten, die eine längere Neuberechnung erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
+         <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die zukünftige Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Timeline abhängig ist (Bei Änderung). Die Projekt-Timeline wird auch jede Nacht aktualisiert (automatisch).<br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Projekt-Timeline immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt ausführen, für die eine Timeline-Neuberechnung Trigger wird, werden alle verfügbaren Daten sofort angezeigt, sodass Sie mit der Arbeit fortfahren können. Bei Projekten mit mehr als 100 Aufgaben werden Daten, die eine längere Neuberechnung erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
          </ul> 
          <ul> 
          <li> <p><strong>Nur ändern</strong>: Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Timeline abhängig ist. Sie können diese Option auswählen, wenn Änderungen selten im Projekt oder in anderen Projekten auftreten, von denen die Timeline abhängig ist.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Nur Automatisch</strong>: Die Projektzeitleiste wird jede Nacht aktualisiert. sie wird nicht sofort aktualisiert, nachdem Änderungen vorgenommen wurden.<br>Sie können diese Option auswählen, wenn täglich im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, viele Änderungen vorgenommen werden. Beachten Sie jedoch, dass Sie diese Einstellung ausgewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.<br></p> </li> 
+         <li> <p><strong>Nur Automatisch</strong>: Die Projekt-Timeline wird jede Nacht aktualisiert. Sie wird nicht sofort aktualisiert, nachdem Änderungen vorgenommen wurden.<br>Sie können diese Option auswählen, wenn täglich im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, viele Änderungen vorgenommen werden. Beachten Sie jedoch, dass Sie diese Einstellung ausgewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.<br></p> </li> 
          </ul> 
          <ul> 
          <li> <p><strong>Nur manuell</strong>: Die Projekt-Timeline wird nur aktualisiert, wenn Sie die Option zum Neuberechnen von Zeitleisten auswählen, wie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>.<br></p> </li> 
@@ -844,18 +846,18 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td> <p>Wählen Sie einen Zeitplan für Ihre Vorlage aus. Dies wird zum Zeitplan des Projekts, das anhand dieser Vorlage erstellt wird. Dieser Zeitplan sollte mit dem für die meisten Personen übereinstimmen, die an dem Projekt arbeiten. Sie müssen einen Zeitplan erstellen, bevor Sie ihn einer Vorlage zuweisen können.<br>Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen</a>. <br>Wenn Sie keine benutzerdefinierten Zeitpläne in Ihrem System erstellt haben, wird der Standardzeitplan ausgewählt. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Benutzer-Ausfallzeiten</strong> </td> 
+         <td role="rowheader"><strong>Zeitlimit für Benutzer</strong> </td> 
          <td> <p>Bestimmt, ob die Zeitdauer des Primären Verantwortlichen einer Aufgabe die geplanten Aufgabendaten anpasst. Wenn Sie die Vorlage an ein vorhandenes Projekt anhängen und die Vorlage für dieses Feld eine andere Einstellung hat als das Projekt, bleibt die Einstellung für das Projekt unverändert. Die Standardoption für diese Einstellung für eine neue Vorlage ist dieselbe wie für die Projektanvoreinstellung auf Systemebene. </p> <p>Weitere Informationen zu den Projektvoreinstellungen auf Systemebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p> <p>Informationen dazu, wie sich diese Einstellung auf die Aufgabendaten in einem Projekt auswirkt, finden Sie unter <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>.<br>Wählen Sie aus den folgenden Optionen aus:<br></p> 
          <ul> 
-         <li> <p><strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong>: Wenn Sie diese Option auswählen, werden die geplanten Termine der Projektaufgaben, die anhand dieser Vorlage erstellt wurden, entsprechend der Zeitspanne des Primären Aufgabenempfängers angepasst, wenn die Zeitspanne während der Aufgabendauer abgelaufen ist. </p> </li> 
-         <li> <p><strong>Ignorieren der Benutzerzeit in der Aufgabendauer</strong>: Bei Auswahl dieser Option bleiben die geplanten Termine der Aufgaben für das anhand dieser Vorlage erstellte Projekt wie ursprünglich geplant, auch wenn der Primäre Verantwortliche der Aufgabe während der Aufgabendauer über eine Zeitverzögerung verfügt. </p> </li> 
+         <li> <p><strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong>: Wenn Sie diese Option auswählen, werden die geplanten Termine der Projektaufgaben, die mit dieser Vorlage erstellt wurden, entsprechend der Zeitspanne des Primären Aufgabenempfängers angepasst, wenn die Zeitspanne während der Aufgabendauer abgelaufen ist. </p> </li> 
+         <li> <p><strong>Ignorieren der Benutzerzeit in der Aufgabendauer</strong>: Wenn Sie diese Option auswählen, bleiben die geplanten Termine der Aufgaben für das anhand dieser Vorlage erstellte Projekt wie ursprünglich geplant, auch wenn der Primäre Verantwortliche der Aufgabe während der Dauer der Aufgabe über eine Zeitverzögerung verfügt. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Abgleichsmodus für Ressourcen</strong> </td> 
+         <td role="rowheader"><strong>Ressourcenstufenmodus</strong> </td> 
          <td> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
          <ul> 
-         <li> <p><strong>Manuell</strong>: Sie müssen Ihre Ressourcen manuell für das Projekt freigeben, das mit dieser Vorlage erstellt wurde (dies ist die Standardeinstellung).</p> </li> 
+         <li> <p><strong>Manuell</strong>: Sie müssen Ihre Ressourcen manuell auf das aus dieser Vorlage erstellte Projekt überprüfen (dies ist die Standardeinstellung).</p> </li> 
          <li> <p><strong>Automatisch:</strong> Workfront legt die Ressourcen für das künftige Projekt fest. <br>Weitere Informationen zur Ressourcenebene finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in Gantt Chart </a>. </p> </li> 
          </ul> </td> 
        </tr> 
@@ -877,11 +879,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcen-Pools angezeigt, die für alle ausgewählten Vorlagen gelten. Wenn die ausgewählten Vorlagen keine gemeinsamen Ressourcen-Pools aufweisen, ist dieses Feld leer. Die Ressourcen-Pools, die Sie hier angeben, überschreiben die einzelnen Ressourcen-Pools der Vorlagen.</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>Stundentyp filtern</strong> </td> 
-         <td> <p>Beachten Sie Folgendes:</p> <p>Auswählen <strong>Nein</strong> , um alle projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen. (Dies ist die Standardauswahl.)</p> <p>Oder</p> <p>Auswählen <strong>Ja</strong> , um nur eine Untergruppe der projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen, wählen Sie dann die Stundentypen aus, die verfügbar gemacht werden sollen. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</p> <p>Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Sie müssen mindestens einen Stundentyp auswählen; Wenn Sie diese Option wählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt zur Verfügung gestellt.</p> <p>Dieselbe Stundentyp muss auf der Ebene der einzelnen Benutzer ausgewählt werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann. </p> <p>Weitere Informationen zum Definieren von Stundentypen auf Benutzerebene finden Sie im Abschnitt . <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Protokollzeit</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>.</p> </td> 
+         <td role="rowheader"><strong>Art der Filterstunde</strong> </td> 
+         <td> <p>Beachten Sie Folgendes:</p> <p>Auswählen <strong>Nein</strong> , um alle projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> <p>Auswählen <strong>Ja</strong> , um nur eine Untergruppe der projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen, wählen Sie dann die Stundentypen aus, die verfügbar gemacht werden sollen. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</p> <p>Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Sie müssen mindestens einen Stundentyp auswählen. Wenn Sie diese Option wählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt zur Verfügung gestellt.</p> <p>Dieselbe Stundentyp muss auf der Ebene der einzelnen Benutzer ausgewählt werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann. </p> <p>Weitere Informationen zum Definieren von Stundentypen auf Benutzerebene finden Sie im Abschnitt . <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Protokollzeit</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Genehmigungsprozess</strong> </td> 
+         <td role="rowheader"><strong>Validierungsprozess</strong> </td> 
          <td> <p>Wählen Sie den Validierungsprozess aus, den Sie mit der Vorlage verknüpfen möchten. Ihr Workfront-Administrator oder ein Benutzer mit Administratorzugriff auf Genehmigungsprozesse muss die Projektgenehmigungsverfahren auf System- oder Gruppenebene definieren, bevor Sie sie mit einer Vorlage verknüpfen können. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.</p> <p>Beachten Sie beim Hinzufügen von Validierungsprozessen Folgendes: </p> 
          <ul> 
          <li>In der Liste werden nur aktive Validierungsprozesse angezeigt. </li> 
@@ -899,7 +901,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Erinnerungsnachricht</strong> </td> 
+         <td role="rowheader"><strong>Erinnerungsbenachrichtigung</strong> </td> 
          <td>Wählen Sie die Erinnerungsbenachrichtigung aus, die mit dem künftigen Projekt verknüpft werden soll. Sie müssen Erinnerungsbenachrichtigungen für Projekte konfigurieren, damit dieses Feld während der Bearbeitung einer Vorlage angezeigt wird. <br>Weitere Informationen zum Konfigurieren von Erinnerungsbenachrichtigungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsbenachrichtigungen</a>.</td> 
        </tr> 
        </tbody> 
@@ -920,16 +922,16 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. Im **Standardgenehmigungsverfahren für Aufgaben** Wählen Sie den Validierungsprozess aus, den Sie allen neuen Aufgaben zuweisen möchten, wenn Sie sie zu einem Projekt hinzufügen, das mit dieser Vorlage erstellt wurde. Sie müssen einen Genehmigungsprozess für Aufgaben erstellen, bevor Sie ihn mit Aufgaben verknüpfen können. In der Liste werden nur aktive Validierungsprozesse angezeigt. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen von Genehmigungsprozessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. Im **Benutzerdefinierter Forms für Aufgaben** Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zu einem Projekt hinzufügen, das mit dieser Vorlage erstellt wurde. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen benutzerdefinierter Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
+1. Im **Standardgenehmigungsverfahren für Aufgaben** Wählen Sie den Validierungsprozess aus, den Sie allen neuen Aufgaben zuweisen möchten, wenn Sie sie zu einem Projekt hinzufügen, das mit dieser Vorlage erstellt wurde. Sie müssen einen Genehmigungsprozess für Aufgaben erstellen, bevor Sie ihn mit Aufgaben verknüpfen können. In der Liste werden nur aktive Validierungsprozesse angezeigt. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen von Validierungsprozessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Im **Benutzerdefinierter Forms-Task Standard** Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zu einem Projekt hinzufügen, das mit dieser Vorlage erstellt wurde. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen benutzerdefinierter Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
 1. (Optional) Wählen Sie **Verwenden Sie den Arbeitsaufwand, um die geplante Aufgabe automatisch zu berechnen.** , wenn Sie die Verwaltung des Aufgabenaufwands aktivieren möchten, indem Sie im Projekt, das anhand der Vorlage erstellt wurde, &quot;Arbeitsaufwand&quot;anstelle von &quot;Geplante Stunden&quot;verwenden.
 1. (Bedingt und optional) Wenn Sie &quot;Arbeitsaufwand verwenden&quot;ausgewählt haben, um die geplante Aufgabe automatisch zu berechnen, klicken Sie auf das Dropdown-Menü, um den Prozentsatz für die einzelnen Stufen des Arbeitsaufwands zu aktualisieren. Die folgenden Prozentwerte sind die Standardwerte:
 
    | Arbeitsaufwand | Prozentwert |
    |---|---|
-   | Klein | 25% |
-   | Mittel | 50% |
-   | Groß | 75% |
+   | Klein | 25 % |
+   | Mittel | 50 % |
+   | Groß | 75 % |
 
    Informationen zur Verwendung von &quot;Work Effort&quot;zur Verwaltung von Aufgaben für Projekte finden Sie unter [Übersicht über den Arbeitsaufwand](../../../manage-work/tasks/task-information/work-effort.md).
 
@@ -939,9 +941,9 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 
    Klicken Sie auf **Speichern**.
 
-### Anfrage-Einstellungen {#issue-settings}
+### Problemeinstellungen {#issue-settings}
 
-Durch Bearbeiten der Problemeinstellungen können Sie verhindern, dass Benutzer Probleme inline in das zukünftige Projekt einfügen, das über die Vorlage erstellt wird.
+Durch Bearbeiten der Problemeinstellungen können Sie verhindern, dass Benutzer Probleme inline in das zukünftige Projekt einfügen, das aus der Vorlage erstellt wird.
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Im **Vorlage bearbeiten** Feld, klicken Sie auf **Problemeinstellungen**.
@@ -1000,16 +1002,16 @@ Durch Bearbeiten der Problemeinstellungen können Sie verhindern, dass Benutzer 
          <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong>oder <strong>Verwalten</strong> Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Wenn jemand eine Anforderung sendet: Zugriff gewähren</strong> </td> 
+         <td role="rowheader"><strong>Wenn ein Benutzer eine Anforderung sendet: Gewähren Sie ihm Zugriff</strong> </td> 
          <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong>oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn sie eine Anfrage an das Projekt senden, erhalten sie diesen Zugriff auf die von ihnen gesendete Anfrage. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Benutzer aus demselben Unternehmen erben dieselben Berechtigungen für alle Anforderungen</strong> </td> 
+         <td role="rowheader"><strong>Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen</strong> </td> 
          <td> <p>Wählen Sie dieses Feld aus, wenn Sie möchten, dass Personen desselben Unternehmens denselben Zugriff auf alle Anforderungen des Projekts haben, unabhängig davon, ob sie sie gesendet haben oder nicht.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Gewähren Sie ihnen Zugriff auf ...</strong> </td> 
-         <td> <p>Wählen Sie die Zugriffsoptionen aus, die Benutzer für das Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für den Zugriff aus, sofern sie als <strong>Viewer</strong>, <strong>Mitwirkende</strong>oder <strong>Führungskräfte</strong> wenn Sie das Projekt für sie freigeben. </p> </td> 
+         <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Gewähren Sie ihm Zugriff auf ...</strong> </td> 
+         <td> <p>Wählen Sie die Zugriffsoptionen aus, die Benutzer für das Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für den Zugriff aus, sofern sie als <strong>Viewer</strong>, <strong>Mitarbeiter</strong>oder <strong>Führungskräfte</strong> wenn Sie das Projekt für sie freigeben. </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1031,11 +1033,11 @@ Sie können Vorlagen stapelweise bearbeiten und alle zugehörigen Informationen 
 
 So bearbeiten Sie Vorlagen stapelweise:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Vorlagen**.
+1. Klicks **Vorlagen**.
 1. Wählen Sie mehrere Vorlagen in der Liste aus.
-1. Klicken **Bearbeiten**.
+1. Klicks **Bearbeiten**.
 
    Die **Vorlagen bearbeiten** wird geöffnet.
 
@@ -1043,9 +1045,9 @@ So bearbeiten Sie Vorlagen stapelweise:
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie im Abschnitt [Vorlagen bearbeiten](#edit-a-template) in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie im Abschnitt [Vorlagen bearbeiten](#edit-a-template) in diesem Artikel beschrieben.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
 
    Alle von Ihnen vorgenommenen Änderungen sind nun in allen ausgewählten Vorlagen sichtbar.
 
@@ -1068,34 +1070,34 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 * Dokumente
 * Risiken
 
-   Weitere Informationen zum Erstellen von Risiken finden Sie unter [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  im Artikel [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Weitere Informationen zum Erstellen von Risiken finden Sie unter [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  im Artikel [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Genehmigungsprozesse
 
-   Informationen zum Verknüpfen von Genehmigungsprozessen mit der Arbeit finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Informationen zum Verknüpfen von Genehmigungsprozessen mit der Arbeit finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * Abrechnungssätze
 
-   Weitere Informationen zum Außerkraftsetzen der Abrechnungsraten für ein Projekt finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Weitere Informationen zum Außerkraftsetzen der Abrechnungsraten für ein Projekt finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Ausgaben
 
-   Weitere Informationen zur Hinzufügung von Ausgaben finden Sie unter [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Weitere Informationen zur Hinzufügung von Ausgaben finden Sie unter [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Themengruppen und Warteschlangenthemen
 
-   Weitere Informationen zum Hinzufügen von Themengruppen und Warteschlangenthemen zu einem Projekt oder einer Vorlage finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Weitere Informationen zum Hinzufügen von Themengruppen und Warteschlangenthemen zu einem Projekt oder einer Vorlage finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Sie können die folgenden Elemente zu den Aufgaben in der Vorlage hinzufügen:
 
 * Dokumente
 * Ausgaben
 
-   Weitere Informationen zur Hinzufügung von Ausgaben finden Sie unter [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Weitere Informationen zur Hinzufügung von Ausgaben finden Sie unter [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Genehmigungen
 
-   Weitere Informationen zum Verknüpfen von Genehmigungen mit der Arbeit finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Weitere Informationen zum Verknüpfen von Genehmigungen mit der Arbeit finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## Aktivieren oder Deaktivieren einer Vorlage
