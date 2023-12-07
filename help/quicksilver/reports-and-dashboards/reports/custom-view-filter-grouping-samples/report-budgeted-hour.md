@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Bericht: Budgetierte Stunde"
-description: "Bericht: Budgetierte Stunde"
+title: "Report: Budgeted Hour"
+description: "Report: Budgeted Hour"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -67,7 +67,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
 
-1. Klicken **Neuer Bericht > Budgetzeit**.
+1. Klicks **Neuer Bericht > Budgetzeit**.
 
    Die Standardansicht wird auf den Bericht angewendet.
 
@@ -87,20 +87,20 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Dadurch wird die Anzahl der geplanten Stunden auf eine Anzahl von Dezimalstellen gerundet, die Sie angeben.
 
-   Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Optional) Klicken Sie auf **Spalte hinzufügen** , um zusätzliche Spalten hinzuzufügen.
 1. (Optional) Um das Lesen des Berichts zu vereinfachen, wird empfohlen, ihm eine Gruppierung hinzuzufügen. Wir empfehlen die folgende Gruppierung:
 
    Klicken Sie auf **Gruppierungen** und führen Sie dann einen oder mehrere der folgenden Schritte aus:
 
-   1. Klicken **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;, wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   1. Klicken **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Auftragsrollenname&quot;und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   1. Klicken **Gruppierung hinzufügen** und Eingabe beginnen **Zuordnungsdatum**, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie die Gruppe gruppieren möchten. **Gruppierungstermine nach** -Feld.
+   1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;, wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+   1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Auftragsrollenname&quot;und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+   1. Klicks **Gruppierung hinzufügen** und Eingabe beginnen **Zuordnungsdatum**, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie die Gruppe gruppieren möchten. **Gruppierungstermine nach** -Feld.
 
 1. (Optional) Klicken Sie auf **Filter** , um Filter zum Bericht hinzuzufügen.
 1. (Optional) Klicken Sie auf **Diagramm** , um dem Bericht ein Diagramm hinzuzufügen.
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
 
 ## Überprüfung des Berichts über die budgetierte Stunde
 
@@ -123,8 +123,8 @@ Standardmäßig sind im Bericht &quot;Budgetierte Stunde&quot;folgende Informati
    <td>Dies ist der Name des Benutzers, der mit der budgetierten Stunde verknüpft ist.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Ztlg. Datum</td> 
-   <td> <p>Dies ist das Zuordnungsdatum. Es ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden geplant haben.</p> <p>Tipp:  <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: einen Tag, der dem ersten Wochentag (dem Sonntag der Woche, der im ersten Monat stattfindet) entspricht, und einen zweiten Tag, der dem ersten Tag des zweiten Monats entspricht (und der an einem beliebigen Wochentag stattfinden kann).</p> <p>Wenn Sie z. B. für einen Benutzer einen Etat von 8 Stunden für die Woche vom 30. Juni (Sonntag) bis 6. Juli (Samstag) anlegen, zeigen die beiden Zeilen das Zuordnungsdatum 30. Juni und 1. Juli an.</p> </p> </td> 
+   <td role="rowheader">Zuteilungsdt.</td> 
+   <td> <p>Dies ist das Zuordnungsdatum. Es ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden geplant haben.</p> <p>Tipp:  <p>Wenn sich eine Woche über zwei Monate erstreckt, werden im Bericht zwei Zeilen generiert: eine Zeile, die dem ersten Wochentag (dem Sonntag der Woche, der im ersten Monat stattfindet) entspricht, und eine zweite Zeile, die dem ersten Tag des zweiten Monats entspricht (und möglicherweise einem beliebigen Wochentag entspricht).</p> <p>Wenn Sie z. B. für einen Benutzer einen Etat von 8 Stunden für die Woche vom 30. Juni (Sonntag) bis 6. Juli (Samstag) anlegen, zeigen die beiden Zeilen das Zuordnungsdatum 30. Juni und 1. Juli an.</p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bdg. Stunden</td> 

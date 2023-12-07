@@ -3,23 +3,23 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen"
+title: 'Gruppierung: das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen'
 description: Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen zwei Feldern in der Ansicht eines Berichts oder einer Liste anzuzeigen. Jede Zeile zeigt die Berechnung für jedes Objekt im Bericht oder in der Liste an.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
-# Gruppierung: das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen
+# Gruppierung: Anzeige des Ergebnisses der Aggregation mehrerer berechneter Werte in einer Gruppierung
 
 Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen zwei Feldern in der Ansicht eines Berichts oder einer Liste anzuzeigen. Jede Zeile zeigt die Berechnung für jedes Objekt im Bericht oder in der Liste an.
 
-Beispielsweise können Sie den Unterschied zwischen tatsächlichen und geplanten Stunden in einer dritten Spalte mit dem Namen Work Balance für jede Aufgabe in einem Aufgabenbericht anzeigen. Weitere Informationen zu berechneten Datenausdrücken finden Sie unter [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Beispielsweise können Sie den Unterschied zwischen tatsächlichen und geplanten Stunden in einer dritten Spalte mit dem Namen Work Balance für jede Aufgabe in einem Aufgabenbericht anzeigen. Weitere Informationen zu berechneten Datenausdrücken finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Sie können den aggregierten Wert mehrerer berechneter Ansichtselemente in derselben Spalte in einer Gruppierung anzeigen, indem Sie der `aggregator` Zeile der Spalte, die den berechneten Wert enthält. Sie können beispielsweise die Anzahl der Arbeitsbilanzstunden aller Aufgaben in der Gruppierung des Berichts oder der Liste für die Spalte &quot;Arbeitsstand&quot;aggregieren (die Summe anzeigen). In diesem Artikel wird beschrieben, wie Sie dies tun.
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -57,17 +57,17 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen
 
-1. Gehen Sie zu einem Aufgabenbericht, klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
-1. Im **Gruppierungen** Registerkarte, klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe **Projektname** im **Gruppieren Ihres Berichts** > **Zuerst durch** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Wechseln Sie zu einem Aufgabenbericht, klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
+1. Im **Gruppierungen** Registerkarte, klicken **Gruppierung hinzufügen**, und beginnen Sie mit der Eingabe **Projektname** im **Gruppieren Ihres Berichts** > **Zuerst durch** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Im **Spalten (Ansicht)** Registerkarte, klicken Sie auf **Spalte hinzufügen**, und beginnen Sie dann mit der Eingabe **Geplante Stunden** im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Im **Spalten (Ansicht)** Registerkarte, klicken **Spalte hinzufügen**, und beginnen Sie dann mit der Eingabe **Geplante Stunden** im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    >[!TIP]
    >
    >Beginnen Sie immer mit dem Hinzufügen so vieler Informationen über die Standard-Benutzeroberfläche, bevor Sie Informationen im Textmodus bearbeiten. Fügen Sie die Felder hinzu, die am nächsten sind oder die die meisten Informationen enthalten, die für die Berechnung, die Sie vornehmen möchten, erforderlich sind.
 
-1. Im **Zusammenfassen dieser Spalte nach** Feld, wählen Sie **Summe** Klicken Sie auf **Fertig**.
-1. Klicken **In den Textmodus wechseln** in der von Ihnen hinzugefügten Spalte.
+1. Im **Zusammenfassen dieser Spalte nach** Feld auswählen **Summe** Klicken Sie auf **Fertig**.
+1. Klicks **In den Textmodus wechseln** in der hinzugefügten Spalte.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Ersetzen Sie die `valuefield ` und `aggregator.valuefield` Zeilen mit den im folgenden Textmodus hervorgehobenen Zeilen:
 
@@ -94,4 +94,4 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >Die `minutesAsHoursString` Definition der `aggregator.displayformat` bedeutet, dass es nicht notwendig ist, jedes Feld wie auf der `valueexpression` für die Ergebnisse. In diesem `aggregator.valuefield=workRequired` wird: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
 
-1. Klicken **Speichern+Schließen**.
+1. Klicks **Speichern+Schließen**.

@@ -7,9 +7,9 @@ description: Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (als Na
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (als Nachfolger oder
 
 Das Verständnis der Vorgängerfunktionalität ist wichtig, um die Zeitpläne in Ihren Projekten zu verstehen.
 
-Vorgängerbeziehungen zwischen Aufgaben bestehen sowohl innerhalb eines Projekts als auch über mehrere Projekte hinweg.
+Aufgabenvorherigen Beziehungen bestehen sowohl zwischen Aufgaben innerhalb eines Projekts als auch zwischen Aufgaben aus verschiedenen Projekten.
 
-Bei einer Abhängigkeit von mehreren Projekten können Sie projektübergreifende Vorläufer einrichten.
+Bei einer Abhängigkeit von mehreren Projekten können Sie projektübergreifende Vorläufer zwischen Aufgaben aus zwei verschiedenen Projekten erstellen.
 
-Unabhängig davon, ob die Vorgänger- und Nachfolgeaufgaben zum selben Projekt oder zu zwei verschiedenen Projekten gehören, werden die Abhängigkeiten und die Zeitpläne auf die gleiche Weise berechnet.
+Ob die Vorgänger- und Nachfolgeaufgaben zum selben Projekt oder zu zwei verschiedenen Projekten gehören, die Abhängigkeiten und die Zeitpläne der einzelnen Projekte werden auf die gleiche Weise berechnet.
 
 Bei Vorgängern hat die Timeline des Projekts folgende Auswirkungen:
 
@@ -38,15 +38,19 @@ Bei Vorgängern hat die Timeline des Projekts folgende Auswirkungen:
 * Launch-Wert und -Typ\
   Weitere Informationen zu Abhängigkeiten und Lagern finden Sie unter [Beispiele für Vorgängerwerte in einer Aufgabenliste](#examples-of-predecessor-values-in-a-task-list).
 
-Wenn beispielsweise Aufgabe A in einer Finish-Start-Beziehung eine Vorgängerin von Aufgabe B ist und Aufgabe B die Aufgabenbeschränkung so bald wie möglich hat, weist Workfront der Aufgabe B ein geplantes Startdatum unmittelbar nach dem geplanten Fertigstellungsdatum von Aufgabe A zu, unabhängig davon, ob der Vorgänger erzwungen wurde oder nicht.
+  Wenn beispielsweise Aufgabe A in einer Finish-Start-Beziehung eine Vorgängerin von Aufgabe B ist und Aufgabe B die Aufgabenbeschränkung so bald wie möglich hat, weist Workfront der Aufgabe B ein geplantes Startdatum unmittelbar nach dem geplanten Fertigstellungsdatum von Aufgabe A zu, unabhängig davon, ob der Vorgänger erzwungen wurde oder nicht.
 
 Um die Vorgängerbeziehungen zu verstehen, müssen Sie Folgendes verstehen:
 
 * **Abhängigkeitstypen:** Vorgänger sind durch verschiedene Abhängigkeitstypen verknüpft. Weitere Informationen zu Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Erzwingen eines Vorgängers:** Beim Erzwingen eines Vorgängers kann die Nachfolgeaufgabe erst gestartet werden, nachdem der Vorgänger abgeschlossen ist. Die Nachfolgeaufgabe wird als unmittelbar nach Abschluss des Vorgängers gestartet.
+* **Erzwingen eines Vorgängers:** Wenn Sie einen Vorgänger erzwingen, kann die Nachfolgeaufgabe unbedingt erst gestartet werden, nachdem der Vorgänger abgeschlossen ist. Die Nachfolgeaufgabe wird als unmittelbar nach Abschluss des Vorgängers gestartet.
 
-  Workfront lässt es nicht zu, als &quot;Wird ausgeführt&quot;oder &quot;Fertig gestellt&quot;markiert zu werden, bis der Vorgänger abgeschlossen ist. Workfront lässt jedoch zu, dass Stunden für die Aufgabe gemeldet werden.\
+  Wenn der Vorgänger nicht abgeschlossen (oder gestartet) ist und nicht durchgesetzt wird, kann die Nachfolgeaufgabe beginnen, aber die Projektzeitleiste wird weiterhin durch die Daten der Vorgänger- und der Nachfolgeaufgaben beeinflusst.
+
+  Bei einem erzwungenen Vorgänger lässt Workfront die Kennzeichnung der Nachfolgeaufgabe als &quot;Wird ausgeführt&quot;oder &quot;Abgeschlossen&quot;zu, bis der Vorgänger abgeschlossen ist.
+
+  Workfront lässt jedoch zu, dass Stunden für die Aufgabe gemeldet werden.\
   Weitere Informationen zur Durchsetzung von Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Lages:** Sie können in Ihren Abhängigkeiten Pausen erstellen, die eine Verzögerung verursachen, die nach Abschluss einer Vorgängeraufgabe und bevor die Nachfolgeaufgabe beginnen kann, eintreten muss. Ebenen wirken sich auf die Zeitleiste des Projekts aus.
@@ -104,7 +108,7 @@ Wenn Sie Vorgänger in einer Liste von Aufgaben anzeigen, sehen Sie möglicherwe
 
   >[!NOTE]
   >
-  >Der erzwungene Wert **e**) muss zum Lag hinzugefügt werden, nicht zum Vorgänger.
+  >Sie müssen den erzwungenen Wert hinzufügen (**e**) auf den Lag und nicht auf den Vorgänger.
 
 * **4515:2** Die vorherige Aufgabennummer ist 2. - Dies ist eine &quot;Finish to Start&quot;-nicht erzwungene Abhängigkeit mit dem Vorgänger im Projekt mit der Referenznummer **4515**.
 

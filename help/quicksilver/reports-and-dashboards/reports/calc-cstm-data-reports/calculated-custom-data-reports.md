@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sie können Berichte mithilfe berechneter benutzerdefinierter Daten erstellen. In den folgenden Artikeln wird beschrieben, wie:
 
-* [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+* [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Berechnete benutzerdefinierte Felder vs. berechnete Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
 * [Übersicht über &quot;IF&quot;-Anweisungen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)

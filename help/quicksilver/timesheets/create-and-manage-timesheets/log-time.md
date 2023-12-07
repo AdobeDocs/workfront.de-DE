@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -107,7 +107,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 
-* [Arbeitszeittabelle](#timesheet)
+* [Datenblatt](#timesheet)
 * [Startseite](#home)
 * [Projekt, Aufgabe oder Problem](#project-task-or-issue)
 * [Zusammenfassungsbereich](#summary-panel)
@@ -139,7 +139,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der linken oberen Ecke von Workfront, falls verfügbar.
 
 1. Klicks [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
-   ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
+   ![Datenblatt](assets/timesheet-redesigned-nwe.png)
 
 
 1. (Optional) Klicken Sie auf die **Vollbild** icon ![](assets/full-screen.png) um das Timesheet im Vollbildmodus anzuzeigen, klicken Sie auf **exit-full-screen** ![](assets/exit-full-screen.png) -Symbol, um zum Timesheet zurückzukehren.
@@ -351,7 +351,7 @@ Sie können projektspezifische Zeit auf der Startseite protokollieren.
 Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folgenden Abschnitten:
 
 * Weitere Informationen zur Verwendung des veralteten Home-Bereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Informationen zur Verwendung des neuen Startbereichs finden Sie unter [Erste Schritte mit der neuen Startseite in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Informationen zur Verwendung des neuen Startbereichs finden Sie unter [Erste Schritte mit der neuen Startseite](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
 
@@ -390,7 +390,7 @@ Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folg
 
 Sie können projektspezifische Zeit für ein Projekt, eine Aufgabe oder ein Problem in den folgenden Abschnitten protokollieren:
 
-* [Abschnitt „Aktualisierungen“](#updates-section)
+* [Aktualisierungsabschnitt](#updates-section)
 * [Stundenabschnitt](#hours-section)
 
 #### Abschnitt „Aktualisierungen“{#updates-section}

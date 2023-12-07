@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -122,7 +122,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >
    >In diesem Beispiel `SUB` ist der Ausdruck und die referenzierten Felder sind `actualRevenue` und `actualCost`.
 
-   Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, die die Felder enthalten, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird. Informationen zu den verfügbaren Ausdrücken finden Sie unter [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, die die Felder enthalten, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird. Informationen zu den verfügbaren Ausdrücken finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Jedes Feld muss mit geschweiften Klammern umgeben sein, wie im Abschnitt beschrieben [Syntax in berechneten benutzerdefinierten Feldern erforderlich](#syntax-required-in-calculated-custom-fields) in diesem Artikel. Wenn Sie mit der Eingabe des Namens eines Felds beginnen, unterbreitet das System Vorschläge und Sie können einen Vorschlag auswählen, um ihn in Ihre Berechnung einzufügen.
 
@@ -138,7 +138,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >
    >Sie können eine der folgenden Aktionen ausführen, um Hilfe bei der Berechnung zu erhalten:
    > 
-   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Die Ausdrücke werden blau und die Felder grün angezeigt.
    >  ![](assets/colors-fields-expressions.jpg)
