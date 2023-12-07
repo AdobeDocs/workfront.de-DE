@@ -6,7 +6,7 @@ description: Die Filter im Bereich "Erweiterte Analyse"von Adobe Workfront helfe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Sie können Filter nach Bedarf hinzufügen und entfernen. Workfront behält die 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr>
   <tr> 
-   <td><b>Zugriffsstufe*</b> </td> 
+   <td>Zugriffsstufe* </td> 
    <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen außerdem Zugriff auf "Anzeigen"auf Aufgaben, Portfolios und Benutzer haben, um bestimmte Filteroptionen für Projektfelder anzuzeigen.</p> <p>Hinweis: Wenn Einschränkungen im Abschnitt Zusätzliche Einschränkungen festlegen des Dialogfelds Zugriffsebene bearbeiten ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite Erweiterte Analyse angezeigt, nachdem der Filter angewendet wurde. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Objektberechtigungen</b> </p> </td> 
+   <td> <p>Objektberechtigungen </p> </td> 
    <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 

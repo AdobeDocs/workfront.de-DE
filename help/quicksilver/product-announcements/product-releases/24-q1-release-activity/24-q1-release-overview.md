@@ -4,9 +4,9 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der für Jan
 
 Die Verbesserungen auf dieser Seite sind in der Vorschau -Umgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, da die Veröffentlichung des ersten Quartals 2024 kurz vor der geplanten Produktionsversion steht.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [Melden Sie sich hier für das Webinar an](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Ersten Quartal 2024 veröffentlicht wurden) sind gelb hervorgehoben.</span>
 
