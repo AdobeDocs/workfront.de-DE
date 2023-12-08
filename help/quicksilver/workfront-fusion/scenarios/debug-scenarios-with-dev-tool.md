@@ -7,9 +7,9 @@ description: Mit dem Adobe Workfront Fusion Devtool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwicklungstool
 
 Die [!DNL Adobe Workfront Fusion] Mit Devtool können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt ein zusätzliches Bedienfeld zum [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
+
+Eine ausführliche Videoeinführung des Fusion Devtool finden Sie unter [Schrittweise Anleitung für Entwickler](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## Zugriffsanforderungen
 
@@ -27,7 +29,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
