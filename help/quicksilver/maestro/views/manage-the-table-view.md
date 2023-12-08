@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2085'
 ht-degree: 3%
 
 ---
@@ -60,19 +60,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
    <td>
-<p>Beliebig</p>
+<p>Alle</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Beliebig</p> 
+   <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Beliebig</p>  
+   <td> <p>Alle</p>  
 </td>
   </tr>
 <tr>
@@ -128,6 +128,21 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../fields/create-fields.md).
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden auf der Detailseite der Datensätze des ausgewählten Datensatztyps als neue Felder hinzugefügt.
+
+<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
+
+    (******add screen shot*****)
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
+
+    >[!NOTE]
+    >
+    >    Only fields of the following types can be primary fields: 
+
+        * Single-line text
+        * Number
+        * Formula -->
+
 
 1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
 

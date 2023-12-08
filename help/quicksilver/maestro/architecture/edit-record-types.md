@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
@@ -60,19 +60,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
    <td>
-<p>Beliebig</p>
+<p>Alle</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Beliebig</p> 
+   <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Beliebig</p>  
+   <td> <p>Alle</p>  
 </td>
   </tr>
 <tr>
@@ -152,9 +152,9 @@ After permssions - replace the table with:
 
 ## Datensatztypen bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
+Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
 1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Erscheinungsbild aktualisieren**.
@@ -181,3 +181,4 @@ After permssions - replace the table with:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    Sie können auch einen Datensatztyp in der Kopfzeile der Seite des Datensatztyps umbenennen.
+1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem Datensatztypnamen und wählen Sie einen anderen zu bearbeitenden Datensatztyp aus.

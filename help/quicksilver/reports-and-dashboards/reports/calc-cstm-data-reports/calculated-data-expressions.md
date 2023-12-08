@@ -7,7 +7,7 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ Beispiel:
 
 * In einem benutzerdefinierten Feld würden Sie in einem benutzerdefinierten Formular für Aufgaben den Namen des übergeordneten Projekts der Aufgabe generieren, an das das benutzerdefinierte Formular angehängt ist:
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * In einer benutzerdefinierten Spalte in einem Bericht können Sie wie folgt eine benutzerdefinierte Spalte für den Projektnamen zu einem Aufgabenbericht hinzufügen:
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   Oder
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >

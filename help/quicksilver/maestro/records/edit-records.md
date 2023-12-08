@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 1. Klicks **Änderungen speichern**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Datensatz in der Tabellenansicht des Datensatztyps bearbeiten
+### Datensatz in der Tabellenansicht eines Datensatztyps bearbeiten
 
 1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >
    >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
    >  
-   >  * Verknüpfte Felder, die durch Verknüpfen von Datensatztypen erstellt werden
+   >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
 
 
@@ -225,11 +225,12 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >
    >* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
    >
-   >* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+   >* Sie können keine Feldwerte kopieren und in den Detailbereich eines Datensatzes einfügen. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
    >* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
-   ><ul>
    >
-   > * Systemfelder
+   >
+   >    * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Sie können verknüpfte Datensatzfelder kopieren und einfügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+   >    * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
 
 
    <!--take People out of the list above when they release this - this might be coming later-->
