@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront-Benachrichtigungen
+title: Benachrichtigungsübersicht
 description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] Benachrichtigungen
+# Benachrichtigungsübersicht
 
 [!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 
 ## E-Mail-Benachrichtigungen
 
-[!DNL Workfront] sendet eine Reihe von E-Mail-Benachrichtigungen, um Benutzer über Aktivitäten in Workfront zu warnen und nützliche Informationen und Links bereitzustellen.
+[!DNL Workfront] sendet E-Mail-Benachrichtigungen, um Benutzer über Aktivitäten in Workfront zu warnen, und stellt nützliche Informationen und Links bereit.
 
 Informationen zum Ändern der Voreinstellungen für Ihre E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ Sie können die folgenden E-Mail-Benachrichtigungen von [!DNL Workfront]:
 
 ### Ereignisbenachrichtigungen
 
-Ereignisbenachrichtigungen sind in vordefiniert. [!DNL Workfront]. Sie werden normalerweise durch bestimmte Ereignisse ausgelöst.
+Ereignisbenachrichtigungen werden in der Regel durch bestimmte vordefinierte Ereignisse ausgelöst, z. B. durch Zuweisung einer Aufgabe an Sie oder durch Erhalten einer Antwort auf einen Kommentar.
 
-Nach der Aktivierung der Ereignisbenachrichtigungen durch Ihre [!DNL Workfront] Administrator oder Gruppenadministrator können Sie auswählen, welche Sie erhalten möchten, indem Sie Ihre [!UICONTROL Benachrichtigungen] Voreinstellungen in Ihrem Benutzerprofil. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen erhalten möchten oder ob Sie Ereignisse in einer täglichen Digest-E-Mail erhalten möchten.
+Nach der Aktivierung von Ereignisbenachrichtigungen in Ihrer [!DNL Workfront] System von [!DNL Workfront] Administrator oder Gruppenadministrator können Sie auswählen, welche Sie erhalten möchten, indem Sie Ihre [!UICONTROL Benachrichtigungen] Voreinstellungen in Ihrem Benutzerprofil. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen erhalten möchten oder ob Sie Ereignisse in einer täglichen Digest-E-Mail erhalten möchten.
 
-Je nachdem, wie die [!DNL Workfront] -Administrator hat Ereignisbenachrichtigungen für Ihre [!DNL Workfront] System (wie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), sehen Sie möglicherweise nur eine Teilmenge dieser Benachrichtigungen in Ihren Einstellungen.
+Je nachdem, wie die [!DNL Workfront] -Administrator hat Ereignisbenachrichtigungen für Ihre [!DNL Workfront] System. Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 Der Standardstatus zeigt an, welche Benachrichtigungen (täglich, unmittelbar oder beides) standardmäßig für neue Benutzer aktiviert sind, wenn Sie die neuen Benutzer erstellen.
 
@@ -56,6 +56,8 @@ Informationen dazu, wie Sie auswählen, welche Ereignisbenachrichtigungen Sie er
 >Ereignisbenachrichtigungen sind die einzigen Benachrichtigungen, die für die Bereitstellung in täglichen Digest-Updates konfiguriert werden können.
 
 ### Tägliche Digest-Benachrichtigungen
+
+Eine tägliche Digest-Benachrichtigung ist eine E-Mail, die alle Benachrichtigungen eines bestimmten Typs enthält, die Sie in den 24 Stunden vor der E-Mail erhalten haben.
 
 Eine vollständige Liste der für einen täglichen Digest-E-Mail-Versand aktivierten E-Mail-Benachrichtigungen sowie Informationen zu allen Kategorien für E-Mail-Benachrichtigungen finden Sie unter [Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ Beim Empfang täglicher Digest-Benachrichtigungen müssen Sie auf verschiedene P
 
   Für **[!UICONTROL Kommunikation]** -Kategorie, werden die Benachrichtigungen nach dem Objekt gruppiert, an dem die Kommunikation stattgefunden hat.
 
+  >[!NOTE]
+  >
+  >In der Kategorie Kommunikation können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Damit Benachrichtigungen täglich versendet werden können, müssen Sie alle Benachrichtigungen auswählen.
+
 * Die tägliche Digest-E-Mail listet Ereignisse auf, die für Aktionen in einem bestimmten Bereich aufgetreten sind (z. B. **Angaben zu eigenen Projekten**) innerhalb von 24 Stunden vor der für die Auslieferung ausgewählten Zeit.
 * Die Zeitzone für den täglichen Digest-Versand stimmt mit Ihrer Zeitzone überein, wie sie in Ihrem Browser konfiguriert ist.
 * Die täglichen Digest-E-Mails haben den Namen des Abschnitts in der Betreffzeile sowie das Datum, an dem sie zugestellt werden.
@@ -85,13 +91,15 @@ Tägliche Digest-E-Mails für die [!UICONTROL Kommunikation] für alle verfügba
 
 Die Informationen werden für das Objekt zusammengefasst, an dem die Kommunikation stattgefunden hat, und für jedes Objekt wird eine Gesamtzahl an Kommunikationsnachrichten angezeigt.
 
-Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+So beantworten Sie den Kommentar oder zeigen ihn in Workfront an:
 
-Anweisungen zur Kommentarkommentierung zu [!UICONTROL Kommunikation] E-Mails, siehe [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Klicken Sie auf **[!UICONTROL Kommentar]** in der E-Mail.
 
-Weitere Informationen zu [!UICONTROL Kommunikation] E-Mails, siehe [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Die [!UICONTROL Updates] -Bereich des Objekts geöffnet, wobei der spezifische Kommentar blau dargestellt wird.
 
-Weitere Informationen zum Aktivieren täglicher Digest-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Ein Antwortfeld ist geöffnet, mit dem Sie auf den Kommentar antworten können.
+
+Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen, einschließlich der Aktivierung täglicher Digest-Benachrichtigungen, finden Sie unter [E-Mail-Benachrichtigungseinstellungen anzeigen und ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatische Erinnerungen
 
@@ -120,7 +128,7 @@ Informationen zum Aktivieren automatischer Erinnerungen finden Sie unter [Automa
 
 ### Erinnerungsbenachrichtigungen
 
-A [!DNL Workfront] Administrator (oder ein Benutzer mit [!UICONTROL Planen] Zugriffsstufe und administrativer Zugriff auf Erinnerungsbenachrichtigungen) können Erinnerungsbenachrichtigungen über nahende Termine erstellen und sie an Projekte, Aufgaben, Probleme und Zeitpläne anhängen. Weitere Informationen dazu, wie Sie den erforderlichen Administratorzugriff erhalten können, finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] Administrator (oder ein Benutzer mit [!UICONTROL Planen] Zugriffsstufe und administrativer Zugriff auf Erinnerungsbenachrichtigungen) können Erinnerungsbenachrichtigungen über nahende Termine erstellen und sie manuell mit Projekten, Aufgaben, Problemen und Zeitesheets verknüpfen.
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ Erinnerungsbenachrichtigungen werden von der E-Mail-Adresse gesendet, die die [!
 
 Informationen zum Einrichten und Aktivieren von Erinnerungsbenachrichtigungen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+Informationen dazu, wie Sie den erforderlichen Administratorzugriff erhalten können, finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### Pinnwandbenachrichtigungen
 
-[!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist.
+[!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist. In den Vorlieben Ihrer Pinnwände können Sie auswählen, welche E-Mails Sie erhalten möchten.
 
-In den Vorlieben Ihrer Pinnwände können Sie auswählen, welche E-Mails Sie erhalten möchten. Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Sonstiges [!DNL Workfront] E-Mail
 
-Es gibt weitere E-Mails, die Sie möglicherweise von erhalten [!DNL Workfront] die nicht konfiguriert werden können. Die folgenden E-Mails werden automatisch von [!DNL Workfront] wenn diese Bedingungen erfüllt sind:
+Es gibt weitere E-Mails, die Sie möglicherweise von erhalten [!DNL Workfront] die nicht konfiguriert werden können.
+
+Die folgenden E-Mails werden automatisch von [!DNL Workfront] wenn diese Bedingungen erfüllt sind:
 
 * Wiederherstellen eines Elements: Wenn das [!DNL Workfront] administrator stellt ein Objekt aus dem [!UICONTROL Recycle] Container, eine E-Mail an die [!DNL Workfront] Administrator.
 * Fehlgeschlagene Wiederherstellung: Wenn die Variable [!DNL Workfront] Der Administrator versucht, ein Objekt aus dem Papierkorb wiederherzustellen. Wenn die Wiederherstellung fehlschlägt, wird eine E-Mail an die [!DNL Workfront] Administrator.
@@ -160,12 +172,12 @@ Sie können [!DNL Workfront] E-Mail-Benachrichtigungen in Ihrer mobilen E-Mail-A
 
 Wenn Sie [!DNL Workfront] Die auf Ihrem Telefon installierte Mobile App öffnet sie durch Tippen auf die Links in der E-Mail im [!DNL Workfront] Mobile App. Dazu gehört das Tippen auf eine der folgenden Aktionsschaltflächen:
 
-* [!UICONTROL Bearbeiten]
+* [!UICONTROL Arbeiten daran]
 * [!UICONTROL Kommentar]
 * [!UICONTROL Genehmigungsentscheidung treffen]
 * [!UICONTROL Alle Benachrichtigungen anzeigen]
 * [!UICONTROL Hinzufügen]
-* [!UICONTROL Einstieg]
-* [!UICONTROL Weitere Details anzeigen]
+* [!UICONTROL Erste Schritte]
+* [!UICONTROL Siehe Weitere Details .]
 
 Weitere Informationen zum [!DNL Workfront] Mobile App, siehe [Verwenden Sie die [!DNL Adobe Workfront] mobile App](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

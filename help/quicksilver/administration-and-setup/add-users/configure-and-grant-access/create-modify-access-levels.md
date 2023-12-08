@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter
+Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und diese auf Benutzer anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie sie mit den Objektberechtigungen zusammenarbeiten, die Benutzer gewähren, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter:
 
 * [Übersicht über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Wechselkurse</td> 
-      <td> <p>Neue Währung in Workfront hinzufügen.</p> <p>Ohne diesen Zugriff kann der Benutzer eine vorhandene Währung nur zu einem von ihm erstellten Projekt hinzufügen.</p> </td> 
+      <td> Neue Währung in Workfront hinzufügen. <p>Ohne diesen Zugriff kann der Benutzer eine vorhandene Währung nur zu einem von ihm erstellten Projekt hinzufügen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ausgaben</td> 
@@ -118,13 +118,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Aufgabengebiete</td> 
-      <td> <p>Mit diesem Zugriff kann der Benutzer Folgendes tun:</p> 
+      <td> Mit diesem Zugriff kann der Benutzer Folgendes tun: 
        <ul> 
         <li>Vorhandene Auftrags-Rollen anzeigen und bearbeiten</li> 
         <li>Hinzufügen neuer Vorgangsrollen</li> 
         <li>Bearbeiten der Rollenabrechnung und der Kostensätze</li> 
        </ul> 
-       <p>Wichtige Informationen zum Zugriff auf Finanzdaten, die einem Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen zur Verfügung stehen, finden Sie unter <a href="#planner-users-with-administrative-access-to-job-roles">Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen</a>.</p>
+       <p>Wichtige Informationen zum Zugriff auf Finanzdaten, die einem Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen zur Verfügung stehen, finden Sie unter <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Arbeitszeittabellen und Stunden</td> 
-      <td> <p>Gruppenadministratoren können Benutzern in den von ihnen verwalteten Gruppen und Untergruppen Timesheet-Profile zuweisen.</p> <p>Wenn diese Option nicht aktiviert ist, können Gruppenadministratoren anderen Benutzern in den von ihnen verwalteten Gruppen und Untergruppen keine Zeitleistenprofile zuweisen, obwohl sie diese erstellen können.</p> <p>Alle anderen Benutzer mit einer Standard- oder Planungslizenz können alle Stunden und Zeitpläne in Workfront anzeigen.</p> <p>Wenn diese Option nicht aktiviert ist, können Benutzer Stunden nur in folgenden Bereichen anzeigen:</p> 
+      <td> Gruppenadministratoren können Benutzern in den von ihnen verwalteten Gruppen und Untergruppen Timesheet-Profile zuweisen. <p>Wenn diese Option nicht aktiviert ist, können Gruppenadministratoren anderen Benutzern in den von ihnen verwalteten Gruppen und Untergruppen keine Zeitleistenprofile zuweisen, obwohl sie diese erstellen können.</p> <p>Alle anderen Benutzer mit einer Standard- oder Planungslizenz können alle Stunden und Zeitpläne in Workfront anzeigen.</p> <p>Wenn diese Option nicht aktiviert ist, können Benutzer Stunden nur in folgenden Bereichen anzeigen:</p> 
        <ul> 
         <li>Von ihnen verwaltete Projekte, Aufgaben oder Probleme</li> 
         <li>Ihre eigenen Zeitpläne</li> 
@@ -168,11 +168,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Nur Aktualisierungen anzeigen, in denen Sie an der Konversation beteiligt waren</td> 
-      <td> <p>Ermöglicht Benutzern, nur Kommentare anzuzeigen, in denen ihr Name oder der Name ihres Teams enthalten war.</p> <p> <p><b>NOTE</b>: Dadurch wird verhindert, dass Benutzer Artikel in Workfront abonnieren. Weitere Informationen zum Abonnieren von Elementen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a>.</p> </p> </td> 
+      <td> Ermöglicht Benutzern, nur Kommentare anzuzeigen, in denen ihr Name oder der Name ihres Teams enthalten war. <p> <p><b>NOTE</b>: Dadurch wird verhindert, dass Benutzer Artikel in Workfront abonnieren. Weitere Informationen zum Abonnieren von Elementen finden Sie unter <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnieren von Elementen in Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nicht zulassen, dass Benutzer Kommentare löschen </td> 
-      <td> <p>Verhindert, dass Benutzer Kommentare zu Elementen löschen. </p> <p><b>NOTE</b>: Keiner kann die Kommentare anderer Benutzer löschen.</p> </td> 
+      <td> Verhindert, dass Benutzer Kommentare zu Elementen löschen.  <p><b>NOTE</b>: Keiner kann die Kommentare anderer Benutzer löschen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nur Firmen, Gruppen &amp; Teams anzeigen, der Sie angehören</td> 
@@ -191,7 +191,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Bedingt und optional) Wenn Ihr Workfront-System für Benutzer eingerichtet ist, die mehreren Unternehmen angehören, beschränken Sie die Sichtbarkeit auf andere Benutzer, basierend darauf, zu welchem Unternehmen sie gehören. **Personen in anderen Unternehmen sollten nur Benutzer von**.
 
-   Sie können die Benutzer so einschränken, dass sie nur Benutzer aus ihrem eigenen Unternehmen oder aus dem Unternehmen sehen, das Sie als Hauptunternehmen benannt haben. Weitere Informationen zum primären Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Sie können die Benutzer so einschränken, dass sie nur Benutzer aus ihrem eigenen Unternehmen oder aus dem Unternehmen sehen, das Sie als Hauptunternehmen benannt haben. Das primäre Unternehmen stellt normalerweise Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzer arbeiten. Weitere Informationen zum primären Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

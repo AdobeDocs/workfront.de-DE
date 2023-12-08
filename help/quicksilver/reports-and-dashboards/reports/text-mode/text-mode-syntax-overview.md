@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ Die folgenden Syntaxsätze der unten aufgeführten Berichterstellungselemente we
 
 ### Syntax für Ansichten und Gruppierungen
 
-Sie werden feststellen, dass die Codezeilen beim Erstellen von Ansichten und Gruppierungen ähnlich sind.
+Die Codezeilen beim Erstellen von Ansichten und Gruppierungen sind ähnlich.
 
 Informationen zum Erstellen von Ansichten und Gruppierungen finden Sie in den folgenden Artikeln:
 
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-Die wichtigste Codezeile für eine Ansicht oder Gruppierung ist die Zeile, die das in der Ansichtsspalte referenzierte Objekt oder die Gruppierung angibt. Je nachdem, ob dieses Feld ein direkter Verweis auf ein Workfront-Datenbankfeld oder eine Berechnung zwischen mehreren Feldern ist, kann die Codezeile mit `valuefield` oder `valueexpression`
+Die wichtigste Codezeile für eine Ansicht oder Gruppierung ist die Zeile, die das in der Ansichtsspalte oder in der Gruppierung referenzierte Objekt angibt. Diese Codezeile kann mit `valuefield` oder `valueexpression` je nachdem, ob dieses Feld eine direkte Referenz zu einem Workfront-Datenbankfeld oder eine Berechnung zwischen mehreren Feldern ist.
 
 In der folgenden Tabelle sind die gängigsten Codezeilen in einer Ansicht oder Gruppierung aufgeführt:
 
@@ -216,13 +216,11 @@ Die folgenden Regeln gelten für das Referenzieren von Workfront-Objekten mithil
 
 #### `Valueformat` Übersicht über Ansichten und Gruppierungen
 
-Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die `valueformat=` Linie. Dies teilt Workfront mit, in welchem Format Sie den Wert zurückgeben möchten, den Sie im
-`valuefield` oder Werteausdruckszeilen. Sie können zwar verschiedene Formate für die `valueformat` empfiehlt es sich, bei der Verwendung von
-`valueexpression`:
+Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die `valueformat=` Linie. Dies teilt Workfront mit, in welchem Format Sie den Wert zurückgeben möchten, den Sie im `valuefield` oder `valueexpression` Zeilen. Sie können zwar verschiedene Formate für die `valueformat` empfiehlt es sich, bei der Verwendung von `valueexpression`:
 
 `valueformat=HTML`
 
-Für zusätzliche `valueformats` -Werte, siehe auch die folgenden Artikel:
+Für zusätzliche `valueformat` -Werte, siehe auch die folgenden Artikel:
 
 * [Datumsangaben in Textmodusberichten formatieren](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatnummern, Währungs- und Prozentwerte in Textmodusberichten](../../reports/text-mode/format-numbers-in-text-mode-reports.md)

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
-   <li> Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul>
+   <td> <p>Neuer Plan:<ul><li>Einfache oder höhere Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
+   <li> Standard oder höher: Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
+   <p>oder</p>
+   <p>Aktueller Plan:<ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
+   <li> Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Stündliche Einträge, die in abgerechneten Rechnungsdatensätzen enthalten sind, werden abgeblendet dargestellt und können nicht im Timesheet bearbeitet werden. Weitere Informationen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../manage-work/projects/project-finances/create-billing-records.md).
 * Persönliche Aufgaben werden nicht standardmäßig im Timesheet angezeigt. Persönliche Aufgaben werden nur dann im Timesheet angezeigt, wenn sie über eine längere Zeit protokolliert wurden. Nachdem Sie die Zeit für eine persönliche Aufgabe protokolliert haben, können Sie die Aufgabe in das Timesheet einbinden und es bleibt auf dem Timesheet, wenn es fixiert bleibt. Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem Startbereich](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Zeit erfassen
+## Zeit erfassen {#log-time-section}
 
 Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 
@@ -136,7 +139,7 @@ Sie können die Zeit auf die folgenden Elemente im Timesheet protokollieren:
 
 So protokollieren Sie die Zeit auf einem Timesheet:
 
-1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der linken oberen Ecke von Workfront, falls verfügbar.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
 1. Klicks [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
    ![Datenblatt](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 1. (Optional) Erweitern Sie die Dropdown-Menüs Filter, Ansicht oder Gruppierung, um sie anzuwenden oder anzupassen und um die gewünschten Elementinformationen anzuzeigen.
 
 1. Wählen Sie ein oder mehrere Elemente in der Liste aus und klicken Sie auf **Hinzufügen**.
+
+   Wenn Sie weniger als 50 Elemente gleichzeitig hinzugefügt haben, werden die Elemente zum Timesheet hinzugefügt. Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 
    ![Dropdown-Menü &quot;Stündentyp&quot;](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Drücken Sie je nach Betriebssystem oder Browser und bei Verwendung einer standardmäßigen QWERTY-Tastatur den folgenden Tastensatz, um eine weitere Zeile hinzuzufügen:
@@ -231,7 +237,6 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >   Drücken Sie je nach Betriebssystem oder Browser und bei Verwendung einer standardmäßigen QWERTY-Tastatur den folgenden Tastensatz, um eine Zeile zu löschen:
    >   * Strg + Wahltaste + - für Windows-Computer
    >   * Befehl + Wahltaste + - für Mac-Computer
-
 
 1. Geben Sie im Zeitleistensegment-Bereich des Zeitplans an, wie lange Sie sich an einem bestimmten Tag anmelden möchten, und klicken Sie dann außerhalb des Stundenfelds, um den Stundeneintrag zu speichern. Die Stunden werden automatisch gespeichert. Die Zeile, für die Sie die Protokollzeit festlegen, wird hellblau hervorgehoben und das Feld für die Stundeneingabe ist dunkelblau dargestellt.
 
@@ -299,6 +304,8 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 1. (Optional) Klicken Sie auf [!UICONTROL **Updates**] Fügen Sie im linken Bereich ein Update zum Timesheet hinzu. Weitere Informationen zu Workfront-Aktualisierungen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Optional) Kehren Sie zum **Datenblatt** zum Schließen oder Senden Ihres Zeitplans.
 
    * **Schließen**: Schließen Sie das Timesheet, wenn Sie die Aktualisierung abgeschlossen haben. Diese Option ist nur verfügbar, wenn Ihr Timesheet keinem Genehmiger zugeordnet ist.
 
