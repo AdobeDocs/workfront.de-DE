@@ -6,10 +6,10 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -58,15 +58,15 @@ Sie müssen einen Bericht erstellen, bevor Sie ihm eine Platzhaltervariable hinz
 
 Anweisungen zum Erstellen von Berichten finden Sie unter [Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Anleitungsschritte
+## Schritte
 
 So fügen Sie einen benutzerbasierten Platzhalter in einen Bericht ein:
 
 1. Gehen Sie zu einem Bericht, für den Sie einen benutzerbasierten Platzhalter einfügen möchten.
-1. Klicken **Berichtaktionen**, dann **Bearbeiten**.
+1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
 
 1. Klicken Sie auf **Filter** Registerkarte.
-1. Klicken **Filterregel hinzufügen**.
+1. Klicks **Filterregel hinzufügen**.
 1. Geben Sie den Namen des Felds ein, nach dem Sie filtern möchten.\
    Sie müssen Felder eingeben, die auf das Benutzerobjekt oder Informationen zu Benutzern verweisen.
 1. Auswählen **Gleich** im Dropdown-Menü für die Filtervariable.
@@ -77,18 +77,18 @@ So fügen Sie einen benutzerbasierten Platzhalter in einen Bericht ein:
 
 1. Im **Eingabe des Namens beginnen ...** Feld, Typ: `$$USER.ID` oder `$$USER.name` , wenn der Bericht Informationen über den Benutzer anzeigen soll, der sich anmeldet, basierend auf seinem Namen. Sie können andere Platzhalter einfügen, die auf die Gruppe, das Team, das Unternehmen oder andere Informationen des angemeldeten Benutzers verweisen.
 
-   Eine vollständige Liste der nutzerbasierten Platzhalter finden Sie unter [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Eine vollständige Liste der nutzerbasierten Platzhalter finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
 
 ## Zusätzliche Informationen
 
 Siehe auch:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

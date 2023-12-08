@@ -3,28 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: modify,email,notification,settings,bulk,bulk,edit,configure,multiple,users
 navigation-topic: emails-administration
-title: E-Mail-Benachrichtigungseinstellungen in Benutzerprofilen ändern
+title: E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer ändern
 description: Dieser Artikel enthält Informationen für Workfront- oder Gruppenadministratoren darüber, wie sie die E-Mail-Benachrichtigungen anderer Benutzer aktualisieren können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# E-Mail-Benachrichtigungseinstellungen in Benutzerprofilen ändern
+# E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer ändern
 
 Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;Planer&quot;verfügen, mit der Sie die Einstellungen anderer Benutzer bearbeiten können, können Sie die Benachrichtigungseinstellungen für mehrere Benutzer gleichzeitig konfigurieren. Dazu gehört auch die Angabe, ob Benutzer Benachrichtigungen im Fall von Ereignissen erhalten oder in einer täglichen Digest-E-Mail, wie hier beschrieben: [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md). Informationen zur Zugriffsstufe, die zum Bearbeiten von Benutzern erforderlich ist, finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können Sie nur die Einstellungen ändern, die den ausgewählten Benutzern gemeinsam sind.
-
->[!NOTE]
->
->Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Zugriffsanforderungen
@@ -37,35 +33,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td> <p>Neuer Plan: Standard </p>
+ <p>oder</p> 
+<p>Aktueller Plan: Plan </p> 
+</td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
 
-## Die E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer stapelweise ändern
+## E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer ändern
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png). Wählen Sie die Benutzer aus und klicken Sie auf **Bearbeiten**.
+Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können Sie nur die Einstellungen ändern, die den ausgewählten Benutzern gemeinsam sind.
+
+Wenn Sie eine Benachrichtigungseinstellung ändern, wird der Titel **Bearbeitet** für diese Benachrichtigungseinstellung angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
+
+So ändern Sie die E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
+
+{{step-1-to-users}}
+
+1. Wählen Sie die Benutzer aus und klicken Sie auf **Bearbeiten**.
 1. Im **Person bearbeiten** wird angezeigt, klicken Sie auf **Benachrichtigungen**.
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen zu dieser Kategorie anzuzeigen.
 
    Wenn mindestens ein Benutzer ausgewählt ist, bei dem die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kategorieprüffeld für diese Benachrichtigung eine horizontale Zeile ![](assets/straight-line-instead-of-checkmark.jpg) anstelle eines Häkchen.
 
+
 1. Klicken Sie auf alle Benachrichtigungen, die die Benutzer täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.
 
-   Für **Kommunikation** -Kategorie, können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die täglich versendet werden sollen.
+   >[!NOTE]
+   >
+   >   Für **Kommunikation** -Kategorie, können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die täglich versendet werden sollen.
 
-   Wenn Sie eine Benachrichtigungseinstellung ändern, wird der Titel **Bearbeitet** für diese Benachrichtigungseinstellung angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
 
 1. Wenn Sie Benachrichtigungen als täglichen Digest ausgewählt haben, wählen Sie oben in der **Benachrichtigungen** im Abschnitt **Email Daily Digest nach** Menü.
 
-   Nach Auswahl der Versandzeit wird die **Email Daily Digest nach** wird mit einem orangefarbenen Rahmen angezeigt, um anzugeben, dass die Versandzeit bearbeitet wurde.
+   ![](assets/daily-digest-time.png)
 
    Die tägliche Zusammenfassung enthält Ereignisse, die die Kriterien der Benachrichtigungen 24 Stunden vor dem ausgewählten Zeitpunkt erfüllen. Benutzer erhalten für jeden Benachrichtigungstyp eine tägliche Digest-E-Mail.
 

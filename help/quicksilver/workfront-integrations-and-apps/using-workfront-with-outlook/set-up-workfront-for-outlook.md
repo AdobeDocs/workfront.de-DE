@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion bietet eine Integration mit Outlook. In dies
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Die [!DNL Adobe Workfront] [!DNL Outlook] -Add-In ermöglicht Ihnen Folgendes [!DNL Workfront] Aufgaben direkt aus Outlook:
 
-* Aktualisieren Sie ein vorhandenes Projekt, eine Aufgabe oder ein Problem mit Informationen aus einer E-Mail. Weitere Informationen finden Sie unter [Vorhandenes Objekt von einem [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
+* Aktualisieren eines vorhandenen Projekts, einer Aufgabe oder eines Problems mit Informationen aus einer E-Mail Weitere Informationen finden Sie unter [Vorhandenes Objekt von einem [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * Erstellen Sie eine [!DNL Workfront] Anfrage basierend auf einer E-Mail in [!DNL Outlook]. Weitere Informationen finden Sie unter [Erstellen einer Adobe Workfront-Anforderung aus einem [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 * Hinzufügen einer E-Mail als Aufgabe in Ihrer [!UICONTROL Meine Arbeit] Bereich. Weitere Informationen finden Sie unter [Hinzufügen einer [!DNL Outlook] E-Mail als Aufgabe an Ihre Arbeitsliste senden](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md).
-* Antworten Sie auf Kommentare über die [!DNL Workfront] Add-in für [!DNL Outlook]. Informationen zur Beantwortung von Kommentaren von Workfront zu [!DNL Outlook], siehe [Antworten auf einen Kommentar von [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
+* Antworten Sie auf Kommentare über die [!DNL Workfront] Add-in für [!DNL Outlook]. Informationen zur Beantwortung von Kommentaren von Workfront zu [!DNL Outlook], siehe [Antworten Sie auf einen Kommentar von [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
 * Erstellen Sie Aufgaben und Probleme von Grund auf neu oder erstellen Sie sie aus vorhandenen E-Mails (mithilfe der Drag &amp; Drop-Funktion). Weitere Informationen finden Sie unter [Hinzufügen einer [!DNL Outlook] E-Mail an ein Projekt als Aufgabe oder Problem senden](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 Sie müssen die [!DNL Workfront] -Add-In für Ihre [!DNL Outlook] -Konto verwenden, bevor Sie [!DNL Workfront for Outlook].
 
-Wenn Sie die [!DNL Workfront] mit Ihrem [!DNL Outlook] -Konto, kontaktieren Sie Ihre [!DNL Workfront] Administrator, um sicherzustellen, dass [!DNL Outlook] -Add-Ins für Ihre Organisation aktiviert sind.
+Wenn Sie die [!DNL Workfront] -Add-In mit Ihrer [!DNL Outlook] -Konto, kontaktieren Sie Ihre [!DNL Workfront] Administrator, um sicherzustellen, dass [!DNL Outlook] -Add-Ins für Ihre Organisation aktiviert sind.
 
 Informationen zum Aktivieren der [!DNL Outlook] Integration für Ihr Unternehmen, siehe [Aktivieren [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
 
@@ -38,12 +38,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+  <tr>
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neuer Plan: Standard </p>
+ <p>oder</p> 
+<p>Aktueller Plan: [!UICONTROL Arbeit], [!UICONTROL Plan] </p> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,13 +89,13 @@ Beim Konfigurieren des Clients muss der Benutzer einen der folgenden Kontotypen 
 
 ### Mail-Server-Anforderungen {#mail-server-requirements}
 
-Die Anforderungen an den E-Mail-Server werden standardmäßig erfüllt, wenn Sie eine Verbindung zu [!DNL Office 365] oder [!DNL Outlook.com]. Wenn Sie jedoch mit einer On-Premise-Installation von [!DNL Exchange Server]gelten folgende Anforderungen:
+Die Anforderungen an den E-Mail-Server werden standardmäßig erfüllt, wenn Sie eine Verbindung zu [!DNL Office 365] oder [!DNL Outlook.com]. Wenn Sie jedoch mit einer lokalen Installation von [!DNL Exchange Server]gelten folgende Anforderungen:
 
-* Wir unterstützen alle [!DNL Exchange On-Premise] Server
+* Wir unterstützen [!DNL Exchange On-Premise] Server
 * [!DNL Exchange Web Services] (EWS) muss aktiviert sein und dem Internet zugänglich gemacht werden.
-* Der Server muss über ein gültiges Authentifizierungszertifikat verfügen, damit der Server gültige Identitäts-Token ausgibt. Neue Anlagen [!DNL Exchange Server] enthalten ein standardmäßiges Authentifizierungszertifikat.
+* Der Server muss über ein gültiges Authentifizierungszertifikat verfügen, damit der Server gültige Identitäts-Token ausgibt. Neue Anlagen von [!DNL Exchange Server] enthalten ein standardmäßiges Authentifizierungszertifikat.
 
-   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
+  <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * Um auf die [!DNL Workfront] -Add-in aus der [[!DNL Office] Store](https://store.office.com/), müssen Ihre Client-Zugriffsserver in der Lage sein, mit  [https://store.office.com](https://store.office.com/).
 
@@ -110,9 +113,9 @@ Weitere Informationen zur Einrichtung der [!DNL Workfront] Add-in für [!DNL Out
 
 1. In [!DNL Outlook 365], klicken Sie auf die **[!UICONTROL Add-Ins durchsuchen]** icon ![](assets/outlook-add-in-26x26.png)Klicken Sie oben auf der Benutzeroberfläche von Office 365 auf **[!UICONTROL Verwalten von Add-Ins]**.
 
-1. Im **[!UICONTROL Suchen-Add-Ins]** Feld, suchen Sie nach **[!DNL Workfront]** dann drücken [!UICONTROL Eingabe].
+1. Im **[!UICONTROL Suchen-Add-ins]** Feld, suchen Sie nach **[!DNL Workfront]** dann drücken [!UICONTROL Eingabe].
 
-1. Klicken **[!UICONTROL Hinzufügen]**.
+1. Klicks **[!UICONTROL Hinzufügen]**.
 
 ### [!DNL Workfront] für [!DNL Outlook] im Internet {#workfront-for-outlook-on-the-web}
 
@@ -121,13 +124,13 @@ Weitere Informationen zur Einrichtung der [!DNL Workfront] Add-in für [!DNL Out
 
    Informationen zum Suchen des Symbols finden Sie unter [Verwenden von Add-Ins in [!DNL Outlook] im Internet](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Microsoft-Dokumentation.
 
-1. Suchen Sie nach **[!DNL Workfront]** im **[!UICONTROL Suchen-Add-Ins]** Feld und drücken Sie dann **[!UICONTROL Eingabe]**.
+1. Suchen Sie nach **[!DNL Workfront]** im **[!UICONTROL Suchen-Add-ins]** Feld und drücken Sie dann **[!UICONTROL Eingabe]**.
 
 1. Wenn es in der Liste angezeigt wird, klicken Sie auf **Hinzufügen**.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] oder [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 
-1. Klicken **[!UICONTROL Startseite]** > **[!UICONTROL Store]** auf dem Band.
+1. Klicks **[!UICONTROL Startseite]** > **[!UICONTROL Store]** auf dem Band.
 
 1. Suchen Sie nach **[!DNL Workfront]** im **[!UICONTROL Suche]** Feld und drücken Sie dann **[!UICONTROL Eingabe]**.
 
@@ -144,5 +147,4 @@ Weitere Informationen zur Einrichtung der [!DNL Workfront] Add-in für [!DNL Out
    >
    >* Wenn Sie aufgefordert werden, die Domäne Ihrer [!DNL Workfront] -Konto angeben, geben Sie es in folgendem Format ein: *yourCompany&#39;sDomain.my.workfront.com*. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
    >* Die erweiterte Authentifizierung ist erst verfügbar, wenn eine [!DNL Workfront] -Administrator aktiviert sie für diese Integration.
-
 

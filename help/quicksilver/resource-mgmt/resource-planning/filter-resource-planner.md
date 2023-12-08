@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filtern von Informationen im Ressourcenplaner
-description: '"(AL:*Iterate on this article: Filtern nach benutzerdefinierten Daten. Weitere Verbesserungen? Sonderzeichen können sich ändern - folgen Sie der Geschichte, um zu erfahren, wann. Ursprünglich war es Beta 3 17.3.)'''
+description: '(AL:*Iterate on this article: filtering by custom data. Weitere Verbesserungen? Sonderzeichen können sich ändern - folgen Sie der Geschichte, um zu erfahren, wann. Ursprünglich war es Beta 3 17.3.)'
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -67,14 +67,14 @@ Beachten Sie bei der Verwendung von Filtern im Ressourcenplaner Folgendes:
 * Die von Ihnen erstellten Filter sind nur für Sie sichtbar. Sie können Filter freigeben, um sie für andere Benutzer verfügbar zu machen.
 * Als Workfront-Administrator können Sie nur Filter sehen, die Sie erstellen oder die für Sie freigegeben sind.
 * Die gefilterten Ergebnisse ändern sich nicht, wenn Sie eine andere Ansicht für den Ressourcenplaner auswählen.\
-   Weitere Informationen zum Ändern der Ansicht im Ressourcenplaner finden Sie im Auswahlabschnitt &quot;Projekt-/Rolle-/Benutzeransicht&quot;unter [Navigationsübersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Weitere Informationen zum Ändern der Ansicht im Ressourcenplaner finden Sie im Auswahlabschnitt &quot;Projekt-/Rolle-/Benutzeransicht&quot;unter [Navigationsübersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 * Beim Anwenden eines Filters werden die Zuordnungs- und Verfügbarkeitsdaten im Ressourcenplaner für Projekte, Rollen oder Benutzer nicht geändert. Ein Filter ändert nur die Anzahl der Objekte, die im Ressourcenplaner angezeigt werden.
 * Die Filterung gilt für alle Objekte, die gleichzeitig im Ressourcenplaner angezeigt werden. Wenn Sie beispielsweise nach einem bestimmten Benutzer filtern, zeigt der Ressourcenplaner nur die folgenden Ergebnisse an:
 
    * Projekte, bei denen dieser Benutzer Teil des Ressourcen-Pools ist (für die Projekt- und Rollenansicht) oder eine Zuweisung für das Projekt hat (für die Benutzeransicht)
    * Mit dem Benutzer verknüpfte Rollen für diese Projekte\
-      Andere Rollen oder Benutzer in den Projekten, mit denen der Benutzer verknüpft ist, werden nicht angezeigt.
+     Andere Rollen oder Benutzer in den Projekten, mit denen der Benutzer verknüpft ist, werden nicht angezeigt.
 
 ## Übersicht über den Standardfilter im Ressourcenplaner {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -88,16 +88,16 @@ Beachten Sie bei Verwendung des Standardfilters Folgendes:
    * Ein geplantes Startdatum, das vor dem letzten Tag des vierten Monats ab dem aktuellen Datum eintritt
    * Status &quot;Aktuell&quot;oder &quot;Planung&quot;
 
-   >[!IMPORTANT]
-   >
-   >Der Filter Standard ruft Informationen aus den Projekten ab, die immer innerhalb von vier Monaten ab dem ersten Tag des aktuellen Monats auftreten, unabhängig vom Zeitrahmen, den Sie für die Anzeige im Ressourcenplaner auswählen.
+  >[!IMPORTANT]
+  >
+  >Der Filter Standard ruft Informationen aus den Projekten ab, die immer innerhalb von vier Monaten ab dem ersten Tag des aktuellen Monats auftreten, unabhängig vom Zeitrahmen, den Sie für die Anzeige im Ressourcenplaner auswählen.
 
 * In der Benutzeransicht werden alle Benutzer im System angezeigt, aber nur die mit den gefilterten Projekten verknüpften Benutzer zeigen Stundeninformationen an.
 * Sie können die Informationen im Standardfilter bearbeiten, ohne den Filter zu speichern.
 * Sie können eine Kopie des Standardfilters duplizieren und bearbeiten, die gewünschten Kriterien darin ändern und sie dann als neuen Filter speichern.
 * Der Standardfilter kann nicht gelöscht oder freigegeben werden.
 
-   ![RP_new_default_fitler_kriterien__1_.PNG](assets/rp-new-default-fitler-criteria--1--301x547.png)
+  ![RP_new_default_fitler_kriterien__1_.PNG](assets/rp-new-default-fitler-criteria--1--301x547.png)
 
 ## Filter für Ressourcenplaner erstellen {#create-resource-planner-filters}
 
@@ -117,13 +117,13 @@ Beachten Sie beim Erstellen eines Filters Folgendes:
 
 So erstellen Sie einen Filter im Ressourcenplaner:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Ressourcen**.
+1. Klicks **Ressourcen**.
 
    Die **Planen** wird standardmäßig angezeigt.
 
-   Wenn Sie den Ressourcen-Planer zum ersten Mal aufrufen, wird standardmäßig die <strong>Standardfilter</strong> angewendet wird.<br>Weitere Informationen zum Standardfilter finden Sie im Abschnitt <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Übersicht über den Standardfilter im Ressourcenplaner</a> in diesem Artikel.
+   Wenn Sie den Ressourcen-Planer zum ersten Mal aufrufen, wird standardmäßig die <strong>Standardfilter</strong> angewendet wird.<br>Weitere Informationen zum Standardfilter finden Sie im Abschnitt <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Übersicht über den Standardfilter im Ressourcenplaner</a> in diesem Artikel beschrieben.
 
 1. Klicken Sie in der linken oberen Ecke der auf die **Filter** Symbol.\
    ![filter_icon.png](assets/filter-icon.png)\
@@ -133,20 +133,20 @@ So erstellen Sie einen Filter im Ressourcenplaner:
 
 1. Um einen Filter mithilfe der integrierten Kriterien zu erstellen, geben Sie eines der folgenden Felder an:
 
-   * **Portfolio**: Geben Sie den Namen des Portfolios ein, das die Informationen enthält, die Sie in den Ressourcenplaner aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.\
-      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Portfolios einzuschließen.
+   * **Portfolio**: Beginnen Sie mit der Eingabe des Namens des Portfolios, das die Informationen enthält, die Sie in den Ressourcenplaner aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.\
+     Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Portfolios einzuschließen.
 
    * **Projektstatus**: Erweitern Sie das Dropdown-Menü Projektstatus und wählen Sie einen oder mehrere Projektstatus aus, die in der Liste verfügbar sind.
    * **Team**: Beginnen Sie mit der Eingabe des Namens eines oder mehrerer Teams, die mit den Benutzern verknüpft sind, die Aufgaben in den Projekten zugewiesen sind, die Sie anzeigen möchten.
    * **Auftragsrolle**: Beginnen Sie mit der Eingabe des Namens einer oder mehrerer Vorgangsrollen, die mit den Benutzern verknüpft sind, die Aufgaben in den Projekten zugewiesen sind, die Sie anzeigen möchten.
    * **Pools**: Beginnen Sie mit der Eingabe des Namens eines oder mehrerer Ressourcen-Pools, die mit den Projekten (für die Projektansicht) verknüpft sind, der Benutzer (für die Benutzeransicht) oder mit den Projekten und den Benutzern (für die Rollenansicht), die Sie anzeigen möchten.
-   * **Gruppe**: Beginnen Sie mit der Eingabe des Namens einer oder mehrerer Gruppen, die mit den Benutzern (in der Benutzeransicht) oder Projekten (in den Projekt- und Rollenansichten) verknüpft sind, die Sie anzeigen möchten.
+   * **Gruppe**: Beginnen Sie mit der Eingabe des Namens einer oder mehrerer Gruppen, die mit den Benutzern (in der Benutzeransicht) oder Projekten (in der Projekt- und Rollenansicht) verknüpft sind, die Sie anzeigen möchten.
 
-1. Klicken **Filterregel hinzufügen** und geben Sie dann den Feldnamen ein, nach dem Sie filtern möchten, im **Typ zum Filtern von Elementen** ankreuzen. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann.
+1. Klicks **Filterregel hinzufügen** und geben Sie dann den Feldnamen ein, nach dem Sie filtern möchten, im **Typ zum Filtern von Elementen** ankreuzen. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann.
 
    >[!IMPORTANT]
    >
-   >Beim Referenzieren von benutzerdefinierten Feldern müssen Sie den Feldnamen und nicht die Feldbezeichnung eingeben. Die Feldbezeichnung wird in einem benutzerdefinierten Formular angezeigt, das an ein Objekt angehängt ist. Informationen zum Unterschied zwischen der Beschriftung und dem Namen eines benutzerdefinierten Felds finden Sie unter  [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+   >Beim Referenzieren von benutzerdefinierten Feldern müssen Sie den Feldnamen und nicht die Feldbezeichnung eingeben. Die Feldbeschriftung wird in einem benutzerdefinierten Formular angezeigt, das an ein Objekt angehängt ist. Informationen zum Unterschied zwischen der Beschriftung und dem Namen eines benutzerdefinierten Felds finden Sie unter  [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
 
 1. Klicken Sie auf den Namen des Felds, um es dem Filter hinzuzufügen, wenn es in der Liste angezeigt wird.\
    Weitere Informationen zu den in der Liste angezeigten Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
@@ -154,15 +154,15 @@ So erstellen Sie einen Filter im Ressourcenplaner:
 1. (Optional) Wählen Sie den Filter und die Bedingungsmodifikatoren für den Filter aus. Die verfügbaren Modifikatoren werden unter [Filter- und Bedingungs-Modifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    Sie können benutzerbasierte oder datumsbasierte Platzhalter verwenden, um nach Informationen zu filtern, die dem angemeldeten Benutzer zugeordnet sind.\
-   Informationen zu unterstützten Platzhaltern in Filtern finden Sie unter [Platzhalterfiltervariablen](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Informationen zu unterstützten Platzhaltern in Filtern finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Klicken **Speichern**, um die Filterregel zu speichern.
+1. Klicks **Speichern**, um die Filterregel zu speichern.
 1. (Optional) Klicken Sie auf **Filterregel hinzufügen** , um eine neue Regel für ein anderes Objekt oder Feld hinzuzufügen.
-1. Klicken **Anwenden** , um den Filter anzuwenden, ohne ihn zu speichern.
+1. Klicks **Anwenden** , um den Filter anzuwenden, ohne ihn zu speichern.
 
    Oder
 
-   Klicken **Filter speichern** , um den Filter zu speichern.\
+   Klicks **Filter speichern** , um den Filter zu speichern.\
    ![RP_Apply_or_Save_button_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
 1. (Bedingt) Nachdem Sie auf **Speichern**, geben Sie einen Namen für den Filter in der **Filtername** in der **Filter speichern** Dialogfeld. Dies ist ein Pflichtfeld.\
@@ -176,7 +176,6 @@ So erstellen Sie einen Filter im Ressourcenplaner:
    >* Schrägstrich
    >* Bindestrich
    >* Unterstrich
-
 
 1. Klicken Sie auf **Speichern**.
 
@@ -217,7 +216,7 @@ Sie können den Namen eines Filters ändern, ohne dessen Kriterien zu ändern. E
 
    ![](assets/rp-filter-options-edit-350x154.png)
 
-1. Geben Sie einen neuen Namen für den Filter im **Filtername** ankreuzen.
+1. Geben Sie im **Filtername** ankreuzen.
 1. Klicken Sie auf **Speichern**.\
    Die im Filter enthaltenen Informationen sind identisch und der Name wird aktualisiert.
 
@@ -233,17 +232,17 @@ Sie können die Informationen, die Sie in einen Filter einschließen, ändern, o
 1. Fügen Sie dem Filter neue Felder hinzu.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filter für Ressourcenplaner erstellen](#create-resource-planner-filters).
 
-1. Bewegen Sie den Mauszeiger über die für den Filter ausgewählten Felder und klicken Sie auf die Schaltfläche **Bearbeiten** Symbol, um ein anderes Feld auszuwählen, oder **Löschen** zum Löschen des Felds.\
+1. Bewegen Sie den Mauszeiger über die für den Filter ausgewählten Felder und klicken Sie auf **Bearbeiten** Symbol, um ein anderes Feld auszuwählen, oder **Löschen** zum Löschen des Felds.\
    ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
 1. (Optional) Klicken Sie auf **Filterregel hinzufügen** , um dem Filter neue Felder hinzuzufügen.\
    Weitere Informationen zum Definieren von Filterkriterien finden Sie unter [Filter für Ressourcenplaner erstellen](#create-resource-planner-filters).
 
-1. Klicken **Anwenden** , um den Filter anzuwenden, ohne ihn zu speichern.
+1. Klicks **Anwenden** , um den Filter anzuwenden, ohne ihn zu speichern.
 
    Oder
 
-   Klicken **Speichern** , um den Filter zu speichern.\
+   Klicks **Speichern** , um den Filter zu speichern.\
    Der Filter wird mit demselben Namen, aber mit neuen Filterkriterien gespeichert.
 
 ### Filter duplizieren {#duplicate-a-filter}
@@ -260,7 +259,7 @@ Sie können einen vorhandenen Filter duplizieren. Die ursprünglichen Filterkrit
 1. Im **Filtername** einen neuen Namen für den duplizierten Filter angeben.\
    Der Standardname für den neuen Filter lautet *`<Original Filter Name>`(Kopie)*.
 
-1. Klicken Sie auf **Speichern**. Ein neuer Filter wird mit denselben Kriterien wie der ursprüngliche Filter und einem neuen Namen erstellt.
+1. Klicks **Speichern**. Ein neuer Filter wird mit denselben Kriterien wie der ursprüngliche Filter und einem neuen Namen erstellt.
 
    >[!NOTE]
    >
@@ -270,7 +269,7 @@ Sie können einen vorhandenen Filter duplizieren. Die ursprünglichen Filterkrit
 
 Sie können Filter löschen, wenn sie nicht mehr benötigt werden. Der Standardfilter kann nicht gelöscht werden.
 
-Weitere Informationen zum Standardfilter finden Sie unter [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
+Weitere Informationen zum Standardfilter finden Sie unter [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel beschrieben.
 
 Wenn Sie einen Filter löschen, wird der Filter für alle Workfront-Benutzer gelöscht, die Zugriff auf den Ressourcenplaner haben. Stellen Sie vor dem Entfernen sicher, dass der Filter, den Sie entfernen möchten, von niemandem mehr verwendet wird, der im Ressourcenplaner arbeitet. Ein gelöschter Filter kann nicht wiederhergestellt werden.
 
@@ -283,7 +282,7 @@ So entfernen Sie einen Filter:
 
    ![](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **Löschen** im **Filter löschen** Dialogfeld.
+1. Klicks **Löschen** im **Filter löschen** Dialogfeld.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 
@@ -295,9 +294,9 @@ Sie können einen von Ihnen erstellten Filter oder einen Filter freigeben, den S
 >
 >Alle Benutzer, einschließlich Workfront-Administratoren, können nur auf Filter zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Sie können einen Filter für bestimmte Benutzer freigeben, um einen Filter für alle Ressourcen-Planer-Benutzer verfügbar zu machen.
 
-Weitere Informationen zum Standardfilter finden Sie unter [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
+Weitere Informationen zum Standardfilter finden Sie unter [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel beschrieben.
 
-Informationen zum Duplizieren von Filtern finden Sie im Abschnitt [Filter duplizieren](#duplicate-a-filter) in diesem Artikel.
+Informationen zum Duplizieren von Filtern finden Sie im Abschnitt [Filter duplizieren](#duplicate-a-filter) in diesem Artikel beschrieben.
 
 1. Wechseln Sie zum Ressourcen-Planer.
 1. Erweitern Sie die **Filter** Dropdown-Menü.
@@ -318,7 +317,7 @@ Informationen zum Duplizieren von Filtern finden Sie im Abschnitt [Filter dupliz
    * Anzeigen
    * Verwalten
 
-      Informationen zu Berechtigungen in Workfront finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     Informationen zu Berechtigungen in Workfront finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 1. (Optional) Klicken Sie auf **Erweiterte Einstellung** ist es, Berechtigungen für jede Ebene hinzuzufügen, indem Sie sie auswählen oder Berechtigungen für jede Ebene entfernen, indem Sie deren Auswahl aufheben.
 

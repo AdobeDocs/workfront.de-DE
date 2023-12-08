@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 2%
+source-wordcount: '2202'
+ht-degree: 1%
 
 ---
 
@@ -48,11 +48,14 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td> <p>Neuer Plan: Standard </p>
+ <p>oder</p> 
+<p>Aktueller Plan: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -66,7 +69,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. (Bedingt) Wenn Sie einen Validierungsprozess auf Systemebene erstellen, klicken Sie auf **Prozesse** > **Genehmigungen** im linken Bereich.
 
@@ -78,7 +81,7 @@ Sie müssen über Folgendes verfügen:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Klicken Sie auf **Projektgenehmigungen**, **Aufgabenvalidierungen** oder **Emissionsgenehmigungen** je nach dem Typ des zu erstellenden Validierungsprozesses.
+1. Wählen Sie entweder **Projektgenehmigungen**, **Aufgabenvalidierungen** oder **Emissionsgenehmigungen** Registerkarte.
 
 1. Klicks **Neuer Genehmigungsprozess**.
 1. Geben Sie die folgenden Informationen in das angezeigte Feld ein:
@@ -89,15 +92,15 @@ Sie müssen über Folgendes verfügen:
     <tbody> 
      <tr> 
       <td role="rowheader">Name des Genehmigungsprozesses</td> 
-      <td>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit</a>.</td> 
+      <td><p>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung des Validierungsprozesses ein. Dies wird im <b>Genehmigungen</b> im Abschnitt <b>Einrichtung</b> neben dem Namen des Validierungsprozesses.</td> 
+      <td><p>Geben Sie eine Beschreibung des Validierungsprozesses ein. Dies wird im <b>Genehmigungen</b> im Abschnitt <b>Einrichtung</b> neben dem Namen des Validierungsprozesses.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
-      <td> <p>Lassen Sie diese Option aktiviert, wenn Sie möchten, dass andere Benutzer den Genehmigungsprozess an von ihnen erstellte Projekte, Aufgaben und Probleme anhängen können. </p> <p>Diese Option ist standardmäßig aktiviert.</p> <p> Die Kennzeichnung eines Validierungsprozesses als inaktiv ist nützlich, wenn Ihr Unternehmen ihn nicht mehr verwenden muss, Sie jedoch historische Informationen über seine Verwendung beibehalten möchten.</p> </td> 
+      <td> <p>Lassen Sie diese Option aktiviert, wenn Sie möchten, dass andere Benutzer den Genehmigungsprozess an von ihnen erstellte Projekte, Aufgaben und Probleme anhängen können. </p> <p>Diese Option ist standardmäßig aktiviert.</p> <p> Tipp: Die Kennzeichnung eines Validierungsprozesses als inaktiv ist nützlich, wenn Ihr Unternehmen ihn nicht mehr verwenden muss, Sie jedoch historische Informationen über seine Verwendung beibehalten möchten.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Dieser Genehmigungsprozess kann genutzt werden von </td> 
@@ -140,10 +143,10 @@ Sie müssen über Folgendes verfügen:
 
    <p><b>TIPP</b>:</p>
 
-   <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
+   <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
       <p>Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a>. </p>
 
-   <p><b>NOTIZ</b>:
+   <p><b>NOTE</b>:
 
    Wenn Benutzer, Teams oder Rollen als Genehmiger hinzugefügt werden, erhalten sie nicht automatisch Berechtigungen für das mit dieser Genehmigung verknüpfte Objekt. Sie erhalten Berechtigungen für das Objekt, wenn der Genehmigungsschritt ausgelöst wird. Andernfalls müssen die Objekte für sie freigegeben werden, bevor sie eine Genehmigungsentscheidung treffen können. </p> <p>Sie können eine Person auch als Genehmiger festlegen, indem Sie die Rolle der Person festlegen. Sie können beispielsweise einen Projekteigentümer, einen Projektsponsor, Portfolio-Inhaber, Programmeigentümer oder Manager als Genehmiger zuweisen. Diese Optionen werden automatisch angezeigt, wenn Sie mit der Eingabe beginnen.</p>
 
@@ -159,15 +162,15 @@ Sie müssen über Folgendes verfügen:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Sie können diesen Vorgang wiederholen, um mehrere Genehmiger zur Bühne hinzuzufügen. Eine einzelne Phase kann eine Kombination aus Benutzern, Teams und Rollen als Genehmiger enthalten. Die Anzahl der Genehmiger, die Sie einer Bühne hinzufügen können, ist unbegrenzt.</p> <p><b>WICHTIG</b>:  <p>Wenn Sie Auftragsrollen als Genehmiger zuweisen, können alle Benutzer, die mit dieser Auftragsrolle verknüpft sind und sich ebenfalls im Projektteam befinden, eine Entscheidung über die Genehmigung treffen. </p> <p>Wenn Sie ein Team als Genehmiger zuweisen, kann jeder Benutzer in diesem Team eine Entscheidung über die Genehmigung treffen. </p> <p>Weitere Informationen zum Projektteam finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Übersicht über das Projektteam</a>. Weitere Informationen zur Genehmigung der Arbeit finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Validierung der Arbeit </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Es ist nur eine Entscheidung erforderlich</td> 
-      <td> <p>(Wird nur angezeigt, wenn Sie mehrere Genehmiger zur Bühne hinzufügen) Wählen Sie diese Option, wenn einer der Genehmiger auf der Bühne das Arbeitselement in dieser Phase genehmigen oder ablehnen kann. Diese Aktion ermöglicht es dem Arbeitselement, die Phase zu verlassen. </p> <p>Wenn diese Option nicht ausgewählt ist, müssen alle identifizierten Genehmiger die Phase (in beliebiger Reihenfolge) genehmigen oder ablehnen, bevor das Element die Bühne verlässt. Wenn einer der Genehmiger die Phase ablehnt, wird der Prozess unterbrochen und neu gestartet, damit die erforderlichen Änderungen vorgenommen werden können. Anschließend können die Genehmiger die Phase erneut genehmigen oder ablehnen.</p> <p>Wenn ein Team als Genehmiger bestimmt wird, kann jedes Mitglied des Teams eine Phase gewähren oder ablehnen.</p> </td> 
+      <td role="rowheader">Nur eine Entscheidung ist erforderlich <br> <br>(Wird nur angezeigt, wenn Sie mehrere Genehmiger zur Bühne hinzufügen.) </td> 
+      <td> <p>Wählen Sie diese Option aus, wenn einer der Genehmiger auf der Bühne das Arbeitselement in dieser Phase genehmigen oder ablehnen kann. Diese Aktion ermöglicht es dem Arbeitselement, die Phase zu verlassen. </p> <p>Wenn diese Option nicht ausgewählt ist, müssen alle identifizierten Genehmiger die Phase (in beliebiger Reihenfolge) genehmigen oder ablehnen, bevor das Element die Bühne verlässt. Wenn einer der Genehmiger die Phase ablehnt, wird der Prozess unterbrochen und neu gestartet, damit die erforderlichen Änderungen vorgenommen werden können. Anschließend können die Genehmiger die Phase erneut genehmigen oder ablehnen.</p> <p>Wenn ein Team als Genehmiger bestimmt wird, kann jedes Mitglied des Teams eine Phase gewähren oder ablehnen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Phase hinzufügen</p> </td> 
-      <td>(Optional) Fügen Sie dem Pfad eine weitere Phase hinzu, indem Sie die in den drei oben erläuterten Zeilen erläuterten Optionen verwenden. Sie können dem Pfad beliebig viele Bühnen hinzufügen.</td> 
+      <td><p>(Optional) Fügen Sie dem Pfad eine weitere Phase hinzu, indem Sie die in den drei oben erläuterten Zeilen erläuterten Optionen verwenden. Sie können dem Pfad beliebig viele Bühnen hinzufügen.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Legen Sie fest, was geschehen soll, wenn die Genehmigung abgelehnt wird</p> </td> 
+      <td role="rowheader">Wählen Sie aus, was passiert, wenn die Validierung abgelehnt wird</p> </td> 
       <td> <p>Wählen Sie die Aktion aus, die ausgeführt werden soll, wenn das Arbeitselement in einer beliebigen Phase des Pfads abgelehnt wird:</p> 
        <ul> 
        <li><b>Erstellen eines Problems</b>: (Nur für Projekt- und Aufgabengenehmigungsprozesse verfügbar) Es wird ein Problem im Projekt oder in der Aufgabe erstellt, in dem der Genehmigungsprozess ausgeführt wird. Die standardmäßig zugewiesene Ressource für die Aufgabe oder der Eigentümer des Projekts wird dem Problem zugewiesen. Standardmäßig lautet der Name des erstellten Problems <b>Genehmigung abgelehnt (&lt;project or="" task="" name=""&gt;)</b>. Dies ist ein Zurückweisungsproblem, das je nach Validierungsprozess, in dem die Zurückweisung erfolgte, unter die Aufgabe oder das Projekt eingegeben wurde.</li> 
@@ -197,7 +200,11 @@ Informationen zum Bearbeiten eines Genehmigungsprozesses finden Sie unter [Valid
 
 ## Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement
 
-Wenn Sie einen Genehmigungsprozess für ein Arbeitselement (Projekt, Aufgabe oder Problem) erstellen möchten, erstellen Sie zunächst den Genehmigungsprozess, dann das Arbeitselement und dann können Sie und Ihre Benutzer den Genehmigungsprozess mit dem Arbeitselement verknüpfen.
+Wenn Sie einen Genehmigungsprozess für ein Arbeitselement (Projekt, Aufgabe oder Problem) erstellen möchten,
+
+1. Erstellen Sie zuerst den Validierungsprozess.
+1. Arbeitselement erstellen
+1. Verknüpfen des Genehmigungsprozesses mit dem Arbeitselement
 
 Anweisungen zum Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

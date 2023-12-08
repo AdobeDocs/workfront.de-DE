@@ -5,9 +5,9 @@ description: Die obere Navigationsleiste, die in der neuen [!DNL Adobe Workfront
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Unter diesen Optionen finden Sie im [!UICONTROL Hauptmenü], können Sie auf Fol
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Klicken <b>[!UICONTROL Setup]</b> Sie gelangen in den [!UICONTROL Setup]-Bereich, in dem Sie verschiedene Aspekte Ihrer [!DNL Workfront] -Konto. Abhängig von Ihren Zugriffseinstellungen ist das, was Sie konfigurieren können, möglicherweise eingeschränkt.</p> <p>Weitere Informationen zum [!UICONTROL Setup]-Bereich finden Sie unter <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration und Einrichtung</a>.</p> </td> 
+   <td> <p>Klicken <b>[!UICONTROL Setup]</b> Sie gelangen in den [!UICONTROL Setup]-Bereich, in dem Sie verschiedene Aspekte Ihrer [!DNL Workfront] -Konto. Abhängig von Ihren Zugriffseinstellungen ist das, was Sie konfigurieren können, möglicherweise eingeschränkt.</p> <p>Weitere Informationen zum [!UICONTROL Setup]-Bereich finden Sie unter <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration und Einrichtung: Artikelindex</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Hilfe]</p> </td> 

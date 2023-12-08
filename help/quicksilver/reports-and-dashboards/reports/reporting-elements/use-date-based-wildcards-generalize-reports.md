@@ -6,9 +6,9 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -62,15 +62,15 @@ Sie müssen einen Bericht erstellen, bevor Sie ihm Platzhaltervariablen hinzufü
 
 Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Anleitungsschritte
+## Schritte
 
 So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
 1. Gehen Sie zu einem Bericht, für den Sie einen datumsbasierten Platzhalter einfügen möchten.
-1. Klicken **Berichtaktionen**, dann **Bearbeiten**.
+1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
 
 1. Klicken Sie auf **Filter** Registerkarte.
-1. Klicken **Filterregel hinzufügen**.
+1. Klicks **Filterregel hinzufügen**.
 1. Geben Sie den Namen des Felds ein, nach dem Sie filtern möchten.\
    Sie müssen Felder eingeben, die auf ein Datum verweisen.
 1. Auswählen **Gleich** im Dropdown-Menü für die Filtervariable.
@@ -87,21 +87,21 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
    Dieses Datum unterscheidet sich immer, da es sich mit dem Datum ändert, an dem der Bericht von einem Benutzer angezeigt wird. sodass sich die Informationen im Bericht von Tag zu Tag unterscheiden.
 
-1. (Optional) Wenn Sie Informationen anzeigen möchten, die innerhalb eines Zeitraums nach dem Datum der Berichtsausführung auftreten, geben Sie `$$TODAY+1w` zur Anzeige von Informationen in der folgenden Woche oder `$$TODAY+2m` um Informationen in den nächsten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
+1. (Optional) Wenn Sie Informationen anzeigen möchten, die innerhalb eines Zeitraums nach dem Datum der Berichtsausführung auftreten, geben Sie `$$TODAY+1w` zur Anzeige von Informationen in der folgenden Woche oder `$$TODAY+2m` , um Informationen in den nächsten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
 1. (Optional) Wenn Sie Informationen zu etwas anzeigen möchten, das innerhalb eines Zeitraums vor dem Datum der Ausführung des Berichts aufgetreten ist, geben Sie `$$TODAY-1w` zur Anzeige von Informationen aus der Vorwoche oder `$$TODAY-2m` , um Informationen aus den beiden Vormonaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
 
-   Eine vollständige Liste der Attribute, Kennungen und Operatoren, die Sie in datumsbasierten Platzhaltern verwenden können, finden Sie im Artikel [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Eine vollständige Liste der Attribute, Kennungen und Operatoren, die Sie in datumsbasierten Platzhaltern verwenden können, finden Sie im Artikel [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
 
 ## Zusätzliche Informationen
 
 Siehe auch:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

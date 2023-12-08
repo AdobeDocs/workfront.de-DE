@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Die folgenden Regeln gelten für das Referenzieren von Workfront-Objekten mithil
 
 * Sie können einen Platzhalter in einem `valueexpression` aber nicht in `valuefield` Linie.
 
-  Weitere Informationen zu Platzhaltern finden Sie unter [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Weitere Informationen zu Platzhaltern finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` Übersicht über Ansichten und Gruppierungen
@@ -285,4 +285,4 @@ Sie können die folgenden Elemente verwenden, um Filter und benutzerdefinierte E
      >
      >Bei Anweisungs-Connectoren wird zwischen Groß- und Kleinschreibung unterschieden. &quot;AND&quot;kann im Textmodus weggelassen werden.
 
-* Platzhalter, um Filter dynamischer zu gestalten und für die aktuelle Zeit oder den angemeldeten Benutzer anzupassen. Weitere Informationen zu Platzhaltern finden Sie unter [Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Platzhalter, um Filter dynamischer zu gestalten und für die aktuelle Zeit oder den angemeldeten Benutzer anzupassen. Weitere Informationen zu Platzhaltern finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

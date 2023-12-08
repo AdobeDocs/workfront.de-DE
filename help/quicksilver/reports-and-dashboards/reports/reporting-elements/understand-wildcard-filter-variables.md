@@ -7,14 +7,14 @@ description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 1%
 
 ---
 
-# Platzhalterfiltervariablen
+# Übersicht über Wildcard-Filtervariablen
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,46 +27,48 @@ ht-degree: 1%
 </div>
 -->
 
-Adobe Workfront unterstützt Filtervariablen oder Platzhalter beim Erstellen der folgenden Elemente:
-
-* Filter in Listen, Berichten und im Ressourcenplaner
-
-   Weitere Informationen zu Workfront-Filtern finden Sie im Artikel [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-* Erweiterte Suchvorgänge
-
-   Informationen zu erweiterten Suchen finden Sie im Abschnitt [Erweiterte Suche verwenden](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) im Artikel [Adobe Workfront durchsuchen](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-* Berechnete Spalten in Ansichten
-* Bedingte Formatierung in Ansichten
-
-   Weitere Informationen zur bedingten Formatierung finden Sie im Artikel [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-
-* Berechnete benutzerdefinierte Felder
-
-   >[!NOTE]
-   >
-   >Platzhalterfiltervariablen werden nicht unterstützt, wenn in einer berechneten Spalte auf verschachtelte Sammlungen verwiesen wird.
-
-   Informationen zu berechneten benutzerdefinierten Feldern und Spalten finden Sie im Artikel [Berechnete benutzerdefinierte Felder vs. berechnete Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
-
-Durch die Verwendung von Platzhaltern können Sie auf einen generischen Benutzer oder ein generisches Datum statt auf einen bestimmten Benutzer oder ein bestimmtes Datum verweisen. Auf diese Weise sind die von Ihnen erstellten Elemente dynamisch und die Ergebnisse ändern sich je nach Kontext, in dem sie verwendet werden.
+Mithilfe von Platzhaltern können Sie auf einen generischen Benutzer oder ein generisches Datum statt auf einen bestimmten Benutzer oder ein bestimmtes Datum verweisen. Auf diese Weise sind die von Ihnen erstellten Elemente dynamisch. Die Ergebnisse ändern sich je nach Kontext, in dem sie verwendet werden.
 
 Wenn Sie beispielsweise in einem Projektbericht nach $$USER.homeGroupID filtern, werden nur Projekte abgerufen, die mit der Home Group des angemeldeten Benutzers verknüpft sind.
 
-Sie können datumsbasierte oder benutzerbasierte Filtervariablen in Workfront verwenden.
+Sie können beim Erstellen der folgenden Elemente Filtervariablen verwenden, die auch als Platzhalter bezeichnet werden:
+
+<table>
+    <tr>
+        <td>Filter in Listen, Berichten und im Ressourcenplaner</td>
+        <td>Weitere Informationen zu Workfront-Filtern finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filterübersicht in Adobe Workfront</a>.
+</td>
+    </tr>
+    <tr>
+        <td>Erweiterte Suchvorgänge</td>
+        <td>Informationen zu erweiterten Suchen finden Sie im Abschnitt . <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Erweiterte Suche verwenden</a> im Artikel <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Adobe Workfront durchsuchen</a>.
+    </tr>
+    <tr>
+        <td>Berechnete Spalten in Ansichten</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bedingte Formatierung in Ansichten</td>
+        <td>Weitere Informationen zur bedingten Formatierung finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Bedingte Formatierung in Ansichten verwenden</a>.
+    </tr>
+    <tr>
+        <td>Berechnete benutzerdefinierte Felder</td>
+        <td>Platzhalterfiltervariablen werden nicht unterstützt, wenn in einer berechneten Spalte auf verschachtelte Sammlungen verwiesen wird.
+
+Informationen zu berechneten benutzerdefinierten Feldern und Spalten finden Sie im Artikel <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Berechnete benutzerdefinierte Felder vs. berechnete Spalten</a>.
+</td>
+    </tr>
+</table>
 
 ## Datumsbasierte Platzhalterfiltervariablen
 
-Die datumsbasierten Platzhalteroptionen von Workfront können in Kombination mit einem beliebigen Datumsfilterattribut verwendet werden.
-
-Informationen zum Hinzufügen eines datumsbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Datumsbasierte Platzhalteroptionen können in Kombination mit einem beliebigen Datumsfilterattribut verwendet werden. Informationen zum Hinzufügen eines datumsbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
 >Wenn Sie eine Datums- und Uhrzeitberechnung erstellen, die keinen Zeitabschnitt enthält oder die Datumsfelder $$TODAY oder $$NOW verwendet, verwendet das System das Datum gemäß der UTC-Zone (Coordinated Universal Time), nicht gemäß Ihrer lokalen Zeitzone. Dies kann zu einem unerwarteten Datumsergebnis führen.
 
-Wählen Sie aus den folgenden datumsbasierten Platzhaltern:
+Sie können aus den folgenden datumsbasierten Platzhaltern wählen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,17 +80,17 @@ Wählen Sie aus den folgenden datumsbasierten Platzhaltern:
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>Dies ähnelt dem Platzhalter $$TODAY , enthält jedoch das aktuelle Datum und die aktuelle Uhrzeit. $$NOW entspricht dem aktuellen Datum und der aktuellen Uhrzeit.</p> <p>Wenn Sie beispielsweise alle bis zur aktuellen Zeit bereitgestellten Stundeneinträge anzeigen möchten, können Sie dies mithilfe der folgenden Regel in einem Stundenfilter tun: <em>Geplantes Startdatum unter $$NOW</em>.</p> <p>Hinweis: Dieser Platzhalter wird im Ressourcenplaner nicht unterstützt.</p> </td> 
+   <td> <p>Dies ähnelt dem Platzhalter $$TODAY , enthält jedoch das aktuelle Datum und die aktuelle Uhrzeit. $$NOW entspricht dem aktuellen Datum und der aktuellen Uhrzeit.</p> <p>Wenn Sie beispielsweise alle bis zur aktuellen Zeit bereitgestellten Stundeneinträge anzeigen möchten, können Sie dies mithilfe der folgenden Regel in einem Stundenfilter tun: <em>Geplantes Startdatum unter $$NOW</em>.</p> <p>Hinweis: Dieser Platzhalter wird im Ressourcen-Planer nicht unterstützt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder früher) anzugeben, können Sie Platzhalter mit folgenden kombinieren:
+Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder früher) anzugeben, können Sie die obigen Platzhalter mit den folgenden kombinieren:
 
 | Attribute |   |
 |---|---|
 | **q** | Kalenderquartal |
-| **s** | Stunde |
+| **h** | Stunde |
 | **d** | Tag |
 | **w** | Woche |
 | **m** | Monat |
@@ -96,14 +98,14 @@ Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder früher)
 
 {style="table-layout:auto"}
 
-| **Qualifizierer** |  |
+| **Qualifizierer** | |
 |---|---|
 | **b** | Beginn der Woche (Sonntag) |
 | **e** | Wochenende (Samstag) |
 
 {style="table-layout:auto"}
 
-| **Benutzer** |  |
+| **Operatoren** | |
 |---|---|
 | **+** | Wert zum Platzhalterwert hinzufügen |
 | **-** | Wert vom Platzhalterwert subtrahieren |
@@ -116,11 +118,11 @@ Beispiel: der Platzhalter `$$TODAYb+2w` bezieht sich auf &quot;2 Wochen ab Begin
 
 >[!IMPORTANT]
 >
->Wenn ein Filter oder Bericht eine benutzerbasierte Platzhalterfiltervariable enthält, werden in den Ergebnissen immer Informationen angezeigt, die von dem aktuell angemeldeten Benutzer gefiltert wurden. Wenn Sie einen solchen Filter oder Bericht für einen anderen Benutzer freigeben, ruft der Platzhalter Informationen für den Benutzer ab, der den Bericht betrachtet. Die beiden Benutzer sehen unterschiedliche Ergebnisse.
+>Wenn ein Filter oder Bericht eine benutzerbasierte Platzhalterfiltervariable enthält, werden in den Ergebnissen immer Informationen angezeigt, die von dem Benutzer gefiltert wurden, der aktuell angemeldet ist. Wenn Sie einen solchen Filter oder Bericht für einen anderen Benutzer freigeben, ruft der Platzhalter Informationen für den Benutzer ab, der den Bericht betrachtet. Die beiden Benutzer sehen unterschiedliche Ergebnisse.
+>
+>Informationen zum Hinzufügen eines benutzerbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Informationen zum Hinzufügen eines benutzerbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
-
-Workfront stellt die folgenden benutzerbasierten Variablen bereit:
+Sie können aus den folgenden benutzerbasierten Variablen auswählen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,7 +132,7 @@ Workfront stellt die folgenden benutzerbasierten Variablen bereit:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>Die häufigste benutzerbasierte Variable ist $$USER.ID. Dadurch wird immer die ID des angemeldeten Benutzers zurückgegeben. Dies ist die ID, mit der festgestellt wird, welcher Benutzer die einzelnen Objekte und deren Arbeitszuweisungen erstellt hat.</p> <p>Bei Verwendung in Berichten verringert dieser Platzhalter die Anzahl der Berichte, die Sie in Ihrem System erstellen müssen. Sie können einen Bericht erstellen und ihn für mehrere Benutzer freigeben. Die Ergebnisse ändern sich je nach dem Benutzer, der angemeldet ist und sich den Bericht ansieht.</p> <p>Um beispielsweise einen Bericht für alle Probleme zu erstellen, die dem angemeldeten Benutzer zugewiesen sind, können Sie die folgende Regel in einem Problemfilter verwenden: <em>Zugeordnet nach ID entspricht $$USER.ID</em>.</p> <p>Workfront verwendet diese Variable in den folgenden integrierten Filtern:</p> 
+    --> <p>Die häufigste benutzerbasierte Variable ist $$USER.ID. Dadurch wird immer die ID des angemeldeten Benutzers zurückgegeben. Dies ist die ID, mit der festgestellt wird, welcher Benutzer die einzelnen Objekte und deren Arbeitszuweisungen erstellt hat.</p> <p>Bei Verwendung in Berichten verringert dieser Platzhalter die Anzahl der Berichte, die Sie in Ihrem System erstellen müssen. Sie können einen Bericht erstellen und ihn für mehrere Benutzer freigeben. Die Ergebnisse ändern sich je nach dem Benutzer, der angemeldet ist und sich den Bericht ansieht.</p> <p>Um beispielsweise einen Bericht für alle Probleme zu erstellen, die dem angemeldeten Benutzer zugewiesen sind, können Sie die folgende Regel in einem Problemfilter verwenden: <em>Der ID zugewiesen ist $$USER.ID</em>.</p> <p>Workfront verwendet diese Variable in den folgenden integrierten Filtern:</p> 
     <ul> 
      <li>Meine Berichte</li> 
      <li>Meine Projekte</li> 
@@ -169,16 +171,16 @@ Workfront stellt die folgenden benutzerbasierten Variablen bereit:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
-   <td> <p>Die Variable $$USER.name bezieht sich auf den vollständigen Namen des angemeldeten Benutzers.</p> <p>Notiz:   <p>Diese Platzhaltervariable funktioniert nur, wenn ein Filter im Textmodus geändert wird. Sie können diesen Platzhalter nicht in Filtern verwenden, die den Textmodus nicht unterstützen. Sie können diesen Platzhalter beispielsweise nicht in den Filtern in den folgenden Bereichen verwenden:</p> 
+   <td> <p>Die Variable $$USER.name bezieht sich auf den vollständigen Namen des angemeldeten Benutzers.</p> <p>Hinweis:   <p>Diese Platzhaltervariable funktioniert nur, wenn ein Filter im Textmodus geändert wird. Sie können diesen Platzhalter nicht in Filtern verwenden, die den Textmodus nicht unterstützen. Sie können diesen Platzhalter beispielsweise nicht in den Filtern in den folgenden Bereichen verwenden:</p> 
      <ul> 
       <li> <p>Ressourcenplaner</p> </li> 
-      <li> <p>Workload-Balancer</p> </li> 
+      <li> <p>Workload Balancer</p> </li> 
       <li> <p>Analytik</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>Die Variable $$USER.homeGroupID bezieht sich auf die Kennung der Home Group des angemeldeten Benutzers. Als Gruppenadministrator können Sie diese Variable verwenden, um nur Elemente zu filtern, die zu den Benutzern in Ihrer Startseite gehören.</p> <p>Um beispielsweise alle unvollständigen Aufgaben für Projekte in der Finanzgruppe anzuzeigen, verwenden Sie die folgenden Filterregeln in einem Aufgabenfilter:<br><em>Projekt: Gruppen-ID entspricht $$USER.homeGroupID </em><br><em>Prozent abgeschlossen weniger als 100</em></p> <p>Verwenden Sie die folgenden Filterregeln in einem Aufgabenfilter, um alle unvollständigen Aufgaben anzuzeigen, die Einzelanwendern in einer bestimmten Gruppe, der Home Group des angemeldeten Benutzers, zugewiesen sind:</p> <p><em>Zugeordnet zu: Gruppen-ID entspricht $$USER.homeGroupID<br>Prozent abgeschlossen weniger als 100</em> </p> </td> 
+   <td> <p>Die Variable $$USER.homeGroupID bezieht sich auf die Kennung der Home Group des angemeldeten Benutzers. Als Gruppenadministrator können Sie diese Variable verwenden, um nur Elemente zu filtern, die zu den Benutzern in Ihrer Startseite gehören.</p> <p>Um beispielsweise alle unvollständigen Aufgaben für Projekte in der Finanzgruppe anzuzeigen, verwenden Sie die folgenden Filterregeln in einem Aufgabenfilter:<br><em>Projekt: Gruppen-ID entspricht $$USER.homeGroupID </em><br><em>Prozent abgeschlossen weniger als 100</em></p> <p>Verwenden Sie die folgenden Filterregeln in einem Aufgabenfilter, um alle unvollständigen Aufgaben anzuzeigen, die Einzelanwendern in einer bestimmten Gruppe, der Home Group des angemeldeten Benutzers, zugewiesen sind:</p> <p><em>Zugeordneter Benutzer: Gruppen-ID entspricht $$USER.homeGroupID<br>Prozent abgeschlossen weniger als 100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -197,13 +199,15 @@ Workfront stellt die folgenden benutzerbasierten Variablen bereit:
    <td> <p>Die Variable $$USER.roleID bezieht sich auf die Primäre Rolle des angemeldeten Benutzers. Mithilfe dieser Variablen können Sie Berichte zu Aufgaben oder Problemen erstellen, die einer bestimmten Auftragsrolle zugewiesen sind.</p> <p>Um beispielsweise alle Aufgaben anzuzeigen, die der Primären Rolle des angemeldeten Benutzers zugewiesen sind, können Sie die folgende Filterregel in einem Aufgabenfilter verwenden:</p> <p><em>Aufgabe: Rolle-ID entspricht $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td role="rowheader">$$USER.roleIDs</td> 
+   <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
    <td> <p>Die Variable $$USER.roleIDs bezieht sich auf alle mit dem angemeldeten Benutzer verknüpften Vorgangsrollen. Mithilfe dieser Variablen können Sie Berichte zu Aufgaben oder Problemen erstellen, die einer der mit dem angemeldeten Benutzer verknüpften Vorgangsrollen zugewiesen sind. </p> <p>Um beispielsweise alle Aufgaben anzuzeigen, die einer der Rollen zugewiesen sind, die dem angemeldeten Benutzer zugeordnet sind, können Sie die folgende Filterregel in einem Aufgabenfilter verwenden:</p> <p><i>Aufgabe: Rolle-ID entspricht $$USERID.roleIDs<br></i> </p> <p>Tipp: Die <i>Aufgabe: Rolle-ID entspricht $$USERID.roleIDs</i> Filterregel ist in den integrierten Filtern Nicht zugewiesene Aufgaben in meiner Rolle und Nicht zugewiesene Probleme in meiner Rolle vorhanden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Objektbasierte Platzhalterfiltervariablen
+
+Sie können aus den folgenden objektbasierten Platzhaltern wählen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -214,8 +218,8 @@ Workfront stellt die folgenden benutzerbasierten Variablen bereit:
    <td> 
     <div> 
      <p>Die Variable $$OBJCODE bezieht sich auf den Typ eines Objekts. </p> 
-     <p>Wenn in einem benutzerdefinierten Formular die ausgewählten Objekttypen des Formulars nicht mit einem Feld kompatibel sind, auf das in einem berechneten benutzerdefinierten Feld verwiesen wird, können Sie diese Platzhalterkarte verwenden, um das Erstellen doppelter Formulare für diese Objekttypen zu vermeiden.</p> 
-     <p>Im berechneten benutzerdefinierten Feld schließen Sie dazu die Platzhalterkarte in einen IF-Ausdruck ein, damit die Berechnung für jeden Objekttyp Ihres Formulars unterschiedliche Werte ausgeben kann. </p> 
+     <p>Wenn in einem benutzerdefinierten Formular die ausgewählten Objekttypen des Formulars nicht mit einem Feld kompatibel sind, auf das in einem berechneten benutzerdefinierten Feld verwiesen wird, können Sie diesen Platzhalter verwenden, um zu vermeiden, dass für diese Objekttypen doppelte Formulare erstellt werden.</p> 
+     <p>Im berechneten benutzerdefinierten Feld schließen Sie dazu den Platzhalter in einen IF-Ausdruck ein, damit die Berechnung für die Objekttypen Ihres Formulars unterschiedliche Werte ausgeben kann. </p> 
      <p>Weitere Informationen und ein Beispiel finden Sie im Abschnitt <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten</a> im Artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular</a>.</p> 
     </div> </td> 
   </tr> 
