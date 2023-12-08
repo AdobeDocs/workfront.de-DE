@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Aufgabe zugewie
 
 ## Übersicht über die Aufgabendauer
 
->[!NOTE]
->
->Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter  [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Wenn das tatsächliche Start- und das tatsächliche Abschlussdatum der Aufgabe außerhalb des Zeitplans des Projekts, des primären Verantwortlichen oder des Standardzeitplans liegen, beträgt die Aufgabendauer null.
 
 **Beispiel:** Wenn Sie einen Zeitplan haben, der um 9:00 Uhr beginnt und um 23:00 Uhr endet und für eine Aufgabe geplant ist, die um 14:00 Uhr beginnt und um 16:00 Uhr endet, beträgt die Dauer der Aufgabe null.
 
-Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront berechnet wird.
+Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront berechnet wird:
 
-* Wenn die Aufgabe einem Benutzer zugewiesen ist, verwendet Workfront einen der folgenden Zeitpläne, in der angegebenen Reihenfolge, um die Dauer zu berechnen:
+* Wenn die Aufgabe einem Benutzer Workfront zugewiesen ist, verwendet einen der folgenden Zeitpläne, in der angegebenen Reihenfolge, um die Dauer zu berechnen:
 
    1. Workfront berücksichtigt den Benutzerzeitplan.
    1. Wenn der Benutzer keinem Zeitplan zugeordnet ist, berücksichtigt Workfront den Zeitplan des Projekts.
@@ -41,11 +37,15 @@ Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront be
 
 * Wenn die Aufgabe mehreren Benutzern zugewiesen ist:
 
-  Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Hauptverantwortlichen.
+   1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Hauptverantwortlichen.
 
   Ihr Workfront-Administrator legt fest, welcher Zeitplan von Workfront verwendet wird, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   Die Schritte ähneln dem ersten Szenario, nachdem Sie ermittelt haben, welcher Zeitplan von Workfront zur Berechnung der Dauer verwendet wird.
+
+>[!NOTE]
+>
+>Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter  [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Zeiteinheiten für Aufgabendauer
 
@@ -94,7 +94,7 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
 * Wie groß ist die Arbeit?
 * Wie lange wird es dauern?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definieren von Dauer-Typen
 
@@ -104,7 +104,7 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Dauertyp </th> 
+   <th scope="row"><p><strong>Dauertyp</strong></p></th> 
    <th scope="col"> <p><strong>Funktion</strong> </p> </th> 
    <th scope="col"> <p><strong>Auswirkungen von Ressourcen</strong> </p> </th> 
   </tr> 
@@ -121,7 +121,7 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
    <td scope="col"> <p>Geplante Stunden erhöhen sich, wenn der Aufgabe die Zuweisung hinzugefügt wird. </p> <p>Die geplanten Stunden werden reduziert, wenn die Zuweisung aus der Aufgabe entfernt wird.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Leistungsgesteuert</p> </th> 
+   <th scope="col"> <p><strong>Leistungsgesteuert</strong></p> </th> 
    <td scope="col"> <p>Bestimmt die geplanten Stunden anhand der Anzahl der Ressourcen.</p> <p>Wenn Sie diesen Dauerhaltungstyp auswählen, können Sie für die Aufgabe eine individuelle Dauer eingeben. Workfront berechnet die geplanten Stunden für die Aufgabe, indem es die Anzahl der Tage in der Dauer durch die Anzahl der Arbeitsstunden im Zeitplan multipliziert und durch die Anzahl der Verantwortlichen für die Aufgabe dividiert. </p> <p>Sie können den Zuordnungsprozentwert jedes Verantwortlichen manuell an die Aufgabe anpassen, aber die Anzahl der geplanten Stunden bleibt gleich.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Übersicht über den Durationstyp: Aufwandsorientiert</a>.</p> </td> 
    <td scope="col"> <p>Die geplanten Stunden werden erhöht, wenn die Bevollmächtigten aus der Aufgabe entfernt werden.</p> <p>Die geplanten Stunden werden reduziert, wenn der Aufgabe die Zuweisung hinzugefügt wird. </p> <p>Die Dauer ändert sich nicht, unabhängig von der Anzahl der Bevollmächtigten oder ihrem Zeitplan. </p> <p>Die Dauer entspricht den geplanten Stunden. Die geplante Dauer entspricht der Anzahl der geplanten Stunden dividiert durch die Anzahl der Bevollmächtigten.</p> </td> 
   </tr> 
