@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 5%
+source-wordcount: '833'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>SchnellReview-Prozess aktivieren</p> </td> 
-      <td>Ermöglicht die Aktivierung der monatlichen Workfront-Versionen für Ihr Unternehmen anstelle der vierteljährlichen Versionen.</p><p>Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren</a>.</p></td> 
+      <td>Ermöglicht die Aktivierung der monatlichen Workfront-Versionen für Ihr Unternehmen anstelle der vierteljährlichen Versionen.</p><p>Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Einbetten von <strong>Workfront</strong> in einem iFrame</p> </td> 
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td> <p>Hiermit können Sie Workfront nur für Office 365-Add-Ins in einen iframe einbetten, wenn Workfront mit einer SAML 2.0-Single-Sign-On-Lösung integriert ist. </p> <p>Diese Option ist standardmäßig aktiviert.</p> <p><b>NOTE</b>: Wenn Sie die obige Option aktivieren, <strong>Einbetten von Workfront in einen iFrame zulassen</strong>, die Option <strong>SAML 2.0-Authentifizierung in Office 365-Add-Ins zulassen</strong> aktiviert und abgeblendet ist.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beim Erstellen von URLs für externe Seiten die Verwendung von Sitzungsinformationen aktivieren</td> 
+      <td role="rowheader">Aktivieren der Verwendung von Sitzungsinformationen beim Erstellen von URLs externer Seiten</td> 
       <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Einbetten einer externen Webseite in ein Dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        </ul><p>Diese Option ist standardmäßig aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene externer Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen in Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Externe Benutzer auffordern, sich mit einem Kennwort zu registrieren</td> 
+      <td role="rowheader">Externe Benutzer müssen sich mit einem Kennwort registrieren</td> 
       <td> <p>Externe Benutzer müssen sich registrieren, bevor sie Artikel in Workfront anzeigen können. Standardmäßig ist diese Option deaktiviert. Wenn Sie diese Option aktivieren, werden Personen ohne Workfront-Konto, die in bestimmten Aktualisierungen ihrer E-Mail-Adresse enthalten sind, aufgefordert, ein Konto zu erstellen, bevor sie das Element anzeigen können, in dem sie enthalten sind. Dadurch wird ein externes Benutzerkonto für sie erstellt.</p> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
      </tr> 
      <tr> 
