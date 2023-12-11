@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Benutzerdefinierten Bericht erstellen
-description: Die Erstellung von Berichten hilft Ihnen dabei, auf die Informationen zuzugreifen, die Ihr Unternehmen in Adobe Workfront benötigt. Sie können einen der integrierten Berichte verwenden, die in Workfront verfügbar sind, oder Sie können Ihre eigenen Berichte von Grund auf neu erstellen.
+description: Sie können Zugriff auf die Informationen gewähren, die Ihr Unternehmen in Adobe Workfront benötigt, indem Sie Berichte erstellen. Sie können jeden der integrierten Berichte verwenden, die in Workfront verfügbar sind, oder Sie können Ihre benutzerdefinierten Berichte von Grund auf neu erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Neu: Standard </p>
+   oder
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -47,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie erhalten Verwaltungsberechtigungen für den erstellten Bericht.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Berichte.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Bericht erstellen {#create-a-report}
 
-Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefinierten Bericht erstellen](#Walk-thr) unten.
+{{step1-to-reports}}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
 1. Klicks **Neuer Bericht** und wählen Sie dann den Objekttyp aus, den Sie für den Bericht verwenden möchten.
 
    Die Berichterstellung wird geladen.
@@ -109,17 +110,17 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
 
 1. Erstellen Sie einen Bericht, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
 1. Wählen Sie in ReportBuilder die **Spalten (Ansicht)** um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
-1. (Optional) Klicken Sie auf **Anwenden einer vorhandenen Ansicht** , um eine vorhandene Ansicht zu verwenden.
+1. (Optional) Klicken Sie auf **Anwenden einer vorhandenen Ansicht** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
 
-   Weitere Informationen zum Erstellen einer neuen Ansicht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Erstellen einer Ansicht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Optional) Um eine vorhandene Spalte zu entfernen, klicken Sie auf die Spalte, die Sie entfernen möchten, und klicken Sie dann auf **x** neben dem aktuellen Namen in der Spaltenüberschrift.
 
 1. Um eine neue Spalte hinzuzufügen, klicken Sie auf **Spalte hinzufügen**.
 
    Oder
 
-   Um eine vorhandene Spalte zu ändern, wählen Sie die Spalte aus, die Sie ändern möchten, und klicken Sie dann auf (x) neben dem aktuellen Namen.
-
-1. Beginnen Sie mit der Eingabe des Felds, das Sie hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es der Spalte hinzuzufügen.
+   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte und anschließend auf das **Entfernen** icon ![](assets/x-icon-circled.png) links neben dem aktuellen Feld im **In diesem Spaltenfeld anzeigen** in der oberen linken Ecke des ReportBuilder ein neues Feld eingeben und dann darauf klicken, wenn es in der Liste angezeigt wird.
 
    Weitere Informationen zu den Feldern, die in den Spalten angezeigt werden, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >
    >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
    >
-   >* Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
+   >* Alle Zahlenfelder und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante oder tatsächliche Arbeitskosten, geplante oder tatsächliche Kosten, geplante oder tatsächliche Kosten, geplante Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
    >* Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und Einzelaufgaben; sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
    >* Benutzerdefinierte Datenfelder für Zahlungs- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
 
@@ -193,7 +194,8 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
 
    Oder
 
-   Auswählen **Vorhandene Gruppierung anwenden** , um eine bestehende Gruppierung auszuwählen
+   Auswählen **Vorhandene Gruppierung anwenden** , um eine bestehende Gruppierung auszuwählen, wenn sie in der Liste angezeigt wird.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Geben Sie das Feld ein, das Sie als Gruppierung hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dieser Gruppierung hinzuzufügen.
@@ -210,7 +212,7 @@ Ein Video über die Erstellung eines Berichts finden Sie in diesem [Benutzerdefi
    >* Wenn Sie Gruppierungen bei der Anzeige einer Liste manuell anpassen, behält sich Workfront Ihre manuellen Voreinstellungen vor, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
    >* Die Ergebnisse einer Gruppierung werden immer erweitert, nachdem sie über ein Diagrammelement aufgerufen wurden.
 
-1. (Optional) Sie können eine Matrixgruppierung erstellen, um Ihre Ergebnisse in einem Rasterformat anzuzeigen.
+1. (Optional) Klicken Sie auf **Zur Matrix-Gruppierung wechseln**, um eine Matrixgruppierung zu erstellen und Ihre Ergebnisse in einem Rasterformat anzuzeigen.
 
    Weitere Informationen zum Erstellen eines Matrix-Berichts finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
