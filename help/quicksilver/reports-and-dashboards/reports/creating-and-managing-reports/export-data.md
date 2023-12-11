@@ -6,9 +6,9 @@ description: Informationen zum Exportieren von Berichtsdaten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Export, einen gelieferten Bericht oder über die API unterliegt verschiedenen Einschränkungen.
 
+* **50.000 Zellen:** Die maximal zulässige Anzahl von Zellen in einem Berichtsexport für Excel-Dateien.
 * **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für PDF- und tabulatorgetrennte Dateien zulässig sind.
 
    * Bei Excel .xls-Dateien beträgt diese Beschränkung **65.000 Zeilen**.
@@ -310,14 +311,14 @@ Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unters
 
 >[!TIP]
 >
->Wenn die Zeile `valueformat=HTML` im Textmodus für eine Spalte mit benutzerdefiniertem Feld angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen für Ihre Spalte im Textmodus eingeben.
+Wenn die Zeile `valueformat=HTML` im Textmodus für eine Spalte mit benutzerdefiniertem Feld angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen für Ihre Spalte im Textmodus eingeben.
 >
->Wenn Sie beispielsweise über ein benutzerdefiniertes Feld namens Open Q1 Projects verfügen, das Links enthält, fügen Sie den folgenden Code hinzu:
+Wenn Sie beispielsweise über ein benutzerdefiniertes Feld namens Open Q1 Projects verfügen, das Links enthält, fügen Sie den folgenden Code hinzu:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Wenn Sie in ein Excel-Format exportieren, werden nur Links zu Objekten in Workfront in die exportierte Datei aufgenommen und nur an Stellen unterstützt, an denen Sie Links in exportierten Excel-Dokumenten zulassen können, z. B. Berichtbereitstellungen.
 
