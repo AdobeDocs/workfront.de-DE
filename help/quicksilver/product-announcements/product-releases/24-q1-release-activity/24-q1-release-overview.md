@@ -4,9 +4,9 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markieren einer Überprüfung als abgeschlossen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue <strong>Meine Überprüfung abschließen</strong> Schaltfläche.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierte Status für Dokumentgenehmigungen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um den Status der Dokumentgenehmigung klarer zu gestalten, wurden die verfügbaren Dokumentstatus-Genehmigungen aktualisiert. Jetzt werden Validierungsverantwortliche mit dem Genehmigungsstatus erfasst, die ihre Überprüfung als abgeschlossen kennzeichnen, sowie Fälle, in denen es nur Validierungsverantwortliche, aber keine Genehmiger gibt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 7. Dezember 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markieren einer Überprüfung als abgeschlossen</a></p><p>Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue <strong>Meine Überprüfung abschließen</strong> Schaltfläche.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
