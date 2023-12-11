@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Persönliche Zeit konfigurieren in [!DNL Adobe Workfront]
-description: Adobe Workfront ist nicht dafür konzipiert, Ihre vorhandenen Systeme für die Verwaltung, Ansammlung und Verfolgung von Zeitlimits zu replizieren oder zu ersetzen. Es ist jedoch wichtig anzugeben, wann die genehmigte Zeit vergeht, da dies sich auf Ihren Zeitplan auswirkt und sich auf die geplanten Abschlussdaten der Aufgaben auswirkt, denen Sie zugewiesen sind.
+title: Persönliche Zeit konfigurieren
+description: Es ist wichtig, in Adobe Workfront anzugeben, wann eine genehmigte Zeitüberschreitung eintritt, da dies sich auf Ihren Zeitplan auswirkt und sich auf die geplanten Abschlussdaten der Aufgaben auswirkt, denen Sie zugewiesen sind.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Persönliche Zeit konfigurieren in [!DNL Adobe Workfront]
+# Persönliche Zeit konfigurieren
 
 [!DNL Adobe Workfront] ist nicht dazu konzipiert, Ihre vorhandenen Systeme für die Verwaltung, Ansammlung und Nachverfolgung persönlicher Zeit zu replizieren oder zu ersetzen.
 
-Es ist jedoch wichtig anzugeben, wann die genehmigte Zeitüberschreitung eintritt, da sich dies auf Ihren Zeitplan auswirkt und sich auf die [!UICONTROL Geplante Abschlussdaten] der Aufgaben, denen Sie zugewiesen sind.
+Es ist jedoch wichtig anzugeben, wann die genehmigte Zeitüberschreitung eintritt, da dies sowohl Ihren Zeitplan als auch die [!UICONTROL Geplante Abschlussdaten] der Aufgaben, denen Sie zugewiesen sind.
 
 Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, die zwei Wochen in Anspruch nehmen soll, und Sie planen, während dieser Zeit drei Tage freizugeben, [!DNL Workfront] fügt der Zeitleiste der Aufgabe drei Tage hinzu, um die Zeitdauer zu berücksichtigen.
 
@@ -43,15 +43,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td>[!UICONTROL Arbeit] oder höher (zur Konfiguration Ihrer persönlichen Zeit)</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>Neuer Plan: Standard (zur Konfiguration Ihrer persönlichen Zeitdauer)</p>
+        <p>oder</p>
+        <p>Aktueller Plan: Arbeiten oder höher (zur Konfiguration Ihrer persönlichen Zeitdauer)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td>[!UICONTROL Manager] mit Zugriff auf [!UICONTROL Benutzer bearbeiten] (um Änderungen an der Zeitdauer anderer Benutzer vorzunehmen)<br>
    <strong>NOTE:</strong> Wenn ein Manager die persönliche Zeit eines anderen Benutzers außerhalb des Kalenders bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
   </tr> 
@@ -62,7 +64,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliche Zeit konfigurieren in [!DNL Workfront]
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**.
+{{step1-click-profile-pic}}
+
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Zeitlimit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Zeit aus.
 
@@ -70,8 +73,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Auswählen **[!UICONTROL Ganztägig]**, wenn Sie sich einen ganzen Tag freinehmen.
 
-   Lassen Sie die Option deaktiviert, wenn Sie weniger als einen vollen Tag frei nehmen, und geben Sie die Start- und Endzeit Ihrer Freizeit an.
+   Lassen Sie das Kontrollkästchen deaktiviert, wenn Sie weniger als einen vollen Tag frei nehmen, und geben Sie die Start- und Endzeit Ihrer Freizeit an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Ihre Zeitdauer ist jetzt für alle [!DNL Workfront] in den Tools zur Ressourcenverwaltung wie dem Resource Planer und dem Workload Balancer. Wenn Ihnen während dieser Zeit Arbeit zugewiesen wird, erscheint eine QuickInfo, die den Benutzer informiert, für den Sie eine Zeitüberschreitung geplant haben.
+   Ihre Zeitdauer ist jetzt für alle [!DNL Workfront] in den Tools zur Ressourcenverwaltung wie dem Resource Planer und dem Workload Balancer. Wenn Ihnen während dieser Zeit Arbeit zugewiesen wird, informiert ein QuickInfo den Benutzer darüber, dass Sie eine geplante Zeitüberschreitung vorgenommen haben.

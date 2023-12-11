@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront Workload Bal
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -39,14 +39,15 @@ Workfront verwendet die folgenden Informationen, um die Kapazität des Benutzers
    * Der Standardzeitplan des Workfront-Systems und die FTE des Benutzers.
    * Der Zeitplan des Benutzers, wie im Bereich Benutzerprofil angegeben.
 
-      Dadurch wird die tägliche und wöchentliche Verfügbarkeit des Benutzers berechnet. Sämtliche planmäßigen Ausnahmen des ausgewählten Zeitplans spiegeln sich in der Kapazität des Benutzers im Lastenausgleich wider.
-   Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Dadurch wird die tägliche und wöchentliche Verfügbarkeit des Benutzers berechnet. Sämtliche planmäßigen Ausnahmen des ausgewählten Zeitplans spiegeln sich in der Kapazität des Benutzers im Lastenausgleich wider.
 
-   Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * Die Zeit des Benutzers. Dies gibt an, an welchen Tagen der Benutzer planen zu starten.
 
-   Weitere Informationen finden Sie unter [Persönliche Abwesenheit in Adobe Workfront konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Weitere Informationen finden Sie unter [Persönliche Zeit konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Die Arbeitszeit des Benutzers. Dies gibt den Prozentsatz der FTE-Zeit an, über die der Benutzer für die Ausführung der eigentlichen projektbezogenen Arbeit zur Verfügung steht, ohne dass dabei der Verwaltungsaufwand eingeschlossen ist. Setzen Sie den Wert für die Arbeitszeit auf 1, um anzugeben, dass der Benutzer für projektbezogene Arbeiten in seiner gesamten Vollzeitäquivalenz verfügbar ist.
 
@@ -59,17 +60,17 @@ Sie können die Arbeit im Arbeitslast-Balancer wie folgt zuweisen:
 
 * Ein Element nach dem anderen durch manuelles Zuweisen jedes Elements.
 
-   Sie können beim manuellen Zuweisen von Elementen erweiterte Zuweisungen vornehmen (einzeln).
+  Sie können beim manuellen Zuweisen von Elementen erweiterte Zuweisungen vornehmen (einzeln).
 
-   Weitere Informationen finden Sie unter [Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  Weitere Informationen finden Sie unter [Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Ein Element nach dem anderen, indem Arbeitselemente per Drag-and-Drop an den Benutzer gezogen und abgelegt werden, der zugewiesen werden muss.
 
-   Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Mehrere Elemente gleichzeitig mithilfe der Option &quot;Massenzuweisungen&quot;. Sie können Regeln definieren, nach denen Elemente mehreren Benutzern gleichzeitig zugewiesen werden.
 
-   Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 Informationen zum Aufheben der Zuweisung von Arbeit finden Sie unter [Aufheben der Zuweisung von Arbeit zum Arbeitslastausgleich](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
@@ -100,43 +101,43 @@ In der folgenden Tabelle wird beschrieben, welche Elemente in den einzelnen Bere
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span style="font-weight: normal;">Nicht zugewiesenes Element</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span>ms</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Team</td> 
-   <td>✔</td> 
+   <td>ms</td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Funktion</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Rolle</span> </td> 
+   <td><span>ms</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Rolle und Team</td> 
-   <td>✔</td> 
+   <td>ms</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td> </td> 
-   <td>✔</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Benutzer und Team</td> 
    <td> <p> </p> </td> 
-   <td>✔</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Benutzer, Rolle und Team</td> 
-   <td>✔*</td> 
-   <td>✔**</td> 
+   <td>*</td> 
+   <td>*</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Benutzer und Rolle</p> </td> 
-   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
-   <td>✔**</td> 
+   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">ms</span>*</td> 
+   <td>*</td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,10 +152,10 @@ Weitere Informationen zu den nicht zugewiesenen und zugewiesenen Bereichen des L
 
 Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes:
 
-* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Informationen zum Zuordnen von Benutzern zu Aufgabenrollen finden Sie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Weitere Informationen zum Verknüpfen von Benutzern mit Auftragsrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Aufgaben oder Probleme werden normalerweise zuerst einer oder mehreren Auftragsrollen oder einem Team zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.\
-   Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
+  Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
 
    * Wenn nur eine Auftragsrolle zugewiesen ist und sie mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
    * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem dem Benutzer zugewiesen, der eine seiner &quot;Sonstige Rollen&quot;(die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen) erfüllt, sowie allen weiteren zugewiesenen Rollen.

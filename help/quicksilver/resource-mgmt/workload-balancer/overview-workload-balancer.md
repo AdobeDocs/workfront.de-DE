@@ -7,9 +7,9 @@ description: Nachdem die Projektmanager die Arbeit an Projekten geplant und Aufg
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich fi
      Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * Lassen Sie den Kalender in ihrem Profil aktualisiert.\
-     Weitere Informationen zum Aktualisieren des Zeitlimitkalenders eines Benutzers finden Sie unter [Persönliche Abwesenheit in Adobe Workfront konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Weitere Informationen zum Aktualisieren des Zeitlimitkalenders eines Benutzers finden Sie unter [Persönliche Zeit konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   

@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 0%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 0%
       * Benutzerprofil konfigurieren {#configure-user-profile}
          * [Benutzerprofil konfigurieren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [Meine Einstellungen konfigurieren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [Persönliche Abwesenheit in Adobe Workfront konfigurieren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [Persönliche Zeit konfigurieren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * Adobe Workfront-Konto verwalten {#manage-workfront-account}
          * [Adobe Workfront-Konto verwalten](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Bei Adobe Workfront anmelden](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
