@@ -311,14 +311,14 @@ Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unters
 
 >[!TIP]
 >
-Wenn die Zeile `valueformat=HTML` im Textmodus für eine Spalte mit benutzerdefiniertem Feld angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen für Ihre Spalte im Textmodus eingeben.
+>Wenn die Zeile `valueformat=HTML` im Textmodus für eine Spalte mit benutzerdefiniertem Feld angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen für Ihre Spalte im Textmodus eingeben.
 >
 Wenn Sie beispielsweise über ein benutzerdefiniertes Feld namens Open Q1 Projects verfügen, das Links enthält, fügen Sie den folgenden Code hinzu:
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Wenn Sie in ein Excel-Format exportieren, werden nur Links zu Objekten in Workfront in die exportierte Datei aufgenommen und nur an Stellen unterstützt, an denen Sie Links in exportierten Excel-Dokumenten zulassen können, z. B. Berichtbereitstellungen.
 
