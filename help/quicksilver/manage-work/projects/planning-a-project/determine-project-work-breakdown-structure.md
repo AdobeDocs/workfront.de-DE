@@ -6,9 +6,9 @@ description: Die Definition einer Arbeitsaufschlüsselungsstruktur (Work Breakdo
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Sie müssen über eine Planungslizenz mit Zugriff auf Projekte bearbeiten verfü
 
 Es wird empfohlen, das Projekt im Planungsstatus zu belassen, während Sie Änderungen an der Arbeitsaufschlüsselungsstruktur vornehmen, um Benachrichtigungen an Trigger im Projektteam zu vermeiden.
 
-## Definieren der Projektergebnisse
+## Definieren der Projektziele
 
 Ziel eines Projekts ist es, den internen und externen Akteuren greifbare Ergebnisse zu liefern. Die Ergebnisse eines Projekts sind die Ergebnisse, die Sie durch Fertigstellen des Projekts erzielen möchten. Ergebnisse werden fast immer mit mindestens einem lieferbaren Ergebnis verknüpft und alle Ergebnisse sollten mit einem Projekt verknüpft werden.
 
@@ -64,9 +64,9 @@ Um WBS-Ergebnisse und -Lieferziele in Workfront zu definieren, empfehlen wir die
   Weitere Informationen zu Aufgabenabhängigkeiten finden Sie in den Artikeln [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) und [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Bestimmen Sie, ob zu einem beliebigen Zeitpunkt der Projektlebensdauer Genehmigungen und Überprüfungen erforderlich sind. Erstellen Sie Validierungsprozesse, um diese Anforderungen zu erfüllen.\
-  Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Weitere Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Schätzen des Arbeitsplanes und der Zeitpläne
+## Schätzen des Arbeitsplanes und der Zeitplaneinschränkungen
 
 Nachdem Sie den grundlegenden Meilenstein und die Aufgabenstruktur des Projekts erstellt haben, können Sie die Zeit schätzen, die zum Abschließen des gesamten Projekts benötigt wird, indem Sie Aufgabenbegrenzungen und -dauern definieren.
 
@@ -84,7 +84,7 @@ Beachten Sie Folgendes:
 
 ## Aufgaben zuweisen
 
-Nachdem Sie die Dauer und die Begrenzungen jeder Aufgabe definiert haben, können Sie bestimmen, wer über die Zeit und die Fertigkeiten verfügt, um die Arbeit zu erledigen. Sie können den folgenden Entitäten in Workfront Aufgaben zuweisen:
+Nachdem Sie die Dauer und die Begrenzungen jeder Aufgabe definiert haben, können Sie bestimmen, wer über die Zeit und die Fertigkeiten verfügt, um die Arbeit durchzuführen. Sie können den folgenden Entitäten in Workfront Aufgaben zuweisen:
 
 * Benutzende\
   Aufgaben können nur Benutzern mit der Zugriffsebene Planer oder Worker zugewiesen werden. Sie können zwar Anforderungen und Validierern Aufgaben zuweisen, diese jedoch nicht abschließen. Aus diesem Grund wird empfohlen, ihnen keine Aufgaben zuzuweisen.
@@ -108,19 +108,19 @@ Zu Beginn eines Geschäftsjahres oder -quartals möchten Sie Ihre Ressourcen mö
 Informationen zur Planung der Nutzung Ihrer Ressourcen auf höherer Ebene finden Sie im Artikel [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Wenn Sie Ihre Ressourcen im Zusammenhang mit dem Erstellen der Arbeitsaufschlüsselungsstruktur eines Projekts verwalten und sicherstellen, dass jede Aufgabe der richtigen Ressource zugewiesen ist, können Sie Ihre Ressourcen für die zu erledigende Arbeit planen.\
-Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [Der Lastenausgleich](../../../resource-mgmt/workload-balancer/workload-balancer.md) Abschnitt.
+Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [Der Lastenausgleich: Artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md) Abschnitt.
 
 ## Geschätzte Projektfinanzen
 
 Workfront berechnet die für jede Aufgabe geplanten Kosten und die Gesamtkosten eines Projekts. Die für eine Aufgabe geplanten Kosten umfassen alle Ausgaben der Aufgabe zuzüglich der Kosten des mit der Aufgabe betrauten Mitarbeiters bzw. der zugewiesenen Rolle. Die Stundensätze für die Aufgabe, die Rolle und den Mitarbeiter werden während der Aufgabe, Rolle und Benutzererstellung zugewiesen.
 
-Informationen zu den Projektfinanzen finden Sie im Abschnitt . [Projektfinanzierung](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Weitere Informationen zu den Projektfinanzen finden Sie im Abschnitt . [Projektfinanzierung](../../../manage-work/projects/project-finances/project-finances-overview.md) .
 
 ## Festlegen von Genehmigungspunkten für das Projekt
 
 Durch die Erstellung von Genehmigungsprozessen in Workfront können Sie Überprüfungspunkte für das Projekt einrichten, um den Fortschritt und potenzielle Problembereiche zu überwachen. Über den Genehmigungsprozess können Projekteigentümer erkennen, welche Aufgaben zu spät und zu früh ausgeführt werden, Audit-Protokolle einsehen, in denen aufgeführt ist, wer den Aufgabenstatus geändert hat, und Verläufe zu Problemen anzeigen, einschließlich der Art und Weise, wie Probleme gelöst wurden und wann sie geschlossen wurden. Nach der Überprüfung eines Projekts können Projekteigentümer bestimmen, welche Schritte unternommen und den Projektplan bei Bedarf aktualisiert werden sollen.
 
-Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+Weitere Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 ## Anzeigen Ihrer WBS
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 3%
@@ -118,7 +118,7 @@ So verwalten Sie eine Tabellenansicht:
 
 Die Spaltenüberschriften einer Maestro-Tabellenansicht zeigen Felder an, die mit den Datensätzen in der Ansicht verknüpft sind. Dieselben Felder, die in der Tabellenansicht angezeigt werden, werden auch im Abschnitt Details eines Maestro-Datensatzes angezeigt. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feldern zu einem Datensatztyp.
 
@@ -128,21 +128,6 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../fields/create-fields.md).
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden auf der Detailseite der Datensätze des ausgewählten Datensatztyps als neue Felder hinzugefügt.
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
 
@@ -161,6 +146,27 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >* Das Feld Name kann nicht ausgeblendet werden.
    >
    >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
@@ -213,12 +219,12 @@ Sie können bis zu 10.000 Datensätze (oder Zeilen) für einen Datensatztyp in M
    >
    >Wenn Sie mindestens eine Sortierung auf die Tabellenansicht anwenden, können Sie die Reihenfolge der Zeilen nicht ändern.
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### Filter hinzufügen {#add-filters}
 

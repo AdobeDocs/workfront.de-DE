@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] documentation'
 description: Dokumentation für [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 2%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -75,9 +75,9 @@ Siehe [Textmodus-Ressourcen](/help/quicksilver/reports-and-dashboards/reports/te
 
 Verwenden Sie den Lastenausgleich als Alternative zur Planung von Ressourcen in Workfront.
 
-Siehe [Der Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Siehe [Der Lastenausgleich: Artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Adobe Workfront-Ziele
 
 Richten Sie Ihre Strategie an Ihre Arbeit aus, um mithilfe von Adobe Wokfront-Zielen eine Ausrichtung zu erreichen und Erfolg zu erzielen.
 

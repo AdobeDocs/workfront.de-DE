@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 0%
       * [Ressourcenauslastung](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informationen zur Ressourcenauslastung anzeigen](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Der Lastenausgleich {#the-workload-balancer}
-      * [Der Lastenausgleich](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [Der Lastenausgleich: Artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Übersicht über den Lastenausgleich](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Suchen Sie den Lastenausgleich .](resource-mgmt/workload-balancer/locate-workload-balancer.md)
