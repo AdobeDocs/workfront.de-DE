@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
-   * [Arbeitszeit- tabellen](timesheets/timesheets-all.md)
+   * [Timesheets: Artikelindex](timesheets/timesheets-all.md)
    * Angaben zum Datenblatt {#details}
-      * [Angaben zum Datenblatt in Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Datenblatt-Details: Artikelindex](timesheets/timesheets/timesheets.md)
       * [Timesheets - Übersicht](timesheets/timesheets/timesheets-overview.md)
       * [Grundlegendes zum Layout des Zeitplans](timesheets/timesheets/timesheet-layout.md)
-   * Erstellen und Verwalten von Timesheets in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Erstellen und Verwalten von Timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Erstellen und Verwalten von Timesheets {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Erstellen und Verwalten von Timesheets: Artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Erstellen eines Datenblatts für die einmalige Verwendung](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [Manuelles Generieren von Timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Liste von Timesheets exportieren](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Konfigurieren der Zeitprotokollierung {#configure-timesheet-preferences}
-      * [Konfigurieren der Zeitprotokollierung](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Konfigurieren der Zeitprotokollierung: Artikelindex](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Konfigurieren, ob die Zeit in Stunden oder Tagen protokolliert wird](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Tipps, Tricks und Fehlerbehebung für Timesheets {#tips-tricks-troubleshooting-for-timesheets}
-      * [Tipps, Tricks und Fehlerbehebung](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Tipps, Tricks und Fehlerbehebung: Artikelindex](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Korrigieren Sie den Starttag der Arbeitswoche für Timesheets.](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Verhindern Sie, dass die Aktion &quot;Finanzen neu berechnen&quot;historische Stunden beeinflusst, wenn sich die Beträge ändern](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Tracking von Stundenkatalogen mit der Adobe Workfront-API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

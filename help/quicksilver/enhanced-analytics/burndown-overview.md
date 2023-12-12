@@ -7,9 +7,9 @@ description: Die Niederschlagsvisualisierung zeigt den Niedergang eines bestimmt
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td>
-      <p>Neuer Plan: Beliebig</p>
+      <p>Neu: Beliebig</p>
       <p>oder</p>
-      <p>Aktueller Plan: Business oder höher</p></td>
+      <p>Aktuell: Business oder höher</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>
-      <p>Neuer Plan: leicht oder höher</p>
+      <p>Neu: Licht oder höher</p>
       <p>oder</p>
-      <p>Aktueller Plan: Überprüfung oder höher</p>
+      <p>Aktuell: Überprüfen oder höher</p>
    </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: Das Hauptmenü ändert sich je nach Zugriffsstufe, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Die folgenden Bereiche sind im Standardlayout einer [!UICONTROL Worker]:
 
 * **[!UICONTROL Anforderungen]**: Sie können hier Anfragen senden und Anforderungen überprüfen, die Sie oder Ihre Team-Mitglieder eingereicht haben. Weitere Informationen finden Sie unter [Anforderungen](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: Sie können hier auf Ihre aktuellen, zukünftigen oder alten Timesheets zugreifen. Weitere Informationen finden Sie unter [Timesheets](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Timesheets]**: Sie können hier auf Ihre aktuellen, zukünftigen oder alten Timesheets zugreifen. Weitere Informationen finden Sie unter [Timesheets: Artikelindex](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Dokumente]**: Hier können Sie Dokumente hochladen oder Dokumente überprüfen, die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Dokumente](../../../documents/documents-overview.md).
 

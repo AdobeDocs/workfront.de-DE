@@ -6,9 +6,9 @@ description: Die Filter im Bereich "Erweiterte Analyse"von Adobe Workfront helfe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td>
-      <p>Neuer Plan: Beliebig</p>
+      <p>Neu: Beliebig</p>
       <p>oder</p>
-      <p>Aktueller Plan: Business oder höher</p></td> 
+      <p>Aktuell: Business oder höher</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>
-      <p>Neuer Plan: leicht oder höher</p>
+      <p>Neu: Licht oder höher</p>
       <p>oder</p>
-      <p>Aktueller Plan: Überprüfung oder höher</p>
+      <p>Aktuell: Überprüfen oder höher</p>
    </td> 
   </tr>
   <tr> 

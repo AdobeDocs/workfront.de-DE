@@ -6,9 +6,9 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -67,9 +67,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neuer Plan: Standard</p>
+   <td> <p>Neu: Standard</p>
         <p>oder</p>
-        <p>Aktueller Plan: Plan </p> </td> 
+        <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsstufe*</td> 

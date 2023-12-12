@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: b4fe4dd38bca513f1ce932a8474c06192d97d760
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -41,9 +41,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neuer Plan: Standard </p>
+   <td><p>Neu: Standard </p>
        <p>oder</p> 
-       <p>Aktueller Plan: Plan </p>
+       <p>Aktuell: Plan </p>
    </td> 
   </tr> 
   <tr> 

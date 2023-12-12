@@ -7,9 +7,9 @@ description: Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Weitere Informationen zur Protokollzeit in Workfront finden Sie unter [Protokoll
 
 >[!TIP]
 >
->Wenn Sie ein Workfront- oder Gruppenadministrator sind, können Sie Timesheets erstellen und sie mit Ihren Benutzern verknüpfen. Informationen zum Erstellen von Timesheets finden Sie unter [Erstellen und Verwalten von Timesheets](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Wenn Sie ein Workfront- oder Gruppenadministrator sind, können Sie Timesheets erstellen und sie mit Ihren Benutzern verknüpfen. Informationen zum Erstellen von Timesheets finden Sie unter [Erstellen und Verwalten von Timesheets: Artikelindex](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Verstehen der Projektzeit im Vergleich zur Zeit ohne Projekt

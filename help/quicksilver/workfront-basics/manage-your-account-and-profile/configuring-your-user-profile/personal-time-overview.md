@@ -7,9 +7,9 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann eine genehmigte 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Neuer Plan: Standard (zur Konfiguration Ihrer persönlichen Zeitdauer)</p>
+   <td> <p>Neu: Standard (zur Konfiguration Ihrer persönlichen Zeit)</p>
         <p>oder</p>
-        <p>Aktueller Plan: Arbeiten oder höher (zur Konfiguration Ihrer persönlichen Zeitdauer)</p> </td>
+        <p>Aktuell: Arbeit oder höher (zur Konfiguration Ihrer persönlichen Zeit)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 

@@ -2,20 +2,20 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Angaben zum Datenblatt in Adobe Workfront
+title: "Timesheet details: article index"
 description: In den folgenden Artikeln erfahren Sie mehr über Timesheets und ihr Layout.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
-# Angaben zum Datenblatt in Adobe Workfront
+# Datenblatt-Details: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
