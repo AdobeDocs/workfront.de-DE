@@ -5,10 +5,11 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Überblick über integrierte Adobe Workfront-Integrationen
 description: Sie können [!DNL Adobe Workfront] mit Drittanbieteranwendungen. Diese Integrationen können die Nützlichkeit von [!DNL Workfront] und passen Sie sie an die Bedürfnisse Ihrer Organisation an. Wenn Sie z. B. ein Kreativprofessor in der Marketing-Branche sind, können Sie das Adobe Creative Cloud-Add-in verwenden, um Assets direkt aus Photoshop nach Workfront zu exportieren.
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -41,7 +42,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>After Effects </li>
      </ul>
      <li><p>Herunterladen/Installieren von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren Sie die  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen</a></p> </td> 
+     <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren Sie die  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -140,7 +141,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Empfangen [!DNL Workfront] Benachrichtigungen in [!DNL Slack] </li> 
      <li>Verwalten von Genehmigungen in Slack </li> 
      <li>Erstellen [!DNL Workfront] Aufgaben und Probleme aus [!DNL Slack] </li> 
-     <li>Posten von Kommentaren zu einem Projekt oder einer Aufgabe von einem Slack</li> 
+     <li>Posten von Kommentaren zu einem Projekt oder einer Aufgabe von Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
