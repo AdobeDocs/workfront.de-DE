@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Um die Funktion zu testen, melden Sie sich bei Ihrer Workfront-Vorschau- oder Sa
 
 1. **Koordinatoren:** Erstellen Sie in Workfront ein Projekt mit der `Frame.io alpha testing` als Projektgruppe zugewiesen wurde.
 
-1. **Koordinatoren:** Weisen Sie in Workfront Ihre kreativen Inhalte dem Projekt zu <span class="preview">oder Frame-aktivierte Aufgaben</span> und ändern Sie den Projektstatus in &quot;Aktuell&quot;.
+1. **Koordinatoren:** Weisen Sie in Workfront Ihre kreativen Inhalte dem Projekt zu <span class="preview">Aufgaben mit aktiviertem Frame (beachten Sie, dass Unteraufgaben nicht als Frame aktiviert markiert werden können)</span> und ändern Sie den Projektstatus in &quot;Aktuell&quot;.
 
 1. **Kreative:** Prüfen Sie Ihre E-Mails auf eine Einladung zum neu erstellten Frame.io-Projekt
 
@@ -60,6 +60,10 @@ Um die Funktion zu testen, melden Sie sich bei Ihrer Workfront-Vorschau- oder Sa
 1. **Kreative:** Wenden Sie in Frame.io die angeforderten Änderungen an, indem Sie die aktualisierte Version zum Versionsstapel des verbundenen Assets hinzufügen.
 
 1. **Koordinatoren:** Weisen Sie in Workfront Genehmiger/Validierer der neu hochgeladenen Version zu und überwachen Sie den Fortschritt, bis die Abmeldung erreicht ist.
+
+## Detailliertes Testszenario
+
+Für Teilnehmer, die zusätzliche Funktionen testen möchten, haben wir ein stärker involviertes Testszenario erstellt. Eine Anleitung für dieses detaillierte Testszenario können Sie hier herunterladen: [WF + Frame.io - Anleitung zum detaillierten Testszenario](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Funktionspläne
 
