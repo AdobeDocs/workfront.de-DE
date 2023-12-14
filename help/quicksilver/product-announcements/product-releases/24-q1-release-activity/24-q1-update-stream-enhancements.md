@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und der Benachrichtigung im ersten Qua
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen am Aktualisierungsstream und an Benachrichtigungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Ziehen Sie ein Bild in einen Kommentar im Abschnitt Updates .
+
+Um den Inhalt Ihrer Kommentare zu verbessern, können Sie jetzt im Abschnitt Aktualisierungen eines Objekts ein Bild in einen Kommentar oder eine Antwort ziehen und dort ablegen.
+
+Sie können Bilder hinzufügen, die nur in den folgenden Formaten auf Ihrem Computer gespeichert sind: .jpg, .jpeg, .png, .gif.
+
+Diese Funktion existierte im alten Kommentar-Stream und wurde nun zum neuen Kommentar-Erlebnis hinzugefügt.
+
+Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Das neue Kommentierungserlebnis erfasst alle Informationen für Projekte, Aufgaben, Probleme und Dokumente
 
