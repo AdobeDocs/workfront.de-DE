@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Übersicht über den Lastenausgleich
-description: Nachdem die Projektmanager die Arbeit an Projekten geplant und Aufgaben erstellt haben, können Sie den Arbeitslastausgleich verwenden, um diese Arbeit den Benutzern in Ihren Teams zuzuweisen.
-author: Alina
+description: Nachdem Projektmanager die Arbeit an Projekten geplant haben, indem sie Aufgaben erstellen und nachdem Ressourcenmanager im Ressourcenplaner Job-Rollenressourcen Projekten zuweisen, können Projekteigentümer und Teammanager den Workload-Balancer verwenden, um Benutzern Arbeitselemente zuzuweisen.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-Nachdem die Projektmanager die Arbeit an Projekten geplant und Aufgaben erstellt haben, können Sie den Arbeitslastausgleich verwenden, um diese Arbeit Benutzern zuzuweisen.
+Nachdem Projektmanager die Arbeit an Projekten geplant haben, indem sie Aufgaben erstellen und nachdem Ressourcenmanager im Ressourcenplaner Job-Rollenressourcen Projekten zuweisen, können Projekteigentümer und Teammanager den Workload-Balancer verwenden, um Benutzern Arbeitselemente zuzuweisen.
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ Beachten Sie bei der Verwendung des Workload Balancers die folgenden Vorteile:
 
   Weitere Informationen finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  Sie können Arbeitselemente auch stapelweise zuweisen, was die gleichzeitige Verteilung einer großen Anzahl von Arbeitselementen über mehrere Projekte hinweg erleichtert. Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Sie können Arbeitselemente auch stapelweise zuweisen, was die gleichzeitige Verteilung vieler Arbeitselemente über mehrere Projekte hinweg erleichtert. Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Führungskräfte können durch Transparenz in der Art und Weise, wie Menschen in ihrer Organisation genutzt werden, zeitnahe Personalentscheidungen treffen.
 * Teammitglieder profitieren von einer besseren Zusammenarbeit, da sie alle jederzeit sehen können, woran ihre Mitarbeiter arbeiten. Informationen über den Zugriff, der zum Anzeigen oder Verwalten von Ressourcen im Workload Balancer erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -95,12 +95,15 @@ Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich fi
 * Die Benutzer, deren Arbeitsaufwand Sie verwalten möchten, müssen die folgenden Kriterien erfüllen, damit die Informationen über ihre Verfügbarkeit und Fähigkeiten korrekt sind:
 
    * Mit ihrem Profil verknüpfen Sie Zeitpläne und Vorgangsrollen.
-   * Weitere Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     Weitere Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Wenn einem Benutzer kein Zeitplan zugeordnet ist, wird der Standardzeitplan Ihres Workfront-Systems dem Benutzer standardmäßig zum Zwecke der Ressourcenverwaltung zugeordnet.
-   * Lassen Sie Ausnahmen planen in ihren Zeitplänen aktualisiert.\
+   * Lassen Sie Ausnahmen planen in ihren Zeitplänen aktualisiert.
+
      Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Lassen Sie den Kalender in ihrem Profil aktualisiert.\
+   * Lassen Sie den Kalender in ihrem Profil aktualisiert.
+
      Weitere Informationen zum Aktualisieren des Zeitlimitkalenders eines Benutzers finden Sie unter [Persönliche Zeit konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich fi
      </div>   
      -->
 
-* Der Workfront-Administrator muss bestimmen, wie Workfront die Benutzerverfügbarkeit berechnet. Sie können entscheiden, ob Workfront entweder den Standardzeitplan des Systems oder den Zeitplan des Benutzers verwendet, um die Zeit zu berechnen, für die der Benutzer zur Verfügung steht. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Der Workfront-Administrator muss bestimmen, wie Workfront die Benutzerverfügbarkeit berechnet. Sie können entscheiden, ob Workfront den Systemstandardzeitplan oder den Benutzerzeitplan verwendet, um die Arbeitszeit des Benutzers zu berechnen, indem sie die Voreinstellungen für das Ressourcenmanagement im Setup-Bereich von Workfront anpassen.
+
+  Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Best Practices zum Einrichten von Aufgaben und Problemen {#best-practices-for-setting-up-tasks-and-issues}
 
 Stellen Sie sicher, dass die folgende Aufgabe und das Einrichten von Problemen vorhanden sind, bevor Sie mit der Zuweisung von Aufgaben an Benutzer im Arbeitslastausgleich beginnen:
 
-* Übergeordnete Aufgaben werden Benutzern oder Rollen nicht zugewiesen. Sie werden nicht im Lastenausgleich angezeigt.
+* Übergeordnete Aufgaben werden Benutzern oder Rollen nicht zugewiesen. Übergeordnete Aufgaben werden nicht im Arbeitslastausgleich angezeigt.
 * Aufgaben und Probleme haben einen Wert für &quot;Geplante Stunden&quot;, der größer als null ist.
 
 * Aufgaben und Probleme haben einen Wert für ihre Dauer, der größer als null ist.
@@ -124,16 +129,16 @@ Stellen Sie sicher, dass die folgende Aufgabe und das Einrichten von Problemen v
 
 ## Bevor Sie mit der Verwendung des Lastenausgleichs beginnen
 
-* Sie können den Lastenausgleich verwenden, um Arbeitsaufgaben zuzuweisen und tägliche Zuordnungen für Benutzer in Ihrer Organisation zu verwalten.
+* Lesen Sie die folgenden Artikel, bevor Sie mit der Verwendung des Workload Balancers beginnen:
 
-  In diesem Artikel erfahren Sie, wie Sie im Arbeitslastausgleich navigieren, um die folgenden Aktionen durchzuführen: [Navigieren Sie zum Lastenausgleich .](../workload-balancer/navigate-the-workload-balancer.md).
+   * In diesem Artikel erfahren Sie, wie Sie im Arbeitslastausgleich navigieren, um die folgenden Aktionen durchzuführen: [Navigieren Sie zum Lastenausgleich .](../workload-balancer/navigate-the-workload-balancer.md).
 
-  In den folgenden Artikeln erfahren Sie, wie Sie Arbeit zuweisen und Benutzerzuweisungen verwalten:
+   * In den folgenden Artikeln erfahren Sie, wie Sie Arbeit zuweisen und Benutzerzuweisungen verwalten:
 
-   * [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [Verwalten von Benutzerzuordnungen im Lastenausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Verwalten von Benutzerzuordnungen im Lastenausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* Der Lastenausgleich kann sich in verschiedenen Bereichen von Workfront befinden. Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* Der Lastenausgleich ist in verschiedenen Bereichen von Workfront zu finden. Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Zugriff erforderlich, um den Lastenausgleich zu verwenden
 

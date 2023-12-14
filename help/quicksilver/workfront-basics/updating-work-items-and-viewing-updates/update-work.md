@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihre Aktualisierung anzuhängen:
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">Speichern Sie das Bild auf unserem Computer und ziehen Sie es in den Bereich Neuer Kommentar .</span>
+     <span class="preview">Dies ist in der Produktionsumgebung für das neue Kommentierungserlebnis nicht verfügbar. Das Ziehen und Ablegen eines Bildes in einen Kommentar ist in der bisherigen Kommentarfunktion in der Produktion verfügbar. </span>
 
    * <span class="preview">Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein. </span>
    * Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
@@ -431,6 +430,11 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Wenn jemand ein Bild löscht, das mit einem Kommentar verknüpft ist, wird es auch aus dem Kommentar entfernt.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild in der vorhandenen Aktualisierung anzuzeigen:
+
+   * Klicken Sie auf **Vorschau** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> auf der Miniaturansicht des Bildes, um das Bild in voller Größe in einer neuen Browser-Registerkarte zu öffnen.
+   * Klicken Sie auf **Herunterladen** icon ![](assets/downloadimageicon.png) auf der Miniaturansicht, um das Bild herunterzuladen.
 
 1. Klicks **Einsenden** , um Ihren Kommentar hinzuzufügen.
 

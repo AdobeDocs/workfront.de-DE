@@ -7,10 +7,10 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 4%
 # Übersicht über den Aktualisierungsabschnitt
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. </span>
+
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 4%
 
 Im Abschnitt Updates eines Objekts werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, finden Sie im Abschnitt Aktualisierungen möglicherweise das folgende Erlebnis:
 
@@ -89,7 +96,7 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
 
 ### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >Antworten, die zu Systemaktualisierungen hinzugefügt werden, werden nicht auf das übergeordnete Objekt aktualisiert. Nur direkte Antworten auf ein untergeordnetes Objekt und Antworten, die zu vorhandenen Updates hinzugefügt werden, werden zu übergeordneten Objekten aggregiert.
@@ -213,7 +217,6 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
 >
 > Es ist nicht möglich, auf Systemaktualisierungen in der neuen Kommentierungserfahrung zu antworten. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Einschränkungen des Abschnitts Updates
 
@@ -230,9 +233,9 @@ Beachten Sie beim Anzeigen von Updates für Benutzer und Teams Folgendes:
 * Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
 
    * Benutzende
-   * Arbeitszeittabellen*
+   * Timesheets*
    * Storys
-   * Wiederholungen*
+   * Iterationen*
 
   *Diese sind für das neue Kommentarerlebnis nicht verfügbar.
 

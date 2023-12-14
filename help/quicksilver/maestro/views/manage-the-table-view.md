@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* Das Feld Name ist immer das erste Feld in der Tabellenansicht.
-   >
-   >* Das Feld &quot;Name&quot;kann nicht an eine andere Position verschoben werden.
-   >
-   >* Das Feld Name kann nicht ausgeblendet werden.
-   >
-   >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* Das Feld Name ist immer das erste Feld in der Tabellenansicht.
+     >
+     >* Das Feld &quot;Name&quot;kann nicht an eine andere Position verschoben werden.
+     >
+     >* Das Feld Name kann nicht ausgeblendet werden.
+     >
+     >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Optional) Bewegen Sie den Mauszeiger über einen Feldnamen in der Spaltenüberschrift eines Felds, das nicht in der ersten Spalte der Tabelle angezeigt wird, klicken Sie auf den Pfeil nach unten rechts neben dem Feldnamen und klicken Sie dann auf **Als primäres Feld festlegen**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Klicks **Feld festlegen** zur Bestätigung.
+
+   Das Feld wird zu einem primären Feld, was bedeutet, dass es als erste Spalte der Tabellenansicht angezeigt wird. Das vorherige primäre Feld wechselt zur zweiten Spalte.
+
+   >[!NOTE]
+   >
+   >   * Nur Felder der folgenden Typen können Primärfelder sein:
+   >
+   >       * Einzeiliger Text
+   >       * Zahl
+   >       * Formel
+   >
+   >         Die Formelfelder werden zu einem späteren Zeitpunkt veröffentlicht.
+   >
+   >   * Das Primärfeld ist immer eingefroren und kann nicht verschoben werden. Sie können ein primäres Feld durch ein anderes ersetzen, wenn Sie es an eine andere Position verschieben möchten.
+   >
+   >   * Das Ändern des Primärfelds in der Tabellenansicht wirkt sich auf die Ansicht aller anderen Benutzer aus, die das Feld auswählen.
+   >
+   >   * Eine Änderung des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten aus.
+   >
+   >   * Ein primäres Feld kann nicht gelöscht oder ausgeblendet werden.
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 

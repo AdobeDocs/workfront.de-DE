@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Woche vom 18. Dezember 2023
+
+### Primärfeld in Tabellenansicht eines Datensatztyps aktualisieren
+
+Vorschau und Produktion: 14. Dezember 2023
+
+Jetzt können Sie das Feld auswählen, das in der ersten Spalte einer Maestro-Tabellenansicht angezeigt werden soll. Dieses Feld wird jetzt als primäres Feld bezeichnet.
+
+Vor dieser Verbesserung wurde das Feld Name eines Datensatzes immer in der ersten Spalte der Tabellenansicht angezeigt und es konnte nicht an einer anderen Position platziert werden.
+
+Beachten Sie bei dieser Verbesserung Folgendes:
+
+* Die Spalte &quot;Name&quot;oder das Feld ist standardmäßig weiterhin die erste Spalte einer Tabelle.
+
+* Sie können jedes Feld der folgenden Typen als primäres Feld auswählen und das Feld Name in der ersten Spalte ersetzen:
+
+   * Einzeiliger Text
+
+   * Zahl
+
+   * Formel
+
+     >[!NOTE]
+     >
+     >Felder vom Typ Formel werden zu einem späteren Zeitpunkt veröffentlicht.
+
+* Das primäre Feld einer Tabellenansicht wird immer gesperrt und kann nicht verschoben werden, es sei denn, Sie legen ein anderes Feld als primäres Feld fest.
+
+* Sie können das Primärfeld in einer Spaltenüberschrift ändern, die nicht primär ist.
+
+* Alle Tabellenansichten eines Datensatztyps haben dasselbe Primärfeld, das Sie auswählen.
+
+Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Woche vom 4. Dezember 2023
 

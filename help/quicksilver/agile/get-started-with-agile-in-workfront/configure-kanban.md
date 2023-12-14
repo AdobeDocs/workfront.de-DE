@@ -6,9 +6,9 @@ description: Sie erstellen ein Kanban- oder Scrum-agile-Team in [!DNL Adobe Work
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
    <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Zugriff auf Teams bearbeiten</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
@@ -68,7 +75,6 @@ So konfigurieren Sie, wie Geschichten für Ihr agile Team geschätzt werden:
 1. Wählen Sie das agile Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![](assets/more-menu.png) , wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.\
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Im **[!UICONTROL Agile]** im Abschnitt **[!UICONTROL Geschätzte Meldungen in]** festlegen, ob Sie Punkte oder Stunden zur Schätzung der Größe (Arbeitslast) von Meldungen verwenden möchten. Wenn Sie Punkte auswählen, geben Sie an, wie viele Stunden 1 Punkt entsprechen. (Der Standardwert ist 1 Punkt = 8 Stunden.) Dies ist die Anzahl der geplanten Stunden, die der Meldung hinzugefügt werden.
@@ -89,8 +95,6 @@ So definieren Sie die Status, die für die mit dem agile Team verknüpfte Story-
 
 1. Wählen Sie das agile Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.
-
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ So konfigurieren Sie dem agile Team zugewiesene Storykarten, um zusätzliche Fel
 
 1. Wählen Sie das agile Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.\
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ So begrenzen Sie die WIP für Ihr Kanban-Team:
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![](assets/more-menu.png), wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.
-
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Im **[!UICONTROL Agile]** im Abschnitt **[!UICONTROL Methode]** -Abschnitt, stellen Sie sicher, dass Kanban ausgewählt ist.
@@ -193,8 +194,6 @@ Sie können Storys aus dem Backlog so konfigurieren, dass sie automatisch zur er
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![](assets/more-menu.png), wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.
-
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Auswählen **[!UICONTROL Automatisch nächsten Story aus dem Backlog hinzufügen]** , um zu konfigurieren, dass das nächste Element aus dem Backlog automatisch zum **[!UICONTROL Neu]** Spalte, wenn ein Element aus der **[!UICONTROL In Bearbeitung]** Spalte.
@@ -215,8 +214,6 @@ Sie können festlegen, wie lange abgeschlossene Karten auf der [!UICONTROL Kanba
 1. (Optional) Klicken Sie auf die **[!UICONTROL Switch-Teams]** icon ![Symbol &quot;Switch Teams&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Wählen Sie das Kanban-Team aus.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![](assets/more-menu.png) , wählen Sie **[!UICONTROL Bearbeiten]**.
-
-   Nur Teammitglieder mit einer [!UICONTROL Plan] oder [!UICONTROL Arbeit] -Lizenz sehen Sie diese Option.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
