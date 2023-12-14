@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -232,8 +232,12 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
    * Zwei Maestro-Record-Typen
    * Ein Maestro-Record-Typ und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
+   * Ein Maestro-Record-Typ und ein Adobe Experience Manager-Asset, -Ordner oder eine Sammlung.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     Sie müssen über eine Adobe Experience Manager-Lizenz verfügen, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verknüpftes Datensatzfeld angezeigt.
 
@@ -273,15 +277,15 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 
 | Maestro-Objekt | Limit |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1,000 |
+| Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Taxonomien für den Arbeitsbereich oder Objekte, die Sie aus Drittanbieteranwendungen importieren) |
-| Datensatzanzahl für einen Datensatztyp | 10,000 |
+| Datensatzanzahl für einen Datensatztyp | 10.000 |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |
-| Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1MB |
-| Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1.5MB |
+| Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
+| Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
-| Größe der CSV-Datei, die Sie in eine Tabelle importieren können | 5MB |
+| Größe der CSV-Datei, die Sie in eine Tabelle importieren können | 5 MB |
 
 ## Maestro für Benutzer in Ihrer Workfront-Instanz aktivieren
 
@@ -367,6 +371,7 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Maestro-Datensätze und Taxonomien verbinden | ✓ |
 | In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
 | Verbinden von Maestro-Datensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
+| Verbinden von Maestro-Datensätzen mit Adobe Experience Manager-Assets, -Ordnern und -Sammlungen | ✓ |                                  |                 |
 | Seite mit Datensatzdetails | ✓ |                                  |                  |
 | Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
 | Workspace-Berechtigungen | | ✓ |  |
@@ -375,6 +380,8 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
 | Kommentare zu Datensätzen hinzufügen |                               | ✓ |                 |
 | Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |
+
+
 
 ## Maestro-Release-Aktivität
 

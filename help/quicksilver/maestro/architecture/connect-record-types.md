@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Adobe</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Um Maestro-Datensatztypen mit Experience Manager Assets zu verbinden, benötigen Sie eine Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Beachten Sie Folgendes:
       * Firmen
       * Gruppen
 
+   * Adobe Experience Manager Assets:
+
+      * Assets
+      * Ordner
+      * Sammlungen
+
 * Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder einem Objekttyp aus einer anderen Anwendung verbunden haben, gibt es folgende Szenarien:
 
    * Wenn Sie zwei Datensatztypen verbinden: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, von dem Sie eine Verbindung herstellen. Ein ähnliches Feld für verknüpfte Datensätze wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen.
@@ -230,12 +238,14 @@ Beachten Sie Folgendes:
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
 1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht angezeigt, und klicken Sie dann auf die Schaltfläche **Neue Verbindung** Registerkarte.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. Im **Record Type** wählen Sie eines der folgenden Elemente aus: <!--is the field name spelled right? lowercase "t"?-->
 
-   * Sonstige betriebliche Datensatzart
-   * Taxonomie
-   * Ein Workfront-Projekt, ein Portfolio, ein Programm, ein Unternehmen oder eine Gruppe.
+   * Ein anderer betrieblicher Datensatztyp aus dem ausgewählten Arbeitsbereich
+   * Eine Taxonomie aus dem ausgewählten Arbeitsbereich
+   * Ein Projekt, ein Portfolio, ein Programm, ein Unternehmen oder eine Gruppe aus dem Abschnitt &quot;Workfront-Objekttypen&quot;.
+   * Experience Manager Assets aus dem Abschnitt Adobe-Anwendungen .
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Beachten Sie Folgendes:
    * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen können, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Diese Option ist standardmäßig aktiviert.
 
+1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Projekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. <!--this needs to be updated for each object when they fix this UI.--> Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Maestro-Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Bedingt) Wenn Sie die Verbindung zu Experience Manager Assets hergestellt haben, wählen Sie ein Repository aus der **Experience Manager-Repository** Dropdown-Menü im **Verknüpfen von Assets aus dem folgenden Repository** Abschnitt. Dies ist ein erforderliches Feld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Klicks **Erstellen**.
 
-1. (Bedingt) Wenn Sie im vorherigen Schritt die Einstellung Suchfeld auswählen ausgewählt haben, wird die **Suchfelder hinzufügen** wird geöffnet.
+1. (Bedingt) Wenn Sie die Option **Suchfeld auswählen** im vorherigen Schritt die Einstellung **Suchfelder hinzufügen** wird geöffnet.
 
    Klicken Sie auf **+** Symbol zum Hinzufügen von Feldern aus dem **Nicht ausgewählte Felder** Bereich.
 
@@ -274,6 +292,10 @@ Beachten Sie Folgendes:
 1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus. Die Werte der verknüpften Felder werden je nach ausgewähltem Aggregator entweder durch Kommas oder als aggregierter Wert angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Beim Verbinden von Datensatztypen mit Experience Manager Assets sind keine Aggregatoren verfügbar.
 
    Wählen Sie aus den folgenden Optionen aus:
 

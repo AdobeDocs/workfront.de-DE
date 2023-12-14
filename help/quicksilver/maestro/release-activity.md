@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 * Alle Tabellenansichten eines Datensatztyps haben dasselbe Primärfeld, das Sie auswählen.
 
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Verbinden von Maestro-Datensätzen mit Adobe Experience Manager-Assets (AEM)
+
+Vorschau: 14. Dezember 2023
+
+Produktionsversion: 15. Dezember 2023
+
+Sie können jetzt eine Verbindung zwischen Maestro-Datensatztypen und Adobe Experience Manager-Assets herstellen.
+
+Nachdem Sie die Verbindung hergestellt haben, ist mit diesem Update die folgende Funktion verfügbar:
+
+* Maestro-Benutzer können AEM Assets, Ordner oder Sammlungen mit einem Maestro-Datensatz aus einem bestimmten Repository verknüpfen, in AEM sie Zugriff haben
+
+* Maestro-Benutzer können alle verbundenen Assets in Maestro anzeigen, nachdem sie mit Datensätzen verbunden sind.
+
+* Nachdem Sie die Verbindung hergestellt haben, wird in Maestro automatisch ein Experience Manager Assets-Record-Typ erstellt. Verbundene Assets sind in der Maestro-Tabelle und in den Timeline-Ansichten dieses neuen Datensatztyps sichtbar.
+
+* Sie können AEM Asset-Informationen in der Maestro-Datensatztabelle anzeigen, aus der Sie eine Verbindung herstellen.
+
+Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Woche vom 4. Dezember 2023
 
