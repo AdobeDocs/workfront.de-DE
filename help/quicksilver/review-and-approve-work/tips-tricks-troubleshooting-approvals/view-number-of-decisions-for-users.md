@@ -6,15 +6,17 @@ description: Sie können die Anzahl der Testversand- und Dokumententscheidungen 
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen
+
+{{highlighted-preview}}
 
 Sie können die Anzahl der Testversand- und Dokumententscheidungen anzeigen, die von Benutzern in Ihrer Workfront-Instanz getroffen wurden.
 
@@ -26,11 +28,17 @@ Sie können die Anzahl der Testversand- und Dokumententscheidungen anzeigen, die
 
 So zeigen Sie die Anzahl der Entscheidungen für einen Benutzer an:
 
-1. Klicken Sie auf **Hauptmenü** rechts oben in Adobe Workfront auf und klicken Sie dann auf **Benutzer**.
+{{step-1-to-users}}
 
 1. Öffnen Sie die **Ansichten** Bereich, und wählen Sie dann die **Lizenzen** anzeigen.
-
 1. Spalte suchen **Entscheidungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
+1. <span class="preview">Um historische Daten anzuzeigen, öffnen Sie die **Ansichten** Bereich und wählen Sie **Historische Benutzeransicht**.</span>
+1. <span class="preview">Spalte suchen **Historische Entscheidungen der Benutzer** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer in einem Monat getroffen hat. Die Daten gehen 12 Monate ab dem aktuellen Monat zurück.</span>
+
+>[!NOTE]
+>
+><span class="preview">Wenn die Historische Benutzeransicht nicht verfügbar ist, können Sie eine neue Ansicht erstellen, um die historischen Daten anzuzeigen. Hinzufügen **Historische Entscheidungen der Benutzer** als Spalte in der Ansicht. Informationen zum Hinzufügen einer Spalte zu einer Ansicht finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## Entscheidungen im Reporting-Bereich anzeigen
 
@@ -38,7 +46,12 @@ So zeigen Sie die Anzahl der Entscheidungen für einen Benutzer an:
 >
 >Dieser Bericht gilt für Benutzer, die sowohl auf den neuen als auch auf alten Zugriffsstufenmodellen basieren.
 
-1. Klicken Sie auf **Hauptmenü** rechts oben in Adobe Workfront auf und klicken Sie dann auf **Berichte**.
+{{step1-to-reports}}
+
 1. Klicks **Neuer Bericht**, wählen Sie **Benutzerentscheidungen**.
+1. Spalte suchen **Entscheidungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
+
+   <span class="preview">Die Daten gehen 12 Monate ab dem aktuellen Monat zurück. Die **Monat** und **Jahr** gibt an, in welchem Monat die Entscheidungen getroffen wurden. Monat 1 ist Januar, Monat 2 ist Februar usw.</span>
+
 1. Überprüfen Sie den Bericht und bearbeiten Sie ihn nach Bedarf. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
