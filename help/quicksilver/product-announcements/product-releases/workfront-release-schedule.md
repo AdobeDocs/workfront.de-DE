@@ -7,9 +7,9 @@ description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktione
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Die Versionen finden in der Regel um 20-22 Uhr US Mountain Time statt.
 
 Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält.
 
-Die monatlichen und vierteljährlichen Versionen sollen am letzten Donnerstag des Monats verfügbar sein. Die Versionen finden in der Regel um 20-22 Uhr US Mountain Time am Abend vor.
+Die monatlichen und vierteljährlichen Versionen sollen am Donnerstag der zweiten vollen Woche des Monats verfügbar sein, sofern nichts anderes angegeben ist. Für bevorstehende Datumsangaben siehe die neuesten [Versionsübersicht](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+Versionen finden in der Regel um 20-22 Uhr US Mountain Time am Abend vor dem Veröffentlichungsdatum statt.
 
 In der Regel werden Funktionen in der Vorschau in Ihrer Produktionsumgebung mit der nächsten Version verfügbar gemacht. In einigen Fällen werden Funktionen jedoch außerhalb einer geplanten Version in der Produktionsumgebung bereitgestellt. Diese Änderungen bleiben mindestens 2 Wochen in der Vorschau, um Ihnen ausreichend Zeit zu geben, die Änderungen kennenzulernen. Diese Änderungen werden auch über das Ankündigungszentrum mitgeteilt, sobald sie der Vorschau hinzugefügt werden.
 
