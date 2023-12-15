@@ -6,14 +6,16 @@ description: Der Desktop Proofing Viewer, der hauptsächlich für die Prüfung i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Installieren des Desktop Proofing Viewers
+
+<!--Audited: 12/2023-->
 
 Der Desktop Proofing Viewer, der hauptsächlich für die Prüfung interaktiver Inhalte entwickelt wurde, ist eine Anwendung, die auf Ihrem lokalen Computer installiert werden muss.
 
@@ -34,11 +36,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Neu: Beliebig</p> <p>oder</p> <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Beliebig</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Alle</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Ist dies nicht der Fall, können Sie die folgenden Schritte ausführen.
 
 >[!NOTE]
 >
->Wenn der Desktop Testversand-Viewer beim Öffnen eines interaktiven Testversands nicht gestartet wird, bedeutet dies wahrscheinlich, dass Ihr Workfront- oder Workfront Testadministrator den Desktop Proofing Viewer als Standard-Viewer für interaktive Testsendungen konfigurieren muss, wie in [Benutzereinstellungen zum Öffnen nicht interaktiver Testsendungen im Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>Wenn der Desktop Testversand-Viewer beim Öffnen eines interaktiven Testversands nicht gestartet wird, bedeutet dies wahrscheinlich, dass Ihr Workfront- oder Workfront Testadministrator den Desktop Proofing Viewer als Standard-Viewer für interaktive Testsendungen konfigurieren muss, wie in [Benutzereinstellungen zum Öffnen nicht interaktiver Testsendungen im Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Installieren des Desktop Proofing Viewers unter Windows
 

@@ -3,11 +3,11 @@ filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
 title: Videodemonstration in Adobe Workfront-Foren
-description: In diesen Videos erfahren Sie, welche Pinnwände in Adobe Workfront zur Verfügung stehen und wie Pinnwände in Ihrer täglichen Arbeit eingesetzt werden können.
+description: In diesen Videos erfahren Sie, welche Pinnwände in Adobe Workfront zur Verfügung stehen, und wie Sie mit Pinnwänden Ihre tägliche Arbeit gestalten können.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
+source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -16,7 +16,9 @@ ht-degree: 1%
 
 # Videodemonstration in Adobe Workfront-Foren
 
-In diesen Videos erfahren Sie, welche Pinnwände in Adobe Workfront zur Verfügung stehen und wie Pinnwände in Ihrer täglichen Arbeit eingesetzt werden können.
+<!--Audited: 12/2023-->
+
+In diesen Videos erfahren Sie, welche Pinnwände in Adobe Workfront zur Verfügung stehen, und wie Sie mit Pinnwänden Ihre tägliche Arbeit gestalten können.
 
 ## Arten von Foren
 

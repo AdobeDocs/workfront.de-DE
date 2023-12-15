@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 0%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 0%
          * [Anforderungstypen für ein Projekt definieren](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * Anforderungen erstellen {#create-requests}
          * [Anforderungen erstellen](manage-work/requests/create-requests/create-requests.md)
-         * [Erstellen und Senden von Adobe Workfront-Anforderungen](manage-work/requests/create-requests/create-submit-requests.md)
+         * [Anforderungen erstellen und senden](manage-work/requests/create-requests/create-submit-requests.md)
          * [Anforderungen aus Entwürfen erstellen](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Benutzer können ein Problem per E-Mail an ein Anforderungswarteschlangenprojekt senden](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Gesendete Anforderungen suchen](manage-work/requests/create-requests/locate-submitted-requests.md)

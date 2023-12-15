@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # Zeit erfassen
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neuer Plan:<ul><li>Einfache oder höhere Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
+   <td> <p>Neu:<ul><li>Einfache oder höhere Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
    <li> Standard oder höher: Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
    <p>oder</p>
-   <p>Aktueller Plan:<ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
+   <p>Aktuell:<ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
    <li> Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
    </td> 
   </tr> 

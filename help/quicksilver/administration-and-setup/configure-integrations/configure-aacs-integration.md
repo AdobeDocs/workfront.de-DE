@@ -5,9 +5,9 @@ title: Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Se
 description: Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Sie müssen über Folgendes verfügen:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] Plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan*</strong>
    </td>
-   <td>Beliebig
+   <td>Alle
    </td>
   </tr>
   <tr>
@@ -76,7 +76,7 @@ Sie müssen über Folgendes verfügen:
 
 Bevor Sie beginnen
 
-* Sie müssen [!DNL Workfront] und [!DNL Adobe Experience Manager Assets] mit einer Organisations-ID in der [!DNL Adobe Admin Consol]e. Weitere Informationen finden Sie unter [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Sie müssen [!DNL Workfront] und [!DNL Adobe Experience Manager Assets] mit einer Organisations-ID in der [!DNL Adobe Admin Console]. Weitere Informationen finden Sie unter [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Integrationsinformationen einrichten

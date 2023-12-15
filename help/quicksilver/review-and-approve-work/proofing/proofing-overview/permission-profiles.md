@@ -4,20 +4,24 @@ product-area: documents
 keywords: proof,permission
 navigation-topic: proofing-overview
 title: Übersicht über das Profil für Testberechtigungen
-description: Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Testversandrollen finden Sie unter Übersicht über Testrollen .
+description: Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Testberechtigungen unterscheiden sich von Testversandrollen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 9b60133c4cc20deb410f507854597f44d0607228
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # Übersicht über das Profil für Testberechtigungen
 
-Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Testversandrollen finden Sie unter [Übersicht über Testrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+<!--Audited: 12/2023-->
+
+Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen.
+
+Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Testversandrollen finden Sie unter [Übersicht über Testrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -29,10 +33,10 @@ Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für al
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
+<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level.</p> </li>
+<li> <p>Billing Administrators and Administrators can delete users. This can only be done in Account settings.</p> </li>
 <li>When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.&nbsp;</li>
+<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them. </li>
 </ul>
 -->
 
@@ -42,7 +46,9 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
 
 <table>
   <tr>
-   <td colspan="5" ><strong>Eigene Elemente</strong>
+   <td colspan="1" ><strong></strong>
+   </td>
+   <td colspan="4" ><strong>Eigene Elemente</strong>
    </td>
    <td colspan="3" ><strong>Elemente anderer Benutzer</strong>
    </td>
@@ -54,13 +60,13 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
    </td>
    <td><strong>Hinzufügen</strong>
    </td>
-   <td><strong>Anzeigen</strong>
+   <td><strong>Ansicht</strong>
    </td>
    <td><strong>Bearbeiten</strong>
    </td>
    <td><strong>Löschen</strong>
    </td>
-   <td><strong>Anzeigen</strong>
+   <td><strong>Ansicht</strong>
    </td>
    <td><strong>Bearbeiten</strong>
    </td>
@@ -110,7 +116,7 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
    </td>
   </tr>
   <tr>
-   <td>Manager
+   <td>Managerin bzw. Manager
    </td>
    <td>x
    </td>
@@ -119,26 +125,6 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
    <td>x
    </td>
    <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Beobachter
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
    </td>
    <td>
    </td>
@@ -166,7 +152,7 @@ Administratoren haben Zugriff auf [Kontoeinstellungen](https://support.workfront
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Erstellen von Testsendungen, Hochladen von Dateien und Erstellen von Ordnern</p> </li> 
+     <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
      <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
      <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzern in der Organisation erstellt wurden</p> </li> 
      <li> <p>Löschen der öffentlichen Ordner anderer Benutzer</p> </li> 
@@ -201,12 +187,12 @@ Supervisoren haben die folgenden Berechtigungen:
  <tbody> 
   <tr> 
    <td>Supervisoren können:</td> 
-   <td>Aufsichtsbehörden können nicht:</td> 
+   <td>Supervisoren können nicht:</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Erstellen von Testsendungen, Hochladen von Dateien und Erstellen von Ordnern</p> </li> 
+     <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
      <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
      <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzern in der Organisation erstellt wurden</p> </li> 
      <li> <p>Löschen der öffentlichen Ordner anderer Benutzer</p> </li> 
@@ -227,7 +213,7 @@ Supervisoren haben die folgenden Berechtigungen:
  </tbody> 
 </table>
 
-### Manager
+### Managerin bzw. Manager
 
 Manager haben die folgenden Berechtigungen:
 
@@ -242,7 +228,7 @@ Manager haben die folgenden Berechtigungen:
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Erstellen von Testsendungen, Hochladen von Dateien und Erstellen von Ordnern</p> </li> 
+     <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
      <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
      <li> <p>Testsendungen anderer Benutzer anzeigen, überprüfen und genehmigen, die explizit für sie freigegeben wurden (Schreibgeschützte Berechtigungen für alle in einem freigegebenen Ordner)</p> </li> 
      <li> <p>Bearbeiten aller im Konto erstellten Testsendungen</p> </li> 
@@ -250,7 +236,7 @@ Manager haben die folgenden Berechtigungen:
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Anzeigen, Bearbeiten oder Löschen von Testsendungen und Dateien, die von anderen Benutzern in der Organisation erstellt wurden. </p> <p>Testversand-Antworten bearbeiten.</p> </li> 
+     <li> <p>Anzeigen, Bearbeiten oder Löschen von Testsendungen und Dateien, die von anderen Benutzern in der Organisation erstellt wurden. </p> </li><li><p>Testversand-Antworten bearbeiten.</p> </li> 
      <li> <p>Löschen Sie die privaten oder öffentlichen Ordner anderer Benutzer</p> </li> 
      <li> <p>Öffnen Sie die Seite Rechnungsstellung oder bearbeiten Sie die Rechnungsdetails.</p> </li> 
      <li> <p>Benutzer hinzufügen, bearbeiten oder löschen</p> </li> 
@@ -270,15 +256,15 @@ Manager haben die folgenden Berechtigungen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -286,7 +272,7 @@ Manager haben die folgenden Berechtigungen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs&nbsp;or replies.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs or replies.</p>
 -->
 
 <!--
@@ -294,7 +280,7 @@ Manager haben die folgenden Berechtigungen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a> and <a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -302,32 +288,31 @@ Manager haben die folgenden Berechtigungen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts. </p>
 -->
 
 
 ><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
 >-->
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
 >  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
 >  -->
-
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
@@ -359,6 +344,6 @@ Manager haben die folgenden Berechtigungen:
 
 <!--
 <note type="note">
-&nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+ Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->

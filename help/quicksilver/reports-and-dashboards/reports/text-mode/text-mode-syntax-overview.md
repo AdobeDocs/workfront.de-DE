@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über die Syntax der Textmodi
+
+<!--Audited: 12/2023-->
 
 Sie können die Textmodus-Oberfläche verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Mithilfe des Textmodus können Sie auf Felder und deren Attribute zugreifen, die in der Benutzeroberfläche des Standardmodus nicht verfügbar sind.
 

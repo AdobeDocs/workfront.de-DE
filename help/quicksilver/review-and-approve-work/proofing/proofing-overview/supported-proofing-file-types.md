@@ -7,7 +7,7 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht
+
+<!--Audited: 12/2023-->
 
 Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprüfen, selbst wenn sie nicht über die Software verfügen, mit der die Dateien (z. B. Photoshop oder Illustrator) auf ihren Computern installiert sind. Wir unterstützen statische, Video-, Audio-, Web-Capture- und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
 

@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Als Adobe Workfront-Administrator weisen Sie einem Benutzer für zwei Zwecke eine Zugriffsstufe zu:
 
-* Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können.
-* Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
+* Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich bei Workfront anmelden und dort arbeiten zu können.
+* Die Zugriffsebenen steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
 
 Jede der sechs nativen Zugriffsebenen ist mit einer der fünf Workfront-Lizenzen verbunden: Plan, Arbeit, Überprüfung, Anforderung und Externe.
 
@@ -32,7 +32,7 @@ External ist eine unbezahlte Lizenz, die hauptsächlich dazu bestimmt ist, Dokum
 
 ![](assets/access-levels-and-licenses-old.png)
 
-Informationen zu verwandten Themen finden Sie in den folgenden Artikeln:
+Informationen zu Themen in Bezug auf Zugriffsebenen finden Sie in den folgenden Artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Informationen zu verwandten Themen finden Sie in den folgenden Artikeln:
   <tr> 
    <td><strong>Zuweisen von Zugriffsebenen</strong></td> 
    <td> <p>Anweisungen zum Zuweisen einer Zugriffsstufe zu einem Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Zugriffsebenen Standard, Light, Contributor</td> 
+   <td> <p>Wenn diese Zugriffsebenen in Ihrer Umgebung anstelle von Plan, Arbeit, Überprüfung oder Anforderung angezeigt werden, verwendet Ihr Unternehmen das neue Zugriffsstufenmodell. Informationen zum neuen Modell finden Sie unter <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über die neuen Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
