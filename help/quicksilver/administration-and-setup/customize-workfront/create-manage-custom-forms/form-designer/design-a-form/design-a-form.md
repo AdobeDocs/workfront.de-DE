@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
-ht-degree: 4%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -499,6 +499,10 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
 ### Externe Suchfelder hinzufügen
 
 Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
+
+>[!NOTE]
+>
+>Für Dokumentobjekte ist keine externe Suchfunktion verfügbar.
 
 So fügen Sie eine externe Suche hinzu:
 
