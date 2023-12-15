@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -27,10 +27,10 @@ Darüber hinaus können Sie das Gantt-Diagramm verwenden, um einen Zeitrahmen f�
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Projekte](../manage-work/projects/projects-overview.md)
+* [Projekte: Artikelindex](../manage-work/projects/projects-overview.md)
 * [Aufgaben](../manage-work/tasks/tasks-overview.md)
 * [Probleme](../manage-work/issues/issues-overview.md)
 * [Gantt-Diagramm](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Portfoliverwaltung](../manage-work/portfolios/portfolio-management-overview.md)
+* [Portfolio-Management](../manage-work/portfolios/portfolio-management-overview.md)
 * [Anforde- rungen](../manage-work/requests/requests-overview.md)
 * [Delegieren von Arbeiten](../manage-work/delegate-work/delegate-work.md)

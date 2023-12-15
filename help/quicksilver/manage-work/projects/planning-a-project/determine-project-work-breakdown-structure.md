@@ -6,9 +6,9 @@ description: Die Definition einer Arbeitsaufschlüsselungsstruktur (Work Breakdo
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschni
 
 Workfront berechnet die für jede Aufgabe geplanten Kosten und die Gesamtkosten eines Projekts. Die für eine Aufgabe geplanten Kosten umfassen alle Ausgaben der Aufgabe zuzüglich der Kosten des mit der Aufgabe betrauten Mitarbeiters bzw. der zugewiesenen Rolle. Die Stundensätze für die Aufgabe, die Rolle und den Mitarbeiter werden während der Aufgabe, Rolle und Benutzererstellung zugewiesen.
 
-Weitere Informationen zu den Projektfinanzen finden Sie im Abschnitt . [Projektfinanzierung](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Weitere Informationen zu den Projektfinanzen finden Sie im Abschnitt . [Projektfinanzen: Artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Festlegen von Genehmigungspunkten für das Projekt
 

@@ -6,9 +6,9 @@ description: Portfolio- oder Projektmanagement (Project Portfolio Management, PP
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Weitere Informationen zur Portfoliooptimierung finden Sie unter [Projektoptimier
 
 ### Ressourcenplanung {#resource-planning}
 
-Neben der Optimierung der Portfolioleistung und der Priorisierung des Projekts stellt der Ressourcen-Manager sicher, dass den Projekten angemessene Ressourcen zugewiesen werden. Sie bewerten die Verfügbarkeit und Zuordnung der Ressourcen mithilfe der in verfügbaren Ressourcen-Management-Tools. [!DNL Workfront].
+Neben der Optimierung der Portfolioleistung und der Priorisierung des Projekts stellt der Ressourcen-Manager sicher, dass den Projekten angemessene Ressourcen zugewiesen werden. Sie bewerten die Verfügbarkeit und Zuordnung der Ressourcen mithilfe der in verfügbaren Ressourcen-Management-Tools [!DNL Workfront].
 
 Je nach Verfügbarkeit der Ressourcen muss der Portfolio Manager die Projekte möglicherweise neu priorisieren.
 
@@ -77,11 +77,11 @@ Weitere Informationen zur Ressourcenverwaltung finden Sie unter [Ressourcen verw
 
 Nach Erhalt der Projektgenehmigung durch den Portfolio Manager und der Ressourcenvalidierung durch den Ressourcen-Manager als Projekteigentümer können Sie das Projekt in den Projektstatus setzen von [!UICONTROL Aktuell] und Ihre Benutzer können mit der Arbeit beginnen, um das Projekt abzuschließen. Es wird empfohlen, in dieser Phase eine Grundlinie des Projekts zu erfassen, um einen Referenzpunkt für das Projekt in seinem ursprünglichen Zustand zu haben.
 
-Weitere Informationen zum Verwalten von Projekten finden Sie in [!DNL Workfront], siehe [Projekte verwalten](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
-Weitere Informationen zum Erstellen von Grundlinien für Projekte finden Sie unter [Erstellen von Projektgrundlagen](../../../manage-work/projects/create-projects/create-baselines.md).
+Weitere Informationen zum Verwalten von Projekten finden Sie in [!DNL Workfront], siehe [Projekte verwalten: Artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Weitere Informationen zum Erstellen von Grundlinien für Projekte finden Sie unter [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Projekt-Postmortem {#project-postmortem}
 
 Nach Abschluss der Projekte im Portfolio können Sie den Erfolg jedes Projekts überprüfen, indem Sie eine Grundlinie erstellen und sie mit der ursprünglichen Grundlinie vergleichen.
 
-Weitere Informationen zum Erstellen von Grundlinien für Projekte finden Sie unter [Erstellen von Projektgrundlagen](../../../manage-work/projects/create-projects/create-baselines.md).
+Weitere Informationen zum Erstellen von Grundlinien für Projekte finden Sie unter [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md).

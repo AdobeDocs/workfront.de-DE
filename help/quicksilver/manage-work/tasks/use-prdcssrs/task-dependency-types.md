@@ -7,7 +7,7 @@ description: Abhängigkeitstypen beziehen sich auf die Vorgängerbeziehungen zwi
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über Aufgabenabhängigkeitstypen
+
+<!-- Audited: 12/2023 -->
 
 Abhängigkeitstypen beziehen sich auf die Vorgängerbeziehungen zwischen Aufgaben. Sie definieren, wann die abhängige Aufgabe basierend auf dem Start oder der Fertigstellung ihres Vorgängers starten oder beenden kann.
 

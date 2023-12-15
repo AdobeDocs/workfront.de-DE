@@ -7,7 +7,7 @@ description: Aufgabenbegrenzungen bestimmen, wann eine Aufgabe in einem Projekt 
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -15,6 +15,8 @@ ht-degree: 6%
 ---
 
 # Übersicht über Aufgabenbegrenzungen
+
+<!-- Audited: 12/2023 -->
 
 Aufgabenbegrenzungen bestimmen, wann eine Aufgabe in einem Projekt gestartet und beendet werden soll.
 

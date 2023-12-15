@@ -7,7 +7,7 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann eine genehmigte 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Persönliche Zeit konfigurieren
+
+<!-- Audited: 12/2023 -->
 
 [!DNL Adobe Workfront] ist nicht dazu konzipiert, Ihre vorhandenen Systeme für die Verwaltung, Ansammlung und Nachverfolgung persönlicher Zeit zu replizieren oder zu ersetzen.
 

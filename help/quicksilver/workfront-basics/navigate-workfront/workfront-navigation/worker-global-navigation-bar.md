@@ -7,9 +7,9 @@ description: Das Hauptmenü ändert sich je nach Zugriffsstufe, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Die folgenden Bereiche sind im Standardlayout einer [!UICONTROL Worker]:
 
 * **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die Standard-Landingpage für einen Worker . Sie wird jedoch nicht im [!UICONTROL Hauptmenü] es sei denn, ein Workfront-Administrator fügt es der Layoutvorlage hinzu.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projekte]**: Projekte, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Projekte](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projekte]**: Projekte, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Berichte]**: Berichte, die für Sie freigegeben wurden, werden hier angezeigt. Weitere Informationen finden Sie unter [Berichte](../../../reports-and-dashboards/reports/reports-overview.md).
 

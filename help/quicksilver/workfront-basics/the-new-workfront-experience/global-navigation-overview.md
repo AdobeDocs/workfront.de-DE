@@ -5,9 +5,9 @@ description: Die obere Navigationsleiste, die in der neuen [!DNL Adobe Workfront
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Jedes Symbol bringt Sie in einen anderen Bereich des neuen [!DNL Adobe Workfront
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Verwenden des [!UICONTROL Home]-Bereichs</a></li> 
      <li>[!UICONTROL Portfolios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio-Management</a></li> 
      <li>[!UICONTROL Programme] <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Programme erstellen und verwalten </a></li> 
-     <li>[!UICONTROL Projekte]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projekte</a></li> 
+     <li>[!UICONTROL Projekte]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projekte: Artikelindex</a></li> 
      <li>[!UICONTROL Berichte]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Berichte</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Kalender]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Kalender</a></li> 
@@ -103,7 +103,7 @@ Jedes Symbol bringt Sie in einen anderen Bereich des neuen [!DNL Adobe Workfront
      <li>[!UICONTROL Anforderungen]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Anforderungen erstellen</a></li> 
      <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets: Artikelindex</a></li> 
      <li>[!UICONTROL Dokumente]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokumente</a></li> 
-     <li>[!UICONTROL Vorlagen]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Erstellen und Verwalten von Projektvorlagen</a></li> 
+     <li>[!UICONTROL Vorlagen]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Erstellen und Verwalten von Projektvorlagen: Artikelindex</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Erweiterte Analyse - Übersicht</a></li> 
      <li>[!UICONTROL Ziele]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] Übersicht</a></li> 
      <li>[!UICONTROL Szenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Übersicht über den Szenario-Planer</a></li> 
