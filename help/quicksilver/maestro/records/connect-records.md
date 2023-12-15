@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,13 @@ Sie können Folgendes verbinden:
       * Firma
       * Gruppe
 
+   * Adobe Experience Manager Assets
+
+      * Bilddateien
+      * Ordner
+
+
+
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 ## Zugriffsanforderungen
@@ -72,9 +79,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col>
 <tbody>
 <td>
-   <p> Adobe</p> </td>
+   <p> Adobe</p> 
+   </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Um Maestro-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -183,20 +191,21 @@ After permssions - replace the table with:
 
 ### Überlegungen zum Verbinden von Datensätzen
 
-* Nachdem die Verbindung zwischen Datensatztypen hergestellt wurde, werden die verbundenen Datensatztypen in der Tabelle der Datensatztypen, aus denen sie verknüpft sind, als verknüpfte Datensatzfelder angezeigt.
+* Nachdem Sie Datensatztypen verbunden haben, werden die verbundenen Datensatztypen in der Tabelle der Datensatztypen, von denen sie verknüpft sind, als verknüpfte Datensatzfelder angezeigt.
 * Sie können Datensätze und Objekte der verknüpften Datensätze und Objekttypen aus den verknüpften Datensatzfeldern durchsuchen und hinzufügen.
 * Sie können der Tabelle des Datensatztyps, von dem Sie die Relation herstellen, Felder aus den verknüpften Datensatztypen hinzufügen.
 * Die Werte verknüpfter Felder in den Datensätzen, aus denen Sie die Relation herstellen, können nicht manuell aktualisiert werden.
 
-  Die Werte der verknüpften Felder aus den verknüpften Datensätzen füllen den Maestro-Datensatz, von dem Sie die Verknüpfung automatisch vornehmen.
+  Die Werte der verknüpften Felder aus den verknüpften Datensätzen füllen den Maestro-Datensatz, den Sie aus dem von Ihnen konfigurierten Maestro-Arbeitsbereich oder aus der Drittanbieteranwendung verknüpfen.
 
-* Jeder mit Zugriff auf Maestro kann die Verbindungen sehen, die Sie zwischen Maestro-Datensätzen oder zwischen Maestro-Datensätzen und Workfront-Objekten herstellen. Außerdem können Sie die Verbindungen aller anderen anzeigen und bearbeiten. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Jeder mit Zugriff auf Maestro kann die Verbindungen sehen, die Sie zwischen Maestro-Datensätzen oder zwischen Maestro-Datensätzen und den Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen für die Drittanbieteranwendungen anzeigen, mit denen Sie eine Verbindung herstellen.
+* Sie können die Verbindungen aller anderen anzeigen und bearbeiten. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Sie können einen Maestro-Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden.
-* Sie können keine Taxonomien mit Datensatztypen oder Objekten aus einer anderen Anwendung verbinden. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Um Maestro-Datensätze mit Workfront-Objekten zu verknüpfen, benötigen Sie Folgendes:
+* Um Maestro-Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, benötigen Sie Folgendes:
 
-   * Workfront-Objekte. Beispielsweise müssen Sie in Workfront zunächst Projekte, Portfolios, Programme, Unternehmen oder Gruppen erstellen.
-   * Maestro-Arbeitsbereiche, Datensatztypen und Datensätze. Weitere Informationen finden Sie in den folgenden Artikeln:
+   * Mindestens ein Maestro-Arbeitsbereich, -Datensatztyp und -Datensatz.
+
+     Weitere Informationen finden Sie in den folgenden Artikeln:
 
       * [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md)
       * [Erstellen von Datensatztypen](../architecture/create-record-types.md)
@@ -213,12 +222,8 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
-1. Fügen Sie eine Verbindung zu einem anderen Datensatz oder Objekttyp aus dem ausgewählten Datensatztyp hinzu. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
-
-   Der Tabelle wird eine neue Spalte hinzugefügt, um den verknüpften Datensatztyp anzuzeigen.
-
-1. Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
-1. Wechseln Sie aus einem Datensatz, der in der Tabellenansicht aufgeführt ist, zur verknüpften Datensatzspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Maestro-Datensätzen verknüpfen möchten, und klicken Sie dann auf die Schaltfläche **+** Symbol.
+1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
+1. Markieren Sie ausgehend von einem Datensatz in der Tabellenansicht die verknüpfte Datensatzspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Datensätzen verknüpfen möchten. Klicken Sie dann auf die Schaltfläche **+** Symbol.
 
    Die **Objekte verbinden** angezeigt.
 
@@ -232,23 +237,22 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Folgendes wird hinzugefügt:
 
-   * Die verknüpften Datensätze werden im verknüpften Datensatzfeld des Datensatzes angezeigt, den Sie in Schritt 3 ausgewählt haben. Durch die Aktualisierung der verknüpften Datensätze werden automatisch die verknüpften Datensatzfelder für die Datensätze aktualisiert, von denen Sie die Relation herstellen. <!--ensure the number of the step stays accurate-->
-   * Die verknüpften Felder, die zu den verknüpften Datensätzen gehören, werden automatisch mit den Informationen aus den ursprünglich verknüpften Datensätzen ausgefüllt. Verknüpfte Felder können nicht manuell bearbeitet werden.
+   * Die verknüpften Datensätze werden im verknüpften Datensatzfeld des Datensatzes angezeigt, den Sie in Schritt 5 ausgewählt haben. <!--accurate?--> Durch die Aktualisierung der verknüpften Datensätze werden die verknüpften Felder für die Datensätze, von denen Sie die Relation herstellen, automatisch aktualisiert. Verknüpfte Felder können nicht manuell bearbeitet werden.
 
      >[!TIP]
      >
      >* &quot;Verknüpfte Felder&quot;und &quot;Suchfelder&quot;werden synonym verwendet.
      >
-     >* Wenn Sie die Einstellung Mehrere Datensätze zulassen aktiviert haben, wenn Sie die Datensatztypen verbunden haben, werden die Feldwerte für die verschiedenen ausgewählten Objekte entweder durch Kommas getrennt oder gemäß dem ausgewählten Aggregator aggregiert.
+     >* Wenn Sie die **Mehrere Datensätze zulassen** festlegen, wenn Sie die Datensatztypen miteinander verbunden haben, werden die Feldwerte für mehrere ausgewählte Objekte entweder durch Kommas getrennt angezeigt oder entsprechend dem ausgewählten Aggregator aggregiert.
 
 1. (Optional) Schließen Sie die Maestro-Datensatztyp-Seite und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte des Datensatztyps, mit dem Sie verknüpft sind.
 
-   Wenn Sie beispielsweise den Campaign-Datensatz mit dem Produktdatensatz verbunden haben, klicken Sie auf die **Produkt** Karte.
+   Wenn Sie beispielsweise die **Kampagne** mit dem Produktdatensatz aufzeichnen, klicken Sie auf die **Produkt** Karte.
 
-   Die Karte vom Typ Datensatz sollte in der Tabellenansicht geöffnet werden.
+   Die Karte vom Typ Datensatz sollte in der Tabellenansicht geöffnet werden. Wenn nicht, wählen Sie eine Tabellenansicht aus.
 
-   Beachten Sie, dass im Feld Kampagnenverknüpfter Datensatz die Namen der Kampagnen angezeigt werden, die Sie mit Produkten verknüpft haben, und zwar auf der Seite Produktdatensatz . Durch die Aktualisierung der Campaign-Informationen wird das Campaign-verknüpfte Datensatzfeld für den Produktdatensatz-Typ automatisch aktualisiert.
+   Beachten Sie, dass **Kampagne** Das Feld für verknüpfte Datensätze zeigt die Namen der Kampagnen an, die Sie mit Produkten verknüpft haben, auf der Seite Produktdatensatz-Typ . Durch die Aktualisierung der Campaign-Informationen wird das Campaign-verknüpfte Datensatzfeld für den Produktdatensatz-Typ automatisch aktualisiert.
 
 ### Maestro-Datensätze mit Workfront-Objekten verbinden
 
@@ -282,7 +286,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    Folgendes wird hinzugefügt:
 
    * Die ausgewählten Workfront-Objekte werden dem verknüpften Datensatzfeld hinzugefügt.
-   * Für jedes verknüpfte Feld, das Sie beim Hinzufügen der Felder zum verknüpften Datensatz ausgewählt haben, wird ein neues verknüpftes Feld (oder ein Lookup-Feld) erstellt.
+   * Wenn Sie sie hinzugefügt haben, als Sie den Datensatztyp mit Workfront verbunden haben, werden die verknüpften Felder (oder die Suchfelder) automatisch mit Informationen aus Workfront gefüllt.
    * Der neue Datensatztyp &quot;&lt; Name des Workfront-Objekttyps >&quot;wird im selben Arbeitsbereich wie der Maestro-Datensatz erstellt, von dem Sie die Verknüpfung herstellen. Der Name des Objekts ist Teil des Namens dieses Datensatztyps. Wenn Sie beispielsweise mit Workfront-Projekten verknüpfen, wird die **Projekt** Record-Typ in Maestro.
 
      Dies ist ein schreibgeschützter Datensatztyp und zeigt Workfront-Objekte an, die in dem neuen verknüpften Objektfeld ausgewählt sind, das Sie aus dem Maestro-Datensatz erstellt haben. Die verknüpften Felder des verknüpften Objekts werden auch in den schreibgeschützten verknüpften Workfront-Datensätzen angezeigt.
@@ -302,13 +306,9 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 
 1. (Optional) Schließen Sie die Maestro-Datensatztyp-Seite und wechseln Sie zum ausgewählten Arbeitsbereich.
-1. Klicken Sie auf die Karte für den Workfront-Objektdatensatztyp. Klicken Sie beispielsweise auf die **Workfront-Projekt** -Karte, wenn Sie mit Workfront-Projekten verknüpft sind. Die schreibgeschützte Workfront-Datensatztypkarte sollte in der Tabellenansicht geöffnet werden.
+1. (Optional) Klicken Sie auf die Karte für den Workfront-Objektdatensatztyp. Klicken Sie beispielsweise auf die **Projekt** -Karte, wenn Sie mit Workfront-Projekten verknüpft sind. Die schreibgeschützte Workfront-Datensatztypkarte sollte in der Tabellenansicht geöffnet werden.
 
-   >[!NOTE]
-   >
-   >    * Die auf der Seite Workfront-Datensatztyp aufgelisteten Datensätze sind schreibgeschützte Workfront-Objekte. Die vom Workfront-Datensatztyp verknüpften Felder werden ebenfalls als schreibgeschützte Spalten angezeigt und automatisch ausgefüllt, wenn sie in Workfront ausgefüllt werden.
-   >    * Workfront-Felder können in Maestro nicht manuell aktualisiert werden. Workfront-Objektfelder müssen in Workfront ausgefüllt und die Feldwerte werden automatisch im Workfront-Datensatz in Maestro angezeigt.
-   >
+   Die auf der Seite Workfront-Datensatztyp aufgelisteten Datensätze sind schreibgeschützte Workfront-Objekte, die aus Maestro-Datensätzen verknüpft wurden. Die vom Workfront-Datensatztyp verknüpften Felder werden ebenfalls als schreibgeschützte Spalten angezeigt und automatisch ausgefüllt, wenn sie in Workfront ausgefüllt werden.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Seite &quot;Workfront-Objektdatensatzdetails&quot;in Maestro zu öffnen:
 
@@ -325,7 +325,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um das verknüpfte Workfront-Objekt in Workfront zu öffnen:
 
-   * Aus dem **Verzeichnis** Ansicht der Workfront-Datensatztypseite auf den Namen des Workfront-Objekts klicken,
+   * Aus dem **Verzeichnis** Ansicht der Workfront-Datensatztypseite, klicken Sie auf den Namen des Workfront-Objekts, um den Projektdatensatz in Maestro zu öffnen.
 
    Oder
 
@@ -335,7 +335,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Dadurch wird die Workfront-Objektseite geöffnet. Sie können Informationen zum Workfront-Objekt bearbeiten, sofern Sie dazu berechtigt sind.
 
-1. (Optional) Klicken Sie auf die **Felder hinzufügen** icon ![](assets/add-fields-icon.png) in der rechten oberen Ecke der Tabellenansicht auf der Workfront-Datensatztypseite, um Workfront-Felder zum Workfront-Datensatztyp hinzuzufügen oder daraus zu entfernen.
+1. (Optional) Klicken Sie auf der schreibgeschützten Workfront-Objektdatensatzseite in Maestro auf die **Felder hinzufügen** icon ![](assets/add-fields-icon.png) in der oberen rechten Ecke der Tabellenansicht, um Workfront-Felder zum Workfront-Datensatztyp hinzuzufügen oder daraus zu entfernen.
 
    >[!NOTE]
    >
@@ -349,6 +349,12 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 ### Maestro-Datensätze mit Adobe Experience Manager-Objekten verbinden
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+>[!IMPORTANT]
+>
+>Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Maestro-Datensätze mit Adobe Experience Manager Assets verbinden zu können.
+>
+>Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nachdem Sie eine Verbindung zwischen einem Maestro-Record-Typ und Adobe Experience Manager Assets hergestellt haben, können Sie einzelne Maestro-Datensätze mit Experience Manager-Assets verbinden. Die Asset-Felder, mit denen Sie die Verbindung von Experience Manager Assets aus hergestellt haben, werden automatisch in den Maestro-Datensatztyp eingetragen, von dem Sie die Verbindung hergestellt haben.
 
@@ -372,24 +378,23 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. Klicken Sie auf , um einige der folgenden Asset-Typen auszuwählen:
 
    * Bilder
-   * Sammlungen
    * Ordner
 
    Sie können mehrere Assets auswählen.
 
    >[!IMPORTANT]
    >
-   > Sie können nur Assets verbinden, auf die Sie Zugriff haben, um sie in Experience Manager anzuzeigen.
+   > Sie können nur Assets verbinden, auf die Sie Zugriff haben, um sie in Experience Manager anzuzeigen. Nach der Verbindung können alle Maestro-Benutzer die Assets in Maestro anzeigen, unabhängig vom Zugriff auf sie in Experience Manager Assets.
 
 1. Klicks **Auswählen**.
 
    Folgendes wird hinzugefügt:
 
    * Die ausgewählten Experience Manager-Assets werden dem verknüpften Datensatzfeld hinzugefügt.
-   * Für jedes verknüpfte Feld, das Sie beim Hinzufügen der Felder zum verknüpften Datensatz ausgewählt haben, wird ein neues verknüpftes Feld (oder ein Lookup-Feld) erstellt.
-   * Der neue Datensatztyp &quot;Experience Manager Assets&quot;wird im selben Arbeitsbereich wie der Maestro-Datensatz erstellt, von dem Sie die Verknüpfung herstellen.
+   * Die verknüpften Felder (oder Lookup-Felder) enthalten Informationen aus dem mit dem Experience Manager verbundenen Asset.
+   * Der neue Datensatztyp &quot;Experience Manager Assets&quot;wird im selben Arbeitsbereich wie der Maestro-Datensatz erstellt, von dem Sie die Verknüpfung herstellen. <!--is this still added?-->
 
-     Dies ist ein schreibgeschützter Datensatztyp und zeigt Experience Manager-Objekte an, die in dem neuen verknüpften Objektfeld ausgewählt sind, das Sie aus dem Maestro-Datensatz erstellt haben. Die verknüpften Felder des verknüpften Objekts werden auch in den schreibgeschützten Experience Manager-Datensätzen angezeigt.
+     Dies ist ein schreibgeschützter Datensatztyp und zeigt Experience Manager-Assets an, die in dem neuen verknüpften Objektfeld ausgewählt sind, das Sie aus dem Maestro-Datensatz erstellt haben. Die verknüpften Felder des verknüpften Objekts werden auch in den schreibgeschützten Experience Manager-Datensätzen angezeigt.
 
      >[!IMPORTANT]
      >
@@ -408,11 +413,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. (Optional) Schließen Sie die Maestro-Datensatztyp-Seite und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte für den Experience Manager Assets-Datensatztyp. Die schreibgeschützte Experience Manager Assets-Datensatztypkarte sollte in der Tabellenansicht geöffnet werden.
 
-   >[!NOTE]
-   >
-   >    * Die auf der Experience Manager Assets-Datensatztypseite aufgelisteten Datensätze sind schreibgeschützte Assets. Die vom Experience Manager Assets-Datensatztyp verknüpften Felder werden ebenfalls als schreibgeschützte Spalten angezeigt und automatisch ausgefüllt, wenn sie in Experience Manager eingetragen sind.
-   >    * Sie können die Experience Manager-Felder in Maestro nicht manuell aktualisieren. Experience Manager-Asset-Felder müssen in Experience Manager ausgefüllt und die Feldwerte werden automatisch im Experience Manager Assets-Datensatz in Maestro angezeigt.
-   >
+   Die auf der Experience Manager Assets-Datensatztypseite aufgelisteten Datensätze sind schreibgeschützte Assets. Die vom Experience Manager Assets-Datensatztyp verknüpften Felder werden ebenfalls als schreibgeschützte Spalten angezeigt und automatisch ausgefüllt, wenn sie in Experience Manager eingetragen sind.
 
 1. (Optional) Gehen Sie zu dem mit Experience Manager Assets verknüpften Datensatztyp und klicken Sie im verknüpften Datensatzfeld auf den Namen eines Assets. Die Experience Manager-Details des Assets werden in einem Popup-Fenster angezeigt. <!--update screen shot with hi-rez picture-->
 

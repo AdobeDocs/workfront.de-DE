@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 3%
 
 ---
@@ -140,13 +140,13 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
      >[!TIP]
      >
-     >* Das Feld Name ist immer das erste Feld in der Tabellenansicht.
+     >* Das Feld Name ist standardmäßig immer das erste Feld in der Tabellenansicht. Dies gilt als primäres Feld.
      >
-     >* Das Feld &quot;Name&quot;kann nicht an eine andere Position verschoben werden.
+     >* Sie können das Feld Name nicht an eine andere Position verschieben, es sei denn, Sie bestimmen ein anderes Feld als primäres Feld. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
      >
-     >* Das Feld Name kann nicht ausgeblendet werden.
+     >* Ein primäres Feld kann nicht ausgeblendet oder gelöscht werden.
      >
-     >* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
+     >* Das Primärfeld ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
    * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
 
@@ -197,11 +197,13 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **suchen** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und das Feld mit der richtigen Übereinstimmung wird blau hervorgehoben.
+   1. Klicken Sie auf **suchen** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und das Feld mit der richtigen Übereinstimmung wird hervorgehoben.
 
       Sie können beliebige Wörter oder Sonderzeichen verwenden, die auf dem Bildschirm sichtbar sind.
 
       Sie können keine Suchbegriffe verwenden, die Feldern zugeordnet sind, die in der Tabellenansicht ausgeblendet sind.
+
+      Durch Drücken der Eingabetaste auf der Tastatur gelangen Sie zum nächsten gefundenen Feld.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

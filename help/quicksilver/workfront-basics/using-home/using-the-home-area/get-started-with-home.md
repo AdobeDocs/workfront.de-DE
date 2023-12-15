@@ -6,7 +6,7 @@ description: Die [!UICONTROL Startseite] ist Ihre zentrale Anlaufstelle, um Aufg
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Erste Schritte mit [!UICONTROL Startseite]
+
+<!--Audited: 12/2023-->
 
 In diesem Artikel wird eine Übersicht über die aktuelle [!UICONTROL Startseite] Gebiet in [!DNL Adobe Workfront]. Informationen zur Arbeit in der neuen [!UICONTROL Startseite], siehe [Erste Schritte mit der neuen Startseite](../new-home/get-started-with-new-home.md).
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ Sie können nicht mehr relevante Maestro-Felder löschen.
 
 ## Überlegungen zum Löschen von Maestro-Feldern:
 
+* Sie können ein Feld nur in der Tabellenansicht des Datensatztyps löschen.
 * Sie können von Ihnen erstellte Felder oder Felder löschen, die von anderen Benutzern oder vom System erstellt wurden. <!--this will change with access levels/ permissions-->
-* Das Feld Name eines Datensatzes kann nicht gelöscht werden. <!--change this to say you can't delete the field selected to be the primary-->
-* Sie können ein Feld nur in der Tabelle vom Typ Datensatz löschen.
+* Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
 * Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
 * Wenn Sie ein verknüpftes Datensatzfeld löschen, werden auch alle verknüpften Suchfelder aus dem Datensatztyp gelöscht, aus dem Sie eine Verknüpfung herstellen. Die verknüpften Datensatzfelder der Datensatztypen, mit denen Sie eine Verknüpfung herstellen, werden nicht gelöscht.
 
@@ -74,19 +74,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
    <td>
-<p>Beliebig</p>
+<p>Alle</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Beliebig</p> 
+   <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Beliebig</p>  
+   <td> <p>Alle</p>  
 </td>
   </tr>
 <tr>

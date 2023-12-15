@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Verbinden von Maestro-Datensätzen mit Adobe Experience Manager-Assets (AEM)
+### Maestro-Datensätze mit Adobe Experience Manager Assets verbinden
 
 Vorschau: 14. Dezember 2023
 
 Produktionsversion: 15. Dezember 2023
 
-Sie können jetzt eine Verbindung zwischen Maestro-Datensatztypen und Adobe Experience Manager-Assets herstellen.
+>[!IMPORTANT]
+>
+>Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Maestro-Datensätze mit Adobe Experience Manager Assets verbinden zu können.
+>
+>Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+Sie können jetzt eine Verbindung zwischen Maestro-Datensatztypen und Adobe Experience Manager Assets herstellen.
 
 Nachdem Sie die Verbindung hergestellt haben, ist mit diesem Update die folgende Funktion verfügbar:
 
-* Maestro-Benutzer können AEM Assets, Ordner oder Sammlungen mit einem Maestro-Datensatz aus einem bestimmten Repository verknüpfen, in AEM sie Zugriff haben
+* Sie können Experience Manager-Assets und -Ordner mit einem Maestro-Datensatz aus einem bestimmten Repository in Experience Manager Assets verknüpfen, auf das sie Zugriff haben. In diesem Prozess können Sie Asset-Felder mit Maestro-Feldern verbinden.
 
-* Maestro-Benutzer können alle verbundenen Assets in Maestro anzeigen, nachdem sie mit Datensätzen verbunden sind.
+* Maestro-Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in Maestro anzeigen
 
-* Nachdem Sie die Verbindung hergestellt haben, wird in Maestro automatisch ein Experience Manager Assets-Record-Typ erstellt. Verbundene Assets sind in der Maestro-Tabelle und in den Timeline-Ansichten dieses neuen Datensatztyps sichtbar.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* Sie können AEM Asset-Informationen in der Maestro-Datensatztabelle anzeigen, aus der Sie eine Verbindung herstellen.
+* Sie können im Feld &quot;Verbundener Datensatz&quot;in der Tabellenansicht des Maestro-Datensatzes auf den Asset-Namen klicken und ein Popup-Fenster mit der Asset-Miniaturansicht und mehreren Schlüsselfeldern anzeigen. Im Popup-Fenster können Sie in Experience Manager zum Asset-Viewer navigieren und alle Details dazu anzeigen.
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Woche vom 4. Dezember 2023
 

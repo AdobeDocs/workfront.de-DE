@@ -7,7 +7,7 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über berechnete Datenausdrücke
+
+<!--Audited: 12/2023-->
 
 Sie können Datenausdrücke verwenden, um berechnete benutzerdefinierte Felder in Adobe Workfront zu definieren. Berechnete Ausdrücke verbinden vorhandene Workfront-Felder in Anweisungen, die ein neues Feld generieren.
 
