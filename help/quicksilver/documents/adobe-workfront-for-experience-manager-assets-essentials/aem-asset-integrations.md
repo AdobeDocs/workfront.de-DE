@@ -1,25 +1,27 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Übersicht über die Integrationen von Adobe Experience Manager Assets
-description: Durch die Integration von Workfront mit Experience Manager Assets oder Assets Essentials können Unternehmen die Geschwindigkeit und Time-to-Market von Inhalten verbessern, indem sie Arbeit und Digital Asset Management miteinander verbinden.
+title: Überblick über Adobe Experience Manager Assets-Integrationen
+description: Durch die Integration von Workfront und Experience Manager Assets oder Assets Essentials können Unternehmen die Geschwindigkeit und Time-to-Market von Inhalten steigern, indem sie Arbeit und Digital Asset Management miteinander verbinden.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Integrationen von Adobe Experience Manager Assets
+# Überblick über Adobe Experience Manager Assets-Integrationen
 
-Durch die Integration von Workfront mit Experience Manager Assets oder Assets Essentials können Unternehmen die Geschwindigkeit und Time-to-Market von Inhalten verbessern, indem sie Arbeit und Digital Asset Management miteinander verbinden.
+<!-- Audited: 12/2023 -->
+
+Die Integration zwischen Workfront und Experience Manager Assets bzw. Assets Essentials unterstützt Unternehmen dabei, die Geschwindigkeit von Inhalten und die Time-to-Market zu verbessern, indem sie Arbeit und Digital Asset Management intern miteinander verbinden.
 
 >[!IMPORTANT]
 >
->Die parallele Verwendung der alten oder erweiterten Connectoren und der Experience Manager-Integration wird von Adobe nicht unterstützt.
+>Adobe unterstützt nicht die parallele Verwendung der alten oder erweiterten Connectoren und der Experience Manager-Integration.
 
 ## Wichtigste Funktionen
 
@@ -47,8 +49,8 @@ Mit der nativen Experience Manager-Integration können Sie
 ## Erste Schritte
 
 1. [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-1. Einrichten der Integration:
+1. Richten Sie die Integration ein:
    1. [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 Oder
    1. [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Verwenden Sie die Integration: Senden von Assets, Erstellen verknüpfter Ordner, Zuordnen von Metadaten und mehr. Siehe [Adobe Workfront für Experience Manager Assets und Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) für weitere Informationen.
+1. Verwenden Sie die Integration: Senden von Assets, Erstellen verknüpfter Ordner, Zuordnen von Metadaten und mehr. Siehe [Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) für weitere Informationen.

@@ -5,30 +5,32 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Die [!DNL Adobe Workfront] Vorschau der Sandbox-Umgebung
 description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient. Es wird jedes Wochenende von Workfront aktualisiert. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt. Alle Support-Pakete haben Zugriff auf diese Sandbox.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
 # Die [!DNL Adobe Workfront] Vorschau der Sandbox-Umgebung
 
+<!-- Audited: 12/2023 -->
+
 Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Workfront] Produktionsumgebung:
 
 * Vorschau-Sandbox
 
-   Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende aktualisiert wird [!DNL Workfront]. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt.
+  Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende aktualisiert wird [!DNL Workfront]. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt.
 
-   Alle Support-Pakete haben Zugriff auf die Vorschau-Sandbox.
+  Alle Support-Pakete haben Zugriff auf die Vorschau-Sandbox.
 
 * Die benutzerdefinierte Aktualisierungs-Sandbox
 
-   Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox für benutzerdefinierte Aktualisierung zu erhalten. Weitere Informationen zu dieser Umgebung finden Sie unter [Die [!DNL Adobe Workfront] Benutzerdefinierte Sandbox-Umgebung aktualisieren](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox &quot;Benutzerdefinierte Aktualisierung&quot;zu erhalten. Weitere Informationen zu dieser Umgebung finden Sie unter [Die [!DNL Adobe Workfront] Benutzerdefinierte Sandbox-Umgebung aktualisieren](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,12 +47,12 @@ Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Wor
   <tr> 
    <td scope="col"> <p>Vorschau-Sandbox</p> </td> 
    <td scope="col"> <p>ms</p> </td> 
-   <td scope="col"> <p>✔</p> </td> 
+   <td scope="col"> <p>ms</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p>Benutzerdefinierte Aktualisierungs-Sandbox</p> </td> 
    <td scope="col"> <p> </p> </td> 
-   <td scope="col"> <p>✔</p> </td> 
+   <td scope="col"> <p>ms</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,7 @@ Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Wor
 
 Die Vorschau-Sandbox dient als Umgebung, in der Benutzer in Ihrer Organisation Daten aus der Produktionsumgebung sicher testen und verwenden können, ohne die Produktionsumgebung zu beeinträchtigen.
 
-Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Er wird jedoch jedes Wochenende aktualisiert, sodass die Daten bis zu einer Woche hinter der Produktionsumgebung liegen können. Elemente, die seit der letzten Aktualisierungszeit erstellt wurden, befinden sich bis zur folgenden Aktualisierung in der Umgebung &quot;Sandbox-Vorschau&quot;.
+Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Sie wird jedoch jedes Wochenende aktualisiert, sodass die Daten bis zu einer Woche hinter der Produktionsumgebung liegen können. Elemente, die seit der letzten Aktualisierungszeit erstellt wurden, befinden sich bis zur folgenden Aktualisierung in der Umgebung &quot;Sandbox-Vorschau&quot;.
 
 Daten fließen unidirektional, von der Produktion zur Vorschau und nicht umgekehrt. Eine Aktualisierung der Vorschauumgebung wird immer von [!DNL Workfront] jedes Wochenende.
 
@@ -71,7 +73,7 @@ Die Vorschau-Umgebung eignet sich ideal für Trainings, das Testen neuer Funktio
 >
 >Beachten Sie beim Zugriff auf die Vorschau-Sandbox das blaue Banner oben im Bildschirm. Das Banner kann während der Arbeit in dieser Umgebung nicht entfernt werden.
 >
->Der Name der Umgebung, auf die Sie zugreifen (Vorschau), und die Release-Version des Codes werden im Banner angezeigt. Klicken **[!UICONTROL Neue Funktionen]** für Informationen zu dieser Version.
+>Der Name der Umgebung, auf die Sie zugreifen (Vorschau), und die Release-Version des Codes werden im Banner angezeigt. Klicks **[!UICONTROL Neue Funktionen]** für Informationen zu dieser Version.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
@@ -79,8 +81,6 @@ Die Vorschau-Umgebung eignet sich ideal für Trainings, das Testen neuer Funktio
 
 Standardmäßig wird als [!DNL Workfront] Administrator haben Sie Zugriff auf die [!UICONTROL Vorschau] Sandbox-Umgebung. Wenn Sie nicht auf die [!UICONTROL Vorschau] Sandbox-Umgebung, wie in diesem Abschnitt beschrieben, kontaktieren Sie Ihre [!DNL Workfront] Administrator oder unserem Support-Team.
 
-* [Zugriff auf die Vorschau-Sandbox über [!DNL Workfront] Schnittstelle](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [Zugriff auf die Vorschau-Sandbox mithilfe einer URL](#accessing-the-preview-sandbox-using-a-url)
 
 ### Zugriff auf die Vorschau-Sandbox über [!DNL Workfront] Schnittstelle {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -90,7 +90,7 @@ So greifen Sie auf die Vorschau-Sandbox zu:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
 
-1. Klicken **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
+1. Klicks **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
 
 1. Im **[!UICONTROL Testumgebungen]** Abschnitt, klicken Sie auf **[!UICONTROL Sandbox-Vorschau]**.
 
@@ -100,8 +100,7 @@ So greifen Sie auf die Vorschau-Sandbox zu:
 
 ### Zugriff auf die Vorschau-Sandbox mithilfe einer URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Zugreifen auf die Vorschau-Sandbox für Konten auf Cluster 1,2,3 und 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [Zugreifen auf die Vorschau-Sandbox für Konten auf Cluster 4 (EMEA-Konten)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+Sie können über eine URL auf die Vorschau-Sandbox zugreifen.
 
 #### Zugreifen auf die Vorschau-Sandbox für Konten auf Cluster 1,2,3 und 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ So melden Sie sich mit einer URL bei der Vorschau-Sandbox an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Wenn Sie EMEA-Kunde sind und Ihr Konto auf Cluster 4 ist, lesen Sie den Abschnitt . [Zugreifen auf die Vorschau-Sandbox für Konten auf Cluster 4 (EMEA-Konten)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in diesem Artikel.
+   Wenn Sie EMEA-Kunde sind und Ihr Konto auf Cluster 4 ist, lesen Sie den Abschnitt Zugriff auf die Vorschau-Sandbox für Konten auf Cluster 4 (EMEA-Konten) unten.
 
 1. Melden Sie sich mit Ihren Anmeldedaten für die Vorschau an.
 
-   Ihre Vorschauberechtigungen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur bei einer Aktualisierung synchronisiert. Sie werden nicht automatisch synchronisiert.
+   >[!TIP]
+   >
+   >Ihre Vorschauberechtigungen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur bei einer Aktualisierung synchronisiert. Sie werden nicht automatisch synchronisiert.
+
 
 #### Zugreifen auf die Vorschau-Sandbox für Konten auf Cluster 4 (EMEA-Konten) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 

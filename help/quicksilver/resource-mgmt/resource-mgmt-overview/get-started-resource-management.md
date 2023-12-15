@@ -7,14 +7,16 @@ description: Mit Resource Management können Sie Ihr System so konfigurieren, da
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit der Ressourcenverwaltung
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
    * **Der Ressourcen-Planer**: Sie können den Ressourcen-Planer in der ersten Phase des Ressourcenmanagements verwenden, um die Projektzeit Ihrer Ressourcen entsprechend der geplanten Verfügbarkeit zu planen. Während der Planung der Ressourcenphase können Sie Benutzer in Ressourcen-Pools organisieren und einem Projekt mehrere Ressourcen-Pools zuweisen.
 
-     Weitere Informationen zur Ressourcenplanung finden Sie im Abschnitt . [Ressourcenplanung in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Der Szenario-Planer**: Hierbei handelt es sich um eine übergeordnete Ressourcenplanung, mit der Sie sie über mehrere Initiativen hinweg verwalten können, die sich über einen Ein-, Drei- oder Fünfjahresplan erstrecken und mehrere Projekte umfassen können. Sie können das beste Szenario nutzen, um die Verfügbarkeit und Ihr Budget optimal zu nutzen.
 
@@ -48,7 +50,7 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
    * **Der Lastenausgleich**: Dies gehört zu einer Phase der Ressourcenverwaltung auf niedrigerer Ebene, in der Sie Ihre Ressourcen der eigentlichen Arbeit (Aufgaben und Probleme) zuweisen können, die sie ausführen müssen, basierend auf der Zeitdauer, die zum Abschließen der Ressourcen erforderlich ist, und deren Verfügbarkeit. Mithilfe des Workload Balancer können Sie Benutzern tatsächliche Aufgaben zuweisen, die derzeit nicht zugewiesen sind oder Auftragsrollen zugewiesen sind.
 
-     Weitere Informationen zum Workfront Balancer finden Sie im Abschnitt . [Der Lastenausgleich: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Weitere Informationen zum Workfront Balancer finden Sie unter [Der Lastenausgleich: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Sie müssen eine Reihe von Anforderungen erfüllen, bevor Sie die Tools zur Ress
 
 Informationen zu den Anforderungen für die einzelnen Ressourcenverwaltungstools in Workfront finden Sie unter folgenden Themen:
 
-* Der Abschnitt &quot;Voraussetzungen für die Arbeit im Ressourcen-Planer&quot;im Artikel [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* Der Abschnitt &quot;Best Practices für die Verwendung des Workload Balancer&quot;im Artikel [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Der Abschnitt [Best Practices für die Verwendung des Lastenausgleichs](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) im Artikel [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

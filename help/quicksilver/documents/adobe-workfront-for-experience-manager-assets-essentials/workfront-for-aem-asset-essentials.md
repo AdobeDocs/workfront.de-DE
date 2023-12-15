@@ -2,22 +2,22 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Grundlagen zu Adobe Workfront für Experience Manager Assets
+title: "Adobe Workfront for Experience Manager Assets Essentials: Artikelindex"
 description: Grundlagen zu Adobe Workfront für Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 351e48315c2b977886fffc0d71c9ec11d4eb3c5f
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront für Experience Manager Assets und Assets Essentials
+# Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex
 
-* [Übersicht über die Integrationen von Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+* [Überblick über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
 * [Verknüpfen von Assets und Ordnern mit Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Zugeordnete Metadaten für Experience Manager Assets oder Assets Essentials anzeigen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Senden eines Dokuments an Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
