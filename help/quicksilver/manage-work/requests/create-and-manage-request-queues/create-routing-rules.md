@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
 # Erstellen von Routing-Regeln
+
+<!-- Audited: 12/2023 -->
 
 Routing-Regeln steuern, was Adobe Workfront mit Problemen unternimmt, wenn sie an eine Anforderungswarteschlange gesendet werden. Weitere Informationen zum Erstellen von Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ Routing-Regeln senden Probleme an bestimmte Benutzer oder Auftragsrollen, die am
 </table>
 -->
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,11 +63,14 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Neu: Standard</p>
+    <p>oder</p>
+    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -75,7 +80,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,10 +89,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Erstellen einer Routing-Regel
 
-1. Gehen Sie zu dem Projekt, dem Sie die Routing-Regeln für Ihre Anforderungen hinzufügen möchten.
-1. Klicken **Routing-Regeln** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Routing-Regeln**.
-1. Klicken **Neue Routing-Regeln** , um die neue Regel hinzuzufügen.
-1. Geben Sie die folgenden Informationen für die Routing-Regel an:
+1. Gehen Sie zu dem Projekt, in dem Sie die Routing-Regeln für Ihre Anforderungen hinzufügen möchten.
+1. Klicks **Routing-Regeln** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Routing-Regeln**.
+1. Klicks **Neue Routing-Regel** , um die neue Regel hinzuzufügen.
+1. Geben Sie die folgenden Informationen für die Routing-Regel ein:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,14 +102,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td> <p>Der Name der Routing-Regel. Sie können die Routing-Regel sehen, wenn Sie Zugriff auf diese Informationen zum Projekt haben.</p> </td> 
+      <td>Der Name der Routing-Regel. Sie können die Routing-Regel sehen, wenn Sie Zugriff auf diese Informationen zum Projekt haben.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschreibung</strong> </td> 
       <td>Fügen Sie eine Beschreibung für die Routing-Regel hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standard-Bevollmächtigter*</strong> </td> 
+      <td role="rowheader"><strong>Standardverantwortlicher*</strong> </td> 
       <td>Fügen Sie einen aktiven Benutzer oder eine aktive Auftragsrolle hinzu, denen die neuen Probleme zugewiesen werden sollen. In diesem Feld darf nur ein Standardverantwortlicher enthalten sein. </td> 
      </tr> 
      <tr> 
@@ -113,12 +118,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    <p><b>NOTIZ</b></p>
 
-   Nachdem das Problem gesendet wurde, können Sie seine Zuweisungen bearbeiten und andere Benutzer, Rollen oder Teams zuweisen. Weitere Informationen finden Sie unter  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Zuweisen von Problemen </a>.
+   Nachdem das Problem gesendet wurde, können Sie seine Zuweisungen bearbeiten und andere Benutzer, Rollen oder Teams zuweisen. Weitere Informationen finden Sie unter  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Zuweisen von Problemen</a>.
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dem Projekt zuführen</strong> </td> 
+      <td role="rowheader"><strong>Route zum Projekt</strong> </td> 
       <td>Dies ist das Projekt, in dem das Problem hinzugefügt wird.</td> 
      </tr> 
     </tbody> 
@@ -130,7 +135,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Wenn Sie ein Problem an ein Projekt weiterleiten, erhalten Benutzer mit Berechtigungen für das Problem die für dieses Projekt festgelegten Berechtigungen. Informationen zum Festlegen von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![Neues Feld für Routing-Regeln](assets/new-routing-rule-box.png)
 
 1. Klicken Sie auf **Speichern**.
 

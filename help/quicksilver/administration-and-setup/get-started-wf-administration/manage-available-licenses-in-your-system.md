@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Verwalten der verfügbaren Lizenzen in Ihrem System
 description: Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfront-Konto zugreifen, einschließlich der Anzahl der für Ihr Unternehmen erworbenen Lizenzen sowie der Anzahl der aktuell verwendeten Lizenzen.
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Verwalten der verfügbaren Lizenzen in Ihrem System
+
+<!-- Audited: 12/2023 -->
 
 Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfront-Konto zugreifen, einschließlich der Anzahl der für Ihr Unternehmen erworbenen Lizenzen sowie der Anzahl der aktuell verwendeten Lizenzen.
 
@@ -33,7 +35,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td>
+    <p>Neu: Standard</p>
+    <p>oder</p>
+    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
@@ -48,7 +53,7 @@ Die Anzahl der verwendeten Lizenzen wird automatisch aktualisiert, wenn Sie den 
 
 So zeigen Sie Lizenzinformationen in Ihrem System an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
@@ -62,16 +67,16 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
 ## Anzeigen von Informationen zu Lizenzen für Workfront-Add-ons
 
-Im folgenden Screenshot: **5 von 10 Lizenzen** weist darauf hin, dass dieses Unternehmen über das gebührenpflichtige Workfront Testversand-Add-on verfügt und derzeit 5 der 10 von ihm erworbenen Workfront Testlizenzen verwendet.
+Wenn Ihr Unternehmen über das gebührenpflichtige Workfront Testversand-Add-on verfügt, werden die Anzahl der verwendeten Lizenzen und die Anzahl der verfügbaren Lizenzen angezeigt. Beispiel: **5 von 10 Lizenzen** gibt an, dass das Unternehmen derzeit 5 der 10 von ihm erworbenen Workfront-Testlizenzen verwendet.
 
-![](assets/updated-licenses-page.png)
+![Lizenz für Workfront-Add-ons](assets/updated-licenses-page.png)
 
 Wenn Ihr Unternehmen Workfront-Ziele erworben hat, werden hier auch die Lizenzinformationen für dieses Produkt angezeigt. In diesem Fall können Sie die folgenden Informationen anzeigen:
 
 * Gesamtanzahl der Workfront Goals-Lizenzen, die Ihr Unternehmen erworben hat
 * Die Anzahl der Workfront Goals-Lizenzen, die mit Benutzern verknüpft sind. Dies ist die Anzahl der Benutzer, denen in ihrer Zugriffsebene mindestens Zugriff auf Ziele anzeigen gewährt werden soll.
 
-Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->Benutzer ohne Administratorzugriff können einen Gruppenbericht verwenden, um die Lizenzanzahl anzuzeigen. Erstellen Sie im Tab Bericht einen neuen Gruppenbericht und fügen Sie die folgenden Spalten hinzu:>
+>Benutzer ohne Administratorzugriff können einen Gruppenbericht verwenden, um die Lizenzanzahl anzuzeigen. Erstellen Sie im Tab Bericht einen neuen Gruppenbericht und fügen Sie die folgenden Spalten hinzu:
+>
 >* Lizenztyp-Limit: Worker Limit
 >* Lizenztyp-Limit: Planner Limit
 >
 >Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## Anzeigen von Informationen zu monatlichen Zuweisungen von Testsendungen und Dokumententscheidungen
 
@@ -103,11 +108,11 @@ Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan. Sie können Ih
 
 Weitere Informationen zu den Beschränkungen für Testsendungen und Dokumentenentscheidungen finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![Monatliche Entscheidungszuweisung](assets/monthly-decision-allotment.png)
 
 ## Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Für die Verwendung dieser Funktion ist ein Business- oder Enterprise-Workfront-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne.](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Jeder Benutzer kann nur einer Home Group zugewiesen werden. Workfront bietet eine gruppenorientierte Lizenzanzahl, indem berechnet wird, wie viele Lizenzen in jeder Home Group zugewiesen und aktuell verwendet werden.
 
@@ -121,7 +126,7 @@ Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine
 
 So fügen Sie der Lizenzseite eine Startseite hinzu oder entfernen sie:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
@@ -143,11 +148,11 @@ Als Workfront-Administrator können Sie die maximale Lizenzanzahl für die Home 
 
 Standardmäßig ist die maximale Lizenzanzahl auf &quot;N/A&quot;gesetzt, was bedeutet, dass es keine Beschränkung gibt.
 
-Gruppenadministratoren können die Anzahl der erteilten und verwendeten Lizenzen in einer von ihnen verwalteten Home Group anzeigen. Weitere Informationen finden Sie unter [Anzahl der einer Gruppe zugewiesenen und verwendeten Lizenzen im neuen Adobe Workfront-Erlebnis anzeigen](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Gruppenadministratoren können die Anzahl der erteilten und verwendeten Lizenzen in einer von ihnen verwalteten Home Group anzeigen. Weitere Informationen finden Sie unter [Anzahl der in einer Gruppe zugewiesenen und verwendeten Lizenzen anzeigen](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
-So legen Sie die maximale Lizenzanzahl für eine Startseite fest:
+So legen Sie die maximale Lizenzanzahl für eine Home Group fest:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 

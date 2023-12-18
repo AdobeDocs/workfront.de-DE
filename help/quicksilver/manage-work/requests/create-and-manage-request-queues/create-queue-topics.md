@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 
 ---
 
 # Erstellen von Warteschlangenthemen
+
+<!-- Audited: 12/2023 -->
 
 Die Themen der Warteschlange funktionieren zusammen mit Routing-Regeln, um eingehende Arbeiten automatisch einem Benutzer, einer Auftragsrolle oder einem Team zuzuweisen oder in einem Projekt zu platzieren. Die Themen der Warteschlange definieren die Bedingungen, die für die Implementierung der Routing-Regel vorhanden sein müssen.
 
@@ -50,7 +52,7 @@ Die Anzahl der Warteschlangenthemen, die einer Themengruppe oder einem Projekt z
 </table>
 -->
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,11 +60,14 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Neu: Standard</p>
+    <p>oder</p>
+    <p>Aktuell: Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -70,12 +75,12 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Erstellen eines Warteschlangenthemas
 
@@ -87,17 +92,19 @@ Sie müssen über Folgendes verfügen:
    * [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Wechseln Sie zu dem Projekt, das Sie als Warteschlange für Hilfeanfragen aktiviert haben und in dem Sie ein neues Warteschlangenthema erstellen möchten.\
-   Weitere Informationen zum Ausweisen eines Projekts als Warteschlange für Hilfeanfragen finden Sie im folgenden Artikel:\
-   [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   Weitere Informationen zum Bezeichnen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Sie können verwandte Warteschlangenthemen unter einer Themengruppe oder direkt unter dem Projekt organisieren, das als Warteschlange für Hilfeanfragen bezeichnet wird. Dadurch erhalten die Anfragende bei der Anforderung eine Reihe von Dropdown-Menüs.\
+   Sie können verwandte Warteschlangenthemen unter einer Themengruppe organisieren. Dadurch erhalten die Anfragende bei der Anforderung eine Reihe von Dropdown-Menüs.
+
+   Oder
+
    Sie können die Warteschlangenthemen direkt unter dem Projekt verschachteln, das als Warteschlange für Hilfeanfragen bezeichnet wird, ohne Themengruppe.
 
    Informationen zum Erstellen von Themengruppen finden Sie unter [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Klicken **Warteschlangenthemen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Warteschlangenthemen**.
-1. Klicken **Neues Warteschlangenthema**.
-1. Im **Neues Warteschlangenthema** Formular, geben Sie Folgendes an:
+1. Klicks **Warteschlangenthemen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Warteschlangenthemen**.
+1. Klicks **Neues Warteschlangenthema**.
+1. Im **Neues Warteschlangenthema** Geben Sie Folgendes ein:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +119,7 @@ Sie müssen über Folgendes verfügen:
       <td>Beschreiben Sie die Anforderungswarteschlange. Die Beschreibung wird angezeigt, wenn Benutzer das Warteschlangenthema beim Senden einer neuen Anforderung auswählen. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Der Themengruppe hinzufügen</strong> </td> 
+      <td role="rowheader"><strong>Zu Themengruppe hinzufügen</strong> </td> 
       <td> Wenn das Projekt keine Themengruppen enthält, wird der Name des Projekts standardmäßig als Themengruppe verwendet.<br>Wenn Sie von hier aus weitere Themengruppen erstellen möchten, wählen Sie <strong>Neue Themengruppe erstellen</strong> aus dem Dropdown-Menü.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_Innerhalb_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
@@ -123,7 +130,7 @@ Sie müssen über Folgendes verfügen:
       <td role="rowheader"><strong>Standardgenehmigung</strong></td> 
       <td> <p>Verknüpfen Sie einen Genehmigungsprozess mit diesem Warteschlangenthema. In diesem Dropdown-Menü werden nur die Prozesse zur Genehmigung von Problemen angezeigt. Alle an diese Warteschlange gesendeten Probleme werden mit diesem Genehmigungsprozess verknüpft. Ihr Adobe Workfront-Administrator muss Validierungsprozesse auf Systemebene definieren, bevor Sie sie mit Warteschlangenthemen verknüpfen können. <span>Benutzer mit Administratorzugriff auf Genehmigungsprozesse können auch gruppenspezifische Validierungsprozesse erstellen.</span> Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.<br></p> 
        <div> 
-        <p>Wichtig: Wenn sich die Gruppe des Projekts ändert, wird der gruppenspezifische Genehmigungsprozess, der an bestehende Probleme angehängt ist, zu einem Genehmigungsprozess für einzelne Anwendungen. Weitere Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>.</p> 
+        <p>Wichtig: Wenn sich die Gruppe des Projekts ändert, wird der gruppenspezifische Validierungsprozess, der an bestehende Probleme angehängt ist, zu einem Validierungsprozess für einzelne Anwendungen. Weitere Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>.</p> 
         <p>Beachten Sie beim Hinzufügen von Genehmigungsprozessen zu Warteschlangenthemen Folgendes: </p> 
         <ul style="list-style-type: circle;"> 
          <li>In der Liste werden nur aktive Validierungsprozesse angezeigt. </li> 
@@ -132,18 +139,18 @@ Sie müssen über Folgendes verfügen:
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standardzeitraum</strong> </td> 
-      <td>Dies ist die Standarddauer der Anfrage und das geplante Abschlussdatum der Anfrage wird anhand dieses Werts berechnet.</td> 
+      <td role="rowheader"><strong>Standarddauer</strong> </td> 
+      <td>Dies ist die Standarddauer der Anforderung, und das geplante Abschlussdatum der Anforderung wird auf Grundlage dieses Werts berechnet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardroute</strong> </td> 
-      <td>Geben Sie die Routing-Regel an, die Sie mit dem Thema Warteschlange verknüpfen möchten. Sie müssen die Routing-Regel erstellen, bevor Sie sie an ein Warteschlangenthema anhängen können. Weitere Informationen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Erstellen von Routing-Regeln</a> </td> 
+      <td>Geben Sie die Routing-Regel an, die Sie mit dem Thema Warteschlange verknüpfen möchten. Sie müssen die Routing-Regel erstellen, bevor Sie sie an ein Warteschlangenthema anhängen können. Weitere Informationen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Erstellen von Routing-Regeln</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Anforderungstypen</strong> </td> 
-      <td> <p>Wählen Sie, welche Art von Anforderungen dieses Warteschlangen-Thema speichert. Die sichtbaren Optionen werden auf der <strong>Warteschlangendetails</strong> des Projekts. Dies ist ein Pflichtfeld. </p>
+      <td role="rowheader"><strong>Anfragetypen</strong> </td> 
+      <td> <p>Wählen Sie, welche Art von Anforderungen dieses Warteschlangen-Thema speichert. Die sichtbaren Optionen werden auf der <strong>Warteschlangendetails</strong> Registerkarte des Projekts. Dies ist ein Pflichtfeld. </p>
 
-   <p><b>NOTIZ</b>:
+   <p><b>NOTE</b>:
 
    Typen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs &quot;Queue Details&quot;eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen aus:</p>
    <ul>
@@ -156,8 +163,7 @@ Sie müssen über Folgendes verfügen:
     </tbody> 
    </table>
 
-   ![](assets/new-queue-topic-box-nwe-350x375.png)
+   ![Neues Feld für Warteschlangenthema](assets/new-queue-topic-box.png)
 
-1.  
 1. Klicken Sie auf **Speichern**.\
    Das Thema Warteschlange steht jetzt zur Verwendung zur Verfügung und ist im Bereich Anforderungen von Workfront sichtbar, nachdem eine Anforderungswarteschlange und eine Themengruppe ausgewählt wurden.
