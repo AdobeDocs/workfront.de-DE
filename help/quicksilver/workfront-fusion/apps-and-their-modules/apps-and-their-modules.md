@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 27%
+source-wordcount: '209'
+ht-degree: 20%
 
 ---
 
@@ -34,11 +34,12 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [[!DNL Adobe Workfront] -Module](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
 * [[!DNL Workfront Proof] -Module](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
-* [[!DNL Adobe Acrobat Sign]-Module](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [[!DNL Adobe Acrobat Sign] Module](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 * [[!DNL Adobe Campaign Classic] -Module](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] -Module](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
-* [[!DNL Adobe Experience Manager Assets]-Module](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+* [[!DNL Adobe Experience Manager Assets] Module](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] -Module](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+* [Adobe Maestro-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] -Module](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Target] -Module](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
 * [[!DNL Airtable] -Module](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
@@ -47,7 +48,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [[!UICONTROL Archivieren] Module](../../workfront-fusion/apps-and-their-modules/archive-modules.md)
 * [[!DNL AWS S3] -Module](../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
 * [[!DNL Azure Active Directory] -Module](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
-* [[!DNL Azure DevOps]-Module](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
+* [[!DNL Azure DevOps] Module](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
@@ -55,7 +56,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [[!DNL Box] -Module](../../workfront-fusion/apps-and-their-modules/box-modules.md)
 * [[!DNL Bynder] -Module](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
-* [[!DNL CloudConvert]-Module](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
+* [[!DNL CloudConvert] Module](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
@@ -66,7 +67,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [[!DNL Datadog] -Module](../../workfront-fusion/apps-and-their-modules/datadog-modules.md)
 * [Datenspeichermodule](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)
 * [[!DNL DocuSign] -Module](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
-* [[!DNL Dropbox]-Module](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
+* [[!DNL Dropbox] Module](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
@@ -74,12 +75,12 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [E-Mail-Module](../../workfront-fusion/apps-and-their-modules/email-modules.md)
 * [[!UICONTROL Encryptor]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
-* [[!DNL Figma]-Module](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
+* [[!DNL Figma] Module](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
 * [Flusssteuerung in Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
-* [[!DNL Frame.io]-Module](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
+* [[!DNL Frame.io] Module](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
 * [[!UICONTROL FTP] Module](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
-* [[!DNL GitHub]-Module](../../workfront-fusion/apps-and-their-modules/github.md)
-* [[!DNL GitLab]-Module](../../workfront-fusion/apps-and-their-modules/gitlab-modules.md)
+* [[!DNL GitHub] Module](../../workfront-fusion/apps-and-their-modules/github.md)
+* [[!DNL GitLab] Module](../../workfront-fusion/apps-and-their-modules/gitlab-modules.md)
 * [[!DNL Gmail] -Module](../../workfront-fusion/apps-and-their-modules/gmail-modules.md)
 * [[!DNL Google Calendar] -Module](../../workfront-fusion/apps-and-their-modules/google-calendar-modules.md)
 * [[!DNL Google Docs] -Module](../../workfront-fusion/apps-and-their-modules/google-docs-modules.md)
@@ -113,7 +114,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [[!DNL Microsoft Office 365 Excel] -Module](../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
 * [[!DNL Microsoft OneDrive] -Module](../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
 * [[!DNL Microsoft OneDrive for Business]](../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md)
-* [[!DNL Microsoft Power BI]-Module](../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)
+* [[!DNL Microsoft Power BI] Module](../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)
 * [[!DNL Microsoft SQL Server] -Module](../../workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
 * [[!DNL Microsoft Word Template] -Module](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
 * [[!UICONTROL MIME] Module](../../workfront-fusion/apps-and-their-modules/mime.md)
@@ -132,6 +133,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [[!UICONTROL Instrumente]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)
 * [[!DNL Trello] -Module](../../workfront-fusion/apps-and-their-modules/trello-modules.md)
 * [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
-* [[!DNL Widen]-Module](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
-* [[!DNL Workday]-Module](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
+* [[!DNL Widen] Module](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
+* [[!DNL Workday] Module](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
 * [[!UICONTROL XML]](../../workfront-fusion/apps-and-their-modules/xml-modules.md)
