@@ -7,9 +7,9 @@ description: Verschiedene Funktionen werden schrittweise aus dem Adobe Workfront
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Verschiedene Funktionen werden schrittweise aus dem Adobe Workfront-Produkt entf
   <tr> 
    <td> <p>Ressourcenplanung</p> <p>Der Lastenausgleich bietet ein verbessertes Erlebnis bei der Planung von Ressourcen.</p> <p>Detaillierte Informationen zum Arbeitslastausgleich finden Sie unter <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Übersicht über den Lastenausgleich</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Ab 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>--</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
+   <td> <p>Ab 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>—</p> <p>Aus der Workfront-Plattform nach dem ersten Halbjahr 2022 entfernt</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis aus Legacy Workfront Fusion.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 

@@ -7,9 +7,9 @@ description: Mit Resource Management können Sie Ihr System so konfigurieren, da
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Die Ressourcenverwaltung in Workfront umfasst die folgenden Etappen:
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analyse**: Als Ressourcen-Manager, Projekt-Eigentümer oder Personen-Manager überprüfen Sie den Nutzungsbericht, um zu verstehen, wie die budgetierten und geplanten Zuweisungen Ihrer Ressourcen mit den tatsächlichen vergleichen. Überprüfen Sie die Informationen nach Stunden, Kosten oder Umsatz. Weitere Informationen zum Bericht &quot;Nutzung&quot;finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../resource-mgmt/resource-utilization/view-utilization-information.md).

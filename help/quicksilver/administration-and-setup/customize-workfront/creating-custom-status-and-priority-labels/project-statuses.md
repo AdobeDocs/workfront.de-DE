@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Informationen zum Bearbeiten eines Systemstatus und Erstellen benutzerdefinierte
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Projektvoreinstellungen** > **Status**.
+1. Klicks **Projektvoreinstellungen** > **Status**.
 
 1. Klicken Sie auf **Projekt** Registerkarte.
 
@@ -65,10 +65,10 @@ Informationen zum Bearbeiten eines Systemstatus und Erstellen benutzerdefinierte
 
    ![](assets/project-status.png)
 
-   Weitere Informationen zu den einzelnen integrierten Systemprojektstatus finden Sie unter [Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   Weitere Informationen zu den einzelnen nativen Systemprojektstatus finden Sie unter [Übersicht über den Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Erstellen benutzerdefinierter Projektstatus und Anpassen des Systemstatus
 
 Als Workfront-Administrator können Sie Workfront Systemprojektstatus hinzufügen. Als Gruppeninhaber können Sie einen benutzerspezifischen Status hinzufügen, der für eine Gruppe spezifisch ist. Weitere Informationen zum Erstellen benutzerdefinierter Status oder Bearbeiten der Systemstatus finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Wenn Sie einen benutzerdefinierten Projektstatus erstellen, müssen Sie immer den neuen Status mit einem vorhandenen Systemstatus gleichsetzen. Sie müssen das Verhalten der Systemstatus verstehen, um zu erfahren, welcher Status angemessen ist, um Ihren benutzerspezifischen Status mit anzugleichen. Nachdem Sie den Gleichheitsstatus ausgewählt haben, kann diese Auswahl nicht mehr geändert werden. Weitere Informationen zu den Systemprojektstatus finden Sie unter [Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+Wenn Sie einen benutzerdefinierten Projektstatus erstellen, müssen Sie immer den neuen Status mit einem vorhandenen Systemstatus gleichsetzen. Sie müssen das Verhalten der Systemstatus verstehen, um zu erfahren, welcher Status angemessen ist, um Ihren benutzerspezifischen Status mit anzugleichen. Nachdem Sie den Gleichheitsstatus ausgewählt haben, kann diese Auswahl nicht mehr geändert werden. Weitere Informationen zu den Systemprojektstatus finden Sie unter [Übersicht über den Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

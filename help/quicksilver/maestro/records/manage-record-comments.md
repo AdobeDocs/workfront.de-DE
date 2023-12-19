@@ -1,40 +1,42 @@
 ---
 title: Verwalten von Datensatzkommentaren
-description: Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie im Kommentarbereich eines Datensatzes Updates hinzufügen und Fragen oder Antworten stellen.
+description: Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im Kommentarbereich eines Datensatzes hinzufügen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Verwalten von Datensatzkommentaren
 
-Sie können an Adobe Maestro-Datensätzen arbeiten, indem Sie Aktualisierungen hinzufügen und Fragen oder Antworten im Kommentarbereich eines Datensatzes stellen.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. </span>
+
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im Kommentarbereich eines Datensatzes hinzufügen.
 
 ## Überlegungen zum Kommentieren eines Datensatzes
 
 * Sie können Kommentare und Antworten zu betrieblichen Datensätzen und Taxonomien in Maestro im Abschnitt Kommentare eines Datensatzes hinzufügen.
 
-* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Kommentar zu einem Projekt abgeben, das mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur auf dem Projektdatensatz in Maestro und nicht auf dem Kampagnensatz angezeigt, von dem aus Sie eine Verknüpfung herstellen.
+* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Maestro-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur auf dem Produktdatensatz in Maestro und nicht auf dem Campaign-Datensatz angezeigt, mit dem Sie eine Verknüpfung herstellen.
 
-* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in Maestro angezeigt.
-Kommentare zu verknüpften Objekten in Maestro werden in anderen Anwendungen nicht angezeigt.\
-  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in Maestro verknüpft ist.
+* Sie können Maestro-Datensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Maestro-Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
 
-* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. In einem Maestro-Kommentar können Sie keine Teams taggen.
+  Beispielsweise können Sie den Projekt-Maestro-Datensatz kommentieren, nachdem Sie Workfront-Projekte mit Maestro-Datensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* Kommentar-Eigentümer werden bei einer Aktualisierung nicht automatisch mit Tags versehen.
-  >
-  >* Sie können getaggte Benutzer nicht aus einer Aktualisierung entfernen, wenn Sie darauf antworten.
+* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in Maestro angezeigt und Kommentare, die zu verknüpften Objekten in Maestro hinzugefügt wurden, werden nicht in anderen Anwendungen angezeigt.
+
+  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in Maestro verknüpft ist, und Kommentare, die zum Projekt-Maestro-Datensatz hinzugefügt wurden, werden nicht in Workfront angezeigt.
+
+* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
 
 * Sie können Datensätze aus den folgenden Bereichen von Maestro aktualisieren:
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Kommentare zu Datensätzen verwalten
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/dots-main-menu.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/lines-main-menu.png) in der oberen linken Ecke auf **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
+Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
 1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
 
-   Der Rekord **Details** Seite geöffnet.
+   Der Rekord **Details** Seite geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
 
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Kommentare aus dem aktuellen Jahr zeigen das Jahr nicht im Datumsstempel an. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum einschließlich des Jahres angezeigt.
 
-1. (Optional und bedingt) Um nach einem vorhandenen Kommentar zu suchen, geben Sie in das Suchfeld in der oberen rechten Ecke des **Kommentare** Bereich.
+1. <span class="preview">(Optional und bedingt) Um nach einem vorhandenen Kommentar zu suchen, geben Sie in das Suchfeld in der oberen rechten Ecke des **Kommentare** Bereich.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Optional) Klicken Sie auf **Antwort** oder beginnen Sie mit der Eingabe eines Kommentars im **Antwort hinzufügen ...** -Bereich, um auf einen vorhandenen Kommentar zu antworten, und führen Sie dann die Schritte 4 bis 8 oben aus. <!--(**************accurate??***********)-->
 

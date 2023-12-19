@@ -6,9 +6,9 @@ description: Budget- und Planen von Projektressourcen
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Stellen Sie sicher, dass Sie die folgenden Schritte ausführen, während Sie die
 
 * Budget für Ihre Ressourcen (Benutzer und Stellenrollen) für Ihre Projekte. Wenn Sie Ressourcen einplanen, schätzen Sie auf hoher Ebene, wann und für wie lange diese Ressourcen für Projekte verwendet werden.
 
-   Weitere Informationen finden Sie in den folgenden Artikeln:
+  Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Erste Schritte mit dem Szenario-Planer](../../../scenario-planner/get-started-with-scenario-planning.md)

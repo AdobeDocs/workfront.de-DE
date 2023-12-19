@@ -7,9 +7,9 @@ description: Sie können die Zuweisung Ihrer Ressourcen zu den Projekten, denen 
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: ec49a7d3adeb24c1b8df0ff5fafe650d18d92280
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sie können den Ressourcen-Planer verwenden, um die Verfügbarkeit von Benutzern
 Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeigen. Sie können jede Ansicht verwenden, um einen der folgenden Zwecke zu erfüllen:
 
 * Um die Zeit oder Kosten Ihrer Ressourcen für die Arbeit zu planen, die mithilfe der Projekt- und Rollenansichten erreicht werden muss. Dies ist der Hauptzweck des Ressourcenplaners.\
-   Weitere Informationen zum Budgeting im Ressourcen-Planer finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansicht](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Weitere Informationen zum Budget im Ressourcen-Planer finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * So zeigen Sie die folgenden Informationen mithilfe der Benutzeransicht an:
 
@@ -44,37 +44,37 @@ Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeig
    * den geplanten Zeitaufwand für den Abschluss der Arbeiten gemäß dem Projektplan.
    * die Zeit, die Benutzer bereits bei den eigentlichen Arbeitselementen angemeldet haben.
 
-   Weitere Informationen zum Anzeigen der Verfügbaren, geplanten und tatsächlichen Stunden oder der FTE für Benutzer im Resource Planer finden Sie im Artikel [Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Weitere Informationen zum Anzeigen der Verfügbaren, geplanten und tatsächlichen Stunden oder der FTE für Benutzer im Resource Planer finden Sie im Artikel [Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Überlegungen zum Ressourcenplaner
 
 * Sie können die Projekte, an denen Sie arbeiten, priorisieren und Ihre Ressourcenzuweisung entsprechend ihrer Priorität planen, um sicherzustellen, dass Sie zunächst über Ressourcen für die wichtigsten Projekte verfügen.
 
-   Informationen zur Priorisierung von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Informationen zur Priorisierung von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * Sie können Stunden-, FTE- und Kosteninformationen aus den Aufgaben und Ausgaben von Projekten anzeigen.
 
-   >[!NOTE]
-   >
-   >Aufgaben und Probleme werden nicht im Ressourcenplaner angezeigt. Die Stunden-, FTE- und Kosteninformationen aus den Ressourcenzuweisungen für die Aufgaben werden im Ressourcenplaner jedoch als Gesamtanzahl für das Projekt angezeigt.
+  >[!NOTE]
+  >
+  >Aufgaben und Probleme werden nicht im Ressourcenplaner angezeigt. Die Stunden-, FTE- und Kosteninformationen aus den Ressourcenzuweisungen für die Aufgaben werden im Ressourcenplaner jedoch als Gesamtanzahl für das Projekt angezeigt.
 
 * Die Stunden-, FTE- und Kosteninformationen von übergeordneten Aufgaben werden aus den Projekten ausgeschlossen, die im Ressourcenplaner angezeigt werden. Es wird empfohlen, Ressourcen nur untergeordneten Aufgaben zuzuweisen, wenn Sie die Zeit oder Kosten dieser Ressourcen im Ressourcenplaner verwalten möchten.
 
-   Weitere Informationen zu übergeordneten Aufgaben finden Sie in den folgenden Artikeln:
+  Weitere Informationen zu übergeordneten Aufgaben finden Sie in den folgenden Artikeln:
 
    * [Aufgabenübersicht](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Erstellen von Unteraufgaben](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
-   >[!TIP]
-   >
-   >Die übergeordneten Aufgaben zeigen die Gesamtstunden und -kosten der untergeordneten Aufgaben an. Daher würden die Zählung von Stunden, VZÄ und Kosten der untergeordneten Aufgaben und der übergeordneten Aufgaben diese Beträge doppelt zählen. Aus diesem Grund werden die Informationen der übergeordneten Aufgabe aus dem Ressourcenplaner ausgeschlossen.
+  >[!TIP]
+  >
+  >Die übergeordneten Aufgaben zeigen die Gesamtstunden und -kosten der untergeordneten Aufgaben an. Daher würden die Zählung von Stunden, VZÄ und Kosten der untergeordneten Aufgaben und der übergeordneten Aufgaben diese Beträge doppelt zählen. Aus diesem Grund werden die Informationen der übergeordneten Aufgabe aus dem Ressourcenplaner ausgeschlossen.
 
 * Sie können die Zuweisung von Teams nicht für die Projekte verwalten, für die sie Aufgaben oder Probleme im Ressourcenplaner haben.
 * Sie können Ressourcen für mehrere Projekte gleichzeitig mit dem Resource Planer oder für ein einzelnes Projekt im Bereich Resource Budgeting des Business Case einsetzen. Die Informationen, die Sie für ein Projekt planen, werden auch im Ressourcenplaner angezeigt.
 
-   Informationen dazu, wie Sie Ressourcen für ein einzelnes Projekt einsetzen können, finden Sie im Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Informationen dazu, wie Sie Ressourcen für ein einzelnes Projekt einsetzen können, finden Sie im Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Informationen dazu, wie Sie Ressourcen im Ressourcenplaner für mehrere Projekte gleichzeitig einsetzen können, finden Sie im Artikel unter &quot;Budgetressourcen im Ressourcenplaner&quot;im Abschnitt [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansicht](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Informationen dazu, wie Sie Ressourcen im Ressourcenplaner für mehrere Projekte gleichzeitig einsetzen können, finden Sie im Artikel unter &quot;Budgetressourcen im Ressourcenplaner&quot;im Abschnitt [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Voraussetzungen für die Arbeit im Ressourcenplaner {#prerequisites-for-working-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeig
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(<b>THIS SECTION IS LINKED TO ALL RES PLANNING ARTICLES. DO NOT RENAME OF DELETE THIS!</b> - do NOT ADD the variable here, because it might break this link!)</p>
 -->
 
-Um den Ressourcen-Planer erfolgreich für das Budget Ihrer Ressourcen zu verwenden, müssen Sie zunächst sicherstellen, dass Sie, Ihre Projekte und Ihre Aufgaben eine Reihe von Voraussetzungen erfüllen. Diese Voraussetzungen müssen erfüllt sein, um die richtigen Informationen im Ressourcenplaner anzuzeigen und Ihre Ressourcen korrekt zu verwalten.
+Um den Ressourcen-Planer erfolgreich für die Budgetierung Ihrer Ressourcen zu verwenden, müssen Sie zunächst sicherstellen, dass Sie, Ihre Projekte und Ihre Aufgaben eine Reihe von Voraussetzungen erfüllen. Diese Voraussetzungen müssen erfüllt sein, um die richtigen Informationen im Ressourcenplaner anzuzeigen und Ihre Ressourcen korrekt zu verwalten.
 
 >[!IMPORTANT]
 >
@@ -108,54 +108,55 @@ Stellen Sie sicher, dass die folgende Benutzereinrichtung vorhanden ist, bevor S
 
 * Sie haben den richtigen Zugriff auf Budgetressourcen.
 
-   Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Benutzer, die Aufgaben zugewiesen sind, werden zu den Ressourcenpools hinzugefügt, die mit dem Projekt verknüpft sind.
 
-   Informationen zum Hinzufügen von Benutzern zu Ressourcen-Pools finden Sie unter [Verknüpfen von Ressourcen-Pools mit Benutzern](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Informationen zum Hinzufügen von Benutzern zu Ressourcen-Pools finden Sie unter [Verknüpfen von Ressourcen-Pools mit Benutzern](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
-   >[!NOTE]
-   >
-   >Wenn Benutzer nicht zu Ressourcen-Pools hinzugefügt werden, gibt es die folgenden Szenarien:
-   >
-   >   
-   >   
-   >   * Die Benutzer werden nicht im Ressourcenplaner angezeigt, obwohl sie möglicherweise Aufgaben in den Projekten zugewiesen sind.
-   >   * Wenn die Aufgaben, mit denen sie verknüpft sind, geplante Stunden haben, werden diese Stunden für das Projekt im Ressourcenplaner nicht angezeigt, es sei denn, der Benutzer ist auch mit einer Auftrags-Rolle für diese Aufgaben verknüpft.
-   >   * Wenn die Benutzer einer Aufgabe in dem Projekt eine Rolle als Job zugewiesen haben, werden die geplanten Stunden im Ressourcenplaner für die Rolle &quot;Job&quot;angezeigt, die Rolle &quot;Job&quot;kann jedoch nicht in den Haushaltsplan aufgenommen werden.
-
+  >[!NOTE]
+  >
+  >Wenn Benutzer nicht zu Ressourcen-Pools hinzugefügt werden, gibt es die folgenden Szenarien:
+  >
+  >   
+  >   
+  >   * Die Benutzer werden nicht im Ressourcenplaner angezeigt, obwohl sie möglicherweise Aufgaben in den Projekten zugewiesen sind.
+  >   * Wenn die Aufgaben, mit denen sie verknüpft sind, geplante Stunden haben, werden diese Stunden für das Projekt im Ressourcenplaner nicht angezeigt, es sei denn, der Benutzer ist auch mit einer Auftrags-Rolle für diese Aufgaben verknüpft.
+  >   * Wenn die Benutzer einer Aufgabe in dem Projekt eine Rolle als Job zugewiesen haben, werden die geplanten Stunden im Ressourcenplaner für die Rolle &quot;Job&quot;angezeigt, die Rolle &quot;Job&quot;kann jedoch nicht in den Haushaltsplan aufgenommen werden.
+  >   
+  >
 
 * Benutzern, die Arbeits- und Ressourcenpools zugewiesen sind, müssen Zeitpläne und Vorgangsrollen mit ihrem Profil zugeordnet sein.
 
-   Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >Benutzer, die nicht mit einem Zeitplan verknüpft sind, sich aber im Ressourcenpool des Projekts befinden, können nicht im Ressourcenplaner eingebunden werden.
+  >[!NOTE]
+  >
+  >Benutzer, die nicht mit einem Zeitplan verknüpft sind, sich aber im Ressourcenpool des Projekts befinden, können nicht im Ressourcenplaner eingebunden werden.
 
 * Stellen Sie für genaue Informationen zu den verfügbaren Stunden sicher, dass die mit Ihren Benutzern verknüpften Zeitpläne über die zeitgesteuerten Ausnahmen und die aktualisierte Zeitdauer verfügen.
 
-   >[!NOTE]
-   >
-   >Wenn ein Benutzer keinem Zeitplan zugeordnet ist, wird der Standardzeitplan Ihres Workfront-Systems standardmäßig dem Benutzer zum Zwecke des Ressourcenplaners zugeordnet.
+  >[!NOTE]
+  >
+  >Wenn ein Benutzer keinem Zeitplan zugeordnet ist, wird der Standardzeitplan Ihres Workfront-Systems standardmäßig dem Benutzer zum Zwecke des Ressourcenplaners zugeordnet.
 
-   Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Wenn Sie Ihre Ressourcen nach Kosten aufschlüsseln möchten, müssen Sie &quot;Auftragsrollen&quot;Kosten/Stunde zuordnen. -Tarife. Die Kosten, die mit den Benutzerrollen in Ihren Ressourcenpools verbunden sind, werden zur Berechnung der budgetierten Arbeitskosten und der Budgetierten Kosten des Projekts verwendet.\
-   Informationen zum Verknüpfen von Auftrags-Rollen mit Raten finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-   Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie in diesem Artikel [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-   Weitere Informationen zur Berechnung von budgetierten Kosten finden Sie im Artikel [Berechnete veranschlagte Kosten](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Informationen zum Verknüpfen von Auftrags-Rollen mit Raten finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie in diesem Artikel [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Weitere Informationen zur Berechnung von budgetierten Kosten finden Sie im Artikel [Berechnete veranschlagte Kosten](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Projektvoraussetzungen {#project-prerequisites}
 
 Stellen Sie sicher, dass das folgende Projekt eingerichtet ist, bevor Sie mit der Verwendung des Ressourcen-Planers beginnen:
 
 * Ihre Projekte sind mit Ressourcen-Pools verknüpft.\
-   Weitere Informationen zum Hinzufügen von Ressourcen-Pools zu Projekten finden Sie unter [Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Weitere Informationen zum Hinzufügen von Ressourcen-Pools zu Projekten finden Sie unter [Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
-   >[!IMPORTANT]
-   >
-   >Projekte ohne Ressourcen-Pools zeigen keine Informationen zu &quot;Geplante Stunde&quot;oder &quot;Zuweisungen&quot;im Ressourcenplaner an.
+  >[!IMPORTANT]
+  >
+  >Projekte ohne Ressourcen-Pools zeigen keine Informationen zu &quot;Geplante Stunde&quot;oder Zuweisungen im Ressourcenplaner an.
 
 ### Voraussetzungen für Aufgaben und Probleme {#tasks-and-issues-prerequisites}
 
@@ -163,18 +164,18 @@ Sie können zwar keine Aufgaben und Probleme im Ressourcenplaner anzeigen, jedoc
 
 Stellen Sie sicher, dass die folgende Aufgabe und das Einrichten von Problemen vorhanden sind, bevor Sie mit der Budgetierung von Ressourcen im Ressourcenplaner beginnen:
 
-* Die Aufgaben oder Probleme im Zusammenhang mit den Projekten, für die Sie Haushaltsmittel einsetzen, werden einer dieser Einrichtungen zugewiesen:
+* Die Aufgaben oder Probleme bei den Projekten, für die Sie Haushaltsmittel einsetzen, werden einer dieser Einrichtungen zugewiesen:
 
    * Benutzer in den Ressourcen-Pools des Projekts, die auch mit Auftragsrollen verknüpft sind
    * Aufgabengebiete
 
-   >[!NOTE]
-   >
-   >Die geplanten Stunden von Aufgaben und Problemen, die Auftragsrollen zugewiesen sind, werden im Ressourcen-Planer angezeigt. Diese Stunden können jedoch nicht in den Haushaltsplan aufgenommen werden, es sei denn, ein Benutzer, der mit der Auftragsrolle verknüpft ist, wird in einem Ressourcenpool aufgelistet, der mit dem Projekt verknüpft ist.
+  >[!NOTE]
+  >
+  >Die geplanten Stunden von Aufgaben und Problemen, die Auftragsrollen zugewiesen sind, werden im Ressourcen-Planer angezeigt. Diese Stunden können jedoch nicht in den Haushaltsplan aufgenommen werden, es sei denn, ein Benutzer, der mit der Auftragsrolle verknüpft ist, wird in einem Ressourcenpool aufgelistet, der mit dem Projekt verknüpft ist.
 
 * Sie sollten Benutzern oder Rollen keine übergeordneten Aufgaben zuweisen.
 
-   Um Stundeninformationen im Ressourcenplaner für Benutzer oder Rollen anzuzeigen, die übergeordneten Aufgaben zugeordnet sind, müssen Sie sie auch den untergeordneten Aufgaben zuweisen. Der Ressourcen-Planer zeigt keine Informationen aus übergeordneten Aufgaben an.
+  Um Stundeninformationen im Ressourcenplaner für Benutzer oder Rollen anzuzeigen, die übergeordneten Aufgaben zugeordnet sind, müssen Sie sie auch den untergeordneten Aufgaben zuweisen. Der Ressourcen-Planer zeigt keine Informationen aus übergeordneten Aufgaben an.
 
 * Aufgaben und Probleme haben einen Wert für &quot;Geplante Stunden&quot;, der größer als null ist.
 * Aufgaben und Probleme haben einen Wert für ihre Dauer, der größer als null ist.
@@ -234,7 +235,7 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 
 Sie können die folgenden Informationen anzeigen oder die folgenden Aktionen im Ressourcenplaner ausführen:
 
-* Informationen über die Ressourcen, die Ihren Projekten im Ressourcenplaner in einer allgemeinen Zeitleiste zugewiesen sind.
+* Informationen zu den Ressourcen, die Ihren Projekten im Ressourcenplaner zugewiesen sind, in einer allgemeinen Zeitleiste.
 * Überzuweisung oder Unterauslastung Ihrer Ressourcen im Ressourcenplaner.
 * Budgets für Ihre Ressourcen für die Arbeit manuell oder automatisch.
 
@@ -252,7 +253,7 @@ Sie können Verfügbarkeits-, Zuordnungs- und geplante Werte im Ressourcenplaner
 
 Weitere Informationen zum Ändern der im Ressourcenplaner angezeigten Informationen finden Sie im Abschnitt [Anzeigen von Informationen nach Stunde, FTE oder Kosten](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) im Artikel [Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Weitere Informationen dazu, wie die Stunden und die FTE für Benutzer und Rollen in Workfront berechnet werden, finden Sie im Artikel [Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Weitere Informationen zur Berechnung der Stunden und der FTE für Benutzer und Rollen in Workfront finden Sie im Artikel [Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Berechnen der Kosten im Ressourcenplaner
 
@@ -265,7 +266,7 @@ Neben der Anzeige von Verfügbarkeit, Zuordnung und geplanten Werten im Ressourc
 >Sie müssen Ihre Benutzer und Ihre Jobrollen mit den Kosten pro Stunde-Raten verknüpfen, um Informationen nach Kosten im Ressourcen-Planer anzuzeigen.
 
 Weitere Informationen zum Verknüpfen von Kosten pro Stunde-Raten mit Stellenrollen finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Benutzern finden Sie im Artikel [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Benutzern finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Beachten Sie beim Anzeigen von Informationen nach Kosten im Ressourcenplaner Folgendes:
 

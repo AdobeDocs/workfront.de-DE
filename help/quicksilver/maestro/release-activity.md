@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Woche vom 18. Dezember 2023
+## Woche vom 18. Dezember 2024
+
+### Hinzufügen von Kommentaren zu Datensätzen über die Detailseite
+
+Vorschau und Produktion für alle Kunden: 18. Dezember 2023
+
+>[!NOTE]
+>
+>Die folgenden Funktionen werden in der Produktion mit der Version vom Januar 2024 verfügbar sein:
+>
+>* Nach Kommentaren suchen
+>
+>* Bilder kopieren und einfügen
+>
+>* Bilder per Drag &amp; Drop verschieben
+>
+>Weitere Informationen finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder auf andere antworten, während Sie einen Datensatz auf der Detailseite anzeigen.
+
+Das Kommentarerlebnis für Maestro-Datensätze entspricht dem neuen Kommentarerlebnis für Workfront-Objekte.
+
+Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Woche vom 11. Dezember 2023
 
 ### Primärfeld in Tabellenansicht eines Datensatztyps aktualisieren
 
@@ -102,7 +126,7 @@ Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksi
 
 Vorschau: 14. Dezember 2023
 
-Produktionsversion: 15. Dezember 2023
+Produktionsversion: geplant für den 15. Dezember 2023
 
 >[!IMPORTANT]
 >

@@ -7,9 +7,9 @@ description: Sie können Tools zur Ressourcenplanung verwenden, um Ihre Arbeitsp
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,23 @@ Weitere Informationen zum Planen von Ressourcen in Workfront mithilfe des Worklo
 
 Mit den folgenden Tools können Sie die Zeit für Ihre Ressourcen für die Projekte, denen Sie diese zuweisen möchten, einplanen:
 
-* Bei der Budgetierung von Zuweisungen für mehrere Projekte und ihrer Priorisierung auf Systemebene: Verwenden Sie den Ressourcen-Planer auf Systemebene.
+* Für die Budgetierung mehrerer Projekte auf Systemebene: Verwenden Sie den Ressourcen-Planer auf Systemebene.
 
-   Sie können auf den Ressourcen-Planer zugreifen, indem Sie im Bereich &quot;Ressourcen&quot;zum Bereich &quot;Planen&quot;navigieren.
+  Sie können auf den Ressourcen-Planer zugreifen, indem Sie im Bereich &quot;Ressourcen&quot;zum Bereich &quot;Planen&quot;navigieren.
 
-   Informationen zum Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Weitere Informationen zum Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Für Budgetierungen für ein einzelnes Projekt: Verwenden Sie den Ressourcenplaner auf Projektebene im Bereich Ressourcenbudgetierung des Geschäftsfalls eines Projekts. Weitere Informationen zu Budgetierungsressourcen für ein Projekt finden Sie in diesem Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Für Budgetierung von Zuweisungen für ein einzelnes Projekt: Verwenden Sie den Ressourcen-Planer auf Projektebene im Bereich Ressourcenbudgetierung des Geschäftsszenarios eines Projekts. Weitere Informationen zu Budgetierungsressourcen für ein Projekt finden Sie in diesem Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Um Benutzer zu verwalten, sie in Pools zu organisieren, die auf gemeinsamen Fertigkeiten oder einer gemeinsamen Abteilungsstruktur basieren, und dann ihre Zuordnungen für die Projekte zu verwalten, denen sie zugewiesen sind, müssen Sie Ressourcen-Pools erstellen. Weitere Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Um Benutzer zu verwalten, sie in Pools zu organisieren, die auf gemeinsamen Fertigkeiten oder einer gemeinsamen Abteilungsstruktur basieren, und dann ihre Zuordnungen für die Projekte zu verwalten, denen sie zugewiesen sind, müssen Sie Ressourcen-Pools erstellen. Weitere Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-   >[!TIP]
-   >
-   >Der Bereich Ressourcenbudgetierung eines Projekts ist der Ressourcenplaner auf Projektebene. Wenn Sie Ressourcen im Geschäftsfall eines Projekts mit einem Budget versehen, werden diese Informationen auch im Ressourcen-Planer auf Systemebene angezeigt.
+  >[!TIP]
+  >
+  >Der Bereich Ressourcenbudgetierung eines Projekts ist der Ressourcenplaner auf Projektebene. Wenn Sie Ressourcen im Geschäftsfall eines Projekts mit einem Budget versehen, werden diese Informationen auch im Ressourcen-Planer auf Systemebene angezeigt.
 
 * Verwenden Sie den Adobe Workfront-Szenario-Planer, um Ressourcen auf hoher Ebene über mehrere Initiativen hinweg zu verwalten und Ihre Arbeit an der Unternehmensstrategie auszurichten. Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
 
-   Sie können den Ressourcen-Planer sowohl auf Systemebene als auch für mehrere Projekte sowie für Budgetmittel für ein einzelnes Projekt im Bereich Ressourcenbudgetierung des Geschäftsfalls verwenden. Weitere Informationen über die Budgetierung von Ressourcen für ein Projekt im Geschäftsfall finden Sie unter [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Sie können den Ressourcen-Planer sowohl auf Systemebene als auch für mehrere Projekte sowie für Budgetmittel für ein einzelnes Projekt im Bereich Ressourcenbudgetierung des Geschäftsfalls verwenden. Weitere Informationen über die Budgetierung von Ressourcen für ein Projekt im Geschäftsfall finden Sie unter [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Zweck der Instrumente zur Ressourcenplanung
 
@@ -61,11 +61,11 @@ Mit den folgenden Tools können Sie die Zeit für Ihre Ressourcen für die Proje
    * Machen Sie sich mit der Verfügbarkeit Ihrer Ressourcen entsprechend dem Zeitplan Ihrer Benutzer vertraut.
    * Budgetstunde, FTE oder Kostenzuweisungen für Ihre Ressourcen (Benutzer und Arbeitsplatzrollen) für die Projekte, denen sie zugewiesen sind.
 
-   Weitere Informationen zum Arbeiten im Ressourcen-Planer finden Sie im Artikel [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Weitere Informationen zum Arbeiten im Ressourcen-Planer finden Sie im Artikel [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Mithilfe des Szenario-Planers können Sie für mehrere Initiativen Pläne auf Unternehmensebene erstellen, die die allgemeinen strategischen Ergebnisse Ihres Unternehmens umreißen. Weitere Informationen finden Sie unter [Erste Schritte mit dem Szenario-Planer](../../scenario-planner/get-started-with-scenario-planning.md).
 
-   Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
+  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

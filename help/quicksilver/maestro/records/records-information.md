@@ -1,13 +1,13 @@
 ---
-title: Datensatzinformationen
+title: "Datensätze: Artikelindex"
 description: Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro erstellen und verwalten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# Datensatzinformationen
+# Datensätze: Artikelindex
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro
 * [Datensätze löschen](../records/delete-records.md)
 * [Datensätze freigeben](../records/share-records.md)
 * [Datensätze verbinden](../records/connect-records.md)
+* [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ In den folgenden Artikeln finden Sie einen Überblick über Adobe Maestro:
 
 Die folgenden Abschnitte enthalten Artikel, die die derzeit verfügbaren Maestro-Funktionen detailliert beschreiben:
 
-* [Zugriffsinformationen](../maestro/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung von Adobe Maestro erforderlich sind.
-* [Architekturinformationen](../maestro/architecture/architecture-information.md): Detaillierte Informationen zur Architektur von Adobe Maestro mit einer schrittweisen Anleitung zur Erstellung und Verwaltung von Arbeitsbereichen und Datensätzen.
-* [Feldinformationen](../maestro/fields/fields-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen benutzerdefinierter Felder für Maestro-Datensatztypen.
-* [Datensatzinformationen](../maestro/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
-* [Ansichtsinformationen](../maestro/views/views-information.md): Detaillierte Informationen zu Maestro-Ansichten und deren Verwaltung bei der Anzeige von Datensätzen auf einer Seite vom Typ Datensatz.
+* [Zugriff: Artikelindex](../maestro/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung von Adobe Maestro erforderlich sind.
+* [Architektur: Artikelindex](../maestro/architecture/architecture-information.md): Detaillierte Informationen zur Architektur von Adobe Maestro mit einer schrittweisen Anleitung zur Erstellung und Verwaltung von Arbeitsbereichen und Datensätzen.
+* [Felder: Artikelindex](../maestro/fields/fields-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen benutzerdefinierter Felder für Maestro-Datensatztypen.
+* [Datensätze: Artikelindex](../maestro/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
+* [Ansichten: Artikelindex](../maestro/views/views-information.md): Detaillierte Informationen zu Maestro-Ansichten und deren Verwaltung bei der Anzeige von Datensätzen auf einer Seite vom Typ Datensatz.

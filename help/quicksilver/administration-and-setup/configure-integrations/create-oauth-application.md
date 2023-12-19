@@ -4,13 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Als [!DNL Adobe Workfront] Administrator können Sie OAuth2-Anwendungen für Ihre Instanz von [!DNL Workfront], die anderen Anwendungen den Zugriff auf Workfront ermöglichen. Ihre Benutzer können dann anderen Anwendungen Berechtigungen für den Zugriff auf ihre Workfront-Daten erteilen. Auf diese Weise können Sie Workfront mit Anwendungen Ihrer Wahl integrieren, einschließlich Ihrer eigenen internen Anwendungen.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 6%
+source-wordcount: '1945'
+ht-degree: 5%
 
 ---
 
@@ -37,12 +38,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Neu: [!UICONTROL Standard]</p>
+   Oder
+   <p>Aktuell:[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -55,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## OAuth2-Übersicht
 
-Stellen Sie sich vor, eine Anwendung muss einige spezifische Informationen abrufen von [!DNL Workfront]. Eine Anwendung, die Informationen anfordert, wird als Client bezeichnet. In diesem Beispiel lautet der Client-Name ClientApp. ClientApp benötigt Zugriff auf die Informationen eines bestimmten Benutzers und muss daher auf [!DNL Workfront] als dieser Benutzer. Wenn Ihr Benutzer ClientApp seinen Benutzernamen und sein Kennwort gibt, kann ClientApp auf alle Daten zugreifen, auf die der Benutzer zugreifen kann. Dies ist ein Sicherheitsrisiko, da ClientApp nur einen kleinen, spezifischen Satz an Informationen benötigt.
+Stellen Sie sich vor, eine Anwendung muss einige spezifische Informationen abrufen. [!DNL Workfront]. Eine Anwendung, die Informationen anfordert, wird als Client bezeichnet. In diesem Beispiel lautet der Client-Name ClientApp. ClientApp benötigt Zugriff auf die Informationen eines bestimmten Benutzers und muss daher auf [!DNL Workfront] als dieser Benutzer. Wenn Ihr Benutzer ClientApp seinen Benutzernamen und sein Kennwort gibt, kann ClientApp auf alle Daten zugreifen, auf die der Benutzer zugreifen kann. Dies ist ein Sicherheitsrisiko, da ClientApp nur einen kleinen, spezifischen Satz an Informationen benötigt.
 
 Wenn Sie eine OAuth2-App für ClientApp erstellen, erzählen Sie im Grunde [!DNL Workfront] , auf die ClientApp zugreifen darf [!DNL Workfront], jedoch nur dann, wenn der Benutzer, auf dessen Konto ClientApp zugreift, die Berechtigung für den Zugriff erteilt.
 
@@ -120,13 +123,14 @@ Wählen Sie beim Erstellen einer OAuth2-Anwendung den Anwendungstyp aus, der den
 
 ### Erstellen einer OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicken **[!UICONTROL App-Integration erstellen]**.
-1. Wählen Sie im sich öffnenden Fenster **[!UICONTROL Serverauthentifizierung]**.
-1. Geben Sie einen Namen für die neue Anwendung ein, z. B.:[!DNL Workfront] für ClientApp.&quot;
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth2-Anwendungen]**.
+1. Klicks **[!UICONTROL App-Integration erstellen]**.
+Die **Neue OAuth2-Anwendung** angezeigt.
+1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Serverauthentifizierung]**.
+1. Geben Sie einen Namen für die neue Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
+1. Klicks **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 
@@ -139,18 +143,18 @@ Wählen Sie beim Erstellen einer OAuth2-Anwendung den Anwendungstyp aus, der den
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dieses Feld wird automatisch generiert</p> <p><b>WICHTIG</b>:  <p>Kopieren Sie den Inhalt dieses Felds in eine andere sichere Datei, bevor Sie diese Seite schließen. Sie werden diesen geheimen Schlüssel nicht mehr sehen können.</p> <p>Wenn Sie diesen Schlüssel verlieren, löschen Sie ihn und erstellen Sie ein neues Client-Geheimnis.</p> 
+      <td> <p>Dieses Feld wird automatisch generiert</p> <p><b>WICHTIG</b>:  <p>Kopieren Sie den Inhalt dieses Felds in eine andere sichere Datei, bevor Sie diese Seite schließen. Sie werden diesen geheimen Schlüssel nicht mehr sehen können.</p> <p>Wenn Sie diesen Schlüssel verlieren, löschen Sie ihn und erstellen Sie ein Client-Geheimnis.</p> 
         <ol> 
          <li value="1"> <p>Klicken Sie auf <b>[!UICONTROL Löschen]</b> icon <img src="assets/delete.png"> , um das aktuelle Client-Geheimnis zu löschen.</p> </li> 
-         <li value="2"> <p>Klicken <b>[!UICONTROL Client-Geheimnis hinzufügen]</b> , um ein neues Client-Geheimnis zu generieren.</p> </li> 
+         <li value="2"> <p>Klicks <b>[!UICONTROL Client-Geheimnis hinzufügen]</b> , um ein neues Client-Geheimnis zu generieren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Public Keys]</td> 
       <td> <p>Server-zu-Server-Apps verwenden öffentliche und private Schlüssel zur Authentifizierung. Führen Sie einen der folgenden Schritte aus:</p> 
        <ul> 
-        <li> <p>Klicken <b>[!UICONTROL Öffentlichen Schlüssel hinzufügen]</b> und geben Sie den öffentlichen Schlüssel aus der anderen Anwendung ein.</p> </li> 
-        <li> <p>Klicken <b>[!UICONTROL Generieren eines öffentlichen/privaten Keypairs]</b>, und geben Sie dann den öffentlichen Schlüssel für die andere Anwendung frei.</p> </li> 
+        <li> <p>Klicks <b>[!UICONTROL Öffentlichen Schlüssel hinzufügen]</b> und geben Sie den öffentlichen Schlüssel aus der anderen Anwendung ein.</p> </li> 
+        <li> <p>Klicks <b>[!UICONTROL Generieren eines öffentlichen/privaten Keypairs]</b>, und geben Sie dann den öffentlichen Schlüssel für die andere Anwendung frei.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -170,12 +174,15 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
 
 ### Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicken **[!UICONTROL App-Integration erstellen]**.
-1. Wählen Sie im sich öffnenden Fenster **[!UICONTROL Benutzerauthentifizierung]**.
-1. Geben Sie einen Namen für die neue OAuth2-Anwendung ein, z. B. &quot;[!DNL Workfront] für ClientApp.&quot;
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+{{step-1-to-setup}}
+
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth2-Anwendungen]**.
+1. Klicks **[!UICONTROL App-Integration erstellen]**.
+
+   Die **Neue OAuth2-Anwendung** angezeigt.
+1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Benutzerauthentifizierung]**.
+1. Geben Sie einen Namen für die neue OAuth2-Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
+1. Klicks **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 
@@ -188,10 +195,10 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dieses Feld wird automatisch generiert</p> <p><b>WICHTIG</b>:  <p>Kopieren Sie den Inhalt dieses Felds in eine andere sichere Datei, bevor Sie diese Seite schließen. Sie werden diesen geheimen Schlüssel nicht mehr sehen können.</p> <p>Wenn Sie diesen Schlüssel verlieren, löschen Sie ihn und erstellen Sie ein neues Client-Geheimnis.</p> 
+      <td> <p>Dieses Feld wird automatisch generiert</p> <p><b>WICHTIG</b>:  <p>Kopieren Sie den Inhalt dieses Felds in eine andere sichere Datei, bevor Sie diese Seite schließen. Sie werden diesen geheimen Schlüssel nicht mehr sehen können.</p> <p>Wenn Sie diesen Schlüssel verlieren, löschen Sie ihn und erstellen Sie ein Client-Geheimnis.</p> 
         <ol> 
          <li value="1"> <p>Klicken Sie auf <b>[!UICONTROL Löschen]</b> icon <img src="assets/delete.png"> , um das aktuelle Client-Geheimnis zu löschen.</p> </li> 
-         <li value="2"> <p>Klicken <b>[!UICONTROL Client-Geheimnis hinzufügen]</b> , um ein neues Client-Geheimnis zu generieren.</p> </li> 
+         <li value="2"> <p>Klicks <b>[!UICONTROL Client-Geheimnis hinzufügen]</b> , um ein neues Client-Geheimnis zu generieren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
@@ -204,7 +211,7 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absoluter Aktualisierungstoken-Ablauf]</td> 
-      <td> <p>Wählen Sie den Zeitraum aus, für den ein Aktualisierungstoken vorhanden sein soll, bevor es abläuft. Nach dem Ablauf müssen sich Ihre Benutzer erneut bei der Integration anmelden. Wählen Sie "[!UICONTROL No expiration]", wenn das Aktualisierungstoken nicht ablaufen soll.</p> </td> 
+      <td> <p>Wählen Sie den Zeitraum aus, für den ein Aktualisierungstoken vorhanden sein soll, bevor es abläuft. Nach Ablauf dieser Frist müssen sich Ihre Benutzer erneut bei der Integration anmelden. Wählen Sie "[!UICONTROL No expiration]", wenn das Aktualisierungstoken nicht ablaufen soll.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Gültigkeit des Inaktivitätsaktualisierungs-Tokens</td> 
@@ -235,12 +242,15 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
 
 ### Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicken **[!UICONTROL App-Integration erstellen]**.
-1. Wählen Sie im sich öffnenden Fenster **[!UICONTROL Single-Page-Webanwendung]**.
-1. Geben Sie einen Namen für die neue [!UICONTROL OAuth2] wie &quot;[!DNL Workfront] für ClientApp.&quot;
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+{{step-1-to-setup}}
+
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth2-Anwendungen]**.
+1. Klicks **[!UICONTROL App-Integration erstellen]**.
+
+   Die **Neue OAuth2-Anwendung** angezeigt.
+1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Einzelseiten-Webanwendung]**.
+1. Geben Sie einen Namen für die neue [!UICONTROL OAuth2] -Anwendung, z. B. &quot;[!DNL Workfront] für ClientApp.&quot;
+1. Klicks **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 
@@ -256,15 +266,15 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
       <td>Benutzer werden nach der Authentifizierung bei Workfront zu diesem Pfad umgeleitet.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Aktualisierung der Tokenrotation]</td> 
+      <td role="rowheader">[!UICONTROL Aktualisierungstoken bei jeder Verwendung drehen]</td> 
       <td>Aktivieren Sie diese Option, um jedes Mal, wenn ein Refresh-Token verwendet wird, ein neues Refresh-Token zu erstellen. Ihre Anwendung muss das neue Refresh-Token nach jeder Aktualisierung speichern.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Absoluter Aktualisierungstoken-Ablauf]</td> 
-      <td> <p>Wählen Sie den Zeitraum aus, für den ein Aktualisierungstoken vorhanden sein soll, bevor es abläuft. Nach dem Ablauf müssen sich Ihre Benutzer erneut bei der Integration anmelden. Wählen Sie "[!UICONTROL No expiration]", wenn das Aktualisierungstoken nicht ablaufen soll.</p> </td> 
+      <td role="rowheader">[!UICONTROL Absoluter Ablauf]</td> 
+      <td> <p>Wählen Sie den Zeitraum aus, für den ein Aktualisierungstoken vorhanden sein soll, bevor es abläuft. Nach Ablauf dieser Frist müssen sich Ihre Benutzer erneut bei der Integration anmelden. Wählen Sie "[!UICONTROL No expiration]", wenn das Aktualisierungstoken nicht ablaufen soll.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Inaktivität Aktualisierungstoken-Ablauf]</td> 
+      <td role="rowheader">[!UICONTROL Inaktivitätsablauf]</td> 
       <td> <p>Wählen Sie den Zeitraum aus, nach dem das Aktualisierungstoken abläuft, wenn der Benutzer nicht in Ihrem System aktiv war. </p> <p>Wenn beispielsweise die Gültigkeit des Inaktivitäts-Aktualisierungstokens 6 Monate beträgt und sich der Benutzer sechs Monate lang nicht anmeldet, läuft das Aktualisierungs-Token ab, auch wenn der absolute Ablauf des Aktualisierungstokens möglicherweise länger festgelegt ist.</p> </td> 
      </tr> 
      <tr> 
@@ -280,11 +290,25 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
       <td>Geben Sie eine Beschreibung für die Integration ein.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL App Description URL]</td> 
-      <td>Hierbei kann es sich um einen Link zu einer "Info"-Seite oder zu einer Seite mit weiteren Informationen zur Integration handeln.</td> 
+      <td role="rowheader">[!UICONTROL Entwicklername]</td> 
+      <td>Dies ist der Name des Entwicklers, der die OAuth2-Anwendung eingerichtet hat.</td> 
      </tr> 
-    </tbody> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Entwickler-E-Mail-Adresse]</td> 
+      <td>Dies ist die E-Mail-Adresse des Entwicklers, der die OAuth2-Anwendung eingerichtet hat.</td> 
+     </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Datenschutzrichtlinie UTL]</td> 
+      <td>Dies ist der Link zu dem Ort, an dem Ihre Organisation die Datenschutzrichtlinie speichert.</td> 
+     </tr>
+
+
+   </tbody> 
    </table>
+
+   <!-- removed this from the table, and added "Developer name" and following rows:
+   [!UICONTROL App Description URL]</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -296,7 +320,7 @@ Die weitere Konfiguration und Verwendung der erstellten OAuth2-Anwendung erforde
 * Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss) finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md).
 * Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit PKCE finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-pkce-flow.md).
 
-## OAuth2-Prozesse für den Autorisierungscodefluss
+## OAuth2-Prozesse für den Autorisierungscode-Fluss
 
 >[!NOTE]
 >

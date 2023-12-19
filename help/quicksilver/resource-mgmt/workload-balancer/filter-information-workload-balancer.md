@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen ve
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zeigen Sie den Zugriff auf Folgendes an oder höher:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
@@ -88,9 +88,9 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern im Arbeitslastausgleich:
 * Wenn Sie einen freigegebenen Filter löschen oder bearbeiten, wird er auch für alle Personen gelöscht oder bearbeitet, für die er freigegeben ist.
 * Wenn Sie in einem Bereich Filter im Arbeitslastausgleich erstellen, sind diese in anderen Bereichen nicht verfügbar.
 
-   Beispielsweise sind Filter, die im Bereich &quot;Ressourcen&quot;erstellt wurden, nicht im Arbeitslastausgleich eines Projekts oder eines Teams verfügbar.
+  Beispielsweise sind Filter, die im Bereich &quot;Ressourcen&quot;erstellt wurden, nicht im Arbeitslastausgleich eines Projekts oder eines Teams verfügbar.
 
-   Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+  Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 * Sie können nur die Elemente anzeigen, die mit den ausgewählten Filtern übereinstimmen, die auch mit den Daten in der Timeline übereinstimmen, die auf dem Bildschirm des Workload Balancer angezeigt wird.
 
@@ -101,7 +101,7 @@ Der Lastenausgleich zeigt Informationen in zwei separaten Bereichen an:
 * **Der nicht zugewiesene Arbeitsbereich**: Arbeitselemente, die noch nicht Benutzern zugewiesen sind.
 * **Der zugewiesene Arbeitsbereich**: Arbeitselemente, die Benutzern zugewiesen sind.
 
-   Informationen dazu, was in den einzelnen Bereichen angezeigt wird, finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Informationen dazu, was in den einzelnen Bereichen angezeigt wird, finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 >[!IMPORTANT]
 >
@@ -139,7 +139,7 @@ Je nachdem, von wo aus Sie auf den Lastenausgleich zugreifen, werden die nicht z
 
 <p>Wenn der Systemstandardfilter <b>Die Arbeitselemente dieses Projekts</b> deaktiviert ist, zeigt der Bereich "Zugewiesene Arbeit"alle Arbeitselemente der Benutzer an, die mindestens einem Element des ausgewählten Projekts zugewiesen sind.  </p> Dieser Filter ist standardmäßig deaktiviert.
 
-<b>NOTIZ</b>
+<b>NOTE</b>
 <p>Sie können die Option Alle Benutzer anzeigen im Lastenausgleich eines Projekts aktivieren, um alle Benutzer im System anzuzeigen. Weitere Informationen finden Sie unter <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigieren Sie zum Lastenausgleich .</a></p>
 
 </td> 
@@ -151,7 +151,7 @@ Je nachdem, von wo aus Sie auf den Lastenausgleich zugreifen, werden die nicht z
 
 Der Prozess zum Erstellen von Filtern für die Bereiche &quot;Nicht zugewiesene Arbeit&quot;und &quot;Zugewiesene Arbeit&quot;im Arbeitslastausgleich ist identisch, unabhängig davon, von wo aus Sie auf den Arbeitslastausgleich zugreifen. Informationen zum Auffinden des Lastenausgleichs finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-Sie können einen Filter von Grund auf neu erstellen oder einen der vordefinierten Filter bearbeiten. Informationen zu vorhandenen Filtern, die Sie bearbeiten können, finden Sie unter [Vorhandenen Filter im Arbeitslastausgleich bearbeiten](#edit-an-existing-filter-in-the-workload-balancer) in diesem Artikel.
+Sie können einen Filter von Grund auf neu erstellen oder einen der vordefinierten Filter bearbeiten. Informationen zu vorhandenen Filtern, die Sie bearbeiten können, finden Sie unter [Vorhandenen Filter im Arbeitslastausgleich bearbeiten](#edit-an-existing-filter-in-the-workload-balancer) in diesem Artikel beschrieben.
 
 1. Wechseln Sie zum Lastenausgleich.
 
@@ -169,12 +169,12 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Filter Standard zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Sie können eine Kopie dieses Filters bearbeiten.
 
-   Wenn Sie auf [!UICONTROL Lastenausgleich] aus einem Projekt[!UICONTROL Die Arbeitselemente dieses Projekts]Der Filter wurde möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie auf [!UICONTROL Lastenausgleich] aus einem Projekt: &quot;[!UICONTROL Die Arbeitselemente dieses Projekts]Der Filter wurde möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
-   Standardmäßig wird die [!UICONTROL Lastenausgleich] eines Projekts zeigt alle Arbeitselemente an, die allen Benutzern des Projekts zugewiesen sind.
+   Standardmäßig wird die Variable [!UICONTROL Lastenausgleich] eines Projekts zeigt alle Arbeitselemente an, die allen Benutzern des Projekts zugewiesen sind.
 
 
-1. Klicken **Neuer Filter.**
+1. Klicks **Neuer Filter.**
 
    ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
 
@@ -184,7 +184,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
       >[!IMPORTANT]
       >
-      >Beim Referenzieren von benutzerdefinierten Feldern müssen Sie den Feldnamen und nicht die Feldbezeichnung eingeben. Die Feldbezeichnung wird in einem benutzerdefinierten Formular angezeigt, das an ein Objekt angehängt ist. Informationen zum Unterschied zwischen der Beschriftung und dem Namen eines benutzerdefinierten Felds finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+      >Beim Referenzieren von benutzerdefinierten Feldern müssen Sie den Feldnamen und nicht die Feldbezeichnung eingeben. Die Feldbeschriftung wird in einem benutzerdefinierten Formular angezeigt, das an ein Objekt angehängt ist. Informationen zum Unterschied zwischen der Beschriftung und dem Namen eines benutzerdefinierten Felds finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
    1. (Bedingt) Wenn Sie auf **Felder durchsuchen**, geben Sie den Namen eines Felds im **Suche** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
@@ -198,13 +198,12 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
       >* **Vorgeschlagene Felder**: die am häufigsten verwendeten Felder.
 
 
-
-   1. Wählen Sie einen Modifikator aus dem zweiten Dropdown-Menü aus. Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungs-Modifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   1. Wählen Sie einen Modifikator aus dem zweiten Dropdownmenü aus. Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungs-Modifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
    1. Wählen Sie einen Wert für das Feld aus, nach dem Sie filtern möchten, oder geben Sie einen Wert ein.
 
       >[!NOTE]
       >
-      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den folgenden Filter anwenden: &quot;Portfolio name contains marketing.&quot; Dadurch werden Arbeitselemente angezeigt, die zu einem Portfolio gehören, das &quot;Marketing&quot;im Namen enthält.
+      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den folgenden Filter anwenden: &quot;Portfolio name contains marketing&quot;. Dadurch werden Arbeitselemente angezeigt, die zu einem Portfolio gehören, das &quot;Marketing&quot;im Namen enthält.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
@@ -214,7 +213,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
    <!--(NOTE: ensure this stays correct)-->
 
-1. Klicken **Anwenden** , um die Ergebnisse des Filters auf den ausgewählten Arbeitslastausgleichsbereich anzuwenden, ohne ihn zu speichern.
+1. Klicks **Anwenden** , um die Ergebnisse des Filters auf den ausgewählten Arbeitslastausgleichsbereich anzuwenden, ohne ihn zu speichern.
 
    Die Liste der Arbeitselemente wird auf der linken Seite aktualisiert.
 
@@ -224,9 +223,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
    Der Filter bleibt erhalten, bis Sie die Seite aktualisieren.
 
-   Die **Anwenden** Schaltfläche durch eine **Als neu speichern** Schaltfläche.
+   Die **Anwenden** -Schaltfläche durch eine **Als neu speichern** Schaltfläche.
 
-1. Klicken **Als neu speichern** , um den Filter für die zukünftige Verwendung zu speichern.
+1. Klicks **Als neu speichern** , um den Filter für die zukünftige Verwendung zu speichern.
 
    ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
@@ -235,7 +234,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >Klicken **Abbrechen** Sie können jederzeit zum Filterbaubereich zurückkehren.
 
 1. Auswählen **Unbenannter Filter** und geben Sie stattdessen den Namen des neuen Filters ein.
-1. Wählen Sie ein Symbol für den neuen Filter aus der **Symbol** Dropdown-Menü.
+1. Wählen Sie aus dem **Symbol** Dropdown-Menü.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
@@ -274,14 +273,14 @@ Sie können einen Filter duplizieren und bearbeiten, um einen neuen zu erstellen
 
    * Name
 
-      Standardmäßig lautet der neue Filtername &quot;(Ursprünglicher Filtername) Kopieren&quot;.
+     Standardmäßig lautet der neue Filtername &quot;(Ursprünglicher Filtername) Kopieren&quot;.
 
    * Symbol
    * Beschreibung
    * Alle Felder, Modifikatoren oder Werte.
 
 1. (Optional) Klicken Sie auf **Filter hinzufügen** , um dem duplizierten Filter weitere Anweisungen hinzuzufügen.
-1. Klicken **Speichern** , um den duplizierten Filter im **Meine Filter** Bereich.
+1. Klicks **Speichern** , um den duplizierten Filter im **Meine Filter** Bereich.
 
    Der ursprüngliche Filter bleibt unverändert und der duplizierte Filter wird als neuer Filter gespeichert.
 
@@ -307,14 +306,14 @@ Sie können einen gespeicherten Filter im Lastenausgleich bearbeiten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Ändern von Filteranweisungen
-   * Klicken **Filter hinzufügen** Hinzufügen neuer Filteranweisungen
+   * Klicks **Filter hinzufügen** Hinzufügen neuer Filteranweisungen
    * Klicken Sie auf **Löschen** icon ![](assets/delete.png) um vorhandene Filteranweisungen zu entfernen.
 
 1. (Optional) Klicken Sie auf **Anwenden**.
 
    Die Ergebnisse werden im Arbeitslast-Balancer auf der linken Seite aktualisiert, um die Änderungen zu veranschaulichen, die Sie am Filter vorgenommen haben.
 
-1. Klicken Sie auf **Speichern.**
+1. Klicks **Speichern Sie.**
 
    Die Ergebnisse werden im Arbeitslastausgleich auf der linken Seite aktualisiert und der Filter wird mit den von Ihnen ausgewählten neuen Informationen aktualisiert.
 
@@ -344,7 +343,7 @@ Beachten Sie Folgendes, bevor Sie einen Filter löschen:
    >Bei der Bearbeitung eines Filters können Sie auf die **Mehr** Menü in der linken unteren Ecke des Felds Filter bearbeiten und klicken Sie auf **Löschen**.
 
 1. (Optional) Klicken Sie auf **Abbrechen** um das Löschen zu vermeiden und zur Filterliste zurückzukehren.
-1. Klicken **Löschen** , um den Löschvorgang zu bestätigen.
+1. Klicks **Löschen** , um den Löschvorgang zu bestätigen.
 
    Der Filter wird für Sie und alle Benutzer gelöscht, die über entsprechende Berechtigungen verfügen.
 
@@ -374,28 +373,29 @@ So geben Sie einen Filter frei:
 
    Das Freigabefeld Filter wird angezeigt.
 
-1. Aktivieren Sie die **Systemweit anzeigen** -Einstellung. Dadurch kann jeder in Workfront den Filter anzeigen.
+1. Aktivieren Sie die **Systemweit anzeigen** -Einstellung. Dadurch erhält jeder Benutzer in Workfront die Berechtigung, den Filter anzuzeigen.
 
    Oder
 
-   Beginnen Sie mit der Eingabe der Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen, für die Sie den Filter in die **Zugriff auf gewähren** -Feld.
+   Beginnen Sie mit der Eingabe der Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen, für die Sie den Filter freigeben möchten, in die **Zugriff auf gewähren an** -Feld.
 
    ![](assets/new-filters-sharing-ui-wb-350x422.png)
 
-1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um ihre Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder das **Ansicht** oder **Verwalten** -Option.
+1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um deren Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder das **Ansicht** oder **Verwalten** -Option.
 
    ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Optional) Aktivieren oder deaktivieren Sie die zusätzlichen Berechtigungen für eine Entität, indem Sie eine der folgenden Aktionen ausführen:
 
-   1. Klicken **Ansicht** und deaktivieren Sie die **Freigeben** -Option. Sie ist standardmäßig aktiviert.
+   1. Klicks **Ansicht** und deaktivieren Sie die **Freigeben** -Option. Sie ist standardmäßig aktiviert.
 
-   1. Klicken **Verwalten** und deaktivieren Sie entweder die **Freigeben** oder **Löschen** -Option. Sie sind standardmäßig aktiviert.
+   1. Klicks **Verwalten** und deaktivieren Sie entweder die **Freigeben** oder **Löschen** -Option. Sie sind standardmäßig aktiviert.
+
    >[!TIP]
    >
    >Benutzer können keine höhere Berechtigung als ihre Zugriffsstufe erhalten. Wenn sie keinen Zugriff auf Filter bearbeiten in ihrer Zugriffsebene haben, können sie keine Berechtigungen zum Verwalten eines Filters erhalten. Workfront deaktiviert die Option Verwalten für diese Benutzer und die Option ist abgeblendet.
 
-1. Klicken **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
+1. Klicks **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
 
    Die von Ihnen freigegebenen Filter werden im **Freigegeben für mich** Bereich des Filterfelds.
 

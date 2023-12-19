@@ -5,10 +5,10 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 1%
+source-wordcount: '2702'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Die folgenden Daten sind für die Entfernung aller Flash-basierten Tools in Work
 
 * **19. November 2020**: Alle Flash-basierten Tools wurden aus allen Workfront-Produkten entfernt.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact
   <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.
@@ -57,27 +57,27 @@ Weitere Informationen zu Ersatzwerkzeugen finden Sie unter [Alte Flash-basierte 
    * Kapazitätsplaner
    * Ressourcenkalkulationen
    * Ressourcenraster\
-      Weitere Informationen finden Sie unter [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Weitere Informationen finden Sie unter [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * Der Bereich &quot;Alte Ressourcenschätzungen&quot;im Geschäftsfall eines Projekts
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   is displayed in view-only mode
   </MadCap:conditionalText>
   -->
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   For more information, see
   <a href="../../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref">Migrate from Legacy Resource Estimates to Resource Budgeting </a>
   </MadCap:conditionalText>
   -->
 
-   .
+  .
 
 * Die Unterregisterkarte &quot;Ressourcenraster&quot;auf der Registerkarte &quot;Stiftierung&quot;eines Projekts
-* Die Option Neuen Planungsbereich verwenden auf der Unterregisterkarte Planung auf der Registerkarte &quot;Zuordnung&quot;eines Projekts, wodurch der alte Planungsbereich oder der Team Builder entfernt werden. In diesem Fall wird die Zeitleiste für die Planung jetzt standardmäßig angezeigt.
+* Die Option Neuen Planungsbereich verwenden auf der Unterregisterkarte Planung auf der Registerkarte für die Formatierung eines Projekts, wodurch der alte Planungsbereich oder der Team Builder entfernt werden. In diesem Fall wird die Zeitleiste für die Planung jetzt standardmäßig angezeigt.
 * Die Registerkarte Zuordnung unter dem Benutzerprofil
 
 ### Berichte
@@ -88,16 +88,16 @@ Die folgenden Berichterstellungsfunktionen und -berichte wurden entfernt:
 
    * Die Option &quot;Ressourcenraster&quot;in einem Benutzerbericht
    * Die Option Legacy-Gantt in einem Projekt- oder Aufgabenbericht\
-      Weitere Informationen finden Sie unter [Anzeigen von Informationen im Gantt-Diagramm](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Weitere Informationen finden Sie unter [Anzeigen von Informationen im Gantt-Diagramm](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Entfernte Berichte:
 
    * Der Bericht &quot;Legacy Resource Pool&quot;
    * Bericht &quot;Ressourcenschätzungen&quot;
 
-   >[!NOTE]
-   >
-   >Alle veralteten Felder, die über Berichte oder die API aufgerufen werden (veralteter Ressourcenpool, veraltete budgetierte Kosten, veraltete Kosten, veraltete budgetierte Stunden, veraltete Arbeitskosten usw.), werden in verschiedenen Berichten angezeigt, enthalten jedoch keine neuen Informationen.
+  >[!NOTE]
+  >
+  >Alle veralteten Felder, die über Berichte oder die API aufgerufen werden (veralteter Ressourcenpool, veraltete budgetierte Kosten, veraltete Kosten, veraltete budgetierte Stunden, veraltete Arbeitskosten usw.), werden in verschiedenen Berichten angezeigt, enthalten jedoch keine neuen Informationen.
 
 ### Legacy-Gantt
 
@@ -118,7 +118,7 @@ Weitere Informationen finden Sie in den folgenden Ressourcen:
 * [Überprüfen von Testsendungen im Web Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
 * [Testsendungen im Desktop Proofing Viewer überprüfen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
   -->
 
@@ -152,7 +152,7 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Alte Ressourcenpools</strong> </p> <p>Ältere Ressourcen-Pools waren Gruppen oder Sammlungen von Auftragsrollen, die gleichzeitig für die Fertigstellung eines Projekts benötigt wurden. Alte Ressourcen-Pools wiesen eine Reihe von Mängeln auf:</p> 
+   <td> <p><strong>Alte Ressourcen-Pools</strong> </p> <p>Ältere Ressourcen-Pools waren Gruppen oder Sammlungen von Auftragsrollen, die zur gleichen Zeit für den Abschluss eines Projekts benötigt wurden. Alte Ressourcen-Pools wiesen eine Reihe von Mängeln auf:</p> 
     <ul> 
      <li> Sie können einen Benutzer mit einem Legacy-Ressourcen-Pool verknüpfen, dieser wurde jedoch nur zu Berichtszwecken verwendet. Da ältere Ressourcen-Pools mit abstrakten Entitäten für die Rolle "Job"betrieben wurden, wurden keine der Zeitplanausnahmen und Zeitabstände der Benutzer berücksichtigt, was zu ungenauen Daten zur Ressourcenverfügbarkeit führte. </li> 
     </ul> 
@@ -163,14 +163,14 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
     <ul>
      <li>Da Resource Pools auf den Benutzern basieren, werden ihre Timeout- und Zeitplanausnahmen bereits bei den Berechnungen der Benutzer- und Rollenverfügbarkeit berücksichtigt. Dies führt zu präzisen und aktuellen Daten, die korrekte Haushaltsentscheidungen ermöglichen und die Wahrscheinlichkeit von Änderungen bei der Durchführung des Projekts minimieren.</li>
      <li>Da nun die Verfügbarkeit von Ressourcen und die Genauigkeit von Daten besser gesteuert werden können, können Sie mit Workfront mehrere Ressourcen-Pools mit einem Projekt verknüpfen. Ein Benutzer kann auch zu mehr als einem Ressourcen-Pool gehören, falls er über mehrere Fähigkeiten verfügt, die in mehreren Projekten gleichzeitig verwendet werden können. </li>
-    </ul><p>Mit einer solchen Kontrolle über die Daten ist es nicht mehr erforderlich, über einen Ressourcenpool zu verfügen, der alle Ressourcen für die Verteilung des verfügbaren Budgets umfasst. Wir empfehlen das nicht. Stattdessen empfehlen wir, Ihre Ressourcen-Pools zu diversifizieren und nur relevante Ressourcen-Pools mit Projekten zu verknüpfen.</p><p> Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcen-Pools - Übersicht </a></p></td> 
+    </ul><p>Mit einer solchen Kontrolle über die Daten ist es nicht mehr erforderlich, über einen Ressourcenpool zu verfügen, der alle Ressourcen für die Verteilung des verfügbaren Budgets umfasst. Wir empfehlen das nicht. Stattdessen empfehlen wir, Ihre Ressourcen-Pools zu diversifizieren und nur relevante Ressourcen mit Projekten zu verknüpfen.</p><p> Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcen-Pools - Übersicht </a></p></td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ressourcen-Budgetmanager</strong> </p> <p>Sie können den Ressourcen-Budget-Manager verwenden, um die Verfügbarkeit von Ressourcen für Auftragsrollen über mehrere Ressourcen-Pools hinweg anzugeben. Aufgrund der Unzulänglichkeiten des Legacy Resource Pool wurde diese Funktion jedoch nur selten verwendet. Bei seiner Verwendung zwang es die Benutzer, die Verfügbarkeit von Stellenrollen manuell einzugeben, um die Budgetierung präziser zu gestalten. Die zeitgesteuerten Ausnahmen und die Zeitverzögerung der Benutzer wurden nicht berücksichtigt.</p> </td> 
-   <td> <p>Mit der automatischen Berechnung der Verfügbarkeit basierend auf den Benutzern in den Ressourcen-Pools ist der Ressourcen-Budget-Manager nicht mehr erforderlich. Das Tool wurde eliminiert, zusammen mit allen manuellen Arbeiten zur Berechnung der Verfügbarkeit.</p> </td> 
+   <td> <p><strong>Resource Budget Manager</strong> </p> <p>Sie können den Ressourcen-Budget-Manager verwenden, um die Verfügbarkeit von Ressourcen für Auftragsrollen über mehrere Ressourcen-Pools hinweg anzugeben. Aufgrund der Unzulänglichkeiten des Legacy Resource Pool wurde diese Funktion jedoch nur selten verwendet. Bei seiner Verwendung zwang es die Benutzer, die Verfügbarkeit von Stellenrollen manuell einzugeben, um die Budgetierung präziser zu gestalten. Die zeitgesteuerten Ausnahmen und die Zeitverzögerung der Benutzer wurden nicht berücksichtigt.</p> </td> 
+   <td> <p>Mit der automatischen Berechnung der Verfügbarkeit basierend auf den Benutzern in den Ressourcen-Pools ist der Ressourcen-Budget-Manager nicht mehr erforderlich. Das Tool wurde eliminiert, zusammen mit der gesamten manuellen Arbeit zur Berechnung der Verfügbarkeit.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ressourcenkalkulationen</strong> </p> <p>Die Registerkarte Ressourcenschätzungen unter jedem Legacy-Ressourcen-Pool diente demselben Zweck wie der Ressourcen-Budget-Manager, nur im Kontext eines Legacy-Ressourcen-Pools. Dieses Tool hatte die gleichen Einschränkungen wie der Ressourcen-Budget-Manager und die Legacy-Ressourcen-Pools: ungenaue Daten und manuelle Eingabe der Verfügbarkeit. </p> </td> 
+   <td> <p><strong>Ressourcenschätzungen</strong> </p> <p>Die Registerkarte Ressourcenschätzungen unter jedem Legacy-Ressourcen-Pool diente demselben Zweck wie der Ressourcen-Budget-Manager, nur im Kontext eines Legacy-Ressourcen-Pools. Dieses Tool hatte die gleichen Einschränkungen wie der Ressourcen-Budget-Manager und die Legacy-Ressourcen-Pools: ungenaue Daten und manuelle Eingabe der Verfügbarkeit. </p> </td> 
    <td> <p>Mit der automatischen Berechnung der Benutzerverfügbarkeit sind Ressourcenschätzungen überholt und wurden entfernt.</p> <p>Das Tool wird mit den Legacy Resource Pools und den Legacy Resource Estimates im Geschäftsfall eines Projekts eliminiert. <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
@@ -183,7 +183,7 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
   </tr> 
   <tr> 
    <td> <p><strong>Ältere Ressourcenschätzungen (Geschäftsfall)</strong> </p> <p>Sie können den Bereich Legacy Resource Estimates des Business Case verwenden, um im Rahmen der Projektplanung und Ressourcenanforderung eine bestimmte Anzahl von Arbeitsstunden und Kosten zu veranschlagen. Diese Ansicht gab keinen Einblick in die Verfügbarkeit von Ressourcen, was zu ungefähren Ressourcenanforderungen und einer erhöhten Wahrscheinlichkeit für zurückgewiesene Projektarbeiten führte.</p> </td> 
-   <td> <p><strong>Resource Budgeting (Geschäftsfall)</strong> </p> <p>Im Abschnitt "Ressourcenbudgeting"unter "Geschäftsfall"werden die Ressourcen-Planer-Funktionen in den Geschäftsfall integriert, was Einblicke in die Verfügbarkeit von Benutzern und Rollen sowie die Möglichkeit bietet, auf Benutzerebene Budgets zu erstellen. </p> <p> Weitere Informationen zum Bereich "Ressourcenbudgetierung"im Geschäftsfall finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Überblick über die Bereiche des Geschäftsfalles</a>. </p> </td> 
+   <td> <p><strong>Resource Budgeting (Geschäftsfall)</strong> </p> <p>Im Abschnitt "Ressourcenbudgeting"unter "Geschäftsfall"werden die Ressourcen-Planer-Funktionen in den Geschäftsfall integriert, was Einblicke in die Verfügbarkeit von Benutzern und Rollen sowie die Möglichkeit bietet, auf Benutzerebene Budgets zu erstellen. </p> <p> Weitere Informationen zum Bereich "Ressourcenbudgetierung"im Geschäftsfall finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Überblick über die Bereiche des Geschäftsfalls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Ressourcenschätzungsberichte</strong> </p> <p>Wenn Sie die veralteten Tools für das Ressourcenmanagement verwenden, können Sie im Geschäftsfall Berichte zu geplanten und geplanten Stunden erstellen. Auf diese Weise konnten Sie Matrixberichte erstellen, die die Gesamtsumme der geplanten und geplanten Arbeit für jede Rolle in einem bestimmten Zeitraum anzeigen. Dieser Bericht war nicht bearbeitbar, und Sie konnten keine Änderungen in der Budgetierung Ihrer Ressourcen auf der Grundlage der Ergebnisse des Berichts vornehmen. </p> </td> 
@@ -196,7 +196,7 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
     </div> <p><strong>Die Rollenansicht des Ressourcenplaners</strong> </p> <p>Die geplanten und geplanten Stunden aus dem Business-Fall in den alten Ressourcen-Management-Tools sind jetzt in einer neuen nativen Ansicht verfügbar - der rollenbasierten Ansicht des Resource Planers. Diese Ansicht bietet auf einen Blick verfügbare, geplante und budgetierte Stunden-Informationen und ermöglicht es Ihnen, die Budgetierung an derselben Stelle zu steuern und zu ändern. Dies ermöglicht eine bessere Entscheidungsfindung bei der hochrangigen Stellenplanung. </p> <p> Informationen über die Budgetierung von Ressourcen in der Rollenansicht des Ressourcenplaners finden Sie in der <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">Verwenden der Projekt- und Rollenansichten für Budgetressourcen </a> Abschnitt in <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Übersicht über den Ressourcenplaner</a></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ressourcenraster</strong> </p> <p>Das Ressourcenraster gab Ihnen einen Einblick in die Zuordnung bestimmter Benutzer, während ein Projekt bis zur Fertigstellung fortschritt. </p> <p>Sie können beispielsweise leicht erkennen, wann jemand in Ihrem Projektteam seine Arbeit frühzeitig erledigt hat und wann jemand zurückfiel, und ob er für einen bestimmten Zeitraum überverteilt oder unterzugewiesen war. </p> <p>Leider waren Sie nicht in der Lage, auf die Informationen in der gleichen Ansicht zu reagieren. Um Überverteilungsprobleme zu beheben, mussten Sie die Projekte aufrufen und die dort vorhandenen Informationen manuell anpassen, ohne das Ergebnis Ihrer Aktionen einsehen zu müssen.</p> </td> 
+   <td> <p><strong>Ressourcenraster</strong> </p> <p>Das Ressourcenraster gab Ihnen einen Einblick in die Zuordnung bestimmter Benutzer, während ein Projekt bis zur Fertigstellung vorangeschritten war. </p> <p>Sie können beispielsweise leicht erkennen, wann jemand in Ihrem Projektteam seine Arbeit frühzeitig erledigt hat und wann jemand zurückfiel, und ob er für einen bestimmten Zeitraum überverteilt oder unterzugewiesen war. </p> <p>Leider waren Sie nicht in der Lage, auf die Informationen in der gleichen Ansicht zu reagieren. Um Überverteilungsprobleme zu beheben, mussten Sie die Projekte aufrufen und die dort vorhandenen Informationen manuell anpassen, ohne das Ergebnis Ihrer Aktionen einsehen zu müssen.</p> </td> 
    <td> <p>Das Ressourcenraster wurde durch zwei neue Tools ersetzt. Je nachdem, in welcher Phase der Ressourcenplanung Sie sich befinden, können Sie die folgenden Tools verwenden:</p> 
     <ul> 
      <li> <p><strong>Für die Analysephase:</strong> </p> 
@@ -209,7 +209,7 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
        <li><strong>Der Lastenausgleich</strong> Sie können Folgendes mit dem Lastenausgleich tun: 
         <ul>
          <li>Weisen Sie Benutzern Arbeit zu.</li>
-         <li>Verwalten Sie die Zuordnung von Benutzern zu Arbeitselementen. </li>
+         <li>Verwalten Sie die Zuordnungen von Benutzern zu Arbeitselementen. </li>
          <li>Geben Sie den Lastenausgleich für andere Benutzer frei, die möglicherweise keine Sichtbarkeit im Bereich "Personen"haben. Verwenden Sie die Funktion für freigegebene Links, um einen Link zum Lastenausgleich freizugeben und ihn in benutzerdefinierte Dashboards einzubetten. Alle Benutzer mit Zugriff auf Benutzer anzeigen können diese Dashboards anzeigen, wenn Sie sie freigeben.</li>
         </ul><p>Der Lastenausgleich ist im Bereich Personen verfügbar. </p><p>Weitere Informationen zum Lastenausgleich finden Sie unter <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Übersicht über den Lastenausgleich</a>.</p></li> 
       </ul> <!--
@@ -232,16 +232,16 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Legacy-Gantt-Diagramm, Aufgabenliste</strong> </p> <p> Das Legacy-Gantt-Diagramm auf der Aufgabenliste gab Benutzern die Möglichkeit, die Timeline des Projekts visuell anzuzeigen und eine "Was-wäre-wenn"-Szenario-Planung durchzuführen, ohne Änderungen an der Datenbank vorzunehmen. Das Legacy-Gantt-Diagramm basierte auf der Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
+   <td> <p><strong>Legacy-Gantt-Diagramm, Aufgabenliste</strong> </p> <p> Das Legacy-Gantt-Diagramm auf der Aufgabenliste gab Benutzern die Möglichkeit, die Timeline des Projekts visuell anzuzeigen und eine "Was-wäre-wenn"-Szenario-Planung durchzuführen, ohne Änderungen an der Datenbank vorzunehmen. Das Legacy-Gantt-Diagramm basierte auf Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
    <td> <p><strong>Gantt-Diagramm,</strong> <strong>Aufgabenliste</strong></p> <p> Das neue HTML-basierte Gantt-Diagramm dient dem gleichen Zweck wie das Legacy-Gantt. Benutzer können die Timeline des Projekts visualisieren und eine "Was-wäre-wenn-Szenario-Planung durchführen, ohne Änderungen an der Datenbank vornehmen zu müssen. Wechseln Sie dazu in der Symbolleiste der Aufgabenliste zur Option Manuelles Speichern . </p> <p>Das neue Gantt-Diagramm ist interaktiv, wenn Sie die Option Automatisches Speichern verwenden, die Sie verwenden können, wenn Sie Ihre Änderungen automatisch speichern möchten. </p> <p>Das neue Aufgabenlisten-Gantt-Diagramm basiert auf der neuesten Technologie und ist zuverlässig. Dieses neue Gantt-Diagramm befindet sich direkt in der Aufgabenliste und ist beim Arbeiten an der Aufgabenliste einfach zugänglich, ohne die Registerkarten zu wechseln oder die Ansicht zu ändern. </p> <p>Obwohl das neue Gantt-Diagramm die gleichen Funktionen wie das vorherige Diagramm bietet, gibt es einige Unterschiede in den Funktionen im Vergleich zum alten Gantt. </p> <p> Die Unterregisterkarte Legacy-Gantt in einer Liste von Vorlagenaufgaben auf einer Vorlage, die Ansicht Legacy-Gantt auf der Registerkarte Unteraufgaben einer Vorlagenaufgabe und das Diagramm Legacy-Gantt in einem Vorlagenaufgaben -Bericht wurden ebenfalls durch das HTML-basierte Gantt-Diagramm ersetzt. </p> <p>Wenn Sie das Legacy-Gantt-Diagramm hauptsächlich für die einfache Ansicht und schnelle Bearbeitungen verwenden und nicht das tatsächliche Diagramm verwenden, können Sie mit der neuen Option Timeline-Planung schnelle Änderungen an wichtigen Planungsfeldern vornehmen. Sie können in der Symbolleiste der Aufgabenliste die Option Timeline-Planung anstelle von Automatisches Speichern auswählen.</p> <p>Weitere Informationen zum Speichern einer Aufgabenliste mithilfe der Option Timeline-Planung finden Sie im Artikel im Abschnitt "Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option Timeline-Planung auswählen" <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Aufgaben in einer Liste bearbeiten</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Legacy-Gantt-Diagramm für eine Projektliste</strong> </p> <p>Das Legacy-Gantt-Diagramm auf der Projektliste gab Benutzern die Möglichkeit, Projekte und ihre Aufgaben in einer Ansicht anzuzeigen. Ohne den Kontext der Projektliste verlassen zu müssen, können Benutzer Details zu den Aufgaben in einem Projekt sowie die Abhängigkeiten zwischen den Projekten sehen. Das Legacy-Gantt-Diagramm auf der Projektliste basierte auf der Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
-   <td> <p><strong>Gantt-Diagramm, Projektliste</strong> </p> <p>Das HTML-basierte Gantt-Diagramm dient demselben Zweck wie das Legacy-Gantt-Diagramm. Benutzer können Projekte und ihre Aufgaben in einer Ansicht anzeigen, um Abhängigkeiten zwischen Projekten sowie Aufgaben visuell zu identifizieren. Das Gantt-Diagramm der Projektliste befindet sich direkt auf der Projektliste. Das neue Gantt-Diagramm verfügt über eine moderne Oberfläche und basiert auf der neuesten Technologie.</p> <p>Weitere Informationen zum Gantt-Diagramm der Projektliste finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Anzeigen von Informationen im Gantt-Diagramm </a>.</p> </td> 
+   <td> <p><strong>Legacy-Gantt-Diagramm für eine Projektliste</strong> </p> <p>Das Legacy-Gantt-Diagramm auf der Projektliste gab Benutzern die Möglichkeit, Projekte und ihre Aufgaben in einer Ansicht anzuzeigen. Ohne den Kontext der Projektliste verlassen zu müssen, können Benutzer Details zu den Aufgaben in einem Projekt sowie die Abhängigkeiten zwischen den Projekten sehen. Das Legacy-Gantt-Diagramm auf der Projektliste basierte auf Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
+   <td> <p><strong>Gantt-Diagramm, Projektliste</strong> </p> <p>Das HTML-basierte Gantt-Diagramm dient demselben Zweck wie das Legacy-Gantt-Diagramm. Benutzer können Projekte und ihre Aufgaben in einer Ansicht anzeigen, um Abhängigkeiten zwischen Projekten sowie Aufgaben visuell zu identifizieren. Das Gantt-Diagramm für die Projektliste befindet sich direkt auf der Projektliste. Das neue Gantt-Diagramm verfügt über eine moderne Oberfläche und basiert auf der neuesten Technologie.</p> <p>Weitere Informationen zum Gantt-Diagramm der Projektliste finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Anzeigen von Informationen im Gantt-Diagramm </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Freigeben von Dialogfeldern für Berichte, Kalender und Dokumente</strong> </p> <p>Beim Freigeben von Berichten, Kalendern und Dokumenten basierten die verwendeten Dialogfelder auf der Flash-Technologie.</p> </td> 
-   <td> <p>Das Erlebnis bei der Freigabe von Berichten, Kalendern und Dokumenten in Workfront hat sich nicht geändert. Das Erlebnis verlässt sich jedoch nicht mehr auf Flash.</p> <p>Weitere Informationen zur Freigabe dieser Elemente finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Übersicht über die Freigabe von Berechtigungen für Objekte</a>.</p> </td> 
+   <td> <p><strong>Freigeben von Dialogfeldern für Berichte, Kalender und Dokumente</strong> </p> <p>Beim Freigeben von Berichten, Kalendern und Dokumenten basierten die verwendeten Dialogfelder auf Flash-Technologie.</p> </td> 
+   <td> <p>Das Erlebnis bei der Freigabe von Berichten, Kalendern und Dokumenten in Workfront hat sich nicht geändert. Das Erlebnis verlässt sich jedoch nicht mehr auf Flash.</p> <p>Weitere Informationen zum Freigeben dieser Elemente finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Übersicht über die Freigabe von Berechtigungen für Objekte</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Alter Testversand-Viewer</strong> </p> <p>Der alte Testversand-Viewer war ein webbasierter Testversand-Viewer, der Testfunktionen für statische, Video- und interaktive Testsendungen bereitstellte.</p> </td> 
