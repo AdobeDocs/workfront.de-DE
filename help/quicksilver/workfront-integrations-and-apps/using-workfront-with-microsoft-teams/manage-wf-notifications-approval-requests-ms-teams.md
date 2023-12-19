@@ -6,14 +6,18 @@ description: Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Ele
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # Verwalten [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Die Adobe Workfront für Microsoft Teams-Integration wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
 
 Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente, die Sie genehmigen müssen, Zuweisungen, Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
 
@@ -33,8 +37,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
