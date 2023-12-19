@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,16 @@ ht-degree: 0%
 
 Mit dieser Integration möchten wir es Kreativen ermöglichen, in ihrem bevorzugten Tool (CC oder Frame.io) zu bleiben, um ihre Inhaltserstellung und Peer Reviews durchzuführen, während Projektmanager die Arbeit koordinieren und den formalen Review-Prozess innerhalb von Workfront initialisieren und überwachen können. Dies lässt sich erreichen, indem die besten beider Lösungen genutzt werden: die neuen Dokumentgenehmigungen von Workfront für die Verwaltung von Inhaltsgenehmigungen in Verbindung mit den Inhaltsüberprüfungsfunktionen von Frame.io. Insgesamt werden die neuen Dokumentgenehmigungen und Frame.io unser neues durchgängiges Inhalts-Review- und Genehmigungs-Erlebnis bilden. 
 
-Weitere Informationen zur Funktionsweise des Alpha-Alphabets und zur Teilnahme finden Sie unter [Adobe Workfront- und Frame.io-Integration - Alpha: Übersicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+Weitere Informationen zur Funktionsweise des Alpha-Alphabets und zur Teilnahme finden Sie unter [Adobe Workfront- und Frame.io-Integration - Alpha: Übersicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
 >Falls Sie auf diese Seiten gestoßen sind, ohne dass Ihr Unternehmen an diesem Alpha-Programm teilnimmt, wenden Sie sich bitte an Ihren Workfront- oder Frame.io-Administrator, um weitere Informationen zu erhalten.
 >
+
+## Demovideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
 
 ## Grundlegendes Testszenario
 
