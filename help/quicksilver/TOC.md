@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 0%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 0%
    * Angaben zum Datenblatt {#details}
       * [Datenblatt-Details: Artikelindex](timesheets/timesheets/timesheets.md)
       * [Timesheets - Übersicht](timesheets/timesheets/timesheets-overview.md)
-      * [Grundlegendes zum Layout des Zeitplans](timesheets/timesheets/timesheet-layout.md)
+      * [Übersicht über das Datenblatt](timesheets/timesheets/timesheet-layout.md)
    * Erstellen und Verwalten von Timesheets {#create-and-manage-timesheets-in-adobe-workfront}
       * [Erstellen und Verwalten von Timesheets: Artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

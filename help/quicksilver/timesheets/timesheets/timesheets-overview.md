@@ -7,9 +7,9 @@ description: Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ So greifen Sie auf ein Timesheet zu:
 
 {{step1-to-timesheets}}
 
-Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Informationen zum Timesheet-Layout in Adobe Workfront finden Sie unter [Grundlegendes zum Layout des Zeitplans](../../timesheets/timesheets/timesheet-layout.md).
+Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Informationen zum Timesheet-Layout in Adobe Workfront finden Sie unter [Übersicht über das Datenblatt](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

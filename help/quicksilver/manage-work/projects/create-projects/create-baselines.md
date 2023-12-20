@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Erstellen von Projektgrundlagen
+title: Erstellen von Projekt-Grundlinien
 description: Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
-# Erstellen von Projektgrundlagen
+# Erstellen von Projekt-Grundlinien
+
+<!-- Audited: 12/2023 -->
 
 Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
 
@@ -61,20 +63,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+    <td><p>Neu: Standard</p>
+        <p>oder</p>
+        <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTE</b>
    Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Projekte finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Projektzugriff gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt oder höher anzeigen, um Grundlinien anzuzeigen</p> <p>Verwalten von Berechtigungen für das Projekt zum Erstellen von Grundlinien</p> <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt oder höher anzeigen, um Grundlinien anzuzeigen</p> <p>Verwalten von Berechtigungen für das Projekt zum Erstellen von Grundlinien</p> <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +87,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Arbeiten mit Grundlinien
 
-* Sie können während der Projektlaufzeit mehrmals eine Momentaufnahme des Projektfortschritts erstellen und dabei mehrere Grundlinien erstellen.
+* Sie können während der Projektlaufzeit mehrmals eine Momentaufnahme des Fortschritts an einem Projekt erstellen und dabei mehrere Grundlinien erstellen.
 * Sie können die in den Grundlinien eines Projekts enthaltenen Informationen anzeigen, indem Sie eine Grundlinie erstellen oder einen Baseline-Bericht erstellen.
 * Wenn Sie eine Grundlinie erstellen, werden die Aufgabeninformationen auch in den Grundaufgaben dieser Grundlinie erfasst.
 * Sie können die Informationen zu den Grundaufgaben anzeigen, indem Sie einen Baseline-Aufgabenbericht erstellen.
@@ -96,15 +100,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können eine Grundlinie wie folgt erstellen:
 
-* **Automatisch**: Ihr Workfront-Administrator oder Gruppenadministrator legt die Projektvoreinstellung für Workfront fest, um automatisch eine Grundlinie zu erstellen, sobald ein Projekt aktuell wird. Wenn diese Einstellung aktiviert ist, wird eine Grundlinie erstellt, sobald der Projektstatus &quot;Aktuell&quot;wird. Wenn diese Einstellung nicht aktiviert ist, müssen Sie Grundlinien manuell erstellen.
+* **Automatisch**: Ihr Workfront-Administrator oder ein Gruppenadministrator legt die Projektvoreinstellung für Workfront fest, um automatisch eine Grundlinie zu erstellen, sobald ein Projekt aktuell wird. Wenn diese Einstellung aktiviert ist, wird eine Grundlinie erstellt, sobald der Projektstatus &quot;Aktuell&quot;wird. Wenn diese Einstellung nicht aktiviert ist, müssen Sie Grundlinien manuell erstellen.
 
-   Weitere Informationen zum Konfigurieren von Projektvoreinstellungen und zum Einrichten der automatischen Grundlagenerstellung finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Weitere Informationen zum Konfigurieren von Projektvoreinstellungen und zum Einrichten der automatischen Grundlagenerstellung finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >Durch Aktivierung dieser Einstellung wird automatisch eine Grundlinie für ein Projekt erstellt, sobald sich der Status eines Projekts in &quot;Aktuell&quot;ändert. Die erste erstellte Grundlinie ist die Standardgrundlinie. Sie müssen während der Projektlaufzeit alle anderen Grundlinien manuell erstellen .
+  >[!CAUTION]
+  >
+  >Durch Aktivierung dieser Einstellung wird automatisch eine Grundlinie für ein Projekt erstellt, sobald sich der Status eines Projekts in &quot;Aktuell&quot;ändert. Die erste erstellte Grundlinie ist die Standardgrundlinie. Sie müssen während der Projektlaufzeit alle anderen Grundlinien manuell erstellen .
 
-* **Manuell**: Sie können nach Bedarf neue Grundlinien für das Projekt erstellen, während das Projekt weitergeht. Anschließend können Sie die Grundlinien vergleichen, um zu sehen, wie das Projekt im Laufe der Zeit vorangeschritten ist.
+* **Manuell**: Sie können nach Bedarf neue Grundlinien für das Projekt erstellen, während das Projekt fortgesetzt wird. Anschließend können Sie die Grundlinien vergleichen, um zu sehen, wie das Projekt im Laufe der Zeit vorangeschritten ist.
 
 So erstellen Sie eine Grundlinie:
 
@@ -113,18 +117,18 @@ So erstellen Sie eine Grundlinie:
 
    Oder
 
-   Klicken **Mehr anzeigen** Klicken Sie auf **Grundlinien**.
+   Klicks **Mehr anzeigen** Klicken Sie auf **Grundlinien**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Grundlinien-Abschnitt eines Projekts](assets/baselines-section-on-project-with-header.png)
 
-1. Klicken **Neue Grundlinie.**
+1. Klicks **Neue Grundlinie.**
 1. Geben Sie den Namen für die Grundlinie an.
 1. (Optional) Wenn dies die erste Grundlinie ist, können Sie sie als Standard auswählen.
 1. Klicken Sie auf **Speichern**.
 
    Standardmäßig werden die folgenden Informationen zur von Ihnen erstellten Grundlinie angezeigt:
 
-   * Baseline-Name
+   * Grundname
    * Basiseintragsdatum
    * Geplantes Anfangsdatum des Projekts, an dem die Grundlinie erstellt wurde
    * Voraussichtlicher Projektbeginn Datum der Erstellung der Grundlinie
@@ -132,11 +136,11 @@ So erstellen Sie eine Grundlinie:
    * % Abschluss des Projekts bei Erstellung der Grundlinie
    * Standardindikator für die Grundlinie, der anzeigt, ob eine Grundlinie die Standardgrundlinie des Projekts ist
 
-      >[!TIP]
-      >
-      >Es ist nicht möglich, Informationen aus zwei Grundlinien gleichzeitig in derselben Ansicht oder demselben Bericht anzuzeigen. Sie können nur Informationen aus einer bestimmten Grundlinie und der Standardgrundlinie im selben Bericht anzeigen. Sie können jederzeit während der Laufzeit des Projekts ändern, welche Grundlinie Sie als Standardgrundlinie betrachten.
+     >[!TIP]
+     >
+     >Sie können Informationen aus zwei Grundlinien nicht gleichzeitig in derselben Ansicht oder in demselben Bericht anzeigen. Sie können nur Informationen aus einer bestimmten Grundlinie und der Standardgrundlinie im selben Bericht anzeigen. Sie können jederzeit während der Laufzeit des Projekts ändern, welche Grundlinie Sie als Standardgrundlinie betrachten.
 
-1. (Optional) Klicken Sie neben der Ansicht auf den Dropdownpfeil und anschließend **Ansicht anpassen** , um Ihrer Ansicht Felder hinzuzufügen und zusätzliche Informationen zwischen Grundlinien zu vergleichen.
+1. (Optional) Klicken Sie auf die **Ansicht** und erstellen Sie dann eine neue Ansicht oder bearbeiten Sie die aktuelle Ansicht, um der Ansicht Felder hinzuzufügen und zusätzliche Informationen zwischen Grundlinien zu vergleichen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Erstellen eines Baseline- oder Baseline-Aufgabenberichts
 
@@ -148,6 +152,6 @@ Um Basisinformationen anzuzeigen, können Sie auch einen Baseline- oder Baseline
 
 Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Es wird empfohlen, dem Bericht &quot;Grundlinie&quot;oder &quot;Grundlinie&quot;eine Gruppierung &quot;Projektname&quot;hinzuzufügen, um das Lesen zu vereinfachen.
+Es wird empfohlen, dem Bericht &quot;Baseline&quot;oder &quot;Baseline Task&quot;eine Gruppierung vom Typ &quot;Projektname&quot;hinzuzufügen, um das Lesen zu vereinfachen.
 
 Informationen zum Erstellen einer Gruppierung finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

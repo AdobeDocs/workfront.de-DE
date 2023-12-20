@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Berechnete benutzerdefinierte Felder vs. berechnete Spalten
-description: Informationen zu benutzerdefinierten Daten in Berichten und Dashboards
+description: Um mehrere Felder in Adobe Workfront zu aggregieren und diesen aggregierten Wert in einem neuen Feld anzuzeigen, können Sie ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular oder eine berechnete Spalte in einer Ansicht erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Berechnete benutzerdefinierte Felder vs. berechnete Spalten
 
-Um mehrere Felder in Adobe Workfront zu aggregieren und diesen aggregierten Wert in einem neuen Feld anzuzeigen, haben Sie folgende Möglichkeiten:
+Um mehrere Felder in Adobe Workfront zu aggregieren und diesen aggregierten Wert in einem neuen Feld anzuzeigen, können Sie Folgendes erstellen:
 
 * Ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular\
-  Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie im Abschnitt [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) im Artikel [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie im Abschnitt . [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) im Artikel [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Eine berechnete Spalte in einer Ansicht\
-  Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie im Abschnitt . [Textmodus in Ansichten verwenden](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie im Abschnitt . [Textmodus in Ansichten verwenden](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Obwohl Sie den Textmodus verwenden, um sowohl berechnete Felder als auch berechnete Spalten zu erstellen, unterscheidet sich die Syntax für ihre Erstellung. In den oben aufgeführten Artikeln erfahren Sie, wie Sie berechnete Felder und Spalten erstellen. Informationen zur unterschiedlichen Syntax, die in berechneten Datenausdrücken wie berechneten benutzerdefinierten Feldern und Spalten verwendet wird, finden Sie im Abschnitt . [Syntax von berechneten benutzerdefinierten Feldern im Vergleich zu berechneten benutzerdefinierten Spalten](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in diesem Artikel.
+Obwohl Sie den Textmodus verwenden, um sowohl berechnete Felder als auch berechnete Spalten zu erstellen, unterscheidet sich die Syntax für ihre Erstellung. In den oben aufgeführten Artikeln erfahren Sie, wie Sie berechnete Felder und Spalten erstellen. Informationen zur unterschiedlichen Syntax, die in berechneten Datenausdrücken wie berechneten benutzerdefinierten Feldern und Spalten verwendet wird, finden Sie im Abschnitt . [Syntax von berechneten benutzerdefinierten Feldern im Vergleich zu berechneten benutzerdefinierten Spalten](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in diesem Artikel.
 
-Sie können dieselben Berechnungen in beiden berechneten Feldern sowie in einer berechneten Spalte verwenden. Je nachdem, welchen Zweck Sie für diese Berechnungen haben, sollten Sie jedoch in Erwägung ziehen, eine und die andere zu erstellen.
+Sie können dieselben Berechnungen in beiden berechneten Feldern sowie in einer berechneten Spalte verwenden. Je nachdem, welchen Zweck Sie für diese Berechnungen haben, sollten Sie jedoch in Erwägung ziehen, die eine oder die andere zu erstellen.
 
 ## Syntax von berechneten benutzerdefinierten Feldern im Vergleich zu berechneten benutzerdefinierten Spalten
 
@@ -36,25 +36,19 @@ Beispiel:
 
 * In einem benutzerdefinierten Feld würden Sie in einem benutzerdefinierten Formular für Aufgaben den Namen des übergeordneten Projekts der Aufgabe generieren, an das das benutzerdefinierte Formular angehängt ist:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * In einer benutzerdefinierten Spalte in einem Bericht können Sie wie folgt eine benutzerdefinierte Spalte für den Projektnamen zu einem Aufgabenbericht hinzufügen:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   Oder
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >Dieselbe Syntax gilt für alle Berichterstellungselemente im Textmodus, in denen berechnete Ausdrücke verwendet werden: Ansichten, Filter, Gruppierungen, Eingabeaufforderungen.
+  >Dieselbe Syntax gilt für alle Berichterstellungselemente im Textmodus, in denen berechnete Ausdrücke verwendet werden: Ansichten, Filter, Gruppierungen und Eingabeaufforderungen.
 
 Die Unterschiede zwischen den beiden Syntaxen sind:
 
@@ -63,8 +57,8 @@ Die Unterschiede zwischen den beiden Syntaxen sind:
  <col> 
  <tbody> 
   <tr> 
-   <td>Berechnetes benutzerdefiniertes Feld</td> 
-   <td>Berechnetes benutzerdefiniertes Berichtselement</td> 
+   <td><strong>Berechnetes benutzerdefiniertes Feld</strong></td>
+   <td><strong>Berechnetes benutzerdefiniertes Berichtselement</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Verwenden Sie den Feldnamen so, wie er in der Benutzeroberfläche von Workfront angezeigt wird.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Beispiel für einen Feldnamen, der in einem berechneten benutzerdefinierten Feld verwendet wird: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ Die Unterschiede zwischen den beiden Syntaxen sind:
   </tr> 
   <tr> 
    <td>Trennen Sie die Felder durch Punkte.</td> 
-   <td> <p>Trennen Sie die Felder bei Verwendung in einer <code>valuefield </code>line</p> <p>Trennen Sie die Felder bei der Verwendung in einer <code>valueexpression </code>Linie. </p> </td> 
+   <td> <p>Trennen Sie die Felder bei Verwendung in einer <code>valuefield</code>Linie.</p> <p>Trennen Sie die Felder bei der Verwendung in einer <code>valueexpression</code>Linie.</p> </td> 
   </tr> 
  </tbody> 
 </table>

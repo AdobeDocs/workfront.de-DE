@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: die Überstunden in einer Timesheet-Ansicht berechnen'
+title: "Ansicht: Berechnung der Überstunden in einer Timesheet-Ansicht"
 description: Die Zeitüberschreitung wird in Adobe Workfront nicht standardmäßig berechnet, Sie können jedoch einen Zeitplanbericht erstellen, der die Zeitdauer berechnet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Ansicht: Überstunden in einer Timesheet-Ansicht berechnen
+# Ansicht: Berechnung der Zeitüberschreitungskosten in einer Timesheet-Ansicht
 
 Die Zeitüberschreitung wird in Adobe Workfront nicht standardmäßig berechnet, Sie können jedoch einen Zeitplanbericht erstellen, der die Zeitdauer berechnet.
 
@@ -23,7 +23,7 @@ Informationen zur Verknüpfung von Benutzern mit den Kosten pro Stunde finden Si
 
 >[!NOTE]
 >
->Das Feld Überstunden , das Sie einer Timesheet-Ansicht in einer Liste oder einem Bericht hinzufügen können, zeigt die im Feld Überstunden des Zeitplans enthaltenen Informationen an. Diese Informationen werden von einem Benutzer, der Zugriff auf die Änderung des Zeitblatts hat, manuell aktualisiert. Weitere Informationen zum Zeitverlaufsfeld finden Sie im Artikel [Grundlegendes zum Layout des Zeitplans](../../../timesheets/timesheets/timesheet-layout.md).
+>Das Feld Überstunden , das Sie einer Timesheet-Ansicht in einer Liste oder einem Bericht hinzufügen können, zeigt die im Feld Überstunden des Zeitplans enthaltenen Informationen an. Diese Informationen werden von einem Benutzer, der Zugriff auf die Änderung des Zeitblatts hat, manuell aktualisiert. Weitere Informationen zum Zeitverlaufsfeld finden Sie im Artikel [Übersicht über das Datenblatt](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Zugriffsanforderungen
 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -65,30 +65,30 @@ So fügen Sie einer Timesheet-Ansicht eine Spalte für die berechnete Zeitdauer 
 
    Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicken **Ansicht anpassen** in einer Liste von Timesheets.
+1. Klicks **Ansicht anpassen** in einer Liste von Timesheets.
 
    Oder
 
    Wählen Sie die **Spalten (Ansicht)** in einem Timesheet-Bericht.
 
-1. Klicken **Spalte hinzufügen**.
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **Spalte hinzufügen**.
+1. Klicks **In den Textmodus wechseln**.
 1. Im **In dieser Spalte anzeigen** Bereich, klicken Sie **Klicken, um Text zu bearbeiten**.
 1. Kopieren Sie den folgenden Textmoduscode und fügen Sie ihn in die **Textmodus** Dialogfeld.
-   <pre>displayName=Berechnete Zeitüberschreitungskosten<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueExpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
+   <pre>displayName=Berechnete Zeitüberschreitungskosten<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueExpression=IF({totalHours}&gt; 40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
    >Bei dieser Berechnung wird davon ausgegangen, dass der Benutzer normalerweise eine Woche mit 40 Stunden arbeitet.
 
-1. Klicken **Speichern**, benennen Sie die neue Ansicht und klicken Sie auf **Ansicht speichern** in einer Liste von Timesheets.
+1. Klicks **Speichern**, benennen Sie die neue Ansicht und klicken Sie auf **Ansicht speichern** in einer Liste von Timesheets.
 
    Oder
 
-   Klicken **Speichern und schließen** in einem Zeitblatt-Bericht.
+   Klicks **Speichern und schließen** in einem Zeitblatt-Bericht.
 
 1. (Optional und bedingt) Wenn Sie einen Bericht aus einem Datenblatt erstellen, geben Sie einen Namen für den Bericht ein und klicken Sie auf **Bericht speichern**.
 
-   Die Kosten der Überstunden der einzelnen Benutzer werden im **Berechnete Überstunden** Spalte.
+   Die Kosten der Überstunden der einzelnen Benutzer werden im **Berechnete Zeitverlaufskosten** Spalte.
 
    ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
