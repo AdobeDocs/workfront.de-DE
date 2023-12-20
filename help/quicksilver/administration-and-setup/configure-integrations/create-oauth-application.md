@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -298,7 +298,7 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
       <td>Dies ist die E-Mail-Adresse des Entwicklers, der die OAuth2-Anwendung eingerichtet hat.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL Datenschutzrichtlinie UTL]</td> 
+      <td role="rowheader">URL der [!UICONTROL Datenschutzrichtlinie]</td> 
       <td>Dies ist der Link zu dem Ort, an dem Ihre Organisation die Datenschutzrichtlinie speichert.</td> 
      </tr>
 

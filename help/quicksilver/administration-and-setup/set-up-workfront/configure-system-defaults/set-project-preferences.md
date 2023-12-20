@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Systemweite Projektvoreinstellungen konfigurieren
 description: Als [!DNL Adobe Workfront] -Administrator können Sie die Standardeinstellungen für alle im System erstellten Projekte konfigurieren. Diese Voreinstellungen wirken sich auf Projekt-, Aufgaben- und Problemverhalten aus.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] Plan</p></td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Neu: [!UICONTROL Standard]</p>
+   Oder
+   <p>Aktuell: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Systemadministrator]</p> <p><b>NOTE</b>:</p><p>Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Konfigurieren von Projektvoreinstellungen für die gesamte Organisation
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Projekte]**.
 
-1. Fahren Sie auf der angezeigten Seite mit einem der vier unten aufgeführten Abschnitte fort, um die Voreinstellungen für [!UICONTROL Projektstatus], [!UICONTROL Zeitpläne], [!UICONTROL Geschäftsszenarios], und [!UICONTROL Leben nach dem Tod].
+1. Im **Projektvoreinstellungen** Seite, fahren Sie mit einem der vier unten aufgeführten Abschnitte fort, um die Voreinstellungen für [!UICONTROL Projektstatus], [!UICONTROL Zeitpläne], [!UICONTROL Geschäftsszenarios], und [!UICONTROL Leben nach dem Tod].
 1. Wenn Sie möchten, dass alle Gruppen in der Organisation dieselben Projektvoreinstellungen verwenden, stellen Sie sicher, dass jede Voreinstellung gesperrt ist. ![](assets/lock-toggle-button.png) (dies ist die Standardeinstellung).
 
    >[!IMPORTANT]
@@ -112,7 +115,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatische Festlegung der Projektbedingung auf der Grundlage des Fortschrittsstatus]</td> 
-   <td> <p>Mit dieser Voreinstellung können Benutzer die [!UICONTROL-Bedingung] eines Projekts manuell festlegen ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) oder haben [!DNL Workfront] die [!UICONTROL Bedingung] (Fortschrittsstatus) automatisch auf Grundlage des Projektfortschritts auf der Timeline festlegen. Weitere Informationen zum Projektzustand finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Projektbedingung und Bedingungstyp</a>.</p> </td> 
+   <td> <p>Mit dieser Voreinstellung können Benutzer die [!UICONTROL-Bedingung] eines Projekts manuell auf ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) oder festlegen, dass [!DNL Workfront] die [!UICONTROL Bedingung] (Fortschrittsstatus) automatisch auf Grundlage des Projektfortschritts auf der Timeline festlegen. Weitere Informationen zum Projektzustand finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Projektbedingung und Bedingungstyp</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Grundlinien automatisch erstellen]</p> </td> 
@@ -130,7 +133,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td role="rowheader"> <p>[!UICONTROL Schätzung bei Abschluss ]</p> </td> 
    <td> <p>Bestimmen, welche Daten [!DNL Workfront] verwendet , um die [!UICONTROL Schätzung bei Abschluss] (EAC) zu berechnen, die die voraussichtlichen Gesamtkosten eines Projekts darstellt.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Auf Projektebene berechnen]</strong>:EAC für die übergeordnete Aufgabe und das Projekt werden durch Eingabe von [!UICONTROL Actual Hours] oder [!UICONTROL Actual Labour Cost] in die EAC-Formeln bestimmt. Diese Berechnung umfasst [!UICONTROL Tatsächliche Stunden] oder [!UICONTROL Kosten und Ausgaben], die direkt zur übergeordneten Aufgabe oder Projekt hinzugefügt werden.</li> 
+     <li><strong>[!UICONTROL Auf Projektebene berechnen]</strong>: Die EAC für die übergeordnete Aufgabe und das Projekt werden durch Eingabe von [!UICONTROL Tatsächliche Stunden] oder [!UICONTROL Tatsächliche Arbeitskosten] in die EAC-Formeln bestimmt. Diese Berechnung umfasst [!UICONTROL Tatsächliche Stunden] oder [!UICONTROL Kosten und Ausgaben], die direkt zur übergeordneten Aufgabe oder Projekt hinzugefügt werden.</li> 
      <li> <p><strong>[!UICONTROL Datenaggregation aus Aufgaben/Unteraufgaben]</strong>: Die EAC für die übergeordnete Aufgabe und das Projekt werden durch Addieren der EAC für jede untergeordnete Aufgabe bestimmt. Bei dieser Berechnung werden [!UICONTROL Tatsächliche Stunden] oder [!UICONTROL Tatsächliche Kosten und Ausgaben] ausgeschlossen, die direkt zur übergeordneten Aufgabe oder Projekt hinzugefügt werden.</p> <p>Der Projektmanager kann diese Einstellung auf Projektebene ändern, indem er den Bereich [!UICONTROL Finance] in [!UICONTROL Projektdetails] verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im [!UICONTROL Finance]-Bereich des Projekts</a>.</p> </li> 
     </ul> <p>Weitere Informationen zur Berechnung der EAC finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Schätzung bei Abschluss] (EAC) berechnen</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>Bestimmen Sie, ob durch die Zeitabstände des Primären Verantwortlichen einer Aufgabe die für diese Aufgabe geplanten Zeitpunkte für ein Projekt angepasst werden.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Anwenderzeit in der Aufgabendauer berücksichtigen]</strong>: Jede für den Primären Verantwortlichen einer Aufgabe geplante Zeitüberschreitung passt die geplanten Zeitpunkte der Aufgabe an, wenn die Zeitüberschreitung während der Aufgabendauer eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit einer Beschränkung von [!UICONTROL So bald wie möglich] am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für die Zeitüberschreitung markiert hat, werden die geplanten Termine der Aufgabe auf den 1. bis 4. Juni angepasst.</p> <p><b>WICHTIG</b>: Die Dauer der Aufgabe ändert sich bei Auswahl dieser Einstellung nicht. Je nach Aufgabenbegrenzung ändern sich nur die geplanten Datumswerte.</p> </li> 
+     <li> <p><strong>[!UICONTROL Anwenderzeit in der Aufgabendauer berücksichtigen]</strong>: Jede für den Primären Verantwortlichen einer Aufgabe geplante Zeitüberschreitung passt die geplanten Zeitpunkte der Aufgabe an, wenn die Zeitüberschreitung während der Aufgabendauer eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit einer Beschränkung von [!UICONTROL So bald wie möglich] am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für die Zeitüberschreitung markiert hat, werden die geplanten Termine der Aufgabe auf den 1. bis 4. Juni angepasst.</p> <p><b>WICHTIG</b>:</p> <p>Die Dauer der Aufgabe ändert sich bei Auswahl dieser Einstellung nicht. Je nach Aufgabenbegrenzung ändern sich nur die geplanten Datumswerte.</p> </li> 
      <li><strong>[!UICONTROL Ignore user time off in task duration]</strong>: Die geplanten Termine für jede Aufgabe eines Projekts bleiben wie ursprünglich geplant, auch wenn der Primäre Verantwortliche einer Aufgabe während ihrer Dauer über eine gewisse Zeitspanne verfügt.</li> 
     </ul> <p>Beachten Sie bei der Auswahl der Optionen für diese Einstellung Folgendes:</p> 
     <ul> 
@@ -185,14 +188,14 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
         <li>Nur Änderung</li>
         <li>Nur automatisch</li> 
       </ul>       
-    <b>TIPP</b>
+    <b>TIPP:</b>
     <p>Projekte mit dem Aktualisierungstyp "Nur Manuell"sind von dieser Einstellung nicht betroffen.</p>
     <li> <p><strong>Wenn sich der Umfang eines Projekts ändert</strong>: Wählen Sie diese Option aus, um die Projektzeitpläne sofort bei einer Änderung des Projektumfangs neu zu berechnen. Weitere Informationen zu einer Änderung des Projektumfangs finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projektzeitpläne neu berechnen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Wenn mehrere Benutzer einer Aufgabe zugewiesen sind, verwenden Sie den Zeitplan des]</p> </td> 
-   <td> <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern kein Zeitplan zugewiesen wurde, [!DNL Workfront] verwendet den standardmäßigen Systemplan zur Berechnung der Zeitleiste der Aufgaben.</p> <p>Wenn Sie derselben Aufgabe in einem Projekt mehrere Benutzer zuweisen, denen ein Zeitplan zugewiesen ist - und den den Aufgaben zugewiesenen Benutzern auch ein Zeitplan zugewiesen ist - verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
+   <td> <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern kein Zeitplan zugewiesen wurde, [!DNL Workfront] verwendet den standardmäßigen Systemplan zur Berechnung der Zeitleiste der Aufgaben.</p> <p>Wenn Sie mehrere Benutzer derselben Aufgabe in einem Projekt zuweisen und dem Projekt ein Zeitplan zugewiesen ist und den den Aufgaben zugewiesenen Benutzern auch ein Zeitplan zugewiesen ist, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
     <ul> 
      <li><strong>[!UICONTROL Primäre Zuweisung]</strong>: [!DNL Workfront] verwendet den Zeitplan der Primären Zuweisung für die Aufgabe zur Berechnung der Zeitpläne.</li> 
      <li><strong>[!UICONTROL Projekt]</strong>: [!DNL Workfront] verwendet den Zeitplan des Projekts zur Berechnung der Zeitleiste jeder Aufgabe.</li> 
@@ -205,12 +208,12 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
      <li><strong>[!UICONTROL Typische Stunden pro Arbeitstag]</strong>: Legt die Anzahl der Stunden an einem typischen Arbeitstag für die Benutzer fest, die an Projekten arbeiten. Der Standardwert ist 8 Stunden.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Typische Arbeitstage pro Woche]</strong>: Legen Sie die standardmäßige Arbeitswoche für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 5 Tage.</li> 
-    </ul> <p>Diese beiden Optionen konvertieren Tage in Stunden oder Wochen in Tage.</p> <p>Wenn Sie beispielsweise eine Aufgabe mit 8 geplanten Stunden haben und die Dauer auf der Grundlage geplanter Stunden berechnet wird, [!DNL Workfront] konvertiert diese Stunden in Tage, um die Dauer als Tage anzuzeigen.</p> <p>Im Feld Typische [!UICONTROL Arbeitstage pro Woche] [!DNL Workfront] berechnet den Vollzeitäquivalenzwert (FTE) für Ihr System. Genau das ist es [!DNL Workfront] verwendet bei der Berechnung von Zuordnungen für Benutzer.</p> <p>Diese Werte werden verwendet, wenn Sie Zeitpläne für Projekte planen, Ressourcen in den Budgets einplanen oder die Zeit für die Projektabwicklung einplanen. </p> <p>Sie werden nicht verwendet, wenn Sie Timesheets für Benutzer im System erstellen, wie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Voreinstellungen für Zeitblätter und Stunden konfigurieren</a>.</p> <p><b>NOTE</b>: [!DNL Workfront] -Administratoren können die Voreinstellungen für [!UICONTROL Timeline-Berechnungen] nicht entsperren.</p> </td> 
+     <li><strong>[!UICONTROL Typische Arbeitstage pro Woche]</strong>: Legen Sie die standardmäßige Arbeitswoche für die Benutzer fest, die an Projekten arbeiten. Der Standardwert ist 5 Tage.</li> 
+    </ul> <p>Diese beiden Optionen konvertieren Tage in Stunden oder Wochen in Tage.</p> <p>Wenn Sie beispielsweise eine Aufgabe mit 8 geplanten Stunden haben und die Dauer auf der Grundlage geplanter Stunden berechnet wird, [!DNL Workfront] konvertiert diese Stunden in Tage, um die Dauer als Tage anzuzeigen.</p> <p>Im Feld Typische [!UICONTROL Arbeitstage pro Woche] [!DNL Workfront] berechnet den Vollzeitäquivalenzwert (FTE) für Ihr System. Genau das ist es [!DNL Workfront] verwendet bei der Berechnung von Zuordnungen für Benutzer.</p> <p>Diese Werte werden verwendet, wenn Sie Zeitpläne für Projekte planen, Ressourcen in den Budgets einplanen oder die Zeit für die Projektabwicklung einplanen. </p> <p>Sie werden nicht verwendet, wenn Sie Timesheets für Benutzer im System erstellen, wie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Voreinstellungen für Zeitblätter und Stunden konfigurieren</a>.</p> <p><b>NOTE</b>:</p> <p>[!DNL Workfront] -Administratoren können die Voreinstellungen für [!UICONTROL Timeline-Berechnungen] nicht entsperren.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Benutzerdefinierte Quartal]</p> </td> 
-   <td> <p>Konfigurieren Sie benutzerdefinierte Jahresquartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht mit der herkömmlichen Verteilung der Quartale in einem Kalenderjahr übereinstimmen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale für Projekte aktivieren</a>.</p>  <p><b>NOTE</b>: [!DNL Workfront] -Administratoren können die Voreinstellungen von [!UICONTROL Benutzerdefinierte Quartal] nicht entsperren.</p> </td> 
+   <td> <p>Konfigurieren Sie benutzerdefinierte Jahresquartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht mit der herkömmlichen Verteilung der Quartale in einem Kalenderjahr übereinstimmen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale für Projekte aktivieren</a>.</p>  <p><b>NOTE</b>: </p><p>[!DNL Workfront] -Administratoren können die Voreinstellungen von [!UICONTROL Benutzerdefinierte Quartal] nicht entsperren.</p> </td> 
   </tr> 
  </tbody> 
 </table>

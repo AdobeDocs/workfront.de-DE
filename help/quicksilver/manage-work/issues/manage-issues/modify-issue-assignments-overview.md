@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-issues
-title: Übersicht über Problemzuweisungen ändern
+title: Übersicht über die Änderung von Problemzuweisungen
 description: Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benutzern, Teams oder Auftragsrollen aufheben. Sie können mehrere Ressourcen gleichzeitig oder nur eine Ressource zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-# Übersicht über Problemzuweisungen ändern
+# Übersicht über die Änderung von Problemzuweisungen
 
 Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benutzern, Teams oder Auftragsrollen aufheben. Sie können mehrere Ressourcen gleichzeitig oder nur eine Ressource zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
 
@@ -26,7 +26,6 @@ Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benu
 >
 >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
 >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
-
 
 Dieser Artikel enthält allgemeine Informationen über die Auswirkungen der Änderung von Problemzuweisungen. Informationen zum Zuweisen von Problemen finden Sie in den folgenden Artikeln:
 

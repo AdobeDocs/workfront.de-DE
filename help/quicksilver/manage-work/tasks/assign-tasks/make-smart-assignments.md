@@ -6,14 +6,20 @@ description: Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der b
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Smart-Zuweisungen vornehmen
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
 
 Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge für Benutzer, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Informationen zu Smart-Zuweisungen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -27,11 +33,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neu: Standard</p>
+      Oder
+      <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -52,16 +60,24 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisungen in Workfront vornehmen können.
 
-1. Klicken Sie in den folgenden Bereichen auf die Schaltfläche **Zuweisungen** oder **Weisen Sie dies zu** -Feld:   
+1. Klicken Sie in den folgenden Bereichen auf die Schaltfläche **Zuweisungen** oder **Zuweisen** -Feld:   
 
    * Aufgabe oder Problemliste oder Bericht
    * Aufgaben- oder Problemkopfzeile
-   * Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
+   * Das Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
    * Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist
    * Aufgabe oder Problem in den Bereichen Planung oder Planung
    * Eine Aufgabe oder ein Problem im Arbeitslastausgleich
 
-1. Platzieren Sie den Cursor in das Zuweisungsfeld und warten Sie zwei Sekunden. Die ******Vorgeschlagene Zuweisungen** Liste angezeigt.
+1. Platzieren Sie den Cursor in das Zuweisungsfeld und warten Sie zwei Sekunden. Die **Vorgeschlagene Zuweisungen** oder **Im Folgenden finden Sie einige Empfehlungen** Liste angezeigt.
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -76,6 +92,6 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
    >Wenn keine Vorschläge vorhanden sind, wird die Vorschlagsliste nicht geöffnet.
 
 1. (Optional) Wenn Sie keinen der empfohlenen Benutzer aus der Liste der intelligenten Zuweisungen verwenden möchten, geben Sie den Namen des gewünschten Benutzers ein und wählen Sie den Namen aus, wenn er in der Liste angezeigt wird.
-1. Klicken **Eingabe** , um die Zuweisung vorzunehmen.
+1. Klicks **Eingabe** , um die Zuweisung vorzunehmen.
 
    Der ausgewählte Benutzer wird der Aufgabe oder dem Problem zugewiesen.

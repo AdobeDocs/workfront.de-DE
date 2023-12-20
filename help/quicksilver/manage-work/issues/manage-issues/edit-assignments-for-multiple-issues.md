@@ -6,10 +6,10 @@ description: Ändern von Benutzerzuweisungen für mehrere Probleme in einer List
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können Benutzerzuweisungen gleichzeitig für mehrere Probleme ändern. Wei
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über Problemzuweisungen ändern](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über die Änderung von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -83,12 +83,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Das Dialogfeld Neuer Filter wird angezeigt.
 
-   1. Klicken **Fügen Sie eine Filterregel hinzu.**
+   1. Klicks **Fügen Sie eine Filterregel hinzu.**
    1. Um nach einer bestimmten Rolle zu filtern, erweitern Sie **Zuweisungsrollen,** Klicken Sie dann auf **Kennung.**
 
       Oder
 
-      Um nach einem bestimmten Benutzer zu filtern, erweitern Sie **Zuweisung von Benutzern,** Klicken Sie dann auf **Kennung.**
+      Erweitern Sie zum Filtern nach einem bestimmten Benutzer **Zuweisung von Benutzern,** Klicken Sie dann auf **Kennung.**
 
       >[!TIP]
       >
@@ -96,7 +96,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    1. Wählen Sie in der Dropdown-Liste **Gleich** als Filterqualifikator.
    1. Beginnen Sie mit der Eingabe des Namens des Benutzers oder der Rolle, nach dem/der Sie filtern möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Dropdown-Liste angezeigt wird.
-   1. Klicken **Filter speichern.**
+   1. Klicks **Filter speichern.**
 
 1. Wählen Sie die Probleme aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf die Schaltfläche **Bearbeiten** icon ![](assets/qs-edit-icon.png).
 
@@ -113,13 +113,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen zu den ausgewählten Problemen.
 
          >[!TIP]
+         >
          Sie können mehrere Benutzer, Auftragsrollen oder Teams zuweisen. Sie können nur aktive Benutzer, Stellenrollen und Teams zuweisen.
+         >
          Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+         >
          * Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
          * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
 
-
          Informationen, die in allen ausgewählten Problemen gängig sind, werden angezeigt. Wenn beispielsweise derselbe Benutzer allen Problemen zugewiesen ist, wird dieser Benutzer im **Bevollmächtigter** Spalte. Wenn Informationen nicht in allen ausgewählten Problemen gängig sind, werden keine Informationen angezeigt.
+
    1. So entfernen Sie einzelne Bevollmächtigte:
 
       1. Klicken Sie auf **X-Symbol** neben dem Namen des Bevollmächtigten, den Sie entfernen möchten, wenn der Bevollmächtigte in der Liste &quot;Zuweisungen&quot;angezeigt wird.
@@ -128,18 +131,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
          (Bedingt) Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur bestimmten von Ihnen ausgewählten Problemen zugewiesen ist, klicken Sie auf **Zuweisung entfernen** Geben Sie den Namen des Empfängers ein, den Sie entfernen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-      1. Klicken **Zuweisung entfernen** erneut, um einen weiteren zu entfernenden Bevollmächtigten hinzuzufügen.
+      1. Klicks **Zuweisung entfernen** erneut, um einen weiteren zu entfernenden Bevollmächtigten hinzuzufügen.
+
    1. So entfernen Sie alle vorhandenen Bevollmächtigten:
 
-      1. Klicken **Alle vorhandenen Zuweisung entfernen** Klicken Sie auf **Ja, alle Zuweisung löschen**.
+      1. Klicks **Alle vorhandenen Zuweisung entfernen** Klicken Sie auf **Ja, alle Zuweisung löschen**.
 
          Dadurch werden nicht nur häufig verwendete Bevollmächtigte (Bevollmächtigte, die im Dialogfeld &quot;Bearbeiten&quot;angezeigt werden), sondern auch alle Bevollmächtigten für alle ausgewählten Probleme entfernt.
-
-
 
 1. (Optional) Ändern Sie eine der folgenden Optionen für die von Ihnen ausgewählten Bevollmächtigten, die mit den Problemen verknüpft werden sollen:
 
    * **Eigentümer des Problems:** Wählen Sie das Optionsfeld aus, um anzugeben, welcher Verantwortliche als Eigentümer der Probleme benannt ist. Wenn diese Option nicht ausgewählt ist, bestimmt Adobe Workfront den ersten Verantwortlichen als Eigentümer des Problems. Dies ist nicht für Teamzuweisungen verfügbar.
    * **Rolle des Bevollmächtigten**: Wählen Sie eine Rolle aus der Dropdownliste aus. Wenn die Option nicht ausgewählt ist, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

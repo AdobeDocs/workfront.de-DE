@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Als Workfront-Administrator oder Gruppenadministrator können Sie Layoutvorlagen erstellen und ändern, um die folgenden Layoutelemente in Workfront für Ihre Benutzer anzupassen:
+Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layoutvorlagen erstellen und ändern, um die folgenden Layoutelemente in Workfront für Ihre Benutzer anzupassen:
 
 * Hauptmenü
 * Linke Navigationsleiste
 * Startbereich
-* Ansichten, Filter und Gruppierungen, die von Benutzern mit Listen und Berichten verwendet werden.
+* Ansichten, Filter und Gruppierungen, die für Listen und Berichte verwendet werden.
 * Terminologie auf dem Bildschirm
+* Projekt-, Aufgaben- und Problemkopfzeilen
 
 Nachdem Sie eine Layoutvorlage erstellt oder geändert haben, können Sie sie einzelnen Benutzern, Teams, Gruppen oder Auftragsrollen zuweisen.
 
@@ -44,24 +45,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.</p>
+<p>Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>:</p> <p>Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.
+
+Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
 ## Konzepte zum Erstellen und Verwalten von Layoutvorlagen
 
-* Benutzer können einige Bereiche ihres eigenen Layouts anpassen. Wenn Sie eine Layoutvorlage ändern, werden Ihre Änderungen mit allen Anpassungen zusammengeführt, die sie vorgenommen haben, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage zuweisen.
-* Ihre älteren, in Adobe Workfront Classic erstellten Layoutvorlagen sind seit der Migration Anfang Herbst 2019 automatisch in Ihrer Instanz des neuen Adobe Workfront-Erlebnisses verfügbar. Layout-Vorlagen, die nach dieser Zeit in Adobe Workfront Classic erstellt wurden, wurden im April 2020 migriert. Es wird empfohlen, diese Layoutvorlagen im neuen Adobe Workfront-Erlebnis zu aktualisieren, um neue Funktionen zu nutzen und sie in dieser Umgebung noch nützlicher zu gestalten.
+* Benutzer können einige Bereiche ihres eigenen Layouts anpassen. Wenn Sie eine Layoutvorlage ändern, werden Ihre Änderungen mit allen von ihnen vorgenommenen Anpassungen zusammengeführt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage zuweisen.
+* Ihre älteren, in Adobe Workfront Classic erstellten Layoutvorlagen sind seit der Migration Anfang Herbst 2019 automatisch in Ihrer Instanz des neuen Adobe Workfront-Erlebnisses verfügbar. Layout-Vorlagen, die nach dieser Zeit in Adobe Workfront Classic erstellt wurden, wurden im April 2020 migriert. Wir empfehlen, diese Layoutvorlagen im neuen Adobe Workfront-Erlebnis zu aktualisieren, um neue Funktionen zu nutzen und sie in dieser Umgebung noch nützlicher zu machen.
 * Gruppenadministratoren und Benutzer mit einer Planungslizenz, die andere Benutzer bearbeiten können, können den Benutzern, die sie bei der Bearbeitung ihres Profils verwalten können, Layoutvorlagen auf System- und Gruppenebene hinzufügen.
 * Gruppenadministratoren können Auftrags- oder Teams keine Layoutvorlagen zuweisen.
 
@@ -69,11 +74,11 @@ Weitere Informationen zu Layoutvorlagen finden Sie unter [Layout-Vorlagen](../..
 
 ## Layout-Vorlage erstellen oder ändern
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Schnittstelle** > **Layout-Vorlagen**.
 
-1. Klicken **Neue Layout-Vorlage**.
+1. Klicks **Neue Layout-Vorlage**.
 
    Oder
 
@@ -98,4 +103,7 @@ Weitere Informationen zu Layoutvorlagen finden Sie unter [Layout-Vorlagen](../..
    * [Administratorzugriff für eine Layoutvorlage gewähren](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Benutzer einer Layoutvorlage zuweisen](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-Sie können auch eine neue Layoutvorlage erstellen, indem Sie sie kopieren und die Kopie ändern. Weitere Informationen finden Sie unter [Layout-Vorlage kopieren](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>Sie können auch eine Layoutvorlage erstellen, indem Sie sie kopieren und die Kopie ändern. Weitere Informationen finden Sie unter [Layout-Vorlage kopieren](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

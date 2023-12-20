@@ -6,9 +6,9 @@ description: Portfolio- oder Projektmanagement (Project Portfolio Management, PP
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Weitere Informationen zum Erstellen eines Geschäftsfalls und einer Projektanfor
 
 ### Projektprüfung {#project-review}
 
-Nachdem Sie die Projektanforderung eingereicht haben, prüft der Portfolio-Manager oder ein Executive-Team die Anfrage und entscheidet, ob sie genehmigt werden soll. Wenn sie genehmigt wurden, werden sie für ein Projekt-Portfolio des Unternehmens ausgewählt.
+Nachdem Sie die Projektanforderung eingereicht haben, prüft der Portfolio-Manager oder ein Executive-Team die Anfrage und entscheidet, ob das Projekt genehmigt werden soll. Wenn der Projektverantwortliche das Projekt genehmigt, wird das Projekt für ein Projekt-Portfolio des Unternehmens ausgewählt.
 
 Weitere Informationen zu Portfolios finden Sie unter [Übersicht über Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Weitere Informationen zur Genehmigung eines Geschäftsfalls finden Sie unter [Geschäftsfall genehmigen](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,7 +67,7 @@ Weitere Informationen zur Portfoliooptimierung finden Sie unter [Projektoptimier
 
 ### Ressourcenplanung {#resource-planning}
 
-Neben der Optimierung der Portfolioleistung und der Priorisierung des Projekts stellt der Ressourcen-Manager sicher, dass den Projekten angemessene Ressourcen zugewiesen werden. Sie bewerten die Verfügbarkeit und Zuordnung der Ressourcen mithilfe der in verfügbaren Ressourcen-Management-Tools [!DNL Workfront].
+Neben der Optimierung der Portfolioleistung und der Priorisierung der Projekte stellt der Ressourcen-Manager sicher, dass den Projekten angemessene Ressourcen zugewiesen werden. Sie bewerten die Verfügbarkeit und Zuordnung der Ressourcen mithilfe der in verfügbaren Ressourcen-Management-Tools [!DNL Workfront].
 
 Je nach Verfügbarkeit der Ressourcen muss der Portfolio Manager die Projekte möglicherweise neu priorisieren.
 

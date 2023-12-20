@@ -3,20 +3,26 @@ content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Übersicht über Smart-Zuweisungen
-description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
+description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie Smart-Zuweisungen verwenden, um zu ermitteln, wer die Arbeit am besten abschließen kann. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7e220e496aff2675910416bd86e3ddf7b9231afa
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Smart-Zuweisungen
 
-Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
+Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie Smart-Zuweisungen verwenden, um zu ermitteln, wer die Arbeit am besten abschließen kann. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
 
 >[!NOTE]
 >
@@ -30,28 +36,32 @@ Beachten Sie beim Arbeiten mit Smart-Zuweisungen Folgendes:
 
 * Der Algorithmus funktioniert unabhängig für Aufgaben und Probleme. Das bedeutet, dass die Liste der vorgeschlagenen Benutzer für Probleme möglicherweise von der Liste der vorgeschlagenen Benutzer für eine Aufgabe abweicht, da Workfront die Listen nach Kriterien erstellt, die sich auf Probleme und Aufgaben beziehen.
 * Bei intelligenten Zuweisungen werden keine Auftrags- oder Teams empfohlen. Stattdessen handelt es sich um Vorschläge von Benutzern, die am besten geeignet sind, eine Aufgabe oder ein Problem abzuschließen.
-* Die vorgeschlagenen Zuweisungen sind immer aktive Benutzer.
+* Bei den vorgeschlagenen Zuweisungen handelt es sich immer um aktive Benutzer.
 * Der zuerst aufgeführte Benutzer sollte die beste Übereinstimmung für die Aufgabe sein.
 
 ## Suchen nach Vorschlägen für intelligente Zuweisungen
 
 Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgaben oder Probleme zuweisen können:
 
-* Aufgabe oder Problemliste oder Bericht
+* Aufgabe oder Problemliste oder Bericht <!--edit this to say just issue list or report and update screen shot - add new one-->
 
-   ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+
+<!--
+* <span class="preview">A task list or report (******insert shot here*****)</span>
+-->
 
 * Aufgaben- oder Problemkopfzeile
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
+* Das Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
 
-   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
 * Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist
 
-   ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
 
 <!--removed for scheduling deprecation: 
@@ -65,29 +75,73 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
   >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 -->
-* Workload-Balancer
+* Workload Balancer
 
-   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterien für intelligente Zuweisungen
 
-Intelligente Zuweisungen zeigen die 50 wichtigsten Empfehlungen basierend auf einem proprietären Algorithmus an.
+<!--
+<div class="preview">
+
+Smart assignments work differently for tasks than for issues.  
+
+### Smart assignments criteria for tasks
+
+Task smart assignments work in two phases:  
+
+#### First phase of smart assignment calculation criteria for tasks 
+
+Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+
+* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
+For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+
+* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+
+#### Second phase of smart assignment calculation criteria for tasks
+
+If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+
+### Smart assignments criteria for tasks and issues 
+
+</div> 
+
+>[!NOTE]
+>
+><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
+
+-->
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 
-* Benutzer, die der Benutzer, der die Zuweisung vornimmt, in den letzten 30 Tagen anderen Arbeitselementen zugewiesen hat. Die ersten 50 Benutzer, die diesen Kriterien entsprechen, werden angezeigt. Der am häufigsten zugewiesene Benutzer wird zuerst angezeigt.
+1. Benutzer, die der Benutzer, der die Zuweisung vornimmt, in den letzten 30 Tagen anderen Arbeitselementen zugewiesen hat. Die ersten 50 Benutzer, die diesen Kriterien entsprechen, werden angezeigt. Der am häufigsten zugewiesene Benutzer wird zuerst angezeigt.
 
-   Wenn das Arbeitselement einem Team oder einer Rolle zugewiesen wird, wird die Liste der vorgeschlagenen Benutzer unter Berücksichtigung der folgenden vorhandenen Zuweisungen weiter gefiltert. In diesem Fall werden nur die folgenden Benutzer in der Liste der Vorschläge angezeigt:
+2. Wenn das Arbeitselement einem Team oder einer Rolle zugewiesen wird, wird die Liste der vorgeschlagenen Benutzer unter Berücksichtigung der folgenden vorhandenen Zuweisungen weiter gefiltert. In diesem Fall werden nur die folgenden Benutzer in der Liste der Vorschläge angezeigt:
 
    * Benutzer, deren Startseite das dem Arbeitselement zugewiesene Team ist.
    * Benutzer, deren Primäre Rolle die dem Arbeitselement zugewiesene Rolle ist.
 
-      >[!TIP]
-      >
-      >* Wenn <!--you're not part of any team and --> Wenn für die Aufgabe oder das Problem keine Rolle oder kein Team zugewiesen ist, zeigt Workfront alle Benutzer an, die in den letzten 30 Tagen bis zu 50 Benutzer zugewiesen wurden.
-      >* Wenn Sie in den letzten 30 Tagen keine Zuweisungen vorgenommen haben, werden in der Liste der Smart-Zuweisungen nur Benutzer angezeigt, die dem zugewiesenen Team angehören oder denen die Rolle zugewiesen ist.
-
+>[!TIP]
+>
+>* Wenn für die Aufgabe oder das Problem keine Rolle oder kein Team zugewiesen ist, zeigt Workfront alle Benutzer an, die in den letzten 30 Tagen bis zu 50 Benutzern zugewiesen wurden.
+>
+>* Wenn Sie in den letzten 30 Tagen keine Zuweisungen vorgenommen haben, werden in der Liste der Smart-Zuweisungen nur Benutzer angezeigt, die dem zugewiesenen Team angehören oder denen die Rolle zugewiesen ist.
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
