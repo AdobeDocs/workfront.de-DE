@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Ansicht im Textmodus
-description: '"HINWEIS: fügen Sie in diesem Artikel einen Abschnitt hinzu: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Entwerfen Sie diesen Bereich auch im Artikel Textmodus-Übersicht )'''
+description: "HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Entwerfen Sie diesen Bereich auch im Artikel Textmodus-Übersicht ."
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 1%
+source-wordcount: '1639'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -54,11 +54,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Bevor Sie mit der Verwendung des Textmodus in einem Bericht oder einer Liste beginnen, sollten Sie stets sicherstellen, dass Sie mit der Syntax des Workfront-Textmodus vertraut sind.
 
-Weitere Informationen finden Sie unter:
+Weitere Informationen finden Sie unter
 
 * [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Textmodus in einer Ansicht bearbeiten
 
@@ -89,7 +89,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
    >
    >Um eine Ansicht im Textmodus zu bearbeiten, müssen Sie jeweils eine Spalte bearbeiten.
 
-1. Klicken **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
+1. Klicks **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
 
    >[!NOTE]
    >
@@ -120,7 +120,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
         <li value="1"> <p> Wenn der Name des angezeigten Felds eine Wortgruppe und nicht ein einzelnes Substantiv ist, müssen Sie für die <code>valuefield</code>. Für das geplante Startdatum einer Aufgabe lautet der Code beispielsweise: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Wenn Sie ein benutzerdefiniertes Feld anzeigen möchten, wird die <code>valuefield</code> -Wert ist der tatsächliche Name des Felds, wie er in der Benutzeroberfläche angezeigt wird. Für ein benutzerdefiniertes Feld mit dem Namen "Weitere Informationen"lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valuefield=More information</code> </p> </li> 
         <li value="3"> <p>Wenn Sie Objekte anzeigen möchten, die mit anderen Objekten in einer Ansicht verbunden sind, verwenden Sie die <code>valuefield</code> Codezeile: Die Objektnamen und -attribute werden durch Doppelpunkte getrennt. </p> <p>Beispielsweise hat eine Spalte in einer Aufgabenansicht, die den Namen des Eigentümers des Portfolios anzeigen würde, den folgenden Wert für die Wertefeldzeile:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>Dies bedeutet, dass Sie vom Objekt des Berichts (Aufgabe) aus auf das nächste verwandte Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende verwandte Objekt aus Projekt (Portfolio) zugreifen, dann auf den Portfolioinhaber (Eigentümer) und dann auf dessen Namen (Name). </p> </li> 
-       </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Abhängigkeit und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardschnittstelle nicht gültig ist, können Sie nicht zur Standardschnittstelle in der Spalte zurückkehren.</p> </td> 
+       </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Abhängigkeit und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardoberfläche nicht gültig ist, können Sie nicht zur Standardschnittstelle in der Spalte zurückkehren.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueFormat=</strong> </td> 
@@ -128,11 +128,11 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
      </tr> 
      <tr> 
       <td> <p><strong>valueExpression=</strong> </p> </td> 
-      <td> <p>Sie können diese Zeile hinzufügen, um <code>valuefield</code>, wenn Sie ein berechnetes Feld in der Spalte anzeigen möchten.</p> <p>Sie müssen die <code>valuefield</code> der Objekte in geschweiften Klammern jedes Mal, wenn Sie sie in einer <code>valueexpression</code>.</p> <p>Die folgenden Szenarien existieren: </p> 
+      <td> <p>Sie können diese Zeile zum Ersetzen hinzufügen <code>valuefield</code>, wenn Sie ein berechnetes Feld in der Spalte anzeigen möchten.</p> <p>Sie müssen die <code>valuefield</code> der Objekte in geschweiften Klammern jedes Mal, wenn Sie sie in einer <code>valueexpression</code>.</p> <p>Die folgenden Szenarien existieren: </p> 
        <ol> 
         <li value="1"> <p>Wenn Sie ein Feld in einer Spalte in Großbuchstaben anzeigen möchten, können Sie Folgendes verwenden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>Die <code>valuefield</code> des Objekts wird so geschrieben, wie es im API Explorer angezeigt wird. </p> </li> 
         <li value="2">Wenn Sie mehrere <code>valuefields</code> indem Sie sie zusammenreißen, müssen Sie sie durch einen Punkt trennen.</li> 
-        <li value="3"> <p>Wenn Sie beispielsweise den Namen des Primären Verantwortlichen einer Aufgabe anzeigen möchten, indem Sie <code>valueexpression</code>verwenden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="3"> <p>Wenn Sie beispielsweise den Namen des Primären Verantwortlichen einer Aufgabe anzeigen möchten, verwenden Sie <code>valueexpression</code>verwenden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
         <li value="4"> <p>Wenn Sie ein benutzerdefiniertes Feld in einem <code>valueexpression</code> Zeile, der Sie dem Feldnamen voranstellen müssen durch <code>DE:</code> um anzugeben, dass es sich um ein benutzerdefiniertes Feld handelt. Der Name des Felds wird so geschrieben, wie er in der Benutzeroberfläche angezeigt wird. </p> <p>Wichtig: Wenn Sie ein benutzerdefiniertes Feld verwenden, das in einem benutzerdefinierten Formularabschnitt platziert wird, der eingeschränkte Berechtigungen für einige Benutzer hat, ist die Berechnung des Werteausdrucks leer, wenn diese Benutzer diese Berechnung in einem Bericht anzeigen. Informationen zum Anpassen von Berechtigungen für benutzerdefinierte Formularabschnitte finden Sie unter <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a></span>.</p> <p>Wenn Sie beispielsweise ein benutzerdefiniertes Feld mit der Bezeichnung "Entwicklername"haben und dieses Feld in Großbuchstaben in einer Spalte anzeigen möchten, können Sie Folgendes verwenden: <code>valueexpression</code> um dies anzugeben:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds vom Typ "TypeAhead"den folgenden Ausdruck, um auf den Namen des Objekts zu verweisen, das in einem Feld mit der Bezeichnung "Entwicklername"ausgewählt wurde:</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
@@ -142,7 +142,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
      </tr> 
      <tr> 
       <td><strong>nameKey= / name=</strong> </td> 
-      <td> <p>Diese Zeile definiert den Spaltentitel. In diesem Fall wird der abgekürzte Wert basierend auf dem Schlüssel verwendet.</p> <p>Wenn Sie den Spaltennamen ändern möchten, können Sie diesen Wert wie folgt ändern: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> ermöglicht die Eingabe von Text für den Spaltennamen, während<code>namekey</code> erfordert die Eingabe eines Schlüssels, der zur Übersetzung des Spaltennamens verwendet wird.</p> <p>Um den Spaltennamen zu ändern, können Sie auch die <code>displayname </code>, wenn keine vorhanden ist.</p> </td> 
+      <td> <p>Diese Zeile definiert den Spaltentitel. In diesem Fall wird der abgekürzte Wert basierend auf dem Schlüssel verwendet.</p> <p>Wenn Sie den Spaltennamen ändern möchten, können Sie diesen Wert wie folgt ändern: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> ermöglicht die Eingabe eines Textes für den Spaltennamen, während<code>namekey</code> erfordert die Eingabe eines Schlüssels, der zur Übersetzung des Spaltennamens verwendet wird.</p> <p>Um den Spaltennamen zu ändern, können Sie auch die <code>displayname </code>, wenn keine vorhanden ist.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayName =</strong> </td> 
@@ -162,7 +162,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
      </tr> 
      <tr> 
       <td><strong>makeFieldEditable=</strong> </td> 
-      <td> <p>Diese Zeile definiert, ob der in einer Spalte angezeigte Wert inline editierbar ist oder nicht. Wenn diese Zeile gleich <strong>true</strong>, ist der Wert in der Spalte inline editierbar. Wenn diese Zeile gleich <code>false</code>festgelegt ist, kann der Wert in der Spalte nicht inline bearbeitet werden.</p> </td> 
+      <td> <p>Diese Zeile definiert, ob der in einer Spalte angezeigte Wert inline editierbar ist. Wenn diese Zeile gleich <strong>true</strong>festgelegt ist, kann der Wert in der Spalte inline bearbeitet werden. Wenn diese Zeile gleich <code>false</code>festgelegt ist, kann der Wert in der Spalte nicht inline bearbeitet werden.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>link.valueField=</strong> </td> 
@@ -174,7 +174,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
      </tr> 
      <tr> 
       <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>Dies bezieht sich darauf, wie die Werte der einzelnen Spalten zusammengefasst werden. Es gibt mehrere Zeilen, die mit beginnen <code>aggregator.</code> und alle beziehen sich auf den Aggregator, der die Ergebnisse der Spalte zusammenfasst. </p> <p>Im Allgemeinen wird die <code>aggregator.</code> -Zeilen entsprechen denen des Spaltenobjekts. </p> 
+      <td> <p>Dies bezieht sich darauf, wie die Werte der einzelnen Spalten zusammengefasst werden. Es gibt mehrere Zeilen, die mit beginnen <code>aggregator.</code> und alle beziehen sich auf den Aggregator, der die Ergebnisse der Spalte zusammenfasst. </p> <p>Im Allgemeinen wird die Variable <code>aggregator.</code> -Zeilen entsprechen denen des Spaltenobjekts. </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
         <span class="autonumber"><span><b>Beispiel: </b></span></span> 
         <p>Die Spalte Geplante Stunden in einem nach Summe zusammengefassten Aufgabenbericht kann wie folgt aussehen: </p> 
@@ -197,9 +197,9 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
     </tbody> 
    </table>
 
-1. Klicken **Anwenden** , wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Ansicht fortfahren möchten.
-1. Klicken **Speichern und schließen** , um Ihren Bericht zu speichern.
+1. Klicks **Anwenden** , wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Ansicht fortfahren möchten.
+1. Klicks **Speichern und schließen** , um Ihren Bericht zu speichern.
 
    Oder
 
-   Klicken **Ansicht speichern** , um die Ansicht in einer Liste zu speichern.
+   Klicks **Ansicht speichern** , um die Ansicht in einer Liste zu speichern.

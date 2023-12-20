@@ -6,10 +6,10 @@ description: Sie können die Einstellungen eines Berichts bearbeiten, um festzul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Anleitungsschritte
+## Schritte
 
 1. Erstellen Sie einen Bericht, indem Sie zu **Hauptmenü** > **Berichte** und wählen Sie dann das Objekt Ihres Berichts aus.
 
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Öffnen Sie einen vorhandenen Bericht und klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
 
-1. Klicken **Berichtseinstellungen** in der oberen rechten Ecke des ReportBuilder.
+1. Klicks **Berichtseinstellungen** in der oberen rechten Ecke des ReportBuilder.
 1. Konfigurieren Sie die folgenden Berichtseinstellungen:
 
    <table style="table-layout:auto"> 
@@ -70,19 +70,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td>Geben Sie eine Erklärung an, die den Zweck und die Verwendung des Berichts beschreibt.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Diesen Bericht ausführen mit Zugriffsrechten von</td> 
+      <td role="rowheader">Führen Sie diesen Bericht mit den Zugriffsrechten von aus.</td> 
       <td>Wählen Sie den Benutzer aus, dessen Zugriffsberechtigungen dieser Bericht bei der Anzeige für andere Benutzer verwenden soll. Weitere Informationen zum Ausführen eines Berichts mit den Zugriffsrechten eines anderen Benutzers finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beim Laden des Berichts Folgendes anzeigen</td> 
+      <td role="rowheader">Wenn der Bericht geladen wird, zeigen Sie die</td> 
       <td>Wählen Sie die Standardregisterkarte aus, die für alle Benutzer beim Laden des Berichts angezeigt wird.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Wenn der Bericht in ein Dashboard geladen wird, zeigen Sie ... Elemente an.</td> 
-      <td>Geben Sie die Anzahl der Elemente an, die für alle Benutzer angezeigt werden, wenn der Bericht in ein Dashboard geladen wird. Der Standardwert ist 15 Elemente und die maximale Anzahl von Elementen ist 200.</td> 
+      <td role="rowheader">Wenn der Bericht in ein Dashboard geladen wird, zeigen Sie ... Elemente an</td> 
+      <td>Geben Sie an, wie viele Elemente für alle Benutzer angezeigt werden, wenn der Bericht in ein Dashboard geladen wird. Der Standardwert ist 15 Elemente und die maximale Anzahl von Elementen ist 200.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anzeigen der Ansicht "Ressourcenraster"auf der Registerkarte "Details"</td> 
+      <td role="rowheader">Anzeigen des Ressourcenrasters auf der Registerkarte "Details"</td> 
       <td> <p>(Nur Benutzerbericht) Wählen Sie diese Option aus, um das Ressourcenraster auf der Registerkarte Details des Berichts anzuzeigen.</p> <p>Hinweis: Beim Anwenden der Ansicht "Ressourcenraster"auf einen Benutzerbericht zeigt der Bericht nur Projekte an, die sich im aktuellen Status befinden. Wenn Sie Projekte in einem anderen Status anzeigen möchten, können Sie die Registerkarte "Benutzerauslastung"im Bereich "Personen"der globalen Navigationsleiste verwenden und dort die Ansicht "Ressourcenraster"anwenden. <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
@@ -90,7 +90,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         --></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Spezielle Ansicht auf der Registerkarte "Details" anzeigen</td> 
+      <td role="rowheader">Anzeigen einer speziellen Ansicht auf der Registerkarte "Details"</td> 
       <td>(Nur Projektbericht) Geben Sie den Ansichtstyp an, der Benutzern angezeigt wird, wenn sie auf diese Informationen auf der Registerkarte Details zugreifen. Sie können beispielsweise eine Meilenstein- oder Gantt-Ansicht auswählen.</td> 
      </tr> 
      <tr> 
@@ -112,16 +112,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Klicken **Berichtsaufforderungen** , um alle Aufforderungen zur Eingabe des Berichts einzurichten.\
+1. Klicks **Berichtsaufforderungen** , um eventuelle Eingabeaufforderungen für den Bericht einzurichten.\
    Weitere Informationen zum Hinzufügen von Eingabeaufforderungen zu einem Bericht finden Sie im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Klicken **Fertig** Klicken Sie dann auf **Speichern und schließen**.
+1. Klicks **Fertig** Klicken Sie dann auf **Speichern und schließen**.
 
 ## Zusätzliche Informationen
 
 Siehe auch:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Erste Schritte mit Berichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Erste Schritte mit Berichten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

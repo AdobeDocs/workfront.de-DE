@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 0%
       * [Berichte](reports-and-dashboards/reports/reports-overview.md)
       * Grundlagen zur Berichterstellung {#report-basics}
          * [Grundlagen zur Berichterstellung](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Erste Schritte mit Berichten in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [Erste Schritte mit Berichten](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Standardberichte als neue Berichte speichern](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * Berichterstellungselemente {#report-elements}
          * [Übersicht über Berichterstellungselemente](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 0%
          * [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Berechnetes benutzerdefiniertes Feldbeispiel: Bearbeitungsverlauf eines Felds anzeigen](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung {#custom-view-samples}
-         * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Berichte oder Listen: Benutzer anzeigen, die mit einem Objekt verknüpft sind](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: unvollständige projektübergreifende Vorgänger anzeigen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [Filter: unvollständige projektübergreifende Nachfolger anzeigen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)

@@ -2,23 +2,25 @@
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
-title: Erste Schritte mit Berichten in Adobe Workfront
+title: Erste Schritte mit Berichten
 description: Berichte bieten einen Überblick darüber, was mit Benutzern und der Arbeit passiert. Mithilfe von Berichten können Sie Informationen über Objekte in Adobe Workfront anzeigen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '3449'
+source-wordcount: '3297'
 ht-degree: 0%
 
 ---
 
-# Erste Schritte mit Berichten in Adobe Workfront
+# Erste Schritte mit Berichten
+
+<!-- Audited: 12/2023 -->
 
 Berichte bieten einen Überblick darüber, was mit Benutzern und der Arbeit passiert. Mithilfe von Berichten können Sie Informationen über Objekte in Adobe Workfront anzeigen.
 
-Informationen zum Verständnis von Objekten und dazu, wie sie in der Workfront-Anwendung gemeldet werden können, finden Sie unter [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Informationen zum Verständnis von Objekten und dazu, wie sie in der Workfront-Anwendung gemeldet werden können, finden Sie unter [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Berichtselemente
 
@@ -30,15 +32,15 @@ Berichte stellen eine Kombination der folgenden drei Elemente in Workfront dar:
  <tbody> 
   <tr> 
    <td role="rowheader">Anzeigen</td> 
-   <td> <li>Definiert die Spalten in Ihrem Bericht und welche Informationen Sie in die einzelnen Spalten aufnehmen können.</li> <li>Weitere Informationen zu Ansichten finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in Adobe Workfront</a>.</li> </td> 
+   <td> <li>Definiert die Spalten in Ihrem Bericht und welche Informationen Sie in die einzelnen Spalten aufnehmen können.</li> <li>Weitere Informationen zu Ansichten finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gruppierung</td> 
-   <td> <li>Kategorisiert Informationen auf der Grundlage einer gemeinsamen Information und listet die Ergebnisse des Berichts unter blauen Überschriften auf.</li> <li>Weitere Informationen zu Gruppierungen finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungsübersicht in Adobe Workfront</a>.</li> </td> 
+   <td> <li>Kategorisiert Informationen auf der Grundlage einer gemeinsamen Information und listet die Ergebnisse des Berichts unter Überschriften auf.</li> <li>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungsübersicht in Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <li>Steuert die Menge an Informationen, die in einem Bericht angezeigt wird.</li> <li>Weitere Informationen zu Filtern finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht in Adobe Workfront</a>.</li> <li>Informationen zu Filtermodifikatoren finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</li> <li>Sie können mit Platzhaltern filtern, um Ihre Filter allgemeiner zu gestalten und flexibler zu nutzen.</li> <li>Informationen zur Verwendung von Platzhaltern in Filtern finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Platzhalterfiltervariablen</a>.</li> </td> 
+   <td> <li>Steuert die Menge an Informationen, die in einem Bericht angezeigt wird.</li> <li>Weitere Informationen zu Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht in Adobe Workfront</a>.</li> <li>Informationen zu Filtermodifikatoren finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</li> <li>Sie können mit Platzhaltern filtern, um Ihre Filter allgemeiner zu gestalten und flexibler zu nutzen.</li> <li>Informationen zur Verwendung von Platzhaltern in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Platzhalterfiltervariablen</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,18 +49,18 @@ Berichte stellen eine Kombination der folgenden drei Elemente in Workfront dar:
 >
 >Wenn Sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung aus einer Liste auswählen, wird diese Auswahl auch dann beibehalten, wenn Sie sich bei Workfront abmelden oder Ihren Browser schließen.
 
-Informationen zu Berichtselementen finden Sie im Artikel [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Informationen zu Berichtselementen finden Sie unter [Berichtselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 Zur Erweiterung Ihrer Berichte können Sie die folgenden Elemente hinzufügen:
 
 * Ein Diagramm: eine visuelle Darstellung der Ergebnisse in Ihrem Bericht.\
-   Weitere Informationen zu Diagrammberichten finden Sie im Artikel [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Weitere Informationen zu Diagrammberichten finden Sie unter [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Eine Matrixgruppierung: fasst die Informationen des Berichts in einem aggregierten Tabellenformat zusammen.\
-   Informationen zu Matrix-Berichten finden Sie im Artikel [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-* Eine Eingabeaufforderung: Ein offener Filter, den Sie bei jeder Ausführung des Berichts unterschiedlich anpassen und anwenden können.\
-   Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* Eine Eingabeaufforderung: ein offener Filter, den Sie bei jeder Ausführung des Berichts unterschiedlich anpassen und anwenden können.\
+  Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 Beim Erstellen eines Berichts können Sie jedes dieser Elemente im ReportBuilder einzeln ändern.
 
@@ -70,9 +72,7 @@ Informationen zur Verwendung von bedingter Formatierung finden Sie unter [Beding
 Workfront bietet mehrere Systemberichte, die standardmäßig in Ihr System geladen werden.\
 Nachdem Sie Informationen in Ihr System eingegeben haben, können Sie diese Berichte verwenden, um die Informationen visuell anzuzeigen.
 
-Informationen zum Zugriff auf Systemberichte finden Sie im Abschnitt . [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) im Artikel [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
-
-Weitere Informationen dazu, welche Systemberichte verfügbar sind, finden Sie im Artikel [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Weitere Informationen zum Zugriff auf Systemberichte und verfügbare Systemberichte finden Sie unter [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Berichte erstellen
 
@@ -82,49 +82,43 @@ Gehen Sie wie folgt vor, um einen Bericht zu erstellen:
 
 * Erstellen Sie einen neuen Bericht.
 * Existierenden Bericht kopieren.\
-   Sie müssen mindestens über die Berechtigung Ansicht verfügen, um einen von einer anderen Person erstellten Bericht zu kopieren. Weitere Informationen zum Kopieren eines Berichts finden Sie im Artikel [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+  Sie müssen mindestens über die Berechtigung Ansicht verfügen, um einen von einer anderen Person erstellten Bericht zu kopieren. Weitere Informationen zum Kopieren eines Berichts finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Informationen zum Erstellen von Berichten finden Sie im Artikel [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-
-* [Voraussetzungen für die Berichterstellung](#prerequisites-for-creating-reports)
-* [Berichteigentümer](#report-ownership)
-* [Erstellen von Berichten in der Builder-Oberfläche](#create-reports-in-the-builder-interface)
-* [Erstellen von Berichten im Textmodus](#create-reports-in-text-mode)
+Informationen zum Erstellen von Berichten finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ### Voraussetzungen für die Berichterstellung {#prerequisites-for-creating-reports}
 
-* Sie benötigen eine Planungslizenz, um Ihre eigenen Berichte erstellen zu können.\
-   Weitere Informationen zu den Workfront-Lizenztypen finden Sie im Artikel [Übersicht über Adobe Workfront-Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+* Sie benötigen eine Planungslizenz (aktuelle Lizenzen) oder eine Standardlizenz (neue Lizenzen), um Ihre eigenen Berichte erstellen zu können.\
+  Informationen zu den Workfront-Lizenztypen finden Sie unter [Überblick über Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die derzeitigen Lizenzen und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) für die neuen Lizenzen.
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf die Option Berichte bearbeiten in Ihrer Zugriffsebene gewähren.\
-   Informationen zur Gewährung des Zugriffs auf Berichte bearbeiten finden Sie im Artikel [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Informationen zur Gewährung des Zugriffs auf die Option Berichte bearbeiten finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf die Optionen Filter, Ansichten und Gruppierungen bearbeiten auf Ihrer Zugriffsebene gewähren.
 
-   Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen bearbeiten finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen bearbeiten finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Sie müssen ein Objekt definieren, über das Sie einen Bericht erstellen möchten. Berichte sind objektspezifisch in Workfront und Sie müssen zunächst einen Objekttyp auswählen, bevor Sie mit der Erstellung des Berichts beginnen können. Sie können nur Berichte zu Objekten erstellen, die in der Benutzeroberfläche von Workfront verfügbar sind.
 
 ### Berichteigentümer {#report-ownership}
 
-Wenn Sie einen Bericht in Workfront erstellen, werden Sie zum Standardinhaber des Berichts und dieser wird in Ihrem Abschnitt Meine Berichte angezeigt. Sie können den Eigentümer eines Berichts nicht ändern.
+Wenn Sie einen Bericht in Workfront erstellen, werden Sie zum Standardeigentümer des Berichts und dieser wird in Ihrem Abschnitt Meine Berichte angezeigt. Sie können den Eigentümer eines Berichts nicht ändern.
 
 Wenn Sie einen Bericht kopieren, werden Sie automatisch zum Eigentümer des kopierten Berichts.
-
-Informationen zum Kopieren von Berichten finden Sie im Artikel [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Informationen zum Kopieren von Berichten finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Sie können sehen, wem ein Bericht gehört, indem Sie die **Eingestiegen von** -Feld.
 
-![](assets/nwe-entered-by-350x218.png)
+![Eingabe nach Feld](assets/nwe-entered-by-350x218.png)
 
 ### Erstellen von Berichten in der Builder-Oberfläche {#create-reports-in-the-builder-interface}
 
 Es wird empfohlen, zuerst die Berichterstellungsoberfläche zu verwenden, um einen neuen Bericht zu erstellen. Die Benutzeroberfläche bietet einen optimierten Satz von Tools, die Sie durch die Zusammenstellung von Elementen führen, um den gewünschten Bericht zu erstellen. Sie verfügen über Objekte und Felder, die Sie aus Listen auswählen und zu allen Berichterstellungselementen hinzufügen können.\
-Weitere Informationen zum Erstellen von Berichten in der Benutzeroberfläche zur Berichterstellung finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Erstellen von Berichten in der Berichterstellungsoberfläche finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Eine Liste der Objekte, über die Sie Berichte erstellen können, finden Sie unter [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Eine Liste der Objekte, über die Sie Berichte erstellen können, finden Sie unter [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Weitere Informationen zu den Feldern, die in Berichten angezeigt werden können, finden Sie im Artikel [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen zu den Feldern, die in Berichten angezeigt werden können, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Erstellen von Berichten im Textmodus {#create-reports-in-text-mode}
 
@@ -139,10 +133,6 @@ Informationen zur Verwendung des API-Explorers finden Sie im Artikel [API Explor
 
 Mit dem Textmodus können Sie komplexere Ansichten, Filter, Gruppierungen und Eingabeaufforderungen erstellen, indem Sie Felder verwenden, die in der Benutzeroberfläche des Standardmodus nicht verfügbar sind.
 
-* [Terminologie des Textmodus](#text-mode-terminology)
-* [Berechnete Spalten, bedingte Formatierung und andere Verwendungen des Textmodus](#calculated-columns-conditional-formatting-and-other-uses-of-text-mode)
-* [Beispiele für den Textmodus](#text-mode-samples)
-
 #### Terminologie des Textmodus {#text-mode-terminology}
 
 Sie müssen eine bestimmte Syntax verwenden, um die Benutzeroberfläche des Workfront-Textmodus zu verwenden.
@@ -153,20 +143,20 @@ Weitere Informationen zur Workfront-Syntax für den Textmodus finden Sie unter [
 
 Außerhalb der Berichterstellung für Felder, die nicht in der Erstellungsoberfläche verfügbar sind, können Sie den Textmodus verwenden, um Berechnungen oder Vergleiche zwischen bestimmten Feldern anzuzeigen.
 
-Eine Liste der häufigsten Verwendungen von Textmodus in einem Bericht finden Sie im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Eine Liste der häufigsten Verwendungen des Textmodus in einem Bericht finden Sie unter [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Informationen zum Einschließen berechneter benutzerdefinierter Daten in Berichte finden Sie im Abschnitt . [Berechnete benutzerdefinierte Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Informationen zum Einschließen berechneter benutzerdefinierter Daten in Berichte finden Sie unter [Berechnete benutzerdefinierte Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Informationen zum Vergleichen von Feldern mit bedingter Formatierung finden Sie im Artikel [Felder in bedingter Formatierung vergleichen](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Informationen zum Vergleichen von Feldern mit bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung vergleichen](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Sie können auch im Textmodus in Berichten auf Sammlungsfelder verweisen.\
-Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie im Artikel [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 #### Beispiele für den Textmodus {#text-mode-samples}
 
 Wir verfügen über eine Bibliothek mit Beispielen der am häufigsten verwendeten Ansichten, Filter und Gruppierungen, die Sie mit dem Textmodus erstellen können.
 
-Um diese Bibliothek zu durchsuchen und einige der von uns angebotenen Beispiele zu verwenden, lesen Sie den Artikel . [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Informationen zum Durchsuchen dieser Bibliothek und Verwenden einiger der von uns angebotenen Beispiele finden Sie im Artikel [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Die Tabs eines Berichts
 
@@ -178,14 +168,6 @@ Auf jeder Registerkarte werden die Informationen, die Sie in den Bericht aufnehm
 
 Sie können jede Registerkarte zum Standard-Tab des Berichts machen. Der Standard-Tab ist der erste Tab, der angezeigt wird, wenn Sie auf den Namen eines Berichts klicken, um ihn zu öffnen, und der Tab wird angezeigt, wenn Sie den Bericht in ein Dashboard platzieren.
 
-Je nachdem, welche Elemente Sie in Ihrem Bericht auswählen, kann Ihr Bericht die folgenden Tabs enthalten:
-
-* [Tab Details](#details-tab)
-* [Registerkarte &quot;Zusammenfassung&quot;](#summary-tab)
-* [Matrix-Registerkarte](#matrix-tab)
-* [Registerkarte &quot;Diagramm&quot;](#chart-tab)
-* [Registerkarte &quot;Eingabeaufforderungen&quot;](#prompts-tab)
-
 ### Tab Details {#details-tab}
 
 Auf der Registerkarte Details eines Berichts werden das Objekt der Berichte und die Attribute angezeigt, die Sie für das Objekt in einem Listenformular auswählen. Jeder Bericht verfügt über einen Tab Details .
@@ -193,15 +175,15 @@ Auf der Registerkarte Details eines Berichts werden das Objekt der Berichte und 
 >[!IMPORTANT]
 >
 >Die Informationen auf der Registerkarte Details können je nach Zeitzone anders als auf der Registerkarte Diagramm angezeigt werden.\
->Beispiel: Ein Benutzer in Kalifornien hat am 12. Februar um 21:30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein Benutzer in New York einen Bericht anzeigt, der diese Aufgabe abgeschlossen hat, wird das tatsächliche Abschlussdatum auf beiden Registerkarten Details als 13. Februar angezeigt, da es am 13. Februar um 12:30 Uhr EST abgeschlossen wurde. In der Grafik ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
+>Beispiel: Ein Benutzer in Kalifornien hat am 12. Februar um 21:30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein Benutzer in New York einen Bericht anzeigt, der diese Aufgabe abgeschlossen hat, wird das tatsächliche Abschlussdatum sowohl auf der Registerkarte Details als auch in den Diagrammdetails als 13. Februar angezeigt, da es am 13. Februar um 12:30 Uhr EST abgeschlossen wurde. In der Grafik ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
 
 ### Registerkarte &quot;Zusammenfassung&quot; {#summary-tab}
 
-Berichte mit Gruppierung verfügen über die Registerkarte Zusammenfassung .
+Berichte, die eine Gruppierung enthalten, verfügen über die Registerkarte Zusammenfassung .
 
 Dieselben Informationen, die im Listenformat auf dem Tab Details angezeigt werden, werden entsprechend den Gruppierungen im Bericht auf dem Tab Zusammenfassung zusammengefasst und aggregiert.
 
-Weitere Informationen zu Gruppierungen finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Weitere Informationen zu Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ### Matrix-Registerkarte {#matrix-tab}
 
@@ -230,20 +212,13 @@ Informationen zum Erstellen eines Berichts mit einer Grafik finden Sie im Artike
 
 Berichte, die eine Eingabeaufforderung enthalten, verfügen über die Registerkarte Eingabeaufforderungen .
 
-Über eine Eingabeaufforderung können Sie bei jeder Ausführung des Berichts einen Filter zu einem Bericht hinzufügen. Wenn Sie eine Eingabeaufforderung zum Bericht hinzufügen, wird der Tab Eingabeaufforderungen automatisch zum Standardtab des Berichts. Dies kann nicht in eine andere Registerkarte geändert werden.
+Über eine Eingabeaufforderung können Sie bei jeder Ausführung des Berichts einen Filter zu einem Bericht hinzufügen. Wenn Sie eine Eingabeaufforderung zum Bericht hinzufügen, wird die Registerkarte Eingabeaufforderungen automatisch zum Standardtab des Berichts. Dies kann nicht in eine andere Registerkarte geändert werden.
 
 Informationen zum Erstellen einer Eingabeaufforderung für einen Bericht finden Sie im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Berichte freigeben
 
 Nachdem Sie einen Bericht erstellt haben, können Sie ihn für andere Benutzer freigeben.
-
-Sie können einen Bericht wie folgt für andere Benutzer freigeben:
-
-* [Freigeben von Berechtigungen für einen Bericht](#give-sharing-permissions-to-a-report)
-* [Berichtversand planen](#schedule-a-report-delivery)
-* [Berichtsergebnisse exportieren](#export-the-results-of-a-report)
-* [Einen Bericht zu einem Dashboard hinzufügen](#add-a-report-to-a-dashboard)
 
 ### Freigeben von Berechtigungen für einen Bericht {#give-sharing-permissions-to-a-report}
 
@@ -258,35 +233,33 @@ Sie können die Bereitstellung eines Berichts planen. Die Benutzer, für die Sie
 * Excel
 * .TSV
 
-Informationen zur Planung einer Berichtbereitstellung finden Sie im Artikel [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Informationen zur Planung einer Berichtbereitstellung finden Sie unter [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ### Berichtsergebnisse exportieren {#export-the-results-of-a-report}
 
-Sie können die Ergebnisse eines Berichts in die folgenden Dateiformate exportieren
+Sie können die Ergebnisse eines Berichts in die folgenden Dateiformate exportieren:
 
 * PDF
 * Excel (.xls- und .xlsx-Formate)
 * Durch Tabulatoren getrennt
 
-Informationen zum Exportieren der Ergebnisse eines Berichts finden Sie im Artikel [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Informationen zum Exportieren der Ergebnisse eines Berichts finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 Nachdem der Bericht in eines dieser Formate exportiert wurde, können Sie ihn an andere Benutzer weitergeben, indem Sie ihn per E-Mail als Anhang versenden oder drucken.
 
 ### Einen Bericht zu einem Dashboard hinzufügen {#add-a-report-to-a-dashboard}
 
-Sie können einen Bericht zu einem Dashboard hinzufügen und das Dashboard für andere Benutzer freigeben. Informationen zum Hinzufügen von Berichten zu einem Dashboard finden Sie im Artikel [Einen Bericht zu einem Dashboard hinzufügen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
+Sie können einen Bericht zu einem Dashboard hinzufügen und das Dashboard für andere Benutzer freigeben. Informationen zum Hinzufügen von Berichten zu einem Dashboard finden Sie unter [Einen Bericht zu einem Dashboard hinzufügen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
 
 ## Kalender erstellen
 
 Wenn Sie Ihre Daten im Kalenderformat anzeigen möchten, können Sie Kalender anstelle von Berichten erstellen.
 
-Informationen zum Erstellen von Kalendern finden Sie im Artikel .
-
-Informationen zur Verwendung von Kalendern finden Sie im Artikel [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Informationen zum Erstellen und Verwenden von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Nutzung von Berichten
 
-Nachdem Sie Berichte erstellt und für andere Benutzer freigegeben haben, können Sie verfolgen, wie oft diese Berichte verwendet werden.\
+Nachdem Sie Berichte erstellt und für andere Benutzer freigegeben haben, können Sie verfolgen, wie oft diese Berichte verwendet werden.
 Informationen zur Berichtsverwendung, einschließlich der Häufigkeit der Anzeige, des Benutzerkontos und der Dashboards, in denen sie angezeigt werden, finden Sie im Artikel [Berichtnutzung - Übersicht](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
 
 ## Allgemeine Begriffe, die als Verweis auf Berichte verwendet werden
@@ -307,7 +280,7 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
    <td>Erweiterte Optionen</td> 
    <td> <p>Bezieht sich auf den Link auf der Registerkarte Spalten (Ansicht) der Berichterstellung, der Folgendes ermöglicht:</p> 
     <ul> 
-     <li>Legen Sie die bedingte Formatierung von Text und Bildern für Spalten anhand von ausgewählten Kriterien fest.</li> 
+     <li>Legen Sie die bedingte Formatierung von Text und Bildern für Spalten basierend auf den von Ihnen ausgewählten Kriterien fest.</li> 
      <li>Benennen Sie die Spalte neu.</li> 
      <li>Formatieren Sie die Werte in Ihrer Spalte.</li> 
     </ul> <p>Sie können beispielsweise alle übergeordneten Aufgaben fett anzeigen lassen oder das geplante Abschlussdatum in Rot anzeigen, wenn die Aufgabe zu spät ist.</p> </td> 
@@ -350,7 +323,7 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
   </tr> 
   <tr> 
    <td>Felder</td> 
-   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispielsweise ist "Status"ein Feld für Projekt, Aufgabe oder Probleme. "Portfolio Manager"ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und zu Custom Forms hinzufügen.<br>Informationen zum Erstellen von benutzerdefinierten Forms finden Sie im Artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </td> 
+   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispielsweise ist "Status"ein Feld für Projekte, Aufgaben oder Probleme. "Portfolio Manager"ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und zu benutzerdefinierten Formularen hinzufügen.<br>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Feldname </td> 
@@ -362,7 +335,7 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
   </tr> 
   <tr> 
    <td>Filter</td> 
-   <td>Ein Hauptelement des Berichts, das bestimmt, welche Ergebnisse im Bericht angezeigt werden.</td> 
+   <td>Ein Hauptelement, das bestimmt, welche Ergebnisse im Bericht angezeigt werden.</td> 
   </tr> 
   <tr> 
    <td>Formular </td> 
@@ -370,15 +343,15 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
   </tr> 
   <tr> 
    <td>Gruppierung </td> 
-   <td>Ein Hauptelement, das angibt, wie eine Ergebnisliste organisiert ist. Die Gruppierung erstellt im gesamten Bericht horizontale Balken, um die Ergebnisse nach bei ihrer Erstellung definierten allgemeinen Attributen zu gruppieren. Gruppierungen werden in Matrix-Berichten verwendet, um Daten sowie in Diagrammen zu aggregieren und die Achsen von Diagrammen zu bestimmen.</td> 
+   <td>Ein Hauptelement, das angibt, wie eine Ergebnisliste organisiert ist. Durch die Gruppierung werden im gesamten Bericht horizontale Balken erstellt, um die Ergebnisse nach bei ihrer Erstellung definierten allgemeinen Attributen zu gruppieren. Gruppierungen werden in Matrix-Berichten verwendet, um Daten sowie in Diagrammen zu aggregieren und die Achsen von Diagrammen zu bestimmen.</td> 
   </tr> 
   <tr> 
    <td>Objekt- oder Objekttyp</td> 
-   <td> Ein Objekt ist ein Workfront-Anwendungselement (d. h. Projekt, Aufgabe, Gruppe, Unternehmen, Filter). Der Objekttyp wird beim Erstellen eines neuen Berichts, einer neuen Ansicht, eines neuen Filters oder einer neuen Gruppierung verwendet, um zu ermitteln, welches Objekt im Mittelpunkt des Berichts steht. Berichte können nur einen Objekttyp aufweisen, d. h. das Hauptobjekt des Berichts.<br>Übergeordnete Objekte können im selben Bericht referenziert werden.<br>Weitere Informationen zur Hierarchie von Objekten finden Sie im Artikel "Grundlegendes zur Interdependenz und Hierarchie von Objekten" <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</td> 
+   <td> Ein Objekt ist ein Workfront-Anwendungselement (z. B. Projekt, Aufgabe, Gruppe, Unternehmen, Filter). Der Objekttyp wird bei der Erstellung eines neuen Berichts, einer neuen Ansicht, eines neuen Filters oder einer neuen Gruppierung verwendet, um zu ermitteln, welches Objekt im Mittelpunkt des Berichts steht. Berichte können nur einen Objekttyp aufweisen, d. h. das Hauptobjekt des Berichts.<br>Übergeordnete Objekte können im selben Bericht referenziert werden.<br>Weitere Informationen zur Hierarchie von Objekten finden Sie im Artikel "Grundlagen zur Interdependenz und Hierarchie von Objekten" <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Übersicht über Adobe Workfront-Objekte</a>.</td> 
   </tr> 
   <tr> 
    <td>Eingabeaufforderung</td> 
-   <td> <p>Ein optionales Berichtselement, das zu einem Bericht hinzugefügt werden kann, wenn Sie vor jeder Ausführung des Berichts einen anderen Filter ausführen müssen.</p> <p>Weitere Informationen zu Eingabeaufforderungen finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</p> </td> 
+   <td> <p>Ein optionales Berichtselement, das zu einem Bericht hinzugefügt werden kann, wenn Sie bei jeder Ausführung des Berichts einen anderen Filter verwenden müssen.</p> <p>Weitere Informationen zu Eingabeaufforderungen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Hinzufügen einer Eingabeaufforderung zu einem Bericht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Qualifizierer oder Bedingungsmodifikatoren</td> 
@@ -386,16 +359,16 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
     <ul> 
      <li>Auf der Registerkarte Filter</li> 
      <li>Der Bildschirm Erweiterte Optionen für die Spalte auf der Registerkarte Spalten (Ansicht). Durch Definition eines Qualifikators können Sie den Feldnamen mit einem anderen Feld oder Wert vergleichen.</li> 
-     <li> In einer benutzerdefinierten Eingabeaufforderung<br>Weitere Informationen zu benutzerdefinierten Eingabeaufforderungen finden Sie im Abschnitt "Erstellen einer Eingabeaufforderung"im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</li> 
-    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum "Heute"erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Feld Qualifizierer und dem heutigen Datum im Feld Datum :</p> <p><em>Aufgabe &gt; Geplantes Abschlussdatum &gt; Gleich&gt; (aktuelles Datum)</em> </p> <p>In diesem Szenario lautet der Qualifikator <strong>Gleich</strong>.<br>Weitere Informationen zu Qualifikatoren finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</p> </td> 
+     <li> In einer benutzerdefinierten Aufforderung<br><p>Weitere Informationen zu Eingabeaufforderungen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Hinzufügen einer Eingabeaufforderung zu einem Bericht</a>.</p>.</li> 
+    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum "Heute"erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Feld Qualifizierer und dem heutigen Datum im Feld Datum :</p> <p><em>Aufgabe &gt; Geplantes Abschlussdatum &gt; Gleich&gt; (aktuelles Datum)</em> </p> <p>In diesem Szenario lautet der Qualifikator . <strong>Gleich</strong>.<br>Weitere Informationen zu Qualifikatoren finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Bericht </td> 
-   <td>Die Kombination aus Ansicht, Filter und (manchmal) Gruppierung. Der Zweck eines Berichts besteht darin, Daten konsistent über die Benutzeroberfläche hinweg anzuzeigen, Informationen zu verteilen und die Notwendigkeit zu eliminieren, dieselbe Suche oder Abfrage regelmäßig durchzuführen.</td> 
+   <td>Die Kombination aus Ansicht, Filter und (manchmal) einer Gruppierung. Der Zweck eines Berichts besteht darin, Daten konsistent über die Benutzeroberfläche hinweg anzuzeigen, Informationen zu verteilen und die Notwendigkeit zu eliminieren, dieselbe Suche oder Abfrage regelmäßig durchzuführen.</td> 
   </tr> 
   <tr> 
    <td>Anweisung</td> 
-   <td>Besteht aus mehreren Ausdrücken, die zusammengesetzt sind, um zu definieren, welche Informationen in einem Bericht angezeigt werden, wenn der Textmodus verwendet wird. Eine Anweisung kann für eine Ansicht, einen Filter, eine Gruppierung oder eine benutzerdefinierte Eingabeaufforderung in einem Bericht erstellt werden.</td> 
+   <td>Besteht aus mehreren Ausdrücken, die zusammengesetzt sind, um zu definieren, welche Informationen in einem Bericht angezeigt werden, wenn der Textmodus verwendet wird. Eine Anweisung kann für eine Ansicht, einen Filter, eine Gruppierung oder für eine benutzerdefinierte Eingabeaufforderung in einem Bericht erstellt werden.</td> 
   </tr> 
   <tr> 
    <td>Zusammenfassung</td> 

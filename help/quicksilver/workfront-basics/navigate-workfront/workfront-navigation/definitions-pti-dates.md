@@ -5,10 +5,10 @@ title: Übersicht über die Projekt-, Aufgaben- und Problemdaten in [!DNL Adobe 
 description: Übersicht über die Projekt-, Aufgaben- und Problemdaten in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Dieser Artikel enthält Definitionen zu den häufigsten Daten, die mit Projekten
 Informationen zu Berichten und Listen finden Sie in den folgenden Artikeln:
 
 * [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Erste Schritte mit Berichten in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Erste Schritte mit Berichten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 Weitere Informationen zu Projekt-, Aufgaben- und Problemfeldern finden Sie unter [Glossar [!DNL Adobe Workfront] Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -31,7 +31,7 @@ Weitere Informationen zu Projekt-, Aufgaben- und Problemfeldern finden Sie unter
 
 Die [!UICONTROL Geplantes Startdatum] ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem beginnen soll.
 
-Je nach [!UICONTROL Aufgabenbegrenzung]kann es sein, dass Sie die [!UICONTROL Geplantes Startdatum] einer Aufgabe. Je nach [!UICONTROL Planmodus] des Projekts können Sie die [!UICONTROL Geplantes Startdatum] eines Projekts.
+Je nach [!UICONTROL Aufgabenbegrenzung], können Sie die [!UICONTROL Geplantes Startdatum] einer Aufgabe. Je nach [!UICONTROL Planmodus] des Projekts können Sie die [!UICONTROL Geplantes Startdatum] eines Projekts.
 
 Weitere Informationen finden Sie unter [Überblick über das Projekt [!UICONTROL Geplantes Startdatum]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
@@ -43,7 +43,7 @@ Weitere Informationen finden Sie unter [Überblick über das Projekt [!UICONTROL
 
 Die [!UICONTROL Geplantes Abschlussdatum] oder [!UICONTROL aufgrund von] date ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem abgeschlossen werden soll.
 
-Je nach [!UICONTROL Aufgabenbegrenzung]kann es sein, dass Sie die [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe. Je nach [!UICONTROL Planmodus] des Projekts können Sie die [!UICONTROL Geplantes Abschlussdatum] eines Projekts.
+Je nach [!UICONTROL Aufgabenbegrenzung], können Sie die [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe. Je nach [!UICONTROL Planmodus] des Projekts können Sie die [!UICONTROL Geplantes Abschlussdatum] eines Projekts.
 
 Die [!UICONTROL Geplantes Abschlussdatum] wird in einigen Bereichen von [!DNL Workfront].
 
@@ -57,11 +57,11 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 ![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
-## [!UICONTROL Eingabedatum]
+## [!UICONTROL Datum der Einsendung]
 
-Die [!UICONTROL Entrydatum] ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem in Workfront erstellt wurde.
+Die [!UICONTROL Datum der Einsendung] ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem in Workfront erstellt wurde.
 
-Die [!UICONTROL Entrydatum] hat keinen Einfluss auf die Zeitleiste von Projekten, Aufgaben oder Problemen, ist jedoch für Tracking- und Berichtszwecke wichtig. [!DNL Workfront] generiert automatisch das [!UICONTROL Entrydatum] wenn das Objekt erstellt wurde und Sie es nicht manuell bearbeiten können.
+Die [!UICONTROL Datum der Einsendung] hat keinen Einfluss auf die Zeitleiste von Projekten, Aufgaben oder Problemen, ist jedoch für Tracking- und Berichtszwecke wichtig. [!DNL Workfront] generiert automatisch das [!UICONTROL Datum der Einsendung] wenn das Objekt erstellt wurde und Sie es nicht manuell bearbeiten können.
 
 ![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
 
@@ -104,23 +104,23 @@ Weitere Informationen finden Sie unter [Überblick über das Projekt [!UICONTROL
 
 ![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
-## [!UICONTROL Verpflichtungsdatum]
+## [!UICONTROL Datum der Übermittlung]
 
-Die [!UICONTROL Datum der Übermittlung] ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom [!UICONTROL Geplantes Abschlussdatum], da es sich um eine realistischere Schätzung des Fertigstellungsdatums handelt, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird. Weitere Informationen finden Sie unter [[!UICONTROL Datum der Übermittlung] Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Die [!UICONTROL Datum der Übermittlung] ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich von der [!UICONTROL Geplantes Abschlussdatum], da es sich um eine realistischere Schätzung des Fertigstellungsdatums handelt, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird. Weitere Informationen finden Sie unter [[!UICONTROL Datum der Übermittlung] Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
->Ändern der [!UICONTROL Datum der Übermittlung] wirkt sich auf [!UICONTROL Voraussichtlicher Abschluss] aber nicht [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems. Der Projektmanager kann die Änderungen verwenden, die ein Verantwortlicher an der [!UICONTROL Datum der Übermittlung] , um die [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems.
+>Ändern der [!UICONTROL Datum der Übermittlung] betrifft die [!UICONTROL Voraussichtlicher Abschluss] aber nicht [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems. Der Projektmanager kann die Änderungen verwenden, die ein Verantwortlicher an der [!UICONTROL Datum der Übermittlung] , um die [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems.
 
 ![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
 
 ![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
 
-## [!UICONTROL Projizierter Starttermin]
+## [!UICONTROL Projiziertes Startdatum]
 
-Die [!UICONTROL Projiziertes Startdatum] ist ein Echtzeit-Datum des Zeitpunkts, zu dem das Projekt, die Aufgabe oder das Problem durchgeführt wird, und berücksichtigt alle Verzögerungen. Dies ist ein genaueres Startdatum für das Projekt, die Aufgabe oder das Problem als das [!UICONTROL Geplantes Startdatum]. Die [!UICONTROL Geplantes Startdatum] berücksichtigt keine Verzögerungen oder vergangene Daten.
+Die [!UICONTROL Projiziertes Startdatum] ist ein Echtzeit-Datum, an dem das Projekt, die Aufgabe oder die Ausgabe erfolgt und alle Verzögerungen berücksichtigt werden. Dies ist ein genaueres Startdatum für das Projekt, die Aufgabe oder das Problem als das [!UICONTROL Geplantes Startdatum]. Die [!UICONTROL Geplantes Startdatum] berücksichtigt keine Verzögerungen oder vergangene Daten.
 
-Wenn Sie ein Projekt zum ersten Mal planen, wird die [!UICONTROL Geplantes Startdatum] und [!UICONTROL Projiziertes Startdatum] der Aufgaben und des Projekts identisch sind. Da Verzögerungen auftreten können oder Aufgaben früher abgeschlossen werden können, wird die [!UICONTROL Projiziertes Startdatum] kann sich von der [!UICONTROL Geplantes Startdatum].
+Bei der ersten Planung eines Projekts wird die [!UICONTROL Geplantes Startdatum] und [!UICONTROL Projiziertes Startdatum] der Aufgaben und des Projekts identisch sind. Da Verzögerungen auftreten können oder Aufgaben früher abgeschlossen werden können, wird die [!UICONTROL Projiziertes Startdatum] kann sich von der [!UICONTROL Geplantes Startdatum].
 
 Bei einer Aufgabe wird eine [!UICONTROL Projiziertes Startdatum] kann auch [!UICONTROL Geplantes Startdatum] wenn einer seiner Vorgänger hinter dem Zeitplan steht.
 
@@ -150,7 +150,7 @@ Das Datum, an dem Sie die Uhrzeit protokollieren, ist die [!UICONTROL Stündlich
 
 >[!TIP]
 >
->Die [!UICONTROL Stündlicher Eingangsdatum] unterscheidet sich vom [!UICONTROL Entrydatum] nicht das Datum, an dem das Stundenprotokoll erstellt wurde, sondern das Datum, mit dem Stunden verknüpft werden sollen.
+>Die [!UICONTROL Stündlicher Eingangsdatum] unterscheidet sich vom [!UICONTROL Datum der Einsendung] nicht das Datum, an dem das Stundenprotokoll erstellt wurde, sondern das Datum, mit dem Stunden verknüpft werden sollen.
 
 Sie können die Zeit in der [!UICONTROL Projekt], [!UICONTROL Aufgabe]oder [!UICONTROL Problemaktualisierungen] oder im Abschnitt [!UICONTROL Stunden] Abschnitt . Beim Protokollieren der Zeit in [!UICONTROL Stunden] -Abschnitt können Sie manuell das Einstiegsdatum und den Benutzer, zu dem die Stunden gehören, angeben.
 
@@ -158,12 +158,12 @@ Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/creat
 
 >[!TIP]
 >
->Es wird empfohlen, keine übergeordneten Aufgaben oder Projekte mehr mit der Protokollierung von Arbeitsaufgaben und Problemen zu beschäftigen. Die bei den Arbeitsaufgaben angemeldete Zeit wird zu den übergeordneten Aufgaben und dem Projekt als [!UICONTROL Tatsächliche Stunden] für die übergeordneten Aufgaben und das Projekt. Die bei Problemen angemeldete Zeit wird als [!UICONTROL Tatsächliche Stunden] für das Projekt.
+>Es wird empfohlen, keine übergeordneten Aufgaben oder Projekte mehr mit Arbeitsaufgaben und Problemen zu protokollieren. Die bei den Arbeitsaufgaben angemeldete Zeit wird zu den übergeordneten Aufgaben und dem Projekt als [!UICONTROL Tatsächliche Stunden] für die übergeordneten Aufgaben und das Projekt. Die bei Problemen angemeldete Zeit wird als [!UICONTROL Tatsächliche Stunden] für das Projekt.
 
 ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
 ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
 
-Sie können die [!UICONTROL Stündliche Eingangsdaten] in Stunden-Berichten und -Listen.
+Sie können die [!UICONTROL Stündliche Eintrittstage] in Stunden-Berichten und -Listen.
 
 ![](assets/hour-entry-date-in-view-nwe-350x173.png)

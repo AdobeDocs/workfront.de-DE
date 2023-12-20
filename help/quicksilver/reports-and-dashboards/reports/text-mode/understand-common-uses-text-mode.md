@@ -6,9 +6,9 @@ description: Übersicht über die häufigsten Verwendungen für den Textmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können Ihre Berichterstellungsfunktionen mithilfe des Textmodus in Berichte
 
 In diesem Artikel werden nur einige häufige Beispiele dafür vorgestellt, wo Sie wahrscheinlich den Textmodus verwenden müssen, um Reporting- oder berechnete benutzerdefinierte Feldfunktionen in Adobe Workfront zu erweitern. Eine umfassendere Liste von Beispielen finden Sie unter:
 
-* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Berechnete benutzerdefinierte Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.

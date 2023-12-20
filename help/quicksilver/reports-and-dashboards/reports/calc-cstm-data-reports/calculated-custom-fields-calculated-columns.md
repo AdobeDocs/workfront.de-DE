@@ -7,9 +7,9 @@ description: Informationen zu benutzerdefinierten Daten in Berichten und Dashboa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Beispiele für berechnete benutzerdefinierte Felder finden Sie unter [Berechnete
 Beispiele für berechnete benutzerdefinierte Spalten in Ansichten finden Sie in den folgenden Artikeln:
 
 * [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

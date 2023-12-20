@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Filter im Textmodus bearbeiten
-description: '"HINWEIS: fügen Sie in diesem Artikel einen Abschnitt hinzu: /content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Entwerfen Sie diesen Bereich auch im Artikel Textmodus - Übersicht )'''
+description: "HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Entwerfen Sie diesen Bereich auch im Artikel Textmodus-Übersicht ."
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Sie können Filter in einer Liste oder in einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardoberfläche nicht verfügbar sind, und komplexere Filter zu erstellen.
 
-Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie im Artikel unter &quot;Beispiele für benutzerdefinierte Filter&quot; [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie im Artikel unter &quot;Beispiele für benutzerdefinierte Filter&quot; [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Zugriffsanforderungen
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -56,15 +56,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Bevor Sie mit der Verwendung des Textmodus in einem Bericht oder einer Liste beginnen, sollten Sie stets sicherstellen, dass Sie mit der Syntax des Workfront-Textmodus vertraut sind.
 
-Weitere Informationen finden Sie unter:
+Weitere Informationen finden Sie unter
 
 * [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Textmodus in einem Filter bearbeiten
 
-Die Bearbeitung eines Filters im Textmodus ist für Berichte und Listen identisch. Der Zugriff auf den Filter erfolgt über einen Bericht oder eine Liste.
+Die Bearbeitung eines Filters im Textmodus ist für Berichte und Listen identisch. Der Zugriff auf den Filter aus einem Bericht oder einer Liste unterscheidet sich.
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 
       Der Filter-Builder wird geöffnet.
 
-1. Klicken **Filterregel hinzufügen** um die Filterbedingungen hinzuzufügen, klicken Sie auf **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
+1. Klicks **Filterregel hinzufügen** um die Filterbedingungen hinzuzufügen, klicken Sie auf **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
 1. Fügen Sie Filteranweisungen mithilfe des Textmodus hinzu. Jede Filteranweisung kann die folgenden Zeilen und zusätzlichen Informationen enthalten:
 
    <table style="table-layout:auto"> 
@@ -114,7 +114,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Anweisungsoperator. Standardmäßig ist jede Filteranweisung durch den Operator "AND"verbunden. Dies wird nicht in der Textmodus-Oberfläche angezeigt. Sie können auch einen "OR"-Operator zwischen zwei Anweisungen hinzufügen, um anzugeben, dass Sie nach Objekten filtern möchten, die eine oder die andere von zwei Bedingungen erfüllen können.</p> <p>Filteroperatoren sind nur für Filter mit mehr als einer Anweisung erforderlich.</p> <p>Tipp:   
+      <td> <p>Anweisungs-Operator. Standardmäßig ist jede Filteranweisung durch den Operator "AND"verbunden. Dies wird nicht in der Textmodus-Oberfläche angezeigt. Sie können auch einen "OR"-Operator zwischen zwei Anweisungen hinzufügen, um anzugeben, dass Sie nach Objekten filtern möchten, die eine oder die andere von zwei Bedingungen erfüllen können.</p> <p>Filteroperatoren sind nur für Filter mit mehr als einer Anweisung erforderlich.</p> <p>Tipp:   
         <ul> 
          <li> <p>"OR"unterscheidet zwischen Groß- und Kleinschreibung und muss immer großgeschrieben werden.</p> </li> 
          <li> <p>Wenn Sie Ihren Operator von AND in OR ändern, kann sich die Anzahl der Listenelemente erhöhen.</p> </li> 
@@ -142,13 +142,13 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 
 1. Gehen Sie wie folgt vor, um eine Filteranweisung hinzuzufügen, die mit dem Operator &quot;OR&quot;verbunden ist:
 
-   1. Fügen Sie eine neue Codezeile hinzu und geben Sie OR ein.:1: gefolgt von dem Objekt oder Attribut, nach dem Sie filtern möchten, und dem Wert, mit dem Sie ihn vergleichen möchten. Verwenden Sie die folgende Zeile, um auf Aufgaben zu verweisen, die sich in einem beliebigen Status außer Neu befinden:
+   1. Fügen Sie eine neue Codezeile hinzu und geben Sie OR ein:1: gefolgt von dem Objekt oder Attribut, nach dem Sie filtern möchten, und dem Wert, mit dem Sie ihn vergleichen möchten. Verwenden Sie die folgende Zeile, um auf Aufgaben zu verweisen, die sich in einem beliebigen Status außer Neu befinden:
 
       ```
       OR:1:status=NEW
       ```
 
-   1. Fügen Sie eine zweite Zeile hinzu und geben Sie OR ein.:1: gefolgt vom Objekt, dem Modifikator und dem Modifikatorcode. Um den Modifikator für die Codezeile zu definieren, die auf alle Aufgabenstatus mit Ausnahme von New verweist, verwenden Sie die folgende Modifikatorzeile:
+   1. Fügen Sie eine zweite Zeile hinzu und geben Sie OR ein:1: gefolgt vom Objekt, dem Modifikator und dem Modifikatorcode. Um den Modifikator für die Codezeile zu definieren, die auf alle Aufgabenstatus mit Ausnahme von New verweist, verwenden Sie die folgende Modifikatorzeile:
 
       ```
       OR:1:status_Mod=notin
@@ -163,15 +163,22 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 >[!NOTE]
 >
 >Sie können mehrere &quot;OR&quot;-Anweisungen im selben Filter haben. Jedes Mal, wenn Sie eine neue &quot;OR&quot;-Anweisung haben, erhöht sich die Zahl nach &quot;OR:&quot;.
+>
 Um nach Aufgaben zu filtern, die den Status &quot;In Bearbeitung&quot;aufweisen oder dem angemeldeten Benutzer zugewiesen sind oder die das geplante Abschlussdatum heute aufweisen, verwenden Sie Folgendes:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
-1. Klicken **Fertig** wenn Sie Ihre Änderungen speichern und den Bericht oder Filter weiter bearbeiten möchten.
-1. Klicken **Speichern und schließen** , um Ihren Bericht zu speichern, oder **Filter speichern** , um den Filter in der Liste zu speichern.
+1. Klicks **Fertig** wenn Sie Ihre Änderungen speichern und den Bericht oder Filter weiter bearbeiten möchten.
+1. Klicks **Speichern und schließen** , um Ihren Bericht zu speichern, oder **Filter speichern** , um den Filter in der Liste zu speichern.
 
 
