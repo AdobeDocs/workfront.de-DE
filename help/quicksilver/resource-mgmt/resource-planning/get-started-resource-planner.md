@@ -7,7 +7,7 @@ description: Sie können die Zuweisung Ihrer Ressourcen zu den Projekten, denen 
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über den Ressourcenplaner
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeig
 
 * So zeigen Sie die folgenden Informationen mithilfe der Benutzeransicht an:
 
-   * die Verfügbarkeit Ihrer Benutzer entsprechend ihrem Zeitplan
-   * den geplanten Zeitaufwand für den Abschluss der Arbeiten gemäß dem Projektplan.
-   * die Zeit, die Benutzer bereits bei den eigentlichen Arbeitselementen angemeldet haben.
+   * Die Verfügbarkeit Ihrer Benutzer nach ihrem Zeitplan
+   * Die geplante Dauer, die zum Abschluss der Arbeit gemäß dem Projektplan erforderlich ist
+   * Die Zeit, die Benutzer bereits bei tatsächlichen Arbeitselementen angemeldet haben
 
   Weitere Informationen zum Anzeigen der Verfügbaren, geplanten und tatsächlichen Stunden oder der FTE für Benutzer im Resource Planer finden Sie im Artikel [Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

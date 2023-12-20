@@ -7,7 +7,7 @@ description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Übersicht über Wildcard-Filtervariablen
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

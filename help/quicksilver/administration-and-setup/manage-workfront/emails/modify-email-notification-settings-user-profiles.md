@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer ändern
+
+<!-- Audited: 12/2023 -->
 
 Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;Planer&quot;verfügen, mit der Sie die Einstellungen anderer Benutzer bearbeiten können, können Sie die Benachrichtigungseinstellungen für mehrere Benutzer gleichzeitig konfigurieren. Dazu gehört auch die Angabe, ob Benutzer Benachrichtigungen im Fall von Ereignissen erhalten oder in einer täglichen Digest-E-Mail, wie hier beschrieben: [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md). Informationen zur Zugriffsstufe, die zum Bearbeiten von Benutzern erforderlich ist, finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

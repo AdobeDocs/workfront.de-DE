@@ -7,14 +7,16 @@ description: Sie können einen Genehmigungsprozess erstellen und an ein Objekt a
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Übersicht über den Genehmigungsprozess
+
+<!-- Audited: 12/2023 -->
 
 Sie können einen Genehmigungsprozess erstellen und an ein Objekt anhängen, um sicherzustellen, dass bestimmte Benutzer bestimmte Änderungen überprüfen, bevor das Objekt fortgesetzt wird.
 
@@ -22,27 +24,26 @@ Dies ist für die folgenden Objekttypen in Adobe Workfront verfügbar:
 
 * Arbeitselement (Projekt, Aufgabe oder Problem, Vorlage, Vorlagenaufgabe)
 * Dokument
-*  Korrekturabzug
-
-Anweisungen zum Erstellen eines Validierungsprozesses finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Korrekturabzug
 
 Dieser Artikel enthält allgemeine Informationen zu Genehmigungsprozessen, die mit Arbeitselementen verknüpft sind.
+Anweisungen zum Erstellen eines Validierungsprozesses finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Arten von Genehmigungsverfahren
+## Arten von Genehmigungsverfahren für Arbeitselemente
 
 Wenn Sie Adobe Workfront-Administrator oder Benutzer mit Administratorzugriff auf Genehmigungsprozesse sind, können Sie die folgenden Genehmigungsprozesse für Projekte, Aufgaben und Probleme erstellen:
 
 * **Globale Validierung auf Systemebene**: Benutzer können diese an einen der folgenden Elemente anhängen:
 
    * Ein Projekt, eine Aufgabe oder ein Problem im Abschnitt Genehmigungen
-   * Im Feld &quot;Projekt bearbeiten&quot;den Bereich &quot;Aufgabenstandardgenehmigungsprozess&quot;
-   * Im Abschnitt &quot;Warteschlangendetails&quot;oder &quot;Warteschlangenthema&quot;eines Projekts in den Bereichen &quot;Standardgenehmigungsprozess&quot;. Das Projekt muss als Anforderungswarteschlange aktiviert sein.
+   * Im Feld &quot;Projekt bearbeiten&quot;im Bereich &quot;Task Default Approval Process&quot;
+   * Im Bereich Warteschlangendetails oder Warteschlangenthema eines Projekts in den Bereichen Standardgenehmigungsprozess . Das Projekt muss als Anforderungswarteschlange aktiviert sein.
 
 * **Globale Validierung auf Gruppenebene**: Benutzer können diese an Folgendes anhängen:
 
    * Ein Projekt, eine Aufgabe oder ein Problem, das/das zu der Gruppe gehört, die dem Genehmigungsprozess im Abschnitt &quot;Genehmigungen&quot;zugeordnet ist
-   * Im Feld &quot;Projekt bearbeiten&quot;den Bereich &quot;Aufgabenstandardmäßiger Genehmigungsprozess&quot;für ein Projekt, das zu der Gruppe gehört, die dem Genehmigungsprozess zugeordnet ist
-   * Im Abschnitt &quot;Warteschlangendetails&quot;oder &quot;Warteschlangenthema&quot;eines Projekts in den Bereichen &quot;Standardgenehmigungsprozess&quot;. Das Projekt muss als Anforderungswarteschlange aktiviert werden und zu der Gruppe gehören, die dem Genehmigungsprozess zugeordnet ist.
+   * Im Feld &quot;Projekt bearbeiten&quot;im Bereich &quot;Task Default Approval Process&quot;für ein Projekt, das zu der Gruppe gehört, die dem Genehmigungsprozess zugeordnet ist
+   * Im Bereich Warteschlangendetails oder Warteschlangenthema eines Projekts in den Bereichen Standardgenehmigungsprozess . Das Projekt muss als Anforderungswarteschlange aktiviert werden und zu der Gruppe gehören, die dem Genehmigungsprozess zugeordnet ist.
 
   Informationen zum Erstellen eines Validierungsprozesses auf Systemebene oder Gruppenebene finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

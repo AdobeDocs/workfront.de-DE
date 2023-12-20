@@ -6,10 +6,10 @@ description: Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, d
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
@@ -33,18 +33,19 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Plan </p> </td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neu: Standard </p>
+ <p>oder</p> 
+<p>Aktuell: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Sie müssen über Administratorzugriff auf Timesheets verfügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p>  <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td> <p>Sie müssen über Administratorzugriff auf Timesheets verfügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,7 +64,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 >
 >Um Profiländerungen in aktuellen Timesheets zu aktivieren, müssen Sie die vorhandenen Timesheets löschen und dann neue erstellen. Anweisungen finden Sie unter [Löschen von Timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) und [Manuelles Generieren von Timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Wenn Sie ein Timesheet-Profil für die Verwendung im gesamten System erstellen oder bearbeiten, klicken Sie auf **Datenblatt und Stunden**.
 
@@ -71,7 +72,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Wenn Sie ein Timesheet-Profil für eine Gruppe erstellen oder bearbeiten, klicken Sie auf **Gruppen** und klicken Sie dann auf den Namen der Gruppe.
 
-1. Klicken **Datenblatt-Profile**.
+1. Klicks **Datenblätter**.
 1. Um ein neues Zeitleistenprofil zu erstellen, klicken Sie auf **Neues Profil**.
 
    Oder
@@ -81,7 +82,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Das neue oder vorhandene Timesheet-Profil wird angezeigt.
 
 
-1. Im **Details festlegen** tab, geben Sie eine **Name** und **Beschreibung** für das Timesheet-Profil und geben Sie folgende Informationen an:
+1. Im **Details festlegen** tab, geben Sie eine **Name** und **Beschreibung** für das Timesheet-Profil und geben Sie die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -94,30 +95,30 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
       <li> <p>Wenn Sie ein Timesheet-Profil auf Systemebene erstellen, lassen Sie dieses Feld leer.</p> <p>Jeder Benutzer, der Benutzerkonten bearbeiten kann, kann ein Timesheet auf Systemebene an andere Benutzer anhängen.</p> <p>Nur ein Workfront-Administrator kann ein Timesheet-Profil auf Systemebene bearbeiten.</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>Wenn Sie ein Timesheet-Profil für eine von Ihnen verwaltete Gruppe erstellen, identifizieren Sie die Gruppe hier.</p> <p>Dadurch wird den Benutzern in der Gruppe nicht das Timesheet-Profil zugewiesen. Sie ermöglicht es nur den Administratoren der Gruppe, das Timesheet-Profil zu ändern. Sie weisen das Profil den Benutzern in Schritt 6 zu.</p> <p><b>NOTIZ</b>
+      <li> <p>Wenn Sie ein Timesheet-Profil für eine von Ihnen verwaltete Gruppe erstellen, identifizieren Sie die Gruppe hier.</p> <p>Dadurch wird den Benutzern in der Gruppe nicht das Profil des Timesheets zugewiesen, sondern nur den Administratoren der Gruppe ermöglicht, das Profil des Zeitblatts zu ändern. Sie weisen das Profil den Benutzern in Schritt 6 zu.</p>
 
-   Wenn Benutzer außerhalb der Gruppe Timesheet-Profile an andere Benutzer anhängen, können sie dieses Timesheet-Profil nicht sehen oder anhängen.</p> </li>
-   </ul> </p> </td> 
+   <p><b>NOTE</b>: Wenn Benutzer außerhalb der Gruppe Timesheet-Profile an andere Benutzer anhängen, können sie dieses Timesheet-Profil nicht sehen oder anhängen.</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Arbeitszeittabellen erstellen</strong> </td> 
+      <td role="rowheader"><strong>Erstellen von Timesheets</strong> </td> 
       <td> <p> <p>Geben Sie an, wann das Timesheet-Profil die Timesheets generieren soll. Ein Zeitblatt kann so eingestellt werden, dass es automatisch wöchentlich, zweimal wöchentlich, halbmonatlich oder monatlich generiert wird. Wählen Sie den Wochentag aus, an dem das Datenblatt erstellt werden soll.</p>
       <p>Ein wöchentliches Timesheet beginnt mit dem Datum seiner Erstellung. Wenn Sie beispielsweise jeden Donnerstag wöchentliche Timesheets erstellen, ist der erste Wochentag auf dem Timesheet Donnerstag.</p>
-      <p><b>NOTIZ</b></p>
 
-   <p>Workfront erstellt immer zwei Timesheets auf einmal: Das erste Timesheet enthält immer das aktuelle Datum und das zweite Timesheet beginnt mit dem Ende des ersten Zeitrahmens.</p> </p> </td> 
+
+   <p><b>NOTE</b>: Workfront erstellt immer zwei Timesheets auf einmal: Das erste Timesheet enthält immer das aktuelle Datum und das zweite Timesheet beginnt mit dem Ende des ersten Zeitrahmens.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Genehmigende Personen</strong></p> </td> 
-      <td> <p> <p>Genehmiger sind Benutzer, die das Timesheet für die mit dem Timesheet verknüpften Benutzer validieren. Sie können bis zu 7 Benutzer als Genehmiger auf einem Zeitblatt identifizieren. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass ein Genehmiger verfügbar ist, wenn ein Benutzer nicht im Büro ist. Alle Genehmiger werden benachrichtigt, wenn ein Benutzer das Datenblatt zur Genehmigung einreicht. Nur ein Benutzer muss das Datenblatt validieren, damit es genehmigt werden kann.</p> <p>Als Genehmiger können nur Benutzer mit Zeitblatt-Administratorrechten festgelegt werden. Weitere Informationen zu den Verwaltungsrechten für Zeitblätter finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Wählen Sie im Dropdown-Menü den Genehmiger für das Zeitblatt aus (falls ein Genehmiger erforderlich ist). Sie können aus den folgenden Optionen auswählen:</p> 
+      <td> <p> <p>Genehmiger sind Benutzer, die das Timesheet für die mit dem Timesheet verknüpften Benutzer validieren. Sie können bis zu 7 Benutzer als Genehmiger auf einem Zeitblatt identifizieren. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass ein Genehmiger verfügbar ist, wenn ein Benutzer nicht im Büro ist. Alle Genehmiger werden benachrichtigt, wenn ein Benutzer das Datenblatt zur Genehmigung einreicht. Nur ein Benutzer muss das Datenblatt validieren, damit es genehmigt werden kann.</p> <p>Als Genehmiger können nur Benutzer mit Zeitblatt-Administratorrechten festgelegt werden. Weitere Informationen zu den Verwaltungsrechten für Zeitblätter finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Verwenden Sie das Dropdown-Menü, um den Genehmiger für das Zeitblatt auszuwählen (wenn ein Genehmiger erforderlich ist). Sie können aus den folgenden Optionen auswählen:</p> 
       <ul> 
       <li><strong>Keines</strong>: Das Timesheet muss nicht genehmigt werden.</li> 
-      <li><strong>Ihr Manager</strong>: Dies ist der standardmäßige Genehmiger, der vom System festgelegt wird. In diesem Fall genehmigt der Benutzer, der als Manager benannt wurde, das Datenblatt, wenn es zur Genehmigung eingereicht wird.</li> 
+      <li><strong>Ihr Manager</strong>: Dies ist der vom System festgelegte Standard-Genehmiger. In diesem Fall genehmigt der Benutzer, der als Manager benannt wurde, das Datenblatt, wenn es zur Genehmigung eingereicht wird.</li> 
       <li><strong>Spezifische Personen:</strong> Sie können bestimmte Benutzer nach Namen als Timesheet-Genehmiger festlegen. Sie können mehrere Genehmiger auf einem Zeitblatt haben. In diesem Fall wird das Timesheet nach Genehmigung durch einen der Genehmiger als <strong>Geschlossen</strong> und wird aus der Liste der Zeitdatenblatt-Genehmigungen aller verbleibenden Genehmiger entfernt.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Kann Zeit bearbeiten </strong> </td> 
+      <td role="rowheader"><strong>Kann die Zeit bearbeiten </strong> </td> 
       <td> <p> <p>Wählen Sie diese Option aus, damit die Genehmiger Stunden auf dem Zeitblatt bearbeiten können.
 
    Diese Option funktioniert zusammen mit dem **Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren** im Bereich Einstellungen > Timesheet &amp; Stunden > Voreinstellungen . Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Zeitblatt- und Stundenvoreinstellungen konfigurieren</a>.
@@ -125,18 +126,18 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    Die folgenden Szenarien existieren:
 
    <ul>
-      <li>Wenn die <b>Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren</b> -Option aktiviert ist:</li>
+      <li>Wenn die Variable <b>Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren</b> aktiviert ist:</li>
       <ul><li>Die Genehmiger können das Timesheet nur genehmigen und ablehnen, unabhängig davon, ob die <b>Kann die Zeit bearbeiten</b> aktiviert ist oder nicht. </li>
       <li>Die Manager der Timesheet-Eigentümer können nur die Timesheets ihrer direkt unterstellten Mitarbeiter anzeigen.</li></ul>
-      <li>Wenn die <b>Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren</b> ist deaktiviert:</li>
-    <ul><li>Wenn die <b>Kann die Zeit bearbeiten</b> aktiviert ist, können Genehmiger das Timesheet senden, erneut öffnen oder schließen und die Zeit bearbeiten.</li>
-      <li>Wenn die <b>Kann die Zeit bearbeiten</b> deaktiviert ist, können Genehmiger das Timesheet nicht senden, erneut öffnen oder schließen und können die Zeit nicht bearbeiten. Die Validierer können das Timesheet nur genehmigen oder ablehnen. </li>
+      <li>Wenn die Variable <b>Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren</b> ist deaktiviert:</li>
+    <ul><li>Wenn die Variable <b>Kann die Zeit bearbeiten</b> aktiviert ist, können Genehmiger das Timesheet senden, erneut öffnen oder schließen und die Zeit bearbeiten.</li>
+      <li>Wenn die Variable <b>Kann die Zeit bearbeiten</b> deaktiviert ist, können Genehmiger das Timesheet nicht senden, erneut öffnen oder schließen und können die Zeit nicht bearbeiten. Die Validierer können das Timesheet nur genehmigen oder ablehnen. </li>
       <li>Die Manager von Timesheet-Eigentümern können die Timesheets ihrer direkt unterstellten Mitarbeiter senden, abrufen, erneut öffnen und bearbeiten.</li></ul>
       </ul>
 
-   <p><b>NOTIZ</b>
+   <p>
 
-   Sobald Sie ein Zeitblatt zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um ein gesendetes Timesheet in einen bearbeitbaren Zustand zurückzuversetzen, rufen Sie das Timesheet auf oder lassen Sie den Genehmiger das Timesheet zurückweisen. Weitere Informationen finden Sie unter <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Zeitblatt zur Genehmigung einreichen</a> und<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Timesheet genehmigen</a>.</p> </p> </td>
+   <b>NOTE</b>: Sobald Sie ein Zeitblatt zur Genehmigung gesendet haben, können Sie die Stunden nicht mehr bearbeiten. Um ein gesendetes Timesheet in einen bearbeitbaren Zustand zurückzuversetzen, rufen Sie das Timesheet auf oder lassen Sie den Genehmiger das Timesheet zurückweisen. Weitere Informationen finden Sie unter <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Zeitblatt zur Genehmigung einreichen</a> und<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Timesheet genehmigen</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Verfügbare Stundentypen</strong> </td> 
@@ -156,11 +157,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    >[!NOTE]
    >
-   >* Sie können einen Benutzer auch mit einem Zeitblatt-Profil verknüpfen, indem Sie das Benutzerprofil bearbeiten. Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >* Sie können einen Benutzer auch mit einem Zeitblatt-Profil verknüpfen, indem Sie das Benutzerprofil bearbeiten. Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Wenn Sie eine Gruppe hinzufügen, wird nur der Gruppenname auf der Registerkarte &quot;Personen zuweisen&quot;angezeigt, nicht die Liste der Gruppenmitglieder. Wenn Sie die hier aufgelisteten Gruppenmitglieder sehen möchten, klicken Sie auf Änderungen speichern und dann auf den Namen des soeben erstellten Timesheet-Profils.
    >* Wenn Sie diese Schritte abschließen, generiert das Timesheet-Profil nur Timesheets für die zugewiesenen Benutzer oder Gruppenmitglieder, die keine Timesheets für den aktuellen Zeitraum haben.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
 
    Wenn das Timesheet-Profil zum ersten Mal Timesheets generiert, werden für jeden Benutzer zwei Timesheets erstellt. Danach wird jedes Mal, wenn neue Timesheets erstellt werden, pro Benutzer ein Timesheet erstellt.
 

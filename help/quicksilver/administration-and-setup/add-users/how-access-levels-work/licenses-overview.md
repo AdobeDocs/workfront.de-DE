@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
 description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei neuen Workfront-Lizenztypen, wenn Sie ihm eine Zugriffsstufe zuweisen.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -19,13 +19,15 @@ ht-degree: 2%
 
 # Übersicht über neue Lizenzen
 
+<!-- Audited: 12/2023 -->
+
 Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von drei Arten von Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
 
 ## Wie neue Workfront-Lizenzen und neue Zugriffsebenen verknüpft werden
 
 Die drei neuen Workfront-Lizenztypen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
 
-Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die mit dieser Lizenz verbundene Zugriffsstufe zu.
+Anstatt einem Benutzer eine Lizenz zuzuweisen, weisen Sie ihm die mit dieser Lizenz verbundene Zugriffsstufe zu.
 
 Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Workfront:
 
@@ -34,7 +36,7 @@ Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Work
 | Standard | Systemadministrator, Standard |
 | Leicht | Leicht |
 | Mitwirkender oder Mitwirkende | Mitwirkender oder Mitwirkende |
-| Extern* | Externer Benutzer |
+| External* | Externer Benutzer |
 
 >[!NOTE]
 >
@@ -54,6 +56,6 @@ Wenn Sie einem Benutzer eine Zugriffsstufe zuweisen, wird Ihre verfügbare Lizen
 
 Wenn Sie beispielsweise einem Benutzer die Standardzugriffsstufe zuweisen, wird Ihre Anzahl der verfügbaren Standardlizenzen um 1 verringert.
 
-Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Informationen zur Verwaltung Ihrer Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
+Informationen zur Verwaltung Ihrer Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

@@ -6,7 +6,7 @@ description: Die [!DNL Adobe Workfront] [!DNL Outlook] -Add-in ermöglicht Ihnen
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Einrichten [!DNL Adobe Workfront for Outlook]
+
+<!-- Audited: 12/2023 -->
 
 Die [!DNL Adobe Workfront] [!DNL Outlook] -Add-In ermöglicht Ihnen die Ausführung des folgenden Schlüssels [!DNL Workfront] Aufgaben direkt aus Outlook:
 

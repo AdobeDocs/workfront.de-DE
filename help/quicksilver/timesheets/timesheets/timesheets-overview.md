@@ -7,7 +7,7 @@ description: Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Timesheets - Übersicht
+
+<!-- Audited: 12/2023 -->
 
 Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und außerhalb von Adobe Workfront zu verfolgen.
 
