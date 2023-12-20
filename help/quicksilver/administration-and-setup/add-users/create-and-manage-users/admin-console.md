@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
 ## Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Aus dem [Adobe Admin Console-Seite](https://adminconsole.adobe.com/), wählen Sie die **Produkte** in der oberen Navigationsleiste ein und wählen Sie dann die **Workfront** Produktkachel.
+1. Aus dem [Adobe Admin Console-Seite](https://adminconsole.adobe.com/), wählen Sie die **Produkte** in der oberen Navigationsleiste ein und wählen Sie dann **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. Wählen Sie in der angezeigten Liste den Link oben aus.
 
    Dies ist Ihre Produktionsinstanz, in der Ihre Benutzer arbeiten.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ So genehmigen Sie einen Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus und klicken Sie auf das M **o** Symbol &quot;re&quot; ![](assets/more-icon.png).
+1. Wählen Sie den Benutzer aus und klicken Sie dann auf das **Mehr** icon ![](assets/more-icon.png).
 
 1. Klicken Sie zur Genehmigung des Benutzers auf **Genehmigen** Klicken Sie auf **Einsenden**.
 
