@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ In den folgenden Artikeln finden Sie einen Überblick über Adobe Maestro:
 * [Videodemonstration von Adobe Maestro anzeigen](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Übersicht über Adobe Maestro](maestro-overview.md): Eine allgemeine Übersicht über Adobe Maestro, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Maestro Ihre Journey zu starten.
 * [Adobe Maestro-Release-Aktivität](../maestro/release-activity.md): Eine Liste aller Funktionen, die seit dem Start des beendeten Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden, mit genauen Veröffentlichungsterminen und einem kurzen Überblick über jede Funktion.
+* [Adobe Maestro-Module für Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Maestro-Architektur und -Funktionalität
 

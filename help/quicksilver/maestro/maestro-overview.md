@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,44 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen von Maestro:
 * Lösung des Problems der Verwaltung der Arbeit in allen Phasen und für alle am Arbeitsprozess beteiligten Akteure.
 * Passen Sie Ihre Workflows vollständig an, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren Sie, wie diese Objekte miteinander verknüpft werden.
 * Relation zu Objektarten aus anderen Systemen, Erstellung eines kohärenten Frameworks für alle Ihre Prozesse.
+
+## Derzeit in Maestro verfügbare Funktionen
+
+Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
+
+| Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Erstellen von Arbeitsbereichen | ✓ |                                  |                  |
+| Erstellen von operationellen Datensatztypen | ✓ |                                  |                  |
+| Erstellen von Taxonomien | ✓ |                                  |                  |
+| Erstellen einzelner, benannter Datensätze und Taxonomien | ✓ |                                  |                  |
+| Benutzerdefinierte Datensatzfelder erstellen | ✓ |                                  |                  |
+| Importieren von Datensatztypen und Feldern mithilfe einer Excel- oder CSV-Datei | ✓ |                                  |                  |
+| Link-Datensätze | ✓ |                                  |                  |
+| Datensätze in einer Tabelle anzeigen | ✓ |                                  |                  |
+| Anzeigen von Datensätzen in einer Timeline | ✓ |                                  |                  |
+| Datensätze filtern | ✓ |                                  |                  |
+| Gruppieren von Datensätzen in der Timeline-Ansicht | ✓ |                                  |                  |
+| Gruppieren von Datensätzen in der Tabellenansicht | ✓ |                                 |                  |
+| Sortieren von Datensätzen in der Tabellenansicht | ✓ |                                 |                  |
+| Sortieren von Datensätzen in der Timeline-Ansicht |                               | ✓ |                  |
+| Sortieren von Gruppierungen in der Tabellenansicht |                               | ✓ |                  |
+| Sortieren von Gruppierungen in der Timeline-Ansicht |                               | ✓ |                  |
+| Arbeitsbereiche verbinden |                               | ✓ |                  |
+| Maestro-Datensätze und Taxonomien verbinden | ✓ |
+| In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
+| Verbinden von Maestro-Datensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
+| Maestro-Datensätze mit Adobe Experience Manager-Assets verbinden | ✓ |                                  |                 |
+| Seite mit Datensatzdetails | ✓ |                                  |                  |
+| Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
+| Workspace-Berechtigungen | | ✓ |  |
+| Anfragen senden |                               |                                  | ✓ |
+| Kreativbeschreibung |                               |                                  | ✓ |
+| Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
+| Kommentare zu Datensätzen hinzufügen | ✓ |                                  |                 |
+| Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |
+| Maestro-Module für Adobe Workfront Fusion | ✓ |                                  |                 |
+| Informationen aus einem Feld in ein anderes kopieren und einfügen | ✓ |                                  |                 |
 
 ## Zugriff erforderlich für die Verwendung von Maestro während des geschlossenen Betaprogramms
 
@@ -344,44 +382,6 @@ Suchen nach Maestro:
    1. Erstellen Sie eine Timeline-Ansicht aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 
    1. Passen Sie die Timeline-Ansicht an, indem Sie Filter, Gruppierungen oder Einstellungen aktualisieren.
-
-## Derzeit in Maestro verfügbare Funktionen
-
-Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
-
-| Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Erstellen von Arbeitsbereichen | ✓ |                                  |                  |
-| Erstellen von operationellen Datensatztypen | ✓ |                                  |                  |
-| Erstellen von Taxonomien | ✓ |                                  |                  |
-| Erstellen einzelner, benannter Datensätze und Taxonomien | ✓ |                                  |                  |
-| Benutzerdefinierte Datensatzfelder erstellen | ✓ |                                  |                  |
-| Importieren von Datensatztypen und Feldern mithilfe einer Excel- oder CSV-Datei | ✓ |                                  |                  |
-| Link-Datensätze | ✓ |                                  |                  |
-| Datensätze in einer Tabelle anzeigen | ✓ |                                  |                  |
-| Anzeigen von Datensätzen in einer Timeline | ✓ |                                  |                  |
-| Datensätze filtern | ✓ |                                  |                  |
-| Gruppieren von Datensätzen in der Timeline-Ansicht | ✓ |                                  |                  |
-| Gruppieren von Datensätzen in der Tabellenansicht | ✓ |                                 |                  |
-| Sortieren von Datensätzen in der Tabellenansicht | ✓ |                                 |                  |
-| Sortieren von Datensätzen in der Timeline-Ansicht |                               | ✓ |                  |
-| Sortieren von Gruppierungen in der Tabellenansicht |                               | ✓ |                  |
-| Sortieren von Gruppierungen in der Timeline-Ansicht |                               | ✓ |                  |
-| Arbeitsbereiche verbinden |                               | ✓ |                  |
-| Maestro-Datensätze und Taxonomien verbinden | ✓ |
-| In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
-| Verbinden von Maestro-Datensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
-| Verbinden von Maestro-Datensätzen mit Adobe Experience Manager-Assets, -Ordnern und -Sammlungen | ✓ |                                  |                 |
-| Seite mit Datensatzdetails | ✓ |                                  |                  |
-| Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
-| Workspace-Berechtigungen | | ✓ |  |
-| Anfragen senden |                               |                                  | ✓ |
-| Kreativbeschreibung |                               |                                  | ✓ |
-| Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
-| Kommentare zu Datensätzen hinzufügen |                               | ✓ |                 |
-| Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |
-
-
 
 ## Maestro-Release-Aktivität
 

@@ -6,7 +6,7 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Fol
   >
   >1. Verwenden Sie den Standard-Builder, um einen Filter mit der folgenden Syntax zu erstellen:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Wechseln Sie zum Legacy-Builder und bearbeiten Sie den Filter anhand der Syntax des Legacy-Builders, wie im Abschnitt [Erstellen oder Bearbeiten von Filtern im Legacy-Builder](#create-filter-in-legacy-builder) in diesem Artikel beschrieben. Die Syntax für den Legacy-Builder zeigt die Filteranweisungen wie folgt an:
+  >1. Wechseln Sie zum Legacy-Builder und bearbeiten Sie den Filter mithilfe der Syntax des Legacy-Builders, wie im Abschnitt beschrieben [Erstellen oder Bearbeiten von Filtern im Legacy-Builder](#create-filter-in-legacy-builder) in diesem Artikel. Die Syntax für den Legacy-Builder zeigt die Filteranweisungen wie folgt an:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Ändern Sie den Filter in der alten Benutzeroberfläche.
   >1. Wechseln Sie zurück zum Standard-Builder. Die Filteranweisung wird entsprechend der Logik angezeigt, die im Legacy-Builder unterstützt wird, wie oben beschrieben.
   >
-  >   Der Filter wird in der Standard-Builder-Oberfläche wie folgt angezeigt:
+  >      Der Filter wird in der Standard-Builder-Oberfläche wie folgt angezeigt:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Dies geschieht, weil der Filter in der alten Benutzeroberfläche geändert wurde.
+  >      Dies geschieht, weil der Filter in der alten Benutzeroberfläche geändert wurde.
 
 ## Erstellen oder Bearbeiten von Filtern im Standard-Builder
 

@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * Startseite
 > * Zusammenfassungsbereich in Listen
 > * Zusammenfassungsbereich in Timesheets
+> * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * Von einem Workfront-Objekt im Abschnitt Updates
    * Im Startbereich (für Aufgaben und Probleme)
-   * Über das Bedienfeld &quot;Zusammenfassung&quot;in einer Liste von Objekten oder aus einem Timesheet (für Aufgaben und Probleme)
+   * Aus dem Bereich &quot;Zusammenfassung&quot;in einer Liste von Objekten, einem Timesheet oder aus dem Arbeitslast-Balancer (für Aufgaben und Probleme)
 
 Die Informationen auf dieser Seite beschreiben, wie Sie Kommentare zu Workfront-Objekten erstellen können und wie Sie Projekte, Aufgaben und Probleme aktualisieren, wenn Sie ihnen Kommentare hinzufügen.
 

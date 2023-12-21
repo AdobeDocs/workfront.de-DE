@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 
 1. Klicken Sie auf **+** rechts oben in der Tabellenansicht, um neue Felder hinzuzufügen.
-1. Im **Neues Feld** wählen Sie aus den folgenden Feldtypen aus:
+1. Im **Neues Feld** -Registerkarte nach einem Feldtyp in der **Feldtyp** oder wählen Sie aus den folgenden Feldtypen aus:
 
    * [Einzeiliger Text](#single-line-text)
    * [Absatz](#paragraph)
