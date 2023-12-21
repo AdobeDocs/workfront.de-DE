@@ -7,26 +7,26 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Smart-Zuweisungen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie Smart-Zuweisungen verwenden, um zu ermitteln, wer die Arbeit am besten abschließen kann. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
+
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie mithilfe von intelligenten Zuweisungen ermitteln, wer die beste Ressource ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Bei intelligenten Zuweisungen kann es sich um Benutzer, Auftragsrollen oder Teams handeln.
 
 >[!NOTE]
 >
->Bei intelligenten Zuweisungen wird die Verfügbarkeit des Benutzers nicht berücksichtigt. Die Verfügbarkeit der Aufgaben gemäß ihren Zeitplänen wirkt sich jedoch auf die geplanten und geplanten Termine von Aufgaben und Problemen aus, wenn sie zugewiesen werden. Weitere Informationen zu Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Beim Vorschlag für Benutzer berücksichtigen Smart-Zuweisungen nicht die Verfügbarkeit des Benutzers. Die Verfügbarkeit der Aufgaben gemäß ihren Zeitplänen wirkt sich jedoch auf die geplanten und geplanten Termine von Aufgaben und Problemen aus, wenn sie zugewiesen werden. Weitere Informationen zu Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Dieser Artikel enthält allgemeine Informationen zu Smart-Zuweisungen. Informationen zur Verwendung von Smart-Zuweisungen zum Zuweisen von Aufgaben und Problemen zu Benutzern finden Sie unter [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ Beachten Sie beim Arbeiten mit Smart-Zuweisungen Folgendes:
 
 Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgaben oder Probleme zuweisen können:
 
-* Aufgabe oder Problemliste oder Bericht <!--edit this to say just issue list or report and update screen shot - add new one-->
+* Eine Problemliste oder ein Bericht in der Spalte Zuweisungen
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">Aufgabenliste oder Bericht in der Spalte &quot;Zuweisungen&quot; </span>
 
-* Aufgaben- oder Problemkopfzeile
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* Eine Aufgaben- oder Problemüberschrift im Feld &quot;Zuweisungen&quot;
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* Das Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
+* Die Aufgaben- oder Problemzusammenfassung im Bereich &quot;Zuweisungen&quot;
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist
+* Das Feld Zuweisungen für ein Element, das im Bereich &quot;Home&quot;im Bereich &quot;Assignments&quot;aufgeführt ist, wenn Sie eine Aufgabe oder ein Problem öffnen
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* Workload Balancer
+* Arbeitslastausgleich im Bereich &quot;Zugeordneter Benutzer&quot;, wenn Sie eine Aufgabe oder ein Problem zuweisen
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterien für intelligente Zuweisungen
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+Smart-Zuweisungen funktionieren bei Aufgaben anders als bei Problemen.
 
-### Smart assignments criteria for tasks
+### Kriterien für intelligente Zuweisungen für Aufgaben
 
-Task smart assignments work in two phases:  
+Die Berechnung der intelligenten Aufgabenzuweisungen erfolgt in zwei Phasen.
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+In der ersten Phase der Berechnung von Smart-Zuweisungen berechnet Workfront für jede Zuweisung einen Ähnlichkeitswert. Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweisungen aufgelistet werden, wird Folgendes berücksichtigt:
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* Eine vorhandene Zuweisung wird mit 100 % bewertet, wobei die Namen der Aufgabe, des Projekts und des Portfolios mit der Aufgabe übereinstimmen, die Sie zuweisen möchten. Die Projekt- und Portfolionamen der Aufgabe einer vorhandenen Zuweisung müssen ebenfalls mit dem Projekt und Portfolio der Aufgabe übereinstimmen, die Sie zuweisen möchten.
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* Wenn nur einige dieser Informationen aus anderen Zuweisungen mit den vorhandenen Aufgaben übereinstimmen, kann das Ergebnis unter 100 % liegen.
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  Wenn Sie beispielsweise eine Aufgabe mit dem Namen &quot;Meine zweite Aufgabe&quot;für ein Projekt mit dem Namen &quot;Mein Projekt&quot;in einem Portfolio mit dem Namen &quot;Mein Portfolio&quot;zuweisen und in einem anderen Projekt mit dem Namen &quot;Mein Projekt&quot;in einem Portfolio mit dem Namen &quot;Mein Portfolio&quot;eine vorhandene Aufgabe mit dem Namen &quot;Meine Aufgabe&quot;haben, erhält der Benutzer möglicherweise eine Punktzahl von 95 %, da der Name der vorhandenen Aufgabe und die Aufgabe, die Sie jetzt zuweisen möchten, ähnlich sind .
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  Workfront sucht nach Übereinstimmungen nur in den Namensfeldern von Aufgaben, Projekten und Portfolios und nicht in anderen Feldern.
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* Eine Zuweisung kann einen höheren Wert erhalten, wenn sie einer Vielzahl von Aufgaben im System mit ähnlichen Namen zugewiesen werden. Wenn beispielsweise ein Team mit dem Namen &quot;Entwicklung&quot;50 % der Aufgaben im System zugewiesen ist, das &quot;KI&quot;im Namen enthält, und Sie jetzt eine weitere Aufgabe mit &quot;KI&quot;im Namen zuweisen, ist das Ergebnis des &quot;Entwicklungs&quot;-Teams höher. In diesem Fall sind die Namen von Projekten und Portfolios nicht so wichtig.
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* Unter Berücksichtigung dieses Scoring-Systems werden die ersten sieben Vorschläge in absteigender Reihenfolge ihrer Bewertungen als Smart-Zuweisungen aufgeführt. Zuweisungen mit einer Punktzahl unter 40 % werden nicht angezeigt.
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* Wenn mehrere Zuweisungen identische Werte aufweisen, werden diese ab dem letzten Datum in der Reihenfolge angezeigt, an der die Zuweisungen vorgenommen wurden.
 
-#### Second phase of smart assignment calculation criteria for tasks
+  Wenn Rick beispielsweise zu einem früheren Zeitpunkt einer ähnlichen Aufgabe zugewiesen wurde und Jennifer vor zwei Tagen einer ähnlichen Aufgabe zugewiesen wurde, wird Rick zuerst angezeigt.
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
 
-### Smart assignments criteria for tasks and issues 
+#### Zweite Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 
-</div> 
+Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen gefunden wurden, berechnet Workfront Smart-Zuweisungen für Aufgaben auf die gleiche Weise wie für Probleme.
+
+Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
+
+### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 

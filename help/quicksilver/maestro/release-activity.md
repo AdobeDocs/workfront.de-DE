@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ Das Kommentarerlebnis für Maestro-Datensätze entspricht dem neuen Kommentarerl
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Maestro-Connector (Beta) für Adobe Workfront Fusion
+
+Vorschau und Produktion: 21. Dezember 2023
+
+Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu Maestro herzustellen. Mit der neuen Adobe Maestro Fusion-Verbindung können Sie:
+
+* Datensätze erstellen, lesen, aktualisieren und löschen
+
+* Datensatzliste nach Datensatztyp abrufen
+
+* Löschen oder Abrufen einer Liste von Datensatztypen
+
+* Suchdatensätze
+
+* API-Aufruf
+
+* Trigger eines Szenarios bei einer Änderung in Maestro
+
+Weitere Informationen finden Sie unter [Adobe Maestro-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Woche vom 11. Dezember 2023
 
 ### Primärfeld in Tabellenansicht eines Datensatztyps aktualisieren
@@ -126,7 +146,7 @@ Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksi
 
 Vorschau: 14. Dezember 2023
 
-Produktionsversion: geplant für den 15. Dezember 2023
+Produktionsversion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
