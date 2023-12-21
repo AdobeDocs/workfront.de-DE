@@ -6,9 +6,9 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Die [!UICONTROL **Hinzufügen von Karten**] Zähler zeigt an, wie viele Karten auf der Pinnwand vorhanden sein werden. Wenn Sie beispielsweise ein Projekt mit 100 Aufgaben und Problemen auswählen, zeigt der Zähler 100 an. Wenn Sie eine Benutzerzuweisung hinzufügen und diese Person fünf Aufgaben im Projekt zugewiesen ist, zeigt der Zähler 5 an.
 
-   1. (Optional) Wählen Sie [!UICONTROL **Fertiggestellte Arbeit einschließen**] , um abgeschlossene Karten in die Pinnwand aufzunehmen.
+   1. (Optional) Wählen Sie [!UICONTROL **Schließen Sie abgeschlossene Arbeiten als archivierte Karten ein**] , um abgeschlossene Aufgaben und Probleme als archivierte Karten auf die Pinnwand zu bringen.
 
       >[!NOTE]
       >
-      >Wenn diese Option nicht ausgewählt ist und Karten in anderen Status als vollständig markiert sind, werden sie auf der Pinnwand &quot;abfallen&quot;und nicht mehr angezeigt.
+      >Standardmäßig werden archivierte Karten nicht auf der Pinnwand angezeigt. Um archivierte Karten anzuzeigen, müssen Sie eine Konfigurationseinstellung aktivieren und dann die Pinnwand filtern, um archivierte Karten anzuzeigen. Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) und [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Wenn diese Option nicht ausgewählt ist, werden abgeschlossene Karten zum Zeitpunkt der Pinnwanderstellung nicht auf der Pinnwand angezeigt. Karten, die später als vollständig markiert wurden, bleiben in der Spalte &quot;Complete&quot;auf der Pinnwand und werden nur archiviert, wenn Sie Kartenfalloff eingerichtet haben. Weitere Informationen finden Sie unter [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Optional) Klicken Sie auf [!UICONTROL **Erweiterte Filter verwenden**] , um weitere Filteroptionen anzuzeigen.
 
