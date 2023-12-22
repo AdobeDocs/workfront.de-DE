@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version Q1 2024 {#release-24-q1}
          * [Übersicht über die Q1-Version 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [Verbesserungen für Administratoren im ersten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [Verbesserungen der Dokumentenverwaltung im ersten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Verbesserungen für Q1-Administratoren im Jahr 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [Verbesserungen der Dokumentenverwaltung in Q1 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Verbesserungen für Q1-Mainboards 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [Verbesserungen für Q1 2024 - Startseite](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [Verbesserungen der Integration in Q1 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [Verbesserungen für das erste Quartal 2024 - Startseite](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [Verbesserungen am Q1-Projekt 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024 Q1 Verbesserungen beim Update von Stream und Benachrichtigungen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Version 4. Quartal 2023 {#release-23-q4}
          * [4. Quartal 2023 - Versionsübersicht](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Verbesserungen für Q4-Administratoren im Jahr 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 0%
          * [Anpassen des linken Bedienfelds](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Detailansicht anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Anpassen von Startseite und Zusammenfassung](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Neue Startseite anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Anpassen von fixierten Seiten](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Anpassen von Filtern, Ansichten, Gruppierungen](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [Terminologie der Benutzeroberfläche anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

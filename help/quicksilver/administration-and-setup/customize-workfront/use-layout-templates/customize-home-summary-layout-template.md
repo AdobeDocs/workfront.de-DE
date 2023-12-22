@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Sie können Folgendes konfigurieren:
 
 Sie können auch die Felder anpassen, die Benutzern im Bereich Startseite angezeigt werden, wenn Benutzer auf eine ihnen zugewiesene Projektgenehmigung, Dokumentgenehmigung oder Dokumentversionsgenehmigung klicken.
 
-Informationen zum Startbereich finden Sie unter [Verwenden des Startbereichs](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Weitere Informationen zum Startbereich finden Sie unter [Verwenden des Startbereichs](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Klicken Sie auf den Abwärtspfeil. ![](assets/dropdown-arrow.png) under **Anpassen der Ansicht von Benutzern** Klicken Sie auf **Startseite und Zusammenfassung**.
 
-1. Klicken Sie in der Liste auf der linken Seite auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), die Sie in Startseite und Zusammenfassung anpassen möchten.
+1. Klicken Sie in der links angezeigten Liste auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), die Sie in Startseite und Zusammenfassung anpassen möchten.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,7 +101,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Bedingt) Wenn die Variable **Schaltfläche &quot;Primäre Aktion festlegen&quot;** Dropdown-Menü angezeigt (wenn Sie **Aufgaben** oder **Probleme** Klicken Sie links in der Liste auf die primäre Aktion (**Fertig** oder **Status**), die Sie Benutzern im Bereich Startseite und im Bereich Zusammenfassung zur Verfügung stellen möchten, wenn sie eine Aufgabe oder ein Problem anzeigen.
+1. (Bedingt) Wenn die Variable **Schaltfläche &quot;Primäre Aktion festlegen&quot;** Dropdown-Menü angezeigt (wenn Sie **Aufgaben** oder **Probleme** in der Liste auf der linken Seite), klicken Sie auf die primäre Aktion (**Fertig** oder **Status**), die Sie Benutzern im Bereich &quot;Startseite&quot;und im Bereich &quot;Zusammenfassung&quot;zur Verfügung stellen möchten, wenn sie eine Aufgabe oder ein Problem anzeigen.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -110,7 +110,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Wiederholen Sie die Schritte 3 bis 6, um den Startbereich und das Bedienfeld &quot;Zusammenfassung&quot;für alle anderen Objekttypen anzupassen.
-1. Klicken **Globale Einstellungen** in der Nähe der linken unteren Ecke eine der folgenden Optionen für Adobe Workfront-Objekte in Startseite und Zusammenfassung aktivieren oder deaktivieren:
+1. Klicks **Globale Einstellungen** in der Nähe der linken unteren Ecke eine der folgenden Optionen für Adobe Workfront-Objekte in Startseite und Zusammenfassung aktivieren oder deaktivieren:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -134,8 +134,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
        <ul>
         <li>Geplantes Abschlussdatum</li>
         <li>Verpflichtungsdatum</li>
-        <li><p>Gesendetes Datum</p></li>
-       </ul><p><b>NOTE</b>: Wenn diese Option aktiviert ist, werden Arbeitselemente, die überfällig werden, in die verspätete Gruppierung in der Hausarbeitsliste verschoben, wobei nur das Datum und nicht die Uhrzeit verwendet wird.</p></td> 
+        <li>Gesendetes Datum</li>
+       </ul><p><b>NOTE</b>: Wenn diese Option aktiviert ist, werden Arbeitselemente, die überfällig werden, in die verspätete Gruppierung in der Hausarbeitsliste verschoben, basierend auf dem Datum, nicht der Zeit.</p></td> 
      </tr> 
     </tbody> 
    </table>
