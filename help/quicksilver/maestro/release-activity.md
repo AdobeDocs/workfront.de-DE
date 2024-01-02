@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Woche vom 18. Dezember 2024
+## Woche vom 25. Dezember 2023
+
+### Suchen in der Timeline-Ansicht
+
+Vorschau und Produktion: 27. Dezember 2023
+
+Sie können jetzt nach einem Keyword suchen, um schnell einen Datensatz in der Timeline-Ansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](../maestro/views/manage-the-timeline-view.md).
+
+## Woche vom 18. Dezember 2023
 
 ### Hinzufügen von Kommentaren zu Datensätzen über die Detailseite
 
@@ -331,7 +339,7 @@ Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](../maest
 
 Vorschau und Produktion: 9. Oktober 2023
 
-Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen in allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
+Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
 
 ## Woche vom 18. September 2023
 

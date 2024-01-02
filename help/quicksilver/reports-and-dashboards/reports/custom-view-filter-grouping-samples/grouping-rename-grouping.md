@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Gruppierung: den Anzeigenamen in einer Gruppierung bearbeiten'''
-description: Sie können Gruppierungen so umbenennen, dass sie Ihren Benutzern besser bekannt sind.
-author: Lisa and Nolan
+title: 'Gruppierung: Anzeigename in einer Gruppierung bearbeiten'
+description: Sie können Gruppierungen in Listen und Berichten so umbenennen, dass sie Ihren Benutzern besser bekannt sind.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Gruppierung: den Anzeigenamen in einer Gruppierung bearbeiten
+# Gruppierung: Anzeige in einer Gruppierung gruppieren
+
+<!--Audited: 01/2024-->
 
 Sie können Gruppierungen so umbenennen, dass sie Ihren Benutzern besser bekannt sind.
 
@@ -36,12 +38,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zur Änderung einer Gruppierung </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td>
+
+<p>Neu: </p>
+   <ul>
+   <li> <p>Mitwirkende bei der Änderung einer Gruppierung </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li></ul>
+
+<p> Aktuell:</p>
+   <ul>  
+   <li><p>Anforderung zur Änderung einer Gruppierung </p></li>
+   <li><p>Berichtänderung planen</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -65,47 +76,36 @@ So ändern Sie den Anzeigenamen in einer Projektgruppe:
 1. Gehen Sie zu einer Projektliste.
 1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
 
-1. Klicken **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Portfolio Name&quot;im **Zuerst durch:** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Portfolio Name&quot;im **Zuerst durch:** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Fügen Sie den folgenden Code zum vorhandenen Text hinzu, der im **Gruppieren Ihres Berichts** Feld:
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      Oder in diesem Fall:
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     Oder in diesem Fall:
+
+     `group.0.displayname=Portfolio`
 
    * Entfernen Sie alle Zeilen in der Textmodus-Benutzeroberfläche der Gruppierung, die das Wort &quot;name&quot;enthalten, und fügen Sie dann die Zeile hinzu:
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      Oder in diesem Fall:
+     Oder in diesem Fall:
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      Sie können auch die
+     >[!TIP]
+     >
+     >Sie können auch die `group.0.name=` und `group.0.displayname=` leer, wobei die Gruppierung den zu gruppierenden Wert angibt.
 
-      ```
-      group.0.name
-      ```
 
-      leer, wobei die Gruppierung den Namen des Werts angibt, nach dem Sie gruppieren möchten.
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+1. Klicks **Fertig**, dann **Gruppierung speichern**.
 
-1. Klicken **Fertig**, dann **Gruppierung speichern**.
+   Der Standardname für die Gruppierung wird entsprechend Ihren Textmodusinformationen geändert.
