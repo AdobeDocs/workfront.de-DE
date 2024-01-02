@@ -4,9 +4,9 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
                     </td>
                 </tr>                
            </tbody>

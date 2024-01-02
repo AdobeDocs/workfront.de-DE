@@ -4,9 +4,9 @@ description: Verbesserungen der Dokumentenverwaltung im ersten Quartal 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 ## Aktualisierte Status für Dokumentgenehmigungen
 
+>[!NOTE]
+>
+>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.
+
 Um den Status der Dokumentgenehmigung klarer zu gestalten, wurden die verfügbaren Dokumentstatus-Genehmigungen aktualisiert. Jetzt werden Validierungsverantwortliche mit dem Genehmigungsstatus erfasst, die ihre Überprüfung als abgeschlossen kennzeichnen, sowie Fälle, in denen es nur Validierungsverantwortliche, aber keine Genehmiger gibt.
 
 Weitere Informationen zu bestimmten verfügbaren Status finden Sie unter [Genehmigungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Der Dokumentprüfungs- und Genehmigungsstatus wird in der Dokumentüberschrift angezeigt
 
+>[!NOTE]
+>
+>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.
+
 Um den Überprüfungs- und Genehmigungsprozess transparenter zu gestalten, haben wir den Status zur Kopfzeile der Seite &quot;Dokumentdetails&quot;hinzugefügt. Jetzt können Sie auf einen Blick sehen, welche Genehmigungsentscheidung für das Dokument getroffen wurde oder ob das Dokument noch geprüft wird.
 
 Informationen zu bestimmten Status finden Sie unter [Genehmigungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Markieren einer Überprüfung als abgeschlossen
+
+>[!NOTE]
+>
+>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.
 
 Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue **Meine Überprüfung abschließen** Schaltfläche. Wenn nun ein Benutzer, der als Prüfer eingestellt ist, ein Dokument überprüft hat, kann er auf die **Meine Überprüfung abschließen** -Schaltfläche, um in Workfront aufzuzeichnen, dass die Überprüfung abgeschlossen ist.
 
