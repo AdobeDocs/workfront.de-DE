@@ -4,9 +4,9 @@ description: Verbesserungen für das erste Quartal 2024 - Startseite
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,13 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-<!--
+## Administratorsteuerelemente für die neue Startseite mit Layoutvorlagen
 
-## Administrator controls for new Home using layout templates
+Administratoren können jetzt die neue Startseite für Benutzer mithilfe von Layoutvorlagen anpassen. Zu den Anpassungsoptionen gehören die Auswahl obligatorischer Widgets und ihrer Position, die Auswahl eines Hintergrunds und widget-spezifische Optionen zur Auswahl verfügbarer Filter und Gruppen (sowie die Festlegung von Standardeinstellungen).
 
-Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
+Beachten Sie, dass die Auswahl der Vorlage für das Layout des Administrators die Anpassung der einzelnen Benutzer außer Kraft setzt. Wenn also Änderungen an einer Layoutvorlage gespeichert werden, wird die neue Startseite für Benutzer dieser Layoutvorlage entsprechend der Layoutvorlage geändert und die vorhandenen Widget-Auswahlen werden an den unteren Rand der Seite verschoben. Widgets, die vom Administrator ausgewählt wurden, können zwar von einem Benutzer neu positioniert werden, aber nicht entfernt werden.
 
-Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
-
-For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
-
--->
+Weitere Informationen finden Sie unter [Neue Startseite mit einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## Die Schnellaktion-Schaltflächen für &quot;Arbeit&quot;wurden geändert, sodass sie nur auf dem Mauszeiger angezeigt werden
 
