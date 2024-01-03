@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Die Anleitungsartikel zur Workfront-Dokumentation enthalten eine Tabelle, in der die Zugriffs- und Berechtigungsanforderungen für dieses Verfahren erläutert werden. In dieser Tabelle mit den Zugriffsanforderungen erfahren Sie, ob Sie eine bestimmte Aktion in Workfront durchführen können oder warum Sie dies möglicherweise nicht tun können. In diesem Artikel werden die einzelnen Elemente der Tabelle mit den Zugriffsanforderungen erläutert und Tipps zur Fehlerbehebung sowie Links zu ausführlicheren Informationen bereitgestellt.
 
 Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel keine Zeile vorhanden ist, sind für diese Aktion keine Anforderungen dieses Typs erforderlich.
+
+Einige Zeilen enthalten Informationen mit den Bezeichnungen &quot;Neu&quot;und &quot;Aktuell&quot;. Der Grund dafür ist, dass Workfront auf ein neues Preismodell und Verpackungsmodell umstellt, bei dem einige Unternehmen nach dem neuen Modell arbeiten und andere weiterhin das aktuelle Modell verwenden. Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welches Modell Ihr Unternehmen verwendet. Details und Links zu Informationen finden Sie im [Die Tabelle Zugriffsanforderungen](#the-access-requirements-table) Abschnitt dieses Artikels.
 
 >[!NOTE]
 >
@@ -53,6 +55,18 @@ Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel ke
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Workfront bietet einige Produkte, die zusätzlich zu Workfront erworben werden können.
+   <p>In Artikeln, in denen Verfahren beschrieben werden, die innerhalb dieser zusätzlichen Produkte durchgeführt werden, wird das erforderliche Produkt hier aufgelistet.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets oder Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront-Ziele</li>
+   <li>Workfront-Szenario-Planer</li>
+   </ul>
+   <p>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, ob Ihr Unternehmen eines dieser zusätzlichen Produkte erworben hat.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Zugriffsebene</td> 
    <td> Zugriffsebenen sind Berechtigungssätze für Aktionen, die Sie in Workfront ausführen können. Diese werden von Ihrem Workfront-Administrator festgelegt. <p>Workfront verfügt über integrierte Zugriffsebenen, die den Workfront-Lizenzen entsprechen. Ihr Workfront-Administrator kann jedoch mehr Zugriffsebenen erstellen, um die in Ihrem Unternehmen benötigten Berechtigungssätze genauer widerzuspiegeln.</p>
    <ul>
@@ -60,7 +74,7 @@ Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel ke
    <ul>
    <li>Neu: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über die neuen Zugriffsebenen</a></li>
    <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Übersicht über Zugriffsebenen</a></li></ul></li>
-    <li>Wenden Sie sich an Ihren Workfront-Administrator, um die Details Ihrer Zugriffsstufe zu erfahren.</li>
+    <li>Wenden Sie sich an Ihren Workfront-Administrator, um Details zu Ihrer Zugriffsstufe zu erhalten.</li>
     <li>Wenn Sie Workfront-Administrator sind, lesen Sie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Zugriff auf Adobe Workfront konfigurieren</a> , um mehr über die Gewährung des Zugriffs auf bestimmte Objekte auf der Zugriffsebene zu erfahren.</li>  
    <li>Wenn Sie über die richtige Zugriffsstufe verfügen und dennoch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</li>
     </td>
