@@ -3,32 +3,40 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]
-description: E-Mail-Benachrichtigungen informieren die Mitwirkenden über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten und Entscheidungen.
+description: Von Workfront Testversand generierte E-Mail-Benachrichtigungen informieren die Mitwirkenden über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten oder Entscheidungen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
 
 # E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]
 
+<!--Audited: 01/2024-->
+
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
-E-Mail-Benachrichtigungen informieren die Mitwirkenden über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten und Entscheidungen.
+E-Mail-Benachrichtigungen informieren Mitarbeiter über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten oder Entscheidungen.
 
-E-Mail-Benachrichtigungen für Validierungsverantwortliche können auf der Seite Neuer Testversand eingestellt werden. [!UICONTROL Neue Version] und in der [!UICONTROL Workflow] Abschnitt [!UICONTROL Testversanddetails] Seite. Weitere Informationen finden Sie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Sie können E-Mail-Benachrichtigungen für Prüfer in den folgenden Bereichen einrichten:
+
+* Neue Testseite
+* Die [!UICONTROL Neue Version] page
+* Die [!UICONTROL Workflow] Abschnitt [!UICONTROL Testversanddetails] Seite.
+
+Weitere Informationen finden Sie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Jeder Benutzer kann auch seine eigenen E-Mail-Warneinstellungen festlegen, die automatisch angewendet werden, wenn ein Testversand für ihn freigegeben wird. Wenn die Mitwirkenden ihre Voreinstellungen haben oder Kontoadministratoren ihre Empfehlungen zur Häufigkeit der Warnhinweise erhalten. Dies kann auf den Detailseiten der Benutzer als Testversand-Standard festgelegt werden.
+Jeder Benutzer kann auch seine eigenen E-Mail-Warneinstellungen festlegen, die automatisch angewendet werden, wenn ein Testversand für ihn freigegeben wird. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
@@ -46,16 +54,16 @@ Weitere Informationen zu Profilen finden Sie unter [Profile für Testberechtigun
 
 Sie können Testversand-Einstellungen für von Ihnen erstellte Testsendungen konfigurieren.
 
-Informationen zu den Testversandeinstellungen finden Sie unter [!DNL Workfront] Administrator oder [!DNL Workfront Proof] -Administrator kann konfigurieren, siehe .
+<!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klicken **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Klicks **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
 
 1. Klicken Sie auf **[!UICONTROL Standardeinstellungen für die Prüfung]** Registerkarte.
-1. Klicken **[!UICONTROL Standard-E-Mail-Benachrichtigungseinstellungen]** um sie zu erweitern.
+1. Klicks **[!UICONTROL Standard-E-Mail-Benachrichtigungseinstellungen]** um sie zu erweitern.
 1. Wählen Sie in der Dropdown-Liste rechts neben den beiden folgenden Einstellungen eine der Optionen aus, die in der unten stehenden Tabelle beschrieben sind.
 
-   * **[!UICONTROL Standard-E-Mail-Warnhinweis]**: Betrifft alle für Sie freigegebenen Testsendungen. Diese Einstellung kann auf der Testversandebene überschrieben werden.
-   * **[!UICONTROL Standard-E-Mail-Warnung für neue Gastreviewer]**: Betrifft Validierer, die zuvor nicht als Kontakte in Ihrem Konto vorhanden waren.
+   * **[!UICONTROL Standard-E-Mail-Warnung]**: Betrifft jeden Testversand, der für Sie freigegeben wurde. Diese Einstellung kann auf der Testversandebene überschrieben werden.
+   * **[!UICONTROL Standard-E-Mail-Warnung für neue Gastreviewer]**: Betrifft Prüfer, die zuvor nicht als Kontakte in Ihrem Konto vorhanden waren.
 
    >[!NOTE]
    >
@@ -107,30 +115,30 @@ Informationen zu den Testversandeinstellungen finden Sie unter [!DNL Workfront] 
       <td>Geben Sie an, ob Sie beim Erstellen eines Testversands eine [!UICONTROL Testversand]-E-Mail erhalten möchten. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">Die [!UICONTROL Testversand-Made-E-Mail</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format der an mich gesendeten E-Mails]</strong> </td> 
-      <td> <p>Wählen Sie zwischen HTML formatierten E-Mails und Nur Text-E-Mails. </p> <p>Hinweis:  Die Standardeinstellungen für die Prüfung werden von den Einstellungen auf der Testversandebene überschrieben. Wenn jedoch in den Einstellungen für [!UICONTROL Konto] die E-Mail-Benachrichtigungen zum Testversand für das gesamte Konto deaktiviert sind, werden keine E-Mail-Warnungen an die Mitwirkenden gesendet, selbst wenn in Testsendungen der Warnhinweis für deaktivierte E-Mails nicht ausgewählt wurde.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format der an mich gesendeten E-Mails] </td> 
+      <td> <p>Wählen Sie zwischen HTML formatierten E-Mails und Nur Text-E-Mails. </p> <p><b>NOTIZ</b></p>
+      <p>Die Standardeinstellungen für die Prüfung werden von den Einstellungen auf der Testversandebene überschrieben. Wenn jedoch in den Einstellungen für [!UICONTROL Konto] die E-Mail-Benachrichtigungen zum Testversand für das gesamte Konto deaktiviert sind, werden keine E-Mail-Warnungen an die Mitwirkenden gesendet, selbst wenn in Testsendungen der Warnhinweis für deaktivierte E-Mails nicht ausgewählt wurde.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. under **[!UICONTROL Nachrichteneinstellungen]**&#x200B;ändern Sie einen der folgenden Parameter:
 
-   | **[!UICONTROL Vorlage für Testversand-Betreff]** | Wird auf der Seite Neuer Testversand , Neue Version , Nachrichtenseite und Remind angezeigt. Kann bearbeitet werden, bevor es gesendet wird. |
+   | Testvorlage | Beschreibung |
    |---|---|
+   | **[!UICONTROL Vorlage für Testversand]** | Wird auf der Seite Neuer Testversand , Neue Version , Nachrichtenseite und Remind angezeigt. Kann bearbeitet werden, bevor es gesendet wird. |
    | **[!UICONTROL Vorlage für Testnachrichten]** | Wird auf der Seite Neuer Testversand , Neue Version , Nachrichten und Erinnerung angezeigt. Kann bearbeitet werden, bevor es gesendet wird. |
-
-   {style=&quot;table-layout:auto&quot;}
 
 ## E-Mail-Warnungen für einen Empfänger ändern
 
 Sie können E-Mail-Warnungen für einen bestimmten Empfänger in einer Batch-Aktion ändern.
 
-1. Klicken **[!UICONTROL Kontakte]** im linken Navigationsbereich.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü (drei Punkte) für den Empfänger und klicken Sie auf **[!UICONTROL Mitgliederdetails anzeigen]** im Dropdown-Menü.
+1. Klicks **[!UICONTROL Kontakte]** im linken Navigationsbereich.
+1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![](assets/more-button-small.png) für den Empfänger klicken Sie auf **[!UICONTROL Mitgliederdetails anzeigen]** im Dropdown-Menü.
 
 1. Öffnen Sie die **[!UICONTROL Freigegebene Elemente]** Abschnitt.
 1. Aktivieren Sie das Kontrollkästchen links neben jedem Element, für das Sie den E-Mail-Warnhinweis ändern möchten.
-1. Klicken **[!UICONTROL Mehr]** über der Liste der freigegebenen Elemente und klicken Sie dann auf **[!UICONTROL E-Mail-Warnhinweis ändern]** im Dropdown-Menü.
+1. Klicks **[!UICONTROL Mehr]** über der Liste der freigegebenen Elemente und klicken Sie dann auf **[!UICONTROL E-Mail-Warnhinweis ändern]** im Dropdown-Menü.
 
 1. Ändern Sie den E-Mail-Warnhinweis und klicken Sie auf **[!UICONTROL Einsenden]**.
 
@@ -138,18 +146,18 @@ Sie können E-Mail-Warnungen für einen bestimmten Empfänger in einer Batch-Akt
 
 Wenn Sie [!DNL Workfront Proof] -Administrator können Sie für Benutzer in Ihrem Konto Testversandstandards festlegen.
 
-1. Klicken **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
+1. Klicks **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
 
 1. Öffnen Sie die **[!UICONTROL Benutzer]** Registerkarte.
-1. Öffnen Sie die **[!UICONTROL Mehr]** Menü rechts neben dem Namen des Benutzers. ![More_button_small.png](assets/more-button-small.png)
+1. Öffnen Sie die **[!UICONTROL Mehr]** Menü ![More_button_small.png](assets/more-button-small.png) rechts neben dem Namen des Benutzers.
 
-1. Klicken **[!UICONTROL Anzeigen von Benutzerdetails]** im Dropdown-Menü.
+1. Klicks **[!UICONTROL Anzeigen von Benutzerdetails]** im Dropdown-Menü.
 1. under **[!UICONTROL Einstellungen]** klicken **[!UICONTROL Standard-E-Mail-Warnhinweiseinstellungen]** um sie zu erweitern.
 
 1. Wählen Sie in der Dropdown-Liste rechts neben den beiden folgenden Einstellungen eine der Optionen aus, die in der folgenden Tabelle beschrieben sind:
 
-   * **[!UICONTROL Standard-E-Mail-Warnhinweis]**: Betrifft alle für Sie freigegebenen Testsendungen. Diese Einstellung kann auf der Testversandebene überschrieben werden.
-   * **[!UICONTROL Standard-E-Mail-Warnung für neue Gastreviewer]**: Betrifft Validierer, die zuvor nicht als Kontakte in Ihrem Konto vorhanden waren.
+   * **[!UICONTROL Standard-E-Mail-Warnung]**: Betrifft jeden Testversand, der für Sie freigegeben wurde. Diese Einstellung kann auf der Testversandebene überschrieben werden.
+   * **[!UICONTROL Standard-E-Mail-Warnung für neue Gastreviewer]**: Betrifft Prüfer, die zuvor nicht als Kontakte in Ihrem Konto vorhanden waren.
 
    >[!NOTE]
    >
@@ -201,8 +209,8 @@ Wenn Sie [!DNL Workfront Proof] -Administrator können Sie für Benutzer in Ihre
       <td>Geben Sie an, ob Sie beim Erstellen eines Testversands eine [!UICONTROL Testversand]-E-Mail erhalten möchten. Weitere Informationen finden Sie unter <a href="https://support.workfront.com/hc/en-us/article">Die E-Mail zum [!UICONTROL Testversand].</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format der an mich gesendeten E-Mails]</strong> </td> 
-      <td> <p>Wählen Sie zwischen HTML formatierten E-Mails und Nur Text-E-Mails. </p> <p>Hinweis:  Die Standardeinstellungen für die Prüfung werden von den Einstellungen auf der Testversandebene überschrieben. Wenn jedoch in den Einstellungen für [!UICONTROL Konto] die E-Mail-Benachrichtigungen zum Testversand für das gesamte Konto deaktiviert sind, werden keine E-Mail-Warnungen an die Mitwirkenden gesendet, selbst wenn in Testsendungen der Warnhinweis für deaktivierte E-Mails nicht ausgewählt wurde.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format der an mich gesendeten E-Mails] </td> 
+      <td> <p>Wählen Sie zwischen HTML formatierten E-Mails und Nur Text-E-Mails. </p> <p><b>NOTIZ</b></p> <p>Die Standardeinstellungen für die Prüfung werden von den Einstellungen auf der Testversandebene überschrieben. Wenn jedoch in den Einstellungen für [!UICONTROL Konto] die E-Mail-Benachrichtigungen zum Testversand für das gesamte Konto deaktiviert sind, werden keine E-Mail-Warnungen an die Mitwirkenden gesendet, selbst wenn in Testsendungen der Warnhinweis für deaktivierte E-Mails nicht ausgewählt wurde.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

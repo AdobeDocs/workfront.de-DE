@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
 
-   1. Klicken Sie auf **X** in das Suchfeld ein, um den Suchbegriff zu löschen.
+   1. Klicken Sie auf **x** in das Suchfeld ein, um den Suchbegriff zu löschen.
 
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows}

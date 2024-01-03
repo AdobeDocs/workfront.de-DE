@@ -6,9 +6,9 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
 
   Informationen zu Schnellfiltern finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Ständige Filter, die Sie speichern und für mehrere Listen und Berichte verwenden können. In diesem Artikel wird beschrieben, wie Sie einen permanenten Filter erstellen oder einen vorhandenen Filter in einer Liste oder einem Bericht bearbeiten.
+* Ständige Filter, die Sie speichern und in mehreren Listen und Berichten mehrmals verwenden können. In diesem Artikel wird beschrieben, wie Sie einen permanenten Filter erstellen oder einen vorhandenen Filter in einer Liste oder einem Bericht bearbeiten.
 
 * Filter in anderen Bereichen von Workfront außerhalb von Listen und Berichten.
 
@@ -202,7 +202,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    </tr>
    <tr>
    <td role="rowheader"><strong>Standardeinstellungen für das System</strong></td>
-   <td>Workfront-Systemstandardfilter sowie Filter, die der Workfront-Administrator Ihrer Filterliste entweder auf Systemebene oder in Ihrer Layoutvorlage hinzugefügt hat.</td>
+   <td>Standardfilter und Filter des Workfront-Systems, die der Workfront-Administrator Ihrer Filterliste entweder auf Systemebene oder in Ihrer Layoutvorlage hinzugefügt hat.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Für mich freigegeben</strong></td>
@@ -263,14 +263,14 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    >
    >Je nach ausgewähltem Modifikator können Sie mehrere Werte auswählen.
 
-1. Klicks **Filter hinzufügen** , um ein anderes Feld auszuwählen und der Filteranweisung ein neues Filterkriterium hinzuzufügen.
+1. Klicks **Filter hinzufügen** um ein anderes Feld auszuwählen, fügen Sie der Filteranweisung ein Filterkriterium hinzu.
 1. (Optional) Klicken Sie auf die **Löschen** icon ![Löschsymbol](assets/delete.png) um vorhandene Filteranweisungen zu entfernen.
 
    Oder
 
    Klicks **Alle löschen** , um alle Filterkriterien zu löschen.
 
-1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen** , um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sets ist AND. Klicken Sie auf den Operator, um ihn in OR zu ändern.
+1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen** , um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sets ist **UND**. Klicken Sie auf den Operator , um ihn in **ODER**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
    >[!TIP]
    >
-   >Es wird empfohlen, so viele Filter wie möglich mit der Standard-Builder-Oberfläche zu erstellen und nur den Textmodus zu verwenden, wenn Sie Änderungen am Filter vornehmen müssen, die nur im Textmodus unterstützt werden.
+   >Es wird empfohlen, möglichst viele Filter mit der Standard-Builder-Oberfläche zu erstellen und nur den Textmodus zu verwenden, wenn Sie die Filter ändern müssen, die nur im Textmodus unterstützt werden.
 
    Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -316,7 +316,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
    >[!TIP]
    >
-   >Benennen Sie den Filter unbedingt, damit Sie ihn später finden können. Wenn Sie den Filter nicht benennen, wird er im System als unbenannter Filter bezeichnet.
+   >Benennen Sie den Filter unbedingt, damit Sie ihn später finden können. Wenn Sie den Filter nicht benennen, wird er im System als &quot;Unbenannter Filter&quot;bezeichnet.
 
 1. Wählen Sie aus dem **Symbol** Dropdown-Menü.
 
@@ -329,13 +329,13 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    >Klicken **Abbrechen** Sie gelangen jederzeit zurück zum Filterbaubereich.
 
 1. Klicks **Speichern**. Der Filter wird in der Liste &quot;Gespeichert&quot;gespeichert und auf die Liste der Elemente angewendet.
-1. (Optional) Um einen Filter in die Liste &quot;Favoriten&quot;zu verschieben, bewegen Sie den Mauszeiger über einen beliebigen Filter in der Filterleiste und klicken Sie auf das Symbol &quot;Favoriten&quot; ![Favoritensymbol](assets/favorites-icon-small.png).
+1. (Optional) Um einen Filter in die Liste &quot;Favoriten&quot;zu verschieben, bewegen Sie den Mauszeiger über einen beliebigen Filter in der Filterleiste und klicken Sie auf **Favorit** icon ![Favoritensymbol](assets/favorites-icon-small.png).
 
    Oder
 
    Bewegen Sie den Mauszeiger über einen Filter in der Filterleiste und klicken Sie auf das Menü Mehr . ![Mehr Menü](assets/more-icon-spectrum.png)und klicken Sie auf **Favorit**.
 
-1. (Optional) Klicken Sie auf die **Filter stapeln** Schaltfläche zum Aktivieren von gestapelten Filtern. Mit dieser Option können Sie mehr als einen gespeicherten Filter anwenden. Die Filterregeln werden in der Reihenfolge ihrer Auswahl angewendet.
+1. (Optional) Klicken Sie auf die **Filter stapeln** Schaltfläche zum Aktivieren von gestapelten Filtern. Mit dieser Option können Sie mehr als einen gespeicherten Filter anwenden. Die Filterregeln werden in der Reihenfolge angewendet, in der Sie sie auswählen.
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
 
      Die mit dem Objekt Ihres Filters verknüpften Felder werden im Abschnitt **Eingabe des Feldnamens beginnen** ankreuzen.
 
-   * Klicks **UND** oder **ODER** beim Hinzufügen einer neuen Filterregel.\
+   * Klicks **UND** oder **ODER** beim Hinzufügen einer Filterregel.\
      Verwenden Sie beim Hinzufügen von Filterregeln die Filter-Modifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
 
    Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicks **Filter speichern** , um einen neuen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
+1. Klicks **Filter speichern** , um einen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
 
    Oder
 
-   Klicks **Als neuen Filter speichern** , um einen neuen Filter aus dem ausgewählten Filter zu erstellen.
+   Klicks **Als neuen Filter speichern** , um einen Filter aus dem ausgewählten Filter zu erstellen.
 
    Der neue Filter wird in der Filterliste angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
 
