@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -128,7 +128,7 @@ Wählen Sie beim Erstellen einer OAuth2-Anwendung den Anwendungstyp aus, der den
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth2-Anwendungen]**.
 1. Klicks **[!UICONTROL App-Integration erstellen]**.
 Die **Neue OAuth2-Anwendung** angezeigt.
-1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Serverauthentifizierung]**.
+1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Maschinelle Anwendung]**.
 1. Geben Sie einen Namen für die neue Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
 1. Klicks **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
@@ -180,7 +180,7 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
 1. Klicks **[!UICONTROL App-Integration erstellen]**.
 
    Die **Neue OAuth2-Anwendung** angezeigt.
-1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Benutzerauthentifizierung]**.
+1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Webanwendung]**.
 1. Geben Sie einen Namen für die neue OAuth2-Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
 1. Klicks **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
