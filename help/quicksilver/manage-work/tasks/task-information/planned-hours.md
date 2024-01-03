@@ -7,14 +7,16 @@ description: Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpfte
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # Übersicht über geplante Stunden
+
+<!-- Audited: 01/2024 -->
 
 Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten Stunden stellen die Zeit dar, die die zugewiesenen Benutzer zum Abschließen der Aufgabe, des Problems oder des Projekts benötigen.
 
@@ -30,16 +32,13 @@ Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten S
 
 * Sie können den Wert von &quot;Geplante Stunden&quot;für Probleme jederzeit ändern.
 * Sie können den Wert der geplanten Stunden von Projekten oder übergeordneten Aufgaben nicht ändern, da es sich um eine berechnete Gesamtsumme aller geplanten Stunden aller Aufgaben und Unteraufgaben handelt.
-* Die Verwaltung von Benutzerzuordnungen mithilfe von Tools zur Ressourcenverwaltung kann die Anzahl der geplanten Stunden für Aufgaben, Probleme, Projekte und die Anzahl der Zuweisungen ändern, die mit Arbeitselementen verknüpft sind.
+* Die Verwaltung von Benutzerzuordnungen mithilfe von Tools für die Ressourcenverwaltung kann die Anzahl der geplanten Stunden für Aufgaben, Probleme und Projekte sowie die der Zuweisungen ändern, die mit Arbeitselementen verknüpft sind.
 
 ## Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
-Geplante Stunden von Aufgaben rollen zu den geplanten Stunden des Projekts. Die geplanten Stunden aus den Problemen führen nicht immer zu den geplanten Stunden des Projekts.
+Geplante Stunden von Aufgaben rollen zu den geplanten Stunden des Projekts. Die geplanten Stunden von Problemen führen nicht immer zu den geplanten Stunden des Projekts.
 
 In diesem Abschnitt werden die Unterschiede zwischen der geplanten und der Aufgabe beschrieben. Außerdem wird beschrieben, wo Sie Probleme mit geplanten Stunden anzeigen können, die zum Projekt gehören.
-
-* [Geplante Stunden für Aufgaben](#planned-hours-on-tasks)
-* [Geplante Stunden für Projekte](#planned-hours-on-projects)
 
 ### Geplante Stunden für Aufgaben {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ Wenn beispielsweise eine Aufgabe auf 16 Uhr eingestellt ist und der Zeitplan am 
 
 ## Werte für geplante Stunden suchen und verstehen
 
-Die Werte für geplante Stunden finden Sie in verschiedenen Bereichen von Workfront. 
+Die Werte für geplante Stunden finden Sie in verschiedenen Bereichen von Workfront.
 
 Die angezeigte Anzahl der geplanten Stunden stammt entweder aus den Arbeitselementen im Projekt oder wird je nach Bereich und Objekt, in dem Sie sie anzeigen, unterschiedlich berechnet.
 
@@ -90,19 +89,19 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 * [Der Lastenausgleich](#the-workload-balancer)
 * [Der Ressourcen-Planer](#the-resource-planner)
 * [Der Nutzungsbericht](#the-utilization-report)
-* [Bereich &quot;Rollenzuweisung&quot;](#The%C2%A0Role)
+* [Bereich &quot;Rollenzuweisung&quot;](#the-role-allocation-panel)
 
 ### Der Bereich Details eines Projekts, einer Aufgabe oder eines Problems {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![Abschnitt &quot;Geplante Stunden im Detail&quot;](assets/planned-hours-on-details-for-project.png)
 
-Die im Abschnitt &quot;Details&quot;einer Aufgabe, eines Problems oder eines Projekts unter &quot;Geplante Stunden&quot;angegebenen Gesamtstunden sind mit dem jeweiligen Element verknüpft.
+Die im Abschnitt &quot;Details&quot;einer Aufgabe, eines Problems oder eines Projekts unter &quot;Geplante Stunden&quot;angegebenen Gesamtstunden sind mit dem Element verknüpft.
 
 Weitere Informationen zu geplanten Projektstunden finden Sie im Abschnitt [Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel beschrieben.
 
 ### Das Feld &quot;Aufgabe bearbeiten&quot;oder &quot;Problem bearbeiten&quot; {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![Aufgabenfeld bearbeiten](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Die geplanten Stunden im Feld &quot;Bearbeiten&quot;einer Aufgabe oder eines Problems entsprechen der Gesamtanzahl der geplanten Stunden des jeweiligen Elements.
 
@@ -114,7 +113,7 @@ Sie können die individuelle Zuweisung der geplanten Stunden für jeden Benutzer
 
 ### Berichte {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![Geplante Stunden im Bericht](assets/planned-hours-on-task-report.png)
 
 Sie können das Feld &quot;Geplante Stunden&quot;zu Projekt-, Aufgaben- und Problemberichten hinzufügen.
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### Der Lastenausgleich {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![Geplante Stunden im Arbeitslastausgleich](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 Die folgenden geplanten Stunden für Aufgaben, Probleme und Projekte werden rechts neben der Aufgabe, dem Problem oder dem Projektnamen im Arbeitslastausgleich angezeigt:
 
@@ -163,15 +162,15 @@ Sie können die tägliche Zuweisung von geplanten Stunden für jeden Benutzer, d
 Die tägliche Stundenanzahl der geplanten Stunden stellt eine der folgenden dar: 
 
 * den von Workfront gleichmäßig verteilten Standardbetrag für jeden Tag der Dauer der Aufgaben, Probleme oder des Projekts
-* die von Ressourcenmanagern verwaltete angepasste tägliche Zuordnung.
+* bereinigte tägliche Zuordnung, die von Ressourcenmanagern verwaltet wird
 
   Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Der Ressourcen-Planer {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![Geplante Stunden im Ressourcenplaner](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
-Der Ressourcenplaner zeigt geplante Stunden für Projekte, Aufgaben, Probleme an.
+Der Ressourcenplaner zeigt geplante Stunden für Projekte, Aufgaben und Probleme an.
 
 Sie können die wöchentlichen Zuordnungen von geplanten Stunden für die mit Arbeitselementen verknüpften Benutzer und Stellenrollen in der Spalte PLN des Resource Planers anzeigen.
 
@@ -184,7 +183,7 @@ Die Anzahl der geplanten Stunden für jedes Objekt hängt davon ab, welche Ansic
 Die wöchentliche Stundenzahl für geplante Aufgaben und Probleme stellt eine der folgenden dar:
 
 * den von Workfront gleichmäßig verteilten wöchentlichen Standardbetrag für jeden Tag der Dauer der Aufgaben oder Probleme
-* die angepasste wöchentliche Zuordnung, die von Ressourcenmanagern im Workload Balancer verwaltet wird.
+* die angepasste wöchentliche Zuordnung, die von Ressourcenmanagern im Lastenausgleich verwaltet wird
 
   Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -258,13 +257,10 @@ Die folgenden Szenarien bestehen beim manuellen Aktualisieren der Zuweisung von 
 
 >[!NOTE]
 >
-Wenn eine Aufgabe beispielsweise 10 geplante Stunden hat und Sie zwei Bevollmächtigte haben, wird ihnen standardmäßig jeweils fünf Stunden zugewiesen.
+Wenn eine Aufgabe beispielsweise 10 geplante Stunden hat und Sie zwei Bevollmächtigte haben, werden ihnen standardmäßig fünf Stunden zugewiesen.
 >
 * Wenn Sie die Zuordnung der einzelnen Benutzer oder die täglichen Zuordnungen nicht mit dem Arbeitslastausgleich aktualisieren und einen oder alle Verantwortlichen aus der Aufgabe entfernen, bleibt die Aufgabe Geplant Stunden 10 Stunden.
-* Wenn Sie die Zuweisung der Aufgaben manuell auf 4 bzw. 6 Stunden ändern und den Benutzer, der 6 Stunden zugewiesen ist, sowie die Rolle des Auftrags entfernen, wird die Aufgabe Geplante Stunden auf 4 Stunden aktualisiert. Wenn Sie auch den Benutzer entfernen, der 4 Stunden zugewiesen ist, aber die mit dem entfernten Benutzer verknüpfte Auftragsrolle beibehalten, bleiben die geplanten Stunden der Aufgabe 4 Stunden. Wenn Sie den letzten Benutzer entfernen, der 4 Stunden zugewiesen ist, sowie dessen Rolle als Job und die Aufgabe nicht zugewiesen ist, wird die Aufgabe Planed Hours der Aufgabe zu 0.
-
-
-
+* Wenn Sie die Zuweisung der Aufgaben manuell auf 4 bzw. 6 Stunden ändern und den Benutzer, der 6 Stunden zugewiesen ist, sowie die Rolle des Auftrags entfernen, wird die Aufgabe Geplante Stunden auf 4 Stunden aktualisiert. Wenn Sie auch den Benutzer entfernen, der 4 Stunden zugewiesen ist, aber die mit dem entfernten Benutzer verknüpfte Auftragsrolle beibehalten, bleiben die geplanten Stunden der Aufgabe 4 Stunden. Wenn Sie den letzten Benutzer entfernen, der 4 Stunden zugewiesen ist, sowie dessen Rolle als Job und die Aufgabe nicht zugewiesen ist, wird die Aufgabe Geplant Stunden zu 0.
 
 ## Automatisches Aktualisieren von geplanten Aufgaben mithilfe von Arbeitsaufwand
 

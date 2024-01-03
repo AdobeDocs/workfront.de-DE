@@ -2,23 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Übersicht über die Lag-Typen
+title: Übersicht über Launch-Typen
 description: Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann (Positive Lag), oder die Zeit, die eine abhängige Aufgabe vor dem Start des Vorgängers beginnen könnte (Negative Lag).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Lag-Typen
+# Übersicht über Launch-Typen
+
+<!-- Audited: 01/2024 -->
 
 Lag ist die Zeit, die nach dem geplanten Abschluss eines Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann (Positive Lag), oder die Zeit, die eine abhängige Aufgabe vor dem Start des Vorgängers beginnen könnte (Negative Lag).
 
-Die geplanten, geplanten und geschätzten Termine der Nachfolgeaufgaben werden unter Berücksichtigung der Verzögerungen sowie der geplanten, geplanten und geschätzten Start- (Abschluss-)Daten der Voraufgaben berechnet.
+Die geplanten, geplanten und geschätzten Daten der Nachfolgeaufgaben werden unter Berücksichtigung der Zeitverzögerung und der geplanten, geplanten und geschätzten Startdaten (Ende) der Voraufgaben berechnet.
 
 ## Zugriffsanforderungen
 
@@ -60,11 +62,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Plan </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -72,7 +76,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Anzeigen von Lag- und Lag-Typen für Aufgaben
 
 Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art der Verzögerung angeben.
-
-* [Anzeigen von Lag-Typen im Abschnitt &quot;Vorgänger&quot;einer Aufgabe](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Anzeigen von Lag-Typen in einer Aufgabenliste](#indicate-lag-types-in-a-task-list)
 
 ### Anzeigen von Lag-Typen im Abschnitt &quot;Vorgänger&quot;einer Aufgabe {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -100,19 +101,19 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
 1. Geben Sie eine **Lag** Betrag unter Verwendung eines numerischen Werts. Sie können negative Zahlen angeben, um eine negative Verzögerung anzugeben.
 1. Wählen Sie aus den folgenden Optionen aus, um den Verzögerungstyp zu identifizieren, den Sie für Ihren Vorgänger angeben möchten:
 
-   * **Tag(e)**
+   * **Tage**
    * **Kalendertage**
    * **Prozent**
    * **Wochentag**
    * **Wochentag (nicht null)**
 
-     Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
+     Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt . [Launch-Typen](#lag-types) in diesem Artikel.
 
 1. Klicken Sie auf **Speichern**.
 
 ### Anzeigen von Lag-Typen in einer Aufgabenliste  {#indicate-lag-types-in-a-task-list}
 
-1. Wechseln Sie zu einer Aufgabenliste und wählen Sie die **Standard** Ansicht über **Ansicht** Dropdown-Menü.
+1. Wechseln Sie zu einer Aufgabenliste und wählen Sie die **Standard** anzeigen.
 
 1. Klicken Sie in die **Vorgänger** -Spalte, die der Aufgabe entspricht, für die Sie einen Vorgänger und einen Latenzbetrag angeben möchten.
 1. Geben Sie Folgendes ohne Leerzeichen ein:
@@ -125,15 +126,15 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
    * entweder ein **+** für eine positive Verzögerung oder **-** für eine negative Verzögerung
 
    * die Zeitspanne, in der die Verzögerung
-   * die Abkürzung für den zu verwendenden Lag-Typ.
+   * die Abkürzung für den gewünschten Lag-Typ
 
-     Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt . [Übersicht über Launch-Typen](#lag-types-overview) in diesem Artikel.
+     Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt . [Launch-Typen](#lag-types) in diesem Artikel.
 
-   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen hat, geben Sie  `1fs+2d` in der Spalte &quot;Vorgänger&quot;.
+   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen hat, geben Sie `1fs+2d` in der Spalte &quot;Vorgänger&quot;.
 
-1. Klicken Sie auf die Eingabetaste, um die Änderungen an der Aufgabe zu speichern.
+1. Drücken Sie die Eingabetaste auf der Tastatur, um die Änderungen an der Aufgabe zu speichern.
 
-## Übersicht über Launch-Typen {#lag-types-overview}
+## Launch-Typen {#lag-types}
 
 Ein Beispiel für eine Aufgabe, für die eine Zeitverzögerung erforderlich wäre, könnte das Sägen von Bäumen in Holz sein. Wenn das frisch geschnittene Holz eine Zeit lang trocknen muss, bevor es gefällt werden kann, dann würde es eine Zeitverzögerung zwischen dem Schneiden der Bäume und dem Sägen in Holz geben.
 
@@ -159,7 +160,7 @@ Die folgende Tabelle zeigt die Lag-Typen und wie die Zeitdauer für jede einzeln
   </tr> 
   <tr> 
    <td> <p>Prozent (p oder pe)</p> </td> 
-   <td> <p>Die Verzögerung wird als Prozentsatz der geschätzten Zeit zum Abschließen der vorherigen Aufgabe ausgedrückt. </p> <p>Wenn es beispielsweise eine Abhängigkeit von der Fertigstellung einer 10-tägigen Vorgängeraufgabe mit einer Verzögerung von 20 % gibt, berechnet das System, wie viele Tage 20 % der vorherigen Aufgabendauer darstellen, und verwendet dies als Verzögerung. In diesem Fall wäre es 2 Tage nach Abschluss der Aufgabe. </p>
+   <td> <p>Die Verzögerung wird als Prozentsatz der geschätzten Zeit zum Abschließen der vorherigen Aufgabe ausgedrückt. </p> <p>Wenn es beispielsweise eine Abhängigkeit von der Fertigstellung einer 10-tägigen Vorgängeraufgabe mit einer Verzögerung von 20 % gibt, berechnet das System, wie viele Tage 20 % der Aufgabendauer des Vorgängers ausmachen, und verwendet dies als Verzögerung. In diesem Fall wäre es 2 Tage nach Abschluss der Aufgabe. </p>
 
 <p><b>NOTIZ</b></p> Die maximale Latenzgrenze beträgt 2000 %.</p> </td> 
   </tr> 
@@ -193,7 +194,7 @@ Wenn das Startdatum des Nachfolgers als ein bestimmter Dienstag berechnet wird u
  </tbody> 
 </table>
 
-## Übersicht über Negative Lag
+## Negativer Schwung
 
 Sie können einen negativen Lag verwenden, um anzugeben, ob die Aufgabe vor dem Ende der Vorgängeraufgabe beginnen muss oder nicht.
 

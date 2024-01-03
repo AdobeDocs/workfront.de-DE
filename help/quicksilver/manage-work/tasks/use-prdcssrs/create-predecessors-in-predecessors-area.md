@@ -6,7 +6,7 @@ description: Sie können Vorgängeraufgaben (oder nur Vorgänger) verwenden, um 
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Sie können Vorgängeraufgaben (oder nur Vorgänger) verwenden, um Aufgaben, die von anderen Aufgaben abhängen, zu starten oder abzuschließen. Sie möchten beispielsweise keine Partei (abhängige Aufgabe) hosten, bevor Sie die Einladungen versenden (vorherige Aufgabe).
 
-In diesem Artikel wird gezeigt, wie Sie in einer Aufgabe mithilfe der Registerkarte &quot;Vorgänger&quot;Vorgänger festlegen können.
+Dieser Artikel zeigt, wie Sie in einer Aufgabe mithilfe der Registerkarte &quot;Vorgänger&quot;Vorgänger festlegen können.
 
 Informationen zum Festlegen von Vorgängern in einer Liste von Aufgaben finden Sie unter [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Vorgänger**.
 
-1. Klicken **+Vorgänger hinzufügen**.
+1. Klicks **+Vorgänger hinzufügen**.
 1. (Optional) Um einen projektübergreifenden Vorgänger hinzuzufügen, ersetzen Sie den Namen des Projekts im **Übergeordnetes Projekt** mit einem anderen Projekt ein und geben Sie dann den Namen der Aufgabe oder Aufgaben ein, die Sie als Vorgänger verwenden möchten.
 
    Informationen zum Hinzufügen projektübergreifender Vorgänger finden Sie unter [Erstellen projektübergreifender Vorgänger](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
@@ -79,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Geben Sie eine **Lag** in Tagen.
 
-   Weitere Informationen zu Lag-Typen finden Sie unter &#x200B; [Übersicht über die Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Weitere Informationen zu Lag-Typen finden Sie unter &#x200B; [Übersicht über Launch-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 1. Auswählen **Durchgesetzt** , wenn Sie die Vorgängerbeziehung zwischen den beiden Aufgaben erzwingen möchten.
 

@@ -7,9 +7,9 @@ description: Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (als Na
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Um die Vorgängerbeziehungen zu verstehen, müssen Sie Folgendes verstehen:
 
 * **Lages:** Sie können in Ihren Abhängigkeiten Pausen erstellen, die eine Verzögerung verursachen, die nach Abschluss einer Vorgängeraufgabe und bevor die Nachfolgeaufgabe beginnen kann, eintreten muss. Ebenen wirken sich auf die Zeitleiste des Projekts aus.
 
-  Informationen zu den Latenztypen finden Sie unter [Übersicht über die Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Informationen zu den Latenztypen finden Sie unter [Übersicht über Launch-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Erstellen von Vorgängerbeziehungen
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 0%
 
 ---
@@ -1351,7 +1351,7 @@ ht-degree: 0%
          * [Erstellen projektübergreifender Vorgänger](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
          * [Übersicht über Aufgabenabhängigkeitstypen](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [Durchsetzen von Vorgängern](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [Übersicht über die Lag-Typen](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [Übersicht über Launch-Typen](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Übersicht über Aufgabenabhängigkeitsschleife](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
       * Tipps, Tricks und Fehlerbehebung für Aufgaben {#tips-tricks-and-troubleshooting-for-tasks}
          * [Tipps, Tricks und Fehlerbehebung für Aufgaben](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
