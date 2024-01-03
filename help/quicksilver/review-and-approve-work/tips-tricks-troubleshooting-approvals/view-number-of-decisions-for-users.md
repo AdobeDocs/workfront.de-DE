@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen
 description: Sie können die Anzahl der Testversand- und Dokumententscheidungen anzeigen, die von Benutzern in Ihrer Workfront-Instanz getroffen wurden.
-author: Courtney
+author: Courtney and Lisa
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
+source-git-commit: 21df7fd2340214034a2a2d6b4199861a2d8f71cd
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ So zeigen Sie die Anzahl der Entscheidungen für einen Benutzer an:
 1. Öffnen Sie die **Ansichten** Bereich, und wählen Sie dann die **Lizenzen** anzeigen.
 1. Spalte suchen **Entscheidungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
 1. <span class="preview">Um historische Daten anzuzeigen, öffnen Sie die **Ansichten** Bereich und wählen Sie **Historische Benutzeransicht**.</span>
-1. <span class="preview">Spalte suchen **Historische Entscheidungen der Benutzer** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer in einem Monat getroffen hat. Die Daten gehen 12 Monate ab dem aktuellen Monat zurück.</span>
+1. <span class="preview">Spalte suchen **Historische Entscheidungen der Benutzer** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer in einem Monat getroffen hat. Die Daten können bis zu 12 Monate vor dem aktuellen Monat umfassen, je nachdem, wann dieser Bericht Ihrer Organisation zur Verfügung gestellt wurde.</span>
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ So zeigen Sie die Anzahl der Entscheidungen für einen Benutzer an:
 1. Klicks **Neuer Bericht**, wählen Sie **Benutzerentscheidungen**.
 1. Spalte suchen **Entscheidungen in diesem Monat** um die Anzahl der Entscheidungen anzuzeigen, die jeder Benutzer im Monat getroffen hat.
 
-   <span class="preview">Die Daten gehen 12 Monate ab dem aktuellen Monat zurück. Die **Monat** und **Jahr** gibt an, in welchem Monat die Entscheidungen getroffen wurden. Monat 1 ist Januar, Monat 2 ist Februar usw.</span>
+   <span class="preview">Die Daten können bis zu 12 Monate vor dem aktuellen Monat umfassen, je nachdem, wann dieser Bericht Ihrer Organisation zur Verfügung gestellt wurde. Die **Monat** und **Jahr** gibt an, in welchem Monat die Entscheidungen getroffen wurden. Monat 1 ist Januar, Monat 2 ist Februar usw.</span>
 
 1. Überprüfen Sie den Bericht und bearbeiten Sie ihn nach Bedarf. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
