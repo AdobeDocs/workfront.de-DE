@@ -6,9 +6,9 @@ description: "HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /Cont
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Die Bearbeitung eines Filters im Textmodus ist für Berichte und Listen identisc
 >
 >Es wird empfohlen, möglichst viele Filter im Standardmodus zu erstellen und den Filter in den Textmodus zu konvertieren, um ihn zu bearbeiten.
 
-Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

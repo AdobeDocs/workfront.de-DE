@@ -7,9 +7,9 @@ description: Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -51,11 +51,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie sind, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Berichte**, dann **Alle Berichte**.
+1. Klicks **Berichte**, dann **Alle Berichte**.
 1. Öffnen Sie einen Bericht.
-1. Klicken **Berichtaktionen**, dann **Kopieren**.
+1. Klicks **Berichtaktionen**, dann **Kopieren**.
 
    >[!TIP]
    >
@@ -84,19 +84,19 @@ Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie si
    Gehen Sie wie folgt vor, um den ursprünglichen Bericht zu löschen:
 
    1. Navigieren Sie zum Bericht.
-   1. Klicken **Berichtaktionen**, dann **Löschen**.
+   1. Klicks **Berichtaktionen**, dann **Löschen**.
 
-   1. Klicken **Ja, löschen** , um zu bestätigen, dass Sie den Bericht löschen möchten.
+   1. Klicks **Ja, löschen** , um zu bestätigen, dass Sie den Bericht löschen möchten.
 
 ## Neue Berichtversion erstellen {#create-a-new-version-of-a-report}
 
 Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Berichte**, dann **Alle Berichte**.
+1. Klicks **Berichte**, dann **Alle Berichte**.
 1. Klicken Sie auf den Namen eines Standardberichts, um ihn zu öffnen.
-1. Klicken **Berichtaktionen**, dann **Bearbeiten**.
+1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
 
    ![Bericht bearbeiten](assets/nwe-reportactionsfordefaultreport-2022.png)
 
@@ -104,13 +104,13 @@ Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie fol
 
    * **Spalten (Ansicht)**: Weitere Informationen zum Anpassen von Ansichten finden Sie im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Gruppierungen**: Weitere Informationen zum Anpassen von Gruppierungen finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filter**: Weitere Informationen zum Anpassen von Filtern finden Sie im Artikel [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Filter**: Weitere Informationen zum Anpassen von Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Diagramm**: Weitere Informationen zum Anpassen eines Berichtdiagramms finden Sie im Artikel [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Klicken Sie oben rechts auf **Berichtseinstellungen**.
 1. Im **Berichttitel** einen neuen Namen für den Bericht eingeben.
-1. Klicken **Fertig**.
-1. Klicken **Als neuen Bericht speichern**.
+1. Klicks **Fertig**.
+1. Klicks **Als neuen Bericht speichern**.
 
    ![](assets/nwe-save-as-new-report-350x220.png)
 

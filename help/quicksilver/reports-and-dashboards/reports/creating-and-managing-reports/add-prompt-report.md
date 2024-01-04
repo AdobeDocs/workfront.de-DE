@@ -6,9 +6,9 @@ description: Filter und Eingabeaufforderungen ähneln sich insofern, als sie bei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Filter und Eingabeaufforderungen ähneln sich insofern, als sie beide die Menge der Informationen einschränken, die Sie in einem Bericht anzeigen.
 
-Sie erstellen einen Filter, wenn die im Bericht angezeigten Informationen bei jeder Ausführung des Berichts nach denselben Kriterien gefiltert werden sollen. Filter werden einmal erstellt und im Bericht hartcodiert. Weitere Informationen zum Erstellen von Filtern finden Sie im Artikel [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Sie erstellen einen Filter, wenn die im Bericht angezeigten Informationen bei jeder Ausführung des Berichts nach denselben Kriterien gefiltert werden sollen. Filter werden einmal erstellt und im Bericht hartcodiert. Weitere Informationen zum Erstellen von Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Eingabeaufforderungen sind offene Filter, die bei jeder Ausführung eines Berichts unterschiedlich angepasst und angewendet werden können.
 
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-Sie müssen einen Bericht erstellen, bevor Sie eine Eingabeaufforderung hinzufügen können.
+Sie müssen einen Bericht erstellen, bevor Sie eine Aufforderung hinzufügen können.
 
 Anweisungen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
@@ -75,7 +75,7 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](..
 1. Wechseln Sie zum Bericht, dem Sie eine Eingabeaufforderung hinzufügen möchten.
 1. Erweitern **Berichtaktionen** und klicken Sie anschließend auf **Bearbeiten**.
 
-1. Klicken **Berichtseinstellungen**.
+1. Klicks **Berichtseinstellungen**.
 1. Im **Berichtsaufforderungen** Bereich, klicken Sie **Eine Eingabeaufforderung hinzufügen**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
@@ -83,7 +83,7 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](..
    Die für Benutzer, die den Bericht ausführen, verfügbaren Optionen variieren je nach ausgewähltem Feld.\
    Wenn Sie beispielsweise ein Datumsfeld wie &quot;Tatsächliches Abschlussdatum&quot;in einem Aufgabenbericht auswählen, ist &quot;Tatsächliches Abschlussdatum&quot;der Name der Eingabeaufforderung. Wenn Sie diese Eingabeaufforderung während der Ausführung dieses Berichts bearbeiten, können Sie aus einer Reihe von Modifikatoren auswählen, um Ihre Filteranweisung zu erstellen. Dieser Vorgang entspricht dem Erstellen eines Filters. Weitere Informationen zu Modifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Bedingt) Klicken Sie auf **Benutzerdefinierte Eingabeaufforderung** , um eine benutzerdefinierte Eingabeaufforderung zu erstellen.
+1. (Bedingt) Klicken Sie auf **Benutzerdefinierte Aufforderung** , um eine benutzerdefinierte Eingabeaufforderung zu erstellen.
 
    Eine benutzerdefinierte Eingabeaufforderung ist eine vordefinierte Eingabeaufforderung, an der Sie die Filterkriterien vor der Ausführung des Berichts hartcodieren. In diesem Sinne ist eine benutzerdefinierte Eingabeaufforderung näher an einem Filter als an einer Eingabeaufforderung.
 
@@ -101,15 +101,16 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](..
 
    * alle Aufgaben für zukünftige Projekte, bei denen der Projektstatus Ideen, angefordert, Geplant und Aktuell lautet:
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * alle Aufgaben in abgeschlossenen (vergangenen) Projekten, bei denen der Projektstatus abgeschlossen oder abgelaufen ist:
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    Weitere Informationen zu Textmodus-Modifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -117,9 +118,9 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](..
    >Sie können die Bedingungen einer benutzerdefinierten Eingabeaufforderung beim Ausführen des Berichts nicht wie eine Standardaufforderung ändern. Sie können für eine benutzerdefinierte Eingabeaufforderung so viele vordefinierte Bedingungen wie nötig haben.
 
 1. (Optional) Wiederholen Sie Schritt 4 oder Schritt 5, um so viele Eingabeaufforderungen wie nötig zu erstellen.
-1. Klicken **Fertig** Klicken Sie auf **Speichern+Schließen** , um den Bericht zu speichern.
+1. Klicks **Fertig** Klicken Sie auf **Speichern+Schließen** , um den Bericht zu speichern.
 
-## Anwenden einer Eingabeaufforderung auf einen Bericht
+## Anwenden einer Meldung auf einen Bericht
 
 Wenn Sie eine Eingabeaufforderung zu einem Bericht hinzugefügt haben, ist die Standardregisterkarte des Berichts immer der Tab Eingabeaufforderungen .
 
@@ -150,7 +151,7 @@ Die Freigabe erforderlicher Berichte aus Workfront unterliegt folgenden Einschr�
 
 * Wenn Sie einen Bericht öffentlich freigeben, können Benutzer den Bericht nicht über die Aufforderung ausführen, es sei denn, sie verfügen über Workfront-Anmeldeinformationen und melden sich zuerst an, um den Bericht in Workfront anzuzeigen.
 
-   Weitere Informationen zum Freigeben von Berichten finden Sie im Artikel [Bericht in Adobe Workfront freigeben](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Weitere Informationen zum Freigeben von Berichten finden Sie im Artikel [Bericht in Adobe Workfront freigeben](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Wenn Sie einen Bericht planen, der zum Versand aufgefordert wird, enthält der Bericht im E-Mail-Anhang die Daten des Berichts, die Sie umbenannt haben. Wenn der Benutzer auf den Link in der E-Mail klickt, um auf den Bericht zuzugreifen, muss er sich zuerst anmelden, um den Bericht anzuzeigen und die Eingabeaufforderung selbst auszuführen.
 
-   Informationen zur Planung eines gelieferten Berichts finden Sie unter [Planen eines automatischen Berichtversands](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Informationen zur Planung eines gelieferten Berichts finden Sie unter [Planen eines automatischen Berichtversands](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

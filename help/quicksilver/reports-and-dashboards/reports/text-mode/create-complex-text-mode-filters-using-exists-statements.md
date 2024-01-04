@@ -6,9 +6,9 @@ description: Erstellen komplexer Textmodusfilter mithilfe von EXISTS-Anweisungen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Beachten Sie beim Erstellen von Filtern, die sich über mehrere Ebenen in der Ob
 
    * Erstellen Sie Filter, die mehrere Ebenen umfassen.
    * Erstellen Sie Filter, die nach fehlenden Objekten suchen.\
-      Beim Erstellen eines Benutzerberichts können Sie beispielsweise nach Benutzern filtern, die für einen bestimmten Zeitraum keine Zeit protokolliert haben.
+     Beim Erstellen eines Benutzerberichts können Sie beispielsweise nach Benutzern filtern, die für einen bestimmten Zeitraum keine Zeit protokolliert haben.
 
 Beachten Sie bei der Verwendung von EXISTS-Anweisungen in einem Filter die folgenden Regeln:
 
@@ -77,12 +77,12 @@ Beachten Sie bei der Verwendung von EXISTS-Anweisungen in einem Filter die folge
    * Die Anweisung nach dem Gleichheitszeichen bezieht sich auf das Objekt, von dem Sie verweisen (das Originalobjekt).
 
 * Sie müssen den Objektcode des Linkobjekts verwenden, um Ihre Anweisungen zu verbinden.\
-   Den Objektcode aller Objekte finden Sie im API Explorer.\
-   Weitere Informationen zum API Explorer finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+  Den Objektcode aller Objekte finden Sie im API Explorer.\
+  Weitere Informationen zum API Explorer finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original und die Zielobjekte direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können mehrere Felder (Zielfelder) für dasselbe Objekt (Zielobjekt) referenzieren. In diesem Fall müssen Sie die Zeilen, die auf die Felder verweisen, durch UND verbinden.\
-   Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Target-Objekt gehört, finden Sie unter [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio Owner Name und Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
+  Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Target-Objekt gehört, finden Sie unter [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach dem Portfolio-Eigentümernamen und der Scorecard-ID der Portfolio-Ausrichtung](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel beschrieben.
 
 * Der einzige Modifikator, der für eine EXISTS-Anweisung unterstützt wird, ist NOTEXISTS.
 
@@ -96,7 +96,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -125,7 +125,7 @@ Sie können einen Filter erstellen, der Objekte über mehrere Ebenen der Objekth
 
 Sie müssen immer eine EXISTS-Anweisung und die Textmodus-Oberfläche verwenden, um diesen Filter zu erstellen.
 
-Beispiele für Filter finden Sie unter [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
+Beispiele für Filter finden Sie unter [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel beschrieben.
 
 So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
 
@@ -143,9 +143,9 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
 
 1. Erstellen Sie einen Filter für das Originalobjekt.\
    Erstellen Sie beispielsweise einen Filter Problem .\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Fügen Sie das folgende Formelbeispiel in die Textmodusschnittstelle des neuen Filters ein und ersetzen Sie den vorgeschlagenen Text durch die richtigen Objekte und Felder:
 
    ```
@@ -154,9 +154,9 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Ein Beispiel für die Verwendung der oben identifizierten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
+   Ein Beispiel für die Verwendung der oben identifizierten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel beschrieben.
 
-1. Klicken **Filter speichern**.
+1. Klicks **Filter speichern**.
 
 ## Erstellen komplexer Textmodusfilter für fehlende Objekte
 
@@ -180,16 +180,16 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
 1. Identifizieren Sie das Feld, nach dem Sie filtern möchten. Wir bezeichnen dieses Objekt als Zielfeld, das zu einem Target-Objekt gehört.\
    Beispielsweise das Feld categoryID (Target-Feld), das zur Kategorie (Target-Objekt) gehört.
 1. Da das Originalobjekt (Parameter) und das Zielfeld (categoryID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt finden, ein Verknüpfungsobjekt (ein Kategorieparameter), das diese verbindet. Das Verknüpfungsobjekt muss über mindestens ein Feld verfügen, das auf den Registerkarten &quot;Felder&quot;oder &quot;Verweise&quot;des ursprünglichen Objekts (im Originalobjekt angezeigtes Verknüpfungsfeld) referenziert wird, und außerdem muss es über ein Verknüpfungsfeld mit dem Zielobjekt verfügen, das auf den Registerkarten &quot;Felder&quot;oder &quot;Verweise&quot;des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt (oder dem Verknüpfungsfeld auf dem Verknüpfungsobjekt) angezeigt wird, muss mit dem Zielfeld übereinstimmen.\
-   Beispielsweise wird die ID des Kategorieparameters (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) aus Parameter(Originalobjekt) referenziert. parameterID (Verknüpfungsfeld mit Zielobjekt) wird auf der Registerkarte &quot;Felder&quot;des Kategorieparameters (Verknüpfungsobjekt) angezeigt. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird, stimmt mit dem Zielfeld überein.
+   Beispielsweise wird die ID des Kategorieparameters (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) aus Parameter(Originalobjekt) referenziert. parameterID (Verknüpfungsfeld mit Zielobjekt) wird auf der Registerkarte &quot;Felder&quot;des Kategorieparameters (Verknüpfungsobjekt) angezeigt. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird, entspricht dem Zielfeld.
 1. Identifizieren Sie mithilfe des API Explorers die **Objektcode** des Verknüpfungsobjekts (Kategorieparameter).\
    Beispielsweise ist der Objektcode für den Kategorieparameter CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
 1. Erstellen Sie einen Filter für das Originalobjekt.\
    Erstellen Sie beispielsweise einen Parameterfilter.\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. (Bedingt) Wenn Sie nach fehlenden Objekten filtern, fügen Sie das folgende Formelbeispiel in die Textmodusschnittstelle des neuen Filters ein und ersetzen Sie den vorgeschlagenen Text durch die richtigen Objekte und Felder:
 
    ```
@@ -200,16 +200,16 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Ein Beispiel für die Berichterstellung über benutzerdefinierte Felder, die nicht mit benutzerdefiniertem Forms verknüpft sind, finden Sie unter [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in diesem Artikel.
+   Ein Beispiel für die Berichterstellung über benutzerdefinierte Felder, die nicht mit benutzerdefiniertem Forms verknüpft sind, finden Sie unter [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in diesem Artikel beschrieben.
 
-1. Klicken **Filter speichern**.
+1. Klicks **Filter speichern**.
 
 ## Beispiele für Textmodusfilter, die mehrere Ebenen in der Objekthierarchie umfassen
 
 * [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name)
 * [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [Beispiel 3: Nach fehlenden Objekten filtern: Benutzer, die die Zeit für einen bestimmten Zeitraum nicht protokolliert haben](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio Owner Name und Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+* [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach dem Portfolio-Eigentümernamen und der Scorecard-ID der Portfolio-Ausrichtung](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
 
 ### Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -218,9 +218,9 @@ Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter für eine Li
 So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
 
 1. Erstellen Sie einen Filter Problem .\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Siehe folgenden allgemeinen Code:
 
    ```
@@ -232,21 +232,19 @@ So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
    ```
 
 1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
-
    <pre>VORHANDEN:A:$$OBJCODE=PROJ<br>VORHANDEN:A:ID=FIELD:projectID<br>VORHANDEN:A:portfolio:ownerID=4d94d7da001699b19edf50de1568221</pre>
 
    >[!NOTE]
    >
    >* Das ursprüngliche Objekt ist das Objekt des Berichts: Problem
    >* Das Target-Objekt ist Portfolio.
-   >* Das Verknüpfungsobjekt ist &quot;Projekt&quot;.
+   >* Das Verknüpfungsobjekt ist Projekt.
    >* Das Zielfeld und das Verknüpfungsfeld mit dem vom Verknüpfungsobjekt referenzierten Zielobjekt ist ownerID.
    >* Der Objektcode des Linkobjekts hier ist PROJ.
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist projectID und das Verknüpfungsfeld ist ID.
 
-
 1. Ersetzen Sie den Wert des Zielfelds (ownerID) in der letzten Anweisung durch eine Benutzer-ID aus Ihrer Umgebung.
-1. Klicken **Filter speichern**.
+1. Klicks **Filter speichern**.
 
 ### Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -259,9 +257,9 @@ Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter erstellen, u
 So filtern Sie nach benutzerdefinierten Feldern, die nicht mit einem benutzerdefinierten Formular verknüpft sind:
 
 1. Erstellen Sie einen Parameter oder einen Filter für benutzerdefinierte Felder .\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Siehe folgenden allgemeinen Code:
 
    ```
@@ -273,20 +271,18 @@ So filtern Sie nach benutzerdefinierten Feldern, die nicht mit einem benutzerdef
    ```
 
 1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
-
    <pre>VORHANDEN:A:$$OBJCODE=CTGYPA<br>VORHANDEN:A:parameterID=FIELD:ID<br>VORHANDEN:A:$$EXISTSMOD=NOTEXISTS</pre>
 
    >[!NOTE]
    >
-   >* Das ursprüngliche Objekt ist das Objekt des Berichts: Parameter.
+   >* Das Originalobjekt ist das Objekt des Berichts: Parameter.
    >* Das Target-Objekt ist Kategorie.
    >* Das Verknüpfungsobjekt ist der Kategorieparameter.
    >* Der Objektcode des Verknüpfungsobjekts ist CTGYPA.
    >* Das Verknüpfungsfeld mit dem Target-Objekt ist parameterID, da parameterID sowohl in der Tabelle &quot;Verknüpfungsobjekt&quot;als auch in der Tabelle &quot;Zielobjekt&quot;vorhanden ist.
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist die ID (des Kategorieparameters).
 
-
-1. Klicken **Filter speichern**.
+1. Klicks **Filter speichern**.
 
 ### Beispiel 3: Nach fehlenden Objekten filtern: Benutzer, die die Zeit für einen bestimmten Zeitraum nicht protokolliert haben {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -295,9 +291,9 @@ Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter erstellen, u
 So filtern Sie nach Benutzern, die die Zeit in der letzten Woche nicht protokolliert haben:
 
 1. Erstellen Sie einen Benutzerfilter.\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Siehe folgenden allgemeinen Code:
 
    ```
@@ -320,15 +316,14 @@ So filtern Sie nach Benutzern, die die Zeit in der letzten Woche nicht protokoll
    >* Das Target-Objekt ist Stunde.
    >* In diesem Beispiel benötigen Sie kein Verknüpfungsobjekt, da Benutzer und Stunden direkt mit der Workfront-Datenbank verbunden sind.
    >* Da es kein Verknüpfungsobjekt gibt, müssen Sie den Objektcode des Target-Objekts verwenden: STUNDE.
-   >* Das Verknüpfungsfeld mit dem Target-Objekt ist ownerID (das im Originalobjekt angezeigt wird). das Verknüpfungsobjekt fehlt).
-   >* Das im Originalobjekt angezeigte Verknüpfungsfeld ist die ID (der Stunde) (die im Zielobjekt angezeigt wird). das Verknüpfungsobjekt fehlt.)
+   >* Das Verknüpfungsfeld mit dem Zielobjekt ist ownerID (das im Originalobjekt angezeigt wird, das Verknüpfungsobjekt fehlt).
+   >* Das im Originalobjekt angezeigte Verknüpfungsfeld ist die ID (der Stunde) (die im Zielobjekt angezeigt wird; das Verknüpfungsobjekt fehlt.)
    >* VORHANDEN:A:entryDate -Anweisung bezieht sich auf Felder, die das Target-Objekt (Stunde) definieren und dieselbe Syntax wie in einer regulären Filteranweisung verwenden. Dadurch wird sichergestellt, dass Sie nur die Benutzer anzeigen, die die Zeit für einen bestimmten Zeitraum (in diesem Fall die vorherige Woche) nicht protokolliert haben.
    >* Der NOTEXISTS-Modifikator zeigt an, dass wir nach Elementen (Stunden) suchen, die für das Objekt des Berichts (Benutzer) nicht vorhanden sind.
 
+1. Klicks **Filter speichern**.
 
-1. Klicken **Filter speichern**.
-
-### Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio Owner Name und Portfolio Alignment Scorecard ID {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
+### Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach dem Portfolio-Eigentümernamen und der Scorecard-ID der Portfolio-Ausrichtung {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter erstellen, der auf mehr als ein Feld im Target-Objekt verweist. In diesem Fall müssen die Filteranweisungen, die auf die Zielfelder verweisen, durch AND verbunden werden.
 
@@ -337,12 +332,12 @@ Sie können beispielsweise eine Liste von Aufgaben filtern, um nur Aufgaben anzu
 * Sie befinden sich in einem Projekt, das mit einem Portfolio verknüpft ist, dessen Eigentümer ein bestimmter Benutzer ist.
 * Sie befinden sich in einem Projekt, das mit einem Portfolio verknüpft ist, dessen Projekte nicht mit einer bestimmten Alignment-Scorecard verbunden sind.
 
-So filtern Sie Aufgaben nach dem Portfolio Owner Name und der Scorecard-ID der Portfolio-Ausrichtung:
+So filtern Sie Aufgaben nach dem Portfolio Owner Name und der Portfolio Alignment Scorecard ID:
 
 1. Erstellen Sie einen Filter &quot;Aufgabe&quot;.\
-   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicks **In den Textmodus wechseln**.
 1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** Bereich:
    <pre>VORHANDEN:A:$$OBJCODE=PROJ<br>VORHANDEN:A:ID=FIELD:projectID<br>VORHANDEN:A:portfolio:ownerID=4d80ce520000528787d57807732a33f<br>UND:A:VORHANDEN:A:$$EXISTSMOD=NOTEXISTS<br>UND:A:VORHANDEN:A:$$OBJCODE=PROJ<br>UND:A:VORHANDEN:A:ID=FIELD:projectID<br>UND:A:VORHANDEN:A:Portfolio:alignScoreCardID=4da387b0001cbc732bb259355c33dad</pre>
 
@@ -352,11 +347,10 @@ So filtern Sie Aufgaben nach dem Portfolio Owner Name und der Scorecard-ID der P
    >* Das Target-Objekt ist Portfolio.
    >* Das erste Zielfeld ist ownerID.
    >* Das zweite Zielfeld ist die Kennung der Alignment-Scorecard.
-   >* Das Verknüpfungsobjekt ist &quot;Projekt&quot;.
+   >* Das Verknüpfungsobjekt ist Projekt.
    >* Der Objektcode des Verknüpfungsobjekts ist PROJ.
    >* Das Verknüpfungsfeld mit dem Zielobjekt ist die ID (des Portfolios).
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist projectID.
    >* Ersetzen Sie die ownerID durch eine Benutzer-ID aus Ihrer Umgebung.
 
-
-1. Klicken **Filter speichern**.
+1. Klicks **Filter speichern**.

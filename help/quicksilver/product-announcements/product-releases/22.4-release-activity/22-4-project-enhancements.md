@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Um Ihnen viel mehr Flexibilität bei der Verwaltung von Aufgaben und Problemen z
 
 Weitere Informationen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) und [Zuweisen von Problemen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
-## Smart-Benutzerauswahl für Projektrollen in den Bereichen &quot;Bearbeiten&quot;und &quot;Details&quot;
+## Smart-Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details
 
 Die Anzeige der Benutzer beim Hinzufügen zu den folgenden Projektfeldern im Feld Bearbeiten und im Abschnitt Details des Projekts wurde verbessert:
 
@@ -72,11 +72,11 @@ Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt,
 
 * Fügen Sie eine Adobe XD-Datei hinzu, um ein benutzerdefiniertes Formular visueller und informativer zu gestalten. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, die XD Datei im Formular anzeigen und damit interagieren.
 
-   Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-* Verwenden Sie den Schnellfilter, um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
+* Verwenden Sie den Schnellfilter , um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
 
-   Weitere Informationen zum Schnellfilter finden Sie unter [Schnellfilter auf Listen anwenden](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Weitere Informationen zum Schnellfilter finden Sie unter [Schnellfilter auf Listen anwenden](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
@@ -92,7 +92,7 @@ Das Filtern in Projekt-, Aufgaben- und Problemlisten wurde neu gestaltet, um Ihn
 
 * Filter duplizieren
 
-* Freigeben von Filtern
+* Filter freigeben
 
 * Für Sie freigegebene Filter entfernen
 
@@ -107,26 +107,26 @@ Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Syste
 
 * Szenarienplaner
 
-* Arbeitszeittabellen
+* Arbeitszeit- tabellen
 
 
 ### Wir wollen Ihr Feedback!
 
-Mit dieser öffentlichen Beta-Version erhalten Benutzer die Möglichkeit, Feedback direkt an das Team zu senden, das an dem Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns darauf, von Ihnen und Ihren Benutzern über die neue Filtererfahrung in der öffentlichen Beta-Phase zu erfahren. Wenn Ihr Team mit einem Produkt direkt zusammenkommen möchte, um zusätzliche Rückmeldungen zu geben, können Sie hier ein Meeting planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Mit dieser öffentlichen Beta-Version erhalten Benutzer die Möglichkeit, Feedback direkt an das Team zu senden, das an dem Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns darauf, von Ihnen und Ihren Benutzern über die neue Filtererfahrung in der öffentlichen Beta-Phase zu erfahren. Wenn Ihr Team mit einem Produkt direkt zusammentreffen möchte, um zusätzliches Feedback zu geben, können Sie ein Meeting hier planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Wie geht es weiter?
 
 * Neues Gruppierungs- und Ansichtserlebnis (auch Spalten genannt)
 
-   Wir werden mit der Arbeit an dem neuen Erlebnis für Gruppierungen und Ansichten (auch als Spalten bezeichnet) beginnen, damit es mit dem neuen Filtererlebnis konsistent ist und einige der gleichen großartigen Funktionen wie die neuen Filter aufweist.
+  Wir werden mit der Arbeit an dem neuen Erlebnis für Gruppierungen und Ansichten (auch als Spalten bezeichnet) beginnen, damit es mit dem neuen Filtererlebnis konsistent ist und einige der gleichen großartigen Funktionen wie die neuen Filter aufweist.
 
 * Neue Filter in andere Bereiche von Adobe Workfront implementieren
 
-   Wir werden mit Teams aus dem gesamten Produkt zusammenarbeiten, um die neuen Filtererfahrungen in anderen Bereichen in Workfront zu implementieren.
+  Wir werden mit Teams aus dem gesamten Produkt zusammenarbeiten, um die neuen Filtererfahrungen in anderen Bereichen in Workfront zu implementieren.
 
 
 Wir möchten Ihnen einen Mehrwert bieten, damit wir auch weiterhin mit den neuen Erfahrungen und anderen Bereichen zur Verfügung stehen. Bleiben Sie auf dem Laufenden für spannendere Updates.
 
-Weitere Informationen finden Sie unter [Filterübersicht in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Weitere Informationen finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412391/)

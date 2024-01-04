@@ -6,9 +6,9 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
 
 * Filter in anderen Bereichen von Workfront außerhalb von Listen und Berichten.
 
-  Eine Liste aller Filter in Workfront und der Bereiche, in denen sie angewendet werden können, finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Eine Liste aller Filter in Workfront und der Bereiche, in denen sie angewendet werden können, finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -241,7 +241,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
    ![Include if all or any or true Dropdownmenü](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Weitere Informationen zu Filteroperatoren finden Sie unter [Filterübersicht in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Weitere Informationen zu Filteroperatoren finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicken Sie auf das Feld-Dropdown-Menü, um eine Liste der zuletzt verwendeten Felder und der vorgeschlagenen Felder anzuzeigen, nach denen gefiltert werden soll. Die vorgeschlagenen Felder werden derzeit in der Liste angezeigt, die Sie filtern.
 

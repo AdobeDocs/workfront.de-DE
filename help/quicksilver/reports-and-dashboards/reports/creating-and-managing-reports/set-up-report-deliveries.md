@@ -6,9 +6,9 @@ description: Berichtversand - Übersicht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -41,37 +41,38 @@ Beachten Sie Folgendes bei der Planung von Berichten für die Bereitstellung:
 
 Es gibt verschiedene Größenbeschränkungen, die beeinflussen, wie Berichte in Workfront angezeigt werden und wie sie über einen manuellen Export, einen gelieferten Bericht oder über die API exportiert werden:
 
-* **Dateigröße von 5 MB:** Dateigrößenbeschränkung für jeden exportierten Bericht, der für die Bereitstellung geplant ist. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet. 
+* **Dateigröße von 5 MB:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet. 
 
-   >[!NOTE]
-   >
-   >Excel .xlsx-Dateien, die größer als 5 MB sind, generieren keine E-Mail. Sie können den Bericht manuell in dieses Format exportieren. Informationen zum Exportieren von Berichten finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >Excel .xlsx-Dateien, die größer als 5 MB sind, generieren keine E-Mail. Sie können den Bericht manuell in dieses Format exportieren. Informationen zum Exportieren von Berichten finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für PDF- und tabulatorgetrennte Dateien zulässig sind.
 
-   Bei Excel .xls-Dateien beträgt diese Beschränkung **65.000 Zeilen**.
+  Bei Excel .xls-Dateien beträgt diese Beschränkung **65.000 Zeilen**.
 
-   Bei Excel .xlsx-Dateien beträgt diese Beschränkung **100.000 Zeilen**.
+  Bei Excel .xlsx-Dateien beträgt diese Beschränkung **100.000 Zeilen**.
 
-   Diese Beschränkungen schließen die Spaltenüberschriften sowie die Zeilen für Gruppierungen im Bericht aus. Wenn beispielsweise ein Bericht 6 Gruppierungen und 50.000 Zeilen oder Daten enthält, enthält die exportierte Datei 50.000 Zeilen.
+  Diese Beschränkungen schließen die Spaltenüberschriften sowie die Zeilen für Gruppierungen im Bericht aus. Wenn beispielsweise ein Bericht 6 Gruppierungen und 50.000 Datenzeilen enthält, enthält die exportierte Datei 50.000 Zeilen.
 
-   Wenn Ihr Bericht mehr Elemente enthält, die diese Beschränkungen überschreiten, erhalten Sie eine Fehlermeldung, dass der Export und die Bereitstellung des Berichts nicht erfolgreich sind. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Beschränkungen ist, um die Ergebnisse liefern zu können. Wenn Sie alle Daten exportieren möchten, empfehlen wir, Filter zu verwenden, um kleinere Datenmengen abzurufen, und dann mehrere Exporte durchzuführen. Weitere Informationen finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Wenn Ihr Bericht mehr Elemente enthält, die diese Beschränkungen überschreiten, erhalten Sie eine Fehlermeldung, dass der Export und die Bereitstellung des Berichts nicht erfolgreich sind. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Beschränkungen ist, um die Ergebnisse liefern zu können. Wenn Sie alle Daten exportieren möchten, empfehlen wir, Filter zu verwenden, um kleinere Datenmengen abzurufen, und dann mehrere Exporte durchzuführen. Weitere Informationen finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   Diese Beschränkungen gelten für:
+  Diese Beschränkungen gelten für:
 
    * Ein manueller Export eines Berichts.
    * Ein terminierter Bericht.
-   * Export über eine API-Integration. 
+   * Export über eine API-Integration.
    * Daten, die über einen Kick-Start exportiert wurden.
 
-      Weitere Informationen zum Exportieren von Daten über Schnellstarts finden Sie im Artikel [Daten aus Adobe Workfront über Kick-Starts exportieren](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Weitere Informationen zum Exportieren von Daten über Schnellstarts finden Sie im Artikel [Exportieren von Daten aus Adobe Workfront über Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      Sie können 50.000 Zeilen in einer Schnellstartdatei exportieren, jedoch nur in eine Excel-Formatdatei. 
+     >[!NOTE]
+     >
+     Sie können 50.000 Zeilen in einer Schnellstartdatei exportieren, jedoch nur in eine Excel-Formatdatei. 
 
    * Exportieren von Nutzungsinformationen für ein Projekt.
 
-      Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65.530 Hyperlinks:** Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 65.530 Hyperlinks vorschreibt. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem gelieferten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn jedoch mehr als 65.530 Links innerhalb des Dokuments vorhanden sind, wird das Dokument nicht geöffnet. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate. 
 * **256 Spalten**: Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 256 Spalten vorschreibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate. 
@@ -94,7 +95,7 @@ Beachten Sie Folgendes: 
 
 * Beim Anzeigen eines Berichts im Browser stimmen Zeitstempel und Format des Berichts mit dem Gebietsschema und der Zeitzone Ihres Browsers überein, wie in den Browsereinstellungen definiert.
 * Wenn der Bericht in einer E-Mail zugestellt wird, wird der Bericht mit dem Zeitstempel und dem Format bereitgestellt, die dem Gebietsschema und der Zeitzone des Benutzers entsprechen, wie sie in Ihrem Workfront-Profil angegeben sind.\
-   Weitere Informationen zum Gebietsschema und zur Zeitzone von Benutzern in Workfront finden Sie im Artikel [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Gebietsschema und zur Zeitzone von Benutzern in Workfront finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Berichte mit einer speziellen Ansicht {#reports-with-a-special-view}
 
@@ -109,6 +110,7 @@ Die folgenden Ansichten werden als besondere Ansichten betrachtet:
 * Berichte mit einem Diagramm als Standardregisterkarte
 
 >[!NOTE]
+>
 Wenn der Bericht zusätzlich zur Standardregisterkarte mit einer speziellen Ansicht auch eine Matrix -Registerkarte enthält, wird der Bericht so bereitgestellt, wie er auf der Registerkarte Matrix angezeigt wird.
 
 Weitere Informationen dazu, wie Sie eine spezielle Ansicht auf einen Bericht anwenden, finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -117,13 +119,13 @@ Weitere Informationen dazu, wie Sie eine spezielle Ansicht auf einen Bericht anw
 
  Wenn Sie einen Bericht von Workfront senden, erhält der Benutzer eine E-Mail mit dem Bericht in einem separaten Anhang. 
 
-* [Betreffzeile, Anlagenname und Berichttitel](#subject-line-attachment-name-and-report-title)
+* [Betreffzeile, Anlagenname und Berichtstitel](#subject-line-attachment-name-and-report-title)
 * [Zeitstempel](#timestamps)
 * [Branding](#branding)
 * [Formatierung](#formatting)
 * [Links](#links)
 
-### Betreffzeile, Anlagenname und Berichttitel {#subject-line-attachment-name-and-report-title}
+### Betreffzeile, Anlagenname und Berichtstitel {#subject-line-attachment-name-and-report-title}
 
 Weitere Informationen zur Betreffzeile der zugestellten Berichts-E-Mail finden Sie unter [Planen eines automatischen Berichtversands](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
@@ -136,6 +138,7 @@ Wenn Sie die Formatierung des gelieferten Berichts als PDF- oder HTML-Datei gepl
 Berichte, deren Bereitstellung im Excel-, Excel- (.xlsx) oder TSV-Format geplant ist, haben keinen Titel.
 
 >[!NOTE]
+>
 Wenn der Bericht eine Beschreibung enthält, wird er in die exportierte Datei aufgenommen, wenn die Datei als PDF- oder HTML-Datei formatiert ist.
 
 ### Zeitstempel {#timestamps}
@@ -154,7 +157,7 @@ Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz benutzerdefiniertes Bra
 
 Berichte, die in allen anderen Formaten gesendet werden, können nicht mit Ihrem Logo personalisiert werden.
 
-Weitere Informationen zum Branding Ihrer Workfront-Instanz finden Sie im Artikel [Markieren Sie Ihre Adobe Workfront-Instanz.](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen zum Branding Ihrer Workfront-Instanz finden Sie im Artikel [Markieren Sie Ihre Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formatierung {#formatting}
 
@@ -177,15 +180,15 @@ Der Name des Berichts in der E-Mail-Nachricht ist ebenfalls ein Link.
 
 Sie können sehen, ob ein Bericht für die Bereitstellung konfiguriert wurde, indem Sie Folgendes erstellen:
 
-* **Eine Ansicht** für das Berichtsobjekt in einer Liste oder einem Bericht für Berichte: Erstellen Sie eine Ansicht auf einer Liste von Berichten oder einen Bericht für Berichte und fügen Sie der Ansicht die folgende Spalte hinzu:\
-   *Name des terminierten Berichts.\
-   *Die Namen aller für diesen Bericht geplanten Sendungen werden in der Spalte mit Aufzählungszeichen aufgeführt.\
-   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **Eine Ansicht** für das Objekt &quot;Bericht&quot;in einer Liste oder in einem Bericht für Berichte: Erstellen Sie eine Ansicht auf einer Liste von Berichten oder in einem Bericht für Berichte und fügen Sie der Ansicht die folgende Spalte hinzu:\
+  *Name des terminierten Berichts.\
+  *Die Namen aller für diesen Bericht geplanten Sendungen werden in der Spalte mit Aufzählungszeichen aufgeführt.\
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
 * **Filter** für das Berichtsobjekt: Erstellen Sie einen Filter für eine Liste von Berichten oder einen Bericht zu Berichten mit der folgenden Anweisung: *Geplante Berichts-ID ist nicht leer*.\
-   Dadurch werden nur Berichte angezeigt, die in Ihrer Liste oder Ihrem Bericht geplant wurden.\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Informationen zum Erstellen eines Berichts für Berichte finden Sie unter [Erstellen eines Berichts über Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Dadurch werden nur Berichte angezeigt, die in Ihrer Liste oder Ihrem Bericht geplant wurden.\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Informationen zum Erstellen eines Berichts für Berichte finden Sie unter [Erstellen eines Berichts über Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

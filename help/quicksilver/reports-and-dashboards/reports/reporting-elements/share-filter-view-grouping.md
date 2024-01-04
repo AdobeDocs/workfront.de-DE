@@ -6,9 +6,9 @@ description: Sie können Filter, Ansichten und Gruppierungen, auf die Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Wenn ein Filter, eine Ansicht oder eine Gruppierung für Sie freigegeben ist, k�
 
 Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung finden Sie in den folgenden Artikeln:
 
-* [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -46,7 +46,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -71,7 +71,7 @@ Sie müssen über Folgendes verfügen:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-Die Freigabe von Filtern in Auswahllisten hängt davon ab, von welcher Benutzeroberfläche aus Sie den Filter freigeben: Standard oder veraltet. Informationen zu den Typen von Filtererstellungs-Schnittstellen finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Die Freigabe von Filtern in ausgewählten Listen hängt davon ab, von welcher Benutzeroberfläche aus Sie den Filter freigeben: Standard oder veraltet. Informationen zu den Typen von Filtererstellungs-Schnittstellen finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 Sie können Ansichten und Gruppierungen nur in der alten Benutzeroberfläche freigeben.
 
@@ -117,33 +117,34 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
 
    Das Freigabefeld Filter wird angezeigt.
 
-1. Aktivieren Sie die **Systemweit anzeigen** -Einstellung. Dadurch kann jeder in Workfront den Filter anzeigen.
+1. Aktivieren Sie die **Systemweit anzeigen** -Einstellung. Dadurch erhält jeder Benutzer in Workfront die Berechtigung, den Filter anzuzeigen.
 
    >[!IMPORTANT]
    >
    >Verwenden Sie diese Einstellung mit Vorsicht. Das Hinzufügen vieler Filter für alle Benutzer erschwert das Filtern und erschwert die Suche nach Filtern.
 
-   Oder geben Sie die Namen der Benutzer, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie die Freigabe durchführen möchten. **Zugriff auf gewähren** -Feld.
+   Oder geben Sie die Namen der Benutzer, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie die Freigabe durchführen möchten. **Zugriff auf gewähren an** -Feld.
 
    ![Freigabefeld filtern](assets/new-filters-share-filter.png)
 
-1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um ihre Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder das **Ansicht** oder **Verwalten** -Option. **Ansicht** ist der Standardwert.
+1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um deren Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder das **Ansicht** oder **Verwalten** -Option. **Ansicht** ist der Standardwert.
 
    ![Berechtigungen freigeben](assets/new-filters-sharing-permissions.png)
 
 1. (Optional) Aktivieren oder deaktivieren Sie die zusätzlichen Berechtigungen für eine Entität, indem Sie eine der folgenden Aktionen ausführen:
 
-   1. Klicken **Ansicht** und deaktivieren Sie die **Freigeben** -Option. Sie ist standardmäßig aktiviert.
-   1. Klicken **Verwalten** und deaktivieren Sie entweder die **Freigeben** oder **Löschen** -Option. Sie sind standardmäßig aktiviert.
+   1. Klicks **Ansicht** und deaktivieren Sie die **Freigeben** -Option. Sie ist standardmäßig aktiviert.
+   1. Klicks **Verwalten** und deaktivieren Sie entweder die **Freigeben** oder **Löschen** -Option. Sie sind standardmäßig aktiviert.
 
       >[!NOTE]
       >
       >Wenn Sie die Option Zugriff mit Löschoption verwalten aktivieren, können diese Benutzer den Filter von allen Benutzern löschen, auch wenn sie nicht Eigentümer des Filters sind.
+
    >[!TIP]
    >
    >Benutzer können keine höhere Berechtigung als ihre Zugriffsstufe erhalten. Wenn sie keinen Zugriff auf Filter bearbeiten in ihrer Zugriffsebene haben, können sie keine Berechtigungen zum Verwalten eines Filters erhalten. Workfront deaktiviert die Option Verwalten für diese Benutzer und die Option ist abgeblendet.
 
-1. Klicken **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
+1. Klicks **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
 
    >[!TIP]
    >
@@ -177,7 +178,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der alten Benutzeroberf
    >Durch die Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
    **So geben Sie eine Freigabe für alle Benutzer im System durch:** Klicken Sie auf **Einstellungen** und klicken Sie auf **Diese Funktion systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option System-weit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Ihr Administrator muss die Option System-weit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln . [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Bedingt) Wenn Sie die Freigabe für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen durchführen, klicken Sie auf das Dropdown-Menü, um die Zugriffsstufe festzulegen, die Sie gewähren möchten.
 
@@ -197,7 +198,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der alten Benutzeroberf
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Freigeben</strong></td> 
-      <td> <p>Klicken <strong>Erweiterte Einstellungen</strong>, wählen Sie die <strong>Freigeben</strong> -Option, je nachdem, ob die Empfänger für andere freigeben können sollen.</p> </td> 
+      <td> <p>Klicks <strong>Erweiterte Einstellungen</strong>, wählen oder löschen Sie die <strong>Freigeben</strong> -Option, je nachdem, ob die Empfänger für andere freigeben können sollen.</p> </td> 
      </tr> 
     </tbody> 
    </table>

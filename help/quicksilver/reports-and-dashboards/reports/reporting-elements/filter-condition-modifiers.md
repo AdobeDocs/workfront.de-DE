@@ -6,10 +6,10 @@ description: Mit Filter- und Bedingungsmodifikatoren können Sie Filter erstelle
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 1%
+source-wordcount: '1554'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Mit Filter- und Bedingungsmodifikatoren können Sie Filter erstellen und Bedingungen zur Formatierung Ihrer Berichtsergebnisse festlegen.
 
-Weitere Informationen zum Erstellen von Filtern finden Sie im Artikel [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Weitere Informationen zum Erstellen von Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Weitere Informationen zur Verwendung von bedingter Formatierung in Ansichten finden Sie im Artikel [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -46,12 +46,12 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td> <p><strong>Leer</strong> </p> </td> 
-   <td> <p><strong>leer</strong> </p> </td> 
+   <td> <p><strong>Ist leer</strong> </p> </td> 
+   <td> <p><strong>blank</strong> </p> </td> 
    <td> <p>Das Feld existiert für das Objekt, dem Feld wurde jedoch noch kein Wert zugewiesen.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Nicht leer</strong> </p> </td> 
+   <td> <p><strong>Ist nicht leer</strong> </p> </td> 
    <td> <p><strong>notblank</strong> </p> </td> 
    <td> <p>Das Feld, nach dem Sie filtern, ist vorhanden und hat einen Wert.</p> </td> 
   </tr> 
@@ -83,7 +83,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Dies ist die Version von, die nicht von Schreibweise abhängig ist <strong>like</strong>. Beispiel: "cilike %Current% %Dead%"gibt alle Notizen zurück, die "Current to Dead"(Aktuell bis tot) oder "Aktuell bis tot"enthalten.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
+   <td> <p>Dies ist die Version von, die nicht von Schreibweise abhängig ist. <strong>like</strong>. Beispiel: "Wie %Current% %Dead%"gibt alle Notizen zurück, die "Aktuell bis tot"oder "Aktuell bis tot"enthalten.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
@@ -92,11 +92,11 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
   </tr> 
   <tr valign="top"> 
    <td> </td> 
-   <td> <p><strong>enthält</strong> </p> </td> 
+   <td> <p><strong>contains</strong> </p> </td> 
    <td> <p>(Groß-/Kleinschreibung beachten) Sucht den angegebenen Text in einer gesamten Textzeichenfolge.</p> <p>Beispielsweise erfasst die Verwendung von "enthält Inf"alles mit "Inf"darin, z. B. das Wort "Unendlichkeit".</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Beinhaltet nicht</strong> </p> </td> 
+   <td> <p><strong>Enthält nicht</strong> </p> </td> 
    <td> <p><strong>Cinotcontains</strong> </p> </td> 
    <td> <p>(Groß-/Kleinschreibung nicht beachten) Er filtert Elemente, bei denen der angegebene Wert fehlt.</p> <p>Beispielsweise erfasst "enthält nicht inf"alles ohne "Inf"oder "inf"im Namen.</p> <p>Hinweis: <span>Wenn das Feld, nach dem Sie filtern, mehrere Optionen aufweist, werden die Ergebnisse herausgefiltert, die sowohl die von Ihnen festgelegte Auswahl als auch die von Ihnen festgelegte Auswahl und zusätzliche Optionen enthalten.</span> </p> </td> 
   </tr> 
@@ -110,7 +110,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
     </ul> <p>Informationen zum Erstellen komplexer Filter mithilfe von EXISTS-Anweisungen finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Erstellen komplexer Textmodusfilter mit vorhandenen Anweisungen</a>. Dies ist der einzige Modifikator, der in EXISTS-Anweisungen verwendet wird.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> </p> <p> </p> <p> </p> <p><strong>Gleich (ignoriert Groß- und Kleinschreibung)</strong> </p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p><strong>Gleich</strong> </p> </td> 
    <td> <p><strong>in</strong> </p> </td> 
    <td> <p>(Groß-/Kleinschreibung beachten) Mit diesem Modifikator können Sie eine kommagetrennte Liste von Variablen erstellen, die mit einem einzelnen Attribut verglichen werden, das in einem Filter ausgewertet wurde. Die gesamte Liste wird als OR-Anweisung behandelt und gibt Ergebnisse zurück, die die Kriterien einer oder mehrerer Variablen erfüllen.</p> <p>Wenn Sie beispielsweise nach Projekten suchen, gibt "in CUR, PLN, CPL"alle Projekte zurück, die sich im Status "Aktuell", "Planung"oder "Abgeschlossen"befinden.</p> <p>Der integrierte Modifikator <strong>Gleich</strong> entspricht dem Textmodus-Modifikator von <strong>in</strong>. Das bedeutet, dass Sie für das Feld "Gleich mit mehreren Werten"auswählen können.</p> <p>Beispielsweise können Sie in einem Projektbericht "Status gleich Aktuell, Planung, Tod"auswählen und Projekte in einem dieser Status anzeigen.</p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
    <td> <p>(Groß-/Kleinschreibung beachten) Dies gibt nur eine exakte Übereinstimmung mit dem gesuchten Wert zurück.</p> <p>Wenn Sie beispielsweise nach vollständigen Projekten suchen, gibt "eq CPL"alle Projekte mit dem vollständigen Status zurück. "eq CPL, CUR"gibt kein Ergebnis zurück, da ein Projekt nicht vollständig und aktuell sein kann.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zur Verwendung des Textmodus zum Erstellen von Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>größer als</strong> </p> </td> 
+   <td> <p><strong>Größer als</strong> </p> </td> 
    <td> <p><strong>gt</strong> </p> </td> 
    <td> <p>Hierbei wird nach allen Ergebnissen gesucht, deren Wert größer als der eingegebene Wert ist, wobei der eingegebene Wert nicht berücksichtigt wird.</p> </td> 
   </tr> 
@@ -145,8 +145,8 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
    <td> <p>Hierbei werden alle Ergebnisse gesucht, deren Wert kleiner oder gleich dem eingegebenen Wert ist.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Zwischen</strong> </p> </td> 
-   <td> <p><strong>zwischen</strong> </p> </td> 
+   <td> <p><strong>between</strong> </p> </td> 
+   <td> <p><strong>between</strong> </p> </td> 
    <td> <p>Bietet zwei erforderliche Feldwerte und sucht nach allen Ergebnissen im Bereich beider Felder, einschließlich der eingegebenen Werte.</p> </td> 
   </tr> 
   <tr valign="top"> 

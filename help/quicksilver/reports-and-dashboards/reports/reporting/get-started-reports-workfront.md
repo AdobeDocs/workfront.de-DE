@@ -7,9 +7,9 @@ description: Berichte bieten einen Überblick darüber, was mit Benutzern und de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Berichte stellen eine Kombination der folgenden drei Elemente in Workfront dar:
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <li>Steuert die Menge an Informationen, die in einem Bericht angezeigt wird.</li> <li>Weitere Informationen zu Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht in Adobe Workfront</a>.</li> <li>Informationen zu Filtermodifikatoren finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</li> <li>Sie können mit Platzhaltern filtern, um Ihre Filter allgemeiner zu gestalten und flexibler zu nutzen.</li> <li>Informationen zur Verwendung von Platzhaltern in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Platzhalterfiltervariablen</a>.</li> </td> 
+   <td> <li>Steuert die Menge an Informationen, die in einem Bericht angezeigt wird.</li> <li>Weitere Informationen zu Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht</a>.</li> <li>Informationen zu Filtermodifikatoren finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungs-Modifikatoren</a>.</li> <li>Sie können mit Platzhaltern filtern, um Ihre Filter allgemeiner zu gestalten und flexibler zu nutzen.</li> <li>Informationen zur Verwendung von Platzhaltern in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Platzhalterfiltervariablen</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

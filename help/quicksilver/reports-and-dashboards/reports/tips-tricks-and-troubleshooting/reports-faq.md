@@ -7,9 +7,9 @@ description: Häufig gestellte Fragen zu Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Wenn ich einen Bericht mit einer Grafik ausführe, sehe ich die Fehlermeldung &q
 
 Dieser Fehler bedeutet, dass Ihr Diagramm bis zu 618 eindeutige Ergebnisse enthält, z. B. mehr als 618 Balken in einem Balkendiagramm. Um das Anzeigeproblem zu beheben, müssen Sie die Ergebnisse verfeinern, indem Sie den aktuellen Filter ändern und Auswahlen gruppieren.
 
-Informationen zum Ändern von Filtern und Gruppierungen finden Sie in den Artikeln [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Informationen zum Ändern von Filtern und Gruppierungen finden Sie in den Artikeln [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Warum werden meine Aufgaben (oder Probleme) angezeigt, wenn ich auf denselben Bericht (oder Kalender) wie mein Mitarbeiter zugreife und stattdessen dessen Aufgaben sehe?
 

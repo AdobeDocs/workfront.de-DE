@@ -6,9 +6,9 @@ description: In einem Portfolio navigieren
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * **[!UICONTROL Aktiv]**: Umfasst alle mit dem ausgewählten Portfolio verknüpften Projekte, die den folgenden Status aufweisen:
 
-      * [!UICONTROL In Planung]
+      * [!UICONTROL Planung]
       * [!UICONTROL Genehmigt]
       * [!UICONTROL Aktuell]
    * **[!UICONTROL Angefordert]**: Umfasst Projekte, die mit dem ausgewählten Portfolio verknüpft sind, mit dem Status **[!UICONTROL Angefordert]**.
@@ -93,7 +93,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >Um nur bestimmte Projekte anzuzeigen, sollten Sie in Erwägung ziehen, einen Projektfilter im **[!UICONTROL Filter]** Dropdown-Menü oben in der Liste der Projekte, um die Anzahl der angezeigten Projekte zu verringern.
 
-     Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Klicks **[!UICONTROL Programme]** im linken Bereich, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.\

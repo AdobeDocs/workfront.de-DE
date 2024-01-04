@@ -5,10 +5,10 @@ description: Die Aufgabenliste Gantt-Diagramm und die Projektliste Gantt-Diagram
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenzübersicht*</td> 
@@ -36,7 +36,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>[!UICONTROL Ansicht] oder höherer Zugriff auf Projekte und Aufgaben</p> <p><b>NOTIZ</b>
 
-Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -99,7 +99,7 @@ So zeigen Sie Aufgaben in einem Projekt aus einer Projektliste an:
 
 ## Ändern Sie den Zeitraum, für den Informationen in der Variablen [!UICONTROL Gantt-Diagramm]
 
-Sie können den auf der [!UICONTROL Gantt-Diagramm] , um Informationen auf granularer Ebene anzuzeigen, oder Sie können schnell zu einer Tages-, Wochen-, Monats-, Quartals- oder Jahresansicht navigieren:
+Sie können den auf der Seite [!UICONTROL Gantt-Diagramm] , um Informationen auf granularer Ebene anzuzeigen, oder Sie können schnell zu einer Tages-, Wochen-, Monats-, Quartals- oder Jahresansicht navigieren:
 
 * [Zeitraum auf einer granularen Ebene ändern](#change-the-time-period-on-a-granular-level)
 * [Anzeigen von Informationen nach Tag, Woche, Monat, Quartal oder Jahr](#view-information-by-day-week-month-quarter-or-year)
@@ -117,7 +117,7 @@ Sie können den auf der [!UICONTROL Gantt-Diagramm] , um Informationen auf granu
 
 1. Wählen Sie einen Zeitraum aus den folgenden verfügbaren Optionen aus:
 
-   * **[!UICONTROL Alle anpassen]**: Diese Option zeigt die Zeitleiste des gesamten Projekts an.
+   * **[!UICONTROL Alle anpassen]**: Diese Option zeigt die Zeitlinie des gesamten Projekts an.
    * **[!UICONTROL Alle Projekte]**: Diese Option ist nur im Gantt-Diagramm der Projektliste verfügbar.
    * **[!UICONTROL Jahr]**
    * **[!UICONTROL Quartal]**
@@ -125,12 +125,12 @@ Sie können den auf der [!UICONTROL Gantt-Diagramm] , um Informationen auf granu
    * **[!UICONTROL Woche]**
    * **[!UICONTROL Tag]**
 
-1. (Optional) Wählen Sie einen detaillierteren Zeitrahmen aus, z. B. [!UICONTROL Woche] oder [!UICONTROL Tag]und klicken und ziehen Sie die horizontale Bildlaufleiste am unteren Rand des  [!UICONTROL Gantt-Diagramm] , um in der Zeitleiste des Projekts von links nach rechts zu wechseln.\
+1. (Optional) Wählen Sie einen detaillierteren Zeitrahmen aus, z. B. [!UICONTROL Woche] oder [!UICONTROL Tag]und klicken und ziehen Sie die horizontale Bildlaufleiste unten im  [!UICONTROL Gantt-Diagramm] , um in der Zeitleiste des Projekts von links nach rechts zu wechseln.\
    Ein Timeline-Schnappschuss der [!UICONTROL Gantt] angezeigt, um das gesamte Projekt anzuzeigen.
 
    >[!TIP]
    >
-   >Der Timeline-Schnappschuss wird erst angezeigt, nachdem Sie auf die horizontale Bildlaufleiste geklickt haben.
+   >Der Timeline-Schnappschuss wird erst angezeigt, wenn Sie auf die horizontale Bildlaufleiste klicken.
 
    ![gestreckchy_gantt_minimap_with_entwurf__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
@@ -140,7 +140,7 @@ Sie können den auf der [!UICONTROL Gantt-Diagramm] , um Informationen auf granu
 
 ## Filter, Ansichten und Gruppierungen verwenden
 
-Die [!UICONTROL Gantt-Diagramm] ist eine visuelle Darstellung der Informationen, die derzeit in der Aufgabenliste angezeigt werden. Sie können Filter, Ansichten und Gruppierungen auf die Objekte anwenden, die in beiden [!UICONTROL Gantt-Diagramm]s.
+Die [!UICONTROL Gantt-Diagramm] ist eine visuelle Darstellung der Informationen, die derzeit in der Aufgabenliste angezeigt werden. Sie können Filter, Ansichten und Gruppierungen auf die in [!UICONTROL Gantt-Diagramm]s.
 
 >[!CAUTION]
 >
@@ -150,13 +150,13 @@ Filter und Gruppierungen, die Sie auf die Liste anwenden, werden sowohl in der P
 
 * Filter\
    Sie können einen Filter auf die Liste anwenden, um die in der Variablen [!UICONTROL Gantt-Diagramm].\
-   Informationen zum Anwenden eines Filters finden Sie unter  [Filterübersicht in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Anwenden eines Filters finden Sie unter  [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Gruppierungen\
-   Gruppierungen, die Sie auf die Liste anwenden, werden auf der Seite [!UICONTROL Gantt-Diagramm].\
+   Gruppierungen, die Sie auf die Liste anwenden, werden im [!UICONTROL Gantt-Diagramm].\
    Informationen zum Anwenden einer Gruppierung finden Sie unter  [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Ansichten werden nicht auf der [!UICONTROL Gantt-Diagramm]. Wenn Sie jedoch die [!UICONTROL Gantt-Diagramm] (gemäß  [Exportieren Sie die [!UICONTROL Gantt-Diagramm] PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), wird die Aufgabenliste zusätzlich zum [!UICONTROL Gantt-Diagramm], wobei die aktuelle Ansicht auf die Liste angewendet wird.
+Ansichten werden nicht auf der [!UICONTROL Gantt-Diagramm]. Wenn Sie jedoch die [!UICONTROL Gantt-Diagramm] (gemäß  [Exportieren Sie [!UICONTROL Gantt-Diagramm] auf PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), wird die Aufgabenliste zusätzlich zum [!UICONTROL Gantt-Diagramm], wobei die aktuelle Ansicht auf die Liste angewendet wird.
 
 ## Anzeigeoptionen konfigurieren
 

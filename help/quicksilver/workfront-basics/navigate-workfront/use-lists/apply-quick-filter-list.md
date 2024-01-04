@@ -5,9 +5,9 @@ description: Sie können den Schnellfilter in einer Liste von Objekten verwenden
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Sie können den Schnellfilter in einer Liste von Objekten verwenden, um nur für
 >Mithilfe von Quick Filtern können Sie Elemente finden, die ein Suchwort enthalten, unabhängig davon, ob dieses Element physisch auf dem Bildschirm angezeigt wurde oder angezeigt wird, nachdem Sie zum unteren Seitenrand gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die physisch auf dem Bildschirm angezeigt werden. Wenn Ihre Liste mehrere Seiten enthält, finden Schnellfilter keine Elemente auf Seiten, die nicht angezeigt werden.
 
 Wenn Sie einen Schnellfilter speichern möchten, empfehlen wir, stattdessen einen permanenten Filter für Ihre Liste zu erstellen.\
-Informationen zum Erstellen von Filtern in [!DNL Adobe Workfront], siehe Artikel [Filterübersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Informationen zum Erstellen von Filtern in [!DNL Adobe Workfront], siehe Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Der Schnellfilter ist derzeit in den folgenden Bereichen verfügbar:
 
@@ -35,9 +35,9 @@ Sie können temporäre Schnellfilter in allen Listen verwenden, mit Ausnahme der
 * Die [!UICONTROL Berichte] area
 * Dokumentlisten und Berichte
 * Mehrere [!UICONTROL Einrichtung] Gebiete
-   >[!NOTE]
-   >
-   >Schnellfilter sind in den folgenden Setup-Bereichen verfügbar: [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen], [!UICONTROL Zeitpläne], [!UICONTROL Layout-Vorlagen]und [!UICONTROL Benutzerdefinierte Forms].
+  >[!NOTE]
+  >
+  >Schnellfilter sind in den folgenden Setup-Bereichen verfügbar: [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen], [!UICONTROL Zeitpläne], [!UICONTROL Layout-Vorlagen], und [!UICONTROL Benutzerdefinierte Forms].
 
 
 Beachten Sie beim Anwenden von Schnellfiltern auf eine Liste Folgendes:
@@ -59,8 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] Plan*</b></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><b>[!DNL Adobe Workfront] license*</b></td> 
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><b>Konfigurationen auf Zugriffsebene*</b></td> 
-   <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p> <p>Um beispielsweise einen Schnellfilter auf ein Projekt anzuwenden, benötigen Sie Zugriff auf die [!UICONTROL Ansicht] auf Projekte.</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen.<br>Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p> <p>Um beispielsweise einen Schnellfilter auf ein Projekt anzuwenden, benötigen Sie Zugriff auf die [!UICONTROL Ansicht] auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen.<br>Informationen zur Verwendung von [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><b>Objektberechtigungen</b></td> 
@@ -79,9 +79,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Anwenden eines Schnellfilters auf eine Liste
+## Kurzfilter auf Listen anwenden
 
-1. Markieren Sie eine Liste oder einen Bericht, die/der schnelle Filter unterstützt, und klicken Sie auf die Schaltfläche **[!UICONTROL Schnellfilter] icon** ![](assets/qs-quick-filter-icon.png) in der Symbolleiste.
+1. Markieren Sie eine Liste oder einen Bericht, der schnelle Filter unterstützt, und klicken Sie auf die Schaltfläche **[!UICONTROL Schnellfilter] icon** ![](assets/qs-quick-filter-icon.png) in der Symbolleiste.
 
    Oder
 
@@ -90,9 +90,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * ALT+F für [!DNL Windows] Computer
    * ALT/ Option + F für [!DNL Mac] Computer
 
-      >[!TIP]
-      >
-      >Wenn Sie STRG+F oder CMD+F drücken, wird neben dem Schnellfilter eine QuickInfo angezeigt, um Sie an diese Befehle zu erinnern. Die Befehle werden auch im Suchfeld für Schnellfilter angezeigt.
+     >[!TIP]
+     >
+     >Wenn Sie STRG+F oder CMD+F drücken, wird neben dem Schnellfilter eine QuickInfo angezeigt, um Sie an diese Befehle zu erinnern. Die Befehle werden auch im Suchfeld für Schnellfilter angezeigt.
 
 1. Im **[!UICONTROL Seite filtern]** Geben Sie den Suchbegriff ein, nach dem Sie filtern möchten.
 
@@ -107,7 +107,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Um die durch den Schnellfilter gefundenen Elemente stapelweise zu bearbeiten, gehen Sie folgendermaßen vor:
 
    1. Wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Elemente stapelweise zu bearbeiten.
-   1. Nachdem Sie die Änderungen abgeschlossen haben, klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+   1. Klicken Sie nach Abschluss der Bearbeitung auf **[!UICONTROL Änderungen speichern]**.
 
 1. (Optional) Um die durch den Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie auf **[!UICONTROL Export]**.
 
@@ -118,6 +118,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >Nur die Elemente, die Sie in der Schnellfiltersuche gefunden haben, werden in die ausgewählte Datei exportiert. Wenn Sie vor dem Export der Liste keine Elemente auswählen, wird die vollständige, ungefilterte Liste exportiert.\
    >Weitere Informationen finden Sie unter [Liste exportieren](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Optional) Um die gefilterten Ergebnisse zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Schnellfilter]** in der oberen rechten Ecke des Fensters.\
+1. (Optional) Klicken Sie auf die Schaltfläche **[!UICONTROL Schnellfilter]** in der oberen rechten Ecke des Fensters.\
    Oder\
    Aktualisieren Sie die Seite.

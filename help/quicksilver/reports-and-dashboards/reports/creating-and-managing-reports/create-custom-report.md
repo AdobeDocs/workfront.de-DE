@@ -6,9 +6,9 @@ description: Sie können Zugriff auf die Informationen gewähren, die Ihr Untern
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wenn Sie auf **Filterregel hinzufügen** eingeben, beginnen Sie mit der Eingabe des Felds, das Sie als Filter hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um ihn diesem Filter hinzuzufügen.\
    Verwenden Sie Filter-Modifikatoren, um Ihren Filter zu erstellen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Weitere Informationen zum Erstellen neuer Filter finden Sie unter [Filterübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Weitere Informationen zum Erstellen neuer Filter finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) Sie können einen Filter im Textmodus erstellen, indem Sie auf **In den Textmodus wechseln**.
 

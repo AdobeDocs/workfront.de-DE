@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen ve
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Als Ressourcen-Manager können Sie den Lastenausgleich verwenden, um die Arbeits
 >
 >Wenn Sie einen neuen Filter speichern und anwenden und dann vom Arbeitslastausgleich weg navigieren, bleibt der Filter auch nach dem Abmelden und erneuten Anmelden erhalten.
 
-
-Dieser Artikel enthält Informationen zu Filtern im Arbeitslastausgleich. Informationen zu Filtern in Workfront finden Sie unter [Filterübersicht in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Dieser Artikel enthält Informationen zu Filtern im Arbeitslastausgleich. Informationen zu Filtern in Workfront finden Sie unter [Filterübersicht](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Zugriffsanforderungen
 

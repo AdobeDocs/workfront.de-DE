@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +79,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    Die Standardeinstellungen, die Sie auswählen, bestimmen, welche Filter-, Anzeigen- und Gruppierungsbenutzer in Workfront in Listen angezeigt werden, wenn ihnen die Layoutvorlage zugewiesen wird. Wenn Sie diese Standardwerte nicht ändern, sehen Benutzer alle Listen wie folgt:
 
    * **Filter**: Alle
-   * **Ansicht**: Standard (sofern zutreffend) Einige Listen haben diese Ansicht nicht.)
+   * **Ansicht**: Standard (sofern zutreffend; einige Listen verfügen nicht über diese Ansicht)
    * **Gruppierung**: Nichts
 
    Sie können die Optionen &quot;Alle&quot;, &quot;Standard&quot;und &quot;Nichts&quot;ausblenden, nachdem Sie verschiedene Standardeinstellungen ausgewählt haben (siehe Schritt 5), diese jedoch nicht gelöscht werden können.
@@ -102,9 +102,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <td role="rowheader">Benutzerdefiniertes Listensteuerelement hinzufügen</td> 
       <td> <p> 
         <ol> 
-         <li value="1"> Klicken <strong>Filter hinzufügen</strong>, <strong>Ansicht hinzufügen</strong>oder <strong>Gruppierung hinzufügen</strong> unten in der Liste "Filter", "Ansicht"oder "Gruppierung". Geben Sie in das daraufhin angezeigte Feld den Namen eines vorhandenen benutzerdefinierten Listenelements ein, das zuvor für Ihr Unternehmen erstellt wurde. Klicken Sie dann auf den Namen, wenn dieser angezeigt wird.</li> 
+         <li value="1"> Klicks <strong>Filter hinzufügen</strong>, <strong>Ansicht hinzufügen</strong>oder <strong>Gruppierung hinzufügen</strong> unten in der Liste "Filter", "Ansicht"oder "Gruppierung". Geben Sie in das daraufhin angezeigte Feld den Namen eines vorhandenen benutzerdefinierten Listenelements ein, das zuvor für Ihr Unternehmen erstellt wurde. Klicken Sie dann auf den Namen, wenn dieser angezeigt wird.</li> 
          <li value="2"> Wenn das neue benutzerdefinierte Listensteuerelement als Standardfilter, Ansicht oder Gruppierung für die Layoutvorlage festgelegt werden soll, klicken Sie auf <strong>Als Standard festlegen</strong>. </li> 
-         <li value="3"> <p>Klicken <strong>Hinzufügen</strong> wenn Sie fertig sind.</p> <p><b>NOTIZ</b>: <p>Benutzer können benutzerdefinierte Listensteuerelemente zu ihren eigenen Listen hinzufügen. Wenn Sie benutzerdefinierte Listensteuerelemente in einer Layoutvorlage hinzufügen, werden Ihre Listensteuerelemente hinzugefügt und sie werden an den unteren Rand des Bedienfelds verschoben. Ihre ersetzen ihre nicht.</p> <p>Dies gilt auch, wenn Sie den Benutzer einer neuen Layoutvorlage zuweisen, die über benutzerdefinierte Listensteuerelemente verfügt. </p> <p>Informationen zum Anpassen von Listensteuerelementen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht in Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in Adobe Workfront</a>und <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungsübersicht in Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Klicks <strong>Hinzufügen</strong> wenn Sie fertig sind.</p> <p><b>NOTE</b>: <p>Benutzer können benutzerdefinierte Listensteuerelemente zu ihren eigenen Listen hinzufügen. Wenn Sie benutzerdefinierte Listensteuerelemente in einer Layoutvorlage hinzufügen, werden Ihre Listensteuerelemente hinzugefügt und sie werden zum unteren Rand des Bedienfelds verschoben. Ihre ersetzen ihre nicht.</p> <p>Dies gilt auch, wenn Sie den Benutzer einer neuen Layoutvorlage zuweisen, die über benutzerdefinierte Listensteuerelemente verfügt. </p> <p>Informationen zum Anpassen von Listensteuerelementen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filterübersicht</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in Adobe Workfront</a>, und <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungsübersicht in Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

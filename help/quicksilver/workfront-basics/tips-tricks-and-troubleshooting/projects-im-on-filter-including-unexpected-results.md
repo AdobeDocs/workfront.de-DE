@@ -5,9 +5,10 @@ title: Projekte, die ich filtern möchte, einschließlich unerwarteter Ergebniss
 description: Lesen Sie diesen Artikel, um Probleme mit dem Filter Projekte zu beheben, die mit unerwarteten Ergebnissen verbunden sind.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
+exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
@@ -51,4 +52,4 @@ Die [!UICONTROL **Projekte, an denen ich arbeite**] Filter umfasst Projekte, die
 
 1. Verwenden Sie einen ähnlichen Filter, z. B. [!UICONTROL **Eigene Projekte**], der nur Projekte enthält, die Ihnen speziell zugewiesen sind.
 
-Weitere Informationen zur Verwendung von Filtern finden Sie unter [!DNL Workfront], siehe [Filterübersicht in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+Weitere Informationen zur Verwendung von Filtern finden Sie unter [!DNL Workfront], siehe [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Verknüpfen von Dokumenten mit externen Anwendungen
-description: Sie können Dokumente und Ordner mit Adobe Workfront verknüpfen.
+description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Workfront verknüpfen.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # Verknüpfen von Dokumenten mit externen Anwendungen
+
+<!-- Audited: 01/2024 -->
 
 Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront verknüpfen:
 
@@ -36,7 +38,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-Korrekturabzug </td> 
-   <td>Sie können Testsendungen, die ursprünglich im Workfront-Testversand erstellt wurden, in Workfront verfügbar machen. Für die Verwendung dieser Funktion ist ein Pro-Workfront-Plan oder höher erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</td> 
+   <td>Sie können Testsendungen, die ursprünglich im Workfront-Testversand erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Andere Dokumentenanbieter (über benutzerdefinierte Dokumentenintegrationen)</td> 
-   <td> <p class="workfront_plans">Für die Verwendung dieser Funktion ist ein Pro-Workfront-Plan oder höher erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</p> </td> 
+   <td> <p class="workfront_plans">Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +69,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -94,12 +96,6 @@ Es gelten die folgenden Ausnahmen:
 ## Verknüpfen eines Dokuments aus einer externen Anwendung mit Workfront
 
 Sie können vorhandene Dokumente mit einem externen Cloud-Anbieter verknüpfen. Dies umfasst alle freigegebenen Dokumente.
-
-* [Voraussetzungen](#prerequisites)
-* [Externes Dokument mit Workfront verknüpfen](#link-an-external-document-to-workfront)
-* [Hinzufügen einer neuen Version eines verknüpften Dokuments](#add-a-new-version-of-a-linked-document)
-* [Workfront-Testdokumente verknüpfen](#link-workfront-proof-documents)
-* [Erstellen eines Google-Dokuments aus Workfront](#create-a-google-document-from-within-workfront)
 
 ### Voraussetzungen {#prerequisites}
 
@@ -190,7 +186,7 @@ Sie können eine neue Version eines mit Workfront verknüpften Dokuments aus ein
    >
    >Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
 
-Informationen zum Hinzufügen einer neuen Version eines Dokuments, das Sie aus Ihrem Dateisystem in Workfront hochgeladen haben, finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Informationen zum Hinzufügen einer neuen Version eines Dokuments, das Sie aus Ihrem Dateisystem in Workfront hochgeladen haben, finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront-Testdokumente verknüpfen {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ Sie können nur die Testsendungen verknüpfen, für die Sie Zugriff auf &quot;An
    >
    >Die Optionen in diesem Menü variieren je nachdem, welche Drittanbieter in Ihrer Umgebung konfiguriert sind.
 
-1. Im **Link** proofs **von** Geben Sie in das Feld &quot;Workfront-Testversand&quot;den Namen des Testversands ein, den Sie in Workfront verfügbar machen möchten.
+1. Im **Testsendungen von Workfront verknüpfen** eingeben. Geben Sie den Namen des Testversands ein, den Sie in Workfront verfügbar machen möchten.
 
    Die Liste wird bei der Eingabe gefiltert.
 
@@ -223,8 +219,6 @@ Sie können ein neues Google-Dokument in Workfront erstellen. Für andere Cloud-
 
 1. Navigieren Sie zu **Dokumente** -Bereich in Workfront, in dem Sie das Dokument speichern möchten.
 1. Klicks **Neu hinzufügen** > **Google-Datei** und wählen Sie dann den Typ des Google-Dokuments aus, das Sie erstellen möchten.
-
-1. Wählen Sie den Typ des Google-Dokuments aus, das Sie erstellen möchten.
 1. Wenn die Variable **Google Drive-Konto hinzufügen** angezeigt wird, klicken Sie auf **Google Drive autorisieren**.
 
    Ein Google-Dokument wird zum **Dokumente** Registerkarte.
@@ -233,7 +227,7 @@ Sie können ein neues Google-Dokument in Workfront erstellen. Für andere Cloud-
    >
    > Meine Festplatte und für mich freigegeben zeigen zwei unterschiedliche Ergebnisse an. Wenn Sie eine Datei in My Drive nicht finden können, überprüfen Sie den Ordner Für mich freigegeben .
 
-## Aktualisieren und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter
+## Hochladen und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter
 
 Sie können ein Dokument von Workfront hochladen und mit einem externen Cloud-Anbieter verknüpfen. Dadurch wird die Dokumentenspeicherung von Workfront an den externen Cloud-Anbieter verschoben. Wenn das Dokument in der externen Anwendung geändert wird, wird es automatisch in Workfront aktualisiert.
 
@@ -256,11 +250,7 @@ Benutzer ohne Zugriff auf Workfront können das Dokument in der externen Anwendu
 
 ## Verknüpfungsordner
 
-Wenn Sie einen Ordner zwischen Workfront und einem externen Cloud-Anbieter verknüpfen, werden der Ordner und alle zugehörigen Inhalte verknüpft. Wenn Benutzer ohne Zugriff auf Workfront Dateien aus der externen Dokumentanwendung hinzufügen, entfernen und ändern, werden ihre Änderungen mit Workfront synchronisiert. In den folgenden Abschnitten wird beschrieben, wie Sie Ordner und Unterordner verknüpfen:
-
-* [Zugriffsberechtigungen für Ordner](#folder-access-rights)
-* [Externe Ordner verknüpfen](#link-one-or-more-external-folders)
-* [Unterordner zu einem verknüpften Ordner hinzufügen](#add-subfolders-to-a-linked-folder)
+Wenn Sie einen Ordner zwischen Workfront und einem externen Cloud-Anbieter verknüpfen, werden der Ordner und alle zugehörigen Inhalte verknüpft. Wenn Benutzer ohne Zugriff auf Workfront Dateien aus der externen Dokumentanwendung hinzufügen, entfernen und ändern, werden ihre Änderungen mit Workfront synchronisiert.
 
 ### Zugriffsberechtigungen für Ordner {#folder-access-rights}
 
@@ -330,8 +320,6 @@ Wenn Sie ein Dokument über Workfront zu einem verknüpften Ordner hinzufügen, 
 
 1. Wählen Sie den Ordner aus, in dem das Dokument gespeichert werden soll, und klicken Sie auf **Neu hinzufügen > Dokument**, navigieren Sie zum Dokument und fügen Sie es dem Ordner hinzu.
 
-
-
    Oder
 
    Im **Dokumente** Bereich, in dem Sie das Dokument speichern möchten, ziehen Sie das Dokument in einen verknüpften Ordner.
@@ -340,10 +328,11 @@ Wenn Sie ein Dokument über Workfront zu einem verknüpften Ordner hinzufügen, 
 
 >[!NOTE]
 >
-> * Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar. Nachdem das Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
+> * Die Dokumentoptionen sind während der Verschiebung des Dokuments nicht verfügbar.
 >
-> * Alle Aktionen oder Bearbeitungen, die Sie während des Übergangs am Dokument vornehmen, werden nicht im Dokument in Experience Manager Assets angezeigt und gehen daher verloren.
-
+> * Nachdem ein Dokument in Experience Manager Assets verschoben wurde, ist es nicht mehr in der Dokumentliste in Workfront sichtbar.
+>
+> * Alle Aktionen oder Bearbeitungen, die Sie während des Übergangs an einem Dokument vornehmen, werden nicht im Dokument in Experience Manager Assets angezeigt und gehen daher verloren.
 
 ## Verknüpfte Dokumente oder Ordner löschen
 
@@ -362,4 +351,4 @@ Wenn der Name in Workfront und in der externen Anwendung übereinstimmen soll, m
 
 >[!IMPORTANT]
 >
->Benennen Sie ein Dokument in Workfront nicht um, das mit Dropbox verknüpft ist. Dadurch wird der Zugriff auf die Datei in Workfront verhindert. Benennen Sie stattdessen die Datei in Dropbox um und synchronisieren Sie sie dann erneut, wie unter [Verknüpfen von Dokumenten mit externen Anwendungen](#synchronizing-changes-made-on-a-linked-document).
+>Benennen Sie ein Dokument in Workfront nicht um, das mit Dropbox verknüpft ist. Dadurch wird der Zugriff auf die Datei in Workfront verhindert. Benennen Sie die Datei stattdessen in Dropbox um und synchronisieren Sie sie dann erneut.
