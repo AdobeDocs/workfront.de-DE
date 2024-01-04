@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Projekt in der Agile-Ansicht verwalten
-description: Erforderliche Pläne, Lizenztypen und Zugriffe auf das Adobe Workfront Planungsteam, Pro, Business oder Enterprise Workfront-Lizenztyp Prüfen, Arbeiten oder Planen von Berechtigungen im Zugriffsmodell Zugriff bearbeiten und Möglichkeit, Berichte, Dashboards und Kalender zu erstellen
-author: Alina
+description: Sie können die agile Funktionalität für Ihr Projekt ohne die administrativen Herausforderungen nutzen, die normalerweise mit agilen Vorgehensweisen einhergehen (z. B. Verwaltung eines Team-Rückstands oder Erstellung von Iterationen).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -202,7 +202,7 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
 Wie bei standardmäßigen Ansichten in Workfront können Sie vorhandene agile Ansichten anpassen oder neue agile Ansichten von Grund auf neu erstellen. Im Gegensatz zu Standardansichten können Sie keine neuen agilen Ansichten basierend auf vorhandenen agilen Ansichten erstellen.
 
-Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie im Abschnitt &quot;Erstellen oder Anpassen einer Agile-Ansicht&quot;im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie unter [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Vorhandene Agile-Ansicht freigeben
 

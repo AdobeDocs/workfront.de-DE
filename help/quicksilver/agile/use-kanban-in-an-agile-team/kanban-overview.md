@@ -7,16 +7,20 @@ description: Lesen Sie diesen Artikel, um besser zu verstehen, wie das Kanban-Bo
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # Kanban-Übersicht
 
+<!-- Audited: 01/2024 -->
+
 In den folgenden Abschnitten erfahren Sie, wie die [!UICONTROL Kanban] Board-Funktionen.
+
+Für eine Beschreibung des K[!UICONTROL Anban] -Methode, siehe [Erstellen eines agilen Teams](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Wenn Sie an einer Migration von einem agile Team interessiert sind [!UICONTROL Kanban] Pinnwand [!DNL Workfront] [!UICONTROL Pinnwände], siehe [Migrieren des agile Teams [!UICONTROL Kanban] Karten in [!DNL Workfront] Pinnwände](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -26,15 +30,15 @@ Die [!UICONTROL Kanban] Pinnwand besteht aus folgenden Elementen:
 
 **Rückwärtsspalte**: Zeigt alle Aufgaben an, die sich derzeit im Rückstand befinden. Diese Spalte wird nicht standardmäßig angezeigt. Weitere Informationen zum Rückstand, einschließlich der Anzeige im [!UICONTROL Kanban] Pinnwand, siehe [Verwalten des agilen Rückprotokolls](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-**Meldungsstatus**: Gibt an, wie sich eine Geschichte entwickelt, basierend darauf, in welcher Statusspalte sich die Geschichte befindet.
+**Meldungsstatus**: Gibt an, wie eine Geschichte weitergeht, basierend darauf, in welcher Statusspalte sich die Geschichte befindet.
 
 Weitere Informationen finden Sie unter [Status von Meldungen auf der Seite [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Meldungsstatus können für das Projekt angepasst werden, indem die agile Ansicht geändert wird, wie im Abschnitt beschrieben [[!UICONTROL Erstellen oder Anpassen einer Agile-Ansicht]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Ansichten - Übersicht in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Meldungsstatus können für das Projekt angepasst werden, indem die agile Ansicht geändert wird, wie im Abschnitt beschrieben [[!UICONTROL Erstellen oder Anpassen einer Agile-Ansicht]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Erstellen oder Bearbeiten von Ansichten in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >
->Standardmäßig werden maximal fünfzig Karten auf der Kanban-Pinnwand angezeigt, Sie können aber auf **[!UICONTROL Mehr anzeigen]** um zusätzliche Karten anzuzeigen.
+>Standardmäßig werden maximal fünfzig Karten auf der Kanban-Pinnwand angezeigt, Sie können aber auf **[!UICONTROL Mehr anzeigen]** , um weitere Karten anzuzeigen.
 
 ## Beziehung zwischen Unteraufgaben und Meldungen
 
@@ -54,9 +58,9 @@ Sie können die folgenden Aktionen ausführen, wenn Sie die Kanban-Pinnwand verw
 * [Hinzufügen von Geschichten und Problemen aus dem [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
 * [Löschen von Meldungen oder Problemen aus dem [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
 * [Bearbeiten von Storeninformationen](../../agile/use-kanban-in-an-agile-team/edit-story-information.md)
-* [Filtern nach Benutzer auf der [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
+* [Filtern nach Benutzer auf der Seite [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 * [Verwalten Sie die Grenze für laufende Arbeiten (WIP) auf der [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
-* [Ordnen Sie Geschichten zu [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
+* [Ordnen Sie die Meldungen in der [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
 * [Status von Meldungen auf der Seite [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
 * [Verwenden Sie Flags für Meldungen auf [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
 * [Fügen Sie dem [!UICONTROL Kanban] Pinnwand](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
