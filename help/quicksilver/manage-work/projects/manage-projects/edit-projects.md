@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
-ht-degree: 2%
+source-wordcount: '7452'
+ht-degree: 1%
 
 ---
 
 # Projekte bearbeiten
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 2%
 </div>
 -->
 
-Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Es wird empfohlen, Projekte nur geringfügig nach Statusänderungen in &quot;Aktuell&quot;zu bearbeiten, um Verwirrung zu vermeiden, indem Benachrichtigungen über Änderungen an das gesamte Projektteam gesendet werden. Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planungsstatus befindet. Weitere Informationen zum Projektteam finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Es wird empfohlen, Projekte nur geringfügig nach Statusänderungen in &quot;Aktuell&quot;zu bearbeiten, um Verwirrung zu vermeiden, indem Benachrichtigungen über Änderungen an das gesamte Projektteam gesendet werden.
+
+Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planungsstatus befindet. Weitere Informationen zum Projektteam finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Zugriffsanforderungen
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,21 +44,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Neu: Standard </p> 
+   Oder
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Projekte finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Projektzugriff gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Projekte finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Projektzugriff gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
-    <p>Berechtigungen für ein Projekt verwalten </p> 
-    <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+     <p>Berechtigungen für ein Projekt verwalten </p> 
+     <p> Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ Es gibt einige Einschränkungen, die Sie daran hindern können, Projekte zu bear
 
 Beachten Sie beim Bearbeiten von Projekten Folgendes:
 
-* Sie können keine Projekte bearbeiten, die sich in einem Genehmigungsprozess befinden, mit Ausnahme der Protokollierungszeit.
+* Sie können keine Projekte bearbeiten, die sich in einem Genehmigungsprozess befinden, außer zur Protokollierung und Änderung des Status.
 * Sie können nur dann Dokumente oder Vorlagen an ein Projekt anhängen, das den Status &quot;Abgeschlossen&quot;, &quot;Unbeendet&quot;oder &quot;Ausstehende Genehmigung&quot;aufweist, wenn diese Funktion im Bereich &quot;Projekteinstellungen&quot;von Ihrem Workfront-Administrator oder einem Gruppenadministrator aktiviert wurde. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Sie können die folgenden Informationen zu einem Projekt nur im Status &quot;Dead&quot;oder &quot;Complete&quot;bearbeiten:
 
@@ -110,20 +84,25 @@ Beachten Sie beim Bearbeiten von Projekten Folgendes:
 
 Durch Bearbeiten eines Projekts können Sie Informationen und Einstellungen für das Projekt sowie Aufgaben und Probleme im Projekt ändern.
 
-Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatus in der Vorlage geändert werden, aus der das Projekt erstellt wurde. Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatus in der Vorlage geändert werden, aus der das Projekt erstellt wurde.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Projekte**.
+Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+Informationen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [Erstellen eines Projekts mit einer Vorlage](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. (Optional) Klicken Sie auf **Projekte, an denen ich arbeite** oder **Eigene Projekte** in der rechten oberen Ecke, um Projekte anzuzeigen, deren Eigentümer Sie sind, oder Projekte, bei denen Sie Teil des Projektteams sind.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. Klicken Sie auf den Namen des Projekts, das Sie bearbeiten möchten, um die Projektseite zu öffnen.
 
    >[!NOTE]
    >
    >Wenn Sie Gruppenadministrator sind, können Sie die Projekte Ihrer Gruppe im Bereich Gruppen sowie im Bereich Projekte anzeigen und bearbeiten. Weitere Informationen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. (Optional) Um beschränkte Informationen zu einem Projekt zu bearbeiten, klicken Sie auf **Projektdetails** im linken Bereich.
+1. Klicken Sie auf den Namen des Projekts, das Sie bearbeiten möchten, um die Projektseite zu öffnen.
+
+1. (Optional) Um beschränkte Informationen zu einem Projekt zu bearbeiten, klicken Sie auf **Projektdetails** im linken Bereich. Wenn Sie alle Informationen zum Projekt bearbeiten möchten, fahren Sie mit Schritt 5 fort. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
-   1. (Optional) Klicken Sie auf die **Alle reduzieren** in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
+   1. (Optional) Klicken Sie auf die **Alle reduzieren** icon ![](assets/collapse-icon.png)  in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich ausgeblendet wird, klicken Sie auf die Schaltfläche **Rechtspfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zur Bearbeitung von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
 
@@ -158,7 +137,9 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 
    Oder
 
-   Wählen Sie aus einer Projektliste ein Projekt aus und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
+   Wählen Sie aus einer Projektliste ein oder mehrere Projekte aus und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
+
+   Weitere Informationen zum Massenbearbeitung von Projekten finden Sie im Abschnitt . [Stapelweises Bearbeiten von Projekten](#edit-projects-in-bulk) in diesem Artikel.
 
    Die **Projekt bearbeiten** wird geöffnet.
 
@@ -172,14 +153,14 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
    >
    >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layoutvorlage geändert hat, werden die Bereiche im linken Bereich des Felds &quot;Projekt bearbeiten&quot;oder die in diesen Bereichen aufgelisteten Felder möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Bedingt) Wenn Sie auf die **Mehr** Menü und dann **Bearbeiten** sollten Sie Informationen in den folgenden Bereichen aktualisieren, die im linken Bereich aufgeführt sind:
+1. (Bedingt) Wenn Sie auf die **Mehr** Menü und dann **Bearbeiten**, aktualisieren Sie Informationen in einem der folgenden Bereiche, die im linken Bereich aufgelistet sind:
 
    * [Projektname](#project-name)
    * [Übersicht](#overview)
    * [Benutzerdefinierte Formulare](#custom-forms)
-   * [Finanzielle Details](#finance)
+   * [Finanzen](#finance)
    * [Projekteinstellungen](#project-settings)
-   * [Einstellungen für die Aufgabe](#task-settings)
+   * [Aufgabeneinstellungen](#task-settings)
    * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access)
 
@@ -208,96 +189,102 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
 1. Aktualisieren Sie die folgenden Informationen zum Projekt:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Beschreibung</strong> </td> 
-      <td> <p>Fügen Sie zusätzliche Informationen zum Projekt hinzu.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Wählen Sie den Status des Projekts aus. Sie können ein Projekt nicht als abgeschlossen markieren, bevor alle Aufgaben und Probleme abgeschlossen sind. Weitere Informationen zum Projektstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemprojektstatus</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Priorität</strong> </td> 
-      <td> <p> <p>Dies ist nur ein visuelles Flag für Sie, mit dem Sie Ihre Projekte priorisieren können.</p> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projekteinstellungen können die Prioritätsnamen für Sie unterschiedlich sein. Weitere Informationen zu Bearbeitungsprioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>Geben Sie einen Web-Link an, der sich auf Informationen zu diesem Projekt bezieht.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Bedingungstyp</strong> </td> 
-      <td> <p>Wählen Sie zwischen den folgenden Bedingungstypen aus: 
-       <ul> 
-       <li><strong>Manuell:</strong> Der Projektinhaber legt die Bedingung für das Projekt manuell fest.</li> 
-       <li><strong>Fortschrittsstatus:</strong> Workfront legt die Bedingung automatisch basierend auf dem Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Task Progress Status</a>.</li> 
-       </ul><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für die Berechnung der Projektbedingung für Ihr System aus <span>oder Ihrer Gruppe</span>. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Bedingung</strong> </td> 
-      <td> <p> <p>(Wird nur angezeigt, nachdem Sie <strong>Manuell</strong> für die <strong>Bedingungstyp</strong>): Wählen Sie eine Bedingung, um anzugeben, wie das Projekt ausgeführt wird. </p> <p>Informationen dazu, wie Projektbedingungen automatisch oder manuell festgelegt werden können, finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Zeitplanmodus</strong> </td> 
-      <td> <p>Geben Sie an, ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. Diese Auswahl bestimmt die geplanten Termine der Aufgaben für das Projekt. 
-       <ul> 
-       <li><strong>Startdatum</strong>: Die erste Aufgabe des Projekts hat standardmäßig dasselbe geplante Startdatum wie das Projekt. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Startdatum</a>. Die Projekt-Timeline berechnet vom Startdatum aus und das Abschlussdatum des Projekts wird vom System basierend auf der Dauer aller Aufgaben berechnet. </li> 
-       <li><strong>Abschlussdatum</strong>: Die letzte Aufgabe des Projekts hat dasselbe geplante Abschlussdatum wie das Projekt. Die Projekt-Timeline berechnet vom Abschlussdatum aus und das Projektstartdatum wird vom System berechnet, indem die Dauer aller Aufgaben vom Abschlussdatum des Projekts abgezogen wird. </li> 
-       </ul><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für den Zeitplanmodus für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Geplantes Startdatum und geplante Startzeit</strong> </td> 
-      <td> <p> <p>Datum der Auswahl angeben <strong>Zeitplan ab Startdatum</strong>. <br></p> <p>Dies ist ein schreibgeschütztes Feld, wenn Sie <strong>Zeitplan ab Abschlussdatum</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Geplantes Abschlussdatum und -zeit</strong> </td> 
-      <td> <p>Datum der Auswahl angeben <strong>Zeitplan ab Abschlussdatum</strong>. </p> <p>Dies ist ein schreibgeschütztes Feld, wenn Sie <strong>Zeitplan ab Startdatum</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Geben Sie ein Portfolio an, zu dem das Projekt gehört. Sie müssen zuerst ein Portfolio erstellen, bevor es in der Dropdownliste angezeigt wird. Nur aktive Portfolios können mit einem Projekt verknüpft werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Programm</strong></td> 
-      <td> <p>Wenn Sie ein Portfolio für das Projekt ausgewählt haben, geben Sie ein Programm für das Projekt an. Einige Portfolios haben möglicherweise keine Programme. Sie müssen zunächst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. Nur aktive Programme können mit einem Projekt verknüpft werden. </p> <p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Programm erstellen</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Gruppe</strong></td> 
-      <td> <p> <p>Geben Sie den Namen der mit dem Projekt verknüpften Gruppe an. </p>Dies ist ein Pflichtfeld. Sie können kein Projekt haben, das keiner Gruppe zugeordnet ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> Standardmäßig wird eine der folgenden Gruppen bei der Erstellung automatisch mit einem Projekt verknüpft, es sei denn, Sie geben eine andere Gruppe an:</p> 
-       <ul> 
-       <li> <p><span>Wenn das Projekt im Bereich "Projekte"erstellt wird, ist die Startseite des Projekterstellers mit dem Projekt verknüpft.</span> </p> <p>Dies gilt auch, wenn das Projekt über den Abschnitt Projekte in einem Portfolio oder Programm erstellt wird.</p> </li> 
-       <li> <p>Wenn das Projekt über die Hauptseite einer Gruppe im Bereich Einrichtung erstellt wird, wird diese Gruppe mit dem Projekt verknüpft.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>HINWEISE</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>Beschreibung</strong> </td> 
+         <td> <p>Fügen Sie zusätzliche Informationen zum Projekt hinzu.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Status</strong> </td> 
+         <td> <p>Wählen Sie den Status des Projekts aus. Sie können ein Projekt nicht als abgeschlossen markieren, bevor alle Aufgaben und Probleme abgeschlossen sind. Weitere Informationen zum Projektstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemprojektstatus</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Priorität</strong> </td> 
+         <td> <p> <p>Dies ist nur ein visuelles Flag für Sie, mit dem Sie Ihre Projekte priorisieren können.</p> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projekteinstellungen können die Prioritätsnamen für Sie unterschiedlich sein. Weitere Informationen zu Bearbeitungsprioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>Geben Sie einen Web-Link an, der sich auf Informationen zu diesem Projekt bezieht.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Bedingungstyp</strong> </td> 
+         <td> <p>Wählen Sie zwischen den folgenden Bedingungstypen aus: 
+         <ul> 
+         <li><strong>Manuell:</strong> Der Projektinhaber legt die Bedingung für das Projekt manuell fest.</li> 
+         <li><strong>Fortschrittsstatus:</strong> Workfront legt die Bedingung automatisch basierend auf dem Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Task Progress Status</a>.</li> 
+         </ul><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für die Berechnung der Projektbedingung für Ihr System aus <span>oder Ihrer Gruppe</span>. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Bedingung</strong> </td> 
+         <td> <p> <p>(Wird nur angezeigt, nachdem Sie <strong>Manuell</strong> für die <strong>Bedingungstyp</strong>): Wählen Sie eine Bedingung, um anzugeben, wie das Projekt ausgeführt wird. </p> <p>Informationen dazu, wie Projektbedingungen automatisch oder manuell festgelegt werden können, finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planmodus</strong> </td> 
+         <td> <p>Geben Sie an, ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. Diese Auswahl bestimmt die geplanten Termine der Aufgaben für das Projekt. 
+         <ul> 
+         <li><strong>Startdatum</strong>: Die erste Aufgabe des Projekts hat standardmäßig dasselbe geplante Startdatum wie das Projekt. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Startdatum</a>. Die Projekt-Timeline berechnet vom Startdatum aus und das Abschlussdatum des Projekts wird vom System basierend auf der Dauer aller Aufgaben berechnet. </li> 
+         <li><strong>Abschlussdatum</strong>: Die letzte Aufgabe des Projekts hat dasselbe geplante Abschlussdatum wie das Projekt. Die Projekt-Timeline berechnet vom Abschlussdatum aus und das Projektstartdatum wird vom System berechnet, indem die Dauer aller Aufgaben vom Abschlussdatum des Projekts abgezogen wird. </li> 
+         </ul><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für den Zeitplanmodus für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Geplantes Startdatum und geplante Startzeit</strong> </td> 
+         <td> <p> <p>Datum der Auswahl angeben <strong>Zeitplan ab Startdatum</strong>. <br></p> <p>Dies ist ein schreibgeschütztes Feld, wenn Sie <strong>Zeitplan ab Abschlussdatum</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Geplantes Abschlussdatum und -zeit</strong> </td> 
+         <td> <p>Datum der Auswahl angeben <strong>Zeitplan ab Abschlussdatum</strong>. </p> <p>Dies ist ein schreibgeschütztes Feld, wenn Sie <strong>Zeitplan ab Startdatum</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td>Geben Sie ein Portfolio an, zu dem das Projekt gehört. Sie müssen zuerst ein Portfolio erstellen, bevor es in der Dropdownliste angezeigt wird. Nur aktive Portfolios können mit einem Projekt verknüpft werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Programm</strong></td> 
+         <td> <p>Wenn Sie ein Portfolio für das Projekt ausgewählt haben, geben Sie ein Programm für das Projekt an. Einige Portfolios haben möglicherweise keine Programme. Sie müssen zunächst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. Nur aktive Programme können mit einem Projekt verknüpft werden. </p> <p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Programm erstellen</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Gruppe</strong></td> 
+         <td> <p> <p>Geben Sie den Namen der mit dem Projekt verknüpften Gruppe an. </p>Dies ist ein erforderliches Feld. Sie können kein Projekt haben, das keiner Gruppe zugeordnet ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> Standardmäßig wird eine der folgenden Gruppen bei der Erstellung automatisch mit einem Projekt verknüpft, es sei denn, Sie geben eine andere Gruppe an:</p> 
+         <ul> 
+         <li> <p><span>Wenn das Projekt im Bereich "Projekte"erstellt wird, ist die Startseite des Projekterstellers mit dem Projekt verknüpft.</span> </p> <p>Dies gilt auch, wenn das Projekt über den Abschnitt Projekte in einem Portfolio oder Programm erstellt wird.</p> </li> 
+         <li> <p>Wenn das Projekt über die Hauptseite einer Gruppe im Bereich Einrichtung erstellt wird, wird diese Gruppe mit dem Projekt verknüpft.</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>HINWEISE</b></p>
 
-   <ul>
-      <li><p>Wenn das Projekt oder seine Aufgaben oder Probleme mit einem benutzerdefinierten Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe des Projekts dazu führen, dass sich der Status des Projekts, der Aufgaben oder Probleme entsprechend der neuen Gruppe ändern.</p></li>
-      <li><p>Wenn das Projekt oder seine Aufgaben oder Probleme bereits mit einem Validierungsprozess auf Gruppenebene mithilfe benutzerdefinierter Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe zu einem Konflikt zwischen den Genehmigungsstatus der vorherigen Gruppe und den auf Systemebene vorhandenen führen.</p>
-      <p>Erwägen Sie, die Genehmigungsprozesse auf Gruppenebene für das Projekt oder dessen Aufgaben oder Probleme zu entfernen, bevor Sie die Gruppe aktualisieren.</p>
-      <p>Informationen zum Erstellen von Genehmigungsprozessen auf Gruppenebene finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Validierungsprozesse auf Gruppenebene</a>.</p>
-      <p>Informationen zum Erstellen eines benutzerdefinierten Status auf Gruppenebene finden Sie unter <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Erstellen oder Bearbeiten eines Gruppenstatus</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Firma</strong> </td> 
-      <td> <p>Geben Sie ein mit dem Projekt verknüpftes Unternehmen an. Sie müssen ein Unternehmen erstellen, bevor Sie es mit einem Projekt verknüpfen können. Nur aktive Unternehmen können mit einem Projekt verknüpft werden. Informationen zum Erstellen von Unternehmen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Erstellen und Bearbeiten von Unternehmen</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Projektbesitzer</strong> </td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch die Berechtigung zum Verwalten des Projekts. Der Benutzer, der als Projekteigentümer bestimmt wurde, muss ein aktiver Workfront-Benutzer sein.</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Projektsponsor</strong> </td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Projektsponsor benannt wurde, muss ein aktiver Benutzer von Workfront sein.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Ressourcenmanager</strong> </td> 
-      <td> <p> Beginnen Sie mit der Eingabe der Namen der Benutzer, die zum Projekt hinzugefügt werden sollen, und wählen Sie sie aus, wenn sie in der Liste angezeigt werden. Die Benutzer werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das Projekt und können den Aufgaben und Problemen im Projekt Ressourcen zuweisen. Benutzer behalten die Verwaltungsberechtigungen für das Projekt bei, selbst wenn sie aus dem Feld "Ressourcen-Manager"entfernt wurden. Sie können mehr als einen Ressourcen-Manager angeben.<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>Wenn das Projekt oder seine Aufgaben oder Probleme mit einem benutzerdefinierten Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe des Projekts dazu führen, dass sich der Status des Projekts, der Aufgaben oder Probleme entsprechend der neuen Gruppe ändern.&lt;/p>&lt;/li>
+       &lt;li>&lt;p>Wenn das Projekt oder seine Aufgaben oder Probleme bereits mit einem Validierungsprozess auf Gruppenebene mithilfe benutzerdefinierter Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe zu einem Konflikt zwischen den Genehmigungsstatus der vorherigen Gruppe und den auf Systemebene vorhandenen führen.&lt;/p>
+       &lt;p>Erwägen Sie, die Genehmigungsprozesse auf Gruppenebene für das Projekt oder dessen Aufgaben oder Probleme zu entfernen, bevor Sie die Gruppe aktualisieren.&lt;/p>
+       &lt;p>Informationen zum Erstellen von Validierungsprozessen auf Gruppenebene finden Sie unter &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Validierungsprozesse auf Gruppenebene&lt;/a>.&lt;/p>
+       &lt;p>Informationen zum Erstellen eines benutzerdefinierten Status auf Gruppenebene finden Sie unter &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Erstellen oder Bearbeiten eines Gruppenstatus .&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Firma</strong> </td> 
+         <td> <p>Geben Sie ein mit dem Projekt verknüpftes Unternehmen an. Sie müssen ein Unternehmen erstellen, bevor Sie es mit einem Projekt verknüpfen können. Nur aktive Unternehmen können mit einem Projekt verknüpft werden. Informationen zum Erstellen von Unternehmen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Erstellen und Bearbeiten von Unternehmen</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Projektinhaber</strong> </td> 
+         <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch die Berechtigung zum Verwalten des Projekts. Der Benutzer, der als Projekteigentümer bestimmt wurde, muss ein aktiver Workfront-Benutzer sein.</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Projektsponsor</strong> </td> 
+         <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Projektsponsor benannt wurde, muss ein aktiver Benutzer von Workfront sein.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Ressourcen-Manager</strong> </td> 
+         <td> <p> Beginnen Sie mit der Eingabe der Namen der Benutzer, die zum Projekt hinzugefügt werden sollen, und wählen Sie sie aus, wenn sie in der Liste angezeigt werden. Die Benutzer werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das Projekt und können den Aufgaben und Problemen im Projekt Ressourcen zuweisen. Benutzer behalten die Verwaltungsberechtigungen für das Projekt bei, selbst wenn sie aus dem Feld "Ressourcen-Manager"entfernt wurden. Sie können mehr als einen Ressourcen-Manager angeben.<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>Urheber einer konvertierten Ausgabe</strong> </td> 
+         <td> <p> Standardmäßig wird dieses Feld automatisch mit dem Namen des Benutzers ausgefüllt, der das Problem erstellt hat, aus dem das Projekt konvertiert wurde. Sie können diesen Namen mit dem Namen eines anderen Benutzers in Workfront aktualisieren. <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,7 +294,7 @@ Einige in diesem Artikel erwähnte Einstellungen können von ihrem Standardstatu
    >
    >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Optional) Fahren Sie je nach den zu ändernden Informationen mit der Bearbeitung der folgenden Abschnitte fort.
+1. (Optional) Fahren Sie je nach den zu ändernden Informationen mit der Bearbeitung der folgenden Abschnitte fort
 
    Oder
 
@@ -333,8 +320,7 @@ Informationen zum Zugriff auf benutzerdefinierte Formulare finden Sie in den fol
 * [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-So bearbeiten Sie Informationen zu benutzerdefinierten Formularen:
-
+So bearbeiten Sie Informationen zu benutzerdefinierten Formularen beim Bearbeiten eines Projekts:
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
@@ -388,34 +374,34 @@ So bearbeiten Sie Felder im Finanzbereich:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
-      <td> <p>Geben Sie ein Budget für das Projekt an.<br></p> </td> 
+      <td> Geben Sie ein Budget für das Projekt an. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Performance-Index-Methode</strong> </td> 
+      <td role="rowheader"><strong>Leistungsindex-Methode</strong> </td> 
       <td> <p>Auswählen <b>Stundenbasiert</b>oder <b>Kostenbasiert</b> um anzugeben, ob die Metriken zum Earned Value des Projekts (z. B. Kosten-Leistungs-Index oder Geschätzte tatsächliche Kosten) anhand von Stunden oder Kosten berechnet werden. </p> <p>Weitere Informationen zur Leistungsindex-Methode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Leistungsindex-Methode (PIM) festlegen</a>. </p> <p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die standardmäßige Einstellung Performance Index Method für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Schätzung bei Fertigstellung</strong> </td> 
+      <td role="rowheader"><strong>Schätzen bei Abschluss</strong> </td> 
       <td> <p> <p>Geben Sie an, wie Workfront die Schätzung bei Abschluss (EAC) berechnen soll. </p>
       Wählen Sie aus den folgenden Optionen aus: 
       <ul><li><b>Kalkulation auf Projektebene</b></li>
-      <li><b>Rollup aus Aufgaben/Teilaufgaben</b></li> </ul>
+      <li><b>Aufrollen aus Aufgaben/Unteraufgaben</b></li> </ul>
       <p>Weitere Informationen zur Berechnung der Schätzung bei Abschluss finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Schätzung nach Abschluss berechnen (EAC)</a>.</p> <p>Ihr Workfront- oder Gruppenadministrator wählt die standardmäßige Einstellung Geschätzte bei Abschluss für Ihr System oder Ihre Gruppe aus. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Geplanter Gewinn</strong> </td> 
+      <td role="rowheader"><strong>Geplanter Vorteil</strong> </td> 
       <td> <p>Schätzen Sie, welchen Nutzen das Projekt für Sie hat. Dies wird im Geschäftsfall des Projekts und im Portfolio Optimizer verwendet. Weitere Informationen über den geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen des Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten im Portfolio Optimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tatsächlicher Gewinn</strong> </td> 
+      <td role="rowheader"><strong>Tatsächlicher Nutzen</strong> </td> 
       <td> <p>Schätzen des tatsächlichen Nutzens des Projekts. Dies ist ein Währungsbetrag, der den Vorteil darstellt, den Ihr Unternehmen oder Ihre Abteilung nach Abschluss dieses Projekts erzielen würde. </p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader"><strong>Fixkosten</strong> </td> 
+      <td role="rowheader"><strong>Feste Kosten</strong> </td> 
       <td> <p>Geben Sie die Festkosten für das Projekt an. Dies unterscheidet sich von den Arbeitskosten, die sich aus den Stunden auf dem Projekt ergeben, und den Kosten, die aus den Kosten des Projekts entstehen. Die Fixkosten eines Projekts werden bei der Berechnung des Nettowerts eines Projekts berücksichtigt und sind Teil der Budgetierten Kosten.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Festeinnahmen</strong> </td> 
+      <td role="rowheader"><strong>Fester Umsatz</strong> </td> 
       <td> <p>Geben Sie den festen Umsatz für das Projekt an.<br></p> </td> 
      </tr> 
     </tbody> 
@@ -441,11 +427,11 @@ So bearbeiten Sie Felder im Finanzbereich:
       <col> 
       <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Meilensteinpfad</strong> </td> 
+      <td role="rowheader"><strong>Milestone-Pfad</strong> </td> 
        <td> <p>Wählen Sie einen Milestone-Pfad für das Projekt aus. In der Liste werden nur aktive Meilensteinpfade angezeigt.</p> <p>Weitere Informationen zu Meilensteinpfaden finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Meilensteinpfad erstellen</a>.</p> </td> 
       </tr> 
       <tr> 
-      <td role="rowheader"><strong>Fertigstellungsmodus</strong> </td> 
+      <td role="rowheader"><strong>Abschlussmodus</strong> </td> 
       <td> <p>Steuert, wie das Projekt als abgeschlossen markiert wird. Wählen Sie aus den folgenden Optionen aus: 
        <ul> 
        <li><p><strong>Automatisch</strong>: Das Projekt wird als abgeschlossen markiert, wenn alle Aufgaben und Probleme abgeschlossen sind.</p><p>Der Projektstatus wird nur dann automatisch in Abgeschlossen geändert, wenn der Projektstatus Aktuell ist, wenn die Aufgaben abgeschlossen sind. </p></li> 
@@ -474,7 +460,7 @@ So bearbeiten Sie Felder im Finanzbereich:
        <td> <p>Wählen Sie einen Zeitplan für Ihr Projekt aus. Dieser Zeitplan sollte mit dem für die meisten Personen übereinstimmen, die an dem Projekt arbeiten. Sie müssen einen Zeitplan erstellen, bevor Sie ihn einem Projekt oder einem Benutzer zuweisen können. Wenn Sie keine benutzerdefinierten Zeitpläne in Ihrem System erstellt haben, wird der Standardzeitplan ausgewählt.</p> <p>Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen</a>. </p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Benutzer-Ausfallzeiten</strong> </td> 
+       <td role="rowheader"><strong>Zeitlimit für Benutzer</strong> </td> 
        <td> <p>Bestimmt, ob durch die Abwesenheit des Primären Verantwortlichen einer Aufgabe die für das Projekt geplanten Aufgabendaten angepasst werden. </p><p>Ihr Workfront-Administrator<span> oder einem Gruppenadministrator</span> wählt die Standardeinstellung für diese Einstellung für Ihr System aus <span>oder Ihrer Gruppe</span>. Weitere Informationen zum Festlegen der Projektstandards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>. </p><p>Wählen Sie aus den folgenden Optionen aus:<br>- <strong>Benutzerzeitlimit in Aufgabendauern berücksichtigen</strong>: Wenn Sie diese Option auswählen, werden die geplanten Zeitpunkte der Aufgaben entsprechend der Zeitspanne des Primären Aufgabenempfängers angepasst, wenn während der Aufgabendauer eine Zeitüberschreitung eintritt. </p><p>Wenn beispielsweise eine Aufgabe mit der Begrenzung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für die Zeitüberschreitung markiert hat, sind die geplanten Aufgabenzeiträume vom 1. bis 4. Juni, wenn diese Auswahl aktiviert ist. Je nach Aufgabenbegrenzung gibt es die folgenden Szenarien: </p> 
        <ul> 
        <li>Bei Aufgabenbegrenzungen, die sich auf die Planung ab einem Startdatum beziehen (so bald wie möglich, früheste verfügbare Zeit, Start nicht früher als, Start nicht später als, Muss beginnen am), ändert sich das geplante Startdatum nicht, jedoch das geplante Abschlussdatum.</li> 
@@ -488,7 +474,7 @@ So bearbeiten Sie Felder im Finanzbereich:
        </ul></td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Abgleichsmodus für Ressourcen</strong> </td> 
+       <td role="rowheader"><strong>Ressourcenstufenmodus</strong> </td> 
        <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> <p>- <strong>Manuell</strong>: Sie müssen Ihre Ressourcen manuell dehnen (dies ist die Standardeinstellung).</p> <p>- <strong>Automatisch</strong>: Workfront verwaltet Ihre Ressourcen.</p> <p>Weitere Informationen zur Ressourcenebene finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in Gantt Chart </a>.</p> </p> </td> 
       </tr> 
       <tr> 
@@ -500,7 +486,7 @@ So bearbeiten Sie Felder im Finanzbereich:
        <td> <p> <p>Geben Sie die Ressourcen-Pools an, die mit dem Projekt verknüpft sind. Resource Pools sind Sammlungen von Benutzern, die zur gleichen Zeit für die Fertigstellung eines Projekts benötigt werden und eine Projektbudgetierung im Resource Planer ermöglichen. Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcen-Pools - Übersicht </a>. </p> <p>Wenn Sie Projekte stapelweise bearbeiten, werden in diesem Feld nur die Ressourcen-Pools angezeigt, die für alle ausgewählten Projekte gelten. Wenn die ausgewählten Projekte keine gemeinsamen Ressourcen-Pools haben, ist dieses Feld leer. Die Ressourcen-Pools, die Sie hier angeben, überschreiben die einzelnen Ressourcen-Pools der Projekte.</p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <strong>Zulassen, dass Abrechnungssätze auf Firmenebene Abrechnungssätze auf Projektebene überschreiben</strong></td> 
+       <td role="rowheader"> <strong>Erlauben Sie, dass die Abrechnungsraten auf Unternehmensebene die Abrechnungsraten auf Projektebene außer Kraft setzen.</strong></td> 
        <td>Wählen Sie diese Option aus, damit die Abrechnungsraten auf Unternehmensebene die historischen Auftragsrollenraten außer Kraft setzen können, wenn diese nicht als abgerechnet gekennzeichnet sind. Wenn Sie diese Option aktivieren, werden die historischen Rollenraten bei Aufträgen außer Kraft gesetzt, wenn sie als abgerechnet gekennzeichnet sind. <br>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Überschreiben von Abrechnungsraten auf Projektebene mit Abrechnungsraten auf Unternehmensebene</a>.</td> 
       </tr> 
       <tr> 
@@ -512,13 +498,15 @@ So bearbeiten Sie Felder im Finanzbereich:
        <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
        <li> <p>Auswählen <strong>Nein</strong> , um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> </li> 
-       <li>Auswählen <strong>Ja</strong> , um nur eine Untergruppe der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, wählen Sie dann die Stundentypen aus, die verfügbar gemacht werden sollen. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</li> 
+       <li>Auswählen <strong>Ja</strong> , um nur eine Untergruppe der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, wählen Sie dann die Stundentypen aus, die Sie im <b>Stündungstypen</b> -Feld.</li> 
+       <p><b>TIPP</b></p>
+       <p>Die <b>Stündungstypen</b> Feld kann bei Auswahl von nicht bearbeitet werden <b>Nein</b>.</p> 
        <p>Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Sie müssen mindestens einen Stundentyp auswählen. Wenn Sie diese Option wählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt zur Verfügung gestellt.</p> </ul>
 
    <p>Dieselbe Stundentyp muss auf der Ebene der einzelnen Benutzer ausgewählt werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann. Weitere Informationen zum Definieren von Stundentypen auf Benutzerebene finden Sie unter <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>. </p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
-       <td role="rowheader"><strong>Erinnerungsnachricht</strong> </td> 
+       <td role="rowheader"><strong>Erinnerungsbenachrichtigung</strong> </td> 
        <td> <p> <p>Wählen Sie die Erinnerungsbenachrichtigung aus, die mit dem Projekt verknüpft werden soll. Sie müssen Erinnerungsbenachrichtigungen für Projekte konfigurieren, damit dieses Feld während der Bearbeitung eines Projekts angezeigt wird. Weitere Informationen zum Konfigurieren von Erinnerungsbenachrichtigungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsbenachrichtigungen</a> .</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
@@ -558,7 +546,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 
 1. Im **Standardgenehmigungsverfahren für Aufgaben** Wählen Sie die Aufgabe Validierungsprozess aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zum Projekt hinzufügen.
 
-   Ihr Workfront-Administrator (oder ein Benutzer mit Administratorzugriff auf Genehmigungsprozesse) muss einen Validierungsprozess auf Systemebene für eine Aufgabe erstellen, bevor Sie sie mit einem Projekt verknüpfen können. In der Liste werden nur aktive Validierungsprozesse angezeigt. Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter [Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   Ihr Workfront-Administrator (oder ein Benutzer mit Administratorzugriff auf Genehmigungsprozesse) muss einen Validierungsprozess auf Systemebene oder Gruppenebene für eine Aufgabe erstellen, bevor Sie sie mit einem Projekt verknüpfen können. In der Liste werden nur aktive Validierungsprozesse angezeigt. Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Informationen dazu, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Validierungseinstellungen auswirken, finden Sie unter [Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    Bei der Massenbearbeitung von Projekten gibt es die folgenden Szenarien:
 
@@ -574,9 +562,9 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
 
    | Größe | Prozentsatz |
    |---|---|
-   | Klein | 25% |
-   | Mittel | 50% |
-   | Groß | 75% |
+   | Klein | 25 % |
+   | Mittel | 50 % |
+   | Groß | 75 % |
 
    >[!TIP]
    >
@@ -654,11 +642,11 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
       <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong>oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn das Projekt auch eine Anforderungswarteschlange ist und ein Benutzer eine Anforderung an das Projekt sendet, erhält er diesen Zugriff auf die von ihm gesendete Anfrage. Informationen zum Einrichten eines Projekts als Anforderungswarteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Benutzer aus demselben Unternehmen erben dieselben Berechtigungen für alle Anforderungen</strong></td> 
+      <td role="rowheader"><strong>Benutzer aus demselben Unternehmen erben dieselben Berechtigungen für alle Anforderungen.</strong></td> 
       <td><p>Wählen Sie dieses Feld aus, wenn Sie möchten, dass Personen desselben Unternehmens denselben Zugriff auf alle Anforderungen des Projekts haben, unabhängig davon, ob sie sie gesendet haben oder nicht.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Gewähren Sie ihm Zugriff auf ...</strong></td> 
+      <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Geben Sie den Standardzugriff für an...</strong></td> 
       <td><p>Wählen Sie die Zugriffsoptionen aus, die Benutzer für das Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für den Zugriff aus, sofern sie als <strong>Viewer</strong>, <strong>Mitarbeiter</strong>oder <strong>Führungskräfte</strong> wenn Sie das Projekt für sie freigeben. </p><p>Die <strong>Löschen</strong> Zugriff auf <strong>Verwalten</strong> Die Berechtigungsebene bestimmt, ob Benutzer das Projekt selbst löschen können. Benutzer mit <strong>Verwalten</strong> Der Zugriff auf das Projekt kann Aufgaben und Probleme innerhalb des Projekts löschen, unabhängig davon, ob diese Option aktiviert ist oder ob <strong>Verwalten</strong> Berechtigungen für die Aufgaben und Probleme. </p></td> 
      </tr> 
     </tbody> 
@@ -677,6 +665,7 @@ Ihr System- oder Gruppenadministrator kann die Felder anpassen, die in der Proje
 Die folgenden Felder sind standardmäßig in der Projektheader enthalten.
 
 * Projektname
+* Prozent abgeschlossen
 * Projektbesitzer
 * Geplantes Abschlussdatum und -zeit
 
@@ -731,8 +720,8 @@ Beachten Sie beim Massenbearbeitung von Projekten Folgendes:
 
 So bearbeiten Sie mehrere Projekte:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
-1. Klicks **Projekte**.
+{{step1-to-projects}}
+
 1. Wählen Sie mehrere Projekte in der Liste aus.
 1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
 Die **Projekte bearbeiten** wird geöffnet.

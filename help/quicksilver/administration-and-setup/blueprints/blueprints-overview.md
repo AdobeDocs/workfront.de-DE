@@ -4,21 +4,25 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints - Übersicht
-description: Blueprints stellen grundlegende Bausteine bereit, mit denen Sie ein Arbeitsverwaltungssystem erstellen können, das mit Ihnen wächst.
-author: Lisa
+description: Blueprints sind Sets von Workfront-Objekten, die häufige Anwendungsfälle in Workfront behandeln. Sie können einen Blueprint herunterladen und installieren und dann die Objekte für Ihren spezifischen Anwendungsfall konfigurieren.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # Blueprints - Übersicht
 
+<!--Audited: 01/2024-->
+
 Blueprints sind Sets von Workfront-Objekten, die häufige Anwendungsfälle in Workfront behandeln. Sie können einen Blueprint herunterladen und installieren und dann die Objekte für Ihren spezifischen Anwendungsfall konfigurieren.
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -32,7 +36,7 @@ Blueprints sind Sets von Workfront-Objekten, die häufige Anwendungsfälle in Wo
 >
 >   Dieser Blueprint enthält eine Vorlage zur Organisation neuer Onboarding-Aktivitäten für Mitarbeiter. Durch die Verwendung dieser Vorlage können IT-Teams effizient arbeiten, was zu einer positiven neuen Mitarbeitererfahrung und einer schnelleren Verfolgung der Produktivität führt.
 >
->* **Checkliste für geerbte Instanzgrundlagen**
+>* **Vererbte Instanzgrundlagen | Checkliste**
 >
 >    Dieser Blueprint enthält eine Projektvorlage (oder Checkliste), die Sie mit einer kurzen Liste von Fragen, Ressourcen und Links überprüfen können, um ein klares Verständnis der Konfiguration Ihrer Workfront-Instanz zu erhalten. Verwenden Sie dies, wenn Sie kürzlich eine Workfront-Instanz geerbt haben und eine Anleitung zum Starten benötigen.
 >
@@ -43,9 +47,9 @@ Blueprints stellen grundlegende Bausteine bereit, mit denen Sie ein Arbeitsverwa
 
 Jeder Blueprint richtet sich an eine Abteilung und ein spezifisches Laufzeitniveau, damit Sie bewährte Best Practices schneller in Ihr System implementieren können. Die im Folgenden beschriebenen Laufzeitstufen sind in der Blueprint-Katalogkarte und den Details angegeben.
 
-**[!UICONTROL Verwaltet]:** Verwaltete Projektvorlagen unterstützen die Übernahme eines neuen Geschäftsprozesses, bevor Aktivitäten und Ergebnisse vollständig als Standardverfahren akzeptiert werden. Sie enthalten Aufgaben, die sicherstellen, dass jeder Schritt des neuen Prozesses befolgt wird.
+* **[!UICONTROL Verwaltet]:** Verwaltete Projektvorlagen unterstützen die Übernahme eines neuen Geschäftsprozesses, bevor Aktivitäten und Ergebnisse vollständig als Standardverfahren akzeptiert werden. Sie enthalten Aufgaben, die sicherstellen, dass jeder Schritt des neuen Prozesses befolgt wird.
 
-**[!UICONTROL Integriert]:** Bei integrierten Projektvorlagen wird davon ausgegangen, dass Geschäftsfunktionen durch ein Standardbetriebssystem unterstützt werden. Mitwirkende kennen die Schritte und Aufgaben, die sie ausführen müssen, um den Prozess zu verfolgen. Die Projektvorlagen zur Unterstützung dieses Prozesses enthalten weniger Aufgaben, um nur Meilensteine und andere wichtige Ergebnisse zu verfolgen, die für Berichterstellungszwecke erforderlich sind.
+* **[!UICONTROL Integriert]:** Bei integrierten Projektvorlagen wird davon ausgegangen, dass Geschäftsfunktionen durch ein Standardbetriebssystem unterstützt werden. Mitwirkende kennen die Schritte und Aufgaben, die sie ausführen müssen, um den Prozess zu verfolgen. Die Projektvorlagen zur Unterstützung dieses Prozesses enthalten weniger Aufgaben, um nur Meilensteine und andere wichtige Ergebnisse zu verfolgen, die für Berichterstellungszwecke erforderlich sind.
 
 ## Den richtigen Blueprint finden
 
@@ -57,9 +61,9 @@ Der Blueprint-Typ zeigt, was im Blueprint enthalten ist. Der Typ wird unten auf 
 
 Die folgenden Blueprint-Typen sind verfügbar:
 
-* Projektvorlagen: Enthält Standardobjekte, die mit einer Projektvorlage verknüpft sind (Aufgaben, Probleme, Rollen und Teams), sowie einige Voreinstellungen für diese Objekte. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
-* Organisationsstrukturen: Umfasst Objekte, die mit der Struktur einer Organisation verknüpft sind (Unternehmen, Gruppen, Rollen und Teams). Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
-* Dashboards: Umfasst ein oder mehrere Dashboards für einen bestimmten Anwendungsfall, z. B. Implementierungsdienste.
+* **Projektvorlagen**: Umfasst Standardobjekte, die mit einer Projektvorlage verknüpft sind (Aufgaben, Probleme, Rollen und Teams), sowie einige Voreinstellungen für diese Objekte. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Organisatorische Strukturen**: Umfasst Objekte, die mit der Struktur einer Organisation verknüpft sind (Unternehmen, Gruppen, Rollen und Teams). Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Dashboards**: Umfasst ein oder mehrere Dashboards für einen bestimmten Anwendungsfall, z. B. Implementierungsdienste.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -68,7 +72,7 @@ Die folgenden Blueprint-Typen sind verfügbar:
 
 Informationen zum Überprüfen der aktuellen Blueprints finden Sie unter [Liste der verfügbaren Blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
-### -Details anzeigen
+### Details anzeigen
 
 Jeder Blueprint enthält eine Detailseite. Auf dieser Seite haben Sie folgende Möglichkeiten:
 
@@ -82,7 +86,7 @@ Jeder Blueprint enthält eine Detailseite. Auf dieser Seite haben Sie folgende M
 
 ## Blueprint installieren
 
-Der Systemadministrator kann die Installation direkt in der Produktionsumgebung oder in Sandbox-Umgebungen durchführen. Weitere Informationen finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md) oder [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
+Ein Workfront-Administrator kann einen Blueprint direkt in allen Umgebungen (Produktions-, Vorschau- oder Sandbox-Umgebungen) installieren. Weitere Informationen finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md) oder [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
 
 Nach der Installation sind Sie möglicherweise nicht sicher, welche Maßnahmen die nächsten Schritte am besten sind. Weitere Informationen finden Sie unter [Nach der Installation eines Blueprints zu ergreifende Maßnahmen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 

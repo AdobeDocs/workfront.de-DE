@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Aufgaben
+title: "Aufgaben: Artikelindex"
 description: Aufgaben sind kleinere Arbeitselemente in Adobe Workfront, die zum Abschluss eines Projekts beitragen. Informationen zur Verwaltung von Aufgaben finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# Aufgaben
+# Aufgaben: Artikelindex
 
-Dieser Abschnitt enthält die folgenden Unterabschnitte:
+<!--Audited: 01/2024-->
+
+Aufgaben sind kleinere Arbeitselemente in Adobe Workfront, die zum Abschluss eines Projekts beitragen. Informationen zum Verwalten von Aufgaben finden Sie in den Artikeln in den folgenden Unterabschnitten:
 
 * [Aufgabeninformationen](../../manage-work/tasks/task-information/task-information.md)
 * [Aufgaben erstellen](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
