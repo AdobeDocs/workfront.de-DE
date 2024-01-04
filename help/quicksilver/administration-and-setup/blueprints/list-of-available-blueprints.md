@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -126,9 +126,13 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professione
 **[!UICONTROL Systemadministrator-Wartungs-Dashboard]**
 Dieser Blueprint enthält ein Dashboard, das Systemadministratoren bei der Wartung und Reinigung des Systems in regelmäßigen Abständen von verschiedenen Störungen, die sich im Laufe der Zeit aufbauen könnten, unterstützt.
 
-**Wertrealisierung | Dashboard &quot;Core Value&quot;**
+**Wertrealisierung | Dashboard &quot;Hauptwert&quot;**
 
 Dieser Blueprint enthält ein Dashboard mit 21 Berichten, mit denen Sie den Wert von Workfront messen können. Diese Berichte helfen Ihnen dabei, die Vorteile der Zentralisierung von Arbeit und der Verwaltung von Arbeitsprozessen in messbare Werte zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
+
+[!BADGE Neu!]{type=Informative}**Wertrealisierung | Dashboard für kundenorientierte Dienste bereitstellen**
+
+Dieser Blueprint enthält ein Dashboard mit 8 Berichten, die Ihnen bei der Nutzung der Vorteile von Workfront helfen. Diese Berichte sollen Ihnen dabei helfen, Ihre kundenorientierten Dienste in messbare Werte zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
 
 **Wertrealisierung | Dashboard überprüfen und genehmigen**
 
