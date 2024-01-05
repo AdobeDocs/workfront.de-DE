@@ -6,14 +6,16 @@ description: Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstel
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # Erste Schritte mit [!UICONTROL Gantt-Diagramm]
+
+<!-- Audited: 01/2024 -->
 
 Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstellung der Zeitleiste einer Liste von Aufgaben oder Projekten.
 
@@ -35,7 +37,7 @@ Obwohl sie ähnlich aussehen und sich anfühlen, ist die Funktionalität jedes e
 * Sie können konfigurieren, welche Informationen auf beiden Aufgabenlisten angezeigt werden [!UICONTROL Gantt-Diagramm] und der Projektliste [!UICONTROL Gantt-Diagramm].
 * Sie können die Farben oder die Schriftarten, in denen die [!UICONTROL Gantt-Diagramm] angezeigt werden.
 * Wenn Informationen von Aufgaben aktualisiert werden, werden sie automatisch in beide Aufgabenlisten übernommen [!UICONTROL Gantt-Diagramm] und der Projektliste [!UICONTROL Gantt-Diagramm].
-* Wenn Informationen aus den Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Aufgabenliste der Vorlage angezeigt [!UICONTROL Gantt-Diagramm].
+* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Aufgabenliste der Vorlage angezeigt [!UICONTROL Gantt-Diagramm].
 
 ## Zugriff auf [!UICONTROL Gantt-Diagramm]
 
@@ -44,9 +46,6 @@ Die [!UICONTROL Gantt] Diagramme in [!DNL Workfront]  eine visuelle Darstellung 
 Sie können die Aufgabenliste anzeigen [!UICONTROL Gantt-Diagramm] direkt aus der Aufgabenliste eines Projekts oder aus einem Aufgabenbericht.
 
 Sie können die Projektliste anzeigen [!UICONTROL Gantt-Diagramm] in einer Projektliste oder einem Projektbericht.
-
-* [Aufgabenliste [!UICONTROL Gantt-Diagramm]](#task-list-gantt-chart)
-* [Projektliste [!UICONTROL Gantt-Diagramm]](#project-list-gantt-chart)
 
 ### Aufgabenliste [!UICONTROL Gantt-Diagramm] {#task-list-gantt-chart}
 
@@ -78,17 +77,17 @@ So greifen Sie auf die Aufgabenliste zu [!UICONTROL Gantt-Diagramm] eines Projek
 
 1. So konfigurieren Sie, welche Informationen in der Aufgabe angezeigt werden sollen [!UICONTROL Gantt] Diagramm, klicken Sie auf die [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
 
-   * [!UICONTROL Tatsächliche Termine]
+   * [!UICONTROL Tatsächliche Datumswerte]
    * [!UICONTROL Arbeitsaufträge]
-   * [!UICONTROL Ausgangsbasis]
-   * [!UICONTROL Verpflichtungsdatum]
-   * [!UICONTROL % Abgeschlossen]
+   * [!UICONTROL Grundlinie]
+   * [!UICONTROL Datum der Übermittlung]
+   * [!UICONTROL % Complete]
    * [!UICONTROL Kritischer Pfad]
-   * [!UICONTROL Meilenstein-Diamanten]
-   * [!UICONTROL Meilenstein-Linien]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone-Linien]
    * [!UICONTROL Vorgänger]
-   * [!UICONTROL Fortschrittsstatus]
-   * [!UICONTROL Voraussichtliche Termine]
+   * [!UICONTROL Statusstatus des Fortschritts]
+   * [!UICONTROL Vorgeschlagene Datumswerte]
 
 1. Beginnen Sie mit der Bearbeitung der Aufgaben, wie in den folgenden Artikeln beschrieben:
 
@@ -121,10 +120,10 @@ So greifen Sie auf die Projektliste zu [!UICONTROL Gantt-Diagramm]:
 
 1. So konfigurieren Sie, welche Informationen im Projekt angezeigt werden sollen [!UICONTROL Gantt] Diagramm, klicken Sie auf die [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
 
-   * [!UICONTROL Tatsächliche Termine]
-   * [!UICONTROL % Abgeschlossen]
-   * [!UICONTROL Meilenstein-Diamanten]
-   * [!UICONTROL Meilenstein-Linien]
+   * [!UICONTROL Tatsächliche Datumswerte]
+   * [!UICONTROL % Complete]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone-Linien]
    * [!UICONTROL Vorgänger]
-   * [!UICONTROL Fortschrittsstatus]
-   * [!UICONTROL Voraussichtliche Termine]
+   * [!UICONTROL Statusstatus des Fortschritts]
+   * [!UICONTROL Vorgeschlagene Datumswerte]

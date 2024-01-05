@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Kalenderberichte - Übersicht
-description: Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet.
+description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für Aufgaben, Probleme und Projekte in einem Kalenderbericht anzeigen.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
 
 # Kalenderberichte - Übersicht
 
-Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für die folgenden Objekte in einem Kalenderbericht anzeigen:
+<!-- Audited: 01/2024 -->
+
+Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für die folgenden Objekte in einem Kalenderbericht anzeigen:
 
 * Aufgaben
 * Probleme
 * Projekte
 
-Zugriff auf Kalenderberichte in [!DNL Adobe Workfront] wird durch die [!DNL Workfront] Administrator über Ihre Zugriffsstufe. Weitere Informationen zur Zugriffsstufe für die Anzeige von Kalenderberichten finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Zugriff auf Kalenderberichte in [!DNL Adobe Workfront] wird durch Ihre Zugriffsstufe bestimmt. Weitere Informationen zum Zugriff, der zum Anzeigen von Kalenderberichten erforderlich ist, finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Erstellen eigener Kalender
 
-[!UICONTROL Workfront] erstellt automatisch einen persönlichen Standardkalender, wenn:
+[!DNL Workfront] erstellt automatisch Ihren standardmäßigen persönlichen Kalender, wenn:
 
-* Ein neu erstellter Benutzer, der keinen Zugriff auf andere Kalender hat, besucht die Kalenderberichtsseite zum ersten Mal\
-   ODER
-* Ein Benutzer löscht manuell alle Kalender und hat keinen Zugriff auf andere Kalender
+* Sie sind ein neu erstellter Benutzer, der keinen Zugriff auf andere Kalender hat und die Kalenderberichtsseite zum ersten Mal aufrufen.
 
->[!NOTE]
->
->Der persönliche Kalender wird nicht erstellt, wenn der Benutzer Zugriff auf andere Kalender hat, z. B. einen systemweiten freigegebenen Kalender oder Kalender, die speziell für den Benutzer freigegeben wurden.
+  ODER
 
-Darüber hinaus können Benutzer Kalender erstellen und auf Kalender zugreifen, die von anderen Benutzern für sie freigegeben wurden. Die Anzahl der Kalender, auf die ein Benutzer in Workfront zugreifen kann, ist unbegrenzt.
+* Sie löschen manuell alle Kalender und haben keinen Zugriff auf andere Kalender
 
 >[!NOTE]
 >
->Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards], und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen. Wenden Sie sich an [!DNL Workfront] Administrator.
+>Der persönliche Kalender wird nicht erstellt, wenn Sie Zugriff auf andere Kalender haben, z. B. einen systemweiten freigegebenen Kalender oder Kalender, die speziell für Sie freigegeben wurden.
+
+Darüber hinaus können Sie Kalender erstellen und auf Kalender zugreifen, die von anderen Benutzern für Sie freigegeben wurden. Die Anzahl der Kalender, auf die Sie in zugreifen können, ist unbegrenzt [!DNL Workfront].
+
+>[!NOTE]
+>
+>Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards], und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen. Wenden Sie sich an [!DNL Workfront] Administrator für weitere Informationen.
 
 ## Gruppieren von Elementen nach Datum
 
