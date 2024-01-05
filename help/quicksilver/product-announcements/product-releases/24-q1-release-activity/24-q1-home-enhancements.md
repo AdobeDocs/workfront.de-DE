@@ -4,9 +4,9 @@ description: Verbesserungen für das erste Quartal 2024 - Startseite
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Neues Widget für ausstehende Genehmigungen verfügbar
+
+Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget &quot;Ausstehende Genehmigungen&quot;zu &quot;Home&quot;hinzugefügt. Hier können Sie eine Liste der Benutzer sehen, die zum Genehmigen oder Überprüfen von Dokumenten über Projekte, deren Eigentümer Sie sind, zugewiesen sind, den Status ihrer Überprüfung oder Genehmigung anzeigen und Prüfer und Genehmiger daran erinnern, ihre Überprüfung oder Genehmigung abzuschließen.
+
+Weitere Informationen zu Home-Widgets finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Administratorsteuerelemente für die neue Startseite mit Layoutvorlagen
 

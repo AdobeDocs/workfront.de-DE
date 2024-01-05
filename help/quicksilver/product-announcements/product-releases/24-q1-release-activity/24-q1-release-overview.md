@@ -4,9 +4,9 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Widget für ausstehende Genehmigungen verfügbar</a></p><p><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget "Ausstehende Genehmigungen"zu "Home"hinzugefügt. </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 3. Januar 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit Version 24.1</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratorsteuerelemente für die neue Startseite mit Layoutvorlagen</a></p><p>Administratoren können jetzt die neue Startseite für Benutzer mithilfe von Layoutvorlagen anpassen. Zu den Anpassungsoptionen gehören die Auswahl obligatorischer Widgets und ihrer Position, die Auswahl eines Hintergrunds und widget-spezifische Optionen zur Auswahl verfügbarer Filter und Gruppen (sowie die Festlegung von Standardeinstellungen).</p>
                     </td>
