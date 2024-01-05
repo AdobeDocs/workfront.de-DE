@@ -6,9 +6,9 @@ description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu P
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -65,7 +65,7 @@ Hinzufügen eines Dokuments:
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, dem Sie ein neues Dokument hinzufügen möchten.
 1. Klicken Sie auf **Dokumente** und klicken Sie auf die **Neu hinzufügen** Dropdown-Menü.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Führen Sie je nach dem Dokumenttyp, den Sie hinzufügen möchten, einen der folgenden Schritte aus:
 
@@ -98,7 +98,7 @@ Hinzufügen eines Dokuments:
         <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Anfordern eines Dokuments</strong>.</li> 
         <li value="2">Im <strong>Von wem angefordert du es?</strong> Geben Sie den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
         <li value="3">Im <strong>Sagen Sie ihnen, was Sie anfordern</strong> -Feld den Namen des Dokuments eingeben.</li> 
-        <li value="4"> <p>Klicks <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
+        <li value="4"> <p>Klicks <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

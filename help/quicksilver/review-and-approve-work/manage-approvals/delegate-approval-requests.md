@@ -6,9 +6,9 @@ description: Durch die Delegierung von Validierungsanfragen können Sie einen an
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Validierungsanfrage delegieren
 
 Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht im Büro sind, vorübergehend delegieren. Sie können Aufgaben- und Problemzuweisungen delegieren oder Genehmigungsanfragen delegieren. In diesem Artikel wird beschrieben, wie Sie Genehmigungsanfragen delegieren. Weitere Informationen zum Delegieren von Aufgaben und Problemzuweisungen finden Sie unter [Verwalten der Zuweisung von Aufgaben und Ausgaben](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon, wie die Genehmigung Ihnen zugewiesen wurde (unabhängig davon, ob sie Ihnen direkt zugewiesen wurden, einem Team, dem Sie angehören, oder Ihrer beruflichen Rolle):
+
+* Projektgenehmigungen
+* Aufgabenvalidierungen
+* Genehmigungen ausstellen
+
+Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren.
 
 >[!NOTE]
 >
@@ -37,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
@@ -83,7 +91,7 @@ Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon,
 * Aufgabenvalidierungen
 * Genehmigungen ausstellen
 
-Zeitblatt- und Dokumentgenehmigungen können nicht delegiert werden. 
+Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren.
 
 Beachten Sie beim Delegieren von Genehmigungen Folgendes:
 
