@@ -6,9 +6,9 @@ description: Sie können Filter in einer Liste oder in einem Bericht im Textmodu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Sie können Filter in einer Liste oder in einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardoberfläche nicht verfügbar sind, und komplexere Filter zu erstellen.
 
-Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie im Artikel unter &quot;Beispiele für benutzerdefinierte Filter&quot; [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Weitere Beispiele für den Textmodus beim Erstellen eines Filters finden Sie im Abschnitt [Beispiele für benutzerdefinierte Filter](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) im Artikel [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Zugriffsanforderungen
 
@@ -34,27 +34,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
     <p>oder</p>
     <p>Aktuell: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Filtern in einem Bericht verwalten</p> <p>Berechtigungen für einen Filter verwalten und ihn bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Filtern in einem Bericht verwalten</p> <p>Berechtigungen für einen Filter verwalten und ihn bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
