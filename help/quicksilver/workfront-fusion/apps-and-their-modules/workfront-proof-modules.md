@@ -9,14 +9,14 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof]-Module
+# [!DNL Workfront Proof] Module
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Workfront Proof], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 
@@ -37,7 +37,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -106,7 +106,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
    <td> <p>Anweisungen zum Verbinden der [!DNL Workfront Proof] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Eintragstyp</td> 
+   <td role="rowheader">Datensatztyp</td> 
    <td>Wählen Sie den Typ [!DNL Workfront Proof] notieren, dass das Modul überwacht werden soll.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -178,7 +178,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 ### Aktionen
 
-* [[!UICONTROL Korrekturabzug erstellen]](#create-proof)
+* [[!UICONTROL Testversand erstellen]](#create-proof)
 * [[!UICONTROL Benutzerspezifischer API-Aufruf]](#custom-api-call)
 * [[!UICONTROL Testversand herunterladen]](#download-proof)
 * [[!UICONTROL Datensatz lesen]](#read-a-record)
@@ -186,7 +186,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 * [[!UICONTROL Testversand aktualisieren]](#update-proof)
 * [[!UICONTROL Datei hochladen]](#upload-file)
 
-#### [!UICONTROL Korrekturabzug erstellen]
+#### [!UICONTROL Testversand erstellen]
 
 Dieses Aktionsmodul erstellt einen neuen Testversand oder eine neue Testversion in [!DNL Workfront Proof].
 
@@ -353,11 +353,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Methode]</td> 
-   <td>Legen Sie die Aktion für den API-Aufruf fest. Informationen zu den verfügbaren Aktionen finden Sie unter <a href="http://api.proofhq.com/">API-Dokumentation für Testsendungen</a>.</td> 
+   <td>Legen Sie die Aktion für den API-Aufruf fest. Informationen zu den verfügbaren Aktionen finden Sie unter <a href="https://api.proofhq.com/">API-Dokumentation für Testsendungen</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

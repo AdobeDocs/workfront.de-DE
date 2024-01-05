@@ -7,7 +7,7 @@ description: Sie können "IF"-Anweisungen in allgemeinen Programmiersprachen ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über &quot;IF&quot;-Anweisungen
+
+<!-- Audited: 1/2024 -->
 
 Sie können &quot;IF&quot;-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront ermöglichen Ihnen &quot;IF&quot;-Anweisungen den Vergleich, die Formatierung und die Zeichenfolge von Datenfeldern für Berichterstellungs- und benutzerdefinierte Datenzwecke. Außerdem führt das mathematische Denken über &quot;IF&quot;-Anweisungen zu einem besseren konzeptionellen Verständnis, da Variablen für Ausdrücke häufig verwendet werden.
 
@@ -44,10 +46,10 @@ Beachten Sie Folgendes, bevor Sie eine &quot;IF&quot;-Anweisung erstellen:
 Sie können &quot;IF&quot;-Anweisungen in Workfront im folgenden Format erstellen:
 <pre>IF(Bedingung, True Expression, False Expression)</pre>Die Komponenten einer "IF"-Anweisung sind:
 
-* **IF**= Dies ist der berechnete Workfront-Datenausdruck für &quot;function&quot;. Ähnlich wie die SUM- und PROD-Ausdrücke weist dieses zuerst das System an, die Funktion als &quot;IF&quot;-Anweisung zu verstehen. Verwenden Sie für &quot;IF&quot;immer Großbuchstaben in dieser Anweisung.\
+* **IF** = Dies ist der berechnete Workfront-Datenausdruck für &quot;function&quot;. Ähnlich wie die SUM- und PROD-Ausdrücke weist dieses zuerst das System an, die Funktion als &quot;IF&quot;-Anweisung zu verstehen. Verwenden Sie für &quot;IF&quot;immer Großbuchstaben in dieser Anweisung.\
   Eine Liste aller berechneten Datenausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Bedingung**= Dies ist die Bedingung, die die Workfront-Variable erfüllen muss, und die Grundlage für diese Gleichung. Alles, was später in der Gleichung angegeben werden kann, hängt von der Bedingung ab. Sie können eine Reihe von Verweisen, Vergleichen oder mathematischen Ausdrücken verwenden, um eine Gleichung zu beginnen. Beispiele für Bedingungen:
+* **Bedingung** = Dies ist die Bedingung, die die Workfront-Variable erfüllen muss, und die Grundlage für diese Gleichung. Alles, was später in der Gleichung angegeben werden kann, hängt von der Bedingung ab. Sie können eine Reihe von Verweisen, Vergleichen oder mathematischen Ausdrücken verwenden, um eine Gleichung zu beginnen. Beispiele für Bedingungen:
 
    * Ein Datum ist größer als ein anderes Datum für ein bestimmtes Objekt.
    * Der Status entspricht einem der verfügbaren Status für ein bestimmtes Objekt.
@@ -55,9 +57,9 @@ Sie können &quot;IF&quot;-Anweisungen in Workfront im folgenden Format erstelle
 
 * **Bedingungsoperator** = dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer &quot;IF&quot;-Anweisung hilft. Beispielsweise sind Bedingungsoperatoren &quot;ist gleich&quot;oder &quot;ist größer als&quot;. Eine Liste der Bedingungsoperatoren, die Sie in -Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True***Ausdruck**= Dies ist die Variable &quot;True&quot;, die die Gleichung angibt, welcher Indikator angezeigt werden soll, sobald die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True***Ausdruck** = Dies ist die Variable &quot;True&quot;, die die Gleichung angibt, welcher Indikator angezeigt werden soll, sobald die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
-* **Falscher Ausdruck**= Dies ist die Variable &quot;False&quot;, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
+* **Falscher Ausdruck** = Dies ist die Variable &quot;False&quot;, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 
 Im folgenden Beispiel wird das ursprüngliche Anweisungsformat verwendet, um einen einfachen Datenausdruck für eine &quot;IF&quot;-Anweisung zu schreiben. Der Ausdruck vergleicht zwei verschiedene Datumsfelder in Workfront , gefolgt von einem True-/False-Ergebnis als Datenzeichenfolge:
 

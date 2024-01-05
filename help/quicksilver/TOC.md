@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13846'
 ht-degree: 0%
 
 ---
@@ -551,7 +551,7 @@ ht-degree: 0%
          * [Layout-Vorlage kopieren](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [Löschen Sie die klassischen Layoutvorlagen mithilfe eines API-Aufrufs](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Benutzerdefinierte Formulare {#custom-forms}
-         * [Benutzerdefinierte Formulare in meiner Gruppe](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Benutzerdefinierte Formulare: Artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Übersicht über benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Alter benutzerdefinierter Formular-Builder {#custom-form-builder}
             * Verwenden des benutzerdefinierten Formular-Builders {#use-the-custom-form-builder}

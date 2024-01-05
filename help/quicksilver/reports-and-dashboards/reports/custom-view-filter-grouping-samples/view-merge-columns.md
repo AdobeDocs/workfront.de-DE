@@ -7,14 +7,16 @@ description: Sie können die Informationen, die in mehreren separaten Spalten an
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte
+
+<!-- Audited: 1/2024 -->
 
 Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
 
@@ -28,12 +30,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zum Ändern einer Ansicht </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Anforderung zum Ändern einer Ansicht</li> 
+   <li>Berichtänderung planen</li>
+   </ul>
+     </p>
+     <p> Neu: 
+   <ul>
+   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Standard zum Ändern eines Berichts</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -77,7 +90,7 @@ Sie können die Daten aus mehreren separaten Spalten zusammenführen, um sie in 
 >
 >Dieser Ansatz wird empfohlen, wenn Sie zwei Spalten zusammenführen, die nie einen Wert für denselben Datensatz gleichzeitig anzeigen können. Beispielsweise können in einem Arbeitselement-Bericht die Spalten &quot;Problemname&quot;und &quot;Aufgabenname&quot;ohne Zeilenumbruch zusammengeführt werden, da ein Arbeitselement nie einen Problemnamen und einen Aufgabennamen gleichzeitig haben kann. Ein Arbeitselement kann in Workfront entweder ein Problem oder eine Aufgabe sein.
 
-Gehen Sie dazu folgendermaßen vor:
+So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 
 1. Fügen Sie im Textmodus für eine Ansicht den folgenden Text zur ersten Spalte hinzu, die Sie zusammenführen möchten:
 

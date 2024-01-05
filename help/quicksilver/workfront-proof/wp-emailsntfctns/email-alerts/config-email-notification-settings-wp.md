@@ -7,9 +7,9 @@ description: Von Workfront Testversand generierte E-Mail-Benachrichtigungen info
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ E-Mail-Benachrichtigungen informieren Mitarbeiter über die letzten Aktivitäten
 
 Sie können E-Mail-Benachrichtigungen für Prüfer in den folgenden Bereichen einrichten:
 
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Workfront Teststandalone</td> 
+  </tr> 
+</table>
+
+E-Mail-Benachrichtigungen für Validierungsverantwortliche können auf der Seite Neuer Testversand eingestellt werden. [!UICONTROL Neue Version] und in der [!UICONTROL Workflow] Abschnitt [!UICONTROL Testversanddetails] Seite. Weitere Informationen finden Sie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * Neue Testseite
 * Die [!UICONTROL Neue Version] page
 * Die [!UICONTROL Workflow] Abschnitt [!UICONTROL Testversanddetails] Seite.
 
 Weitere Informationen finden Sie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Jeder Benutzer kann auch seine eigenen E-Mail-Warnungseinstellungen festlegen, die automatisch angewendet werden, wenn ein Testversand für ihn freigegeben wird, wenn die Mitwirkenden ihre Voreinstellungen haben oder Kontoadministratoren ihre Empfehlung zur Häufigkeit der Warnungen erhalten. Dies kann auf den Detailseiten der Benutzer als Testversand-Standard festgelegt werden.
 
 Jeder Benutzer kann auch seine eigenen E-Mail-Warneinstellungen festlegen, die automatisch angewendet werden, wenn ein Testversand für ihn freigegeben wird. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

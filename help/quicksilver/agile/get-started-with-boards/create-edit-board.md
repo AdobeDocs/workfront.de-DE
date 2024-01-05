@@ -6,7 +6,7 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Neue Pinnwand erstellen
 
 {{step1-to-boards}}
+
 1. Klicks **[!UICONTROL Pinnwand hinzufügen]**.
 
 1. Wählen Sie eine Vorlage für die Pinnwand aus.
@@ -98,6 +99,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Vorhandene Pinnwand bearbeiten
 
 {{step1-to-boards}}
+
 1. Wählen Sie im Dashboard die zu öffnende Pinnwand aus.
 1. Bearbeiten Sie die Pinnwand nach Bedarf. Sie können auf den Pinnwandnamen klicken, um ihn umzubenennen.
 

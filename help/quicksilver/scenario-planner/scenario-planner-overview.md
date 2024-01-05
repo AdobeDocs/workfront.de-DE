@@ -7,7 +7,7 @@ description: Für den Szenario-Planer ist zusätzlich zur Adobe Workfront-Lizenz
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 # Die [!DNL Scenario Planner] Übersicht
 
-Die [!DNL Scenario Planner] erfordert zusätzlich zur [!DNL Adobe Workfront] Lizenz.
+<!-- Audited: 1/2024 -->
+
+Die [!DNL Scenario Planner] eine separate Lizenz zusätzlich zum [!DNL Adobe Workfront] -Lizenz.
 Informationen zum benötigten Zugriff für die Verwendung der [!DNL Workfront Scenario Planner], siehe [Zugriff erforderlich für die Verwendung der [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## [!DNL Scenario Planner] Übersicht
@@ -38,45 +40,45 @@ Informationen zum Starten mit dem [!DNL Workfront Scenario Planner], siehe [Erst
 
 Die folgende Funktion ist derzeit im [!DNL Workfront Scenario Planner]:
 
-* Geben Sie an, welchen Zugriff Ihre Benutzer auf die [!DNL Workfront Scenario Planner].
+* Geben Sie an, welchen Zugriff Ihre Benutzer auf die [!DNL Workfront Scenario Planner]
 
-   Informationen zur Gewährung des Zugriffs auf die [!DNL Workfront Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Informationen über die Gewährung des Zugriffs auf die [!DNL Workfront Scenario Planner], siehe [Zugriff auf gewähren [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-* Erstellen Sie Pläne, um die wichtigsten Initiativen in Ihrer Organisation anzugeben und das Angebot an Personalressourcen und Budget für Ihre Pläne zu definieren.
+* Erstellen Sie Pläne, um die wichtigsten Initiativen in Ihrer Organisation anzugeben und das Angebot an Personalressourcen und Budget für Ihre Pläne zu definieren
 
-   Informationen zum Erstellen von Plänen finden Sie unter [Erstellen und Bearbeiten von Plänen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+  Informationen zum Erstellen von Plänen finden Sie unter [Erstellen und Bearbeiten von Plänen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 * Fügen Sie Ihren Plänen Initiativen hinzu, um die verschiedenen Aktivitäten anzugeben, mit denen Sie letztendlich Ihre Pläne erreichen, und definieren Sie die Nachfrage nach Personalressourcen und Kosten für Ihre Initiativen.
 
-   Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+  Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 * Wenn es Personen oder Budgetkonflikte zwischen Ihren Initiativen gibt, lösen Sie die Konflikte, indem Sie Nachfrageinformationen über die Initiativen aktualisieren, Prioritäten ändern oder die Angebotsinformationen über den Plan aktualisieren.
 
-   Informationen zur Lösung von Konflikten zwischen Initiativen finden Sie unter [Lösung von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+  Informationen zur Lösung von Konflikten zwischen Initiativen finden Sie unter [Beheben von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 * Erstellen Sie mehrere Szenarien Ihres Plans und vergleichen Sie sie, um das beste Ergebnis für die Durchführung des Plans zu ermitteln.
 
-   Informationen zum Erstellen und Vergleichen von Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+  Informationen zum Erstellen und Vergleichen von Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-* Importieren Sie Projekte in einen Plan zur Schaffung neuer Initiativen.
+* Importieren von Projekten in einen Plan zur Schaffung neuer Initiativen
 
-   Die folgenden Projektinformationen werden in den Plan importiert und werden zu Initiativinformationen:
+  Die folgenden Projektinformationen werden in den Plan importiert und werden zu Initiativinformationen:
 
    * Projektname
    * Mit Aufgaben und Problemen im Projekt verknüpfte Vorgangsrollen
    * Job-Rollen FTE konvertiert aus den geplanten Stunden, die den Rollen im Projekt zugewiesen sind
-   * Aufgaben: Stunden, in denen der Plan zur Verwendung von Stunden anstelle von FTEs eingerichtet ist
+   * Aufgaben: Stunden, in denen der Plan für die Verwendung von Stunden anstelle von FTEs eingerichtet ist
 
-   Informationen zum Importieren von Projekten in einen Plan finden Sie unter [Importieren von Projekten in Pläne in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Importieren von Projekten in einen Plan finden Sie unter [Importieren von Projekten in Pläne in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Veröffentlichen Sie ein Szenario, um Projekte zu erstellen oder zu aktualisieren, die mit den Initiativen im Szenario verknüpft sind.
 
-   Informationen zu Veröffentlichungsszenarien finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Informationen zu Veröffentlichungsszenarien finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-* Geben Sie für eine bessere Zusammenarbeit einen Plan für andere Benutzer frei.
+* Abo für andere Benutzer freigeben für bessere Zusammenarbeit
 
-   Weitere Informationen finden Sie unter [Freigeben eines Plans im [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+  Weitere Informationen finden Sie unter [Freigeben eines Plans im [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
-* Schätzen oder passen Sie die erforderlichen Arbeitsplatzrollen oder Informationen zu Festkosten monatlich für jeden Monat der Dauer einer Initiative an.
+* Monatlich für jeden Monat der Dauer einer Initiative die erforderlichen Stellenangebote oder Informationen zu Festkosten schätzen oder anpassen
 
-   Informationen zur Schätzung der Ressourcen für Initiativen finden Sie unter [Lösung von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+  Informationen zur Schätzung der Ressourcen für Initiativen finden Sie unter [Beheben von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).

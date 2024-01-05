@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
 
 # Erstellen von Aufgaben in einem Projekt
 
+<!-- Audited: 1/2024 -->
+
 Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie das Projekt erstellt haben.
 
 Beispielsweise können Sie nach der Erstellung eines Projekts Aufgaben hinzufügen und ändern, um den Projektplan zu organisieren. Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
-Informationen zum Erstellen persönlicher Aufgaben, die sich nicht in einem Projekt befinden, finden Sie im Abschnitt &quot;Erstellen einer persönlichen Aufgabe&quot;im Artikel [Erstellen von Arbeitselementen aus dem Startbereich](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Informationen zum Erstellen persönlicher Aufgaben, die sich nicht in einem Projekt befinden, finden Sie unter [Persönliche Aufgabe erstellen](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) im Artikel [Erstellen von Arbeitselementen aus dem Startbereich](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen. Sie können Aufgaben auch wie folgt erstellen:
 
@@ -29,46 +31,19 @@ In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz*</p> </td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td><p>Aktuell: Arbeit oder höher</p> 
+   Oder
+   <p>Neu: Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -81,14 +56,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
+
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Erstellen von Aufgaben in einem Projekt
 
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Aufgabe erstellen möchten.
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Aufgaben** im linken Bereich.
 1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer agilen Ansicht anzeigen, klicken Sie auf die Schaltfläche **Listenansicht** icon ![](assets/list-view-in-agile-view-for-tasks.png) in der oberen rechten Ecke, um die Aufgabenliste anzuzeigen.
-1. (Optional) Klicken Sie auf die **Planmodus** icon ![](assets/nwe-plan-mode-icon-task-list.png) und wählen Sie **Manuelles Speichern** Wählen Sie entweder **Standard** oder **Timeline-Planung**. Dadurch wird die **Automatische Speicherung** -Option, die standardmäßig aktiviert ist.
+1. (Optional) Klicken Sie auf die **Planmodus** icon ![](assets/nwe-plan-mode-icon-task-list.png) und wählen **Manuelles Speichern** und wählen Sie entweder **Standard** oder **Timeline-Planung**. Dadurch wird die **Automatische Speicherung** -Option, die standardmäßig aktiviert ist.
 
    ![Manuelles Speichern auswählen](assets/manual-save-option.png)
 
@@ -98,8 +74,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Erstellen Sie eine neue Aufgabe, indem Sie einen der folgenden Schritte ausführen:
 
-   * Klicken **Neue Aufgabe** oben in der Aufgabenliste
-   * Klicken **Weitere Aufgaben hinzufügen** am Ende der Aufgabenliste
+   * Klicks **Neue Aufgabe** oben in der Aufgabenliste.
+   * Klicks **Weitere Aufgaben hinzufügen** unten in der Aufgabenliste.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
@@ -109,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Oder
 
-      Um alle Felder für die Aufgabe zu aktualisieren, klicken Sie auf **Weitere Optionen** , um **Aufgabe erstellen** ankreuzen.
+      Um alle Felder für die Aufgabe zu aktualisieren, klicken Sie auf **Weitere Optionen** , um die **Aufgabe erstellen** ankreuzen.
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
@@ -135,7 +111,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         Informationen zum Definieren aller Aufgabenfelder für eine Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
    1. (Bedingt und optional) Wenn die Aufgabe wiederkehrend sein soll, aktualisieren Sie die **Häufigkeit der Wiederholungen** -Feld. Weitere Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
-   1. (Optional) Klicken Sie auf **Dokumente** im linken Bereich, um ein Dokument an die neue Aufgabe anzuhängen, und klicken Sie dann auf **Hinzufügen oder Verknüpfen von Dateien** , um der Aufgabe ein Dokument von Ihrem Computer oder einem anderen Dienst hinzuzufügen oder Dokumente und Ordner von Ihrem Computer oder einem anderen Dienst zu verknüpfen.
+   1. (Optional) Klicken Sie auf **Dokumente** im linken Bereich ein Dokument an die neue Aufgabe anhängen, und klicken Sie dann auf **Hinzufügen oder Verknüpfen von Dateien** , um der Aufgabe ein Dokument von Ihrem Computer oder einem anderen Dienst hinzuzufügen oder Dokumente und Ordner von Ihrem Computer oder einem anderen Dienst zu verknüpfen.
 
 1. (Bedingt) Wenn Sie auf **Weitere Aufgaben hinzufügen** in Schritt 5 die Eingabe der Aufgabeninformationen über die Inline-Bearbeitung starten und die Eingabetaste drücken.
 
@@ -170,6 +146,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       1. (Bedingt) Wenn Sie die **Automatische Speicherung** Option nach dem Drücken **Weitere Aufgaben hinzufügen**, können Sie Folgendes tun:
 
-         * Klicken **Rückgängig** jederzeit die letzte Änderung rückgängig machen oder **Abbrechen** um alle Änderungen rückgängig zu machen, die Sie an der Aufgabenliste vorgenommen haben.
+         * Klicks **Rückgängig** jederzeit die letzte Änderung rückgängig machen oder **Abbrechen** um alle Änderungen rückgängig zu machen, die Sie an der Aufgabenliste vorgenommen haben.
          * Wenn Sie zuvor auf **Rückgängig** klicken **Wiederholen** , um die letzte Änderung, die Sie abgebrochen haben, erneut anzuwenden.
-         * Klicken **Speichern** , um Ihre Änderungen in der Aufgabenliste zu speichern.
+         * Klicks **Speichern** , um Ihre Änderungen in der Aufgabenliste zu speichern.

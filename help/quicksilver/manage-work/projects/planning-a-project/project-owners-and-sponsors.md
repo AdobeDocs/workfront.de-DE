@@ -7,7 +7,7 @@ description: Sie können einen Projektverantwortlichen und einen Projektsponsor 
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über Projekteigentümer und Projektsponsoren
+
+<!-- Audited: 1/2024 -->
 
 Sie können einen Projektverantwortlichen und einen Projektsponsor für ein Projekt bestimmen.
 
@@ -24,7 +26,7 @@ Der Projektsponsor ist ein wichtiger Akteur des Projekts, der über Ressourcen v
 
 Informationen dazu, wie Sie den Projekteigentümer oder -sponsor für ein Projekt aktualisieren, finden Sie unter [Projekteigentümer und -sponsoren aktualisieren](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
-## Projekteigentümer
+## Projektinhaber
 
 Sie können den Projektmanager bestimmen, indem Sie einen Projekteigentümer für ein Projekt oder eine Vorlage angeben.
 
@@ -36,24 +38,25 @@ Im Feld Projekteigentümer können folgende Elemente verwendet werden:
 * Sie können Projekteigentümer als Stundenvalidierer für das Projekt festlegen.
 * Sie können den Projekteigentümer beim Definieren von Projekt-, Aufgaben- oder Problemgenehmigungsprozessen als generischen Genehmiger festlegen. Informationen zu Genehmigungen finden Sie unter [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Wenn Sie dem Projekteigentümer eine Genehmigung zuweisen und niemand als Projekteigentümer bestimmt wird, wird die Genehmigung dem Workfront-Hauptadministrator neu zugewiesen, wie im Abschnitt Kundeninformationen im Bereich Einrichtung angegeben. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >Wenn Sie dem Projekteigentümer eine Genehmigung zuweisen und niemand als Projekteigentümer bestimmt wird, wird die Genehmigung dem Workfront-Hauptadministrator neu zugewiesen, wie im Abschnitt Kundeninformationen im Bereich Einrichtung angegeben. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
 * Sie können bestimmte Benachrichtigungen aktivieren, die nur an den Projekteigentümer gesendet werden.
 
-   Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt . [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) im Artikel [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt . [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) im Artikel [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Sie können das Feld &quot;Projektinhaber&quot;in einem Bericht oder einer Liste anzeigen.
 
-   Sie können das Feld &quot;Projekteigentümer&quot;auch in einer Ansicht, Gruppierung oder Eingabeaufforderung anzeigen.
+  Sie können das Feld &quot;Projekteigentümer&quot;auch in einer Ansicht, Gruppierung oder Eingabeaufforderung anzeigen.
 
-   Sie können beispielsweise den folgenden Textmodusausdruck in einen Filter kopieren, um Projekte anzuzeigen, die dem angemeldeten Benutzer gehören: 
+  Sie können beispielsweise den folgenden Textmodusausdruck in einen Filter kopieren, um Projekte anzuzeigen, die dem angemeldeten Benutzer gehören: 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -82,23 +85,23 @@ Beachten Sie bei der Zuweisung eines Projekt-Sponsors Folgendes:
 * Sie können nur einen Projektsponsor bestimmen.
 * Sie können den Projektsponsor als generischen Genehmiger festlegen, wenn Sie Projekt-, Aufgaben- oder Problemgenehmigungsprozesse definieren. Informationen zu Genehmigungen finden Sie unter [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts benannt ist, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Wenn niemand als Eigentümer des Projekts benannt ist, wird die Genehmigung dem Workfront-Administrator zugewiesen.
+  >[!IMPORTANT]
+  >
+  >Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts benannt ist, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Wenn niemand als Projekteigentümer bestimmt wurde, wird die Genehmigung dem Workfront-Administrator zugewiesen.
 
 * Sie können das Feld Projektsponsor in einem Bericht oder einer Liste anzeigen.
 
-   Sie können auch das Feld Projektsponsor in einer Ansicht, Gruppierung oder Eingabeaufforderung anzeigen.
+  Sie können auch das Feld Projektsponsor in einer Ansicht, Gruppierung oder Eingabeaufforderung anzeigen.
 
-   Sie können beispielsweise den folgenden Textmodusausdruck in einen Filter kopieren, um Projekte anzuzeigen, die vom angemeldeten Benutzer gesponsert wurden:
+  Sie können beispielsweise den folgenden Textmodusausdruck in einen Filter kopieren, um Projekte anzuzeigen, die vom angemeldeten Benutzer gesponsert wurden:
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
