@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Work
 
 >[!NOTE]
 >
->Die externe Lizenz ist keine gebührenpflichtige Lizenz. Es wurde hauptsächlich für die Freigabe von Dokumenten für Mitarbeiter entwickelt, die nicht mit Workfront arbeiten. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>Die externe Lizenz ist keine gebührenpflichtige Lizenz. Es wurde hauptsächlich für die Freigabe von Dokumenten für Mitarbeiter entwickelt, die nicht mit Workfront arbeiten. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## So definiert eine Lizenz eine Zugriffsstufe
 

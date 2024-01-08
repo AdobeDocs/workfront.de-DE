@@ -7,10 +7,10 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann eine genehmigte 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: Standard (zur Konfiguration Ihrer persönlichen Zeit)</p>
         <p>oder</p>
         <p>Aktuell: Arbeit oder höher (zur Konfiguration Ihrer persönlichen Zeit)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td>[!UICONTROL Manager] mit Zugriff auf [!UICONTROL Benutzer bearbeiten] (um Änderungen an der Zeitdauer anderer Benutzer vorzunehmen)<br>
    <strong>NOTE:</strong> Wenn ein Manager die persönliche Zeit eines anderen Benutzers außerhalb des Kalenders bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Persönliche Zeit konfigurieren in [!DNL Workfront]
 

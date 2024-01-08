@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
-title: Integrierte Zugriffsebenen in Adobe Workfront
+title: Integrierte Zugriffsebenen
 description: Jede der sechs aktuellen integrierten Zugriffsebenen wurde für einen bestimmten Benutzertyp entwickelt, einschließlich Systemadministrator, Planer, Worker, Reviewer, Anforderer und externer Benutzer. Mit diesen Zugriffsebenen können Sie steuern, welche Benutzer im System bearbeitet und angezeigt werden können. Wenn Sie eine benutzerdefinierte Zugriffsebene benötigen, können Sie eine integrierte Zugriffsebene kopieren und entsprechend der Zugriffsmenge ändern, die Sie benötigen, um sie für die verschiedenen Workfront-Objekttypen zuzulassen.
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1685'
 ht-degree: 5%
 
 ---
 
-# Integrierte Zugriffsebenen in Adobe Workfront
+# Integrierte Zugriffsebenen
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ Wenn Sie eine benutzerdefinierte Zugriffsebene für Planer, Worker, Anforderer o
 >
 >Sie können die Zugriffsebene des Systemadministrators oder des externen Benutzers nicht ändern.
 
-
-Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene oder Ändern einer der integrierten Zugriffsebenen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene oder Ändern einer der integrierten Zugriffsebenen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ Die Zugriffsstufe Planer ist ebenfalls mit der Planungslizenz verbunden und dien
 * Jeder, der für die Planung, Erstellung und Verwaltung von Aufgaben, Projekten, Portfolios und Programmen verantwortlich ist
 * Jeder, der für die Zuweisung von Aufgaben (Aufgaben und Probleme) zu anderen Benutzern verantwortlich ist
 * Benutzer, die Berichte erstellen und Timesheets, Arbeitselemente und Dokumente genehmigen
-* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü benötigen ![](assets/main-menu-icon.png)
+* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü benötigen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Planers erstellen und den Umfang des Zugriffs für die verschiedenen Workfront-Objekttypen bestimmen. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,7 +158,7 @@ Beispielsweise könnte sich ein Verantwortlicher mit dieser Zugriffsebene bei Wo
 Benutzer mit Zugriffsstufe &quot;Prüfer&quot;:
 
 * Arbeitselemente können nicht zugewiesen oder Timesheets genehmigt werden
-* Kann auf die Bereiche Anforderungen und Dokumente im Hauptmenü zugreifen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar.
+* Kann auf die Bereiche Anforderungen und Dokumente im Hauptmenü zugreifen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Prüfers erstellen und bestimmen, wie viel Zugriff es für die verschiedenen Workfront-Objekttypen ermöglicht. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -321,8 +320,8 @@ Workfront-Benutzer können externen Benutzern Aufgaben zuweisen, auch wenn sich 
 Benutzer mit der Zugriffsebene &quot;Externer Benutzer&quot;:
 
 * Kann nur Dokumente und Kalenderberichte anzeigen, die für sie freigegeben wurden
-* Anzeigen der Benutzer, die Dokumente und Kalenderberichte für sie freigeben
-* Genehmigen Sie die Dokumente, die für sie freigegeben wurden.
+* Können Benutzer sehen, die Dokumente und Kalenderberichte für sie freigeben?
+* Kann die für sie freigegebenen Dokumente genehmigen
 
 Sie können diese Zugriffsebene nicht ändern.
 

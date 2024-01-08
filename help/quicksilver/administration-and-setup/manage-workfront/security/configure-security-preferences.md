@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li>Dokumentanfrage<br></li>
         <li>Dokumentenvalidierung</li>
         <li>Kalender</li>
-       </ul><p>Diese Option ist standardmäßig aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene externer Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen in Workfront</a>.</p> </td> 
+       </ul><p>Diese Option ist standardmäßig aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene externer Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Externe Benutzer müssen sich mit einem Kennwort registrieren</td> 

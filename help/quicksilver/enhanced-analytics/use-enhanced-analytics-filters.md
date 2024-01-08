@@ -6,9 +6,9 @@ description: Die Filter im Bereich "Erweiterte Analyse"von Adobe Workfront helfe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td>
       <p>Neu: Beliebig</p>
       <p>oder</p>
       <p>Aktuell: Business oder höher</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
       <p>Neu: Licht oder höher</p>
       <p>oder</p>
@@ -49,17 +49,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr>
   <tr> 
-   <td>Zugriffsstufe* </td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen außerdem Zugriff auf "Anzeigen"auf Aufgaben, Portfolios und Benutzer haben, um bestimmte Filteroptionen für Projektfelder anzuzeigen.</p> <p>Hinweis: Wenn Einschränkungen im Abschnitt Zusätzliche Einschränkungen festlegen des Dialogfelds Zugriffsebene bearbeiten ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite Erweiterte Analyse angezeigt, nachdem der Filter angewendet wurde. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen außerdem Zugriff auf "Anzeigen"auf Aufgaben, Portfolios und Benutzer haben, um bestimmte Filteroptionen für Projektfelder anzuzeigen.</p> <p>Hinweis: Wenn Einschränkungen im <strong>Weitere Einschränkungen festlegen</strong> im Dialogfeld "Zugriffsebene bearbeiten"nicht alle Informationen in den Filtern oder auf der Seite "Erweiterte Analyse"angezeigt, nachdem der Filter angewendet wurde.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 

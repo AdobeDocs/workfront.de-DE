@@ -10,9 +10,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
@@ -68,28 +68,28 @@ Auf einer benutzerdefinierten Zugriffsebene können Sie die Einstellungen für d
 >
 >Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. (Sie können dies für jede Zugriffsstufe mit Ausnahme von &quot;Systemadministrator&quot;und &quot;Externer Benutzer&quot;tun.)
 
-Eine ausführliche Erläuterung der einzelnen Standardzugriffsebenen finden Sie unter [Integrierte Zugriffsebenen in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Eine ausführliche Erläuterung der einzelnen Standardzugriffsebenen finden Sie unter [Integrierte Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Berechtigungen
 
 Beim Freigeben eines Objekts für eine Person im System kann ein Benutzer dem Empfänger eine der folgenden Berechtigungen für das Objekt gewähren.
 
-* **Ansicht**: Mit dieser Berechtigungsebene kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
 
    * Systemweit, damit alle Benutzer ihn sehen können (nicht für alle Objekte verfügbar)
    * Bei externen Benutzern ohne Workfront-Lizenz (nicht für alle Objekte verfügbar)
    * Mit einer E-Mail-Adresse (nur für Dokumente verfügbar)
 
 * **Beitragen**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt teilt, werden die Rechte des Empfängers an dem Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den Berechtigungen für das Objekt bestimmt, die vom Freigebende gewährt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination der Zugriffsebene des Empfängers und der Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
 
-   >[!INFO]
-   >
-   >**Beispiel:** Wenn die Zugriffsebene des Empfängers die Bearbeitung eines Projekts nicht zulässt, kann diese Person ein Projekt auch dann nicht bearbeiten oder löschen, wenn der Freigebende die Berechtigung zur Verwaltung erteilt hat.
-   >
-   >Oder wenn die Zugriffsebene des Empfängers die Bearbeitung von Projekten zulässt, der freigebende Benutzer jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer das Projekt nicht bearbeiten oder löschen.
+  >[!INFO]
+  >
+  >**Beispiel:** Wenn die Zugriffsebene des Empfängers die Bearbeitung eines Projekts nicht zulässt, kann diese Person ein Projekt auch dann nicht bearbeiten oder löschen, wenn der Freigebende die Berechtigung zur Verwaltung erteilt hat.
+  >
+  >Oder wenn die Zugriffsebene des Empfängers die Bearbeitung von Projekten zulässt, der freigebende Benutzer jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer das Projekt nicht bearbeiten oder löschen.
 
 In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte (definiert durch die Zugriffsebene des Benutzers) mit Berechtigungen für ein bestimmtes freigegebenes Objekt verglichen:
 
@@ -116,7 +116,7 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Von einem übergeordneten freigegebenen Objekt übernommen 
+   <td> <p>Von einem übergeordneten freigegebenen Objekt geerbt 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -129,7 +129,6 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
 >* Wenn ein Benutzer ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte darunter hat, erbt der Empfänger dieselben Berechtigungen für diese untergeordneten Objekte.
 >* Wenn eine Zugriffsebene Benutzer daran hindert, bestimmte Objekte zu löschen, hindert dies sie nicht daran, untergeordnete Objekte zu löschen, die in diesen Objekten enthalten sind.
 >
-
 
 ## Weitere Beispielszenarien
 
