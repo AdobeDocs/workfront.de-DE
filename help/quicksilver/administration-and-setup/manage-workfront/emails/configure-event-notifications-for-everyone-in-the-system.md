@@ -1,18 +1,20 @@
 ---
 title: Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren
 description: Ereignisbenachrichtigungen Trigger senden E-Mails an Benutzer, wenn ein bestimmtes Ereignis eintritt. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene "Planer"können Sie eine Ereignisbenachrichtigung für alle Benutzer im System konfigurieren. Die Konfiguration einer Ereignisbenachrichtigung besteht darin, sie zu aktivieren oder zu deaktivieren.
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -40,11 +42,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td> <p>Neu: Standard</p>
+ <p>oder</p> 
+<p>Aktuell: Plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -57,13 +62,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Ereignisbenachrichtigungen für alle Benutzer konfigurieren
 
-Sie müssen Benachrichtigungen im Bereich Einrichtung von Workfront aktivieren, bevor Benutzer sie in ihren Profilen aktivieren oder deaktivieren können.
+Sie müssen Benachrichtigungen im Einrichtungsbereich von Workfront aktivieren, bevor Benutzer sie in ihren Profilen aktivieren oder deaktivieren können.
 
 >[!TIP]
 >
 >Sie können keine Benachrichtigungen für Workfront-Ziele über den Bereich &quot;Einrichtung&quot;aktivieren. Benutzer können diese Benachrichtigungen nur in ihren Profilen aktivieren. Benutzer mit Planungslizenzen können sie für andere Benutzer aktivieren. Informationen zum Aktivieren von Workfront-Zielbenachrichtigungen für Benutzer finden Sie unter [Benachrichtigungen: Ziele](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicks **Email** > **Benachrichtigungen**.
 
@@ -71,7 +76,7 @@ Sie müssen Benachrichtigungen im Bereich Einrichtung von Workfront aktivieren, 
 
 
 1. Stellen Sie sicher, dass **Ereignisbenachrichtigungen** ist geöffnet.
-1. Klicken Sie auf den Schalter links neben dem Ereignisnamen, um ihn zu aktivieren oder zu deaktivieren.
+1. Schalten Sie den Schalter links neben dem Ereignisnamen um, um ihn zu aktivieren oder zu deaktivieren.
 
    Informationen zum standardmäßigen Benachrichtigungsstatus für ein Ereignis finden Sie unter [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md).
 

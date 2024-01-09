@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 0%
          * [Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Erfahren Sie, wie Cache und Cookies Workfront Testing beeinflussen](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Geschwindigkeitsprobleme beim Workfront-Testversand](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Probleme bei der Anzeige von Testsendungen - Erläuterung von freigegebenen Flash-Objekten](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Fehlerbehebung - Testversand-Viewer für Workfront](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront-Testintegrationen {#wf-proof-integrations}
       * [Workfront-Testintegrationen](workfront-proof/wp-integrations/wp-integrations.md)

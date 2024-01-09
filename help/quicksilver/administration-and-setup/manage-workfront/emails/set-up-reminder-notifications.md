@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
 
 # Einrichten von Erinnerungsbenachrichtigungen
 
-Erinnerungsbenachrichtigungen senden E-Mails an Empfänger basierend auf bestimmten Kriterien. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene &quot;Planer&quot;und Administratorzugriff auf Erinnerungsbenachrichtigungen können Sie Erinnerungsbenachrichtigungen manuell mit Ihren Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen.
+<!-- Audited: 1/2024 -->
+
+Erinnerungsbenachrichtigungen senden E-Mails an Empfänger basierend auf bestimmten Kriterien. Sie können Erinnerungsbenachrichtigungen manuell mit Ihren Arbeitselementen verknüpfen, z. B. mit Projekten, Aufgaben, Problemen und Timesheets.
 
 <!--
 DRAFTED IN FLARE:
@@ -35,11 +37,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td> <p>Neu: Standard </p>
+ <p>oder</p> 
+<p>Aktuell: Plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -52,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## E-Mail zur Erinnerung anpassen
 
-Sie können die Erinnerungsbenachrichtigung mit einer benutzerdefinierten E-Mail anpassen, die einen benutzerdefinierten E-Mail-Betreff und Text enthält. Der E-Mail-Textkörper kann benutzerdefinierte HTML enthalten.
+Sie können Betreff, Text und HTML in der E-Mail mit den Erinnerungsbenachrichtigungen anpassen.
 
 Sie können auch die in der Erinnerungsbenachrichtigung enthaltene Standard-E-Mail verwenden. Die Standard-E-Mail verwendet den Namen der Erinnerungsbenachrichtigung als E-Mail-Betreff und den Objektnamen im E-Mail-Textkörper, einschließlich des Ereignisses, das die Benachrichtigung ausgelöst hat.
 
@@ -62,7 +67,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
 
 ## Erstellen einer Erinnerungsbenachrichtigung
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicks **Email** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
 
@@ -86,7 +91,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
      </tr> 
      <tr> 
       <td role="rowheader">Wartezeit</td> 
-      <td> <p>Geben Sie die Anzahl der Stunden, Arbeitstage, Tage (Kalendertage), Wochen oder Monate vor oder nach dem Datum in der <strong>Zeit</strong> -Feld.</p> <p><b>NOTIZ</b>:  
+      <td> <p>Geben Sie die Anzahl der Stunden, Arbeitstage, Tage (Kalendertage), Wochen oder Monate vor oder nach dem Datum in der <strong>Zeit</strong> -Feld.</p> <p><b>NOTE</b>:  
         <ul> 
          <li> <p>Erinnerungsbenachrichtigungen beginnen 24 Stunden nach dem angegebenen Datum und sobald alle Kriterien erfüllt sind.</p> </li> 
          <li> <p>Erinnerungsbenachrichtigungen für Projekte, Aufgaben und Ausgaben jeden Abend um Mitternacht, US Mountain Time, Trigger. Alle Objekte, die ab diesem Trigger für eine Erinnerungsbenachrichtigung qualifiziert sind, erhalten eine Benachrichtigung an die vorgesehenen Benutzer kurz danach.</p> </li> 
@@ -144,10 +149,12 @@ Wenn eine Erinnerung beispielsweise eine Stunde nach dem geplanten Abschlussdatu
 
 So führen Sie eine Erinnerungsbenachrichtigung manuell zum Trigger durch:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicks **System** > **Diagnose** in der linken unteren Ecke von Workfront.
 
 1. Klicks **Erinnerungsbenachrichtigungen senden** und warten Sie auf die Bestätigung oben auf dem Bildschirm, dass sie gesendet wurden.
 
    Die in der Erinnerungsbenachrichtigung angegebenen Benutzer erhalten eine E-Mail.
+
+![](assets/reminder-test.png)

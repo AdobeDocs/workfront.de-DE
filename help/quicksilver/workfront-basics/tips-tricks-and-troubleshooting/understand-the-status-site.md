@@ -4,14 +4,16 @@ description: Sie können den Status der [!DNL Workfront] Plattform, einschließl
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # Die [!DNL Adobe Workfront] Status-Site
+
+<!-- Audited: 1/2024 -->
 
 ## Übersicht über die Status-Site
 
@@ -28,11 +30,7 @@ Sie haben Zugriff auf die folgenden Informationen auf der Status-Site:
 
 Sie können Statusaktualisierungen zum [!DNL Adobe] Status-Site.
 
-1. Navigieren Sie zu [[!DNL https://one.workfront.com]](https://one.workfront.com/)Klicken Sie auf **[!UICONTROL Status]** im **[!UICONTROL Support]** in der rechten unteren Ecke der Seite.
-
-   Oder
-
-   Typ [status.adobe.com](https://status.adobe.com/de/) in Ihrem Browser, um auf die Status-Site zuzugreifen.
+1. Typ [status.adobe.com](https://status.adobe.com/) in Ihrem Browser, um auf die Status-Site zuzugreifen.
 
 1. Auswählen **[!UICONTROL Experience Cloud]**.
 1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Adobe Workfront]** aus der Liste der Lösungen.
@@ -41,8 +39,9 @@ Sie können Statusaktualisierungen zum [!DNL Adobe] Status-Site.
 
 So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement nach dem Abonnement:
 
-1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/de/).
+1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/).
 1. Wählen Sie in der Statusleiste **[!UICONTROL Abonnements verwalten]**.
+   ![](assets/manage-subs.png)
 1. Wenn Sie über ein vorhandenes Konto verfügen, melden Sie sich bei dem Konto an. Erstellen Sie andernfalls ein neues Konto.
 1. Klicken Sie auf **[!UICONTROL Abonnements erstellen]** Schaltfläche.
 1. Auswählen **[!UICONTROL Adobe Workfront]** unter **[!UICONTROL Experience Cloud]** -Kopfzeile und klicken Sie dann auf **[!UICONTROL Weiter]**.
@@ -50,10 +49,6 @@ So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement nach dem Abo
 1. Klicks **[!UICONTROL Fertig]** um Ihr Abonnement zu bestätigen.
 
 ## Benannte Schwachstellen verstehen
-
-* [Was ist eine benannte Schwachstelle?](#what-is-a-named-vulnerability)
-* [Wie kann ich spezifische Sicherheitslücken anzeigen, die durch [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Warum ist das wichtig?](#why-is-this-important)
 
 ### Was ist eine benannte Schwachstelle? {#what-is-a-named-vulnerability}
 
@@ -63,7 +58,7 @@ Forscher mit Sicherheitslücke und Ersteller benennen ihre Projekte intern, um d
 
 ### Wie kann ich spezifische Sicherheitslücken anzeigen, die durch [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Navigieren Sie zu  [status.adobe.com](https://status.adobe.com/de/)Klicken Sie auf **[!UICONTROL Sicherheit]**.
+1. Navigieren Sie zu  [status.adobe.com](https://status.adobe.com/)Klicken Sie auf **[!UICONTROL Sicherheit]**.
 
 ## Warum ist das wichtig? {#why-is-this-important}
 
