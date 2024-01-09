@@ -4,18 +4,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Fehlerbehebung - [!DNL Workfront Proof] Testversand-Viewer
-description: Wenn Ihr Testversand-Inhalt nicht geladen wird und Sie nur einen leeren Testversand-Viewer sehen können, liegt dies höchstwahrscheinlich daran, dass diese Aktion lokal blockiert wird. Probieren Sie die möglichen Lösungen unten aus.
+description: Wenn Ihr Testversand-Inhalt nicht geladen wird und Sie nur einen leeren Testversand-Viewer sehen können, liegt dies höchstwahrscheinlich daran, dass diese Aktion lokal blockiert wird.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
 
 # Fehlerbehebung - [!DNL Workfront Proof] Testversand-Viewer
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 Wenn Ihr Testversand-Inhalt nicht geladen wird und Sie nur einen leeren Testversand-Viewer sehen können, liegt dies höchstwahrscheinlich daran, dass diese Aktion lokal blockiert wird. Probieren Sie die möglichen Lösungen unten aus.
 
-## Sicherstellen des Browsers und [!DNL Flash Player] Versionen sind auf dem neuesten Stand
+## Sicherstellen des Browsers <!--and [!DNL Flash Player]--> -Version auf dem neuesten Stand
 
 Alle Entwickler arbeiten ständig an ihren Anwendungen und veröffentlichen regelmäßig neue Funktionen und Fehlerbehebungen für ihre Produkte. Dies dient der Verbesserung des Benutzererlebnisses und der Aufrechterhaltung des Sicherheitsniveaus, sodass es Best Practice ist, nur die neuesten Versionen zu verwenden. Dies hilft auch, Konflikte zwischen den Anwendungen zu vermeiden.
 
@@ -41,23 +43,25 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 ### Browserversion
 
-Heutzutage werden die meisten Browser automatisch aktualisiert. Wenn Sie jedoch Probleme haben, sollten Sie überprüfen, welche Version Sie verwenden, und bei Bedarf aktualisieren.
+Normalerweise werden die meisten Browser automatisch aktualisiert. Wenn Sie jedoch Probleme haben, sollten Sie überprüfen, welche Version Sie verwenden, und bei Bedarf eine Aktualisierung durchführen.
 
-Navigieren Sie im Browser zu [!UICONTROL Menü] und suchen Sie nach [!UICONTROL Info] -Option (in einigen Fällen kann dies unter [!UICONTROL Hilfe] Menü). Im [!UICONTROL Info] -Popup finden Sie Informationen über die aktuelle Browserversion sowie eine Option zum Aktualisieren/Überprüfen auf Updates.
+Navigieren Sie in Ihrem Browser zu [!UICONTROL Menü] und suchen Sie nach [!UICONTROL Info] -Option (in einigen Fällen kann dies unter einem [!UICONTROL Hilfe] Menü). Im [!UICONTROL Info] angezeigt, finden Sie Informationen über die aktuelle Browserversion sowie eine Option, um Updates zu aktualisieren/zu überprüfen.
 
-Siehe in Chrome:
+Beispiel: in Chrome:
 
-![ProofView_3.png](assets/proofview-3-350x206.png)
+![Chrome-Browserversion](assets/proofview-3.png)
 
-Sobald Sie über die neuesten [!DNL Flash Player] -Plug-in und die installierte Browser-Version versuchen, Ihren Testversand erneut zu öffnen und zu sehen, ob das Problem behoben wurde.
+Sobald Sie die neueste Browser-Version installiert haben, versuchen Sie, den Testversand erneut zu öffnen und zu sehen, ob das Problem behoben wurde.
 
-## Sicherstellen der lokalen [!DNL Flash] Speicher ist verfügbar
+<!--
+## Ensure Your Local [!DNL Flash] Storage is Available
 
-Unsere [!DNL Workfront Proof] Der Viewer basiert auf Flash und wir speichern einige Daten über die Testsendungen (z. B. Kommentare, Testkacheln, [!DNL Workfront Proof] Viewer-Einstellungen) auf Ihrem Computer mithilfe von [!DNL Flash Player]. Wenn die Variable [!DNL Workfront Proof] Der Viewer wird geöffnet. Sie sollten jedoch sicherstellen, dass der Flash-Speicher auf Ihrem Computer verfügbar ist und dass [!DNL Workfront Proof] darf sie verwenden.
+Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
-Wenn etwas Speicherplatz zugewiesen ist, Sie jedoch mit größeren Testsendungen mit mehreren Seiten und Kommentaren arbeiten, versuchen Sie, die [!DNL Flash] Speichern und laden Sie Ihren Testversand erneut.
+If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Bitte sehen Sie sich unsere [Probleme bei der Anzeige von Testsendungen - [!DNL Flash] Freigegebene Objekte - Erklärung](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) für die detaillierten Anweisungen.
+Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
+-->
 
 ## Ermitteln, wo das Problem liegt
 
@@ -65,18 +69,18 @@ Bitte sehen Sie sich unsere [Probleme bei der Anzeige von Testsendungen - [!DNL 
 * Wenn Sie täglich einen Browser verwenden und Probleme mit der Anzeige der Testsendungen haben, versuchen Sie, denselben Testversand in einem anderen Browser auf Ihrem Computer zu öffnen. Kopieren Sie dazu einfach den Testversand-Link aus der URL-Leiste Ihres Hauptbrowsers und fügen Sie ihn in einen anderen Browser ein. Wenn der Testversand dort geöffnet wird, überprüfen Sie Ihre wichtigsten Browserkonfigurationen, Plugins und Erweiterungen, da diese möglicherweise stören.
 * Wir haben keinen bevorzugten Browser, aber wenn Sie Leistungsprobleme in Ihrem aktuellen Browser haben, empfehlen wir Ihnen, zu einem anderen Browser zu wechseln.
 * Werden die Testsendungen auf einem anderen Computer an Ihrem Standort geöffnet?
-Wenn Ihr Testversand nicht in einem Browser auf Ihrem Computer geöffnet wird, versuchen Sie, ihn auf einem anderen Computer an Ihrem Standort und/oder außerhalb Ihres Standorts zu öffnen. Auf diese Weise können Sie feststellen, ob ein Problem auf Ihrem Computer liegt oder in Ihrem lokalen Netzwerk auftritt.
+Wenn Ihr Testversand nicht in einem Browser auf Ihrem Computer geöffnet wird, versuchen Sie, ihn auf einem anderen Computer an Ihrem Standort und/oder außerhalb Ihres Standorts zu öffnen. Auf diese Weise können Sie feststellen, ob ein Problem auf Ihrem Computer auftritt oder ob das Problem in Ihrem lokalen Netzwerk auftritt.
 Wenn Ihr Sicherheitsniveau höher ist, werden Ihre Verbindungen zu [!DNL Workfront Proof] kann blockiert werden durch:
 
    * Ihre lokale AV-Software
    * Ihre Netzwerksicherheitslösung
-   * DNS, Firewall oder Proxy-Konfiguration
+   * DNS-, Firewall- oder Proxy-Konfiguration
    * Dies sind die Einstellungen, die uns nicht zu verantworten haben. Es gibt verschiedene Sicherheitslösungen, und wir können nicht feststellen, welche in Ihrem Netzwerk implementiert sind und welche Verbindungen blockieren können [!DNL Workfront Proof]. Sie hat auch nicht die Aufgabe, [!DNL Workfront Proof] um über Ihre interne Sicherheitskonfiguration zu entscheiden. Wenn Sie Probleme beim Öffnen der Testsendungen auf mehreren Computern in Ihrem Standort/Netzwerk haben, empfehlen wir Ihnen, sich an Ihr IT-Team zu wenden, damit es die Netzwerkeinstellungen überprüfen und die [!DNL Workfront Proof] auf die Zulassungsliste klicken, falls erforderlich.
 
 * Sind die Verbindungen zu [!DNL Workfront Proof] in Ihrem Netzwerk zugelassen?
-Innerhalb des Testversand-Viewers laden wir die Kacheln - Fragmente der Seiten. Wenn dieser Inhalt nicht auf Ihrem Ende geladen wird, kann es sein, dass einige Verbindungen zu [!DNL Workfront Proof] in Ihrem Netzwerk blockiert sind. Sie sollten sicherstellen, dass alle Verbindungen und alle Inhalte von *.proofhq.com der Zulassungsliste hinzugefügt werden. Ihr IT-Team sollte in der Lage sein, bei der Überprüfung dieser Situation behilflich zu sein.
+Innerhalb des Testversand-Viewers laden wir die Kacheln - Fragmente der Seiten. Wenn dieser Inhalt nicht richtig am Ende geladen wird, kann es sein, dass einige Verbindungen zu [!DNL Workfront Proof] in Ihrem Netzwerk blockiert sind. Sie sollten sicherstellen, dass alle Verbindungen und alle Inhalte von *.proofhq.com der Zulassungsliste hinzugefügt werden. Ihr IT-Team sollte in der Lage sein, bei der Überprüfung dieser Situation behilflich zu sein.
 
-## Plugins überprüfen
+## Plug-ins überprüfen
 
 Wenn Ihr Browser und [!DNL Flash Player] -Plug-in auf dem neuesten Stand ist und Ihr Netzwerk die Verbindungen zu [!DNL Workfront Proof] Es kann in Ihrem Browser etwas geben, das sich auf die Anzeige der Testsendungen auswirkt. Heutzutage gibt es mehrere Plugins und Erweiterungen in Ihrem Browser, und einige von ihnen stören oder stehen in Konflikt mit anderen.
 
@@ -84,7 +88,7 @@ Die Best Practice besteht darin, alle unbekannten Add-ons zu entfernen und nur d
 
 Wenn es ein bestimmtes Add-on gibt, das das Laden der Testsendungen stört, können Sie versuchen, die Details in der Browser-Konsole zu überprüfen.
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![Browser-Konsole](assets/proofview-4.png)
 
 In den meisten neueren Browsern sind einige zusätzliche Entwicklertools verfügbar, die für eine erweiterte Fehlerbehebung verwendet werden können.
 
@@ -94,7 +98,6 @@ Wenn Sie Probleme mit der Anzeige der Testsendungen haben:
 * Überprüfen Sie, ob Warnhinweise oder Meldungen in der Konsole vorhanden sind. Diese Details können dabei helfen, die Hauptursache der Probleme zu ermitteln.
 * Bitten Sie Ihr IT-Team, die Ergebnisse zu analysieren. Sie sollten in der Lage sein, das lokale Problem zu lösen und zu unterstützen.
 * Teilen Sie die Ergebnisse mit unserem Support-Team. Gerne helfen wir Ihnen weiter.
-
 
 ## Überprüfen der Einstellungen für gemischte Inhalte
 
