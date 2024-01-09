@@ -8,9 +8,9 @@ description: Wenn Ihr Testversand-Inhalt nicht geladen wird und Sie nur einen le
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ Innerhalb des Testversand-Viewers laden wir die Kacheln - Fragmente der Seiten. 
 
 ## Plug-ins überprüfen
 
-Wenn Ihr Browser und [!DNL Flash Player] -Plug-in auf dem neuesten Stand ist und Ihr Netzwerk die Verbindungen zu [!DNL Workfront Proof] Es kann in Ihrem Browser etwas geben, das sich auf die Anzeige der Testsendungen auswirkt. Heutzutage gibt es mehrere Plugins und Erweiterungen in Ihrem Browser, und einige von ihnen stören oder stehen in Konflikt mit anderen.
+Wenn Ihr Browser aktuell ist und Ihr Netzwerk die Verbindungen zu [!DNL Workfront Proof], kann es in Ihrem Browser etwas geben, das sich auf die Anzeige der Testsendungen auswirkt. In Ihrem Browser stehen häufig mehrere Plug-ins und Erweiterungen zur Verfügung, von denen einige in Konflikt mit den anderen geraten können.
 
-Die Best Practice besteht darin, alle unbekannten Add-ons zu entfernen und nur die von Ihnen verwendeten und vertrauenswürdigen zu behalten. Jeder Browser sollte Ihnen Optionen zum Aktivieren/Ändern/Löschen der Plug-ins und Erweiterungen bieten. Unsere [!DNL Workfront Proof] Der Viewer basiert auf [!DNL Flash] und wir verwenden JavaScript, um den Viewer zu laden, sodass Sie besonders die Plugins überprüfen möchten, die sich auf diese auswirken könnten.
+Die Best Practice besteht darin, alle unbekannten Add-ons zu entfernen und nur die von Ihnen verwendeten und vertrauenswürdigen zu behalten. Jeder Browser sollte Ihnen Optionen zum Aktivieren/Ändern/Löschen der Plug-ins und Erweiterungen bieten. Wir verwenden JavaScript, um die [!DNL Workfront Proof] -Viewer, damit Sie besonders die Plugins überprüfen möchten, die sich auf diese auswirken könnten.
 
-Wenn es ein bestimmtes Add-on gibt, das das Laden der Testsendungen stört, können Sie versuchen, die Details in der Browser-Konsole zu überprüfen.
+Wenn das Laden der Testsendungen durch ein bestimmtes Add-on gestört wird, können Sie versuchen, die Details in der Browser-Konsole zu überprüfen.
 
 ![Browser-Konsole](assets/proofview-4.png)
 
@@ -101,8 +101,8 @@ Wenn Sie Probleme mit der Anzeige der Testsendungen haben:
 
 ## Überprüfen der Einstellungen für gemischte Inhalte
 
-Alle Verbindungen zu [!DNL Workfront Proof] sind über HTTPS. In der [!DNL Workfront Proof] Betrachter: Wir laden die Kacheln über HTTP und die Daten werden mit den Token gesichert. Dadurch werden gemischte Inhalte erstellt, die von einigen Browsern oder Sicherheitslösungen blockiert werden können (standardmäßig oder gemäß manueller Konfiguration).
+Alle Verbindungen zu [!DNL Workfront Proof] sind über HTTPS. In der [!DNL Workfront Proof] Betrachter: Wir laden die Kacheln über HTTP und die Daten werden mit den Token gesichert. Dadurch werden gemischte Inhalte erstellt, die von einigen Browsern oder Sicherheitslösungen blockiert werden können (standardmäßig oder manuell).
 
-Wenn dies der Grund ist, warum die Testsendungen nicht auf Ihrem Computer geöffnet werden (Sie sollten die entsprechenden Warnhinweise in der Browser-Konsole sehen können), autorisieren Sie diese Verbindungen für [!DNL Workfront Proof] oder ändern Sie Ihre Einstellungen, um passiven gemischten Inhalt auf Ihrem Computer zuzulassen. Der gemischte Inhalt kann von Ihrem Browser, Ihrer AV-Software, Ihrer Netzwerkkonfiguration usw. blockiert werden. Um die Ursache zu bestimmen, wenden Sie sich bitte an Ihr IT-Team/Ihre Netzwerkadministratoren. Sie sollten auch bei der Aktivierung des gemischten Inhalts auf Ihrem Computer helfen können.
+Wenn dies der Grund dafür ist, dass die Testsendungen nicht auf Ihrem Computer geöffnet werden (Sie sollten die entsprechenden Warnhinweise in der Browser-Konsole sehen können), genehmigen Sie diese Verbindungen für [!DNL Workfront Proof] oder ändern Sie Ihre Einstellungen, um passiven gemischten Inhalt auf Ihrem Computer zuzulassen. Der gemischte Inhalt kann von Ihrem Browser, Ihrer AV-Software oder Ihrer Netzwerkkonfiguration blockiert werden, um die genaue Ursache zu ermitteln. Sie sollten sich an Ihr IT-Team/Ihre Netzwerkadministratoren wenden. Sie sollten auch bei der Aktivierung des gemischten Inhalts auf Ihrem Computer helfen können.
 
 
