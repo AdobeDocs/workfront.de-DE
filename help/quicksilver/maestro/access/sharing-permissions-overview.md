@@ -1,14 +1,14 @@
 ---
 title: Übersicht über die Freigabe von Berechtigungen in Adobe Maestro
-description: Sie können Berechtigungen für einen von Ihnen erstellten Adobe Maestro-Arbeitsbereich freigeben oder daraus entfernen.
+description: Sie können Berechtigungen für einen Adobe Maestro-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 1%
 >
 >Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro-overview.md).
 
-Sie können Berechtigungen für einen von Ihnen erstellten Adobe Maestro-Arbeitsbereich freigeben oder daraus entfernen.
+Sie können Berechtigungen für einen Adobe Maestro-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
+
+In diesem Artikel werden die Berechtigungsebenen für Maestro-Objekte beschrieben.
+
+Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in den folgenden Artikeln:
+
+* [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Anzeigen freigeben](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objekte, die Sie in Adobe Maestro freigeben können
 
@@ -48,6 +56,8 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
    * Neues Preismodell: Standardlizenz
    * Aktuelles Preismodell: Arbeite oder höhere Lizenz
+
+  Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
 * Wenn Sie kein Systemadministrator sind, können Sie zu Arbeitsbereichen beitragen, die von anderen erstellt wurden, wenn diese für Sie freigegeben sind.
 * Arbeitsbereiche können nicht gemeinsam genutzt werden.
@@ -58,44 +68,91 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
 ## Berechtigungen für Maestro-Objekte freigeben
 
-Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben eines Maestro-Arbeitsbereichs oder einer Ansicht auswählen können:
+Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Maestro-Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
 
+### Workspace-Berechtigungen
+
+|        | Verwalten | Mitwirken | Anzeigen |
+|--------|--------|------------|-------|
+| Bearbeiten | ✓ |            |       |
+| Freigeben | ✓ |            |       |
+| Löschen | ✓ |            |       |
+| Anzeigen | ✓ | ✓ | ✓ |
+
+### Berechtigungen für Datentypen
+
+Berechtigungen für Datensatztypen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+
+|        | Verwalten | Mitwirken | Anzeigen |
+|--------|--------|------------|-------|
+| Erstellen | ✓ |            |       |
+| Löschen | ✓ |            |       |
+| Bearbeiten | ✓ |            |       |
+| Anzeigen | ✓ | ✓ | ✓ |
+
+### Berechtigungen aufzeichnen
+
+Datensatzberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+
+|        | Verwalten | Mitwirken | Anzeigen |
+|--------|--------|------------|-------|
+| Erstellen | ✓ |            |       |
+| Löschen | ✓ | ✓ |       |
+| Bearbeiten | ✓ | ✓ |       |
+| Anzeigen | ✓ | ✓ | ✓ |
+
+### Feldberechtigungen
+
+Feldberechtigungen werden übernommen, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die Werte, die den Feldern zugeordnet sind. Um Feldwerte zu bearbeiten, müssen Sie über die Berechtigung zum Bearbeiten von Datensätzen verfügen.
+
+|        | Verwalten | Mitwirken | Anzeigen |
+|--------|--------|------------|-------|
+| Erstellen | ✓ |            |       |
+| Löschen | ✓ |            |       |
+| Bearbeiten | ✓ |            |       |
+| Anzeigen | ✓ | ✓ | ✓ |
+
+
+### Berechtigungen anzeigen
+
+Sie müssen separate Berechtigungen zum Aufzeichnen von Ansichten gewähren. Wenn Sie Berechtigungen für den Arbeitsbereich erteilen, erhalten Sie keine Berechtigungen für die Datensatzansichten im Arbeitsbereich.
+
+|        | Verwalten | Anzeigen |
+|--------|--------|-------|
+| Bearbeiten | ✓ |       |
+| Löschen | ✓ |       |
+| Anzeigen | ✓ | ✓ |
+| Anwenden | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>Neu: Standardlizenz</b></p> <p><b>Aktuell: Worker-Lizenz oder höhere Lizenz</b></p></strong>
-   </td>
-   <td><strong>Berechtigungen verwalten</strong>
-   </td>
-   <td><strong>Berechtigungen beitragen</strong>
-   </td>
-   <td><strong>Berechtigungen anzeigen</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Erstellen</strong>
-   </td>
-   <td rowspan="5" ><strong>Arbeitsbereich</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Löschen</strong>
+   <td><strong>Create</strong>
+   </td>
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +164,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Freigeben</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +176,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Bearbeiten</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -131,7 +188,19 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Ansicht</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -143,7 +212,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Erstellen/Löschen</strong>
+   <td><strong>Create/delete</strong>
    </td>
    <td rowspan="3" ><strong>Record Type*</strong>
    </td>
@@ -157,7 +226,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Bearbeiten</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -169,7 +238,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Ansicht</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +250,9 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Erstellen/Löschen</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Datensatz*</strong>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Bearbeiten</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Ansicht</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
   </tr>
   <tr>
    <tr>
-   <td><strong>Erstellen</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Ansicht</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Löschen</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Freigeben</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Bearbeiten</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Ansicht</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
   </tr>
 
 <tr>
-   <td><strong>Erstellen/Löschen</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Felder*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Bearbeiten</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    </td>
   </tr>
   <tr>
-   <td><strong>Ansicht</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
 
 </table>
 
-*Record Types, records and fields erben Berechtigungen aus dem Workspace.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Allgemeine Informationen zum Zugriff auf Maestro finden Sie unter [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Informationen zum Freigeben von Arbeitsbereichen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Informationen zum Freigeben von Ansichten finden Sie unter [Anzeigen freigeben](/help/quicksilver/maestro/access/share-views.md)
 

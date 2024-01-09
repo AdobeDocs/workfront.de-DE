@@ -4,9 +4,9 @@ description: Sie können eine Ansicht für andere freigeben, um die Zusammenarbe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 
 >[!NOTE]
 >
->Systemadministratoren können keine Ansichten anzeigen oder freigeben, die sie selbst nicht erstellt haben.
+>Systemadministratoren können keine Ansichten anzeigen oder freigeben, die sie selbst nicht erstellt haben. Sie können nur Ansichten anzeigen oder freigeben, die für sie freigegeben sind.
 
 
-So geben Sie einen Arbeitsbereich für andere frei:
+So geben Sie eine Ansicht für andere frei:
 
 {{step1-to-maestro}}
 
-1. Öffnen Sie den Arbeitsbereich, den Sie freigeben möchten, und klicken Sie dann auf die Karte Datensatztyp .
+1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie freigeben möchten, und klicken Sie dann auf die Karte Datensatztyp .
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 
@@ -98,7 +98,7 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Im **Gewähren von Workspace-Zugriff auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
+1. Im **Gewähren des Ansichtszugriffs auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
 {{step1-to-maestro}}
 
-1. Öffnen Sie den Arbeitsbereich, den Sie freigeben möchten, und klicken Sie dann auf die Karte Datensatztyp .
+1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie freigeben möchten, und klicken Sie dann auf die Karte Datensatztyp .
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 
 1. Bewegen Sie im Dropdownmenü Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Freigeben**.
 
-1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie auf **Entfernen**.
+1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie auf **Entfernen** im Dropdown-Menü Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe.
 
 1. Klicken Sie auf **Speichern**.
 

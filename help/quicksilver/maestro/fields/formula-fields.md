@@ -4,9 +4,9 @@ description: In Adobe Maestro können Sie Formelfelder erstellen, die Funktionen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Formularfelder verweisen auf Felder, die zum selben Datensatztyp gehören. Beim Erstellen eines Formelfelds können Sie keine Felder aus anderen Datensatztypen referenzieren. <!--is this still accurate??-->
 * Sie können den Feldtyp eines Formelfelds nicht mehr ändern, nachdem Sie es gespeichert haben.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
-* Sie können keine Suchfelder aus verknüpften Datensatztypen verwenden.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, wie sie in der Maestro-Benutzeroberfläche angezeigt werden.
+* Die Verwendung von Suchfeldern aus verknüpften Datensatztypen in einer Formel ist zu einem späteren Zeitpunkt verfügbar.
 
 ## Unterstützte Formeln
 
