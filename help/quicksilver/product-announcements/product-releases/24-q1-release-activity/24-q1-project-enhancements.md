@@ -3,9 +3,9 @@ title: Projektverbesserungen für das erste Quartal 2024
 description: Verbesserungen am ersten Quartal 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 ## KI-gesteuerte intelligente Zuweisungen
 
-Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus gilt überall in Workfront, wo Sie eine Aufgabe zuweisen (Aufgabenlisten, Bereich &quot;Zuweisungen&quot;in der Aufgabenkopfzeile, Startseite und im Bereich &quot;Zusammenfassung&quot;).
+Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 
 Der Algorithmus betrachtet nun die folgenden Informationen, wenn er intelligente Zuweisungen vorschlägt:
 

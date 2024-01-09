@@ -7,9 +7,9 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ Die Berechnung der intelligenten Aufgabenzuweisungen erfolgt in zwei Phasen.
 
 #### Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 
-In der ersten Phase der Berechnung von Smart-Zuweisungen berechnet Workfront für jede Zuweisung einen Ähnlichkeitswert. Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweisungen aufgelistet werden, wird Folgendes berücksichtigt:
+In der ersten Phase der Berechnung von Smart-Zuweisungen berechnet Workfront für jede Zuweisung einen Ähnlichkeitswert.
+
+>[!NOTE]
+>
+>Die erste Phase der Berechnung der intelligenten Zuweisungen gilt nicht für die folgenden Aufgabenbereiche:
+>
+>* Massenzuweisungen im Lastenausgleich.
+>* Verbundene Karten auf Pinnwänden.
+
+
+Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweisungen aufgelistet werden, wird Folgendes berücksichtigt:
 
 * Eine vorhandene Zuweisung wird mit 100 % bewertet, wobei die Namen der Aufgabe, des Projekts und des Portfolios mit der Aufgabe übereinstimmen, die Sie zuweisen möchten. Die Projekt- und Portfolionamen der Aufgabe einer vorhandenen Zuweisung müssen ebenfalls mit dem Projekt und Portfolio der Aufgabe übereinstimmen, die Sie zuweisen möchten.
 
@@ -115,7 +125,7 @@ Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuw
 
 >[!NOTE]
 >
-><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
+><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt . [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 

@@ -4,9 +4,9 @@ description: In Adobe Maestro können Sie Formelfelder erstellen, die Funktionen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Unterstützte Formeln
 
-Wir unterstützen alle Formeln aus den berechneten Workfront-Feldern. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro-Formelfelder unterstützen alle Ausdrücke aus den berechneten Workfront-Feldern. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfelder:
 
@@ -179,7 +179,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfe
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Gibt verkettete Zeichenfolge als Trennzeichen zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-    ARRAYJOIN(delimiter,array)
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfe
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Gibt ein Array mit eindeutigen Werten zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-    ARRAYUNIQUE(Array)
+<code>ARRAYUNIQUE(Array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Gibt die Kennung eines Datensatzes zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfe
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Legt die Zeitzone eines Datums und einer Uhrzeit auf eine bestimmte Zeitzone fest.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfe
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Gibt die Wochenzahl eines Jahres zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (1 für Sonntag oder 2 für Montag). Wenn diese Option deaktiviert ist, beginnen die Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-    WEEKOFYEAR(Datum,2)
-    oder
-    WEEKOFYEAR(Datum)
+<code>WEEKOFYEAR(Datum,2)</code>
+oder
+<code>WEEKOFYEAR(Datum)</code>
 </p>
    </td></tr>
 
