@@ -6,9 +6,9 @@ description: Benutzer können ein Problem per E-Mail an ein Anforderungswartesch
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: ca3c28174dca24f14a75869bdc209569d8d8d1a0
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -62,9 +62,9 @@ Die folgenden Voraussetzungen sind erforderlich, um ein Projekt zu konfigurieren
 Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 
 * Benutzer, die Probleme per E-Mail an dieses Konto senden, müssen aktive Benutzer mit einer Lizenz für Workfront sein.
-* Externe Benutzer können Probleme nicht per E-Mail an eine Anforderungswarteschlange senden, da sie keinen Zugriff zum Erstellen von Problemen haben.
 * Benutzer, die Probleme per E-Mail an dieses Konto senden, müssen über die Berechtigung &quot;Problem hinzufügen&quot;für das Projekt verfügen.
-* Die E-Mails, die von der E-Mail-Adresse stammen, die einem aktiven Workfront-Benutzer zugeordnet ist, sind die einzigen E-Mails, die Probleme an das Projekt senden können.
+* Externe Benutzer können Probleme nicht per E-Mail an eine Anforderungswarteschlange senden, da sie keinen Zugriff zum Erstellen von Problemen haben.
+* Es dürfen nur E-Mails von einer E-Mail-Adresse gesendet werden, die mit einem aktiven Workfront-Benutzer verknüpft ist. E-Mails, die von einer mit einem Workfront-Konto nicht verknüpften E-Mail an einen aktiven Workfront-Benutzer weitergeleitet werden, können keine Probleme im Rahmen des Projekts erstellen, da die E-Mail-Adresse des ursprünglichen Absenders mit einem aktiven Workfront-Konto verknüpft werden muss.
 * Das Projekt wird als Anforderungswarteschlange eingerichtet.
 * Das mit dem Projekt verknüpfte E-Mail-Konto ist nicht mit einem Workfront-Benutzerkonto verknüpft.
 
@@ -77,11 +77,10 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 >* Workfront ermöglicht eine eindeutige E-Mail pro Anforderungswarteschlange für alle Cluster. Wenn Sie Ihre Anforderungswarteschlange deaktivieren, behalten Sie die von Ihnen erstellte E-Mail-Adresse bei, solange sie sich noch im Feld E-Mail-Adresse aufnehmen befindet. Wenn Sie die Verwendung der Aufnahme-E-Mail einstellen möchten, müssen Sie sie aus dem Feld E-Mail aufnehmen löschen, damit sie für die zukünftige Verwendung verfügbar ist.
 >
 >* Wenn die Anforderungswarteschlange über mehrere Warteschlangenthemen oder Themengruppen verfügt, wählt Workfront zufällig das Warteschlangenthema aus, zu dem die E-Mail-Anfragen gesendet werden, wodurch die Verwaltung von E-Mail-Anfragen erschwert wird.
-   >Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen über E-Mails einrichten, nicht mehr als ein Warteschlangenthema enthält. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte bestimmt sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
-
+>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen über E-Mails einrichten, nicht mehr als ein Warteschlangenthema enthält. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte bestimmt sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Gehen Sie zu dem Projekt, das Sie für den Empfang von Problemen per E-Mail aktivieren möchten.
-1. Klicken **Warteschlangendetails** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
+1. Klicks **Warteschlangendetails** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
 1. Im **Queue Type** Bereich, auswählen **Als Warteschlange für Hilfeanfragen veröffentlichen**.
 
 1. Scrollen Sie nach unten zum **E-Mail-Warteschlangeneinstellungen** Bereich und wählen Sie **Anfrageaufnahme per E-Mail aktivieren**.
@@ -95,7 +94,6 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
    >* Diese E-Mail-Adresse kann nicht aus dem Papierkorb abgerufen werden, wenn das Projekt, das die Anforderungswarteschlange enthält, gelöscht wird.
    >
    >* Da diese E-Mail-Adresse eindeutig sein muss, ist sie in Zukunft möglicherweise nicht verfügbar, wenn sie gelöscht wird.
-
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
@@ -104,7 +102,7 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 
    Diese E-Mail-Adresse erhält Informationen zu E-Mails, die nicht an das Projekt gesendet werden konnten.
 
-1. Klicken Sie auf **Speichern**. Wenn jetzt Benutzer mit einem aktiven Workfront-Konto eine E-Mail an diese E-Mail-Adresse senden, wird im Workfront-Projekt ein Problem erstellt.
+1. Klicks **Speichern**. Wenn jetzt Benutzer mit einem aktiven Workfront-Konto eine E-Mail an diese E-Mail-Adresse senden, wird im Workfront-Projekt ein Problem erstellt.
 
    >[!NOTE]
    >

@@ -7,9 +7,9 @@ description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Wenn Sie einen Standardfilter oder eine Gruppierung für ein bestimmtes Widget mithilfe einer Layoutvorlage festlegen, wird dieser möglicherweise aufgrund bestehender Benutzereinstellungen nicht sofort wirksam. Um den neuen Filter oder die Gruppierung sofort anzuwenden, müssen Sie oder der Benutzer möglicherweise seine Benutzereinstellungen zurücksetzen, indem Sie &quot;/resetUser&quot;an das Ende ihrer URL anhängen.
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 
