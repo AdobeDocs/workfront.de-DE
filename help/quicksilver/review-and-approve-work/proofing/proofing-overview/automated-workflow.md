@@ -3,22 +3,24 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Übersicht über den automatisierten Workflow
-description: Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger. Informationen zum Einrichten eines automatisierten Workflows finden Sie unter Erweiterte Testsendungen mit einem automatisierten Workflow erstellen .
+description: Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
 # Übersicht über den automatisierten Workflow
 
+<!-- Audited: 01/2024 -->
+
 Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger. Informationen zum Einrichten eines automatisierten Workflows finden Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Beispiele:**  Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Testprozesse wie
+**Beispiele:**  Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Testprozesse wie:
 
 * Wenn verschiedene Gruppen oder Validierer Inhalte in einer bestimmten Reihenfolge überprüfen müssen
 * Wenn es Abhängigkeiten zwischen der Aktivität von Benutzern beim Überprüfen von Inhalten gibt
@@ -46,17 +48,17 @@ Standardmäßig sind Kommentare, die von Validierern in allen Phasen hinterlasse
 
 Wenn Sie verhindern möchten, dass bestimmte Gruppen von Validierern die Kommentare anderer Validierer sehen, können Sie private Bühnen erstellen.
 
-Private Bühnen sind nur für validierende Benutzer sichtbar, die diesen Bühnen hinzugefügt wurden. Sie sind auch für Benutzer sichtbar, die über Bearbeitungsrechte für den Testversand verfügen oder Rechte für alle Elemente bearbeiten, die im Adobe Workfront-Konto Ihres Unternehmens erstellt wurden (Supervisor und höher oder Benutzer mit benutzerdefinierten Profilen, für die die Bearbeitung der Informationen anderer Personen aktiviert ist).
+Private Bühnen sind nur für validierende Benutzer sichtbar, die diesen Bühnen hinzugefügt wurden. Sie sind auch für Benutzer sichtbar, die über Bearbeitungsrechte für Testversand- oder Bearbeitungsrechte für alle Elemente verfügen, die im Adobe Workfront-Konto Ihres Unternehmens erstellt wurden (Supervisor und höher oder Benutzer mit benutzerdefinierten Profilen, für die die Bearbeitung von Informationen anderer Personen aktiviert ist).
 
 Kommentare, die von Teilnehmern privater Phasen hinzugefügt werden, sind nicht in E-Mail-Benachrichtigungen und in Zusammenfassungen von Testkommentaren enthalten, die von Personen angefordert werden, die nicht über die Berechtigung zum Anzeigen verfügen.
 
 ## Workflow-Diagramm
 
-Das Workflow-Diagramm ist eine visuelle Darstellung des Überprüfungsprozesses Ihres Testversands. Während Sie die Details eines Testversands erstellen oder anzeigen, werden die Reihenfolge der Bühnen und alle Abhängigkeiten zwischen Bühnen angezeigt. Alle privaten Bühnen werden mit einem Schlüsselsymbol angezeigt.
+Das Workflow-Diagramm ist eine visuelle Darstellung des Überprüfungsprozesses Ihres Testversands. Während Sie die Details eines Testversands erstellen oder anzeigen, werden Ihnen die Reihenfolge der Bühnen und alle Abhängigkeiten zwischen Bühnen angezeigt. Alle privaten Bühnen werden mit einem Schlüsselsymbol angezeigt.
 
 ![intro-to-aw-example-chart.png](assets/intro-to-aw-example-diagram-350x199.png)
 
-In Live-Testsendungen werden Staging-Abhängigkeiten mit einer gestrichelten grauen Linie für inaktive Bühnen oder einer durchgehenden schwarzen Linie für aktive Bühnen angezeigt. Die Phasen werden grün angezeigt, wenn der Genehmigungsprozess innerhalb der festgelegten Frist abgeschlossen wurde. Phasen, deren Termine näher rückt, werden orange dargestellt und die Phasen, die ihre Frist überschritten haben, werden rot angezeigt.
+In Live-Testsendungen werden Staging-Abhängigkeiten mit einer gestrichelten grauen Linie für inaktive Bühnen oder einer durchgehenden schwarzen Linie für aktive Bühnen angezeigt. Die Phasen werden grün angezeigt, wenn der Genehmigungsprozess innerhalb der festgelegten Frist abgeschlossen wurde. Phasen, die sich ihren Terminen nähern, werden orange dargestellt und Phasen, die ihre Termine überschreiten, werden rot dargestellt.
 
 ![workflow_2.png](assets/workflow-2-350x183.png)
 
