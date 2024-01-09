@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '13853'
+source-wordcount: '13864'
 ht-degree: 0%
 
 ---
@@ -2024,10 +2024,13 @@ ht-degree: 0%
       * [Felder erstellen](maestro/fields/create-fields.md)
       * [Felder bearbeiten](maestro/fields/edit-fields.md)
       * [Felder löschen](maestro/fields/delete-fields.md)
+      * [Übersicht über Formelfelder](maestro/fields/formula-fields.md)
    * Adobe Maestro-Zugriff {#adobe-maestro-access}
       * [Zugriffsinformationen](maestro/access/access-information.md)
       * [Zugriffsübersicht](maestro/access/access-overview.md)
-      * [Zugriff auf Adobe Maestro gewähren](maestro/access/grant-access.md)
+      * [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Freigeben eines Arbeitsbereichs](maestro/access/share-workspaces.md)
+      * [Anzeigen freigeben](maestro/access/share-views.md)
    * Adobe Maestro-Datensätze {#adobe-maestro-records}
       * [Datensätze: Artikelindex](maestro/records/records-information.md)
       * [Datensätze erstellen](maestro/records/create-records.md)

@@ -6,9 +6,9 @@ description: Berichtversand - Übersicht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Beachten Sie Folgendes:
 
 Wenn Sie eine spezielle Ansicht auf einen Bericht anwenden, wird die spezielle Ansicht im Tab Details des Berichts in Workfront angezeigt.
 
-Wenn Sie den Versand eines Berichts mit einer speziellen Ansicht planen, wird der standardmäßige Tab Details im Anhang der gesendeten E-Mail anstelle der speziellen Ansicht bereitgestellt.
+Wenn Sie den Versand eines Berichts mit einer speziellen Ansicht planen, wird der Tab Details anstelle der speziellen Ansicht im Anhang der gesendeten E-Mail bereitgestellt.
 
 Die folgenden Ansichten werden als besondere Ansichten betrachtet:
 
