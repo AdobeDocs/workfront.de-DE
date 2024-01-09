@@ -9,14 +9,14 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront]-Module
+# [!DNL Adobe Workfront] Module
 
 Sie können die [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] Connector zur Automatisierung Ihrer Prozesse in [!DNL Workfront]. Wenn Sie [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] -Lizenz verwenden, können Sie damit auch eine Verbindung zu Apps und Diensten von Drittanbietern herstellen.
 
@@ -35,7 +35,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -160,7 +160,7 @@ Nachdem der Webhook erstellt wurde, können Sie die Adresse des Endpunkts anzeig
 
 Weitere Informationen finden Sie im Abschnitt . [Beispiele für Ereignis-Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) im [!DNL Workfront] Hilfeartikel [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn S
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn S
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -450,7 +450,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -458,7 +458,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -532,7 +532,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Aktion]</td> 
-   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL Record Type] und [!UICONTROL Action] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (z. B. Projekt für die <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Anlagenvorlage] für die <strong>[!UICONTROL Aktion]</strong>) zusätzliche Informationen benötigen (z. B. eine Objekt-ID und eine Vorlagen-ID).</p> <p>Weitere Informationen zu einzelnen Feldern finden Sie unter <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. </p> 
+   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL Record Type] und [!UICONTROL Action] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (z. B. Projekt für die <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Anlagenvorlage] für die <strong>[!UICONTROL Aktion]</strong>) zusätzliche Informationen benötigen (z. B. eine Objekt-ID und eine Vorlagen-ID).</p> <p>Weitere Informationen zu einzelnen Feldern finden Sie unter <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. <p><strong>Hinweis</strong>: Die Entwicklerdokumentations-Site enthält Informationen nur über API-Version 14, enthält aber trotzdem wertvolle Informationen für API-Aufrufe. </p> 
     <ol> 
      <li value="1"> <p>Wählen Sie im linken Navigationsbereich des [!DNL Workfront] Seite mit Entwicklerdokumentation. Die folgenden Typen haben eigene Seiten:</p> 
       <ul> 
@@ -568,7 +568,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
       </ul> <p>Wählen Sie für alle anderen Datensatztypen die Option <b>[!UICONTROL Andere Objekte und Endpunkte]</b>und suchen Sie den Datensatztyp auf den alphabetisch sortierten Seiten.</p> </li> 
      <li value="2"> <p>Suchen Sie auf der Seite des entsprechenden Datensatztyps (Strg-F oder Befehl-F) nach der Aktion.</p> </li> 
      <li value="3"> <p>Zeigen Sie Beschreibungen für verfügbare Felder unter der ausgewählten Aktion an.</p> </li> 
-    </ol> <p>Notiz:  <p>Beim Erstellen eines Testversands durch die [!DNL Workfront] [!UICONTROL Misc Action]-Modul verwenden, wird empfohlen, einen Testversand ohne erweiterte Optionen zu erstellen und dann den Testversand mithilfe des [!DNL Workfront Proof] SOAP-API.</p> <p>Weitere Informationen zum Erstellen eines Testversands mit dem [!DNL Workfront] API (die dieses Modul verwendet), siehe <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Erweiterte Testversandoptionen bei der Erstellung eines Testversands über die [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>Hinweis:  <p>Beim Erstellen eines Testversands durch die [!DNL Workfront] [!UICONTROL Misc Action]-Modul verwenden, wird empfohlen, einen Testversand ohne erweiterte Optionen zu erstellen und dann den Testversand mithilfe des [!DNL Workfront Proof] SOAP-API.</p> <p>Weitere Informationen zum Erstellen eines Testversands mit dem [!DNL Workfront] API (die dieses Modul verwendet), siehe <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Erweiterte Testversandoptionen bei der Erstellung eines Testversands über die [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -577,7 +577,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] object types available for each [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, in [[!DNL Workfront] für jede [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
