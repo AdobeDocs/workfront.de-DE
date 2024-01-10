@@ -4,9 +4,9 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierte Status für Dokumentgenehmigungen</a></p><p>Um den Status der Dokumentgenehmigung klarer zu gestalten, wurden die verfügbaren Dokumentstatus-Genehmigungen aktualisiert. Jetzt werden Validierungsverantwortliche mit dem Genehmigungsstatus erfasst, die ihre Überprüfung als abgeschlossen kennzeichnen, sowie Fälle, in denen es nur Validierungsverantwortliche, aber keine Genehmiger gibt.</p>
@@ -276,6 +277,23 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Metadaten in Experience Manager Assets Essentials verwendet jetzt <code>xcm:keywords</code> anstelle von <code>dc:subject</code></a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Die Integration von Experience Manager Assets Essentials wurde aktualisiert und entspricht nun den Erlebnissen der as a Cloud Service Experience Manager Assets-Integration. Wenn nun mehrere einzeilige Textfelder in Experience Manager Assets einem einzelnen Feld zugeordnet werden, verwenden beide Dienste die <code>xcm:keywords</code> -Feld.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 10. Januar 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: 10. Januar 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: 10. Januar 2023</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Felder mit Typvorschau sind jetzt in der Adobe Experience Manager-Integration verfügbar.</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Um die Verknüpfung von Feldern zwischen Workfront und Adobe Experience Manager zu vereinfachen, wurde Unterstützung für Typeahead-Felder in der Metadaten-Zuordnung hinzugefügt. Jetzt können Sie Typeahead-Felder entsprechenden Feldern in Adobe Experience Manager zuordnen.</p>

@@ -4,9 +4,9 @@ description: Integrationsverbesserungen für das erste Quartal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Zuordnen von Metadaten in Experience Manager Assets Essentials verwendet jetzt `xcm:keywords` anstelle von `dc:subject`
+
+Die Integration von Experience Manager Assets Essentials wurde aktualisiert und entspricht nun den Erlebnissen der as a Cloud Service Experience Manager Assets-Integration. Wenn nun mehrere einzeilige Textfelder in Experience Manager Assets einem einzelnen Feld zugeordnet werden, verwenden beide Dienste die `xcm:keywords` -Feld.
+
+Zuvor wurden diese Felder dem `dc:subject` in Experience Manager Assets Essentials. Die as a Cloud Service Experience Manager Assets-Funktionalität bleibt unverändert.
+
+Alle Experience Manager Assets Essentials-Metadaten, die derzeit `dc:subject` muss neu erstellt werden `xcm:keywords`.
+
+Informationen zum Zuordnen von Metadaten zu Experience Manager Assets Essentials finden Sie unter [AEM Keyword](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Felder mit Typvorschau sind jetzt in der Adobe Experience Manager-Integration verfügbar.
 
