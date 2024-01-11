@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des gesc
 
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Produktionsumgebung zugreifen.
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>Zwischen Mai 2023 und Dezember 2023 wurden alle Funktionen in diesem Artikel sowohl in der Vorschau- als auch in der Produktionsumgebung veröffentlicht. Die Maestro-Funktionen wurden seit Januar 2024 vorübergehend aus den Umgebungen für Vorschau und Sandbox entfernt. Alle nach diesem Datum veröffentlichten Funktionen sind derzeit in der Produktion verfügbar.
 
 In diesem Artikel werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
 
@@ -42,83 +40,80 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-<!--## Week of January 15, 2024
+## Woche vom 15. Januar 2024
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Maestro-Funktionen werden aus der Vorschau- und Sandbox-Umgebung entfernt
 
-Preview and sandbox: <***Date here****> 
+Vorschau und Sandbox: 11. Januar 2024
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+Der Maestro-Bereich und alle Maestro-Funktionen wurden vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Maestro wird zu diesen Umgebungen zu einem späteren Zeitpunkt hinzugefügt, zu dem wir in den Versionshinweisen zu den Aktivitäten kommunizieren werden.
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### Maestro-Berechtigungen für Arbeitsbereiche und Ansichten
 
-### Maestro permissions for workspaces and views
+Produktion: 11. Januar 2024
 
-Production: <****date here****>
+Vorschau: zu bestimmen
 
-Preview: To be determined
+Sie können jetzt einen Arbeitsbereich oder eine Ansicht für Benutzer und Gruppen freigeben. Je nachdem, welche Informationen angezeigt oder bearbeitet werden sollen, können Sie ihre Berechtigungen auf verschiedene Ebenen festlegen.
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+Wenn Sie einen Arbeitsbereich freigeben, haben Benutzer Berechtigungen für die Datensatztypen, Datensätze und Felder in diesem Bereich.
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+Wenn Sie einen Arbeitsbereich freigeben, erhalten Benutzer keine Freigabeberechtigungen für die Ansichten, die mit den Datensatztypen des Arbeitsbereichs verknüpft sind. Sie müssen Ansichten separate Berechtigungen erteilen.
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Im Folgenden finden Sie die Berechtigungsebenen für Maestro-Arbeitsbereiche:
 
-The following are the permissions levels for Maestro workspaces:  
+* Ansicht: Benutzer können Arbeitsbereiche anzeigen, die für sie freigegeben sind. Außerdem können sie Datensatztypen und Datensätze aus dem freigegebenen Arbeitsbereich anzeigen.
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* Beitragen: Benutzer können Datensätze in dem für sie freigegebenen Arbeitsbereich erstellen, bearbeiten oder löschen.  Sie können keine für sie freigegebenen Datensatztypen oder Arbeitsbereiche erstellen oder bearbeiten.
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* Verwalten: Benutzer können Arbeitsbereiche, Datensatztypen, Datensätze und Felder in Arbeitsbereichen erstellen, bearbeiten und löschen, die für sie freigegeben sind.
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+Im Folgenden finden Sie die Berechtigungsstufen für Datensatzansichten:
 
-The following are the permissions levels for record type views:
+* Ansicht: Benutzer können die Ansicht aus dem Dropdown-Menü Ansicht einer Seite vom Typ Datensatz auswählen.
+* Verwalten: Benutzer können die Ansicht bearbeiten, freigeben und löschen.
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### Neuer Formelfeldtyp
 
-### New Formula field type (title) 
+Produktion: 11. Januar 2024
 
-Production: <*******date**********> 
+Vorschau: zu bestimmen
 
-Preview: To be determined 
+Jetzt können Sie einem Datensatztyp ein Feld vom Typ Formel hinzufügen.
 
-You can now add a Formula type field to a record type.  
+Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern eines Datensatztyps und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+In einer Formelberechnung können Sie keine Suchfelder aus verknüpften Datensatztypen verwenden. Diese Funktion ist zu einem späteren Zeitpunkt verfügbar.
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### Aktionen zum Rückgängigmachen/Wiederholen bei der Verwaltung von Datensätzen in der Tabellenansicht
 
-### Undo/ Redo actions when managing records in the table view
+Produktion: 11. Januar 2024
 
-Production: <****Date******>
-Preview: To be determined
+Vorschau: zu bestimmen
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+Sie können Ihre Änderungen jetzt rückgängig machen oder wiederholen, wenn Sie die folgenden Aktionen in der Tabellenansicht ausführen:
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* Daten kopieren/einfügen
+* Datensatz bearbeiten
+* Datensatz hinzufügen
+* Datensatz löschen
 
-You can use the following keystrokes to undo or redo actions: 
+Sie können die folgenden Tastenanschläge verwenden, um Aktionen rückgängig zu machen oder wiederherzustellen:
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* Rückgängig: STRG/BEFEHL + Z
+* Wiederholen: STRG/ BEFEHL + UMSCHALT + Z
 
-For more information, see the following articles:  
+Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [Datensätze löschen](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md)
 
 ## Woche vom 25. Dezember 2023
 

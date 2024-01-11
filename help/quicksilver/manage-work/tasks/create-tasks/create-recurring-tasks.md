@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
 # Wiederkehrende Aufgaben erstellen
+
+<!--Audited: 01/2024-->
 
 Sie können wiederkehrende Aufgaben für Aufgaben erstellen, die Sie im Rahmen eines Projekts wiederholen müssen.
 
@@ -30,24 +32,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neu: Standard</p> 
+   <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Aufgaben finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Zugriff auf Aufgaben gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen zum Projekt mit der Möglichkeit, Aufgaben oder höher hinzuzufügen.</p> <p>Wenn Sie eine Aufgabe erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für die Aufgabe</p> <p> Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Aufgabe freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Beitragen Sie Berechtigungen zum Projekt mit der Möglichkeit, Aufgaben oder höher hinzuzufügen.</p> 
+   <p>Wenn Sie eine Aufgabe erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für die Aufgabe</p> 
+   <p> Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Aufgabe freigeben </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Wiederkehrende Aufgabe erstellen
 
@@ -56,25 +61,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >Eine wiederkehrende Aufgabe kann nicht durch Ändern einer vorhandenen Aufgabe erstellt werden. Sie müssen eine Aufgabe von Grund auf neu erstellen.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie eine wiederkehrende Aufgabe erstellen möchten, und klicken Sie dann auf das **Aufgaben** im linken Bereich.
-1. Klicken **Neue Aufgabe**.
+1. Klicks **Neue Aufgabe**.
 
    Das Dialogfeld &quot;Neue Aufgabe&quot;wird angezeigt.
 
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
-1. Klicken **Weitere Optionen** Geben Sie dann einen Namen für die Aufgabe in die **Aufgabenname** -Feld.
+1. Klicks **Weitere Optionen** Geben Sie dann einen Namen für die Aufgabe in die **Aufgabenname** -Feld.
 1. Fahren Sie mit der Aktualisierung der Aufgabe genauso fort wie beim Hinzufügen einer neuen Aufgabe. Weitere Informationen zum Hinzufügen einer neuen Aufgabe finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
    >[!TIP]
    >
    >   Die Dauer und die für eine neue wiederkehrende Aufgabe angegebenen geplanten Stunden sind die Dauer und die geplanten Stunden eines jeden Vorkommens. Die Dauer der übergeordneten Aufgabe ist die Zeit zwischen dem geplanten Startdatum der frühesten Aufgabe und dem geplanten Abschlussdatum der letzten Aufgabe. Die &quot;Geplante Stunden&quot;der übergeordneten Aufgabe ist die Gesamtanzahl aller geplanten Stunden von allen Vorkommen.
 
-1. Klicken **Übersicht** im linken Bereich.
-1. Scrollen Sie nach unten zum **Intervallzeitplan** und wählen Sie dann die **Machen Sie dies zu einer wiederkehrenden Aufgabe** -Option.
+1. Klicks **Übersicht** im linken Bereich.
+1. Scrollen Sie nach unten zum **Wiederholungsplan** und wählen Sie dann die **Machen Sie dies zu einer wiederkehrenden Aufgabe** -Option.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. Im **Häufigkeit** in der Dropdown-Liste die Anzahl der Zeiteinheiten, in denen die Aufgabe ausgeführt werden soll, und die Zeiteinheiten auswählen. Wählen Sie aus den folgenden Optionen aus:
+1. Im **Häufigkeit** in der Dropdown-Liste die Anzahl der Zeiteinheiten, in denen die Aufgabe ausgeführt werden soll, und den Typ der Zeiteinheiten. Wählen Sie aus den folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +107,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td role="rowheader"><strong>Monat</strong> </td> 
       <td> <p>Die Aufgabe wiederholt sich jeden Monat, alle 2 Monate, alle 3 Monate usw., je nach ausgewähltem Kadaver. Sie können zwischen 1 und 12 Monaten auswählen. </p> <p>Im <strong>Wiederholungen</strong> aus den folgenden Optionen auswählen, wenn die Aufgabe ausgeführt werden soll:</p> 
        <ul> 
-        <li> <p><strong>jeden Monat am Tag &lt;month date=""&gt;</strong> </p> <p>Sie können Tage zwischen 1 und 30 wählen oder Sie können <strong>last</strong>. Sie können beispielsweise "jeden Monat am 30."auswählen. </p> </li> 
+        <li> <p><strong>jeden Monat &lt;month date=""&gt;</strong> </p> <p>Sie können Tage zwischen 1 und 30 wählen oder Sie können <strong>last</strong>. Sie können beispielsweise "jeden Monat am 30."auswählen. </p> </li> 
         <li> <p><strong>jeden Monat am &lt;number&gt; &lt;day of="" the="" week=""&gt;</strong> </p> <p>Im ersten Dropdown-Menü können Sie eine Zahl zwischen 1 und 4 für die Anzahl der Wochen im Monat auswählen oder "Letzte"auswählen. </p> <p>Im zweiten Dropdown-Menü können Sie einen beliebigen Wochentag auswählen. </p> <p>Sie können beispielsweise "jeden Monat am 2. Dienstag"auswählen. </p> </li> 
        </ul> </td> 
      </tr> 
@@ -120,9 +125,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Auswählen **after `<number>` Vorfälle** um anzugeben, wie oft die wiederkehrende Aufgabe ausgeführt werden soll. Workfront erstellt für die Aufgaben dieselbe Anzahl von Wiederholungen wie die in diesem Feld angegebene Anzahl.
 
-1. Klicken **Aufgabe erstellen.**
+1. Klicks **Aufgabe erstellen.**
 
-   Die Aufgabenliste wird angezeigt. Die wiederkehrende Aufgabe wird als übergeordnetes Element erstellt, und alle Wiederholungen sind untergeordnete Elemente. Workfront hat die Namen der untergeordneten Aufgaben automatisch generiert, indem Sie den Namen verwendet haben, den Sie für die übergeordnete Aufgabe eingegeben haben, gefolgt von einer Zahl. Weitere Informationen dazu, welche Felder von der übergeordneten wiederkehrenden Aufgabe automatisch ausgefüllt werden, finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   Die Aufgabenliste wird angezeigt. Die wiederkehrende Aufgabe wird als übergeordnetes Element erstellt, und alle Wiederholungen sind untergeordnete Elemente. Workfront hat die Namen der untergeordneten Aufgaben automatisch generiert, indem Sie den Namen verwendet haben, den Sie für die übergeordnete Aufgabe eingegeben haben, gefolgt von einer Zahl. Die wiederkehrenden Aufgaben werden am Ende der Aufgabenliste platziert.
+
+   Weitere Informationen dazu, welche Felder von der übergeordneten wiederkehrenden Aufgabe automatisch ausgefüllt werden, finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 

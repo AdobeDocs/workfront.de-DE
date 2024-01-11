@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Projektübersicht planen
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Ein Projekt ist ein großes Arbeitselement in Adobe Workfront. Sie können ein Projekt in Aufgaben unterteilen, bei denen es sich um kleinere Arbeitselemente wie Aufgaben handelt. Aufgaben können Benutzern oder Teams zugewiesen werden, die für die Fertigstellung verantwortlich sein können. Wenn alle Benutzer ihre Aufgaben erledigen, wird das Projekt ebenfalls abgeschlossen.
@@ -104,7 +106,7 @@ Beachten Sie beim Erstellen der Zeitleiste des Projekts Folgendes:
 
   Sie können beispielsweise ein Projekt zum Bau eines Wohngebäudes haben. Eines Ihrer Ziele ist die Klempnerei, das andere ist die Schaffung des Fundaments. Eine Ihrer Aufgaben besteht darin, die Hauptwasserleitung der Stadt anzubinden, und dies muss vor der Grundlegung geschehen. Die meisten anderen Installations-Aufgaben können jedoch erst nach dem Fundament durchgeführt werden. In diesem Fall sollten Sie die Verwendung von Vorgängern in Erwägung ziehen, um zu verstehen, wann ein Ziel beginnen kann, nachdem die Voraussetzung beendet wurde.
 
-  Wenn Sie übergeordnete Aufgaben zum Organisieren von Zielen verwenden, können Sie für jedes Hauptziel eine Aufgabe erstellen und Unteraufgaben hinzufügen, wenn Sie mit der Phase der Unterteilung von Hauptzielen in einzelne Aufgaben beginnen. Dadurch bleiben die Aufgaben erhalten, die Teil des im Rahmen des Projekts organisierten Ziels sind.
+  Wenn Sie übergeordnete Aufgaben zum Organisieren von Zielen verwenden, können Sie für jedes Hauptziel eine Aufgabe erstellen und Unteraufgaben hinzufügen, wenn Sie sich mit der Phase der Unterteilung von Hauptzielen in einzelne Aufgaben befassen. Dadurch bleiben die Aufgaben erhalten, die Teil des im Rahmen des Projekts organisierten Ziels sind.
 
   Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -118,7 +120,7 @@ Beachten Sie beim Erstellen der Zeitleiste des Projekts Folgendes:
 
 ## Aufgaben definieren {#define-tasks}
 
-Während Sie die Ziele Ihres Projekts und die damit verbundenen Aufgaben definieren, erstellen Sie die Projekt-Timeline.
+Wenn Sie die Ziele Ihres Projekts und die damit verbundenen Aufgaben definieren, erstellen Sie die Projekt-Timeline.
 
 Sie können Aufgaben für ein Projekt wie folgt erstellen:
 

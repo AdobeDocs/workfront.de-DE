@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Übersicht über Adobe Maestro
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Maestro-Datensätze mit Adobe Experience Manager-Assets verbinden | ✓ |                                  |                 |
 | Seite mit Datensatzdetails | ✓ |                                  |                  |
 | Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
-| Freigeben von Arbeitsbereichen | | ✓ |  |
-| Ansichten freigeben | | ✓ |  |
+| Freigeben von Arbeitsbereichen | ✓ | |  |
+| Ansichten freigeben | ✓ | |  |
 | Anfragen senden |                               |                                  | ✓ |
 | Kreativbeschreibung |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar
 | Maestro-Module für Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informationen aus einem Feld in ein anderes kopieren und einfügen | ✓ |                                  |                 |
 
-## Zugriff erforderlich für die Verwendung von Maestro während des geschlossenen Betaprogramms
+## Maestro für Benutzer in Ihrer Workfront-Instanz aktivieren
 
->[!IMPORTANT]
->
->Derzeit gibt es keine Zugriffsebenen oder Berechtigungen, die mit Benutzern oder den Informationen in Maestro verknüpft sind. Alle Benutzer können alle Informationen, die andere Benutzer Maestro hinzufügen, anzeigen, bearbeiten und löschen.
+Ihr Unternehmen muss sich im geschlossenen Betaprogramm von Adobe Maestro anmelden, bevor Sie auf Maestro zugreifen können. Wenden Sie sich an Ihren Kundenbetreuer, um Informationen zur Anmeldung im Beta-Programm zu erhalten.
 
-Weitere Informationen zum erforderlichen Zugriff für die Verwendung von Maestro finden Sie unter [Adobe Maestro-Zugriffsübersicht](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Weitere Informationen zur Gewährung des Zugriffs auf Maestro und zur Ermöglichung der Verwendung durch andere finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro-Terminologie
 
@@ -185,7 +177,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
    * Maestro-Felder können vollständig angepasst werden und sind nur in Maestro verfügbar. Sie können nicht über Workfront auf Maestro-Felder zugreifen.
 
-  Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md)
+  Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
 
   Ein neuer operationeller Datensatztyp ist standardmäßig mit den folgenden vordefinierten Feldern verknüpft:
 
@@ -208,6 +200,7 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
    * Prozentsatz
    * Währung
    * Kontrollkästchen
+   * Formel
    * Personen
    * Erstellt von
    * Erstellungsdatum
@@ -272,12 +265,6 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Größe der CSV-Datei, die Sie in eine Tabelle importieren können | 5 MB |
-
-## Maestro für Benutzer in Ihrer Workfront-Instanz aktivieren
-
-Ihr Unternehmen muss sich im geschlossenen Betaprogramm von Adobe Maestro anmelden, bevor Sie auf Maestro zugreifen können. Wenden Sie sich an Ihren Kundenbetreuer, um Informationen zur Anmeldung im Beta-Programm zu erhalten.
-
-Weitere Informationen zur Gewährung des Zugriffs auf Maestro und zur Ermöglichung der Verwendung durch andere finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Suchen Sie Maestro
 
