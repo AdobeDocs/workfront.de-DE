@@ -3,9 +3,9 @@ title: Projektverbesserungen für das erste Quartal 2024
 description: Verbesserungen am ersten Quartal 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Vers
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## KI-gesteuerte intelligente Zuweisungen
+
+>[!NOTE]
+>
+>Produktion für schnelle Veröffentlichung: Mit Version 24.1; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 
