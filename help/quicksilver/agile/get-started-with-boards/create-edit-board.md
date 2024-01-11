@@ -6,9 +6,9 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: Mitarbeiter oder höher </p>
  <p>oder</p> 
 <p>Aktuell: [!UICONTROL Anforderung] oder höher </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Neue Pinnwand erstellen
 
@@ -64,6 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Führen Sie die Schritte des Einrichtungsassistenten nur für eine dynamische Pinnwand aus:
 
+   1. Geben Sie einen Namen für die Pinnwand ein und klicken Sie auf [!UICONTROL **Nächste**].
    1. Suchen und Auswählen [!DNL Workfront] [!UICONTROL **Projekte**] , um Aufgaben und Probleme in den Vorstand zu bringen.
    1. Suchen und Auswählen [!UICONTROL **Zuweisungen**] , um Aufgaben und Probleme in den Vorstand zu bringen.
 
@@ -71,13 +68,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Die [!UICONTROL **Hinzufügen von Karten**] Zähler zeigt an, wie viele Karten auf der Pinnwand vorhanden sein werden. Wenn Sie beispielsweise ein Projekt mit 100 Aufgaben und Problemen auswählen, zeigt der Zähler 100 an. Wenn Sie eine Benutzerzuweisung hinzufügen und diese Person fünf Aufgaben im Projekt zugewiesen ist, zeigt der Zähler 5 an.
 
-   1. (Optional) Wählen Sie [!UICONTROL **Schließen Sie abgeschlossene Arbeiten als archivierte Karten ein**] , um abgeschlossene Aufgaben und Probleme als archivierte Karten auf die Pinnwand zu bringen.
+   1. (Optional) Wählen Sie [!UICONTROL **Archivieren Sie keine abgeschlossenen Karten.**] , um abgeschlossene Aufgaben und Probleme als sichtbare Karten in der Spalte Abgeschlossen auf die Pinnwand zu bringen. Wenn diese Option nicht ausgewählt ist, werden abgeschlossene Karten zum Zeitpunkt der Pinnwanderstellung als archivierte Karten auf die Pinnwand gebracht.
 
       >[!NOTE]
       >
       >Standardmäßig werden archivierte Karten nicht auf der Pinnwand angezeigt. Um archivierte Karten anzuzeigen, müssen Sie eine Konfigurationseinstellung aktivieren und dann die Pinnwand filtern, um archivierte Karten anzuzeigen. Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) und [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Wenn diese Option nicht ausgewählt ist, werden abgeschlossene Karten zum Zeitpunkt der Pinnwanderstellung nicht auf der Pinnwand angezeigt. Karten, die später als vollständig markiert wurden, bleiben in der Spalte &quot;Complete&quot;auf der Pinnwand und werden nur archiviert, wenn Sie Kartenfalloff eingerichtet haben. Weitere Informationen finden Sie unter [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Optional) Klicken Sie auf [!UICONTROL **Erweiterte Filter verwenden**] , um weitere Filteroptionen anzuzeigen.
 
