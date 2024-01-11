@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -54,81 +59,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Neu: Standard</p>
+   <p>Aktuell: Arbeit oder höher</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>
 </td>
   </tr>
+
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Arbeitsbereiche. </p>  
 </td>
   </tr>
- </tbody>
+
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Sie müssen den Maestro-Bereich zu Ihrer Layoutvorlage hinzufügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,13 +104,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * Sie können Arbeitsbereiche für bestimmte Organisationseinheiten in Ihrer Organisation erstellen, die der einzigartigen Funktionsweise jeder Einheit entsprechen.
 * Die in einem Arbeitsbereich enthaltenen Datensatztypen und Taxonomien sollten den Arbeitszyklus einer Organisationseinheit widerspiegeln.
-* Wenn Sie einen Arbeitsbereich erstellen, kann jeder in Ihrer Organisation ihn anzeigen, bearbeiten oder löschen.  <!--this will change with access levels and permissions-->
+* Wenn Sie einen Arbeitsbereich erstellen, haben nur Sie die Berechtigung, auf Ihren Arbeitsbereich zuzugreifen und ihn zu verwalten. Sie müssen es für andere Benutzer freigeben, damit sie mit Ihnen an derselben Stelle zusammenarbeiten können. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md).
 * Sie können maximal 1.000 Arbeitsbereiche in Ihrem Unternehmen haben.
 * Arbeitsbereiche enthalten Datensatztypen, die für jeden Arbeitsbereich eindeutig sind. <!--this might change-->
 
 ## Erstellen eines Arbeitsbereichs
 
-1. (Bedingt) Wenn Ihr System keine Arbeitsbereiche enthält, klicken Sie auf die Schaltfläche **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+1. (Bedingt) Wenn Ihre Umgebung keine Arbeitsbereiche enthält, klicken Sie auf **Arbeitsbereich erstellen**
 
    Oder klicken Sie in einem vorhandenen Arbeitsbereich auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen und klicken Sie dann auf **Arbeitsbereich erstellen**.
 

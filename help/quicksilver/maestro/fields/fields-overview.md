@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Sie können neue Felder in Adobe Maestro hinzufügen, die den Lebenszyklus Ihres
 
 * Auf Workfront-Felder kann nur von Maestro aus zugegriffen werden, wenn Sie Maestro-Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
-* Sie können die Einstellungen für die Felder anzeigen und aktualisieren, die Sie oder ein anderer Benutzer erstellt haben. <!--this will change with access/ permissions-->
+* Sie können die Einstellungen für die Felder, die Sie oder ein anderer Benutzer erstellt haben, anzeigen und aktualisieren, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem das Feld gehört.
 
 * Sie können bis zu 500 Felder für einen Datensatztyp haben.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,9 @@ Sie können einen Maestro-Datensatz wie folgt freigeben:
 
 * Kopieren Sie einen Link auf die Detailseite des Datensatzes, wenn Sie Datensätze in der Tabellenansicht des Datensatztyps anzeigen.
 
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
+* Sie können alle Datensätze in einem Arbeitsbereich für andere Benutzer freigeben, indem Sie den Arbeitsbereich freigeben. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md).
 
 In diesem Artikel wird beschrieben, wie Sie einen Link von der Tabellenansicht eines Datensatztyps auf die Detailseite eines Datensatzes kopieren können.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## Zugriffsanforderungen
 
@@ -53,9 +45,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -78,73 +75,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich zum Freigeben eines Datensatzes mithilfe eines Links </p>
+   <p>Verwalten von Berechtigungen für einen Arbeitsbereich zum Freigeben von Datensätzen beim Freigeben des Arbeitsbereichs, zu dem der Datensatz gehört </p>
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
- </tbody>
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
 
--->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -186,3 +140,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 
    <!--add there when it will be available: if they have access to this record-->
+
+## Freigeben aller Datensätze in einem Arbeitsbereich durch Freigeben des Arbeitsbereichs
+
+Sie können alle Datensätze in einem Arbeitsbereich freigeben, wenn Sie den Arbeitsbereich für andere freigeben. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader">Konfiguration der Zugriffsebene</td>
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Layout-Vorlage</td>
    <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
@@ -82,63 +94,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## Tabellenansicht verwalten {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >       * Zahl
    >       * Formel
    >
-   >         Die Formelfelder werden zu einem späteren Zeitpunkt veröffentlicht.
-   >
    >   * Das Primärfeld ist immer eingefroren und kann nicht verschoben werden. Sie können ein primäres Feld durch ein anderes ersetzen, wenn Sie es an eine andere Position verschieben möchten.
    >
    >   * Das Ändern des Primärfelds in der Tabellenansicht wirkt sich auf die Ansicht aller anderen Benutzer aus, die das Feld auswählen.
@@ -267,7 +220,7 @@ Sie können bis zu 10.000 Datensätze (oder Zeilen) für einen Datensatztyp in M
 1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
 1. Fügen Sie Einträge (oder Zeilen) hinzu, wie im Artikel beschrieben. [Datensätze erstellen](../records/create-records.md).
 
-   Die von Ihnen in der Tabellenansicht hinzugefügten Datensätze werden sofort gespeichert und sind für alle Benutzer sichtbar, die auf Maestro zugreifen. <!--this will change with permissions-->
+   Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansicht oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
 1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
 

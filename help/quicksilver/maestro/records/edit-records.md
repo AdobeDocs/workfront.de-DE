@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -179,5 +179,5 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um die Bearbeitung oder das Kopieren und Einfügen von Datensatzinformationen rückgängig zu machen oder wiederherzustellen:
 
-   * **Rückgängig**: STRG/CMD + Z
-   * **Wiederholen**: STRG/BEFEHL + UMSCHALT + Z
+   * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
+   * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung

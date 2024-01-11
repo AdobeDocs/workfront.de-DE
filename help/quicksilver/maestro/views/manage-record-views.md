@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tr>
 <tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader">Konfiguration der Zugriffsebene</td>
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Überlegungen beim Arbeiten mit Maestro-Ansichten
 
 * Ansichten in Maestro sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
-* Von Ihnen erstellte Ansichten sind für alle sichtbar, die auf den Maestro-Bereich zugreifen. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* Von Ihnen erstellte Ansichten sind nur für Sie und Benutzer sichtbar, für die Sie die Ansichten freigeben.
 * Das Erstellen von Ansichten für betriebliche Datensatztypen ist mit dem Erstellen von Ansichten für Taxonomiedatensatztypen identisch.
-* Wenn Sie eine Ansicht ändern oder löschen, wird sie für alle Benutzer geändert und gelöscht, die auf den Maestro-Bereich zugreifen können.
+* Wenn Sie eine Ansicht ändern oder löschen, wird sie für alle Benutzer mit Berechtigungen für die Ansicht geändert und gelöscht.
 * Die folgenden Elemente sind für jede Ansicht in Maestro eindeutig:
 
    * Filter
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Da Maestro derzeit einen Beta-Status aufweist, sind einige Ansichtselemente möglicherweise nicht für beide Ansichten verfügbar.
 
-
 In diesem Artikel werden die folgenden Informationen zu Maestro-Ansichten beschrieben:
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
 * [Ansicht löschen](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [Anzeigen freigeben](#share-a-view)
 
 ## Ähnlichkeiten und Unterschiede zwischen Tabellen- und Timeline-Ansichten
 
@@ -200,7 +146,9 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen den Tabe
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/main-menu-shell.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 
    Die Ansicht wird für alle Benutzer gelöscht, die auf den Maestro-Bereich zugreifen können, und kann nicht wiederhergestellt werden.
+
+## Anzeigen freigeben
+
+Informationen zum Freigeben von Ansichten finden Sie unter [Anzeigen freigeben](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

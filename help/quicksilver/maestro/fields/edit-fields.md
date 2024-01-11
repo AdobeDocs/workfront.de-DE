@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,13 @@ Sie können die Feldeinstellungen für bereits erstellte Felder bearbeiten.
 
 Informationen zum Erstellen von Adobe Maestro-Feldern finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-Dieser Artikel beschreibt, wie Sie die Einstellungen für Maestro-Felder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Maestro-Datensätze finden Sie unter [Datensätze bearbeiten](../records/edit-records.md).
+Dieser Artikel beschreibt, wie Sie die Einstellungen für Maestro-Felder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Maestro-Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Überlegungen zum Bearbeiten von Feldinformationen
 
-* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten. <!--this will change with access levels/ permissions - take out, it's in the table!-->
+* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
 * Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
+* Sie können ein Feld nicht auf der Detailseite eines Datensatzes oder in der Timeline-Ansicht bearbeiten.
 * Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
 * Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -63,9 +64,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,83 +94,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
+   <td> <p>Es gibt keine Zugriffskontrollen für Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Felder bearbeiten
 

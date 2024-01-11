@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ In Maestro können Sie benutzerdefinierte Datensatztypen erstellen, die den Anfo
    * [Betriebsdatentyp](#operational-record-type): Ein Datensatztyp, der strategische Pläne, Initiativen oder geplante Arbeiten darstellt. Beispielsweise können Campaign, Activity, Tactic und Opportunity betriebliche Datensatztypen sein.
    * [Taxonomie](#taxonomy): Record types, die Attribute zu einem betrieblichen Datensatztyp erfassen. So können beispielsweise Region, Adresse und Zielgruppe Taxonomien sein.
 
-* Wenn Sie einen Datensatztyp erstellen, kann jeder in Ihrer Organisation ihn anzeigen, bearbeiten oder löschen. <!--this will change with access levels and permissions-->
+* Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, die Sie für den Zugriff auf den Arbeitsbereich berechtigen, den Datensatztyp anzeigen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
 * Sie können in einem Arbeitsbereich insgesamt 1.000 betriebliche Datensatztypen und Taxonomien zusammenführen. Dies umfasst Datensatztypen oder Taxonomien, die Sie von Grund auf neu erstellen oder die Sie aus anderen Systemen importieren.
 

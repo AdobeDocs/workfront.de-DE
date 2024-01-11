@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -106,12 +106,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Datensätze durch manuelles Hinzufügen zu einem Datensatztyp erstellen <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Sie können Datensätze in der Tabellenansicht einer Seite vom Typ Datensatz erstellen.
@@ -146,8 +140,8 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze rückgängig zu machen oder wiederherzustellen:
 
-   * **Rückgängig**: STRG/CMD + Z
-   * **Wiederholen**: STRG/BEFEHL + UMSCHALT + Z
+   * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
+   * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
 
 ## Erstellen von Datensätzen durch Verbinden mit einer anderen Anwendung
 
