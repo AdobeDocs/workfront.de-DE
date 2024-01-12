@@ -2,24 +2,26 @@
 product-area: resource-management
 navigation-topic: resource-utilization
 title: Informationen zur Ressourcenauslastung anzeigen
-description: Sie können die Nutzung Ihrer Ressourcen mit dem Bericht "Nutzung"anzeigen.
+description: Sie können die Nutzung Ihrer Ressourcen im Bericht "Nutzung"anzeigen.
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '7854'
+source-wordcount: '7243'
 ht-degree: 0%
 
 ---
 
 # Informationen zur Ressourcenauslastung anzeigen
 
+<!-- Audited: 01/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
 -->
 
-Sie können die Nutzung Ihrer Ressourcen mit dem Bericht &quot;Nutzung&quot;anzeigen.
+Sie können die Nutzung Ihrer Ressourcen im Bericht &quot;Nutzung&quot;anzeigen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -44,40 +46,40 @@ Sie müssen über Folgendes verfügen, um auf den Bericht &quot;Nutzung&quot;zug
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>Oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Zeigen Sie den Zugriff auf Folgendes an oder höher:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung </p> </li> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programme</p> </li> 
-     <li> <p>Finanzdaten , wenn Sie Informationen nach Kosten anzeigen möchten</p> </li> 
-    </ul> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+     <li> <p>Finanzdaten, wenn Sie Informationen nach Kosten anzeigen möchten</p> </li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen des Zugriffs auf Projekte, Portfolios und Programme für den Zugriff auf den Abschnitt "Nutzung"im Bereich "Ressourcen"</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Zugriff auf das Projekt verwalten , um auf den Abschnitt "Nutzung"eines Projekts zuzugreifen</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen des Zugriffs auf Projekte, Portfolios und Programme für den Zugriff auf den Abschnitt "Nutzung"im Bereich "Ressourcen"</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Zugriff auf ein Projekt verwalten , um auf den Abschnitt "Nutzung"des Projekts zuzugreifen</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
 -->
-
-In den folgenden Abschnitten wird beschrieben, wie Sie Nutzungsinformationen anzeigen und verwenden.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -102,22 +104,17 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Nutzungsinformationen anz
 
 ## Übersicht über den Nutzungsbericht {#overview-of-the-utilization-report}
 
-Mithilfe des Nutzungsberichts können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen.
+Im Nutzungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen.
 
 Sie können den Nutzungsbericht im Bereich &quot;Ressourcen&quot;anzeigen, um die Nutzung über mehrere Projekte hinweg anzuzeigen, oder Sie können ihn auf der Ebene eines Projekts anzeigen, um die Nutzung der einzelnen Ressourcen (Auftragsrollen und Benutzer) anzuzeigen, die mit diesem Projekt verbunden sind.
 
 Informationen zum Zugriff auf und zur Verwendung des Nutzungsberichts finden Sie im Abschnitt [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) in diesem Artikel beschrieben.
 
-* [Tracking von Stunden (Fortschritt)](#track-hours-progress)
-* [Kosten verfolgen](#track-cost)
-* [Umsatz verfolgen](#track-revenue)
-* [Vergleich des Umsatzes mit den geplanten und tatsächlichen Kosten](#compare-revenue-against-planned-and-actual-costs)
-
 ### Tracking von Stunden (Fortschritt) {#track-hours-progress}
 
 Sie können den Fortschritt verfolgen, indem Sie sich ansehen, wie die geplanten und geplanten Stunden im Vergleich zu den tatsächlichen Stunden verlaufen.
 
-Beim Verfolgen des Fortschritts eines Projekts, Programms oder Portfolios werden die Fortschritte bei Aufgaben und Problemen in den Nutzungsbericht aufgenommen.
+Beim Verfolgen des Fortschritts eines Projekts, Programms oder Portfolios wird der Fortschritt sowohl bei Aufgaben als auch bei Problemen im Nutzungsbericht berücksichtigt.
 
 Die folgenden Informationen sind beim Verfolgen von Stunden im Nutzungsbericht verfügbar:
 
@@ -133,9 +130,10 @@ Die folgenden Informationen sind beim Verfolgen von Stunden im Nutzungsbericht v
  <tbody> 
   <tr> 
    <td scope="col"><strong>Budgetierte Stunden</strong> </td> 
-   <td scope="col"> <p>Die insgesamt geplanten Stunden für die einbezogenen Projekte. Sie können die geplanten Gesamtstunden für das Gesamtleben der enthaltenen Projekte anzeigen oder die Gesamtanzahl der geplanten Stunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben). </p> <p>Budgetierte Stunden werden aus Informationen gefüllt, die im neuen Ressourcenbudgeting-Bereich des Business Case oder im Resource Planer verfügbar sind.<em>.</em></p> <p>Die budgetierten Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezeigt:</p> 
+   <td scope="col"> <p>Die insgesamt geplanten Stunden für die einbezogenen Projekte. Sie können die geplanten Gesamtstunden für das Gesamtleben der enthaltenen Projekte anzeigen oder die Gesamtanzahl der geplanten Stunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben). </p> <p>Budgetierte Stunden werden aus den Informationen gefüllt, die im Bereich Ressourcenbudgetierung des Geschäftsfalls oder im Ressourcen-Planer verfügbar sind.<em>.</em></p> <p>Die budgetierten Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
-     <li> Die geplanten Stunden werden nach der Rolle des Auftrags und dem einzelnen Benutzer im Nutzungsbericht wie folgt zusammengefasst:<br><strong>Individueller Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Nutzungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer für die enthaltenen Projekte zugewiesen ist. (Sie können die Zeile der entsprechenden Auftragsrolle erweitern, um eine Liste der Benutzer mit dieser Auftragsrolle anzuzeigen.)<br><strong>Auftragsrolle:</strong> Die budgetierten Stunden werden im Nutzungsbericht nach der Rolle des Arbeitsplatzes zusammengefasst.<br>Budgetierte Stunden erscheinen als Ergebnis eines der folgenden Szenarien in einer bestimmten Rolle: 
+     <li> Die geplanten Stunden werden nach der Rolle des Auftrags und dem einzelnen Benutzer im Nutzungsbericht wie folgt zusammengefasst:<br><strong>Individueller Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Nutzungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer für die enthaltenen Projekte zugewiesen ist. (Sie können die Zeile der entsprechenden Auftragsrolle erweitern, um eine Liste der Benutzer mit dieser Auftragsrolle anzuzeigen.)<br><strong>Auftragsrolle:</strong> Die budgetierten Stunden werden im Nutzungsbericht nach der Rolle des Arbeitsplatzes zusammengefasst.<br>Budgetierte Stunden erscheinen als Ergebnis eines der folgenden Szenarien in einer bestimmten Rolle:
+     <ul>
      <li>Die Rolle "Job"wird als primäre Aufgabenrolle des Benutzers definiert, der der Aufgabe oder dem Problem zugewiesen ist, der die Budgetzeit zugeordnet ist. </li> 
        <li>Wenn Sie Nutzungsinformationen für ein einzelnes Projekt anzeigen, wird die Rolle des Benutzers, dem die Stunden zugewiesen sind, verwendet, unabhängig davon, ob es keine Zuweisung für die Aufgabe oder das Problem gibt, ob einem anderen Benutzer keine Aufgabenrollenzuweisung zugewiesen wurde, ein anderer Benutzer mit einer anderen Rolle für den Auftrag zugewiesen wird oder ein anderes Team zugewiesen wird.</li> 
        <li>Wenn Sie Nutzungsinformationen für mehrere Projekte, Programme oder Portfolios anzeigen, wird die Aufgabenrolle des den Stunden zugewiesenen Benutzers nur verwendet, wenn die Rolle einer Aufgabe oder eines Problems in einem Projekt zugewiesen ist. </li> 
@@ -144,14 +142,13 @@ Die folgenden Informationen sind beim Verfolgen von Stunden im Nutzungsbericht v
     </ul> 
     <ul> 
      <li> <p><strong>Nicht zugewiesene Stunden</strong>: Budgetierte Stunden werden im Nutzungsbericht im Abschnitt Nicht zugewiesene Stunden angezeigt, wenn mit einer Aufgabe oder einem Problem budgetierte Stunden verknüpft sind und der Aufgabe oder dem Problem kein Benutzer oder keine Rolle zugewiesen ist.<br>Dieser Abschnitt wird nur angezeigt, wenn Stunden am Projekt vorhanden sind, die dieser Beschreibung entsprechen, und wenn der Bericht "Nutzung"nach oder von einem Projekt angezeigt wird. </p> <p>Dieser Abschnitt wird nur angezeigt, wenn Stunden am Projekt vorhanden sind, die dieser Beschreibung entsprechen, und wenn der Bericht "Nutzung"nach oder von einem Projekt angezeigt wird. </p> </li> 
-    </ul> <p>Weitere Informationen zu den geplanten Stunden finden Sie im Abschnitt "Budgetierte Stunden eines Projekts suchen"im <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen</a> Artikel.</p> </td> 
+    </ul> <p>Weitere Informationen zu geplanten Stunden finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">Suchen Sie die budgetierten Stunden eines Projekts</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Geplante Stunden</strong> </td> 
-   <td scope="col"> <!-- Yay, no errors, warnings, or alerts! -->
-
+   <td scope="col">
 <p>
-Die geplanten Stunden für die enthaltenen Projekte, die mit den Zuweisungen für jede Aufgabe und jedes Problem verknüpft sind. Sie können die gesamten geplanten Stunden aller Zuweisungen im Projekt für die Gesamtdauer der enthaltenen Projekte anzeigen oder die insgesamt geplanten Stunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben). 
+Die geplanten Stunden für die enthaltenen Projekte, die mit den Zuweisungen für jede Aufgabe und jedes Problem verknüpft sind. Sie können die gesamten geplanten Stunden aller Zuweisungen im Projekt für die Gesamtdauer der enthaltenen Projekte anzeigen oder die insgesamt geplanten Stunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben).
 </p>
 <p>
 <strong>TIPP </strong>
@@ -204,7 +201,7 @@ Geplante Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezei
 </li>  
 </ul>
 
-<li><strong>Nicht zugewiesene Stunden</strong>: Geplante Stunden werden im Nutzungsbericht im Abschnitt Nicht zugewiesene Stunden angezeigt, wenn geplante Stunden mit einer Aufgabe oder einem Problem verknüpft sind und der Aufgabe oder dem Problem kein Benutzer oder keine Rolle zugewiesen ist. Dieser Abschnitt wird nur angezeigt, wenn Stunden am Projekt vorhanden sind, die dieser Beschreibung entsprechen, und wenn der Bericht "Nutzung"für ein einzelnes Projekt angezeigt wird. <br>Weitere Informationen zu geplanten Stunden finden Sie unter <a href="../../manage-work/tasks/task-information/planned-hours.md">Übersicht über geplante Stunden</a>.
+<li><strong>Nicht zugewiesene Stunden</strong>: Geplante Stunden werden im Nutzungsbericht im Abschnitt Nicht zugewiesene Stunden angezeigt, wenn geplante Stunden mit einer Aufgabe oder einem Problem verknüpft sind und der Aufgabe oder dem Problem kein Benutzer oder keine Rolle zugewiesen ist. Dieser Abschnitt wird nur angezeigt, wenn Stunden am Projekt vorhanden sind, die dieser Beschreibung entsprechen, und wenn der Nutzungsbericht für ein einzelnes Projekt angezeigt wird. <br>Weitere Informationen zu geplanten Stunden finden Sie unter <a href="../../manage-work/tasks/task-information/planned-hours.md">Übersicht über geplante Stunden</a>.
 </li> 
 </ul>
 </li> 
@@ -212,15 +209,15 @@ Geplante Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezei
   </tr> 
   <tr> 
    <td><strong>Tatsächliche Stunden</strong> </td> 
-   <td> <p> Gesamtstunden der Aufgaben, Probleme, <span>und zum Projekt</span> für die enthaltenen Projekte. Sie können die tatsächlichen Gesamtstunden für die Gesamtdauer der enthaltenen Projekte anzeigen oder die tatsächlichen Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p>Warnung: Der Nutzungsbericht enthält Stunden, die beim Projekt protokolliert werden, untergeordnete Aufgaben, Probleme und übergeordnete Aufgaben mit mindestens einer Zuweisung. Sie enthält keine Stunden, die mit übergeordneten Aufgaben ohne Zuweisungen protokolliert wurden. Es wird empfohlen, keine übergeordneten Aufgaben als Arbeitsaufgaben zu verwenden und Ihren Ressourcen nur untergeordnete Aufgaben zuzuweisen. </p> <p>Die tatsächlichen Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezeigt:</p> 
+   <td> <p> Gesamtstunden der Aufgaben, Probleme, <span>und zum Projekt</span> für die enthaltenen Projekte. Sie können die tatsächlichen Gesamtstunden für die Gesamtdauer der enthaltenen Projekte anzeigen oder die tatsächlichen Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p><strong>Warnung:</strong> Der Nutzungsbericht enthält die am Projekt protokollierten Stunden, untergeordnete Aufgaben, Probleme und übergeordnete Aufgaben mit mindestens einer Zuweisung. Sie enthält keine Stunden, die mit übergeordneten Aufgaben ohne Zuweisungen protokolliert wurden. Es wird empfohlen, keine übergeordneten Aufgaben als Arbeitsaufgaben zu verwenden und Ihren Ressourcen nur untergeordnete Aufgaben zuzuweisen. </p> <p>Die tatsächlichen Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
      <li> Die tatsächlichen Stunden werden im Nutzungsbericht eines Projekts nach der Rolle des Auftrags und dem einzelnen Benutzer wie folgt zusammengefasst:<br><strong>Individueller Benutzer:</strong> Die tatsächlichen Stunden werden im Nutzungsbericht in der Zeile des Benutzers angezeigt, der die Stunden protokolliert hat. (Sie können die Zeile der entsprechenden Auftragsrolle erweitern, um eine Liste der Benutzer mit dieser Auftragsrolle anzuzeigen, die Stunden protokolliert haben.)<br><strong>Auftragsrolle:</strong> Die tatsächlichen Stunden, die von Benutzern protokolliert werden, die mit diesen Rollen verknüpft sind, werden im Nutzungsbericht in der Zeile der entsprechenden Vorgangsrolle zusammengefasst.<br>Die tatsächlichen Stunden werden in einer bestimmten Rolle als Ergebnis eines der folgenden Szenarien angezeigt: 
       <ul> 
-       <li>Die Auftragsrolle wird als primäre Aufgabenrolle des Benutzers definiert, der die Stunden protokolliert hat.</li> 
+       <li>Die Auftragsrolle wird als primäre Aufgabenrolle des Benutzers definiert, der die Stunden protokolliert hat</li> 
        <li>Es gibt keine Zuweisung zu der Aufgabe oder dem Problem</li> 
        <li>Ein anderer Benutzer wurde ohne Aufgabenrollenzuweisung zugewiesen</li> 
        <li>Einem anderen Benutzer wird eine andere Aufgabenrolle zugewiesen.</li> 
-       <li> <p>Ein Team wird zugewiesen.</p> </li> 
+       <li> <p>Ein Team wird zugewiesen</p> </li> 
       </ul></li>  
      <p>Wenn dem Benutzer, der die Stunden protokolliert, keine Arbeitsrolle mit seinem Profil zugeordnet ist, ist die für den Auslastungsbericht verwendete Vorgangsrolle die der Aufgabe oder dem Problem zugewiesene Auftragsrolle, in der Stunden protokolliert werden, oder die mit dem Primären Eigentümer der Aufgabe oder des Problems verknüpfte Auftragsrolle. </p> 
      <li><strong>Sonstige Stunden:</strong> Die tatsächlichen Stunden werden im Nutzungsbericht im Abschnitt Andere Stunden in der Zeile des Benutzers angezeigt, der sich in den Stunden angemeldet hat.<br>Stunden werden in diesem Abschnitt angezeigt, wenn der Benutzer, der die Stunden protokolliert hat, keine Rolle im System definiert hat.<br>Dieser Abschnitt wird nur angezeigt, wenn Stunden am Projekt dieser Beschreibung entsprechen. </li> 
@@ -241,16 +238,16 @@ Geplante Stunden werden im Nutzungsbericht in einer der folgenden Zeilen angezei
 
 Sie können Kosten nachverfolgen, indem Sie sich ansehen, wie die budgetierten Kosten und geplanten Kosten mit den tatsächlichen Kosten verglichen werden.
 
-Bei der Verfolgung der Kosten eines Projekts, Programms oder Portfolios stammen die Informationen im Nutzungsbericht aus Aufgaben. Kosteninformationen aus Aufgaben sind immer im Nutzungsbericht verfügbar. Die Kosten für Aufgaben werden basierend auf dem Kostentyp der Aufgabe berechnet. Informationen zum Kostentyp von Aufgaben finden Sie unter &quot;Ändern der Kostentypen für einzelne Aufgaben&quot;in [Kosten verfolgen](../../manage-work/projects/project-finances/track-costs.md).
+Bei der Verfolgung der Kosten eines Projekts, Programms oder Portfolios stammen die Informationen im Nutzungsbericht aus Aufgaben. Kosteninformationen aus Aufgaben sind immer im Nutzungsbericht verfügbar. Die Kosten für Aufgaben werden basierend auf dem Kostentyp der Aufgabe berechnet. Informationen zum Kostentyp von Aufgaben finden Sie unter [So berechnet Workfront Kostentypen für Aufgaben](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks) in [Kosten verfolgen](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
 Sie können Kosteninformationen im Bericht &quot;Nutzung&quot;wie folgt anzeigen:
 
-* Für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt, Programm oder Portfolio.
-* Nach Rolle oder Einzelperson für Projekte.
+* Für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt, Programm oder Portfolio
+* Nach Rolle oder Einzelperson für Projekte
 
-Die im Nutzungsbericht verwendete Währung wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der Projektwährung](../../manage-work/projects/project-finances/change-project-currency.md).
+Die Währung im Nutzungsbericht wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der Projektwährung](../../manage-work/projects/project-finances/change-project-currency.md).
 
-Die folgenden Informationen sind im Nutzungsbericht verfügbar, wenn Kosten verfolgt werden:
+Die folgenden Informationen sind im Nutzungsbericht verfügbar, wenn Sie Kosten nachverfolgen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -263,20 +260,20 @@ Die folgenden Informationen sind im Nutzungsbericht verfügbar, wenn Kosten verf
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Budgetierte Kosten</strong> </td> 
+   <td scope="col"><strong>Geplante Kosten</strong> </td> 
    <td scope="col"> <p>Die budgetierten Kosten für die enthaltenen Projekte. Sie können die Gesamtkosten der Budgetierung für die Gesamtdauer der eingeschlossenen Projekte anzeigen oder die Gesamtkosten der Budgetierung nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> <p>Da sich die im Nutzungsbericht veranschlagten Kosten auf Kosten nach Rolle konzentrieren, entspricht die Berechnung den budgetierten Arbeitskosten in anderen Bereichen von Workfront. Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie unter <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Geplante Kosten</strong> </td> 
-   <td scope="col"> <p>Gesamtsumme der geplanten Kosten für die enthaltenen Projekte. Sie können die Gesamtsumme der geplanten Kosten für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder die Gesamtsumme der geplanten Kosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> <p>Beachten Sie, dass die geplanten Kosten für die Wochen-, Monats- und vierteljährlichen Ansichten als Durchschnitt des ausgewählten Zeitraums berechnet werden, in dem die Kostensätze für Stellenberufe oder Benutzer datumswirksam sind.</p><p>Weitere Informationen zur Berechnung der geplanten Kosten für das Projekt finden Sie im Abschnitt "Wie Workfront geplante, geplante und tatsächliche Kosten berechnet"im Artikel <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> </td> 
+   <td scope="col"> <p>Gesamtsumme der geplanten Kosten für die enthaltenen Projekte. Sie können die Gesamtsumme der geplanten Kosten für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder die Gesamtsumme der geplanten Kosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> <p>Beachten Sie, dass die geplanten Kosten für die Wochen-, Monats- und vierteljährlichen Ansichten als Durchschnitt des ausgewählten Zeitraums berechnet werden, in dem die Kostensätze für Stellenberufe oder Benutzer datumswirksam sind.</p><p>Informationen zur Berechnung der geplanten Kosten für das Projekt finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Berechnung der geplanten, budgetierten und tatsächlichen Kosten durch Workfront</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Kosten verfolgen</a>.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"><strong>Istkosten</strong> </td> 
-   <td scope="col"> <p>Die tatsächlichen Gesamtkosten der enthaltenen Projekte. Sie können die tatsächlichen Gesamtkosten für die Gesamtdauer der eingeschlossenen Projekte anzeigen oder die tatsächlichen Gesamtkosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> <p>Weitere Informationen zur Berechnung der tatsächlichen Kosten für das Projekt finden Sie im Abschnitt "Wie Workfront geplante, geplante und tatsächliche Kosten berechnet"im Artikel <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> </td> 
+   <td scope="col"><strong>Tatsächliche Kosten</strong> </td> 
+   <td scope="col"> <p>Die tatsächlichen Gesamtkosten der enthaltenen Projekte. Sie können die tatsächlichen Gesamtkosten für die Gesamtdauer der eingeschlossenen Projekte anzeigen oder die tatsächlichen Gesamtkosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> <p>Informationen zur Berechnung der tatsächlichen Kosten für das Projekt finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Berechnung der geplanten, budgetierten und tatsächlichen Kosten durch Workfront</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Kosten verfolgen</a>.</p> </td>
   </tr> 
   <tr> 
    <td><strong>budgetierte Abweichung (für Kosten)</strong> </td> 
-   <td scope="col"> <p>Die gesamten veranschlagten Kosten abzüglich der tatsächlichen Gesamtkosten für die enthaltenen Projekte. Sie können die gesamte budgetierte Varianz für die gesamte Lebensdauer der eingeschlossenen Projekte anzeigen oder die gesamte budgetierte Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben).</p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies deutet darauf hin, dass die gesamten budgetierten Kosten größer sind als die tatsächlichen Kosten.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass die Gesamtkosten unter den tatsächlichen Kosten liegen.</p> </td> 
+   <td scope="col"> <p>Die gesamten veranschlagten Kosten abzüglich der tatsächlichen Gesamtkosten für die enthaltenen Projekte. Sie können die gesamte budgetierte Varianz für die gesamte Lebensdauer der eingeschlossenen Projekte anzeigen oder die gesamte budgetierte Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben).</p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies deutet darauf hin, dass die gesamten budgetierten Kosten größer sind als die tatsächlichen Kosten.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass die Gesamtkosten unter den tatsächlichen Kosten liegen.</p> </td>
   </tr> 
   <tr> 
    <td><strong>Geplante Varianz (für Kosten)</strong> </td> 
@@ -293,10 +290,7 @@ Beim Verfolgen des Umsatzes eines Projekts, Programms oder Portfolios werden nur
 
 Die Informationen in der folgenden Tabelle sind beim Verfolgen des Umsatzes im Nutzungsbericht verfügbar.
 
-Informationen zu den spezifischen Feldern und deren Berechnung durch Workfront finden Sie in den folgenden Artikeln:
-
-* [Kosten verfolgen](../../manage-work/projects/project-finances/track-costs.md)
-* [Übersicht über Rechnungsstellung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
+Informationen zu den spezifischen Feldern und deren Berechnung durch Workfront finden Sie auch unter [Kosten verfolgen](../../manage-work/projects/project-finances/track-costs.md) und [Übersicht über Rechnungsstellung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -309,77 +303,68 @@ Informationen zu den spezifischen Feldern und deren Berechnung durch Workfront f
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Budgetierte Einnahmen</strong> </td> 
+   <td scope="col"><strong>Geplanter Umsatz</strong> </td> 
    <td scope="col"> <p>Die Gesamtbudgetierten Stunden multipliziert mit dem Role Billing Rate für die einbezogenen Projekte. Sie können den Gesamtumsatz im Budget für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder den Gesamtumsatz nur für den angegebenen Datumsbereich anzeigen (Sie können eine bestimmte Woche oder einen bestimmten Monat angeben).</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Geplante Einnahmen</strong> </td> 
-   <td scope="col"> <p>Der geplante Umsatz im Bericht "Nutzung"ist der Umsatz, der mit den geplanten Stunden verbunden ist und den Ressourcen zugeordnet ist, die den Aufgaben des Projekts zugewiesen sind.</p> <p>Workfront berechnet den geplanten Umsatz des Projekts für den Bericht "Nutzung"anhand der folgenden Formel:</p> <p><code>Project Planned Revenue = SUM&nbsp;(All Tasks Planned Revenue)</code> </p> 
-   <p><b>NOTIZ</b>
+   <td scope="col"><strong>Geplanter Umsatz</strong> </td> 
+   <td scope="col"> <p>Der geplante Umsatz im Bericht "Nutzung"ist der Umsatz, der mit den geplanten Stunden verbunden ist und den Ressourcen zugeordnet ist, die den Aufgaben des Projekts zugewiesen sind.</p> <p>Workfront berechnet den geplanten Umsatz des Projekts für den Bericht "Nutzung"anhand der folgenden Formel:</p> <p><code>Project Planned Revenue = SUM (All Tasks Planned Revenue)</code> </p> 
+   <p><b>NOTE</b>
    <p>Das Projekt "Geplanter Umsatz", das im Nutzungsbericht angezeigt wird, unterscheidet sich von dem "Geplanter Umsatz", der im Bereich "Projektdetails"und in den Projektberichten angezeigt wird. </p> <p>Der geplante Umsatz im Bereich "Projektdetails"spiegelt den Umsatz der Aufgabe sowie den festen Umsatz des Projekts wider. Der geplante Umsatz im Nutzungsbericht zeigt den geplanten Umsatz an, der nur mit den Aufgaben im Projekt verbunden ist. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>Wenn das Projekt eine Aufgabe mit 10 Stunden umfasst, die einem Berater mit einer Stundenrate von 20 US-Dollar zugewiesen ist und das Projekt einen festen Umsatz von 100 US-Dollar aufweist, zeigt der Nutzungsbericht 200 US-Dollar für den geplanten Umsatz an (den geplanten Umsatz, der mit den Stunden der Aufgabe verknüpft ist). Im Abschnitt Projektdetails werden 300 USD (der geplante Umsatz aus der Aufgabe und der feste Umsatz für das Projekt) angezeigt. </p> 
      </div> <p>Weitere Informationen über die Aufgabe und das Projekt "Geplanter Umsatz"außerhalb des Nutzungsprotokolls finden Sie unter <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a>.</p> </p> <p>Die Art und Weise, wie der Nutzungsbericht den geplanten Umsatz für die enthaltenen Projekte berechnet und anzeigt, berücksichtigt den für die Aufgabe festgelegten Umsatztyp. </p> <p>Je nach dem Umsatztyp jeder Aufgabe im Projekt gibt es die folgenden Szenarien: </p> <p><strong>Fester Umsatz:</strong> Unabhängig von der Aufgabenzuweisung wird der Umsatz der Aufgabe immer mit dem Festbetrag berechnet, der in der Aufgabe angegeben ist.</p> <p><b>WICHTIG</b>
 
-Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den geplanten Umsatz für feste Umsätze, indem er den festen Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe teilt. </p> <p>Beispielsweise hat eine Aufgabe einen Umsatz von 200 USD. Wenn die Aufgabe vier geplante Stunden umfasst, beträgt jede Stunde 50 USD. Dies wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist für den Bericht &quot;Nutzung&quot;eindeutig.</p> <p><b>NOTIZ</b>
+Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den geplanten Umsatz für feste Umsätze, indem er den festen Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe teilt. </p> <p>Beispielsweise hat eine Aufgabe einen Umsatz von 200 USD. Wenn die Aufgabe vier geplante Stunden umfasst, beträgt jede Stunde 50 USD. Dies wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist für den Bericht &quot;Nutzung&quot;eindeutig.</p> <p><b>NOTE</b>
 
 Wenn Sie eine Aufgabe mit festem Umsatz haben und für die Aufgabe keine geplanten Stunden vorgesehen sind, wird der Umsatz nicht im Nutzungsbericht angezeigt, da es keine Möglichkeit gibt, ihn auf die Stunden zu verteilen. Wenn Sie für Aufgaben mit festem Umsatz und ohne Zuweisung geplante Stunden geplant haben, wird der Umsatz als nicht zugewiesener Umsatz angezeigt. </p> <p><strong>Stündliche Rolle:</strong> Der Umsatz aus der Aufgabe wird anhand des für eine bestimmte Rolle festgelegten Abrechnungskurses multipliziert mit der Anzahl der mit dieser Rolle verbundenen geplanten Stunden berechnet. Workfront verwendet die folgende Formel:</p> <p><code>Rolle &quot;Stündlicher geplanter Umsatz&quot;= SUM(geplante Stunden von der Rolle für alle Aufgaben) * Rollenabrechnungsrate</code></p><p><b>NOTE:</b> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p>   <p><strong>Benutzer stündlich:</strong> Der Umsatz aus der Aufgabe wird anhand des für einen bestimmten Benutzer festgelegten Abrechnungskurses multipliziert mit der Anzahl der diesem Benutzer zugeordneten geplanten Stunden berechnet. Workfront verwendet die folgende Formel:</p> <p><code>User Stündlich geplanter Umsatz = SUM(geplante Stunden von Benutzern für alle Aufgaben) * Abrechnungsrate für Benutzer</code> </p> <p><b>NOTE:</b> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p> <p><b>Stündliche Rolle oder stündlicher Benutzer Plus fest</b> </p> <p><b>WICHTIG</b>
 
 Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den geplanten Umsatz, indem er den festen Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe teilt. </p> <p>Die folgenden Fälle sind vorhanden: </p>
 <ul>
 <li> <p><strong>Rolle Stündlich Plus fest:</strong> Der Umsatz aus der Aufgabe wird anhand des für eine bestimmte Rolle festgelegten Abrechnungskurses multipliziert mit der Anzahl der geplanten Stunden, die mit der Rolle verbunden sind, berechnet. Darüber hinaus wird der Rollenrate ein fester Betrag hinzugefügt, der für die Aufgabe angegeben ist. Workfront verwendet die folgende Formel:</p> <p><code>Rolle Stündlich plus geplanter Umsatz = [SUM(Geplante Stunden von der Rolle für alle Aufgaben) * Rollenabrechnungsrate] + SUM(Cap or Fixed Amount of the task / Scheduled Hours of the task)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Benutzerstündlich plus fest:</strong> Die für einen bestimmten Benutzer festgelegte Abrechnungsrate multipliziert mit der Anzahl der geplanten Stunden für die Aufgabe von diesem Benutzer. Darüber hinaus wird der Benutzerrate ein fester Betrag hinzugefügt, der für die Aufgabe angegeben ist. Workfront verwendet die folgende Formel:</p> <p><code>Benutzer Stündlich plus geplanter Umsatz = [SUM(Geplante Stunden für Benutzer aller Aufgaben) * Benutzerabrechnungsrate] + SUM(Cap or Fixed Amount of the task / Scheduled Hours of the task)</code> </p> </li>
 </ul> <p><b>Rolle oder Benutzer stündlich mit Cap</b> </p> <p><b>WICHTIG</b>
 
 Im Gegensatz zu anderen Bereichen in Workfront gilt der Betrag über der Obergrenze, wenn der geplante Umsatz die Obergrenze überschreitet, als fester Umsatz. Der geplante Umsatz wird berechnet, indem der feste Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe dividiert und dann der Höchstbetrag und die Rolle oder der stündliche Umsatz des Benutzers hinzugefügt werden. <br></p> <p>Die folgenden Fälle sind vorhanden: </p>
 <ul>
 <li> <p><strong>Stündliche Rolle mit Cap:</strong> Aufgaben werden stündlich in Rechnung gestellt, wie in Rolle Stündlich , sie haben jedoch einen maximalen Maximalbetrag, den Sie angeben können. Workfront verwendet die folgende Formel:</p> <p><code>Stündliche Rolle mit geplantem Gesamtumsatz = [SUM(Scheduled Hours from role für alle Aufgaben und Probleme) * Rollenabrechnungsrate] + Sockel Betrag der Aufgabe + SUM(Betrag über den Sockel/Geplante Stunden der Aufgabe)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Benutzerstündlich mit Begrenzung:</strong> Aufgaben werden stündlich in Rechnung gestellt, wie in Benutzer stündlich, sie haben jedoch eine maximale Obergrenze, die Sie angeben können. Workfront verwendet die folgende Formel: </p> <p><code>Benutzer Stündlich mit geplantem Gesamtumsatz = [SUM(Geplante Stunden für Benutzer aller Aufgaben) * Benutzerabrechnungsrate] + Sockel Betrag der Aufgabe + SUM(Betrag über den Sockel/Geplante Stunden der Aufgabe)</code> </p> </li>
 </ul> <p>Weitere Informationen darüber, welche Rolle oder welcher Benutzer bei der Berechnung des geplanten Umsatzes berücksichtigt wird, finden Sie unter <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a>.</p> </td>
 </tr> 
   <tr> 
-   <td><strong>Tatsächliche Einnahmen</strong> </td> 
-   <td> <p>Der tatsächliche Umsatz ist der mit den tatsächlichen Stunden der Aufgaben verbundene Umsatz. <span>und des Projekts</span>. Weitere Informationen zum tatsächlichen Umsatz finden Sie im Artikel im Abschnitt "Verfolgen von Umsatzsummen" <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a>.</p>
+   <td><strong>Tatsächlicher Umsatz</strong> </td>
+   <td> <p>Der tatsächliche Umsatz ist der Umsatz, der mit den tatsächlichen Stunden der Aufgaben und des Projekts verbunden ist. Weitere Informationen zum tatsächlichen Umsatz finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Verfolgen von Umsatzmengen</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Übersicht über Rechnungsstellung und Umsatz</a>.</p>
 
 <p>Die Berechnung des tatsächlichen Umsatzes für die enthaltenen Projekte durch den Nutzungsbericht hängt vom für die Aufgabe festgelegten Umsatztyp ab, wie folgt:</p> <p><strong>Fester Umsatz:</strong> Unabhängig von der Aufgabenzuweisung wird der Umsatz der Aufgabe immer mit dem Festbetrag berechnet, der in der Aufgabe angegeben ist.</p> <p><b>WICHTIG</b>
 
-Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den tatsächlichen Umsatz, indem er den festen Umsatz gleichmäßig durch die Anzahl der Stunden teilt, die bei der Aufgabe protokolliert wurden. </p> <p> </p> <p>Beispielsweise hat eine Aufgabe einen tatsächlichen Umsatz von 200 USD. Wenn die Aufgabe 4 Stunden umfasst, beträgt die Stunde 50 USD. Dies wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist für den Bericht &quot;Nutzung&quot;eindeutig.</p> <p><b>NOTIZ</b>
+Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den tatsächlichen Umsatz, indem er den festen Umsatz gleichmäßig durch die Anzahl der Stunden teilt, die bei der Aufgabe protokolliert wurden. </p> <p> </p> <p>Beispielsweise hat eine Aufgabe einen tatsächlichen Umsatz von 200 USD. Wenn die Aufgabe 4 Stunden umfasst, beträgt die Stunde 50 USD. Dies wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist für den Bericht &quot;Nutzung&quot;eindeutig.</p> <p><b>NOTE</b>
 
 Wenn Sie eine Aufgabe mit festem Umsatz haben und keine tatsächlichen Stunden für die Aufgabe vorhanden sind, wird der tatsächliche Umsatz nicht im Nutzungsbericht angezeigt, da keine Möglichkeit zur Verteilung der Stunden besteht. </p> <p><strong>Stündliche Rolle:</strong> Der Umsatz aus der Aufgabe wird anhand des für eine bestimmte Rolle festgelegten Abrechnungskurses multipliziert mit der Anzahl der tatsächlichen Stunden berechnet.</p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Rolle &quot;Tatsächlicher Umsatz pro Stunde&quot;= SUM(tatsächliche Stunden von der Rolle für alle Aufgaben) * Rolle &quot;Abrechnungsrate&quot;</code> </p> <p><b>NOTE:</b> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p> <p><strong>Benutzer stündlich:</strong> Der Umsatz aus der Aufgabe wird anhand des für einen bestimmten Benutzer festgelegten Abrechnungskurses multipliziert mit der Anzahl der Stunden berechnet, die dieser Benutzer mit der Aufgabe protokolliert hat. Workfront verwendet die folgende Formel:</p> <p><code>Benutzerstündlicher tatsächlicher Umsatz = SUM(tatsächliche Stunden vom Benutzer für alle Aufgaben) * Benutzerabrechnungsrate</code></p> <p><b>NOTE:</b> Der Abrechnungsstundensatz in der Formel berücksichtigt alle Datumsänderungen des Satzes.</p> <p><b>Rolle oder Benutzer stündlich Plus fest</b> </p> <p><b>WICHTIG</b>
 
 Im Gegensatz zu anderen Bereichen von Workfront berechnet der Nutzungsbericht den tatsächlichen Umsatz, indem er den festen Umsatz gleichmäßig durch die Anzahl der Stunden teilt, die bei der Aufgabe protokolliert wurden. </p> <p>Die folgenden Fälle sind vorhanden: </p>
 <ul>
 <li> <p><strong>Rolle Stündlich Plus fest:</strong> Die Abrechnungsrate, die für eine bestimmte Rolle festgelegt wurde, multipliziert mit der Anzahl der Stunden, die von einem Benutzer mit dieser Rolle gegen die Aufgabe protokolliert wurden. Darüber hinaus wird der Rollenrate ein fester Betrag hinzugefügt, der für die Aufgabe angegeben ist. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Rolle Stündlich plus Tatsächlicher Umsatz = [SUM(Tatsächliche Stunden von der Rolle für alle Aufgaben) * Rollenabrechnungsrate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Benutzerstündlich plus fest:</strong> Die für einen bestimmten Benutzer festgelegte Abrechnungsrate multipliziert mit der Anzahl der Stunden, die mit der Aufgabe von diesem Benutzer verglichen wurden. Darüber hinaus wird der Benutzerrate ein fester Betrag hinzugefügt, der für die Aufgabe angegeben ist. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Benutzerstündlich plus Fester tatsächlicher Umsatz = [SUM(Tatsächliche Stunden von der Rolle für alle Aufgaben) * Benutzerabrechnungsrate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li>
 </ul> <p><b>Rolle oder Benutzer stündlich mit Cap</b> </p> <p><b>WICHTIG</b>
 
-Im Gegensatz zu anderen Bereichen in Workfront gilt der Betrag über der Obergrenze, wenn der geplante Umsatz die Obergrenze überschreitet, als fester Umsatz. Der geplante Umsatz wird berechnet, indem der feste Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe dividiert und dann der Höchstbetrag und die Rolle oder der stündliche Umsatz des Benutzers hinzugefügt werden. <br></p> <p>Die folgenden Szenarien existieren:</p>
+Im Gegensatz zu anderen Bereichen in Workfront gilt der Betrag über der Obergrenze, wenn der geplante Umsatz die Obergrenze überschreitet, als fester Umsatz. Der geplante Umsatz wird berechnet, indem der feste Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe dividiert und dann der Höchstbetrag und die Rolle oder der stündliche Umsatz des Benutzers hinzugefügt werden. <br></p> <p>Die folgenden Fälle sind vorhanden:</p>
 <ul>
 <li> <p><strong>Stündliche Rolle mit Cap:</strong> Aufgaben werden stündlich in Rechnung gestellt, wie in Rolle Stündlich , sie haben jedoch einen maximalen Maximalbetrag, den Sie angeben können. Workfront verwendet die folgende Formel:</p> <p><code>Stündliche Rolle mit tatsächlichem Umsatz = oberste Ebene [SUM(Tatsächliche Stunden von der Rolle für alle Aufgaben und Probleme) * Rollenabrechnungsrate] + Sockel Betrag der Aufgabe + SUM(Betrag über den Sockel/tatsächliche Stunden der Aufgabe)</code></p> </li>
-</ul>
-<ul>
 <li> <p><strong>Benutzerstündlich mit Begrenzung:</strong> Aufgaben werden stündlich in Rechnung gestellt, wie in Benutzer stündlich, sie haben jedoch eine maximale Obergrenze, die Sie angeben können.</p> <p> Workfront verwendet die folgende Formel:</p> <p><code>Benutzer stündlich mit aktuellem Umsatz beschränken = [SUM(Tatsächliche Stunden von der Rolle für alle Aufgaben und Probleme) * Benutzerabrechnungsrate] + Sockel Betrag der Aufgabe + SUM(Betrag über den Sockel/tatsächliche Stunden der Aufgabe)</code> </p> </li>
 </ul>
-<div>
 <p><strong>Projektumsatz</strong>: Der Umsatz, der mit den im Projekt angemeldeten Stunden verbunden ist, wird unter Berücksichtigung der Fakturierung pro Stunde für die Rolle des Hauptauftrags des Benutzers berechnet, der die Zeit protokolliert. Wir empfehlen keine Protokollierungszeit für das Projekt. </p>
-<p><b>NOTIZ</b>
+<p><b>NOTE</b>
 
 Wenn der Benutzer nicht mit einer Stellenrolle verknüpft ist oder die Abrechnung pro Stunde der Primären Rolle null ist, berechnet Workfront den tatsächlichen Umsatz anhand des Betrags Abrechnung pro Stunde für den Benutzer. Wenn der Benutzer keinen Betrag pro Stunde in seinem Profil hat, ist der tatsächliche Umsatz null. </p>
-</div> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td><strong>budgetierte Abweichung (für Umsatz)</strong> </td> 
-   <td> <p>Die tatsächlichen Gesamteinnahmen abzüglich der ausgewiesenen Einnahmen aus den einbezogenen Projekten.<br>Sie können die gesamte budgetierte Varianz für die gesamte Lebensdauer der eingeschlossenen Projekte anzeigen oder die gesamte budgetierte Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben).</p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies zeigt an, dass der Gesamtumsatz größer ist als der tatsächliche Umsatz.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass der Gesamtumsatz geringer ist als der tatsächliche Umsatz.</p> </td> 
+   <td> <p>Die tatsächlichen Gesamteinnahmen abzüglich der ausgewiesenen Einnahmen aus den einbezogenen Projekten.<br>Sie können die gesamte budgetierte Varianz für die gesamte Lebensdauer der eingeschlossenen Projekte anzeigen oder die gesamte budgetierte Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben).</p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies zeigt an, dass der Gesamtumsatz größer ist als der tatsächliche Umsatz.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass der Gesamtumsatz geringer ist als der tatsächliche Umsatz.</p> </td>
   </tr> 
   <tr> 
    <td><strong>Geplante Varianz (für Umsatz)</strong> </td> 
-   <td> <p>Der tatsächliche Gesamtumsatz abzüglich des gesamten geplanten Umsatzes für die einbezogenen Projekte.<br>Sie können die insgesamt geplante Varianz für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder die insgesamt geplante Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben). </p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies zeigt an, dass der geplante Gesamtumsatz größer ist als der tatsächliche Umsatz.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass der geplante Gesamtumsatz kleiner als der tatsächliche Umsatz ist.</p> </td> 
+   <td> <p>Der tatsächliche Gesamtumsatz abzüglich des gesamten geplanten Umsatzes für die einbezogenen Projekte.<br>Sie können die insgesamt geplante Varianz für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder die insgesamt geplante Varianz nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen bestimmten Monat angeben). </p> <p>Wenn der Wert positiv ist, wird er grün angezeigt. Dies zeigt an, dass der geplante Gesamtumsatz größer ist als der tatsächliche Umsatz.</p> <p>Wenn der Wert negativ ist, wird er rot angezeigt. Dies zeigt an, dass der geplante Gesamtumsatz kleiner als der tatsächliche Umsatz ist.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -413,11 +398,11 @@ Die folgenden Informationen sind im Nutzungsbericht beim Vergleich von Umsatz mi
    <td scope="col"> Gesamtsumme der geplanten Kosten für die enthaltenen Projekte. Sie können die Gesamtsumme der geplanten Kosten für die gesamte Lebensdauer der enthaltenen Projekte anzeigen oder die Gesamtsumme der geplanten Kosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Geplante Einnahmen</strong> </td> 
+   <td scope="col"><strong>Geplanter Umsatz</strong> </td> 
    <td scope="col"> <p>Der geplante Umsatz ist der Umsatz, der mit den geplanten Stunden der Aufgaben verbunden ist. </p> <p>Die Berechnung und Anzeige des geplanten Umsatzes für die enthaltenen Projekte durch den Nutzungsbericht hängt vom für die Aufgabe festgelegten Umsatztyp ab, wie im Abschnitt <a href="#track-revenue" class="MCXref xref">Umsatz verfolgen</a> in diesem Artikel beschrieben.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Rand</strong> </td> 
+   <td scope="col"><strong>Marge</strong> </td> 
    <td scope="col"> <p>Der Prozentsatz der Spanne wird wie folgt berechnet:</p> <p><code>Planned Revenue - Planned Cost / Planned Revenue * 100. </code></p> <p><b>NOTIZ</b>
 
 Wenn der geplante Umsatz gleich 0 ist, wird der Rand als 0 angezeigt. </p> </td>
@@ -427,15 +412,15 @@ Wenn der geplante Umsatz gleich 0 ist, wird der Rand als 0 angezeigt. </p> </td>
    <td scope="col"><p><strong>Funktion</strong></p></td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Istkosten</strong> </td> 
+   <td scope="col"><strong>Tatsächliche Kosten</strong> </td> 
    <td scope="col"> <p>Die tatsächlichen Gesamtkosten der enthaltenen Projekte. Sie können die tatsächlichen Gesamtkosten für die Gesamtdauer der eingeschlossenen Projekte anzeigen oder die tatsächlichen Gesamtkosten nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Tatsächliche Einnahmen</strong> </td> 
+   <td scope="col"><strong>Tatsächlicher Umsatz</strong> </td> 
    <td> <p>Der tatsächliche Umsatz ist der Umsatz, der mit den tatsächlichen Stunden der Aufgaben verbunden ist.</p> <p>Der tatsächliche Umsatz wird im Nutzungsbericht erst angezeigt, nachdem die Aufgabe als abgeschlossen oder Fertig markiert wurde (oder ein Status, der mit Abgeschlossen übereinstimmt).</p> <p>Die Berechnung des tatsächlichen Umsatzes für die enthaltenen Projekte durch den Nutzungsbericht hängt vom für die Aufgabe festgelegten Umsatztyp ab, wie im Abschnitt <a href="#track-revenue" class="MCXref xref">Umsatz verfolgen</a> in diesem Artikel beschrieben. </p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Rand</strong> </td> 
+   <td scope="col"><strong>Marge</strong> </td> 
    <td> <p>Der Prozentsatz der Spanne wird wie folgt berechnet:</p> <p>Tatsächlicher Umsatz - Tatsächliche Kosten / Tatsächlicher Umsatz * 100. </p> <p><b>NOTIZ</b>
 
 Wenn der tatsächliche Umsatz gleich 0 ist, wird der Rand als 0 angezeigt. </p> </td>
@@ -462,58 +447,57 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
       1. Wechseln Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann auf **Mehr anzeigen > Nutzung**.
       1. Informationen zur Verwendung werden automatisch angezeigt, wenn Sie ein einzelnes Projekt anzeigen. Es ist nicht erforderlich, einen Filter anzuwenden.\
          Wenn Sie den Bericht &quot;Nutzung&quot;filtern möchten, können Sie einen Filter anwenden und dann auf **Ausführen**.\
-         Informationen zum Filtern des Nutzungsprotokolls finden Sie im Abschnitt . [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
+         Informationen zum Filtern des Nutzungsprotokolls finden Sie unter [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
          Die Informationen zur Verwendung werden für einzelne Benutzer und Rollen angezeigt (Benutzer werden in ihrer zugehörigen Rolle gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für mehrere Projekte an:
 
-      1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
-      1. Wenden Sie einen Filter auf den Bericht &quot;Nutzung&quot;an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen mindestens ein Projekt im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie im Abschnitt . [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
+     {{step1-to-utilization-report}}
+
+      1. Wenden Sie einen Filter auf den Bericht &quot;Nutzung&quot;an und klicken Sie dann auf **Ausführen**.
+Sie müssen mindestens ein Projekt im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie unter [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
          Informationen zur Verwendung werden für einzelne Rollen und Projekte angezeigt (Rollen sind innerhalb des zugehörigen Projekts gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Programm an:
 
-      1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich und klicken Sie auf die **Anzeigen**>**Programme**.
+     {{step1-to-utilization-report}}
+
+      1. Klicks **Anzeigen**>**Programme**.
       1. Wenden Sie einen Filter auf den Bericht &quot;Nutzung&quot;an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie im Abschnitt . [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
+         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie unter [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
          Informationen zur Nutzung werden für einzelne Projekte und Programme angezeigt (Projekte sind in ihrem jeweiligen Programm gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Portfolio an:
 
-      1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** Klicken Sie im linken Bereich auf **Anzeigen**>**Portfolios**.
+     {{step1-to-utilization-report}}
+
+      1. Klicks **Anzeigen**>**Portfolios**.
       1. Wenden Sie einen Filter auf den Bericht &quot;Nutzung&quot;an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen mindestens ein Portfolio im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie im Abschnitt . [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
+         Sie müssen mindestens ein Portfolio im Filter angeben, bevor Sie den Bericht &quot;Nutzung&quot;ausführen. Informationen zum Filtern des Nutzungsprotokolls finden Sie unter [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.\
          Informationen zur Nutzung werden für einzelne Projekte, Programme und Portfolios angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert und Programme innerhalb ihres zugehörigen Portfolios gruppiert).
 
-1. Klicken Sie in der rechten oberen Ecke des Nutzungsberichts auf die Schaltfläche **Ansicht** aus dem Dropdown-Menü und wählen Sie dann aus den folgenden Optionen aus:
+1. Klicken Sie in der rechten oberen Ecke des Nutzungsberichts auf **Ansicht** und wählen Sie dann aus den folgenden Optionen im Menü aus:
 
    * **Kosten**
    * **Stunden**
-   * **Einnahmen**
-   * **Einnahmen vs. Kosten (geplante Kosten)**
-   * **Umsatz vs. Kosten (realisiert)**.
+   * **Umsatz**
+   * **Umsatz vs. Kosten (geplant)**
+   * **Umsatz vs. Kosten (realisiert)**
 
-   Die ausgewählte Option bestimmt, welche Spalten und Informationen im Bericht verfügbar sind. Weitere Informationen zu den in den einzelnen Spalten verfügbaren Informationen finden Sie in der Tabelle in Schritt 5.\
-   ![](assets/utilization-view-dropdown.png)
+   Die ausgewählte Option bestimmt, welche Spalten und Informationen im Bericht verfügbar sind.
+   ![Anzeigeoptionen](assets/utilization-view-dropdown.png)
 
 1. (Optional) Wählen Sie den Datumsbereich aus, für den die Nutzungsinformationen angezeigt werden. Sie können Informationen für eine bestimmte Woche oder einen bestimmten Monat links neben dem **Insgesamt** Spalte. Informationen für das gesamte Projekt, Programm oder Portfolio werden immer im **Insgesamt** Spalte.\
-   Weitere Informationen finden Sie im Abschnitt . [Anpassen des Datumsbereichs, für den Informationen angezeigt werden](#adjust-the-date-range-for-which-information-is-displayed) in diesem Artikel.
+   Weitere Informationen finden Sie unter [Anpassen des Datumsbereichs, für den Informationen angezeigt werden](#adjust-the-date-range-for-which-information-is-displayed) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen beliebigen Spaltentitel, um den Nutzungsbericht nach den Informationen in dieser Spalte zu sortieren. Die Sortierung funktioniert nur, wenn Sie mehrere Elemente in Ihren Bericht aufnehmen. Sie können beispielsweise die Ergebnisse Ihres Berichts sortieren, wenn Sie mehr als ein Projekt (oder Portfolio oder Programm) betrachten. Sie können die Ergebnisse nicht sortieren, wenn Sie jeweils nur ein Projekt (oder ein Portfolio oder ein Programm) betrachten.
 1. Informationen im Abschnitt verwenden [Übersicht über den Nutzungsbericht](#overview-of-the-utilization-report) in diesem Artikel , um mehr über die einzelnen Spalten im Nutzungsbericht zu erfahren.
 
 ## Informationen zur Filterauslastung {#filter-utilization-information}
 
-Sie können die in einem Nutzungsbericht angezeigten Inhalte nach einem Projekt filtern. Sie können nach Aufgaben, Problemen, Rollen und benutzerdefinierten Daten filtern. Wenn Sie einen Filter auf den Bericht &quot;Nutzung&quot;anwenden, enthält der Bericht &quot;Nutzung&quot;Informationen, die auf den von Ihnen ausgewählten Kriterien basieren.
+Sie können die in einem Nutzungsbericht angezeigten Inhalte nach einem Projekt filtern. Sie können nach Aufgaben, Problemen, Rollen und benutzerdefinierten Daten filtern. Wenn Sie einen Filter anwenden, enthält der Nutzungsbericht Informationen, die auf den von Ihnen ausgewählten Kriterien basieren.
 
-Sie können einen Filter erstellen oder einen zuvor erstellten Filter anwenden.
-
-* [Filter erstellen oder ändern](#create-or-modify-a-filter)
-* [Anwenden eines gespeicherten Filters](#apply-a-saved-filter)
-* [Filter duplizieren](#duplicate-a-filter)
-* [Filter umbenennen](#rename-a-filter)
-* [Filter löschen](#delete-a-filter)
+Sie können einen neuen Filter erstellen oder einen zuvor erstellten Filter anwenden.
 
 ### Filter erstellen oder ändern {#create-or-modify-a-filter}
 
@@ -521,44 +505,40 @@ Wenn Sie einen Filter erstellen, haben alle Workfront-Benutzer, die Zugriff auf 
 
 So erstellen oder ändern Sie einen Filter:
 
-1. Um Nutzungsinformationen für ein einzelnes Projekt zu filtern, gehen Sie zu dem Projekt, für das Sie Nutzungsinformationen filtern möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
-
-   Oder
-
-   Um Nutzungsinformationen für mehrere Projekte, für ein Programm oder für ein Portfolio zu filtern, klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront, **Ressourcen**, **Nutzung** im linken Bereich, dann **Anzeigen**>**Programme** oder **Portfolios** oder **Projekte**.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
 1. Klicken Sie auf **Filter** -Symbol, um die Filteroptionen anzuzeigen.
-
 1. (Bedingt) Um einen vorhandenen Filter zu ändern, klicken Sie auf die Schaltfläche **Filter** und wählen Sie dann den zu ändernden Filter aus.
 1. Geben Sie die folgenden Informationen an, um den Filter zu erstellen oder zu ändern:
 
-   * **Portfolios:** Beginnen Sie mit der Eingabe des Namens des Portfolios, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.\
+   * **Portfolios:** Geben Sie den Namen des Portfolios ein, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Portfolios in den Nutzungsbericht aufzunehmen.\
      Um alle Portfolios aus Ihrem System in Ihren Filter aufzunehmen, klicken Sie auf **Alle hinzufügen**. (Diese Option ist nur verfügbar, wenn Ihr System weniger als 10 Portfolios enthält.)
 
-   * **Programme:** Beginnen Sie mit der Eingabe des Programmnamens, der die Informationen enthält, die Sie in den Bericht &quot;Nutzung&quot;aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.\
+   * **Programme:** Beginnen Sie mit der Eingabe des Programmnamens, der die Informationen enthält, die Sie in den Bericht &quot;Nutzung&quot;aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Aufgaben in den Bericht &quot;Nutzung&quot;aufzunehmen.\
      Wenn Sie bereits Portfolios im Filter benannt haben, muss das von Ihnen angegebene Programm aus den bereits im Filter enthaltenen Portfolios stammen. Ist dies nicht der Fall, werden die Daten aus dem Programm nicht in den Bericht &quot;Nutzung&quot;aufgenommen.\
      Um alle Programme aus Ihrem System in Ihren Filter aufzunehmen, klicken Sie auf **Alle hinzufügen**. (Diese Option ist nur verfügbar, wenn Ihr System weniger als 20 Programme enthält.)
 
-   * **Projekte:** Beginnen Sie mit der Eingabe des Namens des Projekts, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.\
+   * **Projekte:** Beginnen Sie mit der Eingabe des Namens des Projekts, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Projekten in den Nutzungsbericht aufzunehmen.\
      Wenn Sie bereits Portfolios oder Programme im Filter benannt haben, muss das von Ihnen angegebene Projekt aus einem der Portfolios oder Programme stammen, die bereits im Filter enthalten sind. Ist dies nicht der Fall, werden die Daten aus dem Projekt nicht in den Bericht &quot;Nutzung&quot;aufgenommen.\
      Um alle Projekte aus Ihrem System in Ihren Filter aufzunehmen, klicken Sie auf **Alle hinzufügen**. (Diese Option ist nur verfügbar, wenn Ihr System weniger als 250 Projekte enthält.)
 
-   * **Aufgaben:** Beginnen Sie mit der Eingabe des Namens der Aufgabe, die die Informationen enthält, die Sie in den Bericht &quot;Nutzung&quot;aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.\
+   * **Aufgaben:** Beginnen Sie mit der Eingabe des Namens der Aufgabe, die die Informationen enthält, die Sie in den Bericht &quot;Nutzung&quot;aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Aufgaben in den Bericht &quot;Nutzung&quot;aufzunehmen.\
      Wenn Sie bereits Portfolios, Programme oder Projekte im Filter benannt haben, muss die Aufgabe aus einem der Portfolios, Programme oder Projekte stammen, die bereits im Filter enthalten sind. Ist dies nicht der Fall, werden die Daten aus der Aufgabe nicht in den Bericht &quot;Nutzung&quot;aufgenommen.
 
-   * **Probleme:** Beginnen Sie mit der Eingabe des Namens des Problems, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.\
+   * **Probleme:** Beginnen Sie mit der Eingabe des Namens des Problems, das die Informationen enthält, die Sie in den Nutzungsbericht aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
      Wiederholen Sie diesen Vorgang, um Informationen aus mehreren Problemen in den Bericht &quot;Nutzung&quot;aufzunehmen.\
      Wenn Sie bereits Portfolios, Programme oder Projekte im Filter benannt haben, muss das von Ihnen angegebene Problem aus einem der Portfolios, Programme oder Projekte stammen, die bereits im Filter enthalten sind. Ist dies nicht der Fall, werden die Daten aus dem Problem nicht in den Nutzungsbericht aufgenommen.\
-     Kosteninformationen für Probleme werden nicht immer im Nutzungsbericht aufgeführt. Weitere Informationen dazu, wann im Nutzungsbericht Kosteninformationen für Probleme enthalten sind, finden Sie im Abschnitt [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) in diesem Artikel.
+     Kosteninformationen für Probleme werden nicht immer im Nutzungsbericht aufgeführt. Weitere Informationen dazu, wann im Nutzungsbericht Kosteninformationen für Probleme enthalten sind, finden Sie unter [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) in diesem Artikel.
 
-   * **Rollen:** Beginnen Sie mit der Eingabe des Namens der Rolle, die Sie im Nutzungsbericht darstellen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird. Wiederholen Sie diesen Vorgang, um weitere Rollen hinzuzufügen.\
-     Der Nutzungsbericht enthält nur Informationen zu den von Ihnen angegebenen Rollen. Beispielsweise enthält eine Aufgabe 10 tatsächliche Stunden. 6 dieser Stunden stammen aus einer Designer-Rolle und 4 aus einer Entwicklerrolle. Wenn Sie den Nutzungsbericht nach Rolle für Designer filtern, werden die 4 Stunden, die aus der Entwicklerrolle stammen, aus dem Bericht ausgeschlossen.
+   * **Rollen:** Beginnen Sie mit der Eingabe des Namens der Rolle, die Sie im Nutzungsbericht darstellen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Wiederholen Sie diesen Vorgang, um weitere Rollen hinzuzufügen.
+Der Nutzungsbericht enthält nur Informationen zu den von Ihnen angegebenen Rollen. Beispielsweise enthält eine Aufgabe 10 tatsächliche Stunden. Sechs dieser Stunden stammen aus einer Designer-Rolle und vier aus einer Entwicklerrolle. Wenn Sie den Nutzungsbericht nach Rolle für Designer filtern, werden die vier Stunden, die aus der Entwicklerrolle stammen, aus dem Bericht ausgeschlossen.
 
-   * **Filterregel hinzufügen:** Klicks **Filterregel hinzufügen**, klicken Sie in das erste Feld und geben Sie dann den Feldnamen ein, nach dem Sie filtern möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dem Filter hinzuzufügen.
+   * **Filterregel hinzufügen:** Klicks **Filterregel hinzufügen**, klicken Sie in das Textfeld und geben Sie den Feldnamen ein, nach dem Sie filtern möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt gefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dem Filter hinzuzufügen.
 
      >[!IMPORTANT]
      >
@@ -569,52 +549,46 @@ So erstellen oder ändern Sie einen Filter:
 
 1. Um einen neuen Filter zu erstellen, klicken Sie auf **Filter speichern**.\
    Oder\
-   Um einen vorhandenen Filter zu ändern, klicken Sie auf den Dropdown-Pfeil neben dem **Filter speichern** Schaltfläche und klicken Sie auf **Neuen Filter speichern**.\
-   Im **Filtername** ein, geben Sie einen Namen für den Filter ein und klicken Sie auf **Speichern**.\
-   Der Bereich &quot;Nutzung&quot;wird mit den Informationen gefiltert, die Sie in den Filter aufgenommen haben.
+   Um einen vorhandenen Filter zu ändern, klicken Sie auf den Pfeil neben dem **Filter speichern** Schaltfläche und klicken Sie auf **Neuen Filter speichern**.
+Im **Filtername** ein Feld, geben Sie einen Namen für den Filter ein und klicken Sie auf **Speichern**.
+Der Bereich &quot;Nutzung&quot;wird mit den Informationen gefiltert, die Sie in den Filter aufgenommen haben.
 
 ### Anwenden eines gespeicherten Filters {#apply-a-saved-filter}
 
-1. Um einen Filter auf den Nutzungsbericht für ein einzelnes Projekt anzuwenden, gehen Sie zu dem Projekt, nach dem Sie filtern möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
-
-   Um einen Filter auf den Nutzungsbericht anzuwenden, klicken Sie auf die Schaltfläche **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront, **Ressourcen**, **Nutzung** im linken Bereich, dann **Anzeigen**>**Programme** oder **Portfolios** oder **Projekte**.
-
-1. Klicks **Gespeicherte Filter** und wählen Sie dann im Dropdown-Menü den anzuwendenden Filter aus.
+1. Klicks **Gespeicherte Filter** und wählen Sie dann in der Dropdown-Liste den anzuwendenden Filter aus.
 
 ### Filter duplizieren {#duplicate-a-filter}
 
-1. Um einen Filter für den Nutzungsbericht für ein einzelnes Projekt zu duplizieren, gehen Sie zu dem Projekt, für das Sie den Filter duplizieren möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
+1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger über den Filter, den Sie duplizieren möchten, und klicken Sie auf **Duplizieren** Symbol.
 
-   Um einen Filter für den Nutzungsbericht für mehrere Projekte, für ein Programm oder für ein Portfolio zu duplizieren, klicken Sie auf die Schaltfläche **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
+   ![Symbol &quot;Duplizieren&quot;](assets/utilization-filter-duplicate.png)
 
-1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger im Dropdown-Menü über den Filter, den Sie duplizieren möchten, und klicken Sie dann auf **Duplizieren** Symbol.
-
-   ![](assets/utilization-filter-duplicate.png)\
    Das Dialogfeld Filter duplizieren wird angezeigt.
 
-1. Im **Filtername** ein, geben Sie einen Namen für den neuen Filter ein und klicken Sie auf **Speichern**.
+1. Im **Filtername** ein Feld, geben Sie einen Namen für den neuen Filter ein und klicken Sie auf **Speichern**.
 
 ### Filter umbenennen {#rename-a-filter}
 
-Wenn Sie einen Filter umbenennen, sehen alle Workfront-Benutzer, die Zugriff auf den Bericht &quot;Verwendung&quot;haben, den von Ihnen gewählten neuen Namen.
+Wenn Sie einen Filter umbenennen, sehen alle Workfront-Benutzer, die Zugriff auf den Bericht &quot;Verwendung&quot;haben, den von Ihnen eingegebenen neuen Namen.
 
 So benennen Sie einen Filter um:
 
-1. Um einen Filter für den Nutzungsbericht für ein einzelnes Projekt umzubenennen, gehen Sie zu dem Projekt, für das Sie den Filter umbenennen möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
+1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger über den Filter, den Sie umbenennen möchten, und klicken Sie auf **Umbenennen** Symbol.
 
-   Um einen Filter für den Nutzungsbericht für mehrere Projekte, für ein Programm oder für ein Portfolio umzubenennen, klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
+   ![Symbol Filter umbenennen](assets/utilization-filter-rename.png)
 
-1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger im Dropdown-Menü über den Filter, den Sie duplizieren möchten, und klicken Sie dann auf **Umbenennen** Symbol.\
-   ![](assets/utilization-filter-rename.png)\
    Das Dialogfeld Filter umbenennen wird angezeigt.
 
-1. Im **Filtername** ein, geben Sie einen Namen für den neuen Filter ein und klicken Sie auf **Speichern**.
+1. Im **Filtername** ein Feld, geben Sie einen Namen für den neuen Filter ein und klicken Sie auf **Speichern**.
 
 ### Filter löschen {#delete-a-filter}
 
@@ -622,15 +596,12 @@ Wenn Sie einen Filter löschen, wird der Filter für alle Workfront-Benutzer gel
 
 So löschen Sie einen Filter:
 
-1. Um einen Filter für den Nutzungsbericht für ein einzelnes Projekt zu löschen, gehen Sie zu dem Projekt, für das Sie den Filter löschen möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
+1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger über den Filter, den Sie löschen möchten, und klicken Sie auf **Löschen** Symbol.
 
-   Um einen Filter für den Nutzungsbericht für mehrere Projekte, für ein Programm oder für ein Portfolio zu löschen, klicken Sie auf die Schaltfläche **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
-
-1. Klicks **Gespeicherte Filter**, bewegen Sie den Mauszeiger im Dropdown-Menü über den Filter, den Sie duplizieren möchten, und klicken Sie dann auf **Löschen** Symbol.
-
-   ![](assets/utilization-filter-delete.png)
+   ![Löschsymbol](assets/utilization-filter-delete.png)
 
 1. Klicks **Löschen** angezeigt, wenn Sie gefragt werden, ob Sie den Filter löschen möchten.
 
@@ -638,23 +609,20 @@ So löschen Sie einen Filter:
 
 Sie können den Datumsbereich anpassen, für den die Nutzungsinformationen angezeigt werden. Sie können ein vergangenes oder künftiges Datum auswählen. Ihre Änderungen sind nur für Sie sichtbar.
 
-1. Um den Datumsbereich des Nutzungsberichts für ein einzelnes Projekt anzupassen, gehen Sie zu dem Projekt, für das Sie den Datumsbereich anpassen möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Verwendung** im linken Bereich.
-
-   Oder
-
-   Um den Datumsbereich des Berichts &quot;Nutzung&quot;für mehrere Projekte, für ein Programm oder für ein Portfolio anzupassen, klicken Sie auf die Schaltfläche **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
 1. Klicken Sie auf den Datumsbereich neben dem **Export** Schaltfläche.
 
    Die aktuelle Woche ist standardmäßig ausgewählt.
 
-1. Wählen Sie aus den folgenden Optionen aus:
+1. Wählen Sie aus den folgenden Optionen:
 
    * **Woche:** Wählen Sie diese Option aus, um eine bestimmte Woche (von Sonntag bis Samstag) auszuwählen.
    * **Monat:** Wählen Sie diese Option aus, um einen bestimmten Monat auszuwählen.
 
    Der ausgewählte Datumsbereich wird im Nutzungsbericht links neben dem **Insgesamt** Spalte.\
-   Workfront merkt sich, ob Sie eine Wochen- oder Monatsansicht anzeigen möchten. Wenn Sie das nächste Mal auf den Nutzungsbericht zugreifen, wird je nach ausgewählter Option die aktuelle Woche oder der aktuelle Monat angezeigt.
+   Workfront merkt sich, ob Sie eine Wochen- oder Monatsansicht anzeigen möchten. Wenn Sie das nächste Mal auf den Bericht &quot;Nutzung&quot;zugreifen, wird je nach ausgewählter Option die aktuelle Woche oder der aktuelle Monat angezeigt.
 
 ## Informationen zur Exportauslastung
 
@@ -664,25 +632,22 @@ In Microsoft Excel werden negative Zahlen in Klammern angezeigt.
 
 Informationen zur Exportauslastung:
 
-1. Um Auslastungsinformationen für ein einzelnes Projekt zu exportieren, gehen Sie zu dem Projekt, für das Sie Auslastungsinformationen exportieren möchten, und klicken Sie dann auf das **Nutzung** Registerkarte (abhängig von Ihren Layouteinstellungen, befindet sich dies möglicherweise unter der **Mehr** Registerkarte).
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
-
-   Um Nutzungsinformationen für mehrere Projekte, für ein Programm oder für ein Portfolio zu exportieren, klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Ressourcen**, dann **Nutzung** im linken Bereich.
-
-1. Klicks **Export**, befindet sich in der linken oberen Ecke der **Nutzung** Registerkarte.
+1. Klicks **Export** oben links im Bericht angezeigt.
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
    * **PDF:** Exportiert den Bericht im PDF-Format. Dies ist das empfohlene Format, wenn Sie den Bericht drucken möchten.\
-     Wählen Sie entweder **Brief - Hochformat**, **Brief - Querformat** oder **Sonstige Größen** (bietet Optionen für den Export in Legal (8,5&quot; x 14&quot;), Ledger (11&quot; x 17&quot;) und A4).\
-     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
+     Wählen Sie entweder **Brief - Hochformat**, **Brief - Querformat** oder **Sonstige Größen** (bietet Optionen für den Export in Legal (8,5&quot; x 14&quot;), Ledger (11&quot; x 17&quot;) und A4).
+Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
-   * **Excel:** Exportiert den Bericht im XLSX-Format. Dies ist das empfohlene Format, wenn Sie die Daten in Excel weiter analysieren möchten.\
-     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
+   * **Excel:** Exportiert den Bericht im XLSX-Format. Dies ist das empfohlene Format, wenn Sie die Daten in Excel weiter analysieren möchten.
+Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
-   * **Tabulatorgetrennt:** Exportiert den Bericht im TSV-Format. Dies ist das empfohlene Format, wenn Sie die Daten zur weiteren Analyse in die Software von Drittanbietern importieren möchten.\
-     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
+   * **Tabulatorgetrennt:** Exportiert den Bericht im TSV-Format. Dies ist das empfohlene Format, wenn Sie die Daten zur weiteren Analyse in die Software von Drittanbietern importieren möchten.
+Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
 1. Informationen in diesem Artikel lesen [Daten exportieren](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) , um zu verstehen, wie die exportierte Datei verwendet wird.
 
@@ -690,20 +655,19 @@ Informationen zur Exportauslastung:
 
 Sie können die Daten aus dem Nutzungsbericht in einer Diagrammansicht visualisieren.
 
-1. Um einen Nutzungsbericht für ein einzelnes Projekt in einem Diagrammformat anzuzeigen, gehen Sie zu dem Projekt, das Sie anzeigen möchten, und klicken Sie dann auf **Mehr anzeigen > Nutzung** im linken Bereich.
+1. Öffnen Sie den Nutzungsbericht.
+Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Nutzungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) um dies zu tun.
 
-   Oder
+1. Klicken Sie in der rechten oberen Ecke des Nutzungsberichts auf die Schaltfläche **Diagramm** Symbol.
 
-   Wenn Sie einen Nutzungsbericht im Diagrammformat für mehrere Projekte, für ein Programm oder für ein Portfolio anzeigen möchten, klicken Sie auf **Berichterstellung** in der Leiste &quot;Globale Navigation&quot;, um zum Bereich &quot;Berichterstellung&quot;zu wechseln, und klicken Sie dann auf das **Nutzung** Registerkarte.
+   ![Diagrammsymbol](assets/utilization-chart.png)
 
-1. Klicken Sie in der rechten oberen Ecke des Nutzungsberichts auf die Schaltfläche **Diagramm** Symbol.\
-   ![](assets/utilization-chart.png)\
    Der Nutzungsbericht wird in einer Diagrammansicht angezeigt.
 
-1. (Optional) Konfigurieren Sie diese Option, um Projekte, Programme oder Portfolios anzuzeigen, indem Sie die entsprechende Option aus dem **Anzeigen** Dropdown-Menü.
+1. (Optional) Konfigurieren Sie das Diagramm so, dass es Projekte, Programme oder Portfolios anzeigt, indem Sie die entsprechende Option aus dem **Anzeigen** Dropdown-Menü.
 1. (Optional) Bewegen Sie den Mauszeiger über einen bestimmten Zeitpunkt im Bericht, um Daten zu diesem Zeitpunkt anzuzeigen.
 
-   ![](assets/utilization-chart-hover-350x176.png)
+   ![Bewegen des Mauszeigers über einen Datenpunkt](assets/utilization-chart-hover.png)
 
-1. (Optional) Passen Sie die Filter an, um festzulegen, welche Informationen im Diagramm angezeigt werden. Informationen zum Anpassen der Filter finden Sie im Abschnitt . [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.
-1. (Optional) Konfigurieren Sie den Zeitrahmen des Diagrammberichts, wie im Abschnitt beschrieben. [Anpassen des Datumsbereichs, für den Informationen angezeigt werden](#adjust-the-date-range-for-which-information-is-displayed) in diesem Artikel.
+1. (Optional) Passen Sie die Filter an, um zu ändern, welche Informationen im Diagramm angezeigt werden. Informationen zum Anpassen der Filter finden Sie unter [Informationen zur Filterauslastung](#filter-utilization-information) in diesem Artikel.
+1. (Optional) Konfigurieren Sie den Zeitrahmen des Diagrammberichts, wie unter [Anpassen des Datumsbereichs, für den Informationen angezeigt werden](#adjust-the-date-range-for-which-information-is-displayed) in diesem Artikel.

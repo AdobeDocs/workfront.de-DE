@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Erstellen und Verwalten von Vorgangsrollen
 description: Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit Administratorzugriff auf "Auftragsrollen"können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ So erstellen Sie eine Arbeitsplatzrolle:
       <td>
         <p>Wählen Sie eine Währung aus, die mit dieser Auftragsrolle verknüpft ist. Diese Währung [!DNL Workfront] verwendet sie zur Berechnung von Kosten und Einnahmen im Zusammenhang mit dieser Stellenfunktion. </p> 
         <p><span>Dies unterscheidet sich von der [!UICONTROL Basiswährung], die von Ihrem [!DNL Workfront] Administrator im [!UICONTROL Setup] -Bereich und kann sich von der mit einem Projekt verknüpften Währung unterscheiden.</span> </p> 
-        <p>Tipp: In diesem Feld sind nur Währungen verfügbar, die im Bereich [!UICONTROL Wechselkurse] Ihres Systems verfügbar sind.</p> 
+        <p>Tipp: In diesem Feld sind nur Währungen verfügbar, die im Bereich [!UICONTROL Wechselkurse] Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, wird dieses Feld nicht angezeigt.</p> 
        <p><span>Informationen zum Einrichten der [!UICONTROL Basiswährung] finden Sie unter [!DNL Workfront], siehe</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wechselkurse einrichten</a>.</p> <p><span>Informationen zum Ändern der Währung eines Projekts finden Sie unter</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Ändern der Projektwährung</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

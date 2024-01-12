@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -318,6 +318,10 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 ## Schritt 1: Erste Schritte mit der Ressourcenverwaltung - {#step1-to-resourcing}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Ressourcen]**.
+
+## Schritt 1: Aufrufen des Nutzungsberichts - {#step1-to-utilization-report}
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Ressourcen]**, dann [!UICONTROL **Nutzung**] im linken Bereich.
 
 <!-- Review and approve work -->
 
