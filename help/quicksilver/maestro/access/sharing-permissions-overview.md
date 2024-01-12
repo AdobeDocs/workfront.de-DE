@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 8%
 
 ---
@@ -34,9 +34,9 @@ In diesem Artikel werden die Berechtigungsebenen für Maestro-Objekte beschriebe
 
 Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in den folgenden Artikeln:
 
-* [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Freigeben von Arbeitsbereichen](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Anzeigen freigeben](/help/quicksilver/maestro/access/share-views.md)
+* [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objekte, die Sie in Adobe Maestro freigeben können
 
@@ -53,7 +53,7 @@ Sie können die folgenden Objekte in Maestro freigeben:
 * Sie müssen über die folgende Lizenz verfügen, um Arbeitsbereiche in Maestro zu erstellen:
 
    * Neues Preismodell: Standardlizenz
-   * Aktuelles Preismodell: Arbeite oder höhere Lizenz
+   * Aktuelles Preismodell: Planungslizenz.
 
   Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.

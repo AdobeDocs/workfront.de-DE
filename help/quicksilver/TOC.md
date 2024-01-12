@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [So organisieren Sie Berichte in einem Dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Berichtverwendung anzeigen](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Kalender {#calendars}
-         * [Kalender](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Kalender: Artikelindex](reports-and-dashboards/reports/calendars/calendars.md)
          * [Kalenderberichte - Übersicht](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Verwenden geplanter Datumswerte in einem Kalenderbericht](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Datensatztypen verbinden](maestro/architecture/connect-record-types.md)
       * [Datensatztypen bearbeiten](maestro/architecture/edit-record-types.md)
       * [Löschen von Arbeitsbereichen](maestro/architecture/delete-workspaces.md)
+      * [Arbeitsbereiche bearbeiten](maestro/architecture/edit-workspaces.md)
       * [Löschen von Datensatztypen](maestro/architecture/delete-record-types.md)
       * [Beispiel für das Verbinden von Datensatztypen und Datensätzen](maestro/architecture/example-connect-record-types-and-records.md)
       * [Liste der Workspace-Vorlagen](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Zugriffsinformationen](maestro/access/access-information.md)
       * [Zugriffsübersicht](maestro/access/access-overview.md)
       * [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Freigeben eines Arbeitsbereichs](maestro/access/share-workspaces.md)
-      * [Anzeigen freigeben](maestro/access/share-views.md)
+      * [Freigeben von Arbeitsbereichen](maestro/access/share-workspaces.md)
+      * [Ansichten freigeben](maestro/access/share-views.md)
    * Adobe Maestro-Datensätze {#adobe-maestro-records}
       * [Datensätze: Artikelindex](maestro/records/records-information.md)
       * [Datensätze erstellen](maestro/records/create-records.md)

@@ -7,9 +7,9 @@ description: Das Hauptmenü ändert sich je nach Zugriffsstufe, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Die folgenden Bereiche sind im Standardlayout einer [!UICONTROL Worker]:
 
 * **[!UICONTROL Dashboards]**: Dashboards, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Kalender]**: Kalender, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Kalender](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Kalender]**: Kalender, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Kalender: Artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Teams]**: Aufgaben und Probleme, die Ihren Teams zugewiesen sind, werden in diesem Bereich angezeigt. Als Mitarbeiter sind Sie die Einzigen [!DNL Workfront] -Benutzer, der [!UICONTROL Teams] standardmäßig ein.
 

@@ -7,9 +7,9 @@ description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 01/2024 -->
 
-Ein Kalenderbericht ist tatsächlich ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für die folgenden Objekte in einem Kalenderbericht anzeigen:
+Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für die folgenden Objekte in einem Kalenderbericht anzeigen:
 
 * Aufgaben
 * Probleme

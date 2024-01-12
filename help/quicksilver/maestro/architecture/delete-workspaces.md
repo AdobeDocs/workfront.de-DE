@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Neu: Standard</p>
+   <p>Aktuell: Plan</p> 
   </td>
   </tr>
 
@@ -77,8 +78,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
-   <p><b>NOTIZ</b></p>
-   Benutzer von Arbeits- und Anfragelizenzen können keinen Arbeitsbereich erstellen, ihn jedoch löschen, wenn sie über Verwaltungsberechtigungen verfügen. 
+
 </td>
   </tr>
 <tr>
@@ -90,16 +90,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Überlegungen zum Löschen von Arbeitsbereichen
 

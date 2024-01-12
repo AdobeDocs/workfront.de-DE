@@ -6,9 +6,9 @@ description: Das Dashboard ermöglicht einen schnellen Zugriff auf Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Das Dashboard ermöglicht einen schnellen Zugriff auf Informationen. Sie können
 
 * Berichte
 
-   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalender
 
-   Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalender](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalender: Artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Externe Seiten
 
-   Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Nachdem Sie diese Elemente erstellt und zu einem Dashboard hinzugefügt haben, können Sie das Dashboard bearbeiten, um weitere Elemente hinzuzufügen, vorhandene Elemente daraus zu entfernen oder die Dashboard-Informationen zu bearbeiten.
 
@@ -45,7 +45,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -73,7 +73,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen
 ## Dashboard bearbeiten
 
 1. Gehen Sie zum Dashboard, das Sie bearbeiten möchten.
-1. Klicken **Dashboard-Aktionen** Klicken Sie auf **Bearbeiten**.
+1. Klicks **Dashboard-Aktionen** Klicken Sie auf **Bearbeiten**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
@@ -100,4 +100,4 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen
    Suchen Sie eine vorhandene externe Seite im Dashboard, bewegen Sie den Mauszeiger darüber und klicken Sie auf die Schaltfläche **Bearbeiten** -Symbol, um die externe Seite zu bearbeiten.\
    Weitere Informationen zum Hinzufügen oder Bearbeiten externer Seiten in einem Dashboard finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Klicken **Speichern und schließen**.
+1. Klicks **Speichern und schließen**.
