@@ -1,17 +1,17 @@
 ---
-title: Gruppen
+title: Gruppenübersicht
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen. Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen, benutzerdefinierte Formulare und Projekte von denen anderer Abteilungen trennen. Für jede Gruppe ist mindestens ein Gruppenadministrator erforderlich. Gruppenadministratoren können die Seite Gruppen verwenden, um ihre Gruppen an einem Ort zu verwalten. Sie können bis zu 14 Ebenen von Untergruppen unter einer Gruppe erstellen.
-author: Caroline
+description: Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -52,27 +52,27 @@ Wenn Sie eines der folgenden Workfront-Objekte erstellen oder bearbeiten, könne
 
 * **Projekt**: Sie können eine einzelne Gruppe mit einem Projekt verknüpfen, um die Eigentümerschaft des Projekts anzugeben.
 
-   Dadurch werden nicht implizit jedem Mitglied der Gruppe Berechtigungen für das Projekt gewährt. Um Berechtigungen für das Projekt zu erhalten, müssen Benutzer Rechte erhalten, indem sie das Projekt mit ihnen teilen.
+  Dadurch werden nicht implizit jedem Mitglied der Gruppe Berechtigungen für das Projekt gewährt. Um Berechtigungen für das Projekt zu erhalten, müssen Benutzer das Projekt für sie freigeben.
 
-   Benutzer können zwar Mitglieder mehrerer Gruppen sein, einem Projekt kann jedoch eine einzelne Gruppe zugeordnet sein. Benutzer aus anderen Gruppen können weiterhin an demselben Projekt arbeiten, wenn die Projekte für sie oder ihre Gruppen freigegeben wurden. Die mit dem Projekt verbundene Gruppe ist in der Regel entweder die Gruppe, die für den Abschluss des Projekts verantwortlich ist, oder die Gruppe, für die das Projekt bereitgestellt wird.
+  Benutzer können zwar Mitglieder mehrerer Gruppen sein, einem Projekt kann jedoch eine einzelne Gruppe zugeordnet sein. Benutzer aus anderen Gruppen können weiterhin an demselben Projekt arbeiten, wenn das Projekt für sie oder ihre Gruppen freigegeben wurde. Die mit dem Projekt verbundene Gruppe ist in der Regel entweder die Gruppe, die für den Abschluss des Projekts verantwortlich ist, oder die Gruppe, für die das Projekt bereitgestellt wird.
 
-   Anweisungen zum Verknüpfen eines Projekts mit einer Gruppe finden Sie unter [Informationen im Bereich &quot;Projektübersicht&quot;verwalten](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+  Anweisungen zum Verknüpfen eines Projekts mit einer Gruppe finden Sie unter [Informationen im Bereich &quot;Projektübersicht&quot;verwalten](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 * **Portfolio, Programm oder Unternehmen**: Wenn Sie ein Portfolio, Programm oder Unternehmen erstellen oder bearbeiten, können Sie ihm eine einzelne Gruppe zuweisen, um anzugeben, dass die Gruppe für dieses Portfolio verantwortlich ist oder ist. Mit dieser Vereinigung können Administratoren und Benutzer leicht erkennen, an welchen Portfolios, Programmen und Unternehmen ihre Gruppen arbeiten.
 
-   Beispielsweise kann ein Gruppenadministrator alle Portfolios in der Organisation mithilfe einer Liste oder eines Berichts auflisten und in der Spalte Gruppe feststellen, welchen Portfolios seine Gruppe zugewiesen ist.
+  Beispielsweise kann ein Gruppenadministrator alle Portfolios in der Organisation mithilfe einer Liste oder eines Berichts auflisten und in der Spalte Gruppe feststellen, welchen Portfolios seine Gruppe zugewiesen ist.
 
-   >[!NOTE]
-   >
-   >Die Zuweisung einer Gruppe zu einem Portfolio, Programm oder Unternehmen mit einer Gruppe bedeutet nicht automatisch, dass die Informationen in der Gruppe Zugriff auf die Daten haben. Sie müssen den Zugriff auf die Daten manuell für die Gruppe freigeben, bevor sie sie sehen können.
+  >[!NOTE]
+  >
+  >Die Zuweisung einer Gruppe zu einem Portfolio, Programm oder Unternehmen mit einer Gruppe bedeutet nicht automatisch, dass die Informationen in der Gruppe Zugriff auf die Daten haben. Sie müssen den Zugriff auf die Daten manuell für die Gruppe freigeben, bevor sie sie sehen können.
 
-   Anweisungen finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md), [Programm erstellen](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)und [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  Anweisungen finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md), [Programm erstellen](../../../manage-work/portfolios/create-and-manage-programs/create-program.md), und [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-* **Validierungsprozess**: Sie können einen Validierungsprozess für Projekte, Aufgaben und Probleme einer bestimmten Gruppe bereitstellen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* **Validierungsprozess**: Sie können einen Genehmigungsprozess für Projekte, Aufgaben und Probleme einer bestimmten Gruppe verfügbar machen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * **Milestone-Pfad**: Sie können Benutzern in bestimmten Gruppen erlauben, einen Meilensteinpfad für ihre Projekte zu verwenden. Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 * **Layout-Vorlage**: Sie können den Administratoren einer Gruppe die Berechtigung zum Ändern einer Layout-Vorlage erteilen. Anweisungen finden Sie unter [Administratorzugriff für eine Layoutvorlage gewähren](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
 
-* **Datenblatt-Profil**: Sie können den Administratoren einer Gruppe die Berechtigung erteilen, ein Timesheet-Profil zu ändern. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* **Datenblatt-Profil**: Sie können den Administratoren einer Gruppe die Berechtigung zum Ändern eines Timesheet-Profils erteilen. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Zeitpläne**: Sie können den Administratoren einer Gruppe die Berechtigung zum Ändern eines Zeitplans erteilen. Weitere Informationen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 * **Teams**: Sie können eine Gruppe mit einem Team verknüpfen, sodass die Administratoren der Gruppen und ihrer Untergruppen diese Teams aus dem Bereich Gruppen anzeigen und verwenden können. Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) oder [Team-Einstellungen bearbeiten](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).

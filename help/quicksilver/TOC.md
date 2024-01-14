@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 0%
 
 ---
@@ -645,7 +645,7 @@ ht-degree: 0%
          * [Berichte ausblenden](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E-Mails {#emails}
          * [E-Mails](administration-and-setup/manage-workfront/emails/emails.md)
-         * [E-Mail-Benachrichtigungen](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [E-Mail-Benachrichtigungen: Artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Ereignisbenachrichtigungen konfigurieren](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
          * [Verfügbare Ereignisbenachrichtigung](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Ereignisbenachrichtigungen für alle Gruppen entsperren](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
@@ -694,8 +694,8 @@ ht-degree: 0%
    * Gruppen verwalten {#manage-groups}
       * [Gruppen verwalten](administration-and-setup/manage-groups/manage-groups.md)
       * Gruppen {#groups}
-         * [Gruppenübersicht](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Gruppen](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Gruppen: Artikelindex](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Gruppenübersicht](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Übersicht über Untergruppen](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Übersicht über Startsegmente](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Gruppen erstellen und verwalten {#create-manage-groups}

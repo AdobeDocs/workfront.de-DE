@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Projekte, Aufgaben und Probleme erstellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
 
 # Erstellen oder Bearbeiten eines Status
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,18 +37,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td>
+     <p>Neu: Standard</p>
+     <p>oder</p>
+     <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Benutzerdefinierten Status erstellen oder bearbeiten
 
@@ -54,13 +62,13 @@ Sie können einen benutzerdefinierten Status hinzufügen, der von Ihrer gesamten
 
 Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstellen, können Sie ihn so konfigurieren, dass alle Gruppen im System ihn verwenden können, ohne ihn zu bearbeiten. Sie können sie auch so konfigurieren, dass Gruppenadministratoren sie für ihre Gruppen ändern können, wie hier beschrieben: [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klicken Sie im linken Bereich auf **Projektvoreinstellungen** > **Status**.
 
 1. (Bedingt) Wenn Sie einen Status für die Verwendung im gesamten System erstellen oder bearbeiten, stellen Sie sicher, dass **Systemstatus** wird in dem Feld oben rechts aktiviert.
 
-   ![](assets/system-statuses-in-upper-rt-corner.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Oder
 
@@ -70,7 +78,7 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**), die Sie mit dem Status verknüpfen möchten.
 
-1. Wenn Sie einen neuen Status erstellen, klicken Sie auf **Neuen Status hinzufügen**.
+1. Klicken Sie beim Erstellen eines neuen Status auf **Neuen Status hinzufügen**.
 
    Oder
 
@@ -106,7 +114,7 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
      </tr> 
      <tr> 
       <td role="rowheader">Status ausblenden</td> 
-      <td> <p>(Nur Projekt- und Aufgabenstatus)</p> <p>Aktivieren Sie diese Option, wenn der Status für Benutzer ausgeblendet werden soll. Wenn sie deaktiviert ist (Standardeinstellung), können alle Benutzer im System den Status verwenden.</p> <p>Sie können den Status eines Problems ausblenden, indem Sie alle vier Ausgabetypen deaktivieren (Fehlerbericht, Reihenfolge ändern, Problem, Anforderung).</p> </td> 
+      <td> <p>(Nur Projekt- und Aufgabenstatus)</p> <p>Aktivieren Sie diese Option, wenn der Status für Benutzer ausgeblendet werden soll. Wenn diese Option deaktiviert ist (Standardeinstellung), können alle Benutzer im System den Status verwenden.</p> <p>Sie können den Status eines Problems ausblenden, indem Sie diese Option für alle vier Ausgabetypen deaktivieren (Fehlerbericht, Änderungsreihenfolge, Problem, Anfrage).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Für alle Gruppen sperren</td> 
@@ -118,7 +126,7 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
        <p>Sie können sowohl gesperrte als auch entsperrte Status in einem Systemgenehmigungsprozess verwenden. Wenn Sie einen Systemgenehmigungsprozess mit einem entsperrten Systemstatus erstellen, können Benutzer im gesamten System den Genehmigungsprozess an jedes Projekt, jede Aufgabe oder jedes Problem im System anhängen.</p>
        <p> In den folgenden Szenarien werden Warnmeldungen angezeigt, die Ihnen und Ihren Benutzern helfen, die Ergebnisse der Statusentsperrung zu verstehen:</p>
        <ul>
-       <li>Ein Administrator entsperrt einen Systemstatus, der in einem Genehmigungsprozess verwendet wird. In einer Meldung wird gewarnt, dass der entsperrte Status für ihre Gruppen möglicherweise gelöscht wird, was verhindert, dass Gruppenmitglieder diesen Genehmigungsprozess ordnungsgemäß für Objekte verwenden, die ihrer Gruppe zugewiesen sind.</li>
+       <li>Ein Administrator entsperrt den Status auf Systemebene, der in einem Genehmigungsprozess verwendet wird. In einer Meldung wird gewarnt, dass der entsperrte Status für ihre Gruppen möglicherweise gelöscht wird, was verhindert, dass Gruppenmitglieder diesen Genehmigungsprozess ordnungsgemäß für Objekte verwenden, die ihrer Gruppe zugewiesen sind.</li>
        <li>Ein Benutzer beginnt mit der Bearbeitung eines Genehmigungsprozesses, der einen entsperrten Status verwendet. Eine Meldung informiert den Benutzer über den entsperrten Status, damit er beurteilen kann, ob es sinnvoll wäre, ihn erneut zu sperren oder zu ersetzen.</li>
        <li>Ein Genehmigungsprozess auf Systemebene mit einem entsperrten Status wird an ein Objekt angehängt und der Status wurde für die dem Objekt zugewiesene Gruppe gelöscht. Wenn ein Gruppenmitglied zum Bereich Validierungen für das Objekt wechselt, wird in einer Meldung erläutert, dass der Validierungsprozess für das Objekt nicht initiiert werden kann.</li>
        </ul>
