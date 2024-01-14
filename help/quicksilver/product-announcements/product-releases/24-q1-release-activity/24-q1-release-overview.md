@@ -4,7 +4,7 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Metadaten in Experience Manager Assets Essentials verwendet jetzt <code>xcm:keywords</code> anstelle von <code>dc:subject</code></a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Die Integration von Experience Manager Assets Essentials wurde aktualisiert und entspricht nun den Erlebnissen der as a Cloud Service Experience Manager Assets-Integration. Wenn nun mehrere einzeilige Textfelder in Experience Manager Assets einem einzelnen Feld zugeordnet werden, verwenden beide Dienste die <code>xcm:keywords</code> -Feld.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Zuordnen von Metadaten in Experience Manager Assets Essentials verwendet jetzt <code>xcm:keywords</code> anstelle von <code>dc:subject</code></a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Die Integration von Experience Manager Assets Essentials wurde aktualisiert und entspricht nun den Erlebnissen der as a Cloud Service Experience Manager Assets-Integration. Wenn nun mehrere einzeilige Textfelder in Experience Manager Assets einem einzelnen Feld zugeordnet werden, verwenden beide Dienste die <code>xcm:keywords</code> -Feld.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
