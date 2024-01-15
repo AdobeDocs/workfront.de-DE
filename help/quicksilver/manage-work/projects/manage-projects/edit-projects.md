@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7404'
 ht-degree: 1%
 
 ---
@@ -43,18 +43,18 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planun
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard </p> 
    Oder
    <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Projekte finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Projektzugriff gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -65,7 +65,7 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planun
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Einschränkungen bei der Bearbeitung von Projekten
 

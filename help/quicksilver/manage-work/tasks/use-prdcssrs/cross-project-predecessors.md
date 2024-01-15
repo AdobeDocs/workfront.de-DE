@@ -6,9 +6,9 @@ description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der ein
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -35,37 +35,6 @@ Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht übe
 
 ## Zugriffsanforderungen
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -73,29 +42,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
- <tr> 
-  <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-  <td> <p>Neu: Standard </p>
- <p>oder</p> 
-<p>Aktuell: Plan </p> 
-</td> 
- </tr>   <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard </p> 
+   Oder
+   <p>Aktuell: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Erstellen eines projektübergreifenden Vorgängers
 

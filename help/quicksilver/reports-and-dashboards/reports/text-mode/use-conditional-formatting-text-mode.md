@@ -6,9 +6,9 @@ description: Bedingte Formatierung im Textmodus verwenden
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard </p> 
+   <p>Oder</p>
    <p>Aktuell: Plan</p> 
    </td> 
   </tr> 
@@ -55,9 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Bedingte Formatierung im Textmodus
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3499'
 ht-degree: 0%
 
 ---
@@ -33,35 +33,6 @@ Weitere Informationen über die Art der Stunden, die Sie sich in Workfront anmel
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: 
-   <ul><li>Review or higher to log General Hours in a timesheet</li>
-   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel auszuführen und projektspezifische Stunden zu protokollieren:
 
 <table style="table-layout:auto"> 
@@ -69,30 +40,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu:<ul><li>Einfache oder höhere Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
-   <li> Standard oder höher: Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
-   <p>oder</p>
-   <p>Aktuell:<ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li></p>
-   <li> Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul></p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Licht oder höher</p>
+   <p>Aktuell: 
+   <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
+   <li>Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf den Typ des Arbeitselements, für den Sie die Zeit protokollieren </p> <p>Beispielsweise benötigen Sie Zugriff auf Probleme bearbeiten, um die Zeit für Probleme zu protokollieren.</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Bearbeiten Sie den Zugriff auf den Typ des Arbeitselements, für den Sie die Zeit protokollieren </p> <p>Beispielsweise benötigen Sie Zugriff auf Probleme bearbeiten, um die Zeit für Probleme zu protokollieren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Tragen Sie die Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, bei oder höher ein, einschließlich der Berechtigungen für "Log Hours".</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Beitragen oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich der Berechtigungen für "Log Hours"</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Überlegungen zur Protokollierung in Workfront
 
