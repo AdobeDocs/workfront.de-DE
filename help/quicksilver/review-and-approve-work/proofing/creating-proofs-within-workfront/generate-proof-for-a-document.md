@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Erstellen eines Testversands für ein Dokument
-description: Sie können zum Zeitpunkt des Hochladens auf Workfront einen Testversand für ein Dokument erstellen.
+description: Sie können zum Zeitpunkt des Hochladens auf Workfront einen Testversand für ein Dokument erstellen. Sie können auch einen Testversand für ein bereits in Adobe Workfront hochgeladenes Dokument oder für eine neue Testversion erstellen, die bereits in Workfront verfügbar ist.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in dem/der Sie einen neuen Testversand erstellen möchten.
 1. Klicken Sie auf **Dokumente** Registerkarte.
 1. Dokumente auswählen ![](assets/document-icon.png) im linken Bereich.
-1. Klicken **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
+1. Klicks **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
 
    >[!TIP]
    >
@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie eine neue Version eines vorhandenen Testversands erstellen möchten.
 1. Klicken Sie auf **Dokumente** Registerkarte.
 1. Wählen Sie das Dokument aus, dem Sie eine neue Version hinzufügen möchten.
-1. Klicken **Neu hinzufügen** > **Version** > **Testversand**.
+1. Klicks **Neu hinzufügen** > **Version** > **Testversand**.
 1. Im **Neue Testversion** angezeigt wird, können Sie
 
    * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können ein Dokument aus Ihrem Dateisystem (z. B. Ihrem Desktop) ziehen und ablegen, um einen neuen Testversand oder eine neue Version eines vorhandenen Testversands zu erstellen. Der Testversand enthält die folgenden Einstellungen, je nachdem, ob Sie einen neuen Testversand oder eine neue Version erstellen:
 
-* **Neuer Testversand:** Erstellt einen einfachen Testversand, der nur für Sie freigegeben ist. Sie können die Freigabeeinstellungen nach der Erstellung des Testversands ändern, wie unter [Testversandeinstellungen bearbeiten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Neuer Beweis:** Erstellt einen einfachen Testversand, der nur für Sie freigegeben ist. Sie können die Freigabeeinstellungen nach der Erstellung des Testversands ändern, wie unter [Testversandeinstellungen bearbeiten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
 * **Neue Version des vorhandenen Testversands:** Erstellt eine neue Version mit denselben Testversandeinstellungen wie die vorherige Version.
 
@@ -95,7 +95,7 @@ So erstellen Sie mit Drag &amp; Drop eine neue Testversand- oder Testversion:
 ## Erstellen eines Testversands für ein vorhandenes Dokument
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Abschnitt.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand erstellen** -Link, der unter dem Dokumentnamen angezeigt wird.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand erstellen** -Link, der unter dem Dokumentnamen erscheint.
 
    >[!NOTE]
    >

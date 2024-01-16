@@ -3,39 +3,41 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Verwalten von Proof-Rollen in [!DNL Workfront Proof]
-description: Mithilfe von Testprofilen können Sie Benutzern Berechtigungen erteilen, die durch das in ihrem Benutzerprofil konfigurierte Berechtigungsprofil eingeschränkt sind. (Weitere Informationen zu Berechtigungsprofilen finden Sie unter Profile für Testberechtigungen in [!DNL Workfront Proof].
+description: Mithilfe von Proof-Rollen können Sie Benutzern Berechtigungen erteilen, die durch das in ihrem Benutzerprofil konfigurierte Berechtigungsprofil eingeschränkt sind.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 1%
+source-wordcount: '1306'
+ht-degree: 0%
 
 ---
 
 # Verwalten von Proof-Rollen in [!DNL Workfront Proof]
 
+<!-- Audited: 01/2024 -->
+
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
-Mithilfe von Testprofilen können Sie Benutzern Berechtigungen erteilen, die durch das in ihrem Benutzerprofil konfigurierte Berechtigungsprofil eingeschränkt sind. (Weitere Informationen zu Berechtigungsprofilen finden Sie unter [Profile für Testberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Mithilfe von Proof-Rollen können Sie Benutzern Berechtigungen erteilen, die durch das in ihrem Benutzerprofil konfigurierte Berechtigungsprofil eingeschränkt sind. (Weitere Informationen zu Berechtigungsprofilen finden Sie unter [Profile für Testberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 Die Rollen für Testsendungen unterscheiden sich von den Kontoprofilen. Ihr Kontoprofil bezieht sich auf die allgemeine Berechtigungsstufe Ihres Kontos und wirkt sich auf die Rechte aus, die Sie für alle Testsendungen in Ihrem Konto haben, selbst wenn diese nicht explizit für Sie freigegeben wurden.
 
 Weitere Informationen finden Sie unter [Profile für Testberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-## Über Testrollen
+## Über Proof Roles
 
 Die folgenden Rollen für den Testversand werden Benutzern zum Zeitpunkt der Einladung zur Überprüfung des Testversands für einen individuellen Testversand zugewiesen:
 
 * [Schreibgeschützt](#read-only)
-* [Prüfer](#reviewer)
+* [Prüfende Person](#reviewer)
 * [Genehmigende Person](#approver)
 * [Prüfer und genehmigende Person](#reviewer-approver)
-* [Autor](#author)
-* [Moderator](#moderator)
+* [Verfassende Person](#author)
+* [Moderierende Person](#moderator)
 
 Die Rolle &quot;Testversand&quot;definiert, welche Aktionen ein Validierer in Bezug auf diesen spezifischen Testversand ausführen kann.
 
@@ -70,7 +72,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Weitere Informationen finden Sie unter [Ordner freigeben in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
-### Prüfer {#reviewer}
+### Prüfende Person {#reviewer}
 
 ![cleaner.png](assets/cleaner.png) Kann einen Testversand anzeigen
 
@@ -116,7 +118,7 @@ Weitere Informationen finden Sie unter [Ordner freigeben in [!DNL Workfront Proo
 
 ![no.png](assets/no.png) Hat keine Bearbeitungsrechte für den Testversand
 
-### Autor {#author}
+### Verfassende Person {#author}
 
 ![cleaner.png](assets/cleaner.png) Kann Markierungen hinzufügen
 
@@ -140,9 +142,9 @@ Weitere Informationen finden Sie unter [Ordner freigeben in [!DNL Workfront Proo
 
 >[!NOTE]
 >
->Diese Rolle kann nur Benutzern von [!DNL Workfront Proof]
+>Diese Rolle kann nur Benutzern von [!DNL Workfront Proof].
 
-### Moderator {#moderator}
+### Moderierende Person {#moderator}
 
 ![cleaner.png](assets/cleaner.png) Kann Markierungen hinzufügen
 
@@ -154,7 +156,7 @@ Weitere Informationen finden Sie unter [Ordner freigeben in [!DNL Workfront Proo
 
 ![cleaner.png](assets/cleaner.png) Kann neue Versionen senden
 
-![cleaner.png](assets/cleaner.png) Kann neue Validierungsverantwortliche hinzufügen
+![cleaner.png](assets/cleaner.png) Kann neue Überprüfer hinzufügen
 
 ![cleaner.png](assets/cleaner.png) Kann Aktionen auf Kommentare anwenden
 
@@ -167,7 +169,7 @@ Weitere Informationen finden Sie unter [Ordner freigeben in [!DNL Workfront Proo
 
 ![no.png](assets/no.png) Kommentare anderer Benutzer können nicht bearbeitet werden
 
-Diese Funktion ermöglicht es der Person, die Testversandkommentare zu verwalten und zu moderieren, sodass sie nur relevante Kommentare zum Nachweis speichern und nicht relevante Kommentare entfernen kann.
+Diese Funktion ermöglicht es der Person, die Testversandkommentare zu verwalten und zu moderieren, sodass sie nur relevante Kommentare zum Testversand speichern und nicht relevante Kommentare entfernen kann.
 
 >[!NOTE]
 >
@@ -177,10 +179,6 @@ Diese Funktion ermöglicht es der Person, die Testversandkommentare zu verwalten
 
 Sie können Testversandrollen beim Erstellen neuer Testsendungen, beim Erstellen neuer Versionen vorhandener Testsendungen oder bei vorhandenen Testsendungen zuweisen.
 
-* [Neue Testsendungen](#new-proofs)
-* [Neue Versionen](#new-versions)
-* [Vorhandene Testsendungen](#existing-proofs)
-
 ### Neue Testsendungen {#new-proofs}
 
 Überprüfer können auf der Seite [!UICONTROL Neuer Testversand] Seite während der Erstellung des Testversands (1).
@@ -189,7 +187,7 @@ Sie können Testversandrollen beim Erstellen neuer Testsendungen, beim Erstellen
 
 ### Neue Versionen {#new-versions}
 
-Beim Erstellen einer neuen Testversand-Version werden die validierungsverantwortlichen Benutzer der vorherigen Version automatisch angezeigt (mit der Rolle der vorherigen Version).
+Bei der Erstellung einer neuen Version eines Testversands werden die validierungsverantwortlichen Benutzer der vorherigen Version automatisch angezeigt (mit der Rolle der vorherigen Version).
 
 Sie können die Testversandrollen bearbeiten, die bei der Erstellung der neuen Version (1) auf die Validierungsverantwortlichen angewendet werden.
 
@@ -197,9 +195,9 @@ Sie können die Testversandrollen bearbeiten, die bei der Erstellung der neuen V
 
 ### Vorhandene Testsendungen {#existing-proofs}
 
-Wenn Sie die Rolle einer Person in einem vorhandenen Testversand ändern möchten, können Sie dies auf der [!UICONTROL Testversanddetails] Seite durch Inline-Bearbeitung ihrer Rolle im Workflow-Abschnitt (1):
+Wenn Sie die Rolle einer Person in einem vorhandenen Testversand ändern möchten, können Sie dies auf der [!UICONTROL Testversanddetails] Seite durch Inline-Bearbeitung ihrer Rolle im Workflow-Abschnitt (1).
 
-![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
+![Proof_Roles_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
 ## Rollen im Proof-Viewer überprüfen
 
@@ -221,9 +219,6 @@ Weitere Informationen finden Sie unter [Persönliche Einstellungen in [!DNL Work
 
 Ersteller und Inhaber verfügen über vollständige Bearbeitungsrechte für den Testversand.
 
-* [Ersteller](#creators)
-* [Inhaber](#owners)
-
 ### Ersteller {#creators}
 
 Der Ersteller des Testversands ist die Person, die den Testversand in der ersten Instanz hochlädt. Der Testversand-Ersteller wird automatisch in der Personenliste für den Testversand angezeigt (in seiner Standardrolle).
@@ -234,12 +229,12 @@ Der Testversand-Ersteller kann nicht geändert oder aus einem Testversand entfer
 
 ### Inhaber {#owners}
 
-Standardmäßig ist der Ersteller auch Eigentümer des Testversands. Der Ersteller kann jedoch bei der anfänglichen Erstellung des Testversands (auf der [!UICONTROL Neuer Testversand] Seite).
+Standardmäßig ist der Ersteller auch Eigentümer des Testversands. Der Ersteller kann jedoch bei der anfänglichen Erstellung des Testversands (auf der Seite [!UICONTROL Neuer Testversand] Seite).
 
 So ändern Sie den Inhaber auf der Seite Neuer Testversand :
 
 1. Klicken Sie auf den Link zum Ändern neben dem Namen des Erstellers.
-1. Wählen Sie den neuen Inhaber aus dem Dropdown-Menü aus. (2)
+1. Wählen Sie den neuen Inhaber aus dem Dropdown-Menü aus. Absatz 2
 
 ![Proof_roles_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
@@ -249,9 +244,9 @@ Die Möglichkeit, den Inhaber eines Testversands zu ändern, ist insbesondere au
 
 So ändern Sie den Inhaber des Testversands über die [!UICONTROL Testversanddetails] Seite:
 
-* Klicken Sie auf das Menü Aktionen neben dem Namen der Person, der Sie den Inhaber zuweisen möchten
-* Auswählen [!UICONTROL Inhaber machen] aus dem Dropdown-Menü.
-* Alternativ können Sie auf die [!UICONTROL Inhaber] neben dem Testversand-Bild und wählen Sie in der Dropdown-Liste den neuen Inhaber aus.
+* Klicken Sie auf das Menü Aktionen neben dem Namen der Person, die Sie zum Inhaber machen möchten.
+* Auswählen [!UICONTROL **Inhaber machen**] aus dem Dropdown-Menü.
+* Alternativ können Sie auf die [!UICONTROL **Inhaber**] neben dem Testversand-Bild und wählen Sie in der Dropdown-Liste den neuen Inhaber aus.
 
 Danach wird neben dem Namen der Person das Wort &quot;Inhaber&quot;angezeigt.
 
@@ -263,9 +258,5 @@ Danach wird neben dem Namen der Person das Wort &quot;Inhaber&quot;angezeigt.
 >* Es gibt keine benutzerdefinierten Felder auf der [!UICONTROL Neuer Testversand] Seite.
 >* Der Testversand wurde keinem Ordner zugewiesen.
 >* Auf den Testversand wurden keine Tags angewendet.
->
-
-
-
 
 So delegieren Sie vorübergehend das Testversandeigentum in [!DNL Workfront Proof], siehe [Begeben von vorübergehenden Testversandinhabern in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
