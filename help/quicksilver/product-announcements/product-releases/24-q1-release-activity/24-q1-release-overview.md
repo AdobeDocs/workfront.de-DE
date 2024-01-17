@@ -4,7 +4,7 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
+source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -470,11 +470,11 @@ Es gibt derzeit keine Workfront Testversandaktualisierungen in der Version. Dies
 
 Es gibt derzeit keine Aktualisierungen zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
 
-### API-Version 16
+### API-Version 17
 
-Für API Version 16 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
+Für API Version 17 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API Version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API Version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
