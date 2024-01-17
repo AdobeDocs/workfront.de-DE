@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen von Maestro:
 * Passen Sie Ihre Workflows vollständig an, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren Sie, wie diese Objekte miteinander verknüpft werden.
 * Relation zu Objektarten aus anderen Systemen, Erstellung eines kohärenten Frameworks für alle Ihre Prozesse.
 
-## Derzeit in Maestro verfügbare Funktionen
+## Derzeit verfügbare Maestro-Funktionen
 
 Die folgende Tabelle zeigt die wichtigsten Funktionen, die in Maestro verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
+
+Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Maestro-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Im Folgenden finden Sie die wichtigsten Maestro-Objekte und -Konzepte:
 
 * **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie eine Verbindung herstellen.
 
+  Wenn Sie beispielsweise eine Maestro-Kampagne mit einem Workfront-Projekt verbinden, können Sie das Feld Projektinhaber der verbundenen Projekte in den Maestro-Kampagnensätzen anzeigen.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Informationen zum Verknüpfen von Datensatztypen und Datensätzen sowie zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
@@ -268,7 +272,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 
 ## Suchen Sie Maestro
 
-Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf Maestro erhalten hat und dass Ihr System- oder Gruppenadministrator den Bereich Maestro zu Ihrem Hauptmenü hinzugefügt hat.
+Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf Maestro erhalten hat und dass Ihr System- oder Gruppenadministrator den Bereich Maestro zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md) .
 
 Suchen nach Maestro:
 

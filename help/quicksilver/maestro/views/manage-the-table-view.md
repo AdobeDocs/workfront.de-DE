@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
       Sie können keine Suchbegriffe verwenden, die Feldern zugeordnet sind, die in der Tabellenansicht ausgeblendet sind.
 
-   1. Drücken Sie die Eingabetaste auf Ihrer Tastatur, um zum nächsten gefundenen Feld zu wechseln.
+   1. Presse **Eingabe** auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
 
    1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
 
@@ -279,7 +279,7 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
         </thead>
         <tbody>
         <tr>
-            <td>Einzeiliger Absatz </td>
+            <td>Einzeiliger Absatz, Formel </td>
             <td><p>Enthält</p>
             <p>Enthält nicht</p>
             <p>Ist</p>
@@ -296,7 +296,7 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
             <p>Ist nicht leer</p></td>
         </tr>
         <tr>
-            <td>Mehrfachauswahl</td>
+            <td>Mehrfachauswahl, Personen</td>
             <td><p>Hat eines von</p>
             <p>Hat alle von</p>
             <p>Ist genau</p>
@@ -305,7 +305,7 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
             <p>Ist nicht leer</p></td>
         </tr>
         <tr>
-            <td>Numerisch, Prozent, Währung</td>
+            <td>Zahl, Prozentsatz, Währung</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

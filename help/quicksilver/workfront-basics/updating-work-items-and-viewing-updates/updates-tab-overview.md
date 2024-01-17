@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1179'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # Übersicht über den Aktualisierungsabschnitt
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. </span>
-
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -46,18 +44,11 @@ ht-degree: 3%
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
 
 Im Abschnitt Updates eines Objekts werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, finden Sie im Abschnitt Aktualisierungen möglicherweise das folgende Erlebnis:
 
@@ -97,7 +88,7 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
 
 ### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -250,7 +241,7 @@ Adobe Workfront-Administratoren und Gruppenadministratoren können sich als ande
 
 Weitere Informationen finden Sie unter [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Beachten Sie beim Anmelden als anderer Benutzer und beim Hinzufügen von Kommentaren Folgendes:
+Beachten Sie Folgendes, wenn Sie sich als anderer Benutzer anmelden und Kommentare hinzufügen:
 
 * Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
 

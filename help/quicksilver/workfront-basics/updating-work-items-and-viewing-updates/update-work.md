@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihre Aktualisierung anzuhängen:
 
-   * <span class="preview">Speichern Sie das Bild auf unserem Computer und ziehen Sie es in den Bereich Neuer Kommentar .</span>
-     <span class="preview">Dies ist in der Produktionsumgebung für das neue Kommentierungserlebnis nicht verfügbar. Das Ziehen und Ablegen eines Bildes in einen Kommentar ist in der bisherigen Kommentarfunktion in der Produktion verfügbar. </span>
-
-   * <span class="preview">Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein. </span>
+   * Speichern Sie das Bild auf unserem Computer und ziehen Sie es in den Bereich Neuer Kommentar .
+   * Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein. Dies ist im alten Kommentierungserlebnis nicht verfügbar.
    * Klicken Sie auf **Bild hinzufügen** icon ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
 
 
@@ -392,7 +390,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Der Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt &quot;Voreinstellungen für Feeds aktualisieren&quot;der Workfront-Benutzeroberfläche aktivieren, bevor die Symbole Bild oder Anhang hinzufügen angezeigt werden. Weitere Informationen finden Sie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Bilddateigröße beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
    >* Auf Bilder kann über den Abschnitt Updates eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente unter dem Hauptmenü verfügbar.
-   >* <span class="preview">Sie können das Bild einfügen, indem Sie mit der rechten Maustaste auf den neuen Kommentar klicken oder indem Sie Strg + V für Windows (oder CMD + V für Mac) auf Ihrer Tastatur drücken.</span>
+   >* Sie können das Bild einfügen, indem Sie mit der rechten Maustaste auf den neuen Kommentar klicken oder indem Sie Strg + V für Windows (oder für Mac) auf die Tastatur drücken.
    >* Sie können ein Update mit einem Bild und ohne Text senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, gibt es je nach ausgewähltem Erlebnis die folgenden Szenarien:
    >
@@ -404,12 +402,10 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild in der vorhandenen Aktualisierung anzuzeigen:
 
-   * Klicken Sie auf **Vorschau** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> auf der Miniaturansicht des Bildes, um das Bild in voller Größe in einer neuen Browser-Registerkarte zu öffnen.
+   * Klicken Sie auf **Vorschau** icon ![](assets/previewimageicon-31x31.png) auf der Miniaturansicht des Bildes, um das Bild in voller Größe in einer neuen Browser-Registerkarte zu öffnen.
    * Klicken Sie auf **Herunterladen** icon ![](assets/downloadimageicon.png) auf der Miniaturansicht, um das Bild herunterzuladen.
 
 1. Klicks **Einsenden** , um Ihren Kommentar hinzuzufügen.
-
-<div class="preview">
 
 ## Nach einer Aktualisierung suchen
 
@@ -422,7 +418,11 @@ Sie können nach einem Kommentar oder einer Antwort im Abschnitt Updates eines O
 1. Navigieren Sie zu **Updates** -Abschnitt eines Objekts.
 1. Eingabe eines Suchbegriffs beginnen <!--or a user's name --> im **Suche** in der oberen rechten Ecke des **Kommentare** Registerkarte.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   Sie können nur nach Wörtern suchen, die zum Text eines Kommentars oder einer Antwort gehören. Sie können nicht nach Namen von Benutzern oder Teams suchen, die in einer Aktualisierung mit Tags versehen wurden.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ Sie können nach einem Kommentar oder einer Antwort im Abschnitt Updates eines O
    Workfront durchsucht den gesamten Update-Stream des Objekts außerhalb der auf dem Bildschirm sichtbaren Kommentare.
 
 1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zu allen Kommentaren zurückzukehren.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

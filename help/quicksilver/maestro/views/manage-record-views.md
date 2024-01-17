@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen den Tabe
 | Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |
 | Anzeigen von Datensätzen in einer Timeline |            | ✓ |
 | Datensätze filtern | ✓ | ✓ |
-| Gruppeneinträge |           | ✓ |
+| Gruppeneinträge | ✓ | ✓ |
 | Datensätze sortieren | ✓ |              |
 | Farbcode-Datensätze |           | ✓ |
 | Farbcode-Gruppierungen |           | ✓ |
-| Suchdatensätze | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Suche nach bestimmten Datensätzen | ✓ | ✓ |
+| Freigabeansicht | ✓ | ✓ |
+| Öffnen Sie die Detailseite des Datensatzes in der Ansicht. | ✓ | ✓ |
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
    Standardmäßig benennt Maestro die Ansicht &quot;Tabelle &lt; Zahl >&quot;oder &quot;Timeline &lt; Zahl >&quot;. Die Zahl ist ein automatisch generiertes Inkrement.
 
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren. <!--ensure there is not another saving step here?!-->
-1. (Optional) Weitere Informationen zum Verwalten einer Ansicht finden Sie in den folgenden Artikeln:
+1. (Optional) Informationen zum Verwalten einer bestimmten Ansicht finden Sie in den folgenden Artikeln:
 
    * [Tabellenansicht verwalten](../views/manage-the-table-view.md)
    * [Verwalten der Timeline-Ansicht](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Ansichten löschen
 
@@ -202,6 +197,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
 Informationen zum Freigeben von Ansichten finden Sie unter [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 
