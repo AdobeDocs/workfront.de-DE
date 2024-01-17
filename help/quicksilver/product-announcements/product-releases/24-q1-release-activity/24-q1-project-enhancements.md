@@ -3,9 +3,9 @@ title: Projektverbesserungen für das erste Quartal 2024
 description: Verbesserungen am ersten Quartal 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 >[!NOTE]
 >
->Produktion für schnelle Veröffentlichung: Mit Version 24.1; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Produktion für schnelle Veröffentlichung: Mit Version 24.2 (Februar 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 

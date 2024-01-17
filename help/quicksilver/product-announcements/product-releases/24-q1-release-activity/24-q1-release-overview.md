@@ -4,20 +4,18 @@ description: Übersicht über die Version des ersten Quartals 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Version des ersten Quartals 2024
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der für die Woche vom 15. Januar 2024 geplanten Version vom ersten Quartal 2024 enthalten sind.
+Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom ersten Quartal 2024 enthalten sind. Diese Verbesserungen sollen in der Produktionsumgebung für alle Kunden mit der Version 24.1 vom 18. Januar und 19. Januar 2024 verfügbar sein.
 
-Die Verbesserungen auf dieser Seite sind in der Vorschau -Umgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, da die Veröffentlichung des ersten Quartals 2024 kurz vor der geplanten Produktionsversion steht.
-
-Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [Melden Sie sich hier für das Webinar an](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie können [Registrieren Sie sich für das Webinar, um eine On-Demand-Aufzeichnung hier anzuzeigen.](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Ersten Quartal 2024 veröffentlicht wurden) sind gelb hervorgehoben.</span>
 
@@ -352,9 +350,10 @@ Das Webinar zur Version 24.1 wird am 11. Januar 2024 stattfinden. Sie können [M
                         <ul>
                             <li>
                                 <p>Vorschau-Version: 21. Dezember 2023</p>
+                                <p>HINWEIS: Diese Funktion bleibt bis zur Version 24.4 in der Vorschau.</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit Version 24.1</p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (Februar 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion für alle Kunden: Mit der Version 24.4 (April 2024)</p>
