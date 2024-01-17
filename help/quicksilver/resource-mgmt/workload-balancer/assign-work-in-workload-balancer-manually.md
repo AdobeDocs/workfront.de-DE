@@ -3,14 +3,14 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs
 description: Mit dem Adobe Workfront Workload Balancer können Sie Benutzern Arbeitselemente manuell zuweisen.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -30,16 +30,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
@@ -67,13 +67,13 @@ Sie können Arbeitselemente zuweisen, die noch keinem Benutzer zugewiesen wurden
 
    Sie können Benutzern mithilfe des Lastenausgleichs im Bereich &quot;Ressourcen&quot;, auf Projekt- oder Teamebene Arbeit zuweisen. Weitere Informationen darüber, wo sich der Arbeitslast-Balancer in Workfront befindet, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Navigieren Sie zum **Nicht zugewiesene Arbeit** Bereich anzeigen und Filter anwenden, um Aufgaben oder Probleme anzuzeigen
+1. (Optional) Navigieren Sie zum **Nicht zugewiesene Arbeit** Bereich und Filter zur Ansicht von Aufgaben oder Problemen anwenden
 
    Oder
 
    Navigieren Sie zu **Zugewiesene Arbeit** den Namen eines Benutzers ein und erweitern Sie ihn, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie dessen Elemente neu zuweisen möchten.
 
-1. Klicken Sie auf **Mehr Menü** ![](assets/qs-more-menu.png) links neben dem Namen eines Arbeitselements und klicken Sie dann auf **Weisen Sie dies zu**.
+1. Klicken Sie auf **Mehr Menü** ![](assets/qs-more-menu.png) links neben dem Namen eines Arbeitselements und klicken Sie dann auf **Zuweisen**.
 
    ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
@@ -81,7 +81,7 @@ Sie können Arbeitselemente zuweisen, die noch keinem Benutzer zugewiesen wurden
    >
    >Sie können auch die folgenden Verknüpfungen verwenden, um Aufgaben oder Probleme zuzuweisen:
    >
-   >* Windows: Klicken Sie bei gedrückter Strg-Taste auf die Aufgaben- oder Problemleiste.
+   >* Unter Windows: Klicken Sie bei gedrückter Strg-Taste auf die Aufgaben- oder Problemleiste.
    >* In Mac: Klicken Sie bei gedrückter CMD-Taste auf die Aufgaben- oder Problemleiste.
 
 1. Führen Sie einen der folgenden Schritte aus:
@@ -122,7 +122,7 @@ Sie können Arbeitselemente zuweisen, die noch keinem Benutzer zugewiesen wurden
    >   
    >
 
-   * Klicken **Erweitert** , um auf erweiterte Zuweisungen zuzugreifen.
+   * Klicks **Erweitert** , um auf erweiterte Zuweisungen zuzugreifen.
 
      Weitere Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erweiterte Zuweisungen erstellen](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

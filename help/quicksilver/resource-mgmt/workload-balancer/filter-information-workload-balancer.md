@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Filtern von Informationen im Arbeitslastausgleich
 description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen verwalteten Benutzer oder Elemente zu konzentrieren, empfehlen wir dringend, Filter im Arbeitsladeregel zu verwenden.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%

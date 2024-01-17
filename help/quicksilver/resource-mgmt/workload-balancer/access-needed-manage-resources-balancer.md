@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer
 description: Ohne korrekten Zugriff oder ohne entsprechende Berechtigungen können Sie Ihre Arbeitsaufgaben möglicherweise nicht im Arbeitslastausgleich anzeigen oder verwalten.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich zu verwalt
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie die Verwaltung von Zuweisungen im Arbeitslastausgleich im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie die Verwaltung von Zuweisungen im Arbeitslastausgleich im Ressourcenbereich.</p>
    <p>Arbeiten zum Verwalten von Zuweisungen im Arbeitslastausgleich eines Teams oder Projekts</p>
    </td> 
   </tr> 

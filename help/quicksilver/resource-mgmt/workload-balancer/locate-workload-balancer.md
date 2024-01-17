@@ -4,10 +4,10 @@ keywords: Arbeitsbereich,Team,Personal,Ressourcen
 navigation-topic: the-workload-balancer
 title: Suchen Sie den Lastenausgleich .
 description: Sie können den Lastenausgleich verwenden, um Ressourcen für die Arbeit zu planen oder deren Verfügbarkeit und aktuelle Zuordnungen zu überprüfen.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

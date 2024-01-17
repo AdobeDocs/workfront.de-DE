@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navigieren Sie zum Lastenausgleich .
 description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Ressourcen zu verstehen und Ihren Benutzern Arbeit zuzuweisen. Dieser Artikel führt Sie durch die Verwendung der verfügbaren Symbole und Einstellungen zum Aktualisieren der Ansicht für und Navigieren in den Lastenausgleich.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -121,7 +121,7 @@ Beachten Sie Folgendes bei der Anzeige des Lastenausgleichs:
 
 * Wenn Sie nicht berechtigt sind, bestimmte Elemente anzuzeigen, werden sie als **Unzugängliche Arbeitselemente** oder **Nicht zugängliche Projekte**.
 
-  ![Nicht zugängliche Arbeitselemente](assets/wb-inaccessible-work-items.png)
+  ![Unzugängliche Arbeitselemente](assets/wb-inaccessible-work-items.png)
 
 * Die Namen der Arbeitselemente werden links und ihre Timeline rechts angezeigt.
 * Die Gesamtanzahl der geplanten Stunden für jedes Arbeitselement wird rechts neben dem Namen des Arbeitselements und links neben der Leiste angezeigt, die die Timeline des Arbeitselements darstellt.

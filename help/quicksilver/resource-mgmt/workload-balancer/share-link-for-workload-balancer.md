@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Den Lastenausgleich über einen Link freigeben
 description: Sie können den Lastenausgleich für andere Benutzer freigeben, für die möglicherweise nicht der Bereich "Ressourcen"verfügbar ist. Weitere Informationen zur Verwendung des Workload-Balancers finden Sie unter Navigieren im Arbeitslastausgleich .
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +63,9 @@ Wenn Sie einen Link zum Lastenausgleich für andere Benutzer freigeben, sind die
 * Projekt, Aufgabe, Benutzerinformationen. Dazu gehören die Informationen zur Benutzerzuordnung.
 * Die Informationen werden entsprechend dem ausgewählten Filter angezeigt.
 
-   >[!IMPORTANT]
-   >
-   >Wenn Sie die Filter löschen, nachdem Sie den Link freigegeben haben, erhalten die Benutzer, die den Lastenausgleich aus dem Link anzeigen, eine Warnung, dass die Filter gelöscht wurden. Sie zeigen alle Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;an. Dies ist die Standardansicht für den Lastenausgleich.
+  >[!IMPORTANT]
+  >
+  >Wenn Sie die Filter löschen, nachdem Sie den Link freigegeben haben, erhalten die Benutzer, die den Lastenausgleich aus dem Link anzeigen, eine Warnung, dass die Filter gelöscht wurden. Sie zeigen alle Benutzer im Bereich Zugewiesene Arbeit an. Dies ist die Standardansicht für den Lastenausgleich.
 
 * Die Anzahl der zuvor ausgewählten Wochen.
 
@@ -74,18 +74,18 @@ Die folgenden Optionen stehen Benutzern zur Verfügung, die den Lastenausgleich 
 * Die folgenden Timeline-Auswahlen:
 
    * Heute
-   * Symbole &quot;Zurück&quot;und &quot;Vorwärts&quot;
+   * Symbole für Zurück und Vorwärts
    * Kalenderauswahl
 
 * Symbole Tag, Woche und Monat
-* Symbol Einstellungen
+* Das Symbol Einstellungen
 * Symbol Zuordnungen anzeigen
 
-   Informationen zur Verwendung dieser Optionen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Informationen zur Verwendung dieser Optionen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Symbol &quot;Rollenzuweisungen anzeigen&quot;
 
-   Dies ist nur für den Lastenausgleich eines Projekts verfügbar.
+  Dies ist nur für den Lastenausgleich eines Projekts verfügbar.
 
 Der Benutzer, der den freigegebenen Link erhält, kann im Lastenausgleich von diesem Link aus Folgendes nicht tun:
 
@@ -110,13 +110,13 @@ Sie benötigen den folgenden Zugriff, um Informationen über einen freigegebenen
 1. (Optional) Führen Sie einen oder mehrere der folgenden Schritte aus:
 
    * Aktualisieren Sie die Zeitraumauswahl.
-   * Klicken **Tag, Woche** oder **Monat** um tägliche, wöchentliche oder monatliche Informationen anzuzeigen.
+   * Klicks **Tag, Woche** oder **Monat** um tägliche, wöchentliche oder monatliche Informationen anzuzeigen.
 
-      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Wenden Sie Filter auf die Bereiche Nicht zugewiesene und Zugewiesene Arbeit an.
 
-      Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 1. Klicken Sie auf **Link-Symbol** ![](assets/wb-shearable-link-icon-small.png).
 
@@ -127,8 +127,8 @@ Sie benötigen den folgenden Zugriff, um Informationen über einen freigegebenen
    * Fügen Sie ihn in eine E-Mail, eine Chat-Nachricht oder eine andere Anwendung ein und geben Sie ihn für andere Benutzer frei.
    * Fügen Sie ihn zu einem benutzerdefinierten Abschnitt als externe Seite hinzu, fügen Sie den benutzerdefinierten Abschnitt zum Profil eines Benutzers oder zu einer Layout-Vorlage hinzu und geben Sie die Layout-Vorlage für Benutzer, Teams, Vorgangsrollen oder Gruppen frei.
 
-      Informationen zum Erstellen einer externen Seite finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Informationen zum Hinzufügen benutzerdefinierter Abschnitte zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Informationen zum Erstellen einer externen Seite finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Informationen zum Hinzufügen benutzerdefinierter Abschnitte zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-      >[!IMPORTANT]
-      >
-      >Wenn Sie den Lastenausgleich zum benutzerdefinierten Abschnitt eines Objekts hinzufügen, werden die Informationen im Arbeitslastausgleich nicht durch das -Objekt gefiltert. Der Lastenausgleich zeigt die Informationen an, die nach den ursprünglich angewendeten Filtern gefiltert wurden.
+     >[!IMPORTANT]
+     >
+     >Wenn Sie den Lastenausgleich zum benutzerdefinierten Abschnitt eines Objekts hinzufügen, werden die Informationen im Arbeitslastausgleich nicht durch das -Objekt gefiltert. Der Lastenausgleich zeigt die Informationen an, die nach den ursprünglich angewendeten Filtern gefiltert wurden.

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Gruppenübersicht
+
+<!-- Audited: 01/2024 -->
 
 Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen.
 
@@ -28,7 +30,7 @@ Sie können bis zu 14 Ebenen von Untergruppen unter einer Gruppe erstellen. Weit
 
 ## Verwenden von Gruppen zum Organisieren von Benutzern
 
-Als Workfront-Administrator oder Gruppenadministrator können Sie Benutzer Gruppen und Untergruppen zuordnen. Wenn Sie eine Gruppe öffentlich machen, können Benutzer mit einer Planner-Lizenz Benutzer damit verknüpfen. Weitere Informationen zu Gruppenadministratoren und öffentlichen Gruppen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Als Workfront-Administrator oder Gruppenadministrator können Sie Benutzer Gruppen und Untergruppen zuordnen. Wenn Sie eine Gruppe öffentlich machen, können Benutzer mit einer Standardlizenz (neu) oder einer Planungslizenz (aktuell) Benutzer damit verknüpfen. Weitere Informationen zu Gruppenadministratoren und öffentlichen Gruppen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Wenn Sie einen Benutzer erstellen, empfehlen wir, diesen Benutzer der entsprechenden Startseite und anderen Gruppen hinzuzufügen, in denen der Benutzer arbeiten soll. Ein Benutzer kann nur über eine Home Group verfügen, sich jedoch mehreren anderen Gruppen angehören.
 

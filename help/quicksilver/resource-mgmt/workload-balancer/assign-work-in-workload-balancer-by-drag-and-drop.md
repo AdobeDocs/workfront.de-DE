@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen
 description: Sie können Arbeitselemente mithilfe des Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente an die richtigen Benutzer ziehen und dort ablegen.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
@@ -90,7 +90,6 @@ Sie können einem Benutzer ein Element aus dem Bereich &quot;Nicht zugewiesene A
 
 
 
-
 1. Klicken Sie auf die Leiste eines Arbeitselements, das entweder die geplante oder die geplante Timeline anzeigt, und ziehen Sie sie auf den Namen eines Benutzers im **Zugeordnet** Bereich.
 
    Der Benutzer, über den Sie den Mauszeiger bewegen, um das Arbeitselement in abzulegen, wird hervorgehoben.
@@ -108,13 +107,12 @@ Sie können einem Benutzer ein Element aus dem Bereich &quot;Nicht zugewiesene A
    >[!TIP]
    >
    >* Wenn Sie Gruppe nach Projekt im Bereich Einstellungen aktiviert haben, wird die zugewiesene Aufgabe unter dem entsprechenden Projekt angezeigt. Wenn die Einstellung deaktiviert ist, wird die zugewiesene Aufgabe im Benutzerbereich angezeigt.
-      >
-      >
-      >     Das Element wird gemäß den Kriterien für den Lastenausgleich zum Sortieren von Arbeitselementen angezeigt. Weitere Informationen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >
+   >
+   >     Das Element wird gemäß den Kriterien für den Lastenausgleich zum Sortieren von Arbeitselementen angezeigt. Weitere Informationen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
    >* Wenn Sie die Option Anzeigen aller Benutzer im Arbeitslastausgleich eines Projekts aktiviert und Benutzern Elemente zugewiesen haben, die zuvor nicht Elementen im Projekt zugewiesen waren, werden die Benutzer zum Projektteam hinzugefügt. Weitere Informationen finden Sie unter [Verwalten des Projektteams](../../manage-work/projects/planning-a-project/manage-project-team.md).
-
 
 
 1. (Optional) Klicken Sie auf die Leiste eines Arbeitselements unter dem Namen eines Benutzers im Bereich &quot;Zugewiesene Arbeit&quot;und ziehen Sie es dann über den Bereich &quot;Nicht zugewiesene Arbeit&quot;, um die Zuweisung aufzuheben. Das Element wird vom Benutzer nicht zugewiesen, kann jedoch dennoch einer Auftragsrolle zugewiesen sein. In diesem Fall wird es im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt. Wenn das Element einem anderen Benutzer zugewiesen ist, bleibt es im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers, der noch zugewiesen ist.

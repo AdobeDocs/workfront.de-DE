@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Aufheben der Zuweisung von Arbeit zum Arbeitslastausgleich
 description: Sie können die Zuweisung von Benutzern zu Arbeitselementen im Bereich Zugewiesene Arbeit des Adobe Workfront Workload Balancer aufheben oder sie anderen Benutzern, Rollen oder Teams zuweisen.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -33,11 +33,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
 
 </td> 
@@ -73,9 +73,10 @@ So heben Sie die Zuweisung von Arbeitselementen zu Benutzern auf:
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Suchen Sie das Element, das Sie aufheben möchten, im Bereich eines Benutzers, klicken Sie darauf und ziehen Sie es in den Bereich Nicht zugewiesen oder in den Bereich eines anderen Benutzers.
-   * Klicken Sie auf **Mehr** icon ![](assets/more-icon-task-list.png) rechts neben dem Namen eines Arbeitselements klicken Sie auf **Weisen Sie dies zu**, entfernen Sie dann den Namen der dem Arbeitselement zugewiesenen Entitäten oder geben Sie einen anderen Namen ein und klicken Sie auf **Speichern**.
+   * Klicken Sie auf **Mehr** icon ![](assets/more-icon-task-list.png) rechts neben dem Namen eines Arbeitselements klicken Sie auf **Zuweisen**, entfernen Sie dann den Namen der dem Arbeitselement zugewiesenen Entitäten oder geben Sie einen anderen Namen ein und klicken Sie auf **Speichern**.
 
-      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+
    Das Element wird im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt, wenn es den Filterkriterien für diesen Bereich entspricht und keinem anderen Benutzer zugewiesen ist, oder im Benutzerbereich, wenn es einem anderen Benutzer zugewiesen ist.
 
    Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

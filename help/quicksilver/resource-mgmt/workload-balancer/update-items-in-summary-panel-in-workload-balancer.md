@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung
 description: Sie können das Bedienfeld "Zusammenfassung"im Arbeitslastausgleich öffnen, um Arbeitselemente in den Bereichen Zugewiesene und nicht zugewiesene Arbeit zu aktualisieren.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Bereich "Ressourcen".</p>
+   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
    <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p> 
  </p> </td> 
   </tr> 
@@ -66,13 +66,13 @@ Sie müssen über Folgendes verfügen:
 
    Oder
 
-   Navigieren Sie zu **Zugewiesene Arbeit** -Bereich, erweitern Sie einen Benutzer und suchen Sie nach einem Arbeitselement.
+   Navigieren Sie zu **Zugewiesene Arbeit** einen Benutzer erweitern und ein Arbeitselement suchen.
 
-1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;auf der rechten Seite zu öffnen
+1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;rechts zu öffnen
 
    Oder
 
-   Klicken **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen
+   Klicks **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen
 
    Oder
 
