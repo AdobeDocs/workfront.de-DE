@@ -7,14 +7,16 @@ description: Ein Dashboard ermöglicht einen schnellen Zugriff auf Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Dashboards
+
+<!-- Audited: 1/2024 -->
 
 Ein Dashboard ermöglicht einen schnellen Zugriff auf Informationen, die aus mehreren Berichten stammen. Zunächst können Sie Informationen in Berichten sammeln und dann mehrere Berichte in Dashboards platzieren, um den Zugriff auf diese Informationen zu vereinfachen.
 
@@ -29,25 +31,25 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-Plan*</strong></p> </td> 
-   <td>Beliebig</td> 
+   <td> <p><strong>Adobe Workfront-Abo</strong></p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-Lizenz*</strong></p> </td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td> <p><strong>Adobe Workfront-Lizenz</strong></p> </td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p><p>Oder</p><p>Aktuell: Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td><strong>Zugriffsstufe</strong> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Berechtigungen für das Dashboard anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.<br>Weitere Informationen zu Berechtigungen für Dashboards finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Berichte, Dashboards und Kalender freigeben </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Dashboard anzeigen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objekte, die Sie einem Dashboard hinzufügen können
 
@@ -80,12 +82,12 @@ Sie können ein Dashboard wie folgt für Benutzer freigeben:
 * Drucken Sie eine Kopie davon, um sie für Benutzer freizugeben.\
   Weitere Informationen zum Drucken von Dashboards finden Sie unter [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exportieren Sie sie als .pdf -Datei, damit Sie sie per E-Mail an Benutzer senden können.\
+* Exportieren Sie sie als PDF-Datei, damit Sie sie per E-Mail an Benutzer senden können.\
   Weitere Informationen zum Exportieren eines Dashboards in eine PDF-Datei finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Wenn Sie ein Dashboard für Benutzer freigeben, werden alle Berichte, Kalender und externen Seiten, die sich im Dashboard befinden, standardmäßig auch für dieselben Benutzer freigegeben.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Wenn ein Benutzer gelöscht wird, können die von ihm erstellten Dashboards nicht mehr aufgerufen werden. Weitere Informationen finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Wenn Sie ein Dashboard für Benutzer freigeben, werden alle Berichte, Kalender u
 
 Sie können ein Dashboard wie folgt anzeigen:
 
-* Rufen Sie den Bereich auf, in dem er platziert wurde, und das Dashboard im Bereich wird angezeigt.\
+* Greifen Sie auf den benutzerdefinierten Abschnitt zu, in dem das Dashboard platziert wird.\
   Weitere Informationen zum Platzieren von Dashboards in benutzerdefinierten Abschnitten finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Suchen Sie nach und greifen Sie manuell darauf zu, wenn Sie sie finden.
+* Suchen Sie nach dem Dashboard und greifen Sie manuell auf es zu.
 
 ## Zugriff auf ein Dashboard
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png)Klicken Sie auf **Dashboards**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Dashboards**.
 1. Bewegen Sie den Mauszeiger über die linke Seitenleiste und wählen Sie eine der folgenden Optionen aus:
 
    * **Meine Dashboards**: Hier werden die von Ihnen erstellten Dashboards aufgelistet.
@@ -110,7 +112,7 @@ Sie können ein Dashboard wie folgt anzeigen:
      >Wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, können Sie keine Dashboards erstellen. In diesem Fall ist die Liste Meine Dashboards leer.
 
    * **Freigegebene Dashboards**: Dashboards, die von anderen Benutzern erstellt und für Sie freigegeben werden, sind hier aufgeführt.
-   * **Alle Dashboards**: Hier werden sowohl die Dashboards Ihrer und anderer Benutzer aufgelistet, die für Sie freigegeben sind.
+   * **Alle Dashboards**: Hier werden sowohl Ihre Dashboards als auch Dashboards aufgelistet, die andere Benutzer für Sie freigegeben haben.
 
    ![Bereich &quot;Dashboards&quot;](assets/dashboards-area.png)
 

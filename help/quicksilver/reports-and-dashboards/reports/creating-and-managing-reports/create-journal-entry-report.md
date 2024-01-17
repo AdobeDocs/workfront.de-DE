@@ -1,13 +1,13 @@
 ---
 title: Bericht zum Bereich "Updates"
-description: Bericht zum Bereich "Updates"
+description: Der Bericht Journaleintrag enthält Systemaktualisierungen aus dem Bereich Updates für Projekte, Aufgaben, Probleme und andere Objekte, die zuvor nur über die Adobe Workfront-API verfügbar waren. Obwohl es sich hierbei um einen erweiterten Bericht handelt, der für bestimmte Anwendungsfälle gedacht ist, erleichtert das besser lesbare Format die Berichterstellung über Projektaktivitäten und Systemaktualisierungen in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 3%
 
 ---
@@ -38,25 +38,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard </p><p>Oder </p><p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen für Objekte, die die Journaleinträge enthalten, die im Bericht angezeigt werden</p> <p>Sie erhalten nach der Erstellung Verwaltungsberechtigungen für den Bericht</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für Objekte, die die Journaleinträge enthalten, die im Bericht angezeigt werden</p> <p>Sie erhalten nach der Erstellung Verwaltungsberechtigungen für den Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -68,7 +68,7 @@ Bevor Sie die in diesem Artikel beschriebenen Aktionen durchführen können, mü
 
 * Alle benutzerdefinierten Felder, für die Sie Berichte erstellen möchten, haben die Einstellung **Anzeigen von Feldänderungen in Update-Feeds** aktiviert.
 
-  Informationen zum Aktivieren dieser Einstellung für ein benutzerdefiniertes Feld finden Sie im Abschnitt . [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Informationen zum Aktivieren dieser Einstellung für ein benutzerdefiniertes Feld finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Übersicht über den Journaleintrag
 
@@ -127,7 +127,7 @@ Die Standardansicht für diesen Bericht enthält die folgenden Spalten:
  </tbody> 
 </table>
 
-Um die Informationen in diesem Bericht zu organisieren, können Sie das integrierte Gruppierungsprojekt verwenden. Die Gruppierung des Projekts bietet eine primäre Gruppierung des Projektnamen und eine sekundäre Gruppierung des Entrypages. Sie können diese bestehende Gruppierung bei der Berichterstellung anwenden oder sie bei der Berichtanzeige anwenden.
+Um die Informationen in diesem Bericht zu organisieren, können Sie die integrierte Gruppierung namens Projekt verwenden. Die Gruppierung des Projekts bietet eine primäre Gruppierung des Projektnamen und eine sekundäre Gruppierung des Entrypages. Sie können diese bestehende Gruppierung bei der Berichterstellung anwenden oder sie bei der Berichtanzeige anwenden.
 
 Informationen zum Einrichten der für Ihren Bericht gewünschten Ansichten, Filter und Gruppierungen finden Sie im entsprechenden Abschnitt:
 
@@ -167,7 +167,7 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
 >Wenn Sie den Unterschied in Tagen zwischen Bedingungsänderungen vergleichen möchten, können Sie die erweiterte Analyse verwenden.\
 >Weitere Informationen zur erweiterten Analyse finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
 1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er Folgendes anzeigt:
 
 So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
 1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
    Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
+1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
 
    * **Änderungstyp** > **Gleich** > **Löschen**
    * **Projekt-ID** > **Gleich** > **`<project>`**
@@ -365,7 +365,7 @@ Sie können wichtige Feldänderungen im Laufe des Projekts verfolgen. Dazu könn
 
 So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyklus verändert haben:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
 1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
    Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
+1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
 
    * **Name des Journaleintragsfelds** > **Enthält** > **DE**
 
@@ -467,7 +467,7 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
 Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft sich das geplante Abschlussdatum im Laufe des Projektlebens ändert.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
 1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
 Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft sich der Projektinhaber - oder Projektmanager - im Laufe der Lebensdauer eines Projekts ändert.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
 1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

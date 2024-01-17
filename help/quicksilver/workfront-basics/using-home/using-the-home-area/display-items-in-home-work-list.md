@@ -2,26 +2,29 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im Startbereich
-description: Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in der [!UICONTROL Arbeit] Liste wie unten beschrieben.
-author: Lisa
+description: Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in Ihrer [!UICONTROL Arbeitsliste], indem Sie Filter verwenden und Ihre Arbeitselemente gruppieren und sortieren.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1826'
 ht-degree: 0%
 
 ---
 
-# Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im Startbereich
+# Anzeigen von Elementen im [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] area
 
-Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in der [!UICONTROL Arbeit] Liste wie unten beschrieben.
+<!-- Audited: 1/2024 -->
+
+
+Die [!UICONTROL Arbeitsliste] im [!UICONTROL Startseite] zeigt alle Arbeitselemente an, die Ihnen zugewiesen sind. Sie können steuern, welche Elemente in Ihrer [!UICONTROL Arbeitsliste], indem Sie Filter verwenden und Ihre Arbeitselemente gruppieren und sortieren.
 
 >[!NOTE]
 >
->Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
+>* Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
 >
->Beim Konvertieren einer Aufgabe in ein Projekt wird die Aufgabe gelöscht und aus dem Startbereich des der Aufgabe zugewiesenen Benutzers entfernt.
+>* Beim Konvertieren einer Aufgabe in ein Projekt wird die Aufgabe gelöscht und aus dem Startbereich des der Aufgabe zugewiesenen Benutzers entfernt.
 
 
 ## Zugriffsanforderungen
@@ -35,25 +38,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] nur für Genehmigungen</p> <p>[!UICONTROL Arbeit] oder höher für alle anderen Objekte</p> </td> 
-  </tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td> <p>Neu:</p><ul><li>[!UICONTROL Mitarbeiter] nur für Genehmigungen</li> <li>[!UICONTROL Standard] oder höher für alle anderen Objekte</li> <p>Oder</p> 
+  </ul><p>Aktuell:</p><ul><li>[!UICONTROL Review] nur für Genehmigungen</li> <li>[!UICONTROL Arbeit] oder höher für alle anderen Objekte</li> </td> 
+  </tr> </ul>
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Projekte, Aufgaben, Probleme und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
+   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Projekte, Aufgaben, Probleme und Dokumente</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Beitragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen, an denen Sie arbeiten müssen.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
+   <td> <p>Beitragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen, an denen Sie arbeiten müssen.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Filtern Sie die [!UICONTROL Arbeitsliste]
 
@@ -63,8 +67,8 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
 >
 >Die Filteroptionen werden im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die ausgewählten Filter nicht. Wenn Sie Browser oder Computer wechseln, kehren die Filter zur Standardoption zurück, bei der alle Filter deaktiviert sind.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. Klicken Sie auf **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) Dropdown-Menü.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) Dropdown-Menü. Wenn Filter ausgewählt sind, wird die Anzahl der ausgewählten Filter anstelle des Symbols angezeigt.
 1. Wählen Sie aus den folgenden Filteroptionen aus, um den Typ der anzuzeigenden Elemente anzugeben:
 
    <table style="table-layout:auto"> 
@@ -76,11 +80,11 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
       <td>Zeigt alle Elemente an und wählt sie aus. Dazu gehören Aufgaben, Probleme, Genehmigungen, persönliche Aufgaben sowie abgeschlossene Aufgaben und Probleme. </td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Aufgaben bearbeiten]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Aufgaben: Arbeiten am]</strong></td> 
       <td> <p>Zeigt nur Aufgaben an, an denen Sie aktiv arbeiten. Hierbei handelt es sich um Aufgaben, die Ihnen zugewiesen sind und für die Sie auf die Schaltfläche [!UICONTROL Bearbeiten] geklickt haben.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Aufgaben bereit zum Start]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Aufgaben: Bereit zum Start]</strong></td> 
       <td> 
        <div> 
         <p>Zeigt nur Aufgaben an, die für den Start bereit sind. Beide der folgenden Anweisungen müssen wahr sein:</p> 
@@ -91,7 +95,7 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Aufgaben nicht bereit]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Aufgaben: Nicht bereit]</strong></td> 
       <td> 
        <div> 
         <p>Zeigt nur Aufgaben an, die noch nicht startbereit sind. Jede der folgenden Anweisungen muss "true"lauten:</p> 
@@ -102,16 +106,16 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Probleme bearbeiten]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Probleme: Arbeiten am]</strong></td> 
       <td> <p>Zeigt nur Probleme an, an denen Sie aktiv arbeiten. Hierbei handelt es sich um Probleme, die Ihnen zugewiesen sind und für die Sie auf die Schaltfläche [!UICONTROL Bearbeiten] geklickt haben.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Probleme angefordert]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Probleme: angefordert]</strong></td> 
       <td>Zeigt nur Probleme an, denen Sie zugewiesen sind, für die Sie jedoch nicht auf die Schaltfläche [!UICONTROL Bearbeiten] geklickt haben.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Persönlich</strong></td> 
-      <td>Zeigt nur persönliche Aufgaben an. Dies sind Aufgaben, die Sie als [!UICONTROL Aufgabe erstellen, wie im Abschnitt beschrieben. <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Persönliche Aufgabe erstellen</a> im Artikel <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Arbeitselemente aus dem [!UICONTROL Home]-Bereich erstellen</a>.</td> 
+      <td>Zeigt nur persönliche Aufgaben an. Dies sind Aufgaben, die Sie als [!UICONTROL Aufgabe erstellen, wie im Abschnitt beschrieben. <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">Persönliche Aufgabe erstellen</a> im Artikel <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Arbeitselemente aus dem [!UICONTROL Home]-Bereich erstellen</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Validierungen]</strong></td> 
@@ -128,6 +132,21 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
        </div> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Delegiert: Delegiert von mir]</strong></td> 
+      <td> 
+       <div> 
+        <p>Zeigt nur Arbeitselemente an, die Sie einem anderen Benutzer zugewiesen haben.</p> 
+        <p>Weitere Informationen zum Delegieren von Aufgaben finden Sie unter <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegieren von Aufgaben und Problemen an einen anderen Benutzer</a>.
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Delegiert: mir zugewiesen]</strong></td> 
+      <td> 
+       <div> 
+        <p>Zeigt nur Arbeitselemente an, die Ihnen vorübergehend von einem anderen Benutzer zugewiesen wurden.</p> 
+       </div> </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Abgeschlossen]</strong></td> 
       <td> <p>Zeigt nur abgeschlossene Aufgaben, Probleme und persönliche Aufgaben an. Die abgeschlossene Arbeit wird für die letzten zwei Wochen angezeigt und in der Arbeitsliste nach der Woche gruppiert, in der sie abgeschlossen wurden. Genehmigungen sind nicht enthalten.</p> <p>Abgeschlossene Arbeiten werden in der [!UICONTROL Arbeitsliste] ausgeblendet, sofern Sie diesen Filter nicht auswählen.</p> </td> 
      </tr> 
@@ -141,8 +160,8 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
    >* Filteroptionen basieren auf Objekten (Aufgaben, Probleme, Genehmigungen, Persönliche Aufgaben).
    >* Aufgaben und Probleme werden im Zusammenhang mit unserer Bereitschaft zur Bearbeitung weiter nach ihrem Status gefiltert ([!UICONTROL Arbeiten an], [!UICONTROL Bereit zum Start], [!UICONTROL Nicht bereit] für Aufgaben und [!UICONTROL Arbeiten an] und [!UICONTROL Angefordert] für Probleme). Sie können auswählen, ob Aufgaben oder Probleme in einem bestimmten Status angezeigt werden sollen, oder auf Aufgaben oder Probleme klicken, um alle Status auszuwählen und anzuzeigen.
    >* Es gibt einen separaten Filter für abgeschlossene Elemente, der sowohl Aufgaben als auch Probleme enthält. Dies umfasst keine Genehmigungen. Die [!UICONTROL Abgeschlossen] -Filter enthält Persönliche Aufgaben.
-   >* Sie können jeweils nur einen Status auswählen. Beispielsweise können Sie nur [!UICONTROL Arbeiten an] Aufgaben und nur [!UICONTROL Angefordert] Probleme.
-   >* Sie können keine Filter auf Elemente anwenden, die einem Ihrer Teams zugewiesen sind, und diese sind nicht in den Elementen enthalten, die Ihnen direkt zugewiesen sind.
+   >* Sie können festlegen, dass immer nur ein Status angezeigt werden soll. Beispielsweise können Sie nur [!UICONTROL Arbeiten an] Aufgaben und nur [!UICONTROL Angefordert] Probleme. Sie können auch mehrere Status gleichzeitig auswählen.
+   >* Sie können keine Filter auf Elemente anwenden, die einem Ihrer Teams zugewiesen sind, und Teamzuweisungen sind nicht in den Elementen enthalten, die Ihnen direkt zugewiesen sind.
 
 
 1. (Optional) Weitere Organisation der [!UICONTROL Arbeitsliste], wie im Abschnitt beschrieben [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority) in diesem Artikel.
@@ -151,10 +170,12 @@ Sie können Elemente im [!UICONTROL Arbeitsliste] um nur bestimmte Elementtypen 
 
 Sie können die [!UICONTROL Arbeitsliste] von [!UICONTROL Geplantes Abschlussdatum], [!UICONTROL Datum der Übermittlung], [!UICONTROL Projekt]oder [!UICONTROL Meine Priorität]. Die von Ihnen ausgewählte Option bestimmt, wie Elemente im [!UICONTROL Arbeitsliste].
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. Klicken Sie auf **[!UICONTROL Gruppieren nach]** Dropdown-Menü.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Gruppieren nach]** ![Gruppieren nach](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) Dropdown-Menü.
 
+   <!--
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+   -->
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -222,16 +243,16 @@ Sie können die [!UICONTROL Arbeitsliste] von [!UICONTROL Geplantes Abschlussdat
 
 Wenn Sie die [!UICONTROL Arbeitsliste], werden alle Ihnen zugewiesenen Elemente bei der Suche zurückgegeben (auch Elemente, die derzeit nicht auf dem Bildschirm geladen sind). Wenn die Variable [!UICONTROL Abschluss anzeigen] ausgewählt ist, werden auch alle Elemente zurückgegeben, die Sie in den letzten zwei Wochen als vollständig markiert haben.
 
-Darüber hinaus werden nur die Namen der Arbeitselemente durchsucht (Informationen innerhalb des Arbeitselements werden nicht durchsucht, ebenso die Namen der Projekte, in denen sich das Arbeitselement befindet).
+Darüber hinaus werden nur die Namen der Arbeitselemente durchsucht (Informationen innerhalb des Arbeitselements werden nicht durchsucht, ebenso nicht die Namen der Projekte, in denen sich das Arbeitselement befindet).
 
 So durchsuchen Sie die [!UICONTROL Arbeitsliste]:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
-1. (Optional) Filtern Sie die [!UICONTROL Arbeitsliste], wie unter [Filtern Sie die [!UICONTROL Arbeitsliste]](#filter-the-work-list) und [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
+1. (Optional) Filtern und gruppieren Sie die [!UICONTROL Arbeitsliste], wie unter [Filtern Sie die [!UICONTROL Arbeitsliste]](#filter-the-work-list) und [Gruppieren und Sortieren nach Datum, Projekt und Priorität](#group-and-sort-by-date-project-and-priority).
 
 1. (Optional) Wenn Sie nach einem bereits abgeschlossenen Arbeitselement suchen, müssen Sie die [!UICONTROL Arbeitsliste] , um vor der Suche abgeschlossene Elemente anzuzeigen.
-1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
+1. Klicken Sie auf das Symbol Suchen . ![Suche](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png).
 1. Beginnen Sie mit der Eingabe des Namens des gesuchten Elements.\
    Die [!UICONTROL Arbeitsliste] wird automatisch gefiltert, um Elemente mit einem übereinstimmenden Namen einzuschließen.
 
@@ -239,7 +260,7 @@ So durchsuchen Sie die [!UICONTROL Arbeitsliste]:
 
 Sie können die Größe der [!UICONTROL Arbeitsliste] sodass es zwischen etwa einem Viertel des Home-Bereichs und etwa der Hälfte des Home-Bereichs verbraucht [!UICONTROL Startseite] Bereich.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
 1. Bewegen Sie den Mauszeiger über den rechten Rand des [!UICONTROL Arbeitsliste]und ziehen Sie dann nach links oder rechts, bis die Arbeitsliste die gewünschte Größe aufweist.
 
 ## Reduzieren und Erweitern von Gruppierungen
@@ -249,7 +270,7 @@ Elemente in [!UICONTROL Arbeitsliste] innerhalb von Gruppierungen angezeigt werd
 Sie können Gruppierungen innerhalb der [!UICONTROL Arbeitsliste] um besser kontrollieren zu können, welche Informationen sichtbar sind.\
 Standardmäßig wird die Variable [!UICONTROL Diese Woche] Gruppierung wird erweitert und alle anderen Gruppierungen werden reduziert. Alle Änderungen, die Sie vornehmen, werden beim nächsten Zugriff auf den Startbereich gespeichert.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
 1. Klicken Sie auf **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** neben allen Gruppen, die Sie erweitern oder reduzieren möchten.
 
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
