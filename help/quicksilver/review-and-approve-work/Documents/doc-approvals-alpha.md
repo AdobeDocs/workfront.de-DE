@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Um an dieser Alpha-Version teilnehmen zu können, müssen Sie vom Produktteam zu
 
 ## Neueste Version
 
+## Alpha-Version 6 - Januar 2024
+
+In dieser Version aus dem 6. Alpha haben wir Folgendes:
+
+* Die Erfahrung beim Hinzufügen von Teilnehmern mit einem neuen Popup-Fenster wurde verbessert, um zu verhindern, dass Personen versehentlich hinzugefügt und benachrichtigt werden
+* Es wurde ein neues Widget &quot;Ausstehende Genehmigungen&quot;hinzugefügt, das alle ausstehenden Genehmigungen für Projekte anzeigt, die Ihnen gehören, einschließlich der Möglichkeit, alle Personen zu sehen, die sich in der Genehmigung befinden, deren Status und der Möglichkeit, alle Personen daran zu erinnern, die noch keine Entscheidung getroffen haben
+* Es wurde eine neue Aktion &quot;Meine Überprüfung abschließen&quot;für alle Prüfer hinzugefügt, mit der sie angeben können, dass sie mit ihrem Schritt fertig sind.
+
+Sehen Sie sich das vollständige Video unten an:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Frühere Versionen_
+
 ### Alpha-Version 5 - September 2023
 
 In dieser Version aus dem 5. Alpha haben wir Folgendes:
@@ -36,11 +50,7 @@ In dieser Version aus dem 5. Alpha haben wir Folgendes:
 * Zusätzliche Möglichkeit zum Hinzufügen externer Genehmiger
 * Verbesserte Ansicht für externe Genehmiger zum Anzeigen von Dokumentvorschau, -download und -kommentaren
 
-Sehen Sie sich das vollständige Video unten an:
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Frühere Versionen_
+Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha-Version 4 - Mai 2023
 
@@ -48,15 +58,13 @@ In dieser Version aus dem vierten Alpha haben wir vor dem Start in die Produktio
 
 Wir freuen uns auf diesen Meilenstein und freuen uns auf viel mehr!
 
-Sehen Sie sich das vollständige Video unten an:
-
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha-Version 3 - März 2023
 
 In dieser Version aus dem 3. Alpha haben wir Ihr Feedback integriert, indem wir Erfolgsmeldungen eingeführt haben, die nach Abschluss von Aktionen wie dem Hinzufügen oder Entfernen von Genehmigern und Validierern angezeigt werden. Darüber hinaus bietet diese Version eine verbesserte Sichtbarkeit der ausstehenden Genehmigungen, die jetzt auf den Seiten &quot;Startseite&quot;und &quot;Meine Aktualisierungen&quot;angezeigt werden können, sodass Benutzer Dokumente einfach direkt von diesen Seiten aus genehmigen können.
 
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha-Version 2 - Januar 2023
 
