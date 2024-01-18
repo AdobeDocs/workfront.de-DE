@@ -6,9 +6,9 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,46 +25,6 @@ Der Adobe Workfront-Administrator kann benutzerdefinierte Bedingungen für Ihre 
 
 ## Zugriffsanforderungen {#access-requirements}
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-   <ul><li><p>Standard for tasks</p></li>
-   <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For legacy licenses:
-   <ul><li><p>Work or higher for tasks</p></li>
-   <li><p>Request or higher for issues</p></li></ul>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -72,31 +32,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher für Aufgaben</p>
-   <p>Anfrage oder höher für Probleme</p>
+   <td>
+
+Für die neuen Lizenzen:
+<ul><li><p>Standard für Aufgaben</p></li>
+   <li><p>Beitragende oder höher für Probleme</p></li></ul>
+
+
+Für aktuelle Lizenzen:
+<ul><li><p>Arbeit oder höher für Aufgaben</p></li>
+   <li><p>Anfrage oder höher für Probleme</p></li></ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte</p> <p>Zugriff auf Aufgaben und Probleme bearbeiten </p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte</p> <p>Zugriff auf Aufgaben und Probleme bearbeiten </p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Anzeigen oder höherer Berechtigungen für Aufgaben und Probleme zur Anzeige ihrer Bedingung</p>
    <p>Verwalten von Berechtigungen für Aufgaben und Probleme zum Aktualisieren der Bedingung</p>
-    <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Finden Sie die Bedingung der Aufgaben und Probleme
 
@@ -104,7 +70,7 @@ Bedingungen werden als Markierung angezeigt, die mit Aufgaben oder Problemen ver
 
 Sie können die Bedingungen für Aufgaben und Probleme in den folgenden Bereichen ermitteln:
 
-* Aufgaben- und Problemaktualisierungsbereich innerhalb eines Updates, wenn Sie der Aufgabe oder dem Problem zugewiesen sind.
+* Aufgaben- und Problemaktualisierungsbereich innerhalb eines Updates, wenn Sie der Aufgabe oder dem Problem zugewiesen sind. Dies wird im neuen Kommentierungserlebnis nicht unterstützt. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 * Berichte und Listen, wenn Sie das Feld Bedingung in einer Ansicht oder Gruppierung anzeigen.
 
 >[!NOTE]
@@ -113,7 +79,7 @@ Sie können die Bedingungen für Aufgaben und Probleme in den folgenden Bereiche
 
 ## Automatische Aktualisierung der Bedingung durch Aktualisierung des Status
 
-Wenn Sie eine Aufgabe oder ein Problem zugewiesen haben, klicken Sie auf **Arbeiten daran** , Aufgabe starten oder Problem starten oder den Status aktualisieren, ändert sich die Bedingung der Aufgabe oder des Problems automatisch in die Standardbedingung für **Gehe sanft**.
+Wenn Sie eine Aufgabe oder ein Problem zugewiesen haben und auf **Arbeiten daran** , Aufgabe starten oder Problem starten oder den Status aktualisieren, ändert sich die Bedingung der Aufgabe oder des Problems automatisch in die Standardbedingung, die mit **Gehe sanft**.
 
 Informationen zur Verwendung einer benutzerdefinierten Bedingung als Standardbedingung finden Sie in den Artikeln  [Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) und [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
@@ -127,31 +93,30 @@ Informationen zum Festlegen der Schaltfläche &quot;Work On It&quot;auf eine Sch
 
 Sie müssen einer Aufgabe oder dem Problem zugewiesen sein oder über die Berechtigung &quot;Verwalten&quot;verfügen, damit Sie die Bedingung darauf festlegen können.
 
-Die Aktualisierung der Bedingung einer Aufgabe oder eines Problems hängt davon ab, ob Sie ihr zugewiesen sind oder nicht:
+Wenn Sie das Feld Bedingung in der Ansicht anzeigen, können Sie die Bedingung einer Aufgabe oder eines Problems in einem Aufgaben- oder Problembericht oder einer Liste manuell aktualisieren.
 
-* Sie können die Bedingung auf der Registerkarte Aktualisierungen oder in einer Liste von Aufgaben oder Problemen aktualisieren, wenn Sie ihnen zugewiesen sind.
-* Sie können die Bedingung nur in einer Liste von Aufgaben oder Problemen aktualisieren, wenn Sie ihnen nicht zugewiesen sind, aber über Verwaltungsberechtigungen verfügen. In diesem Fall können Sie die Bedingung nicht auf der Registerkarte Aktualisieren der Aufgabe oder des Problems aktualisieren.
 
-So legen Sie die Bedingung einer Aufgabe oder eines Problems manuell fest:
+<!--old Condition update - in the commenting stream: 
+Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
-1. Gehen Sie zu einer Aufgabe oder einem Problem, die Ihnen zugewiesen ist und für die Sie die Bedingung festlegen möchten.
+* If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-   Oder
+So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems manuell:
 
-   Rufen Sie eine Liste der Aufgaben oder Probleme auf, für die Sie zwar über die Berechtigung &quot;Verwalten&quot;verfügen, die Ihnen jedoch nicht zugewiesen sind.
+1. Rufen Sie eine Liste der Aufgaben oder Probleme auf, für die Sie über Verwaltungsberechtigungen verfügen. Stellen Sie die **Bedingung** -Feld in der Listenansicht angezeigt.
 
-1. Ändern Sie die Bedingung des Problems oder der Aufgabe wie folgt:
+1. Aktualisieren Sie die **Bedingung** durch Doppelklicken auf die vorhandene Bedingung und Auswahl eines neuen Werts aus dem Dropdown-Menü.
 
-   * Wenn Sie der Aufgabe oder dem Problem zugewiesen sind und über Verwaltungsberechtigungen verfügen, finden Sie im **Updates** Registerkarte, klicken Sie auf **Neue Aktualisierung starten**, wählen Sie die **Bedingung** Geben Sie den Grund für die Änderung der Bedingung in die **Neue Aktualisierung starten** Bereich (optional) und klicken Sie dann auf **Aktualisieren**.
+   ![](assets/condition-drop-down-values-in-task-list.png)
 
-      ![](assets/change-condition-update-comment-350x141.png)
+   >[!NOTE]
+   >
+   >Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung mehr als drei Optionen für Bedingungen finden können. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in Workfront finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      >[!NOTE]
-      >
-      >Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung mehr als drei Optionen für Bedingungen finden können. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in Workfront finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Presse **Eingabe** auf der Tastatur klicken oder außerhalb des Bedingungsfelds klicken, um die neue Aufgabe oder Problembedingung zu speichern.
 
-      <!--   
+   <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ So erstellen Sie ein Problem für eine Aufgabe oder ein Projekt:
 1. (Optional) Wenn Sie das Problem für eine Aufgabe protokollieren möchten, navigieren Sie zum **Aufgaben** und klicken Sie auf den Namen einer Aufgabe.
 1. Klicken Sie auf **Probleme** Abschnitt.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   Die Liste der Projektprobleme wird angezeigt
 
-1. Klicks **Neues Problem**.
+1. Klicks **Neues Problem** oben in der Problemliste.
 Das Feld Neues Problem wird angezeigt.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ So erstellen Sie Probleme inline:
 
 1. Gehen Sie zu einem Projekt, in dem Sie das Problem erstellen möchten.
 1. (Optional) Wenn Sie das Problem für eine Aufgabe protokollieren möchten, navigieren Sie zum **Aufgaben** und klicken Sie auf den Namen einer Aufgabe.
-1. Klicken Sie auf **Probleme** Abschnitt.
-1. Klicks **Weitere Probleme hinzufügen**.
+1. Klicken Sie auf **Probleme** im linken Bereich.
+1. Klicks **Weitere Probleme hinzufügen** unten in der Problemliste.
 
    Eine neue Zeile wird in der Liste der Probleme im Abschnitt Probleme erstellt.
 

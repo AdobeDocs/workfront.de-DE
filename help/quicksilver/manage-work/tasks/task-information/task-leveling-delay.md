@@ -6,10 +6,10 @@ description: Manchmal kann es bei einem Projekt zu Konflikten zwischen Aufgabenz
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Manchmal kann es bei einem Projekt zu Konflikten zwischen Aufgabenzeitplänen kommen. Sie können Ressourcen einschränken oder Ressourcenkonflikte beheben, indem Sie Ressourcen und Aufgaben neu planen, damit alle Aufgaben innerhalb eines realistischen Zeitplans ausgeführt werden können. Weitere Informationen zum Leveln von Aufgaben finden Sie unter [Level Resources in Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
-Als Projektmanager oder Aufgabenverantwortlicher können Sie für einzelne Aufgaben auch eine Zeitverzögerung hinzufügen, um alle Ressourcen- oder Zeitplankonflikte zu berücksichtigen. Anders ausgedrückt: Eine Aufgabe kann mit einer Verzögerung geplant werden, um sicherzustellen, dass Ressourcenkonflikte bei der Stufe der Adobe Workfront-Aufgabenniveau durch einen realistischeren Zeitplan überwunden werden.
+Als Projektmanager oder Aufgabenverantwortlicher können Sie für einzelne Aufgaben auch eine Zeitverzögerung hinzufügen, um alle Ressourcen- oder Zeitplankonflikte zu berücksichtigen. Anders ausgedrückt: Eine Aufgabe kann mit einer Verzögerung geplant werden, um sicherzustellen, dass Ressourcenkonflikte bei der Stufe der Adobe Workfront-Aufgabenniveaus realistischer werden.
 
 Durch das Hinzufügen einer Zeitverzögerung zu einer Aufgabe wird das geplante Abschlussdatum der Aufgabe angepasst. Informationen zum voraussichtlichen Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,14 +50,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Hinzufügen einer Verzögerung auf einer Ebene zu einer Aufgabe
+## Einer Aufgabe eine Verzögerung auf Stufe hinzufügen
 
 1. Gehen Sie zu einer Aufgabe, für die Sie eine Zeitverzögerung hinzufügen möchten.
-1. Klicken Sie auf **Weitere Symbole** rechts neben dem Aufgabennamen und klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Weitere Symbole** rechts neben dem Aufgabennamen und klicken Sie dann auf **Bearbeiten**.
 
-   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
-
-1. Klicken **Einstellungen**.
+1. Klicks **Einstellungen**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
@@ -68,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Minuten
    * Stunden. Dies ist die Standardeinstellung.
-   * Tage
+   * Tag(e)
    * Wochen
    * Monate
    * Verstrichene Minuten
@@ -81,6 +79,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Die verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und eine Verspätung umfasst. Mit anderen Worten, vergangene Zeit ist der Durchgang von Kalendertagen.
 
-1. Klicken Sie auf **Speichern**. 
+1. Klicks **Speichern**. 
 
  

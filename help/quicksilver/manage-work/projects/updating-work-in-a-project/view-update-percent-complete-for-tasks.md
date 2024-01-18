@@ -6,49 +6,20 @@ description: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisi
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Prozentsatz für Abgeschlossene Aufgaben anzeigen und aktualisieren
 
+<!--Audited:01/2024-->
+
 Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren, um den Fortschritt anzugeben, den Sie bei der Erfüllung der Aufgabe erzielt haben.
 
 ## Zugriffsanforderungen
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren zu können:
 
@@ -57,27 +28,28 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neue Lizenz: Standard</p> 
+   Oder
+   <p>Aktuelle Lizenz: Arbeite oder höher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben bearbeiten</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgabe verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgabe verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Bereiche, in denen der prozentuale Abschluss einer Aufgabe aktualisiert werden kann
@@ -89,15 +61,16 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
 
 * **In der Milestone-Ansicht**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren, wenn Sie die Meilensteinansicht in einer Projektliste oder in einem Projektbericht verwenden. Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Während der Aktualisierung der Aufgabe**: Sie können die Option zum prozentualen Abschluss einer Aufgabe aktualisieren, wenn Sie der Aufgabe ein Update hinzufügen.
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >Diese Option wird erst angezeigt, nachdem Sie die Option &quot;Prozentsatz abschließen anzeigen&quot;aktiviert haben.\
-  >Gehen Sie wie folgt vor, um die Aktualisierungsleiste für die prozentuale Aktualisierung von Aufgaben zu aktivieren:
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. Navigieren Sie zu **Main** Menü > Ihr Name >**Mehr** Symbol neben Ihrem Namen >**Bearbeiten** > Auswählen **Prozentualer Abschluss der Aktualisierung anzeigen**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **In der Aufgabenüberschrift**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe in der Kopfzeile der Aufgabe aktualisieren. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
 
    Oder
 
-   Klicken und ziehen Sie die **Prozent abgeschlossen** wird die erforderliche Zahl angezeigt, um anzugeben, wie viel der Aufgaben Sie abgeschlossen haben.
+   Klicken und ziehen Sie die **Prozent abgeschlossen** wird die erforderliche Zahl angezeigt, um anzugeben, wie viel der Aufgaben Sie abgeschlossen haben (sofern verfügbar).
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
 
 
 1. Drücken Sie die Eingabetaste in der Tastatur, um den Prozentsatz vollständig zu speichern.
+
+Die Prozent abgeschlossen des Projekts wird ebenfalls automatisch aktualisiert.
 

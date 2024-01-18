@@ -7,9 +7,9 @@ description: Ein auflösbares Objekt ist ein Problem, dessen Auflösung an ein a
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1743'
 ht-degree: 1%
 
 ---
@@ -78,11 +78,11 @@ Je nachdem, wie der Workfront- oder Gruppenadministrator die System- oder Gruppe
 
 Die folgenden Szenarien existieren:
 
-* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** und **Zulassen, dass diese Einstellungen während der Konvertierung geändert werden** deaktiviert ist, können Sie diese Einstellungen nicht ändern, da Sie Probleme in Aufgaben oder Projekte konvertieren.\
-   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** und die **Diese Einstellungen können während der Konvertierung geändert werden** deaktiviert ist, können Sie diese Einstellungen nicht ändern, da Sie Probleme in Aufgaben oder Projekte konvertieren.\
+  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** entweder ausgewählt oder nicht ausgewählt und die **Zulassen, dass diese Einstellungen während der Konvertierung geändert werden** ausgewählt haben, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
-   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** entweder ausgewählt oder nicht ausgewählt und die **Diese Einstellungen können während der Konvertierung geändert werden** ausgewählt haben, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
+  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -96,7 +96,7 @@ Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte fi
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p> <p> <img src="assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png" style="width: 350;height: 462;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p>  </li>
 <li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section. </p> </li>
 <li value="4">At the bottom of the form,  click in the <strong>Resolved By</strong> field,  and select from the following types of resolving objects:
 <ul>
@@ -113,7 +113,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 </div>
 -->
 
-## Synchronisieren Sie den Status des auflösbaren Objekts mit dem des auflösenden Objekts. {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
+## Synchronisieren Sie den Status des auflösbaren Objekts mit dem des auflösenden Objekts {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
 * [Synchronisieren von Status, wenn das Auflösungsobjekt ein Problem darstellt](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [Synchronisieren von Status, wenn das Auflösungsobjekt eine Aufgabe oder ein Projekt ist](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
@@ -127,7 +127,7 @@ Wenn ein Problem manuell mit einem anderen Problem verknüpft ist, Trigger der S
 Wenn ein Problem das auflösbare Objekt einer Aufgabe oder eines Projekts ist, ändert sich der Status der Aufgaben und des Triggers der Projekte im Status des Problems. Standardstatus werden in diesem Fall anders als benutzerdefinierte Status ausgelöst.
 
 * [Synchronisieren des Standardstatus des auflösenden Objekts mit dem Standardstatus des auflösbaren Objekts](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
-* [Synchronisieren Sie den benutzerdefinierten Status des auflösenden Objekts mit dem benutzerdefinierten Status des auflösbaren Objekts.](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
+* [Synchronisieren des benutzerdefinierten Status des auflösenden Objekts mit dem benutzerdefinierten Status des auflösbaren Objekts](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### Synchronisieren des Standardstatus des auflösenden Objekts mit dem Standardstatus des auflösbaren Objekts {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
@@ -135,15 +135,15 @@ Unabhängig davon, ob die Option &quot;Behebbares Problem automatisch aktualisie
 
 Die folgenden Standardstatus für Aufgaben Trigger ändern die Standardstatus für Probleme, wenn das Problem als auflösendes Objekt einer Aufgabe festgelegt ist:
 
-| **AUFGABENSTATUS** | **PROBLEM-STATUS** |
+| **AUFGABENSTATUS** | **PROBLEMSTATUS** |
 |---|---|
 | Neu | Neu |
 | In Arbeit | In Arbeit |
 | Abgeschlossen | Geschlossen |
 
-Die folgenden Standardstatus für Projekte ändern den Trigger der Standardstatus für Probleme, wenn das Problem als auflösbares Objekt eines Projekts festgelegt ist. In einigen Projektstatus werden Änderungen am Status der Probleme nicht Trigger. Die Probleme bleiben in dem Status, den sie vor der Umwandlung des Projekts in einen dieser Status hatten:
+Die folgenden Standardstatus für Projekte ändern den Trigger der folgenden Änderungen in den Standardstatus für Probleme, wenn das Problem als auflösbares Objekt eines Projekts festgelegt ist. In einigen Projektstatus werden Änderungen am Status der Probleme nicht Trigger. Die Probleme bleiben in dem Status, den sie vor der Umwandlung des Projekts in einen dieser Status hatten:
 
-| **PROJEKTSTATUS** | **PROBLEM-STATUS** |
+| **PROJEKTSTATUS** | **PROBLEMSTATUS** |
 |---|---|
 | In Planung | Neu |
 | Aktuell | In Arbeit |
@@ -159,7 +159,7 @@ Die folgenden Standardstatus für Projekte ändern den Trigger der Standardstatu
 >
 >Nachdem der Status des Problems geschlossen wird (als Ergebnis des Schließens der Aufgabe oder des Projekts), unabhängig davon, in welchem Status sich die Aufgabe oder das Projekt nach dem Schließen ändert, bleibt das Problem geschlossen.
 
-#### Synchronisieren Sie den benutzerdefinierten Status des auflösenden Objekts mit dem benutzerdefinierten Status des auflösbaren Objekts. {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
+#### Synchronisieren des benutzerdefinierten Status des auflösenden Objekts mit dem benutzerdefinierten Status des auflösbaren Objekts {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
 Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten Status ändern, ändert sich der Status des Problems nur dann in den Status eines benutzerdefinierten Problems, wenn die folgenden beiden Bedingungen erfüllt sind:
 
@@ -188,8 +188,8 @@ Die Position des auflösenden Objekts ist für Aufgaben und Projekte identisch.
 
 1. Navigieren Sie zu einem Projekt oder einer Aufgabe, die Sie erstellt haben, indem Sie ein Problem in das Projekt oder die Aufgabe konvertieren.
 1. Klicken Sie auf **Projektdetails** oder **Aufgabendetails** und klicken Sie auf , um es zu erweitern.
-1. Klicken **Übersicht**.
-1. Suchen Sie unten auf der Registerkarte nach **Diese Lösung** -Feld: Das Problem, das das auflösbare Objekt des Projekts oder der Aufgabe ist, wird in diesem Feld aufgelistet.
+1. Klicks **Übersicht**.
+1. Suchen Sie unten auf der Registerkarte nach **Diese Lösung** field: Das Problem, das das auflösbare Objekt des Projekts oder der Aufgabe ist, wird in diesem Feld aufgelistet.
 
    >[!NOTE]
    >
@@ -227,7 +227,7 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Name des Urhebers</strong>: Zeigt den Namen und das Einstiegsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer benutzerdefinierten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für ein Projekt, einen Aufgabenbericht oder eine Liste zum Anzeigen von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Originalausgabeinformationen zu Aufgaben- und Projektlisten anzeigen</a>.<br></td> 
+   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Name des Urhebers</strong>: Zeigt den Namen und das Einstiegsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer benutzerdefinierten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für ein Projekt, einen Aufgabenbericht oder eine Liste zum Anzeigen von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten an</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -31,14 +31,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Anforderung oder höher</p> <p>Überprüfen Sie die oder eine höhere Lizenz, um Probleme im Abschnitt Probleme einer Aufgabe oder eines Projekts zu bearbeiten.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zugriff auf Probleme bearbeiten</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td>
@@ -77,8 +77,6 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Optional) Um beschränkte Informationen zu einem Problem zu bearbeiten, klicken Sie auf **Problemdetails** im linken Bereich.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -169,7 +167,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
       <td role="rowheader">Priorität</td> 
       <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Probleme priorisieren können.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li> <p><strong>Keine</strong> </p> </li> 
+        <li> <p><strong>Keines</strong> </p> </li> 
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p><strong>Normal</strong> </p> </li> 
         <li> <p><strong>Hoch</strong> </p> </li> 
@@ -195,9 +193,9 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
       <td role="rowheader">Typ</td> 
       <td> <p>Je nach den Eigenschaften der Warteschlange, die Ihr Projektmanager im Bereich Warteschlangendetails des Projekts ausgewählt hat, können Sie möglicherweise den Typ des Problems angeben. Wählen Sie aus den folgenden Optionen in <b>Typ</b> Dropdown-Menü: </p> 
        <ul> 
-        <li> <p><strong>Bug-Bericht</strong> </p> </li> 
-        <li> <p><strong>Änderungsanforderung</strong> </p> </li> 
-        <li> <p><strong>Probleme</strong> </p> </li> 
+        <li> <p><strong>Fehlerbericht</strong> </p> </li> 
+        <li> <p><strong>Reihenfolge ändern</strong> </p> </li> 
+        <li> <p><strong>Problem</strong> </p> </li> 
         <li> <p><strong>Anfrage</strong> </p> </li> 
        </ul> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projekteinstellungen können die Namen der Probleme für Sie unterschiedlich sein.</p> </td> 
      </tr> 
@@ -237,7 +235,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
       <td role="rowheader">Gelöst von</td> 
       <td> <p>Dies zeigt, ob das Problem durch ein anderes Objekt gelöst wurde. Sie können aus dem Dropdown-Menü auswählen, ob dieses Problem durch eine Aufgabe, ein Projekt oder ein anderes Problem behoben wird, und dann mit der Eingabe des Namens der Aufgabe, des Projekts oder des Problems beginnen, das das Problem beheben wird. Wählen Sie sie aus, wenn sie in der Liste angezeigt wird.</p>
 
-   <b>NOTIZ</b>
+   <b>NOTE</b>
 
    Wenn Sie ein Objekt auswählen, um ein Problem zu beheben, wird der Problemstatus mit dem Status des auflösenden Objekts verknüpft und kann in Bezug auf das Problem nicht geändert werden. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.
 
@@ -377,7 +375,7 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Speichern.**
+1. Klicks **Speichern Sie.**
 
 ## Ein Problem in der Kopfzeile des Problems bearbeiten (begrenzt)
 

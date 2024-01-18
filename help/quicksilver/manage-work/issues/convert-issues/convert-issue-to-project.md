@@ -6,9 +6,9 @@ description: Konvertieren eines Problems in ein Projekt in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -89,8 +89,6 @@ Sie können ein Problem mithilfe einer Vorlage in ein leeres Projekt konvertiere
    * Führen Sie einen der folgenden Schritte aus, um ein Problem mithilfe einer Vorlage in ein Projekt zu konvertieren:
 
       * Klicken Sie auf den Namen eines Problems und dann auf das [!UICONTROL **Mehr**] Menü ![](assets/more-icon.png) rechts neben dem Namen des Problems
-
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
         Oder
 

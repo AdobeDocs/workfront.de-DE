@@ -6,9 +6,9 @@ description: Sie können eine Priorität für ein Problem definieren, um anzugeb
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -97,9 +97,7 @@ In der folgenden Tabelle werden die einzelnen standardmäßigen Prioritätsbezei
 ## Aktualisieren der Priorität eines Problems {#update-the-priority-of-an-issue}
 
 1. Gehen Sie zu dem Problem, dessen Priorität Sie ändern möchten.
-1. Klicken **Problemdetails** im linken Bereich.
-
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+1. Klicks **Problemdetails** im linken Bereich.
 
    Die **Übersicht** -Abschnitt sollte standardmäßig angezeigt werden.
 
@@ -107,8 +105,8 @@ In der folgenden Tabelle werden die einzelnen standardmäßigen Prioritätsbezei
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Wählen Sie einen Wert für die **Priorität** -Feld.
+1. Wählen Sie einen Wert für **Priorität** -Feld.
 
    Je nachdem, wie Ihr Workfront-Administrator Prioritäten in Ihrem System konfiguriert hat, können die Optionen variieren.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

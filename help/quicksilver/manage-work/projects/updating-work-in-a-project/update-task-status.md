@@ -6,9 +6,9 @@ description: Sie können den Status einer Aufgabe aktualisieren, um andere darü
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ Sie können den Aufgabenstatus manuell aktualisieren oder Workfront automatisch 
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren zu können:
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neu: Standard</p> 
+   Oder
+   <p>Aktuell: Arbeit oder höher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben bearbeiten</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgabe verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgabe verwalten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Aktualisieren des Status von Aufgaben
 
@@ -94,20 +64,54 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Aufgabenstatus manuell aktualisieren
 
-Wenn Sie einen Aufgabenstatus aktualisieren, können Sie auch eine Erläuterung zum neuen Status eingeben und andere Aufgabeninformationen wie das Fälligkeitsdatum ändern.
+Sie können den Aufgabenstatus in den folgenden Bereichen von Workfront aktualisieren:
 
-1. Gehen Sie zu einer Aufgabe, der Sie zugewiesen sind und für die Sie den Status aktualisieren möchten.
+* Die Kopfzeile der Aufgabe auf der Aufgabenseite.
+* das Feld Aufgabe bearbeiten beim Bearbeiten einer Aufgabe.
+* den Abschnitt &quot;Aufgabendetails&quot;auf der Aufgabenseite.
+* Wenn in einer Aufgabenliste oder einem Bericht das Feld Status in der Ansicht sichtbar ist.
+* Im Bereich Zusammenfassung der Aufgabe.
+
+So aktualisieren Sie den Aufgabenstatus in der Aufgabenüberschrift manuell:
+
+1. Gehen Sie zu einer Aufgabe, für die Sie den Status aktualisieren möchten.
 1. Klicken Sie auf **Status** in der Aufgabenüberschrift ein und wählen Sie einen neuen Status aus.
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um weitere Informationen zur Aktualisierung bereitzustellen, und klicken Sie dann auf **Aktualisieren** oder wenn die Aufgabe die **Fertig** status, click **Fertig:**
+1. Um einen visuellen Hinweis zum Abschluss von Aufgaben anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** in der Kopfzeile der Aufgabe
 
-   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** Bereich und Klicken **Neue Aktualisierung starten**, und geben Sie Ihre Notiz ein.
+   Oder
 
-   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das **Benachrichtigen** ein, das angezeigt wird, wenn Sie einen Hinweis zur Aktualisierung eingeben. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Um die Bedingung der Aufgabe zu aktualisieren, klicken Sie auf **Bedingung auswählen** rechts von der **Benachrichtigen** (diese werden angezeigt, wenn Sie einen Hinweis zur Aktualisierung eingeben), wählen Sie dann die Bedingung aus, die die aktuelle Bedingung der Aufgabe am besten widerspiegelt.
+   Klicken Sie in die Blase in der Kopfzeile der Aufgabe, um einen Prozentsatz einzugeben.
 
-   * Um das Übermittlungsdatum der Aufgabe zu aktualisieren, erweitern Sie die **Datum der Übermittlung** und wählen Sie einen neuen Termin für die Veröffentlichung aus.
-   * Um einen visuellen Hinweis zum Abschluss von Aufgaben bereitzustellen, ziehen Sie die Blase unter &quot;Percent Complete&quot;oder doppelklicken Sie darauf, um einen Prozentwert einzugeben.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen über die Aktualisierung bereitzustellen:
+
+   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** und klicken Sie auf **Neuer Kommentar**, und geben Sie eine Notiz ein.
+
+     ![](assets/add-update-to-task.png)
+
+   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das **Personen oder Teams taggen** -Feld, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Klicken Sie auf , um das Übermittlungsdatum der Aufgabe zu aktualisieren. **Aufgabendetails**, bearbeiten Sie dann die **Datum der Übermittlung** -Feld. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  Nur Aufgabenverantwortliche können das Veröffentlichungsdatum aktualisieren.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Automatisches Aktualisieren des Aufgabenstatus
 
@@ -123,9 +127,9 @@ Workfront aktualisiert den Status einer Aufgabe automatisch in einen anderen Sta
  <col> 
  <tbody> 
   <tr> 
-   <td>Aktion</td> 
-   <td>Originalstatus</td> 
-   <td>Neuer Status</td> 
+   <td><b>Aktion</b></td> 
+   <td><b>Originalstatus</b></td> 
+   <td><b>Neuer Status</b></td> 
   </tr> 
   <tr> 
    <td>Aktualisieren Sie den Prozentsatz der abgeschlossenen Aufgaben auf 100 %</td> 

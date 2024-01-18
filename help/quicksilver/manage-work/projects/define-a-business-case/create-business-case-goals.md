@@ -5,9 +5,9 @@ description: Als Teil der Erstellung eines Geschäftsfalls können Sie eine Reih
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ Beachten Sie beim Erstellen von Geschäftsfallzielen für Ihre Projekte Folgende
 
 * Ziele sind im Geschäftsfall eines Projekts kein obligatorischer Abschnitt.
 
-   Ein Portfolio kann eine Punktzahl erhalten, die in  Optimizer priorisiert werden soll, selbst wenn der Abschnitt Ziele des Geschäftsfalls nicht definiert ist.
+  Ein Portfolio kann eine Punktzahl erhalten, die in  Optimizer priorisiert werden soll, selbst wenn der Abschnitt Ziele des Geschäftsfalls nicht definiert ist.
 
-   Weitere Informationen zum Portfolio Optimizer-Ergebnis finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Weitere Informationen zum Portfolio Optimizer-Ergebnis finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Sie können keine Berichte zu Geschäftsfallzielen erstellen.
 
@@ -71,16 +71,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Hinzufügen eines Ziels zum Geschäftsfall eines Projekts
 
 1. Gehen Sie zu einem Projekt, für das Sie Geschäftsfallziele definieren möchten.
-1. Klicken **Geschäftsszenario im linken Bereich.**
+1. Klicks **Geschäftsszenario im linken Bereich.**
 
    Der Geschäftsfall wird angezeigt.
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. Im **Ziele** Abschnitt, klicken Sie auf **Ziele bearbeiten**.
+1. Im **Ziele** Abschnitt, klicken Sie auf **Ziele bearbeiten**.
 
 1. Geben Sie Ihre Ziele an.
- Im **Wichtigkeit** aus dem Dropdown-Menü die Wichtigkeitsstufe auswählen:
+Im **Wichtigkeit** aus dem Dropdown-Menü die Wichtigkeitsstufe auswählen:
 
    * Maximal
    * Hoch
@@ -88,9 +88,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Niedrig
    * Minimal
 
-      ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-      Sie können die Wichtigkeitsstufen von Zielen nicht anpassen.
+     Sie können die Wichtigkeitsstufen von Zielen nicht anpassen.
 
 1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Neues Ziel hinzufügen** und wiederholen Sie Schritt 5 und Schritt 6.
-1. Klicken **Speichern**.
+1. Klicks **Speichern**.

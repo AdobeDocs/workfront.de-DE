@@ -6,9 +6,9 @@ description: Sowohl der geplante Abschluss als auch das Abschlussdatum geben an,
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -49,15 +49,15 @@ Wenn der Projekteigentümer eine Aufgabe oder ein Problem erstellt und zuweist, 
 * Geplantes Abschlussdatum
 * Kein Commit-Datum
 
-Der Verantwortliche, der an der Aufgabe oder dem Problem arbeitet, kann das Zustimmungsdatum manuell aktualisieren oder es automatisch aktualisieren, indem er akzeptiert, sie zu bearbeiten. Auf diese Weise können Sie dem Projekteigentümer visuell mitteilen, wann er die Aufgabe oder das Problem realistisch durchführen sollte.
+Der Verantwortliche, der an der Aufgabe oder dem Problem arbeitet, kann das Zustimmungsdatum manuell aktualisieren oder es automatisch aktualisieren, indem er akzeptiert, sie zu bearbeiten. Auf diese Weise können Sie dem Projekteigentümer visuell mitteilen, wann er die Aufgabe oder das Problem realistisch durchführen sollte.
 
 >[!TIP]
 >
 >Nur der Bevollmächtigte kann das Datum des Versands einer Aufgabe oder eines Problems aktualisieren.
 
-Der Verantwortliche, der das Zusagedatum ändert, ändert nicht automatisch das geplante Abschlussdatum. Das Gegenteil ist auch der Fall: Wenn Sie das geplante Abschlussdatum ändern, wird das Zustimmungsdatum nicht geändert.
+Der Verantwortliche, der das Zusagedatum ändert, ändert nicht automatisch das geplante Abschlussdatum. Das Gegenteil trifft auch zu: Wenn Sie das geplante Abschlussdatum ändern, wird das Zustimmungsdatum nicht geändert.
 
-Wenn sich das Datum der Veröffentlichung auf ein Datum ändert, das nach dem geplanten Abschlussdatum liegt, wird der Projektinhaber darüber informiert, dass diese Änderung erfolgt ist und sich dies auf die Zeitleiste des Projekts auswirken könnte.
+Wenn sich das Datum des Versands in ein Datum ändert, das nach dem geplanten Abschlussdatum liegt, wird der Projekteigentümer benachrichtigt, dass diese Änderung vorgenommen wurde. Dies kann sich auf die Timeline des Projekts auswirken, wenn der Projekteigentümer das veraltete Kommentarerlebnis verwendet. Diese Funktion wird im neuen Kommentierungserlebnis nicht unterstützt. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Wenn das vom Verantwortlichen angebotene Datum für die Zusage für den Projekteigentümer akzeptabel ist, muss er das geplante Abschlussdatum der Aufgabe oder des Problems manuell aktualisieren. Weitere Informationen finden Sie in den folgenden Artikeln:
 

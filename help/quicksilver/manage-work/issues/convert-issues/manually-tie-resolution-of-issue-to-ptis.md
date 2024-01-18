@@ -6,10 +6,10 @@ description: Sie können die Lösung eines Problems manuell mit der Lösung eine
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 1%
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -62,24 +62,22 @@ Bevor Sie beginnen, müssen Sie:
 
 ## Verknüpfen der Lösung eines Problems mit der Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts
 
-1. Navigieren Sie zu einem Problem, dessen Lösung Sie mit der Lösung eines anderen Problems, einer Aufgabe oder eines Projekts verknüpfen möchten.
-1. Klicken Sie auf **Problemdetails** > **Übersicht** Bereich.
+1. Navigieren Sie zu einem Problem, dessen Lösung Sie mit der Lösung eines anderen Problems oder mit der Lösung einer Aufgabe oder eines Projekts verknüpfen möchten.
+1. Klicken Sie auf **Problemdetails** im linken Bereich, und erweitern Sie dann die **Übersicht** Bereich.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Navigieren Sie zu **Übersicht** -Gebiet **Problemdetails** Abschnitt.
 1. Klicken Sie auf **Gelöst von** und wählen Sie aus den folgenden Arten auflösender Objekte aus:
 
    * **Projekt**
    * **Aufgabe**
-   * **Probleme**
+   * **Problem**
 
    Je nach ausgewähltem Objekt werden die folgenden Felder angezeigt:
 
-   * **Projekt wird gelöst**
-   * **Aufgabe wird gelöst**
-   * **Problem wird gelöst**
-
+   * **Auflösen des Projekts**
+   * **Auflösen von Aufgaben**
+   * **Beheben eines Problems**
 
 1. Beginnen Sie mit der Eingabe des Namens eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems im **Auflösen des Projekts**, **Aufgabe** oder **Problem** und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
@@ -88,9 +86,9 @@ Bevor Sie beginnen, müssen Sie:
    >Sie können die Lösung eines Problems nicht mit der Aufgabe oder dem Projekt verknüpfen, in dem sich das Problem befindet. Die Aufgabe oder das Projekt des Problems werden nicht in den Feldern &quot;Aufgabe auflösen&quot;oder &quot;Aufgabe auflösen&quot;angezeigt.
 
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.
 
-   Das ursprüngliche Problem wird zum auflösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das/das Sie in den Schritten 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem behoben wird, wenn das aufgelöste Objekt (das Projekt, die Aufgabe oder das Problem, mit dem Sie es verknüpft haben) abgeschlossen ist.
+   Das ursprüngliche Problem wird zum auflösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das bzw. das Sie in den Schritten 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem behoben wird, wenn das aufgelöste Objekt (das Projekt, die Aufgabe oder das Problem, mit dem Sie es verknüpft haben) abgeschlossen ist.
 
    >[!NOTE]
    >
