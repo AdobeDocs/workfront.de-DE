@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,13 @@ Die den Benutzern zur Verfügung stehende Testfunktion hängt davon ab, welchen 
 
 ## Testversand in Workfront
 
-Es gibt derzeit zwei Planungsoptionen für Testsendungen in Workfront:
+Es gibt derzeit drei Planungsoptionen für Testsendungen in Workfront:
 
-* **Workfront Pro+-Abos**: Diese Option ist für alle aktuellen Workfront-Pläne vorgesehen - Pro, Business und Enterprise. Testsendungen werden automatisch für Arbeits- und Planungslizenzen berücksichtigt, wenn Sie über die Workfront-Pläne für Profis, Unternehmen oder Unternehmen verfügen.
-* **Alte Workfront Premium-Pläne**: Diese Option ist für veraltete Workfront-Pläne vorgesehen - Select, Enterprise, Premium. Der Testversand wird nicht automatisch in die Lizenzen dieses Plans aufgenommen. Sie müssen bestimmten Benutzern in ihrem Benutzerprofil einen Testversandzugriff gewähren.
+* **Neue Workfront-Pläne**: Die Testversandliste wird automatisch für alle Lizenzen in den neuen Workfront-Plänen hinzugefügt.
+* **Aktuelle Workfront Pro+-Abos**: Die Proofing-Funktion wird automatisch für Arbeits- und Planungslizenzen übernommen, wenn Sie über die Workfront-Pläne für Profis, Unternehmen oder Unternehmen verfügen.
+* **Alte Workfront Premium-Pläne**: Diese Option ist für veraltete Workfront-Pläne vorgesehen - Wählen Sie &quot;Enterprise&quot;, &quot;Premium&quot;. Der Testversand wird nicht automatisch in die Lizenzen dieses Plans aufgenommen. Sie müssen bestimmten Benutzern in ihrem Benutzerprofil einen Testversandzugriff gewähren.
 
-   Wenn Sie Workfront-Administrator sind, können Sie unter Einrichtung > System > Lizenzen überprüfen, welchen Plan Ihre Instanz durchführt.
+  Wenn Sie Workfront-Administrator sind, können Sie unter Einrichtung > System > Lizenzen überprüfen, welchen Plan Ihre Instanz durchführt.
 
 ### Testversandfunktionen in Workfront
 
@@ -40,7 +41,7 @@ Informationen zum Gewähren und Widerrufen des Benutzerzugriffs zum Erstellen un
 * Verfolgen Sie den Fortschritt und Status des Testversands. Weitere Informationen finden Sie unter [Fortschritt und Status des Testversands - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 * Legen Sie beim Erstellen von Testversand-Benutzern in Workfront das Berechtigungsprofil Workfront Testversand fest, wie in diesem Abschnitt beschrieben.
 
-   Diese Profile wirken sich nur auf Berechtigungen in Workfront Testversand aus, nicht auf Berechtigungen in Workfront.
+  Diese Profile wirken sich nur auf Berechtigungen in Workfront Testversand aus, nicht auf Berechtigungen in Workfront.
 
 * Vergleichen Sie zwei Testsendungen oder zwei Versionen desselben Testversands. Weitere Informationen finden Sie unter [Testsendungen vergleichen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 * Erstellen Sie einen Bericht zur Bestätigung des Testversands. Weitere Informationen finden Sie unter  [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

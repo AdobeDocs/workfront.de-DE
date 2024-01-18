@@ -6,9 +6,9 @@ description: In Workfront können Aufgaben über Beziehungen zwischen über- und
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: fb1f4e609e0cc2b0e9e4d0b36b7ace3fd8937d26
+source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+   <p>Neu: Standard</p>
+   <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Aufgaben finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Zugriff auf Aufgaben gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen zum Projekt und zur übergeordneten Aufgabe mit der Möglichkeit, Aufgaben oder höher hinzuzufügen</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe</p> <p> Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Aufgabe freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Beitragen Sie Berechtigungen zum Projekt und zur übergeordneten Aufgabe mit der Möglichkeit, Aufgaben oder höher hinzuzufügen.</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen von Unteraufgaben
 
-* [Erstellen von Unteraufgaben aus der Aufgabenliste](#create-subtasks-from-the-task-list)
-* [Erstellen von Unteraufgaben aus dem Abschnitt &quot;Unteraufgaben&quot;](#create-subtasks-from-the-task-subtasks-section)
+Sie können Unteraufgaben aus der Aufgabenliste oder dem Aufgabenunterabschnitt erstellen.
 
 ### Erstellen von Unteraufgaben aus der Aufgabenliste {#create-subtasks-from-the-task-list}
 
@@ -61,14 +62,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Klicken Sie auf **Einzug** icon ![](assets/indent-icon-nwe-33x29.png) , um die ausgewählte Aufgabe direkt über der Aufgabe zu einer Unteraufgabe zu machen.
    * Drücken Sie bei Verwendung einer standardmäßigen englischen QWERTY-Tastatur die Tastenkombination Wahltaste + > (Mac) oder Alt + > (Windows) auf Ihrer Tastatur. Andere Sprachen können die Befehle Option + , (Mac) oder Alt + , (Windows) zum Einzug verwenden.
 
-      >[!TIP]
-      >
-      >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben in der Inline-Bearbeitung bearbeiten. Verwenden Sie in diesem Fall das Symbol Einzug . ![](assets/cs1.png) um Unteraufgaben zu erstellen.
+     >[!TIP]
+     >
+     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben in der Inline-Bearbeitung bearbeiten. Verwenden Sie in diesem Fall das Symbol Einzug . ![](assets/cs1.png) um Unteraufgaben zu erstellen.
 
    * Ziehen Sie die Aufgabe per Drag-and-Drop über die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
-   >[!NOTE]
-   >
-   >Aufgaben können nur eingezogen werden, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und keine Gruppierungen auf die Aufgabenliste angewendet werden.
+
+     >[!NOTE]
+     >
+     >Aufgaben können nur eingezogen werden, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und keine Gruppierungen auf die Aufgabenliste angewendet werden.
 
 ### Erstellen von Unteraufgaben aus dem Abschnitt &quot;Unteraufgaben&quot; {#create-subtasks-from-the-task-subtasks-section}
 
@@ -76,11 +78,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **Aufgaben** im linken Bereich.
 1. Klicken Sie auf den Namen der Aufgabe, in der Sie eine Unteraufgabe erstellen möchten.
 1. Klicken Sie auf **Unteraufgaben** im linken Bereich.
-1. Klicken **Neue Aufgabe.**
+1. Klicks **Neue Aufgabe.**
 
    Führen Sie die Schritte im folgenden Artikel aus, um mit der Erstellung der Unteraufgabe fortzufahren: [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klicken **Aufgabe speichern.**
+1. Klicks **Aufgabe speichern.**
 
 ## Teilaufgabe zu einer Hauptaufgabe machen
 

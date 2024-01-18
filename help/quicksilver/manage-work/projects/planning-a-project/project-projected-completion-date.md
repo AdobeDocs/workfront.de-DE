@@ -7,9 +7,9 @@ description: Das geplante Abschlussdatum ist ein berechneter Echtzeitindikator d
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,73 +22,44 @@ In den folgenden Abschnitten wird beschrieben, wie das geplante Abschlussdatum f
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
+   <p>Neu: 
+   <ul><li><p>Beitragende oder höher zur Anzeige des geplanten Abschlussdatums in einem Bericht</p></li> <li><p>Eine Standardlizenz zum Erstellen eines Berichts</p></li> </ul>
+
+<p>Aktuell: 
+   <ul><li><p>Überprüfen oder höher , um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p></li> 
+   <li><p>Eine Planungslizenz zum Erstellen eines Berichts</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher , um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p> <p>Eine Planungslizenz zum Erstellen eines Berichts</p> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf Projekte</p> <p>Sie müssen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, um einen Bericht erstellen zu können</p> <p>Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten haben, um einen Bericht zu erstellen oder eine Listenansicht zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td> <p>Anzeigen oder höherer Zugriff auf Projekte</p> <p>Sie müssen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, um einen Bericht erstellen zu können</p> <p>Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten haben, um einen Bericht zu erstellen oder eine Listenansicht zu ändern</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## So bestimmt Adobe Workfront das geplante Abschlussdatum
 
-Das vorgeschlagene Abschlussdatum ist ein berechnetes Feld und kann nicht manuell geändert werden.
+Das vorgeschlagene Abschlussdatum ist ein berechnetes Feld, das nicht manuell geändert werden kann.
 
 Die Kriterien zur Bestimmung des geplanten Abschlussdatums unterscheiden sich je nach angezeigtem Objekt:
 
@@ -122,27 +93,23 @@ Die Kriterien zur Bestimmung des geplanten Abschlussdatums unterscheiden sich je
 
 ## Anzeigen des geplanten Abschlussdatums
 
-Sie können das geplante Abschlussdatum von Projekten, Aufgaben und Problemen in Berichten anzeigen. Sie können das geplante Abschlussdatum von Projekten und Aufgaben in anderen Bereichen von Workfront anzeigen. 
-
-* [Anzeigen des geplanten Abschlussdatums eines Projekts](#view-the-projected-completion-date-of-a-project)
-* [Anzeigen des geplanten Abschlussdatums einer Aufgabe](#view-the-projected-completion-date-of-a-task)
-* [Anzeigen des geplanten Abschlussdatums eines Problems](#view-the-projected-completion-date-of-an-issue)
+Sie können das geplante Abschlussdatum von Projekten, Aufgaben und Problemen in Berichten anzeigen. Sie können das geplante Abschlussdatum von Projekten und Aufgaben in anderen Bereichen von Workfront anzeigen.
 
 ### Anzeigen des geplanten Abschlussdatums eines Projekts {#view-the-projected-completion-date-of-a-project}
 
 1. Wechseln Sie zu dem Projekt, in dem das geplante Abschlussdatum angezeigt werden soll.
 1. Klicks **Projektdetails** im linken Bereich.
-1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** Abschnitt.
+1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** > **Projektdaten** Abschnitt.
 
 ### Anzeigen des geplanten Abschlussdatums einer Aufgabe {#view-the-projected-completion-date-of-a-task}
 
 1. Gehen Sie zu der Aufgabe, in der Sie das geplante Abschlussdatum anzeigen möchten.
 1. Klicks **Aufgabendetails** im linken Bereich.
-1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** Abschnitt.
+1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** > **Aufgabendaten und -begrenzung** Abschnitt.
 
 ### Anzeigen des geplanten Abschlussdatums eines Problems {#view-the-projected-completion-date-of-an-issue}
 
-Sie können das geplante Abschlussdatum nur für Probleme in einem Problembericht oder in der Listenansicht anzeigen. Das Erstellen einer Listenansicht ähnelt dem Erstellen einer Ansicht in einem Bericht.
+Sie können das geplante Abschlussdatum nur für Probleme in einem Problembericht oder in der Listenansicht anzeigen. Das Erstellen einer Listenansicht ähnelt dem Erstellen einer Ansicht in einem Bericht.
 
 So erstellen Sie einen Problembericht mit dem geplanten Abschlussdatum:
 
