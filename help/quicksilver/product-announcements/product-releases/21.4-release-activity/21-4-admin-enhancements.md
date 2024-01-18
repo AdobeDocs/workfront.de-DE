@@ -4,10 +4,11 @@ description: 21.4 Administratorverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, di
 
 Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Für Administratoren: Ermitteln, welche Gruppen mit einem Genehmigungsprozess verbunden sind
+## Für Administratoren: Ermitteln Sie, welche Gruppen mit einem Genehmigungsprozess verknüpft sind.
 
 Um herauszufinden, welche Gruppen mit den Genehmigungsprozessen in Ihrem System verbunden sind, haben wir der Ansicht &quot;Standard&quot;auf der Seite &quot;Genehmigungen&quot;unter Einrichtung eine Spalte &quot;Gruppenname&quot;hinzugefügt. Jetzt können Sie diese Informationen anzeigen, ohne eine benutzerdefinierte Ansicht erstellen zu müssen.
 
@@ -26,7 +27,7 @@ Informationen zu Validierungsprozessen finden Sie unter [Übersicht über den Ge
 
 Informationen zum Verwalten von Gruppengenehmigungsprozessen finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## Neu für Administratoren: Gruppen können ihre eigenen Voreinstellungen für das Zeitblatt und die Stunde konfigurieren
+## Neu für Administratoren: Gruppen können ihre eigenen Voreinstellungen für Zeitpläne und Stunden konfigurieren
 
 >[!NOTE]
 >
@@ -36,11 +37,11 @@ In einer großen Organisation müssen einige Gruppen möglicherweise die Voreins
 
 Diese Möglichkeit wurde kürzlich auch für Projektvoreinstellungen sowie für Aufgaben- und Problemeinstellungen hinzugefügt.
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Informationen dazu, wie ein Gruppenadministrator entsperrte Aufgaben konfiguriert und die Voreinstellungen für eine Gruppe ausgibt, finden Sie unter [Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-## Neu für Workfront-Administratoren: Konfigurieren von Layoutvorlagen für automatisch bereitgestellte Benutzer im neuen Workfront-Erlebnis
+## Neu für Workfront-Administratoren: Konfigurieren Sie Layoutvorlagen für automatisch bereitgestellte Benutzer im neuen Workfront-Erlebnis
 
 Jetzt können Sie Layoutvorlagen im neuen Workfront-Erlebnis für automatisch bereitgestellte Benutzer konfigurieren. Im Dropdown-Menü Workfront-Benutzerattribut, in dem Sie Benutzerattribute zuordnen (Setup > System > Single Sign-On), ist jetzt ein neues Menüelement &quot;NWE Layout Template&quot;verfügbar, das diese Konfiguration vornehmen kann. Zuvor war es nur in Workfront Classic möglich, Layoutvorlagen für automatisch bereitgestellte Benutzer zu konfigurieren.
 
@@ -64,7 +65,7 @@ Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../admini
 
 Für einige Blueprints sind jetzt neue Voreinstellungen für Probleme verfügbar. Sie werden standardmäßig installiert, Sie können jedoch die Installation der Voreinstellungen deaktivieren, wenn Sie Ihre Installationsdetails konfigurieren.
 
-Zu den Voreinstellungen gehören Warteschlangen-Themengruppen, Warteschlangenthemen und Routing-Regeln, um beim Senden eines Problems oder einer Anfrage die richtigen Informationen zu erfassen und das Problem oder die Anfrage an die richtige Auftrags- oder -team zu senden. Die Verwendung der Voreinstellungen trägt dazu bei, die Konsistenz bei der Erfassung neuer Probleme oder Anforderungen in Ihren Projekten zu gewährleisten.
+Zu den Voreinstellungen gehören Warteschlangen-Themengruppen, Warteschlangenthemen und Routing-Regeln, um beim Senden eines Problems oder einer Anfrage die richtigen Informationen zu erfassen und das Problem oder die Anfrage an die richtige Auftrags- oder -team zu senden. Mithilfe der Voreinstellungen können Sie Konsistenz bei der Erfassung neuer Probleme oder Anforderungen in Ihren Projekten schaffen.
 
 Beachten Sie, dass durch die Verwendung dieser Voreinstellungen die aus der Vorlage erstellten Projekte nicht in Anfragewarteschlangen umgewandelt werden.
 
@@ -76,11 +77,11 @@ Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../admini
 >
 >Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Wir machen es weiterhin einfacher, Ihre Gruppen und die zugehörigen Objekte an einem Ort zu verwalten. Jetzt können Sie die kürzlich gelöschten und wiederhergestellten Elemente einer Gruppe aus dem Gruppenbereich anzeigen und damit arbeiten. So sparen Sie sich, diese Elemente im Bereich &quot;Kürzlich gelöscht&quot;oder &quot;Kürzlich wiederhergestellt&quot;unter &quot;Einstellungen&quot;verwalten zu müssen. Und es behält die Liste der Gruppenelemente, mit denen Sie arbeiten, getrennt von den anderen gelöschten und wiederhergestellten Elementen im System bei.
+Wir machen es weiterhin einfacher, Ihre Gruppen und die zugehörigen Objekte an einem Ort zu verwalten. Jetzt können Sie die kürzlich gelöschten und wiederhergestellten Elemente einer Gruppe aus dem Gruppenbereich anzeigen und damit arbeiten. So sparen Sie sich, diese Elemente im Bereich &quot;Kürzlich gelöscht&quot;oder &quot;Kürzlich wiederhergestellt&quot;unter &quot;Einstellungen&quot;verwalten zu müssen. Außerdem werden die Gruppenelemente, mit denen Sie arbeiten, getrennt von den anderen gelöschten und wiederhergestellten Elementen im System gespeichert.
 
 Weitere Informationen finden Sie unter [Anzeigen und Verwalten der kürzlich gelöschten Elemente einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) und [Anzeigen und Verwalten der kürzlich wiederhergestellten Elemente einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
-## Neu für Gruppenadministratoren: Gruppenvoreinstellungen wirken sich jetzt auf Gruppenvorlagen aus
+## Neu für Gruppenadministratoren: Gruppeneinstellungen wirken sich jetzt auf Gruppenvorlagen aus
 
 Es ist jetzt einfacher sicherzustellen, dass die Projektvorlagen Ihrer Gruppe den Anforderungen Ihrer Gruppe entsprechen. Wenn Sie einer Gruppe zum Zeitpunkt ihrer Erstellung eine neue Projektvorlage zuweisen, übernimmt die Vorlage die folgenden Einstellungen aus den Projekt- und Aufgabenvoreinstellungen der Gruppe:
 
@@ -103,27 +104,27 @@ Wenn Sie eine Vorlagen- oder Vorlagenaufgabe ohne Gruppe erstellen, z. B. auf de
 
 Weitere Informationen finden Sie im Artikel im Abschnitt Wie Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet werden [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Neu für Administratoren: Erfahren Sie, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld verwenden
+## Neu für Administratoren: Erfahren Sie, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld verwenden.
 
 Jetzt ist es einfacher, ein benutzerdefiniertes Feld in einem benutzerdefinierten Formular zu ändern. Mit nur einem Klick im benutzerdefinierten Formular können Sie Informationen zu anderen benutzerdefinierten Formularen erhalten, die auch das Feld verwenden. Es ist wichtig zu beurteilen, ob diese Formulare angepasst werden müssen, damit sie nach der Änderung ordnungsgemäß funktionieren.
 
 Weitere Informationen finden Sie unter [Alle benutzerdefinierten Formulare anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
-## Neu für Gruppenadministratoren: Projekt-, Aufgaben- und Ausgabevoreinstellungen für eine Gruppe sperren und entsperren
+## Neu für Gruppenadministratoren: Voreinstellungen für Projekt, Aufgabe und Problem für eine Gruppe sperren und entsperren
 
 Jetzt können Sie sicherstellen, dass alle Untergruppen unter Ihrer Gruppe dieselben Einstellungen verwenden, oder Sie können ihnen erlauben, eine Voreinstellung für ihre individuellen Workflows zu konfigurieren.
 
 * Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt hat, können Sie sie konfigurieren und für alle Untergruppen unterhalb Ihrer Gruppe sperren. Obwohl Sie die gesperrte Voreinstellung weiterhin neu konfigurieren können, können Administratoren niedrigerer Untergruppen dies nicht für ihre Gruppen tun.
 
-   Umgekehrt können Sie eine Voreinstellung für Ihre Gruppe entsperren. Dadurch können Administratoren von Untergruppen diese für die individuellen Projekt-, Aufgaben- oder Problem-Workflow-Anforderungen ihrer Benutzer konfigurieren.
+  Umgekehrt können Sie eine Voreinstellung für Ihre Gruppe entsperren. Dadurch können Administratoren von Untergruppen diese für die individuellen Projekt-, Aufgaben- oder Problem-Workflow-Anforderungen ihrer Benutzer konfigurieren.
 
-   Weitere Informationen finden Sie unter [Voreinstellung zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder eines Problems für Untergruppen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Weitere Informationen finden Sie unter [Voreinstellung zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder eines Problems für Untergruppen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Wenn Sie Workfront-Administrator sind, müssen Sie nicht zum Bereich Gruppen wechseln, um die Voreinstellungen einer Untergruppe zu konfigurieren. Im Hauptbereich Voreinstellungen für Projekte, Aufgaben und Probleme oder Voreinstellungen für Timesheets und Stunden können Sie über das Suchfeld oben auf der Seite die Untergruppe suchen und ihre Voreinstellungen konfigurieren.
 
-   Weitere Informationen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Weitere Informationen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-## Neu für Gruppenadministratoren: Erstellen und Bearbeiten von Vorlagen über den Bereich &quot;Gruppen&quot;
+## Neu für Gruppenadministratoren: Erstellen und bearbeiten Sie Vorlagen aus dem Bereich Gruppen .
 
 >[!NOTE]
 >
@@ -139,7 +140,7 @@ Weitere Informationen finden Sie unter [Erstellen und Ändern von Gruppenprojekt
 >
 >Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Es ist jetzt einfacher, Informationen im Abschnitt Details für ein Objekt bereitzustellen: Geben Sie Informationen in ein einzelnes benutzerdefiniertes Feld oder einen erweiterbaren Bereich (z. B. &quot;Überblick&quot;und &quot;Finanzen&quot;) ein und speichern Sie sie, selbst wenn erforderliche Felder in anderen benutzerdefinierten Formularen für das Objekt noch nicht ausgefüllt sind.
+Es ist jetzt einfacher, Informationen im Abschnitt &quot;Details&quot;für ein Objekt bereitzustellen: Geben Sie Informationen in ein einzelnes benutzerdefiniertes Feld oder einen erweiterbaren Bereich (z. B. Überblick und Finanzen) ein und speichern Sie sie, selbst wenn erforderliche Felder in anderen benutzerdefinierten Formularen für das Objekt noch nicht ausgefüllt sind.
 
 Wenn Sie zuvor Informationen in ein benutzerdefiniertes Formular oder einen erweiterbaren Bereich für ein Objekt eingegeben haben, wurden alle benutzerdefinierten Formulare, die an das Objekt angehängt waren, in den Bearbeitungsmodus versetzt und alle zugehörigen Felder mussten ausgefüllt werden, bevor Sie Ihre Änderungen speichern konnten. Dies war ein Problem, wenn Sie ein erforderliches Feld nicht ausfüllen konnten, da es für einen anderen Benutzer vorgesehen war.
 
@@ -163,7 +164,7 @@ Zuvor war diese Funktion nur für Gruppen der obersten Ebene verfügbar.
 
 Weitere Informationen finden Sie unter [Verwalten von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-## Neu für Workfront-Administratoren: Migrieren von Layoutvorlagen aus Workfront Classic zum neuen Workfront-Erlebnis
+## Neu für Workfront-Administratoren: Sie können Layoutvorlagen aus Workfront Classic eigenständig in das neue Workfront-Erlebnis migrieren.
 
 >[!NOTE]
 >

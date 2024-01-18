@@ -2,13 +2,15 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront-Testversion 23.3 - Woche der Veröffentlichungsaktivität vom 5. Juni 2023
+title: Adobe Workfront Testversand 23.3 - Release-Aktivität Woche vom 5. Juni 2023
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 5. Juni 2023 verfügbar sein.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 9aa69a4375d432218bd25a0927476d92178d8cb5
+recommendations: noDisplay, noCatalog
+exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,3 @@ Benutzer können weiterhin Testsendungen für die folgenden Office-Dateitypen er
 Die Dateigrößenbeschränkung für PowerPoint- und Word-Dateien beträgt jetzt 512 MB.
 
 Weitere Informationen finden Sie unter [Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
-

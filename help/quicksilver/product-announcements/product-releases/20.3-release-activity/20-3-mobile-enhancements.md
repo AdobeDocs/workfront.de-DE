@@ -5,10 +5,11 @@ title: 20.3 Verbesserungen bei Integration und Mobilgeräten
 description: Auf dieser Seite werden alle Integrations- und mobilen Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f9f7dad59a107daea5eae1da4b3f59230da8df88
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übe
 
 Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workfront Fusion erworben - der leistungsstarken Integrationsplattform, die es ermöglicht, über praktisch jede webbasierte Anwendung frei zu arbeiten.
 
-Vorherige Workfront Fusion-Kunden können in Workfront Fusion 2.0 mehr Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Berechenbarkeit erwarten. Wir migrieren derzeit aktuelle Workfront Fusion-Kunden auf Workfront Fusion 2.0. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+Vorherige Kunden von Workfront Fusion können in Workfront Fusion 2.0 höhere Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Berechenbarkeit erwarten. Wir migrieren derzeit die aktuellen Workfront Fusion-Kunden zu Workfront Fusion 2.0. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
 Weitere Informationen finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 

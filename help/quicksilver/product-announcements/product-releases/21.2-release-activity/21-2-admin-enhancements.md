@@ -6,10 +6,11 @@ title: 21.2 Verbesserungen für Administratoren
 description: Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -18,26 +19,26 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Für Administratoren: Anzeigen von Auditprotokollinformationen zu vielen weiteren Bereichen in Workfront
+## Für Administratoren: Informationen zu vielen weiteren Bereichen in Workfront im Auditprotokoll anzeigen
 
 Im Bereich Auditprotokolle können Sie jetzt Änderungen in mehr Bereichen in Workfront verfolgen und beheben. Jetzt generiert das System Auditprotokolleinträge, wenn ein Benutzer Folgendes durchführt:
 
-* Erstellen, Ändern, Löschen oder Teilen eines benutzerdefinierten Formulars
+* Erstellt, ändert, löscht oder gibt ein benutzerdefiniertes Formular frei
 * Erstellen, Ändern, Löschen oder Teilen eines benutzerdefinierten Felds
 * Erstellt, ändert oder löscht einen benutzerdefinierten Abschnitt
-* Erstellt, ändert oder löscht einen Wechselkurs
+* Erstellen, Ändern oder Löschen eines Wechselkurses
 * Erstellt, ändert oder löscht eine Vorgangsrolle
 * Erstellt, ändert oder löscht eine Priorität
 * Erstellt, ändert oder löscht einen Schweregrad
 * Erstellt, ändert oder löscht eine Bedingung
-* Ändert eine Projektvoreinstellung oder erstellt oder löscht ein benutzerdefiniertes Quartal
+* Ändert eine Projekteinstellung oder erstellt oder löscht ein benutzerdefiniertes Quartal
 * Ändert die Voreinstellung für Aufgaben und Probleme
 
 Weitere Informationen finden Sie unter [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 Diese Funktion ist jetzt im [Administratorgrundlagen für das neue Workfront-Erlebnis, Teil 2: Projekteinrichtung](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Lernpfad auf Workfront One.
 
-## Für Gruppenadministratoren: Verbesserte Steuerelemente zum Verschieben von Untergruppen und eine aktualisierte Symbolleiste
+## Für Gruppenadministratoren: verbesserte Steuerelemente zum Verschieben von Untergruppen und eine aktualisierte Symbolleiste
 
 >[!NOTE]
 >
@@ -47,7 +48,7 @@ Wir haben die folgenden Verbesserungen im Bereich &quot;Untergruppen&quot;im Set
 
 * Damit Sie die von Ihnen verwalteten Gruppen schnell neu organisieren können, haben wir die Schaltfläche &quot;Untergruppen hinzufügen&quot; hinzugefügt, mit der Sie neue Untergruppen erstellen und bestehende verschieben können.
 
-   Weitere Informationen finden Sie unter [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Weitere Informationen finden Sie unter [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * Die Symbolleiste im Bereich &quot;Untergruppen&quot;sorgt jetzt dafür, dass die Listen mit anderen modernisierten Listen im neuen Workfront-Erlebnis konsistent sind. Wenn Sie Gruppen auswählen, stellen Symbole die verfügbaren Funktionen in der Symbolleiste dar.
 
@@ -61,7 +62,7 @@ Die Beschriftungen für die beiden Optionsfeld-Optionen sind nicht so lang. Der 
 
 Informationen zu den Voreinstellungen für Timesheets und Stunden finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Für Gruppenadministratoren: Verbesserungen der Liste im Bereich &quot;Gruppen&quot;
+## Für Gruppenadministratoren: Listen-Verbesserungen im Bereich Gruppen
 
 >[!NOTE]
 >
@@ -70,23 +71,23 @@ Informationen zu den Voreinstellungen für Timesheets und Stunden finden Sie unt
 Zwei Verbesserungen im Bereich &quot;Gruppen&quot;unter &quot;Einrichtung&quot;sorgen dafür, dass Listen mit anderen modernisierten Listen im neuen Workfront-Erlebnis konsistent sind:
 
 * Wenn Sie Gruppen auswählen, stellen Symbole die verfügbaren Funktionen in der Symbolleiste dar.
-* In der Liste der Gruppen, Spalten, Sortierungen und Hierarchien haben Sie das neuere Aussehen, das Sie in anderen Listen gewohnt sind. Außerdem werden standardmäßig bis zu 2.000 Elemente auf einer einzelnen Seite anstatt 100 Listen angezeigt.
+* In der Liste der Gruppen, Spalten, Sortierungen und Hierarchien haben Sie das neuere Aussehen, das Sie in anderen Listen haben. Außerdem werden standardmäßig bis zu 2.000 Elemente auf einer Seite statt 100 Listen angezeigt.
 
 Informationen zu den modernisierten Listen in Workfront finden Sie unter [Anzeige einer Liste ändern](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
 Weitere Informationen zum Gruppenbereich finden Sie unter [Gruppen verwalten](../../../administration-and-setup/manage-groups/manage-groups.md).
 
-## Für Gruppenadministratoren: Erstellen und bearbeiten Sie Programme im Bereich &quot;Gruppen&quot;unter &quot;Einrichten&quot;.
+## Für Gruppenadministratoren: Erstellen und bearbeiten Sie Programme im Bereich Gruppen in der Einrichtung.
 
 >[!NOTE]
 >
 >Nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Wir machen es weiterhin einfacher, Ihre Gruppen und die zugehörigen Objekte an einem Ort zu verwalten. Jetzt können Sie die Programme einer Gruppe im Bereich Gruppen in der Einrichtung anzeigen und damit arbeiten. Dies erspart Ihnen, die Programme Ihrer Gruppe im Bereich Programme verwalten zu müssen. Und es behält die Liste der Gruppenprogramme, mit denen Sie arbeiten, getrennt von den anderen Programmen im System bei.
+Wir machen es weiterhin einfacher, Ihre Gruppen und die zugehörigen Objekte an einem Ort zu verwalten. Jetzt können Sie die Programme einer Gruppe im Bereich Gruppen in der Einrichtung anzeigen und damit arbeiten. Dies erspart Ihnen den Zugriff auf die Programme Ihrer Gruppe. Und es behält die Liste der Gruppenprogramme, mit denen Sie arbeiten, getrennt von den anderen Programmen im System bei.
 
 Weitere Informationen finden Sie unter [Erstellen, Ändern und Anzeigen von Programmen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
-## Für Administratoren: Die Kopfzeilen im Einrichtungsbereich wurden aktualisiert
+## Für Administratoren: Aktualisierte Kopfzeilen im Bereich &quot;Einstellungen&quot;
 
 >[!NOTE]
 >
@@ -98,11 +99,11 @@ Um Administratoren im Bereich &quot;Einrichtung&quot;besser auszurichten und die
 * Hierarchieinformationen über dem Namen jeder Unterseite (z. B. auf der Seite für eine einzelne Gruppe)
 * Moderierte Schriftstile und -größen
 
-   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Weitere Informationen zum Setup-Bereich finden Sie unter [Administration und Einrichtung](../../../administration-and-setup/administration-and-setup.md).
 
-## Für Gruppenadministratoren: Anzeigen und Verwalten weiterer Gruppenobjekte über die Seite &quot;Gruppen&quot;
+## Für Gruppenadministratoren: Anzeigen und Verwalten von mehr Gruppenobjekten über die Seite &quot;Gruppen&quot;
 
 >[!NOTE]
 >
@@ -116,7 +117,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
 * [Erstellen und Ändern von Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
 
-## Neu für Gruppenadministratoren: Zuweisen von Gruppen-Timesheet-Profilen
+## Neu für Gruppenadministratoren: Zuweisung von Gruppen-Timesheet-Profilen
 
 Jetzt ist es einfacher, die Profile für eine von Ihnen verwaltete Gruppe zu verwalten. Sie können nicht nur Zeitleistenprofile erstellen, sondern diese auch Ihren Gruppen oder einzelnen Gruppenmitgliedern zuweisen. Dies gilt auch dann, wenn die Option Timesheets &amp; Stunden in Ihrer Zugriffsebene nicht aktiviert ist.
 
@@ -126,9 +127,9 @@ Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von T
 
 Informationen zur Option &quot;Timesheets und Stunden&quot;auf Zugriffsebene finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Für Administratoren: Festlegen des Filters, der Ansicht und der Gruppierung, den Benutzer in Objektlisten sehen
+## Für Administratoren: Legen Sie den Filter, die Ansicht und die Gruppierung fest, die Benutzer in Objektlisten sehen
 
-Mithilfe einer Layoutvorlage im neuen Workfront-Erlebnis können Sie jetzt den Standardfilter, die Ansicht und die Gruppierung festlegen, die Benutzer in Workfront in Objektlisten sehen.
+Mithilfe einer Layoutvorlage im neuen Workfront-Erlebnis können Sie jetzt den Standardfilter, die Ansicht und die Gruppierung festlegen, die Benutzern in Workfront in Objektlisten angezeigt werden.
 
 Anstatt beispielsweise das Steuerelement Liste filtern auf Alle zu setzen, können Sie es in Mein Home-Team ändern. Auf diese Weise schließt ein Benutzer, wenn er eine Liste von Objekten anzeigt, nur die Objekte ein, die mit dem Team des Benutzers verknüpft sind.
 
@@ -152,7 +153,7 @@ Zuvor mussten Sie ohne diese Spalte manuell einen Bericht im Textmodus erstellen
 
 Weitere Informationen: [Alle Berichte anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
-## Für Gruppenadministratoren: Anzeigen und Verwalten von Gruppen und Objekten an einem Ort
+## Für Gruppenadministratoren: Anzeigen und Verwalten einer Gruppe und ihrer Objekte an einem Ort
 
 >[!NOTE]
 >
@@ -169,7 +170,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Erstellen und Verwalten von Timesheet-Profilen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Anzeigen und Verwalten von Untergruppenmitgliedern](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
-## Neu für Administratoren: Weitere Textformatierungsoptionen in Feldern in benutzerdefinierten Formularen verfügbar
+## Neu für Administratoren: Weitere Textformatierungsoptionen in benutzerdefinierten Formularfeldern verfügbar
 
 Wenn Benutzer Felder mit benutzerdefiniertem Formular eingeben, die Formatierung zulassen, können sie den Text jetzt neben fett, kursiv und unterstrichen auch mit Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen organisieren.
 

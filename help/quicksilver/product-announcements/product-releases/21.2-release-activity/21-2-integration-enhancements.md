@@ -6,10 +6,11 @@ title: 21.2 Integrationsverbesserungen
 description: Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Einführung in Adobe Workfront für XD
+## Adobe Workfront für XD
 
-Wir freuen uns, den Start unseres neuen Plug-ins bekannt geben zu können: Adobe Workfront für XD. Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Kollegen im Bereich Updates zusammenarbeiten und Testsendungen zur Überprüfung einreichen - alles ohne XD zu verlassen. Gehen Sie zum Adobe XD Marketplace, um das Plug-in heute herunterzuladen.
+Wir freuen uns, die Einführung unseres neuen Plug-ins Adobe Workfront für XD bekannt geben zu können. Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Kollegen im Bereich Updates zusammenarbeiten und Testsendungen zur Überprüfung einreichen - alles ohne XD zu verlassen. Gehen Sie zum Adobe XD Marketplace, um das Plug-in heute herunterzuladen.
 
 Weitere Informationen dazu, was Sie mit Adobe Workfront für XD tun können, finden Sie unter [Verwalten der Arbeit mit dem Adobe Workfront-Plug-in für Creative Cloud-Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 

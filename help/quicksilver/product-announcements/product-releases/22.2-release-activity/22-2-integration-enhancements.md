@@ -4,10 +4,11 @@ description: 2.2 Integrationsverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Weitere Workflows, für die Sie möglicherweise die Integration von Workfront in
 
 * Erstellen von Anaplan-Budgetanforderungen aus neuen Workfront-Projekten
 * Erstellen von Workfront-Projekten aus neuen Anaplan-Listenelementen
-* Initiierung von Anaplan-Lieferanfragen von Workfront-Projekten
+* Initiierung von Anaplan-Lieferantenanfragen aus Workfront-Projekten
 
 Weitere Informationen finden Sie unter [Adobe Workfront mit Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
@@ -45,8 +46,8 @@ Weitere Informationen finden Sie unter [Adobe Workfront mit Anaplan](../../../wo
 Der erweiterte Connector von Workfront für Experience Manager umfasst jetzt die folgenden Updates:
 
 * Sie können jetzt verknüpfte Ordner zwischen Adobe Workfront und Adobe Experience Manager Assets as a Cloud Service erstellen, auch wenn mehrere projektverknüpfte Ordnerkonfigurationen vorhanden sind.
-* Unterstützung für die Seitennummerierung bei Ereignisabonnements hinzugefügt
-* Hinzugefügte Unterstützung für AEM 6.4.x
+* Unterstützung für die Seitenumbruch bei Ereignisabonnements hinzugefügt
+* Unterstützung für AEM 6.4.x hinzugefügt
 * Unterstützung für Proxy-Umgebungen hinzugefügt
 * Mehrere Fehlerbehebungen basierend auf Partner- und Kunden-Feedback
 
@@ -68,7 +69,7 @@ Um Transparenz bei der Verwendung Ihrer benutzerdefinierten OAuth2- und JWT-Inte
 
 Zuvor waren diese Details nicht verfügbar.
 
-Weitere Informationen zu Client Secrets in benutzerdefinierten OAuth2- oder JWT-Integrationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen zu Client Secrets in benutzerdefinierten OAuth2- oder JWT-Integrationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Siehe Authentifizierungstyp in der Liste der benutzerdefinierten OAuth2-Anwendungen
 
@@ -76,13 +77,13 @@ Wenn Sie jetzt die Liste der benutzerdefinierten OAuth2-Anwendungen in Ihrem Unt
 
 Bisher konnten Sie diese Informationen nur sehen, indem Sie die Bearbeitungsoptionen für jede Anwendung aufrufen.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## Legen Sie die Gültigkeit für Aktualisierungstoken in Ihren benutzerdefinierten OAuth2-Integrationen fest.
+## Festlegen des Ablaufs für Aktualisierungstoken in Ihren benutzerdefinierten OAuth2-Integrationen
 
 Um den Zugriff und die Sicherheit für Ihre benutzerdefinierten OAuth2-Integrationen zu verbessern, können Sie jetzt die Lebensdauer von Aktualisierungstoken anpassen. Nachdem das Aktualisierungstoken eines Benutzers abläuft, muss er sich erneut bei der Integration anmelden.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Verwenden Sie öffentliche und private Schlüssel in Ihren benutzerdefinierten OAuth2-Integrationen für Server-zu-Server-Apps
 
@@ -90,7 +91,7 @@ Sie können jetzt Server-zu-Server-OAuth2-Anwendungen in Ihren benutzerdefiniert
 
 Bisher verwendete die gesamte Authentifizierung in Ihren benutzerdefinierten OAuth2-Anwendungen die Anmeldedaten des Benutzers.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Die Integration der Google G Suite verwendet jetzt OAuth2
 

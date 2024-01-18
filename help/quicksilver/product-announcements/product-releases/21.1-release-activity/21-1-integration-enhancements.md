@@ -6,10 +6,11 @@ title: 21.1 Integrationsverbesserungen
 description: Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---

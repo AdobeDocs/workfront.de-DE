@@ -4,10 +4,11 @@ description: 22.1 Verbesserungen für Administratoren
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Dokumentdownloads, die im Bereich Updates protokolliert wurden
 
@@ -34,7 +35,7 @@ Um Ihren Benutzern zu helfen, Downloads von Dokumenten zu verfolgen, die sie in 
 >
 >Es wird empfohlen, diese Funktion in der Vorschau für ein neu hochgeladenes Dokument zu testen.
 
-Informationen dazu, wie Workfront automatische Aktualisierungen von Objekten protokolliert, finden Sie unter [Vom System verfolgte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Informationen dazu, wie Workfront automatische Aktualisierungen von Objekten protokolliert, finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Gewähren des Zugriffs auf Teams über Zugriffsebenen
 
@@ -119,7 +120,7 @@ In einer großen Organisation müssen einige Gruppen möglicherweise die Voreins
 
 Diese Möglichkeit wurde kürzlich auch für Projektvoreinstellungen sowie für Aufgaben- und Problemeinstellungen hinzugefügt.
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Informationen dazu, wie ein Gruppenadministrator entsperrte Aufgaben konfiguriert und die Voreinstellungen für eine Gruppe ausgibt, finden Sie unter [Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
@@ -164,7 +165,7 @@ Jetzt können Sie Workfront mit anderen Anwendungen integrieren, für die Workfr
 
 Zuvor war die Integration mit anderen Anwendungen nur über integrierte Integrationen, Workfront Fusion oder die Workfront-API möglich.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Verbesserungen am Schnittstellentext im Unternehmensbereich
 

@@ -4,10 +4,11 @@ description: 21.3 Administratorverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../admini
 
 Diese Funktion ist jetzt im [Projektvorlagen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Lernpfad auf Workfront One.
 
-## Neu für Gruppenadministratoren: Erstellen und Verwalten von Status für eine Gruppe auf allen Ebenen
+## Neu für Gruppenadministratoren: Erstellen und verwalten Sie Status für eine Gruppe auf allen Ebenen
 
 Um es allen Ebenen einer Organisation zu erleichtern, ihre Workflows unabhängig zu verwalten und zu steuern, haben wir die Möglichkeit eingeführt, Status für Untergruppen zu erstellen und zu verwalten. Nun können Sie im Abschnitt Gruppen unter Einrichtung Folgendes für Gruppen durchführen, die Sie auf jeder Ebene verwalten:
 
@@ -44,7 +45,7 @@ Zuvor war diese Funktion nur für Gruppen der obersten Ebene verfügbar.
 
 Weitere Informationen finden Sie unter [Verwalten von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-## Neu für Administratoren: Benutzerdefiniertes Formular für einen Rechnungsdatensatz erstellen
+## Neu für Administratoren: Benutzerdefiniertes Formular für den Rechnungsdatensatz erstellen
 
 Jetzt können Sie verbessern, wie Benutzer Rechnungsinformationen erfassen, indem Sie ein benutzerdefiniertes Formular für Rechnungsdatensätze erstellen. Benutzer können das benutzerdefinierte Formular an einen Rechnungsdatensatz anhängen, es ausfüllen und Berichte ausführen, die die Informationen im Formular enthalten.
 

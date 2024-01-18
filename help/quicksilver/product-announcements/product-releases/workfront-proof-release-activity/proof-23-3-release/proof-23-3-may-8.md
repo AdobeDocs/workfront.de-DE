@@ -6,9 +6,11 @@ title: Adobe Workfront-Testversion 23.3 - Woche der Veröffentlichungsaktivität
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab 8. Mai 2023 in der Produktionsumgebung verfügbar sein.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+recommendations: noDisplay, noCatalog
+exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---

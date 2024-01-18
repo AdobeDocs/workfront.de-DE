@@ -4,10 +4,11 @@ description: 22.2 Verbesserungen für Administratoren
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -41,14 +42,13 @@ Weitere Informationen finden Sie im Abschnitt . [Erstellen eines benutzerdefinie
 >* Für Abschnittsumbrüche in benutzerdefinierten Formularen haben wir eine Reihe allgemeiner Anzeigeberechtigungen und Bearbeitungsberechtigungen erstellt, die für alle Objekttypen gelten, die Sie für ein Formular konfigurieren können. In einem Szenario haben wir festgestellt, dass eine dieser Berechtigungen, &quot;Eingeschränkte Bearbeitung&quot;, Fehler in einem Formular verursachen kann. Dieses Problem wurde am 24. März behoben. Weitere Informationen zu Abschnittspausen finden Sie unter [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
-
 ## Der Blueprints-Katalog steht allen Benutzern zur Verfügung und Administratoren können Anfragen zulassen
 
 Alle Adobe Workfront-Benutzer können jetzt den Katalog der verfügbaren Blueprints durchsuchen. Weitere Informationen finden Sie unter [Katalog mit Blueprints durchsuchen und Installation von Blueprints anfordern](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Darüber hinaus kann der Systemadministrator den Zugriff für Benutzer aktivieren, um die Installation von Blueprints anzufordern. Durch Zuweisen einer Anforderungswarteschlange zum Speichern der Anforderungen können Benutzer Anforderungen aus dem Blueprints-Katalog stellen. Weitere Informationen finden Sie unter [Zugriff auf Blueprints konfigurieren](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-## Bild zu einem benutzerdefinierten Formular hinzufügen
+## Hinzufügen eines Bildes zu einem benutzerdefinierten Formular
 
 In einem benutzerdefinierten Formular, das Sie erstellen oder bearbeiten, können Sie jetzt ein Bild hinzufügen und eine informative oder lehrreiche QuickInfo einfügen, die Benutzer lesen können, wenn sie den Mauszeiger darüber bewegen.
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-
 
 ## Neue standardmäßige Zugriffsstufenkonfigurationen
 
-Um die Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für die unten aufgeführten Optionen zur Anpassung Ihrer Einstellungen geändert. Diese werden angezeigt, wenn Sie auf das Zahnradsymbol klicken ![](assets/gear-icon-in-access-levels.png) auf der Schaltfläche Bearbeiten klicken.
+Um die Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für die unten aufgeführten Optionen zur Anpassung Ihrer Einstellungen geändert. Diese werden beim Klicken auf das Zahnradsymbol angezeigt ![](assets/gear-icon-in-access-levels.png) auf der Schaltfläche Bearbeiten klicken.
 
 Alle diese Änderungen deaktivieren eine Option, die zuvor standardmäßig aktiviert war. Wenn dies nicht den Anforderungen Ihrer Organisation entspricht, können Sie sie bei der Einrichtung einer neuen Zugriffsebene oder zu einem späteren Zeitpunkt aktivieren.
 
@@ -72,7 +72,7 @@ Alle diese Änderungen deaktivieren eine Option, die zuvor standardmäßig aktiv
 >
 >Diese Änderung der Standardkonfiguration wirkt sich nur auf die von Ihnen erstellten Zugriffsebenen und nicht auf die zuvor erstellten Zugriffsebenen aus.
 
-* In einer neuen Zugriffsstufe mit einem Planlizenztyp:
+* In einer neuen Zugriffsstufe mit einem Plan-Lizenztyp:
 
    * Freigabe Systemweit ist nun für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Filter, Dokumente und Vorlagen deaktiviert.
    * Integrierte Berichte anzeigen und Berichte öffentlich freigeben sind auch für Berichte deaktiviert.

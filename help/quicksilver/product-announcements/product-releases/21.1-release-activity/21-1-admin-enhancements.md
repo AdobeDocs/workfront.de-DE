@@ -6,10 +6,11 @@ title: 21.1 Verbesserungen für Administratoren
 description: Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,9 @@ Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, di
 
 Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## Einführung neuer Einstellungen für die Zugriffsebene beim Kopieren von Projekten
+## Einführung neuer Einstellungen für die Zugriffsebene für das Kopieren von Projekten
 
-Damit Sie als Systemadministrator mehr Kontrolle darüber haben, was Planer mit einem Projekt tun können, haben wir den Bearbeitungszugriff auf Projekte auf Zugriffsebene detaillierter gestaltet, indem eine neue Einstellung eingeführt wurde, mit der Sie die Möglichkeit zum Kopieren von Projekten aktivieren oder deaktivieren können. Vor dieser Änderung hatten Benutzer, die den Zugriff auf Projekte bearbeiten aktiviert hatten, automatisch Zugriff auf das Kopieren. Mit der neuen Funktion können Sie jemandem Zugriff auf Projekte gewähren, ohne notwendigerweise darauf zugreifen zu müssen, indem Sie die neue Einstellung Kopieren deaktivieren.
+Damit Sie als Systemadministrator mehr Kontrolle darüber haben, was Planer mit einem Projekt tun können, haben wir den Bearbeitungszugriff auf Projekte auf Zugriffsebene detaillierter gestaltet, indem eine neue Einstellung eingeführt wurde, mit der Sie die Möglichkeit zum Kopieren von Projekten aktivieren oder deaktivieren können. Vor dieser Änderung hatten Benutzer, die den Zugriff von Benutzern auf Projekte bearbeiten aktiviert hatten, automatisch Zugriff auf das Kopieren. Mit der neuen Funktion können Sie jemandem Zugriff auf Projekte gewähren, ohne notwendigerweise darauf zugreifen zu müssen, indem Sie die neue Einstellung Kopieren deaktivieren.
 
 Wenn Ihre Benutzer vor dieser Änderung Zugriff auf Projekte bearbeiten in ihrer Zugriffsebene hatten, wird diese Einstellung automatisch aktiviert, wenn diese Funktion veröffentlicht wird.
 
@@ -134,11 +135,11 @@ Wenn Sie Gruppenadministrator sind, können Sie die Projekte und Genehmigungspro
 
 * Klicken Sie im linken Menü auf Projekte , um die Projekte der Gruppe anzuzeigen und neue für die Gruppe zu erstellen. Wenn ein ausgewähltes Projekt für Sie freigegeben wurde, können Sie es mithilfe der Schaltflächen in der Symbolleiste bearbeiten, exportieren, kopieren oder löschen.
 
-   Weitere Informationen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Weitere Informationen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Klicken Sie im linken Menü auf Validierungen , um alle mit der Gruppe verknüpften Validierungsprozesse anzuzeigen und zu verwalten.
 
-   Weitere Informationen finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Weitere Informationen finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Diese Funktion steht auch Workfront-Administratoren zur Verfügung.
 

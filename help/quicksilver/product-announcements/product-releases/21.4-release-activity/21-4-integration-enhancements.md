@@ -4,10 +4,11 @@ description: 21.4 Integrationsverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Ver
 
 Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Verknüpfen von Dokumenten aus Dropbox Business
+## Verknüpfen von Dokumenten von Dropbox Business
 
-Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt aus Workfront auf Dokumente zugreifen, die Sie in Dropbox Business gespeichert haben.
+Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt von Workfront aus auf Dokumente zugreifen, die Sie im Dropbox Business gespeichert haben.
 
-Dropbox Business ermöglicht Ihnen, freigegebene Dokumente zu verknüpfen und Dokumente in freigegebene Ordner hochzuladen. Dropbox (nicht Dropbox Business) ermöglicht es nur dem Dokumenteigentümer, das Dokument in Workfront anzuzeigen.
+Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokumente in freigegebene Ordner hochladen. Dropbox (nicht Dropbox Business) ermöglicht es nur dem Dokumenteigentümer, das Dokument in Workfront anzuzeigen.
 
 Ihr Workfront-Administrator kann diese Integration für Ihr Unternehmen aktivieren.
 
@@ -34,10 +35,10 @@ Informationen dazu, wie ein Workfront-Administrator diese Option aktivieren kann
 
 Die folgenden Updates sind jetzt in der Workfront für die Slack-Integration sichtbar:
 
-* Workfront for Slack hat ein neues Erscheinungsbild.
+* Workfront for Slack hat ein neues Aussehen und Gefühl.
 * Jetzt erhalten Sie Ihre Workfront für Slack-Benachrichtigungen in Echtzeit.
 
-   Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. Zuvor konnte es zu einer Verzögerung kommen, bevor die Benachrichtigung in Slack angezeigt wurde.
+  Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. Zuvor konnte es zu einer Verzögerung kommen, bevor die Benachrichtigung auf Slack angezeigt wurde.
 
 Für dieses Update müssen Sie Ihre Workfront für die Slack-Integration neu autorisieren. Informationen zum Autorisieren der Integration finden Sie unter [Adobe Workfront für Slack konfigurieren](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 

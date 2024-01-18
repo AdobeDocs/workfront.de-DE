@@ -5,10 +5,11 @@ title: 20.3 Verbesserungen beim Testversand
 description: Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

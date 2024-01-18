@@ -4,10 +4,11 @@ description: 20.4 Verbesserungen bei Mobile und Integration
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

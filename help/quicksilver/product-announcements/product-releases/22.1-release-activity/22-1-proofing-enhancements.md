@@ -3,11 +3,12 @@ title: 2.1 Verbesserungen bei der Testprüfung
 description: 2.1 Verbesserungen bei der Testprüfung
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -24,18 +25,17 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbesserte Testversandfunktionen für Prüfer und Anforderer
 
 >[!NOTE]
 >
->Veröffentlicht an EMEA-Kunden mit integriertem Proofing, erstellt nur vor dem 6. Juli 2021. Diese Funktion wird ab dem 13. Januar und bis zum 17. Januar in einer schrittweisen Einführung in die Vorschau für folgende Kunden angezeigt: >
+>Veröffentlicht an EMEA-Kunden mit integriertem Proofing, erstellt nur vor dem 6. Juli 2021. Diese Funktion wird ab dem 13. Januar in einer schrittweisen Einführung in die Vorschau angezeigt und endet am 17. Januar für folgende Kunden: >
 >* EMEA-Kunden mit integriertem und eigenständigem Testversand
 >* EMEA-Kunden mit integriertem Testversand, der nach dem 6. Juli 2021 erstellt wurde
 >* Alle US-Kunden
 >
-
 
 Um ein integrierteres Erlebnis zwischen Workfront und Testversand zu bieten, haben wir hinsichtlich der Testversandfunktionen für Prüfer und Anforderer verschiedene Verbesserungen vorgenommen:
 

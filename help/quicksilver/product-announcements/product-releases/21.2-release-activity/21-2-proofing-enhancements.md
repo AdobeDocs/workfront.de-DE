@@ -3,20 +3,21 @@ content-type: release-notes
 keywords: notes,vierteljährlich,update,release
 navigation-topic: 2021-2-release-activity
 title: 21.2 Verbesserungen bei der Prüfung
-description: Auf dieser Seite werden alle Verbesserungen bei der Prüfung beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
+description: Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # 21.2 Verbesserungen bei der Prüfung
 
-Auf dieser Seite werden alle Verbesserungen bei der Prüfung beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Testbestätigungsentscheidung jetzt in der Dokumentenliste sichtbar
 
@@ -44,7 +45,7 @@ Um nützliche Informationen zu Testsendungen aufzudecken, haben wir die folgende
 
 Diese Felder sind nicht Teil des Standardberichts. Sie müssen sie hinzufügen, wenn Sie sie sehen möchten.
 
-Diese Funktion ist jetzt im [Testsystem-Setups, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Testversandsysteme, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Lernpfad auf Workfront One.
 
 ## Den bestehenden Testversand-Workflow bei der Generierung einer neuen Version übernehmen
 
@@ -56,4 +57,4 @@ Jetzt wird der bestehende Testversand-Workflow auf alle neuen Versionen übertra
 
 Zuvor gab es einen geringfügigen Unterschied in der Art und Weise, wie der Testversand-Workflow übertragen wurde, je nachdem, wo Sie ihn in Workfront generiert haben.
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Testversands](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Weitere Informationen finden Sie unter [Erstellen einer neuen Testversion](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
