@@ -4,10 +4,11 @@ description: 22.4 Administratorverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -112,14 +113,14 @@ HINWEIS: Diese Migration wurde auf Q1-Q2 von 2023 verschoben. Betroffene Kunden 
 
 Wenn Ihr Unternehmen in Adobe Admin Console integriert wurde, wird Ihre Workfront-Instanz mit Version 22.4 in die Adobe Unified Experience migriert.
 
-Das einheitliche Erlebnis der Adobe umfasst:
+Das Adobe Unified Experience umfasst:
 
-* Eine Anmeldung für alle Adobe Apps über Adobe Experience Cloud
+* Eine Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
 
 * Ein &quot;Organisationswechsel&quot; für den Wechsel zwischen Workfront-Organisationen und -Umgebungen
 
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
-Weitere Informationen finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}

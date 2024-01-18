@@ -5,10 +5,11 @@ title: 20.3 Agile Verbesserungen
 description: Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---

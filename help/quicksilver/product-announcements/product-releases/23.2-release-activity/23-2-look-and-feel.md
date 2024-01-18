@@ -4,13 +4,14 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
+recommendations: noDisplay, noCatalog
+exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '537'
 ht-degree: 2%
 
 ---
-
 
 # Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.2
 
@@ -22,12 +23,12 @@ Eine Liste aller in Version 23.2 verfügbaren Änderungen finden Sie unter [23.2
 
 >[!NOTE]
 >
->Vorschau-Version: 4. April 2023; Geplante Produktionsversion: 20. April 2023
+>Vorschau-Version: 4. April 2023; geplante Produktionsversion: 20. April 2023
 
 Wir haben die Liste der Entwürfe im Bereich Anforderungen aktualisiert, um sie mit den aktuelleren Listen in Workfront konsistent zu machen.
 Zu den Aktualisierungen gehören die folgenden:
 
-* Der Filter &quot;Nach Anfragetyp filtern&quot;wurde durch den standardmäßigen Schnellfilter ersetzt.
+* Filter &quot;Nach Anfragetyp filtern&quot;durch den standardmäßigen Schnellfilter ersetzt
 * Das Bild wurde aus der Liste &quot;Entwürfe&quot;entfernt, wenn die Liste keine Anforderungen enthält
 * Der Liste wurden Paginierung und Spaltensortierung hinzugefügt.
 
@@ -37,7 +38,7 @@ Weitere Informationen finden Sie unter [Anforderungen aus Entwürfen erstellen](
 
 >[!NOTE]
 >
->Vorschau-Version: 9. Februar 2023; Geplante Produktionsversion: 2. März 2023
+>Vorschau-Version: 9. Februar 2023; geplante Produktionsversion: 2. März 2023
 
 Beim Hinzufügen von Benutzern in den folgenden Bereichen werden jetzt zusätzliche Benutzerinformationen angezeigt:
 
@@ -54,7 +55,7 @@ Wenn Sie nun einen Benutzer zu den oben aufgeführten Bereichen hinzufügen, wer
 
 Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion finden Sie unter &quot;Smart-User-Auswahl für Projektrollen in den Bereichen Bearbeiten und Details&quot;in [2.4 Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-## Symbol Dokumentversion in Dokumentdetails aktualisiert
+## Aktualisiertes Symbol Dokumentversion in Dokumentdetails
 
 Das Erscheinungsbild des Symbols Dokumentversion wurde aktualisiert. Auf dem Symbol wird jetzt eine rote Punktnotiz angezeigt, wenn Sie eine frühere Version verwenden, sowie ein Mauszeiger mit der Meldung &quot;Frühere Version&quot;.
 
@@ -62,7 +63,7 @@ Das Erscheinungsbild des Symbols Dokumentversion wurde aktualisiert. Auf dem Sym
 
 >[!NOTE]
 >
->Vorschau-Version: 16. Februar 2023; Geplante Produktionsversion: 2. März 2023
+>Vorschau-Version: 16. Februar 2023; geplante Produktionsversion: 2. März 2023
 
 Damit Sie Adobe Workfront überall in der Anwendung konsistent nutzen können, haben wir die Benutzeroberfläche beim Kopieren oder Verschieben einer Vorlagenaufgabe neu gestaltet. Dies ist derzeit beim Kopieren einer Vorlagenaufgabe auf Aufgabenebene oder beim Kopieren einer Aufgabe oder mehrerer Aufgaben in einer Liste verfügbar.
 

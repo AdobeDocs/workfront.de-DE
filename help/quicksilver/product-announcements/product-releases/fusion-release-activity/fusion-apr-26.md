@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 26. April 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 69721699-c642-4f6f-a13b-f6fe48bea0b7
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Jetzt können Sie mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Microsoft On
 Mit dem Microsoft OneDrive-Anschluss können Sie:
 
 * Trigger eines Szenarios bei der Erstellung oder Aktualisierung von Dateien oder Ordnern
-* Suchen, Verschieben oder Löschen von Dateien und Ordnern
+* Dateien und Ordner suchen, verschieben oder löschen
 * Hochladen, Herunterladen und Kopieren von Dateien
 * Ordner erstellen
 * Abrufen von Dateien oder Abrufen von Freigabe-Links für eine Datei

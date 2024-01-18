@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 3. Mai 2021'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 3. Mai 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 3. Mai 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3312c5-3416-4c03-8528-6a2c0240110e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -36,11 +37,11 @@ Um die Sicherheit zu erhöhen, haben wir dem Workfront Fusion Azure DevOps Conne
 
 * Azure DevOps
 
-   Dieser neue Verbindungstyp beschränkt die Bereiche auf die speziell von Workfront Fusion benötigten.
+  Dieser neue Verbindungstyp beschränkt die Bereiche auf die speziell von Workfront Fusion benötigten.
 
 * Azure DevOps (alle Bereiche anfordern)
 
-   Dies ist der veraltete Verbindungstyp, der alle in einer Verbindung zu Azure DevOps verfügbaren Bereiche anfordert.
+  Dies ist der veraltete Verbindungstyp, der alle in einer Verbindung zu Azure DevOps verfügbaren Bereiche anfordert.
 
 Wir empfehlen Ihnen, den Azure DevOps-Verbindungstyp in allen Ihren neuen Szenarien zu verwenden, die Azure DevOps verwenden. Wir empfehlen Ihnen außerdem, alle Azure DevOps-Module in Ihren vorhandenen Szenarien zu ändern, um den neuen Verbindungstyp zu verwenden. Der veraltete Verbindungstyp Azure DevOps (Alle Bereiche anfordern) wird in naher Zukunft nicht mehr unterstützt.
 

@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 23. August 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Re
 
 Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
 
-## Felder für die Typvorbereitung sind jetzt in Workfront-Modulen verfügbar
+## Felder für die Typvorbereitung sind jetzt in Workfront-Modulen verfügbar.
 
 Um die Verwendung von Modulen zu vereinfachen, wurden einige Dropdown-Listen durch Typeahead-Felder ersetzt. Anstatt Elemente aus langen Listen auszuwählen, können Sie nun mit der Eingabe des Elements beginnen und dann darauf klicken, wenn es angezeigt wird.
 
@@ -31,9 +32,9 @@ Weitere Informationen zu Workfront-Modulen finden Sie unter [Adobe Workfront-Mod
 
 ## Rechnungsdatensatzobjekt ist jetzt in Workfront-Modulen verfügbar
 
-Das Datensatzobjekt Rechnungsstellung ist in Dropdown-Objektauswahllisten in den folgenden Modulen verfügbar:
+Das Datensatzobjekt &quot;Rechnungsstellung&quot;ist in Dropdown-Objektauswahllisten in den folgenden Modulen verfügbar:
 
-* Aufzeichnen von Aufnahmen
+* Aufzeichnen von Daten
 * Datensatz löschen
 * Datensatz erstellen
 * Datensatz lesen

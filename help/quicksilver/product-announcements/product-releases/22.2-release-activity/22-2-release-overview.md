@@ -4,17 +4,18 @@ description: 2.2 Versionsübersicht
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3973'
 ht-degree: 0%
 
 ---
 
 # 2.2 Versionsübersicht
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 22.2. Alle aufgelisteten Funktionen sind im neuen Adobe Workfront-Erlebnis verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. jedoch [Workfront Classic wird im März 2022 eingestellt](https://one.workfront.com/s/new-workfront-experience), gefolgt kurz vor dem Ende des Lebenszyklus für Workfront Classic im Juli 2022.
+Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 22.2. Alle aufgelisteten Funktionen sind im neuen Adobe Workfront-Erlebnis verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. [Workfront Classic wird im März 2022 eingestellt](https://one.workfront.com/s/new-workfront-experience), gefolgt kurz vor dem Ende des Lebenszyklus für Workfront Classic im Juli 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +78,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -88,18 +89,18 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Bild zu einem benutzerdefinierten Formular hinzufügen</a> </p> <p>In einem benutzerdefinierten Formular, das Sie erstellen oder bearbeiten, können Sie jetzt ein Bild hinzufügen und eine informative oder lehrreiche QuickInfo einfügen, die Benutzer lesen können, wenn sie den Mauszeiger darüber bewegen.</p> <p>Dies kann beispielsweise hilfreich sein, um das Branding für ein neues Produkt anzuzeigen oder visuelle Informationen bereitzustellen, die Personen beim Ausfüllen des Formulars benötigen.</p> <p>Zuvor waren benutzerdefinierte Formulare vollständig textbasiert.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Hinzufügen eines Bildes zu einem benutzerdefinierten Formular</a> </p> <p>In einem benutzerdefinierten Formular, das Sie erstellen oder bearbeiten, können Sie jetzt ein Bild hinzufügen und eine informative oder lehrreiche QuickInfo einfügen, die Benutzer lesen können, wenn sie den Mauszeiger darüber bewegen.</p> <p>Dies kann beispielsweise hilfreich sein, um das Branding für ein neues Produkt anzuzeigen oder visuelle Informationen bereitzustellen, die Personen beim Ausfüllen des Formulars benötigen.</p> <p>Zuvor waren benutzerdefinierte Formulare vollständig textbasiert.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 10. März 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -110,18 +111,18 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Neue standardmäßige Zugriffsstufenkonfigurationen</a> </p> <p>Um die Anforderungen der meisten Administratoren, die Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für mehrere der Optionen "Anpassen Ihrer Einstellungen"geändert, die angezeigt werden, wenn Sie auf das Zahnradsymbol auf einer Schaltfläche "Bearbeiten"klicken.</p> <p>Die Optionen, die zuvor standardmäßig aktiviert waren, sind jetzt deaktiviert. Wenn dies nicht den Anforderungen Ihrer Organisation entspricht, können Sie sie bei der Einrichtung einer neuen Zugriffsebene oder zu einem späteren Zeitpunkt aktivieren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Neue standardmäßige Zugriffsstufenkonfigurationen</a> </p> <p>Um die Anforderungen der meisten Administratoren, die Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für mehrere der Optionen "Anpassen Ihrer Einstellungen" geändert, die angezeigt werden, wenn Sie auf das Zahnradsymbol auf einer Schaltfläche "Bearbeiten"klicken.</p> <p>Die Optionen, die zuvor standardmäßig aktiviert waren, sind jetzt deaktiviert. Wenn dies nicht den Anforderungen Ihrer Organisation entspricht, können Sie sie bei der Einrichtung einer neuen Zugriffsebene oder zu einem späteren Zeitpunkt aktivieren.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 27. Januar 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wird im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,7 +134,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -144,7 +145,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -168,7 +169,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -186,18 +187,18 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#undo" class="MCXref xref" xrefformat="{para}">Option "Rückgängig"für "Beiträge aktualisieren"</a> </p> <p>Es ist jetzt einfacher, Fehler beim Posten einer Aktualisierung zu erfassen. Beim Fertigstellen eines Kommentars auf der Registerkarte "Aktualisieren"eines Objekts wird jetzt ein Popup-Fenster für 7 Sekunden erstellt, in dem Sie den Beitrag abbrechen und zur Bearbeitung zurückkehren können - bevor das System ihn mit einem Zeitstempel versehen oder E-Mails und In-App-Benachrichtigungen sendet. Wenn Sie das Popup-Fenster schließen, die Seite verlassen oder 7 Sekunden warten, bis das Fenster eine Zeitüberschreitung aufweist, wird der Beitrag normal ausgeführt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#undo" class="MCXref xref" xrefformat="{para}">Option "Rückgängig"für Beiträge aktualisieren</a> </p> <p>Es ist jetzt einfacher, Fehler beim Posten einer Aktualisierung zu erfassen. Beim Fertigstellen eines Kommentars auf der Registerkarte "Aktualisieren"eines Objekts wird jetzt ein Popup-Fenster für 7 Sekunden erstellt, in dem Sie den Beitrag abbrechen und zur Bearbeitung zurückkehren können - bevor das System ihn mit einem Zeitstempel versehen oder E-Mails und In-App-Benachrichtigungen sendet. Wenn Sie das Popup-Fenster schließen, die Seite verlassen oder 7 Sekunden warten, bis das Fenster eine Zeitüberschreitung aufweist, wird der Beitrag normal ausgeführt.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 10. März 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -208,7 +209,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -229,7 +230,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -240,7 +241,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.1 <span style="color: #ff0000; font-weight: bold;">Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -251,7 +252,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.1 <span style="color: #ff0000; font-weight: bold;">Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -262,7 +263,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -273,7 +274,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: 24. Februar 2022</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -289,7 +290,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 <span style="color: #ff0000; font-weight: bold;">Diese Funktion wird kurz nach Version 22.2 für die Produktion freigegeben.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wird im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -301,7 +302,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 <span style="color: #ff0000; font-weight: bold;">Diese Funktion ist vorübergehend nicht verfügbar. Diese Seite wird aktualisiert, sobald die Funktion in der Produktion verfügbar ist.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wird im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -333,7 +334,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -344,7 +345,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -355,7 +356,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wird im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -380,7 +381,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -404,7 +405,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mitte bis Ende April 2022 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Mobile App iOS</p> </li> 
+     <li> <p>Mobile App von iOS</p> </li> 
      <li> <p>Android Mobile App</p> </li> 
     </ul> </td> 
   </tr> 
@@ -421,7 +422,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Anfang Februar 2022 (Diese Verbesserungen wurden ursprünglich mit Version 22.1 kommuniziert.)</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Mobile App iOS</p> </li> 
+     <li> <p>Mobile App von iOS</p> </li> 
      <li> <p>Android Mobile App</p> </li> 
     </ul> </td> 
   </tr> 
@@ -446,25 +447,25 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront für Experience Manager - verbesserte Connector-Updates</a> </p> <p>Der erweiterte Connector von Workfront für Experience Manager umfasst jetzt die folgenden Updates:</p> 
     <ul> 
      <li> <p>Sie können jetzt verknüpfte Ordner zwischen Adobe Workfront und Adobe Experience Manager Assets as a Cloud Service erstellen, auch wenn mehrere projektverknüpfte Ordnerkonfigurationen vorhanden sind.</p> </li> 
-     <li> <p>Unterstützung für die Seitennummerierung bei Ereignisabonnements hinzugefügt</p> </li> 
-     <li> <p>Hinzugefügte Unterstützung für AEM 6.4.x</p> </li> 
+     <li> <p>Unterstützung für die Seitenumbruch bei Ereignisabonnements hinzugefügt</p> </li> 
+     <li> <p>Unterstützung für AEM 6.4.x hinzugefügt</p> </li> 
      <li> <p>Unterstützung für Proxy-Umgebungen hinzugefügt</p> </li> 
      <li> <p>Mehrere Fehlerbehebungen basierend auf Partner- und Kunden-Feedback</p> </li> 
     </ul> </td> 
    <td><strong>Verfügbar zu diesen Terminen:</strong> 
     <ul> 
-     <li> <p>Vorschau-Version: Nicht zutreffend<br></p> </li> 
+     <li> <p>Vorschauversion: nicht verfügbar<br></p> </li> 
      <li> <p>Produktionsversion: 28. März 2022</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic </p> </li> 
     </ul> </td> 
   </tr> 
@@ -476,7 +477,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -487,7 +488,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -498,18 +499,18 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#set" class="MCXref xref" xrefformat="{para}">Legen Sie die Gültigkeit für Aktualisierungstoken in Ihren benutzerdefinierten OAuth2-Integrationen fest.</a> </p> <p>Um den Zugriff und die Sicherheit für Ihre benutzerdefinierten OAuth2-Integrationen zu verbessern, können Sie jetzt die Lebensdauer von Aktualisierungstoken anpassen. Nachdem das Aktualisierungstoken eines Benutzers abläuft, muss er sich erneut bei der Integration anmelden.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#set" class="MCXref xref" xrefformat="{para}">Festlegen des Ablaufs für Aktualisierungstoken in Ihren benutzerdefinierten OAuth2-Integrationen</a> </p> <p>Um den Zugriff und die Sicherheit für Ihre benutzerdefinierten OAuth2-Integrationen zu verbessern, können Sie jetzt die Lebensdauer von Aktualisierungstoken anpassen. Nachdem das Aktualisierungstoken eines Benutzers abläuft, muss er sich erneut bei der Integration anmelden.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 10. Februar 2022 <br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -520,7 +521,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -544,14 +545,14 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mindestens 2 Wochen nach Veröffentlichung in der Vorschau</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Verbesserungen der oberen Navigationsleiste</a> </p> <p>Die Navigationsleiste am oberen Bildschirmrand von Adobe Workfront wurde verbessert.</p> 
     <ul> 
      <li> <p>Favoriten und Letzte haben in der oberen Navigationsleiste jetzt separate Symbole. Jede Seite zeigt weiterhin denselben Inhalt an (Seiten, die Sie als Favoriten gekennzeichnet haben, und Seiten, die Sie kürzlich besucht haben), und Sie können weiterhin beliebte Seiten auf die gleiche Weise hinzufügen und entfernen.</p> </li> 
-     <li> <p>Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf die Adobe-Designstandards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.</p> </li> 
+     <li> <p>Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.</p> </li> 
      <li> <p>Die Symbole auf der rechten Seite der oberen Navigationsleiste wurden neu angeordnet, um intuitiver zu sein. Die Symbolreihenfolge lautet: Hilfelink, Benachrichtigungen, Favoriten, Neuigkeiten, Suche, Hauptmenü.</p> </li> 
     </ul> </td> 
    <td><strong>Verfügbar zu diesen Terminen:</strong> 
@@ -560,7 +561,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -575,7 +576,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>Produktionsversion: Mit Version 22.2</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -621,9 +622,9 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 Informationen zu den Wartungsupdates, die während der Version 22.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## Webinar zur Version 22.2
+## Webinar zur Version 2.2
 
-Das Workfront Release-Webinar 22.2 wird am 24. März 2022 um 8:00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung im [Ereignisseite auf Workfront 1](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+Das Workfront Release-Webinar 22.2 wird am 24. März 2022 um 8:00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung im [Seite &quot;Ereignisse&quot;in Workfront 1](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 7. Dezember 2020'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 7. Dezember 2020'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 7. Dezember 2020 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 ## Jira-Server-Connector und -Module jetzt verfügbar
 
-Für Workfront Fusion 2.0 ist jetzt ein neuer Jira-Server-Connector verfügbar. Der Jira-Server-Connector bietet die gleichen Funktionen wie der aktuelle Jira Cloud-Connector. Mit Jira Server-Modulen können Sie:
+Für Workfront Fusion 2.0 ist jetzt ein neuer Jira-Server-Connector verfügbar. Der Jira-Server-Connector bietet dieselbe Funktionalität wie der aktuelle Jira Cloud-Connector. Mit Jira Server-Modulen können Sie:
 
 * Trigger eines Szenarios beim Hinzufügen, Ändern oder Löschen eines Datensatzes
 * Erstellen, Lesen, Aktualisieren oder Löschen eines Datensatzes

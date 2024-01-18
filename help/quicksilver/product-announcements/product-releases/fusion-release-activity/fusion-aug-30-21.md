@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 30. August 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 988349f9-aa12-4017-9032-be4d0078959e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -29,12 +30,12 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
    Der Ereignisfilter bietet derzeit die folgenden Vorgänge:
 
-   * Equal: Trigger eines Szenarios nur dann, wenn ein Ereignis mit den Filterbedingungen übereinstimmt. Sie können beispielsweise einen Filter einrichten, der ein Szenario nur dann Trigger, wenn das Ereignis in einem bestimmten Projekt auftritt.
-   * Ungleich: Trigger eines Szenarios nur dann, wenn ein Ereignis nicht mit den Filterbedingungen übereinstimmt. Sie können beispielsweise einen Filter erstellen, der ein Szenario nur dann Trigger, wenn das Problem, in dem ein Ereignis auftritt, nicht den Status Geschlossen aufweist.
+   * Gleich: Trigger eines Szenarios nur, wenn ein Ereignis den Filterbedingungen entspricht. Sie können beispielsweise einen Filter einrichten, der ein Szenario nur dann Trigger, wenn das Ereignis in einem bestimmten Projekt auftritt.
+   * Nicht gleich: Trigger eines Szenarios nur dann, wenn ein Ereignis nicht mit den Filterbedingungen übereinstimmt. Sie können beispielsweise einen Filter erstellen, der ein Szenario nur dann Trigger, wenn das Problem, bei dem ein Ereignis auftritt, in nicht den Status Geschlossen aufweist.
 
    Zuvor hat das Modul Datensätze überwachen alle Datensätze abgerufen. Benutzer konnten nur filtern, indem sie später im Szenario Filter eingerichtet haben.
 
-   Um die Ereignisfilterung nutzen zu können, erstellen Sie einen neuen Webhook in Ihrem Modul Überwachungs-Ereignisse . Es ist derzeit nicht möglich, vorhandene Webhooks zu bearbeiten, um diese Funktion aufzunehmen. Es wird dringend empfohlen, neue Webhooks zu erstellen, die Ereignisfilter für Ihre vorhandenen Szenarien verwenden.
+   Um die Ereignisfilterung zu nutzen, erstellen Sie einen neuen Webhook in Ihrem Modul &quot;Watch-Ereignisse&quot;. Es ist derzeit nicht möglich, vorhandene Webhooks zu bearbeiten, um diese Funktion aufzunehmen. Es wird dringend empfohlen, neue Webhooks zu erstellen, die Ereignisfilter für Ihre vorhandenen Szenarien verwenden.
 
 1. Filtern Sie Ereignisse, die von der aktuellen Verbindung ausgelöst werden.
 

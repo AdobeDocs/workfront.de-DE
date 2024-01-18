@@ -6,10 +6,11 @@ title: 21.2 Weitere Verbesserungen
 description: Auf dieser Seite werden alle sonstigen Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ Gebiete, die bald aktualisiert werden
 
 Wenn Sie die E-Mail-Zulassungsliste verwenden, werden neue und aktualisierte Benutzer-E-Mail-Adressen jetzt anhand der Zulassungsliste validiert. Wenn Sie einen neuen Benutzer hinzufügen oder einen vorhandenen Benutzer bearbeiten und eine E-Mail-Domäne eingeben, die nicht auf der Zulassungsliste vorhanden ist, werden Sie in einer Nachricht darüber informiert, dass der Benutzer keine E-Mail-Nachrichten erhält. Sie können das Benutzerprofil weiterhin speichern, aber Sie sollten die Domäne zur Zulassungsliste hinzufügen, damit der Benutzer E-Mails erhält.
 
-Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Neues Erscheinungsbild für Objektüberschriften
 
@@ -79,7 +80,7 @@ Workfront speichert nun Objektstatus auf neue Weise.
 
 Diese Änderungen wirken sich nicht darauf aus, wie Statussuchanfragen ausgeführt werden. API-Anfragen mit einer Objektstatussuche geben jedoch eine unvollständige Liste der Gruppenstatus zurück.
 
-Weitere Informationen finden Sie unter [Core-API-Änderungen: Statussuchantworten](../../../wf-api/api/api-changes-search.md) .
+Weitere Informationen finden Sie unter [Core-API-Änderungen: Status-Suchantworten](../../../wf-api/api/api-changes-search.md) .
 
 ## Payloads für Ereignisabonnements aktualisiert, um alle Felder einzuschließen, die auf ID enden
 
@@ -87,7 +88,7 @@ Alle Payloads für Ereignisabonnements enthalten jetzt alle Felder, die auf &quo
 
 Es ist wichtig zu beachten, dass jedes Objekt über einen eigenen eindeutigen Satz verknüpfter Felder verfügt, der einen eindeutigen Satz verknüpfter Felder enthält, die in ID enden. Das bedeutet, dass jede Payload zwar alle zugehörigen Felder dieses Objekts enthält, die in ID enden, aber jedes Objekt einen anderen Satz von Feldern hat, die in ID enden.
 
-## Blueprint-Beta ist jetzt in der Vorschau verfügbar
+## Blueprint-Beta jetzt in der Vorschau verfügbar
 
 >[!NOTE]
 >

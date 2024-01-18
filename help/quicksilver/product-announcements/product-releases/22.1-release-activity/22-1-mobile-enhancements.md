@@ -4,10 +4,11 @@ description: 2.1 Verbesserungen für Mobilgeräte
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: dc7dc0c2-768b-4331-acea-b9978574d948
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbesserungen der Testversandfunktion in der mobilen App
 

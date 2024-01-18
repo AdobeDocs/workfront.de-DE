@@ -5,10 +5,11 @@ title: R1 Vorschau 3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.3-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1347'
 ht-degree: 2%
 
 ---

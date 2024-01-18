@@ -6,10 +6,11 @@ title: 21.2 Projektverbesserungen
 description: Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1650'
 ht-degree: 1%
 
 ---
@@ -28,9 +29,9 @@ Im Rahmen der Neugestaltung der Felder &quot;Neue Aufgabe&quot;und &quot;Aufgabe
 
 Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt im [Planen der Grundlagen für das neue Workfront-Erlebnis, Teil 2: Projekt planen](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erlebnis, Teil 2: Projekt planen](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Lernpfad auf Workfront One.
 
-## Neue Schaltflächen in der Kopfzeile &quot;Projekte&quot;
+## Neue Schaltflächen in der Projektheader
 
 >[!NOTE]
 >
@@ -38,7 +39,7 @@ Diese Funktion ist jetzt im [Planen der Grundlagen für das neue Workfront-Erleb
 
 Damit Sie die Liste der Projekte auf der Seite &quot;Projekte&quot;schnell filtern können, gibt es zwei neue Schaltflächen in der Kopfzeile, mit denen Sie schnell den Filter &quot;Projekte, die ich verwende&quot;oder &quot;Projekte, die ich besitze&quot;anwenden können.
 
-Diese Funktion ist jetzt im [Planen der Grundlagen für das neue Workfront-Erlebnis, Teil 1: Erstellen eines Projekts](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erlebnis, Teil 1: Erstellen eines Projekts](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Lernpfad auf Workfront One.
 
 ## Verschieben oder Löschen eines Verlaufs oder Problems über die Scroll-Pinnwand
 
@@ -67,7 +68,7 @@ Zusätzlich zu einem aktualisierten Erscheinungsbild sind die folgenden Änderun
 * Das Feld Geplante Stunden wurde dem Abschnitt Zuweisungen hinzugefügt, damit Sie die Zeit, die zum Abschließen des Problems erforderlich sein könnte, einfacher aktualisieren können.
 * Die Kommentarfunktion wurde aus dem Bildschirm &quot;Problem bearbeiten&quot;entfernt, um Redundanz im Abschnitt &quot;Aktualisierungen&quot;zu vermeiden.
 
-## Die Schaltflächen &quot;Speichern&quot;und &quot;Abbrechen&quot;für die Felder &quot;Bearbeiten&quot;und &quot;Neues Objekt&quot;wurden neu positioniert.
+## Die Schaltflächen Speichern und Abbrechen für die Felder &quot;Bearbeiten&quot;und &quot;Neues Objekt&quot;wurden neu positioniert.
 
 >[!NOTE]
 >
@@ -142,7 +143,7 @@ Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste S
 >
 >Nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld &quot;Aufgabe bearbeiten&quot;neu gestaltet. Sie können von einer einzelnen Aufgabe aus oder beim Bearbeiten einer einzelnen Aufgabe aus einer Liste auf das neue Feld &quot;Aufgabe bearbeiten&quot;zugreifen.
+Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld &quot;Aufgabe bearbeiten&quot;neu gestaltet. Sie können von einer einzelnen Aufgabe aus oder beim Bearbeiten einer einzelnen Aufgabe aus einer Liste auf das neue Feld Aufgabe bearbeiten zugreifen.
 
 >[!NOTE]
 >

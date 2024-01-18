@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 28. Februar 202
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8e8ba0a4-738e-4822-9024-6e5d38709d55
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 ## Wählen Sie die API-Version in Azure DevOps > Benutzerdefiniertes API-Aufrufmodul aus.
 
-Um Ihnen mehr Kontrolle über Ihre API-Aufrufe im Azure DevOps-Connector von Workfront Fusion zu ermöglichen, haben wir die Möglichkeit hinzugefügt, die Azure DevOps-API-Version im Modul Benutzerdefinierte API-Aufrufe auszuwählen. Workfront Fusion unterstützt die Azure DevOps-API-Versionen 4.1 bis 7.1.
+Um Ihnen mehr Kontrolle über Ihre API-Aufrufe im Azure DevOps-Connector von Workfront Fusion zu ermöglichen, haben wir die Möglichkeit hinzugefügt, die Azure DevOps-API-Version im Modul Benutzerdefinierte API-Aufrufe auszuwählen. Workfront Fusion unterstützt Azure DevOps API-Versionen 4.1 bis 7.1.
 
 Zuvor war es nicht möglich, die API-Version auszuwählen.
 

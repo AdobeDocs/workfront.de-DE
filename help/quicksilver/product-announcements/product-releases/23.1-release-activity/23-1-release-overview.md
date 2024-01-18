@@ -4,10 +4,11 @@ description: Übersicht über die Version 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -69,7 +70,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Umsiedlung der Option "Benutzer hinzufügen"in einem Projekt</a></p>
-                        <p>In Vorbereitung auf die Einstellung und Entfernung der Tools für die Ressourcenplanung haben wir die Option "Benutzer hinzufügen"aus dem Abschnitt "Planung"eines Projekts in den Abschnitt "Personen"verschoben. Beim Hinzufügen von Benutzern zu einem Projekt werden die Benutzer, die nicht mit Elementen im Projekt verknüpft sind, Teil des Projektteams.</p>
+                        <p>In Vorbereitung auf die Einstellung und Entfernung der Tools für die Ressourcenplanung haben wir die Option "Benutzer hinzufügen"aus dem Abschnitt "Planung"eines Projekts in den Abschnitt "Personen"verschoben. Wenn Benutzer zu einem Projekt hinzugefügt werden, werden die Benutzer, die nicht mit Elementen im Projekt verknüpft sind, Teil des Projektteams.</p>
                         <p>Der Ressourcen-Planer wurde am 20. Oktober aus der Vorschau-Umgebung entfernt. Sie wird mit Version 23.1 aus der Produktionsumgebung entfernt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -80,7 +81,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: 20. Oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: 27. Oktober 2022 (außerhalb des Kreislaufs)</span></p>
+                                <p><span class="preview">Produktionsversion: 27. Oktober 2022 (außerhalb des Produktionszyklus)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -142,7 +143,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>Produktionsversion für alle Kunden: Schnelles Follow-up nach Version 23.1</p>
+                                <p>Produktionsversion für alle Kunden: Schneller Start nach Version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -160,7 +161,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: 1. Dezember 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für frühe Anmeldung: Nicht verfügbar</p> 
+                                <p>Produktionsversion für frühe Anmeldung: nicht verfügbar</p> 
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.1</p>
                             </li>
                         </ul>
@@ -179,7 +180,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: 1. Dezember 2022<br /><span style="color: #ff0000;"> Diese Funktion wurde aus der Vorschau entfernt und wird nicht mit Version 23.1 veröffentlicht.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsversion für frühe Anmeldung: Nicht verfügbar</p>
+                                <p>Produktionsversion für frühe Anmeldung: nicht verfügbar</p>
                                 <p>Produktionsversion für alle Kunden: Mit Version 23.1</p>
                             </li>
                         </ul>
@@ -333,7 +334,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: nicht verfügbar<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: Verfügbar im Apple App Store und Google Play Store Mitte bis Ende Januar 2023</span></p>
+                                <p><span class="preview">Produktionsversion: Im Apple App Store und Google Play Store Mitte bis Ende Januar 2023 verfügbar</span></p>
                             </li>
                         </ul>
                     </td>
@@ -362,7 +363,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Einführung in das Design- und Video-Plug-in von Illustrator in Adobe Workfront</a><span style="color: #ff0000;"> Neu in der Produktion!</span></p>
                         <p>Wir freuen uns, die Erweiterung unseres Adobe Workfront-Plug-ins für InDesign-Plugins um Adobe Illustrator bekannt geben zu können.</p>
                         <p>Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jetzt Illustrator, InDesign, Premiere Pro und After Effects.  </p>
-                        <p>Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.</p>
+                        <p>Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.</p>
                         <p>Administratoren können auch ein Paket mit den Plug-ins aus der Admin Console erstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbst verwaltete Weise.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -370,7 +371,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                         </p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: <span class="preview">12. Dezember 2022</span></p>
@@ -422,7 +423,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Einführung in Adobe Workfront für Design und Video</a></p>
                         <p>Wir freuen uns, die Erweiterung unseres Adobe Workfront für InDesign-Plugins um Adobe Premiere Pro und After Effects bekannt geben zu können. Das Plug-in wird für Design und Video in Adobe Workfront umbenannt.</p>
                         <p>Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jetzt InDesign, Premiere Pro und After Effects - und Illustrator folgt demnächst.</p>
-                        <p>Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen. </p>
+                        <p>Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -453,8 +454,8 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Zugriff auf die Workfront-Hilfe für Kunden von Adobe Unified Experience</a></p>
-                        <p>Wenn Ihr Unternehmen in der Adobe Admin Console und der Adobe Unified Experience for Workfront integriert wurde, enthält die Workfront-Navigationsleiste keinen Link mehr zu "Hilfe".</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Zugriff auf die Workfront-Hilfe für Kunden auf der Adobe Unified Experience</a></p>
+                        <p>Wenn Ihr Unternehmen mit Adobe Admin Console und dem Adobe Unified Experience for Workfront integriert wurde, enthält die Workfront-Navigationsleiste keinen Link mehr zu "Hilfe".</p>
                         <p>Sie können auf die Workfront-Hilfe in Adobe Experience League entweder über das Hauptmenü links in der Workfront-Navigationsleiste oder über das Fragezeichen-Symbol im oberen Navigationsbereich zugreifen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -465,7 +466,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: 27. Oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsversion: 3. November 2022 <span style="color: #ff0000;"> Diese Funktion gilt nur für Kunden, die in die Adobe Unified Experience for Workfront integriert sind.</span></p>
+                                <p>Produktionsversion: 3. November 2022 <span style="color: #ff0000;"> Diese Funktion gilt nur für Kunden, die an Adobe Unified Experience for Workfront angeschlossen sind.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -487,7 +488,7 @@ Das Webinar zur Version 23.1 fand am Dienstag, 10. Januar 2023 statt. Sie könne
                                 <p>Vorschau-Version: 13. Oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: 27. Oktober 2022 (außerhalb des Kreislaufs)</span></p>
+                                <p><span class="preview">Produktionsversion: 27. Oktober 2022 (außerhalb des Produktionszyklus)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -552,9 +553,9 @@ Einige Listensteuerungsfunktionen wechseln zu den Bereichen Einrichtung > Benutz
 
 #### **Workfront-Erweiterung für Illustrator und InDesign**
 
-Wir ersetzen die [Workfront-Erweiterung für Illustrator und InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) mit aktualisierten Creative Cloud-Plug-ins. Ab Ende 2022 ist diese Erweiterung nicht mehr zur Installation in Adobe Exchange verfügbar.
+Wir ersetzen die [Workfront-Erweiterung für Illustrator und InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) mit aktualisierten Creative Cloud-Plug-ins. Ab Ende 2022 ist diese Erweiterung nicht mehr zur Installation auf der Adobe Exchange verfügbar.
 
-Die Funktionalität dieser Erweiterung sowie verschiedene Verbesserungen sind in der aktualisierten Adobe Workfront für Creative Cloud-Plug-ins verfügbar:
+Die Funktionalität dieser Erweiterung sowie verschiedene Verbesserungen sind in der aktualisierten Adobe Workfront für Creative Cloud-Plugins verfügbar:
 * [Adobe Workfront für Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront für Design und Video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

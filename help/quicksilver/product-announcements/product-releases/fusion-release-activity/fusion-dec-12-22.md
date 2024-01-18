@@ -3,10 +3,12 @@ title: Workfront Fusion Release-Aktivitätswoche vom 12. Dezember 2022
 description: Workfront Fusion Release-Aktivitätswoche vom 12. Dezember 2022
 author: Becky
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
-source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
+exl-id: 404db789-706d-46ae-b14b-023502d287f0
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -26,6 +28,6 @@ Wir arbeiten hinter den Kulissen, um Fusion auf das erwartete Wachstum im kommen
 
 Wir arbeiten derzeit an folgenden Themen:
 
-* Weitere Informationen zur Verwendung von Adobe Identity Management System (IMS) für die zukünftige Workfront Fusion-Authentifizierung.
+* Weitere Informationen zur Verwendung von Adobe Identity Management System (IMS) für zukünftige Workfront Fusion-Authentifizierung.
 * Änderung der Art und Weise, wie Workfront Fusion nicht verwendete Webhooks verarbeitet, um zu verhindern, dass sie die Leistung beeinträchtigen, wenn Fusion größer wird.
 * Weitere Verbesserungen der Infrastruktur.

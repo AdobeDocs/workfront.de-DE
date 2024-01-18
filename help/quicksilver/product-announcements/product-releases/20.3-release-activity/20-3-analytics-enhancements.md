@@ -5,10 +5,11 @@ title: 20.3 Analytics-Verbesserungen
 description: Auf dieser Seite werden alle Analyseverbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---

@@ -7,11 +7,12 @@ title: 'Workfront Fusion-Release-Aktivität: Woche vom 16. November 2020'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 16. November 2020 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -46,8 +47,8 @@ Weitere Informationen zu Szenario-Ausführungen finden Sie unter [Ausführung, Z
 
 Um das Erstellen eines Szenarios einfacher zu gestalten, haben wir einige Tastaturbefehle hinzugefügt:
 
-* Strg/Befehl+Umschalt+Eingabetaste: Ausführen eines Szenarios einmal
-* Strg/Befehl + Umschalt + S: Speichern eines Szenarios
+* Strg/Befehl+Umschalt+Eingabetaste: Ein Szenario einmal ausführen
+* Strg/Befehl + Umschalt + S: Szenario speichern
 
 Weitere Informationen zum Erstellen von Workfront Fusion 2.0-Szenarien finden Sie unter [Erstellen eines Szenarios in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -69,7 +70,7 @@ Weitere Informationen finden Sie unter [Microsoft Office 365 Excel-Module](../..
 
 ## Verwenden von OAuth 2.0 in Ihren Workfront-App-Verbindungen
 
-Wir haben den Workfront-Connector aktualisiert und verwenden nun OAuth 2.0. Dank dieser Aktualisierung ist es einfacher, Änderungen an Ihren Workfront-App-Verbindungen vorzunehmen. Wenn sich beispielsweise etwas an Ihrer Verbindung ändert (z. B. ein Kennwort), müssen Sie nicht mehr jede einzelne Verbindung in Ihren Szenarien aktualisieren. Darüber hinaus bietet OAuth2 weitere Vorteile wie verbesserte Sicherheit und die Möglichkeit, Single Sign-on (SSO) zu verwenden.
+Wir haben den Workfront-Connector aktualisiert, um OAuth 2.0 zu verwenden. Diese Aktualisierung bedeutet, dass es einfacher ist, Änderungen an Ihren Workfront-App-Verbindungen vorzunehmen. Wenn sich beispielsweise etwas an Ihrer Verbindung ändert (z. B. ein Kennwort), müssen Sie nicht mehr jede einzelne Verbindung in Ihren Szenarien aktualisieren. Darüber hinaus bietet OAuth2 weitere Vorteile wie verbesserte Sicherheit und die Möglichkeit, Single Sign-on (SSO) zu verwenden.
 
 Vorhandene Verbindungen erfordern derzeit keine Änderungen. Sie können jedoch vorhandene Verbindungen neu autorisieren, wenn Sie die Vorteile von OAuth 2.0 nutzen möchten.
 

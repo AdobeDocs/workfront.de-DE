@@ -4,10 +4,11 @@ description: sonstige Aktualisierungen während des Zeitrahmens der Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Das linke Navigationsfenster in Adobe Workfront wurde um einige Verbesserungen erweitert.
 
-* Das Erscheinungsbild des linken Navigationsfensters wurde auf die Designstandards der Adobe aktualisiert, einschließlich Farben und Schriftarten.
+* Das Erscheinungsbild des linken Navigationsfensters wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriftarten.
 
 * Der Link &quot;Benutzerspezifischen Abschnitt hinzufügen&quot;am unteren Rand des Bedienfelds wurde in &quot;Dashboard hinzufügen&quot;umbenannt, um dessen Funktion besser zu erklären.
 
@@ -61,7 +62,7 @@ Ihr Programm muss das neue Aktualisierungstoken nach jeder Aktualisierung speich
 
 Zuvor liefen Aktualisierungstoken nach einer bestimmten Zeitdauer ab, die in den benutzerdefinierten OAuth2-Anwendungseinstellungen konfiguriert war.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Verwenden Sie PKCE in Ihren benutzerdefinierten OAuth2-Integrationen für Einzelseiten-Webanwendungen.
 
@@ -69,4 +70,4 @@ Sie können jetzt Single-Page-Webanwendungen in Ihren benutzerdefinierten Integr
 
 Zuvor verwendeten die verfügbaren Optionen für benutzerdefinierte OAuth2-Anwendungen entweder den Namen und das Kennwort eines Benutzers oder ein Client-Geheimnis.
 
-Weitere Informationen finden Sie unter [OAuth2-Anwendungen für Workfront-Integrationen erstellen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).

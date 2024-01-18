@@ -4,10 +4,11 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
-source-git-commit: 53cc430dc5fce8f3d0b570c661ec93dd566c7ab9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4
 
 ## Look-and-Feel-Updates für die Lizenzseite
 
-Wir haben wichtige Lizenzinformationen in die obere rechte Ecke der Seite verschoben und das Erscheinungsbild des Textes und der Schaltflächen so aktualisiert, dass es anderen Bereichen von Workfront entspricht.
+Wir haben wichtige Lizenzinformationen in die obere rechte Ecke der Seite verschoben und das Erscheinungsbild des Textes und der Schaltflächen so aktualisiert, dass es mit anderen Bereichen von Workfront übereinstimmt.
 
 Weitere Informationen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 

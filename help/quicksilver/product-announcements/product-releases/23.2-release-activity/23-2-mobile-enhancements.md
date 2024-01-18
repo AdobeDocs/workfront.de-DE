@@ -4,9 +4,11 @@ description: 23.2 Verbesserungen für Mobilgeräte
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,4 @@ Weitere Informationen finden Sie unter [Anmelden bei [!DNL Adobe Workfront]](/he
 
 Karten-Sammlungen werden jetzt auch in der mobilen App unterstützt, sodass mobile Benutzer Sammlungen, auf die sie Zugriff haben, in der Desktop-Version von ihrer Liste der Karten für Mobilgeräte anzeigen können.
 
-Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Boards] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Pinnwände] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

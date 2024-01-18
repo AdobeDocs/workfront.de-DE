@@ -4,10 +4,11 @@ description: 23.2 Verbesserungen für Administratoren
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -34,9 +35,9 @@ Jetzt in einer öffentlichen Beta-Version verfügbar, verfügt der neue Formular
 
 Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
-* **Feld kopieren**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
+* **Kopieren eines Felds**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
 
-* **Standardabschnitt verwenden**: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, wird jetzt auf der Arbeitsfläche der Abschnitt &quot;Standard&quot;angezeigt, sodass Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen wurde.
+* **Standardabschnitt verwenden**: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, ist jetzt ein Abschnitt &quot;Standard&quot;auf der Arbeitsfläche sichtbar, damit Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen ist.
 
 * **Ändern der Größe für beschreibenden Text**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden. <span style="color: #ff0000;"> Die Änderung der Größe für den beschreibenden Text wurde zeitweilig verzögert, kommt aber bald.</span></li>
 

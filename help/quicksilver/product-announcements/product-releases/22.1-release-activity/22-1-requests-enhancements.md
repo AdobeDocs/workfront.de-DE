@@ -4,17 +4,18 @@ description: 2.1 Verbesserungen bei Anforderungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
 # 2.1 Verbesserungen bei Anforderungen
 
-Auf dieser Seite werden alle Anforderungsverbesserungen beschrieben, die mit Version 22.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 22.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbesserung der Benutzeroberfläche für Benutzer, die keinen Zugriff auf die Erstellung von Anforderungen haben
 

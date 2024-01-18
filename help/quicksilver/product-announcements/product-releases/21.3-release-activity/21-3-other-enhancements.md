@@ -4,10 +4,11 @@ description: 21.3 Weitere Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Die folgenden Verbesserungen wurden dem Startbereich der mobilen Adobe Workfront
 
 * Neu gestaltete Arbeitselement-Widgets und ein größeres Suchfeld helfen Ihnen dabei, schnell das zu finden, was Sie benötigen.
 * Die Navigationsleiste für Startseite, virtuelle Assistenten, Schnellaufgaben, Benachrichtigungen und Benutzerprofile &quot;schwebt&quot;nun über dem Startbereich, um einfachen Zugriff zu erhalten.
-* Das Menü &quot;Meine Arbeit&quot;scrollt horizontal und zeigt die folgenden Elemente an: Projekte, Aufgaben und Probleme, Anforderungen, Genehmigungen und Timesheets. Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.
+* Im Menü &quot;Meine Arbeit&quot;wird ein horizontaler Bildlauf durchgeführt und die folgenden Elemente werden angezeigt: Projekte, Aufgaben und Probleme, Anforderungen, Genehmigungen und Timesheets. Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.
 
 Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
 

@@ -5,11 +5,12 @@ title: Andere Workfront Classic-Funktionen, die vor Version 2020.1 für die Prod
 description: Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Version 2020.1 für die Produktion bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +24,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> Das Cookie-Verhalten von Workfront wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten. <p>Um die Kompatibilität mit einem anstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anforderungen ordnungsgemäß gesendet werden. </p> <p>Durch diese Chrome-Aktualisierung wird der Standardwert des SameSite-Cookie-Attributs geändert. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen: </p> 
+   <td> Das Cookie-Verhalten von Workfront wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten <p>Um die Kompatibilität mit einem anstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anforderungen ordnungsgemäß gesendet werden. </p> <p>Durch diese Chrome-Aktualisierung wird der Standardwert des SameSite-Cookie-Attributs geändert. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen: </p> 
     <ul> 
      <li>"Standard-SameSite-Cookies" </li> 
      <li>"Cookies ohne SameSite müssen sicher sein"</li> 
@@ -36,11 +37,11 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      </ul> 
      <p><strong>Vorschau der Version</strong> </p> 
      <ul> 
-      <li>29. Januar 2020</li> 
+      <li>Donnerstag, 29. Januar 2020</li> 
      </ul> 
      <p><strong>Produktionsversion:</strong> </p> 
      <ul> 
-      <li> 30. Januar 2020</li> 
+      <li> Freitag, 30. Januar 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -59,7 +60,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      </ul> 
      <p><strong>Produktionsversion:</strong> </p> 
      <ul> 
-      <li> 8. Januar 2020</li> 
+      <li> Donnerstag, 8. Januar 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -73,7 +74,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      </ul> 
      <p><strong>Produktionsversion:</strong> </p> 
      <ul> 
-      <li> 8. Januar 2020</li> 
+      <li> Donnerstag, 8. Januar 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -87,7 +88,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      </ul> 
      <p><strong>Produktionsversion:</strong> </p> 
      <ul> 
-      <li> 20. Dezember 2019</li> 
+      <li> Samstag, 20. Dezember 2019</li> 
      </ul> 
     </div> </td> 
   </tr> 

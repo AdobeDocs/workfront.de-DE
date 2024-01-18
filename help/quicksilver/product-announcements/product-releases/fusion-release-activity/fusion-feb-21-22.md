@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 21. Februar 202
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8349dd47-6233-4f26-af9c-2f180c7aecd1
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 Jetzt können Sie mit Adobe Workfront Fusion eine Verbindung zu Ihrem Adobe Acrobat Sign-Konto herstellen. Mit den Adobe Acrobat Sign-Modulen können Sie:
 
-* Vereinbarungen oder andere Datensätze erstellen, aktualisieren und lesen
+* Erstellen, Aktualisieren und Lesen von Vereinbarungen oder anderen Datensätzen
 * Datensätze in Ihrem Adobe Acrobat Sign-Konto auflisten oder suchen
 * Benutzerdefinierte API-Aufrufe durchführen
 

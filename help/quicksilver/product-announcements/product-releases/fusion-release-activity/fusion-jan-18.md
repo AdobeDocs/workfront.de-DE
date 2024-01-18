@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 18. Januar 2021'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 18. Januar 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 18. Januar 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c7d92bb7-bdf5-4f8b-89d6-d2cd4c5fc3b7
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Weitere Informationen finden Sie unter [Azure DevOps-Module](../../../workfront-
 
 ## Qualtrics-Connector und -Module sind jetzt verfügbar
 
-Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Qualtrics-Konto herzustellen. Mit den Qualtrics-Modulen können Sie:
+Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Qualtrics-Konto herstellen. Mit den Qualtrics-Modulen können Sie:
 
 * Trigger eines Szenarios bei der Erstellung einer neuen Umfrageantwort
 * Verzeichniskontakte erstellen, abrufen, aktualisieren, löschen oder auflisten.

@@ -4,10 +4,11 @@ description: Übersicht über die Version 2.4
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3271'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                         </p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: Mit Version 22.4 <span style="color: #ff0000;">Diese Migration wurde auf Q1-Q2 von 2023 verschoben. </span></p>
@@ -154,7 +155,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
     <td><b>Verfügbar zu diesen Terminen:</b>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Im Zeitrahmen der Version 22.3 <br /></p>
+                                <p>Vorschau-Version: Während des Zeitrahmens der Version 22.3 <br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: Mit Version 22.4</p>
@@ -208,10 +209,10 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
   </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart-Benutzerauswahl für Projektrollen in den Bereichen "Bearbeiten"und "Details"</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart-Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details</a> </p>
                         <p>Die Anzeige von Benutzern wurde verbessert, wenn Sie sie den Projektfeldern "Projekteigentümer", "Projektsponsor"und "Ressourcen-Manager"aus dem Feld "Bearbeiten"und dem Abschnitt "Details"des Projekts hinzufügen.</p>
                         <p>Wenn Sie nun einen Benutzer zu einem dieser Felder in den Bereichen Bearbeiten oder Details hinzufügen, werden neben seinem Namen und Avatar auch dessen Primäre Rolle und die E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.</p>
-                        <p><b>HINWEIS:</b> Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.</p>
+                        <p><b>NOTE:</b> Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.</p>
                     </td>
                     <td><b>Verfügbar zu diesen Terminen:</b>
                         <ul>
@@ -269,7 +270,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                                 <p>Filter duplizieren</p>
                             </li>
                             <li>
-                                <p>Freigeben von Filtern</p>
+                                <p>Filter freigeben</p>
                             </li>
                             <li>
                                 <p>Für Sie freigegebene Filter entfernen</p>
@@ -291,7 +292,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim benutzerdefinierten Formular: Adobe XD und der Schnellfilter</a>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen für benutzerdefinierte Formulare: Adobe XD und der Schnellfilter</a>
                         </p>
                         <p>Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt, um Ihr Benutzererlebnis bei der Verwaltung benutzerdefinierter Formulare zu verbessern:
 
@@ -299,7 +300,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
 <ol>
 <li>Fügen Sie eine Adobe XD-Datei hinzu, um ein benutzerdefiniertes Formular visueller und informativer zu gestalten. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, die XD Datei im Formular anzeigen und damit interagieren.
 </li>
-<li>Verwenden Sie den Schnellfilter, um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
+<li>Verwenden Sie den Schnellfilter , um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
 </li>
 </ol>
                     </td>
@@ -496,7 +497,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen aller Benutzer für den Lastenausgleich eines Projekts</a></p>
-                        <p>Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option "Alle Benutzer anzeigen"hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich "Zugewiesene Arbeit"an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.</p>
+                        <p>Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option "Alle Benutzer anzeigen"hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich Zugewiesene Arbeit an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                      <p>
@@ -540,7 +541,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Arbeitslade-Ausgleich für Benutzer von Work-Lizenz und Problemeinstellungen</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Arbeitslade-Balancer für Benutzer von Arbeits-Lizenzen und Problemeinstellungen</a></p>
                         <p>Zur Vorbereitung auf die Einstellung der Planungswerkzeuge wurden die folgenden Verbesserungen zum Arbeitslastausgleich hinzugefügt:</p>
                         <ul>
                             <li>
@@ -609,7 +610,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: 6. Oktober 2022</p>
@@ -675,8 +676,8 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Erweiterte Teambeschreibung&lt;/a>&lt;/p>
-    &lt;p>Im Bereich Teams können Sie jetzt die vollständige Teambeschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup-Fenster anzuzeigen. Alle URLs in der Beschreibung können im Popup-Fenster angeklickt werden. Klicken Sie dazu in den Beschreibungstext, um sie zu bearbeiten (wenn Sie Zugriff auf die Teameinstellungen haben).&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Erweiterte Teambeschreibung&lt;/a>&lt;/p>
+    &lt;p>Im Bereich Teams können Sie jetzt die vollständige Teambeschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup-Fenster anzuzeigen. {para} Alle URLs in der Beschreibung können im Popup-Fenster angeklickt werden. Klicken Sie dazu in den Beschreibungstext, um sie zu bearbeiten (wenn Sie Zugriff auf die Teameinstellungen haben).&lt;/p>
     &lt;p>Zuvor war das Scrollen durch die Beschreibung in einem engen Bereich die einzige Möglichkeit, den gesamten Inhalt zu sehen.&lt;/p>
 <p>Diese Verbesserung der Beschreibung gilt sowohl für agile als auch nicht agile Teams.</p>
                     </td>
@@ -770,6 +771,6 @@ Die folgende Funktion wird im November 2022 entfernt:
 
 * Der SHARE-Ereignistyp in der API für Ereignisabonnements.
 
-   Mit diesem Ereignistyp konnten Kunden sehen, wann die Berechtigungen für Objekte aktualisiert wurden.
+  Mit diesem Ereignistyp konnten Kunden sehen, wann die Berechtigungen für Objekte aktualisiert wurden.
 
-   Weitere Informationen zu Ereignisanmeldungen sowie zu anderen Ereignistypen, die weiterhin unterstützt werden, finden Sie unter [Ereignisabonnement-API](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Weitere Informationen zu Ereignisanmeldungen sowie zu anderen Ereignistypen, die weiterhin unterstützt werden, finden Sie unter [Ereignisabonnement-API](/help/quicksilver/wf-api/general/event-subs-api.md)

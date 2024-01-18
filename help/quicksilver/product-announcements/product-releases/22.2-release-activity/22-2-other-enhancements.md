@@ -4,10 +4,11 @@ description: 2.2 Weitere Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 
 Die Navigationsleiste am oberen Bildschirmrand von Adobe Workfront wurde verbessert.
 
 * Favoriten und Letzte haben in der oberen Navigationsleiste jetzt separate Symbole. Jede Seite zeigt weiterhin denselben Inhalt an (Seiten, die Sie als Favoriten gekennzeichnet haben, und Seiten, die Sie kürzlich besucht haben), und Sie können weiterhin beliebte Seiten auf die gleiche Weise hinzufügen und entfernen.
-* Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf die Adobe-Designstandards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.
+* Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.
 * Die Symbole auf der rechten Seite der oberen Navigationsleiste wurden neu angeordnet, um intuitiver zu sein. Die Symbolreihenfolge lautet: Hilfelink, Benachrichtigungen, Favoriten, Neuigkeiten, Suche, Hauptmenü.
 
 Weitere Informationen finden Sie unter [Übersicht über die Navigationsleiste oben](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).

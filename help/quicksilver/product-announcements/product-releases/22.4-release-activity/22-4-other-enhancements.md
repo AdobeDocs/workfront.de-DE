@@ -4,8 +4,9 @@ description: 2.4 Weitere Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,11 +23,11 @@ Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4
 
 Dieses Plug-in ist jetzt zur Installation auf InDesign verfügbar. Sie können damit auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und Testsendungen zur Überprüfung einreichen, ohne XD zu verlassen. Gehen Sie zum Adobe Creative Cloud Marketplace, um das Plug-in heute herunterzuladen.
 
-Weitere Informationen zum Plug-in finden Sie unter [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Weitere Informationen zum Plug-in finden Sie unter [[!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Laden Sie heute Adobe Workfront für InDesign auf den Markt.](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus und stellen Sie sie Benutzern entweder auf verwaltete oder selbstverwaltete Weise bereit.
+Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
 
 ## Synchronisieren von Objektmetadaten mit der nativen Experience Manager Assets-Integration
 
@@ -86,6 +87,6 @@ Diese Version enthält die folgenden Funktionen:
 
 * Möglichkeit, das Kampagnenobjekt aus der Layout-Vorlage umzubenennen
 
-   Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
+  Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
 
 

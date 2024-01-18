@@ -4,10 +4,11 @@ description: 20.4 Verbesserungen bei der Ressourcenverwaltung
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrie
 
 Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Planen von Arbeiten mit Arbeitsaufwand anstelle von geplanten Stunden
+## Planen Sie Arbeiten mit Arbeitsaufwand anstelle von geplanten Stunden.
 
 Um Ihnen Flexibilität bei der Projektplanung zu geben, haben wir das neue Konzept des Arbeitsaufwands für Aufgaben eingeführt. Sie können schätzen, ob der Arbeitsaufwand für eine Aufgabe gering, mittel oder groß ist, ohne die geplanten Arbeitszeiten für die Aufgabe manuell abzuschätzen. Jeder Aufwand wird basierend auf einem Prozentsatz der Zeit aus den typischen Stunden pro Tag berechnet, wie in Ihrer Instanz konfiguriert.
 
 Die folgenden Verbesserungen sind jetzt mit dieser neuen Funktion verfügbar:
 
 * Aktivieren Sie diese Einstellung für Projekte und Vorlagen, um sie für Aufgaben und Vorlagenaufgaben verfügbar zu machen.
-* Aktualisieren Sie diese Einstellung für jede Aufgabe mit dem Typ Einfache Dauer , wodurch automatisch die geplanten Stunden der Aufgabe aktualisiert werden
+* Aktualisieren Sie diese Einstellung für jede Aufgabe mit dem Typ Einfache Dauer , wodurch automatisch die geplanten Stunden der Aufgabe aktualisiert werden.
 * Deaktivieren Sie diese Einstellung mithilfe einer Layout-Vorlage für Benutzer, die die geplanten Stunden weiterhin verwenden möchten.
 * Zeigen Sie den Wert dieses neuen Felds in einer Aufgabenliste oder einem Bericht an.
 
@@ -59,9 +60,9 @@ Um eine optimierte und benutzerfreundliche Benutzererfahrung bei der Verwaltung 
 
 * Sie können jetzt die Zusammenfassung für Probleme und Aufgaben über das Symbol Zusammenfassung anstelle des Menüs Mehr öffnen. Dieses Erlebnis entspricht nun dem von Listen.
 
-   >[!NOTE]
-   >
-   >Diese Option ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+  >[!NOTE]
+  >
+  >Diese Option ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
 * Sie können auf das Menü &quot;Mehr&quot;links neben einer Objektleiste und nicht am Ende einer Objektleiste zugreifen. Dies erleichtert die Suche nach Objekten, die einen langen Zeitraum umfassen.
 * Sie können die Zuweisungsfunktionen über einen Tastaturbefehl aufrufen. Zuvor war dies nur über das Menü Mehr verfügbar.

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 17. Mai 2021"'
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 17. Mai 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 17. Mai 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 930c335e-2c88-41af-983f-82be790c1a4b
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,6 @@ Um das Erstellen von Szenarien zu vereinfachen, haben wir es Modulen ermöglicht
 Neue Datensätze und Aktualisierungen vorhandener Datensätze werden nun von separaten Modulen verarbeitet.
 
 * Um nach neuen Datensätzen zu suchen, können Sie das Modul Trigger für überwachte Datensätze verwenden. Dieses Modul sucht nicht mehr nach aktualisierten Datensätzen.
-* Um aktualisierte Datensätze zu erhalten, können Sie das neue Delta-Modul Benutzer/Gruppen suchen verwenden. Dieses Modul gibt neue, aktualisierte und gelöschte Datensätze zurück.
+* Um aktualisierte Datensätze zu erhalten, können Sie das neue Delta-Modul &quot;Benutzer/Gruppen suchen&quot;verwenden. Dieses Modul gibt neue, aktualisierte und gelöschte Datensätze zurück.
 
 Weitere Informationen finden Sie unter [Azure Active Directory-Module](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).

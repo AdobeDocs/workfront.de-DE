@@ -4,10 +4,11 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-source-git-commit: 89d7b526cecb441700baca98092aefd319a1d72a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ Eine Liste aller in Version 23.1 verfügbaren Änderungen finden Sie unter [23.1
 
 >[!NOTE]
 >
->Vorschau-Version: 1. Dezember 2022; Geplante Produktionsversion: 15. Dezember 2022
+>Vorschau-Version: 1. Dezember 2022; geplante Produktionsversion: 15. Dezember 2022
 
 Die Seiten &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot;unter &quot;Einrichtung&quot;> &quot;Benutzeroberfläche&quot;haben jetzt das modernere Aussehen, das in den meisten anderen Listen in Workfront zu finden ist.
 
@@ -30,7 +31,7 @@ Die Seiten &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot
 
 >[!NOTE]
 >
->Vorschau-Version: 8. Dezember 2022; Geplante Produktionsversion: Mit Version 23.1
+>Vorschau-Version: 8. Dezember 2022; geplante Produktionsversion: Mit Version 23.1
 
 Im Zuge der Aktualisierung des Erscheinungsbilds von Workfront haben wir das Feld &quot;Vorlage bearbeiten&quot;überarbeitet. Der Zugriff auf das neue Feld Vorlage bearbeiten erfolgt über eine Vorlage oder eine Vorlagenliste.
 
@@ -48,7 +49,7 @@ Weitere Informationen finden Sie unter [Bearbeiten von Projektvorlagen](/help/qu
 
 >[!NOTE]
 >
->Vorschau-Version: Nicht zutreffend; Geplante Produktionsversion: 14. November 2022.
+>Vorschauversion: nicht zutreffend; geplante Produktionsversion: 14. November 2022.
 
 Um innerhalb von Jira ein konsistenteres Erlebnis zu erzielen, haben wir die Integration von Workfront for Jira aktualisiert. Das Erscheinungsbild der Workfront for Jira-Integration entspricht jetzt dem Erscheinungsbild von Jira.
 
@@ -60,19 +61,19 @@ Weitere Informationen zur Integration von Workfront für Jira finden Sie unter [
 
 >[!NOTE]
 >
->Vorschau-Version: 27. Oktober 2022; Geplante Produktionsversion: 10. November 2022.
+>Vorschau-Version: 27. Oktober 2022; geplante Produktionsversion: 10. November 2022.
 >
 >Nachdem diese Felder am 10. November in der Produktion aktualisiert wurden, werden alle verbleibenden Benutzerfelder in Workfront im Rahmen wöchentlicher Patches direkt in der Produktion aktualisiert.
 
 Es gibt zusätzliche Benutzerinformationen, die angezeigt werden, wenn Sie Benutzer zu den folgenden Feldern hinzufügen:
 
-* Aufgaben- und Problemzuweisungsbereich in den Kopfzeilen
+* Bereich &quot;Aufgaben&quot;und &quot;Problemzuweisungen&quot;in den Kopfzeilen
 
 * Bedienfeld &quot;Aufgabe und Problemzusammenfassung&quot;
 
 * Aufgabe und Problem - Feld für erweiterte Zuweisung
 
-* Aufgaben- und Problemzuweisungen im Arbeitslastausgleich
+* Aufgaben- und Problemzuweisungen im Lastenausgleich
 
 * Aufgaben und Problemlisten und Berichte beim Inline-Hinzufügen von Zuweisungen
 
@@ -88,9 +89,9 @@ Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion f
 
 >[!NOTE]
 >
->Vorschau-Version: 20. Oktober 2022; Geplante Produktionsversion: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>Vorschau-Version: 20. Oktober 2022; geplante Produktionsversion: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
-Die Benachrichtigungsseite hat jetzt ein modernes Erscheinungsbild, das anderen Bereichen von Workfront entspricht.
+Die Benachrichtigungsseite hat jetzt ein modernes Erscheinungsbild, das mit anderen Bereichen von Workfront in Einklang steht.
 
 ## Filtern von Aktualisierungen während des Zeitrahmens der Version 23.1
 
@@ -104,13 +105,13 @@ Informationen zur Verwendung der neuen Filter finden Sie unter [Filter in Adobe 
 
 Die hier gezeigten Listen bieten jetzt zusätzlich zum standardmäßigen Filter-Builder das Beta-Filtererlebnis.
 
-#### Vorschau-Version: 13. Oktober 2022; Geplante Produktionsversion: 27. Oktober 2022
+#### Vorschau-Version: 13. Oktober 2022; geplante Produktionsversion: 27. Oktober 2022
 
 * Portfolios
 
 * Programme
 
-* Benutzer
+* Benutzende
 
 * Projektrisiken
 

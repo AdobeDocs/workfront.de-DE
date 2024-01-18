@@ -4,10 +4,11 @@ description: 2.2&nbsp;Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -47,26 +48,26 @@ Die folgenden zusätzlichen Verbesserungen sind jetzt für Workfront-Pinnwände 
 
 * Karten auf Foren taggen
 
-   Sie können Karten auf Ihrer Pinnwand jetzt mit farbcodierten Tags kategorisieren. Mit Tags können Sie schnell Karten erkennen. Sie können Ihre Pinnwand sogar nach angewendeten Tags sortieren.
+  Sie können Karten auf Ihrer Pinnwand jetzt mit farbcodierten Tags kategorisieren. Mit Tags können Sie schnell Karten erkennen. Sie können Ihre Pinnwand sogar nach angewendeten Tags sortieren.
 
 * Karten auf Pinnwänden verwalten
 
-   Wir haben die folgenden Funktionen hinzugefügt, mit denen Sie Karten auf Ihrer Pinnwand verwalten können:
+  Wir haben die folgenden Funktionen hinzugefügt, mit denen Sie Karten auf Ihrer Pinnwand verwalten können:
 
-   * Eine Karte kopieren: Erstellen Sie eine Kopie einer vorhandenen Karte auf Ihrer Pinnwand.
-   * Karte verschieben: Sie können Karten schnell an den Anfang oder das Ende einer Pinnwand verschieben, indem Sie die neuen Menüoptionen Spaltenanfang und Spaltenende verwenden.
+   * Karte kopieren: Erstellen Sie eine Kopie einer vorhandenen Karte auf Ihrer Pinnwand.
+   * Karte verschieben: Schnelles Verschieben von Karten in den oberen oder unteren Bereich einer Pinnwand mit den neuen Menüoptionen &quot;Oben der Spalte&quot;und &quot;Unten der Spalte&quot;.
 
 * In Foren suchen
 
-   Wir haben eine Suchleiste hinzugefügt, die Ihnen beim Durchsuchen aller Karten auf Ihrer Pinnwand hilft.
+  Wir haben eine Suchleiste hinzugefügt, die Ihnen beim Durchsuchen aller Karten auf Ihrer Pinnwand hilft.
 
 * Fälligkeitsdatum für eine Karte in Foren festlegen
 
-   Sie können jetzt ein Fälligkeitsdatum für einzelne Karten auf Ihrer Pinnwand festlegen.
+  Sie können jetzt ein Fälligkeitsdatum für einzelne Karten auf Ihrer Pinnwand festlegen.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Pinnwänden in Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-## Option &quot;Rückgängig&quot;für &quot;Beiträge aktualisieren&quot;
+## Option &quot;Rückgängig&quot;für Beiträge aktualisieren
 
 Es ist jetzt einfacher, Fehler beim Posten einer Aktualisierung zu erfassen. Beim Fertigstellen eines Kommentars auf der Registerkarte &quot;Aktualisieren&quot;eines Objekts wird jetzt ein Popup-Fenster für 7 Sekunden erstellt, in dem Sie den Beitrag abbrechen und zur Bearbeitung zurückkehren können - bevor das System ihn mit einem Zeitstempel versehen oder E-Mails und In-App-Benachrichtigungen sendet. Wenn Sie das Popup-Fenster schließen, die Seite verlassen oder 7 Sekunden warten, bis das Fenster eine Zeitüberschreitung aufweist, wird der Beitrag normal ausgeführt.
 

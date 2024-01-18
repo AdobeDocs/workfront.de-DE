@@ -4,17 +4,18 @@ description: 2.1 Verbesserungen bei der Ressourcenverwaltung
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # 2.1 Verbesserungen bei der Ressourcenverwaltung
 
-Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 22.1 der Vorschauseite vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 22.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbesserungen am Bereich Einstellungen und Möglichkeit, Projekte und deren Aufgaben im Arbeitslastausgleich farblich zu kodieren
 

@@ -6,10 +6,11 @@ title: 21.2 Verbesserungen bei der Ressourcenverwaltung
 description: Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Eine neue Einstellung im Resource Planer ermöglicht die Verwendung von &quot;Geplante Stunden&quot;bei der Berechnung von Netzwerten.
 
-Vor dieser Verbesserung berechnete Workfront die Nettowerte nur unter Verwendung von Budgetzeit. Der Nettowert zeigt die Differenz zwischen verfügbaren und geplanten oder geplanten Stunden, FTE oder Kosten an. Budgetierte Stunden sind bei der Berechnung der Nettowerte weiterhin die Standardeinstellung.
+Vor dieser Verbesserung berechnete Workfront die Nettowerte nur unter Verwendung von Budgetzeit. Der Nettowert zeigt die Differenz zwischen verfügbaren und geplanten Stunden, FTE oder Kosten an. Budgetierte Stunden sind bei der Berechnung der Nettowerte weiterhin die Standardeinstellung.
 
 Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 

@@ -4,10 +4,11 @@ description: 23.1 Verbesserungen bei Projekt- und Ressourcenverwaltung
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
-source-git-commit: 682320deee696bf02b11e6119300e285c34bf4a6
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithi
 
 ## Umsiedlung der Option &quot;Benutzer hinzufügen&quot;in einem Projekt
 
-In Vorbereitung auf die Einstellung und Entfernung der Tools für die Ressourcenplanung haben wir die Option &quot;Benutzer hinzufügen&quot;aus dem Abschnitt &quot;Planung&quot;eines Projekts in den Abschnitt &quot;Personen&quot;verschoben. Beim Hinzufügen von Benutzern zu einem Projekt werden die Benutzer, die nicht mit Elementen im Projekt verknüpft sind, Teil des Projektteams.
+In Vorbereitung auf die Einstellung und Entfernung der Tools für die Ressourcenplanung haben wir die Option &quot;Benutzer hinzufügen&quot;aus dem Abschnitt &quot;Planung&quot;eines Projekts in den Abschnitt &quot;Personen&quot;verschoben. Wenn Benutzer zu einem Projekt hinzugefügt werden, werden die Benutzer, die nicht mit Elementen im Projekt verknüpft sind, Teil des Projektteams.
 
 Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 

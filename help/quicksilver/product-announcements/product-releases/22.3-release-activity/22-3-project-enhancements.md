@@ -4,10 +4,11 @@ description: Projektaktualisierungen während des Veröffentlichungszeitrahmens 
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -73,7 +74,7 @@ Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](/h
 
 Zur Vorbereitung auf zukünftige Verbesserungen, die Ihnen beim Hinzufügen von Berechnungen zu benutzerdefinierten Formularen helfen, haben wir die Syntax für referenzierte Felder standardisiert, die Sie zu einer Berechnung hinzufügen. Diese neue Syntax ist einfach zu verwenden, da das System sie für Sie eingibt, wenn Sie mit der Eingabe des Namens eines Felds beginnen und sie dann auswählen.
 
-Weitere Informationen finden Sie im Abschnitt &quot;Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen&quot;in der [Artikel Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie im Abschnitt &quot;Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen&quot;im [Artikel Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Halten Sie genaue Informationen bereit, wenn zwei Benutzer mit einer gemeinsamen Rolle an einem Genehmigungsprozess beteiligt sind.
 
@@ -138,7 +139,7 @@ Um die optimale Leistung für Benutzer sicherzustellen, die Ordner freigeben, be
 
 Jeder Ordner auf der sechsten Ebene oder darunter übernimmt seine Freigabekonfigurationen direkt über dem Ordner.
 
-Weitere Informationen zum Freigeben von Ordnern finden Sie unter [Ordner der obersten Ebene freigeben](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Weitere Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eines Dokumentenordners der obersten Ebene](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Workfront-Kampagnen (Beta) - eine neue Methode zur Verwaltung Ihrer Arbeit
 
@@ -175,7 +176,7 @@ Diese Version enthält die folgenden Funktionen:
 
 * Möglichkeit, das Kampagnenobjekt aus der Layout-Vorlage umzubenennen
 
-   Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
+  Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
 
 
 

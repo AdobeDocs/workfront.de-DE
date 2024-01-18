@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 19. April 2021'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 19. April 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 19. April 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2d0027c4-3e17-40fd-8551-a11c7fed1960
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 Wir haben dem Slack-Connector in Workfront Fusion weitere Module hinzugefügt. Jetzt können Sie dedizierte Module verwenden, um:
 
 * Trigger eines Szenarios, in dem Sie eine Direktnachricht für mehrere Parteien erhalten, wenn einem Kanal eine Datei hinzugefügt wird oder wenn ein Benutzer zu Ihrem Arbeitsbereich hinzugefügt wird.
-* Nachrichten suchen
+* Nach Nachrichten suchen
 * Erstellen, lesen, laden, laden oder löschen Sie Dateien, die mit Nachrichten verbunden sind.
 * Hinzufügen von Sternen zu Kanälen oder Entfernen von Sternen aus Kanälen
 * Abrufen von Informationen zu einem Benutzer oder Entfernen eines Benutzers aus einem Kanal

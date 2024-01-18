@@ -5,10 +5,11 @@ title: In der Vorschau 2016 verfügbare Funktionen
 description: Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sind für die Veröffentlichung in der Produktionsumgebung mit der R1-Version geplant.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Jetzt können Sie alle Aufgaben für Projekte sehen, für die Sie der Ressourcen
 
 Allgemeine Informationen zu den Tools, die für die Planung von Ressourcen verfügbar sind, finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
-Um die Informationen anzupassen, die in der Timeline der Planung angezeigt werden, erstellen Sie einen Filter, wie unter &quot;Informationen im Planungsbereich filtern&quot;beschrieben.
+Um die Informationen anzupassen, die in der Planung angezeigt werden, erstellen Sie einen Filter, wie unter &quot;Informationen im Planungsbereich filtern&quot;beschrieben.
 
 Neben der Anzeige von Aufgaben für die Projekte, für die Sie verantwortlich sind, können Sie die Zeitleiste für die Planung verwenden, um Änderungen an den Ressourcenzuweisungen vorzunehmen. Informationen zum Verwalten von Benutzerzuweisungen in der Zeitleiste der Planung finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
 
@@ -61,7 +62,7 @@ Weitere Informationen zum Konfigurieren der Layoutvorlage finden Sie unter [Erst
 
 ## Outlook 365 Beta
 
-**Beta: TBD; Öffentliche Verfügbarkeit: TBD**
+**Beta: TBD; öffentliche Verfügbarkeit: TBD**
 
 Sie können Workfront von Outlook für Office 365 verwenden, wie in den folgenden Abschnitten beschrieben:
 
@@ -96,6 +97,6 @@ Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen o
 
 ## Integration mit Adobe Creative Cloud
 
-**Add-On für den Download verfügbar: April 2016**
+**Add-On ist zum Download verfügbar: April 2016**
 
-Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von Assets, die Sie im Creative Cloud erstellen, in Workfront, wodurch der Genehmigungs- und Überprüfungsprozess beschleunigt wird.
+Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von Assets, die Sie auf der Creative Cloud erstellen, in Workfront, wodurch der Genehmigungs- und Überprüfungsprozess beschleunigt wird.

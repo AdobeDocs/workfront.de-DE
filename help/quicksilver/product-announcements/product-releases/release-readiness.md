@@ -5,8 +5,9 @@ title: Vorbereiten auf eine [!DNL Adobe Workfront] Version
 description: Befolgen Sie diese Tipps, um Ihre Organisation für jede neue Workfront-Version reibungslos zu aktualisieren.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Sehen Sie sich das folgende Video an, um mehr darüber zu erfahren, wie Sie sich
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
-## Die [!DNL Workfront] Freigabeprozess
+## Verstehen Sie die [!DNL Workfront] Freigabeprozess
 
 Eine ausführliche Beschreibung der [!DNL Workfront] Freigabeprozess, siehe [[!DNL Adobe Workfront] Veröffentlichungszeitplan und -prozess](workfront-release-schedule.md).
 
@@ -44,7 +45,7 @@ Eine ausführliche Beschreibung der [!DNL Workfront] Freigabeprozess, siehe [[!D
 >Weitere Informationen finden Sie unter [Verwenden Sie eine [!DNL Workfront] Projekt zur Nachverfolgung der Release-Arbeit](#use-a-workfront-project-to-track-release-work) in diesem Artikel.
 
 
-Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:
+Es wird empfohlen, einige oder alle der folgenden Aktionen zu berücksichtigen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:
 
 * [Halten Sie sich mit den Versionshinweisen auf dem Laufenden](#stay-up-to-date-with-release-notes)
 * [Beobachten Sie die [!DNL Workfront] Ankündigungszentrum](#watch-the-workfront-announcement-center)
@@ -142,7 +143,7 @@ Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von La
 Es wird empfohlen, ein Projekt zu erstellen, um sicherzustellen, dass Ihr Unternehmen für die neue Version bereit ist. Hier können Sie Aufgaben für jeden Workflow oder jeden Aspekt von [!DNL Workfront] , die Sie in der Vorschau-Umgebung testen möchten. Wenn Sie sich auf Ihre Workflows konzentrieren, berücksichtigen Sie neue Funktionen, die vorhandene Workflows ändern können, und verstehen, welche Workflows nicht betroffen sind. Sie haben u. a. folgende Aufgaben:
 
 * Erstellen eines Projekts testen
-* Testen der Testversand-Validierung
+* Testen der Testversandvalidierung
 * Zugriffsebenen für Tests [!UICONTROL Arbeitnehmer] und [!UICONTROL Planer]
 * Testen mobiler Apps
 

@@ -5,10 +5,11 @@ title: 20.3 Verbesserungen beim Projekt-Management
 description: Auf dieser Seite werden alle Verbesserungen des Projektmanagements beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übe
 >
 >Diese Funktion wird nur im neuen Adobe Workfront-Erlebnis unterstützt. Es ist für einige Listen in Adobe Workfront Classic verfügbar, wird aber in Adobe Workfront Classic nicht unterstützt.
 
-Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie Text in den Feldern formatieren, in denen Sie sie am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich &quot;Details&quot;zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Unterstrichen&quot;auf Text anwenden.
+Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie den Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich &quot;Details&quot;zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Unterstrichen&quot;auf Text anwenden.
 
 Beachten Sie, dass diese Funktion nur in den aktualisierten Listen verfügbar ist. Weitere Informationen zu aktualisierten Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -47,13 +48,13 @@ Der Link Vorlagen aus dem Bereich Projekte wurde entfernt. Der Zugriff auf den B
 >
 >Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld Projekt bearbeiten neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das neue Feld &quot;Projekt bearbeiten&quot;zugreifen.
+Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld &quot;Projekt bearbeiten&quot;neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das neue Feld &quot;Projekt bearbeiten&quot;zugreifen.
 
 Zusätzlich zu einem aktualisierten Erscheinungsbild sind im Feld Projekt bearbeiten die folgenden Verbesserungen verfügbar:
 
 * Passen Sie die Layout-Vorlage einmal an und spiegeln Sie diese Anpassungen sowohl auf der Seite &quot;Details&quot;als auch im Feld &quot;Objekt bearbeiten&quot;wider.
 * Im linken Bereich im Feld &quot;Projekt bearbeiten&quot;sind nun individuelle benutzerdefinierte Formularnamen verfügbar, von denen Sie schnell auf jedes Formular zugreifen können.
-* Die Kommentierungsfunktion wird im Bildschirm &quot;Projekt bearbeiten&quot;entfernt, um Redundanz im Abschnitt Updates zu vermeiden.
+* Die Kommentierungsfunktion wird im Bildschirm &quot;Projekt bearbeiten&quot;entfernt, um Redundanz im Abschnitt &quot;Aktualisierungen&quot;zu vermeiden.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
@@ -100,7 +101,7 @@ Alle Projektvoreinstellungen können auf Gruppenebene angepasst werden, mit Ausn
 
 Weitere Informationen zu den Voreinstellungen für Gruppenprojekte finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-## Neu für Administratoren: Erstellen von benutzerdefinierten Formularfeldern, in denen Benutzer Text formatieren können
+## Neu für Administratoren: Erstellen Sie benutzerdefinierte Formularfelder, in denen Benutzer Text formatieren können
 
 In einem benutzerdefinierten Formular können Sie jetzt Felder erstellen, die Textformatierungsschaltflächen enthalten. Wenn Benutzer diese Felder eingeben, können sie ihren Text fett, kursiv und unterstrichen markieren und organisieren. Die hohe Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
 

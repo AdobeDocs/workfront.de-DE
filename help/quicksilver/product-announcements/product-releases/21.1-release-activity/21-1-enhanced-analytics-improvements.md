@@ -2,19 +2,20 @@
 content-type: release-notes
 keywords: notes,vierteljährlich,update
 navigation-topic: product-releases
-title: 21.1 Verbesserte Analysefunktionen
+title: 21.1 Verbesserte Analyse-Verbesserungen
 description: Auf dieser Seite werden alle Verbesserungen des Projekt-Managements beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
 
-# 21.1 Verbesserte Analysefunktionen
+# 21.1 Verbesserte Analyse-Verbesserungen
 
 Auf dieser Seite werden alle Verbesserungen des Projekt-Managements beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 

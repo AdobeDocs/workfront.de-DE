@@ -6,10 +6,11 @@ title: 21.2 Verbesserungen bei Anforderungen
 description: Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Da wir Ihr Feedback zur Erstellung von Anforderungen in das neue Workfront-Erleb
 
 Informationen zum Erstellen neuer Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
 
 ## Verbesserungen am Anforderungs-Workflow
 
@@ -63,7 +64,7 @@ Da wir weiterhin Ihr Feedback hören und einbinden, haben wir dem neuen Anforder
 * Die Sortierung der Liste der gesendeten Anforderungen nach einer der Spalten wird jetzt beibehalten, wenn Sie von der Seite weg navigieren. Weitere Informationen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Beim Erstellen einer neuen Anforderung befinden sich die Schaltflächen Senden und Abbrechen jetzt am unteren Rand des neuen Anfrageformulars. Weitere Informationen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
 
 ## Öffnen Sie das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Gesendet&quot;des Bereichs Anforderungen .
 
@@ -75,7 +76,7 @@ Damit Ihr Erlebnis in allen Bereichen von Adobe Workfront konsistent ist, haben 
 
 Informationen zu den gesendeten Anfragen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
 
 ## Entfernen von neuen Ausgabefeldern aus einem neuen Anforderungsformular
 
@@ -95,7 +96,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlang
 
 Um die Konsistenz mit dem neuen Workfront-Erlebnis zu gewährleisten und die Effizienz beim Senden von Anforderungen zu steigern, haben wir das Feld &quot;Neue Anforderung&quot;im Bereich &quot;Anforderungen&quot;neu gestaltet. Im Folgenden finden Sie einige Verbesserungen:
 
-* Eine konsistente Benutzeroberfläche mit dem Rest des neuen Workfront-Erlebnisses
+* Eine konsistente Benutzeroberfläche mit dem übrigen neuen Workfront-Erlebnis
 * Der Bereich &quot;Neue Anforderungen&quot;wurde für ein einfacheres und intuitiveres Erlebnis entfernt.
 * Eine neue, effizientere Methode zum Anhängen von Dokumenten an Ihre Anforderungen
 
@@ -103,7 +104,7 @@ Möglichkeit, einen Link zur Anforderungswarteschlange, Themengruppe oder Wartes
 
 Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
 
 ## Link in eine Anforderungswarteschlange freigeben, wenn eine Anforderung gesendet wird
 
@@ -117,4 +118,4 @@ Bevor Sie eine neue Anforderung senden, können Sie einen Link in die Anforderun
 
 Informationen zum Teilen eines Links zu einer Anforderungswarteschlange beim Senden einer Anforderung finden Sie unter [Link in eine Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.

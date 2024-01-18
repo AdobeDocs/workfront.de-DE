@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 4. Oktober 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 783eb2f6-d7a8-4d2e-8a21-5cc1390349b4
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Weitere Informationen finden Sie unter [Ereignisabonnementfilter in Workfront > 
 
 ## Fügen Sie benutzerdefinierte Formulare mithilfe des Workfront-Moduls > Datensatzmodule erstellen und aktualisieren an Workfront-Objekte an.
 
-Um die Verwendung benutzerdefinierter Formulare dem Erlebnis in Workfront ähnlicher zu machen, haben wir es ermöglicht, benutzerdefinierte Formulare zu Workfront-Objekten hinzuzufügen. Jetzt können Sie beim Erstellen oder Aktualisieren eines Objekts ein benutzerdefiniertes Formular auswählen. Die Felder des benutzerdefinierten Formulars werden geöffnet und Sie können Werte eingeben.
+Um die Verwendung benutzerdefinierter Formulare dem Erlebnis in Workfront ähnlicher zu machen, haben wir es ermöglicht, benutzerdefinierte Formulare zu Workfront-Objekten hinzuzufügen. Jetzt können Sie beim Erstellen oder Aktualisieren eines Objekts ein benutzerdefiniertes Formular auswählen. Die Felder des benutzerdefinierten Formulars werden geöffnet, in die Sie Werte eingeben können.
 
 Bisher konnten Sie Werte in Felder in benutzerdefinierten Formularen eingeben, diese waren jedoch nicht nach Formular organisiert und konnten nur schwer gefunden werden.
 

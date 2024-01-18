@@ -4,17 +4,18 @@ description: 2.3 Versionsübersicht
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
 
 # 2.3 Versionsübersicht
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 22.3. Alle aufgelisteten Funktionen sind im neuen Adobe Workfront-Erlebnis verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. jedoch [Workfront Classic wird im März 2022 eingestellt](https://one.workfront.com/s/new-workfront-experience), gefolgt kurz vor dem Ende des Lebenszyklus für Workfront Classic im Juli 2022.
+Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 22.3. Alle aufgelisteten Funktionen sind im neuen Adobe Workfront-Erlebnis verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. [Workfront Classic wird im März 2022 eingestellt](https://one.workfront.com/s/new-workfront-experience), gefolgt kurz vor dem Ende des Lebenszyklus für Workfront Classic im Juli 2022.
 
 Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt.
 
@@ -48,7 +49,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -62,7 +63,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: 15. September 2022</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
@@ -79,7 +80,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
@@ -92,7 +93,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
@@ -105,13 +106,13 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassung von Projektkopfzeilen
 </a></p></p> <p>Als Workfront- oder Gruppenadministrator können Sie jetzt die Felder anpassen, die in der Kopfzeile eines Projekts angezeigt werden, wenn Sie eine Layoutvorlage verwenden.</p>
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
     <td>
     <ul> 
@@ -134,29 +135,29 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Gruppe auf der Seite "Gruppen"deaktivieren</a> </p> <p>Kürzlich wurde die Möglichkeit hinzugefügt, Gruppen zu deaktivieren und zu reaktivieren. Um diese Aktion schneller und einfacher zu gestalten, haben wir sie der Seite einer Gruppe hinzugefügt. Nachdem Sie nun auf den Namen einer Gruppe geklickt haben, um zu ihrer Seite zu gelangen, können Sie das Menü Mehr auswählen <img src="assets/more-icon.png"> neben dem Namen der Gruppe und wählen Sie dann Deaktivieren oder Reaktivieren aus.</p> <p>Bisher konnten Sie eine Gruppe nur über das Kontrollkästchen Ist aktiv auf der Detailseite deaktivieren oder reaktivieren. </p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
-     <li> <p>Vorschau-Version: 14. April 2022<br></p> </li> 
+     <li> <p>Vorschau: 14. April 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.3 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Videos zu benutzerdefinierten Formularen</a> </p> <p>Jetzt können Sie einem benutzerdefinierten Formular einen neuen Modus für Informationen, visuelles Interesse und Kreativität bereitstellen, indem Sie ein Video hinzufügen. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, das Video jederzeit wiedergeben.</p> <p>Zuvor konnten Sie einem benutzerdefinierten Formular nur textbasierte Felder und Bilder hinzufügen.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
-     <li> <p>Vorschau-Version: 14. April 2022<br></p> </li> 
+     <li> <p>Vorschau: 14. April 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.3 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -181,7 +182,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -193,7 +194,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -205,7 +206,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -216,7 +217,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -227,7 +228,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -238,7 +239,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wurde im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -250,7 +251,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Staffelter Rollout ab 28. April 2022 <span style="color: #ff0000; font-weight: bold;">Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -261,7 +262,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Staffelter Rollout ab 28. April 2022 <span style="color: #ff0000; font-weight: bold;">Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -276,7 +277,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: 21. April 2022 </p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wurde im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -288,7 +289,7 @@ Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli
      <li> <p>Produktionsversion: Mit Version 22.2 <span style="color: #ff0000; font-weight: bold;">Diese Funktion ist vorübergehend nicht verfügbar. Diese Seite wird aktualisiert, sobald die Funktion in der Produktion verfügbar ist.</span></p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wird im März 2022 eingestellt</a>, gefolgt vom Datum des Lebenszyklusendes für Workfront Classic im Juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
@@ -333,7 +334,7 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -358,7 +359,7 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: 23. Juni 2022</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -376,29 +377,29 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Integration von Adobe Workfront mit Experience Manager Assets</a> </p> <p>Wir freuen uns, Ihnen mitteilen zu können, dass die Adobe Workfront Experience Manager Assets-Integration jetzt für den Cloud Service verfügbar ist.</p>
-   <p>Wir haben außerdem neue Funktionen für Cloud Service und Assets Essentials eingeführt.</p> </td> 
+   <p>Wir haben auch neue Funktionen für Cloud Service und Assets Essentials eingeführt.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
-     <li> <p>Vorschau-Version: Nicht zutreffend<br></p> </li> 
+     <li> <p>Vorschauversion: nicht verfügbar<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinieren mehrerer Dateien in einem Testversand im Creative Cloud-Plug-in</a> </p> <p>Sie können jetzt externe Dateien mit den Inhalten hochladen, die Sie im Adobe Workfront for Creative Cloud-Plug-in erstellt haben, um in Workfront Testsendungen mit mehreren Dateien zu erstellen. Außenstehende Dateien werden in Workfront als zusätzliche Testversand-Seiten angezeigt. Mit dieser Verbesserung haben wir auch das Erscheinungsbild der Testversand-Erstellung aktualisiert.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinieren mehrerer Dateien in einem Testversand im Creative Cloud-Plug-in</a> </p> <p>Sie können jetzt externe Dateien mit dem Inhalt hochladen, den Sie in Adobe Workfront für das Creative Cloud-Plug-in erstellt haben, um in Workfront Testsendungen mit mehreren Dateien zu erstellen. Außenstehende Dateien werden in Workfront als zusätzliche Testversand-Seiten angezeigt. Mit dieser Verbesserung haben wir auch das Erscheinungsbild der Testversand-Erstellung aktualisiert.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
-     <li> <p>Vorschau-Version: Nicht zutreffend<br></p> </li> 
+     <li> <p>Vorschauversion: nicht verfügbar<br></p> </li> 
      <li> <p>Produktionsversion: TBD</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue SharePoint-Integration (Graph-API) jetzt verfügbar</a> </p> <p>Wir haben eine neue, einfachere SharePoint-Integration geschaffen. Jetzt müssen Sie die SharePoint-Integration nicht konfigurieren. Stattdessen ist die neue SharePoint-Integration einfach eine Option, die Sie ähnlich wie andere Dokumentintegrationen auswählen können.</p>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue SharePoint-Integration (Graph-API) jetzt verfügbar</a> </p> <p>Wir haben eine neue, einfachere SharePoint-Integration geschaffen. Jetzt müssen Sie die SharePoint-Integration nicht konfigurieren. Stattdessen ist die neue SharePoint-Integration einfach eine Option, die Sie auswählen können, ähnlich wie bei anderen Dokumentintegrationen.</p>
    <p>Sie verlieren nicht den Zugriff auf Dokumente, die derzeit über die veraltete SharePoint-Integration verknüpft sind. Sie können jedoch keine neuen Dokumente über die veraltete Integration verknüpfen.</p>
    <p>Workfront-Administratoren können SharePoint- und ältere SharePoint-Integrationen je nach den Anforderungen ihrer Organisation separat aktivieren und deaktivieren.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
@@ -407,7 +408,7 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -428,11 +429,11 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
    <p>Sie können auch andere Testversand-Benutzer in Kommentaren und Antworten taggen. Jeder, den Sie taggen, erhält eine E-Mail-Benachrichtigung.</p>
     <ul> 
-     <li> <p>Vorschau-Version: Nicht zutreffend<br></p> </li> 
-     <li> <p>Produktionsversion: Verfügbar im Apple App Store und Google Play Store Mitte bis Ende Juli 2022.</p> </li> 
+     <li> <p>Vorschauversion: nicht verfügbar<br></p> </li> 
+     <li> <p>Produktionsversion: Im Apple App Store und Google Play Store Mitte bis Ende Juli 2022 verfügbar.</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -456,18 +457,18 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3</a> </p> <p>Kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Anwendung werden innerhalb des Zeitrahmens der Version 22.3 vorgenommen. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht.</p> </td>
    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
     <ul> 
-     <li> <p>Vorschau-Version: Im gesamten Veröffentlichungszeitrahmen 22.3<br></p> </li> 
+     <li> <p>Vorschau-Veröffentlichung: Während des Veröffentlichungszeitrahmens 22.3<br></p> </li> 
      <li> <p>Produktionsversion: Mindestens 2 Wochen nach Veröffentlichung in der Vorschau (sofern nicht anders angegeben)</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -478,7 +479,7 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -489,7 +490,7 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
      <li> <p>Produktionsversion: Mit Version 22.3</p> </li> 
     </ul> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
     <ul> 
-     <li> <p>Das neue Adobe Workfront-Erlebnis </p> </li> 
+     <li> <p>Die neue Adobe Workfront-Erfahrung </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

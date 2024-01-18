@@ -5,10 +5,11 @@ title: R1 Vorschau 1 und 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit den R1.1- und R1.2-Versionen verfügbar sind. Die Funktionalität auf dieser Seite wurde am 19. Januar 2017 in der Vorschau-Umgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -109,7 +110,7 @@ Sie können die URL jetzt für die folgenden Objekte in der mobilen Workfront-Ap
 * Projekte
 * Aufgaben
 * Probleme
-* Arbeitszeittabellen
+* Arbeitszeit- tabellen
 * Dokumente
 
 Sie können eine URL eines Objekts in den folgenden Anwendungen freigeben:

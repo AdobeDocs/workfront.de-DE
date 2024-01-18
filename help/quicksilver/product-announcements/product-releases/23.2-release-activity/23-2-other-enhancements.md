@@ -4,10 +4,11 @@ description: 23.2 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -41,7 +42,7 @@ Einige der Funktionen dieses Updates sind:
 
 * Bessere Leistung
 
-* Echtzeitanzeige für neue Kommentare.
+* Echtzeitindikator für neue Kommentare.
 
 * Bearbeiten von Kommentaren nach deren Übermittlung.
 
@@ -62,19 +63,19 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Hochladen [!DNL XD] Erstellen von Pinnwänden als Dokumente [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
 * [Hochladen [!DNL XD] Werbeforen als Testsendungen für [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
-## Neue Neukunden, die in Adobe Unified Experience integriert werden sollen
+## Neue Neukunden, die an Adobe Unified Experience integriert werden sollen
 
-Mitte bis Ende März 2023 werden neue Kunden in die Adobe Unified Experience integriert. Neue Kunden werden bei ihrer Integration in die Adobe Business Platform von Fall zu Fall behandelt.
+Mitte bis Ende März 2023 werden neue Kunden an der Adobe Unified Experience teilnehmen. Neue Kunden werden bei ihrer Integration in die Adobe Business Platform von Fall zu Fall behandelt.
 
 Die Migration bestehender Kunden zum einheitlichen Erlebnis wurde auf einen späteren Zeitpunkt im Jahr 2023 verschoben. Betroffene Kunden werden zu diesem Zeitpunkt benachrichtigt.
 
-Das einheitliche Erlebnis der Adobe umfasst:
+Das Adobe Unified Experience umfasst:
 
-* Eine Anmeldung für alle Adobe Apps über Adobe Experience Cloud
+* Eine Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
 * Ein &quot;Organisationswechsel&quot; für den Wechsel zwischen Workfront-Organisationen und -Umgebungen
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
-Weitere Informationen finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 

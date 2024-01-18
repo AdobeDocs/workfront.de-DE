@@ -1,19 +1,20 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Weitere Verbesserungen
+title: 20.3. Weitere Verbesserungen
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# 20.3 Weitere Verbesserungen
+# 20.3. Weitere Verbesserungen
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
@@ -106,13 +107,13 @@ Es gibt jetzt auch einen Link Benutzerdetails , der die folgenden Benutzerinform
 
 Jetzt können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Jobrollen und Benutzer mit ihrem eigenen Branding zu ändern.
 
-Weitere Informationen finden Sie unter [Markieren Sie Ihre Adobe Workfront-Instanz.](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen finden Sie unter [Markieren Sie Ihre Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Gruppenadministratoren können Genehmigungsprozesse erstellen und verwalten
 
 Um mehr Autonomie und Kontrolle über die Workflows ihrer Gruppen zu ermöglichen, kann ein Gruppenadministrator jetzt auf den Bereich Validierungsprozess unter Einrichtung zugreifen und Validierungsprozesse für eine von ihm verwaltete Gruppe erstellen und bearbeiten. Diese Genehmigungsprozesse basieren auf den Status dieser Gruppe.
 
-Um sicherzustellen, dass Gruppenadministratoren nicht versehentlich Validierungsprozesse bearbeiten, die im gesamten System verwendet oder von anderen Gruppen erstellt werden, können sie nur auf die Validierungsprozesse zugreifen, die den von ihnen verwalteten Gruppen zugeordnet sind.
+Um sicherzustellen, dass Gruppenadministratoren nicht versehentlich Validierungsprozesse bearbeiten, die im gesamten System verwendet werden oder von anderen Gruppen erstellt werden, können sie nur auf die Validierungsprozesse zugreifen, die den von ihnen verwalteten Gruppen zugeordnet sind.
 
 Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -124,19 +125,19 @@ Hier sind die wichtigsten Highlights:
 
 * Gruppendetails: Zeigen Sie grundlegende Informationen zur Gruppe an und bearbeiten Sie sie, z. B. den Namen der Gruppe, die Beschreibung, die Namen der Gruppenadministratoren und ob die Gruppe öffentlich oder privat ist.
 * Liste der Gruppenmitglieder: Zeigen Sie alle Gruppenmitglieder an und verwenden Sie die neue Symbolleiste, um schnell Mitgliedschaften hinzuzufügen, zu entfernen, zu exportieren, zu aktivieren und zu deaktivieren. Sie können auch die Profile der Mitglieder bearbeiten und ihnen Aktualisierungskommentare senden.
-* Gruppenadministratorfeld in der Kopfzeile: Wenn Sie eine von Ihnen verwaltete Gruppe anzeigen, weisen Sie schnell ein Gruppenmitglied als Administrator der Gruppe zu oder heben Sie die Zuweisung auf. Sie können dies auch in der Liste der Gruppenmitglieder in der neuen Spalte Gruppenrolle tun.
-* Untergruppenliste: Zeigen Sie die Untergruppen in einer von Ihnen verwalteten Gruppe an, bearbeiten Sie sie, kopieren, exportieren und löschen Sie sie.
+* Gruppenadministrator-Feld in der Kopfzeile: Wenn Sie eine von Ihnen verwaltete Gruppe anzeigen, weisen Sie ein Gruppenmitglied schnell als Administrator der Gruppe zu oder heben Sie die Zuweisung auf. Sie können dies auch in der Liste der Gruppenmitglieder in der neuen Spalte Gruppenrolle tun.
+* Liste der Untergruppen: Zeigen Sie die Untergruppen in einer von Ihnen verwalteten Gruppe an, bearbeiten Sie sie, kopieren, exportieren und löschen Sie sie.
 * Statusliste: Zeigen Sie die Status Ihrer Gruppe an und verwalten Sie sie.
 
 Weitere Informationen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-## Neu für Administratoren: Erstellen von bis zu 14 Ebenen von Untergruppen
+## Neu für Administratoren: Erstellen Sie bis zu 14 Ebenen von Untergruppen
 
 Um die Organisation Ihrer Workfront-Gruppen an Ihre Organisationshierarchie anzupassen, haben wir die Ebenen der Untergruppen, die Sie in einer Gruppe erstellen können, von 3 auf 14 erhöht.
 
 Weitere Informationen finden Sie unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-## Neu für Administratoren: Seitenleiste &quot;Neue Einrichtung&quot;
+## Neu für Administratoren: Neue Sidebar &quot;Einstellungen&quot;
 
 >[!NOTE]
 >
@@ -161,11 +162,11 @@ Informationen zum Bereich &quot;Kundeninformationen&quot;finden Sie unter [Grund
 
 ## Base64-Kodierung für Ereignisanmeldungen
 
-Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem base64Encoding -Feld durchgeführt wird, das auf true festgelegt ist, werden die Objekte newState und oldState in der Payload als Base64-Kodierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisanmeldungen nicht zulässig sind.
+Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem base64Encoding -Feld auf true gestellt wird, werden die Objekte newState und oldState in der Payload als Base64-Kodierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisanmeldungen nicht zulässig sind.
 
 Weitere Informationen finden Sie unter [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md).
 
-## Die Möglichkeit, doppelte Ereignisanmeldungen zu erstellen, wurde entfernt
+## Die Möglichkeit zur Erstellung doppelter Ereignisanmeldungen wurde entfernt
 
 Um den Versand doppelter Nachrichten zu verhindern, können Sie keine doppelten Abonnements mehr erstellen. Darüber hinaus wurden alle zuvor erstellten doppelten Abonnements entfernt.
 

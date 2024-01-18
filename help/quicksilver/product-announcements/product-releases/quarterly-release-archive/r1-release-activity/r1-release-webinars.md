@@ -5,11 +5,12 @@ title: Webinare zur R1-Version
 description: Diese Webinare konzentrierten sich auf die in der R1-Version enthaltenen Funktionen.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 3%
+source-wordcount: '316'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 Diese Webinare konzentrierten sich auf die in der R1-Version enthaltenen Funktionen. 
 
-Die R1-Version steht derzeit zum Testen in der Vorschau zur Verfügung. R1 veröffentlicht am 26. April 2017 in der Produktionsumgebung.
+Die R1-Version steht derzeit zum Testen in der Vorschau zur Verfügung; R1 veröffentlicht am 26. April 2017 in der Produktionsumgebung.
 
 Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie in der [Übersicht über die Release-Aktivität R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) Seite.
 

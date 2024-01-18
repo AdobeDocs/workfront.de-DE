@@ -4,10 +4,11 @@ description: 23.1 Verbesserungen für Mobilgeräte
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
-source-git-commit: 97db4e7bb5c1428c9a2d20b1ec80734b73ba8b4a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Eine Liste aller in Version 23.1 verfügbaren Änderungen finden Sie unter [23.1
 
 Adobe Workfront-Pinnwände sind jetzt in der App verfügbar! Sie können direkt vom Startbildschirm aus auf die Pinnwände zugreifen und alle Pinnwände anzeigen, auf die Sie Zugriff haben, in der Desktop-Version von Workfront. In einer bestimmten Pinnwand können Sie alle zugehörigen Spalten und Karten anzeigen und bearbeiten. Zu den Kartendetails gehören Name, Beschreibung, Spalte, Bevollmächtigte, Status, Fälligkeitsdatum, Schätzung, Tags und Checklisten-Elemente. Auf der Pinnwand sind sowohl Ad-hoc-Karten als auch verbundene Karten sichtbar.
 
-Weitere Funktionen sind:
+Zu den weiteren Funktionen gehören:
 
 * Hinzufügen einer Ad-hoc-Karte zu einer Spalte
 * Auswählen und Ziehen von Karten zwischen Spalten

@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 15. November 20
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,11 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 ## Neues Erscheinungsbild für Adobe Workfront Fusion
 
-Wir haben das Erscheinungsbild von Workfront Fusion aktualisiert, um das Aussehen anderer Adobe-Produkte genauer widerzuspiegeln. Diese Änderung an der saubereren Darstellung ermöglicht ein konsistenteres Erlebnis bei der Arbeit mit verschiedenen Adobe-Produkten.
+Wir haben das Erscheinungsbild von Workfront Fusion aktualisiert, um das Aussehen anderer Adobe-Produkte genauer widerzuspiegeln. Diese Änderung an der reinen Darstellung ermöglicht ein konsistenteres Erlebnis bei der Arbeit über verschiedene Adobe-Produkte hinweg.
 
 Dieses Upgrade bietet außerdem Leistungsverbesserungen für eine schnellere Navigation.
 
-Das neue Erscheinungsbild wirkt sich nicht auf die Funktionalität von Adobe Workfront Fusion aus. Alle Schaltflächen, Registerkarten und anderen Tools befinden sich am selben Speicherort, sodass Sie keine Änderungen an Ihrem bestehenden Verhalten oder Ihren Workflows vornehmen müssen.
+Das neue Erscheinungsbild beeinflusst die Funktionalität von Adobe Workfront Fusion nicht. Alle Schaltflächen, Registerkarten und anderen Tools befinden sich am selben Speicherort, sodass Sie keine Änderungen an Ihrem bestehenden Verhalten oder Ihren Workflows vornehmen müssen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

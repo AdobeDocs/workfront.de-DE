@@ -5,11 +5,12 @@ title: Andere Workfront Classic-Funktionen, die vor Version 2019.4 für die Prod
 description: Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Version 2019.4 für die Produktion bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +33,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      </ul> 
      <p><strong>Produktionsversion:</strong> </p> 
      <ul> 
-      <li> 18. Oktober 2019</li> 
+      <li> Samstag, 18. Oktober 2019</li> 
      </ul> 
     </div>  </td> 
   </tr> 
@@ -53,7 +54,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
       </ul> 
       <p><strong>Als Erstes in der Vorschau verfügbar:</strong> </p> 
       <ul> 
-       <li>9. August 2019</li> 
+       <li>Samstag, 9. August 2019</li> 
       </ul> 
      </div> 
      </div> </td> 
@@ -71,7 +72,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
       </ul> 
       <p><strong>Als Erstes in der Vorschau verfügbar:</strong> </p> 
       <ul> 
-       <li>9. August 2019</li> 
+       <li>Samstag, 9. August 2019</li> 
       </ul> 
      </div> 
      </div> </td> 

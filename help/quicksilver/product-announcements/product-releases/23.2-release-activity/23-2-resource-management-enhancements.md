@@ -4,9 +4,11 @@ description: 23.2 Verbesserungen bei der Ressourcenverwaltung
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -21,11 +23,11 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 ver
 
 >[!NOTE]
 >
->Vorschau-Version: 16. Februar 2023; Geplante Produktionsversion: 2. März 2023
+>Vorschau-Version: 16. Februar 2023; geplante Produktionsversion: 2. März 2023
 
 Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer tatsächlich projektbezogener Arbeit widmen, führen wir das Arbeitszeitkonzept für Adobe Workfront ein.
 
-Sie können den Wert des Felds Arbeitszeit für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten. Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Sie können den Wert des Felds &quot;Arbeitszeit&quot;für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten. Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Das Feld &quot;Arbeitszeit&quot;stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, die der Benutzer für die tatsächliche Arbeit zur Verfügung hat, ohne dass der Mehraufwand eingeschlossen ist. Die Arbeitszeit muss eine Dezimalzahl mit einem Wert zwischen 0 und 1 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.
 

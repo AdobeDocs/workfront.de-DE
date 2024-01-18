@@ -3,10 +3,11 @@ title: Übersicht über die Version 23.3
 description: Übersicht über die Version 23.3
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -452,7 +453,7 @@ Das Webinar zur Version 23.3 wurde am 29. Juni 2023 veröffentlicht. Sie können
                 </tr>-->
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisch verknüpfte Ordner mit Adobe Experience Manager Assets erstellen, wenn ein Projekt erstellt wird</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatische Erstellung verknüpfter Ordner mit Adobe Experience Manager Assets beim Erstellen eines Projekts</a></p>
                         <p>Mit dem neuen Workflow Verknüpften Ordner für die Adobe Experience Manager-Integration erstellen können Sie die Integration mit einem Pfad zu einem Adobe Experience Manager Assets-Ordner konfigurieren. Wenn die Integration zu einer Projektvorlage hinzugefügt wird, erstellen alle aus der Vorlage erstellten Projekte automatisch einen verknüpften Unterordner in Experience Manager Assets im angegebenen Ordner. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>

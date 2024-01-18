@@ -1,18 +1,19 @@
 ---
-title: 20.4 Verbesserungen bei der Projektverwaltung
-description: 20.4 Verbesserungen bei der Projektverwaltung
+title: 20.4 Verbesserungen des Projektmanagements
+description: 20.4 Verbesserungen des Projektmanagements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
 
-# 20.4 Verbesserungen bei der Projektverwaltung
+# 20.4 Verbesserungen des Projektmanagements
 
 Auf dieser Seite werden alle Verbesserungen des Projekt-Managements beschrieben, die mit Version 20.4 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
 
@@ -28,9 +29,9 @@ Um Ihnen dieses Erlebnis bekannt zu machen, haben wir die Benutzeroberfläche f�
 
 Weitere Informationen finden Sie unter [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-## Neu für Administratoren: Standardisierte Freigabe benutzerdefinierter Formulare
+## Neu für Administratoren: Standardmäßige Freigabe benutzerdefinierter Formulare
 
-Die Freigabe für benutzerdefinierte Forms wurde standardisiert, sodass Sie denselben Workfront-Objektfreigabe-Prozess verwenden können, den Sie bereits kennen. Die neue Freigabe-Erfahrung bietet Ihnen mehr Kontrolle darüber, wer von Ihnen erstellte benutzerdefinierte Forms bearbeiten, löschen und verwenden kann. Sie können die Freigabe für ein benutzerdefiniertes Formular auf bestimmte Benutzer, Rollen, Teams, Gruppen und Unternehmen beschränken. Sie können bestimmen, ob diese Empfänger das benutzerdefinierte Formular anzeigen oder verwalten können.
+Die Freigabe für benutzerdefinierte Forms wurde standardisiert, sodass Sie denselben Workfront-Objektfreigabe-Prozess verwenden können, den Sie bereits kennen. Die neue Freigabe-Erfahrung bietet Ihnen mehr Kontrolle darüber, wer von Ihnen erstellte benutzerdefinierte Forms bearbeiten, löschen und verwenden kann. Sie können die Freigabe eines benutzerdefinierten Formulars auf bestimmte Benutzer, Rollen, Teams, Gruppen und Unternehmen beschränken. Sie können bestimmen, ob diese Empfänger das benutzerdefinierte Formular anzeigen oder verwalten können.
 
 Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
@@ -66,7 +67,7 @@ Sie können in den Diagrammen eine Auswahl treffen, um verschiedene Aspekte der 
 
 Diese Funktion ist jetzt im [Planergrundlagen, Teil 3-Lernpfad](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) auf Workfront One.
 
-## Neu für Administratoren: Einen Geschäftsführer einer Gruppe zuweisen
+## Neu für Administratoren: Weisen Sie einer Gruppe einen Geschäftsführer zu.
 
 Damit Sie Ihre Gruppen besser organisieren und definieren können, haben wir die Möglichkeit hinzugefügt, einen Benutzer als Business Leader für eine Gruppe (oder Untergruppe) zuzuweisen. Ein Business Leader ist ein Workfront-Benutzer, der Geschäftsentscheidungen für eine Gruppe trifft.
 
@@ -98,9 +99,9 @@ Diese Funktion ist jetzt im [Administratorgrundlagen, Lernpfad in Teil 1](https:
 
 ## Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start
 
-Um die Datums- und Uhrzeitarbeit zu erfassen, die tatsächlich mit einem Arbeitselement beginnt, können Benutzer die Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche Start ersetzen, mit der der Status und das tatsächliche Startdatum des Arbeitselements automatisch aktualisiert werden.
+Um die Datums- und Uhrzeitarbeit zu erfassen, die tatsächlich mit einem Arbeitselement beginnt, können Benutzer die Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;ersetzen, mit der der Status und das tatsächliche Startdatum des Arbeitselements automatisch aktualisiert werden.
 
-Aktualisiert am 24. September: Nachdem Sie auf Aufgabe starten oder Problem starten geklickt haben, können Sie jetzt Ihre Auswahl zurücksetzen und darauf hinweisen, dass Sie möglicherweise nicht bereit sind, mit der Arbeit an einem Arbeitselement zu beginnen, indem Sie auf Rückgängig klicken. Das Arbeitselement wechselt in den Status Neu zurück und das Übermittlungsdatum und das tatsächliche Startdatum werden gelöscht. Die Option Rückgängig wird für eine sehr kurze Zeit angezeigt und nach dem Navigieren zur Seite oder Aktualisieren wieder gelöscht.
+Aktualisiert am 24. September: Nachdem Sie auf Aufgabe starten oder Problem starten geklickt haben, können Sie jetzt Ihre Auswahl zurücksetzen und angeben, dass Sie möglicherweise nicht bereit sind, mit der Arbeit an einem Arbeitselement zu beginnen, indem Sie auf Rückgängig klicken. Das Arbeitselement wechselt in den Status Neu zurück und das Übermittlungsdatum und das tatsächliche Startdatum werden gelöscht. Die Option Rückgängig wird für eine sehr kurze Zeit angezeigt und nach dem Navigieren zur Seite oder Aktualisieren gelöscht.
 
 Weitere Informationen zum Konfigurieren dieser Option finden Sie unter [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
@@ -112,7 +113,7 @@ Damit Sie beim Arbeiten mit Anforderungen mehr Freiheit haben, ist nicht mehr di
 
 Vor dieser Verbesserung hat Workfront nur einen Entwurf für jedes Warteschlangenthema in Ihrer Anforderungswarteschlange gespeichert.
 
-Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Zuweisen einer Gruppe zu einem Team
 
@@ -124,14 +125,14 @@ Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-an
 
 Diese Funktion ist jetzt im [Administratorgrundlagen, Lernpfad in Teil 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) auf Workfront One.
 
-## Neue Felder ermöglichen es Ihnen, Berichte zu Daten einer Gruppe der obersten Ebene und aller zugehörigen Untergruppen zu erstellen.
+## Neue Felder ermöglichen es Ihnen, Berichte zu Daten einer Gruppe der obersten Ebene und aller zugehörigen Untergruppen zu erstellen
 
 Um Ihnen zu helfen, Daten zu identifizieren, die mit einer Gruppe der obersten Ebene und ihren Untergruppen verknüpft sind, haben wir ein neues Feld für die übergeordnete ID hinzugefügt, das Sie in Filtern, Ansichten und Gruppierungen verwenden können, wenn Sie Berichte über Gruppenobjekte erstellen.
 
 Dieses Feld sollte besonders für Gruppenadministratoren nützlich sein, die Gruppen verwalten, die mehrere Untergruppen enthalten.
 
 Angenommen, Sie verwalten eine Gruppe namens Marketing mit den Untergruppen Feldmarketing und digitales Marketing. Sie können die Projekte, die zu allen 3 Gruppen gehören, auflisten, indem Sie einen Filter für Projektbereiche erstellen, der die folgende Filterregel enthält:
-<pre>Gruppe: Oberer übergeordneter Name &gt; Gleich &gt; Marketing</pre>Außerdem wurde ein neues Feld für den übergeordneten Top-Namen hinzugefügt, mit dem Sie Daten identifizieren können, die mit Gruppen der obersten Ebene in Ansichten (nicht in Filtern oder Gruppierungen) verknüpft sind.
+<pre>Gruppe: Top Parent Name &gt; Equal &gt; Marketing</pre>Außerdem wurde ein neues Feld für den übergeordneten Top-Namen hinzugefügt, mit dem Sie Daten identifizieren können, die mit Gruppen der obersten Ebene in Ansichten (nicht in Filtern oder Gruppierungen) verknüpft sind.
 
 Informationen zur Verwendung von Feldern in Listen und Berichten finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

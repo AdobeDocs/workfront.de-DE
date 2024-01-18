@@ -3,9 +3,11 @@ title: 23.3 Weitere Verbesserungen
 description: 23.3 Weitere Verbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -50,4 +52,4 @@ Informationen zu den derzeit verfügbaren Funktionen im Beta-Kommentar-Erlebnis 
 
 Um das Auffinden bestimmter Benutzer in großen Listen zu vereinfachen, werden die Benutzerinitialen in Profilen ohne benutzerdefinierte Avatare jetzt in Listen und Legacy-Berichten farbig hinterlegt. Dies ist eine geringfügige kosmetische Änderung und gilt nicht, wenn bereits ein Avatar-Foto verwendet oder der Benutzer deaktiviert wird.
 
-Weitere Informationen zum Bearbeiten von Benutzerprofilen finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Weitere Informationen zum Bearbeiten von Benutzerprofilen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

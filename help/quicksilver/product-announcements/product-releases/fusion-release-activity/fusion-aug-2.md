@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 2. August 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -50,16 +51,17 @@ Zwei neue Funktionen sind jetzt im Zuordnungsbereich verfügbar.
 
 * Neue Datums- und Uhrzeitfunktion: dateDifference
 
-   Um die Berechnung der Zeiträume in Ihren Szenarien zu vereinfachen, haben wir die neue Datums- und Uhrzeitfunktion &quot;dateDifference&quot;hinzugefügt. Diese Funktion akzeptiert zwei Daten oder Uhrzeiten sowie eine Zeiteinheit und gibt die Zeit zwischen den Daten oder Uhrzeiten zurück, ausgedrückt in der ausgewählten Zeiteinheit.
+  Um die Berechnung der Zeiträume in Ihren Szenarien zu vereinfachen, haben wir die neue Datums- und Uhrzeitfunktion &quot;dateDifference&quot;hinzugefügt. Diese Funktion akzeptiert zwei Daten oder Uhrzeiten sowie eine Zeiteinheit und gibt die Zeit zwischen den Daten oder Uhrzeiten zurück, ausgedrückt in der ausgewählten Zeiteinheit.
 
-   Bisher konnte die Differenz zwischen Datum und Uhrzeit nur anhand einer vom Benutzer eingegebenen Formel berechnet werden.
+  Bisher konnte die Differenz zwischen Datum und Uhrzeit nur anhand einer vom Benutzer eingegebenen Formel berechnet werden.
 
-   Weitere Informationen finden Sie unter [Datums- und Uhrzeitfunktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Weitere Informationen finden Sie unter [Datums- und Uhrzeitfunktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Neue Array-Funktion: arrayDifference
 
-   Diese Funktion akzeptiert zwei Arrays und gibt ein neues Array zurück. Sie können den Typ des neuen Arrays auswählen, das das Modul zurückgibt:
+  Diese Funktion akzeptiert zwei Arrays und gibt ein neues Array zurück. Sie können den Typ des neuen Arrays auswählen, das das Modul zurückgibt:
 
    * Ein Array von Elementen eines Arrays, die nicht im anderen enthalten sind
    * Ein Array von Elementen, die in einem Array oder dem anderen enthalten sind, jedoch nicht in beiden.
-   Weitere Informationen finden Sie unter [Array-Funktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+
+  Weitere Informationen finden Sie unter [Array-Funktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

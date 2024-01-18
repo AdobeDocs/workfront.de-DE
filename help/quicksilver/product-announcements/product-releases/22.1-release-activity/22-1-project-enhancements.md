@@ -4,10 +4,11 @@ description: 2.1 Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Standardoption für Vorgänger beim Kopieren oder Verschieben von Aufgaben ändern
 
@@ -50,13 +51,13 @@ Die Seiten mit der aktualisierten Symbolleiste sind:
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
-## Hinzufügen und Bearbeiten von benutzerdefinierten Formularen - Übersichtsbereich für Dokumente
+## Hinzufügen und Bearbeiten des Übersichtsbereichs für benutzerdefinierte Formulare für Dokumente
 
 Sie können jetzt benutzerdefinierte Formulare direkt im Bedienfeld &quot;Dokumentzusammenfassung&quot;hinzufügen und bearbeiten.
 
 Mit dieser Änderung sehen Sie auch ein neues Erscheinungsbild in der Dokumentzusammenfassung. Es gibt einen neuen Abschnitt Überblick , der die Miniaturansicht des Bildes sowie die Dokumentdetails enthält. Sie können Dokumente auch im Abschnitt &quot;Dokumentdetails&quot;ein- und auschecken.
 
-Zuvor mussten Sie in den Dokumentdetails zur Registerkarte &quot;Benutzerdefinierte Formulare&quot;wechseln, um Bearbeitungen vorzunehmen oder benutzerdefinierte Formulare hinzuzufügen.
+Zuvor mussten Sie in den Dokumentdetails zur Registerkarte für benutzerdefinierte Formulare wechseln, um Bearbeitungen vorzunehmen oder benutzerdefinierte Formulare hinzuzufügen.
 
 Weitere Informationen finden Sie unter [Übersicht über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
 
@@ -116,11 +117,11 @@ Vor dieser Verbesserung gab es diese Funktion nur, wenn Sie das Problem von der 
 
 Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Filtern nach Benutzerliste auf den agilen Pinnwänden zeigt Benutzer mit den meisten Zuweisungen zuerst an
+## Filtern nach Benutzerliste auf Agarboards zeigt Benutzer mit den meisten Zuweisungen zuerst an
 
 >[!NOTE]
 >
->Diese Funktion ist in Version 22.1 nicht enthalten. Sie wurde aus der Vorschauumgebung entfernt.
+>Diese Funktion ist in Version 22.1 nicht enthalten. Sie wurde aus der Vorschau-Umgebung entfernt.
 
 Jetzt zeigt der Filter zuerst die Benutzer mit den meisten Zuweisungen an, damit sie einfacher zu finden sind, ohne durch die Liste zu scrollen.
 
@@ -141,7 +142,7 @@ Informationen zur neuen erweiterten Einstellung &quot;Dokumente hinzufügen&quot
 
 ## Dokumentordner freigeben
 
-Jetzt können Sie einen Dokumentordner und dessen Inhalt aus dem Bereich &quot;Dokumente&quot;freigeben. Zuvor war dies nicht möglich - Sie mussten jedes Dokument separat in einem Ordner freigeben.
+Jetzt können Sie einen Dokumentordner und dessen Inhalt im Bereich Dokumente freigeben. Zuvor war dies nicht möglich - Sie mussten jedes Dokument separat in einem Ordner freigeben.
 
 Weitere Informationen finden Sie unter [Dokumentordner freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

@@ -4,10 +4,11 @@ description: 23.1 Weitere Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,11 @@ Wir freuen uns, die Erweiterung unseres Adobe Workfront-Plug-ins für InDesign-P
 
 Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jetzt InDesign, Illustrator, Premiere Pro und After Effects.
 
-Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
+Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
 
-Download [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) im Marketplace .
+Herunterladen [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) im Marketplace .
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus und stellen Sie sie Benutzern entweder auf verwaltete oder selbstverwaltete Weise bereit.
+Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
 
 ## Erweiterte Filterfunktionen, die in Adobe Workfront allgemein verfügbar sind
 
@@ -46,7 +47,7 @@ Mit diesen Funktionen werden Probleme im Zusammenhang mit kuratierten Filterlist
 
 Sie können weiterhin auf die veralteten Filter in Listen zugreifen, indem Sie sie im Filterbereich aktivieren. Alte Filter werden in Zukunft nicht mehr von Listen unterstützt, sie bleiben jedoch in Berichten verfügbar, da die erweiterten Filter nicht in Berichten verfügbar sind.
 
-Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert öffentliche Beta-Versionshinweise](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert die öffentliche Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Neue Listensteuerungsfunktionen unter &quot;Benutzeroberfläche&quot;> &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot;
 
@@ -62,26 +63,26 @@ Wir freuen uns, die Erweiterung unseres Adobe Workfront für InDesign-Plugins um
 
 Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jetzt InDesign, Premiere Pro und After Effects - und Illustrator folgt demnächst.
 
-Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
+Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
 
-Download [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) auf dem Markt.
+Herunterladen [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) auf dem Markt.
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus und stellen Sie sie Benutzern entweder auf verwaltete oder selbstverwaltete Weise bereit.
+Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
 
-## Zugriff auf die Workfront-Hilfe für Kunden von Adobe Unified Experience
+## Zugriff auf die Workfront-Hilfe für Kunden auf der Adobe Unified Experience
 
 >[!NOTE]
 >
->Diese Funktion gilt nur für Kunden, die in die Adobe Unified Experience for Workfront integriert sind.
+>Diese Funktion gilt nur für Kunden, die an Adobe Unified Experience for Workfront angeschlossen sind.
 
-Wenn Ihr Unternehmen in der Adobe Admin Console und der Adobe Unified Experience for Workfront integriert wurde, enthält die Workfront-Navigationsleiste keinen Link mehr zu &quot;Hilfe&quot;.
+Wenn Ihr Unternehmen mit Adobe Admin Console und dem Adobe Unified Experience for Workfront integriert wurde, enthält die Workfront-Navigationsleiste keinen Link mehr zu &quot;Hilfe&quot;.
 
 Sie haben zwei Möglichkeiten, auf die Workfront-Hilfe in Adobe Experience League zuzugreifen:
 
-* Das Hauptmenü auf der linken Seite der Navigationsleiste von Workfront enthält einen Hilfelink am unteren Rand
+* Das Hauptmenü links neben der Navigationsleiste von Workfront enthält einen Hilfelink am unteren Rand
 * Das Fragezeichen-Symbol im oberen Navigationsbereich enthält Links zu Hilfe, Support und Feedback
 
-Weitere Informationen finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Pins und ein neues Erlebnis beim Löschen von Pins umbenennen
 

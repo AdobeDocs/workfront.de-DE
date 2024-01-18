@@ -4,11 +4,12 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 16%
+source-wordcount: '229'
+ht-degree: 14%
 
 ---
 
@@ -24,17 +25,17 @@ Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 
 >
 >Vorschau-Version: 21. April 2022; Produktionsversion: 5. Mai 2022
 
-Um Adobe-Produkte besser auszurichten und die Konsistenz innerhalb der Workfront-Anwendung zu verbessern, werden in der Workfront-Benutzeroberfläche geringfügige Änderungen an der kosmetischen Formatierung veröffentlicht.
+Um Adobe-Produkte besser auszurichten und die Konsistenz in der Workfront-Anwendung zu verbessern, werden in der Workfront-Benutzeroberfläche geringfügige Änderungen an der kosmetischen Formatierung veröffentlicht.
 
 Schaltflächen, Farben und Schriftarten werden jetzt in der gesamten Workfront-Anwendung aktualisiert.
 
-Bei diesen Aktualisierungen handelt es sich ausschließlich um visuelle Änderungen. die zugrunde liegende Funktionalität bleibt unverändert.
+Diese Aktualisierungen sind lediglich visuelle Änderungen. Die zugrunde liegende Funktionalität bleibt unverändert.
 
 ## Aktualisierte Listen und Berichte
 
 Die Symbolleisten in den folgenden Listen und Berichten haben jetzt ein modernes Erscheinungsbild, sodass Sie Objekte in Adobe Workfront schnell verwalten können.
 
-### Vorschau-Version: 26. März 2022; Produktionsversion: mit Version 22.3
+### Vorschau-Version: 26. März 2022; Produktionsversion: mit Version 2.3
 
 * Zeitplanberichte
 

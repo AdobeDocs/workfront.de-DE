@@ -4,10 +4,11 @@ description: 2.3 Integrationsverbesserungen
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -20,16 +21,16 @@ Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Ver
 
 Wir freuen uns, Ihnen mitteilen zu können, dass die Adobe Workfront Experience Manager Assets-Integration jetzt für den Cloud Service verfügbar ist.
 
-Wir haben außerdem neue Funktionen für Cloud Service und Assets Essentials eingeführt: Diese Integration ermöglicht Benutzern,
+Wir haben auch neue Funktionen für Cloud Service und Assets Essentials eingeführt: Diese Integration ermöglicht Benutzern,
 
 * Automatische Erstellung verknüpfter AEM in Workfront
 
 * Push-Metadatenaktualisierungen von Workfront an AEM für bereits verknüpfte Assets
 
-* Anzeigen der neuesten AEM-Metadaten in Workfront in Echtzeit
+* Anzeigen der neuesten AEM in Workfront in Echtzeit
 
 
-Damit Sie diese Integration verwenden können, müssen Workfront und Adobe Experience Manager Assets oder Assets Essentials mit Ihrer Organisations-ID in der Adobe Admin Console verknüpft sein. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.
+Sie müssen über Workfront und Adobe Experience Manager Assets oder Assets Essentials verfügen, die Ihrer Organisations-ID in der Adobe Admin Console zugeordnet sind, um diese Integration nutzen zu können. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
 
 Informationen zum Konfigurieren der Integration finden Sie unter
 
@@ -42,7 +43,7 @@ Informationen zur Verwendung der Integration finden Sie unter Adobe Workfront fo
 
 ## Neue SharePoint-Integration (Graph-API) jetzt verfügbar
 
-Wir haben eine neue, einfachere SharePoint-Integration geschaffen. Jetzt müssen Sie die SharePoint-Integration nicht konfigurieren. Stattdessen ist die neue SharePoint-Integration einfach eine Option, die Sie ähnlich wie andere Dokumentintegrationen auswählen können.
+Wir haben eine neue, einfachere SharePoint-Integration geschaffen. Jetzt müssen Sie die SharePoint-Integration nicht konfigurieren. Stattdessen ist die neue SharePoint-Integration einfach eine Option, die Sie auswählen können, ähnlich wie bei anderen Dokumentintegrationen.
 
 Sie verlieren nicht den Zugriff auf Dokumente, die derzeit über die veraltete SharePoint-Integration verknüpft sind. Sie können jedoch keine neuen Dokumente über die veraltete Integration verknüpfen.
 
@@ -52,7 +53,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der bisherigen SharePoint-
 
 ## Kombinieren mehrerer Dateien in einem Testversand im Creative Cloud-Plug-in
 
-Sie können jetzt externe Dateien mit den Inhalten hochladen, die Sie im Adobe Workfront for Creative Cloud-Plug-in erstellt haben, um in Workfront Testsendungen mit mehreren Dateien zu erstellen. Außenstehende Dateien werden in Workfront als zusätzliche Testversand-Seiten angezeigt. Mit dieser Verbesserung haben wir auch das Erscheinungsbild der Testversand-Erstellung aktualisiert.
+Sie können jetzt externe Dateien mit dem Inhalt hochladen, den Sie in Adobe Workfront für das Creative Cloud-Plug-in erstellt haben, um in Workfront Testsendungen mit mehreren Dateien zu erstellen. Außenstehende Dateien werden in Workfront als zusätzliche Testversand-Seiten angezeigt. Mit dieser Verbesserung haben wir auch das Erscheinungsbild der Testversand-Erstellung aktualisiert.
 
 Weitere Informationen finden Sie unter
 

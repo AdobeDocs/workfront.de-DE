@@ -3,9 +3,11 @@ title: Weitere Verbesserungen im vierten Quartal 2023
 description: Weitere Verbesserungen im vierten Quartal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vier
 Um Mitarbeiter/Antragsteller besser über die Funktionen zu informieren, die mit einem gebührenpflichtigen Workfront-Lizenztyp verfügbar sind, können sie jetzt alle verfügbaren Optionen im Hauptmenü sehen. Die Optionen, die Beitragenden nicht zur Verfügung stehen, sind ausgegraut.
 
 Weitere Informationen zum Hauptmenü finden Sie unter [Übersicht über die Navigationsleiste oben](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

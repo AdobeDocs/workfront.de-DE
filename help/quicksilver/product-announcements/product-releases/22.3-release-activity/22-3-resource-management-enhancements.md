@@ -4,10 +4,11 @@ description: Aktualisierungen der Ressourcenverwaltung während des Veröffentli
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Um Ihr Erlebnis bei der Verwendung des Workload Balancer zu verbessern, haben wi
 
 * Die Sortierung in den Abschnitten Nicht zugewiesen und Zugeordnet wurde verbessert.
 
-   Sie können jetzt nach Benutzernamen oder Auftragsrollen (im Bereich &quot;Nicht zugewiesene Arbeit&quot;) und nach Projektfeldern in den Bereichen &quot;Nicht zugewiesene Arbeit&quot;und &quot;Zugewiesene Arbeit&quot;sortieren.
+  Sie können jetzt nach Benutzernamen oder Auftragsrollen (im Bereich &quot;Nicht zugewiesene Arbeit&quot;) und nach Projektfeldern in den Bereichen &quot;Nicht zugewiesene Arbeit&quot;und &quot;Zugewiesene Arbeit&quot;sortieren.
 
 * Wenn Sie den Mauszeiger über Aufgaben oder Probleme bewegen, werden zusätzliche Informationen angezeigt (Projektname, geplante Start- und Enddaten, Abhängigkeiten, geplante Stunden, Namen der übergeordneten Aufgaben).
 

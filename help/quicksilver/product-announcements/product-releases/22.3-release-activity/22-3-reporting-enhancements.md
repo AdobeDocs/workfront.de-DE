@@ -4,10 +4,11 @@ description: Reporting-Aktualisierungen während des Veröffentlichungszeitrahme
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ Um Ressourcenbudgeting-Informationen aus dem Ressourcenplaner widerzuspiegeln, h
 
 * Ressourcenplaner – budgetierte Stunden
 
-   Da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden, haben wir die folgenden Ressourcen-Budgetierungsfelder aus Listen und Berichten entfernt:
+  Da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden, haben wir die folgenden Ressourcen-Budgetierungsfelder aus Listen und Berichten entfernt:
 
 
 Die folgenden Ressourcen-Budgetierungsfelder wurden aus Listen und Berichten entfernt, da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden:
@@ -34,5 +35,5 @@ Die folgenden Ressourcen-Budgetierungsfelder wurden aus Listen und Berichten ent
 * Veranschlagte Kosten
 
 
-Weitere Informationen finden Sie unter [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Weitere Informationen finden Sie unter [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

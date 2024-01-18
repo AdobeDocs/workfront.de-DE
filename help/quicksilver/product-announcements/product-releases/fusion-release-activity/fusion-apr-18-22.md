@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 18. April 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: cd669a0f-6255-4ce3-bcba-c9aeb49bc8c8
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -25,4 +26,4 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 Wenn Sie sich bei Workfront Fusion anmelden, sehen Sie jetzt die Option &quot;Mit Adobe ID anmelden&quot;. Diese Option ist nur für Unternehmen verfügbar, die Adobe Identity Management als Single-Sign-On-Lösung für Workfront Fusion verwenden.
 
-Bestehende Fusion-Kunden müssen die neue Anmeldeoption nicht verwenden. Wenn Ihr Unternehmen zukünftig zu Adobe Identity Management wechselt, werden Sie von Ihrem Workfront Fusion-Administrator über die Änderung informiert.
+Bestehende Fusion-Kunden müssen die neue Anmeldeoption nicht verwenden. Wenn Ihr Unternehmen zukünftig zu Adobe Identity Management wechselt, benachrichtigt Sie Ihr Workfront Fusion-Administrator über die Änderung.

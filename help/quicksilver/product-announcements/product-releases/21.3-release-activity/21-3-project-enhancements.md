@@ -4,10 +4,11 @@ description: 21.3 Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Wenn Sie einer Projektvorlage eine Gruppe zuweisen, werden alle aus der Vorlage 
 
 Sie können auch einen Gruppengenehmigungsprozess an eine Vorlage und ihre Vorlagenaufgaben anhängen, wenn die Vorlage Ihrer Gruppe zugeordnet ist. Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-## Einfachere Bearbeitung von Feldern im Abschnitt &quot;Details&quot;
+## Einfachere Bearbeitung von Feldern im Bereich Details
 
 >[!NOTE]
 >
@@ -151,7 +152,7 @@ Informationen zu den Objektüberschriften im neuen Workfront-Erlebnis finden Sie
 >
 >Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
-Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hinzuzufügen, das jemand anderes ausfüllt oder das Sie später ausfüllen werden. Das Formular wird beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus versetzt. Sie können das leere Formular einfach im Objekt speichern.
+Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hinzuzufügen, das jemand anderes ausfüllt - oder das Sie später ausfüllen werden. Das Formular wird beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus versetzt. Sie können das leere Formular einfach im Objekt speichern.
 
 Wenn Sie zuvor ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite in den Bearbeitungsmodus versetzt und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im Objekt speichern konnten. Dies war unpraktisch, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder Sie noch nicht wussten, was in ein erforderliches Feld eingegeben werden sollte.
 

@@ -4,10 +4,11 @@ description: 2.4 Verbesserungen bei der Ressourcenverwaltung
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4
 
 ## Anzeigen aller Benutzer für den Lastenausgleich eines Projekts
 
-Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option &quot;Alle Benutzer anzeigen&quot;hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich &quot;Zugewiesene Arbeit&quot;an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.
+Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option &quot;Alle Benutzer anzeigen&quot;hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich Zugewiesene Arbeit an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.
 
 Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
@@ -40,7 +41,7 @@ Informationen zur Massenzuweisung von Aufgaben mithilfe des Lastenausgleichs fin
 
 [Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
-## Verbesserungen beim Arbeitslade-Ausgleich für Benutzer von Work-Lizenz und Problemeinstellungen
+## Verbesserungen beim Arbeitslade-Balancer für Benutzer von Arbeits-Lizenzen und Problemeinstellungen
 
 Zur Vorbereitung auf die Einstellung der Planungswerkzeuge wurden die folgenden Verbesserungen zum Arbeitslastausgleich hinzugefügt:
 

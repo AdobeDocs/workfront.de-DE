@@ -3,10 +3,11 @@ title: Übersicht über die Version 2023 im vierten Quartal
 description: Übersicht über die Version 2023 im vierten Quartal
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ Mit Version 23.10 werden wir die mobile Proof-App offiziell als veraltet einstuf
 
 Beachten Sie, dass für die mobile Workfront-App eine Workfront-Anmeldung erforderlich ist. Externe Benutzer und Gäste können die Proof-App weiterhin für Testsendungen verwenden. Sie wird jedoch nicht mehr unterstützt und ab Version 23.10 nicht mehr verfügbar sein.
 
-#### Arbeitsabläufe wurden für Konten entfernt, die sie nicht verwenden
+#### Workflows wurden für Konten entfernt, die sie nicht verwenden
 
-Bei Konten, die noch nie einen Workstream in Adobe Workfront-Pinnwänden erstellt haben, wurde der Bereich Workflows ab dem 11. Oktober 2023 aus dem Dashboard der Pinnwände entfernt. Konten, die Arbeitsabläufe verwenden, haben weiterhin Zugriff darauf. In zukünftigen Versionen werden verbesserte Funktionen für die Bildbearbeitung behoben.
+Bei Konten, die noch nie einen Workstream in Adobe Workfront-Pinnwänden erstellt haben, wurde der Bereich Workflows ab dem 11. Oktober 2023 aus dem Dashboard der Pinnwände entfernt. Konten, die Workflows verwenden, haben weiterhin Zugriff darauf. In zukünftigen Versionen werden verbesserte Funktionen für die Bildbearbeitung behoben.
 
 <!-- HTML you might need
 

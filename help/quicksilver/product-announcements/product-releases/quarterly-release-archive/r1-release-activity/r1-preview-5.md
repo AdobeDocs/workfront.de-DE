@@ -5,10 +5,11 @@ title: R1 Vorschau 5
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der R1-Vorschau-Version 5 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Ereignis
 
 Die folgenden Optionen sind jetzt in Instant-E-Mail-Benachrichtigungen verfügbar. Diese Optionen stehen nur für Instant-Benachrichtigungen zur Verfügung, die auch ein tägliches Digest-Gegenstück aufweisen:
 
-* &quot;Dies einem täglichen Digest hinzufügen&quot;
+* &quot;Add This to a Daily Digest&quot;
 * &quot;E-Mails dieses Typs anhalten&quot;
 
 Wenn Sie jetzt eine sofortige E-Mail-Benachrichtigung erhalten, können Sie diese Benachrichtigung entweder zu einer täglichen Digest-Benachrichtigung hinzufügen oder Sie können sich vollständig von dieser Benachrichtigung abmelden.

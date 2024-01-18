@@ -3,9 +3,11 @@ title: 23.3 Agile Verbesserungen
 description: 23.3 Agile Verbesserungen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -38,7 +40,7 @@ Wir haben die Möglichkeit hinzugefügt, die Karten in den Spalten auf einer Pin
 
 Sie können in auf- oder absteigender Reihenfolge nach Kartenname, Fälligkeitsdatum, Schätzung, Status oder Verbindung (Projektname) sortieren. Die Verbindung gilt nur für verbundene Karten. Die anderen Optionen sortieren sowohl verbundene als auch Ad-hoc-Karten in der Spalte.
 
-Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zurück, in der sie manuell festgelegt wurden, bevor andere Sortieroptionen angewendet wurden. Dies ist die Standardsortierung der Spalten.
+Die Option &quot;Benutzerreihenfolge&quot;gibt die Karten in der Reihenfolge zurück, in der sie manuell festgelegt wurden, bevor andere Sortieroptionen angewendet wurden. Dies ist die Standardsortierung für die Spalten.
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
@@ -50,7 +52,7 @@ Sie können jetzt alle Foren und Workflows im Dunkelmodus anzeigen. Die neue Ein
 
 >[!NOTE]
 >
->Wenn die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert wurde, können Sie über Ihr Voreinstellungsmenü (Profilbild) die Dark-Design-Formatierung für Adobe Experience Cloud aktivieren. Für Workfront-Pinnwände wird keine separate Dunkelmodusoption angezeigt.
+>Wenn die Workfront-Instanz Ihres Unternehmens mit dem Adobe Unified Experience integriert wurde, können Sie über Ihr Voreinstellungsmenü (Profilbild) die Dark-Design-Formatierung für Adobe Experience Cloud aktivieren. Für Workfront-Pinnwände wird keine separate Dunkelmodusoption angezeigt.
 
 Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungen und Voreinstellungen in Foren](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
@@ -60,7 +62,7 @@ Wir haben die Möglichkeit hinzugefügt, einer Iteration Ziele hinzuzufügen, oh
 
 Außerdem ist die Spalte Nächste Iteration jetzt auf Iterationsboards verfügbar. Wenn Sie eine Karte in diese Spalte einfügen, wird sie automatisch in die nächste Iteration übertragen und kehrt nicht zum Rückstand zurück. Bei der nächsten Iteration erscheint die Karte in der Spalte, die ihrem Status entspricht.
 
-Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Weitere Informationen finden Sie unter [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 ## Hinzufügen von Kommentaren zu Karten auf Pinnwänden
 
@@ -110,7 +112,7 @@ Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](/hel
 
 Eine neue Vorlage, dynamische Pinnwand, ist jetzt für eigenständige Pinnwände verfügbar. Diese Vorlage ist nicht für Pinnwände innerhalb eines Workflows verfügbar.
 
-Mit der dynamischen Pinnwand können Sie basierend auf einem Workfront-Projekt automatisch eine Pinnwand mit Karten füllen. Mithilfe von Filtern werden Spalten basierend auf ihrem Status Karten hinzugefügt.
+Mit der dynamischen Pinnwand können Sie basierend auf einem Workfront-Projekt automatisch eine Pinnwand mit Karten füllen. Mithilfe von Filtern werden den Spalten basierend auf ihrem Status Karten hinzugefügt.
 
 Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -118,7 +120,7 @@ Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](/hel
 
 ## Migrieren von agilen Teams Kanban-Karten zu Foren
 
-Eine neue **Zu Foren hinzufügen** Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.
+Eine neue **Hinzufügen zu Pinnwänden** Button in der agile Team Kanban Boards können Sie alle Karten aus dem Kanban-Board zu einer Workfront-Pinnwand hinzufügen. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer vorhandenen Pinnwand hinzufügen.
 
 Die Platzierung von Karten auf der Workfront-Pinnwand basiert auf Spaltenrichtlinien. (Beispielsweise könnte eine Richtlinie alle Karten mit dem Status &quot;Wird ausgeführt&quot;in eine bestimmte Spalte verschieben.) Wenn keine Richtlinien vorhanden sind oder die Karten nicht mit den Richtlinien übereinstimmen, werden die Karten in der Spalte ganz links platziert. Derzeit werden die Karten in der Spalte &quot;Backlog&quot;auf der alten Pinnwand nicht zur Workfront-Pinnwand hinzugefügt.
 

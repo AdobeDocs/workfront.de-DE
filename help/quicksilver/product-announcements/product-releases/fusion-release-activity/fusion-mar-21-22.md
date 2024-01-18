@@ -4,11 +4,12 @@ description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 21. März 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: e6be8d84-2d7b-40ba-a2ff-4a05c522648f
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Re
 
 Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
 
-## Verbinden mit OAuth2 PKCE im Workfront Fusion Frame.io-Connector
+## Verbindung mit OAuth2-PKCE im Workfront Fusion Frame.io-Connector herstellen
 
 Beim Erstellen einer Verbindung in einem Frame.io-Modul können Sie jetzt die Option auswählen, eine Verbindung mit OAuth2 PKCE, einer sicheren Authentifizierungsmethode nach Industriestandard, zu erstellen. Der vorhandene API-Token-Verbindungstyp ist weiterhin für den Frame.io-Connector verfügbar.
 

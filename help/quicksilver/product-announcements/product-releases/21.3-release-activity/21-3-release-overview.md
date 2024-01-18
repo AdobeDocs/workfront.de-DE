@@ -6,10 +6,11 @@ title: 21.3 Versionsübersicht
 description: Auf dieser Seite finden Sie Informationen zu den Funktionen von Adobe Workfront Classic und dem neuen Adobe Workfront-Erlebnis in Version 21.3, mit dem Sie Produktivität und Zusammenarbeit freischalten können. [Marketing One-Liner für die Version]
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -82,15 +83,15 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">Blueprints, die in der Produktion mit Version 21.3 verfügbar sind</a> </p> <p>Die Blueprints-Funktionalität ist ab der Produktionsversion 21.3 in der Woche vom 21. Juni 2021 allgemein verfügbar.</p> <p>Blueprints bietet grundlegende Bausteine, mit denen Sie ein Arbeitsverwaltungssystem erstellen können, das mit Ihnen wächst. Systemadministratoren können den Blueprints-Katalog durchsuchen und gebrauchsfertige Projektvorlagen installieren.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 22. April 2021 (mit Version 21.2)<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 22. April 2021 (mit Version 21.2)<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Neu für Gruppenadministratoren: Erstellen und Verwalten von Status für eine Gruppe auf allen Ebenen</a> </p> <p>Um es allen Ebenen einer Organisation zu erleichtern, ihre Workflows unabhängig zu verwalten und zu steuern, haben wir die Möglichkeit eingeführt, Status für Untergruppen zu erstellen und zu verwalten. </p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Neu für Gruppenadministratoren: Erstellen und verwalten Sie Status für eine Gruppe auf allen Ebenen</a> </p> <p>Um es allen Ebenen einer Organisation zu erleichtern, ihre Workflows unabhängig zu verwalten und zu steuern, haben wir die Möglichkeit eingeführt, Status für Untergruppen zu erstellen und zu verwalten. </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Neu für Administratoren: Benutzerdefiniertes Formular für einen Rechnungsdatensatz erstellen</a> </p> <p>Jetzt können Sie verbessern, wie Benutzer Rechnungsinformationen erfassen, indem Sie ein benutzerdefiniertes Formular für Rechnungsdatensätze erstellen. Benutzer können das benutzerdefinierte Formular an einen Rechnungsdatensatz anhängen, es ausfüllen und Berichte ausführen, die die Informationen im Formular enthalten.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Neu für Administratoren: Benutzerdefiniertes Formular für den Rechnungsdatensatz erstellen</a> </p> <p>Jetzt können Sie verbessern, wie Benutzer Rechnungsinformationen erfassen, indem Sie ein benutzerdefiniertes Formular für Rechnungsdatensätze erstellen. Benutzer können das benutzerdefinierte Formular an einen Rechnungsdatensatz anhängen, es ausfüllen und Berichte ausführen, die die Informationen im Formular enthalten.</p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,51 +108,51 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#associat" class="MCXref xref" xrefformat="{para}">Verknüpfen einer Vorlage mit einer Gruppe</a> </p> <p>Um Ihnen bei der Optimierung des Projekterstellungsprozesses zu helfen und Sie einfacher zu identifizieren und darüber zu berichten, welchen Gruppen welche Projektvorlagen gehören, haben wir die Möglichkeit hinzugefügt, einer Projektvorlage eine Gruppe zuzuweisen.</p> <p>Wenn Sie einer Projektvorlage eine Gruppe zuweisen, werden alle aus der Vorlage erstellten Projekte automatisch der Gruppe der Vorlage zugeordnet.</p> <p>Sie können auch einen Gruppengenehmigungsprozess an eine Vorlage und ihre Vorlagenaufgaben anhängen, wenn die Vorlage Ihrer Gruppe zugeordnet ist. </p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3 </p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3 </p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#easier" class="MCXref xref" xrefformat="{para}">Einfachere Bearbeitung von Feldern im Abschnitt "Details"</a> </p> <p>Verschiedene Verbesserungen ermöglichen eine einfachere Bearbeitung von Informationen im Bereich Details eines Objekts. Diese Verbesserungen umfassen eine graue Umrisslinie um ein Feld, wenn der Mauszeiger darüber bewegt wird, was darauf hinweist, dass es bearbeitbar ist, sowie die Möglichkeit, Felder durch einmaliges Klicken zu bearbeiten.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#easier" class="MCXref xref" xrefformat="{para}">Einfachere Bearbeitung von Feldern im Bereich Details</a> </p> <p>Verschiedene Verbesserungen ermöglichen eine einfachere Bearbeitung von Informationen im Bereich Details eines Objekts. Diese Verbesserungen umfassen eine graue Umrisslinie um ein Feld, wenn der Mauszeiger darüber bewegt wird, was darauf hinweist, dass es bearbeitbar ist, sowie die Möglichkeit, Felder durch einmaliges Klicken zu bearbeiten.</p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#consider" class="MCXref xref" xrefformat="{para}">Bei der Berechnung der Übergabe-Daten sollten Sie projektübergreifende Vorfälle berücksichtigen</a> </p> <p>Mit einer neuen Verbesserung der Art und Weise, wie Adobe Workfront Übergabedaten für Aufgaben berechnet, werden die projektübergreifenden Abhängigkeiten nun berücksichtigt. </p> <p>Zuvor wurden die Übergabe-Daten nur anhand der Vorgänger der Aufgabe desselben Projekts berechnet. </p> <p>Um nun sicherzustellen, dass Sie immer ein genaues Übermittlungsdatum für eine Aufgabe mit einem projektübergreifenden Vorgänger haben, müssen Sie die Zeitleiste des Projekts der Nachfolgeaufgabe neu berechnen. Nach der Neuberechnung der Zeitleiste werden die Übergabedaten der Aufgabe unter Berücksichtigung der projektübergreifenden Abhängigkeiten der Aufgaben berechnet.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Hinzufügen vorhandener Meldungen und Probleme aus der Scrum-Pinnwand</a> </p> <p>Sie können jetzt eine vorhandene Meldung oder ein Problem direkt über das Scrum-Forum hinzufügen. Dies erleichtert das Hinzufügen vorhandener Meldungen zu Ihrer aktuellen Iteration, ohne zur Backlog-Seite wechseln zu müssen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add2" class="MCXref xref" xrefformat="{para}">Hinzufügen neuer Meldungen und Probleme über das Scrum-Forum</a> </p> <p>Sie können jetzt eine neue Meldung oder ein neues Problem direkt über das Scrum-Forum erstellen. Dies erleichtert das schnelle Hinzufügen einer neuen Geschichte zu Ihrer aktuellen Iteration.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#delete" class="MCXref xref" xrefformat="{para}">Geschichte oder Ausgabe aus dem Kanban-Board löschen</a> </p> <p>Sie können jetzt eine Geschichte oder ein Problem direkt aus Ihrem Kanban-Board löschen, indem Sie auf das Symbol Mehr auf einer Geschichte oder Ausgabekarte klicken und Löschen auswählen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Kartenkopfzeile und des Storyboards</a> </p> <p>Auf Kanban- und Scrum-Pinnwänden sind jetzt verschiedene Verbesserungen verfügbar, darunter eine feste Breite für Story-Karten und Pinnwände, die Umbenennung der Spalte "Geschichten"in "Übergeordnete Meldung"und mehr.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Kartenkopfzeile und des Storyboards</a> </p> <p>Auf Kanban- und Scrum-Pinnwänden sind jetzt verschiedene Verbesserungen verfügbar, darunter eine feste Breite für Story-Karten und Pinnwände, die Umbenennung der Stories-Spalte in "Parent Story"und mehr.</p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">Voreinstellungen für Gruppenprojekte, Aufgaben und Probleme</a> </p> <p>Wie wir bereits zuvor kommuniziert haben, haben wir in Phasen Gruppenanpassungen für Projekte, Aufgaben und Voreinstellungen durchgeführt. Bis zum 24. Juni 2021 waren sie in der Produktion für alle EMEA-Kunden und für eine Untergruppe aller anderen Kunden verfügbar. Jetzt sind sie für alle Kunden verfügbar.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: </p> <p>9. Juli 2020 (Projektvoreinstellungen für Gruppen)</p> <p>3. Dezember 2020 (Aufgabenvoreinstellungen und Ausstellungseinstellungen für Gruppen)<br></p> <p>Produktionsversion: Mit Version 21.3 (nur für eine begrenzte Anzahl von Kunden verfügbar, für alle Kunden verfügbar ab 24. Juni 2021)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: </p> <p>9. Juli 2020 (Projektvoreinstellungen für Gruppen)</p> <p>3. Dezember 2020 (Aufgabenvoreinstellungen und Ausstellungseinstellungen für Gruppen)<br></p> <p>Produktionsversion: Mit Version 21.3 (nur für eine begrenzte Anzahl von Kunden verfügbar, für alle Kunden verfügbar ab 24. Juni 2021)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">Zulassen der Genehmigung eines Dokuments durch externe Benutzer</a> </p> <p>Sie können jetzt externe E-Mail-Adressen verwenden, um Genehmiger im neuen Workfront-Erlebnis einem Dokument zuzuweisen.</p> <p>Zuvor konnten externe Benutzer nur in Workfront Classic nach E-Mail-Adresse hinzugefügt werden.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Exportieren von Informationen aus dem Bereich Details eines Portfolios oder Programms</a> </p> <p>Sie können jetzt Informationen aus dem Bereich Details der Portfolios und Programme in eine PDF-Datei exportieren. Vor dieser Verbesserung konnten Sie Informationen aus dem Abschnitt Details nur aus Projekten, Aufgaben und Problemen exportieren.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: 3. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: 3. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Der Zeitstempel für das geplante Abschlussdatum wurde in der Kopfzeile des Objekts hinzugefügt.</a> </p> <p>Um den Zugriff, die Einfachheit und die Genauigkeit zu erleichtern, haben wir die Option hinzugefügt, einen Zeitstempel im geplanten Abschlussdatum des Headers von Projekten, Aufgaben oder Problemen auszuwählen. </p> <p>Vor dieser Verbesserung hat Workfront bei der Aktualisierung des geplanten Abschlussdatums eines Objekts Mitternacht als Standardzeit ausgewählt. Jetzt können Sie die Zeit sowie das Abschlussdatum anpassen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">Benutzerdefiniertes Formular zu einem Objekt hinzufügen, ohne es zu bearbeiten</a> </p> <p>Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hinzuzufügen, das jemand anderes ausfüllt oder das Sie später ausfüllen werden. Das Formular wird beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus versetzt. Sie können das leere Formular einfach im Objekt speichern.</p> <p>Wenn Sie zuvor ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite in den Bearbeitungsmodus versetzt und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im Objekt speichern konnten. Dies war unpraktisch, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder Sie noch nicht wussten, was in ein erforderliches Feld eingegeben werden sollte.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">Benutzerdefiniertes Formular zu einem Objekt hinzufügen, ohne es zu bearbeiten</a> </p> <p>Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hinzuzufügen, das jemand anderes ausfüllt - oder das Sie später ausfüllen werden. Das Formular wird beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus versetzt. Sie können das leere Formular einfach im Objekt speichern.</p> <p>Wenn Sie zuvor ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite in den Bearbeitungsmodus versetzt und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im Objekt speichern konnten. Dies war unpraktisch, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder Sie noch nicht wussten, was in ein erforderliches Feld eingegeben werden sollte.</p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 20. Mai 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +169,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Nicht mehr verwendete Rollen deaktivieren</a> </p> <p>Um Ihnen dasselbe Erlebnis wie mit Benutzern, Teams und Unternehmen zu bieten, haben wir eine neue Funktion eingeführt, mit der Sie nicht mehr verwendete Rollen deaktivieren können. Wenn Sie eine Rolle deaktivieren, ist sie nicht mehr zur Auswahl in Typeahead-Feldern zum Zuweisen und Freigeben von Objekten verfügbar. Deaktivierte Rollen werden weiterhin in Suchfeldern und Filteroptionen angezeigt.</p> <p>Aufgaben und Probleme, die einer deaktivierten Rolle zugewiesen sind, sowie Genehmigungsprozesse oder Routing-Regeln werden diesen Rollen weiterhin zugewiesen. Sie müssen diese Objekte aktualisieren, um die inaktive Rolle durch eine aktive zu ersetzen, falls sie noch nicht abgeschlossen sein müssen.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 27. Mai 2021<br></p> <p>Produktionsversion: 10. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 27. Mai 2021<br></p> <p>Produktionsversion: 10. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,7 +190,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>Eine Liste der letzten Pfade, für die Sie Anforderungen eingegeben haben</p> </li> 
      <li> <p>Die Möglichkeit, nach einem beliebigen Suchbegriff in einem Pfad nach einem Anfragetyp zu suchen.</p> </li> 
     </ul> <p>Ein Pfad enthält die Anforderungswarteschlange sowie alle Themengruppen und Warteschlangenthemen, die Sie vor dem Senden einer Anforderung ausgewählt haben.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -206,11 +207,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#remove" class="MCXref xref" xrefformat="{para}">Möglichkeit zum Erstellen eines neuen Dokuments oder einer Testversand-Version in einem verknüpften Ordner entfernen</a> </p> <p>Es wurde die Möglichkeit entfernt, eine neue Version eines Dokuments oder Testversands in einem verknüpften Ordner zu erstellen. Sie können auch dann eine neue Version eines verknüpften Dokuments oder Testversands erstellen, wenn sie sich außerhalb eines verknüpften Ordners befinden.</p> <p>Zuvor wurde diese Option weiterhin für Dokumente und Testsendungen in verknüpften Ordnern angezeigt, Benutzer konnten jedoch keine neue Version eines Dokuments erstellen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: 3. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Verfügbar zu diesen Terminen:</strong> <p>Vorschau-Version: 3. Juni 2021<br></p> <p>Produktionsversion: 3. Juni 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">Benutzer, die zu einem Testversand hinzugefügt wurden, erhalten automatisch Zugriff auf ein Dokument anzeigen</a> </p> <p>Benutzern mit der Rolle "Überprüfer"oder "Schreibgeschützt"wird automatisch der Zugriff auf das Dokument angezeigt, wenn sie zuvor keinen Zugriff hatten.</p> <p>Zuvor mussten Benutzer mit den oben genannten Testversandrollen beim Hinzufügen zum Testversand Zugriff auf Dokumente anfordern.</p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen: Vorschau-Version: Produktionsversion vom 20. Mai 2021: 17. Juni 2021 In diesen Umgebungen verfügbar: Das neue Adobe Workfront-Erlebnis</strong>Adobe Workfront Classic </td> 
+   <td><strong>Verfügbar zu diesen Daten: Vorschau-Version: 20. Mai 2021 Produktionsversion: 17. Juni 2021 In diesen Umgebungen verfügbar: Das neue Adobe Workfront-Erlebnis</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,12 +227,12 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Veröffentlichungsdaten und -umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Neugestaltung des Startbereichs für mobile Apps</a> </p> <p>Dem Startbereich der mobilen Adobe Workfront-App wurden verschiedene Verbesserungen hinzugefügt, darunter: Ein neu gestaltetes Arbeitselement-Widget und ein größeres Suchfeld helfen Ihnen dabei, schnell das zu finden, was Sie benötigen. Die Navigationsleiste für Startseite, virtuelle Assistenten, Schnellaufgaben, Benachrichtigungen und Benutzerprofile wird jetzt über den Startbereich "verschoben", um einfachen Zugriff zu erhalten. und das Menü "Meine Arbeit"wird horizontal gescrollt und zeigt die folgenden Elemente an: Projekte, Aufgaben und Probleme, Anforderungen, Genehmigungen und Timesheets. Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Neugestaltung des Startbereichs für mobile Apps</a> </p> <p>Dem Startbereich der mobilen Adobe Workfront-App wurden verschiedene Verbesserungen hinzugefügt, darunter ein neu gestaltetes Arbeitselement-Widget und ein größeres Suchfeld, mit dem Sie schnell finden können, die Navigationsleiste für Startseite, Virtual Assistant, Schnellaufgaben, Benachrichtigungen und Benutzerprofile, die jetzt über den Startbereich verschoben werden, um einfachen Zugriff zu erhalten. Das Menü "Meine Arbeit"scrollt horizontal und zeigt die folgenden Elemente an: Projekte, Aufgaben und Probleme, Anforderungen, Genehmigungen und Zeitpläne . Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.</p> </td> 
    <td> <p><strong>Verfügbar zu diesen Terminen:</strong> </p> <p>Vorschauversion: nicht verfügbar<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Ereignisabonnementfilter</a> </p> <p>Abonnementfilter für Ereignisse sind jetzt in Vorschauumgebungen aktiviert. Die Filterung der Ereignisabonnements kann verwendet werden, um sicherzustellen, dass Sie nur relevante Nachrichten erhalten. Das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verbrauchen muss, erheblich verringern. </p> </td> 
-   <td><strong>Verfügbar zu diesen Terminen: Vorschau-Version: Produktionsversion vom 20. Mai 2021: 3. Juni 2021 In diesen Umgebungen verfügbar: Das neue Adobe Workfront-Erlebnis</strong>Adobe Workfront Classic </td> 
+   <td><strong>Verfügbar zu diesen Daten: Vorschau-Version: 20. Mai 2021 Produktionsversion: 3. Juni 2021 In diesen Umgebungen verfügbar: Das neue Adobe Workfront-Erlebnis</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +253,7 @@ Neue Funktionen in Workfront Fusion sind in der Produktion ab einem Zeitpunkt ve
 
 ## Workfront-Testverbesserungen
 
-Neue Funktionen im Workfront-Testversand sind jetzt verfügbar. Weitere Informationen finden Sie unter [Workfront-Proof-Release-Aktivität: Woche vom 17. Mai 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+Neue Funktionen im Workfront-Testversand sind jetzt verfügbar. Weitere Informationen finden Sie unter [Workfront-Veröffentlichungsaktivität: Woche vom 17. Mai 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
 ## Verbesserungen bei Workfront-Zielen
 
@@ -268,10 +269,10 @@ Es gibt derzeit keine Aktualisierungen zu Workfront Goals in der Version. Dieser
 
 Wir haben einige Backend-Aktualisierungen an der Workfront for Jira-Integration vorgenommen. Stellen Sie sicher, dass die folgenden IP-Adressen in der [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) Es wurde ein Artikel zu Ihrer Zulassungsliste für eingehende und ausgehende Verbindungen hinzugefügt:
 
-* 34.213.36.118
-* 35.160.0.242
-* 3.209.27.146
-* 18.205.251.4
+* 34 213 36 118
+* 35 160 0 242
+* 3 209 27 146
+* 18 205 251,4
 
 Diese Adressen wurden zuvor als für andere Bereiche von Workfront erforderlich aufgelistet, sind jetzt aber auch für die Jira-Integration erforderlich.
 

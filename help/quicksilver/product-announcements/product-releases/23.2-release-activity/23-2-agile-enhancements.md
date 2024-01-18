@@ -4,9 +4,11 @@ description: 23.2 Agile Verbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+recommendations: noDisplay, noCatalog
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream
+## Aufgaben und Probleme aus Objektdetails zu einer Workfront-Pinnwand hinzufügen
 
 Sie können einer Workfront-Pinnwand oder Workstream-Kartenliste jetzt direkt aus den Objektdetails vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie einer Pinnwand hinzufügen, werden zu verbundenen Karten, und alle Elemente, die einem Workstream hinzugefügt werden, werden der Kartenliste als ungeplante Karten hinzugefügt.
 
@@ -33,7 +35,7 @@ Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglic
 
 Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workflows können Sie Daten auf unterschiedliche Weise visualisieren. Sie können Elemente auf Karten in einer Liste, auf einer Pinnwand oder in einer Iteration anzeigen. Karten in einem Workstream können auch auf mehreren Pinnwänden freigegeben werden. Sie können Workflows einfach mit Karten und Pinnwänden in einem Workflow erleichtern.
 
-Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
+Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
 
 [Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
@@ -82,7 +84,7 @@ Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden ve
 >Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
 
 
-Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.
+Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der gekürzten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.
 
 Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 

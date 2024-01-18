@@ -4,10 +4,11 @@ description: 21.1 Verbesserungen für Mobilgeräte
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,9 @@ Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übe
 
 ## Neue Navigations-Breadcrumbs in der Adobe Workfront-App
 
-Wir haben der mobilen Workfront-App die Breadcrumb-Navigation hinzugefügt. Jetzt können Sie diese Funktion verwenden, um zu übergeordneten Arbeitselementen innerhalb eines Projekts zu navigieren.
+Wir haben der mobilen Workfront-App die Breadcrumb-Navigation hinzugefügt. Jetzt können Sie mit dieser Funktion zu übergeordneten Arbeitselementen innerhalb eines Projekts navigieren.
 
-## Rich-Text, der in benutzerdefinierten Formularen in der Workfront-App unterstützt wird
+## Rich-Text wird in benutzerdefinierten Formularen in der Workfront-App unterstützt
 
 Sie können jetzt Rich-Text-Formatierungen in benutzerdefinierten Formulartextfeldern in der mobilen Workfront-App verwenden.
 

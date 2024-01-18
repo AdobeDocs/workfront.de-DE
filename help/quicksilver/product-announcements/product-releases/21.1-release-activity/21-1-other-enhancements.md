@@ -6,10 +6,11 @@ title: 21.1 Weitere Verbesserungen
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Wir haben der E-Mail &quot;Action Needed Daily Digest&quot;Teamgenehmigung und Z
 
 Weitere Informationen finden Sie unter [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
-## POP-E-Mail-Option in Anforderungswarteschlangen ersetzen
+## Ersetzen der POP-E-Mail-Option in Anforderungswarteschlangen
 
 Wir ersetzen die POP-E-Mail-Option für Anforderungswarteschlangen durch ein neues Workfront-verwaltetes System. Sie können zwar weiterhin Anfragen per E-Mail senden, müssen aber stattdessen eine neue von Adobe Workfront verwaltete E-Mail-Adresse im Bereich &quot;Anforderungswarteschlange&quot;einrichten.
 
@@ -56,12 +57,12 @@ Zuvor konnten Benutzer, für die die Option Timesheets &amp; Stunden in ihrer Zu
 
 Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Verbesserte Filter und Ansichten im Bereich &quot;Timesheets&quot;
+## Verbesserte Filter und Ansichten im Bereich Timesheets
 
 Beim Hinzufügen eines Projekts, einer Aufgabe oder eines Problems zu einem Timesheet wurden die folgenden Verbesserungen hinzugefügt:
 
 * Filter: Wir haben Filter für Projekte und Probleme hinzugefügt. Klicken Sie auf Mehr Optionen , um diese Filter anzuzeigen. Zuvor waren nur Aufgaben mit Filterung verfügbar.
-* Ansichten: Der Suchseite wurden Ansichts- und Gruppierungsoptionen hinzugefügt.
+* Ansichten: Zur Suchseite wurden Ansichts- und Gruppierungsoptionen hinzugefügt.
 
 Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -69,8 +70,8 @@ Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/creat
 
 Sie können jetzt die Zeitüberschreitungsbox ausblenden, um die Verwirrung der Benutzer zu verringern, wenn Sie Überstunden in Workfront nicht verfolgen. Sie können die Zeitüberschreitungsbox für ein einmalig verwendetes Zeitblatt oder im Timesheet-Profil ausblenden:
 
-* Datenblatt zur einmaligen Verwendung: Wenn Sie sich dafür entscheiden, die Zeitüberschreitungsbox in einem einzelnen Zeitblatt auszublenden, wird sie nur für dieses Zeitblatt ausgeblendet. Weitere Informationen finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Datenblatt-Profil: Wenn Sie sich dafür entscheiden, die Zeitüberschreitungsbox im Timesheet-Profil auszublenden, wird für alle zukünftigen Zeitpläne, die für die diesem Profil zugewiesenen Benutzer erstellt werden, die Zeitüberschreitungsbox nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Einmaliges Datenblatt: Wenn Sie die Überstunden-Box in einem einzelnen Zeitblatt ausblenden, wird sie nur für dieses Zeitblatt ausgeblendet. Weitere Informationen finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Datenblatt-Profil: Wenn Sie das Feld für die Überstunden im Timesheet-Profil ausblenden, wird für alle zukünftigen Timesheets, die für die diesem Profil zugewiesenen Benutzer erstellt werden, die Überstunden-Komponente nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Zuvor war es nicht möglich, die Zeitverlaufsbox auf Zeitleisten auszublenden.
 

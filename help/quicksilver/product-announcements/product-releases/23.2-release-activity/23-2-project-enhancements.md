@@ -4,10 +4,11 @@ description: 23.2 Projektverbesserungen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
-source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Neben einem aktualisierten Erscheinungsbild der Benutzeroberfläche sind im Feld
 
 * Sie können Ihre Layoutvorlage anpassen und diese Anpassungen auf der Seite Details eines Projekts sowie in den Feldern Projekt bearbeiten (beim Bearbeiten eines Projekts) und Projekte bearbeiten (beim Bearbeiten mehrerer Projekte) widerspiegeln.
 
-* Klare Indikatoren, wenn die Werte der einzelnen Felder in den ausgewählten Projekten unterschiedlich sind: Die Anzeige &quot;Mehrere Werte&quot;wird für Felder angezeigt, deren Werte nicht zwischen den ausgewählten Projekten übereinstimmen.
+* Klare Indikatoren, wenn die Werte der einzelnen Felder in den ausgewählten Projekten unterschiedlich sind: Für Felder, deren Werte zwischen den ausgewählten Projekten nicht übereinstimmen, wird die Anzeige &quot;Mehrere Werte&quot;angezeigt.
 
 * Angabe, welche benutzerdefinierten Formulare bereits an die ausgewählten Projekte angehängt sind und wie viele Projekte bereits über ein bestimmtes Formular verfügen.
 
@@ -48,7 +49,7 @@ Im August 2022 wurde in der öffentlichen Beta-Version ein Upgrade der Filtererf
 
 Sie können weiterhin auf die veralteten Filter in Listen zugreifen, indem Sie sie im Filterbereich aktivieren. Alte Filter werden in Zukunft nicht mehr von Listen unterstützt, sie bleiben jedoch in Berichten verfügbar, da der standardmäßige Filter-Builder in Berichten nicht verfügbar ist.
 
-Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert öffentliche Beta-Versionshinweise](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert die öffentliche Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 Weitere Informationen finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -56,7 +57,7 @@ Weitere Informationen finden Sie unter [Filter in Adobe Workfront erstellen oder
 
 >[!NOTE]
 >
->Vorschau-Version: 16. Februar 2023; Geplante Produktionsversion: 2. März 2023
+>Vorschau-Version: 16. Februar 2023; geplante Produktionsversion: 2. März 2023
 
 Jetzt haben Sie die Möglichkeit, die im Ressourcenbudgeting-Bereich des Business Case oder im Resource Planer geplanten Stunden zu kopieren, wenn Sie ein Projekt kopieren. Vor dieser Verbesserung wurden die für das Projekt vorgesehenen Stunden nicht in das kopierte Projekt übertragen.
 

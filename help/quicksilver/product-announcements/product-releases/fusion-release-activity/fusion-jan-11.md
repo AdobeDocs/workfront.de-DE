@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 11. Januar 2021'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 11. Januar 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 11. Januar 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [W
 
 Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem Widen-Konto herzustellen. Mit den Erweiterungs-Modulen können Sie:
 
-* Hinzufügen von Assets zu einer Sammlung oder Entfernen von Assets aus einer Sammlung
+* Hinzufügen von Assets zu oder Entfernen von Assets aus einer Sammlung
 * Herunterladen oder Hochladen von Dateien
 * Asset-Metadaten lesen und aktualisieren
 * Suchen nach Assets basierend auf von Ihnen angegebenen Kriterien
@@ -46,11 +47,11 @@ Mit den Datadog-Modulen können Sie:
 * Zeitpunkte für Beiträge
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
-Informationen zu Datadog-Modulen finden Sie unter [Datadog-Module](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Informationen zu Datadog-Modulen finden Sie unter [Datenmodulen](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Cvent-Connector und -Module sind jetzt verfügbar
 
-Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Cvent-Konto herzustellen.
+Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Cvent-Konto herstellen.
 
 Mit den Cvent-Modulen können Sie:
 
@@ -65,7 +66,7 @@ Informationen zu den verfügbaren Cvent-Modulen finden Sie unter [Cut-Module](..
 
 ## Microsoft Dynamics 365-Connector und -Module jetzt verfügbar
 
-Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Microsoft Dynamics 365-Konto herzustellen. Mit den Microsoft Dynamics 365-Modulen können Sie:
+Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Microsoft Dynamics 365-Konto herstellen. Mit den Microsoft Dynamics 365-Modulen können Sie:
 
 * Trigger eines Szenarios beim Hinzufügen oder Aktualisieren von Datensätzen in Microsoft Dynamics 365
 * Erstellen, Lesen, Aktualisieren oder Löschen eines Microsoft Dynamics 365-Datensatzes
@@ -117,25 +118,25 @@ Um Ihnen bei der Anpassung und Vereinfachung von Formeln in Ihren Modulen zu hel
 
 * Der/Die/Das
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   -Funktion ist eine allgemeine Funktion, die die angegebenen Schlüssel des Objekts weglässt und den Rest zurückgibt.
+  -Funktion ist eine allgemeine Funktion, die die angegebenen Schlüssel des Objekts weglässt und den Rest zurückgibt.
 * Der/Die/Das
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   -Funktion ist eine allgemeine Funktion, die nur die angegebenen Schlüssel aus dem -Objekt auswählt.
+  -Funktion ist eine allgemeine Funktion, die nur die angegebenen Schlüssel aus dem -Objekt auswählt.
 * Der/Die/Das
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   -Funktion ist eine Zeichenfolgen-Funktion, die alle Markdown-Tags in einem Text maskiert.
+  -Funktion ist eine Zeichenfolgen-Funktion, die alle Markdown-Tags in einem Text maskiert.
 
 Weitere Informationen zu den Funktionen &quot;Auslassen&quot;und &quot;Auswählen&quot;finden Sie unter [Allgemeine Funktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 

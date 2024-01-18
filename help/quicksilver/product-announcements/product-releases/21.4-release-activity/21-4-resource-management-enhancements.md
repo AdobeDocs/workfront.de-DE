@@ -4,10 +4,11 @@ description: 21.4 Verbesserungen bei der Ressourcenverwaltung
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4
 
 ## Schnelle Zuweisungen im Arbeitslastausgleich vornehmen
 
-Sie können jetzt effizient Ressourcen im Arbeitslastausgleich mit minimalen Klicks ausbalancieren, indem Sie ein Element aus dem nicht zugewiesenen Bereich ziehen und auf die Zeile eines Benutzers im Bereich &quot;Zugeordnet&quot;ablegen. Mithilfe von Drag &amp; Drop können Sie die Zuweisung von Elementen zu Benutzern aufheben und sie wieder in den nicht zugewiesenen Bereich verschieben sowie sie zu anderen Benutzern verschieben.
+Sie können jetzt effizient Ressourcen im Arbeitslastausgleich mit minimalen Klicks ausbalancieren, indem Sie ein Element aus dem nicht zugewiesenen Bereich ziehen und auf die Zeile eines Benutzers im Bereich Zugeordnet ablegen. Mithilfe von Drag &amp; Drop können Sie die Zuweisung von Elementen zu Benutzern aufheben und sie wieder in den nicht zugewiesenen Bereich verschieben sowie sie zu anderen Benutzern verschieben.
 
 Vor dieser Verbesserung konnten Sie nur Elemente zuweisen, indem Sie auf das Menü Mehr einer Aufgabe oder eines Problems und dann auf Zuweisen klicken. Jetzt werden die dem Benutzer zugewiesenen geplanten Stunden beim Ziehen der Aufgaben in Echtzeit aktualisiert.
 

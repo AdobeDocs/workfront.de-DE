@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 25. Januar 2021'''
+title: 'Workfront Fusion-Release-Aktivität: Woche vom 25. Januar 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Woche vom 25. Januar 2021 in Adobe Workfront Fusion vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 316b86af-e8af-445d-82f7-64ecddb97a00
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem Bynder
 
 * Trigger eines Szenarios bei der Erstellung oder Aktualisierung eines Assets
 * Asset-Metadaten lesen und aktualisieren
-* Hinzufügen von Assets zu einer Sammlung oder Entfernen von Assets aus einer Sammlung
+* Hinzufügen von Assets zu oder Entfernen von Assets aus einer Sammlung
 * Tag zu einem Asset hinzufügen oder daraus entfernen
 * Herunterladen oder Hochladen eines Assets
 * Abrufen einer Asset-Liste

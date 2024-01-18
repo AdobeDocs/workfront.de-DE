@@ -5,10 +5,11 @@ title: Übersicht über die Release-Aktivität R1
 description: Auf dieser Seite finden Sie Informationen zu den Funktionen der R1-Version.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 Auf dieser Seite finden Sie Informationen zu den Funktionen der R1-Version. 
 
-Die R1-Version steht derzeit zum Testen in der Vorschau zur Verfügung. R1 wird abends vom 26. und 27. April 2017 in der Produktionsumgebung in einem stufenweisen Rollout (MDT) veröffentlicht.
+Die R1-Version steht derzeit zum Testen in der Vorschau zur Verfügung; R1 gibt am 26. und 27. April 2017 in einer stufenweisen Einführung in die Produktionsumgebung (MDT) ab.
 
-Mit der R1-Version können Benutzer, Wissensarbeiter und Administratoren ihre Arbeit besser verwalten. Mit R1 können Administratoren Workfront so anpassen, dass es der Terminologie des Unternehmens besser entspricht. Wissensfachkräfte können Nutzungsberichte nutzen, um besser zu verstehen, wie Projekte mit geplanten und geplanten Stunden nachverfolgt werden. -Benutzer können direkt von Outlook 365 aus mit Workfront interagieren und bei der Verwendung der mobilen Workfront-App produktiver sein. und vieles mehr.
+Mit der R1-Version können Benutzer, Wissensarbeiter und Administratoren ihre Arbeit besser verwalten. Mit R1 können Administratoren Workfront so anpassen, dass die Terminologie des Unternehmens besser übereinstimmt. Wissensfachkräfte können Nutzungsberichte nutzen, um besser zu verstehen, wie Projekte in geplanten und geplanten Stunden nachverfolgt werden. Anwender können direkt von Outlook 365 aus in Workfront eingebunden werden und bei der Verwendung der mobilen App von Workfront produktiver sein. Und vieles mehr.
 
 In den folgenden Abschnitten finden Sie eine vollständige Liste der in R1 verfügbaren Verbesserungen:
 
@@ -33,21 +34,21 @@ In den folgenden Abschnitten finden Sie eine vollständige Liste der in R1 verf�
 * [Verbesserungen für Mobile und Outlook](#mobile-and-outlook-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 * [Verbesserungen bei der Überprüfung](#proofing-enhancements)
-* [Funktion nicht für Produktion in R1 freigegeben](#functionality-not-releasing-to-production-in-r1)
+* [Funktion in R1 nicht für die Produktion freigegeben](#functionality-not-releasing-to-production-in-r1)
 * [Webinare zur Vorschau der R1-Version 2017](#2017-r1-preview-release-webinars)
-* [Wartungs-Updates für ](#maintenance-updates)
+* [Wartungs-Updates](#maintenance-updates)
 
 Weitere Informationen zu den Änderungen, die wir an unserem Veröffentlichungsprozess vornehmen, finden Sie unter .
 
 ## Papierkorb {#recycle-bin}
 
 * [Wiederherstellen von Projekten, Aufgaben und Problemen aus dem Papierkorb](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#restore-projects-tasks-and-issues-with-recycle-bin)
-* [Verbesserung des Papierkorbs: Aufgaben und Unteraufgaben werden in der vorherigen Reihenfolge wiederhergestellt](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
-* [Verbesserung des Papierkorbs: Im Update-Stream aufgezeichnet und E-Mail-Benachrichtigung empfangen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
+* [Verbesserung des Papierkorbs: Aufgaben und Unteraufgaben werden in ihrer vorherigen Reihenfolge wiederhergestellt](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
+* [Verbesserung des Papierkorbs: Wird im Aktualisierungs-Stream aufgezeichnet und erhält E-Mail-Benachrichtigung](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
 
 ## Verbesserungen der Systemkonfiguration {#system-configuration-enhancements}
 
-* [Anpassen der Workfront-Terminologie durch Ändern von Objektnamen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#customizing-workfront-terminology-by-changing-object-names)
+* [Workfront-Terminologie durch Ändern von Objektnamen anpassen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#customizing-workfront-terminology-by-changing-object-names)
 * [Zugriff auf benutzerdefinierte Forms steuern](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#control-access-to-custom-forms)
 * [Aktualisiertes Erscheinungsbild und Verhalten mehrerer Seiten zur Systemeinrichtung](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-look-and-feel-of-several-system-setup-pages)
 
@@ -89,7 +90,7 @@ Weitere Informationen zu den Änderungen, die wir an unserem Veröffentlichungsp
 * [Neue E-Mail-Digest-Optionen für &quot;Anforderungen, die ich gestellt habe&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
 * [Neue E-Mail-Digest-Optionen für &quot;Erforderliche Aktionen&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
 * [Aktualisierte Gruppierungen für Ereignisbenachrichtigungen im E-Mail-Setup-Bereich](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
-* [Sofortige Benachrichtigungen deaktivieren: Konfiguration von In-Context Digest](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
+* [Sofortige Benachrichtigungen abmelden: Digest-Konfiguration im Kontext](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
 * [Verschiedene E-Mail-Benachrichtigungen wurden vom Abschnitt &quot;Erforderliche Aktion&quot;in andere projektbezogene Abschnitte verschoben](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
 * [Änderungen an Massenbearbeitungs-Benutzerbenachrichtigungen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
@@ -105,7 +106,7 @@ Die folgende Funktion ist derzeit nicht in der Vorschau oder Beta verfügbar, wi
 
 ## Verbesserungen bei der Überprüfung {#proofing-enhancements}
 
-In der Vorschau-Umgebung sind keine Verbesserungen bei der Testprüfung verfügbar. Diese Verbesserungen sind in der Produktion mit R1 verfügbar.
+In der Vorschau-Umgebung sind keine Verbesserungen der Testprüfung verfügbar. Diese Verbesserungen sind in der Produktion mit R1 verfügbar.
 
 ### Verbesserungen bei der Überprüfung in Workfront
 
@@ -136,15 +137,15 @@ Die folgenden Verbesserungen werden für die ProofHQ-Anwendung mit R1 veröffent
 * [Berichte konfigurieren, um das neue Gantt-Diagramm standardmäßig anzuzeigen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#configure-reports-to-show-the-new-gantt-chart-by-default)
 * [Kontextbezogene Hilfe bei der Einrichtung](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#context-sensitive-help)
 
-## Funktion nicht für Produktion in R1 freigegeben {#functionality-not-releasing-to-production-in-r1}
+## Funktion in R1 nicht für die Produktion freigegeben {#functionality-not-releasing-to-production-in-r1}
 
 Die in diesem Abschnitt beschriebene Funktion war während des R1-Versionszyklus in der Vorschau-Umgebung verfügbar. Diese Funktion wird jedoch nicht für die Produktion in R1 freigegeben. Die Funktion wird 6 Wochen lang aus der Vorschau-Umgebung entfernt, bevor die R1-Version zur Produktion führt. Nachdem R1 für die Produktion freigegeben wurde, wird es erneut in die Vorschau-Umgebung eingeführt.
 
-* [Neue Planungsfunktion für Ressourcen (nicht in der Produktion in R1 verfügbar)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Nicht in Produktion in R1 verfügbar; verbleibende **Vorschau**)
+* [Neue Planungsfunktion für Ressourcen (nicht in der Produktion in R1 verfügbar)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Nicht in Produktion in R1 verfügbar; verbleibende in **Vorschau**)
 
-* [Neuanordnen von Spalten in Listen mit Drag &amp; Drop](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Nicht in Produktion in R1 verfügbar; verbleibende **Frühzeitiger Zugriff**)
+* [Neuanordnen von Spalten in Listen mit Drag &amp; Drop](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Nicht in Produktion in R1 verfügbar; verbleibende in **Frühzeitiger Zugriff**)
 
-* [Die Anzeige in der Dashboard-Liste wurde aktualisiert.](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Nicht in Produktion in R1 verfügbar; verbleibende **Frühzeitiger Zugriff**)
+* [Die Anzeige in der Dashboard-Liste wurde aktualisiert.](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Nicht in Produktion in R1 verfügbar; verbleibende in **Frühzeitiger Zugriff**)
 
 * [In der Vorschau 2016 verfügbare Funktionen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (Nicht in Produktion in R1 verfügbar; **Aus Early Access entfernt** 19. April 2017)
 
@@ -155,6 +156,6 @@ Die in diesem Abschnitt beschriebene Funktion war während des R1-Versionszyklus
 
 Informationen zum Anzeigen von Webinaraufzeichnungen für die R1-Version finden Sie unter [Webinare zur R1-Version](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
 
-## Wartungs-Updates für  {#maintenance-updates}
+## Wartungs-Updates {#maintenance-updates}
 
 Eine umfassende Liste der neuesten Wartungsupdates, die am Workfront-System vorgenommen wurden, finden Sie unter .

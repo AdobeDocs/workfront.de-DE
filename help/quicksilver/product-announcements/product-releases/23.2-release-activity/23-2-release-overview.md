@@ -4,10 +4,11 @@ description: Übersicht über die Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,9 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
 
 Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu registrieren, um die folgenden Workfront-Sitzungen zu sehen:
 
-[Auswirkende Erlebnisse: Von der Inhaltserstellung zur Personalisierung](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) am 21. März 2023, um neue Möglichkeiten zum Erstellen, Verwalten und Personalisieren von Inhalten zu lernen und mit größerer Effizienz wirkungsvolle Erlebnisse bereitzustellen. Diese Sitzung wird für virtuelle Zielgruppen live gestreamt.
+[Auswirkende Erlebnisse: von der Inhaltserstellung bis zur Personalisierung](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) am 21. März 2023, um neue Möglichkeiten zum Erstellen, Verwalten und Personalisieren von Inhalten zu lernen und mit größerer Effizienz wirkungsvolle Erlebnisse bereitzustellen. Diese Sitzung wird für virtuelle Zielgruppen live gestreamt.
 
-[Die Zukunft Adobe Workfronts](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) am 23. März 2023, um die Vision für Workfront und seinen Platz im Ökosystem der Adobe zu sehen und einen Blick auf den künftigen Fahrplan zu werfen. Diese Sitzung wird aufgezeichnet und später als On-Demand-Inhalt verfügbar gemacht.
+[Die Zukunft Adobe Workfronts](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) am 23. März 2023, um die Vision für Workfront und seinen Platz im Adobe-Ökosystem zu sehen und einen Blick auf den künftigen Fahrplan zu erhalten. Diese Sitzung wird aufgezeichnet und später als On-Demand-Inhalt verfügbar gemacht.
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum 23.2 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 
@@ -32,7 +33,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
 
 * [Administratorverbesserungen](#administrator-enhancements)
 * [Agile Verbesserungen](#agile-enhancements)
-* [Verbesserungen beim Projektmanagement](#project-management-enhancements)
+* [Verbesserungen des Projektmanagements](#project-management-enhancements)
 * [Verbesserungen bei der Ressourcenverwaltung](#resource-management-enhancements)
 * [Verbesserungen bei Berichten und Dashboards](#reports-and-dashboards-enhancements)
 * [Mobile Verbesserungen](#mobile-enhancements)
@@ -62,7 +63,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsversion: 30. März 2023</p>
@@ -76,8 +77,8 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                         <p>Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können.</p>
                         <p>Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt, 
                         <ul>
-                        <li><strong>Feld kopieren</strong>: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.</li>
-                        <li><strong>Standardabschnitt verwenden</strong>: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, wird jetzt auf der Arbeitsfläche der Abschnitt "Standard"angezeigt, sodass Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen wurde. </li>
+                        <li><strong>Kopieren eines Felds</strong>: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.</li>
+                        <li><strong>Standardabschnitt verwenden</strong>: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, ist jetzt ein Abschnitt "Standard"auf der Arbeitsfläche sichtbar, damit Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen ist. </li>
                         <li><strong>Ändern der Größe für beschreibenden Text</strong>: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden. <span style="color: #ff0000;"> Die Änderung der Größe für den beschreibenden Text wurde zeitweilig verzögert, kommt aber bald.</span></li> 
                         </ul>
                         </p>
@@ -131,7 +132,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen von Aufgaben und Problemen aus Objektdetails zu einer Workfront-Pinnwand oder einem Workstream</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aufgaben und Probleme aus Objektdetails zu einer Workfront-Pinnwand hinzufügen</a></p>
                         <p>Sie können einer Workfront-Pinnwand oder Workstream-Kartenliste jetzt direkt aus den Objektdetails vorhandene Aufgaben oder Probleme hinzufügen. Alle Elemente, die Sie einer Pinnwand hinzufügen, werden zu verbundenen Karten, und alle Elemente, die einem Workstream hinzugefügt werden, werden der Kartenliste als ungeplante Karten hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -235,7 +236,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
               <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeige von Feldern auf einer Karte anpassen</a></p>
-                        <p>Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der verdichteten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.</p>
+                        <p>Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der gekürzten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -321,7 +322,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
             </tbody>
         </table>
 
-### Verbesserungen beim Projektmanagement
+### Verbesserungen des Projektmanagements
 
 <table>
             <col style="width: 50%;" />
@@ -408,7 +409,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität</a>
                         <p>Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer tatsächlich projektbezogener Arbeit widmen, führen wir das Arbeitszeitkonzept für Adobe Workfront ein.</p>
-                        <p>Sie können den Wert des Felds Arbeitszeit für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten.</p>
+                        <p>Sie können den Wert des Felds "Arbeitszeit"für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -444,7 +445,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboards für die Arbeitsfläche</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Arbeitsfläche-Dashboards</a></p>
                         <p>Arbeitsfläche-Dashboards wurden als laufende Funktion für Dashboards hinzugefügt, die in Layoutvorlagen aktiviert werden können. In Arbeitsfläche-Dashboards können neben neuen Layoutoptionen auch Visualisierungen der Berichtsarbeitsfläche mit vorhandenen Berichten kombiniert werden. Derzeit werden nur Listenberichte unterstützt, aber während der Entwicklung werden weitere Optionen hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -486,7 +487,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsversion: Verfügbar im Apple App Store und Google Play Store, 13. März 2023</p>
@@ -525,7 +526,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Produktionsversion: 23. März 2023 </span></p>
@@ -552,10 +553,10 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Neukunden, die in Adobe Unified Experience integriert werden sollen</a></p>
-                        <p>Das einheitliche Erlebnis der Adobe umfasst:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Neukunden, die an Adobe Unified Experience integriert werden sollen</a></p>
+                        <p>Das Adobe Unified Experience umfasst:
                         <ul>
-                        <li>Eine Anmeldung für alle Adobe Apps über Adobe Experience Cloud</li>
+                        <li>Eine Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud</li>
                         <li>Ein "Organisationswechsel" für den Wechsel zwischen Workfront-Organisationen und -Umgebungen</li>
                         <li>Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil</li>
                         </ul>
@@ -564,7 +565,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: Mitte bis Ende März 2023</p>
@@ -581,7 +582,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsversion: Mitte bis Ende März 2023</p>
@@ -597,7 +598,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, sich für Adobe Summit zu reg
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Nicht zutreffend<br /></p>
+                                <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsversion: 6. Februar 2023</p>

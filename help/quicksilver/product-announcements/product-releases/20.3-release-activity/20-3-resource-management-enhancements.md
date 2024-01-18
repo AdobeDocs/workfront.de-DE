@@ -5,10 +5,11 @@ title: 20.3 Verbesserungen bei der Ressourcenverwaltung
 description: Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -76,7 +77,7 @@ Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie u
 **In diesen Umgebungen verfügbar:**
 
 * Adobe Workfront Classic
-* Das neue Adobe Workfront-Erlebnis
+* Die neue Adobe Workfront-Erfahrung
 
 ### Aktualisieren der geplanten Stunden im Arbeitslastausgleich {#update-task-planned-hours-in-the-workload-balancer}
 

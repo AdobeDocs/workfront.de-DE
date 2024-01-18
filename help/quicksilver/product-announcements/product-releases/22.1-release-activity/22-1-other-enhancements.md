@@ -4,10 +4,11 @@ description: 2.1 Weitere Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [2.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Standardaufsteigende Reihenfolge für das geplante Abschlussdatum und Möglichkeit, in der Startseite nach geplantem Startdatum zu gruppieren
 
@@ -63,11 +64,11 @@ Zu diesen Aktualisierungen gehören:
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Grundlegendes zum Layout des Zeitplans](../../../timesheets/timesheets/timesheet-layout.md)
-* [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md)
+* [Zeit erfassen](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Neue Symbolleiste für Benutzerlisten
 
-Eine modernere und intuitivere Symbolleiste erleichtert die Verwaltung von Benutzern in einer Benutzerliste. Über die Schaltflächen der Symbolleiste können Sie schnell Benutzer zu Workfront hinzufügen, sie daran erinnern, sich zu registrieren und ihre Profile zu verwalten. Sie können auch eine Benutzerliste exportieren.
+Eine modernere und intuitivere Symbolleiste erleichtert die Verwaltung von Benutzern in einer Benutzerliste. Über die Schaltflächen der Symbolleiste können Sie schnell Benutzer zu Workfront hinzufügen, sie an die Registrierung und Verwaltung ihrer Profile erinnern. Sie können auch eine Benutzerliste exportieren.
 
 Weitere Informationen zu diesen Aktionen finden Sie unter [Benutzer erstellen und verwalten](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
 
