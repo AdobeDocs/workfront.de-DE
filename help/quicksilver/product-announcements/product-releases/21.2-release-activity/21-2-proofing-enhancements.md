@@ -5,10 +5,10 @@ navigation-topic: 2021-2-release-activity
 title: 21.2 Verbesserungen bei der Prüfung
 description: Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
 author: Luke
-feature: Product Announcements, Workfront Proof
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
