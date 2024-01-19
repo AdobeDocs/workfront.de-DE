@@ -6,16 +6,14 @@ description: Als Validierer können Sie eine Vorschau eines Dokuments anzeigen, 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Dokument überprüfen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung übermittelt wurde. Im Gegensatz zu einer Validierung treffen Sie keine Entscheidung. Stattdessen bestätigen Sie, dass Sie das Asset überprüft haben.
 
@@ -33,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -72,7 +70,7 @@ Add once functionality is added
    Klicks **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
 1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.</span>
+1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.
 
 ## Überprüfen eines Dokuments im Bereich &quot;Dokumentzusammenfassung&quot;
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie nach unten zum **Versionen** auf das Symbol Mehr klicken. ![](../assets/more-icon.png) neben der Version, die Sie überprüfen und auswählen möchten **Herunterladen** oder **Vorschau**.
-1. <span class="preview"> Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.</span>
+1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.

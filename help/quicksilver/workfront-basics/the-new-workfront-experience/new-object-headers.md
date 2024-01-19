@@ -5,9 +5,9 @@ title: Objektüberschriften - Übersicht
 description: Sie können Informationen zu Objekten in [!DNL Adobe Workfront] wenn Sie die Kopfzeile überprüfen. Die Informationen in einer Kopfzeile können den Eigentümer des Objekts, den Status oder den Prozentsatz der Fertigstellung umfassen.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ So greifen Sie beispielsweise auf die Kopfzeile eines Projekts zu:
 
 Die folgenden Header sind in Home verfügbar:
 
-* Aufgabe: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie in der [Übersicht über Aufgabenüberschriften](#task-header-overview) in diesem Artikel.
-* Problem: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie in der [Problemübersicht](#issue-header-overview) in diesem Artikel.
+* Aufgabe: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie unter [Übersicht über Aufgabenkopfzeilen](#task-header-overview) in diesem Artikel.
+* Problem: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie unter [Problemübersicht](#issue-header-overview) in diesem Artikel.
 
 ## Anpassbare Kopfzeilen
 
@@ -93,7 +93,7 @@ In der Projektheader werden standardmäßig die folgenden Informationen angezeig
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum] </td> 
-   <td> <p>Sie können das Projekt [!UICONTROL Planes Abschlussdatum] und die Uhrzeit in der Kopfzeile bearbeiten, wenn das Projekt ab [!UICONTROL Abschlussdatum] geplant ist. Wenn das Projekt am [!UICONTROL Startdatum] geplant ist, werden diese Informationen über die Aufgaben im Projekt aktualisiert.</p> </td> 
+   <td> <p>Sie können das Projekt [!UICONTROL Planes Abschlussdatum] und die Uhrzeit in der Kopfzeile bearbeiten, wenn das Projekt am [!UICONTROL Abschlussdatum] geplant ist. Wenn das Projekt am [!UICONTROL Startdatum] geplant ist, werden diese Informationen über die Aufgaben im Projekt aktualisiert.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bedingung] </td> 
@@ -110,7 +110,7 @@ In der Projektheader werden standardmäßig die folgenden Informationen angezeig
  </tbody> 
 </table>
 
-## Übersicht über Aufgabenüberschriften
+## Übersicht über Aufgabenkopfzeilen
 
 ![](assets/task-header-350x18.png)
 
@@ -278,7 +278,7 @@ Der Programmheader enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abgeschlossen]</td> 
-   <td> <p>Sie können den [!UICONTROL Prozentwert (Complete) des Programms nicht in der Kopfzeile bearbeiten. Diese Informationen werden aus den Projekten des Programms aktualisiert.</p> <p>Tipp: Standardmäßig entspricht der prozentuale Abschluss des Programms dem Durchschnitt der vollständigen Prozentwerte der Projekte in einem [!UICONTROL Aktuellen] oder [!UICONTROL Genehmigten Status], die zum Programm gehören.</p> </td> 
+   <td> <p>Sie können den [!UICONTROL Prozentwert (Complete) des Programms nicht in der Kopfzeile bearbeiten. Diese Informationen werden aus den Projekten des Programms aktualisiert.</p> <p>Tipp: Standardmäßig entspricht der prozentuale Abschluss des Programms dem Durchschnitt der vollständigen Prozentwerte der Projekte in einem [!UICONTROL Aktuellen] oder [!UICONTROL Genehmigten Status], der zum Programm gehört.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Programm-Manager]</td> 
@@ -358,7 +358,7 @@ Der Portfolioheader enthält die folgenden Informationen:
  </tbody> 
 </table>
 
-## Übersicht über Vorlagenkopfzeilen {#template-header-overview}
+## Übersicht über die Vorlagenkopfzeilen {#template-header-overview}
 
 ![](assets/template-header-350x18.png)
 
@@ -635,7 +635,7 @@ Die Iterationskopfzeile enthält die folgenden Informationen:
    <td> <p>In der oberen rechten Ecke der Kopfzeile wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Inhaber</td> 
+   <td role="rowheader">Besitzerin bzw. Besitzer</td> 
    <td>Dies ist der [!UICONTROL Eigentümer] der Iteration. Sie können den [!UICONTROL Inhaber] nicht in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
@@ -653,7 +653,7 @@ Die Iterationskopfzeile enthält die folgenden Informationen:
 
 ![](assets/nwe-group-header-350x20.png)
 
-Die Gruppenüberschrift enthält die folgenden Informationen:
+Die Kopfzeile der Gruppe enthält die folgenden Informationen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -739,7 +739,7 @@ Die Kopfzeile des Dokuments enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Das Genehmigungsgebiet [!UICONTROL Decision]</td> 
-   <td> <p>Wenn sich das Dokument in einem Genehmigungsschritt befindet, wird der Bereich [!UICONTROL Entscheidungen] in der oberen rechten Ecke der Kopfzeile des Dokuments angezeigt.</p> <p>Verwenden Sie die folgenden Symbole, um die Genehmigungen für das Dokument zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Validierung der Arbeit </a>.</p> </td> 
+   <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Kopfzeile des Dokuments angezeigt. Dieser Bereich unterscheidet sich je nach der Validierungsphase und danach, ob Sie Genehmiger, Validierer oder keiner der beiden sind. <ul><li> <p>Wenn Sie Genehmiger sind, können Sie die Genehmigungen für das Dokument mithilfe der folgenden Symbole verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Validierung der Arbeit</a>.</li><li><p>Wenn Sie Überprüfer sind, können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument überprüft haben.</p><p>Weitere Informationen zum Überprüfen eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Dokument überprüfen</a>.</p></li><li>Andernfalls zeigt dieser Bereich den aktuellen Überprüfungs- und Genehmigungsstatus für das Dokument an.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -789,7 +789,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
 
 Pläne sind Objekte der [!DNL Workfront Scenario Planner]. Informationen zum [!DNL Scenario Planner], siehe [Die [!DNL Scenario Planner] Übersicht](../../scenario-planner/scenario-planner-overview.md).
 
-Die Kopfzeile Plan enthält die folgenden Informationen:
+In der Planüberschrift werden die folgenden Informationen angezeigt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -803,7 +803,7 @@ Die Kopfzeile Plan enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Zurück zu den Plänen</td> 
-   <td>Wenn Sie auf diesen Link klicken, gelangen Sie zur Liste [!UICONTROL Pläne] .</td> 
+   <td>Wenn Sie auf diesen Link klicken, werden Sie zur Liste [!UICONTROL Pläne] geleitet.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
@@ -874,7 +874,7 @@ Die Ziel-Kopfzeile enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das lilafarbene [!UICONTROL Ziel]-Symbol <img src="assets/goal-icon.png" > wird links neben dem Zielnamen angezeigt.</p> </td> 
+   <td> <p>Das violette [!UICONTROL Ziel]-Symbol <img src="assets/goal-icon.png" > wird links neben dem Zielnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Ziels</td> 

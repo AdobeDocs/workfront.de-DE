@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierte Status für Dokumentgenehmigungen</a></p><p>Um den Status der Dokumentgenehmigung klarer zu gestalten, wurden die verfügbaren Dokumentstatus-Genehmigungen aktualisiert. Jetzt werden Validierungsverantwortliche mit dem Genehmigungsstatus erfasst, die ihre Überprüfung als abgeschlossen kennzeichnen, sowie Fälle, in denen es nur Validierungsverantwortliche, aber keine Genehmiger gibt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierte Status für Dokumentgenehmigungen</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Um den Status der Dokumentgenehmigung klarer zu gestalten, wurden die verfügbaren Dokumentstatus-Genehmigungen aktualisiert. Jetzt werden Validierungsverantwortliche mit dem Genehmigungsstatus erfasst, die ihre Überprüfung als abgeschlossen kennzeichnen, sowie Fälle, in denen es nur Validierungsverantwortliche, aber keine Genehmiger gibt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markieren einer Überprüfung als abgeschlossen</a></p><p>Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue <strong>Meine Überprüfung abschließen</strong> Schaltfläche.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markieren einer Überprüfung als abgeschlossen</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Um klarer zu machen, wann ein Dokument geprüft wurde und für die nächste Validierungsphase bereit ist, haben wir eine neue <strong>Meine Überprüfung abschließen</strong> Schaltfläche.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Dokumentprüfungs- und Genehmigungsstatus wird in der Dokumentüberschrift angezeigt</a></p><p>Um den Überprüfungs- und Genehmigungsprozess transparenter zu gestalten, haben wir den Status zur Kopfzeile der Seite "Dokumentdetails"hinzugefügt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Dokumentprüfungs- und Genehmigungsstatus wird in der Dokumentüberschrift angezeigt</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Um den Überprüfungs- und Genehmigungsprozess transparenter zu gestalten, haben wir den Status zur Kopfzeile der Seite "Dokumentdetails"hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Widget für ausstehende Genehmigungen verfügbar</a></p><p>Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget "Ausstehende Genehmigungen"zu "Home"hinzugefügt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Widget für ausstehende Genehmigungen verfügbar</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget "Ausstehende Genehmigungen"zu "Home"hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
