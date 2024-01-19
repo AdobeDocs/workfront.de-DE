@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # Neues Kommentierungserlebnis
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 * Echtzeitanzeige beim Hinzufügen neuer Kommentare zu einem Objekt
 * Kommentare nach dem Senden bearbeiten
 
-Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
+Die folgenden Funktionen wurden entfernt oder werden aus dem neuen Erlebnis entfernt:
 
 * Kommentar zu einer Systemaktualisierung
-* Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten
+* Möglichkeit, Status, Bedingung, Datum der Übertragung und Prozentsatz der Fertigstellung zu bearbeiten, während Sie zu Aufgaben und Problemen kommentieren
 * Benutzerdefiniertes Formular bearbeiten
 * Die Informationen &quot;im Namen von &lt; Benutzername >&quot;, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt, wurden ursprünglich entfernt. Es wurde am 19. Oktober 2023 wieder eingesetzt.
 * Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
+* Die Einstellung &quot;Prozentualer Abschluss bei Aktualisierungsstatus anzeigen&quot;beim Bearbeiten des Profilfelds eines Benutzers wird entfernt. Die Funktion zum Aktualisieren des prozentualen Abschlusses einer Aufgabe oder eines Problems wurde entfernt.
+* Die Benachrichtigung für den Projekteigentümer im Bereich Updates, dass der Verantwortliche einer Aufgabe oder eines Problems das Commitdatum bearbeitet hat <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

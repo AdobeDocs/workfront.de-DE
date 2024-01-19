@@ -6,9 +6,9 @@ description: Informationen zum Level von Ressourcen im Gantt-Diagramm.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] license*</td> 
@@ -38,9 +38,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL] Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
+   <td> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -62,9 +62,9 @@ Beachten Sie Folgendes beim Einbinden von Ressourcen auf ein Projekt:
 * Wenn mehrere Benutzer derselben Aufgabe zugewiesen sind, wird die Einteilung abgebrochen.
 * Bedingungen für den Typ **[!UICONTROL Aufgabenbegrenzung]** wird Vorrang vor der Ressourcenebene haben. Wenn beispielsweise **[!UICONTROL Feste Datumswerte]** wird als [!UICONTROL Aufgabenbegrenzung], ändert die Ressourcenebene die Aufgabendaten nicht.
 * Vorläufige Beziehungen haben Vorrang vor der Ressourcenebene.
-* **[!UICONTROL Ressourcenebene]** muss auf **[!UICONTROL Manuell]** für das Projekt zur Anpassung der Ebene im [!UICONTROL Gantt-Diagramm]. Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie die Ressourcen des Systems automatisch auf Ebene des Projekts platzieren, indem Sie diese Einstellung im Projekt anpassen und **[!UICONTROL Automatisch]** anstelle von **[!UICONTROL Manuell]** im **[!UICONTROL Projekt bearbeiten]** ankreuzen.
+* **[!UICONTROL Ressourcenebene]** muss auf **[!UICONTROL Manuell]** für das Projekt zur Anpassung der Ebene in der [!UICONTROL Gantt-Diagramm]. Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie die Ressourcen des Systems automatisch auf Ebene des Projekts platzieren, indem Sie diese Einstellung im Projekt anpassen und **[!UICONTROL Automatisch]** anstelle von **[!UICONTROL Manuell]** im **[!UICONTROL Projekt bearbeiten]** ankreuzen.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+  ![](assets/resource-leveling-mode-350x177.png)
 
 * Als Projekteigentümer oder Aufgabenverantwortlicher können Sie eine Zeitverzögerung für eine Aufgabe einführen, um anzuzeigen, dass eine große Wahrscheinlichkeit besteht, dass die Aufgabe möglicherweise mehr Zeit benötigt. Informationen zum Hinzufügen einer Zeitverzögerung zu einer Aufgabe finden Sie unter [Zeitverzögerung für Aufgabenebene aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -73,7 +73,7 @@ Beachten Sie Folgendes beim Einbinden von Ressourcen auf ein Projekt:
 Sie können die Aufgabenliste verwenden [!UICONTROL Gantt-Diagramm] , um Ressourcen zu sammeln.
 
 1. Wechseln Sie zu dem Projekt, das Sie unterteilen möchten.
-1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
+1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf die **[!UICONTROL Gantt-Diagramm]** Symbol.
 
    Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
@@ -92,11 +92,11 @@ Sie können die Aufgabenliste verwenden [!UICONTROL Gantt-Diagramm] , um Ressour
 1. Wählen Sie eine der folgenden Optionen aus:
 
    * **[!UICONTROL Level Now]**: Wendet die Ressourcenebene auf die ausgewählte Aufgabe an.
-   * **[!UICONTROL Klare Ebene]**: Entfernt die gesamte Ressourcenebene aus der ausgewählten Aufgabe.
+   * **[!UICONTROL Klare Ebene]**: Entfernt alle Ressourcenebenen aus der ausgewählten Aufgabe.
 
    >[!NOTE]
    >
-   >Ihre Ressourcen werden möglicherweise überzugewiesen, wenn sie mehreren Aufgaben zugewiesen werden, die im selben Zeitraum stattfinden.
+   >Ihre Ressourcen werden möglicherweise überzugewiesen, wenn sie mehreren Aufgaben zugewiesen werden, die im selben Zeitrahmen stattfinden.
 
 1. (Optional und bedingt) Wenn Sie die Option Automatisches Speichern deaktiviert haben, klicken Sie auf die **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
@@ -104,12 +104,11 @@ Sie können die Aufgabenliste verwenden [!UICONTROL Gantt-Diagramm] , um Ressour
    >
    >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen an der [!UICONTROL Gantt-Diagramm]:
    >
-   >* [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
-   >* Windows: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
+   >* [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
+   >* Windows: Verwenden Sie [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
 
 
-
-1. Klicken **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
+1. Klicks **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -120,7 +119,7 @@ Sie können die Aufgabenliste verwenden [!UICONTROL Gantt-Diagramm] , um Ressour
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p>  </li>
 <li value="3">Click <strong>Settings</strong>.<br></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>. </li>

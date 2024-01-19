@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folg
 
 #### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
 
+Im Bereich &quot;Zusammenfassung&quot;können Sie die Zeit für alle Objekte in jedem Widget protokollieren. Weitere Informationen finden Sie unter [Zusammenfassungsbereich](#summary-panel) in diesem Artikel beschrieben.
+
+Außerdem, um die Zeit für ein Element im Widget Meine Arbeit zu protokollieren:
+
 1. Zum **Startseite** Bereich.
-1. Fügen Sie eines der folgenden Widgets hinzu:
+1. Fügen Sie die **Meine Arbeit** Widget auf Ihrer Startseite.
+1. Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Arbeiten daran**
+1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die Sie die Zeit protokollieren möchten, und klicken Sie dann auf **Protokollzeit** icon ![](assets/log-time-icon-in-new-home.png) rechts neben den Aufgabeninformationen.
 
-   * Meine Aufgaben
-   * Meine Probleme
-   * Meine Arbeit
-   * Meine Anfragen
-1. Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Zusammenfassung**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   Oder
-
-   Klicken Sie auf **Zusammenfassung** icon ![](assets/open-summary-icon-in-home.png) aus einer Aufgabe oder einem Problem im Widget &quot;Meine Arbeit&quot;.
-
-   Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Fahren Sie die Protokollierungszeit im Bedienfeld &quot;Zusammenfassung&quot;fort, wie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Klicks **Protokollzeit**.
 
 #### Protokollieren der Zeit für ein Arbeitselement aus dem alten Startbereich
 

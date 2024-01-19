@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Massenbearbeitung von Benutzerprofilen
 description: Als Adobe Workfront-Administrator können Sie Benutzerkonten stapelweise bearbeiten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,6 @@ Sie können Benutzerkonten stapelweise bearbeiten. Bei der Massenbearbeitung von
 >* Um Genauigkeit der Daten und optimale Leistung zu gewährleisten, empfehlen wir, maximal 2000 Benutzer gleichzeitig für eine Massenbearbeitung auszuwählen.
 >
 
-
 ## Zugriffsanforderungen
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
@@ -44,7 +43,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -55,7 +54,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
     <ul> 
      <li> <p>Die Zugriffsebene des Systemadministrators. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsstufe konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzer-Admin</b> Optionen aktiviert unter <b>Einstellungen anpassen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
+     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsstufe konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzeradministrator</b> Optionen aktiviert unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -79,7 +78,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        <ul> 
         <li><b>Zeitzone:</b> Die Zeitzone des Benutzers.</li> 
         <li><b>Gebietsschema</b>: Das bevorzugte Gebietsschema der Benutzer. Dies wirkt sich auf das Zahlenformat und das Datumsformat der aus Workfront stammenden E-Mails aus.</li> 
-        <li><b>Prozentualer Abschluss der Aktualisierung anzeigen</b>: Aktivieren Sie diese Option, wenn Sie eine prozentuale Abschlussleiste im Aktualisierungsstream von Aufgaben für alle Benutzer anzeigen möchten.</li> 
+        <li><b>Prozentualer Abschluss der Aktualisierung anzeigen</b>: Aktivieren Sie diese Option, wenn Sie bei Verwendung des bisherigen Kommentierungserlebnisses im Bereich Aktualisieren aller Benutzeraufgaben eine prozentuale Leiste zum Abschluss anzeigen möchten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.</li> 
         <li><b>Versand der Arbeit, die ich mir auf die Registerkarte "Arbeit an"zuweise</b>: Aktivieren Sie diese Option, wenn alles, was die Benutzer sich selbst zuweisen, direkt auf ihrer Registerkarte "Arbeiten am"angezeigt werden soll. Standardmäßig werden alle einem Benutzer zugewiesenen Elemente auf der Registerkarte "Arbeitsanforderung"aufgelistet.</li> 
        </ul> </td> 
      </tr> 
@@ -143,7 +142,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        <ul>
 
    <li>
-       <b>Arbeitszeit</b>: Stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, zu der der Benutzer für die tatsächliche Arbeit zur Verfügung steht, ohne den Gemeinkosten zu berücksichtigen. Die Arbeitszeit muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.
+       <b>Arbeitszeit</b>: Stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, zu dem der Benutzer für die tatsächliche Arbeit verfügbar ist, ohne dass der Overhead eingeschlossen ist. Die Arbeitszeit muss eine Dezimalzahl von bis zu 1 sein, und sie darf nicht 0 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.
 
    Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte FTE für tatsächliche, projektbezogene Arbeiten ausgibt.
 
@@ -165,14 +164,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        <li> <p><b>Primäre Rolle</b>: Dies ist die primäre Aufgabenrolle, die ein Benutzer in Workfront hat. Jede Aufgabe und jedes Problem, denen die Benutzer zugewiesen sind, wird standardmäßig ebenfalls dieser Auftragsrolle zugewiesen. Arbeitsplatzrollen sind im Ressourcenmanagement von entscheidender Bedeutung. Weitere Informationen zu Auftragsrollen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Vorgangsrollen</a></p> <p>Sie können dieses Feld nur aktualisieren, wenn Sie über eine Planungslizenz mit Administratorzugriff verfügen oder wenn Sie Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
        <li>(Bedingt) Wenn Sie eine <b>Primäre Rolle</b>, die <b>Prozentsatz der VZÄ-Verfügbarkeit</b> angezeigt. Geben Sie an, welcher Prozentsatz der Zeit der Zeitpläne der Benutzer dieser Auftragsrolle zugeordnet ist. Der Standardwert für den Prozentsatz der FTE-Verfügbarkeit für die Primäre Rolle beträgt 100 %.</li> 
        <li> <p><b>Sonstige Rollen</b>: Benutzer können in Workfront über mehrere Vorgangsrollen verfügen. Arbeitsplatzrollen sind im Ressourcenmanagement von entscheidender Bedeutung. Es gibt keine Beschränkung dafür, wie viele Jobrollen ein Benutzer erfüllen kann. Es wird jedoch empfohlen, keinen Benutzer einer zu großen Anzahl von Vorgängen zuzuweisen, da die Ressourcenverwaltung für diese Benutzer zu komplex werden kann.</p> <p>Weitere Informationen zu Auftragsrollen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Vorgangsrollen</a>.</p> <p>Sie können dieses Feld nur aktualisieren, wenn Sie über eine Planungslizenz mit Administratorzugriff verfügen oder wenn Sie Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit Administratorzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
-       <li> <p>(Bedingt) Wenn Sie eine oder mehrere <b>Sonstige Rollen</b>, die <b>Prozentsatz der VZÄ-Verfügbarkeit</b> für jede Rolle angezeigt. Geben Sie an, welcher Prozentsatz der Zeit der Zeitpläne der Benutzer den einzelnen Auftragsrollen zugeordnet wird. Der Standardwert für den Prozentsatz der FTE-Verfügbarkeit für die anderen Rollen beträgt 0 %.</p> <p><b>NOTIZ</b>:  
+       <li> <p>(Bedingt) Wenn Sie eine oder mehrere <b>Sonstige Rollen</b>, die <b>Prozentsatz der VZÄ-Verfügbarkeit</b> für jede Rolle angezeigt. Geben Sie an, welcher Prozentsatz der Zeit der Zeitpläne der Benutzer den einzelnen Auftragsrollen zugeordnet wird. Der Standardwert für den Prozentsatz der FTE-Verfügbarkeit für die anderen Rollen beträgt 0 %.</p> <p><b>NOTE</b>:  
        <ul> 
        <li>Wenn "Andere Rollen"eine FTE-Verfügbarkeit von 0 % haben, werden sie nicht im Ressourcen-Planer angezeigt, es sei denn, die Benutzer sind Aufgaben in diesen Rollen zugewiesen.</li> 
        <li> <p>Die Summe aller Prozentsätze der FTE-Verfügbarkeit für alle Rollen muss 100 % betragen. Jeder Prozentsatz der FTE-Verfügbarkeit berechnet die verfügbaren Stunden für jede Rolle pro Benutzer im Resource Planer. Die verfügbaren Stunden für jede Rolle pro Benutzer hängen von der verfügbaren Zeit des Benutzers ab.</p> <p>Die verfügbare Zeit für den Benutzer wird von Workfront entsprechend der Methode berechnet, die der Workfront-Administrator unter "Voreinstellungen für die Ressourcenverwaltung"zur Berechnung der FTE ausgewählt hat.</p> <p>Weitere Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>.</p> <p>Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </li> 
        </ul> </p> </li> 
        <li> <p><b>Zeitplan</b>: Verknüpfen Sie den Benutzern einen Zeitplan. Der Zeitplan der Benutzer berechnet die Zeitleiste der Aufgaben, denen die Benutzer zugewiesen sind.</p> <p>Ein Workfront-Administrator oder ein Gruppenadministrator muss einen Zeitplan erstellen, bevor er Benutzern zugeordnet werden kann.</p> <p>Wählen Sie einen Plan auf Systemebene oder Gruppe aus, um ihn den ausgewählten Benutzern zuzuweisen.</p> <p>Weitere Informationen zu Zeitplänen auf Systemebene und Gruppen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen</a>.</p> <p><b>WICHTIG</b>: Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung "Ressourcenverfügbarkeit berechnen mit"auf den Zeitplan des Benutzers gesetzt ist. Informationen dazu, wie sich die Einstellung "Ressourcenverfügbarkeit berechnen mit"darauf auswirkt, welcher Zeitplan für die Ressourcenverwaltung verwendet wird, finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </li> 
        <li> <p><b>Datenblatt-Profil</b>: Verknüpfen Sie den Benutzern ein Timesheet-Profil. Dadurch wird sichergestellt, dass Timesheets automatisch für die Benutzer generiert werden.</p> 
-       <p><b>NOTIZ</b>:  
+       <p><b>NOTE</b>:  
        <ul> 
        <li>Die Liste der in diesem Feld verfügbaren Timesheet-Profile hängt von Ihrem Zugriff ab:
        <ul>
@@ -204,12 +203,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Zeitplan erstellen</a>.
    </li> 
-       <li> <p><b>Ressourcen-Pools</b>: Verknüpfen Sie die Benutzer mit Ressourcen-Pools.</p> <p><b>NOTE</b>: In diesem Feld werden nur die Ressourcen-Pools angezeigt, die allen ausgewählten Benutzern gemeinsam sind. Wenn die ausgewählten Benutzer keine gemeinsamen Ressourcen-Pools haben, ist dieses Feld leer. Wenn dieses Feld leer ist, überschreiben die Ressourcen-Pools, die Sie hier angeben, ihre einzelnen Ressourcen-Pools.</p> 
+       <li> <p><b>Ressourcenpools</b>: Verknüpfen Sie die Benutzer mit Ressourcen-Pools.</p> <p><b>NOTE</b>: In diesem Feld werden nur die Ressourcen-Pools angezeigt, die für alle ausgewählten Benutzer gültig sind. Wenn die ausgewählten Benutzer keine gemeinsamen Ressourcen-Pools haben, ist dieses Feld leer. Wenn dieses Feld leer ist, überschreiben die Ressourcen-Pools, die Sie hier angeben, ihre einzelnen Ressourcen-Pools.</p> 
        <p>Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcen-Pools - Übersicht </a>.</p> </li> 
        <li><b>Kosten pro Stunde</b>: Die Kosten pro Stunde für den Benutzer. </li> 
        <li><b>Abrechnung pro Stunde</b>: Die Höhe der Abrechnung pro Stunde für den Benutzer.</li> 
        <li><b>Benutzerdefinierte Forms</b>: Verknüpfen Sie ein vorhandenes benutzerdefiniertes Formular mit den Benutzern. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</li> 
-       <li><b>Kommentar</b>: Geben Sie in das Feld einen Kommentar ein. Alle ausgewählten Benutzer erhalten eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Tab Aktualisierungen des Benutzerprofils angezeigt.</li> 
+       <li><b>Kommentar</b>: Geben Sie einen Kommentar in das angegebene Feld ein. Alle ausgewählten Benutzer erhalten eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Tab Aktualisierungen des Benutzerprofils angezeigt.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -217,4 +216,4 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. (Optional) Im **Benutzerdefinierte Forms** auswählen, wählen Sie die **Benutzerdefinierte Ausdrücke neu berechnen** , um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in benutzerdefinierten Formularen, die an die ausgewählten Benutzer angehängt sind, auf dem neuesten Stand sind.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

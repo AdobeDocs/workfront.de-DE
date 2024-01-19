@@ -6,10 +6,10 @@ description: Ihre [!DNL Adobe Workfront] Das Profil enthält Informationen über
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -59,65 +59,65 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
    <td rowspan="2">[!UICONTROL Persönliche Informationen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>ms</p> </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
+   <td> ms</td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td> ms</td> 
   </tr> 
   <tr> 
    <td> <p>Bearbeitbar</p> </td> 
-   <td> <p>✔</p> </td> 
-   <td> ✔</td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td> <p>ms</p> </td> 
+   <td> ms</td> 
+   <td> ms</td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Voreinstellungen]</td> 
    <td> <p>Sichtbar</p> </td> 
-   <td> <p>✔</p> </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td> <p>ms</p> </td> 
+   <td> ms</td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td> <p>Bearbeitbar</p> </td> 
-   <td> <p>✔</p> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td> <p>ms</p> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Benachrichtigungen]</td> 
    <td> <p>Sichtbar</p> </td> 
-   <td> <p>✔</p> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
+   <td> <p>ms</p> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td> ms</td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td> <p>Bearbeitbar</p> </td> 
-   <td> <p>✔</p> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td> ✔</td> 
+   <td> <p>ms</p> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td> ms</td> 
+   <td> ms</td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Zugriff]</td> 
    <td>Sichtbar</td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
+   <td> ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bearbeitbar</td> 
-   <td> ✔</td> 
+   <td> ms</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -126,16 +126,16 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
   <tr> 
    <td rowspan="2">[!UICONTROL Organisation]</td> 
    <td>Sichtbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bearbeitbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -143,16 +143,16 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
   <tr> 
    <td rowspan="2">[!UICONTROL Ressourcenplanung]</td> 
    <td>Sichtbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bearbeitbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -160,16 +160,16 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
   <tr> 
    <td rowspan="2">[!UICONTROL Custom Forms]</td> 
    <td>Sichtbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
+   <td>ms</td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td>Bearbeitbar</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -177,19 +177,19 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
   <tr> 
    <td rowspan="2">[!UICONTROL Kommentar]</td> 
    <td>Sichtbar</td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms</td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
    <td>Bearbeitbar</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,7 +212,7 @@ Das folgende Raster zeigt, welche Abschnitte in [!UICONTROL Meine Einstellungen]
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-### [!UICONTROL Persönliche Info]
+### [!UICONTROL Persönliche Informationen]
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
@@ -240,7 +240,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail-Adresse]</strong></td> 
-   <td> E-Mail-Adresse aktualisieren. Dies ist ein Pflichtfeld. Beachten Sie, dass Ihre E-Mail-Adresse auch Ihr Benutzername ist für [!DNL Workfront].</td> 
+   <td> E-Mail-Adresse aktualisieren. Dies ist ein erforderliches Feld. Beachten Sie, dass Ihre E-Mail-Adresse auch Ihr Benutzername ist für [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Kennwort zurücksetzen]</strong></td> 
@@ -315,7 +315,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
     </tr>
 </table>
 
-### [!UICONTROL Einstellungen]
+### [!UICONTROL Voreinstellungen]
 
 Geben Sie an, was in der [!DNL Workfront] -Schnittstelle in diesem Abschnitt.
 
@@ -340,7 +340,9 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Prozentualer Abschluss beim Aktualisierungsstatus anzeigen]</strong> </td> 
-   <td>Aktivieren Sie dieses Kontrollkästchen, um eine Prozentleiste im [!UICONTROL Aktualisierungsstatus] -Feld von Aufgaben anzuzeigen, damit Sie den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren können, während Sie eine Aktualisierung der Aufgabe vornehmen.</td> 
+   <td>Aktivieren Sie diese Option, wenn Sie bei der Verwendung des veralteten Kommentierungserlebnisses im Bereich Updates Ihrer Aufgaben eine prozentuale Leiste zum Abschluss anzeigen möchten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Versand der mir zugewiesenen Arbeit an meine Registerkarte "Arbeit am"]</strong> </td> 
@@ -406,7 +408,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
  </tbody> 
 </table>
 
-### [!UICONTROL Organisation]
+### [!UICONTROL Einrichtung]
 
 Diese Informationen werden normalerweise von der [!DNL Workfront] Administrator, wenn er Ihre [!DNL Workfront] -Konto. In diesem Abschnitt können Sie auch Informationen zu Ihrer Organisations- oder Organisationsstruktur aktualisieren. Nur Benutzer mit [!UICONTROL Plan] oder [!UICONTROL Systemadministrator] Die Zugriffsebene kann diesen Abschnitt bearbeiten. 
 
@@ -475,7 +477,7 @@ Verwenden Sie Folgendes in diesem Abschnitt:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) Wenn Sie eine oder mehrere andere Rollen ausgewählt haben, wird für jede Rolle das Feld [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] angezeigt.</strong></td> 
-   <td> <p>Geben Sie an, welcher Prozentsatz der geplanten Zeit den einzelnen Auftragsrollen zugewiesen wird. Der Standardwert für [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] für [!UICONTROL Sonstige Rollen] beträgt 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Notiz:  
+   <td> <p>Geben Sie an, welcher Prozentsatz der geplanten Zeit den einzelnen Auftragsrollen zugewiesen wird. Der Standardwert für [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] für [!UICONTROL Sonstige Rollen] beträgt 0 %.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Hinweis:  
      <ul> 
       <li>Wenn [!UICONTROL Sonstige Rollen] eine FTE-Verfügbarkeit von 0 % haben, werden sie nicht im [!UICONTROL Resource Planer] angezeigt, es sei denn, die Benutzer sind Aufgaben in diesen Rollen zugewiesen.</li> 
       <li> <p>Die Summe aller <strong>[!UICONTROL Prozentsatz der Verfügbarkeit von VZÄ]</strong> für alle Rollen muss 100 % entsprechen. Jeder [!UICONTROL Prozentsatz der FTE-Verfügbarkeit] berechnet die [!UICONTROL Verfügbaren Stunden] für jede Rolle pro Benutzer im [!UICONTROL Resource Planer]. </p> <p>Die [!UICONTROL Verfügbare Stunden] für jede Rolle pro Benutzer hängt von der für den Benutzer verfügbaren Zeit ab. Die verfügbare Zeit für den Benutzer wird berechnet durch [!DNL Workfront] abhängig von der Methode, die von der [!DNL Workfront] Administrator, um die FTE in den [!UICONTROL Voreinstellungen für die Ressourcenverwaltung] zu berechnen. Weitere Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer</a>. Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </li> 

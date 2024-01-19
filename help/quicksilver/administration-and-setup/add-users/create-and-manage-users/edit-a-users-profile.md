@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3381'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <p>Diese Option ist nur in den Umgebungen Vorschau und Sandbox verfügbar. E-Mail-Benachrichtigungen sind in der Produktionsumgebung standardmäßig aktiviert. </p>
       </li>
 
-   <li><b>Prozentualer Abschluss der Aktualisierung anzeigen</b>: Aktivieren Sie diese Option, wenn Sie im Bereich Aktualisieren der Aufgaben dieses Benutzers eine prozentuale Abschlussleiste anzeigen möchten.</li> 
+   <li><b>Prozentualer Abschluss der Aktualisierung anzeigen</b>: Aktivieren Sie diese Option, wenn Sie bei Verwendung des bisherigen Kommentierungserlebnisses im Bereich Aktualisieren der Aufgaben dieses Benutzers eine prozentuale Leiste zum Abschluss anzeigen möchten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.</li> 
        <li><b>Versand der Arbeit, die ich mir auf die Registerkarte "Arbeit an"zuweise</b>: Aktivieren Sie diese Option, wenn alles, was der Benutzer sich selbst zuweist, direkt in der Liste "Arbeiten auf"im Bereich "Startseite"angezeigt werden soll. Standardmäßig werden alle Elemente aufgelistet, die einem Benutzer in den Listen "Bereit zum Start"oder "Nicht bereit"im Bereich "Startseite"zugewiesen sind.</li> 
        <li><b>Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten</b>: Aktivieren Sie diese Option, wenn die vom Benutzer hochgeladenen Dokumente sofort einen Testversand erzeugen sollen. </li>
        </ul> </td> 
