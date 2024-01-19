@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 Um Client-Mängel oder Beschränkungen der Protokolllänge zu umgehen, kann der Methodenparameter verwendet werden, um das HTTP-Verhalten zu überschreiben. Beispielsweise kann ein GET-Vorgang durch Posten des folgenden URI implementiert werden:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
-### Antwort
+### Reaktion
 
 Jede Anfrage erhält eine Antwort im JSON-Format. Die Antwort verfügt entweder über ein Datenattribut, wenn die Anfrage erfolgreich war, oder über ein Fehlerattribut, wenn ein Problem aufgetreten ist. Beispielsweise die Anfrage
 
@@ -269,7 +269,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit der Workfront-API verwenden können.
 
-| **Modifikator** | **Beschreibung** | **Beispiel** |
+| **Modifier** | **Beschreibung** | **Beispiel** |
 |---|---|---|
 | eq | gibt Ergebnisse zurück, die sich im Status &quot;Geschlossen&quot;befinden | <pre>...status=cls&amp;status_Mod=eq..</pre> |
 | ne | gibt Ergebnisse zurück, die sich nicht im Status &quot;Geschlossen&quot;befinden | <pre>...status=cls&amp;status_Mod=ne..</pre> |
@@ -352,7 +352,7 @@ Standardmäßig werden nur der Name und die ID jeder Aufgabe zurückgegeben, es 
 
 Sie können benutzerdefinierte Datenfelder mit dem Präfix &quot;DE:&quot;abrufen. Um beispielsweise ein Projekt mit einem Parameter namens &quot;CustomText&quot;anzufordern, verwenden Sie die folgende Anfrage:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die
-<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld parameterValues anfordern. Beispiel, 
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld parameterValues anfordern. Beispiel: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>gibt ähnliche Daten wie die folgenden zurück:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ Sie können benutzerdefinierte Datenfelder mit dem Präfix &quot;DE:&quot;abrufe
 Einige Objektarten haben spezifische Suchen, die häufig ausgeführt werden und verfügbar sind, indem der Name der Abfrage an das Ende des URI des Objekttyps angehängt wird. Beispielsweise ruft die folgende Anfrage die Arbeitselemente (Aufgaben und Probleme) ab, denen der Benutzer derzeit zugewiesen ist:
 <pre>/attask/api/v15.0/work/myWork</pre>Named-Abfragen unterstützen das Anfordern des Feldparameters, um zusätzliche Felder abzurufen. Einige benannte Abfragen akzeptieren auch zusätzliche Filter. Eine Liste der zulässigen benannten Abfragen und Objekte finden Sie auf der Registerkarte Aktion für das Objekt im [API Explorer](../../wf-api/general/api-explorer.md).
 
-#### Verwenden des Filters &quot;Zählung&quot;
+#### Verwenden `Count`
 
-Sie können die Anzahl der Ergebnisse angeben, die von einer bestimmten Suche zurückgegeben werden sollen. Dadurch kann der Server die Anforderung schneller verarbeiten und Bandbreite sparen. Beispielsweise die Anfrage
+Sie können `count` um die Anzahl der Ergebnisse zurückzugeben, die Ihrer Abfrage entsprechen. Dies kann nützlich sein, wenn Sie die Daten in den Ergebnissen nicht benötigen. Wenn nur die Anzahl zurückgegeben wird, kann der Server die Anforderung schneller verarbeiten und Bandbreite sparen. Beispielsweise die Anfrage
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>gibt die Anzahl der Ergebnisse im folgenden Format zurück:
-<pre>{<br>    "count": 3 <br>}</pre>Das Ergebnis ist ein wesentlich kleinerer Download als wenn die vollständigen Objekte gesendet werden. Die Filtersyntax ist mit dem Suchbefehl identisch.
+<pre>{<br>    "count": 3 <br>}</pre>Die Rückgabe einer Zählung ist eine wesentlich kleinere Datenübertragung als bei der Rückgabe der vollständigen Objekte. Die Syntax ist mit dem Suchbefehl identisch.
 
 ### Anfordern eines Berichts
 
@@ -409,7 +409,7 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
   </tr> 
   <tr> 
    <td>Max. Anzahl an Ergebnissen</td> 
-   <td>2,000</td> 
+   <td>2.000</td> 
    <td>Der Abfragefilter (d. h. $$LIMIT) kann maximal 2000 Ergebnisse zurückgeben. Weitere Informationen finden Sie unter "Seitenbezogene Antworten".</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
   </tr> 
   <tr> 
    <td>Max. Anzahl von Objekten</td> 
-   <td>50,000</td> 
+   <td>50.000</td> 
    <td>Die Ergebnismenge darf nicht 50000 primäre und sekundäre Objekte enthalten.</td> 
   </tr> 
   <tr> 
    <td>Max. Anzahl Felder</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1.000.000</td> 
    <td>Wenn die Ergebnismenge weniger als 50.000 Objekte beträgt, können Ihre Ergebnisse maximal 1.000.000 Felder umfassen.</td> 
   </tr> 
   <tr> 
