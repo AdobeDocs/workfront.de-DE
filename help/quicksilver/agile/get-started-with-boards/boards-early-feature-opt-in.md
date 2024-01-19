@@ -7,25 +7,20 @@ description: Lesen Sie diesen Artikel , um mehr über die [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Vorabauswahl für Funktionen für [!DNL Adobe Workfront] [!UICONTROL Pinnwände]
 
-Pinnwände mit Ad-hoc- und vernetzten Karten stehen allen Benutzern zur Verfügung. Wir freuen uns, ab Juli 2022 zusätzliche Pinnwände für die frühzeitige Anmeldung mit Funktionen zu öffnen.
+Die frühe Funktion des Opt-ins für [!DNL Adobe Workfront] [!UICONTROL Pinnwände] wurde im Juli 2022 gestartet.
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten.
 
 Allgemeine Informationen zu Foren finden Sie unter [[!UICONTROL Pinnwände] Übersicht](/help/quicksilver/agile/boards-overview.md).
-
-## Veröffentlichungszeitplan
-
-* Start der Vorabregistrierung von Funktionen in der Vorschau: 22. Juli 2022
-* Offizielle Version: 28. Juli 2022
 
 ## Funktionen
 
@@ -138,8 +133,8 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
    <td>Veröffentlicht</td>
   </tr>
   <tr>
-   <td>Importieren von Unteraufgaben als Checklisten-Elemente auf Karten</td>
-   <td>Geplant</td>
+   <td>Importieren von Unteraufgaben auf Karten</td>
+   <td>Veröffentlicht</td>
   </tr>
   <tr>
    <td>Anzeige von Feldern auf einer Karte anpassen</td>
@@ -163,7 +158,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
   </tr>
   <tr>
    <td>Migrieren von alten Kanban-Karten zu Pinnwänden</td>
-   <td>Diese Funktion wird ab dem 18. Mai 2023 in der Produktion verfügbar sein und ist nicht Teil der frühzeitigen Funktion des Opt-ins.</td>
+   <td>Diese Funktion ist in der Produktion ab dem 18. Mai 2023 verfügbar und ist nicht Teil der ersten Funktion des Opt-ins.</td>
   </tr>
   <tr>
    <td>Dynamische Pinnwände erstellen</td>
@@ -198,7 +193,8 @@ Frühzeitige Funktionen für Pinnwände stehen allen Organisationen zur Verfügu
 
 Nur [!DNL Workfront] -Administratoren können sich für frühzeitige Funktionen für Pinnwände entscheiden. Wenn eine [!DNL Workfront] -Administrator aktiviert frühe Funktionen, sind alle Benutzer in der Organisation angemeldet.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
+{{step1-to-boards}}
+
 1. Klicks ![Vorabregistrierung von Funktionen](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Vorabregistrierung von Funktionen]) am oberen Rand des Dashboard-Bildschirms.
 1. Klicks **[!UICONTROL Aktivieren]**.
 1. Beginnen Sie mit der Verwendung der frühen Funktionen der Foren.
@@ -228,6 +224,7 @@ Die Variable [!DNL Workfront] -Administrator kann die Option &quot;Pinnwände&qu
 
 Nur [!DNL Workfront] -Administratoren können sich vom Empfang frühzeitiger Funktionen abmelden. Wenn eine [!DNL Workfront] -Administrator deaktiviert die frühen Funktionen, werden alle Benutzer in der Organisation abgemeldet.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
+{{step1-to-boards}}
+
 1. Klicks ![Vorabauswahl für Funktionen aktiviert](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Vorabauswahl für Funktionen aktiviert]) am oberen Rand des Dashboard-Bildschirms.
 1. Klicks **[!UICONTROL Deaktivieren]**.
