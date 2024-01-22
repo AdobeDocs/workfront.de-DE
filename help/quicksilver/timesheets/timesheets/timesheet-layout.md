@@ -7,9 +7,9 @@ description: In diesem Artikel wird das Layout von Timesheets in Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -121,9 +121,9 @@ Sie können mehrere Stundeneinträge für dasselbe Arbeitselement für verschied
 
 ![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-Im Abschnitt Updates im linken Bereich können Sie Kommentare zu einem Timesheet abgeben, um mit Ihren Timesheet-Genehmigern oder anderen Benutzern zu kommunizieren.
+Im Bereich Updates im linken Bereich des Timesheets können Sie Kommentare zu einem Timesheet abgeben, um mit Ihren Timesheet-Genehmigern oder anderen Benutzern zu kommunizieren.
 
-Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich am Ende des Zeitplans angezeigt. Dieser Bereich wird unter dem Timesheet und über der Fußzeile des Zeitblatts angezeigt. Weitere Informationen finden Sie unter [Anzeigen und Verwalten von Kommentaren auf einem Timesheet](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich angezeigt.
 
 ## Zusammenfassungsbereich
 

@@ -6,9 +6,9 @@ description: Benutzer können den Zugriff auf Objekte in Adobe Workfront anforde
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -93,19 +93,35 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
 
+1. (Bedingt) Führen Sie aus dem veralteten Home-Bereich folgende Schritte aus:
 
-1. Im **Arbeitsliste**, wählen Sie die Zugriffsanforderung aus, die Sie verwalten möchten.\
+   1. Im **Arbeitsliste**, wählen Sie die Zugriffsanforderung, die Sie verwalten möchten, im **Genehmigungen** Abschnitt.
+
    ![screen_shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
-1. Klicken Sie oben rechts auf die Schaltfläche Zugriff gewähren .\
-   Je nach Art des angeforderten Zugriffs ändert sich der Schaltflächenname. Wenn der Anfragende beispielsweise um Zugriff auf Ansicht bittet, lautet die Schaltfläche **Zugriff auf Ansicht gewähren**.\
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+   Die Anforderung wird rechts neben der Arbeitsliste angezeigt.
 
-1. (Optional) Um eine andere als die angeforderte Zugriffsstufe zu gewähren, klicken Sie auf den Pfeil neben der Schaltfläche &quot;Zugriff gewähren&quot;und wählen Sie den neuen Zugriff aus.\
-   Es wird eine Meldung angezeigt, in der bestätigt wird, dass der Zugriff gewährt wurde.\
-   ODER\
-   Klicken **Ignorieren** , um den Zugriff zu verweigern.\
-   Es wird eine Meldung angezeigt, die bestätigt, dass der Zugriff ignoriert wurde.
+   1. Klicken Sie oben rechts auf die Schaltfläche Zugriff gewähren .\
+      Je nach Art des angeforderten Zugriffs ändert sich der Schaltflächenname. Wenn der Anfragende beispielsweise um Zugriff auf Ansicht bittet, lautet die Schaltfläche **Zugriff auf Ansicht gewähren**.\
+      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+   1. (Optional) Um eine andere als die angeforderte Zugriffsstufe zu gewähren, klicken Sie auf den Pfeil neben der Schaltfläche &quot;Zugriff gewähren&quot;, wählen Sie den neuen Zugriff aus und klicken Sie auf **Gewähren &lt; Berechtigungsstufe > Zugriff >**.\
+      Es wird eine Meldung angezeigt, in der bestätigt wird, dass der Zugriff gewährt wurde.
+
+   1. (Optional) Klicken Sie auf **Ignorieren** , um den Zugriff zu verweigern.\
+      Es wird eine Meldung angezeigt, die bestätigt, dass der Zugriff ignoriert wurde.
+
+1. (Bedingt) Führen Sie im neuen Startbereich folgende Schritte aus:
+
+   1. Navigieren Sie zu **Erwartung der Genehmigung** Widget und suchen Sie die Anforderung für weiteren Zugriff und klicken Sie dann auf **Zugriff gewähren**.
+
+      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+
+   1. (Optional) Um eine andere als die angeforderte Zugriffsebene zu gewähren, klicken Sie auf das Dropdown-Menü links neben der Schaltfläche Zugriff gewähren und wählen Sie den neuen Zugriff aus. Klicken Sie dann auf **Zugriff gewähren**.
+
+      Die Zugriffsanfrage wird gewährt und aus der Liste der Genehmigungsanfragen verschwindet.
+
+   1. (Optional) Klicken Sie auf **Ignorieren** , um den Zugriff zu verweigern. Die Zugriffsanfrage wird nicht gewährt und die Anfrage wird aus der Liste der Genehmigungsanfragen entfernt.
 
 ## E-Mail-Benachrichtigungen für Anforderungen konfigurieren
 
@@ -113,7 +129,7 @@ Sie können konfigurieren, ob Sie E-Mail-Benachrichtigungen für Zugriffsanfrage
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Voreinstellungen** oder scrollen Sie zum Abschnitt Voreinstellungen .
+1. Klicks **Voreinstellungen** oder scrollen Sie zum Abschnitt Voreinstellungen .
 1. Im **E-Mail-Adresse** Dropdown-Liste auswählen oder deren Auswahl aufheben **Jemand bittet um Zugriff von mir**, je nachdem, ob Sie E-Mail-Benachrichtigungen erhalten möchten, wenn ein anderer Benutzer von Ihnen den Zugriff anfordert oder nicht.
 
-1. Klicken **Änderungen speichern**.
+1. Klicks **Änderungen speichern**.

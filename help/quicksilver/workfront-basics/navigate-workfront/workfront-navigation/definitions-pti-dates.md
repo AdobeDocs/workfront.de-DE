@@ -5,9 +5,9 @@ title: Übersicht über die Projekt-, Aufgaben- und Problemdaten in [!DNL Adobe 
 description: Übersicht über die Projekt-, Aufgaben- und Problemdaten in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Sie können manuell angeben, wann die Arbeit an einer Aufgabe, einem Problem ode
 * Der Projekt-, Aufgaben- oder Problemstatus ändert sich in [!UICONTROL Fertig], [!UICONTROL Geschlossen]oder [!UICONTROL Gelöst].
 * Der prozentuale Abschluss der Aufgabe bzw. des Projekts beträgt 100 %.
 
-Die [!UICONTROL Tatsächliches Abschlussdatum] eines Projekts entspricht dem Datum, an dem die erste Aufgabe im Projekt abgeschlossen ist.
+Die [!UICONTROL Tatsächliches Abschlussdatum] eines Projekts entspricht dem Datum, an dem Sie die letzte Aufgabe im Projekt abgeschlossen haben.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ Die [!UICONTROL Datum der Übermittlung] ist das Datum, bis zu dem ein Benutzer,
 >
 >Ändern der [!UICONTROL Datum der Übermittlung] betrifft die [!UICONTROL Voraussichtlicher Abschluss] aber nicht [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems. Der Projektmanager kann die Änderungen verwenden, die ein Verantwortlicher an der [!UICONTROL Datum der Übermittlung] , um die [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Projiziertes Startdatum]
 
 Die [!UICONTROL Projiziertes Startdatum] ist ein Echtzeit-Datum, an dem das Projekt, die Aufgabe oder die Ausgabe erfolgt und alle Verzögerungen berücksichtigt werden. Dies ist ein genaueres Startdatum für das Projekt, die Aufgabe oder das Problem als das [!UICONTROL Geplantes Startdatum]. Die [!UICONTROL Geplantes Startdatum] berücksichtigt keine Verzögerungen oder vergangene Daten.
@@ -132,7 +128,7 @@ Weitere Informationen finden Sie unter [Überblick über das Projekt [!UICONTROL
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL geplantes Abschlussdatum]
+## [!UICONTROL Voraussichtlicher Abschluss]
 
 Die [!UICONTROL Voraussichtlicher Abschluss] ist ein berechneter Echtzeitindikator dafür, wann das Projekt, die Aufgabe oder das Problem abgeschlossen sein wird. Wenn das Projekt, die Aufgabe oder das Problem als abgeschlossen markiert ist, wird die [!UICONTROL Voraussichtlicher Abschluss] Änderungen am Datum der [!UICONTROL Tatsächliches Abschlussdatum].
 
@@ -146,24 +142,28 @@ Weitere Informationen finden Sie unter [Übersicht über die [!UICONTROL Vorauss
 
 Wenn Sie die Zeit für Projekte, Aufgaben und Probleme protokollieren, um anzugeben, wie viel Zeit (in Stunden) Sie mit der Arbeit an dem Projekt, der Aufgabe oder dem Problem verbringen, wird die Zeit für die Protokollierung zur [!UICONTROL Tatsächliche Stunden] des Projekts, der Aufgabe oder des Problems.
 
-Das Datum, an dem Sie die Uhrzeit protokollieren, ist die [!UICONTROL Stündlicher Eingangsdatum] auf dem Stundeneintrag.
+Das Datum, an dem Sie die Uhrzeit protokollieren, ist die [!UICONTROL Stündlicher Eingangsdatum] auf dem Stundeneintrag. In einigen Stundenlisten und Berichten wird das stündliche Einstiegsdatum als Datum angezeigt.
 
 >[!TIP]
 >
 >Die [!UICONTROL Stündlicher Eingangsdatum] unterscheidet sich vom [!UICONTROL Datum der Einsendung] nicht das Datum, an dem das Stundenprotokoll erstellt wurde, sondern das Datum, mit dem Stunden verknüpft werden sollen.
 
-Sie können die Zeit in der [!UICONTROL Projekt], [!UICONTROL Aufgabe]oder [!UICONTROL Problemaktualisierungen] oder im Abschnitt [!UICONTROL Stunden] Abschnitt . Beim Protokollieren der Zeit in [!UICONTROL Stunden] -Abschnitt können Sie manuell das Einstiegsdatum und den Benutzer, zu dem die Stunden gehören, angeben.
+Sie können die Zeit in den folgenden Bereichen von Workfront protokollieren und anzeigen:
 
-Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Protokoll- und Anzeigezeit in [!UICONTROL Projekt], [!UICONTROL Aufgabe]oder [!UICONTROL Problemaktualisierungen] oder im Abschnitt [!UICONTROL Stunden] Abschnitt. Beim Protokollieren der Zeit in [!UICONTROL Stunden] -Abschnitt können Sie manuell das Einstiegsdatum und den Benutzer, zu dem die Stunden gehören, angeben.
 
->[!TIP]
->
->Es wird empfohlen, keine übergeordneten Aufgaben oder Projekte mehr mit Arbeitsaufgaben und Problemen zu protokollieren. Die bei den Arbeitsaufgaben angemeldete Zeit wird zu den übergeordneten Aufgaben und dem Projekt als [!UICONTROL Tatsächliche Stunden] für die übergeordneten Aufgaben und das Projekt. Die bei Problemen angemeldete Zeit wird als [!UICONTROL Tatsächliche Stunden] für das Projekt.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Es wird empfohlen, keine übergeordneten Aufgaben oder Projekte mehr mit Arbeitsaufgaben und Problemen zu protokollieren. Die bei den Arbeitsaufgaben angemeldete Zeit wird zu den übergeordneten Aufgaben und dem Projekt als [!UICONTROL Tatsächliche Stunden] für die übergeordneten Aufgaben und das Projekt. Die bei Problemen angemeldete Zeit wird als [!UICONTROL Tatsächliche Stunden] für das Projekt.
 
-Sie können die [!UICONTROL Stündliche Eintrittstage] in Stunden-Berichten und -Listen.
+* Protokollieren der Zeit im Aktualisierungsstream einer Aufgabe oder eines Problems.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Anzeigen der [!UICONTROL Stündliche Eintrittstage] in Stunden-Berichten und -Listen.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)
