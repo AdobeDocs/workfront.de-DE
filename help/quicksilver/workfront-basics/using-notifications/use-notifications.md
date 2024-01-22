@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Benachrichtigungen verwenden
+title: "Benachrichtigungen verwenden: Artikelindex"
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Benachrichtigungen in Adobe Workfront verwenden.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# Benachrichtigungen verwenden
+# Benachrichtigungen verwenden: Artikelindex
+
+[!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-Benachrichtigungen, um Sie über Aktivitäten in zu informieren [!DNL Workfront].
+
+<!-- Audited: 01/2024 -->
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
