@@ -4,22 +4,24 @@ product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
 title: Benutzer für Single Sign-on aktualisieren
 description: Sie können Benutzer für Single Sign-on in Workfront aktualisieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 2cbdd0cb065dee01ad128d782334a55233c13156
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 # Benutzer für Single Sign-on aktualisieren
 
+<!-- Audited: 1/2024 -->
+
 {{important-admin-console-onboard}}
 
-Wenn Single Sign-on (SSO) in Ihrer Adobe Workfront-Instanz aktiviert ist, können Sie sich mit Ihren SSO-Anmeldeinformationen bei Workfront anmelden.
+Wenn Single Sign-on (SSO) in Ihrer Adobe Workfront-Instanz aktiviert ist, können sich Ihre Benutzer mit ihren SSO-Anmeldeinformationen bei Workfront anmelden.
 
 Wenn Sie über ein vorhandenes System verfügen, das bereits mit Benutzern gefüllt ist, die SSO-Anmeldeinformationen zugeordnet sind, können Sie die IDs der Benutzer in Workfront importieren, indem Sie eine Datei mit kommagetrennten Werten (CSV) in Workfront importieren.
 
@@ -36,18 +38,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## SSO-Benutzernamen
 
@@ -57,11 +61,16 @@ Je nachdem, welche SSO-Lösung Sie verwenden, kann der Benutzername in Ihrer SSO
 * Federation-ID
 * Federation Username
 
-In Workfront werden alle diese Namen im Feld SSO-Benutzername im Benutzerobjekt gespeichert.
+Unabhängig davon, wie der Benutzername in Ihrer SSO-Umgebung aufgerufen wird, wird der Wert des Felds im Feld SSO-Benutzername im Objekt Benutzer gespeichert.
 
 Damit sich Ihre Benutzer mit ihren SSO-Anmeldeinformationen bei Workfront anmelden können, müssen Sie ihr Profil so aktualisieren, dass neben ihrem Workfront-Benutzernamen auch ihr SSO-Benutzername angegeben wird.
 
-Als Workfront-Administrator können Sie das Feld &quot;SSO-Benutzername&quot;für Ihre Workfront-Benutzer stapelweise aktualisieren, indem Sie eine Liste mit Benutzernamen verwenden und es in Workfront importieren. Diese Liste muss die Workfront User ID (GUID) sowie den entsprechenden SSO-Benutzernamen für jeden Benutzer enthalten und als CSV- oder TSV-Datei gespeichert werden. Dieser Prozess aktualisiert entweder vorhandene SSO-Benutzernamen in Workfront oder fügt einen neuen SSO-Benutzernamen hinzu, wenn dieser für Benutzer fehlt.
+Als Workfront-Administrator können Sie das Feld SSO-Benutzername für Ihre Workfront-Benutzer stapelweise aktualisieren, indem Sie eine Liste von Benutzernamen in Workfront importieren. Diese Liste muss
+
+* Enthält die Workfront User ID (GUID) sowie den entsprechenden SSO-Benutzernamen für jeden Benutzer
+* Als CSV- oder TSV-Datei speichern.
+
+Dieser Prozess aktualisiert entweder vorhandene SSO-Benutzernamen in Workfront oder fügt einen neuen SSO-Benutzernamen hinzu, wenn dieser für Benutzer fehlt.
 
 ## Importdatei vorbereiten {#prepare-the-import-file}
 
@@ -73,32 +82,33 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
 
 1. Wählen Sie die folgenden Felder in Ihrem Bericht aus:
 
-   | Name | Der vollständige Name des Workfront-Benutzers. |
+   | Feld | Erklärung |
    |---|---|
+   | Name | Der vollständige Name des Workfront-Benutzers. |
    | ID | Die ID ist die alphanumerische Workfront-GUID. |
-   | SSO-Benutzername | Wählen Sie das Feld SSO-Benutzername aus, um sicherzustellen, dass Sie bei Ihrem Import keine Benutzernamen überschreiben. Dieses Feld sollte für alle Benutzer leer sein, wenn Ihre Benutzer noch nicht für SSO aktualisiert wurden. |
+   | SSO-Benutzername | Das Feld SSO-Benutzername wird hinzugefügt, um sicherzustellen, dass Sie bei Ihrem Import keine Benutzernamen überschreiben. Dieses Feld sollte für alle Benutzer leer sein, wenn Ihre Benutzer noch nicht für SSO aktualisiert wurden. |
 
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Speichern Sie den Bericht.
-1. Klicken **Export** am oberen Rand des Berichts klicken und den Bericht nach Excel exportieren.
-1. Öffnen Sie die exportierte Excel-Datei und fügen Sie in der Spalte &quot;SSO-Benutzername&quot;für jeden Benutzer im Bericht Ihre SSO-Benutzernamen hinzu.
+1. Klicks **Export** oben im Bericht und exportieren Sie den Bericht nach Excel.
+1. Öffnen Sie die exportierte Excel-Datei und fügen Sie in der Spalte SSO-Benutzername Ihre SSO-Benutzernamen für jeden Benutzer in den Bericht ein.
 
    >[!IMPORTANT]
    >
    >Bei SSO-Benutzernamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Alle Spalten in der Excel-Datei mit Ausnahme der **ID** und **SSO-Benutzername** Spalten.
+1. Löschen Sie alle Spalten in der Excel-Datei mit Ausnahme der **ID** und **SSO-Benutzername** Spalten.
 
 1. Löschen Sie die Spaltenüberschriften und stellen Sie sicher, dass oben im Bericht keine leeren Zeilen vorhanden sind.
 
-   Die Datei, die Sie zum Aktualisieren Ihrer Workfront-Benutzer mit den SSO-Benutzernamen verwenden, muss nur 2 Spalten in dieser Reihenfolge enthalten:
+   Die Datei, die Sie zum Aktualisieren Ihrer Workfront-Benutzer mit den SSO-Benutzernamen verwenden **must** enthalten nur 2 Spalten in der folgenden Reihenfolge:
 
-   * In der ersten Spalte sollte die Workfront-Benutzer-ID (die Benutzer-GUID, wie in Workfront zu finden) angezeigt werden.
-   * Die zweite Spalte sollte den SSO-Benutzernamen enthalten, wie er in Ihrem SSO-System angezeigt wird.
-   * Die Spalten sollten keine Kopfzeilen enthalten, und oben in der Namensliste dürfen keine leeren Zeilen stehen.
+   * In der ersten Spalte muss die Workfront-Benutzer-ID (die Benutzer-GUID, wie in Workfront zu finden) angezeigt werden.
+   * Die zweite Spalte muss den SSO-Benutzernamen enthalten, wie er in Ihrem SSO-System angezeigt wird.
+   * Die Spalten dürfen keine Kopfzeilen enthalten und dürfen oben in der Namensliste keine leeren Zeilen stehen.
 
-      ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Speichern Sie den Bericht als CSV- oder TSV-Datei auf Ihrem Computer.
 
@@ -106,21 +116,21 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
 
 Durch die Aktualisierung von Benutzern für SSO wird das Feld SSO-Benutzername entweder zu Ihren Workfront-Benutzern hinzugefügt, wenn kein Benutzer vorhanden ist, oder der Wert in diesem Feld aktualisiert, wenn bereits ein mit den Benutzern verknüpfter Wert vorhanden ist.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** then **Benutzer für SSO aktualisieren**.
+1. Klicken Sie auf **System** und wählen Sie **Benutzer für SSO aktualisieren**.
 
-1. Klicken **Datei auswählen** um nach der von Ihnen vorbereiteten Datei zu suchen.
+1. Klicks **Datei auswählen** um nach der von Ihnen vorbereiteten Datei zu suchen.
 
    Weitere Informationen zum Vorbereiten dieser Datei finden Sie unter [Importdatei vorbereiten](#prepare-the-import-file).
 
 1. Wählen Sie die Datei aus, in der sie auf Ihrem Computer gespeichert ist, und klicken Sie dann auf **Öffnen**.
 
-   Dadurch können sich alle Benutzer mit ihren SSO-Anmeldeinformationen bei Workfront anmelden.
+   Dadurch werden die SSO-Anmeldeinformationen in Workfront eingefügt, sodass sich alle Benutzer mit ihren SSO-Anmeldeinformationen bei Workfront anmelden können.
 
-   Die **Nur erlauben `<SSO Configuration>` Authentifizierung** ist für alle Benutzer aktiviert, die in der CSV-Datei enthalten sind.
+   Die **Nur erlauben `<SSO Configuration>` Authentifizierung** ist für alle Benutzer aktiviert, die in der CSV-Datei enthalten sind. Dadurch wird sichergestellt, dass sich Benutzer über SSO anmelden müssen.
 
-## Überprüfen Sie die SSO der Workfront-Benutzernamen Ihrer Benutzer.
+## SSO anhand der Workfront-Benutzernamen Ihrer Benutzer überprüfen
 
 Anweisungen zum Erstellen eines Benutzerberichts mit Informationen zu SSO-Benutzernamen finden Sie unter [Importdatei vorbereiten](#prepare-the-import-file).
 
