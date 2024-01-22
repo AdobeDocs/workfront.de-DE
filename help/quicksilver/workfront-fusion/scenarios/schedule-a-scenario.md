@@ -7,27 +7,27 @@ description: Standardmäßig wird ein Szenario alle 15 Minuten ausgeführt. Sie 
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 # Planen eines Szenarios in [!DNL Adobe Workfront Fusion]
 
-Standardmäßig wird ein Szenario alle 15 Minuten ausgeführt. Sie können dies ändern, indem Sie festlegen, wann und wie oft ein aktiviertes Szenario ausgeführt wird.
+Standardmäßig wird ein Szenario alle 15 Minuten ausgeführt. Sie können dies ändern, indem Sie festlegen, wann und wie oft ein aktiviertes Szenario ausgeführt wird. Fusionsszenarien können so oft wie alle 5 Minuten ausgeführt werden.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">   
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -35,18 +35,18 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>    </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -58,11 +58,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Planen eines Szenarios
 
-1. Klicken Sie in der rechten oberen Ecke der Detailseite &quot;Szenario&quot;auf **[!UICONTROL Optionen]** > **[!UICONTROL Planung]**
+1. Klicken Sie oben rechts auf der Detailseite &quot;Szenario&quot;auf **[!UICONTROL Optionen]** > **[!UICONTROL Planung]**
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Planung]** -Symbol (Uhr) auf dem Trigger-Modul des Szenarios angezeigt.
+   Klicken Sie auf **[!UICONTROL Planung]** Symbol (Uhr) auf dem Trigger-Modul des Szenarios.
 
 1. Geben Sie Informationen in die folgenden Felder ein:
 
@@ -80,7 +80,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
         <li> <p><strong>[!UICONTROL Wochentage]</strong> </p> <p>Tage: Wählen Sie die Wochentage aus, an denen das Szenario ausgeführt werden soll. Sie können einen oder mehrere Tage auswählen.</p> <p>Zeit: Geben Sie die Zeit ein, zu der das Szenario an den ausgewählten Tagen ausgeführt werden soll. Format verwenden <code>h:mm A</code>. Beispiel: <code>11:00 PM</code></p> </li> 
         <li> <p><strong>[!UICONTROL Tage des Monats]</strong> </p> <p>Tage: Wählen Sie die Tage des Monats aus, an denen das Szenario ausgeführt werden soll. Sie können einen oder mehrere Tage auswählen.</p> <p>Zeit: Geben Sie die Zeit ein, zu der das Szenario an den ausgewählten Tagen ausgeführt werden soll. Format verwenden <code>h:mm A</code>. Beispiel: <code>11:00 PM</code></p> </li> 
         <li> <p><strong>[!UICONTROL Festgelegte Datumswerte]</strong> </p> <p>Monate: Wählen Sie die Monate aus, in denen das Szenario ausgeführt werden soll. Sie können einen oder mehrere Monate auswählen.</p> <p>Tage: Wählen Sie die Tage des Monats aus, an denen das Szenario ausgeführt werden soll. Sie können einen oder mehrere Tage auswählen.</p> <p>Zeit: Geben Sie die Zeit ein, zu der das Szenario an den ausgewählten Tagen ausgeführt werden soll. Format verwenden <code>h:mm A</code>. Beispiel: <code>11:00 PM</code></p> </li> 
-       </ul> <p>Hinweis: Damit ein Szenario an diesem Datum ausgeführt werden kann, muss ein Datum vorhanden sein. Beispielsweise wird ein Szenario, das nur für den 31. des Monats geplant ist, nicht im Februar, April, Juni, September oder November ausgeführt, da diese Monate keinen 31. Tag haben.</p> </td> 
+       </ul> <p>Hinweis: Ein Datum muss vorhanden sein, damit ein Szenario an diesem Datum ausgeführt werden kann. Beispielsweise wird ein Szenario, das nur für den 31. des Monats geplant ist, nicht im Februar, April, Juni, September oder November ausgeführt, da diese Monate keinen 31. Tag haben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Erweiterte Planung]</td> 
@@ -97,4 +97,4 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL OK]** , um die Zeitplaneinstellungen zu speichern und zum Szenario zurückzukehren.
+1. Klicks **[!UICONTROL OK]** , um die Zeitplaneinstellungen zu speichern und zum Szenario zurückzukehren.
