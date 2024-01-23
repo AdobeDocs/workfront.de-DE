@@ -7,9 +7,9 @@ description: In diesem Artikel werden die Einstellungen beschrieben, die im [!UI
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -33,19 +33,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -71,6 +71,12 @@ Diese Option bestimmt, wie [!DNL Adobe Workfront Fusion] wird fortgesetzt, wenn 
 ## [!UICONTROL Sequenzielle Verarbeitung]
 
 Diese Option bestimmt, wie [!DNL Workfront Fusion] wird fortgesetzt, wenn ein Fehler auftritt und die Ausführung eines Szenarios an die [Unvollständige Ausführungen anzeigen und auflösen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Wenn die Variable [!UICONTROL Sequenzielle Verarbeitung] aktiviert ist, stoppt Workfront Fusion die Verarbeitung der Aufgabensequenz, bis alle unvollständigen Ausführungen abgeschlossen sind. Wenn die Variable [!UICONTROL Sequenzielle Verarbeitung] deaktiviert ist, wird das Szenario weiterhin gemäß seinem Zeitplan ausgeführt und es werden wiederholt Versuche unternommen, die unvollständigen Ausführungen erneut auszuführen.
+
+>[!NOTE]
+>
+>Die sequenzielle Verarbeitung kann die Ausführung eines Szenarios verzögern. Wenn sich noch unvollständige Ausführungen in der Warteschlange befinden, wenn ein Sofortszenario oder ein geplantes Szenario zur Ausführung bestimmt ist, wird dieses Szenario ausgeführt, nachdem alle Ausführungen abgeschlossen sind, bevor es in der Warteschlange ausgeführt wurde.
+>
+>Wenn der Anwendungsfall für Ihre Szenarien keine sequenzielle Verarbeitung erfordert, empfehlen wir, die Option für die sequenzielle Verarbeitung zu deaktivieren.
 
 Weitere Informationen zur Planung finden Sie unter [Planen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
@@ -102,7 +108,7 @@ Weitere Informationen zu Transaktionen finden Sie unter [Ausführung des Szenari
 
 ## Höchstzahl der Zyklen
 
-Das Festlegen weiterer Zyklen kann nützlich sein, wenn Sie eine Unterbrechung der Verbindung zu einem Drittanbieterdienst verhindern und sicherstellen möchten, dass alle Datensätze innerhalb eines Szenarios verarbeitet werden.
+Das Festlegen weiterer Zyklen kann nützlich sein, wenn Sie eine Unterbrechung der Verbindung zu einem Drittanbieterdienst verhindern und sicherstellen möchten, dass alle Datensätze innerhalb des einen Szenario verarbeitet werden.
 
 * Beginnt das Szenario mit einem Abrufintereignis, wird in der Einstellung die maximale Anzahl von Triggern definiert, die während der Ausführung des Szenarios zulässig sind.
 
@@ -120,9 +126,9 @@ Das Festlegen weiterer Zyklen kann nützlich sein, wenn Sie eine Unterbrechung d
 >
 >![](assets/scenario-settings-ex-1-350x157.png)
 >
->A [!UICONTROL mehr Zyklen] wird nur angewendet, wenn Sie die Ausführung des Szenarios planen. Wenn Sie [!UICONTROL Einmal ausführen] -Schaltfläche, werden die Zykluseinstellungen berücksichtigt.
+>A [!UICONTROL mehr Zyklen] wird nur angewendet, wenn Sie die Ausführung des Szenarios planen. Wenn Sie [!UICONTROL Einmal ausführen] -Schaltfläche verwenden, werden die Zykluseinstellungen berücksichtigt.
 >
->### Die maximale Anzahl von Zyklen ist auf 1 gesetzt (Standard)
+>### Die maximale Anzahl von Zyklen ist auf 1 gesetzt (Standard).
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
@@ -136,7 +142,7 @@ Das Festlegen weiterer Zyklen kann nützlich sein, wenn Sie eine Unterbrechung d
 >
 >Die [!UICONTROL Maximale Anzahl an zurückgegebenen Dateien] im [!UICONTROL Dropbox] >[!UICONTROL Dateien überwachen] -Modul auf `10`.
 >
->Wenn 100 Dateien zum Ordner &quot;Dropbox&quot;hinzugefügt werden und die [!UICONTROL Maximale Anzahl an zurückgegebenen Dateien] auf 10 gesetzt ist, werden im ersten Zyklus 10 Dateien verarbeitet, im nächsten Zyklus 10 Dateien, im zweiten Zyklus die nächsten 10 Dateien im dritten Zyklus usw., bis alle Dateien verarbeitet werden.
+>Wenn 100 Dateien zum Ordner Dropbox hinzugefügt werden und die [!UICONTROL Maximale Anzahl an zurückgegebenen Dateien] auf 10 gesetzt ist, werden dann 10 Dateien während des ersten Zyklus, die nächsten 10 Dateien im zweiten Zyklus, die nächsten 10 Dateien im dritten Zyklus usw. verarbeitet, bis alle Dateien verarbeitet werden.
 >
 >Alle Dateien werden innerhalb eines Szenarios verarbeitet.
 >
