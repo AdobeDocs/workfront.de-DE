@@ -9,27 +9,31 @@ description: Die [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
 
-# [!DNL Frame.io]-Module
+# [!DNL Frame.io] Module
 
 Die [!DNL Adobe Workfront Fusion] [!DNL Frame.io] -Module ermöglichen es Ihnen, Assets und Kommentare in Ihrer [!DNL Frame.io] -Konto.
 
+Eine Videoeinführung zum Frame.io-Connector finden Sie unter:
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,17 +43,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +69,7 @@ Verwendung [!DNL Frame.io] -Module, müssen Sie über eine [!DNL Frame.io] accou
 
 ## Verbinden [!DNL Frame.io] nach [!UICONTROL Adobe Workfront Fusion]
 
-Sie können eine Verbindung zu [!DNL Frame.io] Verwendung eines API-Tokens oder Verwendung von OAuth 2.0.
+Sie können eine Verbindung zu [!DNL Frame.io] API-Token oder OAuth 2.0 verwenden.
 
 [Verbinden mit [!DNL Frame.io] Verwenden eines API-Tokens](#connect-to-frameio-using-an-api-token)
 
@@ -73,15 +77,15 @@ Sie können eine Verbindung zu [!DNL Frame.io] Verwendung eines API-Tokens oder 
 
 ### Verbinden mit [!DNL Frame.io] Verwenden eines API-Tokens
 
-Um eine Verbindung herzustellen [!DNL Frame.io] Konto [!DNL Workfront Fusion] mithilfe eines API-Tokens müssen Sie das API-Token in Ihrer [!DNL Frame.io] -Konto und fügen Sie es in die [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Verbindung erstellen] angezeigt.
+Um eine Verbindung herzustellen [!DNL Frame.io] -Konto [!DNL Workfront Fusion] mithilfe eines API-Tokens müssen Sie das API-Token in Ihrer [!DNL Frame.io] -Konto und fügen Sie es in die [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Verbindung erstellen] angezeigt.
 
 1. Melden Sie sich bei Ihrer [!DNL Frame.io] -Konto.
 1. Navigieren Sie zu **[!UICONTROL Token]** in der [!DNL Frame.io] Entwickler.
-1. Klicken **[!UICONTROL Neu]**.
-1. Geben Sie den Namen des Tokens ein, wählen Sie die zu verwendenden Bereiche aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicks **[!UICONTROL Neu]**.
+1. Geben Sie den Namen des Tokens ein, wählen Sie die gewünschten Bereiche aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Kopieren Sie das bereitgestellte Token.
-1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie die [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
-1. Im **[!UICONTROL Verbindungstyp]** Feld, wählen Sie **[!DNL Frame.io]**.
+1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
+1. Im **[!UICONTROL Verbindungstyp]** Feld auswählen **[!DNL Frame.io]**.
 1. Geben Sie das Token ein, das Sie in Schritt 5 in die **[!UICONTROL Ihre [!DNL Frame.io] API-Schlüssel]** Feld und klicken Sie auf **[!UICONTROL Weiter]** um die Verbindung herzustellen.
 
 Die Verbindung wurde hergestellt. Sie können mit der Einrichtung des Moduls fortfahren.
@@ -95,10 +99,10 @@ Sie können eine Verbindung zu [!DNL Frame.io] Verwendung von OAuth 2.0 PKCE mit
 
 #### Verbinden mit [!DNL Frame.io] Verwendung von OAuth 2.0 PKCE (ohne Client-ID)
 
-1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie die [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
-1. Im **[!UICONTROL Verbindungstyp]** Feld, wählen Sie **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
+1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
+1. Im **[!UICONTROL Verbindungstyp]** Feld auswählen **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
 1. Geben Sie einen Namen für die neue Verbindung im **[!UICONTROL Verbindungsname]** -Feld.
-1. Klicken **[!UICONTROL Weiter]** um die Verbindung herzustellen.
+1. Klicks **[!UICONTROL Weiter]** um die Verbindung herzustellen.
 
 Die Verbindung wurde hergestellt. Sie können mit der Einrichtung des Moduls fortfahren.
 
@@ -120,12 +124,12 @@ Die Verbindung wurde hergestellt. Sie können mit der Einrichtung des Moduls for
 
 
 1. Kopieren Sie die bereitgestellte `client_id`.
-1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie die [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
-1. Im **[!UICONTROL Verbindungstyp]** Feld, wählen Sie **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
+1. Navigieren Sie zu [!DNL Workfront Fusion] und öffnen Sie [!DNL Frame.io] -Modul **[!UICONTROL Verbindung erstellen]** angezeigt.
+1. Im **[!UICONTROL Verbindungstyp]** Feld auswählen **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
 1. Geben Sie einen Namen für die neue Verbindung im **[!UICONTROL Verbindungsname]** -Feld.
-1. Klicken **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
+1. Klicks **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
 1. Geben Sie die `client_id` Sie haben in Schritt 2 zum **[!UICONTROL Client-ID]** -Feld.
-1. Klicken **[!UICONTROL Weiter]** um die Verbindung herzustellen.
+1. Klicks **[!UICONTROL Weiter]** um die Verbindung herzustellen.
 
 Die Verbindung wurde hergestellt. Sie können mit der Einrichtung des Moduls fortfahren.
 
@@ -228,7 +232,7 @@ Dieses Aktionsmodul löscht ein bestimmtes Asset.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ordner-ID] </td> 
-   <td> <p>Wählen Sie den Ordner aus, der das Asset enthält, das Sie löschen möchten</p> </td> 
+   <td> <p>Wählen Sie den Ordner aus, der das zu löschende Asset enthält</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset-ID] </td> 
@@ -643,7 +647,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein neuer Kommentar oder eine ne
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name] </td> 
-   <td> <p>Geben Sie den Namen des Webhooks ein, z. B. neuen Kommentar.</p> </td> 
+   <td> <p>Geben Sie den Namen des Webhooks ein, z. B. Neuer Kommentar.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Verbindung] </td> 
@@ -713,7 +717,7 @@ Mit diesem Modul können Sie einen benutzerdefinierten API-Aufruf ausführen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -9,16 +9,20 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2068'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo]-Module
+# [!DNL Marketo] Module
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Marketo], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+
+Eine Videoeinführung zum Marketo-Connector finden Sie unter:
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,14 +30,14 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,17 +47,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,12 +73,12 @@ Verwendung [!DNL Marketo] -Module, müssen Sie über eine [!DNL Marketo] -Konto.
 
 ## Verbinden [!DNL Marketo] zu Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
-Sie können eine Verbindung zu Ihrem [!DNL Marketo] direkt von innen aus [!DNL Marketo] -Modul.
+Sie können eine Verbindung zu Ihrem [!DNL Marketo] direkt von innen [!DNL Marketo] -Modul.
 
 1. In jeder [!DNL Marketo] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] -Feld.
 1. Geben Sie Ihre [!DNL Marketo] Konto oder [!DNL Marketo] [!UICONTROL Munchkin] Kennung. Dies ist der eindeutige Teil der Basis-URL oder des Endpunkts, der Ihrem Konto zugewiesen ist und über den Sie auf [!DNL Marketo] über [!UICONTROL REST] API. Anweisungen zum Auffinden finden Sie unter [Basis-URL](https://developers.marketo.com/rest-api/base-url/) im [!DNL Marketo] Dokumentation.
 1. Geben Sie Ihre [!UICONTROL Client-ID] und [!UICONTROL Client-Geheimschlüssel]. Anweisungen zur Lokalisierung finden Sie unter [Authentifizierung](https://developers.marketo.com/rest-api/authentication/) im [!DNL Marketo] Dokumentation.
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 ## [!DNL Marketo] Module und ihre Felder
 
@@ -103,14 +107,14 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz erstellt oder aktu
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Wählen Sie den Typ des Datensatzes aus, den Sie erstellen möchten.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Aktivität]</strong> </p> <p>Wählen Sie den Aktivitätstyp aus, den Sie sehen möchten. </p> <p>Das Modul überwacht nur auf neue Aktivitäten.<br></p> </li> 
-     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Wählen Sie aus, ob Sie nach neuen, aktualisierten Datensätzen, neuen und aktualisierten Datensätzen oder spezifischen Feldaktualisierungen suchen möchten. Wenn Sie bestimmte Feldaktualisierungen anzeigen möchten, wählen Sie das Feld aus, das das Modul überwachen soll.</p> </li> 
+     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Wählen Sie aus, ob Sie nach neuen Datensätzen, aktualisierten Datensätzen, neuen und aktualisierten Datensätzen oder spezifischen Feldaktualisierungen suchen möchten. Wenn Sie bestimmte Feldaktualisierungen anzeigen möchten, wählen Sie das Feld aus, das das Modul überwachen soll.</p> </li> 
      <li> <p><strong>[!UICONTROL Programm]</strong> </p> <p>Wählen Sie aus, ob Sie nach neuen, aktualisierten oder sowohl neuen als auch aktualisierten Datensätzen suchen möchten.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -167,7 +171,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -187,7 +191,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -209,7 +213,7 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz in [!DNL Marketo]
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -266,7 +270,7 @@ Dieses Aktionsmodul aktualisiert einen vorhandenen Datensatz mithilfe seiner ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -283,7 +287,7 @@ Dieses Aktionsmodul aktualisiert einen vorhandenen Datensatz mithilfe seiner ID.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Felder zur Zuordnung auswählen]</td> 
-   <td>Wenn Sie ein Unternehmen oder Lead aktualisieren, wählen Sie die Felder aus, für die Werte aktualisiert werden sollen, und geben Sie dann Werte für diese Felder ein.</td> 
+   <td>Wenn Sie ein Unternehmen oder einen Lead aktualisieren, wählen Sie die Felder aus, für die Werte aktualisiert werden sollen, und geben Sie dann Werte für diese Felder ein.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Programmname]</td> 
@@ -322,7 +326,7 @@ Dieses Aktionsmodul lädt mithilfe der Datei-ID eine Datei herunter.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Datei-ID]</td> 
@@ -341,7 +345,7 @@ Dieses Aktionsmodul lädt eine neue Datei in [!UICONTROL Marketo].
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
@@ -349,7 +353,7 @@ Dieses Aktionsmodul lädt eine neue Datei in [!UICONTROL Marketo].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ordner-ID]</td> 
-   <td>Geben Sie die Kennung des Ordners ein, in dem sich die neue Datei befinden soll, oder ordnen Sie sie zu.</td> 
+   <td>Geben Sie die Kennung des Ordners ein oder ordnen Sie sie zu.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Beschreibung]</td> 
@@ -368,7 +372,7 @@ Dieses Aktionsmodul liest Informationen zu einem Datensatz mithilfe seiner ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -402,7 +406,7 @@ Dieses Aktionsmodul fügt mithilfe der Lead-ID eine oder mehrere Leads zu einer 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listen-ID]</td> 
@@ -425,7 +429,7 @@ Dieses Aktionsmodul entfernt mithilfe der Lead-ID eine oder mehrere Leads aus ei
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listen-ID]</td> 
@@ -448,14 +452,14 @@ Dieses Aktionsmodul plant eine vorhandene Kampagne für ein bestimmtes Datum.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campaign ID]</td> 
    <td>Geben Sie die Kennung der Kampagne ein oder ordnen Sie sie zu.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Zeitplan für das Datum]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Zeitplan für Datum]</p> </td> 
    <td>Wählen Sie das Datum aus, an dem die Kampagne laufen soll. Wenn dieses Feld leer gelassen wird, wird die Kampagne fünf Minuten nach Beginn des Szenarios ausgeführt.</td> 
   </tr> 
  </tbody> 
@@ -471,7 +475,7 @@ Dieses Aktionsmodul erstellt eine Kopie eines Programms unter Verwendung der Ken
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Vorhandene Programm-ID]</td> 
@@ -503,7 +507,7 @@ Dieses Aktionsmodul ruft alle Datensätze eines bestimmten Typs ab.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -539,13 +543,13 @@ Dieses Suchmodul ruft eine Liste von Datensätzen ab, die bestimmten Suchkriteri
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Marketo] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Marketo] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den zu suchenden Datensatztyp aus.</p> 
+   <td> <p>Wählen Sie den Typ des Datensatzes aus, den Sie suchen möchten.</p> 
     <ul> 
-     <li> <p>[!UICONTROL Kampagnen]</p> </li> 
+     <li> <p>Kampagnen:</p> </li> 
      <li> <p>[!UICONTROL Leads]</p> </li> 
      <li> <p>[!UICONTROL Programme]</p> </li> 
     </ul> </td> 

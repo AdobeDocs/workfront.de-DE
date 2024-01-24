@@ -7,9 +7,9 @@ description: Viele Dienste bieten Webhooks, mit denen Sie sofortige Benachrichti
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,21 @@ Viele Dienste bieten Webhooks, mit denen Sie sofortige Benachrichtigungen bei ei
 
 Wenn der Dienst keine Webhooks bereitstellt, müssen Sie Polling-Trigger verwenden, um den Dienst regelmäßig abzurufen.
 
+Eine Videoeinführung zu Webhooks in Workfront Fusion finden Sie unter:
+
+* [Einführung in Webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Zwischenwebhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,19 +44,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +70,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 Alle Nachrichten von eingehenden Webhooks werden in der Warteschlange des Webhooks gespeichert.
 
-1. Klicken **[!UICONTROL Webhooks]** im Menü links.
+1. Klicks **[!UICONTROL Webhooks]** im Menü auf der linken Seite.
 1. Suchen Sie den Webhook, für den Sie die Warteschlange anzeigen möchten.
 1. Klicken Sie auf die Schaltfläche mit einem LKW-Symbol und der Anzahl der empfangenen Webhooks.
 
@@ -99,7 +104,7 @@ In diesem Fall wird Ihr Szenario sofort ausgeführt, wenn [!DNL Workfront Fusion
 Wenn Sie eine andere Zeitplaneinstellung als [!UICONTROL Sofort], wird das Szenario in den von Ihnen festgelegten Intervallen ausgeführt. Da mehrere Webhooks in der Warteschlange während des Intervalls gesammelt werden können, wird empfohlen, die [[!UICONTROL Höchstzahl der Zyklen]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) auf einen höheren Wert als den Standardwert 1, um in einem Szenario mehr Webhooks zu verarbeiten:
 
 1. Klicken Sie auf [!UICONTROL Szenario-Einstellungen] icon ![](assets/gear-icon-settings.png) am Ende Ihres Szenarios.
-1. Im **[!UICONTROL Szenario-Einstellungen]** in das Feld ein. Geben Sie eine Zahl in das Feld **[!UICONTROL Maximale Anzahl von Zyklen]** -Feld, um die Anzahl der Webhooks aus der Warteschlange anzugeben, die jedes Mal ausgeführt werden sollen, wenn Sie das Szenario ausführen.
+1. Im **[!UICONTROL Szenario-Einstellungen]** in das Feld ein. Geben Sie im Feld **[!UICONTROL Maximale Anzahl von Zyklen]** -Feld, um die Anzahl der Webhooks aus der Warteschlange anzugeben, die jedes Mal ausgeführt werden sollen, wenn Sie das Szenario ausführen.
 
 ## Förderhöchstsätze
 
@@ -122,7 +127,7 @@ Wenn in Ihrem Szenario ein Fehler mit einem sofortigen Trigger auftritt, wird da
 
 Tritt während der Ausführung des Szenarios ein Fehler auf, wird der Webhook während der Rollback-Phase des Instant Triggers wieder in die Warteschlange gestellt. In einer solchen Situation haben Sie die Möglichkeit, das Szenario zu beheben und es erneut auszuführen. Weitere Informationen finden Sie unter [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) im Artikel [Ausführung des Szenarios, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-Wenn in Ihrem Szenario ein Webhook-Antwortmodul vorhanden ist, wird der Fehler an die Webhook-Antwort gesendet. Das Webhook-Antwortmodul wird immer zuletzt ausgeführt (in dem Fall, dass die [!UICONTROL Automatische Übertragung] in den Szenario-Einstellungen nicht aktiviert ist). Weitere Informationen finden Sie unter [Antworten auf Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) im Artikel [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+Wenn in Ihrem Szenario ein Webhook-Antwortmodul vorhanden ist, wird der Fehler an die Webhook-Antwort gesendet. Das Webhook-Antwortmodul wird immer zuletzt ausgeführt (in dem Fall, dass die [!UICONTROL Automatische Übertragung] in den Szenario-Einstellungen deaktiviert ist). Weitere Informationen finden Sie unter [Antworten auf Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) im Artikel [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Benutzerdefinierte Webhooks
 

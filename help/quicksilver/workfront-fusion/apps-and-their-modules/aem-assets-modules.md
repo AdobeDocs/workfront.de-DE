@@ -10,27 +10,31 @@ description: Mit dem [!DNL Adobe Experience Manager Assets] Connector für [!DNL
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Assets]-Module
+# [!DNL Adobe Experience Manager Assets] Module
 
 Mit dem [!DNL Adobe Experience Manager Assets] Connector für [!DNL Adobe Workfront Fusion]können Sie ein Szenario starten, das auf Ereignissen in Ihrer [!DNL Adobe Experience Manager Assets] -Konto erstellen, Assets hochladen und aktualisieren sowie Ordner und Assets kopieren oder verschieben.
 
+Eine Einführung in den Adobe Experience Manager Assets-Connector finden Sie unter:
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -40,17 +44,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,9 +73,9 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets] -Module:
+So erstellen Sie eine Verbindung für [!DNL Adobe Experience Manager Assets] -Module:
 
-1. Klicken [!UICONTROL Hinzufügen] neben dem [!UICONTROL Verbindung] ankreuzen.
+1. Klicks [!UICONTROL Hinzufügen] neben dem [!UICONTROL Verbindung] ankreuzen.
 
 2. Wählen Sie den Verbindungstyp aus, den Sie erstellen:
 
@@ -89,7 +93,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
 
    Für [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), siehe [Konfigurieren Sie die Verbindung für [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
-4. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+4. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 
 ### Konfigurieren Sie die Verbindung für [!DNL AEM Assets as a Cloud Service]
@@ -189,7 +193,7 @@ Dieses Aktionsmodul kopiert einen Ordner oder ein Asset an einen anderen Speiche
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -228,7 +232,7 @@ Dieses Aktionsmodul erstellt einen Ordner oder einen Asset-Kommentar.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Objekttyp]</td> 
@@ -259,7 +263,7 @@ Dieses Aktionsmodul löscht einen Ordner, ein Asset oder eine Ausgabedarstellung
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -283,7 +287,7 @@ Dieses Aktionsmodul ruft eine Darstellung eines vorhandenen Ordners und seiner u
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ordner]</td> 
@@ -302,7 +306,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Ado
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -322,7 +326,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Ado
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -340,7 +344,7 @@ Dieses Aktionsmodul verschiebt das Asset oder den Ordner an den angegebenen Pfad
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -375,7 +379,7 @@ Dieses Aktionsmodul aktualisiert einen vorhandenen Datensatz.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -406,7 +410,7 @@ Dieses Aktionsmodul lädt ein Asset in Ihre [!DNL Adobe Experience Manager Asset
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Adobe Experience Manager Assets] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ziel]</td> 
