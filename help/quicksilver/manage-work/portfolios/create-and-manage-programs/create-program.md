@@ -6,9 +6,9 @@ description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemei
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Neu: Beliebig</p><p>Oder</p><p>Aktuell: [!UICONTROL Business] oder höher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Neu: [!UICONTROL Standard] </p><p>Oder </p><p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>[!UICONTROL Zugriff auf Portfolios und Programme bearbeiten </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td>Das geplante Abschlussdatum des Programms kann nicht in der Kopfzeile bearbeitet werden.  </td> 
+   <td>Das geplante Abschlussdatum des Programms kann nicht in der Kopfzeile bearbeitet werden. Diese Informationen werden aus den Projekten des Programms aktualisiert. Das geplante Abschlussdatum des neuesten Projekts im Programm wird zum geplanten Abschlussdatum des Programms.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bedingung für aktive Projekte]</td> 

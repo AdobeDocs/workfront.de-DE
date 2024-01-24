@@ -6,20 +6,27 @@ description: Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der b
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Smart-Zuweisungen vornehmen
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 <span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge für Benutzer, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Informationen zu Smart-Zuweisungen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer ist, um die Arbeit abzuschließen.
+
+Smart-Zuweisungen sind Vorschläge für Benutzer, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt.
+
+<span class="preview">In Workfront gibt es zwei separate Algorithmen für Aufgaben und Probleme. </span>
+Informationen zu Smart-Zuweisungen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Zugriffsanforderungen
 
@@ -76,9 +83,16 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Benutzer, die in dieser Liste angezeigt werden, sind die Vorschläge zur intelligenten Zuweisung für die Aufgabe oder das Problem.
+   Bei Problemen werden die Vorschläge für die intelligente Zuweisung im **Vorgeschlagene Zuweisungen** Bereich.
 
-   Weitere Informationen dazu, wo die Smart-Zuweisungen angezeigt werden, finden Sie im Artikel im Abschnitt &quot;Suchen von Vorschlägen für die intelligente Zuweisung&quot; [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Bei Aufgaben werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt, je nachdem, in welcher Phase der Algorithmusberechnung die Zuweisungen identifiziert wurden:
+
+   * **Vorgeschlagene Zuweisungen**: Zuweisungen, die in der ersten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert wurden.
+   * <span class="preview">**Ergebnisse**: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert werden. Dieser Abschnitt ist nicht für Probleme verfügbar. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Wählen Sie den Benutzer in der Empfehlungsliste aus, indem Sie auf seinen Namen klicken.
 

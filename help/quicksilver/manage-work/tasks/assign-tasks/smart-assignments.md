@@ -7,9 +7,9 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* Eine Aufgaben- oder Problemüberschrift im Feld &quot;Zuweisungen&quot;
+* <span class="preview">Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* Eine Problem-Kopfzeile im Feld &quot;Zuweisungen&quot;
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * Die Aufgaben- oder Problemzusammenfassung im Bereich &quot;Zuweisungen&quot;
 
@@ -70,14 +74,17 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 ## Kriterien für intelligente Zuweisungen
 
-
 <div class="preview">
 
 Smart-Zuweisungen funktionieren bei Aufgaben anders als bei Problemen.
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben
 
-Die Berechnung der intelligenten Aufgabenzuweisungen erfolgt in zwei Phasen.
+Die Berechnung der Aufgaben-Smart-Zuweisungen erfolgt in zwei Phasen, die zwei verschiedene Algorithmen verwenden.
+
+Je nachdem, welcher Algorithmus die intelligente Zuweisung findet, werden die Zuweisungen unter zwei separaten Abschnitten im Feld Zuweisungen aufgeführt. Weitere Informationen finden Sie unter [Smart-Zuweisungen vornehmen](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 
@@ -111,6 +118,8 @@ Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweis
 
   Wenn Rick beispielsweise zu einem früheren Zeitpunkt einer ähnlichen Aufgabe zugewiesen wurde und Jennifer vor zwei Tagen einer ähnlichen Aufgabe zugewiesen wurde, wird Rick zuerst angezeigt.
 
+* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Vorgeschlagene Zuweisungen** im Feld &quot;Zuweisungen&quot;.
+
 * Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
 
 #### Zweite Phase der Berechnung der intelligenten Zuweisung für Aufgaben
@@ -119,6 +128,8 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
+Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Ergebnisse** im Feld &quot;Zuweisungen&quot;. <!--update this to "Other assignments"-->
+
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 
 </div>
@@ -126,6 +137,8 @@ Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuw
 >[!NOTE]
 >
 ><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt . [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 
