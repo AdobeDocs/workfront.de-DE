@@ -2,20 +2,22 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Dashboard erstellen
-description: Sie können Dashboards erstellen, um schnell auf Informationen in Berichten, Kalendern und externen Seiten zugreifen zu können.
+description: Sie können Dashboards erstellen, um schnell auf Informationen in Adobe Workfront zugreifen zu können. Berichte, Kalender und externe Seiten können zu Dashboards hinzugefügt werden, die Sie für eine optimale Zusammenarbeit mit anderen freigeben können.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Dashboard erstellen
 
-Sie können Dashboards erstellen, um schnell auf Informationen in Berichten, Kalendern und externen Seiten zugreifen zu können.
+<!--Audited: 01/2024-->
+
+Sie können Dashboards erstellen, um schnell auf Informationen in Adobe Workfront zugreifen zu können. Berichte, Kalender und externe Seiten können zu Dashboards hinzugefügt werden, die Sie für eine optimale Zusammenarbeit mit anderen freigeben können.
 
 Weitere Informationen zu Dashboards finden Sie unter [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -30,25 +32,27 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-Plan*</strong></p> </td> 
-   <td>Beliebig</td> 
+   <td> <p><strong>Adobe Workfront-Abo</strong></p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront-Lizenz*</strong></p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Aktuell: Plan </p>
+   Oder
+   <p>Neu: Standard </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td><strong>Konfigurationen auf Zugriffsebene</strong> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Sie erhalten Verwaltungsberechtigungen für das neue Dashboard</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.<br>Weitere Informationen zu Berechtigungen für Dashboards finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Berichte, Dashboards und Kalender freigeben </a>.</p> </td> 
+   <td> <p>Sie erhalten Verwaltungsberechtigungen für die erstellten Dashboards</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -58,12 +62,13 @@ Sie müssen eines der folgenden Objekte erstellen, bevor Sie sie zu einem Dashbo
 
 * **Kalender**: Informationen zum Erstellen von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-* **Externe Seiten**: Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine aus dem neuen Dashboard erstellen. Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Dashboard erstellen
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon.png)Klicken Sie auf **Dashboards.**
-1. Klicken **Neues Dashboard**.\
+{{step1-to-dashboards}}
+
+1. Klicks **Neues Dashboard**.\
    Das Dialogfeld Neues Dashboard wird angezeigt.
 
 1. Geben Sie Folgendes an:
@@ -83,19 +88,17 @@ Sie müssen eines der folgenden Objekte erstellen, bevor Sie sie zu einem Dashbo
     </tbody>
    </table>
 
-1. Wählen Sie ein Layout aus, indem Sie auf das entsprechende Optionsfeld klicken.
+1. Wählen Sie ein Layout aus, indem Sie oben im **Layout auswählen/Berichte hinzufügen/Kalender hinzufügen** Abschnitt. Dies ist das Layout, in dem die Berichte, Kalender oder externen Seiten im Dashboard angezeigt werden.
 
    Standardmäßig wird das einspaltige Layout verwendet.
 
    Informationen zum Layout von Berichten in Dashboards finden Sie unter [So werden Berichte in einem Dashboard angezeigt](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: Consider adding the information from this article here, at some point, instead of linking to it.)
-   </MadCap:conditionalText>
+   Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Fügen Sie vorhandene Berichte, Kalender oder externe Seiten hinzu, indem Sie in der **Suche nach Name oder Typ ...** und ziehen Sie sie in den Layout-Bereich, sobald sie in der Liste angezeigt werden.
+1. Suchen Sie nach Berichten, Kalendern oder externen Seiten im **Suche nach Name oder Typ ...** und ziehen Sie sie in den Layout-Bereich, sobald sie in der Liste angezeigt werden.
 
    >[!NOTE]
    >
@@ -103,8 +106,10 @@ Sie müssen eines der folgenden Objekte erstellen, bevor Sie sie zu einem Dashbo
 
    ![Suche nach Berichten](assets/qs-new-dashboard-ui-0722.png)
 
-1. (Optional) Klicken Sie auf **Externe Seite hinzufügen** , um dem Dashboard eine externe Seite hinzuzufügen.\
+1. (Optional) Klicken Sie auf **Externe Seite hinzufügen** , um dem Dashboard eine neue externe Seite hinzuzufügen.
+
    Weitere Informationen zum Erstellen externer Seiten und zum Einbetten in Dashboards finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Klicken **Speichern und schließen**.\
-   In der rechten oberen Ecke des Dashboards wird ein Zeitstempel angezeigt. Der Zeitstempel enthält Datum, Uhrzeit und Zeitzone, zu der das Dashboard zuletzt aktualisiert wurde.
+1. Klicks **Speichern und schließen**.
+
+   In der oberen rechten Ecke des Dashboards wird ein Zeitstempel angezeigt. Der Zeitstempel enthält Datum, Uhrzeit und Zeitzone, zu der das Dashboard zuletzt aktualisiert wurde.

@@ -4,18 +4,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Zeitblatt- und Stundenvoreinstellungen konfigurieren
 description: Als [!DNL Adobe Workfront] Administrator können Sie die Voreinstellungen für Timesheets und Stunden in [!DNL Workfront] um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
-author: Courtney and Alina
+author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 0%
 
 ---
 
 # Zeitblatt- und Stundenvoreinstellungen konfigurieren
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -24,6 +26,7 @@ Als [!DNL Adobe Workfront] Administrator können Sie die Voreinstellungen für T
 >[!IMPORTANT]
 >
 >Zusätzlich zu den Artikeln, die ein Timesheet gemäß den in diesem Artikel beschriebenen Bedingungen vorab ausfüllen, werden die folgenden Elemente standardmäßig auch auf Timesheets angezeigt:
+>
 >* Elemente, bei denen Sie die Zeit im Zeitrahmen des Zeitblatts protokolliert haben
 >* Elemente, die auf das Zeitblatt geschrieben sind
 >* Elemente, nach denen Sie suchen und die Sie manuell zum Timesheet hinzufügen. Manuell hinzugefügte Elemente werden standardmäßig fixiert.
@@ -44,28 +47,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Aktuell:[!UICONTROL Plan]</p>
+   Oder
+   <p>Neu: Standard</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTIZ</b>
-
-Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Festlegen von Zeitblatt- und Stundenvoreinstellungen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicks **[!UICONTROL Datenblatt und Stunden]** > **[!UICONTROL Voreinstellungen]**.
 
-1. Auf der angezeigten Seite wird im **[!UICONTROL Allgemeine Voreinstellungen]** konfigurieren Sie eine der folgenden Optionen:
+   Die Seite mit den Voreinstellungen für Timesheets und Stunden wird angezeigt.
+
+1. (Optional) Im **Voreinstellungen für System-Timesheets und Stunden** Suchfeld, beginnen Sie mit der Eingabe des Namens einer Gruppe und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+
+   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+
+   Auf der Seite &quot;Timesheet- und Stundeneinstellungen&quot;werden die Voreinstellungen für die ausgewählte Gruppe aktualisiert. Die Voreinstellungen auf Systemebene müssen entsperrt sein, damit Sie die Voreinstellungen auf Gruppenebene ändern können. Weitere Informationen finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](#unlock-timesheet-and-hour-preferences-for-groups) in diesem Artikel.
+
+1. Im **[!UICONTROL Allgemeine Voreinstellungen]** konfigurieren Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +91,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
        <ul> 
         <li>Alle Projekte, Aufgaben und Probleme, auf die sie Zugriff auf die Protokollzeit haben</li> 
         <li>Ihre Timesheets als "Allgemeine Zeit"</li> 
-       </ul> <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> <p><b>NOTIZ</b>:</p> 
+       </ul> <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> <p><b>NOTE</b>:</p> 
        <p>Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
      </tr>
 
@@ -90,7 +104,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Einschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren]</td> 
+      <td role="rowheader">[!UICONTROL Eingrenzen der Bearbeitung von Zeitblättern an Eigentümer und Administratoren]</td> 
       <td> <p>Beschränken Sie die Bearbeitung auf Timesheet-Eigentümer und [!DNL Workfront] Administratoren. Wenn diese Option deaktiviert ist, können Timesheets auch wie folgt bearbeitet werden:</p> 
        <ul> 
         <li> <p>Benutzer mit administrativem Zugriff auf Timesheets und Stunden in ihrer Zugriffsebene</p> </li> 
@@ -99,7 +113,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Beschränkung der Stundenbearbeitung auf Inhaber und Administratoren]</td> 
+      <td role="rowheader">[!UICONTROL Eingeschränkte Stundenbearbeitung für Eigentümer und Administratoren]</td> 
       <td>Beschränken Sie die Bearbeitung auf den Benutzer, der die Stunden eingibt, und [!DNL Workfront] Administratoren. Diese Einstellung gilt für die Registerkarte [!UICONTROL Hours] in einem Projekt oder in einem Stundenbericht.</td> 
      </tr> 
     </tbody> 
@@ -109,15 +123,15 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
 
    <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Direkte Projektprotokollierung]</td>
+        <td>[!UICONTROL Direkt über Projekte]</td>
         <td>Ermöglicht Benutzern die Protokollierung der Zeit im Projekt (sowohl auf der Registerkarte [!UICONTROL Updates] als auch auf dem Timesheet). Wenn Benutzer keine Zeit auf Projektebene aufzeichnen, sollten diese Optionen deaktiviert bleiben.</td>
     </tr>
     <tr>
-        <td>Zeit für abgeschlossene Projekte protokollieren</td>
+        <td>[!UICONTROL Bei abgeschlossenen Projekten]</td>
         <td>Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status [!UICONTROL Abgeschlossen] aufzeichnen.</td>
     </tr>
     <tr>
-        <td>Zeit für eingestellte Projekte protokollieren</td>
+        <td>[!UICONTROL Über verstorbene Projekte]</td>
         <td>Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status [!UICONTROL Dead] protokollieren.</td>
     </tr>
    </table>
@@ -130,14 +144,16 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Arbeit, die sich innerhalb von befindet] &lt;number of="" weeks=""&gt; [!UICONTROL des Arbeitsbereichs des Zeitplans]</td> 
-      <td> <p>Definiert die Anzahl der Wochen vor und nach dem Datumsbereich des Zeitblatts, das Datum der dem Benutzer zugewiesenen Aufgaben und Probleme enthält. Die Standardeinstellung ist 1 Woche, und Sie können diesen Bereich auf 4 Wochen erweitern. Das bedeutet, dass das Timesheet mit Aufgaben und Problemen vorausgefüllt ist, die zwischen vier Wochen vor dem Datumsbereich des Zeitblatts und bis zu vier Wochen nach dem Datumsbereich des Zeitblatts liegen, wenn Sie für Ihren Bereich vier Wochen auswählen. </p> </td> 
+      <td> <p>Definiert die Anzahl der Wochen vor und nach dem Datumsbereich des Zeitblatts, das Datum der dem Benutzer zugewiesenen Aufgaben und Probleme enthält.</p> 
+      <p>Die Standardeinstellung ist 1 Woche, und Sie können diesen Bereich auf 4 Wochen erweitern.</p> 
+      <p>Das bedeutet, dass das Timesheet mit Aufgaben und Problemen vorausgefüllt ist, die zwischen vier Wochen vor dem Datumsbereich des Zeitblatts und bis zu vier Wochen nach dem Datumsbereich des Zeitblatts liegen, wenn Sie für Ihren Bereich vier Wochen auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Aufgaben und Probleme, die abgeschlossen wurden]</td> 
+      <td role="rowheader">[!UICONTROL Aufgaben und abgeschlossene Probleme]</td> 
       <td>Wenn normalerweise mehrere Ressourcen einer einzelnen Aufgabe zugewiesen sind, empfehlen wir diese Einstellung. Das bedeutet, dass die anderen Ressourcen, die der Aufgabe zugewiesen sind, die Aufgabe bzw. das Problem in ihrem Timesheet finden können, um ihre Stunden aufzuzeichnen, wenn eine Ressource die Zeit für die Aufgabe aufzeichnet und sie als abgeschlossen kennzeichnet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Aufgaben und Probleme, bei denen im Datumsbereich des Datenblatts die geplanten Daten eingetragen sind]</td> 
+      <td role="rowheader">[!UICONTROL Aufgaben und Probleme, bei denen im Datumsbereich des Datenblatts geplante Daten angegeben sind]</td> 
       <td> <p>Wenn diese Option aktiviert ist, enthält das Timesheet Aufgaben und Probleme mit einem geplanten Startdatum oder einem geplanten Abschlussdatum, das in den Datumsbereich des Zeitblatts fällt.</p> </td> 
      </tr> 
      <tr> 
@@ -154,7 +170,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Beim Löschen von Projekten]</td> 
+      <td role="rowheader"> Beim Löschen von Projekten</td> 
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Behalten Sie die bereits zu Timesheets hinzugefügte protokollierte Zeit als allgemeine Zeit bei.]</strong>: Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, verbleibt die Zeit auf dem Timesheet.</li> 
@@ -162,10 +178,10 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Beim Löschen von Aufgaben oder Problemen]</td> 
+      <td role="rowheader">Beim Löschen von Aufgaben oder Problemen</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Verschieben einer beliebigen protokollierten Zeit in das Projekt, in dem sich die Aufgabe oder das Problem befindet]</strong>: Wenn diese Aufgabe oder dieses Problem später wiederhergestellt wird, bleibt die Zeit im Projekt.<br></li> 
+        <li><strong>[!UICONTROL Verschieben einer beliebigen protokollierten Zeit in das Projekt]</strong> wo sich die Aufgabe oder das Problem befindet: Wenn diese Aufgabe oder dieses Problem später wiederhergestellt wird, bleibt die Zeit im Projekt.<br></li> 
         <li> <p><strong>[!UICONTROL Beliebige Zeit löschen]</strong>: Wenn diese Aufgabe oder dieses Problem später wiederhergestellt wird, wird die protokollierte Zeit für die Aufgabe oder das Problem wiederhergestellt.</p> <p>Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Konfigurationseffekt] für Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -176,7 +192,7 @@ Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administra
 
 ## Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren
 
-Gruppen in Ihrer Organisation benötigen möglicherweise ein Timesheet oder eine andere Stundenvoreinstellung, die für ihre individuellen Workflows unterschiedlich konfiguriert ist. Sie können die Voreinstellung für alle Gruppen in der Organisation freigeben, damit sie sie selbst konfigurieren können.
+Gruppen in Ihrer Organisation benötigen möglicherweise Timesheets oder Stundenvoreinstellungen, die für ihre individuellen Workflows unterschiedlich konfiguriert sind. Sie können die Voreinstellungen für alle Gruppen in der Organisation entsperren, damit sie sie selbst konfigurieren können.
 
 Wenn eine Voreinstellung entsperrt ist und ein Gruppenadministrator sie ändert, wirkt sich dies auf die Inhaber von Zeitblättern aus, wenn es sich bei der Gruppe um ihre Startseite handelt.
 
@@ -188,17 +204,19 @@ Informationen dazu, wie ein Gruppenadministrator die Voreinstellungen für das A
 
 So entsperren Sie eine Projektvoreinstellung, damit Gruppen sie konfigurieren können:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Timesheets und Stunden]** Klicken Sie auf **[!UICONTROL Voreinstellungen]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie. ![](assets/unlock-toggle-button.png).
-   * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist (dies ist die Standardeinstellung).
+   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche **entsperren** Umschalten ![](assets/unlock-toggle-button.png) , um es zu entsperren.
+   * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass der Umschalter gesperrt ist. ![](assets/locked-preference-toggle.png) (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]
      >
-     >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren. Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Gruppen im System übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Einstellungen, die von Gruppenadministratoren vorgenommen wurden.
+     >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren.
+     >
+     >Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Gruppen im System übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Einstellungen, die von Gruppenadministratoren vorgenommen wurden.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

@@ -4,10 +4,10 @@ description: Sie können Änderungen am Datensatz überprüfen, die vom System i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt
 
    * Mehrfachauswahl
    * Verknüpfte Datensatzfelder
-   * Verknüpfte (Lookup) Felder
    * Personen
 
   Wenn durch die Änderung nur Werte zum Feld hinzugefügt werden, wird der alte Wert nicht angezeigt und nur der neue Feldwert wird angezeigt.
@@ -80,5 +79,14 @@ Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt
 * Felder vom Typ Kontrollkästchen zeigen den alten Wert nie im Durchstreichen-Format an. Wenn das Feld bearbeitet wird, wird nur der aktuelle Status zum Zeitpunkt der Änderung angezeigt.
 
   Weitere Informationen zu Maestro-Feldern finden Sie unter [Felder erstellen](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Änderungen an Feldern der folgenden Typen werden nicht im Abschnitt Verlauf angezeigt:
+
+   * Verknüpfte (Lookup) Felder
+   * Formel
+   * Erstellt von
+   * Erstellt am Datum
+   * Zuletzt geändert von
+   * Zuletzt geändert am
 
 * Wenn ein Feld aus dem System entfernt wird, bleiben die in diesem Feld vorgenommenen Aktualisierungen im Abschnitt Verlauf . Es gibt keinen Hinweis darauf, dass das Feld im Abschnitt Verlauf eines Datensatzes entfernt wurde.
