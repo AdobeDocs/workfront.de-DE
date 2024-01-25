@@ -1,21 +1,21 @@
 ---
-title: Projektverbesserungen für das erste Quartal 2024
-description: Verbesserungen am ersten Quartal 2024
-author: Nolan
+title: Projektverbesserungen im zweiten Quartal 2024
+description: Projektverbesserungen im zweiten Quartal 2024
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Projektverbesserungen für das erste Quartal 2024
+# Projektverbesserungen im zweiten Quartal 2024
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
+Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Wichtigere intelligente Zuweisungen
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">KI-gesteuerte intelligente Zuweisungen</a></p><p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Wichtigere intelligente Zuweisungen</a></p><p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
