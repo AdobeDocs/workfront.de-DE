@@ -7,47 +7,56 @@ description: Die Visualisierung der Teamkapazität zeigt die Gesamtkapazität ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
 # Visualisierung der Teamkapazität in der erweiterten Analyse anzeigen
 
+<!-- Audited: 01/2024 -->
+
 Die Visualisierung der Teamkapazität zeigt die Gesamtkapazität eines Heimteams, ob sie überzugewiesen oder unterverteilt sind und wie dynamisch die Kapazität im Laufe der Zeit ist.
 
-![](assets/team-capacity-350x110.png)
+![Teamkapazität](assets/team-capacity.png)
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
-   <td> <p>Unternehmen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>
+      <p>Neu: Beliebig</p>
+      <p>oder</p>
+      <p>Aktuell: Business oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader">Übersicht über Adobe Workfront-Lizenzen</td>
+   <td>
+      <p>Neu: Licht oder höher</p>
+      <p>oder</p>
+      <p>Aktuell: Überprüfen oder höher</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td>Zugriff auf Projekte anzeigen</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td>Anzeigen </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -57,17 +66,17 @@ Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschni
 
 Die Visualisierung der Teamkapazität zeigt das Arbeitsvolumen an, das dem Startseiten-Team an einem bestimmten Tag zugewiesen wurde.
 
-* **Burnout**: Wenn die dunkelblaue Füllfarbe über der gepunkteten Linie liegt, werden dem Heimteam mehr Arbeitszeiten zugewiesen, als in der Anzahl der Stunden, die das Team zur Arbeit zur Verfügung hat, abgeschlossen werden können. Dies deutet darauf hin, dass das Team überzugewiesen wurde und möglicherweise kurz vor dem Start steht.
+* **Burnout**: Wenn die dunkelblaue Füllfarbe über der gepunkteten Linie liegt, werden dem Heimteam mehr Arbeitsstunden zugewiesen, als in der Anzahl der Stunden, die das Team zur Arbeit zur Verfügung hat, abgeschlossen werden können. Dies deutet darauf hin, dass das Team überzugewiesen wurde und möglicherweise kurz vor dem Start steht.
 
-   ![](assets/team-capacity-over-capacity.png)
+  ![Überkapazitäten](assets/team-capacity-over-capacity.png)
 
-* **Unangefochten**: Wenn die dunkelblaue Füllfarbe unter der gepunkteten Linie liegt, hat das Heimteam mehr Arbeitsstunden als die ihnen zugewiesene Arbeitszeit. Dies weist darauf hin, dass das Team nicht genügend Platz hat und möglicherweise nicht angefochten werden kann.
+* **Unangefochten**: Wenn die dunkelblaue Füllfarbe unter der gepunkteten Linie liegt, stehen dem Startseiten-Team mehr Arbeitsstunden zur Verfügung als die ihnen zugewiesene Arbeitszeit. Dies weist darauf hin, dass das Team nicht genügend Platz hat und möglicherweise nicht angefochten werden kann.
 
-   ![](assets/team-capacity-under-capacity.png)
+  ![Kapazität](assets/team-capacity-under-capacity.png)
 
-* **Saldo**: Wenn die hellere oder transparentere blaue Füllfarbe direkt über, direkt unterhalb oder an der gepunkteten Linie liegt, hat das Heimteam eine Arbeitszeit zugewiesen, die es innerhalb der verfügbaren Arbeitszeiten abschließen kann. Dies zeigt, dass die Arbeitslast des Teams ausgeglichener ist.
+* **Saldo**: Wenn die hellere oder transparentere blaue Füllfarbe direkt über, direkt unterhalb oder an der gepunkteten Linie liegt, hat das Heimteam eine Arbeitszeit zugewiesen, die es innerhalb der verfügbaren Arbeitszeiten abschließen kann. Dies deutet darauf hin, dass die Arbeitslast des Teams ausgeglichener ist.
 
-   ![](assets/team-capacity-at-capacity.png)
+  ![Kapazität](assets/team-capacity-at-capacity.png)
 
 Wenn Sie den Mauszeiger über einen Punkt in der Visualisierung bewegen, werden die folgenden Details für einen bestimmten Tag angezeigt:
 
@@ -86,18 +95,19 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Visualisierung der Teamkapazität anzeigen
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+{{step1-to-analytics}}
+
 1. Wählen Sie im linken Bereich die Option **Personen**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Personen auswählen](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Filter für Datumsbereiche](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die einzelnen Teams aus, für die Daten angezeigt werden sollen.
+1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die Teams aus, für die Sie Daten anzeigen möchten.
 
    Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,14 +123,14 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und es wird ein Zeitrahmen-Filter erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. Bewegen Sie den Mauszeiger über einen Punkt auf der Diagrammlinie, um die geplanten Stunden und geplanten Stunden für das angegebene Datum sowie den Kapazitätsprozentsatz und die Frage zu sehen, ob das Heimteam zu der Zeit vorbei, unterwegs oder auf Kapazität war.
 
-   ![](assets/team-capacity-capacity-pop-up-350x351.png)
+   ![Popup für Teamkapazität](assets/team-capacity-capacity-pop-up-350x351.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Export** icon ![Symbol &quot;Exportieren&quot;](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
 
-   * **Diagramm (PNG)**
-   * **Datentabelle (XSLX)**
+   * Diagramm (PNG)
+   * Datentabelle (XSLX)
 

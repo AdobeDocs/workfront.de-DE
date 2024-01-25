@@ -7,7 +7,7 @@ description: Die Niederschlagsvisualisierung zeigt den Niedergang eines bestimmt
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> </td> 
+   <td> <p>Anzeigen</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Grundlegendes zur Aufschlüsselungsvisualisierung
 
@@ -152,7 +152,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >Wenn die tatsächliche Geschwindigkeit eine flache Linie ist, die entlang der x-Achse verläuft (inline mit 0 Stunden oder 0 Tagen) der Visualisierung, bedeutet dies, dass dem Projekt keine geplanten Stunden oder Tage hinzugefügt wurden.\
    >Wenn die tatsächliche Geschwindigkeit eine flache Linie über der x-Achse ist (inline mit einer Anzahl von Stunden oder Tagen), die nie zurückgeht, bedeutet dies, dass innerhalb des gefilterten Zeitraums keine Aufgaben abgeschlossen wurden.
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Export** icon ![Symbol &quot;Exportieren&quot;](assets/export.png)in der oberen rechten Ecke der Visualisierung und wählen Sie das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Export** icon ![Symbol &quot;Exportieren&quot;](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie das Exportformat aus:
 
    * Diagramm (PNG)
    * Datentabelle (XSLX)
