@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-<!--
-## Week of January 22, 2024
+## Woche vom 22. Januar 2024
 
-### New History section displays system activity for Maestro records (title) 
+### Neuer Verlaufsabschnitt zeigt Systemaktivität für Maestro-Datensätze an
 
-Production: < date > 
+Produktion: 25. Januar 2024
 
-Preview: To be determined 
+Vorschau: zu bestimmen
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Um die Auditing-Funktionen zu verbessern, haben wir einen neuen Abschnitt im rechten Bereich eines Datensatzes eingeführt, in dem Sie Änderungen an dem vom System aufgezeichneten Datensatz überprüfen können.
 
-Maestro records the following information in the new History section:  
+Maestro zeichnet die folgenden Informationen im neuen Abschnitt Verlauf auf:
 
-* Any field changes 
+* Alle Feldänderungen
 
-* The full name of the user who made the change 
+* Die alten und neuen Werte der Felder, wenn sich die Werte ändern
 
-* A date and time stamp of when the change occurred. 
+* Der vollständige Name des Benutzers, der die Änderung vorgenommen hat
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Ein Datum und ein Zeitstempel für den Zeitpunkt der Änderung.
 
--->
+Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Neue Bezeichnung für neuen Datensatz-Link
+
+Produktion: 25. Januar 2024
+
+Vorschau: zu bestimmen
+
+Um bei der Erstellung von Datensätzen Konsistenz zu gewährleisten, haben wir den Link + Neu zur Erstellung von Datensätzen in &quot;+ Neuer Datensatz&quot; umbenannt.  Vor dieser Aktualisierung enthielt der Link den Namen des Datensatztyps. Der neue Link ist jetzt bei der Erstellung von Betriebs- und Taxonomiedatensätzen verfügbar. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md).
 
 ## Woche vom 8. Januar 2024
 

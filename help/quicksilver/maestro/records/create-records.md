@@ -1,13 +1,13 @@
 ---
 title: Datensätze erstellen
-description: In Adobe Maestro ist ein Datensatz eine Instanz eines Datensatztyps. Sie müssen Datensatztypen erstellen, bevor Sie einzelne Datensätze erstellen können.
+description: In Adobe Maestro ist ein Datensatz eine Instanz eines Datensatztyps. Sie müssen Datensatztypen erstellen, bevor Sie einzelne Datensätze erstellen können. Das Erstellen von Taxonomiedatensätzen ist mit dem Erstellen von Betriebsdatensätzen identisch.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Folgende Datensätze stehen zur Verfügung:
 * **Betriebsaufzeichnungen**: Sie stellen arbeitsbezogene Objekte dar. Beispielsweise können Sie für einen Betriebsdatensatz mit dem Namen &quot;Kampagne&quot;Datensätze wie &quot;Monatlicher Newsletter&quot;oder &quot;Sommerverkauf&quot;benannt haben.
 * **Taxonomiedatensätze**: Sie stellen Attribute dar, die betrieblichen Datensätzen zugeordnet werden können. Beispielsweise können Sie für einen Taxonomiedatensatz mit dem Namen &quot;Kanal&quot;Taxonomien wie &quot;E-Mail&quot;, &quot;Social Media&quot;oder &quot;Werbung&quot;benannt haben.
 
-Das Erstellen von Betriebsdatensätzen ist mit dem Erstellen von Taxonomiedatensätzen oder Taxonomien identisch.
+Das Erstellen von Betriebsdatensätzen ist mit dem Erstellen von Taxonomiedatensätzen identisch.
 
 Sie können Datensätze in Maestro erstellen, indem Sie einen der folgenden Schritte ausführen:
 
@@ -120,7 +120,7 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
 1. (Bedingt) Wenn die Seite mit dem Datensatztyp nicht in der Tabellenansicht geöffnet wird, klicken Sie auf die Schaltfläche **Ansicht** und wählen Sie entweder ein vorhandenes **Tabellenansicht** ![](assets/table-view-icon.png) oder klicken Sie **Ansicht erstellen > Tabelle** , um eine Tabellenansicht zu erstellen.
 
-1. Um neue Datensätze hinzuzufügen, klicken Sie auf **Neu &lt; Name des Datensatztyps >** in der letzten Zeile der Tabelle
+1. Um neue Datensätze hinzuzufügen, klicken Sie auf **Neuer Datensatz** in der letzten Zeile der Tabelle
 
    Oder
 

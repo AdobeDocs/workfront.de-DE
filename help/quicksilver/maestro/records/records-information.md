@@ -1,13 +1,13 @@
 ---
 title: "Datensätze: Artikelindex"
-description: Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro erstellen und verwalten können.
+description: Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Maestro erstellen und verwalten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen.
 
-In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro erstellen und verwalten können:
+In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Maestro erstellen und verwalten können:
 
 * [Datensätze erstellen](../records/create-records.md)
 * [Datensätze bearbeiten](../records/edit-records.md)
@@ -46,3 +46,4 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze in Adobe Maestro
 * [Datensätze freigeben](../records/share-records.md)
 * [Datensätze verbinden](../records/connect-records.md)
 * [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md)

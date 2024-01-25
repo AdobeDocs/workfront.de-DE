@@ -1,12 +1,12 @@
 ---
 title: Verwalten von Datensatzkommentaren
-description: Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im Kommentarbereich eines Datensatzes hinzufügen.
+description: Sie können an Adobe Maestro-Datensätzen mitarbeiten, indem Sie Kommentare oder Antworten in den rechten Bereich eines Datensatzes hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Verwalten von Datensatzkommentaren
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im Kommentarbereich eines Datensatzes hinzufügen.
+Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bereich eines Datensatzes hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
-The right panel of a record displays the following sections:
+* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen.
+* **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>Das rechte Fenster wird sowohl für operative Datensätze als auch für Taxonomiedatensätze angezeigt.
+
 
 ## Überlegungen zum Kommentieren eines Datensatzes
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
 
-* Sie können Datensätze aus den folgenden Bereichen von Maestro aktualisieren:
+* Sie können Datensätze aktualisieren und den Verlauf von Änderungen aus den folgenden Bereichen von Maestro überprüfen:
 
-   * Auf der Detailseite.
+   * Auf der Detailseite eines Datensatzes oder einer Taxonomie.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 
    Der Rekord **Details** Seite geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
 
+1. (Bedingt) Wenn das rechte Bedienfeld nicht standardmäßig geöffnet wird, klicken Sie auf die **Kommentare anzeigen** ![](assets/show-comments-icon.png) rechts oben, um den Abschnitt Kommentare zu öffnen.
+
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 1. (Optional) Klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken und auf eine der folgenden Optionen klicken, um Informationen aus einem Kommentar zu kopieren:
 
    * **Link kopieren**: Dadurch wird ein Link zum Kommentar in die Zwischenablage kopiert.
-   * **Textkörper kopieren** t: Kopiert den Text des Kommentars in die Zwischenablage.
+   * **Textkörper kopieren**: Kopiert den Text des Kommentars in die Zwischenablage.
    * **Anführungsantwort**: Kopiert den Inhalt Ihres Kommentars in eine neue Antwort. Bilder sind nicht in der kopierten Antwort enthalten.
 
    Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken Sie auf **Löschen** , um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf die **Kommentare ausblenden** icon ![](assets/hide-comments-icon.png) , um den rechten Bereich zu schließen.
 
-<!--
-## History section overview
+## Übersicht über den Verlaufsabschnitt
 
-*********also update the screen shot above for the Comments section ******
+Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bedienfelds eines Betriebsergebnisses oder einer Taxonomie überprüfen.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->
