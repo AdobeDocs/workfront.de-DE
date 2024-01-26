@@ -2,20 +2,22 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Erstellen einer Projektvorlage
-description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und alle Informationen für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann an das Projekt übertragen, wenn Sie sie aus der Vorlage erstellen.
+description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann an jedes Projekt übertragen, das Sie aus der Vorlage erstellen.
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Projektvorlage
 
-Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und alle Informationen für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann an das Projekt übertragen, wenn Sie sie aus der Vorlage erstellen.
+<!-- Audited: 1/2024 -->
+
+Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann an jedes Projekt übertragen, das Sie aus der Vorlage erstellen.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
 
   Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* Wenn Sie Workfront-Administrator sind, können Sie Vorlagen durch Importieren von Blueprints erstellen. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
+* durch Import von Blueprints. Sie müssen ein Workfront-Administrator sein, um Blueprints zu importieren. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Zugriffsanforderungen
 
@@ -44,31 +46,31 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Systemadministrator für den Import von Vorlagen aus Blueprints</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard </p><p>Oder </p><p>Aktuell: Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Sie müssen Systemadministrator sein, um Vorlagen aus Blueprints zu importieren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie verfügen standardmäßig über Verwaltungsberechtigungen für die erstellten Vorlagen.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Sie verfügen standardmäßig über Verwaltungsberechtigungen für die erstellten Vorlagen.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen einer Vorlage
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png) click **Vorlagen**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Vorlagen**.
 
-1. Klicken **Neue Vorlage**.
+1. Klicks **Neue Vorlage**.
 
    Die Vorlage hat keinen Titel.
 
@@ -76,11 +78,11 @@ Sie müssen über Folgendes verfügen:
 
 1. Geben Sie einen Namen für die neue Vorlage in der Vorlagenkopfzeile ein und drücken Sie dann die Eingabetaste **Geben Sie ein.**
 1. Klicken Sie auf **Vorlagenaufgaben** im linken Bereich.
-1. Klicken **Beginnen mit dem Hinzufügen von Vorlagenaufgaben**.
+1. Klicks **Beginnen mit dem Hinzufügen von Vorlagenaufgaben**.
 
    Oder
 
-   Klicken **Neue Vorlagenaufgabe** , um Ihrer Vorlage Aufgaben hinzuzufügen.
+   Klicks **Neue Vorlagenaufgabe** , um Ihrer Vorlage Aufgaben hinzuzufügen.
 
    Das Hinzufügen von Vorlagenaufgaben zu einer Vorlage entspricht dem Hinzufügen von Aufgaben zu einem Projekt.
 
@@ -100,9 +102,9 @@ Sie müssen über Folgendes verfügen:
 
    Informationen zum Bearbeiten einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Klicken **Änderungen speichern**.
-1. (Optional) Wenn Sie der Vorlage weitere Elemente hinzufügen möchten, lesen Sie den Abschnitt . [Hinzufügen zusätzlicher Elemente zu einer Vorlage](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) im Artikel [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. Klicks **Änderungen speichern**.
+1. (Optional) Wenn Sie der Vorlage weitere Elemente hinzufügen möchten, lesen Sie den Abschnitt . [Hinzufügen zusätzlicher Elemente zu einer Vorlage](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) im Artikel [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Vorlageneinstellungen, die von der Gruppenzuordnung bestimmt werden
 
-Die Verknüpfung einer Projektvorlage mit einer Gruppe (oder deren Fehlen) beeinflusst, wie Projekt-, Aufgaben- und Problemeinstellungen bestimmte Einstellungen in der Vorlage bestimmen. Weitere Informationen finden Sie im Abschnitt . [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Die Zuordnung einer Projektvorlage zu einer Gruppe (oder das Fehlen einer Gruppe) beeinflusst, wie Projekt-, Aufgaben- und Problemeinstellungen bestimmte Einstellungen in der Vorlage bestimmen. Weitere Informationen finden Sie im Abschnitt . [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

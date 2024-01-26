@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 0%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 0%
       * [Tipps, Tricks und Fehlerbehebung für Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Benutzerdefinierte Status werden nicht auf der Übersichtskarte angezeigt](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Dokumente {#documents}
-   * [Dokumente](documents/documents-overview.md)
+   * [Dokumente: Artikelindex](documents/documents-overview.md)
    * Hinzufügen neuer Dokumente zu Adobe Workfront {#add-new-documents-to-workfront}
       * [Hinzufügen neuer Dokumente zu Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 0%
          * [Verknüpfen von Meilensteinen mit Aufgaben](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Konvertieren einer Aufgabe in ein Projekt](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Aufgabenbegrenzungen {#task-constraints}
-         * [Aufgabenbegrenzungen](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Aufgabenbeschränkungen: Artikelindex](manage-work/tasks/task-constraints/task-constraints.md)
          * [Übersicht über Aufgabenbegrenzungen](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Übersicht über Aufgabenbegrenzungen: Start nicht später als](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Übersicht über Aufgabenbegrenzungen: Start nicht früher als](manage-work/tasks/task-constraints/start-no-earlier-than.md)
