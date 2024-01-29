@@ -1,21 +1,23 @@
 ---
-title: Auditprotokolle
+title: Audit-Protokolle
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-Administrator können Sie mithilfe von Auditprotokollen Benutzeränderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 4%
+source-wordcount: '1464'
+ht-degree: 2%
 
 ---
 
-# Auditprotokolle
+# Audit-Protokolle
+
+<!--Audited: 01/2024-->
 
 Als Adobe Workfront-Administrator können Sie mithilfe der unten beschriebenen Prüfprotokolle Benutzeränderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
 
@@ -43,7 +45,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
   </tr> 
   <tr> 
    <td role="rowheader">Aktion</td> 
-   <td> Vom Benutzer ausgeführte Aktionen, z. B. Ändern, Erstellen und Löschen. </td> 
+   <td> Vom Benutzer ausgeführte Aktionen wie Ändern, Erstellen und Löschen. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objekt</td> 
@@ -62,7 +64,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 
 ## Auditprotokolltypen und die sie Trigger Aktionen
 
-* [Zugriffsebene](#access-level)
+* [Zugriffsstufe](#access-level)
 * [Firma](#company)
 * [Bedingung](#condition)
 * [Benutzerdefiniertes Feld](#custom-field)
@@ -70,45 +72,45 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 * [Benutzerdefinierter Abschnitt](#custom-section)
 * [Wechselkurs](#exchange-rate)
 * [Gruppe](#group)
-* [Aufgabengebiete](#job-roles)
+* [Vorgangsrollen](#job-roles)
 * [Anmeldeversuch](#login-attempt)
 * [Priorität](#priority)
-* [Projektpräferenzen](#project-preferences)
+* [Projektpräferenz](#project-preference)
 * [Schweregrad](#severity)
 * [Status](#status)
-* [Einstellungen für Aufgaben und Anfragen](#tasks-issues-preferences)
-* [Benutzer](#user)
+* [Voreinstellungen für Aufgaben und Probleme](#tasks-issues-preferences)
+* [Benutzerin oder Benutzer](#user)
 
 ### Zugriffsebene {#access-level}
 
 Das System generiert einen Protokolleintrag auf Zugriffsstufe, wenn ein Benutzer einen der folgenden Schritte ausführt:
 
 * Erstellt eine Zugriffsebene
-* Löschen einer Zugriffsebene
+* Löscht eine Zugriffsebene
 * Ändert eine Zugriffsebene:
 
    * Ändern des Lizenztyps
    * Ändert Berechtigungen für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Dokumente, Benutzer oder Vorlagen
 
-      >[!NOTE]
-      >
-      >Das System zeichnet keine Berechtigungsänderungen an Finanzdaten oder den folgenden Zugriffstypen auf: Anzeigen und Bearbeiten.
-      >
-      >Wenn ein Benutzer beispielsweise den Zugriffstyp Planer von Ansicht zu Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen anpassen enthalten sind.
+     >[!NOTE]
+     >
+     >Das System zeichnet keine Berechtigungsänderungen an Finanzdaten oder den folgenden Zugriffstypen auf: Anzeigen und Bearbeiten.
+     >
+     >Wenn ein Benutzer beispielsweise den Zugriffstyp Planer von Ansicht zu Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen anpassen enthalten sind.
 
 ### Firma {#company}
 
 Das System generiert einen Eintrag für das Unternehmensprüfungsprotokoll, wenn ein Benutzer einen der folgenden Schritte ausführt:
 
 * Erstellen eines Unternehmens
-* Ändert ein Unternehmen:
+* Unternehmen ändern:
 
    * Benennt ihn um
    * Fügt Mitglieder hinzu oder entfernt Mitglieder
    * Fügt den Wert im Feld Gruppe hinzu, bearbeitet ihn oder löscht ihn
    * Fügt eine Abrechnungsrate für eine Stellenrolle im Unternehmen hinzu oder bearbeitet sie
    * Entfernt eine Abrechnungsrate für eine Jobrolle im Unternehmen
-   * Legt es als primäres Unternehmen für die Organisation fest
+   * Legt es als Hauptunternehmen für die Organisation fest
    * Hängt ein benutzerdefiniertes Formular an oder entfernt es
 
 * Löscht ein Unternehmen
@@ -134,7 +136,7 @@ Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Ben
 
 ### Benutzerdefiniertes Feld {#custom-field}
 
-Das System generiert einen Auditprotokolleintrag für benutzerdefinierte Felder, wenn ein Benutzer eine der folgenden Aktionen ausführt:
+Das System generiert einen Eintrag des Prüfprotokolls &quot;Benutzerdefiniertes Feld&quot;, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
 * Erstellt ein benutzerdefiniertes Feld
 * Ändert ein benutzerdefiniertes Feld:
@@ -142,17 +144,17 @@ Das System generiert einen Auditprotokolleintrag für benutzerdefinierte Felder,
    * Ändert den Namen, den Titel, die Anweisungen oder das Format
    * Ändert den Anzeigetyp
 
-      Dies ist nur verfügbar, wenn das Feld einen der folgenden Typen aufweist: Einzelzeile, Absatz, Dropdown, Kontrollkästchen, Optionsfeld
+     Dies ist nur verfügbar, wenn das Feld einer der folgenden Typen ist: einzelne Zeile, Absatz, Dropdown, Kontrollkästchen, Optionsfeld
 
    * Ändern der Feldgröße
 
-      Dies ist nur verfügbar, wenn das Feld einen der folgenden Typen aufweist: Einzelne Zeile, Absatz, Text mit Formatierung
+     Dies ist nur verfügbar, wenn das Feld einer der folgenden Typen ist: einzelne Zeile, Absatz, Text mit Formatierung
 
    * Fügt eine Feldauswahl hinzu, entfernt sie oder blendet sie aus
-   * Bearbeiten einer Feldauswahlbeschriftung oder eines Werts
+   * Bearbeiten einer Feldauswahlbeschriftung oder eines Feldwerts
    * Konfiguriert die auszuwählende oder nicht standardmäßig ausgewählte Feldauswahl
    * Konfiguriert ein Dropdown-Feld, um mehrere Auswahlen oder nur eine Auswahl zuzulassen
-   * Konfiguriert ein Datumsfeld, um die Tageszeit anzuzeigen oder nicht anzuzeigen
+   * Konfiguriert ein Datumsfeld zur Anzeige oder Nichtanzeige der Tageszeit
    * Bearbeiten des Hyperlinks oder Ändern des Werts in einem beschreibenden Textfeld
 
 * Löscht ein benutzerdefiniertes Feld
@@ -163,9 +165,9 @@ Das System generiert einen Auditprotokolleintrag für benutzerdefinierte Felder,
 Das System generiert einen benutzerdefinierten Forms-Auditprotokolleintrag, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
 * Erstellt ein benutzerdefiniertes Formular
-* Ändert ein benutzerdefiniertes Formular:
+* Ändert das benutzerdefinierte Formular:
 
-   * Ändert den Namen oder die Beschreibung
+   * Ändert Namen oder Beschreibung
    * Aktiviert oder deaktiviert Ist aktiv
    * Fügt ein Feld oder einen Abschnitt hinzu oder entfernt es
    * Für einen benutzerdefinierten Abschnitt ändert eine Einstellung unter &quot;Zusätzliche Einstellungen&quot;.
@@ -175,7 +177,7 @@ Das System generiert einen benutzerdefinierten Forms-Auditprotokolleintrag, wenn
    * Aktiviert bzw. deaktiviert die Option Vorherige Berechnungen aktualisieren
    * Fügt eine Logik zum Überspringen oder Ändern der Anzeigelogik hinzu
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -199,7 +201,7 @@ Das System generiert einen Auditprotokolleintrag zum Wechselkurs, wenn ein Benut
 * Erstellt einen Wechselkurs
 * Ändert einen Wechselkurs:
 
-   * Fügt eine Währung hinzu
+   * Eine Währung hinzufügt
    * Ändert den Wechselkurs für die Währung
    * Legt die Währung als Basiswährung (Standard) für alle Projekte und Berichte im System fest
 
@@ -238,7 +240,7 @@ Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Ers
 
 Das System generiert einen Auditprotokolleintrag für den Anmeldeversuch, wenn ein Benutzer einen der folgenden Schritte ausführt:
 
-* Anmeldung, Abmeldung oder Fehler bei einem Anmeldeversuch in Workfront (in einem Browser und in der App)
+* Anmelden, Abmelden oder Fehler bei einem Anmeldeversuch in Workfront (in einem Browser und in der App)
 * Anmelden, Abmelden oder Fehler bei einem Anmeldeversuch bei einer Workfront-Integration (z. B. Workfront für Slack und Workfront für Salesforce)
 * Anmelden oder Abmelden von der Workfront-API
 
@@ -246,7 +248,7 @@ Die Protokolle für Anmeldeversuche werden nicht aufgezeichnet, wenn ein Workfro
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+>Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ### Priorität {#priority}
 
@@ -259,13 +261,13 @@ Das System generiert einen Auditprotokolleintrag &quot;Priorität&quot;, wenn ei
    * Ändert die Farbe
    * Legt es als Standard fest
    * Fügt die Beschreibung der Priorität hinzu, ändert sie oder entfernt sie
-   * Blendet die Priorität aus oder zeigt sie an
+   * Blendet die Priorität ein oder aus
 
 * Löscht eine Priorität
 
 Weitere Informationen zur Konfiguration von Prioritäten finden Sie unter [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Projektpräferenzen {#project-preferences}
+### Projektpräferenz {#project-preference}
 
 Das System generiert einen Auditprotokolleintrag &quot;Projektvoreinstellungen&quot;, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
@@ -315,9 +317,9 @@ Das System generiert einen Status-Auditprotokolleintrag, wenn ein Benutzer eine 
 
 Weitere Informationen zu Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
-### Einstellungen für Aufgaben und Anfragen {#tasks-issues-preferences}
+### Voreinstellungen für Aufgaben und Probleme {#tasks-issues-preferences}
 
-Das System generiert einen Auditprotokolleintrag &quot;Aufgaben und Probleme - Voreinstellungen&quot;, wenn ein Benutzer die Voreinstellung für Aufgaben und Probleme auf eine der folgenden Arten ändert:
+Das System generiert einen Auditprotokolleintrag &quot;Aufgaben und Probleme - Voreinstellungen&quot;, wenn ein Benutzer eine der folgenden Arten ändert:
 
 * Sperrt oder entsperrt eine Voreinstellung
 * Ändert die Einstellung für eine Voreinstellung
@@ -325,21 +327,21 @@ Das System generiert einen Auditprotokolleintrag &quot;Aufgaben und Probleme - V
 
 Weitere Informationen zu Aufgaben- und Problemeinstellungen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-### Benutzer {#user}
+### Benutzerin oder Benutzer {#user}
 
 Das System generiert einen Benutzerprüfungsprotokolleintrag, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
-* Erstellt einen Benutzer
+* Benutzer erstellen
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+  >[!NOTE]
+  >
+  >Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * Löscht einen Benutzer
 * Ändern der Zugriffsebene, des Unternehmens, des Teams oder der Gruppe eines Benutzers

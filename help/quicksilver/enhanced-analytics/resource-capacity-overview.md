@@ -7,16 +7,20 @@ description: Sie können bei der Anzeige des Diagramms zur Visualisierung der er
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Anzeigen der Visualisierung der Ressourcenkapazität in Enhanced Analytics
 
+<!--Audited: 01/2024-->
+
 Sie können bei der Anzeige des Diagramms zur Visualisierung der erweiterten Analyseressourcen in Adobe Workfront beurteilen, ob ein Team beendet ist, unter oder mit Kapazität ist.
+
+Die in der Ressourcenvisualisierung dargestellten Teams beziehen sich auf das Startseiten-Team von Benutzern, die während des angegebenen Zeitraums der Arbeit zugewiesen wurden.
 
 ## Zugriffsanforderungen
 
@@ -56,9 +60,9 @@ Sie müssen über Folgendes verfügen:
 
 Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Diagramm zur Ressourcenkapazität
+## Visualisierung der Ressourcenkapazität
 
-Das Diagramm Ressourcenkapazität zeigt an, ob ein Team vorbei ist, unterhalb- oder arbeitsfähig ist. Diese Berechnung basiert auf:
+Die Visualisierung der Ressourcenkapazität zeigt an, ob ein Team vorbei ist, unterhalb der Kapazitäten ist oder nicht. Diese Berechnung basiert auf:
 
 * **Verfügbare Kapazität**: Die Gesamtdauer der Stunden, die ein Heimteam für die Arbeit in dem gefilterten Zeitraum zur Verfügung hat
 
@@ -90,24 +94,25 @@ In der Visualisierung der Ressourcenkapazität sehen Sie die folgenden Details:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Wenn Sie den Mauszeiger über eine Zeile bewegen, werden die genaue Anzahl der Stunden für die geplante Kapazität und die verfügbare Kapazität sowie die Anzahl der Stunden angezeigt, die das Heimteam verbringt oder zu wenig Kapazität hat.
+Wenn Sie den Mauszeiger über die Zeile eines Teams bewegen, werden die genaue Anzahl der Stunden für die geplante Kapazität und die verfügbare Kapazität sowie die Anzahl der Stunden angezeigt, die das Heimteam über- oder unterbesetzt hat.
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
-* Wenn das Heimteam überzugewiesen oder unterzugewiesen wurde.
-* Die größten Projekte waren, auf die sich das Heimteam konzentrierte.
-* Welche Heimteams stehen zur Arbeit zur Verfügung.
+* Wenn das Team überzugewiesen oder unterzugewiesen ist.
+* Die größten Projekte sind, auf die sich das Heimteam konzentriert.
+* Welche Teams stehen zur Arbeit zur Verfügung.
 
 Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisierung der Ressourcenkapazität anzeigen
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+{{step1-to-analytics}}
+
 1. Wählen Sie im linken Bereich die Option **Personen**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
+1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie in der oberen rechten Ecke des Diagramms aus dem Datumsbereichfilter die Option Neues Start- und Enddatum aus.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,11 +130,19 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Bewegen Sie den Mauszeiger über die Startseite, um zu sehen, wie viele Stunden noch geplant werden können, wie viele Stunden das Heimteam voraussichtlich abschließen wird und wie viele Stunden insgesamt gearbeitet wurden, d. h. über, unter oder nach Kapazität.
+1. Bewegen Sie den Mauszeiger über die Startseite, um Folgendes anzuzeigen:
+
+   * Wie viele Stunden noch geplant werden können
+   * Die für den Abschluss des Heimteams geplanten Stunden
+   * Die Gesamtzahl der geleisteten Arbeitsstunden. Die Gesamtzahl der geleisteten Arbeitsstunden könnte die folgenden Beschriftungen aufweisen:
+
+      * Over
+      * under
+      * In Betrieb.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie in der oberen rechten Ecke der Visualisierung das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**
