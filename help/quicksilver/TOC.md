@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 0%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 0%
          * [Übersicht über Aufgabenbegrenzungen: so spät wie möglich](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * Aufgabendauer und -dauer {#task-duration-and-duration-types}
-         * [Aufgabendauer und -dauer](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [Aufgabendauer und -dauer Typen: Artikelindex](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Übersicht über Aufgabendauer und -dauer](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Übersicht über den Dauer-Typ: Berechnete Zuweisung](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [Übersicht über den Durationstyp: Aufwandsorientiert](manage-work/tasks/taskdurtn/effort-driven.md)

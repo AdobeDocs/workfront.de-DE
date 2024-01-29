@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Aufgabendauer und -dauer
+title: "Aufgabendauer und -dauer Typen: Artikelindex"
 description: Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Aufgabe zugewiesenen Ressourcen, dem Gesamtaufwand und der Gesamtdauer der Aufgabe an. In den folgenden Artikeln erfahren Sie mehr über die Dauer und die Dauer der Aufgabe.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# Aufgabendauer und -dauer
+# Aufgabendauer und -dauer Typen: Artikelindex
 
-Dieser Abschnitt enthält die folgenden Artikel:
+<!-- Audited: 1/2024 -->
+
+Dieser Index enthält Links zu den folgenden Artikeln:
 
 * [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 * [Aktualisierung des Zeitdauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)

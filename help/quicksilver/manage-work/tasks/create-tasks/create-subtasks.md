@@ -6,7 +6,7 @@ description: In Workfront können Aufgaben über Beziehungen zwischen über- und
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Erstellen von Unteraufgaben
+
+<!-- Audited: 1/2024 -->
 
 In Workfront können Aufgaben über Beziehungen zwischen über- und untergeordneten Aufgaben verfügen. Untergeordnete Aufgaben werden als Unteraufgaben bezeichnet. Sie können in der Aufgabenliste Unteraufgaben erstellen, indem Sie eine Hauptaufgabe zu einer Unteraufgabe machen. Sie können eine Unteraufgabe auch zu einer Hauptaufgabe machen.
 

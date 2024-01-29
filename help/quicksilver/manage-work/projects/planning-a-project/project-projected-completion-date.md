@@ -7,7 +7,7 @@ description: Das geplante Abschlussdatum ist ein berechneter Echtzeitindikator d
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme
+
+<!-- Audited: 1/2024 -->
 
 Das geplante Abschlussdatum ist ein berechneter Echtzeitindikator dafür, wann das Projekt, die Aufgabe oder das Problem abgeschlossen sein wird. Wenn das Projekt, die Aufgabe oder das Problem als abgeschlossen markiert ist, ändert sich das vorgeschlagene Abschlussdatum in das Datum des tatsächlichen Abschlussdatums.
 

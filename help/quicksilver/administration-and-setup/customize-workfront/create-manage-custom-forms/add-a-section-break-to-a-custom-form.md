@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,23 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen und Konfigurieren des Zugriffs für einen Abschnitt in einem benutzerdefinierten Formular
 

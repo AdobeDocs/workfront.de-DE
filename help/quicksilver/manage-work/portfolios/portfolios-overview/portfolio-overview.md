@@ -7,14 +7,16 @@ description: Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Mer
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Portfolio in [!DNL Adobe Workfront]
+
+<!-- Audited: 1/2024 -->
 
 Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitnischen. Sie können Portfolios in Programme unterteilen und sie mit den Programmen verknüpfen, bevor sie einem Portfolio hinzugefügt werden.
 
@@ -22,7 +24,12 @@ Sie können Projekte mithilfe von Portfolios und Programmen organisieren. Durch 
 
 ## Für die Erstellung von Portfolios benötigter Zugriff
 
-Sie müssen [!UICONTROL Bearbeiten] Zugriff auf Portfolio in Ihrer Zugriffsebene, um Portfolio zu erstellen und zu verwalten, und Sie müssen über [!UICONTROL Verwalten] Berechtigungen für ein Portfolio, um es bearbeiten zu können. Sie müssen [!UICONTROL Ansicht] -Berechtigungen für ein Portfolio, um es sehen zu können.\
+Sie müssen über folgenden Zugriff verfügen, um Portfolios erstellen und verwalten zu können:
+
+* [!UICONTROL Bearbeiten] Zugriff auf Portfolio in Ihrer Zugriffsebene zum Erstellen und Verwalten von Portfolios
+* [!UICONTROL Verwalten] Berechtigungen für ein Portfolio zur Bearbeitung
+* [!UICONTROL Ansicht] Berechtigungen für ein Portfolio, um es sehen zu können
+
 Informationen zum Zugriff auf Portfolios finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Portfolio freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
@@ -36,7 +43,7 @@ Wir empfehlen Ihnen, die folgenden Schritte für eine effiziente Organisation Ih
 
 1. Erstellen Sie ein Geschäftsszenario für ein Projekt und verknüpfen Sie das Projekt mit einem Portfolio.
 1. Verknüpfen Sie Ressourcen-Pools mit Projekten beim Erstellen ihres Geschäftsfeldes.
-1. Rufen Sie die [!UICONTROL Geschäftsfall] von Ihrem Portfolio Manager genehmigt.
+1. Rufen Sie die [!UICONTROL Geschäftsfall] von Ihrem Portfolio-Manager genehmigt.
 1. Verwalten Sie die Leistung Ihrer Projekte im Portfolio im [!UICONTROL Portfolio Optimizer].
 
 Um effiziente Portfolios zu erstellen, die für Ihr Unternehmen von Nutzen sind, müssen Sie mit einer Projektanfrage beginnen, in der Sie für jedes Projekt, das später zum Portfolio hinzugefügt wird, den Geschäftsfall definieren.
@@ -47,7 +54,7 @@ Die [!UICONTROL Geschäftsfall] enthält die folgenden Informationen:
 * Ziele des Projekts
 * Veranschlagte Kosten
 * Ressourcenbudgets für Arbeitskosten
-* Ausrichtungswert
+* Alignment-Wert
 * Eine Risikobewertung
 
 Weitere Informationen zum [!UICONTROL Geschäftsfall], siehe [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).

@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -58,11 +58,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Fahren Sie auf der angezeigten Seite mit einem der fünf unten aufgeführten Abschnitte fort, um die Einstellungen für [!UICONTROL Neue Aufgabenstandardwerte], [!UICONTROL Probleme], [!UICONTROL Löschen], [!UICONTROL Tatsächliche Datumswerte], und [!UICONTROL Zugriff].
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-* [[!UICONTROL Voreinstellungen für neue Aufgabe]](#new-task-defaults)
+* [[!UICONTROL Neue Aufgabenstandardwerte]](#new-task-defaults)
 * [[!UICONTROL Probleme]](#issues)
-* [[!UICONTROL Löschung]](#deletion)
-* [[!UICONTROL Tatsächliche Termine]](#actual-dates)
-* [[!UICONTROL Delegierung]](#delegation)
+* [[!UICONTROL Löschen]](#deletion)
+* [[!UICONTROL Tatsächliche Datumswerte]](#actual-dates)
+* [[!UICONTROL Delegation]](#delegation)
 
   <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * [[!UICONTROL Zugriff]](#access)
 
-### [!UICONTROL Voreinstellungen für neue Aufgabe] {#new-task-defaults}
+### [!UICONTROL Neue Aufgabenstandardwerte] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer</a></p> </td> 
+   <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer Typen: Artikelindex</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Umsatz]</td> 
@@ -113,7 +113,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader" [!UICONTROL>Beim Konvertieren eines Problems in eine Aufgabe]</td> 
    <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTIZ</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
+     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
@@ -128,7 +128,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">[!UICONTROL Beim Konvertieren eines Problems in ein Projekt]</td> 
    <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von einem Problem zum Projekt geschieht:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an das Projekt.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis das Projekt abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn das Projekt abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht. </p> <p><b>NOTIZ</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
+     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an das Projekt.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis das Projekt abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn das Projekt abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht. </p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
@@ -140,7 +140,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-### [!UICONTROL Löschung] {#deletion}
+### [!UICONTROL Löschen] {#deletion}
 
 **[!UICONTROL Löschen von Aufgaben und Problemen in angemeldeten Stunden durch Benutzer zulassen]**: Hiermit können Sie festlegen, ob Sie das Löschen von Aufgaben oder Problemen, bei denen Stunden protokolliert werden, zulassen. Diese Option ist standardmäßig ausgewählt.
 
@@ -156,7 +156,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe löschen oder ein Problem mit angemeldeten Stunden beheben oder wenn Sie ein Projekt löschen, für das Stunden für die Aufgaben oder Probleme protokolliert wurden. Der Warnhinweis weist darauf hin, dass der Administrator das Löschen von Aufgaben oder Problemen mit angemeldeten Stunden nicht zulässt. Die Aufgaben, Probleme oder Projekte, bei denen Stunden für Aufgaben und Probleme protokolliert wurden, können nicht gelöscht werden.
 
-### [!UICONTROL Tatsächliche Termine] {#actual-dates}
+### [!UICONTROL Tatsächliche Datumswerte] {#actual-dates}
 
 <table style="table-layout:auto"> 
  <col> 

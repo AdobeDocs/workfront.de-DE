@@ -6,7 +6,7 @@ description: Mit einem einfachen Workflow können mehrere Validierungsverantwort
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Erstellen eines erweiterten Testversands mit einem einfachen Workflow
+
+<!-- Audited: 1/2024 -->
 
 Mit einem einfachen Workflow können mehrere Validierungsverantwortliche einen Testversand durchführen, diese sind jedoch nicht in Phasen unterteilt. Alle hinzugefügten Validierungsverantwortlichen können sofort nach der Erstellung auf den Testversand zugreifen.
 

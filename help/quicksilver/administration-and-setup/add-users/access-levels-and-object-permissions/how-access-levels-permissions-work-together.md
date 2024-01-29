@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
 description: Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene die einzelnen Benutzer haben sollen. Diese Zugriffsebene definiert, was Benutzer mit Objekttypen und -bereichen im System sehen und tun können.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 2%
 
 Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene die einzelnen Benutzer haben sollen. Diese Zugriffsebene definiert, was Benutzer mit Objekttypen und -bereichen im System sehen und tun können.
 
-Außerdem erhalten Benutzer Zugriff auf einzelne Objekte, wenn andere Benutzer diese freigeben und bestimmte Berechtigungen für diese Objekte gewähren.
+Benutzer erhalten auch Zugriff auf einzelne Objekte, wenn andere Benutzer diese Objekte freigeben und bestimmte Berechtigungen gewähren.
 
-Die Aktivitäten, die ein Benutzer mit einem Objekt ausführen kann, werden durch eine Kombination seiner Zugriffsebene und der ihnen für dieses Projekt erteilten Berechtigungen definiert.
 
 ![](assets/security-model-hierachy.png)
 

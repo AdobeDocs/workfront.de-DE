@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1895'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,10 @@ Informationen dazu, wie der Workfront-Administrator Voreinstellungen entsperrt, 
 >
 >* In der Regel bleibt eine entsperrte Voreinstellung auf unbestimmte Zeit entsperrt. Wenn der Workfront-Administrator sie erneut sperrt, wird die Systemeinstellung erneut wirksam und die Einstellungen für die von den Gruppenadministratoren vorgenommene Voreinstellung gehen verloren.
 >* Die Voreinstellungen für die Gruppe, die mit einem Projekt verknüpft ist, haben Vorrang vor den Voreinstellungen, die für die Startseite des Benutzers festgelegt wurden, der das Projekt erstellt.
->* Einige Voreinstellungen auf Gruppenebene wirken sich auf Projektvorlagen aus, die Sie für die Gruppe erstellen. Weitere Informationen finden Sie im Abschnitt . [Anzeigen, Arbeiten mit und Erstellen von Vorlagen für Ihre Gruppe über den Bereich &quot;Gruppen&quot;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Einige Voreinstellungen auf Gruppenebene wirken sich auf Projektvorlagen aus, die Sie für die Gruppe erstellen. Weitere Informationen finden Sie im Abschnitt . [Anzeigen, Arbeiten mit und Erstellen von Vorlagen für Ihre Gruppe über den Bereich Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
 >* Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt hat, können Sie sie konfigurieren und dann sperren, um sicherzustellen, dass alle Mitglieder Ihrer Gruppe und ihrer Untergruppen dieselbe Konfiguration verwenden. Dies entspricht der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle Benutzer im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Voreinstellung zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder eines Problems für Untergruppen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
-
 
 ## Zugriffsanforderungen
 
@@ -48,7 +47,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -70,19 +69,19 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie die entsperrte Aufgabe und die Ausgabevoreinstellungen konfigurieren möchten.
-1. Klicken Sie auf der Seite, die für die Gruppe angezeigt wird, im linken Bereich auf **Voreinstellungen für Aufgaben und Probleme**.
+1. Klicken Sie auf der für die Gruppe angezeigten Seite im linken Bereich auf **Voreinstellungen für Aufgaben und Probleme**.
 1. Fahren Sie auf der angezeigten Seite mit einem der fünf Abschnitte fort, die unter diesen Schritten aufgeführt sind, um die Einstellungen für die Bereiche &quot;Neue Aufgabenstandardwerte&quot;, &quot;Probleme&quot;, &quot;Löschen&quot;, &quot;Tatsächliche Datumswerte&quot;und &quot;Zugriff&quot;zu konfigurieren. Klicken Sie dann auf **Speichern**.
 
    Wenn Sie den Mauszeiger über das Sperrsymbol bewegen ![](assets/lock-toggle-button-dimmed.png) Wenn Sie eine Voreinstellung wünschen, die Sie konfigurieren müssen, und eine QuickInfo angezeigt wird, die Sie darüber informiert, dass gesperrt ist, können Sie Ihren Workfront-Administrator bitten, sie für alle Gruppen in der Organisation zu entsperren.
 
    Wenn sie entsperrt ist, können Sie und andere Gruppenadministratoren sie für Ihre eigenen Gruppen separat konfigurieren. Sie können sie auch für Ihre Gruppe und alle Untergruppen unterhalb Ihrer Gruppe sperren.
 
-   * [Voreinstellungen für neue Aufgabe](#new-task-defaults)
+   * [Neue Aufgabenstandardwerte](#new-task-defaults)
    * [Probleme](#issues)
-   * [Löschung](#deletion)
+   * [Löschen](#deletion)
    * [Tatsächliche Termine](#actual-dates)
 
-      <!--   
+     <!--   
      <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->
 
@@ -100,15 +99,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Dauertyp </p> </td> 
-      <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer</a></p> </td> 
+      <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer Typen: Artikelindex</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Umsatztyp</td> 
-      <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die <strong>Umsatztyp</strong> auf<strong>Nicht abrechenbar</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
+      <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die Variable <strong>Umsatztyp</strong> auf<strong>Nicht abrechenbar</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kostenart</td> 
-      <td> <p>Berechnet geplante und tatsächliche Kostenschätzungen für eine Aufgabe. Wenn auf <strong>Keine Kosten</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine geplante oder tatsächliche Kostenschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
+      <td> <p>Berechnet geplante und tatsächliche Kostenschätzungen für eine Aufgabe. Wenn festgelegt auf <strong>Keine Kosten</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine geplante oder tatsächliche Kostenschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -132,8 +131,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
        <ul> 
         <li><strong>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in Geschlossen , wenn die Aufgabe abgeschlossen ist.</li> 
-        <li><strong>Zugriff auf die Aufgabe durch Primären Kontakt zulassen</strong>: Ermöglicht dem Hauptkontakt (Problemersteller) Zugriff auf die Aufgabe, die Aufgabe zu überprüfen, Aktualisierungen vorzunehmen und über ihren Fortschritt auf dem Laufenden zu bleiben</li> 
-        <li> <p><strong>Zulassen, dass diese Einstellungen während der Konvertierung geändert werden</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p> <!--
+        <li><strong>Zugriff auf die Aufgabe durch Primären Kontakt zulassen</strong>: Ermöglicht dem Hauptkontakt (Problemersteller) Zugriff auf die Aufgabe, die Aufgabe zu überprüfen, Aktualisierungen vorzunehmen und über ihren Fortschritt auf dem Laufenden zu bleiben.</li> 
+        <li> <p><strong>Diese Einstellungen können während der Konvertierung geändert werden</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
@@ -143,8 +142,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von einem Problem zum Projekt geschieht:</p> 
        <ul> 
         <li><strong>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis das Projekt abgeschlossen ist. Der Status des Problems ändert sich automatisch in Geschlossen , wenn das Projekt abgeschlossen ist.</li> 
-        <li><strong>Primären Kontakt Zugriff auf das Projekt gewähren</strong>: Ermöglicht dem Hauptansprechpartner (Problemersteller) Zugriff auf das Projekt, das Projekt zu überprüfen, zu aktualisieren und über den Fortschritt auf dem Laufenden zu bleiben.</li> 
-        <li><strong>Zulassen, dass diese Einstellungen während der Konvertierung geändert werden</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, die aufgelisteten Optionen während der Konvertierung eines Problems in ein Projekt zu ändern.</li> 
+        <li><strong>Primären Kontakt Zugriff auf das Projekt gewähren</strong>: Ermöglicht dem Hauptkontakt (Problemersteller) Zugriff auf das Projekt, um es zu überprüfen, zu aktualisieren und über seinen Fortschritt auf dem Laufenden zu bleiben.</li> 
+        <li><strong>Diese Einstellungen können während der Konvertierung geändert werden</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, die aufgelisteten Optionen während der Konvertierung eines Problems in ein Projekt zu ändern.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -157,14 +156,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Benutzern das Löschen von Aufgaben und Anfragen mit protokollierten Stunden ermöglichen</td> 
+      <td role="rowheader">Benutzenden das Löschen von Aufgaben und Problemen mit protokollierten Stunden ermöglichen</td> 
       <td> <p> Ermöglicht Ihnen zu bestimmen, ob Sie das Löschen von Aufgaben oder Problemen, bei denen Stunden protokolliert werden, zulassen. Diese Option ist standardmäßig ausgewählt.</p> 
        <div> 
         <p><b>Tipp</b>: Diese Einstellung gilt auch für das Löschen von Projekten, bei denen Aufgaben oder Probleme mit Stunden protokolliert sind. Diese Einstellung gilt nicht für das Löschen von Projekten, bei denen die Zeit direkt für das Projekt protokolliert wird. </p> 
         <p>Beachten Sie Folgendes:</p> 
         <ul> 
-         <li> <p>Wenn diese Option aktiviert ist, erhalten Sie beim Löschen einer Aufgabe oder eines Problems eine Informationswarnung. Die Warnung weist Sie darauf hin, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden, und zwar im Bereich "Voreinstellungen"unter "Planung". Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunden finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Zeitblatt- und Stundenvoreinstellungen konfigurieren</a>. </p> <p>Tipp: <span>Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, die Stunden protokolliert haben, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich "Voreinstellungen"unter "Einrichtung"im Bereich "Zeitblatt &amp; Stunden"beibehalten</span>. </p> </li> 
-         <li><span>Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe löschen oder ein Problem mit angemeldeten Stunden beheben oder wenn Sie ein Projekt löschen, bei dem Stunden für seine Aufgaben oder Probleme protokolliert wurden</span> <span>.</span> In der Warnung wird angegeben, dass der Administrator das Löschen von Aufgaben oder Problemen mit angemeldeten Stunden nicht zulässt. Aufgaben, Probleme<span>oder Projekten, bei denen Stunden für Aufgaben und Probleme protokolliert wurden</span> kann nicht gelöscht werden. </li> 
+         <li> <p>Wenn diese Option ausgewählt ist, erhalten Sie eine Informationswarnung, wenn Sie eine Aufgabe oder ein Problem löschen. Die Warnung weist Sie darauf hin, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden, und zwar im Bereich "Voreinstellungen"unter "Planung". Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunden finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Zeitblatt- und Stundenvoreinstellungen konfigurieren</a>. </p> <p>Tipp: <span>Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, die Stunden protokolliert haben, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich "Voreinstellungen"unter "Einrichtung"im Bereich "Zeitblatt &amp; Stunden"beibehalten</span>. </p> </li> 
+         <li><span>Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe löschen oder ein Problem mit angemeldeten Stunden beheben oder wenn Sie ein Projekt löschen, bei dem Stunden für seine Aufgaben oder Probleme protokolliert wurden</span> <span>.</span> Der Warnhinweis weist darauf hin, dass der Administrator das Löschen von Aufgaben oder Problemen mit angemeldeten Stunden nicht zulässt. Aufgaben, Probleme<span>oder Projekten, bei denen Stunden für Aufgaben und Probleme protokolliert wurden</span> kann nicht gelöscht werden. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -230,16 +229,16 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader">Wenn jemand einer Aufgabe zugewiesen ist</td> 
       <td> 
        <ul> 
-        <li><strong>Gewähren Sie ihnen Zugriff auf eine Aufgabe.</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Benutzern Zugriff gewähren</a>.</li> 
-        <li> <p><strong>Gewähren Sie ihnen auch ... Zugriff auf das Projekt.</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem ihm eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
+        <li><strong>Zugriff auf eine Aufgabe gewähren</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Benutzern Zugriff gewähren</a>.</li> 
+        <li> <p><strong>Gewähren Sie ihnen auch ... Zugriff auf das Projekt.</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wenn jemand einem Problem zugewiesen ist</td> 
       <td> 
        <ul> 
-        <li><strong>Gewähren Sie ihnen Zugriff auf eine Aufgabe.</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
-        <li> <p><strong>Gewähren Sie ihnen auch ... Zugriff auf das Projekt.</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem ihm eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
+        <li><strong>Zugriff auf eine Aufgabe gewähren</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
+        <li> <p><strong>Gewähren Sie ihnen auch ... Zugriff auf das Projekt.</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 

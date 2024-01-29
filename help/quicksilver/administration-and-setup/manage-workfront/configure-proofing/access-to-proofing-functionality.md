@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Es gibt derzeit drei Planungsoptionen für Testsendungen in Workfront:
 
 * **Neue Workfront-Pläne**: Die Testversandliste wird automatisch für alle Lizenzen in den neuen Workfront-Plänen hinzugefügt.
 * **Aktuelle Workfront Pro+-Abos**: Die Proofing-Funktion wird automatisch für Arbeits- und Planungslizenzen übernommen, wenn Sie über die Workfront-Pläne für Profis, Unternehmen oder Unternehmen verfügen.
-* **Alte Workfront Premium-Pläne**: Diese Option ist für veraltete Workfront-Pläne vorgesehen - Wählen Sie &quot;Enterprise&quot;, &quot;Premium&quot;. Der Testversand wird nicht automatisch in die Lizenzen dieses Plans aufgenommen. Sie müssen bestimmten Benutzern in ihrem Benutzerprofil einen Testversandzugriff gewähren.
+* **Ältere Workfront Premium-Pläne**: Diese Option ist für veraltete Workfront-Pläne vorgesehen - Wählen Sie &quot;Enterprise&quot;, &quot;Premium&quot;. Der Testversand wird nicht automatisch in die Lizenzen dieses Plans aufgenommen. Sie müssen bestimmten Benutzern in ihrem Benutzerprofil einen Testversandzugriff gewähren.
 
   Wenn Sie Workfront-Administrator sind, können Sie unter Einrichtung > System > Lizenzen überprüfen, welchen Plan Ihre Instanz durchführt.
 

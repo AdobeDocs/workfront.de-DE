@@ -6,11 +6,11 @@ keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Zeitpläne - Übersicht
 description: Sie können Ihre Arbeitswoche mithilfe von Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder einem Projekt verknüpfen. Dies ermöglicht Folgendes [!DNL Adobe Workfront] zur Berechnung der Zeitpläne und der Benutzerverfügbarkeit. Anweisungen finden Sie unter Zeitplan erstellen .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Zeitpläne - Übersicht
 
+<!-- Audited: 1/2024 -->
+
 Sie können Ihre Arbeitswoche mithilfe von Zeitplänen definieren und einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dies ermöglicht Folgendes [!DNL Adobe Workfront] zur Berechnung der Zeitpläne und der Benutzerverfügbarkeit. Anweisungen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Beachten Sie beim Arbeiten mit Zeitplänen in Workfront Folgendes:
 
 * Die [!DNL Workfront] -Administrator identifiziert die Betriebszeiten für die Organisation in einem Zeitplan.
 
-  Auf ähnliche Weise kann ein Gruppenadministrator die Betriebsstunden eines Zeitplans identifizieren, der von einer von ihm verwalteten Gruppe verwaltet wird.
-
-  Weitere Informationen zu Gruppenadministratoren finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Auf ähnliche Weise kann ein Gruppenadministrator die Betriebsstunden eines Zeitplans identifizieren, der von einer von ihm verwalteten Gruppe verwaltet wird. Weitere Informationen zu Gruppenadministratoren finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Beispielsweise kann ein Zeitplan wie folgt definiert werden: Montag bis Freitag, 8:00 bis 17:00 Uhr mit einer Stundenpause für das Mittagessen.
 
