@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
          </td>
       </tr>
       <tr>
-         <td>Festlegen eines Termins
+         <td>Frist festlegen
          </td>
          <td>
       <ol>
@@ -248,6 +248,18 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 ## Schritt 1: Erste Schritte mit Maestro - {#step1-to-maestro}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Maestro]**.
+
+## Maestro important intro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
+>
+>Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
+>
+>Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
+>
+>Weitere Informationen zu Maestro finden Sie unter [Übersicht über Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

@@ -6,22 +6,29 @@ description: Sie können Ihre Berichte durch Hinzufügen eines Diagramms erweite
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Diagramm zu einem Bericht hinzufügen
 
+<!--Audited: 01/2024-->
+
 Sie können Ihre Berichte durch Hinzufügen eines Diagramms erweitern. Sie können Diagramme zu vorhandenen Berichten oder zu Berichten hinzufügen, die Sie erstellen.
 
-Bevor Sie einem Bericht ein Diagramm hinzufügen, sollten Sie eine Ansicht und eine Gruppierung für den Bericht erstellen. Die meisten Diagramme können nur hinzugefügt werden, wenn die Informationen im Bericht gruppiert sind. Das einzige Diagramm, das ohne Gruppierung hinzugefügt werden kann, ist ein Lichtraumdiagramm.\
-Informationen zum Erstellen einer Ansicht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Bevor Sie einem Bericht ein Diagramm hinzufügen, sollten Sie eine Ansicht und eine Gruppierung für den Bericht erstellen.
+
+Sie können den meisten Berichten nur dann Grafiken hinzufügen, wenn Sie die Informationen im Bericht zuerst gruppieren. Das einzige Diagramm, das ohne Gruppierung hinzugefügt werden kann, ist ein Lichtraumdiagramm.
+
+Weitere Informationen zu Ansichten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Weitere Informationen zu Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Wenn Ihr Bericht zu viele Elemente anzeigt, wird kein Diagramm erstellt. In diesem Fall müssen Sie dem Bericht auch einen Filter hinzufügen, um die Anzahl der Ergebnisse in Ihrem Bericht zu reduzieren.\
+Wenn Ihr Bericht zu viele Elemente anzeigt, wird kein Diagramm erstellt. In diesem Fall müssen Sie dem Bericht auch einen Filter hinzufügen, um die Anzahl der Ergebnisse in Ihrem Bericht zu reduzieren.
+
 Weitere Informationen zu Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Zugriffsanforderungen
@@ -33,33 +40,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Aktuell: Plan </p>
+   Oder
+   <p>Neu: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Diagramm zu einem Bericht hinzufügen
 
 1. Öffnen Sie einen vorhandenen Bericht oder erstellen Sie einen neuen. Weitere Informationen zur Erstellung eines neuen Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Bedingt) Wenn Sie zu einem vorhandenen Bericht gewechselt sind, klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
 
-1. Stellen Sie sicher, dass **Spalten (Ansicht)** wurde entsprechend den Anforderungen des Berichts aktualisiert.\
-   Informationen zum Erstellen oder Ändern der Ansicht für den Bericht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Stellen Sie sicher, dass **Spalten (Ansicht)** wurde aktualisiert, um die Informationen anzuzeigen, die Sie im Bericht grafisch darstellen möchten.
+
+   Informationen zum Erstellen oder Ändern der Ansicht für den Bericht finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Klicken Sie auf **Gruppierungen** und eine Gruppierung hinzufügen.
 
@@ -67,15 +77,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Sie können einem Bericht nur dann eine Grafik hinzufügen, wenn die Berichtsergebnisse gruppiert sind.
    >* Gruppierungen im Textmodus werden in Diagrammen nicht unterstützt. Weitere Informationen zu Textmodusgruppierungen finden Sie unter [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* Wenn Sie eine einzelne Gruppierung hinzufügen, die eine Metrik darstellt, werden in allen Grafiken mit Ausnahme eines Kreisdiagramms alle Ergebnisse in der Gruppierung in derselben Farbe angezeigt.
+   >* Wenn Sie eine einzelne Gruppierung hinzufügen, die eine Metrik darstellt, werden in allen Diagrammen mit Ausnahme eines Tortendiagramms alle Ergebnisse in der Gruppierung in derselben Farbe angezeigt.
 
-   Weitere Informationen zu Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Wählen Sie die **Diagramm** Registerkarte.
 1. Klicken Sie auf einen Diagrammtyp, um ihn auszuwählen.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Sie können die folgenden Diagrammtypen zu einem Adobe Workfront-Bericht hinzufügen:
+1. Wählen Sie aus den folgenden Grafiktypen aus:
 
    * [Spaltendiagramm](#column-chart)
    * [Balkendiagramm](#bar-chart)
@@ -100,12 +110,13 @@ So fügen Sie eine **Spalte** Diagramm zu Ihrem Bericht hinzufügen:
 1. (Optional) **Gruppenspalten**: Wählen Sie diese Option, um festzulegen, wie die Spalten gruppiert werden sollen.\
    Wählen Sie aus den folgenden Optionen aus:
 
-   * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Spalten angezeigt werden sollen:\
-     **- Seite an Seite**
-     **- gestapelt**
-     **- Gestapelt zu 100 %**
+   * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Spalten angezeigt werden sollen:
 
-   * Wählen Sie die Gruppierung aus, die Sie in die Grafik aufnehmen möchten.
+      * **Seite nach Seite**
+      * **Gestapelt**
+      * **Gestapelt zu 100 %**
+
+   * Wählen Sie die Gruppierung aus, die Sie in die Grafik aufnehmen möchten. **Gruppieren von Daten nach** Dropdown-Menü.
    * (Optional) Wählen Sie **Benutzerdefinierte Farben** um die Farben der Spalten anzupassen.\
      Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Grafikfarben anpassen](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ So fügen Sie eine **Balken** Diagramm zu Ihrem Bericht hinzufügen:
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Grafikfarben anpassen](#customize-chart-colors).
 
 1. (Optional) Wählen Sie **In 3D anzeigen** um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
-1. (Optional) Gruppenbalken**: Wählen Sie diese Option, um festzulegen, wie die Balken gruppiert werden sollen.\
+1. (Optional) Wählen Sie **Gruppenbalken** um festzulegen, wie die Balken gruppiert werden sollen.\
    Wählen Sie aus den folgenden Optionen aus:
 
-   * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Balken angezeigt werden sollen:\
-     **- Seite an Seite**
-     **- gestapelt**
-     **- Gestapelt zu 100 %**
+   * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Balken angezeigt werden sollen:
 
-   * Wählen Sie die Gruppierung aus, die Sie in die Grafik aufnehmen möchten.
+      * **Seite nach Seite**
+      * **Gestapelt**
+      * **Gestapelt zu 100 %**
+
+   * Wählen Sie aus der **Gruppieren von Daten nach** Dropdown-Menü.
    * (Optional) Wählen Sie **Benutzerdefinierte Farben** um die Farben Ihrer Spalten anzupassen.\
      Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Grafikfarben anpassen](#customize-chart-colors).
 

@@ -6,37 +6,14 @@ description: Sie können die agile Funktionalität für Ihr Projekt ohne die adm
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Projekt in der Agile-Ansicht verwalten
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 Sie können die agile Funktionalität für Ihr Projekt ohne die administrativen Herausforderungen nutzen, die normalerweise mit agilen Vorgehensweisen einhergehen (z. B. Verwaltung eines Team-Rückstands oder Erstellung von Iterationen).
 
@@ -51,30 +28,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td> <p>Aktuell: Überprüfen oder höher</p> 
+   <p>Neu: Mitarbeiter oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf die folgenden Bereiche:</p> 
     <ul> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Berichte, Dashboards, Kalender</p> </li> 
      <li> <p>Filter, Ansichten, Gruppierungen</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt anzeigen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Grundlegendes zu Agile-Projekten
 
@@ -111,7 +89,9 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 * Aufgaben, die weder eine übergeordnete Aufgabe noch eine Unteraufgabe haben, werden immer als eine einzige Storykarte auf dem Storyboard angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
 
-  ![Agile Projektliste - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-single-list-nwe.png) Diese Aufgaben werden in der agilen Projektansicht wie folgt angezeigt:
+  ![Agile Projektliste - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-single-list-nwe.png)
+
+  Diese Aufgaben werden in der agilen Projektansicht wie folgt angezeigt:
 
   ![Projektansicht in der Mobile-Ansicht - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
 1. Wechseln Sie zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten, entweder in der Aufgabenliste oder in der Problemliste.
-1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
+1. Klicken Sie auf **Pinnwandansicht** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
 
    Die Pinnwandansicht des Projekts wird standardmäßig angezeigt.
 
@@ -210,7 +190,9 @@ Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie unt
 >
 >Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
-Informationen zum Freigeben einer agilen Ansicht finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Sie können eine von Ihnen erstellte Agile-Ansicht auf dieselbe Weise freigeben oder sie filtern oder gruppieren wie andere Ansichten.
+
+Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Vorhandene Agile-Ansicht entfernen
 
@@ -218,4 +200,6 @@ Informationen zum Freigeben einer agilen Ansicht finden Sie unter [Filter, Ansic
 >
 >Dieser Abschnitt gilt nur für die veraltete Agile-Ansicht, nicht für die Pinnwandansicht eines Projekts.
 
-Informationen zum Löschen einer Ansicht finden Sie im Abschnitt &quot;Ansicht entfernen&quot;im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Sie können eine Agile-Ansicht auf dieselbe Weise entfernen wie jede andere Ansicht, Filter oder Gruppierung.
+
+Weitere Informationen finden Sie unter [Filter, Ansichten und Gruppierungen entfernen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

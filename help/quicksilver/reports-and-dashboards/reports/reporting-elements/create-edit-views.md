@@ -6,7 +6,7 @@ description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeige
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -57,7 +57,7 @@ Der Prozess zum Erstellen oder Anpassen einer Ansicht hängt davon ab, ob Sie ei
 
 ### Standardansicht erstellen oder anpassen {#create-or-customize-a-standard-view}
 
-Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Standardansicht anpassen.
+Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardansicht anpassen, die Sie zuvor erstellt haben.
 
 1. Klicken Sie auf **Ansicht** Dropdown-Menü in jeder Liste, in der Sie eine Ansicht erstellen oder anpassen möchten.
 1. (Optional) Um eine vorhandene Ansicht anzupassen, wählen Sie die Standardansicht aus, die Sie anpassen möchten.\
@@ -68,10 +68,10 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
 1. Im **Spaltenvorschau** führen Sie einen der folgenden Schritte aus:
 
    * Ändern Sie den Wert einer Spalte, indem Sie auf den Spaltentitel klicken und dann ein neues Feld auswählen.
-   * Fügen Sie eine Spalte hinzu, indem Sie auf **Spalte hinzufügen**, geben Sie den Namen der Spalte ein, die Sie hinzufügen möchten, und klicken Sie dann auf sie, wenn sie in der Dropdown-Liste angezeigt wird.
+   * Spalte durch Klicken auf **Spalte hinzufügen**, geben Sie den Namen der Spalte ein, die Sie hinzufügen möchten, und klicken Sie dann auf sie, wenn sie in der Dropdown-Liste angezeigt wird.
    * Passen Sie die Anzeigereihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
-      * (Optional) Im **Spalteneinstellungen** Bereich, klicken Sie auf **Zusammenfassen dieser Spalte nach** eine der verfügbaren Optionen für die Zusammenfassung der Informationen auswählen. Bei Auswahl dieser Option werden die Informationen in der Spalte in den Berichtsgruppen aggregiert.\
+      * (Optional) Im **Spalteneinstellungen** Bereich, klicken Sie auf die **Zusammenfassen dieser Spalte nach** eine der verfügbaren Optionen für die Zusammenfassung der Informationen auswählen. Bei Auswahl dieser Option werden die Informationen in der Spalte in den Berichtsgruppen aggregiert.\
         Für Datumsfelder können Sie die Werte anhand der folgenden Optionen zusammenfassen:
 
          * Maximum
@@ -90,8 +90,8 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
         >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
         >   
         >   * Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
-        >   * Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und die Einzelaufgaben. sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-        >   * Benutzerdefinierte Datenfelder für Zahlenwerte und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
+        >   * Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und Einzelaufgaben; sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+        >   * Benutzerdefinierte Datenfelder für Zahlungs- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
         >   
         >
 
@@ -117,7 +117,7 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Spaltenregeln</strong></td> 
-           <td><p>Klicken <strong>Eine Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicken <strong>Regel hinzufügen</strong> nach der Definition der Regel.</p></td> 
+           <td><p>Klicks <strong>Eine Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicks <strong>Regel hinzufügen</strong> nach der Definition der Regel.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -126,9 +126,9 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
 
 1. (Bedingt) Wenn Sie auf **Erweiterte Optionen** klicken **Fertig**.
 
-1. Klicken **Ansicht speichern** , um eine neue Ansicht zu erstellen oder die aktuelle Ansicht durch Ihre Änderungen zu ersetzen.\
+1. Klicks **Ansicht speichern** , um eine neue Ansicht zu erstellen oder die aktuelle Ansicht durch Ihre Änderungen zu ersetzen.\
    Oder\
-   Klicken **Als neue Ansicht speichern** , um Ihre Änderungen als neue Ansicht zu speichern.
+   Klicks **Als neue Ansicht speichern** , um Ihre Änderungen als neue Ansicht zu speichern.
 
    >[!TIP]
    >
@@ -138,7 +138,7 @@ Sie können eine neue Standardansicht erstellen oder eine bereits erstellte Stan
 
 ### Erstellen oder Anpassen einer Agile-Ansicht {#create-or-customize-an-agile-view}
 
-Sie können eine neue Agile-Ansicht erstellen oder eine vorhandene Agile-Ansicht anpassen, die Sie zuvor erstellt haben.
+Sie können eine Agile-Ansicht erstellen oder eine vorhandene Agile-Ansicht anpassen, die Sie zuvor erstellt haben.
 
 >[!IMPORTANT]
 >
@@ -183,7 +183,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Die Statusspalten neu anordnen:</strong> </td> 
-      <td> Ziehen Sie eine Statusspalte in die Reihenfolge, in der sie angezeigt werden soll.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td> Ziehen Sie eine Statusspalte an die gewünschte Position.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Statusspalten entfernen:</strong> </td> 
@@ -207,24 +207,24 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td role="rowheader"><strong>Meldung:</strong> </td> 
       <td>Alle Unteraufgaben stimmen mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Geschichten in jeder Swimlane identisch sind.<br>Farben werden Aufgaben zufällig zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Freiform:</strong> </td> 
+      <td role="rowheader"><strong>Kostenlose Form:</strong> </td> 
       <td> Alle Karten werden standardmäßig als blau angezeigt, bis ein Benutzer die Farbe manuell ändert, wie im Artikel beschrieben <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Kategorisieren von Meldungen nach Farbe auf der Scrum-Pinnwand</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorität:</strong> </td> 
       <td> <p> Farben sind mit der Priorität der Geschichte wie folgt verknüpft:</p> 
        <ul> 
-        <li>Hoch = Rot</li> 
+        <li>Hoch = rot</li> 
         <li>Mittel = Gelb</li> 
         <li>Niedrig = Grün<br>Wenn Ihr Workfront-Administrator benutzerdefinierte Prioritäten für Ihr Workfront-System konfiguriert hat, ist die höchste Priorität rot, die zweithöchste gelb und die übrigen grün.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aufgabenbesitzer:</strong> </td> 
+      <td role="rowheader"><strong>Aufgabeneigentümer:</strong> </td> 
       <td> Alle Geschichten mit dem gleichen Hauptverantwortlichen haben dieselbe Farbe.<br>Der primäre Verantwortliche ist der Benutzer, der der Aufgabe zuerst zugewiesen wurde. </td> 
      </tr> 
     </tbody> 
@@ -238,7 +238,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
 
    * Name der Meldung mit einem Link direkt zur Aufgabe
    * Der Projektname mit einem Link direkt zum Projekt\
-     Dieser Link wird nur bei Verwendung der agilen Ansicht bei einer Iteration angezeigt. sie wird bei Verwendung einer Agile-Ansicht in einem Projekt nicht angezeigt.
+     Dieser Link wird nur bei Verwendung der agilen Ansicht in einer Iteration angezeigt. Er wird nicht angezeigt, wenn eine Agile-Ansicht in einem Projekt verwendet wird.
    * Aufgabenbeschreibung
    * Aktuelle Zusage
    * Anzeigen und Bearbeiten der prozentualen Vollständigkeit entweder durch Anpassung der prozentualen Vollständigkeit selbst oder durch Anpassung der Anzahl der vollständigen Punkte oder Stunden

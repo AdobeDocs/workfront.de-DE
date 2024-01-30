@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # Hauptmenü mithilfe einer Layoutvorlage anpassen
 
-Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layoutvorlage verwenden, um die Optionen zu konfigurieren, die Benutzern beim Öffnen des Hauptmenüs in Workfront angezeigt werden:
+<!--Audited: 01/2024-->
+
+Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layoutvorlage verwenden, um die Optionen zu konfigurieren, die Benutzern beim Öffnen des Hauptmenüs in Workfront angezeigt werden.
 
 ![Optionen des Hauptmenüs](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -41,32 +43,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
-   <td>Plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td><p>Aktuell:Plan</p>
+   Oder
+   <p>Neu: Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.</p>
+    <p>Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Anpassen des Hauptmenüs
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Hauptmenü anpassen
 
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie beschrieben in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicken **Hauptmenü festlegen** in der Nähe der oberen rechten Ecke.
+1. Klicks **Hauptmenü festlegen** in der oberen rechten Ecke der Vorlage.
 
-   Im angezeigten Feld Hauptmenü können Sie die Elemente sehen, die derzeit im Hauptmenü der Vorlage aktiv sind, sowie die Elemente, die hinzugefügt werden können. Im Folgenden finden Sie alle möglichen Elemente, die hinzugefügt werden können:
-
+   Das Feld Hauptmenü wird geöffnet. Es werden die Bereiche angezeigt, die derzeit im Hauptmenü der Vorlage angezeigt werden, sowie die Elemente, die hinzugefügt werden können. Im Folgenden finden Sie alle möglichen Elemente, die Sie hinzufügen können:
    * Startseite
 
      >[!TIP]
      >
-     >Standardmäßig wird &quot;Home&quot;als &quot;Meine Updates für Benutzer von Review-Lizenzen&quot;angezeigt, es sei denn, ihnen ist eine Layoutvorlage zugeordnet, die den Bereich Meine Updates im Hauptmenü enthält.
+     >Standardmäßig zeigt das Startseiten-Symbol im Hauptmenü den Bereich Meine Updates für Benutzer von Review-Lizenzierungen (im aktuellen Lizenzplan) an, es sei denn, ihnen ist eine Layoutvorlage zugeordnet, die neben dem Startbereich auch den Bereich Meine Updates im Hauptmenü enthält.
 
    * Portfolios
    * Programme
@@ -79,17 +85,17 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
      >[!NOTE]
      >
-     >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     >Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Benutzende
 
      >[!NOTE]
      >
-     >Nur Benutzer mit einer Planungslizenz können Benutzer sehen ![](assets/users-icon-in-main-menu.png) im Hauptmenü.
+     >Nur Benutzer mit einer Planungslizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standardlizenz (im neuen Lizenzmodell) können den Bereich &quot;Benutzer&quot;sehen ![](assets/users-icon-in-main-menu.png) im Hauptmenü.
 
    * Anforde- rungen
-   * Arbeitszeittabellen
+   * Arbeitszeit- tabellen
    * Dokumente
    * Vorlagen
    * Analytik
@@ -98,7 +104,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
      >[!NOTE]
      >
-     >Dies erfordert eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Ziele erfordern eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Meine Updates
    * Pinnwände
@@ -106,11 +112,11 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Ausblenden ![](assets/remove-icon---x-in-circle.png) **Aktive Elemente** dass Sie
+   * Ausblenden ![](assets/remove-icon---x-in-circle.png) **Aktive Elemente** die Sie nicht anzeigen möchten
    * Anzeigen ![](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** die Sie im Hauptmenü anzeigen möchten.
    * Ziehen ![](assets/move-icon---dots.png) **Aktive Elemente** , um die Anzeigereihenfolge im Hauptmenü zu ändern.
 
-1. Klicken **Fertig**.
+1. Klicks **Fertig**.
 
    Sie können auch auf **Abbrechen** Sie können Ihre Änderungen jederzeit verwerfen.
 

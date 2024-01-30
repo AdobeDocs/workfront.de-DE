@@ -4,7 +4,7 @@ description: Sie können Datensatzinformationen in Adobe Maestro bearbeiten und 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich </p>  
-   <p>Anzeigen von oder höheren Berechtigungen für die Tabellenansicht </p> 
+   <td> <p>Beitragen oder höhere Berechtigungen zu einem Arbeitsbereich </p>  
+   <p>Beitragen oder höhere Berechtigungen zur Tabellenansicht </p> 
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>

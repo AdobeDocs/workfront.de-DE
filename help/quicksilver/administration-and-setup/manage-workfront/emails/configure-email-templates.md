@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -34,30 +34,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td><p>Aktuell: Plan</p>
+   Oder
+   <p>Neu: Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
    <td> <p>Systemadministrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Neue E-Mail-Vorlage erstellen {#create-a-new-email-template}
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+## E-Mail-Vorlage erstellen {#create-an-email-template}
+
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Email** > **Benachrichtigungen**> **E-Mail-Vorlagen**.
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klicks **Neue E-Mail-Vorlage**.
 
-1. Im **Neue E-Mail-Vorlage** die folgenden Informationen angeben:
+1. Im **Neue E-Mail-Vorlage** Geben Sie die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td>Titel der E-Mail-Vorlage (erforderlich)</td> 
+      <td>Fügen Sie einen Titel für die E-Mail-Vorlage hinzu. Dies ist ein Pflichtfeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objekttyp</td> 
-      <td>Geben Sie den Objekttyp an, mit dem Sie die Vorlage verknüpfen möchten (Erforderlich, standardmäßig wird "Problem"festgelegt).</td> 
-     </tr>
+      <td>Geben Sie den Objekttyp an, mit dem Sie die Vorlage verknüpfen möchten. Wählen Sie aus den folgenden Objekten aus:
+      <ul>
+      <li>Projekt</li>
+      <li>Aufgabe</li>
+      <li>Problem</li>
+      <li>Arbeitszeittabelle</li> </ul>
+
+   Dies ist ein erforderliches Feld und standardmäßig auf Projekt eingestellt.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Beschreibung der Vorlage.</td> 
+      <td>Fügen Sie weitere Informationen zur E-Mail-Vorlage, zum Zweck und zur geplanten Zielgruppe hinzu.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Betreff </td> 
-      <td>Betreff, das beim Versand der E-Mail-Nachricht angezeigt wird (erforderlich).</td> 
+      <td>Fügen Sie den Text hinzu, der in der Betreffzeile der E-Mail angezeigt wird, wenn die von der Vorlage generierte E-Mail-Nachricht gesendet wird. Dies ist ein Pflichtfeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Text </td> 
-      <td> <p>Inhalt, der angezeigt wird, wenn die E-Mail-Nachricht gesendet wird</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie unter <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel.</p> </td> 
+      <td> <p>Fügen Sie den Text für den Inhalt der E-Mail-Nachricht hinzu.</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie im Abschnitt beschrieben <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Der Hauptteil der E-Mail für eine Benachrichtigung, die den Verantwortlichen de
 
 Führen Sie einen der folgenden Schritte aus, um den Platzhalterwert für ein Objekt abzurufen:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Wählen Sie im API Explorer auf der Registerkarte Felder eines beliebigen Objekts die Namen Ihrer Objekte aus. Weitere Informationen zum API Explorer finden Sie unter [API-Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Verwenden Sie den Wert &quot;valueField&quot;, den Sie in einer Textmodusansicht eines Berichts finden. Weitere Informationen zu Textmoduswerten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Verwenden Sie die `valuefield` -Wert, den Sie in einer Textmodusansicht eines Berichts finden. Weitere Informationen zu Textmoduswerten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  Der Wert &quot;heading&quot;kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
+Die `heading` -Wert kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
 
 ### Verknüpfung zu benutzerdefinierten Feldern mit HTML {#link-to-custom-fields-with-html}
 
-Sie können mithilfe der Variablen **$$** -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der mit dem Objekt verknüpften Datenbank zu suchen. Sie müssen auf beiden Seiten der Datenbankattributreferenz vorhanden sein.
+Sie können mithilfe der Variablen `$$` -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der mit dem Objekt verknüpften Datenbank zu suchen. Sie müssen auf beiden Seiten der Datenbankattributreferenz vorhanden sein.
 
 Wenn Sie beispielsweise den folgenden Text als HTML hinzufügen, wird der Vorname des zugewiesenen Benutzers zur Erinnerungsbenachrichtigung hinzugefügt, die mit einer Aufgabe verknüpft ist:
 
@@ -193,7 +204,7 @@ Um eine E-Mail-Vorlage für eine verspätete Projekterinnerung zu bearbeiten, be
 
 Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens, ohne die Klammern.
 
-**Betreff:**
+**Betrifft:**
 
 Ein von Ihnen verwaltetes Projekt ist zu spät
 
@@ -231,7 +242,7 @@ Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens, ohne die 
 
 Um dies für eine Problem-E-Mail zu verwenden, ändern Sie die `/task/view.` -Wert in der Verknüpfung zum Arbeitselement `/issue/view`.
 
-**Betreff:**
+**Betrifft:**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
