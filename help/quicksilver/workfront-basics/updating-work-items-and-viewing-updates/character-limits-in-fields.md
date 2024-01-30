@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Zeichenbeschränkungen in Feldern
 description: Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in das Feld eingefügt werden können. Workfront indiziert Inhalte, damit sie zu einem späteren Zeitpunkt durchsucht werden können. Eine Zeichenbegrenzung wird erzwungen, um eine hohe Leistung des Workfront-Systems sicherzustellen.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 5%
 
 ---
@@ -36,29 +36,29 @@ Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Fel
  <tbody> 
   <tr> 
    <td>Textfeld mit Formatierung in einem benutzerdefinierten Formular</td> 
-   <td>15,000</td> 
+   <td>15.000</td> 
   </tr> 
   <tr> 
    <td> <p>Status-Update</p> </td> 
-   <td> <p>15,000</p>
+   <td> <p>15.000</p>
    <p> 4.000 bei Verwendung der API</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aktualisieren</p> </td> 
-   <td> <p>15,000</p> 
+   <td> <p>15.000</p> 
    <p> 4.000 bei Verwendung der API</p></td> 
   </tr> 
   <tr> 
    <td> <p>Beschreibung (Dokumente, Aufgaben, Probleme, Portfolios, Programme und Projekte)</p> </td> 
-   <td> <p>4,000</p> </td> 
+   <td> <p>4.000</p> </td> 
   </tr> 
   <tr> 
    <td>Beschreibungsfeld in einem benutzerdefinierten Formular</td> 
-   <td>4,000</td> 
+   <td>4.000</td> 
   </tr> 
   <tr> 
    <td> <p>Benutzerdefinierter Datenabsatz oder Einzelzeilentext </p> </td> 
-   <td> <p>2,000</p> </td> 
+   <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Beschreibungsfeld im Report Builder</p> </td> 
