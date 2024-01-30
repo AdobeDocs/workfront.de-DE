@@ -3,19 +3,21 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Berichte
-description: Lesen Sie diese Bereiche, um ein Verständnis der Verwendung von Berichten in Adobe Workfront zu erhalten.
+description: Lesen Sie diese Bereiche, um mehr über die Berichterstellung in Adobe Workfront zu erfahren.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
-# Berichte
+# Berichte: Artikelindex
+
+<!-- Audited: 1/2024 -->
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
@@ -29,5 +31,3 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Berichtnutzung - Übersicht](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Kalender: Artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tipps, Tricks und Fehlerbehebung für Berichte](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

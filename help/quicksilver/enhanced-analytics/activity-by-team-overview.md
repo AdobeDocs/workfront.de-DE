@@ -1,5 +1,5 @@
 ---
-title: Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics
+title: Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -7,14 +7,16 @@ description: Die Visualisierung "Aktivität nach Team"zeigt Aktivitäten an, die
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
-# Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics
+# Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics
+
+<!-- Audited: 12/2023 -->
 
 Die Visualisierung &quot;Aktivität nach Team&quot;zeigt Aktivitäten an, die während eines bestimmten Zeitraums für ein Heimteam stattfinden, sodass Sie verstehen können, wie verschiedene Teams zu Hause ihre Zeit in Adobe Workfront verbracht haben. Je nachdem, wie Ihr Heimteam in Workfront eingerichtet ist, können Sie mit dieser Visualisierung verschiedene Einblicke erhalten und verschiedene Fragen beantworten.
 
@@ -23,7 +25,7 @@ Die Visualisierung &quot;Aktivität nach Team&quot;zeigt Aktivitäten an, die w�
 >Die Visualisierung der Projektaktivität ähnelt dieser Visualisierung, zeigt jedoch Aktivitäten basierend auf Personen an, die Projekten zugewiesen sind, anstatt auf Personen, die einem Startseiten-Team zugewiesen sind.\
 >Informationen zur Visualisierung der Projektaktivität finden Sie unter [Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png)
+![](assets/activity-by-team-350x113.png){width="700"}
 
 ## Zugriffsanforderungen
 
@@ -34,25 +36,30 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a></td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a></td> 
+   <td>
+      <p>Neu:</p> 
+         <ul><li>Licht oder höher</li></ul>
+      <p>Aktuell:</p>
+         <ul><li>Überprüfen oder höher</li></ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -62,24 +69,24 @@ Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschni
 
 Die verschiedenen Aktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereignisse über den gefilterten Zeitraum zusammenzufassen:
 
-* **Benutzer angemeldet**: Die lilafarbenen Kästchen zeigen, dass sich die Leute im Heimteam an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
+* **Benutzer angemeldet**: Die lilafarbenen Kästchen zeigen, dass sich Personen des Startseiten-Teams an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen, dass Personen im Startseiten-Team an diesem Tag den Status einer Aufgabe geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
+* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen im Startseiten-Team den Status einer Aufgabe an diesem Tag geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **Abgeschlossene Aufgaben**: Blaue Kisten zeigen, dass die Leute im Zuhause-Team an diesem Tag eine Aufgabe abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
+* **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen, dass Personen im Zuhause-Team an diesem Tag eine Aufgabe abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Aktion an einem bestimmten Tag abgeschlossen wurde. Sie können ein Team auswählen, um eine Aufschlüsselung dieser Aktivitäten nach den einzelnen Personen im Startseiten-Team anzuzeigen.
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
 * Welche Aktivitäten werden in einem Home-Team durchgeführt und wie hoch ist der Anteil?
-* Welche Heimteams überarbeitet werden oder das System verwenden mehr.
+* Welche Home-Teams überarbeitet werden oder das System verwenden mehr.
 * Wenn die Verteilung der Arbeit für das Heimteam geeignet ist.
 
 Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).

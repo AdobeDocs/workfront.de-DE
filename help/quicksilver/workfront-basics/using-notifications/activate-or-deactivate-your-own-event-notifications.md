@@ -7,14 +7,16 @@ description: In diesem Artikel wird beschrieben, wie Sie Ihre E-Mail-Benachricht
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Ihre eigenen E-Mail-Benachrichtigungen ändern
+
+<!-- Audited: 1/2024 -->
 
 Ihre Adobe [!DNL Workfront] Der Administrator konfiguriert, welche E-Mail-Benachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten (siehe [[!UICONTROL Ereignis konfigurieren] Benachrichtigungen für alle im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td>  <p>Neu:</p> 
+   <ul><li>Mitwirkende oder höher</li></ul>
+   <p>Aktuell:</p>
+   <ul><li>Anfrage oder höher</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## E-Mail-Benachrichtigungseinstellungen anzeigen und ändern
 

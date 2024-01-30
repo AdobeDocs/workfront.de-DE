@@ -6,7 +6,7 @@ description: Sie können Canvas-Dashboards erstellen, die Visualisierungen der B
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Leinwand-Dashboards - Übersicht
+
+<!-- Audited: 12/2023 -->
 
 Canvas-Dashboards, eine Funktion, die derzeit für Dashboards entwickelt wird, bieten eine neue Option zum Erstellen effektiver Dashboards in Workfront. Arbeitsfläche-Dashboards ermöglichen die einfache Einbindung von Visualisierungen der Arbeitsfläche in vorhandene Berichte, was mehr Flexibilität und neue Layoutoptionen bietet.
 
@@ -23,7 +25,7 @@ Diese Funktion befindet sich in der Entwicklung und unterstützt noch nicht:
 * aufgerufene Berichte
 * Verteilung über Layoutvorlagen
 
-Eine vollständige Liste der Funktionen, die den Canvas-Dashboards hinzugefügt wurden, finden Sie unter [Arbeitsfläche-Dashboards: Release-Aktivität](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+Eine vollständige Liste der Funktionen, die den Canvas-Dashboards hinzugefügt wurden, finden Sie unter [Arbeitsfläche-Dashboards: Aktivität &quot;Veröffentlichung&quot;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Auf Canvas-Dashboards zugreifen
 
@@ -39,9 +41,9 @@ Eine neue Option für Canvas-Dashboards im linken Bereich der vorhandenen Dashbo
 
 1. Klicken Sie auf **Anpassen der Ansicht von Benutzern** Dropdown-Menü, und klicken Sie auf **Dashboards**.
 
-1. Im **Linke Leiste** Liste, die unten angezeigt wird, klicken Sie auf die ![](assets/delete-secondary-nav-item.png) Symbol neben **Arbeitsfläche-Dashboards**. Das Symbol ändert sich in ![](assets/add-secondary-nav-item.png) um anzuzeigen, dass sie jetzt im linken Bedienfeld &quot;Dahboards&quot;sichtbar ist.
+1. Im **Linke Leiste** Liste, die unten angezeigt wird, klicken Sie auf die ![](assets/delete-secondary-nav-item.png) Symbol neben **Arbeitsfläche-Dashboards**. Das Symbol ändert sich in ![](assets/add-secondary-nav-item.png) , um anzuzeigen, dass sie jetzt im linken Bedienfeld &quot;Dashboards&quot;sichtbar ist.
 
-1. Klicken **Speichern** unten auf dem Bildschirm.
+1. Klicks **Speichern** unten auf dem Bildschirm.
 
 ### Öffnen von Canvas-Dashboards
 
@@ -57,11 +59,11 @@ Eine neue Option für Canvas-Dashboards im linken Bereich der vorhandenen Dashbo
 
 1. Öffnen Sie Canvas-Dashboards wie beschrieben unter **Öffnen von Canvas-Dashboards** höher.
 
-1. Klicken **+ Neues Dashboard**
+1. Klicks **+ Neues Dashboard**
 
-1. Klicken **Unbenannt** in der linken oberen Ecke ein, um einen Namen für das Dashboard einzugeben.
+1. Klicks **Unbenannt** in der linken oberen Ecke ein, um einen Namen für das Dashboard einzugeben.
 
-1. Klicken **Fertig** oben rechts, um Ihr neues Dashboard zu speichern oder Widgets hinzuzufügen, wie in **Einen Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen** unten.
+1. Klicks **Fertig** oben rechts, um Ihr neues Dashboard zu speichern oder Widgets hinzuzufügen, wie in **Einen Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen** unten.
 
 ### Einen Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen
 
@@ -69,13 +71,13 @@ Eine neue Option für Canvas-Dashboards im linken Bereich der vorhandenen Dashbo
 
 1. Klicken Sie auf das Dashboard, dem Sie einen Bericht aus der Liste der Dashboards hinzufügen möchten.
 
-1. Klicken **Widgets verwalten** Klicken Sie oben rechts auf **Widget hinzufügen**.
+1. Klicks **Widgets verwalten** Klicken Sie oben rechts auf **Widget hinzufügen**.
 
 1. Bewegen Sie den Mauszeiger über den Typ des Berichts-Widgets, das Sie hinzufügen möchten, und klicken Sie dann auf das angezeigte Kontrollkästchen.
 
 1. Wenn Sie alle Widgets ausgewählt haben, die Sie hinzufügen möchten, klicken Sie auf **Hinzufügen** in der oberen rechten Ecke.
 
-1. Die ausgewählten Widgets werden im Dashboard angezeigt. Klicken **Konfiguration** in der Mitte eines Widgets auswählen, welchen Bericht es anzeigen soll.
+1. Die ausgewählten Widgets werden im Dashboard angezeigt. Klicks **Konfiguration** in der Mitte eines Widgets auswählen, welchen Bericht es anzeigen soll.
 
 1. Geben Sie den Namen des Berichts ein, den Sie im **Bericht suchen** -Feld. Wenn der Bericht in der Liste angezeigt wird, klicken Sie auf **Listenbericht** oder **Diagrammbericht** neben dem Namen, um die Informationen aus diesem Bericht in dem von Ihnen ausgewählten Format anzuzeigen.
 

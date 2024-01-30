@@ -7,25 +7,23 @@ description: Die Visualisierung der Projektaktivität zeigt eine aggregierte Ans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 # Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse
+
+<!-- Audited: 12/2023 -->
 
 Die Visualisierung der Projektaktivität zeigt eine aggregierte Ansicht der Aktivitäten auf Projektebene - der Aktivitäten jeder dem Projekt zugewiesenen Person -, die während eines bestimmten Zeitraums stattgefunden haben. Sie können den Fokus einschränken, um die Aktivitäten innerhalb eines Projekts zu verstehen, oder Sie können Projektaktivitäten mit anderen Projekten in Adobe Workfront vergleichen.
 
 >[!NOTE]
 >
 >Die Visualisierung &quot;Aktivität nach Team&quot;verhält sich ähnlich wie diese Visualisierung, aber die Visualisierung &quot;Aktivität nach Team&quot;zeigt die Aktivität des Startseiten-Teams für alle Projekte an.\
->Informationen zur Visualisierung der Aktivität nach Team finden Sie unter [Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md).
-
-<!--WRITER bad link; there is no Activity by Team.png
-[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
--->
+>Informationen zur Visualisierung der Aktivität nach Team finden Sie unter [Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -36,25 +34,29 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a></td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a></td> 
+   <td>   <p>Neu:</p> 
+   <ul><li>Licht oder höher</li></ul>
+   <p>Aktuell:</p>
+   <ul><li>Überprüfen oder höher</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -64,17 +66,17 @@ Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschni
 
 Projektaktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereignisse in einem Projekt über einen bestimmten Zeitraum zusammenzufassen:
 
-* **Benutzer angemeldet**: Die lilafarbenen Kästchen zeigen, dass sich die dem Projekt zugewiesenen Personen an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
+* **Benutzer angemeldet**: Die violetten Kästchen zeigen an, dass sich die dem Projekt zugewiesenen Personen an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen an diesem Tag den Status einer Aufgabe für das Projekt geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
+* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen den Status einer Aufgabe für das Projekt an diesem Tag geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen, dass Personen eine Aufgabe für das Projekt abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
+* **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen an, dass Personen eine Aufgabe für das Projekt abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Aktion an einem bestimmten Tag abgeschlossen wurde. Sie können ein Projekt auswählen, um eine Aufschlüsselung dieser Aktivitäten nach jedem einzelnen Beitragenden am Projekt anzuzeigen.
 
@@ -111,10 +113,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optional) Klicken Sie zum Ändern der Projektsortierung auf die Schaltfläche **Sortieren nach** und wählen Sie eine neue Sortieroption aus:
+1. (Optional) Klicken Sie zum Ändern der Projektsortierung auf die Schaltfläche **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
-   * **A – Z**
-   * **Z – A**
+   * **A - Z**
+   * **Z - A**
    * **Geplantes Abschlussdatum**
    * **Geplantes Startdatum**
 

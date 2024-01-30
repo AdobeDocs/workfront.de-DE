@@ -7,18 +7,20 @@ description: Die Projekt-Treemap-Visualisierung ist eine Ansicht von Stunden - o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
 # Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics
 
+<!-- Audited: 12/2023 -->
+
 Die Projekt-Treemap-Visualisierung ist eine Ansicht von Stunden - oder Tagen -, die in einem bestimmten Zeitfenster bearbeitet wurden, verglichen mit anderen Arbeitsschritten in der Größe. Auf diese Weise können Sie nachvollziehen, wie viel Zeit Benutzer für ein Projekt haben.
 
-![](assets/project-treemap-350x126.png)
+![](assets/project-treemap-350x126.png){width="700"}
 
 ## Zugriffsanforderungen
 
@@ -29,25 +31,29 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a></td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a></td> 
+   <td>   <p>Neu:</p> 
+   <ul><li>Licht oder höher</li></ul>
+   <p>Aktuell:</p>
+   <ul><li>Überprüfen oder höher</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -61,13 +67,13 @@ Die Projekt-Treemap-Visualisierung besteht aus:
 
 * **Kleinere, hellblaue Boxen**: Projekte mit weniger Stunden oder Tagen werden als kleinere Kästchen mit hellblauer Farbe angezeigt.
 
-   ![](assets/project-treemap-smaller-box.png)
+  ![](assets/project-treemap-smaller-box.png)
 
 * **Größere, dunkelblaue Kisten**: Projekte mit mehr Stunden - oder Tagen - werden als größere Kästchen mit dunkelblauer Farbe angezeigt.
 
-   ![](assets/project-treemap-larger-box-350x205.png)
+  ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Mittlere, blaue Boxen**: Projekte, die zwischen den beiden Kategorien liegen, werden als mittelgroße Kästchen mit einem blauen Farbton zwischen dunkelblau und hellblau angezeigt. Für mittelgroße Kisten gibt es 3 mögliche blaue Schattierungen.
+* **Mittlere, blaue Boxen**: Projekte, die zwischen den beiden Kategorien liegen, werden als mittelgroße Kästchen mit einem Blau-Schatten zwischen den dunkelblauen und den hellblauen Farben angezeigt. Für mittelgroße Kisten gibt es 3 mögliche blaue Schattierungen.
 
 Die Legende auf der rechten Seite zeigt eine Aufschlüsselung der abgeschlossenen Stunden für jeden Blau-Schatten. Diese Legende ist dynamisch und wird entsprechend den Daten aktualisiert.
 
@@ -104,8 +110,8 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. (Optional) Klicken Sie zum Ändern der Projektsortierung auf die Schaltfläche **Sortieren nach** in der oberen rechten Ecke der Projekt-Treemap-Visualisierung und wählen Sie dann eine neue Sortieroption aus:
 
-   * **A – Z**
-   * **Z – A**
+   * **A - Z**
+   * **Z - A**
    * **Geplantes Abschlussdatum**
    * **Geplantes Startdatum**
 
@@ -131,7 +137,6 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >
    >* **Geplanter Zeitrahmen**: Die Anzahl der geplanten Tage, um das Projekt abzuschließen.
    >* **Arbeitstage**: Die geplante Dauer für jede Aufgabe, die innerhalb des oben ausgewählten Datumsbereichs abgeschlossen wurde, dividiert durch die Anzahl der Stunden pro Tag.
-
    >   
    >![](assets/duration-treemap-350x159.png)
    >

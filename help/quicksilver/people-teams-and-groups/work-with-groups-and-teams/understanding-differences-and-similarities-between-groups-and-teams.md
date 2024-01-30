@@ -7,14 +7,16 @@ description: Gruppen und Teams sind Sammlungen von Benutzern in Adobe Workfront.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Gruppen vs. Teams in [!DNL Adobe Workfront]
+
+<!-- Audited: 12/2023 -->
 
 Gruppen und Teams sind Sammlungen von Benutzern in [!DNL Adobe Workfront].
 
@@ -30,11 +32,11 @@ Sie können beispielsweise eine Finanzgruppe mit Benutzern in der Finanzabteilun
 
 Weitere Informationen zum Erstellen und Verwalten von Gruppen finden Sie unter [Gruppe erstellen](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Verwalten einer Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Verwenden Sie Teams zur Vertretung der Arbeitsstruktur in einer Abteilung
+## Verwenden Sie Teams zur Vertretung der Arbeitsstruktur in einer Abteilung.
 
 Es wird empfohlen, Teams so zu konfigurieren, dass sie der täglichen Arbeitsstruktur Ihrer Abteilungsteams entsprechen.
 
-Sie können beispielsweise über ein Team für die Gehaltsabrechnung, ein Team für die Zahlungsverpflichtung von Konten und ein Team für die Kontoerfassung verfügen. In der Regel arbeiten Personen in jedem dieser Teams an Projekten, Aufgaben oder Problemen, die für diese Teams ähnlich sind.
+Sie können beispielsweise über ein Team für die Gehaltsabrechnung, ein Team für die zahlbaren Konten und über ein Team für die Kontoerfassung verfügen. In der Regel arbeiten Personen in jedem dieser Teams an Projekten, Aufgaben oder Problemen, die für diese Teams ähnlich sind.
 
 Weitere Informationen zum Erstellen und Verwalten von Teams finden Sie unter [Erstellen und Verwalten von Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
