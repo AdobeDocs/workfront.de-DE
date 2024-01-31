@@ -6,7 +6,7 @@ description: In diesem Artikel wird beschrieben, wie Sie Ziele in Adobe Workfron
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Zugreifen auf und Öffnen von Zielen in Adobe Workfront
 
-In diesem Artikel wird beschrieben, wie Sie strategische Ziele in Adobe Workfront finden und verwalten können.
+Dieser Artikel beschreibt, wie Sie strategische Ziele in Adobe Workfront finden und verwalten können.
 
 
 ## Zugriffsanforderungen
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -94,7 +101,7 @@ You must have the following to perform the activities described in this article:
    <td> <p>Sie müssen eine zusätzliche Lizenz für die Adobe Workfront Goals erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zugriff auf Ziele bearbeiten</p> <p><b>NOTIZ</b><p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a> </p> </li> 
@@ -109,17 +116,20 @@ You must have the following to perform the activities described in this article:
      <p>Berechtigungen für das Ziel verwalten</p> 
      <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
+   <td> 
+    <div> 
+     <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
-
-## Voraussetzungen
-
-Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
-
-* Eine Layout-Vorlage, die den Bereich Ziele im Hauptmenü enthält.
 
 ## Zugriff auf Workfront-Ziele
 
@@ -143,16 +153,16 @@ Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
 
    Oder
 
-   Klicken **Neues Ziel** , um ein neues Ziel hinzuzufügen.
+   Klicks **Neues Ziel** , um ein neues Ziel hinzuzufügen.
 
-   Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md).
+   Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 ## Einzelne Ziele öffnen und verwalten
 
 Sie müssen auf ein einzelnes Ziel zugreifen, um beim Verwalten Ihrer Ziele die folgenden Aktionen auszuführen:
 
 * Bearbeiten
-* Hinzufügen eines Ergebnisses oder einer Aktivität
+* Hinzufügen von Ergebnissen oder Aktivitäten
 * Ergebnisse und damit verbundene Aktivitäten bearbeiten
 * Aktivieren
 * Deaktivieren
@@ -160,7 +170,6 @@ Sie müssen auf ein einzelnes Ziel zugreifen, um beim Verwalten Ihrer Ziele die 
 * Ausrichten an ein anderes Ziel
 * Konvertieren von Ergebnissen oder Aktivitäten in andere Ziele
 * Aktualisieren
-
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -199,6 +208,6 @@ Die Zielliste wird standardmäßig angezeigt.
 Die Seite des Ziels wird angezeigt.
    ![](assets/goal-page-unshimmed.png)
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, um das Ziel weiter zu bearbeiten oder freizugeben.
-1. Klicken **Zieldetails** im linken Bereich, um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](../goal-management/update-goals-in-goal-details-panel.md).
+1. Klicks **Zieldetails** im linken Bereich, um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](../goal-management/update-goals-in-goal-details-panel.md).
 
 

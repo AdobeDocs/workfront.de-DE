@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,36 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-<!--
-## Week of January 29, 2024
 
+## Woche vom 29. Januar 2024
+
+### Verbesserte Freigabe von Ansichten und Arbeitsbereichen
+
+Produktion: 30. Januar 2024
+
+Vorschau: zu bestimmen
+
+Wir haben die Freigabe von Arbeitsbereichen und Ansichten mit den folgenden Verbesserungen verbessert:
+
+* Um Klarheit darüber zu schaffen, was die einzelnen Berechtigungsebenen einem Benutzer ermöglichen, haben wir Details für jede Berechtigungsebene hinzugefügt, wenn wir einen Arbeitsbereich und eine Ansicht freigeben.
+
+* Sie können jetzt einen Link in einen Arbeitsbereich kopieren oder ihn anzeigen und für andere freigeben. Benutzer müssen mindestens über Anzeigeberechtigungen für den Arbeitsbereich oder die Ansicht verfügen, um über den kopierten Link auf sie zugreifen zu können.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Freigeben von Arbeitsbereichen](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md)
+
+<!--
 ### Add thumbnails to records 
 
 Production: < date > 
 
 Preview: To be determined  
 
-You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+
+For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
 -->
 
 ## Woche vom 22. Januar 2024

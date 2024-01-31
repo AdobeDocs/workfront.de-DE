@@ -4,9 +4,9 @@ description: Sie können Datensatzinformationen in Adobe Maestro bearbeiten und 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Beitragen oder höhere Berechtigungen zu einem Arbeitsbereich </p>  
-   <p>Beitragen oder höhere Berechtigungen zur Tabellenansicht </p> 
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td>  <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Maestro-Bereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/maestro/access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Überlegungen zu Miniaturansichten von Datensätzen
 
@@ -96,14 +94,14 @@ Um in einer Tabellenansicht visuell zwischen Datensätzen zu unterscheiden, kön
 Beachten Sie Folgendes:
 
 * Sie können nur Bilddateien als Miniaturansichten hinzufügen.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Sie können einzelnen Datensätzen in der Tabellenansicht ein Miniaturbild hinzufügen.
+* Miniaturansichten gehören zu den Datensatzinformationen und werden in Ansichten angezeigt, in denen Datensätze angezeigt werden. Beispielsweise werden Miniaturansichten neben Datensatzinformationen in den folgenden Bereichen angezeigt:
+
+   * Das primäre Feld eines Datensatzes in der Tabellenansicht
+   * Die Datensatzleiste in der Timeline-Ansicht.
 * Auf der Detailseite des Datensatzes oder in der Timeline-Ansicht können Sie keine Datensatzminiaturansichten hinzufügen.
-* Das Miniaturbild wird unabhängig vom Feldtyp immer links neben dem primären Feld jedes Datensatzes angezeigt.
-
-  Felder mit einzeiligem Text, Zahlen oder Formeln können als primäre Felder bezeichnet werden.
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Miniaturansichten werden nicht auf der Detailseite des Datensatzes angezeigt.
 
 ## Hinzufügen einer Miniaturansicht zu einem Datensatz
 
@@ -131,10 +129,11 @@ Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksi
 1. (Optional) Verwenden Sie das Größenanpassungs-Tool, um das Bild zu beschneiden und seine Größe zu ändern.
 1. Klicks **Bild verwenden** , um das Bild als Miniaturansicht hinzuzufügen.
 Dadurch wird die **Miniaturansicht aufzeichnen** ankreuzen.
-1. Klicken Sie in der oberen rechten Ecke der Tabellenansicht auf Felder .
+1. (Bedingt) Wenn Sie mindestens über Beitragsberechtigungen für die Tabellenansicht verfügen, klicken Sie auf **Felder** in der oberen rechten Ecke der Tabellenansicht.
 1. Wählen Sie die **Miniatur** umschalten, um die Miniaturansicht anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    Die Miniaturansicht wird links neben dem primären Feldwert angezeigt.
+1. (Optional und bedingt) Wenn Sie nicht über Beitragsberechtigungen oder höhere Berechtigungen für die Ansicht verfügen, wählen Sie eine neue Ansicht aus der **Ansicht** oder eine Ansicht erstellen.
 1. (Optional) Um die Miniaturansicht zu entfernen, bewegen Sie den Mauszeiger über das primäre Feld und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)> **Miniatur** > die **Entfernen** icon ![](assets/remove-image-icon.png)Klicken Sie auf **Änderungen speichern**.

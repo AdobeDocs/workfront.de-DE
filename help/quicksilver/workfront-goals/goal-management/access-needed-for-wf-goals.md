@@ -7,9 +7,9 @@ description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmt
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4298659c6eaf7c0370d8d88454e54aeba70f48cf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,15 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
 
 * Weisen Sie eine Layout-Vorlage zu, die den Bereich Ziele im Hauptmenü enthält.
 
-   Weitere Informationen finden Sie im Abschnitt [Hinzufügen von Workfront-Zielen zu einer Layoutvorlage](#add-workfront-goals-to-a-layout-template) in diesem Artikel.
+  >[!NOTE]
+  >
+  >Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält.
+
+  Weitere Informationen finden Sie im Abschnitt [Hinzufügen von Workfront-Zielen zu einer Layoutvorlage](#add-workfront-goals-to-a-layout-template) in diesem Artikel.
 
 * Wenn Sie Ziele ändern müssen, die Sie nicht selbst erstellt haben, muss der Zielersteller die Ziele für Sie freigeben und Ihnen Verwaltungsberechtigungen erteilen.
 
-   Weitere Informationen finden Sie im Abschnitt . [Freigeben einzelner Ziele für andere Benutzer](#share-individual-goals-with-other-users) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt . [Freigeben einzelner Ziele für andere Benutzer](#share-individual-goals-with-other-users) in diesem Artikel.
 
 ## Zugriff der Workfront Goals-Organisation erhalten {#obtain-workfront-goals-organization-access}
 
@@ -70,7 +74,7 @@ Ihr Workfront-Administrator muss Ihnen einen der folgenden Workfront-Lizenztypen
 
 * Plan
 * Arbeit
-* Überarbeitung
+* Überprüfung
 * Anfrage
 
 Nachdem Ihr Workfront-Administrator Ihnen einen dieser Lizenztypen gewährt hat, müssen Sie darüber hinaus auf der Zugriffsebene auf Ziele zugreifen können. Informationen zum Zugriff auf Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
