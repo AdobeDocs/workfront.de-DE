@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
 
 ### Externe Suchfelder hinzufügen
 
-Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
+Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen. Das externe Suchfeld ist auch in Listen und Berichten verfügbar.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">Basis-API-URL</td> 
       <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie im Dropdown-Menü anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus den zurückgegebenen JSON-Optionen auszuwählen, die Dropdown-Optionen sein sollen.</p><p>Beim Eingeben der API-URL können Sie optional die folgenden Werte in die URL übergeben:</p>
       <ul><li>$$QUERY - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</li>
-      <li>$$HOST - Dies stellt den aktuellen Workfront-Host dar und kann verwendet werden, um /search API-Aufrufe an die Workfront-API durchzuführen. Wenn dieser Platzhalter verwendet wird, wird die Authentifizierung verarbeitet und Benutzer müssen keine Authentifizierungskopfzeilen senden. (Beispielsweise können Benutzer Aufgaben mithilfe der Basis-URL "$$HOST/attask/api/task/search"suchen und es ermöglicht die Suche nach Aufgaben und die Auswahl von Werten aus einer zurückgegebenen Liste von Aufgaben.)</li>
-      <li>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</li>
+      <li><p>$$HOST - Dies stellt den aktuellen Workfront-Host dar und kann verwendet werden, um /search API-Aufrufe an die Workfront-API durchzuführen. Wenn dieser Platzhalter verwendet wird, wird die Authentifizierung verarbeitet und Benutzer müssen keine Authentifizierungskopfzeilen senden. (Beispielsweise können Benutzer Aufgaben mithilfe der Basis-URL suchen <code>$$HOST/attask/api/task/search</code> und ermöglicht die Suche nach Aufgaben und die Auswahl von Werten aus einer zurückgegebenen Aufgabenliste.)<p>
+      <p>Wenn die API, auf die Sie verweisen, dies zulässt, können Sie in Ihre Suchabfrage auch Modifikatoren einfügen, um festzustellen, wie die Suche funktionieren soll. Beispielsweise können Sie Folgendes als Basis-API-URL verwenden, um Personen die Suche nach Workfront-Projekten zu ermöglichen, die bestimmten Text enthalten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Weitere Informationen zu den Workfront-Suchmodifikatoren finden Sie unter <a href="/help/quicksilver/wf-api/general/api-basics.md">API-Grundlagen</a>.</p></li>
+      <li><p>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</p>
+      <p>Für ein externes Suchfeld mit einer Abhängigkeit von anderen Feldern (mithilfe der {fieldName} -Syntax), sind die von der API zurückgegebenen Optionen auf die Optionen beschränkt, die mit den in den anderen Feldern eingegebenen Zeichenfolgen oder Werten übereinstimmen. (Diese Funktion wird in Listen und Berichten nicht unterstützt.)</p></li>
       <li>{referenceObject}.{fieldName} - Wenn das Feld Teil eines Objekts ist. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTE:</strong> Lesen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td>
      </tr>
@@ -585,12 +587,11 @@ So fügen Sie eine externe Suche hinzu:
 >
 >Die folgenden Elemente sind technische Einschränkungen des Aufrufs an die externe API:
 >
->* Maximale Anzahl an Optionen: 200 (nur die ersten 200 Optionen aus der zurückgegebenen JSON werden angezeigt)
+>* Maximale Anzahl an Optionen: 2000 (nur die ersten 2000 eindeutigen Optionen aus der zurückgegebenen JSON werden angezeigt)
 >* Zeitüberschreitung: 3 Sekunden
 >* Anzahl weiterer Versuche: 3
 >* Wartezeit zwischen Wiederholungen: 500 ms
 >* Erwartete Antwortstatus: 2xx
->* Benutzer können den ausgewählten Wert in Workfront-Listen und -Berichten sehen (und ihn bearbeiten), sehen aber keine Dropdown-Liste mit Optionen aus der externen API.
 
 ### Bilder, PDF und Videos hinzufügen
 
