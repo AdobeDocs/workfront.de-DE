@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobe Maestro-Release-Aktivität
 
->[!IMPORTANT]
->
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
->
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
->
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
->
->Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
 
@@ -60,17 +52,26 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Freigeben von Arbeitsbereichen](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### Miniaturansichten zu Datensätzen hinzufügen
 
-Production: < date > 
+Produktion: 1. Februar 2024
 
-Preview: To be determined  
+Vorschau: zu bestimmen
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+Sie können jetzt jedem Datensatz einzelne Miniaturansichten hinzufügen, um sie in einer Ansicht zu unterscheiden. In der Tabellenansicht können Sie Bilddateien hinzufügen, die Sie zuvor auf Ihrem Computer als Miniaturansichten gespeichert haben. Die Miniaturansichten können für jeden Datensatz eindeutig sein und sowohl in der Tabelle als auch in der Timeline-Ansicht der Datensatztypseite angezeigt werden.
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+Weitere Informationen finden Sie unter [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### Entfernen Sie verbundene Plattenkarten.
+
+Produktion: 1. Februar 2024
+
+Vorschau: zu bestimmen
+
+Um Verwirrung zu vermeiden und Ihren Workflow zu vereinfachen, haben wir die Karten vom Typ Datensatz entfernt, die durch das Verbinden von Maestro-Datensätzen mit Objekten aus Drittanbieteranwendungen aus einem Arbeitsbereich erstellt wurden. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Woche vom 22. Januar 2024
 

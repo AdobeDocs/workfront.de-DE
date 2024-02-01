@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
->
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
->
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
->
->Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in Adobe Maestro zugreifen.
 
@@ -265,6 +257,12 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
 1. Klicks **Balkenstil** im linken Bereich, um anzugeben, welche Felder in den Datensatzleisten angezeigt werden sollen.
 
    Das Feld Name ist standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
+
+1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturansichten hinzugefügt haben, wählen Sie die Option Miniatur aus, um das den Datensätzen zugeordnete Bild in der Symbolleiste anzuzeigen.
+
+   >[!NOTE]
+   >
+   >    Sie müssen zuerst Miniaturansichten in der Tabellenansicht hinzufügen, bevor Sie sie in der Timeline-Ansicht anzeigen können. Weitere Informationen finden Sie unter [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Klicks **Feld hinzufügen** , um bis zu 4 Felder zu den Datensatzbalken hinzuzufügen.
 1. Klicken Sie in die **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ hide: yes
 
 Als Leiter von Marketingoperationen können Sie Adobe Maestro verwenden, um die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams zu organisieren.
 
->[!IMPORTANT]
->
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
->
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
->
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
->
->Weitere Informationen finden Sie unter [Übersicht über Adobe Maestro](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Sie können diese Seite als Ausgangspunkt für alle Adobe Maestro-Dokumentationen verwenden.
 
