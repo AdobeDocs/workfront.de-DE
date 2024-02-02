@@ -6,9 +6,9 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       Alle Objekte werden auf der Pinnwand als verbundene Karten angezeigt.
 
       Die [!UICONTROL **Hinzufügen von Karten**] Zähler zeigt an, wie viele Karten auf der Pinnwand vorhanden sein werden. Wenn Sie beispielsweise ein Projekt mit 100 Aufgaben und Problemen auswählen, zeigt der Zähler 100 an. Wenn Sie eine Benutzerzuweisung hinzufügen und diese Person fünf Aufgaben im Projekt zugewiesen ist, zeigt der Zähler 5 an.
+
+      >[!NOTE]
+      >
+      >Wenn Sie über 1.000 Karten auf der Pinnwand haben, wird die Leistung der Pinnwand beeinträchtigt.
 
    1. (Optional) Wählen Sie [!UICONTROL **Archivieren Sie keine abgeschlossenen Karten.**] , um abgeschlossene Aufgaben und Probleme als sichtbare Karten in der Spalte Abgeschlossen auf die Pinnwand zu bringen. Wenn diese Option nicht ausgewählt ist, werden abgeschlossene Karten zum Zeitpunkt der Pinnwanderstellung als archivierte Karten auf die Pinnwand gebracht.
 

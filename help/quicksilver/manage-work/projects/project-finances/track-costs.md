@@ -4,23 +4,25 @@ product-area: projects
 navigation-topic: financials
 title: Kosten verfolgen
 description: Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Workfront verfolgen.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 1%
+source-wordcount: '2480'
+ht-degree: 0%
 
 ---
 
 # Kosten verfolgen
 
+<!-- Audited: 02/2024 -->
+
 Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Workfront verfolgen.
 
 ## Kostenberechnung durch Workfront
 
-Um die Kosten zu verfolgen, müssen Sie Benutzer und Stellenrollen mit stündlichen Kostensätzen verknüpfen.
+Um Kosten zu verfolgen, müssen Sie Benutzer und Rollen mit stündlichen Kostensätzen verknüpfen.
 
 Stündliche Kostensätze sind Beträge der Kosten pro Arbeitseinheit, die mit den Rollen oder Benutzern in einem Job verbunden sind. Die Multiplikation der Raten mit den Arbeitsstunden generiert Kosten für Ihre Projekte, Aufgaben oder Probleme.
 
@@ -34,7 +36,7 @@ Die folgenden Szenarien existieren:
 
   Informationen zum Verknüpfen von Stellenrollen mit Kostenstellen finden Sie unter [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* Workfront berechnet nur die tatsächlichen Kosten für Probleme und Probleme ohne Kostentyp. Weitere Informationen finden Sie im Abschnitt . [So verfolgt Workfront Kosten für Probleme](#how-workfront-tracks-costs-for-issues) in diesem Artikel.
+* Workfront berechnet nur die tatsächlichen Kosten für Probleme und Probleme haben keinen Kostentyp. Weitere Informationen finden Sie im Abschnitt . [So verfolgt Workfront Kosten für Probleme](#how-workfront-tracks-costs-for-issues) in diesem Artikel.
 
 >[!TIP]
 >
@@ -51,13 +53,11 @@ Weitere Informationen zur Berechnung von Kosten-Performance-Indizes finden Sie u
 
 ## So verfolgt Workfront Kosten für Aufgaben und Projekte
 
-* [Wie Workfront Kosten verfolgt](#how-workfront-tracks-costs)
-* [Berechnung der geplanten, budgetierten und tatsächlichen Kosten durch Workfront](#how-workfront-calculates-planned-budgeted-and-actual-costs)
-* [So berechnet Workfront Kostentypen für Aufgaben](#how-workfront-calculates-cost-types-for-tasks)
+Die Kostenarten werden für Aufgaben und Projekte unterschiedlich berechnet.
 
-### Wie Workfront Kosten verfolgt  {#how-workfront-tracks-costs}
+### Wie Workfront Kosten verfolgt {#how-workfront-tracks-costs}
 
-Sie können mehrere Kostentypen für Aufgaben und Projekte in Workfront verfolgen. Die Gesamtkosten werden nach folgender Formel berechnet:
+Sie können in Workfront verschiedene Kostentypen für Aufgaben und Projekte verfolgen. Die Gesamtkosten werden nach folgender Formel berechnet:
 
 `Costs = Labor Costs + Expense Costs`
 
@@ -84,10 +84,10 @@ Sie können mehrere Kostentypen für Aufgaben und Projekte in Workfront verfolge
 
   Weitere Informationen finden Sie unter [Berechnung der geplanten, budgetierten und tatsächlichen Kosten durch Workfront](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel beschrieben.
 
-* **Kosten** sind mit Ausgaben für Projekte und Aufgaben verknüpft.\
+* **Kosten** sind mit Ausgaben für Projekte und Aufgaben verbunden.\
   Wenn Sie ein Projekt erstellen, können Sie geplante Ausgaben für das gesamte Projekt festlegen. Zusätzlich können Sie Ausgaben mit neuen oder bestehenden Aufgaben verknüpfen. Weitere Informationen finden Sie unter [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* **Feste Kosten** sind als fester Kostenbetrag für ein Projekt definiert. Dies ist Teil der geplanten Kosten des Projekts, die den Geldbetrag darstellen, den Sie zum Abschluss des Projekts benötigen.
+* **Feste Kosten** sind als fester Kostenbetrag für ein Projekt definiert. Dies ist Teil der geplanten Kosten des Projekts, was den Geldbetrag darstellt, den Sie zum Abschluss des Projekts benötigen.
 
   >[!TIP]
   >
@@ -96,10 +96,6 @@ Sie können mehrere Kostentypen für Aufgaben und Projekte in Workfront verfolge
 ### Berechnung der geplanten, budgetierten und tatsächlichen Kosten durch Workfront {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
 Workfront berechnet die geplanten Kosten und die tatsächlichen Kosten für jede einzelne Aufgabe eines Projekts. Workfront verwendet diese Berechnungen für einzelne Aufgaben zur Berechnung der geplanten Kosten und der tatsächlichen Kosten für das Projekt.
-
-* [Geplante Kosten](#planned-cost)
-* [Budgetierte Kosten](#budgeted-cost)
-* [Istkosten](#actual-cost)
 
 #### Geplante Kosten {#planned-cost}
 
@@ -123,12 +119,12 @@ Die budgetierten Kosten eines Projekts sind die Kosten im Zusammenhang mit der g
 
 Die veranschlagten Kosten des Projekts entsprechen den geplanten Kosten des Projekts, wenn die beiden folgenden Bedingungen erfüllt sind:
 
-* Die geplanten Stunden der Aufgaben im Projekt stimmen mit den geplanten Stunden überein (im Ressourcenplaner)
-* Die Aufgabe &quot;Rechnungsstellung&quot;lautet &quot;Rolle stündlich&quot;.
+* Die geplanten Stunden der Aufgaben im Projekt stimmen mit den budgetierten Stunden (im Ressourcenplaner) überein.
+* Der Abrechnungstyp der Aufgaben ist &quot;Stündlich&quot;.
 
 Die budgetierten Kosten des Projekts werden mit der folgenden Formel berechnet, wenn die folgenden Bedingungen erfüllt sind:
 
-* Die geplanten Stunden der Aufgaben im Projekt stimmen nicht mit den geplanten Stunden überein (im Ressourcenplaner)
+* Die geplanten Stunden der Aufgaben im Projekt stimmen nicht mit den geplanten Stunden (im Ressourcenplaner) überein.
 * Der Abrechnungstyp der Aufgaben ist &quot;Stündlich&quot;.
 
 Wenn die oben genannten Bedingungen erfüllt sind, berechnet Workfront die budgetierten Projektkosten anhand der folgenden Formel:
@@ -143,7 +139,7 @@ Die tatsächlichen Kosten werden anhand der folgenden Formel berechnet:
 
 `Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project`
 
-Sie haben beispielsweise im Tab Ausgaben einer Aufgabe die folgenden Ausgaben: eine Marketingaufwendung mit tatsächlichen Kosten von 110 USD und eine Verwaltungsaufwendung mit tatsächlichen Kosten von 40 USD. Sie wählen den Kostentyp Stündliche Rolle aus und weisen der Aufgabe die Rolle Berater-Job zu. Der Anteil der Berater-Job-Rolle beträgt 15 USD pro Stunde und es werden 6 Stunden für die Aufgabe als Berater-Job-Rolle protokolliert. Mit dem Projekt verbundene Beratungskosten (auf der Registerkarte &quot;Ausgaben&quot;) mit tatsächlichen Kosten von 100 USD und ein Benutzer mit einer Kosten pro Stunde von 20 USD in seinem Benutzerprofil protokolliert 10 Stunden im Projekt. Sie haben außerdem Festkosten in Höhe von 200 USD für das Projekt.
+Sie haben beispielsweise im Tab Ausgaben einer Aufgabe die folgenden Ausgaben: Marketingausgaben mit tatsächlichen Kosten von 110 USD und Verwaltungsausgaben mit tatsächlichen Kosten von 40 USD. Sie wählen den Kostentyp Stündliche Rolle aus und weisen der Aufgabe die Rolle Berater-Job zu. Der Anteil der Berater-Job-Rolle beträgt 15 USD pro Stunde und es werden 6 Stunden für die Aufgabe als Berater-Job-Rolle protokolliert. Mit dem Projekt verbundene Beratungskosten (auf der Registerkarte &quot;Ausgaben&quot;) mit tatsächlichen Kosten von 100 USD und ein Benutzer mit einer Kosten pro Stunde von 20 USD in seinem Benutzerprofil protokolliert 10 Stunden im Projekt. Sie haben außerdem Festkosten in Höhe von 200 USD für das Projekt.
 
 Die tatsächlichen Kosten des Projekts werden wie folgt berechnet:
 
@@ -164,7 +160,7 @@ Bei der Stundenrate in der Formel werden alle Datumsänderungen des Satzes berü
 >
 >* Standardmäßig verwendet Workfront die Kosten pro Stunde des Benutzers zur Berechnung der tatsächlichen Arbeitskosten.
 >* Wenn der Benutzer, der die Uhrzeit protokolliert, keinen Kosten zugeordnet ist, verwendet Workfront die Kosten pro Stunde der Primären Rolle des Benutzers.
->* Wenn Ihr Workfront-Administrator die **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** im Bereich &quot;Voreinstellungen&quot;für Timesheets und Stunden festlegen und die Zeit für die Benutzerprotokollierung im Projekt eine andere Rolle auswählt, die dieser Zeit zugeordnet werden soll, werden die tatsächlichen Kosten des Projekts basierend auf der Rolle berechnet, die bei der Aufzeichnung der Stunden angegeben wurde. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* Wenn Ihr Workfront-Administrator die **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** -Einstellung im Bereich &quot;Timesheets und Stunden-Voreinstellungen&quot;des Setups festzulegen und die Zeit für die Benutzerprotokollierung im Projekt wählt eine andere Rolle aus, die dieser Zeit zugeordnet werden soll. Die tatsächlichen Kosten des Projekts werden basierend auf der Rolle berechnet, die bei der Aufzeichnung der Stunden angegeben wurde. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ### So berechnet Workfront Kostentypen für Aufgaben {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -176,19 +172,17 @@ Informationen zum Ändern des Kostentyps einer Aufgabe finden Sie unter [Aktuali
 
 In der folgenden Tabelle werden die in Workfront verfügbaren Aufgabenkostentypen beschrieben:
 
-<table border="1" cellspacing="15"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
- <thead> 
+<tbody> 
   <tr> 
-   <th> <p><strong>Task Cost Type</strong> </p> </th> 
-   <th> <p><strong>Beschreibung</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
+   <td> <p><strong>Task Cost Type</strong> </p> </td> 
+   <td> <p><strong>Beschreibung</strong> </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Benutzer pro Stunde</p> </td> 
-   <td> <p>Dies ist der Standardkostentyp beim Erstellen einer Aufgabe.</p> <p><strong>Geplante Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Wenn die geplanten Arbeitskosten berechnet werden durch:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Notiz: <p>Beachten Sie die folgenden Auswirkungen der Verwendung des User Stündlich-Kostentyps und der Berechnung der geplanten Kosten:</p> 
+   <td> <p>Dies ist der Standardkostentyp beim Erstellen einer Aufgabe.</p> <p><strong>Geplante Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Wenn die geplanten Arbeitskosten berechnet werden durch:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Hinweis: <p>Beachten Sie die folgenden Auswirkungen der Verwendung des User Stündlich-Kostentyps und der Berechnung der geplanten Kosten:</p> 
      <ul> 
       <li>Wenn Sie einer Aufgabe mehrere Ressourcen zuweisen, passt Workfront die Berechnungen für geplante Kosten basierend auf dem Prozentsatz der Aufgabe an, die jeder Ressource zugewiesen ist.</li>
       <li>Für die geltenden Kostensätze entsprechen die geplanten Arbeitskosten der Summe der geplanten Kosten für jeden Zeitraum, der von der Aufgabe abgedeckt wird.</li>
@@ -197,7 +191,7 @@ In der folgenden Tabelle werden die in Workfront verfügbaren Aufgabenkostentype
   </tr> 
   <tr> 
    <td> <p>Stundensatz nach Funktion</p> </td>
-   <td> <p><strong>Geplante Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dabei werden die geplanten Arbeitskosten berechnet durch:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Hinweis: Wenn Sie einer Aufgabe mehrere Ressourcen zuweisen, passt Workfront die Berechnungen für "Geplante Stunden"basierend auf dem Prozentsatz der Aufgabe an, die jeder Ressource zugewiesen ist. Außerdem berücksichtigt der Stundensatz in der Formel alle Datumsänderungen des Satzes.</p> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wenn die tatsächlichen Arbeitskosten der Aufgabe berechnet werden durch:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Beispielsweise wird eine Aufgabe einer Auftragsrolle oder einem Benutzer mit einer Auftragsrolle zugewiesen, deren Kosten pro Stunde 20 USD betragen. Wenn ein Benutzer 5 Stunden für eine Aufgabe protokolliert, beträgt die tatsächliche Arbeitskosten 100 USD für diese Aufgabe. Wenn dem Benutzer, der der Aufgabe zugewiesen wurde, keine Aufgabenrolle zugeordnet ist, werden die tatsächlichen Kosten anhand der Kosten pro Stunde ihrer Primären Auftragsrolle berechnet. Wenn sie keine Arbeitsplatzrolle haben oder die Kosten pro Stunde-Rate ihrer Arbeitsplatzrolle nicht definiert ist, beträgt die tatsächliche Kosten der Aufgabe null. </p> <p>Notiz:   <p> Die tatsächlichen Stunden einer rollenbasierten Aufgabe berechnen sich auf der Basis der Vorgangsrollen der mit der Aufgabe verknüpften Benutzer und nicht anhand der Rollen des Benutzers, der die Zeit protokolliert. Außerdem berücksichtigt der Abrechnungsstundensatz in der Formel alle Datumsänderungen des Satzes.</p> <p>Wenn Ihr Workfront-Administrator die <strong>Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen</strong> im Bereich "Voreinstellungen"für Timesheets und Stunden festlegen und die Zeit für die Benutzerprotokollierung in der Aufgabe eine andere Rolle auswählt, die dieser Zeit zugeordnet werden soll, wird die tatsächliche Kosten einer Aufgabe "Stündlich"basierend auf der Rolle berechnet, die bei der Aufzeichnung der Stunden angegeben wurde. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Zeitblatt- und Stundenvoreinstellungen konfigurieren</a>.</p> </p> </td> 
+   <td> <p><strong>Geplante Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dabei werden die geplanten Arbeitskosten berechnet durch:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Hinweis: Wenn Sie einer Aufgabe mehrere Ressourcen zuweisen, passt Workfront die Berechnungen für "Geplante Stunden"basierend auf dem Prozentsatz der Aufgabe an, die jeder Ressource zugewiesen ist. Außerdem berücksichtigt der Stundensatz in der Formel alle Datumsänderungen des Satzes.</p> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wenn die tatsächlichen Arbeitskosten der Aufgabe berechnet werden durch:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Beispielsweise wird eine Aufgabe einer Auftragsrolle oder einem Benutzer mit einer Auftragsrolle zugewiesen, deren Kosten pro Stunde 20 USD betragen. Wenn ein Benutzer 5 Stunden für eine Aufgabe protokolliert, beträgt die tatsächliche Arbeitskosten 100 USD für diese Aufgabe. Wenn dem Benutzer, der der Aufgabe zugewiesen wurde, keine Aufgabenrolle zugeordnet ist, werden die tatsächlichen Kosten anhand der Kosten pro Stunde ihrer Primären Auftragsrolle berechnet. Wenn sie keine Arbeitsplatzrolle haben oder die Kosten pro Stunde-Rate ihrer Arbeitsplatzrolle nicht definiert ist, beträgt die tatsächliche Kosten der Aufgabe null. </p> <p>Hinweis: Die tatsächlichen Stunden einer rollenbasierten Aufgabe berechnen sich basierend auf den Vorgangsrollen der mit der Aufgabe verknüpften Benutzer und nicht auf den Rollen des Benutzers, der die Zeit protokolliert. Außerdem berücksichtigt der Abrechnungsstundensatz in der Formel alle Datumsänderungen des Satzes.</p> <p>Wenn Ihr Workfront-Administrator die <strong>Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen</strong> im Bereich "Voreinstellungen"für Timesheets und Stunden in der Einrichtung festlegen und die Zeit für die Benutzerprotokollierung der Aufgabe eine andere Rolle auswählt, die dieser Zeit zugeordnet werden soll, wird die tatsächliche Kosten einer Aufgabe für eine Stündliche Rolle basierend auf der Rolle berechnet, die bei der Aufzeichnung der Stunden angegeben wurde. Informationen zum Aktivieren der Protokollierungszeit für eine bestimmte Auftragsrolle finden Sie im Artikel <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Zeitblatt- und Stundenvoreinstellungen konfigurieren</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Festgelegt pro Stunde</p> </td> 
@@ -210,19 +204,6 @@ In der folgenden Tabelle werden die in Workfront verfügbaren Aufgabenkostentype
  </tbody> 
 </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because this was moved to its own how-to article linked above. Could be removed after some time.) </p>
-<p>To configure the Cost Type of an individual task:</p>
-<ol>
-<li value="1">Go to the task where you want to configure the Cost Type. </li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then expand the <strong>Finance</strong> area. </p> </li>
-<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double click <strong>Cost Type</strong> and select the cost type that you want to apply to the task. </p> </li>
-<li value="4">Click <strong>Save.</strong></li>
-</ol>
-</div>
--->
-
 ## So verfolgt Workfront Kosten für Probleme {#how-workfront-tracks-costs-for-issues}
 
 Probleme haben keine Auswirkungen auf die folgenden Kostentypen eines Projekts:
@@ -230,40 +211,25 @@ Probleme haben keine Auswirkungen auf die folgenden Kostentypen eines Projekts:
 * Geplante Kosten
 * Budgetierte Kosten
 
-Probleme können jedoch **Tatsächliche Kosten** was sich auch auf die tatsächlichen Kosten des Projekts auswirkt.
+Probleme können jedoch **Tatsächliche Kosten**, was auch die tatsächlichen Kosten des Projekts betrifft.
 
 In der folgenden Tabelle wird erläutert, wie die tatsächlichen Kosten für Probleme berechnet werden, je nach Art der Zuweisung zu dem Problem:
 
 <table style="table-layout:auto"> 
  <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th colspan="4">Tatsächliche Kosten des Problems</th> 
-  </tr> 
- </thead> 
+ <col>
  <tbody> 
   <tr> 
    <td> <p>Benutzerzuweisung</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Die Kosten pro Stunde des Benutzers, der die Zeit protokolliert, wird hier berücksichtigt, unabhängig davon, wer dem Problem zugewiesen ist. </p> <p>Wenn der Benutzer, der die Zeit protokolliert, keine Kosten pro Stunde in seinem Profil hat, berechnet die Kostensatz pro Stunde seiner Primären Auftragsrolle die tatsächlichen Kosten des Problems. Wenn der Benutzer, der die Zeit protokolliert, in seinem Profil keine Rolle hat oder keine zugehörige Rate zugeordnet ist, werden die tatsächlichen Stunden anhand der Kosten pro Stunde-Rate der Primären Auftragsrolle des Primären Bevollmächtigten für das Problem berechnet. Wenn für diese Rolle kein Prozentsatz definiert ist, liegen die tatsächlichen Kosten des Problems bei null. </p> </td> 
+   <td colspan="3"> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Die Kosten pro Stunde des Benutzers, der die Zeit protokolliert, wird hier berücksichtigt, unabhängig davon, wer dem Problem zugewiesen ist. </p> <p>Wenn der Benutzer, der die Zeit protokolliert, keine Kosten pro Stunde in seinem Profil hat, berechnet die Kostensatz pro Stunde seiner Primären Auftragsrolle die tatsächlichen Kosten des Problems.</p> <p>Wenn der Benutzer, der die Zeit protokolliert, in seinem Profil keine Rolle hat oder keine zugehörige Rate zugeordnet ist, werden die tatsächlichen Stunden anhand der Kosten pro Stunde-Rate der Primären Auftragsrolle des Primären Bevollmächtigten für das Problem berechnet. Wenn für diese Rolle kein Prozentsatz definiert ist, liegen die tatsächlichen Kosten des Problems bei null. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Rollenzuweisung</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>Die Kosten pro Stunde des Benutzers, der die Zeit für das Problem protokolliert, wird hier berücksichtigt, unabhängig davon, welche Rolle dem Problem zugewiesen ist. </p> <p>Wenn dem Benutzer, der die Zeit protokolliert, keine Kosten pro Stunde zugeordnet ist, berechnet die Kostensatz pro Stunde seiner Primären Rolle die tatsächlichen Kosten des Problems.<br>Wenn der Benutzer, der die Zeit protokolliert, keine Rolle in seinem Profil hat oder keine Quote damit verknüpft ist, beträgt die tatsächliche Ausgabe des Problems null. </p> </td> 
+   <td colspan="3"> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>Die Kosten pro Stunde des Benutzers, der die Zeit für das Problem protokolliert, wird hier berücksichtigt, unabhängig davon, welche Rolle dem Problem zugewiesen ist. </p> <p>Wenn dem Benutzer, der die Zeit protokolliert, keine Kosten pro Stunde zugeordnet ist, berechnet die Kostensatz pro Stunde seiner Primären Rolle die tatsächlichen Kosten des Problems.</p><p>Wenn der Benutzer, der die Zeit protokolliert, keine Rolle in seinem Profil hat oder keine Quote damit verknüpft ist, beträgt die tatsächliche Ausgabe des Problems null. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Keine Zuweisung</p> <p> </p> </td> 
    <td colspan="3"> <p><strong>Tatsächliche Kosten</strong> wird mit der folgenden Formel berechnet:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Wenn dem Benutzer, der die Uhrzeit protokolliert, keine Kosten pro Stunde mit seinem Profil verbunden ist, berechnet die Kostensatz pro Stunde seiner Primären Auftragsrolle die tatsächlichen Kosten des Problems. </p> <p>Wenn dem Benutzer, der die Zeit protokolliert, keine Stellenrolle mit seinem Profil zugeordnet ist oder dessen Primäre Rolle "Job"keine Kostensätze pro Stunde definiert hat, beträgt die tatsächliche Kosten des Problems null. </p> </td> 
   </tr> 
-  <!--<tr data-mc-conditions=""> 
-   <td colspan="4"> 
-    <div> <MadCap:conditionalText data-mc-conditions="">
-       If your Workfront administrator enabled the 
-      <strong>Assign Job Roles to hour entries manually</strong> setting in the Timesheets &amp; Hours Preferences area, and the user logging time on the issue selects a different role to associate with this time, the Actual Cost of the issue calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article 
-      <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. 
-     </MadCap:conditionalText> 
-    </div> </td> 
-  </tr> 
-  -->
  </tbody> 
 </table>
