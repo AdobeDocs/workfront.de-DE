@@ -7,9 +7,9 @@ description: Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und 
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmä�
 
 1. Klicken Sie auf **Datumsbereich** eines Zeitblatts, um es zu öffnen.
 
-   Jedes Zeitblatt zeigt alle Aufgaben, Probleme und Projekte an, für die Sie die Zeit angemeldet haben. In einem Timesheet werden auch bis zu 45 Aufgaben, Probleme oder Projekte angezeigt, die Ihnen mit Datumsangaben innerhalb des Zeitrahmens des Zeitblatts zugewiesen wurden, für die Sie jedoch noch keine Zeit angemeldet haben.
+   Jedes Zeitblatt zeigt alle Aufgaben, Probleme und Projekte an, für die Sie die Zeit angemeldet haben. In einem Timesheet werden auch bis zu 45 Aufgaben und Probleme angezeigt, die Ihnen mit Datumsangaben innerhalb des Zeitrahmens des Zeitplans zugewiesen wurden, für die Sie jedoch noch keine Zeit angemeldet haben. Die 45 zuletzt aktualisierten Elemente werden für die Anzeige im Timesheet ausgewählt.
 
    Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
