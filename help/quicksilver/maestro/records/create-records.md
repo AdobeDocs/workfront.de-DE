@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Das Erstellen von Betriebsdatensätzen ist mit dem Erstellen von Taxonomiedatens
 Sie können Datensätze in Maestro erstellen, indem Sie einen der folgenden Schritte ausführen:
 
 * Erstellen Sie sie manuell für Maestro-Datensatztypen
-* Verbinden Sie sie mit Maestro-Datensätzen aus Drittanbieteranwendungen.
+* Verbinden Sie sie mit Maestro-Datensätzen aus anderen Anwendungen.
 * Erstellen Sie Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste.
 
 In diesem Artikel wird beschrieben, wie Sie Maestro-Datensätze erstellen können. Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
@@ -139,22 +139,21 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
 ## Erstellen von Datensätzen durch Verbinden mit einer anderen Anwendung
 
-Sie können Datensätze aus anderen Anwendungen importieren, indem Sie sie mit Maestro verknüpften Datensätzen verknüpfen. Dadurch wird ein Maestro-Record-Typ für das angeschlossene Objekt der Drittanbieteranwendung erstellt. Datensätze, die Sie mit den ursprünglichen Maestro-Datensätzen verbinden, werden in der Tabellenansicht des mit der Drittanbieteranwendung verbundenen Objekts Maestro record type angezeigt.
+Sie können Datensätze aus anderen Anwendungen importieren, indem Sie sie mit Maestro verknüpften Datensätzen verknüpfen. Dadurch wird ein Maestro-Record-Typ für das verbundene Objekt der anderen Anwendung erstellt.
 
 1. Erstellen Sie einen Maestro-Record-Typ, wie im Abschnitt [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
 1. Erstellen Sie Maestro-Datensätze für den Datensatztyp, den Sie im vorherigen Schritt erstellt haben. Weitere Informationen finden Sie im Abschnitt . [Datensätze durch manuelles Hinzufügen zu einem Datensatztyp erstellen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
 
-1. Erstellen Sie eine Verbindung zu einem Objekttyp aus einer Drittanbieteranwendung für den von Ihnen erstellten Maestro-Datensatztyp. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+1. Erstellen Sie eine Verbindung zu einem Objekttyp aus einer anderen Anwendung für den von Ihnen erstellten Maestro-Record-Typ. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
-1. Fügen Sie den oben erstellten Maestro-Datensätzen Datensätze aus der Drittanbieteranwendung hinzu, indem Sie das verknüpfte Datensatzfeld verwenden, das Sie im vorherigen Schritt erstellt haben. Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
+1. Fügen Sie den zuvor erstellten Maestro-Datensätzen mithilfe des im vorherigen Schritt erstellten verknüpften Datensatzfelds Datensätze aus einer anderen Anwendung hinzu. Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
 
    Die folgenden Elemente werden in Maestro erstellt:
 
-   * Ein schreibgeschützter Maestro-Record-Typ, der sich auf den von Ihnen im Feld für den verbundenen Datensatz verknüpften Drittanbieter-Record-Typ bezieht.
+   * Ein schreibgeschützter Maestro-Record-Typ, der auf den Datensatztyp der anderen Anwendung verweist, mit dem Sie im Feld &quot;Connected Record&quot;verknüpft sind.
 
-     Wenn Sie beispielsweise einen Maestro-Record-Typ mit Workfront-Projekten verknüpfen, wird im selben Arbeitsbereich ein schreibgeschützter Datensatz mit dem Namen &quot;Workfront projects&quot;erstellt.
-   * Schreibgeschützte Datensätze auf der Seite des Drittanbieter-Datensatztyps. Die aus der Drittanbieteranwendung importierten Datensätze bleiben schreibgeschützt und können nur in der Originalanwendung aktualisiert werden.
+     Wenn Sie beispielsweise einen Maestro-Record-Typ mit einem Workfront-Projekt verbinden, wird im selben Arbeitsbereich ein schreibgeschützter Datensatz mit dem Namen &quot;Workfront-Projekt&quot;erstellt. Sie können über die Tabellenansicht der Maestro-Datensätze, von denen Sie eine Verknüpfung herstellen, auf die schreibgeschützten Workfront-Datensatztypen zugreifen.
 
 ## Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste erstellen
 
@@ -178,7 +177,7 @@ Sie können Datensätze aus anderen Anwendungen importieren, indem Sie sie mit M
    >
    > Vergewissern Sie sich, dass die gewünschten Felder bereits in Maestro erstellt wurden und dass die Informationen in Ihrem Blatt im richtigen Format angezeigt werden, das dem der Felder in Maestro entspricht.
 
-1. Wählen Sie in der Drittanbieteranwendung mehrere Zeilen und Spalten aus und fügen Sie dann die Informationen in die Tabellenansicht des Datensatztyps ein, beginnend mit dem ersten neuen Datensatz.
+1. Wählen Sie in einer anderen Anwendung mehrere Zeilen und Spalten aus und fügen Sie dann die Informationen in die Tabellenansicht des Datensatztyps ein, beginnend mit dem ersten neuen Datensatz.
 
    Die folgenden Informationen werden in Maestro importiert:
 

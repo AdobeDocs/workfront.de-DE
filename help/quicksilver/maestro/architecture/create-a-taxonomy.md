@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Taxonomien sind Datensatztypen, die Attribute über betriebliche Datensatztypen in Adobe Maestro erfassen.
+Taxonomie-Datensatztypen erfassen Attribute über betriebliche Datensatztypen in Adobe Maestro.
 
 Beispielsweise kann Campaign ein operativer Datensatztyp sein. Im Folgenden finden Sie Taxonomien, die Attribute zum Kampagnen-Datensatztyp erfassen: Region, Zielgruppe, Land.
 
@@ -91,19 +91,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Erstellen von Taxonomien
 
-* Sie müssen einen Arbeitsbereich erstellen, bevor Sie Taxonomien im Arbeitsbereich erstellen können.
+* Sie müssen einen Arbeitsbereich erstellen, bevor Sie Taxonomie-Datensatztypen im Arbeitsbereich erstellen können.
 
   Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 * Sie können einen Taxonomie-Datensatztyp erstellen, indem Sie einen der folgenden Schritte ausführen:
    * Erstellen Sie sie automatisch, wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
    * Erstellen Sie sie manuell von Grund auf neu.
-   * Erstellen Sie sie manuell, indem Sie Informationen aus einer externen Liste einfügen.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Alle neu erstellten Taxonomien enthalten die folgenden Felder:
+* Alle neu erstellten Taxonomiedatensatztypen enthalten die folgenden Felder:
 
    * Name <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
   >[!NOTE]
   >
-  >    Bei Verwendung einer Workspace-Vorlage erstellte Taxonomien verfügen über zusätzliche Felder.
+  >    Bei Verwendung einer Workspace-Vorlage erstellte Taxonomie-Datensatztypen verfügen über zusätzliche Felder.
 
-## Erstellen einer Taxonomie
+## Erstellen eines Taxonomiedatensatztyps
 
-Das Erstellen von Taxonomien ähnelt dem Erstellen eines operationellen Datensatztyps von Grund auf oder aus einer Workspace-Vorlage.
+Das Erstellen von Taxonomiedatensätzen ähnelt dem Erstellen betrieblicher Datensatztypen von Grund auf oder aus einer Workspace-Vorlage.
 
 Weitere Informationen finden Sie im Artikel unter &quot;Erstellen eines neuen Datensatztyps&quot; [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 

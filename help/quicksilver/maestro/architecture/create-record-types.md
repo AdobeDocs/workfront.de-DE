@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Um Maestro-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -98,16 +98,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Erstellen von Datensatztypen
 
-* Sie können Datensatztypen in einem Arbeitsbereich erstellen, indem Sie einen der folgenden Schritte ausführen:
+* Sie können Datensatztypen in einem Arbeitsbereich wie folgt erstellen:
 
    * Automatisch:
       * Wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen.
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
       * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren. Dies ist nicht für Taxonomie-Datensatztypen verfügbar.
-      * Wenn Sie eine Verbindung zu Objekttypen aus einer anderen Anwendung erstellen, wenn Sie Felder zu einem Datensatztyp hinzufügen. Dadurch wird in Maestro ein schreibgeschützter Datensatztyp erstellt, der mit Objektarten aus der Originalanwendung verbunden ist.
-
-     Informationen zum Verbinden von Objekttypen mit Maestro-Datensätzen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuell:
 
       * Von Grund auf neu.
@@ -126,9 +126,9 @@ In diesem Artikel wird beschrieben, wie Sie von Grund auf betriebliche Datensatz
 
 Weitere Informationen zu Taxonomien finden Sie unter [Erstellen einer Taxonomie](../architecture/create-a-taxonomy.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront oder **Hauptmenü** icon ![](assets/main-menu-shell.png)  in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
+Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
 1. Klicks **Datensatztyp hinzufügen**.
@@ -138,14 +138,14 @@ Weitere Informationen zu Taxonomien finden Sie unter [Erstellen einer Taxonomie]
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Wählen Sie die folgenden Informationen aus:
+1. Aktualisieren Sie die folgenden Informationen:
 
-   * **Name des Eintrags**: Ersetzen Sie &quot;Unbenannter operationeller Datensatztyp&quot;durch den Namen Ihres künftigen Datensatztyps. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Name des Datensatztyps**: Ersetzen Sie &quot;Unbenannter operationeller Datensatztyp&quot;durch den Namen Ihres künftigen Datensatztyps.
    * **Erscheinungsbild**: Definieren Sie die Farbe und Form des Symbols, das dem Datensatztyp zugeordnet ist. Gehen Sie wie folgt vor:
       * Wählen Sie eine Farbe aus, um Ihren neuen Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp. Graustufen ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. Klicken Sie außerhalb der **Datensatztyp hinzufügen** zum Speichern des Datensatzes.
+1. Klicken Sie außerhalb der **Datensatztyp hinzufügen** zum Speichern des Datensatztyps.
 
    Die Karte vom Typ Datensatz wird dem ausgewählten Arbeitsbereich hinzugefügt.
 Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezeigt.
@@ -171,8 +171,11 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
 
    Klicken Sie auf **Mehr** icon ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Umbenennen** , um ihn umzubenennen.
 
-1. (Optional) Klicken Sie auf **+ Neu &lt; Name des Datensatztyps >** , um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](../records/create-records.md).
-1. (Optional) Klicken Sie auf die **+** rechts oben in der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
+1. (Optional) Klicken Sie auf **+ Neuer Datensatz** , um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](../records/create-records.md).
+1. (Optional) Klicken Sie auf die **+** rechts oben in der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.
+
+   Weitere Informationen zum Erstellen von Feldern finden Sie unter [Felder erstellen](../fields/create-fields.md).
+
 1. (Optional) Klicken Sie auf den linken Pfeil neben dem Namen des Datensatztyps, um zum ausgewählten Arbeitsbereich zurückzukehren.
 
    Die Karte vom Typ Datensatz zeigt die Anzahl der Felder und Verbindungen an, die der Datensatztyp enthält.
@@ -184,7 +187,7 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
    * [Datensätze erstellen](../records/create-records.md)
    * [Löschen von Datensatztypen](../architecture/delete-record-types.md)
    * [Datensatztypen bearbeiten](../architecture/edit-record-types.md)
-   * [Verwalten von Datensatzansichten in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Verwalten von Datensatzansichten](../views/manage-record-views.md)
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
@@ -202,9 +205,9 @@ Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei
 
 So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-workfront.png) in der oberen rechten Ecke von Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> Klicken Sie dann auf **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
+Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
 1. Klicks **Datensatztyp hinzufügen**.
@@ -250,20 +253,21 @@ So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
 
    Jeder mit Zugriff auf Maestro kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
 
-## Verbinden von Datensatztypen mit Objekttypen aus einer anderen Anwendung
+<!--## Connect record types with object types from another application
 
-Sie können Datensatztypen importieren, wenn Sie eine Verbindung zwischen einem Maestro-Record-Typ und einem Objekttyp aus einer anderen Anwendung herstellen. Dadurch wird in Maestro ein schreibgeschützter Datensatztyp erstellt, der dem Objekttyp in der Drittanbieteranwendung entspricht.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-Sie können beispielsweise Datensatztypen erstellen, indem Sie Maestro-Datensatztypen mit Workfront-Projekten verbinden. Daher wird der Workfront-Projektobjekttyp als schreibgeschützter Datensatztyp in Maestro importiert. Standardmäßig erhält der Datensatztyp den Namen &quot;Workfront Project&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-Sie können die folgenden Objekte aus den folgenden Anwendungen importieren:
+* From Workfront:
 
-* In Workfront:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Projekte
-   * Portfolios
-   * Programme
-   * Firma
-   * Gruppe
-
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

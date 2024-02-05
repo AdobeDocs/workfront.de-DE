@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,13 @@ author: Alina
 
 Sie können Adobe Maestro verwenden, um vollständig anpassbare Arbeitsbereiche zu entwerfen, die Datensatztypen enthalten, die in Ihrem Unternehmen benötigt werden. Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Maestro-Record-Typen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu halten.
 
-Sie können Folgendes verbinden:
-
-* Maestro-Betriebsaufzeichnungen
-* Maestro-Taxonomien zueinander
-* Maestro-Betriebsaufzeichentypen und -taxonomien untereinander
-* Maestro-Betriebsdatentypen und -taxonomien mit Objekttypen aus anderen Anwendungen.
+Sie können Maestro-Record-Typen miteinander oder Maestro-Record-Typen mit Objekttypen aus anderen Anwendungen verbinden.
 
 Auf diese Weise können Sie Felder aus dem verknüpften Datensatz oder Objekttyp in einem anderen Maestro-Datensatz anzeigen.
 
 In diesem Artikel wird beschrieben, wie Sie zwei Maestro-Datensatztypen oder einen Maestro-Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden können.
 
-Nachdem die Verbindung zwischen Datensatz- oder Objekttypen hergestellt wurde, können Sie einzelne Datensätze miteinander verbinden.
+Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden.
 
 Informationen zum Verbinden eines Maestro-Datensatzes mit einem Objekt aus einer anderen Anwendung finden Sie unter [Datensätze verbinden](../records/connect-records.md).
 
@@ -99,7 +94,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 </td>
   </tr>
  </tbody>
@@ -119,8 +114,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Verbinden von Datensatztypen
 
-Beachten Sie Folgendes:
-
 * Sie können die folgenden Entitäten in Maestro verbinden:
 
    * Zwei Betriebsaufzeichentypen
@@ -130,7 +123,7 @@ Beachten Sie Folgendes:
 
   Alle betrieblichen Datensatztypen und Taxonomien müssen zum selben Arbeitsbereich gehören.
 
-* Sie können die folgenden Objekte aus den folgenden Anwendungen mit Maestro-Datensatztypen verbinden:
+* Sie können die folgenden Objekttypen aus den folgenden Anwendungen mit Maestro-Datensatztypen verbinden:
 
    * Adobe Workfront:
 
@@ -151,31 +144,31 @@ Beachten Sie Folgendes:
      >
      >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
+* Nachdem Sie einzelne Datensätze für einen Datensatztyp erstellt haben, können Sie die Datensätze, zu denen Sie eine Verbindung herstellen, aus dem Feld des verknüpften Datensatztyps auswählen. Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
+
 * Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder einem Objekttyp aus einer anderen Anwendung verbunden haben, gibt es folgende Szenarien:
 
    * **Wenn Sie zwei Datensatztypen verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Ein ähnliches verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen.
 
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit dem Datensatztyp &quot;Produkt&quot;verbinden, wird ein verknüpftes Datensatzfeld, das Sie &quot;Verknüpftes Produkt&quot;nennen, für den Datensatztyp &quot;Kampagne&quot;erstellt und ein verknüpfter Datensatztyp automatisch mit dem Namen &quot;Kampagne&quot;für den Produktdatensatz erstellt.
 
-   * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für das Anwendungsobjekt der Drittanbieteranwendung wird kein verknüpftes Datensatzfeld automatisch erstellt.
+   * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
 
-     Ein neuer schreibgeschützter Maestro-Record-Typ wird nur dann für das Anwendungsobjekt eines Drittanbieters erstellt, wenn tatsächliche Objekte mit den Maestro-Datensätzen verbunden sind.
+     Ein neuer schreibgeschützter Maestro-Record-Typ wird nur dann für das Objekt der anderen Anwendung erstellt, wenn tatsächliche Objekte mit den Maestro-Datensätzen verbunden sind.
 
      Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
 
-   * **Beim Hinzufügen von Suchfeldern des Datensatzes oder Objekts, zu dem Sie eine Verbindung herstellen**: Verknüpfte Felder werden dem Datensatz hinzugefügt, aus dem Sie eine Verbindung herstellen, und sie zeigen Informationen aus den Suchfeldern an, die Sie für die Datensätze ausgewählt haben, von denen Sie eine Verknüpfung herstellen. Die Datensatzfelder sind immer schreibgeschützt und werden automatisch mit den Werten des Drittanbieterobjekts gefüllt.
+   * **Beim Hinzufügen von Suchfeldern des Datensatzes oder Objekts, zu dem Sie eine Verbindung herstellen**: Sie können Felder vom Objekt der anderen Anwendung mit dem Maestro-Record-Typ verbinden. Diese Felder sind verknüpft oder Suchfelder. Verknüpfte Felder zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden. Die verknüpften Suchfelder sind immer schreibgeschützt und werden automatisch mit den Werten der verbundenen Datensätze oder Objekte ausgefüllt.
 
-     Wenn Sie beispielsweise den Maestro-Record-Typ &quot;Kampagne&quot;mit einem Workfront-Projekt verbinden und das Feld &quot;Geplantes Abschlussdatum&quot;des Projekts auf den Maestro-Datensatz übertragen möchten, wird automatisch ein verknüpftes Feld namens &quot;Geplantes Abschlussdatum (aus Projekt)&quot;für den Datensatz erstellt, von dem Sie die Verknüpfung herstellen.
+     Wenn Sie beispielsweise den Maestro-Record-Typ &quot;Kampagne&quot;mit einem Workfront-Projekt verbinden und das Feld &quot;Geplantes Abschlussdatum&quot;des Projekts in den Maestro-Datensatz übertragen möchten, wird automatisch ein verknüpftes Feld namens &quot;Geplantes Abschlussdatum&quot;(aus Projekt) für die Kampagne erstellt. Sie können dieses verknüpfte Feld nicht manuell bearbeiten. Im Feld Geplantes Abschlussdatum (aus Projekt) wird das geplante Abschlussdatum der verknüpften Projekte angezeigt.
 
      >[!IMPORTANT]
      >
-     >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von den Berechtigungen oder Zugriffsrechten in der Drittanbieteranwendung der verknüpften Objekttypen.
+     >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
 
 * Verknüpfte Datensatzfelder erhalten ein Beziehungssymbol ![](assets/relationship-field-icon.png).
 
   Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Beispielsweise Symbole, die angeben, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
-
-* Nachdem Sie einzelne Datensätze für einen Datensatztyp erstellt haben, können Sie die Datensätze, zu denen Sie eine Verbindung herstellen, aus dem Feld des verknüpften Datensatztyps auswählen. Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
 
 ## Datensatztypen verbinden
 
@@ -191,7 +184,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. Im **Record Type** -Feld nach einem Datensatztyp suchen oder eine der folgenden Optionen auswählen: <!--is the field name spelled right? lowercase "t"?-->
+1. Im **Record Type** -Feld nach einem Datensatztyp suchen oder eine der folgenden Optionen auswählen:
 
    * Ein anderer betrieblicher Datensatztyp oder eine Taxonomie aus dem ausgewählten Arbeitsbereich
 
@@ -199,7 +192,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
      >
      >Es sind nur Datensatztypen und Taxonomien aus dem ausgewählten Arbeitsbereich verfügbar, mit denen eine Verbindung hergestellt werden kann.
      > 
-     >Wenn im ausgewählten Arbeitsbereich keine anderen Datensatztypen vorhanden sind, wird der Workspace-Name nicht angezeigt.
+     >Wenn im ausgewählten Arbeitsbereich keine anderen Datensatztypen vorhanden sind, wird der Arbeitsbereich-Bereich nicht angezeigt.
 
    * A **Projekt, Portfolio, Programm, Firma** oder **Gruppe** aus dem **Workfront-Objekttypen** Abschnitt.
    * **Experience Manager Assets** aus dem **Adobe-Anwendungen** Abschnitt.
@@ -209,7 +202,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Aktualisieren Sie die folgenden Informationen:
 
-   * **Name**: Der Name des verbundenen Felds, wie er in der Tabellenansicht oder auf der Detailseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verknüpfte Datensatzspalte in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatzfelds für die ursprünglichen Datensätze erstellt. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des verbundenen Felds, wie er in der Tabellenansicht oder auf der Detailseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verknüpfte Datensatzspalte in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatzfelds für die ursprünglichen Datensätze erstellt.
 
    >[!TIP]
    >
@@ -217,11 +210,15 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    * **Beschreibung**: Zusätzliche Informationen zum verbundenen Datensatzfeld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen können, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
-   * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind mit dem Datensatz oder Objekttyp verknüpft, mit dem Sie verknüpft sind.  Diese Option ist standardmäßig aktiviert.
+   * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Durch die Verknüpfung werden Informationen aus dem Datensatz oder Objekt angezeigt, mit dem Sie in dem Datensatz verknüpfen, den Sie möchten. Diese Option ist standardmäßig aktiviert.
 
-1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Projekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. <!--this needs to be updated for each object when they fix this UI.--> Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Maestro-Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
+1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Objekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Maestro-Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
    ![](assets/workfront-project-connection-selection.png)
+
+   >[!NOTE]
+   >
+   > Sie müssen benutzerdefinierte Formulare in Workfront für die ausgewählten Objekte erstellen, bevor sie in dieser Liste angezeigt werden.
 
 1. (Bedingt) Wenn Sie die Verbindung zu Experience Manager Assets hergestellt haben, wählen Sie ein Repository aus der **Experience Manager-Repository** Dropdown-Menü im **Verknüpfen von Assets aus dem folgenden Repository** Abschnitt. Dies ist ein erforderliches Feld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
 
@@ -239,9 +236,11 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
+   Die Werte für die verbundenen Felder werden automatisch ausgefüllt, nachdem Sie Datensätze oder Objekte verknüpft haben.
+
    >[!IMPORTANT]
    >
-   >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von den Berechtigungen oder Zugriffsrechten in der Drittanbieteranwendung der verknüpften Objekttypen.
+   >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
 
 
 1. (Optional) Klicken Sie auf **Überspringen** und fügen keine Felder aus dem verknüpften Datensatz oder Objekt hinzu. Die **Name** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des ursprünglichen Datensatzes.
@@ -281,9 +280,11 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    * Ein verknüpftes Datensatzfeld des Datensatztyps, von dem Sie eine Verknüpfung herstellen. Das verknüpfte Datensatzfeld zeigt einzelne Datensätze des verknüpften Datensatztyps an, nachdem Sie sie manuell hinzugefügt haben. Informationen zum Hinzufügen von Datensätzen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md). Der Name des verknüpften Datensatzfelds ist der Name, den Sie in Schritt 6 ausgewählt haben. <!--accurate-->
 
-   * Ein verknüpftes Feld (oder Felder), das Informationen aus den Feldern des verknüpften Datensatztyps anzeigt, nachdem Sie die Datensätze manuell in das verknüpfte Datensatzfeld eingefügt haben. Die verknüpften Felder werden nur erstellt, wenn die Variable **Suchfelder auswählen** wird bei der Erstellung der Verbindung ausgewählt. Die verknüpften Felder werden nach folgendem Muster benannt:
+   * Ein verknüpftes Feld (oder verknüpfte Felder), das Informationen aus den Feldern des verknüpften Datensatzes oder Objektarten anzeigt, nachdem Sie die Datensätze oder Objekte manuell in das verknüpfte Datensatzfeld eingefügt haben. Die verknüpften Felder werden nur erstellt, wenn die Variable **Suchfelder auswählen** wird bei der Erstellung der Verbindung ausgewählt. Die verknüpften Felder werden automatisch nach folgendem Muster benannt:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+     Wenn Sie beispielsweise einen Kampagnen-Record-Typ mit einem Programmdatensatz-Typ verknüpft haben und das Feld Programm-verknüpfter Datensatz &quot;Programminformationen&quot;nennen, wählen Sie dann aus, auch das Feld Budget des Programms in der Tabellenansicht der Kampagne anzuzeigen, wird das verknüpfte Feld automatisch benannt. `Budget (from Program information)` in der Tabellenansicht der Kampagne.
 
    * Wenn Sie Maestro-Datensatztypen miteinander verknüpfen, wird auch ein verknüpftes Datensatzfeld für den Datensatztyp hinzugefügt, zu dem Sie eine Verknüpfung herstellen. Der Name des verknüpften Datensatzfelds im verknüpften Datensatztyp ist der Name des Datensatztyps, von dem Sie eine Verknüpfung herstellen.
 
@@ -291,9 +292,9 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
      >[!TIP]
      >
-     > Ein verknüpftes Datensatzfeld mit dem Datensatztyp, von dem Sie eine Verknüpfung herstellen, wird nicht für Objekte aus einer Drittanbieteranwendung erstellt.
+     > Ein verknüpftes Datensatzfeld wird nicht für Objekte erstellt, die von einer anderen Anwendung zum Datensatztyp gesendet werden, von dem aus Sie in Maestro verknüpfen.
 
-1. (Optional) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
+1. (Optional und bedingt) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
 
    * **Feld bearbeiten**: Sie können nur die **Name** und **Beschreibung** Informationen zum Feld.
    * **Suchfelder bearbeiten**: Fügt die Felder des verknüpften Datensatzes hinzu oder entfernt sie.
@@ -304,14 +305,10 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    >[!NOTE]
    >
-   > Sie können die Suchfelder des Datensatzes, von dem Sie eine Verknüpfung herstellen, nicht zum verknüpften Datensatztyp hinzufügen, der ein Objekt in einer Drittanbieteranwendung anzeigt.
+   > Es ist nicht möglich, Suchfelder hinzuzufügen, die zu Maestro-Datensatztypen gehören, von denen Sie Verknüpfungen zu Objektarten aus einer anderen Anwendung erstellen.
    >
-   > Beispielsweise können Sie das Suchfeld eines Maestro-Objekts &quot;Kampagne&quot;nicht aus dem Feld &quot;Kampagne&quot;hinzufügen, das im Datensatztyp &quot;Maestro-Projekt&quot;angezeigt wird, wenn Sie eine Verknüpfung zu Workfront-Projekten herstellen.
+   > Sie können beispielsweise das Suchfeld &quot;Kampagnenstatus&quot;nicht zu einem Workfront-Projekt hinzufügen, zu dem Sie über die Kampagnen verknüpfen.
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil in der Kopfzeile des verknüpften Datensatzfelds vom Typ, von dem Sie die Verknüpfung herstellen, und klicken Sie dann auf **Löschen**.
+1. (Optional) Klicken Sie in der Kopfzeile eines verknüpften Datensatzfelds auf den nach unten zeigenden Pfeil oder in der Kopfzeile eines Lookup-Felds des Datensatztyps, von dem Sie die Verknüpfung herstellen, und klicken Sie dann auf **Löschen**.
 
-   Das Datensatzfeld und alle zusätzlichen verknüpften Lookup-Felder werden gelöscht und die Felder und ihre Informationen können nicht wiederhergestellt werden.
-
-   >[!TIP]
-   >
-   >    Das verknüpfte Datensatzfeld des Datensatztyps, zu dem Sie eine Verknüpfung herstellen, wird nicht gelöscht. <!-- is this still accurate?! -->
+   Das Datensatzfeld oder das Lookup-Feld werden gelöscht. Wenn Sie ein Datensatzfeld löschen, werden auch alle mit dem verknüpften Datensatz verknüpften Suchfelder gelöscht.

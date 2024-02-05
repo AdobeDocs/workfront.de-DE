@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -263,7 +263,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Maestro-Objekt | Limit |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
-| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Taxonomien für den Arbeitsbereich oder Objekte, die Sie aus Drittanbieteranwendungen importieren) |
+| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Taxonomien für den Arbeitsbereich oder Objekte, die Sie aus anderen Anwendungen importieren) |
 | Datensatzanzahl für einen Datensatztyp | 10.000 |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |

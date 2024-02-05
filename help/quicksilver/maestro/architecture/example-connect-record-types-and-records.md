@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Sie möchten ein Feld für den Datensatztyp von Campaign erstellen, in dem Sie d
 
 Gehen Sie dazu folgendermaßen vor:
 
-1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp.
-1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung**.
+1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp in einem Arbeitsbereich.
+1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung** Klicken Sie auf **Produkt** im ausgewählten Arbeitsbereich angezeigt.
 1. Fügen Sie die folgenden Informationen hinzu, beispielsweise:
 
    * **Record Type**: Produkt <!--did they change the casing here?-->
    * **Name**: Produktinformationen. Dies ist der Name des verknüpften Datensatzfelds.
    * **Beschreibung**: Dies sind die Produkte, mit denen meine Kampagnen verknüpft werden sollen.
    * **Mehrere Datensätze zulassen**: Wenn Sie diese Option aktiviert lassen, können Benutzer mehrere Datensätze auswählen, wenn das verknüpfte Datensatztyp-Feld (Produktinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird. In unserem Fall können sie mehrere Produkte auswählen, die mit einer Kampagne verbunden werden sollen.
-   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Produktfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können diesen Schritt überspringen und Produktfelder später hinzufügen.
+   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Produktfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können auf **Überspringen** um diesen Schritt zu überspringen und Produktfelder später hinzuzufügen.
 
    ![](assets/new-connection-with-product-record-type.png)
 
@@ -76,7 +76,7 @@ Gehen Sie dazu folgendermaßen vor:
    >
    >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol gekennzeichnet ![](assets/relationship-field-icon.png).
 
-1. So füllen Sie die **Produktinformationen** aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen, erstellen Sie eine Kampagne, indem Sie in der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
+1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen, erstellen Sie eine Kampagne, indem Sie in der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
 1. Klicken Sie auf **+** -Symbol in  **Produktinformationen** Spalte der neuen Kampagne. Die **Objekte verbinden** angezeigt. Der Name des Datensatztyps, mit dem Sie (Produkt) verknüpfen, wird in der linken oberen Ecke des Felds angezeigt.
 
    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
@@ -85,7 +85,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    Die folgenden Spalten werden in der Tabelle vom Typ Campaign-Datensatz ausgefüllt:
    * Die **Produktinformationen** wird für den Campaign-Datensatz mit den ausgewählten Produkten ausgefüllt.
-   * **Das Budget (aus Produktinformationen)** mit dem Budgetwert für jedes ausgewählte Produkt oder mit einer Gesamtsumme aller Budgets der ausgewählten Produkte gefüllt.
+   * **Das Budget (aus Produktinformationen)** wird mit dem Budgetwert für jedes ausgewählte Produkt oder mit einem Gesamtbudget der ausgewählten Produkte ausgefüllt (wenn Sie SUM für Ihren Aggregator ausgewählt haben).
 
    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
@@ -96,31 +96,31 @@ Gehen Sie dazu folgendermaßen vor:
 1. So füllen Sie die **Kampagne** aus dem **Produkt** -Tabellenansicht, wiederholen Sie die Schritte 5 bis 7, angefangen bei der Tabellenansicht vom Typ Produktdatensatz und wählen Sie Kampagneninformationen aus. Dadurch wird auch das Feld Produktinformationen in der Tabelle des Campaign-Datensatztyps aktualisiert. <!--ensure the step numbers remain correct-->
 
 
-## Verbinden eines Maestro-Datensatztyps mit einem Workfront-Projektobjekttyp und einem Datensatz mit einzelnen Projekten
+## Verbinden eines Maestro-Datensatztyps mit einem Workfront-Projektobjekttyp und eines Datensatzes mit einzelnen Projekten
 
 Sie haben beispielsweise einen Datensatztyp namens Campaign als Ihren ursprünglichen Datensatztyp.
 
-Sie haben auch Projekte in Workfront mit dem Feld &quot;Geplanter Umsatz&quot;.
+Sie haben auch Projekte in Workfront mit einem Feld namens &quot;Geplanter Umsatz&quot;.
 
-Sie möchten ein Verbindungsfeld für den Datensatztyp von Campaign erstellen, in dem Sie die Werte des Felds &quot;Geplanter Umsatz&quot;im Projekt in Workfront für bestimmte Kampagnen anzeigen können.
+Sie möchten ein Verbindungsfeld für den Datensatztyp von Campaign erstellen, in dem Sie die Werte des Felds &quot;Geplanter Umsatz&quot;der Projekte in Workfront anzeigen können, die mit Kampagnen in Maestro verbunden sind.
 
 Gehen Sie dazu folgendermaßen vor:
 
 1. Wechseln Sie zu einem Arbeitsbereich, in dem Sie den Campaign-Datensatztyp mit Workfront-Projekten verbinden möchten.
 1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp im ausgewählten Arbeitsbereich.
-1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung**.
+1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung** Klicken Sie auf **Projekt** im **Workfront-Objekttypen** Abschnitt.
 1. Fügen Sie die folgenden Informationen hinzu, beispielsweise:
 
-   * **Record Type**: Workfront-Projekt (aus dem Workfront-Unterabschnitt) <!--did they change the casing here for the field label and did they take "Workfront" out of the name of the object?-->
-   * **Name**: Projektinformationen. Dies ist der Name des verknüpften Objektfelds.
-   * **Beschreibung**: Dies sind die Projekte, mit denen meine Kampagnen verknüpft werden sollen.
+   * **Record Type**: Workfront-Projekt (aus dem Workfront-Unterabschnitt)
+   * **Name**: Projektinformationen. Dies ist ein Beispiel dafür, wie Sie das verknüpfte Objektfeld benennen können.
+   * **Beschreibung**: Dies sind die Projekte, mit denen meine Kampagnen verknüpft werden sollen. Dies ist ein Beispiel für die Beschreibung des verbundenen Datensatzfelds.
    * 
-      * **Mehrere Datensätze zulassen**: Wenn Sie diese Option aktiviert lassen, können Benutzer mehrere Objekte auswählen, wenn das Feld &quot;Verknüpfter Objekttyp&quot;(Projektinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird.
-   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Projektfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können diesen Schritt überspringen und zu einem späteren Zeitpunkt Projektfelder hinzufügen.
+      * **Mehrere Datensätze zulassen**: Wenn Sie diese Option aktiviert lassen, können Benutzer mehrere Projekte auswählen, wenn das Feld &quot;Verknüpfter Projekttyp&quot;(Projektinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird.
+   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Projektfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können auf **Überspringen** , um diesen Schritt zu überspringen und die Projektfelder später hinzuzufügen.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
 
-1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Projekt** Objekttyp auswählen, klicken Sie auf die **+** -Symbol für **Geplanter Umsatz** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Geplanter Umsatz (aus Projektinformationen)**, der Name des verknüpften Felds. Alle Informationen aus dem Feld Projektumsatz werden in diesem Feld für die Campaign-Datensätze angezeigt.
+1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Projekt** Objekttyp auswählen, klicken Sie auf die **+** -Symbol für **Geplanter Umsatz** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Geplanter Umsatz (aus Projektinformationen)**, der Name des verknüpften Felds. Alle Informationen aus dem Feld Geplanter Umsatz des Projekts werden in diesem Feld automatisch für die Kampagneneinträge angezeigt.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ Gehen Sie dazu folgendermaßen vor:
    >
    >    Verknüpfte Objektfelder werden durch das Verknüpfungssymbol ![](assets/relationship-field-icon.png).
 
-1. So füllen Sie die **Projektinformationen** aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen Sie eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
+1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen Sie eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
 1. Klicken Sie auf **+** -Symbol in  **Projektinformationen** Spalte der neuen Kampagne. Die **Objekte verbinden** angezeigt. Der Name des Objekttyps, mit dem Sie (Workfront-Projekt) verknüpfen, wird in der linken oberen Ecke des Felds angezeigt.
 
    ![](assets/connect-objects-box-to-select-projects.png)
@@ -160,49 +160,17 @@ Gehen Sie dazu folgendermaßen vor:
    >
    >Wenn Sie keinen Aggregator für mehrere Werte auswählen und im objektverknüpften Feld mehrere Objekte auswählen, werden alle Werte durch Kommas getrennt angezeigt.
 
-   * Ein schreibgeschützter Workfront-Projektdatensatz für den ausgewählten Arbeitsbereich.
+1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Projekts.
 
-1. Klicken Sie in der Kopfzeile der Seite auf den Pfeil nach links neben dem Datensatznamen, um zum zu aktualisierenden Arbeitsbereich zu gelangen.
-1. Öffnen Sie die **Workfront-Projekt** Record Type-Karte, um die Seite vom Typ Datensatz zu öffnen.
+   Dadurch wird das schreibgeschützte Maestro-Projekt **Details** Seite.
+Überprüfen Sie die Informationen zum Projekt. Auf der Detailseite werden nur ausgewählte Projektfelder angezeigt.
 
-   Beachten Sie Folgendes für die Seite mit dem Workfront-Projekt-Datensatztyp:
+1. Klicken Sie oben rechts im Bildschirm auf Zu Quelle wechseln , um das Projekt in Workfront zu öffnen, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
+1. (Optional) Aktualisieren Sie die Informationen zum Projekt in Workfront, sofern Sie dazu berechtigt sind.
 
-   * Dies ist ein schreibgeschützter Maestro-Record-Typ, den Sie weder löschen noch aktualisieren können.
-   * Die Projekte, die Sie für die Verbindung mit Kampagnen ausgewählt haben, werden auf der Datensatztyp-Seite des Workfront-Projekts als separate Datensätze angezeigt. Die Projektdatensätze sind ebenfalls schreibgeschützt und ihre Informationen werden automatisch aktualisiert, wenn Projekte in Workfront aktualisiert werden. Sie müssen weitere Projekte aus dem verbundenen Maestro-Datensatz hinzufügen, um sie im Workfront-Projekt-Datensatztyp anzuzeigen.
-   * Das Feld Kampagnenverknüpfter Datensatz wird mit den Namen der Kampagnen gefüllt, die mit Projekten verbunden sind, ausgehend von der Seite Kampagnentyps .
-
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Seite &quot;Workfront-Projektdetails&quot;in Maestro zu öffnen:
-
-   * Über den Datensatztyp, den Sie verknüpft haben (**Kampagne**), navigieren Sie zum Workfront-Projekt-verknüpften Datensatzfeld (**Projektinformationen**) und klicken Sie auf den Namen eines Workfront-Projekts.
-   * Aus dem **Verzeichnis** Ansicht der **Workfront-Projekt** Datensatzseite, klicken Sie auf den Namen eines Workfront-Projekts
-
-     Oder
-
-     Klicken Sie auf **Mehr** Menü rechts neben einem Workfront-Projekt und klicken Sie auf **Ansicht**.
-
-     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
-
-   Dadurch wird die Maestro-Detailseite des verknüpften Workfront-Projekts geöffnet. Dies ist eine schreibgeschützte Seite.
-
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um das verknüpfte Workfront-Projekt in Workfront zu öffnen:
-
-   * Aus dem **Verzeichnis** Ansicht der **Workfront-Projekt** auf den Namen eines Workfront-Projekts klicken,
-
-   Oder
-
-   Klicken Sie auf **Mehr** Menü rechts neben dem Workfront-Projektnamen und klicken Sie auf **Zu Quelle wechseln**.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Dadurch wird die Workfront-Projektseite geöffnet. Sie können Informationen zum Workfront-Projekt bearbeiten, sofern Sie dazu berechtigt sind.
-
-1. Klicken Sie auf **Felder hinzufügen** icon ![](assets/add-fields-icon.png) in der oberen rechten Ecke der Workfront Project Record Type-Tabelle, um dem Workfront Project Maestro-Datensatztyp weitere Projektfelder hinzuzufügen.
+1. Bewegen Sie in der Tabellenansicht von Campaign den Mauszeiger über die **Projektinformationen** -Feldüberschrift, klicken Sie auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Suchfelder bearbeiten.**
 1. Klicken Sie auf **+** für alle Projektfelder, die Sie zum Workfront Project Maestro-Datensatz hinzufügen möchten, im **Nicht ausgewählte Felder** Abschnitt.
 1. Klicken Sie auf **-** für alle Projektfelder, die Sie aus dem Workfront Project Maestro-Datensatz entfernen möchten, im **Ausgewählte Felder** Abschnitt.
 1. Klicken Sie auf **Speichern**.
 
-   >[!TIP]
-   >
-   >    Die Felder, die Sie zum Workfront Project Maestro-Datensatz hinzufügen, werden nur auf der Seite Workfront-Projekt hinzugefügt und nicht der Seite Campaign-Record Type als verknüpfte Felder hinzugefügt. Sie müssen die Projektfelder aus dem Feld Projektinformationen, verbunden mit Objekt des Datensatztyps Campaign hinzufügen, um sie für Kampagnen anzuzeigen.
-
-1. (Optional und bedingt) Wenn Sie mindestens zwei Datumsfelder für Projekte angezeigt haben, klicken Sie auf die Schaltfläche **Ansicht** Dropdown-Menü in der Workfront-Datensatztyp-Tabelle &quot;Projekt&quot;und **Ansicht erstellen** > **Timeline** > **Erstellen** , um eine Timeline-Ansicht zu erstellen und die Projekte in einer Timeline anzuzeigen.
+   Dem Campaign-Datensatztyp werden zusätzliche verknüpfte Felder hinzugefügt.
