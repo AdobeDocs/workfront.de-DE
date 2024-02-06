@@ -3,10 +3,10 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
-ht-degree: 0%
+source-wordcount: '13894'
+ht-degree: 1%
 
 ---
 
@@ -413,7 +413,7 @@ ht-degree: 0%
       * [Plattformbasierte Unterschiede](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Einrichten von Workfront {#set-up-wf}
       * [Einrichten](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      * Systemstandardwerte konfigurieren {#configure-system-defaults}
+      * Konfigurieren von Systemstandardwerten {#configure-system-defaults}
          * [Standardeinstellungen konfigurieren](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Konfigurieren von Projektvoreinstellungen](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Konfigurieren der Voreinstellungen für Aufgaben und Probleme](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
@@ -437,13 +437,13 @@ ht-degree: 0%
          * [Voreinstellungen für das Datenblatt und die Stunde](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [Verwalten von Stundentypen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [Zeitplan erstellen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * Organisatorische Einrichtung {#organization-setup}
+      * Organisations-Setup {#organization-setup}
          * [Organisatorische Einrichtung](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Unternehmen verwalten](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Verwalten von Firmenmitgliedschaften](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Deaktivieren oder Reaktivieren eines Unternehmens](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Auftragsrolle](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-         * [Erstellen und Verwalten von Vorgangsrollen](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+         * [Erstellen und Verwalten von Aufgabengebieten](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [Löschen von Vorgangsrollen](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Deaktivieren von Vorgangsrollen](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Außerkraftsetzen der Abrechnungsraten für Stellenangebote](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
@@ -459,14 +459,14 @@ ht-degree: 0%
          * [Objekte von einem Objekt verschieben [!DNL Workfront] Umgebung zu einer anderen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Benutzerverwaltung {#add-users}
       * [Benutzerverwaltung: Artikelindex](administration-and-setup/add-users/add-users.md)
-      * Benutzer erstellen und verwalten {#create-manage-users}
+      * Erstellen und Verwalten von Benutzenden {#create-manage-users}
          * [Benutzer verwalten](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Benutzer hinzufügen](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Benutzer importieren](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Profil eines Benutzers bearbeiten](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [Massenbearbeitung von Benutzerprofilen](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [Direkte Berichte erstellen](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-         * [Melden Sie sich als anderer Benutzer an](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+         * [Anmelden als eine andere Benutzerin bzw. ein anderer Benutzer](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
          * [Voreinstellungen eines Benutzers zurücksetzen](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
          * [Benutzernamen ändern](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [Ändern des Kennworts für einen automatisch bereitgestellten Benutzer](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -675,8 +675,8 @@ ht-degree: 0%
          * [SAML 2.0-Metadaten in Ihrem IDP bei Verwendung der erweiterten Authentifizierung aktualisieren](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
       * Wechselkurse {#exchange-rates}
          * [Wechselkurse](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-         * [Wechselkurse einrichten](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * Gelöschte Elemente verwalten {#manage-deleted-items}
+         * [Einrichten von Wechselkursen](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
+      * Verwalten von gelöschten Elementen {#manage-deleted-items}
          * [Gelöschte Elemente verwalten](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Gelöschte Elemente wiederherstellen](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [Wiederhergestelltes Element anzeigen](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
@@ -716,7 +716,7 @@ ht-degree: 0%
          * [Zeitblatt und Stunde entsperren](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
          * [Gruppe verschieben](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
          * [Gruppe deaktivieren oder reaktivieren](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
-         * [Gruppe löschen](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+         * [Löschen einer Gruppe](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [Eine Liste von Gruppen exportieren](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * Erstellen und Verwalten von Untergruppen {#create-manage-subgroups}
          * [Erstellen und Verwalten von Untergruppen](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
@@ -725,7 +725,7 @@ ht-degree: 0%
          * [Anzeigen und Verwalten von Untergruppenmitgliedern](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
       * Gruppenrollen {#group-roles}
          * [Gruppenrollen](administration-and-setup/manage-groups/group-roles/group-roles.md)
-         * [Gruppenadministratoren](administration-and-setup/manage-groups/group-roles/group-administrators.md)
+         * [Gruppenadmins](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Zuweisen eines Gruppenadministrators](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Gruppenadministratorfunktionen](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Übersicht über Business Leader](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
@@ -764,7 +764,7 @@ ht-degree: 0%
       * [Dokumentintegrationen konfigurieren](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Dokumentintegrationen deaktivieren](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Konfigurieren der SharePoint-Integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-      * [Einrichten der Metadaten-Zuordnung](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Einrichten der Metadatenzuordnung](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Erstellen von Adobe Workfront-Creative Cloud-Paketen für Ihre Benutzer in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Anzeigen und Verwalten benutzerdefinierter OAuth2-Anwendungen](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
@@ -989,7 +989,7 @@ ht-degree: 0%
       * [Pinnwand erstellen oder bearbeiten](agile/get-started-with-boards/create-edit-board.md)
       * [Pinnwand löschen oder archivieren](agile/get-started-with-boards/delete-archive-board.md)
       * [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](agile/get-started-with-boards/add-members-to-board.md)
-      * [Pinnwandspalten verwalten](agile/get-started-with-boards/manage-board-columns.md)
+      * [Verwalten von Pinnwandspalten](agile/get-started-with-boards/manage-board-columns.md)
       * [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](agile/get-started-with-boards/add-card-to-board.md)
       * [Angeschlossene Karten auf Pinnwänden verwenden](agile/get-started-with-boards/connected-cards.md)
       * [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -1292,7 +1292,7 @@ ht-degree: 0%
          * [Übersicht über die Aufgabe: Originaldauer und ursprünglich geplante Stunden](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Unterschied zwischen geplanter Dauer und Dauer für Aufgaben](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Aufgaben erstellen {#create-tasks}
-         * [Aufgaben erstellen](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Erstellen von Aufgaben](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Übersicht über Aufgaben erstellen](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Erstellen von Aufgaben in einem Projekt](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Erstellen von Unteraufgaben](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -1529,7 +1529,7 @@ ht-degree: 0%
          * [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Filter, Ansichten oder Gruppierungen freigeben](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-         * [Filter, Ansichten und Gruppierungen entfernen](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+         * [Entfernen von Filtern, Ansichten und Gruppierungen](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [Verwenden der Milestone-Ansicht](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [Spaltenbreite und -reihenfolge ändern](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
       * Verwenden integrierter Berichte {#built-in-reports}
@@ -1714,7 +1714,7 @@ ht-degree: 0%
       * [Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics](enhanced-analytics/activity-by-team-overview.md)
       * [Anzeigen der Visualisierung der Ressourcenkapazität in Enhanced Analytics](enhanced-analytics/resource-capacity-overview.md)
       * [Visualisierung der Teamkapazität in der erweiterten Analyse anzeigen](enhanced-analytics/team-capacity-overview.md)
-* Ressourcen verwalten {#manage-resources}
+* Verwalten von Ressourcen {#manage-resources}
    * [Ressourcen verwalten](resource-mgmt/manage-resources.md)
    * Ressourcenverwaltung {#resource-management}
       * [Ressourcenverwaltung](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
@@ -1764,7 +1764,7 @@ ht-degree: 0%
       * [Navigieren Sie zum Lastenausgleich .](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [Den Lastenausgleich über einen Link freigeben](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Arbeiten überprüfen und genehmigen {#review-and-approve-work}
+* Überprüfen und Genehmigen von Arbeiten {#review-and-approve-work}
    * [Arbeiten überprüfen und genehmigen](review-and-approve-work/review-and-approve-work.md)
    * [Alpha-Programm - Dokumentgenehmigungen](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick](review-and-approve-work/proof-doc-decision-limits.md)
@@ -1830,7 +1830,7 @@ ht-degree: 0%
             * [Validierungsbericht für Testsendungen verwenden](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Zugriff auf Workfront Testing von Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Verwalten von Testversionen {#manage-proof-versions}
-            * [Verwalten von Testversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Verwalten von Korrekturabzugsversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Erstellen einer neuen Testversion](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Anzeigen von Testversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Details zur Testversion anzeigen und verwalten](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
@@ -1867,7 +1867,7 @@ ht-degree: 0%
       * Testsendungen in Adobe Workfront überprüfen {#review-proofs-in-workfront}
          * [Überprüfen von Testsendungen in Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Testversand überprüfen {#review-a-proof}
-            * [Testversand überprüfen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Überprüfen eines Korrekturabzugs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Inhalt in einem Testversand anzeigen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Fläche innerhalb eines Testversands messen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Ändern der Maßeinheit der Timeline in einem Videotest](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -2033,6 +2033,7 @@ ht-degree: 0%
       * [Zugriffsinformationen](maestro/access/access-information.md)
       * [Zugriffsübersicht](maestro/access/access-overview.md)
       * [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Übersicht über den Lizenztyp in Adobe Maestro](maestro/access/license-type-overview.md)
       * [Freigeben von Arbeitsbereichen](maestro/access/share-workspaces.md)
       * [Ansichten freigeben](maestro/access/share-views.md)
    * Adobe Maestro-Datensätze {#adobe-maestro-records}
@@ -2357,7 +2358,7 @@ ht-degree: 0%
       * [Anwenden einer Anaplan-Budgetzuordnung auf ein Adobe Workfront-Projekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Erstellen eines Anaplan-Listenelements aus einer Adobe Workfront-Kampagnenanforderung](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Anwenden einer Anaplan-Budgetzuordnung auf eine Adobe Workfront-Kampagnenanforderung oder ein Kampagnenprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront-Testversand {#workfront-proof}
+* Workfront-Korrekturabzug {#workfront-proof}
    * [Workfront-Testversand: Artikelindex](workfront-proof/workfront-proof.md)
    * Erste Schritte mit Workfront Testing {#get-started-wf-proof}
       * [Erste Schritte mit Workfront Testversand](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
@@ -2624,7 +2625,7 @@ ht-degree: 0%
    * Allgemeine Informationen zur API {#api-general-information}
       * [Allgemeine Informationen zur API](wf-api/general/api-general.md)
       * [API-Grundlagen](wf-api/general/api-basics.md)
-      * [API-Explorer](wf-api/general/api-explorer.md)
+      * [API Explorer](wf-api/general/api-explorer.md)
       * [API Explorer verwenden](wf-api/general/using-api-explorer.md)
       * [Rich-Text-Felder in der Adobe Workfront-API](wf-api/general/rich-text-field-api.md)
       * [API-Beispielskripte](wf-api/general/api-example-scripts.md)

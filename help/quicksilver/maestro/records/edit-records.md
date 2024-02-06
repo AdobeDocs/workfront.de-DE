@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,13 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Sie können Datensatzinformationen in Adobe Maestro bearbeiten. Sie müssen Datensatztypen erstellen, bevor Sie mit der Erstellung und Bearbeitung von Datensätzen beginnen können.
+Sie können Datensatzinformationen in Adobe Maestro bearbeiten, indem Sie die mit den Datensätzen verknüpften Feldwerte bearbeiten.
+
+Sie müssen Datensatztypen erstellen, bevor Sie mit der Erstellung und Bearbeitung von Datensätzen beginnen können.
+
 Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
+
+Informationen zum Erstellen von Datensätzen finden Sie unter [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md).
 
 &lt;!— Erwähnen Sie hier, dass die Felder in der Detailansicht mit denen in der Tabellenansicht identisch sind. Dieser Artikel ist über die Option Datensatzansichten verwalten verknüpft, um auf diese Informationen zu verweisen.—>
 
@@ -52,9 +57,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Neu: Licht oder höher</p>
+   Oder
+   <p>Aktuell: Arbeit oder höher</p> 
   </td>
   </tr>
 
@@ -78,21 +85,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Überlegungen zum Bearbeiten von Datensätzen
 
-* Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze bearbeiten. <!--will change with access levels-->
-* Felder, die mit anderen Datensätzen oder Feldern verknüpft sind, die Berechnungen enthalten, können nicht bearbeitet werden.
+* Sie können von Ihnen erstellte Datensätze oder von anderen Benutzern erstellte Datensätze bearbeiten, wenn Sie über Berechtigungen für den Arbeitsbereich verfügen.
+* Sie können Datensatzfelder über die Detailseite eines Datensatzes oder über die Tabellenansicht eines Datensatztyps bearbeiten.
+* Datensatzinformationen aus der Timeline-Ansicht können nicht bearbeitet werden.
+* Die folgenden Feldtypen werden automatisch aktualisiert und ihre Werte können nicht manuell bearbeitet werden:
+   * Verknüpfte Felder anderer Datensätze
+   * Felder vom Typ Formel
+   * Systemfelder (erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung)
 * Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, werden die neuen Informationen der von Ihnen bearbeiteten Datensätze in den verknüpften Datensätzen angezeigt.
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
-* Sie können beim Bearbeiten eines Felds vom Typ &quot;Absatz&quot;die folgenden Rich-Text-Formatierungsoptionen verwenden:
-
-   * Fett
-   * Kursiv
-   * Unterstreichen
-   * Link hinzufügen
-   * Liste mit Aufzählungszeichen hinzufügen
-   * Nummerierte Liste hinzufügen
 
 ## Datensätze bearbeiten
 
@@ -110,8 +116,8 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
+   * Von einem **Verzeichnis** -Ansicht auf den Namen eines Datensatzes klicken.
+   * Aus dem **Verzeichnis** Ansicht, bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
 
      ![](assets/contextual-menu-for-record-row.png)
    * Klicken Sie in einer Timeline-Ansicht auf eine Datensatzleiste.
@@ -144,7 +150,6 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. In der oberen rechten Ecke der Tabellenansicht wird eine Anzeige zum Speichern der Änderungen kurz angezeigt.
 
    >[!NOTE]
    >
@@ -153,13 +158,31 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
    >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
 
+1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Absatz bearbeiten, verwenden Sie Folgendes **Rich-Text** Formatierungsoptionen:
 
-1. (Optional) Kopieren Sie einen oder mehrere vorhandene Werte eines Felds und fügen Sie sie dann in ein Feld desselben Typs in einen anderen Datensatz ein. Klicken Sie dann auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
+   * Fett
+   * Kursiv
+   * Unterstreichen
+   * Link hinzufügen
+   * Liste mit Aufzählungszeichen hinzufügen
+   * Nummerierte Liste hinzufügen
+
+   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. A **Gespeichert** wird in der oberen rechten Ecke der Tabellenansicht kurz angezeigt, um zu zeigen, dass die Änderungen gespeichert wurden.
+
+1. (Optional) Um Informationen von einem Feld in ein anderes zu kopieren und einzufügen, führen Sie einen der folgenden Schritte aus:
+
+   * Kopieren Sie einen oder mehrere vorhandene Werte eines Felds und fügen Sie sie dann in ein Feld desselben Typs in einen anderen Datensatz ein.
+   * Klicken Sie auf die Spaltenüberschrift einer Spalte, um sie auszuwählen und zu kopieren. Klicken Sie dann auf die Spaltenüberschrift einer anderen Spalte und fügen Sie den Inhalt der kopierten Spalte ein. Die Spalten müssen ähnliche Feldtypen enthalten.
+   * Klicken Sie bei gedrückter Umschalt-Taste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein.
 
    >[!NOTE]
    >
    >Beachten Sie Folgendes:
    >
+   >* Verwenden Sie die folgenden Tastaturbefehle zum Kopieren und Einfügen von Informationen:
+   >   * Kopieren: STRG + C ( ⌘ + C für Mac)
+   >   * Einfügen: STRG + V ( ⌘ + V für Mac)
    >* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
    >
    >* Sie können keine Feldwerte kopieren und in den Detailbereich eines Datensatzes einfügen. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
@@ -173,4 +196,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
    * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
+
+   >[!TIP]
+   >
+   >    Sie können die Tastaturbefehle mehrmals hintereinander verwenden, um mehrere Änderungen rückgängig zu machen.
+
 1. (Optional) Fügen Sie einem Datensatz eine Miniaturansicht hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

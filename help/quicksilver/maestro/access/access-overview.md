@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu ver
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
    <p>Alle</p>
-   Um Arbeitsbereiche zu erstellen, müssen Benutzer über die folgende Lizenz verfügen: 
-   <ul><li><p>Neu: Standard</p> </li>
-   <li><p>Aktuell: Worker oder höher</p> </li></ul>
+   <p>Um Arbeitsbereiche zu erstellen, benötigen Sie die folgende Lizenz:</p>
+   <ul>
+   <li>
+   Neu: Standard
+   </li>
+   <li>
+   Aktuell: Worker oder höher
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu ver
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Beitragen oder höhere Berechtigungen zu Arbeitsbereichen und Ansichten, die Sie nicht zum Bearbeiten, Löschen und Freigeben erstellt haben</p>
+   <p>Sie können Arbeitsbereiche und Ansichten, die Sie nicht erstellt haben, um sie zu bearbeiten, zu löschen und freizugeben sowie Datensatztypen und -datensätze zu erstellen, zu bearbeiten oder zu löschen, mit oder über höhere Berechtigungen versehen.</p>
     <p>Systemadministratoren können nicht erstellte Arbeitsbereiche und Ansichten verwalten </p>
    <p>Informationen zum Freigeben von Berechtigungen für Maestro-Objekte finden Sie unter  
    <a href="../access/sharing-permissions-overview.md">Übersicht über die Freigabe von Berechtigungen in Adobe Maestro</a> 
@@ -109,10 +115,16 @@ Es gibt keine Zugriffskontrollen für Maestro.
 
 Benutzer mit einer beliebigen Lizenz können auf Maestro zugreifen.
 
+Informationen zur Gewährung von Zugriff in Workfront finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Berechtigungen erteilen
 
 Sie müssen Benutzern, die keine Systemadministratoren sind, Berechtigungen für Arbeitsbereiche und Ansichten erteilen, die Sie erstellen, damit sie darauf zugreifen können.
 
 Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
+
+Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

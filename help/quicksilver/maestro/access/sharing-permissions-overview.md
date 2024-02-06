@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,12 +42,9 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
 ## Überlegungen zum Freigeben von Objekten in Maestro
 
-* Sie müssen über die folgende Lizenz verfügen, um Arbeitsbereiche in Maestro zu erstellen:
+* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
 
-   * Neues Preismodell: Standardlizenz
-   * Aktuelles Preismodell: Planungslizenz.
-
-  Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
 * Wenn Sie kein Systemadministrator sind, können Sie zu Arbeitsbereichen beitragen, die von anderen erstellt wurden, wenn diese für Sie freigegeben sind.
 * Arbeitsbereiche können nicht gemeinsam genutzt werden.
@@ -60,6 +57,13 @@ Sie können die folgenden Objekte in Maestro freigeben:
 ## Berechtigungen für Maestro-Objekte freigeben
 
 Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Maestro-Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
+
+>[!IMPORTANT]
+>
+>Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz der Benutzer bestimmt, welche Stufe von Berechtigungen sie für Maestro-Objekte erhalten können.
+>
+>Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### Workspace-Berechtigungen
 

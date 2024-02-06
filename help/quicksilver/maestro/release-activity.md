@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,54 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
+## Woche vom 5. Februar 2024
+
+### Berechtigungen basierend auf Lizenztypen ändern
+
+Produktion: 6. Februar 2024
+
+Vorschau: zu bestimmen
+
+Wir haben die Berechtigungsstufen geändert, um die Lizenztypen von Benutzern zu berücksichtigen. Vor dieser Verbesserung gab es keine Unterschiede bei den Berechtigungen für Arbeitsbereiche, die auf den Lizenztypen der Benutzer basieren.
+
+Die folgenden Berechtigungen funktionieren jetzt in Verbindung mit dem Lizenztyp des Benutzers:
+
+* Benutzer mit einer Planungslizenz (oder einer Standardlizenz im neuen Lizenzmodell) können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten.
+
+* Benutzer mit einer Work-Lizenz (oder Light im neuen Lizenzmodell) können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze dieses Arbeitsbereichs anzeigen und dazu beitragen.  Benutzer der Arbeits- (oder Light-)Lizenz können auch Datensätze in Arbeitsbereichen erstellen, bearbeiten und löschen, auf die sie Zugriff haben.
+
+* Benutzer mit einer Review- oder Anforderungslizenz (oder Mitarbeiter im neuen Lizenzmodell) können nur die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Sie können keine Datensatztypen oder -datensätze erstellen, bearbeiten oder löschen.
+
+Weitere Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in Maestro finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
+<!--
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+ 
+For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
+-->
 
 ## Woche vom 29. Januar 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >   * Eine Änderung des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten aus.
    >
    >   * Ein primäres Feld kann nicht gelöscht oder ausgeblendet werden.
+   >
+   >   * Der im Primärfeld angegebene Wert ist immer per Hyperlink zur Detailseite des Datensatzes gekennzeichnet.
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
@@ -214,7 +216,7 @@ Sie können bis zu 10.000 Datensätze (oder Zeilen) für einen Datensatztyp in M
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansicht oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-1. (Optional) Fügen Sie jedem Datensatz eine Miniaturansicht hinzu und klicken Sie auf **Felder** in der oberen rechten Ecke der Tabelle und wählen Sie den Umschalter für das Feld Miniatur aus, um es links neben dem primären Feld anzuzeigen. Die Auswahl ist standardmäßig aufgehoben.
+1. (Optional) Fügen Sie jedem Datensatz eine Miniaturansicht hinzu und klicken Sie auf **Felder** in der oberen rechten Ecke der Tabelle und wählen Sie dann den Umschalter für **Miniatur** -Feld, um es links neben dem primären Feld anzuzeigen. Die Auswahl ist standardmäßig aufgehoben.
 
    Weitere Informationen finden Sie unter [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
