@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2320'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,8 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer eine <strong>Zahl</strong> oder <strong>Währung</strong> Format. Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
-      <p><b>WICHTIG</b>: Beachten Sie vor der Auswahl eines Formats das richtige Format für das neue Feld. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p> </td> 
+      <p><b>WICHTIG</b>: Beachten Sie vor der Auswahl eines Formats das richtige Format für das neue Feld. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p>
+      <p><strong>NOTE:</strong> Berechnete Felder mit Währungsformat sollten keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht "800.00.") Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen zu unerwarteten Folgen führen.</p></td>
      </tr> 
     </tbody> 
    </table>

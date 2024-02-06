@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 3%
@@ -198,8 +198,8 @@ Hinzufügen eines Textfelds:
     <td>Format</td>
     <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>NOTE</b>:   
     <ul> 
-    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.<br></li> 
-    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li> 
+    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li> 
+    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -316,7 +316,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>NOTE</b>:   
      <ul> 
     <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.<br></li> 
-    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li> 
+    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
      </ul></p></td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
