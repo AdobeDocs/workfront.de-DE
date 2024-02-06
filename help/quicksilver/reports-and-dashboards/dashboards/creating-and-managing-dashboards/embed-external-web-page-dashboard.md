@@ -6,9 +6,9 @@ description: Sie können eine externe Webseite in ein Dashboard einbetten, um Zu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Sie müssen bei der angegebenen Website angemeldet sein, um die externe Seite an
         Weitere Informationen zu den Systemsicherheitseinstellungen finden Sie unter [Systemsicherheitsvoreinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
+     >[!WARNING]
+     >
+     >Die Verwendung der SessionID ist unsicher und wird nicht empfohlen.
+     >
+
    * **Höhe**: Geben Sie eine Zahl größer 0 ein, um den Platz zu definieren, den die externe Seite im Dashboard belegt. Die Standardhöhe ist 500.
 
 1. Klicken Sie auf **Speichern**.
@@ -158,7 +163,7 @@ So aktualisieren Sie die Informationen für eine in einem Dashboard verwendete e
 
 1. Im **Externe Seite bearbeiten** , aktualisieren Sie die Felder, die Sie ändern möchten, und klicken Sie auf **Speichern**.
 1. (Optional) Klicken Sie auf die **Löschen** icon ![](assets/delete.png) , um die externe Seite aus dem Dashboard zu entfernen. Weitere Informationen finden Sie unter [Externe Seite aus einem Dashboard entfernen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
 ## Anzeigen externer Seiten in einem Bericht
 

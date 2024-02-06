@@ -6,9 +6,9 @@ description: Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) zum Testen einreichen, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) zum Testen einreichen, verarbeitet A
 
 Jede Seite Ihres Dokuments wird im Testversand-Viewer als Miniaturbild angezeigt. Wenn Sie auf eine Miniaturansicht klicken, können Sie in eine Bitmap-Version dieser Seite mit 100 %, 200 % und 400 % zoomen. Bei Testsendungen mit einer Höhe oder Breite von mehr als 800 mm beträgt der maximale Zoomfaktor 200 %.
 
-Die Dokumentfarben werden in sRGB mit Farbkonvertierung aus der neuesten Adobe-Bibliothek angezeigt. Der Testversand-Viewer unterstützt alle in das Dokument eingebetteten ICC-Profile (International Color Consortium).
+Die Farben in Ihrem Dokument werden in sRGB mit Farbkonvertierung aus der neuesten Adobe-Bibliothek angezeigt. Der Testversand-Viewer unterstützt alle in das Dokument eingebetteten ICC-Profile (International Color Consortium).
 
 Der gesamte Schriftarttext wird in seiner Ebene extrahiert, sofern Sie beim Hochladen des Dokuments in das System die richtige Dateierweiterung angeben. Als Bilder oder Kurven eingeschlossenen Text wird nicht angezeigt.
 
@@ -32,7 +32,7 @@ Der gesamte Schriftarttext wird in seiner Ebene extrahiert, sofern Sie beim Hoch
 * Da PDF-Dateien die standardisiertesten und zuverlässigsten sind, empfehlen wir, Dokumente in dieses Format zu konvertieren, bevor Sie sie hochladen.
 * Verwenden Sie die neueste Version Ihrer Software, um Ihre Originaldokumente zu erstellen.
 * Wenn Sie nicht sicher sind, welche Einstellungen beim Speichern oder Exportieren Ihrer Dokumente in der Anwendung, in der Sie sie erstellt haben, verwendet werden sollen, verwenden Sie die Standardeinstellungen. 
-* Betten Sie alle Schriftarten, die Sie in einem Dokument verwenden, ein. Wenn Sie benutzerdefinierte Schriftarten verwenden, zeigt Ihr Dokument diese Schriftarten nur auf Computern an, auf denen sie installiert sind.
+* Betten Sie alle Schriftarten, die Sie in einem Dokument verwenden, ein. Wenn Sie benutzerdefinierte Schriftarten verwenden, zeigt Ihr Dokument diese Schriftarten nur auf Computern an, auf denen sie installiert sind. Da jedoch benutzerdefinierte Schriftarten nicht im Testversandsystem enthalten sind, können beim Generieren der Datei keine benutzerdefinierten Schriftarten verwendet werden, selbst wenn sie eingebettet sind.
 * Platzieren Sie nach Möglichkeit alle Textelemente in den obersten Ebenen Ihres Designs. Dadurch sollte sichergestellt werden, dass Ihr Text extrahiert und im Text-Anmerkungs-Tool auswählbar ist.
 * Platzieren Sie alle Bilder und Elemente Ihres Dokuments darin. Wenn Sie sie aus externen Quellen verknüpfen, z. B. aus einer anderen Datei auf Ihrem Computer, werden sie nicht in dem von Ihnen erstellten Testversand angezeigt.
 * Erstellen Sie Ihr Dokument anhand der für seinen Typ empfohlenen Standards und optimieren Sie es, bevor Sie es hochladen. Dadurch wird sichergestellt, dass das Dokument sowohl im Testversand-Viewer als auch in allen anderen Anwendungen und Plattformen erfolgreich geöffnet wird.
@@ -44,9 +44,9 @@ Der gesamte Schriftarttext wird in seiner Ebene extrahiert, sofern Sie beim Hoch
 
 Normalerweise dauert die Verarbeitung einige Sekunden pro Seite. Verschiedene Faktoren können dies jedoch verlängern, wie z. B. Netzwerkverkehr/Bandbreite, lokale Verbindungsgeschwindigkeiten und internationale Verbindungsgeschwindigkeiten (für Benutzer außerhalb der USA). Die Verarbeitungszeit kann sich auch auf Folgendes auswirken:
 
-* Für statische Dokumente und Bilder: Seitenzahl, Seitendimensionen, Textvolumen, Bild- und Objektkomplexität (Elemente wie mehrere Vektorelemente, Ebenen, Transparenz).
-* Videos: lange Dauer, große Dimensionen und verwendete Codecs.
-* Für Webaufnahmen: Ladezeiten von Webseiten und Seitendimensionen.
+* Für statische Dokumente und Bilder: Seitenzahl, Seitendimensionen, Textvolumen, Bild- und Objektkomplexität (Elemente wie mehrere Vektorelemente, Ebenen, Transparenzen).
+* Für Videos: lange Dauer, große Dimensionen und verwendete Codecs.
+* Für Webaufzeichnungen: Ladezeiten von Webseiten und Seitendimensionen.
 
 ## Prozessschritte
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Aktivieren der Verwendung von Sitzungsinformationen beim Erstellen von URLs externer Seiten</td> 
-      <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Einbetten einer externen Webseite in ein Dashboard</a>.</p> </td> 
+      <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Diese Option ist unsicher und standardmäßig deaktiviert. Es wird empfohlen, stattdessen OAuth für Integrationen zu verwenden.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Einbetten einer externen Webseite in ein Dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lassen Sie die Benutzer die mobilen Anwendungen von Workfront und die <strong>Workfront</strong> Outlook-Add-In</td> 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 8825aa9c58651a809f539576af803a582352e0b0
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 12%
@@ -34,8 +34,8 @@ Informationen dazu, wie Sie Ihre Organisation bei der reibungslosen Anpassung an
    <td> <p>Versionen 2024</p> 
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version des ersten Quartals 2024</a> </p> </li>
-      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 2024 im zweiten Quartal</a> </p> </li>
-   <td> <ul>    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion-Release-Aktivität</a> </p> </li> </ul>   </td> 
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Übersicht über die Version 2024 im zweiten Quartal</a> </p> </li>
+   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion-Release-Aktivität</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Versionen 2023</p> 
     <ul> 

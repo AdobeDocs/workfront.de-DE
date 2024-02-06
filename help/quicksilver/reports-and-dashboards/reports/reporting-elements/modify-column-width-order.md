@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Spaltenbreite und -reihenfolge ändern
-description: Lesen Sie diesen Artikel, um mehr über Richtlinien zur Spaltenbreite und darüber zu erfahren, wie die Spaltenbreite und -reihenfolge in Workfront geändert werden.
+description: Lesen Sie diesen Artikel, um mehr über die Richtlinien zur Spaltenbreite und darüber zu erfahren, wie die Spaltenbreite und -reihenfolge in Workfront geändert werden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Ado
 * Workfront definiert standardmäßig die Spaltenbreite in Listen und Berichten.
 * Workfront passt die Spaltenbreite automatisch an die `valueformat`Informationen in allen Listen und Berichten, sofern im Textmodus der Spalte nichts anderes angegeben ist.
 
-   >[!NOTE]
-   >
-   >Workfront passt die Spaltenbreite nicht an die `valueformat` Informationen in den Listen, die in den Bereichen Einrichtung und Berichte verfügbar sind.
+  >[!NOTE]
+  >
+  >Workfront passt die Spaltenbreite nicht an die `valueformat` Informationen in den Listen, die in den Bereichen Einrichtung und Berichte verfügbar sind.
 
-   Die `valueformat` -Wert definiert, welche Art von Informationen in der Spalte angezeigt werden. Beispielsweise sind Spalten, die eine Zahl anzeigen, enger als Spalten, in denen das Feld Beschreibung angezeigt wird.
+  Die `valueformat` -Wert definiert, welche Art von Informationen in der Spalte angezeigt werden. Beispielsweise sind Spalten, die eine Zahl anzeigen, enger als Spalten, in denen das Feld Beschreibung angezeigt wird.
 
 * Sie können die Spaltenbreite in Ihren Workfront-Listen und -Berichten an Ihre Anforderungen anpassen, je nachdem, welche Art von Informationen in Spalten angezeigt werden soll.
 
-   Sie können die Breite der Spalten vorübergehend ändern, während Sie eine Liste, einen Bericht oder einen Bericht anzeigen, oder dauerhaft, indem Sie die Breite der Spalte im Ansichtsaufbau anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie unter [Überlegungen beim zeitweiligen Ändern der Breite und Reihenfolge der Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) in diesem Artikel.
+  Sie können die Breite der Spalten vorübergehend ändern, während Sie eine Liste, einen Bericht oder einen Bericht anzeigen, oder dauerhaft, indem Sie die Breite der Spalte im Ansichtsaufbau anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie in der [Überlegungen beim zeitweiligen Ändern der Breite und Reihenfolge der Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) in diesem Artikel beschrieben.
 
 * Spalten, die in integrierten Ansichten angezeigt werden, haben Breiten, die zuvor von Workfront definiert wurden und hartcodiert sind. Um diese Breiten zu ändern, müssen Sie die Breite dieser Spalten mithilfe des Textmodus im Ansichts-Builder manuell aktualisieren.
 
-   Informationen zum Ändern der Spalte im Textmodus finden Sie unter [Ansicht: Spaltenbreite dauerhaft bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Informationen zum Ändern der Spalte im Textmodus finden Sie unter [Ansicht: Breite einer Spalte dauerhaft bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Zugriffsanforderungen
 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -87,18 +87,24 @@ Sie können die Breite und Reihenfolge der Spalten in einer Liste vorübergehend
 Beachten Sie Folgendes bei der zeitweiligen Größenanpassung und Sortierung von Spalten:
 
 * Bei der Größenanpassung von Spalten werden die neuen Spaltengrößen im lokalen Speicher Ihres Browsers gespeichert und standardmäßig gespeichert. Wenn Sie einen anderen Browser verwenden, den Cache leeren oder Daten durchsuchen, wird die Spaltengröße auf den Standardwert zurückgesetzt. Durch die Aktualisierung Ihrer Seite werden die Änderungen an der Spaltenbreite beibehalten.
+
+>[!NOTE]
+> 
+>Die Spaltenbreiten sind durch die Größe des Browser-Fensters begrenzt. Wenn die Seite aktualisiert wird, werden die Spalten so lange breiter, bis alle Spalten ohne horizontalen Bildlauf in das Fenster passen. Um zu erzwingen, dass eine Spalte größer bleibt, als der Browser ausreicht, müssen Sie die Breite der Spalte im Textmodus festlegen, wie unter [Breite und Reihenfolge der Spalten dauerhaft ändern](#modify-width-and-order-of-columns-permanently) und vermeiden Sie die manuelle Anpassung von Spaltenbreiten durch Ziehen der Ränder.
+>
+
 * Bei der Neuanordnung von Spalten wird die von Ihnen gewählte Reihenfolge nur beibehalten, bis Sie von der Liste weg navigieren oder die Browser-Seite aktualisieren. Nachdem Sie von der Liste weg navigiert oder die Browser-Seite aktualisiert haben, kehren die Spalten zur Standardreihenfolge zurück.
 * Um eine optimale Leistung zu erzielen, sollten die neu anzuordnenden Spalten nicht mehr als 100 Elemente in der Liste enthalten.
 * Wenn Sie die Größe von Spalten ändern, gelten Ihre Änderungen nur für die derzeit verwendete Ansicht und sind nur für Sie sichtbar. Wenn Sie eine Ansicht für einen anderen Benutzer freigeben, werden die von Ihnen definierten Spaltengrößen nicht gemeinsam verwendet.
 * Wenn Sie die Größe einer Spalte durch Ziehen des Rahmens nach rechts ändern, bleibt die Breite der benachbarten Spalte erhalten, mit Ausnahme der folgenden:
 
    * Der Einrichtungsbereich
-   * Der Bereich &quot;Berichte&quot;
+   * Der Bereich Berichte
    * Dokumentlisten und Berichte
 
-   >[!NOTE]
-   >
-   >Der linke Rand einer Spalte kann in keiner Liste über den linken Rand der benachbarten Spalte verschoben werden.
+  >[!NOTE]
+  >
+  >Der linke Rand einer Spalte kann in keiner Liste über den linken Rand der benachbarten Spalte verschoben werden.
 
 * Wenn Sie eine Liste in eine Datei exportieren, wird die temporäre Reihenfolge der Spalten nicht in die exportierte Datei übertragen. Die exportierte Datei zeigt die Reihenfolge der Spalten in der ursprünglichen Liste an, bevor die Spalten neu angeordnet wurden.
 

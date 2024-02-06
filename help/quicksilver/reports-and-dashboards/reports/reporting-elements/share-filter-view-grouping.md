@@ -6,9 +6,9 @@ description: Sie können Filter, Ansichten und Gruppierungen, auf die Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
 
    Das Freigabefeld Filter wird angezeigt.
 
-1. Aktivieren Sie die **Systemweit anzeigen** -Einstellung. Dadurch erhält jeder Benutzer in Workfront die Berechtigung, den Filter anzuzeigen.
-
-   >[!IMPORTANT]
-   >
-   >Verwenden Sie diese Einstellung mit Vorsicht. Das Hinzufügen vieler Filter für alle Benutzer erschwert das Filtern und erschwert die Suche nach Filtern.
-
-   Oder geben Sie die Namen der Benutzer, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie die Freigabe durchführen möchten. **Zugriff auf gewähren an** -Feld.
+1. Beginnen Sie mit der Eingabe der Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen, für die Sie freigeben möchten, in die **Zugriff auf gewähren an** -Feld.
 
    ![Freigabefeld filtern](assets/new-filters-share-filter.png)
 
@@ -144,7 +138,7 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
    >
    >Benutzer können keine höhere Berechtigung als ihre Zugriffsstufe erhalten. Wenn sie keinen Zugriff auf Filter bearbeiten in ihrer Zugriffsebene haben, können sie keine Berechtigungen zum Verwalten eines Filters erhalten. Workfront deaktiviert die Option Verwalten für diese Benutzer und die Option ist abgeblendet.
 
-1. Klicks **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
+1. Klicken Sie auf **Teilen**. Der Filter wird für die angegebenen Entitäten freigegeben.
 
    >[!TIP]
    >

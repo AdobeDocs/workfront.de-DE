@@ -7,9 +7,9 @@ description: "Report: Budgeted Hour"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # Bericht: Budgetierte Stunde
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Wenn Sie Budgeted Hour-Informationen mit anderen Benutzern teilen möchten, die keinen Zugriff auf den Resource Planer haben, können Sie dies tun, indem Sie einen Budgeted Hour-Bericht erstellen. Sie können den Bericht dann für sie freigeben.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->Budgetierte Stunden werden stündlich in der Adobe Workfront-Datenbank aktualisiert. Beim Aktualisieren des Berichts werden die Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der rechten oberen Ecke eines jeden Berichts zur budgetierten Stunde anzeigen. Beim Aktualisieren des Berichts werden die darin enthaltenen Informationen nur aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
+>Budgetierte Stunden werden in der Adobe Workfront-Datenbank in der Regel stündlich aktualisiert (selten kann dies bis zu drei Stunden dauern). Beim Aktualisieren des Berichts werden die Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der rechten oberen Ecke eines jeden Berichts zur budgetierten Stunde anzeigen. Beim Aktualisieren des Berichts werden die darin enthaltenen Informationen nur aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
