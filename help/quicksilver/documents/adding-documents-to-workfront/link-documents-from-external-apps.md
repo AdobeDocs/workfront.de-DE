@@ -6,9 +6,9 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ Sie können ein neues Google-Dokument in Workfront erstellen. Für andere Cloud-
 ## Hochladen und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter
 
 Sie können ein Dokument von Workfront hochladen und mit einem externen Cloud-Anbieter verknüpfen. Dadurch wird die Dokumentenspeicherung von Workfront an den externen Cloud-Anbieter verschoben. Wenn das Dokument in der externen Anwendung geändert wird, wird es automatisch in Workfront aktualisiert.
+
+>[!NOTE]
+>
+>Durch das Senden eines Assets an einen externen Dokumentanbieter wird eine neue Version des Assets erstellt.
 
 Benutzer ohne Zugriff auf Workfront können das Dokument in der externen Anwendung sehen, wenn sie Zugriff auf die Anwendung haben.
 
