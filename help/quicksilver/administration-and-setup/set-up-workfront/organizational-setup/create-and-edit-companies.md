@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ Weitere Informationen zum Freigeben von Objekten finden Sie unter [Übersicht ü
 
 Wenn eine [!DNL Workfront] Administrator weist einem Unternehmen eine Gruppe zu, die Gruppenadministratoren für die Gruppe gewinnen [!UICONTROL Verwalten] Zugang zum Unternehmen in [!UICONTROL Einrichtung]. Dazu gehört auch der Zugriff auf die [!UICONTROL Unternehmen] Seite in [!UICONTROL Einrichtung], wo sie das mit ihrer Gruppe verbundene Unternehmen sehen und verwalten können.
 
-Mit diesem Zugriff auf [!UICONTROL Unternehmen] -Seite kann ein Gruppenadministrator einem Unternehmen eine Gruppe zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit Administratorzugriff auf Unternehmen konfiguriert ist, wird die [!UICONTROL Gruppe] -Feld ist erforderlich, wenn der Gruppenadministrator das Unternehmen erstellt. Der fette Titel gibt Folgendes an:
+Mit diesem Zugriff auf [!UICONTROL Unternehmen] -Seite kann ein Gruppenadministrator einem Unternehmen eine Gruppe zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit Administratorzugriff auf Unternehmen konfiguriert ist, wird die [!UICONTROL Gruppe] -Feld ist erforderlich, wenn der Gruppenadministrator das Unternehmen erstellt. Der fettgedruckte Titel gibt Folgendes an:
 
-![](assets/manage-company-group-field-req.jpg)
+![Unternehmen bearbeiten](assets/group-admin-add-company.png)
 
 Informationen dazu, wie Benutzer administrativen Zugriff auf Unternehmen in ihrer Zugriffsebene erhalten, finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
