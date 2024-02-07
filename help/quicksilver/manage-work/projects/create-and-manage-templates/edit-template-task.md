@@ -7,10 +7,10 @@ description: Nach der Erstellung einer Vorlage können Sie Informationen zu den 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '2503'
-ht-degree: 5%
+source-wordcount: '2384'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 5%
 Nach der Erstellung einer Vorlage können Sie Informationen zu den Vorlagenaufgaben bearbeiten. Die Informationen, die Sie für eine Vorlagenaufgabe aktualisieren, sind mit Projektaufgaben verknüpft, nachdem Sie die Vorlage zum Erstellen eines Projekts oder zum Anhängen der Vorlage an ein Projekt verwendet haben.
 
 Informationen zum Erstellen einer Vorlage finden Sie unter [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+
+Sie können Vorlagenaufgaben bearbeiten oder Vorlagenaufgaben stapelweise bearbeiten.
+
+>[!NOTE]
+>
+>Vorlagenaufgaben, die mehreren Vorlagen angehören, können nicht stapelweise bearbeitet werden. Sie können nur Vorlagenaufgaben bearbeiten, die zur gleichen Vorlage gehören.
+
 
 ## Zugriffsanforderungen
 
@@ -29,25 +36,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontlicense*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie den richtigen Zugriff haben, aber trotzdem keine Vorlagenaufgabe bearbeiten können, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong> </td> 
-   <td> <p>Verwalten von Berechtigungen für eine Vorlage </p> <p>Beitragen Sie oder höhere Berechtigungen für die Vorlagenaufgabe.</p> <p>Informationen zum Anfordern des Zugriffs auf Objekte finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Vorlage </p> <p>Beitragen Sie oder höhere Berechtigungen für die Vorlagenaufgabe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welche Zugriffsebene Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welche Zugriffsebene Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -55,28 +63,29 @@ Bevor Sie beginnen, müssen Sie
 
 * Erstellen Sie eine Vorlage.
 
-   Informationen zum Erstellen einer Vorlage finden Sie unter [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Informationen zum Erstellen einer Vorlage finden Sie unter [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 ## Vorlagenaufgabe bearbeiten
 
 Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbeiten&quot;oder &quot;Vorlagenaufgaben-Details&quot;bearbeiten. Die folgenden Schritte beschreiben die Bearbeitung einer Aufgabe im Feld &quot;Vorlagenaufgabe bearbeiten&quot;.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-templates}}
 
-1. Klicken **Vorlagen**.
 1. Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen.
-1. Klicken **Vorlagenaufgaben** im linken Bereich.
+1. Klicks **Vorlagenaufgaben** im linken Bereich.
 1. Klicken Sie in der Liste auf den Namen einer Vorlagenaufgabe, um die Vorlagenaufgabe zu öffnen.
-1. (Bedingt) Um begrenzte Informationen zur Vorlagenaufgabe zu bearbeiten, klicken Sie auf **Details zu Vorlagenaufgaben** Navigieren Sie im linken Bereich zu den Bereichen des Bereichs Details , um Informationen für jeden Bereich zu bearbeiten.
+1. (Optional) Um mehrere Vorlagenaufgaben stapelweise zu bearbeiten, wählen Sie mehrere Vorlagenaufgaben aus und klicken Sie auf **Bearbeiten** oben in der Vorlagenliste.
+1. (Bedingt) Klicken Sie zum Bearbeiten begrenzter Informationen zu einer Vorlagenaufgabe auf **Details zu Vorlagenaufgaben** Navigieren Sie im linken Bereich zu den Bereichen des Bereichs Details , um Informationen für jeden Bereich zu bearbeiten.
 1. (Optional) Klicken Sie auf die **Alle reduzieren** icon ![](assets/collapse-all-icon.png) um alle Bereiche zu reduzieren.
 1. Um Informationen im Bereich Details zu bearbeiten, klicken Sie auf das **Bearbeiten** icon ![](assets/edit-icon.png), wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten** um Informationen in allen Bereichen zu bearbeiten:
 
    * Übersicht
    * Benutzerdefinierte Formulare
 
-      Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
+     Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
 
    * Finanzielle Details
+
    >[!TIP]
    >
    >Informationen zu allen Feldern, die im Bereich &quot;Details&quot;angezeigt werden, erhalten Sie, wenn Sie mit der Bearbeitung aller Felder fortfahren. Verwenden Sie dazu das unten stehende Feld &quot;Vorlage bearbeiten&quot;.
@@ -87,7 +96,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    >[!TIP]
    >
-   >Sie können auch eine Vorlagenaufgabe in einer Liste auswählen und dann auf Bearbeiten klicken, um das Feld &quot;Vorlagenaufgabe bearbeiten&quot;zu öffnen.
+   >Sie können auch eine Vorlagenaufgabe in einer Liste auswählen und dann auf Bearbeiten klicken, um das Feld Vorlagenaufgabe bearbeiten zu öffnen.
 
    ![](assets/edit-template-tasks-box-classic-350x356.png)
 
@@ -103,7 +112,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 ### Übersicht {#overview}
 
 1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
-1. Klicken **Übersicht**.
+1. Klicks **Übersicht**.
 
    ![edit_task_overview.png](assets/edit-task-overview-350x438.png)
 
@@ -115,7 +124,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td>Geben Sie einen Namen für die Vorlagenaufgabe an.</td> 
+      <td>Geben Sie einen Namen für die Vorlagenaufgabe an. Dieses Feld wird nicht angezeigt, wenn Vorlagenaufgaben stapelweise bearbeitet werden.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschreibung</strong> </td> 
@@ -129,11 +138,11 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
       <td role="rowheader"><strong>Priorität</strong> </td> 
       <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Vorlagenaufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li> <p><strong>Keine</strong> </p> </li> 
+        <li> <p><strong>Keines</strong> </p> </li> 
         <li> <p><strong>Niedrig</strong> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Normal</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Hoch</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Dringend</span> </p> </li> 
+        <li> <p> <b>Normal</b></p> </li> 
+        <li> <p><b>Hoch</b> </p> </li> 
+        <li> <p><b>Dringend</b> </p> </li> 
        </ul> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projekteinstellungen können die Prioritätsnamen für Sie unterschiedlich sein. Weitere Informationen zu Bearbeitungsprioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -142,53 +151,38 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
        <ul> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Zuweisung</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Arbeit</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Leistungsgesteuert</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Aufwandsorientiert</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Einfach</span> <br> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Dauer</strong> </td> 
-      <td> <p>Geben Sie die Dauer der künftigen Aufgaben in Minuten, Stunden, Tagen, Wochen oder Monaten an. Für die zukünftige Aufgabe, die mit dieser Vorlage erstellt wird, wird die hier angegebene Dauer verwendet.</p> <p>Workfront misst die Dauer standardmäßig in Tagen. Dies ist die Zeitspanne, in der die Aufgabe unvollständig bleibt, bevor sie abgeschlossen werden muss. Sie können die Dauer einer Aufgabe nicht angeben, wenn die Variable <strong>Dauer Typ</strong> der Aufgabe <strong>Einfach</strong>oder wenn die <strong>Aufgabenbegrenzung</strong> is <strong>Feste Datumswerte</strong>.</p> <p>Wichtig: Die Dauer ist normalerweise die Zeit zwischen dem geplanten Start und dem geplanten Abschlussdatum einer Vorlagenaufgabe. Aus diesem Grund wirkt sich sie auf die Zeitleiste der Vorlage aus. Dadurch wird der Timeline des künftigen Projekts festgelegt, das anhand der Vorlage erstellt wird. </p> </td> 
+      <td> <p>Geben Sie die Dauer der künftigen Aufgaben in Minuten, Stunden, Tagen, Wochen oder Monaten an. Für die zukünftige Aufgabe, die mit dieser Vorlage erstellt wird, wird die hier angegebene Dauer verwendet.</p> <p>Workfront misst die Dauer standardmäßig in Tagen. Dies ist die Zeitspanne, in der die Aufgabe unvollständig bleibt, bevor sie abgeschlossen werden muss. Sie können die Dauer einer Aufgabe nicht angeben, wenn die Variable <strong>Dauer Typ</strong> der Aufgabe ist <strong>Einfach</strong>oder wenn die <strong>Aufgabenbegrenzung</strong> is <strong>Feste Datumswerte</strong>.</p> <p><b>WICHTIG</b></p> <p>Die Dauer ist normalerweise die Zeit zwischen dem geplanten Start und dem geplanten Abschlussdatum einer Vorlagenaufgabe. Aus diesem Grund wirkt sich sie auf die Zeitleiste der Vorlage aus. Dadurch wird der Timeline des künftigen Projekts festgelegt, das anhand der Vorlage erstellt wird. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplante Stunden</strong> </td> 
-      <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe des mit dieser Vorlage erstellten Projekts an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn die Variable<strong>Dauer Typ</strong> auf <strong>Berechnete Zuweisung</strong>. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Work Effort </td> 
-      <td> <p><span>Der für die Ausführung einer Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den für die Erfüllung einer Aufgabe erforderlichen Aufwand abzuschätzen. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</span> </p> 
-       <ul> 
-        <li> <p><span>Die Vorlagenaufgabe hat einen einfachen Dauerhaltungstyp.</span> </p> <p>Tipp: <span>Wenn Sie den Aufgabendauer-Typ aktualisieren, wird dieses Feld ausgeblendet.</span> </p> </li> 
-        <li><span>Ihr Projektmanager hat das Feld "Use Work Effort"zur Berechnung der geplanten Stunden für die Vorlage aktiviert.</span> </li> 
-       </ul> 
-       <div> 
-        <p> Wählen Sie aus den folgenden Optionen aus:</p> 
-        <ul> 
-         <li>Klein</li> 
-         <li>Mittel <span style="font-weight: normal;">(dies ist der Standardwert für eine neue Aufgabe)</span></li> 
-         <li>Groß</li> 
-        </ul> 
-       </div> <p>Informationen zur Verwendung von "Arbeitsaufwand"anstelle von "Geplante Stunden"zur Schätzung des Aufgabenaufwands finden Sie unter <span href="work-effort.md"><a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Übersicht über den Arbeitsaufwand</a></span>.</p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe des mit dieser Vorlage erstellten Projekts an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn die Variable <strong>Dauer Typ</strong> auf <strong>Berechnete Zuweisung</strong>. </p> </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>Aufgabenbeschränkung</strong> </td> 
       <td> <p>Die Aufgabe für das Projekt, das mit dieser Vorlage erstellt wurde, hat diese Einschränkung. Aufgabenbegrenzungen bestimmen, wann eine Aufgabe abgeschlossen werden muss. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li><strong>Feste Daten</strong>. Geben Sie eine <strong>Geplanter Start</strong> und <strong>Geplantes Abschlussdatum.</strong></li> 
-        <li><strong>Muss beginnen am</strong>. Geben Sie eine <strong>Geplantes Startdatum.</strong></li> 
-        <li><strong>Muss beendet werden am</strong>. Geben Sie eine <strong>Geplantes Abschlussdatum</strong>.</li> 
+        <li><strong>Feste Datumswerte</strong>. Geben Sie eine <strong>Geplanter Start</strong> und <strong>Geplantes Abschlussdatum.</strong></li> 
+        <li><strong>Muss beginnen bei</strong>. Geben Sie eine <strong>Geplantes Startdatum.</strong></li> 
+        <li><strong>Muss abgeschlossen sein am</strong>. Geben Sie eine <strong>Geplantes Abschlussdatum</strong>.</li> 
         <li><strong>So bald wie möglich</strong> </li> 
         <li><strong>So bald wie möglich</strong> </li> 
-        <li style="font-weight: bold;"><strong>Frühestmögliche Zeit</strong> </li> 
-        <li style="font-weight: bold;"><strong>Spätestmögliche Zeit</strong> </li> 
-        <li>Nicht später anfangen als. Geben Sie eine <strong>Geplantes Startdatum</strong>.</li> 
-        <li><strong>Nicht früher anfangen als</strong>. Geben Sie eine <strong>Geplantes Startdatum</strong>.</li> 
-        <li><strong>Finish No Later Than</strong>. Geben Sie eine <strong>Geplantes Abschlussdatum</strong>.</li> 
+        <li style="font-weight: bold;"><strong>Frühzeitige Verfügbarkeitszeit</strong> </li> 
+        <li style="font-weight: bold;"><strong>Neueste verfügbare Zeit</strong> </li> 
+        <li>Starten Sie nicht später als . Geben Sie eine <strong>Geplantes Startdatum</strong>.</li> 
+        <li><strong>Start nicht früher als</strong>. Geben Sie eine <strong>Geplantes Startdatum</strong>.</li> 
+        <li><strong>Beenden nicht später als</strong>. Geben Sie eine <strong>Geplantes Abschlussdatum</strong>.</li> 
         <li><strong>Beenden nicht früher als</strong>. Geben Sie eine <strong>Geplantes Abschlussdatum</strong>.</li> 
        </ul> <p>Weitere Informationen zur Aufgabenbegrenzung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span style="font-weight: bold;">Starttag</span><span style="font-weight: normal;">(Optional und bedingt)</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;">Starttag</span><span style="font-weight: normal;"> (Optional und bedingt)</span> </td> 
       <td> <p> Sie können den Starttag einer Vorlagenaufgabe nur dann angeben, wenn die Aufgabenbegrenzung eine der folgenden ist:</p> 
        <ul> 
         <li>Muss beginnen am</li> 
@@ -202,7 +196,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
       <td> <p> Sie können den Abschlusstag einer Vorlagenaufgabe nur dann angeben, wenn die Aufgabenbegrenzung eine der folgenden ist:</p> 
        <ul style="list-style-type: circle;"> 
         <li>Muss beendet werden am</li> 
-        <li>Beenden nicht früher als</li> 
+        <li>Nicht früher beenden als (NFBA)</li> 
         <li>Nicht später beenden als (NSBA)</li> 
         <li>Feste Daten</li> 
        </ul> <p>Dies entspricht dem Datum in der Zeitleiste des künftigen Projekts, an dem die Aufgabe abgeschlossen wird. Bei allen anderen Einschränkungen berechnet Workfront den Fertigungstag anhand der Dauer und der Vorgängerabhängigkeit. </p> </td> 
@@ -214,12 +208,12 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    Oder
 
-   Klicken **Änderungen speichern**.
+   Klicken Sie auf **Änderungen speichern**.
 
 ### Finanzielle Details {#finance}
 
 1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
-1. Klicken **Finanzen**.
+1. Klicks **Finanzen**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
 
@@ -230,13 +224,13 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Kostenart</strong> </td> 
+      <td role="rowheader"><strong>Kostentyp</strong> </td> 
       <td> <p>Geben Sie den Kostentyp für die zukünftige Aufgabe an. Auf diese Weise wird bestimmt, wie die Kosten für die Aufgabe basierend auf der Anzahl der Stunden für die Aufgaben berechnet werden. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
         <li> <p style="font-weight: normal;"><span>Keine Kosten</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Festgelegt pro Stunde</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Benutzer pro Stunde</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Stundensatz nach Funktion</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Stündlich festgelegt</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Benutzer stündlich</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Stündliche Rolle</span> </p> </li> 
        </ul> <p>Weitere Informationen zu Tracking-Kosten finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -247,8 +241,8 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
         <li> <p style="font-weight: normal;">Benutzer pro Stunde</p> </li> 
         <li> <p style="font-weight: normal;">Stundensatz nach Funktion</p> </li> 
         <li> <p style="font-weight: normal;">Festgelegt pro Stunde</p> </li> 
-        <li> <p style="font-weight: normal;">Benutzer pro Stunde m/Obergrenze</p> </li> 
-        <li> <p style="font-weight: normal;">Stundensatz nach Funktion m/Obergrenze</p> </li> 
+        <li> <p style="font-weight: normal;">Benutzende pro Stunde mit Begrenzung</p> </li> 
+        <li> <p style="font-weight: normal;">Stundensatz nach Funktion mit Begrenzung</p> </li> 
         <li> <p style="font-weight: normal;">Benutzer pro Stunde plus festgelegt</p> </li> 
         <li> <p style="font-weight: normal;">Stundensatz nach Funktion plus fest</p> </li> 
         <li> <p style="font-weight: normal;">Festeinnahmen</p> </li> 
@@ -261,12 +255,12 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    Oder
 
-   Klicken **Änderungen speichern**.
+   Klicken Sie auf **Änderungen speichern**.
 
 ### Einstellungen {#settings}
 
 1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
-1. Klicken **Einstellungen**.
+1. Klicks **Einstellungen**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
 
@@ -277,7 +271,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
     <col> 
     <tbody> 
    <tr> 
-      <td role="rowheader"><strong><p>Meilenstein</p></strong> </td> 
+      <td role="rowheader"><p><b>Meilenstein</b></p></strong> </td> 
       <td> <p>Wählen Sie einen Meilenstein für die Zuordnung zur ausgewählten Vorlagenaufgabe aus.</p>
 
    <p><b>WICHTIG</b></p>
@@ -285,18 +279,18 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
    </td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Überwachungsmodus</strong> </td> 
+      <td role="rowheader"><strong>Tracking-Modus</strong> </td> 
       <td> <p>Geben Sie an, wie der Fortschrittsstatus der künftigen Aufgabe verfolgt werden soll. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
         <li> <p><strong>Benutzer muss aktualisieren</strong> </p> </li> 
         <li> <p><strong>Zeitliche Annahme</strong> </p> </li> 
-        <li> <p><strong>Späte Warnungen ignorieren</strong> </p> </li> 
+        <li> <p><strong>Verspätete Warnungen ignorieren</strong> </p> </li> 
         <li> <p><strong>Automatische Vervollständigung</strong> </p> </li> 
         <li> <p><strong>Vorgänger</strong> </p> </li> 
        </ul> <p>Weitere Informationen zum Tracking-Modus für Aufgaben finden Sie unter <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Übersicht über den Task Tracking Mode</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Genehmigungsprozess</strong> </td> 
+      <td role="rowheader"><strong>Validierungsprozess</strong> </td> 
       <td> <p>Wählen Sie den Validierungsprozess aus, den Sie mit der Vorlagenaufgabe verbinden möchten. Ihr Workfront-Administrator muss Aufgabengenehmigungsprozesse auf Systemebene definieren, bevor Sie sie mit Vorlagenaufgaben verknüpfen können. <span>Benutzer mit Administratorzugriff auf Genehmigungsprozesse können auch gruppenspezifische Validierungsprozesse erstellen.</span> Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.</p> <p>Beachten Sie beim Hinzufügen von Validierungsprozessen Folgendes: </p> 
        <ul> 
        <li>In der Liste werden nur aktive Validierungsprozesse angezeigt. </li> 
@@ -311,7 +305,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Erinnerungsnachrichten</strong> </td> 
+      <td role="rowheader"><strong>Erinnerungsbenachrichtigungen</strong> </td> 
       <td> <p>Wählen Sie aus, welche Erinnerungsbenachrichtigungen Sie an die Vorlagenaufgabe anhängen möchten. Sie werden an die künftigen Aufgaben des auf dieser Vorlage basierenden Projekts angehängt. Ihr Systemadministrator muss Erinnerungsbenachrichtigungen konfigurieren, bevor Sie sie für eine Aufgabe auswählen können. Weitere Informationen zum Konfigurieren von Erinnerungsbenachrichtigungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsbenachrichtigungen</a>.</p> </td> 
      </tr> 
     </tbody> 
@@ -321,16 +315,16 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    Oder
 
-   Klicken **Änderungen speichern**.
+   Klicken Sie auf **Änderungen speichern**.
 
 ### Arbeitsaufträge {#assignments}
 
 1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
-1. Klicken **Zuweisungen**.
+1. Klicks **Zuweisungen**.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
 
-1. Klicken **Zuweisung hinzufügen** , um der Vorlagenaufgabe einen neuen Bevollmächtigten hinzuzufügen. Sie können einer Aufgabe Benutzer, Rollen oder Teams zuweisen. Sie können mehrere Zuweisungen für eine Aufgabe haben. Den künftigen Aufgaben werden dieselben Ressourcen zugewiesen, wenn sie mit dieser Vorlagenaufgabe erstellt werden.
+1. Klicks **Bevollmächtigten hinzufügen** , um der Vorlagenaufgabe einen neuen Bevollmächtigten hinzuzufügen. Sie können einer Aufgabe Benutzer, Rollen oder Teams zuweisen. Sie können mehrere Zuweisungen für eine Aufgabe haben. Den künftigen Aufgaben werden dieselben Ressourcen zugewiesen, wenn sie mit dieser Vorlagenaufgabe erstellt werden.
 1. (Optional) Wenn Sie mehrere Bevollmächtigte haben, wählen Sie die **Inhaber** Optionsfeld, um anzugeben, welcher Benutzer oder welche Rolle als Aufgabenbesitzer oder Primärer Verantwortlicher gilt. Workfront kennzeichnet die erste Benutzer- oder Auftragsrolle, die Sie einer Vorlagenaufgabe als Inhaber oder Primärer Bevollmächtigter zuweisen.
 1. (Bedingt und optional) Wenn Ihre Aufgabenbegrenzung für berechnete Arbeit oder für anstrengende Arbeit gilt, geben Sie die **Zuteilung %** (Zuweisungsprozentsatz) für jeden Bevollmächtigten. Dies ist die Zeit ab dem Zeitplan des Bevollmächtigten, die er für diese Aufgabe verbringen kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, ändern sich die geplanten Stunden einer Aufgabe.
 1. (Bedingt und optional) Wenn die Aufgabenbegrenzung einfach ist, geben Sie die **Stunden** jedes Bevollmächtigten
@@ -345,14 +339,14 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    Oder
 
-   Klicken **Änderungen speichern**.
+   Klicken Sie auf **Änderungen speichern**.
 
 ### Benutzerdefinierte Formulare {#custom-forms}
 
 Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Informationen zum Einrichten des Projekts, um benutzerdefinierte Standardformulare für Aufgaben einzuschließen, finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben. test
-1. Klicken **Benutzerdefinierte Forms**.
+1. Klicks **Benutzerdefinierte Forms**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
@@ -370,17 +364,17 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
    Oder
 
-   Klicken **Änderungen speichern**.
+   Klicken Sie auf **Änderungen speichern**.
 
 ### Kommentar {#comment}
 
 1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
-1. Klicken **Kommentar**.
+1. Klicks **Kommentar**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Geben Sie einen Kommentar an, der im Aktualisierungsstream der Vorlagenaufgabe im verfügbaren Feld angezeigt werden soll. Dieser Kommentar ist für alle sichtbar, die Zugriff auf die Vorlage und die Vorlagenaufgabe haben und auf Notizen zugreifen können.
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Ihre Änderungen werden für diese Vorlagenaufgabe gesendet.
 

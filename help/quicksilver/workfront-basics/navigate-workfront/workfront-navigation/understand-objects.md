@@ -6,9 +6,9 @@ description: "Die Informationen, die Sie unter [!DNL Adobe Workfront] wird durch
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Als [!DNL Workfront] -Administrator können Sie die Namen der folgenden Objekte 
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
-* [!UICONTROL Problem]
+* [!UICONTROL Probleme]
 * [!UICONTROL Ziel]*
 * [!UICONTROL Ergebnis]*
 * [!UICONTROL Aktivität]*
@@ -165,7 +165,7 @@ Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in W
 | [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL Ziel] | ![](assets/nwe-goal-icon.png) | ms |
 | [!UICONTROL Gruppe] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Problem] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ms |
+| [!UICONTROL Probleme] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ms |
 | [!UICONTROL Auftragsrolle] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
 | [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ms |
@@ -175,6 +175,7 @@ Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in W
 | [!UICONTROL Aufgabe] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ms |
 | [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Vorlage] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Benutzer] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
 
 ## Referenzanzahl von Objekten
 
@@ -230,7 +231,7 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
 * [!UICONTROL Stunde]
-* [!UICONTROL Problem]
+* [!UICONTROL Probleme]
 * [!UICONTROL Benutzer]
 * [!UICONTROL Zugriff] Ebene
 * [!UICONTROL Validierung]
@@ -291,7 +292,7 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
   >
   >Finanzinformationen werden in [!UICONTROL Projekt] ([!UICONTROL Finanzdaten]) werden nur dann gemeldet, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise im Januar 2015 einer Aufgabe eine berufliche Rolle zugewiesen wurde und heute September 2021 ist, wird ein Finanzfeld wie der [!UICONTROL Zuordnungsdatum] für die Stellenrolle nicht in der [!UICONTROL Projekt (Finanzdaten)] Bericht.
 
-* [!UICONTROL Validierung des Testversands]
+* [!UICONTROL Korrekturabzug-Genehmigung]
    * Sie können verschiedene Informationen über die Validierung des Testversands einsehen, einschließlich des Testversands, der zur Validierung unterbreitet wurde, Informationen über die [!UICONTROL Genehmiger], Informationen zum Antragsteller (wenn der Antragsteller lizenziert ist) [!DNL Workfront] Benutzer), Versionsinformationen, Testversand-ID und Erstellungsdatum des Testversands.\
       [!UICONTROL Validierung des Testversands] Berichte enthalten nur Testsendungen, die in den Arbeitsbereichen der Benutzer verfügbar sind, in denen noch keine Entscheidungen getroffen wurden.\
    * Die Befähigungsnachweise werden unter [!DNL Workfront] wie beschrieben [Benutzer zu Testversand hinzufügen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Freigeben eines Testversands in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
@@ -324,5 +325,5 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 
    * Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat bezüglich Testsendungen und Dokumenten getroffen haben.
 
-* [!UICONTROL Ansicht]
+* [!UICONTROL Anzeigen]
 * [!UICONTROL Arbeitselement] (Dadurch wird ein Bericht für Aufgaben und Probleme erstellt)

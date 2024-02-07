@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
-ht-degree: 1%
+source-wordcount: '3339'
+ht-degree: 2%
 
 ---
 
@@ -166,7 +166,7 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spaltenüberschrift eines Felds in einer Tabelle bewegen.
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue einzeilige Feld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -179,7 +179,7 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datens
 >
 >* Der Inhalt eines Absatzfelds kann bis zu 1.000 Zeichen lang sein.
 >
->* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden.
+>* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Absatz** Feldtyp.
 
@@ -189,7 +189,7 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datens
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Absatzfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -212,7 +212,7 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
    **Sortieren von Optionen A-Z** , wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Klicken Sie auf **x** rechts von einer Auswahl, um sie zu entfernen.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Mehrfachauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -234,7 +234,7 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
 1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die **Sortieren von Optionen A-Z** , wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Klicken Sie auf **x** rechts von einer Auswahl, um sie zu entfernen.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Einzelauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -265,7 +265,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
       * **24 Stunden**: Beispiel: 18:00
       * **12 Stunden**: Beispiel: 18:00 Uhr
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Datumsfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -287,7 +287,7 @@ Zahlenfeldtypen erfassen Informationen im Zahlenformat.
    >
    >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Zahlenfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -309,7 +309,7 @@ Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem
    >
    >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Prozentfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -332,7 +332,7 @@ Währungsfeldtypen erfassen Informationen in einem Zahlenformat, dem ein Währun
    >
    >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Währungsfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -347,7 +347,7 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Kontrollkästchen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -377,10 +377,12 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    >[!NOTE]
    >
-   >    Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Maestro-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
+   > * Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
+   >
+   > * Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Maestro-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
 
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Formelfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -402,7 +404,7 @@ Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--
    >
    >    Wenn Sie die Option Mehrere Werte zulassen auswählen und mehrere Benutzer in den Datensätzen gespeichert sind, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung bei der Bearbeitung dieses Felds in Zukunft nicht mehr aufheben.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ Personen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
@@ -419,7 +421,7 @@ Sie können den Feldtyp Erstellt nach verwenden, um den Benutzer, der den Datens
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Erstellt nach Typ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz erstellt hat.
 
@@ -452,7 +454,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum der Erstellung eines Date
       * **24 Stunden**: Beispiel: 18:00
       * **12 Stunden**: Beispiel: 18:00 Uhr
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Erstelltes Datum wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) zum Zeitpunkt der Erstellung des Datensatzes vorausgefüllt.
 
@@ -470,7 +472,7 @@ Mit dem Feldtyp Letzte Änderung können Sie den Benutzer, der den Datensatz zul
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Letzte Änderung nach Typ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
 
@@ -503,7 +505,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
       * **24 Stunden**: Beispiel: 18:00
       * **12 Stunden**: Beispiel: 18:00 Uhr
 
-1. Klicks **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Letzte Änderung des Datentyps wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) der letzten Änderung des Datensatzes vorausgefüllt.
 
