@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,22 @@ ht-degree: 0%
 
 Diese [!DNL Adobe Workfront Fusion] ermöglicht es Ihnen, eine HTTP-Anforderung mit einer grundlegenden HTTP-Autorisierung zu konfigurieren und an einen Server zu senden. Die empfangene HTTP-Antwort ist dann im Ausgabebundle enthalten.
 
+>[!NOTE]
+>
+>Wenn Sie eine Verbindung zu einem Adobe-Produkt herstellen, das derzeit über keinen dedizierten Connector verfügt, empfehlen wir die Verwendung des Adobe Authenticator-Moduls.
+>
+>Weitere Informationen finden Sie unter [Adobe Authenticator-Modul](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,17 +45,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,7 +67,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## [!UICONTROL HTTP] >[!UICONTROL Einfache Genehmigungsanfrage stellen] Modulkonfiguration
 
-Wenn Sie die [!UICONTROL HTTP] >[!UICONTROL Einfache Genehmigungsanfrage stellen] Modul, [!DNL Adobe Workfront Fusion] zeigt die unten aufgeführten Felder an. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie die [!UICONTROL HTTP] >[!UICONTROL Einfache Genehmigungsanfrage stellen] -Modul, [!DNL Adobe Workfront Fusion] zeigt die unten aufgeführten Felder an. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
 Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -77,7 +83,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Alle Status als Fehler auswerten (mit Ausnahme von 2xx und 3xx )] </td> 
-   <td> <p>Verwenden Sie diese Option, um die Fehlerbehandlung einzurichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Umgang mit Fehlern in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Verwenden Sie diese Option, um die Fehlerbehandlung einzurichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Fehlerbehandlung in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
@@ -97,10 +103,10 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Textkörper]</p> </td> 
-   <td> <p>Der HTTP-Hauptteil sind die Datenbytes, die in einer HTTP-Transaktionsnachricht unmittelbar nach den Headern übertragen werden, wenn welche verwendet werden sollen.</p> 
+   <td> <p>Der HTTP-Hauptteil sind die Daten-Bytes, die in einer HTTP-Transaktionsnachricht unmittelbar auf die Header übertragen werden, sofern welche verwendet werden sollen.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Der Rohkörpertyp eignet sich im Allgemeinen für die meisten HTTP-Textkörperanforderungen, selbst wenn in der Entwicklerdokumentation keine zu sendenden Daten angegeben sind.</p> <p>Geben Sie im Feld [!UICONTROL Inhaltstyp] eine Form zum Analysieren der Daten an.</p> <p>Trotz des ausgewählten Inhaltstyps werden die Daten in einem beliebigen Format eingegeben, das in der Entwicklerdokumentation festgelegt oder benötigt wird.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dieser Nachrichtentyp besteht aus [!UICONTROL POST]-Daten mithilfe von <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Für <code>[!UICONTROL application/x-www-form-urlencoded]</code>, ist der Hauptteil der an den Server gesendeten HTTP-Nachricht im Wesentlichen eine Abfragezeichenfolge. Die Schlüssel und Werte sind in Schlüssel/Wert-Paaren kodiert, getrennt durch <code>&amp;</code> und mit <code>=</code> zwischen dem Schlüssel und dem Wert. </p> <p>Verwenden Sie für Binärdaten <code>multipart/form-data</code> anstatt.</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dieser Nachrichtentyp besteht aus [!UICONTROL POST]-Daten mithilfe von <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Für <code>[!UICONTROL application/x-www-form-urlencoded]</code>, ist der Hauptteil der an den Server gesendeten HTTP-Nachricht im Wesentlichen eine Abfragezeichenfolge. Die Schlüssel und Werte sind in Schlüssel/Wert-Paaren kodiert, getrennt durch <code>&amp;</code> und mit <code>=</code> zwischen Schlüssel und Wert. </p> <p>Verwenden Sie für Binärdaten <code>multipart/form-data</code> anstatt.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>Beispiel: </b></span></span> 
        <p>Beispiel für das resultierende HTTP-Anforderungsformat:</p> 
@@ -143,7 +149,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Deaktivieren der Serialisierung mehrerer Abfragezeichenfolgenschlüssel als Arrays]</p> </td> 
-   <td> <p>Standardmäßig [!DNL Workfront Fusion] verarbeitet mehrere Werte für denselben URL-Abfragezeichenfolgenparameterschlüssel wie Arrays. Beispiel: <code>www.test.com?foo=bar&amp;foo=baz</code> wird in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivieren Sie diese Option, um diese Funktion zu deaktivieren. </p> </td> 
+   <td> <p>Standardmäßig ist [!DNL Workfront Fusion] verarbeitet mehrere Werte für denselben URL-Abfragezeichenfolgenparameterschlüssel wie Arrays. Beispiel: <code>www.test.com?foo=bar&amp;foo=baz</code> wird in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivieren Sie diese Option, um diese Funktion zu deaktivieren. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Komprimierten Inhalt anfordern]</td> 

@@ -9,7 +9,7 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
         <p>[!UICONTROL Pro] oder höher</p>
       </td>
@@ -469,7 +469,6 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Jour
       <td role="rowheader">
         <p>[!UICONTROL Methode]</p>
       </td>
-      <td>
    <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
@@ -489,7 +488,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Jour
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

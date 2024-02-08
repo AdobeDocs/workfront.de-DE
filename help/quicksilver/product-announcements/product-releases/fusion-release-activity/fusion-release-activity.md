@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 765cff51ee537be459722a9a11c9621cd3b623f7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,17 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ## Fusionsfreigaben 2024
 
+### Februar 2024
+
+* [Workfront Fusion-Release-Aktivität: Woche vom 5. Februar 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
 ### Januar 2024
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 1. Januar 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## Fusionsfreigaben 2023
+
++++**Zum Öffnen klicken**
 
 ### November 2023
 
@@ -72,6 +78,8 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 * [Workfront Fusion-Release-Aktivität: Woche vom 20. März 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion-Release-Aktivität: Woche vom 6. März 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## Fusionsfreigaben 2022
 

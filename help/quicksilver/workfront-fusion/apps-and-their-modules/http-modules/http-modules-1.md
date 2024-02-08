@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 0%
 Die HTTP-App stellt verschiedene Kommunikationsmodule bereit, die auf dem HTTP-Protokoll (Hypertext Transfer Protocol) basieren. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
 
 Die richtige Auswahl des Moduls hängt vom Authentifizierungs-/Autorisierungsmechanismus ab, den die Ressource nutzt, auf die Sie zugreifen möchten.
+
+>[!NOTE]
+>
+>Wenn Sie eine Verbindung zu einem Adobe-Produkt herstellen, das derzeit über keinen dedizierten Connector verfügt, empfehlen wir die Verwendung des Adobe Authenticator-Moduls.
+>
+>Weitere Informationen finden Sie unter [Adobe Authenticator-Modul](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 Spezifische Anweisungen für Module finden Sie in den folgenden Artikeln:
 

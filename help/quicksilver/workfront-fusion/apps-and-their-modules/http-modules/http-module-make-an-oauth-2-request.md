@@ -9,9 +9,9 @@ description: Um eine [!DNL Adobe Workfront Fusion] HTTP(S)-Anfrage an Server, di
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront] Lizenz.
+>[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront] -Lizenz.
 
 Um eine [!DNL Adobe Workfront Fusion] HTTP(S)-Anfrage an Server, die eine OAuth 2.0-Autorisierung erfordern, müssen Sie zunächst eine OAuth-Verbindung erstellen. [!DNL Adobe Workfront Fusion] stellt sicher, dass alle mit dieser Verbindung getätigten Aufrufe über die entsprechenden Autorisierungskopfzeilen verfügen und die zugehörigen Token bei Bedarf automatisch aktualisieren.
 
@@ -33,16 +33,22 @@ Andere Flüsse, wie &quot;Resource Owner Password Credentials Flow&quot;und &quo
 
 Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter [OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749).
 
+>[!NOTE]
+>
+>Wenn Sie eine Verbindung zu einem Adobe-Produkt herstellen, das derzeit über keinen dedizierten Connector verfügt, empfehlen wir die Verwendung des Adobe Authenticator-Moduls.
+>
+>Weitere Informationen finden Sie unter [Adobe Authenticator-Modul](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -52,17 +58,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr>
  </tbody> 
@@ -90,7 +96,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
    1. Nachdem Sie den Client erstellt haben, zeigt der angegebene Dienst zwei Schlüssel an: `[!UICONTROL Client ID]` und `[!UICONTROL Client Secret]`. Einige Dienste nennen diese `[!UICONTROL App Key]` und `[!UICONTROL App Secret]` . Speichern Sie den Schlüssel und das Geheimnis an einem sicheren Speicherort, damit Sie sie beim Erstellen der Verbindung in Workfront Fusion bereitstellen können.
 
-1. Suchen Sie die `[!UICONTROL Authorize URI]` und `[!UICONTROL Token URI]` in der API-Dokumentation des angegebenen Dienstes. Dies sind URL-Adressen, über die [!DNL Workfront Fusion] kommuniziert mit der [!DNL target] Dienst. Die Adressen dienen der OAuth-Autorisierung.
+1. Suchen Sie die `[!UICONTROL Authorize URI]` und `[!UICONTROL Token URI]` in der API-Dokumentation des angegebenen Dienstes. Dies sind URL-Adressen, über die [!DNL Workfront Fusion] kommuniziert mit der [!DNL target] -Dienst. Die Adressen dienen der OAuth-Autorisierung.
 
    >[!NOTE]
    >
@@ -136,7 +142,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator] </td> 
-      <td> <p>Wählen Sie aus, durch welche Bereiche die zuvor eingegebenen Bereiche getrennt werden sollen. Diese Informationen finden Sie in der Entwicklerdokumentation (API) des jeweiligen Dienstes.</p> <p>Warnung: Wenn das Trennzeichen nicht richtig festgelegt ist, [!DNL Workfront Fusion] kann die Verbindung nicht erstellen, und Sie erhalten einen Fehler wegen ungültigen Perimeter.</p> </td> 
+      <td> <p>Wählen Sie aus, durch welche Bereiche die zuvor eingegebenen Bereiche getrennt werden sollen. Diese Informationen finden Sie in der Entwicklerdokumentation (API) des jeweiligen Dienstes.</p> <p>Warnung: Wenn das Trennzeichen nicht korrekt festgelegt ist, [!DNL Workfront Fusion] kann die Verbindung nicht erstellen, und Sie erhalten einen Fehler wegen ungültigen Perimeter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client-ID] </td> 
@@ -148,7 +154,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Autorisierungsparameter]</p> </td> 
-      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Autorisierungsaufruf einbeziehen möchten. Die folgenden Standardparameter werden immer automatisch einbezogen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
+      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Autorisierungsaufruf einbeziehen möchten. Die folgenden Standardparameter werden immer automatisch eingeschlossen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL response_type]</strong> </p> <p> <code>code </code>für den Fluss des Autorisierungscodes [!UICONTROL] und <code>token </code>für [!UICONTROL Impliziter Fluss]</p> </li> 
         <li> <p><strong>[!UICONTROL redirect_uri]</strong> </p> 
@@ -171,7 +177,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Zugriffstoken-Parameter]</p> </td> 
-      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Token-Aufruf aufnehmen möchten. Die folgenden Standardparameter werden immer automatisch einbezogen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
+      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Token-Aufruf aufnehmen möchten. Die folgenden Standardparameter werden immer automatisch eingeschlossen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
        <ul> 
         <li><strong>[!UICONTROL Grant_Type]</strong>: <code>authorization_code</code></li> 
         <li> <p><strong>[!UICONTROL redirect_uri]:</strong> </p> 
@@ -189,24 +195,24 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
            </tr> 
           </tbody> 
          </table> </li> 
-        <li><strong>[!UICONTROL client_id]</strong>: Die Client-ID, die Sie beim Erstellen des Kontos erhalten haben, wird automatisch im Anfrageinhalt enthalten</li> 
-        <li><strong>client_secret</strong>: Der Client-Geheimnis, den Sie beim Erstellen des Kontos erhalten haben, wird automatisch in den Anfrageinhalt eingefügt</li> 
+        <li><strong>[!UICONTROL client_id]</strong>: Die Client-ID, die Sie beim Erstellen des Kontos erhalten haben, wird automatisch im Anfrageinhalt enthalten.</li> 
+        <li><strong>client_secret</strong>: Der Client-Geheimnis, den Sie beim Erstellen des Kontos erhalten haben, wird automatisch in den Anfrageinhalt eingefügt.</li> 
         <li><strong>code</strong>: Der von der Autorisierungsanfrage zurückgegebene Code</li> 
-       </ul> <p>Notiz:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] sendet automatisch die angegebene Client-ID und das Geheimnis über die <code>[!UICONTROL client_secret_post]</code> -Methode. Daher werden diese Parameter automatisch als Teil des Token-Anforderungstextes einbezogen. </p> <p>Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+       </ul> <p>Hinweis:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] sendet automatisch die angegebene Client-ID und das Geheimnis über die <code>[!UICONTROL client_secret_post]</code> -Methode. Daher werden diese Parameter automatisch als Teil des Token-Anforderungstextes einbezogen. </p> <p>Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Parameter des Aktualisierungstokens]</p> </td> 
-      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Token-Aufruf aufnehmen möchten. Die folgenden Standardparameter werden immer automatisch einbezogen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
+      <td> <p>Fügen Sie alle Parameter hinzu, die Sie in den Token-Aufruf aufnehmen möchten. Die folgenden Standardparameter werden immer automatisch eingeschlossen und müssen nicht hinzugefügt werden.</p> <p>Standardparameter:</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL Grant_Type]</strong>: <code>refresh_token</code></p> </li> 
         <li> <p><strong>[!UICONTROL refresh_token]</strong>: Das aktuellste Aktualisierungstoken, das vom Dienst abgerufen wurde, mit dem Sie eine Verbindung herstellen</p> </li> 
-        <li> <p><strong>[!UICONTROL client_id]</strong>: Die Client-ID, die Sie beim Erstellen des Kontos erhalten haben, wird automatisch im Anfrageinhalt enthalten</p> </li> 
-        <li> <p><strong>[!UICONTROL client_secret]</strong>: Der Client-Geheimnis, den Sie beim Erstellen des Kontos erhalten haben, wird automatisch in den Anfrageinhalt eingefügt</p> </li> 
-       </ul> <p>Notiz:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] sendet automatisch die angegebene Client-ID und das Geheimnis über die <code>[!UICONTROL client_secret_post]</code> -Methode. Daher werden diese Parameter automatisch als Teil des Token-Anforderungstextes einbezogen. </p> <p>Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+        <li> <p><strong>[!UICONTROL client_id]</strong>: Die Client-ID, die Sie beim Erstellen des Kontos erhalten haben, wird automatisch im Anfrageinhalt enthalten.</p> </li> 
+        <li> <p><strong>[!UICONTROL client_secret]</strong>: Der Client-Geheimnis, den Sie beim Erstellen des Kontos erhalten haben, wird automatisch in den Anfrageinhalt eingefügt.</p> </li> 
+       </ul> <p>Hinweis:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] sendet automatisch die angegebene Client-ID und das Geheimnis über die <code>[!UICONTROL client_secret_post]</code> -Methode. Daher werden diese Parameter automatisch als Teil des Token-Anforderungstextes einbezogen. </p> <p>Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Benutzerdefinierte Kopfzeilen]</p> </td> 
-      <td> <p>Geben Sie zusätzliche Schlüssel und Werte an, die in die Kopfzeile der Schritte [!UICONTROL Token] und R[!UICONTROL Aktualisierungstoken] aufgenommen werden sollen.</p> <p>Notiz:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] unterstützt nicht automatisch die <code>[!UICONTROL client_secret_basic]</code> -Methode. Wenn der Dienst, mit dem Sie eine Verbindung herstellen möchten, erwartet, dass die Client-ID und das Client-Geheimnis zu einer einzelnen Zeichenfolge kombiniert und dann base64-kodiert in der Autorisierungskopfzeile werden, sollten Sie diese Kopfzeile und diesen Schlüsselwert hier hinzufügen.</p> <p> Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+      <td> <p>Geben Sie zusätzliche Schlüssel und Werte an, die in die Kopfzeile der Schritte [!UICONTROL Token] und R[!UICONTROL Aktualisierungstoken] aufgenommen werden sollen.</p> <p>Hinweis:  <p>Der OAuth 2.0-Standard unterstützt mindestens 2 Methoden der Client-Authentifizierung während dieses Schritts (<code>[!UICONTROL client_secret_basic]</code> und <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] unterstützt nicht automatisch die <code>[!UICONTROL client_secret_basic]</code> -Methode. Wenn der Dienst, mit dem Sie eine Verbindung herstellen möchten, erwartet, dass die Client-ID und das Client-Geheimnis zu einer einzelnen Zeichenfolge kombiniert und dann base64-kodiert in der Autorisierungskopfzeile werden, sollten Sie diese Kopfzeile und diesen Schlüsselwert hier hinzufügen.</p> <p> Weitere Informationen zur OAuth 2.0-Authentifizierung finden Sie unter <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Token placement]</p> </td> 
@@ -223,7 +229,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL Weiter]** , um Verbindungseinstellungen zu speichern.
+1. Klicks **[!UICONTROL Weiter]** , um Verbindungseinstellungen zu speichern.
 1. Weiter zu [Einrichten des OAuth 2.0-Anforderungsmoduls](#oauth-20-request-module-setup).
 
 ### Anleitung zum Erstellen einer Verbindung zu [!DNL Google] im [!UICONTROL HTTP] >[!UICONTROL Erstellen eines OAuth 2.0-Anforderungsmoduls]
@@ -232,7 +238,7 @@ Im folgenden Beispiel wird gezeigt, wie die [!UICONTROL HTTP] > [!UICONTROL Erst
 
 1. Stellen Sie sicher, dass Sie ein Projekt erstellt, OAuth-Einstellungen konfiguriert und Ihre Anmeldeinformationen generiert haben, wie unter [Verbinden [!DNL Adobe Workfront Fusion] nach [!DNL Google Services] Verwenden eines benutzerdefinierten OAuth-Clients](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 1. Öffnen Sie die [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0-Anfrage stellen] -Modul.
-1. Klicken **[!UICONTROL Hinzufügen]** neben dem Verbindungsfeld.
+1. Klicks **[!UICONTROL Hinzufügen]** neben dem Verbindungsfeld.
 1. Geben Sie die folgenden Werte ein:
 
    <table style="table-layout:auto">  
@@ -273,12 +279,12 @@ Im folgenden Beispiel wird gezeigt, wie die [!UICONTROL HTTP] > [!UICONTROL Erst
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Autorisierungsparameter]</p> </td> 
-      <td> <p>Hinzufügen <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>Schlüssel-Wert-Paar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Hinweis: Wenn Authentifizierungsprobleme auftreten, z. B. bei der Aktualisierung des Tokens, versuchen Sie, die <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>Schlüssel-Wert-Paar.</p> </td> 
+      <td> <p>Hinzufügen <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>Schlüssel-Wert-Paar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Hinweis: Wenn Authentifizierungsprobleme auftreten, z. B. beim Aktualisieren von Token, versuchen Sie, die <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>Schlüssel-Wert-Paar.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL Weiter]** , um Verbindungseinstellungen zu speichern.
+1. Klicks **[!UICONTROL Weiter]** , um Verbindungseinstellungen zu speichern.
 1. Weiter zu [Einrichten des OAuth 2.0-Anforderungsmoduls](#oauth-20-request-module-setup).
 
 ### Anleitung für die Verbindung zu [!DNL Microsoft Graph API] über die [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] Modul
@@ -289,7 +295,7 @@ Hinweise zu [!DNL Microsoft Graph API], siehe [Rufen Sie die [!DNL MS Graph REST
 
 Wenn Sie eine [!DNL Oauth 2].0-Verbindung wie unter [Erstellen einer Verbindung für eine [!DNL OAuth] Anfrage](#creating-a-connection-for-an-oauth-request), setzen Sie die Einrichtung des Moduls wie gewünscht fort. Alle Autorisierungstoken werden automatisch in diese Anfrage und in jede andere Anfrage einbezogen, die dieselbe Verbindung verwendet.
 
-Wenn Sie die [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0-Anfrage stellen] Modul, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie die [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0-Anfrage stellen] -Modul, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
 Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -307,7 +313,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Alle Status als Fehler auswerten (mit Ausnahme von 2xx und 3xx]) </td> 
-   <td> <p>Verwenden Sie diese Option, um die Fehlerbehandlung einzurichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Umgang mit Fehlern in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Verwenden Sie diese Option, um die Fehlerbehandlung einzurichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Fehlerbehandlung in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
@@ -327,10 +333,10 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Textkörper]</p> </td> 
-   <td> <p>Der HTTP-Hauptteil sind die Datenbytes, die in einer HTTP-Transaktionsnachricht unmittelbar nach den Headern übertragen werden, wenn welche verwendet werden sollen.</p> 
+   <td> <p>Der HTTP-Hauptteil sind die Daten-Bytes, die in einer HTTP-Transaktionsnachricht unmittelbar auf die Header übertragen werden, sofern welche verwendet werden sollen.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Der Rohkörpertyp eignet sich im Allgemeinen für die meisten HTTP-Textkörperanforderungen, selbst wenn in der Entwicklerdokumentation keine zu sendenden Daten angegeben sind.</p> <p>Geben Sie im Feld [!UICONTROL Inhaltstyp] eine Form zum Analysieren der Daten an.</p> <p>Trotz des ausgewählten Inhaltstyps werden die Daten in einem beliebigen Format eingegeben, das in der Entwicklerdokumentation festgelegt oder benötigt wird.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dieser Nachrichtentyp besteht in der POST von Daten mithilfe von <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Für <code>[!UICONTROL application/x-www-form-urlencoded]</code>, ist der Hauptteil der an den Server gesendeten HTTP-Nachricht im Wesentlichen eine Abfragezeichenfolge. Die Schlüssel und Werte sind in Schlüssel/Wert-Paaren kodiert, getrennt durch <code>&amp;</code> und mit <code>=</code> zwischen dem Schlüssel und dem Wert. </p> <p>Für Binärdaten: <code>use [!UICONTROL multipart/form-data]</code> anstatt.</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dieser Nachrichtentyp besteht in der POST von Daten mithilfe von <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Für <code>[!UICONTROL application/x-www-form-urlencoded]</code>, ist der Hauptteil der an den Server gesendeten HTTP-Nachricht im Wesentlichen eine Abfragezeichenfolge. Die Schlüssel und Werte sind in Schlüssel/Wert-Paaren kodiert, getrennt durch <code>&amp;</code> und mit <code>=</code> zwischen Schlüssel und Wert. </p> <p>Für Binärdaten: <code>use [!UICONTROL multipart/form-data]</code> anstatt.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>Beispiel: </b></span></span> 
        <p>Beispiel für das resultierende HTTP-Anforderungsformat:</p> 
@@ -373,7 +379,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Deaktivieren der Serialisierung mehrerer Abfragezeichenfolgenschlüssel als Arrays]</p> </td> 
-   <td> <p>Standardmäßig [!DNL Workfront Fusion] verarbeitet mehrere Werte für denselben URL-Abfragezeichenfolgenparameterschlüssel wie Arrays. Beispiel: <code>www.test.com?foo=bar&amp;foo=baz</code> wird in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivieren Sie diese Option, um diese Funktion zu deaktivieren. </p> </td> 
+   <td> <p>Standardmäßig ist [!DNL Workfront Fusion] verarbeitet mehrere Werte für denselben URL-Abfragezeichenfolgenparameterschlüssel wie Arrays. Beispiel: <code>www.test.com?foo=bar&amp;foo=baz</code> wird in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivieren Sie diese Option, um diese Funktion zu deaktivieren. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Komprimierten Inhalt anfordern]</td> 

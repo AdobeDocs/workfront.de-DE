@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: Connector
 navigation-topic: apps-and-their-modules
-title: HTTP &gt; Sonstige Module
+title: HTTP &gt; andere Module
 description: Die [!DNL Adobe Workfront Fusion] Die HTTP-App bietet verschiedene Kommunikationsmodule, die auf dem HTTP-Protokoll (Hypertext Transfer Protocol) basieren. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] erfordert [!UICONTROL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] Lizenz.
+>[!UICONTROL Adobe Workfront Fusion] erfordert [!UICONTROL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz.
 
 Die [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app stellt verschiedene Kommunikationsmodule für das HTTP-Protokoll (Hypertext Transfer Protocol) bereit. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
 
 Die richtige Auswahl des Moduls hängt vom Authentifizierungs-/Autorisierungsmechanismus ab, den die Ressource verwendet, auf die Sie zugreifen möchten. Im Folgenden finden Sie Beispiele für Module
 
 * Anfrage:universelles Modul, das hauptsächlich für Ressourcen bestimmt ist, die keine Authentifizierung/Autorisierung durchführen
-* Erstellen einer einfachen Authentifizierungsanfrage:für Ressourcen, die [!DNL HTTP] Standardauthentifizierung (BA)
-* Erstellen Sie eine OAuth 2.0-Anfrage: für Ressourcen, die das OAuth 2.0-Autorisierungsprotokoll verwenden
-* Erstellen Sie eine Client-Zertifikatauthentifizierungsanforderung: für Ressourcen, die ein Autorisierungsprotokoll verwenden, für das ein clientseitiges Zertifikat erforderlich ist.
-* Stellen Sie eine API-Schlüsselautorisierungsanfrage: für Ressourcen, die API-Schlüssel zur Autorisierung verwenden.
+* Erstellen einer einfachen Authentifizierungsanfrage:für Ressourcen, die [!DNL HTTP] Grundlegende Authentifizierung (BA)
+* Anfrage für OAuth 2.0: für Ressourcen, die das OAuth 2.0-Autorisierungsprotokoll verwenden
+* Erstellen Sie eine Client-Zertifikatauthentifizierungsanfrage: für Ressourcen, die ein Autorisierungsprotokoll verwenden, für das ein clientseitiges Zertifikat erforderlich ist.
+* Anfrage zur API-Schlüsselautorisierung: für Ressourcen, die API-Schlüssel zur Autorisierung verwenden.
+
+>[!NOTE]
+>
+>Wenn Sie eine Verbindung zu einem Adobe-Produkt herstellen, das derzeit über keinen dedizierten Connector verfügt, empfehlen wir die Verwendung des Adobe Authenticator-Moduls.
+>
+>Weitere Informationen finden Sie unter [Adobe Authenticator-Modul](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Anforderungsmodule
 
@@ -57,7 +63,7 @@ Dieses Aktionsmodul lädt eine Datei von der angegebenen URL herunter. Nachdem d
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Geben Sie die URL der Datei ein, die Sie herunterladen möchten, oder ordnen Sie sie zu. </p> </td> 
+   <td> <p>Geben Sie die URL der Datei ein oder ordnen Sie sie zu. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +108,7 @@ Dieses Modul gibt jeden Header (Name und Wert) des angegebenen HTTP-Moduls in ei
 
 Es ist möglich, mithilfe integrierter Funktionen ein JWT-Token zu generieren:
 
-Header:
+Kopfzeile:
 
 ![](assets/jwt-header-350x19.png)
 
