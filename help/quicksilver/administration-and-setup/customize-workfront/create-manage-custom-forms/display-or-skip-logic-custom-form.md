@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Am besten erfahren Sie, wie Sie einem benutzerdefinierten Formular eine Anzeige-
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms** ![](assets/custom-forms-icon.png).
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
 
 1. Erstellen Sie das benutzerdefinierte Beispielformular:
 

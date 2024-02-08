@@ -1,13 +1,13 @@
 ---
 title: Alle Berichte anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 description: Sie können eine benutzerdefinierte Ansicht im Bereich "Benutzerdefinierter Forms"hinzufügen, die anzeigt, welche Berichte ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden. Dies ist nützlich, wenn Sie das Feld oder Widget bearbeiten oder löschen müssen, da es möglicherweise bereits in einem oder mehreren Berichten implementiert ist. Es ist wichtig zu beurteilen, ob diese Berichte angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Berichte auflisten, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Öffnen Sie die **Felder** um einen Bericht anzuzeigen, der alle benutzerdefinierten Felder und Widgets in Ihrer Workfront-Instanz auflistet.
+1. Klicks **Felder** , um einen Bericht anzuzeigen, in dem alle benutzerdefinierten Felder und Widgets in Ihrer Workfront-Instanz aufgelistet sind.
 
-   ![](assets/fields-tab.png)
-
-1. Klicken Sie auf **Ansicht** Dropdown-Menü in der Kopfzeile am oberen Rand der Liste und suchen Sie dann nach benutzerdefinierten Ansichten in der Liste, die die **Berichte** -Spalte (keine Standardspalte auf dieser Registerkarte).
+1. Klicken Sie auf **Ansicht** und suchen Sie dann nach benutzerdefinierten Ansichten in der Liste, die die **Berichte** -Spalte (keine Standardspalte auf dieser Registerkarte).
 
    In der Spalte Berichte können Sie sehen, welche Berichte die einzelnen benutzerdefinierten Felder und Widgets verwenden, die zu einem benutzerdefinierten Formular in Ihrem System hinzugefügt wurden. Es ist möglich, dass jemand bereits eine Ansicht erstellt hat, die Folgendes enthält: **Berichte** Spalte.
 
 1. Wenn keine Ansicht angezeigt wird, die die **Berichte** erstellen Sie eine neue Ansicht, die Folgendes enthält:
 
-   1. Klicken Sie auf **Ansicht** Dropdown-Menü, und klicken Sie auf **Neue Ansicht**.
+   1. Klicken Sie auf **Ansicht** Menü und klicken Sie auf **Neue Ansicht**.
 
    1. Im **Neue Ansicht** Seite, die angezeigt wird, ersetzen Sie im Feld links oben **Neue Parameteransicht** mit einem beschreibenden Namen für die Ansicht, z. B. *Felder und Widgets*.
 

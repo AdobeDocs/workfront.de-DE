@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # Freigeben eines benutzerdefinierten Formulars
+
+{{highlighted-preview}}
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
 
@@ -28,21 +30,24 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Zugriff auf benutzerdefinierte Formulare {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ Bei einem Objekt, an das das benutzerdefinierte Formular noch nicht angehängt i
 
 Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu hinterlassen (siehe [Zugriff auf benutzerdefinierte Formulare](#access-to-custom-forms) in diesem Artikel) können Sie bestimmte Zugriffsebenen für das Formular für bestimmte Benutzer, Jobrollen, Gruppen, Teams und Unternehmen konfigurieren.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben**.
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben** <span class="preview">oder ![Freigabesymbol](assets/share-icon.png).</span>
 1. In dem Feld, das angezeigt wird, unter **Gewähren Sie benutzerdefinierten Formularzugriff an**, beginnen Sie mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder Firma, für die Sie das benutzerdefinierte Formular freigeben möchten, und drücken Sie dann die Eingabetaste **Eingabe** wenn der Name angezeigt wird.
 1. Um den Zugriff auf den soeben hinzugefügten Benutzer, das Team, die Rolle, die Gruppe oder das Unternehmen anzupassen, klicken Sie auf das Dropdown-Menü rechts neben dem Namen und konfigurieren Sie dann eine der folgenden verfügbaren Optionen und eine der erweiterten Einstellungen:
 
@@ -106,10 +111,10 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
 
 ## Zugriff auf ein benutzerdefiniertes Formular entfernen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben**.
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben** <span class="preview">oder ![Freigabesymbol](assets/share-icon.png).</span>
 1. Klicken Sie in dem angezeigten Feld auf das X rechts neben dem Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, auf das Sie keinen speziellen Zugriff mehr auf das Formular haben möchten.
 1. (Optional) Wiederholen Sie den vorherigen Schritt nach für weitere Namen, die Sie entfernen möchten.
 1. Klicken Sie auf **Speichern**.
