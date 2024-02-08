@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ Das Erscheinungsbild der Rich-Text-Symbolleiste wurde aktualisiert, wenn Sie ein
 
 Weitere Informationen finden Sie unter  [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### Verbessertes Erlebnis beim Bearbeiten von Einzelauswahl-, Mehrfachauswahl- und Personenfeldern sowie beim Hinzufügen von verbundenen Objekten
 
-Production: February 8, 2024 
+Produktion: 8. Februar 2024
 
-Preview: To be determined 
+Vorschau: zu bestimmen
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+Wir haben das Erlebnis beim Hinzufügen von Optionen oder Objekten für die folgenden Feldtypen neu gestaltet und verbessert:
 
-The improvements are now available when updating fields in the table view of a record type.  
+* Einzelauswahl
+* Mehrfachauswahl
+* Personen
+* Verknüpfte Datensatzfelder (beim Verbinden von Maestro-Datensatztypen oder Workfront-Objekten)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+Mit der neuen Verbesserung wird zuerst ein kleineres, reaktionsfähigeres Feld angezeigt.
 
--->
+Für verbundene Felder können Sie sie wie folgt hinzufügen:
+
+* Fügen Sie dem verbundenen Feld Objekte hinzu, indem Sie sie in einer Liste in der Tabellenansicht durchsuchen und auswählen, während Sie das Feld inline bearbeiten
+* Klicken Sie auf , um das größere Feld Objekte verbinden zu öffnen, in dem Sie neben weiteren Informationen zu den Elementen alle Elementnamen anzeigen können.
+
+Die Verbesserungen sind jetzt verfügbar, wenn die Felder in der Tabellenansicht eines Datensatztyps aktualisiert werden.
+
+Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Woche vom 29. Januar 2024
 

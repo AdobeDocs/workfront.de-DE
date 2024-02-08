@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Gehen Sie dazu folgendermaßen vor:
    >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol gekennzeichnet ![](assets/relationship-field-icon.png).
 
 1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen, erstellen Sie eine Kampagne, indem Sie in der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
-1. Klicken Sie auf **+** -Symbol in  **Produktinformationen** Spalte der neuen Kampagne. Die **Objekte verbinden** angezeigt. Der Name des Datensatztyps, mit dem Sie (Produkt) verknüpfen, wird in der linken oberen Ecke des Felds angezeigt.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Doppelklicken Sie in die  **Produktinformationen** Spalte der neuen Kampagne.
 
-1. Wählen Sie die Produktdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie auf **Objekte verbinden**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie in der Liste auf den Namen eines verbundenen Produkts, um es dem ausgewählten Datensatz hinzuzufügen. Das Produkt wird automatisch hinzugefügt.
+   * Geben Sie den Namen eines Produkts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Produkt wird automatisch hinzugefügt.
+   * Klicks **Alle anzeigen** , um alle Produkte anzuzeigen.
+
+1. (Bedingt) Wenn Sie auf **Alle auswählen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Geben Sie den Namen eines Produkts in das Suchfeld ein und wählen Sie es aus, wenn es in der Liste angezeigt wird
+
+   Oder
+
+   Wählen Sie die Produktdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie auf **Objekte verbinden**.
+
+   >[!TIP]
+   >
+   >    Sie können die Detailseite einer Kampagne öffnen, das verknüpfte Datensatzfeld suchen und auf die Schaltfläche **+** im Feld, um Produkte aus dem verbundenen Produktdatensatz-Typ hinzuzufügen.
 
    Die folgenden Spalten werden in der Tabelle vom Typ Campaign-Datensatz ausgefüllt:
    * Die **Produktinformationen** wird für den Campaign-Datensatz mit den ausgewählten Produkten ausgefüllt.
@@ -142,13 +161,32 @@ Gehen Sie dazu folgendermaßen vor:
    >    Verknüpfte Objektfelder werden durch das Verknüpfungssymbol ![](assets/relationship-field-icon.png).
 
 1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen Sie eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
-1. Klicken Sie auf **+** -Symbol in  **Projektinformationen** Spalte der neuen Kampagne. Die **Objekte verbinden** angezeigt. Der Name des Objekttyps, mit dem Sie (Workfront-Projekt) verknüpfen, wird in der linken oberen Ecke des Felds angezeigt.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Doppelklicken Sie in die  **Projektinformationen** Spalte der neuen Kampagne.
 
-1. Wählen Sie das Projekt bzw. die Projekte aus, mit denen Sie eine Verbindung herstellen möchten, und klicken Sie auf **Objekte verbinden**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Dem ausgewählten Arbeitsbereich werden folgende Elemente hinzugefügt:
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie in der Liste auf den Namen eines Projekts, um es dem ausgewählten Datensatz hinzuzufügen. Das Projekt wird automatisch hinzugefügt.
+   * Geben Sie den Namen eines Projekts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Projekt wird automatisch hinzugefügt.
+   * Klicks **Alle anzeigen** , um alle Projekte anzuzeigen.
+
+1. (Bedingt) Wenn Sie auf **Alle auswählen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Geben Sie den Namen eines Projekts in das Suchfeld ein und wählen Sie es aus, wenn es in der Liste angezeigt wird
+
+   Oder
+
+   Wählen Sie die Datensätze des Projekts aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie auf **Objekte verbinden**.
+
+   >[!TIP]
+   >
+   >    Sie können die Detailseite einer Kampagne öffnen, das verknüpfte Projektfeld suchen und auf die Schaltfläche **+** im Feld, um Projekte aus dem verbundenen Produktdatensatz-Typ hinzuzufügen.
+
+   Dadurch wird dem ausgewählten Arbeitsbereich Folgendes hinzugefügt:
 
    * In der Datensatztyp-Tabelle von Campaign:
       * Die **Projektinformationen** wird für den Campaign-Datensatz mit den ausgewählten Projekten gefüllt.
@@ -165,7 +203,7 @@ Gehen Sie dazu folgendermaßen vor:
    Dadurch wird das schreibgeschützte Maestro-Projekt **Details** Seite.
 Überprüfen Sie die Informationen zum Projekt. Auf der Detailseite werden nur ausgewählte Projektfelder angezeigt.
 
-1. Klicken Sie oben rechts im Bildschirm auf Zu Quelle wechseln , um das Projekt in Workfront zu öffnen, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
+1. Klicks **Zu Quelle wechseln** in der rechten oberen Ecke des Bildschirms, um das Projekt in Workfront zu öffnen, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
 1. (Optional) Aktualisieren Sie die Informationen zum Projekt in Workfront, sofern Sie dazu berechtigt sind.
 
 1. Bewegen Sie in der Tabellenansicht von Campaign den Mauszeiger über die **Projektinformationen** -Feldüberschrift, klicken Sie auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Suchfelder bearbeiten.**

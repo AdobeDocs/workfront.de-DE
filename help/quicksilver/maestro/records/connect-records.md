@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -163,15 +163,19 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
-1. Markieren Sie in der Tabellenansicht einen Datensatz und klicken Sie in das verknüpfte Datensatzfeld. Klicken Sie anschließend auf die Schaltfläche **+** Symbol.
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem anderen Datensatztyp verbunden haben, wechseln Sie zur verknüpften Datensatzspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit anderen Datensätzen verknüpfen möchten.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes, um ihn zum ausgewählten Datensatz hinzuzufügen. Der Datensatz wird automatisch hinzugefügt.
+   * Geben Sie den Namen eines Datensatzes ein und klicken Sie darauf, wenn er in der Liste angezeigt wird. Der Datensatz wird automatisch hinzugefügt.
+   * Klicks **Alle anzeigen** , um alle Datensätze anzuzeigen.
+
+1. (Bedingt) Wenn Sie auf **Alle auswählen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
-
-   Die **Objekte verbinden** angezeigt.
 
 1. Geben Sie den Namen eines Datensatzes in das Suchfeld ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
 
@@ -179,10 +183,14 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Wählen Sie den Namen eines oder mehrerer Datensätze im Feld aus und klicken Sie auf **Objekte verbinden** in der oberen rechten Ecke des Felds &quot;Objekte verbinden&quot;ein.
 
+   >[!TIP]
+   >
+   >    Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
+
    Folgendes wird hinzugefügt:
 
    * Die verknüpften Datensätze werden im verknüpften Datensatzfeld des Datensatzes angezeigt, den Sie in Schritt 6 ausgewählt haben. <!--accurate?-->
-   * Die verknüpften Felder werden mit Informationen aus den verknüpften Datensätzen gefüllt.
+   * Die verknüpften Felder werden mit den Informationen aus den verknüpften Datensätzen ausgefüllt, wenn Sie verknüpfte Suchfelder hinzugefügt haben, als Sie die Datensatztypen verbunden haben.
 
    Durch die Aktualisierung der verknüpften Datensätze werden die verknüpften Felder für die Datensätze aktualisiert, von denen Sie automatisch eine Verknüpfung herstellen. Verknüpfte Felder können nicht manuell bearbeitet werden.
 
@@ -221,17 +229,19 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü.
 
 1. Klicks **Neuer Datensatz**  , um dem ausgewählten Datensatztyp einzelne Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
-1. (Bedingt) Wenn Sie den ausgewählten Datensatztyp mit einem Workfront-Objekt verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit Objekten aus Workfront verknüpfen möchten, und klicken Sie auf die Schaltfläche **+** Symbol.
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem Workfront-Objekttyp verbunden haben, wechseln Sie zur verknüpften Objektspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit Objekten aus Workfront verknüpfen möchten.
 
-   Die **Objekte verbinden** angezeigt.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie in der Liste auf ein Objekt, um es dem ausgewählten Datensatz hinzuzufügen. Objekte werden alphabetisch aufgelistet. Das Objekt wird automatisch hinzugefügt.
+   * Geben Sie den Namen eines Objekts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Objekt wird automatisch hinzugefügt.
+   * Klicks **Alle anzeigen** , um alle Objekte anzuzeigen, für die Sie mindestens über die entsprechenden Berechtigungen verfügen.
+
+1. (Bedingt) Wenn Sie auf **Alle anzeigen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
-
-   Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
 1. Geben Sie den Namen eines Workfront-Objekts in das Suchfeld ein und wählen Sie es dann aus, wenn es in der Liste angezeigt wird
 
@@ -249,6 +259,12 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    * Die ausgewählten Workfront-Objekte werden dem verknüpften Datensatzfeld hinzugefügt.
    * Wenn Sie sie bei der Verbindung des Datensatztyps mit Workfront hinzugefügt haben, werden die verknüpften Felder (oder die Suchfelder) der Workfront-Objekte automatisch mit Informationen aus Workfront gefüllt.
+
+   >[!TIP]
+   >
+   >Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
+
+   Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
 1. (Optional) Klicken Sie entweder im verknüpften Feld einer Tabellenansicht oder im verknüpften Feld des Felds **Details** -Seite des Maestro-Datensatzes.
 
@@ -298,7 +314,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 
 1. (Optional) Klicken Sie auf **Neuer Datensatz** , um dem ausgewählten Datensatztyp neue Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](../../maestro/records/create-records.md).
-1. (Bedingt) Wenn Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus dem Experience Manager verknüpfen möchten, und klicken Sie auf die Schaltfläche **+** Symbol.
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus Experience Manager verknüpfen möchten. Klicken Sie dann auf die Schaltfläche **+** Symbol.
 
    >[!TIP]
    >
