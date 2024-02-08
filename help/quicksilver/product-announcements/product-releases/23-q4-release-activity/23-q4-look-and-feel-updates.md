@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Eine Liste aller mit der Version vom vierten Quartal 2023 verfügbaren Änderung
 
 >[!NOTE]
 >
->Vorschau-Version: 1. November 2023; Produktionsversion für alle Kunden: 1. November
+>Vorschau-Version: 1. November 2023; Produktionsversion für alle Kunden: 1. November 2023
 
 Die E-Mail-Vorlage für Benachrichtigungen zur Dokumentgenehmigung wurde aktualisiert, um sie besser an andere Adobe-E-Mail-Vorlagen anzupassen und die Benutzerfreundlichkeit zu verbessern.
 
@@ -31,7 +31,7 @@ Die E-Mail-Vorlage für Benachrichtigungen zur Dokumentgenehmigung wurde aktuali
 
 >[!NOTE]
 >
->Vorschau-Version: 12. Oktober 2023; Produktionsversion für alle Kunden: TBD
+>Vorschau-Version: 12. Oktober 2023; Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
 
 Um mehr Klarheit über manuelle Anpassungen oder die Konfiguration im Arbeitslastausgleich zu schaffen, zeigen manuell angepasste stündliche Zuordnungen jetzt ein Stiftsymbol an.
 
