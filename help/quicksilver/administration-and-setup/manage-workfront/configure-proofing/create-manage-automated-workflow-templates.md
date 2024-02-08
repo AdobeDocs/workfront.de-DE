@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Verwalten von Vorlagen für automatisierte Workflows
+
+<!-- Audited: 2/2024 -->
 
 Wenn als Adobe Workfront-Administrator der Inhaltsüberprüfungsprozess Ihres Unternehmens häufig wiederholt wird oder Inhalte häufig von denselben Personen geprüft werden, können Sie automatisierte Workflow-Vorlagen erstellen, die die validierungsverantwortlichen Benutzer mit von Ihnen festgelegten Testversandrollen und Benachrichtigungseinstellungen enthalten. Eine Automated Workflow-Vorlage kann einfach mit nur einem oder zwei Validierungsverantwortlichen oder komplex mit vielen Phasen und Abhängigkeiten sein.
 
@@ -40,27 +42,28 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium oder Select</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Neu: Beliebig</p><p>Aktuell: Pro oder höher</p><p>Veraltet: Premium oder Select</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p><p>Aktuell: Arbeit oder Plan</p> <p>Veraltet: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>In Ihrem Profil für Testberechtigungen muss "Administrator"ausgewählt sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Konfigurieren des Testversand-Zugriffs eines Benutzers</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>In Ihrem Profil für Testberechtigungen muss "Administrator"ausgewählt sein. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen einer Automated Workflow-Vorlage
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png)und dann auf Testversand klicken ![](assets/proofing-in-main-menu.png) , um auf Workfront Testversand zuzugreifen.
-1. Klicken **Workflows** im linken Bereich.
-1. Im **Workflow** Registerkarte, klicken Sie auf **Neu** > **Neue Vorlage**.
+{{step1-to-proofing}}
+
+1. Klicks **Workflows** im linken Bereich.
+1. Im **Workflow** Registerkarte, klicken **Neu** > **Neue Vorlage**.
 
 1. Im **Details** Geben Sie die folgenden Informationen an:
 
@@ -86,16 +89,15 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader">Zulassen</td> 
-      <td> <p>Sie können die Staging-Aktivitäten auswählen, die der Person, die Testsendungen erstellt, mit der Vorlage zur Verfügung stehen sollen.</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>Sie können die Staging-Aktivitäten auswählen, die der Person, die Testsendungen erstellt, mit der Vorlage zur Verfügung stehen sollen.</p> 
+      <p><b>WARNUNG</b>: Wenn Sie die Optionen Phase hinzufügen und Personen zu Bühnen hinzufügen nicht auswählen, können weder der Vorlageninhaber noch der Besitzer eines Testversands, der diese Vorlage verwendet, eine Bühne hinzufügen oder den Testversand freigeben. 
+      </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Im **Phasen** konfigurieren Sie die einzelnen Phasen der Automated Workflow-Vorlage.
+1. Im **Phasen** konfigurieren Sie die einzelnen Phasen der Vorlage &quot;Automatisierter Workflow&quot;.
 
    Sie können mehrere Bühnen hinzufügen und zwischen ihnen erstellen.
 
@@ -115,8 +117,8 @@ Sie müssen über Folgendes verfügen:
       <td role="rowheader">Errechneter Termin</td> 
       <td> <p>Geben Sie an, wie der Termin berechnet werden soll:</p> 
        <ul> 
-        <li> <p><strong>Erstellung von Testsendungen</strong>: In der Dropdown-Liste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
-        <li><strong>Wenn die Phase beginnt</strong>: In der Dropdown-Liste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Aktivierungsdatum der Bühne hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
+        <li> <p><strong>Erstellung von Testsendungen</strong>: In der Dropdownliste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
+        <li><strong>Wenn die Phase beginnt</strong>: In der Dropdownliste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Aktivierungsdatum der Bühne hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -133,10 +135,8 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader">Private Bühne</td> 
-      <td>Blendet Kommentare und Entscheidungen von für Personen aus, die nicht zur Bühne hinzugefügt werden oder keine Workfront-Administratoren sind&lt;!&gt;— ENTWICKELT IN FLARE: Aufseher und höher
-
-       -->. Weitere Informationen finden Sie unter &lt;a href=&quot;../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md&quot; class=&quot;MCXref xref&quot;>Übersicht über den automatisierten Workflow&lt;/a>.&lt;/td>
-   </tr> 
+      <td>Blendet Kommentare und Entscheidungen von für Personen aus, die nicht zur Bühne hinzugefügt werden oder keine Workfront-Administratoren sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Übersicht über den automatisierten Workflow</a>.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Löschen dieser Phase nicht zulassen</td> 
       <td> <p>Macht die Bühne obligatorisch.</p> </td> 
@@ -146,7 +146,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Wenn die Testsendungen, die diese Vorlage verwenden, immer an dieselben Personen in der Bühne gesendet werden, fügen Sie sie hier hinzu, damit Benutzer sie nicht jedes Mal hinzufügen müssen, wenn sie einen Testversand erstellen.
 
-   Die **Rolle** für die Testsendungen, die diese Vorlage verwenden, und die **E-Mail-Warnungen** Sie möchten, dass der Benutzer beim Arbeiten an Testsendungen, die diese Vorlage verwenden, erhält.
+   Wählen Sie die **Rolle** für die Testsendungen, die diese Vorlage verwenden, und die **E-Mail-Warnungen** Sie möchten, dass der Benutzer beim Arbeiten an Testsendungen, die diese Vorlage verwenden, erhält.
 
    Informationen zu den Rollen bei einem Testversand finden Sie unter [Konfigurieren von standardmäßigen Testrollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt [Konfigurieren der Standardwerte für den Testversand eines Benutzers](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) im Artikel  [E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
@@ -172,8 +172,9 @@ Sie müssen über Folgendes verfügen:
 
 Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Workflows ändern. Ihre Änderungen werden automatisch gespeichert, wenn Sie sie vornehmen.
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png)und dann auf Testversand klicken ![](assets/proofing-in-main-menu.png) , um auf Workfront Testversand zuzugreifen.
-1. Klicken **Workflows** im linken Bereich.
+{{step1-to-proofing}}
+
+1. Klicks **Workflows** im linken Bereich.
 1. Im **Workflow-Vorlagen** angezeigt wird, klicken Sie auf die Vorlage, die Sie ändern möchten.
 1. Im **Details** Geben Sie die folgenden Informationen an:
 
@@ -214,7 +215,7 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
       <td role="rowheader">Errechneter Termin</td> 
       <td> <p>Geben Sie an, wie der Termin berechnet werden soll:</p> 
        <ul> 
-        <li> <p><strong>Aus der Erstellung des Testversands berechnete Frist</strong>: Im <strong>Festlegen des Staging-Termins</strong> in der Dropdown-Liste die Anzahl der Geschäftstage auswählen, die Sie dem Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
+        <li> <p><strong>Aus der Erstellung des Testversands berechnete Frist</strong>: Im <strong>Festlegen des Staging-Termins</strong> in der Dropdown-Liste die Anzahl der Geschäftstage auswählen, die Sie zum Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
         <li><strong>Von der Staging-Aktivierung berechnete Frist</strong>: Im <strong>Festlegen des Staging-Termins</strong> in der Dropdown-Liste die Anzahl der Geschäftstage auswählen, die Sie zum Aktivierungsdatum der Bühne hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
        </ul> </td> 
      </tr> 
@@ -235,12 +236,12 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
       <td>Blendet Kommentare und Entscheidungen von an Personen aus, die nicht zur Bühne hinzugefügt werden oder die keine Supervisoren und höher im Konto sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Übersicht über den automatisierten Workflow</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Staging-Löschung</td> 
+      <td role="rowheader">Staging-Löschen</td> 
       <td>Macht die Bühne obligatorisch.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mehr <img src="assets/more-icon.png"></td> 
-      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> auf den Nachweis und <strong>E-Mail-Warnungen</strong> -Einstellungen, die Sie für den Benutzer wünschen. Informationen zu Testing-Rollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testrollen</a>. Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Standardwerte für den Testversand eines Benutzers</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren</a>.</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Phasen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
+      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> auf den Nachweis und <strong>E-Mail-Warnungen</strong> -Einstellungen, die Sie für den Benutzer wünschen. Informationen zu Testing-Rollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testrollen</a>. Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Standardwerte für den Testversand eines Benutzers</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren</a>.</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Bühnen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -251,7 +252,7 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
 
    Wenn Sie das Diagramm nicht sehen müssen, können Sie auf **Diagramm ausblenden**.
 
-1. Im **Freigegeben für** Wenn Sie einen Benutzer löschen möchten, klicken Sie auf Mehr ![](assets/more-icon.png) Schaltfläche rechts und klicken Sie dann auf **Entfernen**.
+1. Im **Freigegeben für** zum Löschen eines Benutzers auf Mehr klicken ![](assets/more-icon.png) Schaltfläche rechts und klicken Sie dann auf **Entfernen**.
 
 ## Erstellen von Vorlagengruppen für automatisierte Workflows {#create-automated-workflow-template-groups}
 
@@ -259,16 +260,17 @@ Als Workfront-Administrator können Sie alle Automated Workflow-Vorlagen im Kont
 
 So erstellen Sie eine Vorlagengruppe für einen automatisierten Workflow:
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png)und dann auf Testversand klicken ![](assets/proofing-in-main-menu.png) , um auf Workfront Testversand zuzugreifen.
-1. Klicken **Workflows** im linken Bereich.
-1. Im **Workflow** Registerkarte, klicken Sie auf **Neu** > **Neue Vorlagengruppe**.
+{{step1-to-proofing}}
+
+1. Klicks **Workflows** im linken Bereich.
+1. Im **Workflow** Registerkarte, klicken **Neu** > **Neue Vorlagengruppe**.
 1. Geben Sie einen beschreibenden Namen für die neue Vorlagengruppe ein und drücken Sie dann die Eingabetaste **Eingabe**.
 
 Sie können die Vorlagen durch Ziehen und Ablegen zwischen Gruppen verschieben.
 
 ## Verwalten von Vorlagen für automatisierte Workflows
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png)und dann auf Testversand klicken ![](assets/proofing-in-main-menu.png) , um auf Workfront Testversand zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie im linken Bereich des Workfront-Testversands auf **Workflows**.
 1. Im **Workflows** -Seite angezeigt wird, führen Sie einen der folgenden Schritte aus:

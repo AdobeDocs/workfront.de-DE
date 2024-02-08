@@ -7,14 +7,16 @@ description: Der Wert "Prozent abgeschlossen"eines Projekts wird basierend auf d
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 31533bd7ee1890a8343d32770d623d5d9a6007d2
+source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Projekt-Prozent Vollständige Übersicht
+
+<!-- Audited 01/2024 -->
 
 Der Wert &quot;Prozent abgeschlossen&quot;eines Projekts wird basierend auf der Dauer oder den geplanten Stunden von Aufgaben im Projekt berechnet. Ihr Adobe Workfront-Administrator oder ein Gruppenadministrator definiert, welcher Wert bei der Berechnung des Prozentsatzes berücksichtigt wird, der in Ihrem System abgeschlossen ist, wenn er Informationen im Bereich Projekteinstellungen konfiguriert.
 
@@ -28,13 +30,9 @@ Die Hauptaufgaben sind die übergeordneten Aufgaben und die eigenständigen Aufg
 
 >[!TIP]
 >
->Hauptaufgaben sind in einem Projektplan nicht eingerückt.
+>Hauptaufgaben werden in einem Projektplan nicht berücksichtigt.
 
 ## Berechnung der vollständigen Prozent durch Workfront
-
-* [Aktualisierung des Prozentsatzes für den Abschluss einer Aufgabe](#update-the-percent-complete-on-a-task)
-* [Berechnung des Prozentsatzes der Abschlüsse einer übergeordneten Aufgabe durch Workfront](#how-workfront-calculates-percent-complete-on-a-parent-task)
-* [Berechnung des Prozentsatzes der Abschlüsse eines Projekts durch Workfront](#how-workfront-calculates-percent-complete-on-a-project)
 
 ### Aktualisierung des Prozentsatzes für den Abschluss einer Aufgabe {#update-the-percent-complete-on-a-task}
 
@@ -52,21 +50,21 @@ Betrachten Sie die folgenden Szenarien:
 
 * Wenn das System den Prozentsatz der Vollständigkeit anhand der geplanten Stunden berechnet, wird der Prozentsatz der Fertigstellung der übergeordneten Aufgabe anhand der folgenden Formel berechnet:
 
-   `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
-   Die Gesamtanzahl der geplanten Stunden der Eltern entspricht der Summe aller geplanten Stunden der einzelnen Kinder.
+  Die Gesamtanzahl der geplanten Stunden der Eltern entspricht der Summe aller geplanten Stunden der einzelnen Kinder.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Wenn das System den Prozentsatz der Fertigstellung anhand der Dauer berechnet, wird der Prozentsatz der Fertigstellung der übergeordneten Aufgabe anhand der folgenden Formel berechnet:
 
-   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!IMPORTANT]
-   >
-   >Die Gesamtdauer der übergeordneten Aufgabe entspricht der Gesamtdauer aller untergeordneten Aufgaben. Beispielsweise hat eine übergeordnete Aufgabe mit zwei untergeordneten Elementen mit einer Dauer von 1 Tag und 2 Tagen eine Gesamtdauer von 3 Tagen, selbst wenn die beiden untergeordneten Elemente am selben Tag beginnen können.
+  >[!IMPORTANT]
+  >
+  >Die Gesamtdauer der übergeordneten Aufgabe entspricht der Gesamtdauer aller untergeordneten Aufgaben. Beispielsweise hat eine übergeordnete Aufgabe mit zwei untergeordneten Elementen mit einer Dauer von 1 Tag und 2 Tagen eine Gesamtdauer von 3 Tagen, selbst wenn die beiden untergeordneten Elemente am selben Tag beginnen können.
 
 
 ### Berechnung des Prozentsatzes der Abschlüsse eines Projekts durch Workfront {#how-workfront-calculates-percent-complete-on-a-project}
@@ -75,29 +73,29 @@ Je nachdem, was Ihr Workfront- oder Gruppenadministrator in den Projekteinstellu
 
 * Wenn das System den Prozentsatz der Fertigstellung anhand geplanter Stunden berechnet, wird der Prozentsatz der Fertigstellung des Projekts anhand der folgenden Formel berechnet:
 
-   `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
+  `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
 
-   Die Gesamtdauer der geplanten Projektstunden ist die Summe der geplanten Stunden aller Hauptaufgaben des Projekts.
+  Die Gesamtdauer der geplanten Projektstunden ist die Summe der geplanten Stunden aller Hauptaufgaben des Projekts.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-   >[!NOTE]
-   >
-   >Aufgabe 1 oder Aufgabe 2 kann nur übergeordnete Aufgaben oder eigenständige Aufgaben sein. Die Aufgaben Geplante Stunden und Prozent Abgeschlossen der untergeordneten Elemente werden in dieser Berechnung nicht verwendet.
+  >[!NOTE]
+  >
+  >Aufgabe 1 oder Aufgabe 2 kann nur übergeordnete Aufgaben oder eigenständige Aufgaben sein. Die Aufgaben Geplante Stunden und Prozent Abgeschlossen der untergeordneten Elemente werden in dieser Berechnung nicht verwendet.
 
 * Wenn das System den Prozentsatz der Fertigstellung anhand der Dauer berechnet, wird der Prozentsatz der Fertigstellung des Projekts anhand der folgenden Formel berechnet:
 
-   `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
+  `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 
-   >[!IMPORTANT]
-   >
-   >Die Dauer des Projekts entspricht der Gesamtdauer aller Hauptaufgaben, für die ein Prozentsatz der Fertigstellung angezeigt wird. Beispielsweise wird für ein Projekt mit einer eigenständigen Aufgabe mit einer Dauer von 2 Tagen und einer übergeordneten Aufgabe mit einer Dauer von 5 Tagen, an denen die Arbeit abgeschlossen wurde, eine Gesamtdauer von 7 Tagen festgelegt, selbst wenn die beiden Aufgaben am selben Tag beginnen können.
+  >[!IMPORTANT]
+  >
+  >Die Dauer des Projekts entspricht der Gesamtdauer aller Hauptaufgaben, für die ein Prozentsatz der Fertigstellung angezeigt wird. Beispielsweise wird für ein Projekt mit einer eigenständigen Aufgabe mit einer Dauer von 2 Tagen und einer übergeordneten Aufgabe mit einer Dauer von 5 Tagen, an denen die Arbeit abgeschlossen wurde, eine Gesamtdauer von 7 Tagen festgelegt, selbst wenn die beiden Aufgaben am selben Tag beginnen können.
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!NOTE]
-   >
-   >Aufgabe 1 oder Aufgabe 2 kann nur übergeordnete Aufgaben oder eigenständige Aufgaben sein. Die Aufgaben &quot;Dauer&quot;und &quot;Prozent abgeschlossen&quot;werden in dieser Berechnung nicht verwendet.
+  >[!NOTE]
+  >
+  >Aufgabe 1 oder Aufgabe 2 kann nur übergeordnete Aufgaben oder eigenständige Aufgaben sein. Die Aufgaben &quot;Dauer&quot;und &quot;Prozent abgeschlossen&quot;werden in dieser Berechnung nicht verwendet.
 
 ## Beispiel für den Abschluss eines Projekts mit einer Projektdauer
 

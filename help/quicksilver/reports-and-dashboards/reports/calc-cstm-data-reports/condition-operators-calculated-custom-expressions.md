@@ -7,7 +7,7 @@ description: Sie können Bedingungsoperatoren oder Modifikatoren beim Erstellen 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Bedingungsoperatoren in berechneten benutzerdefinierten Feldern
 
-Sie können Bedingungsoperatoren oder Modifikatoren beim Erstellen berechneter benutzerdefinierter Daten in Adobe Workfront im Textmodus verwenden.
+<!-- Audited: 2/2024 -->
 
-Informationen zur Verwendung des Textmodus in Workfront finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Sie können Bedingungsoperatoren oder Modifikatoren beim Erstellen berechneter benutzerdefinierter Daten in Adobe Workfront im Textmodus verwenden. Informationen zur Verwendung des Textmodus in Workfront finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Bedingungsoperatoren oder -modifikatoren helfen beim Erstellen einer Bedingungsanweisung, indem sie bestehende Workfront-Felder in -Anweisungen verbinden und ein neues Feld generieren. Die häufigste Verwendung von Bedingungsoperatoren besteht darin, die Bedingung einer &quot;IF&quot;-Anweisung zu erstellen.
 

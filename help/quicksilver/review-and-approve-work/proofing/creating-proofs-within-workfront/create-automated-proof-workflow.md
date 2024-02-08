@@ -6,14 +6,16 @@ description: Ein automatisierter Workflow erleichtert die Verwaltung des Überpr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines erweiterten Testversands mit einem automatisierten Workflow
+
+<!-- Audited: 2/2024 -->
 
 Ein automatisierter Workflow erleichtert die Verwaltung des Überprüfungsprozesses, wenn Ihr Prozess komplex ist oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personen senden. Der Testversand wechselt von Phase zu Phase und Adobe Workfront benachrichtigt jeden Benutzer, wenn er an der Reihe ist, ihn zu überprüfen. Weitere Informationen zu automatisierten Workflows finden Sie unter [Übersicht über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -26,30 +28,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Neu: Beliebig</p><p>Aktueller Plan: Pro oder höher</p><p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p><p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen eines erweiterten Testversands mit einem automatisierten Workflow
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Registerkarte.
-1. Klicken **Neu hinzufügen** > Testversand, Hochladen des Inhalts und anschließende Arbeit in den unten aufgeführten Abschnitten.
+1. Klicks **Neu hinzufügen** > Testversand, Hochladen des Inhalts und anschließende Arbeit in den unten aufgeführten Abschnitten.
 
    oder
 
@@ -71,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Konfigurieren Sie den ersten Schritt des automatisierten Workflows:
 
    1. (Optional) Wenn Sie einen Namen für den ersten Schritt erstellen möchten, klicken Sie auf **Stufe 1**, und geben Sie den Namen ein.
-   1. Im **Empfänger** -Abschnitt der Bühne hinzufügen, fügen Sie der Bühne Überprüfer hinzu.
+   1. Im **Empfänger** -Abschnitt für die Bühne hinzufügen, fügen Sie Überprüfer zur Bühne hinzu.
 
       >[!NOTE]
       >
@@ -84,12 +86,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       >* Prüfer, die nicht zu einer privaten Bühne hinzugefügt wurden, können diese Phase nicht auf dem Testversand oder den Kommentaren sehen, die in dieser Phase abgegeben wurden.
       >* Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands. Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde.
 
-   1. Klicken **Staging-Einstellungen**.
+   1. Klicks **Staging-Einstellungen**.
    1. Klicken Sie auf **Phase aktivieren** -Option, um anzugeben, wie die Bühne aktiviert werden soll.
 
       Im ersten Schritt können Sie nur **Erstellen eines Testversands**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell**.
 
-   1. (Bedingt) Wenn Sie ausgewählt haben **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** Wählen Sie im vorherigen Schritt das Datum und die Uhrzeit aus, zu der Sie die Phase in der **Aktivieren auf** angezeigt.
+   1. (Bedingt) Bei Auswahl von **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** Wählen Sie im vorherigen Schritt das Datum und die Uhrzeit aus, zu der Sie die Phase in der **Aktivieren auf** angezeigt.
 
    1. Verwenden Sie eine der folgenden Optionen, um die Phase weiter zu konfigurieren.
 
@@ -119,14 +121,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         </tr>
         <tr>
          <td role="rowheader">Machen Sie diese Phase privat</td>
-         <td>Ermöglicht es nur den folgenden Personen, während dieser Phase vorgenommene Kommentare und Entscheidungen anzuzeigen: Supervisoren, Workfront-Administratoren und Workfront Proof-Administratoren</td>
+         <td>Ermöglicht nur den folgenden Personen die Anzeige von Kommentaren und Entscheidungen, die in dieser Phase getroffen wurden: Supervisoren, Workfront-Administratoren und Testversandadministratoren von Workfront</td>
         </tr>
        </tbody>
       </table>
 
 1. So fügen Sie eine weitere Phase hinzu und konfigurieren sie:
 
-   1. Klicken **Neue Phase**.
+   1. Klicks **Neue Phase**.
    1. (Optional) Wenn Sie einen Namen für den ersten Schritt erstellen möchten, klicken Sie auf **Stufe 2** (oder **Stufe 3**, **Stufe 4** usw.), und geben Sie dann den Namen ein.
 
    1. Klicken Sie auf **Phase aktivieren** und wählen Sie dann eine Option aus, um anzugeben, ob die Bühne automatisch oder manuell aktiviert wird.
@@ -149,13 +151,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## E-Mail-Einstellungen für den Testversand konfigurieren {#configure-email-settings-for-the-proof}
 
-1. Im **E-Mail-Benachrichtigung** auswählen, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](#workflow) früher in diesem Artikel:
+1. Im **Email notification** auswählen, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](#workflow) früher in diesem Artikel:
 
    <table>
       <tbody>
       <tr>
       <td>Empfänger über diesen Testversand informieren</td>
-      <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann <strong>Grundlegende Freigabe</strong> wird im <strong>Workflow</strong> hinzugefügt, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wann <strong>Automatisierter Workflow</strong> wird im <strong>Workflow</strong> hinzugefügt, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
+      <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann <strong>Grundlegende Freigabe</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wann <strong>Automatisierter Workflow</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
       </tr>
       <tr>
       <td>Benutzerdefinierte Nachricht hinzufügen</td>
@@ -212,13 +214,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
+         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail mit Testbenachrichtigung</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>E-Mails zur Validierung und zum Testversand</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
         </ul><p><strong>Hinweis:</strong> Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Testversand erstellen**.
+1. Klicks **Testversand erstellen**.
 
    Workfront beginnt mit der Erstellung eines Testversands der ausgewählten Dokumente oder Websites. Je nach Dateigröße und Typ kann die Zeitverzögerung beim Hochladen von Dokumenten variieren. Seien Sie geduldig, da die Erzeugung größerer Dateien länger dauert. Sie können von der Seite weg navigieren und Workfront generiert weiterhin Ihre -Datei. Die maximale Größe für den Datei-Upload beträgt 4 GB.
 

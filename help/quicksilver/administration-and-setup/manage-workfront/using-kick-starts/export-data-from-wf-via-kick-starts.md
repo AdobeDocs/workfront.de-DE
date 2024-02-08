@@ -3,20 +3,22 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Daten aus Adobe Workfront über Kick-Starts exportieren
+title: Exportieren von Daten aus Adobe Workfront über Kick-Starts
 description: Als Adobe Workfront-Administrator können Sie den Kick-Starts-Datenexporteur verwenden, um Daten aus Workfront zu exportieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 9%
+source-wordcount: '983'
+ht-degree: 8%
 
 ---
 
-# Daten aus Adobe Workfront über Kick-Starts exportieren
+# Exportieren von Daten aus Adobe Workfront über Kick-Starts
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -36,18 +38,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vorteile und Nachteile der Verwendung von Schnellstarts zum Exportieren von Daten
 
@@ -55,7 +63,7 @@ Es gibt zwei Möglichkeiten, Daten in Workfront zu exportieren:
 
 * Daten aus einem Bericht oder einer Liste exportieren
 
-   Weitere Informationen zum Exportieren von Daten aus einem Bericht oder einer Liste finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Weitere Informationen zum Exportieren von Daten aus einem Bericht oder einer Liste finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Exportieren von Daten über Schnellstarts
 
@@ -79,7 +87,7 @@ Die folgende Tabelle zeigt die Vor- und Nachteile jeder Methode:
    <td> <p>Nein</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Exportieren von Daten über Kick-Starts</strong> </p> </td> 
+   <td> <p><strong>Exportieren von Daten über Schnellstarts</strong> </p> </td> 
    <td> <p>Ja (begrenzt)</p> <p>Die meisten nativen Workfront-Felder, die mit Objekten verknüpft sind, werden exportiert, einige jedoch nicht. Beispielsweise können Sie die Felder "Zeitplan", "Projekteigentümer"oder "Projektsponsor"nicht über einen Projekt-Kick-Start-Export exportieren.</p> <p>In einem Projekt, an das ein benutzerdefiniertes Formular angehängt ist, werden die in die Felder des Formulars eingegebenen Daten nicht exportiert.</p> <p>Sie können jedoch ein benutzerdefiniertes Formular exportieren. Die resultierende Datei listet die im Formular konfigurierten Felder auf, z. B. Textfelder und Optionsfelder.</p> </td> 
    <td> <p>Ja</p> <p>Durch die Verwendung von Kick-Starts zum Exportieren von Workfront-Daten können Sie Daten exportieren, die sich auf mehrere Objekttypen beziehen. Sie können beispielsweise Aufgaben, Probleme und Projekte in einen einzigen Export einbeziehen.</p> </td> 
   </tr> 
@@ -95,14 +103,70 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
 
 ## Daten über Kick-Start exportieren
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicken **System** > **Kick-Starts,** Klicken Sie dann auf **Daten exportieren.**
+1. Klicks **System** > **Kick-Starts,** Klicken Sie dann auf **Daten exportieren.**
 
-1. Wählen Sie das Objekt aus, das Sie exportieren möchten.
-1. Klicken **Weitere Optionen** um die vollständige Liste der Objekte anzuzeigen.
+1. Wählen Sie das Objekt aus, das Sie exportieren möchten. Standardmäßig werden die folgenden Objekte unter **Was soll eingeschlossen werden?**:
 
-   Alle hier aufgeführten Objekte können auch zum Importieren von Daten in Workfront verwendet werden.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Objekt</strong> </p> </th> 
+      <th> <p><strong>Exportierte Tabellen der Excel-Datei</strong> </p> </th> 
+      <th> <p> <strong>Exportformat</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Tab-Bereich "Portal"<br>Dashboard<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Bericht</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Voreinstellungen</td> 
+      <td scope="col" valign="top"> ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Genehmigung</p> </td> 
+      <td scope="col" valign="top"> <p>Schritt-Genehmiger<br>Validierungsschritt<br>Validierung<br>Validierungsprozess<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Benutzerdefinierte Daten</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Ausgabentyp</p> </td> 
+      <td valign="top"> <p>Ausgabentyp<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Stundentyp</p> </td> 
+      <td valign="top"> <p>Stündentyp<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Team Member<br>Team<br>Voreinstellungen </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Benutzerin oder Benutzer</p> </td> 
+      <td valign="top"> <p>Benutzer<br>Voreinstellungen</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicks **Weitere Optionen** um die vollständige Liste der Objekte anzuzeigen.
+
+   Alle hier aufgelisteten Objekte können auch zum Importieren von Daten in Workfront verwendet werden.
 
    Die einzige Ausnahme ist die **Zugriffsebenen** -Objekt. Das Datenblatt Zugriffsebenen , das in einem Export enthalten ist, dient nur zu Referenzzwecken. Damit können Sie einem neuen Benutzerkonto anhand der Kennung eine Zugriffsstufe zuweisen.
 
@@ -137,7 +201,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td scope="col" valign="top">E-Mail-Vorlage</td> 
-      <td scope="col" valign="top"> Email Template<br>Voreinstellungen </td> 
+      <td scope="col" valign="top"> E-Mail-Vorlage<br>Voreinstellungen </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -171,7 +235,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Anfrage</td> 
+      <td valign="top">Problem</td> 
       <td valign="top"> Problem<br>Voreinstellungen </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -258,9 +322,9 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
     </tbody> 
    </table>
 
-1. Klicken **Herunterladen.**
+1. Klicks **Herunterladen.**
 
-   Die exportierte Schnellstartdatei wird entweder als Excel-Datei oder als heruntergeladen. ZIP-Datei mit mehreren Excel- und Eigenschaftendateien. Jede Excel-Datei ist eine Zusammenstellung von Arbeitsblättern, wobei jedes Blatt ein Feld darstellt, das mit dem ausgewählten Objekt verknüpft ist. Es gibt eine **Eigenschaften** Blatt für jeden Export.
+   Die exportierte Schnellstartdatei wird entweder als Excel-Datei oder als heruntergeladen. ZIP-Datei mit mehreren Excel- und Eigenschaftendateien. Jede Excel-Datei ist eine Zusammenstellung von Arbeitsblättern, wobei jedes Blatt ein Feld darstellt, das mit dem ausgewählten Objekt verknüpft ist. Es gibt eine **Eigenschaften** mit jedem Export verknüpftes Blatt.
 
    Die **Dashboard** und **Bericht** können Sie bestimmte Dashboards und Berichte auswählen, die in den Download aufgenommen werden sollen. Sie können nur Dashboards exportieren, die systemweit freigegeben sind.
 
@@ -272,117 +336,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
 
    Sie können mehrere Objekte gleichzeitig exportieren.
 
-   Standardmäßig werden die folgenden Objekte unter dem **Was soll eingeschlossen werden?** label (vor dem Klicken auf **Weitere Optionen**):
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Objekt</strong> </p> </th> 
-      <th> <p><strong>Exportierte Tabellen der Excel-Datei</strong> </p> </th> 
-      <th> <p> <strong>Exportformat</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Tab-Bereich "Portal"<br>Dashboard<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Bericht</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Voreinstellungen</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Genehmigung</p> </td> 
-      <td scope="col" valign="top"> <p>Schritt-Genehmiger<br>Validierungsschritt<br>Genehmigung<br>Validierungsprozess<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Benutzerdefinierte Daten</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Ausgabentyp</p> </td> 
-      <td valign="top"> <p>Ausgabentyp<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Stundentyp</p> </td> 
-      <td valign="top"> <p>Stündentyp<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Voreinstellungen </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Benutzer</p> </td> 
-      <td valign="top"> <p>Benutzer<br>Voreinstellungen</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Exportierte Tabellen der Excel-Datei</strong> </p> </th> 
-      <th> <p> <strong>Exportformat</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Tab-Bereich "Portal"<br>Dashboard<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Bericht</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Voreinstellungen</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Genehmigung</p> </td> 
-      <td scope="col" valign="top"> <p>Schritt-Genehmiger<br>Validierungsschritt<br>Genehmigung<br>Validierungsprozess<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Benutzerdefinierte Daten</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Ausgabentyp</p> </td> 
-      <td valign="top"> <p>Ausgabentyp<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Stundentyp</p> </td> 
-      <td valign="top"> <p>Stündentyp<br>Voreinstellungen</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Voreinstellungen </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Benutzer</p> </td> 
-      <td valign="top"> <p>Benutzer<br>Voreinstellungen</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. (Empfohlen) Analysieren Sie die exportierten Daten, um sicherzustellen, dass alle erwarteten Informationen exportiert wurden.
 

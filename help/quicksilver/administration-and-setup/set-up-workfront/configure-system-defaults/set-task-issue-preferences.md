@@ -4,18 +4,20 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Systemweite Aufgaben- und Problemeinstellungen konfigurieren
 description: Sie können systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren. Diese Voreinstellungen wirken sich auf die Art und Weise aus, wie Ihre Benutzer Aufgaben und Probleme in Workfront erstellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
 
 # Systemweite Aufgaben- und Problemeinstellungen konfigurieren
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
@@ -24,7 +26,6 @@ Als [!DNL Adobe Workfront] -Administrator können Sie systemweite Voreinstellung
 
 Standardmäßig sind die Voreinstellungen für Aufgaben und Ausgaben gesperrt und Gruppenadministratoren können sie nicht auf Gruppenebene ändern, es sei denn, Sie entsperren sie für alle Gruppen im System. Weitere Informationen finden Sie im Abschnitt . [Voreinstellungen für Aufgaben und Probleme sperren](#lock-task-and-issue-preferences-for-groups) in diesem Artikel.
 
-<!--SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?-->
 
 ## Zugriffsanforderungen
 
@@ -40,23 +41,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Neu: [!UICONTROL Standard]</p>
+   oder
+   <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen [!DNL Workfront] Administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme für alle Benutzer in [!DNL Workfront]
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Projektvoreinstellungen]** >**[!UICONTROL Aufgaben und Probleme].**
 
-1. Fahren Sie auf der angezeigten Seite mit einem der fünf unten aufgeführten Abschnitte fort, um die Einstellungen für [!UICONTROL Neue Aufgabenstandardwerte], [!UICONTROL Probleme], [!UICONTROL Löschen], [!UICONTROL Tatsächliche Datumswerte], und [!UICONTROL Zugriff].
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Fahren Sie auf der angezeigten Seite mit einem der fünf unten aufgeführten Abschnitte fort, um die Einstellungen für [!UICONTROL Neue Aufgabenstandardwerte], [!UICONTROL Probleme], [!UICONTROL Löschen], [!UICONTROL Tatsächliche Datumswerte], und [!UICONTROL Zugriff]:
 
 * [[!UICONTROL Neue Aufgabenstandardwerte]](#new-task-defaults)
 * [[!UICONTROL Probleme]](#issues)
@@ -73,72 +77,70 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ### [!UICONTROL Neue Aufgabenstandardwerte] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Startdatum für neue Aufgaben]</td> 
-   <td> <p>Legt das standardmäßige Startdatum für neue Aufgaben für Projektmanager fest. Das Startdatum für neue Aufgaben kann entweder das geplante Startdatum des Projekts oder der Tag sein, an dem die Aufgabe erstellt wird.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer Typen: Artikelindex</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Umsatz]</td> 
-   <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die Variable <strong>[!UICONTROL Umsatz]</strong> auf <strong>[!UICONTROL Nicht abrechenbar]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Kostentyp]</td> 
-   <td> <p>Berechnet geplante und tatsächliche Kostenschätzungen für eine Aufgabe. Wenn festgelegt auf <strong>[!UICONTROL Keine Kosten]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine geplante oder tatsächliche Kostenschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Startdatum]</td> 
+    <td> <p>Legt das standardmäßige Startdatum für neue Aufgaben für Projektmanager fest. Das Startdatum für neue Aufgaben kann entweder das geplante Startdatum des Projekts oder der Tag sein, an dem die Aufgabe erstellt wird.</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
+    <td> <p>Bestimmt die Beziehung zwischen der Anzahl der Ressourcen (und ihrem Zuordnungsprozentsatz) und der Dauer oder dem Gesamtaufwand für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und -dauer</a></p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Umsatz]</td> 
+    <td> <p>Berechnet geplante und tatsächliche Einnahmenschätzungen für eine Aufgabe. Wenn die Variable <strong>[!UICONTROL Umsatz]</strong> auf <strong>[!UICONTROL Nicht abrechenbar]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Kostentyp]</td> 
+    <td> <p>Berechnet geplante und tatsächliche Kostenschätzungen für eine Aufgabe. Wenn festgelegt auf <strong>[!UICONTROL Keine Kosten]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine geplante oder tatsächliche Kostenschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### Probleme {#issues}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Status von gelösten Problemen automatisch aktualisieren, wenn sich der Status des aufgelösten Objekts ändert]</td> 
-   <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung Auswirkungen haben kann, muss die Option <strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong> ausgewählt sein.</p> 
-    <ul> 
-     <li>Wenn diese Einstellung aktiviert ist, können Sie benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösbares Objekt) in den benutzerdefinierten Status umgewandelt wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.</li> 
-     <li>Wenn diese Einstellung deaktiviert ist, wird beim Auflösen des Objektstatus automatisch der Standardstatus anstelle der benutzerdefinierten festgelegt. Weitere Informationen zu den Standardstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemfehlerstatus</a>.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" [!UICONTROL>Beim Konvertieren eines Problems in eine Aufgabe]</td> 
-   <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROL Primären Kontakt erlauben, Zugriff auf die Aufgabe zu erhalten]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie Zugriff auf die Aufgabe auf, um sie zu überprüfen, über ihren Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen der Aufgabe zu machen.</li> 
-     <li> <p><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p> <!--
-       Screenshot when possible</p>
-      --> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Beim Konvertieren eines Problems in ein Projekt]</td> 
-   <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von einem Problem zum Projekt geschieht:</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an das Projekt.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis das Projekt abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn das Projekt abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht. </p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROL Primären Kontakt für den Projektzugriff zulassen]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie den Zugriff auf das Projekt auf, um es zu überprüfen, über den Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen des Projekts abzugeben.</li> 
-     <li><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, die aufgelisteten Optionen während der Konvertierung eines Problems in ein Projekt zu ändern.</li> 
-    </ul> </td>
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Status von gelösten Problemen automatisch aktualisieren, wenn sich der Status des aufgelösten Objekts ändert]</td> 
+    <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung Auswirkungen haben kann, muss die Option <strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong> ausgewählt sein.</p> 
+      <ul> 
+      <li>Wenn diese Einstellung aktiviert ist, können Sie benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösbares Objekt) in den benutzerdefinierten Status umgewandelt wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.</li> 
+      <li>Wenn diese Einstellung deaktiviert ist, wird beim Auflösen des Objektstatus automatisch der Standardstatus anstelle der benutzerdefinierten festgelegt. Weitere Informationen zu den Standardstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemfehlerstatus</a>.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader" [!UICONTROL>Beim Konvertieren eines Problems in eine Aufgabe]</td> 
+    <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROL Primären Kontakt erlauben, Zugriff auf die Aufgabe zu erhalten]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie Zugriff auf die Aufgabe auf, um sie zu überprüfen, über ihren Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen der Aufgabe zu machen.</li> 
+      <li> <p><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p></li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Beim Konvertieren eines Problems in ein Projekt]</td> 
+    <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von einem Problem zum Projekt geschieht:</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an das Projekt.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis das Projekt abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn das Projekt abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht. </p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROL Primären Kontakt für den Projektzugriff zulassen]</strong>: Gibt den Hauptkontakt (Problemersteller) an. Rufen Sie den Zugriff auf das Projekt auf, um es zu überprüfen, über den Fortschritt auf dem Laufenden zu bleiben und Kommentare zum Abschnitt Aktualisierungen des Projekts abzugeben.</li> 
+      <li><strong>[!UICONTROL Änderungen dieser Einstellungen während der Konvertierung zulassen]</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, die aufgelisteten Optionen während der Konvertierung eines Problems in ein Projekt zu ändern.</li> 
+      </ul> </td>
+    </tr> 
+  </tbody> 
+  </table>
 
 ### [!UICONTROL Löschen] {#deletion}
 
@@ -159,31 +161,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ### [!UICONTROL Tatsächliche Datumswerte] {#actual-dates}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Wenn eine Aufgabe oder ein Problem von "Neu"zu "In Bearbeitung"geht, setzen Sie das tatsächliche Startdatum auf]</td> 
-   <td> <p>Wählen Sie eine der folgenden Optionen aus, wenn das tatsächliche Startdatum in [!DNL Workfront] wenn Aufgaben oder Probleme von <strong>[!UICONTROL Neu]</strong> nach <strong>[!UICONTROL In Bearbeitung</strong>:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Now]:</strong> Das tatsächliche Startdatum wird auf das aktuelle Datum festgelegt.</li> 
-     <li><strong>[!UICONTROL Das geplante Startdatum]:</strong> Das tatsächliche Startdatum ist auf das geplante Startdatum der Aufgabe oder des Problems eingestellt.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Wenn eine Aufgabe oder ein Problem abgeschlossen ist, setzen Sie das tatsächliche Abschlussdatum auf]</td> 
-   <td> <p>Wählen Sie eine der folgenden Optionen aus, wenn das tatsächliche Abschlussdatum in [!DNL Workfront] wenn eine Aufgabe oder ein Problem abgeschlossen ist:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Now]:</strong> Das tatsächliche Abschlussdatum wird auf das aktuelle Datum festgelegt.</li> 
-     <li> <p><strong>[!UICONTROL Das geplante Abschlussdatum]:</strong> Das tatsächliche Abschlussdatum wird auf das geplante Abschlussdatum der Aufgabe oder des Problems festgelegt.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Wenn eine Aufgabe oder ein Problem von "Neu"zu "In Bearbeitung"geht, setzen Sie das tatsächliche Startdatum auf]</td> 
+    <td> <p>Wählen Sie eine der folgenden Optionen aus, wenn das tatsächliche Startdatum in [!DNL Workfront] wenn Aufgaben oder Probleme von <strong>[!UICONTROL Neu]</strong> nach <strong>[!UICONTROL In Bearbeitung</strong>:</p> 
+      <ul> 
+      <li><strong>[!UICONTROL Now]:</strong> Das tatsächliche Startdatum wird auf das aktuelle Datum festgelegt.</li> 
+      <li><strong>[!UICONTROL Das geplante Startdatum]:</strong> Das tatsächliche Startdatum ist auf das geplante Startdatum der Aufgabe oder des Problems eingestellt.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Wenn eine Aufgabe oder ein Problem abgeschlossen ist, setzen Sie das tatsächliche Abschlussdatum auf]</td> 
+    <td> <p>Wählen Sie eine der folgenden Optionen aus, wenn das tatsächliche Abschlussdatum in [!DNL Workfront] wenn eine Aufgabe oder ein Problem abgeschlossen ist:</p> 
+      <ul> 
+      <li><strong>[!UICONTROL Now]:</strong> Das tatsächliche Abschlussdatum wird auf das aktuelle Datum festgelegt.</li> 
+      <li> <p><strong>[!UICONTROL Das geplante Abschlussdatum]:</strong> Das tatsächliche Abschlussdatum wird auf das geplante Abschlussdatum der Aufgabe oder des Problems festgelegt.</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### Delegierung
 
-Aktivieren der [!UICONTROL Delegieren von Aufgaben und Problemen durch Benutzer zulassen] ermöglicht allen Benutzern in , ihre Arbeit vorübergehend an andere zu delegieren.
+Aktivieren der **[!UICONTROL Delegieren von Aufgaben und Problemen durch Benutzer zulassen]** ermöglicht allen Benutzern in , ihre Arbeit vorübergehend an andere zu delegieren.
 
 Wenn diese Einstellung aktiviert ist, sehen Benutzer Folgendes:
 
@@ -227,35 +229,37 @@ I have not had a chance to follow up with customers to verify if this is still a
 ### [!UICONTROL Zugriff] {#access}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Wenn jemand einer Aufgabe zugewiesen ist]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
-     <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Wenn einem Problem ein Benutzer zugewiesen ist]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
-     <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Wenn jemand eine Anforderung sendet]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Zugriff auf das Problem gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für eine von ihm gesendete Anfrage hat. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a>.</li> 
-     <li> <p><strong>[!UICONTROL Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen]</strong>: Ermöglicht Benutzern das Anzeigen von Anforderungen, die von anderen Benutzern aus demselben Unternehmen gesendet wurden. Sie haben dieselben Berechtigungen für diese Anforderungen wie für ihre eigenen gesendeten Anforderungen.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Wenn jemand einer Aufgabe zugewiesen ist]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
+      <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Wenn einem Problem ein Benutzer zugewiesen ist]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Zugriff auf eine Aufgabe gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für die Aufgabe hat, der er zugewiesen ist. Weitere Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</li> 
+      <li> <p><strong>[!UICONTROL Gewähren Sie ihnen auch ... Zugriff auf das Projekt]</strong>: Definiert die Standardberechtigung, die ein Benutzer für das Projekt hat, dem er eine Aufgabe zugewiesen ist. Weitere Informationen zu Projektberechtigungen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Wenn jemand eine Anforderung sendet]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Zugriff auf das Problem gewähren]</strong>: Definiert die Standardberechtigung, die ein Benutzer für eine von ihm gesendete Anfrage hat. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a>.</li> 
+      <li> <p><strong>[!UICONTROL Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen]</strong>: Ermöglicht Benutzern das Anzeigen von Anforderungen, die von anderen Benutzern aus demselben Unternehmen gesendet wurden. Sie haben dieselben Berechtigungen für diese Anforderungen wie für ihre eigenen gesendeten Anforderungen.</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Voreinstellungen für Aufgaben und Probleme sperren {#lock-task-and-issue-preferences-for-groups}
 
@@ -267,9 +271,9 @@ Informationen dazu, wie ein Gruppenadministrator Aufgaben konfiguriert und Vorei
 >
 >Nach [!DNL Workfront] Administrator entsperrt eine Voreinstellung auf Systemebene, kann jeder Gruppenadministrator sie konfigurieren und dann sperren, um sicherzustellen, dass alle Mitglieder ihrer Gruppe und der Untergruppen unten dieselbe Konfiguration verwenden. Dies entspricht der Fähigkeit, dass ein [!DNL Workfront] -Administrator muss eine Voreinstellung für alle Benutzer im System konfigurieren und sperren. Weitere Informationen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Voreinstellung zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder eines Problems für Untergruppen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
-So sperren oder entsperren Sie eine Aufgabe oder eine Voreinstellung für ein Problem, damit Gruppen sie konfigurieren können
+So sperren oder entsperren Sie eine Aufgabe oder eine Voreinstellung für ein Problem, damit Gruppen sie konfigurieren können:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicks **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Aufgaben und Probleme]**.
 

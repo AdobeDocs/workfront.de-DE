@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
+source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
 workflow-type: tm+mt
-source-wordcount: '13926'
+source-wordcount: '13930'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 1%
    * Benutzerverwaltung {#add-users}
       * [Benutzerverwaltung: Artikelindex](administration-and-setup/add-users/add-users.md)
       * Erstellen und Verwalten von Benutzenden {#create-manage-users}
-         * [Benutzer verwalten](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [Benutzer erstellen und verwalten: Artikelindex](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Benutzer hinzufügen](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Benutzer importieren](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Profil eines Benutzers bearbeiten](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
