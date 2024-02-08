@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular entwerfen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Oben im neuen Formularentwickler und im alten Formularersteller befindet sich ei
 
 ## Neue Funktionen im Formularentwickler verfügbar
 
-Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
+Mit dem neuen Formularentwickler haben wir folgende Möglichkeiten hinzugefügt:
 
 * **Kopieren eines Felds**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
 
@@ -47,34 +47,15 @@ Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
 Folgendes ist derzeit nicht im Formularentwickler verfügbar, wird aber bald hinzugefügt:
 
-* Logik anzeigen/überspringen
-
 * Filter für Typeahead-Felder
 
 >[!IMPORTANT]
 >
->Die vorhandenen Konfigurationen für Logik- und Typeahead-Filter sind bei der Arbeit mit dem neuen Formularentwickler nicht betroffen.
-
-### Logik anzeigen/überspringen
-
-Sie können zwar beim Entwerfen eines neuen benutzerdefinierten Formulars noch keine Anzeige-/Übersprunglogik hinzufügen, Sie können jedoch die vorhandene Anzeige-/Übersprunglogik für Formulare anzeigen, die im alten Formular-Builder erstellt wurden.
-
-Die Symbole in einem Feld im Formularentwickler weisen darauf hin, dass auf das Feld Logik angewendet wird.
-
-Die ![Logik für Zielfeld anzeigen](assets/display-logic-bottom-left.png) -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Anzeigelogik ist (wenn im Formular eine bestimmte Auswahl getroffen wurde, wird dieses Feld angezeigt). Die ![Symbol für Anzeigenlogik definieren](assets/display-logic-bottom-right.png) -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Anzeigelogik zu definieren (eine bestimmte Auswahl oder ein Wert in diesem Feld zeigt das Zielfeld an).
-
-Die ![Logik für Zielfeld überspringen](assets/skip-logic-bottom-left.png) -Symbol unten links bedeutet, dass das Feld das Zielfeld für die Logik zum Überspringen ist (wenn eine bestimmte Auswahl im Formular vorgenommen wird, wird das Formular zu diesem Feld übersprungen). Die ![Symbol &quot;Logik überspringen&quot;definieren](assets/skip-logic-bottom-right.png) -Symbol unten rechts bedeutet, dass das Feld verwendet wird, um die Logik zum Überspringen zu definieren (eine bestimmte Auswahl oder ein bestimmter Wert in diesem Feld überspringt andere Felder und geht direkt zum Zielfeld).
-
-![Logische Symbole](assets/logic-icons-3.png)
-
-Wenn Sie ein Feld mit angewendeter Logik auswählen, werden die vorhandenen Logikregeln in den Feldeinstellungen angezeigt.
-
-![Logische Regeln](assets/form-designer-view-only-logic.png)
+>Die vorhandenen Konfigurationen für Typeahead-Filter sind bei der Arbeit mit dem neuen Formularentwickler nicht betroffen.
 
 ## Aus dem Formularentwickler entfernte Funktion
 
-Die folgende Funktion wurde aus dem Formular-Designer entfernt:
-
+Die folgende Funktion wurde aus dem Formularentwickler entfernt:
 
 * Formulareinstellungen, Formularfreigabe, Registerkarten für Feldfreigabe
 
@@ -84,9 +65,10 @@ Die folgende Funktion wurde aus dem Formular-Designer entfernt:
 
   >[!NOTE]
   >
-  >Sie können die Formular- und Feldfreigabe über die Registerkarte Einrichtung > Benutzerdefinierte Forms > Forms oder Felder steuern.
+  >Sie können die Formular- und Feldfreigabe über &quot;Einrichtung&quot;> &quot;Benutzerdefinierte Forms&quot;> &quot;Forms&quot;oder &quot;Felder&quot;steuern.
 
 * Feldänderungen in Aktualisierungs-Feeds nachverfolgen
+
   >[!NOTE]
   >
   >Sie finden dies unter Einrichtung > Benutzeroberfläche > Feeds aktualisieren .
