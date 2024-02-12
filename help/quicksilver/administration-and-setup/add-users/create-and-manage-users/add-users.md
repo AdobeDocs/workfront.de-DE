@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
+>Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie Systemadministratoren über die Adobe Admin Console erstellen.
+>
+>Anweisungen zum Erstellen von Systemadministratoren in der Adobe Admin Console finden Sie unter [Verwalten von Benutzern in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Gruppenadministratoren in Unternehmen, die in Adobe Admin Console integriert wurden, können dieses Verfahren zum Erstellen von Benutzern und zum Senden des Benutzers zur Admin-Genehmigung verwenden.
->
->Anweisungen zum Hinzufügen eines Benutzers in Adobe Admin Console:
->
->* Siehe [Erstellen von Benutzern in Workfront mit Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* Siehe den Abschnitt &quot;Benutzer hinzufügen&quot;im Artikel [Benutzer einzeln verwalten](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Wenden Sie sich an Ihren Adobe Admin Console-Administrator.
 >
 >Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -50,7 +46,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

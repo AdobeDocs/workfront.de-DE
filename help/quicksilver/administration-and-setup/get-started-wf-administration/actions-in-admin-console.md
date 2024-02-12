@@ -3,28 +3,34 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)
-description: Wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde, verwenden Ihre Benutzer die Adobe Business Platform für den Zugriff auf Adobe Workfront. Das bedeutet, dass die Benutzerverwaltung überwiegend über die Adobe Admin Console erfolgt und Single Sign-On (SSO) über die Adobe Business Platform und nicht über Workfront erfolgt. Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgaben und -verfahren je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden müssen, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
+description: Wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde, verwenden Ihre Benutzer die Adobe Business Platform, um auf Adobe Workfront zuzugreifen. Das bedeutet, dass die Benutzerverwaltung überwiegend über die Adobe Admin Console erfolgt und Single Sign-On (SSO) über die Adobe Business Platform und nicht über Workfront erfolgt. Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgaben und -verfahren je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden müssen, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
 
 # Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)
 
-Wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde, verwenden Ihre Benutzer die Adobe Business Platform für den Zugriff auf Adobe Workfront. Das bedeutet:
+Wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde, verwenden Ihre Benutzer die Adobe Business Platform, um auf Adobe Workfront zuzugreifen. Das bedeutet:
 
-* Die Benutzerverwaltung erfolgt größtenteils über Adobe Admin Console
+* Systemadministratoren werden über die Adobe Admin Console erstellt.
 * Single Sign-On (SSO) wird über die Adobe Business Platform und nicht über Workfront durchgeführt
 
-Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgaben und -verfahren je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden müssen, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
+Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgaben und -verfahren je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
 
-## Benutzer
+## Benutzende
+
+
+
+>[!NOTE]
+>
+>Es wird empfohlen, Benutzer ohne Systemadministrator direkt in Workfront hinzuzufügen. Es ist möglich, Benutzer in der Adobe Admin Console hinzuzufügen. Wenn Sie diese jedoch in Workfront hinzufügen, können Sie ihre Zugriffsebene bei der Erstellung festlegen, wodurch Sie Zeit sparen können.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +75,7 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Benutzer in Adobe Admin Console verwalten</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Verwalten von Benutzern in Adobe Admin Console</a> </p> </li> 
      <li> <p>Der Abschnitt "Benutzer hinzufügen"in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Benutzer einzeln verwalten</a></p> </li> 
     </ul> </td> 
   </tr> <!--
@@ -106,14 +112,14 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
    <td> 
     <ul> 
      <li> <p>Den Abschnitt "Benutzer dauerhaft löschen"in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Ordnerbenutzer verwalten</a>
-     </p><p>Hinweis: Löschen eines Benutzers aus der [!DNL Adobe Admin Console] deaktiviert den Benutzer in [!DNL Workfront], aber löschen sie nicht aus [!DNL Workfront].</p> </li> 
+     </p><p>Hinweis: Löschen eines Benutzers aus dem [!DNL Adobe Admin Console] deaktiviert den Benutzer in [!DNL Workfront], aber löschen sie nicht aus [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Bearbeiten von Benutzerprofilen</td> 
+   <td role="rowheader">Benutzerprofil bearbeiten</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Benutzerprofil bearbeiten</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -121,7 +127,7 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Massenbearbeitung von Benutzerprofilen</td> 
+   <td role="rowheader">Massenbearbeitungsbenutzerprofile</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Massenbearbeitung von Benutzerprofilen</a> </p> </li> 
@@ -143,10 +149,10 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Anmelden als anderer Benutzer</td> 
+   <td role="rowheader">Anmelden als eine andere Benutzerin bzw. ein anderer Benutzer</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Anmelden als anderer Benutzer</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Melden Sie sich als anderer Benutzer an</a> </p> </li> 
     </ul> </td> 
    <td>Nicht verfügbar</td> 
   </tr> 
@@ -158,7 +164,7 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Der Abschnitt "Die digitale Signatur in der SAML-Antwort hat nicht validiert..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID zur Fehlerbehebung</a></p> </li> 
+     <li> <p>Der Abschnitt "Die digitale Signatur in der SAML-Antwort hat nicht validiert..."in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Fehlerbehebung bei Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
