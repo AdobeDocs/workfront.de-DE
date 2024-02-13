@@ -6,9 +6,9 @@ description: Sie können die agile Funktionalität für Ihr Projekt ohne die adm
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 
 ### Unterschiede bei der Verwendung der Agile-Ansicht für ein Projekt im Vergleich zu einer Iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Aufgaben und Unteraufgaben folgen unterschiedlichen Anzeigeregeln auf dem Meldungsboard](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [Rücklogs und Iterationen werden nicht verwendet](#backlogs-and-iterations-are-not-used)
+* [Aufgaben und Unteraufgaben folgen verschiedenen Anzeigeregeln in einer Projekt-Agile-Ansicht und auf dem Story-Forum einer Iteration](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Rücklogs und Iterationen werden in der Agile-Ansicht nicht verwendet](#backlogs-and-iterations-are-not-used)
 * [Die Aufgabenreihenfolge wird in der Agile-Ansicht beibehalten und kann nicht neu angeordnet werden](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [Aufgaben werden nur in geplanten Stunden gemessen](#tasks-are-measured-only-in-planned-hours)
-* [Das Agile-Team wird nicht verwendet](#the-agile-team-is-not-used)
+* [Aufgaben werden nur in geplanten Stunden auf einer Projektliste gemessen](#tasks-are-measured-only-in-planned-hours)
+* [Das Agile-Team wird nicht in einer Agile-Ansicht verwendet](#the-agile-team-is-not-used)
 * [Jeder Benutzer im Projekt kann das Projekt in einer anderen Agile-Ansicht anzeigen](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Aufgaben und Unteraufgaben folgen unterschiedlichen Anzeigeregeln auf dem Meldungsboard {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Aufgaben und Unteraufgaben folgen verschiedenen Anzeigeregeln in einer Projekt-Agile-Ansicht und auf dem Story-Forum einer Iteration {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Aufgaben, die weder eine übergeordnete Aufgabe noch eine Unteraufgabe haben, werden immer als eine einzige Storykarte auf dem Storyboard angezeigt.\
+* Aufgaben, die weder über eine übergeordnete Aufgabe noch über eine Unteraufgabe verfügen, werden immer als eine einzige Storykarte auf dem Storyboard der Agile-Ansicht angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
 
   ![Agile Projektliste - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 
   ![Projektansicht in der Mobile-Ansicht - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
 
-* Übergeordnete Aufgaben mit Unteraufgaben werden immer im **Meldungen** Spalte des Storyboards. Unteraufgaben werden in der Swimlane der übergeordneten Aufgabe angezeigt.\
+* Übergeordnete Aufgaben mit Unteraufgaben werden immer im **Meldungen** -Spalte des Story-Board der Agile-Ansicht. Unteraufgaben werden in der Swimlane der übergeordneten Aufgabe angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
 
   ![Agile Projektliste - Aufgaben mit übergeordneten Elementen und Unteraufgaben](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
   ![Agile Projektansicht - Aufgaben mit übergeordneten Elementen und Unteraufgaben](assets/agile-project-parent-nwe.png)
 
 * Unteraufgaben der zweiten Ebene (Unteraufgaben von Unteraufgaben) werden als hängende graue Karte der unmittelbar übergeordneten Aufgabe angezeigt.
-* Unteraufgaben der dritten Ebene (Unteraufgaben von Unteraufgaben von Unteraufgaben) werden nie auf dem Storyboard angezeigt.
+* Unteraufgaben der dritten Ebene (Unteraufgaben von Unteraufgaben von Unteraufgaben) werden nie in der Agile-Ansicht angezeigt.
 
-#### Rücklogs und Iterationen werden nicht verwendet {#backlogs-and-iterations-are-not-used}
+#### Rücklogs und Iterationen werden in der Agile-Ansicht nicht verwendet {#backlogs-and-iterations-are-not-used}
 
 Beim Anzeigen eines Projekts in einer agilen Ansicht werden die folgenden agilen Komponenten nicht verwendet:
 
@@ -119,13 +119,13 @@ Die Reihenfolge, in der Aufgaben in einem Projekt angezeigt werden, wird beibeha
 
 Sie können Aufgaben im Projekt nicht neu anordnen, wenn Sie das Projekt in einer agilen Ansicht anzeigen. Da sich eine Änderung der Aufgabenreihenfolge auf andere Aufgaben auswirken kann, die möglicherweise Abhängigkeiten aufweisen, müssen Sie das Projekt in einer Standardansicht anzeigen, um die Aufgabenreihenfolge zu ändern.
 
-#### Aufgaben werden nur in geplanten Stunden gemessen {#tasks-are-measured-only-in-planned-hours}
+#### Aufgaben werden nur in geplanten Stunden auf einer Projektliste gemessen {#tasks-are-measured-only-in-planned-hours}
 
 Aufgaben an einem Projekt werden immer in &quot;Geplante Stunden&quot;gemessen.
 
 Bei einer Iteration können Aufgaben (Geschichten) in Stunden oder Punkten gemessen werden.
 
-#### Das Agile-Team wird nicht verwendet {#the-agile-team-is-not-used}
+#### Das Agile-Team wird nicht in einer Agile-Ansicht verwendet {#the-agile-team-is-not-used}
 
 Da agile Teams die Arbeit mit den ihnen zugewiesenen Iterationen abschließen, werden agile Teams nicht verwendet, wenn ein Projekt in einer agilen Ansicht angezeigt wird.
 
@@ -137,7 +137,7 @@ Im Gegensatz zu einer agilen Iteration können Benutzer eines Projekts die agile
 
 Bei einer agilen Iteration werden die auf der agilen Story-Pinnwand verfügbaren Informationen (z. B. verfügbare Statusspalten) auf Teamebene bestimmt.
 
-Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder Anpassen einer Agile-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Anzeigen eines Projekts in der Agile-Ansicht
 

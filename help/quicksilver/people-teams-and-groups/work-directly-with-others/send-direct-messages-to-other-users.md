@@ -7,16 +7,16 @@ description: Mit Adobe Workfront können Sie Nachrichten, die nicht mit einem Ar
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Direktnachrichten an andere Benutzer senden
 
-[!DNL Adobe Workfront] ermöglicht es Ihnen, Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere zu senden [!DNL Workfront] Benutzer. Die wie in diesem Abschnitt beschrieben gesendeten Nachrichten werden im [!UICONTROL Updates] auf der Startseite des Benutzers angezeigt und für alle Benutzer sichtbar sind. Weitere Informationen zu Aktualisierungen finden Sie unter [Aktualisieren von Arbeitselementen und Anzeigen von Updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] ermöglicht es Ihnen, Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere zu senden [!DNL Workfront] Benutzer. Die wie in diesem Abschnitt beschrieben gesendeten Nachrichten werden im [!UICONTROL Updates] auf der Startseite des Benutzers angezeigt und für alle Benutzer sichtbar sind. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält beim Versand einer Nachricht die folgenden Benachrichtigungstypen, wie in diesem Abschnitt beschrieben:
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 

@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Aktualisieren von Arbeitselementen und Anzeigen von Updates
-description: Sie können den Abschnitt "Aktualisierungen"der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder vom System verfolgte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
+title: "Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex"
+description: Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder systemtrackte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Aktualisieren von Arbeitselementen und Anzeigen von Updates
+# Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex
 
-Sie können den Abschnitt &quot;Aktualisierungen&quot;der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder vom System verfolgte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
+<!-- Audited: 02/2024 -->
+
+Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder systemtrackte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
