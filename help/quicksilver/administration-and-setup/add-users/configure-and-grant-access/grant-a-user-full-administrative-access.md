@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1583'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,7 @@ ht-degree: 1%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Anweisungen zur Gewährung des uneingeschränkten Administratorzugriffs in der Adobe Admin Console:
->
->* Siehe [Erstellen von Systemadministratoren in Workfront mit Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create2)
->* Siehe den Abschnitt &quot;Benutzerdetails bearbeiten&quot;im Artikel [Benutzer einzeln verwalten](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) in der Adobe Admin Console-Dokumentation.
->* Wenden Sie sich an Ihren Adobe Admin Console-Administrator.
+>Anweisungen zur Gewährung des vollständigen Administratorzugriffs in der Adobe Admin Console finden Sie unter [Verwalten von Systemadministratoren in Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -36,7 +32,6 @@ Als Adobe Workfront-Administrator können Sie einen anderen Workfront-Administra
 >* [Zugriff eines Workfront-Administrators auf einen Planbenutzer mit Administratorrechten im Vergleich](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in diesem Artikel
 >
 
-
 ## Zugriffsanforderungen
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
@@ -47,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -55,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="#" class="MCXref xref selected">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="#" class="MCXref xref selected">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
 
 1. Klicken Sie auf den Namen des Benutzers, dem Sie Administratorrechte gewähren möchten.
-1. Klicken Sie auf das Menü Mehr . ![](assets/more-icon.png)Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf das Menü Mehr ![](assets/more-icon.png)Klicken Sie auf **Bearbeiten**.
 
 1. Im **Person bearbeiten** wird angezeigt, klicken Sie auf **Zugriff**.
 
@@ -73,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Abhängig von den in Ihrem System vorgenommenen Änderungen hat sich der Name dieser Zugriffsebene möglicherweise geändert.
 
-1. Klicken **Speichern Sie die Änderungen.**
+1. Klicks **Speichern Sie die Änderungen.**
 
    Der Benutzer verfügt jetzt über vollständige Systemadministratorrechte im System.
 
@@ -122,12 +117,12 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td> <p>Kein Zugriff</p> </td> 
   </tr> 
   <tr> 
-   <td>Projektvoreinstellungen: Prioritäten</td> 
+   <td>Projektpräferenzen: Prioritäten</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>Projektvoreinstellungen: Schweregrad</td> 
+   <td>Projektvoreinstellungen: Schwerpunkte</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
@@ -137,7 +132,7 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td>Vollständiger Zugriff</td> 
   </tr> 
   <tr> 
-   <td>Prozesse: Genehmigungen</td> 
+   <td>Prozesse: Validierungen</td> 
    <td> <p>Vollständiger Zugriff</p> </td> 
    <td>Vollständiger Zugriff</td> 
   </tr> 
@@ -157,7 +152,7 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td> <p>Benutzer, die Gruppenadministratoren sind, können Projekte wiederherstellen, die Gruppen zugewiesen sind, die sie verwalten, sowie Aufgaben, Probleme oder Dokumente, die mit diesen Projekten verknüpft sind.</p> </td> 
   </tr> 
   <tr> 
-   <td>Papierkorb: Kürzlich wiederhergestellt</td> 
+   <td>Papierkorb: kürzlich wiederhergestellt</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Benutzer, die Gruppenadministratoren sind, können die Elemente sehen, die sie kürzlich wiederhergestellt haben.</td> 
   </tr> 
@@ -197,12 +192,12 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td> <p>Zugriff auf die Zuweisung vorhandener Timesheet-Profile zu Benutzern auf Benutzerebene.</p> <p>Benutzer, die Gruppenadministratoren sind, können für die von ihnen verwalteten Gruppen und deren Untergruppen Timesheet-Profile erstellen. </p> </td> 
   </tr> 
   <tr> 
-   <td>Datenblatt und Stunden: Stündungstypen</td> 
+   <td>Datenblatt und Stunden: Stunden</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Zugriff zur Zuweisung von Stündungstypen an Benutzer auf Benutzerebene.</p> </td> 
   </tr> 
   <tr> 
-   <td>Datenblatt und Stunden: Voreinstellungen</td> 
+   <td>Zeitblatt und Stunden: Voreinstellungen</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
@@ -212,7 +207,7 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>E-Mail: Benachrichtigungen: Erinnerungsbenachrichtigungen</td> 
+   <td>E-Mail: Benachrichtigungen: Erinnerung</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Vollständiger Zugriff</td> 
   </tr> 
@@ -227,7 +222,7 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>E-Mail: Einladungen</td> 
+   <td>Email: Einladungen</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Kein Zugriff zur Bearbeitung von E-Mail-Einladungen.</p> <p>Zugriff zum erneuten Senden von E-Mail-Einladungen an abgemeldete Benutzer nur über den Tab Personen .</p> </td> 
   </tr> 
@@ -257,12 +252,12 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td> <p>Kein Zugriff zur Bearbeitung von Zugriffsebenen.</p> <p>Weisen Sie anderen Benutzern eine Zugriffsstufe zu, die auf Benutzerebene kleiner oder gleich den entsprechenden ist.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schnittstelle: Layout-Vorlagen</td> 
+   <td>Benutzeroberfläche: Layout-Vorlagen</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Zugriff auf die Zuweisung vorhandener Layout-Vorlagen für andere Benutzer auf Benutzerebene. </p> <p>Benutzer, die als Gruppenadministratoren festgelegt wurden, können Layoutvorlagen für von ihnen verwaltete Gruppen und Untergruppen erstellen.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schnittstelle: Feeds aktualisieren</td> 
+   <td>Benutzeroberfläche: Feeds aktualisieren</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Kein Zugriff zum Ändern von Aktualisierungs-Feeds.</p> <p>Zugriff auf das Hinzufügen von Feldern, die bei der Bearbeitung des benutzerdefinierten Forms in den Update-Feeds verfolgt werden sollen.</p> </td> 
   </tr> 
@@ -272,17 +267,17 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td> <p>Kein Zugriff zum Erstellen von Filtern im Bereich "Einrichtung".</p> <p>Zugriff zum Erstellen neuer Filter in einer Liste von Objekten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schnittstelle: Ansichten</td> 
+   <td>Benutzeroberfläche: Ansichten</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Kein Zugriff zum Erstellen von Ansichten im Bereich "Einrichtung".</p> <p>Zugriff zum Erstellen neuer Ansichten in einer Liste von Objekten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schnittstelle: Gruppierungen</td> 
+   <td>Benutzeroberfläche: Gruppierungen</td> 
    <td>Vollständiger Zugriff</td> 
-   <td> <p>Kein Zugriff auf das Erstellen von Gruppierungen im Bereich "Einstellungen".</p> <p>Zugriff zum Erstellen neuer Gruppierungen in einer Liste von Objekten.</p> </td> 
+   <td> <p>Kein Zugriff auf das Erstellen von Gruppierungen im Bereich Einrichtung .</p> <p>Zugriff zum Erstellen neuer Gruppierungen in einer Liste von Objekten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schnittstelle: Listenelemente</td> 
+   <td>Benutzeroberfläche: Listen-Steuerelemente</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Kein Zugriff</p> </td> 
   </tr> 
@@ -322,17 +317,17 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>System: Benutzer für SSO aktualisieren</td> 
+   <td>System: Aktualisieren von Benutzern für SSO</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>System: Kick-Starts</td> 
+   <td>System: Kick-Start</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
   <tr> 
-   <td>System: Diagnose</td> 
+   <td>System: Diagnostics</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
   </tr> 
@@ -409,12 +404,12 @@ Benutzer mit einer Planungslizenz, die Funktionen in einem Bereich bearbeiten k�
    <td>Vorlagen verwalten, die sie erstellen oder Vorlagen, die für sie freigegeben wurden</td> 
   </tr> 
   <tr> 
-   <td>Arbeitszeittabellen</td> 
+   <td>Arbeitszeit- tabellen</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Vollständiger Zugriff</td> 
   </tr> 
   <tr> 
-   <td>Benutzer</td> 
+   <td>Benutzende</td> 
    <td>Vollständiger Zugriff</td> 
    <td> <p>Eingeschränkter Zugriff</p> <p>Sie können keine Gruppen Benutzern zuweisen, für die sie kein Gruppenadministrator sind, oder nicht öffentlichen Gruppen.</p> <p>Sie können Benutzern keine Zugriffsstufe zuweisen, die höher ist als ihre eigene Zugriffsstufe.</p> <p>Wenn der Gruppenverwaltungszugriff auf der Zugriffsebene aktiviert ist und sie als Gruppenadministrator für eine Gruppe bestimmt sind, können sie das Kennwort zurücksetzen und sich als Benutzer in der Gruppe, die sie verwalten, und in ihren Untergruppen anmelden. Sie können das Kennwort von nicht zurücksetzen oder sich als Systemadministrator anmelden.<br>Weitere Informationen zum Aktivieren des Gruppenadministrationszugriffs für Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </td> 
   </tr> 

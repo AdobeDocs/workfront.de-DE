@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Audit-Protokolle anzeigen und exportieren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Anzeigen von Benutzeranmeldedaten](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Verwalten von Benutzern in Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Verwalten von Systemadministratoren in Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

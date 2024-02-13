@@ -8,42 +8,44 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
 # Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)
 
+Als Adobe Workfront-Administrator können Ihre Administrationsaufgaben und -verfahren unterschiedlich sein, je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
+
 Wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde, verwenden Ihre Benutzer die Adobe Business Platform, um auf Adobe Workfront zuzugreifen. Das bedeutet:
 
 * Systemadministratoren werden über die Adobe Admin Console erstellt.
-* Single Sign-On (SSO) wird über die Adobe Business Platform und nicht über Workfront durchgeführt
+* Das Verlängern eines SAML-Zertifikats wird über die Adobe Admin Console verarbeitet.
+* Single Sign-On (SSO) wird über die Adobe Business Platform statt über Workfront durchgeführt
 
-Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgaben und -verfahren je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde. In diesem Artikel werden die Verfahren aufgelistet, die unterschiedlich gehandhabt werden, sowie Links zu Anweisungen für Workfront und Adobe Admin Console.
-
-## Benutzende
-
-
+## Erstellen von Workfront-Systemadministratoren in der Adobe Admin Console
 
 >[!NOTE]
 >
 >Es wird empfohlen, Benutzer ohne Systemadministrator direkt in Workfront hinzuzufügen. Es ist möglich, Benutzer in der Adobe Admin Console hinzuzufügen. Wenn Sie diese jedoch in Workfront hinzufügen, können Sie ihre Zugriffsebene bei der Erstellung festlegen, wodurch Sie Zeit sparen können.
 
+Anweisungen zum Erstellen von Workfront-Systemadministratoren finden Sie unter [Verwalten von Systemadministratoren in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>Aktion</th> 
-   <th>Anweisungen in Workfront finden Sie unter</th> 
-   <th>Anweisungen in der Adobe Admin Console finden Sie unter</th> 
+   <th>Action</th> 
+   <th>For instructions in Workfront, see</th> 
+   <th>For instructions in the Adobe Admin console, see</th> 
   </tr> 
  </thead> 
- <tbody> <!--
+ <tbody> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">View information about access levels and licenses for your users</td> 
     <td> 
@@ -55,30 +57,29 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
       <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
-   <td role="rowheader">Gewähren eines Benutzeradministratorzugriffs</td> 
+   <td role="rowheader">Grant a user admin access</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Der Abschnitt "Benutzerdetails bearbeiten"in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Benutzer einzeln verwalten</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Benutzer zu Adobe Workfront hinzufügen</td> 
+   <td role="rowheader">Add a user to Adobe Workfront</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Verwalten von Benutzern in Adobe Admin Console</a> </p> </li> 
-     <li> <p>Der Abschnitt "Benutzer hinzufügen"in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Benutzer einzeln verwalten</a></p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Add a user to Adobe Workfront Fusion</td> 
     <td> 
@@ -91,84 +92,93 @@ Als Adobe Workfront-Administrator unterscheiden sich Ihre Administrationsaufgabe
       <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
-   <td role="rowheader">Deaktivieren eines Benutzers</td> 
+   <td role="rowheader">Deactivate a user</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Benutzer deaktivieren oder reaktivieren</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Der Abschnitt "Benutzer entfernen"in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Benutzer einzeln verwalten</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Benutzer löschen</td> 
+   <td role="rowheader">Delete a user</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md" class="MCXref xref">Benutzer löschen</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md" class="MCXref xref">Delete users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Den Abschnitt "Benutzer dauerhaft löschen"in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Ordnerbenutzer verwalten</a>
-     </p><p>Hinweis: Löschen eines Benutzers aus dem [!DNL Adobe Admin Console] deaktiviert den Benutzer in [!DNL Workfront], aber löschen sie nicht aus [!DNL Workfront].</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Benutzerprofil bearbeiten</td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p>Der Abschnitt "Benutzerdetails bearbeiten"in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Benutzer einzeln verwalten</a></p> </li> 
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Massenbearbeitungsbenutzerprofile</td> 
+   <td role="rowheader">Edit a user profile</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Massenbearbeitung von Benutzerprofilen</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Der Abschnitt "Benutzerdetails bearbeiten"in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Massen-CSV-Upload</a></p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Benutzer importieren </td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Benutzer importieren</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p>Der Abschnitt "Benutzer hinzufügen"in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Massen-CSV-Upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Anmelden als eine andere Benutzerin bzw. ein anderer Benutzer</td> 
+   <td role="rowheader">Bulk edit user profiles</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Melden Sie sich als anderer Benutzer an</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Edit user profiles in bulk</a> </p> </li> 
     </ul> </td> 
-   <td>Nicht verfügbar</td> 
+   <td> 
+    <ul> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">SAML-Zertifikat erneuern</td> 
+   <td role="rowheader">Import users </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Adobe Workfront SAML 2.0-Metadatenzertifikat erneuern</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Der Abschnitt "Die digitale Signatur in der SAML-Antwort hat nicht validiert..."in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Fehlerbehebung bei Federated ID</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Log in as another user</td> 
+   <td> 
+    <ul> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Log in as another user</a> </p> </li> 
+    </ul> </td> 
+   <td>Not available</td> 
+  </tr> 
+  <tr> 
+    -->
+
+## Verlängern des SAML-Zertifikats
+
+Anweisungen zur Verlängerung des SAML-Zertifikats auf dem Adobe Admin Console finden Sie im Abschnitt &quot;Die digitale Signatur in der SAML-Antwort hat nicht validiert...&quot;in [Fehlerbehebung bei Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+
+<!--
+
+   <td role="rowheader">Renew SAML certificate</td> 
+   <td> 
+    <ul> 
+     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Renew the Adobe Workfront SAML 2.0 metadata certificate</a> </p> </li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ## SSO (Single Sign-On)
 
