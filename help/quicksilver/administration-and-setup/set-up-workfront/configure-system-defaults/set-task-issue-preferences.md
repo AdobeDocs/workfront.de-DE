@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Fahren Sie auf der angezeigten Seite mit einem der fünf unten aufgeführten Abschnitte fort, um die Einstellungen für [!UICONTROL Neue Aufgabenstandardwerte], [!UICONTROL Probleme], [!UICONTROL Löschen], [!UICONTROL Tatsächliche Datumswerte], und [!UICONTROL Zugriff]:
 
-* [[!UICONTROL Neue Aufgabenstandardwerte]](#new-task-defaults)
-* [[!UICONTROL Probleme]](#issues)
-* [[!UICONTROL Löschen]](#deletion)
-* [[!UICONTROL Tatsächliche Datumswerte]](#actual-dates)
-* [[!UICONTROL Delegation]](#delegation)
+   * [[!UICONTROL Neue Aufgabenstandardwerte]](#new-task-defaults)
+   * [[!UICONTROL Probleme]](#issues)
+   * [[!UICONTROL Löschen]](#deletion)
+   * [[!UICONTROL Tatsächliche Datumswerte]](#actual-dates)
+   * [[!UICONTROL Delegation]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeiten daran</a> </li>
+  --&gt;
 
 * [[!UICONTROL Zugriff]](#access)
 
@@ -97,7 +97,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <td> <p>Berechnet geplante und tatsächliche Kostenschätzungen für eine Aufgabe. Wenn festgelegt auf <strong>[!UICONTROL Keine Kosten]</strong>, generieren die geplanten und die tatsächlichen aufgezeichneten Stunden keine geplante oder tatsächliche Kostenschätzung für die Aufgabe und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Probleme {#issues}
 
@@ -181,7 +181,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delegierung
 
@@ -192,7 +192,7 @@ Wenn diese Einstellung aktiviert ist, sehen Benutzer Folgendes:
 * Die [!UICONTROL Delegieren] in der [!UICONTROL Startseite] Bereich. Von hier aus können sie Genehmigungen oder Aufgaben- und Problemzuweisungen delegieren.
 * Ein Hinweis darauf, dass eine Aufgabe oder ein Problem an einen anderen Benutzer im [!UICONTROL Zuweisung und Delegationen] Bereich in der Aufgaben- oder Problemüberschrift.
 
-Wenn Sie die [!UICONTROL Delegieren von Aufgaben und Problemen durch Benutzer zulassen] festlegen, werden die derzeit geplanten Delegationen beendet und die zugewiesenen Benutzer erhalten eine E-Mail-Benachrichtigung, dass die Delegation gestoppt wurde.
+  Wenn Sie die [!UICONTROL Delegieren von Aufgaben und Problemen durch Benutzer zulassen] festlegen, werden die derzeit geplanten Delegationen beendet und die zugewiesenen Benutzer erhalten eine E-Mail-Benachrichtigung, dass die Delegation gestoppt wurde.
 
 Informationen zur Übertragung von Arbeiten an andere finden Sie in den folgenden Artikeln:
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
