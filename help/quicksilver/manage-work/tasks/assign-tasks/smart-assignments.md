@@ -7,9 +7,9 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Das Feld Zuweisungen für ein Element, das im Bereich &quot;Home&quot;im Bereich &quot;Assignments&quot;aufgeführt ist, wenn Sie eine Aufgabe oder ein Problem öffnen
+* <span class="preview">Das Feld Zuweisungen im Feld &quot;Neue Aufgabe&quot;, wenn eine Aufgabe zu einem Projekt hinzugefügt wird</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist, wenn Sie eine Aufgabe oder ein Problem öffnen
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
-Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Ergebnisse** im Feld &quot;Zuweisungen&quot;. <!--update this to "Other assignments"-->
+Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Sonstige Zuweisungen** im Feld &quot;Zuweisungen&quot;für Aufgaben. <!--update this to "Other assignments"-->
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 
