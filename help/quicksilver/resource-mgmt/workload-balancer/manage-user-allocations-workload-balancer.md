@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
+source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-{{highlighted-preview}}
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen, wöchentlichen oder monatlichen Zuordnungen über den Arbeitslastausgleich verwalten, um sicherzustellen, dass ihnen eine Anzahl von Stunden zugewiesen wird, die in ihre verfügbaren Zeitpläne passen.
 
