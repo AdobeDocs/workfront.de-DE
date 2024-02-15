@@ -4,9 +4,9 @@ description: Projektverbesserungen im zweiten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Vers
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## Dem Workflow &quot;Neue Aufgabe&quot;hinzugefügte relevantere Zuweisungen
+
+>[!NOTE]
+>
+>Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+
+In den folgenden Bereichen haben wir dem Feld Zuweisungen die gleichen Funktionen für relevantere Smart-Zuweisungen hinzugefügt:
+
+* Feld &quot;Neue Aufgabe&quot;beim Hinzufügen einer Aufgabe zu einem Projekt
+
+* In einer Liste mit Projektaufgaben
+
+Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Wichtigere intelligente Zuweisungen
 
 >[!NOTE]
 >
->Produktion für schnelle Veröffentlichung: Mit Version 24.2 (Februar 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 

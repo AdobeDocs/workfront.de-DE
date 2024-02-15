@@ -4,9 +4,9 @@ description: Verbesserungen am ersten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 >[!NOTE]
 >
->Produktion für schnelle Veröffentlichung: Mit Version 24.2 (Februar 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 

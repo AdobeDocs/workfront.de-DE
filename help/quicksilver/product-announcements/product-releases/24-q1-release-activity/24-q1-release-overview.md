@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                                 <p>HINWEIS: Diese Funktion bleibt bis zur Version 24.4 in der Vorschau.</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (Februar 2024)</p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (März 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion für alle Kunden: Mit der Version 24.4 (April 2024)</p>
@@ -488,4 +488,4 @@ Informationen zu den Wartungsupdates, die in der Version vom ersten Quartal 2024
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;im [Workfront Tutorials-Seite](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;im [Workfront Tutorials-Seite](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).

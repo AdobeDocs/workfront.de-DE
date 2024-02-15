@@ -7,9 +7,9 @@ description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -91,11 +91,11 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
         <li>Meine Aufgaben</li>
         <li>Meine Probleme</li>
       </ul>
-      <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Derzeit sind diese Optionen <b>Filter</b> und <b>Gruppen</b>. Sie können:</p>
+      <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b>, und <b>Gruppen</b>. Sie können:</p>
       <ul>
-        <li><b>Wählen Sie aus, welche Filter oder Gruppen Benutzern zur Verfügung stehen sollen:</b><p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>
+        <li><b>Wählen Sie aus, welche Filter, Spalten oder Gruppen Benutzern zur Verfügung stehen sollen:</b><p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>
         <li><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b><p>Bewegen Sie den Mauszeiger über eine Option. Daraufhin wird eine Schaltfläche angezeigt, mit der Sie diese Option als Standard für Benutzer festlegen können. Die aktuelle Standardeinstellung weist rechts ein blaues Standardzeichen auf.</li></p>
-        <li><b>Fügen Sie einen vorhandenen Filter oder eine bestehende Gruppe zur Liste der verfügbaren Optionen hinzu:</b><p>Klicken Sie auf die Schaltfläche mit dem Pluszeichen am unteren Rand jeder Liste, um der Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter oder Gruppen auf diese Weise hinzugefügt werden können.</li></p>
+        <li><b>Fügen Sie einen vorhandenen Filter, eine Spalte oder eine Gruppe zur Liste der verfügbaren Optionen hinzu:</b><p>Klicken Sie auf die Schaltfläche mit dem Pluszeichen am unteren Rand jeder Liste, um der Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</li></p>
       </ul>
       </td> 
      </tr>

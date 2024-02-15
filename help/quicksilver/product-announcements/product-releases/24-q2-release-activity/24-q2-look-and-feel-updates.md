@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom zweiten Quartal 2024 vorgenommen wurden.
 
 Eine Liste aller mit der Version vom zweiten Quartal 2024 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Look-and-Feel-Aktualisierungen für zwei E-Mail-Vorlagen
+
+>[!NOTE]
+>
+>Version für alle Kunden: Mit der Version 24.2 (15. Februar 2024)
+
+Die E-Mail-Vorlagen zum Hinzufügen eines Genehmigers zu einem Asset und zum Hinzufügen eines Benutzers zu einer Pinnwand wurden aktualisiert, um sie besser mit anderen Adobe-E-Mail-Vorlagen abzustimmen und die Benutzerfreundlichkeit zu verbessern.
 
 ## Neue Look-and-Feel-Aktualisierungen für Registerkarten im Bereich &quot;Benutzerdefinierter Forms&quot;
 
