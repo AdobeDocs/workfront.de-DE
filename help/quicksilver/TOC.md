@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '13946'
+source-wordcount: '13950'
 ht-degree: 1%
 
 ---
@@ -566,7 +566,7 @@ ht-degree: 1%
                * [Verwenden des veralteten benutzerdefinierten Formular-Builders](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
                * [Benutzerdefiniertes Formular mit dem alten Builder erstellen oder bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
                * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Builder zu erstellen](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [Benutzerdefiniertes Feld hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Benutzerdefiniertes Feld mit dem Legacy-Builder hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
                * [Hinzufügen eines Bildes oder eines anderen Asset-Widgets zu einem benutzerdefinierten Formular mit dem Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
                * [Hinzufügen einer Abschnittspause zum Legacy-Builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
                * [Berechnete Daten mit dem Legacy-Builder hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)

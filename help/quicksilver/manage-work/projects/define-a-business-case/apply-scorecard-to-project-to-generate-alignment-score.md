@@ -5,14 +5,16 @@ description: Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
 
 # Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung
+
+<!-- Audited: 02/2024 -->
 
 Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den zuvor festgelegten Kriterien eines Portfolios übereinstimmt. Eine Scorecard spiegelt häufig die Mission, Werte und strategischen Ziele einer Organisation wider.
 
@@ -27,40 +29,46 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Unternehmen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>
+   <p>Neu: Prime oder höher</p>
+   <p>oder</p>
+   <p>Aktuell: Business oder höher</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Zugriff auf Portfolio anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Zugriff auf Portfolio anzeigen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Anzeigen von oder höheren Berechtigungen für ein Portfolio </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td><p>Berechtigungen für ein Projekt verwalten</p> <p>Anzeigen von oder höheren Berechtigungen für ein Portfolio</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Projekt-Scorecards {#project-scorecards}
 
 * [Scorecards - Übersicht](#scorecards-overview)
-* [Projekt-Scorecards](#project-scorecards)
+* [Anwenden einer Scorecard auf ein Projekt](#apply-a-scorecard-to-a-project)
 
 ### Scorecards - Übersicht {#scorecards-overview}
 
 In der Regel füllt ein Projektmanager die Scorecard-Informationen aus, um einen Ausrichtungswert zwischen 0 und 100 für das Projekt zu erzielen. Der erzeugte Wert wird später verwendet, wenn der Portfoliomanager die Projekte im Portfoliooptimierer überprüft, um sie zu vergleichen.
 
-Weitere Informationen zur Portfoliooptimierung finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen zur Portfoliooptimierung finden Sie unter [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Anwenden einer Scorecard auf ein Projekt
 
-Als Benutzer mit einer Planungslizenz und Verwaltungsberechtigungen für ein Projekt können Sie eine Scorecard an das Projekt anhängen.
+Als Benutzer mit einer Standard- oder Planlizenz und Verwaltungsberechtigungen für ein Projekt können Sie eine Scorecard an das Projekt anhängen.
 
 Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -73,23 +81,23 @@ Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss den Scorecard-A
 So wenden Sie eine Scorecard auf ein Projekt an:
 
 1. Gehen Sie zu einem Projekt, auf das Sie eine Scorecard anwenden möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
+1. Klicks **Geschäftsfall** im linken Bereich.
 1. Suchen Sie die **Scorecard** Abschnitt des Geschäftsfalls.\
-   Sie müssen eine Scorecard vor der **Scorecard** im Geschäftsfall angezeigt.
+   Sie müssen vor der **Scorecard** im Geschäftsfall angezeigt.
 
    Informationen zum Erstellen einer Scorecard finden Sie unter [Scorecard erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-1. Wählen Sie eine Scorecard aus dem Dropdown-Menü aus.
+1. Wählen Sie eine Scorecard aus dem Dropdownmenü aus.
 
-   ![new_scorecard.png](assets/new-scorecard-350x149.png)
+   ![Neue Scorecard](assets/new-scorecard.png)
 
-1. Geben Sie eine Antwort für alle Fragen in der Scorecard an.
+1. Geben Sie eine Antwort für alle Fragen in der Scorecard ein.
 
    Workfront wendet für jede Frage eine Punktzahl an und berechnet anhand des individuellen Punktes jeder Frage einen Gesamtergebnis.
 
-   Weitere Informationen zum Generieren des Gesamtausrichtungswerts des Projekts finden Sie unter [Generieren einer Alignment-Bewertung für ein Projekt](#generate-an-alignment-score-for-a-project).
+   Weitere Informationen zum Generieren des Gesamtausrichtungswerts des Projekts finden Sie unter [Generieren einer Ausrichtungsbewertung für ein Projekt](#generate-an-alignment-score-for-a-project).
 
-1. Klicken **Speichern** , um die Scorecard zu speichern und das Projekt zu bewerten.
+1. Klicks **Speichern** , um die Scorecard zu speichern und das Projekt zu bewerten.
 
    Die Scorecard ist jetzt mit dem Projekt verknüpft und das Projekt wird bewertet.
 
@@ -110,10 +118,10 @@ So wenden Sie eine Scorecard auf ein Projekt an:
 
 ## Generieren einer Alignment-Punktzahl
 
-* [Generieren einer Alignment-Bewertung für ein Projekt](#generate-an-alignment-score-for-a-project)
+* [Generieren einer Ausrichtungsbewertung für ein Projekt](#generate-an-alignment-score-for-a-project)
 * [Generieren einer Alignment-Bewertung für ein Portfolio](#generate-an-alignment-score-for-a-portfolio)
 
-### Generieren einer Alignment-Bewertung für ein Projekt {#generate-an-alignment-score-for-a-project}
+### Generieren einer Ausrichtungsbewertung für ein Projekt {#generate-an-alignment-score-for-a-project}
 
 Der Ausrichtungswert ist der Wert, der nach Abschluss der Scorecard erzeugt wird.
 
@@ -121,9 +129,7 @@ Scorecards enthalten Fragen mit Antwortmöglichkeiten, denen numerische Werte zu
 
 Wenn die Scorecard abgeschlossen ist, berechnet Workfront den Ausrichtungswert des Projekts in Prozent mithilfe der folgenden Formel:
 
-```
-Project Alignment Score = The sum of the question points from the scorecard met at a given time/ The sum of the possible points on the scorecard
-```
+`Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
 Weitere Informationen finden Sie unter [Scorecard erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -133,7 +139,7 @@ Der Alignment-Wert des Portfolios entspricht dem Durchschnittswert der Alignment
 
 Wenn die Scorecards der Projekte abgeschlossen sind, verwendet Workfront diese Werte, um den Alignment-Wert des Portfolios in Prozent zu berechnen, indem es folgende Formel verwendet:
 
-Portfolio Alignment Score = Die Summe der Prozentsätze der Projektausrichtungsbewertungen/ Anzahl der  im Portfolio
+`Portfolio Alignment Score = The sum of the percentages of the project alignment scores / Number of projects in the portfolio`
 
 >[!NOTE]
 >
@@ -143,20 +149,20 @@ Portfolio Alignment Score = Die Summe der Prozentsätze der Projektausrichtungsb
 
 Sie können den Ausrichtungswert eines Portfolios auf Projektebene oder im Projektoptimierer anzeigen.
 
-* [Anzeigen der Alignment-Bewertung in einem Projekt](#View%20the)
-* [Anzeigen der Alignment-Werte des Projekts und des Portfolios im Portfolio Optimizer](#View%20the2)
+* [Anzeigen der Alignment-Bewertung in einem Projekt](#view-the-alignment-score-on-a-project)
+* [Anzeigen der Alignment-Werte des Projekts und des Portfolios im Portfolio Optimizer](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Anzeigen der Alignment-Bewertung in einem Projekt
 
 Wenn Sie über Beitragsrechte für das Projekt verfügen, können Sie den Ausrichtungswert eines Projekts auf Projektebene anzeigen.
 
 1. Wechseln Sie zu dem Projekt, dessen Alignment-Bewertung Sie anzeigen möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
+1. Klicks **Geschäftsfall** im linken Bereich.
 1. Navigieren Sie zu **Zusammenfassung von Geschäftsfällen** auf der rechten Bildschirmseite angezeigt.
 
    Die Alignment-Bewertung befindet sich in der Zusammenfassung der Geschäftsfälle im **Alignment** -Wert.
 
-   ![align_score_on_a_project.png](assets/alignment-score-on-a-project.png)
+   ![Ausrichtungswert für ein Projekt](assets/alignment-score-on-a-project.png)
 
 ### Anzeigen der Alignment-Werte des Projekts und des Portfolios im Portfolio Optimizer
 
@@ -165,30 +171,30 @@ Sie können die Alignment-Bewertung eines Portfolios oder Portfolios im Portfoli
 Weitere Informationen zu den im Portfolio Optimizer angezeigten Informationen finden Sie unter [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Suchen Sie die Alignment-Bewertung des Portfolios im Projektoptimierer.](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [Suchen Sie die Alignment-Bewertung des Portfolios im Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [Suchen Sie die Alignment-Bewertung des Portfolios im Portfolio Optimizer.](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-   ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
+  ![Alignment-Wert in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Suchen Sie die Alignment-Bewertung des Portfolios im Projektoptimierer. {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png), dann **Portfolios**.
+{{step1-to-portfolios}}
 
 1. Klicken Sie auf den Namen eines Portfolios.
-1. Klicken **Portfolio-Optimierung** im linken Bereich.
+1. Klicks **Portfolio-Optimierung** im linken Bereich.
 
    Der Portfolio Optimizer wird angezeigt.
 
-1. Der Ausrichtungswert eines Projekts wird als Prozentsatz im **Ausrichtung** -Spalte des Portfolio Optimizer.
+   Der Ausrichtungswert eines Projekts wird als Prozentsatz im **Ausrichtung** -Spalte des Portfolio Optimizer.
 
    Dies ist der Ausrichtungswert des Projekts basierend auf der mit dem Projekt verknüpften Scorecard.
 
-#### Suchen Sie die Alignment-Bewertung des Portfolios im Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### Suchen Sie die Alignment-Bewertung des Portfolios im Portfolio Optimizer.  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
-1. Navigieren Sie zu **Projekte** in der Symbolleiste für globale Navigation.
-1. Wählen Sie die **Portfolios** Registerkarte.
+{{step1-to-portfolios}}
+
 1. Klicken Sie auf den Namen eines Portfolios.
-1. Wählen Sie die **Portfolio-Optimierung** Registerkarte.
-1. Suchen Sie oben im Portfolio Optimizer die **Alignment** sowie der **Ausrichtung** Messung, die den Ausrichtungswert des Portfolios angibt.
+1. Klicks **Portfolio-Optimierung** im linken Bereich.
+1. Suchen Sie oben im Portfolio Optimizer die **Alignment** -Wert sowie der **Ausrichtung** Messung, die den Ausrichtungswert des Portfolios angibt.
 
    Dies ist der Alignment-Wert des Portfolios.
 
