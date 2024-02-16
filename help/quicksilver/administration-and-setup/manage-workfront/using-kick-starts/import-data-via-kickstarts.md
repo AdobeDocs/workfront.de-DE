@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>:</p> 
-   <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Sie müssen Workfront-Administrator sein. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Einschränkungen
 
@@ -200,27 +201,9 @@ So exportieren Sie eine Kick-Start-Vorlage:
      </tr>
 
    <tr> 
-      <td>Alter Ressourcenpool</td> 
-      <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Alter Ressourcenpool</p> <p>Einstellungen </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Meilensteinpfad</td> 
       <td> Exportiert als Excel-Datei</td> 
       <td> <p> Meilenstein</p> <p>Meilensteinpfad</p> <p>Einstellungen </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Nicht-Arbeitskräfte-Ressource</td> 
-      <td> Exportiert als Excel-Datei</td> 
-      <td> <p> Nicht-Arbeitskräfte-Ressource</p> <p>Einstellungen</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Nicht-Arbeitskräfte-Ressourcenkategorie</td> 
-      <td> Exportiert als Excel-Datei</td> 
-      <td> <p> Nicht-Arbeitskräfte-Ressourcenkategorie</p> <p>Einstellungen</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Obwohl es sich nach Möglichkeit empfiehlt, IDs zu verwenden, ist es manchmal ni
 
 ## Importieren der Tabellenkalkulationsdaten in Workfront
 
-Nachdem Sie die Excel-Vorlage mit Ihren Daten gefüllt haben, können Sie die Daten in Workfront hochladen.
+Nachdem Sie die Excel-Vorlage mit Ihren Daten ausgefüllt haben, können Sie deren Daten in Workfront hochladen.
 
 Der Kick-Start-Import unterstützt die folgenden Dateitypen:
 
@@ -485,17 +468,17 @@ Der Kick-Start-Import unterstützt die folgenden Dateitypen:
   >* Berichte
   >* Dokumente
   >* Avatare
-  >* Eigenschaftendateien anzeigen, filtern oder gruppieren.
+  >* Eigenschaftendateien anzeigen, filtern oder gruppieren
   >
   >Bei Verwendung einer komprimierten Importdatei muss die .ZIP-Datei denselben Namen wie die .xlsx- oder .xls-Datei haben und alle Dateien müssen sich auf derselben Strukturebene befinden (keine Ordner).
 
 So importieren Sie die Tabellenkalkulationsvorlagen-Daten in Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Klicks **System** >**Daten importieren (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Klicks **System** > **Daten importieren (Kick-Starts)**.
 
 1. Im **Hochladen von Daten mit der Kick-Start-Tabelle** Abschnitt, klicken Sie auf **Datei auswählen**, suchen Sie dann die ausgefüllte Tabelle und wählen Sie sie aus.
 
