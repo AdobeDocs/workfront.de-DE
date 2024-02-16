@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Benutzerzuweisungen auf Kanban- und Scrum-Pinnwänden
 
@@ -45,7 +45,7 @@ Im Rahmen der Version 21.3 haben wir Verbesserungen an der Kopfzeile und den Sto
 
 Mit Version 21.4 werden diese Verbesserungen für die agile Ansicht auf Projekten rückgängig gemacht. An agilen Iterationen werden keine Änderungen vorgenommen.
 
-Im Folgenden werden die Änderungen bezüglich der agilen Ansicht in Projekten rückgängig gemacht:
+Im Folgenden finden Sie die Änderungen, die bezüglich der agilen Ansicht in Projekten rückgängig gemacht werden:
 
 * Die Story-Karten und Pinnwände haben anpassbare Breiten.
 * Spalten haben keine Hintergrundschattierung.

@@ -6,7 +6,7 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Vorlagen**: Weitere Informationen finden Sie unter [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolios**: Weitere Informationen finden Sie unter [Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolios**: Weitere Informationen finden Sie unter [Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programme**: Weitere Informationen finden Sie unter [Programm freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 
