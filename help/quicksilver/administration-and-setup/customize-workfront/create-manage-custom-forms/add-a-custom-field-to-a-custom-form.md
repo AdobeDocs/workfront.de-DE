@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen
 description: Wenn Sie an einem benutzerdefinierten Formular arbeiten, können Sie ein neues benutzerdefiniertes Feld erstellen und es zu einem benutzerdefinierten Formular hinzufügen. Sie können auch ein benutzerdefiniertes Feld hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -165,6 +165,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p><strong>Beispiel:</strong> Wenn Sie einen numerischen Wert für ein Feld im Textformat für mindestens ein Objekt speichern und das Format später in Zahl oder Währung ändern, tritt kein Fehler auf. </p>
       <p>Wenn Sie jedoch einen alphanumerischen Wert in einem Feld mit dem Textformat für mindestens ein Objekt speichern und dann versuchen, das Format in Zahl oder Währung zu ändern, wird ein Fehler ausgegeben, da der gespeicherte alphanumerische Wert nicht mit den Formaten Zahl oder Währung kompatibel ist. </p>
 
+   <p><strong>Hinweis:</strong> Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Referenzierter Objekttyp</td> 
-      <td> <p>(Nur Eingabefelder) Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Übernehmen oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>NOTIZ</b>:   
+      <td> <p>(Nur Eingabefelder) Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Übernehmen oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>NOTE</b>:   
         <ul> 
          <li>Wenn Ihr Workfront-Administrator den Namen für Portfolios, Programme oder Projekte in der Benutzeroberfläche von Workfront angepasst hat, wird der standardmäßige Workfront-Name für das Objekt in dieser Dropdownliste und nicht der benutzerdefinierte Name angezeigt. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe dazu benötigen.<br></li> 
          <li>Die folgenden Objekttypen werden in den mobilen Apps von iOS und Android Workfront unterstützt: Benutzer, Unternehmen, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</li> 
@@ -194,7 +196,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
         <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
         <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
         <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
-       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie im Abschnitt . <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Textmodus in einem Filter bearbeiten</a> im Artikel <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>. </p> <p><b>NOTIZ</b>:   
+       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie im Abschnitt . <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Textmodus in einem Filter bearbeiten</a> im Artikel <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>. </p> <p><b>NOTE</b>:   
         <ul> 
          <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem Feld vom TypAhead keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
          <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld vom Typ voraus verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, die vom Filter nicht betroffen sind.</li> 

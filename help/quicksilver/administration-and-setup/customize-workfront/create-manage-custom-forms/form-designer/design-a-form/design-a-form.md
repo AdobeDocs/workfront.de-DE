@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ Hinzufügen eines Textfelds:
     <ul> 
     <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li> 
     <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
+    <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -317,6 +318,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
      <ul> 
     <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.<br></li> 
     <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
+    <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
      </ul></p></td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
@@ -537,7 +539,9 @@ So fügen Sie eine externe Suche hinzu:
       <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p>
       <p><strong>NOTE:</strong></p>
       <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte für Objekte müssen in der Lage sein, in den neuen Typ zu konvertieren. (Wenn der Formattyp beispielsweise Text ist und ein Objekt den Wert "abc"speichert, können Sie das Feld nicht konvertieren und erhalten eine Fehlermeldung, dass das System "abc"nicht in Zahl/Währung konvertieren kann.) Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li>
-      <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li></ul></td>
+      <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
+      <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Basis-API-URL</td> 

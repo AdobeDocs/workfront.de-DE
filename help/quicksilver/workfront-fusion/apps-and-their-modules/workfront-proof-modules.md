@@ -9,7 +9,7 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Sie können eine Verbindung zu Ihrem [!DNL Workfront Proof] direkt in einer [!DN
                 <td>Geben Sie das Kennwort für Ihre [!DNL Workfront Proof] -Konto.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Mandantenname]</td>
+                <td  role="rowheader">[!UICONTROL Mandantenkennung]</td>
                 <td><strong>Hinweis</strong>: Kunden, die BYOK nicht verwenden, müssen dieses Feld leer lassen. <p>Geben Sie die Mandantenkennung für dieses Konto ein. Wenn Sie Hilfe bei der Suche nach Ihrer Mandantenkennung benötigen, wenden Sie sich an den Workfront-Support.</p></td>
             </tr>
             <tr>
