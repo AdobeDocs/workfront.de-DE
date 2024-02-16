@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c0de93c5-ee48-47b2-9862-c2f1993cae24
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Aktivieren von Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [Verwalten von Dokumenten mit Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
 * [Adobe Workfront-Lizenzierungs-Rollentypen im Vergleich zu Adobe Workfront DAM-Rollentypen](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-* [Hilfe für den Zugriff auf Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+* [Hilfe für den Zugriff auf Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

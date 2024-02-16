@@ -5,31 +5,31 @@ product-area: workfront-integrations
 keywords: Connector
 navigation-topic: connections-annd-webhooks
 title: Erstellen von Verbindungen in [!DNL Adobe Workfront Fusion]
-description: Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webdiensts, mit der die Verbindung hergestellt wird, festgelegt wurden. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webdienst. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden zu identifizieren und zu finden [!DNL Adobe Workfront Fusion] zu Ihrer ausgewählten App oder Ihrem Webdienst.
+description: Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webdiensts, mit der die Verbindung hergestellt wird, festgelegt wurden. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webdienst. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden zu identifizieren und zu finden. [!DNL Adobe Workfront Fusion] zu Ihrer ausgewählten App oder Ihrem Webdienst.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
 # Erstellen von Verbindungen in [!DNL Adobe Workfront Fusion]
 
-Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webdiensts, mit der die Verbindung hergestellt wird, festgelegt wurden. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webdienst. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden zu identifizieren und zu finden [!DNL Adobe Workfront Fusion] zu Ihrer ausgewählten App oder Ihrem Webdienst.
+Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webdiensts, mit der die Verbindung hergestellt wird, festgelegt wurden. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webdienst. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden zu identifizieren und zu finden. [!DNL Adobe Workfront Fusion] zu Ihrer ausgewählten App oder Ihrem Webdienst.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,17 +39,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td>
 
 </tbody> 
@@ -81,15 +81,15 @@ Die folgenden Umstände erfordern zusätzliche Schritte beim Erstellen einer Ver
 
   Anweisungen finden Sie unter [[!DNL Microsoft Dynamics 365] Module](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
-* Herstellen einer Verbindung zum [!DNL Microsoft Graph API] mit [!UICONTROL HTTP] Modul
+* Herstellen einer Verbindung zum [!DNL Microsoft Graph API] mithilfe einer [!UICONTROL HTTP] Modul
 
-  Anweisungen finden Sie unter [Rufen Sie die [!DNL MS Graph REST API] über die [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] Modul](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Anweisungen finden Sie unter [Rufen Sie die [!DNL MS Graph REST API] über die [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] Modul](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Verbindung zu einer [!DNL Google] App oder Webdienst
 
 Der Prozess für die Verbindung zu [!DNL Google] -Apps können je nach Art der [!DNL Google] -Konto verwenden. Darüber hinaus [!DNL Google] Sicherheitsmaßnahmen erfordern möglicherweise eine zusätzliche Konfiguration, wenn Sie eine Verbindung zu [!DNL Workfront Fusion].
 
-Weitere Informationen finden Sie unter:
+Weitere Informationen:
 
 * [Verbinden [!DNL Adobe Workfront Fusion] nach [!DNL Google Services] Verwenden eines benutzerdefinierten OAuth-Clients](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
 * [Verbinden [!DNL Adobe Workfront Fusion] nach [!DNL Google Services] mit aktualisierten Sicherheitsmaßnahmen](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)

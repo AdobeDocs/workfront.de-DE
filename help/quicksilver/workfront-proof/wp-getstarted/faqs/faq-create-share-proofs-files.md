@@ -8,10 +8,10 @@ description: Ein Testversand ist eine statische, Audio- oder Videodatei, die im 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: '1369'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Was ist ein Beweis?
 
@@ -51,7 +51,7 @@ Sie können Testsendungen aus statischen Dateien, Audiodateien, Videodateien und
 
 Um einen Testversand im Konto zu erstellen, müssen Sie ein Benutzer mit dem richtigen Berechtigungsprofil sein (siehe [[!UICONTROL Profile für Testberechtigungen] in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
 
-Wenn Sie mehrere Dateien gleichzeitig hochladen, erstellen Sie mehrere Testsendungen, die Sie mit einer E-Mail an dieselbe Gruppe von Validierungsverantwortlichen senden können. Wenn Ihr Unternehmen über eine [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] -Konto können Sie Dateien zu einem Testversand zusammenfassen (siehe [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)).
+Wenn Sie mehrere Dateien gleichzeitig hochladen, erstellen Sie mehrere Testsendungen, die Sie mit einer E-Mail an dieselbe Gruppe von Validierern senden können. Wenn Ihr Unternehmen über [!UICONTROL Unternehmen] oder [!UICONTROL Unbegrenzt] -Konto können Sie Dateien zu einem Testversand zusammenfassen (siehe [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)).
 
 ## Was sind Testversandrollen und E-Mail-Warnungen?
 
@@ -73,7 +73,7 @@ Die Kombination mehrerer Dateien zu einem Testversand ist eine Funktion, die unt
 
 Ja, Sie können Testsendungen von Websites und anderen Webinhalten erstellen. Wenn Sie eine URL hinzufügen, um einen Testversand zu erstellen, können Sie angeben, ob Sie einen statischen Testversand oder einen interaktiven Testversand durchführen möchten:
 
-* In einem interaktiven Testversand können Prüfer wie gewohnt mit der Website oder anderen Webinhalten wie Anzeigen mit Streaming-Video oder -Audio navigieren und interagieren. [!DNL Flash] -Elemente in einer Anzeige, HTML-Animationen und interaktiven Bannern. Weitere Informationen finden Sie unter [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+* In einem interaktiven Testversand können Prüfer wie gewohnt mit der Website oder anderen Webinhalten wie Anzeigen mit Streaming-Video oder -Audio navigieren und interagieren. [!DNL Flash] -Elemente in einer Anzeige, HTML-Animationen und interaktiven Bannern. Weitere Informationen finden Sie unter [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * Für einen statischen Testversand: [!DNL Workfront] erstellt einen Screenshot der von Ihnen angegebenen Seiten und Unterseiten. Hyperlinks befinden sich im Testversand, sodass Sie testen können, ob sie zum richtigen Ziel führen oder nicht. Weitere Informationen finden Sie unter [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 Sie können mehrere URLs gleichzeitig hinzufügen, wenn Sie sie durch ein Leerzeichen trennen. Beachten Sie, dass die Kombination nur in verfügbar ist. [!UICONTROL Unternehmen] und [!UICONTROL Unbegrenzt] Bearbeitungspläne.
@@ -94,7 +94,7 @@ Durch die Freigabe eines Testversands erhalten die Prüfer Zugriff darauf, sodas
 
 ### Antwort
 
-Wenn Sie einen Testversand erstellen, können Sie Überprüfer im [!UICONTROL Workflow] Abschnitt [!UICONTROL Neuer Testversand] Seite. Wenn der Testversand fertig ist, [!DNL Workfront Proof] sendet eine E-Mail an die validierungsverantwortlichen Benutzer mit einem Link zum Testversand.
+Wenn Sie einen Testversand erstellen, können Sie Überprüfer im [!UICONTROL Workflow] Abschnitt [!UICONTROL Neuer Testversand] Seite. Wenn der Testversand fertig ist, [!DNL Workfront Proof] sendet eine E-Mail an die validierungsverantwortlichen Benutzer, die einen Link zum Testversand enthalten.
 
 Wenn Sie über ausreichende Berechtigungen für einen Testversand verfügen, können Sie den Testversand-Viewer, Ihre [!UICONTROL Dashboard]oder einer der Listenansichten, um einem vorhandenen Testversand Überprüfer hinzuzufügen (siehe [Testversand freigeben in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Seite in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
@@ -121,15 +121,15 @@ Wenn Ihr Unternehmen von den Validierern verlangt, Testsendungen elektronisch zu
 
 ### Antwort
 
-Sie können bei der Erstellung des Testversands einen Termin für einen neuen Testversand oder eine neue Testversand-Version festlegen. Dies tun Sie im [!UICONTROL Workflow] Abschnitt [!UICONTROL Neuer Testversand] Seite. Wenn Sie [!UICONTROL Automatisierter Workflow]können Sie für jede Phase Ihrer Überprüfung einen anderen Termin festlegen.
+Sie können bei der Erstellung des Testversands einen Termin für einen neuen Testversand oder eine neue Testversand-Version festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] Abschnitt [!UICONTROL Neuer Testversand] Seite. Wenn Sie [!UICONTROL Automatisierter Workflow]können Sie für jede Phase Ihrer Überprüfung einen anderen Termin festlegen.
 
-Sie können auch mithilfe der Variablen [!UICONTROL Testversanddetails] Seite. Weitere Informationen finden Sie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Sie können auch einen Termin für einen vorhandenen Testversand festlegen oder aktualisieren, indem Sie [!UICONTROL Testversanddetails] Seite. Weitere Informationen finden Sie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Wie kann ich eine neue Version meines Testversands erstellen?
 
 ### Antwort
 
-Überprüfer fordern häufig Änderungen in ihren Kommentaren zu einem Testversand an und möchten eine neue Version des Testversands sehen. Sie können neue Versionen eines Testversands erstellen. [!DNL Workfront Proof] speichert die Testversandeinstellungen aus der vorherigen Version. Sie können diese Einstellungen weiterhin bearbeiten, wenn Sie beispielsweise Prüfer für den Testversand hinzufügen oder entfernen möchten.
+Überprüfer fordern häufig Änderungen in ihren Kommentaren zu einem Testversand an und möchten eine neue Version des Testversands sehen. Sie können neue Versionen eines Testversands erstellen. [!DNL Workfront Proof] speichert die Testversand-Einstellungen aus der vorherigen Version. Sie können diese Einstellungen weiterhin bearbeiten, wenn Sie beispielsweise Prüfer für den Testversand hinzufügen oder entfernen möchten.
 
 Sie müssen jede Version für die jeweiligen Validierer freigeben, die sie anzeigen müssen. Wenn Sie beispielsweise nur Version 3 mit einem Validierer teilen, kann diese Person die Versionen 1 und 2 nicht sehen. Supervisoren und Administratoren in Ihrem Konto überwachen alle Projekte in dem Konto, damit sie alle Versionen des Testversands sehen und bearbeiten können.
 
@@ -139,10 +139,10 @@ Weitere Informationen finden Sie unter .
 
 ### Antwort
 
-Ja. Wenn Sie etwas mit anderen Personen teilen möchten, sie aber nicht als Testversand ansehen müssen (oder wenn es sich um einen Dateityp handelt, der von [!DNL Workfront Proof]), können Sie sie als Datei in Ihre [!DNL Workfront Proof] -Konto. Wie bei Testsendungen können Sie Ihre Dateien in Ordnern und Tag-Dateien organisieren und der Benachrichtigungs-E-Mail eine benutzerdefinierte Nachricht hinzufügen, wenn Sie die Datei freigeben. Weitere Informationen finden Sie unter [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Ja. Wenn Sie etwas mit anderen Personen teilen möchten, sie aber nicht als Testversand ansehen müssen (oder wenn es sich um einen Dateityp handelt, der von [!DNL Workfront Proof]), können Sie sie als Datei in Ihre [!DNL Workfront Proof] -Konto. Wie bei Testsendungen können Sie Ihre Dateien in Ordnern organisieren und Dateien taggen sowie eine benutzerdefinierte Nachricht zur Benachrichtigungs-E-Mail hinzufügen, wenn Sie die Datei freigeben. Weitere Informationen finden Sie unter [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 Wenn Ihre Empfänger die E-Mail-Benachrichtigung über eine freigegebene Datei erhalten, können sie die Datei herunterladen, indem sie auf den in der Benachrichtigung enthaltenen Link klicken.
 
-[!DNL Workfront Proof] Benutzer können Dateien nach dem Speichern in ihrem Konto in Testsendungen konvertieren.
+[!DNL Workfront Proof] -Benutzer können Dateien nach dem Speichern in ihrem Konto in Testsendungen konvertieren.
 
 <!--Is there a limit-->

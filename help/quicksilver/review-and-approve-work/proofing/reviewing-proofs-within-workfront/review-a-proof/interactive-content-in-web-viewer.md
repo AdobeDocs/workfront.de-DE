@@ -6,9 +6,9 @@ description: Es wird empfohlen, alle interaktiven Inhalte mit dem Desktop Proofi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Der Web Proofing Viewer weist die folgenden Einschränkungen auf:
 
    Weitere Informationen finden Sie unter [Informationen zum Vorbereiten von interaktiven Inhalten in einer ZIP-Datei für die Prüfung](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Übersicht über interaktive Inhaltsanalysen](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Siehe auch [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   Siehe auch [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-1. Klicken **Kommentar hinzufügen**.
+1. Klicks **Kommentar hinzufügen**.
 
    In einer Meldung werden Sie aufgefordert, die Browsererweiterung für interaktive Inhalte herunterzuladen.
 
-1. Klicken **Browser hinzufügen** , um zur Download-Seite der Erweiterung im Store Ihres Browsers zu wechseln, und laden Sie dann die Erweiterung herunter.
+1. Klicks **Browser hinzufügen** , um zur Download-Seite der Erweiterung im Store Ihres Browsers zu wechseln, und laden Sie dann die Erweiterung herunter.
 1. Klicken Sie im Web Proofing Viewer auf **Testversand erneut laden**.
 
 Wenn die Erweiterung im Browser installiert ist, erstellt der Testversand-Viewer jedes Mal einen statischen Screenshot Ihres Inhalts, wenn Sie auf **Kommentar hinzufügen**. In diesem Screenshot können Sie Kommentare mit Markups hinzufügen.

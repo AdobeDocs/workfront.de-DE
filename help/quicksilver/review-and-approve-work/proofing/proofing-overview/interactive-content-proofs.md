@@ -6,7 +6,7 @@ description: Interaktive Inhalte bieten mehrere Methoden zum Interagieren von Vi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Wenn Sie interaktive Inhalte in einer ZIP-Datei zum Testen bündeln, stellen Sie
 
 Nachdem Sie die ZIP-Bundle-Datei vorbereitet haben, erstellen Sie einen interaktiven Testversand.
 
-Weitere Informationen finden Sie unter [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+Weitere Informationen finden Sie unter [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 Wenn Sie Workfront Testversand verwenden, lesen Sie den Abschnitt . [Erstellen eines Testversands für interaktive Inhalte](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) im Artikel [Testsendungen in Workfront Testversand generieren](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

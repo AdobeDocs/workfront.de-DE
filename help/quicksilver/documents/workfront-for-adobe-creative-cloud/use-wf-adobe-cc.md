@@ -6,7 +6,7 @@ description: Mit der Workfront-Erweiterung können Sie digitale Inhalte, die Sie
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ So fordern Sie von einer Adobe-Anwendung eine Genehmigung für ein Dokument an:
 
 ## Testversand aus Illustrator oder InDesign generieren {#generate-a-proof-from-illustrator-or-indesign}
 
-Wenn Ihr Unternehmen Automated Workflow-Vorlagen verwendet, können Sie einen Testversand für ein in einer Adobe-Anwendung erstelltes Dokument erstellen, ohne die Anwendung verlassen zu müssen. Informationen zum Erstellen von Testsendungen finden Sie unter [Testsendungen erstellen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Informationen zu automatisierten Workflow-Vorlagen finden Sie unter [Automatisierte Workflow-Vorlagen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Übersicht über den automatisierten Workflow](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Wenn Ihr Unternehmen Automated Workflow-Vorlagen verwendet, können Sie einen Testversand für ein in einer Adobe-Anwendung erstelltes Dokument erstellen, ohne die Anwendung verlassen zu müssen. Informationen zum Erstellen von Testsendungen finden Sie unter [Testsendungen erstellen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Informationen zu automatisierten Workflow-Vorlagen finden Sie unter [Automatisierte Workflow-Vorlagen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Übersicht über den automatisierten Workflow](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
 1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **Fenster** > **Erweiterungen** > Workfront.
