@@ -3,20 +3,20 @@ product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Erstellen und Vergleichen von Planszenarien im Szenario-Planer
-description: Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Informationen, über die Sie am Anfang vielleicht nicht verfügen oder an die Sie nicht denken. Es braucht Zeit und Experimente, um zu einer endgültigen Strategie zu gelangen, die Ihre Stakeholder akzeptieren können. Die Durchführung einer "Was wäre wenn"-Analyse zur Erstellung mehrerer Szenarien für Ihren Plan kann Ihnen dabei helfen, potenzielle Umstände genau vorherzusagen und zu bewerten und letztendlich den bestmöglichen Plan zu entwickeln.
+description: Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Informationen, über die Sie am Anfang vielleicht nicht verfügen oder an die Sie nicht denken. Es braucht Zeit und Experimente, um zu einer endgültigen Strategie zu gelangen, die Ihre Interessengruppen akzeptieren können. Die Durchführung einer "Was wäre wenn"-Analyse zur Erstellung mehrerer Szenarien für Ihren Plan kann Ihnen dabei helfen, potenzielle Umstände genau vorherzusagen und zu bewerten und letztendlich den bestmöglichen Plan zu entwickeln.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
 
 # Erstellen und Vergleichen von Planszenarien in [!DNL Scenario Planner]
 
-Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Informationen, über die Sie am Anfang vielleicht nicht verfügen oder an die Sie nicht denken. Es braucht Zeit und Experimente, um zu einer endgültigen Strategie zu gelangen, die Ihre Stakeholder akzeptieren können. Die Durchführung einer &quot;Was wäre wenn&quot;-Analyse zur Erstellung mehrerer Szenarien für Ihren Plan kann Ihnen dabei helfen, potenzielle Umstände genau vorherzusagen und zu bewerten und letztendlich den bestmöglichen Plan zu entwickeln.
+Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Informationen, über die Sie am Anfang vielleicht nicht verfügen oder an die Sie nicht denken. Es braucht Zeit und Experimente, um zu einer endgültigen Strategie zu gelangen, die Ihre Interessengruppen akzeptieren können. Die Durchführung einer &quot;Was wäre wenn&quot;-Analyse zur Erstellung mehrerer Szenarien für Ihren Plan kann Ihnen dabei helfen, potenzielle Umstände genau vorherzusagen und zu bewerten und letztendlich den bestmöglichen Plan zu entwickeln.
 
 ## Zugriffsanforderungen
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> Plan*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
    <td>[!UICONTROL Business] oder höher</td> 
   </tr> 
   <tr> 
@@ -40,7 +40,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff bearbeiten oder höher auf [!DNL Scenario Planner]</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff bearbeiten oder höher auf [!DNL Scenario Planner]</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
@@ -53,7 +53,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Erstellen von Szenarien
 
-Ein Szenario ist eine Kopie eines Plans. Sie können beliebig viele Szenarien erstellen. Es wird jedoch empfohlen, die Anzahl der Szenarien auf ein Minimum zu beschränken, damit Sie sie einfach vergleichen können.
+Ein Szenario ist eine Kopie eines Plans. Sie können beliebig viele Szenarien erstellen. Wir empfehlen jedoch, die Anzahl der Szenarien auf ein Minimum zu beschränken, damit Sie sie einfach vergleichen können.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png)Klicken Sie auf [!UICONTROL Szenarien].
 
@@ -67,7 +67,7 @@ Ein Szenario ist eine Kopie eines Plans. Sie können beliebig viele Szenarien er
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie trägt automatisch den Namen[!UICONTROL Szenario 2]&quot;, wenn dies das zweite Szenario Ihres Plans ist, &quot;[!UICONTROL Szenario 3]&quot;, wenn es der dritte ist, und so weiter. Sie können Ihre Szenarien nicht umbenennen.
+   Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie trägt automatisch den Namen[!UICONTROL Szenario 2]&quot;, wenn dies das zweite Szenario Ihres Plans ist, &quot;[!UICONTROL Szenario 3]&quot;, wenn es der dritte ist, und so weiter. Sie können Ihre Szenarien nicht umbenennen. Die Anzahl der Exemplare, die Sie erstellen können, ist unbegrenzt.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -79,26 +79,26 @@ Ein Szenario ist eine Kopie eines Plans. Sie können beliebig viele Szenarien er
 
    * Erstellen, Aktualisieren oder Löschen von Initiativen
 
-      >[!TIP]
-      >
-      >Wenn Sie eine Initiative in einem Szenario löschen, wird sie nur aus dem ausgewählten Szenario und nicht aus allen Szenarien entfernt.
+     >[!TIP]
+     >
+     >Wenn Sie eine Initiative in einem Szenario löschen, wird sie nur aus dem ausgewählten Szenario und nicht aus allen Szenarien entfernt.
 
-      Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
    * Aktualisieren der Prioritäten Ihrer Initiativen
    * Personen- oder Budgetinformationen anpassen
    * Überprüfen und Anpassen von Initiativkonflikten in Ihrem Szenario
 
-      Informationen zur Konfliktlösung finden Sie unter [Lösung von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Informationen zur Konfliktlösung finden Sie unter [Beheben von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. Klicken **[!UICONTROL Plan speichern]** , um Ihre Änderungen zu speichern.
+1. Klicks **[!UICONTROL Plan speichern]** , um Ihre Änderungen zu speichern.
 
 ## Szenarios vergleichen
 
 Nachdem Sie Ihre Szenarien erstellt haben, können Sie diese vergleichen, um die beste für Ihre Organisation zu finden.
 
 1. Gehen Sie zu dem Plan, für den Sie Szenarien vergleichen möchten.
-1. Klicken **[!UICONTROL Szenarien vergleichen]**. Die Seite mit dem Szenario-Vergleich wird angezeigt.
+1. Klicks **[!UICONTROL Szenarien vergleichen]**. Die Seite mit dem Szenario-Vergleich wird angezeigt.
 
    Alle vorhandenen Szenarien für den Plan werden im Kartenformat nebeneinander angezeigt. Das anfängliche Szenario wird immer zuerst aufgeführt und ist statisch.
 
@@ -150,7 +150,7 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie diese vergleichen, um die
      </tr> 
      <tr> 
       <td>Konflikt</td> 
-      <td>Die Anzahl der Initiativen, die im Plan für dieses Szenario jede Art von Konflikten zeigen. Weitere Informationen zu Initiativkonflikten finden Sie unter <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Lösung von Initiativkonflikten im [!DNL Scenario Planner]</a>. </td> 
+      <td>Die Anzahl der Initiativen, die im Plan für dieses Szenario jede Art von Konflikten zeigen. Weitere Informationen zu Initiativkonflikten finden Sie unter <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Beheben von Initiativkonflikten im [!DNL Scenario Planner]</a>. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -166,9 +166,9 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie diese vergleichen, um die
 
 1. Klicken Sie auf den Namen eines Szenarios, um darauf zuzugreifen und Änderungen daran vorzunehmen.
 
-   Weitere Informationen finden Sie unter [Erstellen von Szenarien](#create-scenarios) in diesem Artikel.
+   Weitere Informationen finden Sie unter [Erstellen von Szenarien](#create-scenarios) in diesem Artikel beschrieben.
 
-1. Klicken **[!UICONTROL Beschreibung hinzufügen]** , um eine Beschreibung für das Szenario hinzuzufügen
+1. Klicks **[!UICONTROL Beschreibung hinzufügen]** , um eine Beschreibung für das Szenario hinzuzufügen
 
    Oder
 
@@ -186,4 +186,4 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie diese vergleichen, um die
 
    Informationen zum Löschen von Szenarien finden Sie unter [Löschen von Plänen in [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
-1. Klicken **[!UICONTROL Plan speichern]** um Ihre Szenarien und Ihren Plan zu speichern.
+1. Klicks **[!UICONTROL Plan speichern]** um Ihre Szenarien und Ihren Plan zu speichern.
