@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Antworten auf E-Mail-Benachrichtigungen
 description: Sie können auf Workfront-E-Mail-Benachrichtigungen antworten, die aus Kommentaren zu Projekten, Aufgaben, Problemen und anderen Objekten generiert wurden, um Antworten auf die ursprünglichen Kommentare in der Adobe Workfront-Anwendung hinzuzufügen.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ Sie haben folgende Möglichkeiten, auf eine Aktualisierung einer E-Mail-Benachri
 * Verwenden Sie die Schaltfläche Kommentar in der E-Mail, um zurück zu Workfront zu navigieren und auf die Aktualisierung im Bereich Updates zu antworten.
 * Antworten Sie auf die E-Mail, die Sie erhalten. Ihre Antwort-E-Mail wird als Workfront-Antwort auf den ursprünglichen Kommentar hinzugefügt.
 
+<!--
 >[!NOTE]
 >
->Die Antwort auf Updates per E-Mail ist für Umgebungen auf Cluster 6 nicht verfügbar.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 Sie können auf Workfront-E-Mails antworten, die aus Kommentaren generiert wurden, die an folgende Objekte gerichtet wurden:
 
@@ -48,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -108,6 +110,6 @@ So fügen Sie einer Workfront-E-Mail ein Update hinzu:
 1. Geben Sie Ihre Aktualisierung in die E-Mail-Antwort ein.
 
    Anhänge sind nicht zulässig und Rich-Text-Formatierungen, die auf eine Aktualisierung in einer E-Mail angewendet werden, werden nicht in der Aktualisierung angezeigt, wenn sie auf der Registerkarte Aktualisierungen angezeigt werden.
-1. Klicks **Senden**.
+1. Klicken Sie auf **Senden**.
 
    Ihre Aktualisierung wird als Antwort auf den Kommunikations-Thread des Objekts hinzugefügt.
