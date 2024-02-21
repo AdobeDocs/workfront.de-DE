@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Problem</p> </td> 
    <td> <p>Problemzuweisung</p> </td> 
    <td> <p>Benutzer, der das Problem zugewiesen hat</p> </td> 
-   <td> <p>Ich habe ein Problem.</p> <p>Der Problemverantwortliche erhält nur dann eine E-Mail-Benachrichtigung, wenn der Status des Projekts aktuell ist und der Status des Problems nicht geschlossen ist oder mit Geschlossen übereinstimmt.</p> <p>Benutzer mit einer Lizenz für Review oder Anfrage erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ich habe ein Problem.</p> <p>Der Problemverantwortliche erhält nur dann eine E-Mail-Benachrichtigung, wenn der Status des Projekts aktuell ist und der Status des Problems nicht geschlossen ist oder mit Geschlossen übereinstimmt.</p> <p>Benutzer mit einer Light-, Contributor-, Review- oder Request-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Aufgabenzuweisung</p> </td> 
    <td> <p>Benutzer, dem die Aufgabe zugewiesen wurde</p> </td> 
-   <td> <p>Ich bin der Hauptverantwortliche einer Aufgabe.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn er zum primären Verantwortlichen der Aufgabe gemacht wird, es sei denn, der Verantwortliche ist der Benutzer, der die Zuweisung vorgenommen hat.</p> <p>Eine Benachrichtigung wird gesendet, wenn der Projektstatus Aktuell ist und die Aufgabe nicht als abgeschlossen markiert ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ich bin der Hauptverantwortliche einer Aufgabe.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn er zum primären Verantwortlichen der Aufgabe gemacht wird, es sei denn, der Verantwortliche ist der Benutzer, der die Zuweisung vorgenommen hat.</p> <p>Eine Benachrichtigung wird gesendet, wenn der Projektstatus Aktuell ist und die Aufgabe nicht als abgeschlossen markiert ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Arbeitszeittabelle</p> </td> 
    <td> <p>Datenblatt Neu geöffnet</p> </td> 
    <td> <p>Benutzer, zu dem das Timesheet gehört</p> </td> 
-   <td> <p>Mein Timesheet wird wieder geöffnet.</p> <p>Der Eigentümer des Datenblatts erhält beim erneuten Öffnen des Datenblatts eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der das Datenblatt erneut geöffnet hat, ist auch Eigentümer des Datenblatts.</p> <p>Eine E-Mail-Benachrichtigung wird nur gesendet, wenn der Status des Zeitblatts "Open"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Mein Timesheet wird wieder geöffnet.</p> <p>Der Eigentümer des Datenblatts erhält beim erneuten Öffnen des Datenblatts eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der das Datenblatt erneut geöffnet hat, ist auch Eigentümer des Datenblatts.</p> <p>Eine E-Mail-Benachrichtigung wird nur gesendet, wenn der Status des Zeitblatts "Open"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Arbeitszeittabelle</p> </td> 
    <td> <p>Zurückweisung des Zeitplans</p> </td> 
    <td> <p>Benutzer, zu dem das Timesheet gehört</p> </td> 
-   <td> <p>Mein Timesheet wird abgelehnt.</p> <p>Der Besitzer des Datenblatts erhält eine E-Mail-Benachrichtigung, wenn das Datenblatt abgelehnt wird, es sei denn, der Benutzer, der das Datenblatt abgelehnt hat, ist ebenfalls Eigentümer.</p> <p>Eine E-Mail-Benachrichtigung wird nur gesendet, wenn der Status des Zeitblatts Abgelehnt ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Mein Timesheet wird abgelehnt.</p> <p>Der Besitzer des Datenblatts erhält eine E-Mail-Benachrichtigung, wenn das Datenblatt abgelehnt wird, es sei denn, der Benutzer, der das Datenblatt abgelehnt hat, ist ebenfalls Eigentümer.</p> <p>Eine E-Mail-Benachrichtigung wird nur gesendet, wenn der Status des Zeitblatts Abgelehnt ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Zuweisung</p> </td> 
    <td> <p>Arbeitselementanforderung</p> </td> 
    <td> <p>Mitglieder des Teams, für das der Artikel angefordert wird</p> </td> 
-   <td> <p>Mein Team erhält eine neue Arbeitsanfrage.</p> <p>Team-Mitglieder erhalten eine E-Mail-Benachrichtigung, wenn das Team eine neue Arbeitsanfrage erhält. (Der Benutzer, der die Anfrage gesendet hat, erhält keine Benachrichtigung, wenn er Mitglied des Teams ist.)</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Arbeitsanforderung aktuell ist und der Status der Arbeitsanforderung "Neu"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Mein Team erhält eine neue Arbeitsanfrage.</p> <p>Team-Mitglieder erhalten eine E-Mail-Benachrichtigung, wenn das Team eine neue Arbeitsanfrage erhält. (Der Benutzer, der die Anfrage gesendet hat, erhält keine Benachrichtigung, wenn er Mitglied des Teams ist.)</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Arbeitsanforderung aktuell ist und der Status der Arbeitsanforderung "Neu"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Zuweisung</p> </td> 
    <td> <p>Arbeitselementanforderung</p> </td> 
    <td> <p>Benutzer, für den das Arbeitselement angefordert wird</p> </td> 
-   <td> <p>Ich bekomme eine neue Arbeitsanfrage.</p> <p>Der Bevollmächtigte des Arbeitselements erhält eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Anfrage stellt, ist auch der Bevollmächtigte. </p> <p>Eine Benachrichtigung wird nicht gesendet, wenn der Aufgabenstatus Abgeschlossen oder der Problemstatus Abgeschlossen ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Anfrage aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ich bekomme eine neue Arbeitsanfrage.</p> <p>Der Bevollmächtigte des Arbeitselements erhält eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Anfrage stellt, ist auch der Bevollmächtigte. </p> <p>Eine Benachrichtigung wird nicht gesendet, wenn der Aufgabenstatus Abgeschlossen oder der Problemstatus Abgeschlossen ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Anfrage aktuell ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td>Aufgabe</td> 
    <td>Abschluss aller Vorgänger-Aufgaben</td> 
    <td>Abhängige Aufgaben zugewiesene Teammitglieder</td> 
-   <td> <p>Alle Vorgänger der Aufgaben des Teams sind fertig gestellt.</p> <p>Die Aufgabenempfänger (alle Mitglieder des Teams) erhalten eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Alle Vorgänger der Aufgaben des Teams sind fertig gestellt.</p> <p>Die Aufgabenempfänger (alle Mitglieder des Teams) erhalten eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td>Inaktiv</td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Abschluss aller Vorgänger-Aufgaben</p> </td> 
    <td> <p>Benutzer, der abhängigen Aufgaben zugewiesen ist</p> </td> 
-   <td> <p>Alle Vorgänger meiner Aufgaben sind abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Alle Vorgänger meiner Aufgaben sind abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Validierungsentscheidung</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
-   <td> <p>Ein von mir gelöstes Problem wird genehmigt oder abgelehnt.</p> <p>Der Verantwortliche eines Problems erhält eine E-Mail-Benachrichtigung, wenn eine Genehmigungsentscheidung getroffen (genehmigt oder abgelehnt) wird.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein von mir gelöstes Problem wird genehmigt oder abgelehnt.</p> <p>Der Verantwortliche eines Problems erhält eine E-Mail-Benachrichtigung, wenn eine Genehmigungsentscheidung getroffen (genehmigt oder abgelehnt) wird.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Validierungsentscheidung</p> </td> 
    <td> <p>Benutzer, dem die Aufgabe zugewiesen ist</p> </td> 
-   <td> <p>Eine Aufgabe, die ich abschließe, wird genehmigt oder abgelehnt.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe genehmigt oder abgelehnt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Eine Aufgabe, die ich abschließe, wird genehmigt oder abgelehnt.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe genehmigt oder abgelehnt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Problembeendigung</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
-   <td> <p>Ein Problem, dem ich zugewiesen bin, ist abgeschlossen.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein Problem, dem ich zugewiesen bin, ist abgeschlossen.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td> <p>Problem</p> </td> 
    <td> <p>Änderung des Problemstatus</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
-   <td> <p>Der Status ändert sich für eines meiner Arbeitselemente.</p> <p>Der Bevollmächtigte des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Status ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Bevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Der Status ändert sich für eines meiner Arbeitselemente.</p> <p>Der Bevollmächtigte des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Status ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Bevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Aufgabenabschluss</p> </td> 
    <td> <p>Benutzer, dem die Aufgabe zugewiesen ist</p> </td> 
-   <td> <p>Eine Aufgabe, der ich zugewiesen bin, ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe abgeschlossen ist. Nach Abschluss einer persönlichen Aufgabe werden keine Benachrichtigungen gesendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit der Lizenz "Review"oder "Anforderer"erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Eine Aufgabe, der ich zugewiesen bin, ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn die Aufgabe abgeschlossen ist. Nach Abschluss einer persönlichen Aufgabe werden keine Benachrichtigungen gesendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Light-, Contributor-, Review- oder Request-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Aufgabenabschluss</p> </td> 
    <td> <p>Benutzer, der der abhängigen Aufgabe zugewiesen ist</p> </td> 
-   <td> <p>Ein Vorgänger einer meiner Aufgaben ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn einer der Vorgänger seiner Aufgabe abgeschlossen ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein Vorgänger einer meiner Aufgaben ist abgeschlossen.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn einer der Vorgänger seiner Aufgabe abgeschlossen ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Statusänderung der Aufgabe</p> </td> 
    <td> <p>Benutzer, dem die Aufgabe zugewiesen ist</p> </td> 
-   <td> <p>Der Status ändert sich bei einer Aufgabe, der ich zugewiesen bin.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich der Status der Aufgabe ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Verantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung. </p> </td> 
+   <td> <p>Der Status ändert sich bei einer Aufgabe, der ich zugewiesen bin.</p> <p>Der Aufgabenverantwortliche erhält eine E-Mail-Benachrichtigung, wenn sich der Status der Aufgabe ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Verantwortliche.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich besitze](../
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokument hinzufügen</p> </td> 
    <td> <p>Projektbesitzer</p> </td> 
-   <td> <p>Ein Dokument wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, es sei denn, der Benutzer, der das Dokument hinzugefügt hat, ist auch Projektinhaber.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus Aktuell und das Dokument nicht Privat ist.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein Dokument wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, es sei denn, der Benutzer, der das Dokument hinzugefügt hat, ist auch Projektinhaber.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus Aktuell und das Dokument nicht Privat ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Problem hinzufügen</p> </td> 
    <td> <p>Projektbesitzer</p> </td> 
-   <td> <p>Ein Problem wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein Problem wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich besitze](../
    <td> <p>Problem</p> </td> 
    <td> <p>Problembeendigung</p> </td> 
    <td> <p>Projektbesitzer</p> </td> 
-   <td> <p>Ein Problem ist bei einem Projekt abgeschlossen, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein Problem ist bei einem Projekt abgeschlossen, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich besitze](../
    <td> <p>Problem</p> </td> 
    <td> <p>Nicht zugewiesenes Problem hinzufügen</p> </td> 
    <td> <p>Projektbesitzer</p> </td> 
-   <td> <p>Ein nicht zugewiesenes Problem wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein nicht zugewiesenes Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Ein nicht zugewiesenes Problem wird zu einem Projekt hinzugefügt, dessen Eigentümer ich bin.</p> <p>Der Projekteigentümer erhält eine E-Mail-Benachrichtigung, wenn dem Projekt ein nicht zugewiesenes Problem hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus "Aktuell"oder "Planung"lautet.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p>Projektbenutzer</p> </td> 
    <td> <p>Projekt-Benutzer hinzufügen</p> </td> 
    <td> <p>Ressourceneigentümer</p> </td> 
-   <td> <p>Einer meiner Mitarbeiter wird einem Projekt hinzugefügt.</p> <p>Ein Manager erhält eine E-Mail-Benachrichtigung, wenn einem Projekt ein direkter Bericht hinzugefügt wird.</p> <p>Benutzer mit einer Überprüfungslizenz erhalten keine Benachrichtigung.</p> </td> 
+   <td> <p>Einer meiner Mitarbeiter wird einem Projekt hinzugefügt.</p> <p>Ein Manager erhält eine E-Mail-Benachrichtigung, wenn einem Projekt ein direkter Bericht hinzugefügt wird.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
