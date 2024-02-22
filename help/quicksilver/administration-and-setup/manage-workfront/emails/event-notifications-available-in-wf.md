@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: In Adobe Workfront verfügbare Ereignisbenachrichtigungen
+title: Typen von Ereignisbenachrichtigungen
 description: Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen auf Objekten wie Projekten, Aufgaben und Problemen ausgelöst werden. In diesem Artikel werden die verfügbaren Arten von Ereignisbenachrichtigungen aufgeführt und beschrieben.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5121'
 ht-degree: 8%
 
 ---
 
-# In Adobe Workfront verfügbare Ereignisbenachrichtigungen
+# Typen von Ereignisbenachrichtigungen
 
 <!-- Audited: 1/2024 -->
 

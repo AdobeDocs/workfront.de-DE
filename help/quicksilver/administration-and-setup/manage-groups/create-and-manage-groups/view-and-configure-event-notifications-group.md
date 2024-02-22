@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Die Konfiguration einer Ereignisbenachrichtigung für eine Gruppe wirkt sich auf
 
 Informationen dazu, wie ein Workfront-Administrator eine Ereignisbenachrichtigung entsperrt, finden Sie unter [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Informationen zur standardmäßigen Benachrichtigungseinstellung für ein Ereignis finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Informationen zur standardmäßigen Benachrichtigungseinstellung für ein Ereignis finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Zugriffsanforderungen
 
@@ -40,7 +40,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -53,7 +53,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Anzeigen und Konfigurieren von Ereignisbenachrichtigungen einer Gruppe
 
-1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite E-Mail-Benachrichtigungen befinden (Einrichtung > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann zu Schritt 6 überspringen: Löschen **Systemereignisbenachrichtigungen** Geben Sie in das Feld oberhalb der Liste den Gruppennamen in das Feld ein und klicken Sie dann auf die Gruppenname, sobald sie angezeigt wird.
+1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite &quot;E-Mail-Benachrichtigungen&quot;befinden (Einrichtung > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann zu Schritt 6 &quot;Löschen&quot;überspringen. **Systemereignisbenachrichtigungen** Geben Sie in das Feld oberhalb der Liste den Gruppennamen in das Feld ein und klicken Sie dann auf die Gruppenname, sobald sie angezeigt wird.
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
@@ -63,7 +63,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    In der angezeigten Liste wird die **Aktiv** zeigt links an, welche Benachrichtigungen für die Gruppe aktiv (blau) und inaktiv (grau) sind.
 
-1. So aktivieren oder deaktivieren Sie eine Benachrichtigung zum entsperrten Ereignis: Klicken Sie auf die Schaltfläche im <strong>Aktiv</strong> Spalte aktivieren <img src="assets/email-notification-enabled-unlocked.png"> oder deaktivieren Sie <img src="assets/email-notification-disabled-unlocked.png"> es.
+1. So aktivieren oder deaktivieren Sie eine Benachrichtigung zum entsperrten Ereignis: Klicken Sie auf die Schaltfläche im <strong>Aktiv</strong> zu aktivierende Spalte <img src="assets/email-notification-enabled-unlocked.png"> oder deaktivieren Sie <img src="assets/email-notification-disabled-unlocked.png"> es.
 
    >[!INFO]
    >
@@ -71,8 +71,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist grau und abgeblendet <img src="assets/email-notification-disabled-locked.png">, wird die Ereignisbenachrichtigung für alle Benutzer deaktiviert und Gruppenadministratoren können sie nicht aktivieren oder die Betreffzeile der E-Mail bearbeiten
    >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist grau und nicht abgeblendet <img src="assets/email-notification-disabled-unlocked.png">, lautet die Ereignisbenachrichtigung . <strong>deaktiviert für alle Benutzer und</strong> -Gruppenadministratoren können sie für ihre Gruppen aktivieren.
    >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist blau und abgeblendet <img src="assets/email-notification-enabled-locked.png">, wird die Ereignisbenachrichtigung für alle Benutzer aktiviert und Gruppenadministratoren können sie nicht deaktivieren oder die E-Mail-Betreffzeile für ihre Gruppen bearbeiten.
-   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist blau und nicht abgeblendet <img src="assets/email-notification-enabled-unlocked.png">, lautet die Ereignisbenachrichtigung . <strong>für alle Benutzer aktiviert und</strong> -Gruppenadministratoren können sie für ihre Gruppen deaktivieren.
-
+   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> -Spalte ist blau und nicht abgeblendet <img src="assets/email-notification-enabled-unlocked.png">, lautet die Ereignisbenachrichtigung . <strong>für alle Benutzer aktiviert und</strong> -Gruppenadministratoren können sie für ihre Gruppen deaktivieren.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

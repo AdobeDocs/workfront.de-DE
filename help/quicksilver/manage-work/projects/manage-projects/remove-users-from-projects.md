@@ -6,16 +6,16 @@ description: Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht me
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Entfernen von Benutzern aus Projekten
 
-Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht mehr an der Bearbeitung des Projekts beteiligt sind. Das Entfernen von Benutzern aus Projekten wirkt sich auf Aufgaben- und Problemzuweisungen sowie auf Projektrollen aus. Entfernte Benutzer erhalten keine Benachrichtigungen mehr für das Projektteam. Weitere Informationen zu Benachrichtigungen für die Projektteams finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht mehr an der Bearbeitung des Projekts beteiligt sind. Das Entfernen von Benutzern aus Projekten wirkt sich auf Aufgaben- und Problemzuweisungen sowie auf Projektrollen aus. Entfernte Benutzer erhalten keine Benachrichtigungen mehr, die für das Projektteam vorgesehen sind. Weitere Informationen zu Benachrichtigungen für die Projektteams finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Die mit einem Projekt verknüpften Benutzer werden im Bereich Personen eines Projekts aufgelistet. Sie vertreten das Projektteam. Weitere Informationen zum Projektteam finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -73,10 +73,10 @@ So entfernen Sie Benutzer aus dem Projektteam:
 
 1. Wechseln Sie zu dem Projekt, aus dem Sie die Benutzer entfernen möchten.
 
-1. Klicken **Personen** Wählen Sie im linken Bereich die Benutzer aus, die Sie entfernen möchten. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Personen**.
+1. Klicks **Personen** Wählen Sie im linken Bereich die Benutzer aus, die Sie entfernen möchten. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Personen**.
 
 1. Klicken Sie auf **Entfernen** icon  ![Element entfernen](assets/remove-icon---x-in-circle.png) oben in der Liste der Benutzer.
 
-1. Klicken **Ja, ausgewählte Benutzer entfernen** zur Bestätigung der Entfernung.
+1. Klicks **Ja, ausgewählte Benutzer entfernen** zur Bestätigung der Entfernung.
 
    Die Benutzer werden aus dem Projektteam entfernt und von unvollständigen Aufgaben oder Problemen, denen sie möglicherweise zugewiesen sind. Sie erhalten keine Benachrichtigungen mehr für das Projektteam.

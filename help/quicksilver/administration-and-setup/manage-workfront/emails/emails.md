@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Seite &quot;E-Mail-Benachrichtigungen&quot;](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-* [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+* [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Anpassen von E-Mail-Betreffs für Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer ändern](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

@@ -6,9 +6,9 @@ description: Der Prozess der Genehmigung von Timesheets bietet Managern einen Ei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -54,14 +54,14 @@ Weitere Informationen zur Benennung von Zeitblatt-Genehmigern finden Sie im Absc
 
 ## Timesheet genehmigen
 
-Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung vorgelegt wird, wird das Timesheet im **Genehmigungen** -Bereich **Startseite**  Seite. Weitere Informationen finden Sie unter [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung vorgelegt wird, wird das Timesheet im **Genehmigungen** -Bereich auf **Startseite**  Seite. Weitere Informationen finden Sie unter [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Typen von Ereignisbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 So validieren Sie ein Zeitblatt:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken **Timesheets**.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicks **Timesheets**.
 1. Wählen Sie die **Meine Datenblatt-Genehmigungen** oben rechts auf der Seite, um nur die von Ihnen genehmigten Timesheets anzuzeigen
 
    Oder
@@ -73,17 +73,22 @@ So validieren Sie ein Zeitblatt:
    >[!NOTE]
    >
    >Die Option &quot;Meine Timesheet-Genehmigungen&quot;wird nicht oben in der Liste der Zeitblätter oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator den Filter Meine Zeitblatt-Genehmigungen entweder aus dem Bereich &quot;Listen-Steuerelemente&quot;im Bereich &quot;Einstellungen&quot;oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
-   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >
+   >   
+   >   
+   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
 1. (Optional) Klicken Sie auf die **suchen** icon ![](assets/search-icon.png) am Anfang der Timesheet-Liste und geben Sie einen Suchbegriff ein, um nach einem bestimmten Timesheet zu suchen. Sie können nach einem Zeitrahmen, nach dem Namen eines Eigentümers oder Genehmigers suchen.
 1. Klicken Sie auf den Zeitrahmen des zu validierenden Zeitplans. Das Timesheet wird geöffnet.
 
    >[!TIP]
-   Timesheets, die auf die Genehmigung warten, haben den Status [!UICONTROL Gesendet].
+   >
+   >Timesheets, die auf die Genehmigung warten, haben den Status [!UICONTROL Gesendet].
 
 
-1. Klicken **Genehmigen**
+1. Klicks **Genehmigen**
 
    Oder
 
@@ -91,4 +96,4 @@ So validieren Sie ein Zeitblatt:
 
    Wenn die Genehmigung erteilt wurde, ändert sich der Status des Zeitblatts in **Geschlossen**.
 
-   Wenn die Änderung abgelehnt wird, ändert sich der Status des Zeitblatts in **Zurückgewiesen**.
+   Wenn die Änderung abgelehnt wird, ändert sich der Status des Zeitblatts in **Abgelehnt**.

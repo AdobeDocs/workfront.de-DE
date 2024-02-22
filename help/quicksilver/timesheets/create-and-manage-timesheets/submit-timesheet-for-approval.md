@@ -6,9 +6,9 @@ description: Durch die Übermittlung Ihres Zeitblatts zur Genehmigung erhalten S
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -59,31 +59,31 @@ So senden Sie ein Datenblatt zur Genehmigung:
 
 1. Gehen Sie zu einem Timesheet, das für einen Genehmiger konfiguriert wurde.
 1. Protokollzeit, wie unter [Protokollzeit](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Klicken **Zur Genehmigung einreichen** , um den Prozess der Billigung des Zeitplans zu starten.
+1. Klicks **Zur Genehmigung einreichen** , um den Prozess der Billigung des Zeitplans zu starten.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   Die **Zur Genehmigung einreichen** -Schaltfläche ersetzt durch **Genehmigen**, **Ablehnen** und **Rückruf** Schaltflächen. Der Status des Zeitblatts ändert sich in **Gesendet**.
+   Die **Zur Genehmigung einreichen** -Schaltfläche ersetzt durch **Genehmigen**, **Ablehnen**, und **Rückruf** Schaltflächen. Der Status des Zeitblatts ändert sich in **Gesendet**.
 
    Wenn Ihr Timesheet zur Genehmigung eingereicht wird, sieht der Genehmiger das im **Genehmigungen** Bereich auf **Startseite** Seite. Folgendes kann vorkommen:
 
    * Wenn sie sie genehmigen, wird die **Rückruf** Schaltflächenänderungen in **Erneutes Öffnen** und der Zeitdatenblatt-Status aktualisiert sich in **Öffnen**.
-   * Wenn sie ihn ablehnen, wird die **Zur Genehmigung einreichen** -Schaltfläche ersetzt die **Rückruf** Schaltfläche und Status des Zeitplans aktualisiert sich in **Zurückgewiesen**.
+   * Wenn sie ihn ablehnen, wird die **Zur Genehmigung einreichen** -Schaltfläche ersetzt die **Rückruf** Schaltfläche und Status des Zeitplans aktualisiert sich in **Abgelehnt**.
 
-1. (Optional) Klicken Sie auf **Rückruf** wenn Sie das Timesheet erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie unter [Zeitblatt zurückrufen](#recall-a-timesheet) in diesem Artikel.
+1. (Optional) Klicken Sie auf **Rückruf** , wenn Sie das Timesheet erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie unter [Zeitblatt zurückrufen](#recall-a-timesheet) in diesem Artikel beschrieben.
 
 ### Status eines gesendeten Zeitblatts anzeigen {#view-the-status-of-a-submitted-timesheet}
 
 Sie können den Status eines Timesheets nach dem Senden anzeigen.
 
-Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Typen von Ereignisbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Ohne diese Benachrichtigungen können Sie über den Status Ihrer gesendeten Timesheets im Timesheet-Bereich von Workfront informiert werden.
 
 So zeigen Sie den Status eines Zeitblatts an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken **Timesheets**. Die **Alle** -Filter ist standardmäßig ausgewählt.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicks **Timesheets**. Die **Alle** -Filter ist standardmäßig ausgewählt.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
@@ -91,15 +91,16 @@ So zeigen Sie den Status eines Zeitblatts an:
 
    * Auswählen **Meine Datenblatt-Genehmigungen** oben rechts auf der Seite, um nur die von Ihnen genehmigten Timesheets anzuzeigen
 
-      Oder
+     Oder
 
-      Auswählen **Meine Timesheets** , um nur Ihre Timesheets anzuzeigen.
+     Auswählen **Meine Timesheets** , um nur Ihre Timesheets anzuzeigen.
 
-      Dadurch wird die Liste der Timesheets mit den Filtern My Timesheet Approvals oder My Timesheet aktualisiert.
+     Dadurch wird die Liste der Timesheets mit den Filtern My Timesheet Approvals oder My Timesheet aktualisiert.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Die Optionen Meine Timesheet-Genehmigungen und Meine Timesheets werden nicht oben in der Timesheet-Liste oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator die Filter Meine Timesheet-Genehmigungen und Meine Timesheets entweder aus den Listen-Steuerelementen im Bereich Einrichtung oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
@@ -107,9 +108,10 @@ So zeigen Sie den Status eines Zeitblatts an:
    >   
    >   
    >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
-
-1. (Bedingt) Wenn Sie ausgewählt haben **Meine Timesheets** stellen sicher, dass **Standard** -Ansicht angewendet wird und beachten Sie, dass **Status** Spalte.
+1. (Bedingt) Bei Auswahl von **Meine Timesheets** stellen sicher, dass **Standard** -Ansicht angewendet wird und beachten Sie, dass **Status** Spalte.
 
    Timesheets können die folgenden Status aufweisen:
 
@@ -118,12 +120,12 @@ So zeigen Sie den Status eines Zeitblatts an:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Öffnen</td> 
-      <td> <p>Ihr Timesheet ist derzeit geöffnet und Sie können die Zeit protokollieren. </p> <p>Ein zurückgerufenes Timesheet wird mit dem Status "Open"angezeigt. Weitere Informationen finden Sie unter <a href="#recall-a-timesheet" class="MCXref xref">Zeitblatt zurückrufen</a> in diesem Artikel. </p> </td> 
+      <td role="rowheader">Offen</td> 
+      <td> <p>Ihr Timesheet ist derzeit geöffnet und Sie können die Zeit protokollieren. </p> <p>Ein zurückgerufenes Timesheet wird mit dem Status "Open"angezeigt. Weitere Informationen finden Sie unter <a href="#recall-a-timesheet" class="MCXref xref">Zeitblatt zurückrufen</a> in diesem Artikel beschrieben. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gesendet</td> 
-      <td>Sie haben Ihr Datenblatt zur Genehmigung eingereicht, aber es wurde noch nicht genehmigt. Sie können sich an ein gesendetes Zeitblatt erinnern, um es weiter zu bearbeiten. Weitere Informationen finden Sie unter <a href="#recall-a-timesheet" class="MCXref xref">Zeitblatt zurückrufen</a> in diesem Artikel. </td> 
+      <td>Sie haben Ihr Datenblatt zur Genehmigung eingereicht, aber es wurde noch nicht genehmigt. Sie können sich an ein gesendetes Zeitblatt erinnern, um es weiter zu bearbeiten. Weitere Informationen finden Sie unter <a href="#recall-a-timesheet" class="MCXref xref">Zeitblatt zurückrufen</a> in diesem Artikel beschrieben. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geschlossen</td> 
@@ -146,11 +148,11 @@ Sie können sich an ein bereits zur Validierung eingestelltes Timesheet erinnern
 
 So rufen Sie ein Zeitblatt auf:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Timesheets**.
-1. Klicken **Meine Timesheets** in der oberen rechten Ecke des Bildschirms klicken oder **Meine Timesheets** von **Filter** ![](assets/filter-nwepng.png) Dropdown-Menü.
+1. Klicks **Timesheets**.
+1. Klicks **Meine Timesheets** in der oberen rechten Ecke des Bildschirms klicken oder **Meine Timesheets** aus dem **Filter** ![](assets/filter-nwepng.png) Dropdown-Menü.
 1. Klicken Sie auf den Zeitrahmen für ein Zeitblatt mit dem Status **Gesendet**.
-1. Klicken **Rückruf**.
+1. Klicks **Rückruf**.
 
    Das Timesheet wird erneut bearbeitbar und erhält den Status **Öffnen**.

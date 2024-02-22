@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -96,8 +96,8 @@ Sie können dem Projektteam auf folgende Weise Benutzer hinzufügen:
 
 Die Benutzer, die die folgenden Rollen im Projekt erfüllen, werden automatisch zum Projektteam hinzugefügt und erscheinen beim Erstellen des Projekts im Abschnitt Personen .
 
-* Der Verfasser des Projekts
-* Projekteigentümer
+* Der Ersteller des Projekts
+* Projektinhaber
 * Der Projektsponsor
 
 Benutzer werden auch automatisch zum Projektteam hinzugefügt, wenn sie den folgenden Benutzern zugewiesen sind:
@@ -109,7 +109,7 @@ Benutzer werden auch automatisch zum Projektteam hinzugefügt, wenn sie den folg
 
 Wenn Benutzer, die keine Rolle im Projekt erfüllen, über bestimmte Aktualisierungen oder Änderungen während der Projektlaufzeit benachrichtigt werden möchten, können Sie sie manuell zum Projektteam hinzufügen.
 
-Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektteams aktiviert werden können, finden Sie unter [In Adobe Workfront verfügbare Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektteams aktiviert werden können, finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,9 +121,9 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektt
 
 1. Wechseln Sie zu dem Projekt, dem Sie Benutzer hinzufügen möchten.
 
-1. Klicken **Personen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
+1. Klicks **Personen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
 
-1. Klicken **Benutzer hinzufügen**.
+1. Klicks **Benutzer hinzufügen**.
 
    Das Dialogfeld Benutzer zum Projektteam hinzufügen wird angezeigt.
 
@@ -141,7 +141,7 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektt
    >  Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Klicken **Hinzufügen**.
+1. Klicks **Hinzufügen**.
 
    Die Benutzer erhalten Ansichtsberechtigungen für das Projekt und erhalten Benachrichtigungen über das Projekt als Teil des Projektteams.
 
