@@ -3,11 +3,12 @@ content-type: overview
 title: Zusammenfassungsübersicht
 description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 2%
+source-wordcount: '931'
+ht-degree: 1%
 
 ---
 
@@ -81,8 +82,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -90,18 +91,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Aufgaben, Probleme, Dokumente</p> <p>[!UICONTROL Ansicht] oder höher Zugriff auf alle Objekte, für die Sie Dokumente anzeigen möchten [!UICONTROL Zusammenfassung]</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Aufgaben, Probleme, Dokumente</p> <p>[!UICONTROL Ansicht] oder höher Zugriff auf alle Objekte, für die Sie die Dokumentzusammenfassung anzeigen möchten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für eine Aufgabe, ein Problem oder ein Dokument</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für Aufgaben, Probleme oder Dokumente</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-## Anzeigen der [!UICONTROL Zusammenfassung] Bedienfeld in einer Liste von Aufgaben oder Problemen
+## Anzeigen der [!UICONTROL Zusammenfassung] in einer Liste von Aufgaben oder Problemen
 
 1. Markieren Sie eine Aufgabe oder ein Problem und wählen Sie ein Element in der Liste aus.
 1. Klicken Sie auf **[!UICONTROL Zusammenfassung]** icon ![](assets/qs-summary-in-new-toolbar-small.png)
@@ -114,9 +115,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Sie können nur eine Aufgabe oder ein Problem gleichzeitig auswählen, um ihre Details im [!UICONTROL Zusammenfassung] Bereich.
+   >Sie können nur eine Aufgabe oder ein Problem gleichzeitig auswählen, um ihre Details im [!UICONTROL Zusammenfassung] Bedienfeld.
 
-   ![Zusammenfassungsbereich](assets/summary-panel-for-task.png)
+   ![Zusammenfassungsbereich](assets/summary-panel-for-task-new-comments.png)
 
 1. (Optional) So schließen Sie die [!UICONTROL Zusammenfassung] einen der folgenden Schritte ausführen:
 
@@ -124,9 +125,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Oder
 
-     Klicken Sie auf **X** rechts oben im [!UICONTROL Zusammenfassung] Bereich.
+     Klicken Sie auf **X** rechts oben im [!UICONTROL Zusammenfassung] Bedienfeld.
 
-   * Im [!UICONTROL Gesendet] Abschnitt [!UICONTROL Anforderungen] Bereich, klicken Sie auf **[!UICONTROL Zusammenfassung schließen]** icon ![](assets/close-summary-with-text-nwe.png)
+   * Im [!UICONTROL Gesendet] Abschnitt [!UICONTROL Anforderungen] Bereich, klicken Sie auf die **[!UICONTROL Zusammenfassung schließen]** icon ![](assets/close-summary-with-text-nwe.png)
 
      Oder
 
@@ -136,52 +137,52 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Verwenden Sie die Fortschrittsleiste oben im [!UICONTROL Zusammenfassung] , um den Prozentsatz zu aktualisieren, der für die ausgewählte Aufgabe oder das ausgewählte Problem abgeschlossen ist. Geben Sie eine Zahl ein oder ziehen Sie die Leiste auf den richtigen Prozentsatz.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Prozent abgeschlossen im Bereich &quot;Zusammenfassung&quot;](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
-Verwenden Sie die [!UICONTROL Updates] Abschnitt [!UICONTROL Zusammenfassung] , um aktuelle Aktualisierungen anzuzeigen und Aktualisierungen zu der von Ihnen ausgewählten Aufgabe oder Ausgabe vorzunehmen. Klicken **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Updates] Registerkarte der Aufgabe.
+Verwenden Sie die [!UICONTROL Updates] Abschnitt [!UICONTROL Zusammenfassung] , um aktuelle Aktualisierungen anzuzeigen und Aktualisierungen zu der ausgewählten Aufgabe oder Ausgabe vorzunehmen. Klicks **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Updates] Registerkarte der Aufgabe.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section.png)
 
 ## [!UICONTROL Dokumente]
 
-Verwenden Sie die [!UICONTROL Dokumente] Abschnitt [!UICONTROL Zusammenfassung] , um Dokumente anzuzeigen, die an die ausgewählte Aufgabe oder das ausgewählte Problem angehängt sind. Klicken Sie auf die Miniaturansicht, um eine Dokumentvorschau zu öffnen. So wechseln Sie direkt zum [!UICONTROL Dokumente] auf der Registerkarte der Aufgabe oder des Problems klicken Sie auf **[!UICONTROL Dokumente]** title.
+Verwenden Sie die [!UICONTROL Dokumente] Abschnitt [!UICONTROL Zusammenfassung] , um Dokumente anzuzeigen, die an die ausgewählte Aufgabe oder das ausgewählte Problem angehängt sind. Klicken Sie auf die Miniaturansicht, um eine Dokumentvorschau zu öffnen. So wechseln Sie direkt zum [!UICONTROL Dokumente] auf der Registerkarte der Aufgabe oder des Problems auf **[!UICONTROL Dokumente]** title.
 
-![](assets/summary-overview-documents-350x84.png)
+![Abschnitt &quot;Dokumente&quot;im Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
-Verwenden Sie die [!UICONTROL Details] Abschnitt [!UICONTROL Zusammenfassung] , um allgemeine Details zu Arbeitselementen anzuzeigen, Zuweisungen vorzunehmen oder Startdaten hinzuzufügen. Klicken **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Details] auf die Aufgabe oder das Problem.
+Verwenden Sie die [!UICONTROL Details] Abschnitt [!UICONTROL Zusammenfassung] , um allgemeine Details zu Arbeitselementen anzuzeigen, Zuweisungen vorzunehmen oder Startdaten hinzuzufügen. Klicks **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Details] auf die Aufgabe oder das Problem.
 
 >[!NOTE]
 >
 >Die in diesem Abschnitt angezeigten Felder sind dieselben, die im rechten Bereich auf der Startseite angezeigt werden. Diese Felder können angepasst werden [Anpassen [!UICONTROL Startseite] und [!UICONTROL Zusammenfassung] Layout-Vorlage verwenden](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Detailabschnitt im Bereich &quot;Zusammenfassung&quot;](assets/summary-details-section.png)
 
-## [!UICONTROL Teilaufgaben]
+## [!UICONTROL Unteraufgaben]
 
-Dieser Abschnitt ist nur für Aufgaben verfügbar. Verwenden Sie die [!UICONTROL Unteraufgaben] Abschnitt [!UICONTROL Zusammenfassung] in Ansicht [!UICONTROL Neu], [!UICONTROL In Bearbeitung]und [!UICONTROL Geschlossen] Unteraufgaben für die ausgewählte Aufgabe. Klicken Sie auf **[!UICONTROL Status]** Dropdown-Menü, um zwischen Status zu wechseln. So wechseln Sie direkt zum [!UICONTROL Unteraufgaben] auf der Registerkarte der Aufgabe klicken Sie auf **[!UICONTROL Unteraufgaben]**&#x200B; Titel.
+Dieser Abschnitt ist nur für Aufgaben verfügbar. Verwenden Sie die [!UICONTROL Unteraufgaben] Abschnitt [!UICONTROL Zusammenfassung] in der Ansicht [!UICONTROL Neu], [!UICONTROL In Bearbeitung], und [!UICONTROL Geschlossen] Unteraufgaben für die ausgewählte Aufgabe. Klicken Sie auf **[!UICONTROL Status]** Dropdown-Menü, um zwischen Status zu wechseln. So wechseln Sie direkt zum [!UICONTROL Unteraufgaben] auf der Registerkarte der Aufgabe klicken Sie auf **[!UICONTROL Unteraufgaben]**&#x200B; Titel.
 
 Wenn Sie der Aufgabe keine Unteraufgaben hinzugefügt haben, klicken Sie auf **[!UICONTROL Einen hier hinzufügen]** , um direkt zur [!UICONTROL Unteraufgaben] Registerkarte der Aufgabe.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Bereich &quot;Unteraufgaben&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Stunden]
 
-Verwenden Sie die [!UICONTROL Stunden] Abschnitt [!UICONTROL Zusammenfassung] , um Stunden zur ausgewählten Aufgabe oder Ausgabe zu protokollieren. Klicken **[!UICONTROL Protokollzeit]** und geben Sie Ihre Stunden ein. Um direkt zur Registerkarte Stunden der Aufgabe oder des Problems zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Stunden]** title.
+Verwenden Sie die [!UICONTROL Stunden] Abschnitt [!UICONTROL Zusammenfassung] , um Stunden zur ausgewählten Aufgabe oder Ausgabe zu protokollieren. Klicks **[!UICONTROL Protokollzeit]** und geben Sie Ihre Stunden ein. Um direkt zur Registerkarte Stunden der Aufgabe oder des Problems zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Stunden]** title.
 
 Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die Stunden an, die Sie protokollieren. Andere Benutzer haben unterschiedliche Stundensummen in der [!UICONTROL Zusammenfassung] abhängig von der Zeit, zu der sie sich bei der Aufgabe anmelden.
 
 Wenn es keine Planung gibt [!UICONTROL Stunden] bei der Aufgabe oder dem Problem angezeigt und Sie die Zeit protokolliert haben, wird die Stunden-Leiste rot angezeigt.
 
-![](assets/summary-overview-hours-350x96.png)
+![Abschnitt &quot;Stunden&quot;im Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-hours-section.png)
 
 ## Genehmigungen
 
-Verwenden Sie die [!UICONTROL Genehmigungen] Abschnitt [!UICONTROL Zusammenfassung] , um die an die ausgewählte Aufgabe oder das ausgewählte Problem angehängten Genehmigungen anzuzeigen. Wenn Sie noch keine Validierungen hinzugefügt haben, wählen Sie eine vorhandene Validierung aus dem Dropdown-Menü aus oder klicken Sie auf **[!UICONTROL Erstellen eines einmaligen Genehmigungsprozesses]** , um direkt zur [!UICONTROL Genehmigungen] auf die Aufgabe oder das Problem.
+Verwenden Sie die [!UICONTROL Genehmigungen] Abschnitt [!UICONTROL Zusammenfassung] , um Genehmigungen anzuzeigen, die mit der ausgewählten Aufgabe oder Ausgabe verbunden sind. Wenn Sie noch keine Validierungen hinzugefügt haben, wählen Sie eine vorhandene Validierung aus dem Dropdown-Menü aus oder klicken Sie auf **[!UICONTROL Erstellen eines Validierungsprozesses für den einmaligen Einsatz]** , um direkt zur [!UICONTROL Genehmigungen] auf die Aufgabe oder das Problem.
 
-So wechseln Sie direkt zum [!UICONTROL Genehmigungen] auf der Registerkarte der Aufgabe oder des Problems klicken Sie auf **[!UICONTROL Genehmigungen]** title.
+So wechseln Sie direkt zum [!UICONTROL Genehmigungen] auf der Registerkarte der Aufgabe oder des Problems auf **[!UICONTROL Genehmigungen]** title.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Abschnitt &quot;Genehmigungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-approvals-section.png)

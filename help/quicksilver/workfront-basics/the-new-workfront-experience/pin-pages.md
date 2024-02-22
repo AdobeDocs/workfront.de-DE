@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Seiten fixieren, um Ihren Arbeitsbereich anzupassen
 description: Sie können Ihre wichtigste Arbeit [!DNL Adobe Workfront] für mehr Sichtbarkeit, bessere Organisation und schnelleren Zugriff. Eingeheftete Seiten können immer oben auf jeder Seite in Workfront aufgerufen werden.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,8 +29,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -43,11 +43,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Eine Seite anheften
 
-1. Gehen Sie zur Seite, die Sie veröffentlichen möchten.
+1. Navigieren Sie zur Seite, die Sie veröffentlichen möchten.
 
    Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anforderungswarteschlange usw.
 
-1. Klicken **[!UICONTROL Aktuelle Seite fixieren]** oben auf der Seite.
+1. Klicks **[!UICONTROL Aktuelle Seite fixieren]** oben auf der Seite.
 
    Die fixierte Seite kann jetzt von jeder Seite aus aufgerufen werden in [!DNL Workfront].
 
@@ -74,7 +74,7 @@ Sie können den Namen einer fixierten Seite so ändern, dass er für Sie aussage
 
    ![Pin umbenennen](assets/rename-remove-pin.png)
 
-1. Geben Sie den neuen Pin-Namen ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.
+1. Geben Sie den Namen des neuen Pins ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.
 
    ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen.](assets/rename-pin-click-checkmark.png)
 
@@ -91,12 +91,12 @@ Sie können die Reihenfolge der eingefügten Seiten neu anordnen.
 ## Eine fixierte Seite entfernen
 
 1. Klicken Sie auf die fixierte Seite, die Sie entsperren möchten.
-1. Klicken **[!UICONTROL Aktuelle Seite aufheben]** oben auf dem Bildschirm.
+1. Klicks **[!UICONTROL Aktuelle Seite aufheben]** oben auf dem Bildschirm.
 
    Oder
 
    Klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **[!UICONTROL Stecknadel entfernen]**.
 
-   ![Pin entfernen](assets/rename-remove-pin.png)
+   ![Stecknadel entfernen](assets/rename-remove-pin.png)
 
    Die Seite kann nicht mehr oben auf einer Seite in [!DNL Workfront].
