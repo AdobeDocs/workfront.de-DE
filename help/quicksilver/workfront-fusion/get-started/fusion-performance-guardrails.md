@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
 
 Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Workfront Fusion] ist für hohe Leistung ausgelegt. Da langwierige Szenarien das Tempo Ihrer Arbeit verlangsamen können, haben wir [!DNL Workfront Fusion] mit leistungserhaltenden Limits, die die Ausführungszeit, Datengröße und andere Szenario-Parameter begrenzen. [!DNL Workfront Fusion] -Designer sollten sich dieser Limits bewusst sein und sie in ihre Designpraktiken integrieren.
+
+## Browser
+
+Wokfront Fusion unterstützt nur Chrome-basierte Browser.
 
 ## Szenarios
 
