@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
+source-git-commit: 58fd8895bf7d6ff81ef7a916d2092c0507c1cc5d
 workflow-type: tm+mt
-source-wordcount: '13950'
+source-wordcount: '13954'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 1%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 2024, Q2 {#release-24-q2}
          * [Übersicht über die Version 2024 in Q2](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-         * [2024 - Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [2024 - Verbesserungen für Administratoren im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024 - Verbesserungen für das zweite Quartal - Startseite](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+         * [2024 - Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Weitere Verbesserungen in Q2 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das zweite Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Version Q1 2024 {#release-24-q1}
          * [Übersicht über die Q1-Version 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)

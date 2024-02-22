@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ## Adobe Workfront-Verbesserungen
 
 * [Administratorverbesserungen](#administrator-enhancements)
+* [Verbesserungen der Startseite](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
+* [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
 
@@ -52,6 +54,22 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                         </p>
                     </td>
                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik und Anzeigenlogik überspringen sind jetzt in der Beta-Version des Formulardesigners verfügbar</a></p>
@@ -66,7 +84,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für alle Kunden: TBD</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +180,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
 
@@ -180,6 +198,42 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td>
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systemaktivitätsprotokolle zu ermöglichen, führen wir einen dritten Tab in den Bereich Updates aller Objekte ein. Die Registerkarte "Alle"erfasst sowohl Benutzerkommentare als auch Systemaktivitätskommentare in einem zusammenhängenden Stream.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 22. Februar 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (März 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neuer Kommentar-Stream jetzt im Bedienfeld "Zusammenfassung"verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Jetzt wurde die neue Kommentarfunktion zum Bedienfeld "Zusammenfassung"für Aufgaben- und Problemlisten hinzugefügt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 22. Februar 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (März 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
