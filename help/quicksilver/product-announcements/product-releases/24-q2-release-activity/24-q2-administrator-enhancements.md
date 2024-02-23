@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im zweiten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit de
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-<!--## Attribute mapping now available for organizations that have migrated to Adobe IMS
+## Die Attributzuordnung ist jetzt für Organisationen verfügbar, die zu Adobe IMS migriert haben
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for all customers: February 22, 2024
+>Vorschau-Version: 22. Februar 2024; Produktion für alle Kunden: 22. Februar 2024
 
-Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.
+Workfront-Systemadministratoren können jetzt die Zuordnung von Benutzerattributen für Organisationen einrichten, die zu Adobe IMS migriert wurden. Auf diese Weise können Benutzerinformationen vom SSO-Provider (Single Sign-on) des Unternehmens an Workfront weitergegeben werden, sodass die Benutzerdaten nicht sowohl in Workfront als auch im SSO-Provider eingegeben werden müssen.
 
-Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
+Bisher war diese Funktion nur für Organisationen verfügbar, die noch nicht in Adobe IMS integriert waren.
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).-->
+Anweisungen zum Konfigurieren der Zuordnung von Attributen finden Sie unter **Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis** im Artikel [Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## Logik und Anzeigenlogik überspringen sind jetzt in der Beta-Version des Formulardesigners verfügbar
 

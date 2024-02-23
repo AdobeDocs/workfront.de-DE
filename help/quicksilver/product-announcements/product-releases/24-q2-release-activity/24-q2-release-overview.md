@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -54,22 +54,22 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                         </p>
                     </td>
                 </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Die Attributzuordnung ist jetzt für Organisationen verfügbar, die zu Adobe IMS migriert haben</a></p>
+                        <p>[!BADGE In Production ]{type=Informative}</p><p>Workfront-Systemadministratoren können jetzt die Zuordnung von Benutzerattributen für Organisationen einrichten, die zu Adobe IMS migriert wurden. Auf diese Weise können Benutzerinformationen vom SSO-Provider (Single Sign-on) des Unternehmens an Workfront weitergegeben werden, sodass die Benutzerdaten nicht sowohl in Workfront als auch im SSO-Provider eingegeben werden müssen.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 22, 2024</p>
+                                <p>Vorschau-Version: 22. Februar 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 22. Februar 2024</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->                
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik und Anzeigenlogik überspringen sind jetzt in der Beta-Version des Formulardesigners verfügbar</a></p>
