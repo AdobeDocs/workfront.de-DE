@@ -7,15 +7,17 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
 # Übersicht über den Aktualisierungsabschnitt
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 3%
 >Das neue Kommentarerlebnis ist nur für den Bereich Updates der Workfront-Objekte verfügbar und nicht verfügbar, wenn Sie auf die Objekte aus den folgenden Bereichen zugreifen:
 >
 > * Startseite
+> * Zusammenfassungsbereich in Listen
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
+>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
 
 ## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
 
 Im Abschnitt Updates eines Objekts werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
 
+<div class="preview">
+
+Beispiel des Abschnitts Updates in der Vorschau-Umgebung:
 ![Aktualisierungsabschnitt](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+Beispiel des Abschnitts Updates in der Produktionsumgebung:
+![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, finden Sie im Abschnitt Aktualisierungen möglicherweise das folgende Erlebnis:
 
@@ -89,19 +102,25 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
 
 ### Übersicht über den Abschnitt &quot;Aktualisierungen&quot;im neuen Kommentierungserlebnis
 
+<div class="preview">
+
+Beispiel des Abschnitts Updates in der Vorschau-Umgebung:
 ![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+Beispiel des Abschnitts Updates in der Produktionsumgebung:
+![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >Das neue Kommentierungserlebnis steht nicht für Iterationen zur Verfügung.
 
-
 * Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
-
 
    * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;:
 

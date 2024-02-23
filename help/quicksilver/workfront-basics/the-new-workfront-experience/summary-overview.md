@@ -5,14 +5,16 @@ description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitsel
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Zusammenfassung] Übersicht
+
+{{highlighted-preview}}
 
 Sie können die [!UICONTROL Zusammenfassung] -Bedienfeld zum Überprüfen und Aktualisieren von Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 
@@ -117,7 +119,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Sie können nur eine Aufgabe oder ein Problem gleichzeitig auswählen, um ihre Details im [!UICONTROL Zusammenfassung] Bedienfeld.
 
+   <div class="preview">
+
+   Beispiel des Zusammenfassungs-Bedienfelds in der Vorschau-Umgebung:
    ![Zusammenfassungsbereich](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Beispiel des Zusammenfassungsbereichs in der Produktionsumgebung:
+   ![Zusammenfassungsbereich](assets/summary-panel-for-task.png)
 
 1. (Optional) So schließen Sie die [!UICONTROL Zusammenfassung] einen der folgenden Schritte ausführen:
 
@@ -143,7 +153,15 @@ Verwenden Sie die Fortschrittsleiste oben im [!UICONTROL Zusammenfassung] , um d
 
 Verwenden Sie die [!UICONTROL Updates] Abschnitt [!UICONTROL Zusammenfassung] , um aktuelle Aktualisierungen anzuzeigen und Aktualisierungen zu der ausgewählten Aufgabe oder Ausgabe vorzunehmen. Klicks **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Updates] Registerkarte der Aufgabe.
 
+<div class="preview">
+
+Beispiel für Aktualisierungen in der Vorschau-Umgebung:
 ![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section.png)
+
+</div>
+
+Beispiel für Aktualisierungen in der Produktionsumgebung:
+![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Dokumente]
 
