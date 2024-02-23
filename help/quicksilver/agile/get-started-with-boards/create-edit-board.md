@@ -6,9 +6,9 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
       >[!NOTE]
       >
-      >Wenn Sie über 1.000 Karten auf der Pinnwand haben, wird die Leistung der Pinnwand beeinträchtigt.
+      >Die maximale Kartenanzahl für dynamische Pinnwände beträgt 1.000 Aufgaben und 1.000 Ausgaben, für insgesamt 2.000 Karten. Eine hohe Anzahl von Karten auf der Pinnwand kann die Leistung der Pinnwand beeinflussen.
 
    1. (Optional) Wählen Sie [!UICONTROL **Archivieren Sie keine abgeschlossenen Karten.**] , um abgeschlossene Aufgaben und Probleme als sichtbare Karten in der Spalte Abgeschlossen auf die Pinnwand zu bringen. Wenn diese Option nicht ausgewählt ist, werden abgeschlossene Karten zum Zeitpunkt der Pinnwanderstellung als archivierte Karten auf die Pinnwand gebracht.
 
