@@ -7,14 +7,16 @@ description: Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 9e05e0162386a2724b83051d05a53a9a2d7c7ab5
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
 
 # Übersicht über Dokumente
+
+{{highlighted-preview}}
 
 Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtigen Informationen aus der Dokumentliste.
 
@@ -30,7 +32,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -60,7 +62,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Details
 
-Verwenden Sie den Bereich Details , um allgemeine Übersichtsinformationen anzuzeigen und mit benutzerdefinierten Formularen zu interagieren. Klicken **Details** oben im Abschnitt, um zur vollständigen Seite mit den Dokumentdetails zu gelangen.
+Im Bereich Details können Sie allgemeine Übersichtsinformationen anzeigen und mit benutzerdefinierten Formularen interagieren. Klicks **Details** oben im Abschnitt, um zur vollständigen Seite mit den Dokumentdetails zu gelangen.
 
 * [Übersicht](#overview)
 * [Benutzerdefinierte Formulare](#custom-forms)
@@ -81,8 +83,16 @@ Verwenden Sie den Abschnitt &quot;Benutzerdefinierter Forms&quot;, um mit dem Do
 
 ## Updates
 
-Im Abschnitt Updates können Sie die Aktualisierung lesen, die ein Benutzer am Dokument oder Testversand vorgenommen hat. Die Zusammenfassung zeigt die ersten beiden Kommentare. Weitere Informationen zu Aktualisierungen finden Sie unter [Testversand-Kommentar](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Im Abschnitt Updates können Sie die Aktualisierung lesen, die ein Benutzer am Dokument oder Testversand vorgenommen hat. Die Zusammenfassung zeigt die ersten beiden Kommentare. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
+<div class="preview">
+
+Beispiel für Aktualisierungen in der Vorschau-Umgebung:
+![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section-new-comments.png)
+
+</div>
+
+Beispiel für Aktualisierungen in der Produktionsumgebung:
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Genehmigungen
@@ -98,7 +108,7 @@ Testversandvalidierungen müssen im Testversand-Workflow hinzugefügt werden. We
 
 ## Versionen
 
-Im Abschnitt Versionen können Sie die Anzahl der für ein bestimmtes Dokument erstellten Versionen anzeigen. Klicken Sie auf **Mehr Menü** nach
+Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf **Mehr Menü** nach
 
 * Testversand öffnen
 * Testversand oder Dokument herunterladen

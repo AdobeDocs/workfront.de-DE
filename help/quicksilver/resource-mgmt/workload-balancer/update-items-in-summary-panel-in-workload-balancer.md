@@ -6,14 +6,16 @@ description: Sie können das Bedienfeld "Zusammenfassung"im Arbeitslastausgleich
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung
+
+{{highlighted-preview}}
 
 Sie können das Bedienfeld Zusammenfassung einer Aufgabe oder eines Problems verwenden, um wichtige Informationen zu diesem Element zu aktualisieren. im Lastenausgleich.
 
@@ -68,11 +70,11 @@ Sie müssen über Folgendes verfügen:
 
    Navigieren Sie zu **Zugewiesene Arbeit** einen Benutzer erweitern und ein Arbeitselement suchen.
 
-1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;rechts zu öffnen
+1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
 
    Oder
 
-   Klicks **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen
+   Klicks **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
 
    Oder
 
@@ -80,7 +82,15 @@ Sie müssen über Folgendes verfügen:
 
    Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Beispiel des Zusammenfassungs-Bedienfelds in der Vorschau-Umgebung:
+   ![Zusammenfassungsbereich](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Beispiel des Zusammenfassungsbereichs in der Produktionsumgebung:
+   ![Zusammenfassungsbereich](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder navigieren Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
 
