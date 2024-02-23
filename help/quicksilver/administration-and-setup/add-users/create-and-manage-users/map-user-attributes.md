@@ -3,27 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen
-description: Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben. Sie können Workfront auch neue Benutzer über die Option "Automatische Bereitstellung"hinzufügen (auch "Just-in-Time-Bereitstellung"oder "JIT"genannt).
-author: Caroline
+title: Benutzerattribute zuordnen
+description: Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5b1efd8000417b9368fe3eb9037ac55464579bb4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 3%
+source-wordcount: '952'
+ht-degree: 1%
 
 ---
 
-# Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen
+# Benutzerattribute zuordnen
 
-Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben. Sie können Workfront auch neue Benutzer über die Option &quot;Automatische Bereitstellung&quot;hinzufügen (auch &quot;Just-in-Time-Bereitstellung&quot;oder &quot;JIT&quot;genannt).
+<!--Audited 2/2024-->
 
->[!NOTE]
->
->Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
-
+Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben.
 
 ## Zugriffsanforderungen
 
@@ -35,18 +32,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Tipps für Zuordnungsattribute
 
@@ -54,39 +54,44 @@ Beachten Sie beim Zuordnen von Attributen Folgendes:
 
 * Testen Sie immer in einer Vorschau-Sandbox oder einer Sandbox mit Kundenaktualisierung (CR).
 * Testen Sie mit Administrator- und Nicht-Administrator-Konten, um sicherzustellen, dass Sie Attribute korrekt zuordnen.
-* Attribute werden jedes Mal zugeordnet, wenn sich ein Benutzer über SSO bei Workfront anmeldet, nicht nur während der automatischen Bereitstellung.
+* Zugeordnete Attribute werden jedes Mal angewendet, wenn sich ein Benutzer über Single Sign-on anmeldet.
 
-## Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen
+  Beispiel: Wenn Sie &quot;Nachname&quot;zuordnen und ihren Namen in Workfront aktualisieren, ohne den Wert in ihrem Identitätsanbieter zu aktualisieren, wird der Nachname überschrieben, sodass er mit dem Wert übereinstimmt, der im Identitätsanbieter vorhanden ist, wenn sich der Benutzer das nächste Mal anmeldet.
+
+## Zuordnen von Benutzerattributen zu Ihrer Organisation
+
+Das Verfahren für die Zuordnung von Attributen hängt davon ab, ob Ihr Unternehmen über das einheitliche Erlebnis auf Adobe verfügt.
+
+Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, überprüfen Sie die URL, die Sie für den Zugriff auf Workfront verwenden.
+
+| URL | Adobe-Erlebnis |
+|---|---|
+| (CompanyName).my.workfront.com | Klassisches Erlebnis |
+| experience.adobe.com | Einheitliches Adobe-Erlebnis |
+
+* [Benutzerattribute im klassischen Erlebnis zuordnen](#map-user-attributes-in-the-classic-experience)
+* [Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis](#map-user-attributes-in-the-adobe-unified-experience)
+
+### Benutzerattribute im klassischen Erlebnis zuordnen
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** > **Single Sign-On (SSO)**.
+1. Klicks **System** > **Single Sign-On (SSO)**.
 
 1. Im **Typ** Dropdown, klicken Sie auf **SAML 2.0**.
 
-1. Klicken **Benutzerattribute zuordnen**.
+1. Klicks **Benutzerattribute zuordnen**.
 
    ![](assets/map-user-attributes.png)
 
-1. (Optional) Wenn Sie möchten, dass Workfront automatisch neue Benutzer aus Ihrem Active Directory erstellt, klicken Sie auf **Benutzer für die automatische Bereitstellung**.
-
-   Diese Funktion erfordert die Zuordnung von Attributen.
-
 1. Ordnen Sie in der angezeigten Optionszeile die Attribute zu, die Sie für Ihre Workfront-Benutzer benötigen.
 
-   Sie können Attribute wie &quot;Adresse&quot;, &quot;Manager&quot;, &quot;Auftragsrolle&quot;, &quot;Homepage&quot;usw. zuordnen.
+   Sie können Attribute wie &quot;Adresse&quot;, &quot;Manager&quot;, &quot;Auftragsrolle&quot;, &quot;Homepage-Gruppe&quot;usw. zuordnen.
 
-   Attributzuordnungen funktionieren mit einem Verhältnis von 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört. Sie können pro Benutzer nur einen festlegen.
+   Attributzuordnungen funktionieren mit einem Verhältnis von 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört. Sie können pro Benutzer nur eine festlegen.
 
    >[!IMPORTANT]
    >
-   >Die folgenden Attribute sind für jeden Benutzer erforderlich:
-   >      
-   >* Vorname
-   >* Nachname
-   >* E-Mail-Adresse
-
-   >      
    >Es wird nicht empfohlen, Zugriffsebenen in den Attributzuordnungen zuzuordnen. Gehen Sie in diesem Fall beim Festlegen des Standardwerts vorsichtig vor, um sicherzustellen, dass Sie den Admin-Zugriff nicht versehentlich entfernen.
 
    In der folgenden Tabelle werden die Felder erläutert, die Sie für die Zuordnung von Attributen verwenden können:
@@ -101,7 +106,7 @@ Beachten Sie beim Zuordnen von Attributen Folgendes:
      </tr> 
      <tr> 
       <td role="rowheader">Verzeichnisattribut</td> 
-      <td>Geben Sie die SSO-Attributbeschriftung ein, die Sie verwenden möchten./td&gt; 
+      <td>Geben Sie die SSO-Attributbeschriftung ein, die Sie verwenden möchten.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardwert</td> 
@@ -112,11 +117,56 @@ Beachten Sie beim Zuordnen von Attributen Folgendes:
 
 1. (Optional) Klicken Sie auf **Regeln** , um dem Attribut eine Regel hinzuzufügen.
 
-   1. Wählen Sie in der Dropdown-Liste den gewünschten Attributmodifikator aus.
+   1. Wählen Sie in der Dropdown-Liste den Attributmodifikator aus, den Sie verwenden möchten.
    1. Geben Sie in die 2 Felder rechts den Wert des Ordnerattributs und den Wert ein, durch den Sie ihn ersetzen möchten.
 
       ![](assets/rule-fields.png)
+
    Sie können auf **Regel hinzufügen** , um dem Attribut weitere Regeln hinzuzufügen.
 
 1. (Optional) Um weitere Benutzerattribute zuzuordnen, klicken Sie auf **Zuordnung hinzufügen** und wiederholen Sie die Schritte 6 bis 7.
 1. Klicken Sie auf **Speichern**.
+
+### Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis
+
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-left.png) Klicken Sie in der linken oberen Ecke von Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+
+1. Klicks **System** > **Single Sign-On (SSO)**.
+
+1. Wählen Sie die **Adobe** Registerkarte.
+
+1. (Optional und bedingt) Wenn in Ihrem Unternehmen die Zuordnung von Attributen im klassischen Erlebnis konfiguriert wurde und Sie diese Zuordnung in das einheitliche Erlebnis auf Adobe kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
+
+   >[!NOTE]
+   >
+   >Es wird empfohlen, Zuordnungen beim ersten Konfigurieren von Zuordnungen im einheitlichen Erlebnis Adobe zu migrieren. Es schadet nicht, sie später erneut zu migrieren, aber es ist nicht nötig, sie mehr als einmal zu migrieren.
+
+1. Um eine neue Zuordnung zu erstellen, klicken Sie auf **Zuordnung hinzufügen**.
+
+1. Klicken Sie auf den Pfeil neben dem Workfront-Feldnamen und wählen Sie die [!DNL Workfront] -Feld, das Sie zuordnen möchten.
+
+1. (Optional) Wenn Sie mehr als eine Regel für ein bestimmtes Feld erstellen möchten, klicken Sie auf den Pfeil neben **Immer** und wählen Sie den Operator aus, den die Regel verwenden soll.
+
+1. (Bedingt) Wenn Sie neben &quot;Immer&quot;einen Operator ausgewählt haben, wählen Sie das Feld Workfront und den Wert aus, für den der Operator gilt.
+
+   >[!NOTE]
+   >
+   >Die Benutzer `Is Truthy` und `Is Falsy` erfordern keine Werte.
+
+1. Wählen Sie aus, ob Sie den Wert eines Attributs in Ihrem Identitätsmanager auf das Workfront-Feld anwenden möchten oder ob Sie einen bestimmten Konstantenwert anwenden möchten.
+
+1. Geben Sie den Namen des Identitäts-Manager-Felds ein, das Sie anwenden möchten, oder geben Sie den Text der Konstante ein, die Sie anwenden möchten.
+
+1. (Optional) Um weitere Regeln für dasselbe Workfront-Feld hinzuzufügen, klicken Sie auf **Neue Regel hinzufügen** und führen Sie die Schritte 4 bis 9 aus.
+
+   >[!IMPORTANT]
+   >
+   > * Jede Regel unterhalb einer Immer -Regel wird ignoriert. Wenn Sie über eine Regel vom Typ Immer verfügen, müssen Sie sie an den unteren Rand der Regelliste verschieben. Sie können Regeln in der Liste verschieben, indem Sie auf das Menü mit den drei Punkten rechts von der Regel klicken und die Regel nach oben oder unten verschieben.
+   > * Um eine Regel in der Mitte der Liste zu erstellen, klicken Sie auf das Menü mit den drei Punkten neben der Regel, die über oder unter der neuen Regel liegen soll, und wählen Sie **Regel oben hinzufügen** oder **Regel unten hinzufügen**.
+
+1. Um eine Regel zu löschen, klicken Sie auf das Menü mit drei Punkten neben der Regel, die Sie löschen möchten, und wählen Sie **Löschen**.
+1. Um eine Zuordnung zu löschen, klicken Sie auf die **Löschen** -Symbol auf der Karte für diese Zuordnung.
+
+1. Scrollen Sie zum Speichern zum oberen Seitenrand und klicken Sie auf **Speichern**.
+
+
