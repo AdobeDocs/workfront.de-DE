@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen ve
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
+      >[!NOTE]
+      >
+      >Um Projekte mit dem Status &quot;On Hold&quot;auszuschließen, müssen Sie den folgenden Filter anwenden: &quot;Project: Status does not equal On Hold&quot;(Projekt: Status ist nicht gleich &quot;On Hold&quot;). Dadurch wird verhindert, dass Arbeitselemente aus On Hold-Projekten im Arbeitslade-Balancer angezeigt werden.
+
    1. (Optional) Klicken Sie auf die **Löschen** icon ![](assets/delete.png) , um ein Filterkriterium zu entfernen.
 
 1. (Optional) Klicken Sie auf **Filter hinzufügen** um ein weiteres Filterkriterium hinzuzufügen, wiederholen Sie dann die Aktionen aus Schritt 4.
@@ -394,7 +398,7 @@ So geben Sie einen Filter frei:
    >
    >Benutzer können keine höhere Berechtigung als ihre Zugriffsstufe erhalten. Wenn sie keinen Zugriff auf Filter bearbeiten in ihrer Zugriffsebene haben, können sie keine Berechtigungen zum Verwalten eines Filters erhalten. Workfront deaktiviert die Option Verwalten für diese Benutzer und die Option ist abgeblendet.
 
-1. Klicks **Freigeben**. Der Filter wird für die angegebenen Entitäten freigegeben.
+1. Klicken Sie auf **Teilen**. Der Filter wird für die angegebenen Entitäten freigegeben.
 
    Die von Ihnen freigegebenen Filter werden im **Freigegeben für mich** Bereich des Filterfelds.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
   </tr> 
   <tr> 
    <td>Benutzereinstellungen</td> 
-   <td> <p>Auf den Systemstandard zurückgesetzt</p> <p>E-Mail-Benachrichtigungen werden wieder auf die Systemstandardwerte zurückgesetzt.</p> </td> 
+   <td> <p>Auf den Systemstandard zurückgesetzt</p> <p>E-Mail-Benachrichtigungen werden wieder auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen sind in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">In Adobe Workfront verfügbare Ereignisbenachrichtigungen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerdefinierte benutzerdefinierte Registerkarten</td> 
