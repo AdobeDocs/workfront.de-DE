@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 * [Administratorverbesserungen](#administrator-enhancements)
 * [Verbesserungen der Startseite](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
+* [Aktualisierung von Stream- und Benachrichtigungsverbesserungen](#update-stream-and-notification-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -184,7 +185,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
            </tbody>
         </table>
 
-### Weitere Verbesserungen
+### Aktualisierung von Stream- und Benachrichtigungsverbesserungen
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systemaktivitätsprotokolle zu ermöglichen, führen wir einen dritten Tab in den Bereich Updates aller Objekte ein. Die Registerkarte "Alle"erfasst sowohl Benutzerkommentare als auch Systemaktivitätskommentare in einem zusammenhängenden Stream.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systemaktivitätsprotokolle zu ermöglichen, führen wir einen dritten Tab in den Bereich Updates aller Objekte ein. Die Registerkarte "Alle"erfasst sowohl Benutzerkommentare als auch Systemaktivitätskommentare in einem zusammenhängenden Stream.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -220,7 +221,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neuer Kommentar-Stream jetzt im Bedienfeld "Zusammenfassung"verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Jetzt wurde die neue Kommentarfunktion zum Bedienfeld "Zusammenfassung"für Aufgaben- und Problemlisten hinzugefügt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Neuer Kommentar-Stream jetzt im Bedienfeld "Zusammenfassung"verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p><p>Jetzt wurde die neue Kommentarfunktion zum Bedienfeld "Zusammenfassung"für Aufgaben- und Problemlisten hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -234,6 +235,25 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### Weitere Verbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
