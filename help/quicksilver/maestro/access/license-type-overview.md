@@ -4,7 +4,7 @@ description: Ihr Zugriff auf Adobe Maestro hängt von Ihrem Lizenztyp ab, zusät
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutze
 | Lizenztyp | Berechtigungen für Maestro-Objekte |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten. |
-| Neu: hell <br> oder <br>Aktuell: Arbeit und Überprüfung | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen.  Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
-| Neu: Mitarbeiter <br> oder <br>Aktuell: Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |
+| Neu: hell <br> oder <br>Aktuell: Arbeit | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen.  Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
+| Neu: Mitarbeiter <br> oder <br>Aktuell: Überprüfer oder Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |
 
 
 
