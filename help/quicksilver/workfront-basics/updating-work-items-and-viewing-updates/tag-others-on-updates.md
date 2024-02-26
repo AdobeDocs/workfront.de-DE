@@ -6,14 +6,16 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # Tagging anderer Benutzer auf Updates
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * Zusammenfassungsbereich in Listen
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
+>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
 
 Sie können Benutzer taggen, wenn Sie ein Objekt aktualisieren, wenn Sie deren Aufmerksamkeit auf ein Objekt lenken möchten, dem sie andernfalls möglicherweise nicht folgen.
 
@@ -127,6 +131,14 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
    > 
    >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   Beispiel für Tagging in der Vorschau-Umgebung:
+   ![Benutzer taggen](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   Beispiel für Tagging in der Produktionsumgebung:
    ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die **Privatperson in meinem Unternehmen** ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.

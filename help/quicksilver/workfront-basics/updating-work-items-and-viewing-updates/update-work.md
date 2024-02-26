@@ -6,14 +6,16 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # Update der Arbeit
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * Zusammenfassungsbereich in Listen
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
+>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 1. (Bedingt) Wenn die Variable **Neue Kommentare** deaktiviert ist, klicken Sie auf , um sie zu aktivieren.
 
    Dies ermöglicht das neue Kommentarerlebnis. Die **Kommentare** ist standardmäßig ausgewählt.
+
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
+   <div class="preview">
+
+   Beispiel für ein neues Kommentarfeld in der Vorschau-Umgebung:
+   ![Neues Kommentarfeld](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Beispiel für ein neues Kommentarfeld in der Produktionsumgebung:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn das Objekt oder seine untergeordneten Elemente aktualisiert werden, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an.
 
-   Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >Sie können einem Systemupdate keinen Kommentar hinzufügen.
+
+1. <span class="preview">(Optional) Klicken Sie auf die **Alle** -Tab, um sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort anzuzeigen. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen Kommentar auf der Registerkarte Alle zu antworten, klicken Sie auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen.</span>
 
 ## Verwenden von Rich Text in einem Workfront-Update{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ Sie können nach einem Kommentar oder einer Antwort im Abschnitt Updates eines O
 
    >[!NOTE]
    >
-   >   Sie können nur nach Wörtern suchen, die zum Text eines Kommentars oder einer Antwort gehören. Sie können nicht nach Namen von Benutzern oder Teams suchen, die in einer Aktualisierung mit Tags versehen wurden.
+   >Sie können nur nach Wörtern suchen, die zum Text eines Kommentars oder einer Antwort gehören. Sie können nicht nach Namen von Benutzern oder Teams suchen, die in einer Aktualisierung mit Tags versehen wurden.
 
+   <div class="preview">
+
+   Beispiel für die Suche in der Vorschau-Umgebung:
+   ![In Updates suchen](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   Beispiel für die Suche in der Produktionsumgebung:
    ![](assets/search-field-in-updates-tab.png)
 
    Der Suchbegriff <!--or user--> Sie nach gesucht haben, wird hervorgehoben und die Kommentare, die sie enthalten, werden oben im Abschnitt Aktualisierungen angezeigt.

@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Antworten auf Aktualisierungen
 description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder darauf antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates des Objekts angezeigt. Sie können eine Antwort zu einem Update hinzufügen oder auf "Gefällt mir"-Klicks klicken, wenn Sie Zugriff auf das Objekt "Ansicht"haben.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # Antworten auf Aktualisierungen
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * Zusammenfassungsbereich in Listen
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
+>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
 
 Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates für das Objekt angezeigt.
 
@@ -96,6 +100,11 @@ Informationen darüber, welche Funktionen im neuen Kommentierungserlebnis verfü
 
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
 1. Klicks **Updates** und klicken Sie dann auf **Kommentare** für das Objekt ein und suchen Sie nach dem Kommentar oder der Antwort, auf den/die Sie antworten möchten.
+
+>[!NOTE]
+>
+><span class="preview">Um auf einen Kommentar auf der Registerkarte Alle zu antworten, klicken Sie auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.</span>
+
 1. (Optional) Wenn Sie Text aus einer vorherigen Aktualisierung in Ihre Antwort aufnehmen möchten, klicken Sie auf die **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, klicken Sie auf **Anführungsantwort**. Text aus der vorherigen Aktualisierung wird im Eingabefeld mit einer vertikalen grauen Linie markiert.
 1. Klicks **Antwort**.
 
