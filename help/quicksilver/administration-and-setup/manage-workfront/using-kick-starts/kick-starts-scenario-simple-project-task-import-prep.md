@@ -9,14 +9,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 9%
 
 ---
 
-# Kick-Starts-Szenario: einfache Vorbereitung des Projekt- und Aufgabenimports
+# Szenario &quot;Kick-Starts&quot;: einfache Vorbereitung für Projekt- und Aufgabenimport
 
 Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick Start-Methode.
 
@@ -37,45 +37,45 @@ Dies setzt voraus, dass Benutzer bereits in Adobe Workfront importiert wurden. W
 
    | Geplantes Startdatum | Heute |
    |---|---|
-   | Projektleiter | Jennifer Campbell |
+   | Project Manager | Jennifer Campbell |
    | Projektsponsor | Marc Lewis |
    | Gruppe | Marketing |
    | Firma | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementieren des HR-Systems.
 
    | Geplantes Startdatum | 14. Juli 2020 |
    |---|---|
-   | Projektleiter | Pam Reynolds |
+   | Project Manager | Pam Reynolds |
    | Projektsponsor | Marc Lewis |
    | Gruppe | Marketing |
    | Firma | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementieren Sie Document Management System.
 
    | Geplantes Startdatum | 22. August 2020 |
    |---|---|
-   | Projektleiter | Jennifer Campbell |
+   | Project Manager | Jennifer Campbell |
    | Projektsponsor | Ray Andrews |
    | Gruppe | IT |
    | Firma | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementieren Sie das neue Kalendersystem.
 
    | Geplantes Startdatum | 6. September 2020 |
    |---|---|
-   | Projektleiter | Pam Reynolds |
+   | Project Manager | Pam Reynolds |
    | Projektsponsor | Ray Andrews |
    | Gruppe | IT |
    | Firma | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ### Aufgabenliste {#task-list}
 
@@ -85,7 +85,7 @@ In der folgenden Aufgabenliste werden zu vereinfachte Aufgabenlisten für die Pr
 
 >[!NOTE]
 >
->Die in diesem Szenario bereitgestellten Anweisungen sind nicht so explizit wie die in [Szenario für Kick-Starts: Vorbereitung von Unternehmens-, Gruppen-, Rollen- und Benutzerkick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Es wird davon ausgegangen, dass Sie bereits gelernt haben, wie Sie Werte aus den Tabellen &quot;Unternehmen&quot;und &quot;Gruppe&quot;nachschlagen und kopieren können. Daher werden diese Schritte zwar erwähnt, aber nicht spezifisch umrissen.
+>Die in diesem Szenario bereitgestellten Anweisungen sind nicht so explizit wie die in [Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Anwender-Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Es wird davon ausgegangen, dass Sie bereits gelernt haben, wie Sie Werte aus den Tabellen &quot;Unternehmen&quot;und &quot;Gruppe&quot;nachschlagen und kopieren können. Daher werden diese Schritte zwar erwähnt, aber nicht spezifisch umrissen.
 
 1. Konfigurieren.
 1. Importieren Sie Benutzer.
@@ -238,7 +238,7 @@ In der folgenden Aufgabenliste werden zu vereinfachte Aufgabenlisten für die Pr
    | Vor | 1, 6, 7 |
    |---|---|
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Trainieren Sie Benutzer.
 
@@ -278,12 +278,7 @@ Gehen Sie zur Seite Kick-Starts . Wählen Sie die Objekte Firma, Gruppe, Projekt
 Öffnen Sie die soeben heruntergeladene Datei Workfront.xlsx . Gehen Sie zum PROJ-Projektblatt.
 
 ![](assets/im2-350x14.png)\
-Sofern Sie keine Projekte in Workfront bereits erstellt haben, sollte diese leer sein.\
-![](assets/im3-350x37.png)
-
->[!NOTE]
->
->Erwägen Sie die Verwendung des Tools zum Einfrieren von Bereichen des Arbeitsblatts und/oder das Ausblenden oder Entfernen nicht benötigter Spalten, um die Arbeit mit dem Arbeitsblatt zu vereinfachen. Achten Sie jedoch darauf, keine erforderlichen Spalten oder Spalten zu entfernen, die später verwendet werden sollen.
+Sofern Sie keine Projekte in Workfront bereits erstellt haben, sollte diese leer sein.
 
 ![](assets/im10-350x42.png)
 
@@ -297,18 +292,18 @@ Geben Sie in jeder Zeile eine eindeutige ID für die ID-Spalte ein. In der Regel
 Geben Sie die Namen der einzelnen Projekte in die Spalte setName ein.
 * **Festlegen des Projektzeitplans**
 
-   Geben Sie die Kennung des Zeitplans ein, den das Projekt im Feld setScheduleID verwenden soll
+  Geben Sie die Kennung des Zeitplans ein, den das Projekt im Feld setScheduleID verwenden soll
 
 * **Festlegen des geplanten Projektstartdatums**
 
-   Geben Sie Datum und Uhrzeit in die Spalte setPlannedStartDate mit der Uhrzeit und dem Datum ein, an dem das Projekt beginnen soll. Wenn dies leer gelassen wird, importiert Workfront das Projekt mit dem aktuellen Tagesdatum und einem Zeitstempel für Mitternacht dieses Tages gemäß der Zeitzone des Browsers.
+  Geben Sie Datum und Uhrzeit in die Spalte setPlannedStartDate mit der Uhrzeit und dem Datum ein, an dem das Projekt beginnen soll. Wenn dies leer gelassen wird, importiert Workfront das Projekt mit dem aktuellen Tagesdatum und einem Zeitstempel für Mitternacht dieses Tages gemäß der Zeitzone des Browsers.
 
 * **Festlegen von Aufgabenzahlen**
 Geben Sie Werte in die Spalte setTaskNumber ein, um die Reihenfolge zu steuern, in der die Aufgaben im Projektplan angezeigt werden.
 * **Geben Sie Projektdaten an.**
 Geben Sie das geplante Startdatum für jedes Projekt in die Spalte setPlannedStartDate ein.
-* **Legen Sie weitere erforderliche Details fest.**
-Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktuellen Status. Suchen Sie die Gruppen-IDs für jedes Projekt auf der Seite &quot;GRUPPENgruppe&quot;und geben Sie sie in die Spalte &quot;setGroupID&quot;für die jeweiligen Projekte ein. Suchen Sie im Arbeitsblatt CMPY Company nach der Firmen-ID für die Projekte und geben Sie sie in die Spalte setCompanyID ein. Suchen Sie die Benutzer-ID für jeden Projekteigentümer auf dem USER User-Blatt und geben Sie sie in die Spalte setOwnerID ein. Suchen Sie die Benutzer-ID für jeden Projektsponsor auf dem USER User-Blatt und geben Sie sie in die Spalte setSponsorID ein.
+* **Legen Sie weitere benötigte Details fest.**
+Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktuellen Status. Suchen Sie die Gruppen-IDs für jedes Projekt auf der Tabelle &quot;GRUPPENgruppe&quot;und geben Sie sie in die Spalte &quot;setGroupID&quot;für die jeweiligen Projekte ein. Suchen Sie im Arbeitsblatt CMPY Company nach der Firmen-ID für die Projekte und geben Sie sie in die Spalte setCompanyID ein. Suchen Sie die Benutzer-ID für jeden Projekteigentümer auf dem USER User-Blatt und geben Sie sie in die Spalte setOwnerID ein. Suchen Sie die Benutzer-ID für jeden Projektsponsor auf dem USER User-Blatt und geben Sie sie in die Spalte setSponsorID ein.
 
 ![](assets/im9-350x24.png)
 
@@ -339,7 +334,7 @@ Geben Sie in jeder Zeile eine eindeutige ID für die ID-Spalte ein.
 * **Namen festlegen**
 Geben Sie die Aufgabennamen in die Spalte setName ein.
 * **Projekt-ID bestätigen**
-Geben Sie die ID ein, die Sie für das Projekt &quot;Implementieren von Workfront&quot;festgelegt haben. Überprüfen Sie das PROJ-Projektblatt, um sicherzustellen, dass es die richtige ID ist.
+Geben Sie die ID ein, die Sie für das Projekt &quot;Implementieren von Workfront&quot;festgelegt haben. Überprüfen Sie im PROJ-Projektblatt, ob es sich um die richtige ID handelt.
 * **Benutzer festlegen**
 Wechseln Sie zum Blatt &quot;USER User&quot;, um die ID für den Benutzer zu suchen, der jeder Aufgabe zugewiesen ist, und geben Sie diese Werte in die entsprechenden Zellen in der Spalte setAssignedToID ein.
 * **Identifizieren von Aufgabenbeziehungen**
@@ -347,40 +342,40 @@ Geben Sie für die Aufgaben 2 bis 5 in die Spalte setParentID den Wert 1 ein. Ge
 * **Dauer festlegen**
 Legen Sie die Dauer für jede Aufgabe fest, indem Sie im Feld setDuration die Anzahl der Stunden, Tage, Wochen oder Monate für die Aufgabe eingeben. Geben Sie dann die Zeiteinheit in das Feld setDurationUnit ein.
 
-   |  | Zulässiger Wert |
-   |---|---|
-   | Minuten | M |
-   | Stunden | H |
-   | Tage | D |
-   | Wochen | M |
-   | Monate | D |
+  |   | Zulässiger Wert |
+  |---|---|
+  | Minuten | M |
+  | Stunden | H |
+  | Tag(e) | D |
+  | Wochen | W  |
+  | Monate | D |
 
-   Minuten können auch als Bruchteil einer Stunde dargestellt werden (z. B. Minuten = 5 Stunden)
+  Minuten können auch als Teil einer Stunde dargestellt werden (z. B. Minuten = 5 Stunden)
 
 * Legen Sie den Aufwand für jede Aufgabe im Feld setWorkRequired fest. Geben Sie dann die Arbeitseinheit in das Feld setWorkUnit ein. Wenn der Wert für &quot;Arbeit erforderlich&quot;sich von der Dauer unterscheidet, müssen Sie auch ein A in das Feld setDurationType eingeben.
 
-   | Dauertyp | Akzeptierbarer Wert |
-   |---|---|
-   | Berechnete Zuweisung | A |
-   | Berechnete Arbeit | M |
-   | Leistungsgesteuert | D |
-   | Einfach | S |
+  | Dauertyp | Akzeptierbarer Wert |
+  |---|---|
+  | Berechnete Zuweisung | A |
+  | Berechnete Arbeit | W  |
+  | Leistungsgesteuert | D |
+  | Einfach | S |
 
 * Geben Sie für jede Aufgabe im Feld setPercentComplete die gesamte Zahlendarstellung des vollständigen Prozentsatzes ein. Dieser Wert sollte nicht das Prozentsymbol (%) enthalten.
 * Fügen Sie bei Bedarf eine Beschreibung und weitere Details für jede Aufgabe ein, die Sie erstellen.
 
-   ![](assets/im5-350x35.png)
+  ![](assets/im5-350x35.png)
 
 * Die Spalten setPlannedStartDate und setTaskConstraint werden nicht zum Erstellen der Timeline dieses Projekts verwendet, da wir auf Vorgängerbeziehungen angewiesen sind. Stattdessen können Sie für jede Aufgabe ein Datum eingeben. Stellen Sie in diesem Fall sicher, dass Sie auch eine gültige Aufgabenbegrenzung in der Spalte setTaskConstraint angeben. Weitere Informationen zu gültigen Werten für dieses Feld finden Sie in den Artikeln zur Aufgabenbegrenzung und den zugehörigen .
 
-   In diesem Fall können Sie die Aufgaben für die anderen Projekte, die Sie importieren, am einfachsten erstellen, indem Sie die soeben definierten Aufgaben kopieren und unten einfügen, beginnend mit Zeile 12. Anschließend werden Sie:
+  In diesem Fall können Sie die Aufgaben für die anderen Projekte, die Sie importieren, am einfachsten erstellen, indem Sie die soeben definierten Aufgaben kopieren und unten einfügen, beginnend mit Zeile 12. Anschließend werden Sie:
 
    1. Nummerieren Sie die Werte in der ID-Spalte um.
    1. Aktualisieren Sie die Spalte setProjectID auf den Wert, den Sie für das nächste Projekt festgelegt haben.
    1. Aktualisieren Sie die Werte setParentID und setPredecessorString , um die neuen IDs widerzuspiegeln, die den Aufgaben dieses Projekts zugewiesen sind.
-   1. Aktualisieren Sie die Aufgabenzuweisungen und den Prozentsatz der Abschlüsse.
+   1. Aktualisieren Sie die Aufgabenzuweisungen und den Prozentsatz, der abgeschlossen ist.
    1. Wiederholen Sie diese Schritte für die Aufgaben des nächsten Projekts.
 
 * **Excel-Datei importieren**
 
-   Befolgen Sie die Anweisungen unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Befolgen Sie die Anweisungen unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
