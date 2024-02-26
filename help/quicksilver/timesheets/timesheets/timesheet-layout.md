@@ -7,14 +7,16 @@ description: In diesem Artikel wird das Layout von Timesheets in Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # Übersicht über das Datenblatt
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -36,7 +38,7 @@ Im Folgenden finden Sie die Bereiche eines Zeitplans:
 * [Auftragsrolle](#job-role)
 * [Stundentyp](#hour-type)
 * [Aktualisierungsbereich im linken Bereich](#updates-area-in-the-left-panel)
-* [Zusammenfassungsbereich](#summary-panel)
+* [Bedienfeld „Zusammenfassung“](#summary-panel)
 * [Zeitrahmen und Einstiegsbereich (Stunde)](#time-frame-and-hour-entry-area)
 * [Kommentare zu stündlichen Einträgen](#hour-entry-comments)
 * [Stunden](#hours)
@@ -119,13 +121,21 @@ Sie können mehrere Stundeneinträge für dasselbe Arbeitselement für verschied
 
 ## Aktualisierungsbereich im linken Bereich
 
+<div class="preview">
+
+Beispiel in der Vorschau-Umgebung:
+![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+Beispiel in der Produktionsumgebung:
 ![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Im Bereich Updates im linken Bereich des Timesheets können Sie Kommentare zu einem Timesheet abgeben, um mit Ihren Timesheet-Genehmigern oder anderen Benutzern zu kommunizieren.
 
 Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich angezeigt.
 
-## Zusammenfassungsbereich
+## Bedienfeld „Zusammenfassung“
 
 ![Zusammenfassungsbereich](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 

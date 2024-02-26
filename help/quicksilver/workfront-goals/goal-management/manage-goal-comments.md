@@ -6,14 +6,16 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Zielkommentaren in Adobe Workfront-Zielen
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ Dadurch wird die Zielliste geöffnet.
 1. Klicks  **Updates** im linken Bereich.
 1. (Optional) Um einen vorhandenen Kommentar zu finden, beginnen Sie mit der Eingabe eines Suchbegriffs <!--or a user's name--> im **Suche** in der oberen rechten Ecke des **Kommentare** Registerkarte.
 
+   <div class="preview">
+
+   Beispiel in der Vorschau-Umgebung:
+   ![Suche nach Kommentar](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   Beispiel in der Produktionsumgebung:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    Der Suchbegriff <!--or user--> Sie nach gesucht haben, wird hervorgehoben und die Kommentare, die sie enthalten, werden oben im Abschnitt Aktualisierungen angezeigt.
@@ -107,15 +117,22 @@ Dadurch wird die Zielliste geöffnet.
 
    >[!NOTE]
    >
-   >   Sie müssen nach einem Wort suchen, das in einem Kommentar oder einer Antwort enthalten ist. Sie können nicht nach einem getaggten Benutzer oder Team suchen.
+   >Sie müssen nach einem Wort suchen, das in einem Kommentar oder einer Antwort enthalten ist. Sie können nicht nach einem getaggten Benutzer oder Team suchen.
 
+   Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zum Abschluss zurückzukehren.
+1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zur vollständigen Aktualisierung zurückzukehren.
 1. Klicken Sie auf **Kommentare** in der linken oberen Ecke des Bereichs Updates.
 1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
 
+   <div class="preview">
+
+   Beispiel für ein neues Kommentarfeld in der Vorschau-Umgebung:
+   ![Neues Kommentarfeld](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Beispiel für ein neues Kommentarfeld in der Produktionsumgebung:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ Dadurch wird die Zielliste geöffnet.
    >Wenn ein anderer Benutzer einen Kommentar für dasselbe Element sendet, das Sie aktualisieren, wird eine rote Zeile mit der Anzeige &quot;Neu&quot;angezeigt, um Sie über die neueren Kommentare zu informieren, sowie eine blaue Benachrichtigung am unteren Rand des Bildschirms, die die Anzahl der neuen Kommentare angibt.
    >
    >Der Indikator wird nur angezeigt, nachdem der Kommentar zum Element gesendet wurde, nicht aber, wenn der Kommentar noch erstellt wurde.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
 1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu, entfernen Sie sie oder entfernen Sie einen der getaggten Benutzer.
@@ -172,4 +189,6 @@ Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung b
 1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png) , um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn ein Ziel aktualisiert wird, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an. Workfront zeichnet auch eine Systemaktualisierung auf, wenn ein Ergebnis, eine Aktivität oder ein Projekt zum Ziel hinzugefügt oder aktualisiert wird. <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">(Optional) Klicken Sie auf die **Alle** -Tab, um sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort anzuzeigen. Um auf einen Kommentar auf der Registerkarte Alle zu antworten, klicken Sie auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.</span>
 

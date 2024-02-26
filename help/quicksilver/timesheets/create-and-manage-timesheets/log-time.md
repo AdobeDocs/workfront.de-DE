@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <li>Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf den Typ des Arbeitselements, für den Sie die Zeit protokollieren </p> <p>Beispielsweise benötigen Sie Zugriff auf Probleme bearbeiten, um die Zeit für Probleme zu protokollieren.</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 * [Datenblatt](#timesheet)
 * [Startseite](#home)
 * [Projekt, Aufgabe oder Problem](#project-task-or-issue)
-* [Zusammenfassungsbereich](#summary-panel)
+* [Bedienfeld „Zusammenfassung“](#summary-panel)
 * [Pinnwände](#boards)
 * [Mobile App](#mobile-app)
 
@@ -442,7 +442,7 @@ So melden Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder e
 
 1. Klicks **Protokollzeit**.
 
-### Zusammenfassungsbereich
+### Bedienfeld „Zusammenfassung“
 
 Sie können die Zeit für Aufgaben und Probleme im Bereich &quot;Zusammenfassung&quot;protokollieren.
 Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
