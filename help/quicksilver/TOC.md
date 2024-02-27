@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 1%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 1%
          * [Adobe Workfront-Konto verwalten](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Bei Adobe Workfront anmelden](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Abmelden von Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [E-Mail-Einladungen empfangen und ein Kennwort für Adobe Workfront erstellen](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Kennwort eines Benutzers mit verbesserter Authentifizierung zurücksetzen](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [E-Mail-Einladungen empfangen und ein Kennwort für Adobe Workfront erstellen](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [Erstellen Sie ein Konto in [!DNL Adobe Workfront] als externer Benutzer](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Passwort zurücksetzen](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Mobile Apps {#mobile-apps}
       * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
