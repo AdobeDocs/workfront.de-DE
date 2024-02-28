@@ -6,7 +6,7 @@ title: Generieren eines Moduls mit AI
 description: Sie können eine Textaufforderung eingeben, um ein für die Eingabeaufforderung konfiguriertes HTTP-Modul zu erstellen.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 79b5baf5a9558e07b55fb810aa2d6c772faa51cf
+source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Generieren eines Moduls mit AI
+
+<!--DO NOT DELETE - linked through CSH-->
 
 Sie können mithilfe von KI eine Textaufforderung eingeben, in der Sie beschreiben, was Sie mit einem Modul tun müssen. Fusion generiert dann ein HTTP-Modul, das eine Verbindung zum richtigen Endpunkt der gewünschten API herstellt.
 
