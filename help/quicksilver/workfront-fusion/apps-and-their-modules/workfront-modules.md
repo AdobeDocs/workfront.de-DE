@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ Das Modul gibt alle mit dem Datensatz verknüpften Standardfelder sowie alle ben
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Von dieser Verbindung vorgenommene Ereignisse ausschließen</td> 
-      <td>Aktivieren Sie diese Option, um Ereignisse auszuschließen, die mit demselben Connector erstellt oder aktualisiert wurden, den dieses Trigger-Modul verwendet. Dies kann Situationen verhindern, in denen ein Szenario selbst Trigger hat, sodass es sich in einer Endlosschleife wiederholt.</td> 
+      <td>Aktivieren Sie diese Option, um Ereignisse auszuschließen, die mit demselben Connector erstellt oder aktualisiert wurden, den dieses Trigger-Modul verwendet. Dies kann Situationen verhindern, in denen ein Szenario selbst Trigger hat, sodass es sich in einer Endlosschleife wiederholt.<p><b>NOTE</b>Der Datensatztyp "Zuweisung"enthält diese Option nicht.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
