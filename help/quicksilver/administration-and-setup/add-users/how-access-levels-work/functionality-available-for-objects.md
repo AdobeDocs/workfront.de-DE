@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 12%
+source-wordcount: '1599'
+ht-degree: 11%
 
 ---
 
@@ -44,11 +44,11 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 |  Aufgaben hinzufügen | ✓ |   |   |   |
 | Aktualisierungen/Kommentare geben | ✓ | ✓ |   |   |
 | Status ändern | ✓ |   |   |   |
-| Protokollstunden | ✓ | ✓ |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |
 | Zuweisungen bearbeiten | ✓ |   |   |   |
 | Grundlinie verwalten | ✓ |   |   |   |
 | Risiken verwalten | ✓ |   |   |   |
-| Verwalten von Finanzierungen | ✓ |   |   |   |
+| Finanzen verwalten | ✓ |   |   |   |
 | Aufwendungen hinzufügen/bearbeiten | ✓ |   |   |   |
 | Vorlagen anfügen | ✓ |   |   |   |
 | Als Vorlage speichern | ✓ |   |   |   |
@@ -79,16 +79,16 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 | Dokumente hinzufügen | ✓ | ✓ |   |   |
 | Aufgabe kopieren | ✓ |   |   |   |
 | Verschieben einer Aufgabe | ✓ |   |   |   |
-| Protokollstunden | ✓ | ✓ |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |
 | Zuweisung akzeptieren | ✓ |   |   |   |
 | Zuweisung vornehmen | ✓ | ✓ |   |   |
 | Benutzerdefiniertes Formular anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
 | Validierungsprozess erstellen | ✓ |   |   |   |
-| Aufgabe validieren | ✓ | ✓ |   |   |
+| Aufgabe validieren | ✓ | ✓ | ✓ |   |
 | Bearbeiten von Finanzen | ✓ |   |   |   |
 | Aufwendungen hinzufügen/bearbeiten | ✓ |   |   |   |
-| Finanzierung anzeigen | ✓ | ✓ |   |   |
+| Finanzen anzeigen | ✓ | ✓ |   |   |
 | Hinzufügen von Aktualisierungen/Kommentaren | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -107,12 +107,12 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ |   |
-| Probleme genehmigen | ✓ | ✓ | ✓ |   |
+| Genehmigen von Problemen | ✓ | ✓ | ✓ |   |
 | Hinzufügen eines Validierungsprozesses | ✓ | ✓ | ✓ |   |
 | Dokumente hinzufügen | ✓ | ✓ | ✓ |   |
 | Probleme kopieren | ✓ | ✓ | ✓ |   |
 | Probleme verschieben | ✓ | ✓ | ✓ |   |
-| Protokollstunden | ✓ |   |   |   |
+| Stunden protokollieren | ✓ |   |   |   |
 | Konvertieren eines Problems in ein Projekt | ✓ |   |   |   |
 | Konvertieren eines Problems in eine Aufgabe | ✓ |   |   |   |
 | Accept-Zuweisungen | ✓ |   |   |   |
@@ -181,7 +181,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 | Löschen | ✓&#42; |   |   |   |
 | Anzeigen integrierter Berichte | ✓&#42; |   |   |   |
 | Freigeben | ✓&#42; | ✓ |   |   |
-| Öffentliche Freigabe von Kalender und Berichten | ✓&#42; |   |   |   |
+| Öffentliche Freigabe von Kalendern und Berichten | ✓&#42; |   |   |   |
 | Systemweit freigeben | ✓&#42; |   |   |   |
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Bearbeiten | ✓ |   |   |   |
@@ -233,7 +233,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 | Neue Version hochladen | ✓ | ✓ | ✓ |   |
 | Version löschen | ✓ | ✓ | ✓ |   |
 | Vorschau | ✓ | ✓ | ✓ | ✓ |
-|  Korrekturabzug | ✓ | ✓ | ✓ | ✓ |
+| Korrekturabzug | ✓ | ✓ | ✓ | ✓ |
 | Testversand erzeugen | ✓ |   |   |   |
 | Testversand durchführen | ✓ | ✓ | ✓ |   |
 | Hinzufügen/Entfernen&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -303,8 +303,8 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 | Bearbeiten der Benutzerabrechnung und der Kostensätze | ✓&#42; |   |   |   |
 | Anzeigen der Rollenabrechnung und der Kostensätze | ✓&#42; |   |   |   |
 | Anzeigen von Benutzerabrechnungs- und Kostensätzen | ✓&#42; |   |   |   |
-| Rechnungsdatensätze verwalten | ✓ |   |   |   |
-| Verwalten von Ausgaben | ✓ |   |   |   |
+| Abrechnungsdatensätze verwalten | ✓ |   |   |   |
+| Ausgaben verwalten | ✓ |   |   |   |
 | Finanzdaten anzeigen | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Ratenkarten verwalten</span> | ✓ |   |   |   |
 | Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung | ✓ |   |   |   |
@@ -373,9 +373,9 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 | Alle Ziele aktivieren/deaktivieren/schließen |   | ✓ |
 | Aktivitäten erstellen/bearbeiten/löschen |   | ✓ |
 | Ergebnisse erstellen/bearbeiten/löschen |   | ✓ |
-| Zielgruppe hinzufügen |   | ✓ |
+| Hinzufügen eines ausgerichteten Ziels |   | ✓ |
 | Fortschritt eines Ergebnisses oder einer Aktivität aktualisieren |   | ✓ |
-| Eigene Ziel, Ergebnis oder Aktivität | ✓ | ✓ |
+| Ziel, Ergebnis oder Aktivität besitzen | ✓ | ✓ |
 | Kommentar zu einem Ziel | ✓ | ✓ |
 | Ziele kopieren |   | ✓ |
 | Ansicht des Bereichs &quot;Zielliste&quot;im linken Bereich | ✓ | ✓ |
