@@ -6,9 +6,9 @@ description: Sie können einem Dokument, für das bereits ausstehende Genehmigun
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ Wenn Sie in Ihrer Produktionsumgebung neue Dokumentgenehmigungen aktivieren möc
 
 ## Verwenden neuer Dokumentgenehmigungen
 
-Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter [Dokumentgenehmigungen verwalten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter [Dokumente genehmigen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden in den Artikeln unter [Dokumente überprüfen und genehmigen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden in den Artikeln unter [Dokumente überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).

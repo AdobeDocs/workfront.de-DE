@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Dokument genehmigen
 description: Wenn Sie als Genehmiger für ein Dokument zugewiesen sind, gibt es mehrere Möglichkeiten, Ihre Genehmigungsentscheidung zu treffen.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
