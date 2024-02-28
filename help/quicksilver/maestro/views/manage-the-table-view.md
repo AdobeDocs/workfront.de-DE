@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 * Die von Ihnen erstellte Sortierung wird beim Navigieren beibehalten.
 
 * Sie können so viele Felder sortieren, wie in der Tabellenansicht eines Datensatztyps angezeigt werden.
+
+* Verknüpfte Felder können nur sortiert werden, wenn sie einzelne Werte zulassen oder wenn sie Mehrfachauswahlwerte mit ausgewählter Zusammenfassungsoption zulassen (Summe, Durchschnitt, max, min).
 
 * Wenn Sie Sortierungskriterien entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp wie Sie zugreifen, und es wird die gleiche Ansicht wie Sie verwendet.
 
