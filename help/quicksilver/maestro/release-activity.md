@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >[!IMPORTANT]
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
+
+## Woche vom 26. Februar 2024
+
+### Filtern, Sortieren und Gruppieren nach verbundenen Datensätzen oder Suchfeldern
+
+Produktion: 28. Februar 2024
+
+Vorschau: zu bestimmen
+
+Sie können nun nach verbundenen Datensätzen oder ihren Suchfeldern filtern, sortieren und gruppieren. Diese Verbesserung hilft Ihnen bei der effizienten Organisation und Visualisierung Ihrer Daten in Tabellen- und Timeline-Ansichten.
+
+Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md) und [Verwalten der Timeline-Ansicht](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Woche vom 5. Februar 2024
 
@@ -124,7 +136,7 @@ Produktion: 1. Februar 2024
 
 Vorschau: zu bestimmen
 
-Um Verwirrung zu vermeiden und die Verwaltung von Arbeitsbereichen zu vereinfachen, haben wir die automatisch generierten, vorab erstellten Datensatztypen für verbundene Nicht-Maestro-Objekte aus einem Arbeitsbereich entfernt.
+Um Verwirrung zu vermeiden und die Verwaltung von Arbeitsbereichen zu vereinfachen, haben wir die automatisch generierten, schreibgeschützten Datensatztypen für verbundene Nicht-Maestro-Objekte aus einem Arbeitsbereich entfernt.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).

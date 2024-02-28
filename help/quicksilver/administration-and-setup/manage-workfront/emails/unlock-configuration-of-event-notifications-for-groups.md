@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen
 description: Wenn Sie Adobe Workfront-Administrator sind, können Sie Gruppenadministratoren die Möglichkeit erschließen oder erneut sperren, eine Ereignisbenachrichtigung für von ihnen verwaltete Gruppen der obersten Ebene zu konfigurieren. Die Konfiguration einer Ereignisbenachrichtigung besteht darin, sie zu aktivieren oder zu deaktivieren.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

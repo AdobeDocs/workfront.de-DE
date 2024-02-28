@@ -2,13 +2,13 @@
 navigation-topic: notifications
 title: Anpassen von E-Mail-Betreffs für Ereignisbenachrichtigungen
 description: Sie können die Betreffzeile der E-Mails anpassen, die durch Ereignisbenachrichtigungen ausgelöst werden.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 4%
 
 ---
@@ -25,12 +25,11 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, d. h. diese Ereig
 >
 >Seien Sie beim Löschen von Standardfeldern vorsichtig, wenn die Betreffzeilen auf mehrere Objekte verweisen. Im Folgenden finden Sie eine Liste der Ereignisbenachrichtigungen, die solche Betreffzeilen enthalten:
 >
->* Jemand hat mich in die direkte Aktualisierung einbezogen
->* Jemand hat mein Team in eine direkte Aktualisierung einbezogen
+>* Jemand bezieht mich in eine gezielte Aktualisierung ein
+>* Jemand bezieht mein Team in eine gezielte Aktualisierung ein
 >* Kommentar zum Arbeitselement an Thread-Teilnehmer
 >* Kommentar zum Arbeitselement an Zugewiesene(n) des Arbeitselements
 >
-
 
 ## Zugriffsanforderungen
 
@@ -44,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -71,19 +70,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Die Namen der hinzugefügten Felder müssen mit der Binnenmajuskel-Schreibweise-Syntax unserer Datenbankstruktur übereinstimmen. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Klicken **Aktualisieren** um die neuen Betreffzeilen für Ihre E-Mails zu speichern.
+1. Klicks **Aktualisieren** um die neuen Betreffzeilen für Ihre E-Mails zu speichern.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Objekten anpassen
 
 Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, je nachdem, welche Objekte sie Trigger haben.
 
-Zum Beispiel hat &quot;Jemand hat mich bei einer direkten Aktualisierung eingeschlossen&quot;zwei Betreffzeilen: Das erste gilt für Aufgaben, Probleme, Vorlagenaufgaben und Dokumente (auch als &quot;referenceObject&quot;bezeichnet) und das zweite für Objekte, die es Benutzern ermöglichen, Kommentare wie Portfolio, Programm usw. zu erstellen (auch als &quot;topReferenceObject&quot;bezeichnet).
+Zum Beispiel hat &quot;Jemand hat mich bei einer direkten Aktualisierung mit eingeschlossen&quot;zwei Betreffzeilen: erstens für Aufgaben, Probleme, Vorlagenaufgaben und Dokumente (auch als &quot;referenceObject&quot;bezeichnet) und zweitens für Objekte, mit denen Benutzer Kommentare abgeben können, wie z. B. Portfolio, Programm usw. (auch als &quot;topReferenceObject&quot;bezeichnet).
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-Wenn ein Benutzer in eine Konversation über die Aufgabe, das Problem, die Vorlagenaufgabe oder das Dokument einbezogen wird, wird eine E-Mail mit der ersten Betreffzeile generiert. Die Betreffzeile enthält &quot;referenceObject:name&quot;, das System definiert das Objekt und zeigt den entsprechenden Namen im Betrefffeld an. Die Betreffzeile der E-Mail würde in etwa wie folgt aussehen: &quot;Kommentar zu Aufgabe 123 zu Projekt ABC.&quot;
+Wenn ein Benutzer in eine Konversation über die Aufgabe, das Problem, die Vorlagenaufgabe oder das Dokument einbezogen wird, wird eine E-Mail mit der ersten Betreffzeile generiert. Die Betreffzeile enthält &quot;referenceObject:name&quot;, das System definiert das Objekt und zeigt den entsprechenden Namen im Betrefffeld an. Die Betreffzeile der E-Mail würde in etwa so aussehen: &quot;Kommentar zu Aufgabe 123 zu Projekt-ABC.&quot;
 
-Wenn eine E-Mail zum zweiten Betreff hinzugefügt wird, wird eine E-Mail generiert. Hier enthält die Betreffzeile &quot;topReferenceObject:name&quot;und Workfront gibt erneut an, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von &quot;topReferenceObject:name&quot;im Betreff zurück. Die Betreffzeile der E-Mail würde in etwa wie folgt aussehen: &quot;Kommentar zu Projekt ABC.&quot;
+Wenn eine E-Mail zum zweiten Betreff hinzugefügt wird, wird eine E-Mail generiert. Hier enthält die Betreffzeile &quot;topReferenceObject:name&quot;und Workfront gibt erneut an, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von &quot;topReferenceObject:name&quot;im Betreff zurück. Die Betreffzeile der E-Mail würde in etwa so aussehen: &quot;Kommentar zu Projekt ABC&quot;.
 
 Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusätzlicher Felder zu den beiden Betreffzeilen finden Sie unter [E-Mail-Betreffzeilen für Ereignisbenachrichtigungen anpassen](#customize-email-subject-lines-for-event-notifications) in diesem Artikel.
 
@@ -91,7 +90,7 @@ Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusät
 
 Einige Ereignisbenachrichtigungen enthalten auch mehrere E-Mail-Betreffs, um die verschiedenen Aktionen zu skizzieren, die an den Objekten durchgeführt werden.
 
-Beispielsweise ist die Anforderung eines Dokuments, das einem Problem hinzugefügt werden soll, ein Ereignis, bei dem zwei verschiedene E-Mails Trigger werden können: eines für den Zeitpunkt, zu dem das Dokument hinzugefügt wird, und eines für den Zeitpunkt, zu dem das Dokument bearbeitet wird.
+Wenn Sie beispielsweise ein Dokument anfordern, das einem Problem hinzugefügt werden soll, können zwei verschiedene E-Mails Trigger werden: eine für den Zeitpunkt, zu dem das Dokument hinzugefügt wird, und eine für den Zeitpunkt, zu dem das Dokument bearbeitet wird.
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 

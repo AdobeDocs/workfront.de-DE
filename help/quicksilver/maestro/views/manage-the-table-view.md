@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 3%
 
 ---
@@ -264,10 +264,6 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
      Die nachstehende Tabelle zeigt die verfügbaren Modifikatoren für jeden Feldtyp.
 
-     >[!TIP]
-     >
-     > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,17 +366,13 @@ Beachten Sie Folgendes:
 So fügen Sie eine Gruppierung hinzu:
 
 1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
-1. Klicks **Gruppierung** in der rechten oberen Ecke der Timeline-Ansicht.
+1. Klicks **Gruppierung** in der oberen rechten Ecke der Tabellenansicht.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Andere Felder auswählen**, suchen Sie nach einem anderen Feld und klicken Sie darauf, wenn es in der Liste angezeigt wird.
 
-   >[!TIP]
-   >
-   >Verknüpfte Felder können nicht ausgewählt werden.
-
-   Die Gruppierung wird automatisch auf die Tabelle angewendet und Datensätze werden unter der Trennlinie der Gruppierung angezeigt
+   Die Gruppierung wird automatisch auf die Tabelle angewendet und Datensätze werden unter der Trennlinie der Gruppierung angezeigt.
 
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
@@ -428,6 +420,7 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
    Oder
 
    Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Spaltenüberschriftsnamen und klicken Sie dann auf **Nach diesem Feld sortieren**. Das Feld wird als Sortierungsauswahl im Sortiersymbol in der oberen rechten Ecke der Tabellenansicht hinzugefügt.
+
 1. Im **Sortieren von Datensätzen nach** auf eines der vorgeschlagenen Felder klicken oder auf **Andere Felder auswählen** und suchen Sie nach einem anderen Feld und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
    Die Sortierung wird automatisch auf die Tabellenansicht angewendet und die Datensätze werden nach den von Ihnen ausgewählten Kriterien sortiert angezeigt.
@@ -437,10 +430,6 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
 1. (Optional) Wiederholen Sie die obigen Schritte, um nach zusätzlichen Feldern zu sortieren.
 
    Die Anzahl der Felder, nach denen Sie sortieren möchten, wird links neben dem Symbol Sortieren in der oberen rechten Ecke der Symbolleiste angezeigt. Sie können nur Felder auswählen, die in den Spalten der Tabellenansicht angezeigt werden.
-
-   >[!TIP]
-   >
-   > Verknüpfte Felder können nicht ausgewählt werden. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
 1. (Optional) Im **Sortieren von Datensätzen nach** und klicken Sie auf das **x** Symbol rechts neben einem Sortierfeld zum Entfernen der Sortierung
 

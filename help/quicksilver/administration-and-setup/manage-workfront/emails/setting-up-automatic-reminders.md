@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Automatische Erinnerungen einrichten
-description: Automatische Erinnerungen einrichten
-author: Lisa, Caroline
+title: Einrichten automatischer Erinnerungen
+description: Einrichten automatischer Erinnerungen
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 4%
 
 ---
 
-# Automatische Erinnerungen einrichten
+# Einrichten automatischer Erinnerungen
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als Adobe Workfront-Administrator können Sie automatische Erinnerungen an Trigger-E-Mail-Benachrichtigungen einrichten, wenn alle Aufgaben oder Probleme fällig, spät oder in der Nähe des geplanten Fertigstellungsdatums sind. Nachdem Sie diese Einstellungen konfiguriert haben, können Benutzer automatische Erinnerungen nicht mehr deaktivieren.
+Als Adobe Workfront-Administrator können Sie automatische Erinnerungen an Trigger-E-Mail-Benachrichtigungen einrichten, wenn alle Aufgaben oder Probleme fällig, spät oder in der Nähe des geplanten Fertigstellungsdatums sind. Nach der Konfiguration dieser Einstellungen können Benutzer automatische Erinnerungen nicht deaktivieren.
 
 Bei verspäteten Benachrichtigungen wird die E-Mail nächtlich gesendet, bis die Aufgabe oder das Problem abgeschlossen ist.
 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -56,11 +56,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-## Automatische Erinnerungen einrichten
+## Einrichten automatischer Erinnerungen
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Email** >**Automatische Erinnerungen**.
+1. Klicks **Email** >**Automatische Erinnerungen**.
 
 1. Im **Verspätete Benachrichtigung an senden** eine der folgenden Optionen auswählen:
 
@@ -71,12 +71,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <td></td>
     </tr>
     <tr>
-        <td>den Manager des Benutzers</td>
-        <td>Wählen Sie diese Option aus, wenn der Manager des Benutzers eine verspätete Benachrichtigung erhalten soll, dass das Arbeitselement seines direkten Berichts verspätet ist.</td>
+        <td>Den Manager des Benutzers</td>
+        <td>Wählen Sie diese Option aus, wenn der Manager des Benutzers eine verspätete Benachrichtigung erhalten soll, dass das Arbeitselement seines direkt unterstellten Mitarbeiters verspätet ist.</td>
         <td></td>
     </tr>
     <tr>
-        <td>den Vorgesetzten des Managers</td>
+        <td>Den Vorgesetzten des Managers</td>
         <td>Wählen Sie diese Option aus, wenn Sie möchten, dass der Manager des unmittelbaren Managers eine verspätete Benachrichtigung über ein Arbeitselement eines Benutzers im direkten Bericht erhält.</td>
         <td></td>
     </tr>
@@ -105,7 +105,7 @@ Wenn Sie in einer Benachrichtigung zur automatischen Erinnerung als bestimmte En
 
 Aufgaben mit bestimmten Abhängigkeitstypen können nach dem angegebenen Startdatum bereitgestellt werden, auch wenn sie überfällig sind. Wenn eine Aufgabe beispielsweise über einen Vorgänger mit der Abhängigkeit &quot;Finish-Start&quot;(fs) verfügt, wird sie auch dann nicht in die E-Mail aufgenommen, wenn sie das angegebene Startdatum überschritten hat, da Sie die Aufgabe erst starten können, wenn der Vorgänger abgeschlossen ist.
 
-Weitere Informationen zum Empfang automatischer Reminders-E-Mails finden Sie im Abschnitt [Automatische Erinnerungen](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) Abschnitt in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang automatischer Reminders-E-Mails finden Sie im [Automatische Erinnerungen](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) Abschnitt in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische Erinnerungen senden
 
