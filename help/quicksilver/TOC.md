@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
+source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
 workflow-type: tm+mt
-source-wordcount: '13972'
+source-wordcount: '13971'
 ht-degree: 1%
 
 ---
@@ -1728,7 +1728,7 @@ ht-degree: 1%
       * [Ressourcenverwaltung](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Erste Schritte mit der Ressourcenverwaltung](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Ressourcenplanung in Adobe Workfront {#resource-planning-in-adobe-workfront}
-      * [Ressourcenplanung in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+      * [Ressourcenplanung: Artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Ressourcenpools {#resource-pools}
          * [Ressourcenpools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Ressourcen-Pools - Übersicht](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)

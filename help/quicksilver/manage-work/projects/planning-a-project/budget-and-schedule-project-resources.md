@@ -6,9 +6,9 @@ description: Budget- und Planen von Projektressourcen
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Stellen Sie sicher, dass Sie die folgenden Schritte ausführen, während Sie die
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Ressourcenplanung:Artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Erste Schritte mit dem Szenario-Planer](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Planen Sie Ihre Ressourcen oder weisen Sie sie Aufgaben und Problemen zu. Wenn Sie Ihre Ressourcen Aufgaben und Problemen zuweisen, können Sie tatsächlich Benutzer, Teams oder Rollen bestimmten Arbeitselementen zuweisen, sodass sie für die Fertigstellung dieser Elemente verantwortlich sind. Weitere Informationen finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

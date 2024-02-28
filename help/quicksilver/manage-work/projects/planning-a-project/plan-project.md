@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
    * Reduzieren Sie die geplanten Stunden für jede Aufgabe.
    * Fügen Sie einer Aufgabe weitere Benutzer hinzu, um sicherzustellen, dass sie während der ihr zugewiesenen Zeit abgeschlossen werden kann.
    * Weisen Sie die Aufgaben erneut Benutzern zu, die ohne weitere Einschränkungen verfügbar sind.\
-     Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung: Artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Weitere Informationen zum Planen Ihrer Ressourcen für die Arbeit an einem Projekt finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

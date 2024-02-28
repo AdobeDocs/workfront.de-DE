@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Weitere Informationen zu Ersatzwerkzeugen finden Sie unter [Alte Flash-basierte 
    * Kapazitätsplaner
    * Ressourcenkalkulationen
    * Ressourcenraster\
-     Weitere Informationen finden Sie unter [Ressourcenplanung in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Weitere Informationen finden Sie unter [Ressourcenplanung: Artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * Der Bereich &quot;Alte Ressourcenschätzungen&quot;im Geschäftsfall eines Projekts
 

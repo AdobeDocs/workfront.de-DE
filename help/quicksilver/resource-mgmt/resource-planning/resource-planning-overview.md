@@ -2,20 +2,22 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Ressourcenplanung in Adobe Workfront
+title: "Resource Planning: aricle index"
 description: Die Artikel in diesem Abschnitt enthalten Informationen zur Funktionalität in den Abschnitten Planer und Ressourcenpools im Bereich "Ressourcen"von Adobe Workfront.
 author: Alina
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 08ced19936bf4658a9458e3d73597cc5fbdd8c84
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Ressourcenplanung in Adobe Workfront
+# Ressourcenplanung: Artikelindex
+
+<!-- Audited: 2/2024 -->
 
 Die Artikel in diesem Abschnitt enthalten Informationen zur Funktionalität in den Abschnitten Planer und Ressourcenpools im Bereich &quot;Ressourcen&quot;von Adobe Workfront.
 

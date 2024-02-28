@@ -7,9 +7,9 @@ description: Mit Resource Management können Sie Ihr System so konfigurieren, da
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
    * **Der Ressourcen-Planer**: Sie können den Ressourcen-Planer in der ersten Phase des Ressourcenmanagements verwenden, um die Projektzeit Ihrer Ressourcen entsprechend der geplanten Verfügbarkeit zu planen. Während der Planung der Ressourcenphase können Sie Benutzer in Ressourcen-Pools organisieren und einem Projekt mehrere Ressourcen-Pools zuweisen.
 
-     Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung: Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Der Szenario-Planer**: Hierbei handelt es sich um eine übergeordnete Ressourcenplanung, mit der Sie sie über mehrere Initiativen hinweg verwalten können, die sich über einen Ein-, Drei- oder Fünfjahresplan erstrecken und mehrere Projekte umfassen können. Sie können das beste Szenario nutzen, um die Verfügbarkeit und Ihr Budget optimal zu nutzen.
 
@@ -118,7 +118,7 @@ Die Ressourcenverwaltung in Workfront umfasst die folgenden Etappen:
 
   Weitere Informationen zur Ressourcenplanung und -zuweisung finden Sie in den folgenden Abschnitten:
 
-   * [Ressourcenplanung in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Ressourcenplanung: Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront-Szenario-Planer](../../scenario-planner/scenario-planning.md)
    * [Der Lastenausgleich: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
