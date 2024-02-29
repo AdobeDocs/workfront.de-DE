@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '4226'
+source-wordcount: '4257'
 ht-degree: 1%
 
 ---
@@ -315,6 +315,7 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
    >
    >Neben den Avataren werden die Namen der ersten beiden getaggten Entitäten angezeigt. Wenn mehr als zwei Entitäten mit Tags versehen sind, werden nur der Name des ersten und die Anzahl der zusätzlichen Entitäten angezeigt.
 
+1. <span class="preview"> (Optional) Klicken Sie auf den Namen eines Kommentars, um dessen Namen, Rolle und E-Mail-Adresse in einem Informationsfeld anzuzeigen. Klicken Sie im Informationsfeld erneut auf den Namen des Kommentars, um sein Benutzerprofil zu öffnen.</span>
 1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn das Objekt oder seine untergeordneten Elemente aktualisiert werden, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an.
 
    Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).

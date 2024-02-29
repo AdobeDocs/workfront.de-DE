@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -101,9 +101,9 @@ Informationen darüber, welche Funktionen im neuen Kommentierungserlebnis verfü
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
 1. Klicks **Updates** und klicken Sie dann auf **Kommentare** für das Objekt ein und suchen Sie nach dem Kommentar oder der Antwort, auf den/die Sie antworten möchten.
 
->[!NOTE]
->
-><span class="preview">Um auf einen Kommentar auf der Registerkarte Alle zu antworten, klicken Sie auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.</span>
+   >[!NOTE]
+   >
+   ><span class="preview">Um auf einen Kommentar auf der Registerkarte Alle zu antworten, klicken Sie auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.</span>
 
 1. (Optional) Wenn Sie Text aus einer vorherigen Aktualisierung in Ihre Antwort aufnehmen möchten, klicken Sie auf die **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, klicken Sie auf **Anführungsantwort**. Text aus der vorherigen Aktualisierung wird im Eingabefeld mit einer vertikalen grauen Linie markiert.
 1. Klicks **Antwort**.

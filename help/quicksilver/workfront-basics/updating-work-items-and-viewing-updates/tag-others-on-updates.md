@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
    Die Namen der getaggten Entitäten werden neben ihren Avataren bis zu zwei Entitäten angezeigt. Wenn mehr als zwei Entitäten mit Tags versehen sind, wird neben einer Reihe weiterer Entitäten der Name der ersten angezeigt.
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">Wenn Sie im Kommentartext mit Tags versehen sind, wird Ihr Benutzername in diesen Kommentaren hervorgehoben.</span>
 
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
