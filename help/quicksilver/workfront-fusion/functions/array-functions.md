@@ -8,9 +8,9 @@ description: Die folgenden Array-Funktionen sind im Bereich Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -34,19 +34,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,11 +56,11 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add (array); value1; Wert 2; ...)]
+## [!UICONTROL add (Array; Wert1; Wert2; ...)]
 
 Fügt in Parametern angegebene Werte zu einem Array hinzu und gibt dieses Array zurück.
 
-## [!UICONTROL contains (Array) value)]
+## [!UICONTROL contains (array; value)]
 
 Überprüft, ob ein Array den Wert enthält.
 
@@ -79,7 +79,7 @@ Entfernt Duplikate in einem Array. Verwenden Sie die[!UICONTROL key]&quot;-Argum
 Erstellt ein neues Array mit allen Unter-Array-Elementen, die bis zur angegebenen Tiefe rekursiv darin verkettet sind.
 
 
-## [!UICONTROL join (array) separator)]
+## [!UICONTROL join (array; separator)]
 
 Verkettet alle Elemente eines Arrays mithilfe des angegebenen Trennzeichens zwischen den einzelnen Elementen in einer Zeichenfolge.
 
@@ -91,7 +91,7 @@ Gibt ein Array der Eigenschaften eines angegebenen Objekts oder Arrays zurück.
 
 Gibt die Anzahl der Elemente in einem Array zurück.
 
-## [!UICONTROL map (komplexes Array); Schlüssel;[Filterschlüssel];[mögliche Filterwerte])]
+## [!UICONTROL map (komplexes Array; Schlüssel)[Filterschlüssel];[mögliche Filterwerte])]
 
 Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält. Diese Funktion ermöglicht das Filtern von Werten. Verwenden Sie unformatierte Variablennamen für Schlüssel.
 
@@ -110,11 +110,11 @@ Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält
 Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 
-## [!UICONTROL merge (array1) array2; ...)]
+## [!UICONTROL merge (array1; array2; ...)]
 
 Führt ein oder mehrere Arrays in einem Array zusammen.
 
-## [!UICONTROL remove (Array) value1; Wert 2; ...)]
+## [!UICONTROL remove (Array; Wert1; Wert2; ...)]
 
 Entfernt die in den Parametern eines Arrays angegebenen Werte. Diese Funktion ist nur bei primitiven Arrays von Text oder Zahlen wirksam.
 
@@ -122,11 +122,11 @@ Entfernt die in den Parametern eines Arrays angegebenen Werte. Diese Funktion is
 
 Das erste Element des Arrays wird zum letzten Element, das zweite zum letzten usw.
 
-## [!UICONTROL slice (Array) Beginn; [end])]
+## [!UICONTROL slice (array; start; [end])]
 
 Gibt ein neues Array zurück, das nur ausgewählte Elemente enthält.
 
-## [!UICONTROL sort (Array); [order]; [key])]
+## [!UICONTROL sort (Array); [bestellen]; [key])]
 
 Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
 
@@ -136,15 +136,15 @@ Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
 
 * `desc`
 
-  absteigende Reihenfolge: ..., 3, 2, 1 für den Typ Zahl. ..., c, b, a, C, B, A für den Typ Text.
+  Absteigende Reihenfolge: ..., 3, 2, 1 für Typ &quot;Number&quot;. ..., c, b, a, C, B, A für den Typ Text.
 
 * `asc ci`
 
-  Groß-/Kleinschreibung - aufsteigende Reihenfolge: A, a, B, b, C, c, ... für den Typ Text.
+  nicht von Schreibweise abhängig aufsteigende Reihenfolge: A, a, B, b, C, c, ... für den Typ Text.
 
 * `desc ci`
 
-  nicht von Schreibweise abhängig: ..., C, c, B, b, A, a für den Typ Text.
+  nicht von Schreibweise abhängig absteigende Reihenfolge: ..., C, c, B, b, A, a für den Typ Text.
 
 Verwenden Sie die `key` -Parameter, um auf Eigenschaften in komplexen Objekten zuzugreifen.
 
@@ -164,7 +164,7 @@ Das erste Element in einem Array ist Index 1.
 >
 >* `sort(Contacts[];desc;name)`
 >
->   Sortiert eine Gruppe von Kontakten nach der Eigenschaft &quot;name&quot;in absteigender Reihenfolge
+>   Sortiert ein Kontaktarray nach der Eigenschaft &quot;name&quot;in absteigender Reihenfolge
 >
 >* `sort(Contacts[];asc ci;name)`
 >
@@ -178,13 +178,13 @@ Das erste Element in einem Array ist Index 1.
 
 Gibt die Differenz zwischen zwei Arrays zurück.
 
-Geben Sie einen der folgenden Werte für die `mode` Parameter.
+Geben Sie für die `mode` -Parameter.
 
-* `classic`: Gibt ein neues Array zurück, das alle Elemente von `array1` die nicht in `array2`.
+* `classic`: Gibt ein neues Array zurück, das alle Elemente von enthält `array1` , die nicht in `array2`.
 
 * `symmetric`: Gibt ein Array von Elementen zurück, die nicht für beide Arrays gelten.
 
-  Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` die nicht in `array2`und alle Elemente von `array2` die nicht in `array1`.
+  Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` , die nicht in `array2`und alle Elemente von `array2` , die nicht in `array1`.
 
   >[!INFO]
   >
@@ -211,3 +211,23 @@ Geben Sie einen der folgenden Werte für die `mode` Parameter.
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Rückgabe `[1,2,6,7]`
+
+## toArray
+
+Diese Funktion konvertiert eine Sammlung in ein Array von Schlüssel-Wert-Paaren.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>Aufgrund der Kollektion
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>Die Funktion
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Gibt das Array von Schlüssel-Wert-Paaren aus
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
