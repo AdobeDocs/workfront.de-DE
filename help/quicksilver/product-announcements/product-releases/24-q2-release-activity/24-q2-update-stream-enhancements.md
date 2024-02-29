@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen am Update-Stream und an Benachrichtigungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Zusätzliche Kommentar-Informationen, die im neuen Kommentierungserlebnis verfügbar sind
+
+>[!NOTE]
+>
+>Vorschau-Version: 29. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+
+Wir haben die folgenden Verbesserungen an der neuen Kommentarfunktion vorgenommen:
+
+* Sie können auf den Namen eines Kommentars klicken, um dessen Namen, Rolle und E-Mail-Adresse in einem Informationsfeld anzuzeigen. Diese Informationen können Ihnen dabei helfen, den richtigen Benutzer zu identifizieren, wenn Sie mehr als einen Benutzer mit demselben Namen haben. Wenn Sie im Informationsfeld auf den Namen des Kommentars klicken, wird sein Benutzerprofil geöffnet.
+* Ihr Benutzername wird in Kommentaren hervorgehoben, die Sie mit Tags versehen haben, wenn Sie im Kommentartext erwähnt werden.
+
+Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
