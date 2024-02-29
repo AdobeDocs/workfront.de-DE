@@ -6,14 +6,16 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Angeschlossene Karten auf Pinnwänden verwenden
+
+<!-- Audited: 2/2024 -->
 
 Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehenden Aufgaben und Problemen in [!DNL Workfront].
 
@@ -21,11 +23,11 @@ Wenn eine der folgenden Details für die Karte an einem Ort aktualisiert wird, w
 
 * [!UICONTROL Name]
 * [!UICONTROL Beschreibung]
-* [!UICONTROL Zugewiesene]
+* [!UICONTROL Zuweisung]
 * [!UICONTROL Status]
 * [!UICONTROL Geplantes Abschlussdatum]
 * [!UICONTROL Schätzung] / [!UICONTROL Story Points]
-* [!UICONTROL Teilaufgaben]
+* [!UICONTROL Unteraufgaben]
 * [!UICONTROL Dokumente]
 
 >[!NOTE]
@@ -39,29 +41,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td>
+   <p>Neu: Mitarbeiter oder höher</p>
+   <p>Oder</p>
+   <p>Aktuell: Anforderung oder höher</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td>
-   <td><p>[!UICONTROL Ansicht] oder höherer Zugriff auf Aufgaben und Probleme</p></td>
+   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td>
+   <td><p>Zugriff auf Aufgaben und Probleme anzeigen oder höher</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Objektberechtigungen</strong></td>
-   <td><p>[!UICONTROL Ansicht] oder höhere Berechtigungen für Workfront-Aufgaben oder -Probleme</p></td>
+   <td><p>Anzeigen oder Höhere Berechtigungen für Workfront-Aufgaben oder -Probleme</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hinzufügen einer verbundenen Karte
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Pinnwände]**.
 1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicks **[!UICONTROL Karte hinzufügen] > [!UICONTROL Verbundene Karte]**.
 1. Wählen Sie ein Projekt aus und wählen Sie dann eine Aufgabe oder ein Problem, die bzw. das als Karte auf der Pinnwand hinzugefügt werden soll.

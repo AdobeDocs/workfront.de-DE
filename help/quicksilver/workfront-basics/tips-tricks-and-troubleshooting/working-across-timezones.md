@@ -5,7 +5,7 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Arbeiten über Zeitzonen hinweg
+
+<!-- Audited: 2/2024 -->
 
 Es kann hilfreich sein zu verstehen, wie [!DNL Adobe Workfront] verwendet Zeitzonen, um Folgendes zu berechnen:
 

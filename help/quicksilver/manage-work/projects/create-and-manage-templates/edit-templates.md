@@ -6,22 +6,18 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # Bearbeiten von Projektvorlagen
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 Sie können Projektvorlagen bearbeiten, um Änderungen in Projektprozessen und -einstellungen widerzuspiegeln. Nachdem Sie die Änderungen auf einer Vorlage aktualisiert und gespeichert haben, sind die neuen Änderungen in neuen Projekten sichtbar, wenn die Projekte mit der Vorlage erstellt werden. Die Änderungen, die Sie an der Vorlage vornehmen, beziehen sich nicht auf das Projekt, das diese Vorlage verwendet.
 
@@ -34,16 +30,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenzen</td> 
+   <td>
+      <p>Neu: Standard</p>
+      <p>Oder</p>
+      <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Vorlagen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -51,12 +51,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <ul> 
      <li> <p>Beitragen Sie Berechtigungen zu einer Vorlage, um sie auf der Registerkarte "Vorlagendetails"zu bearbeiten</p> </li> 
      <li> <p>Berechtigungen für eine Vorlage verwalten, um sie im Feld "Vorlage bearbeiten"zu bearbeiten</p> </li> 
-    </ul> <p> Weitere Informationen zu Vorlagenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Vorlage freigeben</a>. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vorlagen bearbeiten {#edit-a-template}
 
@@ -1047,7 +1047,7 @@ So bearbeiten Sie Vorlagen stapelweise:
 
    Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie im Abschnitt [Vorlagen bearbeiten](#edit-a-template) in diesem Artikel beschrieben.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Alle von Ihnen vorgenommenen Änderungen sind nun in allen ausgewählten Vorlagen sichtbar.
 
