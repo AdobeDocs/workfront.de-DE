@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Die Sandbox Benutzerdefinierte Aktualisierung enthält Ihre tatsächlichen Produ
 >[!NOTE]
 >
 >* Sie können keine Aktualisierung für den aktuellen Tag planen. Wenn heute beispielsweise der 1. Juni ist, ist der früheste Tag, an dem Sie eine Aktualisierung planen können, der 2. Juni.
->* Die geplante Aktualisierung erfolgt um 12:00 Uhr am angegebenen Datum, basierend auf der Zeitzone des Benutzers, der die Anforderung gesendet hat.
+>* Die geplante Aktualisierung erfolgt manchmal nachts, basierend auf dem Cluster des Benutzers (US-Cluster werden in den USA nachts aktualisiert). Die spezifische Zeit ist aufgrund anderer Kunden in der Warteschlange und der Aktualisierungsmenge der Daten unvorhersehbar. Wenn die Warteschlange viele große Kunden hat, wird die Aktualisierung möglicherweise erst zu einem späteren Zeitpunkt an diesem Tag oder am nächsten Tag ausgeführt.
 >* Ihre Sandbox für benutzerdefinierte Aktualisierungen verfügt immer über dieselben Produktfunktionen wie Ihre Produktionsumgebung. Wenn Sie jedoch Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisieren, wird das Branding nur für die Hintergrundfarbe des Anmeldebildschirms beibehalten. Die Logos auf dem Anmeldebildschirm und der Navigationsleiste werden auf [!DNL Workfront] -Standardeinstellungen sowie alle Branding-Bilder, die Sie vor der Aktualisierung geändert haben, werden nicht angezeigt.
 >
 
