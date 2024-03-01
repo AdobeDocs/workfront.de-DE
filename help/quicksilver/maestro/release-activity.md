@@ -1,32 +1,32 @@
 ---
-title: Adobe Maestro-Release-Aktivität
-description: Adobe Maestro ist derzeit für ausgewählte Workfront-Kunden verfügbar. Lesen Sie diesen Artikel oft, um mehr über die Funktionen zu erfahren, die kürzlich für Adobe Maestro veröffentlicht wurden.
+title: Adobe Workfront-Planungs-Funktionen - Release-Aktivität
+description: Adobe Workfront-Planungsfunktionen stehen derzeit ausgewählten Workfront-Kunden zur Verfügung. Lesen Sie diesen Artikel oft, um mehr über die kürzlich für die Planungsfunktionen veröffentlichten Funktionen zu erfahren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro-Release-Aktivität
+# Adobe Workfront-Planungs-Funktionen - Release-Aktivität
 
 {{maestro-important-intro}}
 
-In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
+In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des Betaprogramms der Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
 
-Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Produktionsumgebung zugreifen.
+Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die an den Planungsfunktionen des geschlossenen Betaprogramms teilnehmen, können auf alle Funktionen in ihrer Produktionsumgebung zugreifen.
 
 >[!IMPORTANT]
 >
->Zwischen Mai 2023 und Dezember 2023 wurden alle Funktionen in diesem Artikel sowohl in der Vorschau- als auch in der Produktionsumgebung veröffentlicht. Die Maestro-Funktionen wurden seit Januar 2024 vorübergehend aus den Umgebungen für Vorschau und Sandbox entfernt. Alle nach diesem Datum veröffentlichten Funktionen sind derzeit in der Produktion verfügbar.
+>Zwischen Mai 2023 und Dezember 2023 wurden alle Funktionen in diesem Artikel sowohl in der Vorschau- als auch in der Produktionsumgebung veröffentlicht. Die Planungsfunktionen wurden seit Januar 2024 vorübergehend aus den Umgebungen für Vorschau und Sandbox entfernt. Alle nach diesem Datum veröffentlichten Funktionen sind derzeit in der Produktion verfügbar.
 
-In diesem Artikel werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms von Maestro am 22. Mai 2023 veröffentlicht wurden.
+In diesem Artikel werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms für Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
 
-Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am geschlossenen Betaprogramm von Maestro teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
+Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die an den Planungsfunktionen des geschlossenen Betaprogramms teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Die folgenden Berechtigungen funktionieren jetzt in Verbindung mit dem Lizenztyp
 
 Weitere Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in Maestro finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Neues Erscheinungsbild der Rich-Text-Symbolleiste für Datensatzfelder
@@ -88,7 +88,7 @@ Wir haben das Erlebnis beim Hinzufügen von Optionen oder Objekten für die folg
 * Einzelauswahl
 * Mehrfachauswahl
 * Personen
-* Verknüpfte Datensatzfelder (beim Verbinden von Maestro-Datensatztypen oder Workfront-Objekten)
+* Verbundene Datensatzfelder (beim Verbinden von Planungsfähigkeitsdatensatztypen oder Workfront-Objekten)
 
 Mit der neuen Verbesserung wird zuerst ein kleineres, reaktionsfähigeres Feld angezeigt.
 
@@ -136,14 +136,14 @@ Produktion: 1. Februar 2024
 
 Vorschau: zu bestimmen
 
-Um Verwirrung zu vermeiden und die Verwaltung von Arbeitsbereichen zu vereinfachen, haben wir die automatisch generierten, schreibgeschützten Datensatztypen für verbundene Nicht-Maestro-Objekte aus einem Arbeitsbereich entfernt.
+Um Verwirrung zu vermeiden und die Verwaltung von Arbeitsbereichen zu vereinfachen, haben wir die automatisch generierten, schreibgeschützten Datentypkarten für verbundene externe Objekte aus einem Arbeitsbereich entfernt.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Woche vom 22. Januar 2024
 
-### Neuer Verlaufsabschnitt zeigt Systemaktivität für Maestro-Datensätze an
+### Neuer Verlaufsabschnitt zeigt Systemaktivität für die Planung von Funktionsdatensätzen
 
 Produktion: 25. Januar 2024
 
@@ -151,7 +151,7 @@ Vorschau: zu bestimmen
 
 Um die Auditing-Funktionen zu verbessern, haben wir einen neuen Abschnitt im rechten Bereich eines Datensatzes eingeführt, in dem Sie Änderungen an dem vom System aufgezeichneten Datensatz überprüfen können.
 
-Maestro zeichnet die folgenden Informationen im neuen Abschnitt Verlauf auf:
+Die folgenden Informationen werden im neuen Abschnitt Verlauf aufgezeichnet:
 
 * Alle Feldänderungen
 
@@ -173,13 +173,13 @@ Um bei der Erstellung von Datensätzen Konsistenz zu gewährleisten, haben wir d
 
 ## Woche vom 8. Januar 2024
 
-### Maestro-Funktionen werden aus der Vorschau- und Sandbox-Umgebung entfernt
+### Planungsfunktionen werden aus der Vorschau- und Sandbox-Umgebung entfernt
 
 Vorschau und Sandbox: 11. Januar 2024
 
-Der Maestro-Bereich und alle Maestro-Funktionen wurden vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Maestro wird zu diesen Umgebungen zu einem späteren Zeitpunkt hinzugefügt, zu dem wir in den Versionshinweisen zu den Aktivitäten kommunizieren werden.
+Die Planungsfunktionen von Adobe Workfront wurden vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Sie werden zu einem späteren Zeitpunkt zu diesen Umgebungen hinzugefügt, den wir in den Versionshinweisen zu den Aktivitäten kommunizieren werden.
 
-### Maestro-Berechtigungen für Arbeitsbereiche und Ansichten
+### Planen von Berechtigungen für Arbeitsbereiche und Ansichten
 
 Produktion: 11. Januar 2024
 
@@ -191,7 +191,7 @@ Wenn Sie einen Arbeitsbereich freigeben, haben Benutzer Berechtigungen für die 
 
 Wenn Sie einen Arbeitsbereich freigeben, erhalten Benutzer keine Freigabeberechtigungen für die Ansichten, die mit den Datensatztypen des Arbeitsbereichs verknüpft sind. Sie müssen Ansichten separate Berechtigungen erteilen.
 
-Im Folgenden finden Sie die Berechtigungsebenen für Maestro-Arbeitsbereiche:
+Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 
 * Ansicht: Benutzer können Arbeitsbereiche anzeigen, die für sie freigegeben sind. Außerdem können sie Datensatztypen und Datensätze aus dem freigegebenen Arbeitsbereich anzeigen.
 
@@ -274,21 +274,21 @@ Vorschau und Produktion für alle Kunden: 18. Dezember 2023
 
 Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder auf andere antworten, während Sie einen Datensatz auf der Detailseite anzeigen.
 
-Das Kommentarerlebnis für Maestro-Datensätze entspricht dem neuen Kommentarerlebnis für Workfront-Objekte.
+Das Kommentierungserlebnis für die Aufzeichnung von Planungsfunktionen entspricht dem neuen Kommentierungserlebnis für Workfront-Objekte.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Maestro-Connector (Beta) für Adobe Workfront Fusion
+### Planen des Connectors für Funktionen (Beta) für Adobe Workfront Fusion
 
 Produktion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Maestro aufbauen zu können.
+>Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront-Planungsfunktionen aufbauen zu können.
 >
 >Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu Maestro herzustellen. Mit der neuen Adobe Maestro Fusion-Verbindung können Sie:
+Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung können Sie:
 
 * Datensätze erstellen, lesen, aktualisieren und löschen
 
@@ -300,7 +300,7 @@ Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu Maestr
 
 * API-Aufruf
 
-* Trigger eines Szenarios bei einer Änderung in Maestro
+* Trigger eines Szenarios bei einer Änderung der Planungsfunktionen
 
 Weitere Informationen finden Sie unter [Adobe Maestro-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Weitere Informationen finden Sie unter [Adobe Maestro-Module](/help/quicksilver/
 
 Vorschau und Produktion: 14. Dezember 2023
 
-Jetzt können Sie das Feld auswählen, das in der ersten Spalte einer Maestro-Tabellenansicht angezeigt werden soll. Dieses Feld wird jetzt als primäres Feld bezeichnet.
+Jetzt können Sie das Feld auswählen, das in der ersten Spalte einer Tabellenansicht angezeigt werden soll. Dieses Feld wird jetzt als primäres Feld bezeichnet.
 
 Vor dieser Verbesserung wurde das Feld Name eines Datensatzes immer in der ersten Spalte der Tabellenansicht angezeigt und es konnte nicht an einer anderen Position platziert werden.
 
@@ -334,8 +334,7 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Maestro-Datensätze mit Adobe Experience Manager Assets verbinden
+### Verbinden von Datensätzen in Planungsfunktionen mit Adobe Experience Manager Assets
 
 Vorschau: 14. Dezember 2023
 
@@ -343,34 +342,33 @@ Produktionsversion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Maestro-Datensätze mit Adobe Experience Manager Assets verbinden zu können.
+>Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Adobe Workfront-Planungsfunktionsdatensätze mit Adobe Experience Manager Assets verbinden zu können.
 >
 >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Sie können jetzt eine Verbindung zwischen Maestro-Datensatztypen und Adobe Experience Manager Assets herstellen.
+Sie können jetzt eine Verbindung zwischen den Datensatztypen der Adobe Workfront-Planungsfunktionen und Adobe Experience Manager Assets herstellen.
 
 Nachdem Sie die Verbindung hergestellt haben, ist mit diesem Update die folgende Funktion verfügbar:
 
-* Sie können Experience Manager-Assets und -Ordner mit einem Maestro-Datensatz aus einem bestimmten Repository in Experience Manager Assets verknüpfen, auf das sie Zugriff haben. In diesem Prozess können Sie Asset-Felder mit Maestro-Feldern verbinden.
+* Sie können Experience Manager-Assets und -Ordner mit einem Datensatz mit Planungsfunktionen aus einem bestimmten Repository in Experience Manager Assets verknüpfen, auf das sie Zugriff haben. In diesem Prozess können Sie Asset-Felder mit Planungsfunktionsfeldern verbinden.
 
-* Maestro-Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in Maestro anzeigen
+* Planungsfunktion Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in den Planungsfunktionen anzeigen.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Sie können im Feld &quot;Verbundener Datensatz&quot;in der Tabellenansicht des Maestro-Datensatzes auf den Asset-Namen klicken und ein Popup-Fenster mit der Asset-Miniaturansicht und mehreren Schlüsselfeldern anzeigen. Im Popup-Fenster können Sie in Experience Manager zum Asset-Viewer navigieren und alle Details dazu anzeigen.
+* Sie können im Feld &quot;Verbundener Datensatz&quot;in der Tabellenansicht des Planungsfunktionsdatensatzes auf den Asset-Namen klicken und ein Popup-Fenster mit der Asset-Miniaturansicht und mehreren Schlüsselfeldern anzeigen. Im Popup-Fenster können Sie in Experience Manager zum Asset-Viewer navigieren und alle Details dazu anzeigen.
 
 Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Woche vom 4. Dezember 2023
 
-### Kopieren Sie Informationen aus einem Feld in ein anderes und fügen Sie sie in der Maestro-Tabellenansicht für die Felder vom Typ Personen und verknüpfte Datensätze ein.
+### Kopieren Sie Informationen aus einem Feld in ein anderes und fügen Sie sie in der Tabellenansicht der Planungfähigkeitstabelle für Personen- und verknüpfte Datensatzfelder ein.
 
 Vorschau und Produktion: 5. Dezember 2023
 
-Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Maestro-Datensatz kopieren und einfügen. Diese Funktion wird jetzt für die folgenden Feldtypen unterstützt:
+Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Datensatz kopieren und einfügen. Diese Funktion wird jetzt für die folgenden Feldtypen unterstützt:
 
 * Personen
 * Verknüpfte Datensatzfelder
@@ -379,7 +377,7 @@ Beachten Sie Folgendes:
 
 * Das Kopieren und Einfügen von Feldwerten von einem Feld in ein anderes wird für Felder unterstützt, die mehrere Werte anzeigen.
 
-* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+* Es ist nicht möglich, Informationen aus anderen Quellen als einem Planungsfunktionsfeld zu kopieren, das dem Feld entspricht, in das Sie die Informationen einfügen.
 
 * Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
 
@@ -389,15 +387,15 @@ Informationen zu verknüpften Feldern finden Sie unter [Datensatztypen verbinden
 
 ## Woche vom 27. November 2023
 
-### Kopieren und Einfügen von Informationen aus einem Feld in ein anderes in der Maestro-Tabellenansicht
+### Kopieren und Einfügen von Informationen aus einem Feld in ein anderes in der Tabellenansicht der Planungsfunktion
 
 Vorschau und Produktion: 28. November 2023
 
-Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Maestro-Datensatz kopieren und einfügen.
+Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs kopieren und in eine Tabellenansicht vom Typ Datensatz der Planungsfunktion einfügen.
 
 Beachten Sie Folgendes:
 
-* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+* Es ist nicht möglich, Informationen aus anderen Quellen als einem Planungsfunktionsfeld zu kopieren, das dem Feld entspricht, in das Sie die Informationen einfügen.
 
 * Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
 
@@ -417,7 +415,7 @@ Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/recor
 
 Vorschau und Produktion: 7. November 2023
 
-Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Maestro-Oberfläche nach drei eindeutigen Feldern gruppieren <!--checking into this for now: and by four fields when using the API-->.
+Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Planungsfunktion drei eindeutige Felder gruppieren<!--checking into this for now: and by four fields when using the API-->.
 
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/vi
 
 Vorschau und Produktion: 30. Oktober 2023
 
-Wir haben die folgenden Feldtypen für Maestro-Datensätze eingeführt:
+Wir haben die folgenden Feldtypen für Datensätze der Adobe Workfront-Planungsfunktionen eingeführt:
 
 * Erstellt von
 
@@ -441,11 +439,11 @@ Die Feldwerte der aus diesen Feldtypen erstellten Felder sind schreibgeschützt 
 
 Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
 
-### Navigieren zu Workfront-Objekten aus einem Maestro-Datensatz
+### Navigieren zu Workfront-Objekten aus einem Datensatz mit Planungsfunktionen
 
 Vorschau und Produktion: 31. Oktober 2023
 
-Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in Maestro öffnen:
+Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in den Planungsfunktionen öffnen:
 
 * Die schreibgeschützte verknüpfte Tabellenansicht der Workfront-Objektdatensätze
 
@@ -475,7 +473,7 @@ Weitere Informationen finden Sie unter [Datensätze erstellen](../maestro/record
 
 Vorschau und Produktion: 16. Oktober 2023
 
-Sie können jetzt ein Feld vom Typ Personen zu Maestro-Datensatztypen hinzufügen. Sie können Felder vom Typ Personen verwenden, um vorhandene Benutzer einem Datensatz zuzuordnen. Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
+Sie können jetzt ein Feld vom Typ Personen zu den Datensätzen der Planungsfunktionen hinzufügen. Sie können Felder vom Typ Personen verwenden, um vorhandene Benutzer einem Datensatz zuzuordnen. Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
 
 ### Rich-Text-Format für Absatzfelder
 
@@ -530,21 +528,21 @@ Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenans
 
 ## Woche vom 4. September 2023
 
-### Verbinden von Maestro-Datensätzen mit Workfront-Unternehmen und -Gruppen
+### Datensätze zu Planungsfunktionen mit Workfront-Unternehmen und -Gruppen verbinden
 
 Vorschau und Produktion: 5. September 2023
 
-Sie können jetzt einen Maestro-Datensatz mit Workfront-Unternehmen und -Gruppen verbinden. Sie müssen zunächst eine Verbindung zwischen einem Maestro-Record-Typ und den Workfront-Unternehmen und -Gruppen-Objekttypen herstellen. Anschließend können Sie einen einzelnen Maestro-Datensatz des ausgewählten Datensatztyps mit einzelnen Workfront-Unternehmen und -Gruppen verbinden.
+Jetzt können Sie einen Datensatz mit Planungsfunktionen mit Workfront-Unternehmen und -Gruppen verbinden. Sie müssen zunächst eine Verbindung zwischen einem Datensatz vom Typ Planungsfunktion und den Objekttypen von Workfront-Unternehmen und -Gruppen herstellen. Anschließend können Sie einen einzigen Datensatz mit Planungsfunktionen des ausgewählten Datensatztyps mit einzelnen Workfront-Unternehmen und -Gruppen verbinden.
 
 Beachten Sie Folgendes:
 
-* Sie müssen für jeden Workspace eine Verbindung zwischen den Maestro-Datensatztypen und den Workfront-Objektarten &quot;Unternehmen&quot;und &quot;Gruppe&quot;herstellen.
+* Sie müssen für jeden Workspace eine Verbindung zwischen den Datensatztypen der Planungsfunktionen und den Objekttypen Workfront Company und Group herstellen.
 
 * Es ist nicht möglich, Taxonomie-Datensatztypen mit Workfront-Objekttypen zu verbinden.
 
-* Sie können mehrere Maestro-Datensätze mit demselben Unternehmen oder derselben Workfront-Gruppe sowie mehrere Unternehmen oder Gruppen mit demselben Maestro-Datensatz verbinden.
+* Sie können mehrere Planungsfunktionsdatensätze mit demselben Unternehmen oder derselben Workfront-Gruppe sowie mehrere Unternehmen oder Gruppen mit demselben Planungsfähigkeitsdatensatz verbinden.
 
-* Sie können keine Firmen oder Gruppen in Maestro bearbeiten. Alle in Workfront durchgeführten Unternehmens- oder Gruppenänderungen werden in Maestro bei der Überprüfung der mit Maestro verknüpften Datensätze angezeigt.
+* Sie können keine Unternehmen oder Gruppen in den Planungsfunktionen bearbeiten. Alle in Workfront durchgeführten Unternehmens- oder Gruppenänderungen sind in den Planungsfunktionen sichtbar, wenn die Planungsfunktionen verknüpfte Datensätze überprüft werden.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -571,15 +569,15 @@ Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../maestro/vi
 
 ## Woche vom 21. August 2023
 
-### Verbinden von Maestro-Datensätzen mit Programmen und Portfolios
+### Verbinden von Adobe Workfront-Planungsfunktionsdatensätzen mit Programmen und Portfolios
 
 Vorschau und Produktion: 24. August 2023
 
-Sie können jetzt einen Maestro-Datensatz mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Maestro-Record-Typ und einem Programm oder Portfolio erstellen, das bzw. das ein verbundenes Feld erstellt. Anschließend können Sie alle Maestro-Datensätze aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit bestimmten Programmen und Portfolios verbinden, wodurch ein schreibgeschützter Workfront-Programm- oder Workfront-Portfolio-Datensatztyp im selben Arbeitsbereich erstellt wird. Beachten Sie Folgendes:
+Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Datensatz vom Typ Planungsfähigkeiten und einem Programm oder Portfolio herstellen, das bzw. das ein verknüpftes Feld erstellt. Anschließend können Sie alle Datensätze der Planungsfunktionen aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit spezifischen Programmen und Portfolios verbinden, wodurch ein schreibgeschützter Workfront-Programm- oder Workfront-Portfolio-Datensatztyp im selben Arbeitsbereich erstellt wird. Beachten Sie Folgendes:
 
 * Die Datensatztypen des Workfront-Connectors sind für jeden Arbeitsbereich eindeutig.
-* Sie können mehrere Maestro-Datensätze mit demselben Workfront-Programm oder -Portfolio sowie mehrere Programme und Portfolios mit demselben Maestro-Datensatz verbinden.
-* Sie können keine Programme und Portfolios in Maestro bearbeiten. Alle in Workfront durchgeführten Programm- und Portfolioänderungen werden in Maestro bei der Überprüfung der verknüpften Datensätze angezeigt.
+* Sie können mehrere Planungsfunktionsdatensätze mit demselben Workfront-Programm oder -Portfolio sowie mehrere Programme und Portfolios mit demselben Datensatz für Planungsfunktionen verbinden.
+* Programme und Portfolios können nicht in den Planungsfunktionen bearbeitet werden. Alle in Workfront durchgeführten Programm- und Portfolioänderungen sind bei der Überprüfung der verknüpften Datensätze in den Planungsfunktionen sichtbar.
 
 ### Neue Sortierfunktion für die Tabellenansicht
 
@@ -608,13 +606,13 @@ Die Timeline-Ansicht wurde folgendermaßen verbessert:
 
 ### Neuanordnen von Spalten in der Tabellenansicht
 
-Sie können Spalten in der Maestro-Tabellenansicht jetzt neu anordnen. Beachten Sie bei der Neuanordnung von Spalten Folgendes:
+Sie können Spalten in der Tabellenansicht jetzt neu anordnen. Beachten Sie bei der Neuanordnung von Spalten Folgendes:
 
 * Das Feld Name ist immer das erste Feld in der Tabellenansicht einer Seite vom Typ Datensatz
 
 * Sie können das Feld &quot;Name&quot;nicht an eine andere Position verschieben
 
-* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs.
+* Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs
 
 ### Horizontaler Bildlauf für die Timeline-Ansicht
 
@@ -650,7 +648,7 @@ Sie können jetzt ein benutzerdefiniertes Symbol für einen Datensatztyp und ein
 
 Vorschau und Produktion: 13. Juli 2023
 
-Sie können jetzt einen Kontrollkästchen-Feldtyp zu Maestro-Datensatztypen hinzufügen. Sie können ein Feld vom Typ Kontrollkästchen verwenden, um einem Datensatz eine einzige Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
+Sie können jetzt einen Kontrollkästchen-Feldtyp zu den Datensätzen der Planungsfunktion hinzufügen. Sie können ein Feld vom Typ Kontrollkästchen verwenden, um einem Datensatz eine einzige Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
 
 ## Woche vom 26. Juni 2023
 
@@ -664,19 +662,19 @@ Wir haben die Aktivierung des Kontextmenüs ermöglicht, indem wir mit der recht
 
 ### Namen von Datensatzfeldern sind eindeutig
 
-Wir haben jetzt eine Anforderung eingeführt, dass die Feldnamen eines Maestro-Datensatztyps eindeutige Namen haben müssen. Felder, die zu verschiedenen Datensatztypen gehören, müssen keine eindeutigen Namen haben.
+Wir haben jetzt eine Anforderung eingeführt, dass die Feldnamen eines Datensatztyps für Planungsfähigkeiten eindeutige Namen haben müssen. Felder, die zu verschiedenen Datensatztypen gehören, müssen keine eindeutigen Namen haben.
 
 ## Woche vom 5. Juni 2023
 
-### Verbinden von Maestro-Datensätzen mit Workfront-Projekten
+### Verbinden von Datensätzen der Adobe Workfront-Planungsfunktionen mit Workfront-Projekten
 
 Vorschau und Produktion: 5. Juni 2023
 
-Sie können jetzt einen Maestro-Datensatz mit Workfront-Projekten verbinden. Sie müssen einen Connector-Maestro-Record-Typ erstellen, um die Verbindung zwischen Maestro-Datensätzen und Workfront-Projekten herzustellen. Anschließend können Sie über das Feld Beziehung alle Maestro-Datensätze aus allen anderen Datensatztypen mit dem Connector-Datensatz verbinden. Beachten Sie Folgendes:
+Jetzt können Sie einen Datensatz mit Planungsfunktionen mit Workfront-Projekten verbinden. Sie müssen einen Datensatz vom Typ Connector-Planung erstellen, um die Verbindung zwischen den Datensätzen der Planungsfunktionen und den Workfront-Projekten herzustellen. Anschließend können Sie über das Feld Beziehung alle Datensätze der Planungsfunktionen aus allen anderen Datensatztypen mit dem Connector-Datensatz verbinden. Beachten Sie Folgendes:
 
 * Sie müssen für jeden Workspace über einen Connector-Record-Typ für Workfront verfügen.
-* Sie können mehrere Maestro-Datensätze mit demselben Workfront-Projekt und mehrere Projekte mit demselben Maestro-Datensatz verbinden.
-* Sie können keine Projekte in Maestro bearbeiten. Alle in Workfront durchgeführten Projektänderungen werden in Maestro bei der Überprüfung der verknüpften Datensätze angezeigt.
+* Sie können mehrere Datensätze zu Planungsfunktionen mit demselben Workfront-Projekt und mehrere Projekte mit demselben Datensatz zu Planungsfunktionen verbinden.
+* Projekte können nicht in Planungsfunktionen bearbeitet werden. Alle in Workfront durchgeführten Projektänderungen sind in den Planungsfunktionen sichtbar, wenn die verknüpften Datensätze überprüft werden.
 
 ## Woche vom 29. Mai 2023
 

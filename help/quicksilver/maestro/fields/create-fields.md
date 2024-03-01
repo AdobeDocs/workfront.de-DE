@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '3339'
+source-wordcount: '3341'
 ht-degree: 2%
 
 ---
@@ -379,7 +379,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    > * Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
    >
-   > * Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Maestro-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
+   > * Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Workfront-Planungs-Funktionen - Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klicken Sie auf **Erstellen**.

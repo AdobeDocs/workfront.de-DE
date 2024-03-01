@@ -1,8 +1,8 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 0%
+source-wordcount: '2362'
+ht-degree: 1%
 
 ---
 # Snippets
@@ -253,13 +253,13 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Maestro, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Planungsfunktionen von Adobe Workfront, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Adobe Maestro Teil eines Betaprogramms, das für eine begrenzte Anzahl von Kunden geöffnet ist. Sie müssen Workfront-Kunde sein, um Maestro-Funktionen verwenden zu können.
+>Derzeit sind die Planungsfunktionen Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zur Verfügung steht. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
 >
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Maestro zu erhalten.
+>Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Planungsfunktionen zu erhalten.
 >
->Weitere Informationen zu Maestro finden Sie unter [Übersicht über Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+>Weitere Informationen zu Planungsfunktionen finden Sie unter [Übersicht über die Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
@@ -383,7 +383,7 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den für Ihr Team ausgewählten verschiedenen Status die Option &quot;Fertig mit meinem Teil&quot;angezeigt.
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Benutzer einem Startseiten-Team zuordnen {#associate-users-with-home-team}
 
