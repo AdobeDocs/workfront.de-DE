@@ -6,14 +6,16 @@ description: Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Durchsetzen von Vorgängern
+
+<!-- Audited: 2/2024 -->
 
 Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung abhängen. Vorgängerbeziehungen wirken sich auf das Start- und Fertigstellungsdatum der Aufgaben aus und beeinflussen letztendlich die Zeitleiste des Projekts.
 
@@ -42,32 +44,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+      <p>Neu: Standard</p> 
+      <p>ODER</p>
+      <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td><p>Berechtigungen für die Aufgaben und das Projekt verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erzwingen eines Vorgängers auf Aufgabenebene
 
 1. Gehen Sie zur Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Klicken **Vorgänger** Klicken Sie im linken Bereich auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Vorgänger**.
+1. Klicks **Vorgänger** Klicken Sie im linken Bereich auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Vorgänger**.
 1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im **Übergeordnetes Projekt** und ersetzen Sie es durch ein anderes Projekt.
-1. Geben Sie den Namen der Vorgängeraufgabe(en) im **Aufgaben** -Feld.
+1. Geben Sie den Namen der Vorgängeraufgabe(en) in der **Aufgaben** -Feld.
 1. Geben Sie die **Abhängigkeitstyp** zwischen diesen beiden Aufgaben.
 
    Die Standardeinstellung **Abhängigkeitstyp** is **Finish-Start**.
@@ -78,7 +84,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erzwingen eines Vorgängers in einer Aufgabenliste
 
 1. Rufen Sie eine Aufgabenliste für ein Projekt auf.
-1. Aus dem **Ansicht** aus dem Dropdown-Menü **Standardansicht**.
+1. Aus dem **Ansicht** aus dem Dropdown-Menü die **Standardansicht**.
 
 1. Notieren Sie sich die Anzahl der Aufgaben, die Sie als Vorgänger festlegen werden.
 1. Suchen Sie die Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.

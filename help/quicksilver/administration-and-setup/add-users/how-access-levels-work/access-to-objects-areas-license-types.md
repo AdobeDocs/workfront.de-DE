@@ -9,14 +9,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Zugriff auf Objekte und Bereiche durch neue Lizenzen
+
+<!-- Audited: 2/2024 -->
 
 Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 
