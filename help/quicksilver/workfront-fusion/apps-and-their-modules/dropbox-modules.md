@@ -4,19 +4,19 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: Connector
 navigation-topic: apps-and-their-modules
-title: Dropbox Module
-description: In [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die Dropbox verwenden, und sie mit mehreren Drittanbieteranwendungen und -diensten verbinden. Dies ermöglicht Ihnen die Automatisierung von Aktivitäten wie Überwachung, Suche, Abrufen, Auflisten, Erstellen und Bearbeiten von Dateien und Ordnern in Ihrer Dropbox.
+title: Dropbox-Module
+description: In [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die Dropbox verwenden, und sie mit mehreren Drittanbieteranwendungen und -diensten verbinden. Dies ermöglicht Ihnen die Automatisierung von Aktivitäten wie Überwachung, Suche, Abruf, Auflistung, Erstellung und Bearbeitung von Dateien und Ordnern in Ihrer Dropbox.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
 
-# [!DNL Dropbox]-Module
+# [!DNL Dropbox] Module
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!UICONTROL Dropbox], und verbinden Sie es mit mehreren Drittanbieteranwendungen und -diensten. Dies ermöglicht Ihnen die Automatisierung von Aktivitäten wie Überwachung, Suche, Abrufen, Auflisten, Erstellen und Bearbeiten von Dateien und Ordnern in Ihren [!UICONTROL Dropbox].
 
@@ -26,14 +26,14 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,17 +43,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,14 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Voraussetzungen
 
-Verwendung [!DNL Dropbox] -Module, müssen Sie über eine [!DNL Dropbox] -Konto.
+* Verwendung [!DNL Dropbox] -Module, müssen Sie über eine [!DNL Dropbox] -Konto.
+
+>[!IMPORTANT]
+>
+>Dropbox muss Anwendungen mit mehr als 50 Nutzern genehmigen.
+>
+>Weitere Informationen finden Sie unter &quot;Produktionsgenehmigung&quot;im Dropbox-Entwicklerhandbuch.
+
 
 ## [!DNL Dropbox] Module und ihre Felder
 
@@ -84,7 +91,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 #### [!UICONTROL Überwachungsdateien]
 
-Dieses Trigger-Modul gibt Dateidetails zurück, wenn die Datei in einem angegebenen Ordner geändert wird.
+Dieses Trigger-Typ-Modul gibt Dateidetails zurück, wenn die Datei in einem angegebenen Ordner geändert wird.
 
 <table style="table-layout:auto">
  <col> 
@@ -92,7 +99,7 @@ Dieses Trigger-Modul gibt Dateidetails zurück, wenn die Datei in einem angegebe
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ordner] </td> 
@@ -129,7 +136,7 @@ Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suche] </td> 
@@ -178,15 +185,15 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>Dateiauswahl</td> 
-   <td> <p> Wählen Sie aus, ob Sie den Dateipfad zuordnen möchten, oder wählen Sie die Datei manuell aus.</p> </td> 
+   <td> <p> Wählen Sie aus, ob Sie den Dateipfad zuordnen oder die Datei manuell auswählen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dateipfad/Datei</p> </td> 
-   <td> <p style="font-weight: bold;">Dateipfad</p> <p>Geben oder ordnen Sie den Zielpfad der Datei zu.</p> <p style="font-weight: bold;">Datei</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
+   <td> <p style="font-weight: bold;">Dateipfad</p> <p>Geben Sie den Zielpfad der Datei ein oder ordnen Sie ihn zu.</p> <p style="font-weight: bold;">Datei</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -207,7 +214,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>Freigegebene Ordner-ID</td> 
@@ -232,7 +239,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>Liste </td> 
@@ -268,15 +275,15 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>Dateiauswahl</td> 
-   <td> <p> Wählen Sie aus, ob Sie den Dateipfad zuordnen möchten, oder wählen Sie die Datei manuell aus.</p> </td> 
+   <td> <p> Wählen Sie aus, ob Sie den Dateipfad zuordnen oder die Datei manuell auswählen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dateipfad/Datei</p> </td> 
-   <td> <p style="font-weight: bold;">Dateipfad</p> <p>Geben oder ordnen Sie den Zielpfad der Datei zu.</p> <p style="font-weight: bold;">Datei</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
+   <td> <p style="font-weight: bold;">Dateipfad</p> <p>Geben Sie den Zielpfad der Datei ein oder ordnen Sie ihn zu.</p> <p style="font-weight: bold;">Datei</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Limit</p> </td> 
@@ -312,11 +319,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ordner]</td> 
-   <td> <p> Wählen Sie den Ordner Ihrer [!DNL Dropbox] Sie die Datei in hochladen möchten.</p> </td> 
+   <td> <p> Wählen Sie den Ordner Ihrer [!DNL Dropbox] die Datei hochladen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Quelldatei]</p> </td> 
@@ -345,7 +352,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ordnername] </td> 
@@ -353,7 +360,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Ordner]</p> </td> 
-   <td> <p>Geben Sie den Pfad ein oder ordnen Sie ihn zu, in dem Sie einen neuen Ordner erstellen möchten.</p> <p>Notiz:   <p>Wenn Sie eine [!DNL Dropbox Business] -Konto (mit Teamräumen), müssen Sie den Schrägstrich entfernen <code>/</code>oder klicken Sie nicht auf <strong>[!UICONTROL Klicken Sie hier, um Ordner auszuwählen.</strong> , um einen Team-Ordner im Stammverzeichnis zu erstellen.</p> <p>Wenn der Schrägstrich nicht entfernt wird, wird ein Fehler ausgegeben <code>[409] path/malformed_path/..</code> zurückgegeben.</p> </p> </td> 
+   <td> <p>Geben Sie den Pfad ein oder ordnen Sie ihn zu, in dem Sie einen neuen Ordner erstellen möchten.</p> <p>Hinweis:   <p>Wenn Sie eine [!DNL Dropbox Business] -Konto (mit Teamräumen), müssen Sie den Schrägstrich entfernen <code>/</code>oder klicken Sie nicht auf <strong>[!UICONTROL Klicken Sie hier, um Ordner auszuwählen.</strong> , um einen Team-Ordner im Stammverzeichnis zu erstellen.</p> <p>Wenn der Schrägstrich nicht entfernt wird, wird ein Fehler ausgegeben <code>[409] path/malformed_path/..</code> zurückgegeben.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Auto-Umbenennung]</td> 
@@ -378,7 +385,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Auswählen bis]</td> 
@@ -411,7 +418,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Methode zur Dateiauswahl]</td> 
@@ -419,15 +426,15 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Dateipfad/Datei]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Dateipfad]</p> <p>Geben oder ordnen Sie den Zielpfad der Datei zu.</p> <p style="font-weight: bold;">[!UICONTROL Datei]</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Dateipfad]</p> <p>Geben Sie den Zielpfad der Datei ein oder ordnen Sie ihn zu.</p> <p style="font-weight: bold;">[!UICONTROL Datei]</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Angeforderte Sichtbarkeit]</p> </td> 
-   <td> <p>Wählen Sie aus, ob der Link öffentlich, für Teams oder Kennworteinschränkungen ist.</p> <p>Hinweis: Die Optionen Nur [!UICONTROL Team] und [!UICONTROL Zugriff mit Kennwort] stehen nur Benutzern zur Verfügung, die [!DNL Dropbox Pro] oder höher.</p> </td> 
+   <td> <p>Wählen Sie aus, ob der Link öffentlich, für Teams oder Kennworteinschränkungen ist.</p> <p>Hinweis: Die Optionen [!UICONTROL Team] und [!UICONTROL Zugriff mit Passwort] stehen nur Benutzern zur Verfügung, die [!DNL Dropbox Pro] oder einer höheren Version.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Link's Expiration Date]</td> 
-   <td> <p> Geben Sie das Datum und die Uhrzeit ein, zu der der Link abläuft und nicht mehr verfügbar sein wird. Wenn dieses Feld leer gelassen wird, läuft der Link nicht ab. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Hinweis: Die Optionen [!UICONTROL Team] und [!UICONTROL Zugriff mit Passwort] stehen nur Benutzern mit [!UICONTROL Dropbox Pro] oder höheren Versionen zur Verfügung.</p> </td> 
+   <td>[!UICONTROL Ablaufdatum]</td> 
+   <td> <p> Geben Sie das Datum und die Uhrzeit ein, zu der der Link abläuft und nicht mehr verfügbar sein wird. Wenn dieses Feld leer gelassen wird, läuft der Link nicht ab. Eine Liste der unterstützten Datums- und Uhrzeitformate finden Sie unter <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typenkonvertierung in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Hinweis: Die Optionen [!UICONTROL Team] und [!UICONTROL Access with password] stehen nur Benutzern mit [!UICONTROL Dropbox Pro] oder höheren Versionen zur Verfügung.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Link's Access Level]</p> </td> 
@@ -452,7 +459,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Methode zur Dateiauswahl]</td> 
@@ -460,7 +467,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Dateipfad] / [!UICONTROL Datei]</p> </td> 
-   <td> <p><strong>[!UICONTROL Dateipfad]</strong> </p> <p>Geben oder ordnen Sie den Zielpfad der Datei zu.</p> <p><strong>[!UICONTROL Datei]</strong> </p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
+   <td> <p><strong>[!UICONTROL Dateipfad]</strong> </p> <p>Geben Sie den Zielpfad der Datei ein oder ordnen Sie ihn zu.</p> <p><strong>[!UICONTROL Datei]</strong> </p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Revision]</p> </td> 
@@ -473,7 +480,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen anderen Speicherort.
 
-Sie geben die Datei bzw. den Ordner an und geben an, wie und wo sie verschoben werden soll.
+Sie geben die Datei bzw. den Ordner an und geben an, wie und wohin Sie sie verschieben möchten.
 
 Das Modul gibt die ID der Datei oder des Ordners sowie alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
@@ -485,7 +492,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Methode zur Dateiauswahl] </td> 
@@ -530,7 +537,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>Dateiauswahl</td> 
@@ -563,7 +570,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Methode zur Dateiauswahl]</td> 
@@ -571,7 +578,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Dateipfad] / [!UICONTROL Datei]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Dateipfad]</p> <p>Geben oder ordnen Sie den Zielpfad der Datei zu.</p> <p style="font-weight: bold;">[!UICONTROL Datei]</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Dateipfad]</p> <p>Geben Sie den Zielpfad der Datei ein oder ordnen Sie ihn zu.</p> <p style="font-weight: bold;">[!UICONTROL Datei]</p> <p>Wählen Sie die Datei aus dem Menü aus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -590,7 +597,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Dropbox] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL URL]</p> </td> 
@@ -610,7 +617,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td>[!UICONTROL Body] </td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:   <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:   <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -624,7 +631,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 >
 >URL: `/2/files/list_folder`
 >
->Text:
+>Hauptteil:
 > 
 >`{`
 >
@@ -638,14 +645,14 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 >
 >`}`
 >
->Treffer der Suche finden Sie in der Ausgabe des Moduls unter [!UICONTROL Bundle] > [!UICONTROL body] > Einträge.
+>Treffer der Suche finden Sie in der Ausgabe des Moduls unter [!UICONTROL Paket] > [!UICONTROL body] > Einträge.
 >
 >In unserem Beispiel wurden 10 Tickets zurückgegeben:
 
 ## Häufige Probleme
 
 * [Datei kann nicht hochgeladen oder aktualisiert werden](#unable-to-upload-or-update-a-file)
-* [Bild, auf das über einen freigegebenen Link verwiesen wird, wird nicht gerendert](#image-referenced-via-a-shared-link-does-not-render)
+* [Über einen freigegebenen Link referenziertes Bild wird nicht gerendert](#image-referenced-via-a-shared-link-does-not-render)
 
 ### Datei kann nicht hochgeladen oder aktualisiert werden
 
@@ -654,9 +661,9 @@ Es gibt mehrere Situationen, in denen das Hochladen oder Aktualisieren einer Dat
 * Die hochgeladene Datei ist zu groß und überschreitet die für Ihre [!DNL Dropbox] Plan, oder Sie haben alle Ihre [!DNL Dropbox] Speicherkontingent des Kontos. Sie müssen vorhandene Dateien aus Ihrem [!DNL Dropbox] -Konto zu erstellen oder Ihren Plan zu aktualisieren.
 * Der zuvor ausgewählte Ordner, in den die Datei hochgeladen wird, existiert nicht mehr. Das Szenario wird gestoppt und Sie müssen den Zielordner erneut auswählen.
 
-### Bild, auf das über einen freigegebenen Link verwiesen wird, wird nicht gerendert
+### Über einen freigegebenen Link referenziertes Bild wird nicht gerendert
 
-Die von der [!UICONTROL Dropbox] >[!UICONTROL Freigegebenen Link erstellen] nicht direkt mit einem Bild verknüpft, sondern mit einem [!DNL Dropbox] Seite. Um das Herunterladen des Bildes zu erzwingen, ersetzen Sie das nachfolgende `?dl=0` mit `?dl=1`. Um die Wiedergabe des Bildes zu erzwingen (z. B. in einem Webbrowser oder in Facebook Messenger), hängen Sie `&raw=1` zur URL.
+Die von der [!UICONTROL Dropbox] >[!UICONTROL Freigegebenen Link erstellen] nicht direkt mit einem Bild verknüpft, sondern mit einem [!DNL Dropbox] Seite. Um das Herunterladen des Bildes zu erzwingen, ersetzen Sie das nachfolgende `?dl=0` mit `?dl=1`. Um die Wiedergabe des Bildes zu erzwingen (z. B. in einem Webbrowser oder in Facebook Messenger), hängen Sie `&raw=1` auf die URL.
 
 Wenn Sie den direkten oder Rohlink Ihres Bildes für Ihre Website oder für andere [!DNL Workfront Fusion] -Module verwenden, müssen Sie die ursprüngliche freigegebene URL wie folgt ändern:
 
