@@ -5,9 +5,9 @@ title: Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt
 description: Kreative können Assets, die überprüft werden müssen, zu Frame.io hinzufügen und sie zur formalen Überprüfung und Genehmigung an Workfront senden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Voraussetzungen
 
 * Sie müssen über eine Workfront-Gruppe verfügen, die mit einem Frame.io-Team verbunden ist.
-* Sie müssen ein Workfront-Projekt mit einem Frame.io-Projekt verbinden und als Benutzer zu einer Frame-fähigen Aufgabe hinzugefügt werden.
+* Sie müssen ein Workfront-Projekt mit einem Frame.io-Projekt verbinden und als Benutzer einer Workfront-Aufgabe hinzugefügt werden, die für Frame.io aktiviert ist.
 
 Weitere Informationen finden Sie unter [Verbinden Sie Workfront und Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
@@ -83,4 +83,4 @@ Weitere Informationen finden Sie unter [Verbinden Sie Workfront und Frame.io.](/
 
 Das Asset wird an dem ausgewählten Speicherort angezeigt und der Aufgabenstatus wird entsprechend aktualisiert.
 
-Sie können den Überprüfungs- und Genehmigungsprozess starten, indem Sie die im Artikel beschriebenen Schritte ausführen [Erstellen einer Dokumentgenehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Sie können den Review- und Genehmigungsprozess starten, indem Sie die im Artikel beschriebenen Schritte ausführen [Erstellen einer Dokumentgenehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
