@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 1%
 
 ---
@@ -322,7 +322,7 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 
    >[!TIP]
    >
-   >Sie können einem Systemupdate keinen Kommentar hinzufügen.
+   >Sie können einem Systemupdate keinen Kommentar hinzufügen. <span class="preview">Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt.</span>
 
 1. <span class="preview">(Optional) Klicken Sie auf die **Alle** -Tab, um sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort anzuzeigen. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;.</span>
 

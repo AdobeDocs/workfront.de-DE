@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 6%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 # Vom System getrackte Aktualisierungen
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -50,19 +52,19 @@ Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Berei
 
    * [!UICONTROL Projekt]
    * [!UICONTROL Aufgabe]
-   * [!UICONTROL Problem]
+   * [!UICONTROL Probleme]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programm]
-   * [!UICONTROL Benutzerin oder Benutzer]
+   * [!UICONTROL Benutzer]
    * [!UICONTROL Vorlage]
    * [!UICONTROL Vorlagenaufgabe]
    * [!UICONTROL Team]
    * [!UICONTROL Dokument]
-   * [!UICONTROL Arbeitszeittabelle]
-   * [!UICONTROL Story]
+   * [!UICONTROL Datenblatt]
+   * [!UICONTROL Geschichte]
 
      In [!DNL Workfront], eine Geschichte ist eine Aufgabe.
-   * [!UICONTROL Wiederholung]
+   * [!UICONTROL Iteration]
    * [!UICONTROL Ziel]
 
      Sie benötigen eine zusätzliche Lizenz, um Zugriff auf die [!UICONTROL Ziele] Bereich. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
@@ -76,7 +78,7 @@ Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Berei
    * [!UICONTROL Vorlage]
    * [!UICONTROL Vorlagenaufgabe]
    * Ad-hoc [!UICONTROL Karte]
-   * [!UICONTROL Wiederholungen]
+   * [!UICONTROL Iterationen]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">Bei Verwendung der neuen Kommentarfunktion können Benutzer einem Systemupdate keinen Kommentar hinzufügen. Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität auf der Registerkarte Systemaktivität als schreibgeschützt im neuen Kommentierungserlebnis eingetragen.</span>
    * Bei Verwendung des veralteten Kommentierungserlebnisses werden System- und Benutzeraktualisierungen in einem kontinuierlichen Feed angezeigt.
 
    * Bei der Verwendung des bisherigen Kommentierungserlebnisses können Benutzer standardmäßig Systemaktualisierungen anzeigen oder festlegen, dass sie nicht angezeigt werden. Die Deaktivierung von Systemaktualisierungen ist bei Verwendung des neuen Kommentierungserlebnisses nicht möglich.
@@ -100,13 +103,13 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programm]
-   * [!UICONTROL Wiederholung]
+   * [!UICONTROL Iteration]
 
 * [!DNL Workfront] Administratoren können festlegen, welche Arten von Änderungen das System im [!UICONTROL Updates] Bereich. Nicht alle Objekte mit [!UICONTROL Updates] -Bereich auch konfigurierbar [!UICONTROL update] Feeds. Die folgenden Objekte haben eine [!UICONTROL Updates] -Bereich, der vom System getrackte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
 
    * [!UICONTROL Dokument]
-   * [!UICONTROL Arbeitszeittabelle]
-   * [!UICONTROL Wiederholung]
+   * [!UICONTROL Datenblatt]
+   * [!UICONTROL Iteration]
    * [!UICONTROL Ziel]
 
 

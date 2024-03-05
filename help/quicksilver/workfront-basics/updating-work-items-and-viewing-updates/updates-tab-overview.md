@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Beispiel des Abschnitts Updates in der Produktionsumgebung:
 * Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten des neuen Kommentierungserlebnisses angezeigt:
 
    * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. <span class="preview">Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erfolgen, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt.</span> Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * Die folgenden Objekte haben keine Registerkarte &quot;Systemaktivität&quot; <span class="preview">oder Registerkarte Alle</span>:
