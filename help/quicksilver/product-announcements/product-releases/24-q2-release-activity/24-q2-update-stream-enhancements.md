@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen am Update-Stream und an Benachrichtigungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Neuer Kommentar-Stream jetzt in Schnellaktionen für neue Home-Widgets verfügbar
+
+>[!NOTE]
+>
+>Vorschau-Version: 1. März 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+
+Die neue Kommentarfunktion wurde jetzt der **Neues Update hinzufügen** Schnellaktionsschaltfläche in den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Projekte&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;im neuen Startseite.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Zusätzliche Kommentar-Informationen, die im neuen Kommentierungserlebnis verfügbar sind
 
@@ -34,7 +44,7 @@ Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systemaktivitätsprotokolle zu ermöglichen, führen wir einen dritten Tab in den Bereich Updates aller Objekte ein. Die Registerkarte &quot;Alle&quot;erfasst sowohl Benutzerkommentare als auch Systemaktivitätskommentare in einem zusammenhängenden Stream.
 

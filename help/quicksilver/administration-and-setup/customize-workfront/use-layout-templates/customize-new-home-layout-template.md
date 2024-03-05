@@ -7,9 +7,9 @@ description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <p>Wählen Sie aus, welche Widgets in den Arbeitsbereichen der Benutzer vorhanden sein sollen, geben Sie ihre Position an und wählen Sie einen Hintergrund aus. Beachten Sie, dass Benutzer zwar die ausgewählten Widgets nicht entfernen können, sie sich jedoch frei bewegen und ihre Größe ändern sowie zusätzliche Widgets hinzufügen können.</p>
       <p>Diese Registerkarte fungiert im Wesentlichen als kleiner neuer Home-Arbeitsbereich. Daher kann sie entsprechend den Schritten angepasst werden, die unter <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der neuen Startseite</a>. Wählen Sie Widgets aus und ordnen Sie den Arbeitsbereich so an, wie er für Benutzer angezeigt werden soll.</p>
       <p>Gehen Sie wie folgt vor, um den Hintergrund zu ändern <b>Hintergrundanpassung</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Erste Schritte mit der neuen Startseite</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Nur durch Verschieben oder Ändern der Größe von Widgets in der Layout-Vorlage werden die neuen Startseiten von Benutzern nicht zum Aktualisieren ihres Layouts Trigger. Das Hinzufügen oder Entfernen eines Widgets Trigger jedoch eine Aktualisierung der Benutzerseiten.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget-Einstellungen</td> 
@@ -93,18 +100,24 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       </ul>
       <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b>, und <b>Gruppen</b>. Sie können:</p>
       <ul>
-        <li><b>Wählen Sie aus, welche Filter, Spalten oder Gruppen Benutzern zur Verfügung stehen sollen:</b><p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>
-        <li><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b><p>Bewegen Sie den Mauszeiger über eine Option. Daraufhin wird eine Schaltfläche angezeigt, mit der Sie diese Option als Standard für Benutzer festlegen können. Die aktuelle Standardeinstellung weist rechts ein blaues Standardzeichen auf.</li></p>
-        <li><b>Fügen Sie einen vorhandenen Filter, eine Spalte oder eine Gruppe zur Liste der verfügbaren Optionen hinzu:</b><p>Klicken Sie auf die Schaltfläche mit dem Pluszeichen am unteren Rand jeder Liste, um der Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</li></p>
+      <li><p><b>Wählen Sie aus, welche Filter, Spalten oder Gruppen Benutzern zur Verfügung stehen sollen:</b></p>
+      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>
+      <li><p><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b></p>
+      <p>Bewegen Sie den Mauszeiger über eine Option. Daraufhin wird eine Schaltfläche angezeigt, mit der Sie diese Option als Standard für Benutzer festlegen können. Die aktuelle Standardeinstellung weist rechts ein blaues Standardzeichen auf.</li></p>
+      <li><p><b>Fügen Sie einen vorhandenen Filter, eine Spalte oder eine Gruppe zur Liste der verfügbaren Optionen hinzu:</b></p>
+      <p>Klicken Sie auf die Schaltfläche mit dem Pluszeichen am unteren Rand jeder Liste, um der Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Wenn Sie einen Standardfilter oder eine Gruppierung für ein bestimmtes Widget mithilfe einer Layoutvorlage festlegen, wird dieser möglicherweise aufgrund bestehender Benutzereinstellungen nicht sofort wirksam. Um den neuen Filter oder die Gruppierung sofort anzuwenden, müssen Sie oder der Benutzer möglicherweise seine Benutzereinstellungen zurücksetzen, indem Sie &quot;/resetUser&quot;an das Ende ihrer URL anhängen.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 
