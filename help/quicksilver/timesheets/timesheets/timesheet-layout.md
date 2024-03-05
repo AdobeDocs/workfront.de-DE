@@ -7,9 +7,9 @@ description: In diesem Artikel wird das Layout von Timesheets in Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich angezeigt
 
 ## Bedienfeld „Zusammenfassung“
 
+<div class="preview">
+
+Beispiel in der Vorschau-Umgebung:
+![Zusammenfassungsbereich](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Beispiel in der Produktionsumgebung:
 ![Zusammenfassungsbereich](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Sie können auf das Bedienfeld Zusammenfassung für Aufgaben oder Probleme zugreifen, die in einem Zeitblatt angezeigt werden. Hier können Sie sich zu Aufgaben und Problemen äußern oder deren Informationen aktualisieren. Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
