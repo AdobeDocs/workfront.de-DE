@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
-source-wordcount: '13996'
+source-wordcount: '14000'
 ht-degree: 1%
 
 ---
@@ -2062,6 +2062,7 @@ ht-degree: 1%
       * [Verwalten von Datensatzansichten](maestro/views/manage-record-views.md)
       * [Tabellenansicht verwalten](maestro/views/manage-the-table-view.md)
       * [Verwalten der Timeline-Ansicht](maestro/views/manage-the-timeline-view.md)
+      * [Kalenderansicht verwalten](maestro/views/manage-the-calendar-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Vorlage für Fusionszugriffstabelle](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

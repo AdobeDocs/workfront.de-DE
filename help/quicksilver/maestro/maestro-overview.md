@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -264,7 +264,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Taxonomien für den Arbeitsbereich oder Objekte, die Sie aus anderen Anwendungen importieren) |
-| Datensatzanzahl für einen Datensatztyp | 10.000 |
+| Datensatzanzahl für einen Datensatztyp | 50.000 |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |
 | Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
