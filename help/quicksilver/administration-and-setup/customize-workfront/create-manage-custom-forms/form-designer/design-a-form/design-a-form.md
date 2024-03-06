@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 3%
 
 ---
 
 # Formular mit dem Formularentwickler erstellen
+
+{{highlighted-preview}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -80,7 +82,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Berechnete Felder hinzufügen](#add-calculated-fields)
    * [Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Typevorschau- und Datumsfelder hinzufügen](#add-typeahead-and-date-fields)
+   * [Externe Suchfelder hinzufügen](#add-external-lookup-fields)
    * [Bilder, PDF und Videos hinzufügen](#add-images-pdfs-and-videos)
+   * [Hinzufügen nativer Workfront-Felder](#add-workfront-native-fields)
    * [Hinzufügen von Adobe XD-Dateien](#add-adobe-xd-files)
 
 ## Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular
@@ -645,7 +649,7 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Widget begonnen haben. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget.</p> <p>Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p><b>WICHTIG</b>: Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Ist dies der Fall, erkennt das System das Widget nicht mehr, wo es jetzt in anderen Bereichen von Workfront referenziert wird. </p> <p>Jeder Widget-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
    oder
 
    Klicks **Speichern und schließen**.
+
+<div class="preview">
+
+### Hinzufügen nativer Workfront-Felder
+
+Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzufügen. Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, wird das Feld aus den Objektdaten ausgefüllt. Beispielsweise ruft das Feld Beschreibung in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, kann im Feld &quot;K. A.&quot;angezeigt werden.)
+
+1. Suchen Sie auf der linken Bildschirmseite nach **Natives Feld** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Bezeichnung</td> 
+      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld.</p><p> Wenn Sie das Feld zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <p><b>WICHTIG</b>:
+      <ul> 
+      <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert wird.</p> </li>
+      <li> <p>Jeder Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden.</p> </li>
+      <li><p>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Anleitung</td> 
+      <td> <p>Geben Sie weitere Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referenzfeld</td> 
+      <td><p>(Erforderlich) Wählen Sie ein natives Workfront-Feld aus.<p><p>Es sind nur native Felder für die Objekte des Formulars verfügbar. Wenn beispielsweise in der Liste "Objekttypen"oben im Formularentwickler "Projekt"angezeigt wird, können Sie native Felder für Projekte auswählen, jedoch nicht für Aufgabenfelder.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Größe</td> 
+      <td>(Optional) Ändern Sie bei Bedarf die Anzeigegröße des Felds.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicken Sie zum Speichern der Änderungen auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
+
+   oder
+
+   Klicks **Speichern und schließen**.
+
+</div>
 
 ### Hinzufügen von Adobe XD-Dateien
 
