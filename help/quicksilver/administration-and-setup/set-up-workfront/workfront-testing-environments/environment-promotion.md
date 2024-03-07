@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ Oder
 }
 ```
 
-#### Antwort
+#### Reaktion
 
 ```json
 200
@@ -314,7 +314,7 @@ Oder
 
 _Empty_
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -379,7 +379,7 @@ Oder
 
 _Empty_
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -502,7 +502,7 @@ Oder
 }
 ```
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -580,7 +580,7 @@ Oder
 
 _Empty_
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -621,11 +621,15 @@ Für jedes Promotion-Objekt eine der folgenden Optionen `actions`  festgelegt wi
   </tr> 
   <tr> 
    <td>USEEXISCH</td> 
-   <td><p>Wenn ein entsprechender Datensatz in der Zielumgebung gefunden wird, wird die Aktion auf USEXISTING gesetzt und eine <code>targetId</code> wird auch im <code>translationmap</code>.</p><p>Wenn diese Aktion in der <code>translationmap</code> , die dem <code>/install</code> -Endpunkt verwenden, erstellt der Installationsdienst den Datensatz nicht. Sie verwendet jedoch die <code>targetId</code> im Zuordnungseintrag für andere Objekte enthalten, die möglicherweise einen Verweis auf diesen Datensatz enthalten.</p><p>Beispielsweise kann eine "Standardgruppe"in der Zielumgebung gefunden werden, in der ein Paket bereitgestellt wird. Es ist nicht möglich, zwei Standardgruppendatensätze zu verwenden. Daher verwendet der Installationsdienst die GUID für die bestehende Gruppe in allen anderen Aktionen zur Objekterstellung, die einen Verweis auf die "Standardgruppe"enthalten, z. B. in einem Projekt, einem Formular oder einer anderen Entität, die mit dieser Gruppe verbunden ist.</p><p><b>Notiz:</b> <ul><li><p>Wenn die Aktion USEXISTING zugewiesen wird, wird der vorhandene Datensatz in der Zielumgebung nicht geändert. </p><p>Wenn sich beispielsweise die Beschreibung für die "Standardgruppe"in der Sandbox geändert hat, aus der das Paket erstellt wurde, und der Beschreibungswert in der Zielumgebung unterschiedlich ist, bleibt der Wert nach einer Installation mit dieser unverändert. <code>translationmap</code>.</li></ul></td> 
+   <td><p>Wenn ein entsprechender Datensatz in der Zielumgebung gefunden wird, wird die Aktion auf USEXISTING gesetzt und eine <code>targetId</code> wird auch im <code>translationmap</code>.</p><p>Wenn diese Aktion in der <code>translationmap</code> , die dem <code>/install</code> -Endpunkt verwenden, erstellt der Installationsdienst den Datensatz nicht. Sie verwendet jedoch die <code>targetId</code> im Zuordnungseintrag für andere Objekte enthalten, die möglicherweise einen Verweis auf diesen Datensatz enthalten.</p><p>Beispielsweise kann eine "Standardgruppe"in der Zielumgebung gefunden werden, in der ein Paket bereitgestellt wird. Es ist nicht möglich, zwei Standardgruppendatensätze zu verwenden. Daher verwendet der Installationsdienst die GUID für die bestehende Gruppe in allen anderen Aktionen zur Objekterstellung, die einen Verweis auf die "Standardgruppe"enthalten, z. B. in einem Projekt, einem Formular oder einer anderen Entität, die mit dieser Gruppe verbunden ist.</p><p><b>Hinweis:</b> <ul><li><p>Wenn die Aktion USEXISTING zugewiesen wird, wird der vorhandene Datensatz in der Zielumgebung nicht geändert. </p><p>Wenn sich beispielsweise die Beschreibung für die "Standardgruppe"in der Sandbox geändert hat, aus der das Paket erstellt wurde, und der Beschreibungswert in der Zielumgebung unterschiedlich ist, bleibt der Wert nach einer Installation mit dieser unverändert. <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>ÜBERSCHREIBUNG</td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Diese Aktion bietet die Möglichkeit, ein Objekt zu aktualisieren, das in der Zielumgebung vorhanden ist. Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor die <code>/install</code> aufrufen.<ul><li>Ein Benutzer kann ein Objekt in der Testumgebung aktualisieren und dann mithilfe der Aktion ÜBERSCHREIBEN dieses Objekt in der Zielumgebung aktualisieren.</p></li><li><p>Wenn der Benutzer zunächst ein Promotion-Paket installiert und dann in Zukunft ein neues (oder aktualisiertes) Paket Änderungen an Objekten im ursprünglichen Paket enthält, kann der Benutzer mithilfe von OVERWRITING zuvor installierte Objekte ersetzen (überschreiben). </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
-   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor die <code>/install</code> aufrufen.</p><p><b>Notizen: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf CREATE gesetzt wurde, auf IGNORE festgelegt ist, sollten alle untergeordneten Datensätze ebenfalls auf IGNORE gesetzt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und der Installations-Benutzer ihn von der Bereitstellung ausschließen möchte, kann er die Aktion der Vorlage auf IGNORE setzen.</p><p>In diesem Fall führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch, wenn der Benutzer nicht auch die Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORE setzt.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING gesetzt wurde, auf IGNORE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen.</p><p>Wenn beispielsweise ein Gruppendatensatz der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion zu IGNORE ändert, wird für Objekte, die eine Gruppe erfordern (z. B. ein Projekt kann nicht ohne zugewiesene Gruppe existieren), diesem Projekt die Systemstandardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING festgelegt war, auf CREATE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen, da viele Workfront-Entitäten über eindeutige Namensbeschränkungen verfügen.</p><p>Wenn beispielsweise ein Eintrag "Standardgruppe"der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion in CREATE ändert, da bereits eine "Standardgruppe"vorhanden ist, schlägt der Installationsprozess fehl, alle Schritte abzuschließen. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten haben keine individuelle Namensbeschränkung. Bei diesen Objekten führt diese Änderung zu zwei identischen Datensätzen. Beispielsweise erfordern Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards keine eindeutigen Namensbeschränkungen. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu verwenden, diese werden jedoch nicht erzwungen.</p></li></ul></p></td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor die <code>/install</code> aufrufen.</p><p><b>Hinweise: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf CREATE gesetzt wurde, auf IGNORE festgelegt ist, sollten alle untergeordneten Datensätze ebenfalls auf IGNORE gesetzt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und der Installations-Benutzer ihn von der Bereitstellung ausschließen möchte, kann er die Aktion der Vorlage auf IGNORE setzen.</p><p>In diesem Fall führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch, wenn der Benutzer nicht auch die Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORE setzt.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING gesetzt wurde, auf IGNORE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen.</p><p>Wenn beispielsweise ein Gruppendatensatz der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion zu IGNORE ändert, wird für Objekte, die eine Gruppe erfordern (z. B. ein Projekt kann nicht ohne zugewiesene Gruppe existieren), diesem Projekt die Systemstandardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING festgelegt war, auf CREATE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen, da viele Workfront-Entitäten über eindeutige Namensbeschränkungen verfügen.</p><p>Wenn beispielsweise ein Eintrag "Standardgruppe"der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion in CREATE ändert, da bereits eine "Standardgruppe"vorhanden ist, schlägt der Installationsprozess fehl, alle Schritte abzuschließen. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten haben keine individuelle Namensbeschränkung. Bei diesen Objekten führt diese Änderung zu zwei identischen Datensätzen. Beispielsweise erfordern Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards keine eindeutigen Namensbeschränkungen. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu verwenden, diese werden jedoch nicht erzwungen.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -662,7 +666,7 @@ Oder
 {}
 ```
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -814,7 +818,7 @@ Oder
 }
 ```
 
-#### Antwort
+#### Reaktion
 
 ```
 202
@@ -865,7 +869,7 @@ Oder
 
 _Empty_
 
-#### Antwort
+#### Reaktion
 
 ```
 200
@@ -962,7 +966,7 @@ Oder
 
 _Empty_
 
-#### Antwort
+#### Reaktion
 
 ```
 200
