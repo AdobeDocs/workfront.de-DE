@@ -6,9 +6,9 @@ description: Sie können einem neuen oder vorhandenen Dashboard direkt über ein
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Einen Bericht zu einem Dashboard hinzufügen
 
 Sie können einem neuen oder vorhandenen Dashboard direkt über einen Bericht einen Bericht hinzufügen. Sie können auch einen vorhandenen Bericht zu einem Dashboard hinzufügen, wie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
+>[!NOTE]
+>
+>Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -27,7 +31,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -54,19 +58,19 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
 
 ## Einen Bericht zu einem vorhandenen Dashboard hinzufügen
 
-1. Rufen Sie einen Bericht auf, für den Sie über Administratorrechte verfügen und den Sie einem Dashboard hinzufügen möchten.
+1. Rufen Sie einen Bericht auf, für den Sie über die Berechtigung zum Verwalten verfügen und den Sie einem Dashboard hinzufügen möchten.
 1. Klicken Sie auf **Berichtaktionen** Dropdown-Menü.
-1. Klicken **Zum Dashboard hinzufügen**. Es werden maximal 10 kürzlich geänderte Dashboards angezeigt, die dem angemeldeten Benutzer gehören und in der Reihenfolge der neuesten bis ältesten angezeigt.
+1. Klicks **Zum Dashboard hinzufügen**. Es werden maximal 10 kürzlich geänderte Dashboards angezeigt, die dem angemeldeten Benutzer gehören und in der Reihenfolge der neuesten bis ältesten angezeigt.
 1. Wählen Sie das Dashboard aus, dem Sie Ihren Bericht hinzufügen möchten.
 
    Nachdem Sie das Dashboard ausgewählt haben, können Sie den Bericht so hinzufügen, als ob Sie dieses Dashboard bearbeiten.
 
 ## Einen Bericht zu einem neuen Dashboard hinzufügen
 
-1. Rufen Sie einen Bericht auf, für den Sie über Administratorrechte verfügen und den Sie einem Dashboard hinzufügen möchten.
-1. Klicken Sie auf **Berichtaktionen** Dropdown-Liste.
-1. Klicken **Zum Dashboard hinzufügen** Klicken Sie auf **Neues Dashboard** um Ihren Bericht hinzuzufügen.\
+1. Rufen Sie einen Bericht auf, für den Sie über die Berechtigung zum Verwalten verfügen und den Sie einem Dashboard hinzufügen möchten.
+1. Klicken Sie auf **Berichtaktionen** angezeigt.
+1. Klicks **Zum Dashboard hinzufügen** Klicken Sie auf **Neues Dashboard** um Ihren Bericht hinzuzufügen.\
    Ein Dashboard-Builder wird angezeigt.
 
 1. (Optional) Wählen Sie ein Layout aus und fügen Sie dem neuen Dashboard zusätzliche Berichte hinzu.
-1. Klicken **Speichern+Schließen** , um den Bericht hinzuzufügen.
+1. Klicks **Speichern+Schließen** , um den Bericht hinzuzufügen.
