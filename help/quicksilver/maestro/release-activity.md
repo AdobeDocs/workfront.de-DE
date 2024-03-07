@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-<!--
-## Week of March 4, 2024
+## Woche vom 4. März 2024
 
-### Change row height in the table view
+### Überblick über Datensatzdetails in der Tabellenansicht
 
-Production: March 7, 2024 
+Produktion: 7. März 2024
 
-Preview: To be determined 
+Vorschau: zu bestimmen
 
-You now have an option to modify the height of a row when displaying records in the table view.
+Um bei Verwendung der Tabellenansicht die Anzeige zusätzlicher Informationen zu Datensätzen zu vereinfachen, haben wir ein neues Bedienfeld eingeführt, das einen schnellen Überblick über die Datensatzdetails bietet. Im Folgenden finden Sie einige der Informationen, die in diesem Bedienfeld enthalten sind:
 
-You can update the row height to one of the following sizes:  
+* relevante Eintragsdetails auf einen Blick
 
-* Short 
-* Medium
-* Tall.  
+* Möglichkeit, Datensatzinformationen zu ändern
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* einen Link zum Öffnen der Detailseite des Datensatzes
 
-### New tabbed design for record views 
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### Zeilenhöhe in der Tabellenansicht ändern
 
-Preview: To be determined 
+Produktion: 7. März 2024
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+Vorschau: zu bestimmen
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+Jetzt können Sie die Höhe einer Zeile ändern, wenn Sie Datensätze in der Tabellenansicht anzeigen.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+Sie können die Zeilenhöhe auf eine der folgenden Größen aktualisieren:
 
-### Dynamic design of a record view
+* Klein
+* Mittel
+* Groß.
 
-Production: March 7, 2024
-Preview: To be determined 
+Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### Neues Design mit Registerkarten für Datensatzansichten
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Produktion: 7. März 2024
 
-### New calendar view for records
+Vorschau: zu bestimmen
 
-Production: March 7, 2024 
+Für eine bessere Navigation und Benutzerfreundlichkeit haben wir die Anzeige von Datensatzansichten neu gestaltet. Jetzt werden die Ansichten horizontal angezeigt, als Registerkarten auf der Seite vom Typ Datensatz, sodass Sie einfach durch sie navigieren können. Vor dieser Verbesserung wurden Ansichten im Dropdown-Menü Ansicht angezeigt.
 
-Preview: To be determined 
+Ansichten werden chronologisch nach hinzugefügtem Datum von links nach rechts angezeigt. Freigegebene Ansichten werden auch in chronologischer Reihenfolge angezeigt, in der sie freigegeben wurden.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Dynamisches Design einer Datensatzansicht
 
--->
+Produktion: 7. März 2024 Vorschau: noch festzulegen
+
+Wir haben das Erscheinungsbild der Ansichten auf der Seite vom Typ Datensatz aktualisiert. Die neuen Ansichten sind dynamisch responsiv und passen sich schnell an die Bildschirmgröße an. Die Beschriftungen der Symbolleistenoptionen sind ausgeblendet, um die Verwendung der Symbolleiste auf kleineren Bildschirmen zu vereinfachen.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+* [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Verwalten der Timeline-Ansicht](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Neue Kalenderansicht für Datensätze
+
+Produktion: 7. März 2024
+
+Vorschau: zu bestimmen
+
+Es ist nun möglich, Datensätze in einer Kalenderansicht anzuzeigen. Sie müssen mindestens zwei Datumsfelder in einem Datensatztyp haben, um die Kalenderansicht erstellen zu können.
+
+Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Woche vom 26. Februar 2024
 
