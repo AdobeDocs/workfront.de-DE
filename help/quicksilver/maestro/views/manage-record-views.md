@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Datensatzansichten
-description: Bei Verwendung von Adobe Maestro können Datensätze in einer Tabellen- oder Timeline-Ansicht angezeigt werden.
+description: Bei Verwendung der Planungsfunktionen von Adobe Workfront können Sie Datensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nach Auswahl eines Datensatztyps in Adobe Maestro können Sie alle Datensätze dieses Typs in den folgenden Ansichten anzeigen:
+Nach Auswahl eines Datensatztyps im Adobe Workfront-Planungsbereich können Sie alle Datensätze dieses Typs in den folgenden Ansichten anzeigen:
 
 * Tabelle
 
   Weitere Informationen finden Sie unter [Tabellenansicht verwalten](../views/manage-the-table-view.md).
+
 * Timeline
 
   Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Zugriffsanforderungen
 
@@ -46,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsmöglichkeiten für Workfront-Planungsfunktionen</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-## Überlegungen beim Arbeiten mit Maestro-Ansichten
+## Überlegungen zum Arbeiten mit Datensatzansichten
 
-* Ansichten in Maestro sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
+* Ansichten im Workfront-Planungsbereich sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
 * Von Ihnen erstellte Ansichten sind nur für Sie und Benutzer sichtbar, für die Sie die Ansichten freigeben.
 * Das Erstellen von Ansichten für betriebliche Datensatztypen ist mit dem Erstellen von Ansichten für Taxonomiedatensatztypen identisch.
 * Wenn Sie eine Ansicht ändern oder löschen, wird sie für alle Benutzer mit Berechtigungen für die Ansicht geändert und gelöscht.
-* Die folgenden Elemente sind für jede Ansicht in Maestro eindeutig:
+* Die folgenden Elemente sind für jede Datensatzansicht eindeutig:
 
    * Filter
    * Gruppierung
@@ -100,7 +105,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
   >[!NOTE]
   >
-  > Da Maestro derzeit einen Beta-Status aufweist, sind einige Ansichtselemente möglicherweise nicht für beide Ansichten verfügbar.
+  > Da sich die Planungsfunktionen von Adobe Workfront derzeit in der Beta-Phase befinden, stehen einige Ansichtselemente möglicherweise nicht allen Ansichten zur Verfügung.
 
 In diesem Artikel werden die folgenden Informationen zu Maestro-Ansichten beschrieben:
 
@@ -111,6 +116,8 @@ In diesem Artikel werden die folgenden Informationen zu Maestro-Ansichten beschr
 * [Anzeigen freigeben](#share-a-view)
 
 ## Ähnlichkeiten und Unterschiede zwischen Tabellen- und Timeline-Ansichten
+
+<!-- should we include Calendar here or remove this section???-->
 
 Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen den Tabellen- und Timeline-Ansichten in Maestro:
 
@@ -180,7 +187,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    Oder klicken Sie auf **Nächste** beim Erstellen einer Timeline <!--or calendar--> anzeigen.
 
-   Standardmäßig benennt Maestro die Ansicht &quot;Tabelle &lt; Zahl >&quot;oder &quot;Timeline &lt; Zahl >&quot;. Die Zahl ist ein automatisch generiertes Inkrement.
+   Standardmäßig benennt Workfront die Ansicht &quot;Tabelle &lt; Zahl >&quot;oder &quot;Timeline &lt; Zahl >&quot;, <!--or "Calendar < number >"-->. Die Zahl ist ein automatisch generiertes Inkrement.
 
 1. (Bedingt) Wählen Sie das Start- und Enddatum für die Datensätze aus, die in der Timeline angezeigt werden sollen <!--or calendar--> Ansicht und klicken Sie dann auf **Erstellen**.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 1. Klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;, bewegen Sie den Mauszeiger über eine der Ansichten in der Liste und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) > **Löschen**.
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 
-   Die Ansicht wird für alle Benutzer gelöscht, die auf den Maestro-Bereich zugreifen können, und kann nicht wiederhergestellt werden.
+   Die Ansicht wird für alle Benutzer gelöscht, die auf den Datensatzbereich zugreifen können, und kann nicht wiederhergestellt werden.
 
 ## Anzeigen freigeben
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ So verwalten Sie eine Tabellenansicht:
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (Optional) Klicken Sie auf **Zeilenhöhe** und wählen Sie dann aus den folgenden Optionen aus, um die Höhe der Tabellenzeilen zu ändern:
+   * Klein
+   * Mittel
+   * Groß
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Spalten (oder Felder)](#add-columns-or-fields)
