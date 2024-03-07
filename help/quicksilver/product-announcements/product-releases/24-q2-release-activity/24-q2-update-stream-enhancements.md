@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabsc
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
 
 Jetzt wurde die neue Kommentarfunktion zum Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben- und Problemlisten hinzugefügt.
 

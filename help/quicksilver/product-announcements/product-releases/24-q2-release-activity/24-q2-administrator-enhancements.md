@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im zweiten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Native Felder, die in benutzerdefinierten Formularen verwendet werden, stehen in
 
 Diese Funktion ist nur in der Beta-Version des Formulardesigners verfügbar, nicht aber in der Legacy-Form-Builder.
 
-Die Experience League-Artikel für diese Funktion werden bis zum 7. März aktualisiert.
+Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Die Attributzuordnung ist jetzt für Organisationen verfügbar, die zu Adobe IMS migriert haben
 
@@ -55,7 +57,7 @@ Workfront-Systemadministratoren können jetzt die Zuordnung von Benutzerattribut
 
 Bisher war diese Funktion nur für Organisationen verfügbar, die noch nicht in Adobe IMS integriert waren.
 
-Anweisungen zum Konfigurieren der Zuordnung von Attributen finden Sie unter **Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis** im Artikel [Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Anweisungen zum Konfigurieren der Zuordnung von Attributen finden Sie unter [Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) im Artikel **Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen**.
 
 ## Logik und Anzeigenlogik überspringen sind jetzt in der Beta-Version des Formulardesigners verfügbar
 

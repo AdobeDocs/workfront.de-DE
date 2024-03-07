@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Die E-Mail-Vorlagen zum Hinzufügen eines Genehmigers zu einem Asset und zum Hin
 
 >[!NOTE]
 >
->Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (März 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
+>Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
 
 Die Registerkarten für Forms, Felder und Abschnitte im Bereich &quot;Einrichtung&quot;> &quot;Benutzerdefinierter Forms&quot;wurden aktualisiert und sind nun entsprechend den anderen Bereichen von Workfront moderner gestaltet. Sie können nun über das linke Navigationsmenü auf die drei Bereiche zugreifen. Filter, Ansichten und Gruppierungen sind weiterhin für die Listen verfügbar. Der aktualisierte Entwurf gilt für benutzerdefinierte Formulare, Felder und Abschnitte, die sowohl im neuen Formularentwickler als auch im alten Formularersteller erstellt wurden.
 
