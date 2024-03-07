@@ -5,7 +5,7 @@ title: Verbinden von Workfront und Frame.io
 description: Workfront verwendet Frame.io im Überprüfungs- und Genehmigungsprozess, um Personen dort zu treffen, wo sie arbeiten möchten. Der Projektmanagement- und Genehmigungsprozess wird in Workfront verwaltet und der Überprüfungsprozess erfolgt in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # Verbinden von Workfront und Frame.io
 
+>[!IMPORTANT]
+>
+>Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront verwendet Frame.io im Überprüfungs- und Genehmigungsprozess, um Personen dort zu treffen, wo sie arbeiten möchten. Der Projektmanagement- und Genehmigungsprozess wird in Workfront verwaltet und der Überprüfungsprozess wird in Frame.io abgeschlossen. Sie müssen alle folgenden Abschnitte ausführen, um die Integration erfolgreich einzurichten:
 
 * [Verbinden einer Workfront-Gruppe mit einem Frame.io-Team](#connect-a-workfront-group-to-a-frameio-team)
 * [Erstellen eines Workfront-Projekts und Hinzufügen einer verbundenen Gruppe](#create-a-workfront-project-and-add-a-connected-group)
 
-Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## Zugriffsanforderungen
 
