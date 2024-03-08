@@ -6,7 +6,7 @@ description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu P
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Beschädigte Dateien werden innerhalb von 24 Stunden nach der Erkennung entfernt
 
 ### Einschränkungen bei Dateinamen {#file-name-restrictions}
 
-Dateien, die in Workfront hochgeladen werden, dürfen bestimmte Zeichen in Dateinamen nicht enthalten. Wenn eine Datei eines der folgenden Zeichen im Dateinamen enthält, werden die Zeichen beim Hochladen der Datei aus dem Dateinamen entfernt: `< > { }`.
+Dateien, die in Workfront hochgeladen werden, dürfen bestimmte Zeichen in Dateinamen nicht enthalten. Wenn eine Datei eines der folgenden Zeichen im Dateinamen enthält, werden die Zeichen beim Hochladen der Datei aus dem Dateinamen entfernt: `! # % * \ | ' " / ? < > { } [ ]`.
