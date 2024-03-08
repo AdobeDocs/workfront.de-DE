@@ -8,7 +8,7 @@ description: Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Datenspeichergröße in MB]</p> </td> 
-      <td> <p>Weisen Sie die Größe für den Datenspeicher aus Ihrem gesamten internen Datenspeicher zu.</p> <p> Der Standardwert ist 10 MB. Wenn Sie weniger als 10 MB nicht zugewiesenen Datenspeicherplatz aus Ihrer 500-MB-Zuweisung haben, ist die Standardgröße die Menge an nicht zugewiesenem Speicher.  <p>Hinweis: Der reservierte Betrag kann jederzeit geändert werden.</p>  </td> 
+      <td> <p>Weisen Sie die Größe für den Datenspeicher aus Ihrem gesamten internen Datenspeicher zu.</p> <p> Der Standardwert ist 10 MB. Wenn Sie weniger als 10 MB nicht zugewiesenen Datenspeicherplatz aus Ihrer 95-MB-Zuweisung haben, ist die Standardgröße die Menge an nicht zugewiesenem Speicher.  <p>Hinweis: Der reservierte Betrag kann jederzeit geändert werden.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
