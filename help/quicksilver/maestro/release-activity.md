@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '4316'
+source-wordcount: '4364'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,16 @@ Sie können die Zeilenhöhe auf eine der folgenden Größen aktualisieren:
 
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
+### Neue Kalenderansicht für Datensätze
+
+Produktion: 7. März 2024
+
+Vorschau: zu bestimmen
+
+Es ist nun möglich, Datensätze in einer Kalenderansicht anzuzeigen. Sie müssen mindestens zwei Datumsfelder in einem Datensatztyp haben, um die Kalenderansicht erstellen zu können.
+
+Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
 <!--
 ## Week of March 11, 2024
 
@@ -91,16 +101,6 @@ We have updated the look and feel of the views in the record type page. The new 
 For more information, see the following articles: 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
 * [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### New calendar view for records
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
-
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
 ### Allow System Administrators to manage all shared views 
 

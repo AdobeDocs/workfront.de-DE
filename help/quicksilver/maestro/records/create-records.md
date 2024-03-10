@@ -1,13 +1,13 @@
 ---
 title: Datensätze erstellen
-description: In Adobe Maestro ist ein Datensatz eine Instanz eines Datensatztyps. Sie müssen Datensatztypen erstellen, bevor Sie einzelne Datensätze erstellen können. Das Erstellen von Taxonomiedatensätzen ist mit dem Erstellen von Betriebsdatensätzen identisch.
+description: Bei Verwendung der Planungsfunktionen von Adobe Workfront ist ein Datensatz eine Instanz eines Datensatztyps. Sie müssen Datensatztypen erstellen, bevor Sie einzelne Datensätze erstellen können. Das Erstellen von Taxonomiedatensätzen ist mit dem Erstellen von Betriebsdatensätzen identisch.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Maestro ist ein Datensatz eine Instanz eines Datensatztyps.
+In den Planungsfunktionen von Adobe Workfront ist ein Datensatz eine Instanz eines Datensatztyps.
 
 Folgende Datensätze stehen zur Verfügung:
 
@@ -27,13 +27,13 @@ Folgende Datensätze stehen zur Verfügung:
 
 Das Erstellen von Betriebsdatensätzen ist mit dem Erstellen von Taxonomiedatensätzen identisch.
 
-Sie können Datensätze in Maestro erstellen, indem Sie einen der folgenden Schritte ausführen:
+Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 
-* Erstellen Sie sie manuell für Maestro-Datensatztypen
-* Verbinden Sie sie mit Maestro-Datensätzen aus anderen Anwendungen.
+* Erstellen Sie sie manuell für Datensatztypen
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Erstellen Sie Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste.
 
-In diesem Artikel wird beschrieben, wie Sie Maestro-Datensätze erstellen können. Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
+In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können. Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
 
 * [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Verwalten der Timeline-Ansicht](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffskontrollen für Maestro </p>  
+   <td> <p>Es gibt keine Zugriffskontrollen für Adobe Workfront-Planungsfunktionen </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
 1. Fügen Sie weitere Informationen zu den einzelnen Zeilen hinzu und klicken Sie auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze rückgängig zu machen oder wiederherzustellen:
 
    * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
 
-## Erstellen von Datensätzen durch Verbinden mit einer anderen Anwendung
+<!-- this is not possible anymore: 
 
-Sie können Datensätze aus anderen Anwendungen importieren, indem Sie sie mit Maestro verknüpften Datensätzen verknüpfen. Dadurch wird ein Maestro-Record-Typ für das verbundene Objekt der anderen Anwendung erstellt.
+## Create records by connecting them from another application
 
-1. Erstellen Sie einen Maestro-Record-Typ, wie im Abschnitt [Erstellen von Datensatztypen](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Erstellen Sie Maestro-Datensätze für den Datensatztyp, den Sie im vorherigen Schritt erstellt haben. Weitere Informationen finden Sie im Abschnitt . [Datensätze durch manuelles Hinzufügen zu einem Datensatztyp erstellen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Erstellen Sie eine Verbindung zu einem Objekttyp aus einer anderen Anwendung für den von Ihnen erstellten Maestro-Record-Typ. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Fügen Sie den zuvor erstellten Maestro-Datensätzen mithilfe des im vorherigen Schritt erstellten verknüpften Datensatzfelds Datensätze aus einer anderen Anwendung hinzu. Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   Die folgenden Elemente werden in Maestro erstellt:
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * Ein schreibgeschützter Maestro-Record-Typ, der auf den Datensatztyp der anderen Anwendung verweist, mit dem Sie im Feld &quot;Connected Record&quot;verknüpft sind.
+    The following items are created in Maestro:
 
-     Wenn Sie beispielsweise einen Maestro-Record-Typ mit einem Workfront-Projekt verbinden, wird im selben Arbeitsbereich ein schreibgeschützter Datensatz mit dem Namen &quot;Workfront-Projekt&quot;erstellt. Sie können über die Tabellenansicht der Maestro-Datensätze, von denen Sie eine Verknüpfung herstellen, auf die schreibgeschützten Workfront-Datensatztypen zugreifen.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste erstellen
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensatzansichten in Adobe 
 * [Verwalten von Datensatzansichten](../views/manage-record-views.md)
 * [Tabellenansicht verwalten](../views/manage-the-table-view.md)
 * [Verwalten der Timeline-Ansicht](../views/manage-the-timeline-view.md)
-  <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+* [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md)

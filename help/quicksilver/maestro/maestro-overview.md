@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Kalenderansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfelder im Kalenderformat aufweisen.
+     ![](assets/calendar-view-example.png)
 
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ So lokalisieren Sie die Planungsfunktionen:
 
    1. Klicken Sie auf den Namen eines Datensatztyps, um die Datensatzseite zu öffnen. Die Datensatzseite wird standardmäßig in der Tabellenansicht geöffnet.
 
-   1. Passen Sie die Tabellenansicht an, indem Sie einen der folgenden Schritte ausführen:
+      Sie können auch eine Timeline- oder eine Kalenderansicht erstellen.
 
-      * Fügen Sie dem Datensatztyp weitere Felder hinzu, indem Sie auf die Schaltfläche **+** in der oberen rechten Ecke. Die Spalten in der Ansicht sind Felder, die mit dem Datensatztyp verknüpft sind.
-      * Hinzufügen von Datensätzen durch Klicken auf **+** in der linken unteren Ecke. Die Zeilen in der Ansicht sind eindeutige Datensätze des ausgewählten Datensatztyps.
-      * Klicks **Filter** , um die angezeigten Informationen auf der Seite vom Typ Datensatz zu filtern.
+   1. Fügen Sie in der Tabellenansicht Datensätze hinzu, indem Sie Zeilen hinzufügen
 
-   1. Klicken Sie auf den Namen eines Datensatzes, um weitere Informationen auf der Detailseite des Datensatzes anzuzeigen.
+      Oder
 
-   1. Erstellen Sie eine Timeline-Ansicht aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
-
-   1. Passen Sie die Timeline-Ansicht an, indem Sie Filter, Gruppierungen oder Einstellungen aktualisieren.
+      Beginnen Sie mit dem Hinzufügen von Datensatzfeldern durch Hinzufügen von Spalten.
 
 ## Adobe Workfront-Planungs-Funktionen - Release-Aktivität
 

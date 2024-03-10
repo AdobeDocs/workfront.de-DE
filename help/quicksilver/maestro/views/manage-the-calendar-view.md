@@ -4,9 +4,9 @@ description: Sie können Datensätze und ihre Felder in einer Kalenderansicht an
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 Sie können Datensätze und ihre Felder in einer Kalenderansicht auf der Seite vom Typ Datensatz anzeigen.
 
-Informationen zu Maestro-Ansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
+Informationen zu den Ansichten der Adobe Workfront-Planungsfunktionen und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro </p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsmöglichkeiten für Adobe Workfront-Planungsfunktionen  </p>  
 </td>
   </tr>
 
@@ -94,10 +94,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Beachten Sie Folgendes:
 
 * Sie können eine Kalenderansicht nur erstellen, wenn einem Datensatztyp mindestens zwei Datumsfelder zugeordnet sind. Wenn einem Datensatztyp ein oder keine Datumsfelder zugeordnet sind, ist die Kalenderansichtsoption abgeblendet.
-* Die folgenden Szenarien:
+* Die folgenden Szenarien existieren:
 
    * Wenn das Start- und das Enddatum keine Werte aufweisen, werden die Datensätze nicht im Kalender angezeigt
-   * Wenn das Start- oder das Ende-Datum keinen Wert haben, wird der Datensatz als ein eintägiges Ereignis angezeigt
+   * Wenn das Start- oder das Enddatum keinen Wert haben, wird der Datensatz als ein eintägiges Ereignis angezeigt
    * Wenn das Startdatum nach dem Enddatum liegt, wird der Datensatz nicht im Kalender angezeigt.
 
 So verwalten Sie eine Kalenderansicht:
@@ -107,7 +107,7 @@ So verwalten Sie eine Kalenderansicht:
 
    ![](assets/calendar-view-example.png)
 
-   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einem Kalender als Balken angezeigt.
+   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einem Kalender als Balken angezeigt. Die Farbe der Balken entspricht der Farbe des Datensatzsymbols.
 
 1. Führen Sie einen der folgenden Schritte aus, um durch den Kalender zu navigieren:
 

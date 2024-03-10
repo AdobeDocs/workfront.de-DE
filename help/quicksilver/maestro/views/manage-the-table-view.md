@@ -1,13 +1,13 @@
 ---
 title: Tabellenansicht verwalten
-description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in Adobe Maestro zugreifen.
+description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in Adobe Maestro zugreifen.
+Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
 
-Informationen zu Maestro-Ansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
+Informationen zu Datensatzansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro </p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für die Planungsfunktionen von Adobe Workspace </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ So verwalten Sie eine Tabellenansicht:
 
 ### Spalten (oder Felder) hinzufügen {#add-columns}
 
-Die Spaltenüberschriften einer Maestro-Tabellenansicht zeigen Felder an, die mit den Datensätzen in der Ansicht verknüpft sind. Dieselben Felder, die in der Tabellenansicht angezeigt werden, werden auch im Abschnitt Details eines Maestro-Datensatzes angezeigt. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../records/edit-records.md).
+Die Spaltenüberschriften einer Tabellenansicht zeigen Felder an, die mit den Datensätzen in der Ansicht verknüpft sind. Dieselben in der Tabellenansicht angezeigten Felder werden auch im Abschnitt Details eines Datensatzes angezeigt. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feld
 Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufügen.
 
 1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../fields/create-fields.md).
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden auf der Detailseite der Datensätze des ausgewählten Datensatztyps als neue Felder hinzugefügt.
@@ -212,11 +214,13 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows}
 
-Die Zeilen einer Maestro-Tabellenansicht zeigen einzelne Datensätze des ausgewählten Datensatztyps an.
+Die Zeilen einer Tabellenansicht zeigen einzelne Datensätze des ausgewählten Datensatztyps an.
 
-Sie können bis zu 10.000 Datensätze (oder Zeilen) für einen Datensatztyp in Maestro haben.
+Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp haben.
 
 1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Fügen Sie Einträge (oder Zeilen) hinzu, wie im Artikel beschrieben. [Datensätze erstellen](../records/create-records.md).
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansicht oder höhere Berechtigungen für den Arbeitsbereich verfügen.
@@ -359,7 +363,7 @@ Das Hinzufügen von Gruppierungen in der Tabellenansicht ähnelt dem Hinzufügen
 Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
-* Sie können in einer Maestro-Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
 &lt;!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden. —jetzt mit diesem hier abgleichen—>
 * Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Tabellenansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Sie können die für eine Tabellenansicht erstellten Gruppierungen nicht benennen.

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Nach Auswahl eines Datensatztyps im Adobe Workfront-Planungsbereich können Sie 
 
   Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Kalender
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Zugriffsanforderungen
 
@@ -107,7 +107,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   >
   > Da sich die Planungsfunktionen von Adobe Workfront derzeit in der Beta-Phase befinden, stehen einige Ansichtselemente möglicherweise nicht allen Ansichten zur Verfügung.
 
-In diesem Artikel werden die folgenden Informationen zu Maestro-Ansichten beschrieben:
+In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
 * [Ansicht löschen](#delete-views)
@@ -115,32 +115,32 @@ In diesem Artikel werden die folgenden Informationen zu Maestro-Ansichten beschr
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Anzeigen freigeben](#share-a-view)
 
-## Ähnlichkeiten und Unterschiede zwischen Tabellen- und Timeline-Ansichten
+## Ähnlichkeiten und Unterschiede zwischen Datensatzansichten
 
-<!-- should we include Calendar here or remove this section???-->
-
-Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen den Tabellen- und Timeline-Ansichten in Maestro:
+Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabellen-, Timeline- und Kalenderansicht:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funktion | Tabellenansicht | Timeline-Ansicht |
-|-----------------------------------------------------------------------|------------|---------------|
-| Anzeigen von Datensätzen in einer Liste oder Tabelle | ✓ |              |
-| Alle Felder standardmäßig als Spalten in der Tabelle anzeigen | ✓ |              |
-| Felder (oder Spalten) aus- oder einblenden | ✓ |               |
-| Feldwerte für jeden Datensatz bearbeiten | ✓ |               |
-| Hinzufügen von Datensätzen als neue Zeilen in der Ansicht | ✓ |               |
-| Felder als neue Spalten in der Ansicht hinzufügen | ✓ |               |
-| Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |
-| Anzeigen von Datensätzen in einer Timeline |            | ✓ |
-| Datensätze filtern | ✓ | ✓ |
+| Funktion | Tabellenansicht | Timeline-Ansicht | Kalenderansicht |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Anzeigen von Datensätzen in einer Liste oder Tabelle | ✓ |              | |
+| Alle Felder standardmäßig als Spalten in der Tabelle anzeigen | ✓ |              |    |
+| Felder (oder Spalten) aus- oder einblenden | ✓ |               |    |
+| Feldwerte für jeden Datensatz bearbeiten | ✓ |               |             |
+| Hinzufügen von Datensätzen als neue Zeilen in der Ansicht | ✓ |               |        |
+| Felder als neue Spalten in der Ansicht hinzufügen | ✓ |               |         |
+| Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |          |
+| Anzeigen von Datensätzen in einer Timeline |            | ✓ |             |
+| Datensätze filtern | ✓ | ✓ |           |
+| Datensätze in einem Kalender anzeigen |           |              | ✓ |
 | Gruppeneinträge | ✓ | ✓ |
 | Datensätze sortieren | ✓ |              |
-| Farbcode-Datensätze |           | ✓ |
+| Farbcode-Datensätze |           | ✓ | ✓ |
 | Farbcode-Gruppierungen |           | ✓ |
 | Suche nach bestimmten Datensätzen | ✓ | ✓ |
-| Freigabeansicht | ✓ | ✓ |
-| Öffnen Sie die Detailseite des Datensatzes in der Ansicht. | ✓ | ✓ |
+| Freigabeansicht | ✓ | ✓ | ✓ |
+| Öffnen Sie die Detailseite des Datensatzes in der Ansicht. | ✓ | ✓ |    |
+
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Klicken Sie auf **Ansicht** und wählen Sie entweder ein vorhandenes **Tabellenansicht** ![](assets/table-view-icon.png) oder klicken Sie **Ansicht erstellen > Tabelle** zum Erstellen einer Tabellenansicht
 
    Oder
 
-   Existierende Auswahl **Timeline-Ansicht** ![](assets/timeline-view-icon.png) Ansicht oder Klicken **Ansicht erstellen > Timeline** , um eine Timeline-Ansicht zu erstellen.
+   Existierende Auswahl **Timeline-Ansicht** ![](assets/timeline-view-icon.png) oder klicken Sie **Ansicht erstellen > Timeline** , um eine Timeline-Ansicht zu erstellen.
+
+   Oder
+
+   Existierende Auswahl **Kalenderansicht** ![](assets/calendar-view-icon.png) oder klicken Sie **Ansicht erstellen > Kalender** um eine Kalenderansicht zu erstellen.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Um eine Timeline-Ansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls ist die Option Timeline abgeblendet.
+   >    Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline oder Kalender abgeblendet.
 
-1. (Optional) Aktualisieren Sie den Namen der Ansicht und klicken Sie auf **Erstellen** Speichern einer Tabellenansicht
+1. (Bedingt) Klicken Sie auf **Nächste** beim Erstellen einer Timeline- oder Kalenderansicht.
 
-   Oder klicken Sie auf **Nächste** beim Erstellen einer Timeline <!--or calendar--> anzeigen.
+   Standardmäßig gibt Workfront der Ansicht einen der folgenden Namen:
 
-   Standardmäßig benennt Workfront die Ansicht &quot;Tabelle &lt; Zahl >&quot;oder &quot;Timeline &lt; Zahl >&quot;, <!--or "Calendar < number >"-->. Die Zahl ist ein automatisch generiertes Inkrement.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Bedingt) Wählen Sie das Start- und Enddatum für die Datensätze aus, die in der Timeline angezeigt werden sollen <!--or calendar--> Ansicht und klicken Sie dann auf **Erstellen**.
+   Die Zahl ist ein automatisch generiertes Inkrement.
+
+1. (Bedingt) Wählen Sie die **Starten** und **Enddaten** für die Datensätze, die in der Timeline- oder Kalenderansicht angezeigt werden.
+1. Klicken Sie auf **Erstellen**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Optional) Informationen zum Verwalten einer bestimmten Ansicht finden Sie in den folgenden Artikeln:
 
    * [Tabellenansicht verwalten](../views/manage-the-table-view.md)
    * [Verwalten der Timeline-Ansicht](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Ansichten löschen
@@ -211,7 +224,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;, bewegen Sie den Mauszeiger über eine der Ansichten in der Liste und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) > **Löschen**.
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 

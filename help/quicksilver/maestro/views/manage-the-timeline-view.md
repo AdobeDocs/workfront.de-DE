@@ -1,13 +1,13 @@
 ---
 title: Verwalten der Timeline-Ansicht
-description: Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in Adobe Maestro zugreifen.
+description: Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in Adobe Maestro zugreifen.
+Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
 
-Weitere Informationen zu Maestro-Ansichten finden Sie unter [Verwalten von Datensatzansichten in Adobe Maestro](../views/manage-record-views.md).
+Informationen zu Datensatzansichten finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro </p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsmöglichkeiten für Adobe Workfront-Planungsfunktionen </p>  
 </td>
   </tr>
 
@@ -103,17 +103,6 @@ Beachten Sie Folgendes:
    * Wenn das Start- oder das Enddatum keinen Wert haben
    * Wenn das Startdatum nach dem Enddatum liegt
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
-
 So verwalten Sie eine Timeline-Ansicht:
 
 1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie die Timeline anzeigen möchten.
@@ -132,7 +121,7 @@ So verwalten Sie eine Timeline-Ansicht:
 
    * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um in der Timeline rückwärts und vorwärts zu wechseln.
    * Klicks **Heute** , um die Timeline auf das aktuelle Datum zu zentrieren.
-   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für den Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
+   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
 
       * Jahr
       * Quartal
@@ -196,7 +185,7 @@ Das Hinzufügen von Gruppierungen in der Timeline-Ansicht ähnelt dem Hinzufüge
 Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
-* Sie können in einer Maestro-Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
 * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden.
 * Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Sie können die für eine Timeline-Ansicht erstellten Gruppierungen nicht benennen.
@@ -218,6 +207,8 @@ So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
