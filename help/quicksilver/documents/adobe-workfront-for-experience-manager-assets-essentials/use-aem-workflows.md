@@ -6,14 +6,16 @@ description: Verwenden von Workflows in der Integration von Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Workflows in der Experience Manager Assets-Integration verwenden
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Ein Workfront-Administrator kann Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
@@ -30,7 +32,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Adobe Workfront-Plan*</strong>
    </td>
-   <td>Beliebig
+   <td>Alle
    </td>
   </tr>
   <tr>
@@ -107,6 +109,10 @@ Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen 
 
 ### Hinzufügen eines Workflows zu einem vorhandenen Projekt
 
+>[!NOTE]
+>
+>Workflows, die bei der Erstellung eines Projekts ausgeführt werden (z. B. die Erstellung eines verknüpften Ordners), werden nicht ausgeführt, wenn die Vorlage an ein vorhandenes Projekt angehängt wird. Sie werden nur ausgeführt, wenn ein Projekt aus einer Vorlage erstellt wird.
+
 1. Fügen Sie dem Projekt eine Vorlage hinzu.
 
    Anweisungen finden Sie unter [Eine Vorlage an ein Projekt anhängen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen 
 1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Workflow-Werte in einem Projekt bearbeiten](#edit-workflow-values-in-a-project).
 
    In Vorlagen oder Projekten sind nur Workflows verfügbar, die im Experience Manager-Bereich der Einrichtung aktiviert wurden.
+
+
 
 ### Workflow-Werte in einem Projekt bearbeiten
 
@@ -130,9 +138,17 @@ Alle Workflow-Werte finden Sie unter:
   >
   >Wenn diese Bereiche nicht sichtbar sind, hat Ihr Workfront-Administrator die Workflows für Ihr Unternehmen nicht aktiviert.
 
+
+
 #### Verknüpfte Ordner
 
+>[!NOTE]
+>
+>Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows für verknüpfte Ordner in einem vorhandenen Projekt nicht wirksam. Die Bearbeitung dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
+
 So bearbeiten Sie den Workflow für verknüpfte Ordner:
+
+In der Produktionsumgebung:
 
 1. Umschalten **[!UICONTROL Verknüpften Ordner erstellen]** ein- oder ausschalten.
 1. (Bedingt) Wenn Sie verknüpfte Ordner aktivieren, wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration verknüpft werden sollen.
@@ -142,6 +158,31 @@ So bearbeiten Sie den Workflow für verknüpfte Ordner:
 
    Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
 
+In der Vorschau-Sandbox-Umgebung:
+
+<div class="preview">
+
+1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** ein- oder ausschalten. Wenn Sie sie aktivieren, können Sie die Konfiguration des verknüpften Ordners bearbeiten.
+
+   Weitere Informationen zur Konfiguration des verknüpften Ordners finden Sie unter [Mit Adobe Experience Manager verknüpfte Ordner erstellen](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) im Artikel [Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Service] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Optional) Wenn die Ordnerstruktur nur erstellt werden soll, wenn bestimmte Werte in einem benutzerdefinierten Formular vorhanden sind, das an das Projekt angehängt ist, klicken Sie auf das **Filter anwenden** Wählen Sie für diese Ordnerstruktur das benutzerdefinierte Formular aus, das das Feld, das Feld und den Feldwert enthält. Wenn das Feld im benutzerdefinierten Formular, das an das neue Projekt angehängt ist, den ausgewählten Wert enthält, wird die Ordnerstruktur erstellt.
+1. (Optional) Beim Konfigurieren von Ordnernamen können Sie aus den folgenden Optionen auswählen:
+
+   * **Name**: Geben Sie einen Namen für den Ordner ein.
+
+   * **Objektdaten**: Wählen Sie die Quelle für den Ordnernamen aus, z. B. den Projektnamen.
+
+   * **Benutzerdefinierte Formulardaten**: Wählen Sie die benutzerdefinierten Formulardaten aus, die als Ordnername verwendet werden sollen.
+
+     Die Verwendung benutzerdefinierter Formulardaten für Ordnernamen ist nur auf Vorlagenebene verfügbar und kann nicht auf Integrationsebene konfiguriert werden.
+
+     Wenn ein Ordnername auf benutzerdefinierte Daten festgelegt ist, die nicht in dem benutzerdefinierten für , das an das Projekt angehängt ist, vorhanden sind, wird eine zufällige ID als Ordnername zugewiesen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+</div>
+
 
 #### Assets veröffentlichen
 
@@ -149,10 +190,4 @@ So bearbeiten Sie den Workflow zum Veröffentlichen von Assets:
 
 1. Umschalten **Assets automatisch veröffentlichen** ein- oder ausschalten.
 1. (Bedingt) Wenn Sie die Veröffentlichung aktivieren, wählen Sie aus, ob Sie die Veröffentlichung im Veröffentlichungsdienst, im Brand Portal oder beidem durchführen möchten.
-1. Klicks **[!UICONTROL Speichern]** wenn Sie die [!UICONTROL Projekt erstellen] oder [!UICONTROL Projekt bearbeiten] Fenster.
-
-   Oder
-
-   Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
-
-
+1. Klicken Sie auf **[!UICONTROL Speichern]**.

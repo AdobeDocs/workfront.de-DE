@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Konfigurieren Sie die [!UICONTROL Experience Manager Assets as a Cloud Service] Integration
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Als Workfront-Administrator können Sie Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
-Die standardmäßigen Workflow-Werte, die Sie in der Integration festlegen, können auf den Ebenen &quot;Projektvorlage&quot;und &quot;Projekt&quot;überschrieben werden.
+Workflows sind für die Adobe Experience Manager als Ganzes aktiviert und konfiguriert. Diese Workflows können dann auf Projektvorlagen angewendet und auf Vorlagen- oder Projektebene angepasst oder angepasst werden.
 
 Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfügbar:
 
@@ -255,6 +257,46 @@ Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfüg
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Aktivieren Sie die **[!UICONTROL Portfolio- und Programmnamen anhängen]** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
 1. Klicks **[!UICONTROL Speichern]** oder zum [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel beschrieben.
+
+In der Vorschau-Sandbox-Umgebung
+
+<div class="preview">
+
+1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
+1. Geben Sie einen Namen für den Ordner ein, den Sie erstellen.
+1. (Bedingt) Aktivieren Sie die **Standardordnerstruktur** , wenn dieser verknüpfte Ordner der Standardordner für Projekte sein soll, die mit Vorlagen erstellt wurden, die diese Integration verwenden. Sie können einen oder mehrere Standardordner auswählen.
+1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
+1. (Bedingt) Gehen Sie wie folgt vor, um dieser Integration eine Ordnerstruktur (verschachtelte Ordner) hinzuzufügen:
+
+   1. Klicken Sie auf **Ordner hinzufügen** icon ![Ordner hinzufügen](assets/add-folder-aem.png).
+   1. Im **Namenstyp** auswählen, wie Sie den Ordner benennen möchten:
+
+      * **Name**: Geben Sie einen Namen für den Ordner ein.
+      * **Objektdaten**: Wählen Sie die Quelle für den Ordnernamen aus, z. B. den Projektnamen.
+
+      >[!NOTE]
+      >
+      >* Ordnernamen dürfen weniger als 100 Zeichen enthalten.
+      >* Die folgenden Zeichen werden aus den Ordnernamen entfernt:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Um einen verschachtelten Ordner zum Ordnerbaum hinzuzufügen, klicken Sie auf das Menü mit den drei Punkten neben dem Ordner, in dem Sie einen verschachtelten Ordner erstellen möchten, und wählen Sie **Ordner hinzufügen**. Füllen Sie die Felder aus, wie im vorherigen Schritt unter Schritt beschrieben.
+   1. Um einen Ordner mit Workfront zu verknüpfen, wählen Sie den Ordner aus und klicken Sie auf das **Verknüpften Ordner erstellen**   icon ![Link-Ordner](assets/link-folder.png).
+   1. (Optional) Um einen Ordner zu bearbeiten, wählen Sie den Ordner aus und klicken Sie auf **Ordner bearbeiten** icon ![Symbol Bearbeiten](assets/edit-icon.png).
+   1. (Optional) Um einen Ordner zu löschen, wählen Sie den Ordner aus und klicken Sie auf das **Ordner löschen** icon ![Ordner löschen](assets/delete-folder.png).
+1. (Bedingt) Um eine weitere Ordnerstruktur hinzuzufügen, klicken Sie auf **+ Ordnerstruktur hinzufügen** und folgen Sie den Schritten in Schritt 5.
+
+1. Klicks **[!UICONTROL Speichern]** oder zum [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel beschrieben.
+
+>[!NOTE]
+>
+>* Durch diese Integration werden nicht mehr als 100 Ordner erstellt, unabhängig davon, wie viele Ordnerbäume erstellt werden. Eine Integration mit 4 Ordnerbäumen kann beispielsweise bis zu 100 Ordner und nicht 400 Ordner erstellen.
+>* Der erste Ordner in der Ordnerstruktur wird automatisch als mit Workfront verknüpft markiert. Wenn Sie nicht möchten, dass dieser Ordner verknüpft wird, können Sie die Verknüpfung aufheben.
+>* Wenn keine Ordnerstruktur angegeben wird, wird der Stammordner zum verknüpften Ordner.
+
+
+</div>
 
 ### Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden
 

@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -1116,3 +1116,4 @@ So deaktivieren Sie eine Vorlage:
 1. (Optional) Um die Vorlage zu aktivieren, klicken Sie auf die Schaltfläche **Mehr** ![](assets/qs-more-icon-on-an-object.png) Menü neben dem Vorlagennamen und klicken Sie auf **Aktivieren**.
 
    Die Vorlage ist jetzt aktiv und kann an Projekte angehängt oder zum Erstellen von Projekten verwendet werden.
+

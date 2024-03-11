@@ -6,10 +6,10 @@ description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Be
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -102,7 +102,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Informationen zum Bearbeiten einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 1. (Optional) Wenn Sie der Vorlage weitere Elemente hinzufügen möchten, lesen Sie den Abschnitt . [Hinzufügen zusätzlicher Elemente zu einer Vorlage](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) im Artikel [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Vorlageneinstellungen, die von der Gruppenzuordnung bestimmt werden
