@@ -4,10 +4,10 @@ description: Sie können eine Ansicht für andere freigeben, um die Zusammenarbe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 1. Klicks **Link kopieren** , um einen Link zur Ansicht in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 1. Klicken Sie auf **Speichern**.
+
+## Berechtigungen für eine Ansicht entfernen
+
+{{step1-to-maestro}}
+
+1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite mit dem Datensatztyp geöffnet.
+1. Bewegen Sie im Dropdownmenü Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Freigeben**.
+1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie dann auf **Entfernen** im Dropdown-Menü Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe.
+1. Klicks **Speichern**.
+Der Benutzer oder die Benutzer, die zur entfernten Gruppe gehören, haben keinen Zugriff mehr auf die Ansicht. Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf die Ansicht entfernt wurden.

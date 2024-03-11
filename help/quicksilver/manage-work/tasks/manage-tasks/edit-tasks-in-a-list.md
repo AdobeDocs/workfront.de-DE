@@ -6,9 +6,9 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2848'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -59,11 +59,11 @@ Beachten Sie beim Bearbeiten von Aufgaben in einer Liste Folgendes:
    * Prozent abgeschlossen
    * Benutzerdefinierte Formulare - Informationen
 
-      >[!NOTE]
-      >
-      >Sie können ein benutzerdefiniertes Aufgabenfeld nur dann in einer Liste bearbeiten, wenn Sie berechtigt sind, das Feld zu aktualisieren.
+     >[!NOTE]
+     >
+     >Sie können ein benutzerdefiniertes Aufgabenfeld nur dann in einer Liste bearbeiten, wenn Sie berechtigt sind, das Feld zu aktualisieren.
 
-   * Protokollstunden
+   * Stunden protokollieren
    * Zuweisungen ändern
    * Finanzinformationen anzeigen
    * Hinzufügen von Ausgaben, Aufgaben oder Problemen
@@ -72,15 +72,17 @@ Beachten Sie beim Bearbeiten von Aufgaben in einer Liste Folgendes:
 
    * Der Abschnitt &quot;Aufgaben&quot;des Projekts
    * Der Abschnitt &quot;Unteraufgaben&quot;des Projekts
-   * Aufgabenbericht
+   * Ein Aufgabenbericht
 
-      >[!NOTE]
-      >
-      >Standardmäßig speichert Workfront Ihre Änderungen an Aufgaben automatisch im Bereich Unteraufgaben oder in einem Aufgabenbericht.
+     >[!NOTE]
+     >
+     >Standardmäßig speichert Workfront Ihre Änderungen an Aufgaben automatisch im Bereich Unteraufgaben oder in einem Aufgabenbericht.
 
 * Sie können steuern, wann Workfront die Änderungen speichert, die Sie an den Aufgaben in einer Liste vornehmen. Ihre Änderungen können automatisch gespeichert oder manuell gespeichert werden.
 
-   Informationen zum Konfigurieren, wenn Workfront Änderungen speichert, die Sie an Aufgaben in einer Liste vornehmen, finden Sie unter [Auswählen einer Speicheroption beim Bearbeiten von Aufgaben in einer Liste](#select-a-save-option-when-editing-tasks-in-a-list) in diesem Artikel.
+  Informationen zum Konfigurieren, wenn Workfront Änderungen speichert, die Sie an Aufgaben in einer Liste vornehmen, finden Sie unter [Auswählen einer Speicheroption beim Bearbeiten von Aufgaben in einer Liste](#select-a-save-option-when-editing-tasks-in-a-list) in diesem Artikel beschrieben.
+
+* Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen anzeigen können, die Sie an einer Aufgabe vornehmen.
 
 ## Auswählen einer Speicheroption beim Bearbeiten von Aufgaben in einer Liste {#select-a-save-option-when-editing-tasks-in-a-list}
 
@@ -96,11 +98,11 @@ Sie können steuern, wann Workfront die Änderungen speichert, die Sie an den Au
 
 * Sie können die Änderungen nach jeder Aktualisierung automatisch von Workfront speichern lassen.
 
-   Weitere Informationen finden Sie im Abschnitt . [Aufgaben in einer Liste bearbeiten und Änderungen automatisch speichern](#edit-tasks-in-a-list-and-automatically-save-changes) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt . [Aufgaben in einer Liste bearbeiten und Änderungen automatisch speichern](#edit-tasks-in-a-list-and-automatically-save-changes) in diesem Artikel.
 
 * Über die Schaltfläche Speichern können Sie steuern, wann Sie mehrere Änderungen gleichzeitig anwenden.
 
-   Weitere Informationen finden Sie im Abschnitt . [Aufgaben in einer Liste bearbeiten und Änderungen manuell speichern](#edit-tasks-in-a-list-and-manually-save-changes) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt . [Aufgaben in einer Liste bearbeiten und Änderungen manuell speichern](#edit-tasks-in-a-list-and-manually-save-changes) in diesem Artikel.
 
 ### Aufgaben in einer Liste bearbeiten und Änderungen automatisch speichern {#edit-tasks-in-a-list-and-automatically-save-changes}
 
@@ -194,7 +196,6 @@ Sie können Änderungen, die Sie an Aufgaben in einer Liste vornehmen, manuell s
 >* Es gibt keine Einschränkungen dafür, wie viele Änderungen rückgängig gemacht werden können. Sie können alle nacheinander umkehren, bis Sie den ursprünglichen Status der Aufgaben erreicht haben.
 >
 
-
 Beachten Sie beim manuellen Speichern von Änderungen in einer Aufgabenliste Folgendes:
 
 * Um Aufgabenlistenänderungen manuell zu speichern, benötigen Sie Berechtigungen zum Verwalten der Aufgaben und des Projekts.
@@ -211,7 +212,7 @@ Beachten Sie beim manuellen Speichern von Änderungen in einer Aufgabenliste Fol
 Es gibt zwei Möglichkeiten, Änderungen an Aufgaben in einer Liste manuell zu speichern. Diese beiden Möglichkeiten werden nachfolgend beschrieben.
 
 * [Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option Manuelles Speichern als Standard auswählen](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
-* [Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option Manuelles Speichern der Timeline-Planung auswählen](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
+* [Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option &quot;Manuelles Speichern der Timeline-Planung&quot;auswählen](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
 
 #### Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option Manuelles Speichern als Standard auswählen {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option}
 
@@ -221,7 +222,7 @@ Es gibt zwei Möglichkeiten, Änderungen an Aufgaben in einer Liste manuell zu s
 
 Beachten Sie beim Aktualisieren von Aufgaben in einer Liste nach Auswahl der Option Manuelles Speichern von Standard Folgendes:
 
-* Sie können eine benutzerdefinierte Ansicht auf die Aufgabenliste anwenden und alle Aufgabenfelder bearbeiten, die Sie in dieser Ansicht zu verwalten berechtigt sind.
+* Sie können eine benutzerdefinierte Ansicht auf die Aufgabenliste anwenden und alle Aufgabenfelder bearbeiten, für die Sie in dieser Ansicht über die Berechtigung &quot;Verwalten&quot;verfügen.
 * Workfront berechnet die Timeline des Projekts sowie alle projektbezogenen und projektübergreifenden Abhängigkeiten, nachdem Sie auf Speichern geklickt haben, wenn der Projektaktualisierungstyp automatisch oder automatisch und bei Änderung ist. Informationen zum Projektaktualisierungstyp finden Sie unter [Wählen Sie den Projektaktualisierungstyp aus](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speichern von Standard auswählen:
@@ -287,9 +288,9 @@ So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speiche
    </table>
 
 1. Workfront aktualisiert alle projektbezogenen und projektübergreifenden Abhängigkeiten, wenn Sie Änderungen an der Zeitleiste von Aufgaben vornehmen.
-1. Klicken **Speichern** wenn Sie die Aufgabenänderungen dauerhaft beibehalten und die Timeline des Projekts speichern möchten.
+1. Klicks **Speichern** wenn Sie die Aufgabenänderungen dauerhaft beibehalten und die Timeline des Projekts speichern möchten.
 
-#### Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option Manuelles Speichern der Timeline-Planung auswählen {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
+#### Manuelles Speichern von Änderungen in einer Aufgabenliste, wenn Sie die Option &quot;Manuelles Speichern der Timeline-Planung&quot;auswählen {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
 Das Speichern Ihrer Änderungen und aller Projektabhängigkeiten ist schneller. Dies ist nicht für Projekte mit mehr als 2000 Aufgaben verfügbar.
 
@@ -300,7 +301,7 @@ Das Speichern Ihrer Änderungen und aller Projektabhängigkeiten ist schneller. 
 Beachten Sie Folgendes bei Verwendung der Option Timeline-Planung manuell speichern in einer Aufgabenliste:
 
 * Sie können die Option Manuelles Speichern der Timeline-Planung nicht auf Projekte mit mehr als 2000 Aufgaben anwenden.
-* Sie können keine benutzerdefinierte Ansicht, keinen Filter oder keine Gruppierung auf die Aufgabenliste anwenden. Die Dropdownmenüs Ansicht, Filter und Gruppierung sowie das Symbol für die Agile Ansicht sind deaktiviert. Die standardmäßig angewendete Ansicht enthält eine begrenzte Anzahl von Feldern.
+* Sie können keine benutzerdefinierte Ansicht, Filter oder Gruppierung auf die Aufgabenliste anwenden. Die Dropdownmenüs Ansicht, Filter und Gruppierung sowie das Symbol für die Agile Ansicht sind deaktiviert. Die standardmäßig angewendete Ansicht enthält eine begrenzte Anzahl von Feldern.
 * Die Timeline des Projekts und alle im Projekt enthaltenen Abhängigkeiten werden nach jeder Änderung automatisch berechnet, wenn der Projektaktualisierungstyp automatisch oder automatisch und bei Änderung ist.
 * Die projektübergreifenden Abhängigkeiten werden nach dem Klicken auf Speichern berechnet, wenn der Projektaktualisierungstyp automatisch oder Automatisch und Bei Änderung ist. Informationen zum Projektaktualisierungstyp finden Sie unter [Wählen Sie den Projektaktualisierungstyp aus](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
@@ -331,11 +332,11 @@ So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speiche
       * Arbeitsaufträge
       * Status
       * Prozent abgeschlossen
+
    * Das Symbol für die Agile-Ansicht wurde entfernt.
    * Eine Symbolleisteneinstellung mit Optionen zum Rückgängigmachen, Wiederholen und Speichern Ihrer Änderungen wird angezeigt.
 
-      ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
-
+     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Bearbeiten Sie alle Felder, die Sie manuell aktualisieren können.
 
@@ -389,16 +390,16 @@ So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speiche
    </table>
 
 1. Workfront aktualisiert alle projektbezogenen und projektübergreifenden Abhängigkeiten, wenn Sie die Timeline einer Aufgabe ändern.
-1. Klicken **Speichern** wenn Sie die Aufgabenänderungen dauerhaft beibehalten und die Timeline des Projekts speichern möchten.
+1. Klicks **Speichern** wenn Sie die Aufgabenänderungen dauerhaft beibehalten und die Timeline des Projekts speichern möchten.
 
 ## Bearbeiten einer Aufgabe in einer Liste mithilfe der Zusammenfassung
 
 1. Wechseln Sie zu dem Projekt mit den Aufgaben, die Sie bearbeiten möchten.
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Aufgaben** im linken Bereich.
 
    Die Liste der Aufgaben im Projekt wird angezeigt.
 
-1. Klicken Sie auf das Menü Mehr . ![](assets/more-icon-task-list.png) Klicken Sie nach dem Aufgabennamen auf **Zusammenfassung öffnen**. Wählen Sie die Aufgabe aus, die Sie bearbeiten möchten, und klicken Sie dann auf die **Symbol &quot;Zusammenfassung öffnen&quot;** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in der oberen rechten Ecke der Liste.
+1. Klicken Sie auf das Menü Mehr ![](assets/more-icon-task-list.png) Klicken Sie nach dem Aufgabennamen auf **Zusammenfassung öffnen**. Wählen Sie die Aufgabe aus, die Sie bearbeiten möchten, und klicken Sie dann auf die **Symbol &quot;Zusammenfassung öffnen&quot;** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in der oberen rechten Ecke der Liste.
 
    Die **Zusammenfassung** geöffnet.
 
@@ -413,14 +414,14 @@ So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speiche
 1. (Optional) Geben Sie eine Aktualisierung für die Aufgabe in das **Updates** Bereich.
 1. Klicken Sie auf eines der folgenden Symbole oder Bereiche, um zur Aufgabe zu wechseln und Informationen auf Aufgabenebene zu bearbeiten:
 
-   | Dokumente | Klicken **Klicken Sie hier zum Hinzufügen** , um der Aufgabe Dokumente hinzuzufügen. |
+   | Dokumente | Klicks **Klicken Sie hier zum Hinzufügen** , um der Aufgabe Dokumente hinzuzufügen. |
    |---|---|
    | Details | Klicken Sie auf , um Informationen zur Aufgabe zu aktualisieren. |
    | Benutzerdefinierte Formulare | Klicken Sie auf , um benutzerdefinierte Forms hinzuzufügen oder zu entfernen oder Informationen zu den Formularen zu aktualisieren. |
    | Stunden | Klicken Sie auf , um die Stunden zu protokollieren. |
    | Genehmigungen | Klicken Sie auf , um Aufgabengenehmigungen hinzuzufügen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicken Sie in Ihrem Browser auf die Schaltfläche &quot;Zurück&quot;, um zur Aufgabenliste zurückzukehren, wenn Sie die Aufgabe aktualisiert haben.
 
@@ -429,7 +430,7 @@ So bearbeiten Sie Aufgaben in einer Liste, wenn Sie die Option Manuelles Speiche
 Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass Sie über Verwaltungsberechtigungen für die Aufgaben verfügen, um sie bearbeiten zu können.
 
 1. Wechseln Sie zu einem Projekt mit Aufgaben, die Sie stapelweise bearbeiten möchten.
-1. Klicken **Aufgaben** im linken Bereich.
+1. Klicks **Aufgaben** im linken Bereich.
 1. Stellen Sie sicher, dass **Automatische Speicherung** ausgewählt ist.
 
    >[!IMPORTANT]
@@ -445,7 +446,7 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
 
 1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben ändern möchten.
 
-   Das Bearbeiten der Informationen für alle Aufgaben entspricht dem Bearbeiten der Informationen für eine Aufgabe. Wenn Sie die Aufgabendauer bearbeiten möchten, müssen die ausgewählten Aufgaben dieselbe Aufgabenbegrenzung aufweisen. andernfalls **Dauer** wird nicht aufgefüllt.
+   Das Bearbeiten der Informationen für alle Aufgaben entspricht dem Bearbeiten der Informationen für eine Aufgabe. Wenn Sie die Aufgabendauer bearbeiten möchten, müssen die ausgewählten Aufgaben dieselbe Aufgabenbegrenzung aufweisen. Andernfalls wird die **Dauer** wird nicht aufgefüllt.
 
    Weitere Informationen zum Bearbeiten einer Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -453,15 +454,15 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
    >
    >Die Informationen, die Sie für alle ausgewählten Aufgaben ändern, überschreiben die vorhandenen Informationen zu einzelnen Aufgaben mit Ausnahme der **Zuweisungen** -Feld. Durch das Hinzufügen eines neuen Verantwortlichen zur Massenbearbeitung wird dieser Verantwortliche zu allen ausgewählten Aufgaben hinzugefügt. Wenn den ausgewählten Aufgaben andere Verantwortliche zugewiesen sind, bleiben diese zusätzlich zu der durch Massenbearbeitung hinzugefügten Aufgabe zugewiesen.
 
-1. Klicken **Benutzerdefinierte Forms** , um die benutzerdefinierten Formulare zu bearbeiten, die an alle ausgewählten Aufgaben angehängt sind. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
+1. Klicks **Benutzerdefinierte Forms** , um die benutzerdefinierten Formulare zu bearbeiten, die an alle ausgewählten Aufgaben angehängt sind. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
    Wenn die ausgewählten Aufgaben keine gemeinsamen benutzerdefinierten Formulare haben, werden in diesem Abschnitt keine Formulare aufgeführt.
 
    Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Aufgaben angehängt sind und die Sie bearbeiten können.
 
-1. (Optional) Wählen Sie im Abschnitt Benutzerdefinierter Forms die **Benutzerdefinierte Ausdrücke neu berechnen** , um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die mit den ausgewählten Aufgaben verknüpft sind, aktuell sind.
-1. Klicken **Änderungen speichern**.
+1. (Optional) Wählen Sie im Abschnitt Benutzerdefinierter Forms die **Benutzerdefinierte Ausdrücke neu berechnen** , um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die mit den ausgewählten Aufgaben verknüpft sind, auf dem neuesten Stand sind.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Alle von Ihnen vorgenommenen Änderungen sind nun für alle ausgewählten Aufgaben sichtbar.
 
-Informationen zur Massenbearbeitung von benutzerdefinierten Formularen finden Sie im Abschnitt &quot;Mehrere benutzerdefinierte Forms beim Bearbeiten von Objekten in Massenbearbeitung bearbeiten&quot;in [Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt werden](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+Informationen zur Massenbearbeitung von benutzerdefinierten Formularen finden Sie im Abschnitt &quot;Mehrere benutzerdefinierte Forms beim Bearbeiten von Objekten in Massenbearbeitung bearbeiten&quot;in [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt werden](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

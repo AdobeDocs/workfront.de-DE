@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,6 @@ Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen 
 
 Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
 
-Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

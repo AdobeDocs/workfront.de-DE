@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -37,14 +37,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
@@ -89,6 +89,8 @@ Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
    * Bestehende Ausgaben bearbeiten
    * Benutzerdefiniertes Formular anhängen
 
+* Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen anzeigen können, die Sie an einer Aufgabe vornehmen.
+
 ## Aufgabe in einer Liste bearbeiten
 
 Sie können Aufgabeninformationen in einer Liste von Aufgaben bearbeiten, indem Sie in der Ansicht der Liste angezeigte Inline-Bearbeitungsfelder verwenden.
@@ -122,7 +124,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
      Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
 
-   * **Finanzielle Details**
+   * **Finanzen**
 
    >[!NOTE]
    >
@@ -176,7 +178,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
    * [Übersicht](#overview)
    * [Arbeitsaufträge](#assignments)
    * [Benutzerdefinierte Formulare](#Custom%C2%A0F)
-   * [Finanzielle Details](#finance)
+   * [Finanzen](#finance)
    * [Einstellungen](#settings)
 
    >[!NOTE]
@@ -238,25 +240,25 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       <td role="rowheader">Aufgabenbeschränkung</td> 
       <td> <p>Entscheiden Sie, wann die Aufgabe abgeschlossen sein muss, indem Sie eine Aufgabenbegrenzung angeben. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
-      <li> <p><span>Feste Daten</span> </p> <p>Geben Sie eine <strong>Geplanter Start</strong> und <strong>Geplantes Abschlussdatum</strong>. </p> </li> 
-      <li> <p><span>Muss beginnen am</span> </p> <p>Geben Sie eine <strong>Geplantes Startdatum</strong>. </p> </li> 
-      <li> <p><span>Muss beendet werden am</span> </p> <p>Geben Sie eine <strong>Geplantes Abschlussdatum</strong>. </p> </li> 
+      <li> <p><span>Feste Datumswerte</span> </p> <p>Geben Sie eine <strong>Geplanter Start</strong> und <strong>Geplantes Abschlussdatum</strong>. </p> </li> 
+      <li> <p><span>Muss beginnen bei</span> </p> <p>Geben Sie eine <strong>Geplantes Startdatum</strong>. </p> </li> 
+      <li> <p><span>Muss abgeschlossen sein am</span> </p> <p>Geben Sie eine <strong>Geplantes Abschlussdatum</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>So bald wie möglich</span></p> </li> 
       <li> <p><span>So bald wie möglich</span></p> </li> 
       <li> <p><span>Frühestmögliche Zeit</span></p> </li> 
-      <li> <p> <span>Spätestmögliche Zeit</span></p> </li> 
-      <li> <p><span>Nicht später anfangen als</span> </p> </li> 
+      <li> <p> <span>Neueste verfügbare Zeit</span></p> </li> 
+      <li> <p><span>Start nicht später als</span> </p> </li> 
       <li> <p>Angeben eines geplanten Startdatums</p> </li> 
-      <li> <p><span>Nicht früher anfangen als</span> </p> <p>Geben Sie eine <strong>Geplantes Startdatum</strong>. </p> </li> 
+      <li> <p><span>Start nicht früher als</span> </p> <p>Geben Sie eine <strong>Geplantes Startdatum</strong>. </p> </li> 
       <li> <p> Beenden <span>Nicht später als</span></p> <p>Geben Sie eine <strong>Geplantes Abschlussdatum</strong>. </p> </li> 
       <li> <p> Beenden <span>Keine frühere als</span></p> <p>Geben Sie eine <strong>Geplantes Abschlussdatum</strong></p> </li> 
        </ul> <p>Weitere Informationen zur Aufgabenbegrenzung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datum und Uhrzeit der Veröffentlichung</td> 
-      <td> <p>Dies ist das Datum, bis zu dem der Aufgabe zugewiesene Benutzer verpflichtet, sie abzuschließen. Dies kann sich vom geplanten Abschlussdatum unterscheiden. Nur Beauftragte können dieses Feld bearbeiten. Weitere Informationen zum Festlegen von Datumswerten in Workfront finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Datum bestätigen - Übersicht</a>. </p> </td> 
+      <td> <p>Dies ist das Datum, bis zu dem der Aufgabe zugewiesene Benutzer verpflichtet, sie abzuschließen. Dies kann sich vom geplanten Abschlussdatum unterscheiden. Nur Bevollmächtigte können dieses Feld bearbeiten. Weitere Informationen zum Festlegen von Datumswerten in Workfront finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Datum bestätigen - Übersicht</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geplantes Startdatum und geplante Startzeit</td> 
@@ -362,7 +364,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Dies wird nur bei den übergeordneten wiederkehrenden Aufgaben angezeigt. Er zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>NOTIZ</b>
+      <td> <p>Dies wird nur bei den übergeordneten wiederkehrenden Aufgaben angezeigt. Er zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>NOTE</b>
 
    Die in einzelnen wiederkehrenden Aufgaben geänderten Zeiträume zeigen nicht den in diesem Feld angegebenen Wert an. </p> </td>
    </tr> 
@@ -444,7 +446,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
    <tr> 
    <td role="rowheader">Geplante Stunden</td> 
    <td> <p>Geben Sie die Anzahl der geplanten Stunden für die Aufgabe in Stunden an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn für den Typ "Dauer"die Option "Berechnete Zuweisung"ausgewählt ist. Weitere Informationen zu Dauer-Typen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>.</p> 
-   <b>NOTIZ</b>
+   <b>NOTE</b>
    <p>
    Bei der Erstellung wiederkehrender Aufgaben sind die geplanten Stunden die Aufgaben jedes Vorkommens. Die geplanten Stunden der übergeordneten Aufgaben entsprechen der Gesamtzahl aller geplanten Stunden von allen Vorkommen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>.
    </p>
@@ -523,8 +525,8 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
       <li> <p>Benutzer pro Stunde </p> </li> 
       <li> <p>Stundensatz nach Funktion </p> </li> 
       <li> <p>Festgelegt pro Stunde </p> </li> 
-      <li> <p>Benutzer pro Stunde m/Obergrenze </p> </li> 
-      <li> <p>Stundensatz nach Funktion m/Obergrenze </p> </li> 
+      <li> <p>Benutzende pro Stunde mit Begrenzung </p> </li> 
+      <li> <p>Stundensatz nach Funktion mit Begrenzung </p> </li> 
       <li> <p>Benutzer pro Stunde plus festgelegt </p> </li> 
       <li> <p>Stundensatz nach Funktion plus fest </p> </li> 
       <li> <p>Festeinnahmen </p> </li> 

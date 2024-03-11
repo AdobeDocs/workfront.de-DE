@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
 * Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
 
-  Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+  Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
 * Wenn Sie kein Systemadministrator sind, können Sie zu Arbeitsbereichen beitragen, die von anderen erstellt wurden, wenn diese für Sie freigegeben sind.
 * Arbeitsbereiche können nicht gemeinsam genutzt werden.
@@ -62,7 +62,7 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berech
 >
 >Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz der Benutzer bestimmt, welche Stufe von Berechtigungen sie für Maestro-Objekte erhalten können.
 >
->Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+>Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Workspace-Berechtigungen

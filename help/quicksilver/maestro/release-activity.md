@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Vorschau: zu bestimmen
 
 Wir haben die Berechtigungsstufen geändert, um die Lizenztypen von Benutzern zu berücksichtigen. Vor dieser Verbesserung gab es keine Unterschiede bei den Berechtigungen für Arbeitsbereiche, die auf den Lizenztypen der Benutzer basieren.
 
-Die folgenden Berechtigungen funktionieren jetzt in Verbindung mit dem Lizenztyp des Benutzers:
+Im Folgenden finden Sie die höchsten Berechtigungsstufen, die Benutzer je nach Lizenztyp des Benutzers erhalten können:
 
 * Benutzer mit einer Planungslizenz (oder einer Standardlizenz im neuen Lizenzmodell) können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten.
 
@@ -156,7 +156,7 @@ Die folgenden Berechtigungen funktionieren jetzt in Verbindung mit dem Lizenztyp
 
 Weitere Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Neues Erscheinungsbild der Rich-Text-Symbolleiste für Datensatzfelder
