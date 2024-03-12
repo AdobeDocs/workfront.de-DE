@@ -1,14 +1,14 @@
 ---
 title: Freigeben von Arbeitsbereichen
-description: Sie können einen Arbeitsbereich für andere freigeben, um die Zusammenarbeit bei der Arbeit in Adobe Workfront Maestro sicherzustellen.
+description: Sie können einen Arbeitsbereich für andere freigeben, um die Zusammenarbeit bei der Arbeit mit Adobe Workfront-Planungsfunktionen sicherzustellen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Sie können einen Arbeitsbereich für andere freigeben, um die Zusammenarbeit bei der Arbeit in Adobe Workfront Maestro sicherzustellen.
+Sie können einen Arbeitsbereich für andere freigeben, um die Zusammenarbeit bei der Arbeit mit Adobe Workfront-Planungsfunktionen sicherzustellen.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -57,13 +57,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> Es gibt keine Zugriffskontrollen für Adobe Maestro</p>  
+   <td> Es gibt keine Zugriffskontrollen für Adobe Workfront-Planungsfunktionen</p>  
 </td>
   </tr>
 
@@ -105,7 +107,7 @@ So geben Sie einen Arbeitsbereich für andere frei:
    * Mitwirken
    * Verwalten
 
-     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](../access/sharing-permissions-overview.md).
+     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Klicks **Link kopieren** , um einen Link zum Arbeitsbereich in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
 1. Klicken Sie auf **Speichern**.

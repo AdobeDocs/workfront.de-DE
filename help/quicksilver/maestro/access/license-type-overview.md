@@ -4,9 +4,9 @@ description: Ihr Zugriff auf die Planungsfunktionen von Adobe Workfront hängt v
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Benutzer mit einem Lizenztyp der unteren Ebene haben bei der Verwendung von Work
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Informationen zu Berechtigungen für Objekte in den Planungsfunktionen von Workfront finden Sie unter [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Informationen zu Berechtigungen für Objekte in den Planungsfunktionen von Workfront finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsfunktionen
 

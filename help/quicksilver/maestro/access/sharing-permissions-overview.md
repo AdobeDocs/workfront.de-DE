@@ -1,13 +1,13 @@
 ---
-title: Übersicht über die Freigabe von Berechtigungen in Adobe Maestro
+title: Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront
 description: Sie können Berechtigungen für einen Adobe Maestro-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Übersicht über die Freigabe von Berechtigungen in Adobe Maestro
+# Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront
 
 {{maestro-important-intro}}
 
-Sie können Berechtigungen für einen Adobe Maestro-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
+Sie können Berechtigungen für einen Arbeitsbereich oder eine Ansicht freigeben oder entfernen, wenn Sie die Planungsfunktionen in Adobe Workfront verwenden.
 
-In diesem Artikel werden die Berechtigungsebenen für Maestro-Objekte beschrieben.
+In diesem Artikel werden die Berechtigungsebenen für Planungs-Funktionsobjekte beschrieben.
 
 Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in den folgenden Artikeln:
 
@@ -30,9 +30,9 @@ Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in de
 
 * [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md)
 
-## Objekte, die Sie in Adobe Maestro freigeben können
+## Objekte, die Sie in den Planungsfunktionen von Adobe Workfront freigeben können
 
-Sie können die folgenden Objekte in Maestro freigeben:
+Sie können die folgenden Objekte freigeben:
 
 * Arbeitsbereiche
 
@@ -40,27 +40,27 @@ Sie können die folgenden Objekte in Maestro freigeben:
 
 * Ansichten
 
-## Überlegungen zum Freigeben von Objekten in Maestro
+## Überlegungen zum Freigeben von Objekten in den Planungsfunktionen von Adobe Workfront
 
-* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
+* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Berechtigungen zusammen, um Ihnen bei der Verwendung von Planungsfunktionen Zugriff auf die Ansicht, den Beitrag oder die Verwaltung von Objekten zu gewähren.
 
-  Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+  Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für Planungs-Funktionsobjekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
 * Wenn Sie kein Systemadministrator sind, können Sie zu Arbeitsbereichen beitragen, die von anderen erstellt wurden, wenn diese für Sie freigegeben sind.
 * Arbeitsbereiche können nicht gemeinsam genutzt werden.
-* Sie können einen Arbeitsbereich für die folgenden Entitäten freigeben:
+* Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten freigeben:
    * Benutzende
    * Gruppen
-* Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden.
+* Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. <!--System administrators can only be given permissions to Manage a view.-->
 * Sie können einen Link zu einem Arbeitsbereich oder zu einer Ansicht von einer Seite vom Typ Datensatz für andere freigeben. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
 
-## Berechtigungen für Maestro-Objekte freigeben
+## Freigeben von Berechtigungen für Adobe Workfront-Planungs-Funktionsobjekte
 
-Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Maestro-Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
+Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
 
 >[!IMPORTANT]
 >
->Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz der Benutzer bestimmt, welche Stufe von Berechtigungen sie für Maestro-Objekte erhalten können.
+>Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Höhe von Berechtigungen er für Planungs-Funktionsobjekte erhalten kann.
 >
 >Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 

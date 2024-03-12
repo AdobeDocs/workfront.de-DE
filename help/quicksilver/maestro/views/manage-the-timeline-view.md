@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
   Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](../views/manage-the-table-view.md).
 
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+
 ### Gruppierung hinzufügen
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 * Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Sie können die für eine Timeline-Ansicht erstellten Gruppierungen nicht benennen.
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
 So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 

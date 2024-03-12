@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Produktion: 28. Februar 2024
 Vorschau: zu bestimmen
 
 Sie können nun nach verbundenen Datensätzen oder ihren Suchfeldern filtern, sortieren und gruppieren. Diese Verbesserung hilft Ihnen bei der effizienten Organisation und Visualisierung Ihrer Daten in Tabellen- und Timeline-Ansichten.
+
+Sie können keine Suchfelder filtern, sortieren oder gruppieren, die Verbindungen mit mehreren Datensätzen zulassen.
 
 Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md) und [Verwalten der Timeline-Ansicht](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Im Folgenden finden Sie die Berechtigungsstufen für Datensatzansichten:
 * Ansicht: Benutzer können die Ansicht aus dem Dropdown-Menü Ansicht einer Seite vom Typ Datensatz auswählen.
 * Verwalten: Benutzer können die Ansicht bearbeiten, freigeben und löschen.
 
-Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Neuer Formelfeldtyp
 

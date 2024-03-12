@@ -4,9 +4,9 @@ description: Sie können eine Ansicht für andere freigeben, um die Zusammenarbe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
-   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <td> <p>Berechtigungen für eine Ansicht verwalten</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 >
 >Systemadministratoren können keine Ansichten anzeigen oder freigeben, die sie selbst nicht erstellt haben. Sie können nur auf Ansichten zugreifen oder diese freigeben, die für sie freigegeben sind.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
    * Anzeigen
    * Verwalten
 
-     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in Adobe Maestro](../access/sharing-permissions-overview.md).
+     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Klicks **Link kopieren** , um einen Link zur Ansicht in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 1. Klicken Sie auf **Speichern**.

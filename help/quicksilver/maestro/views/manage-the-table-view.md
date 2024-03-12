@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ So verwalten Sie eine Tabellenansicht:
    * [Zeilen (oder Datensätze)](#add-rows-or-records)
    * [Filter](#add-filters)
    * [Gruppierung](#add-groupings)
-   * [Sortieren](#sort-information)
+   * [Sortieren](#add-a-sort)
 
 
 ### Spalten (oder Felder) hinzufügen {#add-columns}
@@ -261,6 +261,8 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
 
 * Das Hinzufügen von Filtern zur Tabellenansicht entspricht dem Hinzufügen von Filtern zur Timeline-Ansicht.
 
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+
 So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
 1. Erstellen Sie eine Tabellenansicht für eine Seite vom Typ Datensatz, wie im Artikel beschrieben [Verwalten von Datensatzansichten](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Beachten Sie Folgendes:
 * Sie können die für eine Tabellenansicht erstellten Gruppierungen nicht benennen.
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 * Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 * Verknüpfte Felder können nur sortiert werden, wenn sie einzelne Werte zulassen oder wenn sie Mehrfachauswahlwerte mit ausgewählter Zusammenfassungsoption zulassen (Summe, Durchschnitt, max, min).
 
 * Wenn Sie Sortierungskriterien entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp wie Sie zugreifen, und es wird die gleiche Ansicht wie Sie verwendet.
+
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern sortieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
 Zum Sortieren <!--ungrouped (add this when sorting for groupings will be available--> -Einträge, führen Sie folgende Schritte aus:
 

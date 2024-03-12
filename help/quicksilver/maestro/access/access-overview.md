@@ -1,13 +1,13 @@
 ---
 title: Zugriffsübersicht
-description: Für die Verwendung von Adobe Maestro-Funktionen gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
+description: Für die Verwendung der Planungsfunktionen von Adobe Workfront gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Für die Verwendung von Adobe Maestro-Funktionen gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
+Für die Verwendung der Planungsfunktionen von Adobe Workfront gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
 
 ## Zugriffsanforderungen
 
-Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu verwenden:
+Sie müssen über die folgenden Einstellungen verfügen, um die Planungsfunktionen in Adobe Workfront verwenden zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu ver
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu ver
   </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Steuerelemente für die Zugriffsstufe für Maestro-Objekte</p>  
+   <td> <p>Es gibt keine Steuerelemente für die Zugriffsstufe für Planungs-Funktionsobjekte</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <p>Sie können Arbeitsbereiche und Ansichten, die Sie nicht erstellt haben, um sie zu bearbeiten, zu löschen und freizugeben sowie Datensatztypen und -datensätze zu erstellen, zu bearbeiten oder zu löschen, mit oder über höhere Berechtigungen versehen.</p>
-    <p>Systemadministratoren können nicht erstellte Arbeitsbereiche und Ansichten verwalten </p>
-   <p>Informationen zum Freigeben von Berechtigungen für Maestro-Objekte finden Sie unter  
-   <a href="../access/sharing-permissions-overview.md">Übersicht über die Freigabe von Berechtigungen in Adobe Maestro</a> 
+    <p>Systemadministratoren können nicht erstellte Arbeitsbereiche verwalten. </p>
+    <p>Systemadministratoren können keine Ansichten verwalten, die sie nicht erstellt haben. </p>
+   <p>Informationen zum Freigeben von Berechtigungen für Planungs-Funktionsobjekte finden Sie unter  
+   <a href="../access/sharing-permissions-overview.md">Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um Adobe Maestro zu ver
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, können Sie den Bereich Maestro zum Hauptmenü aller Benutzer hinzufügen, indem Sie eine Layoutvorlage verwenden.
+Nachdem sich Ihr Unternehmen für das Betaprogramm der Workfront-Planungsfunktionen angemeldet hat, können Sie den Maestro-Bereich über eine Layoutvorlage zum Hauptmenü aller Benutzer hinzufügen.
 
 1. Anmelden bei **Workfront** als Workfront-Administrator.
 
@@ -101,7 +102,7 @@ Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, könn
 
    Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Weisen Sie die Layoutvorlage den Benutzern zu, die Zugriff auf Maestro erhalten sollen.
+1. Weisen Sie die Layoutvorlage den Benutzern zu, die Zugriff auf die Workfront-Planungsfunktionen haben möchten.
 
    Weitere Informationen finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ Nachdem sich Ihr Unternehmen für das Betaprogramm Maestro angemeldet hat, könn
 
 ## Zugriff erteilen
 
-Es gibt keine Zugriffskontrollen für Maestro.
+Es gibt keine Zugriffskontrollen für die Planungsfunktionen in Workfront.
 
-Benutzer mit einer beliebigen Lizenz können auf Maestro zugreifen.
+Benutzer mit einer beliebigen Lizenz können auf die Planungsfunktionen von Workfront zugreifen.
 
 Informationen zur Gewährung von Zugriff in Workfront finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Berechtigungen erteilen
 
-Sie müssen Benutzern, die keine Systemadministratoren sind, Berechtigungen für Arbeitsbereiche und Ansichten erteilen, die Sie erstellen, damit sie darauf zugreifen können.
+Sie müssen Benutzern Berechtigungen für Arbeitsbereiche und Ansichten erteilen, die Sie erstellen, damit sie darauf zugreifen können.
 
-Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Maestro-Berechtigungen zusammen, um Ihnen Zugriff auf Maestro-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Planungsfunktionen zusammen, um Ihnen Zugriff auf Objekte für Planungsfunktionen zu gewähren, die Sie anzeigen, dazu beitragen oder verwalten können.
 
-Informationen dazu, wie Lizenztypen die Berechtigungsstufen für Maestro-Objekte beeinflussen, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für Planungs-Funktionsobjekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
