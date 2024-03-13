@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 1%
          * [2024 - Verbesserungen für das zweite Quartal - Startseite](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [Verbesserungen der Integration in Q2 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024 - Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Verbesserungen der Ressourcenverwaltung im zweiten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024 Q2 Update Stream-Verbesserungen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das zweite Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Version Q1 2024 {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 1%
    * Beta-Programme {#beta}
       * [Beta-Programme](product-announcements/betas/betas.md)
       * Canvas Dashboards-Beta {#canvas-dashboards-beta}
+         * [Beta-Informationen zu Canvas Dashboards](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Übersicht über die Arbeitsfläche in der Beta-Phase](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Canvas Dashboards Beta-Version: Veröffentlichungsaktivität](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Beta-Version mit Kommentaren {#new-commenting-experience-beta}

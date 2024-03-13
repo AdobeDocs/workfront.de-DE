@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ Die Registerkarten für Forms, Felder und Abschnitte im Bereich &quot;Einrichtun
 
 Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) und [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indikator für manuell angepasste Zuordnungen im Arbeitslastausgleich
 
->[!NOTE]
->
->Vorschau-Version: 12. Oktober 2023; Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
-
-Um mehr Klarheit über manuelle Anpassungen oder die Konfiguration im Arbeitslastausgleich zu schaffen, zeigen manuell angepasste stündliche Zuordnungen jetzt ein Stiftsymbol an.
-
-Weitere Informationen finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
