@@ -6,16 +6,14 @@ description: Verwenden von Workflows in der Integration von Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Workflows in der Experience Manager Assets-Integration verwenden
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Ein Workfront-Administrator kann Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
@@ -130,7 +128,7 @@ Sie können Workflow-Werte auf Projektebene bearbeiten. Workflow-Werte auf Proje
 
 Alle Workflow-Werte finden Sie unter:
 
-* Der Abschnitt Workflows des Fensters Projekt erstellen oder Projekt bearbeiten .
+* Der Abschnitt Workflows oder verknüpfte Ordner im Fenster Projekt erstellen oder Projekt bearbeiten .
 * Der Abschnitt Adobe Experience Manager im linken Navigationsbereich.
 
 
@@ -148,19 +146,6 @@ Alle Workflow-Werte finden Sie unter:
 
 So bearbeiten Sie den Workflow für verknüpfte Ordner:
 
-In der Produktionsumgebung:
-
-1. Umschalten **[!UICONTROL Verknüpften Ordner erstellen]** ein- oder ausschalten.
-1. (Bedingt) Wenn Sie verknüpfte Ordner aktivieren, wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration verknüpft werden sollen.
-1. Klicks **[!UICONTROL Speichern]** wenn Sie die [!UICONTROL Projekt erstellen] oder [!UICONTROL Projekt bearbeiten] Fenster.
-
-   Oder
-
-   Wenn Sie sich im [!DNL Adobe Experience Manager area], werden Ihre Änderungen automatisch gespeichert. <!--Do they though?-->
-
-In der Vorschau-Sandbox-Umgebung:
-
-<div class="preview">
 
 1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** ein- oder ausschalten. Wenn Sie sie aktivieren, können Sie die Konfiguration des verknüpften Ordners bearbeiten.
 
@@ -179,10 +164,8 @@ In der Vorschau-Sandbox-Umgebung:
 
      Wenn ein Ordnername auf benutzerdefinierte Daten festgelegt ist, die nicht in dem benutzerdefinierten für , das an das Projekt angehängt ist, vorhanden sind, wird eine zufällige ID als Ordnername zugewiesen.
 
+1. Um die Ordnerstruktur anzuzeigen, klicken Sie auf das **Vorschau** ![Vorschausymbol](assets/preview-icon.png) icon
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-</div>
-
 
 #### Assets veröffentlichen
 

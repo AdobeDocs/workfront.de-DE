@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,7 @@ Informationen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [E
          <td> <p> <p>(Wird nur angezeigt, nachdem Sie <strong>Manuell</strong> für die <strong>Bedingungstyp</strong>): Wählen Sie eine Bedingung, um anzugeben, wie das Projekt ausgeführt wird. </p> <p>Informationen dazu, wie Projektbedingungen automatisch oder manuell festgelegt werden können, finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a></p> </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Planmodus</strong> </td> 
+         <td role="rowheader"><strong>Zeitplanmodus</strong> </td> 
          <td> <p>Geben Sie an, ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. Diese Auswahl bestimmt die geplanten Termine der Aufgaben für das Projekt. 
          <ul> 
          <li><strong>Startdatum</strong>: Die erste Aufgabe des Projekts hat standardmäßig dasselbe geplante Startdatum wie das Projekt. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Startdatum</a>. Die Projekt-Timeline berechnet vom Startdatum aus und das Abschlussdatum des Projekts wird vom System basierend auf der Dauer aller Aufgaben berechnet. </li> 
@@ -252,20 +252,19 @@ Informationen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [E
          <li> <p>Wenn das Projekt über die Hauptseite einer Gruppe im Bereich Einrichtung erstellt wird, wird diese Gruppe mit dem Projekt verknüpft.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>HINWEISE</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Wenn das Projekt oder seine Aufgaben oder Probleme mit einem benutzerdefinierten Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe des Projekts dazu führen, dass sich der Status des Projekts, der Aufgaben oder Probleme entsprechend der neuen Gruppe ändern.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Wenn das Projekt oder seine Aufgaben oder Probleme bereits mit einem Validierungsprozess auf Gruppenebene mithilfe benutzerdefinierter Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe zu einem Konflikt zwischen den Genehmigungsstatus der vorherigen Gruppe und den auf Systemebene vorhandenen führen.&lt;/p>
-       &lt;p>Erwägen Sie, die Genehmigungsprozesse auf Gruppenebene für das Projekt oder dessen Aufgaben oder Probleme zu entfernen, bevor Sie die Gruppe aktualisieren.&lt;/p>
-       &lt;p>Informationen zum Erstellen von Validierungsprozessen auf Gruppenebene finden Sie unter &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Validierungsprozesse auf Gruppenebene&lt;/a>.&lt;/p>
-       &lt;p>Informationen zum Erstellen eines benutzerdefinierten Status auf Gruppenebene finden Sie unter &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Erstellen oder Bearbeiten eines Gruppenstatus .&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Wenn das Projekt oder seine Aufgaben oder Probleme mit einem benutzerdefinierten Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe des Projekts dazu führen, dass sich der Status des Projekts, der Aufgaben oder Probleme entsprechend der neuen Gruppe ändern.</p></li>
+         <li><p>Wenn das Projekt oder seine Aufgaben oder Probleme bereits mit einem Validierungsprozess auf Gruppenebene mithilfe benutzerdefinierter Status auf Gruppenebene verknüpft sind, kann das Ändern der Gruppe zu einem Konflikt zwischen den Genehmigungsstatus der vorherigen Gruppe und den auf Systemebene vorhandenen führen.</p>
+         <p>Erwägen Sie, die Genehmigungsprozesse auf Gruppenebene für das Projekt oder dessen Aufgaben oder Probleme zu entfernen, bevor Sie die Gruppe aktualisieren.</p>
+         <p>Informationen zum Erstellen von Genehmigungsprozessen auf Gruppenebene finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Validierungsprozesse auf Gruppenebene</a>.</p>
+         <p>Informationen zum Erstellen eines benutzerdefinierten Status auf Gruppenebene finden Sie unter <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Erstellen oder Bearbeiten eines Gruppenstatus</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Firma</strong> </td> 
          <td> <p>Geben Sie ein mit dem Projekt verknüpftes Unternehmen an. Sie müssen ein Unternehmen erstellen, bevor Sie es mit einem Projekt verknüpfen können. Nur aktive Unternehmen können mit einem Projekt verknüpft werden. Informationen zum Erstellen von Unternehmen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Erstellen und Bearbeiten von Unternehmen</a>.</p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Projektinhaber</strong> </td> 
+         <td role="rowheader"><strong>Projektbesitzer</strong> </td> 
          <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch die Berechtigung zum Verwalten des Projekts. Der Benutzer, der als Projekteigentümer bestimmt wurde, muss ein aktiver Workfront-Benutzer sein.</p>
          </td> 
       </tr> 
@@ -274,7 +273,7 @@ Informationen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [E
          <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der ihn zum Projekt hinzufügen soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Der Benutzer wird dem Projektteam hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Projektsponsor benannt wurde, muss ein aktiver Benutzer von Workfront sein.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Ressourcen-Manager</strong> </td> 
+         <td role="rowheader"><strong>Ressourcenmanager</strong> </td> 
          <td> <p> Beginnen Sie mit der Eingabe der Namen der Benutzer, die zum Projekt hinzugefügt werden sollen, und wählen Sie sie aus, wenn sie in der Liste angezeigt werden. Die Benutzer werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das Projekt und können den Aufgaben und Problemen im Projekt Ressourcen zuweisen. Benutzer behalten die Verwaltungsberechtigungen für das Projekt bei, selbst wenn sie aus dem Feld "Ressourcen-Manager"entfernt wurden. Sie können mehr als einen Ressourcen-Manager angeben.<br></p> </td> 
       </tr>
 
@@ -653,6 +652,22 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
    </table>
 
 1. Klicken Sie auf **Speichern**.
+
+### Verknüpfte Ordner
+
+Die Funktion für verknüpfte Ordner erstellt automatisch Ordner in Adobe Experience Manager Assets und verbindet diese Ordner mit Workfront.
+
+Dieser Abschnitt wird nur angezeigt, wenn die folgenden Punkte zutreffen:
+
+* Ihr Unternehmen wurde in die Adobe Admin Console migriert
+* Ihr Unternehmen hat die Integration mit Adobe Experience Manager aktiviert und konfiguriert.
+* Die Vorlage, mit der dieses Projekt erstellt wird, hat verknüpfte Ordner aktiviert und konfiguriert.
+
+Anweisungen zum Bearbeiten von verknüpften Ordnern finden Sie unter [Workflow-Werte in einem Projekt bearbeiten](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) im Artikel Verwenden von Workflows in der Experience Manager Assets-Integration.
+
+>[!NOTE]
+>
+>Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows für verknüpfte Ordner in einem vorhandenen Projekt nicht wirksam. Die Bearbeitung dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
 
 ## Bearbeiten eines Projekts in der Projektheader (begrenzt)
 

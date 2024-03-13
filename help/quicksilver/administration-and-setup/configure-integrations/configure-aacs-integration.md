@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfüg
 ### Mit Adobe Experience Manager verknüpfte Ordner erstellen
 
 1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
-1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
-   ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Aktivieren Sie die **[!UICONTROL Portfolio- und Programmnamen anhängen]** -Option, um automatisch Portfolio- und Programmnamen am Ende des Ordnernamens einzuschließen.
-1. Klicks **[!UICONTROL Speichern]** oder zum [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel beschrieben.
-
-In der Vorschau-Sandbox-Umgebung
-
-<div class="preview">
-
-1. Umschalten zwischen **[!UICONTROL Verknüpften Ordner erstellen]** auf.
 1. Geben Sie einen Namen für den Ordner ein, den Sie erstellen.
 1. (Bedingt) Aktivieren Sie die **Standardordnerstruktur** , wenn dieser verknüpfte Ordner der Standardordner für Projekte sein soll, die mit Vorlagen erstellt wurden, die diese Integration verwenden. Sie können einen oder mehrere Standardordner auswählen.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner gespeichert werden sollen.
@@ -295,8 +284,6 @@ In der Vorschau-Sandbox-Umgebung
 >* Der erste Ordner in der Ordnerstruktur wird automatisch als mit Workfront verknüpft markiert. Wenn Sie nicht möchten, dass dieser Ordner verknüpft wird, können Sie die Verknüpfung aufheben.
 >* Wenn keine Ordnerstruktur angegeben wird, wird der Stammordner zum verknüpften Ordner.
 
-
-</div>
 
 ### Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden
 
