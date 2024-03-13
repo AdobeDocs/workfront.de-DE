@@ -6,9 +6,9 @@ description: Sie können Aktualisierungen eines Dokuments hinzufügen oder darau
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -47,7 +47,7 @@ Sie müssen über Folgendes verfügen:
 1. Wechseln Sie zum Objekt, das das Dokument enthält, und wählen Sie dann **Dokumente** im linken Bereich.
 1. Suchen Sie das benötigte Dokument und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Dokument in der Liste und anschließend auf die **Zusammenfassung öffnen** icon ![](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und klicken Sie auf **Neue Aktualisierung starten** oder klicken Sie **Antwort** , um eine Antwort zu einem vorhandenen Kommentar hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
+   * Klicken Sie auf das Dokument in der Liste und anschließend auf die **Zusammenfassung öffnen** icon ![](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und fügen Sie dann einen neuen Kommentar hinzu oder klicken Sie auf **Antwort** , um eine Antwort zu einem vorhandenen Kommentar hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
    * Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Dokumentdetails**, dann **Updates** im linken Bereich.
 Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

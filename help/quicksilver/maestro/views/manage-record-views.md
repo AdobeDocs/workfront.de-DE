@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -161,14 +161,17 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
     * Timeline
     * Calendar
 
+    A new tab is created with the selected view. 
+
+    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+-->
+
 >[!TIP]
 >
->When you create a record type, the table view is also created by default. 
+>Beim Erstellen eines Datensatztyps wird auch die Tabellenansicht standardmäßig erstellt.
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
 >
->(*********remove the step below and replace the screen shot when calendar view releases*********)
--->
 
 1. Klicken Sie auf **Ansicht** und wählen Sie entweder ein vorhandenes **Tabellenansicht** ![](assets/table-view-icon.png) oder klicken Sie **Ansicht erstellen > Tabelle** zum Erstellen einer Tabellenansicht
 
@@ -224,7 +227,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
+<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
+First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+
 1. Klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;, bewegen Sie den Mauszeiger über eine der Ansichten in der Liste und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) > **Löschen**.
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** Dropdown-Menü <!--tab--> Wählen Sie in der rechten oberen Ecke der Tabelle eine **Verzeichnis** anzeigen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp beim letzten Zugriff in einer anderen Ansicht angezeigt.
+1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü in der linken oberen Ecke der Tabelle eine **Verzeichnis** anzeigen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp beim letzten Zugriff in einer anderen Ansicht angezeigt.
 
-   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
    >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
    >  
    >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
-   >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Datum der letzten Änderung
+   >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Letztes Änderungsdatum, Formelfelder.
 
 1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Absatz bearbeiten, verwenden Sie Folgendes **Rich-Text** Formatierungsoptionen:
 
@@ -147,12 +149,12 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (Optional) Um Informationen von einem Feld in ein anderes zu kopieren und einzufügen, führen Sie einen der folgenden Schritte aus:
@@ -168,7 +170,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
    >* Verwenden Sie die folgenden Tastaturbefehle zum Kopieren und Einfügen von Informationen:
    >   * Kopieren: STRG + C ( ⌘ + C für Mac)
    >   * Einfügen: STRG + V ( ⌘ + V für Mac)
-   >* Es ist nicht möglich, Informationen aus anderen Quellen als einem Maestro-Feld des gleichen Typs zu kopieren wie das Feld, in das Sie die Informationen einfügen.
+   >* Es ist nicht möglich, Informationen aus anderen Quellen als Datensatzfeldern des gleichen Typs zu kopieren wie aus dem Feld, in das Sie die Informationen einfügen.
    >
    >* Sie können keine Feldwerte kopieren und in den Detailbereich eines Datensatzes einfügen. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
    >* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
@@ -191,7 +193,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 ### Datensatz auf der Detailseite des Datensatzes bearbeiten
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Oder
 
-   Klicken Sie auf der Detailseite in ein beliebiges bearbeitbares Feld, um die Informationen zu bearbeiten.
+   Klicken Sie auf der Detailseite in ein beliebiges bearbeitbares Feld, um die Informationen zu bearbeiten. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klicks **Änderungen speichern**. <!--logged a bug for this - this needs to be "Save"-->
+1. Klicks **Änderungen speichern**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

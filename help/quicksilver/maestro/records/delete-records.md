@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Sie können Einträge löschen, die in Adobe Maestro nicht mehr relevant sind.
+Sie können Datensätze löschen, die in den Planungsfunktionen von Adobe Workfront nicht mehr relevant sind.
 
 ## Zugriffsanforderungen
 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro </p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsmöglichkeiten für Adobe Workfront-Planungsfunktionen </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Wenn die gelöschten Datensätze mit anderen Datensätzen verknüpft sind, werden die verknüpften Datensätze nicht gelöscht, aber auch die Informationen aus dem gelöschten Datensatz werden gelöscht.
 * Es ist nicht möglich, Datensätze stapelweise zu löschen. <!--this will probably change-->
 * Datensätze können nicht aus der Timeline-Ansicht gelöscht werden.
-* Ein mit einer anderen Anwendung verknüpfter Datensatztyp kann nicht gelöscht werden. Wenn Sie beispielsweise einen Maestro-Datensatz mit einem Workfront-Objekt verknüpfen, können Sie das Workfront-Objekt nicht von der Workfront-Objektaufzeichnungsseite löschen.
 
 ## Datensätze löschen
 
@@ -132,12 +131,16 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie auf einen Datensatztyp.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben links in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
-1. Rechtsklicken Sie auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Rechtsklicken Sie auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
+   * Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Löschen**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 

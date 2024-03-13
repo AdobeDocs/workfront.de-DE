@@ -7,16 +7,16 @@ description: Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # Übersicht über Dokumente
 
-{{highlighted-preview}}
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen sind nur in der Vorschau -Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtigen Informationen aus der Dokumentliste.
 
@@ -67,7 +67,7 @@ Im Bereich Details können Sie allgemeine Übersichtsinformationen anzeigen und 
 * [Übersicht](#overview)
 * [Benutzerdefinierte Formulare](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### Übersicht {#overview}
 
@@ -79,7 +79,7 @@ Erweitern Sie den Bereich Übersicht , um eine Miniaturansicht anzuzeigen oder h
 
 Verwenden Sie den Abschnitt &quot;Benutzerdefinierter Forms&quot;, um mit dem Dokument verknüpfte benutzerdefinierte Formulare hinzuzufügen, zu bearbeiten oder anzuzeigen. Geben Sie den Namen des benutzerdefinierten Formulars ein, um es zum Dokument hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Formulars zu einem Dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## Updates
 
@@ -87,13 +87,10 @@ Im Abschnitt Updates können Sie die Aktualisierung lesen, die ein Benutzer am D
 
 <div class="preview">
 
-Beispiel für Aktualisierungen in der Vorschau-Umgebung:
 ![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-Beispiel für Aktualisierungen in der Produktionsumgebung:
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Genehmigungen
 
@@ -104,7 +101,7 @@ Testversandvalidierungen müssen im Testversand-Workflow hinzugefügt werden. We
 * [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## Versionen
 
@@ -116,4 +113,4 @@ Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für e
 * Navigieren Sie zu Dokumentdetails .
 * Testversand oder Dokument löschen
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

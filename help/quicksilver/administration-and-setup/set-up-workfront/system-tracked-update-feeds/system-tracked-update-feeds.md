@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Vom System getrackte Aktualisierungen
 
-{{highlighted-preview}}
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen sind nur in der Vorschau -Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Im Folgenden werden die Unterschiede zwischen dem neuen und dem alten Kommentierungserlebnis beschrieben:
 
-   * Bei Verwendung des neuen Kommentierungserlebnisses werden Benutzeraktualisierungen auf der Registerkarte Kommentare angezeigt und Systemaktualisierungen werden auf der Registerkarte Systemaktivität angezeigt.
+   * Bei Verwendung des neuen Kommentierungserlebnisses werden Benutzeraktualisierungen auf der Registerkarte Kommentare angezeigt und Systemaktualisierungen werden in der Systemaktivität angezeigt <span class="preview">und &quot;Alle&quot;</span> Registerkarten.
 
      Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">Bei Verwendung der neuen Kommentarfunktion können Benutzer einem Systemupdate keinen Kommentar hinzufügen. Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität auf der Registerkarte Systemaktivität als schreibgeschützt im neuen Kommentierungserlebnis eingetragen.</span>
+   * <span class="preview">Bei Verwendung des neuen Kommentar-Erlebnisses können Sie einem Systemupdate keinen Kommentar hinzufügen. Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität auf der Registerkarte Systemaktivität als schreibgeschützt im neuen Kommentierungserlebnis eingetragen.</span>
    * Bei Verwendung des veralteten Kommentierungserlebnisses werden System- und Benutzeraktualisierungen in einem kontinuierlichen Feed angezeigt.
 
    * Bei der Verwendung des bisherigen Kommentierungserlebnisses können Benutzer standardmäßig Systemaktualisierungen anzeigen oder festlegen, dass sie nicht angezeigt werden. Die Deaktivierung von Systemaktualisierungen ist bei Verwendung des neuen Kommentierungserlebnisses nicht möglich.

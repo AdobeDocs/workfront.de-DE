@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
 >
-><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Sie können Benutzer taggen, wenn Sie ein Objekt aktualisieren, wenn Sie deren Aufmerksamkeit auf ein Objekt lenken möchten, dem sie andernfalls möglicherweise nicht folgen.
 
@@ -133,13 +133,9 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
 
    <div class="preview">
 
-   Beispiel für Tagging in der Vorschau-Umgebung:
    ![Benutzer taggen](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Beispiel für Tagging in der Produktionsumgebung:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die **Privatperson in meinem Unternehmen** ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.
 
@@ -161,7 +157,7 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Wenn Sie im Kommentartext mit Tags versehen sind, wird Ihr Benutzername in diesen Kommentaren hervorgehoben.</span>
+   <span class="preview">Wenn Sie im Kommentartext mit Tags versehen sind, wird Ihr Name in diesen Kommentaren hervorgehoben.</span>
 
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

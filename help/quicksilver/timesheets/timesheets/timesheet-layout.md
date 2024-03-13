@@ -7,16 +7,16 @@ description: In diesem Artikel wird das Layout von Timesheets in Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # Übersicht über das Datenblatt
 
-{{highlighted-preview}}
+<span class="preview">Die hervorgehobenen Informationen sind nur in der Vorschau -Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Sie können mehrere Stundeneinträge für dasselbe Arbeitselement für verschied
 
 <div class="preview">
 
-Beispiel in der Vorschau-Umgebung:
 ![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Beispiel in der Produktionsumgebung:
-![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Im Bereich Updates im linken Bereich des Timesheets können Sie Kommentare zu einem Timesheet abgeben, um mit Ihren Timesheet-Genehmigern oder anderen Benutzern zu kommunizieren.
 
@@ -139,13 +135,9 @@ Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich angezeigt
 
 <div class="preview">
 
-Beispiel in der Vorschau-Umgebung:
 ![Zusammenfassungsbereich](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Beispiel in der Produktionsumgebung:
-![Zusammenfassungsbereich](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Sie können auf das Bedienfeld Zusammenfassung für Aufgaben oder Probleme zugreifen, die in einem Zeitblatt angezeigt werden. Hier können Sie sich zu Aufgaben und Problemen äußern oder deren Informationen aktualisieren. Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

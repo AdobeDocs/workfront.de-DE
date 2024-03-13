@@ -4,7 +4,7 @@ description: Sie können eine Ansicht für andere freigeben, um die Zusammenarbe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
    * Verwalten
 
      Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. Klicks **Link kopieren** , um einen Link zur Ansicht in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 1. Klicken Sie auf **Speichern**.

@@ -5,16 +5,16 @@ description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitsel
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Zusammenfassung] Übersicht
 
-{{highlighted-preview}}
+<span class="preview">Die hervorgehobenen Informationen sind nur in der Vorschau -Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Sie können die [!UICONTROL Zusammenfassung] -Bedienfeld zum Überprüfen und Aktualisieren von Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 
@@ -121,13 +121,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    <div class="preview">
 
-   Beispiel des Zusammenfassungs-Bedienfelds in der Vorschau-Umgebung:
    ![Zusammenfassungsbereich](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   Beispiel des Zusammenfassungsbereichs in der Produktionsumgebung:
-   ![Zusammenfassungsbereich](assets/summary-panel-for-task.png)
 
 1. (Optional) So schließen Sie die [!UICONTROL Zusammenfassung] einen der folgenden Schritte ausführen:
 
@@ -147,7 +143,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Verwenden Sie die Fortschrittsleiste oben im [!UICONTROL Zusammenfassung] , um den Prozentsatz zu aktualisieren, der für die ausgewählte Aufgabe oder das ausgewählte Problem abgeschlossen ist. Geben Sie eine Zahl ein oder ziehen Sie die Leiste auf den richtigen Prozentsatz.
 
-![Prozent abgeschlossen im Bereich &quot;Zusammenfassung&quot;](assets/summary-overview-percent-complete.png)
+<span class="preview">![Prozent abgeschlossen im Bereich &quot;Zusammenfassung&quot;](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL Updates]
 
@@ -155,13 +151,9 @@ Verwenden Sie die [!UICONTROL Updates] Abschnitt [!UICONTROL Zusammenfassung] , 
 
 <div class="preview">
 
-Beispiel für Aktualisierungen in der Vorschau-Umgebung:
 ![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section.png)
 
 </div>
-
-Beispiel für Aktualisierungen in der Produktionsumgebung:
-![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Dokumente]
 

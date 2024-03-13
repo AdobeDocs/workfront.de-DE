@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
 1. (Bedingt) Wenn die Seite mit dem Datensatztyp nicht in der Tabellenansicht geöffnet wird, klicken Sie auf die Schaltfläche **Ansicht** und wählen Sie entweder ein vorhandenes **Tabellenansicht** ![](assets/table-view-icon.png) oder klicken Sie **Ansicht erstellen > Tabelle** , um eine Tabellenansicht zu erstellen.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Um neue Datensätze hinzuzufügen, klicken Sie auf **Neuer Datensatz** in der letzten Zeile der Tabelle
 
    Oder
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste erstellen
 
-1. Erstellen Sie in Maestro Datensätze in der Tabellenansicht, wie im Abschnitt beschrieben. [Datensätze durch manuelles Hinzufügen zu einem Datensatztyp erstellen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
+1. Erstellen Sie Datensätze in der Tabellenansicht, wie im Abschnitt beschrieben. [Datensätze durch manuelles Hinzufügen zu einem Datensatztyp erstellen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
 
-   Stellen Sie sicher, dass die Maestro-Tabellenansicht über die Spalten (oder Felder) verfügt, die mit den neuen Datensatzinformationen gefüllt werden sollen.
+   Stellen Sie sicher, dass die Tabellenansicht über die Spalten (oder Felder) verfügt, die mit den neuen Datensatzinformationen gefüllt werden sollen.
 
 1. Klicks **Neu &lt; Name des Datensatztyps >** in der letzten Zeile der Tabelle, um der Tabelle so viele neue Zeilen hinzuzufügen, wie Ihre neuen Datensätze sein sollen.
 
    Fügen Sie der Tabellenansicht beispielsweise 10 Zeilen hinzu, wenn Sie die Informationen für 10 neue Datensätze aus einer anderen Anwendung einfügen möchten.
 
-1. Erstellen Sie in einer anderen Anwendung eine Liste von Datensätzen, die Sie in Maestro importieren möchten.
+1. Erstellen Sie in einer anderen Anwendung eine Liste von Datensätzen, die Sie importieren möchten.
 
    Sie können beispielsweise eine Excel-Tabelle verwenden, um Ihre Liste zu erstellen.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > Die Spalten der Liste sollten Informationen für die vorhandenen Felder enthalten, die Sie in Maestro haben.
+   > Die Spalten der Liste sollten Informationen zu den in Workfront vorhandenen Feldern enthalten.
    >
-   > Vergewissern Sie sich, dass die gewünschten Felder bereits in Maestro erstellt wurden und dass die Informationen in Ihrem Blatt im richtigen Format angezeigt werden, das dem der Felder in Maestro entspricht.
+   > Vergewissern Sie sich, dass die gewünschten Felder bereits in Workfront erstellt wurden und dass die Informationen in Ihrem Arbeitsblatt im richtigen Format angezeigt werden, das dem der Felder in Workfront entspricht.
 
 1. Wählen Sie in einer anderen Anwendung mehrere Zeilen und Spalten aus und fügen Sie dann die Informationen in die Tabellenansicht des Datensatztyps ein, beginnend mit dem ersten neuen Datensatz.
 
-   Die folgenden Informationen werden in Maestro importiert:
+   Die folgenden Informationen werden in den Workfront-Planungsbereich importiert:
 
    * Die Zeilen enthalten die neuen Datensätze
    * Die Spalten enthalten Informationen zu den Feldern der Datensätze.

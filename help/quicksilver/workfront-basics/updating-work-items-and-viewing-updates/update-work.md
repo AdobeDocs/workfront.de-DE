@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
 >
-><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span>
+><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 
    <div class="preview">
 
-   Beispiel für ein neues Kommentarfeld in der Vorschau-Umgebung:
    ![Neues Kommentarfeld](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Beispiel für ein neues Kommentarfeld in der Produktionsumgebung:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ Sie können nach einem Kommentar oder einer Antwort im Abschnitt Updates eines O
 
    <div class="preview">
 
-   Beispiel für die Suche in der Vorschau-Umgebung:
    ![In Updates suchen](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Beispiel für die Suche in der Produktionsumgebung:
-   ![](assets/search-field-in-updates-tab.png)
 
    Der Suchbegriff <!--or user--> Sie nach gesucht haben, wird hervorgehoben und die Kommentare, die sie enthalten, werden oben im Abschnitt Aktualisierungen angezeigt.
 
