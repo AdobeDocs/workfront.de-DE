@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Installieren eines Umgebungsförderungspakets
-
-Diese Seite befindet sich im Aufbau
-
 
 
 1. Gehen Sie zur Umgebung, in der Sie das Paket installieren möchten. Dies ist die Umgebung, in die Sie Objekte kopieren **nach**.
@@ -41,11 +38,11 @@ Jeder Objekttyp wird im linken Navigationsbereich und auf einer Karte angezeigt.
 * Neu erstellen: Das Objekt befindet sich in der Zielumgebung.
 * Vorhandenes verwenden: Das Objekt im Paket wird nicht installiert und das bereits in der Zielumgebung vorhandene Objekt bleibt unverändert.
 * Vorhandene überschreiben: Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
-* Nicht verwenden:
+* Nicht verwenden: Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
 
 Die Standardwerte sind `Create new` , wenn das Objekt nicht in der Zielumgebung vorhanden ist, und `Use existing` , wenn das Objekt in der Zielumgebung vorhanden ist. Sie können zur Standardzuordnung zurückkehren, indem Sie auf **Auf Standardzuordnung zurücksetzen**.
 
-Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
+
 
 <!--
 ## Collisions
