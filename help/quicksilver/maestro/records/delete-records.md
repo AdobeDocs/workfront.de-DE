@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
    * Rechtsklicken Sie auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
    * Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Löschen**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Klicken Sie auf **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) , um das Feld Details zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen, und **Löschen**.
 
    Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 

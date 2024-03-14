@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü in der linken oberen Ecke der Tabelle eine **Verzeichnis** anzeigen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp beim letzten Zugriff in einer anderen Ansicht angezeigt.
+1. (Bedingt) Klicken Sie auf die Registerkarte einer Tabellenansicht oder auf **+ Ansicht** , um eine Tabellenansicht zu erstellen. Die Tabellenansicht sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp beim letzten Zugriff in einer anderen Ansicht angezeigt.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
+   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. (Optional) Doppelklicken Sie auf ein Feld für einen verbundenen Datensatz, um verbundene Datensätze oder Objekte zu einem anderen Datensatz hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. A **Gespeichert** wird in der oberen rechten Ecke der Tabellenansicht kurz angezeigt, um zu zeigen, dass die Änderungen gespeichert wurden.
 
+1. (Optional) Klicken Sie auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens oder klicken Sie auf einen Datensatznamen. Die **Details** wird in der Tabelle geöffnet.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >Sie können die **Details öffnen** nur dann links neben dem Feld Name eines Datensatzes angezeigt, wenn das Feld Name ein primäres Feld ist.
+
+1. Beginnen Sie mit der Bearbeitung der Feldinformationen im **Details** ankreuzen. Workfront speichert Ihre Änderungen automatisch.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des **Details** zum Öffnen des Datensatzes **Details** in einer neuen Registerkarte. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Detailseite des Datensatzes bearbeiten](#edit-a-record-from-the-records-details-page) in diesem Artikel beschrieben.
+
 
 1. (Optional) Um Informationen von einem Feld in ein anderes zu kopieren und einzufügen, führen Sie einen der folgenden Schritte aus:
 
@@ -193,7 +191,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 ### Datensatz auf der Detailseite des Datensatzes bearbeiten
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+Sie können einen Datensatz über das Feld Details in einer Tabellenansicht oder über die Detailseite bearbeiten.
+
+Informationen zum Bearbeiten von Datensätzen finden Sie im Feld Details unter [Datensatz in der Tabellenansicht eines Datensatztyps bearbeiten](#edit-a-record-from-the-table-view-of-a-record-type) in diesem Artikel beschrieben.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Oder
 
-   Klicken Sie auf der Detailseite in ein beliebiges bearbeitbares Feld, um die Informationen zu bearbeiten. <!--Your changes are saved automatically.-->
+   Klicken Sie auf der Detailseite in ein beliebiges bearbeitbares Feld, um die Informationen zu bearbeiten.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klicks **Änderungen speichern**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Klicks **Änderungen speichern**.

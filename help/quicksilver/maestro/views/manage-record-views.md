@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Klicks **+ Ansicht** , um eine neue Ansicht hinzuzufügen.
+1. Wählen Sie aus den folgenden Arten von Ansichten:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabelle
+   * Timeline
+   * Kalender
 
-    A new tab is created with the selected view. 
+   Eine neue Registerkarte wird mit der ausgewählten Ansicht erstellt.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   Je nach Breite des Bildschirms können zusätzliche Ansichten im **Mehr** Menü ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 >Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
 >
 
-1. Klicken Sie auf **Ansicht** und wählen Sie entweder ein vorhandenes **Tabellenansicht** ![](assets/table-view-icon.png) oder klicken Sie **Ansicht erstellen > Tabelle** zum Erstellen einer Tabellenansicht
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   Oder
-
-   Existierende Auswahl **Timeline-Ansicht** ![](assets/timeline-view-icon.png) oder klicken Sie **Ansicht erstellen > Timeline** , um eine Timeline-Ansicht zu erstellen.
-
-   Oder
-
-   Existierende Auswahl **Kalenderansicht** ![](assets/calendar-view-icon.png) oder klicken Sie **Ansicht erstellen > Kalender** um eine Kalenderansicht zu erstellen.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline oder Kalender abgeblendet.
+>[!NOTE]
+>
+>    Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline oder Kalender abgeblendet.
 
 1. (Bedingt) Klicken Sie auf **Nächste** beim Erstellen einer Timeline- oder Kalenderansicht.
 
@@ -202,12 +191,16 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 1. (Bedingt) Wählen Sie die **Starten** und **Enddaten** für die Datensätze, die in der Timeline- oder Kalenderansicht angezeigt werden.
 1. Klicken Sie auf **Erstellen**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in chronologischer Reihenfolge angezeigt, nachdem sie erstellt oder für Sie freigegeben wurden.
+1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Weitere Ansichten werden unter der **Mehr** Menü hinter der Registerkarte &quot;Letzte Ansicht&quot;aus. Die Zahl neben dem **Mehr** zeigt die Anzahl weiterer Ansichten an.
+1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren
+
+   Oder
+
+   Doppelklicken Sie auf den Namen der Ansicht und geben Sie den neuen Namen ein.  <!--ensure there is not another saving step here?!-->
+
 1. (Optional) Informationen zum Verwalten einer bestimmten Ansicht finden Sie in den folgenden Artikeln:
 
    * [Tabellenansicht verwalten](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte &quot;Ansicht&quot;und klicken Sie dann auf **Mehr** ![](assets/more-menu.png) auf der linken Seite des Ansichtsnamens und klicken Sie dann auf **Löschen**.
+Zunächst müssen Sie möglicherweise auf **Mehr** auf der linken Seite der letzten Registerkarte, um die Ansicht zu finden, die Sie löschen möchten.
 
-1. Klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;, bewegen Sie den Mauszeiger über eine der Ansichten in der Liste und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) > **Löschen**.
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 
    Die Ansicht wird für alle Benutzer gelöscht, die auf den Datensatzbereich zugreifen können, und kann nicht wiederhergestellt werden.

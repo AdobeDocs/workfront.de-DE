@@ -4,9 +4,9 @@ description: Sie können eine Ansicht für andere freigeben, um die Zusammenarbe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 >[!NOTE]
 >
 >Systemadministratoren können keine Ansichten anzeigen oder freigeben, die sie selbst nicht erstellt haben. Sie können nur auf Ansichten zugreifen oder diese freigeben, die für sie freigegeben sind.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Systemadministratoren können nur über Verwaltungsberechtigungen für eine Ansicht verfügen.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 
-1. Über das Dropdown-Menü Ansicht <!--tab-->, bewegen Sie den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Freigeben**.
+1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Freigeben**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

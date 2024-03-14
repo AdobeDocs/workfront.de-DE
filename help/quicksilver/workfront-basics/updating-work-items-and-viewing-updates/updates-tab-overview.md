@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1317'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Übersicht über den Aktualisierungsabschnitt
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * Zusammenfassungsbereich in Timesheets
 > * Zusammenfassungs-Bedienfeld im Arbeitslastausgleich
 >
-><span class="preview">Das neue Kommentierungserlebnis ist im Bereich Zusammenfassung in Listen, Timesheets und dem Arbeitslastausgleich in der Vorschau-Umgebung verfügbar.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+><span class="preview">Das neue Kommentarerlebnis ist im Bedienfeld Zusammenfassung in Listen, Timesheets und dem Arbeitslasten-Balancer in der Vorschau-Umgebung und in der Produktionsumgebung für Kunden verfügbar, die sich für den Schnellveröffentlichungsprozess entschieden haben.</span>
 
 ## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
 
@@ -114,12 +114,16 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
    * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. <span class="preview">Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erfolgen, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt.</span> Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten im neuen Kommentarerlebnis finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* Die folgenden Objekte haben keine Registerkarte &quot;Systemaktivität&quot; <span class="preview">oder Registerkarte Alle</span>:
+* Die folgenden Objekte haben keine Registerkarte &quot;Systemaktivität&quot; <span class="preview">oder auf der Registerkarte Alle :</span>
 
    * Team
    * Vorlage
    * Vorlagenaufgabe
    * Ad-hoc-Karte
+
+* Die folgenden Objekte haben keine <span class="preview">Registerkarte Alle :</span>
+
+   * Ziele
 
 
 ### Überblick über den Abschnitt zu veralteten Aktualisierungen
