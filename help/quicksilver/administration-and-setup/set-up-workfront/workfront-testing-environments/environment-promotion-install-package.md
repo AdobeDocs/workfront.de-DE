@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Jeder Objekttyp wird im linken Navigationsbereich und auf einer Karte angezeigt.
 
 * Neu erstellen: Das Objekt befindet sich in der Zielumgebung.
 * Vorhandenes verwenden: Das Objekt im Paket wird nicht installiert und das bereits in der Zielumgebung vorhandene Objekt bleibt unverändert.
-* Vorhandene überschreiben: Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
+* Vorhandene überschreiben: (Derzeit nicht verfügbar) Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
 * Nicht verwenden: Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
 
 Die Standardwerte sind `Create new` , wenn das Objekt nicht in der Zielumgebung vorhanden ist, und `Use existing` , wenn das Objekt in der Zielumgebung vorhanden ist. Sie können zur Standardzuordnung zurückkehren, indem Sie auf **Auf Standardzuordnung zurücksetzen**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
