@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Systemadministratoren erhalten eine E-Mail, wenn die Migration von Workfront zu 
 
 * **Wenn sich Ihre Workfront-Benutzer derzeit mit SSO anmelden** müssen Sie SSO in der Adobe Admin Console einrichten, damit sich Ihre Benutzer weiterhin mit SSO anmelden können. Wenn Ihre Workfront-Benutzer derzeit keine SSO verwenden, Sie sie jedoch in Adobe Admin Console einrichten möchten, können Sie dies an dieser Stelle auf der Journey tun.
 * **Wenn Sie bereits andere Adobe-Produkte in Ihrer Adobe Admin Console verwalten**, kann Adobe Ihre Zustimmung einholen, um Benutzer automatisch in Ihre bestehende Konsole zu migrieren. Klicken Sie auf **Erste Schritte** in der E-Mail, um zur Einwilligungsseite zu navigieren.
+* **Wenn Sie zuvor den Lizenztyp Anforderer gelöscht haben**, wird sie Ihrem System hinzugefügt. Diesem Lizenztyp werden keine Benutzer zugewiesen, er ist jedoch für die Synchronisation zwischen Workfront und Adobe Admin Console erforderlich. In Bezug auf den Lizenztyp &quot;Anforderer&quot;ist keine Aktion von Ihnen erforderlich.
 
 Die Benutzerverwaltung ändert sich derzeit nicht. Workfront-Administratoren verwalten Benutzer weiterhin in Workfront und Benutzer melden sich weiterhin mit ihrer Workfront ID oder SSO an, bis die Benutzermigration abgeschlossen ist.
 
@@ -66,7 +67,7 @@ Administratoren des Workfront-Produktprofils (Workfront-Systemadministratoren):
 
 Als Workfront-Produktprofiladministrator (Workfront-Systemadministrator) ist dafür verantwortlich, sicherzustellen, dass alle Benutzer auf den Migrationstag vorbereitet sind.
 
-* Bereiten Sie alle Benutzer auf die bevorstehende Migration zu Adobe Identity vor, indem Sie sie über Folgendes informieren:
+* Bereiten Sie alle Benutzer auf die bevorstehende Migration auf Adobe Identity vor, indem Sie sie über Folgendes informieren:
 
    * Wenn Benutzer migrieren, erhalten sie eine E-Mail von der Adobe, in der sie über die Änderung der Anmeldung bei Workfront informiert werden. Die Benutzer werden eingeladen, erstmals eine Einladung zur Anmeldung mit Adobe Identity anzunehmen, indem sie sich entweder mit einer bestehenden Adobe ID anmelden oder eine neue mit derselben E-Mail-Adresse einrichten.
 
