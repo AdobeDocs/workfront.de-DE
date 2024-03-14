@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im zweiten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Unternehmen und Benutzer unterstützen jetzt erweiterte benutzerdefinierte Formularfelder
+
+>[!NOTE]
+>
+>Vorschau-Version: 14. März 2024; Produktion für alle Kunden: 24.4 (April 2024)
+
+Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind jetzt verfügbar, wenn Sie ein benutzerdefiniertes Formular an ein Unternehmen oder einen Benutzer anhängen. Die erweiterten Funktionen sind auf den Seiten &quot;Firmendetails&quot;und &quot;Benutzerdetails&quot;verfügbar, nicht in den Dialogfeldern &quot;Unternehmen bearbeiten&quot;und &quot;Benutzer bearbeiten&quot;. Das benutzerdefinierte Formular muss im neuen Formularentwickler erstellt werden, um diese Feldtypen nutzen zu können.
+
+Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat-Integration jetzt für neue Pakettypen verfügbar
 
