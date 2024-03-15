@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: Connector
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign Classic-Module
-description: Mit dem [!DNL Adobe Campaign Classic] -Module, können Sie eine [!DNL Adobe Workfront Fusion] Szenario basierend auf Ereignissen in Ihrer [!DNL Adobe Campaign Classic] Konten, erstellen, lesen oder aktualisieren Sie Vereinbarungen und andere Datensätze, suchen Sie nach Datensätzen anhand von von Ihnen festgelegten Kriterien und laden Sie Dokumente hoch.
+title: Adobe Campaign v7/v8-Module
+description: Mit dem [!DNL Adobe Campaign] -Module, können Sie eine [!DNL Adobe Workfront Fusion] Szenario basierend auf Ereignissen in Ihrer [!DNL Adobe Campaign] Konten, erstellen, lesen oder aktualisieren Sie Vereinbarungen und andere Datensätze, suchen Sie nach Datensätzen anhand von von Ihnen festgelegten Kriterien und laden Sie Dokumente hoch.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
+source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Campaign Classic] Module
+# [!DNL Adobe Campaign] Module
 
-Mit dem [!DNL Adobe Campaign Classic] -Module, können Sie eine [!DNL Adobe Workfront Fusion] Szenario basierend auf Ereignissen in Ihrer [!DNL Adobe Campaign Classic] -Konto, erstellen, lesen oder aktualisieren Sie Datensätze, suchen Sie mithilfe der von Ihnen festgelegten Kriterien nach Datensätzen und führen Sie benutzerdefinierte API-Aufrufe durch.
+Mit dem [!DNL Adobe Campaign] -Module, können Sie eine [!DNL Adobe Workfront Fusion] Szenario basierend auf Ereignissen in Ihrer [!DNL Adobe Campaign v7/v8] -Konto, erstellen, lesen oder aktualisieren Sie Datensätze, suchen Sie mithilfe der von Ihnen festgelegten Kriterien nach Datensätzen und führen Sie benutzerdefinierte API-Aufrufe durch.
 
 ## Zugriffsanforderungen
 
@@ -59,7 +59,7 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Verbinden [!DNL Adobe Campaign Classic] nach [!DNL Adobe Workfront Fusion]
+## Verbinden [!DNL Adobe Campaign] nach [!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 >
 >Weitere Informationen zu den neuen Verbindungsanforderungen von Campaign finden Sie unter [Migration der technischen Campaign-Benutzer zur Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) in der Campaign-Dokumentation.
 
-1. In jeder [!DNL Adobe Campaign Classic] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] -Feld.
+1. In jeder [!DNL Adobe Campaign] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] -Feld.
 1. Füllen Sie die folgenden Felder aus:
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -89,7 +89,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Basis-URL]</td>
-          <td>Geben Sie die Basis-URL ein, über die Sie eine Verbindung zu Ihrer [!DNL Adobe Campaign Classic] -Instanz.</td>
+          <td>Geben Sie die Basis-URL ein, über die Sie eine Verbindung zu Ihrer [!DNL Adobe Campaign] -Instanz.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Benutzername]</td>
@@ -119,9 +119,9 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
     </table>
 1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
-## [!DNL Adobe Campaign Classic] Module und ihre Felder
+## [!DNL Adobe Campaign] Module und ihre Felder
 
-Bei der Konfiguration [!DNL Adobe Campaign Classic] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Adobe Campaign Classic] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Bei der Konfiguration [!DNL Adobe Campaign] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Adobe Campaign] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
 Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -143,7 +143,7 @@ Dieses geplante Trigger-Modul startet ein Szenario, wenn sich ein Datensatz änd
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -181,7 +181,7 @@ Dieses geplante Trigger-Modul startet ein Szenario, wenn sich ein Datensatz änd
 
 #### [!UICONTROL Datensatz erstellen]
 
-Dieses Aktionsmodul erstellt einen neuen Datensatz in [!DNL Adobe Campaign Classic].
+Dieses Aktionsmodul erstellt einen neuen Datensatz in [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,11 +189,11 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz in [!DNL Adobe Campaign Class
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Wählen Sie den Typ [!DNL Adobe Campaign Classic] -Datensatz, den Sie erstellen möchten.</td> 
+   <td>Wählen Sie den Typ [!DNL Adobe Campaign] -Datensatz, den Sie erstellen möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Felder] </td> 
@@ -208,7 +208,7 @@ Dieses Aktionsmodul erstellt einen neuen Datensatz in [!DNL Adobe Campaign Class
 
 #### [!UICONTROL Benutzerdefinierte API-Aufrufe durchführen]
 
-Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Campaign Classic] API
+Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Campaign] API
 
 <table style="table-layout:auto"> 
   <col/>
@@ -216,7 +216,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Camp
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Aktion]</td>
@@ -244,7 +244,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Camp
 
 #### [!UICONTROL Datensatz löschen]
 
-Dieses Aktionsmodul löscht einen einzelnen Datensatz aus [!DNL Adobe Campaign Classic].
+Dieses Aktionsmodul löscht einen einzelnen Datensatz aus [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -252,7 +252,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz aus [!DNL Adobe Campaign C
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -268,7 +268,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatz aus [!DNL Adobe Campaign C
 
 #### [!UICONTROL Durchführen einer Aktion]
 
-Dieses Aktionsmodul führt eine ausgewählte Aktion für ein Objekt im [!DNL Adobe Campaign Classic] API.
+Dieses Aktionsmodul führt eine ausgewählte Aktion für ein Objekt im [!DNL Adobe Campaign] API.
 
 Informationen zu bestimmten Aktionen und Feldern finden Sie unter [[!DNL Adobe Campaign] - API-Dokumentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -278,7 +278,7 @@ Informationen zu bestimmten Aktionen und Feldern finden Sie unter [[!DNL Adobe C
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Aktion]</td> 
@@ -297,7 +297,7 @@ Informationen zu bestimmten Aktionen und Feldern finden Sie unter [[!DNL Adobe C
 
 #### [!UICONTROL Datensatz lesen]
 
-Dieses Aktionsmodul liest einen Datensatz aus [!DNL Adobe Campaign Classic].
+Dieses Aktionsmodul liest einen Datensatz aus [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,11 +305,11 @@ Dieses Aktionsmodul liest einen Datensatz aus [!DNL Adobe Campaign Classic].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Wählen Sie den Typ [!DNL Adobe Campaign Classic] -Eintrag, den Sie lesen möchten.</td> 
+   <td>Wählen Sie den Typ [!DNL Adobe Campaign] -Eintrag, den Sie lesen möchten.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -337,7 +337,7 @@ Dieses Aktionsmodul meldet einen Benutzer an oder meldet ihn von einem Informati
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abonnieren oder Abmelden]</td> 
@@ -356,7 +356,7 @@ Dieses Aktionsmodul meldet einen Benutzer an oder meldet ihn von einem Informati
 
 #### [!UICONTROL Datensatz aktualisieren]
 
-Dieses Aktionsmodul aktualisiert einen einzelnen Datensatz in [!DNL Adobe Campaign Classic].
+Dieses Aktionsmodul aktualisiert einen einzelnen Datensatz in [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,11 +364,11 @@ Dieses Aktionsmodul aktualisiert einen einzelnen Datensatz in [!DNL Adobe Campai
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Wählen Sie den Typ [!DNL Adobe Campaign Classic] -Datensatz, den Sie erstellen möchten.</td> 
+   <td>Wählen Sie den Typ [!DNL Adobe Campaign] -Datensatz, den Sie erstellen möchten.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -397,11 +397,11 @@ Dieses Suchmodul gibt Datensätze zurück, die auf den angegebenen Kriterien bas
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td>
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign Classic], siehe <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign Classic]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign], siehe <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Campaign]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Wählen Sie den Typ [!DNL Adobe Campaign Classic] -Datensatz, den Sie erstellen möchten.</td> 
+   <td>Wählen Sie den Typ [!DNL Adobe Campaign] -Datensatz, den Sie erstellen möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
