@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Die geplante Aufgabe wird gleichmäßig auf alle Tage innerhalb der Aufgabendaue
 
 >[!CAUTION]
 >
->Der Lastenausgleich zeigt nur bis zu 1000 geplante Stunden pro Arbeitselement und bis zu 1000 Tage der Dauer eines Artikels an. Die Zuordnungen im Lastenausgleich werden nach Erreichen der Beschränkung von 1000 Stunden oder 1000 Tagen als null angezeigt. Es wird empfohlen, Aufgaben in kleinere Unteraufgaben zu unterteilen, um eine größere Anzahl geplanter Stunden oder längerer Zeiträume als 1000 Tage zu ermöglichen.
+>Der Lastenausgleich zeigt nur bis zu 1000 geplante Stunden pro Arbeitselement pro Benutzer und bis zu 1000 Tage von der Dauer eines Artikels an. Die Zuordnungen im Lastenausgleich werden nach Erreichen der Beschränkung von 1000 Stunden oder 1000 Tagen als null angezeigt. Es wird empfohlen, Aufgaben in kleinere Unteraufgaben zu unterteilen, um eine größere Anzahl von geplanten Stunden oder für längeren Aufenthalt von mehr als 1000 Tagen aufzunehmen.
 
 Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatlichen Zuweisungen für Aufgaben oder Probleme im Arbeitslastausgleich:
 

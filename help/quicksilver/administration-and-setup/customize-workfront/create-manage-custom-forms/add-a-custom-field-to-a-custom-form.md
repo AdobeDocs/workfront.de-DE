@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Textfeld mit Formatierung</td> 
-      <td>Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Texts mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Dies ist für Workfront-Objekte auf der Startseite, im Bereich "Updates", in Listen und im Bereich "Details"verfügbar. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.</p> <p>Informationen zum Zugriff auf dieses Feld über die API finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich-Text-Feldspeicherung in der API</a>.</p> <p><b>NOTE</b>: Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar. </p> </td> 
+      <td>Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Texts mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Dies ist für Workfront-Objekte auf der Startseite, im Bereich "Updates", in Listen und im Bereich "Details"verfügbar. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.</p> <p>Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.</p> <p>Informationen zum Zugriff auf dieses Feld über die API finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich-Text-Feldspeicherung in der API</a>.</p> <p><b>NOTE</b>: Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -225,7 +225,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td><p>Klicken Sie auf die Dropdown-Liste und wählen Sie dann die Objekttypen aus, bei denen die Werteänderungen des Felds automatisch verfolgt werden sollen.</p> 
       <p><b>NOTE</b>: Diese Option ist für Folgendes nicht verfügbar:</p> 
       <ul> 
-      <li>Benutzerdefinierte Formulare, die mit den folgenden Objekttypen verknüpft sind: Ausgaben, Unternehmen, Iteration, Rechnungsstellung und Gruppe.</li> 
+      <li>Benutzerdefinierte Formulare, die den folgenden Objekttypen zugeordnet sind: Ausgaben, Firma, Iteration, Rechnungsdatensatz, Dokument und Gruppe.</li> 
       <li>Die folgenden Feldtypen: Berechneter, beschreibender Text und Abschnittsumbruch</li> 
       </ul>
       <p><b>WICHTIG</b>: Die Auswahl oder Deaktivierung eines Objekttyps wirkt sich auf alle benutzerdefinierten Formulare aus, die mit dem ausgewählten Objekttyp verknüpft sind und dieses Feld enthalten. Wenn Sie beispielsweise die Auswahl eines Objekttyps hier aufheben und das benutzerdefinierte Formular speichern, werden die Werteänderungen des Felds für diesen Objekttyp in keinem benutzerdefinierten Formular mehr verfolgt, das das Feld enthält.</p>

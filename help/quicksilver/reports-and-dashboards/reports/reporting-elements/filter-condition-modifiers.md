@@ -6,9 +6,9 @@ description: Mit Filter- und Bedingungsmodifikatoren können Sie Filter erstelle
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Dies ist die <i>Groß-/Kleinschreibung nicht berücksichtigt</i> Option <strong>eq</strong>. Es wird nur eine exakte Übereinstimmung mit dem gesuchten Wert zurückgegeben.</p> <p>Wenn Sie beispielsweise nach einer Aufgabe mit einem bestimmten Namen suchen, <code>task name cieq test</code> sucht Aufgaben, bei denen der Name <code>Test</code>, <code>TEST</code>oder <code>Test</code>, aber keine Aufgabe mit dem Namen <code>test 123.</code></p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
+   <td> <p>Dies ist die <i>Groß-/Kleinschreibung nicht berücksichtigt</i> Option <strong>eq</strong>. Es wird nur eine exakte Übereinstimmung mit dem gesuchten Wert zurückgegeben.</p> <p>Wenn Sie beispielsweise nach einer Aufgabe mit einem bestimmten Namen suchen, <code>task name cieq test</code> sucht Aufgaben, bei denen der Name <code>Test</code>, <code>TEST</code>oder <code>Test</code>, aber keine Aufgabe mit dem Namen <code>test 123.</code></p> <p>Wenn Sie nach einem Status suchen, wird die <strong>cieq</strong> -Modifikator wird nicht unterstützt. Sie sollten den Modifikator Groß-/Kleinschreibung beachten. <strong>eq</strong>, um nach einem Status zu suchen.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

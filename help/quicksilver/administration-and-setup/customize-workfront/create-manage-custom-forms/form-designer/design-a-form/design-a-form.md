@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ Sie können einem benutzerdefinierten Formular mehrere verschiedene Textfelder h
 * **Absatztext-Feld**: Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld.
 * **Textfeld mit Formatierung**: Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Texts mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
 
-  Informationen zum Zugriff auf dieses Feld über die API finden Sie unter Rich-Text-Feldspeicherung in der API.
+  Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.
+
+  Informationen zum Zugriff auf dieses Feld über die API finden Sie unter [Rich-Text-Feldspeicherung in der API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
