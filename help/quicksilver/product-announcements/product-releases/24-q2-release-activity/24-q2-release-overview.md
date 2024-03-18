@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dem Workflow "Neue Aufgabe"hinzugefügte relevantere Zuweisungen</a></p><p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dem Workflow "Neue Aufgabe"hinzugefügte relevantere Zuweisungen</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Dieselbe Funktionalität für relevantere Smart-Zuweisungen wurde dem Feld Zuweisungen im Feld Neue Aufgabe hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -246,6 +247,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                             <li>
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
+                                <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
@@ -255,7 +257,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Wichtigere intelligente Zuweisungen</a></p><p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Wichtigere intelligente Zuweisungen</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -265,6 +268,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                             <li>
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
+                                <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>

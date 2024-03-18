@@ -7,7 +7,7 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -17,7 +17,9 @@ ht-degree: 0%
 # Übersicht über Smart-Zuweisungen
 
 
-{{preview-and-fast-release}}
+<!-- {{preview-and-fast-release}} -->
+
+{{highlighted-preview}}
 
 Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie mithilfe von intelligenten Zuweisungen ermitteln, wer die beste Ressource ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Bei intelligenten Zuweisungen kann es sich um Benutzer, Auftragsrollen oder Teams handeln.
 
