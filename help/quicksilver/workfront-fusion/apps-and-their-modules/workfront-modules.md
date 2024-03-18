@@ -9,7 +9,7 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Die [!DNL Workfront] Connector verwendet OAuth 2.0 für die Verbindung mit [!DNL
 
 Sie können eine Verbindung zu Ihrem [!DNL Workfront] direkt in einer [!DNL Workfront Fusion] -Modul.
 
-1. Klicken Sie in einem beliebigen Adobe Authenticator-Modul auf **Hinzufügen** neben dem Feld Verbindung .
+1. Klicken Sie in einem beliebigen Adobe Workfront-Modul auf **Hinzufügen** neben dem Feld Verbindung .
 1. Füllen Sie die folgenden Felder aus:
 
    <table style="table-layout:auto"> 
@@ -905,7 +905,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rechnungsnachweis </td> 
+   <td> Abrechnungseintrag </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -1186,7 +1186,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Rechnungsnachweis</td> 
+   <td>Abrechnungseintrag</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1555,7 +1555,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Rechnungsnachweis</td> 
+   <td>Abrechnungseintrag</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 

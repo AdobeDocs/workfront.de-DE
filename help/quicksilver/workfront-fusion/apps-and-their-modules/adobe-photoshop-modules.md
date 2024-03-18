@@ -8,16 +8,16 @@ title: Adobe Photoshop-Module
 description: Mit den Adobe Photoshop-Modulen können Sie ein Adobe Workfront Fusion-Szenario starten, das auf Ereignissen in Ihrem Adobe Photoshop-Konto basiert, Vereinbarungen und andere Datensätze erstellen, lesen oder aktualisieren, nach Datensätzen anhand von von Ihnen festgelegten Kriterien suchen und Dokumente hochladen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Photoshop], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her. [!DNL Adobe Photoshop] -Module ermöglichen es Ihnen, Datensätze eines bestimmten Typs zu erstellen, zu lesen, zu aktualisieren oder zu löschen, alle Datensätze eines bestimmten Typs aufzulisten, Datensätze anhand von von Kriterien zu suchen oder einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Photoshop] API.
+In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Photoshop], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 
 
 Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).

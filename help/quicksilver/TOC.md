@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 56c56dca375e5f9f7f75aa6553ef02399ffc205d
+source-git-commit: 8c970d2fe8221f4cc578d4427bd5ea250bfbcbf2
 workflow-type: tm+mt
-source-wordcount: '14040'
+source-wordcount: '14043'
 ht-degree: 1%
 
 ---
@@ -2194,6 +2194,7 @@ ht-degree: 1%
       * [Adobe Experience Manager Assets-Module](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms-Modul](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer-Module](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [Adobe Lightroom-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe Maestro-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF-Dienstmodule](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop-Module](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
