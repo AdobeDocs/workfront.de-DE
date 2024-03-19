@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzu
 
 +++
 
-So fügen Sie Typeahead-Datumsfelder hinzu:
+So fügen Sie Eingabe- und Datumsfelder hinzu:
 
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
@@ -482,6 +482,25 @@ So fügen Sie Typeahead-Datumsfelder hinzu:
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Filter hinzufügen</td>
+      <td><p>Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte zu beschränken, die Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so einschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+       <ul> 
+        <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
+        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
+        <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
+       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Filter im Textmodus bearbeiten</a>.</p>
+       <p><b>NOTE</b>:
+       <ul> 
+        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem Feld vom TypAhead keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
+        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld vom Typ voraus verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, die vom Filter nicht betroffen sind.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Zu einem Pflichtfeld machen</td> 

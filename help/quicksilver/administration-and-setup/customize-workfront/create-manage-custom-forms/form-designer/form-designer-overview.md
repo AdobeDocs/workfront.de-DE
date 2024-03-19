@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Sie können den neuen Formularentwickler verwenden, um ein benutzerdefiniertes F
 
 Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie bei der Erstellung Ihres Formulars Felder durch Drag &amp; Drop in die Abschnitte ziehen.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Beispiel-Formular-Designer](assets/form-designer-example.png)
 
 ## Zugriff auf den neuen Formularentwickler
 
@@ -41,17 +41,7 @@ Mit dem neuen Formularentwickler haben wir folgende Möglichkeiten hinzugefügt:
 
   >[!NOTE]
   >
-  >Der Standardabschnitt ist in Objekten nicht sichtbar, nachdem das Formular an das Objekt angehängt wurde.
-
-## Funktion in Kürze verfügbar
-
-Folgendes ist derzeit nicht im Formularentwickler verfügbar, wird aber bald hinzugefügt:
-
-* Filter für Typeahead-Felder
-
->[!IMPORTANT]
->
->Die vorhandenen Konfigurationen für Typeahead-Filter sind bei der Arbeit mit dem neuen Formularentwickler nicht betroffen.
+  >Der Abschnitt &quot;Standard&quot;ist in Objekten nicht sichtbar, nachdem das Formular an das Objekt angehängt wurde.
 
 ## Aus dem Formularentwickler entfernte Funktion
 
