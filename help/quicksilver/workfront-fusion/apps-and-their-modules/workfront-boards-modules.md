@@ -8,9 +8,9 @@ title: Adobe Workfront-Boards-Module
 description: Sie können den Adobe Workfront-Mainboards-Connector verwenden, um Ihre Prozesse in Workfront-Pinnwänden zu automatisieren und mit Apps und Diensten von Drittanbietern zu verbinden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Adobe Workfront-Forumsmodule und ihre Felder
+
 
 ## Voraussetzungen
 
