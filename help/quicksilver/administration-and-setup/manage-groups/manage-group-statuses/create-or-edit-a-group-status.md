@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Erstellen oder Bearbeiten eines Gruppenstatus
-description: Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe erstellen. Dadurch wird die Notwendigkeit von Dutzenden von unternehmensweiten benutzerdefinierten Status beseitigt und eine größere Autonomie in Ihren Gruppenhierarchien ermöglicht.
-author: Caroline
+description: Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe erstellen. Dadurch wird die Notwendigkeit von Dutzenden unternehmensweiter benutzerdefinierter Status beseitigt und eine größere Autonomie in Ihren Gruppierungshierarchien ermöglicht.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten eines Gruppenstatus
 
-Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe erstellen. Dadurch wird die Notwendigkeit von Dutzenden von unternehmensweiten benutzerdefinierten Status beseitigt und eine größere Autonomie in Ihren Gruppenhierarchien ermöglicht.
+Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe erstellen. Dadurch wird die Notwendigkeit von Dutzenden unternehmensweiter benutzerdefinierter Status beseitigt und eine größere Autonomie in Ihren Gruppierungshierarchien ermöglicht.
 
 Sie können auch den Status auf Systemebene für eine von Ihnen verwaltete Gruppe bearbeiten, wenn ein Workfront-Administrator den Status entsperrt hat. Weitere Informationen finden Sie unter [Status auf Systemebene gesperrt und entsperrt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
@@ -25,7 +25,7 @@ Wenn es Gruppen über Ihrer Gruppe gibt, können ihre Administratoren diese Ding
 
 >[!NOTE]
 >
->Benutzerdefinierte Gruppenstatus können in einem Projekt nicht angezeigt werden, wenn das Projekt in einer agilen Ansicht angezeigt wird. Beim Anzeigen eines Projekts in einer agilen Ansicht sind nur die standardmäßigen und benutzerdefinierten gesperrten Status sichtbar. Informationen zum Anpassen einer agilen Ansicht für ein Projekt finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+>Benutzerdefinierte Gruppenstatus können in einem Projekt nicht angezeigt werden, wenn das Projekt in einer agilen Ansicht angezeigt wird. Beim Anzeigen eines Projekts in einer agilen Ansicht sind nur die standardmäßigen und benutzerdefinierten gesperrten Status sichtbar. Informationen zum Anpassen einer agilen Ansicht für ein Projekt finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Allgemeine Informationen zum Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -62,19 +62,18 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    Wenn es sich bei der angezeigten Gruppe um eine Gruppe der obersten Ebene handelt, enthält die angezeigte Liste Folgendes:
 
    * Sperrstatus auf Systemebene.
-   * Benutzerdefinierte Status, die bereits für die Gruppe erstellt wurden.
+   * Benutzerdefinierte Status, die bereits für die Gruppe erstellt wurden
 
    Wenn es sich bei der angezeigten Gruppe um eine Untergruppe handelt, enthält die Liste außerdem:
 
    * Gesperrte Status, die zu den Gruppen über der Untergruppe gehören.
    * Entsperrte Status, die zu den Gruppen über der Untergruppe gehörten, als sie erstellt wurde.
 
-      Nach der Erstellung einer Untergruppe werden entsperrte Status, die in den oben stehenden Gruppen erstellt werden, nicht in die Statusliste der Untergruppe aufgenommen. Wenn jedoch einer von ihnen später gesperrt wird, wird er in die Statusliste der Untergruppe aufgenommen. Weitere Informationen finden Sie unter [Vererben von Status durch Gruppen](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
-
+     Nach der Erstellung einer Untergruppe werden entsperrte Status, die in den oben stehenden Gruppen erstellt werden, nicht in die Statusliste der Untergruppe aufgenommen. Wenn jedoch einer von ihnen später gesperrt wird, wird er in die Statusliste der Untergruppe aufgenommen. Weitere Informationen finden Sie unter [Vererben von Status durch Gruppen](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**), die Sie mit dem Status verknüpfen möchten.
 
-1. (Bedingt) Wenn der Status ein Problemstatus ist, stellen Sie sicher, dass **Übergeordnete Liste** ausgewählt ist.
+1. (Bedingt) Wenn der Status ein Problemstatus ist, stellen Sie sicher, dass **Masterliste** ausgewählt ist.
 
    ![](assets/master-list.png)
 
@@ -94,7 +93,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >* Sie verwalten die Gruppe, für die der Status erstellt wurde
    >* Ein Workfront-Administrator entsperrt den Status auf Systemebene
    >* Gruppenadministrator einer Gruppe oberhalb Ihrer Gruppe entsperrt den Status
-
    >      
    >      
    >Wenn Sie einen vorhandenen Status bearbeiten, können Sie nur dessen Namen, Beschreibung und Farbe ändern.
@@ -113,7 +111,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <tbody> 
      <tr> 
       <td role="rowheader">Statusname</td> 
-      <td> <p>Geben Sie einen Namen für den Status ein. Dies ist ein Pflichtfeld.</p> <p>Beachten Sie beim Erstellen eines Statusnamens, dass andere Benutzer im System einen Status mit demselben Namen erstellen können. Es wird empfohlen, einen eindeutigen Namen zu verwenden, um Verwirrung bei der Auswahl von Status in Workfront zu vermeiden.</p> </td> 
+      <td> <p>Geben Sie einen Namen für den Status ein. Dies ist ein Pflichtfeld.</p> <p>Beachten Sie beim Erstellen eines Statusnamens, dass andere Benutzer im System einen Status mit demselben Namen erstellen können. Es wird empfohlen, einen eindeutigen Namen zu verwenden, um Verwirrung bei der Auswahl von Status in Workfront zu vermeiden.</p><p>Wenn doppelte Status vorhanden sind, sollte der Gruppenadministrator die Namen aktualisieren, um zwischen ihnen zu unterscheiden. Der einzige eindeutige Indikator im System ist der Statusschlüssel.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
@@ -133,7 +131,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Status ausblenden</td> 
-      <td> <p>(Nur Projekt- und Aufgabenstatus)</p> <p>Aktivieren Sie diese Option, wenn der Status für Benutzer ausgeblendet werden soll. Wenn sie deaktiviert ist (Standardeinstellung), können alle Untergruppen unter der Gruppe den Status verwenden.</p> <p>Tipp: Sie können den Status eines Problems ausblenden, indem Sie alle vier Ausgabetypen deaktivieren (Fehlerbericht, Reihenfolge ändern, Problem, Anforderung).</p> </td> 
+      <td> <p>(Nur Projekt- und Aufgabenstatus)</p> <p>Aktivieren Sie diese Option, wenn der Status für Benutzer ausgeblendet werden soll. Wenn sie deaktiviert ist (Standardeinstellung), können alle Untergruppen unter der Gruppe den Status verwenden.</p> <p>Tipp: Sie können den Status eines Problems ausblenden, indem Sie alle vier Ausgabetypen deaktivieren (Fehlerbericht, Änderungsreihenfolge, Problem, Anfrage).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Für alle Gruppen sperren</td> 

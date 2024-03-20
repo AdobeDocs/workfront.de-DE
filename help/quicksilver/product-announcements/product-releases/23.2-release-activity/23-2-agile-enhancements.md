@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglic
 
 Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workflows können Sie Daten auf unterschiedliche Weise visualisieren. Sie können Elemente auf Karten in einer Liste, auf einer Pinnwand oder in einer Iteration anzeigen. Karten in einem Workstream können auch auf mehreren Pinnwänden freigegeben werden. Sie können Workflows einfach mit Karten und Pinnwänden in einem Workflow erleichtern.
 
-Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Die zweiten beiden Artikel sind erst dann in Main verfügbar, wenn ich meine Verzweigung veröffentlicht habe.
+Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
