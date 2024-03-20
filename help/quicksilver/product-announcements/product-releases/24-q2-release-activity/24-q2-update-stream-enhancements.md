@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Wir haben die folgenden Verbesserungen an der neuen Kommentarfunktion vorgenomme
 
 Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:47 Uhr.)
+
 ## Die Registerkarte Systemaktivität im neuen Kommentarerlebnis unterstützt schreibgeschützte Kommentare
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/wor
 Kommentare zu den Datensätzen der Systemaktivität im alten Kommentierungserlebnis werden jetzt auf der Registerkarte Systemaktivität in der neuen Kommentierungserfahrung als schreibgeschützt ausgefüllt. Sie können im neuen Kommentar-Erlebnis nicht auf Systemaktivitätsdatensätze antworten.
 
 Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:00 Uhr im Video.)
 
 ## Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -62,6 +66,8 @@ Die Registerkarte Alle ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie könn
 
 Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 0:31 Uhr im Video.)
+
 ## Neuer Kommentar-Stream jetzt im Bedienfeld &quot;Zusammenfassung&quot;verfügbar
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabsc
 Jetzt wurde die neue Kommentarfunktion zum Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben- und Problemlisten hinzugefügt.
 
 Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}

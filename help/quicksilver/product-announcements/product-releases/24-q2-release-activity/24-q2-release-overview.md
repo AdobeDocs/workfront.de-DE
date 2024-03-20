@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom zweiten Quartal 2024 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen zu sehen:
+
+[Die Zukunft Adobe Workfronts](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) am 26. März 2024, um einen Einblick in die Zukunft der strategischen Planung und des Workflows zu erhalten. Erfahren Sie, wie das Workfront-Team Geschäftsfunktionen über den gesamten Marketing-Lebenszyklus hinweg ansprechen will - alles mit einem KI-First-Ansatz zur Automatisierung von Arbeit, Vereinfachung von Benutzererlebnissen und Steigerung der Produktivität.
+
+[Vorstellung von Marketingkalendern und Tools für die End-to-End-Kampagnenplanung](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) am 23. März 2023, um mehr über neue Produktfunktionen zu erfahren, mit denen Sie Ihr Unternehmen in die Lage versetzen können, End-to-End-Lebenszyklen zu verwalten und zu visualisieren.
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum des zweiten Quartals 2024 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 

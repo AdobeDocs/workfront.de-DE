@@ -7,9 +7,9 @@ description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder früher)
 
 | **Qualifizierer** | |
 |---|---|
-| **b** | Beginn der Woche (Sonntag) |
-| **e** | Wochenende (Samstag) |
+| **b** | Beginn des Zeitraums (ohne angegebenes Attribut, standardmäßig der Anfang der Woche: Sonntag) |
+| **e** | Ende des Zeitraums (ohne angegebenes Attribut wird standardmäßig das Ende der Woche festgelegt: Samstag) |
 
 {style="table-layout:auto"}
 
