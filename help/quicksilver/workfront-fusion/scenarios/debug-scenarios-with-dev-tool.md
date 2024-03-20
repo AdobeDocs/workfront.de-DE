@@ -7,16 +7,20 @@ description: Mit dem Adobe Workfront Fusion Devtool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 1%
 
 ---
 
 # Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwicklungstool
 
 Die [!DNL Adobe Workfront Fusion] Mit Devtool können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt ein zusätzliches Bedienfeld zum [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
+
+>[!NOTE]
+>
+>Die Anmeldung im Debugger-Bedienfeld ist für vertrauliche Szenarien, automatische Ausführungen und erfolgreiche Vorgänge eingeschränkt oder nicht verfügbar.
 
 Eine Videoeinführung und exemplarische Anleitung zum Fusion-Entwickler finden Sie unter
 
@@ -448,6 +452,6 @@ Hebt Module der angegebenen App in Ihrem Szenario hervor.
 
 #### [!UICONTROL Migrieren von GS]
 
-Dieses Tool wurde speziell für die Aktualisierung entwickelt [!DNL Google Sheets] (alte) Module auf die neueste [!DNL Google Sheets] -Version. Es wird eine neue Version des Moduls direkt nach der älteren Version des Moduls in der Szenario-Route hinzugefügt.
+Dieses Tool wurde speziell für die Aktualisierung entwickelt [!DNL Google Sheets] (alte) Module auf die neueste [!DNL Google Sheets] -Version. Eine neue Version des Moduls wird direkt nach der älteren Version des Moduls in der Szenarioroute hinzugefügt.
 
 Für dieses Modul müssen Sie keine Parameter festlegen.
