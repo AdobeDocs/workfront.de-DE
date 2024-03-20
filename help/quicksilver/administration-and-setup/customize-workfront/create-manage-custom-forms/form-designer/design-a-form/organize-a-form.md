@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Sie können ein benutzerdefiniertes Formular mit dem Form Designer organisieren.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Formularentwickler
 
-Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler organisieren.
+Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler organisieren und eine Vorschau davon anzeigen, um zu überprüfen, ob es korrekt eingerichtet ist.
 
 ## Zugriffsanforderungen
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicks **Vorschau** in der oberen linken Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+1. Klicks **Vorschau** in der oberen rechten Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
