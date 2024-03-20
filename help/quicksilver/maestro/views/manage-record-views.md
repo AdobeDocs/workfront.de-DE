@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Felder als neue Spalten in der Ansicht hinzufügen | ✓ |               |         |
 | Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |          |
 | Anzeigen von Datensätzen in einer Timeline |            | ✓ |             |
-| Datensätze filtern | ✓ | ✓ |           |
+| Datensätze filtern | ✓ | ✓ | ✓ |
 | Datensätze in einem Kalender anzeigen |           |              | ✓ |
 | Gruppeneinträge | ✓ | ✓ |
 | Datensätze sortieren | ✓ |              |

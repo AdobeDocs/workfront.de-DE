@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Erstellen von Taxonomien | ✓ |                                  |                  |
 | Erstellen einzelner, benannter Datensätze und Taxonomien | ✓ |                                  |                  |
 | Benutzerdefinierte Datensatzfelder erstellen | ✓ |                                  |                  |
-| Importieren von Datensatztypen und Feldern mithilfe einer Excel- oder CSV-Datei | ✓ |                                  |                  |
+| Importieren von Datensatztypen und Feldern mithilfe einer Excel- oder CSV-Datei* | ✓ |                                  |                  |
 | Link-Datensätze | ✓ |                                  |                  |
 | Datensätze in einer Tabelle anzeigen | ✓ |                                  |                  |
 | Anzeigen von Datensätzen in einer Timeline | ✓ |                                  |                  |
@@ -275,7 +275,12 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
 | Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
-| Größe der CSV-Datei, die Sie in eine Tabelle importieren können | 5 MB |
+| Größe der CSV-Datei, die Sie importieren können* | 5 MB |
+
+>[!IMPORTANT]
+>
+>*Diese Funktion wurde vorübergehend deaktiviert und wird zu einem späteren Zeitpunkt verfügbar sein.
+
 
 ## Adobe Workfront-Planungsfunktionen ermitteln
 

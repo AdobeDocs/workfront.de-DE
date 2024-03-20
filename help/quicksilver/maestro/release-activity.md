@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >[!IMPORTANT]
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
+
+## Woche vom 18. März 2024
+
+### In der Kalenderansicht verfügbare Filter
+
+Produktion: 19. März 2024
+
+Vorschau: zu bestimmen
+
+Sie können jetzt Informationen in der Kalenderansicht filtern. Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Detailfeld, das der Timeline- und Kalenderansicht hinzugefügt wurde
+
+Produktion: 19. März 2024
+
+Vorschau: zu bestimmen
+
+Sie können jetzt von der Timeline- und Kalenderansicht aus auf das Feld Details eines Datensatzes zugreifen. Sie können Datensätze im Feld Details in der Timeline- und Kalenderansicht bearbeiten.
+
+Über das Feld Details können Sie die Detailseite des Datensatzes öffnen.
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
+
+### Der Excel-Import vom Datensatztyp ist vorübergehend deaktiviert
+
+Produktion: 21. März 2024
+
+Vorschau: zu bestimmen
+
+Der Import von Datensatztypen mithilfe einer Excel- oder CSV-Datei wird vorübergehend deaktiviert. Diese Funktion ist zu einem späteren Zeitpunkt verfügbar.
 
 ## Woche vom 11. März 2024
 

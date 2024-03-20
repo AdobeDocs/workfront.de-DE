@@ -1,13 +1,13 @@
 ---
 title: Erstellen von operationellen Datensatztypen
-description: Datensatztypen sind die Objekttypen von Adobe Maestro. In Maestro können Sie benutzerdefinierte Datensatztypen erstellen, die die Arbeitselemente illustrieren, die im Lebenszyklus Ihres Unternehmens benötigt werden.
+description: Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten Arbeitselemente illustrieren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Datensatztypen sind die Objekttypen von Adobe Maestro. In Maestro können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
+Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
 
 Datensatztypen können eine der folgenden sein:
 
 * **Betriebsdatentypen**
 * **Taxonomien**
 
-Weitere Informationen zu Maestro-Datensatztypen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
+Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
 
 Das Erstellen operativer Datensatztypen ähnelt dem Erstellen von Taxonomie-Datensatztypen. In diesem Artikel wird beschrieben, wie Sie betriebliche Datensatztypen erstellen.
 
@@ -45,12 +45,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
 <td>
    <p> Produkt</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Aktuell: Plan</p>
+   Oder
+   <p>Neu: Standard </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
       * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren. Dies ist nicht für Taxonomie-Datensatztypen verfügbar.
+
+        >[!IMPORTANT]
+        >
+        >Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen von Datensatztypen mithilfe einer Workspace-Vorlage
 
-Sie können Datensatztypen automatisch erstellen, wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen. Jede Maestro-Vorlage enthält Beispiel-Betriebs- und Taxonomiedatensatztypen.
+Sie können Datensatztypen automatisch erstellen, wenn Sie einen Arbeitsbereich mithilfe einer Workfront-Planungsvorlage erstellen. Jede Vorlage enthält Beispiel-Betriebs- und Taxonomiedatensatztypen.
 
 Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
+>[!IMPORTANT]
+>
+>Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
+
+
 Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei Folgendes:
 
-* Jedes Blatt der Excel-Datei wird in Maestro zu einem Datensatztyp.
+* Jedes Blatt der Excel-Datei wird zu einem Datensatztyp.
 * Die Spalten der einzelnen Blätter werden zu den Feldern, die mit jedem Datensatztyp verknüpft sind.
 * Felder sind für ihre jeweiligen Datensatztypen eindeutig.
 * Jede Zeile in jedem Blatt wird zu einem eindeutigen Datensatz, der mit dem jeweiligen Datensatztyp verknüpft ist.
 * Jedes Blatt der Excel-Datei darf nicht größer sein als:
-   * 10.000 Zeilen
+   * 50.000 Zeilen
    * 500 Spalten
 * Die Excel-Datei sollte nicht größer als 5 MB sein.
 * Leere Arbeitsblätter werden nicht unterstützt.
@@ -222,7 +234,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Das Feld Vorschau und Bearbeitung wird mit den folgenden Informationen angezeigt:
 
-   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Maestro wählt standardmäßig ein Symbol und eine Farbe für jeden neuen Datensatztyp aus.
+   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Bei der Workfront-Planung wird standardmäßig für jeden neuen Datensatztyp ein Symbol und eine Farbe ausgewählt.
    * Die erste Tabelle oder der erste Datensatztyp wird ausgewählt und die Namen der Felder, die mit ihr verknüpft sind, werden als Spaltenüberschriften angezeigt. Der Feldtyp wird standardmäßig ausgewählt.
    * Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten zehn Datensätze werden im Feld Vorschau und Bearbeitung angezeigt.
 
@@ -243,7 +255,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Klicks **Import** wenn Sie bereit sind, Ihre Datei zu importieren.
 
-   Die folgenden Informationen werden in Maestro importiert:
+   Die folgenden Informationen werden in die Workfront-Planung importiert:
 
    * Neue Datensatztypen
    * Neue Felder, die jedem Datensatztyp zugeordnet sind
@@ -251,7 +263,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Sie können mit der Verwaltung von Feldern und Datensätzen auf den Seiten mit den Datensatztypen beginnen.
 
-   Jeder mit Zugriff auf Maestro kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
+   Jeder, der Zugriff auf die Workfront-Planung hat, kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

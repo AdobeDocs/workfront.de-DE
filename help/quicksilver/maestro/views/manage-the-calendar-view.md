@@ -4,9 +4,9 @@ description: Sie können Datensätze und ihre Felder in einer Kalenderansicht an
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ So verwalten Sie eine Kalenderansicht:
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für den Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
 
       * Monat
+1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
+   * [Filter](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Filter hinzufügen
+
+Mithilfe von Filtern können Sie die Anzahl der auf dem Bildschirm angezeigten Informationen verringern.
+
+Beachten Sie beim Arbeiten mit Filtern in der Kalenderansicht Folgendes:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* Die Filter, die Sie für eine Kalenderansicht erstellen, funktionieren unabhängig von den Filtern in jeder anderen Ansicht, die auf denselben Datensatztyp angewendet wird.
+
+* Die Filter sind für die ausgewählte Ansicht eindeutig. Für zwei Kalenderansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden.
+
+* Zwei Benutzer, die sich dieselbe Kalenderansicht ansehen, sehen denselben Filter, der derzeit angewendet wird.
+
+* Sie können die von Ihnen erstellten Filter nicht für eine Kalenderansicht benennen.
+
+* Wenn Sie Filter entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
+
+* Das Hinzufügen von Filtern in der Kalenderansicht entspricht dem Hinzufügen von Filtern in der Tabellenansicht.
+
+  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.

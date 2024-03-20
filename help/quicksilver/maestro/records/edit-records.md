@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Bearbeiten von Datensätzen
 
 * Sie können von Ihnen erstellte Datensätze oder von anderen Benutzern erstellte Datensätze bearbeiten, wenn Sie über Berechtigungen für den Arbeitsbereich verfügen.
-* Sie können Datensatzfelder über die Detailseite eines Datensatzes oder über die Tabellenansicht eines Datensatztyps bearbeiten.
-* Datensatzinformationen aus der Timeline-Ansicht können nicht bearbeitet werden.
+* Sie können Datensatzfelder aus den folgenden Bereichen bearbeiten:
+
+   * Das Feld Details eines Datensatzes aus einer Datensatzansicht.
+   * Die Detailseite eines Datensatzes.
+   * Inline in einer Tabellenansicht.
+
 * Die folgenden Feldtypen werden automatisch aktualisiert und ihre Werte können nicht manuell bearbeitet werden:
    * Verknüpfte Felder anderer Datensätze
    * Felder vom Typ Formel
@@ -107,7 +111,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 * [Aus der Tabellenansicht eines Datensatztyps](#edit-a-record-from-the-table-view-of-a-record-type)
 * [Auf der Detailseite eines Datensatzes](#edit-a-record-from-the-records-details-page)
 
-### Datensatz in der Tabellenansicht eines Datensatztyps bearbeiten
+### Datensatz in der Tabellenansicht eines Datensatztyps inline bearbeiten
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. (Optional) Doppelklicken Sie auf ein Feld für einen verbundenen Datensatz, um verbundene Datensätze oder Objekte zu einem anderen Datensatz hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 1. Presse **Eingabe** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. A **Gespeichert** wird in der oberen rechten Ecke der Tabellenansicht kurz angezeigt, um zu zeigen, dass die Änderungen gespeichert wurden.
 
-1. (Optional) Klicken Sie auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens oder klicken Sie auf einen Datensatznamen. Die **Details** wird in der Tabelle geöffnet.
-
-   >[!TIP]
-   >
-   >Sie können die **Details öffnen** nur dann links neben dem Feld Name eines Datensatzes angezeigt, wenn das Feld Name ein primäres Feld ist.
-
-1. Beginnen Sie mit der Bearbeitung der Feldinformationen im **Details** ankreuzen. Workfront speichert Ihre Änderungen automatisch.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des **Details** zum Öffnen des Datensatzes **Details** in einer neuen Registerkarte. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Detailseite des Datensatzes bearbeiten](#edit-a-record-from-the-records-details-page) in diesem Artikel beschrieben.
-
 
 1. (Optional) Um Informationen von einem Feld in ein anderes zu kopieren und einzufügen, führen Sie einen der folgenden Schritte aus:
 
@@ -188,27 +183,61 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 1. (Optional) Fügen Sie einem Datensatz eine Miniaturansicht hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Datensatz im Feld Details des Datensatzes in einer Ansicht bearbeiten
 
-### Datensatz auf der Detailseite des Datensatzes bearbeiten
-
-Sie können einen Datensatz über das Feld Details in einer Tabellenansicht oder über die Detailseite bearbeiten.
-
-Informationen zum Bearbeiten von Datensätzen finden Sie im Feld Details unter [Datensatz in der Tabellenansicht eines Datensatztyps bearbeiten](#edit-a-record-from-the-table-view-of-a-record-type) in diesem Artikel beschrieben.
+Sie können einen Datensatz in jeder Ansicht über das Feld Details bearbeiten.
 
 {{step1-to-maestro}}
 
 Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
 1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
+
+   Die Seite mit dem Datensatztyp wird geöffnet.
+
+1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
+
+   Oder
+
+   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens oder klicken Sie auf einen Datensatznamen. Die **Details** wird in der Ansicht geöffnet.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
+
+1. Beginnen Sie mit der Bearbeitung der Feldinformationen im **Details** ankreuzen. Workfront speichert Ihre Änderungen automatisch.
+
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des **Details** zum Öffnen des Datensatzes **Details** in einer neuen Registerkarte. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Detailseite des Datensatzes bearbeiten](#edit-a-record-from-the-records-details-page) in diesem Artikel beschrieben.
+
+### Datensatz auf der Detailseite des Datensatzes bearbeiten
+
+Sie können einen Datensatz auf der Detailseite bearbeiten.
+
+{{step1-to-maestro}}
+
+Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
+
+   Die Seite mit dem Datensatztyp wird geöffnet.
+
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Von einem **Verzeichnis** -Ansicht auf den Namen eines Datensatzes klicken.
+   * Rufen Sie in jeder Ansicht das Feld Details auf, wie im Abschnitt [Datensatz im Feld Details des Datensatzes in einer Ansicht bearbeiten](#edit-a-record-from-the-records-details-box-in-a-view)in diesem Artikel beschrieben. Klicken Sie dann auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des **Details** zum Öffnen des Datensatzes **Details** in einer neuen Registerkarte.
+
    * Aus dem **Verzeichnis** Ansicht, bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Klicken Sie in einer Timeline-Ansicht auf eine Datensatzleiste.
 
-   Der Datensatz **Details** Seite geöffnet.
+     Der Datensatz **Details** Seite geöffnet.
+
+     ![](assets/details-page.png)
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Bearbeiten**
 
