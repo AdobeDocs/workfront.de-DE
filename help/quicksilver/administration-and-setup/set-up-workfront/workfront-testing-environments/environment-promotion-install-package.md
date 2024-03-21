@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Jeder Objekttyp wird im linken Navigationsbereich und auf einer Karte angezeigt. Die Karte zeigt Objekte dieses Typs an und ob diese Objekte in der Zielumgebung vorhanden sind. Sie können bestimmen, wie diese Objekte in die Zielumgebung verschoben werden.
 
-* Neu erstellen: Das Objekt befindet sich in der Zielumgebung.
+* Neu erstellen: Erstellen Sie ein neues Objekt in der Zielumgebung. Wenn das Objekt in der Zielumgebung vorhanden ist, können Sie ein neues Objekt mit einem neuen Namen erstellen. Wenn es nicht in der Zielumgebung vorhanden ist, können Sie das Objekt mit einem neuen Namen oder mit dem Namen erstellen, den das Objekt im Paket hat.
 * Vorhandenes verwenden: Das Objekt im Paket wird nicht installiert und das bereits in der Zielumgebung vorhandene Objekt bleibt unverändert.
 * Vorhandene überschreiben: (Derzeit nicht verfügbar) Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
-* Nicht verwenden: Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
+* Nicht verwenden: Das Objekt im Paket wird nicht in der Zielumgebung installiert. Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
 
 Die Standardwerte sind `Create new` , wenn das Objekt nicht in der Zielumgebung vorhanden ist, und `Use existing` , wenn das Objekt in der Zielumgebung vorhanden ist. Sie können zur Standardzuordnung zurückkehren, indem Sie auf **Auf Standardzuordnung zurücksetzen**.
 
