@@ -9,9 +9,9 @@ description: Mit dem [!DNL Adobe Campaign] -Module, können Sie eine [!DNL Adobe
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,13 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Voraussetzungen
+
+Sie müssen die IP-Adressen von Fusion zu [!DNL Adobe Campaign].
+
+* Anweisungen zum Hinzufügen von IP-Adressen zu Ihrer Campaign-Zulassungsliste finden Sie unter [Hinzufügen von IP-Adressen zur Zulassungsliste](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in der Adobe Campaign-Dokumentation.
+* Eine Liste der IP-Adressen, die der Zulassungsliste hinzugefügt werden sollen, finden Sie unter [IP-Adressen für den Zugriff auf Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## Verbinden [!DNL Adobe Campaign] nach [!DNL Adobe Workfront Fusion]
 
