@@ -4,9 +4,9 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Kommentare zu den Datensätzen der Systemaktivität im alten Kommentierungserleb
 
 Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:00 Uhr im Video.)
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:00 Uhr.)
 
 ## Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -66,7 +66,7 @@ Die Registerkarte Alle ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie könn
 
 Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 0:31 Uhr im Video.)
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 0:31 Uhr)
 
 ## Neuer Kommentar-Stream jetzt im Bedienfeld &quot;Zusammenfassung&quot;verfügbar
 

@@ -6,9 +6,9 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates . Sie können die Antwortschaltfläche verwenden, um eine Antwort im Widget zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
 * **Aufgaben**\
-    Mit diesem einzigartigen Widget können Sie Textelemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können.
+    Mit diesem einzigartigen Widget können Sie Elemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können. Aufgaben werden als Aufgaben in Ihrem persönlichen Projekt nachverfolgt und bleiben bis zu zwei Wochen nach der Fertigstellung erhalten.
 
   >[!NOTE]
   >
