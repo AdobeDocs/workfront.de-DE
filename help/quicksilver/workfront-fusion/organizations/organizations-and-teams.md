@@ -8,9 +8,9 @@ description: Die Organisations- und Teams-Funktionen von Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -174,6 +174,14 @@ So erstellen Sie ein Team:
 >Weitere Informationen finden Sie unter [Auf Benachrichtigungen zugreifen](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] für [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Die Optionen für E-Mail-Benachrichtigungen werden auf Teamebene festgelegt.
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen in Unified Shell verschoben wurde, erhalten Sie Benachrichtigungen über den Bereich Adobe-Benachrichtigungen. Sie müssen das Unified Shell-Erlebnis verwenden, um Benachrichtigungen im Bereich Adobe-Benachrichtigungen anzeigen zu können.
+>
+>Um das Unified Shell-Erlebnis, einschließlich des Bereichs Adobe-Benachrichtigungen, zu verwenden, klicken Sie oben auf der Seite auf die Schaltfläche Neue Fusion ausprobieren in Unified Experience . Diese Schaltfläche ist nur verfügbar, wenn Ihr Unternehmen in die Unified Shell verschoben wurde.
+>
+>Weitere Informationen zum Auffinden von Benachrichtigungen in Unified Shell finden Sie unter [Auf Benachrichtigungen zugreifen](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Team]**
 1. Wählen Sie die **[!UICONTROL Benachrichtigungsoptionen]** Registerkarte.
