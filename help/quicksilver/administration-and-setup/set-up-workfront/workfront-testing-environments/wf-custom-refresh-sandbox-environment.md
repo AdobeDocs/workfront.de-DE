@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Weitere Informationen zur Konfiguration [!DNL Workfront] mit SSO, siehe [Überbl
 
 ## Vorgesehene Nutzung und Verfügbarkeit
 
-[!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie stattdessen diese Umgebungen, um die Funktionsfunktionalität mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
+* [!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie stattdessen diese Umgebungen, um die Funktionsfunktionalität mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
 
-[!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sollten immer verfügbar sein. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach Behebung etwaiger Produktionsprobleme Priorität. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (Samstags und Sonntagen) wird behoben, damit die Umgebung am Montag für Geschäftszeiten ausgeführt wird.
+* [!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sollten immer verfügbar sein. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach Behebung etwaiger Produktionsprobleme Priorität. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (Samstags und Sonntagen) wird behoben, damit die Umgebung am Montag für Geschäftszeiten ausgeführt wird.
+
+* Die Prüfung ist nicht in den Sandbox-Umgebungen für benutzerdefinierte Aktualisierungen verfügbar.
