@@ -7,10 +7,10 @@ description: Sie können Informationen zu allen Ausführungen eines Szenarios an
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,14 @@ Der Ausführungsverlauf eines Szenarios zeigt alle Ausführungen eines Szenarios
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -37,19 +37,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,22 +73,24 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
    ![](assets/open-history-tab-350x202.png)
 
-   F
-
    Sie können auch auf klicken, um eine vollständige Seitenansicht dieser Informationen anzuzeigen. Mit der Vollseitenansicht können Sie den Verlauf filtern, um bestimmte Ausführungen anzuzeigen.
 
    Die folgenden Details werden für jede Ausführung des Szenarios aufgelistet:
 
-   * Datum, an dem die Ausführung ausgeführt wurde **[!UICONTROL Gestartet]**
+   * Datum, an dem die Ausführung erfolgte **[!UICONTROL Gestartet]**
    * **[!UICONTROL Status]** (Erfolg oder fehlgeschlagen)
    * Ausführen **[!UICONTROL Dauer]**
    * Anzahl der **[!UICONTROL Aktivitäten]**
    * Größe **[!UICONTROL Datenübertragung]**
    * Link zu **[!UICONTROL Details]**
 
+>[!NOTE]
+>
+>Der Szenario-Verlauf zeigt einen **Verarbeitung** -Zeichen neben den Szenarien, die kürzlich ausgeführt wurden, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
+
 ### Anzeigen des Ausführungsverlaufs eines Szenarios [!UICONTROL Geschichte] tab
 
-Die [!UICONTROL Geschichte] zeigt mehr Details an, als auf der Registerkarte verfügbar sind [!UICONTROL Details des Szenarios] Seite. Sie können die Ausführungen auch nach der [!UICONTROL Geschichte] Registerkarte.
+Die [!UICONTROL Geschichte] enthält mehr Details als auf der Registerkarte verfügbar sind [!UICONTROL Details des Szenarios] Seite. Sie können die Ausführungen auch nach der [!UICONTROL Geschichte] Registerkarte.
 
 1. Klicken Sie auf **[!UICONTROL Szenario]** im linken Bereich auf und klicken Sie dann auf das Szenario.
 
@@ -97,13 +99,15 @@ Die [!UICONTROL Geschichte] zeigt mehr Details an, als auf der Registerkarte ver
    Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie auf den Pfeil nach links ![](assets/exit-editing-arrow.png) in der Nähe der linken oberen Ecke des Fensters.
 
 1. Klicken Sie auf **[!UICONTROL Geschichte]** Registerkarte oben links auf der Seite
-1. (Optional) Detaillierte Informationen zu einem ausgewählten Szenario-Lauf, einschließlich der verarbeiteten Bundles, finden Sie unter **[!UICONTROL Details]** Link.
+1. (Optional) Detaillierte Informationen zu einem ausgewählten Szenario-Lauf, einschließlich der verarbeiteten Bundles, finden Sie unter **[!UICONTROL Details]** -Link.
 
    Weitere Informationen zur Verarbeitung von Bundles finden Sie unter [Ausführungsfluss des Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
-   >Die [!UICONTROL details] -Link nur sichtbar ist, wenn Details zur Ausführung verfügbar sind.
+   >* Die [!UICONTROL details] -Link nur sichtbar ist, wenn Details zur Ausführung verfügbar sind.
+   >
+   >* Der Szenario-Verlauf zeigt einen **Verarbeitungsverlauf** -Zeichen neben den Szenarien, die kürzlich ausgeführt wurden, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
 
 ## den Ausführungsverlauf des Szenarios filtern
 
@@ -133,11 +137,11 @@ Sie können den Ausführungsverlauf des Szenarios sortieren.
    Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie auf den Pfeil nach links ![](assets/exit-editing-arrow.png) in der Nähe der linken oberen Ecke des Fensters.
 
 1. Klicken Sie auf **[!UICONTROL Geschichte]** Registerkarte in der oberen linken Ecke des Bildschirms.
-1. Klicken **[!UICONTROL Volltextsuche]** oben in der Liste der Ausführungen.
+1. Klicks **[!UICONTROL Volltextsuche]** oben in der Liste der Ausführungen.
 
    Oder
 
-   Typ **Strg+Umschalt+F** (Windows) oder **Befehl+Umschalt+F** (Mac) Die [!UICONTROL Suche im Verlauf] geöffnet.
+   Typ **Strg+Umschalt+F** (Windows) oder **Befehl+Umschalt+F** (Mac) Die [!UICONTROL Suche im Verlauf] öffnet sich.
 
 1. (Optional) Um nach Ausführungen zu suchen, die bestimmten Text enthalten, geben Sie den Text in die Suchleiste des **[!UICONTROL Suche im Verlauf]** Fenster.
 
@@ -158,7 +162,7 @@ Sie können den Ausführungsverlauf des Szenarios sortieren.
    >* [!DNL Workfront Fusion] speichert Webhook-Payloads für 30 Tage. Wenn Sie mehr als 30 Tage nach der Erstellung auf eine Webhook-Payload zugreifen, tritt der Fehler auf &quot;[!UICONTROL Datei konnte nicht aus Speicher gelesen werden.]&quot;
 
 
-1. (Optional) Um die Suche nach Status zu begrenzen, wählen Sie den gewünschten Status in der **[!UICONTROL Nach Status]** Dropdown-Liste.
+1. (Optional) Um die Suche nach Status zu begrenzen, wählen Sie den gewünschten Status in der **[!UICONTROL Nach Status]** Dropdown.
 
 
    Verfügbare Status sind:
@@ -169,9 +173,9 @@ Sie können den Ausführungsverlauf des Szenarios sortieren.
 
    * [!UICONTROL Warnung]
 
-   * [!UICONTROL Glückwunsch]
+   * [!UICONTROL Erfolg]
 
-1. (Optional) Ändern Sie die Reihenfolge, in der die Ergebnisse im **[!UICONTROL Nach Datum sortieren]** Dropdown-Liste.
+1. (Optional) Ändern Sie die Reihenfolge, in der die Ergebnisse im **[!UICONTROL Nach Datum sortieren]** Dropdown.
 
 1. (Optional) Um eine Ausführungs-ID für ein Szenario zu kopieren, klicken Sie auf die **[!UICONTROL Ausführungs-ID kopieren]** icon <img src="assets/copy-fusion-execution-id-icon.png"> in der Zeile der gewünschten Ausführung
 

@@ -7,10 +7,10 @@ description: Details zum Szenario in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ Außerdem erhalten Sie Zugriff auf die [Der Szenario-Editor in [!DNL Adobe Workf
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -37,15 +37,15 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
       <td>Auf dieser Registerkarte wird die visuelle Darstellung des Szenarios angezeigt. Das Diagramm ist mit dem im Szenario-Editor identisch</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Verlauf] (Tab) </td> 
+      <td role="rowheader">[!UICONTROL Verlauf] (Registerkarte) </td> 
       <td> <p>Öffnen Sie diese Registerkarte, um einen Verlauf des Szenarios anzuzeigen, einschließlich aller Bearbeitungen des Szenarios. </p> <p>Der Tab [!UICONTROL Verlauf] enthält außerdem den Ausführungsverlauf der einzelnen Ausführungen des Szenarios, der Folgendes enthält:</p> 
        <ul> 
         <li>Status jeder Ausführung (Erfolg oder Fehler)</li> 
@@ -98,7 +98,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Aktivierungsszenario] (Schaltfläche "Ein/Aus")</td> 
+      <td role="rowheader">[!UICONTROL Aktivierungsszenario] (Schaltfläche Ein/Aus)</td> 
       <td>Nachdem ein Szenario erstellt wurde, muss es aktiviert werden, damit es gemäß seinem Zeitplan ausgeführt werden kann. Wenn Sie oben rechts auf die Schaltfläche Ein/Aus klicken, können Sie das Szenario aktivieren oder deaktivieren. Sobald es aktiviert ist, wird das Szenario gemäß seinem Zeitplan ausgeführt.</td> 
      </tr> 
      <tr> 
@@ -132,7 +132,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
-      <td>Mit diesem Diagramm können Sie die Menge der Datenübertragungen und Vorgänge anzeigen, die während der gesamten Ausführung des Szenarios verwendet werden, in einem [!UICONTROL Liniendiagramm].</td> 
+      <td>Mit diesem Diagramm können Sie die Menge der Datenübertragungen und Vorgänge während der gesamten Ausführung des Szenarios in einem [!UICONTROL Linien] Diagramm anzeigen.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Verarbeitungsbanner]</p>  </td> 
+      <td>Wenn Ihr Szenario kürzlich ausgeführt wurde, wird möglicherweise ein Banner angezeigt, das Folgendes liest:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>Dies wird angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.</td> 
      </tr> 
     </tbody> 
    </table>
