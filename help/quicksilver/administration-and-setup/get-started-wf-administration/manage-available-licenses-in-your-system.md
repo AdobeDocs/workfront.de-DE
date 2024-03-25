@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,11 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
    >
    >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das gebührenpflichtige Workfront Testversand-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront-Testversand: Artikelindex](../../workfront-proof/workfront-proof.md).
 
-1. (Bedingt) Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine Startseite hinzufügen**, fügen Sie in Ihrem System eine Home Groups hinzu, wie im Abschnitt beschrieben. [Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel.
+1. (Bedingt) Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine Startseite hinzufügen**, fügen Sie in Ihrem System eine Home Group hinzu, wie im Abschnitt beschrieben. [Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel.
+
+   >[!NOTE]
+   >
+   >Für die neuen Pläne ist es Administratoren nicht möglich, im &quot;Plan auswählen&quot;Lizenzen nach Home Group anzuzeigen. Sie können nur die Gesamtzahl der verwendeten Lizenzen sehen. Die Pläne von Prime und Ultimate bieten die Möglichkeit, die maximale Anzahl von Lizenzen pro Home Group festzulegen.
 
 ## Anzeigen von Informationen zu Lizenzen für Workfront-Add-ons
 
