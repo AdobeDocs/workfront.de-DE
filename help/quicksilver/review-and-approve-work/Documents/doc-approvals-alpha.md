@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Um an dieser Alpha-Version teilnehmen zu können, müssen Sie vom Produktteam zu
 
 ## Neueste Version
 
+## Alpha-Version 7 - März 2024
+
+In dieser Version aus dem 7. Alpha haben wir Folgendes:
+
+* Es wurde die Möglichkeit hinzugefügt, Fristen für Dokumentgenehmigungen zu erstellen.
+* Vorgestellte Genehmigungsvorlagen, die jetzt erstellt und auf Ihre Genehmigungen angewendet werden können, um die Einrichtungszeit zu sparen.
+* Das Validierungs-Widget wurde aktualisiert und zeigt jetzt mehrere wichtige Leistungsindikatoren mit einer detaillierten Liste an, die Sie im Drilldown-Verfahren weiter aufschlüsseln können.
+
+Sehen Sie sich das vollständige Video unten an:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Frühere Versionen_
+
 ## Alpha-Version 6 - Januar 2024
 
 In dieser Version aus dem 6. Alpha haben wir Folgendes:
@@ -37,8 +51,6 @@ In dieser Version aus dem 6. Alpha haben wir Folgendes:
 Sehen Sie sich das vollständige Video unten an:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Frühere Versionen_
 
 ### Alpha-Version 5 - September 2023
 
