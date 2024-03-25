@@ -1,16 +1,16 @@
 ---
 title: Übersicht über Formelfelder
-description: In Adobe Maestro können Sie Formelfelder erstellen, die Funktionen und vorhandene Felder verwenden, um einen neuen benutzerdefinierten Wert zu berechnen.
+description: In der Adobe Workfront-Planung können Sie Formelfelder erstellen, die Funktionen und vorhandene Felder verwenden, um einen neuen benutzerdefinierten Wert zu berechnen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über Formelfelder
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Sie können benutzerdefinierte Felder in Adobe Maestro erstellen, indem Sie auf bestehende Felder verweisen und sie durch eine Formel verbinden. Erstellen Sie dazu ein benutzerdefiniertes Feld vom Typ Formel .
+Sie können benutzerdefinierte Felder in der Adobe Workfront-Planung erstellen, indem Sie auf vorhandene Felder verweisen und sie durch eine Formel verbinden. Erstellen Sie dazu ein benutzerdefiniertes Feld vom Typ Formel .
 
 Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern eines Datensatztyps und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
 
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffskontrollen für Maestro</p>  
+   <td> <p>Es gibt keine Zugangskontrollen für die Planung von Workfornt</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Formularfelder verweisen auf Felder, die zum selben Datensatztyp gehören. Beim Erstellen eines Formelfelds können Sie keine Felder aus anderen Datensatztypen referenzieren. <!--is this still accurate??-->
 * Sie können den Feldtyp eines Formelfelds nicht mehr ändern, nachdem Sie es gespeichert haben.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
-* Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, wie sie in der Maestro-Benutzeroberfläche angezeigt werden.
+* Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, wie sie in der Planungsschnittstelle von Workfront angezeigt werden.
 * Die Verwendung von Suchfeldern aus verknüpften Datensatztypen in einer Formel ist zu einem späteren Zeitpunkt verfügbar.
 
 ## Unterstützte Formeln
 
-Maestro-Formelfelder unterstützen alle Ausdrücke aus den berechneten Workfront-Feldern. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Die Planungsformel-Felder von Adobe Workfront unterstützen alle Ausdrücke aus den berechneten Workfront-Feldern. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Darüber hinaus unterstützen wir die folgenden Ausdrücke für Maestro-Formelfelder:
+Darüber hinaus unterstützen wir die folgenden Ausdrücke für Planungsformel-Felder in Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ oder
    </td></tr>
 
 </table>
-
-
-
-
-

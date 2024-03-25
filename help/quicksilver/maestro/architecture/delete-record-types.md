@@ -1,21 +1,21 @@
 ---
 title: Löschen von Datensatztypen
-description: Sie können betriebliche Datensatztypen oder Taxonomie-Datensatztypen löschen, wenn sie nicht mehr relevant sind.
+description: Sie können Datensatztypen löschen, die nicht mehr relevant sind.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+<!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -29,11 +29,11 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können betriebliche Datensatztypen oder Taxonomie-Datensatztypen löschen, wenn sie nicht mehr relevant sind.
+Sie können Datensatztypen löschen, die nicht mehr relevant sind.
 
-Informationen zu Datensatztypen und Taxonomien finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
+Beim Löschen von Datensatztypen werden jedoch auch alle mit den Datensatztypen verknüpften Informationen gelöscht. Weitere Informationen finden Sie unter [Überlegungen zum Löschen von Datensatztypen](#considerations-when-deleting-record-types) in diesem Artikel beschrieben.
 
-Es wird empfohlen, die Felder und Datensätze, die mit dem Datensatztyp oder der Taxonomie verknüpft sind, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
+Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
 </td>
   </tr>
 
@@ -86,14 +86,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -108,13 +108,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Sie können nur Datensatztypen oder Taxonomien aus Arbeitsbereichen löschen, für die Sie über Verwaltungsberechtigungen verfügen.
-* Durch das Löschen von Datensatztypen werden alle mit ihnen verknüpften Informationen entfernt, einschließlich Feldern und Datensätzen dieses Typs. Der Datensatztyp wird von allen Benutzern entfernt, die auf den Arbeitsbereich zugreifen.
+* Sie können nur Datensatztypen aus Arbeitsbereichen löschen, für die Sie über Verwaltungsberechtigungen verfügen.
+* Durch das Löschen von Datensatztypen werden die folgenden Informationen entfernt, die ihnen zugeordnet sind:
+
+   * Alle Datensätze dieses Typs.
+   * Alle mit dem Datensatztyp verknüpften Felder.
+   * Alle Ansichten des Datensatztyps (einschließlich Filtern, Gruppierungen und Sortierkriterien).
+* Der Datensatztyp wird von allen Benutzern entfernt, die auf den Arbeitsbereich zugreifen.
 * Gelöschte Datensatztypen und ihre Informationen können nicht abgerufen werden.
+* Es wird empfohlen, die Felder und Datensätze, die mit dem Datensatztyp verknüpft sind, den Sie löschen möchten, vor dem Löschen in einem anderen Datensatztyp neu zu erstellen.
 
 ## Löschen von Datensatztypen
-
-Das Löschen von Taxonomie-Datensatztypen ist mit dem Löschen betrieblicher Datensatztypen identisch.
 
 {{step1-to-maestro}}
 
@@ -123,10 +127,10 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
 
    Der Arbeitsbereich wird geöffnet und die damit verbundenen Datensatztypen und Taxonomien werden angezeigt.
-1. Klicken Sie auf die Karte für den Datensatztyp oder die Taxonomie, die Sie löschen möchten.
+1. Klicken Sie auf die Karte für den Datensatztyp, den Sie löschen möchten.
 
    Dadurch wird die Seite des Datensatztyps geöffnet.
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**.
 1. Klicks **Löschen** zur Bestätigung.
 
-   Der ausgewählte Datensatztyp oder die ausgewählte Taxonomie sowie die zugehörigen Felder und Datensätze werden gelöscht.
+   Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht.

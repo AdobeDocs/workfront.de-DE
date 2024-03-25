@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit Maestro - {#step1-to-maestro}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Maestro]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
 
 ## Maestro important intro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Planungsfunktionen von Adobe Workfront, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, ein neues Angebot von Adobe Workfront.
 >
->Derzeit sind die Planungsfunktionen Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zur Verfügung steht. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
+>Derzeit ist die Workfront-Planung Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zugänglich ist. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
 >
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Planungsfunktionen zu erhalten.
+>Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für die Workfront-Planung zu erhalten.
 >
->Weitere Informationen zu Planungsfunktionen finden Sie unter [Übersicht über die Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
@@ -379,7 +379,7 @@ Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeits
    >   * Problem
    >   * Anfrage
    >   * Änderungsanforderung
-   >   * Bug-Bericht
+   >   * Fehlerbericht
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den für Ihr Team ausgewählten verschiedenen Status die Option &quot;Fertig mit meinem Teil&quot;angezeigt.
 

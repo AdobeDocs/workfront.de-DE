@@ -1,13 +1,13 @@
 ---
 title: Feldübersicht
-description: Sie können neue Felder in Adobe Maestro hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
+description: Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können neue Felder in Adobe Maestro hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
+Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
 
 
-## Überlegungen zu Maestro-Feldern
+## Überlegungen zu Adobe Workfront-Planungsfeldern
 
 * Sie können Felder nur aus der Tabellenansicht einer Seite vom Typ Datensatz erstellen. Felder werden in der Tabellenansicht als Spalten angezeigt. Alle mit einem Datensatztyp verknüpften Felder werden auch auf der Detailseite jedes Datensatzes dieses Typs angezeigt.
 
@@ -56,42 +56,36 @@ Sie können neue Felder in Adobe Maestro hinzufügen, die den Lebenszyklus Ihres
 
         In diesem Artikel wird beschrieben, wie Sie Felder manuell erstellen.
 
-      * Durch Verbinden von Datensatztypen. Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Maestro-Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
+      * Durch Verbinden von Datensatztypen. Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Weitere Informationen zum Verbinden von Maestro-Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+        Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
       * Durch Import von Datensatztypen mithilfe einer Excel- oder CSV-Datei. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
    * Automatisch:
 
-      * Standardmäßig jedes Mal, wenn Sie einen Datensatztyp erstellen.
+     Die folgenden Standardfelder werden standardmäßig für jeden neuen Datensatztyp erstellt:
 
-        Die folgenden Standardfelder werden standardmäßig für jeden neuen operationellen Datensatztyp erstellt:
+      * Name
+      * Beschreibung
+      * Startdatum
+      * Enddatum
+      * Status. Die Standardwerte für den Datensatzstatus sind:
+         * Entwicklung
+         * Geplant
+         * Aktiv
+         * Abgeschlossen
+         * Zurückgestellt
 
-         * Name
-         * Beschreibung
-         * Startdatum
-         * Enddatum
-         * Status. Die Standardwerte für den Datensatzstatus sind:
-            * Entwicklung
-            * Geplant
-            * Aktiv
-            * Abgeschlossen
-            * Zurückgestellt
+        Sie können weitere Werte hinzufügen oder die vorhandenen umbenennen.
 
-           Sie können weitere Werte hinzufügen oder die vorhandenen umbenennen.
+     Die Workfront-Planung erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
-        Im Folgenden finden Sie die Standardfelder, die standardmäßig für jeden neuen Taxonomiedatensatztyp erstellt werden:
+* Auf Workfront-Planungsfelder kann nicht über Workfront zugegriffen werden.
 
-         * Name <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen. Maestro erstellt Felder für betriebliche Datensatztypen und Taxonomien, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
-
-* Maestro-Felder können nicht über Workfront aufgerufen werden.
-
-* Auf Workfront-Felder kann nur von Maestro aus zugegriffen werden, wenn Sie Maestro-Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+* Auf Workfront-Felder kann nur von der Workfront-Planung aus zugegriffen werden, wenn Sie Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
 * Sie können die Einstellungen für die Felder, die Sie oder ein anderer Benutzer erstellt haben, anzeigen und aktualisieren, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem das Feld gehört.
 
@@ -99,4 +93,4 @@ Sie können neue Felder in Adobe Maestro hinzufügen, die den Lebenszyklus Ihres
 
 * Feldnamen können bis zu 250 Zeichen enthalten.
 
-* Beim Löschen eines Datensatztyps, einer Taxonomie oder eines Arbeitsbereichs werden auch alle Felder, die mit ihnen verknüpft sind, und die Werte der Felder gelöscht und können nicht wiederhergestellt werden. <!-- this might change with a possible recycle bin solution?!-->
+* Beim Löschen eines Datensatztyps oder Arbeitsbereichs werden auch alle mit ihm verknüpften Felder und die Feldwerte gelöscht und können nicht wiederhergestellt werden. <!-- this might change with a possible recycle bin solution?!-->

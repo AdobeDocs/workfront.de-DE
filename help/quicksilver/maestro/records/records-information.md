@@ -1,14 +1,14 @@
 ---
 title: "Datensätze: Artikelindex"
-description: Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Maestro erstellen und verwalten können.
+description: Nachdem Sie bei der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Nachdem Sie in Adobe Maestro Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen.
+Nachdem Sie in der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen.
 
-In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Maestro erstellen und verwalten können:
+In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können:
 
 * [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md)
 * [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md)

@@ -1,13 +1,13 @@
 ---
 title: Felder erstellen
-description: In Adobe Maestro können Sie benutzerdefinierte Felder für jeden Betriebsdatentyp oder jede Taxonomie erstellen. Anschließend können Sie das Feld mit Maestro-Datensätzen verknüpfen.
+description: Bei der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für jeden Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront-Planungsdatensätzen verknüpfen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro können Sie benutzerdefinierte Felder für betriebliche Datensatztypen oder Taxonomien erstellen. Anschließend können Sie die Felder mit Maestro-Datensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
+Bei der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront-Planungsdatensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
 
 Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Maestro hat keine Zugriffssteuerungsebene</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffskontrolle</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    Weitere Informationen dazu, welche Ausdrücke unterstützt werden, finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Fügen Sie Feldnamen hinzu, wie sie in der Maestro-Oberfläche angezeigt werden, um sie in einer Formel zu referenzieren.
+1. Fügen Sie Feldnamen hinzu, wie sie in der Planungsschnittstelle von Workfront angezeigt werden, um sie in einer Formel zu referenzieren.
 
    >[!NOTE]
    >
    > * Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
    >
-   > * Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Workfront-Planungs-Funktionen - Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
+   > * Es ist nicht möglich, Felder aus verknüpften Datensätzen in einer Formel hinzuzufügen. Diese Funktion wird zu einem späteren Zeitpunkt veröffentlicht. Weitere Informationen zu neuen Versionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klicken Sie auf **Erstellen**.
@@ -513,7 +513,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
 
 Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Maestro-Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
 
-Informationen zum Verbinden von Maestro-Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
+Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
 
 ## Erstellen von Feldern durch Importieren von Datensatztypen mithilfe einer Excel- und CSV-Datei
 
@@ -521,10 +521,10 @@ Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../archite
 
 ## Erstellen von Feldern durch Erstellung eines Datensatztyps
 
-Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem neuen Datensatztyp verknüpfte Felder erstellt. Weitere Informationen finden Sie unter [Erstellen von operationellen Datensatztypen](../architecture/create-record-types.md).
+Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem neuen Datensatztyp verknüpfte Felder erstellt. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
 ## Erstellen von Feldern durch Erstellen eines Arbeitsbereichs aus einer Vorlage
 
-Maestro erstellt Felder für betriebliche Datensatztypen und Taxonomien, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
+Die Adobe Workfront-Planung erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
 
-Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/create-workspaces.md).

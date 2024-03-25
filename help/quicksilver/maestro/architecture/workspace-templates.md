@@ -1,13 +1,13 @@
 ---
 title: Liste der Workspace-Vorlagen
-description: Ein Arbeitsbereich ist eine Sammlung operativer Datensatztypen und Taxonomien, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Maestro verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen, Taxonomien und Feldern beginnen können.
+description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Die Adobe Workfront-Planung enthält eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen und -feldern beginnen können.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-In Adobe Maestro ist ein Arbeitsbereich eine Sammlung operativer Datensatztypen und Taxonomien, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams repräsentieren.
+Bei der Adobe Workfront-Planung ist ein Arbeitsbereich eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen.
 
-Maestro verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen, Taxonomien und Feldern beginnen können. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+Die Workfront-Planung enthält eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen und -feldern beginnen können. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
-In diesem Artikel werden die in Maestro verfügbaren Arbeitsbereichsvorlagen beschrieben.
+In diesem Artikel werden die in der Adobe Workfront-Planung verfügbaren Arbeitsbereichsvorlagen beschrieben.
 
-## Überlegungen zu Maestro-Vorlagen
+## Überlegungen zu Adobe Workfront-Planungsvorlagen
 
-* Jede Vorlage enthält eine Reihe von operationellen Datensatztypen und Taxonomien. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
-* Jeder operationelle Datensatztyp und jede Taxonomie enthält eine Reihe von Feldern. Einige dieser Felder sind Verbindungen zu anderen Maestro-Datensatztypen.
-* Sie können jede Vorlage anpassen.
+* Jede Vorlage enthält eine Reihe von Datensatztypen. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
+* Die in den einzelnen Vorlagen enthaltenen Datensätze sind in die folgenden Abschnitte unterteilt:
+
+   * Operative Datensatztypen
+   * Taxonomien
+* Jeder Datensatztyp enthält eine Reihe von Feldern. Einige dieser Felder sind Verbindungen zu anderen Workfront-Planungs-Datensatztypen.
+* Sie können jede Vorlage anpassen und den vorhandenen Typen und Feldern weitere Datensätze hinzufügen.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Maestro Workspace-Vorlagen
+## Workfront-Planungsvorlagen für Arbeitsbereiche
 
-Im Folgenden finden Sie Workspace-Vorlagen in Maestro und die Anzahl der darin enthaltenen Felder:
+Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anzahl der darin enthaltenen Felder:
 
 * **Marketing-Management**: Sie können alle Ihre Marketing-Kampagnen verwalten, wenn Sie diese Vorlage verwenden. Die Vorlage enthält Folgendes:
 

@@ -1,16 +1,16 @@
 ---
 title: Verwalten von Datensatzkommentaren
-description: Sie können an Adobe Maestro-Datensätzen mitarbeiten, indem Sie Kommentare oder Antworten in den rechten Bereich eines Datensatzes hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+description: Sie können an Adobe Workfront-Planungsprotokollen mitarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # Verwalten von Datensatzkommentaren
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bereich eines Datensatzes hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+Sie können an Adobe Workfront-Planungsprotokollen mitarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
 * **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen.
 * **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->Das rechte Fenster wird sowohl für operative Datensätze als auch für Taxonomiedatensätze angezeigt.
-
-
 ## Überlegungen zum Kommentieren eines Datensatzes
 
-* Sie können Kommentare und Antworten zu betrieblichen Datensätzen und Taxonomien in Maestro im Abschnitt Kommentare eines Datensatzes hinzufügen.
+* Sie können in der Workfront-Planung im Abschnitt Kommentare eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
 
-* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Maestro-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur auf dem Produktdatensatz in Maestro und nicht auf dem Campaign-Datensatz angezeigt, mit dem Sie eine Verknüpfung herstellen.
+* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Workfront-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur auf dem Produktdatensatz in der Workfront-Planung und nicht auf dem Campaign-Datensatz angezeigt, von dem aus Sie ihn verknüpfen.
 
-* Sie können Maestro-Datensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Maestro-Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
+* Sie können Workfront-Planungsdatensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
 
-  Beispielsweise können Sie den Projekt-Maestro-Datensatz kommentieren, nachdem Sie Workfront-Projekte mit Maestro-Datensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
+  Sie können beispielsweise den Planungsdatensatz Projekt-Workfront kommentieren, nachdem Sie Workfront-Projekte mit Workfront-Planungsdatensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md).
 
-* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in Maestro angezeigt und Kommentare, die zu verknüpften Objekten in Maestro hinzugefügt wurden, werden nicht in anderen Anwendungen angezeigt.
+* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in der Workfront-Planung angezeigt und Kommentare, die zu verknüpften Objekten in der Workfront-Planung hinzugefügt wurden, werden in anderen Anwendungen nicht angezeigt.
 
-  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in Maestro verknüpft ist, und Kommentare, die zum Projekt-Maestro-Datensatz hinzugefügt wurden, werden nicht in Workfront angezeigt.
+  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in der Workfront-Planung verknüpft ist, und Kommentare, die zum Projekt-Workfront-Planungsdatensatz hinzugefügt wurden, werden nicht in Workfront angezeigt.
 
 * Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
 
-* Sie können Datensätze aktualisieren und den Verlauf von Änderungen aus den folgenden Bereichen von Maestro überprüfen:
+* Sie können Datensätze aktualisieren und den Verlauf von Änderungen aus den folgenden Bereichen der Workfront-Planung überprüfen:
 
-   * Auf der Detailseite eines Datensatzes oder einer Taxonomie.
+   * Auf der Seite Details eines Datensatzes.
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>In Maestro gibt es keine Steuerelemente für die Zugriffsstufe. </p>  
+   <td> <p>In der Workfront-Planung gibt es keine Steuerelemente für die Zugriffsstufe. </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 
 ## Übersicht über den Verlaufsabschnitt
 
-Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bedienfelds eines Betriebsergebnisses oder einer Taxonomie überprüfen.
+Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bereichs eines Datensatzes überprüfen.
 
 Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md).
-

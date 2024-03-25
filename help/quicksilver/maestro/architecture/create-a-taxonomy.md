@@ -1,14 +1,14 @@
 ---
 title: Erstellen von Taxonomiedatensatztypen
-description: Taxonomien sind eine Art wiederverwendbarer Datensatztypen, die Attribute über einen operationellen Datensatztyp in Adobe Workfront Maestro erfassen.
+description: Wenn Sie eine Vorlage zum Erstellen eines Arbeitsbereichs verwenden, werden Datensatztypen in den Abschnitten "Operative Datensatztypen"und "Taxonomien"erstellt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Taxonomie-Datensatztypen erfassen Attribute über betriebliche Datensatztypen in Adobe Maestro.
+Wenn Sie eine Vorlage zum Erstellen eines Arbeitsbereichs verwenden, werden Datensatztypen in den folgenden Abschnitten erstellt:
+
+* Operative Datensatztypen
+* Taxonomien
+
+Die Datensatztypen im Abschnitt &quot;Taxonomien&quot;eines Arbeitsbereichs erfassen Attribute zu Datensatztypen im Abschnitt &quot;Betriebliche Datensatztypen&quot;desselben Arbeitsbereichs.
 
 Beispielsweise kann Campaign ein operativer Datensatztyp sein. Im Folgenden finden Sie Taxonomien, die Attribute zum Kampagnen-Datensatztyp erfassen: Region, Zielgruppe, Land.
 
-Weitere Informationen zu Maestro-Datensatztypen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
+Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Zugriffsanforderungen
 
@@ -39,11 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Um Maestro-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
+   <p> Adobe Workfront</p> <p>Um Datensatztypen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Erstellen von Taxonomien
 
-* Sie müssen einen Arbeitsbereich erstellen, bevor Sie Taxonomie-Datensatztypen im Arbeitsbereich erstellen können.
+* Sie müssen einen Arbeitsbereich mithilfe einer Vorlage erstellen, bevor Sie Datensatztypen im Abschnitt Taxonomien des Arbeitsbereichs erstellen können.
 
   Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
-* Sie können einen Taxonomie-Datensatztyp erstellen, indem Sie einen der folgenden Schritte ausführen:
+* Sie können einen Datensatztyp im Abschnitt &quot;Taxonomien&quot;eines Arbeitsbereichs erstellen, indem Sie einen der folgenden Schritte ausführen:
    * Erstellen Sie sie automatisch, wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
-   * Erstellen Sie sie manuell von Grund auf neu.
+   * Erstellen Sie sie manuell von Grund auf im Abschnitt &quot;Taxonomien&quot;eines Arbeitsbereichs.
 
-* Alle neu erstellten Taxonomiedatensatztypen enthalten die folgenden Felder:
+* Alle neu erstellten Taxonomien verfügen standardmäßig über die folgenden Felder:
 
-   * Name <!--if there won't be any more fields, consider rephrasing this-->
+   * Name
+   * Beschreibung
+   * Startdatum
+   * Enddatum
+   * Status
 
   Darüber hinaus können Sie benutzerdefinierte Felder zu Taxonomien hinzufügen. Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines Taxonomiedatensatztyps
 
-Das Erstellen von Taxonomiedatensätzen ähnelt dem Erstellen betrieblicher Datensatztypen von Grund auf oder aus einer Workspace-Vorlage.
+Das Erstellen von Taxonomiedatensätzen ähnelt dem Erstellen von Datensatztypen.
 
-Weitere Informationen finden Sie im Artikel unter &quot;Erstellen eines neuen Datensatztyps&quot; [Erstellen von Datensatztypen](../architecture/create-record-types.md).
-
-Informationen zum automatischen Erstellen von Taxonomien beim Erstellen eines Arbeitsbereichs aus einer Vorlage finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).

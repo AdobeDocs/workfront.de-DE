@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront-Planungs-Funktionen - Release-Aktivität
+title: Adobe Workfront-Planungs-Release-Aktivität
 description: Adobe Workfront-Planungsfunktionen stehen derzeit ausgewählten Workfront-Kunden zur Verfügung. Lesen Sie diesen Artikel oft, um mehr über die kürzlich für die Planungsfunktionen veröffentlichten Funktionen zu erfahren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Planungs-Funktionen - Release-Aktivität
+# Adobe Workfront-Planungs-Release-Aktivität
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >[!IMPORTANT]
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
+
+## Woche vom 25. März 2024
+
+### Neue flexible Datensatztyporganisation für Arbeitsbereiche
+
+Produktion: 25. März 2024
+
+Vorschau: zu bestimmen
+
+Damit Sie beim Einrichten von Arbeitsbereichen effizient arbeiten können, haben wir die Art und Weise geändert, wie Sie Datensatztypen in einem Arbeitsbereich organisieren. Zu den Verbesserungen gehören:
+
+* Erstellen Sie in jedem Arbeitsbereich bis zu 50 Abschnitte von Datensatztypen. Die vorhandenen Abschnitte &quot;Typen von Betriebsaufzeichnungen&quot;und &quot;Taxonomien&quot;verbleiben in den vorhandenen Arbeitsbereichen.
+
+* Passen Sie alle neuen Arbeitsbereiche und ihre neuen Abschnitte vollständig an, um die Anforderungen Ihrer Prozesse und Organisation zu erfüllen.
+
+* Dynamisches Verschieben von Datensatztypen in einem Arbeitsbereich durch Ziehen und Ablegen an die gewünschten Stellen, auch über verschiedene Abschnitte hinweg.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Doppelte Ansichten
+
+Produktion: 25. März 2024
+
+Vorschau: zu bestimmen
+
+Um Zeit zu sparen und Konsistenz zu gewährleisten, können Sie jetzt eine vorhandene Ansicht duplizieren, auf die Sie Zugriff haben.
+
+Durch das Duplizieren einer Ansicht wird eine identische Ansicht erstellt, indem dieselben Filter, Sortierkriterien und Gruppierungen verwendet werden. Beim Duplizieren einer Ansicht werden die Berechtigungen der ursprünglichen Ansicht nicht beibehalten.
+
+Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### Der Maestro-Bereich im Hauptmenü wurde in Planung umbenannt.
+
+Produktion: 28. März 2024
+
+Vorschau: zu bestimmen
+
+Wir haben den Bereich Maestro im Hauptmenü in Planung umbenannt.
+
+Einen Überblick über die Adobe Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Woche vom 18. März 2024
 
@@ -207,7 +247,7 @@ Im Folgenden finden Sie die höchsten Berechtigungsstufen, die Benutzer je nach 
 
 Weitere Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Neues Erscheinungsbild der Rich-Text-Symbolleiste für Datensatzfelder

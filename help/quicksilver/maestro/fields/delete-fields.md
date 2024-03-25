@@ -1,13 +1,13 @@
 ---
 title: Felder löschen
-description: In Adobe Maestro können Sie benutzerdefinierte Felder löschen, die nicht mehr relevant sind.
+description: Bei der Adobe Workfront-Planung können Sie nicht mehr relevante benutzerdefinierte Felder löschen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro können Sie benutzerdefinierte Felder erstellen, um Informationen zu Datensätzen zu speichern.
+In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder erstellen, um Informationen zu Datensätzen zu speichern.
 
-Informationen zum Erstellen von benutzerdefinierten Feldern in Maestro finden Sie unter [Felder erstellen](../fields/create-fields.md).
+Informationen zum Erstellen von benutzerdefinierten Feldern in der Workfront-Planung finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-Sie können nicht mehr relevante Maestro-Felder löschen.
+Sie können nicht mehr relevante Workfront-Planungsfelder löschen.
 
-## Überlegungen zum Löschen von Maestro-Feldern:
+## Überlegungen zum Löschen von Workfront-Planungsfeldern:
 
 * Sie können ein Feld nur in der Tabellenansicht des Datensatztyps löschen.
 * Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-maestro}}
 
-Dadurch wird der zuletzt aufgerufene Arbeitsbereich in Maestro geöffnet.
+Dadurch wird der zuletzt aufgerufene Arbeitsbereich in der Workfront-Planung geöffnet.
 1. Klicken Sie auf die Karte eines Datensatztyps, dessen Felder Sie löschen möchten.
 1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
 1. Suchen Sie das zu löschende Feld in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.

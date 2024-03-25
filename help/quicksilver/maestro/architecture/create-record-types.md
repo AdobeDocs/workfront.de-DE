@@ -1,35 +1,27 @@
 ---
-title: Erstellen von operationellen Datensatztypen
+title: Erstellen von Datensatztypen
 description: Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten Arbeitselemente illustrieren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Erstellen von operationellen Datensatztypen
+# Erstellen von Datensatztypen
 
 {{maestro-important-intro}}
 
 Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
-
 Datensatztypen können eine der folgenden sein:
 
-* **Betriebsdatentypen**
-* **Taxonomien**
-
-Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md).
-
-Das Erstellen operativer Datensatztypen ähnelt dem Erstellen von Taxonomie-Datensatztypen. In diesem Artikel wird beschrieben, wie Sie betriebliche Datensatztypen erstellen.
-
-Informationen zum Erstellen von Taxonomien finden Sie unter [Erstellen von Taxonomiedatensatztypen](../architecture/create-a-taxonomy.md).
+Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Zugriffsanforderungen
 
@@ -75,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * Wenn Sie einen Arbeitsbereich mit einer Vorlage erstellen.
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
-      * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren. Dies ist nicht für Taxonomie-Datensatztypen verfügbar.
+
+      * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren.
 
         >[!IMPORTANT]
         >
         >Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuell:
 
       * Von Grund auf neu.
 
+        In diesem Artikel wird beschrieben, wie Sie allgemeine Datensatztypen von Grund auf in einem von Ihnen erstellten Arbeitsbereich erstellen.
+
+* Sie können Datensatztypen innerhalb eines Abschnitts und von einem Abschnitt eines Arbeitsbereichs in einen anderen verschieben. Es ist nicht möglich, Datensatztypen von einem Arbeitsbereich in einen anderen zu verschieben.
+
 ## Erstellen von Datensatztypen mithilfe einer Workspace-Vorlage
 
-Sie können Datensatztypen automatisch erstellen, wenn Sie einen Arbeitsbereich mithilfe einer Workfront-Planungsvorlage erstellen. Jede Vorlage enthält Beispiel-Betriebs- und Taxonomiedatensatztypen.
+Sie können Datensatztypen automatisch erstellen, wenn Sie einen Arbeitsbereich mithilfe einer Workfront-Planungsvorlage erstellen. Jede Vorlage enthält Beispieldatensatztypen.
+
+Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, sind die Datensatztypen in den folgenden Abschnitten gruppiert:
+
+* Betriebsdatentypen
+* Taxonomien
+
+Sie können Datensatztypen manuell sowohl in den Abschnitten &quot;Operative Datensatztypen&quot;als auch &quot;Taxonomien&quot;hinzufügen.
 
 Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
 
 ## Erstellen eines neuen Datensatztyps
 
-In diesem Artikel wird beschrieben, wie Sie von Grund auf betriebliche Datensatztypen erstellen. Das Erstellen neuer betrieblicher Datensatztypen ist mit dem Erstellen von Taxonomien vergleichbar.
-
-Weitere Informationen zu Taxonomien finden Sie unter [Erstellen einer Taxonomie](../architecture/create-a-taxonomy.md).
+In diesem Artikel wird beschrieben, wie Sie Datensatztypen von Grund auf neu erstellen.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
 1. Klicks **Datensatztyp hinzufügen**.
-1. (Bedingt) Wenn Sie einen operationellen Datensatztyp erstellen, klicken Sie auf **Von Grund auf**. Diese Option ist beim Erstellen von Taxonomien nicht verfügbar.
+1. (Bedingt) Wenn Sie einen operationellen Datensatztyp erstellen, klicken Sie auf **Von Grund auf**.
 
    Das Feld Datensatztyp hinzufügen wird geöffnet.
 
@@ -165,8 +167,6 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
    Standardmäßig werden die folgenden Felder in den Tabellenansichtsspalten eines operationellen Datensatztyps angezeigt:
 
    * Name
-
-     Das Feld Name ist das einzige Feld, das automatisch für Taxonomien erstellt wird.
    * Beschreibung
    * Startdatum
    * Enddatum
@@ -196,6 +196,10 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
    * [Datensatztypen bearbeiten](../architecture/edit-record-types.md)
    * [Verwalten von Datensatzansichten](../views/manage-record-views.md)
 
+1. (Optional) Klicken Sie im Arbeitsbereich auf , um einen Datensatztyp per Drag-and-Drop an eine gewünschte Position zu ziehen oder in einen anderen Abschnitt zu verschieben.
+
+   Die Änderungen werden automatisch gespeichert, nachdem Sie die ausgewählte Datensatztyp-Karte abgelegt haben.
+
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
 1. Klicks **Datensatztyp hinzufügen**.
-1. (Bedingt) Wenn Sie einen operationellen Datensatztyp erstellen, klicken Sie auf **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Diese Option ist beim Erstellen von Taxonomie-Datensatztypen nicht verfügbar.
-
+1. Klicks **Excel/CSV**.
 1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **CSV- oder Excel-Datei auswählen** um nach einer zu suchen.
 1. Klicks **Daten überprüfen**.
 
@@ -267,9 +266,9 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

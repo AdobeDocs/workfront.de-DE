@@ -4,22 +4,23 @@ description: Sie können die Informationen eines vorhandenen Arbeitsbereichs bea
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Arbeitsbereiche bearbeiten
 
 {{maestro-important-intro}}
 
-In Adobe Maestro sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
+Bei der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
 
-Ein Arbeitsbereich ist eine Sammlung operativer Datensatztypen und Taxonomien, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in Maestro vollständig anpassen.
+Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
 
 Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am Adobe Maestro Closed-Beta-Programm teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Maestro</p>
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Sie müssen den Maestro-Bereich zu Ihrer Layoutvorlage hinzufügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Sie müssen den Planungsbereich zu Ihrer Layoutvorlage hinzufügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 {{step1-to-maestro}}
 
-Dadurch wird der Arbeitsbereich von Maestro geöffnet.
+Dadurch wird der Arbeitsbereich der Workfront-Planung geöffnet.
 
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**
 
@@ -99,11 +100,7 @@ Dadurch wird der Arbeitsbereich von Maestro geöffnet.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
-1. (Optional) Klicken Sie auf **Taxonomie hinzufügen** , um dem Arbeitsbereich Taxonomien hinzuzufügen.
-
-   Weitere Informationen finden Sie unter [Erstellen von Taxonomien](../architecture/create-a-taxonomy.md).
-
-1. (Optional) Klicken Sie auf das Dropdown-Menü Ansicht , um eine vorhandene Ansicht zu bearbeiten oder zu erstellen.
+1. (Optional) Klicken Sie auf den Namen einer Ansicht in den Registerkarten &quot;Ansicht&quot;und bearbeiten Sie eine vorhandene Ansicht oder klicken Sie auf **+ Ansicht** , um eine Ansicht zu erstellen.
 
    Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
 

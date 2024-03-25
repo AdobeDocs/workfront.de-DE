@@ -1,81 +1,87 @@
 ---
-title: Übersicht über Datensatztypen und Taxonomien
-description: Datensatztypen sind die Bausteine eines Maestro-Arbeitsbereichs.
+title: Übersicht über Datensatztypen
+description: Datensatztypen sind die Bausteine eines Adobe Workfront-Arbeitsbereichs für die Planung.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Übersicht über Datensatztypen und Taxonomien
+# Übersicht über Datensatztypen
 
 {{maestro-important-intro}}
 
-Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Adobe Maestro eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
+Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie bei der Adobe Workfront-Planung eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
 
-Maestro-Objekttypen werden als &quot;Datensatztypen&quot;bezeichnet. Datensatztypen sind die Bausteine eines Maestro-Arbeitsbereichs. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+Workfront-Planungs-Objekttypen werden als &quot;Datensatztypen&quot;bezeichnet und Sie können alle Typen erstellen und anpassen. Datensatztypen sind die Bausteine eines Workfront-Arbeitsbereichs für die Planung. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
 ## Übersicht über Datentypen
 
-In Maestro können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
+Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
 
-* Die folgenden Maestro-Datensatztypen sind verfügbar:
+* Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Arbeitsbereich-Abschnitten erstellt:
 
-   * [Betriebsdatentyp](#operational-record-type): Ein Datensatztyp, der strategische Pläne, Initiativen oder geplante Arbeiten darstellt. Beispielsweise können Campaign, Activity, Tactic und Opportunity betriebliche Datensatztypen sein.
-   * [Taxonomie](#taxonomy): Record types, die Attribute zu einem betrieblichen Datensatztyp erfassen. So können beispielsweise Region, Adresse und Zielgruppe Taxonomien sein.
+   * [Operative Datensatztypen](#operational-record-type): Ein Datensatztyp, der strategische Pläne, Initiativen oder geplante Arbeiten darstellt. Beispielsweise können Campaign, Activity, Tactic und Opportunity betriebliche Datensatztypen sein.
+   * [Taxonomien](#taxonomy): Record types, die Attribute zu einem betrieblichen Datensatztyp erfassen. So können beispielsweise Region, Adresse und Zielgruppe Taxonomien sein.
 
+* Wenn Sie einen Datensatztyp in einem von Ihnen erstellten Arbeitsbereich erstellen, können Sie den Datensatztyp in einem beliebigen Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
 * Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, die Sie für den Zugriff auf den Arbeitsbereich berechtigen, den Datensatztyp anzeigen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
-* Sie können in einem Arbeitsbereich insgesamt 1.000 betriebliche Datensatztypen und Taxonomien zusammenführen. Dies umfasst Datensatztypen oder Taxonomien, die Sie von Grund auf neu erstellen oder die Sie aus anderen Systemen importieren.
+* Sie können in einem Arbeitsbereich insgesamt 1.000 Datensatztypen verwenden, unabhängig davon, wie viele Abschnitte der Arbeitsbereich umfasst. Dies umfasst Datensatztypen, die Sie von Grund auf neu erstellen oder die bei Verwendung einer Vorlage erstellt werden.
 
-### Betriebsdatentyp{#operational-record-type}
 
-Ein operationeller Datensatztyp ist ein Maestro-Record-Typ, der arbeitsbezogene Objekte darstellt.
+<!--
+
+### Operational Record Type{#operational-record-type}
+
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
-Weitere Informationen zu operativen Datensatztypen, einschließlich ihrer Erstellung, finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
+For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
-### Taxonomie{#taxonomy}
+### Taxonomy{#taxonomy}
 
-Eine Taxonomie ist ein Datensatztyp, der Attribute über einen operationellen Datensatztyp erfasst.
+A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
 
-Weitere Informationen zu Taxonomie-Datensatztypen finden Sie unter [Erstellen einer Taxonomie](../architecture/create-a-taxonomy.md).
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Obwohl das Erstellen von Taxonomien mit dem Erstellen von operationellen Datensatztypen identisch ist, unterscheidet Maestro konzeptionell zwischen einem operationellen Datensatztyp und einem Taxonomiedatensatstyp. Ziel von Taxonomien ist es, die operationellen Datensatztypen zu verbessern. Taxonomien sollten keine Arbeitsobjekte direkt darstellen.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
-Beispielsweise können Datensatztypen vom Typ Zielgruppe, Region oder Adresse vom Typ Taxonomie sein.
+For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-Weitere Informationen finden Sie unter [Erstellen einer Taxonomie](../architecture/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-## Ähnlichkeiten und Unterschiede zwischen operationellen Datensatztypen und Taxonomien
+## Similarities and differences between operational record types and taxonomies
 
-Die folgende Tabelle zeigt einige der Ähnlichkeiten und Unterschiede zwischen operationellen Datensatztypen und Taxonomien:
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
 
-| Art der Aufzeichnung und Kennzeichen | Betriebsdatentyp | Taxonomie-Record-Typ |
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| Sie sind Teil eines Arbeitsbereichs | ✓ | ✓ |
-| Sie können sie automatisch über eine Workspace-Vorlage erstellen | ✓ | ✓ |
-| Sie können sie manuell neu erstellen | ✓ | ✓ |
-| Sie können sie erstellen, indem Sie Informationen aus einer externen Datei oder Liste kopieren und einfügen | ✓ | ✓ |
-| Sie können eine Excel- oder CSV-Datei erstellen | ✓ |                     |
-| Sie können schreibgeschützte Datensatztypen erstellen, indem Sie von anderen Anwendungen aus eine Verbindung zu Objektarten herstellen | ✓ |                     |
-| Sie stellen arbeitsbezogene Objekte dar | ✓ |                      |
-| Sie stellen Attribute zu arbeitsbezogenen Objekten dar |                         | ✓ |
-| Sie können von Grund auf neu erstellen | ✓ | ✓ |
-| Sie können eine Excel- oder CSV-Datei erstellen | ✓ |                      |
-| Sie können den Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden | ✓ |                      |
-| Sie können eine Verbindung zu anderen Maestro-Datensatztypen herstellen | ✓ |                    |
-| Die zugehörigen Datensätze können in einer Tabellenansicht angezeigt werden. | ✓ | ✓ |
-| Sie können die zugehörigen Datensätze in einer Timeline-Ansicht anzeigen. | ✓ | ✓ |
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

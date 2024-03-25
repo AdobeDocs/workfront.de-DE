@@ -1,13 +1,13 @@
 ---
 title: "Architektur: Artikelindex"
-description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur von Adobe Maestro konfigurieren können. Im Rahmen dieser Konfiguration erfahren Sie, wie Sie Arbeitsbereiche, Datensatztypen und benutzerdefinierte Felder erstellen, um die Workflows abzubilden, die Sie in Adobe Maestro verwalten möchten.
+description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur der Adobe Workfront-Planung konfigurieren können. Im Rahmen dieser Konfiguration erfahren Sie, wie Sie Arbeitsbereiche, Datensatztypen und benutzerdefinierte Felder erstellen, um die Workflows abzubilden, die Sie in der Workfront-Planung verwalten möchten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,18 +30,18 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Als Leiter von Marketingoperationen können Sie Adobe Maestro verwenden, um die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams zu organisieren.
+Als Marktführer für Marketing-Vorgänge können Sie die Adobe Workfront-Planung verwenden, um die Arbeit für alle Ihre Teams über den gesamten Marketing-Lebenszyklus zu organisieren.
 
-Mit Maestro können Sie Ihre Workflows vollständig anpassen, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, um zu konfigurieren, wie diese Objekte miteinander verknüpft werden.
+Mit der Workfront-Planung können Sie Ihre Workflows vollständig anpassen, indem Sie festlegen, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, bis hin zur Konfiguration der Verknüpfung dieser Objekte miteinander.
 
-Außerdem kann Maestro Verknüpfungen zu Objektarten aus anderen Systemen erstellen und so ein kohärentes Framework für alle Ihre Prozesse erstellen.
+Außerdem kann die Workfront-Planung mit Objekttypen aus anderen Systemen verknüpft werden, wodurch ein kohärentes Framework für alle Ihre Prozesse entsteht.
 
-In den folgenden Artikeln wird beschrieben, wie Sie die Maestro-Arbeitsbereiche konfigurieren, die Datensatztypen definieren, die die Bausteine dieser Arbeitsbereiche sind, und mit der Verwendung der zugehörigen Funktionen beginnen können:
+In den folgenden Artikeln wird beschrieben, wie Sie die Adobe Workfront-Planungs-Arbeitsbereiche konfigurieren, die Datensatztypen definieren, die die Bausteine dieser Arbeitsbereiche sind, und mit der Verwendung der zugehörigen Funktionen beginnen können:
 
 * [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md)
 * [Liste der Workspace-Vorlagen](../architecture/workspace-templates.md)
-* [Übersicht über Datensatztypen und Taxonomien](../architecture/overview-of-record-types-and-taxonomies.md)
-* [Erstellen von operationellen Datensatztypen](../architecture/create-record-types.md)
+* [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md)
+* [Erstellen von Datensatztypen](../architecture/create-record-types.md)
 * [Erstellen von Taxonomiedatensatztypen](../architecture/create-a-taxonomy.md)
 * [Datensatztypen bearbeiten](../architecture/edit-record-types.md)
 * [Datensatztypen verbinden](../architecture/connect-record-types.md)

@@ -1,18 +1,18 @@
 ---
-title: Übersicht über die Planungsfunktionen von Adobe Workfront
-description: Adobe Workfront-Planungsfunktionen sind ein neues Angebot von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen jeder Organisationseinheit in Ihrem Unternehmen entsprechen.
+title: Übersicht über die Adobe Workfront-Planung
+description: Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen jeder Organisationseinheit in Ihrem Unternehmen entsprechen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 1%
 
 ---
 
-# Übersicht über die Planungsfunktionen von Adobe Workfront
+# Übersicht über die Adobe Workfront-Planung
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,20 +22,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Planungsfunktionen von Adobe Workfront, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, ein neues Angebot von Adobe Workfront.
 >
->Derzeit sind die Planungsfunktionen Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zur Verfügung steht. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
+>Derzeit ist die Adobe Workfront-Planung Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zugänglich ist. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
 >
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für Planungsfunktionen zu erhalten.
->[Sehen Sie sich eine Videodemonstration zu den Planungsfunktionen von Adobe Workfront an.](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für die Workfront-Planung zu erhalten.
 
-## Einführung in die Planungsfunktionen von Adobe Workfront
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Adobe Workfront-Planungsfunktionen sind ein neues Angebot von Adobe Workfront. Mit den Planungsfunktionen soll eine umfassende Sichtbarkeit der operativen Details einer Organisation erreicht und kritische Geschäftsfragen in jeder Phase des Lebenszyklus des Arbeitsmanagements beantwortet werden.
+## Einführung in die Adobe Workfront-Planung
+
+Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus des Arbeitsmanagements zu beantworten.
 
 Teams und Führungskräfte benötigen klare Antworten auf Fragen wie:
 
-* Wie viele Kampagnen führen wir in EMEA für das 4. Quartal durch?
+* Wie viele Kampagnen führen wir in EMEA für das 4. Quartal aus?
 * Gibt es Zielgruppenüberschneidungen zwischen gleichzeitigen Kampagnen?
 * Wie gut laufen die Sensibilisierungsprogramme derzeit?
 * Wie sehen die Assets für eine bestimmte Kampagne aus? Welche von ihnen müssen noch genehmigt werden?
@@ -50,16 +51,14 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen:
 
 ## Derzeit verfügbare Adobe Workfront-Planungsfunktionen
 
-Die folgende Tabelle zeigt die wichtigsten Funktionen, die in den Planungsfunktionen verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
+Die folgende Tabelle zeigt die wichtigsten Funktionen, die in der Workfront-Planung verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
 
-Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Adobe Workfront-Planungs-Funktionen - Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
+Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Erstellen von Arbeitsbereichen | ✓ |                                  |                  |
-| Erstellen von operationellen Datensatztypen | ✓ |                                  |                  |
-| Erstellen von Taxonomien | ✓ |                                  |                  |
-| Erstellen einzelner, benannter Datensätze und Taxonomien | ✓ |                                  |                  |
+| Erstellen von Datensatztypen | ✓ |                                  |                  |
 | Benutzerdefinierte Datensatzfelder erstellen | ✓ |                                  |                  |
 | Importieren von Datensatztypen und Feldern mithilfe einer Excel- oder CSV-Datei* | ✓ |                                  |                  |
 | Link-Datensätze | ✓ |                                  |                  |
@@ -74,15 +73,15 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Sortieren von Gruppierungen in der Tabellenansicht |                               | ✓ |                  |
 | Sortieren von Gruppierungen in der Timeline-Ansicht |                               | ✓ |                  |
 | Arbeitsbereiche verbinden |                               | ✓ |                  |
-| Datensätze und Taxonomien der Planungsfunktionen verbinden | ✓ |
 | In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
 | Suchen nach Datensätzen in der Timeline-Ansicht | ✓ |   |
-| Verbinden von Datensätzen zu Planungsfunktionen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
-| Verbinden von Datensätzen der Planungsfunktionen mit Adobe Experience Manager-Assets | ✓ |                                  |                 |
-| Seite mit Datensatzdetails | ✓ |                                  |                  |
+| Verbinden von Workfront-Planungsdatensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
+| Verbinden von Workfront-Planungsdatensätzen mit Adobe Experience Manager-Assets | ✓ |                                  |                 |
+| Seite &quot;Datensatzdetails&quot; | ✓ |                                  |                  |
 | Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
 | Freigeben von Arbeitsbereichen | ✓ | |  |
 | Ansichten freigeben | ✓ | |  |
+| Doppelte Ansichten | ✓ | |  |
 | Anfragen senden |                               |                                  | ✓ |
 | Kreativbeschreibung |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
@@ -93,21 +92,21 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Adobe Workfront-Planungsmodule für Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informationen aus einem Feld in ein anderes kopieren und einfügen | ✓ |                                  |                 |
 
-## Aktivieren der Adobe Workfront-Planungsfunktionen für Benutzer in Ihrer Workfront-Instanz
+## Aktivieren der Adobe Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 
-Ihr Unternehmen muss sich für das geschlossene Betaprogramm der Adobe Workfront-Planungsfunktionen anmelden, bevor Sie auf die Planungsfunktionen zugreifen können. Wenden Sie sich an Ihren Kundenbetreuer, um Informationen zur Anmeldung im Beta-Programm zu erhalten.
+Ihr Unternehmen muss sich für das geschlossene Betaprogramm für die Adobe Workfront-Planung registrieren, bevor Sie auf die Planungsfunktionen zugreifen können. Wenden Sie sich an Ihren Kundenbetreuer, um Informationen zur Anmeldung im Beta-Programm zu erhalten.
 
-Weitere Informationen über die Gewährung von Zugriff auf und die Aktivierung der Verwendung der Planungsfunktionen durch andere Benutzer finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
+Weitere Informationen über die Gewährung von Zugriff auf und die Aktivierung der Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminologie der Adobe Workfront-Planungsfunktionen
+## Terminologie der Adobe Workfront-Planung
 
-Die Planungsfunktionen sind zwar Teil von Workfront, enthalten jedoch auch proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit den Konzepten der Planungsfunktionen vertraut sind, bevor Sie mit der Einrichtung von Planungsfunktionen für Ihr Unternehmen beginnen.
+Obwohl die Workfront-Planung Teil von Workfront ist, enthält sie proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit den neuen Konzepten vertraut sind, bevor Sie mit der Einrichtung der Workfront-Planung für Ihr Unternehmen beginnen.
 
-Das Framework für die Planungsfunktionen ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle mit ihnen verknüpften Felder entsprechend den Anforderungen Ihrer Organisation erstellen.
+Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle mit ihnen verknüpften Felder entsprechend den Anforderungen Ihrer Organisation erstellen.
 
-Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
+Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfront:
 
-* **Arbeitsbereich**: Eine Sammlung von Datensatztypen und Taxonomien, die den betrieblichen Lebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
+* **Arbeitsbereich**: Eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
 
   Eine Workfront-Instanz kann über maximal 1.000 Arbeitsbereiche verfügen.
 
@@ -115,64 +114,39 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture/create-workspaces.md).
 
-* **Record Type**: Der Objekttyp der Hauptplanungsfunktionen.
+* **Record Type**: Der Objekttyp oder die Workfront-Planung.
 
-  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in den Planungsfunktionen eigene Objekttypen erstellen.
+  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie bei der Workfront-Planung eigene Objekttypen erstellen.
 
   Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
 
-  In den Planungsfunktionen können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
+  Bei der Workfront-Planung können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
 
-  Weitere Informationen finden Sie unter [Übersicht über die Betriebsdatentypen und -taxonomien](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Die Planungsfunktionen weisen die folgenden Datensatztypen auf:
-
-   * **Betriebsdatentyp**: Ein Datensatztyp, der strategische Pläne, Initiativen oder ausgeführte Arbeiten darstellt.
-
-     ![](assets/operational-record-type-blank.png)
-
-     Beispielsweise kann Campaign, Activity, Programm operationelle Datensatztypen sein.
-
-     Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../maestro/architecture/create-record-types.md).
-
-   * **Taxonomie**: Ein Record Type, der Attribute über einen operationellen Record erfasst.
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     Auch wenn die Erstellung von Taxonomien mit der Erstellung betrieblicher Datensatztypen identisch ist, unterscheiden sich die Planungsfunktionen zwischen einem operationellen Datensatztyp und einem Taxonomiedatensatz. Ziel von Taxonomien ist es, die operationellen Datensatztypen zu verbessern. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     Beispielsweise können Datensatztypen vom Typ Zielgruppe, Region oder Adresse vom Typ Taxonomie sein.
-
-     Weitere Informationen finden Sie unter [Erstellen von Taxonomiedatensatztypen](../maestro/architecture/create-a-taxonomy.md).
-
-* **Datensatz**: Eine Instanz eines Datensatztyps einer Planungsfunktion. Ein Datensatz kann sich auf einen operationellen Datensatztyp oder auf eine Taxonomie beziehen.
+* **Datensatz**: Eine Instanz eines Datensatztyps.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   Nachdem Sie einem Arbeitsbereich einen Datensatztyp hinzugefügt haben, können Sie damit beginnen, Datensätze dieses Typs auf der Seite des Datensatztyps hinzuzufügen.
 
-  Beispielsweise kann &quot;Campaign&quot;ein operativer Record-Typ sein und &quot;Summer Campaign for EMEA&quot;ist ein Datensatz vom Typ &quot;Campaign Record&quot;
-
-  Oder
-
-  &quot;Region&quot;ist ein Datensatz vom Typ Taxonomie, während &quot;Nord- und Südamerika&quot;oder &quot;EMEA - Mitteleuropa&quot;Taxonomie-Datensätze sind.
+  Beispielsweise kann &quot;Campaign&quot;ein Record-Typ sein und &quot;Summer Campaign for EMEA&quot;ist ein Datensatz des Campaign-Datensatztyps
 
   Weitere Informationen finden Sie unter [Datensätze erstellen](../maestro/records/create-records.md).
 
-* **Workspace-Vorlage**: Sie können einen Arbeitsbereich mit vordefinierten Vorlagen erstellen. Sie können die vordefinierten Datensatztypen, Taxonomien und Felder, die in einer Vorlage enthalten sind, verwenden oder eigene hinzufügen.
+* **Workspace-Vorlage**: Sie können einen Arbeitsbereich mit vordefinierten Vorlagen erstellen. Sie können die vordefinierten Datensatztypen und -felder, die in einer Vorlage enthalten sind, verwenden oder eigene hinzufügen.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront-Planungsfunktionen sind mit einer Arbeitsbereichsvorlage für Vertrieb, Marketing und Produktverwaltung ausgestattet.
+  Die Adobe Workfront-Planung enthält eine Workspace-Vorlage für Vertrieb, Marketing und Produktverwaltung .
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture/create-workspaces.md).
 
-* **Felder**: Felder sind Attribute, die Sie zu Betriebs- oder Taxonomiedatensatztypen hinzufügen können, die Informationen zum Datensatztyp enthalten. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Felder**: Felder sind Attribute, die Sie zu Datensatztypen hinzufügen können. Felder enthalten Informationen zum Datensatztyp. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Überlegungen zu Planungsfähigkeitsfeldern:
+  Hinweise zu Datensatzfeldern:
 
    * Die Felder, die Sie für einen Datensatztyp hinzufügen, werden automatisch allen Datensätzen dieses Typs zugeordnet und können zum Erfassen von Daten zu diesen Datensätzen verwendet werden.
 
@@ -180,19 +154,17 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
 
    * Felder sind für einen Datensatztyp eindeutig und werden nicht von einem Datensatztyp zum anderen übertragen.
 
-   * Die Felder der Planungsfunktion sind vollständig anpassbar und stehen nur in den Planungsfunktionen zur Verfügung. Sie können nicht über Workfront auf Planungsfunktionsfelder zugreifen.
+   * Die Felder können vollständig angepasst werden und stehen nur in der Workfront-Planung zur Verfügung. Sie können nicht über Workfront auf Planungsfelder für Workfront zugreifen.
 
   Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
 
-  Ein neuer operationeller Datensatztyp ist standardmäßig mit den folgenden vordefinierten Feldern verknüpft:
+  Ein neuer Datensatztyp ist standardmäßig mit den folgenden vordefinierten Feldern verknüpft:
 
    * Name
    * Beschreibung
    * Startdatum
    * Enddatum
    * Status
-
-  Ein neuer Taxonomie-Record-Typ ist standardmäßig mit einem Namensfeld verknüpft.
 
   Sie können benutzerdefinierte Felder der folgenden Typen erstellen:
 
@@ -212,11 +184,11 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
    * Zuletzt geändert von
    * Zuletzt geändert am
 
-* **Verknüpfte Datensatztypen**, **Verknüpfte Datensätze**, und **Verknüpfte Datensatzfelder**: Sie können eine Verbindung zwischen den folgenden Entitäten herstellen:
+* **Verknüpfte Datensatztypen**, **Verknüpfte Datensätze**, und **Verknüpfte Datensatzfelder**: Sie können eine Verbindung zwischen den folgenden Entitäten in der Workfront-Planung erstellen:
 
-   * Zwei Planungs-Datensatz-Typen.
-   * Ein Datensatz für Planungsfähigkeiten und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
-   * Ein Planungs-Funktionsdatensatz und ein Adobe Experience Manager-Asset oder -Ordner.
+   * Zwei Datensatztypen.
+   * Ein Datensatztyp und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
+   * Ein Datensatztyp und ein Adobe Experience Manager-Asset oder -Ordner.
 
      Sie müssen über eine Adobe Experience Manager-Lizenz verfügen, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
 
@@ -227,7 +199,7 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
 
 * **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie eine Verbindung herstellen.
 
-  Wenn Sie z. B. eine Planungsfunktionskampagne mit einem Workfront-Projekt verbinden, können Sie das Feld Projektinhaber der verbundenen Projekte in den Datensätzen der Planungsfähigkeitskampagnen anzeigen.
+  Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Projektinhaber der verbundenen Projekte in den Kampagnensätzen anzeigen.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Im Folgenden finden Sie die wichtigsten Planungspotenzialobjekte und -konzepte:
 Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront-Planungsfunktionen - Objektbeschränkungen
+## Adobe Workfront-Planungs-Objektbeschränkungen
 
-Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die Sie in den Planungsfunktionen erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
+Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
 
-| Adobe Workfront-Planungsfunktionen, Objekt | Limit |
+| Adobe Workfront-Planungsobjekt | Limit |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
-| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Taxonomien für den Arbeitsbereich oder Objekte, die Sie aus anderen Anwendungen importieren) |
+| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Abschnitten und solche, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Datensatzanzahl für einen Datensatztyp | 50.000 |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |
@@ -279,20 +251,20 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 
 >[!IMPORTANT]
 >
->*Diese Funktion wurde vorübergehend deaktiviert und wird zu einem späteren Zeitpunkt verfügbar sein.
+>*Diese Funktion wurde vorübergehend deaktiviert und steht zu einem späteren Zeitpunkt zur Verfügung.
 
 
-## Adobe Workfront-Planungsfunktionen ermitteln
+## Adobe Workfront-Planung suchen
 
-Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Planungsfunktionen hat und dass Ihr System- oder Gruppenadministrator den Bereich Planungsfunktionen zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
+Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
-So lokalisieren Sie die Planungsfunktionen:
+So lokalisieren Sie die Workfront-Planung:
 
 1. Melden Sie sich bei Adobe Workfront an.
 
 1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder klicken Sie auf das **Hauptmenü** ![](assets/main-menu-shell.png) oben links, falls verfügbar.
 
-1. Klicks **Maestro** ![](assets/maestro-icon.png).
+1. Klicks **Planung** ![](assets/maestro-icon.png).
 
    Der Arbeitsbereich wird geöffnet.
 
@@ -300,11 +272,11 @@ So lokalisieren Sie die Planungsfunktionen:
 
    1. Erstellen Sie einen neuen Arbeitsbereich oder verwenden Sie eine Vorlage.
 
+   1. Fügen Sie dem neuen Arbeitsbereich Abschnitte hinzu.
+   1. Benennen Sie die vorhandenen Abschnitte in den neuen Arbeitsbereich um.
    1. Fügen Sie dem neuen Arbeitsbereich Datensatztypen hinzu.
 
-   1. Fügen Sie den neuen Arbeitsbereichen Taxonomien hinzu.
-
-   1. Klicken Sie auf den Namen eines Datensatztyps, um die Datensatzseite zu öffnen. Die Datensatzseite wird standardmäßig in der Tabellenansicht geöffnet.
+   1. Klicken Sie auf den Namen eines Datensatztyps, um die Seite des Datensatztyps zu öffnen. Die Seite mit dem Datensatztyp wird standardmäßig in der Tabellenansicht geöffnet.
 
       Sie können auch eine Timeline- oder eine Kalenderansicht erstellen.
 
@@ -314,7 +286,9 @@ So lokalisieren Sie die Planungsfunktionen:
 
       Beginnen Sie mit dem Hinzufügen von Datensatzfeldern durch Hinzufügen von Spalten.
 
-## Adobe Workfront-Planungs-Funktionen - Release-Aktivität
+## Adobe Workfront-Planungs-Release-Aktivität
 
-Wir veröffentlichen regelmäßig neue Funktionen für die Planungsfunktionen. Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Funktionen - Release-Aktivität](../maestro/release-activity.md).
+Wir veröffentlichen regelmäßig neue Funktionen für die Workfront-Planung.
+
+Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](../maestro/release-activity.md).
 

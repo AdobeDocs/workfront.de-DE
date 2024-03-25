@@ -1,24 +1,25 @@
 ---
-title: Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront
-description: Ihr Zugriff auf die Planungsfunktionen von Adobe Workfront hängt von Ihrem Lizenztyp sowie von Ihren Berechtigungen für Objekte ab.
+title: Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
+description: Ihr Zugriff auf die Adobe Workfront-Planung hängt von Ihrem Lizenztyp sowie von Ihren Berechtigungen für Objekte ab.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
-<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront
+# Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
 
 {{maestro-important-intro}}
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Planungsfunktionen von Adobe Workfront zusammen, um Ihnen Zugriff auf Arbeitsbereiche oder Ansichten zu gewähren, die Sie anzeigen, dazu beitragen oder verwalten können. <!--add more objects here when we can grant other object-specific permissions-->
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront-Planungsberechtigungen zusammen, um Ihnen Zugriff auf Arbeitsbereiche oder Ansichten zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten. <!--add more objects here when we can grant other object-specific permissions-->
 
 In diesem Artikel werden die erforderlichen Lizenztypen und der Zugriff für Objekte je nach Lizenztyp beschrieben.
 
@@ -33,18 +34,15 @@ Benutzer mit einem Lizenztyp der unteren Ebene haben bei der Verwendung von Work
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Informationen zu Berechtigungen für Objekte in den Planungsfunktionen von Workfront finden Sie unter [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Informationen zu Berechtigungen für Objekte in der Workfront-Planung finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsfunktionen
+## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsberechtigungen
 
 In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers und der Höhe der Berechtigungen beschrieben, die Sie ihm basierend auf dieser Lizenz gewähren können:
 
 
-| Lizenztyp | In Workfront-Planungs-Funktionsobjekten zulässige Berechtigungen |
+| Adobe Workfront-Lizenztyp | In der Adobe Workfront-Planung zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten. |
 | Neu: hell <br> oder <br>Aktuell: Arbeit | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen.  Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
 | Neu: Mitarbeiter <br> oder <br>Aktuell: Überprüfer oder Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |
-
-
-

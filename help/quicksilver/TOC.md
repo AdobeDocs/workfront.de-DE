@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 1%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 1%
       * [Benachrichtigungen zu Adobe Workfront-Zielen aktivieren](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
    * [Adobe Maestro-Informationen](maestro/maestro-information.md)
-   * [Übersicht über die Planungsfunktionen von Adobe Workfront](maestro/maestro-overview.md)
-   * [Adobe Workfront-Planungs-Funktionen - Release-Aktivität](maestro/release-activity.md)
+   * [Übersicht über die Adobe Workfront-Planung](maestro/maestro-overview.md)
+   * [Adobe Workfront-Planungs-Release-Aktivität](maestro/release-activity.md)
    * Architektur von Adobe Maestro {#adobe-maestro-architecture}
       * [Architektur: Artikelindex](maestro/architecture/architecture-information.md)
       * [Erstellen von Arbeitsbereichen](maestro/architecture/create-workspaces.md)
-      * [Übersicht über Datensatztypen und Taxonomien](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Erstellen von operationellen Datensatztypen](maestro/architecture/create-record-types.md)
+      * [Übersicht über Datensatztypen](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Erstellen von Datensatztypen](maestro/architecture/create-record-types.md)
       * [Erstellen von Taxonomiedatensatztypen](maestro/architecture/create-a-taxonomy.md)
       * [Datensatztypen verbinden](maestro/architecture/connect-record-types.md)
       * [Datensatztypen bearbeiten](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 1%
       * [Zugriffsinformationen](maestro/access/access-information.md)
       * [Zugriffsübersicht](maestro/access/access-overview.md)
       * [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](maestro/access/sharing-permissions-overview.md)
-      * [Übersicht über den Lizenztyp bei Verwendung der Planungsfunktionen von Adobe Workfront](maestro/access/license-type-overview.md)
+      * [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](maestro/access/license-type-overview.md)
       * [Freigeben von Arbeitsbereichen](maestro/access/share-workspaces.md)
       * [Ansichten freigeben](maestro/access/share-views.md)
    * Adobe Maestro-Datensätze {#adobe-maestro-records}

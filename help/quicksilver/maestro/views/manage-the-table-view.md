@@ -1,13 +1,13 @@
 ---
 title: Tabellenansicht verwalten
-description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
+description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in den Planungsfunktionen von Adobe Workfront auf die Seite vom Typ Datensatz zugreifen.
+Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
 
 Informationen zu Datensatzansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für die Planungsfunktionen von Adobe Workspace </p>  
+   <td> <p>Es gibt keine Zugriffsebenen-Steuerelemente für die Adobe Workspace-Planung</p>  
 </td>
   </tr>
 

@@ -1,16 +1,16 @@
 ---
 title: Übersicht über den Verlaufsabschnitt
-description: Sie können Änderungen am Datensatz überprüfen, die vom System im rechten Bereich eines Datensatzes in Adobe Maestro aufgezeichnet wurden.
+description: Sie können Änderungen am Datensatz überprüfen, die vom System im rechten Bereich eines Datensatzes in der Adobe Workfront-Planung vorgenommen und aufgezeichnet wurden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # Übersicht über den Verlaufsabschnitt
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Sie können an Adobe Maestro-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bereich eines Datensatzes hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+Sie können an Adobe Workfront-Planungsprotokollen mitarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
-* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen. Weitere Informationen zum Verwalten von Kommentaren in Maestro-Datensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen. Weitere Informationen zum Verwalten von Kommentaren in Workfront-Planungsprotokollen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen.
 
 ## Suchen Sie den Abschnitt Verlauf eines Datensatzes
@@ -46,11 +46,11 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 
 ## Überlegungen zum Abschnitt Verlauf
 
-Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt Verlauf des rechten Bereichs der Detailseite eines Operationssatzes oder der Taxonomie überprüfen.
+Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt Verlauf der rechten Leiste der Detailseite eines Datensatzes überprüfen.
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro zeichnet die folgenden Informationen im Abschnitt Verlauf auf:
+* Die Planung von Workfront zeichnet die folgenden Informationen im Abschnitt Verlauf auf:
 
    * Alle Feldänderungen
 
@@ -80,7 +80,7 @@ Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt
 
 * Felder vom Typ Kontrollkästchen zeigen den alten Wert nie im Durchstreichen-Format an. Wenn das Feld bearbeitet wird, wird nur der aktuelle Status zum Zeitpunkt der Änderung angezeigt.
 
-  Weitere Informationen zu Maestro-Feldern finden Sie unter [Felder erstellen](/help/quicksilver/maestro/fields/create-fields.md).
+  Weitere Informationen zu Workfront-Planungsfeldern finden Sie unter [Felder erstellen](/help/quicksilver/maestro/fields/create-fields.md).
 
 * Änderungen an Feldern der folgenden Typen werden nicht im Abschnitt Verlauf angezeigt:
 

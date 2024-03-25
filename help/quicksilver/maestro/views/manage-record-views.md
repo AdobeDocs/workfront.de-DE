@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Datensatzansichten
-description: Bei Verwendung der Planungsfunktionen von Adobe Workfront können Sie Datensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen.
+description: Bei Verwendung der Adobe Workfront-Planung können Sie Datensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für Planungsfunktionen der Adobe Workfront teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffssteuerungsmöglichkeiten für Workfront-Planungsfunktionen</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Maestro-Bereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Ihr Systemadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Arbeiten mit Datensatzansichten
 
-* Ansichten im Workfront-Planungsbereich sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
+* Ansichten in der Workfront-Planung sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
 * Von Ihnen erstellte Ansichten sind nur für Sie und Benutzer sichtbar, für die Sie die Ansichten freigeben.
-* Das Erstellen von Ansichten für betriebliche Datensatztypen ist mit dem Erstellen von Ansichten für Taxonomiedatensatztypen identisch.
 * Wenn Sie eine Ansicht ändern oder löschen, wird sie für alle Benutzer mit Berechtigungen für die Ansicht geändert und gelöscht.
 * Die folgenden Elemente sind für jede Datensatzansicht eindeutig:
 
@@ -101,19 +100,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Wenn Sie beispielsweise einen Filter in einer Tabellenansicht erstellen, sind die Filterergebnisse nur in der ausgewählten Ansicht sichtbar und nicht in allen im Dropdown-Menü Ansicht aufgeführten Ansichten.
+  Wenn Sie beispielsweise einen Filter in einer Tabellenansicht erstellen, sind die Filterergebnisse nur in der ausgewählten Ansicht und nicht in allen mit dem Datensatztyp verknüpften Ansichten sichtbar.
 
   >[!NOTE]
   >
-  > Da sich die Planungsfunktionen von Adobe Workfront derzeit in der Beta-Phase befinden, stehen einige Ansichtselemente möglicherweise nicht allen Ansichten zur Verfügung.
+  > Da sich die Adobe Workfront-Planung derzeit im Beta-Zustand befindet, stehen einige Ansichtselemente möglicherweise nicht allen Ansichten zur Verfügung.
 
 In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
 * [Ansicht löschen](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Ansicht duplizieren](#duplicate-views)
 * [Anzeigen freigeben](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Ähnlichkeiten und Unterschiede zwischen Datensatzansichten
 
@@ -233,20 +232,30 @@ Informationen zum Freigeben von Ansichten finden Sie unter [Ansichten freigeben]
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Ansicht duplizieren
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Wenn Sie mehrere Versionen einer Ansicht beibehalten und geringfügige Änderungen zwischen den Versionen vornehmen möchten, können Sie eine Ansicht duplizieren.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+Durch das Duplizieren einer Ansicht werden identische Kopien einer vorhandenen Ansicht erstellt.
 
-    By default, all the records of the type selected display in the table view. 
+Die Freigabeberechtigungen der ursprünglichen Ansicht werden nicht an die duplizierte Ansicht übertragen.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
+
+Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
+
+   Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
+
+1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Duplizieren**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   Die Ansicht wird dupliziert und der Name der neuen Ansicht folgt dem folgenden Muster: `Original view's name (Copy)`. Die neue Registerkarte &quot;Ansicht&quot;wird am Ende aller Ansichtsregisterkarten angezeigt.
+
