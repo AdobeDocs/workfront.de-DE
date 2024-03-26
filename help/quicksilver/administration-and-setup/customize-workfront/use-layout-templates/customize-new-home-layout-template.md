@@ -7,9 +7,10 @@ description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b>, und <b>Gruppen</b>. Sie können:</p>
       <ul>
       <li><p><b>Wählen Sie aus, welche Filter, Spalten oder Gruppen Benutzern zur Verfügung stehen sollen:</b></p>
-      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>
+      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Benutzer müssen Zugriff auf Ansichten erstellen haben, damit Spaltenkonfigurationen ordnungsgemäß auf ihre Widgets angewendet werden können.
+
+</p>
       <li><p><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b></p>
       <p>Bewegen Sie den Mauszeiger über eine Option. Daraufhin wird eine Schaltfläche angezeigt, mit der Sie diese Option als Standard für Benutzer festlegen können. Die aktuelle Standardeinstellung weist rechts ein blaues Standardzeichen auf.</li></p>
       <li><p><b>Fügen Sie einen vorhandenen Filter, eine Spalte oder eine Gruppe zur Liste der verfügbaren Optionen hinzu:</b></p>
@@ -124,4 +132,3 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    Oder
 
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern** in der unteren linken Ecke.
-

@@ -4,7 +4,8 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 
 [Die Zukunft Adobe Workfronts](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) am 26. März 2024, um einen Einblick in die Zukunft der strategischen Planung und des Workflows zu erhalten. Erfahren Sie, wie das Workfront-Team Geschäftsfunktionen über den gesamten Marketing-Lebenszyklus hinweg ansprechen will - alles mit einem KI-First-Ansatz zur Automatisierung von Arbeit, Vereinfachung von Benutzererlebnissen und Steigerung der Produktivität.
 
-[Vorstellung von Marketingkalendern und Tools für die End-to-End-Kampagnenplanung](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) am 23. März 2023, um mehr über neue Produktfunktionen zu erfahren, mit denen Sie Ihr Unternehmen in die Lage versetzen können, End-to-End-Lebenszyklen zu verwalten und zu visualisieren.
+[Vorstellung von Marketingkalendern und Tools für die End-to-End-Kampagnenplanung](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) am 28. März 2024, um mehr über die neuen Produktfunktionen zu erfahren, mit denen Sie Ihr Unternehmen in die Lage versetzen können, End-to-End-Lebenszyklen zu verwalten und zu visualisieren.
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum des zweiten Quartals 2024 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 
