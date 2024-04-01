@@ -7,9 +7,10 @@ description: Sie können festlegen, welche Abschnitte eines benutzerdefinierten 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ Die Anzeigereihenfolge definiert, welche benutzerdefinierten Felder im Formular 
 
 >[!NOTE]
 >
->Die Anzeigelogik ist bei der Vorschau des Formulars im Formularentwickler vorübergehend nicht verfügbar.
+><span class="preview">Die Anzeigelogik ist nur verfügbar, wenn Sie die Vorschau des Formulars im Formularentwickler in der Vorschau-Umgebung anzeigen.</span>
 
 ## Logik zum Überspringen zu einem benutzerdefinierten Formular hinzufügen
 
@@ -158,4 +159,4 @@ Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprung
 
 >[!NOTE]
 >
->Die Logik zum Überspringen ist bei der Vorschau eines Formulars im Formularentwickler vorübergehend nicht verfügbar.
+><span class="preview">Die Logik zum Überspringen ist nur verfügbar, wenn Sie das Formular im Formularentwickler in der Vorschau-Umgebung in der Vorschau anzeigen.</span>
