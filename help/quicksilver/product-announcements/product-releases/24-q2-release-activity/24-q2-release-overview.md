@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 ## Adobe Workfront-Verbesserungen
 
 * [Administratorverbesserungen](#administrator-enhancements)
+* [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
 * [Verbesserungen der Startseite](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Verbesserungen bei der Ressourcenverwaltung](#resource-management-enhancements)
@@ -64,7 +65,23 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Unternehmen und Benutzer unterstützen jetzt erweiterte benutzerdefinierte Formularfelder</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik und Logik zum Überspringen sind jetzt im Vorschaumodus des Formulardesigners verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Mit dem benutzerdefinierten Beta-Formularentwickler können Sie jetzt Ihre Anzeigelogik testen und die Logik im Vorschaumodus überspringen. Zuvor wurden alle Felder auch bei Anwendung der Logik in der Vorschau angezeigt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 28. März 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Unternehmen und Benutzer unterstützen jetzt erweiterte benutzerdefinierte Formularfelder</a></p>
                         <p>Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind jetzt verfügbar, wenn Sie ein benutzerdefiniertes Formular an ein Unternehmen oder einen Benutzer anhängen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -154,7 +171,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
             </tbody>
         </table>
 
-### Verbesserungen der Startseite
+### Verbesserungen bei der Dokumentenverwaltung
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                         <p><span class="bold">Veröffentlichungsdaten</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Zu Administratorsteuerelementen hinzugefügte Spaltenoptionen mit Layoutvorlagen für neues Startseiten</a></p><p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p><p>Administratoren können jetzt mithilfe von Layoutvorlagen anpassen, welche Spalten für Benutzer in bestimmten neuen Home-Widgets verfügbar sind. Zu den Optionen gehören das Ausblenden oder Anzeigen von Standardspalten und das Hinzufügen vorhandener Felder als neue Spalten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Sie können jetzt einen Termin für Benutzer oder Teams festlegen, die zum Überprüfen oder Genehmigen eines Dokuments zugewiesen sind. Überprüfer und Genehmiger erhalten 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist E-Mail-Benachrichtigungen. Der Termin wird auch im Widget Genehmigungen im neuen Bereich Startseite angezeigt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 2. Januar 2024</p>
+                                <p>Vorschau-Version: 28. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Integrationsverbesserungen
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funktion</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Erstellen und Verwenden von Genehmigungsvorlagen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Jetzt können Sie im Bereich "Einrichtung"Genehmigungsvorlagen erstellen, um den Prüfungs- und Genehmigungsprozess zu optimieren. Mit Genehmigungsvorlagen können Sie den Prüfungs- und Genehmigungsprozess wiederholbarer gestalten durch
+                        <ul>
+                            <li>
+                                <p>Hinzufügen von Validierungsverantwortlichen und Genehmigern</p>
+                            </li>
+                            <li>
+                                <p>Festlegen eines Zeitrahmens</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen am Workflow für die automatische Ordnererstellung in der Adobe Experience Manager-Integration</a></p><p>[!BADGE In Production ]{type=Informative}</p><p>Um sicherzustellen, dass Ihre Adobe Experience Manager-Ordner Ihren Anforderungen besser entsprechen, haben wir dem Workflow für verknüpfte Ordner mit Adobe Experience Manager verschachtelte Ordnerbäume hinzugefügt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 11. März 2024</p>
+                                <p>Vorschau-Version: 28. März 2024</p>
                             </li>
-                             <li> <p><span class="preview">Produktionsversion für alle Kunden: 14. März 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen von Informationen zu allen Ihren Genehmigungen an einem Ort</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Blick zu helfen, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
+                        <ul>
+                            <li>
+                                <p>Genehmigungen nach Entscheidung</p>
+                            </li>
+                            <li>
+                                <p>Durchschnittliche Genehmigungszeit</p>
+                            </li>
+                            <li>
+                                <p>Ausstehende Genehmigungen</p>
+                            </li>
+                            <li>
+                                <p>Überfällige Genehmigungen</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 28. März 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Zugriff auf den alten Kommentarbereich wurde entfernt.</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <p>Wir haben den Umschalter "Neue Kommentare"im Bereich "Aktualisierungen"für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 1. April 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für alle Kunden: Mit der Version 24.4 (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Neuer Kommentar-Stream jetzt in Schnellaktionen für neue Home-Widgets verfügbar</a></p><p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       </ul>
       <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b>, und <b>Gruppen</b>. Sie können:</p>
       <ul>
-      <li><p><b>Wählen Sie aus, welche Filter, Spalten oder Gruppen Benutzern zur Verfügung stehen sollen:</b></p>
-      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt.</li></p>     
-    <p>
+      <li><p><b>Wählen Sie Filter, Spalten oder Gruppen aus, die Benutzern zur Verfügung stehen, und ordnen Sie sie an:</b></p>
+      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt. Ziehen Sie Optionen per Drag-and-Drop in die Liste, um eine Reihenfolge festzulegen.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Benutzer müssen Zugriff auf Ansichten erstellen haben, damit Spaltenkonfigurationen ordnungsgemäß auf ihre Widgets angewendet werden können.
+>Benutzer müssen mindestens Zugriff auf Ansichten erstellen haben, damit die Konfiguration der Administrator-Spalte ordnungsgemäß auf ihre neuen Startseiten angewendet werden kann.
 
 </p>
       <li><p><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b></p>

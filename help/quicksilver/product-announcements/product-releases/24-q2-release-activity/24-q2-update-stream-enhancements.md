@@ -4,9 +4,10 @@ description: Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen am Update-Stream und an Benachrichtigungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Der Zugriff auf den alten Kommentarbereich wurde entfernt.
+
+>[!NOTE]
+>
+>Vorschau-Version: 1. April 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+
+Wir haben den Umschalter &quot;Neue Kommentare&quot;im Bereich &quot;Aktualisierungen&quot;für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte. Mit dieser Änderung können Sie nicht mehr zum alten Kommentierungserlebnis zurückkehren.
+
+Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Neuer Kommentar-Stream jetzt in Schnellaktionen für neue Home-Widgets verfügbar
 
