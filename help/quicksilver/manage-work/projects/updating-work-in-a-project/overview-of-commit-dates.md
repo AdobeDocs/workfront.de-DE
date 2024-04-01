@@ -7,16 +7,14 @@ description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benut
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # Datum bestätigen - Übersicht
-
-{{preview-and-fast-release}}
 
 Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums darstellt, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird. Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über die geplante Aufgabe - Abschlussdatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Wenn eine Aufgabe oder ein Problemverantwortlicher ein Komprimierungsdatum ausw�
 
 Durch das Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Problem werden die folgenden Trigger :
 
-* Das Datum der Veröffentlichung wird im Aktualisierungsstream der Aufgabe oder des Problems angegeben.
+* Die Änderung &quot;Datum der Übermittlung&quot;wird in der Systemaktivität und auf den Registerkarten Alle im Abschnitt Aktualisieren der Aufgabe oder des Problems angezeigt.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   Die Änderung des Veröffentlichungsdatums wird im Bereich Updates der Aufgabe bzw. des Problems angezeigt, wenn der Workfront-Administrator diese Aktualisierung im Bereich Updates-Feeds unter Einrichtung aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Wenn ein Projekteigentümer die Änderung nicht akzeptieren möchte, empfehlen wir ihm, dem Benutzer, der über die Registerkarte Kommentare im Abschnitt Aktualisierungen ein neues Datum vorschlägt, einen Kommentar abzugeben, ihn aufzufordern, das Veröffentlichungsdatum zurück zum ursprünglichen geplanten Datum zu ändern, oder ein neues Datum auszuwählen. Wenn ein Projekteigentümer die Änderung akzeptiert, kann er das geplante Abschlussdatum manuell so anpassen, dass es mit dem vom dem Artikel zugewiesenen Benutzer angegebenen Zustimmungsdatum übereinstimmt, indem er die Aufgabe oder das Problem bearbeitet.
+
+  Sie müssen Zugriff haben, um die Aufgabe oder das Problem zu verwalten und sie zu bearbeiten.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * Das geplante Abschlussdatum der Aufgabe oder des Problems ist auf das gleiche Datum festgelegt, da die Aufgabe jetzt genauer angibt, wann sie wahrscheinlich abgeschlossen sein wird.
 
@@ -67,27 +80,10 @@ Durch das Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Prob
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Wenn der Projekteigentümer das veraltete Kommentierungserlebnis verwendet, wird er im Tab Aktualisierungen der Aufgabe darüber informiert, ob diese Änderung sich auf die Projektzeitleiste auswirkt, und er erhält die Möglichkeit, das geplante Abschlussdatum der Aufgabe im selben Bereich zu aktualisieren.
 
-  Diese Funktion wird im neuen Kommentierungserlebnis nicht unterstützt. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  Der Projekteigentümer erhält keine Möglichkeit, das geplante Abschlussdatum eines Problems zu aktualisieren, da die Ausgabedaten sich nicht auf die Projektzeitleiste auswirken.
 
-  Wenn ein Projekteigentümer die Änderung nicht akzeptieren möchte, empfehlen wir ihm, dem Benutzer, der ein neues Datum vorschlägt, einen Kommentar abzugeben, um ihn aufzufordern, das Veröffentlichungsdatum zurück zum ursprünglichen geplanten Datum zu ändern, oder ein neues Datum auszuwählen. Wenn ein Projekteigentümer die Änderung akzeptiert, kann er das geplante Abschlussdatum manuell so anpassen, dass es mit dem vom dem Artikel zugewiesenen Benutzer angebotenen Zustimmungsdatum übereinstimmt. Sie können auch auf **Setzen Sie das geplante Datum auf: &lt; Datum >** im Bereich Updates , der automatisch das geplante Abschlussdatum entsprechend dem neuen Zustimmungsdatum festlegt.
-
-  Sie müssen Zugriff haben, um die Aufgabe und das Projekt zu verwalten und diese Änderung zu akzeptieren.
-
-  >[!NOTE]
-  >
-  >Wenn Sie sehen möchten, wie sich die Timeline des Projekts auswirkt, indem Sie das geplante Abschlussdatum der Aufgabe ändern, klicken Sie auf **Projekt-Timeline**. Dadurch wird die Aufgabenliste geöffnet, in der Sie die Datumsänderungen und die Projekt-Timeline bewerten können.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* Der Projekteigentümer wird im Bereich Benachrichtigungen darüber benachrichtigt, dass sich das Datum für die Aufgabenübertragung geändert hat.
+* Der Projekteigentümer wird im Bereich Benachrichtigungen darüber benachrichtigt, dass sich das Datum der Übertragung einer Aufgabe oder eines Problems geändert hat.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

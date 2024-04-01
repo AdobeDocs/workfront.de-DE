@@ -5,16 +5,20 @@ description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitsel
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Zusammenfassung] Übersicht
 
-{{preview-and-fast-release}}
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktion für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können die [!UICONTROL Zusammenfassung] -Bedienfeld zum Überprüfen und Aktualisieren von Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
 
@@ -36,6 +40,9 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
   <tr> 
    <td>Aufgaben in den Arbeitsbereichen [!UICONTROL Nicht zugewiesen] und [!UICONTROL Zugewiesene] Arbeitsbereiche des [!UICONTROL Workload Balancer]</td> 
   </tr> 
+   <tr> 
+   <td>Aufgaben in einem [!UICONTROL Zeitblatt]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Probleme</td> 
   </tr> 
@@ -53,7 +60,12 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
   <tr data-mc-conditions=""> 
    <td>Probleme im Abschnitt [!UICONTROL Gesendet] des Bereichs [!UICONTROL Anforderungen]</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Probleme in einem [!UICONTROL Timesheet]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Dokumente</td> 
   </tr> 
   <tr data-mc-conditions=""> 

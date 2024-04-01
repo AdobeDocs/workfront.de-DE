@@ -6,9 +6,9 @@ description: Sie können Kommentare zu Timesheets, den in den Timesheets enthalt
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -90,7 +90,16 @@ Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das
 
    Ihr Kommentar wird im [!UICONTROL Updates] im Bereich des Zeitplans im Tab Kommentare .
 
-1. (Optional) Klicken Sie auf die **Systemaktivität** , um systemgenerierte Aktualisierungen zu überprüfen.
+1. (Optional) Klicken Sie auf die **Systemaktivität** Registerkarte zur Überprüfung systemgenerierter Aktualisierungen
+
+   Oder
+
+   Klicken Sie auf **Alle** , um Systemaktivität und Benutzerkommentare in chronologischer Reihenfolge anzuzeigen.
+
+   >[!TIP]
+   >
+   >   Die Registerkarte &quot;Alle&quot;ist schreibgeschützt und Sie können von dort keine Antworten auf Kommentare geben.
+
 
    Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ Sie können nur Kommentare zu Aufgaben und Problemen in einem Timesheet erstelle
 1. Klicks [!UICONTROL **Timesheets**].
 1. Gehen Sie zum gewünschten Timesheet und klicken Sie auf [!UICONTROL **Datenblatt**] im linken Bereich.
 1. Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf [!UICONTROL **Zusammenfassung öffnen**].
-1. Beginnen Sie mit der Eingabe eines Updates in die [!UICONTROL **Updates**] Bereich des Bedienfelds &quot;Zusammenfassung&quot;und klicken Sie auf [!UICONTROL **Aktualisieren**].
+1. Beginnen Sie mit der Eingabe eines Updates in die [!UICONTROL **Updates**] Bereich des Bedienfelds &quot;Zusammenfassung&quot;und klicken Sie auf [!UICONTROL **Einsenden**].
 Die Aktualisierung wird im Abschnitt Updates der Aufgabe und des Problems angezeigt.
 1. (Optional) Klicken Sie auf [!UICONTROL **Zusammenfassung schließen**] , um das Bedienfeld &quot;Zusammenfassung&quot;zu schließen.
 

@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Vom System getrackte Aktualisierungen
 
-{{preview-and-fast-release}}
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Weitere Informationen zum neuen Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">Eine Liste der Objekte, die nicht über die Registerkarten &quot;Systemaktivität&quot;oder &quot;Alle&quot;verfügen, finden Sie unter [Aktualisierung der Abschnittsübersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">Bei Verwendung des neuen Kommentar-Erlebnisses können Sie einem Systemupdate keinen Kommentar hinzufügen. Antworten, die auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität auf der Registerkarte Systemaktivität als schreibgeschützt im neuen Kommentierungserlebnis eingetragen.</span>
    * Bei Verwendung des veralteten Kommentierungserlebnisses werden System- und Benutzeraktualisierungen in einem kontinuierlichen Feed angezeigt.
 
    * Bei der Verwendung des bisherigen Kommentierungserlebnisses können Benutzer standardmäßig Systemaktualisierungen anzeigen oder festlegen, dass sie nicht angezeigt werden. Die Deaktivierung von Systemaktualisierungen ist bei Verwendung des neuen Kommentierungserlebnisses nicht möglich.
 
      Informationen zum Deaktivieren der Anzeige von Systemaktualisierungen finden Sie im Abschnitt . [Systemaktualisierungen aktivieren oder deaktivieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) im Artikel [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">Das veraltete Kommentierungserlebnis wurde in der Vorschauumgebung deaktiviert. Weitere Informationen finden Sie unter [Verbesserungen am Datenstrom und an der Benachrichtigung im zweiten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront zeichnet vom System getrackte Aktualisierungen für die folgenden Objekte auf, es gibt jedoch keine Option, die Anzeige zu deaktivieren:
 

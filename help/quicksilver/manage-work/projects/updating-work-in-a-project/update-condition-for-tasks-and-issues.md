@@ -6,9 +6,9 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ Für aktuelle Lizenzen:
 
 Bedingungen werden als Markierung angezeigt, die mit Aufgaben oder Problemen verknüpft ist. Sie können auch mit einer Zahl verknüpft werden, die in Berichten anstelle der Bezeichnung angezeigt werden kann. Weitere Informationen zum Verknüpfen von Bedingungen mit Zahlen finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Sie können die Bedingungen für Aufgaben und Probleme in den folgenden Bereichen ermitteln:
-
-* Aufgaben- und Problemaktualisierungsbereich innerhalb eines Updates, wenn Sie der Aufgabe oder dem Problem zugewiesen sind. Dies wird im neuen Kommentierungserlebnis nicht unterstützt. Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Berichte und Listen, wenn Sie das Feld Bedingung in einer Ansicht oder Gruppierung anzeigen.
+Sie können die Bedingung von Aufgaben und Problemen in Berichten und Listen suchen, wenn Sie das Feld Bedingung in einer Ansicht oder Gruppierung anzeigen.
 
 >[!NOTE]
 >
