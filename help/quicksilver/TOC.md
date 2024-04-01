@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '14061'
+source-wordcount: '14064'
 ht-degree: 1%
 
 ---
@@ -1807,7 +1807,7 @@ ht-degree: 1%
          * [Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
       * Dokumente genehmigen {#approve-documents}
          * [Dokumente genehmigen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
-         * [Erstellen einer Dokumentgenehmigung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Erstellen einer Validierungsvorlage](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

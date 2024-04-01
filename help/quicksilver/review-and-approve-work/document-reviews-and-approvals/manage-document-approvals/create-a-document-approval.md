@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Erstellen einer Dokumentgenehmigung
+title: Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen
 description: Sie können die Genehmigung von anderen Benutzern für ein Dokument in Adobe Workfront anfordern.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# Anforderung einer Dokumentgenehmigung erstellen
+# Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Sie können die Genehmigung von anderen Benutzern oder Teams für ein Dokument in Adobe Workfront anfordern oder anfordern, dass diese ein Dokument überprüfen, ohne es genehmigen zu müssen.
 
@@ -50,17 +52,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Erstellen einer Dokumentgenehmigung über die Dokumentseite
+## Erstellen einer Dokumentüberprüfung- oder Genehmigungsanforderung über die Dokumentseite
 
-1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, für das Sie im Dropdown-Menü Version eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf Dokumentdetails.
+   ![](assets/doc-details.png)
 
-1. Auswählen **Genehmigungen** im linken Bereich.
 
-1. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das **Genehmiger** das Kontrollkästchen aktiviert ist und die Eingabe im **Überprüfer** Textfeld. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach die **Genehmiger** vor der Eingabe aktivieren.
+1. Wählen Sie in der Nähe des Dokumentnamens die Version des Dokuments aus, für die Sie im Dropdown-Menü Version eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
+
+1. Klicks **Genehmigungen** im linken Bereich.
+
+1. <span class="preview">(Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.</span>
+
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+
+1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 
-## Erstellen einer Dokumentgenehmigung über den Bereich Dokumentzusammenfassung
+## Erstellen Sie eine Dokumentüberprüfung- oder Genehmigungsanforderung aus dem Bereich &quot;Dokumentzusammenfassung&quot;
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
@@ -68,7 +80,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie im Versions-Dropdown-Menü die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Document Summary&quot;. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das **Genehmiger** das Kontrollkästchen aktiviert ist und die Eingabe im **Überprüfer** Textfeld. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach die **Genehmiger** vor der Eingabe aktivieren.
+1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Dokumentzusammenfassung&quot;auf und klicken Sie dann auf **Hinzufügen**.
+
+![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.</span>
+
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+
+1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 

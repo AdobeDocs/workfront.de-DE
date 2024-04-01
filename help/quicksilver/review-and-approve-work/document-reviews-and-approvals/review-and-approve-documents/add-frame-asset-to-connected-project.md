@@ -5,13 +5,13 @@ title: Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt
 description: Kreative können Assets, die überprüft werden müssen, zu Frame.io hinzufügen und sie zur formalen Überprüfung und Genehmigung an Workfront senden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt
 
@@ -83,4 +83,4 @@ Weitere Informationen finden Sie unter [Verbinden Sie Workfront und Frame.io.](/
 
 Das Asset wird an dem ausgewählten Speicherort angezeigt und der Aufgabenstatus wird entsprechend aktualisiert.
 
-Sie können den Review- und Genehmigungsprozess starten, indem Sie die im Artikel beschriebenen Schritte ausführen [Erstellen einer Dokumentgenehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Sie können den Review- und Genehmigungsprozess starten, indem Sie die im Artikel beschriebenen Schritte ausführen [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
