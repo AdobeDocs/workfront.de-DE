@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz, ein Datensatztyp 
       <td role="rowheader">[!UICONTROL Objekttyp]</td>
       <td>Wählen Sie aus, ob Sie Datensätze, Datensatztypen oder Arbeitsbereiche anzeigen möchten.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL Ereignisfilter]</p> </td> 
+      <td> <p>Sie können Filter festlegen, um nur Datensätze zu überwachen, die den von Ihnen ausgewählten Kriterien entsprechen.</p> <p>Geben Sie für jeden Filter das Feld, das der Filter auswerten soll, den Operator und den Wert ein, die der Filter zulassen soll. Sie können mehrere Filter verwenden, indem Sie UND-Regeln hinzufügen.</p> <p>Hinweis: Filter in vorhandenen [!DNL Workfront] Webhooks. So richten Sie verschiedene Filter für ein [!DNL Workfront] -Ereignis-Abonnements, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.</p> <p>Weitere Informationen zu Ereignisfiltern finden Sie unter <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Ereignisabonnementfilter in [!DNL Workfront] &gt; [!UICONTROL Watch Events] -Module</a> im Artikel Workfront-Module .</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objekte ansehen]</td>
       <td>Wählen Sie aus, ob Sie nach neuen Optionen suchen möchten. aktualisierte, neue und aktualisierte oder gelöschte Datensätze.</td>
