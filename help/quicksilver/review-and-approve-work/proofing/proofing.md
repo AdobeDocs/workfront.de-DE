@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Überprüfen und kommentieren Sie im selben Dokument, in dem Kreativteams arbeiten. Mit Workfront Testing können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen abrufen - und dabei gleichzeitig ein Audit-Protokoll mit Kommentaren und Versionen verwalten.
+Überprüfen und kommentieren Sie im selben Dokument, in dem Kreativteams arbeiten. Mit Testversand können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen abrufen - und dabei gleichzeitig ein Audit-Protokoll mit Kommentaren und Versionen verwalten.
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 

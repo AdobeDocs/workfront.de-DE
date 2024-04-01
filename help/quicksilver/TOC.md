@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
 workflow-type: tm+mt
-source-wordcount: '14042'
+source-wordcount: '14061'
 ht-degree: 1%
 
 ---
@@ -1810,6 +1810,7 @@ ht-degree: 1%
          * [Erstellen einer Dokumentgenehmigung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Erstellen einer Validierungsvorlage](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Genehmigungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Testing {#proofing}
@@ -1923,6 +1924,7 @@ ht-degree: 1%
          * [Testberechtigungsprofil stapelweise bearbeiten](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Freigabe über öffentliche URL oder Einbettungscode deaktivieren](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration von USA zu EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+         * [Dokumentname nach dem Hochladen geändert und enthält ungültiges Zeichen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
    * Tipps, Tricks und Fehlerbehebung bei Genehmigungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2049,7 +2051,7 @@ ht-degree: 1%
       * [Felder löschen](maestro/fields/delete-fields.md)
       * [Übersicht über Formelfelder](maestro/fields/formula-fields.md)
    * Adobe Maestro-Zugriff {#adobe-maestro-access}
-      * [Zugriffsinformationen](maestro/access/access-information.md)
+      * [Adobe Workfront Planning Access Information: Artikelindex](maestro/access/access-information.md)
       * [Zugriffsübersicht](maestro/access/access-overview.md)
       * [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](maestro/access/sharing-permissions-overview.md)
       * [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](maestro/access/license-type-overview.md)

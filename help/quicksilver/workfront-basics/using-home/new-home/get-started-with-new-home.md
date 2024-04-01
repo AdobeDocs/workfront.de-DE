@@ -6,14 +6,16 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # Erste Schritte mit der neuen Startseite
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
 * **Alle Genehmigungen**\
-    Zeigt alle Genehmigungen für Ihr Unternehmen in einer Tabelle mit anpassbaren Spalten an, sowie einer Suchleiste an, über die Sie nach bestimmten Genehmigungen suchen können.
+        <span class="preview"> Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.</span> <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
 
 * **Ausstehende Genehmigungen**\
     Zeigt Genehmigungen an, die einem Dokument in einem Projekt zugewiesen sind, dessen Inhaber Sie sind. Hier können Sie den Genehmigungsstatus anzeigen und Benutzer an unvollständige Überprüfungen und Genehmigungen erinnern. <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>

@@ -3,10 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: Erstellen einer Dokumentgenehmigung
 description: Sie können die Genehmigung von anderen Benutzern für ein Dokument in Adobe Workfront anfordern.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
