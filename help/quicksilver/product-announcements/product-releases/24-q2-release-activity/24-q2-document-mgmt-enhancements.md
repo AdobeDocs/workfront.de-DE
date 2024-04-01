@@ -4,9 +4,10 @@ description: Verbesserungen der Dokumentenverwaltung im zweiten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 2%
 Auf dieser Seite werden alle Verbesserungen der Dokumentenverwaltung beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom zweiten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>Die auf dieser Seite aufgeführten Funktionen sind Teil einer stufenweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
 
 ## Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen
 
@@ -47,10 +52,6 @@ Beim Erstellen eines Validierungsprozesses für ein Dokument können Sie im Bere
 >[!NOTE]
 >
 >Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
-
->[!IMPORTANT]
->
->Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.
 
 Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Blick zu helfen, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
 

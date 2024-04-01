@@ -6,10 +6,10 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
@@ -58,9 +58,6 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
 
 * **Alle Genehmigungen**\
         <span class="preview"> Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.</span> <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
-
-* **Ausstehende Genehmigungen**\
-    Zeigt Genehmigungen an, die einem Dokument in einem Projekt zugewiesen sind, dessen Inhaber Sie sind. Hier können Sie den Genehmigungsstatus anzeigen und Benutzer an unvollständige Überprüfungen und Genehmigungen erinnern. <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
 
 * **Erwähnungen**\
     Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates . Sie können die Antwortschaltfläche verwenden, um eine Antwort im Widget zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
