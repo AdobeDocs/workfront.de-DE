@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Sie können nicht mehr für die Adobe Workfront-Planung relevante Datensätze löschen.
+Sie können nicht mehr relevante Datensätze aus der Adobe Workfront-Planung löschen.
 
 ## Zugriffsanforderungen
 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen </p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können einen Datensatz aus den folgenden Bereichen löschen:
 
-* [Auf der Detailseite eines Datensatzes](#delete-a-record-from-the-records-details-page)
+* [Auf der Datensatzseite](#delete-a-record-from-the-records-page)
 * [Aus der Tabellenansicht eines Datensatztyps](#delete-a-record-from-the-record-type-table-view)
 
-### Datensatz von der Detailseite des Datensatzes löschen
+### Datensatz von der Datensatzseite löschen
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
      ![](assets/contextual-menu-for-record-row.png)
    * Klicken Sie in einer Timeline-Ansicht auf eine Datensatzleiste.
 
-   Der Datensatz **Details** Seite geöffnet.
+   Die Datensatzseite wird geöffnet.
 
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Löschen**, dann **Löschen** erneut zu bestätigen.
 
@@ -141,7 +141,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klicken Sie auf **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) , um das Feld Details zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen, und **Löschen**.
+   * Klicken Sie auf **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) , um das Feld mit den detaillierten Informationen des Datensatzes zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen, und **Löschen**.
 
    Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 

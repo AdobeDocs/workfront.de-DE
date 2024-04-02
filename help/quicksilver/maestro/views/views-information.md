@@ -1,11 +1,11 @@
 ---
 title: "Ansichten: Artikelindex"
-description: Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen. In den folgenden Artikeln wird beschrieben, wie Sie Adobe Workfront-Datensatzansichten erstellen und verwalten können.
+description: Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen. In den folgenden Artikeln wird beschrieben, wie Sie Datensatzansichten für die Adobe Workfront-Planung erstellen und verwalten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Bei der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyps.
+In der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyps.
 
 Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 
@@ -127,14 +127,14 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 
    Oder
 
-   Klicken Sie auf den Namen des neuen Datensatzes oder **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite des Datensatznamens. Die **Details** wird in der Tabelle geöffnet.
+   Klicken Sie auf den Namen des neuen Datensatzes oder **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite des Datensatznamens. Das Feld mit den detaillierten Informationen des Datensatzes wird in der Tabelle geöffnet.
 
    >[!TIP]
    >
    >Sie können das Feld Details nur über das Namensfeld des Datensatzes aufrufen, wenn das Feld Name ein primäres Feld ist.
 
-1. Bearbeiten Sie die Datensatzinformationen im Feld Details . Workfront speichert Ihre Änderungen automatisch.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke des Felds Details , um den Datensatz zu öffnen. **Details** in einer neuen Registerkarte. Fahren Sie mit der Bearbeitung des Datensatzes auf der Detailseite fort.
+1. Beginnen Sie mit der Bearbeitung der Datensatzinformationen in der Datensatzbox. Workfront speichert Ihre Änderungen automatisch.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz auf der Datensatzseite weiter.
 
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze rückgängig zu machen oder wiederherzustellen:

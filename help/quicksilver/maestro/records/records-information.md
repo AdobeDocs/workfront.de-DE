@@ -1,11 +1,11 @@
 ---
 title: "Datensätze: Artikelindex"
-description: Nachdem Sie bei der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können.
+description: Nachdem Sie in der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%

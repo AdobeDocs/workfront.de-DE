@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 1%
+source-wordcount: '1790'
+ht-degree: 2%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist die Adobe Workfront-Planung Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zugänglich ist. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
+>Derzeit ist Adobe Workfront Planning Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zugänglich ist. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
 >
 >Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für die Workfront-Planung zu erhalten.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Einführung in die Adobe Workfront-Planung
 
-Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus des Arbeitsmanagements zu beantworten.
+Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus der Arbeitsverwaltung zu beantworten.
 
 Teams und Führungskräfte benötigen klare Antworten auf Fragen wie:
 
@@ -77,8 +77,8 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Suchen nach Datensätzen in der Timeline-Ansicht | ✓ |   |
 | Verbinden von Workfront-Planungsdatensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
 | Verbinden von Workfront-Planungsdatensätzen mit Adobe Experience Manager-Assets | ✓ |                                  |                 |
-| Seite &quot;Datensatzdetails&quot; | ✓ |                                  |                  |
-| Layout der Seite mit den Datensatzdetails aktualisieren |                               | ✓ |                  |
+| Seite mit detaillierten Informationen aufzeichnen | ✓ |                                  |                  |
+| Layout der Datensatzseite aktualisieren |                               | ✓ |                  |
 | Freigeben von Arbeitsbereichen | ✓ | |  |
 | Ansichten freigeben | ✓ | |  |
 | Doppelte Ansichten | ✓ | |  |
@@ -96,15 +96,15 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 
 Ihr Unternehmen muss sich für das geschlossene Betaprogramm für die Adobe Workfront-Planung registrieren, bevor Sie auf die Planungsfunktionen zugreifen können. Wenden Sie sich an Ihren Kundenbetreuer, um Informationen zur Anmeldung im Beta-Programm zu erhalten.
 
-Weitere Informationen über die Gewährung von Zugriff auf und die Aktivierung der Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
+Weitere Informationen zum Gewähren von Zugriff auf und zur Aktivierung der Verwendung von Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminologie der Adobe Workfront-Planung
 
-Obwohl die Workfront-Planung Teil von Workfront ist, enthält sie proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit den neuen Konzepten vertraut sind, bevor Sie mit der Einrichtung der Workfront-Planung für Ihr Unternehmen beginnen.
+Workfront Planning ist zwar Teil von Workfront, enthält jedoch proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit den neuen Konzepten vertraut sind, bevor Sie mit der Einrichtung der Workfront-Planung für Ihr Unternehmen beginnen.
 
 Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle mit ihnen verknüpften Felder entsprechend den Anforderungen Ihrer Organisation erstellen.
 
-Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfront:
+Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planung:
 
 * **Arbeitsbereich**: Eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
 
@@ -116,11 +116,11 @@ Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfr
 
 * **Record Type**: Der Objekttyp oder die Workfront-Planung.
 
-  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie bei der Workfront-Planung eigene Objekttypen erstellen.
+  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Workfront-Planung eigene Objekttypen erstellen.
 
   Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
 
-  Bei der Workfront-Planung können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
+  In der Workfront-Planung können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
 
   Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -138,7 +138,7 @@ Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfr
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Die Adobe Workfront-Planung enthält eine Workspace-Vorlage für Vertrieb, Marketing und Produktverwaltung .
+  Adobe Workfront Planning enthält eine Workspace-Vorlage für Vertrieb, Marketing und Produktverwaltung .
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../maestro/architecture/create-workspaces.md).
 
@@ -150,11 +150,11 @@ Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfr
 
    * Die Felder, die Sie für einen Datensatztyp hinzufügen, werden automatisch allen Datensätzen dieses Typs zugeordnet und können zum Erfassen von Daten zu diesen Datensätzen verwendet werden.
 
-   * Felder werden in der Tabellenansicht als Spalten angezeigt, die auf eine Seite vom Typ Datensatz angewendet werden. Sie werden auch auf der Detailseite des Datensatzes angezeigt.
+   * Felder werden in der Tabellenansicht als Spalten angezeigt, die auf eine Seite vom Typ Datensatz angewendet werden. Sie werden auch auf der Datensatzseite angezeigt.
 
    * Felder sind für einen Datensatztyp eindeutig und werden nicht von einem Datensatztyp zum anderen übertragen.
 
-   * Die Felder können vollständig angepasst werden und stehen nur in der Workfront-Planung zur Verfügung. Sie können nicht über Workfront auf Planungsfelder für Workfront zugreifen.
+   * Die Felder können vollständig angepasst werden und stehen nur in der Workfront-Planung zur Verfügung. Sie können nicht über Workfront auf die Planungsfelder für Workfront zugreifen.
 
   Weitere Informationen finden Sie unter [Felder erstellen](../maestro/fields/create-fields.md).
 
@@ -233,13 +233,14 @@ Im Folgenden finden Sie die wichtigsten Planungsobjekte und -konzepte von Workfr
 Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront-Planungs-Objektbeschränkungen
+## Adobe Workfront Planning - Objektbeschränkungen
 
 Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
 
-| Adobe Workfront-Planungsobjekt | Limit |
+| Adobe Workfront Planning-Objekt | Limit |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
+| Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Abschnitten und solche, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Datensatzanzahl für einen Datensatztyp | 50.000 |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
@@ -258,7 +259,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 
 Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/maestro/access/access-overview.md).
 
-So lokalisieren Sie die Workfront-Planung:
+So suchen Sie die Workfront-Planung:
 
 1. Melden Sie sich bei Adobe Workfront an.
 

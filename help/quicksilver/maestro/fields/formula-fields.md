@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -102,14 +102,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Formularfelder verweisen auf Felder, die zum selben Datensatztyp gehören. Beim Erstellen eines Formelfelds können Sie keine Felder aus anderen Datensatztypen referenzieren. <!--is this still accurate??-->
 * Sie können den Feldtyp eines Formelfelds nicht mehr ändern, nachdem Sie es gespeichert haben.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
-* Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, wie sie in der Planungsschnittstelle von Workfront angezeigt werden.
+* Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die auf der Oberfläche für die Workfront-Planung angezeigt werden.
 * Die Verwendung von Suchfeldern aus verknüpften Datensatztypen in einer Formel ist zu einem späteren Zeitpunkt verfügbar.
 
 ## Unterstützte Formeln
 
-Die Planungsformel-Felder von Adobe Workfront unterstützen alle Ausdrücke aus den berechneten Workfront-Feldern. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Die Planungsformel-Felder von Adobe Workfront unterstützen alle Ausdrücke aus den berechneten Feldern von Workfront. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Darüber hinaus unterstützen wir die folgenden Ausdrücke für Planungsformel-Felder in Workfront:
+Darüber hinaus unterstützen wir die folgenden Ausdrücke für die Felder der Workfront-Planungsformel:
 
 <table style="table-layout:auto"> 
  <col> 

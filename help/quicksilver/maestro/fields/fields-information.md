@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Als Marktführer für Marketing-Vorgänge können Sie die Adobe Workfront-Planung verwenden, um die Arbeit für alle Ihre Teams über den gesamten Marketing-Lebenszyklus zu organisieren. Bei der Workfront-Planung können Sie die Architektur Ihrer Workflows vollständig anpassen, einschließlich des Hinzufügens benutzerdefinierter Felder für alle von Ihnen erstellten benutzerdefinierten Datensatztypen.
+Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. In der Workfront-Planung können Sie die Architektur Ihrer Workflows vollständig anpassen, einschließlich des Hinzufügens benutzerdefinierter Felder für alle von Ihnen erstellten benutzerdefinierten Datensatztypen.
 
 In den folgenden Artikeln wird beschrieben, wie Sie Workfront-Planungsfelder erstellen und konfigurieren können:
 

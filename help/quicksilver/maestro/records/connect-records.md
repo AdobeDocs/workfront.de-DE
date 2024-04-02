@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können Adobe Workfront-Planungsdatensätze miteinander oder mit Objekten aus anderen Anwendungen verbinden.
+Sie können Adobe Workfront Planning-Datensätze miteinander oder mit Objekten aus anderen Anwendungen verbinden.
 
 Zuerst müssen Sie zwei Datensatztypen miteinander verbinden oder einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden. Dadurch werden verknüpfte Datensatzfelder erstellt. Mithilfe der verknüpften Datensatzfelder können Sie dann Datensätze miteinander oder Datensätze mit anderen Objekten aus anderen Anwendungen verbinden.
 
@@ -43,7 +43,7 @@ Ein Beispiel für das Verbinden von Datensatztypen finden Sie unter [Beispiel f�
 Sie können Folgendes verbinden:
 
 * Adobe Workfront-Planungsaufzeichnungen
-* Adobe Workfront plant Datensätze mit Objekten aus anderen Anwendungen.
+* Adobe Workfront-Planung von Datensätzen mit Objekten aus anderen Anwendungen.
 
   In den folgenden Anwendungen können Sie Datensätze mit Objekten der unten aufgeführten Typen verbinden:
 
@@ -77,12 +77,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um Adobe Workfront-Planungsdatensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p>
+   <p>Um Adobe Workfront Planning-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Überlegungen zum Verbinden von Datensätzen
 
-* Nachdem Sie die Datensatztypen miteinander verbunden haben, werden die verbundenen Datensatztypen in der Tabelle der verknüpften Datensatztypen und auf der Detailseite der Datensätze, von denen sie verknüpft sind, als verknüpfte Datensatzfelder angezeigt.
+* Nachdem Sie die Datensatztypen miteinander verbunden haben, werden die verbundenen Datensatztypen in der Tabelle der Datensatztypen, von denen sie verknüpft sind, und auf den Datensatzseiten als verknüpfte Datensatzfelder angezeigt.
 * Sie können Datensätze und Objekte der verknüpften Datensätze und Objekttypen aus den verknüpften Datensatzfeldern durchsuchen und hinzufügen.
 * Sie können Felder der verknüpften Datensatztypen zur Tabelle des Datensatztyps hinzufügen, von dem Sie die Verknüpfung herstellen.
 * Die Werte verknüpfter Felder in den Datensätzen, aus denen Sie die Relation herstellen, können nicht manuell aktualisiert werden.
 
-  Die Werte der verknüpften Felder der verknüpften Datensätze füllen den Workfront-Planungsdatensatz aus, von dem aus Sie die Verknüpfung automatisch aus dem ursprünglichen Datensatz oder Objekt herstellen.
+  Die Werte der verknüpften Felder der verknüpften Datensätze füllen den Workfront Planning-Datensatz aus, den Sie automatisch aus dem ursprünglichen Datensatz oder Objekt verknüpfen.
 
-* Jeder, der Zugriff auf die Workfront-Planung hat und über die Berechtigung zum Anzeigen oder Anzeigen des Arbeitsbereichs verfügt, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Anwendungen anzeigen, mit denen Sie eine Verbindung herstellen.
+* Jeder, der Zugriff auf die Workfront-Planung und -Ansicht oder höhere Berechtigungen für den Arbeitsbereich hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Anwendungen anzeigen, mit denen Sie eine Verbindung herstellen.
 * Sie können die Verbindungen aller anderen Benutzer anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, in dem die verbundenen Datensätze gespeichert sind.
 * Sie können einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden.
 * Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgendes erforderlich:
@@ -183,7 +183,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    >[!TIP]
    >
-   >    Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
+   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
 
    Folgendes wird hinzugefügt:
 
@@ -207,7 +207,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Beachten Sie, dass **Kampagne** Das Feld für verknüpfte Datensätze zeigt die Namen der Kampagnen an, die Sie mit Produkten verknüpft haben, auf der Seite Produktdatensatz-Typ . Durch die Aktualisierung der Campaign-Informationen wird das Campaign-verknüpfte Datensatzfeld für den Produktdatensatz-Typ automatisch aktualisiert.
 
-### Adobe Workfront-Planungsprotokolle mit Workfront-Objekten verbinden
+### Verbinden von Adobe Workfront-Planungsprotokollen mit Workfront-Objekten
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 >[!NOTE]
 >
->Sie können Workfront-Objekte nicht mit Workfront-Planungsdatensätzen aus Workfront verbinden.
+>Sie können Workfront-Objekte nicht mit Datensätzen der Workfront-Planung aus Workfront verbinden.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    >[!TIP]
    >
-   >Sie können die Detailseite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
+   >Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
 
    Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
-1. (Optional) Klicken Sie entweder im verknüpften Feld einer Tabellenansicht oder im verknüpften Feld der **Details** -Seite des Datensatzes.
+1. (Optional) Klicken Sie entweder im verknüpften Feld einer Tabellenansicht oder im verknüpften Feld auf der Datensatzseite auf den Namen eines Workfront-Objekts, das mit einem Workfront-Planungsdatensatz verbunden ist.
 
-   Dadurch wird die schreibgeschützte Workfront-Planung geöffnet **Details** für das verknüpfte Workfront-Objekt. Die Felder, die Sie als Suchfelder ausgewählt haben, als Sie den Datensatztyp mit dem Workfront-Objekt verbunden haben, werden auf der Detailseite des Workfront-Planungsprotokolls angezeigt.
+   Dadurch wird die schreibgeschützte Datensatzseite für die Workfront-Planung für das verknüpfte Workfront-Objekt geöffnet. Die Felder, die Sie als Suchfelder ausgewählt haben, als Sie den Datensatztyp mit der Workfront-Objektanzeige auf der Datensatzseite Workfront-Planung verbunden haben.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    >
    >* Für die verknüpften Workfront-Objekte in Workfront wird kein verknüpftes Datensatzfeld erstellt.
 
-1. (Optional) Um das verknüpfte Workfront-Objekt in Workfront zu öffnen, klicken Sie auf **Zu Quelle wechseln** in der rechten oberen Ecke der Detailseite des Workfront-Objekts.
+1. (Optional) Um das verknüpfte Workfront-Objekt in Workfront zu öffnen, klicken Sie auf **Zu Quelle wechseln** in der rechten oberen Ecke der Datensatzseite des Workfront-Objekts.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Entfernen Sie Workfront-Objektfelder aus dem **Ausgewählte Felder** Bereich.
 
-   Dadurch werden verknüpfte Felder aus den Workfront-Planungsdatensätzen hinzugefügt oder entfernt. Die mit den entfernten Feldern verknüpften Informationen verbleiben in Workfront.
+   Dadurch werden verknüpfte Felder zu den Workfront-Planungsdatensätzen hinzugefügt oder daraus entfernt. Die mit den entfernten Feldern verknüpften Informationen verbleiben in Workfront.
 
 
-### Workfront-Planungsprotokolle mit Adobe Experience Manager-Objekten verbinden
+### Verbinden von Workfront-Planungsprotokollen mit Adobe Experience Manager-Objekten
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets verbinden zu können.
+>Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront Planning-Datensätze mit Adobe Experience Manager Assets verbinden zu können.
 >
 >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    >[!TIP]
    >
-   >  Klicken Sie auf das **+** im Feld verknüpftes Objekt auf der Detailseite des Datensatzes, um Assets mit dem Datensatz zu verbinden.
+   >  Klicken Sie auf das **+** im Feld verknüpftes Objekt auf der Datensatzseite, um Assets mit dem Datensatz zu verbinden.
 
    Die **Auswählen von Assets** angezeigt. <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    >[!IMPORTANT]
    >
-   > Sie können nur Assets verbinden, auf die Sie Zugriff haben, um sie in Experience Manager anzuzeigen. Nach der Verbindung können alle Planungsbenutzer von Workfront die Assets in der Workfront-Planung anzeigen, unabhängig vom Zugriff auf die Assets in Experience Manager Assets.
+   > Sie können nur Assets verbinden, auf die Sie Zugriff haben, um sie in Experience Manager anzuzeigen. Nach der Verbindung können alle Benutzer der Workfront-Planung die Assets in der Workfront-Planung anzeigen, unabhängig vom Zugriff auf die Assets in Experience Manager Assets.
 
 1. Klicks **Auswählen**. <!-- we might change this to Connect-->
 
@@ -346,7 +346,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
      >
      >* Wenn Sie die Einstellung Mehrere Datensätze zulassen aktiviert haben, werden die Werte der verschiedenen Objekte je nach ausgewähltem Aggregator entweder durch Kommas getrennt oder aggregiert angezeigt.
      >
-     >* Es wird kein verknüpftes Datensatzfeld mit den Workfront-Planungs-verknüpften Datensätzen für die verknüpften Experience Manager-Assets in der Experience Manager Assets-Anwendung erstellt.
+     >* Für die verknüpften Experience Manager-Assets in der Experience Manager Assets-Anwendung wird kein mit der Workfront-Planung verknüpftes Datensatzfeld erstellt.
 
 1. (Optional) Gehen Sie zu dem mit Experience Manager Assets verknüpften Datensatztyp und klicken Sie im verknüpften Datensatzfeld auf den Namen eines Assets. Die Experience Manager-Details des Assets werden in einem Popup-Fenster angezeigt. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    * Erstellungsdatum
    * Änderungsdatum
 
-1. (Optional) Um die Seite mit den Details zum Experience Manager-Asset-Datensatz in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das **Öffnen** icon ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
+1. (Optional) Um die Datensatzseite für Experience Manager-Assets in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das **Öffnen** icon ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
 
    Dadurch wird das Experience Manager-Asset in Adobe Experience Manager Assets geöffnet.
 

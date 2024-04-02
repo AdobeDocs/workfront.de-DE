@@ -1,11 +1,11 @@
 ---
 title: Felder löschen
-description: Bei der Adobe Workfront-Planung können Sie nicht mehr relevante benutzerdefinierte Felder löschen.
+description: In der Adobe Workfront-Planung können Sie nicht mehr relevante benutzerdefinierte Felder löschen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>

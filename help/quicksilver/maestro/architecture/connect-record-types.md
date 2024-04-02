@@ -1,11 +1,11 @@
 ---
 title: Datensatztypen verbinden
-description: Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Adobe Workfront-Planungs-Datensatztypen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu behalten.
+description: Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Adobe Workfront Planning-Record-Typen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu behalten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,13 +30,13 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Sie können die Adobe Workfront-Planung verwenden, um vollständig anpassbare Arbeitsbereiche zu entwerfen, die Datensatztypen enthalten, die in Ihrem Unternehmen benötigt werden. Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Workfront-Planungs-Datensatztypen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu behalten.
+Sie können die Adobe Workfront-Planung verwenden, um vollständig anpassbare Arbeitsbereiche zu entwerfen, die die in Ihrem Unternehmen benötigten Datensatztypen enthalten. Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Workfront Planning-Record-Typen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu behalten.
 
 Sie können Datensatztypen miteinander oder Datensatztypen mit Objektarten aus anderen Anwendungen verbinden.
 
-Auf diese Weise können Sie Felder aus dem verknüpften Datensatz oder Objekttyp in einem Workfront-Planungsdatensatz anzeigen.
+Auf diese Weise können Sie Felder aus dem verknüpften Datensatz oder Objekttyp in einem Workfront Planning-Datensatz anzeigen.
 
-In diesem Artikel wird beschrieben, wie Sie in der Workfront-Planung zwei Datensatztypen oder einen Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden können.
+In diesem Artikel wird beschrieben, wie Sie zwei Datensatztypen in der Workfront-Planung oder einen Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden können.
 
 Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden.
 
@@ -61,11 +61,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Um Adobe Workfront-Planungs-Datensatztypen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
+   <p> Adobe Workfront</p> <p>Um Adobe Workfront Planning-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>
@@ -121,7 +121,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      Die Datensatztypen müssen zum selben Arbeitsbereich gehören.
    * Ein Datensatztyp und ein Objekttyp aus einer anderen Anwendung.
 
-* Sie können die folgenden Objekttypen aus den folgenden Anwendungen mit Workfront-Planungs-Datensatztypen verbinden:
+* Sie können die folgenden Objekttypen aus den folgenden Anwendungen mit den Datensatztypen der Workfront-Planung verbinden:
 
    * Adobe Workfront:
 
@@ -138,7 +138,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!IMPORTANT]
      >
-     >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
+     >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront Planning-Datensätze mit Adobe Experience Manager Assets zu verbinden.
      >
      >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -152,11 +152,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
 
-     Für das Objekt der anderen Anwendung wird nur dann ein neuer schreibgeschützter Workfront-Planungstyp erstellt, wenn die eigentlichen Objekte mit den Planungsprotokollen von Workfront verbunden sind.
+     Ein neuer schreibgeschützter Workfront-Planungstyp wird nur dann für das Objekt der anderen Anwendung erstellt, wenn die eigentlichen Objekte mit Datensätzen der Workfront-Planung verbunden sind.
 
      Weitere Informationen finden Sie unter [Datensätze verbinden](../records/connect-records.md).
 
-   * **Beim Hinzufügen von Suchfeldern des Datensatzes oder Objekts, zu dem Sie eine Verbindung herstellen**: Sie können Felder vom Objekt der anderen Anwendung mit dem Workfront-Planungs-Datensatztyp verbinden. Diese Felder sind verknüpft oder Suchfelder. Verknüpfte Felder zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden. Die verknüpften Suchfelder sind immer schreibgeschützt und werden automatisch mit den Werten der verbundenen Datensätze oder Objekte ausgefüllt.
+   * **Beim Hinzufügen von Suchfeldern des Datensatzes oder Objekts, zu dem Sie eine Verbindung herstellen**: Sie können Felder vom -Objekt der anderen Anwendung mit dem Datensatztyp für die Workfront-Planung verbinden. Diese Felder sind verknüpft oder Suchfelder. Verknüpfte Felder zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden. Die verknüpften Suchfelder sind immer schreibgeschützt und werden automatisch mit den Werten der verbundenen Datensätze oder Objekte ausgefüllt.
 
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit einem Workfront-Projekt verbinden und das Feld &quot;Geplantes Abschlussdatum&quot;des Projekts in den Workfront-Planungsdatensatz übertragen möchten, wird automatisch ein verknüpftes Feld namens &quot;Geplantes Abschlussdatum&quot;(aus Projekt) für die Kampagne erstellt. Sie können dieses verknüpfte Feld nicht manuell bearbeiten. Im Feld Geplantes Abschlussdatum (aus Projekt) wird das geplante Abschlussdatum der verknüpften Projekte angezeigt.
 
@@ -200,7 +200,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Aktualisieren Sie die folgenden Informationen:
 
-   * **Name**: Der Name des verbundenen Felds, wie er in der Tabellenansicht oder auf der Detailseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verknüpfte Datensatzspalte in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatzfelds für die ursprünglichen Datensätze erstellt.
+   * **Name**: Der Name des verbundenen Felds, wie er in der Tabellenansicht oder auf der Datensatzseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verknüpfte Datensatzspalte in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatzfelds für die ursprünglichen Datensätze erstellt.
 
    >[!TIP]
    >
@@ -290,7 +290,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
      >[!TIP]
      >
-     > Für Objekte aus einer anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt, das dem Datensatztyp entspricht, den Sie in der Workfront-Planung verknüpfen.
+     > Für Objekte aus einer anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt, das dem Datensatztyp entspricht, von dem aus Sie in der Workfront-Planung verknüpfen.
 
 1. (Optional und bedingt) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
 

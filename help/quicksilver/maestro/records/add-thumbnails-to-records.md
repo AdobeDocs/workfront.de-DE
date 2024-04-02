@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Bei der Adobe Workfront-Planung können Sie Datensätze mit eindeutigen Miniaturansichten verknüpfen, damit sie leicht erkennbar sind.
+In der Adobe Workfront-Planung können Sie Datensätze mit eindeutigen Miniaturansichten verknüpfen, damit sie leicht erkennbar sind.
 
 Sie müssen Datensatztypen erstellen, bevor Sie mit der Erstellung und Bearbeitung von Datensätzen beginnen können.
 Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
@@ -93,8 +93,8 @@ Beachten Sie Folgendes:
 
    * Das primäre Feld eines Datensatzes in der Tabellenansicht
    * Die Datensatzleiste in der Timeline-Ansicht.
-* Auf der Detailseite des Datensatzes oder in der Timeline-Ansicht können Sie keine Datensatzminiaturansichten hinzufügen.
-* Miniaturansichten werden nicht auf der Detailseite des Datensatzes angezeigt.
+* Sie können keine Miniaturansichten aus der Datensatzseite oder aus einer anderen Ansicht hinzufügen.
+* Miniaturansichten werden nicht auf der Datensatzseite angezeigt.
 
 ## Hinzufügen einer Miniaturansicht zu einem Datensatz
 

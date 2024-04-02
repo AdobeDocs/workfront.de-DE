@@ -1,25 +1,25 @@
 ---
 title: Zugriffsübersicht
-description: Für die Verwendung der Adobe Workfront-Planung gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
+description: Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeberechtigungen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront planning. This article describes the levels of access that users could have to Adobe Workfront planning. -->
-<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
+<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # Zugriffsübersicht
 
 {{maestro-important-intro}}
 
-Für die Verwendung der Adobe Workfront-Planung gibt es Lizenzbeschränkungen und Freigabeberechtigungen.
+Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeberechtigungen.
 
 ## Zugriffsanforderungen
 
@@ -40,7 +40,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. </p>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. </p>
    </td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
   </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>
@@ -75,7 +75,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
    <p>Sie können Arbeitsbereiche und Ansichten, die Sie nicht erstellt haben, um sie zu bearbeiten, zu löschen und freizugeben sowie Datensatztypen und -datensätze zu erstellen, zu bearbeiten oder zu löschen, mit oder über höhere Berechtigungen versehen.</p>
     <p>Systemadministratoren können nicht erstellte Arbeitsbereiche verwalten. </p>
     <p>Systemadministratoren können keine Ansichten verwalten, die sie nicht erstellt haben. </p>
-   <p>Informationen zum Freigeben von Berechtigungen für Planungs-Funktionsobjekte finden Sie unter  
+   <p>Informationen zum Freigeben von Berechtigungen für Workfront Planning-Objekte finden Sie unter  
    <a href="../access/sharing-permissions-overview.md">Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung</a> 
   </td>
   </tr>
@@ -92,9 +92,9 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
 
 ## Planungsbereich im Hauptmenü für andere freigeben
 
-<!--First, contact your account manager to obtain access to the current Workfront planning closed beta program.-->
+<!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-Nachdem sich Ihr Unternehmen für das Betaprogramm für die Workfront-Planung angemeldet hat, können Sie den Planungsbereich mithilfe einer Layoutvorlage zum Hauptmenü aller Benutzer hinzufügen.
+Nachdem Ihr Unternehmen am Betaprogramm für die Workfront-Planung angemeldet wurde, können Sie den Planungsbereich mithilfe einer Layoutvorlage zum Hauptmenü aller Benutzer hinzufügen.
 
 1. Anmelden bei **Workfront** als Workfront-Administrator.
 
@@ -124,8 +124,8 @@ Sie müssen Benutzern Berechtigungen für Arbeitsbereiche und Ansichten erteilen
 
 Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront-Planungsberechtigungen zusammen, um Ihnen Zugriff auf Planungsobjekte von Workfront zu gewähren, diese anzuzeigen, zu verwalten oder dazu beizutragen.
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf Workfront Planning-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
 
-Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für Workfront-Planobjekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/maestro/access/license-type-overview.md).
+Informationen dazu, wie sich Lizenztypen auf die Berechtigungsstufen für Workfront Planning-Objekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

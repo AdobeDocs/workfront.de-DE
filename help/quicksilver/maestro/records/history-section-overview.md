@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Sie können an Adobe Workfront-Planungsprotokollen mitarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
@@ -40,17 +40,17 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
 1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
 1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
 
-   Der Rekord **Details** Seite geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
+   Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
 1. Klicken Sie auf **Verlauf anzeigen** icon ![](assets/show-history-icon.png). Alle Änderungen an den Feldern des Datensatzes werden im rechten Bereich angezeigt, beginnend mit dem letzten.
 1. (Optional) Klicken Sie auf die **Verlauf ausblenden** icon ![](assets/hide-history-icon.png) , um den rechten Bereich zu schließen.
 
 ## Überlegungen zum Abschnitt Verlauf
 
-Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt Verlauf der rechten Leiste der Detailseite eines Datensatzes überprüfen.
+Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt Verlauf des rechten Bereichs der Datensatzseite überprüfen.
 
 ![](assets/history-area-in-comments.png)
 
-* Die Planung von Workfront zeichnet die folgenden Informationen im Abschnitt Verlauf auf:
+* Die Workfront-Planung zeichnet die folgenden Informationen im Abschnitt Verlauf auf:
 
    * Alle Feldänderungen
 

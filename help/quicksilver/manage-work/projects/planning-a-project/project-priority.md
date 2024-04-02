@@ -7,16 +7,16 @@ description: Es gibt mehrere Möglichkeiten, Prioritäten für Projekte zu verwe
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Projektprioritäten verstehen und aktualisieren
 
-Es gibt mehrere Möglichkeiten, Prioritäten für Projekte zu verwenden, und sie kommunizieren nicht miteinander. Es wird empfohlen, eine der Prioritäten für Projekte auszuwählen, die Ihren Anforderungen entsprechen, und bei der Kategorisierung der Bedeutung Ihrer Projekte darauf hinzuweisen. 
+Es gibt mehrere Möglichkeiten, Prioritäten für Projekte zu verwenden, und sie kommunizieren nicht miteinander. Es wird empfohlen, eine der Prioritäten für Projekte auszuwählen, die Ihren Anforderungen entsprechen, und bei der Kategorisierung der Bedeutung Ihrer Projekte darauf hinzuweisen.
 
 ## Zugriffsanforderungen
 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -82,33 +82,33 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Im Folgenden finden Sie Prioritätstypen, mit denen Sie Projekte in Adobe Workfront nach Rang ordnen können:
 
-* **Feld &quot;Projektpriorität&quot;**: Sie können einem Projekt manuell eine Priorität zuweisen.
+* **Feld &quot;Projektpriorität&quot;**: Sie können einem Projekt manuell eine Priorität zuweisen. In diesem Artikel wird beschrieben, wie Sie einem Projekt manuell eine Priorität zuweisen.
 
-   Weitere Informationen zum Feld &quot;Projektpriorität&quot;finden Sie im Abschnitt . [Überlegungen zur Projektpriorität](#considerations-about-project-priority) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt . [Überlegungen zur Projektpriorität](#considerations-about-project-priority) in diesem Artikel.
 
-* **Die Priorität eines Projekts im Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist: 
+* **Die Priorität eines Projekts im Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist:
 
-   Weitere Informationen zur Priorität eines Portfolios im Projektoptimierer finden Sie im Artikel [Priorisieren von Projekten in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Weitere Informationen zur Priorität eines Portfolios im Projektoptimierer finden Sie im Artikel [Priorisieren von Projekten in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Die Priorität eines Projekts im Ressourcenplaner**: Sie können Projekte im Ressourcenplaner manuell priorisieren, um anzugeben, welche Projekte zuerst Ressourcen erhalten sollen. 
+* **Die Priorität eines Projekts im Ressourcenplaner**: Sie können Projekte im Ressourcenplaner manuell priorisieren, um anzugeben, welche Projekte zuerst Ressourcen erhalten sollen.
 
-   Weitere Informationen zur Priorisierung von Projekten im Ressourcen-Planer finden Sie im Abschnitt &quot;Project Planning Priority&quot;im Artikel [Navigationsübersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Weitere Informationen zur Priorisierung von Projekten im Ressourcen-Planer finden Sie im Abschnitt &quot;Project Planning Priority&quot;im Artikel [Navigationsübersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Überlegungen zur Projektpriorität {#considerations-about-project-priority}
 
-Sie können Projekte in Workfront eine Priorität zuweisen. Aufgaben und Probleme haben auch Prioritäten. Wenn Sie eine Priorität für das Projekt angeben, wird jedem im System mitgeteilt, wie wichtig dieses Projekt ist.
+Sie können Projekte in Workfront eine Priorität zuweisen. Wenn Sie eine Priorität für das Projekt angeben, wird jedem im System mitgeteilt, wie wichtig dieses Projekt ist.
 
 Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
 
-* Ihr Workfront-Administrator definiert die in Workfront verfügbaren Prioritäten. Nach ihrer Einrichtung stehen sie Ihnen zur Verfügung, um sie mit Projekten im Feld Priorität zu verbinden. 
+* Ihr Workfront-Administrator definiert die in Workfront verfügbaren Prioritäten. Nach ihrer Einrichtung stehen sie Ihnen zur Verfügung, um sie mit Projekten im Feld Priorität zu verbinden.
 
-   Weitere Informationen zum Erstellen von Prioritäten in Workfront finden Sie im Artikel [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Weitere Informationen zum Erstellen von Prioritäten in Workfront finden Sie im Artikel [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Wenn Sie das Feld &quot;Priorität&quot;eines Projekts aktualisieren, wird diese Priorität nicht an den Portfolio Optimizer oder den Ressourcen-Planer übertragen. 
+* Wenn Sie das Feld &quot;Priorität&quot;eines Projekts aktualisieren, wird diese Priorität nicht an den Portfolio Optimizer oder den Ressourcen-Planer übertragen. Das Feld &quot;Priorität&quot;des Projekts ist lediglich ein manuelles Flag, das Sie im Projekt platzieren, um die Bedeutung für andere Benutzer anzuzeigen.
 * Der Prioritätswert eines Projekts wird hauptsächlich für Berichtszwecke verwendet.
 
-   Sie können beispielsweise nach allen Projekten suchen, die den Prioritätswert &quot;Dringend&quot;haben, wenn Sie dieses Feld in einem Projektfilter verwenden. 
-
+  Sie können beispielsweise nach allen Projekten suchen, die den Prioritätswert &quot;Dringend&quot;haben, wenn Sie dieses Feld in einem Projektfilter verwenden.
+* Aufgaben und Probleme haben auch Prioritäten, aber die Aufgaben-, Problem- und Projektprioritäten funktionieren unabhängig voneinander und beeinflussen sich nicht automatisch gegenseitig. Sie können in einem Projekt mit niedriger Priorität ein Problem mit hoher Priorität oder eine Aufgabe mit mittlerer Priorität haben.
 * Sie können die Projektpriorität in den folgenden Bereichen von Workfront aktualisieren:
 
    * Im **Projekt bearbeiten** Dialogfeld.
@@ -118,8 +118,8 @@ Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
 ## Aktualisieren des Felds &quot;Projektpriorität&quot;
 
 1. Wechseln Sie zu dem Projekt, dessen Priorität Sie aktualisieren möchten.
-1. Klicken **Projektdetails** im linken Bereich.
-1. Klicken Sie auf **Bearbeiten** icon ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails klicken Sie auf **Übersicht**.
+1. Klicks **Projektdetails** im linken Bereich.
+1. Klicken Sie auf **Bearbeiten** icon ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails klicken Sie auf **Übersicht**.
 
 1. Im **Priorität** aus den folgenden Optionen auswählen:
 
@@ -127,13 +127,13 @@ Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
    * Niedrig
    * Normal
 
-      Dies ist die Standardpriorität.
+     Dies ist die Standardpriorität.
 
    * Hoch
    * Dringend
 
    ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Sie müssen mit anderen Benutzern kommunizieren und verstehen, was jede Prioritätsstufe für das Projekt bedeutet.

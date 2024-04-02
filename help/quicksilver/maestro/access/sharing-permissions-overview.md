@@ -1,19 +1,19 @@
 ---
 title: Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung
-description: Sie können Berechtigungen für einen Adobe Workfront-Planungsarbeitsbereich oder eine Ansicht freigeben oder daraus entfernen.
+description: Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder daraus entfernen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 7%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront planning. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 Sie können Berechtigungen für einen Arbeitsbereich oder eine Ansicht in der Adobe Workfront-Planung freigeben oder daraus entfernen.
 
-In diesem Artikel werden die Berechtigungsebenen für Workfront-Planobjekte beschrieben.
+In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte beschrieben.
 
 Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in den folgenden Artikeln:
 
@@ -43,7 +43,7 @@ Sie können die folgenden Objekte freigeben:
 
 ## Überlegungen zum Freigeben von Objekten in der Adobe Workfront-Planung
 
-* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront-Planungsberechtigungen zusammen, um Ihnen bei der Verwendung der Workfront-Planung Zugriff auf die Anzeige, den Beitrag oder die Verwaltung von Objekten zu gewähren.
+* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen bei der Verwendung der Workfront-Planung Zugriff auf die Anzeige, den Beitrag oder die Verwaltung von Objekten zu gewähren.
 
   Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für die Workfront-Planung auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
@@ -55,13 +55,13 @@ Sie können die folgenden Objekte freigeben:
 * Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erhalten.
 * Sie können einen Link zu einem Arbeitsbereich oder zu einer Ansicht von einer Seite vom Typ Datensatz für andere freigeben. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
 
-## Berechtigungen für die Adobe Workfront-Planung freigeben
+## Berechtigungen für Adobe Workfront Planning-Objekte freigeben
 
 Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
 
 >[!IMPORTANT]
 >
->Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Berechtigungen er für Workfront-Planobjekte erhalten kann.
+>Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Berechtigungen er für Workfront Planning-Objekte erhalten kann.
 >
 >Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/maestro/access/license-type-overview.md).
 

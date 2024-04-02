@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,13 +30,13 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Als Marktführer für Marketing-Vorgänge können Sie die Adobe Workfront-Planung verwenden, um die Arbeit für alle Ihre Teams über den gesamten Marketing-Lebenszyklus zu organisieren.
+Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren.
 
-Mit der Workfront-Planung können Sie Ihre Workflows vollständig anpassen, indem Sie festlegen, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, bis hin zur Konfiguration der Verknüpfung dieser Objekte miteinander.
+Mit der Workfront-Planung können Sie Ihre Workflows vollständig anpassen, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren, wie diese Objekte miteinander verknüpft werden.
 
-Außerdem kann die Workfront-Planung mit Objekttypen aus anderen Systemen verknüpft werden, wodurch ein kohärentes Framework für alle Ihre Prozesse entsteht.
+Darüber hinaus kann die Workfront-Planung Verknüpfungen zu Objektarten anderer Systeme anlegen, um ein kohärentes Framework für alle Ihre Prozesse zu schaffen.
 
-In den folgenden Artikeln wird beschrieben, wie Sie die Adobe Workfront-Planungs-Arbeitsbereiche konfigurieren, die Datensatztypen definieren, die die Bausteine dieser Arbeitsbereiche sind, und mit der Verwendung der zugehörigen Funktionen beginnen können:
+In den folgenden Artikeln wird beschrieben, wie Sie die Arbeitsbereiche für die Adobe Workfront-Planung konfigurieren, die Datensatztypen definieren, die die Bausteine dieser Arbeitsbereiche sind, und mit der Verwendung der zugehörigen Funktionen beginnen können:
 
 * [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md)
 * [Liste der Workspace-Vorlagen](../architecture/workspace-templates.md)

@@ -1,11 +1,11 @@
 ---
 title: Übersicht über Datensatztypen
-description: Datensatztypen sind die Bausteine eines Adobe Workfront-Arbeitsbereichs für die Planung.
+description: Datensatztypen sind die Bausteine eines Arbeitsbereichs für die Adobe Workfront-Planung.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie bei der Adobe Workfront-Planung eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
+Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Adobe Workfront-Planung eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
 
-Workfront-Planungs-Objekttypen werden als &quot;Datensatztypen&quot;bezeichnet und Sie können alle Typen erstellen und anpassen. Datensatztypen sind die Bausteine eines Workfront-Arbeitsbereichs für die Planung. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+Workfront-Planungs-Objekttypen werden als &quot;Datensatztypen&quot;bezeichnet und können alle Objektarten erstellen und anpassen. Datensatztypen sind die Bausteine eines Arbeitsbereichs für die Workfront-Planung. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
 ## Übersicht über Datentypen
 
-Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
+In der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
 
 * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Arbeitsbereich-Abschnitten erstellt:
 

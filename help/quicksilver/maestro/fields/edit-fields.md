@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Felder bearbeiten
 
 {{maestro-important-intro}}
@@ -34,13 +33,13 @@ Sie können die Feldeinstellungen für Felder bearbeiten, die bereits in der Ado
 
 Informationen zum Erstellen von Adobe Workfront-Planungsfeldern finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-In diesem Artikel wird beschrieben, wie Sie die Einstellungen für Workfront-Planungsfelder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
+In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Überlegungen zum Bearbeiten von Feldinformationen
 
 * Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
 * Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
-* Sie können ein Feld nicht auf der Detailseite eines Datensatzes oder in der Timeline-Ansicht bearbeiten.
+* Sie können ein Feld auf der Datensatzseite oder in der Timeline-Ansicht nicht bearbeiten.
 * Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
 * Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 

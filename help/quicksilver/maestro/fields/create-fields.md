@@ -1,13 +1,13 @@
 ---
 title: Felder erstellen
-description: Bei der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für jeden Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront-Planungsdatensätzen verknüpfen.
+description: In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für jeden Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront-Planungsdatensätzen verknüpfen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Bei der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront-Planungsdatensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
+In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront-Planungsdatensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
 
 Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
@@ -86,7 +86,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffskontrolle</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebene</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Datumsformat**: Der Typ des Datumsformats, das in diesem Feld angezeigt werden soll. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Zahlenfeldtypen erfassen Informationen im Zahlenformat.
    ![](assets/number-field-type.png)
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Zahlen in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
@@ -300,7 +300,7 @@ Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem
    ![](assets/percentage-field-type.png)
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Prozentwerte in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
@@ -322,7 +322,7 @@ Währungsfeldtypen erfassen Informationen in einem Zahlenformat, dem ein Währun
    ![](assets/currency-field-type.png)
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Währung**: Der Typ der Währung, die in diesem Feld angezeigt werden soll. Dies ist eine Liste der Währungen gemäß der Internationalen Organisation für Normung (ISO).
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
@@ -345,7 +345,7 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
    ![](assets/checkbox-field-type.png)
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 1. Klicken Sie auf **Erstellen**.
 
@@ -373,7 +373,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    Weitere Informationen dazu, welche Ausdrücke unterstützt werden, finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Fügen Sie Feldnamen hinzu, wie sie in der Planungsschnittstelle von Workfront angezeigt werden, um sie in einer Formel zu referenzieren.
+1. Fügen Sie Feldnamen hinzu, wie sie in der Workfront-Planungs-Oberfläche angezeigt werden, um sie in einer Formel zu referenzieren.
 
    >[!NOTE]
    >
@@ -396,7 +396,7 @@ Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--
    ![](assets/people-field-type.png)
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird.
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Mehrere Werte zulassen**: Wählen Sie diese Option aus, wenn Sie zulassen möchten, dass Benutzer mehr als einen Benutzer in dieses Feld hinzufügen können. Diese Option ist standardmäßig deaktiviert.
 
@@ -418,7 +418,7 @@ Sie können den Feldtyp Erstellt nach verwenden, um den Benutzer, der den Datens
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 
 1. Klicken Sie auf **Erstellen**.
@@ -438,7 +438,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum der Erstellung eines Date
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten aus:
 
@@ -469,7 +469,7 @@ Mit dem Feldtyp Letzte Änderung können Sie den Benutzer, der den Datensatz zul
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 
 1. Klicken Sie auf **Erstellen**.
@@ -489,7 +489,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
 
 1. Fügen Sie die folgenden Informationen in die **Neues Feld** tab:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten aus:
 
@@ -525,6 +525,6 @@ Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem n
 
 ## Erstellen von Feldern durch Erstellen eines Arbeitsbereichs aus einer Vorlage
 
-Die Adobe Workfront-Planung erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
+Adobe Workfront Planning erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
 
 Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/create-workspaces.md).

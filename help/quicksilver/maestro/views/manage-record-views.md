@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <p>Alle</p> 
+   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 
@@ -138,7 +139,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Farbcode-Gruppierungen |           | ✓ |
 | Suche nach bestimmten Datensätzen | ✓ | ✓ |
 | Freigabeansicht | ✓ | ✓ | ✓ |
-| Öffnen Sie die Detailseite des Datensatzes in der Ansicht. | ✓ | ✓ |    |
+| Öffnen Sie die Seite des Datensatzes in der Ansicht | ✓ | ✓ |    |
 
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}

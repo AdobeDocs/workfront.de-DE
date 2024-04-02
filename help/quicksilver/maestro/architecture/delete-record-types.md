@@ -1,13 +1,13 @@
 ---
 title: Löschen von Datensatztypen
-description: Sie können Datensatztypen löschen, die nicht mehr relevant sind.
+description: Sie können Datensatztypen löschen, die nicht mehr relevant sind. Beim Löschen von Datensatztypen werden auch alle mit den Datensatztypen verknüpften Informationen wie Datensätze, Felder und Ansichten gelöscht.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
 
-   Der Arbeitsbereich wird geöffnet und die damit verbundenen Datensatztypen und Taxonomien werden angezeigt.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 1. Klicken Sie auf die Karte für den Datensatztyp, den Sie löschen möchten.
 
    Dadurch wird die Seite des Datensatztyps geöffnet.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**.
-1. Klicks **Löschen** zur Bestätigung.
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**. <!--add screen shot when they finalize the UI-->
+1. Typ **Löschen** Klicken Sie im Bestätigungsfeld auf **Dauerhaftes Löschen**.
 
    Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des Betaprogramms der Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
+In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des Betaprogramms für die Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
 
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die an den Planungsfunktionen des geschlossenen Betaprogramms teilnehmen, können auf alle Funktionen in ihrer Produktionsumgebung zugreifen.
 
@@ -24,7 +24,7 @@ Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichu
 >
 >Zwischen Mai 2023 und Dezember 2023 wurden alle Funktionen in diesem Artikel sowohl in der Vorschau- als auch in der Produktionsumgebung veröffentlicht. Die Planungsfunktionen wurden seit Januar 2024 vorübergehend aus den Umgebungen für Vorschau und Sandbox entfernt. Alle nach diesem Datum veröffentlichten Funktionen sind derzeit in der Produktion verfügbar.
 
-In diesem Artikel werden die Funktionen und Patches aufgelistet, die nach dem Start des geschlossenen Betaprogramms für Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
+In diesem Artikel werden die Funktionen und Patches aufgelistet, die nach dem Start des beendeten Betaprogramms der Adobe Workfront-Planungsfunktionen am 22. Mai 2023 veröffentlicht wurden.
 
 Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die an den Planungsfunktionen des geschlossenen Betaprogramms teilnehmen, können auf alle Funktionen in ihrer Vorschau- und Produktionsumgebung zugreifen.
 
@@ -64,13 +64,23 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
 ### Der Maestro-Bereich im Hauptmenü wurde in Planung umbenannt.
 
-Produktion: 28. März 2024
+Produktion: 27. März 2024
 
 Vorschau: zu bestimmen
 
 Wir haben den Bereich Maestro im Hauptmenü in Planung umbenannt.
 
 Einen Überblick über die Adobe Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
+
+### Neues Erlebnis beim Löschen eines Datensatztyps
+
+Produktion: 27. März 2024
+
+Vorschau: zu bestimmen
+
+Das Bestätigungsfeld wurde beim Löschen eines Datensatztyps neu gestaltet. Das Löschen eines Datensatztyps hat Auswirkungen, da dadurch auch alle Datensätze, ihre Felder, die Informationen in den Feldern sowie die mit dem Datensatztyp verknüpften Ansichten gelöscht werden. Gelöschte Datensatztypen und ihre gelöschten Informationen können nicht wiederhergestellt werden.
+
+Aus diesem Grund wollten wir sicherstellen, dass die Absicht des Benutzers beim Löschen eines Datensatztyps korrekt ist. Daher haben wir einen zusätzlichen Schritt zur Bestätigung des Löschvorgangs eingeführt. Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Woche vom 18. März 2024
 
@@ -82,15 +92,15 @@ Vorschau: zu bestimmen
 
 Sie können jetzt Informationen in der Kalenderansicht filtern. Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Detailfeld, das der Timeline- und Kalenderansicht hinzugefügt wurde
+### Feld mit Datensatzdetails zur Timeline- und Kalenderansicht hinzugefügt
 
 Produktion: 19. März 2024
 
 Vorschau: zu bestimmen
 
-Sie können jetzt von der Timeline- und Kalenderansicht aus auf das Feld Details eines Datensatzes zugreifen. Sie können Datensätze im Feld Details in der Timeline- und Kalenderansicht bearbeiten.
+Sie können jetzt auf ein Feld mit Datensatzdetails aus der Timeline- und Kalenderansicht zugreifen. Sie können Datensätze im Datensatzfeld in der Timeline- und Kalenderansicht bearbeiten.
 
-Über das Feld Details können Sie die Detailseite des Datensatzes öffnen.
+Über das Datensatzfeld können Sie die Datensatzseite in einer neuen Browser-Registerkarte öffnen.
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Um bei Verwendung der Tabellenansicht die Anzeige zusätzlicher Informationen zu
 
 * Möglichkeit zur Änderung von Datensatzinformationen
 
-* Link zum Öffnen der Detailseite des Datensatzes
+* Link zum Öffnen der Datensatzseite
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -360,7 +370,7 @@ Um bei der Erstellung von Datensätzen Konsistenz zu gewährleisten, haben wir d
 
 Vorschau und Sandbox: 11. Januar 2024
 
-Die Planungsfunktionen von Adobe Workfront wurden vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Sie werden zu einem späteren Zeitpunkt zu diesen Umgebungen hinzugefügt, den wir in den Versionshinweisen zu den Aktivitäten kommunizieren werden.
+Die Adobe Workfront-Planungsfunktionen wurden vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Sie werden zu einem späteren Zeitpunkt zu diesen Umgebungen hinzugefügt, den wir in den Versionshinweisen zu den Aktivitäten kommunizieren werden.
 
 ### Planen von Berechtigungen für Arbeitsbereiche und Ansichten
 
@@ -439,7 +449,7 @@ Sie können jetzt nach einem Keyword suchen, um schnell einen Datensatz in der T
 
 ## Woche vom 18. Dezember 2023
 
-### Hinzufügen von Kommentaren zu Datensätzen über die Detailseite
+### Kommentare zu Datensätzen von der Datensatzseite hinzufügen
 
 Vorschau und Produktion für alle Kunden: 18. Dezember 2023
 
@@ -455,7 +465,7 @@ Vorschau und Produktion für alle Kunden: 18. Dezember 2023
 >
 >Weitere Informationen finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder auf andere antworten, während Sie einen Datensatz auf der Detailseite anzeigen.
+Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder auf andere antworten, während Sie die Seite eines Datensatzes anzeigen.
 
 Das Kommentierungserlebnis für die Aufzeichnung von Planungsfunktionen entspricht dem neuen Kommentierungserlebnis für Workfront-Objekte.
 
@@ -525,7 +535,7 @@ Produktionsversion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Adobe Workfront-Planungsfunktionsdatensätze mit Adobe Experience Manager Assets verbinden zu können.
+>Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, damit Adobe Workfront Planning-Leistungsdatensätze mit Adobe Experience Manager Assets verbunden werden können.
 >
 >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -630,7 +640,7 @@ Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in den 
 
 * Die schreibgeschützte verknüpfte Tabellenansicht der Workfront-Objektdatensätze
 
-* Die Seite mit den Details zum schreibgeschützten Workfront-Objektdatensatz
+* Die schreibgeschützte Workfront-Objektaufzeichnungsseite
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Sie können jetzt ein Feld vom Typ Personen zu den Datensätzen der Planungsfunk
 
 Vorschau und Produktion: 16. Oktober 2023
 
-Für Absatzfelder wurden Steuerelemente im Rich-Text-Format hinzugefügt. Sie können Absatzfelder mit Rich Text formatieren, entweder in der Tabellenansicht eines Datensatztyps oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
+Für Absatzfelder wurden Steuerelemente im Rich-Text-Format hinzugefügt. Sie können Absatzfelder mit Rich Text formatieren, entweder in der Tabellenansicht eines Datensatztyps oder auf der Datensatzseite. Weitere Informationen finden Sie unter [Datensätze bearbeiten](../maestro/records/edit-records.md).
 
 
 ### Farbkodierung für die Timeline-Ansicht aufzeichnen und gruppieren
@@ -839,7 +849,7 @@ Sie können jetzt einen Kontrollkästchen-Feldtyp zu den Datensätzen der Planun
 
 Vorschau und Produktion: 28. Juni 2023
 
-Wir haben die Aktivierung des Kontextmenüs ermöglicht, indem wir mit der rechten Maustaste auf eine beliebige Zeile eines Datensatzes klicken, wenn wir die Datensätze in der Tabellenansicht oder in einem Datensatztyp anzeigen. Sie können jetzt einen Link zur Detailseite des Datensatzes schnell anzeigen, löschen oder kopieren, wenn Sie das Kontextmenü von einer beliebigen Stelle in der Tabellenansicht eines Datensatztyps aus aufrufen. Vor dieser Verbesserung war das Kontextmenü nur über das Menü Mehr in der Spalte Name eines Datensatzes zugänglich.
+Wir haben die Aktivierung des Kontextmenüs ermöglicht, indem wir mit der rechten Maustaste auf eine beliebige Zeile eines Datensatzes klicken, wenn wir die Datensätze in der Tabellenansicht oder in einem Datensatztyp anzeigen. Sie können jetzt einen Link zur Datensatzseite schnell anzeigen, löschen oder kopieren, wenn Sie das Kontextmenü von einer beliebigen Stelle in der Tabellenansicht eines Datensatztyps aus aufrufen. Vor dieser Verbesserung war das Kontextmenü nur über das Menü Mehr in der Spalte Name eines Datensatzes zugänglich.
 
 ## Woche vom 19. Juni 2023
 
@@ -849,7 +859,7 @@ Wir haben jetzt eine Anforderung eingeführt, dass die Feldnamen eines Datensatz
 
 ## Woche vom 5. Juni 2023
 
-### Verbinden von Datensätzen der Adobe Workfront-Planungsfunktionen mit Workfront-Projekten
+### Verbinden von Datensätzen der Adobe Workfront-Planungsfunktion mit Workfront-Projekten
 
 Vorschau und Produktion: 5. Juni 2023
 

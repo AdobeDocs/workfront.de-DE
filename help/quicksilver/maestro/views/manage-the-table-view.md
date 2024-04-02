@@ -1,13 +1,13 @@
 ---
 title: Tabellenansicht verwalten
-description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
+description: Beim Zugriff auf die Datensatztypseite in der Adobe Workfront-Planung können Sie Datensätze und deren Felder in einer Tabellenansicht anzeigen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
+Beim Zugriff auf die Datensatztypseite in der Adobe Workfront-Planung können Sie Datensätze und deren Felder in einer Tabellenansicht anzeigen.
 
 Informationen zu Datensatzansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
@@ -64,6 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <p>Alle</p> 
+   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](../fields/create-fields.md).
 
-   Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden auf der Detailseite der Datensätze des ausgewählten Datensatztyps als neue Felder hinzugefügt.
+   Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen und als neue Felder auf der Datensatzseite hinzugefügt werden.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
 
@@ -174,7 +175,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >
    >   * Ein primäres Feld kann nicht gelöscht oder ausgeblendet werden.
    >
-   >   * Der im Primärfeld angegebene Wert ist immer per Hyperlink zur Detailseite des Datensatzes gekennzeichnet.
+   >   * Der im primären Feld angegebene Wert ist immer per Hyperlink zur Datensatzseite gekennzeichnet.
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 

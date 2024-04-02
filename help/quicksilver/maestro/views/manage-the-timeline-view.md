@@ -1,13 +1,13 @@
 ---
 title: Verwalten der Timeline-Ansicht
-description: Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
+description: Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in der Adobe Workfront-Planung zugreifen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie in der Adobe Workfront-Planung auf die Seite vom Typ Datensatz zugreifen.
+Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in der Adobe Workfront-Planung zugreifen.
 
 Informationen zu Datensatzansichten finden Sie unter [Verwalten von Datensatzansichten](../views/manage-record-views.md).
 
@@ -64,12 +64,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <p>Alle</p> 
+   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen </p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente </p>  
 </td>
   </tr>
 

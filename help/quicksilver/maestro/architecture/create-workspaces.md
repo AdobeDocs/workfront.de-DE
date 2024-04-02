@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Arbeitsbereichen
-description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
+description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen. Die Typen von Datensätzen sind nach Abschnitten in einem Arbeitsbereich organisiert.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Bei der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
+In der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
 
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
 
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 * Sie können Arbeitsbereiche für bestimmte Organisationseinheiten in Ihrer Organisation erstellen, die der einzigartigen Funktionsweise jeder Einheit entsprechen.
 * Die in einem Arbeitsbereich enthaltenen Datensatztypen sollten den Arbeitszyklus einer Organisationseinheit widerspiegeln.
 * Wenn Sie einen Arbeitsbereich erstellen, haben nur Sie die Berechtigung, auf Ihren Arbeitsbereich zuzugreifen und ihn zu verwalten. Sie müssen es für andere Benutzer freigeben, damit sie mit Ihnen an derselben Stelle zusammenarbeiten können. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/maestro/access/share-workspaces.md). Systemadministratoren können alle Arbeitsbereiche verwalten, auch die, die sie nicht erstellt haben.
-* Sie können in der Workfront-Instanz Ihres Unternehmens über maximal 1.000 Arbeitsbereiche verfügen.
-* Arbeitsbereiche enthalten Datensatztypen, die für jeden Arbeitsbereich eindeutig sind. <!--this might change-->
+* Sie können über Folgendes verfügen:
+
+   * Bis zu 50 Abschnitte in einem Arbeitsbereich.
+   * Bis zu 1.000 Datensatztypen aus allen Bereichen eines Arbeitsbereichs. Alle Datensatztypen sind für jeden Arbeitsbereich eindeutig. <!--this might change-->
+   * Bis zu 1.000 Arbeitsbereiche in der Workfront-Instanz Ihres Unternehmens.
+
 
 ## Erstellen eines Arbeitsbereichs
 
@@ -111,7 +115,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Dadurch wird der Arbeitsbereich der Workfront-Planung geöffnet.
+   Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
 1. (Optional und bedingt) Klicken Sie auf **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
    * Marketing-Management
@@ -122,7 +126,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Weitere Informationen zu Workfront Planning Workspace-Vorlagen finden Sie unter [Liste der Workspace-Vorlagen](../architecture/workspace-templates.md).
+   Weitere Informationen zu Vorlagen für Workfront Planning Workspace finden Sie unter [Liste der Workspace-Vorlagen](../architecture/workspace-templates.md).
 
 1. Klicks **Vorlage verwenden** , um den Arbeitsbereich aus der ausgewählten Vorlage zu erstellen
 
@@ -140,8 +144,6 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
    Oder
 
    Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Umbenennen**.
-
-1. (Optional und bedingt) Wenn der Arbeitsbereich bereits Abschnitte enthält, klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zu einem Arbeitsbereich hinzuzufügen. Ein Abschnitt kann mehrere Datensatztypen enthalten.
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der **Operative Datensatztypen** oder **Taxonomien** Abschnitte
 
@@ -163,8 +165,13 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
    * Klicks **Abschnitt hinzufügen** unten im Arbeitsbereich.
    * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Abschnitt oben hinzufügen** oder **Abschnitt unten hinzufügen**.
 
-1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich Datensatztypen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich in einem beliebigen Abschnitt Datensatztypen hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
+1. (Optional) Gehen Sie wie folgt vor, um einen Abschnitt zu löschen:
 
+   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Löschen**. <!--add screen shot when UI is final?-->
+   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen dorthin zu verschieben, und klicken Sie dann auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Alle Datensatztypen werden in den Auswahlabschnitt verschoben und der Abschnitt wird gelöscht.

@@ -1,24 +1,25 @@
 ---
 title: Erstellen von Datensatztypen
-description: Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten Arbeitselemente illustrieren.
+description: Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. In der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten Arbeitselemente illustrieren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Erstellen von Datensatztypen
 
 {{maestro-important-intro}}
 
-Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Bei der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
+Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. In der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
 Datensatztypen können eine der folgenden sein:
 
 Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -42,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
-<p>Ihr Unternehmen muss in das Adobe Workfront-Planungsprogramm für die geschlossene Betaversion eingeschrieben sein. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+<p>Ihr Unternehmen muss am geschlossenen Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>
@@ -105,14 +106,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         >
         >Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuell:
 
       * Von Grund auf neu.
 
-        In diesem Artikel wird beschrieben, wie Sie allgemeine Datensatztypen von Grund auf in einem von Ihnen erstellten Arbeitsbereich erstellen.
+        In diesem Artikel wird beschrieben, wie Sie neue Datensatztypen erstellen.
 
 * Sie können Datensatztypen innerhalb eines Abschnitts und von einem Abschnitt eines Arbeitsbereichs in einen anderen verschieben. Es ist nicht möglich, Datensatztypen von einem Arbeitsbereich in einen anderen zu verschieben.
 
@@ -133,17 +134,14 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
 
 ## Erstellen eines neuen Datensatztyps
 
-In diesem Artikel wird beschrieben, wie Sie Datensatztypen von Grund auf neu erstellen.
-
 {{step1-to-maestro}}
 
 Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
+1. (Optional) Klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
 1. Klicks **Datensatztyp hinzufügen**.
-1. (Bedingt) Wenn Sie einen operationellen Datensatztyp erstellen, klicken Sie auf **Von Grund auf**.
-
-   Das Feld Datensatztyp hinzufügen wird geöffnet.
+1. (Bedingt) Klicken Sie bei der Erstellung von Datensatztypen durch Importieren einer Excel- oder CSV-Datei auf **Von Grund auf**. Andernfalls wird die **Datensatztyp hinzufügen** wird geöffnet.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Klicken Sie außerhalb der **Datensatztyp hinzufügen** zum Speichern des Datensatztyps.
 
-   Die Karte vom Typ Datensatz wird dem ausgewählten Arbeitsbereich hinzugefügt.
+   Die Karte vom Typ Datensatz wird dem ausgewählten Bereich und Arbeitsbereich hinzugefügt.
 Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezeigt.
 1. (Optional) Klicken Sie auf die Karte vom Typ Datensatz , um die Seite vom Typ Datensatz zu öffnen.
 
    ![](assets/operational-record-type-blank.png)
 
-   Die Seite mit dem Datensatztyp wird standardmäßig in der Tabellenansicht angezeigt. Die Spalten der Tabelle sind Felder, die mit dem neuen Datensatztyp verknüpft sind. Jede Zeile ist ein eindeutiger Datensatz, den Sie hinzufügen müssen.
+   Die Seite vom Typ Datensatz wird standardmäßig in der Tabellenansicht angezeigt. Die Spalten der Tabelle sind Felder, die mit dem neuen Datensatztyp verknüpft sind. Jede Zeile ist ein eindeutiger Datensatz, den Sie hinzufügen müssen.
+
+   >[!TIP]
+   >
+   >    Wenn Sie einen Datensatztyp aus einer Excel- oder CSV-Datei importieren, werden auch Datensätze importiert.
 
    Standardmäßig werden die folgenden Felder in den Tabellenansichtsspalten eines operationellen Datensatztyps angezeigt:
 
@@ -183,7 +185,7 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
 
    Weitere Informationen zum Erstellen von Feldern finden Sie unter [Felder erstellen](../fields/create-fields.md).
 
-1. (Optional) Klicken Sie auf den linken Pfeil neben dem Namen des Datensatztyps, um zum ausgewählten Arbeitsbereich zurückzukehren.
+1. (Optional) Klicken Sie in der Kopfzeile auf den nach links zeigenden Pfeil neben dem Namen des Datensatztyps, um zum ausgewählten Arbeitsbereich zurückzukehren.
 
    Die Karte vom Typ Datensatz zeigt die Anzahl der Felder und Verbindungen an, die der Datensatztyp enthält.
 
@@ -196,16 +198,15 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
    * [Datensatztypen bearbeiten](../architecture/edit-record-types.md)
    * [Verwalten von Datensatzansichten](../views/manage-record-views.md)
 
-1. (Optional) Klicken Sie im Arbeitsbereich auf , um einen Datensatztyp per Drag-and-Drop an eine gewünschte Position zu ziehen oder in einen anderen Abschnitt zu verschieben.
+1. (Optional) Klicken Sie im Arbeitsbereich auf eine Karte vom Typ Datensatz, um den Datensatztyp per Drag-and-Drop an eine gewünschte Stelle zu ziehen oder in einen anderen Bereich zu verschieben.
 
-   Die Änderungen werden automatisch gespeichert, nachdem Sie die ausgewählte Datensatztyp-Karte abgelegt haben.
+   Die Änderungen werden automatisch gespeichert.
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
 >[!IMPORTANT]
 >
 >Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
-
 
 Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei Folgendes:
 
@@ -233,7 +234,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Das Feld Vorschau und Bearbeitung wird mit den folgenden Informationen angezeigt:
 
-   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Bei der Workfront-Planung wird standardmäßig für jeden neuen Datensatztyp ein Symbol und eine Farbe ausgewählt.
+   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Workfront Planning wählt standardmäßig ein Symbol und eine Farbe für jeden neuen Datensatztyp aus.
    * Die erste Tabelle oder der erste Datensatztyp wird ausgewählt und die Namen der Felder, die mit ihr verknüpft sind, werden als Spaltenüberschriften angezeigt. Der Feldtyp wird standardmäßig ausgewählt.
    * Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten zehn Datensätze werden im Feld Vorschau und Bearbeitung angezeigt.
 
@@ -262,13 +263,13 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
    Sie können mit der Verwaltung von Feldern und Datensätzen auf den Seiten mit den Datensatztypen beginnen.
 
-   Jeder, der Zugriff auf die Workfront-Planung hat, kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
+   Jeder, der Zugriff auf Workfront Planning hat, kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
 ## Überlegungen zu Adobe Workfront-Planungsfeldern
 
-* Sie können Felder nur aus der Tabellenansicht einer Seite vom Typ Datensatz erstellen. Felder werden in der Tabellenansicht als Spalten angezeigt. Alle mit einem Datensatztyp verknüpften Felder werden auch auf der Detailseite jedes Datensatzes dieses Typs angezeigt.
+* Sie können Felder nur aus der Tabellenansicht einer Seite vom Typ Datensatz erstellen. Felder werden in der Tabellenansicht als Spalten angezeigt. Alle Felder, die mit einem Datensatztyp verknüpft sind, werden ebenfalls auf der Datensatzseite angezeigt.
 
   Informationen zum Verwalten von Tabellenspalten (oder Datensatzfeldern) finden Sie unter [Tabellenansicht verwalten](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
    * Manuell:
 
-      * Durch Hinzufügen von Spalten in der Tabellenansicht einer Seite vom Typ Datensatz. Die Spalten der Tabelle sind die Felder, die dem Datensatztyp zugeordnet sind. Es handelt sich dabei um dieselben Felder, die auf der Detailseite eines Datensatzes angezeigt werden.
+      * Durch Hinzufügen von Spalten in der Tabellenansicht einer Seite vom Typ Datensatz. Die Spalten der Tabelle sind die Felder, die dem Datensatztyp zugeordnet sind. Es handelt sich um dieselben Felder, die auf der Seite eines Datensatzes angezeigt werden.
 
-        Auf der Detailseite eines Datensatzes können keine Felder erstellt werden.
-
-        In diesem Artikel wird beschrieben, wie Sie Felder manuell erstellen.
+        Auf der Datensatzseite können keine Felder erstellt werden.
 
       * Durch Verbinden von Datensatztypen. Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
 
@@ -81,11 +79,11 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
         Sie können weitere Werte hinzufügen oder die vorhandenen umbenennen.
 
-     Die Workfront-Planung erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
+     Workfront Planning erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](../architecture/create-workspaces.md).
 
 * Auf Workfront-Planungsfelder kann nicht über Workfront zugegriffen werden.
 
-* Auf Workfront-Felder kann nur von der Workfront-Planung aus zugegriffen werden, wenn Sie Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+* Auf Workfront-Felder kann über die Workfront-Planung nur zugegriffen werden, wenn Sie Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
 
 * Sie können die Einstellungen für die Felder, die Sie oder ein anderer Benutzer erstellt haben, anzeigen und aktualisieren, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem das Feld gehört.
 

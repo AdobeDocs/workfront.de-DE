@@ -1,27 +1,29 @@
 ---
 title: Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
-description: Ihr Zugriff auf die Adobe Workfront-Planung hängt von Ihrem Lizenztyp sowie von Ihren Berechtigungen für Objekte ab.
+description: Ihr Zugriff auf die Adobe Workfront-Planung hängt von Ihrem Lizenztyp ab, zusätzlich zu Ihren Berechtigungen für Objekte.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
-<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
+<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
 
 {{maestro-important-intro}}
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront-Planungsberechtigungen zusammen, um Ihnen Zugriff auf Arbeitsbereiche oder Ansichten zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten. <!--add more objects here when we can grant other object-specific permissions-->
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf die Ansicht, den Beitrag und die Verwaltung von Arbeitsbereichen zu gewähren. <!--add more objects here when we can grant other object-specific permissions-->
 
-In diesem Artikel werden die erforderlichen Lizenztypen und der Zugriff für Objekte je nach Lizenztyp beschrieben.
+Benutzer mit allen Lizenztypen können Workfront-Planungsansichten anzeigen, erstellen, bearbeiten oder verwalten.
+
+In diesem Artikel werden die in Workfront benötigten Lizenztypen und die in der Workfront-Planung Objekten gewährten Berechtigungen je nach Lizenztyp beschrieben.
 
 Benutzer mit einem Lizenztyp der unteren Ebene haben bei der Verwendung von Workfront-Planungsfunktionen nur Berechtigungen für Objekte.
 
@@ -38,7 +40,7 @@ Informationen zu Berechtigungen für Objekte in der Workfront-Planung finden Sie
 
 ## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsberechtigungen
 
-In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers und der Höhe der Berechtigungen beschrieben, die Sie ihm basierend auf dieser Lizenz gewähren können:
+In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers in Adobe Workfront und der Höhe der Berechtigungen beschrieben, die Sie ihm für Adobe Workfront Planning-Objekte auf der Grundlage dieser Lizenz gewähren können:
 
 
 | Adobe Workfront-Lizenztyp | In der Adobe Workfront-Planung zulässige Berechtigungen |
