@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
-ht-degree: 3%
+source-wordcount: '5942'
+ht-degree: 4%
 
 ---
 
@@ -736,6 +736,47 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
 ### Hinzufügen nativer Workfront-Felder
 
 Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzufügen. Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, wird das Feld aus den Objektdaten ausgefüllt. Beispielsweise ruft das Feld Beschreibung in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, kann im Feld &quot;K. A.&quot;angezeigt werden.)
+
++++ **Erweitern, um die Liste der unterstützten nativen Felder anzuzeigen**
+
+* Tatsächliches Abschlussdatum
+* Tatsächliche Dauer
+* Tatsächliche Stunden
+* Tatsächliches Startdatum
+* Firma
+* Bedingung
+* Bedingungstyp
+* Beschreibung
+* Dauer
+* Dauertyp
+* Dauer - Einheit
+* Eingegeben von
+* Eingabedatum
+* Gruppe
+* Zuletzt aktualisiert von
+* Datum der letzten Aktualisierung
+* Name
+* Besitzer
+* Geplantes Abschlussdatum
+* Geplante Dauer
+* Geplante Stunden
+* Geplantes Startdatum
+* Portfolio
+* Priorität
+* Programm
+* Voraussichtliches Abschlussdatum
+* Projizierte Dauer in Minuten
+* Projizierter Starttermin
+* Referenznummer
+* Zeitplanmodus
+* Schweregrad
+* Sponsor
+* Status
+* Story-Punkte
+* Vorlage
+* URL
+
++++
 
 1. Suchen Sie auf der linken Bildschirmseite nach **Natives Feld** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
