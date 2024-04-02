@@ -6,9 +6,9 @@ description: Es wird empfohlen, Vorlagen, die Sie nicht mehr verwenden, zu deakt
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -59,9 +59,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Vorlage löschen
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png)klicken **Vorlagen**. Dadurch wird eine Liste von Vorlagen geöffnet
+{{step1-to-templates}}
 
-1. Wählen Sie die Vorlage aus, die Sie löschen möchten, indem Sie das Kontrollkästchen links neben dem Vorlagennamen aktivieren und dann auf **Löschen > Ja, Löschen** , um den Löschvorgang zu bestätigen.
+Dadurch wird eine Liste von Vorlagen geöffnet
+
+1. Wählen Sie die zu löschende Vorlage aus, indem Sie das Kontrollkästchen links neben dem Vorlagennamen aktivieren und dann auf **Löschen > Ja, Löschen** , um den Löschvorgang zu bestätigen.
 
    Oder
 

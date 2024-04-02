@@ -7,16 +7,20 @@ description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benut
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Datum bestätigen - Übersicht
 
-Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums darstellt, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird. Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über die geplante Aufgabe - Abschlussdatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen.
+
+Dies unterscheidet sich vom geplanten Abschlussdatum einer Aufgabe oder eines Problems, da es eine realistischere Schätzung des Abschlussdatums ist, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird.
+
+Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über die geplante Aufgabe - Abschlussdatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Datum bestätigen - Übersicht
 
@@ -29,6 +33,7 @@ Beachten Sie beim Arbeiten mit Commit-Daten Folgendes:
 
    * Lassen Sie Workfront das Datum für die Übermittlung so festlegen, dass es dem bereits geplanten Abschlussdatum der Aufgabe oder des Problems entspricht, indem Sie auf &quot;Bearbeiten&quot;, &quot;Problem starten&quot;oder &quot;Aufgabe starten&quot;für die Aufgabe oder das Problem klicken. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter  [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Legen Sie das Datum für die Übermittlung manuell fest, abhängig davon, wann Sie glauben, dass die Aufgabe oder das Problem möglicherweise abgeschlossen ist. Dies ist Ihre Schätzung und Zusage als Verantwortlicher für den Projektmanager, dass die Aufgabe oder das Problem bis zu einem bestimmten Datum abgeschlossen sein wird.
+Weitere Informationen finden Sie unter [Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Beachten Sie beim Arbeiten mit Commit-Daten Folgendes:
 >* Jeder andere Verantwortliche für die Aufgabe
 >* Jeder andere Benutzer mit Berechtigungen für die Aufgabe.
 >
->Weitere Informationen zum Aufgabeneigentümer finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Weitere Informationen zum Aufgabeneigentümer finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Durch Änderung des Zusagedatums ausgelöste Benachrichtigungen und Aktualisierungen {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Wenn eine Aufgabe oder ein Problemverantwortlicher ein Komprimierungsdatum auswählt, das sich vom geplanten Abschlussdatum unterscheidet, das vom Projekteigentümer festgelegt wurde, gibt es eine Reihe von Benachrichtigungen und Aktualisierungen, die den Projektinhaber und andere Benutzer auf diese Änderung hinweisen.
+Wenn ein Aufgaben- oder Problemverantwortlicher ein Veröffentlichungsdatum manuell in ein Datum ändert, das sich vom geplanten Abschlussdatum unterscheidet, das vom Projekteigentümer festgelegt wurde, gibt es eine Reihe von Benachrichtigungen und Aktualisierungen, die den Projektinhaber und andere Benutzer auf diese Änderung hinweisen.
 
 >[!NOTE]
 >
 >Änderungen am Datum der Übermittlung ändern nicht automatisch die geplanten Daten, und Änderungen an den geplanten Daten ändern nicht automatisch das Datum der Veröffentlichung.
 
-Durch das Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Problem werden die folgenden Trigger :
+Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Problem werden die folgenden Trigger geändert:
 
 * Die Änderung &quot;Datum der Übermittlung&quot;wird in der Systemaktivität und auf den Registerkarten Alle im Abschnitt Aktualisieren der Aufgabe oder des Problems angezeigt.
 
@@ -80,9 +85,6 @@ Durch das Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Prob
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * Der Projekteigentümer wird im Bereich Benachrichtigungen darüber benachrichtigt, dass sich das Datum der Übertragung einer Aufgabe oder eines Problems geändert hat.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ Durch das Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ein Prob
   >[!TIP]
   >
   >Die Benachrichtigung, dass das Veröffentlichungsdatum geändert wurde, wird nur dann an den Projekteigentümer gesendet, wenn der Workfront-Administrator die Anzeige des Bestätigungsdatums im Bereich &quot;Aktualisierungen-Feeds&quot;im Setup-Bereich aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter  [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

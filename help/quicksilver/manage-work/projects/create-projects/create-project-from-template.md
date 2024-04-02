@@ -6,9 +6,9 @@ description: Sie können Vorlagen als Framework zum Erstellen von Projekten in A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen eines Projekts aus einer Vorlage im Bereich &quot;Projekte&quot;
 
-Sie können ein Projekt im Bereich Projekte im Hauptmenü oder im Bereich Projekte eines Portfolios oder Programms erstellen.
+Sie können ein Projekt aus dem Bereich Projekte im Hauptmenü oder aus dem Bereich Projekte eines Portfolios oder eines Programms erstellen.
+
+>[!NOTE]
+>
+>Ihr System- oder Gruppenadministrator kann Ihre Benutzeroberfläche mithilfe einer Layoutvorlage ändern. In diesem Fall können einige der in den folgenden Schritten genannten Abschnitte und Bereiche in Ihrer Workfront-Instanz unterschiedlich benannt sein.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
