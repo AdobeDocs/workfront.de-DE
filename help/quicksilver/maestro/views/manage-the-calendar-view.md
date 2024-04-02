@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <p>Alle</p> 
+   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungsebenen</p>  
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 
