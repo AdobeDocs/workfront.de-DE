@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,11 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
  <tbody> 
   <tr> 
    <td role="rowheader">Spezifische IP-Adressen und Domänen, die</td> 
-   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurieren der Zulassungsliste Ihrer Firewall</a> enthält die Liste der IP-Adressen und Domänen, die Ihr Unternehmen zu seiner Zulassungsliste hinzufügen muss. </p> <p>Möglicherweise hat Ihr Netzwerkadministrator keinen Zugriff auf den Artikel "Konfigurieren der Firewall". In diesem Fall müssen Sie sie ihnen bereitstellen. Es wird nicht empfohlen, eine Papierkopie zu drucken. Mit einer digitalen Kopie kann Ihr Netzwerkadministrator die Adressen kopieren und einfügen. Dies ist schneller und genauer als die Eingabe aus einer Kopie.</p> </td> 
+   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurieren der Zulassungsliste Ihrer Firewall</a> enthält die Liste der IP-Adressen und Domänen, die Ihr Unternehmen zu seiner Zulassungsliste hinzufügen muss. </p> <p>Möglicherweise hat Ihr Netzwerkadministrator keinen Zugriff auf den Artikel "Zulassungsliste der Firewall konfigurieren". In diesem Fall müssen Sie sie ihnen bereitstellen. Es wird nicht empfohlen, eine Papierkopie zu drucken. Mit einer digitalen Kopie kann Ihr Netzwerkadministrator die Adressen kopieren und einfügen. Dies ist schneller und genauer als die Eingabe aus einer Kopie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Cluster</td> 
-   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen</a></td> 
+   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Workfront-Abo</td> 
@@ -75,7 +75,7 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
    <td role="rowheader">Adobe Workfront-Integrationen</td> 
    <td>Informieren Sie Ihren Netzwerkadministrator, wenn Sie Folgendes verwenden:
     <ul>
-     <li><p><p>Workfront für Jira</p></p></li>
+     <li><p>Workfront für Jira</p></li>
      <li><p>Workfront für G Suite</p></li>
      <li><p>Workfront für Microsoft Teams</p></li>
      <li><p>Workfront für Outlook</p></li>
@@ -84,11 +84,10 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Funktionen</td> 
-   <td> <p>Informieren Sie Ihren Netzwerkadministrator, wenn Sie eine der folgenden Aktionen durchführen:</p> 
+   <td> <p>Informieren Sie Ihren Netzwerkadministrator, wenn Sie Folgendes verwenden:</p> 
     <ul> 
      <li> <p>Ein Workfront-Testlaufwerk</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
 
 ### Cluster- und Workfront-Plan Ihres Unternehmens anzeigen {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klicks **System** im linken Bereich
 1. Um den Cluster anzuzeigen, wählen Sie **Kundeninformationen**.
