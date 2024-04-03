@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 4%
 
 ---
@@ -739,42 +739,48 @@ Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzuf�
 
 +++ **Erweitern, um die Liste der unterstützten nativen Felder anzuzeigen**
 
-* Tatsächliches Abschlussdatum
-* Tatsächliche Dauer
-* Tatsächliche Stunden
-* Tatsächliches Startdatum
-* Firma
-* Bedingung
-* Bedingungstyp
-* Beschreibung
-* Dauer
-* Dauertyp
-* Dauer - Einheit
-* Eingegeben von
-* Eingabedatum
-* Gruppe
-* Zuletzt aktualisiert von
-* Datum der letzten Aktualisierung
-* Name
-* Besitzer
-* Geplantes Abschlussdatum
-* Geplante Dauer
-* Geplante Stunden
-* Geplantes Startdatum
-* Portfolio
-* Priorität
-* Programm
-* Voraussichtliches Abschlussdatum
-* Projizierte Dauer in Minuten
-* Projizierter Starttermin
-* Referenznummer
-* Zeitplanmodus
-* Schweregrad
-* Sponsor
-* Status
-* Story-Punkte
-* Vorlage
-* URL
+Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Objekte in einem benutzerdefinierten Formular auf.
+
+| Feldname | Projekt | Aufgabe | Problem | Vorlage | Vorlagenaufgabe | Portfolio | Programm | Gruppe |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Tatsächliches Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Tatsächliche Dauer | ✓ |   |   |   |   |   |   |   |
+| Tatsächliche Stunden | ✓ |   | ✓ |   |   |   |   |   |
+| Tatsächliches Startdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Firma | ✓ |   |   | ✓ |   |   |   |   |
+| Bedingung | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Bedingungstyp | ✓ |   |   | ✓ |   |   |   |   |
+| Beschreibung | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Dauer |   | ✓ |   |   | ✓ |   |   |   |
+| Dauertyp |   | ✓ |   |   | ✓ |   |   |   |
+| Dauer - Einheit |   | ✓ |   |   | ✓ |   |   |   |
+| Eingegeben von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Eingabedatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Gruppe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Zuletzt aktualisiert von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Datum der letzten Aktualisierung | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Name | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Besitzerin bzw. Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Geplantes Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Geplante Dauer | ✓ |   |   | ✓ |   |   |   |   |
+| Geplante Stunden | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Geplantes Startdatum | ✓ |   |   |   |   |   |   |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Priorität | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programm | ✓ |   |   | ✓ |   |   |   |   |
+| Voraussichtliches Abschlussdatum | ✓ | ✓ |   |   |   |   |   |   |
+| Projizierte Dauer in Minuten |   | ✓ |   |   |   |   |   |   |
+| Projizierter Starttermin | ✓ | ✓ |   |   |   |   |   |   |
+| Referenznummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Zeitplanmodus | ✓ |   |   | ✓ |   |   |   |   |
+| Schweregrad |   |   | ✓ |   |   |   |   |   |
+| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
+| Status | ✓ | ✓ |   |   |   |   |   |   |
+| Story-Punkte |   | ✓ |   |   |   |   |   |   |
+| Vorlage | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
