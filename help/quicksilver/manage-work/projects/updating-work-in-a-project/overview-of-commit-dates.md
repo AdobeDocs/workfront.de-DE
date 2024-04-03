@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Datum bestätigen - Übersicht
-description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums darstellt, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird. Informationen zum geplanten Abschlussdatum finden Sie unter Übersicht über die geplante Aufgabe mit dem geplanten Abschlussdatum.
+description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums darstellt, das der Benutzer, der direkt für die Arbeit verantwortlich ist, angegeben hat.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

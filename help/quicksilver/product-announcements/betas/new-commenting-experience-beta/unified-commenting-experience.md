@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 
 Die folgenden Funktionen wurden entfernt oder werden aus dem neuen Erlebnis entfernt:
 
-* Kommentar zu einer Systemaktualisierung
+* Kommentar zu einer Systemaktualisierung. Kommentare, die in der Vergangenheit zu den Systemaktualisierungen hinzugefügt wurden, wurden auf der neuen Registerkarte Systemaktivität als schreibgeschützte Kommentare importiert.
 * Möglichkeit, Status, Bedingung, Datum der Übertragung und Prozentsatz der Fertigstellung zu bearbeiten, während Sie zu Aufgaben und Problemen kommentieren
-* Benutzerdefiniertes Formular bearbeiten
+* Möglichkeit zur Bearbeitung des benutzerdefinierten Formulars
 * Die Informationen &quot;im Namen von &lt; Benutzername >&quot;, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt, wurden ursprünglich entfernt. Es wurde am 19. Oktober 2023 wieder eingesetzt.
 * Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
 * Die Einstellung &quot;Prozentualer Abschluss bei Aktualisierungsstatus anzeigen&quot;beim Bearbeiten des Profilfelds eines Benutzers wird entfernt. Die Funktion zum Aktualisieren des prozentualen Abschlusses einer Aufgabe oder eines Problems wurde entfernt.
-* Die Benachrichtigung für den Projekteigentümer im Bereich Updates, dass der Verantwortliche einer Aufgabe oder eines Problems das Commitdatum bearbeitet hat <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* Die Möglichkeit für den Projekteigentümer, das geplante Abschlussdatum einer Aufgabe zu ändern, wenn das Zustimmungsdatum im Abschnitt Aktualisierungen geändert wird. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
   >
   >    Iterationen verfügen weiterhin über das alte Kommentierungserlebnis. Das neue Kommentarerlebnis steht nicht für Iterationen zur Verfügung.
 
-* Zweites Quartal 2024 (April 2024):
+* Mit der Version vom zweiten Quartal 2024 (11. April 2024):
 
    * Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen zu machen.
 
 ## Neues Kommentierungserlebnis suchen
 
-&lt;!—WICHTIG: Wenn wir das veraltete Erlebnis loswerden, verschieben Sie eine Version davon in den Arbeitsartikel Aktualisieren oder die Übersicht des Aktualisierungsabschnitts - um zu sagen, dass das Erlebnis für alle außer für Iterationen unterschiedlich ist—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 Die neue Kommentarfunktion ist derzeit für alle Kunden und für alle Umgebungen verfügbar.
 
@@ -563,25 +573,25 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, se
    * Problem
    * Dokument
 
-  >[!TIP]
-  >
-  >Verwenden Sie die Option Neue Kommentare , um das neue Kommentarerlebnis (wenn Sie es aktivieren) oder das veraltete Kommentarerlebnis (wenn Sie es deaktivieren) anzuzeigen, wie in diesem Abschnitt beschrieben. Die neue Kommentarfunktion ist die Standardeinstellung.
-
-   * Nur das neue Kommentarerlebnis für die unten aufgeführten Objekte. Es gibt keine Option, das veraltete Kommentierungserlebnis für diese Objekte zu aktivieren:
-
-      * Ziel
-
      >[!NOTE]
      >
-     >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Karte auf einer Pinnwand
-      * Team
-      * Vorlage
-      * Vorlagenaufgabe
-      * Arbeitszeittabelle
-      * Programm
-      * Portfolio
-      * Benutzerin oder Benutzer
+     ><span class="preview">Die veraltete Kommentarfunktion wurde seit dem 1. April 2024 aus der Vorschau-Umgebung entfernt. </span>
+
+* Nur das neue Kommentarerlebnis für die unten aufgeführten Objekte. Es gibt keine Option, das veraltete Kommentierungserlebnis für diese Objekte zu aktivieren:
+
+   * Ziel
+
+  >[!NOTE]
+  >
+  >Sie müssen über eine zusätzliche Lizenz für Adobe Workfront Goals verfügen, um auf diesen Bereich von Workfront zugreifen zu können. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Karte auf einer Pinnwand
+   * Team
+   * Vorlage
+   * Vorlagenaufgabe
+   * Arbeitszeittabelle
+   * Programm
+   * Portfolio
+   * Benutzerin oder Benutzer
 
 * Nur das veraltete Kommentierungserlebnis für die folgenden Objekte:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 So aktivieren Sie die Kommentarerlebnis-Option für Projekte, Aufgaben, Probleme und Dokumente:
 
-1. Markieren Sie ein Objekt, für das Sie das neue Kommentierungserlebnis aktivieren möchten, und klicken Sie auf **Updates** im linken Bereich.
+1. (Bedingt) Wechseln Sie in der Produktionsumgebung zu einem Objekt, für das Sie das neue Kommentierungserlebnis aktivieren möchten, und klicken Sie dann auf **Updates** im linken Bereich.
 1. (Bedingt) Wenn sie deaktiviert ist, aktivieren Sie die **Neue Kommentare** in der oberen rechten Ecke des Bereichs Updates , um sie zu aktivieren. Dies sollte standardmäßig aktiviert sein.
+   <span class="preview">Die Option Neue Kommentare wurde aus der Vorschau -Umgebung entfernt.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

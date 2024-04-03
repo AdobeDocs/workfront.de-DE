@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Informationen zur Kommentarkommentierung zu Zielen finden Sie unter [Verwalten v
 
 Weitere Informationen zur Kommentierung von Karten im Bereich &quot;Pinnwände&quot;finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Informationen zum Kommentieren zu Iterationen finden Sie unter [Iterationskommentare verwalten](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Zugriffsanforderungen
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
@@ -172,6 +176,8 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
 * Ziele
 * Karten im Bereich der Karten
 * Wiederholungen
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement im Abschnitt &quot;Legacy-Updates&quot;
 
@@ -232,6 +238,8 @@ Sie können Aktualisierungen zu den folgenden Objekten hinzufügen:
    >Wenn Ihr Workfront-Administrator in Ihrer Zugriffsebene die Einstellung &quot;Benutzer dürfen Kommentare nie löschen&quot;auswählt, können Sie einen Kommentar nicht rückgängig machen. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Informationen zum Antworten auf eine Aktualisierung finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Hinzufügen einer Aktualisierung zu einem Arbeitselement mithilfe des neuen Kommentierungserlebnisses
 
@@ -463,6 +471,8 @@ Es gibt mehrere Möglichkeiten, ein Update zu kopieren. Nachdem Sie einen Link k
 
 Das Kopieren eines Updates hängt davon ab, welches Kommentierungserlebnis Sie verwenden.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Kopieren von Aktualisierungen im neuen Kommentierungserlebnis
 
 Informationen darüber, welche Funktionen für das neue Kommentierungserlebnis verfügbar sind und welche Objekte verfügbar sind, finden Sie unter [Neues Kommentierungserlebnis](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ Mit der Option Antwort zitieren wird der ursprüngliche Kommentar als Blockanfü
 
 1. Fügen Sie Ihre Aktualisierung weiter hinzu und klicken Sie auf **Einsenden** , um den Kommentar hinzuzufügen.
 
-### Kopieren einer Aktualisierung im alten Kommentierungserlebnis
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Kopieren einer Aktualisierung im alten Kommentierungserlebnis
 
 * [Aktualisieren kopieren](#copy-the-update)
 * [Den Thread-Link kopieren](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Kein Workfront-Benutzer (einschließlich Workfront-Administrator) kann Aktualisi
 
 -->
 
-
-
-## Systemaktualisierungen aktivieren oder deaktivieren
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Es ist nicht möglich, Systemaktualisierungen zu deaktivieren, wenn die neue Kommentarfunktion verwendet wird.
->Die Informationen in diesem Abschnitt beziehen sich nur auf die Funktionalität, die im Abschnitt &quot;Legacy-Updates&quot;verfügbar ist. &lt;!—Entfernen Sie diesen Abschnitt, wenn wir Legacy aus dem System entfernen ->
->Weitere Informationen zu Systemaktualisierungen im neuen Kommentierungserlebnis finden Sie unter [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Systemaktualisierungen überprüfen
 
 Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Informationen angezeigt:
 
-* **Benutzeraktualisierungen:** Benutzeraktualisierungen sind Kommentare, die Sie und andere Benutzer in Ihrem System eingeben. <!--October 2023 - new screen shot -->
+* **Benutzeraktualisierungen:** Benutzeraktualisierungen sind Kommentare, die Sie und andere Benutzer in Ihrem System eingeben. Die Benutzeraktualisierungen werden auf den Registerkarten Kommentare und Alle im Abschnitt Aktualisierungen angezeigt.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Systemaktualisierungen:** Das System aktualisiert den Datensatz zum Entfernen von Assets, zum Hinzufügen oder Löschen von Versionen, zum Anhängen oder Entfernen einer Genehmigungsanfrage sowie alle Änderungen oder Änderungen, die an den Dokumenten am Objekt vorgenommen wurden. <!--October 2023 - new screen shot -->
+* **Systemaktualisierungen:** Systemaktualisierungen erfassen das Entfernen von Aufgaben oder Problemen, das Hinzufügen oder Löschen von Dokumentversionen, das Anhängen oder Entfernen einer Genehmigungsanfrage sowie alle Änderungen oder Änderungen, die am Objekt vorgenommen wurden. Systemaktualisierungen werden in den Registerkarten Systemaktivität und Alle im Abschnitt Updates angezeigt.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Abhängig von Ihrer Workfront-Lizenz sind Systemaktualisierungen möglicherweise standardmäßig aktiviert. Workfront-Administratoren können bestimmen, was in Systemaktualisierungen verfolgt wird, wie unter [Vom System getrackte Aktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Sie können auch Systemaktualisierungen oder Aktivitäten herausfiltern, sodass nur Benutzeraktualisierungen für alle Objekte angezeigt werden.
+  Workfront-Administratoren können bestimmen, was in Systemaktualisierungen verfolgt wird, wie unter [Vom System getrackte Aktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Sie können auch Systemaktualisierungen oder Aktivitäten herausfiltern, sodass nur Benutzeraktualisierungen für alle Objekte angezeigt werden.
 
   Die folgenden Objekte verfügen nicht über systemgenerierte Aktualisierungen:
 
@@ -653,19 +651,6 @@ Im Abschnitt Updates für ein Workfront-Objekt werden zwei Arten von Information
    * Vorlage
    * Vorlagenaufgabe
 
-So aktivieren oder deaktivieren Sie Systemaktualisierungen:
-
-1. Klicken Sie auf **Updates** -Registerkarte auf einem Objekt.
-1. Klicks **Systemaktualisierungen anzeigen** zum Schieben des Switches nach links (deaktiviert) oder rechts (aktiviert).
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Diese Option ist für alle Objekte in Workfront persistent und bleibt an der von Ihnen ausgewählten Position, auch wenn Sie sich von Workfront abmelden.
-
-   >[!TIP]
-   >
-   >   Objekte, die keine Systemaktualisierungen aufzeichnen, haben nicht die Option Systemaktualisierungen anzeigen in ihrem Aktualisierungsbereich.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Weitere Informationen zu Systemaktualisierungen finden Sie im Abschnitt Updates . [Übersicht über den Aktualisierungsabschnitt](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

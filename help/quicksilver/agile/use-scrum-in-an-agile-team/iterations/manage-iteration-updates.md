@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Iterationskommentare verwalten
-description: Sie können einer Iteration Aktualisierungen hinzufügen, um mit anderen in Adobe Workfront zusammenzuarbeiten.
+description: Sie können Aktualisierungen zu einer Iteration hinzufügen, wenn Sie in einer Scrum-Umgebung arbeiten, um mit anderen in Adobe Workfront zusammenzuarbeiten.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
 
 # Iterationskommentare verwalten
 
-Sie können einer Iteration Aktualisierungen hinzufügen, um mit anderen in Adobe Workfront zusammenzuarbeiten.
+Sie können bei der Arbeit in einer Scrum-Umgebung Aktualisierungen zu einer Iteration hinzufügen, um mit anderen in Adobe Workfront zusammenzuarbeiten.
 
 ## Aktualisierungen bei Iterationen verwalten
 

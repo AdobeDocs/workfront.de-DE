@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Projekt anfordern
-description: Sie können die Genehmigung eines Projekts anfordern, bevor Sie mit der Bearbeitung beginnen. Wir empfehlen, ein Business Case für ein neues Projekt zu erstellen, damit Sie einige der wichtigsten Punkte, die Sie erreichen möchten, durch Vervollständigung umreißen und Ihrem Management Ihr Arbeits- und Ausgabenbudget präsentieren können. Das Ausfüllen des Geschäftsszenarios und das Übermitteln des Projekts zur Genehmigung vervollständigen die formelle Anfrage für das Projekt. Nach dem Übermitteln des Geschäftsszenarios zur Genehmigung wird der Status des Projekts angefordert.
+description: Sie können die Genehmigung eines Projekts anfordern, bevor Sie mit der Bearbeitung beginnen. Es wird empfohlen, ein Business Case für ein neues Projekt zu erstellen, damit Sie einige der wichtigsten Punkte, die Sie erreichen möchten, durch Abschließen umreißen und Ihrem Management-Team Ihr Arbeits- und Ausgabenbudget vorstellen können. Das Ausfüllen des Geschäftsszenarios und das Übermitteln des Projekts zur Genehmigung vervollständigen die formelle Anfrage für das Projekt. Nach dem Übermitteln des Geschäftsszenarios zur Genehmigung wird der Status des Projekts angefordert.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
