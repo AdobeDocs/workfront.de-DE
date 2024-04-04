@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktion für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, finden Sie im Abschnitt Aktualisierungen möglicherweise das folgende Erlebnis:
 
@@ -133,7 +132,7 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ Je nachdem, für welche Objekte Sie auf das Kommentierungserlebnis zugreifen, fi
    * Vorlagenaufgabe
    * Ad-hoc-Karte
 
+     Weitere Informationen zu Kartenaktualisierungen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * Die folgenden Objekte haben keine <span class="preview">Registerkarte Alle :</span>
 
    * Ziele
+
+     Weitere Informationen zu Aktualisierungen der Ziele finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,7 +188,7 @@ Die folgenden Objekte zeichnen keine Systemaktualisierungen auf:
 * Wiederholungen
 
 
-## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
+## Aktualisierungen, die auch auf übergeordneten Objekten angezeigt werden
 
 Kommentare, Antworten oder Systemaktualisierungen für bestimmte Objekte werden auch im Abschnitt Updates von Objekten mit höherem Rang angezeigt.
 
@@ -189,7 +202,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
  <thead> 
   <tr> 
    <th><strong>Objekt, dem die ursprüngliche Aktualisierung hinzugefügt wurde</strong> </th> 
-   <th> <p><strong>Objekt mit einer höheren Rangfolge, bei dem die ursprüngliche Aktualisierung ebenfalls angezeigt wird</strong> </p> </th> 
+   <th> <p><strong>Rangobjekte, bei denen die ursprüngliche Aktualisierung ebenfalls angezeigt wird</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >Antworten, die zu Systemaktualisierungen hinzugefügt werden, werden nicht auf das übergeordnete Objekt aktualisiert. Nur direkte Antworten auf ein untergeordnetes Objekt und Antworten, die zu vorhandenen Updates hinzugefügt werden, werden zu übergeordneten Objekten aggregiert.
@@ -267,16 +282,14 @@ Beachten Sie beim Anzeigen von Updates für Benutzer und Teams Folgendes:
 
 * Im Abschnitt Updates eines Teams können Sie keine neuen Kommentare hinzufügen.
 
-* Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört.
-
 * Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
 
    * Benutzende
-   * Timesheets*
    * Storys
-   * Iterationen*
+   * Arbeitszeit- tabellen
+   * Wiederholungen
 
-  *Diese sind für das neue Kommentarerlebnis nicht verfügbar.
+* Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört.
 
 * Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
 

@@ -6,9 +6,9 @@ description: Sie können die [!UICONTROL Meine Aktualisierungen] -Bereich, um di
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -36,25 +36,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p>
+   Oder   
+   <p>Aktuell: [!UICONTROL Anforderung] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen des Zugriffs oder höher auf Objekte, für die Sie in einer Konversation getaggt sind oder eine Genehmigung auflösen müssen (Projekte, Aufgaben, Probleme, Dokumente)</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen des Zugriffs oder höher auf Objekte, für die Sie in einer Konversation getaggt sind oder eine Genehmigung auflösen müssen (Projekte, Aufgaben, Probleme, Dokumente)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL View] Berechtigungen oder höher für Projekte, Aufgaben, Probleme, Dokumente, in denen Sie in einer Unterhaltung getaggt sind oder eine Genehmigung auflösen müssen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Berechtigungen oder höher für Projekte, Aufgaben, Probleme, Dokumente, in denen Sie in einer Unterhaltung getaggt sind oder eine Genehmigung auflösen müssen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+*Wenden Sie sich an Ihren [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -66,13 +68,13 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
 
 ## Zugriff auf [!UICONTROL Meine Aktualisierungen] area
 
-1. Klicken **[!UICONTROL Meine Aktualisierungen]** im **[!UICONTROL Hauptmenü]**.
+1. Klicks **[!UICONTROL Meine Aktualisierungen]** im **[!UICONTROL Hauptmenü]**.
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    Die [!UICONTROL Meine Aktualisierungen] -Bereich geöffnet.
 
-   Die Ihnen zugewiesenen Genehmigungen und Zugriffsanfragen werden in der ersten Hälfte der Seite unter Meine Updates aufgeführt.
+   Die Ihnen zugewiesenen Genehmigungen und Zugriffsanfragen werden in der ersten Hälfte der Seite unter **Meine Aktualisierungen**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -113,7 +115,7 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
 
       Oder
 
-      Klicken **[!UICONTROL Überspringen]** wenn Sie keinen Kommentar eingeben möchten.
+      Klicks **[!UICONTROL Überspringen]** , wenn Sie keinen Kommentar eingeben möchten.
 
       ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
@@ -128,11 +130,11 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
       >Wenn Sie Ihrer Entscheidung keinen Kommentar hinzufügen möchten, können Sie auf die **[!UICONTROL Genehmigen]**, **[!UICONTROL Ablehnen]** oder **[!UICONTROL Änderungen]** und die Validierungsentscheidung sofort erteilt wird.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >Weitere Informationen zur Genehmigung der Arbeit finden Sie unter [Validierung der Arbeit](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-      Weitere Informationen zur Genehmigung der Arbeit finden Sie unter [Validierung der Arbeit](../../../review-and-approve-work/manage-approvals/approving-work.md).
-
-1. Klicken **[!UICONTROL Zugriff gewähren]** , um die Ihnen übermittelte Zugriffsanforderung zu gewähren
+1. Klicks **[!UICONTROL Zugriff gewähren]** , um die Ihnen übermittelte Zugriffsanforderung zu gewähren
 
    Oder
 
@@ -141,7 +143,7 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Ignorieren]** , um die Zugriffsanforderung aus Ihrer Zulassungsliste zu löschen, ohne sie zu vergeben.
-1. Klicken **[!UICONTROL Delegieren von Genehmigungen]** , um die Ihnen übermittelten Genehmigungen zu delegieren, wenn Sie für einige Zeit nicht für Genehmigungsentscheidungen verfügbar sind. Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Validierungsanfrage delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Klicks **[!UICONTROL Delegieren von Genehmigungen]** , um die Ihnen übermittelten Genehmigungen zu delegieren, wenn Sie für einige Zeit nicht für Genehmigungsentscheidungen verfügbar sind. Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Validierungsanfrage delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Scrollen Sie zum **[!UICONTROL Erwähnungen]** Bereich unter Ihren Genehmigungen. Hier können Sie alle Elemente anzeigen, die in eine Konversation einbezogen wurden.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
@@ -155,4 +157,4 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
 
    Weitere Informationen zum Aktualisieren von Elementen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Aktuelle Seite fixieren]** um [!UICONTROL Meine Aktualisierungen] Bereich zu Ihrer oberen Navigation.
+1. (Optional) Klicken Sie auf **[!UICONTROL Aktuelle Seite fixieren]** um die [!UICONTROL Meine Aktualisierungen] Bereich zu Ihrer oberen Navigation.

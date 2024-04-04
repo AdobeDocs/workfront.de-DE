@@ -5,22 +5,38 @@ description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitsel
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Zusammenfassung] Übersicht
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktion für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-Sie können die [!UICONTROL Zusammenfassung] -Bedienfeld zum Überprüfen und Aktualisieren von Arbeitselementinformationen direkt aus einer Liste von Aufgabenproblemen, Dokumenten oder aus anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
+Sie können die [!UICONTROL Zusammenfassung] -Bedienfeld zum Überprüfen und Aktualisieren von Arbeitselementinformationen direkt aus einer Liste von Aufgaben, Problemen, Dokumenten oder anderen Bereichen von [!DNL Adobe Workfront] die Aufgaben und Probleme anzeigen.
+
+Ihr Workfront- oder Gruppenadministrator kann die Bereiche und Felder ändern, die im Bedienfeld &quot;Zusammenfassung&quot;angezeigt werden. Sie können dem Bedienfeld &quot;Zusammenfassung&quot;bis zu 16 Felder hinzufügen.
+
+>[!IMPORTANT]
+>
+>Es wird empfohlen, Felder hinzuzufügen, die Sie häufig im Bedienfeld &quot;Zusammenfassung&quot;aktualisieren müssen, damit Sie einfach darauf zugreifen und sie aktualisieren können, ohne auf die Hauptseite des Objekts zugreifen zu müssen.
+>
+>Sie können beispielsweise die folgenden häufig aktualisierten Felder zu den Aufgaben und Problemen in den Bedienfeldern &quot;Zusammenfassung&quot;hinzufügen:
+>
+>* Status
+>* Prozent abgeschlossen
+>* Verpflichtungsdatum
+>* Geplantes Abschlussdatum
+>* Bedingung
+
+
 
 Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfassung] Bereich:
 
@@ -28,7 +44,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Aufgaben</td> 
+   <td><b>Aufgaben</b></td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabenlisten innerhalb einer</p> 
@@ -44,7 +60,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
    <td>Aufgaben in einem [!UICONTROL Zeitblatt]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Probleme</td> 
+   <td><b>Probleme</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Problemlisten in einer</p> 
@@ -66,7 +82,7 @@ Die folgende Tabelle zeigt die Bereiche, in denen Sie die [!UICONTROL Zusammenfa
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Dokumente</td> 
+   <td><b>Dokumente</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Dokumente] Bereich</td> 
@@ -96,25 +112,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p>
+   Oder
+   <p>Aktuell:[!UICONTROL Anforderung] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Aufgaben, Probleme, Dokumente</p> <p>[!UICONTROL Ansicht] oder höher Zugriff auf alle Objekte, für die Sie die Dokumentzusammenfassung anzeigen möchten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
+   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Aufgaben, Probleme, Dokumente</p> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Objekte, für die Sie Dokumente anzeigen möchten [!UICONTROL Zusammenfassung]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für Aufgaben, Probleme oder Dokumente</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für Aufgaben, Probleme oder Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+*Wenden Sie sich an Ihren [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Anzeigen der [!UICONTROL Zusammenfassung] in einer Liste von Aufgaben oder Problemen
 
@@ -131,11 +149,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Sie können nur eine Aufgabe oder ein Problem gleichzeitig auswählen, um ihre Details im [!UICONTROL Zusammenfassung] Bedienfeld.
 
-   <div class="preview">
-
    ![Zusammenfassungsbereich](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Optional) So schließen Sie die [!UICONTROL Zusammenfassung] einen der folgenden Schritte ausführen:
 
@@ -155,17 +169,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Verwenden Sie die Fortschrittsleiste oben im [!UICONTROL Zusammenfassung] , um den Prozentsatz zu aktualisieren, der für die ausgewählte Aufgabe oder das ausgewählte Problem abgeschlossen ist. Geben Sie eine Zahl ein oder ziehen Sie die Leiste auf den richtigen Prozentsatz.
 
-<span class="preview">![Prozent abgeschlossen im Bereich &quot;Zusammenfassung&quot;](assets/summary-overview-percent-complete.png)</span>
+![Prozent abgeschlossen im Bereich &quot;Zusammenfassung&quot;](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Verwenden Sie die [!UICONTROL Updates] Abschnitt [!UICONTROL Zusammenfassung] , um aktuelle Aktualisierungen anzuzeigen und Aktualisierungen zu der ausgewählten Aufgabe oder Ausgabe vorzunehmen. Klicks **[!UICONTROL Alle anzeigen]** , um direkt zur [!UICONTROL Updates] Registerkarte der Aufgabe.
 
-<div class="preview">
-
 ![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Dokumente]
 

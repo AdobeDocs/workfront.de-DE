@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Einzüge von Aufgaben in Aufgabenlisten anzeigen'
+title: "Ansicht: Einzüge von Aufgaben in einer Aufgabenliste anzeigen"
 description: In dieser Aufgabenansicht können Sie der Spalte "Task Name"Code hinzufügen, um die Aufgaben, die gemäß der Arbeitsaufschlüsselungsstruktur des Projekts eingerückt sind, anzuzeigen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Ansicht: Einzüge von Aufgaben in einer Aufgabenliste anzeigen
+# Anzeigen: Einzüge von Aufgaben in einer Aufgabenliste anzeigen
 
 In dieser Aufgabenansicht können Sie der Spalte &quot;Task Name&quot;Code hinzufügen, um die Aufgaben, die gemäß der Arbeitsaufschlüsselungsstruktur des Projekts eingerückt sind, anzuzeigen.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -57,20 +57,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Gehen Sie zu einer Liste von Aufgaben.
 1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Task Name&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Task Name&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
 1. Klicken Sie in der neuen Spalte auf **In den Textmodus wechseln**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im
-
-   ```
-   valuefield=
-   ```
-
-   und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im `valuefield=` und ersetzen Sie sie durch den folgenden Code:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicks **Speichern**, dann **Ansicht speichern**.
