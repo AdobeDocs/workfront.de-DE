@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                 </tr>
             </tbody>
 </table>
+
+### Verbesserungen der Startseite
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Zu Administratorsteuerelementen hinzugefügte Spaltenoptionen mit Layoutvorlagen für neues Startseiten</a></p><p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        <p>Administratoren können jetzt mithilfe von Layoutvorlagen anpassen, welche Spalten für Benutzer in bestimmten neuen Home-Widgets verfügbar sind. Zu den Optionen gehören das Ausblenden oder Anzeigen von Standardspalten und das Hinzufügen vorhandener Felder als neue Spalten.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 2. Januar 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Projektverbesserungen
 
