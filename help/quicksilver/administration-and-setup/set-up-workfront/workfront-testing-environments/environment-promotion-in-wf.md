@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -46,14 +47,14 @@ Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfiguration
 
 ### Arbeitsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige Unterobjekte |
+| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
 | Projekt (PROJ) | Projekt<br>Aufgabe<br>Zuweisung<br>Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nichtarbeitstag<br>Warteschlangendefinition<br>Themengruppe &quot;Warteschlange&quot;<br>Warteschlangenthema<br>Routing-Regel<br>Milestone-Pfad<br>Milestone<br>Stündentyp<br>Ressourcenpool<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 | Vorlage (TMPL) | Vorlage<br>Vorlagenaufgabe<br>Vorlagenaufgaben zuweisen<br>VorlagenTask-Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nichtarbeitstag<br>Warteschlangendefinition<br>Themengruppe &quot;Warteschlange&quot;<br>Warteschlangenthema<br>Routing-Regel<br>Milestone-Pfad<br>Milestone<br>Stündentyp<br>Ressourcenpool<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 
 ### Reporting-Objekte
 
-| Förderbares Objekt | Einbezogene förderfähige Unterobjekte |
+| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
 | Layout Template (UITMPL) | Layout-Vorlage<br>Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
 | Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
@@ -66,7 +67,7 @@ Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfiguration
 
 ### Benutzerdefinierte Datenobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige Unterobjekte |
+| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
 | Kategorie (KG) | Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik<br>Gruppe |
 | Parameter (PARAM) | Parameter<br>Parameteroption |
@@ -74,7 +75,7 @@ Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfiguration
 
 ### Organisationsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige Unterobjekte |
+| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
 | Gruppe (GRUPPE) | Gruppe <br>Untergruppen (bis zu 5 Stufen) *<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 | Rolle (ROLE) | Funktion |
@@ -85,7 +86,7 @@ Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfiguration
 
 ### Andere Konfigurationsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige Unterobjekte |
+| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
 | Genehmigungsverfahren (ARVVR) | Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Rolle<br>Team<br>Gruppe |
 | Zeitplan (SCHED) | Zeitplan<br>Nichtarbeitstag<br>Gruppe |
@@ -135,5 +136,3 @@ Zu diesen Status gehören:
   </tr> 
   </tbody> 
 </table>
-
-
