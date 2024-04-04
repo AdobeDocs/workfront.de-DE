@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Die Funktionen werden wöchentlich veröffentlicht und in der Reihenfolge ihrer 
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-<!--
-## Week of April 1, 2024
+## Woche vom 1. April 2024
 
-### Reorder the fields on the records page
+### Die Felder auf Datensatzseiten neu anordnen
 
-Production: April 4, 2024 
+Produktion: 4. April 2024
 
-Preview: To be determined 
+Vorschau: zu bestimmen
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+Als Workspace-Manager können Sie jetzt die auf der Datensatzseite oder im Feld aufgelisteten Felder neu anordnen. Durch die Aktualisierung der Reihenfolge der Felder wird die Reihenfolge der Felder in allen Datensätzen desselben Typs für alle geändert, die die Datensatzseite oder das Datensatzfeld anzeigen.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Hinzufügen eines Titelbilds zum Aufzeichnen von Seiten
 
-Production: April 4, 2024 
+Produktion: 4. April 2024
 
-Preview: To be determined 
+Vorschau: zu bestimmen
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+Bei der Verwaltung von Datensatzseiten können Sie jetzt ein Titelbild auf einer Datensatzseite oder einem Feld hinzufügen, neu positionieren und ersetzen, um die Präsentation des Datensatzes und die Interaktion der Interessenträger zu bereichern. Titelbilder sind für alle Benutzer sichtbar, die die Datensätze anzeigen.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Woche vom 25. März 2024
 

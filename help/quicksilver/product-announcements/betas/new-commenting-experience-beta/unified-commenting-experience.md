@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 Die folgenden Funktionen wurden entfernt oder werden aus dem neuen Erlebnis entfernt:
 
 * Kommentar zu einer Systemaktualisierung. Kommentare, die in der Vergangenheit zu den Systemaktualisierungen hinzugefügt wurden, wurden auf der neuen Registerkarte Systemaktivität als schreibgeschützte Kommentare importiert.
-* Möglichkeit, Status, Bedingung, Datum der Übertragung und Prozentsatz der Fertigstellung zu bearbeiten, während Sie zu Aufgaben und Problemen kommentieren
+* Möglichkeit zur Bearbeitung von Status, Bedingung, Veröffentlichungsdatum und Prozentsatz der Abgeschlossen beim Kommentieren von Aufgaben und Problemen.
+
+  Als Alternative wird empfohlen, diese Felder im Fenster Zusammenfassung von Aufgaben und Problemen hinzuzufügen, um sie einfach über Listen, Berichte, Startseite, Workfront Balancer oder ein Timesheet aufzurufen.
 * Möglichkeit zur Bearbeitung des benutzerdefinierten Formulars
 * Die Informationen &quot;im Namen von &lt; Benutzername >&quot;, wenn sich ein Workfront- oder Gruppenadministrator als anderer Benutzer anmeldet und einen Kommentar in seinem Namen hinzufügt, wurden ursprünglich entfernt. Es wurde am 19. Oktober 2023 wieder eingesetzt.
 * Die Option &quot;Zur Genehmigung anfordern&quot;, wenn Sie Personen taggen, während Sie einem Dokument einen Kommentar hinzufügen.
 * Die Einstellung &quot;Prozentualer Abschluss bei Aktualisierungsstatus anzeigen&quot;beim Bearbeiten des Profilfelds eines Benutzers wird entfernt. Die Funktion zum Aktualisieren des prozentualen Abschlusses einer Aufgabe oder eines Problems wurde entfernt.
-* Die Möglichkeit für den Projekteigentümer, das geplante Abschlussdatum einer Aufgabe zu ändern, wenn das Zustimmungsdatum im Abschnitt Aktualisierungen geändert wird. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
   </tr>
   <tr>
-   <td>Möglichkeit, Status, Bedingung, Commit-Datum beim Kommentieren zu bearbeiten 
+   <td>Möglichkeit, Status, Bedingung, Komprimierungsdatum beim Kommentieren zu bearbeiten 
    </td>
    <td>✓ 
    </td>
@@ -499,6 +501,21 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Möglichkeit für den Projekteigentümer, das geplante Abschlussdatum einer Aufgabe zu ändern, wenn das Zustimmungsdatum im Abschnitt Aktualisierungen geändert wird
+   </td>
+   <td> ✓
+   </td>
+   <td> Kann zu einem späteren Zeitpunkt veröffentlicht werden
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>
