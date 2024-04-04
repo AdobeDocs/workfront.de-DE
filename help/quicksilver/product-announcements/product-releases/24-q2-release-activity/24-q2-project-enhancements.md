@@ -4,9 +4,10 @@ description: Projektverbesserungen im zweiten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024).
+>Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024).
 
 <span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span>
 
@@ -38,7 +39,7 @@ Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/hel
 
 >[!NOTE]
 >
->Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024).
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024).
 
 <span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span>
 

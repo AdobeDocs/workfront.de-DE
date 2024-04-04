@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 >
 >| Monatliche Version | Quartalsversion |
 >|----|----|
->| <ul><li>24.2 (15. Februar 2024)</li><li>24.3 (14. März 2024)</li><li>24.4 (11. April 2024)</li></ul> | <ul><li>24.4 (April 2024)</li></ul> |
+>| <ul><li>24.2 (15. Februar 2024)</li><li>24.3 (14. März 2024)</li><li>24.4 (11. April 2024)</li></ul> | <ul><li>24.4 (11. April 2024)</li></ul> |
 >
 >Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Schnellveröffentlichungsprozess aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik und Logik zum Überspringen sind jetzt im Vorschaumodus des Formulardesigners verfügbar</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logik und Logik zum Überspringen sind jetzt im Vorschaumodus des Formulardesigners verfügbar</a></p>
                         <p>Mit dem benutzerdefinierten Beta-Formularentwickler können Sie jetzt Ihre Anzeigelogik testen und die Logik im Vorschaumodus überspringen. Zuvor wurden alle Felder auch bei Anwendung der Logik in der Vorschau angezeigt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -74,7 +74,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 28. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 14. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 
 ### Verbesserungen bei der Dokumentenverwaltung
 
+>[!IMPORTANT]
+>
+>Die in **Verbesserungen bei der Dokumentenverwaltung** sind Teil einer stufenweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen</a></p>
                         <p>Sie können jetzt einen Termin für Benutzer oder Teams festlegen, die zum Überprüfen oder Genehmigen eines Dokuments zugewiesen sind. Überprüfer und Genehmiger erhalten 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist E-Mail-Benachrichtigungen. Der Termin wird auch im Widget Genehmigungen im neuen Bereich Startseite angezeigt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -198,14 +202,14 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 28. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Erstellen und Verwenden von Genehmigungsvorlagen</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Erstellen und Verwenden von Genehmigungsvorlagen</a></p>
                         <p>Jetzt können Sie im Bereich "Einrichtung"Genehmigungsvorlagen erstellen, um den Prüfungs- und Genehmigungsprozess zu optimieren. Mit Genehmigungsvorlagen können Sie den Prüfungs- und Genehmigungsprozess wiederholbarer gestalten durch
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 28. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen von Informationen zu allen Ihren Genehmigungen an einem Ort</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen von Informationen zu allen Ihren Genehmigungen an einem Ort</a></p>
                         <p>Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Blick zu helfen, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 28. März 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Zugriff auf den alten Kommentarbereich wurde entfernt.</a><span style="color: #ff0000;"> Neu in der Vorschau!</span></p>
-                        <p>Wir haben den Umschalter "Neue Kommentare"im Bereich "Aktualisierungen"für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Zugriff auf den alten Kommentarbereich wurde entfernt.</a></p>
+                        <p>Wir haben den Umschalter "Neue Kommentare"im Bereich "Aktualisierungen"für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte. Mit dieser Änderung können Sie nicht mehr zum alten Kommentierungserlebnis zurückkehren. Darüber hinaus haben wir die Einstellung "Prozentualer Abschluss bei Aktualisierungsstatus anzeigen"im Profil eines Benutzers entfernt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -388,7 +391,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Vorschau-Version: 1. April 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für alle Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für alle Kunden: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung ab einem Zeitpunkt verfügbar, der außerhalb des Ersten Quartal 2023 liegt. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung außerhalb des Veröffentlichungszeitplans für das zweite Quartal 2024 verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Verbesserungen am Workfront-Szenario-Planer
 
@@ -564,7 +567,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungsupdates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungsupdates, die in der Version vom zweiten Quartal 2024 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 >[!NOTE]
 >
->Vorschau-Version: 1. April 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 1. April 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
-Wir haben den Umschalter &quot;Neue Kommentare&quot;im Bereich &quot;Aktualisierungen&quot;für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte. Mit dieser Änderung können Sie nicht mehr zum alten Kommentierungserlebnis zurückkehren.
+Wir haben den Umschalter &quot;Neue Kommentare&quot;im Bereich &quot;Aktualisierungen&quot;für Projekte, Aufgaben, Probleme und Dokumente entfernt. Die neue Kommentarfunktion ist jetzt die Standardoption und die einzige Option für diese Objekte. Mit dieser Änderung können Sie nicht mehr zum alten Kommentierungserlebnis zurückkehren. Darüber hinaus haben wir die Einstellung &quot;Prozentualer Abschluss bei Aktualisierungsstatus anzeigen&quot;im Profil eines Benutzers entfernt.
 
 Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quic
 
 >[!NOTE]
 >
->Vorschau-Version: 1. März 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 1. März 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Die neue Kommentarfunktion wurde jetzt der **Neues Update hinzufügen** Schnellaktionsschaltfläche in den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Projekte&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;im neuen Startseite.
 
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite]
 
 >[!NOTE]
 >
->Vorschau-Version: 29. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 29. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Wir haben die folgenden Verbesserungen an der neuen Kommentarfunktion vorgenommen:
 
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Kommentare zu den Datensätzen der Systemaktivität im alten Kommentierungserlebnis werden jetzt auf der Registerkarte Systemaktivität in der neuen Kommentierungserfahrung als schreibgeschützt ausgefüllt. Sie können im neuen Kommentar-Erlebnis nicht auf Systemaktivitätsdatensätze antworten.
 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabsc
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systemaktivitätsprotokolle zu ermöglichen, führen wir einen dritten Tab in den Bereich Updates aller Objekte ein. Die Registerkarte &quot;Alle&quot;erfasst sowohl Benutzerkommentare als auch Systemaktivitätskommentare in einem zusammenhängenden Stream.
 
@@ -83,7 +83,7 @@ Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabsc
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 22. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Jetzt wurde die neue Kommentarfunktion zum Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben- und Problemlisten hinzugefügt.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 >[!NOTE]
 >
->Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Sie können jetzt einen Termin für Benutzer oder Teams festlegen, die zum Überprüfen oder Genehmigen eines Dokuments zugewiesen sind. Überprüfer und Genehmiger erhalten 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist E-Mail-Benachrichtigungen. Der Termin wird auch im Widget Genehmigungen im neuen Bereich Startseite angezeigt.
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Erstellen von Dokumentüberprüfungs- od
 
 >[!NOTE]
 >
->Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Jetzt können Sie im Bereich &quot;Einrichtung&quot;Genehmigungsvorlagen erstellen, um den Prüfungs- und Genehmigungsprozess zu optimieren. Mit Genehmigungsvorlagen können Sie den Prüfungs- und Genehmigungsprozess wiederholbarer gestalten durch
 
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage](/he
 
 >[!NOTE]
 >
->Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (April 2024)
+>Vorschau-Version: 28. März 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
 Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Blick zu helfen, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
 

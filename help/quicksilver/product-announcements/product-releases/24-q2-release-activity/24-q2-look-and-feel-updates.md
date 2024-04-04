@@ -4,9 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ Die E-Mail-Vorlagen zum Hinzufügen eines Genehmigers zu einem Asset und zum Hin
 
 >[!NOTE]
 >
->Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
+>Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)
 
 Die Registerkarten für Forms, Felder und Abschnitte im Bereich &quot;Einrichtung&quot;> &quot;Benutzerdefinierter Forms&quot;wurden aktualisiert und sind nun entsprechend den anderen Bereichen von Workfront moderner gestaltet. Sie können nun über das linke Navigationsmenü auf die drei Bereiche zugreifen. Filter, Ansichten und Gruppierungen sind weiterhin für die Listen verfügbar. Der aktualisierte Entwurf gilt für benutzerdefinierte Formulare, Felder und Abschnitte, die sowohl im neuen Formularentwickler als auch im alten Formularersteller erstellt wurden.
 
 Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) und [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

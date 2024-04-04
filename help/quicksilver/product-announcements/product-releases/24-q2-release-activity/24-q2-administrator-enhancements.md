@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 >[!NOTE]
 >
->Vorschau-Version: 28. März 2024; Produktion für alle Kunden: 24.4 (April 2024)
+>Vorschau-Version: 28. März 2024; Produktion für alle Kunden: 24.4 (11. April 2024)
 
 Mit dem benutzerdefinierten Beta-Formularentwickler können Sie jetzt Ihre Anzeigelogik testen und die Logik im Vorschaumodus überspringen. Zuvor wurden alle Felder auch bei Anwendung der Logik in der Vorschau angezeigt.
 
@@ -32,7 +32,7 @@ Weitere Informationen zur Vorschau eines benutzerdefinierten Formulars im Formul
 
 >[!NOTE]
 >
->Vorschau-Version: 14. März 2024; Produktion für alle Kunden: 24.4 (April 2024)
+>Vorschau-Version: 14. März 2024; Produktion für alle Kunden: 24.4 (11. April 2024)
 
 Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind jetzt verfügbar, wenn Sie ein benutzerdefiniertes Formular an ein Unternehmen oder einen Benutzer anhängen. Die erweiterten Funktionen sind auf den Seiten &quot;Firmendetails&quot;und &quot;Benutzerdetails&quot;verfügbar, nicht in den Dialogfeldern &quot;Unternehmen bearbeiten&quot;und &quot;Benutzer bearbeiten&quot;. Das benutzerdefinierte Formular muss im neuen Formularentwickler erstellt werden, um diese Feldtypen nutzen zu können.
 
@@ -42,7 +42,7 @@ Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [F
 
 >[!NOTE]
 >
->Vorschau-Version: 26. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: 24.4 (April 2024)
+>Vorschau-Version: 26. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: 24.4 (11. April 2024)
 
 Die vorhandene JumpSeat-Integration ist jetzt für Konten verfügbar, die einen der neuen Pakettypen verwenden (d. h. Select, Prime oder Ultimate). Sie müssen weiterhin über ein aktives JumpSeat-Abonnement verfügen, um die Integration zu aktivieren.
 
@@ -52,7 +52,7 @@ Weitere Informationen zur JumpSeat-Integration finden Sie unter [Konfigurieren d
 
 >[!NOTE]
 >
->Vorschau-Version: 29. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: 24.4 (April 2024)
+>Vorschau-Version: 29. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: 24.4 (11. April 2024)
 
 In Workfront native Felder können jetzt zu benutzerdefinierten Formularen hinzugefügt werden. Mit diesem neuen Feldtyp können Sie Daten logisch organisieren und darstellen, ohne vorhandene Daten in benutzerdefinierten Feldern neu erstellen zu müssen.
 

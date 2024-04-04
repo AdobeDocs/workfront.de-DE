@@ -4,9 +4,10 @@ description: Verbesserungen der Ressourcenverwaltung im zweiten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 >[!NOTE]
 >
->Vorschau-Version: 12. Oktober 2023; Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (April 2024)
+>Vorschau-Version: 12. Oktober 2023; Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)
 
 Um mehr Klarheit über manuelle Anpassungen oder die Konfiguration im Arbeitslastausgleich zu schaffen, zeigen manuell angepasste stündliche Zuordnungen jetzt ein Stiftsymbol an.
 
