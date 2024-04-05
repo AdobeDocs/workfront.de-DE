@@ -8,9 +8,10 @@ title: Adobe Workfront-Boards-Module
 description: Sie können den Adobe Workfront-Mainboards-Connector verwenden, um Ihre Prozesse in Workfront-Pinnwänden zu automatisieren und mit Apps und Diensten von Drittanbietern zu verbinden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ Dieses Aktionsmodul erstellt ein neues Tag und weist ihm eine Farbe zu.
   <tr> 
    <td>[!UICONTROL Tag Color]</td> 
    <td>Wählen Sie die Farbe für dieses Tag aus.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Kommentare
+
+#### Kommentare erstellen
+
+Dieses Aktionsmodul hat einen Kommentar für die angegebene Karte erstellt.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Karten-ID]</td> 
+   <td>Geben Sie die Kennung der Karte ein, zu der Sie einen Kommentar hinzufügen möchten, oder ordnen Sie sie zu.<p>Sie können die Karten-ID in der URL finden, wenn Sie die Karte in Workfront anzeigen.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Kommentar]</td> 
+   <td>Geben Sie den Text des Kommentars ein, den Sie hinzufügen möchten, oder ordnen Sie ihn zu.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Kommentare zu Karten lesen
+
+Dieses Aktionsmodul ruft die Kommentare von der angegebenen Karte ab.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Karten-ID]</td> 
+   <td>Geben Sie die Kennung der Karte ein, für die Sie die Kommentare abrufen möchten, oder ordnen Sie sie zu.<p>Sie können die Karten-ID in der URL finden, wenn Sie die Karte in Workfront anzeigen.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Geben Sie die maximale Anzahl von Kommentaren ein, die das Modul in einem Ausführungszyklus zurückgeben soll.</p></td> 
   </tr> 
  </tbody> 
 </table>
