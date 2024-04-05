@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 Wir freuen uns, die Einführung unseres Alpha-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Alpha-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
 
-## Neueste Version
+## Alpha-Versionsupdates in Frame.io - März 2024
 
-## Alpha-Version - März 2024
+In dieser Alpha-Version haben wir Folgendes:
+
+### Hinzufügen mehrerer Assets aus Frame.io zu Workfront
+
+Sie können jetzt bis zu 10 Assets von Frame.io zu Workfront gleichzeitig hinzufügen. Sie können Workfront-Projektdokumenten oder einer bestimmten Projektaufgabe hinzufügen.
+
+### Verbessertes Erlebnis beim Hinzufügen eines Frame.io-Assets zu Workfront
+
+Die Menüelemente zum Hinzufügen eines Assets zu Workfront wurden aktualisiert, um die Anzeige der Ihnen zugewiesenen Aufgaben, der Aufgabenhierarchie und des Aufgabenstatus zu vereinfachen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Alpha-Versionsupdates in Workfront - März 2024
 
 In dieser Alpha-Version haben wir Folgendes:
 
@@ -64,7 +76,7 @@ Nach der Sperrung kann jede Person, die sie überprüft und/oder genehmigt, kein
 
 Wenn eine neue Dokumentversion hochgeladen wird, kann die nächste Revisionsrunde gestartet werden, während vorherige Revisionen gesperrt bleiben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Feedback senden
