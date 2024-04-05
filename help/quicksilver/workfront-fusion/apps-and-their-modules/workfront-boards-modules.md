@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront-Mainboards-Connector verwenden, um 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 * [Pinnwände](#boards)
 * [Spalten](#columns)
 * [Tags](#tags)
+* [Kommentare](#comments)
 * [Sonstige](#other)
 
 <!--
@@ -482,6 +483,9 @@ Dieses Aktionsmodul erstellt ein neues Tag und weist ihm eine Farbe zu.
 </table>
 
 ### Kommentare
+
+* [Kommentare erstellen](#create-a-comment)
+* [Kommentare zu Karten lesen](#read-card-comments)
 
 #### Kommentare erstellen
 
