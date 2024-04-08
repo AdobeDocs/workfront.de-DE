@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinie
 
 Diese Vorlage konvertiert Probleme in Projekte. Sie können sie an die Standards Ihres Unternehmens anpassen.
 
-### [!BADGE Neu!]{type=Informative}
+### Workfront - Kopieren von Dokumenten aus Problemen/Anforderungen in bereits konvertierte Projekte oder Aufgaben
 
 Dieses flexible Szenario kopiert Dokumente von Problemen oder Anforderungen in zuvor konvertierte Projekte oder Aufgaben.
 

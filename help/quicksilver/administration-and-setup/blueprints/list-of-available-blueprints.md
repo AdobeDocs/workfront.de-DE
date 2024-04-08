@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d07902daa53c83b6ee50dbb53bc84b42f6098407
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Dieser Entwurf enthält die Konfiguration von Organisationsstrukturen, die auf e
 **[!UICONTROL Einrichtung der Informationstechnologie]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, die auf ein Anwendungsbeispiel für Informationstechnologie erweitert werden.
 
-[!BADGE Neu!]{type=Informative}**[!UICONTROL Vererbte Instanzgrundlagen | Checkliste]**
+**[!UICONTROL Vererbte Instanzgrundlagen | Checkliste]**
 Dieser Blueprint enthält eine Projektvorlage (oder Checkliste), die Sie mit einer kurzen Liste von Fragen, Ressourcen und Links überprüfen können, um ein klares Verständnis der Konfiguration Ihrer Workfront-Instanz zu erhalten. Verwenden Sie dies, wenn Sie kürzlich eine Workfront-Instanz geerbt haben und eine Anleitung zum Starten benötigen.
 
 **[!UICONTROL Integrierte Kampagnenausführung]**
@@ -79,7 +79,7 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront professional ser
 **[!UICONTROL Neue Mietbereitschaft]**
 Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professionelle Dienstleistungs-Organisation nutzt seit Jahren im Rahmen von Implementierungsverträgen mit Personal-Teams, um Personalspezialisten und Personalverantwortliche zu veranlassen, wichtige Tätigkeiten auszuführen, um den ersten Tag eines neuen Mitarbeiters bemerkenswert zu machen.
 
-[!BADGE Neu!]{type=Informative}**Offboarding | Abwesendes Benutzer-Dashboard**
+**Offboarding | Abwesendes Benutzer-Dashboard**
 
 Dieser Blueprint enthält ein Dashboard mit 13 Berichten, die Ihnen helfen, die Objekte und Zuweisungen zu finden, neu zuzuweisen oder anderweitig zu verwalten, die mit einem Benutzer in Workfront verknüpft sind. Sie können diese Berichte auch für Benutzer verwenden, die zu einer neuen Rolle oder Gruppe wechseln, um ihre Arbeit neu zuzuweisen.
 
@@ -104,7 +104,7 @@ Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, die auf
 **[!UICONTROL Tracking von Neustrukturierungsprozessen]**
 Dieser Blueprint definiert eine Checkliste für interne Rekrutierungsressourcen, die Unternehmen bei der Verfolgung des Fortschritts bei Anfragen zur Gesamtzahl unterstützen. Sie soll eine verwaltete Laufzeitebene unterstützen.
 
-[!BADGE Neu!]{type=Informative}**Vorbereitung des Ressourcenmanagements**
+**Vorbereitung des Ressourcenmanagements**
 
 Verwenden Sie diese Projektvorlage und diesen Benutzerbericht, um sicherzustellen, dass Sie über die richtigen Einstellungen und Informationen verfügen, die zum Generieren genauer Ressourcenverwaltungsdaten erforderlich sind.
 
@@ -126,19 +126,20 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professione
 **[!UICONTROL Systemadministrator-Wartungs-Dashboard]**
 Dieser Blueprint enthält ein Dashboard, das Systemadministratoren bei der Wartung und Reinigung des Systems in regelmäßigen Abständen von verschiedenen Störungen, die sich im Laufe der Zeit aufbauen könnten, unterstützt.
 
-[!BADGE Neu!]{type=Informative}**Wertrealisierung | Dashboard &quot;Hauptwert&quot;**
+**Wertrealisierung | Dashboard &quot;Hauptwert&quot;**
 
 Dieser Blueprint enthält ein Dashboard mit 21 Berichten, mit denen Sie den Wert von Workfront messen können. Diese Berichte helfen Ihnen dabei, die Vorteile der Zentralisierung von Arbeit und der Verwaltung von Arbeitsprozessen in messbare Werte zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
 
-[!BADGE Neu!]{type=Informative}**Wertrealisierung | Dashboard für kundenorientierte Dienste bereitstellen**
+**Wertrealisierung | Dashboard für kundenorientierte Dienste bereitstellen**
 
 Dieser Blueprint enthält ein Dashboard mit 8 Berichten, die Ihnen bei der Nutzung der Vorteile von Workfront helfen. Diese Berichte sollen Ihnen dabei helfen, Ihre kundenorientierten Dienste in messbare Werte zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
 
-[!BADGE Neu!]{type=Informative}**Wertrealisierung | Dashboard überprüfen und genehmigen**
+**Wertrealisierung | Dashboard überprüfen und genehmigen**
 
 Dieser Blueprint enthält ein Dashboard mit 7 Berichten, die Ihnen bei der Realisierung des Workfront-Werts helfen. Diese Berichte helfen Ihnen dabei, die Werte der Arbeit &quot;Überprüfen und Genehmigen&quot;in messbare Vorteile zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
 
 **[!UICONTROL Video-Asset-Produktion] (integriert)**
+
 Die [!UICONTROL Video-Asset-Produktion] -Paket enthält eine Vorlage, die den Arbeitsprozess für einen standardmäßigen Videoproduktionsprozess organisiert. Die Vorlage bietet einen schlanken Prozess für die Erstellung von Original-Video-Assets für ein Team, das Standardarbeitsanweisungen verwendet, um zu definieren, wie die Arbeit ausgeführt werden soll, und verwendet das Projekt nur, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
 
 **[!UICONTROL Video-Asset-Produktion] (verwaltet)**
