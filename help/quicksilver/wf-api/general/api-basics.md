@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Für Produktions-, Vorschau- und Testumgebungen haben Endbenutzeranforderungen e
 ### Haftungsausschluss
 
 Jede Verwendung der API sollte in der Workfront Beta-Umgebung getestet werden, bevor sie in der Produktionsumgebung ausgeführt wird. Wenn ein Kunde die API für einen Prozess verwendet, der nach vernünftigem Ermessen für Workfront mit der On-Demand-Software belastend ist (d. h., der Prozess verursacht wesentliche negative Auswirkungen auf die Leistung der Software für andere Kunden), behält sich Workfront das Recht vor, vom Kunden die Beendigung dieses Prozesses zu verlangen. Wenn der Kunde nicht einhält und das Problem weiterhin besteht, behält sich Workfront das Recht vor, den Prozess zu beenden.
+
+## Workfront API-URL
+
+Informationen über die URL, die Sie zum Aufrufen der Workfront-API verwenden werden, finden Sie unter [Domänenformat für Adobe Workfront-API-Aufrufe](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## REST-Grundlagen
 
@@ -124,22 +128,22 @@ Die API verwendet dieselbe Cookie-basierte Authentifizierung, die von der Web-Be
 
 >[!IMPORTANT]
 >
-Workfront empfiehlt nicht mehr die Verwendung der `/login` -Endpunkt oder API-Schlüssel. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
+>Workfront empfiehlt nicht mehr die Verwendung der `/login` -Endpunkt oder API-Schlüssel. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
 >
-* Serverauthentifizierung mit JWT
-* Benutzerauthentifizierung mit OAuth2
+>* Serverauthentifizierung mit JWT
+>* Benutzerauthentifizierung mit OAuth2
 >
-Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-Anweisungen zur Verwendung der Serverauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md)
+>Anweisungen zur Verwendung der Serverauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md)
+>Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde.
+>Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde.
 >
-Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Mit einem gültigen Benutzernamen und Kennwort können Sie die folgende Anfrage verwenden, um eine Sitzungs-ID zu erhalten:
 
@@ -151,7 +155,7 @@ Dadurch wird ein Cookie gesetzt, um zukünftige Anforderungen zu authentifiziere
 
 >[!NOTE]
 >
-Wenn Sie über einen bestimmten API-Benutzer verfügen, der auch Administrator ist, empfiehlt Workfront dringend, sich mit einem API-Schlüssel anzumelden.
+>Wenn Sie über einen bestimmten API-Benutzer verfügen, der auch Administrator ist, empfiehlt Workfront dringend, sich mit einem API-Schlüssel anzumelden.
 
 **Generieren eines API-Schlüssels**
 
@@ -284,7 +288,7 @@ In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit 
 
 >[!NOTE]
 >
-Bei Suchanfragen wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie einen Fehler erhalten, stellen Sie sicher, dass  **_Mod** und **_Range** die richtige Groß-/Kleinschreibung aufweisen.
+>Bei Suchanfragen wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie einen Fehler erhalten, stellen Sie sicher, dass  **_Mod** und **_Range** die richtige Groß-/Kleinschreibung aufweisen.
 
 #### Verwenden von ODER-Anweisungen
 
@@ -326,7 +330,7 @@ Sie können den Feldanforderungsparameter verwenden, um eine kommagetrennte List
 
 >[!NOTE]
 >
-Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
+>Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
 Eine Liste möglicher Feldverweise finden Sie unter  [API-Explorer](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ Einige Objekte verfügen über private Sammlungen, die aktualisiert werden könn
 
 >[!NOTE]
 >
-Während Aktualisierungen auf der obersten Ebene gering sind, ersetzen Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt die vorhandene Sammlung vollständig. Um eine einzelne Zuweisung einer Aufgabe zu bearbeiten, ohne die Objekte zu beeinträchtigen, verwenden Sie PUT für die Zuweisung und nicht für die Aufgabe.
+>Während Aktualisierungen auf der obersten Ebene gering sind, ersetzen Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt die vorhandene Sammlung vollständig. Um eine einzelne Zuweisung einer Aufgabe zu bearbeiten, ohne die Objekte zu beeinträchtigen, verwenden Sie PUT für die Zuweisung und nicht für die Aufgabe.
 
 Im folgenden Beispiel wird ein Projekt zur Warteschlange eines öffentlichen Helpdesk. Beachten Sie, dass die vorhandenen Warteschlangeneigenschaften ersetzt werden.
 <pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ Eine Massen-Update-Anweisung aktualisiert mehrere Objekte gleichzeitig in einem 
 
 >[!NOTE]
 >
-Atomische Batch-Vorgänge können nur &quot;success: true&quot;oder einen Fehler zurückgeben.
+>Atomische Batch-Vorgänge können nur &quot;success: true&quot;oder einen Fehler zurückgeben.
