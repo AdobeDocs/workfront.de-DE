@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 1%
@@ -1432,7 +1432,7 @@ ht-degree: 1%
          * [Übersicht über Portfolio in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Erstellen und Verwalten von Portfolios {#create-and-manage-portfolios}
          * [Erstellen und Verwalten von Portfolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-         * [Erstellen eines Portfolios](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+         * [Erstellen von Portfolios](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Löschen und Deaktivieren von Portfolios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [Bearbeiten von Portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
          * [Hinzufügen von Projekten zu einem Portfolio](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
@@ -1788,7 +1788,7 @@ ht-degree: 1%
 * Überprüfen und Genehmigen von Arbeiten {#review-and-approve-work}
    * [Arbeiten überprüfen und genehmigen](review-and-approve-work/review-and-approve-work.md)
    * [Alpha-Programm - Dokumentgenehmigungen](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Alpha Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Beta-Programm - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbeitsgenehmigungen {#work-approvals}
       * [Arbeitsgenehmigungen](review-and-approve-work/manage-approvals/manage-approvals.md)

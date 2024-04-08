@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha Program - Workfront + Frame.io
-description: Wir freuen uns, die Einführung unseres Alpha-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Alpha-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
+title: Beta-Programm - Workfront + Frame.io
+description: Wir freuen uns, die Einführung unseres Beta-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Alpha Program - Workfront + Frame.io
+# Beta-Programm - Workfront + Frame.io
 
-Wir freuen uns, die Einführung unseres Alpha-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Alpha-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
+Wir freuen uns, die Einführung unseres Beta-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
 
-## Alpha-Versionsupdates in Frame.io - März 2024
+## Beta-Release-Updates in Frame.io - März 2024
 
-In dieser Alpha-Version haben wir Folgendes:
+In dieser Beta-Version haben wir Folgendes:
 
 ### Hinzufügen mehrerer Assets aus Frame.io zu Workfront
 
@@ -34,9 +34,9 @@ Die Menüelemente zum Hinzufügen eines Assets zu Workfront wurden aktualisiert,
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Alpha-Versionsupdates in Workfront - März 2024
+## Beta-Versionsupdates in Workfront - März 2024
 
-In dieser Alpha-Version haben wir Folgendes:
+In dieser Beta-Version haben wir Folgendes:
 
 ### Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen
 
