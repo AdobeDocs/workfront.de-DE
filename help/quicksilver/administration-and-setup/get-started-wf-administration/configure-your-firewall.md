@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 904a7610a7c6996f9c31cb5141f7baa72fb23739
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1592'
 ht-degree: 0%
 
 ---
@@ -360,6 +360,18 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um Workfron
      <li>54 244 142 219</li> 
      <li>52 39 217 230</li> 
      <li>44 241 82 96</li> 
+     <li>100 20 126 137</li>
+     <li>34 223 32 44</li>
+     <li>52 39 176 220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] im Microsoft Azure-Cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -470,18 +482,18 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie Ihrer Zulas
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Um Workfront Testing den Zugriff auf Workfront in einem beliebigen Cluster zu ermöglichen, fügen Sie diese zu allen Umgebungen hinzu</td> 
+   <td role="rowheader">Um Workfront Proof den Zugriff auf Workfront in einem beliebigen Cluster zu ermöglichen, fügen Sie diese zu allen Umgebungen hinzu</td> 
    <td> 
     <ul> 
      <li>*.workfront.com - Erforderlich für die Anzeige von Testsendungen in Workfront</li> 
-     <li>*.proofhq.com - Erforderlich, um Testsendungen in Workfront Testing anzuzeigen</li> 
-     <li>*.proofhq.eu - Erforderlich, um Testsendungen in Workfront Testing anzuzeigen</li> 
-    </ul> <p><b>NOTE</b>:  <p>Das Hinzufügen von IP-Adressen zu Ihrer Zulassungsliste für Workfront Testversand wird nicht unterstützt. Sie waren dynamisch, nachdem Workfront nach AWS verschoben wurde. Stattdessen empfehlen wir, nur Workfront-Testdomänen zuzulassen.</p> <p>Wenn es ein Problem beim Hinzufügen dieser Domänen zu Ihrer Zulassungsliste gibt und Sie stattdessen eine IP-Adresse benötigen, wenden Sie sich an den Workfront-Kundensupport.</p> </p> </td> 
+     <li>*.proofhq.com - Erforderlich für die Anzeige von Testsendungen in Workfront Proof</li> 
+     <li>*.proofhq.eu - Erforderlich, um Testsendungen in Workfront Proof anzuzeigen</li> 
+    </ul> <p><b>NOTE</b>:  <p>Das Hinzufügen von IP-Adressen zu Ihrer Zulassungsliste für Workfront Proof wird nicht unterstützt. Sie waren dynamisch, nachdem Workfront nach AWS verschoben wurde. Stattdessen empfehlen wir, nur Workfront Proof-Domänen zuzulassen.</p> <p>Wenn es ein Problem beim Hinzufügen dieser Domänen zu Ihrer Zulassungsliste gibt und Sie stattdessen eine IP-Adresse benötigen, wenden Sie sich an den Workfront-Kundensupport.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## IP-Adressen und URLs, die für den Zugriff auf Workfront Testversand hinzugefügt werden sollen
+## IP-Adressen und URLs, die für den Zugriff auf Workfront Proof hinzugefügt werden sollen
 
 Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um verschiedene Funktionen nutzen zu können.
 
@@ -570,9 +582,9 @@ Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um v
  </tbody> 
 </table>
 
-## Ports für optimale Workfront-Testleistung öffnen
+## Ports für optimale Workfront Proof-Leistung öffnen
 
-Öffnen Sie die folgenden Ports, wenn Probleme beim Laden von Testsendungen auftreten oder Sie in Workfront Testsendungen nicht durchführen:
+Öffnen Sie die folgenden Ports, wenn Probleme beim Laden von Testsendungen auftreten oder in Workfront Proof nicht funktionieren:
 
 * 5671
 * 5672
