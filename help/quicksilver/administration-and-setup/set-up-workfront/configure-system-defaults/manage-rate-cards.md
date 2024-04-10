@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf [!UICONTROL **Ratenkarten**].
-1. Klicks [!UICONTROL **Neue Preiskarte**] und geben Sie dann einen Namen für die Ratenkarte im [!UICONTROL **Ratenkarte**] , um &quot;Untitled Rate Card&quot;zu ersetzen.
-1. Klicken Sie auf dem Kartenbildschirm auf [!UICONTROL **Hinzufügen von Aufgabenrollen**].
+1. Klicks [!UICONTROL **Neue Preiskarte**] und geben Sie dann einen Namen für die Ratenkarte im [!UICONTROL Neue Preiskarte] , um &quot;Untitled Rate Card&quot;zu ersetzen.
+1. (Optional) Fügen Sie im Bildschirm &quot;Details der Ratenkarte&quot;eine [!UICONTROL **Beschreibung**].
+1. (Optional) Um ein benutzerdefiniertes Formular an die Ratenkarte anzuhängen, klicken Sie auf die [!UICONTROL **Benutzerdefiniertes Formular hinzufügen**] in der oberen rechten Ecke ein benutzerdefiniertes Formular aus der angezeigten Liste auswählen.
+
+   Weitere Informationen zum Anhängen eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Klicks [!UICONTROL **Auftragsrollen und -raten**] im linken Navigationsbereich.
+1. Klicken Sie auf dem Bildschirm &quot;Auftragseingänge und -raten von Karten bewerten&quot;auf [!UICONTROL **Hinzufügen von Aufgabenrollen**].
 1. Wählen Sie im Dialogfeld eine [!UICONTROL **Auftragsrolle**] , um die Abrechnungsraten für festzulegen.
 
    Die standardmäßige Abrechnungsrate zeigt die Rate auf Systemebene für diese Auftragsrolle an, sofern eine definiert ist.
@@ -82,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
 1. (Optional) Um eine weitere Abrechnungsrate hinzuzufügen, klicken Sie entweder für dieselbe Auftragsrolle an einem anderen Ort oder für eine andere Auftragsrolle auf [!UICONTROL **Hinzufügen von Aufgabenrollen**].
-1. (Optional) Um eine Abrechnungsrate zu bearbeiten, wählen Sie die Rate auf der Ratenkarte aus und klicken Sie auf **Bearbeiten** Symbol.
+1. (Optional) Um eine Ratenkarte zu bearbeiten, klicken Sie auf den Namen der Ratenkarte in der Liste &quot;Ratenkarten&quot;in der Einrichtung. Klicken Sie auf die Schaltfläche [!UICONTROL **Auftragsrollen und -raten**] im linken Navigationsbereich der Ratenkarte. Wählen Sie dann die Rate aus und klicken Sie auf die **Bearbeiten** icon ![Symbol Bearbeiten](assets/edit-icon.png).
 
 ## Preiskarte kopieren
 
@@ -90,8 +96,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie im linken Bereich auf [!UICONTROL **Ratenkarten**].
 1. Aktivieren Sie das Kontrollkästchen neben der Ratenkarte in der Liste und klicken Sie auf die **Kopieren** icon ![Kopiersymbol](assets/copy-icon.png).
+1. Geben Sie einen Namen für die Ratenkarte im [!UICONTROL Ratenkarte kopieren] , um &quot;Untitled Rate Card&quot;zu ersetzen. Klicken Sie anschließend auf **Speichern**.
 
-   Eine Karte mit doppelter Rate wird hinzugefügt. Klicken Sie auf den Namen der Ratenkarte in der Liste, um ihren Namen zu ändern.
+   Die neue Ratenkarte wird gespeichert. Bearbeiten Sie die Details zur Ratenkarte, die Rollen und Tarife nach Bedarf.
 
 ## Gesamte Ratenkarte löschen
 
