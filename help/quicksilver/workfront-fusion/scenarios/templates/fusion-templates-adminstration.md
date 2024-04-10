@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Verwaltung von Adobe Workfront-Fusionsvorlagen
-description: Wenn Sie Administrator sind, sind Sie berechtigt, von anderen Benutzern erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die [!UICONTROL Vorlagen] in der [!DNL Adobe Workfront Fusion Administration] Bereich.
+title: Verwaltung von Adobe Workfront Fusion-Vorlagen
+description: Als Administrator sind Sie berechtigt, von anderen erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die [!UICONTROL Vorlagen] Seite in der [!DNL Adobe Workfront Fusion Administration] Bereich.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] Vorlagenverwaltung
+# [!DNL Adobe Workfront Fusion] Verwaltung von Vorlagen
 
-Wenn Sie Administrator sind, sind Sie berechtigt, von anderen Benutzern erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die [!UICONTROL Vorlagen] in der [!DNL Adobe Workfront Fusion Administration] Bereich.
+Als Administrator sind Sie berechtigt, von anderen erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die [!UICONTROL Vorlagen] Seite in der [!DNL Adobe Workfront Fusion Administration] Bereich.
 
 ## Zugriffsanforderungen
 
@@ -31,79 +31,84 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+    <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
    </tr>
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Nein [!DNL Workfront Fusion] Lizenzanforderung.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] für die Automatisierung von Arbeiten]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über die [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss Folgendes kaufen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] enthalten [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss kaufen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Sie müssen ein Workfront Fusion-Administrator für Ihr Unternehmen sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Um herauszufinden, über welchen Plan, Lizenztyp oder Zugriff Sie verfügen, wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Für Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Ansicht [!DNL Workfront Fusion] Vorlagen als Administrator
+## Ansicht [!DNL Workfront Fusion] Vorlagen als [!DNL Workfront Fusion] Verwalter
 
-So zeigen Sie eine Tabelle aller erstellten Vorlagen und deren Status an:
+So zeigen Sie eine Tabelle aller erstellten Vorlagen und ihrer Status an:
 
-1. Klicken **[!UICONTROL Administration]** im linken Navigationsbereich, um die [!UICONTROL Administration] Bereich.
-1. Klicken **[!UICONTROL Vorlagen]** im linken Navigationsbereich.
+1. Klick **[!UICONTROL Administration]** Öffnen Sie im linken Navigationsbereich das [!UICONTROL Administration] Bereich.
 
-Es gibt drei Spalten zum Veröffentlichungsstatus der Vorlagen. Ein Häkchen in einer Spalte zeigt Folgendes an:
+   >[!NOTE]
+   >
+   >Der Bereich Administration ist nur für Workfront Fusion-Administratoren sichtbar.
 
-* **[!UICONTROL Veröffentlicht]**: Diese Vorlagen sind derzeit im [!UICONTROL Team-Vorlagen] in der Benutzeroberfläche.
-* **[!UICONTROL Beantragte Genehmigung]**: Diese Vorlagen warten auf Ihre Validierung. Sie sind derzeit im [!UICONTROL Team-Vorlagen] in der Benutzeroberfläche.
-* **[!UICONTROL Genehmigt]**: Diese Vorlagen wurden genehmigt. Sie sind derzeit im [!UICONTROL Öffentliche Vorlagen] in der Standard-Benutzeroberfläche.
+1. Klick **[!UICONTROL Vorlagen]** Im linken Navigationsbereich.
+
+Es gibt drei Spalten zum Veröffentlichungsstatus der Vorlagen. Ein Häkchen in einer Spalte weist auf Folgendes hin:
+
+* **[!UICONTROL Veröffentlicht]**: Diese Vorlagen sind derzeit in der [!UICONTROL Teamvorlagen] in der Benutzeroberfläche.
+* **[!UICONTROL Genehmigung angefordert]**: Diese Vorlagen warten auf Ihre Genehmigung. Sie sind derzeit in der [!UICONTROL Teamvorlagen] in der Benutzeroberfläche.
+* **[!UICONTROL Genehmigt]**: Diese Vorlagen wurden genehmigt. Sie sind derzeit in der [!UICONTROL Öffentliche Vorlagen] die Tabulatortaste in der Standardbenutzeroberfläche.
 
 >[!NOTE]
 >
->Vorlagen mit dem Häkchen in beiden [!UICONTROL Beantragte Genehmigung] und in der Spalte [!UICONTROL Genehmigt] -Spalte wurde bereits genehmigt und veröffentlicht, aber es gibt eine neuere Version davon, die auf Ihre Genehmigung wartet.
+>Vorlagen mit dem Häkchen in beiden [!UICONTROL Genehmigung angefordert] Spalte und in der [!UICONTROL Genehmigt] Spalten wurden bereits genehmigt und veröffentlicht, aber es gibt eine neuere Version davon, die auf Ihre Genehmigung wartet.
 
 ## Bearbeiten [!DNL Workfront Fusion] Vorlagen als Administrator
 
-1. Klicken **[!UICONTROL Administration]** im linken Navigationsbereich, um die [!UICONTROL Administration] Bereich.
-1. Klicken **[!UICONTROL Vorlagen]** im linken Navigationsbereich.
-1. Klicken **[!UICONTROL Detail]** rechts neben der Vorlage, die Sie bearbeiten möchten.
+1. Klick **[!UICONTROL Administration]** Öffnen Sie im linken Navigationsbereich das [!UICONTROL Administration] Bereich.
+1. Klick **[!UICONTROL Vorlagen]** Im linken Navigationsbereich.
+1. Klick **[!UICONTROL Detail]** rechts neben der Vorlage, die Sie bearbeiten möchten.
 
-Sie können die Vorlage jetzt bearbeiten, ähnlich wie eine Vorlage als Benutzer ohne Administratorrechte zu bearbeiten. Im [!UICONTROL Optionen] oben rechts gibt es eine zusätzliche Option - das SVG-Diagramm, das Ihnen den SVG-Code bereitstellt. Der Veröffentlichungsprozess entspricht dem für einen Standardbenutzer. Weitere Informationen finden Sie im Abschnitt Veröffentlichungs- und Freigabevorlagen .
+Sie können die Vorlage jetzt bearbeiten, ähnlich wie eine Vorlage als Benutzer ohne Administratorrechte zu bearbeiten. In der [!UICONTROL Optionen] Oben rechts gibt es eine zusätzliche Option - das SVG-Diagramm, das den SVG-Code bereitstellt. Außerdem ist der Veröffentlichungsprozess derselbe wie bei einem Standardbenutzer. Weitere Informationen finden Sie im Abschnitt Veröffentlichungs- und Freigabevorlagen .
 
-Informationen zu bestimmten Vorlagenoptionen, die Sie bearbeiten können, finden Sie unter [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
+Informationen zu den Vorlagenoptionen, die Sie bearbeiten können, finden Sie unter [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
 
-Informationen zu Veröffentlichungsvorlagen finden Sie unter [Veröffentlichen und freigeben [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
+Informationen zu Veröffentlichungsvorlagen finden Sie unter [Veröffentlichen und freigeben [!DNL Adobe Workfront Fusion] Vorlagen](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
-## Genehmigen oder ablehnen [!DNL Workfront Fusion] templates
+## Genehmigen oder ablehnen [!DNL Workfront Fusion] Vorlagen
 
-Wenn Sie eine Vorlage validieren, wird sie im [!UICONTROL Öffentliche Vorlagen] und für alle Benutzer verfügbar sein. Wenn Sie eine Vorlage deaktivieren, wird sie aus dem [!UICONTROL Öffentliche Vorlagen] und stellt sie nur dem Team zur Verfügung, das sie erstellt hat.
+Wenn Sie eine Vorlage validieren, wird sie in der [!UICONTROL Öffentliche Vorlagen] und für alle Benutzer verfügbar. Wenn Sie eine Vorlage ablehnen, wird sie aus der [!UICONTROL Öffentliche Vorlagen] und stellt sie nur dem Team zur Verfügung, das sie erstellt hat.
 
-1. Klicken **[!UICONTROL Administration]** im linken Navigationsbereich, um die [!UICONTROL Administration] Bereich.
-1. Klicken **[!UICONTROL Vorlagen]** im linken Navigationsbereich.
+1. Klick **[!UICONTROL Administration]** Öffnen Sie im linken Navigationsbereich das [!UICONTROL Administration] Bereich.
+1. Klick **[!UICONTROL Vorlagen]** Im linken Navigationsbereich.
 1. Wenn Sie eine Vorlage genehmigen möchten, klicken Sie auf **[!UICONTROL Genehmigen]** rechts neben der Vorlage.
-1. Wenn Sie eine Vorlage ablehnen möchten, klicken Sie auf **[!UICONTROL Ablehnen]** rechts neben der Vorlage.
+1. Wenn Sie eine Vorlage ablehnen möchten, klicken Sie auf **[!UICONTROL missbilligen]** rechts neben der Vorlage.
 
 >[!NOTE]
 >
->Wenn Sie die Vorlage validieren, die zuvor genehmigt und dann bearbeitet wurde, überschreibt Ihre zweite Validierung die ursprüngliche Vorlage.
+>Wenn Sie die zuvor genehmigte und dann bearbeitete Vorlage genehmigen, überschreibt Ihre zweite Genehmigung die ursprüngliche Vorlage.
 
-## Ein Szenario als Vorlage klonen
+## Klonen eines Szenarios als Vorlage
 
 Als Administrator haben Sie die Möglichkeit, ein Szenario als Vorlage zu klonen.
 
