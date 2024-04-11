@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Je nach den Geschäftsanforderungen Ihrer Organisation kann die in einer Aufgabe oder einem Problem definierte Arbeit für die Verwaltung innerhalb der Aufgabe oder des Problems zu groß werden. In diesem Fall können Sie sie in ein größeres Arbeitselement konvertieren:
 
@@ -65,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicks **Benutzerdefinierte Forms**.
-1. Suchen Sie das gewünschte Formular und klicken Sie auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+1. Suchen Sie das gewünschte Formular und klicken Sie auf ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Fügen Sie oben im Formular das Objekt hinzu, in das Sie die Aufgabe oder das Problem konvertieren möchten.
 
    >[!INFO]

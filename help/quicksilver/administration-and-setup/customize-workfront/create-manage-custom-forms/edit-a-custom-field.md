@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets in einem benutzerdefinierten Formular
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in Ihrer Adobe Workfront-Instanz im benutzerdefinierten Formular verwendet wird. Dazu gehören der Titel, der Name, Anweisungen usw. des Elements.
 
@@ -61,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicks **Benutzerdefinierter Forms.**
 1. Klicks **Felder** um den Bereich Felder zu öffnen.
-1. Wählen Sie das benutzerdefinierte Feld, die Abschnittsumbruch oder das Widget aus und klicken Sie auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Feld, die Abschnittsumbruch oder das Widget aus und klicken Sie auf ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Ändern Sie in dem angezeigten Feld die verfügbaren Optionen für das Element, das Sie bearbeiten.
 
    Weitere Informationen zu diesen Optionen

@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können festlegen, welche Abschnitte eines benutzerdefinierten Formulars angezeigt oder übersprungen werden sollen, je nach den Optionen, die ein Benutzer beim Ausfüllen vornimmt.
 
@@ -123,10 +117,6 @@ Die Anzeigereihenfolge definiert, welche benutzerdefinierten Felder im Formular 
 
    Die Symbole für die Anzeigenlogik werden dem Zielfeld und dem Definitionsfeld im Formularentwickler hinzugefügt.
 
->[!NOTE]
->
-><span class="preview">Die Anzeigelogik ist nur verfügbar, wenn Sie die Vorschau des Formulars im Formularentwickler in der Vorschau-Umgebung anzeigen.</span>
-
 ## Logik zum Überspringen zu einem benutzerdefinierten Formular hinzufügen
 
 Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprungen werden, wenn der Benutzer einen bestimmten Wert in einem Multiple-Choice-Feld auswählt. Übersprungene Felder werden im Formular ausgeblendet. Die Logik wird auf das definierende Feld angewendet, in dem die Auswahl vorgenommen wird, nicht auf die Felder, die übersprungen werden.
@@ -157,7 +147,4 @@ Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprung
 
    Die Symbole für die Logik überspringen werden dem Zielfeld und dem Definitionsfeld im Formularentwickler hinzugefügt.
 
->[!NOTE]
->
-><span class="preview">Die Logik zum Überspringen ist nur verfügbar, wenn Sie das Formular im Formularentwickler in der Vorschau-Umgebung in der Vorschau anzeigen.</span>
 

@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular mit dem Formularentwickler
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Mit dem Formularentwickler können Sie Objekttypen zu einem vorhandenen benutzerdefinierten Formular hinzufügen oder löschen.
 
@@ -70,7 +64,7 @@ Sie können dem Formular weitere Objekttypen hinzufügen, damit es an mehrere Ob
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, dem Sie weitere Objekttypen hinzufügen möchten, und klicken Sie dann auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus, dem Sie weitere Objekttypen hinzufügen möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon2.png).
 
 1. Klicken Sie oben im Formular auf das Pluszeichen + nach **Objekttypen** und wählen Sie dann den gewünschten Typ im angezeigten Menü aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
 
@@ -97,10 +91,10 @@ So löschen Sie einen Objekttyp:
 {{step-1-to-setup}}
 
 1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon2.png).
 1. Klicken Sie auf das X auf einem der **Objekttypen** , die Sie aus dem Formular löschen möchten.
 
    ![](assets/delete-object-types.png)
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt für jeden anderen Objekttyp, den Sie aus dem Formular entfernen möchten.
-1. Klicks **Fertig** Klicken Sie auf **Speichern und schließen**.
+1. Klicks **Anwenden** Klicken Sie auf **Speichern und schließen**.

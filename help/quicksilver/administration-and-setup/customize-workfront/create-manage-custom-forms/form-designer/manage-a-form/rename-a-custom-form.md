@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können ein benutzerdefiniertes Formular jederzeit umbenennen, nachdem es mit dem Formularentwickler erstellt wurde.
 
@@ -61,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon2.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf oder ![Symbol Bearbeiten](assets/edit-icon2.png).
 1. Um den Titel zu ändern, klicken Sie auf den Formularnamen.
 1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld &quot;Beschreibung&quot;.
 

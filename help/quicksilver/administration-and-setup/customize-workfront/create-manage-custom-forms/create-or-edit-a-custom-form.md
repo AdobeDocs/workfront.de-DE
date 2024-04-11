@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-Sie können ein neues benutzerdefiniertes Formular erstellen oder bearbeiten. Beide Aufgaben werden in diesem Artikel erläutert.
+Sie können ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular bearbeiten. Beide Aufgaben werden in diesem Artikel erläutert.
 
 Informationen zum Erstellen eines neuen benutzerdefinierten Formulars aus einem vorhandenen finden Sie unter [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Formular-Builder zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ Sie können ein benutzerdefiniertes Formular jederzeit bearbeiten, nachdem es er
 
    Benutzerdefinierte Formulare werden in einer Liste angezeigt. Sie können alle benutzerdefinierten Formulare und benutzerdefinierten Felder überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer die einzelnen Formulare erstellt hat, welche Objekte damit verknüpft sind und ob sie aktiv sind.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon.png).
 1. (Optional) Um den Titel und die Beschreibung des benutzerdefinierten Formulars zu ändern, klicken Sie auf die **Formulareinstellungen** tab, und geben Sie dann eine **Formulartitel** und **Beschreibung**.
 
 1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es an weitere Objekte angehängt werden kann, klicken Sie auf das Pluszeichen + nach **Objekttypen** und wählen Sie dann den gewünschten Typ im angezeigten Menü aus.

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Erstellen und Bearbeiten von Unternehmen
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -119,7 +117,7 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
      </tr>
      <tr> 
       <td role="rowheader">Abschnitt "Benutzerdefinierter Forms"</td> 
-      <td> <p>Wenn es Felder gibt, die Sie Ihrem Unternehmen hinzufügen möchten, die in nicht verfügbar sind. [!DNL Workfront]können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. </p> <p>Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Menü werden nur aktive benutzerdefinierte Formulare aufgeführt.</p> <p><span class="preview"><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Firmendatensatz auf der Detailseite und nicht im Dialogfeld Unternehmen bearbeiten öffnen. (Klicken Sie in der Liste der Unternehmen auf den Unternehmensnamen, um die Details zu öffnen.)</span></p> <p> Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>. </p> </td>
+      <td> <p>Wenn es Felder gibt, die Sie Ihrem Unternehmen hinzufügen möchten, die in nicht verfügbar sind. [!DNL Workfront]können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. </p> <p>Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Menü werden nur aktive benutzerdefinierte Formulare aufgeführt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Firmendatensatz auf der Detailseite und nicht im Dialogfeld Unternehmen bearbeiten öffnen. (Klicken Sie in der Liste der Unternehmen auf den Unternehmensnamen, um die Details zu öffnen.)</p> <p> Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

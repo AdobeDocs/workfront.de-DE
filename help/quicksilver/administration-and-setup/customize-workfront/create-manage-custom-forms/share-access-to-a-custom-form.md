@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # Freigeben eines benutzerdefinierten Formulars
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
 
@@ -69,7 +63,7 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben** <span class="preview">oder ![Freigabesymbol](assets/share-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf ![Freigabesymbol](assets/share-icon.png).
 1. In dem Feld, das angezeigt wird, unter **Gewähren Sie benutzerdefinierten Formularzugriff an**, beginnen Sie mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder Firma, für die Sie das benutzerdefinierte Formular freigeben möchten, und drücken Sie dann die Eingabetaste **Eingabe** wenn der Name angezeigt wird.
 1. Um den Zugriff auf den soeben hinzugefügten Benutzer, das Team, die Rolle, die Gruppe oder das Unternehmen anzupassen, klicken Sie auf das Dropdown-Menü rechts neben dem Namen und konfigurieren Sie dann eine der folgenden verfügbaren Optionen und eine der erweiterten Einstellungen:
 
@@ -118,7 +112,7 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Freigeben** <span class="preview">oder ![Freigabesymbol](assets/share-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf ![Freigabesymbol](assets/share-icon.png).
 1. Klicken Sie in dem angezeigten Feld auf das X rechts neben dem Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, auf das Sie keinen speziellen Zugriff mehr auf das Formular haben möchten.
 1. (Optional) Wiederholen Sie den vorherigen Schritt nach für weitere Namen, die Sie entfernen möchten.
 1. Klicken Sie auf **Speichern**.

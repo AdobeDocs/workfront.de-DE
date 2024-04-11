@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Kopieren Sie ein benutzerdefiniertes Formular, um ein neues mit dem alten Builder zu erstellen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können ein neues benutzerdefiniertes Formular erstellen, das auf einem vorhandenen basiert.
 
@@ -59,7 +53,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicks **Benutzerdefinierter Forms.**
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie als Grundlage für ein neues benutzerdefiniertes Formular verwenden möchten, und klicken Sie dann auf **Kopieren** <span class="preview">oder ![Kopiersymbol](assets/copy-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie als Grundlage für ein neues benutzerdefiniertes Formular verwenden möchten, und klicken Sie dann auf ![Kopiersymbol](assets/copy-icon.png).
 1. Im **Benutzerdefinierte Formularkopie** Geben Sie die folgenden Informationen ein:
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formulartypen </p> </td> 
       <td> <p>Im <b>Formulartyp</b> Wählen Sie die Objekttypen aus, mit denen das benutzerdefinierte Formular verwendet werden soll, und klicken Sie auf das X neben allen Typen, die Sie entfernen möchten. Typen, die bereits mit dem Formular verknüpft sind, sind in der Liste deaktiviert.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Das Formular muss mindestens einem Objekttyp zugeordnet sein.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Formular kopieren**.
+1. Klicks **Kopieren**.
 
    Wenn berechnete Felder im Originalformular auf Felder verweisen, die nicht mit einem Objekttyp kompatibel sind, den Sie dem neuen Formular hinzufügen, werden Sie aufgefordert, die Berechnungen in diesen Feldern zu ändern.
 

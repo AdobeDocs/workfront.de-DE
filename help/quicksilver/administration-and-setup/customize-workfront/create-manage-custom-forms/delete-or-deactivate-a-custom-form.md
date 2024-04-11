@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Löschen eines benutzerdefinierten Formulars
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Sie können ein benutzerdefiniertes Formular aus dem System löschen.
 
@@ -62,5 +56,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicks **Benutzerdefinierter Forms.**
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Löschen** <span class="preview">oder ![Löschsymbol](assets/delete-icon.png).</span>
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf ![Löschsymbol](assets/delete-icon.png).
 1. Wenn Sie sicher sind, dass Sie das benutzerdefinierte Formular und alle zugehörigen Daten zu Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.

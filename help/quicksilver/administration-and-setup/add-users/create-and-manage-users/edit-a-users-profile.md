@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '3334'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Profil eines Benutzers bearbeiten
-
-{{highlighted-preview}}
 
 <!--
 
@@ -234,7 +232,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td><p>Verknüpfen Sie diesem Benutzer ein benutzerdefiniertes Benutzerformular. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Felder, auf die Sie keinen Zugriff haben, werden nicht in einem benutzerdefinierten Formular angezeigt.</p> <p><span class="preview"><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Benutzerdatensatz auf der Detailseite und nicht im Dialogfeld "Benutzer bearbeiten"öffnen. (Klicken Sie in der Liste der Benutzer auf den Benutzernamen, um die Details zu öffnen.)</span></p> <p>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p></td> 
+      <td><p>Verknüpfen Sie diesem Benutzer ein benutzerdefiniertes Benutzerformular. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Felder, auf die Sie keinen Zugriff haben, werden nicht in einem benutzerdefinierten Formular angezeigt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Benutzerdatensatz auf der Detailseite und nicht im Dialogfeld "Benutzer bearbeiten"öffnen. (Klicken Sie in der Liste der Benutzer auf den Benutzernamen, um die Details zu öffnen.)</p> <p>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kommentar</td> 

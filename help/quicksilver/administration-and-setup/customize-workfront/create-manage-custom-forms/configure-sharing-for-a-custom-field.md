@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets mit dem alten Formular-Builder
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Wenn Sie ein neues benutzerdefiniertes Feld oder Widget zu einem benutzerdefinierten Formular hinzufügen, kann standardmäßig jeder Benutzer im System mit Zugriff auf benutzerdefinierte Formulare die Eigenschaften für dieses Element bearbeiten (z. B. Titel und Name). Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 
@@ -63,11 +57,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wenn Sie die Freigabe für ein benutzerdefiniertes Feld oder Widget in der Workfront-Instanz Ihres Unternehmens konfigurieren, gehen Sie wie folgt vor:
 
    1. Klicks **Felder** um den Bereich Felder zu öffnen.
-   1. Wählen Sie das Element aus, für das Sie die Freigabe konfigurieren möchten, und klicken Sie dann auf **Freigeben** <span class="preview">oder ![Freigabesymbol](assets/share-icon.png).</span>
+   1. Wählen Sie das Element aus, für das Sie die Freigabe konfigurieren möchten, und klicken Sie dann auf ![Freigabesymbol](assets/share-icon.png).
 
    Wenn Sie die Freigabe für ein benutzerdefiniertes Feld oder Widget in einem vorhandenen benutzerdefinierten Formular konfigurieren, führen Sie die folgenden Schritte aus:
 
-   1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf **Bearbeiten** <span class="preview">oder ![Symbol Bearbeiten](assets/edit-icon.png).</span>
+   1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf ![Symbol Bearbeiten](assets/edit-icon.png).
    1. Wählen Sie im Formularbearbeitungsbereich auf der rechten Seite das Element aus, für das Sie die Freigabe konfigurieren möchten.
    1. Klicken Sie im linken Bereich auf **Feld freigeben**.
 
@@ -131,7 +125,7 @@ Sie können ermitteln, wer Zugriff auf ein benutzerdefiniertes Feld oder Widget 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Klicken Sie auf **Felder** und wählen Sie das Feld, Bild oder Zugriffs-Widget aus.
+1. Klicks **Felder** und wählen Sie dann das Feld, Bild oder Zugriffs-Widget aus.
 1. Klicken Sie in dem angezeigten Feld auf **Vererbte Berechtigungen** und die angezeigten Namen anzeigen.
 1. Klicks **Abbrechen**.
 
