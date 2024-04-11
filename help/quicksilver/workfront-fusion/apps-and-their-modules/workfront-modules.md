@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 +++
 
 +++ **[!UICONTROL Suche]**
+
+Dieses Suchmodul sucht nach Datensätzen in einem Objekt in [!DNL Workfront] die mit der angegebenen Suchabfrage übereinstimmen.
+
+Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+
+Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] -Datensatz, nach dem das -Modul suchen soll.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Ergebnissatz]</td> 
+   <td>Wählen Sie eine Option aus, um anzugeben, ob das Modul das erste Ergebnis erhalten soll, das Ihren Suchkriterien entspricht, oder alle Ergebnisse, die dem Ergebnis entsprechen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Suchkriterienfelder]</td> 
+   <td> <p>Wählen Sie die Felder aus, die Sie für Ihre Suchkriterien verwenden möchten. Diese Felder stehen dann im Dropdown-Menü Suchkriterien zur Verfügung.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Suchkriterien]</td> 
+   <td> <p>Geben Sie das Feld, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert ein, nach dem Sie im Feld suchen.</p> <p>Hinweis: Verwenden Sie <code>username </code>in Ihren Suchkriterien. Einschließlich <code>username </code>in einer API-Abfrage zu [!DNL Workfront] meldet den Benutzer in Workfront an und die Suche wird nicht erfolgreich durchgeführt.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>mit Arrays verwendet werden. Die Eingaben sollten im Array-Format erfolgen.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Ausgaben]</td> 
+   <td> <p>Wählen Sie die Felder aus, die Sie in die Ausgabe dieses Moduls aufnehmen möchten.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Referenzen]</td> 
+   <td>Wählen Sie beliebige Referenzfelder aus, die Sie in die Suche einbeziehen möchten.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Sammlungen]</td> 
+   <td>Wählen Sie alle Sammlungen aus, die Sie der Suche hinzufügen möchten.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Suche (veraltet)]**
 
 Dieses Suchmodul sucht nach Datensätzen in einem Objekt in [!DNL Workfront] die mit der angegebenen Suchabfrage übereinstimmen.
 
