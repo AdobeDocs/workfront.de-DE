@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf oder ![Symbol Bearbeiten](assets/edit-icon2.png).
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon2.png).
 1. Um den Titel zu ändern, klicken Sie auf den Formularnamen.
 1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld &quot;Beschreibung&quot;.
 
