@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
                                 <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
                             </li>
                             <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.4 (11. April 2024)</p>
+                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
                             </li>
                         </ul>
                     </td>
