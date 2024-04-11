@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
+source-git-commit: cd0d3a0651faf76592efdae93a0df7c921a283e7
 workflow-type: tm+mt
-source-wordcount: '14151'
+source-wordcount: '14153'
 ht-degree: 1%
 
 ---
@@ -2262,6 +2262,7 @@ ht-degree: 1%
       * [Bildmodule](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira-Softwaremodule](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON-Module](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JWT-Module](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB-Module](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown-Module](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo-Module](workfront-fusion/apps-and-their-modules/marketo-modules.md)
