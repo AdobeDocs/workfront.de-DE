@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1386'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,17 +76,17 @@ Sie können den API-Schlüssel für Ihr Administratorbenutzerkonto generieren, z
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System >** **Kundeninformationen.**
+1. Klicks **System >** **Kundeninformationen.**
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
    So generieren Sie einen API-Schlüssel: Im **API-Schlüsseleinstellungen** Abschnitt, klicken Sie auf **API-Schlüssel generieren**.
 
    Oder\
-   Zurücksetzen eines API-Schlüssels: Im **API-Schlüsseleinstellungen** Abschnitt, klicken Sie auf **Zurücksetzen**, dann **Zurücksetzen.**
+   Zurücksetzen eines API-Schlüssels: In der **API-Schlüsseleinstellungen** Abschnitt, klicken Sie auf **Zurücksetzen**, dann **Zurücksetzen.**
 
    Oder
 
-   Entfernen des API-Schlüssels: Im **API-Schlüsseleinstellungen** Abschnitt, klicken Sie auf **Entfernen**, dann **Entfernen**.
+   So entfernen Sie den API-Schlüssel: Im **API-Schlüsseleinstellungen** Abschnitt, klicken Sie auf **Entfernen**, dann **Entfernen**.
 
 ## API-Schlüssel für Benutzer ohne Administratorrechte generieren
 
@@ -94,18 +94,18 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als dem Workfront-Adm
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+>Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 1. (Bedingt) Wenn Ihr Unternehmen die SSO-Zugriffsverwaltung (Single Sign-On) verwendet, deaktivieren Sie vorübergehend die Option, für die eine SSO-Authentifizierung erforderlich ist.
 
    1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-   1. Erweitern **System** Klicken Sie auf **Single Sign-on (SSO)**.\
+   1. Erweitern **System** Klicken Sie auf **Single Sign-on (SSO)**.
+   1. Im **Typ** auswählen, wählen Sie den SSO-Typ aus, den Ihr Unternehmen verwendet.
+   1. Scrollen Sie mit dem ausgewählten Typ nach unten und löschen Sie die **Aktivieren** aktivieren.
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Klicken Sie auf **Speichern**.
 
-   1. Deaktivieren Sie das Kontrollkästchen, für das SSO-Authentifizierung erforderlich ist.
-
-      Wenn Ihr Unternehmen beispielsweise SAML 2.0 verwendet, deaktivieren Sie **Nur SAML 2.0-Authentifizierung zulassen**.
 
 1. Geben Sie in der Adressleiste eines Browsers den folgenden API-Aufruf ein:
 
@@ -119,7 +119,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als dem Workfront-Adm
 
    1. Erweitern **System** Klicken Sie auf **Single Sign-on (SSO)**.
 
-   1. Wählen Sie Ihre SSO-Methode im **Typ** Dropdown-Menü.
+   1. Wählen Sie Ihre SSO-Methode im **Typ** aus.
    1. Aktivieren Sie das Kontrollkästchen, für das eine SSO-Authentifizierung erforderlich ist.
 
 ## Konfigurieren, wann API-Schlüssel ablaufen
@@ -128,7 +128,7 @@ Sie können API-Schlüssel so konfigurieren, dass sie für alle Benutzer in Ihre
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **System** > **Kundeninformationen**.
+1. Klicks **System** > **Kundeninformationen**.
 1. Im **API-Schlüsseleinstellungen** im **Nach Erstellung**, **API-Schlüssel laufen in ab** in der Dropdown-Liste den Zeitrahmen auswählen, in dem die API-Schlüssel ablaufen sollen.
 
    Wenn Sie diese Option ändern, beginnt der neue Zeitrahmen mit dem Zeitpunkt, zu dem Sie die Änderung vorgenommen haben. Wenn Sie diese Option beispielsweise von *1 Monat* nach *6 Monate* festgelegt ist, laufen die API-Schlüssel 6 Monate nach der Änderung ab.
@@ -161,7 +161,7 @@ Wenn Sie wegen einer bestimmten Sicherheitsverletzung in Bezug auf Ihr Workfront
 
 >[!IMPORTANT]
 >
->Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Business Platform integriert wurde.
+>Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde.
 >
 >Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -169,7 +169,7 @@ Drittanbieteranwendungen können über die API mit Workfront kommunizieren. Um d
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Weitere Informationen erhalten Sie von Ihrem Netzwerk- oder IT-Administrator.
+>Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * [Abrufen des X.509-Zertifikats](#obtain-the-x-509-certificate)
 * [Hochladen des Zertifikats in Workfront](#upload-the-certificate-to-workfront)
@@ -209,4 +209,4 @@ Führen Sie vor dem Konfigurieren Ihrer Workfront-Instanz, für die ein X.509-Ze
 
 Nachdem Sie das X.509-Zertifikat über die Kundeninformationsseite in Ihrer Workfront-Instanz zur Anforderung gemacht haben, führen Sie einen weiteren Anmeldeversuch durch. Diesmal erhalten Sie eine 500-Fehlerantwort mit der folgenden Meldung: &quot;Nicht vertrauenswürdige Anfrage. Wenden Sie sich an Ihren Systemadministrator und hängen Sie ein Zertifikat an.&quot;
 
-Nachdem Sie bestätigt haben, dass das X.509-Zertifikat erforderlich ist, führen Sie dieselbe Anmeldeanfrage mit einem zusätzlichen Parameter für apiCertificate durch, der auf den Wert Ihres Zertifikats festgelegt ist. Wenn dieser Vorgang korrekt ausgeführt wurde, erhalten Sie eine 200-Antwort mit einer gültigen sessionID.
+Nachdem Sie bestätigt haben, dass das X.509-Zertifikat erforderlich ist, führen Sie dieselbe Anmeldeanfrage mit einem zusätzlichen Parameter für apiCertificate durch, der auf den Wert Ihres Zertifikats festgelegt ist. Wenn dieser Vorgang korrekt ausgeführt wurde, erhalten Sie eine 200-Antwort, die eine gültige sessionID enthält.
