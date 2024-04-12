@@ -7,18 +7,18 @@ description: Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # Übersicht über Dokumente
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtigen Informationen aus der Dokumentliste.
+Im Bedienfeld Zusammenfassung können Sie wichtige Informationen direkt aus der Dokumentliste aufrufen und aktualisieren.
 
 ## Zugriffsanforderungen
 
@@ -31,25 +31,27 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p> 
+   <p>Aktuell: Anforderung oder höher</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Öffnen Sie die Zusammenfassungsansicht
 
@@ -67,7 +69,7 @@ Im Bereich Details können Sie allgemeine Übersichtsinformationen anzeigen und 
 * [Übersicht](#overview)
 * [Benutzerdefinierte Formulare](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Übersicht {#overview}
 
@@ -79,18 +81,13 @@ Erweitern Sie den Bereich Übersicht , um eine Miniaturansicht anzuzeigen oder h
 
 Verwenden Sie den Abschnitt &quot;Benutzerdefinierter Forms&quot;, um mit dem Dokument verknüpfte benutzerdefinierte Formulare hinzuzufügen, zu bearbeiten oder anzuzeigen. Geben Sie den Namen des benutzerdefinierten Formulars ein, um es zum Dokument hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Formulars zu einem Dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
 Im Abschnitt Updates können Sie die Aktualisierung lesen, die ein Benutzer am Dokument oder Testversand vorgenommen hat. Die Zusammenfassung zeigt die ersten beiden Kommentare. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Genehmigungen
 
@@ -101,7 +98,7 @@ Testversandvalidierungen müssen im Testversand-Workflow hinzugefügt werden. We
 * [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versionen
 
@@ -113,4 +110,4 @@ Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für e
 * Navigieren Sie zu Dokumentdetails .
 * Testversand oder Dokument löschen
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

@@ -7,10 +7,10 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 4%
+source-wordcount: '985'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Überblick über den Abschnitt &quot;Aktualisierungen&quot; <!--in the new commenting experience-->
+### Überblick über den Abschnitt &quot;Aktualisierungen&quot;
 
 ![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt:
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt<!-- in the new commenting experience-->:
-
-   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten<!-- in the new commenting experience-->, siehe [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im alten Kommentierungserlebnis an den Datensätzen der Systemaktivität vorgenommen wurden, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten<!-- in the new commenting experience-->, siehe [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
 
-* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;:
+* Die folgenden Objekte weisen in allen drei Registerkarten des Abschnitts Updates ähnliche Erlebnisse auf:
+
+   * Projekte
+   * Aufgaben
+   * Probleme
+   * Programme
+   * Portfolios
+   * Benutzende
+   * Arbeitszeit- tabellen
+
+* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem aller anderen Objekte:
 
    * Team
    * Vorlage
    * Vorlagenaufgabe
+
+* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;unterscheidet sich von dem aller anderen Objekte:
    * Ad-hoc-Karte
-   * Wiederholungen
 
      Weitere Informationen zu Kartenaktualisierungen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * Wiederholungen
 
      Weitere Informationen zu Aktualisierungen bei Iterationen finden Sie unter [Iterationskommentare verwalten](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;:
+* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem der meisten Objekte:
 
    * Ziele
 
      Weitere Informationen zu Aktualisierungen der Ziele finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

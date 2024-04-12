@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-Administrator müssen Sie manchmal im Namen eines anderen Benutzers auf Workfront zugreifen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # Anmelden als eine andere Benutzerin bzw. ein anderer Benutzer
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neu: Standard</p>
+   <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
@@ -75,6 +77,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
  </tbody> 
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Anmelden und Aktionen als anderer Benutzer ausführen
 
@@ -146,7 +150,7 @@ Wenn Sie sich als ein anderer Benutzer anmelden, wird das letzte Anmeldedatum f�
 
 Wenn Sie sich bei Workfront als ein anderer Benutzer anmelden und eine Aktion ausführen, zeigt Workfront eindeutig an, dass jede Aktion, die Sie ausführen, von Ihnen im Namen des Benutzers ausgeführt wird, als der Sie angemeldet sind.
 
-Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie als ein anderer Benutzer angemeldet sind, zeigt eine Anweisung an, dass der Kommentar von Ihnen im Namen des Benutzers abgegeben wurde.
+Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie als ein anderer Benutzer angemeldet sind, zeigt eine Anweisung an, dass der Kommentar im Namen des Benutzers abgegeben wurde, wenn der Abschnitt &quot;Aktualisierungen&quot;eines Objekts angezeigt wurde.
 
 ### Audit-Informationen anzeigen {#view-audit-information}
 

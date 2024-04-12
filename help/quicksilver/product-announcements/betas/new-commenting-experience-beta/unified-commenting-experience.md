@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >Die Informationen in diesem Artikel beziehen sich auf Funktionen, die für das neue Kommentierungserlebnis veröffentlicht wurden.
 >
->Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023. Das Betaprogramm für die neue Kommentarerfahrung wurde mit der Version vom Oktober 2023 eingestellt.
+>Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023 mit der Version Oktober 2023.
 >
->Ab Oktober 2023 werden alle neuen Funktionen für das neue Kommentierungserlebnis für alle Kunden veröffentlicht. Weitere Informationen finden Sie auf der aktuellen Übersichtsseite zur Version für jede Version.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Seit dem 11. April 2024 sind alle Funktionen für die neue Kommentarfunktion in der Produktionsumgebung für alle Kunden verfügbar.
 
 ## Funktionen
 
@@ -561,19 +551,20 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
 
 * Mit der Version vom zweiten Quartal 2024 (11. April 2024):
 
-   * Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen zu machen.
+  Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen zu machen.
 
 ## Neues Kommentierungserlebnis suchen
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+Das neue Kommentierungserlebnis ist in den folgenden Bereichen von Workfront verfügbar:
 
->[!IMPORTANT]
->
->Das neue Kommentierungserlebnis ist in allen Workfront-Umgebungen für alle Objekte mit Ausnahme von Iterationen verfügbar.
->
->Die veraltete Kommentarfunktion wurde aus allen Umgebungen für Projekte, Aufgaben, Probleme und Dokumente entfernt.
+* Im Abschnitt Updates aller Objekte mit Ausnahme von Iterationen.
 
-Informationen zum Zugriff auf den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Informationen zum Zugriff auf den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* Im Bereich &quot;Zusammenfassung&quot;von Aufgaben, Problemen und Dokumenten in allen Bereichen, in denen diese verfügbar sind (Listen, Timesheets, Workload Balancer und Startseite).
+* Im Bereich Startseite für Aufgaben und Probleme.
+
+
 
 <!--
 

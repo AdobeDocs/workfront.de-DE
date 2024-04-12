@@ -6,9 +6,9 @@ description: Ihre [!DNL Adobe Workfront] Das Profil enthält Informationen über
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3273'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 # Meine Einstellungen konfigurieren
 
 <!-- Audited: 01/2024 -->
-
-{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -342,20 +340,15 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td>Geben Sie hier Ihre bevorzugte Sprache an. Damit wird das in ausgehenden E-Mail-Nachrichten verwendete Sprache-, Datums- und Zahlenformat gesteuert.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Prozentualer Abschluss beim Aktualisierungsstatus anzeigen]</strong> </td> 
-   <td>Wählen Sie diese Option aus, wenn Sie bei Verwendung des veralteten Kommentierungserlebnisses im Bereich Updates Ihrer Aufgaben eine prozentuale Leiste zum Abschluss anzeigen möchten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.
-  <p><span class="preview">Diese Option wurde aus der Vorschau -Umgebung entfernt.</span></p> 
-   </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><strong>[!UICONTROL Versand der mir zugewiesenen Arbeit an meine Registerkarte "Arbeit am"]</strong> </td> 
    <td>Wählen Sie dieses Feld aus, um die Arbeit, die Sie sich selbst zuweisen, direkt auf der Registerkarte [!UICONTROL Working On] anstelle der Registerkarte [!UICONTROL Work Requests] anzuzeigen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) Automatisches Generieren von Testsendungen beim Hochladen von Dokumenten</strong></td> 
-   <td>Wählen Sie dieses Feld aus, um sofort nach dem Laden des Dokuments einen Testversand zu erzeugen [!DNL Workfront]. Dieses Feld ist standardmäßig deaktiviert und kann nur von einem Workfront-Administrator aktualisiert werden.<br>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen die Workfront-Testversandkomponente für Workfront erworben hat und Sie als Testversand-Benutzer aktiviert sind. Weitere Informationen zum Workfront-Testversand finden Sie unter <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Verwalten von Testsendungen in Adobe Workfront</a>.
+   <td>Wählen Sie dieses Feld aus, um sofort nach dem Laden des Dokuments einen Testversand zu erzeugen [!DNL Workfront]. Dieses Feld ist standardmäßig deaktiviert und kann nur von einem Workfront-Administrator aktualisiert werden.<br>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen die Workfront Proof-Komponente für Workfront erworben hat und Sie als Testversand-Benutzer aktiviert sind. Weitere Informationen zu Workfront Proof finden Sie unter <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Verwalten von Testsendungen in Adobe Workfront</a>.
    <p><b>Hinweis:</b> In eine Anfrage hochgeladene Dokumente erzeugen keinen Testversand automatisch. </p></td> 
   </tr> 
  </tbody> 

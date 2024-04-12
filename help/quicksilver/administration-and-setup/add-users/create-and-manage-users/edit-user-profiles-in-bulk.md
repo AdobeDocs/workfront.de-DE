@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # Massenbearbeitung von Benutzerprofilen
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        <ul> 
         <li><b>Zeitzone:</b> Die Zeitzone des Benutzers.</li> 
         <li><b>Gebietsschema</b>: Das bevorzugte Gebietsschema der Benutzer. Dies wirkt sich auf das Zahlenformat und das Datumsformat der aus Workfront stammenden E-Mails aus.</li> 
-        <li><b>Prozentualer Abschluss der Aktualisierung anzeigen</b>: Aktivieren Sie diese Option, wenn Sie bei Verwendung des bisherigen Kommentierungserlebnisses im Bereich Aktualisieren aller Benutzeraufgaben eine prozentuale Leiste zum Abschluss anzeigen möchten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Neues Kommentierungserlebnis</a>.
-        <p><span class="preview">Diese Option wurde aus der Vorschau -Umgebung entfernt.</span></p>
-
-   </li> 
         <li><b>Versand der Arbeit, die ich mir auf die Registerkarte "Arbeit an"zuweise</b>: Aktivieren Sie diese Option, wenn alles, was die Benutzer sich selbst zuweisen, direkt auf ihrer Registerkarte "Arbeiten am"angezeigt werden soll. Standardmäßig werden alle einem Benutzer zugewiesenen Elemente auf der Registerkarte "Arbeitsanforderung"aufgelistet.</li> 
        </ul> </td> 
      </tr> 
