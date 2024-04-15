@@ -6,9 +6,9 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 >[!NOTE]
 >
 >Dynamische Pinnwände platzieren immer Karten in der Spalte, die ihrem Status entspricht, unabhängig davon, ob Spaltenrichtlinien aktiviert oder deaktiviert sind. Die Karten kehren bei der Aktualisierung der Pinnwand zu den zugewiesenen Spalten zurück.
+> 
+>Wenn Sie eine Karte für alle Pinnwandtypen von einer Spalte in eine andere mit demselben Status verschieben, kehrt die Karte bei der Aktualisierung der Pinnwand zur ursprünglichen Spalte zurück.
 
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]**.
