@@ -6,9 +6,9 @@ description: Sie können die [!UICONTROL Meine Aktualisierungen] -Bereich, um di
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
    >Die ersten 50 Erwähnungen werden standardmäßig angezeigt.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Weitere Updates anzeigen]** , um weitere Erwähnungen anzuzeigen.
-1. (Optional) Klicken Sie auf **[!UICONTROL Antwort]** Um auf einen Kommentar zu antworten, geben Sie Ihre Antwort ein und klicken Sie auf **[!UICONTROL Antwort]** erneut.
+1. (Optional) Klicken Sie auf **[!UICONTROL Antwort]** um auf einen Kommentar zu antworten, und führen Sie einen der folgenden Schritte aus:
+   * Eingabe einer Antwort beginnen
+   * Verwenden Sie die Rich-Text-Symbolleiste, um Text zu formatieren, Links, Listen, Emojis, Anführungszeichen oder Bilder zu Ihrer Nachricht hinzuzufügen.
+   * Fügen Sie Benutzer oder Teams hinzu, um sie über Ihre Antwort zu benachrichtigen.
 
-   Weitere Informationen zum Aktualisieren von Elementen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Wenn Sie die Antwort hinzugefügt haben, klicken Sie auf **[!UICONTROL Antwort]** erneut.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Optional) Klicken Sie auf **[!UICONTROL Aktuelle Seite fixieren]** um die [!UICONTROL Meine Aktualisierungen] Bereich zu Ihrer oberen Navigation.

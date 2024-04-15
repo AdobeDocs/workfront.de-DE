@@ -7,10 +7,10 @@ description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benut
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
@@ -64,9 +64,20 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
   Die Änderung des Veröffentlichungsdatums wird im Bereich Updates der Aufgabe bzw. des Problems angezeigt, wenn der Workfront-Administrator diese Aktualisierung im Bereich Updates-Feeds unter Einrichtung aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Wenn ein Projekteigentümer die Änderung nicht akzeptieren möchte, empfehlen wir ihm, dem Benutzer, der über die Registerkarte Kommentare im Abschnitt Aktualisierungen ein neues Datum vorschlägt, einen Kommentar abzugeben, ihn aufzufordern, das Veröffentlichungsdatum zurück zum ursprünglichen geplanten Datum zu ändern, oder ein neues Datum auszuwählen. Wenn ein Projekteigentümer die Änderung akzeptiert, kann er das geplante Abschlussdatum manuell so anpassen, dass es mit dem vom dem Artikel zugewiesenen Benutzer angegebenen Zustimmungsdatum übereinstimmt, indem er die Aufgabe oder das Problem bearbeitet.
+  Wenn ein Projekteigentümer die Änderung nicht akzeptieren möchte, empfehlen wir ihm, dem Benutzer, der über die Registerkarte Kommentare im Abschnitt Aktualisierungen ein neues Datum vorschlägt, einen Kommentar abzugeben, ihn aufzufordern, das Veröffentlichungsdatum zurück zum ursprünglichen geplanten Datum zu ändern, oder ein neues Datum auszuwählen.
+
+  Wenn ein Projekteigentümer die Änderung akzeptiert, kann er das geplante Abschlussdatum manuell so anpassen, dass es mit dem vom dem Artikel zugewiesenen Benutzer angegebenen Zustimmungsdatum übereinstimmt, indem er die Aufgabe oder das Problem bearbeitet.
 
   Sie müssen Zugriff haben, um die Aufgabe oder das Problem zu verwalten und sie zu bearbeiten.
+
+  >[!TIP]
+  >
+  >Sie können Ihren System- oder Gruppenadministrator bitten, das Feld &quot;Commit Date&quot;zu Ihrem Zusammenfassungsbereich hinzuzufügen, um die Aktualisierung in verschiedenen Bereichen von Workfront zu vereinfachen, wo das Bedienfeld &quot;Zusammenfassung&quot;angezeigt wird.
+  >
+  >Weitere Informationen finden Sie in den folgenden Artikeln:
+  >
+  >* [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ Außerdem, um die Zeit für ein Element im Widget Meine Arbeit zu protokollieren
 
 1. Zum **Startseite** Bereich.
 1. Fügen Sie die **Meine Arbeit** Widget auf Ihrer Startseite.
-1. Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Arbeiten daran**
+1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Arbeiten daran**
 1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die Sie die Zeit protokollieren möchten, und klicken Sie dann auf **Protokollzeit** icon ![](assets/log-time-icon-in-new-home.png) rechts neben den Aufgabeninformationen.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

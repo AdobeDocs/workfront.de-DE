@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread auf der Registerkarte Kommentare und Alle im Abschnitt Updates des Objekts angezeigt.
+Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arbeitsobjekt antwortet, wird seine Antwort im Kommunikations-Thread in den Registerkarten Kommentare und Alle im Abschnitt Updates für das Objekt angezeigt.
 
 >[!IMPORTANT]
 >
 >Es ist nicht möglich, auf Systemaktualisierungen auf der Registerkarte Systemaktivität zu antworten. Alle Antworten auf Systemaktualisierungen, die vor dem 11. April 2024 in der bisherigen Kommentierungserfahrung vorgenommen wurden, werden als schreibgeschützt angezeigt.
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objekten in Workfront antworten. Unterschiede zwischen den Abschnitten &quot;Updates&quot;verschiedener Objekte finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -85,9 +85,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können auf einen Kommentar im Thread eines Objekts antworten, das Sie anzeigen können, oder sich als Workfront- oder Gruppenadministrator anmelden und im Namen eines anderen Benutzers auf einen Kommentar antworten. Weitere Informationen finden Sie unter [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Die Antwort auf einen Kommentar oder eine Antwort hängt davon ab, welches Erlebnis und welches Objekt Sie auswählen.
-
 ### Antworten auf Kommentare
+
+Antworten Sie auf einen Kommentar im Abschnitt &quot;Aktualisierungen&quot;eines Objekts ist für die meisten Objekte in Workfront ähnlich.
 
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
 1. Klicks **Updates** und klicken Sie dann auf **Kommentare** Registerkarte für das Objekt und suchen Sie den Kommentar oder die Antwort, auf den/die Sie antworten möchten

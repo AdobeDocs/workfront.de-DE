@@ -6,9 +6,9 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets fi
 Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
 * **Meine Arbeit**\
-    Dieses Widget ist ein idealer Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und Anforderungen. Es zeigt alle von Ihnen zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Arbeit an einem Element zu beginnen.
+    Dieses Widget ist ein idealer Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und Anforderungen. Es zeigt alle von Ihnen zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Arbeit an einem Element zu beginnen, oder auf die Schaltfläche Fertig , um es als vollständig zu markieren. Sie können auch Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen, zur Protokollzeit und zum Hinzufügen von Aktualisierungen über das Widget &quot;Meine Arbeit&quot;aktualisieren.
 
 * **Meine Projekte**\
     Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, die Sie in einer Liste haben. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Projekt direkt über das Widget erstellen.

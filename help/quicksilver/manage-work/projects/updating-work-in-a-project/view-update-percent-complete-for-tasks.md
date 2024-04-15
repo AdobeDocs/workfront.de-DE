@@ -6,9 +6,9 @@ description: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisi
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
 
   Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Startseite**: Sie können den prozentualen Abschluss einer Aufgabe oder eines Problems über das Bedienfeld Zusammenfassung im Bereich Startseite oder über das Widget Meine Arbeit aktualisieren.
+
+Weitere Informationen finden Sie unter  [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Überlegungen zum Aktualisieren des prozentualen Abschlusses einer Aufgabe
 
@@ -104,7 +107,13 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
    * Eine Liste von Projekten und Anwendung der Milestone-Ansicht
    * Aufgabe durch Zugriff auf die Aufgabenseite
 1. Suchen Sie die **Prozent abgeschlossen** -Feld für die Aufgabe, deren Prozentsatz Sie aktualisieren möchten.
-1. Klicken Sie in das Feld &quot;Percent Complete&quot;und geben Sie eine Zahl zwischen 0 und 100 ein.
+
+   >[!TIP]
+   >
+   >  Das Feld &quot;Prozent abgeschlossen&quot;wird immer oben im Bedienfeld &quot;Zusammenfassung&quot;angezeigt.
+
+
+1. Klicken Sie in die **Prozent abgeschlossen** und geben Sie eine Zahl zwischen 0 und 100 ein.
 
    Oder
 

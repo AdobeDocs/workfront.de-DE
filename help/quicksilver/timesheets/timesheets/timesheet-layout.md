@@ -7,9 +7,9 @@ description: In diesem Artikel wird das Layout von Timesheets in Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktion für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Weitere Informationen zum aktuellen Veröffentlichungsplan finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 In diesem Artikel wird das Layout von Timesheets in Adobe Workfront beschrieben, sodass Sie besser verstehen können, wie Sie Timesheets zur Aufzeichnung der Zeit anpassen und nutzen können.
 
@@ -125,11 +125,7 @@ Sie können mehrere Stundeneinträge für dasselbe Arbeitselement für verschied
 
 ## Aktualisierungsbereich im linken Bereich
 
-<div class="preview">
-
 ![Aktualisierungsbereich im linken Bereich des Zeitplans](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 Im Bereich Updates im linken Bereich des Timesheets können Sie Kommentare zu einem Timesheet abgeben, um mit Ihren Timesheet-Genehmigern oder anderen Benutzern zu kommunizieren.
 
@@ -137,11 +133,7 @@ Alle auf dem Zeitblatt abgegebenen Kommentare werden in diesem Bereich angezeigt
 
 ## Bedienfeld „Zusammenfassung“
 
-<div class="preview">
-
 ![Zusammenfassungsbereich](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 Sie können auf das Bedienfeld Zusammenfassung für Aufgaben oder Probleme zugreifen, die in einem Zeitblatt angezeigt werden. Hier können Sie sich zu Aufgaben und Problemen äußern oder deren Informationen aktualisieren. Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

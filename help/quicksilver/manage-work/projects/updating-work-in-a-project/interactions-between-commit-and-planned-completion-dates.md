@@ -6,9 +6,9 @@ description: Sowohl der geplante Abschluss als auch das Abschlussdatum geben an,
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ Der Verantwortliche, der an der Aufgabe oder dem Problem arbeitet, kann das Zust
 
 Der Verantwortliche, der das Zusagedatum ändert, ändert nicht automatisch das geplante Abschlussdatum. Das Gegenteil trifft auch zu: Wenn Sie das geplante Abschlussdatum ändern, wird das Zustimmungsdatum nicht geändert.
 
-Wenn sich das Datum der Veröffentlichung auf ein Datum ändert, das nach dem geplanten Abschlussdatum liegt, wird der Projektinhaber darüber informiert, dass diese Änderung erfolgt ist und sich dies auf die Zeitleiste des Projekts auswirken könnte.
+Wenn sich das Datum des Übermittlens ändert, wird der Projekteigentümer über eine In-App-Benachrichtigung in Workfront benachrichtigt, dass diese Änderung vorgenommen wurde.
 
-Wenn das vom Verantwortlichen angebotene Datum für die Zusage für den Projekteigentümer akzeptabel ist, muss er das geplante Abschlussdatum der Aufgabe oder des Problems manuell aktualisieren. Weitere Informationen finden Sie in den folgenden Artikeln:
+Wenn das vom Verantwortlichen angebotene Datum für die Zusage für den Projekteigentümer akzeptabel ist, muss der Projekteigentümer das geplante Abschlussdatum der Aufgabe manuell aktualisieren. Dies veranschaulicht die möglichen Auswirkungen auf die Planung des Projekts. Änderungen am geplanten Abschlussdatum von Problemen wirken sich nicht auf die Projektzeitleiste aus.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
