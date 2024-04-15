@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Anweisungen zum Konfigurieren der Zuordnung von Attributen finden Sie unter [Zuo
 
 >[!NOTE]
 >
->Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.2 (15. Februar 2024); Produktion für alle Kunden: TBD
+>Vorschau-Version: 8. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.2 (15. Februar 2024); Produktion für alle Kunden: 24.4 (11. April 2024)
 
 Sie können jetzt die vorhandene Anzeige bearbeiten und die Logik überspringen und benutzerdefinierte Formulare in der Beta-Version des Formulardesigners um eine neue Logik erweitern. Mit einem benutzerfreundlichen Logikaufbau können Sie festlegen, welche Felder je nach Auswahl im Formular angezeigt oder übersprungen werden sollen.
 

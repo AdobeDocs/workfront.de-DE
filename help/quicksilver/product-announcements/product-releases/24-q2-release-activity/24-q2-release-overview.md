@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Version 2024 im zweiten Quartal
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom zweiten Quartal 2024 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
+Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom zweiten Quartal 2024 enthalten sind. Diese Verbesserungen wurden in der Produktionsumgebung für alle Kunden mit der Version 24.4 vom 10. und 11. April 2024 bereitgestellt.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen zu sehen:
@@ -22,6 +22,8 @@ Anstelle eines Release-Webinars laden wir Sie ein, [Adobe Summit registrieren](h
 [Die Zukunft Adobe Workfronts](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) am 26. März 2024, um einen Einblick in die Zukunft der strategischen Planung und des Workflows zu erhalten. Erfahren Sie, wie das Workfront-Team Geschäftsfunktionen über den gesamten Marketing-Lebenszyklus hinweg ansprechen will - alles mit einem KI-First-Ansatz zur Automatisierung von Arbeit, Vereinfachung von Benutzererlebnissen und Steigerung der Produktivität.
 
 [Vorstellung von Marketingkalendern und Tools für die End-to-End-Kampagnenplanung](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) am 28. März 2024, um mehr über die neuen Produktfunktionen zu erfahren, mit denen Sie Ihr Unternehmen in die Lage versetzen können, End-to-End-Lebenszyklen zu verwalten und zu visualisieren.
+
+Sie können auch [Anzeigen einer PDF-Datei](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} mit Highlights der Version 24.4.
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum des zweiten Quartals 2024 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 

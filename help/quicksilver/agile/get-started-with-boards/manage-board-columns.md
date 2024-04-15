@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Pinnwandspalten verwalten
+title: Verwalten von Pinnwandspalten
 description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie können zusätzliche Spalten hinzufügen, die Reihenfolge der Spalten ändern, Spalten umbenennen und nicht benötigte Spalten löschen.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-# Pinnwandspalten verwalten
+# Verwalten von Pinnwandspalten
 
 Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie können zusätzliche Spalten hinzufügen, die Reihenfolge der Spalten ändern, Spalten umbenennen und nicht benötigte Spalten löschen.
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -102,6 +102,10 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 1. Klicks **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bedienfeld.
 
 ## Spalteneinstellungen und Richtlinien definieren
+
+>[!NOTE]
+>
+>Dynamische Pinnwände platzieren immer Karten in der Spalte, die ihrem Status entspricht, unabhängig davon, ob Spaltenrichtlinien aktiviert oder deaktiviert sind. Die Karten kehren bei der Aktualisierung der Pinnwand zu den zugewiesenen Spalten zurück.
 
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]**.
