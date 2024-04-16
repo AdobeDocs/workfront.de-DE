@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
 
 * Mit der Version vom zweiten Quartal 2024 (11. April 2024):
 
-  Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte mit Ausnahme von Iterationen zu machen.
+  Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte zu machen.
 
 ## Neues Kommentierungserlebnis suchen
 
 Das neue Kommentierungserlebnis ist in den folgenden Bereichen von Workfront verfügbar:
 
-* Im Abschnitt Updates aller Objekte mit Ausnahme von Iterationen.
+* Im Abschnitt Updates aller Objekte.
 
   Informationen zum Zugriff auf den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

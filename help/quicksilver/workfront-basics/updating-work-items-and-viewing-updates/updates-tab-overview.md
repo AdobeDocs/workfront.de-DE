@@ -7,9 +7,9 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Vorlagenaufgabe
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;unterscheidet sich von dem aller anderen Objekte:
+   * Wiederholungen
    * Ad-hoc-Karte
 
      Weitere Informationen zu Kartenaktualisierungen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Wiederholungen
-
-     Weitere Informationen zu Aktualisierungen bei Iterationen finden Sie unter [Iterationskommentare verwalten](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem der meisten Objekte:
 

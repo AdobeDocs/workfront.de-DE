@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 5ce9e10d4191d3cd286c4708583f9a6466609603
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '14160'
+source-wordcount: '14157'
 ht-degree: 1%
 
 ---
@@ -1075,7 +1075,6 @@ ht-degree: 1%
          * [Hinzufügen von Meldungen zu einer vorhandenen Iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Iteration anzeigen](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Iteration löschen](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [Iterationskommentare verwalten](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * Pinnwand {#scrum-board}
          * [Pinnwand](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Übersicht über die Pinnwand](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

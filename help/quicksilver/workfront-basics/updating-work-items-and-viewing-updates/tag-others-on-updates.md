@@ -6,9 +6,9 @@ description: Wenn Sie Aktualisierungskommentare für ein Adobe Workfront-Objekt 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können andere auf Aktualisierungen wie folgt taggen:
 
 * **Automatisch**: Wenn ein Benutzer einen Thread startet, einen Kommentar hinzufügt oder eine Antwort hinzufügt, wird er automatisch mit Tags versehen und zum Bereich Personen oder Teams des Kommentarfelds hinzugefügt.
-
-  >[!TIP]
-  >
-  >   Benutzer können nicht automatisch getaggt werden, wenn Sie einen Kommentar zu einer Iteration hinzufügen.  Weitere Informationen finden Sie unter [Iterationskommentare verwalten](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >Benutzer können nicht automatisch getaggt werden, wenn Sie einen Kommentar aus anderen Anwendungen hinzufügen.
-
-
 * **Manuell**: Wenn Sie einen Benutzer manuell zum Bereich Personen taggen des Kommentarfelds hinzufügen.
 
 Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten oder darauf antworten.
