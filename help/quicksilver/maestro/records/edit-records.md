@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
    >* Verwenden Sie die folgenden Tastaturbefehle zum Kopieren und Einfügen von Informationen:
    >   * Kopieren: STRG + C ( ⌘ + C für Mac)
    >   * Einfügen: STRG + V ( ⌘ + V für Mac)
-   >* Es ist nicht möglich, Informationen aus anderen Quellen als Datensatzfeldern des gleichen Typs zu kopieren wie aus dem Feld, in das Sie die Informationen einfügen.
    >
    >* Feldwerte können nicht kopiert und in die Datensatzseite eingefügt werden. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
    >* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
