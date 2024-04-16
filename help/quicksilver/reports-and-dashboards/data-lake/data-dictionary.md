@@ -6,13 +6,12 @@ title: Data Lake-Datenwörterbuch
 description: Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt im Workfront Data Lake.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ Die Tabelle &quot;Täglicher Verlauf&quot;bietet eine abgekürzte Version der Ta
 
 <!-- Custom table -->
 
-## Entitätsbeziehungstabelle
+## Terminologie
 
 Die folgende Tabelle ordnet die Objektnamen in Workfront (sowie ihre Namen in der Benutzeroberfläche und der API) mit dem entsprechenden Namen im Data Lake zusammen.
 
