@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Auf dieser Seite werden alle Verbesserungen am Update-Stream und an Benachrichtigungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Neue Kommentierungserlebnisse zu Iterationen hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau-Version: 11. April 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
+
+Um Ihnen ein konsistentes Erlebnis in der gesamten Anwendung zu bieten, haben wir die neue Kommentarfunktion zu Iterationen hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierung der Abschnittsübersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Der Zugriff auf den alten Kommentarbereich wurde entfernt.
 
