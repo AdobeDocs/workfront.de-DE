@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -48,8 +48,8 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    <th> <p>Systemadministrator</p> </th> 
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
-   <th>Prüfer</th> 
-   <th>Anfragende Person</th> 
+   <th>Prüfende Person</th> 
+   <th>Anfragender</th> 
    <th>Externer Benutzer</th> 
   </tr> 
  </thead> 
@@ -66,8 +66,8 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   </tr> 
   <tr> 
    <td><strong>Portfolios</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -76,27 +76,27 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <td rowspan="3"><strong>Bericht- erstellung</strong> </td> 
    <td><strong>Berichte</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Dashboards</strong> </p> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Kalender</strong> </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td> ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -104,17 +104,17 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <td rowspan="5"><strong>Personen</strong> (umbenannt in <strong>Teams</strong> für Benutzer mit einer Arbeits-Lizenz)</td> 
    <td><strong>Teams</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔</td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Personen</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -131,18 +131,18 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    </tr>
   --> 
   <tr> 
-   <td><strong>In Planung</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td><strong>Planung</strong> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Zeitplanung</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td><strong>Planung</strong> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -151,54 +151,54 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <td rowspan="3"><strong>Anfragen</strong> </td> 
    <td><strong>Neue Anforderung</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
-   <td><strong>Von mir übermittelte Anforderungen</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td><strong>Gesendete Anforderungen</strong> </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td>ms <br>(Standard-Landingpage)</td> 
    <td>ms <br>(Standard-Landingpage)</td> 
   </tr> 
   <tr> 
    <td><strong>Alle Anforderungen</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Arbeitszeittabelle</strong> </td> 
-   <td><strong>Meine Arbeitszeittabellen</strong> </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Arbeitszeittabellen, die ich genehmige</strong> </td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td> </td> 
+   <td rowspan="3"><strong>Datenblatt</strong> </td> 
+   <td><strong>Meine Timesheets</strong> </td> 
+   <td>ms </td> 
+   <td> ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alle Arbeitszeittabellen</strong> </td> 
-   <td>✔</td> 
-   <td>✔ </td> 
+   <td><strong>Timesheets, die ich genehmige</strong> </td> 
+   <td>ms</td> 
+   <td>ms </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><strong>Alle Timesheets</strong> </td> 
+   <td>ms</td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -207,17 +207,17 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <td><strong>Dokumente</strong> </td> 
    <td> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
+   <td>ms </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Setup</strong> </td> 
    <td> </td> 
-   <td>✔ </td> 
+   <td>ms </td> 
    <td>Eingeschränkte Funktionalität</td> 
    <td> </td> 
    <td> </td> 
