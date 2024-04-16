@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '224'
 ht-degree: 20%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 20%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [[!DNL Adobe Workfront] -Module](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
+* [Adobe Workfront-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Workfront Proof] -Module](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
 * [[!DNL Workfront Boards] -Module](../../workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
 * [[!DNL Adobe Acrobat Sign] Module](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -42,7 +43,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [[!DNL Adobe Experience Manager Assets] Module](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] -Module](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Adobe Maestro-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] -Module](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] -Module](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] -Module](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)

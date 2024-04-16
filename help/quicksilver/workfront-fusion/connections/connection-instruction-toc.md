@@ -9,14 +9,16 @@ description: Eine Verbindung muss den Anforderungen entsprechen, die von der API
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 1%
 
 ---
 
 # Erstellen von Verbindungen in [!DNL Adobe Workfront Fusion]
+
+<!-- Audited: 3/2024-->
 
 Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webdiensts, mit der die Verbindung hergestellt wird, festgelegt wurden. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webdienst. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden zu identifizieren und zu finden. [!DNL Adobe Workfront Fusion] zu Ihrer ausgewählten App oder Ihrem Webdienst.
 
@@ -24,46 +26,40 @@ Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td> 
+   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Oder</p> 
+   <p>Veraltet: Beliebig </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Oder</p> 
+   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
-   <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
-   <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
-   </td>
-
-</tbody> 
+ </tbody>  
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-
-## Verbinden [!DNL Adobe Workfront] nach [!DNL Workfront Fusion]
-
-Workfront und [!DNL Workfront Fusion] sind für die Zusammenarbeit konzipiert. Die von Ihnen erstellte Verbindung bestimmt das Konto, das [!DNL Workfront Fusion] verwendet , um Aktionen in Workfront auszuführen.
-
-Anweisungen finden Sie unter [Verbinden [!DNL Workfront] nach [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] Module](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Verbindung zu einer App oder einem Webdienst herstellen, für die keine Konfiguration erforderlich ist
 

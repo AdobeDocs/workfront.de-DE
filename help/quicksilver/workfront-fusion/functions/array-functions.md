@@ -8,10 +8,10 @@ description: Die folgenden Array-Funktionen sind im Bereich Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
+source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 1%
 
 ---
 
@@ -21,77 +21,95 @@ ht-degree: 0%
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] oder höher</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td> 
+   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Oder</p> 
+   <p>Veraltet: Beliebig </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Oder</p> 
+   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
-   <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
-   <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
-   <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add (Array; Wert1; Wert2; ...)]
+## Funktionen
 
-Fügt in Parametern angegebene Werte zu einem Array hinzu und gibt dieses Array zurück.
+* [join](#join-array-separator)
+* [length](#length-array)
+* [keys](#keys-object)
+* [Slice](#slice-array-start-end)
+* [merge](#merge-array1-array2)
+* [enthält](#contains-array-value)
+* [remove](#remove-array-value1-value2)
+* [add](#add-array-value1-value2)
+* [map](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
+* [shuffle]
+* [sort](#sort-array-order-key)
+* [reverse](#reverse-array)
+* [flatten](#flatten-array)
+* [distinct](#distinct-array-key)
+* [toCollection]
+* [toArray](#toarray)
+* [arrayDifference](#arraydifference-array1-array2-mode)
+* [deduplizieren]
 
-## [!UICONTROL contains (array; value)]
-
-Überprüft, ob ein Array den Wert enthält.
-
-## [!UICONTROL distinct (Array) [key])]
-
-Entfernt Duplikate in einem Array. Verwenden Sie die[!UICONTROL key]&quot;-Argument, um auf Eigenschaften in komplexen Objekten zuzugreifen. Verwenden Sie Punktnotation, um auf verschachtelte Eigenschaften zuzugreifen. Das erste Element in einem Array ist Index 1.
-
->[!INFO]
->
->**Beispiel:** `distinct(Contacts[];name)`
->
->Entfernt Dubletten in einem Array von Kontakten durch Vergleich der Eigenschaft &quot;name&quot;
-
-## [!UICONTROL flatten (Array)]
-
-Erstellt ein neues Array mit allen Unter-Array-Elementen, die bis zur angegebenen Tiefe rekursiv darin verkettet sind.
-
-
-## [!UICONTROL join (array; separator)]
+### [!UICONTROL join (array; separator)]
 
 Verkettet alle Elemente eines Arrays mithilfe des angegebenen Trennzeichens zwischen den einzelnen Elementen in einer Zeichenfolge.
 
-## [!UICONTROL keys (object)]
-
-Gibt ein Array der Eigenschaften eines angegebenen Objekts oder Arrays zurück.
-
-## [!UICONTROL length (Array)]
+### [!UICONTROL length (Array)]
 
 Gibt die Anzahl der Elemente in einem Array zurück.
 
-## [!UICONTROL map (komplexes Array; Schlüssel)[Filterschlüssel];[mögliche Filterwerte])]
+### [!UICONTROL keys (object)]
+
+Gibt ein Array der Eigenschaften eines angegebenen Objekts oder Arrays zurück.
+
+### [!UICONTROL slice (array; start; [end])]
+
+Gibt ein neues Array zurück, das nur ausgewählte Elemente enthält.
+
+### [!UICONTROL merge (array1; array2; ...)]
+
+Führt ein oder mehrere Arrays in einem Array zusammen.
+
+### [!UICONTROL contains (array; value)]
+
+Überprüft, ob ein Array den Wert enthält.
+
+### [!UICONTROL remove (Array; Wert1; Wert2; ...)]
+
+Entfernt die in den Parametern eines Arrays angegebenen Werte. Diese Funktion ist nur bei primitiven Arrays von Text oder Zahlen wirksam.
+
+### [!UICONTROL add (Array; Wert1; Wert2; ...)]
+
+Fügt in Parametern angegebene Werte zu einem Array hinzu und gibt dieses Array zurück.
+
+### [!UICONTROL map (komplexes Array; Schlüssel)[Filterschlüssel];[mögliche Filterwerte])]
 
 Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält. Diese Funktion ermöglicht das Filtern von Werten. Verwenden Sie unformatierte Variablennamen für Schlüssel.
 
@@ -109,24 +127,9 @@ Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält
 
 Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
+### shuffle
 
-## [!UICONTROL merge (array1; array2; ...)]
-
-Führt ein oder mehrere Arrays in einem Array zusammen.
-
-## [!UICONTROL remove (Array; Wert1; Wert2; ...)]
-
-Entfernt die in den Parametern eines Arrays angegebenen Werte. Diese Funktion ist nur bei primitiven Arrays von Text oder Zahlen wirksam.
-
-## [!UICONTROL reverse (Array)]
-
-Das erste Element des Arrays wird zum letzten Element, das zweite zum letzten usw.
-
-## [!UICONTROL slice (array; start; [end])]
-
-Gibt ein neues Array zurück, das nur ausgewählte Elemente enthält.
-
-## [!UICONTROL sort (Array); [bestellen]; [key])]
+### [!UICONTROL sort (Array); [bestellen]; [key])]
 
 Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
 
@@ -174,7 +177,47 @@ Das erste Element in einem Array ist Index 1.
 >
 >    Sortiert ein Array von E-Mails nach der Eigenschaft &quot;sender.name&quot;
 
-## [!UICONTROL arrayDifference [array1, array2, mode]]
+### [!UICONTROL reverse (Array)]
+
+Das erste Element des Arrays wird zum letzten Element, das zweite zum letzten usw.
+
+### [!UICONTROL flatten (Array)]
+
+Erstellt ein neues Array mit allen Unter-Array-Elementen, die bis zur angegebenen Tiefe rekursiv darin verkettet sind.
+
+### [!UICONTROL distinct (Array) [key])]
+
+Entfernt Duplikate in einem Array. Verwenden Sie die[!UICONTROL key]&quot;-Argument, um auf Eigenschaften in komplexen Objekten zuzugreifen. Verwenden Sie Punktnotation, um auf verschachtelte Eigenschaften zuzugreifen. Das erste Element in einem Array ist Index 1.
+
+>[!INFO]
+>
+>**Beispiel:** `distinct(Contacts[];name)`
+>
+>Entfernt Dubletten in einem Array von Kontakten durch Vergleich der Eigenschaft &quot;name&quot;
+
+### toCollection
+
+### toArray
+
+Diese Funktion konvertiert eine Sammlung in ein Array von Schlüssel-Wert-Paaren.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>Aufgrund der Kollektion
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>Die Funktion
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Gibt das Array von Schlüssel-Wert-Paaren aus
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
+
+### [!UICONTROL arrayDifference [array1, array2, mode]]
 
 Gibt die Differenz zwischen zwei Arrays zurück.
 
@@ -212,22 +255,8 @@ Geben Sie für die `mode` -Parameter.
   >
   >    Rückgabe `[1,2,6,7]`
 
-## toArray
+### deDuplicate
 
-Diese Funktion konvertiert eine Sammlung in ein Array von Schlüssel-Wert-Paaren.
+## Schlüsselwörter
 
->[!INFO]
->
->**Beispiele:**
->
->Aufgrund der Kollektion
->
->`{ key1: "value1", key2: "value2:}`
->
->Die Funktion
->
->`toArray({ key1: "value1", key2: "value2:})`
->
->Gibt das Array von Schlüssel-Wert-Paaren aus
->
->`[{ key1: "value1"}, { key2: "value2"}]`
+### emptyarray

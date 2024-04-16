@@ -7,9 +7,9 @@ description: Die folgenden Aufgaben erläutern, wie Sie eine [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,14 @@ Eine Übung, die Sie durch die Erstellung eines Integrationsszenarios mit von un
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,15 +43,15 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -63,11 +63,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Erstellen eines Szenarios beginnen
 
-1. Klicken **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
+1. Klicks **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
 
-1. Klicken **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
+1. Klicks **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
 1. Wenn Sie ein neues Szenario erstellen, klicken Sie im angezeigten Bildschirm (im Szenario-Editor) auf **[!UICONTROL Neues Szenario]** in der linken oberen Ecke ein und geben Sie einen Namen für das Szenario ein.
-1. Fahren Sie fort mit [Hinzufügen eines Moduls in einem Szenario](#add-a-module-in-a-scenario).
+1. Fahren Sie mit [Hinzufügen eines Moduls in einem Szenario](#add-a-module-in-a-scenario).
 
 ## Hinzufügen eines Moduls in einem Szenario
 
@@ -93,7 +93,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
    Die beiden häufigsten Modultypen sind Aktionen und Trigger. Weitere Informationen finden Sie unter [Modultypen](../../workfront-fusion/modules/module-types.md).
 
-1. Fahren Sie fort mit [Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
+1. Fahren Sie mit [Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
 
 ## Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion] {#connect-the-modules-app-or-web-service-to-workfront-fusion}
 
@@ -101,22 +101,22 @@ Workfront Fusion-Module, die eine Verbindung zu einer App herstellen (z. B. [!DN
 
 Wenn Sie in einem Szenario eine Verbindung für eine App auswählen oder erstellen, verwenden andere Module für diese App automatisch dieselbe Verbindung, es sei denn, Sie wählen beim Einrichten der späteren Module eine andere Verbindung aus.
 
-Weitere Informationen finden Sie unter [Über die Verbindung [!DNL Adobe Workfront Fusion] an eine App oder einen Dienst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Weitere Informationen finden Sie unter [Verbindungen - Übersicht](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
 So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
 
-1. Klicken **[!UICONTROL Hinzufügen]** , um **[!UICONTROL Verbindung erstellen]** ankreuzen.
+1. Klicks **[!UICONTROL Hinzufügen]** , um die **[!UICONTROL Verbindung erstellen]** ankreuzen.
 1. (Optional) Ändern Sie die Standardeinstellung **[!UICONTROL Verbindungsname]**.
-1. (Bedingt) Wenn für die App erweiterte Verbindungseinstellungen erforderlich sind, z. B. eine ID, einen Schlüssel oder [!UICONTROL secret]eingeben.
+1. (Bedingt) Wenn für die App erweiterte Verbindungseinstellungen erforderlich sind, z. B. eine ID, einen Schlüssel oder [!UICONTROL secret], geben Sie diese Informationen ein.
 
    Möglicherweise müssen Sie auf **[!UICONTROL Erweiterte Einstellungen anzeigen]** um die Felder anzuzeigen, in die Sie diese Art von Informationen eingeben können.
 
-1. Klicken **[!UICONTROL Weiter]**.
+1. Klicks **[!UICONTROL Weiter]**.
 1. Geben Sie im angezeigten Anmeldefenster Ihre Anmeldedaten ein, um sich bei der App anzumelden, falls noch nicht geschehen.
 1. (Bedingt) Wenn eine **[!UICONTROL Zulassen]** angezeigt wird, untersuchen Sie die Aktionen, die der Connector ausführen kann, und klicken Sie dann auf die Schaltfläche, um die App mit [!DNL Workfront Fusion].
-1. Fahren Sie fort mit [Modul konfigurieren](#configure-the-module).
+1. Fahren Sie mit [Modul konfigurieren](#configure-the-module).
 
 
 ## Modul konfigurieren
@@ -147,7 +147,7 @@ So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
 
    Weitere Informationen finden Sie unter [Kopieren von Modulen oder Szenarien in Adobe Workfront Fusion](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
-1. Fahren Sie fort mit [Konfigurieren und Arbeiten mit Ihrem Szenario](#configure-and-work-with-your-scenario).
+1. Fahren Sie mit [Konfigurieren und Arbeiten mit Ihrem Szenario](#configure-and-work-with-your-scenario).
 
 ## Konfigurieren und Arbeiten mit Ihrem Szenario
 
@@ -165,7 +165,7 @@ So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
       <td role="rowheader">Einrichten einer Route</td> 
       <td> <p>Klicken Sie auf das Schraubenschlüsselsymbol <img src="assets/wrench-icon.gif"> zwischen den beiden Modulen und verwenden Sie eine der folgenden Optionen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Filter einrichten]</strong>: Legen Sie fest, welche Bundles an bestimmten Punkten im Szenario verwendet werden.</li> 
+        <li><strong>[!UICONTROL Filter einrichten]</strong>: Steuern Sie, welche Bundles an bestimmten Punkten im Szenario verwendet werden.</li> 
         <li><strong>[!UICONTROL Unlink]</strong>: Entfernt eine Route.</li> 
         <li><strong>[!UICONTROL Router hinzufügen]</strong>: Fügt einen Router zwischen Modulen hinzu. </li> 
         <li><strong>[!UICONTROL Modul hinzufügen]</strong>: Fügt ein neues Modul zwischen Modulen hinzu.</li> 
@@ -177,7 +177,7 @@ So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
       <td>Klicken Sie auf das Symbol [!UICONTROL Szenario-Einstellungen]. <img src="assets/gear-icon-settings.png"> Diese Einstellungen richten sich in erster Linie an fortgeschrittene Benutzer. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Das Bedienfeld für die Szenario-Einstellungen in [!DNL Adobe Workfront Fusion]</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Flusssteuerungseinstellungen konfigurieren</td> 
+      <td role="rowheader">Einstellungen zur Flusssteuerung konfigurieren</td> 
       <td> <p>Klicken Sie auf das Symbol [!UICONTROL Flusssteuerung] . <img src="assets/flow-control-icon.gif"> Sie können eine Aufgabe so einrichten, dass eine bestimmte Anzahl von Malen wiederholt, ein Array in eine Reihe von Bundles konvertiert und mehrere Bundles zu einem Bundle zusammengeführt werden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flusssteuerung in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -199,7 +199,7 @@ So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen eines Protokolls der Ereignisse, die beim Ausführen des Szenarios auftreten</td> 
-      <td> <p>Klicken Sie auf den Pfeil [!UICONTROL Beenden bearbeiten] <img src="assets/exit-editing-arrow.png"> im Szenario-Editor, um die Detailseite des Szenarios anzuzeigen. Das Protokoll wird unten im Fenster oder in der rechten unteren Ecke angezeigt. Er enthält Informationen zu jeder Phase sowie zu Fehlern, die während der Ausführung des Szenarios aufgetreten sind.</p> <p>So kehren Sie zur Arbeit mit Ihrem Szenario im [!DNL scenario editor]klicken Sie auf eine beliebige Stelle auf der Detailseite "Szenario".</p> <p>Weitere Informationen zur Detailseite des Szenarios finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Details zum Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>Klicken Sie auf den Pfeil [!UICONTROL Beenden bearbeiten] <img src="assets/exit-editing-arrow.png"> im Szenario-Editor, um die Detailseite des Szenarios anzuzeigen. Das Protokoll wird unten im Fenster oder in der rechten unteren Ecke angezeigt. Er enthält Informationen zu jeder Phase sowie zu Fehlern, die während der Ausführung des Szenarios aufgetreten sind.</p> <p>So arbeiten Sie mit Ihrem Szenario im [!DNL scenario editor]klicken Sie auf eine beliebige Stelle auf der Detailseite "Szenario".</p> <p>Weitere Informationen zur Detailseite des Szenarios finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Details zum Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zugriff auf die am häufigsten verwendeten Apps und Dienste</td> 
@@ -226,7 +226,7 @@ So erstellen Sie eine Verbindung innerhalb einer [!DNL Workfront Fusion] -Modul:
 
 1. Um das Szenario zu testen, klicken Sie auf **[!UICONTROL Einmal ausführen]**.
 
-   Es ist wichtig zu überprüfen, ob das Szenario erwartungsgemäß ausgeführt wird, bevor Sie es aktivieren. Nach der Aktivierung wird das Szenario gemäß seinem Zeitplan ausgeführt. Wenn alles nicht wie erwartet ausgeführt wird, lesen Sie [Umgang mit Fehlern in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+   Es ist wichtig zu überprüfen, ob das Szenario erwartungsgemäß ausgeführt wird, bevor Sie es aktivieren. Nach der Aktivierung wird das Szenario gemäß seinem Zeitplan ausgeführt. Wenn alles nicht wie erwartet ausgeführt wird, lesen Sie [Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
 
 1. Wenn Sie die Bearbeitung des Szenarios (oder zu einem beliebigen Zeitpunkt während der Bearbeitung) abgeschlossen haben, klicken Sie auf die Schaltfläche [!UICONTROL Speichern] Symbol unten im Fenster ![](assets/save-icon.gif).
 
@@ -255,7 +255,7 @@ Sie können beim Erstellen oder Bearbeiten eines Szenarios die folgenden Tastatu
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Einmal ausführen]</td> 
-   <td>Strg+Umschalt+Eingabetaste</td> 
+   <td>Strg+Umschalt+Enter</td> 
    <td><span style="font-weight: normal;">Befehl+Umschalt+Eingabetaste</span> </td> 
   </tr> 
  </tbody> 

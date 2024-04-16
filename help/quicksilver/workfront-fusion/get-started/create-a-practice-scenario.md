@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenari
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenario mit Adobe Workfront Fusion erstellen. Integrationsszenarios verbinden separate Apps miteinander, sodass Ihre Daten durch verschiedene Anwendungen fließen können.
 
-Um ein Integrationsszenario zu erstellen, muss Ihr Unternehmen über eine [!DNL Workfront Fusion for Work Automation and Integration] Lizenz.
+Um ein Integrationsszenario zu erstellen, muss Ihr Unternehmen über eine [!DNL Workfront Fusion for Work Automation and Integration] -Lizenz.
 
 Anweisungen zum Erstellen eines reinen Workfront-Automatisierungsszenarios finden Sie unter [Erstellen eines Szenarios für die Automatisierung von Verfahren in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 
@@ -30,14 +30,14 @@ Weitere Informationen zu Workfront Fusion-Lizenzen finden Sie unter [Adobe Workf
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -45,19 +45,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Erstellen eines Praxisszenarios
 
-Die Rolle von [!DNL Adobe Workfront Fusion] ist es, Ihre Prozesse zu automatisieren, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
+Die Rolle [!DNL Adobe Workfront Fusion] ist es, Ihre Prozesse zu automatisieren, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
 
 Ein Szenario besteht aus einer Reihe von Modulen, die angeben, wie Daten in einer App umgewandelt oder zwischen Apps und Webdiensten übertragen werden sollen.
 
@@ -93,8 +93,8 @@ Das Erstellen eines Szenarios umfasst mehrere Hauptaufgaben:
 
    ![](assets/spreadsheet-headers-350x55.png)
 
-1. Melden Sie sich bei Ihrem [!DNL Workfront Fusion] -Konto.
-1. Klicken **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
+1. Anmelden bei [!DNL Workfront Fusion] -Konto.
+1. Klicks **[!UICONTROL Szenarien]** ![](assets/scenarios-icon.png) im linken Bereich.
 
    >[!NOTE]
    >
@@ -102,20 +102,20 @@ Das Erstellen eines Szenarios umfasst mehrere Hauptaufgaben:
 
    In grau [!UICONTROL Ordner] angezeigt werden, können Sie Ihre Szenarien in Ordnern organisieren.
 
-   Oben im Hauptbereich rechts können Sie **[!UICONTROL Alle]** Szenarien, die Sie erstellt haben, **[!UICONTROL Aktive Szenarien]** und **[!UICONTROL Inaktive Szenarien]** und **[!UICONTROL Konzepte]**, die Szenarien sind, in denen zuvor noch etwas mehr Arbeit erforderlich ist [!DNL Workfront Fusion] kann sie als aktiv oder inaktiv klassifizieren.
+   Oben im Hauptbereich rechts können Sie **[!UICONTROL Alle]** Szenarien, die Sie erstellt haben, **[!UICONTROL Aktive Szenarien]** und **[!UICONTROL Inaktive Szenarien]**, und **[!UICONTROL Konzepte]**, die Szenarien sind, in denen zuvor noch etwas mehr Arbeit erforderlich ist [!DNL Workfront Fusion] kann sie als aktiv oder inaktiv klassifizieren.
 
 <!--
    ![](assets/scenarios-left-panel-350x215.png)
 -->
 
-1. Im [!UICONTROL Ordner] auf **[!UICONTROL Ordner hinzufügen]** icon ![](assets/add-folder-icon.png)Geben Sie dann einen Namen wie &quot;Practice scenarios&quot;für Ihren ersten Ordner ein.
+1. Im [!UICONTROL Ordner] auf das **[!UICONTROL Ordner hinzufügen]** icon ![](assets/add-folder-icon.png)Geben Sie dann einen Namen wie &quot;Practice scenarios&quot;für Ihren ersten Ordner ein.
 
 1. Öffnen Sie den Ordner und klicken Sie auf **[!UICONTROL Neues Szenario erstellen]** in der oberen rechten Ecke der Seite.
 
    Die angezeigte Landingpage ermöglicht das Vorausfüllen aller Apps, die Sie in dem Szenario verwenden möchten, das Sie erstellen möchten.
 
 1. Suchen Sie für diese Übung nach und wählen Sie die **[!UICONTROL Google Tabellen]** App.
-1. Klicken **[!UICONTROL Weiter]** in der oberen rechten Ecke.
+1. Klicks **[!UICONTROL Weiter]** in der oberen rechten Ecke.
 
    Der Szenario-Editor wird mit einem leeren Modul in der Mitte angezeigt. [!DNL Google Sheets] App, die Sie vorgeladen haben, und einige Optionen in der Symbolleiste am unteren Rand.
 
@@ -142,7 +142,7 @@ Dieses Modul enthält die Daten, die das Szenario überwachen soll.
 
    ![](assets/pre-loaded-apps-350x139.png)
 
-1. Klicken **[!DNL Google Sheets]**.
+1. Klicks **[!DNL Google Sheets]**.
 
    Die Liste ändert sich, sodass alle [!DNL Google Sheets] -Module, die Sie als Trigger-Modul verwenden können.
 
@@ -153,13 +153,13 @@ Dieses Modul enthält die Daten, die das Szenario überwachen soll.
 1. Im **[!DNL Google Sheets]** Feld, unter **[!UICONTROL Verbindung]** klicken **[!UICONTROL Hinzufügen]** Geben Sie dann einen Namen für die Verbindung ein, z. B. &quot;Google-Konto von Olivia&quot;und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Authentifizieren Sie die Verbindung im angezeigten Fenster.
 
-   Der Prozess zum Authentifizieren einer Verbindung kann zwischen Apps etwas variieren. Möglicherweise müssen Sie sich bei der App anmelden. Normalerweise müssen Sie auf einen **[!UICONTROL Zulassen]** Schaltfläche. Wenn Sie Hilfe benötigen, lesen Sie [Über die Verbindung [!DNL Adobe Workfront Fusion] an eine App oder einen Dienst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Der Prozess zum Authentifizieren einer Verbindung kann zwischen Apps etwas variieren. Möglicherweise müssen Sie sich bei der App anmelden. Normalerweise müssen Sie auf einen **[!UICONTROL Zulassen]** Schaltfläche. Wenn Sie Hilfe benötigen, lesen Sie [Verbindungen - Übersicht](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Konfigurieren des ersten Moduls
 
-Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, können Sie eine [!DNL Google Sheets] Tabelle, auf die Sie Zugriff haben, und die Daten dort, die das erste Modul verarbeiten soll.
+Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, können Sie eine [!DNL Google Sheets] -Tabelle, auf die Sie Zugriff haben, und die Daten dort, die das erste Modul verarbeiten soll.
 
-1. Klicken Sie auf **[!UICONTROL Tabelle]** und wählen Sie dann die **[!UICONTROL Workfront Fusionspraktiken - Szenario] #1** in der Liste, die angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Tabellenblatt]** und wählen Sie dann die **[!UICONTROL Workfront Fusionspraktiken - Szenario] #1** in der Liste, die angezeigt wird.
 
    Diese Tabelle enthält 2 Tabellenblätter (Registerkarten). Daher müssen wir angeben, welches Blatt die gewünschten Daten enthält:
 
@@ -176,14 +176,14 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
    Auf diese Weise verarbeitet das Modul jedes Mal, wenn Sie das Szenario ausführen, nur eine Zeile im Arbeitsblatt. Dies ist nützlich, um Ihre Testläufe während der Erstellung des Szenarios zu vereinfachen.
 
-1. Klicken **[!UICONTROL OK]**.
+1. Klicks **[!UICONTROL OK]**.
 
    Die **[!UICONTROL Festlegen, wo der Start beginnen soll]** fordert Sie auf, anzugeben, wo im Arbeitsblatt das Modul mit der Verarbeitung beginnen soll.
 
-1. Klicken **[!UICONTROL Manuell auswählen]**, wählen Sie die obere Option in der angezeigten Liste aus und klicken Sie auf **[!UICONTROL OK]**.
+1. Klicks **[!UICONTROL Manuell auswählen]**, wählen Sie die obere Option in der angezeigten Liste aus und klicken Sie auf **[!UICONTROL OK]**.
 1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie auf **[!UICONTROL Umbenennen]** Geben Sie dann einen Namen ein, den beschreibt, was das Modul tun soll (z. B. &quot;Projektliste ansehen&quot;), und klicken Sie dann auf **[!UICONTROL OK]**.
 
-   Der Name erscheint direkt unter dem Modul. darunter: [!DNL Workfront Fusion] enthält eine kurze Beschreibung der Art der Aktion, die vom Modul ausgeführt wird.
+   Der Name erscheint direkt unter dem Modul. Darunter: [!DNL Workfront Fusion] enthält eine kurze Beschreibung der Art der Aktion, die vom Modul ausgeführt wird.
 
    ![](assets/module-renamed-350x388.png)
 
@@ -191,7 +191,7 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
 ## Zweites Modul hinzufügen und konfigurieren
 
-1. Klicken Sie auf den Teilkreis rechts neben dem des Moduls, um **[!UICONTROL Hinzufügen eines weiteren Moduls]**.
+1. Klicken Sie auf den partiellen Kreis rechts neben dem des Moduls, um **[!UICONTROL Hinzufügen eines weiteren Moduls]**.
 
    Dieses zweite Modul muss ein [!DNL Workfront] -Modul, aber wir haben die [!DNL Workfront] App.
 
@@ -202,7 +202,7 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
    Jetzt legen wir fest, was wir mit den Daten aus der Tabelle machen möchten.
 
-1. Klicken **[!UICONTROL Record Type]**, wählen Sie **[!UICONTROL Projekt]** weil wir ein Projekt in [!DNL Workfront] Verwendung einer Zeile aus der Tabelle.
+1. Klicks **[!UICONTROL Record Type]**, wählen Sie **[!UICONTROL Projekt]** weil wir ein Projekt in [!DNL Workfront] Verwendung einer Zeile aus dem Arbeitsblatt.
 
    >[!TIP]
    >
@@ -210,7 +210,7 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
    Das Feld wird erweitert und zeigt alle verfügbaren [!DNL Workfront] Projektfelder, in denen Sie die vom ersten Modul gefundenen Informationen ablegen können.
 
-   Wir werden die **[!UICONTROL Name]** -Feld: Wir möchten, dass dieses Modul jedes Projekt in [!DNL Workfront] mit dem Text im entsprechenden [!UICONTROL Google Tabellen] Zeile.
+   Wir werden die **[!UICONTROL Name]** -Feld: Dieses Modul soll jedes Projekt in [!DNL Workfront] mit dem Text im entsprechenden [!UICONTROL Google Tabellen] Zeile.
 
 1. Suchen und klicken Sie auf **[!UICONTROL Name]** -Feld.
 
@@ -218,7 +218,7 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
    >
    >Sie können **Befehl+F** ([!DNL Mac] OS) oder **Strg+F**([!DNL Windows] OS), um ein Feld schnell zu finden.
 
-   Dadurch wird die Liste der Variablen geöffnet, die Sie in der Variablen **[!UICONTROL Name]** -Feld, um den Namen für jedes in Workfront erstellte Projekt zu definieren.
+   Dadurch wird die Liste der Variablen geöffnet, die Sie im **[!UICONTROL Name]** -Feld, um den Namen für jedes in Workfront erstellte Projekt zu definieren.
 
    ![](assets/list-of-available-variables-350x261.png)
 
@@ -236,7 +236,7 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
 1. Suchen und klicken Sie auf **[!UICONTROL Geplantes Startdatum]** und klicken Sie auf das **[!UICONTROL Geplantes Anfangsdatum (E)]** , um Daten aus dieser Spalte in der Tabelle abzurufen.
 
-1. Klicken **[!UICONTROL OK]**.
+1. Klicks **[!UICONTROL OK]**.
 
    Jetzt haben Sie ein funktionierendes Szenario.
 
@@ -246,9 +246,9 @@ Nach der Verbindung [!DNL Workfront Fusion] auf [!DNL Google Sheets] -Konto, kö
 
 Bevor Sie Ihr Szenario aktivieren, müssen Sie es testen, indem Sie es mindestens einmal ausführen und die Ergebnisse anzeigen. Auf diese Weise können Sie erkennen, wie Daten durch das Szenario fließen und Fehler finden.
 
-Es wurde ausgewählt, dass 1 Zeile aus dem Arbeitsblatt verarbeitet werden soll, um ein Projekt in Workfront zu erstellen. Wenn Sie das Szenario ausführen, sollte dies geschehen.
+Es wurde ausgewählt, dass 1 Zeile aus der Tabelle verarbeitet werden soll, um ein Projekt in Workfront zu erstellen. Wenn Sie das Szenario ausführen, sollte dies geschehen.
 
-1. Klicken **[!UICONTROL Einmal ausführen]** in der linken unteren Ecke des Szenario-Editors.
+1. Klicks **[!UICONTROL Einmal ausführen]** in der linken unteren Ecke des Szenario-Editors.
 1. Nachdem das Szenario abgeschlossen ist, klicken Sie auf die Blase über dem [!DNL Google Sheets] -Modul.
 
    ![](assets/click-bubble.png)
@@ -280,23 +280,23 @@ Wir müssen das Szenario weiterhin konfigurieren, um Projekte für alle anderen 
 1. Klicken Sie auf **[!UICONTROL Zeilen ansehen]** -Modul, das Sie für Google Tabellen erstellt haben.
 1. Ändern Sie die **[!UICONTROL Limit]** auf 100.
 
-   Wenn Sie eine Zahl angeben, die höher ist als die Anzahl der Zeilen, von denen Sie wissen, dass sie sich im Arbeitsblatt befinden, wird sichergestellt, dass alle Zeilen im Szenario erfasst werden.
+   Wenn Sie eine Zahl festlegen, die höher ist als die Anzahl der Zeilen, von denen Sie wissen, dass sie sich im Arbeitsblatt befinden, wird sichergestellt, dass alle Zeilen im Szenario erfasst werden.
 
-1. Klicken Sie mit der rechten Maustaste auf die **[!UICONTROL Zeilen ansehen]** Modul, klicken Sie auf **[!UICONTROL Festlegen, wo der Start beginnen soll]** klicken **[!UICONTROL Alle]** Klicken Sie auf **[!UICONTROL OK]**.
+1. Rechtsklicken Sie auf die **[!UICONTROL Zeilen ansehen]** Modul, klicken Sie auf **[!UICONTROL Festlegen, wo der Start beginnen soll]** klicken **[!UICONTROL Alle]** Klicken Sie auf **[!UICONTROL OK]**.
 
-1. Klicken **[!UICONTROL Einmal ausführen]** und beobachten, was in den Ausführungsblasen geschieht.
+1. Klicks **[!UICONTROL Einmal ausführen]** und beobachten, was in den Ausführungsblasen geschieht.
 
    Die [!DNL Google] Blätter **[!UICONTROL Zeilen ansehen]** -Modul wird einmal ausgeführt, um alle Zeilen zu lesen. Dann die Workfront **[!UICONTROL Datensatz erstellen]** 20-mal ausgeführt, um ein Projekt für jede der 20 verbleibenden Zeilen im Arbeitsblatt zu erstellen.
 
 1. Klicken Sie auf den Ausführungsinspektor für die [!DNL Workfront] -Modul, um alle 20 Vorgänge anzuzeigen, und klicken Sie dann auf einen der Vorgänge, um die Informationen zum erstellten Projekt anzuzeigen.
-1. Klicken **[!UICONTROL Speichern]** ![](assets/save-icon.png) in der Nähe der unteren linken Ecke.
-1. Navigieren Sie zu [!DNL Workfront] , um die vom Szenario erstellten Projekte anzuzeigen.
+1. Klicks **[!UICONTROL Speichern]** ![](assets/save-icon.png) in der unteren linken Ecke.
+1. Navigieren Sie zu [!DNL Workfront] um die Projekte anzuzeigen, die das Szenario erstellt hat.
 
 >[!TIP]
 >
 >Wir empfehlen die optionale, aber nützliche Vorgehensweise, Hinweise zu jedem Modul hinzuzufügen.
 >
->1. Klicken Sie mit der rechten Maustaste auf die [!DNL Workfront] Modul, und klicken Sie dann auf **[!UICONTROL Notiz hinzufügen]**.
+>1. Rechtsklicken Sie auf die [!DNL Workfront] Modul, und klicken Sie dann auf **[!UICONTROL Notiz hinzufügen]**.
 >1. Geben Sie in die angezeigte Notiz eine Übersicht für das Modul ein.
 >
 >    Dies ist hilfreich, da Sie das Modul nicht ständig öffnen müssen, um zu sehen, was es tut. Sie können beispielsweise &quot;Erstellt ein Projekt mit dem Namen, dem geplanten Startdatum und der aus einer Tabelle zugeordneten Priorität&quot;eingeben.

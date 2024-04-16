@@ -8,10 +8,10 @@ description: In diesem Artikel werden häufig gestellte Fragen im Zusammenhang m
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 1%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -34,19 +34,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,7 +60,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ### Antwort
 
-Ein Szenario definiert eine Abfolge von Schritten, die von ausgeführt werden sollen [!DNL Adobe Workfront Fusion]. Für jedes Szenario geben Sie die Datenquelle an, wie die Daten verarbeitet werden sollen, welche Daten verwendet werden sollen und was ignoriert werden soll. [!DNL Workfront Fusion] ermöglicht die Erstellung komplexer Szenarien nach Bedarf; selbst die komplexesten Szenarien sind möglich.
+Ein Szenario definiert eine Abfolge von Schritten, die von ausgeführt werden sollen [!DNL Adobe Workfront Fusion]. Für jedes Szenario geben Sie die Datenquelle an, wie die Daten verarbeitet werden sollen, welche Daten verwendet werden sollen und was ignoriert werden soll. [!DNL Workfront Fusion] ermöglicht die Erstellung so komplexer Szenarien, wie Sie benötigen. Selbst die komplexesten Szenarien sind möglich.
 
 Weitere Informationen finden Sie unter [Erstellen Sie ein Szenario für die Praxisintegration in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -74,7 +74,7 @@ Sie können in einem Szenario beliebig viele Module verwenden. Sie können unabh
 
 ### Antwort
 
-Ja. Verwenden [!DNL Workfront Fusion], können Dateien empfangen, gespeichert, umgewandelt, konvertiert, verschlüsselt usw. werden. Außerdem [!DNL Workfront Fusion] bietet eine breite Palette integrierter Funktionen, mit denen Benutzer effektiv und kreativ mit den in den Dateien enthaltenen Daten arbeiten können.
+Ja. Verwenden [!DNL Workfront Fusion], können Dateien empfangen, gespeichert, umgewandelt, konvertiert, verschlüsselt usw. werden. Darüber hinaus [!DNL Workfront Fusion] bietet eine breite Palette integrierter Funktionen, mit denen Benutzer effektiv und kreativ mit den in den Dateien enthaltenen Daten arbeiten können.
 
 Weitere Informationen finden Sie unter [Über die Zuordnung von Dateien in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
@@ -82,7 +82,7 @@ Weitere Informationen finden Sie unter [Über die Zuordnung von Dateien in [!DNL
 
 ### Antwort
 
-Wenn Sie [!UICONTROL Email] Modul [!UICONTROL Anlagen abrufen], wird jeder Anhang einzeln über die restlichen Module im Szenario gesendet. Ähnliche Module sind auch in anderen Apps verfügbar, die mehrere Dateien gleichzeitig erhalten.
+Wenn Sie die [!UICONTROL Email] Modul [!UICONTROL Anlagen abrufen], wird jeder Anhang einzeln über die restlichen Module im Szenario gesendet. Ähnliche Module sind auch in anderen Apps verfügbar, die mehrere Dateien gleichzeitig erhalten.
 
 Weitere Informationen finden Sie unter [[!UICONTROL Email] Module](../../workfront-fusion/apps-and-their-modules/email-modules.md).
 
@@ -116,6 +116,6 @@ Die Datenübertragung bezieht sich auf die Datenmenge, die über Ihr Szenario ü
 
 ### Antwort
 
-Eine Verbindung ist die Verknüpfung zwischen [!DNL Workfront Fusion] und dem Drittanbieterdienst, den Sie verwenden möchten. Die Verbindung kann beim Bearbeiten eines Szenarios einfach erstellt werden. Um eine Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** in der Moduleinstellung und befolgen Sie die schrittweisen Anweisungen.
+Eine Verbindung ist die Verknüpfung zwischen [!DNL Workfront Fusion] und dem Drittanbieterdienst, den Sie verwenden möchten. Die Verbindung kann beim Bearbeiten eines Szenarios einfach erstellt werden. Um eine Verbindung hinzuzufügen, klicken Sie auf das **[!UICONTROL Hinzufügen]** in der Moduleinstellung und befolgen Sie die schrittweisen Anweisungen.
 
-Weitere Informationen finden Sie unter [Über die Verbindung [!DNL Adobe Workfront Fusion] an eine App oder einen Dienst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Weitere Informationen finden Sie unter [Verbindungen - Übersicht](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

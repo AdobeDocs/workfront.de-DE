@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, wie Sie mit Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Für dieses Beispiel verwenden wir kein Trigger-Modul. Stattdessen beginnt diese
    1. Anmelden [!DNL Workfront].
    1. Untersuchen Sie den Zugriff, der [!DNL Workfront Fusion] fordert an und klicken Sie dann auf **[!UICONTROL Zugriff erlauben]**.
 
-   Wenn Sie Hilfe benötigen, lesen Sie [Über die Verbindung [!DNL Adobe Workfront Fusion] an eine App oder einen Dienst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Wenn Sie Hilfe benötigen, lesen Sie [Verbindungen - Übersicht](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Konfigurieren des ersten Moduls
 

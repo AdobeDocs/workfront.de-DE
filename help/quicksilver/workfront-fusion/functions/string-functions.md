@@ -8,10 +8,10 @@ description: Die folgenden Zeichenfolgen-Funktionen sind im Zuordnungsbereich f�
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 3%
+source-wordcount: '696'
+ht-degree: 0%
 
 ---
 
@@ -19,40 +19,40 @@ ht-degree: 3%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>[!DNL Pro] oder höher</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td> 
+   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Oder</p> 
+   <p>Veraltet: Beliebig </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Oder</p> 
+   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
-   <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
-   <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -82,7 +82,7 @@ Wandelt Text in base64 um.
 >
 >`base64( workfront )`
 >
->Gibt Folgendes zurück: d29ya2Zyb250==
+>Gibt Folgendes zurück: d29ya2Zyb250===
 
 ## [!UICONTROL Großschreibung (Text)]
 
@@ -96,7 +96,7 @@ Konvertiert das erste Zeichen in einer Textzeichenfolge in Großbuchstaben.
 >
 >Gibt Folgendes zurück: [!DNL Workfront]
 
-## enthält (Text; Suchzeichenfolge)
+## contains (text, search string)
 
 Überprüft, ob Text die Suchzeichenfolge enthält.
 
@@ -121,7 +121,7 @@ Dekodiert Sonderzeichen in einer URL in Text.
 >**Beispiel:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Gibt Folgendes zurück: [!UICONTROL Workflow automatisieren]
+>Gibt Folgendes zurück: [!UICONTROL Automatisieren Ihres Workflows]
 
 ## [!UICONTROL encodeURL (text)]
 
@@ -185,7 +185,7 @@ Gibt die Länge der Textzeichenfolge (Anzahl der Zeichen) oder des Binärpuffers
 
 ## [!UICONTROL lower (text)]
 
-Konvertiert alle alphabetischen Zeichen in einer Textzeichenfolge in Kleinbuchstaben.
+Konvertiert alle Buchstaben eines Textzeichenders in Kleinbuchstaben.
 
 >[!INFO]
 >
@@ -207,7 +207,7 @@ Berechnet den md5-Hash einer Zeichenfolge.
 >
 >Gibt Folgendes zurück: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL replace (text;search string) Ersatzzeichenfolge)]
+## [!UICONTROL replace (text; Suchzeichenfolge; Ersatzzeichenfolge)]
 
 Ersetzt die Suchzeichenfolge durch die neue Zeichenfolge.
 
@@ -219,7 +219,7 @@ Ersetzt die Suchzeichenfolge durch die neue Zeichenfolge.
 >
 >Gibt Folgendes zurück: [!UICONTROL Hi World]
 
-Reguläre Ausdrücke (eingeschlossen in `/.../`) kann als Suchzeichenfolge mit einer Kombination von Flags verwendet werden (z. B. `g`, `i`, `m`) angehängt:
+Reguläre Ausdrücke (eingeschlossen in `/.../`) kann als Suchzeichenfolge mit einer Kombination von Flags (wie `g`, `i`, `m`) angehängt:
 
 >[!INFO]
 >
@@ -300,7 +300,7 @@ Bei Verwendung von[!UICONTROL binary]&quot; Schlüssel kodieren, muss ein Schlü
 >
 >`sha512(workfront)`
 >
->Gibt Folgendes zurück: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b 85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
+>Gibt Folgendes zurück: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd11119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text; separator)]
 
@@ -335,7 +335,7 @@ Entfernt alle HTML-Tags aus Text.
 >
 >Gibt Folgendes zurück: Hallo
 
-## [!UICONTROL substring (text; start;end)]
+## [!UICONTROL substring (text; start; end)]
 
 Gibt einen Teil einer Textzeichenfolge zwischen der Position &quot;Start&quot;und der Position &quot;Ende&quot;zurück.
 

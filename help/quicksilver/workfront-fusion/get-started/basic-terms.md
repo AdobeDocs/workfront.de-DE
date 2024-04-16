@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] Lizenz.
+>[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz.
 
 
 <table style="table-layout:auto">
@@ -28,7 +28,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Aktion</p> </td> 
-   <td>Ein Modul, mit dem Sie Bundles aus oder in eine ausgewählte App oder einen Dienst lesen oder schreiben können.</td> 
+   <td>Ein Modul, mit dem Sie Bundles aus oder in eine ausgewählte App oder einen ausgewählten Dienst lesen oder schreiben können.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Aggregator]</p> </td> 
@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">API-Schlüssel</td> 
-   <td>Ein eindeutiger Code, der den Benutzer, Entwickler oder das Programm identifiziert, der bzw. das die API einer Software aufruft und zur Authentifizierung verwendet wird. Seit [!DNL Adobe Workfront Fusion] -Module funktionieren, indem sie APIs verbinden. Manchmal sind API-Schlüssel erforderlich. API-Schlüssel werden von der App verteilt, die sie benötigt. Wenn Sie beispielsweise einen API-Schlüssel für [!DNL ActiveCampaign], würde dies über [!DNL ActiveCampaign] -Konto.</td> 
+   <td>Ein eindeutiger Code, der den Benutzer, Entwickler oder das Programm identifiziert, der bzw. das die API einer Software aufruft und zur Authentifizierung verwendet wird. Seit [!DNL Adobe Workfront Fusion] -Module funktionieren, indem sie APIs verbinden. Manchmal sind API-Schlüssel erforderlich. API-Schlüssel werden von der App verteilt, die sie benötigt. Wenn Sie beispielsweise einen API-Schlüssel für [!DNL ActiveCampaign], würde dies über Ihre [!DNL ActiveCampaign] -Konto.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">App oder Dienst</td> 
@@ -47,16 +47,16 @@ ht-degree: 0%
    <td>Eine App, die eine Verbindung zu einem anderen System herstellt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Bundle</p> </td> 
+   <td role="rowheader"> <p>Paket</p> </td> 
    <td> <p>Ein Bundle ist eine Grundeinheit, die von Modulen zurückgegeben oder empfangen wird. Ein Bundle besteht aus Elementen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Wenn Sie eine App oder einen Dienst zu einem Szenario hinzufügen, müssen Sie höchstwahrscheinlich zuerst eine Verbindung zwischen [!DNL Workfront Fusion] und die App oder den Dienst, um die ausgewählten Daten abzurufen oder zu senden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Über die Verbindung [!DNL Adobe Workfront Fusion] an eine App oder einen Dienst</a>.</p> </td> 
+   <td> <p>Wenn Sie eine App oder einen Dienst zu einem Szenario hinzufügen, müssen Sie höchstwahrscheinlich zuerst eine Verbindung zwischen [!DNL Workfront Fusion] und die App oder den Dienst, um die ausgewählten Daten abzurufen oder zu senden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Verbindungen - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Zyklus</p> </td> 
-   <td> <p>Ein Zyklus bezieht sich auf zwei Phasen des Szenario-Laufs: Operation und Commit. Das Szenario kann aus einem oder mehreren Zyklen bestehen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Ausführung des Szenarios, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Ein Zyklus bezieht sich auf zwei Phasen des Szenario-Laufs: Vorgang und Versand. Das Szenario kann aus einem oder mehreren Zyklen bestehen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Ausführung des Szenarios, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Datenspeicher</p> </td> 
