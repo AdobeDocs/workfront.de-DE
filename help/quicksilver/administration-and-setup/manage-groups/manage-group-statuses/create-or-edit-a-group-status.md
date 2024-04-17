@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ Wenn Sie Gruppenadministrator (oder Workfront-Administrator) sind, können Sie e
    Der Status ist abgeblendet und nicht mehr für alle Benutzer dieser Gruppe sichtbar.
 
 1. Wiederholen Sie die Schritte 3 bis 5, um den benutzerdefinierten Status für alle anderen Gruppen auszublenden, die ihn nicht benötigen.
+

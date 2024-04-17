@@ -5,13 +5,13 @@ keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Verwalten einer Gruppe
 description: Als Gruppenadministrator können Sie eine Gruppe, die Sie verwalten, im Bereich Gruppen unter Einrichtung verwalten. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als Gruppenadministrator können Sie eine Gruppe, die Sie verwalten, im Bereich 
 
 >[!NOTE]
 >
->Wenn Sie als Administrator für eine Gruppe zugewiesen sind, erben Sie die Rolle des Gruppenadministrators für alle Untergruppen, die darunter liegen. Die einzigen Benutzer, die eine Untergruppe verwalten können, sind Gruppenadministratoren für die oberste Gruppe darüber sowie Gruppenadministratoren, die der Untergruppe zugewiesen sind.
+>Wenn Sie als Administrator für eine Gruppe zugewiesen sind, erben Sie die Rolle des Gruppenadministrators für alle Untergruppen, die darunter liegen. Die einzigen Benutzer, die eine Untergruppe verwalten können, sind die Gruppenadministratoren für die oberste Gruppe darüber sowie alle Gruppenadministratoren, die der Untergruppe zugewiesen sind.
 
 ## Zugriffsanforderungen
 
@@ -38,7 +38,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -69,27 +69,11 @@ Anweisungen finden Sie unter [Details einer Gruppe anzeigen und verwalten](../..
 
 ## Bearbeiten, Kopieren oder Löschen einer Gruppe
 
-Ohne die Hauptseite einer Gruppe zu verlassen, die Sie anzeigen, können Sie schnell bearbeiten, kopieren oder löschen
-
-<!--
-DRAFTED IN FLARE:
-or deactivate
-
--->
-
-die Gruppe.
-
-<!--
-DRAFTED IN FLARE:
-Make this change when they add the </span>
-<b>Is active</b>
- option to the Details page!</span>
-
--->
+Ohne die Hauptseite einer Gruppe zu verlassen, die Sie anzeigen, können Sie die Gruppe schnell bearbeiten, kopieren oder löschen.
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Gruppen**.
+1. Klicks **Gruppen**.
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
@@ -119,7 +103,7 @@ Wenn ein Workfront-Administrator die Möglichkeit freischaltet, Ereignisbenachri
 
 ## Erstellen und Anpassen von Status für eine Gruppe
 
-Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe der obersten Ebene erstellen. Dies gibt Ihrer Gruppe Autonomie und hilft, Dutzende von unternehmensweiten benutzerdefinierten Status zu eliminieren. (Ein Workfront-Administrator kann dies auch für jede Gruppe tun.)
+Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe der obersten Ebene erstellen. Dies gibt Ihrer Gruppe Autonomie und hilft, Dutzende unternehmensweiter benutzerdefinierter Status zu eliminieren. (Ein Workfront-Administrator kann dies auch für jede Gruppe tun.)
 
 Sie können auch den Systemstatus für eine Gruppe der obersten Ebene anpassen, wenn ein Workfront-Administrator sie so konfiguriert hat, dass sie angepasst werden können.
 
