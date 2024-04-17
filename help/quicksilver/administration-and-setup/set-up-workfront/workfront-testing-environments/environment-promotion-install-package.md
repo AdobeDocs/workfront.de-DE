@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,27 @@ ht-degree: 0%
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
 1. Auswählen **System** Wählen Sie im linken Navigationsbereich die Option **Umgebungsförderung**.
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
-1. Um das Paket zu installieren, klicken Sie auf **Installieren** oben rechts auf dem Bildschirm.
-1. Ordnen Sie jedes Objekt im Paket dem entsprechenden Objekt in der Zielumgebung zu.
+1. Wählen Sie für jedes Objekt mit einer Kollision aus, wie die Kollision gelöst werden soll.
 
-   Weitere Informationen finden Sie unter [Zuordnung](#mapping) in diesem Artikel
+   Klicken Sie zum Beheben einer Kollision auf den Dropdown-Pfeil neben dem Objekttyp und wählen Sie die gewünschte Aktion aus.
 
+   Weitere Informationen finden Sie unter [Kollisionen](#collisions) in diesem Artikel
+1. Um das Paket in der neuen Umgebung bereitzustellen, klicken Sie auf **Bereitstellen** oben rechts auf dem Bildschirm.
 
-## Zuordnung
+## Kollisionen
 
-Jeder Objekttyp wird im linken Navigationsbereich und auf einer Karte angezeigt. Die Karte zeigt Objekte dieses Typs an und ob diese Objekte in der Zielumgebung vorhanden sind. Sie können bestimmen, wie diese Objekte in die Zielumgebung verschoben werden.
+Kollisionen treten auf, wenn ein Objekt, das Teil des Installationspakets ist, bereits in der Zielumgebung vorhanden ist. In diesem Fall können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
 
-* Neu erstellen: Erstellen Sie ein neues Objekt in der Zielumgebung. Wenn das Objekt in der Zielumgebung vorhanden ist, können Sie ein neues Objekt mit einem neuen Namen erstellen. Wenn es nicht in der Zielumgebung vorhanden ist, können Sie das Objekt mit einem neuen Namen oder mit dem Namen erstellen, den das Objekt im Paket hat.
-* Vorhandenes verwenden: Das Objekt im Paket wird nicht installiert und das bereits in der Zielumgebung vorhandene Objekt bleibt unverändert.
-* Vorhandene überschreiben: (Derzeit nicht verfügbar) Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
-* Nicht verwenden: Das Objekt im Paket wird nicht in der Zielumgebung installiert. Wenn Sie Nicht verwenden auswählen, wird eine Fehlermeldung angezeigt, in der beschrieben wird, wie sich diese Auswahl auf andere Objekte oder Felder auswirkt.
+Sie können Kollisionen anzeigen, indem Sie auf das Dropdown-Menü neben jedem Objekttyp klicken. Kollisionen werden in der Spalte Kollision angezeigt.
+
+Um eine Kollision zu beheben, wählen Sie eine Aktion in der Spalte Aktion für Freigabe aus oder verwenden Sie die bereits angezeigte Standardaktion.
+
+* **Erstellen mit neuem Namen**: Erstellen Sie ein neues Objekt in der Zielumgebung. Wenn das Objekt in der Zielumgebung vorhanden ist, können Sie ein neues Objekt mit einem neuen Namen erstellen. Wenn es nicht in der Zielumgebung vorhanden ist, können Sie das Objekt mit einem neuen Namen oder mit dem Namen erstellen, den das Objekt im Paket hat.
+* **Vorhandene verwenden**: Das Objekt im Paket wird nicht installiert und das Objekt, das bereits in der Zielumgebung vorhanden war, bleibt unverändert.
+* **Überschreiben**: Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
+<!--
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+-->
 
 Die Standardwerte sind `Create new` , wenn das Objekt nicht in der Zielumgebung vorhanden ist, und `Use existing` , wenn das Objekt in der Zielumgebung vorhanden ist. Sie können zur Standardzuordnung zurückkehren, indem Sie auf **Auf Standardzuordnung zurücksetzen**.
 
