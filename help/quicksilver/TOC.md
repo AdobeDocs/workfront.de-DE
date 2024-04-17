@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 3 des Q3 2024 {#release-24-q3}
          * [3. Quartal 2024 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Verbesserungen am 3. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das 3. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Version 2024, Q2 {#release-24-q2}
          * [Übersicht über die Version 2024 in Q2](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 1%
       * [Überprüfen der Dokumentenspeicherbeschränkungen](documents/managing-documents/check-document-storage.md)
       * [Dokumente löschen](documents/managing-documents/delete-documents.md)
       * [Bilder aus der Zwischenablage einfügen](documents/managing-documents/paste-image-clipboard.md)
+      * [AddBuilder in Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Dokumente organisieren {#organize-documents}
       * [Dokumente organisieren](documents/organizing-documents/organize-documents.md)
       * [Erstellen von Dokumentordnern](documents/organizing-documents/create-documents-folder.md)
