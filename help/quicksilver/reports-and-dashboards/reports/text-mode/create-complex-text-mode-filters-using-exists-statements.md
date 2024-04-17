@@ -6,7 +6,7 @@ description: Mithilfe von EXISTS-Anweisungen können Sie komplexe Textmodusfilte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -163,7 +163,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
 
    Ein Beispiel für die Verwendung der oben identifizierten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel beschrieben.
 
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
 ## Erstellen komplexer Textmodusfilter für fehlende Objekte
 
@@ -209,7 +209,7 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
 
    Ein Beispiel für die Berichterstellung über benutzerdefinierte Felder, die nicht mit benutzerdefiniertem Forms verknüpft sind, finden Sie unter [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in diesem Artikel beschrieben.
 
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
 ## Beispiele für Textmodusfilter, die mehrere Ebenen in der Objekthierarchie umfassen
 
@@ -229,7 +229,9 @@ So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
 
@@ -249,7 +251,7 @@ So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist projectID und das Verknüpfungsfeld ist ID.
 
 1. Ersetzen Sie den Wert des Zielfelds (ownerID) in der letzten Anweisung durch eine Benutzer-ID aus Ihrer Umgebung.
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
 ### Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -288,7 +290,7 @@ So filtern Sie nach benutzerdefinierten Feldern, die nicht mit einem benutzerdef
    >* Das Verknüpfungsfeld mit dem Target-Objekt ist parameterID, da parameterID sowohl in der Tabelle &quot;Verknüpfungsobjekt&quot;als auch in der Tabelle &quot;Zielobjekt&quot;vorhanden ist.
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist die ID (des Kategorieparameters).
 
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
 ### Beispiel 3: Nach fehlenden Objekten filtern: Benutzer, die die Zeit für einen bestimmten Zeitraum nicht protokolliert haben {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -321,7 +323,7 @@ So filtern Sie nach Benutzern, die die Zeit in der letzten Woche nicht protokoll
    >* VORHANDEN:A:entryDate -Anweisung bezieht sich auf Felder, die das Target-Objekt (Stunde) definieren und dieselbe Syntax wie in einer regulären Filteranweisung verwenden. Dadurch wird sichergestellt, dass Sie nur die Benutzer anzeigen, die die Zeit für einen bestimmten Zeitraum (in diesem Fall die vorherige Woche) nicht protokolliert haben.
    >* Der NOTEXISTS-Modifikator zeigt an, dass wir nach Elementen (Stunden) suchen, die für das Objekt des Berichts (Benutzer) nicht vorhanden sind.
 
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
 ### Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach dem Portfolio-Eigentümernamen und der Scorecard-ID der Portfolio-Ausrichtung {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -360,4 +362,4 @@ So filtern Sie Aufgaben nach dem Portfolio Owner Name und der Portfolio Alignmen
    >* Das auf dem Originalobjekt angezeigte Verknüpfungsfeld ist projectID.
    >* Ersetzen Sie die ownerID durch eine Benutzer-ID aus Ihrer Umgebung.
 
-1. Klicks **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.

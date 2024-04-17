@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Sie können den Feldtyp eines Formelfelds nicht mehr ändern, nachdem Sie es gespeichert haben.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die auf der Oberfläche für die Workfront-Planung angezeigt werden.
-* Die Verwendung von Suchfeldern aus verknüpften Datensatztypen in einer Formel ist zu einem späteren Zeitpunkt verfügbar.
 
 ## Unterstützte Formeln
 
