@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ Nach der Genehmigung sollten die veröffentlichten Anwendungserweiterungen autom
 
 ## Zusätzliche Hilfe
 
-Adobe verfügt über eine hervorragende Dokumentation zu den ersten Schritten zum Erstellen von Apps für AppBuilder und deren Bereitstellung. Hier sind einige hilfreiche Links:
+Adobe verfügt über eine hervorragende Dokumentation zu den ersten Schritten zum Erstellen von Apps für AppBuilder und deren Bereitstellung.
+
+Hier sind einige hilfreiche Links:
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
