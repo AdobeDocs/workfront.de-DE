@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Zu diesen Status gehören:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>UNASSEMBLED</td> 
+   <td><p>Dieser Status wird automatisch zugewiesen und stellt ein Paket dar, das gespeichert, aber noch nicht zusammengestellt wurde. </p><p>Dieser Status kann nicht direkt von einem Kunden festgelegt werden.</p></td> 
+  </tr> 
   <tr> 
    <td>ASSEMBLING</td> 
    <td><p>Dieser Status wird automatisch zugewiesen, während Objekte assembliert werden. </p><p>Das Assemblieren bezieht sich auf den automatisierten Prozess zum Identifizieren von Objekten und Unterobjekten, die in ein Package aufgenommen werden sollen, und zum Hinzufügen dieser Objekte und ihrer Daten zum Paket.</p><p>Dieser Status kann nicht direkt von einem Kunden festgelegt werden.</p></td> 

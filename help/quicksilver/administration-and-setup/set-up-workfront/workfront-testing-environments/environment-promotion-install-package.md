@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Kollisionen
 
-Kollisionen treten auf, wenn ein Objekt, das Teil des Installationspakets ist, bereits in der Zielumgebung vorhanden ist. In diesem Fall können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
+Kollisionen treten auf, wenn ein Objekt, das Teil des Installationspakets ist, denselben Namen wie ein Objekt hat, das bereits in der Zielumgebung vorhanden ist. In diesem Fall können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
 
 Sie können Kollisionen anzeigen, indem Sie auf das Dropdown-Menü neben jedem Objekttyp klicken. Kollisionen werden in der Spalte Kollision angezeigt.
 
@@ -47,23 +47,31 @@ Um eine Kollision zu beheben, wählen Sie eine Aktion in der Spalte Aktion für 
 * **Erstellen mit neuem Namen**: Erstellen Sie ein neues Objekt in der Zielumgebung. Wenn das Objekt in der Zielumgebung vorhanden ist, können Sie ein neues Objekt mit einem neuen Namen erstellen. Wenn es nicht in der Zielumgebung vorhanden ist, können Sie das Objekt mit einem neuen Namen oder mit dem Namen erstellen, den das Objekt im Paket hat.
 * **Vorhandene verwenden**: Das Objekt im Paket wird nicht installiert und das Objekt, das bereits in der Zielumgebung vorhanden war, bleibt unverändert.
 * **Überschreiben**: Das Objekt im Paket ersetzt das vorhandene Objekt in der Zielumgebung.
+
+  Sie können auch Objekte auswählen, die überschrieben werden sollen, selbst wenn keine Kollision erkannt wird.
+
+  Weitere Informationen dazu, wie Überschreibungen sich auf übergeordnete und untergeordnete Objekte auswirken, finden Sie unter
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 Die Standardwerte sind `Create new` , wenn das Objekt nicht in der Zielumgebung vorhanden ist, und `Use existing` , wenn das Objekt in der Zielumgebung vorhanden ist. Sie können zur Standardzuordnung zurückkehren, indem Sie auf **Auf Standardzuordnung zurücksetzen**.
 
+## Überschreiben von übergeordneten und untergeordneten Objekten
 
+Einige Objekte in Ihrem Promotion-Paket enthalten möglicherweise untergeordnete Objekte. Beispielsweise hat ein Projekt (übergeordnetes Projekt) Aufgaben (untergeordnete Elemente). Beim Überschreiben eines übergeordneten Objekts werden untergeordnete Objekte wie folgt behandelt:
 
-<!--
-## Collisions
+* Untergeordnete Objekte, die sowohl im Paket als auch in der Zielgruppe vorhanden sind, werden im Ziel aktualisiert und dem Paket entsprechend angepasst.
+* Untergeordnete Objekte, die im Paket, aber nicht im Ziel vorhanden sind, werden erstellt.
+* Untergeordnete Objekte, die im Ziel, aber nicht im Paket vorhanden sind, bleiben unverändert.
 
-A collision occurs when <!--???--.
+Diese Funktion wirkt sich auf die folgenden übergeordneten und untergeordneten Objekte aus:
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| Übergeordnetes Objekt | Untergeordnete Objekte |
+|---|---|
+| Projekt | Aufgabe<br>QueueDef (Queue Definition)<br>RoutingRule |
+| Vorlage | TemplateTask<br>QueueDef (Queue Definition)<br>RoutingRule |
+| Parameter (Feld für benutzerdefiniertes Formular) | ParameterOption (Option für benutzerdefinierte Formularfelder) |
+| CalendarInfo | CalendarSection |
+| QueueDef (Queue Definition) | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
