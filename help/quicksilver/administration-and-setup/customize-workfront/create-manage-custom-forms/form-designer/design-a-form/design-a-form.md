@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
+source-wordcount: '6042'
 ht-degree: 4%
 
 ---
@@ -529,9 +529,9 @@ Beispiele zur Verwendung des Felds Externe Suche zum Aufrufen derselben Instanz 
 
 >[!NOTE]
 >
->Die externe Suchfunktion ist für Dokument- oder Benutzerobjekte nicht verfügbar.
->
->Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt.
+>* Die externe Suchfunktion ist für Dokument- oder Benutzerobjekte nicht verfügbar.
+>* Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt. (Externe Suchfelder werden in Leinwanddashboards unterstützt.)
+>* Externe Suchfelder sind in Listen verfügbar, es sei denn, das Feld ist von einem anderen Feld abhängig.
 
 So fügen Sie eine externe Suche hinzu:
 
