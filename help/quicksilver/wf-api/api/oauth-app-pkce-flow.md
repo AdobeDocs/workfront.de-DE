@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Ein PKCE-Fluss umfasst die folgenden Schritte. Die Schritte in diesem Abschnitt 
 Bevor Sie die Autorisierung implementieren können, müssen Sie Ihre App in OAuth2 registrieren, indem Sie eine App-Integration aus Workfront erstellen.
 
 Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Sie können bis zu zehn OAuth2-Anwendungen gleichzeitig haben.
 
 
 ## Erstellen des Testschlüssels für den Code Exchange

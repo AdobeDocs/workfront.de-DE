@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Cli
 ## Erstellen einer OAuth2-Anwendung
 
 Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Sie können bis zu zehn OAuth2-Anwendungen gleichzeitig haben.
 
 ## Zertifikat mit öffentlichem Schlüssel erstellen
 
