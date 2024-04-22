@@ -6,9 +6,9 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Wenn Sie die WIP-Beschränkung für eine Spalte verwenden, wird kein separater Z
 1. Klicks **[!UICONTROL Konfigurieren ausblenden]** zum Schließen der [!UICONTROL Konfigurieren] Bedienfeld.
 
 ## Spalteneinstellungen und Richtlinien definieren
+
+Zu den Spaltenrichtlinien gehören die automatische Aktualisierung von Feldwerten und das Festlegen einer Grenze für laufende Arbeit.
+
+Die Richtlinie zum Aktualisieren des Status funktioniert sowohl für die Karte als auch für die Spalte automatisch:
+
+* Wenn eine Karte in eine Spalte mit einer Richtlinie verschoben wird, wird der Kartenstatus auf den in der Richtlinie definierten Status aktualisiert. Dies gilt sowohl für Ad-hoc-Karten als auch für verbundene Karten.
+* Wenn der Status einer Ad-hoc-Karte oder einer verbundenen Karte auf der Karte aktualisiert wird, um dem Spaltenstatus in der Richtlinie zu entsprechen, oder ein Status einer verbundenen Karte an anderer Stelle in Workfront aktualisiert wird, wird die Karte automatisch in diese Spalte verschoben. Wenn ein benutzerdefinierter Status auf einer Karte mit dem Systemstatus übereinstimmt, der der Spalte zugewiesen ist, wird die Karte in diese Spalte verschoben.
+
+Eine Karte verbleibt in einer Spalte, in der sie platziert wird, wenn der Kartenstatus mit keinem in bestehenden Spaltenrichtlinien festgelegten Status übereinstimmt.
 
 >[!NOTE]
 >
