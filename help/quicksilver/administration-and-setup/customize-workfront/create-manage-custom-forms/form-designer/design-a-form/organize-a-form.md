@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
        <li> <p>Benutzer ohne die hier angegebenen Berechtigungen können die benutzerdefinierten Felder und Widgets im Abschnitt nicht sehen. </p> <p>Dies gilt auch, wenn Sie die Feldwerte in Berichten anzeigen oder in berechneten Feldern in der Textmodusberichterstellung verwenden.</p> </li> 
        <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie sich mehrere Objekttypen auf die Berechtigung zum Umbruch von Abschnitten in einem benutzerdefinierten Formular auswirken können</a> in diesem Artikel.</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>Logik hinzufügen</p></td> 
+      <td><p>Verwenden Sie eine Anzeigelogik, um anzugeben, ob der Abschnitt basierend auf der Auswahl im Formular angezeigt werden soll, die Benutzer beim Ausfüllen des Formulars in benutzerdefinierten Feldern mit Mehrfachauswahl treffen.</p><p><strong>NOTE:</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigereihenfolge angewendet wird und sie alle aufgrund der Logik ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

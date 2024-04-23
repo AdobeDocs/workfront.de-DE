@@ -7,10 +7,10 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,10 @@ Probleme:
 * Primäre Reihenfolge: Projektname
 * Sekundäre Reihenfolge: Referenznummer
 
+>[!IMPORTANT]
+>
+>Es wird empfohlen, die Pinnwand häufig zu aktualisieren, wenn mehrere Benutzer gleichzeitig auf der Pinnwand arbeiten. Das Aktualisieren der Seite hilft dabei, die visuellen Änderungen auf der Pinnwand auf dem neuesten Stand zu halten, und verhindert, dass Probleme wie doppelte Karten aus der Annahmespalte auf die Pinnwand verschoben werden.
+
 Weitere Informationen zu Spalten finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Informationen zu verbundenen Karten finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
@@ -47,8 +51,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
