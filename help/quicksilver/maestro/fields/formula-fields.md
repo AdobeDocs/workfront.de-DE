@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie können benutzerdefinierte Felder in der Adobe Workfront-Planung erstellen, 
 
 Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern eines Datensatztyps und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
 
-Weitere Informationen finden Sie unter [Felder erstellen](../fields/create-fields.md).
+Weitere Informationen finden Sie im Abschnitt &quot;Formel&quot;im Artikel [Felder erstellen](../fields/create-fields.md).
 
 ## Zugriffsanforderungen
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,11 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 ## Erstellen eines Arbeitsbereichs
 
+Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, um Ihre Objekte in der Workfront-Planung zu organisieren. Weitere Informationen zum Bearbeiten eines Arbeitsbereichs finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
 
 1. (Bedingt) Wenn Ihre Umgebung keine Arbeitsbereiche enthält, klicken Sie auf **Arbeitsbereich erstellen**
 
@@ -115,7 +119,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
+
 1. (Optional und bedingt) Klicken Sie auf **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
    * Marketing-Management
@@ -136,14 +140,10 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    Eine für die folgenden Arten von Arbeitsbereichen wird erstellt:
 
-   * Ein leerer Arbeitsbereich, in dem Sie beim Erstellen eines neuen Arbeitsbereichs mit dem manuellen Hinzufügen von Datensatztypen beginnen können.
-   * Ein Arbeitsbereich mit Beispieldatensatztypen, die Sie bei Verwendung einer der Vorlagen weiter anpassen können.
+   * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Arbeitsbereich** wo Sie beim Erstellen eines neuen Arbeitsbereichs manuell mit dem Hinzufügen von Datensatztypen beginnen können.
+   * Ein Arbeitsbereich mit dem Namen nach der ausgewählten Vorlage, der mit Beispieldatensatztypen gefüllt ist. Sie können die Datensatztypen und den Arbeitsbereich weiter anpassen.
 
-1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste
-
-   Oder
-
-   Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Umbenennen**.
+1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste.
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der **Operative Datensatztypen** oder **Taxonomien** Abschnitte
 
@@ -153,25 +153,14 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    >[!TIP]
    >
-   >Sie können jeden Abschnitt aus einem beliebigen Arbeitsbereich umbenennen, selbst wenn Sie den Abschnitt erstellt haben.
+   >Sie können jeden Abschnitt aus einem beliebigen Arbeitsbereich umbenennen, auch wenn Sie den Abschnitt nicht erstellt haben.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Speicherort eines Abschnitts zu ändern:
-
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Grab** icon ![](assets/grab-icon.png)und ziehen Sie sie per Drag-and-Drop an die richtige Stelle.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
-
-1. (Optional) Um einen neuen Abschnitt hinzuzufügen, führen Sie einen der folgenden Schritte aus:
-
-   * Klicks **Abschnitt hinzufügen** unten im Arbeitsbereich.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Abschnitt oben hinzufügen** oder **Abschnitt unten hinzufügen**.
+   Weitere Informationen zum Bearbeiten von Arbeitsbereichen, einschließlich Arbeitsbereichsabschnitten, finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich in einem beliebigen Abschnitt Datensatztypen hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
-1. (Optional) Gehen Sie wie folgt vor, um einen Abschnitt zu löschen:
+   Weitere Informationen zum Bearbeiten und Löschen von Datensatztypen in einem Arbeitsbereich finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Löschen**. <!--add screen shot when UI is final?-->
-   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen dorthin zu verschieben, und klicken Sie dann auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Alle Datensatztypen werden in den Auswahlabschnitt verschoben und der Abschnitt wird gelöscht.

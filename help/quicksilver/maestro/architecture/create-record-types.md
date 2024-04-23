@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 1%
 
 ---
 
@@ -147,15 +147,17 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Aktualisieren Sie die folgenden Informationen:
 
-   * **Name des Datensatztyps**: Ersetzen Sie &quot;Unbenannter operationeller Datensatztyp&quot;durch den Namen Ihres künftigen Datensatztyps.
-   * **Erscheinungsbild**: Definieren Sie die Farbe und Form des Symbols, das dem Datensatztyp zugeordnet ist. Gehen Sie wie folgt vor:
+   * Ersetzen Sie &quot;Unbenannter operationeller Datensatztyp&quot;durch den Namen Ihres künftigen Datensatztyps. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Beschreibung**: Fügen Sie weitere Informationen zum Datensatztyp hinzu.
+   * Wählen Sie eine Farbe und Form für das dem Datensatztyp zugeordnete Symbol aus. Gehen Sie wie folgt vor:
       * Wählen Sie eine Farbe aus, um Ihren neuen Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp. Graustufen ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. Klicken Sie außerhalb der **Datensatztyp hinzufügen** zum Speichern des Datensatztyps.
+1. Klicken Sie auf **Erstellen**.
 
    Die Karte vom Typ Datensatz wird dem ausgewählten Bereich und Arbeitsbereich hinzugefügt.
 Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezeigt.
+1. (Optional) Bewegen Sie den Mauszeiger über die Karte des Datensatztyps und klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu bearbeiten.
 1. (Optional) Klicken Sie auf die Karte vom Typ Datensatz , um die Seite vom Typ Datensatz zu öffnen.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
 
    Oder
 
-   Klicken Sie auf **Mehr** icon ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Umbenennen** , um ihn umzubenennen.
+   Klicken Sie auf **Mehr** icon ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten** , um ihn umzubenennen oder die Informationen darüber zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer Datensatz** , um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](../records/create-records.md).
 1. (Optional) Klicken Sie auf die **+** rechts oben in der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.

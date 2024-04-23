@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
 1. (Optional) Fügen Sie jedem Datensatz eine Miniaturansicht hinzu und klicken Sie auf **Felder** in der oberen rechten Ecke der Tabelle und wählen Sie dann den Umschalter für **Miniatur** -Feld, um es links neben dem primären Feld anzuzeigen. Die Auswahl ist standardmäßig aufgehoben.
 
-   Weitere Informationen finden Sie unter [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
 

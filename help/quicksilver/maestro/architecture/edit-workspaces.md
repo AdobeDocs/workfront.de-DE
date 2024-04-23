@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Team
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
 
 Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Alle Änderungen, die Sie an einem Arbeitsbereich vornehmen, sind für alle sichtbar, die mindestens über Anzeigeberechtigungen für den Arbeitsbereich verfügen.
 
 ## Zugriffsanforderungen
 
@@ -90,20 +92,52 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
 
-1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**
+1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**.
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.
 
-   Oder
+   ![](assets/edit-workspace-box.png)
 
-   Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Umbenennen**.
+   Aktualisieren Sie die folgenden Informationen in der **Arbeitsbereich bearbeiten** Feld:
+
+   * Fügen Sie einen Namen für den Arbeitsbereich hinzu. <!--did they add a label for this field?-->
+   * **Beschreibung**: Fügen Sie Informationen zum Arbeitsbereich hinzu.
+   * Wählen Sie ein Symbol aus, das mit dem Arbeitsbereich verknüpft werden soll.
+
+1. Klicks **Speichern** , um das Feld &quot;Arbeitsbereich bearbeiten&quot;zu schließen und Ihre Änderungen anzuwenden.
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen neuen Workspace-Abschnitt hinzuzufügen:
+
+   * Klicks **Abschnitt hinzufügen** unten im Arbeitsbereich.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Abschnitt oben hinzufügen** oder **Abschnitt unten hinzufügen**.
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Speicherort eines Abschnitts zu ändern:
+
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Grab** icon ![](assets/grab-icon.png)und ziehen Sie sie per Drag-and-Drop an die richtige Stelle.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
+
+1. (Optional) Gehen Sie wie folgt vor, um einen Arbeitsbereich zu löschen:
+
+   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Löschen**. <!--add screen shot when UI is final?-->
+   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen dorthin zu verschieben, und klicken Sie dann auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Alle Datensatztypen werden in den Auswahlabschnitt verschoben und der Abschnitt wird gelöscht.
 
 1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich Datensatztypen hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
-1. (Optional) Klicken Sie auf den Namen einer Ansicht in den Registerkarten &quot;Ansicht&quot;und bearbeiten Sie eine vorhandene Ansicht oder klicken Sie auf **+ Ansicht** , um eine Ansicht zu erstellen.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um das Erscheinungsbild eines Datensatztyps zu ändern.
+
+   Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Löschen** , um einen Datensatztyp zu löschen.
+
+   Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. (Optional) Klicken Sie auf den Namen einer Ansicht auf den Registerkarten Ansicht, um eine vorhandene Ansicht zu bearbeiten, oder klicken Sie auf **+ Ansicht** , um eine Ansicht zu erstellen.
 
    Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Optional) Klicken Sie auf **Freigeben** , um den Arbeitsbereich für andere freizugeben.
+1. (Optional) Klicken Sie auf **Freigeben** in der oberen rechten Ecke des Arbeitsbereichs, um den Arbeitsbereich für andere freizugeben.
 
    Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/maestro/access/share-workspaces.md).

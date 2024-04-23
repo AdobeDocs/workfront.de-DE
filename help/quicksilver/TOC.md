@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 52cc4748daaadb78318f9dfd10ab27e22a0cd753
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '14162'
+source-wordcount: '14171'
 ht-degree: 1%
 
 ---
@@ -2083,7 +2083,8 @@ ht-degree: 1%
       * [Datensätze freigeben](maestro/records/share-records.md)
       * [Verwalten von Datensatzkommentaren](maestro/records/manage-record-comments.md)
       * [Übersicht über den Verlaufsabschnitt](maestro/records/history-section-overview.md)
-      * [Miniaturansichten zu Datensätzen hinzufügen](maestro/records/add-thumbnails-to-records.md)
+      * [Hinzufügen einer Miniaturansicht zu einem Datensatz](maestro/records/add-thumbnails-to-records.md)
+      * [Hinzufügen eines Titelbilds zu einem Datensatz](maestro/records/add-a-cover-image-to-a-record.md)
       * [Datensatzseite verwalten](maestro/records/manage-the-record-page.md)
    * Adobe Maestro-Ansichten {#adobe-maestro-views}
       * [Ansichten: Artikelindex](maestro/views/views-information.md)

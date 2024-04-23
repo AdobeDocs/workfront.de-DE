@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,6 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md)
 * [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Übersicht über den Verlaufsabschnitt](/help/quicksilver/maestro/records/history-section-overview.md)
-* [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md)

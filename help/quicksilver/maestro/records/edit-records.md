@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, werden die neuen Informationen der von Ihnen bearbeiteten Datensätze in den verknüpften Datensätzen angezeigt.
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
+* Sie können jedem Datensatz ein Titelbild hinzufügen. Das Bild ist für jeden Datensatz eindeutig und gilt nicht für alle Datensätze derselben Zeit.
 * Sie können die Reihenfolge der Felder auf einer Datensatzseite bearbeiten und ein Titelbild für einen Datensatz hinzufügen. Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Datensätze bearbeiten
@@ -130,7 +131,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
    >  
@@ -209,7 +210,18 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
    >
    >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
-1. Beginnen Sie mit der Bearbeitung der Feldinformationen im Datensatzfeld. Workfront speichert Ihre Änderungen automatisch.
+1. Beginnen Sie mit der Bearbeitung der Feldinformationen im Datensatzfeld.
+
+   >[!TIP]
+   >
+   >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
+   >  
+   >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+   >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Letztes Änderungsdatum, Formelfelder.
+
+1. (Optional) Klicken Sie auf **Deckblatt hinzufügen** , um dem Datensatz ein Titelbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront speichert Ihre Änderungen automatisch.
 
 1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Datensatzseite bearbeiten](#edit-a-record-from-the-records-page) in diesem Artikel beschrieben.
 
@@ -227,7 +239,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Greifen Sie in jeder Ansicht auf das Feld des Datensatzes zu, wie im Abschnitt [Datensatz aus dem Datensatzfeld in einer Ansicht bearbeiten](#edit-a-record-from-the-records-box-in-a-view) in diesem Artikel beschrieben. Klicken Sie dann auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+   * Greifen Sie in jeder Ansicht auf das Feld des Datensatzes zu, wie im Abschnitt [Datensatz aus dem Datensatzfeld in einer Ansicht bearbeiten](#edit-a-record-from-the-records-box-in-a-view) in diesem Artikel und klicken Sie dann auf das **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    * Aus dem **Verzeichnis** Ansicht, bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
 
@@ -237,12 +249,16 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
      ![](assets/details-page.png)
 
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Bearbeiten**
+1. Klicken Sie auf ein beliebiges bearbeitbares Feld auf der Datensatzseite, um es zu bearbeiten.
 
-   Oder
+   >[!TIP]
+   >
+   >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
+   >  
+   >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md).
+   >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Letztes Änderungsdatum, Formelfelder.
 
-   Klicken Sie in ein editierbares Feld auf der Datensatzseite, um die Informationen zu bearbeiten.
+1. (Optional) Klicken Sie auf **Deckblatt hinzufügen** , um dem Datensatz ein Titelbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront speichert Ihre Änderungen automatisch.
 
-1. Klicks **Änderungen speichern**.

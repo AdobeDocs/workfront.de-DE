@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen bearbeiten möchten.
-1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Erscheinungsbild aktualisieren**.
+1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Bearbeiten**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. Im **Record Type aktualisieren** die folgenden Informationen aktualisieren:
+1. Im **Datensatztyp bearbeiten** die folgenden Informationen aktualisieren:
 
-   * **Name des Eintrags**: Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Erscheinungsbild**: Bearbeiten Sie die Farbe und Form des Symbols, das dem Datensatztyp zugeordnet ist. Gehen Sie wie folgt vor:
+   * Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--did they add a field label for this? -->
+   * **Beschreibung**: Bearbeiten oder fügen Sie eine Beschreibung für den Datensatztyp mit weiteren Informationen hinzu.
+   * Bearbeiten Sie die Farbe und Form des Symbols, das dem Datensatztyp zugeordnet ist. Gehen Sie wie folgt vor:
       * Wählen Sie eine Farbe aus, um den Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp. Graustufen ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
      ![](assets/update-record-type-box.png)
 
-1. Klicken Sie außerhalb der **Record Type aktualisieren** zum Speichern der Änderungen.
+1. Klicken Sie auf **Speichern**.
 1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte vom Typ Datensatz , um die Seite des Datensatztyps zu öffnen.
-1. Klicken Sie auf **Mehr** Menü rechts neben dem Namen des Datensatztyps und klicken Sie auf **Umbenennen** zum Umbenennen des Datensatztyps
+1. Klicken Sie auf **Mehr** Menü rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu aktualisieren.
 
-   Oder
+   >[!TIP]
+   >
+   >   Sie können den Datensatztyp in der Kopfzeile umbenennen.
 
-   Benennen Sie den Datensatztyp in der Kopfzeile um.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   Sie können auch einen Datensatztyp in der Kopfzeile der Seite des Datensatztyps umbenennen.
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem Datensatztypnamen und wählen Sie einen anderen zu bearbeitenden Datensatztyp aus.

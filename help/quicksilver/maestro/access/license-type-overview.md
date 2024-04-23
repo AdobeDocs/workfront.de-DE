@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berech
 
 Benutzer mit allen Lizenztypen können Workfront-Planungsansichten anzeigen, erstellen, bearbeiten oder verwalten.
 
-In diesem Artikel werden die in Workfront benötigten Lizenztypen und die in der Workfront-Planung Objekten gewährten Berechtigungen je nach Lizenztyp beschrieben.
+In diesem Artikel werden die in Workfront erforderlichen Lizenztypen und die Berechtigungen beschrieben, die Arbeitsbereichen in der Workfront-Planung je nach Lizenztyp gewährt werden.
 
-Benutzer mit einem Lizenztyp der unteren Ebene haben bei der Verwendung von Workfront-Planungsfunktionen nur Berechtigungen für Objekte.
+Ein Benutzer mit einem Lizenztyp der unteren Ebene hat bei der Verwendung von Workfront-Planungsfunktionen nur eingeschränkte Berechtigungen für Arbeitsbereiche.
 
 >[!INFO]
 >
@@ -40,11 +40,13 @@ Informationen zu Berechtigungen für Objekte in der Workfront-Planung finden Sie
 
 ## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsberechtigungen
 
-In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers in Adobe Workfront und der Höhe der Berechtigungen beschrieben, die Sie ihm für Adobe Workfront Planning-Objekte auf der Grundlage dieser Lizenz gewähren können:
+In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers in Adobe Workfront und der Höhe der Berechtigungen beschrieben, die Sie ihm für Adobe Workfront Planning-Objekte auf der Grundlage dieser Lizenz gewähren können.
+
+Wenn Sie einem Benutzer Berechtigungen für einen Arbeitsbereich erteilen, erhalten diese auch Berechtigungen zum Aufzeichnen von Typen, Datensätzen und Feldern.
 
 
 | Adobe Workfront-Lizenztyp | In der Adobe Workfront-Planung zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten. |
-| Neu: hell <br> oder <br>Aktuell: Arbeit | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen.  Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
-| Neu: Mitarbeiter <br> oder <br>Aktuell: Überprüfer oder Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |
+| Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten.<br> Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben. |
+| Neu: hell <br> oder <br>Aktuell: Arbeit | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen. <br> Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
+| Neu: Mitarbeiter <br> oder <br>Aktuell: Überprüfer oder Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. <br> Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |

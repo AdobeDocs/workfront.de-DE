@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Woche vom 22. April 2024
+
+### Aktualisierter Workflow beim Bearbeiten eines Arbeitsbereichs oder Datensatztyps
+
+Produktion: 23. April 2024
+
+Vorschau: zu bestimmen
+
+Das Erscheinungsbild der Felder &quot;Arbeitsbereich bearbeiten&quot;und &quot;Datensatz bearbeiten&quot;wurde aktualisiert.
+
+Beim Bearbeiten eines Arbeitsbereichs oder Datensatztyps können Sie jetzt einen Namen und eine Beschreibung definieren sowie eine Farbe und ein Symbol zuweisen.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Arbeitsbereiche bearbeiten](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Datensatztypen bearbeiten](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## Woche vom 8. April 2024
 
@@ -373,7 +391,7 @@ Vorschau: zu bestimmen
 
 Sie können jetzt jedem Datensatz einzelne Miniaturansichten hinzufügen, um sie in einer Ansicht zu unterscheiden. In der Tabellenansicht können Sie Bilddateien hinzufügen, die Sie zuvor auf Ihrem Computer als Miniaturansichten gespeichert haben. Die Miniaturansichten können für jeden Datensatz eindeutig sein und sowohl in der Tabelle als auch in der Timeline-Ansicht der Datensatztypseite angezeigt werden.
 
-Weitere Informationen finden Sie unter [Miniaturansichten zu Datensätzen hinzufügen](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Entfernen Sie verbundene Plattenkarten.
 
