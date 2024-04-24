@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Ein Benutzer mit einem Lizenztyp der unteren Ebene hat bei der Verwendung von Wo
 
 >[!INFO]
 >
->**BEISPIEL** Antragsteller (oder Mitwirkende, je nach dem neuen Lizenzmodell) können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
+>**BEISPIEL**
+>
+>Antragsteller (oder Mitwirkende, je nach dem neuen Lizenzmodell) können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
 >
 >Im Freigabefeld wird angegeben, dass Benutzern keine Berechtigungen zum Beitrag zu einem Arbeitsbereich oder zur Verwaltung von Arbeitsbereichen erteilt werden können, wenn sie über eine Lizenz der unteren Ebene verfügen.
 >
@@ -45,8 +47,10 @@ In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutze
 Wenn Sie einem Benutzer Berechtigungen für einen Arbeitsbereich erteilen, erhalten diese auch Berechtigungen zum Aufzeichnen von Typen, Datensätzen und Feldern.
 
 
-| Adobe Workfront-Lizenztyp | In der Adobe Workfront-Planung zulässige Berechtigungen |
+| Adobe Workfront-Lizenztyp* | In der Adobe Workfront-Planung zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten.<br> Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben. |
 | Neu: hell <br> oder <br>Aktuell: Arbeit | Benutzer können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und -datensätze aus diesem Arbeitsbereich beitragen und anzeigen. <br> Benutzer können Datensätze in den Arbeitsbereichen erstellen, bearbeiten und löschen, für die sie über Beitragsberechtigungen verfügen. |
 | Neu: Mitarbeiter <br> oder <br>Aktuell: Überprüfer oder Anforderer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. <br> Benutzer können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen. |
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

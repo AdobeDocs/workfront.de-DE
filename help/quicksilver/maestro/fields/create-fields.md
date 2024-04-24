@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ In Maestro können Sie Felder auf folgende Weise erstellen:
 
 * Neu
 * Durch Verbinden von Datensatztypen
-* Durch Importieren von Datensatztypen mit Excel- und CSV-Dateien
+* Durch Importieren von Datensatztypen mit einer Excel- oder CSV-Datei
 * Erstellen eines Datensatztyps
 * Erstellen eines Arbeitsbereichs aus einer Vorlage
 
-Weitere Informationen zu Maestro-Feldern finden Sie unter [Feldübersicht](../fields/fields-overview.md)
+Weitere Informationen zu Maestro-Feldern finden Sie unter [Feldübersicht](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -93,7 +93,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p>
 </td>
   </tr>
 <tr>
@@ -210,7 +210,7 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
 1. Klicks **Auswahl hinzufügen** um so viele Auswahlmöglichkeiten wie nötig hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
 1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die
    **Sortieren von Optionen A-Z** , wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klicken Sie auf **x** rechts von einer Auswahl, um sie zu entfernen.
+1. (Optional) Klicken Sie auf die Schaltfläche **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
 1. Klicken Sie auf **Erstellen**.
 
@@ -232,7 +232,7 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
 
 1. Klicks **Auswahl hinzufügen** um so viele Auswahlmöglichkeiten wie nötig hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Feld mit Einzelauswahl hinzufügen können.
 1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die **Sortieren von Optionen A-Z** , wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klicken Sie auf **x** rechts von einer Auswahl, um sie zu entfernen.
+1. (Optional) Klicken Sie auf die Schaltfläche **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
 1. Klicken Sie auf **Erstellen**.
 
@@ -373,7 +373,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    Weitere Informationen dazu, welche Ausdrücke unterstützt werden, finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Fügen Sie Feldnamen hinzu, wie sie in der Workfront-Planungs-Oberfläche angezeigt werden, um sie in einer Formel zu referenzieren.
+1. Fügen Sie Feldnamen hinzu, wie sie in der Workfront-Planung angezeigt werden, um sie in einer Formel zu referenzieren.
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 ### Personen
 
-Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--, job role, or team--> zu einem Datensatz. Es handelt sich um ein Feld vom Typ voraus, dem nur Benutzer hinzugefügt werden können.<!--, roles, or teams--> die bereits in Workfront vorhanden sind.
+Sie können den Feldtyp Personen verwenden, um einen Benutzer hinzuzufügen <!--, job role, or team--> zu einem Datensatz. Es handelt sich um ein Feld vom Typ voraus, dem nur Benutzer hinzugefügt werden können.<!--, roles, or teams--> die bereits in Ihrer Workfront-Instanz vorhanden sind.
 
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Personen** Feldtyp.
 
@@ -427,7 +427,7 @@ Sie können den Feldtyp Erstellt nach verwenden, um den Benutzer, der den Datens
 
 ### Erstellungsdatum
 
-Mit dem Feldtyp Erstellungsdatum können Sie das Datum der Erstellung eines Datensatzes zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem der Datensatz erstellt wurde.
+Sie können den Feldtyp Erstellungsdatum verwenden, um das Datum der Erstellung des Datensatzes zu einem Datensatz hinzuzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem der Datensatz erstellt wurde.
 
 1. Erstellen Sie ein Feld wie im Abschnitt beschrieben. [Felder von Grund auf neu erstellen](#create-fields-from-scratch) Wählen Sie in diesem Artikel die **Erstellungsdatum** Feldtyp.
 
@@ -514,7 +514,7 @@ Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung
 
 Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
 
-## Erstellen von Feldern durch Importieren von Datensatztypen mithilfe einer Excel- und CSV-Datei
+## Erstellen von Feldern durch Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei
 
 Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 

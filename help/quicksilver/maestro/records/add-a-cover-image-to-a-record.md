@@ -1,15 +1,17 @@
 ---
 title: Hinzufügen eines Titelbilds zu einem Datensatz
-description: Sie können Datensatzinformationen in der Adobe Workfront-Planung bearbeiten und jeden Datensatz mit einem Titelbild verknüpfen, um die Datensatzseite zu personalisieren.
+description: Sie können Datensätze personalisieren, indem Sie bei der Datensatzbearbeitung der Datensatzseite in der Adobe Workfront-Planung ein Titelbild hinzufügen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Sie können Datensatzinformationen in der Adobe Workfront-Planung bearbeiten und jeden Datensatz mit einem Titelbild verknüpfen, um die Datensatzseite zu personalisieren.
+Sie können Datensätze personalisieren, indem Sie bei der Datensatzbearbeitung der Datensatzseite in der Adobe Workfront-Planung ein Titelbild hinzufügen.
+
+Informationen zum Bearbeiten von Datensätzen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
 Sie müssen Datensatztypen erstellen, bevor Sie mit der Erstellung und Bearbeitung von Datensätzen beginnen können.
+
 Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
 ## Zugriffsanforderungen
@@ -81,14 +86,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zu Hintergrundbildern von Datensatzseiten
 
-Sie können die Seite eines Datensatzes personalisieren, indem Sie ihm ein Titelbild hinzufügen. Das Bild ist für jeden Datensatz eindeutig und gilt nicht für alle Datensätze desselben Typs.
+Sie können die Seite eines Datensatzes personalisieren, indem Sie ihm ein Titelbild hinzufügen.
 
 Beachten Sie Folgendes:
 
+* Ein Titelbild ist für einen Datensatz eindeutig und gilt nicht für alle Datensätze desselben Typs.
 * Sie können nur Bilddateien als Titelbilder hinzufügen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Sie können ein Titelbild zu einzelnen Datensätzen aus dem Datensatzfeld in jeder Ansicht oder aus der Datensatzseite hinzufügen.
-* Sie können in der Tabellenansicht keine Titelbilder inline hinzufügen.
+* Es ist nicht möglich, Titelbilder inline aus Datensatzansichten hinzuzufügen.
 
 ## Hinzufügen eines Titelbilds zu einem Datensatz
 
