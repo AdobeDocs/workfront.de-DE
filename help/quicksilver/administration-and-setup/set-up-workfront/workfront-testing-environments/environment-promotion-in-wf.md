@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ Sie können diesen Vorgang in Workfront durchführen, indem Sie ein Objekt-Packa
 
 ## Unterstützte Objekte für die Umgebungsförderung
 
-Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Die Möglichkeit zum Verschieben von Transaktionsobjekten wird nicht unterstützt (mit eingeschränkten Ausnahmen).
+Die Umgebungsförderungsfunktion soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Dies sind Objekte, die konfiguriert werden können, z. B. Projekte, Teams oder benutzerdefinierte Formulare.
+
+Die Umgebungsförderung unterstützt nicht die Möglichkeit, Transaktionsobjekte zu verschieben (mit eingeschränkten Ausnahmen). Transaktionsobjekte können nicht konfiguriert werden. Beispiele sind Aktualisierungen der Systemaktivität und Testversandentscheidungen.
 
 * [Arbeitsobjekte](#work-objects)
 * [Reporting-Objekte](#reporting-objects)
@@ -124,15 +126,15 @@ Zu diesen Status gehören:
  <tbody> 
   <tr> 
    <td>UNASSEMBLED</td> 
-   <td><p>Dieser Status wird automatisch zugewiesen und stellt ein Paket dar, das gespeichert, aber noch nicht zusammengestellt wurde. </p><p>Dieser Status kann nicht direkt von einem Kunden festgelegt werden.</p></td> 
+   <td><p>Dieser Status wird automatisch zugewiesen und stellt ein Paket dar, das gespeichert, aber noch nicht zusammengestellt wurde. </p><p>Dieser Status kann nicht direkt von einem Benutzer festgelegt werden.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING</td> 
-   <td><p>Dieser Status wird automatisch zugewiesen, während Objekte assembliert werden. </p><p>Das Assemblieren bezieht sich auf den automatisierten Prozess zum Identifizieren von Objekten und Unterobjekten, die in ein Package aufgenommen werden sollen, und zum Hinzufügen dieser Objekte und ihrer Daten zum Paket.</p><p>Dieser Status kann nicht direkt von einem Kunden festgelegt werden.</p></td> 
+   <td><p>Dieser Status wird automatisch zugewiesen, während Objekte assembliert werden. </p><p>Das Assemblieren bezieht sich auf den automatisierten Prozess zum Identifizieren von Objekten und Unterobjekten, die in ein Package aufgenommen werden sollen, und zum Hinzufügen dieser Objekte und ihrer Daten zum Paket.</p><p>Dieser Status kann nicht direkt von einem Benutzer festgelegt werden.</p></td> 
   </tr> 
   <tr> 
    <td>ENTWURF</td> 
-   <td><p>Dieser Status wird beim Abschluss eines Assemblyprozesses oder beim Erstellen eines leeren Promotion-Pakets zugewiesen.</p><p>Es ist möglich, dass ein Kunde das Promotion-Paket zurück in diesen Status verschiebt.</p><p>In diesem Status kann das Promotion-Paket in keiner Umgebung installiert werden.</p></td> 
+   <td><p>Dieser Status wird beim Abschluss eines Assemblyprozesses oder beim Erstellen eines leeren Promotion-Pakets zugewiesen.</p><p>Es ist möglich, dass ein Benutzer das Promotion-Paket zurück in diesen Status verschiebt.</p><p>In diesem Status kann das Promotion-Paket in keiner Umgebung installiert werden.</p></td> 
   </tr> 
   <tr> 
    <td>TESTEN</td> 
@@ -144,11 +146,11 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird die <code>retiredAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p><p>Die Verwendung dieses Status wird empfohlen, da die<code>DELETE /package</code> -Endpunkt, da er abgerufen werden kann und der Installationsverlauf für alle mit diesem Paket durchgeführten Bereitstellungen beibehalten wird.</p></td> 
+   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird die <code>retiredAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p><p>Die Verwendung dieses Status wird empfohlen, da die <code>DELETE /package</code> -Endpunkt, da er abgerufen werden kann und der Installationsverlauf für alle mit diesem Paket durchgeführten Bereitstellungen beibehalten wird.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Wenn die ASSEMBLING-Phase fehlschlägt, wird das Promotionpaket automatisch in diesen Status versetzt.</p><p>Um das Package in die Phase der ASSEMBLING zurückzusetzen, müssen Sie den Extraktionsvorgang erneut Trigger haben.</p></td> 
+   <td><p>Wenn die ASSEMBLING-Phase fehlschlägt, wird das Promotionpaket automatisch in diesen Status versetzt.</p><p>Um das Package in die Phase der ASSEMBLING zurückzusetzen, müssen Sie den Assembling-Prozess erneut Trigger haben.</p><p>Weitere Informationen zum Zusammenstellen eines Pakets finden Sie im Abschnitt . <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenführen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>
