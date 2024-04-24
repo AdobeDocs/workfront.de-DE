@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Benutzer ohne die hier angegebenen Berechtigungen können die benutzerdefinierten Felder und Widgets im Abschnitt nicht sehen. </p> <p>Dies gilt auch, wenn Sie die Feldwerte in Berichten anzeigen oder in berechneten Feldern in der Textmodusberichterstellung verwenden.</p> </li> 
+       <li><p>Für benutzerdefinierte Formulare mit Anforderung/Problem: Wenn Sie Zugriff auf die Felder in der Abschnittsumfrage anzeigen möchten, aber zum Bearbeiten der Felder Administratorzugriff erforderlich ist, sind der Abschnitt und alle zugehörigen Felder für Benutzer ohne Administratorrechte nicht sichtbar, wenn sie das Formular ausfüllen. Nachdem die Anforderung erstellt wurde, können Benutzer mit Zugriff auf die Ansicht die Felder im Abschnitt anzeigen.</p></li>
        <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie sich mehrere Objekttypen auf die Berechtigung zum Umbruch von Abschnitten in einem benutzerdefinierten Formular auswirken können</a> in diesem Artikel.</p> </li> 
         </ul> </p> </td> 
      </tr> 
