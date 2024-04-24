@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 0%
@@ -176,3 +176,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicks **Vorschau** in der oberen rechten Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+

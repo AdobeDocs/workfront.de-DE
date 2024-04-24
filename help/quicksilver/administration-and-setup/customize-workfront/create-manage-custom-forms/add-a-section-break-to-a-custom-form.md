@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 >Sie fügen den Objekttyp Portfolio zum Formular hinzu. Das bedeutet, dass die Option Eingeschränkte Bearbeitungsberechtigung für den Abschnittsumbruch im Formular nicht mehr verfügbar ist.
 >
 >Eine On-Screen-Meldung fordert Sie auf, zur Berechtigung Bearbeiten zu wechseln. Diese Option ist mit der eingeschränkten Bearbeitung am ehesten vergleichbar und sowohl mit dem Projektobjekttyp als auch mit dem Portfolio-Objekttyp kompatibel.
+
