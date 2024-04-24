@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront-Mainboards-Connector verwenden, um 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ Dieses Aktionsmodul erstellt eine neue Karte auf einer Workfront-Pinnwand.
   </tr> 
   <tr> 
    <td>[!UICONTROL Spalten-ID]</td> 
-   <td>Geben Sie die Kennung der Spalte ein, der Sie eine Unteraufgabe hinzufügen möchten, oder ordnen Sie sie zu.<p>Sie finden die Tag-ID in den Informationen, die vom Modul Pinnwand lesen zurückgegeben werden.</p></td> 
+   <td>Geben Sie die Kennung der Spalte ein, der Sie eine Unteraufgabe hinzufügen möchten, oder ordnen Sie sie zu.<p>Sie finden die Spaltenkennung in den Informationen, die vom Modul Pinnwand lesen zurückgegeben werden.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -292,7 +292,7 @@ Dieses Aktionsmodul verschiebt eine Karte in eine andere Spalte auf derselben Pi
   </tr> 
   <tr> 
    <td>[!UICONTROL Ziel-Spalte-ID]</td> 
-   <td>Geben Sie die Kennung der Spalte ein, in die Sie die Karte verschieben möchten, oder ordnen Sie sie zu.<p>Sie finden die Tag-ID in den Informationen, die vom Modul Pinnwand lesen zurückgegeben werden.</p></td> 
+   <td>Geben Sie die Kennung der Spalte ein, in die Sie die Karte verschieben möchten, oder ordnen Sie sie zu.<p>Sie finden die Spaltenkennung in den Informationen, die vom Modul Pinnwand lesen zurückgegeben werden.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To Index]</td> 
@@ -346,7 +346,7 @@ Dieses Aktionsmodul aktualisiert Informationen für eine von Ihnen angegebene Ka
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
-   <td>Geben Sie eine neue Beschreibung für die Karte ein oder ordnen Sie sie zu\.</p></td> 
+   <td>Geben Sie eine neue Beschreibung für die Karte ein oder ordnen Sie sie zu.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Dieses Aktionsmodul gibt Informationen zu einer einzelnen Pinnwand zurück, z. B
 
 ### Spalten
 
+* [Spalte erstellen](#create-a-column)
+* [Nach einer Spalte suchen](#search-for-a-column)
+* [Spalte aktualisieren](#update-a-column)
+
 #### Spalte erstellen
 
 Dieses Aktionsmodul erstellt eine neue Spalte auf der angegebenen Pinnwand.
@@ -417,8 +421,62 @@ Dieses Aktionsmodul erstellt eine neue Spalte auf der angegebenen Pinnwand.
    <td>Geben Sie die ID der Pinnwand ein oder ordnen Sie sie zu, der Sie eine Spalte hinzufügen möchten.<p>Sie können die Pinnwand-ID in der URL finden, wenn Sie die Pinnwand in Workfront anzeigen.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Spalten-ID]</td> 
+   <td>Geben Sie die Kennung der Spalte ein, die Sie aktualisieren möchten, oder ordnen Sie sie zu.<p>Sie finden die Spaltenkennung in den Informationen, die vom Modul Pinnwand lesen zurückgegeben werden.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Spaltenname]</td> 
-   <td>Geben Sie einen Namen für die neue Spalte ein oder ordnen Sie ihn zu.</td> 
+   <td>Geben Sie einen neuen Namen für die Spalte ein oder ordnen Sie ihn zu.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Geben Sie eine neue WIP-Begrenzung für die Spalte ein oder ordnen Sie sie zu.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Nach einer Spalte suchen
+
+Dieses Suchmodul gibt Informationen zur Spalte mit dem angegebenen Namen zurück.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Pinnwandkennung]</td> 
+   <td>Geben Sie die ID der Pinnwand ein oder ordnen Sie sie zu, die die Spalte enthält, die Sie abrufen möchten.<p>Sie können die Pinnwand-ID in der URL finden, wenn Sie die Pinnwand in Workfront anzeigen.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spaltenname]</td> 
+   <td>Geben Sie den Namen der Spalte ein oder ordnen Sie sie zu.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Spalte aktualisieren
+
+Dieses Aktionsmodul aktualisiert den Namen oder die WIP-Grenze der angegebenen Spalte.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Pinnwandkennung]</td> 
+   <td>Geben Sie die ID der Pinnwand ein oder ordnen Sie sie zu, die die Spalte enthält, die Sie abrufen möchten.<p>Sie können die Pinnwand-ID in der URL finden, wenn Sie die Pinnwand in Workfront anzeigen.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spaltenname]</td> 
+   <td>Geben Sie den Namen der Spalte ein oder ordnen Sie sie zu.</td> 
   </tr> 
  </tbody> 
 </table>
