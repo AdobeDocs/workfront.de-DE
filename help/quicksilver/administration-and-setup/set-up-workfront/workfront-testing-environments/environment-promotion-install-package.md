@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Um eine Kollision zu beheben, wählen Sie eine Aktion in der Spalte Aktion für 
 
   Sie können auch Objekte auswählen, die überschrieben werden sollen, selbst wenn keine Kollision erkannt wird.
 
-  Weitere Informationen dazu, wie Überschreibungen sich auf übergeordnete und untergeordnete Objekte auswirken, finden Sie unter
+  Weitere Informationen dazu, wie Überschreibungen sich auf übergeordnete und untergeordnete Objekte auswirken, finden Sie unter [Überschreiben von übergeordneten und untergeordneten Objekten](#overwriting-parent-and-child-objects) in diesem Artikel.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

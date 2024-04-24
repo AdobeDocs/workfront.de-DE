@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird die <code>retiredAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p><p>Die Verwendung dieses Status wird empfohlen, da die<code>DELETE /package</code> -Endpunkt, da er abgerufen werden kann und der Installationsverlauf für alle Implementierungen, die mit diesem Paket vorgenommen werden, beibehalten wird.</p></td> 
+   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird die <code>retiredAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p><p>Die Verwendung dieses Status wird empfohlen, da die<code>DELETE /package</code> -Endpunkt, da er abgerufen werden kann und der Installationsverlauf für alle mit diesem Paket durchgeführten Bereitstellungen beibehalten wird.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 

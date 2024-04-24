@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. Auswählen **System** Wählen Sie im linken Navigationsbereich die Option **Umgebungsförderung**.
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
 1. (Bedingt) Um archivierte (deaktivierte) Pakete anzuzeigen, aktivieren Sie die **Eingestellte Pakete anzeigen** -Option.
-1. Um den Inhalt einschließlich aller Objekte und ihrer Unterobjekte anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Objekttyp in der **Inhalt** Abschnitt.
-1. Um frühere Installationen und Installationsversuche für dieses Paket anzuzeigen, klicken Sie auf **Bereitstellungen**.
-1. Um das Paket zu bearbeiten, klicken Sie auf **Paket bearbeiten** oben rechts auf dem Bildschirm.
+1. (Optional) Um den Inhalt einschließlich aller Objekte und ihrer Unterobjekte anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Objekttyp in der **Inhalt** Abschnitt.
+1. (Optional) Um frühere Installationen und Installationsversuche für dieses Paket anzuzeigen, klicken Sie auf **Bereitstellungen**.
+1. (Optional) Klicken Sie zum Bearbeiten des Pakets auf **Paket bearbeiten** oben rechts auf dem Bildschirm.
 1. Um das Paket zu installieren, klicken Sie auf **Installieren** oben rechts auf dem Bildschirm.
 
    Anweisungen zum Installieren eines Pakets finden Sie unter [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-
