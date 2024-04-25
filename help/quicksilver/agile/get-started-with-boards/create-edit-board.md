@@ -6,10 +6,10 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,6 +81,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    1. (Optional) Klicken Sie auf [!UICONTROL **Erweiterte Filter verwenden**] , um weitere Filteroptionen anzuzeigen.
 
       Dies entspricht dem Erstellen eines Filters für eine Annahmespalte. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      Wenn Sie die Filter auf einer dynamischen Pinnwand aktualisieren, nachdem sie erstellt wurde, werden Karteneinstellungen zurückgesetzt, die nicht Teil der Workfront-Aufgabe oder des Problems sind (z. B. Tags).
 
    1. Klicken Sie nach dem Hinzufügen der Filter auf [!UICONTROL **Pinnwand erstellen**].
 

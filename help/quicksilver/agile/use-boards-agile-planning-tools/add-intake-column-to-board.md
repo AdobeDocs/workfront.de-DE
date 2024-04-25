@@ -7,10 +7,10 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufügen, die Aufg
 
 Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer als ganz links liegende Spalte.
 
-Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar.
+Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar. Sie können jedoch die Filter aktualisieren, die festlegen, welche Karten auf eine dynamische Pinnwand gebracht werden. Wenn Sie diese Filter auf einer dynamischen Pinnwand ändern, werden Karteneinstellungen zurückgesetzt, die nicht Teil der Workfront-Aufgabe oder des Problems sind (z. B. Tags).
 
 Die Ansauspalte ist auf 300 Aufgaben und 300 Probleme beschränkt. Die Standardreihenfolge der Elemente in der Ansaugluft-Spalte lautet wie folgt:
 
