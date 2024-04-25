@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Installieren eines Umgebungsförderungspakets
+
+Nachdem Sie ein Paket erstellt haben, können Sie es in einer anderen Umgebung installieren.
+
+## Voraussetzungen
+
+Sie müssen ein Paket erstellt haben, bevor Sie es installieren können.
+
+Anweisungen finden Sie unter [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -31,7 +39,7 @@ ht-degree: 0%
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
 1. Wählen Sie für jedes Objekt mit einer Kollision aus, wie die Kollision gelöst werden soll.
 
-   Klicken Sie zum Beheben einer Kollision auf den Dropdown-Pfeil neben dem Objekttyp und wählen Sie die gewünschte Aktion aus.
+   Um eine Kollision zu beheben, klicken Sie auf den Dropdown-Pfeil neben dem Objekttyp und wählen Sie die gewünschte Aktion aus.
 
    Weitere Informationen finden Sie unter [Kollisionen](#collisions) in diesem Artikel
 1. Um das Paket in der neuen Umgebung bereitzustellen, klicken Sie auf **Bereitstellen** oben rechts auf dem Bildschirm.
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 Kollisionen treten auf, wenn ein Objekt, das Teil des Installationspakets ist, denselben Namen wie ein Objekt hat, das bereits in der Zielumgebung vorhanden ist. In diesem Fall können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
 
-Sie können Kollisionen anzeigen, indem Sie auf das Dropdown-Menü neben jedem Objekttyp klicken. Kollisionen werden in der Spalte Kollision angezeigt.
+Sie können Kollisionen anzeigen, indem Sie auf die Dropdown-Liste neben jedem Objekttyp klicken. Kollisionen werden in der Spalte Kollision angezeigt.
 
 Um eine Kollision zu beheben, wählen Sie eine Aktion in der Spalte Aktion für Freigabe aus oder verwenden Sie die bereits angezeigte Standardaktion.
 

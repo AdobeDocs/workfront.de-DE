@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ ht-degree: 0%
 
    Die Seite Neues Promotion-Paket wird geöffnet.
 
-1. im **Paketname** ein, geben Sie einen Namen für das Paket ein.
+1. Im **Paketname** ein, geben Sie einen Namen für das Paket ein.
 1. Im **Beschreibung** Geben Sie eine Beschreibung für dieses Paket ein.
 1. Um dem Paket ein Objekt hinzuzufügen, klicken Sie auf **Objekte hinzufügen** Wählen Sie im linken Navigationsbereich den Objekttyp aus, den Sie hinzufügen möchten.
 1. Wählen Sie ein oder mehrere Objekte aus der Liste aus oder geben Sie den Namen in die Suchleiste ein und wählen Sie das Objekt aus, wenn es in der Liste angezeigt wird. Sie können mehrere Objekte in der Liste auswählen.
 1. Klicks **Hinzufügen (X Objekte)** , um die ausgewählten Objekte zum Paket hinzuzufügen.
 
-   Wenn Sie beispielsweise drei Projekte zum Hinzufügen zum Projekt ausgewählt haben, lautet die Schaltfläche **3 Projekte hinzufügen**.
+   >[!INFO]
+   >
+   >**Beispiel**
+   >
+   >Wenn Sie drei Projekte zum Hinzufügen zum Projekt ausgewählt haben, lautet die Schaltfläche **3 Projekte hinzufügen**.
 
    Die hinzugefügten Objekte werden im Bereich Paketinhalt rechts auf der Seite angezeigt.
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
 1. Auswählen **System** Wählen Sie im linken Navigationsbereich die Option **Umgebungsförderung**.
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
-1. (Bedingt) Um archivierte (deaktivierte) Pakete anzuzeigen, aktivieren Sie die **Eingestellte Pakete anzeigen** -Option.
+1. (Bedingt) Um deaktivierte Pakete anzuzeigen, aktivieren Sie die **Eingestellte Pakete anzeigen** -Option.
 1. (Optional) Um den Inhalt einschließlich aller Objekte und ihrer Unterobjekte anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Objekttyp in der **Inhalt** Abschnitt.
 1. (Optional) Um frühere Installationen und Installationsversuche für dieses Paket anzuzeigen, klicken Sie auf **Bereitstellungen**.
 1. (Optional) Klicken Sie zum Bearbeiten des Pakets auf **Paket bearbeiten** oben rechts auf dem Bildschirm.
