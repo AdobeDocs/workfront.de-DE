@@ -6,10 +6,10 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
 
   >[!NOTE]
   >
-  >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können.
+  >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im To-dos-Widget zu erstellen. Im Widget werden nur persönliche Aufgaben angezeigt, die vom aktuellen Benutzer eingegeben werden.
 
 Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische Widgets angezeigt. In den folgenden Tabellen wird beschrieben, welche Widgets die Benutzer der einzelnen Lizenztypen sehen, wenn sie zum ersten Mal zur neuen Startseite navigieren.
 

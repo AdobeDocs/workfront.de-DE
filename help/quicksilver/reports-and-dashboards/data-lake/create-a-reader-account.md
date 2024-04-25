@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Leserkontos (Dienstkontos) für Snowflake
 
-Um auf Workfront Data Lake-Daten zugreifen zu können, müssen Sie zunächst ein Leserkonto für Snowflake erstellen. Darüber hinaus müssen Sie der Zulassungsliste IPs für alle externen Tools hinzufügen, die Sie für die Verbindung mit den Daten planen.
+Um auf Workfront Data Lake-Daten zugreifen zu können, müssen Sie zunächst für jede neue Verbindung ein Snowflake-Reader- oder Service-Konto erstellen. Nachdem Sie eine Verbindung erstellt haben, können Sie die zugehörige URL und den zugehörigen Benutzernamen finden, indem Sie auf der **Datenzugriff** page (**Hauptmenü** > **Einrichtung** > **System** > **Datenzugriff**) unter der **Bestehende Verbindungen** Registerkarte.
+
+Informationen zur Verwendung einer neu erstellten Verbindung mit einem externen Produkt finden Sie unter [Herstellen einer Verbindung zum Workfront Data Lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Zugriffsanforderungen
 
@@ -68,28 +70,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Sie können jetzt Ihren Benutzernamen und Ihr neues Passwort verwenden, um auf Ihren Workfront Data Lake in Snowflake oder das Geschäftsvisualisierungs-Tool Ihrer Wahl zuzugreifen.
 
-## Hinzufügen von IPs zur Zulassungsliste
-
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung**.
-
-1. Klicken Sie im linken Bereich auf **System** > **Datenzugriff**.
-
-1. Klicken Sie auf **Zulässige IPs** und klicken Sie auf die **Hinzufügen einer IP-Adresse zu Ihrer Zulassungsliste** Schaltfläche.
-
-1. Geben Sie einen Namen für die IP-Adresse in **Beschreibung der IP-Adresse** und geben Sie die IP-Adresse für das Tool ein, das Sie in verwenden möchten **IP-Adresse** Klicken Sie auf **Hinzufügen von IP-Adresse zur Zulassungsliste**.
-
-   ![IP-Adresse hinzufügen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## Reader-Konto sperren oder eine IP-Adresse aus der Zulassungsliste entfernen
+## Leserkonto sperren
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung**.
 
 1. Klicken Sie im linken Bereich auf **System** > **Datenzugriff**.
 
 1. Klicken Sie auf das Papierkorbsymbol ![Löschsymbol](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts neben dem Konto, das Sie widerrufen möchten.
-
-   ODER
-
-   Klicken Sie auf **Zulässige IPs** Registerkarte und dann auf das Papierkorbsymbol ![Löschsymbol](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts neben der IP-Adresse, die Sie entfernen möchten.
 
 1. Markieren Sie im sich öffnenden Fenster das zu validierende Kästchen und klicken Sie auf **Löschen**.
