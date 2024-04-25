@@ -6,10 +6,10 @@ description: Aus dem [!UICONTROL Pinnwände] Dashboard können Sie eine neue Pin
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 1%
 
 ---
 
@@ -109,3 +109,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicks **[!UICONTROL Alle Pinnwände]** , um zum Dashboard der Pinnwände zurückzukehren.
 
    Sie können auch das mit dem Namen der aktuellen Pinnwand beschriftete Dropdown-Menü suchen und darauf klicken, um zu einer anderen Pinnwand zu wechseln.
+
