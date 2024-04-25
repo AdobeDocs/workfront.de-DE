@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-Lizenz*</td>
+ <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
- Oder
- <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
+ <p>Alle</td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
@@ -65,7 +63,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
  </tr>
  <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>
- <td> <p>Zugriff auf Ziele anzeigen oder höher</p> <p><b>NOTIZ</b><p>Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Weitere Informationen finden Sie unter <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Zugriff auf Adobe Workfront-Ziele gewähren</a></span></td>
+ <td> <p>Zugriff auf Ziele anzeigen oder höher</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objektberechtigungen</td>
@@ -76,10 +74,15 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 

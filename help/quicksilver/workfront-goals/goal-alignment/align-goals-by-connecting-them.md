@@ -6,15 +6,14 @@ description: Wenn Sie ein einzelner Mitarbeiter sind, der ein persönliches Ziel
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
 # Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten
-
 
 Wenn Sie ein einzelner Mitarbeiter sind, der ein persönliches Ziel verfolgt, können Sie es an die Ziele Ihres Teams anpassen, um den Fortschritt Ihres eigenen Ziels im größeren Kontext der Strategie Ihres Unternehmens effektiv darzustellen.
 
@@ -37,56 +36,54 @@ In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie 
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront-Plan*</td>
-   <td>
-   <p>Neuer Plan: Auswählen oder höher</p>
-   Oder
-   <p>Aktueller Plan: Pro oder höher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront-Lizenz*</td>
-   <td>
-   <p>Aktuelle Lizenz: Mitarbeiter oder höher</p>
-   Oder
-   <p>Ältere Lizenz: Anfrage oder höher</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Produkt*</td>
-   <td>
-   <p> Neue Produktanforderungen, eine der folgenden: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-Abo</td>
+ <td>
+ <p>Alle</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-Lizenz*</td>
+ <td>
+ <p>Aktuelle Lizenz: Mitarbeiter oder höher</p>
+ Oder
+ <p>Ältere Lizenz: Anfrage oder höher</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Neue Produktanforderungen, eine der folgenden: </p>
 <ul>
 <li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
-   <p>Oder</p>
-   <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Zugriffsebene</td>
-   <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Objektberechtigungen</td>
-   <td>
-    
-     <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-     <p>Berechtigungen für das Ziel verwalten</p>
-     <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
-     </td>
-  </tr>
+ <p>Oder</p>
+ <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Zugriffsebene</td>
+ <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Objektberechtigungen</td>
+ <td>
+
+<p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
+  <p>Berechtigungen für das Ziel verwalten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+   </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

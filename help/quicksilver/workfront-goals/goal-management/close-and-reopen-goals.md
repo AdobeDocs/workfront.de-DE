@@ -6,9 +6,9 @@ description: Sie können ein Ziel schließen, wenn Sie angeben möchten, dass Si
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -24,116 +24,72 @@ Sie können Ziele, die geschlossen wurden, wenn sie wieder relevant werden, erne
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P release: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 Sie müssen über Folgendes verfügen:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro oder höher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die Adobe Workfront Goals erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Ziele oder höher bearbeiten</p> <p><b>NOTIZ</b><p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Zugriff auf Adobe Workfront-Ziele gewähren</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> 
-    <div> 
-     <p>Berechtigungen für das Ziel verwalten</p> 
-     <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-Abo</td>
+ <td>
+ <p>Alle</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-Lizenz*</td>
+ <td>
+ <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ Oder
+ <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Neue Produktanforderungen, eine der folgenden: </p>
+<ul>
+<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
+ <p>Oder</p>
+ <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ </tr>
+ <td role="rowheader">Zugriffsebene</td>
+ <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektberechtigungen</td>
+ <td>
+  <div>
+  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
+  <p>Berechtigungen für das Ziel verwalten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
-
-## Voraussetzungen
-
-Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
-
-* Eine Layout-Vorlage, die den Bereich Ziele im Hauptmenü enthält.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Schließen oder erneuten Öffnen von Zielen
 
 * Sie müssen Zugriff auf die Option Ziele bearbeiten in Ihrer Zugriffsebene haben, bevor Sie Ziele schließen und erneut öffnen können. Informationen zur Gewährung des Zugriffs auf Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 * Sie können nur aktive Ziele schließen. Ziele, die sich im Status Entwurf befinden, können nicht geschlossen werden.
 
-   Weitere Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md).
+  Weitere Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md).
 
 * Das Schließen von Zielen hängt in seinem Fortschritt ab und ermöglicht es Ihnen, zu beurteilen, wie gut Sie es bei der Erreichung des Ziels gemacht haben.
 
-   >[!CAUTION]
-   >
-   >Beim Schließen eines Ziels mit aktiven Beitragszielen ändert sich der Fortschritt nach dem Schließen, um den Fortschritt der beitragenden aktiven Ziele anzuzeigen. Informationen zum Ausrichten von Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >[!CAUTION]
+  >
+  >Beim Schließen eines Ziels mit aktiven Beitragszielen ändert sich der Fortschritt nach dem Schließen, um den Fortschritt der beitragenden aktiven Ziele anzuzeigen. Informationen zum Ausrichten von Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 * Aktualisieren Sie die Fortschrittsanzeigen des Ziels, bevor Sie das Ziel schließen, um sicherzustellen, dass das Ziel mit einem genauen Fortschrittswert geschlossen wird. Wenn alle Fortschrittsindikatoren erreicht wurden, sollte der Zielprozentsatz vollständig erreicht werden und Ihr Ziel wurde erreicht. Informationen zum Aktualisieren Ihrer Ziele finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Lassen Sie alle endgültigen Kommentare als Update zu den Zielen, die Sie schließen. Informationen zum Hinzufügen von Kommentaren zu Zielen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -197,7 +153,7 @@ Closing goals differs depending on what environment you use.
    Die Zielseite wird geöffnet.
 
    ![](assets/goal-page-unshimmed.png)
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, und klicken Sie dann auf **Schließen**.
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, klicken Sie auf **Schließen**.
 
    Das Ziel wird geschlossen und Sie erhalten eine Bestätigung in der rechten oberen Ecke des Bildschirms.
 

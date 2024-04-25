@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Übersicht über den Zielfortschritt und die Bedingungen in Adobe Workfront-Zielen
+title: Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen
 description: Der Zielfortschritt wird von Fortschrittsindikatoren wie Aktivitäten, Ergebnissen oder Kinderzielen bestimmt. Die Zielbedingung wird durch den Fortschritt des Ziels zum aktuellen Zeitpunkt bestimmt.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '820'
+ht-degree: 0%
 
 ---
 
-# Übersicht über den Zielfortschritt und die Bedingungen in Adobe Workfront-Zielen
+# Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen
 
 <!--drafted for P&P release: the note at the top will need to be replaced with this:
 
@@ -81,23 +81,23 @@ Die folgenden Punkte werden als Fortschrittsindikatoren für Ziele betrachtet:
 
 * Ergebnisse
 
-   Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Aktivitäten
 
-   Informationen zum Hinzufügen von Aktivitäten, einschließlich Projekten, zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Informationen zum Hinzufügen von Aktivitäten, einschließlich Projekten, zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Angepasste Kinderziele
 
-   Weitere Informationen zu übergeordneten und untergeordneten Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Weitere Informationen zu übergeordneten und untergeordneten Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Workfront Goals berechnet den tatsächlichen prozentualen Abschluss anhand der folgenden Formel:
+  Workfront Goals berechnet den tatsächlichen prozentualen Abschluss anhand der folgenden Formel:
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Wenn beispielsweise ein Ziel ein &quot;Ergebnis, das 20 % abgeschlossen ist&quot;, eine manuelle Fortschrittsleiste, die zu 30 % abgeschlossen ist, ein Projekt, das zu 10 % abgeschlossen ist, und ein untergeordnetes Ziel, das zu 40 % abgeschlossen ist, beträgt der Zielprozentsatz &quot;complete&quot;25 %.
+  Wenn beispielsweise ein Ziel ein &quot;Ergebnis, das 20 % abgeschlossen ist&quot;, eine manuelle Fortschrittsleiste, die zu 30 % abgeschlossen ist, ein Projekt, das zu 10 % abgeschlossen ist, und ein untergeordnetes Ziel, das zu 40 % abgeschlossen ist, beträgt der Zielprozentsatz &quot;complete&quot;25 %.
 
 ### Erwartetes Prozent abgeschlossen {#expected-percent-complete}
 
@@ -117,19 +117,19 @@ Workfront Goals berechnet einen Prozentsatz an Fortschritten und weist Zielen ei
 
 Die Bedingung des Ziels wird ebenfalls entsprechend aktualisiert, um anzugeben, ob das Ziel rechtzeitig erreicht werden soll oder nicht.
 
-Workfront Goals berechnet den Fortschrittsprozentsatz eines Ziels anhand der folgenden Formel:
+Workfront Goals berechnet den Prozentsatz des Fortschritts eines Ziels anhand der folgenden Formel:
 
 ```
 Goal progress percentage = Actual percent complete * 100 / Expected percent complete
 ```
 
-Wenn beispielsweise der erwartete prozentuale Abschluss zur aktuellen Zeit 53 % beträgt und der tatsächliche Prozentsatz der Fertigstellung 30 % beträgt, beträgt der Prozentsatz des Zielfortschritts 56 %. Workfront verfolgt das Ziel, dieses Ziel mit der Bedingung &quot;In Schwierigkeiten&quot;zu kennzeichnen.
+Wenn beispielsweise der erwartete prozentuale Abschluss zur aktuellen Zeit 53 % beträgt und der tatsächliche Prozentsatz der Fertigstellung 30 % beträgt, beträgt der Prozentsatz des Zielfortschritts 56 %. Workfront will dieses Ziel mit der Bedingung &quot;In Schwierigkeiten&quot;kennzeichnen.
 
 Die folgende Tabelle zeigt die Beziehung zwischen den Bedingungsbeschriftungen und dem Fortschrittsprozentsatz:
 
 ![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
-In der folgenden Tabelle sind die Zielbedingungsbeschriftungen und die mit jeder Bezeichnung verknüpften Zielfortschrittsprozentsätze aufgeführt.
+In der folgenden Tabelle sind die Zielbedingungsbeschriftungen und die mit den einzelnen Bezeichnungen verknüpften Zielfortschrittsprozentsätze aufgeführt.
 
 >[!TIP]
 >
@@ -156,23 +156,23 @@ In der folgenden Tabelle sind die Zielbedingungsbeschriftungen und die mit jeder
    <td><img src="assets/new-goal-icon-condition.png" alt="new_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Im Zielbereich</span> </p> </td> 
+   <td> <p><span>In Target</span> </p> </td> 
    <td>Das Ziel erreicht die Erwartungen und es besteht eine große Wahrscheinlichkeit, dass es rechtzeitig abgeschlossen wird. </td> 
-   <td>90-100%</td> 
+   <td>90-100 %</td> 
    <td>Grün</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Gefährdet</span> </p> </td> 
+   <td> <p><span>Risiko</span> </p> </td> 
    <td>Das Ziel hinkt hinterher, aber es kann noch möglich sein, es rechtzeitig abzuschließen. </td> 
-   <td>70-89.99%</td> 
+   <td>70-89,99%</td> 
    <td>Gelb</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>In Schwierigkeiten</span> </p> </td> 
    <td> <p>Es ist sehr wahrscheinlich, dass das Ziel nicht rechtzeitig abgeschlossen wird. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0-69,99%</td> 
    <td>Rot</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_issues_icon_condition.png"></td> 
   </tr> 
