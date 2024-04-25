@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 4%
+source-wordcount: '1702'
+ht-degree: 5%
 
 ---
 
@@ -263,6 +263,7 @@ Benutzer mit dieser integrierten Zugriffsstufe:
 
 * Kann Anforderungen stellen und diese Anforderungen aktualisieren
 * Dokumente hochladen und genehmigen können
+* Kann Projekte, Aufgaben und Probleme genehmigen
 * Kann den Status der von ihnen eingereichten Probleme überprüfen
 * Arbeitselemente können zugewiesen werden, sie jedoch nicht abschließen
 * Kann nur über das Hauptmenü auf Anfragen zugreifen. Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
