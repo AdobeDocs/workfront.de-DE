@@ -6,9 +6,9 @@ description: Wenn Sie ein Projekt mit Workfront Fusion erstellen und Adobe Exper
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
+source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -54,14 +54,14 @@ Sie müssen über Folgendes verfügen:
   <b>Workfront Fusion</b>:<p>Neu:</p>
    <ul>
    <li>
-   <p>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</p>
+   <p>Workfront-Plan auswählen oder als Prime-Projekt festlegen: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
    </li>
    <li> 
-   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</p>
+   <p>Ultimate Workfront Plan: Workfront Fusion ist im Lieferumfang enthalten.</p>
    </li>
    </ul>
    <p>Oder</p>
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p>
+   <p>Aktuell: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
    </td>
   </tr>
   <tr>
