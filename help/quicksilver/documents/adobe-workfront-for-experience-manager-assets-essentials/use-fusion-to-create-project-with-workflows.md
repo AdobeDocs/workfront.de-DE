@@ -6,7 +6,7 @@ description: Wenn Sie ein Projekt mit Workfront Fusion erstellen und Adobe Exper
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Sie müssen über Folgendes verfügen:
    <p>Sie müssen über Schreibzugriff auf das Repository in Adobe Experience Manager verfügen.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>Neu:</p>
+   <b>Workfront Fusion</b>:<p>Neu:</p>
    <ul>
    <li>
    <p>Workfront-Plan auswählen oder als Prime-Projekt festlegen: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
@@ -68,8 +68,8 @@ Sie müssen über Folgendes verfügen:
    <td><strong>Konfigurationen auf Zugriffsebene*</strong>
    </td>
    <td>Zugriff auf Dokumente bearbeiten
-<p>
-<strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <strong>Benutzerdefinierte Zugriffsebenen erstellen oder ändern</strong>.
+   <p>
+   <strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <strong>Benutzerdefinierte Zugriffsebenen erstellen oder ändern</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Sie müssen in Workfront eine OAuth-Anwendung für die Verbindung dieses Moduls 
 Sie verwenden diese Client-ID und das Client-Geheimnis bei der Konfiguration der Verbindung des Moduls in Fusion.
 
 Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] nach [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
-
