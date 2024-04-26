@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Sie können benutzerdefinierte Felder in der Adobe Workfront-Planung erstellen, indem Sie auf vorhandene Felder verweisen und sie durch eine Formel verbinden. Erstellen Sie dazu ein benutzerdefiniertes Feld vom Typ Formel .
+Sie können benutzerdefinierte Felder in der Adobe Workfront-Planung erstellen, indem Sie auf vorhandene Felder verweisen und sie in einem Feld vom Typ Formel verbinden.
 
 Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern eines Datensatztyps und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
 
@@ -100,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zu Formelfeldern
 
 * Formularfelder verweisen auf Felder, die zum selben Datensatztyp gehören. Beim Erstellen eines Formelfelds können Sie keine Felder aus anderen Datensatztypen referenzieren. <!--is this still accurate??-->
-* Sie können den Feldtyp eines Formelfelds nicht mehr ändern, nachdem Sie es gespeichert haben.
+* Der Feldtyp eines Formelfelds kann nach dem Speichern nicht mehr geändert werden.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die auf der Oberfläche für die Workfront-Planung angezeigt werden.
 
@@ -154,7 +154,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für die Felder der W
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Gibt die Wochenzahl eines Jahres zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (1 für Sonntag oder 2 für Montag). Wenn diese Option deaktiviert ist, beginnen die Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn nicht angegeben, beginnen Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
 <code>WEEKOFYEAR(Datum,2)</code>
 oder
