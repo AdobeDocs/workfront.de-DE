@@ -6,9 +6,9 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets od
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Senden eines Dokuments an Experience Manager Assets oder Assets Essentials
 
 Sie können Dokumente von Workfront an Experience Manager Assets oder Assets Essentials senden. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden weiterhin mit Ihrem gesamten Dokumentenspeicher angerechnet. Von Assets Essentials verknüpfte Assets zählen nicht zum Gesamtspeicher.
+
+Assets, die über diese Integration an Experience Manager gesendet werden, haben eine Größenbeschränkung von **5 GB**.
 
 Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Alle Metadaten, die für die Zuordnung zu übergeordneten Objekten konfiguriert wurden, werden ebenfalls gesendet. Weitere Informationen zum Konfigurieren der Metadaten-Zuordnung finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -33,7 +35,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über veraltete Lizenzen</a>*</td> 
