@@ -6,7 +6,7 @@ description: Sie können einem Dokument, für das bereits ausstehende Genehmigun
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 1%
@@ -55,9 +55,11 @@ Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden In
 
 Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden in den Artikeln unter [Dokumente überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-Die Genehmigungen für neue Dokumente werden im aktuellen Reporting-Tool nicht unterstützt. Das Widget Alle Genehmigungen , das in den neuen Dashboards &quot;Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar ist, enthält die folgenden Details zu Genehmigungen für neue Dokumente:
-
-* Genehmigungen nach Entscheidung
-* Durchschnittliche Genehmigungszeit
-* Ausstehende Genehmigungen
-* Überfällige Genehmigungen
+>[!IMPORTANT]
+>
+>Die Genehmigungen für neue Dokumente werden im aktuellen Reporting-Tool nicht unterstützt. Das Widget Alle Genehmigungen , das in den neuen Dashboards &quot;Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar ist, enthält die folgenden Details zu Genehmigungen für neue Dokumente:
+>
+>* Genehmigungen nach Entscheidung
+>* Durchschnittliche Genehmigungszeit
+>* Ausstehende Genehmigungen
+>* Überfällige Genehmigungen
