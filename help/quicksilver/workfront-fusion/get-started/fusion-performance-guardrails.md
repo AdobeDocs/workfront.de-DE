@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Wokfront Fusion unterstützt nur Chrome-basierte Browser.
 ## Ausführungsverlauf
 
 * Die Protokolle im Ausführungsverlauf sind auf eine Größe von **100 MB**. Wenn der Ausführungsverlauf diese Größe überschreitet, werden nur die ersten 100 MB angezeigt.
+
+## Unvollständige Ausführungen
+
+Unvollständige Ausführungen sind auf die Gesamtgröße von **500 MB**. Bei Erreichen der Grenze von 500 MB werden keine unvollständigen Ausführungen mehr gespeichert.
 
 ## Weitere Zustellversuche
 
