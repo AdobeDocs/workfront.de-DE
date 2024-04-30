@@ -3,34 +3,39 @@ content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Überblick über die Adobe Workfront-Ziele - Abschnitte
-description: Sie können auf Zielgruppenlisten oder einzelne Ziele zugreifen und diese in verschiedenen Abschnitten von Adobe Workfront-Zielen verwalten. Welchen Abschnitt Sie verwenden, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
+description: Sie können auf Ziellisten oder einzelne Ziele zugreifen und diese in verschiedenen Abschnitten von Adobe Workfront-Zielen verwalten. Welchen Abschnitt Sie verwenden, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # Überblick über die Adobe Workfront-Ziele - Abschnitte
 
+Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
->[!NOTE]
->
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
->  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
->
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Für den neuen Plan und die Lizenzstruktur:
+
+   * Ein ultimativer Plan
+
+     Oder
+
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+
+* Für den aktuellen Plan und die Lizenzstruktur:
+
+   * A Pro oder höher
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
 Nachdem Ihnen Ihr Workfront-Administrator Zugriff auf Workfront-Ziele gewährt hat, können Sie Ziele anzeigen, die Sie oder andere Mitarbeiter Ihres Unternehmens, die im Bereich &quot;Workfront-Ziele&quot;erstellt wurden.
 
-Sie können auf Zielgruppenlisten oder einzelne Ziele zugreifen und diese in verschiedenen Abschnitten von Workfront-Zielen verwalten. Welchen Abschnitt Sie verwenden, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
+Sie können auf Ziellisten oder einzelne Ziele zugreifen und diese in verschiedenen Abschnitten von Workfront-Zielen verwalten. Welchen Abschnitt Sie verwenden, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
 
 Sie können Filter anwenden, um nur die Ziele anzuzeigen, die in den einzelnen Abschnitten für Sie wichtig sind.
 
@@ -38,9 +43,9 @@ Sie können Filter anwenden, um nur die Ziele anzuzeigen, die in den einzelnen A
 >
 >In einem Abschnitt aktualisierte Filter werden automatisch auf die Abschnitte Zielliste, Diagramme und Zielausrichtung angewendet. Auf diese Weise können Sie sie nur einmal aktualisieren. Weitere Informationen finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-Im Folgenden finden Sie einen kurzen Überblick über die Abschnitte zu Workfront-Zielen und die verfügbaren Optionen zum Verwalten von Zielen. Weitere Informationen zu zusätzlichen Aktionen, die Sie in den einzelnen Abschnitten der Workfront-Ziele ausführen können, finden Sie in den folgenden Artikeln:
+Im Folgenden finden Sie einen kurzen Überblick über die Bereiche der Workfront-Ziele und die verfügbaren Optionen zum Verwalten von Zielen. Weitere Informationen zu zusätzlichen Aktionen, die Sie in den einzelnen Abschnitten der Workfront-Ziele ausführen können, finden Sie in den folgenden Artikeln:
 
-* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
+* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
 * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
@@ -57,13 +62,13 @@ Verwenden Sie die Zielliste, um Folgendes auszuführen:
 
 * Zeigen Sie Ziele an, die zu Ihnen, Ihren Teams, Gruppen oder Ihrer Organisation gehören.
 * Überprüfen Sie Ziele und ihre Informationen (z. B. Name, Eigentümer, Fortschritt oder Bedingung).
-* Fügen Sie neue Ziele hinzu.
+* Neue Ziele hinzufügen.
 
-   Weitere Informationen finden Sie unter [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md).
+  Weitere Informationen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 * Zugreifen auf die Seite eines Ziels und Bearbeiten und Aktualisieren des Ziels, der Ergebnisse oder der Aktivitäten
 
-   Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](../../workfront-goals/goal-management/edit-goals.md).
+  Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](../../workfront-goals/goal-management/edit-goals.md).
 
 * Bearbeiten von Zielen.
 
@@ -78,7 +83,7 @@ Weitere Informationen zur Verwendung des Bereichs Diagramme finden Sie unter [Ü
 Verwenden Sie den Abschnitt Diagramme , um Folgendes zu tun:
 
 * Zeigen Sie die Leistung von Zielen an, die zu Ihnen, Ihren Teams, Gruppen oder Ihrer Organisation gehören.
-* Zeigen Sie die Anzahl der Ziele mit einem bestimmten Fortschrittsstatus an.
+* Anzeigen der Anzahl der Ziele mit einem bestimmten Fortschrittsstatus.
 * Erfahren Sie, wie Ihre Ziele wöchentlich funktionieren.
 
 ## Ziel-Ausrichtung
@@ -97,7 +102,7 @@ Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 Gehen Sie im Abschnitt Zielausrichtung wie folgt vor:
 
 * Anzeigen von Zielen, die zu Ihnen oder Ihrer Organisation gehören, im Kartenformat.
-* Zeigt die Zielhierarchie an und zeigt ausgerichtete untergeordnete Ziele an.
+* Die Zielhierarchie und ausgerichtete Unterziele anzuzeigen.
 * Rufen Sie die Zielseite auf und aktualisieren Sie das Ziel, die Ergebnisse oder Aktivitäten.
 
 <!--

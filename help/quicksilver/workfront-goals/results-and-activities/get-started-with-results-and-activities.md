@@ -7,50 +7,33 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder aufeinander ab
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
->[!NOTE]
->
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
->  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
->
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Für den neuen Plan und die Lizenzstruktur:
 
+   * Ein ultimativer Plan
 
-Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md).
+     Oder
+
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+
+* Für den aktuellen Plan und die Lizenzstruktur:
+
+   * A Pro oder höher
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+
+Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 Um den Fortschritt eines Ziels aufzuzeichnen, müssen Sie es aktivieren. Um Ihr Ziel zu aktivieren und seinen Status auf Aktiv zu ändern, müssen Sie ihm zunächst Folgendes hinzufügen:
 
@@ -85,7 +68,7 @@ Beachten Sie beim Arbeiten mit Ergebnissen Folgendes:
 * Sie beantworten die Frage: &quot;Woher weiß ich, wann mein Ziel abgeschlossen ist?&quot;
 * Sie sind Metrikindikatoren. Sie können aus den folgenden Optionen auswählen, um einen Fortschritt für Ihr Ergebnis anzugeben:
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 
@@ -158,63 +141,63 @@ Die folgende Tabelle zeigt Ähnlichkeiten und Unterschiede zwischen Ergebnissen,
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Sie können den Objektnamen in der Workfront-Benutzeroberfläche anpassen</span> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie können sie früheren Zielen hinzufügen.</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie können mehrere Ergebnisse, Aktivitäten oder Projekte mit demselben Ziel verknüpfen. </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie können einen von ihnen mit mehreren Zielen verknüpfen.</td> 
    <td> </td> 
    <td> </td> 
-   <td>✔</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Ihr Fortschritt wird bei der Berechnung des Zielfortschritts berücksichtigt. </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie müssen manuell in den Workfront-Zielen aktualisiert werden</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Sie müssen am Enddatum des Ziels abgeschlossen sein.</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Sie können nur einem Benutzer und nicht einem Team, einer Gruppe oder dem Unternehmen zugewiesen werden. </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie sind spezifisch und messbar und enthalten in der Regel festgelegte Zahlen, die ihren Fortschritt anzeigen. </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
   <tr> 
    <td>Sie bieten einen Wertebereich zwischen dem Start- und dem Endwert, der zeigt, wie nah Sie an der Erreichung dieser Werte sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>ms</td> 
+   <td>ms</td> 
+   <td>ms</td> 
   </tr> 
  </tbody> 
 </table>

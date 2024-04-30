@@ -8,9 +8,9 @@ description: Sie können Projekte mit Zielen verknüpfen, um basierend auf dem t
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,18 @@ Sie müssen über Folgendes verfügen:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront-Abo</td>
- <td>
- <p>Alle</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> 
+   <p>Für den neuen Plan und die Lizenzstruktur:
+  <ul><li>Ein ultimativer Plan </li>
+  Oder
+  <li>Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. </li></ul> </p>
+<p>Für den aktuellen Plan und die Lizenzstruktur: 
+<ul><li> A Pro oder höher </li>
+  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>

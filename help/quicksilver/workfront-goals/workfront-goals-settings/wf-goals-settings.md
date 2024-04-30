@@ -8,47 +8,33 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Einstellungen für Adobe Workfront-Ziele
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
-Your organization must have the following to use the functionality described in this article:
+* Für den neuen Plan und die Lizenzstruktur:
 
-* For the legacy plan and license structure: 
+   * Ein ultimativer Plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Oder
 
-* For the current plan and license structure:
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Für den aktuellen Plan und die Lizenzstruktur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro oder höher
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
->[!NOTE]
->
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
->  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
->
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

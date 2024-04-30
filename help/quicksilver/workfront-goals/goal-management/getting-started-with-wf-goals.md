@@ -5,47 +5,34 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: '1395'
+ht-degree: 1%
 
 ---
 
 # Erste Schritte mit Adobe Workfront-Zielen
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
-Your organization must have the following to use the functionality described in this article:
+* Für den neuen Plan und die Lizenzstruktur:
 
-* For the legacy plan and license structure: 
+   * Ein ultimativer Plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Oder
 
-* For the current plan and license structure:
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Für den aktuellen Plan und die Lizenzstruktur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro oder höher
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
 
->[!NOTE]
->
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Jede Organisation muss klare Ziele festlegen und kommunizieren, um ihre Teams produktiv, fokussiert und engagiert zu halten. Wirklich zu wissen, wie Arbeit an Strategie ausgerichtet ist, ist entscheidend für Erfolg. Doch ohne ein System der Akzeptanz, das Ihre Strategie und Ziele mit der Arbeit in der Organisation verbindet, kann es wirklich schwierig sein, die Ausrichtung zu erreichen.
 
@@ -61,11 +48,11 @@ Normalerweise ändern sich die Mission und Vision einer Organisation nicht regel
 
 Wir haben die folgenden Schritte zur Definition Ihrer Vision und Strategie für Ihre Organisation identifiziert:
 
-* [Endziel definieren und ausdrücken](#define-and-express-the-end-goal)
+* [Definieren und Ausdrücken des Endziels](#define-and-express-the-end-goal)
 * [Zusammenarbeit in Bezug auf Unternehmens- und Organisationsziele](#collaborate-around-enterprise-and-organizational-goals)
 * [Strategische Abstimmung von Gruppen und Teams](#align-groups-and-teams-to-strategy)
 
-### Endziel definieren und ausdrücken {#define-and-express-the-end-goal}
+### Definieren und Ausdrücken des Endziels {#define-and-express-the-end-goal}
 
 Erstellen Sie eine klare Erklärung, die die strategischen Säulen Ihrer Vision festlegt und die höchsten Ziele festlegt, an denen Ihre Teams und ihre Arbeit ausgerichtet sind.
 
@@ -85,25 +72,25 @@ Wir empfehlen Folgendes:
 
 Informationen zum Erstellen von Zielen und Hinzufügen von Ergebnissen finden Sie in den folgenden Artikeln:
 
-* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
+* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
 * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-### Zusammenarbeit in Bezug auf Unternehmens- und Organisationsziele {#collaborate-around-enterprise-and-organizational-goals}
+### Zusammenarbeit an Unternehmens- und Organisationszielen {#collaborate-around-enterprise-and-organizational-goals}
 
 Kaskadieren Sie die Ziele auf hoher Ebene. Aufbauend auf den zuvor umrissenen strategischen Säulen legt das Management auf mittlerer Führungsebene Ziele fest, die eine segmentierte Orientierung der für die Erfüllung der Vision erforderlichen Fahrergebnisse bieten. Wir empfehlen dazu Folgendes:
 
-* Diskutieren Sie mit Ihren direkten Berichten und Teams und arbeiten Sie mit ihnen zusammen.
+* Diskussion und Zusammenarbeit mit Ihren direkten Berichten und Teams.
 * Kaskadierte Ziele von der obersten Ebene.
 
 Beachten Sie beim Erstellen und Ausrichten von Zielen die folgenden Richtlinien:
 
-* Betrachten Sie die Frage: &quot;Was müssen meine Teams und ich erreichen, um die Erreichung dieses Ziels auf höchster Ebene voranzutreiben?&quot;
-* Kaskadierte Ziele sollten ein erforderliches Ergebnis darstellen, das erreicht werden muss, um die Verwirklichung seiner Muttergesellschaft voranzutreiben oder zu ermöglichen. Der Umfang dieser Errungenschaft sollte enger sein als der ihrer Eltern.
+* Betrachten wir die Frage: &quot;Was müssen meine Teams und ich erreichen, um die Erreichung dieses Ziels auf höchster Ebene voranzutreiben?&quot;
+* Kaskadierte Ziele sollten ein erforderliches Ergebnis darstellen, das erreicht werden muss, um die Verwirklichung seiner Mutterschaft voranzutreiben oder zu ermöglichen. Der Umfang dieser Errungenschaft sollte enger sein als der ihrer Eltern.
 * Erstellen Sie keine komplexen Zielhierarchien, die schwer zu befolgen sind oder zu viele Ebenen haben.
 
 Informationen zum Erstellen und Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
-* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
+* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
 * [Übersicht über die Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Strategische Abstimmung von Gruppen und Teams {#align-groups-and-teams-to-strategy}
@@ -112,25 +99,25 @@ Nachdem Sie Ihre Ziele und die zugehörigen Ergebnisse definiert haben, geben Si
 
 Gehen Sie wie folgt vor:
 
-* Überprüfen und aktivieren Sie vorgeschlagene Ziele.
+* Überprüfen und aktivieren Sie die vorgeschlagenen Ziele.
 
-   Bisher hatten Ihre Ziele den Status &quot;Entwurf&quot;. Sobald Sie jedoch die ersten Ebenen der Zielhierarchie verfeinert und abgeschlossen haben, ist es an der Zeit, sie zu aktivieren.
+  Bisher hatten Ihre Ziele den Status &quot;Entwurf&quot;. Sobald Sie jedoch die ersten Ebenen der Zielhierarchie verfeinert und abgeschlossen haben, ist es an der Zeit, sie zu aktivieren.
 
-   Nachdem Sie Ihre Ziele aktiviert haben, kommunizieren Sie mit den Teams, die letztendlich die Arbeit durchführen und verwalten, die diese Ergebnisse antreiben wird. Wie in Workfront mit Zielen in Workfront-Zielen verbunden werden kann, erkennen Teams wirklich die Verbundenheit zwischen ihrer Arbeit und ihren Ergebnissen.
+  Nachdem Sie Ihre Ziele aktiviert haben, kommunizieren Sie mit den Teams, die letztendlich die Arbeit durchführen und verwalten, die diese Ergebnisse antreiben wird. Wie in Workfront mit Zielen in Workfront-Zielen verbunden werden kann, erkennen Teams wirklich die Verbundenheit zwischen ihrer Arbeit und ihren Ergebnissen.
 
 * Vierteljährliche Ziele kaskadieren und ausrichten und Aktivitäten zu Zielen hinzufügen.
 
-   Wenn Sie Ziele mit Blick auf einen Jahresplan festgelegt haben, können Sie als Nächstes vierteljährliche Ziele festlegen. Wenn Sie Projektpläne definieren und verfeinern, wie Sie mit der Bereitstellung dieser Ziele beginnen, werden Sie auch damit beginnen, Aktivitäten mit ihnen abzustimmen.
+  Wenn Sie Ziele mit Blick auf einen Jahresplan festgelegt haben, können Sie als Nächstes vierteljährliche Ziele festlegen. Wenn Sie Projektpläne definieren und verfeinern, wie Sie mit der Bereitstellung dieser Ziele beginnen, werden Sie auch damit beginnen, Aktivitäten mit ihnen abzustimmen.
 
-   Aktivitäten können entweder grundlegende Aktivitäten sein, die innerhalb des Ziels selbst erstellt werden, oder Aktivitäten können mit Workfront-Projekten verknüpft werden.
+  Aktivitäten können entweder grundlegende Aktivitäten sein, die innerhalb des Ziels selbst erstellt werden, oder Aktivitäten können mit Workfront-Projekten verknüpft werden.
 
 * Legen Sie einen Cadence dafür fest, wie häufig Sie in Zukunft vierteljährliche oder inkrementelle Ziele überprüfen und festlegen werden. Es wird empfohlen, für jeden Planungszeitraum Ziele festzulegen, diese jedoch nicht zu weit im Voraus abzubilden, damit Sie flexibel und auf Veränderungen im Unternehmen reagieren können.
 
 * Aktualisieren Sie Ihre Ziele regelmäßig. Dies ist eine Zeit, in der Sie über den Fortschritt eines Ziels berichten.
 
-   Informationen zum Aktivieren, Hinzufügen von Aktivitäten und Aktualisieren von Zielen finden Sie in den folgenden Artikeln:
+  Informationen zum Aktivieren, Hinzufügen von Aktivitäten und Aktualisieren von Zielen finden Sie in den folgenden Artikeln:
 
-   * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
+   * [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md)
    * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 

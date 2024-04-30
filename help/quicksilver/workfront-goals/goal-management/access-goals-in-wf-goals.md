@@ -6,9 +6,9 @@ description: In diesem Artikel wird beschrieben, wie Sie Ziele in Adobe Workfron
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,15 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Ak
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Alle</p>
+   <p>Für den neuen Plan und die Lizenzstruktur:
+  <ul><li>Ein ultimativer Plan </li>
+  Oder
+  <li>Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. </li></ul> </p>
+<p>Für den aktuellen Plan und die Lizenzstruktur: 
+<ul><li> A Pro oder höher </li>
+  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr> 
   <tr> 

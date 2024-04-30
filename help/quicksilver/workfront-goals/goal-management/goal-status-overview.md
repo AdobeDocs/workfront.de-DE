@@ -7,48 +7,31 @@ description: Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschri
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '845'
 ht-degree: 4%
 
 ---
 
 # Zielstatusübersicht in Adobe Workfront-Zielen
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
->[!NOTE]
->
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+* Für den neuen Plan und die Lizenzstruktur:
 
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Ein ultimativer Plan
 
+     Oder
+
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+
+* Für den aktuellen Plan und die Lizenzstruktur:
+
+   * A Pro oder höher
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
 Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschritte aufzeichnet oder ob es inaktiv, entworfen oder bereits erreicht ist.
 
@@ -57,37 +40,37 @@ Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschritte aufzeichn
 * Sie können den Status von Zielen, die Sie erstellt haben oder die für Sie freigegeben wurden, nicht manuell aktualisieren. Der Status der Ziele wird abhängig von den Aktionen, die Sie für das Ziel ausführen, aktualisiert. Wenn Sie beispielsweise ein Ziel aktivieren, ändert sich der Status Entwurf in Aktiv.
 * Es gibt einige Einschränkungen, und manchmal können Sie den Status eines Ziels gemäß den folgenden Regeln nicht in einen anderen Status ändern:
 
-   | Von/zu | Entwurf | Aktiv | Inaktiv | Geschlossen |
-   |---|---|---|---|---|
-   | Entwurf | - | Ja | Nein | Nein |
-   | Aktiv | Nein | - | Ja | Ja |
-   | Inaktiv | Nein | Ja | - | Nein |
-   | Geschlossen | Nein | Ja | Nein | - |
+  | Von/zu | Entwurf | Aktiv | Inaktiv | Geschlossen |
+  |---|---|---|---|---|
+  | Entwurf | - | Ja | Nein | Nein |
+  | Aktiv | Nein | - | Ja | Ja |
+  | Inaktiv | Nein | Ja | - | Nein |
+  | Geschlossen | Nein | Ja | Nein | - |
 
 * Das Öffnen eines geschlossenen Ziels aktualisiert auch den Fortschritt des Ziels.
 * Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:
 
-   * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
-   * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
+   * [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+   * [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md)
    * [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Ziele in Adobe Workfront schließen und erneut öffnen](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Übersicht über den Zielstatus in Workfront-Zielen
 
-Informationen zum Erstellen von Workfront-Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md).
+Informationen zum Erstellen von Workfront-Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
-Informationen zum Aktivieren von Zielen finden Sie unter [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md).
+Informationen zum Aktivieren von Zielen finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
 
 Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 * [Entwurf](#draft)
 * [Aktiv](#active)
-* [Inaktiv](#inactive)
+* [Inaaktiv](#inactive)
 * [Geschlossen](#closed)
 
 ### Entwurf {#draft}
 
-* Dies ist der Standardstatus für ein neu erstelltes Ziel. Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md).
+* Dies ist der Standardstatus für ein neu erstelltes Ziel. Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 * Workfront-Ziele zeichnen keine Fortschritte bei der Erreichung eines entworfenen Ziels auf.
 * Sie können den Fortschritt eines entworfenen Ziels nicht aktualisieren.
 * Entwürfe von Zielen können nicht geschlossen oder deaktiviert werden, da sie keine Fortschrittsinformationen enthalten.
@@ -104,7 +87,7 @@ Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 ### Aktiv {#active}
 
-* Sie können ein entworfenes Ziel nur aktivieren, wenn Sie es mit einem Ergebnis, einer Aktivität oder einem anderen Ziel verknüpfen. Wenn Sie das Ziel aktivieren, ändert sich sein Status in &quot;Aktiv&quot;. Informationen zum Aktivieren von Zielen finden Sie unter [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md).
+* Sie können ein entworfenes Ziel nur aktivieren, wenn Sie es mit einem Ergebnis, einer Aktivität oder einem anderen Ziel verknüpfen. Durch Aktivierung des Ziels ändert sich sein Status in &quot;Aktiv&quot;. Informationen zum Aktivieren von Zielen finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
 * Workfront Goals zeichnet Fortschritte bei aktiven Zielen auf.
 * Aktive Ziele tragen zur Fortschrittsberechnung anderer Ziele bei und werden in Grafiken berücksichtigt.
 * Aktive Ziele werden in den folgenden Bereichen der Workfront-Ziele angezeigt:
@@ -119,7 +102,7 @@ Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 * Sie können ein aktives Ziel deaktivieren, wenn der Eigentümer die Bearbeitung vorübergehend oder dauerhaft beendet hat. Sie können sie für historische Informationen aufbewahren. Dadurch wird der Status des Ziels auf Inaktiv aktualisiert.
 
-   Informationen zum Deaktivieren von Zielen finden Sie im Abschnitt &quot;Ziele deaktivieren&quot;im Artikel [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  Informationen zum Deaktivieren von Zielen finden Sie im Abschnitt &quot;Ziele deaktivieren&quot;im Artikel [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
 
 * Sie können ein entworfenes oder geschlossenes Ziel nicht deaktivieren.
 * Sie können ein inaktives Ziel reaktivieren und weiter daran arbeiten.
@@ -136,9 +119,9 @@ Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 * Sie können ein Ziel schließen, wenn Sie angeben möchten, dass Sie es erreicht haben oder dass Sie daran nicht mehr arbeiten, und dies auch in Zukunft nicht tun werden. Informationen zum Schließen von Zielen finden Sie unter [Ziele in Adobe Workfront schließen und erneut öffnen](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 
-   >[!TIP]
-   >
-   >Wenn Sie planen, später an einem Ziel zu arbeiten, das noch nicht erreicht wurde, empfehlen wir, den Status auf Inaktiv anstatt auf Geschlossen zu ändern.
+  >[!TIP]
+  >
+  >Wenn Sie planen, später an einem Ziel zu arbeiten, das noch nicht erreicht wurde, empfehlen wir, den Status auf Inaktiv anstatt auf Geschlossen zu ändern.
 
 * Ziele, die noch nie aktiviert wurden, können nicht geschlossen werden, wie beispielsweise entworfene Ziele.
 * Sie können ein geschlossenes Ziel erneut öffnen und daran weiter arbeiten.

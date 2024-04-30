@@ -6,45 +6,35 @@ description: Ein Workfront- oder Gruppenadministrator kann die Namen von Objekte
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
 
 # Terminologie für Adobe Workfront-Ziele anpassen
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
-
-Your organization must have the following to use the functionality described in this article:
-
-* For the legacy plan and license structure: 
-
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-* For the current plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
 Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
-* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
-* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+* Für den aktuellen Plan und die Lizenzstruktur:
 
-   Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+   * A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
+   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Für den neuen Plan und die Lizenzstruktur:
+
+   * Ein ultimativer Plan
+
+     Oder
+
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne.
+
+Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+
+Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Ein Workfront- oder Gruppenadministrator kann die Namen von Objekten in Workfront Goals so anpassen, dass sie der Terminologie Ihres Unternehmens besser entsprechen.
 

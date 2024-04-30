@@ -6,9 +6,9 @@ description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem 
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -37,12 +37,18 @@ Sie müssen über Folgendes verfügen:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront-Abo</td>
- <td>
- <p>Alle</p> 
- </td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td> 
+   <p>Für den neuen Plan und die Lizenzstruktur:
+  <ul><li>Ein ultimativer Plan </li>
+  Oder
+  <li>Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. </li></ul> </p>
+<p>Für den aktuellen Plan und die Lizenzstruktur: 
+<ul><li> A Pro oder höher </li>
+  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
