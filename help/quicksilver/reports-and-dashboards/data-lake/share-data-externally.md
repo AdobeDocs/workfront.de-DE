@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müss
 
 1. Klicken Sie auf **Zulässige IPs** und klicken Sie auf die **Hinzufügen einer IP-Adresse zu Ihrer Zulassungsliste** Schaltfläche.
 
-1. Geben Sie einen Namen für die IP-Adresse in **Beschreibung der IP-Adresse** und geben Sie die IP-Adresse für das Tool ein, das Sie in verwenden möchten **IP-Adresse** Klicken Sie auf **Hinzufügen von IP-Adresse zur Zulassungsliste**.
+1. Geben Sie einen Namen für die IP-Adresse in **Beschreibung der IP-Adresse** und geben Sie die IP-Adresse (oder den CIDR-Block) für das Tool ein, das Sie in verwenden möchten **IP-Adresse** Klicken Sie auf **Hinzufügen von IP-Adresse zur Zulassungsliste**.
 
    ![IP-Adresse hinzufügen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
