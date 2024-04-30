@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 ## Browser
 
-Wokfront Fusion unterstützt nur Chrome-basierte Browser.
+* Wokfront Fusion unterstützt nur Chrome-basierte Browser.
 
 ## Szenarios
 
@@ -75,9 +75,9 @@ Wokfront Fusion unterstützt nur Chrome-basierte Browser.
 
 ## Unvollständige Ausführungen
 
-Unvollständige Ausführungen sind auf die Gesamtgröße von **500 MB**. Bei Erreichen der Grenze von 500 MB werden keine unvollständigen Ausführungen mehr gespeichert.
+* Unvollständige Ausführungen sind auf die Gesamtgröße von **500 MB**. Bei Erreichen der Grenze von 500 MB werden keine unvollständigen Ausführungen mehr gespeichert.
 
 ## Weitere Zustellversuche
 
-Wenn Sie das Break-Modul verwenden und die Anweisung &quot;Retry&quot;angeben, wird das Szenario automatisch deaktiviert, wenn ein Szenario innerhalb eines Zeitraums von 2 Minuten nacheinander 10-mal fehlschlägt.
+* Wenn Sie das Break-Modul verwenden und die Anweisung &quot;Retry&quot;angeben, wird das Szenario automatisch deaktiviert, wenn ein Szenario innerhalb eines Zeitraums von 2 Minuten nacheinander 10-mal fehlschlägt.
 
