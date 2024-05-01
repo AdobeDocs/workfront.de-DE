@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Bei erweiterten Zuweisungen können Sie die folgenden Zuweisungsinformationen an
 * Anpassen und Neuverteilung der Anzahl der Stunden, die jedem Bevollmächtigten zugewiesen werden.
 * Bestimmen Sie, welcher Benutzer als Eigentümer oder Primärer Verantwortlicher der Aufgabe oder des Problems bestimmt werden soll.
 * Geben Sie an, welche Rolle jeder Benutzer bei der Bearbeitung der Aufgabe oder des Problems erfüllt.
-* <span class="preview">Überschreiben Sie die Abrechnungsrate für eine Auftragsrolle.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -77,7 +77,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Erweiterte Zuweisungen vornehmen
 
 1. Gehen Sie zum Projekt, dem Sie eine Aufgabe oder ein Problem zuweisen möchten.
-1. Klicken **Aufgaben** oder **Probleme** Klicken Sie im linken Bereich auf den Namen einer Aufgabe oder eines Problems in der Liste.
+1. Klicks **Aufgaben** oder **Probleme** Klicken Sie im linken Bereich auf den Namen einer Aufgabe oder eines Problems in der Liste.
 
    >[!TIP]
    >
@@ -85,15 +85,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
-1. Klicken **Zuweisen zu** im **Zuweisungen** -Feld in der Kopfzeile der Aufgabe oder des Problems
+1. Klicks **Zuweisen zu** im **Zuweisungen** -Feld in der Kopfzeile der Aufgabe oder des Problems
 
    Oder
 
    Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
 
-1. Klicken **Erweitert**.
+1. Klicks **Erweitert**.
 
+   Beispielbild in der Produktionsumgebung:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)
 
 1. Im **Suchen nach Personen, Rollen und Teams** eingeben, beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
@@ -101,7 +105,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einfügen.
 
-1. (Optional) Fügen Sie im Abschnitt **Suchen nach Personen, Rollen oder Teams** , um der Aufgabe oder dem Problem mehrere Ressourcen hinzuzufügen.
+1. (Optional) Fügen Sie im Abschnitt **Suchen nach Personen, Rollen oder Teams** zum Hinzufügen mehrerer Ressourcen zur Aufgabe oder zum Problem.
 
    >[!TIP]
    >
@@ -113,15 +117,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* <span class="preview">Beim Hinzufügen einer Auftrags-Rollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie die System-/Standardauftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkarten-Auftragsrolle aus, um die Rate auf Zuweisungsebene zu überschreiben. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-   >
-   >
    >* Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
    >   
    >   * Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
    >   * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. Für jeden Benutzer im **Bevollmächtigter** Geben Sie die folgenden Informationen an:
 
@@ -132,7 +136,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      >
      >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Projekteinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um die Zeitleiste der Aufgabe zu berechnen, wenn mehrere Benutzer der Aufgabe zugewiesen sind. Weitere Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt &quot;Assign multiple users to a task&quot;im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Zuordnungen** : Wenn der Typ der Dauer einer Aufgabe einfach ist, geben Sie an, wie viele Stunden jeder Benutzer oder jede Auftragsrolle der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer entspricht der Zahl in der **Geplante Stunden** unten in der Spalte Zuordnungen . Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Verantwortliche für die Lösung der Aufgabe oder des Problems verwenden soll.
+   * **Zuordnungen** : Wenn der Typ Dauer einer Aufgabe einfach ist, geben Sie an, wie viele Stunden jeder Benutzer oder jede Aufgabenrolle der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer entspricht der Zahl in der **Geplante Stunden** unten in der Spalte Zuordnungen . Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Verantwortliche für die Lösung der Aufgabe oder des Problems verwenden soll.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -149,17 +153,21 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      >   
      >
 
-   * **Rolle des Bevollmächtigten:** Wählen Sie die Rolle aus, die der Benutzer bei der Erfüllung dieser Zuweisung verwenden soll.  Die Primäre Rolle des Benutzers wird standardmäßig angezeigt. Klicken Sie in das Feld &quot;Rolle des Verantwortlichen&quot;, um eine andere Rolle auszuwählen.  Wenn Sie die Aufgabe oder das Problem zuerst einer Rolle zuweisen und dann einen Benutzer hinzufügen, der diese Rolle als zweite Zuweisung erfüllen kann, wird die Liste der vorgeschlagenen Benutzer nach Benutzern gefiltert, die die der Aufgabe und dem Problem bereits zugewiesenen Rollen erfüllen können.
+   * **Rolle des Bevollmächtigten:** Wählen Sie die Rolle aus, die der Benutzer bei der Erfüllung dieser Zuweisung verwenden soll.  Die Primäre Rolle des Benutzers wird standardmäßig angezeigt. Klicken Sie in das Feld &quot;Rolle des Bevollmächtigten&quot;, um eine andere Rolle auszuwählen.  Wenn Sie die Aufgabe oder das Problem zuerst einer Rolle zuweisen und dann einen Benutzer hinzufügen, der diese Rolle als zweite Zuweisung erfüllen kann, wird die Liste der vorgeschlagenen Benutzer nach Benutzern gefiltert, die die der Aufgabe und dem Problem bereits zugewiesenen Rollen erfüllen können.
 
+     Beispielbild in der Produktionsumgebung:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+     ![Rolle des Bevollmächtigten](assets/advanced-assignments-select-role.png)
 
-   * **Standort**: Der Ort stammt aus der Ratenkarte, wenn eine an das Projekt angehängte Ratenkarte Orte mit den Auftragsrollen verwendet. Der Standort kann nicht geändert werden.
+   <!--<div class="preview">
 
-   * **Abrechnungssätze**: Die Abrechnungsrate für einen Benutzer stammt aus der Systemrate für den Benutzer oder dessen zugewiesene Rolle. Die Abrechnungsrate für eine Auftragrolle stammt vom Systempreis oder von der Ratenkarte, wenn eine Preiskarte an das Projekt angehängt ist. Bestehende Abrechnungsraten werden in diesem Feld nicht angezeigt. Klicken Sie in das Feld, um die Abrechnungsrate für diese bestimmte Aufgabenzuweisung zu ändern.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **Dauer Typ**: Dies ist nur für Aufgaben verfügbar. Klicken Sie auf den Namen des Typs Dauer und wählen Sie aus dem Dropdown-Menü einen Typ Dauer aus. Weitere Informationen zu den Typen der Dauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -167,17 +175,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
      Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bei Massenbearbeitung von Zuweisungsinformationen wird ein ähnliches Dialogfeld angezeigt, in dem Benutzer, Stunden, Zuordnungen und Aufgabeneigentümer zugewiesen werden.
 
-   * **Geplante Stunden**: Wenn der Typ Dauer berechnet wird oder einfach ist, aktualisieren Sie die Anzahl der geplanten Stunden. Die Zuordnungsprozentsätze oder die Stunden für jede Ressource werden als Ergebnis gleichmäßig verteilt. Workfront berechnet die geplanten Stunden, wenn die Dauer berechnet wird (Work or Effort Driven). Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Geplante Stunden**: Wenn der Ereignistyp &quot;Dauer&quot;berechnet wird oder einfach ist, aktualisieren Sie die Anzahl der geplanten Stunden. Die Zuordnungsprozentsätze oder die Stunden für jede Ressource werden als Ergebnis gleichmäßig verteilt. Workfront berechnet die geplanten Stunden, wenn die Dauer berechnet wird (Work or Effort Driven). Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Beispielbild in der Produktionsumgebung:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      Beispielbild in der Vorschau-Umgebung:
-
-     ![Erweiterte Zuweisungen](assets/advanced-assignments-location-billing-rates.png)
+     ![Erweiterte Zuweisungen](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

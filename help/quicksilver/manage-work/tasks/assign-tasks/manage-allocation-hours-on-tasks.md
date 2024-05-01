@@ -6,14 +6,16 @@ description: Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben
+
+{{highlighted-preview}}
 
 Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie einer bestimmten Anzahl von Stunden zugewiesen, um die Aufgabe abzuschließen. Sie können die Anzahl der Stunden, die jedem Benutzer oder jeder Auftragsrolle zugewiesen werden, wenn sie einer Aufgabe zugewiesen werden, manuell ändern, wenn der Aufgabendauer-Typ einfach ist.
 
@@ -27,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -52,12 +54,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >Nachdem Sie die Zuordnungen für jede Aufgabenzuweisung manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt . [Aktualisierung der geplanten Aufgaben bei der Verwaltung der Benutzerzuordnungen](../../../manage-work/tasks/task-information/planned-hours.md#update) im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Die Gesamtstunden, die den einzelnen Ressourcen, die der Aufgabe zugewiesen sind, zugewiesen werden, entsprechen den geplanten Stunden der Aufgabe.
+* Die Gesamtstunden, die den einzelnen Ressourcen, die der Aufgabe zugewiesen sind, zugewiesen werden, stellen die geplanten Stunden der Aufgabe dar.
 * Wenn einer Aufgabe ein Benutzer oder eine Rollenzuweisung zugewiesen ist, entspricht die dem Benutzer bzw. der Rolle zugewiesene Zeitdauer den geplanten Stunden der Aufgabe.
 * Bei mehreren Zuweisungen wird jedem Benutzer bzw. jeder Vorgangsrolle standardmäßig eine gleiche Anzahl von Stunden für die Arbeit an der Aufgabe zugewiesen, wenn der Aufgabendauer-Typ einfach ist. Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+   * [Übersicht über den Dauer-Typ: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
 * Wenn die Aufgabe den Typ Einfache Dauer aufweist, können Sie die Anzahl der zugewiesenen Stunden für jeden Benutzer oder jede Aufgabenrolle manuell ändern, um anzugeben, dass einige der Aufgabenverantwortlichen möglicherweise mehr Zeit für die Bearbeitung einer Aufgabe haben als andere.
 * Sie können die den Aufgaben zugewiesenen Teams zugewiesenen Stunden nicht ändern.
@@ -73,9 +75,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Klicken Sie auf **Zuweisungen** Bereich in der Aufgabenüberschrift und klicken Sie dann auf **Erweitert**.
 
-1. Stellen Sie sicher, dass **Dauer Typ** der Aufgabe **Einfach**.
+1. Stellen Sie sicher, dass **Dauer Typ** der Aufgabe ist **Einfach**.
 1. Ändern Sie die **Zuordnungen** für jeden Aufgabenverantwortlichen. Dies sind die Gesamtzuweisungen für jede Zuweisung zu dieser Aufgabe während der gesamten Dauer der Aufgabe. Dadurch kann auch die Gesamtdauer der geplanten Aufgaben aktualisiert werden.
 
+   Beispielbild in der Produktionsumgebung:
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Zuteilungen ändern](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klicken Sie auf **Speichern**.

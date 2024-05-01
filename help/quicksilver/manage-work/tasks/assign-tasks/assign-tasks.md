@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
 
+   Beispielbild in der Produktionsumgebung:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Arbeitsaufträge](assets/assignments-box-in-task-header.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -204,7 +208,7 @@ Je nachdem, welches Feld in der Ansicht sichtbar ist, können Sie der Aufgabe di
 | Feld | Zugewiesene Entitäten |
 |---|---|
 | **Zuweisen zu** | Benutzer zuweisen |
-| **Zugewiesen** | Benutzer zuweisen |
+| **Zugeordnet** | Benutzer zuweisen |
 | **Arbeitsaufträge** | Zuweisen von Benutzern, Auftragsrollen oder Teams |
 
 So weisen Sie Aufgaben in einer Liste zu:
@@ -288,7 +292,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie aus der Aufgabe entfernen möchten, wählen Sie ihn aus, wenn er in der Liste angezeigt wird, und klicken Sie auf **Zuweisung entfernen** , um weitere Bevollmächtigte zu entfernen.
    1. Klicks **Alle vorhandenen Zuweisung entfernen** , um alle Bevollmächtigten aus allen ausgewählten Aufgaben zu entfernen.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 1. (Optional und bedingt) Wenn die Felder Zugeordnet oder Zuweisungen in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und klicken Sie dann auf die Schaltfläche **X-Symbol** neben dem Namen eines Bevollmächtigten, um ihn aus der Aufgabe zu entfernen.
 
 <!--

@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Zuweisen von Problemen
+
+{{highlighted-preview}}
 
 Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für das Abschließen der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über die Änderung von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
 
    Klicken Sie auf den Namen der aktuellen Zuweisungen, falls das Problem bereits zugewiesen wurde.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Schaltfläche &quot;Zuweisen zu&quot;](assets/assign-to-button-in-header.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
 
+     Beispielbild in der Produktionsumgebung:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+     ![Zuweisungssuche](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste
    * Klicks **Zuweisen** , um es sich selbst zuzuweisen
@@ -161,7 +167,11 @@ So weisen Sie Probleme in einer Liste zu:
 
    * Klicken Sie in die **Zuweisungen** eingeben und den Namen eines aktiven Benutzers, einer Rolle oder eines aktiven Teams eingeben, das Sie dem Problem zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
+     Beispielbild in der Produktionsumgebung:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+     ![Zuweisungsfeld](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

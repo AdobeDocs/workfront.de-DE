@@ -1,19 +1,21 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Prozentsatz für Benutzer- oder Rollenzuweisungen verwalten
+title: Verwalten des Prozentsatzes für Benutzer- oder Rollenzuweisung für Aufgaben
 description: Der Zuordnungsprozentsatz stellt die Zeit dar, die eine zugewiesene Ressource für die Arbeit an einer Aufgabe an einem Tag geplant ist. Dies ist der Prozentsatz eines Arbeitstags (entsprechend dem Benutzer- oder Projektplan), zu dem eine Ressource während der gesamten Dauer der Aufgabe zugewiesen wird.
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-# Prozentsatz für Benutzer- oder Rollenzuweisungen verwalten
+# Verwalten des Prozentsatzes für Benutzer- oder Rollenzuweisung für Aufgaben
+
+{{highlighted-preview}}
 
 Der Zuordnungsprozentsatz stellt die Zeit dar, die eine zugewiesene Ressource für die Arbeit an einer Aufgabe an einem Tag geplant ist. Dies ist der Prozentsatz eines Arbeitstags (entsprechend dem Benutzer- oder Projektplan), zu dem eine Ressource während der gesamten Dauer der Aufgabe zugewiesen wird.
 
@@ -31,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -55,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Benutzern wird standardmäßig ein gleicher Prozentsatz der Zeit zugewiesen, wie Aufgaben, denen sie zugewiesen sind.
 * Sie können den Zuordnungsprozentsatz für Benutzer und den Aufgaben, die Aufgaben zugewiesen sind, nur manuell ändern, wenn der Aufgabentyp &quot;Berechnete Arbeit&quot;oder &quot;Aufwandsorientierung&quot;lautet.
 
-   Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Sie können die Prozentzuordnung für Teams, die Aufgaben zugewiesen sind, nicht ändern.
 * Sie können die Prozentzuordnung für Benutzer und Auftragsrollen, die Problemen zugewiesen sind, nicht ändern.
@@ -69,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Klicken Sie auf **Zuweisungen** Bereich in der Aufgabenüberschrift und klicken Sie dann auf **Erweitert**.
 
-1. Stellen Sie sicher, dass **Dauer Typ** der Aufgabe ist eine der folgenden Aufgaben:
+1. Stellen Sie sicher, dass **Dauer Typ** einer der folgenden Aufgaben ist:
 
    * Berechnete Arbeit
    * Leistungsgesteuert
@@ -79,13 +81,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* Für den Typ &quot;Berechnete Zuweisungsdauer&quot;verwendet Workfront die folgende Formel zur Berechnung des Zuordnungsprozentsatzes für jeden Bevollmächtigten: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Für den Typ Einfache Dauer können Sie die Stunden schätzen, die jeder Ressource zugewiesen sind, nicht den Zuordnungsprozentsatz.
 
-
-1. Klicken **Zuweisungen**, ändern Sie dann die **Zuordnungen** für jeden Aufgabenverantwortlichen.
+1. Klicks **Zuweisungen**, ändern Sie dann die **Zuordnungen** für jeden Aufgabenverantwortlichen.
 
    Sie können nur den Zuordnungsprozentsatz für Benutzer- und Auftragserrollenzuweisungen ändern.
 
    Sie können den Zuordnungsprozentsatz für ein Team, das einer Aufgabe zugewiesen ist, nicht ändern.
 
+   Beispielbild in der Produktionsumgebung:
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Zuteilungsprozentsatz ändern](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klicken Sie auf **Speichern**.
