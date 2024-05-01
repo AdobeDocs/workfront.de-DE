@@ -6,7 +6,7 @@ description: Wenn Sie ein Projekt mit Workfront Fusion erstellen und Adobe Exper
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ Sie müssen über Folgendes verfügen:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-Plan*</strong>
-   </td>
-   <td>Alle
-   </td>
+    <td><strong>Adobe Workfront-Plan*</strong></td>
+    <td>Alle</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-Lizenzen*</strong>
-   </td>
-   <td>Anforderung oder höher
-   </td>
+   <td><strong>Adobe Workfront-Lizenzen*</strong></td>
+   <td>Anforderung oder höher</td>
   </tr>
   <tr>
-   <td><strong>Produkt</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Sie müssen über as a Cloud Service oder Assets Essentials von Experience Manager Assets verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</p>
-   </li
-   ><li>
-   <p>Sie müssen über Schreibzugriff auf das Repository in Adobe Experience Manager verfügen.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Neu:</p>
-   <ul>
-   <li>
-   <p>Workfront-Plan auswählen oder als Prime-Projekt festlegen: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion ist im Lieferumfang enthalten.</p>
-   </li>
-   </ul>
-   <p>Oder</p>
-   <p>Aktuell: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
+   <td><strong>Produkt</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>Sie müssen über as a Cloud Service oder Assets Essentials von Experience Manager Assets verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</p>
+       </li>
+       <li>
+        <p>Sie müssen über Schreibzugriff auf das Repository in Adobe Experience Manager verfügen.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>Neu:</p>
+     <ul>
+       <li>
+         <p>Workfront-Plan auswählen oder als Prime-Projekt festlegen: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion ist im Lieferumfang enthalten.</p>
+       </li>
+     </ul>
+     <p>Oder</p>
+     <p>Aktuell: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Konfigurationen auf Zugriffsebene*</strong>
    </td>
    <td>Zugriff auf Dokumente bearbeiten
-   <p>
-   <strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <strong>Benutzerdefinierte Zugriffsebenen erstellen oder ändern</strong>.
+     <p>
+       <strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <strong>Benutzerdefinierte Zugriffsebenen erstellen oder ändern</strong>.
+     </p>
    </td>
   </tr>
 </table>
