@@ -9,7 +9,7 @@ description: Sie können in Ihren Adobe Workfront Fusion-HTTP-Modulen "Mutual TL
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Anweisungen zum Hochladen der [!DNL Adobe Workfront Fusion] ein öffentliches Ze
 
 Sie können die folgenden Links verwenden, um die öffentlichen Workfront Fusion-Zertifikate herunterzuladen:
 
-### Zertifikate für den 25. Mai 2023 - 9. Juni 2024
+### Zertifikate für den 23. April 2023-7. Mai 2024
 
 >[!IMPORTANT]
 >
