@@ -1,20 +1,21 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: '"Reporting Canvas beta: overview'''
+title: "Reporting Canvas beta: overview"
 description: Informationen zum Betaprogramm für das bevorstehende Tool zur Berichtsarbeitsfläche für Adobe Workfront
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
 
-
-# Reporting-Arbeitsfläche - Beta: Übersicht
+# Reporting-Arbeitsfläche - Beta-Übersicht
 
 ## Berichtsarbeitsfläche
 
@@ -43,7 +44,7 @@ Die Beta-Version der Reporting-Arbeitsfläche steht allen Unternehmen in AWS zur
 Die Beta-Version der Reporting-Arbeitsfläche ist vollständig optional, kann jedoch nur von einem Workfront-Administrator aktiviert werden. So melden Sie sich als Systemadministrator an:
 
 1. Wählen Sie die **Berichterstellung (Beta)** im Hauptmenü Ihrer Workfront-Instanz.
-1. Klicken **Accept** um die Bedingungen zu akzeptieren.
+1. Klicks **Accept** um die Bedingungen zu akzeptieren.
 1. Lassen Sie zu, dass die Daten Ihres Unternehmens der Berichtsarbeitsfläche hinzugefügt werden (dies kann bis zu einigen Stunden dauern).
 1. Verwendung der Berichtsarbeitsfläche.
 
@@ -65,7 +66,7 @@ So aktivieren Sie andere Benutzer, die keine Workfront-Administratoren sind:
 
 ### Feedback senden
 
-So senden Sie Feedback zur Beta:
+So senden Sie Feedback zur Beta-Version:
 
 1. Klicken Sie auf der Reporting-Arbeitsfläche in Workfront auf die **Feedback senden** Schaltfläche.
 1. Füllen Sie das Formular aus und klicken Sie auf **Einsenden**.
@@ -85,7 +86,7 @@ Unsere aktuelle Migrationsstrategie in der offiziellen Version ermöglicht Ihnen
    1. Sie erhalten die Möglichkeit, eine CSV-Datei mit allen Berichten und Dashboards im System zusammen mit allen relevanten Tracking-Informationen zu exportieren (Anzahl der Ansichten, wann und von wem).
    1. Erstellen Sie einen Export von Berichten, die mit geplanten Sendungen mit den Empfängern eingerichtet wurden.
 
-1. Wählen Sie die Berichte und Dashboards aus, die Sie migrieren möchten, und klicken Sie dann auf **Migrieren**
+1. Wählen Sie die Berichte und Dashboards aus, die Sie migrieren möchten, und klicken Sie auf **Migrieren**
 
    Dies ist eine einmalige Migration. Es wird eine Kopie der ausgewählten Berichte und Dashboards auf die Berichtsarbeitsfläche erstellt, sodass der alte Bericht oder das Dashboard im aktuellen Reporting-Tool intakt bleiben.
 
@@ -120,7 +121,7 @@ Nein. Die Beta-Version verwendet eine Kopie der Daten Ihres Unternehmens, die in
 
 +++ Kann ich mich von der Beta-Version abmelden, nachdem ich beigetreten bin?
 
-Ein Workfront-Administrator kann die Beta-Version nicht abwählen. Nicht-systembasierte Administratoren können jedoch wie folgt entfernt werden:
+Ein Workfront-Administrator kann die Beta-Version nicht deaktivieren. Es können jedoch Nicht-Systemadministratoren wie folgt entfernt werden:
 
 1. Melden Sie sich als Systemadministrator an.
 1. Navigieren Sie zur Berichtsarbeitsfläche.

@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [Benutzername bereits in Verwendung](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Berichterstellung {#reporting}
    * [Berichte und Dashboards: Artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Berichtsarbeitsfläche {#reporting-canvas}
-      * [Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Berichte verwalten {#manage-reports}
-         * [Berichte verwalten - Übersicht](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Erstellen eines Berichts auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Bericht in Berichtsarbeitsfläche exportieren](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Tabellenblöcke {#table-blocks}
-         * [Tabellenblöcke](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Hinzufügen oder Bearbeiten von Tabellenblöcken in der Arbeitsfläche für Berichte](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Konfigurieren einer Tabellenspalte auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Erstellen eines Formelfelds in der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Gruppieren von Tabellenzeilen in der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Tabelle in Berichtsarbeitsfläche filtern](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Visualisierungsblöcke {#visualization-blocks}
-         * [Visualisierungsblöcke](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Konfigurieren einer Balkenvisualisierung auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Konfigurieren einer Spaltenvisualisierung auf der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Konfigurieren der Kreisvisualisierung in der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Konfigurieren einer KPI-Visualisierung in der Berichtsarbeitsfläche](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Andere Blöcke {#other-blocks}
-         * [Andere Blöcke](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Webinhaltsbausteine in der Berichtsarbeitsfläche hinzufügen oder bearbeiten](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Arbeitsfläche-Dashboards {#canvas-dashboards}
+      * [Dashboards für die Arbeitsfläche](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Verwalten von Canvas-Dashboards {#manage-canvas-dashboards}
+         * [Verwalten von Canvas-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Erste Schritte mit Canvas-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Freigeben eines Canvas-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Berichtstypen im Arbeitsfläche-Dashboard {#report-types}
+         * [Übersicht über die Berichtstypen im Arbeitsbereich-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Existierenden Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Erstellen eines KPI-Berichts in einem Leinwand-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Erstellen eines Diagrammberichts in einem Dashboard auf der Arbeitsfläche](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Erstellen eines Tabellenberichts in einem Dashboard auf der Arbeitsfläche](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Einen Bericht über ausstehende Genehmigungen zu einem Dashboard auf der Arbeitsfläche hinzufügen](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Berichte {#reports}
       * [Berichte](reports-and-dashboards/reports/reports-overview.md)
       * Grundlagen zur Berichterstellung {#report-basics}
