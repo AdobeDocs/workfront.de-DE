@@ -6,7 +6,7 @@ title: Aktualisieren eines Moduls auf eine neue Version in einer [!DNL Adobe Wor
 description: Da die Anwendungen, mit denen Workfront Fusion eine Verbindung herstellt, möglicherweise neue Versionen aktualisieren oder veröffentlichen, ist es gelegentlich erforderlich, dass Fusion aktualisierte Module für diese Anwendungen veröffentlicht.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Sie können das Modul aktualisieren, ohne ein neues Szenario zu erstellen.
 1. Konfigurieren Sie das Modul mit denselben Einstellungen wie das vorhandene Modul.
 1. Verbinden Sie das neue Modul mit dem Szenario am selben Ort wie das vorhandene Modul.
 1. Löschen Sie das alte Modul.
+
+
+
 
 
 
