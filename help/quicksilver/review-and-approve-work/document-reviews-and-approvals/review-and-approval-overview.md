@@ -1,155 +1,163 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Asset-Überprüfung und -Genehmigung - Übersicht
-description: Erfahren Sie mehr über den formalen Überprüfungs- und Genehmigungsprozess in Workfront.
+title: Erste Schritte mit Asset-Überprüfung und -Genehmigung
+description: Erfahren Sie mehr über den formalen Überprüfungs- und Genehmigungsprozess bei der Verwendung von Workfront und Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
+source-git-commit: cc00cfcaf9e3abac018384e42568f635b5f70b54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
 
-# Asset-Überprüfung und -Genehmigung - Übersicht
+# Erste Schritte mit Asset-Überprüfung und -Genehmigung
 
-Der neue Workflow für die Überprüfung und Genehmigung von Assets basiert auf einer engen Integration zwischen Workfront und Frame.io. Bei dieser Integration wird das Beste aus dem genommen, was jedes Produkt zu bieten hat, und kombiniert dies zu einem Erlebnis, das es allen an der Inhaltserstellung beteiligten Personen ermöglicht, in ihren bevorzugten Tools zu arbeiten und gleichzeitig in Echtzeit Zugriff auf Kommentare, Dateien und Statusaktualisierungen auf beiden Systemen zu haben.
+Der neue Workflow zur Überprüfung und Genehmigung von Assets basiert auf einer engen Integration zwischen Workfront und Frame.io. Diese Integration nutzt das Beste aus dem, was jedes Produkt anbieten muss, und kombiniert sie zu einem Erlebnis, das es jedem, der an der Inhaltserstellung beteiligt ist, ermöglicht, in seinen bevorzugten Tools zu arbeiten, während er gleichzeitig Zugriff auf Kommentare, Dateien und Statusaktualisierungen hat - die alle in beiden Systemen in Echtzeit synchronisiert werden.
 
 Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-## Arbeitsaufnahme und -planung in Workfront
+## Beginn und Planung von Arbeiten in Workfront
 
-Der Workfront-Administrator ermöglicht die Integration zwischen Workfront und Frame.io, indem er das standardmäßige Frame.io-Konto im Bereich „Setup“ konfiguriert und dann in Workfront Frame.io-Benutzer angibt. Auf diese Weise kann der Koordinator seine Arbeit mithilfe von Workfront-Projekten und formellen Prüfungs- und Genehmigungs-Workflows planen und starten.
+Der Workfront-Administrator aktiviert die Integration zwischen Workfront und Frame.io, indem er das standardmäßige Frame.io-Konto im Setup-Bereich konfiguriert und dann Frame.io-Benutzer in Workfront benennt. Dadurch kann der Koordinator die Arbeit mithilfe von Workfront-Projekten und formellen Prüfungs- und Genehmigungs-Workflows planen und starten.
 
-### Konfigurieren eines standardmäßigen Frame.io-Kontos
+### Standard-Frame.io-Konto konfigurieren [!BADGE In Kürze verfügbar]{type=Informative}
 
-Workfront-Administratoren initiieren die Integration von Workfront und Frame.io, indem sie im Bereich „Setup“ von Workfront ein standardmäßiges Frame.io-Konto hinzufügen. Nachdem ein standardmäßiges Frame.io-Konto eingerichtet wurde, wird für alle in Workfront erstellten Projekte ein Spiegelprojekt in Frame.io erstellt.
+>[!IMPORTANT]
+>
+>Diese Funktion wird in Kürze verfügbar sein. Derzeit werden Frame.io-Konten manuell vom Workfront-Team hinzugefügt. Wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-Weitere Informationen finden Sie unter [].
 
-<!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+Workfront-Administratoren initiieren die Integration von Workfront und Frame.io, indem sie im Setup-Bereich von Workfront ein standardmäßiges Frame.io-Konto hinzufügen. Sobald das standardmäßige Frame.io-Konto eingerichtet ist, wird bei allen in Workfront erstellten Projekten ein Spiegelprojekt in Frame.io erstellt.
 
-### Frame.io-Benutzer aktivieren
+<!--For more information, see [].
 
-Workfront-Benutzer, die regelmäßig Frame.io verwenden, sollten als Frame.io-Benutzer gekennzeichnet werden. Workfront-Administratoren können im Workfront-Benutzerprofil Frame.io-Benutzer festlegen.
+ in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
-Wenn ein(e) Benutzende(r) in Workfront als Frame.io-Benutzende(r) markiert und zu einem Projekt hinzugefügt wird,
+### Frame.io-Benutzer jetzt aktivieren
 
-* Sie werden als Collaborator in Frame.io hinzugefügt
-* Sie können Assets von Frame.io zur formellen Überprüfung und Genehmigung an Workfront senden
-* Sie können Informationen im unidirektionalen Synchronisierungsordner von Workfront aus anzeigen
+Workfront-Benutzer, die regelmäßig Frame.io verwenden, sollten als Frame.io-Benutzer markiert werden. Workfront-Administratoren können Frame.io-Benutzer im Workfront-Benutzerprofil bestimmen.
 
 >[!TIP]
 >
->Es wird empfohlen, Benutzer, die regelmäßig mit Kreativ-Tools arbeiten, zu aktivieren und Assets zur Überprüfung und Genehmigung als Frame.io-Benutzer hochzuladen.
+>Es wird empfohlen, Benutzern, die regelmäßig mit Kreativ-Tools arbeiten und Assets zur Überprüfung und Genehmigung hochladen, die Verwendung von Frame.io-Benutzern zu ermöglichen.
+
+Wenn ein Benutzer in Workfront als Frame.io-Benutzer markiert und zu einem Projekt hinzugefügt wird,
+
+* Sie werden als Mitwirkender in Frame.io hinzugefügt.
+* Sie können Assets von Frame.io an Workfront zur formalen Überprüfung und Genehmigung senden
+* Sie können Informationen im unidirektionalen Synchronisierungsordner von Workfront aus anzeigen
+
+
 
 Weitere Informationen finden Sie unter [].
 
 ![](assets/Frame-enabled-user.png)
 
 
-### Erstellen eines mit Frame.io verbundenen Projekts
+### Erstellen Sie ein Projekt, das mit Frame.io verbunden ist
 
-Sobald das standardmäßige Frame.io-Konto hinzugefügt und Frame.io-Benutzer zugewiesen wurden, können Projektkoordinatoren mit Frame.io verbundene Workfront-Projekte erstellen. Wenn Sie ein verbundenes Projekt erstellen, können Sie
+Sobald das standardmäßige Frame.io-Konto hinzugefügt und Frame.io-Benutzer bestimmt wurden, können Projektkoordinatoren Workfront-Projekte erstellen, die mit Frame.io verbunden sind. Wenn Sie ein verbundenes Projekt erstellen, können Sie
 
-* **Zuweisen von Frame.io-Benutzern zu Aufgaben**: Frame.io-fähige Benutzer werden per E-Mail benachrichtigt, wenn sie einer Aufgabe zugewiesen werden. Dies signalisiert, dass noch viel Arbeit zu erledigen ist.
-* **Freigeben des Projekts für Frame.io-Benutzer**: Projekte, für die Frame.io aktiviert ist, gewähren Benutzern Zugriff auf das Projekt in Frame.io.
-* **Teilen von kreativen Materialien mit Frame.io**: Sie können in Frame.io mithilfe eines unidirektionalen Synchronisierungsprojektordners Anweisungen und Material aus Workfront direkt an den Kreativprofi senden.
-* **Verfolgen des Aufgabenfortschritts**: Kreative können fertige Assets senden und Aufgaben als abgeschlossen markieren, ohne Frame.io verlassen zu müssen.
+* **Weisen Sie den Aufgaben Frame.io-Benutzer zu**: Benutzer, die für Frame.io aktiviert sind, werden per E-Mail benachrichtigt, wenn sie einer Workfront-Aufgabe zugewiesen werden. Dies signalisiert, dass die Arbeit abgeschlossen ist.
+* **Projekt für Frame.io-Benutzer freigeben**: Wenn ein Projekt für Benutzer freigegeben wird, die mit Frame.io aktiviert sind, haben sie sowohl in Workfront als auch in Frame.io Zugriff auf das Projekt.
+* **Geben Sie kreative Materialien mit Frame.io frei**: Projektkoordinatoren können Anweisungen und Materialien von Workfront direkt an den kreativen Benutzer in Frame.io senden, indem sie einen unidirektionalen Synchronisierungsprojektordner verwenden. [!BADGE In Kürze verfügbar]{type=Informative}
+* **Fortschritt der Aufgabe verfolgen**: Kreative Benutzer können fertige Assets senden und Aufgaben als abgeschlossen markieren - alles ohne Frame.io zu verlassen.
 
 Weitere Informationen finden Sie unter [].
 
 <!--Preassign approval templates to tasks coming in the future-->
 
 
-## Inhaltserstellung und Zusammenarbeit in Frame.io
+## Inhaltserstellung und -zusammenarbeit in Frame.io
 
-Kreative können in ihren Tools der Wahl bleiben und die Freiheit haben, Peer Reviews in Frame.io zu erstellen, zu iterieren und durchzuführen.
+Kreative können in ihren Tools ihrer Wahl bleiben und können in Frame.io Peer Reviews erstellen, durchlaufen und durchführen.
 
-Wenn ein Kreativprofi einem verbundenen Projekt hinzugefügt wird, kann er Folgendes tun, ohne Frame.io verlassen zu müssen:
+Wenn einem verbundenen Projekt ein kreatives Element hinzugefügt wird, können sie Folgendes in Frame.io tun:
 
-* Zugreifen auf Anweisungen des Projektkoordinators
+<!--* Access instructions from the project coordinator -->
 * Durchführung informeller Peer Reviews
-* Senden fertiger Assets zur formellen Überprüfung und Genehmigung an Workfront
-* Status einer Aufgabe ändern oder als abgeschlossen markieren
-<!-- * Notification of decision
-* Upload new versions of connected assets marked as needs more work < will automatically connect>-->
+* Senden fertiger Assets an Workfront zur formalen Überprüfung und Genehmigung
+* Status einer Aufgabe ändern oder sie als abgeschlossen kennzeichnen
+* Hochladen neuer Versionen und anschließendes erneutes Übermitteln zur Genehmigung <!--do they have to send to frame.io again?-->
 
-Weitere Informationen zum Überprüfen von Assets in Frame.io finden Sie unter
+Weitere Informationen zum Überprüfen von Assets in Frame.io finden Sie unter [].
 
 ## Überprüfen und Genehmigen von Assets
 
-Sobald ein Kreativprofi ein fertiges Asset von Frame.io an Workfront sendet, kann der Projektkoordinator den formalen Prüfungs- und Genehmigungsprozess in Workfront einleiten.
+Sobald ein Kreativelement ein fertiges Asset von Frame.io an Workfront sendet, kann der Projektkoordinator den formalen Review- und Genehmigungsprozess in Workfront starten.
 
-Nachdem die Genehmigung erstellt wurde, gehen Benutzer zurück zu Frame.io, um das Asset zu kommentieren und zu markieren. Sie können auch eine Genehmigungsentscheidung im Frame.io-Viewer treffen.
+Nachdem der Genehmigungs-Workflow erstellt wurde, kehren Prüfer und Genehmiger zu Frame.io zurück, um Kommentare hinzuzufügen und das Asset zu markieren. Sie können die Genehmigungsentscheidung auch im Frame.io-Viewer treffen.
 
-### Starten von formellen Überprüfungen und Genehmigungen in Workfront
+### Einleitung förmlicher Prüfungen und Genehmigungen in Workfront
 
-Projektkoordinatoren können im Bereich „Setup“ von Workfront einmalige Prüfungs- und Validierungsvorlagen oder wiederverwendbare Validierungsvorlagen erstellen. Alle in Frame.io durchgeführten Prüf- und Genehmigungsaktivitäten werden ebenfalls in Workfront aufgezeichnet.
+Projektkoordinatoren können einmalige Prüfungs- und Validierungsvorlagen oder wiederverwendbare Validierungsvorlagen erstellen. Alle Review- und Genehmigungsaktivitäten in Frame.io werden ebenfalls in Workfront aufgezeichnet.
 
-#### Validierungsverantwortliche und genehmigende Personen hinzufügen
+#### Hinzufügen von Validierungsverantwortlichen und Genehmigern
 
-Projektkoordinatoren haben die Möglichkeit, Prüfer, genehmigende Personen oder eine Mischung aus beidem zuzuweisen:
+Projektkoordinatoren haben die Möglichkeit, Prüfer, Genehmiger oder eine Mischung aus beiden zuzuweisen:
 
-* **Reviewer** können Assets kommentieren und markieren. Nach Abschluss können sie ihre Überprüfung als abgeschlossen markieren. <!--example of when to add reviewers-->
-* **Genehmigende Personen** können Assets kommentieren und markieren. Sie müssen eine Entscheidung treffen, um den Genehmigungsprozess voranzubringen.
+* **Überprüfer** kann Kommentare hinzufügen und Assets markieren. Nach Abschluss können sie ihre Überprüfung als abgeschlossen markieren. Das Markieren der Überprüfung als abgeschlossen ist nicht erforderlich, damit das Asset im Genehmigungsprozess vorankommt.<!--example of when to add reviewers-->
+* **Genehmiger** kann Kommentare hinzufügen und Assets markieren. Sie müssen eine Entscheidung treffen, um den Genehmigungsprozess voranzubringen.
 
 
-#### Erstellen eines Prüfungs- und Validierungs-Workflows
+#### Erstellen eines Arbeitsablaufs für Überprüfung und Genehmigung
 
-Reviewer und genehmigende Personen können einem einmaligen Genehmigungs-Workflow oder einer Genehmigungsvorlage hinzugefügt werden:
+Validierungsverantwortliche und Validierungsverantwortliche können zu einem einmaligen oder wiederverwendbaren Validierungsarbeitsablauf hinzugefügt werden:
 
-<!--can also assign teams and set deadline-->
-E-Mail - Fristablauf E-Mails 72, 24 und am Fristablauf.
+* **Einzelanwendungsgenehmigungen**: Im Projekt oder in der Aufgabe, in dem sich das Asset befindet, kann der Projektkoordinator Prüfer und Genehmiger zuweisen und einen Abschlusszeitpunkt festlegen. Validierungsverantwortliche und validierungsverantwortliche Benutzer werden per E-Mail an 72 und 24 Stunden vor Ablauf der Frist sowie an die Frist selbst erinnert.
 
-* **Einmalige Genehmigungen**: Festlegen von Validierungsfristen
+* **Validierungsvorlagen**: Im Workfront-Setup-Bereich können Projektkoordinatoren wiederverwendbare Genehmigungsvorlagen erstellen. In einer Vorlage können Benutzer Überprüfer und Genehmiger hinzufügen und einen Abschlusszeitrahmen festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird der Termin aus dem festgelegten Zeitraum berechnet.
 
-* **Validierungsvorlagen**
-Im Bereich &quot;Workfront Setup“ können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Innerhalb einer Vorlage können Benutzer einen Zeitrahmen angeben und Validierungsverantwortliche und Genehmigende hinzufügen. <!--do we want to mention any upcoming plans here? -->
-
-  Nachdem eine Vorlage erstellt wurde, kann sie auf Assets angewendet werden, die von Frame.io gesendet werden, um den formalen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
+  Nachdem eine Vorlage erstellt wurde, kann sie auf Assets angewendet werden, die von Frame.io gesendet werden, um den formalen Review- und Genehmigungsprozess in Workfront zu starten.
   ![](assets/assign-template.png)
 
-<!-- can set timreframe which calculates deadline once approval is started. >
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Genehmigungsvorlagen]
+  <!--add link.-->
 
-    For more information, see [Create and manage Approval Templates](/)<!--don't forget link-->
-
-* Asset aus Workfront hochladen und zur Überprüfung und Genehmigung an Frame senden - in Kürze verfügbar?
+* Hochladen eines Assets aus Workfront und Senden dieses Assets an Frame zur Überprüfung und Genehmigung <!-- delayed? -Need more info on this workflow -->
 
 ### Genehmigen von Assets in Frame.io
 
 Stakeholder können verbundene Assets mit dem Frame.io-Viewer überprüfen und genehmigen.
 
-#### Zugriff auf den Frame.io-Viewer
+Weitere Informationen zum Überprüfen von Assets in Frame.io finden Sie unter <!-- get link from frame team?-->
 
-Benutzende können auf folgende Weise auf den Frame.io-Viewer zugreifen:
+#### Zugriff auf den Viewer Frame.io
 
-* Das Widget „Warten auf meine Genehmigung“ im neuen Bereich &quot;Workfront Home“
-* Workfront-E-Mail-Benachrichtigungen.
+Benutzer können wie folgt auf den Frame.io-Viewer zugreifen:
 
-Externe Workfront-Benutzer werden aufgefordert, eine Frame.io-Anmeldung zu erstellen, um Assets zu überprüfen und zu genehmigen.
+* Workfront-E-Mail-Benachrichtigungen
+* Das Erwartungswidget für meine Genehmigung im neuen Workfront-Startbereich
+  ![](assets/awaiting-my-approval.png)
 
-#### Kommentieren und Markieren von Assets
 
-Alle im Frame.io-Viewer abgegebenen Kommentare werden auch auf der Registerkarte Workfront-Update aufgezeichnet. In Workfront durchgeführte Antworten werden nicht in Frame.io angezeigt. Kommentare, die als Nur Team markiert sind, werden nicht auf der Registerkarte Workfront-Updates angezeigt.
+>[!NOTE]
+>
+>Externe Workfront-Benutzer werden per E-Mail benachrichtigt und aufgefordert, eine Frame.io-Anmeldung zur Überprüfung und Genehmigung von Assets zu erstellen.
+<!-- is this right?-->
 
-#### Entscheidung treffen
 
-Genehmigende Personen müssen eine der folgenden Entscheidungen treffen:
+#### Kommentare hinzufügen und Assets markieren
 
-* Genehmigen: Dies
-* Mit Änderungen genehmigt
-* Muss bearbeitet werden
+Alle im Frame.io-Viewer abgegebenen Kommentare werden auch auf der Registerkarte Workfront-Updates aufgezeichnet. In Workfront vorgenommene Antworten werden nicht in Frame.io angezeigt. Wenn Kommentare im Frame.io-Viewer als &quot;Nur Team&quot;markiert sind, werden sie nicht auf der Registerkarte Workfront-Updates angezeigt.
 
-Reviewer können ihre Reviews innerhalb der Frame.io-Viewer als abgeschlossen markieren.
+#### Entscheidungsfindung
 
-<!-- include screenshot from frame.io-->
+Sobald alle Überprüfungsaktivitäten abgeschlossen sind, müssen Genehmiger eine der folgenden Entscheidungen treffen:
 
+* Genehmigen: Das Asset muss nicht geändert werden und kann verwendet werden.
+* Mit Änderungen genehmigen: Das Asset muss geändert werden und kann verwendet werden, sobald es vorgenommen wurde. Eine zusätzliche Genehmigung ist nicht erforderlich.
+* Muss funktionieren: Das Asset muss geändert werden und kann nicht verwendet werden. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Asset als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+
+Überprüfer können ihre Überprüfung als abgeschlossen im Frame.io-Viewer markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess vorankommt. <!--check if this is accurate -->
+
+![](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,19 +166,23 @@ Reviewer/approver needs to go through email to get to frame vier
 -->
 
 
-### Nachverfolgen von Prüfungs- und Genehmigungsmetriken
+### Metriken für Überprüfung und Genehmigung verfolgen
 
-Widgets im Geschwindigkeitsbericht für die Startseiten-Genehmigung ?
+Projektkoordinatoren können den Fortschritt aller Genehmigungen während des Fluges im Workfront-Startbereich mit dem folgenden Widget überwachen:
 
-<!--
-### Published approved assets to Adobe Experience Manager Assets
-
-Use the native integration to send approved assets to AEM.
--->
+* **Alle Genehmigungen**: Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.
+  ![](assets/all-approvals.png)
 
 
-## Beispiel für einen Workflow zur Validierung von Kampagnen-Assets
+### Senden genehmigter Assets an Adobe Experience Manager Assets
 
-Intro para?
+<!-- deprioritized?-->
+Verwenden Sie die native Integration, um genehmigte Assets an Adobe Experience Manager Assets zu senden.
 
-![](assets/example-workflow.png) <!-- probbly need a different version of this but add something similar rather than typing all out?-->
+^ weitere Informationen benötigen
+
+## Beispiel für einen Workflow zur Asset-Genehmigung einer Kampagne
+
+<!-- do we still want something like this?-->
+
+![](assets/example-workflow.png) - Sie benötigen wahrscheinlich eine andere Version davon oder sogar eine Videoeinführung
