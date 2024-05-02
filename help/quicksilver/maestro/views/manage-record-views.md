@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1091'
 ht-degree: 1%
 
 ---
@@ -99,6 +99,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Filter
    * Gruppierung
    * Sortieren
+   * Balken-Erscheinungsbild (für die Timeline-Ansicht)
 
   <!-- some of these are not available in all of the views - edit above-->
 

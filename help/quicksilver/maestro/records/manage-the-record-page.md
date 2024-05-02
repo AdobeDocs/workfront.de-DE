@@ -1,13 +1,13 @@
 ---
 title: Datensatzseite verwalten
-description: Sie können das Layout des Datensatzfelds und der Seite in der Adobe Workfront-Planung bearbeiten.
+description: Sie können das Layout der Datensatzvorschau und -seite in der Adobe Workfront-Planung bearbeiten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Sie können das Layout des Datensatzfelds und der Seite in der Adobe Workfront-Planung bearbeiten. Sie können das Datensatzfeld in einer Datensatzansicht anzeigen.
+Sie können das Layout der Datensatzvorschau und -seite in der Adobe Workfront-Planung bearbeiten.
 
-Das Datensatzfeld ist eine kleinere Ansicht der Datensatzseite, die in der Ansicht eines Datensatztyps angezeigt wird.
+Die Datensatzvorschau ist eine kleinere Ansicht der Datensatzseite, die in der Ansicht eines Datensatztyps angezeigt wird.
 
-Wenn Sie das Layout eines Datensatzfelds und einer Seite ändern, werden das Feld und die Seite für alle Datensätze desselben Typs geändert.
+Wenn Sie das Layout einer Datensatzvorschau und -seite ändern, wirken sich die Änderungen auf die Felder und Seiten aller Datensätze desselben Typs aus.
 
 Sie müssen Datensatztypen und Datensätze erstellen, bevor Sie mit der Bearbeitung von Datensatzseiten beginnen können.
 
@@ -93,10 +93,100 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Bearbeiten von Datensatzseiten
 
-* Durch das Neuanordnen von Feldern in der Datensatzbox oder Seite werden die Felder für alle Datensätze dieses Typs und für alle Benutzer, die auf diese Datensätze zugreifen, neu angeordnet.
-* Das Hinzufügen eines Titelbilds zu einem Datensatz ist nicht Teil des Gesamtlayouts des Datensatzfelds oder der Seite. Sie können jedem Datensatz eindeutige Titelbilder hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+* Durch das Neuanordnen von Feldern in der Datensatzvorschau oder Seite werden die Felder für alle Datensätze dieses Typs und für alle Benutzer, die auf diese Datensätze zugreifen, neu angeordnet.
 
-## Felder im Datensatzfeld oder auf der Seite neu anordnen
+* Änderungen an der Anzeige, die Sie in der Datensatzvorschau vornehmen, werden sofort auf der Seite mit den Datensatzdetails angezeigt. Änderungen, die auf der Datensatzseite vorgenommen wurden, sind auch im Vorschaufeld der Datensätze sichtbar.
+
+<!--Replace the first bullet with this when we add sections:
+
+* The following changes affect all the records of the same type and are visible to all users accessing those records: 
+
+   * Rearranging fields
+   * Adding or removing sections
+-->
+
+* Das Hinzufügen eines Titelbilds zu einem Datensatz ist nicht Teil des Gesamtlayouts der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+<!--
+
+## Add sections to a record preview or page
+
+You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+
+Consider the following when adding sections to a record page:
+
+* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
+* You cannot have an empty section. You must have at least one field in a section. 
+* You can drag and drop fields from one section to another. 
+* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
+
+To add a section to a record preview or page: 
+
+{{step1-to-maestro}}
+
+The workspace that you access last opens. 
+
+1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+1. Click a record type card. 
+
+    The record type page opens. 
+
+1. From a view of any type, click the name of a record 
+
+    Or 
+    
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    
+    The record's preview opens in the view.
+
+    ![](assets/details-box.png) 
+
+    >[!TIP]
+    >
+    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+
+    The record page opens. 
+
+    ![](assets/details-page.png)
+
+1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
+1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+
+1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+
+   ![](assets/more-menu-options-for-section-on-record-page.png)
+1. (Optional) Do one of the following to edit the section: 
+
+   * Click **Rename** to rename the section
+
+      >[!TIP]
+      >
+      > You can rename a section inline, by clicking the name.
+   
+   * Click **Move up** to move the section up one position 
+
+      Or 
+      
+      Click **Move down** to move the section down one position.
+      All fields in the section move with the section. 
+
+   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+
+1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
+   All sections are expanded by default. 
+
+1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+
+    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+
+    All changes to sections and field order are saved automatically. 
+
+-->
+
+## Neuanordnen von Feldern in der Datensatzvorschau oder auf der Seite
 
 {{step1-to-maestro}}
 
@@ -113,7 +203,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens.
 
-   Das Feld des Datensatzes wird in der Ansicht geöffnet.
+   Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
@@ -121,15 +211,15 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
    >
    >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
    ![](assets/details-page.png)
 
-1. Klicken Sie im Datensatzfeld oder auf der Seite auf das Symbol &quot;Grab&quot; ![](assets/grab-icon.png) links neben einem Feldnamen, und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position.
+1. Klicken Sie in der Datensatzvorschau oder -seite auf die **Grab** icon ![](assets/grab-icon.png) links neben einem Feldnamen, und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
-   Die neue Position des Felds wird sowohl im Feld als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
+   Die neue Position des Felds wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 
-   Alle Änderungen am Layout des Datensatzfelds oder der Seite werden automatisch gespeichert.
+   Alle Änderungen am Layout der Datensatzvorschau oder der Seite werden automatisch gespeichert.
 

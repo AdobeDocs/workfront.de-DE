@@ -1,18 +1,18 @@
 ---
 title: Felder bearbeiten
-description: In der Adobe Workfront-Planung können Sie die Feldeinstellungen für bereits erstellte Felder bearbeiten.
+description: In der Adobe Workfront-Planung können Sie die Feldeinstellungen für bereits erstellte Felder bearbeiten. In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -35,18 +35,26 @@ Informationen zum Erstellen von Adobe Workfront-Planungsfeldern finden Sie unter
 
 In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
-## Überlegungen zum Bearbeiten von Feldinformationen
+## Überlegungen zum Bearbeiten von Feldeinstellungen
+
+Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds vornehmen:
 
 * Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
 * Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
-* Sie können ein Feld auf der Datensatzseite oder in der Timeline-Ansicht nicht bearbeiten.
+* Sie können ein Feld auf der Datensatzseite oder in einer anderen Ansicht außerhalb der Tabellenansicht nicht bearbeiten.
 * Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
 * Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
 ## Zugriffsanforderungen
@@ -110,7 +118,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Felder bearbeiten
+## Feldeinstellungen bearbeiten
 
 {{step1-to-maestro}}
 
@@ -122,7 +130,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf die Karte für den Datensatztyp, dessen Felder Sie bearbeiten möchten.
 
    Dadurch wird die Seite des Datensatztyps geöffnet.
-1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
+1. (Bedingt) Klicken Sie auf die Registerkarte eines **Tabellenansicht**.
 1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Feld bearbeiten**
 
    Oder
@@ -138,6 +146,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!TIP]
    >
    >Nach dem Speichern des Felds kann der Feldtyp nicht mehr aktualisiert werden.
+
+   Die Feldinformationen werden für alle Benutzer mit Zugriff auf den Arbeitsbereich aktualisiert.
+
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
+
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
 
 
 1. (Bedingt) Klicken Sie für verknüpfte Datensatzfelder auf **Suchfelder bearbeiten** und fügen Sie eines der Felder aus dem verknüpften Datensatztyp hinzu oder entfernen Sie es.

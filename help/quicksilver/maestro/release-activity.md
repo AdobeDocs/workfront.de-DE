@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Woche vom 29. April 2029
+
+### Echtzeitaktualisierungen des Datensatzdetailfelds und der Seite nach der Bearbeitung von Datensätzen in der Tabellenansicht
+
+Produktion: 2. Mai 2024
+
+Vorschau: zu bestimmen
+
+Wenn ein Benutzer die Informationen zu einem Datensatz in der Tabellenansicht aktualisiert, können andere Benutzer die aktualisierten Informationen im Detailfeld des Datensatzes (innerhalb einer Ansicht) oder auf der Seite in Echtzeit anzeigen. Dadurch wird sichergestellt, dass alle Benutzer die aktualisierten Informationen gleichzeitig und synchron mit dem Zeitpunkt der Änderungen anzeigen.
+
+Informationen zum Bearbeiten von Datensätzen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Produktion: 4. April 2024
 
 Vorschau: zu bestimmen
 
-Als Workspace-Manager können Sie jetzt die auf der Datensatzseite oder im Feld aufgelisteten Felder neu anordnen. Durch die Aktualisierung der Reihenfolge der Felder wird die Reihenfolge der Felder in allen Datensätzen desselben Typs für alle geändert, die die Datensatzseite oder das Datensatzfeld anzeigen.
+Als Workspace-Manager können Sie jetzt die auf der Datensatzseite oder in der Vorschau aufgelisteten Felder neu anordnen. Durch die Aktualisierung der Reihenfolge der Felder wird die Reihenfolge der Felder in allen Datensätzen desselben Typs für alle geändert, die die Datensatzseite oder die Datensatzvorschau anzeigen.
 
 Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Produktion: 4. April 2024
 
 Vorschau: zu bestimmen
 
-Bei der Verwaltung von Datensatzseiten können Sie jetzt ein Titelbild auf einer Datensatzseite oder einem Feld hinzufügen, neu positionieren und ersetzen, um die Präsentation des Datensatzes und die Interaktion der Interessenträger zu bereichern. Titelbilder sind für alle Benutzer sichtbar, die die Datensätze anzeigen.
+Bei der Verwaltung von Datensatzseiten können Sie jetzt ein Titelbild auf einer Datensatzseite oder in einer Vorschau hinzufügen, neu positionieren und ersetzen, um die Präsentation des Datensatzes und die Interaktion der Interessenträger zu bereichern. Titelbilder sind für alle Benutzer sichtbar, die die Datensätze anzeigen.
 
 Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Vorschau: zu bestimmen
 
 Sie können jetzt Informationen in der Kalenderansicht filtern. Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Feld mit Datensatzdetails zur Timeline- und Kalenderansicht hinzugefügt
+### Vorschau mit Datensatzdetails, die der Timeline- und Kalenderansicht hinzugefügt wurden
 
 Produktion: 19. März 2024
 
 Vorschau: zu bestimmen
 
-Sie können jetzt auf ein Feld mit Datensatzdetails aus der Timeline- und Kalenderansicht zugreifen. Sie können Datensätze im Datensatzfeld in der Timeline- und Kalenderansicht bearbeiten.
+Sie können jetzt auf die Vorschau mit Datensatzdetails aus der Timeline- und Kalenderansicht zugreifen. Sie können Datensätze im Vorschaufeld des Datensatzes in der Timeline- und Kalenderansicht bearbeiten.
 
-Über das Datensatzfeld können Sie die Datensatzseite in einer neuen Browser-Registerkarte öffnen.
+Über die Vorschau des Datensatzes können Sie die Datensatzseite in einer neuen Browser-Registerkarte öffnen.
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Produktion: 14. März 2024
 
 Vorschau: zu bestimmen
 
-Um bei Verwendung der Tabellenansicht die Anzeige zusätzlicher Informationen zu Datensätzen zu vereinfachen, haben wir ein neues Feld mit Details eingeführt, in dem eine schnelle Ansicht der Datensatzdetails angezeigt wird. Im Folgenden finden Sie einige der in diesem Feld enthaltenen Informationen:
+Um bei Verwendung der Tabellenansicht die Anzeige zusätzlicher Informationen über Datensätze zu vereinfachen, haben wir eine neue Detailvorschau eingeführt, die einen schnellen Überblick über die Datensatzdetails bietet. Im Folgenden finden Sie einige der Informationen, die in der Datensatzvorschau enthalten sind:
 
 * Relevante Datensatzdetails auf einen Blick
 

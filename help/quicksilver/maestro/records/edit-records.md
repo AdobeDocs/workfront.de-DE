@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Sie können von Ihnen erstellte Datensätze oder von anderen Benutzern erstellte Datensätze bearbeiten, wenn Sie über Berechtigungen für den Arbeitsbereich verfügen.
 * Sie können Datensatzfelder aus den folgenden Bereichen bearbeiten:
 
-   * Das Datensatzfeld in einer Datensatzansicht
+   * Vorschau des Datensatzes in einer Datensatzansicht
    * Die Datensatzseite
    * Inline in einer Tabellenansicht.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* Wenn ein Benutzer einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und den Datensatzseiten für alle anderen Benutzer sichtbar.
 
 * Die folgenden Feldtypen werden automatisch aktualisiert und ihre Werte können nicht manuell bearbeitet werden:
    * Verknüpfte Felder anderer Datensätze
@@ -113,7 +113,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 * [Aus der Tabellenansicht eines Datensatztyps](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Aus dem Datensatzfeld in einer Ansicht](#edit-a-record-from-the-records-box-in-a-view)
+* [Über die Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-box-in-a-view)
 * [Auf der Datensatzseite](#edit-a-record-from-the-records-page)
 
 ### Datensatz in der Tabellenansicht eines Datensatztyps inline bearbeiten
@@ -188,7 +188,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 1. (Optional) Fügen Sie einem Datensatz eine Miniaturansicht hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Datensatz aus dem Datensatzfeld in einer Ansicht bearbeiten
+### Datensatz aus der Datensatzvorschau in einer Ansicht bearbeiten
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens. Das Feld des Datensatzes wird in der Ansicht geöffnet.
+   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
    >
    >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
-1. Beginnen Sie mit der Bearbeitung der Feldinformationen im Datensatzfeld.
+1. Beginnen Sie mit der Bearbeitung der Feldinformationen in der Datensatzvorschau.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Datensatzseite bearbeiten](#edit-a-record-from-the-records-page) in diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz weiter wie unter [Datensatz auf der Datensatzseite bearbeiten](#edit-a-record-from-the-records-page) in diesem Artikel beschrieben.
 
 ### Datensatz auf der Datensatzseite bearbeiten
 
@@ -241,7 +241,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Greifen Sie in jeder Ansicht auf das Feld des Datensatzes zu, wie im Abschnitt [Datensatz aus dem Datensatzfeld in einer Ansicht bearbeiten](#edit-a-record-from-the-records-box-in-a-view) in diesem Artikel und klicken Sie dann auf das **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+   * Greifen Sie in jeder Ansicht auf die Vorschau des Datensatzes zu, wie in der [Datensatz aus der Datensatzvorschau in einer Ansicht bearbeiten](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel und klicken Sie dann auf das **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    * Aus dem **Verzeichnis** Ansicht, bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
 

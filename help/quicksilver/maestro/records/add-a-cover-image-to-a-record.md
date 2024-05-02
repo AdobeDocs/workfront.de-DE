@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Beachten Sie Folgendes:
 * Ein Titelbild ist für einen Datensatz eindeutig und gilt nicht für alle Datensätze desselben Typs.
 * Sie können nur Bilddateien als Titelbilder hinzufügen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Sie können ein Titelbild zu einzelnen Datensätzen aus dem Datensatzfeld in jeder Ansicht oder aus der Datensatzseite hinzufügen.
+* Sie können einzelnen Datensätzen über die Datensatzvorschau in jeder Ansicht oder über die Datensatzseite ein Titelbild hinzufügen.
 * Es ist nicht möglich, Titelbilder inline aus Datensatzansichten hinzuzufügen.
 
 ## Hinzufügen eines Titelbilds zu einem Datensatz
 
-Sie können einen Datensatz personalisieren, indem Sie am oberen Rand des Datensatzfelds oder der Seite ein Titelbild hinzufügen.
+Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvorschau oder -seite ein Titelbild hinzufügen.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
    Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens.
 
-   Das Feld des Datensatzes wird in der Ansicht geöffnet.
+   Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
    >
    >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke des Datensatzfelds, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
    ![](assets/details-page.png)
 
-1. Klicken Sie im Datensatzfeld oder auf der Seite auf **Deckblatt hinzufügen**. <!--check the casing here; I logged a bug for this-->
+1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen**. <!--check the casing here; I logged a bug for this-->
 Die **Datensatzabdeckung** wird geöffnet.
 
 1. Klicks **Hochladen auswählen** und suchen Sie nach einem Bild auf Ihrem Computer, das Sie auswählen, hinzufügen und klicken Sie dann auf **Bild verwenden**.
 
-   Das Bild wird am oberen Rand des Datensatzfelds oder der Seite hochgeladen und die Änderungen werden automatisch gespeichert.
+   Das Bild wird oben auf der Datensatzvorschau oder Seite hochgeladen und die Änderungen werden automatisch gespeichert.
 
    ![](assets/record-page-with-cover-image.png)
 

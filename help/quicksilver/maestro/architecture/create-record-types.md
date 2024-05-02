@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 1%
 {{maestro-important-intro}}
 
 Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. In der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die die im Lebenszyklus Ihres Unternehmens benötigten arbeitsbezogenen Elemente veranschaulichen.
-Datensatztypen können eine der folgenden sein:
 
 Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
