@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Vorschau: zu bestimmen
 Wenn ein Benutzer die Informationen zu einem Datensatz in der Tabellenansicht aktualisiert, können andere Benutzer die aktualisierten Informationen im Detailfeld des Datensatzes (innerhalb einer Ansicht) oder auf der Seite in Echtzeit anzeigen. Dadurch wird sichergestellt, dass alle Benutzer die aktualisierten Informationen gleichzeitig und synchron mit dem Zeitpunkt der Änderungen anzeigen.
 
 Informationen zum Bearbeiten von Datensätzen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/maestro/records/edit-records.md).
+
+### Echtzeit-Aktualisierungen in der Kalenderansicht nach der Bearbeitung von Datensätzen
+
+Produktion: 3. Mai 2024
+
+Vorschau: Noch festzulegen.
+
+Wenn ein Benutzer die Informationen zu einem Datensatz aktualisiert, können andere Benutzer die aktualisierten Informationen in der Kalenderansicht des Datensatzes in Echtzeit anzeigen. Dadurch wird sichergestellt, dass alle Benutzer die aktualisierten Informationen gleichzeitig und synchron mit dem Zeitpunkt der Änderungen anzeigen.
 
 <!--
 
