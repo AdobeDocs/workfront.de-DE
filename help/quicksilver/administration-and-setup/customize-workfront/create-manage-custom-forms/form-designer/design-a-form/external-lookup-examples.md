@@ -7,9 +7,10 @@ description: Ein Feld "Externe Suche"in einem benutzerdefinierten Formular ruft 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Ein Feld &quot;Externe Suche&quot;in einem benutzerdefinierten Formular ruft ein
 
 In diesem Artikel finden Sie Beispiele für die Verwendung des Felds Externe Suche , um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können auch die externe Suche verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
-Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular sowie zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Externe Suchfelder sind nur im neuen Formularentwickler verfügbar, nicht im alten Formularersteller. Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular sowie zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Einrichten eines externen Suchfelds für dieselbe Instanz von Workfront
 
@@ -127,4 +128,3 @@ Listet alle Länder auf: <https://api.first.org/data/v1/countries>
    ![Benutzerdefiniertes Formular mit externem Suchfeld](assets/external-lookup-countries-example1.png)
 
    ![Externe Suchoptionen für ein Land basierend auf einer Region](assets/external-lookup-countries-example2.png)
-

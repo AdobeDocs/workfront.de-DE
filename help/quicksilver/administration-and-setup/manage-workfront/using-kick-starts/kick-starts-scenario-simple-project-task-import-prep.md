@@ -5,11 +5,11 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Kick-Starts - einfache Projekt- und Aufgabenimportvorbereitung
 description: Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick Start-Methode.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -277,10 +277,10 @@ Gehen Sie zur Seite Kick-Starts . Wählen Sie die Objekte Firma, Gruppe, Projekt
 
 Öffnen Sie die soeben heruntergeladene Datei Workfront.xlsx . Gehen Sie zum PROJ-Projektblatt.
 
-![](assets/im2-350x14.png)\
+![](assets/im2.png)
 Sofern Sie keine Projekte in Workfront bereits erstellt haben, sollte diese leer sein.
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
 Legen Sie die Werte für die folgenden Projektfelder fest:
 
@@ -305,7 +305,7 @@ Geben Sie das geplante Startdatum für jedes Projekt in die Spalte setPlannedSta
 * **Legen Sie weitere benötigte Details fest.**
 Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktuellen Status. Suchen Sie die Gruppen-IDs für jedes Projekt auf der Tabelle &quot;GRUPPENgruppe&quot;und geben Sie sie in die Spalte &quot;setGroupID&quot;für die jeweiligen Projekte ein. Suchen Sie im Arbeitsblatt CMPY Company nach der Firmen-ID für die Projekte und geben Sie sie in die Spalte setCompanyID ein. Suchen Sie die Benutzer-ID für jeden Projekteigentümer auf dem USER User-Blatt und geben Sie sie in die Spalte setOwnerID ein. Suchen Sie die Benutzer-ID für jeden Projektsponsor auf dem USER User-Blatt und geben Sie sie in die Spalte setSponsorID ein.
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Sie können Informationen zu den Aufgaben im Projekt hinzufügen, während Sie d
 
 Sofern Sie keine Aufgaben in Workfront bereits erstellt haben, sollte dieses Blatt leer sein.
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
 Die einfachste Möglichkeit, Aufgaben zuzuordnen, besteht darin, jeweils nur ein Projekt zuzuordnen (insbesondere dann, wenn die Aufgaben in jedem Projekt gleich sind). Anschließend können Sie den Aufgabenplan für das erste Projekt kopieren und kleine Anpassungen am Aufgabenplan für die nachfolgenden Projekte vornehmen. Bei den verbleibenden Schritten wird davon ausgegangen, dass Sie Aufgaben nur für das Projekt &quot;Implementieren von Workfront&quot;erstellen. Gemäß dem Szenario importieren Sie 9 Aufgaben pro Projekt. Geben Sie daher TRUE in die Zeilen 3 bis 11 für die Spalte isNew ein.
 
@@ -364,7 +364,7 @@ Legen Sie die Dauer für jede Aufgabe fest, indem Sie im Feld setDuration die An
 * Geben Sie für jede Aufgabe im Feld setPercentComplete die gesamte Zahlendarstellung des vollständigen Prozentsatzes ein. Dieser Wert sollte nicht das Prozentsymbol (%) enthalten.
 * Fügen Sie bei Bedarf eine Beschreibung und weitere Details für jede Aufgabe ein, die Sie erstellen.
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
 * Die Spalten setPlannedStartDate und setTaskConstraint werden nicht zum Erstellen der Timeline dieses Projekts verwendet, da wir auf Vorgängerbeziehungen angewiesen sind. Stattdessen können Sie für jede Aufgabe ein Datum eingeben. Stellen Sie in diesem Fall sicher, dass Sie auch eine gültige Aufgabenbegrenzung in der Spalte setTaskConstraint angeben. Weitere Informationen zu gültigen Werten für dieses Feld finden Sie in den Artikeln zur Aufgabenbegrenzung und den zugehörigen .
 
