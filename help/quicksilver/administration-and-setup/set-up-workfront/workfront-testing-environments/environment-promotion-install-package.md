@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ Sie müssen ein Paket erstellt haben, bevor Sie es installieren können.
 
 Anweisungen finden Sie unter [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## Paketstatus für die Installation
+
+Ein Paket muss den Status AKTIV aufweisen, damit es in Ihrer Produktionsumgebung installiert werden kann.
+
+Es wird empfohlen, das Paket in den TESTING-Status zu verschieben und es in einer anderen Sandbox zu installieren, um das Paket zu testen.  Wenn dieser Test erfolgreich und fehlerfrei ist, verschieben Sie das Paket nach ACTIVE , um es in Ihrer Produktionsumgebung zu installieren.
+
+So bearbeiten Sie den Status eines Pakets:
+
+1. Wählen Sie das Paket wie unter  [Bearbeiten oder Zusammenführen eines vorhandenen Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) im Artikel Erstellen und Bearbeiten von Umgebungs-Promotion-Paketen.
+1. Klicks **Paket bearbeiten**.
+1. Klicks **Status**.
+1. Wählen Sie den gewünschten Status aus dem Dropdownmenü aus.
+
+Weitere Informationen zu Status finden Sie unter [Status der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel Überblick über das Verschieben von Objekten zwischen Workfront-Umgebungen.
+
+## Paket installieren
+
 >[!NOTE]
 >
->Um ein Paket zu installieren, müssen Sie in der Umgebung angemeldet sein, in der Sie das Paket installieren möchten. Dies ist die Umgebung, in die Sie Objekte kopieren **nach**.
+>* Um ein Paket zu installieren, müssen Sie in der Umgebung angemeldet sein, in der Sie das Paket installieren möchten. Dies ist die Umgebung, in die Sie Objekte kopieren **nach**.
 
 1. Gehen Sie zur Umgebung, in der Sie das Paket installieren möchten.
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
