@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
+source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
 workflow-type: tm+mt
 source-wordcount: '14212'
 ht-degree: 1%
@@ -2097,7 +2097,7 @@ ht-degree: 1%
          * [Basisszenario erstellen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
          * [Fügen Sie ein Trigger-Modul zu einem Basisszenario in hinzu. [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
          * [Verwenden Sie eine Funktion, um ein Projekt in einem einfachen Szenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [Filter zu einem einfachen Szenario hinzufügen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [Filter zu einem einfachen Szenario hinzufügen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
          * [Einen Webhook zu einem grundlegenden Szenario hinzufügen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Erstellen eines Szenarios für die Automatisierung von Verfahren in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Erstellen eines Szenarios für die Integration von Verfahren in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
