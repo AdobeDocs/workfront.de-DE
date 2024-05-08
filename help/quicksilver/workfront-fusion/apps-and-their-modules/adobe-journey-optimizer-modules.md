@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: a61459db5174e8159b72293f0eed0162cc03f6d1
+source-git-commit: 35c4043c40a374006e0023be5a1e942e95a63863
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Connector wird nicht mehr unterstützt.
+>Dieser Connector wird nicht mehr unterstützt, da er auf Adobe Journey Optimizer-APIs basiert, die jetzt nicht mehr unterstützt werden.
+>
+>Wir arbeiten derzeit an einem neuen Connector, der auf der neuen Adobe Journey Optimizer-API basiert.
 
 <!--
 
