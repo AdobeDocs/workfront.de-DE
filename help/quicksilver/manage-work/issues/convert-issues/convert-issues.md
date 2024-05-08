@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 
 ## Überlegungen beim Konvertieren von Problemen
 
+* Beim Konvertieren von Problemen in Aufgaben oder Projekte werden die meisten Informationen aus dem Problem an die Aufgabe oder das Projekt übertragen, sofern in diesem Artikel nichts anderes angegeben ist.
 * Ihr Workfront-Administrator oder -Gruppenadministrator hat bereits die Voreinstellungen für das Auftreten eines Problems, dessen Lösung und den Zugriff seines Primären Kontakts bei der Konvertierung in ein Projekt oder eine Aufgabe festgelegt, wie in [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront entfernt alle Genehmigungen, die mit Problemen während der Konvertierung verbunden sind.
 * Workfront überschreibt das Auflösungsobjekt des Problems, wenn Sie es in eine Aufgabe oder ein Projekt konvertieren. Die neue Aufgabe oder das neue Problem wird nach der Konvertierung zum neuen Auflösungsobjekt des Problems.
@@ -76,7 +77,9 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Priorität</td> 
-   <td>Übertragungen aus der Vorlage. </td> 
+   <td><p>Übertragungen aus dem Problem.</p>
+   <p>Wenn Sie eine Vorlage für das konvertierte Projekt verwenden, können Sie die Priorität manuell ändern. Wenn Sie es nicht ändern möchten, wird die Priorität des Problems an das Projekt übertragen. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
+   <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
   </tr> 
   <tr> 
    <td>Programm</td> 
-   <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
+   <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
   </tr> 
   <tr> 
    <td>Gruppe</td> 
@@ -132,7 +135,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
    <td>Übertragungen aus dem Feld "Vorlagen-Sponsor"auf der Vorlage. Andernfalls ist dieses Feld leer.</td> 
   </tr> 
   <tr> 
-   <td>Ressourcen-Manager</td> 
+   <td>Ressourcenmanager</td> 
    <td>Übertragungen aus der Vorlage. Andernfalls ist dieses Feld leer.</td> 
   </tr> 
   <tr> 
@@ -157,7 +160,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 | Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich &quot;Projektdetails&quot; | Aufgabenliste oder Bericht | Bereich &quot;Aufgabendetails&quot; |
 |---|---|---|---|---|---|
 | Name des Problems | Name des konvertierten Problems | ms | ms | ms | ms |
-| Hauptansprechpartner | Name des konvertierten Emittenten | ms | `✔` | ms |   |
-| Eingabedatum | Einstiegsdatum der konvertierten Ausgabe | ms |   | ms |   |
+| Hauptansprechpartner | Name des konvertierten Emittenten | ms | `✔` | ms |  |
+| Eingabedatum | Problem-Eingabedatum konvertiert | ms |  | ms |  |
 
 
 >[!CAUTION]

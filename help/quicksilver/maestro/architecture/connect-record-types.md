@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Um Adobe Workfront Planning-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p> </td>
+   <p> Adobe Workfront</p> <p>Um Adobe Workfront Planning-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>

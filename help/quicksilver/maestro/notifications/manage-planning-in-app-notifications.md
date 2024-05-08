@@ -4,9 +4,9 @@ description: Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden,
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Wenn Sie von jemandem in einem Datensatzkommentar markiert werden, erhalten Sie möglicherweise eine In-App-Benachrichtigung für dieses Tag.
+
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
+>
+>Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Informationen zum Taggen anderer in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Um Benachrichtigungen von Workfront Planning erhalten zu können, muss die Workfront-Instanz Ihres Unternehmens auf dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -76,12 +83,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 
-## Voraussetzungen
-
-Ihr Unternehmen muss Adobe Unified Experience Workfront-Kunde sein, damit Sie eine In-App-Benachrichtigung erhalten, wenn Sie von einem Benutzer in einem Datensatzkommentar markiert werden.
-
-Informationen dazu, ob Sie Adobe Unified Experience-Benutzer sind, finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## In-App-Benachrichtigungen verwalten
 
 1. (Bedingt) Nachdem jemand einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zu In-App **Benachrichtigungen** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Informationen dazu, ob Sie Adobe Unified Experience-Benutzer sind, finden Sie un
 
 1. Klicken Sie auf die Benachrichtigung.
 
-   Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
+   Die Seite mit den Datensatzdetails wird in der Workfront-Planung geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
 
 1. (Optional) Klicken Sie auf **Alle als gelesen markieren** um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
 1. (Optional) Klicken Sie auf **Alle anzeigen** , um zu **Benachrichtigungen** in Adobe Experience Cloud.

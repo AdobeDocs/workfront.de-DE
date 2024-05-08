@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um Adobe Workfront Planning-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein.</p>
+   <p>Um Adobe Workfront Planning-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>

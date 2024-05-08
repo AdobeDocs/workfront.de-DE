@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. Aktualisieren Sie die folgenden Informationen:
 
-   * Ersetzen Sie &quot;Unbenannter operationeller Datensatztyp&quot;durch den Namen Ihres künftigen Datensatztyps. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Ersetzen Sie &quot;Untitled record type&quot;durch den Namen Ihres künftigen Datensatztyps. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beschreibung**: Fügen Sie weitere Informationen zum Datensatztyp hinzu.
    * Wählen Sie eine Farbe und Form für das dem Datensatztyp zugeordnete Symbol aus. Gehen Sie wie folgt vor:
       * Wählen Sie eine Farbe aus, um Ihren neuen Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp. Graustufen ist standardmäßig ausgewählt.
@@ -155,8 +155,11 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 1. Klicken Sie auf **Erstellen**.
 
    Die Karte vom Typ Datensatz wird dem ausgewählten Bereich und Arbeitsbereich hinzugefügt.
-Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezeigt.
-1. (Optional) Bewegen Sie den Mauszeiger über die Karte des Datensatztyps und klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu bearbeiten.
+Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (Optional) Bewegen Sie den Mauszeiger über die Karte des Datensatztyps und klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu ändern.
 1. (Optional) Klicken Sie auf die Karte vom Typ Datensatz , um die Seite vom Typ Datensatz zu öffnen.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
 
 1. (Optional) Klicken Sie in der Kopfzeile auf den nach links zeigenden Pfeil neben dem Namen des Datensatztyps, um zum ausgewählten Arbeitsbereich zurückzukehren.
 
-   Die Karte vom Typ Datensatz zeigt die Anzahl der Felder und Verbindungen an, die der Datensatztyp enthält.
+1. (Optional) Klicken Sie im Arbeitsbereich auf eine Karte vom Typ Datensatz, um den Datensatztyp per Drag-and-Drop an eine gewünschte Stelle zu ziehen oder in einen anderen Bereich zu verschieben.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   Die Änderungen werden automatisch gespeichert.
 
    Weitere Informationen zum Hinzufügen von Datensätzen, zum Löschen oder Bearbeiten von Datensatztypen oder zum Aktualisieren der Ansicht auf der Seite mit dem Datensatztyp finden Sie in den folgenden Artikeln:
 
@@ -198,10 +201,6 @@ Die Anzahl der Felder, die der Datensatztyp enthält, wird auf der Karte angezei
    * [Löschen von Datensatztypen](../architecture/delete-record-types.md)
    * [Datensatztypen bearbeiten](../architecture/edit-record-types.md)
    * [Verwalten von Datensatzansichten](../views/manage-record-views.md)
-
-1. (Optional) Klicken Sie im Arbeitsbereich auf eine Karte vom Typ Datensatz, um den Datensatztyp per Drag-and-Drop an eine gewünschte Stelle zu ziehen oder in einen anderen Bereich zu verschieben.
-
-   Die Änderungen werden automatisch gespeichert.
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 

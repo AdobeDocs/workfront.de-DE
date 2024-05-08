@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 2%
+source-wordcount: '1807'
+ht-degree: 1%
 
 ---
 
@@ -86,6 +86,8 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Kreativbeschreibung |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
 | Kommentare zu Datensätzen hinzufügen | ✓ |                                  |                 |
+| In-App-Benachrichtigungen empfangen | ✓ |                                  |                 |
+| E-Mail-Benachrichtigungen empfangen | ✓ |                                  |                 |
 | Miniaturansichten zu Datensätzen hinzufügen | ✓ |                                  |                 |
 | Verlauf der Änderungen eines Datensatzes anzeigen | ✓ |                                  |                 |
 | Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |

@@ -4,9 +4,9 @@ description: Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden,
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden, erhalten Sie eine E-Mail-Benachrichtigung für dieses Tag.
+
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
+>
+>Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Informationen zum Taggen anderer in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Um Benachrichtigungen von den Voreinstellungen für die Workfront-Planung zu erhalten und zu verwalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -78,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Verwalten von E-Mail-Benachrichtigungen
 
-1. (Bedingt) Nachdem jemand Sie in einem Kommentar zu einem Datensatz getaggt hat, gehen Sie zur E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert.
+1. (Bedingt) Nachdem jemand Sie in einem Kommentar zu einem Datensatz getaggt hat, gehen Sie zur E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
 
 1. (Bedingt) Wenn verfügbar, klicken Sie auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
-Die Benachrichtigungsseite wird in Adobe Experience Cloud geöffnet.
+Die **Benachrichtigungen** in Adobe Experience Cloud geöffnet.

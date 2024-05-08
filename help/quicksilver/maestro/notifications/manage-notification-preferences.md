@@ -4,9 +4,9 @@ description: Möglicherweise können Sie Ihre Benachrichtigungseinstellungen fü
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,96 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Wenn Sie von jemandem zu einem Kommentar auf der Datensatzseite hinzugefügt werden, erhalten Sie möglicherweise eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung zum Kommentar.
+Wenn Sie ein Kommentar auf der Datensatzseite erhalten, erhalten Sie eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung zum Kommentar.
 
-Die folgenden Szenarien existieren:
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
+>
+>Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Adobe Unified Experience-Kunden erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Sie können ihre Voreinstellungen für In-App- und E-Mail-Benachrichtigungen im Bereich &quot;Voreinstellungen&quot;ihres Adobe Experience Cloud-Profils für das Workfront-Produkt verwalten.
+## Zugriffsanforderungen
 
-  Weitere Informationen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
-* Kunden, die nicht auf der Adobe Unified Experience teilnehmen, erhalten nur eine E-Mail-Benachrichtigung. Sie können ihre Voreinstellungen für E-Mail-Benachrichtigungen nicht verwalten und erhalten immer eine E-Mail, wenn jemand sie zu einem Datensatz in der Workfront-Planung hinzufügt.
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Produkt</p> </td>
+   <td>
+   <p> Adobe Workfront</p> 
+   <p>Um In-App-Benachrichtigungen von den Voreinstellungen für die Planung und Verwaltung von Benachrichtigungen in Workfront zu erhalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p>
+   </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
+   <td>
+<p>Ihr Unternehmen muss am Betaprogramm für die Adobe Workfront-Planung teilnehmen. Wenden Sie sich an Ihren Kundenbetreuer, um sich über dieses neue Angebot zu informieren. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
+   <td>
+<p>Alle</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td>
+   <p>Alle</p> 
+  </td>
+  </tr>
 
-Weitere Informationen finden Sie in den folgenden Artikeln:
+<tr>
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
+   <td> <p>In der Workfront-Planung gibt es keine Steuerelemente für die Zugriffsstufe. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Berechtigungen</p></td>
+   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="../access/access-overview.md">Zugriffsübersicht</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+## Benachrichtigungseinstellungen verwalten
+
+1. Melden Sie sich mit Ihren Adobe Experience Cloud-Anmeldedaten bei Workfront an.
+1. Klicken Sie auf **Kontomenü** icon ![](assets/account-menu-icon-on-experience-cloud.png) in der rechten oberen Ecke des Bildschirms klicken Sie auf **Voreinstellungen**.
+1. Unter dem **Benachrichtigungen** Abschnitt, klicken Sie auf **Workfront**Führen Sie dann die Schritte im folgenden Artikel aus, um Ihre Benachrichtigungseinstellungen für die Workfront-Planung zu verwalten:
+   [Kontovoreinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+
+Weitere Informationen zu Workfront-Planungs-Benachrichtigungen finden Sie in den folgenden Artikeln:
 
 * Informationen zu Kommentaren zu Datensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/maestro/records/manage-record-comments.md).
 * Informationen zu In-App-Benachrichtigungen aus der Workfront-Planung finden Sie unter [In-App-Benachrichtigungen für die Adobe Workfront-Planung verwalten](/help/quicksilver/maestro/notifications/manage-planning-in-app-notifications.md).
 * Informationen zu E-Mail-Benachrichtigungen aus der Workfront-Planung finden Sie unter [Verwalten von E-Mail-Benachrichtigungen für die Adobe Workfront-Planung](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
+
+
+
+<!--replace the first section of this article with this; also remove the IMPORTANT at the top to require Unified Experience - below - when BOTH IMS and non-IMS customers will receive notifications: 
+
+When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
+
+The following scenarios exist:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
+
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+
+* Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
+
+-->

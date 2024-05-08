@@ -6,10 +6,10 @@ description: Alle Aktualisierungen in einem Hinweis-Bericht anzeigen
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-Im Bereich Updates eines Objekts wird standardmäßig maximal 200 Updates angezeigt. Um alle Aktualisierungen anzuzeigen, die ein Benutzer für ein Objekt eingegeben hat, können Sie einen Hinweis-Bericht erstellen, der alle Aktualisierungen anzeigt.
+Im Bereich Updates eines Objekts wird standardmäßig maximal 200 Updates angezeigt. Um alle Aktualisierungen anzuzeigen, die ein Benutzer für ein Objekt eingegeben hat, können Sie einen Hinweis-Bericht erstellen, der alle Aktualisierungen anzeigt.
 
 >[!NOTE]
 >
@@ -36,29 +36,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
+   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
    <td> <p>Zugriff bearbeiten auf:</p> 
     <ul> 
      <li> <p>Erstellen von Berichten, Dashboards und Kalendern</p> </li> 
-     <li> <p>Erstellen von Filtern, Ansichten und Gruppierungen</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+     <li> <p>Erstellen von Filtern, Ansichten und Gruppen</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen</p> <p>Hinweis: Wenn Sie keine Ansichtsberechtigung oder eine höhere Berechtigung für ein Objekt haben, werden die Informationen für dieses Objekt nicht im Bericht angezeigt.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen</p> <p><b>NOTIZ</b></p>
+   <p>Wenn Sie keine Ansichtsberechtigung oder eine höhere Berechtigung für ein Objekt haben, werden die Informationen für dieses Objekt nicht im Bericht angezeigt.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen eines Berichts mit Anmerkungen
 
@@ -66,19 +68,26 @@ Das Erstellen eines Berichts für Anmerkungen für Objekte ist unabhängig vom O
 
 So erstellen Sie beispielsweise einen Notiz -Bericht für alle Notizen in einem Projekt:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
 
-1. Klicken **Berichte**.
-1. Klicken **Neuer Bericht**, wählen Sie **Hinweis**.
+1. Klicks **Berichte**.
+1. Klicks **Neuer Bericht**, wählen Sie **Hinweis**.
 
 1. (Optional) Klicken Sie auf **Ansichten**, dann **Spalte hinzufügen** , um **Name** des **Projekt** in der Ansicht des Berichts. 
 
 1. (Optional) Klicken Sie auf **Gruppierungen**, dann **Gruppierung hinzufügen** um **Projektname**, wenn Sie über mehrere Projekte gleichzeitig berichten.\
    Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, was das Lesen des Berichts erleichtert. 
 
-1. (Optional) Klicken Sie auf **Filter,** then **Filterregel hinzufügen** , um nach nur einem Projekt oder spezifischen Projekten zu filtern.
+1. (Optional) Klicken Sie auf **Filter,** then **Filterregel hinzufügen**.
+1. Filter hinzufügen für **Hinweis** > **Hinweis: Text** > **Ist nicht leer**.
 
-1. (Bedingt und optional) Legen Sie die **Projektname** as **Gleich** zum Projektnamen des Projekts, für das Sie Updates anzeigen möchten.  
+   ![](assets/note-note-text-not-blank-filter.png)
 
-1. Klicken **Speichern und schließen**.\
+   >[!TIP]
+   >
+   >   Wenn ein Projektfeld aktualisiert wurde, zum Zeitpunkt der Aktualisierung jedoch keine Notiz hinzugefügt wurde, wird die **Hinweis: Text** der Aktualisierung wird als **(Kein zu aktualisierender Text hinzugefügt)**.
+
+
+1. (Optional) Fügen Sie einen weiteren Filter für **Projekt** > **Name** > **Entspricht** und fügen Sie einen oder mehrere Projektnamen hinzu, für die Sie Notizen anzeigen möchten.
+1. Klicken Sie auf **Speichern + schließen**.\
    Alle Aktualisierungen, die im Projekt von allen Benutzern mit der Berechtigung zum Anzeigen des Projekts eingegeben wurden, werden im Bericht angezeigt.

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
 
    Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Optional) Klicken Sie auf den Namen einer Ansicht auf den Registerkarten Ansicht, um eine vorhandene Ansicht zu bearbeiten, oder klicken Sie auf **+ Ansicht** , um eine Ansicht zu erstellen.
+1. (Optional) Klicken Sie auf eine Karte vom Typ Datensatz, um sie zu ziehen und an einer neuen Stelle abzulegen. Sie können Datensatztypen per Drag-and-Drop von einem Arbeitsbereich in einen anderen Arbeitsbereich ziehen.
 
-   Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Optional) Klicken Sie auf **Freigeben** in der oberen rechten Ecke des Arbeitsbereichs, um den Arbeitsbereich für andere freizugeben.
 
