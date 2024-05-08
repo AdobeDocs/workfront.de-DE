@@ -5,13 +5,13 @@ title: Verbinden von Workfront und Frame.io
 description: Workfront verwendet Frame.io im Überprüfungs- und Genehmigungsprozess, um Personen dort zu treffen, wo sie arbeiten möchten. Der Projektmanagement- und Genehmigungsprozess wird in Workfront verwaltet und der Überprüfungsprozess erfolgt in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
+source-git-commit: a8a5205616a0bf30c5ba4b27a2ffb9fae4d52ac4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # Verbinden von Workfront und Frame.io
 
@@ -28,7 +28,7 @@ Workfront verwendet Frame.io im Überprüfungs- und Genehmigungsprozess, um Pers
 
 ## Zugriffsanforderungen
 
-* Ihr Unternehmen muss manuell integriert werden, um die in diesem Artikel beschriebene Funktion verwenden zu können. Weitere Informationen finden Sie unter [Alpha-Integration von Adobe Workfront und Frame.io - Überblick](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+* Ihr Unternehmen muss manuell in die Beta-Version integriert werden. Verwenden Sie dazu die in diesem Artikel beschriebene Funktion. Weitere Informationen finden Sie unter [Beta zur nativen Integration von Adobe Workfront und Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md).
 
 
 ## Verbinden einer Workfront-Gruppe mit einem Frame.io-Team
@@ -121,5 +121,3 @@ Das Symbol Frame.io neben dem Projektnamen zeigt violett an, dass die Integratio
 >[!IMPORTANT]
 >
 >Sobald das Projekt für Frame.io verbunden ist, werden an der Projektgruppe vorgenommene Änderungen nicht in Frame.io angezeigt.
-
-

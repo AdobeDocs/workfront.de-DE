@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: a9e48df359b849cfca7f69d6f344fb76e61f484a
+source-git-commit: fc1fc150ee869f0750f9bd4444d039be70652b74
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Die folgenden Artikel enthalten Informationen zu Funktionen, die sich derzeit in
 * [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [Neues Kommentar-Beta-Erlebnis](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Übersicht über den Formularentwickler](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-* [Integration von Workfront und Frame.io](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* [Integration von Workfront und Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 
 <!--
