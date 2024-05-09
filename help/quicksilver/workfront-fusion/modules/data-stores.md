@@ -8,9 +8,9 @@ description: Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Datenspeicherplatz verfügbar
 
-Wenn Ihr Unternehmen das neue Workfront-Planungsmodell verwendet (Select-, Prime- und Ultimate-Packages), wirkt sich der Plan Ihres Unternehmens auf die Größe und Anzahl der in Ihrer Fusion-Instanz verfügbaren Datenspeicher aus.
+Wenn Ihr Unternehmen das neue Workfront-Planmodell verwendet (Select, Prime und Ultimate Packages), beträgt Ihre Datenspeichergröße insgesamt:
 
-### Ultimate Plan
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Fusionsinstanzen im Ultimate-Paket erhalten:
+### Ultimate plan
 
-* 500 MB Speicherplatz
-* 50 Datenspeicher
+Fusion instances on the Ultimate package receive:
 
-### Auswählen und Präsentieren von Plänen
+* 500 MB of space
+* 50 data stores 
 
-Fusionsinstanzen in den Select- oder Prime-Paketen erhalten:
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB für die ersten 500.000 Operationen.
 
 * 10 MB für jeden weiteren 100.000-Betrieb.
 
-Beispiel: Eine Organisation mit 600.000 Vorgängen erhält 110 MB.
+  Beispiel: Eine Organisation mit 600.000 Vorgängen erhält 110 MB.
+
+Ihr Unternehmen kann über bis zu 50 Datenspeicher verfügen. Die kombinierte Größe dieser Datenspeicher darf die Gesamtdatenspeichergröße Ihres Unternehmens nicht überschreiten.
 
 ## Erstellen Sie einen Datenspeicher in [!DNL Workfront Fusion]
 
