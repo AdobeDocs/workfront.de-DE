@@ -6,9 +6,9 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-Korrekturabzug </td> 
-   <td>Sie können Testsendungen, die ursprünglich im Workfront-Testversand erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</td> 
+   <td>Sie können Testsendungen, die ursprünglich in Workfront Proof erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -143,7 +143,8 @@ Sie können Dokumente über eine externe Anwendung wie Google und Microsoft OneD
 
    >[!NOTE]
    >
-   >Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
+   >* Wenn die zum Verknüpfen des Dokuments verwendete Download-URL 2048 Zeichen überschreitet, kann die Datei nicht verknüpft werden.
+   >* Bei Dokumenten, die mit &quot;Feld&quot;verknüpft sind, wird der Link zum Dokument im Feld erst angezeigt, wenn Sie die Seite aktualisieren.
 
 ### Hinzufügen einer neuen Version eines verknüpften Dokuments {#add-a-new-version-of-a-linked-document}
 
@@ -190,20 +191,20 @@ Sie können eine neue Version eines mit Workfront verknüpften Dokuments aus ein
 
 Informationen zum Hinzufügen einer neuen Version eines Dokuments, das Sie aus Ihrem Dateisystem in Workfront hochgeladen haben, finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Workfront-Testdokumente verknüpfen {#link-workfront-proof-documents}
+### Verknüpfen von Workfront Proof-Dokumenten {#link-workfront-proof-documents}
 
-Sie können Testsendungen mit Workfront verknüpfen, die ursprünglich in Workfront Testversand vorhanden waren. Wenn Sie einen Testversand aus Workfront Testversand verknüpfen, sind alle mit dem Testversand verknüpften Kommentare und anderen Metadaten in Workfront verfügbar.
+Sie können Testsendungen mit Workfront verknüpfen, die ursprünglich in Workfront Proof existierten. Wenn Sie einen Testversand aus Workfront Proof verknüpfen, sind alle mit dem Testversand verknüpften Kommentare und anderen Metadaten in Workfront verfügbar.
 
-Sie können nur die Testsendungen verknüpfen, für die Sie Zugriff auf &quot;Anzeigen&quot;im Workfront-Testversand haben.
+Sie können nur die Testsendungen verknüpfen, für die Sie Zugriff auf Ansicht in Workfront Proof haben.
 
 1. Navigieren Sie zu **Dokumente** -Bereich in Workfront, in dem Sie das Dokument speichern möchten.
-1. Klicks **Neu hinzufügen** Klicken Sie auf **Von Workfront Testing**.
+1. Klicks **Neu hinzufügen** Klicken Sie auf **Aus Workfront Proof**.
 
    >[!NOTE]
    >
    >Die Optionen in diesem Menü variieren je nachdem, welche Drittanbieter in Ihrer Umgebung konfiguriert sind.
 
-1. Im **Testsendungen von Workfront verknüpfen** eingeben. Geben Sie den Namen des Testversands ein, den Sie in Workfront verfügbar machen möchten.
+1. Im **Verknüpfen von Testsendungen aus Workfront Proof** eingeben. Geben Sie den Namen des Testversands ein, den Sie in Workfront verfügbar machen möchten.
 
    Die Liste wird bei der Eingabe gefiltert.
 
