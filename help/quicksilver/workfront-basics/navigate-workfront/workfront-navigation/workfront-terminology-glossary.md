@@ -6,9 +6,9 @@ description: Die [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>Eine Datenquelle zur Messung von Iterationen in einer agilen Umgebung.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Rechnungskosten]</td> 
+   <td> <p>Eine dem Kunden als abrechnungsfähig gekennzeichnete Ausgabe. Dies kann entweder eine geplante oder eine tatsächliche Ausgabe sein.</p> <p>Die Felder Geplante Abrechnungskosten und Tatsächliche Abrechnungskosten stehen Ihnen zur Verfügung, um sie Ansichten und Berichten hinzuzufügen. Sie werden nicht auf den Projekt- oder Aufgabendetailseiten angezeigt.</p>
+   <p>Sie finden diese Felder in den folgenden Berichtstypen:</p>
+   <ul>
+   <li>Ausgangsbasis</li>
+   <li>Vorlage</li>
+   <li>Projekt (Finanzdaten)</li>
+   </ul>
+   <p>Weitere Informationen zur Kennzeichnung einer Ausgabe als abrechnungsfähig finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Verwalten von Projektausgaben</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -795,7 +808,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die [!UICONTROL Dauer] und die [!UICONTROL Dauer]</a>.</p> 
-    —&gt; </td> 
+    --&gt; </td> 
    </tr> 
    <tr> 
    <td>[!UICONTROL Duration Unit]</td> 
@@ -1305,7 +1318,21 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
    <td>In einem [!UICONTROL Journal Entry] -Bericht wird der aktualisierte Wert eines Felds angezeigt, das den [!UICONTROL Old Number Value] ersetzt.
    Weitere Informationen finden Sie unter "[!UICONTROL Old Number Value]"in diesem Artikel.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Nicht in Rechnung gestellte Kosten]</td> 
+   <td> <p>Eine Ausgabe, die nicht als dem Kunden abrechenbar markiert ist. Dies kann entweder eine geplante oder eine tatsächliche Ausgabe sein.</p> <p>Die Felder "Geplante nicht abrechnungsfähige Kosten"und "Tatsächliche nicht abrechnungsfähige Kosten"stehen Ihnen zur Verfügung, um sie Ansichten und Berichten hinzuzufügen. Sie werden nicht auf den Projekt- oder Aufgabendetailseiten angezeigt.</p>
+   <p>Sie finden diese Felder in den folgenden Berichtstypen:</p>
+   <ul>
+   <li>Ausgangsbasis</li>
+   <li>Vorlage</li>
+   <li>Projekt (Finanzdaten)</li>
+   </ul>
+   <p>Weitere Informationen zur Kennzeichnung einer Ausgabe als abrechnungsfähig finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Verwalten von Projektausgaben</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Nichtarbeitstag]</td> 
    <td>Ein Tag, der nicht dem Abschluss von Zuweisungen zugeordnet wird. Dies ist normalerweise ein Urlaubstag, ein Feiertag oder ein Wochenende. Der Begriff wird im API-Explorer angezeigt. </td> 
   </tr> 
