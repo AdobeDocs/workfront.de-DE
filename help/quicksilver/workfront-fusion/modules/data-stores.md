@@ -8,9 +8,9 @@ description: Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
@@ -76,20 +76,20 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Datenspeicherplatz verfügbar
 
-Wenn Ihr Unternehmen das neue Workfront-Planmodell verwendet (Select, Prime und Ultimate Packages), beträgt Ihre Datenspeichergröße insgesamt:
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+Wenn Ihr Unternehmen das neue Workfront-Planungsmodell verwendet (Select-, Prime- und Ultimate-Packages), wirkt sich der Plan Ihres Unternehmens auf die Größe und Anzahl der in Ihrer Fusion-Instanz verfügbaren Datenspeicher aus.
 
-### Ultimate plan
+### Ultimate Plan
 
-Fusion instances on the Ultimate package receive:
+Fusionsinstanzen im Ultimate-Paket erhalten:
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB Speicherplatz
+* 50 Datenspeicher
 
-### Select and Prime plans
+### Auswählen und Präsentieren von Plänen
 
-Fusion instances on the Select or Prime packages receive:-->
+Fusionsinstanzen in den Select- oder Prime-Paketen erhalten:—>
 
 * 100 MB für die ersten 500.000 Operationen.
 
