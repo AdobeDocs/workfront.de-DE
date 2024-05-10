@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ In den folgenden Artikeln erhalten Sie einen Überblick über die neue Workfront
 
 Die folgenden Abschnitte enthalten Artikel, in denen ausführlich beschrieben wird, welche Funktionen derzeit für die Workfront-Planung verfügbar sind:
 
-* [Adobe Workfront Planen der Zugriffsinformationen: Artikelindex](/help/quicksilver/maestro/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung der Workfront-Planung erforderlich sind.
+* [Zugriffs- und Berechtigungsinformationen: Artikelindex](/help/quicksilver/maestro/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung der Workfront-Planung erforderlich sind.
 * [Architektur: Artikelindex](/help/quicksilver/maestro/architecture/architecture-information.md): Detaillierte Informationen zur Architektur der Workfront-Planung mit schrittweisen Anweisungen zum Erstellen und Verwalten von Arbeitsbereichen und Datensatztypen.
 * [Felder: Artikelindex](/help/quicksilver/maestro/fields/fields-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen benutzerdefinierter Felder für Datensatztypen.
 * [Datensätze: Artikelindex](/help/quicksilver/maestro/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
 * [Ansichten: Artikelindex](/help/quicksilver/maestro/views/views-information.md): Detaillierte Informationen zu Datensatzansichten und deren Verwaltung beim Anzeigen einer Seite vom Typ Datensatz.
-* [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Informationen zu E-Mail- und In-App-Benachrichtigungen, die von Ereignissen in der Workfront-Planung generiert wurden.
+* [Benachrichtigungen: Artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Informationen zu E-Mail- und In-App-Benachrichtigungen, die von Ereignissen in der Workfront-Planung generiert wurden.
 

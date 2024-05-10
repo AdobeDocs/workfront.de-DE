@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 7%
 
 ---
@@ -69,6 +69,15 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berech
 
 ### Workspace-Berechtigungen
 
+Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zugriff auf die folgenden Entitäten haben können:
+
+* Arbeitsbereiche
+* Datensatztypen
+* Datensätze
+* Felder
+
+Im Folgenden finden Sie die Berechtigungsstufen für Arbeitsbereiche:
+
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
 | Bearbeiten | ✓ |            |       |
@@ -80,6 +89,9 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berech
 
 Berechtigungen für Datensatztypen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
 
+Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
+
+
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
 | Erstellen | ✓ |            |       |
@@ -90,6 +102,9 @@ Berechtigungen für Datensatztypen werden vererbt, wenn Sie Berechtigungen für 
 ### Berechtigungen aufzeichnen
 
 Datensatzberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+
+Im Folgenden finden Sie die Berechtigungsstufen für Datensätze:
+
 
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf d
 
 Sie müssen separate Berechtigungen zum Aufzeichnen von Ansichten gewähren. Wenn Sie Berechtigungen für den Arbeitsbereich erteilen, erhalten Sie keine Berechtigungen für die Datensatzansichten im Arbeitsbereich.
 
+Sie müssen Benutzern Berechtigungen für Ansichten erteilen, damit sie Zugriff auf die folgenden Ansichtselemente haben können:
+
+* Filter
+* Feldsichtbarkeit
+* Sortieren
+* Gruppierung
+* Zeilenhöhe
+* Einstellungen
+
+
 <!--You can share views internally or publicly. -->
+
+Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtselemente:
 
 |        | Verwalten | Anzeigen |
 |--------|--------|-------|
