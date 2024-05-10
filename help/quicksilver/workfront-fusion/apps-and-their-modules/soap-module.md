@@ -9,10 +9,10 @@ description: Sie können das SOAP-Modul verwenden, um eine Verbindung zu SOAP-AP
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -59,7 +59,11 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Verwenden der [!UICONTROL SOAP] Modul
+## Einschränkungen der [!UICONTROL SOAP] Modul
+
+>[!NOTE]
+>
+>Umleitungen werden während des WDSL-Ladens deaktiviert. Dies ist eine Sicherheitsfunktion, kann jedoch bedeuten, dass nicht überprüfte Weiterleitungen blockiert werden, wenn das Modul ausgeführt wird.
 
 Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterstützt nicht:
 
@@ -86,10 +90,10 @@ Die [!UICONTROL SOAP] -Modul befindet sich derzeit in der Betaphase und unterst�
 >     </complexContent>
 ></complexType>
 >```
+>
+>Dieses Beispiel enthält die `soapenc:Array`, `soapenc:arrayType` und `wsdl:arrayType` -Verweise, die noch nicht unterstützt werden in [!UICONTROL Workfront Fusion].
 
-Er enthält die `soapenc:Array`, `soapenc:arrayType` und `wsdl:arrayType` -Verweise, die noch nicht unterstützt werden in [!UICONTROL Workfront Fusion].
-
-## Problemumgehung
+## Workaround
 
 Wenn die Variable [!UICONTROL SOAP] -Modul weigert sich, die WSDL-Datei zu verarbeiten oder gibt verschiedene Fehler in der Konfiguration des Moduls aus. Sie können versuchen, die universelle **[!UICONTROL HTTP] > [!UICONTROL Anfrage stellen]** -Modul stattdessen:
 
