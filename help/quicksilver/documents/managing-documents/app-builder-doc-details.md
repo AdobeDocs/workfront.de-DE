@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # AppBuilder in den Dokumentdetails zu Workfront
 
@@ -358,3 +358,12 @@ Hier sind einige hilfreiche Links:
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## Lokale Entwicklung
+
+Bei der Entwicklung Ihrer App Builder-Anwendung für Workfront müssen Sie Ihre App möglicherweise in Workfront testen, ohne sie zu veröffentlichen. Glücklicherweise haben wir dafür eine Lösung.
+
+In Ihrer App Builder-App können Sie `aio app run` für die lokale Entwicklung. Dadurch erhalten Sie eine URL, die normalerweise in etwa so aussieht: `https://localhost:9080`. Alternativ können Sie `aio app deploy` , um eine statische Adobe-Domäne zu erhalten. Notieren Sie sich diese URLs für die zukünftige Verwendung.
+
+Navigieren Sie anschließend zur spezifischen Dokumentdetailseite, für die Sie in Ihrem Browser entwickeln möchten. Öffnen Sie die Entwicklertools und greifen Sie auf den lokalen Speicher für workfront.com oder workfront.adobe.com zu. Hier müssen Sie einen Eintrag hinzufügen. Verwendung `appBuilderDocDetailsOverride` als Schlüssel und die zuvor angegebene App Builder-URL als Wert angeben.
+
+Nach dem erneuten Laden Ihrer Seite werden die Schaltflächen in Ihrer App Builder-Anwendung angezeigt. Durch Klicken auf diese Schaltflächen können Sie Ihre App in Aktion anzeigen.
