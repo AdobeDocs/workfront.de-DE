@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
+source-git-commit: 8b5bcc1270beb9c5295342eec07636e96fd426f6
 workflow-type: tm+mt
 source-wordcount: '6042'
 ht-degree: 4%
@@ -162,7 +162,7 @@ Hinzufügen eines Textfelds:
     </ul></td>
     </tr>
     <tr>
-    <td>Bezeichnung</td>
+    <td>Label</td>
     <td><p>Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.<p>
     <p>WICHTIG: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p></td>
     <td><ul>
@@ -282,7 +282,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <td>Verfügbar für </td>
     </tr>
     <tr> 
-     <td role="rowheader">Bezeichnung</td> 
+     <td role="rowheader">Label</td> 
      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
@@ -428,7 +428,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
     <td>Verfügbar für </td>
     </tr>
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
@@ -529,7 +529,7 @@ Beispiele zur Verwendung des Felds Externe Suche zum Aufrufen derselben Instanz 
 
 >[!NOTE]
 >
->* Die externe Suchfunktion ist für Dokument- oder Benutzerobjekte nicht verfügbar.
+>* Die externe Suchfunktion wird derzeit nicht für benutzerdefinierte Document-Formulare unterstützt.
 >* Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt. (Externe Suchfelder werden in Leinwanddashboards unterstützt.)
 >* Externe Suchfelder sind in Listen verfügbar, es sei denn, das Feld ist von einem anderen Feld abhängig.
 
@@ -543,7 +543,7 @@ So fügen Sie eine externe Suche hinzu:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
@@ -665,7 +665,7 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
@@ -784,7 +784,7 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
@@ -834,7 +834,7 @@ Hinzufügen einer Adobe XD-Datei:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
