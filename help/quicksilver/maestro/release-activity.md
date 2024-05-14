@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Woche vom 13. Mai 2024
+
+### Echtzeit-Aktualisierungen in der Timeline-Ansicht nach dem Bearbeiten von Datensätzen
+
+Produktion: 14. Mai 2024
+
+Vorschau: Noch festzulegen.
+
+Wenn ein Benutzer die Informationen zu einem Datensatz aktualisiert, können andere Benutzer die aktualisierten Informationen in der Timeline-Ansicht des Datensatzes in Echtzeit anzeigen. Dadurch wird sichergestellt, dass alle Benutzer die aktualisierten Informationen gleichzeitig und synchron mit dem Zeitpunkt der Änderungen anzeigen.
+
+### Datensatz aus der Ansichtskopfzeile hinzufügen
+
+Produktion: 14. Mai 2024
+
+Vorschau: zu bestimmen
+
+Wir haben eine Schaltfläche &quot;Neuer Datensatz&quot;in der Kopfzeile einer Seite vom Typ Datensatz hinzugefügt. Es ist nun möglich, Datensätze aus jeder beliebigen Ansicht zu erstellen. Vor dieser Verbesserung konnten Sie Datensätze nur aus der Tabellenansicht erstellen.
+
+Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md).
 
 ## Woche vom 6. Mai 2024
 

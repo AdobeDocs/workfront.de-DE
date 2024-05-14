@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
    Die Seite mit dem Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite vom Typ Datensatz in der Tabellenansicht geöffnet.
-Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
+Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
-1. (Bedingt) Wenn die Seite mit dem Datensatztyp nicht in der Tabellenansicht geöffnet wird, klicken Sie auf die Registerkarte einer Tabellenansicht oder klicken Sie auf **+ Ansicht** , um eine Tabellenansicht zu erstellen.
+1. (Bedingt) Führen Sie je nach angezeigter Ansicht einen der folgenden Schritte aus:
 
-1. Um neue Datensätze hinzuzufügen, klicken Sie auf **Neuer Datensatz** in der letzten Zeile der Tabelle
+   * In der Tabellenansicht:
 
-   Oder
+      * Klicks **Neuer Datensatz** in der letzten Zeile der Tabelle
 
-   Klicks **Umschalt + Eingabetaste** auf der Tastatur von einer beliebigen Spalte oder Zeile der Tabelle aus. Hierdurch wird eine leere Zeile angezeigt.
+      * Klicks **Umschalt + Eingabetaste** auf der Tastatur von einer beliebigen Spalte oder Zeile der Tabelle aus. Hierdurch wird eine leere Zeile angezeigt.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Beginnen Sie mit der Eingabe von Informationen in die neue Zeile zum neuen Datensatz.
+   * Aus jeder Sicht:
+
+      * Klicks **Neuer Datensatz** in der oberen rechten Ecke der Seite. Das Vorschaufeld für Datensätze wird geöffnet.
+
+1. Beginnen Sie mit der Eingabe von Informationen in die neue Zeile über den neuen Datensatz oder in die Felder, die Sie im Vorschaufenster sehen.
 
    >[!NOTE]
    >
-   >  * Es gibt keine Pflichtfelder für Datensätze. Es wird jedoch empfohlen, einen Namen für den Datensatz hinzuzufügen, da es hilfreich ist, Datensätze beim Verknüpfen von Datensätzen miteinander zu identifizieren.
+   >  * Es gibt keine Pflichtfelder für Datensätze. Es wird jedoch empfohlen, einen Namen für den Datensatz hinzuzufügen, da es hilfreich ist, Datensätze anhand ihres Namens zu identifizieren, wenn Datensätze miteinander verknüpft werden.
    >
    >  * Felder, die auf andere Datensatztypen oder berechnete Felder verweisen, sind schreibgeschützte Felder.
 
-1. Fügen Sie weitere Informationen zu den einzelnen Zeilen hinzu und klicken Sie auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
+1. (Bedingt) Wenn Sie Einträge in der Tabelle hinzufügen, fügen Sie weiterhin Informationen zu den einzelnen Zeilen hinzu und klicken Sie auf **Eingabe** auf der Tastatur, um Ihre Änderungen zu speichern.
 
    Oder
 
@@ -136,8 +140,7 @@ Alle Datensätze des ausgewählten Typs werden in der Tabellenansicht angezeigt.
 1. Bearbeiten Sie die Datensatzinformationen in der Vorschau des Datensatzes. Workfront speichert Ihre Änderungen automatisch.
 1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz auf der Datensatzseite weiter.
 
-
-1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze rückgängig zu machen oder wiederherzustellen:
+1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze oder ihrer Informationen rückgängig zu machen oder wiederherzustellen, wenn Sie sie in der Tabellenansicht hinzufügen:
 
    * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
