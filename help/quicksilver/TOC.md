@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 1%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 1%
    * Integrationen konfigurieren {#configure-integrations}
       * [Integrationen konfigurieren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-Integrationen](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Konfigurieren von Workfront mit dem Legacy-Connector von Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [Konfigurieren Sie die [!DNL Workfront] und [!DNL Frame.io] Integration](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Integration von Experience Manager Assets Essentials konfigurieren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Konfigurieren von Workfront mit dem Legacy-Connector von Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Benutzer für den Zugriff auf die Mobile App aktivieren](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Adobe Workfront für Outlook aktivieren](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [Dokumentintegrationen konfigurieren](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 1%
          * [Erstellen eines Projekts mit einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus einem Microsoft-Projekt](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Erstellen von Projekt-Grundlinien](manage-work/projects/create-projects/create-baselines.md)
+         * [Erstellen Sie ein Projekt, das mit Frame.io verbunden ist](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Aktualisieren von Arbeiten an einem Projekt {#update-work-on-a-project}
          * [Arbeit an einem Projekt aktualisieren: Artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Anwenden von Status auf Arbeiten, die einer Gruppe zugeordnet sind](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 1%
    * Dokumentenprüfung und -genehmigung {#document-reviews-and-approvals}
       * [Dokumentenprüfung und -genehmigung](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Übersicht über Dokumentgenehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [Überblick über Asset-Überprüfungen und -Genehmigungen](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [Erste Schritte mit Asset-Überprüfung und -Genehmigung mit Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Dokumente überprüfen {#review-and-approve-documents}
          * [Dokumente überprüfen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Dokument überprüfen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 1%
          * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Erstellen einer Validierungsvorlage](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Genehmigungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Entscheidungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Testing {#proofing}
       * [Testversand: Artikelindex](review-and-approve-work/proofing/proofing.md)

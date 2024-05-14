@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Weitere Informationen finden Sie unter [Informationen zum Deaktivieren von Workf
 
 ## Deaktivieren eines Benutzers
 
+Beachten Sie beim Deaktivieren eines Benutzers Folgendes:
+
+* Der Benutzer kann nicht auf das System zugreifen.
+* Der Benutzer wird aus Frame.io-Überprüfungslinks, Assets, Projekten und Konten entfernt.
+   * Beim erneuten Aktivieren des Benutzers werden diese nicht automatisch wieder zu den Frame.io-Elementen hinzugefügt. Sie müssen den Benutzer manuell zu Workfront-Projekten, -Aufgaben und -Assets neu zuweisen, für die eine Zusammenarbeit mit Frame.io erforderlich ist.
+* Alle mit dem Benutzer verknüpften Daten werden beibehalten.
+* Sie können die Lizenz eines deaktivierten Benutzers einem anderen Benutzer zuweisen.
+
+So deaktivieren Sie einen Benutzer:
+
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
 
 1. Wählen Sie einen Benutzer aus, klicken Sie auf die **Mehr** icon ![](assets/more-icon.png)Klicken Sie auf **Deaktivieren**.
@@ -126,6 +136,10 @@ Es wird empfohlen, einen Bericht für Benutzer zu erstellen, die für die Deakti
 1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol Mehr . ![](assets/more-icon.png)Klicken Sie auf **Aktivieren**.
 
 1. Neu zuweisen **Zugriffsstufe** Klicken Sie im Dropdown-Menü auf **Reaktivieren**.
+
+### Auswirkungen von Asset-Überprüfung und -Genehmigung bei der erneuten Aktivierung eines Benutzers
+
+Deaktivierte Benutzer verlieren den Zugriff auf ihre zugewiesenen Frame.io-Konten sowie zugewiesene Projekte, Assets und Review-Links. Wenn Sie den Benutzer reaktivieren möchten, müssen Sie ihn manuell zu Projekten, Aufgaben und Assets neu zuweisen, für die die Zusammenarbeit mit Frame.io erforderlich ist.
 
 ### Auswirkungen der Prüfung bei der Reaktivierung eines Benutzers
 

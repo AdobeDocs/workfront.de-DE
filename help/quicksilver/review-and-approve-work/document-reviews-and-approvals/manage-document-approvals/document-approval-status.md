@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Genehmigungsstatus des Dokuments
-description: Der Status der Dokumentgenehmigung wird aufgelistet und erläutert
+title: Entscheidungsstatus des Dokuments
+description: Status von Dokumententscheidungen werden aufgelistet und erläutert
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Genehmigungsstatus des Dokuments
+# Entscheidungsstatus des Dokuments
 
-Den Genehmigungsstatus eines Dokuments finden Sie in der Kopfzeile des Dokuments.
+Sie können den Status des Dokuments direkt in der Dokumentliste anzeigen:
+
+![](assets/status-in-doc-list.png)
 
 Die folgenden Status sind verfügbar:
 

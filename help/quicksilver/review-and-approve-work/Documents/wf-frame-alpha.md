@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoei
 >
 >Um an dieser Betaversion teilnehmen zu können, müssen Sie vom Produktteam aktiviert werden. Wenden Sie sich an Ihren Kundenerfolg oder Kundenbetreuer und fordern Sie das Hinzufügen an.
 
+## Mai 2024: Beta-Versionsupdates in Workfront
 
-## Beta-Release-Updates in Frame.io - März 2024
+Diese Version vom Mai umfasst die folgenden Funktionen:  
 
-In dieser Beta-Version haben wir Folgendes:
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront-Projekte werden automatisch mit Frame.io synchronisiert
+
+Basierend auf Ihrem Feedback haben wir das Erlebnis verbessert und die Schritte reduziert, die zum Trigger der Erstellung eines verbundenen Frame.io erforderlich sind.  Wenn Sie jetzt ein Projekt in Workfront erstellen, wird automatisch ein entsprechendes Projekt in Frame.io erstellt. 
+
+### Verbesserte Zuweisung von kreativen Elementen zu Ihrem Frame.io-Projekt
+
+Sie können jetzt einfach verwalten, wer Zugriff auf das verbundene Frame.io-Projekt haben sollte. Ihre kreativen Benutzer können als &quot;Frame.io aktiviert&quot;gekennzeichnet werden, wodurch ihnen bei der Zuweisung zum Workfront-Projekt automatisch Zugriff auf das verbundene Frame.io-Projekt gewährt wird.   
+
+### Der Projektname von Frame.io wird aktualisiert, wenn der Projektname von Workfront geändert wird.
+
+Im Rahmen unserer Bemühungen, die Projektsynchronisierung zwischen Workfront und Frame.io zu verbessern, spiegeln sich nun auch Aktualisierungen des Workfront-Projektnamens in Frame.io wider. 
+
+### Genehmigungsstatus in der Dokumentliste
+
+Verfolgen Sie einfach den Genehmigungsstatus jeder Datei direkt aus der Dokumentliste. Mit einem einfachen Klick auf den Gesamtstatus erhalten Sie eine detaillierte Aufschlüsselung aller am Validierungsprozess beteiligten Teilnehmer sowie ihrer jeweiligen Status. Optimieren Sie außerdem Ihren Workflow, indem Sie ausstehende Genehmiger mit nur einem Klick daran erinnern, um zeitnahe Antworten zu erhalten und eine effiziente Dokumentenverwaltung zu gewährleisten. 
+
+
+## März 2024: Beta-Release-Updates in Frame.io
+
++++ Erweitern, um die im März 2024 veröffentlichte Funktion anzuzeigen
 
 ### Hinzufügen mehrerer Assets aus Frame.io zu Workfront
 
@@ -39,7 +61,7 @@ Die Menüelemente zum Hinzufügen eines Assets zu Workfront wurden aktualisiert,
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Beta-Versionsupdates in Workfront - März 2024
+## März 2024: Beta-Versionsupdates in Workfront
 
 In dieser Beta-Version haben wir Folgendes:
 
@@ -82,6 +104,8 @@ Nach der Sperrung kann jede Person, die sie überprüft und/oder genehmigt, kein
 Wenn eine neue Dokumentversion hochgeladen wird, kann die nächste Revisionsrunde gestartet werden, während vorherige Revisionen gesperrt bleiben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## Funktionstests
 
@@ -128,14 +152,12 @@ Um die Funktion zu testen, melden Sie sich bei Ihrer Workfront-Vorschau- oder Sa
 
 +++ Erweitern, um detaillierte Testanweisungen anzuzeigen
 
-Für Teilnehmer, die zusätzliche Funktionen testen möchten, haben wir ein stärker involviertes Testszenario erstellt. Eine Anleitung für dieses detaillierte Testszenario können Sie hier herunterladen: [WF + Frame.io - Anleitung zum detaillierten Testszenario](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+Für Teilnehmer, die zusätzliche Funktionen testen möchten, haben wir ein stärker involviertes Testszenario erstellt. Eine Anleitung für dieses detaillierte Testszenario können Sie hier herunterladen: [WF + Frame.io - Anleitung zum detaillierten Testszenario](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## Demovideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Feedback senden
 
