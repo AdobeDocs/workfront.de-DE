@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Bearbeiten von Datensatzseiten
 
-* Durch das Neuanordnen von Feldern in der Datensatzvorschau oder Seite werden die Felder für alle Datensätze dieses Typs und für alle Benutzer, die auf diese Datensätze zugreifen, neu angeordnet.
+* Standardmäßig werden in den Details und Vorschauseiten eines Datensatzes alle mit dem Datensatz verknüpften Felder angezeigt.
+
+* Auf der Vorschau- oder Detailseite können keine neuen Felder für einen Datensatz hinzugefügt werden. Sie müssen neue Felder in der Tabellenansicht hinzufügen, um sie auf den Seiten Vorschau und Details anzuzeigen.
+
+* Sie können einer Datensatzvorschau oder Detailseite Abschnitte hinzufügen, um die Informationen nach allgemeinen Kriterien zu organisieren und die Suche zu erleichtern.
+
+* Die folgenden Änderungen betreffen alle Datensätze desselben Typs und sind für alle Benutzer sichtbar, die auf diese Datensätze zugreifen:
+
+   * Felder neu anordnen
+   * Abschnitte hinzufügen oder entfernen
 
 * Änderungen an der Anzeige, die Sie in der Datensatzvorschau vornehmen, werden sofort auf der Seite mit den Datensatzdetails angezeigt. Änderungen, die auf der Datensatzseite vorgenommen wurden, sind auch im Vorschaufeld der Datensätze sichtbar.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * Das Hinzufügen eines Titelbilds zu einem Datensatz ist nicht Teil des Gesamtlayouts der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Abschnitte zur Datensatzvorschau oder -seite hinzufügen
 
-## Add sections to a record preview or page
+Beachten Sie beim Hinzufügen von Abschnitten zu einer Datensatzseite Folgendes:
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Es gibt keine Beschränkung dafür, wie viele Abschnitte Sie auf einer Seite haben können.
+* Sie können keinen leeren Abschnitt haben. Sie müssen mindestens ein Feld in einem Abschnitt haben.
+* Sie können Felder per Drag-and-Drop von einem Abschnitt in einen anderen ziehen. Weitere Informationen finden Sie im Abschnitt . [Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
+* Wenn Sie alle Felder aus einem Abschnitt entfernen, wird der Abschnitt automatisch gelöscht und kann nicht wiederhergestellt werden.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+So fügen Sie einer Datensatzvorschau oder -seite einen Abschnitt hinzu:
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
-    The record type page opens. 
+   Die Seite mit dem Datensatztyp wird geöffnet.
 
-1. From a view of any type, click the name of a record 
+1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   Oder
 
-    ![](assets/details-box.png) 
+   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
-    ![](assets/details-page.png)
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   Die Datensatzseite wird geöffnet.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Bewegen Sie in der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links von den Feldern und klicken Sie auf die Schaltfläche **Abschnitt hinzufügen** icon ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
+1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie **Unbenannter Abschnitt** mit einem Namen und klicken Sie dann auf &quot;Enter&quot;. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
+1. Ziehen Sie Felder in den neuen Abschnitt, wie im Abschnitt beschrieben. [Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
+
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Abschnitt zu bearbeiten:
 
-   * Click **Rename** to rename the section
+   * Klicks **Umbenennen** , um den Abschnitt umzubenennen
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > Sie können einen Abschnitt inline umbenennen, indem Sie auf den Namen klicken.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Klicks **Nach oben** , um den Abschnitt um eine Position nach oben zu verschieben
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     Oder
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Klicks **Nach unten** um den Abschnitt um eine Position nach unten zu verschieben.
+Alle Felder im Abschnitt werden mit dem Abschnitt verschoben.
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Klicks **Löschen** , um den Abschnitt zu löschen. Der Abschnitt wird gelöscht und kann nicht wiederhergestellt werden. Alle Benutzer, die auf die Datensätze dieses Typs zugreifen, sehen den gelöschten Abschnitt nicht mehr.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Klicken Sie auf den nach unten zeigenden Pfeil links neben einem Abschnittsnamen, um ihn zu reduzieren, oder auf den nach rechts zeigenden Pfeil, um ihn zu erweitern.
+Alle Abschnitte werden standardmäßig erweitert.
 
-    All changes to sections and field order are saved automatically. 
+1. (Optional) Klicken Sie auf die **Grab** icon ![](assets/grab-icon.png) links neben einem Abschnittsnamen, und ziehen Sie ihn an die gewünschte Stelle.
 
--->
+   Die neue Position des Abschnitts wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 
-## Neuanordnen von Feldern in der Datensatzvorschau oder auf der Seite
+   Alle Änderungen an den Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
+
+## Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite
 
 {{step1-to-maestro}}
 

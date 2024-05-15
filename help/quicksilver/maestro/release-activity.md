@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-### New warning about object visibility when connecting records 
+###  New Planning section added to the left panel of a Workfront project, portfolio, and program
 
-Production: <date>
+Production: <date> 
 
 Preview: To be determined
 
-When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
 
-For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+The following actions are available from the Planning section in Workfront: 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+* View connected Planning records 
+
+* Connect more records to the Workfront object 
+
+* Disconnect records  
+
+* Display more information about the connected records in the preview box 
+
+* Open records in the Planning area 
+
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -117,6 +127,29 @@ Vorschau: zu bestimmen
 Wir haben eine Schaltfläche &quot;Neuer Datensatz&quot;in der Kopfzeile einer Seite vom Typ Datensatz hinzugefügt. Es ist nun möglich, Datensätze aus jeder beliebigen Ansicht zu erstellen. Vor dieser Verbesserung konnten Sie Datensätze nur aus der Tabellenansicht erstellen.
 
 Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/maestro/records/create-records.md).
+
+
+### Neue Warnung zur Objektsichtbarkeit beim Verbinden von Datensätzen
+
+Produktion: 15. Mai 2024
+
+Vorschau: zu bestimmen
+
+Wenn Sie Verbindungen zu Objekttypen außerhalb der Workfront-Planung erstellen, werden Sie jetzt benachrichtigt, dass alle Benutzer, die im aktuellen Arbeitsbereich arbeiten, die Sichtbarkeit zu allen verknüpften Objekten und deren Suchfeldern haben, unabhängig von ihren Berechtigungen und Zugriffsebenen in der anderen Anwendung.
+
+Wenn Sie beispielsweise Projekte aus Workfront-Planungs-Kampagnen verknüpfen, haben alle, die Zugriff auf die Kampagne haben, auch Zugriff auf verknüpfte Projekte und Informationen aus ihren Suchfeldern, selbst wenn sie keine Berechtigungen für verknüpfte Projekte haben, oder auf Projekte im Allgemeinen. Sie erhalten Zugriff auf Planungsdatensätze, wenn Sie Berechtigungen für Arbeitsbereiche erhalten.
+
+Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+## Abschnitte zur Vorschau des Datensatzes und Detailseiten hinzufügen
+
+Produktion: 15. Mai 2024
+
+Vorschau: zu bestimmen
+
+Um Informationen auf der Datensatzseite für eine effizientere Lesbarkeit und Navigation besser zu organisieren, haben wir Abschnitte zur Datensatzseite eingeführt. Die Abschnittstitel dienen als Kopfzeilen, die die Felder in verschiedene Kategorien organisieren. Die Abschnitte sind vollständig anpassbar und können bei Bedarf erweitert oder reduziert werden.
+
+Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Woche vom 6. Mai 2024
 

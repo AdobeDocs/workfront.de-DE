@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -219,6 +219,8 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    > Sie müssen benutzerdefinierte Formulare in Workfront für die ausgewählten Objekte erstellen, bevor sie in dieser Liste angezeigt werden.
 
 1. (Bedingt) Wenn Sie die Verbindung zu Experience Manager Assets hergestellt haben, wählen Sie ein Repository aus der **Experience Manager-Repository** Dropdown-Menü im **Verknüpfen von Assets aus dem folgenden Repository** Abschnitt. Dies ist ein erforderliches Feld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
+
+   <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
 

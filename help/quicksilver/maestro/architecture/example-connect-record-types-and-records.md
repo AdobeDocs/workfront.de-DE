@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ Gehen Sie dazu folgendermaßen vor:
 
 
 ## Verbinden eines Workfront-Planungs-Datensatztyps mit einem Workfront-Projektobjekttyp und eines Datensatzes mit einzelnen Projekten
+
+>[!IMPORTANT]
+>
+>    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in Workfront.
 
 Sie haben beispielsweise einen Datensatztyp namens Campaign als Ihren ursprünglichen Datensatztyp.
 

@@ -4,13 +4,13 @@ description: Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden,
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Verwalten von Adobe Workfront-Planungs-E-Mail-Benachrichtigungen
 
@@ -94,4 +94,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
 
 1. (Bedingt) Wenn verfügbar, klicken Sie auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
-Die **Benachrichtigungen** in Adobe Experience Cloud geöffnet.
+Die **Benachrichtigungen** in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen aus allen Adobe Experience Cloud-Anwendungen werden angezeigt.

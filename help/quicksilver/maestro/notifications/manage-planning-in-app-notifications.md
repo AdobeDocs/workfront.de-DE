@@ -4,13 +4,13 @@ description: Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden,
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Verwalten von Adobe Workfront-Planungs-In-App-Benachrichtigungen
 
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## In-App-Benachrichtigungen verwalten
 
-1. (Bedingt) Nachdem jemand einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zu In-App **Benachrichtigungen** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Bedingt) Nachdem jemand einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zur In-App-Nachricht. **Benachrichtigungen** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
