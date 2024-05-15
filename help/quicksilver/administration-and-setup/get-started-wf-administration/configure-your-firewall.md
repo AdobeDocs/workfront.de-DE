@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 6 befindet, fügen Sie die folgen
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">So verwenden Sie den AWS-E-Mail-Dienst</td> 
+   <td role="rowheader">So verwenden Sie den E-Mail-Dienst</td> 
    <td> 
     <ul> 
      <li>54 240 60 174</li> 
@@ -202,6 +202,15 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 6 befindet, fügen Sie die folgen
      <li>52 14 70 114</li> 
      <li>52 15 230 220</li> 
      <li>54 71 252 65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">So verwenden Sie den E-Mail-Dienst Mailpiste</td> 
+   <td> 
+    <ul> 
+     <li>143 55 228 56 </li> 
+     <li>209 61 151 229</li> 
+     <li>69,72,43,7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -4,9 +4,10 @@ description: Projektverbesserungen im dritten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
+exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt. Produktion für alle Kunden: Noch nicht festgelegt.
-
-<span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span>
+>Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024); Produktion für alle Kunden: Noch festzulegen.
 
 In den folgenden Bereichen haben wir dem Feld Zuweisungen die gleichen Funktionen für relevantere Smart-Zuweisungen hinzugefügt:
 
@@ -38,9 +37,7 @@ Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/hel
 
 >[!NOTE]
 >
->Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt. Produktion für alle Kunden: Noch nicht festgelegt.
-
-<span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span>
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktion für alle Kunden: Noch zu bestimmen.
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 

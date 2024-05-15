@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,23 +27,33 @@ Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt im Work
 
 Es gibt eine Reihe von Tabellentypen, die Sie verwenden können, um Ihre Workfront-Daten so anzuzeigen, dass sie den größten Einblick bieten.
 
-### Aktuelle Tabelle
+* **Aktuelle Tabelle**
 
-Die Tabelle &quot;Aktuell&quot;gibt Daten ähnlich an wie in Workfront, jedem Objekt und seinem aktuellen Status. Es kann jedoch mit einer wesentlich geringeren Latenz als in Workfront navigiert werden.
+  Die Tabelle &quot;Aktuell&quot;gibt Daten ähnlich an wie in Workfront, jedem Objekt und seinem aktuellen Status. Es kann jedoch mit einer wesentlich geringeren Latenz als in Workfront navigiert werden.
 
-### Ereignistabelle
+* **Ereignistabelle**
 
-Die Tabelle &quot;Event&quot;verfolgt jeden Änderungsdatensatz in Workfront: Jedes Mal, wenn ein Objekt den Status ändert, wird ein Datensatz erstellt, der anzeigt, wann die Änderung erfolgte, wer die Änderung vorgenommen hat und was geändert wurde. Daher ist diese Tabelle für Point-in-Time-Vergleiche nützlich. Diese Tabelle enthält nur Aufzeichnungen aus den letzten drei Jahren.
+  Die Tabelle &quot;Event&quot;verfolgt jeden Änderungsdatensatz in Workfront: Jedes Mal, wenn ein Objekt den Status ändert, wird ein Datensatz erstellt, der anzeigt, wann die Änderung erfolgte, wer die Änderung vorgenommen hat und was geändert wurde. Daher ist diese Tabelle für Point-in-Time-Vergleiche nützlich. Diese Tabelle enthält nur Aufzeichnungen aus den letzten drei Jahren.
 
-### Tägliche Verlaufstabelle
+* **Tägliche Verlaufstabelle**
 
-Die Tabelle &quot;Täglicher Verlauf&quot;bietet eine abgekürzte Version der Tabelle &quot;Ereignis&quot;, da sie den Status der einzelnen Objekte täglich anzeigt und nicht, wann jedes einzelne Ereignis aufgetreten ist. Diese Tabelle ist daher für die Trendanalyse nützlich.
+  Die Tabelle &quot;Täglicher Verlauf&quot;bietet eine abgekürzte Version der Tabelle &quot;Ereignis&quot;, da sie den Status der einzelnen Objekte täglich anzeigt und nicht, wann jedes einzelne Ereignis aufgetreten ist. Diese Tabelle ist daher für die Trendanalyse nützlich.
 
 <!-- Custom table -->
 
+## Entitätsbeziehungsdiagramm
+
+Objekte in Workfront (und damit in Ihrem Data Lake) werden nicht nur durch ihre individuellen Werte definiert, sondern durch ihre Beziehungen zu anderen Objekten. Das unten stehende Entitätsbeziehungsdiagramm bietet eine allgemeine Zuordnung von Objektbeziehungen im Workfront Data Lake. Das Diagramm kann über den folgenden Link angezeigt und heruntergeladen werden:
+
+[Workfront Data Lake-Entitätsbeziehungsdiagramm](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>Das Entitätsbeziehungsdiagramm ist ein laufendes Werk - als solches dient es nur zu Referenzzwecken und kann geändert werden.
+
 ## Terminologie
 
-Die folgende Tabelle ordnet die Objektnamen in Workfront (sowie ihre Namen in der Benutzeroberfläche und der API) mit dem entsprechenden Namen im Data Lake zusammen.
+In der folgenden Tabelle werden Objektnamen in Workfront (sowie deren Namen in der Benutzeroberfläche und API) mit den entsprechenden Namen im Data Lake korreliert.
 
 <table>
 <thead>

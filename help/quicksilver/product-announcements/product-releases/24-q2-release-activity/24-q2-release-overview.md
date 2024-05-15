@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -369,8 +369,7 @@ Sie können auch [Anzeigen einer PDF-Datei](https://acrobat.adobe.com/id/urn:aai
                                 <p>Vorschau-Version: 13. Februar 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
-                                <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
@@ -390,8 +389,7 @@ Sie können auch [Anzeigen einer PDF-Datei](https://acrobat.adobe.com/id/urn:aai
                                 <p>Vorschau-Version: 21. Dezember 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (14. März 2024)</p>
-                                <p><span style="color: #ff0000;">Diese Funktion wurde am 18. März 2024 für Kunden mit schneller Veröffentlichung aus der Produktion entfernt.</span></p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
