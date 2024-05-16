@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ## Adobe Workfront-Verbesserungen
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Verbesserungen bei der Finanzverwaltung](#financial-management-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
@@ -79,13 +80,65 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         </table>
 -->
 
+### Verbesserungen bei der Finanzverwaltung
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Abrechenbare und nicht abrechnungsfähige Ausgabenfelder für Projekte und Aufgaben</a></p>
+                        <p>[!BADGE In Production ]{type=Informative}</p>
+                        <p>Damit Sie die Ausgabetypen leichter erkennen können, wurden die Ausgaben in abrechenbare und nicht abrechnungsfähige Ausgaben für Projekte und Aufgaben unterteilt. Die folgenden Felder stehen Ihnen zum Hinzufügen zu Ansichten und Berichten zur Verfügung:</p>
+                        <ul>
+                            <li><p>Geplante abrechenbare Ausgabenkosten</p></li>
+                            <li><p>Geplante nicht abrechnungsfähige Kosten</p></li>
+                            <li><p>Tatsächliche nicht abrechnungsfähige Kosten</p></li>
+                            <li><p>Tatsächliche nicht abrechnungsfähige Kosten</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 10. Mai 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion für alle Kunden: 10. Mai 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Projektverbesserungen
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dem Workflow "Neue Aufgabe"hinzugefügte relevantere Zuweisungen</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 13. Februar 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 21. Dezember 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserte Benutzeroberfläche für Benutzer mit eingeschränktem Objektzugriff</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
                         <p>Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm überall dort "Kein Zugriff"angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -181,11 +228,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## Ankündigungen
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -369,10 +369,7 @@ Sie können auch [Anzeigen einer PDF-Datei](https://acrobat.adobe.com/id/urn:aai
                                 <p>Vorschau-Version: 13. Februar 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -389,10 +386,7 @@ Sie können auch [Anzeigen einer PDF-Datei](https://acrobat.adobe.com/id/urn:aai
                                 <p>Vorschau-Version: 21. Dezember 2023</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: TBD</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
