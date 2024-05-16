@@ -4,7 +4,7 @@ description: Sie können die mit Adobe Workfront-Objekten verbundenen Datensätz
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ Folgendes geschieht:
    * Die Werte für die mit dem Planungsdatensatz verbundenen Workfront-Felder werden ebenfalls gelöscht.
 1. Klicks **Verbinden** , um weitere Datensätze zu verbinden.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie über Verwaltungsberechtigungen verfügen.
+   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie Beitragsberechtigungen haben.
 
 1. Klicken Sie auf die Datensätze, die Sie verbinden möchten. Folgendes geschieht:
 

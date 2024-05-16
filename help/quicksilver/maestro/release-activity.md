@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Wenn Sie beispielsweise Projekte aus Workfront-Planungs-Kampagnen verknüpfen, h
 
 Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Abschnitte zur Vorschau des Datensatzes und Detailseiten hinzufügen
+### Abschnitte zur Vorschau des Datensatzes und Detailseiten hinzufügen
 
 Produktion: 15. Mai 2024
 
@@ -150,6 +132,24 @@ Vorschau: zu bestimmen
 Um Informationen auf der Datensatzseite für eine effizientere Lesbarkeit und Navigation besser zu organisieren, haben wir Abschnitte zur Datensatzseite eingeführt. Die Abschnittstitel dienen als Kopfzeilen, die die Felder in verschiedene Kategorien organisieren. Die Abschnitte sind vollständig anpassbar und können bei Bedarf erweitert oder reduziert werden.
 
 Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### Echtzeit-Aktualisierungen für Feldkonfigurationsänderungen
+
+Produktion: 16. Mai 2024
+
+Vorschau: zu bestimmen
+
+Wenn ein Benutzer eine Feldkonfiguration (Name, Beschreibung, Optionsliste usw.) in einem Datensatztyp ändert, sehen andere Benutzer diese Änderungen in Echtzeit an. Dadurch wird sichergestellt, dass alle Benutzer die richtigen Felder und ihre Informationen gleichzeitig anzeigen.
+
+>[!WARNING]
+>
+>Wenn sich Formelausdrücke ändern oder Optionen aus einem Auswahlfeld hinzugefügt oder entfernt werden, gehen Daten für die Datensätze verloren, die bereits über Informationen verfügen, die in den Feldern gespeichert sind, deren Konfiguration geändert wird.
+>
+>Es gibt keine Warnung oder Hinweise darauf, dass dieser Datenverlust auftreten kann, wenn Sie die Konfiguration der Felder ändern.
+>
+>Es gibt keine Benachrichtigung für andere Benutzer, dass die Feldkonfiguration geändert wurde.
+
+Weitere Informationen finden Sie unter [Felder bearbeiten](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## Woche vom 6. Mai 2024
 

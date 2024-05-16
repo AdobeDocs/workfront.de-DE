@@ -7,19 +7,20 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Smart-Zuweisungen
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie mithilfe von intelligenten Zuweisungen ermitteln, wer die beste Ressource ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Bei intelligenten Zuweisungen kann es sich um Benutzer, Auftragsrollen oder Teams handeln.
 
@@ -121,7 +122,7 @@ Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweis
 
   Wenn Rick beispielsweise zu einem früheren Zeitpunkt einer ähnlichen Aufgabe zugewiesen wurde und Jennifer vor zwei Tagen einer ähnlichen Aufgabe zugewiesen wurde, wird Rick zuerst angezeigt.
 
-* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Vorgeschlagene Zuweisungen** im Feld &quot;Zuweisungen&quot;.
+* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen**  im Feld &quot;Zuweisungen&quot;.
 
 * Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
 
@@ -131,7 +132,7 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
-Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Sonstige Zuweisungen** im Feld &quot;Zuweisungen&quot;für Aufgaben. <!--update this to "Other assignments"-->
+Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt   **Sonstige Zuweisungen** (oder im Abschnitt &quot;Benutzer und Teams&quot;oder &quot;Aufgabenrollenzuweisungen&quot;) des Felds &quot;Zuweisungen&quot;für Aufgaben.
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 
