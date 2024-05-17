@@ -6,9 +6,9 @@ description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder einem Bericht angezeigt werden. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste oder einem Bericht angezeigt werden, wird das Objekt sofort aktualisiert.
 
-Wenn Sie ein Feld inline bearbeiten, das in einem benutzerdefinierten Formular enthalten ist, das nicht an das Objekt angehängt ist, wird das benutzerdefinierte Formular automatisch zum Objekt hinzugefügt. Wenn das Feld in mehreren benutzerdefinierten Formularen vorhanden ist, wird das benutzerdefinierte Formular, das zuletzt aktualisiert wurde, an das Objekt angehängt.
+Wenn Sie ein Feld inline bearbeiten, das in einem benutzerdefinierten Formular enthalten ist, das nicht an das Objekt angehängt ist, wird das benutzerdefinierte Formular automatisch zum Objekt hinzugefügt. Wenn das Feld in mehreren benutzerdefinierten Formularen vorhanden ist, wird das zuletzt aktualisierte benutzerdefinierte Formular an das Objekt angehängt.
 
 Weitere Informationen zu Listen finden Sie unter [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -28,8 +28,8 @@ Die meisten in Listen oder Berichten angezeigten Objekte können in [!DNL Adobe 
    Sie können beispielsweise den Status einer Aufgabe in einem Aufgabenbericht bearbeiten, aber Sie können den Namen des Projekts, mit dem die Aufgabe in demselben Bericht verknüpft ist, nicht bearbeiten. Sie können den Namen des Projekts nur in einem Projektbericht bearbeiten.
 * Sie können Felder nicht inline bearbeiten, wenn in der Listenansicht nicht die Standardwährung angezeigt wird.\
    Informationen zur Anzeige der Standardwährung finden Sie im Abschnitt [Berichte mit eindeutigen Währungen bearbeiten](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) im Artikel [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
-
 * In einer Liste angezeigte Flags und Symbole können nicht bearbeitet werden.
+* Es ist nicht möglich, Berichtsfelder inline zu bearbeiten, die aus anderen Berichten stammen.
 
 ## Zugriffsanforderungen
 
@@ -40,8 +40,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf den Bereich bearbeiten, in dem sich die Liste befindet</p> <p>Um beispielsweise Aufgaben in einem Projekt inline zu bearbeiten, benötigen Sie Zugriff auf Projekte.</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen.<br>Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf den Bereich bearbeiten, in dem sich die Liste befindet</p> <p>Um beispielsweise Aufgaben in einem Projekt inline zu bearbeiten, benötigen Sie Zugriff auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen.<br>Informationen zur Verwendung von [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -75,10 +75,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >   
    >   
    >   * **Paginierung**: Klicken Sie auf die Pfeile nach hinten und nach vorne, um zwischen Seiten zu navigieren.\
-      >     In der rechten unteren Ecke der Liste befindet sich das [!UICONTROL Paginierung] bleibt beim Scrollen durch die Liste fixierbar.
-   >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen. Geben Sie dann Text ein, um nur die Elemente anzuzeigen, die den eingegebenen Text enthalten.\
-      >     Der Schnellfilter befindet sich in der Symbolleiste der Liste. Weitere Informationen finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
+   >     In der rechten unteren Ecke der Liste befindet sich das [!UICONTROL Paginierung] bleibt beim Scrollen durch die Liste hängt.
+   >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur die Elemente anzuzeigen, die den eingegebenen Text enthalten.\
+   >     Der Schnellfilter befindet sich in der Symbolleiste der Liste. Weitere Informationen finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 
    Wenn das Feld bearbeitet werden kann, werden das Feld und alle anderen in der Liste angezeigten Felder in bearbeitbare Zellen umgewandelt.
