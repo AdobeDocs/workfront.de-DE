@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 1%
+source-wordcount: '1838'
+ht-degree: 2%
 
 ---
 
 # Übersicht über die Adobe Workfront-Planung
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Größe der CSV-Datei, die Sie importieren können* | 5 MB |
+| Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 

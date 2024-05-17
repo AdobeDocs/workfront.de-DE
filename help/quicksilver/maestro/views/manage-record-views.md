@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ Nach Auswahl eines Datensatztyps im Adobe Workfront-Planungsbereich können Sie 
 * Kalender
 
   Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
+
+* [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
+* [Ansicht löschen](#delete-views)
+* [Ansicht duplizieren](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Zugriffsanforderungen
 
@@ -93,7 +101,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Ansichten in der Workfront-Planung sind typspezifisch für Datensätze. Sie können dieselbe Ansicht nicht auf zwei verschiedene Datensatztypen anwenden.
 * Von Ihnen erstellte Ansichten sind nur für Sie und Benutzer sichtbar, für die Sie die Ansichten freigeben.
 * Wenn Sie eine Ansicht ändern oder löschen, wird sie für alle Benutzer mit Berechtigungen für die Ansicht geändert und gelöscht.
-<!--* Each user can create a maximum of 100 views. -->
+* Jeder Benutzer kann maximal 100 Ansichten erstellen. Sie können mehr als 100 Ansichten für einen Datensatztyp anzeigen, aber ein Benutzer kann nur 100 Ansichten erstellen.
+* Sie können von Ihnen erstellte Ansichten für andere freigeben. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md).
 * Die folgenden Elemente sind für jede Datensatzansicht eindeutig:
 
    * Filter
@@ -108,14 +117,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   >[!NOTE]
   >
   > Da sich die Adobe Workfront-Planung derzeit im Beta-Zustand befindet, stehen einige Ansichtselemente möglicherweise nicht allen Ansichten zur Verfügung.
-
-In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
-
-* [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
-* [Ansicht löschen](#delete-views)
-* [Ansicht duplizieren](#duplicate-views)
-* [Anzeigen freigeben](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Ähnlichkeiten und Unterschiede zwischen Datensatzansichten
 
@@ -228,10 +229,6 @@ Zunächst müssen Sie möglicherweise auf **Mehr** auf der linken Seite der letz
 1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 
    Die Ansicht wird für alle Benutzer gelöscht, die auf den Datensatzbereich zugreifen können, und kann nicht wiederhergestellt werden.
-
-## Anzeigen freigeben
-
-Informationen zum Freigeben von Ansichten finden Sie unter [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
