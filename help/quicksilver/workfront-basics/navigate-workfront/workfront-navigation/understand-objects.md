@@ -6,9 +6,9 @@ description: "Die Informationen, die Sie unter [!DNL Adobe Workfront] wird durch
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ Sie können Berichte zu den folgenden Objekten erstellen, wenn Sie die Berichter
 * [!UICONTROL Parametergruppe] (oder [!UICONTROL Abschnittsumbruch])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programm]
-* [!UICONTROL Projekt] ([!UICONTROL Finanzdaten])
+* [!UICONTROL Projekt (Finanzdaten)]
+   * Finanzinformationen werden in [!UICONTROL Projekt (Finanzdaten)] werden nur dann gemeldet, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise im Januar 2015 einer Aufgabe eine berufliche Rolle zugewiesen wurde und heute September 2021 ist, wird ein Finanzfeld wie der [!UICONTROL Zuordnungsdatum] für die Stellenrolle nicht in der [!UICONTROL Projekt (Finanzdaten)] Bericht.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >Finanzinformationen werden in [!UICONTROL Projekt] ([!UICONTROL Finanzdaten]) werden nur dann gemeldet, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise im Januar 2015 einer Aufgabe eine berufliche Rolle zugewiesen wurde und heute September 2021 ist, wird ein Finanzfeld wie der [!UICONTROL Zuordnungsdatum] für die Stellenrolle nicht in der [!UICONTROL Projekt (Finanzdaten)] Bericht.
+  >Die Ausführung des Berichts Projekt (Finanzdaten) führt eine Neuberechnung Ihrer Finanzdaten durch, die frühere Finanzdaten überschreiben können und viel Zeit in Anspruch nehmen können. Weitere Informationen über die Auswirkungen der Neuberechnung von Finanzdaten finden Sie unter [Neuberechnung der Projektfinanzen](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Korrekturabzug-Genehmigung]
    * Sie können verschiedene Informationen über die Validierung des Testversands einsehen, einschließlich des Testversands, der zur Validierung unterbreitet wurde, Informationen über die [!UICONTROL Genehmiger], Informationen zum Antragsteller (wenn der Antragsteller lizenziert ist) [!DNL Workfront] Benutzer), Versionsinformationen, Testversand-ID und Erstellungsdatum des Testversands.\

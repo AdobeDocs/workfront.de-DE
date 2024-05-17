@@ -7,10 +7,10 @@ description: Sie können [!DNL JumpSeat] mit [!DNL Workfront] , um benutzerdefin
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>[!UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Bevor Sie beginnen, müssen Sie
 
 ## Konfigurieren Sie die [!DNL JumpSeat] Integration
 
-Wir empfehlen, eine [!DNL JumpSeat] Integration in Ihre Vorschau- und Produktionsumgebungen.
+Es wird empfohlen, eine [!DNL JumpSeat] Integration in Ihre Vorschau- und Produktionsumgebungen.
 
 >[!TIP]
 >
@@ -65,16 +65,16 @@ So konfigurieren Sie die [!DNL JumpSeat] Integration:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]**.
 1. Klicken Sie im linken Bereich auf **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat]Integration]**.
-1. Geben Sie Ihre **[!UICONTROL [!DNL JumpSeat]URL]**.
+1. Geben Sie Ihre **[!UICONTROL [!DNL JumpSeat]URL]**, die Sie auf dem Erweiterungssymbol in [!DNL JumpSeat].
 
    **Beispiel:** [!DNL https]://{mycompanyname}.jumpsitz.io
 
-1. Geben Sie die **[!UICONTROL [!DNL JumpSeat]Integrationstoken]**. Sie finden dies im **[!UICONTROL Konfiguration]** Seite in [!DNL JumpSeat].
+1. Geben Sie die **[!UICONTROL [!DNL JumpSeat]Integrationstoken]**. Sie finden dies auf der **[!UICONTROL Konfiguration]** Seite in [!DNL JumpSeat].
 
    **Beispiel:** $2y$10$BevsKeQ8...OYR.LurSg2U64O
 
-1. Klicken **[!UICONTROL Testen der Konfiguration]**.
-1. Entscheiden Sie, ob die Integration **[!UICONTROL Aktiv]** oder **[!UICONTROL Inaktiv]**.
+1. Klicks **[!UICONTROL Testen der Konfiguration]**.
+1. Entscheiden Sie, ob die Integration **[!UICONTROL Aktiv]** oder **[!UICONTROL Inaaktiv]**.
 
    >[!IMPORTANT]
    >
@@ -83,3 +83,7 @@ So konfigurieren Sie die [!DNL JumpSeat] Integration:
    ![JumpSeat-Integrationsseite](assets/jumpseat-integration-page.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+>[!TIP]
+>
+>Weitere Informationen zur Konfiguration der [!DNL JumpSeat] -Integration, siehe [!DNL JumpSeat] Dokumentation für [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).

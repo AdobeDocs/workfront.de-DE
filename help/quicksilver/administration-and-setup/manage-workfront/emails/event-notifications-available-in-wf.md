@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '5121'
-ht-degree: 8%
+source-wordcount: '5201'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,10 @@ Diese Benachrichtigungen können auf System- und Gruppenebene konfiguriert werde
 Einzelne Benutzer können auch ihre individuellen Ereignisbenachrichtigungen in ihrem jeweiligen Profil aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In den folgenden Tabellen sind alle Adobe Workfront-Ereignisbenachrichtigungen aufgeführt, eine kurze Beschreibung des Ereignisses sowie Informationen dazu, ob das Ereignis standardmäßig aktiv oder inaktiv ist.
+
+>[!NOTE]
+>
+>Benachrichtigungen mit dem Wert &quot;Aktiv&quot;in der Spalte &quot;Standardstatus&quot;sind standardmäßig für sofortige und tägliche Benachrichtigungen aktiv, sofern nicht anders angegeben.
 
 ## Aktion erforderlich
 
@@ -62,7 +66,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Dokumentanforderung hinzufügen</p> </td> 
    <td> <p>Benutzer, von dem das Dokument angefordert wird</p> </td> 
    <td> <p>Jemand hat mich gebeten, Dokumente hochzuladen.</p> <p>Die Dokumentenanfrage erhält eine E-Mail-Benachrichtigung, wenn sie eine Anforderung zum Hochladen eines Dokuments erhält.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
@@ -89,7 +93,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Problem</p> </td> 
    <td> <p>Problem mit ausstehender Genehmigung</p> </td> 
    <td> <p>Delegierter Genehmiger</p> </td> 
-   <td> <p>Ich muss eine Problemvalidierung überprüfen, wenn ich "delegiert wurde.</p> <p>Wenn ein Benutzer eine Problemgenehmigung an einen anderen Benutzer delegiert, wird dieser benachrichtigt. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn das Projekt den Status Aktuell aufweist.</p> </td> 
+   <td> <p>Ich muss eine Problemgenehmigung überprüfen, die mir übertragen wurde.</p> <p>Wenn ein Benutzer eine Problemgenehmigung an einen anderen Benutzer delegiert, wird dieser benachrichtigt. </p> <p>Eine Benachrichtigung wird nur gesendet, wenn das Projekt den Status Aktuell aufweist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -190,14 +194,14 @@ Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfr
    <td> <p>Änderung des Genehmigungsstatus</p> </td> 
    <td> <p>Anfragender</p> </td> 
    <td> <p>Eine Anforderung zur Dokumentgenehmigung ist abgeschlossen.</p> <p>Der Dokumentanfragende erhält eine E-Mail-Benachrichtigung, wenn die Genehmigungsanforderung für das Dokument abgeschlossen ist.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Abschluss der Dokumentanforderung</p> </td> 
    <td> <p>Anfragender</p> </td> 
    <td> <p>Eine Anfrage zum Hochladen von Dokumenten wurde erfüllt.</p> <p>Der Dokumentanfragende erhält eine E-Mail-Benachrichtigung, wenn eine Anforderung zum Hochladen eines Dokuments erfüllt ist.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
@@ -239,28 +243,28 @@ Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfr
    <td> <p>Anforderungszuweisung</p> </td> 
    <td> <p>Primärer Ansprechpartner für Probleme</p> </td> 
    <td> <p>Jemand wird meiner Bitte zugewiesen.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Benutzer dem Problem zugewiesen wird, es sei denn, der primäre Ansprechpartner und der zugewiesene Benutzer sind derselbe Benutzer.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Anfrage abgeschlossen</p> </td> 
    <td> <p>Primärer Ansprechpartner für Probleme</p> </td> 
    <td> <p>Meine Anfrage ist geschlossen (Bestätigung).</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn die Anfrage geschlossen wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> <p>Wenn die Benachrichtigungen für "Problemabwicklung"aktiviert sind, werden sie immer anstelle der "Anfrage für Primären Kontakt ausgeben"Trigger. Wenn diese Benachrichtigung an den Trigger gesendet werden soll, müssen Sie die Benachrichtigungen zum Abschluss von Problemen deaktivieren.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokument anfordern</p> </td> 
    <td> <p>Primärer Ansprechpartner für Probleme</p> </td> 
    <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Änderung des Anfragestatus</p> </td> 
    <td> <p>Primärer Ansprechpartner für Probleme</p> </td> 
    <td> <p>Der Status ändert sich in meiner Anfrage.</p> <p>Der Hauptkontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Problemstatus ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Hauptkontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und das Projekt die Ansicht "Is Help Desk"verwendet.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +298,7 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
    <td> <p>Kommentar zu Dokument</p> </td> 
    <td> <p>Dokumentbesitzer</p> </td> 
    <td> <p>Zu meinem Dokument wird ein Kommentar hinzugefügt.</p> <p>Der Dokumenteigentümer in Workfront erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar im Dokument veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch Dokumenteigentümer.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist. </p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>Kommentar zu &lt;request name=""&gt; on &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> Betreff der täglichen Digest-Benachrichtigung ist:<em> Kommunikationsgrad &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
-   <td> <p>Aktiv </p> </td> 
+   <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
@@ -315,7 +319,7 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
    <td> <p>Directed Update</p> </td> 
    <td> <p>Team-Mitglieder</p> </td> 
    <td> <p>Jemand bezieht mein Team in ein direktes Update ein.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält jedes Mitglied des Teams, das in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur an Benutzer gesendet, die über Zugriffsberechtigungen für das Objekt der Aktualisierung verfügen.</p> <p>Wenn der Benutzer, der die gezielte Aktualisierung sendet, Mitglied des Teams ist, das eingeschlossen ist, erhält der Benutzer, der die Aktualisierung sendet, keine E-Mail-Benachrichtigung.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
@@ -327,14 +331,14 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
      <li> <p>Der Eigentümer der Notiz</p> </li> 
      <li> <p>Der Primäre Kontakt</p> </li> 
     </ul> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
    <td> <p>Kommentar zu Arbeitselementen</p> </td> 
    <td> <p>Arbeitselement-Zuweisung</p> </td> 
    <td> <p>Jemand kommentiert eines meiner Arbeitselemente.</p> <p>Der Verantwortliche des Arbeitselements erhält jedes Mal, wenn ein Benutzer ein Update zu einem Arbeitselement hinzufügt, eine E-Mail-Benachrichtigung, es sei denn, der Benutzer, der die Aktualisierung hinzufügt, ist auch der Verantwortliche.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Notiz</p> </td> 
@@ -345,7 +349,7 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
      <li> <p>Der Benutzer, der antwortet, ist derselbe Benutzer, der die Anfrage gestellt hat</p> </li> 
      <li> <p>Der Benutzer hat keinen Zugriff auf die Notiz.</p> </li> 
     </ul> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,35 +382,35 @@ Siehe auch [Benachrichtigungen: Validierungsinformationen](../../../workfront-ba
    <td> <p>Genehmigungsdelegierung</p> </td> 
    <td> <p>Benutzerin oder Benutzer</p> </td> 
    <td> <p>Ich werde als Genehmiger beauftragt.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Delegierte Problemgenehmigung - Statusänderung</p> </td> 
    <td> <p>Benutzer, der die Genehmigung erteilt hat</p> </td> 
    <td> <p>Ein delegierter Genehmigungsantrag ist abgeschlossen. </p> <p>Wenn Sie eine Problemvalidierung an eine andere Person delegieren, erhalten Sie eine E-Mail-Benachrichtigung, wenn diese die Genehmigung abschließt (unabhängig davon, ob sie die Problemvalidierung validieren oder ablehnen). </p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
    <td> <p>Delegierte Projektgenehmigung - Statusänderung</p> </td> 
    <td> <p>Benutzer, der die Genehmigung erteilt hat</p> </td> 
    <td> <p>Ein delegierter Genehmigungsantrag für ein Projekt ist abgeschlossen.</p> <p>Wenn Sie eine Projektgenehmigung an eine andere Person delegieren, erhalten Sie eine E-Mail-Benachrichtigung, wenn diese Genehmigung abgeschlossen ist (unabhängig davon, ob sie die Projektgenehmigung genehmigt oder ablehnt).</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Delegierte Aufgabengenehmigung - Statusänderung</p> </td> 
    <td> <p>Benutzer, der die Genehmigung erteilt hat</p> </td> 
    <td> <p>Der Status der delegierten Aufgabenvalidierung ist abgeschlossen.</p> <p>Wenn Sie eine Aufgabenvalidierung an eine andere Person delegieren, erhalten Sie eine E-Mail-Benachrichtigung, wenn diese Validierung abgeschlossen ist (unabhängig davon, ob sie die Aufgabenvalidierung validieren oder ablehnen).</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Stornierung der Dokumentgenehmigung an genehmigende Person</p> </td> 
    <td> <p>Benutzer, der die Genehmigung erteilt hat</p> </td> 
    <td> <p>Eine Anforderung zur Dokumentgenehmigung wird abgebrochen.</p> <p>Der Dokumentenvalidierer des Dokuments erhält eine E-Mail-Benachrichtigung, wenn die Anforderung der Dokumentgenehmigung abgebrochen wird.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Arbeitszeittabelle</p> </td> 
@@ -484,14 +488,14 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td> <p>Änderung des Problemstatus</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
    <td> <p>Der Status ändert sich für eines meiner Arbeitselemente.</p> <p>Der Bevollmächtigte des Problems erhält eine E-Mail-Benachrichtigung, wenn sich der Status ändert, es sei denn, der Benutzer, der den Status geändert hat, ist auch der Bevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist.</p> <p>Benutzer mit einer Light- oder Review-Lizenz erhalten keine Benachrichtigung.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokument anfordern</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
    <td> <p>Dokumente werden bei Anforderungen, denen ich zugewiesen bin, hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
@@ -829,14 +833,14 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p>Ankündigng wurde hinzugefügt.</p> </td> 
    <td> <p></p> </td> 
    <td> <p>Eine Nachricht wird an das Ankündigungszentrum gesendet.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Abbrechen der Dokumentanforderung</p> </td> 
    <td> <p>Benutzer, von dem das Dokument angefordert wird</p> </td> 
    <td> <p>Abbrechen einer Anfrage zum Hochladen von Dokumenten von mir.</p> <p>Die Dokumentanforderung erhält eine E-Mail-Benachrichtigung, wenn eine Dokumentanforderung abgebrochen wird.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -844,7 +848,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p></p> </td> 
    <td> <p>Es wurde ein Fehler gefunden, der Ihre Aufmerksamkeit benötigt.</p> <p>Eine E-Mail-Benachrichtigung wird erzeugt, nachdem Workfront versucht hat, eine Verbindung zu einem POP-Konto herzustellen. Nach 25 Versuchen deaktiviert Workfront die Verbindung zum POP-Konto, um Ressourcen beizubehalten, und sendet eine Benachrichtigung. </p> <p>Die E-Mail-Benachrichtigung wird an den Projekteigentümer gesendet, wenn die POP-E-Mail mit einer Anforderungswarteschlange verknüpft ist, oder an die Workfront-Administratoren, wenn das POP-Konto mit der Funktion "Eingehende E-Mails"in der E-Mail-Einrichtung verknüpft ist.
    </p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
@@ -872,7 +876,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p>Objektfreigabe</p> </td> 
    <td> <p>Benutzer, für den das Objekt freigegeben wurde</p> </td> 
    <td> <p>Jemand teilt mir ein Objekt.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projektbenutzer</p> </td> 
@@ -886,7 +890,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p>Projekt einem Portfolio oder Programm hinzugefügt</p> </td> 
    <td> <p>Portfolio- oder Programmeigentümer</p> </td> 
    <td> <p>Jemand fügt einem Portfolio oder Programm, das ich besitze, ein Projekt hinzu.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (nur Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe</p> </td> 
@@ -900,7 +904,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td>Neues Update</td> 
    <td>Abonnent </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Eine E-Mail wird gesendet, wenn eine Aufgabe, ein Problem oder ein Projekt aktualisiert wird, für das ich angemeldet bin.</span> </p> </td> 
-   <td>Aktiv</td> 
+   <td>Aktiv (nur Instant)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -918,8 +922,8 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
 Siehe auch [Benachrichtigungen: Delegation](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Objekttyp | Ereignis | Empfänger | Beschreibung | Standardstatus |
-|------------------|------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Aufgaben und Probleme | Aufgaben- und Problemdelegierung | Zugewiesene Person | Ich delegiere meine Aufgaben und Probleme (Bestätigung) | Aktiv |
-| Aufgaben und Probleme | Aufgabe anhalten und Delegation ausstellen | Zugewiesene Person | Ich beende die Delegierung meiner Aufgaben und Probleme (Bestätigung) | Aktiv |
-| Aufgaben und Probleme | Aufgaben- und Problemdelegierung | Delegieren | Jemand delegiert Aufgaben und Probleme an mich. | Aktiv |
-| Aufgaben und Probleme | Aufgaben anhalten und Delegation ausstellen | Delegieren | Jemand beendet die Delegierung von Aufgaben und Problemen an mich. | Aktiv |
+|------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
+| Aufgaben und Probleme | Aufgaben- und Problemdelegierung | Zugewiesene Person | Ich delegiere meine Aufgaben und Probleme (Bestätigung) | Aktiv (nur Instant) |
+| Aufgaben und Probleme | Aufgabe anhalten und Delegation ausstellen | Zugewiesene Person | Ich beende die Delegierung meiner Aufgaben und Probleme (Bestätigung) | Aktiv (nur Instant) |
+| Aufgaben und Probleme | Aufgaben- und Problemdelegierung | Delegieren | Jemand delegiert Aufgaben und Probleme an mich. | Aktiv (nur Instant) |
+| Aufgaben und Probleme | Aufgaben anhalten und Delegation ausstellen | Delegieren | Jemand beendet die Delegierung von Aufgaben und Problemen an mich. | Aktiv (nur Instant) |

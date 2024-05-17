@@ -7,10 +7,10 @@ description: Verbesserte Analysen sind ein leistungsstarkes Tool in Adobe Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 2%
+source-wordcount: '1203'
+ht-degree: 3%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 Verbesserte Analysen sind ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit dem Sie Projektdaten untersuchen und Trends mit Planung und Abschluss identifizieren können. Diese Einblicke in Ihre Projekte helfen Ihnen bei der Verwaltung Ihrer aktuellen Arbeit und ermöglichen Ihnen eine genauere Planung für zukünftige Arbeiten.
 
-Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
+Die erweiterte Analyse hilft Ihnen bei der Identifizierung:
 
 * Die Projektplanung
-* Wann Arbeiten zu Projekten hinzugefügt werden
+* Wann Projekte bearbeitet werden
 * Umfang der für verschiedene Projekte abgeschlossenen Arbeiten
 * Die für den Abschluss eines Projekts erforderlichen Stunden oder Tage im Vergleich zu den Stunden oder Tagen, zu denen ein Heimteam geplant ist
 * Wie oft Benutzer bestimmte Aktionen während eines Projekts durchführen
@@ -37,21 +37,21 @@ Um auf den Bereich &quot;Erweiterte Analyse&quot;zuzugreifen, müssen Sie:
 
 * Sie haben einen Business- oder Enterprise-Plan.
 
-   Weitere Informationen finden Sie unter [Workfront-Pläne](https://www.workfront.com/plans).
+  Weitere Informationen finden Sie unter [Workfront-Pläne](https://www.workfront.com/plans).
 
 * Bitten Sie Ihren Workfront-Administrator, Ihrer Layoutvorlage erweiterte Analysen hinzuzufügen.
 
-   Weitere Informationen finden Sie unter [Verbesserte Analyse: Hinzufügen von Analysen zu Layoutvorlagen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Weitere Informationen finden Sie unter [Verbesserte Analyse: Hinzufügen von Analysen zu Layoutvorlagen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Um Informationen zu Projekten und Aufgaben anzuzeigen, müssen Sie:
 
 * Sie haben die Berechtigung Anzeigen für die Bereiche Projekte und Aufgaben in Ihrer Zugriffsebene.
 
-   Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Sie verfügen über Anzeigeberechtigungen für bestimmte Aufgaben und/oder Projekte.
 
-   Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter [Zugriff auf Objekte anfordern](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter [Zugriff auf Objekte anfordern](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Best Practices für erweiterte Analysen
 
@@ -63,28 +63,28 @@ Verwenden Sie Vorlagen mit genauen geplanten Stunden und Tagen für die Dauer, u
 
 * Geplante Stunden
 
-   Dies ist das wichtigste Feld, das ausgefüllt werden muss.
+  Dies ist das wichtigste Feld, das ausgefüllt werden muss.
 
-   >[!NOTE]
-   >
-   >Wenn Ihre Teams keine geplanten Stunden verwenden, können Sie dennoch einige Daten sehen, die auf der Projektdauer basieren.\
-   >Weitere Informationen finden Sie im Abschnitt . [Ansicht &quot;Dauer&quot;](#duration-view) in diesem Artikel.
+  >[!NOTE]
+  >
+  >Wenn Ihre Teams keine geplanten Stunden verwenden, können Sie dennoch einige Daten sehen, die auf der Projektdauer basieren.\
+  >Weitere Informationen finden Sie im Abschnitt . [Ansicht &quot;Dauer&quot;](#duration-view) in diesem Artikel.
 
 * Projektname
 
-   Der Name sollte beschreibend für das Projekt sein.
+  Der Name sollte beschreibend für das Projekt sein.
 
 * Projektbedingung
 * Projektstatus
-* Vorgesehenes Projektstartdatum
+* Geplantes Startdatum des Projekts
 * Geplantes Abschlussdatum
-* Tatsächliches Projektstartdatum
-* Tatsächliches Projektende
+* Tatsächliches Startdatum des Projekts
+* Tatsächliches Enddatum des Projekts
 * Projektdauer Stunden
 * Tatsächliche Projektzeiten
 * Aufgabenstatus (Dazu gehört das Kennzeichnen von abgeschlossenen Aufgaben.)
 * Aufgabenname
-* Task Percent Complete
+* Prozentuale Abschlussrate der Aufgabe
 * Geplantes Startdatum der Aufgabe
 * Für die Aufgabe geplantes Abschlussdatum
 
@@ -100,20 +100,20 @@ In Enhanced Analytics wird die Dauer eines Projekts anhand der folgenden Formeln
 
 * Geplanter Zeitrahmen:
 
-   ```
-   Planned Completion Date of the project - Start Date of the project
-   ```
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
 
 * Arbeitstage:
 
-   ```
-   Planned Duration for tasks completed in the selected date range / Typical hours per work day
-   ```
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
 
-   >[!NOTE]
-   >
-   >8 Stunden ist die Standardnummer für **Typische Stunden pro Arbeitstag**. Ein Adobe Workfront-Administrator kann die **Typische Stunden pro Arbeitstag** Einstellung unter **Einrichtung** > **Projektvoreinstellungen** > **Projekte** > **Zeitpläne**.\
-   >Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!NOTE]
+  >
+  >8 Stunden ist die Standardnummer für **Typische Stunden pro Arbeitstag**. Ein Adobe Workfront-Administrator kann die **Typische Stunden pro Arbeitstag** Einstellung unter **Einrichtung** > **Projektvoreinstellungen** > **Projekte** > **Zeitpläne**.\
+  >Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Informationen über die geplante Dauer finden Sie unter [Übersicht über die Projektdauer](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -123,12 +123,12 @@ Sie können die folgenden Tasten auf Ihrer Tastatur verwenden, um bestimmte Akti
 
 | Schlüssel | Aktion |
 |---|---|
-| **Tab.** | Navigieren Sie zu jedem Element auf der Seite sowie zu einer Tabelle mit Informationen zu jeder Visualisierung, die nicht auf der Seite angezeigt wird. |
-| **Eingabe** | Öffnen Sie das Kalender-Widget, löschen Sie einen vorhandenen Filter, öffnen Sie die Filteroptionen hinzufügen, aktivieren/deaktivieren Sie die Filterwerte, wenden Sie einen erstellten Filter an, öffnen Sie die Exportoptionen für jede Visualisierung, öffnen Sie die Dropdown-Menüs für die Dropdown-Liste der Dropdown-Menüs für die Dropdown-Liste, Aufgaben im Flug und Projekt-Treemap-Visualisierungen |
+| **Registerkarte** | Navigieren Sie zu jedem Element auf der Seite sowie zu einer Tabelle mit Informationen zu jeder Visualisierung, die nicht auf der Seite angezeigt wird. |
+| **Eingabe** | Öffnen Sie das Kalender-Widget, löschen Sie einen vorhandenen Filter, öffnen Sie die Filteroptionen hinzufügen, aktivieren/deaktivieren Sie die Filterwerte, wenden Sie einen erstellten Filter an, öffnen Sie die Exportoptionen für jede Visualisierung, öffnen Sie die Dropdown-Menüs für die Dropdown-Liste der Dropdown-Menüs für die Dropdown-Liste, Aufgaben während des Fluges und Projekt-Treemap-Visualisierungen |
 | **Pfeiltasten** | Navigieren Sie zu Datumsangaben im Kalender-Widget durch Filteroptionen beim Hinzufügen eines Filters und durch Optionen in allen Dropdownmenüs der Visualisierungen. |
 | **Leertaste** | Wählen Sie Datumsangaben im Kalender-Widget aus, wählen Sie beim Hinzufügen eines Filters einen Filtertyp aus, wählen Sie aus dem Dropdown-Menü einer jeden Visualisierung eine Exportoption aus und wählen Sie Optionen aus den Dropdown-Menüs im Dropdown-Menü der Dropdown-Liste, Aufgaben im Flug und Projekt-Treemap-Visualisierungen aus. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Wenn Sie Software zum Lesen von Bildschirmen oder ein Plug-in verwenden, liest die Bildschirmlesehilfe die Informationen laut auf dem Bildschirm und beschreibt die Aktionen, die Sie ausführen, während Sie die oben aufgeführten Schlüssel verwenden.
 
@@ -151,7 +151,7 @@ Weitere Informationen zu den Details einer bestimmten Funktion in Enhanced Analy
    <td> <p>Sie können benutzerdefinierte Filter, Projektfeldfilter oder Teamfilter anwenden, um nur Projekte anzuzeigen, die bestimmten Kriterien entsprechen. Beim Hinzufügen von Filtern wird die Anzahl der Projekte entsprechend aktualisiert.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Grundlegendes zu erweiterten Analyse-KPIs</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Erweiterte Analyse-KPIs</a> </td> 
    <td> <p>Wichtige Leistungsindikatoren (KPIs) für alle Projekte innerhalb eines bestimmten Zeitraums befinden sich oben auf dem Bildschirm.</p> </td> 
   </tr> 
   <tr> 
@@ -175,16 +175,17 @@ Weitere Informationen zu den Details einer bestimmten Funktion in Enhanced Analy
    <td> <p>Die <b>Projekt-Treemap</b> Die Visualisierung zeigt Ihnen, wie viel Zeit für einige Projekte im Vergleich zu anderen verbracht wurde. Durch die Interaktion mit der Visualisierung erhalten Sie Details zum Zustand des Projekts, zum geplanten Abschluss des Projekts und zum tatsächlichen Abschluss des Projekts.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics</a> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics</a> </td> 
    <td> <p>Die <b>Aktivität nach Team</b> Die Visualisierung zeigt Ihnen eine Heatmap, die angibt, wann sich Benutzer in einem Startseiten-Team bei Workfront angemeldet haben, den Status einer Aufgabe geändert und eine Aufgabe abgeschlossen haben. Durch die Interaktion mit der Visualisierung können Sie diese Details für jeden einzelnen Benutzer anzeigen. Sie können auch bestimmte Daten für diese Aktionen sowie die Anzahl der durchgeführten Aktionen anzeigen.</p> </td> 
   </tr> 
+  <!-- Features permanently removed from Workfront
   <tr> 
-   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">Anzeigen der Visualisierung der Ressourcenkapazität in Enhanced Analytics</a> </td> 
-   <td> <p>Die <b>Ressourcenkapazität</b> Die Visualisierung zeigt Ihnen, welche Startseiten über die nötigen Kapazitäten verfügen, um mehr Arbeit zu leisten, und welche Startseiten mehr Arbeit zugewiesen haben, als sie abschließen können. Durch die Interaktion mit der Visualisierung können Sie weitere Details zu abgeschlossenen Arbeiten und verfügbaren Stunden für weitere Arbeiten anzeigen. Wenn Sie ein Team auswählen, wird die Visualisierung der Teamkapazität geöffnet.</p> </td> 
+   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Resource capacity</b> visualization shows you which home teams have the capacity to take on more work and which home teams have more work assigned to them than they can complete. Interacting with the visualization allows you to see more details about work completed and available hours for more work.&nbsp;Selecting a team opens the Team capacity visualization.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">Visualisierung der Teamkapazität in der erweiterten Analyse anzeigen</a> </td> 
-   <td> <p>Die <b>Teamkapazität</b> Die Visualisierung zeigt Ihnen einen Prozentsatz der Arbeit, die ein Heimteam aus der ihnen zugewiesenen Arbeit geleistet hat. Durch die Interaktion mit der Visualisierung können Sie geplante Stunden und geplante Stunden für ein bestimmtes Datum sowie den Kapazitätsprozentsatz anzeigen und feststellen, ob das Startseiten-Team an diesem Tag vorbei war, unterwegs war oder über Kapazität verfügte.</p> </td> 
-  </tr> 
+   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">View the Team capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Team capacity</b> visualization shows you a percentage of the amount of work a home team has completed out of the amount of work assigned to them. Interacting with the visualization allows you to see scheduled hours and planned hours for a specific date, as well as the capacity percentage and whether the home team was over, under, or at capacity on that day.</p> </td> 
+  </tr>--> 
  </tbody> 
 </table>

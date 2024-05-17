@@ -6,9 +6,9 @@ description: Die Finanzmittel werden für ein Projekt berechnet, da Änderungen 
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Wenn sich die Rate eines Benutzers oder einer Rolle während der Lebensdauer ein
 >[!CAUTION]
 >
 >Vor der manuellen Neuberechnung der Finanzen für ein bestimmtes Projekt möchten Sie möglicherweise alle Finanzdaten beibehalten, die bereits zu einem früheren Zeitpunkt berechnet wurden. Es wird empfohlen, die Option &quot;Finanzen neu berechnen&quot;nur zu verwenden, wenn Sie sicher sind, dass Sie keine Änderungen an vorhandenen Informationen vornehmen, oder nur, wenn solche Änderungen gewünscht werden.
+>
+>Beachten Sie, dass beim Ausführen eines Berichts über ein Projekt (Finanzdaten) Ihre Finanzdaten neu berechnet werden. Daher sollten Sie dieselben Überlegungen anstellen, bevor Sie den Bericht ausführen.
 
 ## Finanzielle Daten für Aufgaben mit vorhandenen Stunden beibehalten {#preserve-financial-data-for-tasks-with-existing-hours}
 
