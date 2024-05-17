@@ -3,21 +3,25 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: Single Sign-on in Adobe Workfront
+title: "Single Sign-on in Workfront: Artikelindex"
 description: Sie können Workfront in Ihre bestehende SSO-Lösung integrieren. Diese Konfiguration ist einfach einzurichten und zu verwalten und steht Kunden von OnDemand und OnPremise Enterprise zur Verfügung.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Single Sign-on in Adobe Workfront
+# Single Sign-on in Workfront: Artikelindex
+
+<!-- Audited: 05/2024 -->
+
+Sie können Workfront in Ihre bestehende Single Sign-On-Lösung (SSO) integrieren. Diese Konfiguration ist einfach einzurichten und zu verwalten und steht Kunden von OnDemand und OnPremise Enterprise zur Verfügung.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

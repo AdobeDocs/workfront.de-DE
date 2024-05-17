@@ -6,9 +6,9 @@ description: Ihre [!DNL Adobe Workfront] Das Profil enthält Informationen über
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Nur zulassen &lt;sso configuration=""&gt; Authentifizierung]</strong></td> 
-   <td> <p> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront] und Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] in diesem Feld sichtbar ist.</p> <p>Wenn dieses Feld ausgewählt ist, müssen Sie sich bei [!DNL Workfront] mit Ihren SSO-Anmeldeinformationen. Wenn Sie diese Option deaktivieren, können Sie sich bei [!DNL Workfront] mit [!DNL Workfront] Anmeldedaten.</p> <p>Weitere Informationen zur Konfiguration [!DNL Workfront] mit einer SSO-Lösung, siehe <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-on [!DNL Adobe Workfront]</a>. Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Benutzer für Single Sign-on aktualisieren</a>.</p> </td> 
+   <td> <p> Wenn [!DNL Workfront] Administrator hat eine SSO-Integration mit [!DNL Workfront] und Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Die Art der SSO-Konfiguration, die für Ihre [!DNL Workfront] in diesem Feld sichtbar ist.</p> <p>Wenn dieses Feld ausgewählt ist, müssen Sie sich bei [!DNL Workfront] mit Ihren SSO-Anmeldeinformationen. Wenn Sie diese Option deaktivieren, können Sie sich bei [!DNL Workfront] mit [!DNL Workfront] Anmeldedaten.</p> <p>Weitere Informationen zur Konfiguration [!DNL Workfront] mit einer SSO-Lösung, siehe <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-on [!DNL Workfront]: Artikelindex</a>. Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Benutzer für Single Sign-on aktualisieren</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

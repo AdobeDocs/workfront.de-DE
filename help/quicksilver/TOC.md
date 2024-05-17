@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 1%
@@ -540,8 +540,8 @@ ht-degree: 1%
          * [Zugriff auf den Szenario-Planer gewähren](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Zugriff auf Resource Management gewähren](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Zugriff auf Workfront-Ziele gewähren](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Single Sign-on in Adobe Workfront {#sso}
-         * [Single Sign-on](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Single Sign-on in Workfront {#sso}
+         * [Single Sign-on: Artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Übersicht über Single Sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Benutzer für Single Sign-on aktualisieren](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Konfigurieren von Workfront mit SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 1%
       * [[!DNL Adobe Workfront] Objektübersicht](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Informationen zur Navigation für einen Benutzer mit einer Arbeits-Lizenz](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Informationen zur Navigation für einen Benutzer mit einer Review-Lizenz](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Startseite {#home}
       * [Startseite](workfront-basics/using-home/home.md)
       * Neue Startseite {#new-home}

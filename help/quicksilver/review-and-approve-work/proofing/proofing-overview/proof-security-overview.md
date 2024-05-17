@@ -7,9 +7,9 @@ description: Sie können Testsendungen zusätzliche Sicherheitsmaßnahmen hinzuf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 75c42c9145e754cf95f809744a01ab95a41f743a
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,14 @@ Die erforderliche Anmeldung erhöht die Sicherheit der in Ihrem Konto erstellten
 
 ### Testsendungen mit Anmeldeinformationen aufrufen
 
-Wenn die erforderliche Anmeldung aktiviert ist, müssen sich die validierungsverantwortlichen Benutzer mit ihrer E-Mail-Adresse und ihrem Passwort anmelden, bevor sie in Ihrem Unternehmenskonto erstellte Testsendungen anzeigen können. Benutzer sollten ihre Workfront- oder SSO-Anmeldeinformationen verwenden, je nachdem, wie Ihre Instanz eingerichtet ist.
+Wenn die erforderliche Anmeldung aktiviert ist, müssen sich die validierungsverantwortlichen Benutzer mit ihrer E-Mail-Adresse und ihrem Passwort anmelden, bevor sie die in Ihrem Unternehmenskonto erstellten Testsendungen anzeigen können. Benutzer sollten ihre Workfront- oder SSO-Anmeldeinformationen verwenden, je nachdem, wie Ihre Instanz eingerichtet ist.
 
 >[!TIP]
 >
 >Um den Anmeldeprozess zu optimieren, empfehlen wir, SSO in Workfront und Workfront Testversand einzurichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
->* [Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Single-Sign-On für Workfront-Testbenutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single Sign-on in Workfront: Artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Single Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
-
 
 ## Elektronische Signatur
 
@@ -49,6 +48,5 @@ Wenn die Einstellung für die elektronische Signatur für einen Testversand akti
 >[!IMPORTANT]
 >
 >Um einen Testversand mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
->* [Single-Sign-On für Workfront-Testbenutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
-
