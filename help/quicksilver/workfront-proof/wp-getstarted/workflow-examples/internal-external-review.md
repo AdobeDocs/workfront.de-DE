@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Interne und dann externe Überprüfung in [!DNL Workfront Proof]
-description: Erfahren Sie, wie Sie Workfront Proof für Bewertungen außerhalb Ihres Unternehmens verwenden.
+description: Erfahren Sie, wie Sie Workfront Proof für Überprüfungen außerhalb Ihres Unternehmens verwenden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Diese Option zeigt einen Workflow, in dem Clients alle internen Kommentare sehen
 
 Der Designer gibt den Testversand zunächst an den Projektmanager (und andere Kollegen) weiter. Kollegen überprüfen den Testversand und wenn sie ihn validieren, können Sie die Freigabefunktion verwenden, um den Testversand mit Ihren Kunden zu teilen. Weitere Informationen finden Sie unter [Testversand freigeben in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Neuen Testversand erstellen** - Der Designer erstellt einen neuen Testversand in [!DNL Workfront Proof] und gibt sie für interne Validierungsverantwortliche frei. Der Designer macht den Projektmanager zum Besitzer des Testversands.
 1. **Interne Überprüfung** - der Projektleiter und andere Kollegen überprüfen den Testversand.
@@ -37,7 +37,7 @@ Der Designer gibt den Testversand zunächst an den Projektmanager (und andere Ko
 1. **Neue Testversion** - Der Kunde erhält die E-Mail mit der Nachricht Neuer Testversand mit der [!UICONTROL Testversand durchführen] -Link. Weitere Informationen finden Sie unter [Neue Testversion](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 1. **Testversand** - der Kunde prüft den Testversand, fügt Kommentare hinzu und trifft eine Entscheidung.
-1. **Email-Warnhinweis** - Der Projektmanager erhält eine E-Mail-Warnung (je nach den Einstellungen für den Testversand). Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+1. **Email-Warnhinweis** - Der Projektmanager erhält eine E-Mail-Warnung (je nach den Einstellungen für den Testversand). Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 1. **Anforderung ändern** - Der Projekt-Manager informiert den Designer über die Änderungsanforderungen. Dies kann mithilfe der Druckkommentar-Funktion erfolgen. Weitere Informationen finden Sie unter [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
@@ -49,7 +49,7 @@ Sie können diesen Vorgang wiederholen, bis der Testversand validiert wurde.
 
 Diese Option veranschaulicht einen Workflow, bei dem der Testversand vom Projektmanager verwaltet wird, der neue Versionen erstellt (falls erforderlich) und den Testversand an den Kunden weitergibt. Der Designer muss nicht in den Überprüfungsprozess einbezogen werden.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Neuen Testversand erstellen** - Der Designer erstellt einen neuen Testversand in [!DNL Workfront Proof] und gibt sie für interne Validierungsverantwortliche frei. Der Designer macht den Projektmanager zum Eigentümer des Testversands oder gibt ihm alternativ die Rolle von [!UICONTROL Autor] auf dem Testversand (siehe [Verwalten von Proof-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
