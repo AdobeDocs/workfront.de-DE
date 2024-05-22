@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ Dieses Aktionsmodul führt eine der folgenden Konvertierungen durch:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Optionen]</td> 
    <td> <p>Aktivieren Sie alle Optionen, die Sie beim Konvertieren des Objekts benötigen. Je nachdem, in welches Objekt Sie konvertieren oder von welchem Objekt Sie konvertieren, sind Optionen verfügbar.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Native Felder kopieren]</td> 
+   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder vom ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Benutzerdefinierte Formulare kopieren]</td> 
+   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder vom ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1238,6 +1246,16 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Ausgangsbasis</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Abrechnungseintrag</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1298,6 +1316,16 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Wechselkurs</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Ausgabe</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1316,6 +1344,16 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Externes Dokument</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Gruppe</td> 
@@ -1522,7 +1560,7 @@ Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet wer
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
