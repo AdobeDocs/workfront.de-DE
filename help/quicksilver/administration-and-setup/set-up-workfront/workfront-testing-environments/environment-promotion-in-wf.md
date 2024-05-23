@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Sie können diesen Vorgang in Workfront durchführen, indem Sie ein Objekt-Packa
 
 Die Umgebungsförderungsfunktion soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Dies sind Objekte, die konfiguriert werden können, z. B. Projekte, Teams oder benutzerdefinierte Formulare.
 
-Die Umgebungsförderung unterstützt nicht die Möglichkeit, Transaktionsobjekte zu verschieben (mit eingeschränkten Ausnahmen). Transaktionsobjekte können nicht konfiguriert werden. Beispiele sind Aktualisierungen der Systemaktivität und Testversandentscheidungen.
+Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobjekte (Objekte, die sich häufig ändern oder von Anwendungsfällen stark abhängig sind) nicht enthalten. Beispiele für Transaktionsobjekte sind Dokumente, Probleme, Anfragen, Aktualisierungen und Testentscheidungen.
 
 * [Arbeitsobjekte](#work-objects)
 * [Reporting-Objekte](#reporting-objects)
