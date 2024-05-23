@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>Die folgenden Erklärungen gelten nur für die neuen Pläne.
+>
+>Für den Plan auswählen:
+>
+>1. Systemadministratoren können keine Beschränkungen für Home Groups festlegen.
+>2. Systemadministratoren können nur die Gesamtanzahl der in allen Home Groups verwendeten Lizenzen sehen.
+>3. Gruppenadministratoren können überhaupt nicht auf die Seite Lizenzen zugreifen.
+>
+>Für die Pläne Prime und Ultimate:
+>
+>1. Systemadministratoren können der Lizenzseite Startseiten-Gruppen hinzufügen, um die Nutzung von Lizenzen in diesen Gruppen anzuzeigen, und sie können auch Lizenzbeschränkungen festlegen.
+>2. Gruppenadministratoren können auf die Seite Lizenzen zugreifen und die Nutzung von Lizenzen in den von ihnen verwalteten Gruppen anzeigen, die von Systemadministratoren zur Seite Lizenzen hinzugefügt wurden.
+>3. Gruppenadministratoren können keine Informationen für andere Home-Gruppen anzeigen oder Maximalwerte hinzufügen.
+
 ## Lizenzen Ihres Unternehmens anzeigen
 
 Die Anzahl der verwendeten Lizenzen wird automatisch aktualisiert, wenn Sie den Benutzern, die Sie zu Workfront hinzufügen, Zugriffsebenen zuweisen. Weitere Informationen finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
    >[!NOTE]
    >
-   >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das gebührenpflichtige Workfront Testversand-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront-Testversand: Artikelindex](../../workfront-proof/workfront-proof.md).
+   >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das bezahlte Workfront Proof-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront Proof: Artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Bedingt) Wenn die Nachricht angezeigt wird **Um ein Maximum festzulegen, müssen Sie eine Startseite hinzufügen**, fügen Sie in Ihrem System eine Home Group hinzu, wie im Abschnitt beschrieben. [Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel.
 
@@ -73,7 +89,7 @@ So zeigen Sie Lizenzinformationen in Ihrem System an:
 
 ## Anzeigen von Informationen zu Lizenzen für Workfront-Add-ons
 
-Wenn Ihr Unternehmen über das gebührenpflichtige Workfront Testversand-Add-on verfügt, werden die Anzahl der verwendeten Lizenzen und die Anzahl der verfügbaren Lizenzen angezeigt. Beispiel: **5 von 10 Lizenzen** gibt an, dass das Unternehmen derzeit 5 der 10 von ihm erworbenen Workfront-Testlizenzen verwendet.
+Wenn Ihr Unternehmen über das gebührenpflichtige Workfront Proof-Add-on verfügt, werden die Anzahl der verwendeten Lizenzen und die Anzahl der verfügbaren Lizenzen angezeigt. Beispiel: **5 von 10 Lizenzen** gibt an, dass das Unternehmen derzeit 5 der 10 von ihm erworbenen Workfront Proof-Lizenzen verwendet.
 
 ![Lizenz für Workfront-Add-ons](assets/updated-licenses-page.png)
 
