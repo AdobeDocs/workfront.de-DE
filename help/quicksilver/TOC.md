@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
+source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
 workflow-type: tm+mt
-source-wordcount: '14263'
+source-wordcount: '14265'
 ht-degree: 1%
 
 ---
@@ -2203,6 +2203,7 @@ ht-degree: 1%
       * [Generieren eines Moduls mit AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion-Szenario-Vorlagen {#fusion-scenario-templates}
          * [Szenario-Vorlagen](workfront-fusion/scenarios/templates/fusion-templates.md)
+         * [[!DNL Fusion] Vorlagen - Übersicht](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Erstellen neuer Vorlagen in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Adobe Workfront Fusion-Vorlagen veröffentlichen und freigeben](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Erstellen von Szenarien mit Adobe Workfront Fusion-Vorlagen](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
