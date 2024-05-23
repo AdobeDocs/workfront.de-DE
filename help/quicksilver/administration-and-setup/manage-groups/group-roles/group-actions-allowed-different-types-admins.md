@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
   <tr> 
    <td>Benutzerprofile erstellen und bearbeiten</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Untergruppen</p> </td> 
+   <td>Erstellen und Verwalten von Untergruppen</td>
    <td>✓ </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Konfigurieren von Voreinstellungen für Projekte, Aufgaben und Probleme auf Systemebene</p> </td> 
+   <td>Konfigurieren von Voreinstellungen für Projekte, Aufgaben und Probleme auf Systemebene</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Projekt-, Aufgaben- und Problemeinstellungen für Gruppen und Untergruppen aktivieren und deaktivieren</p> </td> 
+   <td>Projekt-, Aufgaben- und Problemeinstellungen für Gruppen und Untergruppen aktivieren und deaktivieren</td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Konfigurieren von Zeitblatt- und Stundenvoreinstellungen auf Systemebene</p> </td> 
+   <td>Konfigurieren von Zeitblatt- und Stundenvoreinstellungen auf Systemebene</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aktivieren und Deaktivieren der Voreinstellungen für Zeitblätter und Stunden für Gruppen und Untergruppen</p> </td> 
+   <td>Aktivieren und Deaktivieren der Voreinstellungen für Zeitblätter und Stunden für Gruppen und Untergruppen </td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten benutzerdefinierter Formulare</p> </td> 
+   <td>Erstellen und Verwalten benutzerdefinierter Formulare</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Layoutvorlagen</p> </td> 
+   <td>Erstellen und Verwalten von Layoutvorlagen</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Genehmigungsprozessen für eine Gruppe</p> </td> 
+   <td>Erstellen und Verwalten von Genehmigungsprozessen für eine Gruppe</td> 
    <td>✓*** </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Teams</p> </td> 
+   <td>Erstellen und Verwalten von Teams</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Wechselkursen</p> </td> 
+   <td>Erstellen und Verwalten von Wechselkursen</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Stundentypen</p> </td> 
+   <td>Erstellen und Verwalten von Stundentypen</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Meilensteinpfaden</p> </td> 
+   <td>Erstellen und Verwalten von Meilensteinpfaden</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Zeitplänen</p> </td> 
+   <td>Erstellen und Verwalten von Zeitplänen</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Unternehmen</p> </td> 
+   <td>Erstellen und Verwalten von Unternehmen</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen und Verwalten von Timesheet-Profilen</p> </td> 
+   <td>Erstellen und Verwalten von Timesheet-Profilen</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Erstellen und Verwalten von Prioritäten, Schwerpunkten und Bedingungen</p> </td> 
+   <td>Erstellen und Verwalten von Prioritäten, Schwerpunkten und Bedingungen</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellung und Verwaltung von Risikotypen</p> </td> 
+   <td>Erstellung und Verwaltung von Risikotypen</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
