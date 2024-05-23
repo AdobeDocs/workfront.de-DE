@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Datensätze verbinden
-
-### Überlegungen zum Verbinden von Datensätzen
+## Überlegungen zum Verbinden von Datensätzen
 
 * Nachdem Sie die Datensatztypen miteinander verbunden haben, werden die verbundenen Datensatztypen in der Tabelle der Datensatztypen, von denen sie verknüpft sind, und auf den Datensatzseiten als verknüpfte Datensatzfelder angezeigt.
 * Sie können Datensätze und Objekte der verknüpften Datensätze und Objekttypen aus den verknüpften Datensatzfeldern durchsuchen und hinzufügen.
@@ -150,6 +148,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * [Datensätze erstellen](../records/create-records.md)
 
    * Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
+* Sie können Objekte aus Workfront mit Datensätzen der Workfront-Planung in den folgenden Bereichen verbinden:
+   * Aus einem Planungsbericht in der Workfront-Planung.
+   * Im Planungsabschnitt eines Workfront-Objekts.
+
+## Datensätze aus der Workfront-Planung verbinden
 
 ### Adobe Workfront-Planungsdatensätze verbinden
 
@@ -379,3 +382,13 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    Entfernen Sie Workfront-Objektfelder aus dem **Ausgewählte Felder** Bereich.
 
    Dadurch werden verknüpfte Felder aus den Datensätzen hinzugefügt oder entfernt. Die mit den entfernten Feldern verknüpften Informationen verbleiben unter Adobe Experience Assets.
+
+## Datensätze aus Workfront-Objekten verbinden
+
+Sie müssen über Folgendes verfügen, um Workfront Planning-Datensätze aus Workfront-Objekten zu verbinden:
+
+* Verbindungen zwischen Datensatztypen und Workflow-Objekttypen.
+* Mindestens eine Verbindung zwischen einem Datensatz und einem Workfront-Objekt.
+* Ihr Workfront- oder Gruppenadministrator muss den Bereich Planung zu den Workfront-Objekttypen hinzufügen, die eine Verbindung zu den Datensatztypen für die Planung herstellen können.
+
+Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

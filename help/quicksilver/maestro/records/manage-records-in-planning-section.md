@@ -4,18 +4,19 @@ description: Sie können die mit Adobe Workfront-Objekten verbundenen Datensätz
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten
@@ -101,7 +102,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Datensatztypen verbinden](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/maestro/records/connect-records.md)
 * Sie können den Abschnitt Planung in einem Workfront-Objekt anzeigen, auch wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
-* Sie können über Workfront im Bereich Planung Datensätze mit Workfront-Objekten verbinden.
+* Sie können über Workfront im Bereich Planung Datensätze mit Workfront-Objekten verbinden, wenn mit dem Workfront-Objekt mindestens ein Datensatz verbunden ist.
+* Sie müssen über Beitragsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Datensätze aus den Workfront-Objekten zu verbinden.
 
 ## Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;
 
@@ -132,17 +134,15 @@ Die Seite der Objekte wird in der Workfront-Planung geöffnet.
 
    ![](assets/planning-section-on-project.png)
 
-1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Vorschaufeld für Datensätze wird angezeigt.
-1. (Optional) Beginnen Sie mit der Änderung der Felder im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke des Vorschaufelds, um die Detailseite des Datensatzes zu öffnen.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Bewegen Sie den Mauszeiger über eine Datensatzkarte und klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** Klicken Sie auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
    * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.
-   * Die Werte für die mit dem Planungsdatensatz verbundenen Workfront-Felder werden ebenfalls gelöscht.
+   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
 1. Klicks **Verbinden** , um weitere Datensätze zu verbinden.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Folgendes geschieht:
 
    * Die Datensätze sind sofort mit dem Workfront-Objekt verbunden und werden im Abschnitt Planung angezeigt.
    * Das Workfront-Objekt wird dem Verbindungsfeld des Workfront-Planungsdatensatzes hinzugefügt.
-   * Die Werte für die mit dem Planungsdatensatz verbundenen Workfront-Felder werden in der Workfront-Planung ausgefüllt.
+   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in der Workfront-Planung ausgefüllt.
 
 <!--add more steps here for what happens after clicking Connect-->
 

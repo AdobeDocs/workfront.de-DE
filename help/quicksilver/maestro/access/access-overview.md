@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/maestro/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Hauptmenü mithilfe einer Layoutvorlage anpassen</a> und <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Benutzer einer Layoutvorlage zuweisen</a>. </p>  
 </td>
   </tr>
  </tbody>

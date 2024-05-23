@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: 7ab92af92fe39ae3342190ffb74a08fecbdd88ec
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1845'
 ht-degree: 2%
 
 ---
@@ -97,6 +97,7 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Rich-Text-Formatierung für Absatzfelder | ✓ |                                  |                 |
 | Adobe Workfront-Planungsmodule für Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informationen aus einem Feld in ein anderes kopieren und einfügen | ✓ |                                  |                 |
+| Auf Planungsdatensätze von Workfront-Objekten zugreifen | ✓ |                                  |                 |
 
 ## Aktivieren der Adobe Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 
