@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Bevor Sie die [!DNL Adobe Target] müssen Sie sicherstellen, dass die folgenden 
 
 ## Erstellen Sie eine Verbindung zu [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Nach dem 3. Juni 2024 erstellte Verbindungen erfordern eine Adobe Target-Server-zu-Server-Verbindung.
+>
+>* Die bestehenden Dienstkontoverbindungen funktionieren bis Januar 2025 weiterhin. Sie müssen Ihre Dienstkontoverbindungen bis Januar 2024 durch Adobe Target-Server-zu-Server-Verbindungen ersetzen.
+>* Sie müssen Entwickler sein, damit Ihr Unternehmen eine Server-zu-Server-Verbindung mit Adobe Target herstellen kann. Die Entwicklerrolle wird in der Adobe Admin Console festgelegt.
+
 So erstellen Sie eine Verbindung für [!DNL Adobe Target] -Module:
 
 1. Klicks **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
@@ -94,6 +101,11 @@ So erstellen Sie eine Verbindung für [!DNL Adobe Target] -Module:
         <td role="rowheader">[!UICONTROL Verbindungsname]</td>
         <td>
           <p>Geben Sie einen Namen für diese Verbindung ein.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Verbindungstyp]</td>
+        <td>Wählen Sie aus, ob Sie eine Dienstkontenverbindung oder eine Server-zu-Server-Verbindung von Adobe Target erstellen.<p><b>WICHTIG</b>: Für Verbindungen, die nach dem 3. Juni 2024 erstellt wurden, ist eine Adobe Target-Server-zu-Server-Verbindung erforderlich. Die bestehenden Dienstkontoverbindungen funktionieren bis Januar 2025 weiterhin. Sie müssen Ihre Dienstkontoverbindungen bis Januar 2024 durch Adobe Target-Server-zu-Server-Verbindungen ersetzen.
         </td>
       </tr>
       <tr>
