@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td>
    <p>Neu: Mitarbeiter oder höher</p>
    <p>Oder</p>
@@ -53,12 +53,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td>
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td>
    <td><p>Zugriff auf Aufgaben und Probleme anzeigen oder höher</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td>
-   <td><p>Anzeigen oder Höhere Berechtigungen für Workfront-Aufgaben oder -Probleme</p></td>
+   <td role="rowheader">Objektberechtigungen</td>
+   <td><p>Anzeigen oder Höhere Berechtigungen für Workfront-Aufgaben oder -Probleme</p>
+   <p><strong>Hinweis:</strong> Benutzer mit Ansichtsberechtigungen für eine Aufgabe oder ein Problem können keine Aktionen auf Karten durchführen, die mit der Aufgabe verbunden sind, einschließlich der Verschiebung der Karte in eine andere Spalte auf der Pinnwand. Benutzer anzeigen können die Karte nur öffnen, um ihre Eigenschaften anzuzeigen, und die verbundene Aufgabe oder das Problem öffnen. Um zusätzlichen Zugriff anzufordern, öffnen Sie die Aufgabe oder das Problem und fordern Sie dort den Zugriff an.</td>
   </tr>
  </tbody> 
 </table>
