@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ Die folgenden Aktionen sind im Abschnitt Planung in Workfront verfügbar:
 * Verbinden von Workfront-Planungsdatensätzen mit dem Workfront-Objekt
 
 * Datensätze trennen
+
+* Öffnen Sie das Vorschaufeld bzw. die Seite mit den Details, um weitere Informationen zu den verbundenen Datensätzen anzuzeigen.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
