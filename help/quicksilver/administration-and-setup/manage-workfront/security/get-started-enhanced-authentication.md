@@ -6,10 +6,10 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,6 @@ ht-degree: 3%
 Adobe Workfront ändert die Systemverwaltung von Benutzern und Kennwörtern. Diese Änderungen werden in einer stufenweisen Version mit dem Namen **Erweiterte Authentifizierung** Erlebnis. Die erweiterte Authentifizierung bietet Benutzern eine konsistentere und sicherere Anmeldeerfahrung für alle Workfront-Produkte und -Dienste.
 
 Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionalität:
-
->[!IMPORTANT]
->
->Die meisten Kunden verwenden derzeit die alte Authentifizierung und einige verwenden die Enhanced Authentication 1.0.
-> 
->Um zu überprüfen, welcher Authentifizierungstyp Sie derzeit verwenden, gehen Sie zu *your_domain*.my.workfront.com/login Wenn Sie zu /auth/login umgeleitet werden, verwenden Sie Enhanced Authentication 1.0.
-> 
->Wenn Sie zu https://login-a-xx.workfront.com/ umgeleitet werden, wobei &quot;xx&quot;je nach Standort/Plattform aus den USA (USA), der EU (Europa) oder dem GCP (Google Cloud Platform) bestehen könnte, verwenden Sie Enhanced Authentication 2.0.
->
->Alle Kunden werden bis Ende 2021 auf Enhanced Authentication 2.0 umsteigen.
 
 <table style="table-layout:auto"> 
  <col> 
