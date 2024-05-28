@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Eine Liste aller Dokumentation zu Canvas Dashboards finden Sie unter [Übersicht
 
 **Beta-Zeitplan:**
 
-* Abgeschlossenes Beta-Startdatum - 2. Mai 2024
+* Abgeschlossenes Beta-Startdatum - TBA
 * Open beta start date - TBA
 * Geplantes Veröffentlichungsdatum - TBA
 
@@ -36,6 +36,10 @@ Anmeldung in der Beta-Version:
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Dashboards**.
 
 1. Klicken Sie auf **Beta-Version der Canvas-Dashboards beitreten** Beta-Schaltfläche in der oberen rechten Ecke der Seite.
+
+   >[!NOTE]
+   >
+   >Diese Schaltfläche ist nur verfügbar, wenn Ihr Unternehmen in der geschlossenen Beta-Phase zugelassen wurde. Wenn die offene Beta beginnt, ist dies für alle Organisationen verfügbar.
 
 1. Lesen Sie die Begriffe und klicken Sie dann auf **Accept**. Sie sind jetzt in der Beta-Phase eingeschrieben. Beachten Sie jedoch, dass es einige Minuten dauern wird, bis Ihre Workfront-Daten in den Canvas-Dashboards vollständig verfügbar sind.
 
@@ -63,12 +67,13 @@ Nachstehend finden Sie eine Liste der aktuell in der Beta-Version unterstützten
 
 ### Entwicklungsfunktionen
 
-* Matrix-Tabellenberichte
+* Datumsbasierte und benutzerbasierte Platzhalter für Filter
+* Workfront-Planungsberichte
+* Zusätzliche Workfront-Objekttypen
+* Berichte zu Foren
+* Weitere Verbesserungen der Benutzerfreundlichkeit
 * Arbeitsblätter
 * Eingebetteter Webinhalt
-* Berichte zu Foren
-* Dashboard-Filter
-* Datumsbasierte und benutzerbasierte Platzhalter für Filter
 
 ### Zukünftige Roadmap-Funktionen
 
