@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -28,32 +28,8 @@ Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe der Workfr
 * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] Plan</td> 
-   <td> <p>Enterprise, Prime oder Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] Lizenz</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Sie müssen [!DNL Workfront] Administrator. Informationen über [!DNL Workfront] Administratoren, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Objektberechtigungen</p> </td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Support-Paket</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] oder [!UICONTROL Enterprise]</p> <p>Das standardmäßige Support-Paket hat keinen Zugriff auf die Sandbox Benutzerdefinierte Aktualisierung, aber es hat Zugriff auf die Vorschau-Sandbox.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## Voraussetzungen
 
