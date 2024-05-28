@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Klicken Sie auf die Schaltfläche **Vorlagen** icon ![](assets/fusion-template-i
 ## Workfront-Vorlagen
 
 Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
+
+### [!BADGE Neu!]{type=Informative}
+
+Diese Fusion-Vorlage erstellt eine standardmäßige Checkliste für alle Karten, die eine bestimmte Spalte auf einer bestimmten Pinnwand zeitbasiert eingeben.
 
 ### Workfront - Projekterstellung aus CSV
 
@@ -86,15 +90,15 @@ Diese Vorlage erfasst wöchentlich jeden Montag um 6 Uhr ET eine Projektgrundlin
 
 Überprüfen Sie einmal im Monat Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu handhabenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
 
-## Workfront - Workfront-Testvorlagen
+## Workfront - Workfront Proof-Vorlagen
 
-Diese Vorlagen automatisieren Workflows, die Workfront mit Workfront Testversand kombinieren.
+Diese Vorlagen automatisieren Workflows, die Workfront mit Workfront Proof kombinieren.
 
-### Workfront-Testversand > Workfront - Projektaktualisierung beim Testversandbeschluss
+### Workfront Proof > Workfront - Projektaktualisierung beim Testversandbeschluss
 
 Wenn eine Entscheidung über einen Testversand getroffen wird, der direkt zu einem Projekt hinzugefügt wird, erfasst diese Automatisierung Informationen zur Testbestätigungsentscheidung, z. B. wer die Entscheidung getroffen hat, und spiegelt diesen Fortschritt im entsprechenden Workfront-Projekt als Aktualisierung wider.
 
-### Workfront-Testversand > Workfront - Task Update und Abschluss (falls genehmigt) bei Testbestätigungsentscheidung
+### Workfront Proof > Workfront - Task Update and Complete (if Approved) on Testing Decision
 
 Wenn einzelne Testsendungen an einzelne Aufgaben gebunden sind, schließt dieses Szenario die damit verbundene Aufgabe, sobald eine Validierungsentscheidung für den Testversand getroffen wird. Wenn die Genehmigung erteilt wurde, wird die Aufgabe abgeschlossen und das Projekt aktualisiert.
 
