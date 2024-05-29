@@ -6,15 +6,17 @@ description: Sie können das Übermittlungsdatum einer Aufgabe oder eines Proble
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen
+
+{{highlighted-preview}}
 
 Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie zugewiesen sind, manuell aktualisieren. Weitere Informationen zum Festlegen von Datumswerten in Adobe Workfront finden Sie unter [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie der Aufgabe oder dem Problem zugewiesen sein, für die Sie das Veröffentlichungsdatum aktualisieren müssen.
+Bevor Sie das Übermittlungsdatum einer Aufgabe oder eines Problems bearbeiten können, müssen Sie der Aufgabe oder dem Problem zugewiesen sein, deren Übermittlungsdatum Sie aktualisieren müssen.
 
 ## Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen
+
+
+In den folgenden Bereichen von Workfront können Sie das Übermittlungsdatum einer Aufgabe oder eines Problems aktualisieren:
+
+* Der Bereich Details einer Aufgabe oder eines Problems
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme identisch.
 
@@ -82,6 +93,10 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 1. Gehen Sie zu einer Aufgabe oder einem Problem, die bzw. dem Sie als **Inhaber**.
 
    Weitere Informationen dazu, wie Sie herausfinden, wer der Aufgabeneigentümer für ein Problem oder eine Aufgabe ist, finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Klicks **Aufgabendetails** oder **Problemdetails** im linken Bereich.
 1. Klicks **Übersicht** um sie zu erweitern.

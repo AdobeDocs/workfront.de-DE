@@ -7,14 +7,16 @@ description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benut
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Datum bestätigen - Übersicht
+
+<!--{{highlighted-preview}}-->
 
 Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen.
 
@@ -47,6 +49,15 @@ Weitere Informationen finden Sie unter [Aktualisieren der Daten zum Bestätigen 
 >* Jeder andere Benutzer mit Berechtigungen für die Aufgabe.
 >
 >Weitere Informationen zum Aufgabeneigentümer finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Suchen Sie nach dem Datum des Versands der Aufgaben und Probleme
+
+Das Datum der Übermittlung an Aufgaben und Probleme finden Sie in den folgenden Bereichen von Workfront:
+
+* Die Detailseite
+* Nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat, wird sie im Bereich &quot;Zusammenfassung&quot;angezeigt. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Durch Änderung des Zusagedatums ausgelöste Benachrichtigungen und Aktualisierungen {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

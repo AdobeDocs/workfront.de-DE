@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 0%
 
 ---
@@ -260,16 +260,21 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    * **MIN**: Zeigt den niedrigsten Wert aus allen Werten an, die aus mehreren, im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
    * **SUM**: Zeigt die Gesamtzahl aller Werte an, die aus mehreren im Feld &quot;Verknüpfter Datensatz&quot;ausgewählten Datensätzen stammen.
    * **AVG**: Zeigt den Durchschnitt aller Werte an, die aus mehreren, im Feld &quot;Verknüpfter Datensatz&quot;ausgewählten Datensätzen stammen.
+   * **UNIQUE**: Entfernt Duplikate aus den Suchfeldwerten und zeigt nur die eindeutigen Werte an. Dies ist für die folgenden Feldtypen nicht verfügbar:
+      * Absatz
+      * Kontrollkästchen
+      * Personen
 
    >[!NOTE]
    >
-   >Sie können beispielsweise den Produktdatensatz (verknüpfter Datensatz) aus dem Campaign-Datensatz (Originaldatensatz) verknüpfen und ihn &quot;Produktfeld&quot;nennen. Sie können auch das Feld Budget des Produktdatensatzes aus dem Campaign-Datensatz verknüpfen und es &quot;Produktbudget&quot;nennen. Wenn Sie mehrere Datensätze im Feld &quot;Produkt&quot;auswählen konnten, können Sie Produkt 1 mit einem Budget von 120.000 $ und Produkt 2 mit einem Budget von 100.000 $ auswählen. Je nach ausgewähltem Aggregator können Sie im verknüpften Feld aus dem ursprünglichen Datensatz die folgenden Budgetinformationen anzeigen:
+   >Sie können beispielsweise den Produktdatensatz (verknüpfter Datensatz) aus dem Campaign-Datensatz (Originaldatensatz) verknüpfen und ihn &quot;Produktfeld&quot;nennen. Sie können auch das Feld Budget des Produktdatensatzes aus dem Campaign-Datensatz verknüpfen und es &quot;Produktbudget&quot;nennen. Wenn Sie mehrere Datensätze im Feld &quot;Produkt&quot;auswählen können, können Sie Produkt 1 mit einem Budget von 100.000 $ und Produkt 2 mit einem Budget von 110.000 $ und Produkt 3 mit einem Budget von 100.000 $ auswählen. Je nach ausgewähltem Aggregator können Sie im verknüpften Feld aus dem ursprünglichen Datensatz die folgenden Budgetinformationen anzeigen:
    >
-   >* **Keines**: 120.000 $, 100.000 $
-   >* **MAX**: 120.000 $
+   >* **Keines**: 100.000 $, 110.000 $, 100.000 $
+   >* **MAX**: 110.000 $
    >* **MIN**: 100.000 $
-   >* **SUM**: 220.000 $
-   >* **AVG**: 110.000 $
+   >* **SUM**: 310.000 $
+   >* **AVG**: 103.000,33 $
+   >* **UNIQUE**: 100.000 $
    >
 
 1. (Optional) Verwenden Sie die **suchen** icon ![](assets/search-icon.png) , um nach einem Feld zu suchen.
