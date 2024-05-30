@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ Produktion: 30. Mai 2024
 
 Vorschau: zu bestimmen
 
-Wir haben das Erscheinungsbild des Planungssymbols im Bereich Hauptmenü aktualisiert. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
+Das Erscheinungsbild des Symbols für den Planungsbereich im Hauptmenü wurde aktualisiert. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
+
+### Umbenennen des Workfront-Planungsprogramms
+
+Ab dem 30. Mai 2024 wechselt das Adobe Workfront-Planungsprogramm von der Beta-Phase in die Phase des frühen Zugriffs. Sie werden diese Änderung in der Terminologie unserer Dokumentation sehen.
+
+Die Phase des frühen Zugriffs ist auch auf einige Workfront-Kunden beschränkt.
+
+Ihr Kundenbetreuer wird Sie darüber informieren, ob Sie sich für die Teilnahme an der Phase des frühen Zugriffs qualifizieren.
 
 ## Woche vom 20. Mai 2024
 
