@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Sie können Berechtigungen für einen Arbeitsbereich oder eine Ansicht in der Adobe Workfront-Planung freigeben oder daraus entfernen.
 
@@ -75,9 +75,9 @@ Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zu
 * Datensatztypen
 * Datensätze
 * Felder
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* Ansichten*
+
+  *Sie können allen Benutzern mit der Berechtigung Ansicht oder höher für einen Arbeitsbereich erlauben, auch auf die Ansichten im Arbeitsbereich zuzugreifen. Dies ist eine zusätzliche Berechtigung, die Sie beim Freigeben einer Ansicht aktivieren müssen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/maestro/access/share-views.md).
 
 Im Folgenden finden Sie die Berechtigungsstufen für Arbeitsbereiche:
 
@@ -147,17 +147,19 @@ Sie müssen Benutzern Berechtigungen für Ansichten erteilen, damit sie Zugriff 
 
 Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtselemente:
 
-|        | Verwalten | Anzeigen |
-|--------|--------|-------|
-| Bearbeiten | ✓ |       |
-| Löschen | ✓ |       |
-| Freigeben | ✓ |       |
-| Anzeigen | ✓ | ✓ |
-| Anwenden | ✓ | ✓ |
+|        | Verwalten (nur eingeladene Personen können darauf zugreifen) | Anzeigen (nur eingeladene Personen können darauf zugreifen) | Jeder im Arbeitsbereich kann anzeigen* |
+|--------|--------|-------|------------------------------|
+| Bearbeiten | ✓ |       |                            |
+| Löschen | ✓ |       |                            |
+| Freigeben | ✓ |       |                           |
+| Anzeigen | ✓ | ✓ | ✓ |
+| Anwenden | ✓ | ✓ | ✓ |
 
-<!--Replace the above with this when global sharing is released: 
+*Benutzer müssen über Ansicht oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

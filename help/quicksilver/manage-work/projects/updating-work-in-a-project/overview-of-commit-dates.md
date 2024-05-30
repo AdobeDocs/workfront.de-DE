@@ -7,16 +7,16 @@ description: Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benut
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Datum bestätigen - Übersicht
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen.
 
@@ -56,8 +56,7 @@ Das Datum der Übermittlung an Aufgaben und Probleme finden Sie in den folgenden
 
 * Die Detailseite
 * Nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat, wird sie im Bereich &quot;Zusammenfassung&quot;angezeigt. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie zu Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Durch Änderung des Zusagedatums ausgelöste Benachrichtigungen und Aktualisierungen {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
 * Die Änderung &quot;Datum der Übermittlung&quot;wird in der Systemaktivität und auf den Registerkarten Alle im Abschnitt Aktualisieren der Aufgabe oder des Problems angezeigt.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   Die Änderung des Veröffentlichungsdatums wird im Bereich Updates der Aufgabe bzw. des Problems angezeigt, wenn der Workfront-Administrator diese Aktualisierung im Bereich Updates-Feeds unter Einrichtung aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
   >[!TIP]
   >
-  >Sie können Ihren System- oder Gruppenadministrator bitten, das Feld &quot;Commit Date&quot;zu Ihrem Zusammenfassungsbereich hinzuzufügen, um die Aktualisierung in verschiedenen Bereichen von Workfront zu vereinfachen, wo das Bedienfeld &quot;Zusammenfassung&quot;angezeigt wird.
+  >Sie können Ihren System- oder Gruppenadministrator bitten, das Feld &quot;Commit Date&quot;Ihrem Zusammenfassungsbereich oder Ihrer Kopfzeile hinzuzufügen, um die Aktualisierung zu vereinfachen.
   >
   >Weitere Informationen finden Sie in den folgenden Artikeln:
   >
   >* [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Zugriffsübersicht
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeberechtigungen.
 
@@ -98,7 +98,7 @@ Nachdem Ihr Unternehmen am Betaprogramm für die Workfront-Planung angemeldet wu
 
 1. Anmelden bei **Workfront** als Workfront-Administrator.
 
-1. Fügen Sie die **Planung** icon ![](assets/maestro-icon.png) der **Hauptmenü** mithilfe einer **Layout-Vorlage**.
+1. Fügen Sie die **Planung** icon ![](assets/planning-icon.png) der **Hauptmenü** mithilfe einer **Layout-Vorlage**.
 
    Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

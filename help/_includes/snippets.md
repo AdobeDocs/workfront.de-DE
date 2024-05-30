@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -249,15 +249,17 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
 
-## Maestro important intro - {#maestro-important-intro}
+## Wichtiger Einstieg in die Workfront-Planung - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
 >
->Derzeit ist Workfront Planning Teil eines Betaprogramms, das nur einer begrenzten Anzahl von Kunden zugänglich ist. Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
+>Workfront Planning befindet sich derzeit in einer Phase des frühen Zugriffs, die nur einer begrenzten Anzahl von Kunden zugänglich ist.
 >
->Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zum Betaprogramm für die Workfront-Planung zu erhalten.
+>Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
+>
+>Ihr Kundenbetreuer wird Sie darüber informieren, ob Sie Teil dieser Phase sind.
 >
 >Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
 
@@ -303,7 +305,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit dem Testversand - {#step1-to-proofing}
 
-1. Klicken Sie in Workfront auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png)oder (falls verfügbar) auf **[!UICONTROL Hauptmenü]** Symbol oben links ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png)Klicken Sie auf **[!UICONTROL Testing]** , um auf Workfront Testversand zuzugreifen.
+1. Klicken Sie in Workfront auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png)oder (falls verfügbar) auf **[!UICONTROL Hauptmenü]** Symbol oben links ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png)Klicken Sie auf **[!UICONTROL Testing]** , um auf Workfront Proof zuzugreifen.
 
 ## Neueste DPV-Version {#latest-version}
 

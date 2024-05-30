@@ -6,9 +6,9 @@ description: Sie können das Übermittlungsdatum einer Aufgabe oder eines Proble
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ Bevor Sie das Übermittlungsdatum einer Aufgabe oder eines Problems bearbeiten k
 In den folgenden Bereichen von Workfront können Sie das Übermittlungsdatum einer Aufgabe oder eines Problems aktualisieren:
 
 * Der Bereich Details einer Aufgabe oder eines Problems
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">Aufgaben- oder Problemkopfzeile</span>
+
+  <span class="preview">Ihr Workfront- oder Gruppenadministrator muss der Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage das Datum &quot;Bestätigen&quot;hinzufügen, um es auf der Aufgaben- oder Problemseite anzuzeigen.
+Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme identisch.
 
@@ -94,9 +94,9 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 
    Weitere Informationen dazu, wie Sie herausfinden, wer der Aufgabeneigentümer für ein Problem oder eine Aufgabe ist, finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">(Bedingt und optional) Wenn Ihr Workfront- oder Gruppenadministrator Ihrer Aufgaben- oder Problemkopfzeile das Datum der Veröffentlichung &quot;Bestätigen&quot;hinzugefügt hat, klicken Sie auf die Schaltfläche **Datum der Übermittlung** in der Kopfzeile ein Datum aus dem Kalender aus. Wenn sich das Datum des Versands nicht in der Kopfzeile befindet, fahren Sie mit den folgenden Schritten fort. </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. Klicks **Aufgabendetails** oder **Problemdetails** im linken Bereich.
 1. Klicks **Übersicht** um sie zu erweitern.
@@ -106,7 +106,7 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Nach dieser Änderung geschieht Folgendes: 
+   Nach dieser Änderung geschieht Folgendes:
 
    * Das Datum der Übermittlung und das geplante Abschlussdatum der Aufgabe bzw. des Problems sind nicht mehr dasselbe.
 
@@ -115,10 +115,13 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Der Projekteigentümer wird in einer In-App-Benachrichtigung von Workfront darüber benachrichtigt, dass Sie ein neues Veröffentlichungsdatum für die Aufgabe oder das Problem vorgeschlagen haben.
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * Der Projekteigentümer wird im Abschnitt Updates darüber benachrichtigt, dass Sie ein neues Veröffentlichungsdatum vorgeschlagen haben. Zu diesem Zeitpunkt kann er das geplante Abschlussdatum der Aufgabe oder des Problems entsprechend dem von Ihnen vorgeschlagenen Zustimmungsdatum aktualisieren.
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   Informationen zu den Benachrichtigungen und Aktualisierungen, die durch diese Änderung ausgelöst werden, finden Sie im Abschnitt &quot;Benachrichtigungen und Aktualisierungen, die durch Änderung des Zusagedatums ausgelöst werden&quot;im Artikel [Datum bestätigen - Übersicht](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     Informationen zu den Benachrichtigungen und Aktualisierungen, die durch diese Änderung ausgelöst werden, finden Sie im Abschnitt &quot;Benachrichtigungen und Aktualisierungen, die durch Änderung des Zusagedatums ausgelöst werden&quot;im Artikel [Datum bestätigen - Übersicht](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

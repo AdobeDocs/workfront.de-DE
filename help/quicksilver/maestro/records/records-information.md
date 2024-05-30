@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 1%
@@ -26,7 +26,7 @@ hide: yes
 
 # Datensätze: Artikelindex
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Nachdem Sie in der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen.
 

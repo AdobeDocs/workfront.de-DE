@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ hide: yes
 
 # Datensatztypen bearbeiten
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Sie können das Erscheinungsbild von Datensatztypen bearbeiten, die Sie oder andere Benutzer erstellt haben. Informationen zum Erstellen von Datensatztypen für die Workfront-Planung finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 

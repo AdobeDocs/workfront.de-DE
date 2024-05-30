@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Übersicht über Datensatztypen
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Adobe Workfront-Planung eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
 

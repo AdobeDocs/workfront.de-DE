@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Ansichten freigeben
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Sie können eine Ansicht für andere freigeben, um die Zusammenarbeit bei der Arbeit mit Datensätzen in der Adobe Workfront-Planung sicherzustellen.
 
@@ -24,12 +24,12 @@ Wenn Sie Berechtigungen für einen Arbeitsbereich erteilen, erhalten andere Benu
 
 Wenn Sie eine Ansicht freigeben, gewähren Sie anderen Berechtigungen für den Zugriff auf alle Elemente der Ansicht. Wenn Sie ihnen beispielsweise Berechtigungen zum Verwalten für eine Ansicht erteilen, können sie die Gruppierung, den Filter, die Sortierung oder das Erscheinungsbild der Leiste ändern.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+Sie können eine Ansicht für die folgenden Entitäten freigeben:
+
+* Workfront-Benutzer
+* Workfront-Gruppen
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Zugriffsanforderungen
@@ -110,14 +110,12 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (Optional) Wählen Sie aus den folgenden Optionen aus, um die Ansicht freizugeben:
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **Nur eingeladene Personen können auf**: Sie müssen Benutzer oder Gruppen angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
+   * **Jeder im Arbeitsbereich kann**: Alle Benutzer mit der Berechtigung Anzeigen oder höher für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-
-1. Im **Gewähren des Ansichtszugriffs auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.  <!--***********replace screen shot below when global sharing is released***********-->
+1. Im **Gewähren des Ansichtszugriffs auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
