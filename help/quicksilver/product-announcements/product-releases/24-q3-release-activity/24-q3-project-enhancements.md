@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Vers
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Dem Workflow &quot;Neue Aufgabe&quot;hinzugefügte relevantere Zuweisungen
+## Bearbeiten Sie die Aufgabe und geben Sie das Datum und die Bedingung für die Übermittlung aus der Kopfzeile oder dem Detailabschnitt aus.
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024).
+>Vorschau-Version: 30. Mai 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.6 (13. Juni 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024).
 
-In den folgenden Bereichen haben wir dem Feld Zuweisungen die gleichen Funktionen für relevantere Smart-Zuweisungen hinzugefügt:
+Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder &quot;Datum und Bedingung für die Übermittlung&quot;als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt &quot;Aufgaben- und Problemkopfzeilen und Details&quot;hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind. Vor dieser Verbesserung konnten Sie bei der Anpassung der Kopfzeilen die Bedingung und das Datum der Veröffentlichung von Aufgaben und Problemen nicht hinzufügen.
 
-* Feld &quot;Neue Aufgabe&quot;beim Hinzufügen einer Aufgabe zu einem Projekt
+Informationen zum Aktualisieren des Zustimmungsdatums und der sCondition finden Sie in den folgenden Artikeln:
 
-* In einer Liste mit Projektaufgaben
+* [Aktualisierungsbedingung für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Aktualisierung des Veröffentlichungsdatums für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Wichtigere intelligente Zuweisungen
 
