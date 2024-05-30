@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 2%
 
 ---
@@ -509,7 +509,7 @@ Für jedes Promotion-Objekt eine der folgenden Optionen `actions`  festgelegt wi
   </tr> 
   <tr> 
    <td>ÜBERSCHREIBUNG</td> 
-   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Diese Aktion bietet die Möglichkeit, ein Objekt zu aktualisieren, das in der Zielumgebung vorhanden ist. Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor die <code>/install</code> aufrufen.<ul><li>Ein Benutzer kann ein Objekt in der Testumgebung aktualisieren und dann mithilfe der Aktion ÜBERSCHREIBEN dieses Objekt in der Zielumgebung aktualisieren.</p></li><li><p>Wenn der Benutzer zunächst ein Promotion-Paket installiert und dann in Zukunft ein neues (oder aktualisiertes) Paket Änderungen an Objekten im ursprünglichen Paket enthält, kann der Benutzer mithilfe von OVERWRITING zuvor installierte Objekte ersetzen (überschreiben). </p></li><ul></td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Diese Aktion bietet die Möglichkeit, ein Objekt zu aktualisieren, das in der Zielumgebung vorhanden ist. Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor die <code>/install</code> aufrufen.<ul><li>Ein Benutzer kann ein Objekt in der Testumgebung aktualisieren und dann mithilfe der Aktion ÜBERSCHREIBEN dieses Objekt in der Zielumgebung aktualisieren.</p></li><li><p>Wenn der Benutzer zunächst ein Promotion-Paket installiert und dann in Zukunft ein neues (oder aktualisiertes) Paket Änderungen an Objekten im ursprünglichen Paket enthält, kann der Benutzer mithilfe von OVERWRITING zuvor installierte Objekte ersetzen (überschreiben). </p><p>Weitere Informationen zum Überschreiben finden Sie im Abschnitt [Überschreiben](#overwriting) in diesem Artikel.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -891,7 +891,209 @@ _Empty_
 }
 ```
 
+## Überschreiben
 
+Dies ist ein dreistufiger Prozess.
+
+1. Erstellen Sie eine Übersetzungszuordnung (entspricht der Phase &quot;Installation vorbereiten&quot;).
+1. Bearbeiten Sie die generierte Übersetzungszuordnung und legen Sie die `action` und `targetId` -Felder für jedes Objekt, das überschrieben werden soll. Die Maßnahme sollte `OVERWRITING`und die `targetId` sollte die UUID des Objekts sein, das überschrieben werden soll
+1. Führen Sie die Installation aus.
+
+* [Schritt 1: Erstellen einer Übersetzungskarte](#step-1---create-a-translation-map)
+* [Schritt 2: Ändern der Übersetzungskarte](#step-2---modify-the-translation-map)
+* [Schritt 3: Installieren](#step-3---install)
+
+### **Schritt 1: Erstellen einer Übersetzungskarte**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Text
+
+Keine
+
+#### Reaktion
+
+Eine Übersetzungskarte mit einer `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Beispiel
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Schritt 2: Ändern der Übersetzungskarte
+
+Für diesen Schritt gibt es keinen Endpunkt.
+
+1. In der Übersetzungszuordnung, die in [Schritt 1: Erstellen einer Übersetzungskarte](#step-1---create-a-translation-map), überprüfen Sie die Liste der Objekte, die installiert werden sollen.
+1. Aktualisieren Sie das Aktionsfeld für jedes Objekt auf die gewünschte Installationsaktion.
+1. Validieren Sie die `targetId` für jedes Objekt. Wenn die festgelegte Aktion `USEEXISTING` oder `OVERWRITING`, die `targetId` auf die UUID des Zielobjekts in der Zielumgebung eingestellt sein. Bei jeder anderen Aktion sollte targetId eine leere Zeichenfolge sein.
+
+   >[!NOTE]
+   >
+   >Die `targetId` bereits ausgefüllt, wenn eine Kollision erkannt wurde.
+
+### **Schritt 3: Installieren**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Text
+
+Dies ist ein Objekt mit einem einzelnen Feld. `translationMap`, die der geänderten Übersetzungszuordnung aus entsprechen sollte [Schritt 2: Ändern der Übersetzungskarte](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Beispiel
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Reaktion
+
+Die Antwort enthält die `{uuid of the created installation}` und `202 - ACCEPTED` -Status.
+
+Beispiel: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
