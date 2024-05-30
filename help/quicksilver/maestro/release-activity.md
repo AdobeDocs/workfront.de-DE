@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ Ab dem 30. Mai 2024 wechselt das Adobe Workfront-Planungsprogramm von der Beta-P
 Die Phase des frühen Zugriffs ist auch auf einige Workfront-Kunden beschränkt.
 
 Ihr Kundenbetreuer wird Sie darüber informieren, ob Sie sich für die Teilnahme an der Phase des frühen Zugriffs qualifizieren.
+
+### Neuer Prozess zum Löschen eines Arbeitsbereichs
+
+Produktion: 30. Mai 2024
+
+Vorschau: zu bestimmen
+
+Da das Löschen eines Arbeitsbereichs erhebliche Auswirkungen haben kann, fügen wir einen zusätzlichen Schritt zur Bestätigung des Löschvorgangs hinzu. Benutzer müssen jetzt &quot;Löschen&quot;eingeben, bevor sie das ständige Löschen eines Arbeitsbereichs abschließen können.
+
+Gelöschte Arbeitsbereiche und ihre Informationen können nicht wiederhergestellt werden.
+
+Weitere Informationen finden Sie unter [Löschen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Woche vom 20. Mai 2024
 
