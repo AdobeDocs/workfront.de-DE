@@ -6,7 +6,7 @@ description: Wenn Sie ein einzelner Mitarbeiter sind, der ein persönliches Ziel
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -51,9 +51,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Aktuelle Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitarbeiter oder höher</p>
  Oder
- <p>Ältere Lizenz: Anfrage oder höher</p> </td>
+ <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>

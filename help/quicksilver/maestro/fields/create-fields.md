@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für Datens
 
 Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](../architecture/create-record-types.md).
 
-In Maestro können Sie Felder auf folgende Weise erstellen:
+In der Workfront-Planung können Sie Felder auf folgende Weise erstellen:
 
 * Neu
 * Durch Verbinden von Datensatztypen
@@ -47,7 +47,7 @@ In Maestro können Sie Felder auf folgende Weise erstellen:
 * Erstellen eines Datensatztyps
 * Erstellen eines Arbeitsbereichs aus einer Vorlage
 
-Weitere Informationen zu Maestro-Feldern finden Sie unter [Feldübersicht](/help/quicksilver/maestro/fields/fields-overview.md).
+Weitere Informationen zu Datensatzfeldern finden Sie unter [Feldübersicht](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -106,7 +106,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
-Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Maestro-Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
+Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
 
 Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Datensatztypen verbinden](../architecture/connect-record-types.md)
 

@@ -6,7 +6,7 @@ description: Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und A
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 16%
@@ -37,9 +37,9 @@ Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ziele d
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Aktuelle Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitarbeiter oder höher</p>
  Oder
- <p>Ältere Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
+ <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>

@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -20,35 +20,24 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
->
->* A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->
+> 
+>* Für den neuen Plan und die Lizenzstruktur:
+>    
+>   * Ein ultimativer Plan
+>        
+>     Oder
+>        
+>   * Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne.
+>       Weitere Informationen finden Sie unter [Adobe Workfront - Preise und Verpackung](https://www.workfront.com/plans).
+>      
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>    
+>   * A Pro oder höher [Adobe Workfront-Abo]
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>    
 >Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+> 
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Lesen Sie die folgenden Artikel, um zu verstehen, wie Ziele in Workfront ausgerichtet werden:
 
