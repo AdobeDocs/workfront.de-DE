@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Schritt 1: Erste Schritte mit Maestro - {#step1-to-maestro}
+## Schritt 1: Erste Schritte mit Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
 
@@ -261,7 +261,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 >
 >Ihr Kundenbetreuer wird Sie darüber informieren, ob Sie Teil dieser Phase sind.
 >
->Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/maestro/maestro-overview.md).
+>Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
