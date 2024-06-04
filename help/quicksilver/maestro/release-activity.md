@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Da das Löschen eines Arbeitsbereichs erhebliche Auswirkungen haben kann, fügen
 Gelöschte Arbeitsbereiche und ihre Informationen können nicht wiederhergestellt werden.
 
 Weitere Informationen finden Sie unter [Löschen von Arbeitsbereichen](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### Suchdatumsfelder sind jetzt in der Timeline-Ansicht verfügbar
+
+Sie können jetzt das Start- und Enddatum der Timeline-Ansicht auf ein Suchfeld aus einem verbundenen Datensatz oder Objekttyp festlegen.
+
+Weitere Informationen zum Erstellen von Ansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Woche vom 20. Mai 2024
 

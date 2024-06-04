@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >      
 >* Für den aktuellen Plan und die Lizenzstruktur:
 >    
->   * A Pro oder höher [Adobe Workfront-Abo]
+>   * Adobe Workfront-Abo mit Pro oder höher
 >   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 >    
 >Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
