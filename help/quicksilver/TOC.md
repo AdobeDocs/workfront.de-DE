@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '14300'
+source-wordcount: '14314'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 1%
          * [21.1 Weitere Verbesserungen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-Release-Aktivität {#fusion-release}
          * [Adobe Workfront Fusion-Release-Aktivität](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion-Release-Aktivität: Woche vom 3. Juni 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 20. Mai 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 13. Mai 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 6. Mai 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
@@ -2106,6 +2107,7 @@ ht-degree: 1%
    * Erste Schritte mit Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [Erste Schritte mit Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Übersicht über Adobe Workfront Fusion](workfront-fusion/get-started/workfront-fusion-overview.md)
+      * [Navigieren zum neuen Erlebnis in Workfront Fusion](workfront-fusion/get-started/new-fusion-ui.md)
       * [Grundbegriffe in Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
       * Szenarien für Build-Vorgehensweisen {#practice-scenarios-in-workfront-fusion}
          * [Erstellen von Beispielen für Vorgehensweisen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)

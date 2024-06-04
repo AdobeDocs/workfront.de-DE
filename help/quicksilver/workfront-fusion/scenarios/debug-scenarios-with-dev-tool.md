@@ -7,9 +7,9 @@ description: Mit dem Adobe Workfront Fusion Devtool können Sie Szenarien verste
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ Der Zugriff auf das Entwickler-Tool hängt davon ab, ob Sie Fusion im [!DNL Adob
 * [Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience]
+### Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience] oder das neue Fusionserlebnis
 
-Wenn Sie Fusion in der Adobe Unified Shell verwenden, können Sie über den Szenario-Editor auf das Dev-Tool zugreifen.
+Wenn Sie Fusion in der Adobe Unified Shell verwenden oder auf das neue Fusion-Erlebnis aktualisiert haben, können Sie über den Szenario-Editor auf das Dev-Tool zugreifen.
+
+1. Klicken Sie auf **Hilfswerkzeuge** ![Hilfswerkzeuge](assets/debugger-icon.png) -Symbol unten auf dem Bildschirm angezeigt.
+
+Oder:
 
 1. Wechseln Sie zum Szenario-Editor für das Szenario, das Sie debuggen möchten.
 

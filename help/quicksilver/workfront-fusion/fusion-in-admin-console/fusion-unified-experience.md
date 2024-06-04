@@ -7,10 +7,10 @@ description: Durch den Zugriff auf Workfront Fusion über Adobe Experience Cloud
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Zugriff [!DNL Workfront Fusion] bis [!DNL Adobe Experience Cloud] bietet Ihnen e
 
 Ein Video mit einer Beschreibung der Navigation in [!DNL Fusion] im [!DNL Adobe Experience Cloud], siehe:
 
-[[!DNL Fusion] am [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] auf [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -41,9 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
-   <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p> 
+   <p>Alle</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -86,7 +84,7 @@ Nachdem Sie sich bei [!DNL Adobe Experience Cloud], können Sie alle [!DNL Workf
 
 Verwenden Sie die [!UICONTROL Hauptmenü] icon ![](assets/main-menu-icon-left-nav.png) auf der linken Seite der [!DNL Adobe] Navigationsleiste zum Öffnen [!UICONTROL Einrichtung] und [!UICONTROL Team] Menüs. Wenn Sie [!DNL Workfront Fusion] Administrator, [!UICONTROL Administration] Menü erscheint auch hier.
 
-Um Teams zu wechseln, klicken Sie auf den Teamnamen oben auf der Seite und wählen Sie dann das Team aus. Dies wird nur auf Seiten angezeigt, die spezifisch für ein Team sind, wie z. B. ein Szenario-Builder oder die [!UICONTROL Verbindungen] Seite.
+Um Teams zu wechseln, klicken Sie auf den Teamnamen oben auf der Seite und wählen Sie dann das Team aus. Der Team-Selektor wird nur auf Seiten angezeigt, die für ein Team spezifisch sind, z. B. im Szenario-Builder oder im [!UICONTROL Verbindungen] Seite.
 
 Um zwischen Organisationen zu wechseln, klicken Sie auf den Organisationsnamen oben rechts auf Ihrem Bildschirm und wählen Sie dann die Organisation aus.
 
