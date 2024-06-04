@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 4%
 
 ---
@@ -248,29 +248,31 @@ Informationen zum Hinzufügen eines berechneten Felds finden Sie unter [Berechne
 
 ### Radiobuttons, Checkboxes und Dropdown-Listen hinzufügen
 
-Sie können einem benutzerdefinierten Formular Radiobuttons, Checkboxes und Dropdown-Listen hinzufügen.
+Sie können einem benutzerdefinierten Formular Optionsfelder, Kontrollkästchen, Dropdown-Menüs und Dropdown-Menüs mit mehreren Auswahlen hinzufügen.
 
 +++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
 * **Optionsfelder**: Erfordert, dass Benutzer nur eine Auswahl auswählen.
 * **Kontrollkästchengruppe**: Ermöglicht Benutzern die Auswahl mehrerer Optionen.
 * **Dropdown**: Bietet eine Liste von Dropdown-Optionen.
+* **Dropdown für mehrere Auswahlen**: Ermöglicht Benutzern die Auswahl mehrerer Optionen aus einer Dropdown-Liste.
 
 +++
 
 >[!NOTE]
 >
->Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Kontrollkästchen-Gruppe und Dropdown-Liste, sind in Berichten schwer grafisch zu gestalten und zu gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
+>Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Checkbox-Gruppe und das Dropdown-Menü mit mehreren Auswahlen, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
-So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
+So fügen Sie Optionsfelder, Kontrollkästchen und Dropdown-Listen hinzu:
 
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Optionsschaltflächen
    * Kontrollkästchen-Gruppe
    * Dropdown
+   * Mehrfachauswahl-Dropdown
 
-   ![](assets/drag-field-to-section.png)
+   ![Ziehen eines Felds auf die Arbeitsfläche](assets/drag-field-to-section-041524.png)
 
 1. Konfigurieren Sie auf der rechten Bildschirmseite die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
@@ -288,6 +290,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ So fügen Sie Optionsfelder und Kontrollkästchen hinzu:
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
     <li>Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -762,7 +771,7 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
 | Programm | ✓ |   |   | ✓ |   |   |   |   |
 | Voraussichtliches Abschlussdatum | ✓ | ✓ |   |   |   |   |   |   |
 | Projizierte Dauer in Minuten |   | ✓ |   |   |   |   |   |   |
-| Projizierter Starttermin | ✓ | ✓ |   |   |   |   |   |   |
+| Voraussichtliches Startdatum | ✓ | ✓ |   |   |   |   |   |   |
 | Referenznummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Zeitplanmodus | ✓ |   |   | ✓ |   |   |   |   |
 | Schweregrad |   |   | ✓ |   |   |   |   |   |
