@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,9 @@ Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müss
 >[!IMPORTANT]
 >
 >Nachdem ein Eintrag zur IP-Zulassungsliste hinzugefügt wurde, sind alle anderen IP-Adressen nicht mehr zulässig. Stellen Sie sicher, dass Sie alle erforderlichen IP-Adressen - sowohl für die Erstellung als auch für die Lektüre Ihres Visualisierungs-Tools - eingegeben haben, bevor Sie versuchen, das Tool zu verwenden. Andernfalls kann es zu einem Fehler bezüglich ungültiger Anmeldedaten kommen.
+>
+>Wenn keine IP-Adressen in Ihrer Zulassungsliste enthalten sind, aber dennoch Probleme beim Herstellen einer Verbindung zu einem BI-Tool auftreten, überprüfen Sie die Proxyserverkonfiguration für das BI-Tool.
+
 
 ## Hinzufügen von IPs zur Zulassungsliste
 
