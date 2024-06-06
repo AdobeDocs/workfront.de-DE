@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,17 +47,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr>
  </tbody> 
@@ -78,7 +78,7 @@ Sie können eine Verbindung zu Ihrem [!DNL Microsoft Dynamics 365] direkt in ein
 1. In jeder [!DNL Microsoft Dynamics 365] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] -Feld.
 1. Geben Sie einen Namen für die Verbindung ein.
 1. Im **[!UICONTROL Ressource]** -Feld die Adresse Ihres [!DNL Dynamics 365] Konto, ohne `https://`.
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 ![](assets/map-toggle-350x74.png)
 
 * [[!UICONTROL Datensätze ansehen (geplant)]](#watch-records-scheduled)
-* [[!UICONTROL Aufzeichnungen ansehen (Echtzeit)]](#watch-records-real-time)
+* [[!UICONTROL Aufzeichnungen ansehen (in Echtzeit)]](#watch-records-real-time)
 * [[!UICONTROL Datensatz erstellen]](#create-record)
 * [[!UICONTROL API-Aufruf durchführen]](#make-an-api-call)
 * [[!UICONTROL Datensatz löschen]](#delete-record)
@@ -120,7 +120,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Include]</td> 
@@ -141,9 +141,9 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-### [!UICONTROL Aufzeichnungen ansehen (Echtzeit)]
+### [!UICONTROL Aufzeichnungen ansehen (in Echtzeit)]
 
-Dieses Instant Trigger-Modul führt ein Szenario aus, wenn ein von Ihnen angegebener Datensatz (Objekt) in [!DNL Dynamics 365].
+Dieses Instant Trigger-Modul führt ein Szenario aus, wenn ein von Ihnen angegebener Datensatz (Objekt) in erstellt oder aktualisiert wird. [!DNL Dynamics 365].
 
 In diesem Modul ist ein Webhook erforderlich.
 
@@ -155,10 +155,10 @@ In diesem Modul ist ein Webhook erforderlich.
    <td role="rowheader">[!UICONTROL Webhook]</td> 
    <td> <p>Wählen Sie den Webhook aus, den Sie für dieses Modul verwenden möchten. </p> <p>So fügen Sie einen neuen Webhook hinzu:</p> 
     <ol> 
-     <li value="1"> <p>Klicken <strong>[!UICONTROL Hinzufügen]</strong> rechts neben dem Webhook-Feld</p> </li> 
+     <li value="1"> <p>Klicks <strong>[!UICONTROL Hinzufügen]</strong> rechts neben dem Webhook-Feld</p> </li> 
      <li value="2"> <p>Im <strong>[!UICONTROL Webhook]</strong> name ein, geben Sie einen beschreibenden Namen für den Webhook ein.</p> </li> 
-     <li value="3"> <p>Im <strong>[!UICONTROL Verbindung]</strong> auswählen, wählen Sie die gewünschte Verbindung aus.</p> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </li> 
-     <li value="4"> <p>Klicken <strong>[!UICONTROL Save]</strong> , um Ihren Webhook zu speichern und zum Modul zurückzukehren.</p> </li> 
+     <li value="3"> <p>Im <strong>[!UICONTROL Verbindung]</strong> auswählen, wählen Sie die gewünschte Verbindung aus.</p> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </li> 
+     <li value="4"> <p>Klicks <strong>[!UICONTROL Save]</strong> , um Ihren Webhook zu speichern und zum Modul zurückzukehren.</p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -166,7 +166,7 @@ In diesem Modul ist ein Webhook erforderlich.
 
 ### [!UICONTROL Datensatz erstellen]
 
-Dieses Aktionsmodul erstellt eine Entität wie einen Termin oder eine Aufgabe.
+Dieses Aktionsmodul erstellt eine Entität, z. B. einen Termin oder eine Aufgabe.
 
 Sie geben Informationen über die Entität an, die Sie erstellen möchten.
 
@@ -180,15 +180,19 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+   <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entitätstyp]</td> 
    <td>Wählen Sie den Entitätstyp aus, den das Modul erstellen soll.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Zu zuordnende Felder auswählen]</td> 
+   <td>Wählen Sie die Felder aus, für die Sie bei der Erstellung des Datensatzes Werte einfügen möchten. Die verfügbaren Felder hängen vom Entitätstyp ab.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Eigenschaftenfelder]</td> 
-   <td>Geben Sie in diesen Feldern den Wert ein, den das Arbeitselement für eine bestimmte Eigenschaft aufweisen soll. Die verfügbaren Felder hängen vom Entitätstyp ab.</td> 
+   <td> Dies sind die von Ihnen ausgewählten Felder. Geben Sie den Wert ein, den der Datensatz für eine bestimmte Eigenschaft aufweisen soll. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +213,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -229,7 +233,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -253,7 +257,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entitätstyp]</td> 
@@ -282,7 +286,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entitätstyp]</td> 
@@ -315,15 +319,19 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Entitätstyp]</td> 
    <td>Wählen Sie den Entitätstyp aus, den das Modul aktualisieren soll.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Zu zuordnende Felder auswählen]</td> 
+   <td>Wählen Sie die Felder aus, für die Sie bei der Erstellung des Datensatzes Werte einfügen möchten. Die verfügbaren Felder hängen vom Entitätstyp ab.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Eigenschaftenfelder]</td> 
-   <td>Geben Sie in diesen Feldern den Wert ein, den das Arbeitselement für eine bestimmte Eigenschaft aufweisen soll. Die verfügbaren Felder hängen vom Entitätstyp ab.</td> 
+   <td>Dies sind die von Ihnen ausgewählten Felder. Geben Sie den Wert ein, den der Datensatz für eine bestimmte Eigenschaft aufweisen soll.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -344,7 +352,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
+  <td> <p>Anweisungen zum Verbinden der [!DNL Microsoft Dynamics 365] -Konto [!DNL Workfront Fusion], siehe <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] nach [!DNL Workfront Fusion]</a> in diesem Artikel. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entitätstyp]</td> 
@@ -354,7 +362,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
    <td role="rowheader">[!UICONTROL Filter]</td> 
    <td> <p>Wählen Sie den Filter aus, den Sie für diese Suche verwenden möchten.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Standardfilter]</strong> </p> <p>Richten Sie den Filter ein, indem Sie ein Feld und einen Operator auswählen und den zu suchenden Wert eingeben oder zuordnen. Sie können UND- oder ODER-Regeln für Ihren Filter verwenden.</p> </li> 
+     <li> <p><strong>[!UICONTROL Standardfilter]</strong> </p> <p>Richten Sie den Filter ein, indem Sie ein Feld und einen Operator auswählen und den Wert eingeben oder zuordnen, nach dem Sie suchen möchten. Sie können UND- oder ODER-Regeln für Ihren Filter verwenden.</p> </li> 
      <li> <p><strong>[!UICONTROL Abfragefunktionen]</strong> </p> <p>Geben Sie die [!DNL Dynamics 365] Web-API-Abfragefunktion, die Sie für die Suche verwenden möchten. </p> <p>Weitere Informationen zu Abfragefunktionen finden Sie unter <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Referenz zu Web-API-Abfragen</a> im [!DNL Microsoft] Dokumentation.</p> </li> 
     </ul> </td> 
   </tr> 
