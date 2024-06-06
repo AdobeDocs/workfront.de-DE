@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 ## Bearbeiten eines Arbeitsbereichs
 
 {{step1-to-planning}}
-
-Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
 
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**.
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.

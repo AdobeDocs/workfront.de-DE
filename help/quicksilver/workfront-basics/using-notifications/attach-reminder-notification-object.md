@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Erinnerungsbenachrichtigung an ein Objekt anhängen
-description: Erinnerungsbenachrichtigungen können mit den Objekttypen Projekte, Aufgaben, Probleme, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrende Timesheet-Profile verknüpft werden.
+description: "Sie können Erinnerungsbenachrichtigungen mit verschiedenen Objekttypen verknüpfen: Projekten, Aufgaben, Problemen, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrenden Timesheet-Profilen."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
 # Erinnerungsbenachrichtigung an ein Objekt anhängen
 
-Erinnerungsbenachrichtigungen können verschiedenen Objekttypen zugeordnet werden: Projekte, Aufgaben, Probleme, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrende Timesheet-Profile.
+Sie können Erinnerungsbenachrichtigungen mit verschiedenen Objekttypen verknüpfen: Projekten, Aufgaben, Problemen, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrenden Timesheet-Profilen.
 
 Bevor Sie Erinnerungsbenachrichtigungen an ein Objekt anhängen können, muss ein [!DNL Adobe Workfront] Der Administrator muss die Benachrichtigung erstellen, wie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -67,6 +67,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wenn die Variable [!DNL Workfront] -Administrator mehrere Erinnerungsbenachrichtigungen erstellt hat, können Sie mehrere Benachrichtigungen an ein einzelnes Objekt anhängen.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
    Wenn Sie Hilfe beim Testen des Versands einer Erinnerungsbenachrichtigung benötigen, lesen Sie Ihren [!DNL Workfront] Administrator.

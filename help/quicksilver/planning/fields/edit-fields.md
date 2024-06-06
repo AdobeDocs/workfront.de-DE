@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -126,8 +126,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Feldeinstellungen bearbeiten
 
 {{step1-to-planning}}
-
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
 

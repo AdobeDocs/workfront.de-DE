@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ So suchen Sie die Workfront-Planung:
 
    Der Arbeitsbereich wird geöffnet.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Optional und empfohlen) Fahren Sie mit einigen der folgenden Aktionen fort, um Ihre Arbeitsstruktur zu erstellen:
 
-   1. Erstellen Sie einen neuen Arbeitsbereich oder verwenden Sie eine Vorlage.
+   1. Erstellen Sie einen neuen Arbeitsbereich oder verwenden Sie eine Vorlage. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Fügen Sie dem neuen Arbeitsbereich Abschnitte hinzu.
+   1. Fügen Sie dem neuen Arbeitsbereich Abschnitte hinzu. Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Benennen Sie die vorhandenen Abschnitte in den neuen Arbeitsbereich um.
-   1. Fügen Sie dem neuen Arbeitsbereich Datensatztypen hinzu.
+   1. Fügen Sie dem neuen Arbeitsbereich Datensatztypen hinzu. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Klicken Sie auf den Namen eines Datensatztyps, um die Seite des Datensatztyps zu öffnen. Die Seite mit dem Datensatztyp wird standardmäßig in der Tabellenansicht geöffnet.
 
-      Sie können auch eine Timeline- oder eine Kalenderansicht erstellen.
+      Sie können auch eine Timeline- oder eine Kalenderansicht erstellen. Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. Fügen Sie in der Tabellenansicht Datensätze hinzu, indem Sie Zeilen hinzufügen
 
       Oder
 
       Beginnen Sie mit dem Hinzufügen von Datensatzfeldern durch Hinzufügen von Spalten.
+
+      Weitere Informationen finden Sie in den folgenden Artikeln:
+
+      * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
+      * [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront-Planungs-Release-Aktivität
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -96,8 +96,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Datensatztypen bearbeiten
 
 {{step1-to-planning}}
-
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen bearbeiten möchten.
 1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Bearbeiten**.

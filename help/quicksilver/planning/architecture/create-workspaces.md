@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 1%
 
 ---
 
@@ -105,13 +105,18 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
    * Bis zu 1.000 Arbeitsbereiche in der Workfront-Instanz Ihres Unternehmens.
 
 
-## Erstellen eines Arbeitsbereichs
+## Arbeitsbereich erstellen
 
 Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, um Ihre Objekte in der Workfront-Planung zu organisieren. Weitere Informationen zum Bearbeiten eines Arbeitsbereichs finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
-Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
+<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Optional) Click the **My workspaces** tab to view workspaces you created
+    Or
+    Click the **Other workspaces** tab to view workspaces shared with you. 
+    -->
 
 1. (Bedingt) Wenn Ihre Umgebung keine Arbeitsbereiche enthält, klicken Sie auf **Arbeitsbereich erstellen**
 

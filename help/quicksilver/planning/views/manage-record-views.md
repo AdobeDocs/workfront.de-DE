@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 >
 >Beim Erstellen eines Datensatztyps wird auch die Tabellenansicht standardmäßig erstellt.
 >
->Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
+>Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen.
+>
+>Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Um eine Timeline- oder Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder aufweisen. Andernfalls sind die Optionen Timeline oder Kalender abgeblendet.
 
 1. (Bedingt) Klicken Sie auf **Nächste** beim Erstellen einer Timeline- oder Kalenderansicht.
 
@@ -195,7 +193,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
    >[!TIP]
    >
-   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekten suchen.
+   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen.
 
 1. Klicken Sie auf **Erstellen**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2432'
 ht-degree: 1%
 
 ---
@@ -158,8 +158,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
-
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
 1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
@@ -224,8 +222,6 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 
 {{step1-to-planning}}
-
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
@@ -309,8 +305,6 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Manager Assets hergestellt haben, können Sie einzelne Datensätze mit Experience Manager-Assets verbinden. Die Asset-Felder, mit denen Sie eine Verbindung aus Experience Manager Assets hergestellt haben, werden automatisch in den Datensatztyp eingetragen, von dem aus Sie die Verbindung hergestellt haben.
 
 {{step1-to-planning}}
-
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
 
 1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensätze verbinden möchten.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.

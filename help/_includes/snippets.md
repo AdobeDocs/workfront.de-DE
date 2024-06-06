@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,21 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 ## Schritt 1: Erste Schritte mit Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
+
+   Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
+
+<!-- replace sentence above with this and following step:
+   The Workfront Planning landing page opens. 
+    
+1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+
+   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+
+   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
+ 
+-->
+
 
 ## Wichtiger Einstieg in die Workfront-Planung - {#planning-important-intro}
 

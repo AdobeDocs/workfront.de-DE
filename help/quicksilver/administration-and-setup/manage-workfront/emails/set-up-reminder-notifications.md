@@ -1,13 +1,13 @@
 ---
 title: Einrichten von Erinnerungsbenachrichtigungen
-description: Einrichten von Erinnerungsbenachrichtigungen
+description: Erinnerungsbenachrichtigungen generieren E-Mails, die an Benutzer basierend auf bestimmten Kriterien gesendet werden. Erinnerungsbenachrichtigungen erinnern Benutzer an eine Aktion, die für eine Aufgabe, ein Problem, ein Projekt oder ein Timesheet erforderlich ist.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Erinnerungsbenachrichtigungen senden E-Mails an Empfänger basierend auf bestimmten Kriterien. Sie können Erinnerungsbenachrichtigungen manuell mit Ihren Arbeitselementen verknüpfen, z. B. mit Projekten, Aufgaben, Problemen und Timesheets.
+Als Workfront-Administrator können Sie Erinnerungsbenachrichtigungen für Benutzer erstellen und sie mit Objekten verknüpfen, denen Ihre Benutzer besondere Aufmerksamkeit widmen sollen.
+
+Erinnerungsbenachrichtigungen generieren E-Mails, die an Benutzer basierend auf bestimmten Kriterien gesendet werden. Erinnerungsbenachrichtigungen erinnern Benutzer an eine Aktion, die für eine Aufgabe, ein Problem, ein Projekt oder ein Timesheet erforderlich ist.
+
+Nachdem Sie die Erinnerungsbenachrichtigungen erstellt haben, können Benutzer sie manuell mit Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen. Weitere Informationen finden Sie unter [Erinnerungsbenachrichtigung an ein Objekt anhängen](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## E-Mail zur Erinnerung anpassen
 
@@ -126,7 +130,18 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
      </tr> 
      <tr> 
       <td role="rowheader">Empfängerinnen und Empfänger</td> 
-      <td>Wählen Sie die Typen von Benutzern aus, die die Benachrichtigung erhalten sollen. Wählen Sie aus verschiedenen Objektbeteiligungen, z. B. Inhaber, Genehmiger oder Bevollmächtigter.</td> 
+      <td><p>Je nachdem, für welches Objekt die Erinnerungsbenachrichtigung bestimmt ist, wählen Sie aus den folgenden Typen von Benutzern aus, die die Benachrichtigung erhalten sollen:</p>
+      <ul>
+      <li>Zugewiesen an</li>
+      <li>Eingegeben von</li>
+      <li>Projektteam (alle Benutzer im Projektteam erhalten die Erinnerung)</li>
+      <li>Abhängige Aufgabenzuweisungen (Benutzer, die abhängigen Aufgaben zugewiesen sind, erhalten die Erinnerung)</li>
+      <li>Projektbesitzer</li>
+      <li>Zugeordneter Benutzer (Benutzer, die einer Aufgabe oder einem Problem zugewiesen sind, erhalten die Erinnerung)</li>
+      <li>Arbeitszeittabellen-Besitzer</li>
+      <li>Person, die Arbeitszeittabellen genehmigt</li>
+      <li>Vorgesetzter des Arbeitszeittabellen-Besitzers</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>
