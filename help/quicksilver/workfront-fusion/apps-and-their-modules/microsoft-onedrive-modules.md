@@ -9,14 +9,14 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '3982'
+source-wordcount: '4073'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft OneDrive]-Module
+# [!DNL Microsoft OneDrive] Module
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL OneDrive], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 
@@ -26,14 +26,14 @@ Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusio
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,17 +43,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,9 +67,18 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 Verwendung [!DNL OneDrive] -Module, müssen Sie über eine [!DNL Microsoft OneDrive] -Konto.
 
-## Verbinden des [!DNL OneDrive] Dienst [!DNL Workfront Fusion]
 
-Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!UICONTROL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+
+## Verbinden des [!DNL OneDrive] Dienst an [!DNL Workfront Fusion]
+
+Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!UICONTROL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Einige Microsoft-Apps verwenden dieselbe Verbindung, die an individuelle Benutzerberechtigungen gebunden ist. Daher werden beim Erstellen einer Verbindung im Bildschirm für die Genehmigung von Berechtigungen alle Berechtigungen angezeigt, die zuvor für die Verbindung dieses Benutzers gewährt wurden, zusätzlich zu den neuen Berechtigungen, die für die aktuelle Anwendung erforderlich sind.
+>
+>Wenn beispielsweise ein Benutzer über den Excel-Connector über die Berechtigung &quot;Tabelle lesen&quot;verfügt und dann im Outlook-Connector eine Verbindung zum Lesen von E-Mails erstellt, zeigt der Bildschirm für die Genehmigung der Berechtigungen sowohl die bereits erteilte Berechtigung &quot;Tabelle lesen&quot;als auch die neu erforderliche Berechtigung &quot;E-Mail schreiben&quot;an.
 
 ## [!DNL Microsoft OneDrive] Module und ihre Felder
 
@@ -90,7 +99,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 * [[!UICONTROL Datei herunterladen]](#download-a-file)
 * [[!UICONTROL Datei hochladen]](#upload-a-file)
 * [[!UICONTROL Erstellen eines Ordners]](#create-a-folder)
-* [[!UICONTROL Link freigeben]](#get-a-share-link)
+* [[!UICONTROL Link zur Freigabe abrufen]](#get-a-share-link)
 * [[!UICONTROL Verschieben einer Datei/eines Ordners]](#move-a-filefolder)
 * [[!UICONTROL Eine Datei kopieren]](#copy-a-file)
 * [[!UICONTROL Datei/Ordner löschen]](#delete-a-filefolder)
@@ -105,7 +114,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn eine Datei oder ein Ordner erste
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Überwachte Dateien/Ordner]</td> 
@@ -152,7 +161,7 @@ Dieses Suchmodul gibt Dateien und Ordner basierend auf von Ihnen festgelegten Kr
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Wählen Sie Ihre [!DNL OneDrive] location]</td> 
@@ -189,10 +198,10 @@ Dieses Aktionsmodul ruft die Metadaten einer angegebenen Datei ab.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabe (Datei-ID und Dateipfad)]</td> 
+   <td role="rowheader">[!UICONTROL Eingabetaste (Datei-ID und Dateipfad)]</td> 
    <td>Wählen Sie aus, ob die Datei anhand der Datei-ID oder des Dateipfads identifiziert werden soll.</td> 
   </tr> 
   <tr> 
@@ -237,10 +246,10 @@ Dieses Aktionsmodul lädt die angegebene Datei herunter.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabe (Datei-ID und Dateipfad)]</td> 
+   <td role="rowheader">[!UICONTROL Eingabetaste (Datei-ID und Dateipfad)]</td> 
    <td>Wählen Sie aus, ob die Datei anhand der Datei-ID oder des Dateipfads identifiziert werden soll.</td> 
   </tr> 
   <tr> 
@@ -325,11 +334,11 @@ Dieses Aktionsmodul lädt eine Datei in den angegebenen Ordner hoch.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Eingabetaste (Ordnerspeicherort-ID und -pfad)</td> 
-   <td>Wählen Sie aus, ob der Zielordner anhand der Kennung oder eines Pfads identifiziert werden soll.</td> 
+   <td>Wählen Sie aus, ob Sie den Zielordner anhand der Kennung oder anhand eines Pfads identifizieren möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Wählen Sie Ihre [!DNL OneDrive] location]</td> 
@@ -353,7 +362,7 @@ Dieses Aktionsmodul lädt eine Datei in den angegebenen Ordner hoch.
    <td> <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Wenn die Datei mit demselben Namen vorhanden ist</td> 
+   <td role="rowheader">[!UICONTROL Wenn die Datei mit demselben Namen vorhanden ist,</td> 
    <td>Wählen Sie aus, wie verfahren werden soll, wenn bereits eine Datei mit demselben Namen existiert.</td> 
   </tr> 
   <tr> 
@@ -373,7 +382,7 @@ Dieses Aktionsmodul erstellt einen neuen Ordner im angegebenen Laufwerk.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Wählen Sie Ihre [!DNL OneDrive] location]</td> 
@@ -407,7 +416,7 @@ Dieses Aktionsmodul erstellt einen neuen Ordner im angegebenen Laufwerk.
  </tbody> 
 </table>
 
-#### [!UICONTROL Link freigeben]
+#### [!UICONTROL Link zur Freigabe abrufen]
 
 Dieses Aktionsmodul gibt einen Freigabe-Link für die angegebene Datei zurück.
 
@@ -417,10 +426,10 @@ Dieses Aktionsmodul gibt einen Freigabe-Link für die angegebene Datei zurück.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabe (Datei-ID und Dateipfad)]</td> 
+   <td role="rowheader">[!UICONTROL Eingabetaste (Datei-ID und Dateipfad)]</td> 
    <td>Wählen Sie aus, ob die Datei anhand der Datei-ID oder des Dateipfads identifiziert werden soll.</td> 
   </tr> 
   <tr> 
@@ -473,10 +482,10 @@ Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen neuen Ordne
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabe (Datei-ID und Dateipfad)]</td> 
+   <td role="rowheader">[!UICONTROL Eingabetaste (Datei-ID und Dateipfad)]</td> 
    <td>Wählen Sie aus, ob die Datei anhand der Datei-ID oder des Dateipfads identifiziert werden soll.</td> 
   </tr> 
   <tr> 
@@ -496,7 +505,7 @@ Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen neuen Ordne
        <li> <p><b>[!UICONTROL Ja]</b> </p> <p>Geben Sie die ID des Laufwerks ein, das die zu verschiebende Datei oder den Ordner enthält.</p> </li> 
        <li> <p><b>[!UICONTROL Nein]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Website's Drive]</b> </p> <p>Wählen Sie die [!DNL SharePoint] Site, die die Datei oder den Ordner enthält, die/den Sie verschieben möchten. Verfügbare Sites sind Sites , gefolgt vom angemeldeten Benutzer.</p> </li> 
+     <li> <p><b>[!UICONTROL Website's Drive]</b> </p> <p>Wählen Sie die [!DNL SharePoint] Site, die die zu verschiebende Datei oder den Ordner enthält. Verfügbare Sites sind Sites , gefolgt vom angemeldeten Benutzer.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Wählen Sie die Gruppe aus, deren Laufwerk die zu verschiebende Datei oder den Ordner enthält.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -535,7 +544,7 @@ Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen neuen Ordne
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Wählen Sie das Laufwerk aus oder ordnen Sie es zu, das den Ordner enthält, in den Sie die Datei oder den Ordner verschieben möchten. Dieses Feld ist nicht verfügbar, wenn Sie im Feld [!UICONTROL Enable to Enter a Drive ID] die Option [!UICONTROL No] ausgewählt haben.</p> <p>Wenn Sie dieses Feld leer lassen, kann die Datei bzw. der Ordner nur innerhalb desselben Ordners verschoben werden [!DNL OneDrive].</p> <p>Sie können Dateien und Ordner von [!UICONTROL My Drive] auf ein [!UICONTROL Site's Drive] oder ein [!UICONTROL Group's Drive] verschieben. </p> <p>Sie können Dateien von einem [!UICONTROL Site's Drive] nur auf dasselbe Laufwerk in derselben Site verschieben.</p> <p>Sie können Dateien von einem [!UICONTROL Group's Drive] nur auf dasselbe Laufwerk in derselben Gruppe verschieben.</p> </td> 
+   <td> <p>Wählen Sie das Laufwerk aus oder ordnen Sie es zu, das den Ordner enthält, in den Sie die Datei oder den Ordner verschieben möchten. Dieses Feld ist nicht verfügbar, wenn Sie im Feld [!UICONTROL Enable to Enter a Drive ID] die Option [!UICONTROL No] ausgewählt haben.</p> <p>Wenn Sie dieses Feld leer lassen, kann die Datei oder der Ordner nur innerhalb desselben Ordners verschoben werden [!DNL OneDrive].</p> <p>Sie können Dateien und Ordner von [!UICONTROL My Drive] auf ein [!UICONTROL Site's Drive] oder ein [!UICONTROL Group's Drive] verschieben. </p> <p>Sie können Dateien von einem [!UICONTROL Site's Drive] nur auf dasselbe Laufwerk in derselben Site verschieben.</p> <p>Sie können Dateien von einem [!UICONTROL Group's Drive] nur auf dasselbe Laufwerk in derselben Gruppe verschieben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ordner]</td> 
@@ -554,10 +563,10 @@ Dieses Aktionsmodul kopiert eine Datei in einen neuen Ordnerspeicherort
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabe (Datei-ID und Dateipfad)]</td> 
+   <td role="rowheader">[!UICONTROL Eingabetaste (Datei-ID und Dateipfad)]</td> 
    <td>Wählen Sie aus, ob die Datei anhand der Datei-ID oder des Dateipfads identifiziert werden soll.</td> 
   </tr> 
   <tr> 
@@ -587,7 +596,7 @@ Dieses Aktionsmodul kopiert eine Datei in einen neuen Ordnerspeicherort
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL Datei] / [!UICONTROL Datei-ID] / [!UICONTROL Dateipfad]</p> </td> 
-   <td> <p>Wenn Sie [!UICONTROL Manuell eingeben] ausgewählt haben, geben Sie die ID oder den Pfad der Datei ein, die Sie kopieren möchten, oder ordnen Sie sie zu.</p> <p>Wenn Sie [!UICONTROL Select] aus der Liste ausgewählt haben, wählen Sie die zu kopierende Datei aus.</p> </td> 
+   <td> <p>Wenn Sie die Option [!UICONTROL Manuell eingeben] ausgewählt haben, geben Sie die ID oder den Pfad der Datei ein, die Sie kopieren möchten, oder ordnen Sie sie zu.</p> <p>Wenn Sie [!UICONTROL Select] aus der Liste ausgewählt haben, wählen Sie die zu kopierende Datei aus.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Neuen Ordnerspeicherort eingeben]</td> 
@@ -635,7 +644,7 @@ Dieses Aktionsmodul löscht die ausgewählte Datei.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eingabe (Datei-/Ordner-ID und Pfad)]</td> 
@@ -689,7 +698,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf durch.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL OneDrive] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
+   <td>Anweisungen zum Verbinden der [!DNL OneDrive] -Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -709,7 +718,7 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf durch.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

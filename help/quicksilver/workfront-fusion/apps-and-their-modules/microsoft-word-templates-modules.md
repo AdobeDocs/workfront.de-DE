@@ -10,14 +10,14 @@ description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Word Template]-Module
+# [!DNL Microsoft Word Template] Module
 
 In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Microsoft Word Templates], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 
@@ -34,7 +34,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -68,6 +68,18 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 Zur Verwendung [!DNL Miscrosoft Word Templates] mit [!DNL Adobe Workfront Fusion], muss ein [!DNL Office 365] -Konto. Sie können eine unter www.office.com erstellen.
 
+
+
+## Verbinden des [!DNL Office] Dienst an [!DNL Workfront Fusion]
+
+Anweisungen zum Verbinden der [!DNL Office] -Konto [!UICONTROL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Einige Microsoft-Apps verwenden dieselbe Verbindung, die an individuelle Benutzerberechtigungen gebunden ist. Daher werden beim Erstellen einer Verbindung im Bildschirm für die Genehmigung von Berechtigungen alle Berechtigungen angezeigt, die zuvor für die Verbindung dieses Benutzers gewährt wurden, zusätzlich zu den neuen Berechtigungen, die für die aktuelle Anwendung erforderlich sind.
+>
+>Wenn beispielsweise ein Benutzer über den Excel-Connector über die Berechtigung &quot;Tabelle lesen&quot;verfügt und dann im Outlook-Connector eine Verbindung zum Lesen von E-Mails erstellt, zeigt der Bildschirm für die Genehmigung der Berechtigungen sowohl die bereits erteilte Berechtigung &quot;Tabelle lesen&quot;als auch die neu erforderliche Berechtigung &quot;E-Mail schreiben&quot;an.
+
 ## Verwenden [!DNL Microsoft Word Templates] Module
 
 Sie können eine [!DNL Microsoft Word Template] -Modul zum Zusammenführen von Daten aus mehreren Webdiensten in einer [!DNL Microsoft Word] Dokument.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] Vorlage ist eine normale [!DNL Microsoft Word] Dokument 
 Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem [!UICONTROL Schlüssel] -Wert des Felds, der in zwei geschweifte Klammern gesetzt wird, z. B.
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie eine [!DNL Microsoft Word Template] -Modul, um die folgende Vorlage zu erstellen:
 
-<pre>&gt; Hi &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hi {{name}}!</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -111,7 +123,7 @@ Dazu richten Sie das -Modul wie folgt ein:
 Sie können ein Bedingungs-Tag verwenden, um Text einzuschließen, der nur gerendert werden soll, wenn bestimmte Bedingungen erfüllt sind. Um den Text einzuschließen, platzieren Sie ihn zwischen öffnenden und schließenden Bedingungs-Tags wie &quot;hasPhone&quot;, wenn die Bedingung lautet, ob die Daten eine Telefonnummer enthalten oder nicht. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt, dem Namen eines schließenden Tags ein Schrägstrich vorangestellt, wie im folgenden Beispiel gezeigt.
 
 **Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;E-Mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Dazu richten Sie das -Modul wie folgt ein:
+<pre>&gt; {{#hasPhone}}Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-Mail: {{email}} {{/hasEmail}}</pre>Dazu richten Sie das -Modul wie folgt ein:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -166,7 +178,7 @@ The module would create the following document:
 ![](assets/word-template-batch-document-350x46.png)
 -->
 
-## [!DNL Microsoft Word Template]-Module
+## [!DNL Microsoft Word Template] Module
 
 Diese Module erfordern keine Verbindung.
 
@@ -191,7 +203,7 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
-   <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei oder Dropbox abrufen &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
+   <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei abrufen oder Dropbox &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name der ausgefüllten Datei]</td> 
@@ -261,7 +273,7 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Quelldatei]</td> 
-   <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei oder Dropbox abrufen &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
+   <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei abrufen oder Dropbox &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name der ausgefüllten Datei]</td> 
