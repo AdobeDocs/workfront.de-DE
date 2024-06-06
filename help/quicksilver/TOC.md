@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
+source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
 workflow-type: tm+mt
-source-wordcount: '14329'
+source-wordcount: '14340'
 ht-degree: 1%
 
 ---
@@ -615,6 +615,7 @@ ht-degree: 1%
                * [Formular verwalten](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+               * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
          * Benutzerdefinierte Formulare verwalten {#manage-custom-forms}
             * [Benutzerdefinierte Formulare und Felder verwalten](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [Freigeben eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
