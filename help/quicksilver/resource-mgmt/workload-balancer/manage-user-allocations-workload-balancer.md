@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Verwalten von Benutzerzuordnungen im Lastenausgleich
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen, wöchentlichen oder monatlichen Zuordnungen über den Arbeitslastausgleich verwalten, um sicherzustellen, dass ihnen eine Anzahl von Stunden zugewiesen wird, die in ihre verfügbaren Zeitpläne passen.
 
@@ -111,11 +113,14 @@ Beachten Sie Folgendes bei der Suche nach täglichen, wöchentlichen oder monatl
 
 * Zwei Benutzer in unterschiedlichen Zeitzonen oder Zeitplänen in unterschiedlichen Zeitzonen als die der zugewiesenen Benutzer können dazu führen, dass die Zuordnungsmengen für zwei Benutzer, die dieselben Arbeitselemente anzeigen, unterschiedlich angezeigt werden.
 
-* Wenn ein Benutzer eine geplante Zeitüberschreitung festgelegt hat, wird der Tag oder der Teil des Tages in einem grauen Hintergrund angezeigt. Wenn der Workfront-Administrator die Einstellung Benutzerzeit deaktivieren im Bereich Einrichtung aktiviert hat, um die Zeitüberschreitung des Benutzers zu berücksichtigen, werden die zugewiesenen Stunden zum nächsten verfügbaren Tag in der Timeline verschoben. Wenn die Einstellung deaktiviert ist, bleiben die zugewiesenen Stunden am Tag, der für eine Zeitverzögerung markiert ist, und der Benutzer wird als übergeordnet angezeigt. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Wenn ein Benutzer eine geplante Zeitüberschreitung festgelegt hat, wird der Tag oder der Teil des Tages in einem grauen Hintergrund angezeigt. <span class="preview">und ein Flugzeugsymbol zeigt die Zeitabnahme an</span>. Wenn der Workfront-Administrator die Einstellung Benutzerzeit deaktivieren im Bereich Einrichtung aktiviert hat, um die Zeitüberschreitung des Benutzers zu berücksichtigen, werden die zugewiesenen Stunden zum nächsten verfügbaren Tag in der Timeline verschoben. Wenn die Einstellung deaktiviert ist, bleiben die zugewiesenen Stunden am Tag, der für eine Zeitverzögerung markiert ist, und der Benutzer wird als übergeordnet angezeigt. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Wenn die Zeit nach der Zuweisung des Benutzers zu einem Arbeitselement markiert wurde, müssen Sie die Timeline des Projekts neu berechnen, um die verschobene Zuordnung anzuzeigen. Weitere Informationen finden Sie unter [Projektzeitpläne neu berechnen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">Wenn mehrere Benutzer einer Aufgabe zugewiesen sind und der primäre Verantwortliche eine geplante Zeitüberschreitung festgelegt hat, wird die Zeitleiste verschoben (wenn die Daten nicht festgelegt sind) und die geplanten Stunden aller Bevollmächtigten werden über die neue Dauer der Aufgabe verteilt. Wenn die Aufgabe feste Datumswerte aufweist, wird die Timeline aufgrund der Zeitüberschreitung nicht geändert und die Stunden werden auf die verbleibenden Tage aufgeteilt.</span>
+   * <span class="preview">Wenn die Zuordnungen manuell vorgenommen werden, werden die geplanten Stunden nach der Zeitüberschreitung nicht neu zugewiesen.</span>
 
 * Wenn der Aufgabe mehrere Benutzer zugewiesen sind, wird die Anzahl der geplanten Stunden zunächst gleichmäßig an jeden Benutzer verteilt und dann gleichmäßig auf jeden Tag innerhalb der Dauer der Aufgabe. Diese Verteilung wird zur Zuordnung jedes Benutzers zur Aufgabe.
 
