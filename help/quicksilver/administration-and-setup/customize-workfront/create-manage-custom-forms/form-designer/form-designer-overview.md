@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeits
 
 ![Beispiel-Formular-Designer](assets/form-designer-example.png)
 
-## Zugriff auf den neuen Formularentwickler
+## Zugriff auf den Formularentwickler
 
-Oben im neuen Formularentwickler und im alten Formularersteller befindet sich eine neue Schaltfläche. Sie können diese Schaltfläche verwenden, um zwischen dem alten Builder und dem neuen Designer zu wechseln.
+Mit einer Schaltfläche am oberen Rand des neuen Formularentwurfs und des Legacy-Formular-Builders können Sie zwischen den Versionen wechseln.
 
 ![Wechsel zum neuen Formularentwickler](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Mit dem neuen Formularentwickler haben wir folgende Möglichkeiten hinzugefügt:
   >
   >Der Abschnitt &quot;Standard&quot;ist in Objekten nicht sichtbar, nachdem das Formular an das Objekt angehängt wurde.
 
+* **Externes Suchfeld verwenden**: Dieser Feldtyp ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück.
+
 ## Aus dem Formularentwickler entfernte Funktion
 
 Die folgende Funktion wurde aus dem Formularentwickler entfernt:
 
-* Formulareinstellungen, Formularfreigabe, Registerkarten für Feldfreigabe
-
-   * Die Formulareinstellungen sind jetzt oben auf der Arbeitsfläche verfügbar.
-
-   * Hauptregisterkarte &quot;Formularfreigabe&quot;und Unterregisterkarte &quot;Feldfreigabe&quot;
-
-  >[!NOTE]
-  >
-  >Sie können die Formular- und Feldfreigabe über &quot;Einrichtung&quot;> &quot;Benutzerdefinierte Forms&quot;> &quot;Forms&quot;oder &quot;Felder&quot;steuern.
+* Die Formulareinstellungen sind jetzt oben auf der Arbeitsfläche verfügbar.
 
 * Feldänderungen in Aktualisierungs-Feeds nachverfolgen
 
   >[!NOTE]
   >
-  >Sie finden dies unter Einrichtung > Benutzeroberfläche > Feeds aktualisieren .
+  >Diese Option finden Sie unter Einrichtung > Benutzeroberfläche > Feeds aktualisieren .
 
