@@ -4,9 +4,9 @@ description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unterne
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -75,7 +75,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Informationen dazu, was Sie tun können, wenn Sie ein Element in der Liste auswählen, finden Sie in den folgenden Artikeln:
 
-   * [Bearbeiten von Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Benutzerdefiniertes Feld, Abschnittsumbruch oder Widget hinzufügen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

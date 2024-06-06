@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 1%
@@ -624,7 +624,7 @@ ht-degree: 1%
             * [Anzeigen von Berichten, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [Anzeigen benutzerdefinierter Formulare, die ein benutzerdefiniertes Feld oder Widget verwenden](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [Eigenschaften eines benutzerdefinierten Felds, einer Abschnittspause oder eines Widgets bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Benutzerdefiniertes Feld, Abschnittsumbruch oder Widget hinzufügen oder bearbeiten](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Löschen eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [Rich-Text-Feldspeicherung in der API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
