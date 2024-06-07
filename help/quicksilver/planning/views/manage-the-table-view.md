@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -270,9 +270,9 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
 1. Wählen Sie eine Tabellenansicht aus und klicken Sie auf **Filter** in der oberen rechten Ecke der Tabelle.
 1. Klicks **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
-   * Wählen Sie ein Feld aus, nach dem Sie filtern möchten <!-- the tip below might change-->
+   * **Feld auswählen** nach dem Sie filtern möchten <!-- the tip below might change-->
 
-   * Wählen Sie eine Option (oder einen Filter-Modifikator) aus, um festzulegen, welche Art von Bedingung das Feld erfüllen muss
+   * **Option auswählen** (oder ein Filter-Modifikator) zum Definieren der Bedingungen, die das Feld erfüllen muss
 
      Die nachstehende Tabelle zeigt die verfügbaren Modifikatoren für jeden Feldtyp.
 
@@ -387,7 +387,7 @@ So fügen Sie eine Gruppierung hinzu:
 
    Die Gruppierung wird automatisch auf die Tabelle angewendet und Datensätze werden unter der Trennlinie der Gruppierung angezeigt.
 
-1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
@@ -438,13 +438,13 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
 
    Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Spaltenüberschriftsnamen und klicken Sie dann auf **Nach diesem Feld sortieren**. Das Feld wird als Sortierungsauswahl im Sortiersymbol in der oberen rechten Ecke der Tabellenansicht hinzugefügt.
 
-1. Im **Sortieren von Datensätzen nach** auf eines der vorgeschlagenen Felder klicken oder auf **Andere Felder auswählen** und suchen Sie nach einem anderen Feld und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
+1. (Bedingt) Im **Sortieren von Datensätzen nach** auf eines der vorgeschlagenen Felder klicken oder auf **Andere Felder auswählen** und suchen Sie nach einem anderen Feld und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
    Die Sortierung wird automatisch auf die Tabellenansicht angewendet und die Datensätze werden nach den von Ihnen ausgewählten Kriterien sortiert angezeigt.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Optional) Wiederholen Sie die obigen Schritte, um nach zusätzlichen Feldern zu sortieren.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die oben genannten Schritte, um nach zusätzlichen Feldern zu sortieren.
 
    Die Anzahl der Felder, nach denen Sie sortieren möchten, wird links neben dem Symbol Sortieren in der oberen rechten Ecke der Symbolleiste angezeigt. Sie können nur Felder auswählen, die in den Spalten der Tabellenansicht angezeigt werden.
 

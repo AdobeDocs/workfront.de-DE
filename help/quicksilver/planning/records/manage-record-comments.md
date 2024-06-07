@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
+1. Klicken Sie auf die Karte eines Arbeitsbereichs.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden auf Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
+Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
+
 1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
 1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
 

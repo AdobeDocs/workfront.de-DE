@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
 {{step1-to-planning}}
 
-Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie personalisieren möchten.
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+   Oder
+
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen und wählen Sie den Arbeitsbereich aus, dessen Datensätze Sie personalisieren möchten.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 

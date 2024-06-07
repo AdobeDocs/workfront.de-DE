@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensatzfelder Sie bearbeiten möchten.
 
-   Der Arbeitsbereich wird geöffnet und die damit verknüpften Datensatztypen werden angezeigt.
-1. Klicken Sie auf die Karte für den Datensatztyp, dessen Felder Sie bearbeiten möchten.
+   Der Arbeitsbereich wird geöffnet und alle Datensatztypen im Arbeitsbereich werden auf Karten angezeigt.
+
+1. Klicken Sie auf die Karte eines Datensatztyps.
 
    Dadurch wird die Seite des Datensatztyps geöffnet.
+
 1. (Bedingt) Klicken Sie auf die Registerkarte eines **Tabellenansicht**.
+
+   Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
 1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Feld bearbeiten**
 
    Oder
@@ -146,7 +150,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Nach dem Speichern des Felds kann der Feldtyp nicht mehr aktualisiert werden.
+   >* Nach dem Speichern des Felds kann der Feldtyp nicht mehr aktualisiert werden.
+   >
+   >* Wenn Sie Feldkonfigurationen ändern (Feldoptionen oder Formelausdrücke), werden Datensätze, die bereits Informationen in den geänderten Feldern enthalten, ihre Werte in Echtzeit aktualisieren. Es gibt keine Warnung und kein Prüfprotokoll für die Wertänderungen, die durch Feldkonfigurationsänderungen ausgelöst werden. Alle Benutzer, die die Felder anzeigen, sehen die neuen Werte mit den Änderungen sofort.
 
    Die Feldinformationen werden für alle Benutzer mit Zugriff auf den Arbeitsbereich aktualisiert.
 
@@ -154,9 +160,3 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Dadurch wird der zuletzt aufgerufene Arbeitsbereich in der Workfront-Planung geöffnet.
-1. Klicken Sie auf die Karte eines Datensatztyps, dessen Felder Sie löschen möchten.
-1. (Bedingt) Wählen Sie eine **Tabellenansicht** aus dem **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensatzfelder Sie löschen möchten.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
+
+1. Klicken Sie auf die Karte eines Datensatztyps.
+
+1. (Bedingt) Wenn diese Option noch nicht ausgewählt ist, klicken Sie auf die Registerkarte **Tabellenansicht** auf der Seite des Datensatztyps.
+
+   Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
+
 1. Suchen Sie das zu löschende Feld in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

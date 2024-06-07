@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,11 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
 
 {{step1-to-planning}}
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie einen Datensatztyp erstellen möchten.
+
+   Oder
+
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, in dem Sie Datensatztypen erstellen möchten.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
 1. Klicks **Datensatztyp hinzufügen**.
 1. (Bedingt) Klicken Sie bei der Erstellung von Datensatztypen durch Importieren einer Excel- oder CSV-Datei auf **Von Grund auf**. Andernfalls wird die **Datensatztyp hinzufügen** wird geöffnet.
@@ -222,7 +226,11 @@ So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
 
 {{step1-to-planning}}
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen erstellen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensatztypen erstellen möchten.
+
+   Oder
+
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, in dem Sie Datensatztypen erstellen möchten.
 1. Klicks **Datensatztyp hinzufügen**.
 1. Klicks **Excel/CSV**.
 1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **CSV- oder Excel-Datei auswählen** um nach einer zu suchen.

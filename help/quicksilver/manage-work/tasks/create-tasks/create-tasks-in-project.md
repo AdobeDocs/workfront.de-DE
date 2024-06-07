@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Es wird empfohlen, diese Option insbesondere beim Hinzufügen mehrerer Aufgaben zur Liste zu verwenden.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
@@ -141,7 +141,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
          Dadurch wird die neue Aufgabe zu einer untergeordneten Aufgabe oder Unteraufgabe der vorherigen Aufgabe.
 
-         Weitere Informationen zu untergeordneten Aufgaben finden Sie unter [Aufgabenübersicht](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Weitere Informationen zu untergeordneten Aufgaben finden Sie unter [Erstellen von Unteraufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Bedingt) Wenn Sie die **Automatische Speicherung** Option nach dem Drücken **Weitere Aufgaben hinzufügen**, können Sie Folgendes tun:
 

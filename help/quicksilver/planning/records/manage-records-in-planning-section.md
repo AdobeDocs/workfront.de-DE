@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
+1. Klicken Sie auf die Karte eines Arbeitsbereichs.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf die Karte eines Datensatztyps, der mit einem Workfront-Projekt, -Portfolio oder -Programm verbunden ist.
 1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.

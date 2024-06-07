@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, für den Sie Datensatztypen löschen möchten.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensatztypen Sie löschen möchten.
+
+   Oder
+
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den Arbeitsbereich aus, aus dem Sie Datensatztypen löschen möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
-1. Klicken Sie auf die Karte für den Datensatztyp, den Sie löschen möchten.
+1. Führen Sie einen der folgenden Schritte aus:
 
-   Dadurch wird die Seite des Datensatztyps geöffnet.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**. <!--add screen shot when they finalize the UI-->
-1. Typ **Löschen** Klicken Sie im Bestätigungsfeld auf **Dauerhaftes Löschen**.
+   * Bewegen Sie den Mauszeiger über die Karte des Datensatztyps, klicken Sie auf das Menü Mehr und dann **Löschen**.
+   * Klicken Sie auf die Karte für den zu löschenden Datensatztyp und klicken Sie auf der Seite mit dem Datensatztyp auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Typ **delete** Klicken Sie im Bestätigungsfeld auf **Dauerhaftes Löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht.

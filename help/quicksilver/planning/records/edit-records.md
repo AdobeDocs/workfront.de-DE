@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie bearbeiten möchten
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
@@ -192,9 +192,9 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 {{step1-to-planning}}
 
-Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie bearbeiten möchten
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
@@ -231,9 +231,9 @@ Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
 
 {{step1-to-planning}}
 
-Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie bearbeiten möchten
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen, um den Arbeitsbereich auszuwählen, dessen Datensätze Sie aktualisieren möchten.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 

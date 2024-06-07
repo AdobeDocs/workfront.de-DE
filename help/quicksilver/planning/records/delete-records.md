@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ Sie können einen Datensatz aus den folgenden Bereichen löschen:
 
 {{step1-to-planning}}
 
-Der Arbeitsbereich, auf den Sie zuletzt zugreifen, wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie löschen möchten.
 
-1. Klicken Sie auf einen Datensatztyp.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
@@ -126,9 +128,11 @@ Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie löschen möchten.
 
-1. Klicken Sie auf einen Datensatztyp.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
 1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben links in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.

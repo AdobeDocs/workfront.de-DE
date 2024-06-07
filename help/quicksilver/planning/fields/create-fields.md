@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
+1. Klicken Sie auf den Arbeitsbereich, für den die Datensätze erstellt werden sollen.
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen, wählen Sie den Arbeitsbereich aus, für den Sie Felder erstellen möchten, und klicken Sie dann auf den Datensatztyp.
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
+
+1. Klicken Sie auf die Karte eines Datensatztyps.
 
    Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
 
@@ -127,8 +129,11 @@ Der zuletzt aufgerufene Arbeitsbereich sollte standardmäßig geöffnet werden.
    >
    >    Wenn keine Datensätze angezeigt werden, sind möglicherweise noch keine Datensätze vorhanden oder es wird ein Filter angewendet, der die Anzeige auf dem Bildschirm einschränkt.
 
-   Alle vorhandenen Felder, die mit dem Datensatztyp verknüpft sind, werden in den Spalten der Tabellenansicht angezeigt. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Alle vorhandenen Felder, die mit dem Datensatztyp verknüpft sind, werden in den Spalten der Tabellenansicht angezeigt.
 
+   >[!TIP]
+   >
+   >    Einige Felder sind möglicherweise ausgeblendet. Klicken Sie auf Felder und aktivieren Sie den Umschalter der Felder, die in der Tabellenansicht als Spalten angezeigt werden sollen.
 
 1. Klicken Sie auf **+** rechts oben in der Tabellenansicht, um neue Felder hinzuzufügen.
 1. Im **Neues Feld** -Registerkarte nach einem Feldtyp in der **Feldtyp** oder wählen Sie aus den folgenden Feldtypen aus:

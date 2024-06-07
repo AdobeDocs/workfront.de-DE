@@ -7,7 +7,7 @@ description: Projekte, Aufgaben und Probleme haben in Adobe Workfront das tatsä
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: 3a3dc541219706e3f6a4700889db344c110838bb
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Projekte, Aufgaben und Probleme haben in Adobe Workfront das tatsächliche Absch
 
 ## Tatsächliche Abschlussdaten
 
-Das tatsächliche Abschlussdatum stellt das tatsächliche Datum und die Uhrzeit des tatsächlichen Abschlusses der Arbeiten dar. Wenn eine Aufgabe oder ein Problem als Fertig oder Fertig markiert ist, legt Workfront das Datum der Statusänderung des Elements automatisch als Datum des tatsächlichen Abschlusses der Aufgabe oder des Problems fest. Wenn dieses Datum nicht genau dem Zeitpunkt entspricht, zu dem die Aufgabe oder das Problem tatsächlich abgeschlossen wurde, können Sie das tatsächliche Abschlussdatum manuell bearbeiten.
+Das Datum des tatsächlichen Abschlusses stellt das tatsächliche Datum und die Uhrzeit des tatsächlichen Abschlusses der Arbeiten dar. Wenn eine Aufgabe oder ein Problem als Fertig oder Fertig markiert ist, legt Workfront das Datum der Statusänderung des Elements automatisch als Datum des tatsächlichen Abschlusses der Aufgabe oder des Problems fest. Wenn dieses Datum nicht genau dem Zeitpunkt entspricht, zu dem die Aufgabe oder das Problem tatsächlich abgeschlossen wurde, können Sie das tatsächliche Abschlussdatum manuell bearbeiten.
 
 Sie können beispielsweise eine Aufgabe oder ein Problem &quot;Fertig&quot;am Montag markieren, Sie wissen jedoch, dass die Arbeit am vorigen Freitag abgeschlossen wurde. Nachdem Sie die Aufgabe oder das Problem mit Fertig markiert haben, können Sie das tatsächliche Abschlussdatum der Aufgabe oder des Problems manuell auf das Datum des vorherigen Freitags aktualisieren, um den tatsächlichen Abschluss widerzuspiegeln.
 
@@ -28,14 +28,14 @@ Das tatsächliche Abschlussdatum eines Projekts kann nicht manuell bearbeitet we
 
 Das tatsächliche Abschlussdatum eines Projekts wird wie folgt festgelegt:
 
-* Durch manuelles Aktualisieren des Projektstatus: Wenn der Projektabschlussmodus auf Manuell festgelegt ist und Sie den Projektstatus manuell in &quot;Abgeschlossen&quot;ändern, wird in diesem Trigger das tatsächliche Abschlussdatum des Projekts an das Datum und die Uhrzeit der Statusänderung .
-* Wenn die letzte Aufgabe des Projekts automatisch abgeschlossen ist: Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist und Sie die letzte Aufgabe als Abgeschlossen markieren oder das tatsächliche Abschlussdatum der letzten Aufgabe aktualisieren, wird auch das tatsächliche Abschlussdatum des Projekts mit diesem Datum aktualisiert.
+* Durch manuelles Aktualisieren des Projektstatus: Wenn der Abschlussmodus des Projekts auf &quot;Manuell&quot;festgelegt ist und Sie den Projektstatus manuell auf &quot;Abgeschlossen&quot;ändern, wird das tatsächliche Abschlussdatum des Projekts in Trigger mit dem Datum und der Uhrzeit der letzten abgeschlossenen Aufgabe aktualisiert.
+* Wenn die letzte Aufgabe des Projekts automatisch abgeschlossen ist: Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist und Sie die letzte Aufgabe als Abgeschlossen markieren oder das tatsächliche Abschlussdatum der letzten Aufgabe aktualisieren, wird das tatsächliche Abschlussdatum des Projekts ebenfalls mit diesem Datum aktualisiert.
 
-   Informationen zum Festlegen des Abschlussmodus eines Projekts finden Sie im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Informationen zum Festlegen des Abschlussmodus eines Projekts finden Sie im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   >[!NOTE]
-   >
-   >Workfront verwendet das tatsächliche Abschlussdatum aus der Aufgabe des Projekts, das zuletzt abgeschlossen wurde, als tatsächlichen Abschlussdatum für das gesamte Projekt.
+  >[!NOTE]
+  >
+  >Workfront verwendet das tatsächliche Abschlussdatum aus der Aufgabe des Projekts, das zuletzt abgeschlossen wurde, als tatsächlichen Abschlussdatum für das gesamte Projekt.
 
 Ein Workfront- oder Gruppenadministrator bestimmt, ob Workfront das aktuelle Datum oder das geplante Abschlussdatum einer Aufgabe oder ein Problem verwendet, wenn diese auf Fertig stellen oder geschlossen eingestellt sind. Informationen zum Festlegen von Aufgaben- und Problemeinstellungen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 {{step1-to-planning}}
 
 
-Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klicken Sie auf die Karte eines Arbeitsbereichs.
 
-1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
+
+   Die Seite mit dem Datensatztyp wird geöffnet.
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
@@ -218,11 +222,13 @@ Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informati
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klicken Sie auf die Karte eines Arbeitsbereichs.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
-   Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+   Die Seite mit dem Datensatztyp wird geöffnet.
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
@@ -247,13 +253,14 @@ Die Freigabeberechtigungen der ursprünglichen Ansicht werden nicht an die dupli
 
 {{step1-to-planning}}
 
-Der zuletzt aufgerufene Arbeitsbereich wird standardmäßig geöffnet.
+1. Klicken Sie auf die Karte eines Arbeitsbereichs.
 
-Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
-   Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
+   Die Seite mit dem Datensatztyp wird geöffnet.
+Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
 1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Duplizieren**.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -249,20 +249,14 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
 
-   Dadurch wird der Arbeitsbereich für die Workfront-Planung geöffnet.
+   Die Landingpage für die Workfront-Planung wird geöffnet.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf die folgenden Registerkarten:
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Meine Arbeitsbereiche**: Zeigt die erstellten Arbeitsbereiche an.
+   * **Andere Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in der Workfront-Planung an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im **Arbeitsbereiche** Bereich.
 
 ## Wichtiger Einstieg in die Workfront-Planung - {#planning-important-intro}
 

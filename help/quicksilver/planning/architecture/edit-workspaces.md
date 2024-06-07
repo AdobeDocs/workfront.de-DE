@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 {{step1-to-planning}}
 
+1. Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen.
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**.
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.
 
@@ -130,7 +131,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Löschen** , um einen Datensatztyp zu löschen.
 
-   Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optional) Klicken Sie auf eine Karte vom Typ Datensatz, um sie zu ziehen und an einer neuen Stelle abzulegen. Sie können Datensatztypen per Drag-and-Drop von einem Arbeitsbereich in einen anderen Arbeitsbereich ziehen.
 

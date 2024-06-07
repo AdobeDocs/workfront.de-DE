@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Klicks **Arbeitsbereich erstellen**
 
-1. (Bedingt) Wenn Ihre Umgebung keine Arbeitsbereiche enthält, klicken Sie auf **Arbeitsbereich erstellen**
-
-   Oder klicken Sie in einem vorhandenen Arbeitsbereich auf den nach unten zeigenden Pfeil rechts neben dem Workspace-Namen und klicken Sie dann auf **Arbeitsbereich erstellen**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder mithilfe einer der verfügbaren Vorlagen erstellen.
 
 1. (Optional und bedingt) Klicken Sie auf **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
@@ -131,17 +121,19 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
    * Vertriebsmanagement
    * Produktverwaltung
 
+   Das Vorlagenvorschaufeld wird geöffnet.
+
    Es gibt einen Hinweis darauf, welche operationellen Datensatztypen, Taxonomien und wie viele Felder mit jeder Vorlage verknüpft sind.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Weitere Informationen zu Vorlagen für Workfront Planning Workspace finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klicks **Vorlage verwenden** , um den Arbeitsbereich aus der ausgewählten Vorlage zu erstellen
+1. Klicken Sie im Vorlagenvorschau-Feld auf **Vorlage verwenden** , um den Arbeitsbereich aus der ausgewählten Vorlage zu erstellen
 
    Oder
 
-   Klicks **Arbeitsbereich erstellen** , um einen neuen Arbeitsbereich zu erstellen.
+   Klicks **Zurück** Klicken Sie auf **Arbeitsbereich erstellen** , um einen neuen Arbeitsbereich zu erstellen.
 
    Eine für die folgenden Arten von Arbeitsbereichen wird erstellt:
 

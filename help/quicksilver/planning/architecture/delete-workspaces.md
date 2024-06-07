@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-Dadurch wird der zuletzt aufgerufene Arbeitsbereich geöffnet.
+1. Klicken Sie auf den Arbeitsbereich, den Sie löschen möchten.
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem vorhandenen Workspace-Namen und wählen Sie den zu löschenden Arbeitsbereich aus.
+   Die Workspace-Seite wird angezeigt.
+
 1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) neben dem Workspace-Namen klicken Sie dann auf **Löschen**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Typ &quot;**delete**&quot; in der vorgesehenen Platzierung und klicken Sie dann auf **Dauerhaftes Löschen**.
+1. Typ &quot;**delete**&quot; in der vorgesehenen Platzierung und klicken Sie dann auf **Dauerhaftes Löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der Arbeitsbereich wird gelöscht und kann nicht wiederhergestellt werden. Alle Datensatztypen, Datensätze, Felder und Ansichten, die mit ihnen verknüpft sind, werden ebenfalls gelöscht. <!--ensure this is right at or before GA-->

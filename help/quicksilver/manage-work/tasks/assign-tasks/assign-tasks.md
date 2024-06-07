@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Zuweisen einer einzelnen Aufgabe
 
 1. Gehen Sie zu einer Aufgabe, die Sie zuweisen möchten.
-1. Klicks **Zuweisen zu** im **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems.
+1. Klicks **Zuweisen zu** im **Zuweisungen** im Header der Aufgabe
 
    Oder
 
    Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
 
-   Beispielbild in der Produktionsumgebung:
+   In der Produktionsumgebung:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   <span class="preview">In der Vorschau-Umgebung:</span>
    ![Arbeitsaufträge](assets/assignments-box-in-task-header.png)
 
 1. Führen Sie einen der folgenden Schritte aus:

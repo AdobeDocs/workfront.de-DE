@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Beachten Sie Folgendes:
 
 {{step1-to-planning}}
 
-1. Wählen Sie den Arbeitsbereich aus, für dessen Datensätze Sie Miniaturansichten hinzufügen möchten, und klicken Sie dann auf die Karte vom Typ Datensatz .
+1. Klicken Sie auf den Arbeitsbereich, für dessen Datensätze Sie Miniaturansichten hinzufügen möchten, und dann auf die Karte vom Typ Datensatz.
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü. Alle Datensätze des ausgewählten Typs werden in einer Tabelle angezeigt.
@@ -145,7 +145,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -180,7 +180,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
