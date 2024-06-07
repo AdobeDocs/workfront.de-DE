@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Objekte in Workfront (und damit in Ihrem Data Lake) werden nicht nur durch ihre 
 >[!IMPORTANT]
 >
 >Das Entitätsbeziehungsdiagramm ist ein laufendes Werk - als solches dient es nur zu Referenzzwecken und kann geändert werden.
+
+## Datumstypen
+
+Es gibt eine Reihe von Datumsobjekten, die Informationen darüber bereitstellen, wann bestimmte Ereignisse auftreten.
+
+* `DL_LOAD_TIMESTAMP`: Dieses Datum wird für interne Referenzzwecke verwendet und gibt an, wann die Daten in die Tabelle &quot;Aktueller Verlauf&quot;, &quot;Ereignis&quot;oder &quot;Täglicher Verlauf&quot;geladen wurden. Dieses Datum sollte nicht für die Datenanalyse verwendet werden und sollte während der Beta-Phase des Workfront Data Lake entfernt werden.
+* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle Tagesverlauf vorhanden. Diese Tabelle enthält einen Datensatz, wie die Daten für jedes in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in den Tabellen Ereignis- als auch Tagesverlauf vorhanden und zeichnet genau auf, wenn sich ein Datensatz geändert hat _nach_ den Wert, den er in der aktuellen Zeile hat.
+* `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in den Tabellen Ereignis- als auch Tagesverlauf vorhanden und zeichnet genau auf, wenn sich ein Datensatz geändert hat _von_ den Wert in der aktuellen Zeile in einen Wert in einer anderen Zeile. So aktivieren Sie zwischen Abfragen auf `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Wenn ein Datensatz noch gültig ist (d. h., der Wert hat sich nicht geändert), `END_EFFECTIVE_TIMESTAMP` hat den Wert 2300-01-01.
 
 ## Terminologie
 

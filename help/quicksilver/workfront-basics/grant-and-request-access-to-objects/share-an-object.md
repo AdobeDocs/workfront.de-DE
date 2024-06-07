@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf di
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 ## Freigeben eines Projekts, einer Aufgabe oder eines Problems über die zugehörige Seite
 
-1. Gehen Sie zur Seite des Projekts, der Aufgabe oder des Problems, das Sie freigeben möchten.
+1. Rufen Sie die Seite des Projekts, der Aufgabe oder des Problems auf, das Sie freigeben möchten.
 
    Informationen darüber, welche Objekte freigegeben werden können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -167,7 +167,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 ## Freigeben eines Dokuments, Portfolios oder Programms über seine Seite
 
-1. Wechseln Sie zu dem Objekt, das Sie freigeben möchten.
+1. Rufen Sie die Seite des Dokuments, Portfolios oder Programms auf, die Sie freigeben möchten.
 
    Informationen darüber, welche Objekte freigegeben werden können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
