@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (20. Juni 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024)
 
 Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.
 

@@ -4,9 +4,9 @@ description: Verbesserungen der Ressourcenverwaltung im dritten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3a56518ecbcb85b443284402d0e273d6a8485fb2
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (20. Juni 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024)
 
 Um die Arbeit nahtlos anzupassen, wenn der primäre Verantwortliche für eine Aufgabe eine geplante Zeitüberschreitung aufweist, weist der Arbeitslastausgleich jetzt sowohl den primären als auch den sekundären Benutzern Stunden zu, wenn die Projekt-Timeline neu berechnet wird. (Diese Funktion ist nur verfügbar, wenn der Workfront-Administrator die Einstellung Benutzerzeit deaktivieren im Bereich Einrichtung aktiviert hat, um die Zeitüberschreitung des Benutzers zu berücksichtigen.)
 

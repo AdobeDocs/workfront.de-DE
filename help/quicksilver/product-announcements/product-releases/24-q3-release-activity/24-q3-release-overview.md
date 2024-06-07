@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 6. Juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (20. Juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Die Auszeit wird jetzt im Lastenausgleich angezeigt.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Die Auszeit wird jetzt im Lastenausgleich angezeigt.</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>Um die Arbeit nahtlos anzupassen, wenn der primäre Verantwortliche für eine Aufgabe eine geplante Zeitüberschreitung aufweist, weist der Arbeitslastausgleich jetzt sowohl den primären als auch den sekundären Benutzern Stunden zu, wenn die Projekt-Timeline neu berechnet wird.</p>
                     </td>
@@ -274,10 +271,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 6. Juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (20. Juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (Juli 2024)</p>
                             </li>
                         </ul>
                     </td>
