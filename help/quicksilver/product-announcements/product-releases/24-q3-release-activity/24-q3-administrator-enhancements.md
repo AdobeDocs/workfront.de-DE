@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Mit der Umgebungsförderung können Sie Objekte von einer Workfront-Umgebung in 
 Zuvor mussten Objekte in Produktionsumgebungen separat von Sandbox- oder Vorschauumgebungen konfiguriert werden.
 
 Weitere Informationen und Anweisungen zur Umgebungsförderung sind verfügbar, wenn die Umgebungswerbung mit Version 24.6 live geschaltet wird.
+
+[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Benutzerdefinierte Formulare und benutzerdefinierte Felder im benutzerdefinierten Formularentwickler freigeben
 
