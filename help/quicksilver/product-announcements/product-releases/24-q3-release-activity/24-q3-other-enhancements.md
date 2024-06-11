@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 Auf dieser Seite werden Verbesserungen beschrieben, die mit der Version 2024 des dritten Quartals in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-BEREITS NACHGESCHRIEBEN - NOLAN KANN IGNORIEREN
 
 ## Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar
 
@@ -47,7 +45,7 @@ Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront]
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (13. Juni 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktion für alle Kunden: Mit Version 24.7 (Juli 2024)
 
 Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.
 
