@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 >
 >| Monatliche Version | Quartalsversion |
 >|----|----|
->| <ul><li>24.5 (16. Mai 2024)</li><li>24.6 (20. Juni 2024)</li><li>24.7 (Juli 2024)</li></ul> | <ul><li>24.7 (Juli 2024)</li></ul> |
+>| <ul><li>24.5 (16. Mai 2024)</li><li>24.6 (13. Juni 2024)</li><li>24.7 (Juli 2024)</li></ul> | <ul><li>24.7 (Juli 2024)</li></ul> |
 >
 >Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Schnellveröffentlichungsprozess aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -64,7 +64,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 24.6 (20. Juni 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.6 (13. Juni 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -297,6 +297,24 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen. </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau: 13. Juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für bestimmte Kunden: Mit der Version 24.7 (Juli 2024)</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">Die Adobe Unified Shell wird in einem stufenweisen Rollout zur Verfügung gestellt. Weitere Organisationen werden mit den Versionen 24.10 und 25.1 in die Adobe Unified Shell integriert. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Schaltfläche "Hilfe"aus der Hauptnavigationsleiste entfernt</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.</p>
@@ -307,7 +325,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 6. Juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (20. Juni 2024)</p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.6 (13. Juni 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.7 (Juli 2024)</p>
