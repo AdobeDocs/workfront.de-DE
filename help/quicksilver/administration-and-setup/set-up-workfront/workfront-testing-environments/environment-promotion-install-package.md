@@ -8,13 +8,11 @@ description: Die Umgebungsförderungsfunktion soll die Möglichkeit bieten, konf
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -29,9 +27,36 @@ Sie müssen ein Paket in der Umgebung installieren, in die Sie Objekte kopieren 
 >
 >Wenn Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisiert wird, während Sie das Objekt für die Umgebungsförderung konfigurieren, geht diese Konfiguration bei der Aktualisierung verloren. Es wird empfohlen, die benutzerdefinierte Aktualisierungs-Sandbox nur dann zu aktualisieren, wenn alle ausstehenden Umgebungsförderungsobjekte und -pakete erfolgreich beworben wurden.
 
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Ihr Unternehmen muss auf dem neuen Preismodell basieren und über einen Prime- oder Ultimate-Plan verfügen.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen auf Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] Administrator.
+   </td>
+  </tr>
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Voraussetzungen
 
-Sie müssen ein Paket erstellt haben, bevor Sie es installieren können.
+Vor der Installation muss ein Umgebungs-Promotionpaket erstellt werden.
 
 Anweisungen finden Sie unter [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 

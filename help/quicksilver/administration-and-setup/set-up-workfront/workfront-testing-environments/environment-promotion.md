@@ -8,20 +8,18 @@ description: Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # Objekte verschieben zwischen [!DNL Workfront] Umgebungen, die [!DNL Workfront] Umgebungsförderungs-API
 
-Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Sie können diese Objekte mithilfe der Workfront-API verschieben, wie in diesem Artikel beschrieben.
+Mit der Umgebungsförderungsfunktion können Sie konfigurationsbezogene Objekte von einer Umgebung in eine andere verschieben. Sie können diese Objekte mithilfe der Workfront-API verschieben, wie in diesem Artikel beschrieben.
 
 Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe der Workfront-Anwendung finden Sie unter:
 
@@ -29,7 +27,32 @@ Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe der Workfr
 * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Ihr Unternehmen muss auf dem neuen Preismodell basieren und über einen Prime- oder Ultimate-Plan verfügen.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen auf Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] Administrator.
+   </td>
+  </tr>
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 

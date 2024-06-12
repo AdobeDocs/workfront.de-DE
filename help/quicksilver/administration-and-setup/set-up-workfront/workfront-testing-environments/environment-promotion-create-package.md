@@ -8,13 +8,11 @@ description: Die Umgebungsförderungsfunktion soll die Möglichkeit bieten, konf
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ Sie müssen ein Paket in der Umgebung erstellen, in das Sie Objekte kopieren mö
 >[!IMPORTANT]
 >
 >Wenn Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisiert wird, während Sie das Objekt für die Umgebungsförderung konfigurieren, geht diese Konfiguration bei der Aktualisierung verloren. Es wird empfohlen, die benutzerdefinierte Aktualisierungs-Sandbox nur dann zu aktualisieren, wenn alle ausstehenden Umgebungsförderungsobjekte und -pakete erfolgreich beworben wurden.
+
+## Zugriffsanforderungen
+
+Sie müssen über Folgendes verfügen:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Ihr Unternehmen muss auf dem neuen Preismodell basieren und über einen Prime- oder Ultimate-Plan verfügen.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen auf Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] Administrator.
+   </td>
+  </tr>
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Package erstellen
 
